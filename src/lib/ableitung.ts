@@ -63,6 +63,31 @@ function nachweis(kontext: PlanKontext, ...begriffe: string[]): number | null {
   return findeNachweis(kontext, begriffe)?.wert ?? null;
 }
 
+/**
+ * Geschoße gehören in Bauordnung sortiert, nicht alphabetisch — sonst steht das
+ * Dachgeschoß vor dem Erdgeschoß. Zwischenzahlen ("2. OG") ordnen innerhalb
+ * ihrer Ebene.
+ */
+const GESCHOSS_RANG: [RegExp, number][] = [
+  [/\bfundament|bodenplatte\b/i, 0],
+  [/\b(kg|keller|untergescho)/i, 1],
+  [/\b(sou|souterrain)/i, 2],
+  [/\b(eg|erdgescho)/i, 3],
+  [/\b(og|obergescho|stock)/i, 4],
+  [/\b(dg|dachgescho|attika)/i, 5],
+];
+
+export function geschossRang(geschoss: string): number {
+  const treffer = GESCHOSS_RANG.find(([muster]) => muster.test(geschoss));
+  const basis = treffer ? treffer[1] : 9;
+  const zahl = Number(geschoss.match(/\d+/)?.[0] ?? 0);
+  return basis * 100 + zahl;
+}
+
+export function sortiereGeschosse(geschosse: string[]): string[] {
+  return [...geschosse].sort((a, b) => geschossRang(a) - geschossRang(b) || a.localeCompare(b));
+}
+
 function geschosshoehe(kontext: PlanKontext, geschoss: string): number | null {
   const eintrag = Object.entries(kontext.geschosshoehen).find(
     ([g]) => g.toLowerCase() === geschoss.toLowerCase(),
@@ -555,7 +580,9 @@ function abschnittAusbau(raeume: Raum[], kontext: PlanKontext, genutzt: Set<Anna
   let wandGesamt = 0;
   let hoeheFehlt = false;
 
-  for (const [geschoss, gruppe] of [...nachGeschoss].sort((a, b) => a[0].localeCompare(b[0]))) {
+  const sortiert = sortiereGeschosse([...nachGeschoss.keys()]);
+  for (const geschoss of sortiert) {
+    const gruppe = nachGeschoss.get(geschoss)!;
     const umfang = summe(gruppe.map((r) => r.umfang_m));
     const ausSchnitt = geschosshoehe(kontext, geschoss);
     const hoehe = ausSchnitt ?? ANNAHMEN.raumhoheDachgeschoss.wert;

@@ -1,13 +1,14 @@
 "use client";
 
 import { useRef, useState } from "react";
-import type { AnalysisResult, GroupedItem, Konfidenz } from "@/lib/types";
+import type { AnalysisResult, GroupedItem, Konfidenz, Massenauszug } from "@/lib/types";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
+import { MassenauszugAnsicht } from "@/components/Massenauszug";
 
 type KatalogInfo = { katalog: string; version: string; vollstaendig: boolean };
 
 type ApiResponse =
-  | { analyse: AnalysisResult; gruppen: GroupedItem[]; katalog: KatalogInfo }
+  | { analyse: AnalysisResult; gruppen: GroupedItem[]; massenauszug: Massenauszug; katalog: KatalogInfo }
   | { fehler: string };
 
 const KONFIDENZ_TEXT: Record<Konfidenz, string> = {
@@ -164,6 +165,12 @@ export default function ToolPage() {
             </div>
 
             <PlanKontextBlock kontext={ergebnis.analyse.kontext} />
+
+            <MassenauszugAnsicht auszug={ergebnis.massenauszug} />
+
+            <h3 className="font-display font-bold uppercase text-xl mt-12 mb-4 border-b-2 border-line-strong pb-2.5">
+              Erkannte Bauteile
+            </h3>
 
             <div className="overflow-x-auto rounded-lg border border-line">
               <table className="w-full text-sm">

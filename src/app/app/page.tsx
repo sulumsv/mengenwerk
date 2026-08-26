@@ -85,7 +85,7 @@ export default function ToolPage() {
         </div>
 
         {ergebnis && "fehler" in ergebnis && (
-          <div className="mt-6 rounded-md border border-alert/40 bg-alert/10 p-5 text-sm text-alert">{ergebnis.fehler}</div>
+          <div className="mt-6 rounded-md border border-highlight/40 bg-highlight/10 p-5 text-sm text-highlight">{ergebnis.fehler}</div>
         )}
 
         {ergebnis && "gruppen" in ergebnis && (

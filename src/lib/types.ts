@@ -44,13 +44,72 @@ export interface PlanKontext {
   hinweise: string[];
 }
 
+/**
+ * Ein Raum laut Raumstempel. Die dort ausgewiesene Quadratmeterzahl ist die
+ * verlässlichste Angabe im ganzen Plan und wird unverändert übernommen, statt
+ * sie aus Maßketten nachzurechnen.
+ */
+export interface Raum {
+  id: string;
+  geschoss: string;
+  name: string;
+  flaeche_m2: number;
+  belag?: string;
+  laenge_m?: number;
+  breite_m?: number;
+  /** Aus Länge und Breite gerechnet, sonst aus der Fläche geschätzt. */
+  umfang_m: number;
+  umfangQuelle: "gerechnet" | "geschaetzt";
+  beheizt: boolean;
+  nassraum: boolean;
+  konfidenz: Konfidenz;
+  quelle: string;
+}
+
 export interface AnalysisResult {
   dateiname: string;
   dateityp: "vektor-pdf" | "scan" | "bild" | "dwg";
   seiten: number;
   kontext: PlanKontext;
+  raeume: Raum[];
   elemente: DetectedElement[];
   hinweise: string[];
+}
+
+export type Einheit = "m2" | "m3" | "t" | "lfm" | "Stk" | "EUR";
+
+export interface Position {
+  nummer: string;
+  bezeichnung: string;
+  detail?: string;
+  rechenweg: string;
+  menge: number | null;
+  einheit: Einheit;
+  konfidenz: Konfidenz;
+  lgKandidaten: string[];
+  /** Ids aus der Annahmen-Registry, die in diese Position eingeflossen sind. */
+  annahmen: string[];
+}
+
+export interface Abschnitt {
+  nummer: number;
+  titel: string;
+  lgHinweis: string;
+  vorspann?: string;
+  positionen: Position[];
+}
+
+export interface Massenauszug {
+  raeume: Raum[];
+  kennzahlen: Position[];
+  abschnitte: Abschnitt[];
+  angewandteAnnahmen: {
+    id: string;
+    titel: string;
+    begruendung: string;
+    auswirkung: string;
+  }[];
+  pruefpunkte: string[];
 }
 
 export interface GroupedItem {

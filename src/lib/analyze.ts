@@ -1,7 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { z } from "zod";
-import type { AnalysisResult, DetectedElement, ElementType, Konfidenz, PlanKontext } from "./types";
+import type { AnalysisResult, DetectedElement, ElementType, Konfidenz, PlanKontext, Raum } from "./types";
 
 const MODELL = "claude-opus-5";
 
@@ -53,6 +53,20 @@ const KontextSchema = z.object({
 });
 
 const SeitenSchema = z.object({
+  raeume: z.array(
+    z.object({
+      geschoss: z.string().describe("Geschoß laut Planüberschrift, z.B. EG, OG, DG"),
+      name: z.string().describe("Raumname laut Stempel"),
+      flaeche_m2: z.number().describe("Im Raumstempel ausgewiesene Fläche, unverändert übernehmen"),
+      belag: z.string().nullable().describe("Belagsangabe im Stempel, z.B. Parkett, Fliesen"),
+      laenge_m: z.number().nullable().describe("Nur wenn im Plan bemaßt, sonst null"),
+      breite_m: z.number().nullable().describe("Nur wenn im Plan bemaßt, sonst null"),
+      beheizt: z.boolean().describe("Garage, Terrasse, Balkon und unkonditionierte Räume sind nicht beheizt"),
+      nassraum: z.boolean().describe("Bad, WC, Dusche"),
+      konfidenz: z.enum(KONFIDENZ),
+      quelle: z.string(),
+    }),
+  ),
   elemente: z.array(
     z.object({
       type: z.enum(ELEMENT_TYPEN),
@@ -83,6 +97,10 @@ Erfasse:
 Erfinde keine Werte. Was nicht im Plan steht, bleibt leer.`;
 
 const SEITEN_PROMPT = `Du liest österreichische Einreichpläne als Baukalkulator und ermittelst Massen.
+
+Erfasse zwei Dinge getrennt: RÄUME (jeder Raumstempel eines Grundrisses) und BAUTEILE (Fenster, Türen, Stützen und Ähnliches).
+
+RÄUME sind die Grundlage aller Folgemengen — Estrich, Belag, Putz und Malerei leiten sich aus ihnen ab. Erfasse jeden Raumstempel eines Grundrisses, auch Garage, Terrasse und Balkon, und markiere diese als nicht beheizt. Übernimm die ausgewiesene Fläche unverändert. Länge und Breite nur, wenn sie im Plan bemaßt sind — rechne sie nicht aus der Fläche zurück.
 
 QUELLENHIERARCHIE — in dieser Reihenfolge:
 1. Raumstempel mit ausgewiesener Quadratmeterzahl und Belagsangabe. Das ist die sicherste Quelle. Übernimm die Fläche unverändert, statt sie aus Maßketten nachzurechnen.
@@ -121,6 +139,26 @@ function baueKontextText(kontext: PlanKontext): string {
   return zeilen.length > 0
     ? `Für den gesamten Plansatz gilt:\n${zeilen.join("\n")}`
     : "Für diesen Plansatz konnten keine übergreifenden Angaben erhoben werden.";
+}
+
+/**
+ * Für Putz, Malerei und Sockelleisten wird der Raumumfang gebraucht. Steht nur
+ * die Fläche im Stempel, wird er über ein angenommenes Seitenverhältnis von
+ * 1,4 genähert — bei üblichen Wohnraumzuschnitten liegt das rund zwei Prozent
+ * neben dem gerechneten Wert. Der Rückgabewert sagt, welcher Fall vorlag.
+ */
+const SEITENVERHAELTNIS = 1.4;
+
+function ermittleUmfang(
+  flaeche: number,
+  laenge: number | null,
+  breite: number | null,
+): { umfang_m: number; umfangQuelle: "gerechnet" | "geschaetzt" } {
+  if (laenge && breite && laenge > 0 && breite > 0) {
+    return { umfang_m: 2 * (laenge + breite), umfangQuelle: "gerechnet" };
+  }
+  const kurz = Math.sqrt(flaeche / SEITENVERHAELTNIS);
+  return { umfang_m: 2 * kurz * (1 + SEITENVERHAELTNIS), umfangQuelle: "geschaetzt" };
 }
 
 function alsBild(bild: Buffer) {
@@ -191,6 +229,7 @@ export async function analysiereBildseiten(
   const kontext = await erhebeKontext(client, bilder);
   const kontextText = baueKontextText(kontext);
 
+  const alleRaeume: Raum[] = [];
   const alleElemente: DetectedElement[] = [];
   const alleHinweise: string[] = [];
 
@@ -221,6 +260,23 @@ export async function analysiereBildseiten(
       continue;
     }
 
+    for (const r of geparst.raeume) {
+      alleRaeume.push({
+        id: crypto.randomUUID(),
+        geschoss: r.geschoss,
+        name: r.name,
+        flaeche_m2: r.flaeche_m2,
+        belag: r.belag ?? undefined,
+        laenge_m: r.laenge_m ?? undefined,
+        breite_m: r.breite_m ?? undefined,
+        ...ermittleUmfang(r.flaeche_m2, r.laenge_m, r.breite_m),
+        beheizt: r.beheizt,
+        nassraum: r.nassraum,
+        konfidenz: r.konfidenz as Konfidenz,
+        quelle: `${r.quelle} (Blatt ${i + 1})`,
+      });
+    }
+
     for (const el of geparst.elemente) {
       alleElemente.push({
         id: crypto.randomUUID(),
@@ -245,6 +301,7 @@ export async function analysiereBildseiten(
     dateityp,
     seiten: bilder.length,
     kontext,
+    raeume: alleRaeume,
     elemente: alleElemente,
     hinweise: alleHinweise,
   };

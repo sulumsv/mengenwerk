@@ -30,7 +30,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-alert text-alert-fg px-6 md:px-10 py-14">
+      <section className="bg-highlight text-highlight-fg px-6 md:px-10 py-14">
         <div className="max-w-7xl mx-auto grid md:grid-cols-[1fr_2fr] gap-8">
           <h2 className="font-display font-black uppercase text-3xl leading-tight">Das Problem</h2>
           <p className="text-lg leading-relaxed max-w-2xl">

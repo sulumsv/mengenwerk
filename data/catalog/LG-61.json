@@ -1,0 +1,1366 @@
+{
+  "lg": "61",
+  "title": "Sporthallenausbau",
+  "positions": [
+    {
+      "code": "61.00.00A",
+      "text": "Beschreibung Untergrund f.Wände",
+      "unit": ""
+    },
+    {
+      "code": "61.00.00B",
+      "text": "Beschreibung Untergrund f.Decken",
+      "unit": ""
+    },
+    {
+      "code": "61.00.00C",
+      "text": "Beschreibung Untergrund f.Böden",
+      "unit": ""
+    },
+    {
+      "code": "61.00.00F",
+      "text": "Beschreibung Fußbodenheizung",
+      "unit": ""
+    },
+    {
+      "code": "61.00.00O",
+      "text": "Brandverhalten - Klassifikation von Materialien",
+      "unit": ""
+    },
+    {
+      "code": "61.00.00P",
+      "text": "Anforderungen gem. einschlägiger ÖISS RL Sporthallenböden",
+      "unit": ""
+    },
+    {
+      "code": "61.00.00R",
+      "text": "Prüfzeugnis gemäß ÖISS Richtlinien",
+      "unit": ""
+    },
+    {
+      "code": "61.00.00S",
+      "text": "Verfügbarkeit von Beilagen (Statik) zum LV",
+      "unit": ""
+    },
+    {
+      "code": "61.00.00T",
+      "text": "Verfügbarkeit von Beilagen (Sport-/Spielgeräte/Boden)",
+      "unit": ""
+    },
+    {
+      "code": "61.00.00U",
+      "text": "Verfügbarkeit von Beilagen (Sport-Spielgeräte Wand)",
+      "unit": ""
+    },
+    {
+      "code": "61.00.00V",
+      "text": "Verfügbarkeit von Beilagen (Pläne) zum LV",
+      "unit": ""
+    },
+    {
+      "code": "61.00.00X",
+      "text": "Sonstige Angaben",
+      "unit": ""
+    },
+    {
+      "code": "61.00.01A",
+      "text": "Endkontrollprüfung Boden",
+      "unit": ""
+    },
+    {
+      "code": "61.00.01B",
+      "text": "Endkontrollprüfung Wand",
+      "unit": ""
+    },
+    {
+      "code": "61.00.01C",
+      "text": "Endkontrollprüfung Decke",
+      "unit": ""
+    },
+    {
+      "code": "61.11.01A",
+      "text": "Höhenaufnahme Nivelliernetz 3x3m Unterbeton",
+      "unit": "m²"
+    },
+    {
+      "code": "61.11.04A",
+      "text": "Höhenausgleich bituminiertes Perlit b.4cm",
+      "unit": "m³"
+    },
+    {
+      "code": "61.11.05A",
+      "text": "Höhenausgleich mineralisierte Holzspäne",
+      "unit": "m³"
+    },
+    {
+      "code": "61.14.11A",
+      "text": "Schwingboden Mehrschichtparkett Eiche 4,5mm Riemen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.14.11B",
+      "text": "Schwingboden Mehrschichtparkett Eiche 5,5mm Riemen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.14.11C",
+      "text": "Schwingboden Mehrschichtparkett Esche 4,5mm Riemen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.14.11D",
+      "text": "Schwingboden Mehrschichtparkett Esche 5,5mm Riemen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.14.13X",
+      "text": "Schwingboden Mehrschichtparkett",
+      "unit": "m²"
+    },
+    {
+      "code": "61.14.21A",
+      "text": "Schwingboden Linoleum 3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.14.21B",
+      "text": "Schwingboden Polyurethan-Hartschaum 4mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.14.23X",
+      "text": "Schwingboden Kunststoff",
+      "unit": "m²"
+    },
+    {
+      "code": "61.15.11A",
+      "text": "Bodenkonst.in Sandwichbauweise/Parkett Eiche 4,5mm Riemen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.15.11B",
+      "text": "Bodenkonst.in Sandwichbauweise/Parkett Eiche 5,5mm Riemen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.15.11C",
+      "text": "Bodenkonst.in Sandwichbauweise/Parkett 4,5mm Riemen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.15.11D",
+      "text": "Bodenkonst.in Sandwichbauweise/Parkett 5,5mm Riemen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.15.13X",
+      "text": "Bodenkonst.in Sandwichbauweise/Parkett",
+      "unit": "m²"
+    },
+    {
+      "code": "61.15.21A",
+      "text": "Bodenkonst.in Sandwichbauweise/Linoleum 3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.15.21B",
+      "text": "Bodenkonst.in Sandwichbauweise/Polyurethan-Hartschaum 4mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.15.21C",
+      "text": "Bodenkonst.in Sandwichbauweise/Kautschuk 3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.15.23X",
+      "text": "Bodenkonst.in Sandwichbauweise/Kunststoff",
+      "unit": "m²"
+    },
+    {
+      "code": "61.16.21A",
+      "text": "Mischelastischer Sportboden Linoleum 3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.16.21B",
+      "text": "Mischelastischer Sportboden Polyurethan-Hartschaum 4mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.16.21C",
+      "text": "Mischelastischer Sportboden Kautschuk 3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.16.23X",
+      "text": "Mischelastischer Sportboden Kunststoff",
+      "unit": "m²"
+    },
+    {
+      "code": "61.17.04A",
+      "text": "Kombielast-Boden FL+ME Komp.PUR+Deckl.",
+      "unit": "m²"
+    },
+    {
+      "code": "61.17.04C",
+      "text": "Kombielast-Boden FL+ME Komp.Linol 3,2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.17.06A",
+      "text": "Kombielast-Boden FL+PE Komp.PUR+Deckl.",
+      "unit": "m²"
+    },
+    {
+      "code": "61.17.06C",
+      "text": "Kombielast-Boden FL+PE Komp.Linol 3,2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.17.06E",
+      "text": "Kombielast-Boden FL+PE Komp.PVC 2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.18.06A",
+      "text": "Punktelast-Boden PUR+Deckl.",
+      "unit": "m²"
+    },
+    {
+      "code": "61.18.06B",
+      "text": "Punktelast-Boden Vinyl",
+      "unit": "m²"
+    },
+    {
+      "code": "61.18.06X",
+      "text": "Punktelast-Boden:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.02A",
+      "text": "Höhenausgleich Geräteraumboden m.Distanzklötzen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.02C",
+      "text": "Höhenausgleich Geräteraumboden/Sandwichbauweise m.XPS 40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.02D",
+      "text": "Höhenausgleich Geräteraumboden/Sandwichbauweise m.XPS 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.04A",
+      "text": "UK-Geräteraumboden m.Polsterholz+Blindboden",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.04C",
+      "text": "UK-Geräteraumboden m.Polsterholz+Blindboden+Platten",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.04E",
+      "text": "UK-Geräteraumboden m.XPS",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.07A",
+      "text": "Geräteraumboden Mehrschichtparkett Eiche 4,5mm Riemen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.07B",
+      "text": "Geräteraumboden Mehrschichtparkett Eiche 5,5mm Riemen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.07C",
+      "text": "Geräteraumboden Mehrschichtparkett Esche 4,5mm Riemen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.07D",
+      "text": "Geräteraumboden Mehrschichtparkett Esche 5,5mm Riemen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.07E",
+      "text": "Geräteraumboden Linoleum 3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.07F",
+      "text": "Geräteraumboden Polyurethan-Hartschaum 4mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.07G",
+      "text": "Geräteraumboden Kautschuk 3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.10A",
+      "text": "Spielfeldmarkierung auf Parkett                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "61.19.10B",
+      "text": "Spielfeldmarkierung auf Polyurethan-Decklackbeschichtung                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "61.19.10C",
+      "text": "Spielfeldmarkierung auf Linoleum                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "61.19.10D",
+      "text": "Spielfeldmarkierung auf Kunststoff                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "61.19.10N",
+      "text": "Az Spielfeldmarkierung f.Hohllinie                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "61.19.11F",
+      "text": "Flächenmarkierung auf Parkett",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.11H",
+      "text": "Flächenmarkierung auf Polyurethan-Decklackbeschichtung",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.11J",
+      "text": "Flächenmarkierung auf Linoleum",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.11L",
+      "text": "Flächenmarkierung auf Kunststoff",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.12B",
+      "text": "Bodendeckel f.Mehrschichtparkett",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.19.12G",
+      "text": "Bodendeckel f.Linoleum",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.19.12J",
+      "text": "Bodendeckel f.Polyurethan-Hartschaum",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.19.12L",
+      "text": "Bodendeckel f.Kautschuk",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.19.12M",
+      "text": "Bodendeckel f.Kunststoff",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.19.13A",
+      "text": "Sockelleiste Sperrholz m.Kst.Dichtlippe 150x18mm Birke                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "61.19.14A",
+      "text": "Sockelleiste+Lüft.+Dicht.70x32-20mm konisch Eiche                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "61.19.14C",
+      "text": "Sockelleiste+Lüft.+Dicht.70x20mm rechteckig Eiche                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "61.19.14E",
+      "text": "Az Sockelleiste Holz f.bündig m.Wandbelag                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "61.19.16A",
+      "text": "Übergangsprofil nicht rostender Stahl 8cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.19.19A",
+      "text": "Härtekeil 10cm                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "61.19.21A",
+      "text": "Az Boden f.Anarbeiten an Turn- u.Sportgeräte",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.19.22A",
+      "text": "Az Boden f.Anarbeiten Anarbeiten Putzschacht b.2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.19.22B",
+      "text": "Az Boden f.Anarbeiten Anarbeiten Putzschacht ü.2-3m",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.19.99A",
+      "text": "Versiegeln mit säurehärtendem Lack",
+      "unit": "m²"
+    },
+    {
+      "code": "61.19.99B",
+      "text": "Versiegeln mit Polyurethan-Lack",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.00A",
+      "text": "Regelformat(e) bei Wandbekleidungen",
+      "unit": ""
+    },
+    {
+      "code": "61.32.03A",
+      "text": "UK f.Wandbekleidungen Latten 3x5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.03C",
+      "text": "UK f.Wandbekleidungen Doppellatten 3x5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.03X",
+      "text": "UK f.Wandbekleidungen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.05A",
+      "text": "UK f.Wandbekleidungen Holzrost Abst.ü.8-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.05C",
+      "text": "UK f.Wandbekleidungen Holzrost Abst.ü.15-23cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.05E",
+      "text": "UK f.Wandbekleidungen Holzrost Abst.ü.23-30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.05F",
+      "text": "UK f.Wandbekleidungen Holzrost Abst.ü.30-45cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.05X",
+      "text": "UK f.Wandbekleidungen Holzrost Abst.ü.45cm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.07A",
+      "text": "UK f.Wandbekleidungen Stahl+Latten Abst.ü.15-23cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.07C",
+      "text": "UK f.Wandbekleidungen Stahl+Latten Abst.ü.23-30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.07E",
+      "text": "UK f.Wandbekleidungen Stahl+Latten Abst.ü.30-45cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.07G",
+      "text": "UK f.Wandbekleidungen Stahl+Latten Abst.ü.45-60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.07X",
+      "text": "UK f.Wandbekleidungen Stahl+Latten Abst.ü.60cm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.09A",
+      "text": "UK f.Ständerwand Stahlprofilrohr 80/80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.09B",
+      "text": "UK f.Ständerwand Stahlprofilrohr 100/100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.09X",
+      "text": "UK f.Ständerwand Stahlprofilrohr mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.12A",
+      "text": "UK f.Leibungsbekleidungen Latten3x5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.15A",
+      "text": "UK freistehend f.Sockelleiste                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "61.32.17A",
+      "text": "Wandbekl.-Sperrholzpl.Deckfurnier Birke",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.17B",
+      "text": "Wandbekl.-Sperrholzpl.Deckfurnier Birke,elast.unterlegt",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.17C",
+      "text": "Wandbekl.-Sperrholzpl.Deckfurnier Birke,sw,elast.unterlegt",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.18A",
+      "text": "Az Wandbekl.-Sperrholzpl.Deckf.Birke f.edelfurniert",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.18B",
+      "text": "Az Wandbekl.-Sperrholzpl.Deckf.Birke f.farbige Lasierung",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.19A",
+      "text": "Leibungsbekl.Sperrholz Birke 18mm b.30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.19B",
+      "text": "Leibungsbekl.Sperrholz Birke 18mm ü.30-60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.19C",
+      "text": "Leibungsbekl.Sperrholz Birke 18mm ü.60-90cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.21A",
+      "text": "Wandbekl.-Faserplatte MDF",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.21B",
+      "text": "Wandbekl.-Faserplatte MDF,elast.unterlegt",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.23A",
+      "text": "Az Wandbekl.-Faserplatte MDF f.Decklage farbig",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.24A",
+      "text": "Leibungsbekl.Faserplatte MDF b.30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.24B",
+      "text": "Leibungsbekl.Faserplatte MDF ü.30-60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.24C",
+      "text": "Leibungsbekl.Faserplatte MDF ü.60-90cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.26A",
+      "text": "Wandbekl.-Decklage",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.28A",
+      "text": "Leibungsbekl.f.Wandbekl.-Deckl.b.30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.28B",
+      "text": "Leibungsbekl.f.Wandbekl.-Deckl.ü.30-60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.28C",
+      "text": "Leibungsbekl.f.Wandbekl.-Deckl.ü.60-90cm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.30A",
+      "text": "Wandbekl.-Decklage elastisch unterlegt",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.35A",
+      "text": "Tür+Z+Leib.1Fl.90-120x220cm f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.35C",
+      "text": "Tür+Z+Leib.1Fl.90x200cm EI2 30-C (T30) f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.35E",
+      "text": "Tür+Z+Leib.2Fl.220cm f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.35F",
+      "text": "Tür+Z+Leib.2Fl.220cm EI2 30-C (T30) f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.35G",
+      "text": "Az Tür 1Fl f.witterungsbeständig f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.35H",
+      "text": "Az Tür 2Fl.f.witterungsbeständig f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.35K",
+      "text": "Az Tür+Z+Leib.2Fl.180° öffnend+Fix.f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.35P",
+      "text": "Az Tür Einstemmschloß m.Panikfunktion f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.35S",
+      "text": "Az Tür Türschließer f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.37E",
+      "text": "Audionische f.Wandbekl.-Decklage 4-türig",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.37F",
+      "text": "Schalternische f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.37G",
+      "text": "Gerätenische f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.38A",
+      "text": "Az Schalternische f.Tür mit Schloss (abschließbar)",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.39A",
+      "text": "Offene Schalternische b.2 Einbauten f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.39B",
+      "text": "Offene Schalternische ü.2-4 Einbauten f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.39C",
+      "text": "Offene Schalternische ü.4-8 Einbauten f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.40E",
+      "text": "Az Wandbekl.-Decklage f.Ausschnitt m.Plexiglaspl.b.0,15m2",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.44A",
+      "text": "Sprossenwandartige HKNA gerade",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.44F",
+      "text": "Sprossenwandartige HKNA geneigt",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.54A",
+      "text": "Wartungsöffnung b.0,15m2 f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.54B",
+      "text": "Wartungsöffnung FBHV ü.0,15-0,75m2 f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.54C",
+      "text": "Wartungsöffnung FBHV ü.0,75-.1m2 f.Wandbekl.-Decklage",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.55B",
+      "text": "Az Wandbekl.-Decklage Loch.8mm Raster 20/20mm ohne Fries",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.55C",
+      "text": "Az Wandbekl.-Decklage Loch.8mm Raster 20/20mm+Fries 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.55D",
+      "text": "Az Wandbekl.-Decklage Loch.20mm Raster 40/40mm+Fries 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.55E",
+      "text": "Az Wandbekl.-Decklage Loch.5mm Raster 16/16mm ohne Fries",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.55F",
+      "text": "Az Wandbekl.-Decklage Loch.5mm Raster 16/16mm+Fries 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.55G",
+      "text": "Az Wandbekl.-Decklage Loch.3mm Raster 16/16mm ohne Fries",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.55H",
+      "text": "Az Wandbekl.-Decklage Loch.3mm Raster 16/16mm+Fries 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.57A",
+      "text": "Az Wandbekl.-Decklage Loch.20mm Raster 40/40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.58A",
+      "text": "Az Wandbekl.-Decklage f.Schlitzung f.Lüftung",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.62A",
+      "text": "W/LB - Schallschlucklage in UK Akustikvlies 10mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.62B",
+      "text": "W/LB Schallschlucklage in UK Akustikvlies 20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.32.65A",
+      "text": "Oberes Abschlussbrett Wandbekleidung b.15cm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "61.32.65B",
+      "text": "Oberes Abschlussbrett Wandbekleidung ü.15-30cm                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "61.32.65C",
+      "text": "Oberes Abschlussbrett Wandbekleidung ü.30-50cm                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "61.32.65D",
+      "text": "Oberes Abschlussbrett Wandbekleidung ü.50-70cm                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "61.32.65E",
+      "text": "Az Oberes Abschlussbrett Wandbekl.Fe-anschl.cm__________                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "61.32.67A",
+      "text": "Passleiste gefälzt 2x4cm                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "61.32.67B",
+      "text": "Passleiste gefälzt 2x8cm                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "61.32.67C",
+      "text": "Passleiste gefälzt 3x6cm                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "61.32.67D",
+      "text": "Passleiste gefälzt 3x8cm                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "61.32.67E",
+      "text": "Passleiste gefälzt 4x8cm                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "61.32.70A",
+      "text": "Sockelleiste                                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "61.32.71A",
+      "text": "Az Sockelleiste f.Lüftung+Dichtunglippe                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "61.32.71B",
+      "text": "Az Sockelleiste f.Bohrungen+Dichtlippe                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "61.32.72A",
+      "text": "Az Nischen f.Außenkante Falz+Fase+Rundung                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "61.32.72B",
+      "text": "Az Wandbekl.-Decklage f.Nischenkante m.gerund.Leiste Buche                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "61.32.74A",
+      "text": "Anarbeiten Wandbekleidung f.eingeb.Turn-u.Sportgeräte                                                          PA",
+      "unit": ""
+    },
+    {
+      "code": "61.32.74B",
+      "text": "Anarbeiten Wandbekleidung f.Kletter-/Boulderwand                                                               PA",
+      "unit": ""
+    },
+    {
+      "code": "61.32.85A",
+      "text": "Geräteraum-Abschluss Netz",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.86A",
+      "text": "Sprossenwandartige Geräteraum-Abschluss drehbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.89A",
+      "text": "Gitter f.Wandbekl.b.0,25m2 nur montieren",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.89B",
+      "text": "Gitter f.Wandbekl.ü.0,25-0,5m2 nur montieren",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.89C",
+      "text": "Gitter f.Wandbekl.ü.0,5-0,75m2 nur montieren",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.92A",
+      "text": "Sektionaltor,manuell betätigt",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.92B",
+      "text": "Az Sektionaltor f.Elektro-Antrieb",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.94A",
+      "text": "Leuchten in Wandbekl.nur montieren",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.94B",
+      "text": "Lautsprecher in Wandbekl.nur montieren",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.94X",
+      "text": "Einbauteile in Wandbekl.nur montieren",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.97A",
+      "text": "Ausschnitte Wandbekl.eckig",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.97B",
+      "text": "Ausschnitte Wandbekl.rund",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.32.98A",
+      "text": "Az Wandbekl.-Decklage f.Kurvenschnitt                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "61.33.01A",
+      "text": "Regelformat(e) bei Deckenbekleidungen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.03A",
+      "text": "Decken-UK-Lattenrost direkt",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.03C",
+      "text": "Decken-UK-Lattenrost b.0,5 abgehängt",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.03E",
+      "text": "Decken-UK Lattenrost ü.0,5-1m abgehängt",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.03G",
+      "text": "Decken-UK Lattenrost ü.1-1,5m abgehängt",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.03H",
+      "text": "Decken-UK Lattenrost ü.1,5m abgehängt",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.03X",
+      "text": "Az Abhängungen f.besondere Anforderungen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.04B",
+      "text": "Az Decken-UK f.Revisionsöffnungen b.1m2",
+      "unit": ""
+    },
+    {
+      "code": "61.33.04C",
+      "text": "Az Decken-UK f.vertikale UK",
+      "unit": ""
+    },
+    {
+      "code": "61.33.04X",
+      "text": "Az Decken-UK f.besondere Anforderungen",
+      "unit": ""
+    },
+    {
+      "code": "61.33.17A",
+      "text": "Deck.bekl.-Sperrholzpl.Deckf.Birke",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.17B",
+      "text": "Deck.bekl.-Sperrholzpl.Deckf.Birke,elast.unterlegt",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.17C",
+      "text": "Deck.bekl.-Sperrholzpl.Deckf.Birke,sw,elast.unterlegt",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.18A",
+      "text": "Az Deckenbekl.-Sperrholzpl.Deckf.Birke f.edelfurniert",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.18B",
+      "text": "Az Deckenbekl.-Sperrholzpl.Deckf.Birke f.farbige Lasierung",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.21A",
+      "text": "Deckenbekl.-Faserplatte MDF",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.23A",
+      "text": "Az Deckenbekl.-Faserplatte MDF f.Decklage farbig",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.26A",
+      "text": "Deckenbekl.-Decklage mag.geb.Holzwolle 600x600mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.26B",
+      "text": "Deckenbekl.-Decklage mag.geb.Holzwolle 1200x600mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.26X",
+      "text": "Deckenbekl.-Decklage mag.geb.Holzwolle__________",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.31A",
+      "text": "Deckenbekl.-Decklage",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.54A",
+      "text": "Az Wartungsöffnung b.0,15m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.33.54B",
+      "text": "Az Wartungsöffnungf.Antrieb b.1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.33.55A",
+      "text": "Az Deckenbekl.-Decklage Loch.20mm Raster 40/40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.55B",
+      "text": "Az Deckebekl.-Decklage Loch.8mm Raster 20/20mm ohne Fries",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.55C",
+      "text": "Az Deckebekl.-Decklage Loch.8mm Raster 20/20mm+Fries 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.55D",
+      "text": "Az Deckbekl.-Decklage Loch.20mm Raster 40/40mm+Fries 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.55E",
+      "text": "Az Deckebekl.-Decklage Loch.5mm Raster 16/16mm ohne Fries",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.55F",
+      "text": "Az Deckebekl.-Decklage Loch.5mm Raster 16/16mm+Fries 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.55G",
+      "text": "Az Deckebekl.-Decklage Loch.3mm Raster 16/16mm ohne Fries",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.55H",
+      "text": "Az Deckebekl.-Decklage Loch.3mm Raster 16/16mm+Fries 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.57A",
+      "text": "Az Deckenbekl.-Decklage Loch.g. Fehlluft 20mm Raster 40/40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.62A",
+      "text": "DB Schallschlucklage in UK Akustikvlies 10mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.62B",
+      "text": "DB Schallschlucklage in UK Akustikvlies 20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.33.74A",
+      "text": "Anarbeiten Deckenbekleidung f.eingeb.Turn-u.Sportgeräte                                                      PA",
+      "unit": ""
+    },
+    {
+      "code": "61.33.74B",
+      "text": "Anarbeiten Deckenbekleidung f.Kletter-/Boulderwand                                                           PA",
+      "unit": ""
+    },
+    {
+      "code": "61.33.74C",
+      "text": "Anarbeiten Deckenbekleidung f.Deckenstrahlungsheizung                                                        PA",
+      "unit": ""
+    },
+    {
+      "code": "61.33.89A",
+      "text": "Gitter f.Deckenbekl.b.0,25m2 nur montieren",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.33.89B",
+      "text": "Gitter f.Deckenbekl.ü.0,25-0,5m2 nur montieren",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.33.89C",
+      "text": "Gitter f.Deckenbekl.ü.0,5-0,75m2 nur montieren",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.33.94A",
+      "text": "Leuchten in Deckenbekl.nur montieren",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.33.94B",
+      "text": "Lautsprecher in Deckenbekl.nur montieren",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.33.94X",
+      "text": "Einbauteile in Deckenbekl.nur montieren",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.33.97A",
+      "text": "Ausschnitte Deckenbekl.eckig",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.33.97B",
+      "text": "Ausschnitte Deckenbekl.rund",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.33.98A",
+      "text": "Az Deckenbekl.-Decklage f.Kurvenschnitt                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.01A",
+      "text": "Instandsetzen Parkett",
+      "unit": "m²"
+    },
+    {
+      "code": "61.81.01B",
+      "text": "Instandsetzen Klebeparkett",
+      "unit": "m²"
+    },
+    {
+      "code": "61.81.01X",
+      "text": "Instandsetzen Holzfußboden",
+      "unit": "m²"
+    },
+    {
+      "code": "61.81.02A",
+      "text": "Abschleifen Hartholz b.2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.81.02B",
+      "text": "Abschleifen Hartholz b.1mm",
+      "unit": "m²"
+    },
+    {
+      "code": "61.81.06A",
+      "text": "Az Ersetzen Stabparkett Eiche",
+      "unit": "m²"
+    },
+    {
+      "code": "61.81.06B",
+      "text": "Az Ersetzen Riemenparkett Eiche",
+      "unit": "m²"
+    },
+    {
+      "code": "61.81.06X",
+      "text": "Az Ersetzen Holzboden",
+      "unit": "m²"
+    },
+    {
+      "code": "61.81.21C",
+      "text": "Sportbodenbelag anschleifen+reinigen PUR",
+      "unit": "m²"
+    },
+    {
+      "code": "61.81.21X",
+      "text": "Sportbodenbelag anschleifen+reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "61.81.22A",
+      "text": "Sportbodenbelag Fugen/Schnitte verschweißen Linoleum                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.22B",
+      "text": "Sportbodenbelag Fugen/Schnitte verschweißen Kunststoff                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.22C",
+      "text": "Sportbodenbelag Fugen/Schnitte verschweißen PUR                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.22X",
+      "text": "Sportbodenbelag Fugen/Schnitte verschweißen                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.24A",
+      "text": "Sportbodenbelag GF-Gewebe+PUR+Decklack",
+      "unit": "m²"
+    },
+    {
+      "code": "61.81.26A",
+      "text": "Sportbodenbelag m.PUR-Decklack",
+      "unit": "m²"
+    },
+    {
+      "code": "61.81.28A",
+      "text": "Inst.Sportboden Bodenöffnung/Gerätehülse",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.81.28B",
+      "text": "Inst.Sportboden Deckelbelag neu Linoleum/Kunststoff",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.81.28C",
+      "text": "Inst.Sportboden Deckelbelag neu PUR",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.81.28E",
+      "text": "Inst.Sportboden Deckel+Deckelbelelag neu Linoleum/Kunststoff",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.81.28F",
+      "text": "Inst.Sportboden Deckel+Deckelbelag neu PUR",
+      "unit": "Stk"
+    },
+    {
+      "code": "61.81.35A",
+      "text": "Markierung erneuern Oberboden Holz                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.35B",
+      "text": "Markierung erneuern Oberboden Linoleum                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.35C",
+      "text": "Markierung erneuern Oberboden Kunststoff                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.35D",
+      "text": "Markierung erneuern Oberboden PUR                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.35F",
+      "text": "Markierung neu einmessen+aufbring.Holzoberb                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.35G",
+      "text": "Markierung neu einmessen+aufbr.Oberb.Linoleum                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.35H",
+      "text": "Markierung neu einmessen+aufbr.Kunststoff Oberbod.                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.35I",
+      "text": "Markierung neu einmessen+aufbr.PUR Oberbod.                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.39A",
+      "text": "Demontage Turngeräte                                                                                           PA",
+      "unit": ""
+    },
+    {
+      "code": "61.81.39B",
+      "text": "Demontage Sockelleisten                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.40C",
+      "text": "Wiedermontage Turngeräte                                                                                       PA",
+      "unit": ""
+    },
+    {
+      "code": "61.81.40D",
+      "text": "Wiedermontage Sockelleisten                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.41A",
+      "text": "Az Ersetzen m.Sockelleisteiste Eiche 70x32/20mm                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.41B",
+      "text": "Az Ersetzen m.Sockelleisteiste Sperrholz 150x18mm                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.41C",
+      "text": "Az Ersetzen m.Sockelleisteiste Sperrholz 150x36mm                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "61.81.41X",
+      "text": "Az Ersetzen m.Sockelleisteiste__________                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "61.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "61.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "61.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

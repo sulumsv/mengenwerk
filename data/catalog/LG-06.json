@@ -1,0 +1,1971 @@
+{
+  "lg": "06",
+  "title": "Aufschließung, Infrastruktur",
+  "positions": [
+    {
+      "code": "06.61.21A",
+      "text": "Ummanteln Filtergeotextil Graben",
+      "unit": "m²"
+    },
+    {
+      "code": "06.61.21B",
+      "text": "Ummanteln Filtergeotextil erh. Anford. Graben",
+      "unit": "m²"
+    },
+    {
+      "code": "06.00.01A",
+      "text": "Bewilligung AG",
+      "unit": ""
+    },
+    {
+      "code": "06.00.01B",
+      "text": "Bewilligung AN",
+      "unit": ""
+    },
+    {
+      "code": "06.00.01C",
+      "text": "Befunde AG",
+      "unit": ""
+    },
+    {
+      "code": "06.00.01D",
+      "text": "Befunde AN",
+      "unit": ""
+    },
+    {
+      "code": "06.00.11A",
+      "text": "Grundlegende Charakterisierung AG",
+      "unit": ""
+    },
+    {
+      "code": "06.00.11B",
+      "text": "Zuordnung Aushubmaterial AG",
+      "unit": ""
+    },
+    {
+      "code": "06.01.00A",
+      "text": "Abwasserleitungen",
+      "unit": ""
+    },
+    {
+      "code": "06.01.00B",
+      "text": "Dränageleitungen",
+      "unit": ""
+    },
+    {
+      "code": "06.01.00C",
+      "text": "Wasserversorgung",
+      "unit": ""
+    },
+    {
+      "code": "06.01.00D",
+      "text": "Gasleitungen",
+      "unit": ""
+    },
+    {
+      "code": "06.01.00E",
+      "text": "Fernwärmeleitungen",
+      "unit": ""
+    },
+    {
+      "code": "06.01.00F",
+      "text": "Stromleitungen",
+      "unit": ""
+    },
+    {
+      "code": "06.01.00G",
+      "text": "Telekommunikationsleitungen",
+      "unit": ""
+    },
+    {
+      "code": "06.01.01A",
+      "text": "Aushub Lockerboden (AKL) Graben 0-1,25m",
+      "unit": "m³"
+    },
+    {
+      "code": "06.01.01B",
+      "text": "Aushub Lockerboden (AKL) Graben 0-3m",
+      "unit": "m³"
+    },
+    {
+      "code": "06.01.01C",
+      "text": "Aushub Lockerboden (AKL) Graben 0-5m",
+      "unit": "m³"
+    },
+    {
+      "code": "06.01.01X",
+      "text": "Aushub Lockerboden (AKL) Graben 0-__________",
+      "unit": "m³"
+    },
+    {
+      "code": "06.01.02A",
+      "text": "Az Aushub Graben brüchiger Fels (AKBF) ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "06.01.02B",
+      "text": "Az Aushub Graben fester Fels (AKF) ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "06.01.03A",
+      "text": "Az Aushub Graben klebriger Boden (AKL-K)",
+      "unit": "m³"
+    },
+    {
+      "code": "06.01.03B",
+      "text": "Az Aushub Graben unter Wasser",
+      "unit": "m³"
+    },
+    {
+      "code": "06.01.04A",
+      "text": "Az Aushub Graben Steinmwk.ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "06.01.04B",
+      "text": "Az Aushub Graben Ziegelmwk.ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "06.01.04C",
+      "text": "Az Aushub Graben Beton ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "06.01.04D",
+      "text": "Az Aushub Graben Holzeinlagen ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "06.01.05A",
+      "text": "Az Aushub Graben f.Leitung/quer b.0,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.01.05B",
+      "text": "Az Aushub Graben f.Leitung/quer ü.0,5-1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.01.05C",
+      "text": "Az Aushub Graben f.Leitung/längs                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "06.01.06A",
+      "text": "Minierungen b.2m,ü.1-2m2",
+      "unit": "m³"
+    },
+    {
+      "code": "06.01.06B",
+      "text": "Minierungen b.2m,ü.2-3m2",
+      "unit": "m³"
+    },
+    {
+      "code": "06.01.06X",
+      "text": "Minierungen b.2m,Querschnitt:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "06.01.07A",
+      "text": "Sichern Graben Pfosten nicht geschlossen",
+      "unit": "m²"
+    },
+    {
+      "code": "06.01.07B",
+      "text": "Sichern Graben Pfosten geschlossen",
+      "unit": "m²"
+    },
+    {
+      "code": "06.01.07C",
+      "text": "Sichern Graben Pfosten dicht",
+      "unit": "m²"
+    },
+    {
+      "code": "06.01.07D",
+      "text": "Sichern Graben Pfosten Getriebepölzung",
+      "unit": "m²"
+    },
+    {
+      "code": "06.01.07X",
+      "text": "Sichern Graben Pfosten",
+      "unit": "m²"
+    },
+    {
+      "code": "06.01.08A",
+      "text": "Verbleibendes Pölzungsmaterial Graben",
+      "unit": "m²"
+    },
+    {
+      "code": "06.01.11A",
+      "text": "Provisorische Brücke f.KFZ b.1,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.01.12A",
+      "text": "Provisorische Brücke Fußgänger b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.01.12C",
+      "text": "Provisorische Brücke Fußgänger ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.01.12X",
+      "text": "Provisorische Abdeckung Gräben ü.4m2:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "06.01.21A",
+      "text": "Feinplanum Gräben",
+      "unit": "m²"
+    },
+    {
+      "code": "06.12.00C",
+      "text": "Material zu 06.12 Kunststoff halogenfrei",
+      "unit": ""
+    },
+    {
+      "code": "06.12.01A",
+      "text": "Sickerrohr Kunststoff+Steckmuffe DN100                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "06.12.01B",
+      "text": "Sickerrohr Kunststoff+Steckmuffe DN150                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "06.12.01C",
+      "text": "Sickerrohr Kunststoff+Steckmuffe DN200                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "06.12.01D",
+      "text": "Sickerrohr Kunststoff+Steckmuffe DN250                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "06.12.01X",
+      "text": "Sickerrohr Kunststoff+Steckmuffe DN__________                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "06.12.03A",
+      "text": "Az Sickerrohr.f.Verb.-muffe DN100",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.03B",
+      "text": "Az Sickerrohr.f.Verb.-muffe DN150",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.03C",
+      "text": "Az Sickerrohr.f.Verb.-muffe DN200",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.03D",
+      "text": "Az Sickerrohr.f.Verb.-muffe DN250",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.03X",
+      "text": "Az Sickerrohr.f.Verb.-muffe DN__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.05A",
+      "text": "Az Sickerrohr.f.T-Stück DN100",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.05B",
+      "text": "Az Sickerrohr.f.T-Stück DN150",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.05C",
+      "text": "Az Sickerrohr.f.T-Stück DN200",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.05D",
+      "text": "Az Sickerrohr.f.T-Stück DN250",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.05X",
+      "text": "Az Sickerrohr.f.T-Stück DN__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.07A",
+      "text": "Az Sickerrohr.f.Winkelst.90Grad DN100",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.07B",
+      "text": "Az Sickerrohr.f.Winkelst.90Grad DN150",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.07C",
+      "text": "Az Sickerrohr.f.Winkelst.90Grad DN200",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.07D",
+      "text": "Az Sickerrohr.f.Winkelst.90Grad DN250",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.07X",
+      "text": "Az Sickerrohr.f.Winkelst.90Grad DN__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.09A",
+      "text": "Az Sickerrohr.f.Winkelst.45Grad DN100",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.09B",
+      "text": "Az Sickerrohr.f.Winkelst.45Grad DN150",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.09C",
+      "text": "Az Sickerrohr.f.Winkelst.45Grad DN200",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.09D",
+      "text": "Az Sickerrohr.f.Winkelst.45Grad DN250",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.09X",
+      "text": "Az Sickerrohr.f.Winkelst.45Grad DN__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.11A",
+      "text": "Az Sickerrohr.f.Verschlussst.DN100",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.11B",
+      "text": "Az Sickerrohr.f.Verschlussst.DN150",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.11C",
+      "text": "Az Sickerrohr.f.Verschlussst.DN200",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.11D",
+      "text": "Az Sickerrohr.f.Verschlussst.DN250",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.11X",
+      "text": "Az Sickerrohr.f.Verschlussst.DN__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.13A",
+      "text": "Az Sickerrohr.f.Übergang/Kanal DN100",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.13B",
+      "text": "Az Sickerrohr.f.Übergang/Kanal DN150",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.13C",
+      "text": "Az Sickerrohr.f.Übergang/Kanal DN200",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.13D",
+      "text": "Az Sickerrohr.f.Übergang/Kanal DN250",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.13X",
+      "text": "Az Sickerrohr.f.Übergang/Kanal DN__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.31A",
+      "text": "Dränrohr Kunststoff DN200                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "06.12.31B",
+      "text": "Dränrohr Kunststoff DN250                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "06.12.31C",
+      "text": "Dränrohr Kunststoff DN300                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "06.12.31D",
+      "text": "Dränrohr Kunststoff DN400                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "06.12.31X",
+      "text": "Dränrohr Kunststoff DN__________                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "06.12.33A",
+      "text": "Az Dränrohr.f.Muffen DN200",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.33B",
+      "text": "Az Dränrohr.f.Muffen DN250",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.33C",
+      "text": "Az Dränrohr.f.Muffen DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.33D",
+      "text": "Az Dränrohr.f.Muffen DN400",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.33X",
+      "text": "Az Dränrohr.f.Muffen__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.35A",
+      "text": "Az Dränrohr.f.T-Stück DN200",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.35B",
+      "text": "Az Dränrohr.f.T-Stück DN250",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.35C",
+      "text": "Az Dränrohr.f.T-Stück DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.35D",
+      "text": "Az Dränrohr.f.T-Stück DN400",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.35X",
+      "text": "Az Dränrohr.f.T-Stück__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.37A",
+      "text": "Az Dränrohr.f.3S-Bogen 90Grad DN200",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.37B",
+      "text": "Az Dränrohr.f.3S-Bogen 90Grad DN250",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.37C",
+      "text": "Az Dränrohr.f.3S-Bogen 90Grad DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.37D",
+      "text": "Az Dränrohr.f.3S-Bogen 90Grad DN400",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.37X",
+      "text": "Az Dränrohr.f.3S-Bogen 90Grad__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.39A",
+      "text": "Az Dränrohr.f.3S-Bogen 45Grad DN200",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.39B",
+      "text": "Az Dränrohr.f.3S-Bogen 45Grad DN250",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.39C",
+      "text": "Az Dränrohr.f.3S-Bogen 45Grad DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.39D",
+      "text": "Az Dränrohr.f.3S-Bogen 45Grad DN400",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.39X",
+      "text": "Az Dränrohr.f.3S-Bogen 45Grad__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.41A",
+      "text": "Az Dränrohr.f.2S-Bogen 30Grad DN200",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.41B",
+      "text": "Az Dränrohr.f.2S-Bogen 30Grad DN250",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.41C",
+      "text": "Az Dränrohr.f.2S-Bogen 30Grad DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.41D",
+      "text": "Az Dränrohr.f.2S-Bogen 30Grad DN400",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.41X",
+      "text": "Az Dränrohr.f.2S-Bogen 30Grad__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.43A",
+      "text": "Az Dränrohr.f.2S-Bogen 15Grad DN200",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.43B",
+      "text": "Az Dränrohr.f.2S-Bogen 15Grad DN250",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.43C",
+      "text": "Az Dränrohr.f.2S-Bogen 15Grad DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.43D",
+      "text": "Az Dränrohr.f.2S-Bogen 15Grad DN400",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.43X",
+      "text": "Az Dränrohr.f.2S-Bogen 15Grad__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.45A",
+      "text": "Az Dränrohr.f.Einfachabzw.45Grad DN200",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.45B",
+      "text": "Az Dränrohr.f.Einfachabzw.45Grad DN250",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.45C",
+      "text": "Az Dränrohr.f.Einfachabzw.45Grad DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.45D",
+      "text": "Az Dränrohr.f.Einfachabzw.45Grad DN400",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.45X",
+      "text": "Az Dränrohr.f.Einfachabzw.45Grad__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.47A",
+      "text": "Az Dränrohr.f.Einfachabzw.+Abg.45Grad DN200",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.47B",
+      "text": "Az Dränrohr.f.Einfachabzw.+Abg.45Grad DN250",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.47C",
+      "text": "Az Dränrohr.f.Einfachabzw.+Abg.45Grad DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.47D",
+      "text": "Az Dränrohr.f.Einfachabzw.+Abg.45Grad DN400",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.47X",
+      "text": "Az Dränrohr.f.Einfachabzw.+Abg.45Grad__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.67A",
+      "text": "Az f.Rohrverlegung im Wasser                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "06.12.71A",
+      "text": "Anschluss Schacht Wanddicke b.12cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.12.71B",
+      "text": "Anschluss Schacht Wanddicke ü.12-25cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.00C",
+      "text": "Material zu 06.14 Kunststoff halogenfrei",
+      "unit": ""
+    },
+    {
+      "code": "06.14.01A",
+      "text": "Kunststoffkanalrohr DN100mm                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "06.14.01B",
+      "text": "Kunststoffkanalrohr DN125mm                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "06.14.01C",
+      "text": "Kunststoffkanalrohr DN150mm                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "06.14.01D",
+      "text": "Kunststoffkanalrohr DN200mm                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "06.14.01E",
+      "text": "Kunststoffkanalrohr DN250mm                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "06.14.01F",
+      "text": "Kunststoffkanalrohr DN300mm                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "06.14.01X",
+      "text": "Kunststoffkanalrohr DN__________                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "06.14.02A",
+      "text": "Az Kunstst.R.f.Putzstück DN100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.02B",
+      "text": "Az Kunstst.R.f.Putzstück DN125mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.02C",
+      "text": "Az Kunstst.R.f.Putzstück DN150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.02D",
+      "text": "Az Kunstst.R.f.Putzstück DN200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.02E",
+      "text": "Az Kunstst.R.f.Putzstück DN250mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.02F",
+      "text": "Az Kunstst.R.f.Putzstück DN300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.02X",
+      "text": "Az Kunstst.R.f.Putzstück DN__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.03A",
+      "text": "Az Kunstst.R.f.Bogen b.45Grad DN100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.03B",
+      "text": "Az Kunstst.R.f.Bogen b.45Grad DN125mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.03C",
+      "text": "Az Kunstst.R.f.Bogen b.45Grad DN150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.03D",
+      "text": "Az Kunstst.R.f.Bogen b.45Grad DN200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.03E",
+      "text": "Az Kunstst.R.f.Bogen b.45Grad DN250mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.03F",
+      "text": "Az Kunstst.R.f.Bogen b.45Grad DN300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.03X",
+      "text": "Az Kunstst.R.f.Bogen b.45Grad__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.04A",
+      "text": "Az Kunstst.R.f.Bogen ü.45-90Grad DN100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.04B",
+      "text": "Az Kunstst.R.f.Bogen ü.45-90Grad DN125mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.04C",
+      "text": "Az Kunstst.R.f.Bogen ü.45-90Grad DN150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.04D",
+      "text": "Az Kunstst.R.f.Bogen ü.45-90Grad DN200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.04E",
+      "text": "Az Kunstst.R.f.Bogen ü.45-90Grad DN250mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.04F",
+      "text": "Az Kunstst.R.f.Bogen ü.45-90Grad DN300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.04X",
+      "text": "Az Kunstst.R.f.Bogen ü.45-90Grad__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.05A",
+      "text": "Az Kunstst.R.f.Abzweiger DN100/b.100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.05B",
+      "text": "Az Kunstst.R.f.Abzweiger DN125/b.125mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.05C",
+      "text": "Az Kunstst.R.f.Abzweiger DN150/b.150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.05D",
+      "text": "Az Kunstst.R.f.Abzweiger DN200/b.200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.05E",
+      "text": "Az Kunstst.R.f.Abzweiger DN300/150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.05F",
+      "text": "Az Kunstst.R.f.Abzweiger DN300/200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.05G",
+      "text": "Az Kunstst.R.f.Abzweiger DN300/250mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.05H",
+      "text": "Az Kunstst.R.f.Abzweiger DN300/300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.05J",
+      "text": "Az Kunstst.R.f.Abzweiger DN250/250mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.05K",
+      "text": "Az Kunstst.R.f.Abzweiger DN250/150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.05L",
+      "text": "Az Kunstst.R.f.Abzweiger DN250/200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.06A",
+      "text": "Az Kunstst.R.f.Übergang DN125/100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.06B",
+      "text": "Az Kunstst.R.f.Übergang DN150/b.100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.06C",
+      "text": "Az Kunstst.R.f.Übergang DN200/b.125mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.06D",
+      "text": "Az Kunstst.R.f.Übergang DN250/200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.06E",
+      "text": "Az Kunstst.R.f.Übergang DN300/b.200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.07A",
+      "text": "Az Kunstst.R.f.Schachtfutter DN100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.07B",
+      "text": "Az Kunstst.R.f.Schachtfutter DN125mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.07C",
+      "text": "Az Kunstst.R.f.Schachtfutter DN150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.07D",
+      "text": "Az Kunstst.R.f.Schachtfutter DN200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.07E",
+      "text": "Az Kunstst.R.f.Schachtfutter DN250mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.07F",
+      "text": "Az Kunstst.R.f.Schachtfutter DN300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.07X",
+      "text": "Az Kunstst.R.f.Schachtfutter DN__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.08A",
+      "text": "Az Kunstst.R.f.Anschluss DN100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.08B",
+      "text": "Az Kunstst.R.f.Anschluss DN125mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.08C",
+      "text": "Az Kunstst.R.f.Anschluss DN150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.08D",
+      "text": "Az Kunstst.R.f.Anschluss DN200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.08E",
+      "text": "Az Kunstst.R.f.Anschluss DN250mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.08F",
+      "text": "Az Kunstst.R.f.Anschluss DN300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.08X",
+      "text": "Az Kunstst.R.f.Anschluss DN__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.09A",
+      "text": "Az Kunstst.R.f.Muffenstopfen DN100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.09B",
+      "text": "Az Kunstst.R.f.Muffenstopfen DN125mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.09C",
+      "text": "Az Kunstst.R.f.Muffenstopfen DN150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.09D",
+      "text": "Az Kunstst.R.f.Muffenstopfen DN200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.09E",
+      "text": "Az Kunstst.R.f.Muffenstopfen DN250mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.09F",
+      "text": "Az Kunstst.R.f.Muffenstopfen DN300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.14.09X",
+      "text": "Az Kunstst.R.f.Muffenstopfen DN__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.00C",
+      "text": "Material zu 06.16 Kunststoff halogenfrei",
+      "unit": ""
+    },
+    {
+      "code": "06.16.01A",
+      "text": "Regensinkkasten Kunststoff DN100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.01B",
+      "text": "Regensinkkasten Kunststoff DN125mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.01C",
+      "text": "Regensinkkasten Kunststoff DN150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.02A",
+      "text": "Az Regensinkkasten Kunststoff+GV",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.05A",
+      "text": "Hofablauf 400/400mm Guss DN100 Klasse A",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.05B",
+      "text": "Hofablauf 400/400mm Guss DN150 Klasse A",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.07A",
+      "text": "Az Hofablauf 400/400mm Guss Klasse B",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.07B",
+      "text": "Az Hofablauf 400/400mm Guss Klasse C",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.11B",
+      "text": "Az Hofablauf 400/400mm Eimer lang PE",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.11C",
+      "text": "Az Hofablauf 400/400mm Eimer kurz PE",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.11D",
+      "text": "Az Hofablauf 400/400mm Eimer lang verzinkt",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.11E",
+      "text": "Az Hofablauf 400/400mm Eimer kurz verzinkt",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.13A",
+      "text": "Az Hofablauf 400/400mm Guss GV",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.15A",
+      "text": "Rückstauklappe DN100",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.15B",
+      "text": "Rückstauklappe DN125",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.15C",
+      "text": "Rückstauklappe DN150",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.15D",
+      "text": "Rückstauklappe DN200",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.16A",
+      "text": "Schlammfang-Ft.Bet.Klasse B",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.16B",
+      "text": "Az Schlammfang-Ft.Bet.Klasse C",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.16C",
+      "text": "Az Schlammfang-Ft.Bet.Klasse D",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.17A",
+      "text": "Stb-FT Fettabsch.+Schlammf.Klasse B",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.17B",
+      "text": "Az Stb-FT Fettabsch.+Schlammf.Klasse C",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.17C",
+      "text": "Az Stb-FT Fettabsch.+Schlammf.Klasse D",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.27A",
+      "text": "Mineralölabscheideranlage Klasse B",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.27B",
+      "text": "Az Mineralölabscheideranlage Klasse C",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.27C",
+      "text": "Az Mineralölabscheideranlage Klasse D",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.29A",
+      "text": "Polymerbeton-Rinne+Rost/Zarge Klasse C                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "06.16.29B",
+      "text": "Az Polymerbeton-Rinne+Rost/Zarge Klasse D                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "06.16.29C",
+      "text": "Az Polymerbeton-Rinne+Rost/Zarge schraub                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "06.16.31A",
+      "text": "Stb-Senkgrube o.Steigeisen D2000/4m3",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.31X",
+      "text": "Stb-Senkgrube o.Steigeisen",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.32A",
+      "text": "Az Stb-Senkgrube m.Steigeisen",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.35A",
+      "text": "Az Stb-Senkgrube geruchsdicht",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.35B",
+      "text": "Az Stb-Senkgrube tagwasserdicht",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.35C",
+      "text": "Az Stb-Senkgrube geruch+tagw.dicht",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.35D",
+      "text": "Az Stb-Senkgrube verschraubbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.35E",
+      "text": "Az Stb-Senkgrube versperrbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.16.42A",
+      "text": "Rinnen-Einlaufkasten                                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "06.17.00C",
+      "text": "Material zu 06.17 Kunststoff halogenfrei",
+      "unit": ""
+    },
+    {
+      "code": "06.17.01A",
+      "text": "Putzsch.innen+Deckel Tiefe b.60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.01B",
+      "text": "Putzsch.innen+Deckel Tiefe b.80cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.01C",
+      "text": "Putzsch.innen+Deckel Tiefe b.120cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.01X",
+      "text": "Putzsch.innen+Deckel Tiefe ü.120cm:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.02A",
+      "text": "Az Putzschacht innen+Deckel Klasse B",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.02B",
+      "text": "Az Putzschacht innen+Deckel Klasse C",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.02C",
+      "text": "Az Putzschacht innen+Deckel Klasse D",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.03A",
+      "text": "Putzsch.außen+Deckel Tiefe b.60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.03B",
+      "text": "Putzsch.außen+Deckel Tiefe b.80cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.03C",
+      "text": "Putzsch.außen+Deckel Tiefe b.120cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.03X",
+      "text": "Putzsch.außen+Deckel Tiefe ü.120cm:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.04A",
+      "text": "Az Putzschacht außen+Deckel B",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.04B",
+      "text": "Az Putzschacht außen+Deckel C",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.04C",
+      "text": "Az Putzschacht außen+Deckel D",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.04D",
+      "text": "Az Putzschacht außen Schmutzfangkorb",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.05A",
+      "text": "Sickerschacht 2m+Deckel D b.100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.05B",
+      "text": "Sickerschacht 2m+Deckel D b.150cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.05C",
+      "text": "Sickerschacht 2m+Deckel D b.200cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.05X",
+      "text": "Sickerschacht 2m+Deckel D ü.200cm:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.06A",
+      "text": "Az Sickerschacht+Deckel B",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.06B",
+      "text": "Az Sickerschacht+Deckel C",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.06C",
+      "text": "Az Sickerschacht+Deckel D",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.07A",
+      "text": "Az Sickerschacht+Deckel f.ü.2-3m",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.07B",
+      "text": "Az Sickerschacht+Deckel f.ü.2-4m",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.07C",
+      "text": "Az Sickerschacht+Deckel f.ü.2-5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.07X",
+      "text": "Az Sickerschacht+Deckel f.ü.2-__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.12A",
+      "text": "Az Schacht+Deckel geruchsdicht",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.12B",
+      "text": "Az Schacht+Deckel tagwasserdicht",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.12C",
+      "text": "Az Schacht+Deckel geruch+tagw.dicht",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.12D",
+      "text": "Az Schacht+Deckel verschraubbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.12E",
+      "text": "Az Schacht+Deckel versperrbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.18A",
+      "text": "Gerinne C25/30 D600mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.18B",
+      "text": "Gerinne C25/30 D800mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.18C",
+      "text": "Gerinne C25/30 D1000mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.18D",
+      "text": "Gerinne C25/30 D1500mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.18E",
+      "text": "Gerinne C25/30 D2000mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.32A",
+      "text": "Gerinne+Abzweiger C25/30 D600mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.32B",
+      "text": "Gerinne+Abzweiger C25/30 D800mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.32C",
+      "text": "Gerinne+Abzweiger C25/30 D1000mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.32D",
+      "text": "Gerinne+Abzweiger C25/30 D1500mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.32E",
+      "text": "Gerinne+Abzweiger C25/30 D2000mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.41A",
+      "text": "E-Gitter Guss/pult 500/500mm Klasse C",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.41B",
+      "text": "E-Gitter Guss/pult 500/500mm Klasse D",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.41C",
+      "text": "E-Gitter Guss/rinne 500/500mm Klasse C",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.41D",
+      "text": "E-Gitter Guss/rinne 500/500mm Klasse D",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.42A",
+      "text": "E-Gitter Guss/pult 300/500mm Klasse C",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.42B",
+      "text": "E-Gitter Guss/pult 300/500mm Klasse D",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.42C",
+      "text": "E-Gitter Guss/rinne 300/500mm Klasse C",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.42D",
+      "text": "E-Gitter Guss/rinne 300/500mm Klasse D",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.44A",
+      "text": "E-Gitter Guss/ mulde D610mm Klasse C",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.44B",
+      "text": "E-Gitter Guss/mulde D610mm Klasse D",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.51A",
+      "text": "Wassermesserschacht",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.52A",
+      "text": "Az Wassermesserschacht+Deckel Klasse B",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.52B",
+      "text": "Az Wassermesserschacht+Deckel regendicht",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.53A",
+      "text": "Garagensammelschacht Kunststoff 60 Liter",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.54A",
+      "text": "Dränageschacht PE-HD",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.17.54B",
+      "text": "Az Dränageschacht PE-HD Reduzierung",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.18.00C",
+      "text": "Material zu 06.18 Kunststoff halogenfrei",
+      "unit": ""
+    },
+    {
+      "code": "06.18.02A",
+      "text": "Einmünd.Rohrkanal Kunststoff DN b.300",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.18.02B",
+      "text": "Einmünd.Rohrkanal Beton DN b.300",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.18.02C",
+      "text": "Einmünd.Rohrkanal Guss DN b.300",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.18.02D",
+      "text": "Einmünd.Rohrkanal Steinzeug DN b.300",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.18.02E",
+      "text": "Einmünd.Rohrkanal Faserzement DN b.300",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.18.03A",
+      "text": "Sohle f.Rohrleitungen Beton 10/50cm",
+      "unit": "m²"
+    },
+    {
+      "code": "06.18.03B",
+      "text": "Sohle f.Rohrleitungen Beton 10/80cm",
+      "unit": "m²"
+    },
+    {
+      "code": "06.18.03X",
+      "text": "Sohle f.Rohrleitungen Beton:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "06.18.10A",
+      "text": "Dichtheitsprüfung Wasser DN b.200                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "06.18.10B",
+      "text": "Dichtheitsprüfung Wasser DN ü.200-300                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "06.18.12A",
+      "text": "Verschließen Rohre DN b.300",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.18.20A",
+      "text": "Dichtheitsprüfung Luft DN b.200                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "06.18.20B",
+      "text": "Dichtheitsprüfung Luft DN ü.200-300                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "06.18.25A",
+      "text": "Dichtheitsprüfung Schacht D1000/3m",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.31.00C",
+      "text": "Material zu 06.31 Kunststoff halogenfrei",
+      "unit": ""
+    },
+    {
+      "code": "06.31.01A",
+      "text": "Leitungsschutz Mauerziegel",
+      "unit": "m²"
+    },
+    {
+      "code": "06.31.01B",
+      "text": "Leitungsschutz Betonplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "06.31.02A",
+      "text": "Leitungs/Kabel-Warnband verlegen                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "06.31.02B",
+      "text": "Leitungs/Kabel-Ortungsband verlegen                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "06.31.05A",
+      "text": "Leitungsschutz                                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "06.61.02A",
+      "text": "Bettung Graben Feinsand__________",
+      "unit": "m²"
+    },
+    {
+      "code": "06.61.02B",
+      "text": "Bettung Graben Splitt__________",
+      "unit": "m²"
+    },
+    {
+      "code": "06.61.02C",
+      "text": "Bettung Graben Rollschotter__________",
+      "unit": "m²"
+    },
+    {
+      "code": "06.61.02X",
+      "text": "Bettung Graben__________",
+      "unit": "m²"
+    },
+    {
+      "code": "06.61.11A",
+      "text": "Verfüllen Graben Aushubm.+verdichten",
+      "unit": "m³"
+    },
+    {
+      "code": "06.61.12B",
+      "text": "Verfüllen Graben Gräderm.150kN/m2",
+      "unit": "m³"
+    },
+    {
+      "code": "06.61.12C",
+      "text": "Verfüllen Graben Gräderm.300kN/m2",
+      "unit": "m³"
+    },
+    {
+      "code": "06.61.12X",
+      "text": "Verfüllen Graben Gräderm.__________",
+      "unit": "m³"
+    },
+    {
+      "code": "06.61.13A",
+      "text": "Verfüllen Graben Kies/Spitt 4/8mm",
+      "unit": "m³"
+    },
+    {
+      "code": "06.61.13C",
+      "text": "Verfüllen Graben Kies/Splitt 8/16mm",
+      "unit": "m³"
+    },
+    {
+      "code": "06.61.13E",
+      "text": "Verfüllen Graben Kies/Splitt 16/32mm",
+      "unit": "m³"
+    },
+    {
+      "code": "06.61.13G",
+      "text": "Verfüllen Graben Dränschotter",
+      "unit": "m³"
+    },
+    {
+      "code": "06.61.14E",
+      "text": "Verfüllen Graben SVM 0/16mm",
+      "unit": "m³"
+    },
+    {
+      "code": "06.61.14F",
+      "text": "Verfüllen Graben SVM 0/32mm",
+      "unit": "m³"
+    },
+    {
+      "code": "06.61.21C",
+      "text": "Abdecken Matten Graben",
+      "unit": "m²"
+    },
+    {
+      "code": "06.61.22A",
+      "text": "Oberflächenschutz SVM",
+      "unit": "m²"
+    },
+    {
+      "code": "06.61.23A",
+      "text": "Schutz gegen Aufschwimmen bei SVM                                                                                    PA",
+      "unit": ""
+    },
+    {
+      "code": "06.61.31A",
+      "text": "Rückstellprobe SVM Graben",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.00A",
+      "text": "Rohrleitungen aus Steinzeug",
+      "unit": ""
+    },
+    {
+      "code": "06.81.00B",
+      "text": "Rohrleitungen aus Faserzement",
+      "unit": ""
+    },
+    {
+      "code": "06.81.00C",
+      "text": "Rohrleitungen aus Guss",
+      "unit": ""
+    },
+    {
+      "code": "06.81.00D",
+      "text": "Rohrleitungen aus Kunststoff",
+      "unit": ""
+    },
+    {
+      "code": "06.81.01A",
+      "text": "Muffe freistemmen",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.03A",
+      "text": "Instands.Putzschacht 600x400mm T0,6m",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.03B",
+      "text": "Instands.Putzschacht 600x600mm T0,8m",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.03C",
+      "text": "Instands.Putzschacht 600x1000mm T1,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.04A",
+      "text": "Instands.Putzkammer ü.1,5-2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.04B",
+      "text": "Instands.Putzkammer ü.2-3m",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.05A",
+      "text": "Neuer Kanal-Normputzdeckel",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.05B",
+      "text": "Kanalputzdeckel m.Spannbalken",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.05C",
+      "text": "Kanalputzdeckel m.2 Knaggen",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.07A",
+      "text": "Aufgelassenen Kanal m.Beton füllen",
+      "unit": "m³"
+    },
+    {
+      "code": "06.81.09A",
+      "text": "Instands.Winkeleisenauflager                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "06.81.10A",
+      "text": "Erneuern Steigeisen",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.10B",
+      "text": "Erneuern Steigeisen Kst-ummantelt",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.11A",
+      "text": "Prov.Schließen Kanal DN b.300",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.12A",
+      "text": "Auswechseln Kanalrohre DN b.300                                                                              PA",
+      "unit": ""
+    },
+    {
+      "code": "06.81.20A",
+      "text": "Mech.Reinigen Rohr DN b.200                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "06.81.20B",
+      "text": "Mech.Reinigen Rohr DN ü.200-300                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "06.81.20C",
+      "text": "Mech.Reinigen Schacht D b.1000/3m",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.21A",
+      "text": "Hochdruckspülen Rohr DN b.200                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "06.81.21B",
+      "text": "Hochdruckspülen Rohr DN ü.200-300                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "06.81.21C",
+      "text": "Hochdruckspülen Schacht D b.1000/3m",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.22A",
+      "text": "Kanalvideo Rohrkontrolle DN ü.150-300                                                                        PA",
+      "unit": ""
+    },
+    {
+      "code": "06.81.22B",
+      "text": "Kanalvideo Rohrkontrolle Länge DN ü.150-300                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "06.81.31A",
+      "text": "Übergang Gussrohre DN125mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.31B",
+      "text": "Übergang Gussrohre DN150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.31C",
+      "text": "Übergang Gussrohre DN200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.31D",
+      "text": "Übergang Gussrohre DN250mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.31E",
+      "text": "Übergang Gussrohre DN300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.32A",
+      "text": "Übergang Steinzeugrohr DN125mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.32B",
+      "text": "Übergang Steinzeugrohr DN150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.32C",
+      "text": "Übergang Steinzeugrohr DN200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.32D",
+      "text": "Übergang Steinzeugrohr DN250mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.32E",
+      "text": "Übergang Steinzeugrohr DN300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.33A",
+      "text": "Übergang Betonrohr DN125mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.33B",
+      "text": "Übergang Betonrohr DN150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.33C",
+      "text": "Übergang Betonrohr DN200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.33D",
+      "text": "Übergang Betonrohr DN250mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.33E",
+      "text": "Übergang Betonrohr DN300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.34A",
+      "text": "Übergang Faserzemetrohr DN125mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.34B",
+      "text": "Übergang Faserzemetrohr DN150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.34C",
+      "text": "Übergang Faserzemetrohr DN200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.34D",
+      "text": "Übergang Faserzemetrohr DN250mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.34E",
+      "text": "Übergang Faserzemetrohr DN300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.41A",
+      "text": "Inliner-Kanalsanierung                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "06.81.61A",
+      "text": "Aushub Lockerboden (AKL) Graben 0-1,25m+fördern Erdg.",
+      "unit": "m³"
+    },
+    {
+      "code": "06.81.61B",
+      "text": "Aushub Lockerboden (AKL) Graben 0-3m+fördern Erdg.",
+      "unit": "m³"
+    },
+    {
+      "code": "06.81.61C",
+      "text": "Aushub Lockerboden (AKL) Graben 0-1,25m+fördern Keller",
+      "unit": "m³"
+    },
+    {
+      "code": "06.81.61D",
+      "text": "Aushub Lockerboden (AKL) Graben 0-3m+fördern Keller",
+      "unit": "m³"
+    },
+    {
+      "code": "06.81.63A",
+      "text": "Durchbruch Fundament Ziegel b.80cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.63B",
+      "text": "Durchbruch Fundament Ziegel ü.80-120cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.81.63C",
+      "text": "Durchbruch Fundament Beton b.80cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "06.91.05A",
+      "text": "Transp./Verw./Dep.Aushub Graben rein",
+      "unit": "m³"
+    },
+    {
+      "code": "06.91.05B",
+      "text": "Transp./Verw./Dep.Aushub Graben Inertabfall b.30% / b.3%",
+      "unit": "m³"
+    },
+    {
+      "code": "06.91.05C",
+      "text": "Transp./Verw./Dep.Aushub Graben Inertabfall ü.30% / ü.3%",
+      "unit": "m³"
+    },
+    {
+      "code": "06.91.05D",
+      "text": "Transp./Verw./Dep.Aushub Graben Baurestmassen b.30% / b.3%",
+      "unit": "m³"
+    },
+    {
+      "code": "06.91.05E",
+      "text": "Transp./Verw./Dep.Aushub Graben Baurestmassen ü.30% / ü.3%",
+      "unit": "m³"
+    },
+    {
+      "code": "06.91.05F",
+      "text": "Transp./Verw./Dep.Aushub Graben Reststoff.",
+      "unit": "m³"
+    },
+    {
+      "code": "06.91.05G",
+      "text": "Transp./Verw./Dep.Aushub Graben Massenabfall",
+      "unit": "m³"
+    },
+    {
+      "code": "06.91.06A",
+      "text": "Transp./Verw./Dep.Aushub Graben (nicht deponierbar)",
+      "unit": "m³"
+    }
+  ]
+}

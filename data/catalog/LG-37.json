@@ -1,0 +1,676 @@
+{
+  "lg": "37",
+  "title": "Tischlerarbeiten",
+  "positions": [
+    {
+      "code": "37.11.00A",
+      "text": "Verfügbarkeit von Beilagen (zu 37.11)",
+      "unit": ""
+    },
+    {
+      "code": "37.13.00A",
+      "text": "Verfügbarkeit von Beilagen (zu 37.13)",
+      "unit": ""
+    },
+    {
+      "code": "37.14.01A",
+      "text": "Pfostenstock b.900 grundb.b.80",
+      "unit": "Stk"
+    },
+    {
+      "code": "37.14.01B",
+      "text": "Pfostenstock b.900 grundb.ü.80-100",
+      "unit": "Stk"
+    },
+    {
+      "code": "37.14.01C",
+      "text": "Pfostenstock b.900 grundb.ü.100-130",
+      "unit": "Stk"
+    },
+    {
+      "code": "37.14.01D",
+      "text": "Pfostenstock b.900 grundb.ü.130-150",
+      "unit": "Stk"
+    },
+    {
+      "code": "37.14.03A",
+      "text": "Pfostenst.2Fl Tür grundb.b.80",
+      "unit": "Stk"
+    },
+    {
+      "code": "37.14.03B",
+      "text": "Pfostenst.2Fl Tür grundb.ü.80-100",
+      "unit": "Stk"
+    },
+    {
+      "code": "37.14.03C",
+      "text": "Pfostenst.2Fl Tür grundb.ü.100-130",
+      "unit": "Stk"
+    },
+    {
+      "code": "37.14.03D",
+      "text": "Pfostenst.2Fl Tür grundb.ü.130-150",
+      "unit": "Stk"
+    },
+    {
+      "code": "37.15.00A",
+      "text": "Verfügbarkeit von Beilagen (zu 37.15)",
+      "unit": ""
+    },
+    {
+      "code": "37.18.00A",
+      "text": "Verfügbarkeit von Beilagen (zu 37.18)",
+      "unit": ""
+    },
+    {
+      "code": "37.19.01A",
+      "text": "Einfache Lattung f.Wand",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.01B",
+      "text": "Einfache Lattung f.Decken",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.02A",
+      "text": "Doppellatt.Wand 15x45+22x45",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.02B",
+      "text": "Doppellatt.Decke 15x45+22x45",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.02C",
+      "text": "Doppellatt.Wand 15x45+30x50",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.02D",
+      "text": "Doppellatt.Decke 15x45+30x50",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.02E",
+      "text": "Doppellatt.Wand 30x50+30x50",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.02F",
+      "text": "Doppellatt.Decke 30x50+30x50",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.03A",
+      "text": "Az einfache Lattung gehobelt",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.03B",
+      "text": "Az Lattung15x45+22x45 gehobelt",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.03C",
+      "text": "Az Lattung15x45+30x50 gehobelt",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.03D",
+      "text": "Az Lattung 30x50+30x50 gehobelt",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.04A",
+      "text": "Az Unterkonstr.abgehängt b.25",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.04B",
+      "text": "Az Unterkonstr.abgehängt ü.25-40",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.05A",
+      "text": "Az Unterk.f.Befestig.ü.25-mm",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.06A",
+      "text": "Az Einf.Lattung imprägniert",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.06B",
+      "text": "Az Doppellatt.imprägniert",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10A",
+      "text": "Decklage Wand Fichte C 12/96",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10B",
+      "text": "Decklage Wand Fichte C 15/114",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10C",
+      "text": "Decklage Wand Profil C",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10D",
+      "text": "Decklage Wand Fichte E 12/96",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10E",
+      "text": "Decklage Wand Fichte E 15/114",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10F",
+      "text": "Decklage Wand Profil E",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10G",
+      "text": "Decklage Wand Fi.F od.G 12/96",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10H",
+      "text": "Decklage Wand Fi.F od.G 15/119",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10I",
+      "text": "Decklage Wand Profil F od.G",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10J",
+      "text": "Decklage Wand Fi.H12/71/o.Fed.",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10K",
+      "text": "Decklage Wand Fi.H15/119/o.Fed",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10L",
+      "text": "Decklage Wand Profil H/o.Feder",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10M",
+      "text": "Decklage Wand Fichte K 15/114",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10N",
+      "text": "Decklage Wand Fichte K 15/126",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10O",
+      "text": "Decklage Wand Profil K",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10P",
+      "text": "Decklage Wand Fichte L 15/133",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.10Q",
+      "text": "Decklage Wand Profil L",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.11A",
+      "text": "Az Deckl.Wand H Feder Hartf.",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.11B",
+      "text": "Az Deckl.Wand H Feder farbig",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.11C",
+      "text": "Az Deckl.Wand H Fed.m.Stab",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.11D",
+      "text": "Az Deckl.Wand H Feder Filz",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12A",
+      "text": "Decklage Decke Fichte C 12/96",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12B",
+      "text": "Decklage Decke Fichte C 15/114",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12C",
+      "text": "Decklage Decke Profil C",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12D",
+      "text": "Decklage Decke Fichte E 12/96",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12E",
+      "text": "Decklage Decke Fichte E 15/114",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12F",
+      "text": "Decklage Decke Profil E",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12G",
+      "text": "Decklage Decke Fi.F od.G 12/96",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12H",
+      "text": "Decklage Decke Fi.F od.G15/119",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12I",
+      "text": "Decklage Decke Profil F od.G",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12J",
+      "text": "Deckl.Decke Fi.H 12/71/o.Feder",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12K",
+      "text": "Deckl.Decke Fi.15/119/o.Feder",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12L",
+      "text": "Deckl.Decke Profil H/o.Feder",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12M",
+      "text": "Decklage Decke Fi.K 15/114",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12N",
+      "text": "Decklage Decke Fi.K 15/126",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12O",
+      "text": "Decklage Decke Profil K",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12P",
+      "text": "Decklage Decke Fichte L 15/133",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.12Q",
+      "text": "Decklage Decke Profil L",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.13A",
+      "text": "Az Deckl.Decke H Feder Hartf.",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.13B",
+      "text": "Az Deckl.Decke H Feder farb.",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.13C",
+      "text": "Az Deckl.Decke H Fed.m.Stab",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.13D",
+      "text": "Az Deckl.Decke H Feder Filz",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.14A",
+      "text": "Az Verkl.Stoßprof.Doppelnut                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "37.19.14B",
+      "text": "Az Verkl.Stoßverbind.Profil                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "37.19.15A",
+      "text": "Decklage Wand HF-Platte",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.15B",
+      "text": "Decklage Wand HFD-Dekor",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.15C",
+      "text": "Decklage Wand Holzspanpl.V20",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.15D",
+      "text": "Decklage Wand V20 Nut+Fed.",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.15E",
+      "text": "Decklage Wand Holzspanpl.V100",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.15F",
+      "text": "Decklage Wand V100 Nut+Fed.",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.15G",
+      "text": "Decklage Wand Sperrplatte FU",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.15H",
+      "text": "Decklage Wand Paneelplatte Ti",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.17A",
+      "text": "Decklage Decke HF-Platte",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.17B",
+      "text": "Decklage Decke HFD-Dekor",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.17C",
+      "text": "Decklage Decke Holzspanpl.V20",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.17D",
+      "text": "Decklage Decke V20 Nut+Fed.",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.17E",
+      "text": "Decklage Decke Holzspanpl.V100",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.17F",
+      "text": "Deckl.Deck.Holzspanpl.V100 N+F",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.17G",
+      "text": "Decklage Decke Sperrpl.FU",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.17H",
+      "text": "Decklage Decke Paneelpl.Ti",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.17I",
+      "text": "Decklage Decke m.Kassettenpl.",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.18A",
+      "text": "Mineralfasermatte Wand 5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.18B",
+      "text": "Mineralfasermatte Wand 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.18C",
+      "text": "Mineralfasermatte Wand 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.18D",
+      "text": "Mineralfasermatte Wand 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.19A",
+      "text": "Mineralfasermatte Decke 5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.19B",
+      "text": "Mineralfasermatte Decke 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.19C",
+      "text": "Mineralfasermatte Decke 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.19D",
+      "text": "Mineralfasermatte Decke 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.20A",
+      "text": "Mineralfaserm.alukasch.Wand 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.20B",
+      "text": "Mineralfaserm.alukasch.Wand 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.21A",
+      "text": "Mineralfaserm.alukasch.Decke 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.21B",
+      "text": "Mineralfaserm.alukasch.Decke 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "37.19.22A",
+      "text": "Dampfbremse Sd=mind.10m",
+      "unit": "m²"
+    },
+    {
+      "code": "37.25.01A",
+      "text": "Abdichten m.PUR-Schaum                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.01B",
+      "text": "Abdichten m.PUR+Dicht.1-seit.                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.01C",
+      "text": "Abdichten m.PUR+Dicht.2-seit.                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.01D",
+      "text": "Abdichten m.Mineralf.Zopf                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.01E",
+      "text": "Abdichten m.Zopf+Dicht.1-seit.                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.01F",
+      "text": "Abdichten m.Zopf+Dicht.2-seit.                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.02A",
+      "text": "Fuge 15mm Silikon                                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.02B",
+      "text": "Fuge 15mm Acryldispersion                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.02C",
+      "text": "Fuge 15mm Polysulfid 1Ko                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.02D",
+      "text": "Fuge 15mm Polysulfid 2Ko                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.02E",
+      "text": "Fuge 15mm Polyur.2Ko.waagr.                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.02X",
+      "text": "Fuge 15mm elast.Dichtstoff                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.03A",
+      "text": "Az Fuge 25mm Silikon                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.03B",
+      "text": "Az Fuge 25mm Acryldispersion                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.03C",
+      "text": "Az Fuge 25mm Polysulfid 1Ko                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.03D",
+      "text": "Az Fuge 25mm Polysulfid 2Ko                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.03E",
+      "text": "Az Fuge 25mm Polyurethan                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.06A",
+      "text": "Az Fuge Polyeth.Rundschnur b.15                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.06B",
+      "text": "Az Fuge Polyeth.Rundschnur ü.15-25                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "37.25.10A",
+      "text": "Az Stein bohren b.100 D b.10mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "37.25.10B",
+      "text": "Az Stein bohren b.100 D ü.10-15",
+      "unit": "Stk"
+    },
+    {
+      "code": "37.25.10C",
+      "text": "Az Stein bohren b.100 D ü.15-20mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "37.25.12A",
+      "text": "Einlegen vom AG Zargendichtung",
+      "unit": "Stk"
+    },
+    {
+      "code": "37.80.20A",
+      "text": "Instands.Handlauf profiliert                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "37.80.20B",
+      "text": "Instands.Handlauf Brett                                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "37.80.21A",
+      "text": "Handlauf profiliert neu                                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "37.80.21B",
+      "text": "Handlauf Brett neu                                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "37.80.22A",
+      "text": "Az Handl.neu profil.Krümmung",
+      "unit": "Stk"
+    },
+    {
+      "code": "37.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "37.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "37.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

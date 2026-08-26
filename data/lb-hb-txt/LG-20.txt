@@ -1,0 +1,454 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                       Leistungsgruppe (LG) 20 - Regieleistungen
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 2011    Stundensätze
+                     ULG 2012    Geräteeinsatz (Gerätebeistellung)
+                     ULG 2013    Transportleistungen
+                     ULG 2014    Stoffbeistellung
+                     ULG 2015    Materiallieferungen für Regieleistungen
+
+
+
+
+                                                                                                            Seite 1 / 8
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+20          Regieleistungen
+            Version 023 (2025-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen.
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+            LB-Version: 23                 Geändert
+Änderung:   Geänderte Positionen:
+            20.12 10W Mobilkran
+            20.12 10X Mobilkran Tag
+            20.12 10Y Zeitgebundene Kosten Mobilkran
+            20.12 10Z Zeitgebundene Kosten Mobilkran Stillliegezeit
+
+20.11       Stundensätze
+            Stundensätze:
+            Die Stundensätze sind für kollektivvertragliche Normalstunden berechnet.
+             Kommentar:
+             Regiestunden für das Aufsichtspersonal (Polier, Vizepolier) sind nur dann auszuschreiben und gesondert zu vergüten, wenn
+             die zeitgebundenen Gemeinkosten der Baustelle auf die Einheitspreise umgelegt sind.
+             Regieleistungen für Professionisten:
+             Regieleistungen für Professionisten sind in den jeweiligen Leistungsgruppen enthalten.
+
+20.11 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+20.11 00A   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+20.11 01    Polier.
+
+20.11 01A   Polier                                                                                                               h
+20.11 02    Hilfspolier, Beschäftigungsgruppe I.
+
+20.11 02A   Hilfspolier                                                                                                          h
+
+                                                                                                                             Seite 2 / 8
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+20.11 03    Facharbeiter der Beschäftigungsgruppe II.
+
+20.11 03A   Maurer-,Zimmerervorarbeiter                                                                                  h
+
+20.11 03B   Maurer,Zimmerer,Betonbauer                                                                                   h
+
+20.11 03C   Fassader,Gipser                                                                                              h
+            Für Arbeiten an Fassaden oder Gipsstukkatur.
+
+20.11 04    Angelernte Bauarbeiter der Beschäftigungsgruppe III.
+
+20.11 04C   Betonierer,Schaler,Eisenb.Ger.                                                                               h
+            Betonierer, Schaler, Eisenbieger und Gerüster.
+
+20.11 04D   Maschinist                                                                                                   h
+            Maschinist an motorisch betriebenen Geräten und Maschinen.
+
+20.11 05    Bauhilfsarbeiter der Beschäftigungsgruppe IV, ohne Unterschied des Alters.
+
+20.11 05A   Hilfsarbeiter                                                                                                h
+20.11 06    Sonstiges Hilfspersonal der Beschäftigungsgruppe V, wie Bedienerin, Bote oder ähnliches Personal.
+
+20.11 06A   Sonstiges Hilfspersonal                                                                                      h
+20.12       Geräteeinsatz (Gerätebeistellung)
+            LB-Version: 23                Geändert
+Änderung:   Änderung der Positionen für Mobilkräne 20.12 10A-D (alt: Aufteilung nach kW)
+
+20.12 01    Elektrohammer, Mauerfräsen, Trennscheibengeräte, Rüttler und dergleichen, ohne Arbeiter, einschließlich der
+            Einsatzteile wie z.B. Meißel oder Bohrer. Trennscheiben werden nach dem tatsächlichen Verbrauch gegen
+            Nachweis gesondert vergütet. Eine zusätzliche Verrechnung von An- und Abtransport erfolgt nicht.
+
+20.12 01A   Elektrische Handgeräte                                                                                       h
+20.12 02    Auf der Baustelle vorhandener Kompressor, mobil, superschallgedämpft, ohne Arbeiter für das Stemmen.
+
+20.12 02A   Kompressor m.einem Hammer                                                                                    h
+            Mit nur einem Hammer in Betrieb.
+
+20.12 02B   Kompressor mit 2 Hämmern                                                                                     h
+            Mit zwei Hämmern in Betrieb.
+
+20.12 02C   Kompressor mit 3 Hämmern                                                                                     h
+            Mit drei Hämmern in Betrieb.
+
+20.12 03    Auf der Baustelle vorhandene Mischmaschine, ohne Unterschied der Betriebsart, ohne Arbeiter für das Mischen.
+            Im Positionsstichwort ist das Fassungsvermögen angegeben.
+
+20.12 03A   Mischmaschine b.200 Liter                                                                                    h
+20.12 04    Auf der Baustelle vorhandenes Lade- und Planiergerät (ausschließlich Grader), einschließlich Fahrer. Im
+            Positionsstichwort ist die Leistung angegeben.
+
+20.12 04A   Lade-Planiergerät Raupe b.30kW                                                                               h
+
+20.12 04B   Lade-Planiergerät Raupe ü.30-45kW                                                                            h
+
+20.12 04C   Lade-Planiergerät Raupe ü.45-60kW                                                                            h
+20.12 05    Auf der Baustelle vorhandener Baukran, einschließlich eines Kranführers.
+
+20.12 05A   Baukran                                                                                                      h
+            Ausladung: ____________
+            Tragfähigkeit bei größtmöglicher Ausladung (Tonnen): ____________
+
+20.12 06    Auf der Baustelle vorhandener Bauaufzug, einschließlich Bedienung.
+
+                                                                                                                     Seite 3 / 8
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+20.12 06A   Bauaufzug                                                                                                     h
+20.12 07    Auf der Baustelle vorhandener Dieselkarren (Motorjapaner), einschließlich Fahrer. Im Positionsstichwort ist der
+            Muldeninhalt angegeben.
+
+20.12 07A   Dieselkarren b.1,5m3                                                                                          h
+20.12 08    Fahrbare Schubleiter (Magirusleiter), einschließlich Bedienung und Sicherung. Der An- und Abtransport wird mit
+            je einer Stunde verrechnet. Im Positionsstichwort ist die Arbeitshöhe angegeben.
+
+20.12 08A   Fahrbare Schubleiter b.15m                                                                                    h
+20.12 09    Teleskopkran mit Arbeitskorb für zwei Personen, mit Sprechfunkausrüstung, einschließlich Bedienung und
+            Sicherung. Im Positionsstichwort ist die Arbeitshöhe angegeben.
+
+20.12 09A   Teleskopkran m.Korb b.22m                                                                                     h
+            Der An- und Abtransport wird mit je einer Stunde abgegolten.
+
+20.12 09B   Teleskopkran m.Korb 22-45m                                                                                    d
+            Der An- und Abtransport wird nicht gesondert in Rechnung gestellt. Kleinste Verrechnungseinheit ist ein
+            Arbeitstag (Montag bis Freitag).
+20.12 10    Mobilkran einschließlich Kranführer.
+
+20.12 10W   Mobilkran                                                                                                     h
+            Mobilkran nach Stunden.
+            Der An- und Abtransport ist mit je einer Stunde einkalkuliert.
+            Ausladung: ____________
+            Tragfähigkeit bei größtmöglicher Ausladung (Tonnen): ____________
+            LB-Version: 23               Geändert
+
+20.12 10X   Mobilkran Tag                                                                                                 d
+            Mobilkran je Tag (bis zu 10 Stunden).
+            Der An- und Abtransport ist mit je einer Stunde einkalkuliert.
+            Ausladung: ____________
+            Tragfähigkeit bei größtmöglicher Ausladung (Tonnen): ____________
+            LB-Version: 23               Geändert
+
+20.12 10Y   Zeitgebundene Kosten Mobilkran                                                                                VE
+            Einmalige und durchschnittliche zeitgebundene Kosten während der Baubetriebszeit. Abgerechnet wird in
+            Verrechnungseinheiten (VE = Stück x Tage).
+            Die zeitgebundenen Kosten umfassen auch alle Prüfungen, Instandhaltungsmaßnahmen, etwaiges
+            Verbrauchsmaterial und die erforderliche Reinigung.
+            LB-Version: 23               Geändert
+
+20.12 10Z   Zeitgebundene Kosten Mobilkran Stillliegezeit                                                                 VE
+            Durchschnittliche zeitgebundene Kosten während der angeordneten Stillliegezeit. Abgerechnet wird in
+            Verrechnungseinheiten (VE = Stück x Tage).
+            Die zeitgebundenen Kosten umfassen auch alle Prüfungen, Instandhaltungsmaßnahmen, etwaiges
+            Verbrauchsmaterial und die erforderliche Reinigung.
+            LB-Version: 23               Geändert
+20.12 11    Verschiedene Geräte einschließlich Bedienung. Der An- und Abtransport wird mit je einer halben Stunde
+            verrechnet. Im Positionsstichwort ist die Leistung angegeben.
+
+20.12 11A   Verdichtungsgerät b.3kW                                                                                       h
+
+20.12 11B   Verdichtungsgerät ü.3-6kW                                                                                     h
+
+20.12 11D   Vibrowalzen b.5kW                                                                                             h
+
+20.12 11E   Vibrowalzen ü.5-10kW                                                                                          h
+
+
+                                                                                                                      Seite 4 / 8
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                                EH
+
+20.12 11G   Fugenschneidgerät mit Wasserkühlung                                                                                      h
+            Fugenschneidgerät mit Wasserkühlung.
+
+20.12 16    Auf der Baustelle vorhandenes Stromaggregat, einschließlich Bedienung und Betriebsmittel. Im
+            Positionsstichwort ist die Leistung angegeben.
+
+20.12 16A   Stromaggregat b.10kVA                                                                                                    h
+
+20.12 16B   Stromaggregat ü.10-50kVA                                                                                                 h
+
+20.12 16C   Stromaggregat ü.50-100kVA                                                                                                h
+20.12 18    Auf der Baustelle vorhandene Wasser-Pumpen mit Schlauch bis 50 m Länge, einschließlich Bedienung, ohne
+            Stromkosten. Im Positionsstichwort ist die Leistung angegeben.
+
+20.12 18A   Pumpe+Schlauch b.5kW ohne Strom                                                                                          h
+
+20.12 18B   Pumpe+Schlauch ü.5-15kW ohne Strom                                                                                       h
+
+20.12 18C   Pumpe+Schlauch ü.15-30kW ohne Strom                                                                                      h
+20.13       Transportleistungen
+20.13 01    Beistellen von LKW, ohne Anhänger, einschließlich Fahrer, angegeben die höchstzulässige Nutzlast. Für die
+            An- und Abfahrt wird höchstens je eine halbe Stunde je Fahrzeug verrechnet. Im Positionsstichwort ist die
+            Nutzlast angegeben.
+
+20.13 01A   LKW b.1,5t                                                                                                               h
+
+20.13 01B   LKW ü.1,5-5t+Kipper                                                                                                      h
+            Mit Kipper.
+
+20.13 01C   LKW ü.1,5-5t+Kipper+Kran                                                                                                 h
+            Mit Kipper und Autoladekran.
+
+20.13 01D   LKW ü.5-8t+Kipper                                                                                                        h
+            Mit Kipper.
+
+20.13 01E   LKW ü.5-8t+Kipper+Kran                                                                                                   h
+            Mit Kipper und Autoladekran.
+
+20.13 01F   LKW ü.8-12t+Kipper                                                                                                       h
+            Mit Kipper.
+
+20.13 01G   LKW ü.8-12t+Kipper+Kran                                                                                                  h
+            Mit Kipper und Autoladekran.
+
+20.14       Stoffbeistellung
+             Kommentar:
+             Frei zu formulieren ist (sind) z.B.:
+             Einkaufspreis:
+             Für Stoffe, die im vorliegenden Leistungsverzeichnis nicht enthalten sind und für die keine Preisvereinbarung besteht, ist ein
+             Kostenrahmen für die benötigten sonstigen Stoffe vom Ausschreiber eingesetzt. Verrechnungseinheit = Euro.
+             Der Einkaufspreis wird nachgewiesen und ohne Umsatzsteuer mit dem angegebenen Aufschlag abgerechnet. Der
+             angebotene Aufschlag in Prozent (mit höchstens zwei Dezimalstellen) kommt als Faktor im angebotenen Einheitspreis zum
+             Ausdruck.
+             Brutto-Listenpreis (Listen-Pr.):
+             Für Stoffe, die im vorliegenden Leistungsverzeichnis nicht enthalten sind und für die keine Preisvereinbarung besteht, ist ein
+             Kostenrahmen für die benötigten sonstigen Stoffe vom Ausschreiber eingesetzt. Verrechnungseinheit = Euro.
+             Der Brutto-Listenpreis (Listen-Pr.) wird nachgewiesen und ohne Umsatzsteuer mit dem angegebenen Abschlag abgerechnet.
+             Der angebotene Abschlag in Prozent (mit höchstens zwei Dezimalstellen) kommt als Faktor im angebotenen Einheitspreis
+             zum Ausdruck.
+
+
+
+
+                                                                                                                                 Seite 5 / 8
+                                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+20.14 01    Mineralisch gebundener Mörtel händisch oder mit Mischmaschine in kleinen Mengen herstellen, einschließlich
+            Beistellen aller Materialien. Mischmaschine wird nicht gesondert verrechnet. Im Positionsstichwort ist die
+            Korngröße angegeben.
+
+20.14 01A   Mörtel grob b.4mm                                                                                             m³
+
+20.14 01B   Mörtel fein b.1mm                                                                                             m³
+
+20.14 01C   Mörtel grob b.4mm (Liter)                                                                                     l
+
+20.14 01D   Mörtel fein b.1mm (Liter)                                                                                     l
+20.14 02    Beton ohne Unterschied, ob auf der Baustelle hergestellt oder Transportbeton. Im Positionsstichwort ist die
+            Festigkeit des Betons angegeben.
+
+20.14 02A   Beton b.C12/15                                                                                                m³
+
+20.14 02B   Beton C16/20                                                                                                  m³
+
+20.14 02C   Beton C20/25                                                                                                  m³
+
+20.14 02D   Estrichbeton E225                                                                                             m³
+20.14 03    Normalmauerziegel NF.
+
+20.14 03A   Normalmauerziegel NF                                                                                          Stk
+20.14 04    Gips.
+
+20.14 04A   Gips                                                                                                          kg
+20.14 05    Kalkhydrat.
+
+20.14 05A   Kalkhydrat                                                                                                    kg
+20.14 06    Portlandzement CEM I. Im Positionsstichwort ist Klasse angegeben.
+
+20.14 06A   Portlandzement CEM I Klasse 32,5                                                                              kg
+
+20.14 06B   Portlandzement CEM I Klasse 42,5                                                                              kg
+
+20.14 06C   Portlandzement CEM I Klasse 52,5                                                                              kg
+20.14 09    Sand. Im Positionsstichwort ist die Korngröße angegeben.
+
+20.14 09A   Grobsand b.4mm                                                                                                m³
+
+20.14 09B   Mauersand b.2mm                                                                                               m³
+
+20.14 09C   Feinputzsand 1mm                                                                                              m³
+20.14 12    Schleifsand.
+
+20.14 12A   Schleifsand                                                                                                   m³
+20.14 13    Schotter. Im Positionsstichwort ist die Korngröße angegeben.
+
+20.14 13A   Schotter 0-16mm                                                                                               m³
+
+20.14 13B   Schotter 0-32mm                                                                                               m³
+20.14 15    Bewehrungsmatten M550. Im Positionsstichwort ist das Gewicht angegeben.
+
+20.14 15A   Bewehrungsmatte M550 b.3,2kg/m2                                                                               kg
+
+20.14 15B   Bewehrungsmatte M550 ü.3,2kg/m2                                                                               kg
+20.14 17    Rippenstahl Bst.550. Im Positionsstichwort ist der Durchmesser angegeben.
+
+20.14 17B   Rippenstahl Bst.550 ü.16-30mm                                                                                 kg
+20.14 19    Drahtziegelgewebe.
+
+                                                                                                                      Seite 6 / 8
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+20.14 19A   Drahtziegelgewebe                                                                                           m²
+20.14 20    Drahtgewebe verzinkt. Im Positionsstichwort sind der Durchmesser und die Maschenweite angegeben.
+
+20.14 20A   Drahtgewebe verz.1mm/MW 25x25                                                                               m²
+20.14 21    PE-Folie. Im Positionsstichwort sind die Dicke oder eine etwaige Armierung angegeben.
+
+20.14 21A   PE-Folie 0,1mm                                                                                              m²
+
+20.14 21B   PE-Folie 0,2mm                                                                                              m²
+
+20.14 21C   PE-Folie armiert                                                                                            m²
+20.14 23    Dachpappe. Im Positionsstichwort ist die Bezeichnung angegeben.
+
+20.14 23A   Dachpappe RP 350/21                                                                                         m²
+
+20.14 23B   Dachpappe RP 450/23                                                                                         m²
+20.14 24    Bitumen.
+
+20.14 24A   Bitumen                                                                                                     kg
+            Bezeichnung: ____________
+
+20.14 25    Schalholz ungehobelt.
+
+20.14 25A   Schalholz ungehobelt                                                                                        m³
+20.14 26    Bretter gehobelt (Glattkantbretter).
+
+20.14 26A   Bretter gehobelt 24mm                                                                                       m²
+            Im Raummaß 24 mm dick.
+
+20.14 27    Pölzholz.
+
+20.14 27A   Pölzholz wieder verwendbar                                                                                  m³
+
+20.14 27B   Pölzholz nicht wieder verwendbar                                                                            m³
+20.14 28    Drahtstifte. Im Positionsstichwort sind die Farbe und die Länge angegeben.
+
+20.14 28A   Drahtstifte schwarz 60-100mm                                                                                kg
+20.14 30    Fertigteilüberlagen nach Maß zugeschnitten. Im Positionsstichwort ist die Länge angegeben.
+
+20.14 30A   Fertigteilüberlagen b.2,5m                                                                                  m
+20.14 32    Kunststoffkanalrohre (Kstf-Rohr) gerade. Im Positionsstichwort sind die Nenndurchmesser und die Länge
+            angegeben.
+
+20.14 32A   Kstf-Rohr DN100 1m gerade                                                                                   Stk
+
+20.14 32B   Kstf-Rohr DN150 1m gerade                                                                                   Stk
+
+20.14 32C   Kstf-Rohr DN200 1m gerade                                                                                   Stk
+20.14 33    Kunststoffkanalrohrbogen 30 bis 60 Grad. Im Positionsstichwort ist der Nenndurchmesser angegeben.
+
+20.14 33A   Kstf-Rohrbogen DN100                                                                                        Stk
+
+20.14 33B   Kstf-Rohrbogen DN150                                                                                        Stk
+
+20.14 33C   Kstf-Rohrbogen DN200                                                                                        Stk
+20.15       Materiallieferungen für Regieleistungen
+            LB-Version: 23               Geringfügig Geändert
+
+20.15 51    Materiallieferungen f.Regieleistungen                                                                       VE
+
+                                                                                                                    Seite 7 / 8
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                   EH
+           Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+           ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+           Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+           nach ÖNORM B 2061).
+           Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+           berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+           unberücksichtigt.
+           Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+           Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+           eingesetzt.
+           1 VE = 1 EURO
+           Beispiel:
+           angebotener Prozentsatz: +12%
+           als Einheitspreis einzusetzen: 1,12
+           LB-Version: 23              Geringfügig Geändert
+
+
+
+
+                                                                                                                   Seite 8 / 8
+                                                                                            ib-data GmbH, Softwareentwicklung
+

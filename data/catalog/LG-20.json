@@ -1,0 +1,451 @@
+{
+  "lg": "20",
+  "title": "Regieleistungen",
+  "positions": [
+    {
+      "code": "20.12.10W",
+      "text": "Mobilkran",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.10X",
+      "text": "Mobilkran Tag",
+      "unit": ""
+    },
+    {
+      "code": "20.12.10Y",
+      "text": "Zeitgebundene Kosten Mobilkran",
+      "unit": ""
+    },
+    {
+      "code": "20.12.10Z",
+      "text": "Zeitgebundene Kosten Mobilkran Stillliegezeit",
+      "unit": ""
+    },
+    {
+      "code": "20.11.00A",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "20.11.01A",
+      "text": "Polier",
+      "unit": "h"
+    },
+    {
+      "code": "20.11.02A",
+      "text": "Hilfspolier",
+      "unit": "h"
+    },
+    {
+      "code": "20.11.03A",
+      "text": "Maurer-,Zimmerervorarbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "20.11.03B",
+      "text": "Maurer,Zimmerer,Betonbauer",
+      "unit": "h"
+    },
+    {
+      "code": "20.11.03C",
+      "text": "Fassader,Gipser",
+      "unit": "h"
+    },
+    {
+      "code": "20.11.04C",
+      "text": "Betonierer,Schaler,Eisenb.Ger.",
+      "unit": "h"
+    },
+    {
+      "code": "20.11.04D",
+      "text": "Maschinist",
+      "unit": "h"
+    },
+    {
+      "code": "20.11.05A",
+      "text": "Hilfsarbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "20.11.06A",
+      "text": "Sonstiges Hilfspersonal",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.01A",
+      "text": "Elektrische Handgeräte",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.02A",
+      "text": "Kompressor m.einem Hammer",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.02B",
+      "text": "Kompressor mit 2 Hämmern",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.02C",
+      "text": "Kompressor mit 3 Hämmern",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.03A",
+      "text": "Mischmaschine b.200 Liter",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.04A",
+      "text": "Lade-Planiergerät Raupe b.30kW",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.04B",
+      "text": "Lade-Planiergerät Raupe ü.30-45kW",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.04C",
+      "text": "Lade-Planiergerät Raupe ü.45-60kW",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.05A",
+      "text": "Baukran",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.06A",
+      "text": "Bauaufzug",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.07A",
+      "text": "Dieselkarren b.1,5m3",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.08A",
+      "text": "Fahrbare Schubleiter b.15m",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.09A",
+      "text": "Teleskopkran m.Korb b.22m",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.09B",
+      "text": "Teleskopkran m.Korb 22-45m                                                                                    d",
+      "unit": ""
+    },
+    {
+      "code": "20.12.11A",
+      "text": "Verdichtungsgerät b.3kW",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.11B",
+      "text": "Verdichtungsgerät ü.3-6kW",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.11D",
+      "text": "Vibrowalzen b.5kW",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.11E",
+      "text": "Vibrowalzen ü.5-10kW",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.11G",
+      "text": "Fugenschneidgerät mit Wasserkühlung",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.16A",
+      "text": "Stromaggregat b.10kVA",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.16B",
+      "text": "Stromaggregat ü.10-50kVA",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.16C",
+      "text": "Stromaggregat ü.50-100kVA",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.18A",
+      "text": "Pumpe+Schlauch b.5kW ohne Strom",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.18B",
+      "text": "Pumpe+Schlauch ü.5-15kW ohne Strom",
+      "unit": "h"
+    },
+    {
+      "code": "20.12.18C",
+      "text": "Pumpe+Schlauch ü.15-30kW ohne Strom",
+      "unit": "h"
+    },
+    {
+      "code": "20.13.01A",
+      "text": "LKW b.1,5t",
+      "unit": "h"
+    },
+    {
+      "code": "20.13.01B",
+      "text": "LKW ü.1,5-5t+Kipper",
+      "unit": "h"
+    },
+    {
+      "code": "20.13.01C",
+      "text": "LKW ü.1,5-5t+Kipper+Kran",
+      "unit": "h"
+    },
+    {
+      "code": "20.13.01D",
+      "text": "LKW ü.5-8t+Kipper",
+      "unit": "h"
+    },
+    {
+      "code": "20.13.01E",
+      "text": "LKW ü.5-8t+Kipper+Kran",
+      "unit": "h"
+    },
+    {
+      "code": "20.13.01F",
+      "text": "LKW ü.8-12t+Kipper",
+      "unit": "h"
+    },
+    {
+      "code": "20.13.01G",
+      "text": "LKW ü.8-12t+Kipper+Kran",
+      "unit": "h"
+    },
+    {
+      "code": "20.14.01A",
+      "text": "Mörtel grob b.4mm",
+      "unit": "m³"
+    },
+    {
+      "code": "20.14.01B",
+      "text": "Mörtel fein b.1mm",
+      "unit": "m³"
+    },
+    {
+      "code": "20.14.01C",
+      "text": "Mörtel grob b.4mm (Liter)                                                                                     l",
+      "unit": ""
+    },
+    {
+      "code": "20.14.01D",
+      "text": "Mörtel fein b.1mm (Liter)                                                                                     l",
+      "unit": ""
+    },
+    {
+      "code": "20.14.02A",
+      "text": "Beton b.C12/15",
+      "unit": "m³"
+    },
+    {
+      "code": "20.14.02B",
+      "text": "Beton C16/20",
+      "unit": "m³"
+    },
+    {
+      "code": "20.14.02C",
+      "text": "Beton C20/25",
+      "unit": "m³"
+    },
+    {
+      "code": "20.14.02D",
+      "text": "Estrichbeton E225",
+      "unit": "m³"
+    },
+    {
+      "code": "20.14.03A",
+      "text": "Normalmauerziegel NF",
+      "unit": "Stk"
+    },
+    {
+      "code": "20.14.04A",
+      "text": "Gips",
+      "unit": "kg"
+    },
+    {
+      "code": "20.14.05A",
+      "text": "Kalkhydrat",
+      "unit": "kg"
+    },
+    {
+      "code": "20.14.06A",
+      "text": "Portlandzement CEM I Klasse 32,5",
+      "unit": "kg"
+    },
+    {
+      "code": "20.14.06B",
+      "text": "Portlandzement CEM I Klasse 42,5",
+      "unit": "kg"
+    },
+    {
+      "code": "20.14.06C",
+      "text": "Portlandzement CEM I Klasse 52,5",
+      "unit": "kg"
+    },
+    {
+      "code": "20.14.09A",
+      "text": "Grobsand b.4mm",
+      "unit": "m³"
+    },
+    {
+      "code": "20.14.09B",
+      "text": "Mauersand b.2mm",
+      "unit": "m³"
+    },
+    {
+      "code": "20.14.09C",
+      "text": "Feinputzsand 1mm",
+      "unit": "m³"
+    },
+    {
+      "code": "20.14.12A",
+      "text": "Schleifsand",
+      "unit": "m³"
+    },
+    {
+      "code": "20.14.13A",
+      "text": "Schotter 0-16mm",
+      "unit": "m³"
+    },
+    {
+      "code": "20.14.13B",
+      "text": "Schotter 0-32mm",
+      "unit": "m³"
+    },
+    {
+      "code": "20.14.15A",
+      "text": "Bewehrungsmatte M550 b.3,2kg/m2",
+      "unit": "kg"
+    },
+    {
+      "code": "20.14.15B",
+      "text": "Bewehrungsmatte M550 ü.3,2kg/m2",
+      "unit": "kg"
+    },
+    {
+      "code": "20.14.17B",
+      "text": "Rippenstahl Bst.550 ü.16-30mm",
+      "unit": "kg"
+    },
+    {
+      "code": "20.14.19A",
+      "text": "Drahtziegelgewebe",
+      "unit": "m²"
+    },
+    {
+      "code": "20.14.20A",
+      "text": "Drahtgewebe verz.1mm/MW 25x25",
+      "unit": "m²"
+    },
+    {
+      "code": "20.14.21A",
+      "text": "PE-Folie 0,1mm",
+      "unit": "m²"
+    },
+    {
+      "code": "20.14.21B",
+      "text": "PE-Folie 0,2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "20.14.21C",
+      "text": "PE-Folie armiert",
+      "unit": "m²"
+    },
+    {
+      "code": "20.14.23A",
+      "text": "Dachpappe RP 350/21",
+      "unit": "m²"
+    },
+    {
+      "code": "20.14.23B",
+      "text": "Dachpappe RP 450/23",
+      "unit": "m²"
+    },
+    {
+      "code": "20.14.24A",
+      "text": "Bitumen",
+      "unit": "kg"
+    },
+    {
+      "code": "20.14.25A",
+      "text": "Schalholz ungehobelt",
+      "unit": "m³"
+    },
+    {
+      "code": "20.14.26A",
+      "text": "Bretter gehobelt 24mm",
+      "unit": "m²"
+    },
+    {
+      "code": "20.14.27A",
+      "text": "Pölzholz wieder verwendbar",
+      "unit": "m³"
+    },
+    {
+      "code": "20.14.27B",
+      "text": "Pölzholz nicht wieder verwendbar",
+      "unit": "m³"
+    },
+    {
+      "code": "20.14.28A",
+      "text": "Drahtstifte schwarz 60-100mm",
+      "unit": "kg"
+    },
+    {
+      "code": "20.14.30A",
+      "text": "Fertigteilüberlagen b.2,5m                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "20.14.32A",
+      "text": "Kstf-Rohr DN100 1m gerade",
+      "unit": "Stk"
+    },
+    {
+      "code": "20.14.32B",
+      "text": "Kstf-Rohr DN150 1m gerade",
+      "unit": "Stk"
+    },
+    {
+      "code": "20.14.32C",
+      "text": "Kstf-Rohr DN200 1m gerade",
+      "unit": "Stk"
+    },
+    {
+      "code": "20.14.33A",
+      "text": "Kstf-Rohrbogen DN100",
+      "unit": "Stk"
+    },
+    {
+      "code": "20.14.33B",
+      "text": "Kstf-Rohrbogen DN150",
+      "unit": "Stk"
+    },
+    {
+      "code": "20.14.33C",
+      "text": "Kstf-Rohrbogen DN200",
+      "unit": "Stk"
+    }
+  ]
+}

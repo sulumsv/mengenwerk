@@ -1,0 +1,1716 @@
+{
+  "lg": "28",
+  "title": "Natursteinarbeiten",
+  "positions": [
+    {
+      "code": "28.00.01A",
+      "text": "Transport Arbeitsplatz waagrecht",
+      "unit": ""
+    },
+    {
+      "code": "28.00.01B",
+      "text": "Transport Arbeitsplatz lotrecht",
+      "unit": ""
+    },
+    {
+      "code": "28.00.02A",
+      "text": "Untergrundaufb.m.Fußbodenheiz.",
+      "unit": ""
+    },
+    {
+      "code": "28.00.02B",
+      "text": "Untergrundaufbau innen",
+      "unit": ""
+    },
+    {
+      "code": "28.00.02C",
+      "text": "Untergrundaufbau Terrassen",
+      "unit": ""
+    },
+    {
+      "code": "28.00.02D",
+      "text": "Untergrundaufbau Balkon",
+      "unit": ""
+    },
+    {
+      "code": "28.00.02E",
+      "text": "Untergrundaufbau außen",
+      "unit": ""
+    },
+    {
+      "code": "28.00.05A",
+      "text": "Verlegung nach Plan",
+      "unit": ""
+    },
+    {
+      "code": "28.00.05B",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "28.00.05C",
+      "text": "Belagsmuster",
+      "unit": ""
+    },
+    {
+      "code": "28.00.05D",
+      "text": "Platten, Sockel, Stufen gleich",
+      "unit": ""
+    },
+    {
+      "code": "28.00.20A",
+      "text": "Größe d.Einzelfl.Boden inn.",
+      "unit": ""
+    },
+    {
+      "code": "28.00.20B",
+      "text": "Größe d.Einzelfl.Boden auß.",
+      "unit": ""
+    },
+    {
+      "code": "28.00.20C",
+      "text": "Größe d.Einzelfl.Wand inn.",
+      "unit": ""
+    },
+    {
+      "code": "28.00.20D",
+      "text": "Größe d.Einzelfl.Wand auß.",
+      "unit": ""
+    },
+    {
+      "code": "28.01.05A",
+      "text": "Grund-Vorstrich-Haftbrücke",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.06A",
+      "text": "Voranstrich Gips-Wand W1/W2",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.07A",
+      "text": "Voranstrich Gips-Boden W1/W2",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.08A",
+      "text": "Ausgleich.Wand ü.3-5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.08B",
+      "text": "Ausgleich.Boden ü.3-5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.08C",
+      "text": "Ausgleich.Boden ü.5-10mm",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.08D",
+      "text": "Stufe ausgleichen ü.3-5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.09A",
+      "text": "Höhenausgl.Boden b.10mm",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.09B",
+      "text": "Höhenausgl.Boden ü.10-15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.09C",
+      "text": "Höhenausgl.Boden ü.15-20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.13A",
+      "text": "Abdecken m.Folie 0,1mm",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.13B",
+      "text": "Abdecken m.Folie 0,2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.14A",
+      "text": "Matte extr.Schaumst.PE 5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.20A",
+      "text": "Altern-Feucht-abdicht.Wand W3",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.20B",
+      "text": "Altern-Feucht-abdicht.Wand W4",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.21A",
+      "text": "Altern-Feucht-abd.Gipsboden W2",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.21B",
+      "text": "Altern-Feucht-abdicht.Boden W3",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.21C",
+      "text": "Altern-Feucht-abd.Boden W4",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.23A",
+      "text": "Abdichtung Epoxy unter Belag",
+      "unit": "m²"
+    },
+    {
+      "code": "28.01.25A",
+      "text": "Abdicht.Eckfuge Wand/Wand                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "28.01.25B",
+      "text": "Abdicht.Eckfuge Boden/Wand                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "28.01.25C",
+      "text": "Abdicht.Wand/Rohr DN25",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.01.25D",
+      "text": "Abdicht.Bodenablauf b.200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.11.01A",
+      "text": "I-Boden Dünnb.Scharen 25/1,5",
+      "unit": "m²"
+    },
+    {
+      "code": "28.11.01B",
+      "text": "I-Boden Dünnb.Scharen 25/2",
+      "unit": "m²"
+    },
+    {
+      "code": "28.11.01C",
+      "text": "I-Boden Dünnb.Scharen 30/1,5",
+      "unit": "m²"
+    },
+    {
+      "code": "28.11.01D",
+      "text": "I-Boden Dünnb.Scharen 30/2",
+      "unit": "m²"
+    },
+    {
+      "code": "28.11.01E",
+      "text": "I-Boden Dünnb.40x40/2",
+      "unit": "m²"
+    },
+    {
+      "code": "28.11.01F",
+      "text": "I-Boden Dünnb.40x40/3",
+      "unit": "m²"
+    },
+    {
+      "code": "28.11.01G",
+      "text": "I-Boden Dünnb.Skizze",
+      "unit": "m²"
+    },
+    {
+      "code": "28.11.02A",
+      "text": "I-Boden Fliese 30,5x30,5/1",
+      "unit": "m²"
+    },
+    {
+      "code": "28.11.03A",
+      "text": "I-Boden Mört.Scharen 25/1,5",
+      "unit": "m²"
+    },
+    {
+      "code": "28.11.03B",
+      "text": "I-Boden Mört.Scharen 25/2",
+      "unit": "m²"
+    },
+    {
+      "code": "28.11.03C",
+      "text": "I-BodenMört.Scharen 30/1,5",
+      "unit": "m²"
+    },
+    {
+      "code": "28.11.03D",
+      "text": "I-Boden Mört.Scharen 30/2",
+      "unit": "m²"
+    },
+    {
+      "code": "28.11.03E",
+      "text": "I-Boden Mört.40x40/3",
+      "unit": "m²"
+    },
+    {
+      "code": "28.11.03G",
+      "text": "I-Boden Mört.Skizze",
+      "unit": "m²"
+    },
+    {
+      "code": "28.11.11A",
+      "text": "I-Sockel.Dünn.b.1/8cm p/K220                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "28.11.11C",
+      "text": "I-Sockel.Dünn.b2/10cm p/K220                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "28.11.11E",
+      "text": "I-Sockelleiste Dünnb.                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "28.12.01A",
+      "text": "A-Bod.Dünnb.Schar.25/3 gesägt",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.01B",
+      "text": "A-Bod.Dünnb.Schar.25/3 gemas.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.01C",
+      "text": "A-Bod.Dünnb.Schar.30/3 gesägt",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.01D",
+      "text": "A-Bod.Dünnb.Schar.30/3 gemas.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.01E",
+      "text": "A-Bod.Dünnb.40x40/3 gesägt",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.01F",
+      "text": "A-Bod.Dünnb.40x40/3 gemas.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.01J",
+      "text": "A-Bodenb.Dünnb.Scharen",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.01K",
+      "text": "A-Bodenbel.Dünnb.Skizze",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.02A",
+      "text": "A-Bod.Mört.Schar.25/3 gesägt",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.02B",
+      "text": "A-Bod.Mört.Schar.25/3 gemas.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.02C",
+      "text": "A-Bod.Mört.Schar.30/3 gesägt",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.02D",
+      "text": "A-Bod.Mört.Schar.30/3 gemas.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.02E",
+      "text": "A-Bod.Mört.40x40/3 gesägt",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.02F",
+      "text": "A-Bod.Mört.40x40/3 gemas.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.02J",
+      "text": "A-Bodenb.Mört.Scharen",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.02K",
+      "text": "A-Bodenbel.Mört.Skizze",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.03A",
+      "text": "A-Bod.Sandb.Schar.25/3 gesägt",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.03B",
+      "text": "A-Bod.Sandb.Schar.25/3 gemas.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.03C",
+      "text": "A-Bod.Sandb.Schar.30/3 gesägt",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.03D",
+      "text": "A-Bod.Sandb.Schar.30/3 gemas.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.03E",
+      "text": "A-Bodenb.Sandb.40x40/3 gesägt",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.03F",
+      "text": "A-Bodenb.Sandb.40x40/3 gemas.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.03I",
+      "text": "A-Bodenb.Sandb.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.03J",
+      "text": "A-Bodenb.Sandb.Scharen",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.03K",
+      "text": "A-Bodenbel.Sandb.Skizze",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.04A",
+      "text": "A-Bodenb.Distanzp.40x40/3 ges.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.04B",
+      "text": "A-Bodenb.Dist.40x40/3 gemas.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.04E",
+      "text": "A-Bodenb.Distanzpl.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.12.11A",
+      "text": "A-Sockell.Dünnb.b.1/8cm p/K220                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "28.12.11B",
+      "text": "A-Sockell.Dünnb.b.1/8cm gesä.                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "28.12.11C",
+      "text": "A-Sockell.Dünnb.1/8cm gemas.                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "28.12.11D",
+      "text": "A-Sockell.Dünnb.b2/10cm p/K220                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "28.12.11E",
+      "text": "A-Sockell.Dünnb.b.2/10cm gesä.                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "28.12.11F",
+      "text": "A-Sockell.Dünnb.2/10cm gemas.                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "28.12.11G",
+      "text": "A-Sockell.Dünnbett                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.01A",
+      "text": "Az Sockell.Eckausb.Gehr.b.10cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.19.02A",
+      "text": "Az Bodenb.Gefälle ü.3-10Proz.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.19.02B",
+      "text": "Az Plattenschnitt Ichse/Grate/Gehrung                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.02C",
+      "text": "Az Bodenb.f.Bogenschnitte                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.02F",
+      "text": "Az Bodenb.f.Plattenverstärk.                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.02G",
+      "text": "Az Bodenb.Anarbeit.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.19.02H",
+      "text": "Az Bodenb.Anarbeit.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.19.02J",
+      "text": "Az Bodenb.sichtb.Plattendicke                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.02L",
+      "text": "Az Mörtelbett je 1cm",
+      "unit": "m²"
+    },
+    {
+      "code": "28.19.02M",
+      "text": "Az Bodenbel.b.5m2",
+      "unit": "m²"
+    },
+    {
+      "code": "28.19.02O",
+      "text": "Az Bodenb.diagonal verl.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.19.04A",
+      "text": "Az Bodenb.Fries                                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.04B",
+      "text": "Az Bod-fliese Fries Dünnb.                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.06A",
+      "text": "Az Sockell.Kante poliert                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.06B",
+      "text": "Az Sockell.Kante schräg                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.06C",
+      "text": "Az Sockell.Kante gerund.                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.07A",
+      "text": "Az gekrümmte Sockel b.0,2m                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.07B",
+      "text": "Az gekrümmte Sockel ü.0,2-1m                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.07C",
+      "text": "Az gekrümmte Sockel ü.1-2m                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.09A",
+      "text": "Bewehrungsmatten M550",
+      "unit": "kg"
+    },
+    {
+      "code": "28.19.11A",
+      "text": "Fugen schließen Silikon 5mm                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.11B",
+      "text": "Fugen schließen Silikon 10mm                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.12A",
+      "text": "Boden ausgl.im Rahmen Estr.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.19.12B",
+      "text": "Boden ausgl.im Rahmen Spachtel",
+      "unit": "m²"
+    },
+    {
+      "code": "28.19.14A",
+      "text": "Winkelrahmen nur versetzen                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.15A",
+      "text": "Deck.wählb.Oberfl.n.vers.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.19.15B",
+      "text": "Deck.wählb.Oberfl.n.vers.1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.19.16A",
+      "text": "Deckel wählb.Oberfl.40x60 Klasse A",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.19.16B",
+      "text": "Deckel wählb.Oberfl.60x60 Klasse A",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.19.16C",
+      "text": "Deckel wählb.Oberfl.60x100 Klasse A",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.19.18A",
+      "text": "Az Bodenb.Schachtdeckel b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.19.18B",
+      "text": "Az Bodenb.Schachtdeckel ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.19.20A",
+      "text": "Abschlussw.b.20mm Alu 2mm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.20B",
+      "text": "Abschlussw.b.20mm Alu 3mm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.20C",
+      "text": "Abschlussw.b.20mm Messing 2mm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.20D",
+      "text": "Abschlussw.b.20mm Messing 3mm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.21A",
+      "text": "Abschlussw.20-30mm Alu 2mm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.21B",
+      "text": "Abschlussw.20-30mm Alu 3mm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.21C",
+      "text": "Abschlussw.20-30mm Messing 2mm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.21D",
+      "text": "Abschlussw.20-30mm Messing 3mm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.22A",
+      "text": "Abschlussw.30-40mm Alu 3mm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.22B",
+      "text": "Abschlussw.30-40mm Messing 3mm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.23A",
+      "text": "Dehnfugenprofil                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "28.19.25A",
+      "text": "Löcher bohren 10cm D b.10mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.19.25B",
+      "text": "Löcher bohren 10cm D ü.10-15mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.19.25C",
+      "text": "Löcher bohren 10cm D ü.15-20mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.19.27A",
+      "text": "Bodenb.schleifen 320",
+      "unit": "m²"
+    },
+    {
+      "code": "28.19.27B",
+      "text": "Bodenbelag polieren",
+      "unit": "m²"
+    },
+    {
+      "code": "28.19.30A",
+      "text": "Provis-Schutz des Steinbelages",
+      "unit": "m²"
+    },
+    {
+      "code": "28.21.01A",
+      "text": "I-Trittpl.b.1,5m K220 Mört.                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.01C",
+      "text": "I-Trittplatte b.1,5m Mört.                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.01E",
+      "text": "I-Trittpl.b.1,5m K220 Dünnb.                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.01G",
+      "text": "I-Trittplatte b.1,5m Dünnb.                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.01H",
+      "text": "I-Trittplatte                                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.02A",
+      "text": "I-Setzpl.b.1,5m p/K220 Mört.                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.02C",
+      "text": "I-Setzplatte b.1,5m Mört.                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.02E",
+      "text": "I-Setzpl.b.1,5m p/K220 Dünnb.                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.02G",
+      "text": "I-Setzplatte b.1,5m Dünnb.                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.02H",
+      "text": "I-Setzplatte                                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.03A",
+      "text": "I-Randpl.b.1,5m p/K220 Mört.                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.03C",
+      "text": "I-Randplatte b.1,5m Mört.                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.03H",
+      "text": "I-Randplatte                                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.11A",
+      "text": "I-Keilst.ger.b.1,5m p/K220                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.11C",
+      "text": "I-Keilst.ger.b.1,5m                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.11F",
+      "text": "I-Keilstufe gerade                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.12A",
+      "text": "I-Blockst.ger.b.1,5m p/K220                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.12C",
+      "text": "I-Blockst.ger.b.1,5m                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.12F",
+      "text": "I-Blockstufe gerade                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.20A",
+      "text": "I-Bischofsm.Dünn.b.1cm p/K220",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.21.20B",
+      "text": "I-Bischofsm.Dünn.2cm p/K220",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.21.20C",
+      "text": "I-Bischofsmütze Dünnbett",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.21.24A",
+      "text": "I-Stuf-sockel Dünn.1/8 p/K220                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.24C",
+      "text": "I-Stuf-sockel Dünn.2/10 p/K220                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "28.21.24E",
+      "text": "I-Stuf-sockel Dünnbett                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.01A",
+      "text": "A-Trittpl.b.1,5m gesägt Mört.                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.01C",
+      "text": "A-Trittpl.b.1,5m gemas.Mört.                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.01E",
+      "text": "A-Trittpl.b.1,5m gesägt Dünnb.                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.01G",
+      "text": "A-Trittpl.b.1,5m gemas.Dünnb.                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.01H",
+      "text": "A-Trittplatte                                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.02A",
+      "text": "A-Setzpl.b.1,5m gesägt Mört.                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.02C",
+      "text": "A-Setzpl.b.1,5m gemas.Mört.                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.02E",
+      "text": "A-Setzpl.b.1,5m gesägt Dünnb.                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.02G",
+      "text": "A-Setzpl.b.1,5m gemas.Dünnb.                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.02H",
+      "text": "A-Setzplatte                                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.03A",
+      "text": "A-Randpl.b.1,5m gesägt Mört.                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.03C",
+      "text": "A-Randpl.b.1,5m gemas.Mört.                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.03H",
+      "text": "A-Randplatte                                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.10A",
+      "text": "A-Keilst.ger.b.1,5m gesägt                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.10C",
+      "text": "A-Keilst.ger.b.1,5m gemas.                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.10H",
+      "text": "A-Keilstufe gerade                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.12A",
+      "text": "A-Blockst.ger.b.1,5m gesägt                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.12C",
+      "text": "A-Blockst.b.1,5m gemas.                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.12H",
+      "text": "A-Ger.Blockstufe                                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.20A",
+      "text": "A-Bischofsm.Dünn.b.1cm p/K220",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.22.20B",
+      "text": "A-Bischofsm.Dünn.2cm p/K220",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.22.20C",
+      "text": "A-Bischofsmütze Dünnbett",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.22.24A",
+      "text": "A-Stuf-sockel Dünn.1/8 p/K220                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.24C",
+      "text": "A-Stuf-sockel Dünn.2/10 p/K220                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "28.22.24E",
+      "text": "A-Stuf-sockel Dünnbett                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "28.29.01A",
+      "text": "Az Trittpl.gerader Kopf",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.29.01B",
+      "text": "Az Trittpl.schräger Kopf",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.29.01C",
+      "text": "Az Trittpl.gerund.Kopf",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.29.01D",
+      "text": "Az Trittpl.Kopfausbildung",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.29.02A",
+      "text": "Az Trittpl.St.vorderk.abgefast                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "28.29.02B",
+      "text": "Az Trittpl.St-vorderk.abgerun.                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "28.29.02C",
+      "text": "Az Trittpl.Halbkreis gerund.                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "28.29.02D",
+      "text": "Az Trittpl.Sichtkantenausf.                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "28.29.03A",
+      "text": "Az Setzpl.rechtwinkelig Kopf",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.29.03B",
+      "text": "Az Setzpl.schräger Kopf",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.29.03D",
+      "text": "Az Setzpl.Kopfausbildung",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.29.04A",
+      "text": "Az Massivst.rechtw.Kopf",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.29.04B",
+      "text": "Az Massivst.schräger Kopf",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.29.04C",
+      "text": "Az Massivst.konkav.Kopf",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.29.04D",
+      "text": "Az Massivst.konvex.Kopf",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.29.04E",
+      "text": "Az Massivstufe Kopfausbildung",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.29.07A",
+      "text": "Gleitschutzstreifen Sandstrahl                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "28.29.07B",
+      "text": "Gleitschutzstreifen Stocken                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "28.29.07C",
+      "text": "Gleitschutz vertieft 4x1 lang                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "28.29.07D",
+      "text": "Gleitschutz vertieft 4x1 kurz                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "28.29.07E",
+      "text": "Gleitschutz vertieft 1x1 lang                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "28.29.07F",
+      "text": "Gleitschutz vertieft 1x1 kurz                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "28.29.20A",
+      "text": "Schutz der Trittstufen                                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "28.29.20B",
+      "text": "Schutz der Tritt- u.Setzstufen                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "28.31.01A",
+      "text": "I-Wandverkleidung K220",
+      "unit": "m²"
+    },
+    {
+      "code": "28.31.01B",
+      "text": "I-Wandverkleidung poliert",
+      "unit": "m²"
+    },
+    {
+      "code": "28.31.01C",
+      "text": "I-Wandverkleidung",
+      "unit": "m²"
+    },
+    {
+      "code": "28.31.10A",
+      "text": "I-Pfeilerverkl.rechteck.K220",
+      "unit": "m²"
+    },
+    {
+      "code": "28.31.10B",
+      "text": "I-Pfeilerverkl.rechteck.pol.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.31.10C",
+      "text": "I-Pfeilerverkl.rechteckig",
+      "unit": "m²"
+    },
+    {
+      "code": "28.31.10D",
+      "text": "I-Pfeilerverkl.Querschnitt",
+      "unit": "m²"
+    },
+    {
+      "code": "28.31.20A",
+      "text": "I-Sockelverkleid.K220                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "28.31.20B",
+      "text": "I-Sockelverkleid.poliert                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "28.31.20C",
+      "text": "I-Sockelverkleidung                                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "28.32.01A",
+      "text": "A-Wandverkleidung K220",
+      "unit": "m²"
+    },
+    {
+      "code": "28.32.01B",
+      "text": "A-Wandverkleidung poliert",
+      "unit": "m²"
+    },
+    {
+      "code": "28.32.01C",
+      "text": "A-Wandverkleidung",
+      "unit": "m²"
+    },
+    {
+      "code": "28.32.10A",
+      "text": "A-Pfeilerverkl.rechteck.K220",
+      "unit": "m²"
+    },
+    {
+      "code": "28.32.10B",
+      "text": "A-Pfeilerverkl.rechteck.pol.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.32.10C",
+      "text": "A-Pfeilerverkl.rechteckig",
+      "unit": "m²"
+    },
+    {
+      "code": "28.32.10D",
+      "text": "A-Pfeilerverkl.Querschnitt",
+      "unit": "m²"
+    },
+    {
+      "code": "28.32.20A",
+      "text": "A-Sockelverkleid.K220                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "28.32.20B",
+      "text": "A-Sockelverkleid.poliert                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.32.20C",
+      "text": "A-Sockelverkleidung                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.01A",
+      "text": "Az lotr.Verkl.Abstand ü.6-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "28.39.01B",
+      "text": "Az lotr.Verkl.Abstand ü.15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "28.39.01C",
+      "text": "Az lotr.Verkl.Anarbeit.b.0,05",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.39.01D",
+      "text": "Az lotr.Verkl.Anarbeit.ü.0,05-0,1",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.39.01E",
+      "text": "Az lotr.Verkl.Anarbeit ü.0,1                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.01F",
+      "text": "Az lotr.Verkl.Verfugen zem.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.39.01G",
+      "text": "Az lotr.Verkl.elast.Fuge M1                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.01H",
+      "text": "Az lotr.Verkl.elast.Fuge",
+      "unit": "m²"
+    },
+    {
+      "code": "28.39.01J",
+      "text": "Az lotr.Verkl.Hinterf.Mört.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.39.01K",
+      "text": "Az Wandverkl.Ecke gestoß.                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.01L",
+      "text": "Az lotr.Verkl.Eckfalz                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.01M",
+      "text": "Az lotr.Verkl.Ecke Gehrung                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.01N",
+      "text": "Az lotr.Verkl.Ecke stumpf                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.01O",
+      "text": "Az lotr.Verkl.Ecke spitz                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.01P",
+      "text": "Az lotr.Verkl.Bohrung b.20mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.39.01Q",
+      "text": "Az Lotr.Verkl.Bohrung ü.20-100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.39.01R",
+      "text": "Az lotr.Verkl.Ausschn.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.39.02A",
+      "text": "Az lotr.Verkl.Sichtk.abgefast                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.02B",
+      "text": "Az lotr.Verk.Sichtk.abgerundet                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.02D",
+      "text": "Az lotr.Verkl.Sichtkantenausf.                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.03A",
+      "text": "Az Wandv.in Gehrung polygon",
+      "unit": "m²"
+    },
+    {
+      "code": "28.39.03B",
+      "text": "Az Wandv.bogenförm.konkav",
+      "unit": "m²"
+    },
+    {
+      "code": "28.39.03C",
+      "text": "Az Wandv.bogenförm.konvex",
+      "unit": "m²"
+    },
+    {
+      "code": "28.39.04A",
+      "text": "Az Sockelv.i.Gehrung polygon                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.04B",
+      "text": "Az Sockelv.gerade polygon                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.04C",
+      "text": "Az Sockelv.bogenförm.konkav                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.04D",
+      "text": "Az Sockelv.bogenförm.konvex                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.06D",
+      "text": "Az I/A-Wandver.ü.3,2-5 o.Gerüst                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.06E",
+      "text": "Az I/A-Wandverk.ü.5-8 o.Gerüst                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.06F",
+      "text": "Az I/A-Wandver.ü.8-15 o.Gerüst                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.06G",
+      "text": "Az I/A-Wandver.ü.15-20 o.Gerüst                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "28.39.07D",
+      "text": "Az I/A-Pfeilerver.ü.3,2-5 o.Ger",
+      "unit": "m²"
+    },
+    {
+      "code": "28.39.07E",
+      "text": "Az I/A-Pfeilerverk.ü.5-8 o.Ger",
+      "unit": "m²"
+    },
+    {
+      "code": "28.41.01A",
+      "text": "I-Fensterbank Mört.1,5 K220                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "28.41.01B",
+      "text": "I-Fensterbank Mört.1,5 pol.                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "28.41.01C",
+      "text": "I-Fensterbank Mörtel                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "28.41.02A",
+      "text": "I-Fensterbank Dünnb.1,5 K220                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "28.41.02B",
+      "text": "I-Fensterbank Dünnb.1,5 pol.                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "28.41.02C",
+      "text": "I-Fensterbank Dünnb.                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "28.41.05A",
+      "text": "Az Fensterb.inn.Schwitzw.Rinne                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "28.41.10A",
+      "text": "I-Türgewände                                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "28.41.10B",
+      "text": "I-Fenstergewände                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "28.41.12A",
+      "text": "I-Türstürze                                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "28.41.12B",
+      "text": "I-Fensterstürze                                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "28.42.01A",
+      "text": "A-Fensterbank Mört.1,5 K220                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "28.42.01B",
+      "text": "A-Fensterbank Mört.1,5 pol.                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "28.42.01C",
+      "text": "A-Fensterbank Mörtel                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "28.42.02A",
+      "text": "A-Fensterbank Dünnb.1,5 K220                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.42.02B",
+      "text": "A-Fensterbank Dünnb.1,5 pol.                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.42.02C",
+      "text": "A-Fensterbank Dünnb.                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "28.42.05A",
+      "text": "Az Fensterb.auß.seitl.Rille",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.42.10A",
+      "text": "A-Türgewände                                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.42.10B",
+      "text": "A-Fenstergewände                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "28.42.12A",
+      "text": "A-Türstürze                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "28.42.12B",
+      "text": "A-Fensterstürze                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "28.80.01A",
+      "text": "Trennschnitt im Bodenbel.2cm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "28.80.01B",
+      "text": "Trennschnitt im Bodenbel.3cm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "28.80.01C",
+      "text": "Trennschnitt im Bodenbel.                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "28.80.02A",
+      "text": "Nassschneiden im Bodenbel.2cm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "28.80.02B",
+      "text": "Nassschneiden im Bodenbel.3cm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "28.80.02C",
+      "text": "Nassschneiden im Bodenbel.                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "28.80.03A",
+      "text": "Einzel.Bod-Steinpl.ersetzen b.0,16",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.80.03B",
+      "text": "Einzel.Bod-Steinpl.ersetzen ü.0,16-0,25",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.80.03C",
+      "text": "Einzel.Bod-Steinpl.ersetzen",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.80.04A",
+      "text": "Bod-Steinplatten ersetz.b.2/0,16m2",
+      "unit": "m²"
+    },
+    {
+      "code": "28.80.04B",
+      "text": "Bod-Steinplatten ersetz.b.2/0,25m2",
+      "unit": "m²"
+    },
+    {
+      "code": "28.80.04C",
+      "text": "Bod-Steinplatten ersetzen",
+      "unit": "m²"
+    },
+    {
+      "code": "28.80.07A",
+      "text": "Einzel.Sockell.ersetzen 1/8cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.80.07B",
+      "text": "Einzel.Sockell.ersetzen 2/10cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.80.10A",
+      "text": "Vierungen einsetzen 15x15x8cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.80.10B",
+      "text": "Vierungen einsetzen 30x30x8cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.80.10C",
+      "text": "Vierungen einsetzen",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.80.11A",
+      "text": "Überschleif.Bodenbelag innen",
+      "unit": "m²"
+    },
+    {
+      "code": "28.80.11B",
+      "text": "Überschleif.Bodenbelag außen",
+      "unit": "m²"
+    },
+    {
+      "code": "28.80.11C",
+      "text": "Überschl.Wand-Sockelverkl.inn.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.80.11D",
+      "text": "Überschl.Wand-Sockelverkl.auß.",
+      "unit": "m²"
+    },
+    {
+      "code": "28.80.12A",
+      "text": "Stufen vollfläch.stocken                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "28.80.14A",
+      "text": "Naturst.Trittst.reinig.bürsten                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.80.14B",
+      "text": "Naturst.Setzst.reinig.bürsten                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "28.80.14C",
+      "text": "Naturst.Trittst.reinig.Sandstr                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.80.14D",
+      "text": "Naturst.Setzst.reinig.Sandstr.                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "28.80.14E",
+      "text": "Naturst.Trittst.überschleifen                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "28.80.15A",
+      "text": "Steinstufe Vierung Kstst.10x10",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.80.15B",
+      "text": "Steinstufe Vierung Kstst.20x10",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.80.15C",
+      "text": "Steinstufe Vierung Kstst.30x15",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.80.15E",
+      "text": "Steinstuf.Vierung Nstein 10x10",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.80.15F",
+      "text": "Steinstuf.Vierung Nstein 20x10",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.80.15G",
+      "text": "Steinstuf.Vierung Nstein 30x15",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.80.16A",
+      "text": "Nt-stufe inkrustier+schleifen                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "28.80.16B",
+      "text": "Nt-stufe inkrustier+stocken                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "28.81.01A",
+      "text": "Steinfl.Berieseln+Bürsten M2",
+      "unit": "m²"
+    },
+    {
+      "code": "28.81.01B",
+      "text": "Steinfl.Berieseln+Bürsten PA                                                                                     PA",
+      "unit": ""
+    },
+    {
+      "code": "28.81.02A",
+      "text": "Steinfl.Hydrophobieren M2",
+      "unit": "m²"
+    },
+    {
+      "code": "28.81.02B",
+      "text": "Steinfl.Hydrophobieren PA                                                                                        PA",
+      "unit": ""
+    },
+    {
+      "code": "28.81.03A",
+      "text": "Verfestig.Kieselsäureester M2",
+      "unit": "m²"
+    },
+    {
+      "code": "28.81.03B",
+      "text": "Verfestig.Kieselsäureester ST",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "28.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "28.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "28.90.02A",
+      "text": "Verlegemörtel                                                                                                l",
+      "unit": ""
+    },
+    {
+      "code": "28.90.03A",
+      "text": "Klebemörtel zementgebunden",
+      "unit": "kg"
+    },
+    {
+      "code": "28.90.04A",
+      "text": "Verfugungsmörtel                                                                                             l",
+      "unit": ""
+    },
+    {
+      "code": "28.90.05A",
+      "text": "Fugenmasse zementg.weiß od.grau",
+      "unit": "kg"
+    },
+    {
+      "code": "28.90.05B",
+      "text": "Fugenmasse zementg.farbig",
+      "unit": "kg"
+    },
+    {
+      "code": "28.90.07A",
+      "text": "Distanzhalter PVC 1cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.90.07B",
+      "text": "Distanzhalter Kautsch.1cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.90.07C",
+      "text": "Distanzhalter verstellbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "28.90.08A",
+      "text": "Bodenschleifmasch.Transport                                                                                  PA",
+      "unit": ""
+    },
+    {
+      "code": "28.90.09A",
+      "text": "Bodenschleifmaschine",
+      "unit": "h"
+    }
+  ]
+}

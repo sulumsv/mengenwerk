@@ -1,0 +1,1829 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+               Leistungsgruppe (LG) 06 - Aufschließung, Infrastruktur
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 0600    Wählbare Vorbemerkungen
+                     ULG 0601    Gräben für Leitungen und Schächte
+                     ULG 0612    Dränrohrleitungen
+                     ULG 0614    Kunststoffrohre
+                     ULG 0616    Abläufe und Abscheider
+                     ULG 0617    Putz- und Sickerschächte
+                     ULG 0618    Sonstige Leistungen Aufschließung
+                     ULG 0631    Leitungsschutz
+                     ULG 0661    Schüttmaterial für Gräben
+                     ULG 0681    Instandsetzen Rohrleitungs(Kanal)-anlagen
+                     ULG 0691    Transportieren,Verwerten,Deponieren von Aushubmaterial
+
+
+
+
+                                                                                                           Seite 1 / 28
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                    EH
+
+06         Aufschließung, Infrastruktur
+           Version 023 (2025-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           1. Bodenklassen, Neigung:
+           Leistungen sind bis 20 Prozent Geländeneigung beschrieben. Angaben über die Neigung erfolgen im Verhältnis
+           der Höhe zur projizierten Länge im Grundriss.
+           Vertragsbasis sind die durch den Auftraggeber beigestellten Unterlagen (z.B. Aufschlüsse, Bohrprofile oder
+           Bodengutachten, beschriebene Baugrundschichten (Bodenverhältnisse) und die im Plan festgehaltenen
+           Geländeformen).
+           Die Dokumentation wird gemäß ÖNORM durchgeführt.
+           2. Verwerten oder Deponieren:
+           Baurestmassen werden grundsätzlich verwertet. Wenn dies aus wirtschaftlichen oder technischen Gründen
+           nicht möglich ist, werden Baurestmassen ordnungsgemäß deponiert.
+           2.1 Unzulässige Belastungen durch Manipulationen im Baubetrieb:
+           Der Baubetrieb ist derart gestaltet, dass die Schadstoffgesamtgehalte und Eluate des Aushub- und
+           Abbruchmaterials nicht unzulässigerweise nachteilig verändert werden.
+           Der Auftragnehmer trägt Sorge, dass das Aushubmaterial durch den Baubetrieb mit nicht mehr als insgesamt 5
+           Prozent des Volumens mineralischer Baurestmassen verunreinigt wird.
+           Allfällige Kosten aus derartigen Veränderungen (z. B. Altlastenbeiträge nach dem Altlastensanierungsgesetz)
+           übernimmt der Auftragnehmer.
+           2.2 Nachweise:
+           Eine Bestätigung, dass der Auftragnehmer (AN) die Baurestmassen an berechtigte Abfallsammler übergeben
+           hat, wird dem Auftraggeber (AG) nach Aufforderung übergeben.
+           2.3 Trennung:
+           Die Trennung von Aushubmaterial und Baurestmassen erfolgt gemäß Recycling-Baustoffverordnung.
+           2.4 Eigentumsübergang:
+           Das Aushubmaterial geht mit dem ersten Laden in das Eigentum des Auftragnehmers über, sofern eine
+           Wiederverwendung durch den AG nicht Vertragsbestandteil ist und unbeschadet einer Vergütung für den
+           Transport, das Verwerten, Deponieren oder Entsorgen.
+           3. Zwischenlagern:
+           Unter Zwischenlagern ist das Lagern innerhalb des Baustellenbereiches zu verstehen. Es enthält somit auch
+           den Transport zum Zwischenlager und das sachgemäße Lagern.
+           Zwischenlager sind vorzuhalten und vor der Übernahme zu räumen.
+           Der Platz für die Zwischenlagerung wird, wenn nicht bereits in der Ausschreibung bestimmt, im Einvernehmen
+           mit dem Auftraggeber festgelegt.
+           4. Transport:
+           Das Transportieren erfolgt unter Berücksichtigung von etwaigen erforderlichen Genehmigungen und
+           Vorschriften.
+           5. Einkalkulierte Leistungen:
+           Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+           einkalkuliert:
+           - das Beseitigen von Einzelhindernissen mit einen Einzelausmaß bis 0,1 m3
+           - das Laden des Aushub- oder Abbruchmaterials
+           - ein etwaiges Zwischenlagern
+           - behördliche Vorschreibungen betreffend Schallschutz, Staubschutz (werden vom Auftragnehmer vor der
+           Angebotslegung erkundet)
+           - die Wiederinstandsetzung der vom Auftraggeber für die Zwischenlagerung von Abbruch- oder Aushubmaterial
+           beigestellten Flächen nach Beendigung der Bauarbeiten
+           - Gebühren und Abgaben (z. B. Altlastenbeitrag)
+           - Organisation (Förderart und Förderweg)
+           - das Trennen und Ausscheiden von Massen, die nicht, beschränkt, oder zur weiteren Verwertung verwendbar
+           sind
+           6. Ausmaß- und Abrechnungsregeln:
+           Preise gelten ohne Unterschied der Art der Ausführung (z.B. händisch oder maschinell).
+           6.1 Tiefenstufen:
+                                                                                                                   Seite 2 / 28
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+            Ausschreibung und Abrechnung für das Aushubmaterial, Sicherungen und Gründungen erfolgen nach
+            lotrechten (vertikalen) Abschnitten und nicht nach einzelnen Schichten.
+            Leistungen werden von Null bis zur angegebenen Tiefe (Gesamttiefe) beschrieben.
+             Kommentar:
+             Arbeiten im Inneren von Gebäuden sind in eigenen Positionen beschrieben oder frei zu formulieren.
+             Ein Mutter- und Oberbodenabtrag ist in der LG03 (Roden, Baugrube…) und der LG13 (Außenanlagen) beschrieben.
+             Oberboden ist die oberste Bodenschicht mit organischen Bestandteilen (> 2 M.-% Glühverlust cgl gemäß ÖNORM B 4424)
+             des angereicherten, oberen Mineralbodenbereichs. Im Landschaftsbau wird der Begriff Mutterboden dem Begriff Oberboden
+             gleichgesetzt.
+             Frei zu formulieren (z.B.):
+             - das Instandsetzen von Grünflächen
+             - Drängräben- Dränschlitze für den Sportstättenbau
+             - grabenlose Vortriebe
+             - Angaben (wählbare Vorbemerkungen) und Positionen gemäß Werkvertragsnorm und der ÖNORM B 2110, in Ergänzung
+             zur standardisierten Leistungsbeschreibung
+
+            LB-Version: 23                 Geändert
+Änderung:   Geänderte Positionen:
+            06.61 21A Ummanteln Filtergeotextil Graben
+            06.61 21B Ummanteln Filtergeotextil erh. Anford. Graben
+
+06.00       Wählbare Vorbemerkungen
+            LB-Version: 23                 Geringfügig Geändert
+06.00 01    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+06.00 01A   Bewilligung AG
+            Bewilligungen für Kanalleitungen werden vom Auftraggeber eingeholt.
+
+06.00 01B   Bewilligung AN
+            Bewilligungen für Kanalleitungen werden vom Auftragnehmer eingeholt.
+
+06.00 01C   Befunde AG
+            Befunde für Kanalleitungen werden vom Auftraggeber eingeholt.
+
+06.00 01D   Befunde AN
+            Befunde für Kanalleitungen werden vom Auftragnehmer eingeholt.
+
+06.00 11    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise Positionen einkalkuliert:
+
+06.00 11A   Grundlegende Charakterisierung AG
+            Der Auftraggeber (AG) stellt dem Auftragnehmer die erforderlichen grundlegenden Charakterisierungen und die
+            Abfallinformation (z.B. Abbruch, Aushubmaterial, Abfall) im Sinne der Deponieverordnung einschließlich der
+            Zuordnung zu einer Deponieklasse auf Grund chemischer Analysen zur Verfügung,
+
+06.00 11B   Zuordnung Aushubmaterial AG
+            Der Auftraggeber (AG) stellt dem Auftragnehmer Prüfberichte einschließlich der chemischen Analyse für das
+            Aushubmaterial, sowie der Zuordnung zu den Einbauklassen zur Verfügung.
+            LB-Version: 23                 Geringfügig Geändert
+
+06.01       Gräben für Leitungen und Schächte
+
+
+            1. Begriffe:
+            In dieser Unterleistungsgruppe sind folgende Gräben und Schächte beschrieben:
+            - für Abwasseranlagen
+            - für Dränageleitungen
+            - für Wasserversorgungsanlagen
+            - für Gasversorgungsanlagen
+            - für Fernwärmeversorgungsanlagen
+            - für Stromversorgungsanlagen
+            - für Telekommunikationsversorgungsanlagen
+
+                                                                                                                             Seite 3 / 28
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+            2. Einkalkulierte Leistungen:
+            Im Folgenden sind Gräben und Schächte im Freien beschrieben.
+            2.1 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - das Ausbilden eines etwaigen Graben- oder Schachtgefälles
+            - das Herstellen des Grobplanums (+/-10 cm)
+            - das Abtragen von Holzeinlagen (z.B. Holzstammeinlagen) bis 30 cm Umfang
+            3. Breiten von Gräben:
+            Arbeitsräume (Böschungswinkel) und Grabenbreiten werden spätestens vor Beginn der Arbeiten, unter
+            Einhaltung der Bauarbeiterschutzverordnung, mit dem Auftraggeber einvernehmlich festgelegt.
+            Gültig sind die in der Bauarbeiterschutzverordnung angeführten Mindestbreiten der Arbeitsräume. Ein etwaiger
+            zusätzlicher Raumbedarf für Sicherungen wird hinzugerechnet.
+            4. Ausmaß- und Abrechnungsregeln:
+            Ausschreibung und Abrechnung für den Aushub, Sicherungen und Gründungen erfolgen nach lotrechten
+            (vertikalen) Abschnitten und nicht nach einzelnen Schichten.
+            Leistungen sind von Null bis zur angegebenen Tiefe (Gesamttiefe) beschrieben.
+             Kommentar:
+             Aushub Gräben für Leitungen und Schächte, Aushub Grube und Aushub Fundament sind in unterschiedlichen
+             Leistungsgruppen/Unterleistungsgruppen beschrieben.
+             Ausschreibung und Abrechnung für den Aushub erfolgt nach lotrechten Abschnitten (mit einer Gesamttiefe) und nicht nach
+             einzelnen Schichten nach Tiefenstufen.
+             Hinweise des Bundesdenkmalamtes:
+             Bei Aushubarbeiten ist auf archäologische Hinterlassenschaften zu achten: dunkle Verfärbungen im Boden, die auf
+             ehemalige Siedlungsobjekte hinweisen, Gräber (Skelette, Brandgräber), Mauerzüge oder Fundamente wie auch Böden von
+             Vorgängerbauten, Bodenfunde wie Steinwerkzeuge, Tongefäße, Scherben, Glas, Metall und Architekturteile. Gemäß
+             Denkmalschutzgesetz stehen derartige Funde und Befunde unter Schutz, solange das Bundesdenkmalamt nicht auf Antrag
+             des Eigentümers das Gegenteil festgestellt hat. Solche Funde sind sofort, spätestens aber an dem der Auffindung folgenden
+             Tag der Bezirksverwaltungsbehörde, dem Bürgermeister oder der nächsten Dienststelle der Polizei zu melden.
+             Frei zu formulieren (z.B.):
+             - Ausführungen über 20 Prozent Gelände-Neigung
+             - das Abtragen oder Durchörten von Einzelhindernissen (Freilegen, Lösen und Laden) mit einem Einzelausmaß über 10 m3,
+             mit oder ohne Sprengarbeiten
+             - ein Grabenaushub in schuttgefüllten Bereichen
+             - ein Grabenaushub bei gestuften Querschnitten
+             - Sicherung von Gräben mit Kanaldielen
+
+            LB-Version: 23
+06.01 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+06.01 00A   Abwasserleitungen
+            Gräben für Abwasserleitungen.
+
+06.01 00B   Dränageleitungen
+            Gräben für Dränageleitungen.
+
+06.01 00C   Wasserversorgung
+            Gräben für die Wasserversorgung.
+
+06.01 00D   Gasleitungen
+            Gräben für Gasleitungen.
+
+06.01 00E   Fernwärmeleitungen
+            Gräben für Fernwärmeleitungen.
+
+06.01 00F   Stromleitungen
+            Gräben für Stromleitungen.
+
+06.01 00G   Telekommunikationsleitungen
+            Gräben für Telekommunikationsleitungen.
+
+
+                                                                                                                            Seite 4 / 28
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+06.01 01    Aushub Lockerboden (AKL) von Gräben für Leitungen und Schächte.
+            Im Positionsstichwort ist die Tiefe des lotrechten Abschnittes angegeben.
+
+06.01 01A   Aushub Lockerboden (AKL) Graben 0-1,25m                                                                      m³
+
+06.01 01B   Aushub Lockerboden (AKL) Graben 0-3m                                                                         m³
+
+06.01 01C   Aushub Lockerboden (AKL) Graben 0-5m                                                                         m³
+
+06.01 01X   Aushub Lockerboden (AKL) Graben 0-__________                                                                 m³
+06.01 02    Aufzahlung (Az) auf Aushub Lockerboden (AKL) bei Gräben für Leitungen und Schächte für Erschwernisse beim
+            Abtragen oder Durchörtern von Einzelhindernissen (Freilegen, Lösen und Laden) mit einem Einzelausmaß über
+            0,1 bis 10 m3, ohne Sprengmöglichkeit, einschließlich Zerkleinern auf das zum Fördern erforderliche Maß.
+
+06.01 02A   Az Aushub Graben brüchiger Fels (AKBF) ü.0,1-10m3                                                            m³
+            Bei brüchigem Fels (AKBF).
+
+06.01 02B   Az Aushub Graben fester Fels (AKF) ü.0,1-10m3                                                                m³
+            Bei festem Fels (AKF).
+
+06.01 03    Aufzahlung (Az) auf Aushub Lockerboden (AKL) bei Gräben für Leitungen und Schächte für Erschwernisse.
+
+06.01 03A   Az Aushub Graben klebriger Boden (AKL-K)                                                                     m³
+            Bei klebrigem Boden (AKL-K).
+
+06.01 03B   Az Aushub Graben unter Wasser                                                                                m³
+            Bei Böden unterhalb des natürlichen oder unterhalb eines durch Wasserhaltung abgesenkten
+            Grundwasserspiegels.
+06.01 04    Aufzahlung (Az) auf Aushub Lockerboden (AKL) bei Gräben für Leitungen und Schächte für Erschwernisse beim
+            Abtragen oder Durchörtern von Einzelhindernissen (Freilegen, Lösen und Laden) mit einem Einzelausmaß über
+            0,1 bis 10 m3, ohne Sprengmöglichkeit, einschließlich Zerkleinern auf das zum Fördern erforderliche Maß.
+
+06.01 04A   Az Aushub Graben Steinmwk.ü.0,1-10m3                                                                         m³
+            Aus Natur- und Mischmauerwerk (Steinmwk.).
+
+06.01 04B   Az Aushub Graben Ziegelmwk.ü.0,1-10m3                                                                        m³
+            Aus Ziegelmauerwerk (Ziegelmwk.).
+
+06.01 04C   Az Aushub Graben Beton ü.0,1-10m3                                                                            m³
+            Ohne Unterschied ob bewehrter oder unbewehrter Beton.
+
+06.01 04D   Az Aushub Graben Holzeinlagen ü.0,1-10m3                                                                     m³
+            Beim Abtragen von Holzeinlagen (z.B. Holzstammeinlagen mit einem Umfang über 30 cm oder Holzeinbauten
+            (z.B. Pfahlköpfe)).
+            Abgerechnet wird das Raummaß des Holzes (m3).
+
+06.01 05    Aufzahlung (Az) auf Aushub Lockerboden (AKL) bei Gräben für Leitungen und Schächte für Erschwernisse bei
+            Leitungen (Leitung) im Grabenprofil, ohne Unterschied der Höhenlage und der Grabenbreite, einschließlich
+            Sichern und Schützen.
+
+06.01 05A   Az Aushub Graben f.Leitung/quer b.0,5m                                                                       Stk
+            Leitungen oder Leitungstrassen quer zum Grabenprofil bis 0,5 m breit.
+            Höhenlage der Leitung über Grabensohle: ____________
+            Leitungsart: ____________
+
+06.01 05B   Az Aushub Graben f.Leitung/quer ü.0,5-1m                                                                     Stk
+            Leitungen oder Leitungstrassen quer zum Grabenprofil liegend über 0,5 bis 1 m breit.
+            Höhenlage der Leitung über Grabensohle: ____________
+            Leitungsart: ____________
+
+06.01 05C   Az Aushub Graben f.Leitung/längs                                                                             m
+
+
+                                                                                                                    Seite 5 / 28
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Bei entlang (längs) zum Graben (Längsleitung) verlaufenden Leitungen oder Leitungstrassen. Gemessen wird
+            die Länge der Leitung oder Leitungstrasse im Bereich des Aushubs.
+            Höhenlage der Leitung über Grabensohle: ____________
+            Leitungsart: ____________
+
+06.01 06    Minierungen mit einer Länge bis 2 m, ohne Unterschied der Tiefe, einschließlich Sicherung. Im
+            Positionsstichwort ist der Querschnitt angegeben.
+
+06.01 06A   Minierungen b.2m,ü.1-2m2                                                                                     m³
+
+06.01 06B   Minierungen b.2m,ü.2-3m2                                                                                     m³
+
+06.01 06X   Minierungen b.2m,Querschnitt:__________                                                                      m³
+06.01 07    Sichern von Gräben für Leitungen und Schächte. Abgerechnet wird das Flächenmaß der gestützten
+            Seitenflächen von Gräben und Schächten.
+
+06.01 07A   Sichern Graben Pfosten nicht geschlossen                                                                     m²
+            Durch Pölzen mit nicht geschlossener, waagrechter Pfostenlage.
+
+06.01 07B   Sichern Graben Pfosten geschlossen                                                                           m²
+            Durch Pölzen mit geschlossener, waagrechter Pfostenlage.
+
+06.01 07C   Sichern Graben Pfosten dicht                                                                                 m²
+            Durch dichtes Pölzen mit Spandelung (z.B. Hinterstopfen mit Holzwolle) und gedichteten Fugen.
+
+06.01 07D   Sichern Graben Pfosten Getriebepölzung                                                                       m²
+            Durch Getriebepölzung mit stehender Pfostenlage.
+
+06.01 07X   Sichern Graben Pfosten                                                                                       m²
+            Pölzung nach Wahl des Auftragnehmers.
+
+06.01 08    Ausführungsbedingt im Baugrund verbleibendes (verlorenes) Pölzungsmaterial. Abgerechnet wird die
+            Ansichtsfläche.
+
+06.01 08A   Verbleibendes Pölzungsmaterial Graben                                                                        m²
+06.01 11    Provisorische Abdeckung von Gräben herstellen, instandhalten und abtragen, einschließlich aller erforderlichen
+            Anschlüsse, Anrampungen, Wehren, Verkehrs- und Warntafeln sowie Beleuchtung gemäß ÖNORM.
+
+06.01 11A   Provisorische Brücke f.KFZ b.1,5m                                                                            Stk
+            Brücke bis 1,5 m Grabenbreite, befahrbar für alle Fahrzeuge, die auf der angrenzenden Fahrbahn zugelassen
+            sind.
+06.01 12    Provisorische Abdeckung von Gräben herstellen, instandhalten und abtragen, einschließlich aller erforderlichen
+            Anschlüsse, Anrampungen, Wehren, Verkehrs- und Warntafeln sowie Beleuchtung gemäß ÖNORM.
+            Im Positionsstichwort ist die Abdeckfläche angegeben.
+
+06.01 12A   Provisorische Brücke Fußgänger b.2m2                                                                         Stk
+
+06.01 12C   Provisorische Brücke Fußgänger ü.2-4m2                                                                       Stk
+
+06.01 12X   Provisorische Abdeckung Gräben ü.4m2:__________                                                              m²
+06.01 21    Feinplanum (+/- 3 cm) nach fertigem Grobplanum ohne Materialbeigabe herstellen.
+
+06.01 21A   Feinplanum Gräben                                                                                            m²
+            In Gräben.
+
+06.12       Dränrohrleitungen
+
+
+            1. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - das Verlegen, ohne Unterschied der Verlegungsart oder Grabentiefe
+            - Zuschnitte
+                                                                                                                    Seite 6 / 28
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+            - Einebnen und Verdichten der Auflagersohle (Feinplanum und Unterlagsbeton in eigenen Positionen)
+            2. Befund:
+            Änderungen gegenüber der Planung trägt der Auftragnehmer in die vorhandenen Projektpläne ein und legt,
+            wenn behördlich vorgeschrieben, einen amtlichen Befund über die ordnungsgemäße Beschaffenheit der Anlage
+            vor.
+            3. Abkürzungen:
+            Anstelle der Abkürzung NW (Nennweite) wird gemäß ÖNORM die Abkürzung DN (Nenndurchmesser)
+            verwendet.
+            LB-Version: 23                 Geringfügig Geändert
+06.12 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+06.12 00C   Material zu 06.12 Kunststoff halogenfrei
+            Alle Kunststoffteile sind halogenfrei. Halogenfrei bedeutet, dass Halogene (chemische Elemente wie Fluor,
+            Chlor, Brom und Jod) weder im Kunststoff noch als Zusatzstoff, etwa als Flammschutzmittel, im Produkt
+            enthalten sind.
+            Betrifft Position(en): ____________
+            LB-Version: 23                  Geringfügig Geändert
+Änderung:   Entfall der Angabe der Unterleistungsgruppe im Folgetext und Verschiebung des Textes "Betrifft Position(en): ____"
+
+06.12 01    Sickerrohre aus Kunststoff mit Steckmuffe, ohne Dichtringe. Im Positionsstichwort ist der Nenndurchmesser
+            (DN) angegeben.
+
+06.12 01A   Sickerrohr Kunststoff+Steckmuffe DN100                                                                                 m
+
+06.12 01B   Sickerrohr Kunststoff+Steckmuffe DN150                                                                                 m
+
+06.12 01C   Sickerrohr Kunststoff+Steckmuffe DN200                                                                                 m
+
+06.12 01D   Sickerrohr Kunststoff+Steckmuffe DN250                                                                                 m
+
+06.12 01X   Sickerrohr Kunststoff+Steckmuffe DN__________                                                                          m
+06.12 03    Aufzahlung (Az) auf Sickerrohre aus Kunststoff (ohne Dichtring) mit Steckmuffe für Verbindungsmuffen
+            (Verb.-muffen). Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.12 03A   Az Sickerrohr.f.Verb.-muffe DN100                                                                                      Stk
+
+06.12 03B   Az Sickerrohr.f.Verb.-muffe DN150                                                                                      Stk
+
+06.12 03C   Az Sickerrohr.f.Verb.-muffe DN200                                                                                      Stk
+
+06.12 03D   Az Sickerrohr.f.Verb.-muffe DN250                                                                                      Stk
+
+06.12 03X   Az Sickerrohr.f.Verb.-muffe DN__________                                                                               Stk
+06.12 05    Aufzahlung (Az) auf Sickerrohre aus Kunststoff (ohne Dichtring) mit Steckmuffe für T-Stücke. Im
+            Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.12 05A   Az Sickerrohr.f.T-Stück DN100                                                                                          Stk
+
+06.12 05B   Az Sickerrohr.f.T-Stück DN150                                                                                          Stk
+
+06.12 05C   Az Sickerrohr.f.T-Stück DN200                                                                                          Stk
+
+06.12 05D   Az Sickerrohr.f.T-Stück DN250                                                                                          Stk
+
+06.12 05X   Az Sickerrohr.f.T-Stück DN__________                                                                                   Stk
+06.12 07    Aufzahlung (Az) auf Sickerrohre aus Kunststoff (ohne Dichtring) mit Steckmuffe für Winkelstücke (Winkelst.) mit
+            90 Grad. Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.12 07A   Az Sickerrohr.f.Winkelst.90Grad DN100                                                                                  Stk
+
+06.12 07B   Az Sickerrohr.f.Winkelst.90Grad DN150                                                                                  Stk
+
+                                                                                                                              Seite 7 / 28
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+06.12 07C   Az Sickerrohr.f.Winkelst.90Grad DN200                                                                        Stk
+
+06.12 07D   Az Sickerrohr.f.Winkelst.90Grad DN250                                                                        Stk
+
+06.12 07X   Az Sickerrohr.f.Winkelst.90Grad DN__________                                                                 Stk
+06.12 09    Aufzahlung (Az) auf Sickerrohre aus Kunststoff (ohne Dichtring) mit Steckmuffe für Winkelstücke (Winkelst.) mit
+            45 Grad. Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.12 09A   Az Sickerrohr.f.Winkelst.45Grad DN100                                                                        Stk
+
+06.12 09B   Az Sickerrohr.f.Winkelst.45Grad DN150                                                                        Stk
+
+06.12 09C   Az Sickerrohr.f.Winkelst.45Grad DN200                                                                        Stk
+
+06.12 09D   Az Sickerrohr.f.Winkelst.45Grad DN250                                                                        Stk
+
+06.12 09X   Az Sickerrohr.f.Winkelst.45Grad DN__________                                                                 Stk
+06.12 11    Aufzahlung (Az) auf Sickerrohre aus Kunststoff (ohne Dichtring) mit Steckmuffe für Verschlussstopfen
+            (Verschlussst.). Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.12 11A   Az Sickerrohr.f.Verschlussst.DN100                                                                           Stk
+
+06.12 11B   Az Sickerrohr.f.Verschlussst.DN150                                                                           Stk
+
+06.12 11C   Az Sickerrohr.f.Verschlussst.DN200                                                                           Stk
+
+06.12 11D   Az Sickerrohr.f.Verschlussst.DN250                                                                           Stk
+
+06.12 11X   Az Sickerrohr.f.Verschlussst.DN__________                                                                    Stk
+06.12 13    Aufzahlung (Az) auf Sickerrohre aus Kunststoff (ohne Dichtring) mit Steckmuffe für Übergänge auf Kanalmuffen.
+            Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.12 13A   Az Sickerrohr.f.Übergang/Kanal DN100                                                                         Stk
+
+06.12 13B   Az Sickerrohr.f.Übergang/Kanal DN150                                                                         Stk
+
+06.12 13C   Az Sickerrohr.f.Übergang/Kanal DN200                                                                         Stk
+
+06.12 13D   Az Sickerrohr.f.Übergang/Kanal DN250                                                                         Stk
+
+06.12 13X   Az Sickerrohr.f.Übergang/Kanal DN__________                                                                  Stk
+06.12 31    Dränrohre aus Kunststoff einschließlich Dichtring. Im Positionsstichwort ist der Nenndurchmesser (DN)
+            angegeben.
+
+06.12 31A   Dränrohr Kunststoff DN200                                                                                    m
+
+06.12 31B   Dränrohr Kunststoff DN250                                                                                    m
+
+06.12 31C   Dränrohr Kunststoff DN300                                                                                    m
+
+06.12 31D   Dränrohr Kunststoff DN400                                                                                    m
+
+06.12 31X   Dränrohr Kunststoff DN__________                                                                             m
+06.12 33    Aufzahlung (Az) auf Dränrohre aus Kunststoff (einschließlich Dichtring) für Doppelsteck- und Überschiebmuffen
+            (Muffen). Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.12 33A   Az Dränrohr.f.Muffen DN200                                                                                   Stk
+
+06.12 33B   Az Dränrohr.f.Muffen DN250                                                                                   Stk
+
+06.12 33C   Az Dränrohr.f.Muffen DN300                                                                                   Stk
+
+06.12 33D   Az Dränrohr.f.Muffen DN400                                                                                   Stk
+
+
+                                                                                                                    Seite 8 / 28
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+06.12 33X   Az Dränrohr.f.Muffen__________                                                                                 Stk
+06.12 35    Aufzahlung (Az) auf Dränrohre aus Kunststoff (einschließlich Dichtring) für T-Stücke. Im Positionsstichwort ist
+            der Nenndurchmesser (DN) angegeben.
+
+06.12 35A   Az Dränrohr.f.T-Stück DN200                                                                                    Stk
+
+06.12 35B   Az Dränrohr.f.T-Stück DN250                                                                                    Stk
+
+06.12 35C   Az Dränrohr.f.T-Stück DN300                                                                                    Stk
+
+06.12 35D   Az Dränrohr.f.T-Stück DN400                                                                                    Stk
+
+06.12 35X   Az Dränrohr.f.T-Stück__________                                                                                Stk
+06.12 37    Aufzahlung (Az) auf Dränrohre aus Kunststoff (einschließlich Dichtring) für 90 Grad Bögen mit 3 Segmenten
+            (3S-Bogen). Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.12 37A   Az Dränrohr.f.3S-Bogen 90Grad DN200                                                                            Stk
+
+06.12 37B   Az Dränrohr.f.3S-Bogen 90Grad DN250                                                                            Stk
+
+06.12 37C   Az Dränrohr.f.3S-Bogen 90Grad DN300                                                                            Stk
+
+06.12 37D   Az Dränrohr.f.3S-Bogen 90Grad DN400                                                                            Stk
+
+06.12 37X   Az Dränrohr.f.3S-Bogen 90Grad__________                                                                        Stk
+06.12 39    Aufzahlung (Az) auf Dränrohre aus Kunststoff (einschließlich Dichtring) für 45 Grad Bögen mit 3 Segmenten
+            (3S-Bogen). Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.12 39A   Az Dränrohr.f.3S-Bogen 45Grad DN200                                                                            Stk
+
+06.12 39B   Az Dränrohr.f.3S-Bogen 45Grad DN250                                                                            Stk
+
+06.12 39C   Az Dränrohr.f.3S-Bogen 45Grad DN300                                                                            Stk
+
+06.12 39D   Az Dränrohr.f.3S-Bogen 45Grad DN400                                                                            Stk
+
+06.12 39X   Az Dränrohr.f.3S-Bogen 45Grad__________                                                                        Stk
+06.12 41    Aufzahlung (Az) auf Dränrohre aus Kunststoff (einschließlich Dichtring) für 30 Grad Bögen mit 2 Segmenten
+            (2S-Bogen). Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.12 41A   Az Dränrohr.f.2S-Bogen 30Grad DN200                                                                            Stk
+
+06.12 41B   Az Dränrohr.f.2S-Bogen 30Grad DN250                                                                            Stk
+
+06.12 41C   Az Dränrohr.f.2S-Bogen 30Grad DN300                                                                            Stk
+
+06.12 41D   Az Dränrohr.f.2S-Bogen 30Grad DN400                                                                            Stk
+
+06.12 41X   Az Dränrohr.f.2S-Bogen 30Grad__________                                                                        Stk
+06.12 43    Aufzahlung (Az) auf Dränrohre aus Kunststoff (einschließlich Dichtring) für 15 Grad Bögen mit 2 Segmenten
+            (2S-Bogen). Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.12 43A   Az Dränrohr.f.2S-Bogen 15Grad DN200                                                                            Stk
+
+06.12 43B   Az Dränrohr.f.2S-Bogen 15Grad DN250                                                                            Stk
+
+06.12 43C   Az Dränrohr.f.2S-Bogen 15Grad DN300                                                                            Stk
+
+06.12 43D   Az Dränrohr.f.2S-Bogen 15Grad DN400                                                                            Stk
+
+06.12 43X   Az Dränrohr.f.2S-Bogen 15Grad__________                                                                        Stk
+06.12 45    Aufzahlung (Az) auf Dränrohre aus Kunststoff (einschließlich Dichtring) für Einfachabzweiger (Einfachabzw.) 45
+            Grad. Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+
+                                                                                                                      Seite 9 / 28
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+06.12 45A   Az Dränrohr.f.Einfachabzw.45Grad DN200                                                                        Stk
+
+06.12 45B   Az Dränrohr.f.Einfachabzw.45Grad DN250                                                                        Stk
+
+06.12 45C   Az Dränrohr.f.Einfachabzw.45Grad DN300                                                                        Stk
+
+06.12 45D   Az Dränrohr.f.Einfachabzw.45Grad DN400                                                                        Stk
+
+06.12 45X   Az Dränrohr.f.Einfachabzw.45Grad__________                                                                    Stk
+06.12 47    Aufzahlung (Az) auf Dränrohre aus Kunststoff (einschließlich Dichtring) für Einfachabzweiger (Einfachabzw.) 45
+            Grad, Abgang (Abg.) DN 150 mit Muffe. Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.12 47A   Az Dränrohr.f.Einfachabzw.+Abg.45Grad DN200                                                                   Stk
+
+06.12 47B   Az Dränrohr.f.Einfachabzw.+Abg.45Grad DN250                                                                   Stk
+
+06.12 47C   Az Dränrohr.f.Einfachabzw.+Abg.45Grad DN300                                                                   Stk
+
+06.12 47D   Az Dränrohr.f.Einfachabzw.+Abg.45Grad DN400                                                                   Stk
+
+06.12 47X   Az Dränrohr.f.Einfachabzw.+Abg.45Grad__________                                                               Stk
+06.12 67    Aufzahlung (Az) auf Rohre für Sicker- und Dränleitungen (Rohrverlegung).
+
+06.12 67A   Az f.Rohrverlegung im Wasser                                                                                  m
+            Für die Erschwernisse beim Verlegen im Wasser.
+
+06.12 71    Anschluss von Sicker- und Dränleitungen (Anschluss) an vorhandene Schächte (Altbestand), ohne Unterschied
+            des Schachtes, des Materials oder der Nennweite der Rohre und der Anschlusstiefe, einschließlich der
+            Stemmarbeiten sowie der Abdichtungs- und Nachputzarbeiten. Im Positionsstichwort ist die Wanddicke des
+            Schachtes angegeben.
+
+06.12 71A   Anschluss Schacht Wanddicke b.12cm                                                                            Stk
+
+06.12 71B   Anschluss Schacht Wanddicke ü.12-25cm                                                                         Stk
+06.14       Kunststoffrohre
+
+
+            1. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - das Verlegen, ohne Unterschied der Verlegungsart oder Grabentiefe
+            - Rohrringdichtungen
+            - Zuschnitte
+            2. Druckproben:
+            Falls eine Prüfung der Betriebsdichtheit von neu errichteten Leitungen verlangt wird, wird diese gesondert
+            verrechnet, wenn die Dichtheit nachgewiesen wird.
+            3. Befund:
+            Änderungen gegenüber der Planung trägt der Auftragnehmer in die vorhandenen Projektpläne ein und legt,
+            wenn behördlich vorgeschrieben, einen amtlichen Befund über die ordnungsgemäße Beschaffenheit der Anlage
+            vor.
+            4. Abkürzungen:
+            Anstelle der Abkürzung NW (Nennweite) wird gemäß ÖNORM die Abkürzung DN (Nenndurchmesser innen)
+            verwendet. Die Abkürzung D (Durchmesser) steht allgemein für lichte Weite.
+            LB-Version: 23              Geringfügig Geändert
+06.14 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+06.14 00C   Material zu 06.14 Kunststoff halogenfrei
+
+
+
+
+                                                                                                                    Seite 10 / 28
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+            Alle Kunststoffteile sind halogenfrei. Halogenfrei bedeutet, dass Halogene (chemische Elemente wie Fluor,
+            Chlor, Brom und Jod) weder im Kunststoff noch als Zusatzstoff, etwa als Flammschutzmittel, im Produkt
+            enthalten sind.
+            Betrifft Position(en): ____________
+            LB-Version: 23                  Geringfügig Geändert
+Änderung:   Entfall der Angabe der Unterleistungsgruppe im Folgetext und Verschiebung des Textes "Betrifft Position(en): ____"
+
+06.14 01    Gerade Kanalrohre aus Kunststoff mit Steckkupplung und Dichtring. Im Positionsstichwort ist der
+            Nenndurchmesser (DN) angegeben.
+
+06.14 01A   Kunststoffkanalrohr DN100mm                                                                                            m
+
+06.14 01B   Kunststoffkanalrohr DN125mm                                                                                            m
+
+06.14 01C   Kunststoffkanalrohr DN150mm                                                                                            m
+
+06.14 01D   Kunststoffkanalrohr DN200mm                                                                                            m
+
+06.14 01E   Kunststoffkanalrohr DN250mm                                                                                            m
+
+06.14 01F   Kunststoffkanalrohr DN300mm                                                                                            m
+
+06.14 01X   Kunststoffkanalrohr DN__________                                                                                       m
+06.14 02    Aufzahlung (Az) auf gerade Kanalrohre aus Kunststoff (Kunstst.R.) für Putzstücke mit Kunststoffdeckel
+            einschließlich Dichtung. Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.14 02A   Az Kunstst.R.f.Putzstück DN100mm                                                                                       Stk
+
+06.14 02B   Az Kunstst.R.f.Putzstück DN125mm                                                                                       Stk
+
+06.14 02C   Az Kunstst.R.f.Putzstück DN150mm                                                                                       Stk
+
+06.14 02D   Az Kunstst.R.f.Putzstück DN200mm                                                                                       Stk
+
+06.14 02E   Az Kunstst.R.f.Putzstück DN250mm                                                                                       Stk
+
+06.14 02F   Az Kunstst.R.f.Putzstück DN300mm                                                                                      Stk
+
+06.14 02X   Az Kunstst.R.f.Putzstück DN__________                                                                                 Stk
+06.14 03    Aufzahlung (Az) auf gerade Kanalrohre aus Kunststoff (Kunstst.R.) für Bögen bis 45 Grad einschließlich
+            Dichtung. Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.14 03A   Az Kunstst.R.f.Bogen b.45Grad DN100mm                                                                                  Stk
+
+06.14 03B   Az Kunstst.R.f.Bogen b.45Grad DN125mm                                                                                  Stk
+
+06.14 03C   Az Kunstst.R.f.Bogen b.45Grad DN150mm                                                                                  Stk
+
+06.14 03D   Az Kunstst.R.f.Bogen b.45Grad DN200mm                                                                                  Stk
+
+06.14 03E   Az Kunstst.R.f.Bogen b.45Grad DN250mm                                                                                  Stk
+
+06.14 03F   Az Kunstst.R.f.Bogen b.45Grad DN300mm                                                                                 Stk
+
+06.14 03X   Az Kunstst.R.f.Bogen b.45Grad__________                                                                               Stk
+06.14 04    Aufzahlung (Az) auf gerade Kanalrohre aus Kunststoff (Kunstst.R.) für Bögen über 45 bis 90 Grad einschließlich
+            Dichtung. Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.14 04A   Az Kunstst.R.f.Bogen ü.45-90Grad DN100mm                                                                               Stk
+
+06.14 04B   Az Kunstst.R.f.Bogen ü.45-90Grad DN125mm                                                                               Stk
+
+06.14 04C   Az Kunstst.R.f.Bogen ü.45-90Grad DN150mm                                                                               Stk
+
+06.14 04D   Az Kunstst.R.f.Bogen ü.45-90Grad DN200mm                                                                               Stk
+
+                                                                                                                             Seite 11 / 28
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+06.14 04E   Az Kunstst.R.f.Bogen ü.45-90Grad DN250mm                                                                    Stk
+
+06.14 04F   Az Kunstst.R.f.Bogen ü.45-90Grad DN300mm                                                                    Stk
+
+06.14 04X   Az Kunstst.R.f.Bogen ü.45-90Grad__________                                                                  Stk
+06.14 05    Aufzahlung (Az) auf gerade Kanalrohre aus Kunststoff (Kunstst.R.) für Einfachabzweiger (Abzweiger) mit 45
+            Grad einschließlich Dichtring. Im Positionsstichwort sind der Nenndurchmesser (DN) des geraden Kanalrohres
+            und der Nenndurchmesser (DN) des Abzweigers angegeben.
+
+06.14 05A   Az Kunstst.R.f.Abzweiger DN100/b.100mm                                                                      Stk
+
+06.14 05B   Az Kunstst.R.f.Abzweiger DN125/b.125mm                                                                      Stk
+
+06.14 05C   Az Kunstst.R.f.Abzweiger DN150/b.150mm                                                                      Stk
+
+06.14 05D   Az Kunstst.R.f.Abzweiger DN200/b.200mm                                                                      Stk
+
+06.14 05E   Az Kunstst.R.f.Abzweiger DN300/150mm                                                                        Stk
+
+06.14 05F   Az Kunstst.R.f.Abzweiger DN300/200mm                                                                       Stk
+
+06.14 05G   Az Kunstst.R.f.Abzweiger DN300/250mm                                                                       Stk
+
+06.14 05H   Az Kunstst.R.f.Abzweiger DN300/300mm                                                                       Stk
+
+06.14 05J   Az Kunstst.R.f.Abzweiger DN250/250mm                                                                       Stk
+
+06.14 05K   Az Kunstst.R.f.Abzweiger DN250/150mm                                                                       Stk
+
+06.14 05L   Az Kunstst.R.f.Abzweiger DN250/200mm                                                                       Stk
+06.14 06    Aufzahlung (Az) auf gerade Kanalrohre aus Kunststoff (Kunstst.R.) für Übergangsrohre (Reduktion)
+            einschließlich Dichtung. Im Positionsstichwort sind die Nenndurchmesser (DN) angegeben.
+
+06.14 06A   Az Kunstst.R.f.Übergang DN125/100mm                                                                         Stk
+
+06.14 06B   Az Kunstst.R.f.Übergang DN150/b.100mm                                                                       Stk
+
+06.14 06C   Az Kunstst.R.f.Übergang DN200/b.125mm                                                                       Stk
+
+06.14 06D   Az Kunstst.R.f.Übergang DN250/200mm                                                                         Stk
+
+06.14 06E   Az Kunstst.R.f.Übergang DN300/b.200mm                                                                       Stk
+06.14 07    Aufzahlung (Az) auf gerade Kanalrohre aus Kunststoff (Kunstst.R.) für Schachtfutter (Schachtkupplungen) mit
+            Rundschnurring. Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.14 07A   Az Kunstst.R.f.Schachtfutter DN100mm                                                                        Stk
+
+06.14 07B   Az Kunstst.R.f.Schachtfutter DN125mm                                                                        Stk
+
+06.14 07C   Az Kunstst.R.f.Schachtfutter DN150mm                                                                        Stk
+
+06.14 07D   Az Kunstst.R.f.Schachtfutter DN200mm                                                                        Stk
+
+06.14 07E   Az Kunstst.R.f.Schachtfutter DN250mm                                                                        Stk
+
+06.14 07F   Az Kunstst.R.f.Schachtfutter DN300mm                                                                        Stk
+
+06.14 07X   Az Kunstst.R.f.Schachtfutter DN__________                                                                   Stk
+06.14 08    Aufzahlung (Az) auf gerade Kanalrohre aus Kunststoff (Kunstst.R.) für Anschlussstücke an Rohre aus
+            Steinzeug, Beton oder Faserzement. Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.14 08A   Az Kunstst.R.f.Anschluss DN100mm                                                                            Stk
+
+06.14 08B   Az Kunstst.R.f.Anschluss DN125mm                                                                            Stk
+
+                                                                                                                  Seite 12 / 28
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+06.14 08C   Az Kunstst.R.f.Anschluss DN150mm                                                                                       Stk
+
+06.14 08D   Az Kunstst.R.f.Anschluss DN200mm                                                                                       Stk
+
+06.14 08E   Az Kunstst.R.f.Anschluss DN250mm                                                                                       Stk
+
+06.14 08F   Az Kunstst.R.f.Anschluss DN300mm                                                                                       Stk
+
+06.14 08X   Az Kunstst.R.f.Anschluss DN__________                                                                                  Stk
+06.14 09    Aufzahlung (Az) auf gerade Kanalrohre aus Kunststoff (Kunstst.R.) für Muffenendverschlüsse (Muffenstopfen).
+            Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.14 09A   Az Kunstst.R.f.Muffenstopfen DN100mm                                                                                   Stk
+
+06.14 09B   Az Kunstst.R.f.Muffenstopfen DN125mm                                                                                   Stk
+
+06.14 09C   Az Kunstst.R.f.Muffenstopfen DN150mm                                                                                   Stk
+
+06.14 09D   Az Kunstst.R.f.Muffenstopfen DN200mm                                                                                   Stk
+
+06.14 09E   Az Kunstst.R.f.Muffenstopfen DN250mm                                                                                   Stk
+
+06.14 09F   Az Kunstst.R.f.Muffenstopfen DN300mm                                                                                  Stk
+
+06.14 09X   Az Kunstst.R.f.Muffenstopfen DN__________                                                                             Stk
+06.16       Abläufe und Abscheider
+             Kommentar:
+             Die angegebene Prüfkraft bei Deckeln bezieht sich auf die ÖNORM B 5110 + ON EN 124. Die zulässige Belastung ist
+             ungefähr mit einem Fünftel der Prüfkraft anzunehmen.
+             Klasse A, Prüfkraft 15 kN,
+             Klasse B, Prüfkraft 125 kN,
+             Klasse C, Prüfkraft 250 kN,
+             Klasse D, Prüfkraft 400 kN.
+
+            LB-Version: 23                 Geringfügig Geändert
+06.16 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+06.16 00C   Material zu 06.16 Kunststoff halogenfrei
+            Alle Kunststoffteile sind halogenfrei. Halogenfrei bedeutet, dass Halogene (chemische Elemente wie Fluor,
+            Chlor, Brom und Jod) weder im Kunststoff noch als Zusatzstoff, etwa als Flammschutzmittel, im Produkt
+            enthalten sind.
+            Betrifft Position(en): ____________
+            LB-Version: 23                  Geringfügig Geändert
+Änderung:   Entfall der Angabe der Unterleistungsgruppe im Folgetext und Verschiebung des Textes "Betrifft Position(en): ____"
+
+06.16 01    Regensinkkasten aus Kunststoffteilen, ohne Geruchsverschluss, mit Eimer aus Kunststoff und Deckel aus
+            Gusseisen, mit senkrechtem Abgang, einschließlich des erforderlichen Fundamentes (Betonbettung). Im
+            Positionsstichwort ist der Nenndurchmesser (DN) des Ein- und Ablaufs angegeben.
+
+06.16 01A   Regensinkkasten Kunststoff DN100mm                                                                                     Stk
+
+06.16 01B   Regensinkkasten Kunststoff DN125mm                                                                                     Stk
+
+06.16 01C   Regensinkkasten Kunststoff DN150mm                                                                                     Stk
+06.16 02    Aufzahlung (Az) auf Regensinkkasten aus Kunststoffteilen.
+
+06.16 02A   Az Regensinkkasten Kunststoff+GV                                                                                       Stk
+            Für eine Ausführung mit Geruchsverschluss (GV).
+
+06.16 05    Hofablauf mit Aufsatzrahmen und Einlaufgitter aus Guss, ohne Geruchsverschluss, Belastungsklasse A. Im
+            Positionsstichwort ist die lichte Weite und der Nenndurchmesser (DN) angegeben.
+
+06.16 05A   Hofablauf 400/400mm Guss DN100 Klasse A                                                                                Stk
+                                                                                                                             Seite 13 / 28
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+06.16 05B   Hofablauf 400/400mm Guss DN150 Klasse A                                                                               Stk
+06.16 07    Aufzahlung (Az) auf Hofablauf aus Guss, Belastungsklasse A
+
+06.16 07A   Az Hofablauf 400/400mm Guss Klasse B                                                                                  Stk
+            Für Belastungsklasse B.
+
+06.16 07B   Az Hofablauf 400/400mm Guss Klasse C                                                                                  Stk
+            Für Belastungsklasse C.
+
+06.16 11    Aufzahlung (Az) auf Hofablauf aus Guss.
+
+06.16 11B   Az Hofablauf 400/400mm Eimer lang PE                                                                                  Stk
+            Für einen Eimer, lang aus Polyethylen (PE).
+
+06.16 11C   Az Hofablauf 400/400mm Eimer kurz PE                                                                                  Stk
+            Für einen Eimer, kurz aus Polyethylen (PE).
+
+06.16 11D   Az Hofablauf 400/400mm Eimer lang verzinkt                                                                            Stk
+            Für einen Eimer, lang, aus Blech verzinkt.
+
+06.16 11E   Az Hofablauf 400/400mm Eimer kurz verzinkt                                                                            Stk
+            Für einen Eimer, kurz, aus Blech verzinkt.
+
+06.16 13    Aufzahlung (Az) auf Hofablauf aus Guss.
+
+06.16 13A   Az Hofablauf 400/400mm Guss GV                                                                                        Stk
+            Für einen Geruchsverschluss (GV).
+
+06.16 15    Automatische Rückstauklappe, mechanisch wirkend. Im Positionsstichwort ist der Nenndurchmesser (DN)
+            angegeben.
+
+06.16 15A   Rückstauklappe DN100                                                                                                  Stk
+
+06.16 15B   Rückstauklappe DN125                                                                                                  Stk
+
+06.16 15C   Rückstauklappe DN150                                                                                                  Stk
+
+06.16 15D   Rückstauklappe DN200                                                                                                  Stk
+06.16 16    Schlammfang aus Betonfertigteilen (Ft.Bet.) mit integrierter Bodenplatte, Prallplatte, Einstieg mit Abdeckung, mit
+            Zu- und Ablauf, ohne Fundamentplatte (in eigener Position), Abdeckung Belastungsklasse B.
+             Kommentar:
+             Bedingt durch die Vielfalt an Ausführungsmöglichkeiten ist vorweg eine genaue Planung zu erstellen.
+
+06.16 16A   Schlammfang-Ft.Bet.Klasse B                                                                                           Stk
+            Nenngröße: ____________
+            Schlammfanggröße: ____________
+            Nutzinhalt: ____________
+            Einbautiefe: ____________
+
+06.16 16B   Az Schlammfang-Ft.Bet.Klasse C                                                                                        Stk
+            Aufzahlung (Az) für eine Belastungsklasse C.
+
+06.16 16C   Az Schlammfang-Ft.Bet.Klasse D                                                                                        Stk
+            Aufzahlung (Az) für eine Belastungsklasse D statt B.
+
+06.16 17    Fettabscheider (Fettabsch.) mit integriertem Schlammfang in Kompaktbauweise aus Stahlbetonfertigteilen
+            (Stb-FT.), bestehend aus einem Unterteil mit allen Einbauten und Trennwand, Aufstockringen, Abdeckplatte,
+            Einstiegdeckel, Kunststoff Zu- und Abflussrohr, Innenanstrich, einschließlich einer Dichtheitsprobe und der
+            Entleerung danach. Ohne Fundamentplatte (in eigener Position), jedoch mit einer 2 bis 3 cm dicken
+            Sandbettung, einschließlich Einstiegdeckel Belastungsklasse B.
+             Kommentar:
+             Bedingt durch die Vielfalt an Ausführungsmöglichkeiten ist vorweg eine genaue Planung zu erstellen.
+
+                                                                                                                            Seite 14 / 28
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+06.16 17A   Stb-FT Fettabsch.+Schlammf.Klasse B                                                                                   Stk
+            Nenngröße: ____________
+            Schlammfanggröße: ____________
+            Nennleistung: ____________
+            Auslauftiefe: ____________
+            Einbautiefe: ____________
+
+06.16 17B   Az Stb-FT Fettabsch.+Schlammf.Klasse C                                                                                Stk
+            Aufzahlung (Az) für Belastungsklasse C.
+
+06.16 17C   Az Stb-FT Fettabsch.+Schlammf.Klasse D                                                                                Stk
+            Aufzahlung (Az) für Belastungsklasse D statt B.
+
+06.16 27    Mineralölabscheideranlage, bestehend aus einem Mineralölabscheider und einem Schlammfang, Beton der
+            Festigkeitsklasse C25/30, mit Flachabdeckungen und Einstiegdeckeln Belastungsklasse B, mit allen Einbauten
+            und Innenanstrich. Einschließlich des dichten Anschließens der Zu-, Ab- und Verbindungseinrichtungen
+            (Kunststoff-Rohre), der Dichtheitsprobe und der Entleerung danach. Ohne Fundamentplatten (in eigener
+            Position) jedoch mit einer 2 bis 3 cm dicken Sandbettung.
+             Kommentar:
+             Bedingt durch die Vielfalt an Ausführungsmöglichkeiten ist vorweg eine genaue Planung zu erstellen.
+
+06.16 27A   Mineralölabscheideranlage Klasse B                                                                                    Stk
+            Nenngröße: ____________
+            Mindestinhalt: ____________
+            Nennleistung: ____________
+
+06.16 27B   Az Mineralölabscheideranlage Klasse C                                                                                 Stk
+            Aufzahlung (Az) für eine Belastungsklasse C.
+
+06.16 27C   Az Mineralölabscheideranlage Klasse D                                                                                 Stk
+            Aufzahlung (Az) für eine Belastungsklasse D statt B.
+
+06.16 29    Entwässerungsrinnen aus Polymerbeton einschließlich Roste mit schraubloser Arretierung und Zargen, mit oder
+            ohne Eigengefälle nach Wahl des Auftraggebers. Einschließlich Stirnwände mit oder ohne Rohranschluss,
+            Fertigteile mit Ablauf und Anschluss für vorhandene Abwassersysteme.
+             Kommentar:
+             Bedingt durch die Vielfalt an Ausführungsmöglichkeiten ist vorweg eine genaue Planung zu erstellen.
+
+06.16 29A   Polymerbeton-Rinne+Rost/Zarge Klasse C                                                                                m
+            Hydraulische Bemessung: ____________
+
+06.16 29B   Az Polymerbeton-Rinne+Rost/Zarge Klasse D                                                                             m
+            Aufzahlung (Az) für eine Belastungsklasse D.
+
+06.16 29C   Az Polymerbeton-Rinne+Rost/Zarge schraub                                                                              m
+            Aufzahlung (Az) für eine schraubbare Ausführung, ohne Unterschied der Klasse.
+
+06.16 31    Senkgrube aus Stahlbeton in Kompaktbauweise ohne Schlammfang und ohne Steigeisen. Beton der
+            Festigkeitsklasse C25/30, mit Konusabdeckung mittig und Einstiegdeckel, Belastungsklasse A, mit
+            einbetonierter Zulauf-Muffe und Innenanstrich. Einschließlich des dichten Anschließens der Zulaufleitung aus
+            Kunststoff DN 150, der Dichtheitsprobe und der Entleerung danach. Ohne Fundamentplatte (in eigener
+            Position), jedoch mit einer 2 bis 3 cm dicken Sandbettung.
+
+06.16 31A   Stb-Senkgrube o.Steigeisen D2000/4m3                                                                                  Stk
+            Durchmesser (D): 2000 mm
+            Nutzinhalt: 4 m3
+            Einbautiefe: ca. 2,8 m
+
+06.16 31X   Stb-Senkgrube o.Steigeisen                                                                                            Stk
+            Durchmesser (D): ____________
+            Nutzinhalt: ca. ____________
+            Einbautiefe: ca. ____________
+
+06.16 32    Aufzahlung (Az) auf Senkgrube aus Stahlbeton in Kompaktbauweise.
+                                                                                                                            Seite 15 / 28
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+06.16 32A   Az Stb-Senkgrube m.Steigeisen                                                                                          Stk
+            Für eine Ausführung mit Steigeisen.
+
+06.16 35    Aufzahlung (Az) auf Senkgrube aus Stahlbeton in Kompaktbauweise für einen Deckel.
+
+06.16 35A   Az Stb-Senkgrube geruchsdicht                                                                                          Stk
+            In geruchsdichter Ausführung.
+
+06.16 35B   Az Stb-Senkgrube tagwasserdicht                                                                                        Stk
+            In tagwasserdichter Ausführung.
+
+06.16 35C   Az Stb-Senkgrube geruch+tagw.dicht                                                                                     Stk
+            In geruchs- und tagwasserdichter Ausführung.
+
+06.16 35D   Az Stb-Senkgrube verschraubbar                                                                                         Stk
+            In verschraubbarer Ausführung.
+
+06.16 35E   Az Stb-Senkgrube versperrbar                                                                                           Stk
+            In versperrbarer Ausführung.
+
+06.16 42    Zubehör und Sonderteile für Rinnen und Roste.
+
+06.16 42A   Rinnen-Einlaufkasten                                                                                                   m
+            Einlaufkasten für Rinnen einschließlich aller Anschlüsse.
+
+06.17       Putz- und Sickerschächte
+
+
+            Die Tiefe wird ab Oberkante Rohr gemessen, bei offenem Gerinne ab Oberkante Gerinnesohle bis Oberkante
+            Schachtdeckel, sonstige Schächte ab Unterkante der aufsteigenden Wände bis Oberkante Schachtdeckel.
+             Kommentar:
+             Putzschächte und Putzkammern für Innen und Außen sowie für Sickerschächte sind in Kompakt-Positionen beschrieben.
+             Die angegebene Prüfkraft bei Deckeln bezieht sich auf die ÖNORM B 5110+ON EN 124. Die zulässige Belastung ist
+             ungefähr mit einem Fünftel der Prüfkraft anzunehmen.
+             Klasse A, Prüfkraft 15 kN,
+             Klasse B, Prüfkraft 125 kN,
+             Klasse C, Prüfkraft 250 kN,
+             Klasse D, Prüfkraft 400 kN.
+             Frei zu formulieren (z.B.):
+             - Schmutzfangkörbe unter Deckeln
+             - Absturzpfeifen
+             - Probe-Entnahme-Schächte
+             - Spül- und Kontrollschächte
+             - Spül-, Kontroll- und Überlaufschächte
+             - Spül-, Kontroll-, Überlauf- und Sammelschächte
+
+            LB-Version: 23                 Geringfügig Geändert
+06.17 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+06.17 00C   Material zu 06.17 Kunststoff halogenfrei
+            Alle Kunststoffteile sind halogenfrei. Halogenfrei bedeutet, dass Halogene (chemische Elemente wie Fluor,
+            Chlor, Brom und Jod) weder im Kunststoff noch als Zusatzstoff, etwa als Flammschutzmittel, im Produkt
+            enthalten sind.
+            Betrifft Position(en): ____________
+            LB-Version: 23                  Geringfügig Geändert
+Änderung:   Entfall der Angabe der Unterleistungsgruppe im Folgetext und Verschiebung des Textes "Betrifft Position(en): ____"
+
+06.17 01    Putzschächte und Putzkammern (Putzsch.) innen (z.B. Ortbeton oder Fertigteile), einschließlich Deckel zum
+            Schacht passend (rund oder eckig), einschließlich Fundamentplatte, dichten Einmündungen und
+            Rohrdurchführungen, Schachtsohle (Schachtunterteil), etwa erforderlichen Konusteilen und Abstiegshilfen, Hals
+            und Auflagerrahmen für Deckel der Belastungsklasse A. Im Positionsstichwort ist die größte Tiefe angegeben.
+
+06.17 01A   Putzsch.innen+Deckel Tiefe b.60cm                                                                                      Stk
+                                                                                                                             Seite 16 / 28
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+06.17 01B   Putzsch.innen+Deckel Tiefe b.80cm                                                                          Stk
+
+06.17 01C   Putzsch.innen+Deckel Tiefe b.120cm                                                                         Stk
+
+06.17 01X   Putzsch.innen+Deckel Tiefe ü.120cm:__________                                                              Stk
+06.17 02    Aufzahlung (Az) auf Putzschächte und Putzkammern innen mit Deckel der Belastungsklasse A.
+
+06.17 02A   Az Putzschacht innen+Deckel Klasse B                                                                       Stk
+            Für Belastungsklasse B.
+
+06.17 02B   Az Putzschacht innen+Deckel Klasse C                                                                       Stk
+            Für Belastungsklasse C.
+
+06.17 02C   Az Putzschacht innen+Deckel Klasse D                                                                       Stk
+            Für Belastungsklasse D.
+
+06.17 03    Putzschächte und Putzkammern (Putzsch.) außen (z.B. Ortbeton oder Fertigteile), einschließlich Deckel zum
+            Schacht passend (rund oder eckig), einschließlich Fundamentplatte, dichten Einmündungen oder
+            Rohrdurchführungen, ohne Unterschied der Anzahl, Schachtsohle (Schachtunterteil), etwa erforderlichen
+            Konusteilen und Abstiegshilfen, Hals, Schmutzfangkorb und Auflagerrahmen für Deckel der Belastungsklasse A.
+            Im Positionsstichwort ist die größte Tiefe angegeben.
+
+06.17 03A   Putzsch.außen+Deckel Tiefe b.60cm                                                                          Stk
+            Anzahl der Einmündungen: ____________
+            Anzahl der Rohrdurchführungen: ____________
+
+06.17 03B   Putzsch.außen+Deckel Tiefe b.80cm                                                                          Stk
+            Anzahl der Einmündungen: ____________
+            Anzahl der Rohrdurchführungen: ____________
+
+06.17 03C   Putzsch.außen+Deckel Tiefe b.120cm                                                                         Stk
+            Anzahl der Einmündungen: ____________
+            Anzahl der Rohrdurchführungen: ____________
+
+06.17 03X   Putzsch.außen+Deckel Tiefe ü.120cm:__________                                                              Stk
+            Anzahl der Einmündungen: ____________
+            Anzahl der Rohrdurchführungen: ____________
+06.17 04    Aufzahlung (Az) auf Putzschächte und Putzkammern außen mit Deckel der Belastungsklasse A.
+
+06.17 04A   Az Putzschacht außen+Deckel B                                                                              Stk
+            Für Belastungsklasse B.
+
+06.17 04B   Az Putzschacht außen+Deckel C                                                                              Stk
+            Für Belastungsklasse C.
+
+06.17 04C   Az Putzschacht außen+Deckel D                                                                              Stk
+            Für Belastungsklasse D.
+
+06.17 04D   Az Putzschacht außen Schmutzfangkorb                                                                       Stk
+            Für Schmutzfangkörbe bei Deckeln im Freien.
+
+06.17 05    Sickerschächte aus Fertigteilen, Einbautiefe bis 2 m, einschließlich Deckel zum Schacht passend (rund oder
+            eckig), einschließlich Ringfundament, dichten Einmündungen, Filterschichten (Kies oder Schotter) und Vlies,
+            etwa erforderlichen Konusteilen und Abstiegshilfen, Hals, Schmutzfangkorb und Auflagerrahmen für Deckel der
+            Belastungsklasse A. Im Positionsstichwort ist der größte Durchmesser (D) angegeben.
+
+06.17 05A   Sickerschacht 2m+Deckel D b.100cm                                                                          Stk
+            Anzahl der Einmündungen: ____________
+
+06.17 05B   Sickerschacht 2m+Deckel D b.150cm                                                                          Stk
+            Anzahl der Einmündungen: ____________
+
+                                                                                                                 Seite 17 / 28
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+06.17 05C   Sickerschacht 2m+Deckel D b.200cm                                                                           Stk
+            Anzahl der Einmündungen: ____________
+
+06.17 05X   Sickerschacht 2m+Deckel D ü.200cm:__________                                                                Stk
+            Anzahl der Einmündungen: ____________
+
+06.17 06    Aufzahlung (Az) auf Sickerschächte aus Fertigteilen mit Deckel der Belastungsklasse A.
+
+06.17 06A   Az Sickerschacht+Deckel B                                                                                   Stk
+            Für Belastungsklasse B.
+
+06.17 06B   Az Sickerschacht+Deckel C                                                                                   Stk
+            Für Belastungsklasse C.
+
+06.17 06C   Az Sickerschacht+Deckel D                                                                                   Stk
+            Für Belastungsklasse D.
+
+06.17 07    Aufzahlung (Az) auf Sickerschächte aus Fertigteilen, Einbautiefe bis 2 m, ohne Unterschied des Durchmessers.
+            Im Positionsstichwort ist die Einbautiefe über 2 m angegeben.
+
+06.17 07A   Az Sickerschacht+Deckel f.ü.2-3m                                                                            Stk
+
+06.17 07B   Az Sickerschacht+Deckel f.ü.2-4m                                                                            Stk
+
+06.17 07C   Az Sickerschacht+Deckel f.ü.2-5m                                                                            Stk
+
+06.17 07X   Az Sickerschacht+Deckel f.ü.2-__________                                                                    Stk
+06.17 12    Aufzahlung (Az) auf Schächte einschließlich Deckel zum Schacht passend.
+
+06.17 12A   Az Schacht+Deckel geruchsdicht                                                                              Stk
+            Für eine geruchsdichte (und rückstausichere) Ausführung.
+
+06.17 12B   Az Schacht+Deckel tagwasserdicht                                                                            Stk
+            Für eine tagwasserdichte (und rückstausichere) Ausführung.
+
+06.17 12C   Az Schacht+Deckel geruch+tagw.dicht                                                                         Stk
+            Für eine geruchs- und tagwasserdichte (tagw.dicht) (und rückstausichere) Ausführung.
+
+06.17 12D   Az Schacht+Deckel verschraubbar                                                                             Stk
+            Für eine verschraubbare Ausführung.
+
+06.17 12E   Az Schacht+Deckel versperrbar                                                                               Stk
+            Für eine versperrbare Ausführung.
+
+06.17 18    Ausbilden eines offenen, geraden oder bis 45 Grad gebogenen Gerinnes, ohne Unterschied bis D250 (mm) aus
+            Beton der Festigkeitsklasse C25/30 WU (wasserundurchlässig) in runden Schächten, einschließlich
+            Bermenausbildung. Im Positionsstichwort ist der Schachtdurchmesser (D) angegeben.
+
+06.17 18A   Gerinne C25/30 D600mm                                                                                       Stk
+
+06.17 18B   Gerinne C25/30 D800mm                                                                                       Stk
+
+06.17 18C   Gerinne C25/30 D1000mm                                                                                      Stk
+
+06.17 18D   Gerinne C25/30 D1500mm                                                                                      Stk
+
+06.17 18E   Gerinne C25/30 D2000mm                                                                                      Stk
+06.17 32    Ausbilden eines offenen, geraden oder bis 45 Grad gebogenen Gerinnes, ohne Unterschied bis D250 (mm) aus
+            Beton der Festigkeitsklasse C25/30 WU (wasserundurchlässig) in runden Schächten, einschließlich
+            Bermenausbildung und etwaiger Abzweiger. Im Positionsstichwort ist der Schachtdurchmesser (D) angegeben.
+
+06.17 32A   Gerinne+Abzweiger C25/30 D600mm                                                                             Stk
+
+                                                                                                                  Seite 18 / 28
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+06.17 32B   Gerinne+Abzweiger C25/30 D800mm                                                                               Stk
+
+06.17 32C   Gerinne+Abzweiger C25/30 D1000mm                                                                              Stk
+
+06.17 32D   Gerinne+Abzweiger C25/30 D1500mm                                                                              Stk
+
+06.17 32E   Gerinne+Abzweiger C25/30 D2000mm                                                                              Stk
+06.17 41    Einlaufgitter (E-Gitter) aus Gusseisen mit Rahmen, lichte Weite 500 x 500 mm. Im Positionsstichwort ist die
+            Belastungsklasse angegeben.
+
+06.17 41A   E-Gitter Guss/pult 500/500mm Klasse C                                                                         Stk
+            In Pultform (pult).
+
+06.17 41B   E-Gitter Guss/pult 500/500mm Klasse D                                                                         Stk
+            In Pultform (pult).
+
+06.17 41C   E-Gitter Guss/rinne 500/500mm Klasse C                                                                        Stk
+            In Rinnenform (rinne).
+
+06.17 41D   E-Gitter Guss/rinne 500/500mm Klasse D                                                                        Stk
+            In Rinnenform (rinne).
+
+06.17 42    Einlaufgitter (E-Gitter) aus Gusseisen mit Rahmen, lichte Weite 300 x 500 mm. Im Positionsstichwort ist die
+            Belastungsklasse angegeben.
+
+06.17 42A   E-Gitter Guss/pult 300/500mm Klasse C                                                                         Stk
+            In Pultform (pult).
+
+06.17 42B   E-Gitter Guss/pult 300/500mm Klasse D                                                                         Stk
+            In Pultform (pult).
+
+06.17 42C   E-Gitter Guss/rinne 300/500mm Klasse C                                                                        Stk
+            In Rinnenform (rinne).
+
+06.17 42D   E-Gitter Guss/rinne 300/500mm Klasse D                                                                        Stk
+            In Rinnenform (rinne).
+
+06.17 44    Einlaufgitter (E-gitter) aus Gusseisen mit Rahmen, lichte Weite D 610 mm. Im Positionsstichwort ist die
+            Belastungsklasse angegeben.
+
+06.17 44A   E-Gitter Guss/ mulde D610mm Klasse C                                                                          Stk
+            In Muldenform (mulde).
+
+06.17 44B   E-Gitter Guss/mulde D610mm Klasse D                                                                           Stk
+            In Muldenform (mulde).
+
+06.17 51    Wassermesserschächte in Kompaktbauweise, Beton der Festigkeitsklasse C25/30, mit Öffnungen für die
+            Durchführung der Leitung, Steigeisen, Abdeckplatte und Einstiegdeckel der Belastungsklasse A. Sohle mit einer
+            2 bis 3 cm dicken Sandbettung zur Versickerung.
+
+06.17 51A   Wassermesserschacht                                                                                           Stk
+            Abmessungen nach Vorgabe der Behörde (z.B. Gemeinde): ____________
+
+06.17 52    Aufzahlung (Az) auf Wassermesserschächte in Kompaktbauweise mit Deckel der Belastungsklasse A.
+
+06.17 52A   Az Wassermesserschacht+Deckel Klasse B                                                                        Stk
+            Für einen Deckel der Belastungsklasse B.
+
+06.17 52B   Az Wassermesserschacht+Deckel regendicht                                                                      Stk
+            Für einen regendichten Deckel mit verzinktem Riffelblech.
+
+06.17 53    Garagensammelschacht aus Kunststoff, mit Einlaufgitter Belastungsklasse B, einschließlich Aushubarbeiten
+            und Betonbettung. Im Positionsstichwort ist der Inhalt angegeben.
+
+                                                                                                                    Seite 19 / 28
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+06.17 53A   Garagensammelschacht Kunststoff 60 Liter                                                                               Stk
+06.17 54    Kontroll-, Spül und Sammelschacht (Dränageschacht) aus Polyethylen (PE-HD) einschließlich Aufsatzrohr,
+            PE-Abdeckung begehbar, sowie Blindstopfen DN200. Unterteil mit 3 Anschlüssen für DX200, Höhe 800 mm.
+
+06.17 54A   Dränageschacht PE-HD                                                                                                   Stk
+            Einbautiefe: ____________
+
+06.17 54B   Az Dränageschacht PE-HD Reduzierung                                                                                    Stk
+            Aufzahlung (Az) für eine Reduzierung.
+            Rohr: ____________
+            Nenndurchmesser (DN): ____________
+
+06.18       Sonstige Leistungen Aufschließung
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - das Abhängen von Rohrleitungen
+             - das Ummanteln von Rohren mit Beton
+
+            LB-Version: 23                 Geringfügig Geändert
+06.18 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+06.18 00C   Material zu 06.18 Kunststoff halogenfrei
+            Alle Kunststoffteile sind halogenfrei. Halogenfrei bedeutet, dass Halogene (chemische Elemente wie Fluor,
+            Chlor, Brom und Jod) weder im Kunststoff noch als Zusatzstoff, etwa als Flammschutzmittel, im Produkt
+            enthalten sind.
+            Betrifft Position(en): ____________
+            LB-Version: 23                  Geringfügig Geändert
+Änderung:   Entfall der Angabe der Unterleistungsgruppe im Folgetext und Verschiebung des Textes "Betrifft Position(en): ____"
+
+06.18 02    Einmündung in einen bestehenden, in Betrieb befindlichen (nicht schliefbaren) Rohrkanal ohne Unterschied des
+            Durchmessers, durch Einbauen eines Abzweigers, einschließlich des vorsichtigen Freistemmens der
+            Anschlussmuffe, und dem Auswechseln anschließender Teile durch Zuschnitte. Einmündungsrohr bis DN300.
+
+06.18 02A   Einmünd.Rohrkanal Kunststoff DN b.300                                                                                  Stk
+
+06.18 02B   Einmünd.Rohrkanal Beton DN b.300                                                                                       Stk
+
+06.18 02C   Einmünd.Rohrkanal Guss DN b.300                                                                                        Stk
+
+06.18 02D   Einmünd.Rohrkanal Steinzeug DN b.300                                                                                   Stk
+
+06.18 02E   Einmünd.Rohrkanal Faserzement DN b.300                                                                                 Stk
+06.18 03    Sohle (Betonbett) aus Beton mit der Festigkeitsklasse C12/15, für Rohrleitungen. Im Positionsstichwort ist die
+            Dicke und die Breite der Betonsohle angegeben.
+
+06.18 03A   Sohle f.Rohrleitungen Beton 10/50cm                                                                                    m²
+
+06.18 03B   Sohle f.Rohrleitungen Beton 10/80cm                                                                                    m²
+
+06.18 03X   Sohle f.Rohrleitungen Beton:__________                                                                                 m²
+06.18 10    Prüfen der Dichtheit von Kanalrohrleitungen gemäß ÖNORM, Prüfmedium Wasser, einschließlich Ausfertigen
+            der Prüfungsprotokolle. Abgerechnet werden die vom Auftraggeber angeordneten Prüfstrecken bei positivem
+            Ergebnis. Abgerechnet wird die Summe der Einzellängen (Rohrverschließen in eigener Position). Im
+            Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.18 10A   Dichtheitsprüfung Wasser DN b.200                                                                                      m
+
+06.18 10B   Dichtheitsprüfung Wasser DN ü.200-300                                                                                  m
+06.18 12    Verschließen von Rohren zwecks Dichtheitsprüfung, einschließlich Beistellen der Verschlussgeräte. Im
+            Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.18 12A   Verschließen Rohre DN b.300                                                                                            Stk
+                                                                                                                             Seite 20 / 28
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+06.18 20    Prüfen der Dichtheit von Kanalrohrleitungen gemäß ÖNORM, Prüfmedium Luft, einschließlich Ausfertigen der
+            Prüfungsprotokolle. Abgerechnet werden die vom Auftraggeber angeordneten Prüfstrecken bei positivem
+            Ergebnis. Abgerechnet wird die Summe der Einzellängen (Rohrverschließen in eigener Position). Im
+            Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+06.18 20A   Dichtheitsprüfung Luft DN b.200                                                                                        m
+
+06.18 20B   Dichtheitsprüfung Luft DN ü.200-300                                                                                    m
+06.18 25    Prüfung der Dichtheit von Schächten, Prüfmedium Wasser, einschließlich Ausfertigen der Prüfungsprotokolle.
+            Abgerechnet werden die vom Auftraggeber zur Prüfung angeordneten Schächte bei positivem Ergebnis
+            (Rohrverschließen in eigener Position).
+
+06.18 25A   Dichtheitsprüfung Schacht D1000/3m                                                                                     Stk
+            Schächte bis zu einem Innendurchmesser D1000 mm und bis 3 m tief mit offenem Gerinne.
+
+06.31       Leitungsschutz
+            LB-Version: 23                 Geringfügig Geändert
+06.31 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+06.31 00C   Material zu 06.31 Kunststoff halogenfrei
+            Alle Kunststoffteile sind halogenfrei. Halogenfrei bedeutet, dass Halogene (chemische Elemente wie Fluor,
+            Chlor, Brom und Jod) weder im Kunststoff noch als Zusatzstoff, etwa als Flammschutzmittel, im Produkt
+            enthalten sind.
+            Betrifft Position(en): ____________
+            LB-Version: 23                  Geringfügig Geändert
+Änderung:   Entfall der Angabe der Unterleistungsgruppe im Folgetext und Verschiebung des Textes "Betrifft Position(en): ____"
+
+06.31 01    Leitungsschutz liefern und in vorhandenem Sandbett verlegen.
+
+06.31 01A   Leitungsschutz Mauerziegel                                                                                             m²
+            Mit Mauerziegeln, einlagig.
+
+06.31 01B   Leitungsschutz Betonplatten                                                                                            m²
+            Mit Betonplatten.
+
+06.31 02    Leitungs- oder Kabel-Warnband, vom Auftraggeber beigestellt, nur verlegen.
+
+06.31 02A   Leitungs/Kabel-Warnband verlegen                                                                                       m
+            Leitungs/Kabel-Warnband: ____________
+
+06.31 02B   Leitungs/Kabel-Ortungsband verlegen                                                                                    m
+            Leitungs/Kabel-Ortungsband: ____________
+
+06.31 05    Leitungsschutz liefern und gegen Aufschwimmen einbauen.
+
+06.31 05A   Leitungsschutz                                                                                                         m
+06.61       Schüttmaterial für Gräben
+
+
+            1. Verfüllungen (Einschütten von Leitungen):
+            Verfüllungen erfolgen mit vorhandenem, zwischengelagertem (Massenausgleich) oder mit angeliefertem
+            Material.
+            Verfüllungen mit Gesteinskörnungen oder Grädermaterial (z.B. natürliches, recykliertes oder industriell
+            hergestelltes Material) oder selbstverdichtendes Material als Schüttmaterial erfolgen auf ausdrückliche
+            Anordnung oder im Einvernehmen mit dem Auftraggeber.
+            2. Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            3. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+                                                                                                                             Seite 21 / 28
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+
+            einkalkuliert:
+            - das Feinplanieren der Oberfläche der verfüllten Gräben unter Berücksichtigung etwaiger projektgemäßer
+            Deckschichten
+            4. Ausmaß- und Abrechnungsregeln:
+            Verfüllen wird im Ausmaß der Aushubkörper abgerechnet.
+            LB-Version: 23                Geändert
+06.61 02    Einbau von Gesteinskörnungen als Schüttungsmaterial als Bettung, wenn vorgeschrieben im Gefälle.
+            Abgerechnet wird nach Planmaß. Im Positionsstichwort ist die Schichtdicke angegeben.
+
+06.61 02A   Bettung Graben Feinsand__________                                                                                  m²
+
+06.61 02B   Bettung Graben Splitt__________                                                                                    m²
+
+06.61 02C   Bettung Graben Rollschotter__________                                                                              m²
+
+06.61 02X   Bettung Graben__________                                                                                           m²
+06.61 11    Verfüllen von Gräben mit zwischengelagertem (Boden-) Aushubmaterial (Aushubm.), einschließlich Ausbreiten,
+            wenn vorgeschrieben im Gefälle. In Lagen einbringen und der projektgemäßen Nutzung entsprechend
+            verdichten (für nicht befestigte Flächen). Abgerechnet wird nach Planmaß.
+
+06.61 11A   Verfüllen Graben Aushubm.+verdichten                                                                               m³
+06.61 12    Verfüllen von Gräben mit (Gräderm.) Grädermaterial, einschließlich Ausbreiten, wenn vorgeschrieben im
+            Gefälle. Abgerechnet wird nach Planmaß. In Lagen einbringen und gemäß der projektgemäßen Nutzung
+            verdichten. Im Positionsstichwort ist der Wert der Bodenpressung angegeben.
+
+06.61 12B   Verfüllen Graben Gräderm.150kN/m2                                                                                  m³
+
+06.61 12C   Verfüllen Graben Gräderm.300kN/m2                                                                                  m³
+
+06.61 12X   Verfüllen Graben Gräderm.__________                                                                                m³
+06.61 13    Verfüllen mit Gesteinskörnungen als Sickerschüttung (z.B. gewaschenem Rundkies, Splitt) als Filterschicht in
+            Gräben oder über Rohre für Dränleitungen. Im Positionsstichwort ist die Körnung angegeben.
+
+06.61 13A   Verfüllen Graben Kies/Spitt 4/8mm                                                                                  m³
+
+06.61 13C   Verfüllen Graben Kies/Splitt 8/16mm                                                                                m³
+
+06.61 13E   Verfüllen Graben Kies/Splitt 16/32mm                                                                               m³
+
+06.61 13G   Verfüllen Graben Dränschotter                                                                                      m³
+06.61 14    Verfüllen mit stabilisiertem (selbstverdichtendem) Verfüllmaterial (SVM), für das ein Prüfbericht einer
+            zugelassenen Prüfanstalt vorliegt, bei Leitungszonen, Minierungen und kavernenartigen Hohlräumen in Gräben.
+            Stabilisierte Verfüllmaterialien (SVM) werden nach den Angaben des Herstellers eingebaut. Der Nachweis der
+            Tragfähigkeit, der SVM-Verfüllung an der Baustelle, erfolgt durch den Auftragnehmer im Einvernehmen mit dem
+            Auftraggeber. Abgerechnet wird nach Planmaßen. Im Positionsstichwort ist die Korngröße angegeben.
+             Kommentar:
+             Stabilisierte Verfüllmaterialien (SVM) sind entsprechend konditionierte Verfüllmaterialien auf Basis von natürlichen
+             Gesteinskörnungen oder Recycling-Materialien, die in fließfähigem Zustand eingebracht werden und in einem
+             anschließenden Abbinde- oder Verfestigungsprozess, ohne Einsatz von Verdichtungsenergie, eine dem geforderten
+             Einsatzzweck entsprechende Festigkeit und Tragfähigkeit erreichen, dabei aber über die gesamte Nutzungsdauer händisch
+             wieder aufgrabbar bleiben.
+
+06.61 14E   Verfüllen Graben SVM 0/16mm                                                                                        m³
+            Wert der Bodenpressung: ____________
+
+06.61 14F   Verfüllen Graben SVM 0/32mm                                                                                        m³
+            Wert der Bodenpressung: ____________
+
+06.61 21    Filterschutz als Oberflächenschutz von Einbauten beim Einbau von stabilisierten, selbstverdichtendem
+            Verfüllmaterial, einschließlich einer 20cm Überlappung je Bahn. Abgerechnet wird die ummantelte oder
+            abgedeckte Fläche (ohne Überlappungen).
+
+06.61 21A   Ummanteln Filtergeotextil Graben                                                                                   m²
+
+                                                                                                                         Seite 22 / 28
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+            Durch Ummanteln der Filterschicht mit Filtergeotextil.
+            Mindestvoraussetzungen:
+                • Charakteristische Öffnungsweite > 80 µm
+                • Zugfestigkeit (Längs und Quer) > 8,5 kN/m
+            LB-Version: 23                  Geändert
+Änderung:   Statt dem Flächengewicht, wurden neue Mindestvoraussetzungen definiert. Das Flächengewicht allein ist nicht aussagekräftig
+            genug, welches "Geotextil" hier einzusetzen ist.
+
+06.61 21B   Ummanteln Filtergeotextil erh. Anford. Graben                                                                        m²
+            Durch Ummanteln der Filterschicht mit Filtergeotextil erhöhter Anforderung (erh. Anford.).
+            Mindestvoraussetzungen:
+                • Charakteristische Öffnungsweite > 80 µm
+                • Zugfestigkeit (Längs und Quer) > 11 kN/m
+            LB-Version: 23                  Geändert
+Änderung:   Statt dem Flächengewicht, wurden neue Mindestvoraussetzungen definiert. Das Flächengewicht allein ist nicht aussagekräftig
+            genug, welches "Geotextil" hier einzusetzen ist.
+
+06.61 21C   Abdecken Matten Graben                                                                                               m²
+            Durch Abdecken der Filterschicht mit flexiblen, schlagzähen, filterstabilen, verrottungssicheren Filtermatten.
+
+06.61 22    Äußerer Oberflächenschutz für Einbauten beim Einbau von stabilisierten, selbstverdichtendem Verfüllmaterial
+            (SVM) in Gräben.
+
+06.61 22A   Oberflächenschutz SVM                                                                                                m²
+06.61 23    Schutz gegen Aufschwimmen für Einbauten beim Einbau von selbstverdichtendem Verfüllmaterial (SVM) in
+            Gräben.
+
+06.61 23A   Schutz gegen Aufschwimmen bei SVM                                                                                    PA
+            Angabe zu den Leitungen oder Einbauten: ____________
+
+06.61 31    Materialuntersuchung an der Baustelle für einen späteren Zeitpunkt. Die Rückstellprobe umfasst 20 l
+            selbstverdichtendes Verfüllmaterial (SVM) in einem dicht verschließbaren Gefäß, wird direkt an der Baustelle
+            dem Fahrmischer, nach Wahl des Auftraggebers, entnommen und in einer Prüfanstalt geprüft, einschließlich
+            Entsorgen der freigegebenen Rückstellproben. Bei Nichtentsprechen trägt der Auftragnehmer die Kosten.
+
+06.61 31A   Rückstellprobe SVM Graben                                                                                            Stk
+06.81       Instandsetzen Rohrleitungs(Kanal)-anlagen
+            1. Erschwernisse:
+            Alle Erschwernisse, die aus den Merkmalen einer Instandsetzung- oder Adaptierungsarbeit resultieren,
+            ausgenommen Schadstoffe gemäß ÖNORM, sind in die Einheitspreise einkalkuliert.
+            2. Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            3. Ausmaß- und Abrechnungsregeln:
+            Ausschreibung und Abrechnung erfolgen nach lotrechten (vertikalen) Abschnitten. Leistungen sind von Null bis
+            zur angegebenen Tiefe (Gesamttiefe) beschrieben.
+            4.Begriffe:
+            Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl (z.B. V2A oder V4A) beschrieben.
+             Kommentar:
+             Abbruch Kanal:
+             Der Abbruch von Kanalrohrleitungen kann im Zuge von Abbrucharbeiten auch mit der LG 02 ausgeschrieben werden.
+             Frei zu formulieren (z.B.):
+             - die Umleitung des Kanalabflusses mit Hilfe von Pumpensumpf, Pumpe und provisorischer Rohrleitung
+             - das Auslösen und wieder Versetzen von Schachtdeckeln aus Guss- oder Schmiedeeisen
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl
+
+06.81 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+                                                                                                                           Seite 23 / 28
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+06.81 00A   Rohrleitungen aus Steinzeug
+            Betrifft Position(en): ____________
+            Erschwernisse bei der Sanierung von Rohrleitungen aus Steinzeug, ohne Unterschied des Durchmessers:
+            ____________
+
+06.81 00B   Rohrleitungen aus Faserzement
+            Betrifft Position(en): ____________
+            Erschwernisse bei der Sanierung von Rohrleitungen aus Faserzement, ohne Unterschied des Durchmessers:
+            ____________
+
+06.81 00C   Rohrleitungen aus Guss
+            Betrifft Position(en): ____________
+            Erschwernisse bei der Sanierung von Rohrleitungen aus Guss, ohne Unterschied des Durchmessers:
+            ____________
+
+06.81 00D   Rohrleitungen aus Kunststoff
+            Betrifft Position(en): ____________
+            Erschwernisse bei der Sanierung von Rohrleitungen aus Kunststoff, ohne Unterschied des Durchmessers:
+            ____________
+
+06.81 01    Auslösen, einschließlich Freistemmen der Muffe, ohne Unterschied des Rohrdurchmessers bis DN300,
+            einschließlich Entsorgen.
+
+06.81 01A   Muffe freistemmen                                                                                         Stk
+06.81 03    Instandsetzen Putzschacht, Wände und Sohle reinigen und mit kunststoffvergütetem Mörtel einschließlich
+            Haftbrücke ausbessern, Rohrputzdeckel und Kanalschachtdeckel gangbar machen, einschließlich Entsorgen.
+            Im Positionsstichwort sind die Abmessungen und die Tiefe (T) angegeben.
+
+06.81 03A   Instands.Putzschacht 600x400mm T0,6m                                                                      Stk
+
+06.81 03B   Instands.Putzschacht 600x600mm T0,8m                                                                      Stk
+
+06.81 03C   Instands.Putzschacht 600x1000mm T1,5m                                                                     Stk
+06.81 04    Instandsetzen Putzkammern einschließlich Einstieghals, Wände und Sohle reinigen und mit
+            kunststoffvergütetem Mörtel, einschließlich Haftbrücke ausbessern, Rohrputzdeckel und Kanalschachtdeckel
+            gangbar machen, einschließlich Entsorgen.
+
+06.81 04A   Instands.Putzkammer ü.1,5-2m                                                                              Stk
+            Über 1,5 bis 2 m tief.
+
+06.81 04B   Instands.Putzkammer ü.2-3m                                                                                Stk
+            Über 2 bis 3 m tief.
+
+06.81 05    Neue Rohrputzdeckel in vorhandene Putzstücke versetzen, einschließlich Einpassarbeiten.
+
+06.81 05A   Neuer Kanal-Normputzdeckel                                                                                Stk
+
+06.81 05B   Kanalputzdeckel m.Spannbalken                                                                             Stk
+            Aus feuerverzinktem Stahlblech 3 mm dick, mit umlaufender Dichtung, Format je nach Putzöffnung 200 bis
+            390/95 bis 175 mm, Befestigung mit Spannbalken und Gewindestück aus Edelstahl, Gewindelänge 100 bis 140
+            mm, mit Messingflügelmutter (DIN 315 M10).
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl
+
+06.81 05C   Kanalputzdeckel m.2 Knaggen                                                                               Stk
+            Aus feuerverzinktem Stahlblech 3 mm dick, mit umlaufender Dichtung, Format je nach Putzöffnung 285 bis
+            390/95 bis 175 mm. Befestigung mit 2 Stück Knaggen aus feuerverzinktem Rundstahl mindestens 8 mm dick.
+06.81 07    Aufgelassenen Kanal in Abschnitten aufbrechen und mit Magerbeton füllen. Abgerechnet wird das ausgefüllte
+            Profil.
+
+06.81 07A   Aufgelassenen Kanal m.Beton füllen                                                                        m³
+
+
+                                                                                                                Seite 24 / 28
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+06.81 09    Winkeleisenauflager für das Verlegen des Kanals auf Pfeilern instandsetzen, bestehend aus 2 Stück
+            Winkeleisen 40 x 40 x 5 mm und den erforderlichen Querstangen, rostgeschützt, einschließlich aller
+            Befestigungen, ohne Verlegen der Rohre.
+
+06.81 09A   Instands.Winkeleisenauflager                                                                                 m
+06.81 10    Erneuern von Steigeisen. Alte Steigeisen ausbrechen und Entsorgen, neue Steigeisen versetzen.
+
+06.81 10A   Erneuern Steigeisen                                                                                          Stk
+            Rostgeschütze Steigeisen.
+
+06.81 10B   Erneuern Steigeisen Kst-ummantelt                                                                            Stk
+            Kunststoff (Kst)-ummantelte Steigeisen.
+
+06.81 11    Provisorisches Schließen eines in Betrieb befindlichen Kanalrohres, um Umbau- oder Sanierungsarbeiten
+            durchführen zu können.
+
+06.81 11A   Prov.Schließen Kanal DN b.300                                                                                Stk
+            Ohne Unterschied des Rohres bis DN300. Abgerechnet wird die Anzahl der Verschlussvorgänge.
+
+06.81 12    Auseinandernehmen und wieder Schließen einer bestehenden Rohrleitung, um beschädigte Rohre
+            auszuwechseln oder Formstücke einzubauen, einschließlich Freistemmen der Anschlussmuffen, einschließlich
+            Entsorgen (Abschließen des Abflusses in eigener Position). Abgerechnet wird die Maßnahme einer
+            Auswechslung, ohne Unterschied der Länge und des Rohrdurchmessers bis Nenndurchmesser (DN) 300.
+
+06.81 12A   Auswechseln Kanalrohre DN b.300                                                                              PA
+06.81 20    Mechanisches oder elektromechanisches (mech.) Reinigen von Abflussrohren und Schächten aus
+            unterschiedlichen Materialien (z.B. Faserzement, Steinzeug, Kunststoff, Beton, Guss), mit wechselbaren
+            Bohrköpfen und koppelbarer Spirale, einschließlich Entsorgen. Einschließlich Zu- und Abtransport der Geräte.
+
+06.81 20A   Mech.Reinigen Rohr DN b.200                                                                                  m
+            Abflussrohre bis DN200. Abgerechnet wird die Summe der Einzellängen.
+
+06.81 20B   Mech.Reinigen Rohr DN ü.200-300                                                                              m
+            Abflussrohre über DN200 bis DN300. Abgerechnet wird die Summe der Einzellängen.
+
+06.81 20C   Mech.Reinigen Schacht D b.1000/3m                                                                            Stk
+            Schächte bis D1000 mm und bis 3 m Tiefe.
+
+06.81 21    Hochdruckspülen mit Wasser der bestehenden Kanalrohre, ohne Unterschied des Rohrdurchmessers, um
+            Ablagerungen zu beseitigen. Aus den Putzstücken wird das anfallende Schuttmaterial ausgeräumt und entsorgt.
+            Das Hochdruckspülen erfolgt mit jenem zulässigen Wasserdruck, welcher für die zu spülende Kanalrohranlage
+            auf Grund ihres technischen Bauzustandes zu vertreten und erforderlich ist. Einschließlich Zu- und Abtransport
+            der Geräte.
+
+06.81 21A   Hochdruckspülen Rohr DN b.200                                                                                m
+            Abflussrohre bis DN200. Abgerechnet wird die Summe der Einzellängen.
+
+06.81 21B   Hochdruckspülen Rohr DN ü.200-300                                                                            m
+            Abflussrohre über DN200 bis DN300. Abgerechnet wird die Summe der Einzellängen.
+
+06.81 21C   Hochdruckspülen Schacht D b.1000/3m                                                                          Stk
+            Schächte bis D1000 mm und bis 3 m Tiefe.
+
+06.81 22    Kanalbefund mit Videoaufnahmen zur Kontrolle von Kanalrohren und Abflussleitungen, DN150 bis DN300, mit
+            Monitorbetrachtung einschließlich Bedienungspersonal.
+
+06.81 22A   Kanalvideo Rohrkontrolle DN ü.150-300                                                                        PA
+            Pauschalbetrag für einen Einsatzort und bis 30 m Hauskanal mit bis 4 Einbringungen, einschließlich einer
+            Schemaskizze mit schriftlichem Bericht und bis 8 Monitoraufnahmen oder Videoprints.
+
+06.81 22B   Kanalvideo Rohrkontrolle Länge DN ü.150-300                                                                  m
+            Abgerechnet wird die Länge der Achse des untersuchten Hauskanales, Beilage einer Schemaskizze mit
+            schriftlichem Bericht und der für den Befund erforderlichen Bilddokumentation.
+
+
+                                                                                                                   Seite 25 / 28
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+06.81 31    Übergänge (Reduktionen) für Gusseisenrohre. Im Positionsstichwort ist der größere Nenndurchmesser (DN)
+            angegeben.
+
+06.81 31A   Übergang Gussrohre DN125mm                                                                                Stk
+
+06.81 31B   Übergang Gussrohre DN150mm                                                                                Stk
+
+06.81 31C   Übergang Gussrohre DN200mm                                                                                Stk
+
+06.81 31D   Übergang Gussrohre DN250mm                                                                                Stk
+
+06.81 31E   Übergang Gussrohre DN300mm                                                                                Stk
+06.81 32    Übergänge (Reduktionen) für Steinzeugrohre. Im Positionsstichwort ist der größere Nenndurchmesser (DN)
+            angegeben.
+
+06.81 32A   Übergang Steinzeugrohr DN125mm                                                                            Stk
+
+06.81 32B   Übergang Steinzeugrohr DN150mm                                                                            Stk
+
+06.81 32C   Übergang Steinzeugrohr DN200mm                                                                            Stk
+
+06.81 32D   Übergang Steinzeugrohr DN250mm                                                                            Stk
+
+06.81 32E   Übergang Steinzeugrohr DN300mm                                                                            Stk
+06.81 33    Übergänge (Reduktionen) für Betonrohre. Im Positionsstichwort ist der größere Nenndurchmesser (DN)
+            angegeben.
+
+06.81 33A   Übergang Betonrohr DN125mm                                                                                Stk
+
+06.81 33B   Übergang Betonrohr DN150mm                                                                                Stk
+
+06.81 33C   Übergang Betonrohr DN200mm                                                                                Stk
+
+06.81 33D   Übergang Betonrohr DN250mm                                                                                Stk
+
+06.81 33E   Übergang Betonrohr DN300mm                                                                                Stk
+06.81 34    Übergänge (Reduktionen) für Faserzementrohre. Im Positionsstichwort ist der größere Nenndurchmesser (DN)
+            angegeben.
+
+06.81 34A   Übergang Faserzemetrohr DN125mm                                                                           Stk
+
+06.81 34B   Übergang Faserzemetrohr DN150mm                                                                           Stk
+
+06.81 34C   Übergang Faserzemetrohr DN200mm                                                                           Stk
+
+06.81 34D   Übergang Faserzemetrohr DN250mm                                                                           Stk
+
+06.81 34E   Übergang Faserzemetrohr DN300mm                                                                           Stk
+06.81 41    Inliner-Kanalsanierung (z.B. für Haus- und Grundleitungen, Garagen- und Entwässerungsleitung, Garten- und
+            Vorplatzentwässerung) für Nenndurchmesser (DN) über 100 mm, Bögen bis 90° und Längen bis 100 m, ohne
+            Unterschied der Rohrleitung, einschließlich Bestandsaufnahme (z.B. TV-Inspektion, Klärung von Durchmesser
+            und Länge) und etwaigen erforderlichen Umleitungen von Schmutz- oder Brauchwasser.
+
+06.81 41A   Inliner-Kanalsanierung                                                                                    m
+            Beschreibung/Angaben: ____________
+
+06.81 61    Aushub von Lockerboden (AKL) für Gräben für Leitungen und Schächte in geschlossenen Räumen
+            (Gebäude-Altbestand). Im Positionsstichwort ist die Tiefe des lotrechten Abschnitts angegeben.
+
+06.81 61A   Aushub Lockerboden (AKL) Graben 0-1,25m+fördern Erdg.                                                     m³
+            Im Erdgeschoß, einschließlich des Transportes.
+
+06.81 61B   Aushub Lockerboden (AKL) Graben 0-3m+fördern Erdg.                                                        m³
+            Im Erdgeschoß, einschließlich des Transportes.
+
+
+                                                                                                                Seite 26 / 28
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+06.81 61C   Aushub Lockerboden (AKL) Graben 0-1,25m+fördern Keller                                                     m³
+            Im Keller, einschließlich des Transportes auf Hof- oder Straßenniveau.
+
+06.81 61D   Aushub Lockerboden (AKL) Graben 0-3m+fördern Keller                                                        m³
+            Im Keller, einschließlich des Transportes auf Hof- oder Straßenniveau.
+
+06.81 63    Durchbrüche für Rohrleitungen in Fundamenten, Nenndurchmesser bis 300 mm, einschließlich entsorgen der
+            Baurestmassen. Im Positionsstichwort ist die Dicke angegeben.
+
+06.81 63A   Durchbruch Fundament Ziegel b.80cm                                                                         Stk
+            In Fundamenten aus Ziegelmauerwerk.
+
+06.81 63B   Durchbruch Fundament Ziegel ü.80-120cm                                                                     Stk
+            In Fundamenten aus Ziegelmauerwerk.
+
+06.81 63C   Durchbruch Fundament Beton b.80cm                                                                          Stk
+            In Fundamenten aus Beton oder Stahlbeton, Festigkeit bis C25/30.
+
+06.91       Transportieren,Verwerten,Deponieren von Aushubmaterial
+06.91 05    Geladenes Aushubmaterial (Graben) transportieren, verwerten oder deponieren (Transp./Verw./Dep.), nach
+            Wahl des Auftragnehmers.
+
+06.91 05A   Transp./Verw./Dep.Aushub Graben rein                                                                       m³
+            Für reines Aushubmaterial, das gemäß Deponieverordnung die Anforderungen der Bodenaushubdeponien
+            einhält.
+            Bodenaushub auf Bodenaushubdeponie (SNR 31411-29 bis 32)
+
+06.91 05B   Transp./Verw./Dep.Aushub Graben Inertabfall b.30% / b.3%                                                   m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushubdeponien
+            ungeeignet ist, aber die Anforderungen der Inertabfalldeponien (Inertabfall.) einhält.
+            Bodenaushub Inertabfallqualität (SNR 31411-33):
+                • bis 30% mineralische bodenfremde Bestandteile
+                • bis 3% organische bodenfremde Bestandteile
+
+06.91 05C   Transp./Verw./Dep.Aushub Graben Inertabfall ü.30% / ü.3%                                                   m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushubdeponien
+            ungeeignet ist, aber die Anforderungen der Inertabfalldeponien (Inertabfall.) einhält.
+            Bodenaushub Inertabfallqualität (SNR 31411-33):
+                • über 30% mineralische bodenfremde Bestandteile
+                • über 3% organische bodenfremde Bestandteile
+
+06.91 05D   Transp./Verw./Dep.Aushub Graben Baurestmassen b.30% / b.3%                                                 m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushub- oder
+            Inertabfalldeponien ungeeignet ist, aber die Anforderungen der Baurestmassendeponien (Baurestm.) einhält.
+            Bodenaushub Baurestmassenqualität (SNR 31423-36 bzw. 31424-37).
+                • bis 30% mineralische bodenfremde Bestandteile
+                • bis 3% organische bodenfremde Bestandteile
+
+06.91 05E   Transp./Verw./Dep.Aushub Graben Baurestmassen ü.30% / ü.3%                                                 m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushub- oder
+            Inertabfalldeponien ungeeignet ist, aber die Anforderungen der Baurestmassendeponien (Baurestm.) einhält.
+            Bodenaushub Baurestmassenqualität (SNR 31423-36 bzw. 31424-37).
+                • über 30% mineralische bodenfremde Bestandteile
+                • über 3% organische bodenfremde Bestandteile
+
+06.91 05F   Transp./Verw./Dep.Aushub Graben Reststoff.                                                                 m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushub-, Inertabfall- oder
+            Baurestmassendeponien ungeeignet ist, aber die Anforderungen der Reststoffdeponien (Reststoff.) einhält.
+            Bodenaushub Reststoffqualität (SNR 31423-36 bzw. 31424-37)
+                                                                                                                 Seite 27 / 28
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+
+06.91 05G   Transp./Verw./Dep.Aushub Graben Massenabfall                                                              m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushub-, Inertabfall-,
+            Baurestmassen- und Reststoffdeponien ungeeignet ist, aber die Anforderungen der Massenabfalldeponien
+            (Massenabf.) einhält.
+            Bodenaushub Massenabfallqualität (SNR 31423-36 bzw. 31424-37)
+
+06.91 06    Geladenes Aushubmaterial (Graben) transportieren, verwerten oder deponieren (Transp./Verw./Dep.), nach
+            Wahl des Auftragnehmers.
+
+06.91 06A   Transp./Verw./Dep.Aushub Graben (nicht deponierbar)                                                       m³
+            Für nicht gefährliches verunreinigtes Aushubmaterial, das gemäß Deponieverordnung keine Deponieklasse
+            einhält.
+            Schlüsselnummer (SNR) gemäß Gutachten: ____________
+
+
+
+
+                                                                                                                Seite 28 / 28
+                                                                                           ib-data GmbH, Softwareentwicklung
+

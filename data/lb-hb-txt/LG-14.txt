@@ -1,0 +1,1932 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+           Leistungsgruppe (LG) 14 - Besondere Instandsetzungsarbeiten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 1400    Wählbare Vorbemerkungen
+                     ULG 1401    Instandsetzung Versetzarbeiten
+                     ULG 1403    Unterfangungen und Auswechslungen
+                     ULG 1412    Sanierung von Dippelbaum-u.Tramdecken
+                     ULG 1413    Arbeiten an Gebäuden unter Denkmalschutz
+                     ULG 1422    Instandsetzen von gemauerten Fängen
+                     ULG 1423    Instandsetzen von Fängen m.Innenabdichtung
+                     ULG 1451    Nachtr.waagrechte Mwk.Abdichtung mechanisch
+                     ULG 1480    Betoninstandsetzung
+                     ULG 1494    Bestandsprüfungen Beton
+
+
+
+
+                                                                                                           Seite 1 / 30
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                          EH
+
+14         Besondere Instandsetzungsarbeiten
+           Version 023 (2025-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           1. Abbrechen, Abschlagen:
+           Die Ausdrücke Abbrechen oder Abschlagen bedeuten, dass der Auftraggeber mit einer Wiederverwendung des
+           Materials nicht rechnet.
+           2. Auslösen, Demontieren:
+           Die Ausdrücke Auslösen oder Demontieren bedeuten ein sorgfältiges Auslösen oder Demontieren zwecks
+           Wiederverwendung.
+           3. Einkalkulierte Leistungen:
+           Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+           einkalkuliert:
+           3.1 Entsorgen:
+           Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+           oder Entsorgen der Baurestmassen zu verstehen.
+           3.1.1 Verwerten oder Deponieren:
+           Abbruchmaterial geht mit dem ersten Laden in das Eigentum des Auftragnehmers über.
+           Baurestmassen werden grundsätzlich verwertet. Wenn dies aus wirtschaftlichen oder technischen Gründen
+           nicht möglich ist, werden Baurestmassen ordnungsgemäß deponiert.
+           3.2 Zwischenlagern:
+           Unter Zwischenlagern ist das Lagern innerhalb des Baustellenbereiches zu verstehen. Es enthält somit auch
+           den Transport zum Zwischenlager und das sachgemäße Lagern.
+           Zwischenlager sind vorzuhalten und vor der Übernahme zu räumen.
+           Der Platz für die Zwischenlagerung wird, wenn nicht bereits in der Ausschreibung bestimmt, im Einvernehmen
+           mit dem Auftraggeber festgelegt.
+           3.3 Transport:
+           Das Transportieren erfolgt unter Berücksichtigung von etwaigen erforderlichen Genehmigungen und
+           Vorschriften.
+           3.4 Einkalkulierte Leistungen:
+           Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+           einkalkuliert:
+           - Gerüste bis 3,2 m Höhe
+           - das Kennzeichnen und sorgfältige Lagern von demontierten Bauteilen
+           - ein etwaiges Zwischenlagern
+           - behördliche Vorschreibungen betreffend Schallschutz, Staubschutz (werden vom Auftragnehmer vor der
+           Angebotslegung erkundet)
+           - die Wiederinstandsetzung der vom Auftraggeber für die Zwischenlagerung von Abbruchmaterial beigestellten
+           Flächen nach Beendigung der Bauarbeiten
+           - Gebühren und Abgaben
+           - Organisation (Förderart und Förderweg)
+           - das Trennen und Ausscheiden von Massen, die nicht, beschränkt, oder zur weiteren Verwertung verwendbar
+           sind
+           - das Entsorgen von anfallenden Baurestmassen (z.B. Abtragmaterial, Strahlgut, beim Reinigen, Auslösen und
+           Versetzen)
+           4. Ausmaß- und Abrechnungsregeln:
+           Abbrechen, Abschlagen, Stemmen wird immer in festem, nicht aufgelockertem Zustand (Ausmaß der Bauteile
+           vor deren Abbruch) abgerechnet.
+            Kommentar:
+            Gerüste für Arbeitshöhen über 3,2 m und Fassadengerüste sind in der LG 04 (Gerüste) beschrieben, Vorkehrungen zum
+            Schutz von Bauteilen in der LG 01 (Baustellengemeinkosten)
+            Injektionsarbeiten sind in der LG 80 beschrieben.
+            Denkmalschutz:
+            Werden im Zuge der Abbrucharbeiten bisher nicht bekannte Bauelemente (z.B. Fenster- und Türumrahmungen, Spolien,
+            Malereien, Stukkaturen oder Sgraffitti aufgefunden, werden der Auftraggeber und das Bundesdenkmalamt (BDA) gemäß
+            Denkmalschutzgesetz umgehend verständigt. Der sorgfältige Ausbau und die sichere Lagerung von vom Bundesdenkmalamt
+            festgelegten und bezeichneten, wiederverwendbaren Bauelementen (z.B. Holztramdecken, Tür- und Fensterstöcke sowie
+            gesamte Fensterkonstruktionen, einschließlich der Verglasungen, Türblätter, wiederverwendbare Eisen- und Steinelemente
+            wie Geländer, Eisengitter, Gusseisenteile, Beschläge, Schließenköpfe) werden vom Auftragnehmer im Einvernehmen mit
+                                                                                                                         Seite 2 / 30
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+             dem Auftraggeber durchgeführt.
+             Frei zu formulieren (z.B.):
+             - Betonböden instandsetzen für Beschichtungen
+            LB-Version: 23                 Geringfügig Geändert
+
+14.00       Wählbare Vorbemerkungen
+14.00 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+14.00 00A   Erschwernisse Geschoss
+            Erschwernisse und örtliche Besonderheiten:____________
+
+14.00 00V   Verfügbarkeit von Beilagen zum LV
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von z.B. Plänen (z.B. im PDF-Format): ____________
+            Betrifft Position(en): ____________
+
+14.01       Instandsetzung Versetzarbeiten
+
+
+            Ausmaß- und Abrechnungsregeln:
+            Alle angegebenen Mauerdicken und lichten Öffnungen gelten als Rohbaumaße.
+             Kommentar:
+             Öffnungen/Durchbrüche in Betonwänden und Mantelbeton ausstemmen sind frei zu formulieren.
+
+            LB-Version: 23                 Geringfügig Geändert
+14.01 01    Öffnungen für Durchgänge oder Durchreichen in Zwischenwänden (Zw.W.) bis 15 cm dick (ausgenommen aus
+            Beton, Mantelbeton und Ständerwänden) ausstemmen.
+            Einschließlich Überlagen einziehen und dem Bestand angepasst verputzen.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Dicke der Wand (cm) und die Größe der Öffnung (m2) angegeben.
+
+14.01 01A   Öffnungen Zw.W.15cm b.2m2                                                                                           Stk
+            LB-Version: 23                 Geringfügig Geändert
+
+14.01 01B   Öffnungen Zw.W.15cm ü.2-4m2                                                                                         Stk
+            LB-Version: 23                 Geringfügig Geändert
+
+14.01 01C   Öffnungen Zw.W.15cm ü.4-6m2                                                                                         Stk
+             Kommentar:
+             Durchbrüche in Betonwänden und Mantelbeton, bis 15 cm dick, sind frei zu formulieren. Durchbrüche in Ständerwände siehe
+             LG 39 Trockenbauarbeiten oder LG 02 Abbrucharbeiten.
+
+            LB-Version: 23                 Geringfügig Geändert
+14.01 03    Öffnungen für Durchgänge oder Durchreichen in tragenden Wänden aus Ziegel (Ziegel-Mwk.) ausstemmen.
+            Einschließlich Überlagen einziehen und dem Bestand angepasst verputzen.
+            Einschließlich der Erschwernis durch wechselseitiges Einstemmen der Überlagen.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Dicke der Wand (cm) und die Größe der Öffnung (m2) angegeben.
+
+14.01 03A   Öffnungen Ziegel-Mwk.b.30cm b.2m2                                                                                   Stk
+            LB-Version: 23                 Geringfügig Geändert
+
+14.01 03B   Öffnungen Ziegel-Mwk.b.30cm ü.2-4m2                                                                                 Stk
+            LB-Version: 23                 Geringfügig Geändert
+
+14.01 03C   Öffnungen Ziegel-Mwk.b.30cm ü.4-6m2                                                                                 Stk
+            LB-Version: 23                 Geringfügig Geändert
+
+
+                                                                                                                           Seite 3 / 30
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+14.01 03F   Öffnungen Ziegel-Mwk.ü.30-45cm b.2m2                                                                        Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 03G   Öffnungen Ziegel-Mwk.ü.30-45cm ü.2-4m2                                                                      Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 03H   Öffnungen Ziegel-Mwk.ü.30-45cm ü.4-6m2                                                                      Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 03K   Öffnungen Ziegel-Mwk.ü.45-60cm b.2m2                                                                        Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 03L   Öffnungen Ziegel-Mwk.ü.45-60cm ü.2-4m2                                                                      Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 03M   Öffnungen Ziegel-Mwk.ü.45-60cm ü.4-6m2                                                                      Stk
+            LB-Version: 23              Geringfügig Geändert
+14.01 05    Öffnungen für Durchgänge oder Durchreichen in tragenden Wänden Mischmauerwerk (Misch-Mwk.),
+            ausgenommen Beton und Mantelbetonwänden, ausstemmen.
+            Einschließlich Überlagen einziehen und dem Bestand angepasst verputzen.
+            Einschließlich der Erschwernis durch wechselseitiges Einstemmen der Überlagen.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Dicke der Wand (cm) und die Größe der Öffnung (m2) angegeben.
+
+14.01 05A   Öffnungen Misch-Mwk.b.30cm b.2m2                                                                            Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 05B   Öffnungen Misch-Mwk.b.30cm ü.2-4m2                                                                          Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 05C   Öffnungen Misch-Mwk.b.30cm ü.4-6m2                                                                          Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 05F   Öffnungen Misch-Mwk.ü.30-45cm b.2m2                                                                         Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 05G   Öffnungen Misch-Mwk.ü.30-45cm ü.2-4m2                                                                       Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 05H   Öffnungen Misch-Mwk.ü.30-45cm ü.4-6m2                                                                       Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 05K   Öffnungen Misch-Mwk.ü.45-60cm b.2m2                                                                         Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 05L   Öffnungen Misch-Mwk.ü.45-60cm ü.2-4m2                                                                       Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 05M   Öffnungen Misch-Mwk.ü.45-60cm ü.4-6m2                                                                       Stk
+            LB-Version: 23              Geringfügig Geändert
+14.01 13    Türstock oder Zarge aus Zwischenwänden (Zw.W.) bis 15 cm dick ausbrechen (ausbr.), Öffnung schließen
+            (abmauern), beidseitig neues Mauerwerk dem Bestand angepasst verputzen, einschließlich Anschlussputz,
+            allseitig bis 30 cm breit.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Größe der Öffnung (m2) angegeben.
+
+14.01 13A   Stock/Zarge ausbr.Zw.W.+abmauern b.2m2                                                                      Stk
+            LB-Version: 23              Geringfügig Geändert
+                                                                                                                   Seite 4 / 30
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+14.01 13B   Stock/Zarge ausbr.Zw.W.+abmauern ü.2-4m2                                                                      Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 13C   Stock/Zarge ausbr.Zw.W.+abmauern ü.4-6m2                                                                      Stk
+            LB-Version: 23              Geringfügig Geändert
+14.01 14    Türstock oder Zarge aus Zwischenwänden (Zw.W.) (ausgenommen aus Beton, Mantelbeton oder
+            Ständerwände) bis 15 cm dick ausbrechen.
+            Von vom Auftraggeber beigestellte Stöcke oder Zargen seitwärts versetzen (seit.vers.), einschließlich
+            Mauerwerk abbrechen und nachmauern.
+            Einschließlich Überlagen einziehen, neue Wandflächen verputzen.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Seitliche Verschiebung höchstens bis um die halbe Stocklichtbreite, einschließlich Anschlussputz beidseitig bis
+            50 cm breit.
+            Im Positionsstichwort ist die Größe der Öffnung (m2) angegeben.
+
+14.01 14A   Stock/Zarge ausbr.Zw.W.+seitw.vers.b.2m2                                                                      Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 14B   Stock/Zarge ausbr.Zw.W.+seitw.vers.ü.2-4m2                                                                    Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 14C   Stock/Zarge ausbr.Zw.W.+seitw.vers.ü.4-6m2                                                                    Stk
+            LB-Version: 23              Geringfügig Geändert
+14.01 15    Geradestemmen von Leibungen von ausgebrochenen Öffnungen im Mauerwerk aus Ziegeln, Hochlochziegeln
+            oder Hohlblocksteinen.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Abgerechnet wird das Flächenmaß (Leibungstiefe x Leibungslänge).
+
+14.01 15A   Geradestemmen von Leibungen                                                                                   m²
+            LB-Version: 23              Geringfügig Geändert
+14.01 17    Öffnungen im Mauerwerk (Mwk.) mit Ziegeln oder Zwischenwandsteinen zumauern, einschließlich Einbinden in
+            das bestehende Mauerwerk.
+            Im Positionsstichwort ist die Dicke der Wand (cm) und die Größe der Öffnung (m2) angegeben.
+
+14.01 17A   Öffnung Mwk.zumauern b.15cm b.0,1m2                                                                           Stk
+
+14.01 17B   Öffnung Mwk.zumauern b.15cm ü.0,1-0,5m2                                                                       Stk
+
+14.01 17C   Öffnung Mwk.zumauern b.15cm ü.0,5-2m2                                                                         Stk
+
+14.01 17D   Öffnung Mwk.zumauern ü.15-30cm b.0,1m2                                                                        Stk
+
+14.01 17E   Öffnung Mwk.zumauern ü.15-30cm ü.0,1-0,5m2                                                                    Stk
+
+14.01 17F   Öffnung Mwk.zumauern ü.15-30cm ü.0,5-2m2                                                                     Stk
+
+14.01 17G   Öffnung Mwk.zumauern ü.30-45cm b.0,1m2                                                                       Stk
+
+14.01 17H   Öffnung Mwk.zumauern ü.30-45cm ü.0,1-0,5m2                                                                   Stk
+
+14.01 17I   Öffnung Mwk.zumauern ü.30-45cm ü.0,5-2m2                                                                     Stk
+
+14.01 17J   Öffnung Mwk.zumauern ü.45-60cm b.0,1m2                                                                       Stk
+
+14.01 17K   Öffnung Mwk.zumauern ü.45-60cm ü.0,1-0,5m2                                                                   Stk
+
+14.01 17L   Öffnung Mwk.zumauern ü.45-60cm ü.0,5-2m2                                                                     Stk
+
+
+
+                                                                                                                     Seite 5 / 30
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+
+14.01 19    Ausstemmen von Mauerschmatzen im Mauerwerk (Mwk.), entsprechend der neu zu errichtenden und
+            einzubindenden Wand.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Abgerechnet wird das Flächenmaß (Anschlusslänge x Mauerdicke der neu zu errichtenden Anschlusswand).
+
+14.01 19A   Mauerschmatzen Mwk.ausstemmen                                                                            m²
+            LB-Version: 23               Geringfügig Geändert
+14.01 20    Mauerschmatzen ausmauern mit Ziegeln.
+            Abgerechnet wird das Flächenmaß (Anschlusslänge x Mauerdicke der abgebrochenen Anschlusswand).
+
+14.01 20A   Mauerschmatzen ausmauern                                                                                 m²
+14.01 21    Auflager für neue Decken in Wände stemmen.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort sind die Abmessungen (cm) angegeben.
+            Deckenoberkante bis 3,2 m.
+
+14.01 21A   Auflagerschlitze 20/20cm Mwk.b.3,2m                                                                      m
+            Auflagerschlitze in Mauerwerk (Mwk.)
+
+            LB-Version: 23               Geringfügig Geändert
+
+14.01 21B   Auflagerschlitze 20/20cm Beton b.3,2m                                                                    m
+            Auflagerschlitze in Beton- oder Mantelbetonwänden (Beton).
+
+            LB-Version: 23               Geringfügig Geändert
+
+14.01 21D   Einzelauflager 20/20/20cm Mwk.b.3,2m                                                                     Stk
+            Einzelauflager in Mauerwerk (Mwk.)
+
+            LB-Version: 23               Geringfügig Geändert
+
+14.01 21E   Einzelauflager 20/20/20cm Beton b.3,2m                                                                   Stk
+            Einzelauflager in Beton- oder Mantelbetonwänden (Beton).
+
+            LB-Version: 23               Geringfügig Geändert
+14.01 22    Auflager für neue Decken in Wände stemmen.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort sind die Abmessungen (cm) und die Deckenoberkante (m) angegeben.
+            Deckenoberkante über 3,2 m.
+
+14.01 22A   Auflagerschlitze 20/20cm Mwk.ü.3,2m:__________                                                           m
+            Auflagerschlitze in Mauerwerk (Mwk.).
+
+            LB-Version: 23               Geringfügig Geändert
+
+14.01 22B   Auflagerschlitze 20/20cm Beton ü.3,2m:__________                                                         m
+            Auflagerschlitze in Beton- oder Mantelbetonwänden (Beton).
+
+            LB-Version: 23               Geringfügig Geändert
+
+14.01 22D   Einzelauflager 20/20/20cm Mwk.ü.3,2m:__________                                                          Stk
+            Einzelauflager in Mauerwerk (Mwk.).
+
+            LB-Version: 23               Geringfügig Geändert
+
+14.01 22E   Einzelauflager 20/20/20cm Beton ü.3,2m:__________                                                        Stk
+            Einzelauflager in Beton- oder Mantelbetonwänden (Beton).
+
+            LB-Version: 23               Geringfügig Geändert
+14.01 24    Gelockerte Pfosten- oder Rahmenstöcke für Türen, ohne Unterschied der Mauerdicke neu befestigen und
+            auskeilen.
+            Im Positionsstichwort ist die Größe der Öffnung (m2) angegeben.
+
+                                                                                                                Seite 6 / 30
+                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+14.01 24A   Türstock verkeilen b.2m2                                                                                    Stk
+
+14.01 24B   Türstock verkeilen ü.2-4m2                                                                                  Stk
+
+14.01 24C   Türstock verkeilen ü.4-6m2                                                                                  Stk
+14.01 25    Gelockerte Pfostenstöcke, Rahmenpfostenstöcke, Leistenpfostenstöcke und Rahmenstöcke für Fenster
+            (Fensterstock) sowie Balkontüren neu befestigen und auskeilen.
+            Im Positionsstichwort ist die Größe der Öffnung (m2) angegeben.
+
+14.01 25A   Fensterstock verkeilen b.2m2                                                                                Stk
+
+14.01 25B   Fensterstock verkeilen ü.2-4m2                                                                              Stk
+
+14.01 25C   Fensterstock verkeilen ü.4-6m2                                                                              Stk
+14.01 26    Gelockerte Fensterbänke innen aus Holz, Holzwerkstoffen oder Kunststoff ohne Unterschied der Einzelbreite
+            und -länge neu befestigen.
+            Einschließlich Verputz ergänzen, bis 15 cm breit.
+
+14.01 26A   Innenfensterbank befestigen                                                                                 m
+14.01 27    Gelockerte Hahn-, Schalter- oder Absperrtürchen auslösen, neu versetzen/befestigen und Verputz allseitig
+            ergänzen bis 15 cm breit.
+            Im Positionsstichwort ist die Größe (m2) angegeben.
+
+14.01 27A   Hahn-Absperrtür versetzen b.0,1m2                                                                           Stk
+
+14.01 27B   Hahn-Absperrtür versetzen ü.0,1-0,3m2                                                                       Stk
+14.01 29    Hahn-, Schalter-, Absperrtürchen ausbrechen.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Die entstandene Öffnung sorgfältig vermauern und den fehlenden Verputz bis 1 m2 ergänzen.
+            Im Positionsstichwort ist die Größe (m2) angegeben.
+
+14.01 29A   Hahn-Absperrtür ausbr.+vermauern b.0,1m2                                                                    Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 29B   Hahn-Absperrtür ausbr.+vermauern ü.0,1-0,3m2                                                                Stk
+            LB-Version: 23              Geringfügig Geändert
+14.01 34    Lockere oder eingesunkene Fußbodenplatten im Innenbereich sorgfältig auslösen und neu versetzen,
+            einschließlich Stemm-, Verfugungsarbeiten.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Größe (m2) angegeben.
+
+14.01 34A   Bodenplatten auslösen/versetzen b.0,05m2                                                                    Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 34B   Bodenplatten auslösen/versetzen ü.0,05-0,1m2                                                                Stk
+            LB-Version: 23              Geringfügig Geändert
+
+14.01 34C   Bodenplatten auslösen/versetzen b.2m2                                                                       m²
+            Abgerechnet wird die Summe der Einzelflächen.
+
+            LB-Version: 23              Geringfügig Geändert
+14.01 37    Steckeisen einbohren und verankern, Bohrdurchmesser bis 14 mm, Bohrlochlänge bis 25 cm, einschließlich
+            satten Verfüllens des Bohrloches mit Zementmörtel (Bewehrungsstahl ist in eigener Position beschrieben).
+
+14.01 37A   Steckeisen bohren/verankern Mwk.                                                                            Stk
+            In Mauerwerk.
+
+14.01 37B   Steckeisen bohren/verankern Beton                                                                           Stk
+                                                                                                                   Seite 7 / 30
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+            In Beton, Stahlbeton- oder Mantelbeton (Beton).
+
+14.01 45    Gewände nach Abbruch von Fenster- oder Türstöcken nachmauern bis 10 cm dick, einschließlich Einbinden in
+            das bestehende Mauerwerk, mindestens alle 60 cm.
+            Im Positionsstichwort ist die Breite (cm) angegeben.
+
+14.01 45A   Gewände 10cm nachmauern b.15cm                                                                                         m²
+
+14.01 45B   Gewände 10cm nachmauern ü.15-30cm                                                                                      m²
+
+14.01 45C   Gewände 10cm nachmauern ü.30-45cm                                                                                      m²
+
+14.01 45D   Gewände 10cm nachmauern ü.45-60cm                                                                                      m²
+14.01 55    Sturz mit Überlagen aus Fertigteilen (FT), bis zu einer Rohbaulichte von 2,5 m, passend zu dem vorhandenen
+            Mauerwerk (Wärmeschutz ist in eigener Position beschrieben) einbauen, einschließlich Auflager und nach dem
+            Versetzen der Überlager schließen, Zwischenraum über den Überlagen bis zwei Ziegelscharen hoch ausmauern
+            und auskeilen.
+            Abgerechnet die jeweilige Rohbaulichte, zusätzlich 2 x 15 cm für die Auflager.
+            Im Positionsstichwort ist die Dicke der Mauer (cm) angegeben.
+
+14.01 55A   Sturz/FT-Überlage b.15cm                                                                                               m
+
+14.01 55B   Sturz/FT-Überlage ü.15-30cm                                                                                            m
+
+14.01 55C   Sturz/FT-Überlage ü.30-45cm                                                                                            m
+
+14.01 55D   Sturz/FT-Überlage ü.45-60cm                                                                                            m
+14.01 56    Aufzahlung (Az) auf Sturz mit Überlagen aus Fertigteilen für das Einlegen einer Wärmedämmung.
+
+14.01 56A   Az Sturz/FT-Überlage f.Wärmedämmung                                                                                    m
+            Angepasst an die Werte der Wand.
+
+14.01 60    Putzausgleich für den Fenstereinbau vor den Putzarbeiten.
+            Der Glattstrich ist im Einheitspreis einkalkuliert.
+            Leibungen nach Abbruch von Fenster- oder Türstöcken verputzen, ohne Unterschied des Putzes und des
+            Putzgrundes, einschließlich Ausmauern (z.B. Vorköpfe), Putzdicke dem Bestand angepasst.
+                 • Putzdicke: bis 3 cm
+
+14.01 60A   Putzausgleich Fenster                                                                                                  m
+            Breite (cm): ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+14.01 61    Leibungen nach Abbruch von Fenster- oder Türstöcken verputzen, ohne Unterschied des Putzes und des
+            Putzgrundes, einschließlich Ausmauern (z.B. Vorköpfe), Putzdicke dem Bestand angepasst.
+            Im Positionsstichwort ist die Tiefe der Leibung (cm) angegeben.
+
+14.01 61A   Leibung verputzen b.15cm                                                                                               m
+
+14.01 61B   Leibung verputzen ü.15-30cm                                                                                            m
+
+14.01 61C   Leibung verputzen ü.30-45cm                                                                                            m
+
+14.01 61D   Leibung verputzen ü.45-60cm                                                                                            m
+14.03       Unterfangungen und Auswechslungen
+             Kommentar:
+             Stahlrahmen (Stützen und Träger) sind in der LG 32 (Konstruktiver Stahlbau beschrieben).
+             Frei zu formulieren (z.B.):
+             - das Vorspannen der Träger
+
+14.03 01    Unterfangung einer 15 cm dicken Zwischenwand, die über zwei Geschoße gemauert wurde. Vor dem Abbruch
+            (ist in eigener Position beschrieben) Einziehen von Nadeln (gegebenenfalls im Geschoß darüber), Einziehen
+            eines Stahlträgers unter der Decke oder im Deckenbereich, einschließlich Ausbilden der Auflager, Auskeilen
+            des Trägers (das Ummanteln des Trägers in eigener Position). Nach Fertigstellen der Unterfangung Nadeln
+                                                                                                                              Seite 8 / 30
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            entfernen, Durchbrüche schließen und Putz ergänzen.
+            Im Positionsstichwort ist die Dicke der Zwischenwand (cm) und die Zwischenwandlänge (m) angegeben.
+
+14.03 01A   Unterfangen Zwischenwand 15cm b.3m                                                                          Stk
+            LB-Version: 23               Geringfügig Geändert
+
+14.03 01B   Unterfangen Zwischenwand 15cm ü.3-5m                                                                        Stk
+            LB-Version: 23               Geringfügig Geändert
+
+14.03 01C   Unterfangen Zwischenwand 15cm ü.5-7m                                                                        Stk
+            LB-Version: 23               Geringfügig Geändert
+14.03 11    Pölzungen für Unterfangungen durch Einziehen von Stahlprofilen.
+            Gemessen in der lichten Weite der Unterfangung.
+            Im Positionsstichwort ist die abzufangende Nennlast (kN/m) angegeben.
+            Unterstellungshöhe bis 3,2 m.
+
+14.03 11A   Pölzung f.Unterfangung b.10kN/m b.3,2m                                                                      m
+
+14.03 11B   Pölzung f.Unterfangung ü.10-30kN/m b.3,2m                                                                   m
+14.03 12    Pölzungen für Unterfangungen (Unterf.) , durch Einziehen von Stahlprofilen. Gemessen in der lichten Weite der
+            Unterfangung.
+            Im Positionsstichwort ist die abzufangende Nennlast (kN/m) und die Unterstellungshöhe (m) angegeben.
+            Unterstellungshöhe über 3,2 m.
+
+14.03 12A   Pölzung f.Unterfangung b.10kN/m ü.3,2m:__________                                                           m
+
+14.03 12B   Pölzung f.Unterfangung ü.10-30kN/m ü.3,2m:__________                                                        m
+14.03 13    Decken unterstellen, einschließlich Einziehen eines Pfostens oder Kantholzes unter und/oder über den Stehern.
+            Im Positionsstichwort ist die abzufangende Nennlast (kN/m) angegeben.
+            Unterstellungshöhe bis 3,2 m.
+
+14.03 13A   Decke unterstellen b.10kN/m b.3,2m                                                                          m
+14.03 14    Decken unterstellen, einschließlich Einziehen eines Pfostens oder Kantholzes unter und/oder über den Stehern.
+            Im Positionsstichwort ist die abzufangende Nennlast (kN/M) und die Unterstellungshöhe (m) angegeben.
+            Unterstellungshöhe über 3,2 m.
+
+14.03 14A   Decke unterstellen ü.10-30kN/m ü.3,2m:__________                                                            m
+14.03 21    Auflager für Unterfangungen mit Stahlträgern, in Ziegelmauerwerk.
+            Ausstemmen der Auflager. Ausbilden des Auflagers mit Beton der Festigkeitsklasse C20/25 bis 20 cm dick,
+            Auflagertiefe bis 30 cm und Höhe bis 70 cm, Versetzen etwaiger beigestellter Stahlplatten, einschließlich
+            etwaiger Schalungen.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Mauerdicke (cm) angegeben.
+            Trägeroberkante bis 3,2 m.
+
+14.03 21A   Auflager Ziegelmauerwerk b.30cm b.3,2m                                                                      Stk
+            LB-Version: 23               Geringfügig Geändert
+
+14.03 21B   Auflager Ziegelmauerwerk ü.30-45cm b.3,2m                                                                   Stk
+            LB-Version: 23               Geringfügig Geändert
+
+14.03 21C   Auflager Ziegelmauerwerk ü.45-60cm b.3,2m                                                                   Stk
+            LB-Version: 23               Geringfügig Geändert
+14.03 22    Auflager für Unterfangungen mit Stahlträgern, in Ziegelmauerwerk.
+            Ausstemmen der Auflager. Ausbilden des Auflagers mit Beton der Festigkeitsklasse C20/25 bis 20 cm dick,
+            Auflagertiefe bis 30 cm und Höhe bis 70 cm, Versetzen etwaiger beigestellter Stahlplatten, einschließlich
+            etwaiger Schalungen.
+                                                                                                                   Seite 9 / 30
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Mauerdicke (cm) und die Trägeroberkante (m) angegeben.
+            Trägeroberkante über 3,2 m.
+
+14.03 22A   Auflager Ziegelmauerwerk b.30cm ü.3,2m:__________                                                           Stk
+            LB-Version: 23               Geringfügig Geändert
+
+14.03 22B   Auflager Ziegelmauerwerk ü.30-45cm ü.3,2m:__________                                                        Stk
+            LB-Version: 23               Geringfügig Geändert
+
+14.03 22C   Auflager Ziegelmauerwerk ü.45-60cm ü.3,2m:__________                                                        Stk
+            LB-Version: 23               Geringfügig Geändert
+14.03 23    Auflager für Unterfangungen mit Stahlträgern, in Mischmauerwerk.
+            Ausstemmen der Auflager, Ausbilden des Auflagers mit Beton der Festigkeitsklasse C20/25 bis 20 cm dick,
+            Auflagertiefe bis 30 cm und Höhe bis 70 cm, Versetzen etwaiger beigestellter Stahlplatten, einschließlich
+            etwaiger Schalungen.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Mauerdicke (cm) angegeben.
+            Trägeroberkante bis 3,2 m.
+
+14.03 23A   Auflager Mischmauerwerk b.30cm b.3,2m                                                                       Stk
+            LB-Version: 23               Geringfügig Geändert
+
+14.03 23B   Auflager Mischmauerwerk ü.30-45cm b.3,2m                                                                    Stk
+            LB-Version: 23               Geringfügig Geändert
+
+14.03 23C   Auflager Mischmauerwerk ü.45-60cm b.3,2m                                                                    Stk
+            LB-Version: 23               Geringfügig Geändert
+14.03 24    Auflager für Unterfangungen mit Stahlträgern, in Mischmauerwerk.
+            Ausstemmen der Auflager, Ausbilden des Auflagers mit Beton der Festigkeitsklasse C20/25 bis 20 cm dick,
+            Auflagertiefe bis 30 cm und Höhe bis 70 cm, Versetzen etwaiger beigestellter Stahlplatten, einschließlich
+            etwaiger Schalungen.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Mauerdicke (cm) und die Trägeroberkante (m) angegeben.
+            Trägeroberkante über 3,2 m.
+
+14.03 24A   Auflager Mischmauerwerk b.30cm ü.3,2m:__________                                                            Stk
+            LB-Version: 23               Geringfügig Geändert
+
+14.03 24B   Auflager Mischmauerwerk ü.30-45cm ü.3,2m:__________                                                         Stk
+            LB-Version: 23               Geringfügig Geändert
+
+14.03 24C   Auflager Mischmauerwerk ü.45-60cm ü.3,2m:__________                                                         Stk
+            LB-Version: 23               Geringfügig Geändert
+14.03 31    Schlitze im Mauerwerk (Mwk.) für das wechselseitige Einbauen der Träger bei Unterfangungsarbeiten (Unterf.),
+            abgerechnet je Seite (Auflager sind in eigenen Position beschrieben).
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Trägeroberkante bis 3,2 m.
+
+14.03 31A   Schlitze im Mwk.Unterf.b.0,05m2 b.3,2m                                                                      m
+            Bis zu einem Querschnitt von 0,05 m2 (z.B. 15 x 30 cm).
+
+            LB-Version: 23               Geringfügig Geändert
+
+14.03 31B   Schlitze im Mwk.Unterf.ü.0,05-0,08m2 b.3,2m                                                                 m
+                                                        2
+            Mit einem Querschnitt über 0,05 bis 0,08 m (z.B. 25 x 30 cm).
+            LB-Version: 23               Geringfügig Geändert
+
+                                                                                                                  Seite 10 / 30
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+14.03 31X   Schlitze im Mwk.Unterf.ü.0,08m2 b.3,2m                                                                       m
+                                                 2
+            Mit einem Querschnitt über 0,08 m .
+            Abmessungen: ____________
+            LB-Version: 23                 Geringfügig Geändert
+14.03 32    Schlitze im Mauerwerk (Mwk.) für das wechselseitige Einbauen der Träger bei Unterfangungsarbeiten (Unterf.),
+            abgerechnet je Seite (Auflager ist in eigener Position beschrieben).
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Trägeroberkante (m) angegeben.
+            Trägeroberkante über 3,2 m.
+
+14.03 32A   Schlitze im Mwk.Unterf.b.0,05m2 ü.3,2m:__________                                                            m
+                                                     2
+            Bis zu einem Querschnitt von 0,05 m (z.B. 15 x 30 cm).
+            LB-Version: 23                 Geringfügig Geändert
+
+14.03 32B   Schlitze im Mwk.Unterf.ü.0,05-0,08m2 ü.3,2:__________                                                        m
+                                                           2
+            Mit einem Querschnitt über 0,05 bis 0,08 m (z.B. 25 x 30 cm).
+            LB-Version: 23                 Geringfügig Geändert
+
+14.03 32X   Schlitze im Mwk.Unterf.ü.0,08m2 ü.3,2:__________                                                             m
+                                                 2
+            Mit einem Querschnitt über 0,08 m .
+            Abmessungen: ____________
+            LB-Version: 23                 Geringfügig Geändert
+14.03 41    Stahlkonsolen, einschließlich Rostschutzanstrich, als Auflager für Stahlträger, befestigt an die
+            Stahlbetonbauteile, einschließlich aller Bohrarbeiten und Befestigungsmittel oder Schweißarbeiten bei
+            vorhandenen Ankerplatten.
+            Im Positionsstichwort ist die Einzelmasse (kg) angegeben.
+            Trägeroberkante bis 3,2 m.
+
+14.03 41A   Stahlkonsolen mit Rostschutz b.10kg b.3,2m                                                                   Stk
+            Gemäß Skizzen und Statik: ____________
+
+14.03 41B   Stahlkonsolen mit Rostschutz ü.10-20kg b.3,2m                                                                Stk
+            Gemäß Skizzen und Statik: ____________
+
+14.03 42    Stahlkonsolen, einschließlich Rostschutzanstrich, als Auflager für Stahlträger, befestigt an die
+            Stahlbetonbauteile, einschließlich aller Bohrarbeiten und Befestigungsmittel oder Schweißarbeiten bei
+            vorhandenen Ankerplatten.
+            Im Positionsstichwort sind die Einzelmasse (kg) und die Trägeroberkante (m) angegeben.
+            Trägeroberkante über 3,2 m.
+
+14.03 42A   Stahlkonsolen mit Rostschutz b.10kg ü.3,2m:__________                                                        Stk
+            Gemäß Skizzen und Statik: ____________
+
+14.03 42B   Stahlkonsolen mit Rostschutz ü.10-20kg ü.3,2m:__________                                                     Stk
+            Gemäß Skizzen und Statik: ____________
+
+14.03 43    Stahlträger, einschließlich Rostschutzanstrich, auf vorbereitete Auflager.
+            Im Positionsstichwort ist die Einzelmasse (kg) angegeben.
+            Trägeroberkante bis 3,2 m.
+             Kommentar:
+             Stahlträger sind auch in der LG 09 (Versetzarbeiten) beschrieben.
+
+14.03 43A   Stahlträger b.100kg b.3,2m                                                                                   kg
+
+14.03 43B   Stahlträger ü.100-200kg b.3,2m                                                                               kg
+
+                                                                                                                   Seite 11 / 30
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+14.03 43C   Stahlträger ü.200-300kg b.3,2m                                                                               kg
+14.03 44    Stahlträger, einschließlich Rostschutzanstrich, auf vorbereitete Auflager.
+            Im Positionsstichwort sind die Einzelmasse (kg) und die Trägeroberkante (m) angegeben.
+            Trägeroberkante über 3,2 m.
+             Kommentar:
+             Stahlträger sind auch in der LG 09 (Versetzarbeiten) beschrieben.
+
+14.03 44A   Stahlträger b.100kg ü.3,2m:__________                                                                        kg
+
+14.03 44B   Stahlträger ü.100-200kg ü.3,2m:__________                                                                    kg
+
+14.03 44C   Stahlträger ü.200-300kg ü.3,2m:__________                                                                    kg
+14.03 45    Stahlstützen, einschließlich Rostschutzanstrich, in vorbereitete Köcherfundamente oder auf Betonsockel,
+            einschließlich aller Befestigungsarbeiten, abgerechnet je Stütze.
+            Im Positionsstichwort ist die Einzelmasse (kg) angegeben.
+
+14.03 45A   Stahlstütze b.100kg                                                                                          kg
+
+14.03 45B   Stahlstütze ü.100-200kg                                                                                      kg
+
+14.03 45C   Stahlstütze ü.200-300kg                                                                                      kg
+14.03 51    Auffüllen der Hohlräume zwischen den versetzten Stahlträgern mit Beton der Festigkeitsklasse C20/25.
+            Abgerechnet hohl für voll.
+            Trägeroberkante bis 3,2 m.
+
+14.03 51A   Auffüllen Hohlräume zw.Träger C20/25 b.3,2m                                                                  m³
+
+14.03 51B   Schalung f.Auffüllen Hohlräume zw.Träger b.3,2m                                                              m²
+            Untere oder seitliche Schalungen
+
+14.03 52    Auffüllen der Hohlräume zwischen den versetzten Stahlträgern mit Beton der Festigkeitsklasse C20/25.
+            Abgerechnet hohl für voll.
+            Im Positionsstichwort ist die Trägeroberkante (m) angegeben.
+            Trägeroberkante über 3,2 m.
+
+14.03 52A   Auffüllen Hohlräume zw.Träger C20/25 ü.3,2m:__________                                                       m³
+
+14.03 52B   Schalung f.Auffüllen Hohlräume zw.Trägerü.3,2m:__________                                                    m²
+            Untere oder seitliche Schalungen.
+
+14.03 61    Ausmauern des Freiraumes über den versetzten Unterfangungsträgern, einschließlich Auskeilen mit Stahlkeilen,
+            abgerechnet je Träger.
+            Im Positionsstichwort ist die Höhe des Freiraumes (cm) angegeben.
+            Trägeroberkante bis 3,2 m.
+
+14.03 61A   Ausmauern+Auskeilen ü.Träger b.15cm b.3,2m                                                                   m
+
+14.03 61B   Ausmauern+Auskeilen ü.Träger ü.15-30cm b.3,2m                                                                m
+14.03 62    Ausmauern (Ausm.) des Freiraumes über den versetzten Unterfangungsträgern, einschließlich Auskeilen
+            (Ausk.) mit Stahlkeilen, abgerechnet je Träger.
+            Im Positionsstichwort ist die Höhe des Freiraumes (cm) und die Trägeroberkante (m) angegeben.
+            Trägeroberkante über 3,2 m.
+
+14.03 62A   Ausmauern+Auskeilen ü.Träger b.15cm ü.3,2m:__________                                                        m
+
+14.03 62B   Ausmauern+Auskeilen ü.Träger ü.15-30cm ü.3,2m:__________                                                     m
+
+
+
+
+                                                                                                                   Seite 12 / 30
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+14.03 63    Ummanteln der gesamten sichtbaren Trägerfläche mit Drahtziegelgewebe, einschließlich verputzen mit
+            mindestens 5 cm Kalkzementmörtel.
+            Ohne Anforderung an den Feuerschutz.
+            Trägeroberkante bis 3,2 m.
+             Kommentar:
+             Ummanteln mit Anforderung an den Feuerschutz ist frei zu formulieren.
+
+14.03 63A   Ummanteln Träger ohne Feuerschutz b.3,2m                                                                      m²
+14.03 64    Ummanteln der gesamten sichtbaren Trägerfläche mit Drahtziegelgewebe, einschließlich verputzen mit
+            mindestens 5 cm Kalkzementmörtel.
+            Ohne Anforderung an den Feuerschutz.
+            Im Positionsstichwort ist die Trägeroberkante (m) angegeben.
+            Trägeroberkante über 3,2 m.
+             Kommentar:
+             Ummanteln mit Anforderung an den Feuerschutz ist frei zu formulieren.
+
+14.03 64A   Ummanteln Träger ohne Feuerschutz ü.3,2m:__________                                                           m²
+14.03 65    Schließen des Schlitzes über der neu eingebauten Beton- oder Fertigteildecke, ohne Unterschied der Höhe und
+            der Schlitztiefe.
+
+14.03 65A   Schlitze schließen ü.Decke b.5cm                                                                              m
+            Durch Ausmauern und Auskeilen oder Auswerfen mit Quellzementmörtel.
+
+14.03 65B   Schlitze schließen ü.Decke ü.5-10cm                                                                           m
+            Durch Ausmauern und Auskeilen.
+
+14.12       Sanierung von Dippelbaum-u.Tramdecken
+14.12 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+14.12 00A   Unterstellung f.HB-Verbunddecke/Tram
+            Art der Unterstellung bei Holz-Beton-Verbunddecken (HB) bei Tram.
+            Betrifft Positionen: ____________
+
+14.12 00B   Unterstellung f.HB-Verbunddecke/Dippelbaum
+            Art der Unterstellung bei Holz-Beton-Verbunddecken (HB) bei Dippelbaum.
+            Betrifft Positionen: ____________
+14.12 01    Deckenauflager freilegen.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+
+14.12 01A   Deckenauflager Dachboden Ziegel freilegen                                                                     m²
+            Ziegelpflaster im Dachboden vorsichtig abtragen, brauchbare Ziegel reinigen und zur Wiederverwendung
+            seitlich zwischenlagern, etwaiges Mörtelbett abbrechen.
+            LB-Version: 23                Geringfügig Geändert
+
+14.12 01B   Deckenauflager Platten freilegen                                                                              m²
+            Keramische Platten oder Steinplatten (Platten) vorsichtig abtragen, brauchbare Platten reinigen und zur
+            Wiederverwendung seitlich zwischenlagern, Mörtelbett abbrechen.
+            LB-Version: 23                Geringfügig Geändert
+
+14.12 01C   Deckenauflager Holzboden freilegen                                                                            m²
+            Bretter- oder Schiffboden (Holzboden), einschließlich der Polsterhölzer abtragen oder aufschneiden.
+
+            LB-Version: 23                Geringfügig Geändert
+14.12 02    Beschüttung im Bereich der Deckenauflager.
+
+14.12 02B   Beschüttung/Deckenauflager abräumen u.lagern                                                                  m³
+
+                                                                                                                    Seite 13 / 30
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Abräumen und zur Wiederverwendung seitlich zwischenlagern.
+
+14.12 02D   Beschüttung/Deckenauflager abbrechen                                                                        m³
+            Abbrechen.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            LB-Version: 23              Geringfügig Geändert
+14.12 03    Sturzschalung.
+
+14.12 03A   Sturzschalung/Deckenauflager abbrechen                                                                      m²
+            Im Deckenauflagerbereich (Aufl.) abbrechen.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            LB-Version: 23              Geringfügig Geändert
+14.12 04    Untersicht der Deckenauflager freilegen und Deckenputz einschließlich Putzträger abschlagen.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Breite (m) des Streifens angegeben.
+
+14.12 04A   Deckenauflager/Untersicht Putz abschlagen b.0,5m                                                            m
+            LB-Version: 23              Geringfügig Geändert
+
+14.12 04B   Deckenauflager/Untersicht Putz abschlagen ü.0,5m:__________                                                 m²
+            LB-Version: 23              Geringfügig Geändert
+14.12 05    Stukkaturschalung im Bereich der Deckenauflager abtragen.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Breite (m) des Streifens angegeben.
+
+14.12 05A   Deckenauflager/Stukkatursch.abtragen b.0,5m                                                                 m
+            LB-Version: 23              Geringfügig Geändert
+
+14.12 05B   Deckenauflager/Stukkatursch.ü.0,5m:__________                                                               m²
+            LB-Version: 23              Geringfügig Geändert
+14.12 09    Decken für die gesamte Dauer der Arbeiten pölzen und Pölzung wieder entfernen.
+            Auch für angeordnete Unterstellungen im darunterliegenden Geschoß.
+            Abgerechnet wird die Länge der gepölzten Auflager.
+            Ohne Stemm- und Nachputzarbeiten.
+
+14.12 09A   Pölzen der Decken                                                                                           m
+14.12 11    Schadhafte Tramköpfe durch Holzlaschen verstärken, einschließlich aller Befestigungen sowie der
+            Stemmarbeiten bei der Verbreiterung des Auflagers und Entfernen schadhafter Holzteile.
+
+14.12 11A   Tramkopflasche 1-seitig                                                                                     Stk
+                                                                            2
+            Laschenlänge bis 150 cm, einseitig, Holzquerschnitt bis 0,025 m .
+
+14.12 11B   Tramkopflasche 2-seitig                                                                                     Stk
+                                                                                     2
+            Laschenlänge bis 150 cm, beidseitig, Holzquerschnitt je Lasche bis 0,02 m .
+
+14.12 14    Aufhängen von einzelnen, im Auflagerbereich schadhaften Tram oder Dippelbäumen auf lastverteilende
+            Stahlprofile, einschließlich Befestigungsmaterial und Rostschutzanstrich.
+
+14.12 14A   Aufhängen Dippelbaum auf Stahlprofile                                                                       Stk
+            Dippelbaum.
+            Lastverteilende Stahlprofile: ____________
+
+14.12 14C   Aufhängen Tram auf Stahlprofile                                                                             kg
+            Tram.
+            Lastverteilende Stahlprofile: ____________
+
+
+                                                                                                                  Seite 14 / 30
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+14.12 16    Sturzboden im Deckenauflagerbereich wieder herstellen.
+
+14.12 16A   Sturzboden/Deckenauflager wieder herstellen                                                                m²
+14.12 17    Zwischengelagerte Beschüttung wieder einbringen und abgleichen.
+
+14.12 17B   Beschüttung (zwischengelagert) wieder einbringen                                                           m³
+14.12 18    Dachbodenpflaster im Deckenauflagerbereich mit vorhandenen Ziegeln wieder herstellen, Fugen mit
+            Zementmörtel ausgießen.
+
+14.12 18A   Dachbodenpflaster wieder herstellen 20% ergänzen                                                           m²
+            Fehlendes Material bis 20 Prozent des Bestandes ergänzen.
+
+14.12 20    Deckenputz im Deckenauflagerbereich, dem Altbestand angepasst, einschließlich Putzträger wieder herstellen,
+            ohne Verzierungen.
+            Im Positionsstichwort ist die Breite (m) angegeben.
+
+14.12 20A   Deckenauflager/Deckenputz b.0,5m                                                                           m
+
+14.12 20D   Deckenauflager/Deckenputz ü.0,5m:__________                                                                m²
+14.12 21    Wandverputz im Bereich der Deckensanierung, dem Altbestand angepasst, instandsetzen oder wieder
+            herstellen ohne Verzierungen.
+            Im Positionsstichwort ist die Breite (m) angegeben.
+
+14.12 21A   Deckenauflager/Wandputz b.0,5m                                                                             m
+14.12 31    Einzelnen Dippelbaum auslösen und zum Wiederverwenden zwischenlagern, bis höchstens drei Stück
+            nebeneinander, ohne Pölzung.
+            Im Positionsstichwort ist die Länge (m) angegeben.
+
+14.12 31A   Dippelbaum einzeln auslösen+zwischenlagern b.4m                                                            Stk
+
+14.12 31B   Dippelbaum einzeln auslösen+zwischenlagern ü.4-6,5m                                                        Stk
+
+14.12 31C   Dippelbaum einzeln auslösen+zwischenlagern ü.6,5-8m                                                        Stk
+14.12 41    Einzelnen Dippelbaum, zum Wiederverwenden zwischengelagert, wieder einbauen.
+            Im Positionsstichwort ist die Länge (m) angegeben.
+
+14.12 41A   Dippelbaum einzeln wieder einbauen b.4m                                                                    Stk
+
+14.12 41B   Dippelbaum einzeln wieder einbauen ü.4-6,5m                                                                Stk
+
+14.12 41C   Dippelbaum einzeln wieder einbauen ü.6,5-8m                                                                Stk
+14.12 51    Holz-Beton-Verbunddecke (HB) auf Tram, verschraubt.
+                • unterstellungsfrei
+            Trennlagen sind im Einheitspreis einkalkuliert.
+            Auflagerschlitze sind in eigenen Positionen beschrieben.
+            Statische und bauphysikalische Berechnungen werden vom AG erstellt.
+
+14.12 51A   Beton f.HB-Verbunddecke/Tram unterstellungsfrei                                                            m³
+            Beton C25/30.
+
+            LB-Version: 23               Geringfügig Geändert
+
+14.12 51S   Schrauben f.HB-Verbunddecke/Tram unterstellungsfrei                                                        Stk
+            Schrauben zur Schubsicherung gemäß statischer Berechnungen.
+
+            LB-Version: 23               Geringfügig Geändert
+
+14.12 51V   Bew.Stabst.f.HB-Verbunddecke/Tram unterstellungsfrei                                                       kg
+            Bewehrung mit Stabstahl.
+
+            LB-Version: 23               Geringfügig Geändert
+
+
+                                                                                                                 Seite 15 / 30
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+14.12 51W   Bew.Matten f.HB-Verbunddecke/Tram unterstellungsfrei                                                        kg
+            Bewehrung mit Matten.
+
+            LB-Version: 23               Geringfügig Geändert
+14.12 53    Holz-Beton-Verbunddecke (HB) auf Tram, verschraubt.
+                • unterstellt
+            Trennlagen und Unterstellungen sind im Einheitspreis einkalkuliert.
+            Auflagerschlitze sind in eigenen Positionen beschrieben.
+            Statische und bauphysikalische Berechnungen werden vom AG erstellt.
+
+14.12 53A   Beton f.HB-Verbunddecke/Tram                                                                                m³
+            Beton C25/30.
+
+            LB-Version: 23               Geringfügig Geändert
+
+14.12 53S   Schrauben f.HB-Verbunddecke/Tram                                                                            Stk
+            Schrauben zur Schubsicherung gemäß statischer Berechnungen.
+
+            LB-Version: 23               Geringfügig Geändert
+
+14.12 53V   Bew.Stabst.f.HB-Verbunddecke/Tram                                                                           kg
+            Bewehrung mit Stabstahl.
+
+            LB-Version: 23               Geringfügig Geändert
+
+14.12 53W   Bew.Matten f.HB-Verbunddecke/Tram                                                                           kg
+            Bewehrung mit Matten.
+
+            LB-Version: 23               Geringfügig Geändert
+14.12 55    Holz-Beton-Verbunddecke (HB) auf Tram, verschraubt.
+                • aufgehängt
+            Trennlagen sind im Einheitspreis einkalkuliert.
+            Auflagerschlitze und die Art der Aufhängung sind in eigenen Positionen beschrieben.
+            Statische und bauphysikalische Berechnungen werden vom AG erstellt.
+
+14.12 55A   Beton f.HB-Verbunddecke/Tram aufgehängt                                                                     m³
+            Beton C25/30.
+
+            LB-Version: 23               Geringfügig Geändert
+
+14.12 55S   Schrauben f.HB-Verbunddecke/Tram aufgehängt                                                                 Stk
+            Schrauben zur Schubsicherung gemäß statischer Berechnungen.
+
+            LB-Version: 23               Geringfügig Geändert
+
+14.12 55V   Bew.Stabst.f.HB-Verbunddecke/Tram aufgehängt                                                                kg
+            Bewehrung mit Stabstahl.
+
+            LB-Version: 23               Geringfügig Geändert
+
+14.12 55W   Bew.Matten f.HB-Verbunddecke/Tram aufgehängt                                                                kg
+            Bewehrung mit Matten.
+
+            LB-Version: 23               Geringfügig Geändert
+14.12 61    Holz-Beton-Verbunddecke (HB) auf Dippelbaum, verschraubt.
+                • unterstellungsfrei
+            Auflagerschlitze sind in eigenen Positionen beschrieben.
+
+14.12 61A   Beton f.HB-Verbunddecke/Dippelbaum unterstellungsfrei                                                       m³
+            Beton C25/30.
+
+14.12 61S   Schrauben f.HB-Verbunddecke/Dippelbaum unterstellungsfrei                                                   Stk
+
+                                                                                                                  Seite 16 / 30
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Schrauben zur Schubsicherung gemäß statischer Berechnungen.
+
+14.12 61V   Bew.Stabst.f.HB-Verbunddecke/Dippelbaum unterstellungsfrei                                                  kg
+            Bewehrung mit Stabstahl.
+
+14.12 61W   Bew.Matten f.HB-Verbunddecke/Dippelbaum unterstellungsfrei                                                  kg
+            Bewehrung mit Matten.
+
+14.12 63    Holz-Beton-Verbunddecke (HB) auf Dippelbaum, verschraubt.
+                • unterstellt
+            Trennlagen und Unterstellungen sind im Einheitspreis einkalkuliert.
+            Auflagerschlitze sind in eigenen Positionen beschrieben.
+            Statische und bauphysikalische Berechnungen werden vom AG erstellt.
+
+14.12 63A   Beton f.HB-Verbunddecke/Dippelbaum                                                                          m³
+            Beton C25/30.
+
+            LB-Version: 23              Geringfügig Geändert
+
+14.12 63S   Schrauben f.HB-Verbunddecke/Dippelbaum                                                                      Stk
+            Schrauben zur Schubsicherung gemäß statischer Berechnungen.
+
+            LB-Version: 23              Geringfügig Geändert
+
+14.12 63V   Bew.Stabst.f.HB-Verbunddecke/Dippelbaum                                                                     kg
+            Bewehrung mit Stabstahl.
+
+            LB-Version: 23              Geringfügig Geändert
+
+14.12 63W   Bew.Matten f.HB-Verbunddecke/Dippelbaum                                                                     kg
+            Bewehrung mit Matten.
+
+            LB-Version: 23              Geringfügig Geändert
+14.12 65    Holz-Beton-Verbunddecke (HB) auf Dippelbaum, verschraubt.
+                • aufgehängt
+            Trennlagen und Aufhängungen sind im Einheitspreis einkalkuliert.
+            Auflagerschlitze und die Art der Aufhängung sind in eigenen Positionen beschrieben.
+            Statische und bauphysikalische Berechnungen werden vom AG erstellt.
+
+14.12 65A   Beton f.HB-Verbunddecke/Dippelbaum aufgehängt                                                               m³
+            Beton C25/30.
+
+            LB-Version: 23              Geringfügig Geändert
+
+14.12 65S   Schrauben f.HB-VerbunddeckeDippelbaum aufgehängt                                                            Stk
+            Schrauben zur Schubsicherung gemäß statischer Berechnungen.
+
+            LB-Version: 23              Geringfügig Geändert
+
+14.12 65V   Bew.Stabst.f.HB-Verbunddecke/Dippelbaum aufgehängt                                                          kg
+            Bewehrung mit Stabstahl.
+
+            LB-Version: 23              Geringfügig Geändert
+
+14.12 65W   Bew.Matten f.HB-Verbunddecke/Dippelbaum aufgehängt                                                          kg
+            Bewehrung mit Matten.
+
+            LB-Version: 23              Geringfügig Geändert
+14.12 71    Aufzahlung (Az) auf Holz-Beton-Verbunddecke (HB) auf Tram.
+
+14.12 71A   Az f.Beton f.HB-Verbunddecke/Tram                                                                           m³
+            Auf Beton C25/30 für eine höhere Betonfestigkeitklasse: ____________
+            Betrifft Position(en):____________
+
+                                                                                                                  Seite 17 / 30
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+
+14.12 71B   Az f.Beton f.HB-Verbunddecke/Dippelbaum                                                                           m³
+            Auf Beton C25/30 für eine höhere Betonfestigkeitklasse: ____________
+            Betrifft Position(en):____________
+
+14.13       Arbeiten an Gebäuden unter Denkmalschutz
+
+
+            Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - das Abladen, Zwischenlagern und Hochfördern der Fertigteile
+            - alle Sicherungsarbeiten
+             Kommentar:
+             In dieser Unterleistungsgruppe werden Leistungen beschrieben, die von einer Denkmalschutzbehörde gesondert angeordnet
+             oder gefördert werden.
+
+14.13 01    Fassadengliederungen, Bildhauerarbeiten und Ornamente (Fassadengliederungen) vorsichtig auslösen und
+            abseilen, auf LKW verladen, gegen Beschädigung sichern und in eine Werkstätte abtransportieren, bis zu einer
+            Entfernung von 20 km, einschließlich Abladen.
+            Im Positionsstichwort ist die Stückmasse (kg) angegeben.
+
+14.13 01A   Fassadengliederung auslösen+Transport b.10kg                                                                      kg
+
+14.13 01B   Fassadengliederung auslösen+Transport ü.10-50kg                                                                   kg
+
+14.13 01C   Fassadengliederung auslösen+Transport ü.50-100kg                                                                  kg
+
+14.13 01D   Fassadengliederung auslösen+Transport__________                                                                   kg
+14.13 02    Fassadengliederungen, Bildhauerarbeiten und Ornamente (Fassadengliederungen) vom Auftraggeber
+            beigestellt, versetzen und entsprechend verankern, einschließlich Vorbereiten des Untergrundes, Ausgießen der
+            Montageöffnung und Angleichen der Teile an die angrenzenden Zierglieder, Fassadenteile oder an den Verputz.
+            Im Positionsstichwort ist die Stückmasse (kg) angegeben.
+
+14.13 02A   Fassadengliederung versetzen/verankern b.10kg                                                                     kg
+
+14.13 02B   Fassadengliederung versetzen/verankern ü.10-50kg                                                                  kg
+
+14.13 02C   Fassadengliederung versetzen/verankern ü.50-100kg                                                                 kg
+
+14.13 02D   Fassadengliederung versetzen/verankern__________                                                                  kg
+14.22       Instandsetzen von gemauerten Fängen
+
+
+            1. Wanddicken:
+            Angegebene Wanddicken gelten ohne Verputz.
+            2. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            Die Dachdeckung wird gegen Beschädigung geschützt. Rinnenläufe und untere Fangabschnitte werden vor
+            Verstopfung durch herabfallenden Schutt gesichert.
+            Das Entsorgen der Baurestmassen ist in die Einheitspreise einkalkuliert.
+            3. Ausmaß- und Abrechnungsregeln:
+            Die Angaben des Durchmessers beziehen sich auf die lichte Weite.
+             Kommentar:
+             Frei zu formulieren sind (z.B.)
+                 • Mündungsverschlusssteine
+                 • Das Herstellen einer Reinigungsöffnung
+                 • Fangmündungen mit Abdeckungen
+
+            LB-Version: 23                     Geringfügig Geändert
+
+
+                                                                                                                        Seite 18 / 30
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+14.22 01    Abschlagen von Putz, ohne Unterschied der Art des Putzes, größte Verputzdicke 40 mm, vorhandene Fugen
+            auskratzen, Untergrund reinigen.
+
+14.22 01A   Abschlagen Putz Fangkopfmauerwerk                                                                              m²
+            Von Fangkopfmauerwerk.
+
+14.22 01B   Abschlagen Putz Fangmauerwerk unter Dach                                                                       m²
+            Von Fangmauerwerk unter Dach.
+
+14.22 02    Abbrechen von Fangaufsätzen und Mündungsrohren bis zu einer Innenlichte von 400 cm2 (ausgenommen aus
+            Asbest).
+
+14.22 02A   Abbrechen Fangaufsatz b.0,5m                                                                                   Stk
+            Aus Materialien, ausgenommen Metall, bis zu einer Länge über dem Fang von 0,5 m.
+
+14.22 02B   Abbrechen Fangaufsatz Metall b.0,5m                                                                            Stk
+            Aus Metall, bis zu einer Länge über dem Fang von 0,5 m.
+
+14.22 11    Fangabdeckplatte, für Fangkopfmauerwerk (Fangkopf), mit Wassernase, die Oberseite im Gefälle abgezogen
+            und fein verrieben, einschließlich Schalung und Randbewehrung aus Ortbeton, Mindestbetongüte C16/20,
+            einschließlich Ausbilden der Dehnfugen in Abständen von höchstens 3 m und dem wasserundurchlässigem
+            Verfugen mit einer elastischen Verfugungsmasse.
+            Dicke Fangabdeckplatte: mindestens 7,5 cm dick
+
+14.22 11A   Fangkopf Abdeckplatte Ortbeton 12cm                                                                            m²
+            Vorsprung 12 cm.
+
+14.22 11B   Fangkopf Abdeckplatte Ortbeton 15cm                                                                            m²
+            Vorsprung 15 cm.
+
+14.22 12    Fertigteilfangabdeckplatte, für Fangkopfmauerwerk (Fangkopf), Mindestbetongüte C16/20, einschließlich
+            Bewehrung, Oberfläche mit Gefälle nach außen geglättet, mit Wassernase, einschließlich
+            wasserundurchlässiger Fugenausbildung bei aneinander gereihten Platten.
+
+14.22 12A   Fangkopf Fertigteilabdeckplatte 1-zügig                                                                        Stk
+            Für einzügigen Fang.
+
+14.22 12B   Fangkopf Fertigteilabdeckplatte 2-zügig                                                                        Stk
+            Für zweizügigen Fang.
+
+14.22 12C   Az Fangkopf Fertigteilabdeckplatte f.weiteren Zug                                                              Stk
+            Aufzahlung (Az) auf Abdeckplatten mit zwei Zügen, für jeden weiteren Zug.
+
+14.22 21    Fangkopfmauerwerk (Fangkopf).
+
+14.22 21A   Fangkopf m.Mauerziegel-NF                                                                                      m³
+            Mit NF-Mauerziegeln 25 x 12 x 6,5 cm.
+
+14.22 21B   Fangkopf m.Mauerziegel-ÖF                                                                                      m³
+            Mit gebrauchten oder neuen ÖF-Mauerziegeln 30 x 15 x 6,5 cm.
+
+14.22 21C   Fangkopf m.Kleinlochklinkerziegel                                                                              m³
+            Mit Kleinloch-Klinkerziegeln NF 25 x 12 x 6,5 cm, Lochanteil 15 Prozent, Teilsteine geschnitten, verfugt mit
+            kantenbündiger Hohlkehle.
+
+14.22 21D   Fangkopf m.Betonstein NF                                                                                       m³
+            Mit Betonnormalformatsteinen.
+
+14.22 31    Putz Fangkopfmauerwerk mit Kalkzementputz, Oberfläche verrieben.
+
+14.22 31A   Putz Fangkopfmauerwerk einlagig                                                                                m²
+            Einlagig.
+
+
+                                                                                                                     Seite 19 / 30
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+
+14.22 31B   Putz Fangkopfmauerwerk zweilagig                                                                        m²
+            Zweilagig.
+
+14.22 31C   Az Putz Fangkopfmauerwerk f.Gesimse b.10cm                                                              m²
+            Aufzahlung (Az) für Gesimse bis 10 cm breit, einfach profiliert.
+
+14.22 32    Putz Fangmauerwerk im Dachbodenbereich mit Kalkzementputz, Oberfläche verrieben.
+
+14.22 32A   Putz Fangmauerwerk Dachbodenbereich einlagig                                                            m²
+            Einlagig.
+
+14.22 32B   Putz Fangmauerwerk Dachbodenbereich zweilagig                                                           m²
+            Zweilagig.
+
+14.22 41    Wärmedämmverbundsystem (WDVS) für Fänge, einschließlich Fangkopf, einschließlich Endbeschichtung mit
+            Dünnputz.
+                • mit Steinwolleputzträgerplatten
+            Im Positionsstichwort ist die Dicke der Dämmplatten (cm) angegeben.
+
+14.22 41A   WDVS 5cm Fang/Fangkopf+Dünnputz                                                                         m²
+
+14.22 41B   WDVS 8cm Fang/Fangkopf+Dünnputz                                                                         m²
+14.22 51    Fangköpfe aus Sichtmauerwerk, ohne Unterschied der Größe und Lage, instandsetzen.
+            Losen Fugenmörtel entfernen, Fugen verbrämen, Sichtflächen des ganzen Fangkopfes reinigen.
+            Abgerechnet die abgewickelte Ansichtsfläche.
+            Im Positionsstichwort ist der Schadensgrad angegeben.
+            Eine etwaige Abdeckplatte ist in einer eigenen Position zu beschreiben.
+
+14.22 51A   Instandsetzen Fangkopf Sichtmauerwerk b.25%                                                             m²
+
+14.22 51B   Instandsetzen Fangkopf Sichtmauerwerk ü.25-50%                                                          m²
+14.22 52    Verputztes Fangmauerwerk, ohne Unterschied der Größe, der Lage und des Beschädigungsgrades,
+            instandsetzen.
+            Losen Putz abschlagen, Fugenmörtel auskratzen, fehlenden Putz dem Altbestand angepasst ergänzen.
+            Abgerechnet die abgewickelte Ansichtsfläche.
+            Im Positionsstichwort ist der Schadensgrad angegeben.
+             Kommentar:
+             Eine etwaige Abdeckplatte ist in einer eigenen Position zu beschreiben.
+
+14.22 52A   Instandsetzen Fangmauerwerk verputzt b.25%                                                              m²
+
+14.22 52B   Instandsetzen Fangmauerwerk verputzt 25-50%                                                             m²
+
+14.22 52C   Instandsetzen Fangmauerwerk Dachbodenbereich b.25%                                                      m²
+            Im Dachbodenbereich.
+
+14.22 52D   Instandsetzen Fangmauerwerk Dachbodenbereich 25-50%                                                     m²
+            Im Dachbodenbereich.
+
+14.22 54    Mündungsverlängerung mit offener Mündung und größter Höhe von 1 m über Fangmündung, wärmegedämmt
+            mit Innenrohr aus nicht rostendem Stahl (Edelstahl), Wärmedämmung mindestens 30 mm dick.
+            Im Positionsstichwort ist der Durchmesser (D) angegeben.
+
+14.22 54A   Mündungsverlängerung Edelst./Edelst.b.150mm                                                             Stk
+            Außenrohr aus nicht rostendem Stahl (Edelstahl).
+            Werkstoffnummer: ____________
+
+14.22 54B   Mündungsverlängerung Edelst./Edelst.ü.150-200mm                                                         Stk
+
+
+                                                                                                              Seite 20 / 30
+                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+            Außenrohr aus nicht rostendem Stahl (Edelstahl).
+            Werkstoffnummer: ____________
+
+14.22 54C   Mündungsverlängerung Edelst./Alu b.150mm                                                                         Stk
+            Außenrohr aus Aluminium.
+            Werkstoffnummer bei Edelstahl: ____________
+
+14.22 54D   Mündungsverlängerung Edelst./Alu ü.150-200mm                                                                     Stk
+            Außenrohr aus Aluminium.
+            Werkstoffnummer bei Edelstahl: ____________
+14.22 55    Erneuern von Reinigungs-, Kehr- oder Lüftungstürchen.
+            Alte Fangtürchen abbrechen, neue liefern und versetzen, einschließlich Einputzarbeiten bis 0,2 m2.
+            Im Positionsstichwort ist der Durchmesser (D) angegeben.
+
+14.22 55A   Erneuern Fangtür St.Blech b.140mm                                                                                Stk
+            Neues Türchen aus Stahlblech Gruppe I rostgeschützt.
+
+14.22 55B   Erneuern Fangtür St.Blech ü.140-200mm                                                                            Stk
+            Neues Türchen aus Stahlblech Gruppe II rostgeschützt.
+
+14.22 55C   Erneuern Fangtür St.Blech m.Dichtung b.140mm                                                                     Stk
+            Neues Türchen aus Stahlblech Gruppe I rostgeschützt mit Dichtung.
+
+14.22 55D   Erneuern Fangtür St.Blech m.Dichtung ü.140-200mm                                                                 Stk
+            Neues Türchen aus Stahlblech Gruppe II rostgeschützt mit Dichtung.
+
+14.22 55E   Erneuern Fangtür Edelst.m.Dichtung b.140mm                                                                       Stk
+            Neues Türchen aus nicht rostendem Stahl, Gruppe I mit Dichtung.
+
+14.22 55F   Erneuern Fangtür Edelst.m.Dichtung ü.140-200mm                                                                   Stk
+            Neues Türchen aus nicht rostendem Stahl, Gruppe II mit Dichtung.
+             Kommentar:
+             Unterschieden wird nach Gruppe I (Durchmesser bis 140 mm) und Gruppe II (Durchmesser über 140 bis 200 mm).
+
+14.22 56    Erneuern von Anschlussbüchsen.
+            Alte Anschlüsse ausbrechen und neue Anschlussbüchsen liefern und versetzen, einschließlich Einputzarbeiten
+            bis 0,2 m2.
+            Im Positionsstichwort ist der Durchmesser (D) angegeben.
+
+14.22 56A   Erneuern Anschlussbüchse b.150mm                                                                                 Stk
+
+14.22 56B   Erneuern Anschlussbüchse ü.150-200mm                                                                             Stk
+14.22 57    Fangputztürchen ausbrechen, die entstandene Öffnung abmauern und den fehlenden Putz bis 0,2 m2 ergänzen.
+            Im Positionsstichwort ist der Durchmesser (D) angegeben.
+
+14.22 57A   Fangputztür ausbrechen/vermauern/verputzen b.200mm                                                               Stk
+14.22 58    Anschlussbüchse (Mauerstutzen) ausbrechen, die entstandene Öffnung zumauern und den fehlenden Verputz
+            bis 0,2 m2 ergänzen.
+            Im Positionsstichwort ist der Durchmesser (D) angegeben.
+
+14.22 58A   Anschlussbüchse ausbrechen/zumauern b.300mm                                                                      Stk
+14.22 59    Fangöffnungen zum Setzen von Türchen und Stutzen herstellen, einschließlich der Absicherungsarbeiten, um
+            eine Verstopfung des Fanges durch herabfallenden Bauschutt zu vermeiden.
+            Im Positionsstichwort ist die Wangendicke (cm) angegeben
+             Kommentar:
+             Fangputztürchen und Anschlussbüchse sind in eigenen Positionen auszuschreiben.
+
+
+                                                                                                                       Seite 21 / 30
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+14.22 59A   Fangöffnung f.Türchen/Büchse b.15cm                                                                           Stk
+
+14.22 59B   Fangöffnung f.Türchen/Büchse 15-25cm                                                                          Stk
+14.22 99    Fangaufsätze und Mündungsohre bis zu einer Innenlichte von 400 cm2.
+
+14.22 99A   Mündungsrohr b.25cm                                                                                           Stk
+            Mündungsrohr bis 25 cm hoch, mit glatter Mündung.
+
+14.22 99B   Mündungsrohr b.25cm+Aufsatz                                                                                   Stk
+            Mündungsohr bis 25 cm hoch, mit Lamellen- oder Scheibenaufsatz und Fangaufsatz.
+
+14.23       Instandsetzen von Fängen m.Innenabdichtung
+
+
+            Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • ein etwaiges Zwischenlagern
+                • behördliche Vorschreibungen betreffend Schallschutz, Staubschutz (werden vom Auftragnehmer vor der
+                  Angebotslegung erkundet)
+                • die Wiederinstandsetzung der vom Auftraggeber für die Zwischenlagerung von Abbruchmaterial
+                  beigestellten Flächen nach Beendigung der Bauarbeiten
+                • Gebühren und Abgaben
+                • Organisation (Förderart und Förderweg)
+                • das Trennen und Ausscheiden von Massen, die nicht, beschränkt, oder zur weiteren Verwertung
+                  verwendbar sind
+                • das Entsorgen von anfallenden Baurestmassen (z.B. Abtragmaterial beim Reinigen, Auslösen und
+                  Versetzen)
+            LB-Version: 23               Geringfügig Geändert
+14.23 01    Zu- und Abtransport der Baustelleneinrichtung für Innenabdichtungsarbeiten bei Fängen, einschließlich des
+            Vorhaltens und einmaligen Transportes zum Einsatzort auf dem Dach oder im Dachboden sowie des einmaligen
+            Heruntertransportes.
+
+14.23 01A   Baustelleneinrichtung f.Fang-Innenabdichtungen                                                                PA
+14.23 02    Umsetzen der Einrichtungen für Fang-Innenabdichtungsarbeiten auf der Baustelle.
+
+14.23 02A   Umsetzen d. Einrichtungen f.Fang-Innenabdichtungen                                                            Stk
+            Transport vom Dach oder Dachboden auf das Straßen- oder Hofniveau und Wiedertransport auf ein Dach oder
+            den Dachboden.
+            Ohne Unterschied der Geschoße.
+
+14.23 03    Aufzahlung (Az) auf Fang-Innenabdichtungsarbeiten nach Gesamtschleiflänge.
+
+14.23 03A   Az Fang-Innenabdichten f.Umsetzen Fangschleif-Einrichtung                                                     Stk
+            Für das Umsetzen der Fangschleif-Einrichtung von einem Fangkopf zum anderen, ohne Abtransport auf
+            Straßenniveau und Wiedertransport auf Dach oder Dachboden.
+14.23 05    Fang-Innenabdichtung (Fang schleifen) von Rauch-, Abgas- oder Lüftungsfängen.
+                • Untergrund reinigen und vorbehandeln
+                • mit Sondermörtel ausschleifen
+            Die Gesamtschleiflänge gilt jeweils für ein Stiegenhaus und wird in der Achse des Fanges von der Fangsohle
+            bis Oberkante des Fangkopfes gemessen. Bei rechteckigen Zügen wird die größere lichte Weite abgerechnet.
+            Abgerechnet wird die Summe der Einzellängen.
+            Im Positionsstichwort sind die größte Innenlichte und die Einzellänge angegeben.
+
+14.23 05A   Fang-Innenabd. li.Weite b.180mm/b.25m                                                                         m
+            LB-Version: 23               Geringfügig Geändert
+
+14.23 05B   Fang-Innenabd. li.Weite ü.180-250mm/b.25m                                                                     m
+            LB-Version: 23               Geringfügig Geändert
+
+
+                                                                                                                    Seite 22 / 30
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+14.23 05C   Fang-Innenabd. li.Weite b.180mm/ü.25-50m                                                                   m
+            LB-Version: 23             Geringfügig Geändert
+
+14.23 05D   Fang-Innenabd. li.Weite ü.180-250mm/ü.25-50m                                                               m
+            LB-Version: 23             Geringfügig Geändert
+14.23 10    Fangmängel (Verlegung/Verengung) mittels Schlagkugel, ohne Unterschied der Lage des Hindernisses im
+            Fang, beheben.
+                • lichte Weite bis 140 mm
+
+14.23 10A   Verlegung/Verengung b.140mm                                                                                Stk
+
+14.23 10B   Az Verlegung/Verengung f.Mauerarbeiten b.0,1m2                                                             Stk
+            Aufzahlung (Az) für Erschwernisse für Mauerarbeiten.
+                • aufstemmen der Wange
+                • beheben der Verengung/Verlegung
+                • wiedervermauern der Wange
+                • einschließlich verputzen
+            Größe der Öffnung (Stemmlöcher): bis 0,1 m2
+
+14.23 10C   Az Verlegung/Verengung f.Mauerarbeiten ü.0,1-0,25m2                                                        Stk
+            Aufzahlung (Az) für Erschwernisse für Mauerarbeiten.
+                • aufstemmen der Wange
+                • beheben der Verengung/Verlegung
+                • wiedervermauern der Wange
+                • einschließlich verputzen
+            Größe der Öffnung (Stemmlöcher): über 0,1 bis 0,25 m2
+
+14.23 11    Fangmängel (Verlegung/Verengung), ohne Unterschied der Lage des Hindernisses im Fang, beheben.
+            Aufstemmen der Wange, Verlegung/Verengung beseitigen, wiedervermauern und verputzen der Wange.
+                • lichte Weite über 140 bis 200 mm
+
+14.23 11B   Verlegung,Verengung ü.140-200mm b.0,1m2                                                                    Stk
+                                                         2
+            Größe der Öffnung (Stemmlöcher): bis 0,1 m
+
+14.23 11C   Verlegung,Verengung ü.140-200mm ü.0,1-0,25m2                                                               Stk
+                                                                   2
+            Größe der Öffnung (Stemmlöcher): über 0,1 bis 0,25 m
+
+14.23 12    Fangmängel (Zungenbrüche), einschließlich aller erforderlichen Stemm-, Vermauerungs- und Verputzarbeiten,
+            beheben
+
+14.23 12A   Zungenbrüche b.0,1m2                                                                                       Stk
+                                                         2
+            Größe der Öffnung (Stemmlöcher): bis 0,1 m
+
+14.23 12B   Zungenbrüche ü.0,1-0,25m2                                                                                  Stk
+                                                                   2
+            Größe der Öffnung (Stemmlöcher): über 0,1 bis 0,25 m
+
+14.23 13    Fangmängel (Fehleinmündungen) beheben, einschließlich aller erforderlichen Stemm-, Vermauerungs- und
+            Verputzarbeiten.
+
+14.23 13A   Fehleinmündungen beheben                                                                                   Stk
+            Größe bis 0,2 m2
+
+14.51       Nachtr.waagrechte Mwk.Abdichtung mechanisch
+
+
+            1. Beilagen:
+            Vor Beginn der Arbeiten übergibt der Auftragnehmer dem Auftraggeber detaillierte Beschreibungen des
+            angebotenen Systems, Prüfberichte und Referenzlisten.
+            2. Setzungsschäden:
+
+                                                                                                                 Seite 23 / 30
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+            Der Auftragnehmer haftet für alle Setzungsschäden mit Rissen über 0,5 mm Breite, die durch seine Arbeit am
+            Gebäude entstanden sind.
+            3. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            3.1 Leitungen:
+            Das Auffinden und Auslösen von im Mauerwerk vorhandenen Leitungen, die die Abdichtungsebene queren und
+            alle Erschwernisse für das Anarbeiten an im Mauerwerk verbleibenden Leitungen sind in die Einheitspreise
+            einkalkuliert.
+            3.2 Folgende Leistungen sind beim mechanischen Verfahren (ergänzend zu den Nebenleistungen gemäß
+            ÖNORM) in die Einheitspreise einkalkuliert:
+            - das Festlegen der Abdichtungsebene nach den örtlichen Gegebenheiten
+            - die Ermittlung der Abdichtungsfläche
+            - das Reinigen der Trennfuge (z.B. mit Metalllatten und Druckluft)
+            - das Herstellen von Anschlussmöglichkeiten von Flächen- und lotrechten Abdichtungen
+            - das Reinigen der Abdichtungsbahnen im Bereich von Anschlussstellen von Flächen- und lotrechten
+            Abdichtungen
+            - ein etwaiger Mörtelglattstrich über die gesamte Mauerdicke für ein sattes Aufliegen der Abdichtungsmaterialien
+            - eine Dokumentation
+            4. Ausmaß- und Abrechnungsregeln:
+            Abgerechnet wird die tatsächliche Abdichtungsfläche nach den Rohbauabmessungen (Mauerwerksdicke x
+            Länge).
+             Kommentar:
+             Injektionsarbeiten sind in der LG 80 beschrieben.
+             Der nachträglichen waagrechten Mauerwerksabdichtung ist eine Bauwerksdiagnose und ein Sanierungsplanung gemäß
+             ÖNORM B 3355 voranzustellen.
+             Es wird eine Beweissicherungen im Einvernehmen mit dem Auftragnehmer vor Beginn der Leistungen empfohlen.
+             Gutachten über statisch-konstruktive Beeinflussungen sind vor Beginn der Arbeiten zu erbringen und dem Auftragnehmer zu
+             übergeben.
+             Abbrucharbeiten (z.B. abschlagen Putz, reinigen von Wandflächen, Fugen auskratzen) sind in eigenen Leistungsgruppen
+             beschrieben.
+             Es wird eine längere Gewährleistungsfrist (Rügefrist), der Austrocknungszeit entsprechend, empfohlen (gemäß ÖNORM B
+             2202).
+             Literaturhinweis (z.B.):
+             - ÖNORM B 3355-1 Trockenlegung von feuchtem Mauerwerk - Bauwerksdiagnostik und Planungsgrundlagen
+             - ÖNORM B 2209 Bauwerksabdichtungen - Werkvertragsnorm
+             - ÖNORM B 2202 Arbeiten gegen aufsteigende Feuchtigkeit bei Trockenlegung von feuchtem Mauerwerk
+
+            LB-Version: 23                 Geringfügig Geändert
+14.51 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+14.51 00C   Einstufiges Verfahren zu 14.51
+            Betrifft Position(en): ____________
+            Einstufiges Verfahren mittels: ____________
+
+14.51 00D   Mehrstufiges Verfahren zu 14.51
+            Betrifft Position(en): ____________
+            Mehrstufiges Verfahren mittels: ____________
+
+14.51 00F   Musterarbeit zu 14.51
+            Betrifft Position(en): ____________
+            Musterarbeit im Ausmaß von 5 m2.
+
+14.51 01    Analyse und Messungen gemäß ÖNORM (Feuchtigkeits- und Schadsalzbelastung), hergestellt von einer Prüf-,
+            Überwachungs- und Zertifizierungsstelle, einem Ziviltechniker oder gerichtlich zertifizierten Sachverständigen.
+            Befunde einschließlich Zeichnung, aus der ersichtlich ist, wo die Proben entnommen wurden, werden dem
+            Auftraggeber übergeben.
+            Abgerechnet wird die Anzahl der entnommenen Baustoffproben.
+
+14.51 01A   Analyse vor Arbeitsbeginn zu 14.51                                                                                  Stk
+                                                                                                                          Seite 24 / 30
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Vor Durchführung der nachträglichen waagrechten Mauerwerksabdichtung.
+
+14.51 01B   Messung nach Fertigstellung zu 14.51                                                                          Stk
+            Feuchtigkeitsmessung nach Fertigstellung der nachträglichen waagrechten Mauerwerksabdichtung, auf
+            Anordnung des Auftraggebers zur Kontrolle oder Abnahme der Leistung.
+            Durchfeuchtungsgrad kleiner als: ____________
+
+14.51 21    Nachträgliche waagrechte Mauerwerksabdichtung (Mwk.Abd.) gegen aufsteigende Feuchtigkeit mittels
+            einstufigem Verfahren durch Einbringen von Metallplatten (z.B. Abdichtungsstahlplatten aus Edelstahl) in
+            durchgehende Lagerfugen.
+            Der Überstand der Bleche über das Mauerwerk (ohne Verputz) beträgt 1 bis 3 cm.
+            Im Positionsstichwort ist die Dicke (cm) des Mauerwerks angegeben.
+
+14.51 21A   Mwk.Abd.Ziegelmwk.+Edelstahl Pl.einstufig b.90cm                                                              m²
+            Bei Ziegelmauerwerk (Ziegelmwk.).
+            Werkstoffnummer Edelstahl: ____________
+14.51 31    Nachträgliche waagrechte Mauerwerksabdichtung gegen aufsteigende Feuchtigkeit mittels mehrstufigem
+            Verfahren.
+            Im 1. Schritt erfolgt die Trennung des Mauerwerks durch abschnittsweises Stemmen, Fräsen oder Sägen.
+            Im 2. Schritt erfolgt das Einlegen einer Sperrschicht (z.B. Bitumen-Abdichtungsbahnen).
+            Im 3. Schritt wird die Restfuge mit einem frühhochfestem Spritzmörtel im Spritz-/Druckverfahren ausgefüllt. Der
+            beidseitige Überstand der Abdichtungsbahnen beträgt mindestens 10 cm.
+            Im Positionsstichwort ist die Dicke (cm) des Mauerwerks angegeben.
+
+14.51 31A   Mwk.Abd.Ziegelmwk.mehrstufig b.100cm                                                                          m²
+            Bei Ziegelmauerwerk (Ziegelmwk.).
+
+14.51 31B   Mwk.Abd.Ziegelmwk.mehrstufig ü.100-300cm                                                                      m²
+            Bei Ziegelmauerwerk (Ziegelmwk.).
+
+14.51 31E   Mwk.Abd.Misch-/Stein.-mwk.mehrstufig b.100cm                                                                  m²
+            Bei Misch- oder Steinmauerwerk (Misch/St.mwk.).
+
+14.51 31F   Mwk.Abd.Misch-/Stein.-mwk.mehrstufig ü.100-300cm                                                              m²
+            Bei Misch- oder Steinmauerwerk (Misch/St.mwk.).
+
+14.51 33    Aufzahlung (Az) auf nachträgliche Mauerwerksabdichtung gegen aufsteigende Feuchtigkeit mittels
+            mehrstufigem Verfahren.
+
+14.51 33A   Az Mwk.Abd.mehrstufig f.Stahlblech                                                                            m²
+            Für die Verwendung von schubaufnahmefähigen, korrosionsbeständigen genoppten Stahlblechen, ohne
+            Unterschied der Mauerwerksart.
+14.51 81    Nachträgliche Mauerwerksentfeuchtung (Mwk-Entf.) bei Mauerwerk (Ziegel-, Misch- und Steinmauerwerk) über
+            20 bis 90 cm mittels Heizstab (H-stab)-Technik oberhalb der Abdichtungsebene auf einen Durchfeuchtungsgrad
+            des Mauerwerks unter 20 Prozent bei mechanischen (mech.) -Verfahren.
+            Pro m2 Ansichtsfläche sind 6 Stück Heizstäbe gesetzt (Raster ca. 40 x 40 cm).
+            Eine Vorhaltezeit von 10 (Kalender)Tagen ist im Einheitspreis einkalkuliert.
+            Abgerechnet wird die Ansichtsfläche.
+            Im Positionsstichwort ist die Dicke (cm) des Mauerwerks angegeben.
+
+14.51 81A   Mwk.Entf.mech.Mauerwerk H-stab ü.20-60cm                                                                      m²
+            LB-Version: 23               Geringfügig Geändert
+
+14.51 81B   Mwk.Entf.mech.Mauerwerk H-stab ü.60-90cm                                                                      m²
+            LB-Version: 23               Geringfügig Geändert
+14.51 83    Nachträgliche Mauerwerksentfeuchtung (Mwk-Entf.) bei Mauerwerk (Ziegel-, Misch- und Steinmauerwerk) über
+            20 bis 90 cm mittels Heizstab (H-stab)-Technik oberhalb der Abdichtungsebene auf einen Durchfeuchtungsgrad
+            des Mauerwerks unter 20 Prozent bei mechanischen (mech.) -Verfahren.
+            Pro m2 Ansichtsfläche sind 6 Stück Heizstäbe gesetzt (Raster ca. 40 x 40 cm).
+                                                                                                                    Seite 25 / 30
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+            Eine Vorhaltezeit von 10 (Kalender)Tagen ist im Einheitspreis einkalkuliert.
+            Abgerechnet wird die Ansichtsfläche.
+            Im Positionsstichwort ist die Dicke (cm) des Mauerwerks angegeben.
+
+14.51 83A   Az Mwk.Entf.mech.Mauerwerk H-stab ü.20-60cm                                                                      VE
+            Aufzahlung (Az) für das Vorhalten von Heizstäben, bei höherem Durchfeuchtungsgrad, über 10 (Kalender)Tage.
+            Abgerechnet wird in VE (VE = m2 x (Kalender)Tag)
+            LB-Version: 23               Geringfügig Geändert
+
+14.51 83B   Az Mwk.Entf.mech.Mauerwerk H-stab ü.60-90cm                                                                      VE
+            Aufzahlung (Az) für das Vorhalten von Heizstäben über 10 (Kalender)Tage.
+            Abgerechnet wird in VE (VE = m2 x (Kalender)Tag)
+            LB-Version: 23               Geringfügig Geändert
+
+14.80       Betoninstandsetzung
+
+
+            1. Richtlinien:
+            Es gelten die vom Österreichischem Betonverein (1040 Wien, Karlsgasse 5) herausgegebene Richtlinie zur
+            Erhaltung und Instandsetzung von Bauten aus Beton und Stahlbeton, Anwendung und Prüfverfahren, und die
+            Verarbeitungsrichtlinien des Systemerzeugers. Bei Widersprüchen zueinander oder zu den ÖNORMEN, wird der
+            Auftraggeber verständigt.
+            2. Produktsysteme:
+            Es werden nur aufeinander abgestimmte Produkte eines geprüften Sanierungssystems verwendet.
+            Prüfberichte einer Prüf-, Überwachungs- und Zertifizierungsstelle werden auf Anforderung dem Auftraggeber
+            vorgelegt.
+            Die Verarbeitungsrichtlinien des Systemerzeugers werden eingehalten. Diese werden spätestens vor Beginn der
+            Arbeiten dem Auftraggeber übergeben.
+            3. Festlegung der Schadstellen:
+            Vor Beginn der Sanierungsarbeiten werden die Schadstellen gemeinsam mit dem Auftraggeber festgestellt und
+            der Umfang der Arbeiten festgelegt und protokolliert. Etwaige Mehr- oder Mindermengen gegenüber den
+            ausgeschriebenen Mengen bewirken keine Einheitspreisänderung.
+            4. Normale Betonoberflächen:
+            Normal ist jede Betonoberfläche ohne mechanische oder chemische Nachbehandlung. Waschbeton gilt nicht
+            als normale Betonoberfläche.
+            5. Einkalkulierte Leistungen:
+            Folgende Leistungen sind beim mechanischen Verfahren (ergänzend zu den Nebenleistungen gemäß ÖNORM)
+            in die Einheitspreise einkalkuliert:
+            - das Verwenden eines Verdunstungsschutzmittels
+            - Prüfungen, die im Zuge der Leistungserbringung notwendig sind, um eine ordentliche Durchführung zu
+            gewährleisten
+            - etwaige Schalungen
+            - Musterflächen (auf Anordnung des Auftraggebers wird an geeigneten Stellen mit dem für die Instandsetzung
+            ausgewählten Sanierungssystem je Sanierungsart eine bis 0,5 m2 große Musterfläche im Beisein des
+            Auftraggebers angelegt)
+            6. Ausmaß- und Abrechnungsregeln:
+            Spätestens nach der Rostschutz-Beschichtung der Stahlbewehrung wird gemeinsam mit dem Auftraggeber die
+            Ausmaßfeststellung durchgeführt.
+            Im Zuge der Ausmaßfeststellung werden die Schadstellen einschließlich der freigelegten Bewehrung in ihrer
+            Lage maßlich dokumentiert.
+            Als Ausmaß der Bewehrung werden die Längen der sichtbar freigelegten Bewehrungsstähle ohne Unterschied
+            des Durchmessers verrechnet. Kreuzungspunkte werden durchgemessen.
+            Die aufgestemmten einzelnen Schadstellen werden in der Fläche nach tatsächlichem Ausmaß abgerechnet.
+             Kommentar:
+             Betonuntersuchungen:
+             Grundlagen eines Leistungsverzeichnisses sind die Ursachen und der Umfang der Betonschäden durch Augenschein und
+             Prüfungen. Diese können sein:
+             - Abklopfen der Schadstellen
+                                                                                                                       Seite 26 / 30
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+             - Aufnahme der Risse und Rissbreiten, welche die Sicherheit und/oder Standfestigkeit des Bauteiles beeinträchtigen
+             - Bestimmen der Lage der Bewehrung und Messen der Betondeckung
+             - Feststellen der Festigkeit des Betons aus Bohrkernen und eventuell mit Rückprallhammer
+             - Messen der Karbonatisierungstiefe
+             - Messen des Chloridgehaltes
+             - Messen der Abreißfestigkeit.
+             Frei zu formulieren (z.B.):
+             - Prüfungen vor Beginn der Arbeiten
+             - die Behandlung von Waschbeton und anderen mechanisch oder chemisch bearbeiteten Betonoberflächen
+             - Prüfungen mit Rückprallhammer
+             - Prüfung der Karbonatisierung
+             - Prüfung der geforderten Haftzugfestigkeit
+            LB-Version: 23                 Geringfügig Geändert
+14.80 02    Schutzeinhausung.
+
+14.80 02A   Schutzeinhausung Wasserstrahlen                                                                                       PA
+            Bei Arbeiten mittels Wasserstrahlen.
+            Betrifft Position(en): ____________
+
+14.80 02B   Schutzeinhausung Sandstrahlen                                                                                         PA
+            Bei Arbeiten mittels Sandstrahlen.
+            Betrifft Position(en): ____________
+14.80 06    Flächiges Abschremmen der geschädigten Betonteile bis auf den gesunden Betonkern, ohne die
+            Stahlbewehrung direkt mit dem Meisel zu treffen, um gesunde Stellen durch Erschütterungen nicht zu
+            beschädigen, ohne Unterschied der Betonoberfläche.
+            Die abgestemmten Flächen liegen an den Rändern mindestens 5 mm unter der anschließenden Oberfläche.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort sind die Tiefe im Mittel und die Größe der Einzelfläche angegeben.
+
+14.80 06A   Flächig abschremmen b.3cm b.0,05m2                                                                                    m²
+            LB-Version: 23                 Geringfügig Geändert
+
+14.80 06B   Flächig abschremmen b.3cm ü.0,05-0,25m2                                                                               m²
+            LB-Version: 23                 Geringfügig Geändert
+
+14.80 06C   Flächig abschremmen b.3cm ü.0,25-0,5m2                                                                                m²
+            LB-Version: 23                 Geringfügig Geändert
+
+14.80 06D   Flächig abschremmen b.3cm ü.0,5m2:__________                                                                          m²
+            LB-Version: 23                 Geringfügig Geändert
+
+14.80 06F   Flächig abschremmen ü.3-.5cm b.0,05m2                                                                                 m²
+            LB-Version: 23                 Geringfügig Geändert
+
+14.80 06G   Flächig abschremmen ü.3-5cm ü.0,05-0,25m2                                                                             m²
+            LB-Version: 23                 Geringfügig Geändert
+
+14.80 06H   Flächig abschremmen ü.3-5cm ü.0,25-0,5m2                                                                              m²
+            LB-Version: 23                 Geringfügig Geändert
+
+14.80 06I   Flächig abschremmen ü.3-5cm ü.0,5m2:__________                                                                        m²
+            LB-Version: 23                 Geringfügig Geändert
+14.80 07    Aufzahlung (Az) auf flächiges Abschrämmen.
+
+14.80 07A   Az Bewehrung f.Hinterstemmen Bewehrung                                                                                m
+            Für das Hinterstemmen der Bewehrung.
+
+            LB-Version: 23                 Geringfügig Geändert
+Änderung:   Stichwortkorrektur
+
+
+
+                                                                                                                            Seite 27 / 30
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+14.80 08    Begradigen der Anschlusskanten beim flächigen Abschrämmen, mindestens 1 cm tief.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Abgerechnet wird die Schnittlänge.
+
+14.80 08A   Anschlusskanten begradigen                                                                                   m
+            LB-Version: 23              Geringfügig Geändert
+14.80 09    Hochdruckwasserstrahlen von lotrechten, Überkopf- und Bodenflächen wobei Hochdruckpumpen mit bis zu
+            2000 bar größter Druckleistung und einem Wasserverbrauch von etwa 20 l/Minute je Werkzeug verwendet
+            werden.
+            Die Arbeitsdurchführung erfolgt mit rotierenden Düsen mit einem Arbeitsdruck von nicht mehr als 1000 bar, um
+            eine Abreißfestigkeit von mindestens 1,5 N/mm2 zu erreichen. In jedem Fall wird die Zementschlämme an der
+            Betonoberfläche abgetragen, wobei das Größtkorn zum überwiegenden Teil sichtbar wird.
+            Das Entsorgen der Baurestmassen und des Brauchwassers (gemäß den örtlich geltenden
+            Immissionsschutzbestimmungen) ist im Einheitspreis einkalkuliert.
+
+14.80 09A   Hochdruckwasserstrahlen                                                                                      m²
+            LB-Version: 23              Geringfügig Geändert
+14.80 10    Strahlen der Betonfläche einschließlich der freigelegten Schadflächen (z.B. Sandstrahlen, quarzfreies
+            Granulatstrahlen, aber nicht mit Stahlschrott). Abreißfestigkeit der behandelten Flächen mindestens 1,5 N/mm2.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+            Abgerechnet wird einschließlich der freigestemmten Wandflächen.
+
+14.80 10A   Strahlen normale Betonfläche                                                                                 m²
+            LB-Version: 23              Geringfügig Geändert
+14.80 11    Freiliegende Bewehrung entrosten und reinigen durch Abstrahlen.
+            Die Bewehrung wird nicht thermisch entrostet.
+
+14.80 11A   Bewehrung entrosten/abstrahlen SA2,5                                                                         m
+            Normreinheitsgrad: ____________
+
+14.80 12    Korrosionsschutz der gereinigten Bewehrung.
+            Wenn die Bewehrung nicht rundum freigelegt ist, wird der Betonanschlussbereich noch mindestens 2 cm mit
+            dem Rostschutzmittel eingelassen, einschließlich etwaigem systembedingten Abstreuen mit Quarzsand.
+
+14.80 12A   Korrosionsschutz Bewehrung zementgebunden                                                                    m
+            Mit zementgebundener, kunststoffmodifizierter Korrosionsschutzbeschichtung.
+
+14.80 12B   Korrosionsschutz Bewehrung Kunststoff                                                                        m
+            Mit Kunststoffkorrosionsschutzbeschichtung (Epoxiharz).
+
+14.80 14    Schadstellen säubern und schließen mit Reparaturmörtel, auffüttern und flächenbündig abziehen, einschließlich
+            einer systembedingten Haftbrücke. Wenn erforderlich werden mehrere Arbeitsgänge durchgeführt.
+            Im Positionsstichwort ist die Tiefe (cm) angeben.
+
+14.80 14A   Schadstelle b.3cm schließen                                                                                  m²
+            Bei normalen Betonoberflächen, Flächen auffüllen, einschließlich Wiederherstellen der Oberfläche in der Art des
+            Altbestandes (geglättet oder verrieben).
+
+14.80 14B   Schadstelle ü.3-5cm schließen                                                                                m²
+            Bei normalen Betonoberflächen, Flächen auffüllen, einschließlich Wiederherstellen der Oberfläche in der Art des
+            Altbestandes (geglättet oder verrieben).
+14.80 16    Reprofilieren durch Aufbringen eines Spritzmörtelüberzuges mindestens 2 cm dick, auf vorbereitetem
+            Untergrund (durch Strahlen und dergleichen), mit Pumpe in 1 bis 2 Arbeitsgängen.
+            Die Spritzmörtelflächen eben abziehen und zureiben.
+
+14.80 16A   Reprofilieren Spritzmörtel lotrecht                                                                          m²
+            Auf lotrechten Flächen.
+
+            LB-Version: 23              Geringfügig Geändert
+
+                                                                                                                   Seite 28 / 30
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+14.80 16B   Reprofilieren Spritzmörtel Untersicht/Stirnseite                                                           m²
+            Auf Untersichten und Stirnseiten von Balkonen.
+
+            LB-Version: 23               Geringfügig Geändert
+14.80 20    Überspachteln von Flächen mit einem kunstharzvergüteten, zementgebundenen Feinmörtel, einschließlich
+            Haftbrücke.
+            Im Positionsstichwort ist die Dicke angegeben.
+
+14.80 20A   Überspachteln vollflächig ü.3-5mm                                                                          m²
+            Vollflächig, von normalen, vorbehandelten Betonoberflächen.
+
+14.80 21    Aufzahlung (Az) auf Schadstellen instandsetzen.
+            Abgerechnet wird die Summe der Einzelflächen.
+
+14.80 21A   Az f.Stemmen+Reprofilieren Untersicht                                                                      m²
+            Für Stemm- und Reprofilierungsarbeiten an Untersichten, Stürzen und Stirnseiten von Balkonen.
+
+14.80 21B   Az f.Spachtelarbeiten Untersicht/Stirnseite                                                                m²
+            Für Spachtelarbeiten an Untersichten, Stürzen und Stirnseiten von Balkonen.
+
+14.80 22    Wieder herstellen von Außenkanten mit oder ohne Schalung.
+
+14.80 22A   Außenkanten wieder herstellen                                                                              m
+
+14.80 22B   Außenkanten wieder herstellen+Kantenschutzprofil                                                           m
+            Einschließlich Kantenschutzprofil.
+
+14.80 23    Wassernase wieder herstellen.
+
+14.80 23A   Wassernase nachprofilieren                                                                                 m
+            Durch Nachprofilieren (Nachziehen) der teilweise erhaltenen Wassernase.
+
+14.80 23B   Wassernase wieder herstellen+Profil                                                                        m
+            Mit einem Profil, dem Altbestand angepasst.
+
+14.80 25    Gesamte normale Betonoberfläche imprägnieren.
+
+14.80 25A   Betonfläche Imprägnieren                                                                                   m²
+14.80 26    Gespachtelte normale Betonoberfläche in mindestens zwei Arbeitsgängen deckend streichen oder rollen, als
+            karbonatisierungs- (CO2) bremsender Anstrich.
+
+14.80 26A   Versiegeln Acrylharz lösungsmittelfrei                                                                     m²
+            Mit Acrylharz lösungsmittelfrei.
+            Farbe: ____________
+
+14.80 26B   Versiegeln Acrylharz lösungsmittelhältig                                                                   m²
+            Mit Acrylharz lösungsmittelhältig.
+            Farbe: ____________
+
+14.80 26C   Versiegeln Acrylharz rissüberbrückend                                                                      m²
+            Mit Acrylharz rissüberbrückend.
+            Farbe: ____________
+14.80 28    Bauwerksfugen instandsetzen, einschließlich Entsorgen der Baurestmassen. Fugen öffnen einschließlich
+            Entfernen des alten Fugenstoffes und Reinigen der Fugenflanken. Polyethylenrundschnur einlegen,
+            vorbehandeln mit systementsprechendem Primer, auspressen mit elastischem Dichtstoff, Fugentiefe gemäß
+            NORM und die ausgefüllte Fuge nachbehandeln.
+            Dichtstoffe Standardfarbe.
+            Im Positionsstichwort ist die Fugenbreite (mm) angegeben.
+
+14.80 28A   Bauwerksfugen instands.Dichtstoff b.20mm                                                                   m
+            LB-Version: 23               Geringfügig Geändert
+
+                                                                                                                 Seite 29 / 30
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+14.80 28B   Bauwerksfugen instands.Dichtstoff ü.20-30mm                                                                 m
+            LB-Version: 23              Geringfügig Geändert
+14.80 29    Bauwerksfugen instandsetzen, einschließlich Entsorgen der Baurestmassen. Fugen öffnen, Entfernen des
+            Fugendichtstoffes und Reinigen der Fugenflanken. Einbauen von imprägnierten, offenzelligen,
+            vorkomprimierten, dampfdiffusionsoffenen und schlagregendichten Fugendichtbändern. Im Positionsstichwort ist
+            die Fugenbreite angegeben.
+
+14.80 29A   Bauwerksfugen instands.Dichtband b.10mm                                                                     m
+
+14.80 29B   Bauwerksfugen instands.Dichtband ü.10-20mm                                                                  m
+14.80 31    Sanieren von Rissen.
+            Im Positionsstichwort ist die Rissbreite (mm9 angegeben.
+
+14.80 31A   Risse sanieren-verpressen m.Injektionsharz b.3mm                                                            Stk
+            Mit Injektionsharz im Hochdruckverfahren. Bohrlöcher und Nippel anbringen, Risse auspressen, danach
+            verspachteln, einschließlich Reinigen der Oberfläche.
+            Abgerechnet wird die Anzahl der eingebohrten Nippel.
+
+14.80 32    Zweimaliger Anstrich der Betonflächen mit einem lösungsmittelfreien, wasserverdünnbaren Schutzanstrich mit
+            Sperrwirkung gegen Kohlendioxid und Schwefeldioxid, bestehend aus Grundanstrich und Deckanstrich in
+            Standardfarbe.
+
+14.80 32A   Betonanstrich lösungsmittelfrei                                                                             m²
+14.94       Bestandsprüfungen Beton
+14.94 01    Prüfung Bestand Balkon oder Loggia, einschließlich Dokumentation.
+
+14.94 01A   Bestandsprüfungen Balkon m.Rückprallhammer                                                                  Stk
+            Prüfung mit dem Rückprallhammer.
+            Angaben/Vorgaben zur Prüfung: ____________
+            Angaben/Vorgaben zur Dokumentation: ____________
+
+14.94 01B   Bestandsprüfungen Balkon Karbonatisierung                                                                   Stk
+            Prüfung der Karbonatisierung mittels 0,1 %-iger alkoholischer Phenolphatleinlösung an den Ausbruchstellen.
+            Mittel- und Extremwerte werden auf ganze Millimeter genau dokumentiert.
+            Angaben/Vorgaben zur Dokumentation: ____________
+
+14.94 01C   Bestandsprüfungen Balkon Haftzugfestigkeit                                                                  Stk
+                                                                   2
+            Prüfen der geforderten Haftzugfestigkeit von 1,5 N/mm (Kraftanstieggeschwindigkeit von 300 N/s).
+            Angaben/Vorgaben zur Dokumentation: ____________
+
+14.94 02    Prüfung Bestand Laubengang, einschließlich Dokumentation.
+
+14.94 02A   Bestandsprüfungen Laubengang m.Rückprallhammer                                                              m²
+            Prüfung mit dem Rückprallhammer.
+            Angaben/Vorgaben zur Prüfung: ____________
+            Angaben/Vorgaben zur Dokumentation: ____________
+
+14.94 02B   Bestandsprüfungen Laubengang Karbonatisierung                                                               m²
+            Prüfung der Karbonatisierung mittels 0,1 %-iger alkoholischer Phenolphatleinlösung an den Ausbruchstellen.
+            Mittel- und Extremwerte werden auf ganze Millimeter genau dokumentiert.
+            Angaben/Vorgaben zur Dokumentation: ____________
+
+14.94 02C   Bestandsprüfungen Laubengang Haftzugfestigkeit                                                              m²
+            Prüfen der geforderten Haftzugfestigkeit von 1,5 N/mm2 (Kraftanstieggeschwindigkeit von 300 N/s).
+            Angaben/Vorgaben zur Dokumentation: ____________
+
+
+
+                                                                                                                  Seite 30 / 30
+                                                                                             ib-data GmbH, Softwareentwicklung
+

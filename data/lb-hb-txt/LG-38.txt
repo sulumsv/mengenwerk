@@ -1,0 +1,3067 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                         Leistungsgruppe (LG) 38 - Holzfußböden
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 3800    Wählbare Vorbemerkungen
+                     ULG 3801    Untergrund vorbereiten
+                     ULG 3802    Unterbodenkonstruktionen
+                     ULG 3803    Sonderkosten Holzfußböden
+                     ULG 3811    Mehrschichtparkett verklebt Schiffsboden-Optik 2,5-3mm
+                     ULG 3812    Mehrschichtparkett verklebt Schiffsboden-Optik 3,4-4mm
+                     ULG 3813    Mehrschichtparkett verklebt Schiffsboden Optik 5,4-6mm
+                     ULG 3814    Mehrschichtparkett schwimmend Schiffsboden-Optik 2,5-3mm
+                     ULG 3815    Mehrschichtparkett schwimmend Schiffsboden-Optik 3,4-4mm
+                     ULG 3821    Mehrschichtparkett verklebt Stab-Optik 2,5-3mm
+                     ULG 3822    Mehrschichtparkett verklebt Stab-Optik 3,4-4mm
+                     ULG 3823    Mehrschichtparkett verklebt Stab-Optik 5,4-6mm
+                     ULG 3829    Mehrschichtparkett verklebt Streifen-Optik 4,2-4,7mm
+                     ULG 3831    Mehrschichtparkett verklebt Langriemen-Optik 3,4-4mm
+                     ULG 3832    Mehrschichtparkett verklebt Langriemen-Optik 5,4-6mm
+                     ULG 3835    Mehrschichtparkett verklebt Landhausdielen-Optik 2,5-3mm
+                     ULG 3836    Mehrschichtparkett verklebt Landhausdielen-Optik 3,4-4mm
+                     ULG 3837    Mehrschichtparkett schwimmend Landhausdielen-Optik 2,5-3mm
+                     ULG 3838    Mehrschichtparkett schwimmend Landhausdielen-Optik 3,4-4mm
+                     ULG 3839    Mehrschichtparkett genagelt Landhausdielen-Optik 3,4-4mm
+                     ULG 3841    Mosaikparkett verklebt 8mm
+                     ULG 3843    Hochkantparkett massiv verklebt
+                     ULG 3845    Stabparkett massiv verklebt 22mm
+                     ULG 3846    Stabparkett massiv genagelt 22mm
+                     ULG 3860    Sonstiges, Oberflächen
+                     ULG 3865    Laminatböden
+                     ULG 3868    Sporthallenböden
+                     ULG 3881    Instandsetzungsarbeiten
+
+                                                                                                           Seite 1 / 47
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                   gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                       EH
+
+                     ULG 3890 Regieleistungen
+
+
+
+
+                                                                      Seite 2 / 47
+                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+38          Holzfußböden
+            Version 022 (2021-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Leistungen:
+            Leitungen sind außerhalb der Unterbodenkonstruktion verlegt.
+            2. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • das Anarbeiten z.B. an Zargen, Stöcke, lotrechte Heizungsrohre
+                • das maschinelle Abschleifen neu verlegter, nicht werksmäßig oberflächenbehandelter Holz-Oberböden
+                  für eine zum Versiegeln oder Ölen geeignete Oberfläche
+            Eine Musterkollektion der angebotenen Materialien wird auf Aufforderung des Auftraggebers vorgelegt.
+            2.1 Das Entsorgen von Baurestmassen z.B. beim Vorbereiten des Untergrundes oder bei
+            Instandsetzungsarbeiten ist in die Einheitspreise einkalkuliert.
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            3. Abkürzungsverzeichnis:
+            MS-Parkett = Mehrschichtparkett
+            wl = werkslackiert
+            wö = werksgeölt
+            ged. = gedämpft
+             Kommentar:
+             Bezeichnungen gemäß ÖNORM: Kreis, Dreieck, Quadrat
+             Literaturhinweise (z.B.):
+             - ÖNORM EN 14761: Holzfußböden - Massivholz-Hochkantlamelle, Breitlamelle und Modulklotz
+             - ÖNORM EN 13226: Holzfußböden - Massivholz-Parkettstäbe mit Nut und/oder Feder
+             - ÖNORM EN 13488: Holzfußböden - Mosaikparkettelemente
+             - ÖNORM EN 13489: Holzfußböden - Mehrschichtparkettelemente
+
+            LB-Version: 23               Geringfügig Geändert
+
+38.00       Wählbare Vorbemerkungen
+38.00 01    Zu erwartende Belastungen und Umstände beim Verlegen des Fußbodens.
+
+38.00 01B   Fußboden m.Fußbodenheizung
+            Temperaturbelastung durch eine Fußbodenheizung bei einer Belastung bis 29 Grad Celsius
+            Oberflächentemperatur.
+            Betrifft Position(en): ____________
+
+38.00 05    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+38.00 05C   Verfügbarkeit von Beilagen zum LV
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von (z.B. Plänen)/wie (z.B. im PDF-Format): ____________
+            Betrifft Position(en): ____________
+
+38.01       Untergrund vorbereiten
+38.01 20    Vorbereiten des Untergrundes, einschließlich Entsorgen der Baurestmassen.
+
+38.01 20B   Betonuntergrund abstrahlen                                                                                       m²
+            Betonuntergrund vorbereiten durch Kugelstrahlen.
+
+38.01 21    Vorbereiten des Untergrundes, einschließlich Entsorgen der Baurestmassen.
+
+38.01 21A   Estrich schleifen                                                                                                m²
+                                                                                                                        Seite 3 / 47
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Estrich vorbereiten durch Schleifen.
+
+38.01 22    Risse, Scheinfugen und Plattenstöße (Estrichrisse) in Estrichen kraftschlüssig schließen, einschließlich
+            Entsorgen der Baurestmassen (anfallenden Abfallmaterialien). Abgerechnet wird die Risslänge.
+
+38.01 22A   Estrichrisse verdübeln                                                                                         m
+            Durch Verdübeln, Bohrlöcher mit einem Durchmesser von mindestens 25 mm, mindestens 4 Stück/m, aufgefüllt
+            mit Zweikomponenten-Kunstharz.
+
+38.01 22B   Estrichrisse verbinden                                                                                         m
+            Durch Verbinden (Nähen) mit Stahldrahteinlagen und Verguss mit Zweikomponenten-Kunstharz, mindestens 4
+            Stück/m.
+38.01 24    Ausgleichen von Unebenheiten bei erhöhten Anforderungen an die Ebenheit.
+
+38.01 24A   Estrich ausgleichen d.Rakeln ü.2-5mm                                                                           m²
+            Bei Unterböden aus Estrich oder Unterbeton durch Nivellieren mit einer Rakel.
+
+38.01 27    Auftragen eines Voranstriches bei Fußbodenheizungen.
+
+38.01 27B   Voranstrich auf Zementestrich                                                                                  m²
+            Voranstrich als Haftbrücke auf Zementestrich.
+
+38.01 27E   Voranstrich auf Calciumsulfat-Estrich                                                                          m²
+            Voranstrich als Haftbrücke auf Calciumsulfat-Estrich
+
+38.01 31    Anspachteln.
+
+38.01 31A   Anspachteln bei Fliesen-u.Plattenbelägen 2-5mm                                                                 m
+            Bei Übergängen zu Fliesen- und Plattenbelägen.
+                • Dicke: 2 bis 5 mm
+38.01 41    Feuchtigkeitsbremse bei erhöhter Restfeuchte.
+
+38.01 41A   Feuchtigkeitsbremse bei erhöhter Restfeuchte Zementestrich                                                     m²
+            Bei Zementestrich.
+
+38.02       Unterbodenkonstruktionen
+            Mehrlagige Ausführungen von Dämmschichten, soweit technisch vertretbar, werden kreuzweise mit überdeckten
+            Fugen verlegt und je Lage mit den entsprechenden Positionen abgerechnet.
+             Kommentar:
+             Blindböden für erhöhte Anforderungen sind frei zu formulieren.
+
+38.02 02    Einbauen einer Beschüttung vor oder nach dem Verlegen der Polsterhölzer, einschließlich Abziehen.
+            Abgerechnet wird im fertigen (verdichteten) Zustand, ohne Abzug der Polsterhölzer.
+            Polsterhölzer verlegen ist in eigenen Positionen beschrieben.
+
+38.02 02A   Beschüttung Hütten-Leichtbaustoff f.Flächenbelastung                                                           m³
+                                                      2
+            Für eine Flächenbelastung bis 3 kN/m
+
+38.02 03    Wärmedämmung, zwischen den Polsterhölzern verlegt.
+            Im Positionsstichwort ist die Dicke (mm) angegeben.
+
+38.02 03A   Wärmedämmung MW-WL 50mm                                                                                        m²
+
+38.02 03B   Wärmedämmung MW-WL 60mm                                                                                        m²
+
+38.02 03C   Wärmedämmung MW-WL 80mm                                                                                        m²
+
+38.02 03D   Wärmedämmung MW-WL 100mm                                                                                       m²
+38.02 04    Trittschalldämmung mit Mineralwolleplatten, Produktart MW-T.
+                • belastbar bis 10 kN/m2
+            Im Positionsstichwort ist die Lieferdicke (mm) angegeben.
+                                                                                                                      Seite 4 / 47
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+38.02 04A   Trittschalldämmung MW-T 15mm                                                                                  m²
+
+38.02 04B   Trittschalldämmung MW-T 20mm                                                                                  m²
+
+38.02 04C   Trittschalldämmung MW-T 25mm                                                                                  m²
+
+38.02 04D   Trittschalldämmung MW-T 30mm                                                                                  m²
+38.02 06    Wärmedämmung zwischen den Polsterhölzern.
+
+38.02 06A   Wärmedämmung Perlit                                                                                           m³
+            Mit Perlit.
+
+38.02 09    Abdecken des Untergrundes mit einem Übergriff von mindestens 10 cm.
+            Abgerechnet wird die abgedeckte Fläche.
+
+38.02 09A   Abdecken PE-Folie 0,2mm dick                                                                                  m²
+            Abdecken PE-Folie, 0,2 mm dick.
+
+38.02 11    Unterkonstruktion, bestehend aus in die vorhandene Beschüttung eingebetteten Polsterhölzern.
+                 • Querschnitt mindestens 4 x 7 cm
+
+38.02 11A   Polsterhölzer+Blindboden parallel verlegt                                                                     m²
+            Mit einem Blindboden aus einseitig gehobelten Brettern, mindestens 22 mm dick.
+                 • parallel zu den Wänden verlegt
+
+38.02 11B   Polsterhölzer+Streublindboden parallel verlegt                                                                m²
+            Mit einem Streublindboden aus einseitig gehobelten Brettern, mindestens 22 mm dick.
+            Abstand zwischen den Brettern höchstens 10 cm (60 Prozent der Fläche belegt).
+                 • parallel zu den Wänden verlegt
+
+38.02 11C   Polsterhölzer+Blindboden diagonal verlegt                                                                     m²
+            Mit einem Blindboden aus einseitig gehobelten Brettern, mindestens 22 mm dick, für gerade Würfelmuster,
+            Tafelparkett und Kassettenböden.
+                 • mit versetzten Stößen quer zu den diagonalen Polsterhölzern, an den Wänden umlaufend und diagonal
+                   zu diesen verlegt
+
+38.02 11D   Polsterhölzer+Streublindboden parallel verlegt+Pl.P3                                                          m²
+            Mit einem Streublindboden aus einseitig gehobelten Brettern, mindestens 22 mm dick.
+            Abstand zwischen den Brettern höchstens 10 cm (60 Prozent der Fläche belegt).
+                 • parallel zu den Wänden verlegt
+                 • einschließlich einer Lage Holzwerkstoff-Verlegeplatten P3 (E1), 19 mm dick, flächig verlegt und mit
+                   Schrauben befestigt
+
+38.02 11E   Polsterhölzer+Platten P5 1fach verlegt                                                                        m²
+            Mit Holzwerkstoff-Verlegeplatten P5 (E1), mit Schrauben befestigt.
+                 • parallel zu den Wänden und
+                 • 1-fach verlegt
+            Achsabstand: ____________
+            Plattendicke: ____________
+            Belastung: ____________
+
+38.02 11F   Polsterhölzer+Platten P5 2fach verlegt                                                                        m²
+            Mit Holzwerkstoff-Verlegeplatten P5 (E1), mit Schrauben befestigt.
+                 • parallel zu den Wänden und
+                 • 2-fach verlegt
+            Achsabstand: ____________
+            Plattendicke: ____________
+            Belastung: ____________
+
+                                                                                                                     Seite 5 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.02 11H   Az Polsterhölzer f.Höhenausgleich b.5cm                                                                       m²
+            Aufzahlung (Az) auf Polsterhölzer für einen Höhenausgleich bis 5 cm.
+
+38.02 21    Wärmedämmung mit Hartschaumplatten aus Polyurethan mit Alukaschierung, Produktart PU-DD-100
+            Im Positionsstichwort ist die Dicke (mm) angegeben.
+
+38.02 21A   Wärmedämmung PU-DD-100 20mm                                                                                   m²
+
+38.02 21B   Wärmedämmung PU-DD-100 30mm                                                                                   m²
+
+38.02 21C   Wärmedämmung PU-DD-100 40mm                                                                                   m²
+
+38.02 21D   Wärmedämmung PU-DD-100 50mm                                                                                   m²
+
+38.02 21E   Wärmedämmung PU-DD-100 60mm                                                                                   m²
+
+38.02 21F   Wärmedämmung PU-DD-100 80mm                                                                                  m²
+
+38.02 21G   Wärmedämmung PU-DD-100 100mm                                                                                 m²
+38.03       Sonderkosten Holzfußböden
+38.03 01    Elektronischer Messbaustein zum rückseitigen Einbau in das Parkettelement zur dauerhaften Überwachung
+            (mind. 5 Jahre) von Temperatur und Feuchtigkeit im verbauten Parkett.
+            Der Einbauort wird einvernehmlich mit dem AG bestimmt.
+
+38.03 01A   Elektronischer Messbaustein                                                                                   Stk
+            Sonstige Angaben: ____________
+
+38.11       Mehrschichtparkett verklebt Schiffsboden-Optik 2,5-3mm
+            1. Formate:
+            Standardformat (Schiffsboden-Optik):
+                • Stabhauptlängen: 300 bis 550 mm
+                • Breiten: 55 bis 80 mm
+            2. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart, die Art der Sortierung und die Art der Oberflächenbehandlung
+            (werkslackiert (wl) oder werksgeölt (wö)) angeben.
+
+38.11 01    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.11 01A   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Eiche/Kreis wl                                                          m²
+
+38.11 01B   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Eiche/Kreis wö                                                          m²
+
+38.11 01C   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Eiche/Dreieck wl                                                        m²
+
+38.11 01D   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Eiche/Dreieck wö                                                        m²
+
+38.11 01E   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Eiche/Quadrat wl                                                        m²
+
+38.11 01F   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Eiche/Quadrat wö                                                        m²
+38.11 02    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.11 02A   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Esche/Kreis wl                                                          m²
+
+
+                                                                                                                     Seite 6 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                EH
+
+38.11 02B   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Esche/Kreis wö                                     m²
+
+38.11 02C   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Esche/Dreieck wl                                   m²
+
+38.11 02D   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Esche/Dreieck wö                                   m²
+
+38.11 02E   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Esche/Quadrat wl                                   m²
+
+38.11 02F   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Esche/Quadrat wö                                   m²
+38.11 03    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.11 03A   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Ahorn/Kreis wl                                     m²
+
+38.11 03B   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Ahorn/Kreis wö                                     m²
+
+38.11 03C   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Ahorn/Dreieck wl                                   m²
+
+38.11 03D   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Ahorn/Dreieck wö                                   m²
+
+38.11 03E   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Ahorn/Quadrat wl                                   m²
+
+38.11 03F   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Ahorn/Quadrat wö                                   m²
+38.11 04    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.11 04A   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche/Kreis wl                                     m²
+
+38.11 04B   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche/Kreis wö                                     m²
+
+38.11 04C   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche/Dreieck wl                                   m²
+
+38.11 04D   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche/Dreieck wö                                   m²
+
+38.11 04E   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche/Quadrat wl                                   m²
+
+38.11 04F   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche/Quadrat wö                                   m²
+
+38.11 04G   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche ged./Kreis wl                                m²
+
+38.11 04H   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche ged./Kreis wö                                m²
+
+38.11 04I   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche ged./Dreieck wl                              m²
+
+38.11 04J   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche ged./Dreieck wö                              m²
+
+38.11 04K   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche ged./Quadrat wl                             m²
+
+38.11 04L   MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche ged./Quadrat wö                             m²
+38.12       Mehrschichtparkett verklebt Schiffsboden-Optik 3,4-4mm
+            1. Formate:
+            Standardformat (Schiffsboden-Optik):
+                • Stabhauptlängen: 300 bis 550 mm
+                • Breiten: 55 bis 80 mm
+            2. Angaben im Positionsstichwort:
+
+
+
+                                                                                                Seite 7 / 47
+                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            Im Positionsstichwort sind die Holzart, die Art der Sortierung und die Art der Oberflächenbehandlung
+            (werkslackiert (wl) oder werksgeölt (wö)) angeben.
+38.12 01    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.12 01A   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Eiche/Kreis wl                                                          m²
+
+38.12 01B   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Eiche/Kreis wö                                                          m²
+
+38.12 01C   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Eiche/Dreieck wl                                                        m²
+
+38.12 01D   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Eiche/Dreieck wö                                                        m²
+
+38.12 01E   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Eiche/Quadrat wl                                                        m²
+
+38.12 01F   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Eiche/Quadrat wö                                                        m²
+38.12 02    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.12 02A   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Esche/Kreis wl                                                          m²
+
+38.12 02B   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Esche/Kreis wö                                                          m²
+
+38.12 02C   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Esche/Dreieck wl                                                        m²
+
+38.12 02D   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Esche/Dreieck wö                                                        m²
+
+38.12 02E   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Esche/Quadrat wl                                                        m²
+
+38.12 02F   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Esche/Quadrat wö                                                        m²
+38.12 03    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.12 03A   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Ahorn/Kreis wl                                                          m²
+
+38.12 03B   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Ahorn/Kreis wö                                                          m²
+
+38.12 03C   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Ahorn/Dreieck wl                                                        m²
+
+38.12 03D   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Ahorn/Dreieck wö                                                        m²
+
+38.12 03E   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Ahorn/Quadrat wl                                                        m²
+
+38.12 03F   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Ahorn/Quadrat wö                                                        m²
+38.12 04    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.12 04A   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche/Kreis wl                                                          m²
+
+38.12 04B   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche/Kreis wö                                                          m²
+
+38.12 04C   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche/Dreieck wl                                                        m²
+
+                                                                                                                     Seite 8 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.12 04D   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche/Dreieck wö                                                        m²
+
+38.12 04E   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche/Quadrat wl                                                        m²
+
+38.12 04F   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche/Quadrat wö                                                        m²
+
+38.12 04G   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche ged./Kreis wl                                                     m²
+
+38.12 04H   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche ged./Kreis wö                                                     m²
+
+38.12 04I   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche ged./Dreieck wl                                                   m²
+
+38.12 04J   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche ged./Dreieck wö                                                   m²
+
+38.12 04K   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche ged./Quadrat wl                                                   m²
+
+38.12 04L   MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche ged./Quadrat wö                                                  m²
+38.13       Mehrschichtparkett verklebt Schiffsboden Optik 5,4-6mm
+            1. Formate:
+            Standardformat (Schiffsboden-Optik):
+                • Stabhauptlängen: 300 bis 550 mm
+                • Breiten: 55 bis 80 mm
+            2. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart, die Art der Sortierung und die Art der Oberflächenbehandlung
+            (werkslackiert (wl) oder werksgeölt (wö)) angeben.
+
+38.13 01    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 5,4 bis 6 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.13 01A   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Eiche/Kreis wl                                                          m²
+
+38.13 01B   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Eiche/Kreis wö                                                          m²
+
+38.13 01C   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Eiche/Dreieck wl                                                        m²
+
+38.13 01D   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Eiche/Dreieck wö                                                        m²
+
+38.13 01E   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Eiche/Quadrat wl                                                        m²
+
+38.13 01F   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Eiche/Quadrat wö                                                        m²
+38.13 02    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 5,4 bis 6 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.13 02A   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Esche/Kreis wl                                                          m²
+
+38.13 02B   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Esche/Kreis wö                                                          m²
+
+38.13 02C   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Esche/Dreieck wl                                                        m²
+
+38.13 02D   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Esche/Dreieck wö                                                        m²
+
+38.13 02E   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Esche/Quadrat wl                                                        m²
+
+38.13 02F   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Esche/Quadrat wö                                                        m²
+38.13 03    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+
+                                                                                                                     Seite 9 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 5,4 bis 6 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.13 03A   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Ahorn/Kreis wl                                                          m²
+
+38.13 03B   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Ahorn/Kreis wö                                                          m²
+
+38.13 03C   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Ahorn/Dreieck wl                                                        m²
+
+38.13 03D   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Ahorn/Dreieck wö                                                        m²
+
+38.13 03E   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Ahorn/Quadrat wl                                                        m²
+
+38.13 03F   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Ahorn/Quadrat wö                                                        m²
+38.13 04    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 5,4 bis 6 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.13 04A   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche/Kreis wl                                                          m²
+
+38.13 04B   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche/Kreis wö                                                          m²
+
+38.13 04C   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche/Dreieck wl                                                        m²
+
+38.13 04D   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche/Dreieck wö                                                        m²
+
+38.13 04E   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche/Quadrat wl                                                        m²
+
+38.13 04F   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche/Quadrat wö                                                        m²
+
+38.13 04G   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche ged./Kreis wl                                                     m²
+
+38.13 04H   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche ged./Kreis wö                                                     m²
+
+38.13 04I   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche ged./Dreieck wl                                                   m²
+
+38.13 04J   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche ged./Dreieck wö                                                  m²
+
+38.13 04K   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche ged./Quadrat wl                                                  m²
+
+38.13 04L   MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche ged./Quadrat wö                                                  m²
+38.14       Mehrschichtparkett schwimmend Schiffsboden-Optik 2,5-3mm
+            1. Formate:
+            Standardformat (Schiffsboden-Optik):
+                • Stabhauptlängen: 300 bis 550 mm
+                • Breiten: 55 bis 80 mm
+            2. Einkalkulierte Leistungen:
+            Eine Lage Schalldämmmatte aus geschlossenzelligem Schaumstoff, mindestens 65 g/m2 ist im Einheitspreis
+            einkalkuliert.
+            3. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart, die Art der Sortierung und die Art der Oberflächenbehandlung
+            (werkslackiert (wl) oder werksgeölt (wö)) angeben.
+            LB-Version: 23              Geringfügig Geändert
+38.14 01    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+
+                                                                                                                    Seite 10 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                             EH
+
+38.14 01A   MS-Parkett schw.Schiffsb.Optik 2,5-3 Eiche/Kreis wl                                   m²
+
+38.14 01B   MS-Parkett schw.Schiffsb.Optik 2,5-3 Eiche/Kreis wö                                   m²
+
+38.14 01C   MS-Parkett schw.Schiffsb.Optik 2,5-3 Eiche/Dreieck wl                                 m²
+
+38.14 01D   MS-Parkett schw.Schiffsb.Optik 2,5-3 Eiche/Dreieck wö                                 m²
+
+38.14 01E   MS-Parkett schw.Schiffsb.Optik 2,5-3 Eiche/Quadrat wl                                 m²
+
+38.14 01F   MS-Parkett schw.Schiffsb.Optik 2,5-3 Eiche/Quadrat wö                                 m²
+38.14 02    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.14 02A   MS-Parkett schw.Schiffsb.Optik 2,5-3 Esche/Kreis wl                                   m²
+
+38.14 02B   MS-Parkett schw.Schiffsb.Optik 2,5-3 Esche/Kreis wö                                   m²
+
+38.14 02C   MS-Parkett schw.Schiffsb.Optik 2,5-3 Esche/Dreieck wl                                 m²
+
+38.14 02D   MS-Parkett schw.Schiffsb.Optik 2,5-3 Esche/Dreieck wö                                 m²
+
+38.14 02E   MS-Parkett schw.Schiffsb.Optik 2,5-3 Esche/Quadrat wl                                 m²
+
+38.14 02F   MS-Parkett schw.Schiffsb.Optik 2,5-3 Esche/Quadrat wö                                 m²
+38.14 03    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.14 03A   MS-Parkett schw.Schiffsb.Optik 2,5-3 Ahorn/Kreis wl                                   m²
+
+38.14 03B   MS-Parkett schw.Schiffsb.Optik 2,5-3 Ahorn/Kreis wö                                   m²
+
+38.14 03C   MS-Parkett schw.Schiffsb.Optik 2,5-3 Ahorn/Dreieck wl                                 m²
+
+38.14 03D   MS-Parkett schw.Schiffsb.Optik 2,5-3 Ahorn/Dreieck wö                                 m²
+
+38.14 03E   MS-Parkett schw.Schiffsb.Optik 2,5-3 Ahorn/Quadrat wl                                 m²
+
+38.14 03F   MS-Parkett schw.Schiffsb.Optik 2,5-3 Ahorn/Quadrat wö                                 m²
+38.14 04    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.14 04A   MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche/Kreis wl                                   m²
+
+38.14 04B   MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche/Kreis wö                                   m²
+
+38.14 04C   MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche/Dreieck wl                                 m²
+
+38.14 04D   MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche/Dreieck wö                                 m²
+
+38.14 04E   MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche/Quadrat wl                                 m²
+
+38.14 04F   MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche/Quadrat wö                                 m²
+
+38.14 04G   MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche ged./Kreis wl                              m²
+
+                                                                                            Seite 11 / 47
+                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.14 04H   MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche ged./Kreis wö                                                      m²
+
+38.14 04I   MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche ged./Dreieck wl                                                    m²
+
+38.14 04J   MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche ged./Dreieck wö                                                    m²
+
+38.14 04K   MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche ged./Quadrat wl                                                    m²
+
+38.14 04L   MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche ged./Quadrat wö                                                    m²
+38.15       Mehrschichtparkett schwimmend Schiffsboden-Optik 3,4-4mm
+            1. Formate:
+            Standardformat (Schiffsboden-Optik):
+                • Stabhauptlängen: 300 bis 550 mm
+                • Breiten: 55 bis 80 mm
+            2. Einkalkulierte Leistungen:
+            Eine Lage Schalldämmmatte aus geschlossenzelligem Schaumstoff, mindestens 65 g/m2 ist im Einheitspreis
+            einkalkuliert.
+            3. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart, die Art der Sortierung und die Art der Oberflächenbehandlung
+            (werkslackiert (wl) oder werksgeölt (wö)) angeben.
+            LB-Version: 23              Geringfügig Geändert
+38.15 01    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.15 01A   MS-Parkett schw.Schiffsb.Optik 3,4-4 Eiche/Kreis wl                                                           m²
+
+38.15 01B   MS-Parkett schw.Schiffsb.Optik 3,4-4 Eiche/Kreis wö                                                           m²
+
+38.15 01C   MS-Parkett schw.Schiffsb.Optik 3,4-4 Eiche/Dreieck wl                                                         m²
+
+38.15 01D   MS-Parkett schw.Schiffsb.Optik 3,4-4 Eiche/Dreieck wö                                                         m²
+
+38.15 01E   MS-Parkett schw.Schiffsb.Optik 3,4-4 Eiche/Quadrat wl                                                         m²
+
+38.15 01F   MS-Parkett schw.Schiffsb.Optik 3,4-4 Eiche/Quadrat wö                                                         m²
+38.15 02    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.15 02A   MS-Parkett schw.Schiffsb.Optik 3,4-4 Esche/Kreis wl                                                           m²
+
+38.15 02B   MS-Parkett schw.Schiffsb.Optik 3,4-4 Esche/Kreis wö                                                           m²
+
+38.15 02C   MS-Parkett schw.Schiffsb.Optik 3,4-4 Esche/Dreieck wl                                                         m²
+
+38.15 02D   MS-Parkett schw.Schiffsb.Optik 3,4-4 Esche/Dreieck wö                                                         m²
+
+38.15 02E   MS-Parkett schw.Schiffsb.Optik 3,4-4 Esche/Quadrat wl                                                         m²
+
+38.15 02F   MS-Parkett schw.Schiffsb.Optik 3,4-4 Esche/Quadrat wö                                                         m²
+38.15 03    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+                                                                                                                    Seite 12 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.15 03A   MS-Parkett schw.Schiffsb.Optik 3,4-4 Ahorn/Kreis wl                                                           m²
+
+38.15 03B   MS-Parkett schw.Schiffsb.Optik 3,4-4 Ahorn/Kreis wö                                                           m²
+
+38.15 03C   MS-Parkett schw.Schiffsb.Optik 3,4-4 Ahorn/Dreieck wl                                                         m²
+
+38.15 03D   MS-Parkett schw.Schiffsb.Optik 3,4-4 Ahorn/Dreieck wö                                                         m²
+
+38.15 03E   MS-Parkett schw.Schiffsb.Optik 3,4-4 Ahorn/Quadrat wl                                                         m²
+
+38.15 03F   MS-Parkett schw.Schiffsb.Optik 3,4-4 Ahorn/Quadrat wö                                                         m²
+38.15 04    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Schiffsboden-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.15 04A   MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche/Kreis wl                                                           m²
+
+38.15 04B   MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche/Kreis wö                                                           m²
+
+38.15 04C   MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche/Dreieck wl                                                         m²
+
+38.15 04D   MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche/Dreieck wö                                                         m²
+
+38.15 04E   MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche/Quadrat wl                                                         m²
+
+38.15 04F   MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche/Quadrat wö                                                         m²
+
+38.15 04G   MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche ged./Kreis wl                                                      m²
+
+38.15 04H   MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche ged./Kreis wö                                                      m²
+
+38.15 04I   MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche ged./Dreieck wl                                                    m²
+
+38.15 04J   MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche ged./Dreieck wö                                                    m²
+
+38.15 04K   MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche ged./Quadrat wl                                                    m²
+
+38.15 04L   MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche ged./Quadrat wö                                                    m²
+38.21       Mehrschichtparkett verklebt Stab-Optik 2,5-3mm
+            1. Formate:
+            Standardformat (Stab-Optik):
+                • Längen: 400 bis 550 mm
+                • Breiten: 55 bis 80 mm
+            2. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart, die Art der Sortierung und die Art der Oberflächenbehandlung
+            (werkslackiert (wl) oder werksgeölt (wö)) angeben.
+38.21 01    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Stab-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.21 01A   MS-Parkett verkl.Stab-Optik 2,5-3 Eiche/Kreis wl                                                              m²
+
+38.21 01B   MS-Parkett verkl.Stab-Optik 2,5-3 Eiche/Kreis wö                                                              m²
+
+38.21 01C   MS-Parkett verkl.Stab-Optik 2,5-3 Eiche/Dreieck wl                                                            m²
+
+38.21 01D   MS-Parkett verkl.Stab-Optik 2,5-3 Eiche/Dreieck wö                                                            m²
+
+
+                                                                                                                    Seite 13 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                            EH
+
+38.21 01E   MS-Parkett verkl.Stab-Optik 2,5-3 Eiche/Quadrat wl                                   m²
+
+38.21 01F   MS-Parkett verkl.Stab-Optik 2,5-3 Eiche/Quadrat wö                                   m²
+38.21 02    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Stab-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.21 02A   MS-Parkett verkl.Stab-Optik 2,5-3 Esche/Kreis wl                                     m²
+
+38.21 02B   MS-Parkett verkl.Stab-Optik 2,5-3 Esche/Kreis wö                                     m²
+
+38.21 02C   MS-Parkett verkl.Stab-Optik 2,5-3 Esche/Dreieck wl                                   m²
+
+38.21 02D   MS-Parkett verkl.Stab-Optik 2,5-3 Esche/Dreieck wö                                   m²
+
+38.21 02E   MS-Parkett verkl.Stab-Optik 2,5-3 Esche/Quadrat wl                                   m²
+
+38.21 02F   MS-Parkett verkl.Stab-Optik 2,5-3 Esche/Quadrat wö                                   m²
+38.21 03    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Stab-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.21 03A   MS-Parkett verkl.Stab-Optik 2,5-3 Ahorn/Kreis wl                                     m²
+
+38.21 03B   MS-Parkett verkl.Stab-Optik 2,5-3 Ahorn/Kreis wö                                     m²
+
+38.21 03C   MS-Parkett verkl.Stab-Optik 2,5-3 Ahorn/Dreieck wl                                   m²
+
+38.21 03D   MS-Parkett verkl.Stab-Optik 2,5-3 Ahorn/Dreieck wö                                   m²
+
+38.21 03E   MS-Parkett verkl.Stab-Optik 2,5-3 Ahorn/Quadrat wl                                   m²
+
+38.21 03F   MS-Parkett verkl.Stab-Optik 2,5-3 Ahorn/Quadrat wö                                   m²
+38.21 04    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Stab-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.21 04A   MS-Parkett verkl.Stab-Optik 2,5-3 Buche/Kreis wl                                     m²
+
+38.21 04B   MS-Parkett verkl.Stab-Optik 2,5-3 Buche/Kreis wö                                     m²
+
+38.21 04C   MS-Parkett verkl.Stab-Optik 2,5-3 Buche/Dreieck wl                                   m²
+
+38.21 04D   MS-Parkett verkl.Stab-Optik 2,5-3 Buche/Dreieck wö                                   m²
+
+38.21 04E   MS-Parkett verkl.Stab-Optik 2,5-3 Buche/Quadrat wl                                   m²
+
+38.21 04F   MS-Parkett verkl.Stab-Optik 2,5-3 Buche/Quadrat wö                                   m²
+
+38.21 04G   MS-Parkett verkl.Stab-Optik 2,5-3 Buche ged./Kreis wl                                m²
+
+38.21 04H   MS-Parkett verkl.Stab-Optik 2,5-3 Buche ged./Kreis wö                                m²
+
+38.21 04I   MS-Parkett verkl.Stab-Optik 2,5-3 Buche ged./Dreieck wl                              m²
+
+38.21 04J   MS-Parkett verkl.Stab-Optik 2,5-3 Buche ged./Dreieck wö                              m²
+
+38.21 04K   MS-Parkett verkl.Stab-Optik 2,5-3 Buche ged./Quadrat wl                              m²
+
+                                                                                           Seite 14 / 47
+                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.21 04L   MS-Parkett verkl.Stab-Optik 2,5-3 Buche ged./Quadrat wö                                                       m²
+38.21 11    Aufzahlung (Az) auf Mehrschicht (MS-) parkett (Zwei- oder Dreischicht),
+                • verklebt, ungeordneter Verband
+                • Stab-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+            für eine andere Verlegeart.
+            Die Verlegeart ist im Positionsstichwort angegeben.
+
+38.21 11A   Az MS-Parkett verkl.Stab-Optik 2,5-3 f.geordneten Verband                                                     m²
+
+38.21 11B   Az MS-Parkett verkl.Stab-Optik 2,5-3 f.Verlegung Fischgrät                                                    m²
+38.22       Mehrschichtparkett verklebt Stab-Optik 3,4-4mm
+            1. Formate:
+            Standardformat (Stab-Optik):
+                • Längen: 400 bis 550 mm
+                • Breiten: 55 bis 80 mm
+            2. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart, die Art der Sortierung und die Art der Oberflächenbehandlung
+            (werkslackiert (wl) oder werksgeölt (wö)) angeben.
+
+38.22 01    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Stab-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.22 01A   MS-Parkett verkl.Stab-Optik 3,4-4 Eiche/Kreis wl                                                              m²
+
+38.22 01B   MS-Parkett verkl.Stab-Optik 3,4-4 Eiche/Kreis wö                                                              m²
+
+38.22 01C   MS-Parkett verkl.Stab-Optik 3,4-4 Eiche/Dreieck wl                                                            m²
+
+38.22 01D   MS-Parkett verkl.Stab-Optik 3,4-4 Eiche/Dreieck wö                                                            m²
+
+38.22 01E   MS-Parkett verkl.Stab-Optik 3,4-4 Eiche/Quadrat wl                                                            m²
+
+38.22 01F   MS-Parkett verkl.Stab-Optik 3,4-4 Eiche/Quadrat wö                                                            m²
+38.22 02    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Stab-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.22 02A   MS-Parkett verkl.Stab-Optik 3,4-4 Esche/Kreis wl                                                              m²
+
+38.22 02B   MS-Parkett verkl.Stab-Optik 3,4-4 Esche/Kreis wö                                                              m²
+
+38.22 02C   MS-Parkett verkl.Stab-Optik 3,4-4 Esche/Dreieck wl                                                            m²
+
+38.22 02D   MS-Parkett verkl.Stab-Optik 3,4-4 Esche/Dreieck wö                                                            m²
+
+38.22 02E   MS-Parkett verkl.Stab-Optik 3,4-4 Esche/Quadrat wl                                                            m²
+
+38.22 02F   MS-Parkett verkl.Stab-Optik 3,4-4 Esche/Quadrat wö                                                            m²
+38.22 03    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Stab-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+
+                                                                                                                    Seite 15 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.22 03A   MS-Parkett verkl.Stab-Optik 3,4-4 Ahorn/Kreis wl                                                              m²
+
+38.22 03B   MS-Parkett verkl.Stab-Optik 3,4-4 Ahorn/Kreis wö                                                              m²
+
+38.22 03C   MS-Parkett verkl.Stab-Optik 3,4-4 Ahorn/Dreieck wl                                                            m²
+
+38.22 03D   MS-Parkett verkl.Stab-Optik 3,4-4 Ahorn/Dreieck wö                                                            m²
+
+38.22 03E   MS-Parkett verkl.Stab-Optik 3,4-4 Ahorn/Quadrat wl                                                            m²
+
+38.22 03F   MS-Parkett verkl.Stab-Optik 3,4-4 Ahorn/Quadrat wö                                                            m²
+38.22 04    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Stab-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.22 04A   MS-Parkett verkl.Stab-Optik 3,4-4 Buche/Kreis wl                                                              m²
+
+38.22 04B   MS-Parkett verkl.Stab-Optik 3,4-4 Buche/Kreis wö                                                              m²
+
+38.22 04C   MS-Parkett verkl.Stab-Optik 3,4-4 Buche/Dreieck wl                                                            m²
+
+38.22 04D   MS-Parkett verkl.Stab-Optik 3,4-4 Buche/Dreieck wö                                                            m²
+
+38.22 04E   MS-Parkett verkl.Stab-Optik 3,4-4 Buche/Quadrat wl                                                            m²
+
+38.22 04F   MS-Parkett verkl.Stab-Optik 3,4-4 Buche/Quadrat wö                                                            m²
+
+38.22 04G   MS-Parkett verkl.Stab-Optik 3,4-4 Buche ged./Kreis wl                                                         m²
+
+38.22 04H   MS-Parkett verkl.Stab-Optik 3,4-4 Buche ged./Kreis wö                                                         m²
+
+38.22 04I   MS-Parkett verkl.Stab-Optik 3,4-4 Buche ged./Dreieck wl                                                       m²
+
+38.22 04J   MS-Parkett verkl.Stab-Optik 3,4-4 Buche ged./Dreieck wö                                                       m²
+
+38.22 04K   MS-Parkett verkl.Stab-Optik 3,4-4 Buche ged./Quadrat wl                                                       m²
+
+38.22 04L   MS-Parkett verkl.Stab-Optik 3,4-4 Buche ged./Quadrat wö                                                       m²
+38.22 11    Aufzahlung (Az) auf Mehrschicht (MS-) parkett (Zwei- oder Dreischicht),
+                • verklebt, ungeordneter Verband
+                • Stab-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+            für eine andere Verlegeart.
+            Die Verlegeart ist im Positionsstichwort angegeben.
+
+38.22 11A   Az MS-Parkett verkl.Stab-Optik 3,4-4 f.geordneten Verband                                                     m²
+
+38.22 11B   Az MS-Parkett verkl.Stab-Optik 3,4-4 f.Verlegung Fischgrät                                                    m²
+38.23       Mehrschichtparkett verklebt Stab-Optik 5,4-6mm
+            1. Formate:
+            Standardformat (Stab-Optik):
+                • Längen: 400 bis 550 mm
+                • Breiten: 55 bis 80 mm
+            2. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart, die Art der Sortierung und die Art der Oberflächenbehandlung
+            (werkslackiert (wl) oder werksgeölt (wö)) angeben.
+
+38.23 01    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                                                                                                                    Seite 16 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                        EH
+
+                • Stab-Optik
+                • Nutzschicht (NS): 5,4 bis 6 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.23 01A   MS-Parkett verkl.Stab-Optik 5,4-6 Eiche/Kreis wl                                 m²
+
+38.23 01B   MS-Parkett verkl.Stab-Optik 5,4-6 Eiche/Kreis wö                                 m²
+
+38.23 01C   MS-Parkett verkl.Stab-Optik 5,4-6 Eiche/Dreieck wl                               m²
+
+38.23 01D   MS-Parkett verkl.Stab-Optik 5,4-6 Eiche/Dreieck wö                               m²
+
+38.23 01E   MS-Parkett verkl.Stab-Optik 5,4-6 Eiche/Quadrat wl                               m²
+
+38.23 01F   MS-Parkett verkl.Stab-Optik 5,4-6 Eiche/Quadrat wö                               m²
+38.23 02    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Stab-Optik
+                • Nutzschicht (NS): 5,4 bis 6 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.23 02A   MS-Parkett verkl.Stab-Optik 5,4-6 Esche/Kreis wl                                 m²
+
+38.23 02B   MS-Parkett verkl.Stab-Optik 5,4-6 Esche/Kreis wö                                 m²
+
+38.23 02C   MS-Parkett verkl.Stab-Optik 5,4-6 Esche/Dreieck wl                               m²
+
+38.23 02D   MS-Parkett verkl.Stab-Optik 5,4-6 Esche/Dreieck wö                               m²
+
+38.23 02E   MS-Parkett verkl.Stab-Optik 5,4-6 Esche/Quadrat wl                               m²
+
+38.23 02F   MS-Parkett verkl.Stab-Optik 5,4-6 Esche/Quadrat wö                               m²
+38.23 03    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Stab-Optik
+                • Nutzschicht (NS): 5,4 bis 6 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.23 03A   MS-Parkett verkl.Stab-Optik 5,4-6 Ahorn/Kreis wl                                 m²
+
+38.23 03B   MS-Parkett verkl.Stab-Optik 5,4-6 Ahorn/Kreis wö                                 m²
+
+38.23 03C   MS-Parkett verkl.Stab-Optik 5,4-6 Ahorn/Dreieck wl                               m²
+
+38.23 03D   MS-Parkett verkl.Stab-Optik 5,4-6 Ahorn/Dreieck wö                               m²
+
+38.23 03E   MS-Parkett verkl.Stab-Optik 5,4-6 Ahorn/Quadrat wl                               m²
+
+38.23 03F   MS-Parkett verkl.Stab-Optik 5,4-6 Ahorn/Quadrat wö                               m²
+38.23 04    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Stab-Optik
+                • Nutzschicht (NS): 5,4 bis 6 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.23 04A   MS-Parkett verkl.Stab-Optik 5,4-6 Buche/Kreis wl                                 m²
+
+38.23 04B   MS-Parkett verkl.Stab-Optik 5,4-6 Buche/Kreis wö                                 m²
+
+38.23 04C   MS-Parkett verkl.Stab-Optik 5,4-6 Buche/Dreieck wl                               m²
+
+38.23 04D   MS-Parkett verkl.Stab-Optik 5,4-6 Buche/Dreieck wö                               m²
+
+38.23 04E   MS-Parkett verkl.Stab-Optik 5,4-6 Buche/Quadrat wl                               m²
+
+38.23 04F   MS-Parkett verkl.Stab-Optik 5,4-6 Buche/Quadrat wö                               m²
+                                                                                       Seite 17 / 47
+                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.23 04G   MS-Parkett verkl.Stab-Optik 5,4-6 Buche ged./Kreis wl                                                         m²
+
+38.23 04H   MS-Parkett verkl.Stab-Optik 5,4-6 Buche ged./Kreis wö                                                         m²
+
+38.23 04I   MS-Parkett verkl.Stab-Optik 5,4-6 Buche ged./Dreieck wl                                                       m²
+
+38.23 04J   MS-Parkett verkl.Stab-Optik 5,4-6 Buche ged./Dreieck wö                                                       m²
+
+38.23 04K   MS-Parkett verkl.Stab-Optik 5,4-6 Buche ged./Quadrat wl                                                       m²
+
+38.23 04L   MS-Parkett verkl.Stab-Optik 5,4-6 Buche ged./Quadrat wö                                                       m²
+38.23 11    Aufzahlung (Az) auf Mehrschicht (MS-) parkett (Zwei- oder Dreischicht),
+                • verklebt, ungeordneter Verband
+                • Stab-Optik
+                • Nutzschicht (NS): 5,4 bis 6 mm
+                • Dicke: 13 mm (+/- 2 mm)
+            für eine andere Verlegeart.
+            Die Verlegeart ist im Positionsstichwort angegeben.
+
+38.23 11A   Az MS-Parkett verkl.Stab-Optik 5,4-6 f.geordneten Verband                                                     m²
+
+38.23 11B   Az MS-Parkett verkl.Stab-Optik 5,4-6 f.Verlegung Fischgrät                                                    m²
+38.29       Mehrschichtparkett verklebt Streifen-Optik 4,2-4,7mm
+            1. Formate:
+            Standardformat (Streifen-Optik):
+                • Lamellen-Hauptlängen: 300 bis 400 mm
+                • Lamellen-Breiten: 20 bis 30 mm
+            2. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart, die Art der Sortierung und die Art der Oberflächenbehandlung
+            (werkslackiert (wl) oder werksgeölt (wö)) angeben.
+
+38.29 01    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Streifen-Optik
+                • Nutzschicht (NS): 4,2 bis 4,7 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.29 01A   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Eiche/Kreis wl                                                         m²
+
+38.29 01B   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Eiche/Kreis wö                                                         m²
+
+38.29 01C   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Eiche/Dreieck wl                                                       m²
+
+38.29 01D   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Eiche/Dreieck wö                                                       m²
+
+38.29 01E   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Eiche/Quadrat wl                                                       m²
+
+38.29 01F   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Eiche/Quadrat wö                                                       m²
+38.29 02    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Streifen-Optik
+                • Nutzschicht (NS): 4,2 bis 4,7 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.29 02A   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Esche/Kreis wl                                                         m²
+
+38.29 02B   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Esche/Kreis wö                                                         m²
+
+38.29 02C   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Esche/Dreieck wl                                                       m²
+
+38.29 02D   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Esche/Dreieck wö                                                       m²
+
+                                                                                                                    Seite 18 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.29 02E   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Esche/Quadrat wl                                                       m²
+
+38.29 02F   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Esche/Quadrat wö                                                       m²
+38.29 03    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Streifen-Optik
+                • Nutzschicht (NS): 4,2 bis 4,7 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.29 03A   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Ahorn/Kreis wl                                                         m²
+
+38.29 03B   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Ahorn/Kreis wö                                                         m²
+
+38.29 03C   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Ahorn/Dreieck wl                                                       m²
+
+38.29 03D   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Ahorn/Dreieck wö                                                       m²
+
+38.29 03E   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Ahorn/Quadrat wl                                                       m²
+
+38.29 03F   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Ahorn/Quadrat wö                                                       m²
+38.29 04    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Streifen-Optik
+                • Nutzschicht (NS): 4,2 bis 4,7 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.29 04A   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche/Kreis wl                                                         m²
+
+38.29 04B   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche/Kreis wö                                                         m²
+
+38.29 04C   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche/Dreieck wl                                                       m²
+
+38.29 04D   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche/Dreieck wö                                                       m²
+
+38.29 04E   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche/Quadrat wl                                                       m²
+
+38.29 04F   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche/Quadrat wö                                                       m²
+
+38.29 04G   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche ged./Kreis wl                                                    m²
+
+38.29 04H   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche ged./Kreis wö                                                    m²
+
+38.29 04I   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche ged./Dreieck wl                                                  m²
+
+38.29 04J   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche ged./Dreieck wö                                                  m²
+
+38.29 04K   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche ged./Quadrat wl                                                  m²
+
+38.29 04L   MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche ged./Quadrat wö                                                  m²
+38.31       Mehrschichtparkett verklebt Langriemen-Optik 3,4-4mm
+            1. Formate:
+            Standardformat (Langriemen-Optik):
+                • Längen: 750 bis 1250 mm
+                • Breiten: 90 bis 130 mm
+            2. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart, die Art der Sortierung und die Art der Oberflächenbehandlung
+            (werkslackiert (wl) oder werksgeölt (wö)) angeben.
+
+38.31 01    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Langriemen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+                                                                                                                    Seite 19 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                               EH
+
+38.31 01A   MS-Parkett verkl.Langriem.-Optik 3,4-4 Eiche/Kreis wl                                   m²
+
+38.31 01B   MS-Parkett verkl.Langriem.-Optik 3,4-4 Eiche/Kreis wö                                   m²
+
+38.31 01C   MS-Parkett verkl.Langriem.-Optik 3,4-4 Eiche/Dreieck wl                                 m²
+
+38.31 01D   MS-Parkett verkl.Langriem.-Optik 3,4-4 Eiche/Dreieck wö                                 m²
+
+38.31 01E   MS-Parkett verkl.Langriem.-Optik 3,4-4 Eiche/Quadrat wl                                 m²
+
+38.31 01F   MS-Parkett verkl.Langriem.-Optik 3,4-4 Eiche/Quadrat wö                                 m²
+38.31 02    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Langriemen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.31 02A   MS-Parkett verkl.Langriem.-Optik 3,4-4 Esche/Kreis wl                                   m²
+
+38.31 02B   MS-Parkett verkl.Langriem.-Optik 3,4-4 Esche/Kreis wö                                   m²
+
+38.31 02C   MS-Parkett verkl.Langriem.-Optik 3,4-4 Esche/Dreieck wl                                 m²
+
+38.31 02D   MS-Parkett verkl.Langriem.-Optik 3,4-4 Esche/Dreieck wö                                 m²
+
+38.31 02E   MS-Parkett verkl.Langriem.-Optik 3,4-4 Esche/Quadrat wl                                 m²
+
+38.31 02F   MS-Parkett verkl.Langriem.-Optik 3,4-4 Esche/Quadrat wö                                 m²
+38.31 03    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Langriemen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.31 03A   MS-Parkett verkl.Langriem.-Optik 3,4-4 Ahorn/Kreis wl                                   m²
+
+38.31 03B   MS-Parkett verkl.Langriem.-Optik 3,4-4 Ahorn/Kreis wö                                   m²
+
+38.31 03C   MS-Parkett verkl.Langriem.-Optik 3,4-4 Ahorn/Dreieck wl                                 m²
+
+38.31 03D   MS-Parkett verkl.Langriem.-Optik 3,4-4 Ahorn/Dreieck wö                                 m²
+
+38.31 03E   MS-Parkett verkl.Langriem.-Optik 3,4-4 Ahorn/Quadrat wl                                 m²
+
+38.31 03F   MS-Parkett verkl.Langriem.-Optik 3,4-4 Ahorn/Quadrat wö                                 m²
+38.31 04    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Langriemen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.31 04A   MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche/Kreis wl                                   m²
+
+38.31 04B   MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche/Kreis wö                                   m²
+
+38.31 04C   MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche/Dreieck wl                                 m²
+
+38.31 04D   MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche/Dreieck wö                                 m²
+
+38.31 04E   MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche/Quadrat wl                                 m²
+
+38.31 04F   MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche/Quadrat wö                                 m²
+
+38.31 04G   MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche ged./Kreis wl                              m²
+
+                                                                                              Seite 20 / 47
+                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.31 04H   MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche ged./Kreis wö                                                    m²
+
+38.31 04I   MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche ged./Dreieck wl                                                  m²
+
+38.31 04J   MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche ged./Dreieck wö                                                  m²
+
+38.31 04K   MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche ged./Quadrat wl                                                  m²
+
+38.31 04L   MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche ged./Quadrat wö                                                  m²
+38.32       Mehrschichtparkett verklebt Langriemen-Optik 5,4-6mm
+            1. Formate:
+            Standardformat (Langriemen-Optik):
+                • Längen: 750 bis 1250 mm
+                • Breiten: 90 bis 130 mm
+            2. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart, die Art der Sortierung und die Art der Oberflächenbehandlung
+            (werkslackiert (wl) oder werksgeölt (wö)) angeben.
+
+38.32 01    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Langriemen-Optik
+                • Nutzschicht (NS): 5,4 bis 6 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.32 01A   MS-Parkett verkl.Langriem.-Optik 5,4-6 Eiche/Kreis wl                                                         m²
+
+38.32 01B   MS-Parkett verkl.Langriem.-Optik 5,4-6 Eiche/Kreis wö                                                         m²
+
+38.32 01C   MS-Parkett verkl.Langriem.-Optik 5,4-6 Eiche/Dreieck wl                                                       m²
+
+38.32 01D   MS-Parkett verkl.Langriem.-Optik 5,4-6 Eiche/Dreieck wö                                                       m²
+
+38.32 01E   MS-Parkett verkl.Langriem.-Optik 5,4-6 Eiche/Quadrat wl                                                       m²
+
+38.32 01F   MS-Parkett verkl.Langriem.-Optik 5,4-6 Eiche/Quadrat wö                                                       m²
+38.32 02    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Langriemen-Optik
+                • Nutzschicht (NS): 5,4 bis 6 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.32 02A   MS-Parkett verkl.Langriem.-Optik 5,4-6 Esche/Kreis wl                                                         m²
+
+38.32 02B   MS-Parkett verkl.Langriem.-Optik 5,4-6 Esche/Kreis wö                                                         m²
+
+38.32 02C   MS-Parkett verkl.Langriem.-Optik 5,4-6 Esche/Dreieck wl                                                       m²
+
+38.32 02D   MS-Parkett verkl.Langriem.-Optik 5,4-6 Esche/Dreieck wö                                                       m²
+
+38.32 02E   MS-Parkett verkl.Langriem.-Optik 5,4-6 Esche/Quadrat wl                                                       m²
+
+38.32 02F   MS-Parkett verkl.Langriem.-Optik 5,4-6 Esche/Quadrat wö                                                       m²
+38.32 03    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Langriemen-Optik
+                • Nutzschicht (NS): 5,4 bis 6 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.32 03A   MS-Parkett verkl.Langriem.-Optik 5,4-6 Ahorn/Kreis wl                                                         m²
+
+38.32 03B   MS-Parkett verkl.Langriem.-Optik 5,4-6 Ahorn/Kreis wö                                                         m²
+
+38.32 03C   MS-Parkett verkl.Langriem.-Optik 5,4-6 Ahorn/Dreieck wl                                                       m²
+                                                                                                                    Seite 21 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.32 03D   MS-Parkett verkl.Langriem.-Optik 5,4-6 Ahorn/Dreieck wö                                                       m²
+
+38.32 03E   MS-Parkett verkl.Langriem.-Optik 5,4-6 Ahorn/Quadrat wl                                                       m²
+
+38.32 03F   MS-Parkett verkl.Langriem.-Optik 5,4-6 Ahorn/Quadrat wö                                                       m²
+38.32 04    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Langriemen-Optik
+                • Nutzschicht (NS): 5,4 bis 6 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.32 04A   MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche/Kreis wl                                                         m²
+
+38.32 04B   MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche/Kreis wö                                                         m²
+
+38.32 04C   MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche/Dreieck wl                                                       m²
+
+38.32 04D   MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche/Dreieck wö                                                       m²
+
+38.32 04E   MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche/Quadrat wl                                                       m²
+
+38.32 04F   MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche/Quadrat wö                                                       m²
+
+38.32 04G   MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche ged./Kreis wl                                                    m²
+
+38.32 04H   MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche ged./Kreis wö                                                    m²
+
+38.32 04I   MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche ged./Dreieck wl                                                  m²
+
+38.32 04J   MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche ged./Dreieck wö                                                  m²
+
+38.32 04K   MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche ged./Quadrat wl                                                  m²
+
+38.32 04L   MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche ged./Quadrat wö                                                  m²
+38.35       Mehrschichtparkett verklebt Landhausdielen-Optik 2,5-3mm
+            1. Formate:
+            Standardformat (Landhausdielen-Optik):
+                • Längen: 1500 bis 2500 mm
+                • Breiten: 150 bis 200 mm
+            2. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart, die Art der Sortierung und die Art der Oberflächenbehandlung
+            (werkslackiert (wl) oder werksgeölt (wö)) angeben.
+
+38.35 01    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.35 01A   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Eiche/Kreis wl                                                         m²
+
+38.35 01B   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Eiche/Kreis wö                                                         m²
+
+38.35 01C   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Eiche/Dreieck wl                                                       m²
+
+38.35 01D   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Eiche/Dreieck wö                                                       m²
+
+38.35 01E   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Eiche/Quadrat wl                                                       m²
+
+38.35 01F   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Eiche/Quadrat wö                                                      m²
+38.35 02    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+
+                                                                                                                    Seite 22 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                 EH
+
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.35 02A   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Esche/Kreis wl                                     m²
+
+38.35 02B   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Esche/Kreis wö                                     m²
+
+38.35 02C   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Esche/Dreieck wl                                   m²
+
+38.35 02D   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Esche/Dreieck wö                                   m²
+
+38.35 02E   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Esche/Quadrat wl                                   m²
+
+38.35 02F   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Esche/Quadrat wö                                   m²
+38.35 03    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.35 03A   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Ahorn/Kreis wl                                     m²
+
+38.35 03B   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Ahorn/Kreis wö                                     m²
+
+38.35 03C   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Ahorn/Dreieck wl                                   m²
+
+38.35 03D   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Ahorn/Dreieck wö                                   m²
+
+38.35 03E   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Ahorn/Quadrat wl                                   m²
+
+38.35 03F   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Ahorn/Quadrat wö                                   m²
+38.35 04    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.35 04A   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche/Kreis wl                                     m²
+
+38.35 04B   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche/Kreis wö                                     m²
+
+38.35 04C   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche/Dreieck wl                                   m²
+
+38.35 04D   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche/Dreieck wö                                   m²
+
+38.35 04E   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche/Quadrat wl                                   m²
+
+38.35 04F   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche/Quadrat wö                                  m²
+
+38.35 04G   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche ged./Kreis wl                               m²
+
+38.35 04H   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche ged./Kreis wö                               m²
+
+38.35 04I   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche ged./Dreieck wl                             m²
+
+38.35 04J   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche ged./Dreieck wö                             m²
+
+38.35 04K   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche ged./Quadrat wl                             m²
+
+38.35 04L   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche ged./Quadrat wö                              m²
+38.35 05    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+                                                                                                Seite 23 / 47
+                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.35 05A   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Fichte/Kreis wl                                                        m²
+
+38.35 05B   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Fichte/Kreis wö                                                        m²
+
+38.35 05C   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Fichte/Dreieck wl                                                      m²
+
+38.35 05D   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Fichte/Dreieck wö                                                      m²
+
+38.35 05E   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Fichte/Quadrat wl                                                      m²
+
+38.35 05F   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Fichte/Quadrat wö                                                      m²
+38.35 06    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 11 mm (+/- 2 mm)
+
+38.35 06A   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Lärche/Kreis wl                                                        m²
+
+38.35 06B   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Lärche/Kreis wö                                                        m²
+
+38.35 06C   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Lärche/Dreieck wl                                                      m²
+
+38.35 06D   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Lärche/Dreieck wö                                                      m²
+
+38.35 06E   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Lärche/Quadrat wl                                                      m²
+
+38.35 06F   MS-Parkett verkl.Landhaus.-Optik 2,5-3 Lärche/Quadrat wö                                                     m²
+38.36       Mehrschichtparkett verklebt Landhausdielen-Optik 3,4-4mm
+            1. Formate:
+            Standardformat (Landhausdielen-Optik):
+                • Längen: 1500 bis 2500 mm
+                • Breiten: 150 bis 200 mm
+            2. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart, die Art der Sortierung und die Art der Oberflächenbehandlung
+            (werkslackiert (wl) oder werksgeölt (wö)) angeben.
+
+38.36 01    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.36 01A   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Eiche/Kreis wl                                                         m²
+
+38.36 01B   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Eiche/Kreis wö                                                         m²
+
+38.36 01C   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Eiche/Dreieck wl                                                       m²
+
+38.36 01D   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Eiche/Dreieck wö                                                       m²
+
+38.36 01E   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Eiche/Quadrat wl                                                       m²
+
+38.36 01F   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Eiche/Quadrat wö                                                       m²
+38.36 02    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.36 02A   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Esche/Kreis wl                                                         m²
+
+38.36 02B   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Esche/Kreis wö                                                         m²
+                                                                                                                    Seite 24 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                 EH
+
+38.36 02C   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Esche/Dreieck wl                                   m²
+
+38.36 02D   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Esche/Dreieck wö                                   m²
+
+38.36 02E   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Esche/Quadrat wl                                   m²
+
+38.36 02F   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Esche/Quadrat wö                                   m²
+38.36 03    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.36 03A   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Ahorn/Kreis wl                                     m²
+
+38.36 03B   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Ahorn/Kreis wö                                     m²
+
+38.36 03C   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Ahorn/Dreieck wl                                   m²
+
+38.36 03D   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Ahorn/Dreieck wö                                   m²
+
+38.36 03E   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Ahorn/Quadrat wl                                   m²
+
+38.36 03F   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Ahorn/Quadrat wö                                   m²
+38.36 04    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.36 04A   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche/Kreis wl                                     m²
+
+38.36 04B   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche/Kreis wö                                     m²
+
+38.36 04C   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche/Dreieck wl                                   m²
+
+38.36 04D   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche/Dreieck wö                                   m²
+
+38.36 04E   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche/Quadrat wl                                   m²
+
+38.36 04F   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche/Quadrat wö                                  m²
+
+38.36 04G   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche ged./Kreis wl                               m²
+
+38.36 04H   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche ged./Kreis wö                               m²
+
+38.36 04I   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche ged./Dreieck wl                             m²
+
+38.36 04J   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche ged./Dreieck wö                             m²
+
+38.36 04K   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche ged./Quadrat wl                             m²
+
+38.36 04L   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche ged./Quadrat wö                              m²
+38.36 05    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.36 05A   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Fichte/Kreis wl                                    m²
+
+38.36 05B   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Fichte/Kreis wö                                    m²
+
+38.36 05C   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Fichte/Dreieck wl                                  m²
+
+                                                                                                Seite 25 / 47
+                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.36 05D   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Fichte/Dreieck wö                                                      m²
+
+38.36 05E   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Fichte/Quadrat wl                                                      m²
+
+38.36 05F   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Fichte/Quadrat wö                                                      m²
+38.36 06    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • verklebt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 12 mm (+/- 2 mm)
+
+38.36 06A   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Lärche/Kreis wl                                                        m²
+
+38.36 06B   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Lärche/Kreis wö                                                        m²
+
+38.36 06C   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Lärche/Dreieck wl                                                      m²
+
+38.36 06D   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Lärche/Dreieck wö                                                      m²
+
+38.36 06E   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Lärche/Quadrat wl                                                      m²
+
+38.36 06F   MS-Parkett verkl.Landhaus.-Optik 3,4-4 Lärche/Quadrat wö                                                     m²
+38.37       Mehrschichtparkett schwimmend Landhausdielen-Optik 2,5-3mm
+            1. Formate:
+            Standardformat (Landhausdielen-Optik):
+                • Längen: 1500 bis 2500 mm
+                • Breiten: 150 bis 200 mm
+            2. Einkalkulierte Leistungen:
+            Eine Lage Schalldämmmatte aus geschlossenzelligem Schaumstoff, mindestens 65 g/m2 ist im Einheitspreis
+            einkalkuliert.
+            3. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart, die Art der Sortierung und die Art der Oberflächenbehandlung
+            (werkslackiert (wl) oder werksgeölt (wö)) angeben.
+            LB-Version: 23              Geringfügig Geändert
+38.37 01    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.37 01A   MS-Parkett schw.Landhaus.-Optik 2,5-3 Eiche/Kreis wl                                                          m²
+
+38.37 01B   MS-Parkett schw.Landhaus.-Optik 2,5-3 Eiche/Kreis wö                                                          m²
+
+38.37 01C   MS-Parkett schw.Landhaus.-Optik 2,5-3 Eiche/Dreieck wl                                                        m²
+
+38.37 01D   MS-Parkett schw.Landhaus.-Optik 2,5-3 Eiche/Dreieck wö                                                        m²
+
+38.37 01E   MS-Parkett schw.Landhaus.-Optik 2,5-3 Eiche/Quadrat wl                                                        m²
+
+38.37 01F   MS-Parkett schw.Landhaus.-Optik 2,5-3 Eiche/Quadrat wö                                                        m²
+38.37 02    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.37 02A   MS-Parkett schw.Landhaus.-Optik 2,5-3 Esche/Kreis wl                                                          m²
+
+38.37 02B   MS-Parkett schw.Landhaus.-Optik 2,5-3 Esche/Kreis wö                                                          m²
+
+                                                                                                                    Seite 26 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                EH
+
+38.37 02C   MS-Parkett schw.Landhaus.-Optik 2,5-3 Esche/Dreieck wl                                   m²
+
+38.37 02D   MS-Parkett schw.Landhaus.-Optik 2,5-3 Esche/Dreieck wö                                   m²
+
+38.37 02E   MS-Parkett schw.Landhaus.-Optik 2,5-3 Esche/Quadrat wl                                   m²
+
+38.37 02F   MS-Parkett schw.Landhaus.-Optik 2,5-3 Esche/Quadrat wö                                   m²
+38.37 03    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.37 03A   MS-Parkett schw.Landhaus.-Optik 2,5-3 Ahorn/Kreis wl                                     m²
+
+38.37 03B   MS-Parkett schw.Landhaus.-Optik 2,5-3 Ahorn/Kreis wö                                     m²
+
+38.37 03C   MS-Parkett schw.Landhaus.-Optik 2,5-3 Ahorn/Dreieck wl                                   m²
+
+38.37 03D   MS-Parkett schw.Landhaus.-Optik 2,5-3 Ahorn/Dreieck wö                                   m²
+
+38.37 03E   MS-Parkett schw.Landhaus.-Optik 2,5-3 Ahorn/Quadrat wl                                   m²
+
+38.37 03F   MS-Parkett schw.Landhaus.-Optik 2,5-3 Ahorn/Quadrat wö                                   m²
+38.37 04    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.37 04A   MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche/Kreis wl                                     m²
+
+38.37 04B   MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche/Kreis wö                                     m²
+
+38.37 04C   MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche/Dreieck wl                                   m²
+
+38.37 04D   MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche/Dreieck wö                                   m²
+
+38.37 04E   MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche/Quadrat wl                                   m²
+
+38.37 04F   MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche/Quadrat wö                                   m²
+
+38.37 04G   MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche ged./Kreis wl                                m²
+
+38.37 04H   MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche ged./Kreis wö                                m²
+
+38.37 04I   MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche ged./Dreieck wl                              m²
+
+38.37 04J   MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche ged./Dreieck wö                              m²
+
+38.37 04K   MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche ged./Quadrat wl                              m²
+
+38.37 04L   MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche ged./Quadrat wö                              m²
+38.37 05    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 2,5 bis 3 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.37 05A   MS-Parkett schw.Landhaus.-Optik 2,5-3 Fichte/Kreis wl                                    m²
+
+38.37 05B   MS-Parkett schw.Landhaus.-Optik 2,5-3 Fichte/Kreis wö                                    m²
+
+38.37 05C   MS-Parkett schw.Landhaus.-Optik 2,5-3 Fichte/Dreieck wl                                  m²
+
+                                                                                               Seite 27 / 47
+                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.37 05D   MS-Parkett schw.Landhaus.-Optik 2,5-3 Fichte/Dreieck wö                                                       m²
+
+38.37 05E   MS-Parkett schw.Landhaus.-Optik 2,5-3 Fichte/Quadrat wl                                                       m²
+
+38.37 05F   MS-Parkett schw.Landhaus.-Optik 2,5-3 Fichte/Quadrat wö                                                       m²
+38.37 06    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 13 mm (+/- 2 mm)
+
+38.37 06A   MS-Parkett schw.Landhaus.-Optik 2,5-3 Lärche/Kreis wl                                                         m²
+
+38.37 06B   MS-Parkett schw.Landhaus.-Optik 2,5-3 Lärche/Kreis wö                                                         m²
+
+38.37 06C   MS-Parkett schw.Landhaus.-Optik 2,5-3 Lärche/Dreieck wl                                                       m²
+
+38.37 06D   MS-Parkett schw.Landhaus.-Optik 2,5-3 Lärche/Dreieck wö                                                       m²
+
+38.37 06E   MS-Parkett schw.Landhaus.-Optik 2,5-3 Lärche/Quadrat wl                                                       m²
+
+38.37 06F   MS-Parkett schw.Landhaus.-Optik 2,5-3 Lärche/Quadrat wö                                                       m²
+38.38       Mehrschichtparkett schwimmend Landhausdielen-Optik 3,4-4mm
+            1. Formate:
+            Standardformat (Landhausdielen-Optik):
+                • Längen: 1500 bis 2500 mm
+                • Breiten: 150 bis 200 mm
+            2. Einkalkulierte Leistungen:
+            Eine Lage Schalldämmmatte aus geschlossenzelligem Schaumstoff, mindestens 65 g/m2 ist im Einheitspreis
+            einkalkuliert.
+            3. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart, die Art der Sortierung und die Art der Oberflächenbehandlung
+            (werkslackiert (wl) oder werksgeölt (wö)) angeben.
+            LB-Version: 23              Geringfügig Geändert
+38.38 01    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 14 mm (+/- 2 mm)
+
+38.38 01A   MS-Parkett schw.Landhaus.-Optik 3,4-4 Eiche/Kreis wl                                                          m²
+
+38.38 01B   MS-Parkett schw.Landhaus.-Optik 3,4-4 Eiche/Kreis wö                                                          m²
+
+38.38 01C   MS-Parkett schw.Landhaus.-Optik 3,4-4 Eiche/Dreieck wl                                                        m²
+
+38.38 01D   MS-Parkett schw.Landhaus.-Optik 3,4-4 Eiche/Dreieck wö                                                        m²
+
+38.38 01E   MS-Parkett schw.Landhaus.-Optik 3,4-4 Eiche/Quadrat wl                                                        m²
+
+38.38 01F   MS-Parkett schw.Landhaus.-Optik 3,4-4 Eiche/Quadrat wö                                                        m²
+38.38 02    Mehrschicht (MS-) parkett (Zwei- oder Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 14 mm (+/- 2 mm)
+
+38.38 02A   MS-Parkett schw.Landhaus.-Optik 3,4-4 Esche/Kreis wl                                                          m²
+
+38.38 02B   MS-Parkett schw.Landhaus.-Optik 3,4-4 Esche/Kreis wö                                                          m²
+
+                                                                                                                    Seite 28 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                EH
+
+38.38 02C   MS-Parkett schw.Landhaus.-Optik 3,4-4 Esche/Dreieck wl                                   m²
+
+38.38 02D   MS-Parkett schw.Landhaus.-Optik 3,4-4 Esche/Dreieck wö                                   m²
+
+38.38 02E   MS-Parkett schw.Landhaus.-Optik 3,4-4 Esche/Quadrat wl                                   m²
+
+38.38 02F   MS-Parkett schw.Landhaus.-Optik 3,4-4 Esche/Quadrat wö                                   m²
+38.38 03    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 14 mm (+/- 2 mm)
+
+38.38 03A   MS-Parkett schw.Landhaus.-Optik 3,4-4 Ahorn/Kreis wl                                     m²
+
+38.38 03B   MS-Parkett schw.Landhaus.-Optik 3,4-4 Ahorn/Kreis wö                                     m²
+
+38.38 03C   MS-Parkett schw.Landhaus.-Optik 3,4-4 Ahorn/Dreieck wl                                   m²
+
+38.38 03D   MS-Parkett schw.Landhaus.-Optik 3,4-4 Ahorn/Dreieck wö                                   m²
+
+38.38 03E   MS-Parkett schw.Landhaus.-Optik 3,4-4 Ahorn/Quadrat wl                                   m²
+
+38.38 03F   MS-Parkett schw.Landhaus.-Optik 3,4-4 Ahorn/Quadrat wö                                   m²
+38.38 04    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 14 mm (+/- 2 mm)
+
+38.38 04A   MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche/Kreis wl                                     m²
+
+38.38 04B   MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche/Kreis wö                                     m²
+
+38.38 04C   MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche/Dreieck wl                                   m²
+
+38.38 04D   MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche/Dreieck wö                                   m²
+
+38.38 04E   MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche/Quadrat wl                                   m²
+
+38.38 04F   MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche/Quadrat wö                                   m²
+
+38.38 04G   MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche ged./Kreis wl                                m²
+
+38.38 04H   MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche ged./Kreis wö                                m²
+
+38.38 04I   MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche ged./Dreieck wl                              m²
+
+38.38 04J   MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche ged./Dreieck wö                              m²
+
+38.38 04K   MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche ged./Quadrat wl                              m²
+
+38.38 04L   MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche ged./Quadrat wö                              m²
+38.38 05    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 14 mm (+/- 2 mm)
+
+38.38 05A   MS-Parkett schw.Landhaus.-Optik 3,4-4 Fichte/Kreis wl                                    m²
+
+38.38 05B   MS-Parkett schw.Landhaus.-Optik 3,4-4 Fichte/Kreis wö                                    m²
+
+38.38 05C   MS-Parkett schw.Landhaus.-Optik 3,4-4 Fichte/Dreieck wl                                  m²
+
+                                                                                               Seite 29 / 47
+                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.38 05D   MS-Parkett schw.Landhaus.-Optik 3,4-4 Fichte/Dreieck wö                                                       m²
+
+38.38 05E   MS-Parkett schw.Landhaus.-Optik 3,4-4 Fichte/Quadrat wl                                                       m²
+
+38.38 05F   MS-Parkett schw.Landhaus.-Optik 3,4-4 Fichte/Quadrat wö                                                       m²
+38.38 06    Mehrschicht (MS-) parkett (Dreischicht).
+                • schwimmend, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 14 mm (+/- 2 mm)
+
+38.38 06A   MS-Parkett schw.Landhaus.-Optik 3,4-4 Lärche/Kreis wl                                                         m²
+
+38.38 06B   MS-Parkett schw.Landhaus.-Optik 3,4-4 Lärche/Kreis wö                                                         m²
+
+38.38 06C   MS-Parkett schw.Landhaus.-Optik 3,4-4 Lärche/Dreieck wl                                                       m²
+
+38.38 06D   MS-Parkett schw.Landhaus.-Optik 3,4-4 Lärche/Dreieck wö                                                       m²
+
+38.38 06E   MS-Parkett schw.Landhaus.-Optik 3,4-4 Lärche/Quadrat wl                                                       m²
+
+38.38 06F   MS-Parkett schw.Landhaus.-Optik 3,4-4 Lärche/Quadrat wö                                                       m²
+38.39       Mehrschichtparkett genagelt Landhausdielen-Optik 3,4-4mm
+            1. Formate:
+            Standardformat (Landhausdielen-Optik):
+                • Längen: 1500 bis 2500 mm
+                • Breiten: 150 bis 200 mm
+            2. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart, die Art der Sortierung und die Art der Oberflächenbehandlung
+            (werkslackiert (wl) oder werksgeölt (wö)) angeben.
+
+38.39 01    Mehrschicht (MS-) parkett (Dreischicht).
+                • genagelt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 19 mm (+/- 2 mm)
+
+38.39 01A   MS-Parkett gen.Landhaus.-Optik 3,4-4 Eiche/Kreis wl                                                           m²
+
+38.39 01B   MS-Parkett gen.Landhaus.-Optik 3,4-4 Eiche/Kreis wö                                                           m²
+
+38.39 01C   MS-Parkett gen.Landhaus.-Optik 3,4-4 Eiche/Dreieck wl                                                         m²
+
+38.39 01D   MS-Parkett gen.Landhaus.-Optik 3,4-4 Eiche/Dreieck wö                                                         m²
+
+38.39 01E   MS-Parkett gen.Landhaus.-Optik 3,4-4 Eiche/Quadrat wl                                                         m²
+
+38.39 01F   MS-Parkett gen.Landhaus.-Optik 3,4-4 Eiche/Quadrat wö                                                         m²
+38.39 02    Mehrschicht (MS-) parkett (Dreischicht).
+                • genagelt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 19 mm (+/- 2 mm)
+
+38.39 02A   MS-Parkett gen.Landhaus.-Optik 3,4-4 Esche/Kreis wl                                                           m²
+
+38.39 02B   MS-Parkett gen.Landhaus.-Optik 3,4-4 Esche/Kreis wö                                                           m²
+
+38.39 02C   MS-Parkett gen.Landhaus.-Optik 3,4-4 Esche/Dreieck wl                                                         m²
+
+38.39 02D   MS-Parkett gen.Landhaus.-Optik 3,4-4 Esche/Dreieck wö                                                         m²
+
+38.39 02E   MS-Parkett gen.Landhaus.-Optik 3,4-4 Esche/Quadrat wl                                                         m²
+                                                                                                                    Seite 30 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                               EH
+
+38.39 02F   MS-Parkett gen.Landhaus.-Optik 3,4-4 Esche/Quadrat wö                                   m²
+38.39 03    Mehrschicht (MS-) parkett (Dreischicht).
+                • genagelt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 19 mm (+/- 2 mm)
+
+38.39 03A   MS-Parkett gen.Landhaus.-Optik 3,4-4 Ahorn/Kreis wl                                     m²
+
+38.39 03B   MS-Parkett gen.Landhaus.-Optik 3,4-4 Ahorn/Kreis wö                                     m²
+
+38.39 03C   MS-Parkett gen.Landhaus.-Optik 3,4-4 Ahorn/Dreieck wl                                   m²
+
+38.39 03D   MS-Parkett gen.Landhaus.-Optik 3,4-4 Ahorn/Dreieck wö                                   m²
+
+38.39 03E   MS-Parkett gen.Landhaus.-Optik 3,4-4 Ahorn/Quadrat wl                                   m²
+
+38.39 03F   MS-Parkett gen.Landhaus.-Optik 3,4-4 Ahorn/Quadrat wö                                   m²
+38.39 04    Mehrschicht (MS-) parkett (Dreischicht).
+                • genagelt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 19 mm (+/- 2 mm)
+
+38.39 04A   MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche/Kreis wl                                     m²
+
+38.39 04B   MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche/Kreis wö                                     m²
+
+38.39 04C   MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche/Dreieck wl                                   m²
+
+38.39 04D   MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche/Dreieck wö                                   m²
+
+38.39 04E   MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche/Quadrat wl                                   m²
+
+38.39 04F   MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche/Quadrat wö                                   m²
+
+38.39 04G   MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche ged./Kreis wl                                m²
+
+38.39 04H   MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche ged./Kreis wö                                m²
+
+38.39 04I   MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche ged./Dreieck wl                              m²
+
+38.39 04J   MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche ged./Dreieck wö                              m²
+
+38.39 04K   MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche ged./Quadrat wl                              m²
+
+38.39 04L   MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche ged./Quadrat wö                              m²
+38.39 05    Mehrschicht (MS-) parkett (Dreischicht).
+                • genagelt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 19 mm (+/- 2 mm)
+
+38.39 05A   MS-Parkett gen.Landhaus.-Optik 3,4-4 Fichte/Kreis wl                                    m²
+
+38.39 05B   MS-Parkett gen.Landhaus.-Optik 3,4-4 Fichte/Kreis wö                                    m²
+
+38.39 05C   MS-Parkett gen.Landhaus.-Optik 3,4-4 Fichte/Dreieck wl                                  m²
+
+38.39 05D   MS-Parkett gen.Landhaus.-Optik 3,4-4 Fichte/Dreieck wö                                  m²
+
+38.39 05E   MS-Parkett gen.Landhaus.-Optik 3,4-4 Fichte/Quadrat wl                                  m²
+
+38.39 05F   MS-Parkett gen.Landhaus.-Optik 3,4-4 Fichte/Quadrat wö                                  m²
+
+                                                                                              Seite 31 / 47
+                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.39 06    Mehrschicht (MS-) parkett (Dreischicht).
+                • genagelt, ungeordneter Verband
+                • Landhausdielen-Optik
+                • Nutzschicht (NS): 3,4 bis 4 mm
+                • Dicke: 19 mm (+/- 2 mm)
+
+38.39 06A   MS-Parkett gen.Landhaus.-Optik 3,4-4 Lärche/Kreis wl                                                         m²
+
+38.39 06B   MS-Parkett gen.Landhaus.-Optik 3,4-4 Lärche/Kreis wö                                                         m²
+
+38.39 06C   MS-Parkett gen.Landhaus.-Optik 3,4-4 Lärche/Dreieck wl                                                       m²
+
+38.39 06D   MS-Parkett gen.Landhaus.-Optik 3,4-4 Lärche/Dreieck wö                                                       m²
+
+38.39 06E   MS-Parkett gen.Landhaus.-Optik 3,4-4 Lärche/Quadrat wl                                                       m²
+
+38.39 06F   MS-Parkett gen.Landhaus.-Optik 3,4-4 Lärche/Quadrat wö                                                       m²
+38.41       Mosaikparkett verklebt 8mm
+
+
+            1. Einkalkulierte Leistungen:
+            Das Schleifen und das Kitten des fertig verlegten Roh-Parkettbodens für weitere (in eigenen Positionen
+            beschrieben) Oberflächenbehandlungen ist im Einheitspreis einkalkuliert.
+            2. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart und die Art der Sortierung angeben.
+            LB-Version: 23              Geringfügig Geändert
+38.41 01    Mosaikparkett, verklebt.
+                • Verlegeart: schach
+                • Format: 160 mm
+                • Dicke: 8 mm
+                • massiv
+
+38.41 01A   Mosaikparkett massiv verkl.8mm Eiche/Kreis                                                                   m²
+
+38.41 01B   Mosaikparkett massiv verkl.8mm Eiche/Dreieck                                                                 m²
+
+38.41 01C   Mosaikparkett massiv verkl.8mm Eiche/Quadrat                                                                 m²
+38.41 02    Mosaikparkett, verklebt.
+                • Verlegeart: schach
+                • Format: 160 mm
+                • Dicke: 8 mm
+                • massiv
+
+38.41 02A   Mosaikparkett massiv verkl.8mm Esche/Kreis                                                                   m²
+
+38.41 02B   Mosaikparkett massiv verkl.8mm Esche/Dreieck                                                                 m²
+
+38.41 02C   Mosaikparkett massiv verkl.8mm Esche/Quadrat                                                                 m²
+38.41 03    Mosaikparkett, verklebt.
+                • Verlegeart: schach
+                • Format: 160 mm
+                • Dicke: 8 mm
+                • massiv
+
+38.41 03A   Mosaikparkett massiv verkl.8mm Ahorn/Kreis                                                                   m²
+
+38.41 03B   Mosaikparkett massiv verkl.8mm Ahorn/Dreieck                                                                 m²
+
+38.41 03C   Mosaikparkett massiv verkl.8mm Ahorn/Quadrat                                                                 m²
+38.41 04    Mosaikparkett, verklebt.
+                • Verlegeart: schach
+
+                                                                                                                   Seite 32 / 47
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+                • Format: 160 mm
+                • Dicke: 8 mm
+                • massiv
+
+38.41 04A   Mosaikparkett massiv verkl.8mm Buche/Kreis                                                                   m²
+
+38.41 04B   Mosaikparkett massiv verkl.8mm Buche/Dreieck                                                                 m²
+
+38.41 04C   Mosaikparkett massiv verkl.8mm Buche/Quadrat                                                                 m²
+
+38.41 04D   Mosaikparkett massiv verkl.8mm Buche ged./Kreis                                                              m²
+
+38.41 04E   Mosaikparkett massiv verkl.8mm Buche ged./Dreieck                                                            m²
+
+38.41 04F   Mosaikparkett massiv verkl.8mm Buche ged./Quadrat                                                            m²
+38.41 11    Aufzahlung (Az) auf Mosaikparkett, verklebt,
+                • Verlegeart: schach
+                • Format: 160 mm
+                • Dicke: 8 mm
+                • massiv
+            für eine andere Verlegeart.
+            Die Verlegeart ist im Positionsstichwort angegeben.
+
+38.41 11A   Az Mosaikparkett massiv verkl.8mm f.Verlegung parallel                                                       m²
+
+38.41 11B   Az Mosaikparkett massiv verkl.8mm f.Verlegung engl.Verband                                                   m²
+
+38.41 11C   Az Mosaikparkett massiv verkl.8mm f.Verlegung Fischgrät                                                      m²
+
+38.41 11D   Az Mosaikparkett massiv verkl.8mm f.Verlegung diagonal                                                       m²
+38.43       Hochkantparkett massiv verklebt
+
+
+            1. Einkalkulierte Leistungen:
+            Das Schleifen und das Kitten des fertig verlegten Roh-Parkettbodens für weitere (in eigenen Positionen
+            beschrieben) Oberflächenbehandlungen ist im Einheitspreis einkalkuliert.
+            2. Angaben im Positionsstichwort:
+            Im Positionsstichwort ist die Holzart angeben.
+            LB-Version: 23                Geringfügig Geändert
+38.43 01    Hochkantparkett, verklebt.
+                • Verlegeart: parallel
+                • Format: 160 mm
+                • Dicke: 8 bis 10 mm
+                • massiv
+
+38.43 01A   Hochkantparkett massiv verklebt 8-10mm Eiche                                                                 m²
+            Format: ____________
+
+38.43 01B   Hochkantparkett massiv verklebt 8-10mm Esche                                                                 m²
+            Format: ____________
+
+38.43 01C   Hochkantparkett massiv verklebt 8-10mm Ahorn                                                                 m²
+            Format: ____________
+
+38.43 01D   Hochkantparkett massiv verklebt 8-10mm Buche                                                                 m²
+            Format: ____________
+
+38.43 01E   Hochkantparkett massiv verklebt 8-10mm Buche ged.                                                            m²
+            Format: ____________
+
+
+
+                                                                                                                   Seite 33 / 47
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.43 11    Hochkantparkett, verklebt.
+                • Verlegeart: parallel
+                • Format: 160 mm
+                • Dicke: 20 bis 23 mm
+                • massiv
+
+38.43 11A   Hochkantparkett massiv verklebt 20-23mm Eiche                                                                m²
+            Format: ____________
+
+38.43 11B   Hochkantparkett massiv verklebt 20-23mm Esche                                                                m²
+            Format: ____________
+
+38.43 11C   Hochkantparkett massiv verklebt 20-23mm Ahorn                                                                m²
+            Format: ____________
+
+38.43 11D   Hochkantparkett massiv verklebt 20-23mm Buche                                                                m²
+            Format: ____________
+
+38.43 11E   Hochkantparkett massiv verklebt 20-23mm Buche ged.                                                           m²
+            Format: ____________
+
+38.45       Stabparkett massiv verklebt 22mm
+
+
+            1. Einkalkulierte Leistungen:
+            Das Schleifen und das Kitten des fertig verlegten Roh-Parkettbodens für weitere (in eigenen Positionen
+            beschrieben) Oberflächenbehandlungen ist im Einheitspreis einkalkuliert.
+            2. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart und die Art der Sortierung angeben.
+            LB-Version: 23               Geringfügig Geändert
+38.45 01    Stabparkett, verklebt.
+                • Verlegeart: geordneter Verband
+                • Dicke: 22 mm
+                • massiv
+
+38.45 01A   Stabparkett massiv verklebt 22mm Eiche/Kreis                                                                 m²
+            Format: ____________
+
+38.45 01B   Stabparkett massiv verklebt 22mm Eiche/Dreieck                                                               m²
+            Format: ____________
+
+38.45 01C   Stabparkett massiv verklebt 22mm Eiche/Quadrat                                                               m²
+            Format: ____________
+
+38.45 02    Stabparkett, verklebt.
+                • Verlegeart: geordneter Verband
+                • Dicke: 22 mm
+                • massiv
+
+38.45 02A   Stabparkett massiv verklebt 22mm Esche/Kreis                                                                 m²
+            Format: ____________
+
+38.45 02B   Stabparkett massiv verklebt 22mm Esche/Dreieck                                                               m²
+            Format: ____________
+
+38.45 02C   Stabparkett massiv verklebt 22mm Esche/Quadrat                                                               m²
+            Format: ____________
+
+
+
+
+                                                                                                                   Seite 34 / 47
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.45 03    Stabparkett, verklebt.
+                • Verlegeart: geordneter Verband
+                • Dicke: 22 mm
+                • massiv
+
+38.45 03A   Stabparkett massiv verklebt 22mm Ahorn/Kreis                                                                 m²
+            Format: ____________
+
+38.45 03B   Stabparkett massiv verklebt 22mm Ahorn/Dreieck                                                               m²
+            Format: ____________
+
+38.45 03C   Stabparkett massiv verklebt 22mm Ahorn/Quadrat                                                               m²
+            Format: ____________
+
+38.45 04    Stabparkett, verklebt.
+                • Verlegeart: geordneter Verband
+                • Dicke: 22 mm
+                • massiv
+
+38.45 04A   Stabparkett massiv verklebt 22mm Buche/Kreis                                                                 m²
+            Format: ____________
+
+38.45 04B   Stabparkett massiv verklebt 22mm Buche/Dreieck                                                               m²
+            Format: ____________
+
+38.45 04C   Stabparkett massiv verklebt 22mm Buche/Quadrat                                                               m²
+            Format: ____________
+
+38.45 04D   Stabparkett massiv verklebt 22mm Buche ged./Kreis                                                            m²
+            Format: ____________
+
+38.45 04E   Stabparkett massiv verklebt 22mm Buche ged./Dreieck                                                          m²
+            Format: ____________
+
+38.45 04F   Stabparkett massiv verklebt 22mm Buche ged./Quadrat                                                          m²
+            Format: ____________
+
+38.45 11    Aufzahlung (Az) auf Stabparkett, verklebt.
+                • Verlegeart: geordneter Verband
+                • Dicke: 22 mm
+                • massiv
+
+38.45 11A   Az Stabparkett massiv verklebt 22mm f.Wandfriese 100mm                                                       m
+            Für Wandfriese.
+                • Breite: 100 mm
+
+38.45 11B   Az Stabparkett massiv verklebt 22mm f.Verlegung Fischgrät                                                    m²
+            Für die Verlegeart: Fischgrät
+
+38.46       Stabparkett massiv genagelt 22mm
+
+
+            1. Einkalkulierte Leistungen:
+            Das Schleifen und das Kitten des fertig verlegten Roh-Parkettbodens für weitere (in eigenen Positionen
+            beschrieben) Oberflächenbehandlungen ist im Einheitspreis einkalkuliert.
+            2. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Holzart und die Art der Sortierung angeben.
+
+            LB-Version: 23              Geringfügig Geändert
+
+
+
+
+                                                                                                                   Seite 35 / 47
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                        EH
+
+38.46 01    Stabparkett, genagelt.
+                • Verlegeart: geordneter Verband
+                • Dicke: 22 mm
+                • massiv
+
+38.46 01A   Stabparkett massiv genagelt 22mm Eiche/Kreis                                     m²
+            Format: ____________
+
+38.46 01B   Stabparkett massiv genagelt 22mm Eiche/Dreieck                                   m²
+            Format: ____________
+
+38.46 01C   Stabparkett massiv genagelt 22mm Eiche/Quadrat                                   m²
+            Format: ____________
+
+38.46 02    Stabparkett, genagelt.
+                • Verlegeart: geordneter Verband
+                • Dicke: 22 mm
+                • massiv
+
+38.46 02A   Stabparkett massiv genagelt 22mm Esche/Kreis                                     m²
+            Format: ____________
+
+38.46 02B   Stabparkett massiv genagelt 22mm Esche/Dreieck                                   m²
+            Format: ____________
+
+38.46 02C   Stabparkett massiv genagelt 22mm Esche/Quadrat                                   m²
+            Format: ____________
+
+38.46 03    Stabparkett, genagelt.
+                • Verlegeart: geordneter Verband
+                • Dicke: 22 mm
+                • massiv
+
+38.46 03A   Stabparkett massiv genagelt 22mm Ahorn/Kreis                                     m²
+            Format: ____________
+
+38.46 03B   Stabparkett massiv genagelt 22mm Ahorn/Dreieck                                   m²
+            Format: ____________
+
+38.46 03C   Stabparkett massiv genagelt 22mm Ahorn/Quadrat                                   m²
+            Format: ____________
+
+38.46 04    Stabparkett, genagelt.
+                • Verlegeart: geordneter Verband
+                • Dicke: 22 mm
+                • massiv
+
+38.46 04A   Stabparkett massiv genagelt 22mm Buche/Kreis                                     m²
+            Format: ____________
+
+38.46 04B   Stabparkett massiv genagelt 22mm Buche/Dreieck                                   m²
+            Format: ____________
+
+38.46 04C   Stabparkett massiv genagelt 22mm Buche/Quadrat                                   m²
+            Format: ____________
+
+38.46 04D   Stabparkett massiv genagelt 22mm Buche ged./Kreis                                m²
+            Format: ____________
+
+38.46 04E   Stabparkett massiv genagelt 22mm Buche ged./Dreieck                              m²
+            Format: ____________
+
+                                                                                       Seite 36 / 47
+                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+38.46 04F   Stabparkett massiv genagelt 22mm Buche ged./Quadrat                                                            m²
+            Format: ____________
+
+38.46 11    Aufzahlung (Az) auf Stabparkett, genagelt, einschließlich Schleifen der fertig verlegten Oberfläche für weitere
+            Oberflächenbehandlungen (in eigenen Positionen beschrieben).
+                • Verlegeart: geordneter Verband
+                • Dicke: 22 mm
+                • massiv
+
+38.46 11A   Az Stabparkett massiv genagelt 22mm f.Wandfriese 100mm                                                         m
+            Für Wandfriese.
+                • Breite: 100 mm
+
+38.46 11B   Az Stabparkett massiv genagelt 22mm f.Verlegung Fischgrät                                                      m²
+            Für die Verlegeart: Fischgrät
+
+38.60       Sonstiges, Oberflächen
+38.60 02    Sesselleisten (Fußboden), dem zugehörigen Boden im Farbton angepasst, farblos lackiert ("Schweizerleiste" =
+            Profil B).
+                • auf den Fußbodenbelag genagelt
+            Im Positionsstichwort ist das Material angegeben.
+
+38.60 02A   Sesselleiste "Schweizerleiste" Eiche                                                                           m
+
+38.60 02B   Sesselleiste "Schweizerleiste" Esche                                                                           m
+
+38.60 02C   Sesselleiste "Schweizerleiste" Ahorn                                                                           m
+
+38.60 02D   Sesselleiste "Schweizerleiste" Buche                                                                           m
+
+38.60 02E   Sesselleiste "Schweizerleiste" Fichte                                                                          m
+
+38.60 02F   Sesselleiste "Schweizerleiste" Lärche                                                                         m
+38.60 03    Sockelleisten, mit Viertelrundung oder Hohlkehlenprofil nach Wahl des Auftraggebers.
+                • massiv
+                • farblos lackiert
+                • mit Schrauben und Dübeln an der Wand montiert
+            Im Positionsstichwort sind das Material und die Profil-Abmessungen (mm) angegeben.
+
+38.60 03A   Sockelleiste massiv Eiche ca.15x55mm                                                                           m
+
+38.60 03B   Sockelleiste massiv Eiche ca.20x70mm                                                                           m
+
+38.60 03C   Sockelleiste massiv Esche ca.15x55mm                                                                           m
+
+38.60 03D   Sockelleiste massiv Esche ca.20x70mm                                                                           m
+
+38.60 03E   Sockelleiste massiv Ahorn ca.15x55mm                                                                           m
+
+38.60 03F   Sockelleiste massiv Ahorn ca.20x70mm                                                                           m
+
+38.60 03G   Sockelleiste massiv Buche ca.15x55mm                                                                           m
+
+38.60 03H   Sockelleiste massiv Buche ca.20x70mm                                                                           m
+
+38.60 03I   Sockelleiste massiv Fichte ca.15x55mm                                                                          m
+
+38.60 03J   Sockelleiste massiv Fichte ca.20x70mm                                                                          m
+
+38.60 03K   Sockelleiste massiv Lärche ca.15x55mm                                                                          m
+
+38.60 03L   Sockelleiste massiv Lärche ca.20x70mm                                                                          m
+
+                                                                                                                     Seite 37 / 47
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+38.60 04    Sockelleisten, mit Viertelrundung oder Hohlkehlenprofil nach Wahl des Auftraggebers.
+                • edelfurniert
+                • an der Wand montiert (gestiftet oder geklebt)
+            Im Positionsstichwort sind das Material und die Profil-Abmessungen (mm) angegeben.
+
+38.60 04A   Sockelleiste edelfurniert Eiche ca.15x55mm                                                                  m
+
+38.60 04B   Sockelleiste edelfurniert Eiche ca.15x70mm                                                                  m
+
+38.60 04C   Sockelleiste edelfurniert Esche ca.15x55mm                                                                  m
+
+38.60 04D   Sockelleiste edelfurniert Esche ca.15x70mm                                                                  m
+
+38.60 04E   Sockelleiste edelfurniert Ahorn ca.15x55mm                                                                  m
+
+38.60 04F   Sockelleiste edelfurniert Ahorn ca.15x70mm                                                                  m
+
+38.60 04G   Sockelleiste edelfurniert Buche ca.15x55mm                                                                  m
+
+38.60 04H   Sockelleiste edelfurniert Buche ca.15x70mm                                                                  m
+
+38.60 04I   Sockelleiste edelfurniert Fichte ca.15x55mm                                                                 m
+
+38.60 04J   Sockelleiste edelfurniert Fichte ca.15x70mm                                                                 m
+
+38.60 04K   Sockelleiste edelfurniert Lärche ca.15x55mm                                                                 m
+
+38.60 04L   Sockelleiste edelfurniert Lärche ca.15x70mm                                                                m
+
+38.60 04Q   Az Sockelleiste edelfurniert f.Schrauben/Dübeln                                                            m
+            Aufzahlung (Az) für das Schrauben beziehungsweise Dübeln.
+
+38.60 05    Aufzahlung (Az) für Schwellen, eingepasst, grundiert und zweimal versiegelt.
+            Im Positionsstichwort sind die Abmessungen Breite/Länge/Dicke (cm) und das Material angegeben.
+
+38.60 05A   Az Schwelle12/b.70/3cm__________                                                                            Stk
+
+38.60 05B   Az Schwelle 12/ü.70-90/3cm__________                                                                        Stk
+
+38.60 05C   Az Schwelle 15/b.70/3cm__________                                                                           Stk
+
+38.60 05D   Az Schwelle 15/ü.70-90/3cm__________                                                                        Stk
+38.60 06    Versiegeln des frisch abgeschliffenen Fußbodens, einschließlich Grundieren und Zwischenfeinschleifen.
+            Oberfläche nach Wahl des Auftraggebers matt, seidenmatt oder glänzend.
+
+38.60 06A   Grundieren+2x versiegeln WL                                                                                 m²
+            Zweimal versiegeln, mit wasserlöslichem Lack (WL).
+
+38.60 06B   Grundieren+3x versiegeln WL                                                                                 m²
+            Dreimal versiegeln, mit wasserlöslichem Lack (WL).
+
+38.60 06G   Grundieren+2x versiegeln WL,Klasse C                                                                        m²
+            Zweimal versiegeln, mit wasserlöslichem Lack (WL).
+            Klasse C
+
+38.60 06H   Grundieren+3x versiegeln WL,Klasse C                                                                        m²
+            Dreimal versiegeln, mit wasserlöslichem Lack (WL).
+            Klasse C
+38.60 07    Frisch abgeschliffenen Parkettboden wachsen.
+
+38.60 07A   Parkettboden wachsen                                                                                        m²
+            Zweimal wachsen, bürsten und polieren.
+
+                                                                                                                  Seite 38 / 47
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+38.60 07B   Parkettboden ölen                                                                                                      m²
+            Auftragen eines Holzbodenöles.
+
+38.65       Laminatböden
+             Kommentar:
+             Verwendungsbereich WOHNEN:
+             Klasse 21:
+             Benützungsintensität leicht, geringe oder zeitweise Benützung, z.B. Schlafzimmer, Gästezimmer.
+             Klasse 22:
+             Benützungsintensität mittel, ständige, normale Benützung, z.B. Wohnzimmer, Küchen, Vorzimmer.
+             Klasse 23:
+             Benützungsintensität stark, intensive, verstärkte Benützung, z.B. Wohn-, Kinder-, Vorzimmer, Eingangsflure.
+             Verwendungsbereich GEWERBE:
+             Klasse 31:
+             Benützungsintensität leicht, geringe oder zeitweise Benützung, z.B. Hotelzimmer, Konferenzräume, Kleinbüros.
+             Klasse 32:
+             Benützungsintensität mittel, ständige, normale Benützung, z.B. Schulzimmer, Büros, Hotelhallen, Boutiquen.
+             Klasse 33:
+             Benützungsintensität stark, intensive, verstärkte Benützung, z.B. Korridore, Großraumbüros, Kaufhäuser, Mehrzweckhallen.
+             Frei zu formulieren (z.B.):
+             Das Kleben von Laminatböden ist wegen der Erschwernisse erst nach Rückfrage bei dem Erzeuger frei zu formulieren.
+
+            LB-Version: 23                 Geringfügig Geändert
+38.65 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+38.65 00M   Angaben Bemusterung
+            Angaben Bemusterung: ____________
+
+38.65 02    PE-Folie für Feuchtigkeitsabdichtung beziehungsweise Dampfbremse, mit Überlappungen gemäß Hersteller,
+            verlegt und 5 cm an den Wänden ohne Erschwernisberechnung hochgezogen.
+            Abgerechnet wird die abgedeckte Fläche zuzüglich der Hochzüge.
+
+38.65 02A   Dampfbremse PE-Folie 0,2mm                                                                                             m²
+            0,2 mm dick.
+
+38.65 02B   Dampfbremse PE-Folie 0,2mm verklebt                                                                                    m²
+            0,2 mm dick,
+            als Dampfbremse die Überlappungen verklebt.
+38.65 04    Unterlagsmatten für eine schwimmende Verlegung von Laminatböden.
+            Im Positionsstichwort ist die Dicke (mm) angeben.
+
+38.65 04A   Unterlagsmatte EPS-Al 1,6mm                                                                                            m²
+            Aus Polystyrol mit Aluminiumkaschierung (Al).
+
+            LB-Version: 23                 Geringfügig Geändert
+
+38.65 04B   Unterlagsmatte EPS-Al 3mm                                                                                              m²
+            Aus Polystyrol mit Aluminiumkaschierung (Al).
+
+            LB-Version: 23                 Geringfügig Geändert
+38.65 05    Unterlagsmatten für eine schwimmende Verlegung von Laminatböden.
+            Im Positionsstichwort ist die Dicke (mm) angeben.
+
+38.65 05C   Unterlagsmatte PE 2mm                                                                                                  m²
+            Aus Polyethylen.
+
+            LB-Version: 23                 Geringfügig Geändert
+
+38.65 05D   Unterlagsmatte PE 3mm                                                                                                  m²
+            Aus Polyethylen.
+
+                                                                                                                             Seite 39 / 47
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            LB-Version: 23                Geringfügig Geändert
+38.65 06    Unterlagsmatten für eine schwimmende Verlegung von Laminatböden.
+            Im Positionsstichwort ist die Dicke (mm) angeben.
+
+38.65 06E   Unterlagsmatte Kork 2mm                                                                                     m²
+            Aus Kork.
+
+            LB-Version: 23                Geringfügig Geändert
+38.65 07    Laminatboden.
+                 • lichtecht
+                 • stuhlrollengeeignet
+                 • zigarettenglutfest
+                 • bestehend aus einer HDF- oder Spanträgerplatte mit einer Laminatoberschicht und Unterschicht als
+                   Gegenzug, "Klick-System".
+
+38.65 07A   Laminatboden 8mm Kl.21/31                                                                                   m²
+                 • Gesamtdicke 8 mm
+                 • Klasse 21 oder 31
+            auf dem Untergrund schwimmend verlegt.
+            Dekor/Oberfläche: ____________
+
+38.65 07B   Laminatboden 8mm Kl.22/32                                                                                   m²
+                 • Gesamtdicke 8 mm
+                 • Klasse 22 oder 32
+            auf dem Untergrund schwimmend verlegt.
+            Dekor/Oberfläche: ____________
+
+38.65 07C   Laminatboden 8mm Kl.23/33                                                                                   m²
+                 • Gesamtdicke 8 mm
+                 • Klasse 23 oder 33
+            auf dem Untergrund schwimmend verlegt.
+            Dekor/Oberfläche: ____________
+
+38.65 07D   Laminatboden m.Trittschalldämmung 9,5mm Kl.32                                                               m²
+            Mit einer Unterlage, mind. 1,5 mm dick, und einer Trittschalldämmung nach Wahl AN.
+            Gesamtdicke 9,5 mm
+                 • Klasse 32
+            auf dem Untergrund schwimmend verlegt.
+            Dekor/Oberfläche: ____________
+             Kommentar:
+             Die Dampfbremse ist in einer eigenen Position auszuschreiben.
+
+38.65 10    Profile für Laminatböden, einschließlich Befestigungsmaterial (z.B. Schienen).
+
+38.65 10A   Laminatboden Endprofil                                                                                      m
+
+38.65 10B   Laminatboden Bewegungsprofil                                                                                m
+
+38.65 10C   Laminatboden Ausgleichprofil                                                                                m
+38.65 11    Sesselleisten für Laminatböden, zum Bodendekor passend, an der Wand befestigt.
+
+38.65 11A   Laminatboden Sesselleisten foliert                                                                          m
+            Foliert.
+            Dekor: ____________
+
+38.68       Sporthallenböden
+            1. Allgemeines:
+            Im Folgenden sind flächenelastische Sporthallenböden gemäß ÖISS beschrieben.
+
+                                                                                                                  Seite 40 / 47
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+            Ergänzend zu den Normen gelten die einschlägigen Richtlinien des Österreichischen Institutes für Schul- und
+            Sportstättenbau (ÖISS), Prinz-Eugen-Straße 12, 1040 Wien, sowie die Regeln der jeweiligen österreichischen
+            Sportfachverbände.
+            2. Prüfbericht:
+            Der Bieter weist durch einen Prüfbericht einer Prüf-, Überwachungs- und Zertifizierungsstelle nach, dass das
+            angebotene Konstruktionssystem den Anforderungen an Sporthallenböden gemäß ÖNORM entspricht.
+            3. Verarbeitungsrichtlinien:
+            Die Verarbeitungsrichtlinien des Erzeugers werden eingehalten. Für ein System werden nur Materialien eines
+            Systemerzeugers verwendet.
+             Kommentar:
+             Weitere Sporthallenböden sind in der LG 50 und LG 61 beschrieben.
+             Das Ausgleichen des Unterbodens, soweit die Abweichungen die angegebenen Toleranzen überschreiten, ist in eigenen
+             Positionen auszuschreiben.
+             Frei zu formulieren sind (z.B.):
+                 • die Wärmedämmung bei Schwingriegel-Unterkonstruktionen mit Auflagerklötzen
+                 • starre Unterkonstruktionen in Geräteräumen
+                 • Grundieren und dreimaliges Versiegeln des bereits geschliffenen Oberbodens (z.B. bei Sanierungsarbeiten)
+
+            LB-Version: 23                      Geringfügig Geändert
+38.68 01    Kontrollprüfung einer flächenelastischen Ausführung.
+            Das Einhalten der Werte gemäß ÖISS wird durch den Prüfbericht einer akkreditierten Prüf- oder
+            Überwachungsstelle am fertigen Sportboden nachgewiesen (Kontrollprüfung). Die Kosten hierfür sind im
+            Einheitspreis einkalkuliert.
+            Bei flächenelastischen Böden:
+                • Kraftabbau
+                • Ballreflexion
+                • Belastbarkeit und Gleitreibungsbeiwert.
+
+38.68 01A   ZV Kontrollprüfung flächenelastisch                                                                                 PA
+             Kommentar:
+             Die Anforderungen an Sporthallenböden sind in der ÖNORM B 2608, in der Ausgabe 1. September 1995 in der Tabelle 3
+             angegeben.
+
+            LB-Version: 23                      Geringfügig Geändert
+38.68 02    Nivellement Unterboden.
+
+38.68 02A   Nivellement Unterboden                                                                                              m²
+38.68 10    Flächenelastische Sportbodenkonstruktion, einschließlich Oberboden und Oberflächenversiegelung.
+                • Oberboden als Stabparkett
+                • 22 mm dick
+                • Eiche
+
+38.68 10A   Sportboden Stabparkett 22mm Eiche/Kreis fischgrätartig                                                              m²
+                • Sortierung Kreis
+                • fischgrätartig verlegt
+            Gesamtdicke der Unterkonstruktion mit Oberboden in cm ____________
+
+38.68 10B   Sportboden Stabparkett 22mm Eiche/Kreis riemenartig                                                                 m²
+                • Sortierung Kreis
+                • riemenartig verlegt
+            Gesamtdicke der Unterkonstruktion mit Oberboden in cm ____________
+
+38.68 10C   Sportboden Stabparkett 22mm Eiche/Dreieck fischgrätartig                                                            m²
+                • Sortierung Dreieck
+                • fischgrätartig verlegt
+            Gesamtdicke der Unterkonstruktion mit Oberboden in cm ____________
+
+38.68 10D   Sportboden Stabparkett 22mm Eiche/Dreieck riemenartig                                                               m²
+
+
+
+
+                                                                                                                          Seite 41 / 47
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+                • Sortierung Dreieck
+                • riemenartig verlegt
+            Gesamtdicke der Unterkonstruktion mit Oberboden in cm ____________
+
+38.68 11    Flächenelastische Sportbodenkonstruktion, einschließlich Oberboden und Oberflächenversiegelung.
+                • Oberboden als Mehrschichtparkett (MS-Parkett)
+                • mind. 5 mm Nutzschicht aus Eiche
+
+38.68 11A   Sportboden MS-Parkett 5mm Eiche/Kreis fischgrätartig                                                          m²
+                • Sortierung Kreis
+                • fischgrätartig verlegt
+            Gesamtdicke der Unterkonstruktion mit Oberboden in cm ____________
+
+38.68 11B   Sportboden MS-Parkett 5mm Eiche/Kreis riemenartig                                                             m²
+                • Sortierung Kreis
+                • riemenartig verlegt
+            Gesamtdicke der Unterkonstruktion mit Oberboden in cm ____________
+
+38.68 11C   Sportboden MS-Parkett 5mm Eiche/Dreieck fischgrätartig                                                        m²
+                • Sortierung Dreieck
+                • fischgrätartig verlegt
+            Gesamtdicke der Unterkonstruktion mit Oberboden in cm ____________
+
+38.68 11D   Sportboden MS-Parkett 5mm Eiche/Dreieck riemenartig                                                           m²
+                • Sortierung Dreieck
+                • riemenartig verlegt
+            Gesamtdicke der Unterkonstruktion mit Oberboden in cm ____________
+
+38.68 12    Fußbodenheizung für flächenelastische Sportbodenkonstruktion.
+
+38.68 12A   Fußbodenheizung f.Sportböden                                                                                  m²
+            Beschreibung der Fußbodenheizung/System (z.B. Niedertemperatur): ____________
+
+38.68 14    Behandeln aller Holzteile der Unterbodenkonstruktion mit einem Imprägniermittel.
+            Abgerechnet wird die Oberfläche des Sporthallenbodens.
+
+38.68 14A   Unterkonstruktion imprägnieren                                                                                m²
+            Imprägniermittel: ____________
+
+38.68 19    Verstärken der Unterkonstruktion für Turngeräte, einschließlich Markieren im Oberboden.
+
+38.68 19A   Verstärken Bodenbefestigung                                                                                   Stk
+            Abgerechnet wird die Ständerverstärkung.
+
+38.68 21    Bodendeckel, ohne Unterschied der Größe, für flächenelastische Sportböden.
+            Einschließlich Halterung über Sportgerätebodenhülsen oder ähnlichen Einbauten sowie Belegen des Deckels
+            mit dem Material des angrenzenden Sportbodens, einschließlich Abdichten etwaiger offenporiger Schnittflächen.
+
+38.68 21A   Bodendeckel+Hülsen                                                                                            Stk
+38.68 24    Fugenprofile.
+
+38.68 24A   Dehnfugenprofil                                                                                               m
+
+38.68 24B   Abdeck-Übergangsprofil                                                                                        m
+38.68 30    Spielfeldmarkierungen (Markierungslinien) auf vorhandenen Holzbelägen deckend aufbringen, Farbe und Breite
+            nach Wettkampfbestimmungen. Die verwendeten Materialien müssen auf der Oberfläche haften und hinsichtlich
+            Härte, Gleitreibung und Dehnbarkeit auf die Eigenschaften des Oberbodens abgestimmt sein, ohne Unterschied
+            ob gerade oder gekrümmt, ob voll oder strichliert. Markierungen unter 30 cm Länge und Symbole werden mit 30
+            cm Länge abgerechnet.
+
+38.68 30A   Spielfeldmarkierung auf Holzbelägen                                                                           m
+            Markierung: ____________
+
+                                                                                                                    Seite 42 / 47
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+38.68 35    Sockelleisten mit Lüftungsöffnungen für die Unterkonstruktion
+                • mit abgerundeter Oberkante
+                • alle 50 cm mit nicht rostenden Schrauben befestigt
+                • Anschluss an den Sportboden mit Gummilippe
+                • Eckverbindungen auf Gehrung geschnitten
+                • einschließlich Oberflächenbehandlung
+
+38.68 35A   Sockelleiste m.Lüftungsöffnungen                                                                             m
+            Abmessungen: ____________
+            Holzart: ____________
+38.68 36    Sockelleisten
+                • mit abgerundeter Oberkante
+                • alle 50 cm mit nicht rostenden Schrauben befestigt
+                • Anschluss an den Sportboden mit Gummilippe
+                • Eckverbindungen auf Gehrung geschnitten
+                • einschließlich Oberflächenbehandlung.
+
+38.68 36A   Sockelleiste o.Lüftungsöffnungen                                                                             m
+            Abmessungen: ____________
+            Holzart: ____________
+
+38.81       Instandsetzungsarbeiten
+38.81 01    Estrich vorbereiten, einschließlich Entsorgen der Baurestmassen.
+
+38.81 01C   Estrich vorbereiten/fräsen                                                                                   m²
+            Durch Fräsen.
+            Schichtdicke: ____________
+
+38.81 02    Ausgleichen von Unebenheiten des Untergrundes, einschließlich Voranstrich, ohne Unterschied der Größe der
+            Einzelflächen.
+            Im Positionsstichwort ist das Stichmaß (mm) angegeben.
+            Hinweis zur Abrechnung:
+            Eine Positionszuordnung erfolgt nach dem Stichmaß z.B. Stichmaß 13 mm = Ausschreibung und Abrechnung
+            nur mit Position 38. 8102C.
+            Abgerechnet wird die Summe der bearbeiteten Einzelflächen. Das Ausmaß wird vor Beginn der Leistung mit
+            dem Auftraggeber festgelegt.
+
+38.81 02A   Estrich Unebenheiten ausgleichen (Einzelfl.) ü.2-5mm                                                         m²
+
+38.81 02B   Estrich Unebenheiten ausgleichen (Einzelfl.) ü.5-10mm                                                        m²
+
+38.81 02C   Estrich Unebenheiten ausgleichen (Einzelfl.) ü.10-15mm                                                       m²
+38.81 03    Auftragen eines Voranstriches.
+
+38.81 03B   Oberflächenverfestigen Estrich m.Voranstrich                                                                 m²
+            Zum Verfestigen beschädigter Estriche, deren Oberfläche absandet.
+
+38.81 03D   Haftbrücke+Einstreuung                                                                                       m²
+            Als Haftbrücke für nicht saugende oder bituminöse Untergründe, einschließlich Einstreuen mit trockenem
+            Quarzsand oder zementgebundenem Spachtelmassenpulver in den nassen Voranstrich.
+38.81 04    Einmaliges Spachteln des Untergrundes, ausgenommen nach dem Ausgleich im Rakelverfahren.
+
+38.81 04A   Einmaliges Spachteln Boden                                                                                   m²
+38.81 05    Beschüttung abräumen, ohne Unterschied der darunterliegenden Deckenkonstruktion, einschließlich des
+            Abkehrens der Decke oder des Ausgleichens der verbleibenden Bodenschüttung.
+            Das Entsorgen von etwaigen Baurestmassen ist im Einheitspreis einkalkuliert.
+            Abgerechnet wird im nicht aufgelockerten Zustand, ohne Abzug der Polsterhölzer.
+
+38.81 05A   Beschüttung abräumen+lagern                                                                                  m³
+
+                                                                                                                   Seite 43 / 47
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Beschüttung abräumen und im Baustellenbereich lagern.
+
+            LB-Version: 23                   Geringfügig Geändert
+38.81 06    Einbauen einer Beschüttung vor oder nach dem Verlegen der Polsterhölzer, einschließlich Abziehen.
+            Abgerechnet wird im fertigen (verdichteten) Zustand, ohne Abzug der Polsterhölzer.
+            Polsterhölzer verlegen ist in eigenen Positionen beschrieben.
+
+38.81 06A   Beschüttung Baustelle gelagert                                                                              m³
+            Mit im Baustellenbereich gelagertem, trockenem Beschüttungsmaterial.
+
+38.81 06C   Beschüttung ergänzen                                                                                        m³
+            Beschüttung ergänzen, einschließlich Material.
+            Material: ____________
+38.81 08    Phenolharzgebundene Verlegeplatten P3 (E1) schwimmend auf vorhandenen Untergrund verlegt, in Nut und
+            Feder verleimt, einschließlich einer Lage geschlossenzelligem, 2 mm dickem Schaumstoff, mindestens 65 g/m2.
+            Im Positionsstichwort ist die Dicke (mm) angegeben.
+
+38.81 08A   Verlegeplatten P3 N+F.schwimm.19mm                                                                          m²
+
+38.81 08B   Verlegeplatten P3 N+F.schwimm.22mm                                                                          m²
+
+38.81 08C   Verlegeplatten P3 N+F.schwimm.16+12mm                                                                       m²
+            Versetzt vollflächig verleimt.
+
+38.81 08D   Verlegeplatten P3 N+F.schwimm.2x16mm                                                                        m²
+            Versetzt vollflächig verleimt.
+
+38.81 08E   Az Verlegeplatten P3 N+F f.Verschrauben                                                                     m²
+            Aufzahlung (Az) für das Verschrauben.
+
+38.81 10    Abschleifen von alten Holzfußböden für Oberflächenbehandlungen.
+            Das Entsorgen von etwaigen Baurestmassen ist im Einheitspreis einkalkuliert.
+            (Oberflächenbehandlungen sind in eigenen Positionen beschrieben)
+
+38.81 10A   Abschleifen Holzfußboden                                                                                    m²
+            LB-Version: 23                   Geringfügig Geändert
+38.81 21    Instandsetzen (verlegen) von Stabparkettböden.
+            Beschädigte Teile des Oberbodens werden sorgfältig ausgelöst, brauchbares Material zur Wiederverwendung
+            im Baustellenbereich gelagert, etwaige Beschädigungen des Unterbodens ausgebessert, der Oberboden wieder
+            mit ausgelöstem Material verlegt.
+            Das Entsorgen von etwaigen Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Größe (m2) der Einzelfläche angegeben.
+
+38.81 21A   Instandsetzen Stabparkett b.0,5m2                                                                           Stk
+            LB-Version: 23                   Geringfügig Geändert
+
+38.81 21B   Instandsetzen Stabparkett ü.0,5-1m2                                                                         Stk
+            LB-Version: 23                   Geringfügig Geändert
+
+38.81 21C   Instandsetzen Stabparkett ü.1-5m2                                                                           Stk
+            LB-Version: 23                   Geringfügig Geändert
+
+38.81 21D   Az Instandsetzen Stabparkett f.neues Material                                                               m²
+            Aufzahlung (Az) für das Ersetzen beziehungsweise Ergänzen mit neuem Material, Format dem Bestand
+            angepasst.
+            LB-Version: 23                   Geringfügig Geändert
+38.81 22    Instandsetzen (verlegen) von Mosaikparkettböden.
+            Beschädigte Teile des Oberbodens werden sorgfältig ausgelöst, etwaige Beschädigungen des Unterbodens
+            ausgebessert, der Oberboden mit neuem Material, Format dem Bestand angepasst verlegt.
+                                                                                                                  Seite 44 / 47
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+            Das Entsorgen von etwaigen Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Größe (m2) der Einzelfläche angegeben.
+
+38.81 22A   Instandsetzen Mosaikparkett b.0,5m2                                                                       Stk
+            LB-Version: 23              Geringfügig Geändert
+
+38.81 22B   Instandsetzen Mosaikparkett ü.0,5-1m2                                                                     Stk
+            LB-Version: 23              Geringfügig Geändert
+
+38.81 22C   Instandsetzen Mosaikparkett ü.1-5m2                                                                       Stk
+            LB-Version: 23              Geringfügig Geändert
+
+38.81 22D   Az Instandsetzen Mosaikparkett f.neues Material                                                           m²
+            Aufzahlung (Az) für das Ersetzen beziehungsweise Ergänzen mit neuem Material, Format dem Bestand
+            angepasst.
+            LB-Version: 23              Geringfügig Geändert
+38.81 23    Instandsetzen (verlegen) von Mehrschichtparkettböden.
+            Beschädigte Teile des Oberbodens werden sorgfältig ausgelöst, etwaige Beschädigungen des Unterbodens
+            ausgebessert, der Oberboden mit neuem Material, Format dem Bestand angepasst verlegt.
+            Das Entsorgen von etwaigen Baurestmassen ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Größe (m2) der Einzelfläche angegeben.
+
+38.81 23A   Instandsetzen Mehrschichtparkett b.0,5m2                                                                  Stk
+            LB-Version: 23              Geringfügig Geändert
+
+38.81 23B   Instandsetzen Mehrschichtparkett ü.0,5-1m2                                                                Stk
+            LB-Version: 23              Geringfügig Geändert
+
+38.81 23C   Instandsetzen Mehrschichtparkett ü.1-5m2                                                                  Stk
+            LB-Version: 23              Geringfügig Geändert
+
+38.81 23D   Az Instandsetzen Mehrschichtparkett f.neues Material                                                      m²
+            Aufzahlung (Az) für das Ersetzen beziehungsweise Ergänzen mit neuem Material, Format dem Bestand
+            angepasst.
+            LB-Version: 23              Geringfügig Geändert
+38.81 31    Genagelter Stabparkettboden, einschließlich etwaiger Randfriese.
+            Das Entsorgen von etwaigen Baurestmassen ist im Einheitspreis einkalkuliert.
+            (Die Position betrifft die gesamten Raumflächen und nicht Raum-Teilflächen).
+
+38.81 31A   Stabparkett demontieren,entnageln u.lagern                                                                m²
+            Demontieren, entnageln und im Baustellenbereich lagern.
+
+            LB-Version: 23              Geringfügig Geändert
+
+38.81 31B   Stabparkett (gelagert) wiederverlegen                                                                     m²
+            Wiederverlegen von demontiertem, entnageltem und im Baustellenbereich gelagertem Material.
+
+            LB-Version: 23              Geringfügig Geändert
+
+38.81 31C   Az Stabparkett (gelagert) wiederverlegen                                                                  m²
+            Aufzahlung (Az) auf Wiederverlegen von demontiertem, entnageltem Stabparkettböden für das Ersetzen
+            beziehungsweise Ergänzen mit neuem Material, Format dem Bestand angepasst.
+            LB-Version: 23              Geringfügig Geändert
+38.81 41    Blindboden.
+            Das Entsorgen von etwaigen Baurestmassen ist im Einheitspreis einkalkuliert.
+            (Die Position betrifft die gesamten Raumflächen und nicht Raum-Teilflächen).
+
+38.81 41A   Blindboden demontieren,entnageln u.lagern                                                                 m²
+                                                                                                                Seite 45 / 47
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+            Demontieren, entnageln und im Baustellenbereich lagern.
+
+            LB-Version: 23                      Geringfügig Geändert
+
+38.81 41B   Blindboden (gelagert) wiederverlegen                                                                             m²
+            Wiederverlegen von demontiertem, entnageltem und im Baustellenbereich gelagertem Material.
+
+            LB-Version: 23                      Geringfügig Geändert
+
+38.81 41C   Az Blindboden (gelagert) wiederverlegen                                                                          m²
+            Aufzahlung (Az) auf Wiederverlegen von demontiertem, entnageltem Blindböden für das Ersetzen
+            beziehungsweise Ergänzen mit neuem Material.
+            LB-Version: 23                      Geringfügig Geändert
+38.81 51    Polsterhölzer.
+            Das Entsorgen von etwaigen Baurestmassen ist im Einheitspreis einkalkuliert.
+            (Die Position betrifft die gesamten Raumflächen und nicht Raum-Teilflächen).
+
+38.81 51A   Polsterhölzer demontieren,entnageln u.lagern                                                                     m²
+            Demontieren, entnageln und im Baustellenbereich lagern.
+
+            LB-Version: 23                      Geringfügig Geändert
+
+38.81 51B   Polsterhölzer (gelagert) wiederverlegen                                                                          m²
+            Wiederverlegen von demontiertem, entnageltem und im Baustellenbereich gelagertem Material.
+
+            LB-Version: 23                      Geringfügig Geändert
+
+38.81 51C   Az Polsterhölzer (gelagert) wiederverlegen                                                                       m²
+            Aufzahlung (Az) auf Wiederverlegen von demontiertem, entnageltem Polsterhölzern für das Ersetzen
+            beziehungsweise Ergänzen mit neuem Material.
+            LB-Version: 23                      Geringfügig Geändert
+
+38.90       Regieleistungen
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren sind (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+38.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+38.90 00C   Überstundenregelung
+
+                                                                                                                       Seite 46 / 47
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+38.90 01    Regiestunden.
+
+38.90 01A   Regiestunde Facharbeiter                                                                                    h
+            Facharbeiter.
+
+38.90 01B   Regiestunde Hilfsarbeiter                                                                                   h
+            Hilfsarbeiter.
+
+38.90 51    Materiallieferungen f.Regieleistungen                                                                       VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+            LB-Version: 23              Geringfügig Geändert
+
+
+
+
+                                                                                                                  Seite 47 / 47
+                                                                                             ib-data GmbH, Softwareentwicklung
+

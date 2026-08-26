@@ -1,0 +1,576 @@
+{
+  "lg": "00",
+  "title": "Allgemeine Bestimmungen",
+  "positions": [
+    {
+      "code": "00.10.01A",
+      "text": "Oberschwellenbereich",
+      "unit": ""
+    },
+    {
+      "code": "00.10.01B",
+      "text": "Unterschwellenbereich",
+      "unit": ""
+    },
+    {
+      "code": "00.10.02A",
+      "text": "Vergabeverfahren - Offenes Verfahren",
+      "unit": ""
+    },
+    {
+      "code": "00.10.02C",
+      "text": "Vergabeverfahren - Nicht offenes Verf. ohne vorh. Bekanntm.",
+      "unit": ""
+    },
+    {
+      "code": "00.10.02D",
+      "text": "Vergabeverfahren - Verhandlungsverf. ohne vorh. Bekanntm.",
+      "unit": ""
+    },
+    {
+      "code": "00.10.02F",
+      "text": "Vergabeverfahren - Direktvergabe",
+      "unit": ""
+    },
+    {
+      "code": "00.10.02G",
+      "text": "Vergabeverfahren - Direktvergabe mit vorh. Bekanntm.",
+      "unit": ""
+    },
+    {
+      "code": "00.10.03A",
+      "text": "Art des Vergabeverfahrens - Preisangebotsverfahren",
+      "unit": ""
+    },
+    {
+      "code": "00.10.03B",
+      "text": "Art des Vergabeverfahrens - Preisaufschlag-/nachlass Verf.",
+      "unit": ""
+    },
+    {
+      "code": "00.10.04A",
+      "text": "Höchstmöglicher Gesamtpreis",
+      "unit": ""
+    },
+    {
+      "code": "00.10.05A",
+      "text": "Fragefristen",
+      "unit": ""
+    },
+    {
+      "code": "00.10.05B",
+      "text": "Angebotsfrist",
+      "unit": ""
+    },
+    {
+      "code": "00.10.06A",
+      "text": "Dauer der Zuschlagsfrist",
+      "unit": ""
+    },
+    {
+      "code": "00.10.07A",
+      "text": "Arbeits-, sozial- und umweltrechtlicher Bestimmungen",
+      "unit": ""
+    },
+    {
+      "code": "00.10.09A",
+      "text": "Unklarheiten der Ausschreibungsunterlagen",
+      "unit": ""
+    },
+    {
+      "code": "00.10.15A",
+      "text": "Wege der Informations-/Angebotsübermittlung - Plattform",
+      "unit": ""
+    },
+    {
+      "code": "00.10.15B",
+      "text": "Wege der Informations-/Angebotsübermittlung - Postweg",
+      "unit": ""
+    },
+    {
+      "code": "00.10.15C",
+      "text": "Wege der Informations-/Angebotsübermittlung - Digital/Post",
+      "unit": ""
+    },
+    {
+      "code": "00.10.16A",
+      "text": "Plattform - Rechtsgültige Fertigung/elektronische Signatur",
+      "unit": ""
+    },
+    {
+      "code": "00.10.17A",
+      "text": "Angebotsform - Vordruck verbindlich",
+      "unit": ""
+    },
+    {
+      "code": "00.10.17B",
+      "text": "Angebotsform - Eigener Angebotsdruck zulässig",
+      "unit": ""
+    },
+    {
+      "code": "00.10.17C",
+      "text": "Angebotsform - Eigener Angebotsdruck mit Datenbestand ÖNORM",
+      "unit": ""
+    },
+    {
+      "code": "00.10.18A",
+      "text": "Angebotsöffnung ohne Bieterbeteiligung",
+      "unit": ""
+    },
+    {
+      "code": "00.10.18B",
+      "text": "Angebotsöffnung unter Bieterbeteiligung",
+      "unit": ""
+    },
+    {
+      "code": "00.10.19A",
+      "text": "Ausscheiden bei Rechenfehlern",
+      "unit": ""
+    },
+    {
+      "code": "00.10.19C",
+      "text": "Neuerliche Reihung korrigierter Angebote zulässig",
+      "unit": ""
+    },
+    {
+      "code": "00.10.20A",
+      "text": "Alternativangebote zulässig",
+      "unit": ""
+    },
+    {
+      "code": "00.10.20C",
+      "text": "Alternativangebot selbständig",
+      "unit": ""
+    },
+    {
+      "code": "00.10.20E",
+      "text": "Abänderungsangebot nicht zulässig",
+      "unit": ""
+    },
+    {
+      "code": "00.10.20F",
+      "text": "Abänderungsangebot selbständig",
+      "unit": ""
+    },
+    {
+      "code": "00.10.21A",
+      "text": "Teilvergabe mit Teilangebot gemäß ÖNORM A2063",
+      "unit": ""
+    },
+    {
+      "code": "00.10.21B",
+      "text": "Teilleistungen Teilvergaben",
+      "unit": ""
+    },
+    {
+      "code": "00.10.22A",
+      "text": "Formblatt m. Angebot",
+      "unit": ""
+    },
+    {
+      "code": "00.10.22B",
+      "text": "Formblatt bei Aufforderung",
+      "unit": ""
+    },
+    {
+      "code": "00.10.23A",
+      "text": "Formblatt - K2",
+      "unit": ""
+    },
+    {
+      "code": "00.10.23B",
+      "text": "Formblatt - K3",
+      "unit": ""
+    },
+    {
+      "code": "00.10.23C",
+      "text": "Formblatt - K4",
+      "unit": ""
+    },
+    {
+      "code": "00.10.23D",
+      "text": "Formblatt - K5",
+      "unit": ""
+    },
+    {
+      "code": "00.10.23E",
+      "text": "Formblatt - K6",
+      "unit": ""
+    },
+    {
+      "code": "00.10.23F",
+      "text": "Formblatt - K7 - Alle Positionen",
+      "unit": ""
+    },
+    {
+      "code": "00.10.23G",
+      "text": "Formblatt - K7 - Wesentliche Pos.",
+      "unit": ""
+    },
+    {
+      "code": "00.10.24A",
+      "text": "Vadium",
+      "unit": ""
+    },
+    {
+      "code": "00.10.25A",
+      "text": "Sub-/Nachunternehmer zulässig - Gesamtes LV",
+      "unit": ""
+    },
+    {
+      "code": "00.10.25B",
+      "text": "Sub-/Nachunternehmer zulässig - krit. Aufgaben nicht zul.",
+      "unit": ""
+    },
+    {
+      "code": "00.10.25C",
+      "text": "Sub-/Nachunternehmer zulässig - Wesentliche Teile LV",
+      "unit": ""
+    },
+    {
+      "code": "00.10.27A",
+      "text": "Nachweise Eignungskriterien m. Angebot",
+      "unit": ""
+    },
+    {
+      "code": "00.10.27B",
+      "text": "Nachweise Eignungskriterien bei Aufforderung",
+      "unit": ""
+    },
+    {
+      "code": "00.10.27C",
+      "text": "Nachweise Zuschlagskriterien m. Angebot",
+      "unit": ""
+    },
+    {
+      "code": "00.10.29A",
+      "text": "Eignungskriterium - Erklärung des Unternehmers",
+      "unit": ""
+    },
+    {
+      "code": "00.10.29B",
+      "text": "Eignungskriterium - Befugnis",
+      "unit": ""
+    },
+    {
+      "code": "00.10.29C",
+      "text": "Eignungskriterium - Gewerbeinformationssystem GISA",
+      "unit": ""
+    },
+    {
+      "code": "00.10.29D",
+      "text": "Eignungskriterium - Strafregisterbescheinigung",
+      "unit": ""
+    },
+    {
+      "code": "00.10.29E",
+      "text": "Eignungskriterium - Insolvenzdatei",
+      "unit": ""
+    },
+    {
+      "code": "00.10.29F",
+      "text": "Eignungskriterium - Firmenbuchauszug",
+      "unit": ""
+    },
+    {
+      "code": "00.10.29G",
+      "text": "Eignungskriterium - Sozialversicherungsbeiträge",
+      "unit": ""
+    },
+    {
+      "code": "00.10.29H",
+      "text": "Eignungskriterium - Rückstandsbescheinigung",
+      "unit": ""
+    },
+    {
+      "code": "00.10.31A",
+      "text": "Eignungskriterium - Bonitätsauskunft",
+      "unit": ""
+    },
+    {
+      "code": "00.10.31B",
+      "text": "Eignungskriterium - Berufshaftpflichtversicherung",
+      "unit": ""
+    },
+    {
+      "code": "00.10.31D",
+      "text": "Eignungskriterium - Vorlage von Jahresabschlüssen",
+      "unit": ""
+    },
+    {
+      "code": "00.10.31E",
+      "text": "Eignungskriterium - solidarische Leistungserbringung Sub",
+      "unit": ""
+    },
+    {
+      "code": "00.10.31G",
+      "text": "Eignungskriterium - Mindestgesamtumsatz",
+      "unit": ""
+    },
+    {
+      "code": "00.10.31H",
+      "text": "Eignungskriterium - Mindestgesamtjahresumsatz",
+      "unit": ""
+    },
+    {
+      "code": "00.10.31K",
+      "text": "Eignungskriterium - Einstufung Ratingsystem",
+      "unit": ""
+    },
+    {
+      "code": "00.10.31L",
+      "text": "Eignungskriterium - Einstufung Ratingsystem:__________",
+      "unit": ""
+    },
+    {
+      "code": "00.10.32B",
+      "text": "Eignungskriterium - Nachweis Referenzen Jahre",
+      "unit": ""
+    },
+    {
+      "code": "00.10.32C",
+      "text": "Eignungskriterium Qualitätssicherung",
+      "unit": ""
+    },
+    {
+      "code": "00.10.32D",
+      "text": "Eignungskriterium - techn. Fachkräfte in Bezug auf QK",
+      "unit": ""
+    },
+    {
+      "code": "00.10.32F",
+      "text": "Eignungskriterium - Ausbildung/Qualifikation Schlüsselpers.",
+      "unit": ""
+    },
+    {
+      "code": "00.10.32G",
+      "text": "Eignungskriterium - Umweltmanagementmaßnahmen",
+      "unit": ""
+    },
+    {
+      "code": "00.10.32H",
+      "text": "Eignungskriterium - Erklärung ü. Geräte, techn. Ausrüstung",
+      "unit": ""
+    },
+    {
+      "code": "00.10.32I",
+      "text": "Eignungskriterium - Erklärung durchschnittl. Beschäftigte",
+      "unit": ""
+    },
+    {
+      "code": "00.10.39A",
+      "text": "Vergabe gemäß niedrigstem Preis",
+      "unit": ""
+    },
+    {
+      "code": "00.10.39B",
+      "text": "Vergabe gemäß technisch, wirtschaftlich günstigstem Angebot",
+      "unit": ""
+    },
+    {
+      "code": "00.10.41A",
+      "text": "Zuschlagskriterium Preis",
+      "unit": ""
+    },
+    {
+      "code": "00.10.41B",
+      "text": "Zuschlagskriterium Spezifikation:__________",
+      "unit": ""
+    },
+    {
+      "code": "00.10.41C",
+      "text": "Zuschlagskriterium Produkteigenschaften:__________",
+      "unit": ""
+    },
+    {
+      "code": "00.10.41D",
+      "text": "Zuschlagskriterium Baustellenlogistik/ -einricht.:__________",
+      "unit": ""
+    },
+    {
+      "code": "00.10.41F",
+      "text": "Zuschlagskriterium Qualifikation Schlüsselpers.:__________",
+      "unit": ""
+    },
+    {
+      "code": "00.10.41G",
+      "text": "Zuschlagskriterium Referenzen Schlüsselpers.:__________",
+      "unit": ""
+    },
+    {
+      "code": "00.10.41H",
+      "text": "Zuschlagskriterium Referenzprojekte Bieter:__________",
+      "unit": ""
+    },
+    {
+      "code": "00.10.41I",
+      "text": "Zuschlagskriterium Umweltmanagementmaßnahmen:__________",
+      "unit": ""
+    },
+    {
+      "code": "00.20.01A",
+      "text": "Leistungstermine",
+      "unit": ""
+    },
+    {
+      "code": "00.20.01B",
+      "text": "Terminplan verbindlich",
+      "unit": ""
+    },
+    {
+      "code": "00.20.01F",
+      "text": "Beschreibung des Vorhabens",
+      "unit": ""
+    },
+    {
+      "code": "00.20.01G",
+      "text": "Beschreibung der Leistung",
+      "unit": ""
+    },
+    {
+      "code": "00.20.02A",
+      "text": "Örtliche Besonderheiten",
+      "unit": ""
+    },
+    {
+      "code": "00.20.02C",
+      "text": "Besondere Erschwernisse/Erleichterungen",
+      "unit": ""
+    },
+    {
+      "code": "00.20.02D",
+      "text": "Zufahrts- /Liefermöglichkeiten",
+      "unit": ""
+    },
+    {
+      "code": "00.20.02E",
+      "text": "Zutrittskontrolle",
+      "unit": ""
+    },
+    {
+      "code": "00.20.02H",
+      "text": "Baustellenbereich",
+      "unit": ""
+    },
+    {
+      "code": "00.20.02J",
+      "text": "Leistungserbringung im laufenden Betrieb",
+      "unit": ""
+    },
+    {
+      "code": "00.20.02P",
+      "text": "Parkmöglichkeiten",
+      "unit": ""
+    },
+    {
+      "code": "00.20.02U",
+      "text": "Unterbringung des Personals",
+      "unit": ""
+    },
+    {
+      "code": "00.20.02V",
+      "text": "Bestimmungen Versorgungsunternehmen",
+      "unit": ""
+    },
+    {
+      "code": "00.20.11A",
+      "text": "Vertragsgrundlage ÖNORMEN",
+      "unit": ""
+    },
+    {
+      "code": "00.20.11B",
+      "text": "Vertragsgrundlage gemäß Beilage",
+      "unit": ""
+    },
+    {
+      "code": "00.20.12B",
+      "text": "Festpreise",
+      "unit": ""
+    },
+    {
+      "code": "00.20.12C",
+      "text": "Veränderliche Preise gemäß ÖNORM-Datenbestand",
+      "unit": ""
+    },
+    {
+      "code": "00.20.12D",
+      "text": "Veränderliche Preise",
+      "unit": ""
+    },
+    {
+      "code": "00.20.31A",
+      "text": "Sicherheit und Gesundheitsschutz",
+      "unit": ""
+    },
+    {
+      "code": "00.20.31B",
+      "text": "Unterlage f.spätere Arbeiten",
+      "unit": ""
+    },
+    {
+      "code": "00.20.31C",
+      "text": "Schad- und Störstoffanalyse AG",
+      "unit": ""
+    },
+    {
+      "code": "00.20.31D",
+      "text": "Rückbaukonzept AG",
+      "unit": ""
+    },
+    {
+      "code": "00.20.36A",
+      "text": "Wasserverbrauch:AG",
+      "unit": ""
+    },
+    {
+      "code": "00.20.37A",
+      "text": "Stromverbrauch:AG",
+      "unit": ""
+    },
+    {
+      "code": "00.20.43A",
+      "text": "Projektplattform AG",
+      "unit": ""
+    },
+    {
+      "code": "00.20.45B",
+      "text": "Bautagesberichte AN",
+      "unit": ""
+    },
+    {
+      "code": "00.20.46A",
+      "text": "Teilnahme AN Baubesprechungen",
+      "unit": ""
+    },
+    {
+      "code": "00.20.51A",
+      "text": "Übernahme formlos",
+      "unit": ""
+    },
+    {
+      "code": "00.20.51B",
+      "text": "Übernahme förmlich",
+      "unit": ""
+    },
+    {
+      "code": "00.20.52B",
+      "text": "Gewährleistungsfristen vereinbarte",
+      "unit": ""
+    },
+    {
+      "code": "00.20.53A",
+      "text": "Schadenersatz – leichte Fahrlässigkeit",
+      "unit": ""
+    },
+    {
+      "code": "00.20.53B",
+      "text": "Vertragsstrafe",
+      "unit": ""
+    },
+    {
+      "code": "00.20.60A",
+      "text": "Kaution",
+      "unit": ""
+    }
+  ]
+}

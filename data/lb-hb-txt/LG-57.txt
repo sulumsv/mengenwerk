@@ -1,0 +1,1332 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+       Leistungsgruppe (LG) 57 - Bewegliche Abschlüsse von Fenster/-türen
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 5700    Wählbare Vorbemerkungen
+                     ULG 5701    Innenrollos
+                     ULG 5702    ZIP-Wetterschutzrollos
+                     ULG 5703    Innenjalousien
+                     ULG 5704    Außenjalousien mit flexiblen Lamellen
+                     ULG 5705    Außenjalousien mit randgebördelten Lamellen
+                     ULG 5706    Außenjalousien in Ganzmetallausführung
+                     ULG 5709    Einbaurollladen
+                     ULG 5710    Vorsatzrollladen
+                     ULG 5716    ZIP-Senkrechtmarkisen
+                     ULG 5790    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 21
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+57          Bewegliche Abschlüsse von Fenster/-türen
+            Version 023 (2025-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Abmessungen:
+            Als Kalkulationsgrundlage werden die in der Positionslücke angegebenen Maße verwendet.
+            Vor Beginn der Erzeugung werden die Maße, die Stückanzahl und die sonstigen technischen Einzelheiten im
+            Einvernehmen mit dem Auftraggeber festgelegt. Bei Größenänderungen +/- 5 cm in der Breite und/oder in der
+            Höhe gegenüber den angegebenen Größen, gelten die Preise unverändert, auch wenn die in der Position
+            angegebenen Breiten- und Flächengrenzen über- oder unterschritten werden.
+            Angegebene Abmessungen:
+            Breite (B) = Stocklichte.
+            Höhe (H) = Oberkante Rollenträger bis Unterkante Unterleiste in heruntergezogenem Zustand.
+
+
+            2. Einkalkulierte Leistungen:
+            2.1 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Kästen und Führungsschienen
+                • Gerüste (z.B. Arbeitsgerüste, Aufstiegshilfen) für die angegebene Höhe, einschließlich erhöhtem
+                  Aufwand für den Materialtransport und sonstiger Erschwernisse
+
+
+            Bei motorisierten und solaren beweglichen Abschlüssen ist in die Einheitspreise einkalkuliert:
+                • ein mindestens 0,5 m langes Kabel mit Steckerkupplung
+                • Getriebe mit elektromagnetischer Bremse, oberem und unterem Endschalter, Thermoschutz,
+                  spritzwassergeschützt ausgeführt
+                • bei elektrotechnischen Teilen die betriebsbereite Montage, ohne Anschluss an die Stromversorgung
+                • bei Solar betriebenen beweglichen Abschlüssen die nötigen Solarpanelle und Anschluss am Motor
+
+
+            3. Standardfarbe:
+            Die Standardfarbe bezieht sich auf die Farbe, für die der Hersteller keinen Aufpreis verrechnet. (gilt auch für
+            Aufrollkasten, Schienen und Gewebe). Die zur Ausführung gelangten Farbe aus der vorgelegten Kollektion
+            wählt der Auftraggeber.
+
+
+            4. Fenstertüren:
+            Bezüglich beweglicher Abschlüsse gelten Fenstertüren als Fenster.
+             Kommentar:
+             Nicht im Einheitspreis einkalkuliert sind das Verlegen von elektrischen Leitungen und das Versetzen der Schalter sowie das
+             Anschließen der Motore und der Schalter.
+
+
+             Standard-Fensteranschluss gemäß ÖNORM B 5320:
+             Bei einem Standard-Fensteranschluss handelt es sich um die durch Materialien geschlossene Fuge zwischen Fensterstock
+             oder Blindstock und dem Wandbildner und gegebenenfalls zwischen Fensterstock und Blindstock.
+             Die Ausführungsplanung des Auftraggebers enthält:
+             • Höhenbezugspunkte und Achsmaße sowie die Baurichtmaße der Fensteröffnungen
+             • eine maßstäbliche und bemaßte Darstellung der Ansichten
+             • eine maßstäbliche und bemaßte Darstellung der (Haupt) Schnitte
+             Die Planung hat nach den Vorgaben der ÖNORM B 5320 unter Punkt " Anforderung an die Planung des objektspezifischen
+             Bauanschlusses“ zu erfolgen.
+
+
+             Literaturhinweise (z.B.):
+                 • ÖNORM B 5300: Fenster - Anforderungen - Ergänzungen zur ÖNORM EN 14351-1
+                 • ÖNORM B 5320: Einbau von Fenstern und Türen in Wände – Planung und Ausführung des Bau- und des
+                   Fenster/Türanschlusses
+
+            LB-Version: 23                 Geändert
+Änderung:   Änderung des Stichworts und Überarbeitung der ganzen LG 57
+            Alt: 57.02 Rollos
+            Neu: 57.02 ZIP-Wetterschutzrollos
+                                                                                                                              Seite 2 / 21
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+
+            Gelöscht:
+            57.11 Markisoletten
+            57.12 Glenk- und Kasettenmarkisen
+            57.13 Fallarmmarkisen
+            57.14 Fassadenmarkisen
+            57.15 Wintergartenmarkiese
+            57.80 Instandsetzungsarbeiten
+            Geänderte Positionen:
+            ULG 57.00 Wählbare Vorbemerkungen
+            ULG 57.02 ZIP-Wetterschutzrollos
+            ULG 57.03 Innenjalousien
+            ULG 57.04 Außenjalousien mit flexiblen Lamellen
+            ULG 57.05 Außenjalousien mit randgebördelten Lamellen
+            ULG 57.06 Außenjalousien in Ganzmetallausführung
+            ULG 57.09 Einbaurollladen
+            ULG 57.10 Vorsatzrollladen
+            Neue Positionen:
+            ULG 57.01 Innenrollos (ehem. 57.02)
+            ULG 57.16 ZIP-Senkrechtmarkisen
+
+57.00       Wählbare Vorbemerkungen
+            LB-Version: 23               Geändert
+57.00 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+57.00 00A   Art / Ausführung von Lamellen
+            Lamellenausführung (z.B. Z-Lamellen, Lichtlenklamellen): ____________
+            Betrifft Position(en): ____________
+            LB-Version: 23
+
+57.00 00B   Montagebedingungen Außenjalousien
+            Montagebedingungen bei Außenjalousien.
+            Angabe des Montageorts (z.B. ab Stock oder Angabe welches Fenster mit welcher A-Jalousie): ____________
+            Montageuntergrund: ____________
+            LB-Version: 23
+
+57.00 00C   Bedienbarkeit / Ansteuerung beweglicher Abschlüsse
+            Anforderung (z.B. Fernbedienung, Einbindung in Smart Home Lösung): ____________
+            Betrifft Positionen: ____________
+            LB-Version: 23
+
+57.00 00H   Montagebeding.E-Rolllad.manuell
+            Montagebedingungen für manuell bedienbare Einbaurollladen (E-Rolllad.).
+            Sonstige Bedingungen: ____________
+            LB-Version: 23
+
+57.00 00K   Montagebeding.E-Rollllad.Motor
+            Montagebedingungen für Motor betriebene Einbaurollladen (E-Rolllad.).
+            Sonstige Bedingungen: ____________
+            LB-Version: 23
+
+57.00 00M   Montagebeding.Vorsatzr.manuell
+            Montagebedingungen für manuell bedienbare Vorsatzrollladen (Vorsatzr.).
+            Montageuntergrund: ____________
+            Sonstige Angaben: ____________
+            LB-Version: 23
+
+57.00 00N   Montagebeding.Vorsatzr.Motor
+            Montagebedingungen für Motor betriebene Vorsatzrollladen (Vorsatzr.)..
+            Montageuntergrund: ____________
+            Sonstige Angaben: ____________
+                                                                                                                Seite 3 / 21
+                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+            LB-Version: 23
+
+57.00 00O   Montagebeding.Fassadenm.Kurbel
+            Montagebedingungen für Fassadenmarkisen.
+            Mit Kurbelantrieb.
+            Montageuntergrund: ____________
+            Sonstige Angaben: ____________
+            LB-Version: 23
+
+57.00 00P   Montagebeding.Fassadenm.Motor
+            Montagebedingungen für Fassadenmarkisen.
+            Mit Motorantrieb.
+            Montageuntergrund: ____________
+            Sonstige Angaben: ____________
+            LB-Version: 23
+
+57.00 00Z   Bohrung, Abdichtung und Kabelführung
+            Einkalkulierte Leistungen:
+                • Bohren durch die Bauteile
+                • Abdichten mit Dichtstoffen /z.B. Manschetten zur Bohrlochabdichtung)
+                • Einfädeln des Kabels und Führung bis zur nächsten Dose
+                • ____________
+            LB-Version: 23
+
+57.01       Innenrollos
+            Bespannung:
+            Ist aus Stoff, schwer entflammbar B1, Q1.
+            LB-Version: 23
+57.01 01    Selbstroller mit Bespannung und Schnurzug. Welle aus Holz oder Stahl, nach Wahl des Auftragnehmers, mit
+            Stahlfeder, Unterleiste aus Holz mit Schnurzug einschließlich des Endknopfes, Roller in jeder Höhe arretierbar.
+            Im Positionsstichwort ist die Abmessung der Rollo (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.01 01A   Selbstroll.Stahlfeder (BxH):__________                                                                        Stk
+            Bespannung: ____________
+
+            LB-Version: 23
+57.01 02    Selbstroller mit Bespannung und Endloszug. Welle aus Stahl, Unterleiste aus Holz. Bedienung mittels
+            Kugelkette.
+            Im Positionsstichwort ist die Abmessung der Rollo (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.01 02A   Selbstroll.Endloszug (BxH):__________                                                                         Stk
+            Bespannung: ____________
+
+            LB-Version: 23
+57.01 03    Selbstroller mit Bespannung und Endloszug. Welle aus Stahl, Unterleiste aus Holz mit elektrischem Antrieb und
+            Motor (e-Motor).
+            Im Positionsstichwort ist die Abmessung der Rollo (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.01 03A   Selbstroll. Endloszug e-Motor (BxH):__________                                                                Stk
+            Bespannung: ____________
+
+            LB-Version: 23
+57.01 99    Aufzahlung (Az) auf die Standardfarbe.
+            Im Positionsstichwort ist die RAL-Farbe angegeben.
+
+57.01 99A   Az Innenrollos Farbe RAL__________                                                                            Stk
+            LB-Version: 23
+
+57.02       ZIP-Wetterschutzrollos
+
+
+                                                                                                                     Seite 4 / 21
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            ZIP-Wetterschutzrollos für den Außenbereich einschließlich Kasten und seitlichen Führungsschienen im
+            Reißverschlusssystem.
+            Bespannung:
+            Ist aus Stoff, schwer entflammbar B1, Q1.
+            LB-Version: 23              Geändert
+57.02 01    ZIP-Selbstroller mit Bespannung und Schnurzug. Welle aus Stahl, nach Wahl des Auftragnehmers, mit
+            Stahlfeder, Unterleiste aus Holz mit Schnurzug einschließlich des Endknopfes, Roller in jeder Höhe arretierbar.
+            Im Positionsstichwort ist die Abmessung der Rollo (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.02 01A   ZIP-Selbstroll.Stahlfeder (BxH):__________                                                                    Stk
+            Bespannung: ____________
+
+            LB-Version: 23              Geändert
+57.02 02    ZIP-Selbstroller mit Bespannung und Endloszug. Welle aus Stahl, Unterleiste aus Holz. Bedienung mittels
+            Kugelkette.
+            Im Positionsstichwort ist die Abmessung der Rollo (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.02 02A   ZIP-Selbstroll.Endloszug (BxH):__________                                                                     Stk
+            Bespannung: ____________
+
+            LB-Version: 23              Geändert
+57.02 03    ZIP-Selbstroller mit Bespannung und Endloszug. Welle aus Stahl, Unterleiste aus Holz mit elektrischem Antrieb
+            und Motor (e-Motor).
+            Im Positionsstichwort ist die Abmessung der Rollo (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.02 03A   ZIP-Selbstroll. Endloszug e-Motor (BxH):__________                                                            Stk
+            Bespannung: ____________
+
+            LB-Version: 23              Geändert
+57.02 61    Steuerungseinheit für Sonnen-/Windsensor bestehend aus:
+                • Funksensorik für die Licht- und Windauswertung
+                • Spannungsversorgung über 230V AC, Frequenz 50 Hz - Netzanschluss
+
+57.02 61B   Steuereinheit für Sonnen-/Windsensoren - Wetterschutzrollos                                                   PA
+            Inhalt der Steuereinheit: ____________
+            Anbindung der Steuereinheit (z.B. BUS-System, Smart Home,…) : ____________
+            LB-Version: 23
+57.02 62    Sonnen-/Windsensor mit Funkanbindung
+
+57.02 62A   Sensoren mit Funkanbindung f. Wind/Sonne b.ZIP-Selbstroll.                                                    Stk
+            LB-Version: 23
+57.02 66    Aufzahlung (Az) für Windsicherung je Fenster/-Fenstertüre
+
+57.02 66A   Az ZIP-Wettersch.f. Windsicherung m. Seilführung                                                              Stk
+            Zusätzliche Seilführungen einschließlich Seilabspannwinkel zur Erhöhung des Windwiderstandes.
+
+            LB-Version: 23
+
+57.02 66B   Az ZIP-Wettersch.f. Windsicherung m. Schienen                                                                 Stk
+            Zusätzliche Schienen zur Erhöhung des Windwiderstandes.
+
+            LB-Version: 23
+
+57.02 66C   Az ZIP-Wettersch.f. Windsicherung m. Blenden                                                                  Stk
+            Zusätzliche Blenden zur Erhöhung des Windwiderstandes.
+
+            LB-Version: 23
+57.02 99    Aufzahlung (Az) auf die Standardfarbe.
+            Im Positionsstichwort ist die RAL-Farbe angegeben.
+
+
+                                                                                                                     Seite 5 / 21
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+57.02 99A   Az Wetterschutzrollos Farbe RAL__________                                                                     Stk
+            LB-Version: 23
+
+57.03       Innenjalousien
+            Mindestanforderungen des beweglichen Abschlusses:
+            Lamellen:
+            Gewölbt aus Leichtmetalllegierung, einbrennlackiert, hochelastisch, kratzfest und korrosionsbeständig.
+            Oberschiene, Unterschiene:
+            Aus rollverformtem Leichtmetall- oder einbrennlackiertem Stahlblech. Abschluss mit Kunststoffendkappen.
+            Leiterkordel:
+            Aus Polyestergewebe mit eingewebten Doppelstegen, Lamellen auf den Stegen aufgelegt.
+            Montageträger:
+            Korrosionsgeschützte Schrauben oder Träger aus Leichtmetall oder korrosionsgeschütztem Stahl.
+            Einbauteile und Beschläge:
+            Aus galvanisch korrosionsgeschütztem Stahl, aus Kunststoff oder Leichtmetall.
+            Schnurzug/Wendeeinrichtung:
+            Zugschnur aus Polyester in drallfreier Flechtung Endlosschnur aus kunstfaserummanteltem Polyamidseil.
+            Die Wendeeinrichtung besteht aus Wendestab und Wendespindel aus kunststoffüberzogenem Metall.
+            UV-beständigem Aufzugsband Mindestreißfestigkeit 600 N.
+            Knickkurbel:
+            Starre formschlüssige Verbindung der Kurbelstange zum Getriebe aus verzinktem Stahl.
+            Kurbelstange mit Kunststoffummantelung oder aus Aluminium, A6 C0 eloxiert, Knickkurbel aus
+            korrosionsgeschütztem Metall, Kurbelstange fixiert mit Kurbelhalter.
+            LB-Version: 23              Geändert
+57.03 01    Innenjalousie mit Schnurzug, frei hängend, Schnurzug in drallfreier Flechtung, fixiert über automatische
+            Sperrlager. Wenden um 180 Grad mit Wendestab und Wendespindel aus kunststoffüberzogenem Metall.
+            Im Positionsstichwort sind die Abmessungen der Innenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.03 01A   I-Jalous. Schnur.frei häng.(BxH):__________                                                                   Stk
+            Lamellenbreite in mm: ____________
+
+            LB-Version: 23              Geändert
+57.03 02    Innenjalousie mit Endloszug, frei hängend mit UV geschütztem Aufzugsband. Aufzug und Wenden der Lamellen
+            um 180 Grad mit Endlosschnur über selbstschmierendes Getriebe mit Bremsmechanismus. Oberer und unterer
+            Endanschlag als Funktionsschutz.
+            Im Positionsstichwort sind die Abmessungen der Innenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.03 02A   I-Jalous. Endl.frei häng. (BxH):__________                                                                    Stk
+            Lamellenbreite in mm: ____________
+
+            LB-Version: 23              Geändert
+57.03 03    Innenjalousie mit Kurbelantrieb, frei hängend. Aufzug und Wenden der Lamellen um 180 Grad mit Knickkurbel
+            über selbstschmierendes Getriebe mit Bremsmechanismus. Oberer und unterer Endanschlag als
+            Funktionsschutz. Oberes Gelenk mit Montageplatte, Öffnungswinkel 45 Grad.
+            Im Positionsstichwort sind die Abmessungen der Innenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.03 03A   I-Jalous. Kurb.frei häng. (BxH):__________                                                                    Stk
+            Lamellenbreite in mm: ____________
+
+            LB-Version: 23              Geändert
+57.03 04    Innenjalousie mit Kurbelantrieb und Seilführung. Aufzug und Wenden der Lamellen um 180 Grad mit
+            Knickkurbel über selbstschmierendes Getriebe mit Bremsmechanismus. Oberer und unterer Endanschlag als
+            Funktionsschutz. UV-geschütztes Aufzugsband. Oberes Gelenk mit Montageplatte, Öffnungswinkel 45 Grad.
+            Im Positionsstichwort sind die Abmessungen der Innenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.03 04A   I-Jalous. Kurb+Seilf. (BxH):__________                                                                        Stk
+
+                                                                                                                     Seite 6 / 21
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+            Lamellenbreite in mm: ____________
+
+            LB-Version: 23                Geändert
+57.03 05    Innenjalousie mit Motorantrieb, frei hängend. Aufzug und Wenden der Lamellen um 180 Grad mit in der
+            Oberschiene eingebautem Motor mit Getriebe und Steuerung. UV geschütztes Aufzugsband.
+            Im Positionsstichwort sind die Abmessungen der Innenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.03 05A   I-Jalous.Motor frei häng. (BxH):__________                                                                          Stk
+            Lamellenbreite in mm: ____________
+
+            LB-Version: 23                Geändert
+57.03 99    Aufzahlung (Az) auf die Standardfarbe.
+            Im Positionsstichwort ist die RAL-Farbe angegeben.
+
+57.03 99A   Az Innenjalousie Farbe RAL__________                                                                                Stk
+            LB-Version: 23
+
+57.04       Außenjalousien mit flexiblen Lamellen
+            Mindestanforderungen des beweglichen Abschlusses:
+            Lamellen:
+            Aus Leichtmetalllegierung, einbrennlackiert, hochelastisch, kratzfest, korrosionsbeständig. Ein Wenden der
+            Lamellen um 180 Grad.
+            Oberschiene, Unterschiene:
+            Aus rollverformtem oder gekantetem Leichtmetall, natureloxiertem oder einbrennlackiertem Stahlblech.
+            Unterschienenabschluss mit Kunststoffendkappen.
+            Leiterkordel:
+            Aus Polyestergewebe mit eingewebten Doppelstegen, Lamellen zwischen Doppelstegen gefädelt. Weitgehend
+            schrumpf- und dehnungsfrei.
+            Geräuschdämmung:
+            Lamellen in den Seitenführungsstanzungen zumindest wechselseitig mit Kunststoffdämmösen ausgestattet.
+            Montageträger:
+            Aus Leichtmetall oder korrosionsgeschütztem Stahl.
+            Einbauteile und Beschläge:
+            Aus galvanisch korrosionsgeschütztem Stahl, aus Kunststoff oder Leichtmetall.
+            Schnurzug/Wendeeinrichtung:
+            Zugschnur aus Polyester in drallfreier Flechtung Endlosschnur aus kunstfaserummanteltem Polyamidseil.
+            Die Wendeeinrichtung besteht aus Wendestab und Wendespindel aus kunststoffüberzogenem Metall.
+            UV-beständigem Aufzugsband mindest Reißfestigkeit 600 N.
+            Knickkurbel:
+            Starre formschlüssige Verbindung der Kurbelstange zum Getriebe aus verzinktem Stahl.
+            Kurbelstange mit Kunststoffummantelung oder aus Aluminium, A6 C0 eloxiert, Knickkurbel aus
+            korrosionsgeschütztem Metall, Kurbelstange fixiert mit Kurbelhalter.
+             Kommentar:
+             Bei den Außenjalousien ist in der Position 57.04 00 die Art des Montageuntergrundes anzugeben, z.B. Mauerwerk, Beton,
+             Dicke der Wärmedämmung, Holz, Stahl oder Leichtmetall.
+
+            LB-Version: 23                Geändert
+57.04 01    Außenjalousie mit flexiblen Lamellen, mit Schnurzug (flex.Schn.). Fixiert über automatische Sperrlager oder mit
+            Schnurfeststeller.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.04 01A   A-Jal.flex. 50mm Schn. (BxH):__________                                                                             Stk
+            LB-Version: 23                Geändert
+57.04 03    Außenjalousie mit flexiblen Lamellen mit Endloszug (flex.Endl.) mit Aufzugsband und Endlosschnur,
+            einschließlich selbstschmierendes Getriebe mit Bremsmechanismus. Oberer und unterer Endanschlag als
+            Funktionsschutz.
+                                                                                                                           Seite 7 / 21
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.04 03A   A-Jal.flex. 50mm Endl. (BxH):__________                                                                       Stk
+            LB-Version: 23              Geändert
+57.04 05    Außenjalousie mit flexiblen Lamellen mit Kurbelantrieb (flex.Kurb.). über selbstschmierendes Getriebe mit
+            Bremsmechanismus. Oberer und unterer Endanschlag als Funktionsschutz. Oberes Gelenk mit Montageplatte.
+            Öffnungswinkel 45 Grad.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.04 05A   A-Jal.flex. 50mm Kurb. (BxH):__________                                                                       Stk
+            LB-Version: 23              Geändert
+57.04 07    Außenjalousie mit flexiblen Lamellen mit Motorantrieb. Aufzug und Wenden der Lamellen um 180 Grad mit in
+            der Oberschiene eingebautem Motor mit Getriebe und Steuerung. UV geschütztes Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.04 07A   A-Jal.flex. 50mm Mot. (BxH):__________                                                                        Stk
+            LB-Version: 23              Geändert
+57.04 09    Außenjalousie mit flexiblen Lamellen mit solarbetriebenem Motorantrieb (flex.Solar). Aufzug und Wenden der
+            Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit Getriebe und Steuerung. UV geschütztes
+            Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.04 09A   A-Jal.flex. 50mm Solar (BxH):__________                                                                       Stk
+            LB-Version: 23              Geändert
+57.04 11    Außenjalousie mit flexiblen Lamellen, mit Schnurzug (flex.Schn.). Fixiert über automatische Sperrlager oder mit
+            Schnurfeststeller.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.04 11A   A-Jal.flex. 80mm Schn. (BxH):__________                                                                       Stk
+            LB-Version: 23              Geändert
+57.04 13    Außenjalousie mit flexiblen Lamellen mit Endloszug (flex.Endl.) mit Aufzugsband und Endlosschnur,
+            einschließlich selbstschmierendes Getriebe mit Bremsmechanismus. Oberer und unterer Endanschlag als
+            Funktionsschutz.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.04 13A   A-Jal.flex. 80mm Endl. (BxH):__________                                                                       Stk
+            LB-Version: 23              Geändert
+57.04 15    Außenjalousie mit flexiblen Lamellen mit Kurbelantrieb (flex.Kurb.). Knickkurbel über selbstschmierendes
+            Getriebe mit Bremsmechanismus. Oberer und unterer Endanschlag als Funktionsschutz. Oberes Gelenk mit
+            Montageplatte. Öffnungswinkel 45 Grad.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.04 15A   A-Jal.flex. 80mm Kurb. (BxH):__________                                                                       Stk
+            LB-Version: 23              Geändert
+57.04 17    Außenjalousie mit flexiblen Lamellen mit Motorantrieb. Aufzug und Wenden der Lamellen um 180 Grad mit in
+            der Oberschiene eingebautem Motor mit Getriebe und Steuerung. UV geschütztes Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.04 17A   A-Jal.flex. 80mm Mot. (BxH):__________                                                                        Stk
+            LB-Version: 23              Geändert
+
+
+                                                                                                                     Seite 8 / 21
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+57.04 19    Außenjalousie mit flexiblen Lamellen mit solarbetriebenem Motorantrieb (flex.Solar). Aufzug und Wenden der
+            Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit Getriebe und Steuerung. UV geschütztes
+            Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.04 19A   A-Jal.flex. 80mm Solar (BxH):__________                                                                        Stk
+            LB-Version: 23               Geändert
+57.04 61    Steuerungseinheit für Sonnen-/Windsensor bestehend aus:
+                • Funksensorik für die Licht- und Windauswertung
+                • Spannungsversorgung über 230V AC, Frequenz 50 Hz - Netzanschluss
+
+57.04 61B   Steuereinheit für Sonnen-/Windsensoren - A-Jal.flex.                                                           PA
+            Inhalt der Steuereinheit: ____________
+            Anbindung der Steuereinheit (z.B. BUS-System, Smart Home,…) : ____________
+            LB-Version: 23
+57.04 62    Sonnen-/Windsensor mit Funkanbindung
+
+57.04 62A   Senoren mit Funkanbindung f. Wind/Sonne b. A-Jal.flex.                                                         Stk
+            LB-Version: 23
+57.04 66    Aufzahlung (Az) für Windsicherung je Fenster/-Fenstertüre
+
+57.04 66A   Az A-Jal.flex.f. Windsicherung m. Seilführung                                                                  Stk
+            Zusätzliche Seilführungen einschließlich Seilabspannwinkel zur Erhöhung des Windwiderstandes.
+
+            LB-Version: 23
+
+57.04 66B   Az A-Jal.flex.f. Windsicherung m. Schienen                                                                     Stk
+            Zusätzliche Schienen zur Erhöhung des Windwiderstandes.
+
+            LB-Version: 23
+
+57.04 66C   Az A-Jal.flex.f. Windsicherung m. Blenden                                                                      Stk
+            Zusätzliche Blenden zur Erhöhung des Windwiderstandes.
+
+            LB-Version: 23
+57.04 99    Aufzahlung (Az) auf die Standardfarbe.
+            Im Positionsstichwort ist die RAL-Farbe angegeben.
+
+57.04 99A   Az A-Jal.flex. Farbe RAL__________                                                                             Stk
+            LB-Version: 23
+
+57.05       Außenjalousien mit randgebördelten Lamellen
+            Mindestanforderungen des beweglichen Abschlusses:
+            Lamellen:
+            Aus Leichtmetalllegierung, einbrennlackiert, kratzfest, korrosionsbeständig. Rollverformt, gewölbt, die
+            Längskanten gebördelt. Wechselseitige Führungszapfen aus Kunststoff- oder Leichtmetallguss.
+            Oberschiene:
+            Aus rollverformtem Leichtmetall oder aus korrosionsgeschütztem Stahlblech.
+            Unterschiene:
+            Aus stranggepresstem, natureloxiertem Leichtmetallprofil, mindestens 500 g/m, Abschluss mit
+            Kunststoffendkappen, beidseitig in den Führungsschienen laufend.
+            Leiterkordel:
+            Die Kordel besteht aus Polyestergewebe extra schwer, grau, weitgehend schrumpf- und dehnungsfrei.
+            Aufzugsband:
+            Aus UV-geschütztem Texband, Reißfestigkeit 600 N.
+            Führungsschiene:
+            Aus stranggepresstem natureloxiertem Leichtmetallprofil mit zweifachen Geräuschdämmeinlagen, befestigt mit
+                                                                                                                      Seite 9 / 21
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+            natureloxierten Leichtmetallkonsolen.
+            Montageträger:
+            Aus Leichtmetall oder korrosionsgeschütztem Stahl.
+            Einbauteile und Beschläge:
+            Aus galvanisch korrosionsgeschütztem Stahl, Kunststoff oder Leichtmetall.
+            Schnurzug/Wendeeinrichtung:
+            Zugschnur aus Polyester in drallfreier Flechtung Endlosschnur aus kunstfaserummanteltem Polyamidseil.
+            Die Wendeeinrichtung besteht aus Wendestab und Wendespindel aus kunststoffüberzogenem Metall.
+            UV-beständigem Aufzugsband mindest Reißfestigkeit 600 N.
+            Knickkurbel:
+            Starre formschlüssige Verbindung der Kurbelstange zum Getriebe aus verzinktem Stahl.
+            Kurbelstange mit Kunststoffummantelung oder aus Aluminium, A6 C0 eloxiert, Knickkurbel aus
+            korrosionsgeschütztem Metall, Kurbelstange fixiert mit Kurbelhalter.
+             Kommentar:
+             Bei den Außenjalousien ist mit der Position 57.05 00 die Art des Montageuntergrundes anzugeben (z.B.: Mauerwerk, Beton,
+             Dicke der Wärmedämmung, Holz, Stahl oder Leichtmetall).
+
+            LB-Version: 23                Geändert
+57.05 01    Außenjalousie mit randgebördelten horizontalen (rdg. horizontal) Lamellen mit Schnurzug (flex.Schn.). Fixiert
+            über automatische Sperrlager oder mit Schnurfeststeller.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 01A   A-Jal.rdg. 80mm horizontal Schn. (BxH):__________                                                                   Stk
+            LB-Version: 23                Geändert
+57.05 03    Außenjalousie mit randgebördelten horizontalen (rdg. horizontal) Lamellen mit Endloszug (flex.Endl.) mit
+            Aufzugsband und Endlosschnur, einschließlich selbstschmierendes Getriebe mit Bremsmechanismus. Oberer
+            und unterer Endanschlag als Funktionsschutz.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 03A   A-Jal.rdg. 80mm horizontal Endl. (BxH):__________                                                                   Stk
+            LB-Version: 23                Geändert
+57.05 05    Außenjalousie mit randgebördelten horizontalen (rdg. horizontal) Lamellen mit Kurbelantrieb (flex.Kurb.). über
+            selbstschmierendes Getriebe mit Bremsmechanismus. Oberer und unterer Endanschlag als Funktionsschutz.
+            Oberes Gelenk mit Montageplatte. Öffnungswinkel 45 Grad.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 05A   A-Jal.rdg. 80mm horizontal Kurb. (BxH):__________                                                                   Stk
+            LB-Version: 23                Geändert
+57.05 07    Außenjalousie mit randgebördelten horizontalen (rdg. horizontal) Lamellen mit Motorantrieb. Aufzug und
+            Wenden der Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit Getriebe und Steuerung. UV
+            geschütztes Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 07A   A-Jal.rdg. 80mm horizontal Mot. (BxH):__________                                                                    Stk
+            LB-Version: 23                Geändert
+57.05 09    Außenjalousie mit randgebördelten horizontalen (rdg. horizontal) Lamellen mit solarbetriebenem Motorantrieb
+            (flex.Solar). Aufzug und Wenden der Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit
+            Getriebe und Steuerung. UV geschütztes Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 09A   A-Jal.rdg. 80mm horizontal Solar (BxH):__________                                                                   Stk
+            LB-Version: 23                Geändert
+
+
+                                                                                                                          Seite 10 / 21
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+57.05 11    Außenjalousie mit randgebördelten horizontalen (rdg. horizontal) Lamellen mit Schnurzug (flex.Schn.). Fixiert
+            über automatische Sperrlager oder mit Schnurfeststeller.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 11A   A-Jal.rdg. 90mm horizontal Schn. (BxH):__________                                                              Stk
+            LB-Version: 23              Geändert
+57.05 13    Außenjalousie mit randgebördelten horizontalen (rdg. horizontal) mit Endloszug (flex.Endl.) mit Aufzugsband
+            und Endlosschnur, einschließlich selbstschmierendes Getriebe mit Bremsmechanismus. Oberer und unterer
+            Endanschlag als Funktionsschutz.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 13A   A-Jal.rdg. 90mm horizontal Endl. (BxH):__________                                                              Stk
+            LB-Version: 23              Geändert
+57.05 15    Außenjalousie mit randgebördelten horizontalen (rdg. horizontal) Lamellen mit Kurbelantrieb (flex.Kurb.). über
+            selbstschmierendes Getriebe mit Bremsmechanismus. Oberer und unterer Endanschlag als Funktionsschutz.
+            Oberes Gelenk mit Montageplatte. Öffnungswinkel 45 Grad.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 15A   A-Jal.rdg. 90mm horizontal Kurb. (BxH):__________                                                              Stk
+            LB-Version: 23              Geändert
+57.05 17    Außenjalousie mit randgebördelten horizontalen (rdg. horizontal) Lamellen mit Motorantrieb. Aufzug und
+            Wenden der Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit Getriebe und Steuerung. UV
+            geschütztes Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 17A   A-Jal.rdg. 90mm horizontal Mot. (BxH):__________                                                               Stk
+            LB-Version: 23              Geändert
+57.05 19    Außenjalousie mit randgebördelten horizontalen (rdg. horizontal) Lamellen mit solarbetriebenem Motorantrieb
+            (flex.Solar). Aufzug und Wenden der Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit
+            Getriebe und Steuerung. UV geschütztes Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 19A   A-Jal.rdg. 90mm horizontal Solar (BxH):__________                                                              Stk
+            LB-Version: 23              Geändert
+57.05 21    Außenjalousie mit randgebördelten vertikalen (rdg. vertikal) Lamellen mit Schnurzug (flex.Schn.). Fixiert über
+            automatische Sperrlager oder mit Schnurfeststeller.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 21A   A-Jal.rdg. 80mm vertikal Schn. (BxH):__________                                                                Stk
+            LB-Version: 23              Geändert
+57.05 23    Außenjalousie mit randgebördelten vertikalen (rdg. vertikal) Lamellen mit Endloszug (flex.Endl.) mit
+            Aufzugsband und Endlosschnur, einschließlich selbstschmierendes Getriebe mit Bremsmechanismus. Oberer
+            und unterer Endanschlag als Funktionsschutz.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 23A   A-Jal.rdg. 80mm vertikal Endl. (BxH):__________                                                                Stk
+            LB-Version: 23              Geändert
+57.05 25    Außenjalousie mit randgebördelten vertikalen (rdg. vertikal) Lamellen mit Kurbelantrieb (flex.Kurb.). über
+            selbstschmierendes Getriebe mit Bremsmechanismus. Oberer und unterer Endanschlag als Funktionsschutz.
+            Oberes Gelenk mit Montageplatte. Öffnungswinkel 45 Grad.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+                                                                                                                     Seite 11 / 21
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+57.05 25A   A-Jal.rdg. 80mm vertikal Kurb. (BxH):__________                                                                Stk
+            LB-Version: 23              Geändert
+57.05 27    Außenjalousie mit randgebördelten vertikalen (rdg. vertikal) Lamellen mit Motorantrieb. Aufzug und Wenden der
+            Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit Getriebe und Steuerung. UV geschütztes
+            Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 27A   A-Jal.rdg. 80mm vertikal Mot. (BxH):__________                                                                 Stk
+            LB-Version: 23              Geändert
+57.05 29    Außenjalousie mit randgebördelten vertikalen (rdg. vertikal) Lamellen mit solarbetriebenem Motorantrieb
+            (flex.Solar). Aufzug und Wenden der Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit
+            Getriebe und Steuerung. UV geschütztes Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 29A   A-Jal.rdg. 80mm vertikal Solar (BxH):__________                                                                Stk
+            LB-Version: 23              Geändert
+57.05 31    Außenjalousie mit randgebördelten vertikalen (rdg. vertikal) Lamellen mit Schnurzug (flex.Schn.). Fixiert über
+            automatische Sperrlager oder mit Schnurfeststeller.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 31A   A-Jal.rdg. 90mm vertikal Schn. (BxH):__________                                                                Stk
+            LB-Version: 23              Geändert
+57.05 53    Außenjalousie mit randgebördelten vertikalen (rdg. vertikal) Lamellen mit Endloszug (flex.Endl.) mit
+            Aufzugsband und Endlosschnur, einschließlich selbstschmierendes Getriebe mit Bremsmechanismus. Oberer
+            und unterer Endanschlag als Funktionsschutz.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 53A   A-Jal.rdg. 90mm vertikal Endl. (BxH):__________                                                                Stk
+            LB-Version: 23              Geändert
+57.05 55    Außenjalousie mit randgebördelten vertikalen (rdg. vertikal) Lamellen mit Kurbelantrieb (flex.Kurb.). über
+            selbstschmierendes Getriebe mit Bremsmechanismus. Oberer und unterer Endanschlag als Funktionsschutz.
+            Oberes Gelenk mit Montageplatte. Öffnungswinkel 45 Grad.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 55A   A-Jal.rdg. 90mm vertikal Kurb. (BxH):__________                                                                Stk
+            LB-Version: 23              Geändert
+57.05 57    Außenjalousie mit randgebördelten vertikalen (rdg. vertikal) Lamellen mit Motorantrieb. Aufzug und Wenden der
+            Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit Getriebe und Steuerung. UV geschütztes
+            Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 57A   A-Jal.rdg. 90mm vertikal Mot. (BxH):__________                                                                 Stk
+            LB-Version: 23              Geändert
+57.05 59    Außenjalousie mit randgebördelten vertikalen (rdg. vertikal) Lamellen mit solarbetriebenem Motorantrieb
+            (flex.Solar). Aufzug und Wenden der Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit
+            Getriebe und Steuerung. UV geschütztes Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            randgebördelten Außenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.05 59A   A-Jal.rdg. 90mm vertikal Solar (BxH):__________                                                                Stk
+            LB-Version: 23              Geändert
+
+
+
+                                                                                                                     Seite 12 / 21
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+57.05 61    Steuerungseinheit für Sonnen-/Windsensor bestehend aus:
+                • Funksensorik für die Licht- und Windauswertung
+                • Spannungsversorgung über 230V AC, Frequenz 50 Hz - Netzanschluss
+
+57.05 61B   Steuereinheit für Sonnen-/Windsensoren - A-Jal.rdg.                                                                 PA
+            Inhalt der Steuereinheit: ____________
+            Anbindung der Steuereinheit (z.B. BUS-System, Smart Home,…) : ____________
+            LB-Version: 23
+57.05 62    Sonnen-/Windsensor mit Funkanbindung
+
+57.05 62A   Senoren mit Funkanbindung f. Wind/Sonne b. A-Jal.rdg.                                                               Stk
+            LB-Version: 23
+57.05 66    Aufzahlung (Az) für Windsicherung je Fenster/-Fenstertüre
+
+57.05 66A   Az A-Jal.rdg.f. Windsicherung m. Seilführung                                                                        Stk
+            Zusätzliche Seilführungen einschließlich Seilabspannwinkel zur Erhöhung des Windwiderstandes.
+
+            LB-Version: 23
+
+57.05 66B   Az A-Jal.rdg.f. Windsicherung m. Schienen                                                                           Stk
+            Zusätzliche Schienen zur Erhöhung des Windwiderstandes.
+
+            LB-Version: 23
+
+57.05 66C   Az A-Jal.rdg.f. Windsicherung m. Blenden                                                                            Stk
+            Zusätzliche Blenden zur Erhöhung des Windwiderstandes.
+
+            LB-Version: 23
+57.05 99    Aufzahlung (Az) auf die Standardfarbe.
+            Im Positionsstichwort ist die RAL-Farbe angegeben.
+
+57.05 99A   Az A-Jal.rdg. Farbe RAL__________                                                                                   Stk
+            LB-Version: 23
+
+57.06       Außenjalousien in Ganzmetallausführung
+            Mindestanforderungen des beweglichen Abschlusses:
+            Lamellen:
+            Aus Leichtmetalllegierung, einbrennlackiert, kratzfest, korrosionsbeständig. Selbsttragend durch
+            Rollverformung, beidseitig gebördelt, mit einseitig eingewalzter Dichtungslippe.
+            Führungsschiene:
+            Aus stranggepresstem natureloxiertem Leichtmetallprofil, natureloxiert, einschließlich örtlicher Haltekonsolen
+            aus Leichtmetall.
+            Aufzug- und Wendemechanismus:
+            Aus Metall, in seitlicher Führungsschiene montiert.
+            Einbauteile und Beschläge:
+            Aus galvanisch korrosionsgeschütztem Stahl, Kunststoff oder Leichtmetall.
+            Leiterkordel:
+            Die Kordel besteht aus Polyestergewebe extra schwer, grau, weitgehend schrumpf- und dehnungsfrei.
+            Aufzugsband:
+            Aus UV-geschütztem Texband, Reißfestigkeit 600 N.
+            Knickkurbel:
+            Starre formschlüssige Verbindung der Kurbelstange zum Getriebe aus verzinktem Stahl.
+            Kurbelstange mit Kunststoffummantelung oder aus Aluminium, A6 C0 eloxiert, Knickkurbel aus
+            korrosionsgeschütztem Metall, Kurbelstange fixiert mit Kurbelhalter.
+             Kommentar:
+             Bei den Außenjalousien ist mit der Position 57.06 00 die Art des Montageuntergrundes anzugeben (z.B.: Mauerwerk, Beton,
+             Dicke der Wärmedämmung, Holz, Stahl oder Leichtmetall).
+
+                                                                                                                          Seite 13 / 21
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            LB-Version: 23              Geändert
+57.06 05    Außenjalousie in Ganzmetall-Horizontalallausführung (G-met. horizontal.) mit Kurbelantrieb (flex.Kurb.). über
+            selbstschmierendes Getriebe mit Bremsmechanismus. Oberer und unterer Endanschlag als Funktionsschutz.
+            Oberes Gelenk mit Montageplatte. Öffnungswinkel 45 Grad.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Ganzmetallaußenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.06 05A   A-Jal.G-met. 80mm horizontal Kurb. (BxH):__________                                                           Stk
+            LB-Version: 23              Geändert
+57.06 07    Außenjalousie in Ganzmetall-Horizontalallausführung (G-met. horizontal.) mit Motorantrieb. Aufzug und Wenden
+            der Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit Getriebe und Steuerung. UV
+            geschütztes Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Ganzmetallaußenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.06 07A   A-Jal.G-met. 80mm horizontal Mot. (BxH):__________                                                            Stk
+            LB-Version: 23              Geändert
+57.06 09    Außenjalousie in Ganzmetall-Horizontalallausführung (G-met. horizontal.) mit solarbetriebenem Motorantrieb
+            (flex.Solar). Aufzug und Wenden der Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit
+            Getriebe und Steuerung. UV geschütztes Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Ganzmetallaußenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.06 09A   A-Jal.G-met. 80mm horizontal Solar (BxH):__________                                                           Stk
+            LB-Version: 23              Geändert
+57.06 15    Außenjalousie in Ganzmetall-Horizontalallausführung (G-met. horizontal.) mit Kurbelantrieb (flex.Kurb.). über
+            selbstschmierendes Getriebe mit Bremsmechanismus. Oberer und unterer Endanschlag als Funktionsschutz.
+            Oberes Gelenk mit Montageplatte. Öffnungswinkel 45 Grad.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Ganzmetallaußenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.06 15A   A-Jal.G-met. 100mm horizontal Kurb. (BxH):__________                                                          Stk
+            LB-Version: 23              Geändert
+57.06 17    Außenjalousie in Ganzmetall-Horizontalallausführung (G-met. horizontal.) mit Motorantrieb. Aufzug und Wenden
+            der Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit Getriebe und Steuerung. UV
+            geschütztes Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Ganzmetallaußenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.06 17A   A-Jal.G-met. 100mm horizontal Mot. (BxH):__________                                                           Stk
+            LB-Version: 23              Geändert
+57.06 19    Außenjalousie in Ganzmetall-Horizontalallausführung (G-met. horizontal.) mit solarbetriebenem Motorantrieb
+            (flex.Solar). Aufzug und Wenden der Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit
+            Getriebe und Steuerung. UV geschütztes Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Ganzmetallaußenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.06 19A   A-Jal.G-met. 100mm horizontal Solar (BxH):__________                                                          Stk
+            LB-Version: 23              Geändert
+57.06 25    Außenjalousie in Ganzmetall-Vertikalausführung (G-met. vertikal.) mit Kurbelantrieb (flex.Kurb.). über
+            selbstschmierendes Getriebe mit Bremsmechanismus. Oberer und unterer Endanschlag als Funktionsschutz.
+            Oberes Gelenk mit Montageplatte. Öffnungswinkel 45 Grad.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Ganzmetallaußenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.06 25A   A-Jal.G-met. 80mm vertikal Kurb. (BxH):__________                                                             Stk
+            LB-Version: 23              Geändert
+57.06 27    Außenjalousie in Ganzmetall-Vertikalausführung (G-met. vertikal.) mit Motorantrieb. Aufzug und Wenden der
+            Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit Getriebe und Steuerung. UV geschütztes
+            Aufzugsband.
+                                                                                                                    Seite 14 / 21
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Ganzmetallaußenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.06 27A   A-Jal.G-met. 80mm vertikal Mot. (BxH):__________                                                          Stk
+            LB-Version: 23             Geändert
+57.06 29    Außenjalousie in Ganzmetall-Vertikalausführung (G-met. vertikal.) mit solarbetriebenem Motorantrieb
+            (flex.Solar). Aufzug und Wenden der Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit
+            Getriebe und Steuerung. UV geschütztes Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Ganzmetallaußenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.06 29A   A-Jal.G-met. 80mm vertikal Solar (BxH):__________                                                         Stk
+            LB-Version: 23             Geändert
+57.06 35    Außenjalousie in Ganzmetall-Vertikalausführung (G-met. vertikal.) mit Kurbelantrieb (flex.Kurb.). über
+            selbstschmierendes Getriebe mit Bremsmechanismus. Oberer und unterer Endanschlag als Funktionsschutz.
+            Oberes Gelenk mit Montageplatte. Öffnungswinkel 45 Grad.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Ganzmetallaußenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.06 35A   A-Jal.G-met. 100mm vertikal Kurb. (BxH):__________                                                        Stk
+            LB-Version: 23             Geändert
+57.06 37    Außenjalousie in Ganzmetall-Vertikalausführung (G-met. vertikal.) mit Motorantrieb. Aufzug und Wenden der
+            Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit Getriebe und Steuerung. UV geschütztes
+            Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Ganzmetallaußenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.06 37A   A-Jal.G-met. 100mm vertikal Mot. (BxH):__________                                                         Stk
+            LB-Version: 23             Geändert
+57.06 39    Außenjalousie in Ganzmetall-Vertikalausführung (G-met. vertikal.) mit solarbetriebenem Motorantrieb
+            (flex.Solar). Aufzug und Wenden der Lamellen um 180 Grad mit in der Oberschiene eingebautem Motor mit
+            Getriebe und Steuerung. UV geschütztes Aufzugsband.
+            Im Positionsstichwort sind die Mindestabmessung der Lamellenbreite in mm und die Abmessung der
+            Ganzmetallaußenjalousie (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.06 39A   A-Jal.G-met. 100mm vertikal Solar (BxH):__________                                                        Stk
+            LB-Version: 23             Geändert
+57.06 61    Steuerungseinheit für Sonnen-/Windsensor bestehend aus:
+                • Funksensorik für die Licht- und Windauswertung
+                • Spannungsversorgung über 230V AC, Frequenz 50 Hz - Netzanschluss
+
+57.06 61B   Steuereinheit für Sonnen-/Windsensoren - A-Jal.G-met.                                                     PA
+            Inhalt der Steuereinheit: ____________
+            Anbindung der Steuereinheit (z.B. BUS-System, Smart Home,…) : ____________
+            LB-Version: 23
+57.06 62    Sonnen-/Windsensor mit Funkanbindung
+
+57.06 62A   Senoren mit Funkanbindung f. Wind/Sonne b. A-Jal.G-met.                                                   Stk
+            LB-Version: 23
+57.06 66    Aufzahlung (Az) für Windsicherung je Fenster/-Fenstertüre
+
+57.06 66A   Az A-Jal.G-met.f. Windsicherung m. Seilführung                                                            Stk
+            Zusätzliche Seilführungen einschließlich Seilabspannwinkel zur Erhöhung des Windwiderstandes.
+
+            LB-Version: 23
+
+57.06 66B   Az A-Jal.G-met.f. Windsicherung m. Schienen                                                               Stk
+            Zusätzliche Schienen zur Erhöhung des Windwiderstandes.
+
+                                                                                                                Seite 15 / 21
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+            LB-Version: 23
+
+57.06 66C   Az A-Jal.G-met.f. Windsicherung m. Blenden                                                                     Stk
+            Zusätzliche Blenden zur Erhöhung des Windwiderstandes.
+
+            LB-Version: 23
+57.06 99    Aufzahlung (Az) auf die Standardfarbe.
+            Im Positionsstichwort ist die RAL-Farbe angegeben.
+
+57.06 99A   Az A-Jal.G-met. Farbe RAL__________                                                                            Stk
+            LB-Version: 23
+
+57.09       Einbaurollladen
+            Einbaurollladen:
+            Das Liefern und Versetzen der Rollladenkasten ist nicht in den Einheitspreisen der Rollladen einkalkuliert.
+            Welle:
+            Aus korrosionsgeschütztem Metall, größte Durchbiegung 1/200, Endkappen mit eingebauten Lagerzapfen.
+            Lagerung:
+            Aus korrosionsgeschütztem Metall oder aus Kunststoff, Voll- oder Halblagerschalen mit Kugellager, nach Wahl
+            des Auftragnehmers.
+            Führungsschienen:
+            Aus einbrennlackiertem Leichtmetall, mit Geräuschdämmeinlage, am oberen Ende trichterförmig erweitert.
+            Nutentiefe ca. 1 Prozent der Behangbreite, mindestens 20 mm.
+             Kommentar:
+             Rollladenkästen sind frei zu textieren.
+
+            LB-Version: 23                  Geändert
+57.09 01    Selbsttragender Bauteil / Sturz mit integriertem Einbaukasten
+
+57.09 01A   Einbaukasten selbsttragend                                                                                     Stk
+            Ausführung (z.B. Ziegelsturz): ____________
+            Dimension (L/B/T): ____________
+            LB-Version: 23
+57.09 02    Einbaukasten an Sturz/Leibung
+
+57.09 02A   Einbaukasten am Sturz/Leibung                                                                                  Stk
+            Ausführung (z.B. Ziegelsturz): ____________
+            Dimension (L/B/T): ____________
+            LB-Version: 23
+57.09 05    Einbaurollladen mit Gurtzug, Behang aus Kunststoffrollladenstäben im obersten Bereich des Behanges ohne,
+            sonst mit Licht- und Lüftungsschlitzen. Mit seitlicher Arretierung der Rollladenstäbe gegen Verschieben. Unterer
+            Behangabschluss mit Endstab. Anschläge für die obere Endstellung des Behanges. Einschließlich
+            Behangbefestigung auf der Welle. Senken und Heben des Behanges mit textilem Gurtzug, Gurtscheiben aus
+            Metall oder Kunststoff. Gurtführung mit Bürstendichtung. Auf- oder Unterputz-Gurtwickler, nach Wahl des
+            Auftraggebers. Verriegelung durch mechanische Sicherung aus Metall oder Kunststoff gegen Hochschieben des
+            Behanges in geschlossenem Zustand.
+            Im Positionsstichwort ist die Abmessung des Einbaurollladens (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.09 05A   Rollladen Gurt Kunstst (BxH):__________                                                                        Stk
+            LB-Version: 23                  Geändert
+57.09 06    Einbaurollladen mit Gurtzug, Behang aus Leichtmetall-(Alu)-Rollladenstäben, mit isolierender Kunststoffmasse
+            ausgeschäumt, einbrennlackiert, korrosionsbeständig, kratzfest. Rollladenstäbe im obersten Bereich des
+            Behanges ohne, sonst mit Licht- und Lüftungsschlitzen, mit seitlicher Arretierung der Rollladenstäbe gegen
+            Verschieben. Unterer Behangabschluss mit Endstab. Anschläge für die obere Endstellung des Behanges.
+            Einschließlich Behangbefestigung auf der Welle. Senken und Heben des Behanges mit textilem Gurtzug,
+            Gurtscheiben aus Metall oder Kunststoff. Gurtführung mit Bürstendichtung. Auf- oder Unterputz-Gurtwickler,
+            nach Wahl des Auftraggebers. Verriegelung durch mechanische Sicherung aus Metall oder Kunststoff gegen
+
+
+                                                                                                                     Seite 16 / 21
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            Hochschieben des Behanges in geschlossenem Zustand.
+            Im Positionsstichwort ist die Abmessung des Einbaurollladens (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.09 06A   Rollladen Gurt Alu (BxH):__________                                                                           Stk
+            LB-Version: 23              Geändert
+57.09 10    Einbaurollladen mit Kurbelantrieb, Behang aus Kunststoffrollladenstäben im obersten Bereich des Behanges
+            ohne, sonst mit Licht- und Lüftungsschlitzen. Seitliche Arretierung der Rollladenstäbe gegen Verschieben.
+            Unterer Behangabschluss mit Endstab. Anschläge für die obere Endstellung des Behanges. Einschließlich
+            Behangbefestigung auf der Welle. Senken und Heben des Behanges mit Knickkurbel über selbstschmierendes
+            Getriebe mit Bremsmechanismus und unterem Endanschlag. Knickkurbel: Starre formschlüssige Verbindung
+            der Kurbelstange zum Getriebe aus verzinktem Stahl. Oberes Gelenk 45 Grad mit Montageplatte. Kurbelstange
+            mit Kurbelhalter. Verriegelung durch mechanische Sicherung aus Metall oder Kunststoff gegen Hochschieben
+            des Behanges in geschlossenem Zustand.
+            Im Positionsstichwort ist die Abmessung des Einbaurollladens (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.09 10A   Rollladen Kurb.Kunstst. (BxH):__________                                                                      Stk
+            LB-Version: 23              Geändert
+57.09 11    Einbaurollladen mit Kurbelantrieb, Behang aus Leichtmetall-(Alu)-Rollladenstäben mit isolierender
+            Kunststoffmasse ausgeschäumt, einbrennlackiert, korrosionsbeständig, kratzfest. Im obersten Bereich des
+            Behanges ohne, sonst mit Licht- und Lüftungsschlitzen mit seitlicher Arretierung der Rollladenstäbe gegen
+            Verschieben. Unterer Behangabschluss mit Endstab. Anschläge für die obere Endstellung des Behanges.
+            Einschließlich Behangbefestigung auf der Welle. Senken und Heben des Behanges mit Knickkurbel über
+            selbstschmierendes Getriebe mit Bremsmechanismus und unterem Endanschlag. Knickkurbel: Starre
+            formschlüssige Verbindung der Kurbelstange zum Getriebe aus verzinktem Stahl. Oberes Gelenk 45 Grad mit
+            Montageplatte. Kurbelstange fixiert mit Kurbelhalter. Verriegelung durch mechanische Sicherung aus Metall
+            oder Kunststoff gegen Hochschieben des Behanges in geschlossenem Zustand.
+            Im Positionsstichwort ist die Abmessung des Einbaurollladens (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.09 11A   Rollladen Kurb.Alu (BxH):__________                                                                           Stk
+            LB-Version: 23              Geändert
+57.09 15    Einbaurollladen mit Motorantrieb, Behang aus Kunststoffrollladenstäben, im obersten Bereich des Behanges
+            ohne, sonst mit Licht- und Lüftungsschlitzen. Mit seitlicher Arretierung der Rollladenstäbe gegen Verschieben.
+            Unterer Behangabschluss mit Endstab. Anschläge für die obere Endstellung des Behanges. Einschließlich
+            Behangbefestigung auf der Welle. Senken und Heben des Behanges mit eingebautem Motor mit Getriebe und
+            Steuerung.
+            Im Positionsstichwort ist die Abmessung des Einbaurollladens (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.09 15A   Rollladen Mot.Kunstst. (BxH):__________                                                                       Stk
+            LB-Version: 23              Geändert
+57.09 16    Einbaurollladen mit Motorantrieb, Behang aus Leichtmetall-(Alu)-Rollladenstäben mit isolierender
+            Kunststoffmasse ausgeschäumt, einbrennlackiert, korrosionsbeständig, kratzfest, im obersten Bereich des
+            Behanges ohne, sonst mit Licht- und Lüftungsschlitzen mit seitlicher Arretierung der Rollladenstäbe gegen
+            Verschieben. Unterer Behangabschluss mit Endstab. Anschläge für die obere Endstellung des Behanges.
+            Einschließlich Behangbefestigung auf der Welle. Senken und Heben des Behanges mit eingebautem Motor mit
+            Getriebe und Steuerung.
+            Im Positionsstichwort ist die Abmessung des Einbaurollladens (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.09 16A   Rollladen Mot.Alu (BxH):__________                                                                            Stk
+            LB-Version: 23              Geändert
+57.09 99    Aufzahlung (Az) auf die Standardfarbe.
+            Im Positionsstichwort ist die RAL-Farbe angegeben.
+
+57.09 99A   Az E-Rollladen Farbe RAL__________                                                                            Stk
+            LB-Version: 23
+
+57.10       Vorsatzrollladen
+            Seitenteile:
+            Aus einbrennlackiertem Leichtmetallguss mit Lagerzapfen.
+            Kasten und Kastenblende:
+            Aus einbrennlackiertem Leichtmetall. Die Mechanik ist ohne Demontage des Rollladens zugänglich.
+
+                                                                                                                    Seite 17 / 21
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+            Welle:
+            Aus korrosionsgeschütztem Metall. Größte Durchbiegung 1/200, Endkappen mit Lagerung.
+            Führungsschienen:
+            Aus stranggepresstem, korrosionsgeschütztem Leichtmetallprofil mit Geräuschdämmeinlage, einschließlich
+            Abdeckknöpfen aus Kunststoff.
+            LB-Version: 23              Geändert
+57.10 01    Vorsatzrollladen mit Gurtzug, Behang aus Kunststoff-(Ku.)-Rollladenstäben, im obersten Bereich des Behanges
+            ohne, sonst mit Licht- und Lüftungsschlitzen. Seitliche Sicherung der Rollladenstäbe gegen Verschieben.
+            Unterer Behangabschluss mit Endstab. Anschläge für die obere Endstellung des Behanges. Einschließlich
+            Befestigen des Behanges auf der Welle. Senken und Heben des Behanges mit Gurtzug, Gurtscheibe aus
+            Kunststoff, textiler Gurt, Gurtführung mit Bürstendichtung, Aufputz-Gurtwickler aus Kunststoff. Mechanische
+            Sicherung aus Metall oder Kunststoff gegen Hochschieben des Behanges in geschlossenem Zustand.
+            Im Positionsstichwort ist die Abmessung des Vorsatzollladens (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.10 01A   Vorsatzroll.Gurt Ku. (BxH):__________                                                                         Stk
+            LB-Version: 23              Geändert
+57.10 02    Vorsatzrollladen mit Gurtzug, Behang aus Leichtmetall-(Alu)-Rollladenstäbe mit wärmedämmender
+            Kunststoffmasse ausgeschäumt, einbrennlackiert, korrosionsbeständig, kratzfest, im obersten Bereich des
+            Behanges ohne, sonst mit Licht- und Lüftungsschlitzen. Seitliche Sicherung der Rollladenstäbe gegen
+            Verschieben. Unterer Behangabschluss mit Endstab. Anschläge für die obere Endstellung des Behanges.
+            Einschließlich Befestigen des Behanges auf der Welle. Senken und Heben des Behanges mit Gurtzug.
+            Gurtscheibe aus Kunststoff, textiler Gurt, Gurtführung mit Bürstendichtung, Aufputz-Gurtwickler aus Kunststoff.
+            Mechanische Sicherung aus Metall oder Kunststoff gegen Hochschieben des Behanges in geschlossenem
+            Zustand.
+            Im Positionsstichwort ist die Abmessung des Vorsatzollladens (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.10 02A   Vorsatzroll.Gurt Al. (BxH):__________                                                                         Stk
+            LB-Version: 23              Geändert
+57.10 06    Vorsatzrollladen mit Kurbelantrieb, Behang aus Kunststoff-(Ku.)-Rollladenstäben im obersten Bereich des
+            Behanges ohne, sonst mit Licht- und Lüftungsschlitzen. Farbe nach Wahl des Auftraggebers aus vorgelegter
+            Kollektion des AN. Seitliche Sicherung der Rollladenstäbe gegen Verschiebung. Unterer Behangabschluss mit
+            Endstab. Anschläge für die obere Endstellung des Behanges. Einschließlich Befestigen des Behanges auf der
+            Welle. Senken und Heben des Behanges mit Knickkurbel über selbstschmierendes Getriebe mit
+            Bremsmechanismus und unterem Endanschlag oder Freilauf. Knickkurbel: Verbindung Kurbelstange zu
+            Getriebe mit starrem, formschlüssigem, verzinktem Stahl. Oberes Gelenk mit Montageplatte, Öffnungswinkel 45
+            Grad. Mechanische Sicherung aus Metall oder Kunststoff gegen Hochschieben des Behanges in
+            geschlossenem Zustand.
+            Im Positionsstichwort ist die Abmessung des Vorsatzollladens (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.10 06A   Vorsatzroll.Kurb.Ku. (BxH):__________                                                                         Stk
+            LB-Version: 23              Geändert
+57.10 07    Vorsatzrollladen mit Kurbelantrieb, Behang aus Leichtmetall-(Al)-Rollladenstäben mit wärmedämmender
+            Kunststoffmasse ausgeschäumt, einbrennlackiert, korrosionsbeständig, kratzfest, im obersten Bereich des
+            Behanges ohne, sonst mit Licht- und Lüftungsschlitzen. Seitliche Sicherung der Rollladenstäbe gegen
+            Verschieben. Unterer Behangabschluss mit Endstab. Anschläge für die obere Endstellung des Behanges.
+            Einschließlich Befestigen des Behanges auf der Welle. Senken und Heben des Behanges mit Knickkurbel über
+            selbstschmierendes Getriebe mit Bremsmechanismus und unterem Endanschlag. Knickkurbel: Verbindung
+            Kurbelstange zu Getriebe mit starrem, formschlüssigem, verzinktem Stahl. Oberes Gelenk 45 Grad mit
+            Montageplatte. Kurbelstange fixiert mit Kurbelhalter. Mechanische Sicherung aus Metall oder Kunststoff gegen
+            Hochschieben des Behanges in geschlossenem Zustand.
+            Im Positionsstichwort ist die Abmessung des Vorsatzollladens (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.10 07A   Vorsatzroll.Kurb.Al. (BxH):__________                                                                         Stk
+            LB-Version: 23              Geändert
+57.10 11    Vorsatzrollladen mit Motorantrieb, Behang aus Kunststoff-(Ku.)-Rollladenstäben im obersten Bereich des
+            Behanges ohne, sonst mit Licht- und Lüftungsschlitzen. Seitliche Sicherung der Rollladenstäbe gegen
+            Verschieben. Unterer Behangabschluss mit Endstab. Anschläge für die obere Endstellung des Behanges.
+            Einschließlich Befestigen des Behanges auf der Welle. Senken und Heben des Behanges mit eingebautem
+            Motor mit Getriebe und Steuerung.
+            Im Positionsstichwort ist die Abmessung des Vorsatzollladens (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.10 11A   Vorsatzroll.Mot.Ku. (BxH):__________                                                                          Stk
+                                                                                                                    Seite 18 / 21
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            LB-Version: 23              Geändert
+57.10 12    Vorsatzrollladen mit Motorantrieb, Behang aus Leichtmetall-(Al.)-Rollladenstäben mit wärmedämmender
+            Kunststoffmasse ausgeschäumt, einbrennlackiert, korrosionsbeständig, kratzfest, im obersten Bereich des
+            Behanges ohne, sonst mit Licht- und Lüftungsschlitzen. Seitliche Sicherung der Rollladenstäbe gegen
+            Verschieben. Unterer Behangabschluss mit Endstab. Anschläge für die obere Endstellung des Behanges.
+            Einschließlich Befestigen des Behanges auf der Welle. Senken und Heben des Behanges mit eingebautem
+            Motor mit Getriebe und Steuerung.
+            Im Positionsstichwort ist die Abmessung des Vorsatzollladens (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.10 12A   Vorsatzroll.Mot.Al. (BxH):__________                                                                         Stk
+            LB-Version: 23              Geändert
+57.10 15    Vorsatzrollladen mit solarbetriebenem Motorantrieb (Solar), Behang aus Kunststoff-(Ku.)-Rollladenstäben im
+            obersten Bereich des Behanges ohne, sonst mit Licht- und Lüftungsschlitzen. Seitliche Sicherung der
+            Rollladenstäbe gegen Verschieben. Unterer Behangabschluss mit Endstab. Anschläge für die obere
+            Endstellung des Behanges. Einschließlich Befestigen des Behanges auf der Welle. Senken und Heben des
+            Behanges mit eingebautem Motor mit Getriebe und Steuerung.
+            Im Positionsstichwort ist die Abmessung des Vorsatzollladens (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.10 15A   Vorsatzroll.Solar Ku. (BxH):__________                                                                       Stk
+            LB-Version: 23              Geändert
+57.10 16    Vorsatzrollladen mit solarbetriebenem Motorantrieb (Solar), Behang aus Leichtmetall-(Al.)-Rollladenstäben mit
+            wärmedämmender Kunststoffmasse ausgeschäumt, einbrennlackiert, korrosionsbeständig, kratzfest, im
+            obersten Bereich des Behanges ohne, sonst mit Licht- und Lüftungsschlitzen. Seitliche Sicherung der
+            Rollladenstäbe gegen Verschieben. Unterer Behangabschluss mit Endstab. Anschläge für die obere
+            Endstellung des Behanges. Einschließlich Befestigen des Behanges auf der Welle. Senken und Heben des
+            Behanges mit eingebautem Motor mit Getriebe und Steuerung.
+            Im Positionsstichwort ist die Abmessung des Vorsatzollladens (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.10 16A   Vorsatzroll.Solar Al. (BxH):__________                                                                       Stk
+            LB-Version: 23              Geändert
+57.10 99    Aufzahlung (Az) auf die Standardfarbe.
+            Im Positionsstichwort ist die RAL-Farbe angegeben.
+
+57.10 99A   Az Vorsatzroll. Farbe RAL__________                                                                          Stk
+            LB-Version: 23
+
+57.16       ZIP-Senkrechtmarkisen
+            Markisen mit Kasten und seitlichen Führungsschienen im Reißverschlusssystem.
+            Konstruktionsteile:
+            Aus galvanisch korrosionsgeschütztem Stahl oder aus Kunststoff oder Leichtmetall.
+            Fallrohr:
+            Aus natureloxiertem Leichtmetallprofil. Korrosionsgeschützte Laufrollen zur Verbindung mit der
+            Führungsschiene.
+            Tuchwelle:
+            Aus korrosionsgeschütztem Stahlrohr oder Leichtmetall, wartungsfrei gelagert.
+            Montageträger:
+            Aus Leichtmetallguss oder natureloxiertem Leichtmetallprofil.
+            LB-Version: 23
+57.16 01    ZIP-Senkrechtmarkise (ZIP-Senkr.-mark) mit Abdeckung und Führungsschienen aus Leichtmetall, natureloxiert,
+            mit Kurbelantrieb, Bespannung mit Markisentuch aus vollsynthetischem, schmutzabweisendem,
+            wasserabstoßendem und fäulnishemmend imprägniertem Gewebe, einfärbig oder gestreift. Senken und Heben
+            der ZIP-Senkrechtmarkise mit Kurbel über kugelgelagertes, selbstsperrendes Schneckenradgetriebe.
+            Endanschlag der ausgefahrenen Markise als Funktionsschutz.
+            Im Positionsstichwort ist die Abmessung der ZIP-Senkrechtmarkise (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.16 01C   ZIP-Senkr.-mark.Tuch Kurbel m.Abd.eckig (BxH):__________                                                     Stk
+            Behang: ____________
+
+            LB-Version: 23
+                                                                                                                   Seite 19 / 21
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+57.16 01D   ZIP-Senkr.-mark.Tuch Kurbel m.Abd.rund (BxH):__________                                                    Stk
+            Behang: ____________
+
+            LB-Version: 23
+57.16 03    ZIP-Senkrechtmarkise (ZIP-Senkr.-mark) mit Abdeckung und Führungsschienen aus Leichtmetall, natureloxiert,
+            mit Kurbelantrieb, Bespannung mit Gitterstoff aus lichtdurchlässigem, PVC-ummanteltem,
+            schmutzabweisendem, wasserfestem, dimensions- und temperaturbeständigem Glasfasergewebe, einfärbig
+            oder gestreift. Senken und Heben der ZIP-Senkrechtmarkise mit Kurbel über kugelgelagertes, selbstsperrendes
+            Schneckenradgetriebe. Endanschlag der ausgefahrenen Markise als Funktionsschutz.
+            Im Positionsstichwort ist die Abmessung der ZIP-Senkrechtmarkise (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.16 03C   ZIP-Senkr.-mark.Gitt.Kurbel m.Abd.eckig (BxH):__________                                                   Stk
+            Behang: ____________
+
+            LB-Version: 23
+
+57.16 03D   ZIP-Senkr.-mark.Gitt.Kurbel m.Abd.rund (BxH):__________                                                    Stk
+            Behang: ____________
+
+            LB-Version: 23
+57.16 05    ZIP-Senkrechtmarkise (ZIP-Senkr.-mark) mit Abdeckung und Führungsschienen aus Leichtmetall, natureloxiert,
+            mit Motorantrieb, Bespannung mit Markisentuch aus vollsynthetischem, schmutzabweisendem,
+            wasserabstoßendem und fäulnishemmend imprägniertem Gewebe, einfärbig oder gestreift. Senken und Heben
+            der ZIP-Senkrechtmarkise mit eingebautem Motor mit Getriebe und Steuerung.
+            Im Positionsstichwort ist die Abmessung der ZIP-Senkrechtmarkise (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.16 05C   ZIP-Senkr.-mark.Tuch Motor m.Abd.eckig (BxH):__________                                                    Stk
+            Behang: ____________
+
+            LB-Version: 23
+
+57.16 05D   ZIP-Senkr.-mark.Tuch Motor m.Abd.rund (BxH):__________                                                     Stk
+            Behang: ____________
+
+            LB-Version: 23
+57.16 07    ZIP-Senkrechtmarkise (ZIP-Senkr.-mark) mit Abdeckung und Führungsschienen aus Leichtmetall, natureloxiert,
+            mit Motorantrieb, Bespannung mit Gitterstoff aus lichtdurchlässigem, PVC-ummanteltem, schmutzabweisendem,
+            wasserfestem, dimensions- und temperaturbeständigem Glasfasergewebe, einfärbig oder gestreift. Ausführung
+            lotrecht oder schräg bis 40 Grad zur Lotrechten. Senken und Heben der ZIP-Senkrechtmarkise mit eingebautem
+            Motor mit Getriebe und Steuerung.
+            Im Positionsstichwort ist die Abmessung der ZIP-Senkrechtmarkise (Breite mal Höhe in mm (BxH)) angegeben.
+
+57.16 07C   ZIP-Senkr.-mark.Gitt.Motor m.Abd.eckig (BxH):__________                                                    Stk
+            LB-Version: 23
+
+57.16 07D   ZIP-Senkr.-mark.Gitt.Motor m.Abd.rund (BxH):__________                                                     Stk
+            LB-Version: 23
+57.16 99    Aufzahlung (Az) auf die Standardfarbe.
+            Im Positionsstichwort ist die RAL-Farbe angegeben.
+
+57.16 99A   Az ZIP-Senkr.-mark. Farbe RAL__________                                                                    Stk
+            LB-Version: 23
+
+57.90       Regieleistungen
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen.
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+                                                                                                                 Seite 20 / 21
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+            2. Mengenänderungen:
+
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+57.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+57.90 00C   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+57.90 01    Regiestunden
+
+57.90 01A   Regiestunden Monteur                                                                                             h
+
+57.90 01B   Regiestunden Hilfsarbeiter                                                                                       h
+            Für Hilfsarbeiter.
+
+57.90 51    Materiallieferungen f.Regieleistungen                                                                            VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+            LB-Version: 23                  Geringfügig Geändert
+
+
+
+
+                                                                                                                       Seite 21 / 21
+                                                                                                  ib-data GmbH, Softwareentwicklung
+

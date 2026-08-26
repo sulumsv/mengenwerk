@@ -1,0 +1,1153 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                        Leistungsgruppe (LG) 30 - Schließanlagen
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 3030    Schließplan
+                     ULG 3031    Nutzerorientierte Schließanlagen (NO)
+                     ULG 3032    Betriebsorientierte Schließanlagen (BS)
+                     ULG 3033    Komplexe Sicherheits-Schließanlagen (KS)
+
+
+
+
+                                                                                                           Seite 1 / 18
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                      EH
+
+30         Schließanlagen
+           Version 023 (2025-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           1. Begriffe:
+           1.1 Hauptschlüssel-/Zentralschlossanlage (Haupt/Zentral):
+           Die Hauptschlüsselanlage ist eine Schließanlage mit verschieden-sperrenden Zylindern, denen ein
+           Hauptschlüssel, der alle sperrt, übergeordnet ist.
+           Die Zentralschlossanlage ist eine Schließanlage, deren Einzelschlüssel alle einen oder mehrere gemeinsame
+           Zylinder sperren.
+           1.2 Haupt- und Gruppensperranlage (HG-Sperr-Anl.):
+           Die Haupt- und Gruppensperranlage ist eine Schließanlage mit unterschiedlich definierten Zylindern, die von
+           mehreren, unterschiedlichen Schlüsseln gesperrt werden. Entsprechend einer anwenderspezifischen
+           Hierarchiestruktur werden Sperrberechtigungen in verschiedenen Gruppen und unter einem
+           Generalhauptschlüssel zusammengefasst.
+           2. Einkalkulierte Leistungen:
+           2.1 Naturmaße:
+           Die Aufnahme von Naturmaßen durch den Auftragnehmer ist in die Einheitspreise einkalkuliert.
+           2.2 Zylinder:
+           Zylinder werden auftragsbezogen individuell gefertigt, geliefert, in das Schloss bei freiem Loch eingesteckt und
+           befestigt, einschließlich Sperrprobe.
+           Bei der Sperrprobe muss der Zylinder den Sperr-Riegel im offenen Zustand des Türblattes einwandfrei
+           betätigen.
+           Etwaige Mängel, die beim Sperren bei geschlossener Tür auftreten und die der Auftragnehmer nicht zu vertreten
+           hat, werden dem Auftraggeber unverzüglich und nachvollziehbar gemeldet.
+           Alle Zylinder sind links oder rechts verwendbar, Doppelzylinder von beiden Seiten zu sperren.
+           In den Zylinderpositionen sind keine Schlüssel enthalten. Alle Schlüssel sind in eigenen Positionen
+           ausgeschrieben.
+           2.3 Dokumentation:
+           Der Auftraggeber erhält als Dokumentation der Zuordnungen von Türen, Zylindern und Schlüsseln einen
+           gedruckten Schließplan in einfacher Ausfertigung.
+           3. Sicherheitskriterien für Schließzylinder:
+           3.1 Angriffswiderstand Klasse 2:
+           Der Schließzylinder erfüllt in Verbindung mit einem Schutzbeschlag oder einer Schutzrosette mit Kernziehschutz
+           den Angriffswiderstand Klasse 2 gemäß ÖNORM.
+           3.2 Schließzylinder kurzer Baulänge:
+           Bei Verwendung von Doppelzylindern, die kürzer als 60 mm sind, weisen beide Zylinderseiten gleiche
+           kombinatorische und sicherheitstechnische Merkmale auf, aktive variierbare Zuhaltungselemente werden weder
+           einseitig reduziert noch werden Sicherheitseinrichtungen bei Standardzylindern weggelassen.
+           3.3 Eindeutige Ansteck- und Abziehposition ohne Verdrehkorrektur:
+           Bei der Standardausführung des Doppelzylinders macht eine eindeutige Ansteck- und Abziehposition des
+           Schlüssels auch bei mehrtourigen Einstemm- oder Einsteckschlössern den Sperrvorgang nach einer
+           Schlüsseldrehung von jeweils 360 Grad für den Schlüsselnutzer als abgeschlossen wahrnehmbar (intuitive
+           Benutzung).
+           4. Sicherheitskriterien für Schlüssel:
+           4.1 Keine veränderbaren Teile:
+           Die Schlüssel weisen keine veränderbaren Elemente auf, bei deren Austausch oder mechanischer Änderung
+           die Schließberechtigung innerhalb der Schließanlage oder anlagenübergreifend verändert werden könnte.
+           5. Sicherheitskriterien für Schlüsselnachfertigung:
+           5.1 Organisatorischer Schlüsselschutz:
+           Schlüssel mit gleicher oder neuer Sperrberechtigung werden ausschließlich für bezugsberechtigte Personen
+           nach entsprechender Legitimation hergestellt. Das Legitimationsverfahren muss auch nach Ablauf des
+           gesetzlichen Schutzes gewährleistet bleiben. Mit dem Kauf der Anlage wird gemäß den Legitimationsverfahren
+           des Herstellers die Art des Bezugsnachweises festgelegt, z.B. die vom Auftraggeber definierte
+           bezugsberechtigte Person ist zur Vorlage von Sicherungskarte/-schein und Ausweis verpflichtet.
+           6. Herstellerbezogene Voraussetzungen:
+                                                                                                                     Seite 2 / 18
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                                EH
+
+            Der Auftragnehmer vergewissert sich und haftet gegenüber dem Auftraggeber dafür,
+            - dass die Schließanlage und alle Einzelteile aus Sicherheitsgründen innerhalb der EU gefertigt werden,
+            - dass der Hersteller die Unbescholtenheit der zur Schlüsselfertigung berechtigten Personen überprüft hat,
+            - dass der Hersteller in der Lage und vertraglich verpflichtet ist, die Wiederherstellung der Anlagensicherheit bei
+            etwaigen Beschädigungen von Zylindern, die Wiederbeschaffung von fehlenden Schlüsseln oder die Herstellung
+            von Zusatzschlüsseln durch Lieferung innerhalb von 5 Werktagen zu garantieren,
+            - dass der Hersteller und alle von ihm berechtigten Auftragnehmer ein Qualitätsmanagementsystem in
+            Übereinstimmung mit den Anforderungen der jeweils geltenden ISO 9001 (oder Gleichwertiges) integriert haben.
+            Der Hersteller hat dem Auftragnehmer die Anwendung und stetige Weiterentwicklung des
+            Qualitätsmanagementsystems mittels gültigem Zertifikat einer unabhängigen zugelassenen Prüfstelle
+            nachgewiesen.
+            - dass die erforderlichen personellen Ressourcen und die technische Infrastruktur sichergestellt sind, um die
+            Montage und Installation einer Schließanlage in Abstimmung mit dem Betreiber, Bauelementelieferanten oder
+            Generalunternehmer zu begleiten und zu koordinieren,
+            - dass der Auftragnehmer auf Anforderung dem Auftraggeber nachweist, dass alle herstellerbezogenen
+            Vertragsbedingungen für die von ihm gewählte Schließanlage zutreffen.
+            7. Systemprüfungen:
+            Alle Systeme sind hinsichtlich der geforderten Eigenschaften oder der in Normen vorgesehen
+            Eignungsprüfungen von einer Prüf-, Überwachungs- und Zertifizierungsstelle geprüft. Der Auftragnehmer legt
+            dem Auftraggeber auf Anforderung die entsprechenden Prüfberichte ohne gesonderte Vergütung vor.
+            Der Nachweis umfasst jedenfalls die Sicherheitseinstufung gemäß NORM bezüglich Angriffswiderstandsklasse
+            und Verschlussklasse sowie den Nachweis, dass der Zylinder der NORM entspricht und daher für den Einsatz in
+            DIN- oder ÖNORM Einsteck- oder Einstemmschlössern geeignet ist.
+             Kommentar:
+             Möbelzylinder sind frei zu formulieren.
+             Systemprüfung:
+             Der Nachweis umfasst jedenfalls die Sicherheitseinstufung gemäß ÖNORM EN 1303 bezüglich Angriffswiderstandsklasse
+             und Verschlussklasse sowie den Nachweis, dass der Zylinder der ÖNORM B 5356 entspricht und daher für den Einsatz in
+             DIN- oder ÖNORM Einsteck- oder Einstemmschlössern geeignet ist.
+             Verschlussklasse gemäß ÖNORM EN 1303:
+             Die Verschlussklasse beschreibt den Grad der Verschlusssicherheit bei Sperrversuchen mit unberechtigten Schlüsseln,
+             sowie die Art der Schließungsbezeichnung am Schlüssel.
+             Klasse des Angriffswiderstandes:
+             Der Angriffswiderstand beschreibt die Überwindungszeit, die ein potentieller Täter benötigt, um den Schließzylinder
+             einschließlich Schutzbeschlag oder Schutzrosette mit Kernziehschutz zu überwinden, um sich widerrechtlich Zutritt in ein zu
+             schützendes Objekt zu verschaffen (z.B. durch Bohren, Meißeln und Abdrehen des Schließzylinders).
+             Herstellerunabhängige Schlüsselbezugsstellen:
+             Die technisch einwandfreie Funktion von Ersatz- und Zusatzschlüsseln in Generalhauptschlüsselanlagen sowie in
+             Hauptschlüssel- und Zentralschlossanlagen ist nur sichergestellt, wenn die vom Hersteller festgelegten Fertigungstoleranzen
+             eingehalten werden. Die Herstellung von Ersatz-, Zusatz- oder Nachschlüssel erfordert somit Fachkenntnisse über die
+             ausschließlich die Hersteller oder qualifizierte Fachbetriebe verfügen. Bei höherem Sicherheitserfordernis müssen die
+             Schlüssel ausschließlich vom Hersteller hergestellt werden.
+             Leihzylinder:
+             Provisorische Schließzylinder während der Bauzeit können unter Angabe der Art der Schließanlage und der erforderlichen
+             Stückzahlen an Zylindern der Haupt- und Gruppenschlüssel frei formuliert werden. Auch der Ausbau ist frei zu formulieren,
+             weil der Einbau neuer Anlagen standardisiert "in das freie Loch" erfolgt.
+             Montage:
+             Sollte es sich um einen Lieferauftrag handeln, sind Montagepositionen frei zu formulieren.
+
+            LB-Version: 23                  Geringfügig Geändert
+
+30.30       Schließplan
+            Schließplan:
+            Für die Erstellung eines Schließplanes seitens des Auftragnehmers erfolgen in den wählbaren Vorbemerkungen
+            Angaben des Auftraggebers.
+
+30.30 01    Der Auftragnehmer erstellt einen Schließplan in einfacher Ausfertigung, kopierbar. Der Schließplan gilt erst nach
+            Zustimmung durch den Auftraggeber als abgeschlossen. Die Fertigung der Schließanlage erfolgt erst nach
+            Zustimmung durch den Auftraggeber zum Schließplan.
+
+30.30 01A   Schließplan                                                                                                              Stk
+            Betrifft Position(en): ____________
+            Angaben und Daten: ____________
+
+30.31       Nutzerorientierte Schließanlagen (NO)
+
+                                                                                                                                Seite 3 / 18
+                                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            1. Begriffe:
+            Nutzerorientierte Schließanlagen (NO):
+            Eine nutzerorientierte Schließanlage sichert ein Gebäude für unabhängige Gebäudenutzer ("nutzerorientiert")
+            standardmäßig ab. Die Nutzer der jeweiligen Gebäudeabschnitte dürfen den individuellen Bedarf an Sicherheits-
+            und Organisationsmaßnahmen für die von ihnen genutzten Gebäudeabschnitte und Räumlichkeiten nach
+            Vertragserfüllung gegen angemessenes Entgelt später ändern (z.B. durch Austausch der Zylinder, Einbau einer
+            Sicherheitstüre, durch Aufrüstung mit einem Balkenschloss).
+            2. Sicherheitskriterien für Schließzylinder:
+            Verschlusssicherheit Klasse 4:
+            Der Schließzylinder erfüllt die Anforderungen an die Verschlussklasse 4 gemäß ÖNORM.
+            3. Sicherheitskriterien für Schlüssel:
+            Schlüsselprofil:
+            Bei einreihig gefederten Stiftzylindersystemen weisen Schlüssel mit Längsprofil zumindest eine
+            Profilüberlappung, die über die gesamte Schlüssellänge auch im Kernprofil des Schließzylinders abgefragt wird,
+            (parazentrisches Schlüsselprofil) auf.
+            4. Sicherheitskriterien für Schlüsselnachfertigung:
+            Gesetzlicher Schlüsselschutz (Gebrauchsmuster/Patent):
+            Zum Schutz des Eigentümers ist die gewerbliche Herstellung von Schlüsseln ohne Rechtsverletzung nur jenen
+            Fachbetrieben gesetzlich erlaubt, die vom Hersteller dazu berechtigt wurden. Der für die Schließfunktion
+            maßgebliche Teil des Schlüssels, also jener Teil, der zur Gänze in den Zylinderkern eingreift, weist mindestens
+            ein schließfunktionales Merkmal auf, das durch Gebrauchsmusterschutz oder durch ein aufrechtes Patent,
+            geschützt ist.
+            5. Schlüsselbezugsquellen:
+            Schlüssel können vom Hersteller oder von einem vom Hersteller berechtigten Fachbetrieb hergestellt werden.
+            6. Herstellerbezogene Voraussetzungen:
+            Der Auftragnehmer vergewissert sich und haftet gegenüber dem Auftraggeber dafür,
+            - dass der Hersteller gegenüber dem Auftraggeber selber oder gegenüber allen von diesem berechtigten
+            Personen auskunftspflichtig darüber ist, ob ein bestimmter Fachhändler als Schlüsselbezugsquelle für die
+            jeweilige Schließanlage berechtigt ist oder welche Fachhändler berechtigt sind.
+             Kommentar:
+             Typische Objektnutzungen sind (z.B.):
+             - Staatlich geförderter Wohnbau
+             - Büro- und Mietobjekte
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+30.31 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+30.31 00A   Zylinder und Schlüssel (zu 30.31)
+            Stückzahl der Zylinder und Schlüssel.
+            Zylinder: ____________
+            Schlüssel: ____________
+             Kommentar:
+             Istwert plus/minus 5 Prozent der ausgeschriebenen Menge.
+
+            LB-Version: 23                Geringfügig Geändert
+
+30.31 00B   Schließhierarchie (zu 30.31)
+            Grundkonzept der Schließhierarchie unter Angabe der Anzahl der unterschiedlichen Schließgruppen.
+            Anzahl der unterschiedlichen Schließgruppen: ____________
+
+30.31 00C   Einbindung anderer Objekte (zu 30.31)
+            Zeitliche und technische Einbindung anderer Objekte, sowie bereits geplante Erweiterungen:
+            zeitliche Einbindungen: ____________
+            technische Einbindungen: ____________
+            geplante Erweiterungen: ____________
+
+30.31 00D   Elektronische Aufrüstung (zu 30.31)
+
+
+
+                                                                                                                     Seite 4 / 18
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+            Chiptechnologien in bereits bestehende Anlagen (z.B. Zutrittskontrollen, Zeiterfassungssystemen,
+            Betriebsdatenerfassungssystemen) eingesetzt und für eine elektronische Aufrüstung der Schließanlagen zu
+            verwenden.
+            Chiptechnologien: ____________
+
+30.31 00E   Sonderzylinder (zu 30.31)
+            Gewünschte oder erforderliche Sonderzylinder (z.B. Schaltzylinder, Blindzylinder).
+            Sonderzylinder: ____________
+
+30.31 00F   Zusatzprodukte (zu 30.31)
+            Gewünschte oder erforderliche Zusatzprodukte (z.B. Brief- oder Schlüsselkästen, Schlüsseldepots):
+            Zusatzprodukte: ____________
+
+30.31 00G   Sonderfunktionen (zu 30.31)
+            Gewünschte oder erforderliche Sonderfunktionen (z.B. beidseitige Sperrbarkeit, Bauzeitfunktion, Freilauffunktion
+            beim Einsatz von Fluchttüren, zusätzlicher Staub- und Witterungsschutz).
+            Sonderfunktionen: ____________
+
+30.31 00H   Sonstige Vereinbarungen (zu 30.31)
+            Sonstige Vereinbarungen (z.B. Erschwernisse): ____________
+
+30.31 01    Halbzylinder für eine nutzerorientierte Hauptschlüssel- oder Zentralschlossanlage (NO-Haupt/Zentral). Im
+            Positionsstichwort ist die Gesamtlänge L (bis Mitte Schließnase) angegeben.
+
+30.31 01A   NO-Haupt/Zentral Halbzylinder 30mm L                                                                            Stk
+
+30.31 01B   NO-Haupt/Zentral Halbzylinder ü.30-35mm L                                                                       Stk
+
+30.31 01C   NO-Haupt/Zentral Halbzylinder ü.35-40mm L                                                                       Stk
+
+30.31 01D   NO-Haupt/Zentral Halbzylinder ü.40-45mm L                                                                       Stk
+
+30.31 01E   NO-Haupt/Zentral Halbzylinder ü.45-50mm L                                                                       Stk
+
+30.31 01F   NO-Haupt/Zentral Halbzylinder ü.50-55mm L                                                                       Stk
+
+30.31 01G   NO-Haupt/Zentral Halbzylinder ü.55-60mm L                                                                      Stk
+30.31 02    Doppelzylinder für eine nutzerorientierte Hauptschlüssel- oder Zentralschlossanlage (NO-Haupt/Zentral). Im
+            Positionsstichwort ist die Gesamtlänge L (bis Mitte Schließnase) angegeben.
+
+30.31 02A   NO-Haupt/Zentral Doppelzylinder 60-65mm L                                                                       Stk
+
+30.31 02B   NO-Haupt/Zentral Doppelzylinder ü.65-70mm L                                                                     Stk
+
+30.31 02C   NO-Haupt/Zentral Doppelzylinder ü.70-75mm L                                                                     Stk
+
+30.31 02D   NO-Haupt/Zentral Doppelzylinder ü.75-80mm L                                                                     Stk
+
+30.31 02E   NO-Haupt/Zentral Doppelzylinder ü.80-85mm L                                                                     Stk
+
+30.31 02F   NO-Haupt/Zentral Doppelzylinder ü.85-90mm L                                                                     Stk
+
+30.31 02G   NO-Haupt/Zentral Doppelzylinder ü.90-95mm L                                                                     Stk
+
+30.31 02H   NO-Haupt/Zentral Doppelzylinder ü.95mm L                                                                        Stk
+            Über 95 bis 100 mm.
+
+30.31 03    Blechmontage-Zylinder für eine nutzerorientierte Hauptschlüssel- oder Zentralschlossanlage
+            (NO-Haupt/Zentral).
+
+30.31 03A   NO-Haupt/Zentral Blechmontagezylinder                                                                           Stk
+30.31 04    Außenzylinder für Zusatzschloss (in eigener Position) mit Stahlrosette für eine nutzerorientierte Hauptschlüssel-
+            oder Zentralschlossanlage (NO-Haupt/Zentral), passend zur angegeben Türblattdicke.
+
+30.31 04A   NO-Haupt/Zentral Außenzylinder                                                                                  Stk
+
+                                                                                                                       Seite 5 / 18
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Türblattdicke in mm: ____________
+
+30.31 05    Aufzugzylinder für eine nutzerorientierte Hauptschlüssel- oder Zentralschlossanlage (NO-Haupt/Zentral).
+
+30.31 05A   NO-Haupt/Zentral Aufzugszylinder                                                                               Stk
+30.31 06    Hangschloss mit Bügel aus Stahl (St) gehärtet oder Edelstahl, Mindestdurchmesser 7 mm, für eine
+            nutzerorientierte Hauptschlüssel- oder Zentralschlossanlage (NO-Haupt/Zentral).
+
+30.31 06A   NO-Haupt/Zentral Hangschloss                                                                                   Stk
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+30.31 07    Spezialzylinder für eine nutzerorientierte Hauptschlüssel- oder Zentralschlossanlage (NO-Haupt/Zentral).
+
+30.31 07A   NO-Haupt/Zentral HZ/Schalt.E/A                                                                                 Stk
+            Schalt- und Kontakt-Halbzylinder mit zwei Schaltstellungen (Ein/Aus), Schlüssel in jeder Schaltstellung
+            abziehbar (HZ/Schalt.E/A).
+
+30.31 07B   NO-Haupt/Zentral HZ/Schalt.4-fach                                                                              Stk
+            Schalt- und Kontakt-Halbzylinder mit vier Schaltstellungen, Schlüssel in jeder Schaltstellung abziehbar
+            (HZ/Schalt.4-fach).
+
+30.31 07E   NO-Haupt/Zentral HZ/Glastür Edelstahl                                                                          Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte Edelstahl, matt geschliffen und Unterlagsscheibe gegen Glasbruch.
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+30.31 07F   NO-Haupt/Zentral HZ/Glastür Alu                                                                                Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte Alu, eloxiert und Unterlagsscheibe gegen Glasbruch.
+
+30.31 07G   NO-Haupt/Zentral HZ/Glastür                                                                                    Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte und Unterlagsscheibe gegen Glasbruch.
+            Schlossplatte nach Wahl des Auftraggebers: ____________
+
+30.31 07H   NO-Haupt/Zentral Fenstergriff sperrbar                                                                         Stk
+            Versperrbarer Fenster-Sicherheitsgriff mit Verriegelung ohne Schlüssel durch Druck auf den Zylinder, Schlüssel
+            in jeder Griffstellung abziehbar.
+
+30.31 07L   NO-Haupt/Zentral Knaufzylinder                                                                                 Stk
+            Doppelzylinder einseitig mit Knauf zur Betätigung des Schließvorganges anstelle der Verwendung eines
+            Schlüssels.
+30.31 11    Halbzylinder für eine nutzerorientierte Haupt- und Gruppensperranlage (NO-HG-Sperr-Anl.). Im
+            Positionsstichwort ist die Gesamtlänge L (bis Mitte Schließnase) angegeben.
+
+30.31 11A   NO-HG-Sperr-Anl.Halbzylinder 30mm L                                                                            Stk
+
+30.31 11B   NO-HG-Sperr-Anl.Halbzylinder ü.30-35mm L                                                                       Stk
+
+30.31 11C   NO-HG-Sperr-Anl.Halbzylinder ü.35-40mm L                                                                       Stk
+
+30.31 11D   NO-HG-Sperr-Anl.Halbzylinder ü.40-45mm L                                                                       Stk
+
+30.31 11E   NO-HG-Sperr-Anl.Halbzylinder ü.45-50mm L                                                                       Stk
+
+30.31 11F   NO-HG-Sperr-Anl.Halbzylinder ü.50-55mm L                                                                       Stk
+
+30.31 11G   NO-HG-Sperr-Anl.Halbzylinder ü.55-60mm L                                                                       Stk
+30.31 12    Doppelzylinder (Dopp.Zylinder) für eine nutzerorientierte Haupt- und Gruppensperranlage (NO-HG-Sperr-Anl.).
+            Im Positionsstichwort ist die Gesamtlänge L angegeben.
+
+
+                                                                                                                      Seite 6 / 18
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+30.31 12A   NO-HG-Sperr-Anl.Dopp.Zylinder 60-65mm L                                                                        Stk
+
+30.31 12B   NO-HG-Sperr-Anl.Dopp.Zylinder ü.65-70mm L                                                                      Stk
+
+30.31 12C   NO-HG-Sperr-Anl.Dopp.Zylinder ü.70-75mm L                                                                      Stk
+
+30.31 12D   NO-HG-Sperr-Anl.Dopp.Zylinder ü.75-80mm L                                                                      Stk
+
+30.31 12E   NO-HG-Sperr-Anl.Dopp.Zylinder ü.80-85mm L                                                                      Stk
+
+30.31 12F   NO-HG-Sperr-Anl.Dopp.Zylinder ü.85-90mm L                                                                      Stk
+
+30.31 12G   NO-HG-Sperr-Anl.Dopp.Zylinder ü.90-95mm L                                                                      Stk
+
+30.31 12H   NO-HG-Sperr-Anl.Dopp.Zylinder ü.95-100mm L                                                                     Stk
+30.31 13    Blechmontage-Zylinder für eine nutzerorientierte Haupt- und Gruppensperranlage (NO-HG-Sperr-Anl.).
+
+30.31 13A   NO-HG-Sperr-Anl.Blechmontagezylinder                                                                           Stk
+30.31 14    Außenzylinder für Zusatzschloss (in eigener Position) mit Stahlrosette für eine nutzerorientierte Haupt- und
+            Gruppensperranlage (NO-HG-Sperr-Anl.).
+
+30.31 14A   NO-HG-Sperr-Anl.Außenzylinder                                                                                  Stk
+            Passend zur angegeben Türblattdicke in mm: ____________
+
+30.31 15    Aufzugzylinder für eine nutzerorientierte Haupt- und Gruppensperranlage (NO-HG-Sperr-Anl.).
+
+30.31 15A   NO-HG-Sperr-Anl.Aufzugzylinder                                                                                 Stk
+30.31 16    Hangschloss mit Bügel aus Stahl (St) gehärtet oder Edelstahl, Mindestdurchmesser 7 mm, für eine
+            nutzerorientierte Haupt- und Gruppensperranlage (NO-HG-Sperr-Anl.).
+
+30.31 16A   NO-HG-Sperr-Anl.Hangschloss                                                                                    Stk
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+30.31 17    Spezialzylinder für eine nutzerorientierte Haupt- und Gruppensperranlage (NO-HG-Sperr-Anl.).
+
+30.31 17A   NO-HG-Sperr-Anl.HZ/Schalt.E/A                                                                                  Stk
+            Schalt- und Kontakt-Halbzylinder mit zwei Schaltstellungen (Ein/Aus), Schlüssel in jeder Schaltstellung
+            abziehbar (HZ/Schalt.E/A).
+
+30.31 17B   NO-HG-Sperr-Anl.HZ/Schalt.4-fach                                                                               Stk
+            Schalt- und Kontakt-Halbzylinder mit vier Schaltstellungen, Schlüssel in jeder Schaltstellung abziehbar
+            (HZ/Schalt.4-fach).
+
+30.31 17E   NO-HG-Sperr-Anl.HZ/Glastür Edelstahl                                                                           Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte Edelstahl, matt geschliffen und Unterlagsscheibe gegen Glasbruch.
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+30.31 17F   NO-HG-Sperr-Anl.HZ/Glastür Alu                                                                                 Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte Alu, eloxiert und Unterlagsscheibe gegen Glasbruch.
+
+30.31 17G   NO-HG-Sperr-Anl.HZ/Glastür                                                                                     Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte und Unterlagsscheibe gegen Glasbruch.
+            Schlossplatte nach Wahl des Auftraggebers: ____________
+
+30.31 17H   NO-HG-Sperr-Anl.Fenstergriff sperrbar                                                                          Stk
+            Versperrbarer Fenster-Sicherheitsgriff mit Verriegelung ohne Schlüssel durch Druck auf den Zylinder, Schlüssel
+            in jeder Griffstellung abziehbar.
+
+                                                                                                                      Seite 7 / 18
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+30.31 17L   NO-HG-Sperr-Anl.Knaufzylinder                                                                                Stk
+            Doppelzylinder einseitig mit Knauf zur Betätigung des Schließvorganges anstelle der Verwendung eines
+            Schlüssels.
+30.31 21    Haupt- oder Gruppenschlüssel für eine nutzerorientierte Schließanlage ohne Unterschied der Art und ohne
+            Unterschied ob für Halb- oder Doppelzylinder.
+
+30.31 21A   NO-Hauptschlüssel                                                                                            Stk
+
+30.31 21B   NO-Gruppenschlüssel                                                                                          Stk
+
+30.31 21C   NO-Eigenschlüssel                                                                                            Stk
+
+30.31 21D   NO-übergeordneter Schlüssel                                                                                  Stk
+30.31 22    Aufzahlung (Az) auf Zylinder für eine nutzerorientierte Schließanlage (NO) ohne Unterschied der
+            Schließanlagenart.
+
+30.31 22A   Az NO-Witterungsschutz                                                                                       Stk
+            Für eine Ausführung mit gefedertem Abschluss des Schlüsselkanals als Staub- und Witterungsschutz,
+            abgerechnet je Zylinderseite.
+
+30.31 22B   Az NO-beidseitig sperrbar                                                                                    Stk
+            Für eine von beiden Seiten sperrbare Ausführung von Doppelzylindern auch im Fall eines einseitig steckenden
+            Schlüssels.
+
+30.31 22C   Az NO-Zahnritzel                                                                                             Stk
+            Für eine Ausführung des Zylinders mit Zahnritzel anstelle einer Schließnase.
+
+30.32       Betriebsorientierte Schließanlagen (BS)
+            1. Begriffe:
+            Betriebsorientierte Schließanlagen (BS):
+            Eine betriebsorientierte Schließanlage sichert Teile eines Gebäudes für Organisationen oder Betriebe
+            ("betriebsorientiert") ab. Der jeweilige Nutzer bestimmt den Grad der Organisations- und
+            Sicherungsmaßnahmen für eine Schlüsselnutzerstruktur, die weitgehend bekannt ist und sich über lange
+            Zeiträume nur geringfügig ändert.
+            2. Sicherheitskriterien für Schließzylinder:
+            2.1 Verschlusssicherheit Klasse 5:
+            Der Schließzylinder erfüllt die Anforderungen an die Verschlussklasse 5 gemäß ÖNORM.
+            3. Sicherheitskriterien für Schlüssel:
+            3.1 Schlüsselprofil:
+            Bei einreihig gefederten Stiftzylindersystemen weisen Schlüssel mit Längsprofil zumindest eine
+            Profilüberlappung, die über die gesamte Schlüssellänge auch im Kernprofil des Schließzylinders abgefragt wird,
+            (parazentrisches Schlüsselprofil) auf.
+            3.2 Kombination mit elektronischen Identifikationsmedien:
+            Die Schlüssel der mechanischen Schließanlage können auch nachträglich durch Austausch oder Nachrüstung
+            mit untrennbar verbundenen elektronischen Bausteinen in ein mechatronisches oder elektronisches System
+            integriert werden.
+            Die elektronische Identifikationstechnologie (Baustein) ist mit dem mechanischen Schlüssel verbunden,
+            entspricht internationalen Standards (z.B. ISO 14443) und ist auch mit Systemen anderer Hersteller
+            kombinierbar.
+            4. Sicherheitskriterien für Schlüsselnachfertigung:
+            Gesetzlicher Schlüsselschutz mit Patentschutz:
+            Es werden nur Schließanlagen ausgeführt, für die sich der Hersteller gegenüber der Öffentlichkeit verpflichtet
+            hat (z.B. in technischen Unterlagen, Prospekten, Werbemedien), die nicht legale gewerbliche Vervielfältigung
+            von Schlüsseln oder Schlüsselrohlingen gerichtlich oder außergerichtlich zu verfolgen. Der für die
+            Schließfunktion maßgebliche Teil des Schlüssels, also jener Teil, der zur Gänze in den Zylinderkern eingreift,
+            weist mindestens ein schließfunktionales Merkmal auf, das durch ein aufrechtes Patent geschützt ist. Die
+            gewerbliche Vervielfältigung von Schlüsseln ist ohne Rechtsverletzung nur jenen Fachbetrieben erlaubt, die vom
+            Hersteller dazu berechtigt wurden.
+            5. Schlüsselbezugsquellen:
+
+                                                                                                                    Seite 8 / 18
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+            Schlüssel können vom Hersteller oder von einem vom Hersteller berechtigten Fachbetrieb hergestellt werden.
+            6. Herstellerbezogene Voraussetzungen:
+            Der Auftragnehmer vergewissert sich und haftet gegenüber dem Auftraggeber dafür,
+            - dass der Hersteller gegenüber dem Auftraggeber selber oder gegenüber allen von diesem berechtigten
+            Personen auskunftspflichtig darüber ist, ob ein bestimmter Fachhändler als Schlüsselbezugsquelle für die
+            jeweilige Schließanlage berechtigt ist oder welche Fachhändler berechtigt sind,
+            - dass der Hersteller auf Anforderung dem Auftraggeber oder berechtigten Betreiber maschinell gedruckte
+            taggenaue Schließpläne und Protokolle über alle gelieferten Schlüssel und Schließzylinder kostenlos zur
+            Verfügung stellt (formlose händisch erstellte Schließpläne sind aus Sicherheitsgründen nicht zulässig),
+            - dass der Hersteller die Möglichkeit hat, Schließplandaten auch in elektronisch weiterverarbeitbarer Form zur
+            Verfügung zu stellen.
+             Kommentar:
+             Typische Objektnutzungen sind (z.B.):
+             - Büro- und Geschäftsobjekte
+             - Bildungseinrichtungen der Grundstufen
+             - Mitgliederorientierte Einrichtungen z.B. Studentenheime, Vereine, Kleingartensiedlungen
+             - Einkaufszentren
+             - Depot- und Verwahrungsbereiche z.B. Umkleidekabinen, Kästchen in Arbeitsstätten und Freizeiteinrichtungen
+             - Beherbergungsbetriebe, Hotels
+             - Pflege- und Pensionistenwohnheime
+             - Freizeiteinrichtungen
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+30.32 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+30.32 00A   Zylinder und Schlüssel (zu 30.32)
+            Stückzahl der Zylinder und Schlüssel.
+            Zylinder: ____________
+            Schlüssel: ____________
+             Kommentar:
+             Istwert plus/minus 5 Prozent der ausgeschriebenen Menge.
+
+            LB-Version: 23                Geringfügig Geändert
+
+30.32 00B   Schließhierarchie (zu 30.32)
+            Grundkonzept der Schließhierarchie unter Angabe der Anzahl der unterschiedlichen Schließgruppen.
+            Anzahl der unterschiedlichen Schließgruppen: ____________
+
+30.32 00C   Einbindung anderer Objekte (zu 30.32)
+            Zeitliche und technische Einbindung anderer Objekte, sowie bereits geplante Erweiterungen:
+            zeitliche Einbindungen: ____________
+            technische Einbindungen: ____________
+            geplante Erweiterungen: ____________
+
+30.32 00D   Elektronische Aufrüstung (zu 30.32)
+            Chiptechnologien in bereits bestehende Anlagen (z.B. Zutrittskontrollen, Zeiterfassungssystemen,
+            Betriebsdatenerfassungssystemen) eingesetzt und für eine elektronische Aufrüstung der Schließanlagen zu
+            verwenden.
+            Chiptechnologien: ____________
+
+30.32 00E   Sonderzylinder (zu 30.32)
+            Gewünschte oder erforderliche Sonderzylinder (z.B. Schaltzylinder, Blindzylinder).
+            Sonderzylinder: ____________
+
+30.32 00F   Zusatzprodukte (zu 30.32)
+            Gewünschte oder erforderliche Zusatzprodukte (z.B. Brief- oder Schlüsselkästen, Schlüsseldepots):
+            Zusatzprodukte: ____________
+
+30.32 00G   Sonderfunktionen (zu 30.32)
+            Gewünschte oder erforderliche Sonderfunktionen (z.B. beidseitige Sperrbarkeit, Bauzeitfunktion, Freilauffunktion
+            beim Einsatz von Fluchttüren, zusätzlicher Staub- und Witterungsschutz).
+            Sonderfunktionen: ____________
+
+
+                                                                                                                            Seite 9 / 18
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+30.32 00H   Sonstige Vereinbarungen (zu 30.32)
+            Sonstige Vereinbarungen (z.B. Erschwernisse): ____________
+
+30.32 01    Halbzylinder für eine betriebsorientierte Hauptschlüssel- oder Zentralschlossanlage (BS-Haupt/Zentral). Im
+            Positionsstichwort ist die Gesamtlänge L (bis Mitte Schließnase) angegeben.
+
+30.32 01A   BS-Haupt/Zentral Halbzylinder 30mm L                                                                          Stk
+
+30.32 01B   BS-Haupt/Zentral Halbzylinder ü.30-35mm L                                                                     Stk
+
+30.32 01C   BS-Haupt/Zentral Halbzylinder ü.35-40mm L                                                                     Stk
+
+30.32 01D   BS-Haupt/Zentral Halbzylinder ü.40-45mm L                                                                     Stk
+
+30.32 01E   BS-Haupt/Zentral Halbzylinder ü.45-50mm L                                                                     Stk
+
+30.32 01F   BS-Haupt/Zentral Halbzylinder ü.50-55mm L                                                                     Stk
+
+30.32 01G   BS-Haupt/Zentral Halbzylinder ü.55-60mm L                                                                     Stk
+30.32 02    Doppelzylinder (Dopp.Zylinder) für eine betriebsorientierte Hauptschlüssel- oder Zentralschlossanlage
+            (BS-Haupt/Zentral). Im Positionsstichwort ist die Gesamtlänge L angegeben.
+
+30.32 02A   BS-Haupt/Zentral Dopp.Zylinder 60-65mm L                                                                      Stk
+
+30.32 02B   BS-Haupt/Zentral Dopp.Zylinder ü.65-70mm L                                                                    Stk
+
+30.32 02C   BS-Haupt/Zentral Dopp.Zylinder ü.70-75mm L                                                                    Stk
+
+30.32 02D   BS-Haupt/Zentral Dopp.Zylinder ü.75-80mm L                                                                    Stk
+
+30.32 02E   BS-Haupt/Zentral Dopp.Zylinder ü.80-85mm L                                                                    Stk
+
+30.32 02F   BS-Haupt/Zentral Dopp.Zylinder ü.85-90mm L                                                                    Stk
+
+30.32 02G   BS-Haupt/Zentral Dopp.Zylinder ü.90-95mm L                                                                    Stk
+
+30.32 02H   BS-Haupt/Zentral Dopp.Zylinder ü.95-100mm L                                                                   Stk
+30.32 03    Blechmontage-Zylinder für eine betriebsorientierte Hauptschlüssel- oder Zentralschlossanlage
+            (BS-Haupt/Zentral).
+
+30.32 03A   BS-Haupt/Zentral Blechmontagezylinder                                                                         Stk
+30.32 04    Außenzylinder für Zusatzschloss (in eigener Position) mit Stahlrosette für eine betriebsorientierte
+            Hauptschlüssel- oder Zentralschlossanlage (BS-Haupt/Zentral), passend zur angegeben Türblattdicke.
+
+30.32 04A   BS-Haupt/Zentral Außenzylinder                                                                                Stk
+            Türblattdicke in mm: ____________
+
+30.32 05    Aufzugzylinder für eine betriebsorientierte Hauptschlüssel- oder Zentralschlossanlage (BS-Haupt/Zentral).
+
+30.32 05A   BS-Haupt/Zentral Aufzugzylinder                                                                               Stk
+30.32 06    Hangschloss mit Bügel aus Stahl (St) gehärtet oder Edelstahl, Mindestdurchmesser 7 mm, für eine
+            nutzerorientierte Hauptschlüssel- oder Zentralschlossanlage (NO-Haupt/Zentral).
+
+30.32 06A   BS-Haupt/Zentral Hangschloss                                                                                  Stk
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+30.32 07    Spezialzylinder für eine betriebsorientierte Hauptschlüssel- oder Zentralschlossanlage (BS-Haupt/Zentral).
+
+30.32 07A   BS-Haupt/Zentral HZ/Schalt.E/A                                                                                Stk
+            Schalt- und Kontakt-Halbzylinder mit zwei Schaltstellungen (Ein/Aus), Schlüssel in jeder Schaltstellung
+            abziehbar (HZ/Schalt.E/A).
+
+30.32 07B   BS-Haupt/Zentral HZ/Schalt.4-fach                                                                             Stk
+
+                                                                                                                    Seite 10 / 18
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Schalt- und Kontakt-Halbzylinder mit vier Schaltstellungen, Schlüssel in jeder Schaltstellung abziehbar
+            (HZ/Schalt.4-fach).
+
+30.32 07E   BS-Haupt/Zentral HZ/Glastür Edelstahl                                                                          Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte Edelstahl, matt geschliffen und Unterlagsscheibe gegen Glasbruch.
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+30.32 07F   BS-Haupt/Zentral HZ/Glastür Alu                                                                                Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte Alu, eloxiert und Unterlagsscheibe gegen Glasbruch.
+
+30.32 07G   BS-Haupt/Zentral HZ/Glastür                                                                                    Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte und Unterlagsscheibe gegen Glasbruch.
+            Schlossplatte nach Wahl des Auftraggebers: ____________
+
+30.32 07H   BS-Haupt/Zentral Fenstergriff sperrbar                                                                         Stk
+            Versperrbarer Fenster-Sicherheitsgriff mit Verriegelung ohne Schlüssel durch Druck auf den Zylinder, Schlüssel
+            in jeder Griffstellung abziehbar.
+
+30.32 07L   BS-Haupt/Zentral Knaufzylinder                                                                                 Stk
+            Doppelzylinder einseitig mit Knauf zur Betätigung des Schließvorganges anstelle der Verwendung eines
+            Schlüssels.
+30.32 11    Halbzylinder für eine betriebsorientierte Haupt- oder Gruppensperranlage (BS-HG-Sperr-Anl.). Im
+            Positionsstichwort ist die Gesamtlänge L (bis Mitte Schließnase) angegeben.
+
+30.32 11A   BS-HG-Sperr-Anl.Halbzylinder 30mm L                                                                            Stk
+
+30.32 11B   BS-HG-Sperr-Anl.Halbzylinder ü.30-35mm L                                                                       Stk
+
+30.32 11C   BS-HG-Sperr-Anl.Halbzylinder ü.35-40mm L                                                                       Stk
+
+30.32 11D   BS-HG-Sperr-Anl.Halbzylinder ü.40-45mm L                                                                       Stk
+
+30.32 11E   BS-HG-Sperr-Anl.Halbzylinder ü.45-50mm L                                                                       Stk
+
+30.32 11F   BS-HG-Sperr-Anl.Halbzylinder ü.50-55mm L                                                                      Stk
+
+30.32 11G   BS-HG-Sperr-Anl.Halbzylinder ü.55-60mm L                                                                       Stk
+30.32 12    Doppelzylinder (Dopp.Zylinder) für eine betriebsorientierte Haupt- oder Gruppensperranlage
+            (BS-HG-Sperr-Anl.). Im Positionsstichwort ist die Gesamtlänge L (bis Mitte Schließnase) angegeben.
+
+30.32 12A   BS-HG-Sperr-Anl.Dopp.Zylinder 60-65mm L                                                                        Stk
+
+30.32 12B   BS-HG-Sperr-Anl.Dopp.Zylinder ü.65-70mm L                                                                      Stk
+
+30.32 12C   BS-HG-Sperr-Anl.Dopp.Zylinder ü.70-75mm L                                                                      Stk
+
+30.32 12D   BS-HG-Sperr-Anl.Dopp.Zylinder ü.75-80mm L                                                                      Stk
+
+30.32 12E   BS-HG-Sperr-Anl.Dopp.Zylinder ü.80-85mm L                                                                      Stk
+
+30.32 12F   BS-HG-Sperr-Anl.Dopp.Zylinder ü.85-90mm L                                                                      Stk
+
+30.32 12G   BS-HG-Sperr-Anl.Dopp.Zylinder ü.90-95mm L                                                                     Stk
+
+30.32 12H   BS-HG-Sperr-Anl.Dopp.Zylinder ü.95-100mm L                                                                    Stk
+30.32 13    Blechmontage-Zylinder für eine betriebsorientierte Haupt- oder Gruppensperranlage (BS-HG-Sperr-Anl.).
+
+30.32 13A   BS-HG-Sperr-Anl.Blechmontagezylinder                                                                           Stk
+
+
+                                                                                                                     Seite 11 / 18
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+30.32 14    Außenzylinder für Zusatzschloss (in eigener Position) mit Stahlrosette für eine betriebsorientierte Haupt- oder
+            Gruppensperranlage (BS-HG-Sperr-Anl.), passend zur angegeben Türblattdicke.
+
+30.32 14A   BS-HG-Sperr-Anl.Außenzylinder                                                                                  Stk
+            Türblattdicke in mm: ____________
+
+30.32 15    Aufzugzylinder für eine betriebsorientierte Haupt- oder Gruppensperranlage (BS-HG-Sperr-Anl.).
+
+30.32 15A   BS-HG-Sperr-Anl.Aufzugzylinder                                                                                 Stk
+30.32 16    Hangschloss mit Bügel aus Stahl (St) gehärtet oder Edelstahl, Mindestdurchmesser 7 mm, für eine
+            betriebsorientierte Haupt- oder Gruppensperranlage (BS-HG-Sperr-Anl.).
+
+30.32 16A   BS-HG-Sperr-Anl.Hangschloss                                                                                    Stk
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+30.32 17    Spezialzylinder für eine betriebsorientierte Haupt- oder Gruppensperranlage (BS-HG-Sperr-Anl.).
+
+30.32 17A   BS-HG-Sperr-Anl.HZ/Schalt.E/A                                                                                  Stk
+            Schalt- und Kontakt-Halbzylinder mit zwei Schaltstellungen (Ein/Aus), Schlüssel in jeder Schaltstellung
+            abziehbar (HZ/Schalt.E/A).
+
+30.32 17B   BS-HG-Sperr-Anl.HZ/Schalt.4-fach                                                                               Stk
+            Schalt- und Kontakt-Halbzylinder mit vier Schaltstellungen, Schlüssel in jeder Schaltstellung abziehbar
+            (HZ/Schalt.4-fach).
+
+30.32 17E   BS-HG-Sperr-Anl.HZ/Glastür Edelstahl                                                                           Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte Edelstahl, matt geschliffen und Unterlagsscheibe gegen Glasbruch.
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+30.32 17F   BS-HG-Sperr-Anl.HZ/Glastür Alu                                                                                 Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte Alu, eloxiert und Unterlagsscheibe gegen Glasbruch.
+
+30.32 17G   BS-HG-Sperr-Anl.HZ/Glastür                                                                                     Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte und Unterlagsscheibe gegen Glasbruch.
+            Schlossplatte nach Wahl des Auftraggebers: ____________
+
+30.32 17H   BS-HG-Sperr-Anl.Fenstergriff sperrbar                                                                          Stk
+            Versperrbarer Fenster-Sicherheitsgriff mit Verriegelung ohne Schlüssel durch Druck auf den Zylinder, Schlüssel
+            in jeder Griffstellung abziehbar.
+
+30.32 17L   BS-HG-Sperr-Anl.Knaufzylinder                                                                                  Stk
+            Doppelzylinder einseitig mit Knauf zur Betätigung des Schließvorganges anstelle der Verwendung eines
+            Schlüssels.
+30.32 21    Haupt- oder Gruppenschlüssel für eine betriebsorientierte Schließanlage ohne Unterschied der Art und ohne
+            Unterschied ob für Halb- oder Doppelzylinder.
+
+30.32 21A   BS-Hauptschlüssel                                                                                              Stk
+
+30.32 21B   BS-Gruppenschlüssel                                                                                            Stk
+
+30.32 21C   BS-Eigenschlüssel                                                                                              Stk
+
+30.32 21D   BS-übergeordneter Schlüssel                                                                                    Stk
+30.32 22    Aufzahlung (Az) auf Zylinder für eine betriebsorientierte Schließanlage (NO) ohne Unterschied der
+            Schließanlagenart.
+
+30.32 22A   Az BS-Witterungsschutz                                                                                         Stk
+
+                                                                                                                     Seite 12 / 18
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Für eine Ausführung mit gefedertem Abschluss des Schlüsselkanals als Staub- und Witterungsschutz,
+            abgerechnet je Zylinderseite.
+
+30.32 22B   Az BS-beidseitig sperrbar                                                                                      Stk
+            Für eine von beiden Seiten sperrbare Ausführung von Doppelzylindern auch im Fall eines einseitig steckenden
+            Schlüssels.
+
+30.32 22C   Az BS-Zahnritzel                                                                                               Stk
+            Für eine Ausführung des Zylinders mit Zahnritzel anstelle einer Schließnase.
+
+30.32 23    Aufzahlung (Az) auf die Positionen Zylinder für eine betriebsorientierte Schließanlage (NO) ohne Unterschied
+            der Schließanlagenart.
+
+30.32 23A   Az Klasse A gemäß VDS                                                                                          Stk
+            Für eine Ausführung der Klasse A gemäß VDS Richtlinie.
+
+30.33       Komplexe Sicherheits-Schließanlagen (KS)
+            1. Begriffe:
+            Komplexe Sicherheits-Schließanlagen (KS):
+            Als komplexe Sicherheits-Schließanlagen werden jene bezeichnet, die zur Verwaltung von
+            Schließberechtigungen in großen Gebäudekomplexen oder standortübergreifend in mehreren Objekten
+            eingesetzt werden. Der Nutzer bestimmt den Grad der Organisations- und Sicherungsmaßnahmen für eine stark
+            veränderliche Struktur von Schlüsselnutzern mit öffentlichem oder ohne öffentlichen Personenverkehr oder
+            Objektzugang.
+            2. Sicherheitskriterien für Schließzylinder:
+            2.1 Verschlusssicherheit Klasse 6:
+            Der Schließzylinder erfüllt die Anforderungen an die Verschlussklasse 6 gemäß ÖNORM.
+            3. Schutz vor nicht offensichtlichen Öffnungsmethoden:
+            Zur Verhinderung von widerrechtlichen Aufsperrtechniken, die keine nachweisbaren Spuren am oder im
+            Schließzylinder hinterlassen (Sicherstellung der versicherungstechnischen Beweisführung) sind einreihige
+            Schließzylindersysteme, die als aktive Sperrelemente geteilte Kern- und Gehäusezuhaltungen als variierbare
+            Zuhaltungselemente enthalten, nicht verwendet.
+            4. Sicherheitskriterien für Schlüssel:
+            Kombination mit elektronischen Identifikationsmedien:
+            Die Schlüssel der mechanischen Schließanlage können auch nachträglich durch Austausch oder Nachrüstung
+            mit untrennbar verbundenen elektronischen Bausteinen in ein mechatronisches oder elektronisches System
+            integriert werden.
+            Die elektronische Identifikationstechnologie (Baustein) ist mit dem mechanischen Schlüssel zu verbinden,
+            entspricht internationalen Standards, z.B. ISO 14443, und ist auch mit Systemen anderer Hersteller
+            kombinierbar.
+            5. Sicherheitskriterien für Schlüssel-Anfertigungen:
+            5.1 Gesetzlicher Schlüsselschutz mit Patentschutz:
+            Es werden nur Schließanlagen ausgeführt, für die sich der Hersteller gegenüber der Öffentlichkeit verpflichtet
+            hat (z.B. in technischen Unterlagen, Prospekten, Werbemedien), die nicht legale gewerbliche Vervielfältigung
+            von Schlüsseln oder Schlüsselrohlingen gerichtlich oder außergerichtlich zu verfolgen. Der für die
+            Schließfunktion maßgebliche Teil des Schlüssels, also jener Teil, der zur Gänze in den Zylinderkern eingreift,
+            weist mindestens ein schließfunktionales Merkmal auf, das durch ein aufrechtes Patent geschützt ist.
+            5.2 Kombinatorischer/ausarbeitungstechnischer Schlüsselschutz:
+            Die Merkmale am Schlüssel lassen keinen Rückschluss auf die Sperrberechtigung des Schlüssels zu.
+
+            6. Herstellerbezogene Voraussetzungen:
+            Der Auftragnehmer vergewissert sich und haftet gegenüber dem Auftraggeber dafür,
+            - dass der Hersteller auf Anforderung dem Auftraggeber oder berechtigten Betreiber maschinell gedruckte
+            taggenaue Schließpläne und Protokolle über alle gelieferten Schlüssel und Schließzylinder kostenlos zur
+            Verfügung stellt (formlose händisch erstellte Schließpläne sind aus Sicherheitsgründen nicht zulässig),
+            - dass der Hersteller die Möglichkeit hat, Schließplandaten auch in elektronisch weiterverarbeitbarer Form zur
+            Verfügung zu stellen.
+             Kommentar:
+             Typische Objektnutzungen sind (z.B.):
+             - Wohnhausanlagen
+             - Büro- und Geschäftsobjekte
+                                                                                                                     Seite 13 / 18
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+             - Pflege- und Pensionistenwohnheime
+             - Kranken- und Pflegeeinrichtungen
+             - Seniorenresidenzen
+             - Amts- und Verwaltungsgebäude
+             - Banken und Versicherungen
+             - Universitäten
+             - Strafvollzugsanstalten
+             - Kultureinrichtungen
+             - Gebäude zur Religionsausübung z.B. Kirchen, Klöster, Moscheen
+             - Verkehrsbetriebe
+             - Filial- und Niederlassungsorganisationen
+             - Verwaltungs- und Einsatzsperren z.B. Blaulichtsperre, Müllabfuhr
+             - Infrastrukturbetriebe z.B. Post, Telekom, Müllabfuhr, Essen auf Rädern
+             - Industrieunternehmen der Kategorie Klein- und Mittelunternehmen
+             - Hotelbetriebe
+             - Karitative Organisationen und Rettungsdienste
+             - Ärztezentren und Anwaltspraxen
+             - Sportzentren und Wellnesseinrichtungen
+             - Universitätskliniken
+             - Private oder geförderte Forschungseinrichtungen
+             - Industrieunternehmen mit Forschung und Entwicklung
+             - Flughäfen
+             - Nationale Notenbanken
+             - Botschaften und Außenhandelsstellen
+             - Internationale Interessensgemeinschaften wie UNO, OPEC, OECD
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+30.33 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+30.33 00A   Zylinder und Schlüssel (zu 30.33)
+            Stückzahl der Zylinder und Schlüssel.
+            Zylinder: ____________
+            Schlüssel: ____________
+             Kommentar:
+             Istwert plus/minus 5 Prozent der ausgeschriebenen Menge.
+
+            LB-Version: 23                 Geringfügig Geändert
+
+30.33 00B   Schließhierarchie (zu 30.33)
+            Grundkonzept der Schließhierarchie unter Angabe der Anzahl der unterschiedlichen Schließgruppen.
+            Anzahl der unterschiedlichen Schließgruppen: ____________
+
+30.33 00C   Einbindung anderer Objekte (zu 30.33)
+            Zeitliche und technische Einbindung anderer Objekte, sowie bereits geplante Erweiterungen:
+            zeitliche Einbindungen: ____________
+            technische Einbindungen: ____________
+            geplante Erweiterungen: ____________
+
+30.33 00D   Elektronische Aufrüstung (zu 30.33)
+            Chiptechnologien in bereits bestehende Anlagen (z.B. Zutrittskontrollen, Zeiterfassungssystemen,
+            Betriebsdatenerfassungssystemen) eingesetzt und für eine elektronische Aufrüstung der Schließanlagen zu
+            verwenden.
+            Chiptechnologien: ____________
+
+30.33 00E   Sonderzylinder (zu 30.33)
+            Gewünschte oder erforderliche Sonderzylinder (z.B. Schaltzylinder, Blindzylinder).
+            Sonderzylinder: ____________
+
+30.33 00F   Zusatzprodukte (zu 30.33)
+            Gewünschte oder erforderliche Zusatzprodukte (z.B. Brief- oder Schlüsselkästen, Schlüsseldepots):
+            Zusatzprodukte: ____________
+
+30.33 00G   Sonderfunktionen (zu 30.33)
+            Gewünschte oder erforderliche Sonderfunktionen (z.B. beidseitige Sperrbarkeit, Bauzeitfunktion, Freilauffunktion
+            beim Einsatz von Fluchttüren, zusätzlicher Staub- und Witterungsschutz).
+            Sonderfunktionen: ____________
+
+                                                                                                                      Seite 14 / 18
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+30.33 00K   Technischer Schlüsselschutz (zu 30.33)
+            Ausführung technischer oder technologischer Schlüsselschutz nach Wahl des Auftraggebers.
+            Der schließfunktionale Teil des Schlüssels hat technische Merkmale, die eine illegale gewerbliche Herstellung
+            nicht verwertbar und unwirtschaftlich machen. Die technischen Merkmale am schließfunktionalen Teil des
+            Schlüssels verhindern die Fertigung von Schlüsseln mit handelsüblichen Werkzeugen und
+            Fertigungseinrichtungen. Eine Schlüsselfertigung ist nur durch den Hersteller möglich.
+
+30.33 00L   Technologischer Schlüsselschutz (zu 30.33)
+            Ausführung technischer oder technologischer Schlüsselschutz nach Wahl des Auftraggebers.
+            Die illegale Herstellung von Ersatz-, Zusatz- und Nachschlüsseln ist trotz technischen Fortschritts auf dem
+            Gebiet manipulativer Öffnungsmethoden in höchstem Maße ausgeschlossen. Ausschließlich der Hersteller kann
+            mit Sondereinrichtungen und durch langjährige Erfahrung und Fertigkeiten in unterschiedlichen
+            Wissensgebieten Schlüssel herstellen.
+            Die Schlüsselmerkmale können nicht ausgelesen oder in einer Art abgeändert werden, dass eine ranghöhere
+            oder schließanlagenübergreifende Schließberechtigung erzielt wird.
+
+30.33 02    Halbzylinder für eine komplexe Sicherheits- Hauptschlüssel- oder Zentralschlossanlage (NO-Haupt/Zentral). Im
+            Positionsstichwort ist die Gesamtlänge L (bis Mitte Schließnase) angegeben.
+
+30.33 02A   KS-Haupt/Zentral Halbzylinder 30mm L                                                                         Stk
+
+30.33 02B   KS-Haupt/Zentral Halbzylinder ü.30-35mm L                                                                    Stk
+
+30.33 02C   KS-Haupt/Zentral Halbzylinder ü.35-40mm L                                                                    Stk
+
+30.33 02D   KS-Haupt/Zentral Halbzylinder ü.40-45mm L                                                                    Stk
+
+30.33 02E   KS-Haupt/Zentral Halbzylinder ü.45-50mm L                                                                    Stk
+
+30.33 02F   KS-Haupt/Zentral Halbzylinder ü.50-55mm L                                                                    Stk
+
+30.33 02G   KS-Haupt/Zentral Halbzylinder ü.55-60mm L                                                                    Stk
+30.33 03    Doppelzylinder (Dopp.Zylinder) für eine komplexe Sicherheits- Hauptschlüssel- oder Zentralschlossanlage
+            (NO-Haupt/Zentral). Im Positionsstichwort ist die Gesamtlänge L angegeben.
+
+30.33 03A   KS-Haupt/Zentral Dopp.Zylinder 60-65mm L                                                                     Stk
+
+30.33 03B   KS-Haupt/Zentral Dopp.Zylinder ü.65-70mm L                                                                   Stk
+
+30.33 03C   KS-Haupt/Zentral Dopp.Zylinder ü.70-75mm L                                                                   Stk
+
+30.33 03D   KS-Haupt/Zentral Dopp.Zylinder ü.75-80mm L                                                                   Stk
+
+30.33 03E   KS-Haupt/Zentral Dopp.Zylinder ü.80-85mm L                                                                   Stk
+
+30.33 03F   KS-Haupt/Zentral Dopp.Zylinder ü.85-90mm L                                                                   Stk
+
+30.33 03G   KS-Haupt/Zentral Dopp.Zylinder ü.90-95mm L                                                                   Stk
+
+30.33 03H   KS-Haupt/Zentral Dopp.Zylinder ü.95-100mm L                                                                  Stk
+30.33 04    Blechmontage-Zylinder, für eine komplexe Sicherheits-Hauptschlüssel- oder Zentralschlossanlage
+            (NO-Haupt/Zentral).
+
+30.33 04A   KS-Haupt/Zentral Blechmontagezylinder                                                                        Stk
+30.33 05    Außenzylinder für Zusatzschloss (in eigener Position) mit Stahlrosette für eine komplexe Sicherheits-
+            Hauptschlüssel- oder Zentralschlossanlage (NO-Haupt/Zentral), passend zur angegeben Türblattdicke.
+
+30.33 05A   KS-Haupt/Zentral Außenzylinder                                                                               Stk
+            Türblattdicke in mm: ____________
+
+30.33 06    Aufzugzylinder für eine komplexe Sicherheits- Hauptschlüssel- oder Zentralschlossanlage (NO-Haupt/Zentral).
+
+30.33 06A   KS-Haupt/Zentral Aufzugzylinder                                                                              Stk
+
+
+                                                                                                                   Seite 15 / 18
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+30.33 07    Hangschloss mit Bügel aus Stahl (St) gehärtet oder Edelstahl, Mindestdurchmesser 7 mm, für eine
+            nutzerorientierte Hauptschlüssel- oder Zentralschlossanlage (NO-Haupt/Zentral).
+
+30.33 07A   KS-Haupt/Zentral Hangschloss                                                                                   Stk
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+30.33 08    Spezialzylinder für eine komplexe Sicherheits- Hauptschlüssel- oder Zentralschlossanlage (NO-Haupt/Zentral).
+
+30.33 08A   KS-Haupt/Zentral HZ/Schalt.E/A                                                                                 Stk
+            Schalt- und Kontakt-Halbzylinder mit zwei Schaltstellungen (Ein/Aus), Schlüssel in jeder Schaltstellung
+            abziehbar (HZ/Schalt.E/A).
+
+30.33 08B   KS-Haupt/Zentral HZ/Schalt.4-fach                                                                              Stk
+            Schalt- und Kontakt-Halbzylinder mit vier Schaltstellungen, Schlüssel in jeder Schaltstellung abziehbar
+            (HZ/Schalt.4-fach).
+
+30.33 08E   KS-Haupt/Zentral HZ/Glastür Edelstahl                                                                          Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte Edelstahl, matt geschliffen und Unterlagsscheibe gegen Glasbruch.
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+30.33 08F   KS-Haupt/Zentral HZ/Glastür Alu                                                                                Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte Alu, eloxiert und Unterlagsscheibe gegen Glasbruch.
+
+30.33 08G   KS-Haupt/Zentral HZ/Glastür                                                                                    Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte und Unterlagsscheibe gegen Glasbruch.
+            Schlossplatte nach Wahl des Auftraggebers: ____________
+
+30.33 08H   KS-Haupt/Zentral Fenstergriff sperrbar                                                                         Stk
+            Versperrbarer Fenster-Sicherheitsgriff mit Verriegelung ohne Schlüssel durch Druck auf den Zylinder, Schlüssel
+            in jeder Griffstellung abziehbar.
+
+30.33 08L   KS-Haupt/Zentral Knaufzylinder                                                                                 Stk
+            Doppelzylinder einseitig mit Knauf zur Betätigung des Schließvorganges anstelle der Verwendung eines
+            Schlüssels.
+30.33 12    Halbzylinder für eine komplexe Sicherheits- Haupt- und Gruppensperranlage (NO-HG-Sperr-Anl.). Im
+            Positionsstichwort ist die Gesamtlänge L (bis Mitte Schließnase) angegeben.
+
+30.33 12A   KS-HG-Sperr-Anl.Halbzylinder 30mm L                                                                            Stk
+
+30.33 12B   KS-HG-Sperr-Anl.Halbzylinder ü.30-35mm L                                                                       Stk
+
+30.33 12C   KS-HG-Sperr-Anl.Halbzylinder ü.35-40mm L                                                                       Stk
+
+30.33 12D   KS-HG-Sperr-Anl.Halbzylinder ü.40-45mm L                                                                       Stk
+
+30.33 12E   KS-HG-Sperr-Anl.Halbzylinder ü.45-50mm L                                                                       Stk
+
+30.33 12F   KS-HG-Sperr-Anl.Halbzylinder ü.50-55mm L                                                                      Stk
+
+30.33 12G   KS-HG-Sperr-Anl.Halbzylinder ü.55-60mm L                                                                       Stk
+30.33 13    Doppelzylinder (Dopp.Zylinder) für eine komplexe Sicherheits- Haupt- und Gruppensperranlage
+            (NO-HG-Sperr-Anl.). Im Positionsstichwort ist die Gesamtlänge L angegeben.
+
+30.33 13A   KS-HG-Sperr-Anl.Dopp.Zylinder 60-65mm L                                                                        Stk
+
+30.33 13B   KS-HG-Sperr-Anl.Dopp.Zylinder ü.65-70mm L                                                                      Stk
+
+30.33 13C   KS-HG-Sperr-Anl.Dopp.Zylinder ü.70-75mm L                                                                      Stk
+                                                                                                                     Seite 16 / 18
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+30.33 13D   KS-HG-Sperr-Anl.Dopp.Zylinder ü.75-80mm L                                                                      Stk
+
+30.33 13E   KS-HG-Sperr-Anl.Dopp.Zylinder ü.80-85mm L                                                                      Stk
+
+30.33 13F   KS-HG-Sperr-Anl.Dopp.Zylinder ü.85-90mm L                                                                      Stk
+
+30.33 13G   KS-HG-Sperr-Anl.Dopp.Zylinder ü.90-95mm L                                                                      Stk
+
+30.33 13H   KS-HG-Sperr-Anl.Dopp.Zylinder ü.95-100mm L                                                                     Stk
+30.33 14    Blechmontage-Zylinder, für eine komplexe Sicherheits- Haupt- und Gruppensperranlage (NO-HG-Sperr-Anl.).
+
+30.33 14A   KS-HG-Sperr-Anl.Blechmontagezylinder                                                                           Stk
+30.33 15    Außenzylinder für Zusatzschloss (in eigener Position) mit Stahlrosette für eine komplexe Sicherheits- Haupt-
+            und Gruppensperranlage (NO-HG-Sperr-Anl.), passend zur angegeben Türblattdicke.
+
+30.33 15A   KS-HG-Sperr-Anl.Außenzylinder                                                                                  Stk
+            Türblattdicke in mm: ____________
+
+30.33 16    Aufzugzylinder für eine komplexe Sicherheits- Haupt- und Gruppensperranlage (NO-HG-Sperr-Anl.).
+
+30.33 16A   KS-HG-Sperr-Anl.Aufzugzylinder                                                                                 Stk
+30.33 17    Hangschloss mit Bügel aus Stahl (St) gehärtet oder Edelstahl Mindestdurchmesser 7 mm, für eine komplexe
+            Sicherheits- Haupt- und Gruppensperranlage (NO-HG-Sperr-Anl.)
+
+30.33 17A   KS-HG-Sperr-Anl.Hangschloss                                                                                    Stk
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+30.33 18    Spezialzylinder für eine komplexe Sicherheits- Haupt- und Gruppensperranlage (NO-HG-Sperr-Anl.).
+
+30.33 18A   KS-HG-Sperr-Anl.HZ/Schalt.E/A                                                                                  Stk
+            Schalt- und Kontakt-Halbzylinder mit zwei Schaltstellungen (Ein/Aus), Schlüssel in jeder Schaltstellung
+            abziehbar (HZ/Schalt.E/A).
+
+30.33 18B   KS-HG-Sperr-Anl.HZ/Schalt.4-fach                                                                               Stk
+            Schalt- und Kontakt-Halbzylinder mit vier Schaltstellungen, Schlüssel in jeder Schaltstellung abziehbar
+            (HZ/Schalt.4-fach).
+
+30.33 18E   KS-HG-Sperr-Anl.HZ/Glastür Edelstahl                                                                           Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte Edelstahl, matt geschliffen und Unterlagsscheibe gegen Glasbruch.
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+30.33 18F   KS-HG-Sperr-Anl.HZ/Glastür Alu                                                                                 Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte Alu, eloxiert und Unterlagsscheibe gegen Glasbruch.
+
+30.33 18G   KS-HG-Sperr-Anl.HZ/Glastür                                                                                     Stk
+            Glastür-Halbzylinder (HZ/Glastür), Sperrweg mit Schließnase waagrecht, bis 16 mm Materialdicke (Glasdicke),
+            einschließlich Schlossplatte und Unterlagsscheibe gegen Glasbruch.
+            Schlossplatte nach Wahl des Auftraggebers: ____________
+
+30.33 18H   KS-HG-Sperr-Anl.Fenstergriff sperrbar                                                                          Stk
+            Versperrbarer Fenster-Sicherheitsgriff mit Verriegelung ohne Schlüssel durch Druck auf den Zylinder, Schlüssel
+            in jeder Griffstellung abziehbar.
+
+30.33 18L   KS-HG-Sperr-Anl.Knaufzylinder                                                                                  Stk
+            Doppelzylinder einseitig mit Knauf zur Betätigung des Schließvorganges anstelle der Verwendung eines
+            Schlüssels.
+
+
+
+                                                                                                                     Seite 17 / 18
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+30.33 22    Haupt- oder Gruppenschlüssel für eine komplexe Sicherheits- Schließanlage ohne Unterschied der Art und ohne
+            Unterschied ob für Halb- oder Doppelzylinder.
+
+30.33 22A   KS-Hauptschlüssel                                                                                          Stk
+
+30.33 22B   KS-Gruppenschlüssel                                                                                        Stk
+
+30.33 22C   KS-Eigenschlüssel                                                                                          Stk
+
+30.33 22D   KS-übergeordnete Schlüssel                                                                                 Stk
+30.33 24    Aufzahlung (Az) auf Zylinder für eine komplexe Sicherheits-Schließanlage (KS) ohne Unterschied der
+            Schließanlagenart.
+
+30.33 24B   Az Klasse B gemäß VDS                                                                                      Stk
+            Für eine Ausführung der Klasse B gemäß VDS Richtlinie
+
+30.33 24C   Az Klasse B+gemäß VDS                                                                                      Stk
+            Für eine Ausführung der Klasse B+ gemäß VDS Richtlinie
+
+
+
+
+                                                                                                                 Seite 18 / 18
+                                                                                            ib-data GmbH, Softwareentwicklung
+

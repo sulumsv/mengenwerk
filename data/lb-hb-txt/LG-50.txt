@@ -1,0 +1,2837 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                          Leistungsgruppe (LG) 50 - Bodenbeläge
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 5000    Wählbare Vorbemerkungen
+                     ULG 5011    Untergrund vorbereiten
+                     ULG 5013    Bodenbeläge aus Linoleum
+                     ULG 5014    Bodenbeläge aus synthetischem Kautschuk
+                     ULG 5015    Nadelvliesbeläge (Nadelfilz)
+                     ULG 5016    Getuftete Bodenbeläge
+                     ULG 5020    Bodenbeläge aus PVC
+                     ULG 5023    Einbauteile und Sonstiges
+                     ULG 5081    Instandsetzungsarbeiten
+                     ULG 5090    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 44
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+50          Bodenbeläge
+            Version 023 (2025-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Technische Unterlagen:
+            Auf Anforderung des Auftraggebers werden Unterlagen über die genaue Bezeichnung des angebotenen
+            Belages (Erzeuger, Type, Bahnenbreite/Fliesengröße, Kollektion) sowie dessen technischen Eigenschaften
+            vorgelegt.
+            2. Prüfbericht:
+            Auf Anforderung des Auftraggebers werden Prüfberichte einer Prüf-, Überwachungs- und Zertifizierungsstelle
+            über die Beläge vorgelegt.
+            3. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Das Ausbilden der Innen- und Außenecken in der Sockel/Sockelleisten
+                • Rutschsichere Verlegung (z.B. vollflächig geklebt, haftfixiert)
+            4. Musterkollektion
+            Auf Anforderung des Auftraggebers Eine Musterkollektion wird nach Aufforderung vorgelegt.
+            5. Farbe, Design:
+            Wenn keine Farbe und/oder Design angegeben ist, kann der Auftraggeber Farbe und/oder Design des Belages
+            und der Sockelleisten sowie etwaiger Fugen und etwaiger Formteile aus der aktuellen Standardkollektion des
+            Belags- oder Formteilerzeugers wählen.
+            6. Brandverhalten, Rauchentwicklung:
+            Das Brandverhalten und die Rauchentwicklung der Beläge entspricht mindestens der Einstufung B, C-s1, d0.
+            (schwer brennbar, schwach qualmend)
+            7. Mindestanforderungen an Böden bezüglich Gleitreibung
+            Gleitreibungskoeffizient μ > 0,44 (= „Normalwert“ für eine ausreichende Rutschhemmung).
+            Die Klassifizierung erfolgt gemäß OENORM EN ISO 10874.
+            8 Ausmaß- und Abrechnungsregeln:
+            Hochzüge des Bodenbelages als Wandabschluss werden der Fläche des Bodenbelages zugerechnet. Die
+            Erschwernisse beim Hochziehen werden mit eigenen Aufzahlungspositionen verrechnet.
+             Kommentar:
+             Für eine stuhlrollengeeignete Verlegung und/oder Fußbodenheizung wird ein Spachteln einschließlich Voranstrich mit
+             eigener Position verrechnet.
+             Das Verlegen auf Stufen wird mit eigenen Positionen verrechnet.
+             Der Verschnitt ist in den Einheitspreisen einkalkuliert.
+             Frei zu formulieren sind:
+             • Gewebte Teppiche (ehem. ULG 50.17)
+             • Sonstige Beläge (z.B. Kork)
+             Erhöhte Gleitreibungskoeffizienten
+             Erhöhter Brandschutz:
+             Besonders wird auf die in der ÖNORM B 2236 festgestellte erhöhte Brandgefahr während den Klebearbeiten hingewiesen.
+             Beläge mit erhöhten Brandschutzanforderung gemäß ÖNORM EN 13501-1
+             Literaturhinweis:
+             ÖNORM EN 13501-1 Klassifizierung von Bauprodukten und Bauarten zu ihrem Brandverhalten - Teil 1: Klassifizierung mit
+             den Ergebnissen aus den Prüfungen zum Brandverhalten von Bauprodukten
+             ÖNORM B2236 Bodenbeläge und Holzfußböden - Werkvertragsnorm
+             ÖNORM EN16165 Bestimmung der Rutschhemmung von Fußböden - Ermittlungsverfahren
+             ÖNORM Z1261 Begehbare Oberflächen - Messung des Gleitreibungskoeffizienten in Gebäuden und im Freien von
+             Arbeitsstätten
+
+            LB-Version: 23                   Geändert
+Änderung:   Änderung LG-Überschrift: Alt: "Klebearbeiten für Boden- und Wandbeläge"
+            Geänderte ULGs:
+            50.00 Wählbare Vorbemerkungen
+            50.11 Untergrund vorbereiten
+                                                                                                                            Seite 2 / 44
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+            50.13 Bodenbeläge aus Linoleum
+            50.14 Bodenbeläge aus synthetischem Kautschuk
+            50.15 Nadelvliesbeläge (Nadelfilz)
+            50.16 Getuftete Bodenbeläge
+            50.20 Bodenbeläge aus PVC
+            50.23 Einbauteile und Sonstiges
+            50.81 Instandsetzungsarbeiten
+            50.90 Regieleistungen
+            Entfall von ULGs:
+            50.12 Holzunterkonstruktionen (sind in LG36 zu finden)
+            50.19 Laminatböden (sind in LG38 zu finden)
+            50.30 Sporthallenböden (sind in LG61 zu finden)
+            50.90 Regieleistungen - Entfall aller einzeln aufgelisteten Materialien
+
+50.00       Wählbare Vorbemerkungen
+            LB-Version: 23                  Geändert
+50.00 05    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+50.00 05C   Verfügbarkeit von Beilagen zum LV
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Angaben / Beilagen: ____________
+            LB-Version: 23                  Geändert
+
+50.11       Untergrund vorbereiten
+            LB-Version: 23                 Geändert
+Änderung:   gelöscht Langtext der Ständigen Vorbemerkungen der ULG.
+            "Beläge entfernen:
+            Das Entfernen der Beläge erfolgt ohne Unterschied der Größe der Einzelflächen. Die Erschwernis bei der Entfernung der
+            Beläge von Tritt- und Setzstufen wird mit Aufzahlungspositionen verrechnet.
+            Abbrechen, Abtragen, Entfernen - Auslösen, Demontieren:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren oder Entsorgen
+            der Baurestmassen zu verstehen.
+            Die Ausdrücke Auslösen, Demontieren und dergleichen bedeuten ein sorgfältiges Auslösen oder Demontieren zwecks
+            Wiederverwendung. Im Einheitspreis ist auch das sorgfältige Lagern auf der Baustelle im Einvernehmen mit dem
+            Auftraggeber einkalkuliert.
+            Behördliche Vorschreibungen:
+            Die behördlichen Vorschreibungen betreffend das Verwenden von Containern (Entsorgungslogistik) werden vom
+            Auftragnehmer vor der Angebotslegung erkundet und die Kosten dafür in die Einheitspreise einkalkuliert.
+            Abrechnung:
+            Abbrechen, Abtragen, Entfernen, Auslösen, Demontieren und dergleichen wird immer in festem, nicht aufgelockertem
+            Zustand (Ausmaß der Bauteile vor deren Abbruch) abgerechnet. Im Einheitspreis der Positionen, die ein Abbrechen,
+            Abtragen, Entfernen, Auslösen, Demontieren und dergleichen beinhalten, ist das Trennen und das Transportieren der
+            Baurestmassen zur Ladestelle einschließlich der etwaigen Anlage eines Zwischenlagers auf der Baustelle nach Wahl des
+            Auftragnehmers einkalkuliert.
+            Sind in Positionen, die ein Abbrechen, Abtragen, Entfernen, Auslösen, Demontieren und dergleichen beinhalten, die zur
+            Verrechnung kommenden Positionen für das Entsorgen angegeben, gelten die dort festgelegten Annahmen über die
+            anfallenden Mengen von verschiedenen Baurestmassen für die Abrechnung als vereinbart, unabhängig von etwaigen Minder-
+            oder Mehrmengen oder der tatsächlichen Art."
+
+50.11 20    Betonuntergrund vorbereiten, einschließlich Entsorgen der anfallenden Abfallmaterialien.
+
+50.11 20A   Betonuntergrund schleifen                                                                                            m²
+50.11 24    Ausgleichen von Unebenheiten des Untergrundes aus Estrich mit einer Nivelliermasse einschließlich
+            Voranstrich, ohne Unterschied der Größe der Einzelflächen. Das Ausmaß wird vor Beginn der Leistung mit dem
+            Auftraggeber festgelegt. Abgerechnet wird die Summe der bearbeiteten Einzelflächen.
+            Im Positionsstichwort ist die Dicke der Ausgleichsschicht angegeben.
+             Kommentar:
+             Es ist immer die Position in der Ausschreibung zu wählen, die das größte Stichmaß aufweist. (z.B. 8mm = Pos. 50.11.24B)
+
+50.11 24A   Estrich ausgleich.ü.2-5mm                                                                                            m²
+            Bei Unebenheiten mit einem Stichmaß über 2 bis 5 mm.
+
+            LB-Version: 23                Geändert
+Änderung:   Korrektur im Grundtext und Verweis aufs Positionsstichwort
+                                                                                                                            Seite 3 / 44
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+50.11 24B   Estrich ausgleich.ü.5-10mm                                                                                           m²
+            Bei Unebenheiten mit einem Stichmaß über 5 bis 10 mm.
+
+            LB-Version: 23                Geändert
+Änderung:   Korrektur im Grundtext und Verweis aufs Positionsstichwort
+
+50.11 24C   Estrich ausgleich.d.Rakel ü.10-15mm                                                                                  m²
+            Nivellieren mit einer Ausgleichsmasse in einem Arbeitsgang mit einer Rakel, bei Unebenheiten mit einem
+            Stichmaß über 10 bis 15 mm.
+            LB-Version: 23                Geändert
+Änderung:   Korrektur im Grundtext und Verweis aufs Positionsstichwort
+
+50.11 24D   Estrich ausgleich.d.Rakel ü.15-20mm                                                                                  m²
+            Nivellieren mit einer Ausgleichsmasse in einem Arbeitsgang mit einer Rakel, bei Unebenheiten mit einem
+            Stichmaß über 15 bis 20 mm.
+            LB-Version: 23                Geändert
+Änderung:   Korrektur im Grundtext und Verweis aufs Positionsstichwort
+
+50.11 25    Ausgleichen von Unebenheiten des Untergrundes bis 10mm auf Stufenflächen einschließlich etwaiger Schalung
+            und vollflächigem Spachteln.
+
+50.11 25A   Ausgleichen Trittstuf.Beton                                                                                          m²
+            Bei Trittstufen aus Beton.
+
+            LB-Version: 23                 Geändert
+Änderung:   Geänderter Grundtext:
+            Alt: "Ausgleichen von Unebenheiten des Untergrundes auf Stufenflächen einschließlich etwaiger Schalung und vollflächigem
+            Spachteln."
+
+50.11 25C   Ausgleichen Setzstuf.Beton                                                                                           m²
+            Bei Setzstufen aus Beton.
+
+            LB-Version: 23                 Geändert
+Änderung:   Geänderter Grundtext:
+            Alt: "Ausgleichen von Unebenheiten des Untergrundes auf Stufenflächen einschließlich etwaiger Schalung und vollflächigem
+            Spachteln."
+
+50.11 27    Auftragen eines Voranstriches.
+
+50.11 27A   Voranstrich Anhydr.Gipsestrich                                                                                       m²
+            Als Voranstrich auf Anhydrit- oder Gipsestriche.
+
+            LB-Version: 23                Geändert
+Änderung:   Änderung von Sperrschicht zu Voranstrich.
+
+50.11 27B   Oberflächenverfestig.Estrich                                                                                         m²
+            Zum Verfestigen beschädigter Estriche, deren Oberfläche absandet.
+
+50.11 27C   Vorstrich Holzwerkstoff                                                                                              m²
+            Zum Verringern der Saugfähigkeit von Platten aus Holzwerkstoffen.
+
+50.11 27D   Haftbrücke                                                                                                           m²
+            Als Haftbrücke für nicht saugende oder bituminöse Untergründe.
+
+            LB-Version: 23                  Geändert
+Änderung:   Änderung Positionstext: Entfall von "einschließlich Einstreuen mit trockenem Quarzsand oder zementgebundenem
+            Spachtelmassenpulver in den nassen Voranstrich."
+
+50.11 27E   Haftbrücke + Quarzsandstreuung                                                                                       m²
+            Als Haftbrücke für nicht saugende oder bituminöse Untergründe, einschließlich Einstreuen mit trockenem
+            Quarzsand oder zementgebundenem Spachtelmassenpulver in den nassen Voranstrich.
+            LB-Version: 23                 Geändert
+
+50.11 27F   Voranstrich Zement-/Fließzementestrich                                                                               m²
+                                                                                                                            Seite 4 / 44
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Voranstrich als Haftbrücke auf Zement- oder Fließzementestrich.
+
+            LB-Version: 23              Geändert
+Änderung:   Pos. 501127E+F (Zementestrich und Fließzementestrich) wurden zusammengelegt.
+
+50.11 29    Einmaliges Spachteln des Untergrundes auf Estrichen vor den Verlegearbeiten.
+
+50.11 29B   Spachteln Stuhlr/Heiz-eignung                                                                               m²
+            Einschließlich Voranstrich für eine stuhlrollengeeignete Verlegung und/oder bei einer Fußbodenheizung.
+
+            LB-Version: 23               Geringfügig Geändert
+50.11 31    Randdämmstreifen aus Materialien nach der Spachtelung oder nach dem Verlegen harter Beläge abschneiden,
+            einschließlich Entsorgen.
+
+50.11 31A   Randstreifen abschneiden                                                                                    m
+            LB-Version: 23
+
+50.13       Bodenbeläge aus Linoleum
+            LB-Version: 23                Geändert
+Änderung:   die Einstufung nach Klassen gemäß OENORM EN ISO 10874 anstelle ÖNORM EN 13329.
+
+50.13 01    Bodenbelag aus Linoleum in Bahnen, durchmarmoriert oder einfärbig (einf.), mit werksmäßigem
+            Porenverschluss aus Acryldispersion, Stoßstellen auf Naht geschnitten.
+
+50.13 01A   Linoleum einf. 2mm Kl.23                                                                                    m²
+            2 mm dick, Klasse 23.
+
+            LB-Version: 23               Geändert
+
+50.13 01B   Linoleum einf. 2mm Kl.32                                                                                    m²
+            2 mm dick, Klasse 32.
+
+            LB-Version: 23               Geändert
+
+50.13 01C   Linoleum einf. 2,5mm Kl.34 r.                                                                               m²
+            2,5 mm dick, Klasse 34, geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23               Geändert
+
+50.13 01D   Linoleum einf. 2,5mm Kl.42 r.                                                                               m²
+            2,5 mm dick, Klasse 42, geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23               Geändert
+
+50.13 01E   Linoleum einf. 3,2mm Kl.42 r.                                                                               m²
+            3,2 mm dick, Klasse 42, geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23               Geändert
+
+50.13 01F   Linoleum einf. 4mm Kl.43 r.                                                                                 m²
+            4 mm dick, Klasse 43, geeignet für Stuhlrollen (r.).
+            Besondere Erfordernisse: ____________
+            LB-Version: 23               Geändert
+50.13 02    Bodenbelag aus Linoleum in Bahnen, durchmarmoriert (durchm.), mit werksmäßigem Porenverschluss aus
+            Acryldispersion, Stoßstellen auf Naht geschnitten.
+
+50.13 02A   Linoleum durchm. 2mm Kl.23                                                                                  m²
+            2 mm dick, Klasse 23.
+
+            LB-Version: 23               Geändert
+
+50.13 02B   Linoleum durchm. 2mm Kl.32                                                                                  m²
+            2 mm dick, Klasse 32.
+
+            LB-Version: 23               Geändert
+
+50.13 02C   Linoleum durchm. 2,5mm Kl.34 r.                                                                             m²
+                                                                                                                   Seite 5 / 44
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            2,5 mm dick, Klasse 34, geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23               Geändert
+
+50.13 02D   Linoleum durchm. 2,5mm Kl.42 r.                                                                              m²
+            2,5 mm dick, Klasse 42, geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23               Geändert
+
+50.13 02E   Linoleum durchm. 3,2mm Kl.42 r.                                                                              m²
+            3,2 mm dick, Klasse 42, geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23               Geändert
+
+50.13 02F   Linoleum durchm. 4mm Kl.43 r.                                                                                m²
+            4 mm dick, Klasse 43, geeignet für Stuhlrollen (r.).
+            Besondere Erfordernisse: ____________
+            LB-Version: 23               Geändert
+50.13 04    Bodenbelag auf Stufen verlegt aus Linoleum, mit werksmäßigem Porenverschluss aus Acryldispersion, ohne
+            Unterschied ob Setz- oder Trittstufen, gerade Stufen oder Stufen für gewendelte Treppen. Stufen werden mit der
+            größten Breite mal größte Länge abgerechnet.
+
+50.13 04A   Linoleum Stufe 2,5mm Kl.34r.                                                                                 m²
+            2,5 mm dick, Klasse 34, geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23               Geändert
+
+50.13 04B   Linoleum Stufe 2,5mm Kl.42r.                                                                                 m²
+            2,5 mm dick, Klasse 42, geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23               Geändert
+
+50.13 04C   Linoleum Stufe 3,2mm Kl.42r.                                                                                 m²
+            3,2 mm dick, Klasse 42, geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23               Geändert
+
+50.13 04D   Linoleum Stufe 4mm Kl.43r.                                                                                   m²
+            4 mm dick, Klasse 43, geeignet für Stuhlrollen (r.).
+            Besondere Eignung: ____________
+            LB-Version: 23               Geändert
+50.13 08    Aufzahlung (Az) auf die Positionen Bodenbeläge aus Linoleum, für das Fräsen und Schließen der Fugen mit
+            Schmelzdraht in einer Farbe nach Wahl des Auftraggebers, bei Hochzügen und Eckausbildungen mit
+            gleichfarbigem Acryl.
+
+50.13 08A   Az Linoleum Fuge schließen                                                                                   m²
+            Bei Belägen in Bahnen entsprechend der angebotenen Bahnbreite.
+            Betrifft Position: ____________
+            LB-Version: 23               Geändert
+50.13 16    Aufzahlung (Az) auf die Positionen Bodenbelag aus Linoleum ohne Unterschied der Dicke.
+
+50.13 16A   Az Linoleum Hohlkehlenleiste b. 15cm                                                                         m
+            Für die Erschwernis beim Ausbilden der Hohlkehlenleiste, ohne Unterschied der Sockelhöhe (bis 15cm).
+            Abgerechnet wird die Sockellänge.
+            LB-Version: 23               Geändert
+
+50.13 16E   Az Linoleum als Wandhochzug                                                                                  m
+            Für das Ausbilden des Wandhochzuges als Sockel. Sockelhöhe (bis 15cm). Abgerechnet wird die Sockellänge.
+
+            LB-Version: 23               Geringfügig Geändert                    Vorherige Position: 501316A
+
+50.13 16F   Az Linoleum Innen- oder Außeneck                                                                             Stk
+            Für das Ausbilden der Innen- oder Außenecken, bei Hohlkehlenleisten oder Wandhochzügen.
+
+            LB-Version: 23               Geringfügig Geändert                    Vorherige Position: 501316B
+
+                                                                                                                    Seite 6 / 44
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+50.13 30    Aufzahlung (Az) auf die Positionen Bodenbelag aus Linoleum.
+
+50.13 30B   Az Linoleum Markierstreifen                                                                                         m
+            Für das Herstellen von Markierungsstreifen (z.B. Leitsystem) in anderer Farbe des Belages.
+            Markierungsart (Skizze): ____________
+            Betrifft Belag: ____________
+
+50.13 31    Aufzahlung (Az) auf die Positionen Beläge aus Linoleum für die Erschwernis bei kleinen Einzelflächen,
+            ausgenommen Stufen. Abgerechnet wird die Summe der Einzelflächen.
+
+50.13 31A   Az Linoleum Fläche b.5m2                                                                                            m²
+            Bis 5 m2.
+
+            LB-Version: 23                Geändert
+Änderung:   Entfall von PVC
+
+50.13 50    Winkelsockelleisten aus Belagsstreifen von dem gleichen Material wie auf dem Boden verlegt, zum stufenlosen
+            Anarbeiten an den Bodenbelag durch rückseitiges Einfräsen einer Knicknut.
+
+50.13 50C   Winkelsockell.Belag Linoleum                                                                                        m
+            Aus Linoleum, 60 mm hoch.
+
+            LB-Version: 23                Geringfügig Geändert                          Vorherige Position: 502004C
+50.13 51    Hohlkehlen aus Linoleum, mit verstärkter Rundung, an die Wand geklebt.
+
+50.13 51A   Hohlkehl.Linoleum 100/50 2mm                                                                                        m
+            100 mm hoch, 50 mm breit. 2 mm dick.
+
+            LB-Version: 23                Geringfügig Geändert                          Vorherige Position: 502005A
+
+50.13 51B   Hohlkehl.Linoleum 100/50 2,5mm                                                                                      m
+            100 mm hoch, 50 mm breit. 2,5 mm dick.
+
+            LB-Version: 23                Geringfügig Geändert                          Vorherige Position: 502005B
+
+50.13 51C   Hohlkehl.Linoleum 100/50 3,2mm                                                                                      m
+            100 mm hoch, 50 mm breit. 3,2 mm dick.
+
+            LB-Version: 23                Geringfügig Geändert                          Vorherige Position: 502005C
+
+50.13 51D   Hohlkehl.Linoleum 100/50 4mm                                                                                        m
+            100 mm hoch, 50 mm breit. 4 mm dick.
+
+            LB-Version: 23                Geringfügig Geändert                          Vorherige Position: 502005D
+
+50.14       Bodenbeläge aus synthetischem Kautschuk
+            Kautschukbeläge:
+            Bodenbeläge aus synthetischem Kautschuk (Elastomer-Bodenbeläge) ohne Zusätze wie PVC-Weichmacher,
+            Asbest, Formaldehyd, Cadmium, Halogene oder FCKW.
+            Kautschukbeläge werden unverfugt verlegt, das heißt Fliesen Stoß auf Stoß und Bahnen in
+            Doppelschnitt-Technik.
+            Klassen, Verwendungsbereiche:
+            In den Positionen wurde die Einstufung gemäß der Klassen nach ÖNORM EN 1817, ÖNORM EN 12199, ÖN EN
+            1816 vorgenommen.
+            Stuhlrollen und Fußbodenheizung:
+            Alle Beläge sind für Stuhlrollen und Fußbodenheizung geeignet (Untergrund vorbereiten in eigener Position).
+             Kommentar:
+             Unter Granulatdesign wird die Oberfläche als Granulat oder bei größerer Granulatzusammenstellung (Chips) verstanden.
+
+            LB-Version: 23               Geändert
+Änderung:   Änderung der Klassen, Verwendungsbereiche:
+            In den Positionen wurde die Einstufung gemäß der Klassen nach ÖNORM EN 1817, ÖNORM EN 12199, ÖN EN 1816
+            vorgenommen.
+
+
+
+
+                                                                                                                           Seite 7 / 44
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+50.14 01    Bodenbelag aus synthetischem Kautschuk mit glatter Oberfläche, einschichtig auf vorbereiteten Untergrund
+            geklebt, 2 mm dick, Klasse 23 antistatisch gemäß ÖNORM B 5220 Klasse III.
+            Im Positionsstichwort ist die Ausführung des Bodenbelags (Bahn oder Fliese), sowie die zutreffende Klasse
+            angegeben.
+
+50.14 01A   Kautsch.2mm Granul.Bahn Kl. 23                                                                                m²
+            Granulatdesign, in Bahnen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23                Geändert
+
+50.14 01B   Kautsch.2mm Granul.Fliese Kl. 23                                                                              m²
+            Granulatdesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23                Geändert
+
+50.14 01I   Kautsch.2mm uni Bahn Kl. 23                                                                                   m²
+            Unifarbig, in Bahnen.
+            RAL-Farbe: ____________
+            LB-Version: 23                Geändert
+
+50.14 01K   Kautsch.2mm uni Fliese Kl. 23                                                                                 m²
+            Unifarbig, in Fliesen.
+            RAL-Farbe: ____________
+            LB-Version: 23                Geändert
+50.14 02    Bodenbelag aus synthetischem Kautschuk mit glatter Oberfläche, einschichtig auf vorbereiteten Untergrund
+            geklebt, 3 mm dick, Klasse 34 antistatisch gemäß ÖNORM B 5220 Klasse III.
+            Im Positionsstichwort ist die Ausführung des Bodenbelags (Bahn oder Fliese), sowie die zutreffende Klasse
+            angegeben.
+
+50.14 02A   Kautsch.3mm Granul.Bahn Kl. 23                                                                                m²
+            Granulatdesign, in Bahnen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+
+            LB-Version: 23
+
+50.14 02B   Kautsch.3mm Granul.Fliese Kl. 23                                                                              m²
+            Granulatdesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23
+
+50.14 02I   Kautsch.3mm uni Bahn Kl. 23                                                                                   m²
+            Unifarbig, in Bahnen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+
+50.14 02K   Kautsch.3mm uni Fliese Kl. 23                                                                                 m²
+            Unifarbig, in Fliesen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+
+
+
+
+                                                                                                                     Seite 8 / 44
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+50.14 03    Bodenbelag aus synthetischem Kautschuk mit glatter Oberfläche, einschichtig auf vorbereiteten Untergrund
+            geklebt, 2 mm dick, Klasse 34 antistatisch gemäß ÖNORM B 5220 Klasse III.
+            Im Positionsstichwort ist die Ausführung des Bodenbelags (Bahn oder Fliese), sowie die zutreffende Klasse
+            angegeben.
+
+50.14 03A   Kautsch.2mm Granul.Bahn Kl. 34                                                                                m²
+            Granulatdesign, in Bahnen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23                Geändert
+
+50.14 03B   Kautsch.2mm Granul.Fliese Kl. 34                                                                              m²
+            Granulatdesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23                Geändert
+
+50.14 03I   Kautsch.2mm uni Bahn Kl. 34                                                                                   m²
+            Unifarbig, in Bahnen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+
+50.14 03K   Kautsch.2mm uni Fliese Kl. 34                                                                                 m²
+            Unifarbig, in Fliesen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+50.14 04    Bodenbelag aus synthetischem Kautschuk mit glatter Oberfläche, einschichtig auf vorbereiteten Untergrund
+            geklebt, 3 mm dick, Klasse 34 antistatisch gemäß ÖNORM B 5220 Klasse III.
+            Im Positionsstichwort ist die Ausführung des Bodenbelags (Bahn oder Fliese), sowie die zutreffende Klasse
+            angegeben.
+
+50.14 04A   Kautsch.3mm Granul.Bahn Kl. 34                                                                                m²
+            Granulatdesign, in Bahnen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+
+            LB-Version: 23
+
+50.14 04B   Kautsch.3mm Granul.Fliese Kl. 34                                                                              m²
+            Granulatdesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23
+
+50.14 04I   Kautsch.3mm uni Bahn Kl. 34                                                                                   m²
+            Unifarbig, in Bahnen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+
+50.14 04K   Kautsch.3mm uni Fliese Kl. 34                                                                                 m²
+            Unifarbig, in Fliesen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+
+
+
+
+                                                                                                                     Seite 9 / 44
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+50.14 05    Bodenbelag aus synthetischem Kautschuk mit glatter Oberfläche, einschichtig auf vorbereiteten Untergrund
+            geklebt, 2 mm dick, Klasse 42 antistatisch gemäß ÖNORM B 5220 Klasse III.
+            Im Positionsstichwort ist die Ausführung des Bodenbelags (Bahn oder Fliese), sowie die zutreffende Klasse
+            angegeben.
+
+50.14 05A   Kautsch.2mm Granul.Bahn Kl. 42                                                                                m²
+            Granulatdesign, in Bahnen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23                Geändert
+
+50.14 05B   Kautsch.2mm Granul.Fliese Kl. 42                                                                              m²
+            Granulatdesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23                Geändert
+
+50.14 05I   Kautsch.2mm uni Bahn Kl. 42                                                                                   m²
+            Unifarbig, in Bahnen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+
+50.14 05K   Kautsch.2mm uni Fliese Kl. 42                                                                                 m²
+            Unifarbig, in Fliesen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+50.14 06    Bodenbelag aus synthetischem Kautschuk mit glatter Oberfläche, einschichtig auf vorbereiteten Untergrund
+            geklebt, 3 mm dick, Klasse 43 antistatisch gemäß ÖNORM B 5220 Klasse III.
+            Im Positionsstichwort ist die Ausführung des Bodenbelags (Bahn oder Fliese), sowie die zutreffende Klasse
+            angegeben.
+
+50.14 06A   Kautsch.3mm Granul.Bahn Kl. 43                                                                                m²
+            Granulatdesign, in Bahnen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+
+            LB-Version: 23
+
+50.14 06B   Kautsch.3mm Granul.Fliese Kl. 43                                                                              m²
+            Granulatdesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23
+
+50.14 06I   Kautsch.3mm uni Bahn Kl. 43                                                                                   m²
+            Unifarbig, in Bahnen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+
+50.14 06K   Kautsch.3mm uni Fliese Kl. 43                                                                                 m²
+            Unifarbig, in Fliesen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+
+
+
+
+                                                                                                                    Seite 10 / 44
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+50.14 07    Bodenbelag aus synthetischem Kautschuk mit glatter Oberfläche, einschichtig auf vorbereiteten Untergrund
+            geklebt, 2 mm dick, Klasse 23, 34, 42, 43 antistatisch gemäß ÖNORM B 5220 Klasse II.
+            Im Positionsstichwort ist die Ausführung des Bodenbelags (Bahn oder Fliese), sowie die zutreffende Klasse
+            angegeben.
+
+50.14 07A   Kautsch. ED 2mm Granul.Bahn Kl. 23                                                                            m²
+            Granulatdesign, in Bahnen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23                Geändert
+
+50.14 07B   Kautsch. ED 2mm Granul.Fliese Kl. 23                                                                          m²
+            Granulatdesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23                Geändert
+
+50.14 07I   Kautsch. ED 2mm uni Bahn Kl. 23                                                                               m²
+            Unifarbig, in Bahnen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+
+50.14 07K   Kautsch. ED 2mm uni Fliese Kl. 23                                                                             m²
+            Unifarbig, in Fliesen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+50.14 08    Bodenbelag aus synthetischem Kautschuk mit glatter Oberfläche, einschichtig auf vorbereiteten Untergrund
+            geklebt, 3 mm dick, Klasse 23, 34, 42, 43 antistatisch gemäß ÖNORM B 5220 Klasse II.
+            Im Positionsstichwort ist die Ausführung des Bodenbelags (Bahn oder Fliese), sowie die zutreffende Klasse
+            angegeben.
+
+50.14 08A   Kautsch. ED 3mm Granul.Bahn Kl. 23                                                                            m²
+            Granulatdesign, in Bahnen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+
+            LB-Version: 23                Geändert
+
+50.14 08B   Kautsch. ED 3mm Granul.Fliese Kl. 23                                                                          m²
+            Granulatdesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23                Geändert
+
+50.14 08I   Kautsch. ED 3mm uni Bahn Kl. 23                                                                               m²
+            Unifarbig, in Bahnen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+
+50.14 08K   Kautsch. ED 3mm uni Fliese Kl. 23                                                                             m²
+            Unifarbig, in Fliesen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+
+
+
+
+                                                                                                                    Seite 11 / 44
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+50.14 09    Bodenbelag aus synthetischem Kautschuk mit glatter Oberfläche, einschichtig auf vorbereiteten Untergrund
+            geklebt, 2 mm dick, Klasse 23, 34, 42, 43 antistatisch gemäß ÖNORM B 5220 Klasse II.
+            Im Positionsstichwort ist die Ausführung des Bodenbelags (Bahn oder Fliese), sowie die zutreffende Klasse
+            angegeben.
+
+50.14 09A   Kautsch. ED 2mm Granul.Bahn Kl. 34                                                                            m²
+            Granulatdesign, in Bahnen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23
+
+50.14 09B   Kautsch. ED 2mm Granul.Fliese Kl. 34                                                                          m²
+            Granulatdesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23
+
+50.14 09I   Kautsch. ED 2mm uni Bahn Kl. 34                                                                               m²
+            Unifarbig, in Bahnen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+
+50.14 09K   Kautsch. ED 2mm uni Fliese Kl. 34                                                                             m²
+            Unifarbig, in Fliesen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+50.14 10    Bodenbelag aus synthetischem Kautschuk mit glatter Oberfläche, einschichtig auf vorbereiteten Untergrund
+            geklebt, 3 mm dick, Klasse 23, 34, 42, 43 antistatisch gemäß ÖNORM B 5220 Klasse II.
+            Im Positionsstichwort ist die Ausführung des Bodenbelags (Bahn oder Fliese), sowie die zutreffende Klasse
+            angegeben.
+
+50.14 10A   Kautsch. ED 3mm Granul.Bahn Kl. 34                                                                            m²
+            Granulatdesign, in Bahnen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+
+            LB-Version: 23                Geändert
+
+50.14 10B   Kautsch. ED 3mm Granul.Fliese Kl. 34                                                                          m²
+            Granulatdesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23                Geändert
+
+50.14 10I   Kautsch. ED 3mm uni Bahn Kl. 34                                                                               m²
+            Unifarbig, in Bahnen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+
+50.14 10K   Kautsch. ED 3mm uni Fliese Kl. 34                                                                             m²
+            Unifarbig, in Fliesen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+
+
+
+
+                                                                                                                    Seite 12 / 44
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+50.14 11    Bodenbelag aus synthetischem Kautschuk mit glatter Oberfläche, einschichtig auf vorbereiteten Untergrund
+            geklebt, 2 mm dick, Klasse 23, 34, 42, 43 antistatisch gemäß ÖNORM B 5220 Klasse II.
+            Im Positionsstichwort ist die Ausführung des Bodenbelags (Bahn oder Fliese), sowie die zutreffende Klasse
+            angegeben.
+
+50.14 11A   Kautsch. ED 2mm Granul.Bahn Kl. 42                                                                            m²
+            Granulatdesign, in Bahnen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23
+
+50.14 11B   Kautsch. ED 2mm Granul.Fliese Kl. 42                                                                          m²
+            Granulatdesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23
+
+50.14 11I   Kautsch. ED 2mm uni Bahn Kl. 42                                                                               m²
+            Unifarbig, in Bahnen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+
+50.14 11K   Kautsch. ED 2mm uni Fliese Kl. 42                                                                             m²
+            Unifarbig, in Fliesen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+50.14 12    Bodenbelag aus synthetischem Kautschuk mit glatter Oberfläche, einschichtig auf vorbereiteten Untergrund
+            geklebt, 3 mm dick, Klasse 23, 34, 42, 43 antistatisch gemäß ÖNORM B 5220 Klasse II.
+            Im Positionsstichwort ist die Ausführung des Bodenbelags (Bahn oder Fliese), sowie die zutreffende Klasse
+            angegeben.
+
+50.14 12A   Kautsch. ED 3mm Granul.Bahn Kl. 43                                                                            m²
+            Granulatdesign, in Bahnen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+
+            LB-Version: 23                Geändert
+
+50.14 12B   Kautsch. ED 3mm Granul.Fliese Kl. 43                                                                          m²
+            Granulatdesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend): ____________
+            Beschreibung des Designs: ____________
+            LB-Version: 23                Geändert
+
+50.14 12I   Kautsch. ED 3mm uni Bahn Kl. 43                                                                               m²
+            Unifarbig, in Bahnen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+
+50.14 12K   Kautsch. ED 3mm uni Fliese Kl. 43                                                                             m²
+            Unifarbig, in Fliesen.
+            RAL-Farbe: ____________
+            LB-Version: 23
+50.14 20    Bodenbelag aus synthetischem Kautschuk, einschichtig, elektrostatisch ableitend (al), auf Kupferband geklebt
+            (die Erdung des Ableitsystemes erfolgt durch den Auftraggeber), Klasse 23, leitfähig gemäß ÖNORM B 5220
+            Klasse I.
+
+                                                                                                                    Seite 13 / 44
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+50.14 20A   Kautsch.al.2mm gl.Granul.Bahn Kl. 23                                                                           m²
+            2 mm und ein richtungsfreies Granulatdesign, in Bahnen.
+
+            LB-Version: 23
+
+50.14 20B   Kautsch.al.2mm gl.Granul.Fliese Kl. 23                                                                         m²
+            2 mm dick, und ein richtungsfreies Korn- oder Granulatdesign, in Fliesen.
+
+            LB-Version: 23
+
+50.14 20C   Kautsch.al.2mm gepr.Kornd.Bahn Kl. 23                                                                          m²
+            2 mm dick, geprägte, matte Oberfläche und richtungsfreies Korndesign, in Bahnen.
+
+            LB-Version: 23
+
+50.14 20D   Kautsch.al.2mmgepr.Kornd.Fliese Kl. 23                                                                         m²
+            2 mm dick, geprägte, matte Oberfläche und richtungsfreies Korndesign, in Fliesen.
+
+            LB-Version: 23
+50.14 21    Bodenbelag aus synthetischem Kautschuk, einschichtig, elektrostatisch ableitend (al), auf Kupferband geklebt
+            (die Erdung des Ableitsystemes erfolgt durch den Auftraggeber), Klasse 34, leitfähig gemäß ÖNORM B 5220
+            Klasse I.
+
+50.14 21A   Kautsch.al.2mm gl.Granul.Bahn Kl. 34                                                                           m²
+            2 mm und ein richtungsfreies Granulatdesign, in Bahnen.
+
+            LB-Version: 23              Geändert
+
+50.14 21B   Kautsch.al.2mm gl.Granul.Fliese Kl. 34                                                                         m²
+            2 mm dick, und ein richtungsfreies Korn- oder Granulatdesign, in Fliesen.
+
+            LB-Version: 23              Geändert
+
+50.14 21C   Kautsch.al.2mm gepr.Kornd.Bahn Kl. 34                                                                          m²
+            2 mm dick, geprägte, matte Oberfläche und richtungsfreies Korndesign, in Bahnen.
+
+            LB-Version: 23              Geändert
+
+50.14 21D   Kautsch.al.2mmgepr.Kornd.Fliese Kl. 34                                                                         m²
+            2 mm dick, geprägte, matte Oberfläche und richtungsfreies Korndesign, in Fliesen.
+
+            LB-Version: 23
+50.14 22    Bodenbelag aus synthetischem Kautschuk, einschichtig, elektrostatisch ableitend (al), auf Kupferband geklebt
+            (die Erdung des Ableitsystemes erfolgt durch den Auftraggeber), Klasse 42, leitfähig gemäß ÖNORM B 5220
+            Klasse I.
+
+50.14 22A   Kautsch.al.2mm gl.Granul.Bahn Kl. 42                                                                           m²
+            2 mm und ein richtungsfreies Granulatdesign, in Bahnen.
+
+            LB-Version: 23              Geändert
+
+50.14 22B   Kautsch.al.2mm gl.Granul.Fliese Kl. 42                                                                         m²
+            2 mm dick, und ein richtungsfreies Korn- oder Granulatdesign, in Fliesen.
+
+            LB-Version: 23              Geändert
+
+50.14 22C   Kautsch.al.2mm gepr.Kornd.Bahn Kl. 42                                                                          m²
+            2 mm dick, geprägte, matte Oberfläche und richtungsfreies Korndesign, in Bahnen.
+
+            LB-Version: 23              Geändert
+
+50.14 22D   Kautsch.al.2mmgepr.Kornd.Fliese Kl. 42                                                                         m²
+            2 mm dick, geprägte, matte Oberfläche und richtungsfreies Korndesign, in Fliesen.
+
+            LB-Version: 23              Geändert
+50.14 23    Bodenbelag aus synthetischem Kautschuk, mehrschichtig, mit schalldämmendem Unterteil (schalld.), auf
+            vorbereiteten Untergrund geklebt, in Bahnen, Gesamtdicke 4 mm, Klasse 23, Kautschuk-Oberteil mind. 1,5 mm,
+            Trittschallverbesserungsmaß 20 dB, antistatisch gemäß ÖNORM B 5220 Klasse III.
+                                                                                                                     Seite 14 / 44
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+50.14 23A   Kautsch.schalld.4mm Kornd. Kl. 23                                                                            m²
+            Richtungsfreies Korndesign, in Bahnen.
+
+            LB-Version: 23
+
+50.14 23B   Kautsch.schalld.4mm Granul. Kl. 23                                                                           m²
+            Granulatdesign, in Bahnen.
+
+            LB-Version: 23
+50.14 24    Bodenbelag aus synthetischem Kautschuk, mehrschichtig, mit schalldämmendem Unterteil (schalld.), auf
+            vorbereiteten Untergrund geklebt, in Bahnen, Gesamtdicke 4 mm, Klasse 33, Kautschuk-Oberteil mind. 1,5 mm,
+            Trittschallverbesserungsmaß 20 dB, antistatisch gemäß ÖNORM B 5220 Klasse III.
+
+50.14 24A   Kautsch.schalld.4mm Kornd. Kl. 33                                                                            m²
+            Richtungsfreies Korndesign, in Bahnen.
+
+            LB-Version: 23               Geändert
+
+50.14 24B   Kautsch.schalld.4mm Granul. Kl. 33                                                                           m²
+            Granulatdesign, in Bahnen.
+
+            LB-Version: 23               Geändert
+50.14 25    Bodenbelag aus hochdruckgepresstem (hdp), synthetischem Kautschuk mit matter Hammerschlagoberfläche,
+            einschichtig, homogen, Rückseite glatt geschliffen, auf vorbereiteten Untergrund geklebt, 3,5 mm dick, Klasse
+            23.
+
+50.14 25A   Kautsch.hdp.3,5 Granuld. Fliese Kl. 23                                                                       m²
+            Granulatdesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend):____________
+            Beschreibung des Designs:____________
+            LB-Version: 23
+
+50.14 25B   Kautsch.hdp.3,5 Kornd. Fliese Kl. 23                                                                         m²
+            Korndesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend):____________
+            Beschreibung des Designs:____________
+            LB-Version: 23
+
+50.14 25C   Kautsch.hdp.3,5 uni. Fliese Kl. 23                                                                           m²
+            Unifarbig, in Fliesen.
+            RAL-Farbe:____________
+            LB-Version: 23
+50.14 26    Bodenbelag aus hochdruckgepresstem (hdp), synthetischem Kautschuk mit matter Hammerschlagoberfläche,
+            einschichtig, homogen, Rückseite glatt geschliffen, auf vorbereiteten Untergrund geklebt, 3,5 mm dick, Klasse
+            34.
+
+50.14 26A   Kautsch.hdp.3,5 Granuld. Fliese Kl. 34                                                                       m²
+            Granulatdesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend):____________
+            Beschreibung des Designs:____________
+            LB-Version: 23               Geändert
+
+50.14 26B   Kautsch.hdp.3,5 Kornd. Fliese Kl. 34                                                                         m²
+            Korndesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend):____________
+            Beschreibung des Designs:____________
+            LB-Version: 23               Geändert
+
+50.14 26C   Kautsch.hdp.3,5 uni. Fliese Kl. 34                                                                           m²
+
+                                                                                                                   Seite 15 / 44
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+            Unifarbig, in Fliesen.
+            RAL-Farbe:____________
+            LB-Version: 23               Geändert
+50.14 27    Bodenbelag aus hochdruckgepresstem (hdp), synthetischem Kautschuk mit matter Hammerschlagoberfläche,
+            einschichtig, homogen, Rückseite glatt geschliffen, auf vorbereiteten Untergrund geklebt, 3,5 mm dick, Klasse
+            43.
+
+50.14 27A   Kautsch.hdp.3,5 Granuld. Fliese Kl. 43                                                                           m²
+            Granulatdesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend):____________
+            Beschreibung des Designs:____________
+            LB-Version: 23
+
+50.14 27B   Kautsch.hdp.3,5 Kornd. Fliese Kl. 43                                                                             m²
+            Korndesign, in Fliesen.
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend):____________
+            Beschreibung des Designs:____________
+            LB-Version: 23
+
+50.14 27C   Kautsch.hdp.3,5 uni. Fliese Kl. 43                                                                               m²
+            Unifarbig, in Fliesen.
+            RAL-Farbe:____________
+            LB-Version: 23
+50.14 37    Bodenbelag aus hochdruckgepresstem (hdp), synthetischem Kautschuk, mit Hammerschlagoberfläche,
+            einschichtig homogen, auf Kupferband geklebt (die Erdung des Kupferbandes erfolgt durch den Auftraggeber),
+            Klasse 34 ableitfähig (al) gemäß ÖNORM B 5220 Klasse I.
+
+50.14 37A   Kautsch.hdp.al.3,5 glatt geschl. RS Kl. 34                                                                       m²
+            3,5 mm dick, mit Granulatdesign, mit glatter, geschliffener Rückseite, in Fliesen (Fl.).
+
+            LB-Version: 23               Geändert
+
+50.14 37B   Kautsch.hdp+Zäpf.al.3,5 Zäpfchenrücken Kl. 34                                                                    m²
+            Mit Zäpfchenrücken, Gesamtdicke mind. 3,5 mm, mit Granulatdesign, zum Befahren mit Staplern geeignet, in
+            Platten (P).
+            LB-Version: 23               Geändert
+50.14 38    Bodenbelag aus hochdruckgepresstem (hdp), synthetischem Kautschuk, mit Hammerschlagoberfläche,
+            einschichtig homogen, auf Kupferband geklebt (die Erdung des Kupferbandes erfolgt durch den Auftraggeber),
+            Klasse 43 ableitfähig (al) gemäß ÖNORM B 5220 Klasse I.
+
+50.14 38A   Kautsch.hdp.al.3,5 glatt geschl. RS Kl. 43                                                                       m²
+            3,5 mm dick, mit Granulatdesign, mit glatter, geschliffener Rückseite, in Fliesen (Fl.).
+
+            LB-Version: 23
+
+50.14 38B   Kautsch.hdp+Zäpf.al.3,5 Zäpfchenrücken Kl. 43                                                                    m²
+            Mit Zäpfchenrücken, Gesamtdicke mind. 3,5 mm, mit Granulatdesign, zum Befahren mit Staplern geeignet, in
+            Platten (P).
+            LB-Version: 23
+50.14 40    Bodenbelag auf Stufen verlegt, aus synthetischem Kautschuk, ohne Unterschied ob Setz- oder Trittstufen,
+            gerade oder spitze Stufen. Spitzstufen werden mit der größten Breite und größten Länge abgerechnet.
+            Einschichtig 2mm dick für Klasse 23.
+
+50.14 40A   Kautsch.Stufe 2mm Kl. 23                                                                                         m²
+            antistatisch Klasse III
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend):____________
+            Beschreibung des Designs:____________
+            LB-Version: 23               Geändert
+
+                                                                                                                       Seite 16 / 44
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+50.14 40F   Kautsch.Stufe 2mm al Kl. 23                                                                                  m²
+            ableitfähig Klasse I (al),
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend):____________
+            Beschreibung des Designs:____________
+            LB-Version: 23
+50.14 41    Bodenbelag auf Stufen verlegt, aus synthetischem Kautschuk, ohne Unterschied ob Setz- oder Trittstufen,
+            gerade oder spitze Stufen. Spitzstufen werden mit der größten Breite und größten Länge abgerechnet.
+            Einschichtig 2mm dick für Klasse 34.
+
+50.14 41A   Kautsch.Stufe 2mm Kl. 34                                                                                     m²
+            antistatisch Klasse III
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend):____________
+            Beschreibung des Designs:____________
+            LB-Version: 23               Geändert
+
+50.14 41F   Kautsch.Stufe 2mm al Kl. 34                                                                                  m²
+            ableitfähig Klasse I (al),
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend):____________
+            Beschreibung des Designs:____________
+
+            LB-Version: 23
+50.14 42    Bodenbelag auf Stufen verlegt, aus synthetischem Kautschuk, ohne Unterschied ob Setz- oder Trittstufen,
+            gerade oder spitze Stufen. Spitzstufen werden mit der größten Breite und größten Länge abgerechnet.
+            Einschichtig 2mm dick für Klasse 42.
+
+50.14 42A   Kautsch.Stufe 2mm Kl. 42                                                                                     m²
+            antistatisch Klasse III
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend):____________
+            Beschreibung des Designs:____________
+            LB-Version: 23               Geändert
+
+50.14 42F   Kautsch.Stufe 2mm al Kl. 42                                                                                  m²
+            ableitfähig Klasse I (al),
+            Oberflächendefiniton: (z.B. glatt, geprägt, twotone, Carré-Struktur, reflexbrechend):____________
+            Beschreibung des Designs:____________
+            LB-Version: 23
+50.14 50    Bodenbelag aus hochdruckgepresstem (hdp), synthetischem Kautschuk, mit Rundnoppen (Kautschnoppe)
+            einschichtig, homogen, unifarbig, auf vorbereiteten Untergrund geklebt, antistatisch gemäß ÖNORM B 5220
+            Klasse III.
+
+50.14 50A   Kautschnoppe 3,2 uniFg2 Flie. Kl. 32                                                                         m²
+            Gesamtdicke 3,2 mm, Noppenhöhe 0,5 mm, Klasse 32, mit glatter geschliffener Rückseite, in Fliesen.
+            RAL-Farbe:____________
+            LB-Version: 23               Geändert
+
+50.14 50B   Kautschnoppe 4mm uniFg2 Fl. Kl. 34                                                                           m²
+            Gesamtdicke 4 mm, Noppenhöhe 0,5 mm, Klasse 34, mit glatter, geschliffener Rückseite, in Platten.
+            RAL-Farbe:____________
+            LB-Version: 23
+50.14 51    Bodenbelag aus hochdruckgepresstem (hdp), synthetischem Kautschuk, mit Rundnoppen (Kautschnoppe)
+            einschichtig, homogen, unifarbig, auf vorbereiteten Untergrund geklebt, antistatisch gemäß ÖNORM B 5220
+            Klasse III.
+
+50.14 51A   Kautschnoppe 3,2 uniFg2 Flie. Kl. 41                                                                         m²
+
+
+                                                                                                                   Seite 17 / 44
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Gesamtdicke 3,2 mm, Noppenhöhe 0,5 mm, Klasse 41, mit glatter geschliffener Rückseite, in Fliesen.
+            RAL-Farbe:____________
+            LB-Version: 23
+
+50.14 51B   Kautschnoppe 4mm uniFg2 Fl. Kl. 42                                                                          m²
+            Gesamtdicke 4 mm, Noppenhöhe 0,5 mm, Klasse 42, mit glatter, geschliffener Rückseite, in Platten.
+            RAL-Farbe:____________
+            LB-Version: 23
+50.14 55    Aufzahlung (Az) auf die Position hochdruckgepresster Kautschukbelag in Platten (Kautschpl.).
+
+50.14 55A   Az Kautschpl.Randfries                                                                                      m²
+            Für das Herstellen eines andersfarbigen Randfrieses, ohne Unterschied der Breite. Abgerechnet wird die Fläche
+            des Frieses.
+            Randfriesbreite (Skizze): ____________
+            Betrifft Positionen:____________
+            LB-Version: 23              Geändert
+
+50.14 55B   Az Kautschpl.mehrfarbig                                                                                     m²
+            Für eine mehrfarbige Verlegung nach Angaben des Auftraggebers. Abgerechnet wird die gesamte mehrfarbige
+            Fläche eines Raumes.
+            Farb- und Oberflächenangaben: ____________
+            Betrifft Positionen: ____________
+            LB-Version: 23              Geändert
+
+50.14 55G   Az Kautsch-bel.Markier-streifen                                                                             m
+            Für das Herstellen von Markierungsstreifen (z.B. Leitsystem) in anderer Farbe des Belages.
+            Markierungsart (Breite, sonstige Angaben):____________
+            Betrifft Positionen:____________
+            LB-Version: 23              Geändert
+50.14 57    Aufzahlung (Az) auf die Positionen Beläge aus synthetischem Kautschuk ohne Unterschied der Art für die
+            Erschwernisse bei Einzelkleinflächen, ausgenommen Stufenflächen. Abgerechnet wird die Summe der
+            Kleinflächen.
+
+50.14 57A   Az Kautsch-.Fläche b.5m2                                                                                    m²
+            Bei Kautschukbelag, Einzelfläche bis 5 m2.
+
+            LB-Version: 23              Geändert
+50.14 60    Verfugen der Belagsnähte von Kautschukbelägen (Kautschb.) mit glatter Oberfläche, mit einer Thermoschnur,
+            Durchmesser 4 mm, einschließlich Fräsen der Fugen.
+
+50.14 60A   Therm.Verfugen von Bahnen                                                                                   m²
+            Bei Bahnenbelägen entsprechend der angebotenen Bahnenbreite.
+            Betrifft Position: ____________
+            LB-Version: 23              Geändert
+
+50.14 60B   Therm.Verfugen von Fliesen                                                                                  m²
+            Bei Fliesen, entsprechend der angebotenen Fliesengröße.
+            Betrifft Position:: ____________
+            LB-Version: 23              Geändert
+50.14 61    Verfugen der Belagsnähte von hochdruckgepressten Kautschukbelägen (Kautschb.), mit Zweikomponenten-
+            PU-Fugenmasse, einschließlich Fräsen der Fugen.
+
+50.14 61A   Verfugen Bahn m.Fugenmasse                                                                                  m²
+            Bei Bahnenbelägen entsprechend der angebotenen Bahnenbreite.
+            Betrifft Position: ____________
+            LB-Version: 23              Geändert
+
+50.14 61B   Verfugen Fliese m.Fugenmasse                                                                                m²
+                                                                                                                  Seite 18 / 44
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Bei Fliesen, entsprechend der angebotenen Fliesengröße.
+            Betrifft Position: ____________
+            LB-Version: 23              Geändert
+50.14 62    Aufzahlung (Az) auf die Positionen Bodenbeläge aus Kautschuk in Bahnen, ohne Unterschied der Art, für das
+            Herstellen eines Wandabschlusses mit Hohlkehle durch Hochziehen des Belages unter Verwendung eines
+            Stützprofiles, geklebt.
+
+50.14 62A   Az Kautschuk Hohlkehlenleiste b. 15cm                                                                         m
+            Für die Erschwernis beim Ausbilden der Hohlkehlenleiste, ohne Unterschied der Sockelhöhe (bis 15cm).
+            Abgerechnet wird die Sockellänge.
+            LB-Version: 23              Geändert
+
+50.14 62E   Az Kautschuk als Wandhochzug                                                                                  m
+            Für das Ausbilden des Wandhochzuges als Sockel. Sockelhöhe (bis 15cm) einschließlich Verfugen der
+            Belagsnähte. Abgerechnet wird die Sockellänge.
+            LB-Version: 23              Geändert
+
+50.14 62F   Az Kautschuk Innen- oder Außeneck                                                                             m
+            Für das Ausbilden der Innen- oder Außenecken, bei Hohlkehlenleisten oder Wandhochzügen.
+
+            LB-Version: 23
+50.14 65    Sockelleisten aus synthetischem Kautschuk (Kautsch.) mit dauerelastischer, 12 mm breiter Dichtungslippe, auf
+            vorbereiteten Untergrund mit Kontaktkleber geklebt einschließlich Ausbilden von Außen- und Innenecken.
+
+50.14 65A   Kautsch.Sockelleiste 60mm                                                                                     m
+            Wandsockelleiste, 60 mm hoch.
+
+            LB-Version: 23
+
+50.14 65B   Kautsch.Sockelleiste 100mm                                                                                    m
+            Wandsockelleiste, 100 mm hoch.
+
+            LB-Version: 23
+50.14 66    Hohlkehlsockelleisten aus synthetischem Kautschuk (Kautsch.), 3 mm dick, 100 mm hoch, Radius 15 mm,
+            Breite des Fußteiles 50 mm, auf vorbereiteten Untergrund geklebt. Der Leistenfuß wird mit dem Bodenbelag
+            fugenlos mit 2-Komponenten PU-Fugenmasse verfugt, ebenso wie die Stöße.
+
+50.14 66A   Kautsch.Hohlkehlsockelleiste                                                                                  m
+            LB-Version: 23
+50.14 67    Sockelleisten aus synthetischem Kautschuk (Kautsch.), auf vorbereiteten Untergrund geklebt einschließlich
+            Ausbilden der Außen- und Innenecken.
+            Im Positionsstichwort ist die Art des Sockelmaterials (z.B. vorgefertigt oder aus Bodenbelag geschnitten), sowie
+            die Höhe (h) in mm angegeben.
+
+50.14 67A   Kautsch.vorgefertigter Stellsockel h=__________                                                               m
+            50 mm hoch.
+
+            LB-Version: 23
+
+50.14 67B   Kautsch. gemäß Bodenbelag Stellsockel h=__________                                                            m
+            50 mm hoch.
+
+            LB-Version: 23
+50.14 68    Fräsen und Ausfugen der Anschlüsse zwischen dem Podestbelag und der Wandsockelleiste mit
+            Zweikomponenten-PU-Fugenmasse.
+
+50.14 68A   Verfug.Kautsch.Stellsock-Belag                                                                                m
+            LB-Version: 23
+50.14 70    Seitliches Abschlussprofil aus synthetischem Kautschuk (Kautsch.) für Podeste und Rampen um das Abfließen
+            des Reinigungswassers zu verhindern, einschließlich Ausbilden der Winkel mit Gehrungsschnitten.
+
+50.14 70A   Kautsch.Abschlussprofil                                                                                       m
+                                                                                                                    Seite 19 / 44
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            m
+
+            LB-Version: 23
+50.14 73    Verfugen der Anschlüsse zwischen Formtreppe und Treppenwinkel sowie zwischen Bodenbelag und
+            Formtreppe mit farblich passender Zweikomponenten-PU-Fugenmasse einschließlich aller notwendigen Vor-
+            und Nacharbeiten.
+
+50.14 73A   Verf.Kautsch.Trepp-Winkel-Bel.                                                                                m
+            LB-Version: 23
+50.14 75    Formtreppe, Setzstufe und Treppenkante, hochdruckgepresst aus synthetischem Kautschuk, einschichtig
+            homogen, mit Hammerschlagtrittstufe, Klasse 34, 42, auf vorbereiten Untergrund vollflächig geklebt, antistatisch
+            gemäß ÖNORM B 5220 Klasse III, Farbe nach Wahl des Auftraggebers aus firmeneigener Kollektion.
+            Abgerechnet werden die Längen der Stufenvorderkanten.
+
+50.14 75A   Formtreppe Kautsch.Gran.                                                                                      Stk
+            Granulatdesign
+            Beschreibung des Designs:____________
+            Länge der Stufe:____________
+            Trittbreite der Stufe:____________
+            LB-Version: 23
+
+50.14 75F   Formtreppe Kautsch.uni                                                                                        Stk
+            Unifarbig, RAL-Farbe:____________
+            Länge der Stufe:____________
+            Trittbreite der Stufe:____________
+
+            LB-Version: 23
+50.14 77    Formtreppe, hochdruckgepresst aus synthetischem Kautschuk, Trittfläche mit 0,5 mm hohen Rundnoppen
+            Klasse 34, 42, Setzstufe und Treppenkante einschichtig homogen, auf vorbereiteten Untergrund vollflächig
+            geklebt, , antistatisch gemäß ÖNORM B 5220 Klasse III, Farbe nach Wahl des Auftraggebers aus firmeneigener
+            Kollektion. Abgerechnet werden die Längen der Stufenvorderkanten.
+
+50.14 77A   Formtrep.Kautschnopp.Gran.                                                                                    m
+            Granulatdesign
+            Beschreibung des Designs:____________
+            Länge der Stufe:____________
+            Trittbreite der Stufe:____________
+            LB-Version: 23
+
+50.14 77B   Formtrep.Kautschnoppe uni                                                                                     m
+            Unifarbig, RAL-Farbe:____________
+            Länge der Stufe:____________
+            Trittbreite der Stufe:____________
+            LB-Version: 23
+50.14 80    Treppenwinkel aus synthetischem Kautschuk als Abschluss der Tritt- und Setzstufe an der Wand- oder
+            Geländerseite, auf vorbereiteten Untergrund mit Kontaktkleber geklebt.
+
+50.14 80A   Treppenwinkel Kautsch.Wands.                                                                                  Stk
+            Wandseitige Treppenwinkel Auszuführen sind je Stufe 1 Außenwinkel + 1 Innenwinkel. Abgerechnet wird je
+            Stufenhöhe ein Stück.
+            LB-Version: 23
+
+50.14 80B   Treppenwink.Kautsch.Geländers.                                                                                Stk
+            Geländerseitige Treppenwinkel. Auszuführen sind je Stufe 1 Außenwinkel + 1 Innenwinkel. Abgerechnet wird je
+            Stufenhöhe ein Stück.
+            LB-Version: 23
+50.14 82    Treppenkanten aus synthetischem Kautschuk, auf vorbereiteten Untergrund geklebt, einschließlich
+            Wandanschlüsse und Stoßstellen.
+
+                                                                                                                    Seite 20 / 44
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+50.14 82A   Treppenkante Kautsch.50/45                                                                                      m
+            Treppenkante, Trittstufenteil AL mm, Setzstufenteil ____________ mm.
+            RAL-Angabe:____________
+            LB-Version: 23
+
+50.15       Nadelvliesbeläge (Nadelfilz)
+            Die Einstufung der Beläge erfolgt nach folgenden Kriterien:
+                • Anforderungen an Abriebsfestigkeit
+                • Stuhlrolleneignung für Intensive Nutzung
+            Alle Beläge sind antistatisch, EDV-Klasse III und geeignet für eine Fußbodenheizung (Untergrund vorbereiten in
+            eigener Position).
+             Kommentar:
+             Literaturhinweis:
+             ÖNORM EN 1307 - Textile Bodenbeläge
+
+
+             Frei zu formulieren sind:
+             z.B. Treppen, besondere Trittschalldämmeigenschaften, Rücken für Nadelvlies (ÖNÖRM EN 15772), …
+
+            LB-Version: 23               Geändert
+50.15 01    Nadelvliesbelag (Nadelfilz) in Bahnen (Bahn).
+            Im Positionsstichwort sind die Beanspruchungsklasse (K) und die Oberflächenausführung angegeben.
+
+50.15 01A   Nadelvlies Bahn K21.meliert                                                                                     m²
+            LB-Version: 23               Geändert
+
+50.15 01B   Nadelvlies Bahn K21 bedruckt                                                                                    m²
+            LB-Version: 23               Geändert
+
+50.15 01C   Nadelvlies Bahn K21 struktur                                                                                    m²
+            LB-Version: 23               Geändert
+
+50.15 01D   Nadelvlies Bahn K22.meliert                                                                                     m²
+            LB-Version: 23               Geändert
+
+50.15 01E   Nadelvlies Bahn K22 bedruckt                                                                                    m²
+            LB-Version: 23               Geändert
+
+50.15 01F   Nadelvlies Bahn K22 struktur                                                                                    m²
+            LB-Version: 23               Geändert
+
+50.15 01G   Nadelvlies Bahn K23 meliert                                                                                     m²
+            LB-Version: 23               Geändert
+
+50.15 01H   Nadelvlies Bahn K23 bedruckt                                                                                    m²
+            LB-Version: 23               Geändert
+
+50.15 01I   Nadelvlies Bahn K23 struktur                                                                                    m²
+            LB-Version: 23               Geändert
+
+50.15 01J   Nadelvlies Bahn K31.meliert                                                                                     m²
+            LB-Version: 23               Geändert
+
+50.15 01K   Nadelvlies Bahn K31 bedruckt                                                                                    m²
+            LB-Version: 23               Geändert
+
+50.15 01L   Nadelvlies Bahn K31 struktur                                                                                    m²
+            LB-Version: 23               Geändert
+
+
+                                                                                                                      Seite 21 / 44
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+50.15 01M   Nadelvlies Bahn K32 meliert                                                                                   m²
+            LB-Version: 23               Geändert
+
+50.15 01N   Nadelvlies Bahn K32 bedruckt                                                                                  m²
+            LB-Version: 23               Geändert
+
+50.15 01O   Nadelvlies Bahn K32 struktur                                                                                  m²
+            LB-Version: 23               Geändert
+
+50.15 01P   Nadelvlies Bahn K33.meliert                                                                                   m²
+            LB-Version: 23               Geändert
+
+50.15 01Q   Nadelvlies Bahn K33 bedruckt                                                                                  m²
+            LB-Version: 23               Geändert
+
+50.15 01R   Nadelvlies Bahn K33 struktur                                                                                  m²
+            LB-Version: 23               Geändert
+50.15 02    Nadelvliesbelag (Nadelfilz) in Bahnen (Bahn) mit Stuhlrolleneignung (StR) für Intensive Nutzung.
+            Im Positionsstichwort sind die Beanspruchungsklasse (K), die Stuhlrolleneignung (StR) und die
+            Oberflächenausführung angegeben.
+
+50.15 02A   Nadelvlies Bahn K31.StR meliert                                                                               m²
+            LB-Version: 23
+
+50.15 02B   Nadelvlies Bahn K31 StR bedruckt                                                                              m²
+            LB-Version: 23
+
+50.15 02C   Nadelvlies Bahn K31 StR struktur                                                                              m²
+            LB-Version: 23
+
+50.15 02D   Nadelvlies Bahn K32 StR meliert                                                                               m²
+            LB-Version: 23
+
+50.15 02E   Nadelvlies Bahn K32 StR bedruckt                                                                              m²
+            LB-Version: 23
+
+50.15 02F   Nadelvlies Bahn K32 StR struktur                                                                              m²
+            LB-Version: 23
+
+50.15 02G   Nadelvlies Bahn K33 StR meliert                                                                               m²
+            LB-Version: 23
+
+50.15 02H   Nadelvlies Bahn K33 StR bedruckt                                                                              m²
+            LB-Version: 23
+
+50.15 02I   Nadelvlies Bahn K33 StR struktur                                                                              m²
+            LB-Version: 23
+50.15 03    Nadelvliesbelag (Nadelfilz) in Fliesen.
+            Im Positionsstichwort sind die Beanspruchungsklasse (K) und die Oberflächenausführung angegeben.
+
+50.15 03A   Nadelvlies Fliese K21.meliert                                                                                 m²
+            LB-Version: 23               Geändert
+
+50.15 03B   Nadelvlies Fliese K21 bedruckt                                                                                m²
+            LB-Version: 23               Geändert
+
+50.15 03C   Nadelvlies Fliese K21 struktur                                                                                m²
+            LB-Version: 23               Geändert
+
+
+                                                                                                                    Seite 22 / 44
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+50.15 03D   Nadelvlies Fliese K22.meliert                                                                                  m²
+            LB-Version: 23               Geändert
+
+50.15 03E   Nadelvlies Fliese K22 bedruckt                                                                                 m²
+            LB-Version: 23               Geändert
+
+50.15 03F   Nadelvlies Fliese K22 struktur                                                                                 m²
+            LB-Version: 23               Geändert
+
+50.15 03G   Nadelvlies Fliese K23 meliert                                                                                  m²
+            LB-Version: 23               Geändert
+
+50.15 03H   Nadelvlies Fliese K23 bedruckt                                                                                 m²
+            LB-Version: 23               Geändert
+
+50.15 03I   Nadelvlies Fliese K23 struktur                                                                                 m²
+            LB-Version: 23               Geändert
+
+50.15 03J   Nadelvlies Fliese K31.meliert                                                                                  m²
+            LB-Version: 23               Geändert
+
+50.15 03K   Nadelvlies Fliese K31 bedruckt                                                                                 m²
+            LB-Version: 23               Geändert
+
+50.15 03L   Nadelvlies Fliese K31 struktur                                                                                 m²
+            LB-Version: 23               Geändert
+
+50.15 03M   Nadelvlies Fliese K32 meliert                                                                                  m²
+            LB-Version: 23               Geändert
+
+50.15 03N   Nadelvlies Fliese K32 bedruckt                                                                                 m²
+            LB-Version: 23               Geändert
+
+50.15 03O   Nadelvlies Fliese K32 struktur                                                                                 m²
+            LB-Version: 23               Geändert
+
+50.15 03P   Nadelvlies Fliese K33.meliert                                                                                  m²
+            LB-Version: 23               Geändert
+
+50.15 03Q   Nadelvlies Fliese K33 bedruckt                                                                                 m²
+            LB-Version: 23               Geändert
+
+50.15 03R   Nadelvlies Fliese K33 struktur                                                                                 m²
+            LB-Version: 23               Geändert
+50.15 04    Nadelvliesbelag (Nadelfilz) in Fliesen mit Stuhlrolleneignung (StR) für Intensive Nutzung.
+            Im Positionsstichwort sind die Beanspruchungsklasse (K), die Stuhlrolleneignung (StR) und die
+            Oberflächenausführung angegeben.
+
+50.15 04A   Nadelvlies Fliese K31.StR meliert                                                                              m²
+            LB-Version: 23
+
+50.15 04B   Nadelvlies Fliese K31 StR bedruckt                                                                             m²
+            LB-Version: 23
+
+50.15 04C   Nadelvlies Fliese K31 StR struktur                                                                             m²
+            LB-Version: 23
+
+50.15 04D   Nadelvlies Fliese K32 StR meliert                                                                              m²
+            LB-Version: 23
+
+                                                                                                                     Seite 23 / 44
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+50.15 04E   Nadelvlies Fliese K32 StR bedruckt                                                                                     m²
+            LB-Version: 23
+
+50.15 04F   Nadelvlies Fliese K32 StR struktur                                                                                     m²
+            LB-Version: 23
+
+50.15 04G   Nadelvlies Fliese K33 StR meliert                                                                                      m²
+            LB-Version: 23
+
+50.15 04H   Nadelvlies Fliese K33 StR bedruckt                                                                                     m²
+            LB-Version: 23
+
+50.15 04I   Nadelvlies Fliese K33 StR struktur                                                                                     m²
+            LB-Version: 23
+50.15 12    Aufzahlung (Az) auf die Positionen Nadelvliesbeläge für eine elektrostatische leitfähige Ausführung und gemäß
+            ÖNORM B 5220 Klasse I.
+
+50.15 12A   Az Nadelvliesb.leitfähig                                                                                               m²
+            Einschließlich Leitschicht.
+            Betrifft Position: ____________
+
+50.15 12B   Az Nadelvliesb.leitf+Kupfernetz                                                                                        m²
+            Einschließlich Verlegen eines Kupferleitnetzes aus Bändern 10 x 0,1 mm.
+            Betrifft Position: ____________
+             Kommentar:
+             Der Anschluss des Kupferleitnetzes an eine Erdleitung wird vom Auftraggeber hergestellt.
+
+            LB-Version: 23                 Geändert
+50.15 50    Sockelleiste zweiteilig, bestehend aus Trägerleiste aus PVC hart mit Abdecknase einschließlich eingeklebten
+            Belagsstreifen. Belagsstreifen aus den gleichen Material wie auf den Boden verlegt.
+
+50.15 50A   Sockell.2-teil.Nadelfilz                                                                                               m
+            Aus Nadelfilz.
+
+            LB-Version: 23                 Geringfügig Geändert                           Vorherige Position: 502020A
+50.15 55    Belagsstreifen als Sockel aus dem gleichen Material wie auf dem Boden verlegt.
+
+50.15 55A   Sockelstreifen Nadelfilz                                                                                               m
+            Aus Nadelfilz, 60 mm hoch.
+
+            LB-Version: 23                 Geringfügig Geändert                           Vorherige Position: 502025A
+
+50.16       Getuftete Bodenbeläge
+            Die Einstufung der Beläge erfolgt nach folgenden Kriterien:
+                • Anforderungen an Abriebsfestigkeit (z.B. Klasse 21,22,23, 31,32,33)
+                • Luxusklasse (z.B. LC1 = einfach, 2 = gut, 3 = hoch, 4 = luxuriös, 5 = prestige)
+                • Stuhlrolleneignung für Intensive Nutzung
+
+
+            Alle Beläge sind antistatisch, EDV-Klasse III und geeignet für eine Fußbodenheizung (Untergrund vorbereiten in
+            eigener Position).
+             Kommentar:
+             Die Zuordnung der Anforderungen an die Abriebsfestigkeit und Luxusklasse gemäß der ÖNORM EN 1307
+             Frei zu formulieren sind:
+                 • Beläge mit Feuchtraumeignung
+                 • Mischbeläge (Synthetik/Wolle)
+
+            LB-Version: 23                 Geändert
+50.16 01    Getufteter Schlingenpolbelag in Bahnen (Ba.), Polmaterial: 100 Prozent Synthetik (Sy.).
+            Im Positionsstichwort sind die Klasse der Abriebsfestigkeit (K), sowie die Luxusklasse (LC) angegeben.
+
+
+                                                                                                                             Seite 24 / 44
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+50.16 01A   Tuft.Schlinge Ba.Sy.K21/LC1                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 01B   Tuft.Schlinge Ba.Sy.K21/LC2                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 01C   Tuft.Schlinge Ba.Sy.K21/LC3                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 01D   Tuft.Schlinge Ba.Sy.K22/LC1                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 01E   Tuft.Schlinge Ba.Sy.K22/LC2                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 01F   Tuft.Schlinge Ba.Sy.K22/LC3                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 01G   Tuft.Schlinge Ba.Sy.K23/LC1                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 01H   Tuft.Schlinge Ba.Sy.K23/LC2                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 01I   Tuft.Schlinge Ba.Sy.K23/LC3                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 01J   Tuft.Schlinge Ba.Sy.K31/LC1                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 01K   Tuft.Schlinge Ba.Sy.K31/LC2                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 01L   Tuft.Schlinge Ba.Sy.K31/LC3                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 01M   Tuft.Schlinge Ba.Sy.K32/LC1                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 01N   Tuft.Schlinge Ba.Sy.K32/LC2                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 01O   Tuft.Schlinge Ba.Sy.K32/LC3                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 01P   Tuft.Schlinge Ba.Sy.K33/LC1                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 01Q   Tuft.Schlinge Ba.Sy.K33/LC2                                                                                   m²
+            LB-Version: 23
+
+50.16 01R   Tuft.Schlinge Ba.Sy.K33/LC3                                                                                   m²
+            LB-Version: 23
+50.16 02    Getufteter Schlingenpolbelag in Bahnen (Ba.), Polmaterial: 100 Prozent Synthetik (Sy.).
+            Im Positionsstichwort sind die Stuhlrolleneignung (StR), Klasse der Abriebsfestigkeit (K), sowie die Luxusklasse
+            (LC) angegeben.
+
+50.16 02A   Tuft.Schlinge Ba.Sy. StR. K31/LC1                                                                             m²
+            LB-Version: 23              Geändert
+
+                                                                                                                    Seite 25 / 44
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+50.16 02B   Tuft.Schlinge Ba.Sy. StR. K31/LC2                                                                               m²
+            LB-Version: 23               Geändert
+
+50.16 02C   Tuft.Schlinge Ba.Sy. StR. K31/LC3                                                                               m²
+            LB-Version: 23               Geändert
+
+50.16 02D   Tuft.Schlinge Ba.Sy. StR. K32/LC1                                                                               m²
+            LB-Version: 23
+
+50.16 02E   Tuft.Schlinge Ba.Sy. StR. K32/LC2                                                                               m²
+            LB-Version: 23
+
+50.16 02F   Tuft.Schlinge Ba.Sy. StR. K32/LC3                                                                               m²
+            LB-Version: 23
+
+50.16 02G   Tuft.Schlinge Ba.Sy. StR. K33/LC1                                                                               m²
+            LB-Version: 23
+
+50.16 02H   Tuft.Schlinge Ba.Sy. StR. K33/LC2                                                                               m²
+            LB-Version: 23
+
+50.16 02I   Tuft.Schlinge Ba.Sy. StR. K33/LC3                                                                               m²
+            LB-Version: 23
+50.16 03    Getufteter Schlingenpolbelag in Fliesen (Fl.), Polmaterial: 100 Prozent Synthetik (Sy.).
+            Im Positionsstichwort sind die Klasse der Abriebsfestigkeit (K), sowie die Luxusklasse (LC) angegeben.
+
+50.16 03A   Tuft.Schlinge Fl.Sy.K31/LC1                                                                                     m²
+            LB-Version: 23
+
+50.16 03B   Tuft.Schlinge Fl.Sy.K31/LC2                                                                                     m²
+            LB-Version: 23
+
+50.16 03C   Tuft.Schlinge Fl.Sy.K31/LC3                                                                                     m²
+            LB-Version: 23
+
+50.16 03D   Tuft.Schlinge Fl.Sy.K32/LC1                                                                                     m²
+            LB-Version: 23
+
+50.16 03E   Tuft.Schlinge Fl.Sy.K32/LC2                                                                                     m²
+            LB-Version: 23
+
+50.16 03F   Tuft.Schlinge Fl.Sy.K32/LC3                                                                                     m²
+            LB-Version: 23
+
+50.16 03G   Tuft.Schlinge Fl.Sy.K33/LC1                                                                                     m²
+            LB-Version: 23
+
+50.16 03H   Tuft.Schlinge Fl.Sy.K33/LC2                                                                                     m²
+            LB-Version: 23
+
+50.16 03I   Tuft.Schlinge Fl.Sy.K33/LC3                                                                                     m²
+            LB-Version: 23
+50.16 04    Getufteter Schlingenpolbelag in Bahnen (Ba.), Polmaterial: 100 Prozent Schurwolle (Wo.).
+            Im Positionsstichwort sind die Klasse der Abriebsfestigkeit (K), sowie die Luxusklasse (LC) angegeben.
+
+50.16 04A   Tuft.Schlinge Ba.Wo.K21/LC1                                                                                     m²
+            LB-Version: 23               Geändert
+
+50.16 04B   Tuft.Schlinge Ba.Wo.K21/LC2                                                                                     m²
+                                                                                                                      Seite 26 / 44
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+            LB-Version: 23              Geändert
+
+50.16 04C   Tuft.Schlinge Ba.Wo.K21/LC3                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 04D   Tuft.Schlinge Ba.Wo.K22/LC1                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 04E   Tuft.Schlinge Ba.Wo.K22/LC2                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 04F   Tuft.Schlinge Ba.Wo.K22/LC3                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 04G   Tuft.Schlinge Ba.Wo.K23/LC1                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 04H   Tuft.Schlinge Ba.Wo.K23/LC2                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 04I   Tuft.Schlinge Ba.Wo.K23/LC3                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 04J   Tuft.Schlinge Ba.Wo.K31/LC1                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 04K   Tuft.Schlinge Ba.Wo.K31/LC2                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 04L   Tuft.Schlinge Ba.Wo.K31/LC3                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 04M   Tuft.Schlinge Ba.Wo.K32/LC1                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 04N   Tuft.Schlinge Ba.Wo.K32/LC2                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 04O   Tuft.Schlinge Ba.Wo.K32/LC3                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 04P   Tuft.Schlinge Ba.Wo.K33/LC1                                                                                   m²
+            LB-Version: 23              Geändert
+
+50.16 04Q   Tuft.Schlinge Ba.Wo.K33/LC2                                                                                   m²
+            LB-Version: 23
+
+50.16 04R   Tuft.Schlinge Ba.Wo.K33/LC3                                                                                   m²
+            LB-Version: 23
+50.16 05    Getufteter Schlingenpolbelag in Bahnen (Ba.), Polmaterial: 100 Prozent Schurwolle (Wo.).
+            Im Positionsstichwort sind die Stuhlrolleneignung (StR), Klasse der Abriebsfestigkeit (K), sowie die Luxusklasse
+            (LC) angegeben.
+
+50.16 05A   Tuft.Schlinge Ba.Wo. StR. K31/LC1                                                                             m²
+            LB-Version: 23
+
+50.16 05B   Tuft.Schlinge Ba.Wo. StR. K31/LC2                                                                             m²
+            LB-Version: 23
+
+50.16 05C   Tuft.Schlinge Ba.Wo. StR. K31/LC3                                                                             m²
+
+                                                                                                                    Seite 27 / 44
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            LB-Version: 23
+
+50.16 05D   Tuft.Schlinge Ba.Wo. StR. K32/LC1                                                                             m²
+            LB-Version: 23
+
+50.16 05E   Tuft.Schlinge Ba.Wo. StR. K32/LC2                                                                             m²
+            LB-Version: 23
+
+50.16 05F   Tuft.Schlinge Ba.Wo. StR. K32/LC3                                                                             m²
+            LB-Version: 23
+
+50.16 05G   Tuft.Schlinge Ba.Wo. StR. K33/LC1                                                                             m²
+            LB-Version: 23
+
+50.16 05H   Tuft.Schlinge Ba.Wo. StR. K33/LC2                                                                             m²
+            LB-Version: 23
+
+50.16 05I   Tuft.Schlinge Ba.Wo. StR. K33/LC3                                                                             m²
+            LB-Version: 23
+50.16 06    Getufteter Schlingenpolbelag mit Treppeneignung, Polmaterial: 100 Prozent Synthetik (Sy.), auf Stufen verlegt
+            (Untergrundvorbereitung in eigener Position), ohne Unterschied ob Setz- oder Trittstufen, gerade oder spitze
+            Stufen. Spitzstufen werden mit der größten Breite mal größten Länge abgerechnet.
+            Im Positionsstichwort sind die Klasse der Abriebsfestigkeit (K), sowie die Luxusklasse (LC) angegeben.
+
+50.16 06A   Tuft.Schlinge Stufe Sy.K31/LC1                                                                                m²
+            LB-Version: 23              Geändert
+
+50.16 06B   Tuft.Schlinge Stufe Sy.K31/LC2                                                                                m²
+            LB-Version: 23              Geändert
+
+50.16 06C   Tuft.Schlinge Stufe Sy.K31/LC3                                                                                m²
+            LB-Version: 23              Geändert
+
+50.16 06D   Tuft.Schlinge Stufe Sy.K32/LC1                                                                                m²
+            LB-Version: 23              Geändert
+
+50.16 06E   Tuft.Schlinge Stufe Sy.K32/LC2                                                                                m²
+            LB-Version: 23              Geändert
+
+50.16 06F   Tuft.Schlinge Stufe Sy.K32/LC3                                                                                m²
+            LB-Version: 23              Geändert
+
+50.16 06G   Tuft.Schlinge Stufe Sy.K33/LC1                                                                                m²
+            LB-Version: 23              Geändert
+
+50.16 06H   Tuft.Schlinge Stufe Sy.K33/LC2                                                                                m²
+            LB-Version: 23              Geändert
+
+50.16 06I   Tuft.Schlinge Stufe Sy.K33/LC3                                                                                m²
+            LB-Version: 23              Geändert
+50.16 07    Getufteter Schlingenpolbelag mit Treppeneignung, Polmaterial: 100 Prozent Schurwolle (Wo.), auf Stufen
+            verlegt (Untergrundvorbereitung in eigener Position), ohne Unterschied ob Setz- oder Trittstufen, gerade oder
+            spitze Stufen. Spitzstufen werden mit der größten Breite mal größten Länge abgerechnet.
+            Im Positionsstichwort sind die Klasse der Abriebsfestigkeit (K), sowie die Luxusklasse (LC) angegeben.
+
+50.16 07A   Tuft.Schlinge Stufe Wo.K31/LC1                                                                                m²
+            LB-Version: 23
+
+50.16 07B   Tuft.Schlinge Stufe Wo.K31/LC2                                                                                m²
+            LB-Version: 23
+                                                                                                                    Seite 28 / 44
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+50.16 07C   Tuft.Schlinge Stufe Wo.K31/LC3                                                                                 m²
+            LB-Version: 23
+
+50.16 07D   Tuft.Schlinge Stufe Wo.K32/LC1                                                                                 m²
+            LB-Version: 23
+
+50.16 07E   Tuft.Schlinge Stufe Wo.K32/LC2                                                                                 m²
+            LB-Version: 23
+
+50.16 07F   Tuft.Schlinge Stufe Wo.K32/LC3                                                                                 m²
+            LB-Version: 23
+
+50.16 07G   Tuft.Schlinge Stufe Wo.K33/LC1                                                                                 m²
+            LB-Version: 23
+
+50.16 07H   Tuft.Schlinge Stufe Wo.K33/LC2                                                                                 m²
+            LB-Version: 23
+
+50.16 07I   Tuft.Schlinge Stufe Wo.K33/LC3                                                                                 m²
+            LB-Version: 23
+50.16 10    Getufteter Velourbelag in Bahnen (Ba.), Polmaterial: 100 Prozent Synthetik (Sy.).
+            Im Positionsstichwort sind die Klasse der Abriebsfestigkeit (K), sowie die Luxusklasse (LC) angegeben.
+
+50.16 10A   Tuft.Velourbel. Ba.Sy.K21/LC1                                                                                  m²
+            LB-Version: 23
+
+50.16 10B   Tuft.Velourbel. Ba.Sy.K21/LC2                                                                                  m²
+            LB-Version: 23
+
+50.16 10C   Tuft.Velourbel. Ba.Sy.K21/LC3                                                                                  m²
+            LB-Version: 23
+
+50.16 10D   Tuft.Velourbel. Ba.Sy.K22/LC1                                                                                  m²
+            LB-Version: 23              Geändert
+
+50.16 10E   Tuft.Velourbel. Ba.Sy.K22/LC2                                                                                  m²
+            LB-Version: 23              Geändert
+
+50.16 10F   Tuft.Velourbel. Ba.Sy.K22/LC3                                                                                  m²
+            LB-Version: 23              Geändert
+
+50.16 10G   Tuft.Velourbel. Ba.Sy.K23/LC1                                                                                  m²
+            LB-Version: 23              Geändert
+
+50.16 10H   Tuft.Velourbel. Ba.Sy.K23/LC2                                                                                  m²
+            LB-Version: 23              Geändert
+
+50.16 10I   Tuft.Velourbel. Ba.Sy.K23/LC3                                                                                  m²
+            LB-Version: 23              Geändert
+
+50.16 10J   Tuft.Velourbel. Ba.Sy.K31/LC1                                                                                  m²
+            LB-Version: 23
+
+50.16 10K   Tuft.Velourbel. Ba.Sy.K31/LC2                                                                                  m²
+            LB-Version: 23
+
+50.16 10L   Tuft.Velourbel. Ba.Sy.K31/LC3                                                                                  m²
+            LB-Version: 23
+
+
+                                                                                                                     Seite 29 / 44
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+50.16 10M   Tuft.Velourbel. Ba.Sy.K32/LC1                                                                                     m²
+            LB-Version: 23
+
+50.16 10N   Tuft.Velourbel. Ba.Sy.K32/LC2                                                                                     m²
+            LB-Version: 23
+
+50.16 10O   Tuft.Velourbel. Ba.Sy.K32/LC3                                                                                     m²
+            LB-Version: 23
+
+50.16 10P   Tuft.Velourbel. Ba.Sy.K33/LC1                                                                                     m²
+            LB-Version: 23
+
+50.16 10Q   Tuft.Velourbel. Ba.Sy.K33/LC2                                                                                     m²
+            LB-Version: 23
+
+50.16 10R   Tuft.Velourbel. Ba.Sy.K33/LC3                                                                                     m²
+            LB-Version: 23
+50.16 11    Getufteter Velourbelag in Bahnen (Ba.), Polmaterial: 100 Prozent Synthetik (Sy.).
+            Im Positionsstichwort sind die Stuhlrolleneignung (StR), Klasse der Abriebsfestigkeit (K), sowie die Luxusklasse
+            (LC) angegeben.
+
+50.16 11A   Tuft.Velourbel. Ba.Sy. StR. K31/LC1                                                                               m²
+            LB-Version: 23
+
+50.16 11B   Tuft.Velourbel. Ba.Sy. StR. K31/LC2                                                                               m²
+            LB-Version: 23
+
+50.16 11C   Tuft.Velourbel. Ba.Sy. StR. K31/LC3                                                                               m²
+            LB-Version: 23
+
+50.16 11D   Tuft.Velourbel. Ba.Sy. StR. K32/LC1                                                                               m²
+            LB-Version: 23
+
+50.16 11E   Tuft.Velourbel. Ba.Sy. StR. K32/LC2                                                                               m²
+            LB-Version: 23
+
+50.16 11F   Tuft.Velourbel. Ba.Sy. StR. K32/LC3                                                                               m²
+            LB-Version: 23
+
+50.16 11G   Tuft.Velourbel. Ba.Sy. StR. K33/LC1                                                                               m²
+            LB-Version: 23
+
+50.16 11H   Tuft.Velourbel. Ba.Sy. StR. K33/LC2                                                                               m²
+            LB-Version: 23
+
+50.16 11I   Tuft.Velourbel. Ba.Sy. StR. K33/LC3                                                                               m²
+            LB-Version: 23
+50.16 12    Getufteter Velourbelag in Fliesen (Fl.), mit Haftfixierung verlegt, Polmaterial: 100 Prozent Synthetik (Sy.).
+            Im Positionsstichwort sind die Klasse der Abriebsfestigkeit (K), sowie die Luxusklasse (LC) angegeben.
+
+50.16 12A   Tuft.Velourbel. Fl.Sy.K31/LC1                                                                                     m²
+            LB-Version: 23
+
+50.16 12B   Tuft.Velourbel. Fl.Sy.K31/LC2                                                                                     m²
+            LB-Version: 23
+
+50.16 12C   Tuft.Velourbel. Fl.Sy.K31/LC3                                                                                     m²
+            LB-Version: 23
+
+
+                                                                                                                        Seite 30 / 44
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+50.16 12D   Tuft.Velourbel. Fl.Sy.K32/LC1                                                                                m²
+            LB-Version: 23
+
+50.16 12E   Tuft.Velourbel. Fl.Sy.K32/LC2                                                                                m²
+            LB-Version: 23
+
+50.16 12F   Tuft.Velourbel. Fl.Sy.K32/LC3                                                                                m²
+            LB-Version: 23
+
+50.16 12G   Tuft.Velourbel. Fl.Sy.K33/LC1                                                                                m²
+            LB-Version: 23
+
+50.16 12H   Tuft.Velourbel. Fl.Sy.K33/LC2                                                                                m²
+            LB-Version: 23
+
+50.16 12I   Tuft.Velourbel. Fl.Sy.K33/LC3                                                                                m²
+            LB-Version: 23
+50.16 15    Getufteter Velourbelag in Bahnen (Ba.), Polmaterial: 100 Prozent Schurwolle (Wo.).
+            Im Positionsstichwort sind die Klasse der Abriebsfestigkeit (K), sowie die Luxusklasse (LC) angegeben.
+
+50.16 15A   Tuft.Velourbel. Ba.Wo. K21/LC1                                                                               m²
+            LB-Version: 23              Geändert
+
+50.16 15B   Tuft.Velourbel. Ba.Wo. K21/LC2                                                                               m²
+            LB-Version: 23              Geändert
+
+50.16 15C   Tuft.Velourbel. Ba.Wo. K21/LC3                                                                               m²
+            LB-Version: 23              Geändert
+
+50.16 15D   Tuft.Velourbel. Ba.Wo. K22/LC1                                                                               m²
+            LB-Version: 23
+
+50.16 15E   Tuft.Velourbel. Ba.Wo. K22/LC2                                                                               m²
+            LB-Version: 23
+
+50.16 15F   Tuft.Velourbel. Ba.Wo. K22/LC3                                                                               m²
+            LB-Version: 23
+
+50.16 15G   Tuft.Velourbel. Ba.Wo. K23/LC1                                                                               m²
+            LB-Version: 23
+
+50.16 15H   Tuft.Velourbel. Ba.Wo. K23/LC2                                                                               m²
+            LB-Version: 23
+
+50.16 15I   Tuft.Velourbel. Ba.Wo. K23/LC3                                                                               m²
+            LB-Version: 23
+
+50.16 15J   Tuft.Velourbel. Ba.Wo. K31/LC1                                                                               m²
+            LB-Version: 23
+
+50.16 15K   Tuft.Velourbel. Ba.Wo. K31/LC2                                                                               m²
+            LB-Version: 23
+
+50.16 15L   Tuft.Velourbel. Ba.Wo. K31/LC3                                                                               m²
+            LB-Version: 23
+
+50.16 15M   Tuft.Velourbel. Ba.Wo. K32/LC1                                                                               m²
+            LB-Version: 23
+
+
+                                                                                                                   Seite 31 / 44
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+50.16 15N   Tuft.Velourbel. Ba.Wo. K32/LC2                                                                                m²
+            LB-Version: 23
+
+50.16 15O   Tuft.Velourbel. Ba.Wo. K32/LC3                                                                                m²
+            LB-Version: 23
+
+50.16 15P   Tuft.Velourbel. Ba.Wo. K33/LC1                                                                                m²
+            LB-Version: 23
+
+50.16 15Q   Tuft.Velourbel. Ba.Wo. K33/LC2                                                                                m²
+            LB-Version: 23
+
+50.16 15R   Tuft.Velourbel. Ba.Wo. K33/LC3                                                                                m²
+            LB-Version: 23
+50.16 16    Getufteter Velourbelag in Bahnen (Ba.), Polmaterial: 100 Prozent Schurwolle (Wo.).
+            Im Positionsstichwort sind die Stuhlrolleneignung (StR), Klasse der Abriebsfestigkeit (K), sowie die Luxusklasse
+            (LC) angegeben.
+
+50.16 16A   Tuft.Velourbel. Ba.Wo. StR. K31/LC1                                                                           m²
+            LB-Version: 23
+
+50.16 16B   Tuft.Velourbel. Ba.Wo. StR. K31/LC2                                                                           m²
+            LB-Version: 23
+
+50.16 16C   Tuft.Velourbel. Ba.Wo. StR. K31/LC3                                                                           m²
+            LB-Version: 23
+
+50.16 16D   Tuft.Velourbel. Ba.Wo. StR. K32/LC1                                                                           m²
+            LB-Version: 23
+
+50.16 16E   Tuft.Velourbel. Ba.Wo. StR. K32/LC2                                                                           m²
+            LB-Version: 23
+
+50.16 16F   Tuft.Velourbel. Ba.Wo. StR. K32/LC3                                                                           m²
+            LB-Version: 23
+
+50.16 16G   Tuft.Velourbel. Ba.Wo. StR. K33/LC1                                                                           m²
+            LB-Version: 23
+
+50.16 16H   Tuft.Velourbel. Ba.Wo. StR. K33/LC2                                                                           m²
+            LB-Version: 23
+
+50.16 16I   Tuft.Velourbel. Ba.Wo. StR. K33/LC3                                                                           m²
+            LB-Version: 23
+50.16 21    Getufteter Velourbelag mit Treppeneignung, Polmaterial: 100 Prozent Synthetik (Sy.), auf Stufen verlegt
+            (Untergrundvorbereitung in eigener Position), ohne Unterschied ob Setz- oder Trittstufen, gerade oder spitze
+            Stufen. Spitzstufen werden mit der größten Breite mal größten Länge abgerechnet.
+            Im Positionsstichwort sind die Klasse der Abriebsfestigkeit (K), sowie die Luxusklasse (LC) angegeben.
+
+50.16 21A   Tuft.Velourbel. Stufe Sy. K31/LC1                                                                             m²
+            LB-Version: 23
+
+50.16 21B   Tuft.Velourbel. Stufe Sy. K31/LC2                                                                             m²
+            LB-Version: 23
+
+50.16 21C   Tuft.Velourbel. Stufe Sy. K31/LC3                                                                             m²
+            LB-Version: 23
+
+50.16 21D   Tuft.Velourbel. Stufe Sy. K32/LC1                                                                             m²
+                                                                                                                    Seite 32 / 44
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            LB-Version: 23              Geändert
+
+50.16 21E   Tuft.Velourbel. Stufe Sy. K32/LC2                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 21F   Tuft.Velourbel. Stufe Sy. K32/LC3                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 21G   Tuft.Velourbel. Stufe Sy. K32/LC4                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 21H   Tuft.Velourbel. Stufe Sy. K33/LC1                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 21I   Tuft.Velourbel. Stufe Sy. K33/LC2                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 21J   Tuft.Velourbel. Stufe Sy. K33/LC3                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 21K   Tuft.Velourbel. Stufe Sy. K33/LC4                                                                             m²
+            LB-Version: 23
+50.16 22    Getufteter Velourbelag mit Treppeneignung, Polmaterial: 100 Prozent Schurwolle (Wo.), auf Stufen verlegt
+            (Untergrundvorbereitung in eigener Position), ohne Unterschied ob Setz- oder Trittstufen, gerade oder spitze
+            Stufen. Spitzstufen werden mit der größten Breite mal größten Länge abgerechnet.
+            Im Positionsstichwort sind die Klasse der Abriebsfestigkeit (K), sowie die Luxusklasse (LC) angegeben.
+
+50.16 22A   Tuft.Velourbel. Stufe Wo. K31/LC1                                                                             m²
+            LB-Version: 23
+
+50.16 22B   Tuft.Velourbel. Stufe Wo. K31/LC2                                                                             m²
+            LB-Version: 23
+
+50.16 22C   Tuft.Velourbel. Stufe Wo. K31/LC3                                                                             m²
+            LB-Version: 23
+
+50.16 22D   Tuft.Velourbel. Stufe Wo. K32/LC1                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 22E   Tuft.Velourbel. Stufe Wo. K32/LC2                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 22F   Tuft.Velourbel. Stufe Wo. K32/LC3                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 22G   Tuft.Velourbel. Stufe Wo. K32/LC4                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 22H   Tuft.Velourbel. Stufe Wo. K33/LC1                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 22I   Tuft.Velourbel. Stufe Wo. K33/LC2                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 22J   Tuft.Velourbel. Stufe Wo. K33/LC3                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 22K   Tuft.Velourbel. Stufe Wo. K33/LC4                                                                             m²
+            LB-Version: 23
+
+
+                                                                                                                    Seite 33 / 44
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+50.16 26    Getufteter Schnittpol-Velourbelag (Schnitt-Velour) in Bahnen (Ba.), aus 100 Prozent Polyamid (Synth.).
+            Im Positionsstichwort sind die Klasse der Abriebsfestigkeit (K), sowie die Luxusklasse (LC) angegeben.
+
+50.16 26B   Tuft.Schnitt-Velour Ba.Sy.K21/LC2                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 26C   Tuft.Schnitt-Velour Ba.Sy.K21/LC3                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 26E   Tuft.Schnitt-Velour Ba.Sy.K22/LC2                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 26F   Tuft.Schnitt-Velour Ba.Sy.K22/LC3                                                                             m²
+            LB-Version: 23              Geändert
+
+50.16 26H   Tuft.Schnitt-Velour Ba.Sy.K23/LC2                                                                             m²
+            LB-Version: 23
+
+50.16 26I   Tuft.Schnitt-Velour Ba.Sy.K23/LC3                                                                             m²
+            LB-Version: 23
+
+50.16 26K   Tuft.Schnitt-Velour Ba.Sy.K31/LC2                                                                             m²
+            LB-Version: 23
+
+50.16 26L   Tuft.Schnitt-Velour Ba.Sy.K31/LC3                                                                             m²
+            LB-Version: 23
+
+50.16 26M   Tuft.Schnitt-Velour Ba.Sy.K31/LC4                                                                             m²
+            LB-Version: 23
+
+50.16 26N   Tuft.Schnitt-Velour Ba.Sy.K32/LC2                                                                             m²
+            LB-Version: 23
+
+50.16 26O   Tuft.Schnitt-Velour Ba.Sy.K32/LC3                                                                             m²
+            LB-Version: 23
+
+50.16 26P   Tuft.Schnitt-Velour Ba.Sy.K32/LC4                                                                             m²
+            LB-Version: 23
+
+50.16 26Q   Tuft.Schnitt-Velour Ba.Sy.K33/LC2                                                                             m²
+            LB-Version: 23
+
+50.16 26R   Tuft.Schnitt-Velour Ba.Sy.K33/LC3                                                                             m²
+            LB-Version: 23
+
+50.16 26S   Tuft.Schnitt-Velour Ba.Sy.K33/LC4                                                                             m²
+            LB-Version: 23
+50.16 29    Getufteter Schnittpol-Velourbelag (Schnitt-Velour) mit Treppeneignung aus 100 Prozent Polyamid (Synth.) auf
+            Stufen verlegt (Untergrundvorbereitung in eigener Position), ohne Unterschied ob Setz- oder Trittstufen, gerade
+            oder spitze Stufen. Spitzstufen werden mit der größten Breite mal größten Länge abgerechnet.
+            Im Positionsstichwort sind die Klasse der Abriebsfestigkeit (K), sowie die Luxusklasse (LC) angegeben.
+
+50.16 29K   Tuft.Schnitt-Velour Stufe Sy.K31/LC2                                                                          m²
+            LB-Version: 23
+
+50.16 29L   Tuft.Schnitt-Velour Stufe Sy.K31/LC3                                                                          m²
+            LB-Version: 23
+
+50.16 29M   Tuft.Schnitt-Velour Stufe Sy.K31/LC4                                                                          m²
+            LB-Version: 23
+                                                                                                                    Seite 34 / 44
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+50.16 29N   Tuft.Schnitt-Velour Stufe Sy.K32/LC2                                                                           m²
+            LB-Version: 23
+
+50.16 29O   Tuft.Schnitt-Velour Stufe Sy.K32/LC3                                                                           m²
+            LB-Version: 23
+
+50.16 29P   Tuft.Schnitt-Velour Stufe Sy.K32/LC4                                                                           m²
+            LB-Version: 23
+
+50.16 29Q   Tuft.Schnitt-Velour Stufe Sy.K33/LC2                                                                           m²
+            LB-Version: 23
+
+50.16 29R   Tuft.Schnitt-Velour Stufe Sy.K33/LC3                                                                           m²
+            LB-Version: 23
+
+50.16 29S   Tuft.Schnitt-Velour Stufe Sy.K33/LC4                                                                           m²
+            LB-Version: 23
+50.16 35    Aufzahlung (Az) auf die Positionen getuftete Schlingen-, Velour- oder Schlingen-Velourbeläge für eine
+            elektrostatisch leitfähige Ausführung gemäß ÖNORM B 5220 Klasse I.
+
+50.16 35A   Az getufteter Bel.leitfähig                                                                                    m²
+            Einschließlich Leitschicht.
+            Betrifft Belag der Position: ____________
+
+50.16 35B   Az getuft.Bel.leitf+Kupfernetz                                                                                 m²
+            Einschließlich Verlegen eines Kupferleitnetzes aus Bändern 10 x 0,1 mm.
+            Betrifft Positionen: ____________
+            LB-Version: 23                Geändert
+50.16 50    Sockelleiste zweiteilig, bestehend aus Trägerleiste aus PVC hart mit Abdecknase einschließlich eingeklebten
+            Belagsstreifen. Belagsstreifen aus den gleichen Material wie auf den Boden verlegt.
+
+50.16 50B   Sockell.2-teil.Schlinge tuft.                                                                                  m
+            Aus getuftetem Schlingenpolbelag.
+
+            LB-Version: 23                Geringfügig Geändert                     Vorherige Position: 502020B
+
+50.16 50D   Sockell.2-teil.Velour tuft.                                                                                    m
+            Aus getuftetem Velourbelag.
+
+            LB-Version: 23                Geringfügig Geändert                     Vorherige Position: 502020D
+50.16 55    Belagsstreifen als Sockel aus dem gleichen Material wie auf dem Boden verlegt.
+
+50.16 55B   Sockelstreifen Schlinge tuft.                                                                                  m
+            An einer Längsseite geendelt, aus getuftetem Schlingenpolbelag, 60 mm hoch.
+
+            LB-Version: 23                Geringfügig Geändert                     Vorherige Position: 502025B
+
+50.16 55D   Sockelstreifen Velour tuft.                                                                                    m
+            An einer Längsseite geendelt, aus getuftetem Velourbelag, 60 mm hoch.
+
+            LB-Version: 23                Geringfügig Geändert                     Vorherige Position: 502025D
+
+50.20       Bodenbeläge aus PVC
+            In den Positionen wurde die Einstufung nach Klassen gemäß OENORM EN ISO 10874 vorgenommen.
+
+            LB-Version: 23                Geringfügig Geändert
+Änderung:   PVC-Positionen aus 50.13 in 50.25 verschoben.
+
+
+            Anstelle des Satzes: In den Positionen wurde die Einstufung nach Klassen gemäß OENORM EN ISO 13329 vorgenommen,
+            erfolgt die Einstufung nach Klassen gemäß OENORM EN ISO 10874.
+
+
+
+
+                                                                                                                     Seite 35 / 44
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+50.20 01    Bodenbelag (Bodenbel.) aus PVC in Bahnen (Bahn), homogen.
+            Im Positionsstichwort ist der Belag, die Art der Verlegung (Bahn) und die Schichtdicke in mm, sowie die Klasse
+            (Kl.) angegeben.
+
+50.20 01A   Bodenbel. PVC-homog.Bahn 1,5mm Kl.22                                                                           m²
+            LB-Version: 23                   Geringfügig Geändert                  Vorherige Position: 501305A
+
+50.20 01B   Bodenbel. PVC-homog.Bahn 1,5mm Kl.23                                                                           m²
+            LB-Version: 23                   Geringfügig Geändert                  Vorherige Position: 501305B
+
+50.20 01C   Bodenbel. PVC-homog.Bahn 1,5mm Kl.31                                                                           m²
+            LB-Version: 23                   Geringfügig Geändert                  Vorherige Position: 501305C
+
+50.20 01D   Bodenbel. PVC-homog.Bahn 2mm Kl.32 r.                                                                          m²
+            Geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23                   Geringfügig Geändert                  Vorherige Position: 501305D
+
+50.20 01E   Bodenbel. PVC-homog.Bahn 2mm Kl.33 r.                                                                          m²
+            Geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23                   Geringfügig Geändert                  Vorherige Position: 501305E
+
+50.20 01G   Bodenbel. PVC-homog.Bahn 2mm Kl.41 r.                                                                          m²
+            Geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23                   Geringfügig Geändert                  Vorherige Position: 501305G
+
+50.20 01H   Bodenbel. PVC-homog.Bahn 2mm Kl.42 r.                                                                          m²
+            Geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23                   Geringfügig Geändert                  Vorherige Position: 501305H
+50.20 02    Bodenbelag (Bodenbel.) aus PVC in Platten, homogen.
+            Im Positionsstichwort ist der Belag, die Art der Verlegung (Platte) und die Schichtdicke in mm, sowie die Klasse
+            (Kl.) angegeben.
+
+50.20 02A   Bodenbel. PVC-homog.Platte 1,5mm Kl.22                                                                         m²
+            LB-Version: 23                   Geringfügig Geändert                  Vorherige Position: 501305K
+
+50.20 02B   Bodenbel. PVC-homog.Platte 1,5mm Kl.23                                                                         m²
+            LB-Version: 23                   Geringfügig Geändert                  Vorherige Position: 501305L
+
+50.20 02C   Bodenbel. PVC-homog.Platte 1,5mm Kl.31                                                                         m²
+            LB-Version: 23                   Geringfügig Geändert                  Vorherige Position: 501305M
+
+50.20 02D   Bodenbel. PVC-homog.Platte 2mm Kl.32 r.                                                                        m²
+            Geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23                   Geringfügig Geändert                  Vorherige Position: 501305N
+
+50.20 02E   Bodenbel. PVC-homog.Platte 2mm Kl.33 r.                                                                        m²
+            Geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23                   Geringfügig Geändert                  Vorherige Position: 501305O
+
+50.20 02G   Bodenbel. PVC-homog.Platte 2mm Kl.41 r.                                                                        m²
+            Geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23                   Geringfügig Geändert                  Vorherige Position: 501305Q
+
+50.20 02H   Bodenbel. PVC-homog.Platte 2mm Kl.42 r.                                                                        m²
+            Geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23                   Geringfügig Geändert                  Vorherige Position: 501305R
+
+
+
+                                                                                                                     Seite 36 / 44
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+50.20 06    Bodenbelag (Bodenbel.) aus PVC, ableitfähig, homogen, mit leitfähigem Kleber vollflächig geklebt,
+            Ableitwiderstand 10 hoch 4 bis 10 hoch 6 Ohm, geeignet für Stuhlrollen (r).
+            Im Positionsstichwort ist der Belag, die Art der Verlegung (Bahnen (Ba.) oder Platten (Pl.)) und die Schichtdicke
+            in mm, sowie die Klasse (Kl.) angegeben.
+
+50.20 06A   Bodenbel. PVC-leitf.homog.Ba.2mm Kl.34 r                                                                        m²
+            LB-Version: 23               Geringfügig Geändert                       Vorherige Position: 501306A
+
+50.20 06B   Bodenbel. PVC-leitf.homog.Ba.2,5mm Kl.34 r                                                                      m²
+            LB-Version: 23               Geringfügig Geändert                       Vorherige Position: 501306B
+
+50.20 06D   Bodenbel. PVC-leitf.homog.Pl.2mm Kl.34 r                                                                        m²
+            LB-Version: 23               Geringfügig Geändert                       Vorherige Position: 501306D
+50.20 07    Aufzahlung (Az) auf die Positionen Bodenbelag aus PVC, homogen, ableitfähig, für das Verlegen eines
+            Kupferleitnetzes. Der Anschluss des Kupferleitnetzes an eine Erdleitung wird vom Auftraggeber hergestellt.
+
+50.20 07A   Az PVC leitfäh.Kupfernetz                                                                                       m²
+            Aus Bändern 10 x 0,1 mm.
+
+            LB-Version: 23               Geringfügig Geändert                       Vorherige Position: 501307A
+50.20 09    Bodenbelag (Bodenbel.), Nutzschichte aus PVC-homogen, mit Schaumrücken, in Bahnen.
+
+50.20 09A   PVC-homog+Schaumr.1,5+2 Kl.23                                                                                   m²
+            Nutzschichte 1,5 mm, PVC-Schaumrücken 2 mm dick, Klasse 23.
+
+            LB-Version: 23               Geringfügig Geändert                       Vorherige Position: 501309A
+
+50.20 09B   PVC-homog+Schaumr.1,5+2 Kl.32                                                                                   m²
+            Nutzschichte 1,5 mm, PVC-Schaumrücken 2 mm dick, Klasse 32.
+
+            LB-Version: 23               Geringfügig Geändert                       Vorherige Position: 501309B
+
+50.20 09C   PVC-homog+Schaumrück.2+2 Kl.23                                                                                  m²
+            Nutzschichtdicke 2 mm, PVC-Schaumrücken 2 mm dick, Klasse 23.
+
+            LB-Version: 23               Geringfügig Geändert                       Vorherige Position: 501309C
+
+50.20 09D   PVC-homog+Schaumrück.2+2 Kl.32                                                                                  m²
+            Nutzschichtdicke 2 mm, PVC-Schaumrücken 2 mm dick, Klasse 32.
+
+            LB-Version: 23               Geringfügig Geändert                       Vorherige Position: 501309D
+
+50.20 09X   PVC-homog+Schaumrück.                                                                                           m²
+            Nutzschichtdicke ____________ mm
+            PVC-Schaumrücken ____________ mm dick
+            Klasse ____________
+            LB-Version: 23
+50.20 10    Bodenbelag auf Stufen verlegt aus PVC-homogen (Untergrundvorbereitung in eigener Position), ohne
+            Unterschied ob Setz- oder Trittstufen, gerade Stufen oder Stufen für gewendelte Treppen.
+            Stufen werden mit der größten Breite mal größte Länge abgerechnet.
+
+50.20 10A   PVC-homog.Stufe 2mm Kl.33r.                                                                                     m²
+            2 mm dick, Klasse 33, geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23               Geringfügig Geändert                       Vorherige Position: 501310A
+
+50.20 10C   PVC-homog.Stufe 2mm Kl.41r.                                                                                     m²
+            2 mm dick, Klasse 41, geeignet für Stuhlrollen (r.).
+
+            LB-Version: 23               Geringfügig Geändert                       Vorherige Position: 501310C
+50.20 15    Aufzahlung (Az) auf die Positionen Bodenbeläge aus PVC, ohne Unterschied der Art und Dicke für das Fräsen
+            und Verschweißen der Fugen mit Schweißdraht aus PVC in einer Farbe nach Wahl des Auftraggebers.
+
+50.20 15A   Az PVC Fuge schweißen 30x30                                                                                     m²
+                                                                                                                      Seite 37 / 44
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Bei Belägen aus Platten bis 30 x 30 cm. Abgerechnet wird die Fläche es verlegten Bodens.
+
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 501315A
+
+50.20 15B   Az PVC Fuge schweißen 60x60                                                                                    m²
+            Bei Belägen aus Platten über 30 x 30 bis 60 x 60 cm. Abgerechnet wird die Fläche des verlegten Bodens.
+
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 501315B
+
+50.20 15C   Az PVC Fuge schweißen Bahn                                                                                     m²
+            Bei Belägen aus Bahnen entsprechend der angebotenen Bahnbreite.
+            Betrifft Position: ____________
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 501315C
+50.20 16    Aufzahlung (Az) auf die Position PVC-Belag ohne Unterschied der Dicke.
+
+50.20 16A   Az PVC-Belag Hohlkehlenleiste b. 15cm                                                                          m
+            Für die Erschwernis beim Ausbilden der Hohlkehlenleiste, ohne Unterschied der Sockelhöhe (bis 15cm).
+            Abgerechnet wird die Sockellänge.
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 501316A
+
+50.20 16E   Az PVC-Belag als Wandhochzug                                                                                   m
+            Für das Ausbilden des Wandhochzuges als Sockel. Sockelhöhe (bis 15cm). Abgerechnet wird die Sockellänge.
+
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 501316B
+
+50.20 16F   Az PVC-Bel.Innen- oder Außeneck                                                                                Stk
+            Für das Ausbilden der Innen- oder Außenecken, bei Hohlkehlenleisten oder Wandhochzügen.
+
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 501316B
+50.20 17    Aufzahlung (Az) auf die Positionen PVC-Beläge.
+
+50.20 17B   Az PVC-Plattenbel.mehrfarbig                                                                                   m²
+            Bei Plattenbelägen für eine mehrfarbige Ausführung nach Angaben des Auftraggebers. Abgerechnet wird die
+            gesamte mehrfarbig verlegte Fläche eines Raumes.
+            Gemäß Skizze: ____________
+            Betrifft Belag: ____________
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 501317B
+50.20 18    Aufzahlung (Az) auf die Positionen Bodenbelag aus PVC, homogen.
+
+50.20 18B   Az PVC-Belag Markier-streifen                                                                                  m
+            Für das Herstellen von Markierungsstreifen (z.B. Leitsystem) in anderer Farbe des Belages.
+            Markierungsart (Skizze): ____________
+            Betrifft Belag: ____________
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 501318B
+50.20 31    Aufzahlung (Az) auf die Positionen Beläge aus PVC für die Erschwernis bei kleinen Einzelflächen,
+            ausgenommen Stufen. Abgerechnet wird die Summe der Einzelflächen.
+
+50.20 31A   Az PVC-Bel. Fläche b.5m2                                                                                       m²
+            Bis 5 m2.
+
+            LB-Version: 23
+50.20 47    Sockelleisten aus PVC, auf vorbereiteten Untergrund geklebt einschließlich Ausbilden der Außen- und
+            Innenecken.
+            Im Positionsstichwort ist die Art des Sockelmaterials (z.B. vorgefertigt oder aus Bodenbelag geschnitten), sowie
+            die Höhe (h) in mm angegeben.
+
+50.20 47A   PVC Stellsockel h=__________                                                                                   m
+            LB-Version: 23
+50.20 51    Sockelleisten aus PVC weich mit kurzem Schenkel zum Aufsetzen auf den Belag, an die Wand geklebt, in
+            handelsüblichen Farben nach Wahl des Auftraggebers.
+
+50.20 51A   Sockelleiste PVC-weich 50mm                                                                                    m
+                                                                                                                     Seite 38 / 44
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            50 mm hoch.
+
+            LB-Version: 23              Geringfügig Geändert                     Vorherige Position: 502001A
+
+50.20 51B   Sockelleiste PVC-weich 70mm                                                                                  m
+            70 mm hoch.
+
+            LB-Version: 23              Geringfügig Geändert                     Vorherige Position: 502001B
+
+50.20 51C   Sockelleiste PVC-weich 100mm                                                                                 m
+            100 mm hoch.
+
+            LB-Version: 23              Geringfügig Geändert                     Vorherige Position: 502001C
+50.20 53    Winkelsockelleisten aus PVC weich zum stufenlosen Anarbeiten an den Belag. Sockelleiste an Bodenbelag
+            anpassen, Fräsnut herstellen und Sockelleiste mit Bodenbelag fugenlos verschweißen. Vollflächig geklebt, in
+            handelsüblichen Farben nach Wahl des Auftraggebers.
+
+50.20 53A   Winkelsockell.PVC-weich 70mm                                                                                 m
+            70 mm hoch.
+
+            LB-Version: 23              Geringfügig Geändert                     Vorherige Position: 502003A
+
+50.20 53B   Winkelsockell.PVC-weich 80mm                                                                                 m
+            80 mm hoch.
+
+            LB-Version: 23              Geringfügig Geändert                     Vorherige Position: 502003B
+
+50.20 53C   Winkelsockell.PVC-weich 100mm                                                                                m
+            100 mm hoch.
+
+            LB-Version: 23              Geringfügig Geändert                     Vorherige Position: 502003C
+50.20 54    Winkelsockelleisten aus Belagsstreifen von dem gleichen Material wie auf dem Boden verlegt, zum stufenlosen
+            Anarbeiten an den Bodenbelag durch rückseitiges Einfräsen einer Knicknut.
+
+50.20 54A   Winkelsockell.Belag PVC homog.                                                                               m
+            Aus PVC-homogen, 60 mm hoch.
+
+            LB-Version: 23              Geringfügig Geändert                     Vorherige Position: 502004A
+
+50.20 54B   Winkelsockell.Belag PVC heter.                                                                               m
+            Aus PVC-heterogen, 60 mm hoch.
+
+            LB-Version: 23              Geringfügig Geändert                     Vorherige Position: 502004B
+50.20 60    Hohlkehlen aus PVC hart, an die Wand mit Schrauben und Dübeln befestigt.
+
+50.20 60A   Hohlkehle PVC-hart 100/50mm                                                                                  m
+            100 mm hoch, 50 mm breit.
+
+            LB-Version: 23              Geringfügig Geändert                     Vorherige Position: 502007A
+50.20 61    Sockelleiste aus PVC hart, mit Hohlkammern, an die Wand mit Schrauben und Dübeln befestigt.
+
+50.20 61A   Sockell.PVC-hart Hohlkam.60mm                                                                                m
+            60 mm hoch.
+
+            LB-Version: 23              Geringfügig Geändert                     Vorherige Position: 502008A
+
+50.20 61B   Sockell.PVC-hart Hohlkam.70mm                                                                                m
+            70 mm hoch.
+
+            LB-Version: 23              Geringfügig Geändert                     Vorherige Position: 502008B
+50.20 63    Sockelleiste mit Kern aus Holzwerkstoff mit nahtloser PVC-Ummantelung und weicher PVC-Dichtlippe an die
+            Wand mit Schrauben und Dübeln befestigt.
+
+50.20 63A   Sockell.PVC Kern Holzwerkstoff                                                                               m
+            LB-Version: 23              Geringfügig Geändert                     Vorherige Position: 502010A
+
+
+
+                                                                                                                   Seite 39 / 44
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+50.20 70    Stufenbelag mit vorgefertigten Streifen oder Winkeln, mit Trittkante und rückseitiger mehrfacher
+            Rillenausbildung im Bereiche der Knickstelle, zum satten Anlegen im Winkel zwischen Setz- und Trittstufe.
+            Ohne Unterschied der Stufenbreite bis 35 cm und Stufenhöhe bis 20 cm. Abgerechnet wird die Summe der
+            größten Trittstufenlänge.
+
+50.20 70B   Bel.Tritt+Setzstufe PVC-weich                                                                                 m
+            Zum Belegen der Tritt- und Setzstufenflächen, aus PVC weich.
+
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 502203B
+
+50.20 70D   Bel.Trittstufe PVC-weich                                                                                      m
+            Zum Belegen der Trittstufenflächen, aus PVC weich.
+
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 502203D
+50.20 72    Stufenkantenprofile mit Anschluss an den Tritt- und Setzstufenbelag durch Einschieben, Übergriff oder Untergriff
+            des Belages. Abgerechnet wird die Summe der Stufenlängen.
+
+50.20 72A   Stufenkantenprofil PVC-weich                                                                                  m
+            Aus PVC weich.
+
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 502205A
+
+50.20 72B   Stufenkantenprofil PVC-hart                                                                                   m
+            Aus PVC hart.
+
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 502205B
+
+50.20 72D   Stufenkantenprofil Alu                                                                                        m
+            Aus Aluminium.
+
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 502205D
+
+50.20 72E   Stufenkantenprofil Messing                                                                                    m
+            Aus Messing.
+
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 502205E
+50.20 74    Profile für den Abschluss rechtwinkeliger Stufen an der Wandseite.
+
+50.20 74A   Stufenprofile Wand                                                                                            Stk
+            Einzelausmaß: ____________
+
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 502207A
+50.20 76    Profile für den Abschluss rechtwinkeliger Stufen an der Stiegenhausspindelseite.
+
+50.20 76A   Stufenprofil Spindel                                                                                          Stk
+            Einzelausmaß: ____________
+
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 502209A
+50.20 99    Aufzahlung (Az) auf die Positionen Beläge aus PVC für die Erhöhung des Gleitreibungskoeffizienten.
+
+50.20 99X   Az auf erhöhtem Gleitreibungskoeffizient - PVC                                                                m²
+            Erhöhter Gleitreibungskoeffizient (über dem Normalwert (μ>0,44)): ____________
+            Betrifft Positionen:____________
+            LB-Version: 23
+
+50.23       Einbauteile und Sonstiges
+            LB-Version: 23              Geändert
+50.23 01    Abschluss- oder Übergangsschiene zum Aufsetzen, Einschieben oder Einklemmen auf einen Bodenbelag ohne
+            Unterschied der Belagsart und Dicke.
+            Im Positionsstichwort ist das Material angegeben.
+
+50.23 01A   Schiene Alu                                                                                                   m
+            Aus Aluminium natur eloxiert, 30 mm breit.
+
+            LB-Version: 23              Geändert
+                                                                                                                    Seite 40 / 44
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+50.23 01X   Schiene__________                                                                                            m
+            Breite in mm: ____________
+
+            LB-Version: 23               Geändert
+50.23 09    Aufzahlung (Az) auf die Positionen Bodenbeläge.
+             Kommentar:
+             Aufzahlung auf den Lohn für den erhöhten Aufwand bei Deckeln.
+
+50.23 09A   Az Bodenb.Deckel b.0,1m2                                                                                     Stk
+            Für das Belegen von Deckeln bis 0,1 m2 Einzelgröße.
+
+            LB-Version: 23               Geringfügig Geändert
+
+50.23 09B   Az Bodenb.Deckel ü.0,1-0,5m2                                                                                 Stk
+            Für das Belegen von Deckeln über 0,1 bis 0,5 m2 Einzelgröße.
+
+            LB-Version: 23               Geringfügig Geändert
+
+50.23 09C   Az Bodenb.Deckel ü.0,5m2                                                                                     m²
+            Für das Belegen von Deckeln über 0,5 m2 Einzelgröße. Abgerechnet wird die Summe der Einzelflächen.
+
+            LB-Version: 23               Geringfügig Geändert
+50.23 17    Abdecken von Fußböden mit verklebten Fugen. Abgerechnet wird die abgedeckte Fläche.
+
+50.23 17B   Abdecken Boden Pappe                                                                                         m²
+            Mit Packzellulose, Wellpappe oder dergleichen, mit 10 cm Überdeckung.
+
+            LB-Version: 23               Geändert
+
+50.23 17C   Abdeck.Boden PE+Pappe                                                                                        m²
+            Mit PE-Folie, darüber Packzellulose, Wellpappe oder dergleichen.
+
+            LB-Version: 23               Geändert
+
+50.23 17D   Abdeck.Boden Vlies + Pappe                                                                                   m²
+            Mit Vlies, darüber Packzellulose, Wellpappe oder dergleichen.
+
+            LB-Version: 23
+
+50.23 17E   Abdeck.Boden PP Hohlplatten                                                                                  m²
+            Mit PP Hohlplatten und darüber verklebter Packzellulose, Wellpappe oder dergleichen.
+
+            LB-Version: 23
+50.23 18    Entfernen und von der Baustelle Abtransportieren und Entsorgen der eigenen Abdeckung von Fußböden, ohne
+            Unterschied der Art, auf Aufforderung durch den Auftraggeber. In den Einheitspreis ist der gesonderte Einsatz
+            einkalkuliert.
+
+50.23 18A   Entfernen Abdeckung                                                                                          m²
+            LB-Version: 23
+
+50.81       Instandsetzungsarbeiten
+            Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Entsorgen von anfallenden Baurestmassen (z.B. Abtragmaterial, Altmaterial, Material beim Auslösen)
+
+
+            Das Abtragen der Beläge erfolgt ohne Unterschied der Größe der Einzelflächen.
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            LB-Version: 23               Geändert
+50.81 01    Bodenplattenbeläge instandsetzen, ohne Unterschied der Art und Größe vom Auftraggeber beigestellte Platten.
+
+50.81 01A   Bodenplatten ersetzen                                                                                        Stk
+                                                                                                                   Seite 41 / 44
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+            Bodenplatten auslösen, Untergrund reinigen, instandsetzen und wieder verlegen.
+
+            LB-Version: 23               Geringfügig Geändert
+
+50.81 01B   Bodenplatten nachkleben                                                                                         Stk
+            Bodenplatten nachkleben.
+
+            LB-Version: 23               Geringfügig Geändert
+50.81 03    Entfernen des alten Fugenmaterials bei PVC-Belägen, Fugen neu ausfräsen und mit Schweißdraht aus PVC in
+            Farbe nach Wahl des Auftraggebers neu verschweißen.
+
+50.81 03A   Schweißnähte instandsetzen                                                                                      m
+50.81 05    Entfernen des alten Fugenmaterials beim Linoleumbelag, Fugen neu ausfräsen, mit Schmelzdraht schweißen in
+            Farbe des Belages.
+
+50.81 05A   Fugen instands.Linoleum                                                                                         m
+50.81 20    Betonuntergrund vorbereiten, einschließlich Entsorgen der anfallenden Abfallmaterialien.
+
+50.81 20B   Betonuntergrund abstrahlen                                                                                      m²
+            Durch Kugelstrahlen.
+
+            LB-Version: 23               Geändert                                   Vorherige Position: 501120B
+
+50.81 20C   Betonuntergrund fräsen                                                                                          m²
+            LB-Version: 23               Geändert                                   Vorherige Position: 501120C
+50.81 22    Risse in Alt-Estrichen kraftschlüssig schließen, einschließlich Entsorgen der anfallenden Abfallmaterialien.
+            Abgerechnet wird die Risslänge.
+
+50.81 22A   Estrichrisse verdübeln                                                                                          m
+            Durch Verdübeln, Bohrlöcher mit mindestens 25 mm Durchmesser, mindestens 4 Stück/m, ausgefüllt mit
+            Zweikomponenten-Kunstharz.
+            LB-Version: 23               Geändert                                   Vorherige Position: 501122A
+
+50.81 22B   Estrichrisse verbinden                                                                                          m
+            Durch Verbinden (Nähen) mit Stahldrahteinlagen und Verguss mit Zweikomponenten-Kunstharz, mindestens 4
+            Stück/m.
+            LB-Version: 23               Geändert                                   Vorherige Position: 501122B
+
+50.81 22C   Estrichrisse mit Netzen verbinden                                                                               m
+            Durch Einspachteln mit Armierungsgewebe verbinden.
+
+            LB-Version: 23               Geändert                                   Vorherige Position: 501122C
+50.81 23    Flächensanierung von schwingenden oder vorgeschädigten Untergründen mit einer Armierungsmatte
+            überlappend ausgelegt.
+            Vollflächiges Spachteln des Untergrundes mit der stuhlrollengeeigneten, faserverstärkten, leichtverlaufenden
+            und spannungsarm aushärtenden Nivelliermasse in einer Schichtdicke von 7 bis 60 mm.
+            Entlüften der Spachtelmasse mit Stachelwalze.
+            Im Positionsstichwort ist die Schichtdicke der Nivelliermasse in mm angegeben.
+
+50.81 23A   Flächensanierung Estrich- b. 10mm                                                                               m²
+            LB-Version: 23               Geändert                                   Vorherige Position: 501123A
+
+50.81 23B   Flächensanierung Estrich - ü. 10mm - 20mm                                                                       m²
+            LB-Version: 23               Geändert                                   Vorherige Position: 501123B
+
+50.81 23C   Flächensanierung Estrich - ü. 20mm - 30mm                                                                       m²
+            LB-Version: 23               Geändert                                   Vorherige Position: 501123C
+50.81 26    Ausgleichen von Unebenheiten des Untergrundes auf Stufenflächen und Aufsetzen von Spanplatten (Spanpl.).
+            Im Positionsstichwort ist die Dicke der Spanplatte in mm angegeben.
+
+50.81 26A   Ausgl. und Aufs. v. Spanpl. Trittstuf.Beton d=12mm                                                              m²
+            Bei Trittstufen aus Beton.
+                                                                                                                      Seite 42 / 44
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+            LB-Version: 23                  Geändert                                  Vorherige Position: 501126A
+
+50.81 26B   Ausgl. und Aufs. v. Spanpl. Trittstuf.Beton d=16mm                                                                m²
+            Bei Trittstufen aus Beton.
+
+            LB-Version: 23                  Geändert                                  Vorherige Position: 501126B
+
+50.81 26C   Ausgl. und Aufs. v. Spanpl. Trittstuf.Beton d=19mm                                                                m²
+            Bei Trittstufen aus Beton.
+
+            LB-Version: 23                  Geändert                                  Vorherige Position: 501126C
+
+50.81 26D   Ausgl. und Aufs. v. Spanpl. Trittstuf.Beton d=__________                                                          m²
+            Bei Trittstufen aus Beton.
+
+            LB-Version: 23                  Geändert                                  Vorherige Position: 501126D
+
+50.90       Regieleistungen
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen.
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+            LB-Version: 23                  Geändert
+50.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+50.90 00C   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+50.90 01    Regiestunden.
+
+50.90 01A   Regiestunde Facharbeiter                                                                                          h
+            Für Facharbeiter.
+
+50.90 01B   Regiestunde Hilfsarbeiter                                                                                         h
+            Für Hilfsarbeiter.
+
+
+                                                                                                                        Seite 43 / 44
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                   EH
+
+50.90 51   Materiallieferungen f.Regieleistungen                                                                       VE
+           Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+           ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+           Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+           nach ÖNORM B 2061).
+           Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+           berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+           unberücksichtigt.
+           Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+           Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+           eingesetzt.
+           1 VE = 1 EURO
+           Beispiel:
+           angebotener Prozentsatz: +12%
+           als Einheitspreis einzusetzen: 1,12
+           LB-Version: 23              Geringfügig Geändert
+
+
+
+
+                                                                                                                 Seite 44 / 44
+                                                                                            ib-data GmbH, Softwareentwicklung
+

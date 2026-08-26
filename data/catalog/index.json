@@ -1,0 +1,301 @@
+{
+  "catalog": "LB-HB-023",
+  "source": "https://www.bmwet.gv.at/Services/Bauservice/LB-HB-023-PDF.html",
+  "lgs": [
+    {
+      "lg": "00",
+      "title": "Allgemeine Bestimmungen",
+      "position_count": 114
+    },
+    {
+      "lg": "01",
+      "title": "Baustellengemeinkosten",
+      "position_count": 139
+    },
+    {
+      "lg": "02",
+      "title": "Abbruch",
+      "position_count": 847
+    },
+    {
+      "lg": "03",
+      "title": "Roden, Baugrube, Sicherungen und Tiefgründungen",
+      "position_count": 293
+    },
+    {
+      "lg": "04",
+      "title": "Gerüste",
+      "position_count": 47
+    },
+    {
+      "lg": "06",
+      "title": "Aufschließung, Infrastruktur",
+      "position_count": 393
+    },
+    {
+      "lg": "07",
+      "title": "Beton- und Stahlbetonarbeiten",
+      "position_count": 454
+    },
+    {
+      "lg": "08",
+      "title": "Mauerarbeiten",
+      "position_count": 232
+    },
+    {
+      "lg": "09",
+      "title": "Versetzarbeiten",
+      "position_count": 100
+    },
+    {
+      "lg": "10",
+      "title": "Putz",
+      "position_count": 309
+    },
+    {
+      "lg": "11",
+      "title": "Estricharbeiten",
+      "position_count": 125
+    },
+    {
+      "lg": "12",
+      "title": "Abdichtungsarbeiten",
+      "position_count": 56
+    },
+    {
+      "lg": "13",
+      "title": "Außenanlagen",
+      "position_count": 489
+    },
+    {
+      "lg": "14",
+      "title": "Besondere Instandsetzungsarbeiten",
+      "position_count": 315
+    },
+    {
+      "lg": "15",
+      "title": "Schlitze, Durchbrüche, Sägen und Bohren",
+      "position_count": 105
+    },
+    {
+      "lg": "16",
+      "title": "Fertigteile",
+      "position_count": 161
+    },
+    {
+      "lg": "18",
+      "title": "Winterbauarbeiten",
+      "position_count": 37
+    },
+    {
+      "lg": "19",
+      "title": "Baureinigung",
+      "position_count": 10
+    },
+    {
+      "lg": "20",
+      "title": "Regieleistungen",
+      "position_count": 89
+    },
+    {
+      "lg": "21",
+      "title": "Dachabdichtungsarbeiten",
+      "position_count": 683
+    },
+    {
+      "lg": "22",
+      "title": "Dachdeckerarbeiten",
+      "position_count": 372
+    },
+    {
+      "lg": "23",
+      "title": "Bauspenglerarbeiten",
+      "position_count": 1989
+    },
+    {
+      "lg": "24",
+      "title": "Fliesen- und Plattenlegearbeiten",
+      "position_count": 115
+    },
+    {
+      "lg": "25",
+      "title": "Sicherheits- und Schutzmaßnahmen",
+      "position_count": 91
+    },
+    {
+      "lg": "27",
+      "title": "Terrazzoarbeiten",
+      "position_count": 129
+    },
+    {
+      "lg": "28",
+      "title": "Natursteinarbeiten",
+      "position_count": 342
+    },
+    {
+      "lg": "29",
+      "title": "Kunststeinarbeiten",
+      "position_count": 290
+    },
+    {
+      "lg": "30",
+      "title": "Schließanlagen",
+      "position_count": 203
+    },
+    {
+      "lg": "31",
+      "title": "Metallbauarbeiten",
+      "position_count": 371
+    },
+    {
+      "lg": "32",
+      "title": "Konstruktiver Stahlbau",
+      "position_count": 284
+    },
+    {
+      "lg": "34",
+      "title": "Rohrrahmenelemente mit Drehtüren",
+      "position_count": 90
+    },
+    {
+      "lg": "35",
+      "title": "System-Abgasanlagen",
+      "position_count": 780
+    },
+    {
+      "lg": "36",
+      "title": "Holzbau",
+      "position_count": 1103
+    },
+    {
+      "lg": "37",
+      "title": "Tischlerarbeiten",
+      "position_count": 134
+    },
+    {
+      "lg": "38",
+      "title": "Holzfußböden",
+      "position_count": 762
+    },
+    {
+      "lg": "39",
+      "title": "Trockenbauarbeiten",
+      "position_count": 511
+    },
+    {
+      "lg": "42",
+      "title": "Glaserarbeiten",
+      "position_count": 854
+    },
+    {
+      "lg": "43",
+      "title": "Türsysteme (Elemente)",
+      "position_count": 81
+    },
+    {
+      "lg": "44",
+      "title": "Wärmedämmverbundsysteme (WDVS)",
+      "position_count": 273
+    },
+    {
+      "lg": "47",
+      "title": "Tapetenarbeiten",
+      "position_count": 72
+    },
+    {
+      "lg": "48",
+      "title": "Beschichtungen auf verschiedenen Materialien",
+      "position_count": 207
+    },
+    {
+      "lg": "49",
+      "title": "Beschichtungen von Betonböden",
+      "position_count": 55
+    },
+    {
+      "lg": "50",
+      "title": "Bodenbeläge",
+      "position_count": 495
+    },
+    {
+      "lg": "55",
+      "title": "Sanierung von Fenstern und Türen aus Holz",
+      "position_count": 295
+    },
+    {
+      "lg": "56",
+      "title": "Dachflächenfenster, Lichtkuppeln, Lichtbänder",
+      "position_count": 1815
+    },
+    {
+      "lg": "57",
+      "title": "Bewegliche Abschlüsse von Fenster/Türen",
+      "position_count": 119
+    },
+    {
+      "lg": "58",
+      "title": "Gartengestaltung und Landschaftsbau",
+      "position_count": 623
+    },
+    {
+      "lg": "59",
+      "title": "Sportanlagen im Freien",
+      "position_count": 600
+    },
+    {
+      "lg": "61",
+      "title": "Sporthallenausbau",
+      "position_count": 272
+    },
+    {
+      "lg": "65",
+      "title": "Toranlagen in Gebäuden",
+      "position_count": 586
+    },
+    {
+      "lg": "67",
+      "title": "Pfosten-Riegel-Fassaden aus Aluminium",
+      "position_count": 71
+    },
+    {
+      "lg": "68",
+      "title": "Vorgehängte hinterlüftete Fassaden",
+      "position_count": 171
+    },
+    {
+      "lg": "69",
+      "title": "Aufsatzkonstruktionen für Fassaden",
+      "position_count": 48
+    },
+    {
+      "lg": "71",
+      "title": "Fenster aus Holz",
+      "position_count": 56
+    },
+    {
+      "lg": "72",
+      "title": "Fenster aus Aluminium",
+      "position_count": 59
+    },
+    {
+      "lg": "73",
+      "title": "Fenster aus Kunststoff",
+      "position_count": 59
+    },
+    {
+      "lg": "74",
+      "title": "Fenster aus Holz-Aluminium",
+      "position_count": 59
+    },
+    {
+      "lg": "75",
+      "title": "Fenster aus Kunststoff-Aluminium",
+      "position_count": 59
+    },
+    {
+      "lg": "80",
+      "title": "Injektionsarbeiten",
+      "position_count": 155
+    }
+  ]
+}

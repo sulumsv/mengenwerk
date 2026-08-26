@@ -1,0 +1,3816 @@
+{
+  "lg": "38",
+  "title": "Holzfußböden",
+  "positions": [
+    {
+      "code": "38.00.01B",
+      "text": "Fußboden m.Fußbodenheizung",
+      "unit": ""
+    },
+    {
+      "code": "38.00.05C",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "38.01.20B",
+      "text": "Betonuntergrund abstrahlen",
+      "unit": "m²"
+    },
+    {
+      "code": "38.01.21A",
+      "text": "Estrich schleifen",
+      "unit": "m²"
+    },
+    {
+      "code": "38.01.22A",
+      "text": "Estrichrisse verdübeln                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "38.01.22B",
+      "text": "Estrichrisse verbinden                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "38.01.24A",
+      "text": "Estrich ausgleichen d.Rakeln ü.2-5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.01.27B",
+      "text": "Voranstrich auf Zementestrich",
+      "unit": "m²"
+    },
+    {
+      "code": "38.01.27E",
+      "text": "Voranstrich auf Calciumsulfat-Estrich",
+      "unit": "m²"
+    },
+    {
+      "code": "38.01.31A",
+      "text": "Anspachteln bei Fliesen-u.Plattenbelägen 2-5mm                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "38.01.41A",
+      "text": "Feuchtigkeitsbremse bei erhöhter Restfeuchte Zementestrich",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.02A",
+      "text": "Beschüttung Hütten-Leichtbaustoff f.Flächenbelastung",
+      "unit": "m³"
+    },
+    {
+      "code": "38.02.03A",
+      "text": "Wärmedämmung MW-WL 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.03B",
+      "text": "Wärmedämmung MW-WL 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.03C",
+      "text": "Wärmedämmung MW-WL 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.03D",
+      "text": "Wärmedämmung MW-WL 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.04A",
+      "text": "Trittschalldämmung MW-T 15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.04B",
+      "text": "Trittschalldämmung MW-T 20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.04C",
+      "text": "Trittschalldämmung MW-T 25mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.04D",
+      "text": "Trittschalldämmung MW-T 30mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.06A",
+      "text": "Wärmedämmung Perlit",
+      "unit": "m³"
+    },
+    {
+      "code": "38.02.09A",
+      "text": "Abdecken PE-Folie 0,2mm dick",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.11A",
+      "text": "Polsterhölzer+Blindboden parallel verlegt",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.11B",
+      "text": "Polsterhölzer+Streublindboden parallel verlegt",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.11C",
+      "text": "Polsterhölzer+Blindboden diagonal verlegt",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.11D",
+      "text": "Polsterhölzer+Streublindboden parallel verlegt+Pl.P3",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.11E",
+      "text": "Polsterhölzer+Platten P5 1fach verlegt",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.11F",
+      "text": "Polsterhölzer+Platten P5 2fach verlegt",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.11H",
+      "text": "Az Polsterhölzer f.Höhenausgleich b.5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.21A",
+      "text": "Wärmedämmung PU-DD-100 20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.21B",
+      "text": "Wärmedämmung PU-DD-100 30mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.21C",
+      "text": "Wärmedämmung PU-DD-100 40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.21D",
+      "text": "Wärmedämmung PU-DD-100 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.21E",
+      "text": "Wärmedämmung PU-DD-100 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.21F",
+      "text": "Wärmedämmung PU-DD-100 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.02.21G",
+      "text": "Wärmedämmung PU-DD-100 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.03.01A",
+      "text": "Elektronischer Messbaustein",
+      "unit": "Stk"
+    },
+    {
+      "code": "38.11.01A",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Eiche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.01B",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Eiche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.01C",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Eiche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.01D",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Eiche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.01E",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Eiche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.01F",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Eiche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.02A",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Esche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.02B",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Esche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.02C",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Esche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.02D",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Esche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.02E",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Esche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.02F",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Esche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.03A",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Ahorn/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.03B",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Ahorn/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.03C",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Ahorn/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.03D",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Ahorn/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.03E",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Ahorn/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.03F",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Ahorn/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.04A",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.04B",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.04C",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.04D",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.04E",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.04F",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.04G",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche ged./Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.04H",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche ged./Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.04I",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche ged./Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.04J",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche ged./Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.04K",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche ged./Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.11.04L",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 2,5-3 Buche ged./Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.01A",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Eiche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.01B",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Eiche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.01C",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Eiche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.01D",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Eiche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.01E",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Eiche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.01F",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Eiche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.02A",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Esche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.02B",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Esche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.02C",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Esche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.02D",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Esche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.02E",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Esche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.02F",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Esche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.03A",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Ahorn/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.03B",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Ahorn/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.03C",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Ahorn/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.03D",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Ahorn/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.03E",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Ahorn/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.03F",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Ahorn/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.04A",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.04B",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.04C",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.04D",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.04E",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.04F",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.04G",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche ged./Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.04H",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche ged./Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.04I",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche ged./Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.04J",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche ged./Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.04K",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche ged./Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.12.04L",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 3,4-4 Buche ged./Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.01A",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Eiche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.01B",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Eiche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.01C",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Eiche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.01D",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Eiche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.01E",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Eiche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.01F",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Eiche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.02A",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Esche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.02B",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Esche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.02C",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Esche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.02D",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Esche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.02E",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Esche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.02F",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Esche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.03A",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Ahorn/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.03B",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Ahorn/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.03C",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Ahorn/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.03D",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Ahorn/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.03E",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Ahorn/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.03F",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Ahorn/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.04A",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.04B",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.04C",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.04D",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.04E",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.04F",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.04G",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche ged./Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.04H",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche ged./Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.04I",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche ged./Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.04J",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche ged./Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.04K",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche ged./Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.13.04L",
+      "text": "MS-Parkett verkl.Schiffsb.Optik 5,4-6 Buche ged./Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.01A",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Eiche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.01B",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Eiche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.01C",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Eiche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.01D",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Eiche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.01E",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Eiche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.01F",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Eiche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.02A",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Esche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.02B",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Esche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.02C",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Esche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.02D",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Esche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.02E",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Esche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.02F",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Esche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.03A",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Ahorn/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.03B",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Ahorn/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.03C",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Ahorn/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.03D",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Ahorn/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.03E",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Ahorn/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.03F",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Ahorn/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.04A",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.04B",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.04C",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.04D",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.04E",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.04F",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.04G",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche ged./Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.04H",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche ged./Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.04I",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche ged./Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.04J",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche ged./Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.04K",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche ged./Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.14.04L",
+      "text": "MS-Parkett schw.Schiffsb.Optik 2,5-3 Buche ged./Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.01A",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Eiche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.01B",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Eiche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.01C",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Eiche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.01D",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Eiche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.01E",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Eiche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.01F",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Eiche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.02A",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Esche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.02B",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Esche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.02C",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Esche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.02D",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Esche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.02E",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Esche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.02F",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Esche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.03A",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Ahorn/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.03B",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Ahorn/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.03C",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Ahorn/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.03D",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Ahorn/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.03E",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Ahorn/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.03F",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Ahorn/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.04A",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.04B",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.04C",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.04D",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.04E",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.04F",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.04G",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche ged./Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.04H",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche ged./Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.04I",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche ged./Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.04J",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche ged./Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.04K",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche ged./Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.15.04L",
+      "text": "MS-Parkett schw.Schiffsb.Optik 3,4-4 Buche ged./Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.01A",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Eiche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.01B",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Eiche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.01C",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Eiche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.01D",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Eiche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.01E",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Eiche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.01F",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Eiche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.02A",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Esche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.02B",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Esche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.02C",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Esche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.02D",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Esche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.02E",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Esche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.02F",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Esche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.03A",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Ahorn/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.03B",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Ahorn/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.03C",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Ahorn/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.03D",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Ahorn/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.03E",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Ahorn/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.03F",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Ahorn/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.04A",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Buche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.04B",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Buche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.04C",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Buche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.04D",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Buche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.04E",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Buche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.04F",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Buche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.04G",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Buche ged./Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.04H",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Buche ged./Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.04I",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Buche ged./Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.04J",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Buche ged./Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.04K",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Buche ged./Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.04L",
+      "text": "MS-Parkett verkl.Stab-Optik 2,5-3 Buche ged./Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.11A",
+      "text": "Az MS-Parkett verkl.Stab-Optik 2,5-3 f.geordneten Verband",
+      "unit": "m²"
+    },
+    {
+      "code": "38.21.11B",
+      "text": "Az MS-Parkett verkl.Stab-Optik 2,5-3 f.Verlegung Fischgrät",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.01A",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Eiche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.01B",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Eiche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.01C",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Eiche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.01D",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Eiche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.01E",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Eiche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.01F",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Eiche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.02A",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Esche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.02B",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Esche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.02C",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Esche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.02D",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Esche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.02E",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Esche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.02F",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Esche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.03A",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Ahorn/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.03B",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Ahorn/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.03C",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Ahorn/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.03D",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Ahorn/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.03E",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Ahorn/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.03F",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Ahorn/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.04A",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Buche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.04B",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Buche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.04C",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Buche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.04D",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Buche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.04E",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Buche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.04F",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Buche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.04G",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Buche ged./Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.04H",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Buche ged./Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.04I",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Buche ged./Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.04J",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Buche ged./Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.04K",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Buche ged./Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.04L",
+      "text": "MS-Parkett verkl.Stab-Optik 3,4-4 Buche ged./Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.11A",
+      "text": "Az MS-Parkett verkl.Stab-Optik 3,4-4 f.geordneten Verband",
+      "unit": "m²"
+    },
+    {
+      "code": "38.22.11B",
+      "text": "Az MS-Parkett verkl.Stab-Optik 3,4-4 f.Verlegung Fischgrät",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.01A",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Eiche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.01B",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Eiche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.01C",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Eiche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.01D",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Eiche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.01E",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Eiche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.01F",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Eiche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.02A",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Esche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.02B",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Esche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.02C",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Esche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.02D",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Esche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.02E",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Esche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.02F",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Esche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.03A",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Ahorn/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.03B",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Ahorn/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.03C",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Ahorn/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.03D",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Ahorn/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.03E",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Ahorn/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.03F",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Ahorn/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.04A",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Buche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.04B",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Buche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.04C",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Buche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.04D",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Buche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.04E",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Buche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.04F",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Buche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.04G",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Buche ged./Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.04H",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Buche ged./Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.04I",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Buche ged./Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.04J",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Buche ged./Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.04K",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Buche ged./Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.04L",
+      "text": "MS-Parkett verkl.Stab-Optik 5,4-6 Buche ged./Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.11A",
+      "text": "Az MS-Parkett verkl.Stab-Optik 5,4-6 f.geordneten Verband",
+      "unit": "m²"
+    },
+    {
+      "code": "38.23.11B",
+      "text": "Az MS-Parkett verkl.Stab-Optik 5,4-6 f.Verlegung Fischgrät",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.01A",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Eiche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.01B",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Eiche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.01C",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Eiche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.01D",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Eiche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.01E",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Eiche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.01F",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Eiche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.02A",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Esche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.02B",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Esche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.02C",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Esche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.02D",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Esche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.02E",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Esche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.02F",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Esche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.03A",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Ahorn/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.03B",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Ahorn/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.03C",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Ahorn/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.03D",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Ahorn/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.03E",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Ahorn/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.03F",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Ahorn/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.04A",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.04B",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.04C",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.04D",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.04E",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.04F",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.04G",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche ged./Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.04H",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche ged./Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.04I",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche ged./Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.04J",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche ged./Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.04K",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche ged./Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.29.04L",
+      "text": "MS-Parkett verkl.Streif.-Optik 4,2-4,7 Buche ged./Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.01A",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Eiche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.01B",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Eiche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.01C",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Eiche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.01D",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Eiche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.01E",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Eiche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.01F",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Eiche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.02A",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Esche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.02B",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Esche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.02C",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Esche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.02D",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Esche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.02E",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Esche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.02F",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Esche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.03A",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Ahorn/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.03B",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Ahorn/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.03C",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Ahorn/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.03D",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Ahorn/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.03E",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Ahorn/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.03F",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Ahorn/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.04A",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.04B",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.04C",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.04D",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.04E",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.04F",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.04G",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche ged./Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.04H",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche ged./Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.04I",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche ged./Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.04J",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche ged./Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.04K",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche ged./Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.31.04L",
+      "text": "MS-Parkett verkl.Langriem.-Optik 3,4-4 Buche ged./Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.01A",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Eiche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.01B",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Eiche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.01C",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Eiche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.01D",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Eiche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.01E",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Eiche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.01F",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Eiche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.02A",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Esche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.02B",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Esche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.02C",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Esche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.02D",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Esche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.02E",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Esche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.02F",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Esche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.03A",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Ahorn/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.03B",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Ahorn/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.03C",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Ahorn/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.03D",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Ahorn/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.03E",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Ahorn/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.03F",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Ahorn/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.04A",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.04B",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.04C",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.04D",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.04E",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.04F",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.04G",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche ged./Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.04H",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche ged./Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.04I",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche ged./Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.04J",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche ged./Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.04K",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche ged./Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.32.04L",
+      "text": "MS-Parkett verkl.Langriem.-Optik 5,4-6 Buche ged./Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.01A",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Eiche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.01B",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Eiche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.01C",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Eiche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.01D",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Eiche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.01E",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Eiche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.01F",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Eiche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.02A",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Esche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.02B",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Esche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.02C",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Esche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.02D",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Esche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.02E",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Esche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.02F",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Esche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.03A",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Ahorn/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.03B",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Ahorn/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.03C",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Ahorn/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.03D",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Ahorn/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.03E",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Ahorn/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.03F",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Ahorn/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.04A",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.04B",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.04C",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.04D",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.04E",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.04F",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.04G",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche ged./Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.04H",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche ged./Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.04I",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche ged./Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.04J",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche ged./Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.04K",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche ged./Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.04L",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Buche ged./Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.05A",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Fichte/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.05B",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Fichte/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.05C",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Fichte/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.05D",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Fichte/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.05E",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Fichte/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.05F",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Fichte/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.06A",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Lärche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.06B",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Lärche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.06C",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Lärche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.06D",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Lärche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.06E",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Lärche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.35.06F",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 2,5-3 Lärche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.01A",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Eiche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.01B",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Eiche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.01C",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Eiche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.01D",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Eiche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.01E",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Eiche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.01F",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Eiche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.02A",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Esche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.02B",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Esche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.02C",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Esche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.02D",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Esche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.02E",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Esche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.02F",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Esche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.03A",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Ahorn/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.03B",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Ahorn/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.03C",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Ahorn/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.03D",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Ahorn/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.03E",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Ahorn/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.03F",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Ahorn/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.04A",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.04B",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.04C",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.04D",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.04E",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.04F",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.04G",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche ged./Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.04H",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche ged./Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.04I",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche ged./Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.04J",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche ged./Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.04K",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche ged./Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.04L",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Buche ged./Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.05A",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Fichte/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.05B",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Fichte/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.05C",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Fichte/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.05D",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Fichte/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.05E",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Fichte/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.05F",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Fichte/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.06A",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Lärche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.06B",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Lärche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.06C",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Lärche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.06D",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Lärche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.06E",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Lärche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.36.06F",
+      "text": "MS-Parkett verkl.Landhaus.-Optik 3,4-4 Lärche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.01A",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Eiche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.01B",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Eiche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.01C",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Eiche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.01D",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Eiche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.01E",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Eiche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.01F",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Eiche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.02A",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Esche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.02B",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Esche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.02C",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Esche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.02D",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Esche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.02E",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Esche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.02F",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Esche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.03A",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Ahorn/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.03B",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Ahorn/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.03C",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Ahorn/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.03D",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Ahorn/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.03E",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Ahorn/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.03F",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Ahorn/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.04A",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.04B",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.04C",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.04D",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.04E",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.04F",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.04G",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche ged./Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.04H",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche ged./Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.04I",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche ged./Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.04J",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche ged./Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.04K",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche ged./Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.04L",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Buche ged./Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.05A",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Fichte/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.05B",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Fichte/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.05C",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Fichte/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.05D",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Fichte/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.05E",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Fichte/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.05F",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Fichte/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.06A",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Lärche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.06B",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Lärche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.06C",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Lärche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.06D",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Lärche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.06E",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Lärche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.37.06F",
+      "text": "MS-Parkett schw.Landhaus.-Optik 2,5-3 Lärche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.01A",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Eiche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.01B",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Eiche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.01C",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Eiche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.01D",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Eiche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.01E",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Eiche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.01F",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Eiche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.02A",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Esche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.02B",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Esche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.02C",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Esche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.02D",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Esche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.02E",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Esche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.02F",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Esche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.03A",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Ahorn/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.03B",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Ahorn/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.03C",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Ahorn/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.03D",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Ahorn/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.03E",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Ahorn/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.03F",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Ahorn/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.04A",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.04B",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.04C",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.04D",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.04E",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.04F",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.04G",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche ged./Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.04H",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche ged./Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.04I",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche ged./Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.04J",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche ged./Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.04K",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche ged./Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.04L",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Buche ged./Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.05A",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Fichte/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.05B",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Fichte/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.05C",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Fichte/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.05D",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Fichte/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.05E",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Fichte/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.05F",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Fichte/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.06A",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Lärche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.06B",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Lärche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.06C",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Lärche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.06D",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Lärche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.06E",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Lärche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.38.06F",
+      "text": "MS-Parkett schw.Landhaus.-Optik 3,4-4 Lärche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.01A",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Eiche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.01B",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Eiche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.01C",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Eiche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.01D",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Eiche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.01E",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Eiche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.01F",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Eiche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.02A",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Esche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.02B",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Esche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.02C",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Esche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.02D",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Esche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.02E",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Esche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.02F",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Esche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.03A",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Ahorn/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.03B",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Ahorn/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.03C",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Ahorn/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.03D",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Ahorn/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.03E",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Ahorn/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.03F",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Ahorn/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.04A",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.04B",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.04C",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.04D",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.04E",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.04F",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.04G",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche ged./Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.04H",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche ged./Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.04I",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche ged./Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.04J",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche ged./Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.04K",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche ged./Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.04L",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Buche ged./Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.05A",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Fichte/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.05B",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Fichte/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.05C",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Fichte/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.05D",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Fichte/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.05E",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Fichte/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.05F",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Fichte/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.06A",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Lärche/Kreis wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.06B",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Lärche/Kreis wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.06C",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Lärche/Dreieck wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.06D",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Lärche/Dreieck wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.06E",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Lärche/Quadrat wl",
+      "unit": "m²"
+    },
+    {
+      "code": "38.39.06F",
+      "text": "MS-Parkett gen.Landhaus.-Optik 3,4-4 Lärche/Quadrat wö",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.01A",
+      "text": "Mosaikparkett massiv verkl.8mm Eiche/Kreis",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.01B",
+      "text": "Mosaikparkett massiv verkl.8mm Eiche/Dreieck",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.01C",
+      "text": "Mosaikparkett massiv verkl.8mm Eiche/Quadrat",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.02A",
+      "text": "Mosaikparkett massiv verkl.8mm Esche/Kreis",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.02B",
+      "text": "Mosaikparkett massiv verkl.8mm Esche/Dreieck",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.02C",
+      "text": "Mosaikparkett massiv verkl.8mm Esche/Quadrat",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.03A",
+      "text": "Mosaikparkett massiv verkl.8mm Ahorn/Kreis",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.03B",
+      "text": "Mosaikparkett massiv verkl.8mm Ahorn/Dreieck",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.03C",
+      "text": "Mosaikparkett massiv verkl.8mm Ahorn/Quadrat",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.04A",
+      "text": "Mosaikparkett massiv verkl.8mm Buche/Kreis",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.04B",
+      "text": "Mosaikparkett massiv verkl.8mm Buche/Dreieck",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.04C",
+      "text": "Mosaikparkett massiv verkl.8mm Buche/Quadrat",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.04D",
+      "text": "Mosaikparkett massiv verkl.8mm Buche ged./Kreis",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.04E",
+      "text": "Mosaikparkett massiv verkl.8mm Buche ged./Dreieck",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.04F",
+      "text": "Mosaikparkett massiv verkl.8mm Buche ged./Quadrat",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.11A",
+      "text": "Az Mosaikparkett massiv verkl.8mm f.Verlegung parallel",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.11B",
+      "text": "Az Mosaikparkett massiv verkl.8mm f.Verlegung engl.Verband",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.11C",
+      "text": "Az Mosaikparkett massiv verkl.8mm f.Verlegung Fischgrät",
+      "unit": "m²"
+    },
+    {
+      "code": "38.41.11D",
+      "text": "Az Mosaikparkett massiv verkl.8mm f.Verlegung diagonal",
+      "unit": "m²"
+    },
+    {
+      "code": "38.43.01A",
+      "text": "Hochkantparkett massiv verklebt 8-10mm Eiche",
+      "unit": "m²"
+    },
+    {
+      "code": "38.43.01B",
+      "text": "Hochkantparkett massiv verklebt 8-10mm Esche",
+      "unit": "m²"
+    },
+    {
+      "code": "38.43.01C",
+      "text": "Hochkantparkett massiv verklebt 8-10mm Ahorn",
+      "unit": "m²"
+    },
+    {
+      "code": "38.43.01D",
+      "text": "Hochkantparkett massiv verklebt 8-10mm Buche",
+      "unit": "m²"
+    },
+    {
+      "code": "38.43.01E",
+      "text": "Hochkantparkett massiv verklebt 8-10mm Buche ged.",
+      "unit": "m²"
+    },
+    {
+      "code": "38.43.11A",
+      "text": "Hochkantparkett massiv verklebt 20-23mm Eiche",
+      "unit": "m²"
+    },
+    {
+      "code": "38.43.11B",
+      "text": "Hochkantparkett massiv verklebt 20-23mm Esche",
+      "unit": "m²"
+    },
+    {
+      "code": "38.43.11C",
+      "text": "Hochkantparkett massiv verklebt 20-23mm Ahorn",
+      "unit": "m²"
+    },
+    {
+      "code": "38.43.11D",
+      "text": "Hochkantparkett massiv verklebt 20-23mm Buche",
+      "unit": "m²"
+    },
+    {
+      "code": "38.43.11E",
+      "text": "Hochkantparkett massiv verklebt 20-23mm Buche ged.",
+      "unit": "m²"
+    },
+    {
+      "code": "38.45.01A",
+      "text": "Stabparkett massiv verklebt 22mm Eiche/Kreis",
+      "unit": "m²"
+    },
+    {
+      "code": "38.45.01B",
+      "text": "Stabparkett massiv verklebt 22mm Eiche/Dreieck",
+      "unit": "m²"
+    },
+    {
+      "code": "38.45.01C",
+      "text": "Stabparkett massiv verklebt 22mm Eiche/Quadrat",
+      "unit": "m²"
+    },
+    {
+      "code": "38.45.02A",
+      "text": "Stabparkett massiv verklebt 22mm Esche/Kreis",
+      "unit": "m²"
+    },
+    {
+      "code": "38.45.02B",
+      "text": "Stabparkett massiv verklebt 22mm Esche/Dreieck",
+      "unit": "m²"
+    },
+    {
+      "code": "38.45.02C",
+      "text": "Stabparkett massiv verklebt 22mm Esche/Quadrat",
+      "unit": "m²"
+    },
+    {
+      "code": "38.45.03A",
+      "text": "Stabparkett massiv verklebt 22mm Ahorn/Kreis",
+      "unit": "m²"
+    },
+    {
+      "code": "38.45.03B",
+      "text": "Stabparkett massiv verklebt 22mm Ahorn/Dreieck",
+      "unit": "m²"
+    },
+    {
+      "code": "38.45.03C",
+      "text": "Stabparkett massiv verklebt 22mm Ahorn/Quadrat",
+      "unit": "m²"
+    },
+    {
+      "code": "38.45.04A",
+      "text": "Stabparkett massiv verklebt 22mm Buche/Kreis",
+      "unit": "m²"
+    },
+    {
+      "code": "38.45.04B",
+      "text": "Stabparkett massiv verklebt 22mm Buche/Dreieck",
+      "unit": "m²"
+    },
+    {
+      "code": "38.45.04C",
+      "text": "Stabparkett massiv verklebt 22mm Buche/Quadrat",
+      "unit": "m²"
+    },
+    {
+      "code": "38.45.04D",
+      "text": "Stabparkett massiv verklebt 22mm Buche ged./Kreis",
+      "unit": "m²"
+    },
+    {
+      "code": "38.45.04E",
+      "text": "Stabparkett massiv verklebt 22mm Buche ged./Dreieck",
+      "unit": "m²"
+    },
+    {
+      "code": "38.45.04F",
+      "text": "Stabparkett massiv verklebt 22mm Buche ged./Quadrat",
+      "unit": "m²"
+    },
+    {
+      "code": "38.45.11A",
+      "text": "Az Stabparkett massiv verklebt 22mm f.Wandfriese 100mm                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "38.45.11B",
+      "text": "Az Stabparkett massiv verklebt 22mm f.Verlegung Fischgrät",
+      "unit": "m²"
+    },
+    {
+      "code": "38.46.01A",
+      "text": "Stabparkett massiv genagelt 22mm Eiche/Kreis",
+      "unit": "m²"
+    },
+    {
+      "code": "38.46.01B",
+      "text": "Stabparkett massiv genagelt 22mm Eiche/Dreieck",
+      "unit": "m²"
+    },
+    {
+      "code": "38.46.01C",
+      "text": "Stabparkett massiv genagelt 22mm Eiche/Quadrat",
+      "unit": "m²"
+    },
+    {
+      "code": "38.46.02A",
+      "text": "Stabparkett massiv genagelt 22mm Esche/Kreis",
+      "unit": "m²"
+    },
+    {
+      "code": "38.46.02B",
+      "text": "Stabparkett massiv genagelt 22mm Esche/Dreieck",
+      "unit": "m²"
+    },
+    {
+      "code": "38.46.02C",
+      "text": "Stabparkett massiv genagelt 22mm Esche/Quadrat",
+      "unit": "m²"
+    },
+    {
+      "code": "38.46.03A",
+      "text": "Stabparkett massiv genagelt 22mm Ahorn/Kreis",
+      "unit": "m²"
+    },
+    {
+      "code": "38.46.03B",
+      "text": "Stabparkett massiv genagelt 22mm Ahorn/Dreieck",
+      "unit": "m²"
+    },
+    {
+      "code": "38.46.03C",
+      "text": "Stabparkett massiv genagelt 22mm Ahorn/Quadrat",
+      "unit": "m²"
+    },
+    {
+      "code": "38.46.04A",
+      "text": "Stabparkett massiv genagelt 22mm Buche/Kreis",
+      "unit": "m²"
+    },
+    {
+      "code": "38.46.04B",
+      "text": "Stabparkett massiv genagelt 22mm Buche/Dreieck",
+      "unit": "m²"
+    },
+    {
+      "code": "38.46.04C",
+      "text": "Stabparkett massiv genagelt 22mm Buche/Quadrat",
+      "unit": "m²"
+    },
+    {
+      "code": "38.46.04D",
+      "text": "Stabparkett massiv genagelt 22mm Buche ged./Kreis",
+      "unit": "m²"
+    },
+    {
+      "code": "38.46.04E",
+      "text": "Stabparkett massiv genagelt 22mm Buche ged./Dreieck",
+      "unit": "m²"
+    },
+    {
+      "code": "38.46.04F",
+      "text": "Stabparkett massiv genagelt 22mm Buche ged./Quadrat",
+      "unit": "m²"
+    },
+    {
+      "code": "38.46.11A",
+      "text": "Az Stabparkett massiv genagelt 22mm f.Wandfriese 100mm                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "38.46.11B",
+      "text": "Az Stabparkett massiv genagelt 22mm f.Verlegung Fischgrät",
+      "unit": "m²"
+    },
+    {
+      "code": "38.60.02A",
+      "text": "Sesselleiste \"Schweizerleiste\" Eiche                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.02B",
+      "text": "Sesselleiste \"Schweizerleiste\" Esche                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.02C",
+      "text": "Sesselleiste \"Schweizerleiste\" Ahorn                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.02D",
+      "text": "Sesselleiste \"Schweizerleiste\" Buche                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.02E",
+      "text": "Sesselleiste \"Schweizerleiste\" Fichte                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.02F",
+      "text": "Sesselleiste \"Schweizerleiste\" Lärche                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.03A",
+      "text": "Sockelleiste massiv Eiche ca.15x55mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.03B",
+      "text": "Sockelleiste massiv Eiche ca.20x70mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.03C",
+      "text": "Sockelleiste massiv Esche ca.15x55mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.03D",
+      "text": "Sockelleiste massiv Esche ca.20x70mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.03E",
+      "text": "Sockelleiste massiv Ahorn ca.15x55mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.03F",
+      "text": "Sockelleiste massiv Ahorn ca.20x70mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.03G",
+      "text": "Sockelleiste massiv Buche ca.15x55mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.03H",
+      "text": "Sockelleiste massiv Buche ca.20x70mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.03I",
+      "text": "Sockelleiste massiv Fichte ca.15x55mm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.03J",
+      "text": "Sockelleiste massiv Fichte ca.20x70mm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.03K",
+      "text": "Sockelleiste massiv Lärche ca.15x55mm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.03L",
+      "text": "Sockelleiste massiv Lärche ca.20x70mm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.04A",
+      "text": "Sockelleiste edelfurniert Eiche ca.15x55mm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.04B",
+      "text": "Sockelleiste edelfurniert Eiche ca.15x70mm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.04C",
+      "text": "Sockelleiste edelfurniert Esche ca.15x55mm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.04D",
+      "text": "Sockelleiste edelfurniert Esche ca.15x70mm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.04E",
+      "text": "Sockelleiste edelfurniert Ahorn ca.15x55mm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.04F",
+      "text": "Sockelleiste edelfurniert Ahorn ca.15x70mm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.04G",
+      "text": "Sockelleiste edelfurniert Buche ca.15x55mm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.04H",
+      "text": "Sockelleiste edelfurniert Buche ca.15x70mm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.04I",
+      "text": "Sockelleiste edelfurniert Fichte ca.15x55mm                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.04J",
+      "text": "Sockelleiste edelfurniert Fichte ca.15x70mm                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.04K",
+      "text": "Sockelleiste edelfurniert Lärche ca.15x55mm                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.04L",
+      "text": "Sockelleiste edelfurniert Lärche ca.15x70mm                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.04Q",
+      "text": "Az Sockelleiste edelfurniert f.Schrauben/Dübeln                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "38.60.05A",
+      "text": "Az Schwelle12/b.70/3cm__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "38.60.05B",
+      "text": "Az Schwelle 12/ü.70-90/3cm__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "38.60.05C",
+      "text": "Az Schwelle 15/b.70/3cm__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "38.60.05D",
+      "text": "Az Schwelle 15/ü.70-90/3cm__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "38.60.06A",
+      "text": "Grundieren+2x versiegeln WL",
+      "unit": "m²"
+    },
+    {
+      "code": "38.60.06B",
+      "text": "Grundieren+3x versiegeln WL",
+      "unit": "m²"
+    },
+    {
+      "code": "38.60.06G",
+      "text": "Grundieren+2x versiegeln WL,Klasse C",
+      "unit": "m²"
+    },
+    {
+      "code": "38.60.06H",
+      "text": "Grundieren+3x versiegeln WL,Klasse C",
+      "unit": "m²"
+    },
+    {
+      "code": "38.60.07A",
+      "text": "Parkettboden wachsen",
+      "unit": "m²"
+    },
+    {
+      "code": "38.60.07B",
+      "text": "Parkettboden ölen",
+      "unit": "m²"
+    },
+    {
+      "code": "38.65.00M",
+      "text": "Angaben Bemusterung",
+      "unit": ""
+    },
+    {
+      "code": "38.65.02A",
+      "text": "Dampfbremse PE-Folie 0,2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.65.02B",
+      "text": "Dampfbremse PE-Folie 0,2mm verklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "38.65.04A",
+      "text": "Unterlagsmatte EPS-Al 1,6mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.65.04B",
+      "text": "Unterlagsmatte EPS-Al 3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.65.05C",
+      "text": "Unterlagsmatte PE 2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.65.05D",
+      "text": "Unterlagsmatte PE 3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.65.06E",
+      "text": "Unterlagsmatte Kork 2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.65.07A",
+      "text": "Laminatboden 8mm Kl.21/31",
+      "unit": "m²"
+    },
+    {
+      "code": "38.65.07B",
+      "text": "Laminatboden 8mm Kl.22/32",
+      "unit": "m²"
+    },
+    {
+      "code": "38.65.07C",
+      "text": "Laminatboden 8mm Kl.23/33",
+      "unit": "m²"
+    },
+    {
+      "code": "38.65.07D",
+      "text": "Laminatboden m.Trittschalldämmung 9,5mm Kl.32",
+      "unit": "m²"
+    },
+    {
+      "code": "38.65.10A",
+      "text": "Laminatboden Endprofil                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "38.65.10B",
+      "text": "Laminatboden Bewegungsprofil                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "38.65.10C",
+      "text": "Laminatboden Ausgleichprofil                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "38.65.11A",
+      "text": "Laminatboden Sesselleisten foliert                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "38.68.01A",
+      "text": "ZV Kontrollprüfung flächenelastisch                                                                                 PA",
+      "unit": ""
+    },
+    {
+      "code": "38.68.02A",
+      "text": "Nivellement Unterboden",
+      "unit": "m²"
+    },
+    {
+      "code": "38.68.10A",
+      "text": "Sportboden Stabparkett 22mm Eiche/Kreis fischgrätartig",
+      "unit": "m²"
+    },
+    {
+      "code": "38.68.10B",
+      "text": "Sportboden Stabparkett 22mm Eiche/Kreis riemenartig",
+      "unit": "m²"
+    },
+    {
+      "code": "38.68.10C",
+      "text": "Sportboden Stabparkett 22mm Eiche/Dreieck fischgrätartig",
+      "unit": "m²"
+    },
+    {
+      "code": "38.68.10D",
+      "text": "Sportboden Stabparkett 22mm Eiche/Dreieck riemenartig",
+      "unit": "m²"
+    },
+    {
+      "code": "38.68.11A",
+      "text": "Sportboden MS-Parkett 5mm Eiche/Kreis fischgrätartig",
+      "unit": "m²"
+    },
+    {
+      "code": "38.68.11B",
+      "text": "Sportboden MS-Parkett 5mm Eiche/Kreis riemenartig",
+      "unit": "m²"
+    },
+    {
+      "code": "38.68.11C",
+      "text": "Sportboden MS-Parkett 5mm Eiche/Dreieck fischgrätartig",
+      "unit": "m²"
+    },
+    {
+      "code": "38.68.11D",
+      "text": "Sportboden MS-Parkett 5mm Eiche/Dreieck riemenartig",
+      "unit": "m²"
+    },
+    {
+      "code": "38.68.12A",
+      "text": "Fußbodenheizung f.Sportböden",
+      "unit": "m²"
+    },
+    {
+      "code": "38.68.14A",
+      "text": "Unterkonstruktion imprägnieren",
+      "unit": "m²"
+    },
+    {
+      "code": "38.68.19A",
+      "text": "Verstärken Bodenbefestigung",
+      "unit": "Stk"
+    },
+    {
+      "code": "38.68.21A",
+      "text": "Bodendeckel+Hülsen",
+      "unit": "Stk"
+    },
+    {
+      "code": "38.68.24A",
+      "text": "Dehnfugenprofil                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "38.68.24B",
+      "text": "Abdeck-Übergangsprofil                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "38.68.30A",
+      "text": "Spielfeldmarkierung auf Holzbelägen                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "38.68.35A",
+      "text": "Sockelleiste m.Lüftungsöffnungen                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "38.68.36A",
+      "text": "Sockelleiste o.Lüftungsöffnungen                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "38.81.01C",
+      "text": "Estrich vorbereiten/fräsen",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.02A",
+      "text": "Estrich Unebenheiten ausgleichen (Einzelfl.) ü.2-5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.02B",
+      "text": "Estrich Unebenheiten ausgleichen (Einzelfl.) ü.5-10mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.02C",
+      "text": "Estrich Unebenheiten ausgleichen (Einzelfl.) ü.10-15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.03B",
+      "text": "Oberflächenverfestigen Estrich m.Voranstrich",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.03D",
+      "text": "Haftbrücke+Einstreuung",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.04A",
+      "text": "Einmaliges Spachteln Boden",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.05A",
+      "text": "Beschüttung abräumen+lagern",
+      "unit": "m³"
+    },
+    {
+      "code": "38.81.06A",
+      "text": "Beschüttung Baustelle gelagert",
+      "unit": "m³"
+    },
+    {
+      "code": "38.81.06C",
+      "text": "Beschüttung ergänzen",
+      "unit": "m³"
+    },
+    {
+      "code": "38.81.08A",
+      "text": "Verlegeplatten P3 N+F.schwimm.19mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.08B",
+      "text": "Verlegeplatten P3 N+F.schwimm.22mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.08C",
+      "text": "Verlegeplatten P3 N+F.schwimm.16+12mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.08D",
+      "text": "Verlegeplatten P3 N+F.schwimm.2x16mm",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.08E",
+      "text": "Az Verlegeplatten P3 N+F f.Verschrauben",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.10A",
+      "text": "Abschleifen Holzfußboden",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.21A",
+      "text": "Instandsetzen Stabparkett b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "38.81.21B",
+      "text": "Instandsetzen Stabparkett ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "38.81.21C",
+      "text": "Instandsetzen Stabparkett ü.1-5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "38.81.21D",
+      "text": "Az Instandsetzen Stabparkett f.neues Material",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.22A",
+      "text": "Instandsetzen Mosaikparkett b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "38.81.22B",
+      "text": "Instandsetzen Mosaikparkett ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "38.81.22C",
+      "text": "Instandsetzen Mosaikparkett ü.1-5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "38.81.22D",
+      "text": "Az Instandsetzen Mosaikparkett f.neues Material",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.23A",
+      "text": "Instandsetzen Mehrschichtparkett b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "38.81.23B",
+      "text": "Instandsetzen Mehrschichtparkett ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "38.81.23C",
+      "text": "Instandsetzen Mehrschichtparkett ü.1-5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "38.81.23D",
+      "text": "Az Instandsetzen Mehrschichtparkett f.neues Material",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.31A",
+      "text": "Stabparkett demontieren,entnageln u.lagern",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.31B",
+      "text": "Stabparkett (gelagert) wiederverlegen",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.31C",
+      "text": "Az Stabparkett (gelagert) wiederverlegen",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.41A",
+      "text": "Blindboden demontieren,entnageln u.lagern",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.41B",
+      "text": "Blindboden (gelagert) wiederverlegen",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.41C",
+      "text": "Az Blindboden (gelagert) wiederverlegen",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.51A",
+      "text": "Polsterhölzer demontieren,entnageln u.lagern",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.51B",
+      "text": "Polsterhölzer (gelagert) wiederverlegen",
+      "unit": "m²"
+    },
+    {
+      "code": "38.81.51C",
+      "text": "Az Polsterhölzer (gelagert) wiederverlegen",
+      "unit": "m²"
+    },
+    {
+      "code": "38.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "38.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "38.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

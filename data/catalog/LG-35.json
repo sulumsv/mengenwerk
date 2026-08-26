@@ -1,0 +1,3906 @@
+{
+  "lg": "35",
+  "title": "System-Abgasanlagen",
+  "positions": [
+    {
+      "code": "35.00.01A",
+      "text": "Aufstellungsort,System",
+      "unit": ""
+    },
+    {
+      "code": "35.00.01V",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "35.03.00C",
+      "text": "Innendurchmesser zu 35.03",
+      "unit": ""
+    },
+    {
+      "code": "35.03.02A",
+      "text": "Mehrsch.keram.SA T400/N/D/3/G m.1Zug                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "35.03.02B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/D/3/G m.1Zug",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.02C",
+      "text": "Az ms.km.SA T400/N/D/3/G f.R-Öff.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.02D",
+      "text": "Az ms.km.SA T400/N/D/3/G f.RR 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.02G",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.Ortbeton 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.02H",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.GFB 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.02I",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.Edelstahl 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.02J",
+      "text": "Az ms.km.SA T400/N/D/3/G f.FT-Kaminkopf 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.02K",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Zugregler 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.02L",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kapsel verz.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.02M",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kapsel Edelstahl 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.02N",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.RR-Anschl.herst.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.02O",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.RR-Anschl.schl.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.02P",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.R-Öffnung herst.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.02Q",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.R-Öffnung schl.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.02R",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Regenhaube 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.02S",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kamin-Halter 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.02Y",
+      "text": "Az ms.km.SA T400/N/D/3/G 1Z ü.3,2m__________                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "35.03.03A",
+      "text": "Mehrsch.keram.SA T400/N/D/3/G m.1Zug+LÜ                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "35.03.03B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/D/3/G m.1Zug+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.03C",
+      "text": "Az ms.km.SA T400/N/D/3/G f.R-Öff.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.03D",
+      "text": "Az ms.km.SA T400/N/D/3/G f.RR 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.03G",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.Ortbeton 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.03H",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.GFB 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.03I",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.Edelstahl 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.03J",
+      "text": "Az ms.km.SA T400/N/D/3/G f.FT-Kaminkopf 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.03K",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Zugregler 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.03L",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kapsel verz.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.03M",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kapsel Edelstahl 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.03N",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.RR-Anschl.herst.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.03O",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.RR-Anschl.schl.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.03P",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.R-Öffnung herst.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.03Q",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.R-Öffnung schl.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.03R",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Regenhaube 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.03S",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kamin-Halter 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.03X",
+      "text": "Az ms.km.SA T400/N/D/3/G 1Z+LÜ ü.3,2m__________                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "35.03.04A",
+      "text": "Mehrsch.keram.SA T400/N/D/3/G m.2 Zügen                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "35.03.04B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/D/3/G m.2 Zügen",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.04C",
+      "text": "Az ms.km.SA T400/N/D/3/G f.R-Öff.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.04D",
+      "text": "Az ms.km.SA T400/N/D/3/G f.RR 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.04G",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.Ortbeton 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.04H",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.GFB 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.04I",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.Edelstahl 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.04J",
+      "text": "Az ms.km.SA T400/N/D/3/G f.FT-Kaminkopf 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.04K",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Zugregler 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.04L",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kapsel verz.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.04M",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kapsel Edelstahl 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.04N",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.RR-Anschl.herst.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.04O",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.RR-Anschl.schl.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.04P",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.R-Öffnung herst.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.04Q",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.R-Öffnung schl.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.04R",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Regenhaube 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.04S",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kamin-Halter 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.04X",
+      "text": "Az ms.km.SA T400/N/D/3/G 2Z ü.3,2m__________                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "35.03.05A",
+      "text": "Mehrsch.keram.SA T400/N/D/3/G m.2 Zügen+LÜ                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "35.03.05B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/D/3/G m.2 Zügen+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.05C",
+      "text": "Az ms.km.SA T400/N/D/3/G f.R-Öff.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.05D",
+      "text": "Az ms.km.SA T400/N/D/3/G f.RR 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.05G",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.Ortbeton 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.05H",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.GFB 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.05I",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.Edelstahl 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.05J",
+      "text": "Az ms.km.SA T400/N/D/3/G f.FT-Kaminkopf 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.05K",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Zugregler 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.05L",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kapsel verz.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.05M",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kapsel Edelstahl 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.05N",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.RR-Anschl.herst.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.05O",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.RR-Anschl.schl.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.05P",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.R-Öffnung herst.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.05Q",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.R-Öffnung schl.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.05R",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Regenhaube 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.05S",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kamin-Halter 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.05X",
+      "text": "Az ms.km.SA T400/N/D/3/G 2Z+LÜ ü.3,2m__________                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "35.03.06A",
+      "text": "Mehrsch.keram.SA T400/N/D/3/G m.2 verschied.Zügen                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "35.03.06B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/D/3/G m.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.06C",
+      "text": "Az ms.km.SA T400/N/D/3/G f.R-Öff.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.06D",
+      "text": "Az ms.km.SA T400/N/D/3/G f.RR 2vZ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.06G",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.Ortbeton 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.06H",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.GFB 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.06I",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.Edelstahl 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.06J",
+      "text": "Az ms.km.SA T400/N/D/3/G f.FT-Kaminkopf 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.06K",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Zugregler 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.06L",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kapsel verz.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.06M",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kapsel Edelstahl 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.06N",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.RR-Anschl.herst.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.06O",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.RR-Anschl.schl.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.06P",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.R-Öffnung herst.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.06Q",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.R-Öffnung schl.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.06R",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Regenhaube 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.06S",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kamin-Halter 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.06X",
+      "text": "Az ms.km.SA T400/N/D/3/G 2v.Z ü.3,2m__________                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "35.03.07A",
+      "text": "Mehrsch.keram.SA T400/N/D/3/G m.2 verschied.Zügen+LÜ                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "35.03.07B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/D/3/G m.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.07C",
+      "text": "Az ms.km.SA T400/N/D/3/G f.R-Öff.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.07D",
+      "text": "Az ms.km.SA T400/N/D/3/G f.RR 2vZ+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.07G",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.Ortbeton 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.07H",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.GFB 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.07I",
+      "text": "Az ms.km.SA T400/N/D/3/G f.A-Pl.Edelstahl 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.07J",
+      "text": "Az ms.km.SA T400/N/D/3/G f.FT-Kaminkopf 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.07K",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Zugregler 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.07L",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kapsel verz.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.07M",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kapsel Edelstahl 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.07N",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.RR-Anschl.herst.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.07O",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.RR-Anschl.schl.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.07P",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.R-Öffnung herst.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.07Q",
+      "text": "Az ms.km.SA T400/N/D/3/G f.nt.R-Öffnung schl.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.07R",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Regenhaube 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.07S",
+      "text": "Az ms.km.SA T400/N/D/3/G f.Kamin-Halter 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.07X",
+      "text": "Az ms.km.SA T400/N/D/3/G 2v.Z+LÜ ü.3,2m__________                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "35.03.71A",
+      "text": "Bewehrung f.ms.km.SA T400/N/D/3/G",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.73A",
+      "text": "Verlängerung v.SA T400/N/D/3/G f.Zug",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.73B",
+      "text": "Verlängerung v.SA T400/N/D/3/G f.Zug+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.73C",
+      "text": "Verlängerung v.SA T400/N/D/3/G f.2 Züge",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.73D",
+      "text": "Verlängerung v.SA T400/N/D/3/G f.2 Züge+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.73E",
+      "text": "Verlängerung v.SA T400/N/D/3/G f.2 versch.Züge",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.03.73F",
+      "text": "Verlängerung v.SA T400/N/D/3/G f.2 versch.Züge+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.00C",
+      "text": "Innendurchmesser zu 35.04",
+      "unit": ""
+    },
+    {
+      "code": "35.04.02A",
+      "text": "Mehrsch.keram.SA T400/N/D/3/(W/2)/G/V m.1Zug                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "35.04.02B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/D/3/(W/2)/G/V m.1Zug",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02C",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.R-Öff.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02D",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.RR 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02E",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Adapter fest 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02F",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Adapter gasförmig 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02G",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.Ortbeton 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02H",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.GFB 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02I",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.Edelstahl 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02J",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.FT-Kaminkopf 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02K",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Zugregler 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02L",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kapsel verz.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02M",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kapsel Edelstahl 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02N",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.RR-Anschl.herst.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02O",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.RR-Anschl.schl.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02P",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.R-Öffnung herst.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02Q",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.R-Öffnung schl.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02R",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Regenhaube 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02S",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kamin-Halter 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.02X",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V 1Z ü.3,2m__________                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "35.04.03A",
+      "text": "Mehrsch.keram.SA T400/N/D/3/(W/2)/G/V m.1Zug+LÜ                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "35.04.03B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/D/3/(W/2)/G/V m.1Zug+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03C",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.R-Öff.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03D",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.RR 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03E",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Adapter fest 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03F",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Adapter gasförmig 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03G",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.Ortbeton 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03H",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.GFB 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03I",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.Edelstahl 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03J",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.FT-Kaminkopf 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03K",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Zugregler 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03L",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kapsel verz.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03M",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kapsel Edelstahl 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03N",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.RR-Anschl.herst.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03O",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.RR-Anschl.schl.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03P",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.R-Öffnung herst.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03Q",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.R-Öffnung schl.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03R",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Regenhaube 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03S",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kamin-Halter 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.03X",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V 1Z+LÜ ü.3,2m__________                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "35.04.04A",
+      "text": "Mehrsch.keram.SA T400/N/D/3/(W/2)/G/V m.2 Zügen                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "35.04.04B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/D/3/(W/2)/G/V m.2 Zügen",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04C",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.R-Öff.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04D",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.RR 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04E",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Adapter fest 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04F",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Adapter gasförmig 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04G",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.Ortbeton 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04H",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.GFB 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04I",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.Edelstahl 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04J",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.FT-Kaminkopf 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04K",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Zugregler 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04L",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kapsel verz.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04M",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kapsel Edelstahl 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04N",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.RR-Anschl.herst.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04O",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.RR-Anschl.schl.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04P",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.R-Öffnung herst.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04Q",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.R-Öffnung schl.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04R",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Regenhaube 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04S",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kamin-Halter 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.04X",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V 2Z ü.3,2m__________                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "35.04.05A",
+      "text": "Mehrsch.keram.SA T400/N/D/3/(W/2)/G/V m.2 Zügen+LÜ                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "35.04.05B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/D/3/(W/2)/G/V m.2 Zügen+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05C",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.R-Öff.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05D",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.RR 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05E",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Adapter fest 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05F",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Adapter gasförmig 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05G",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.Ortbeton 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05H",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.GFB 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05I",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.Edelstahl 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05J",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.FT-Kaminkopf 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05K",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Zugregler 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05L",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kapsel verz.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05M",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kapsel Edelstahl 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05N",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.RR-Anschl.herst.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05O",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.RR-Anschl.schl.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05P",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.R-Öffnung herst.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05Q",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.R-Öffnung schl.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05R",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Regenhaube 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05S",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kamin-Halter 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.05X",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V 2Z+LÜ ü.3,2m__________                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "35.04.06A",
+      "text": "Mehrsch.keram.SA T400/N/D/3/(W/2)/G/V m.2 versch.Zügen                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "35.04.06B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/D/3/(W/2)/G/V m.2 versch.Zügen",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06C",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.R-Öff.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06D",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.RR 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06E",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Adapter fest 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06F",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Adapter gasförmig 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06G",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.Ortbeton 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06H",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.GFB 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06I",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.Edelstahl 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06J",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.FT-Kaminkopf 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06K",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Zugregler 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06L",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kapsel verz.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06M",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kapsel Edelstahl 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06N",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.RR-Anschl.herst.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06O",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.RR-Anschl.schl.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06P",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.R-Öffnung herst.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06Q",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.R-Öffnung schl.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06R",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Regenhaube 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06S",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kamin-Halter 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.06X",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V 2v.Z ü.3,2m__________                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "35.04.07A",
+      "text": "Mehrsch.keram.SA T400/N/D/3/(W/2)/G/V m.2 versch.Zügen+LÜ                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "35.04.07B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/D/3/(W/2)/G/V m.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07C",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.R-Öff.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07D",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.RR 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07E",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Adapter fest 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07F",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Adapter gasförmig 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07G",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.Ortbeton 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07H",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.GFB 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07I",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.A-Pl.Edelstahl 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07J",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.FT-Kaminkopf 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07K",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Zugregler 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07L",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kapsel verz.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07M",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kapsel Edelstahl 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07N",
+      "text": "Az ms.km.SA T400/N/D/3(W/2)/G/V f.nt.RR-Anschl.herst.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07O",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.RR-Anschl.schl.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07P",
+      "text": "Az ms.km.SA T400/N/D/3(W/2)/G/V f.nt.R-Öffnung herst.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07Q",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.nt.R-Öffnung schl.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07R",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Regenhaube 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07S",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V f.Kamin-Halter 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.07X",
+      "text": "Az ms.km.SA T400/N/D/3/(W/2)/G/V 2v.Z+LÜ ü.3,2m__________                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "35.04.71A",
+      "text": "Bewehrung f.ms.km.SA T400/N/D/3/(W/2)/G/V",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.73A",
+      "text": "Verlängerung v.SA T400/N/D/3/(W/2)/G/V f.Zug",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.73B",
+      "text": "Verlängerung v.SA T400/N/D/3/(W/2)/G/V f.Zug+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.73C",
+      "text": "Verlängerung v.SA T400/N/D/3/(W/2)/G/V f.2 Züge",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.73D",
+      "text": "Verlängerung v.SA T400/N/D/3/(W/2)/G/V f.2 Züge+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.73E",
+      "text": "Verlängerung v.SA T400/N/D/3/(W/2)/G/V f.2 versch.Zügen",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.04.73F",
+      "text": "Verlängerung v.SA T400/N/D/3/(W/2)/G/V f.2 versch.Züge+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.00C",
+      "text": "Innendurchmesser zu 35.05",
+      "unit": ""
+    },
+    {
+      "code": "35.05.02A",
+      "text": "Mehrsch.keram.SA T400/N/W/3/G/BW m.1Zug                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "35.05.02B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/W/3/G/BW m.1Zug",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02C",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW fl.f.R-Öff.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02D",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW fest f.R-Öff.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02E",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.RR 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02F",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Adapter fest 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02G",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Adapter gasförmig 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02H",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.Ortbeton 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02I",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.GFB 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02J",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.Edelstahl 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02K",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.FT-Kaminkopf 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02L",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Zugregler 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02M",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kapsel verz.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02N",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kapsel Edelstahl 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02O",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.RR-Anschl.herst.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02P",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.RR-Anschl.schl.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02Q",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.R-Öffnung herst.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02R",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.R-Öffnung schl.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02S",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Regenhaube 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02T",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW Thermokomp.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02U",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kamin-Halter 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.02X",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW 1Z ü.3,2m__________                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "35.05.03A",
+      "text": "Mehrsch.keram.SA T400/N/W/3/G/BW m.1Zug+LÜ                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "35.05.03B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/W/3/G/BW m.1Zug+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03C",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW fl.f.R-Öff.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03D",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW fest f.R-Öff.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03E",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.RR 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03F",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Adapter fest 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03G",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Adapter gasförmig 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03H",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.Ortbeton 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03I",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.GFB 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03J",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.Edelstahl 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03K",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.FT-Kaminkopf 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03L",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Zugregler 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03M",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kapsel verz.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03N",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kapsel Edelstahl 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03O",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.RR-Anschl.herst.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03P",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.RR-Anschl.schl.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03Q",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.R-Öffnung herst.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03R",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.R-Öffnung schl.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03S",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Regenhaube 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03T",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW Thermokomp.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03U",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kamin-Halter 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.03X",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW 1Z+LÜ ü.3,2m__________                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "35.05.04A",
+      "text": "Mehrsch.keram.SA T400/N/W/3/G/BW m.2 Zügen                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "35.05.04B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/W/3/G/BW m.2 Zügen",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04C",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW fl.f.R-Öff.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04D",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW fest f.R-Öff.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04E",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.RR 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04F",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Adapter fest 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04G",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Adapter gasförmig 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04H",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.Ortbeton 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04I",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.GFB 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04J",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.Edelstahl 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04K",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.FT-Kaminkopf 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04L",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Zugregler 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04M",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kapsel verz.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04N",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kapsel Edelstahl 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04O",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.RR-Anschl.herst.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04P",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.RR-Anschl.schl.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04Q",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.R-Öffnung herst.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04R",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.R-Öffnung schl.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04S",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Regenhaube 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04T",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW Thermokomp.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04U",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kamin-Halter 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.04X",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW 2Z ü.3,2m__________                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "35.05.05A",
+      "text": "Mehrsch.keram.SA T400/N/W/3/G/BW m.2 Zügen+LÜ                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "35.05.05B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/W/3/G/BW m.2 Zügen+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05C",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW fl.f.R-Öff.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05D",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW fest f.R-Öff.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05E",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.RR 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05F",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Adapter fest 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05G",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Adapter gasförmig 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05H",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.Ortbeton 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05I",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.GFB 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05J",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.Edelstahl 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05K",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.FT-Kaminkopf 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05L",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Zugregler 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05M",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kapsel verz.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05N",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kapsel Edelstahl 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05O",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.RR-Anschl.herst.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05P",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.RR-Anschl.schl.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05Q",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.R-Öffnung herst.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05R",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.R-Öffnung schl.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05S",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Regenhaube 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05T",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW Thermokomp.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05U",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kamin-Halter 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.05X",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW 2Z+LÜ ü.3,2m__________                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "35.05.06A",
+      "text": "Mehrsch.keram.SA T400/N/W/3/G/BW m.2 versch.Zügen                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "35.05.06B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/W/3/G/BW m.2versch.Zügen",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06C",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW fl.f.R-Öff.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06D",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW fest f.R-Öff.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06E",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.RR 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06F",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Adapter fest 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06G",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Adapter gasförmig 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06H",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.Ortbeton 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06I",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.GFB 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06J",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.Edelstahl 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06K",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.FT-Kaminkopf 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06L",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Zugregler 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06M",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kapsel verz.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06N",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kapsel Edelstahl 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06O",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.RR-Anschl.herst.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06P",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.RR-Anschl.schl.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06Q",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.R-Öffnung herst.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06R",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.R-Öffnung schl.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06S",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Regenhaube 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06T",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW Thermokomp.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06U",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kamin-Halter 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.06X",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW 2v.Z ü.3,2m__________                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "35.05.07A",
+      "text": "Mehrsch.keram.SA T400/N/W/3/G/BW m.2 versch.Zügen+LÜ                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "35.05.07B",
+      "text": "Az f.MBS f.ms.km.SA T400/N/W/3/G/BW m.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07C",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW fl.f.R-Öff.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07D",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW fest f.R-Öff.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07E",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.RR 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07F",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Adapter fest 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07G",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Adapter gasförmig 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07H",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.Ortbeton 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07I",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.GFB 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07J",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.A-Pl.Edelstahl 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07K",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.FT-Kaminkopf 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07L",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Zugregler 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07M",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kapsel verz.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07N",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kapsel Edelstahl 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07O",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.RR-Anschl.herst.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07P",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.RR-Anschl.schl.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07Q",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.R-Öffnung herst.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07R",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.nt.R-Öffnung schl.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07S",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Regenhaube 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07T",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW Thermokomp.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07U",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW f.Kamin-Halter 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.07X",
+      "text": "Az ms.km.SA T400/N/W/3/G/BW 2v.Z+LÜ ü.3,2m__________                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "35.05.71A",
+      "text": "Bewehrung f.ms.km.SA T400/N/W/3/G/BW",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.73A",
+      "text": "Verlängerung v.SA T400/N/W/3/G/BW f.Zug",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.73B",
+      "text": "Verlängerung v.SA T400/N/W/3/G/BW f.Zug+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.73C",
+      "text": "Verlängerung v.SA T400/N/W/3/G/BW f.2 Züge",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.73D",
+      "text": "Verlängerung v.SA T400/N/W/3/G/BW f.2 Züge+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.73E",
+      "text": "Verlängerung v.SA T400/N/W/3/G/BW f.2 versch.Zügen",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.05.73F",
+      "text": "Verlängerung v.SA T400/N/W/3/G/BW f.2 versch.Zügen+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.00C",
+      "text": "Innendurchmesser zu 35.06",
+      "unit": ""
+    },
+    {
+      "code": "35.06.02A",
+      "text": "Mehrsch.keram.SA T200/P/W/2/O/BW m.1Zug                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "35.06.02B",
+      "text": "Az f.MBS f.ms.km.SA T200/P/W/2/O/BW m.1Zug",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.02C",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.R-Öff.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.02D",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.RR 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.02E",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Adapter 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.02F",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.Ortbeton 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.02G",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.GFB 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.02H",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.Edelstahl 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.02I",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.FT-Kaminkopf 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.02J",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.RR-Anschl.herst.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.02K",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.RR-Anschl.schl.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.02L",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.R-Öffnung herst.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.02M",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.R-Öffnung schl.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.02N",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Regenhaube 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.02O",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Kamin-Halter 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.02X",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW 1Z ü.3,2m__________                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "35.06.03A",
+      "text": "Mehrsch.keram.SA T200/P/W/2/O/BW m.1Zug+LÜ                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "35.06.03B",
+      "text": "Az f.MBS f.ms.km.SA T200/P/W/2/O/BW m.1Zug+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.03C",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.R-Öff.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.03D",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.RR 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.03E",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Adapter 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.03F",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.Ortbeton 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.03G",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.GFB 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.03H",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.Edelstahl 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.03I",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.FT-Kaminkopf 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.03J",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.RR-Anschl.herst.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.03K",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.RR-Anschl.schl.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.03L",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.R-Öffnung herst.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.03M",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.R-Öffnung schl.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.03N",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Regenhaube 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.03O",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Kamin-Halter 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.03X",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW 1Z+LÜ ü.3,2m__________                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "35.06.04A",
+      "text": "Mehrsch.keram.SA T200/P/W/2/O/BW m.2 Zügen                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "35.06.04B",
+      "text": "Az f.MBS f.ms.km.SA T200/P/W/2/O/BW m.2 Zügen",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.04C",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.R-Öff.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.04D",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.RR 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.04E",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Adapter 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.04F",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.Ortbeton 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.04G",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.GFB 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.04H",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.Edelstahl 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.04I",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.FT-Kaminkopf 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.04J",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.RR-Anschl.herst.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.04K",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.RR-Anschl.schl.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.04L",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.R-Öffnung herst.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.04M",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.R-Öffnung schl.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.04N",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Regenhaube 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.04X",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW 2Z ü.3,2m__________                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "35.06.05A",
+      "text": "Mehrsch.keram.SA T200/P/W/2/O/BW m.2 Zügen+LÜ                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "35.06.05B",
+      "text": "Az f.MBS f.ms.km.SA T200/P/W/2/O/BW m.2 Zügen+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.05C",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.R-Öff.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.05D",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.RR 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.05E",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Adapter 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.05F",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.Ortbeton 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.05G",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.GFB 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.05H",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.Edelstahl 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.05I",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.FT-Kaminkopf 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.05J",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.RR-Anschl.herst.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.05K",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.RR-Anschl.schl.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.05L",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.R-Öffnung herst.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.05M",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.R-Öffnung schl.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.05N",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Regenhaube 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.05O",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Kamin-Halter 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.05X",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW 2Z+LÜ ü.3,2m__________                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "35.06.06A",
+      "text": "Mehrsch.keram.SA T200/P/W/2/O/BW m.2 versch.Zügen                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "35.06.06B",
+      "text": "Az f.MBS f.ms.km.SA T200/P/W/2/O/BW m.2 versch.Zügen",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.06C",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.R-Öff.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.06D",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.RR 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.06E",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Adapter 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.06F",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.Ortbeton 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.06G",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.GFB 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.06H",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.Edelstahl 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.06I",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.FT-Kaminkopf 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.06J",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.RR-Anschl.herst.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.06K",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.RR-Anschl.schl.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.06L",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.R-Öffnung herst.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.06M",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.R-Öffnung schl.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.06N",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Regenhaube 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.06O",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Kamin-Halter 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.06X",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW 2v.Z ü.3,2m__________                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "35.06.07A",
+      "text": "Mehrsch.keram.SA T200/P/W/2/O/BW m.2 versch.Zügen+LÜ                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "35.06.07B",
+      "text": "Az f.MBS f.ms.km.SA T200/P/W/2/O/BW m.2versch.Zügen+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.07C",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.R-Öff.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.07D",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.RR 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.07E",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Adapter 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.07F",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.Ortbeton 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.07G",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.GFB 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.07H",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.A-Pl.Edelstahl 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.07I",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.FT-Kaminkopf 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.07J",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.RR-Anschl.herst.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.07K",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.RR-Anschl.schl.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.07L",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.R-Öffnung herst.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.07M",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.nt.R-Öffnung schl.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.07N",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Regenhaube 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.07O",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW f.Kamin-Halter 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.07X",
+      "text": "Az ms.km.SA T200/P/W/2/O/BW 2v.Z+LÜ ü.3,2m__________                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "35.06.71A",
+      "text": "Bewehrung f.ms.km.SA T200/P/W/2/O/BW",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.73A",
+      "text": "Verlängerung v.SA T200/P/W/2/O/BW f.Zug",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.73B",
+      "text": "Verlängerung v.SA T200/P/W/2/O/BW f.Zug+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.73C",
+      "text": "Verlängerung v.SA T200/P/W/2/O/BW f.2 Züge",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.73D",
+      "text": "Verlängerung v.SA T200/P/W/2/O/BW f.2 Züge+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.73E",
+      "text": "Verlängerung v.SA T200/P/W/2/O/BW f.2 versch.Züge",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.06.73F",
+      "text": "Verlängerung v.SA T200/P/W/2/O/BW f.2 versch.Züge+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.00C",
+      "text": "Innendurchmesser zu 35.07",
+      "unit": ""
+    },
+    {
+      "code": "35.07.02A",
+      "text": "Mehrsch.keram.SA T200/N/W/2/O/BW mfB m.Zug                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "35.07.02B",
+      "text": "Az f.MBS f.ms.km.SA T200/N/W/2/O/BW mfB m.Zug",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.02C",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.R-Öff.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.02D",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.RR 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.02E",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.Adapter 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.02F",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.Ortbeton 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.02G",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.GFB 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.02H",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.Edelstahl 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.02I",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.FT-Kaminkopf 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.02J",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.nt.RR-Anschl.herst.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.02K",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.nt.RR-Anschl.schl.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.02L",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.nt.R-Öffnung herst.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.02M",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.nt.R-Öffnung schl.1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.02N",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.Regenhaube 1Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.02Q",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB 1Z ü.3,2m__________                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "35.07.03A",
+      "text": "Mehrsch.keram.SA T200/N/W/2/O/BW mfB m.Zug+LÜ                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "35.07.03B",
+      "text": "Az f.MBS f.ms.km.SA T200/N/W/2/O/BW mfB m.Zug+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.03C",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.R-Öff.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.03D",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.RR 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.03E",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.Adapter 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.03F",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.Ortbeton 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.03G",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.GFB 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.03H",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.Edelstahl 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.03I",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.FT-Kaminkopf 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.03J",
+      "text": "Az ms.km.SA T200/W/2/P/O/BW mfB f.nt.RR-Anschl.herst.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.03K",
+      "text": "Az ms.km.SA T200/W/2/P/O/BW mfB f.nt.RR-Anschl.schl.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.03L",
+      "text": "Az ms.km.SA T200/W/2/P/O/BW mfB f.nt.R-Öffnung herst.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.03M",
+      "text": "Az ms.km.SA T200/W/2/P/O/BW mfB f.nt.R-Öffnung schl.1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.03N",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.Regenhaube 1Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.03X",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB 1Z+LÜ ü.3,2m__________                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "35.07.04A",
+      "text": "Mehrsch.keram.SA T200/N/W/2/O/BW mfB m.2 Zügen                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "35.07.04B",
+      "text": "Az f.MBS f.ms.km.SA T200/N/W/2/O/BW mfB m.2 Zügen",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.04C",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.R-Öff.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.04D",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.RR 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.04E",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.Adapter 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.04F",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.Ortbeton 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.04G",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.GFB 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.04H",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.Edelstahl 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.04I",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.FT-Kaminkopf 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.04J",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.nt.RR-Anschl.herst.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.04K",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.nt.RR-Anschl.schl.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.04L",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.nt.R-Öffnung herst.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.04M",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.nt.R-Öffnung schl.2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.04N",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.Regenhaube 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.04O",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.Kamin-Halter 2Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.04X",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB 2Z ü.3,2m__________                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "35.07.05A",
+      "text": "Mehrsch.keram.SA T200/N/W/2/O/BW mfB m.2 Zügen+LÜ                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "35.07.05B",
+      "text": "Az f.MBS f.ms.km.SA T200/N/W/2/O/BW mfB m.2 Zügen+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.05C",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.R-Öff.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.05D",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.RR 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.05E",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.Adapter 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.05F",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.Ortbeton 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.05G",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.GFB 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.05H",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.Edelstahl 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.05I",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.FT-Kaminkopf 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.05J",
+      "text": "Az ms.km.SA T200/W/2/P/O/BW mfB f.nt.RR-Anschl.herst.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.05K",
+      "text": "Az ms.km.SA T200/W/2/P/O/BW mfB f.nt.RR-Anschl.schl.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.05L",
+      "text": "Az ms.km.SA T200/W/2/P/O/BW mfB f.nt.R-Öffnung herst.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.05M",
+      "text": "Az ms.km.SA T200/W/2/P/O/BW mfB f.nt.R-Öffnung schl.2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.05N",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.Regenhaube 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.05O",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.Kamin-Halter 2Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.05X",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB 2Z+LÜ ü.3,2m__________                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "35.07.06A",
+      "text": "Mehrsch.keram.SA T200/N/W/2/O/BW mfB m.2 versch.Zügen                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "35.07.06B",
+      "text": "Az f.MBS f.ms.km.SA T200/N/W/2/O/BW mfB m.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.06C",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.R-Öff.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.06D",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.RR 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.06E",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.Adapter 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.06F",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.Ortbeton 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.06G",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.GFB 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.06H",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.Edelstahl 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.06I",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.FT-Kaminkopf 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.06J",
+      "text": "Az ms.km.SA T200/W/2/P/O/BW mfB f.nt.RR-Anschl.herst.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.06K",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.nt.RR-Anschl.schl.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.06L",
+      "text": "Az ms.km.SA T200/W/2/P/O/BW mfB f.nt.R-Öffnung herst.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.06M",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.nt.R-Öffnung schl.2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.06N",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.Regenhaube 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.06O",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.Kamin-Halter 2v.Z",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.06X",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB 2v.Z ü.3,2m__________                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "35.07.07A",
+      "text": "Mehrsch.keram.SA T200/N/W/2/O/BW mfB m.2 versch.Zügen+LÜ                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "35.07.07B",
+      "text": "Az f.MBS f.ms.km.SA T200/N/W/2/O/BW mfB m.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.07C",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.R-Öff.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.07D",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.RR 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.07E",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.Adapter 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.07F",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.Ortbeton 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.07G",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.GFB 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.07H",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.A-Pl.Edelstahl 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.07I",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.FT-Kaminkopf 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.07J",
+      "text": "Az ms.km.SA T200/W/2/P/O/BW mfB f.nt.RR-Anschl.herst.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.07K",
+      "text": "Az ms.km.SA T200/W/2/P/O/BW mfB f.nt.RR-Anschl.schl.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.07L",
+      "text": "Az ms.km.SA T200/W/2/P/O/BW mfB f.nt.R-Öffnung herst.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.07M",
+      "text": "Az ms.km.SA T200/W/2/P/O/BW mfB f.nt.R-Öffnung schl.2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.07N",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.Regenhaube 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.07O",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB f.Kamin-Halter 2v.Z+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.07X",
+      "text": "Az ms.km.SA T200/N/W/2/O/BW mfB 2v.Z+LÜ ü.3,2m__________                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "35.07.71A",
+      "text": "Bewehrung f.ms.km.SA T200/N/W/2/O/BW mfB",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.73A",
+      "text": "Verlängerung v.SA T200/N/W/2/O/BW mfB f.Zug",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.73B",
+      "text": "Verlängerung v.SA T200/N/W/2/O/BW mfB f.Zug+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.73C",
+      "text": "Verlängerung v.SA T200/N/W/2/O/BW mfB f.2 Züge",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.73D",
+      "text": "Verlängerung v.SA T200/N/W/2/O/BW mfB f.2 Züge+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.73E",
+      "text": "Verlängerung v.SA T200/N/W/2/O/BW mfB f.2 versch.Züge",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.07.73F",
+      "text": "Verlängerung v.SA T200/N/W/2/O/BW mfB f.2 versch.Züge+LÜ",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.11.00C",
+      "text": "Innendurchmesser zu 35.11",
+      "unit": ""
+    },
+    {
+      "code": "35.11.01A",
+      "text": "Edelstahl InnenR.SA T400/N/D/3/G                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "35.11.01B",
+      "text": "Az f.MBS f.Edelstahl InnenR.SA T400/N/D/3/G",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.11.01C",
+      "text": "Az Edelstahl InnenR.SA T400/N/D/3/G f.R-Öff.b.200°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.11.01D",
+      "text": "Az Edelstahl InnenR.SA T400/N/D/3/G f.R-Öff.ü.200°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.11.01E",
+      "text": "Az Edelstahl InnenR.SA T400/N/D/3/G f.RR 45°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.11.01F",
+      "text": "Az Edelstahl InnenR.SA T400/N/D/3/G f.RR 90°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.11.01G",
+      "text": "Az Edelstahl InnenR.SA T400/N/D/3/G f.Adapter fest",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.11.01H",
+      "text": "Az Edelstahl InnenR.SA T400/N/D/3/G f.Adapter gasförmig",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.11.01I",
+      "text": "Az Edelstahl InnenR.SA T400/N/D/3/G f.Zugbegr./Explosionskl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.11.01J",
+      "text": "Az Edelstahl InnenR.SA T400/N/D/3/G f.Kapsel Edelstahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.11.01K",
+      "text": "Az Edelstahl InnenR.SA T400/N/D/3/G f.Reduktion",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.11.01L",
+      "text": "Az Edelstahl InnenR.SA T400/N/D/3/G f.Erweiterung",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.11.01M",
+      "text": "Az Edelstahl InnenR.SA T400/N/D/3/G f.flexible Rohre",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.11.01N",
+      "text": "Az Edelstahl InnenR.SA T400/N/D/3/G f.Bogen b.45°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.11.01O",
+      "text": "Az Edelstahl InnenR.SA T400/N/D/3/G f.Bogen ü.45-90°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.11.01P",
+      "text": "Az Edelstahl InnenR.SA T400/N/D/3/G f.Regenhaube",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.11.01X",
+      "text": "Az Edelstahl InnenR.SA T400/N/D/3/G ü.3,2m__________                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "35.11.11D",
+      "text": "Dämmung f.SA T400/N/D/3/G (NEUBAU)",
+      "unit": "m²"
+    },
+    {
+      "code": "35.11.11S",
+      "text": "Schacht EI90 f.SA T400/N/D/3/G (NEUBAU)",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.12.00C",
+      "text": "Innendurchmesser zu 35.12",
+      "unit": ""
+    },
+    {
+      "code": "35.12.01A",
+      "text": "Edelstahl InnenR.SA T200/N/W/2/O                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "35.12.01B",
+      "text": "Az f.MBS f.Edelstahl InnenR.SA T200/N/W/2/O",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.12.01C",
+      "text": "Az Edelstahl InnenR.SA T200/N/W/2/O f.R-Öff.b.200°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.12.01D",
+      "text": "Az Edelstahl InnenR.SA T200/N/W/2/O f.R-Öff.ü.200°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.12.01E",
+      "text": "Az Edelstahl InnenR.SA T200/N/W/2/O f.RR 45°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.12.01F",
+      "text": "Az Edelstahl InnenR.SA T200/N/W/2/O f.RR 90°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.12.01G",
+      "text": "Az Edelstahl InnenR.SA T200/N/W/2/O f.Adapter fest",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.12.01H",
+      "text": "Az Edelstahl InnenR.SA T200/N/W/2/O f.Adapter gasförmig",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.12.01I",
+      "text": "Az Edelstahl InnenR.SA T200/N/W/2/O f.Zugbegr./Explosionskl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.12.01J",
+      "text": "Az Edelstahl InnenR.SA T200/N/W/2/O f.Kapsel Edelstahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.12.01K",
+      "text": "Az Edelstahl InnenR.SA T200/N/W/2/O f.Reduktion",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.12.01L",
+      "text": "Az Edelstahl InnenR.SA T200/N/W/2/O f.Erweiterung",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.12.01M",
+      "text": "Az Edelstahl InnenR.SA T200/N/W/2/O f.flexible Rohre",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.12.01N",
+      "text": "Az Edelstahl InnenR.SA T200/N/W/2/O f.Bogen b.45°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.12.01O",
+      "text": "Az Edelstahl InnenR.SA T200/N/W/2/O f.Bogen ü.45-90°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.12.01P",
+      "text": "Az Edelstahl InnenR.SA T200/N/W/2/O f.Regenhaube",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.12.01X",
+      "text": "Az Edelstahl InnenR.SA T200/N/W/2/O ü.3,2m__________                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "35.12.11D",
+      "text": "Dämmung f.SA T200/N/W/2/O (NEUBAU)",
+      "unit": "m²"
+    },
+    {
+      "code": "35.12.11S",
+      "text": "Schacht EI90 f.SA T200/N/W/2/O (NEUBAU)",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.13.00C",
+      "text": "Innendurchmesser zu 35.13",
+      "unit": ""
+    },
+    {
+      "code": "35.13.01A",
+      "text": "Edelstahl InnenR.SA T200/P/W/2/O                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "35.13.01B",
+      "text": "Az f.MBS f.Edelstahl InnenR.SA T200/P/W/2/O",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.13.01C",
+      "text": "Az Edelstahl InnenR.SA T200/P/W/2/O f.R-Öff.b.200°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.13.01D",
+      "text": "Az Edelstahl InnenR.SA T200/P/W/2/O f.R-Öff.ü.200°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.13.01E",
+      "text": "Az Edelstahl InnenR.SA T200/P/W/2/O f.RR 45°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.13.01F",
+      "text": "Az Edelstahl InnenR.SA T200/P/W/2/O f.RR 90°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.13.01H",
+      "text": "Az Edelstahl InnenR.SA T200/P/W/2/O f.Adapter gasförmig",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.13.01I",
+      "text": "Az Edelstahl InnenR.SA T200/P/W/2/O f.Zugbegr./Explosionskl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.13.01J",
+      "text": "Az Edelstahl InnenR.SA T200/P/W/2/O f.Kapsel Edelstahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.13.01K",
+      "text": "Az Edelstahl InnenR.SA T200/P/W/2/O f.Reduktion",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.13.01L",
+      "text": "Az Edelstahl InnenR.SA T200/P/W/2/O f.Erweiterung",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.13.01N",
+      "text": "Az Edelstahl InnenR.SA T200/P/W/2/O f.Bogen b.45°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.13.01O",
+      "text": "Az Edelstahl InnenR.SA T200/P/W/2/O f.Bogen ü.45-90°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.13.01P",
+      "text": "Az Edelstahl InnenR.SA T200/P/W/2/O f.Regenhaube",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.13.01X",
+      "text": "Az Edelstahl InnenR.SA T200/P/W/2/O ü.3,2m__________                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "35.13.11D",
+      "text": "Dämmung f.SA T200/P/W/2/O (NEUBAU)",
+      "unit": "m²"
+    },
+    {
+      "code": "35.13.11S",
+      "text": "Schacht EI90 f.SA T200/P/W/2/O (NEUBAU)",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.21.00C",
+      "text": "Innendurchmesser zu 35.21",
+      "unit": ""
+    },
+    {
+      "code": "35.21.02A",
+      "text": "Mehrsch.dopp./keram.SA T400/N/D/3/(W/2)/G                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "35.21.02B",
+      "text": "Az ms dopp./keram.SA T400/N/D/3/(W/2)/G f.Grundpl./Wandk.",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.21.02C",
+      "text": "Az ms dopp./keram.SA T400/N/D/3/(W/2)/G f.R-Öff.",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.21.02D",
+      "text": "Az ms dopp./keram.SA T400/N/D/3/(W/2)/G f.RR",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.21.02E",
+      "text": "Az ms dopp./keram.SA T400/N/D/3/(W/2)/G f.MAS",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.21.02F",
+      "text": "Az ms dopp./keram.SA T400/N/D/3/(W/2)/G f.Fugenm./Innenr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.21.02G",
+      "text": "Az ms dopp./keram.SA T400/N/D/3/(W/2)/G f.Adapter",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.21.02H",
+      "text": "Az ms dopp./keram.SA T400/N/D/3/(W/2)/G f.Wandhalter",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.21.02I",
+      "text": "Az ms dopp./keram.SA T400/N/D/3/(W/2)/G f.DD/Steildach",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.21.02J",
+      "text": "Az ms dopp./keram.SA T400/N/D/3/(W/2)/G f.DD/Flachdach",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.21.02K",
+      "text": "Az ms dopp./keram.SA T400/N/D/3/(W/2)/G f.Edelst.Abdeckr./DD",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.21.02L",
+      "text": "Az ms dopp./keram.SA T400/N/D/3/(W/2)/G f.Edelst.-WD",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.21.02M",
+      "text": "Az ms dopp./keram.SA T400/N/D/3/(W/2)/G f.Edelst-Abdeckr./WD",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.21.02N",
+      "text": "Az ms dopp./keram.SA T400/N/D/3/(W/2)/G f.Edelst-Seilabspann",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.21.02O",
+      "text": "Az ms dopp./keram.SA T400/N/D/3/(W/2)/G f.Edelst-Regenhaube",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.21.02X",
+      "text": "Az ms dopp./keram.SA T400/N/D/3/(W/2)/G ü.3,2m__________                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "35.22.00C",
+      "text": "Innendurchmesser zu 35.22",
+      "unit": ""
+    },
+    {
+      "code": "35.22.02A",
+      "text": "Mehrsch.dopp./keram.SA T200/N/W/2/O                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "35.22.02B",
+      "text": "Az ms dopp./keram.SA T200/N/W/2/O f.Grundpl./Wandkonsole",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.22.02C",
+      "text": "Az ms dopp./keram.SA T200/N/W/2/O f.R-Öff.",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.22.02D",
+      "text": "Az ms dopp./keram.SA T200/N/W/2/O f.RR",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.22.02E",
+      "text": "Az ms dopp./keram.SA T200/N/W/2/O f.MAS",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.22.02F",
+      "text": "Az ms dopp./keram.SA T200/N/W/2/O f.Fugenmasse/Innenrohre",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.22.02G",
+      "text": "Az ms dopp./keram.SA T200/N/W/2/O f.Adapter",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.22.02H",
+      "text": "Az ms dopp./keram.SA T200/N/W/2/O f.Wandhalter",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.22.02I",
+      "text": "Az ms dopp./keram.SA T200/N/W/2/O f.DD/Steildach",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.22.02J",
+      "text": "Az ms dopp./keram.SA T200/N/W/2/O f.DD/Flachdach",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.22.02K",
+      "text": "Az ms dopp./keram.SA T200/N/W/2/O f.Edelst-Abdeckrosette/DD",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.22.02L",
+      "text": "Az ms dopp./keram.SA T200/N/W/2/O f.Edelst-WD",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.22.02M",
+      "text": "Az ms dopp./keram.SA T200/N/W/2/O f.Edelst-Abdeckrosette/WD",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.22.02N",
+      "text": "Az ms dopp./keram.SA T200/N/W/2/O f.Edelst-Seilabspannring",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.22.02O",
+      "text": "Az ms dopp./keram.SA T200/N/W/2/O f.Edelst-Regenhaube",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.22.02X",
+      "text": "Az ms dopp./keram.SA T200/N/W/2/O ü3,2m__________                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "35.23.00C",
+      "text": "Innendurchmesser zu 35.23",
+      "unit": ""
+    },
+    {
+      "code": "35.23.02A",
+      "text": "Mehrsch.dopp.met/met.SA T400/N/D/3/G                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "35.23.02B",
+      "text": "Az ms dopp.met./met.SA T400/N/D/3/G f.Grundpl./Wandkonsole",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.23.02C",
+      "text": "Az ms dopp.met./met.SA T400/N/D/3/G f.R-Öff.",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.23.02D",
+      "text": "Az ms dopp.met./met.SA T400/N/D/3/G f.RR",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.23.02E",
+      "text": "Az ms dopp.met./met.SA T400/N/D/3/G f.MAS",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.23.02F",
+      "text": "Az ms dopp.met./met.SA T400/N/D/3/G f.Dichtungen/Überdruck",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.23.02G",
+      "text": "Az ms dopp.met./met.SA T400/N/D/3/G f.Adapter",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.23.02H",
+      "text": "Az ms dopp.met./met.SA T400/N/D/3/G f.Wandhalter",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.23.02I",
+      "text": "Az ms dopp.met./met.SA T400/N/D/3/G f.DD/Steildach",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.23.02J",
+      "text": "Az ms dopp.met./met.SA T400/N/D/3/G f.DD/Flachdach",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.23.02K",
+      "text": "Az ms dopp.met./met.SA T400/N/D/3/G f.Edels-Abdeckrosette/DD",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.23.02L",
+      "text": "Az ms dopp.met./met.SA T400/N/D/3/G f.Edels-WD",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.23.02M",
+      "text": "Az ms dopp.met./met.SA T400/N/D/3/G f.Edels-Abdeckrosette/WD",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.23.02N",
+      "text": "Az ms dopp.met./met.SA T400/N/D/3/G f.Edels-Seilabspannring",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.23.02O",
+      "text": "Az ms dopp.met./met.SA T400/N/D/3/G f.Edels-Regenhaube",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.23.02X",
+      "text": "Az ms dopp.met./met.SA T400/N/D/3/G__________                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "35.24.00C",
+      "text": "Innendurchmesser zu 35.24",
+      "unit": ""
+    },
+    {
+      "code": "35.24.02A",
+      "text": "Mehrsch.dopp.met/met.SA T200/N/W/2/O                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "35.24.02B",
+      "text": "Az ms dopp.met./met.SA T200/N/W/2/O f.Grundpl./Wandkonsole",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.24.02C",
+      "text": "Az ms dopp.met./met.SA T200/N/W/2/O f.R-Öff.",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.24.02D",
+      "text": "Az ms dopp.met./met.SA T200/N/W/2/O f.RR",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.24.02E",
+      "text": "Az ms dopp.met./met.SA T200/N/W/2/O f.MAS",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.24.02F",
+      "text": "Az ms dopp.met./met.SA T200/N/W/2/O f.Dichtungen/Überdruck",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.24.02G",
+      "text": "Az ms dopp.met./met.SA T200/N/W/2/O f.Adapter",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.24.02H",
+      "text": "Az ms dopp.met./met.SA T200/N/W/2/O f.Wandhalter",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.24.02I",
+      "text": "Az ms dopp.met./met.SA T200/N/W/2/O f.DD/Steildach",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.24.02J",
+      "text": "Az ms dopp.met./met.SA T200/N/W/2/O f.DD/Flachdach",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.24.02K",
+      "text": "Az ms dopp.met./met.SA T200/N/W/2/O f.Edels-Abdeckrosette/DD",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.24.02L",
+      "text": "Az ms dopp.met./met.SA T200/N/W/2/O f.Edels-WD",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.24.02M",
+      "text": "Az ms dopp.met./met.SA T200/N/W/2/O f.Edels-Abdeckrosette/WD",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.24.02N",
+      "text": "Az ms dopp.met./met.SA T200/N/W/2/O f.Edels-Seilabspannring",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.24.02O",
+      "text": "Az ms dopp.met./met.SA T200/N/W/2/O f.Edels-Regenhaube",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.24.02X",
+      "text": "Az ms dopp.met./met.SA T200/N/W/2/O__________                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "35.25.00C",
+      "text": "Innendurchmesser zu 35.25",
+      "unit": ""
+    },
+    {
+      "code": "35.25.02A",
+      "text": "Mehrsch.dopp.met/met.SA T200/P/W/2/O                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "35.25.02B",
+      "text": "Az ms dopp.met./met.SA T200/P/W/2/O f.Grundpl./Wandkonsole",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.25.02C",
+      "text": "Az ms dopp.met./met.SA T200/P/W/2/O f.R-Öff.",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.25.02D",
+      "text": "Az ms dopp.met./met.SA T200/P/W/2/O f.RR",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.25.02E",
+      "text": "Az ms dopp.met./met.SA T200/P/W/2/O f.MAS",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.25.02F",
+      "text": "Az ms dopp.met./met.SA T200/P/W/2/O f.Dichtungen/Überdruck",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.25.02G",
+      "text": "Az ms dopp.met./met.SA T200/P/W/2/O f.Adapter",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.25.02H",
+      "text": "Az ms dopp.met./met.SA T200/P/W/2/O f.Wandhalter",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.25.02I",
+      "text": "Az ms dopp.met./met.SA T200/P/W/2/O f.DD/Steildach",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.25.02J",
+      "text": "Az ms dopp.met./met.SA T200/P/W/2/O f.DD/Flachdach",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.25.02K",
+      "text": "Az ms dopp.met./met.SA T200/P/W/2/O f.Edels-Abdeckrosette/DD",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.25.02L",
+      "text": "Az ms dopp.met./met.SA T200/P/W/2/O f.Edels-WD",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.25.02M",
+      "text": "Az ms dopp.met./met.SA T200/P/W/2/O f.Edels-Abdeckrosette/WD",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.25.02N",
+      "text": "Az ms dopp.met./met.SA T200/P/W/2/O f.Edels-Seilabspannring",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.25.02O",
+      "text": "Az ms dopp.met./met.SA T200/P/W/2/O f.Edels-Regenhaube",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.25.02X",
+      "text": "Az ms dopp.met./met.SA T200/P/W/2/O__________                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "35.80.01A",
+      "text": "Fangsanieren Vorarbeiten                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "35.80.03A",
+      "text": "Einrichtung f.Fang ausfräsen                                                                                      PA",
+      "unit": ""
+    },
+    {
+      "code": "35.80.06A",
+      "text": "Erweitern Fangquerschnitt b.25m/b.120mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "35.80.06B",
+      "text": "Erweitern Fangquerschnitt b.25m/ü.120-140mm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "35.80.06C",
+      "text": "Erweitern Fangquerschnitt b.25m/ü.140-160mm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "35.80.06D",
+      "text": "Erweitern Fangquerschnitt b.25m/ü.160-180mm                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "35.80.06X",
+      "text": "Erweitern Fangquerschnitt b.25m/__________                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "35.80.07A",
+      "text": "Erweitern Fangquerschnitt ü.25-50m/b.120mm                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "35.80.07B",
+      "text": "Erweitern Fangquerschnitt ü.25-50m/ü.120-140mm                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "35.80.07C",
+      "text": "Erweitern Fangquerschnitt ü.25-50m/ü.140-160mm                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "35.80.07D",
+      "text": "Erweitern Fangquerschnitt ü.25-50m/ü.160-180mm                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "35.80.07X",
+      "text": "Erweitern Fangquerschnitt ü.25-50m/__________                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "35.80.08A",
+      "text": "Az Fräs.Bet.b.C12/15 unbew./Klinkermwk.                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "35.80.81A",
+      "text": "Waagr.Aufstandsfl.f.SA f.Gerüste ü.15-45°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.80.81B",
+      "text": "Waagr.Aufstandsfl.f.SA f.Gerüste ü.45-60°",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.81.00C",
+      "text": "Innendurchmesser zu 35.81",
+      "unit": ""
+    },
+    {
+      "code": "35.81.01A",
+      "text": "Sanieren keram.SA T400/N/W/3/G                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "35.81.01B",
+      "text": "Az San.keram.SA T400/N/W/3/G f.MW-Wärmedämmung",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.81.01C",
+      "text": "Az San.keram.SA T400/N/W/3/G f.RR-Anschluss",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.81.01D",
+      "text": "Az San.keram.SA T400/N/W/3/G f.R-Öff.",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.81.01E",
+      "text": "Az San.keram.SA T400/N/W/3/G f.Anschlussadapter",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.81.01F",
+      "text": "Az San.keram.SA T400/N/W/3/G f.Anschlussadapt.BW-Gerät",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.81.01G",
+      "text": "Az San.keram.SA T400/N/W/3/G f.Hinterlüftung Fang",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.81.01W",
+      "text": "Az San.keram.SA T400/N/W/3/G f.ü.3,2m__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.82.00C",
+      "text": "Innendurchmesser zu 35.82",
+      "unit": ""
+    },
+    {
+      "code": "35.82.01A",
+      "text": "Sanieren keram.SA T200/P/W/2/O                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "35.82.01B",
+      "text": "Az San.keram.SA T200/P/W/2/O f.MW-Wärmedämmung",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.82.01C",
+      "text": "Az San.keram.SA T200/P/W/2/O f.RR-Anschluss",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.82.01D",
+      "text": "Az San.keram.SA T200/P/W/2/O f.R-Öff.",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.82.01E",
+      "text": "Az San.keram.SA T200/P/W/2/O f.Anschlussadapter",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.82.01F",
+      "text": "Az San.keram.SA T200/P/W/2/O f.Anschlussadapt.BW-Gerät",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.82.01G",
+      "text": "Az San.keram.SA T200/P/W/2/O f.Hinterlüftung Fang",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.82.01W",
+      "text": "Az San.keram.SA T200/P/W/2/O f.ü.3,2m__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.83.00C",
+      "text": "Innendurchmesser zu 35.83",
+      "unit": ""
+    },
+    {
+      "code": "35.83.01A",
+      "text": "Sanieren Kunstst.SA T200/P/W/2/O                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "35.83.01B",
+      "text": "Az San.Kunstst.SA T200/P/W/2/O f.MW-Wärmedämmung",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.83.01C",
+      "text": "Az San.Kunstst.SA T200/P/W/2/O f.RR-Anschluss",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.83.01D",
+      "text": "Az San.Kunstst.SA T200/P/W/2/O f.R-Öff.",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.83.01E",
+      "text": "Az San.Kunstst.SA T200/P/W/2/O f.Anschlussadapter",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.83.01F",
+      "text": "Az San.Kunstst.SA T200/P/W/2/O f.Anschlussadapt.BW-Gerät",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.83.01G",
+      "text": "Az San.Kunstst.SA T200/P/W/2/O f.Hinterlüftung Fang",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.83.01W",
+      "text": "Az San.Kunstst.SA T200/P/W/2/O f.ü.3,2m__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "35.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "35.90.00D",
+      "text": "Ingenieur- u.Technikerstunden",
+      "unit": ""
+    },
+    {
+      "code": "35.90.01A",
+      "text": "Regiestunden Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "35.90.01B",
+      "text": "Regiestunden Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

@@ -1,0 +1,1481 @@
+{
+  "lg": "55",
+  "title": "Sanierung von Fenstern und Türen aus Holz",
+  "positions": [
+    {
+      "code": "55.00.03A",
+      "text": "Holzschutzmittel gemäß AG",
+      "unit": ""
+    },
+    {
+      "code": "55.00.03B",
+      "text": "Holzschutzmittel gemäß System",
+      "unit": ""
+    },
+    {
+      "code": "55.00.05A",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "55.00.05B",
+      "text": "Begehung v.Arbeitsb.Festlegung",
+      "unit": ""
+    },
+    {
+      "code": "55.11.01A",
+      "text": "Inst.1f-FE.1Fl b.1",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.01B",
+      "text": "Inst.1f-FE.1Fl ü.1-1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.01C",
+      "text": "Inst.1f-FE.1Fl+OL b.1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.01D",
+      "text": "Inst.1f-FE.1Fl+OL ü.1,5-2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.02A",
+      "text": "Inst.1f-FE.2Fl b.1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.02B",
+      "text": "Inst.1f-FE.2Fl ü.1,5-2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.02C",
+      "text": "Inst.1f-FE.2Fl+OL b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.02D",
+      "text": "Inst.1f-FE.2Fl+OL ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.02E",
+      "text": "Inst.1f-FE.2Fl+2OL b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.02F",
+      "text": "Inst.1f-FE.2Fl+2OL ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.03A",
+      "text": "Inst.1f-FE.3Fl b.2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.03B",
+      "text": "Inst.1f-FE.3Fl ü.2,5-3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.03C",
+      "text": "Inst.1f-FE.3Fl+2OL b.3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.03D",
+      "text": "Inst.1f-FE.3Fl+2OL ü.3-3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.03E",
+      "text": "Inst.1f-FE.3Fl+3OL b.3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.03F",
+      "text": "Inst.1f-FE.3Fl+3OL ü.3-3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.04A",
+      "text": "Inst.1f-F-tür 1Fl b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.04B",
+      "text": "Inst.1f-F-tür 1Fl ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.04C",
+      "text": "Inst.1f-F-tür 1Fl+OL b.2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.04F",
+      "text": "Inst.1f-F-tür 1Fl+OL ü.2,5-3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.05A",
+      "text": "Inst.1f-F-tür 2Fl b.3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.05B",
+      "text": "Inst.1f-F-tür 2Fl ü.3-3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.05E",
+      "text": "Inst.1f-F-tür 2Fl+2OL b.3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.05F",
+      "text": "Inst.1f-F-tür 2Fl+2OL ü.3,5-4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.11A",
+      "text": "Inst.Vb-FE.1Fl b.1",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.11B",
+      "text": "Inst.Vb-FE.1Fl ü.1-1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.12A",
+      "text": "Inst.Vb-FE.2Fl b.1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.12B",
+      "text": "Inst.Vb-FE.2Fl ü.1,5-2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.13A",
+      "text": "Inst.Vb-FE.3Fl b.2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.13B",
+      "text": "Inst.Vb-FE.3Fl ü.2,5-3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.14A",
+      "text": "Inst.Vb-FE.4Fl b.3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.14B",
+      "text": "Inst.Vb-FE.4Fl ü.3,5-4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.15A",
+      "text": "Inst.Vb-F-tür 1Fl b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.15B",
+      "text": "Inst.Vb-F-tür 1Fl ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.16A",
+      "text": "Inst.Vb-F-tür 2Fl b.3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.16B",
+      "text": "Inst.Vb-F-tür 2Fl ü.3,5-4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.21A",
+      "text": "Inst.Kast.A-FE 1Fl b.1",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.21B",
+      "text": "Inst.Kast.A-FE 1Fl ü.1-1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.21C",
+      "text": "Inst.Kast.A-FE 1Fl+OL b.1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.21D",
+      "text": "Inst.Kast.A-FE 1Fl+OL ü.1,5-2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.22A",
+      "text": "Inst.Kast.A-FE 2Fl b.1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.22B",
+      "text": "Inst.Kast.A-FE 2Fl ü.1,5-2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.22C",
+      "text": "Inst.Kast.A-FE 2Fl+OL b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.22D",
+      "text": "Inst.Kast.A-FE 2Fl+OL ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.22E",
+      "text": "Inst.Kast.A-FE 2Fl+2OL b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.22F",
+      "text": "Inst.Kast.A-FE 2Fl+2OL ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.23A",
+      "text": "Inst.Kast.A-FE 3Fl b.2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.23B",
+      "text": "Inst.Kast.A-FE 3Fl ü.2,5-3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.23C",
+      "text": "Inst.Kast.A-FE 3Fl+2OL b.3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.23D",
+      "text": "Inst.Kast.A-FE 3Fl+2OL ü.3-3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.23E",
+      "text": "Inst.Kast.A-FE 3Fl+3OL b.3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.23F",
+      "text": "Inst.Kast.A-FE 3Fl+3OL ü.3-3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.24A",
+      "text": "Inst.Kast.A-F-tür 1Fl b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.24B",
+      "text": "Inst.Kast.A-F-tür 1Fl ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.24C",
+      "text": "Inst.Kast.A-F-tür 1Fl+OL b.2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.24D",
+      "text": "Inst.Kast.A-F-tür 1Fl+OL ü.2,5-3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.25A",
+      "text": "Inst.Kast.A-F-tür 2Fl b.3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.25B",
+      "text": "Inst.Kast.A-F-tür 2Fl ü.3,5-4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.25E",
+      "text": "Inst.Kast.A-F-tür 2Fl+2OL b.4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.25F",
+      "text": "Inst.Kast.A-F-tür 2Fl+2OL ü.4-4,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.31A",
+      "text": "Inst.Kast.I-FE 1Fl b.1",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.31B",
+      "text": "Inst.Kast.I-FE 1Fl ü.1-1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.31C",
+      "text": "Inst.Kast.I-FE 1Fl+OL b.1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.31D",
+      "text": "Inst.Kast.I-FE 1Fl+OL ü.1,5-2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.32A",
+      "text": "Inst.Kast.I-FE 2Fl b.1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.32B",
+      "text": "Inst.Kast.I-FE 2Fl ü.1,5-2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.32C",
+      "text": "Inst.Kast.I-FE 2Fl+OL b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.32D",
+      "text": "Inst.Kast.I-FE 2Fl+OL ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.32E",
+      "text": "Inst.Kast.I-FE 2Fl+2OL b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.32F",
+      "text": "Inst.Kast.I-FE 2Fl+2OL ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.33A",
+      "text": "Inst.Kast.I-FE 3Fl b.2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.33B",
+      "text": "Inst.Kast.I-FE 3Fl ü.2,5-3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.33C",
+      "text": "Inst.Kast.I-FE 3Fl+2OL b.3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.33D",
+      "text": "Inst.Kast.I-FE 3Fl+2OL ü.3-3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.33E",
+      "text": "Inst.Kast.I-FE 3Fl+3OL b.3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.33F",
+      "text": "Inst.Kast.I-FE 3Fl+3OL ü.3-3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.34A",
+      "text": "Inst.Kast.I-F-tür 1Fl b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.34B",
+      "text": "Inst.Kast.I-F-tür 1Fl ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.34C",
+      "text": "Inst.Kast.I-F-tür 1Fl+OL b.2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.34D",
+      "text": "Inst.Kast.I-F-tür 1Fl+OL ü.2,5-3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.35A",
+      "text": "Inst.Kast.I-F-tür 2Fl b.3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.35B",
+      "text": "Inst.Kast.I-F-tür 2Fl ü.3,5-4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.35E",
+      "text": "Inst.Kast.I-F-tür 2Fl+2OL b.4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.35F",
+      "text": "Inst.Kast.I-F-tür 2Fl+2OL ü.4-4,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.41A",
+      "text": "Inst.Kast-I+A-FE.1Fl b.1",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.41B",
+      "text": "Inst.Kast-I+A-FE.1Fl ü.1-1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.41C",
+      "text": "Inst.Kast-I+A-FE.1Fl+OL b.1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.41D",
+      "text": "Inst.Kast-I+A-FE.1Fl+OL ü.1,5-2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.42A",
+      "text": "Inst.Kast.I+A-FE.2Fl b.1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.42B",
+      "text": "Inst.Kast.I+A-FE.2Fl ü.1,5-2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.42C",
+      "text": "Inst.Kast.I+A-FE.2Fl+OL b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.42D",
+      "text": "Inst.Kast.I+A-FE.2Fl+OL ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.42E",
+      "text": "Inst.Kast.I+A-FE.2Fl+2OL b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.42F",
+      "text": "Inst.Kast.I+A-FE.2Fl+2OL ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.43A",
+      "text": "Inst.Kast.I+A-FE.3Fl b.2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.43B",
+      "text": "Inst.Kast.I+A-FE.3Fl ü.2,5-3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.43C",
+      "text": "Inst.Kast.I+A-FE.3Fl+2OL b.3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.43D",
+      "text": "Inst.Kast.I+A-FE.3Fl+2OL ü.3-3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.43E",
+      "text": "Inst.Kast.I+A-FE.3Fl+3OL b.3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.43F",
+      "text": "Inst.Kast.I+A-FE.3Fl+3OL ü.3-3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.44A",
+      "text": "Inst.Kast.I+A-F-tür 1Fl b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.44B",
+      "text": "Inst.Kast.I+A-F-tür 1Fl ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.44C",
+      "text": "Inst.Kast.I+A-F-tür 1Fl+OL b.2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.44D",
+      "text": "Inst.Kast.I+A-F-tür 1Fl+OL ü.2,5-3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.45A",
+      "text": "Inst.Kast.I+A-F-tür 2Fl b.3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.45B",
+      "text": "Inst.Kast.I+A-F-tür 2Fl ü.3,5-4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.45E",
+      "text": "Inst.Kast.I+A-F-tür 2Fl+2OL b.4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.45F",
+      "text": "Inst.Kast.I+A-F-tür 2Fl+2OL ü.4-4,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.51A",
+      "text": "Inst.Whg-Gangfe.1Fl b.1",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.51B",
+      "text": "Inst.Whg-Gangfe.1Fl ü.1-1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.51C",
+      "text": "Inst.Whg-Gangfe.1Fl+OL b.1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.51D",
+      "text": "Inst.Whg-Gangfe.1Fl+OL ü.1,5-2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.52A",
+      "text": "Inst.Whg-Gangfe.2Fl b.1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.52B",
+      "text": "Inst.Whg-Gangfe.2Fl ü.1,5-2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.52C",
+      "text": "Inst.Whg-Gangfe.2Fl+OL b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.52D",
+      "text": "Inst.Whg-Gangfe.2Fl+OL ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.52E",
+      "text": "Inst.Whg-Gangfe.2Fl+2OL b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.11.52F",
+      "text": "Inst.Whg-Gangfe.2Fl+2OL ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.01A",
+      "text": "1f-FE.Flügel erneuern m.Altbeschl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.01C",
+      "text": "1f-FE.Flügel erneuern+Spr.m.Altbeschl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.01E",
+      "text": "Vb-FE.Flügel erneuern m.Altbeschlag",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.01G",
+      "text": "1f-FE.Oberlichte erneuern Steckflüg.",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.01H",
+      "text": "1f-FE.Oberlichte erneuern Kippflüg.",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.01J",
+      "text": "1f-F-türflügel erneuern Stehfl.m.Altbeschl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.01K",
+      "text": "1f-F-türflügel erneuern Drehfl.m.Altbeschl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.01M",
+      "text": "Vb-Türflügel erneuern Stehfl.m.Altbeschl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.01N",
+      "text": "Vb-Türflügel erneuern Drehfl.m.Altbeschl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.03A",
+      "text": "Kämpfer erneuern",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.03B",
+      "text": "Pfosten erneuern",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.03C",
+      "text": "Waagr.Stockprofil erneuern",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.03D",
+      "text": "Lotrechtes Stockprofil erneuern",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.03E",
+      "text": "Waagr.Stockst.Kastenf.erneuern",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.03F",
+      "text": "Lotr.Stockst.Kastenf.erneuern",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.03G",
+      "text": "Oberlichtenpfosten erneuern",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.04A",
+      "text": "Waagr.1f-Flügelprof.erneuern",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.04B",
+      "text": "Lotr.1f-Flügelprof.erneuern",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.04C",
+      "text": "Sprosse 1f-Fenster erneuern",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.04D",
+      "text": "Waagr.Verb.Flügelprof.erneuern",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.04E",
+      "text": "Lotr.Verb.Flügelprof.erneuern",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.04F",
+      "text": "Sprosse Verb.Fenster erneuern",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.05A",
+      "text": "Futterauskleid.aus Brettern                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "55.12.05B",
+      "text": "Futterauskleid.aus Duplex                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "55.12.06A",
+      "text": "Stockspangen Bandeisen",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.07A",
+      "text": "Regenschutzsch.o.Dicht.b.1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.07B",
+      "text": "Regenschutzsch.o.Dicht.ü.1-1,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.07C",
+      "text": "Regenschutzsch.o.Dicht.ü.1,5-2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.07D",
+      "text": "Regenschutzsch+Schlauchd.b.1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.07F",
+      "text": "Regenschutzsch+Schlauchd.ü.1-1,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.07G",
+      "text": "Regenschutzsch+Schlauchd.ü.1,5-2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.07I",
+      "text": "Regenschutzsch+Doppellip.b.1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.07J",
+      "text": "Regenschutzsch+Doppellip.ü.1-1,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.07K",
+      "text": "Regenschutzsch+Doppellip.ü.1,5-2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.08A",
+      "text": "Verkleid.demont+montier.b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.08B",
+      "text": "Verkleid.demont+montier.ü.2-3m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.08C",
+      "text": "Verkleid.demont+montier.ü.3-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.08D",
+      "text": "Verkleid.demont+montieren",
+      "unit": "m²"
+    },
+    {
+      "code": "55.12.10A",
+      "text": "Fensterbrett abbrech.b.1,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.10B",
+      "text": "Fensterbrett abbrech.ü.1,5-2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.10C",
+      "text": "Fensterbrett abbrech.ü.2-3,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.14A",
+      "text": "Fensterb.kunststoffb.nur lief.150                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "55.12.14B",
+      "text": "Fensterb.kunststoffb.nur lief.200                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "55.12.14C",
+      "text": "Fensterb.kunststoffb.nur lief.250                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "55.12.14D",
+      "text": "Fensterb.kunststoffb.nur lief.300                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "55.12.14E",
+      "text": "Fensterb.kunststoffb.nur lief.350                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "55.12.14F",
+      "text": "Fensterbank kunststoffb.nur lief.                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "55.12.20A",
+      "text": "Fe-brett nur vers.2,5m b.20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.20B",
+      "text": "Fe-brett nur vers.2,5m ü.20-35cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.12.20C",
+      "text": "Fe-brett nur versetzen",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.01A",
+      "text": "Whg-Eing-Tür glatt 1Fl b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.01B",
+      "text": "Whg-Eing-Tür glatt 1Fl ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.01C",
+      "text": "Whg-Eing-Tür glatt 2Fl b.3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.01D",
+      "text": "Whg-Eing-Tür glatt 2Fl ü.3,5-4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.02A",
+      "text": "Whg-Eing-Tür Füll.1Fl b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.02B",
+      "text": "Whg-Eing-Tür Füll.1Fl ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.02C",
+      "text": "Whg-Eing-Tür Füll.2Fl b.3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.02D",
+      "text": "Whg-Eing-Tür Füll.2Fl ü.3,5-4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.05A",
+      "text": "Inst.allg.Tür glatt 1Fl b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.05B",
+      "text": "Inst.allg.Tür glatt 1Fl ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.05C",
+      "text": "Inst.allg.Tür glatt 2Fl b.3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.05D",
+      "text": "Inst.allg.Tür glatt 2Fl ü.3,5-4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.06A",
+      "text": "Inst.allg.Tür Füll.1Fl b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.06B",
+      "text": "Inst.allg.Tür Füll.1Fl ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.06C",
+      "text": "Inst.allg.Tür Füll.2Fl b.3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.06D",
+      "text": "Inst.allg.Tür Füll.2Fl ü.3,5-4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.07A",
+      "text": "Inst.Haustür 1Fl b.3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.07B",
+      "text": "Inst.Haustür 1Fl ü.3-3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.07C",
+      "text": "Inst.Haustür 1Fl+OL b.4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.07D",
+      "text": "Inst.Haustür 1Fl+OL ü.4-4,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.07E",
+      "text": "Inst.Haustür 2Fl b.4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.07F",
+      "text": "Inst.Haustür 2Fl.ü.4-4,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.07G",
+      "text": "Inst.Haustür 2Fl+OL b.5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.07H",
+      "text": "Inst.Haustür 2Fl+OL ü.5-6",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.08A",
+      "text": "Inst.Haustor Straße",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.08B",
+      "text": "Inst.Haustor Hof",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.10A",
+      "text": "Inst.Holzportale",
+      "unit": "m²"
+    },
+    {
+      "code": "55.13.12A",
+      "text": "Inst.Zählerkastentür 1Fl b.1",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.12B",
+      "text": "Inst.Zählerkastentür 1Fl ü.1-1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.12C",
+      "text": "Inst.Zählerkastentür 2Fl b.2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.13.12D",
+      "text": "Inst.Zählerkastentür 2Fl ü.2-2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.01A",
+      "text": "Erneuern A-Fe-flüg+R.stock 1T 1Fl 0,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.01B",
+      "text": "Erneuern A-Fe-flüg+R-stock 1T 1Fl 0,75",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.01C",
+      "text": "Erneuern A-Fe-flüg+R-stock 1T 1Fl 1",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.01D",
+      "text": "Erneuern A-Fe-flüg+R-stock 1T 1Fl 1,25",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.01E",
+      "text": "Erneuern A-Fe-flüg+R-stock 1T 2Fl 1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.01F",
+      "text": "Erneuern A-Fe-flüg+R-stock 1T 2Fl 1,75",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.01G",
+      "text": "Erneuern A-Fe-flüg+R-stock 1T 2Fl 2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.01H",
+      "text": "Erneuern A-Fe-flüg+R-stock 1T 2Fl 2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.02A",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 2Fl 2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.02B",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 2Fl 2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.02C",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 2Fl 3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.02D",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 3Fl 2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.02E",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 3Fl 3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.02F",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 3Fl 3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.02G",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 4Fl 3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.02H",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 4Fl 4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.02I",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 4Fl 4,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.02J",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 4Fl 5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.03A",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 3Fl 2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.03B",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 3Fl 3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.03C",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 3Fl 3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.03D",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 4Fl 3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.03E",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 4Fl 4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.03F",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 4Fl 4,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.03G",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 5Fl 4,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.03H",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 5Fl 5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.03I",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 5Fl 6",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.03J",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 6Fl 5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.03K",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 6Fl 6",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.03L",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 6Fl 7",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.04A",
+      "text": "Erneuern A-FE-flüg+R-stock 1T 1Fl+OL 1,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.04B",
+      "text": "Erneuern A-FE-flüg+R-stock 1T 1Fl+OL 1,75",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.04C",
+      "text": "Erneuern A-FE-flüg+R-stock 1T 1Fl+OL 2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.04D",
+      "text": "Erneuern A-FE-flüg+R-stock 1T 2Fl+OL 2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.04F",
+      "text": "Erneuern A-FE-flüg+R-stock 1T 2Fl+OL 2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.04G",
+      "text": "Erneuern A-FE-flüg+R-stock 1T 2Fl+OL 3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.04H",
+      "text": "Erneuern A-FE-flüg+R-stock 1T 2Fl+2OL 2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.04J",
+      "text": "Erneuern A-FE-flüg+R-stock 1T 2Fl+2OL 2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.04K",
+      "text": "Erneuern A-FE-flüg+R-stock 1T 2Fl+2OL 3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.05A",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 2Fl+2OL 2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.05B",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 2Fl+2OL 3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.05C",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 2Fl+2OL 3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.05D",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 3Fl+2OL 3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.05E",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 3Fl+2OL 4",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.05F",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 3Fl+2OL 4,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.05G",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 4Fl+OL 4,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.05H",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 4Fl+OL 5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.05I",
+      "text": "Erneuern A-FE-flüg+R-stock 2T 4Fl+OL 6",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.06A",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 3Fl+3OL 5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.06C",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 3Fl+3OL 6",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.06D",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 4Fl+3OL 6",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.06F",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 4Fl+3OL 7",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.06G",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 4Fl+4OL 6",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.06I",
+      "text": "Erneuern A-FE-flüg+R-stock 3T 4Fl+4OL 7",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.07A",
+      "text": "Erneuern A-F-tür+R-stock 1Fl 2",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.07B",
+      "text": "Erneuern A-F-tür+R-stock 1Fl 2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.07C",
+      "text": "Erneuern A-F-tür+R-st.1Fl+OL 2,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.07D",
+      "text": "Erneuern A-F-tür+R-stock 1Fl+OL 3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.07E",
+      "text": "Erneuern A-F-tür+R-stock 2Fl 3",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.07F",
+      "text": "Erneuern A-F-tür+R-stock 2Fl 3,5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.07G",
+      "text": "Erneuern A-F-tür+R-st.2Fl+2OL 5",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.14.07H",
+      "text": "Erneuern A-F-tür+R-st.2Fl+2OL 6",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.15.01A",
+      "text": "Az 1-f.Fe-oberlichte f.Drehb",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.15.01B",
+      "text": "Az 1-f.Fe-oberlichte f.DK-B.",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.15.02A",
+      "text": "Az Erneuern A-FE-flügel m.Dichtung                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "55.15.04A",
+      "text": "Fuge 15mm Silikon                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "55.15.04B",
+      "text": "Fuge 15mm Acryl-Disp.                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "55.15.05A",
+      "text": "Az Fuge Polyeth.Rundschnur                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "55.15.07A",
+      "text": "Erneuern Fensterbeschlag",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.15.07B",
+      "text": "Erneuern Tür-Feinbeschlag",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.15.07C",
+      "text": "Erneuern Tür-Einbauschloss",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.15.08A",
+      "text": "Az Erneuern Fensterbeschl.behindertenger.                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "55.15.08B",
+      "text": "Az Erneuern Tür-Einbauschloss behinderteng.                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "55.15.09A",
+      "text": "Erneuern Wetterschenkel b.60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.15.11A",
+      "text": "Öffnungsbegrenzung",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.15.12A",
+      "text": "Lüftungsfeststeller",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.15.13A",
+      "text": "Kindersicherung",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.16.01A",
+      "text": "Spritzdichtungen entfernen                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "55.16.01B",
+      "text": "Aufgeklebte Dichtungen entfer.                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "55.16.03A",
+      "text": "Einfräsen+Dichtungsprofil                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "55.16.04A",
+      "text": "Einkleben von Dichtungen                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "55.16.05A",
+      "text": "Dichtungsleiste auf Fensterstock                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "55.16.06A",
+      "text": "Fe-Dichtung erneuern Hohlkam.                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "55.16.06B",
+      "text": "Fe-Dichtung erneuern Lippend.                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "55.16.06C",
+      "text": "Fe-Dichtung erneuern Schlauchd.                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "55.19.01A",
+      "text": "Abtransport+Entsorg.Fensterteile",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.19.01B",
+      "text": "Abtransport+Entsorg.Fensterbretter",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.19.01C",
+      "text": "Abtransp+Entsorg.1f-Fe-flüg.1-f.Vergl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.19.01D",
+      "text": "Abtransp+Entsorg.Verb-Fe-flügel",
+      "unit": "Stk"
+    },
+    {
+      "code": "55.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "55.90.01A",
+      "text": "Regiest.Tischler/Beschlagschl.",
+      "unit": "h"
+    },
+    {
+      "code": "55.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

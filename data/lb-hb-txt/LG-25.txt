@@ -1,0 +1,793 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+           Leistungsgruppe (LG) 25 - Sicherheits- und Schutzmaßnahmen
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 2500    Wählbare Vorbemerkungen
+                     ULG 2501    Sonderkosten
+                     ULG 2511    Anschlageinrichtungen
+                     ULG 2514    Seitenschutz f.Dachkanten,Dach-u.Deckenöffnungen
+                     ULG 2516    Abgrenzungen auf Dachflächen
+                     ULG 2519    Durchsturzsicherungen f.Dach-u.Deckenöffnungen
+                     ULG 2521    Sonstiges
+                     ULG 2590    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 13
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+25          Sicherheits- und Schutzmaßnahmen
+            Version 023 (2025-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Allgemeines:
+            Im Folgenden ist das Liefern und Herstellen von Einrichtungen zum Schutz und zur Sicherheit der mit Wartungs-
+            und Instandhaltungsarbeiten Beschäftigten, die im Umgang mit persönlicher Schutzausrüstung geschult sind,
+            beschrieben.
+            2. Leistungen des AG/Systemplanung:
+            Die Systemplanung der Sicherheitsausstattung gemäß ÖNORM B 3417 und etwaige erforderliche statische
+            Nachweise über den Untergrund werden durch den Auftraggeber erbracht.
+            3. Ausführung:
+            Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl (z.B. V2A oder V4A) beschrieben.
+            4. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • das Befestigen am Untergrund
+                • das Beibringen von Nachweisen der Tragfähigkeit des Systems beziehungsweise Prüfgutachten und
+                  Zulassungen
+                • eine Systemmontage nach den Aufbau- und Verwendungsanleitungen des Herstellers
+                • eine Abnahmeprüfung der Anschlageinrichtung und Ausfertigung eines Errichtungszertifikates
+             Kommentar:
+             In dieser LG sind bleibende Schutzmaßnahmen gegen Absturz, im Sinne des BauKg (Unterlage für spätere Arbeiten)
+             beschrieben.
+             Sicherungsmaßnahmen (temporäre Schutzmaßnahmen) während Neu- und Umbauarbeiten (z.B. System-, Dachfang- und
+             Riegelgerüste) im Sinne von Bauarbeiten gemäß Bauarbeiterschutzverordnung sind in der LG 04 beschrieben.
+             Blitzschutzanlagen sind in der LB-Haustechnik beschrieben.
+             Abdichtungs-, Dachdecker-, oder Spenglerarbeiten zur Einbindung von Sicherungssystemen in Verbindung mit neu
+             hergestellten Dachabdichtungen, Dacheindeckungen oder Fassadenbekleidungen sind in der LG 25 nicht beschrieben.
+             Umstände der Leistungserbringung (z.B. etwaige erforderliche Hebebühnen /Gerüste) können mit den Positionen der ULG
+             25.00 ausgeschrieben werden.
+             Frei zu formulieren (z.B.):
+                  • begehbare Dachverglasungen
+                  • Sicherungs- und Schutzsysteme als Blitzschutzanlage (Das Seilsicherungssystem für eine Blitzschutzklasse I bis IV
+                    als Teil des Blitzschutzsystems gemäß ÖNORM EN 62305)
+                  • Auffangnetze aus Kunststoff-Fasern
+             Literaturhinweise (z.B.):
+                  • ÖNORM 2107: Umsetzung des Bauarbeitenkoordinationsgesetzes (BauKG) - Teil 2: Verfahren zur Erstellung von
+                    Sicherheits- und Gesundheitsschutzplänen sowie von Unterlagen für spätere Arbeiten
+                  • ÖNORM B 3417: Sicherheitsausstattung und Klassifizierung von Dachflächen für Nutzung, Wartung und
+                    Instandhaltung
+                  • ÖNORM EN 353: Persönliche Schutzausrüstung gegen Absturz - Teil 1: Mitlaufende Auffanggeräte einschließlich
+                    fester Führungen
+                  • ÖNORM EN 517: Vorgefertigte Zubehörteile für Dacheindeckungen - Sicherheitsdachhaken
+                  • ÖNORM EN 795: Persönliche Absturzschutzausrüstung - Anschlageinrichtungen
+                  • ÖNORM EN 13374: Temporäre Seitenschutzsysteme - Produktfestlegungen - Prüfverfahren
+                  • ÖNR/CEN TS 16415: Persönliche Absturzschutzausrüstung - Anschlageinrichtungen - Empfehlungen für die
+                    Benutzung von Anschlageinrichtungen gleichzeitig durch mehrere Personen (CEN/TS 16415:2013)
+             Informationen zur ÖNORM B 3417:
+             http://www.bauforumplus.eu/fileadmin/user_upload/EU/D-A-CH-S/Sicherheitsausstattung.pdf
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+            Geänderte Positionen:
+            25.11 12B Einzelanschlagpunkt Beton
+            25.11 21B Seilsystem Beton
+
+25.00       Wählbare Vorbemerkungen
+25.00 01    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+25.00 01A   Zugänglichkeit
+                                                                                                                             Seite 2 / 13
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+            Zusätzliche Angaben (z.B. Einsatzort): ____________
+            Erschwernisse: ____________
+
+25.00 01B   Transport- und Hubmöglichkeiten
+            Dem Auftragnehmer stehen im Baustellenbereich zum Zeitpunkt der Leistungserbringung folgende Transport-
+            und Hubmöglichkeiten unentgeltlich zur Verfügung:
+            Art der Transport- und Hubmöglichkeiten: ____________
+            Hubkapazität: ____________
+            zeitliche Vorgaben/Einschränkungen: ____________
+            zusätzliche Angaben: ____________
+            Erschwernisse: ____________
+
+25.00 01V   Verfügbarkeit von Beilagen zum LV
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von (z.B. Plänen)/wie (z.B. im PDF-Format): ____________
+            Betrifft Position(en): ____________
+
+25.01       Sonderkosten
+             Kommentar:
+             Die statische Bemessung des Befestigungsuntergrundes muss zum Zeitpunkt der Ausschreibung vorliegen.
+
+25.01 01    Sonderkosten für Auszugsversuche zur Bestimmung des Befestigungsmittels vor der Montage, ohne
+            Unterschied des Untergrundes.
+            Eine Dokumentation ist im Einheitspreis einkalkuliert.
+             Kommentar:
+             Im Regelfall werden 3 Auszugsversuche je unbekanntem Untergrund durchgeführt.
+
+25.01 01A   Auszugsversuche zur Bestimmung d.Befestigungsmittels                                                              Stk
+25.01 02    Vor- und Anschlussarbeiten bei Einbauten bei bestehenden Dächern.
+
+25.01 02A   Öffnen bestehende Dachhaut b.1m2                                                                                  Stk
+            Öffnen der Dachhaut für Einbauten (z.B. Anschlagpunkte, Stützen).
+            Abgerechnet wird z.B. je Anschlagpunkt oder Stütze.
+            Untergrund/Dachaufbau: ____________
+            Einzelöffnung bis 1 m2
+
+25.01 02B   Öffnen bestehende Dachhaut ü.1m2                                                                                  m²
+            Öffnen der Dachhaut für Einbauten (z.B. Anschlagpunkte, Stützen).
+            Abgerechnet wird die Summe der Einzelflächen.
+            Untergrund/Dachaufbau: ____________
+            Einzelöffnung über 1 m2: ____________
+
+25.01 02C   Beidecken bestehende Dachhaut b.1m2                                                                               Stk
+            Beidecken beziehungsweise Einbinden von Einbauteilen (z.B. Stützen, Anschlagpunkte).
+            Abgerechnet wird z.B. je Anschlagpunkt oder Stütze.
+            Untergrund/Dachaufbau: ____________
+            Einzelöffnung bis 1 m2
+
+25.01 02D   Beidecken bestehende Dachhaut ü.1m2                                                                               m²
+            Beidecken beziehungsweise Einbinden von Einbauteilen (z.B. Stützen, Anschlagpunkte).
+            Abgerechnet wird z.B. je Anschlagpunkt oder Stütze.
+            Untergrund/Dachaufbau: ____________
+            Einzelöffnung über 1 m2: ____________
+
+25.11       Anschlageinrichtungen
+
+
+                                                                                                                         Seite 3 / 13
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+            Im Folgenden sind dauerhaft an Dächern und Wänden montierte Einrichtungen (Systeme) zum Einhängen
+            von Verbindungsmitteln beschrieben.
+                • Einrichtungen (Systeme), einschließlich Befestigung (Halterung) am tragenden Untergrund und
+                • Einrichtungen (Systeme), durch Auflast gehalten,
+            einschließlich statischem Nachweis oder Prüfzeugnis einer akkreditierten Prüfanstalt, gemäß NORM
+            1. Anschlagpunkte:
+            Anschlagpunkte sind gemäß der ÖNORMEN EN 517 und der EN 795 aus Edelstahl, feuerverzinktem oder
+            verzinktem und pulverbeschichtetem Stahl.
+            2. Seilsysteme:
+            Im Folgenden sind Seilsysteme für mindestens 2 Personen - für beidseitige Nutzung ausgelegt - als
+            Durchlaufsystem (übergeleitet mit Seilzwischenhalter und Kurven), beschrieben.
+            Seilsysteme bestehen aus:
+                • Seilen und Stützen aus Edelstahl, feuerverzinktem oder verzinktem und pulverbeschichtetem Stahl
+            und Zubehör (in eigenen Positionen beschrieben) wie z.B. Endverankerungen für konstante Seilvorspannungen,
+            Verbindungselemente und bewegliche Führungen (Läufer) aus korrosionsbeständigem Material.
+            3. Schienensysteme:
+            Im Folgenden sind horizontale, vertikale oder schräge Schienensysteme als Durchlaufsystem beschrieben.
+            Schienensysteme bestehen aus:
+                • Schienen und Verankerungen aus nicht rostendem, feuerverzinktem oder verzinktem und
+                  pulverbeschichtetem Stahl
+            und Zubehör (in eigenen Positionen beschrieben) wie z.B. Verbindungselemente und bewegliche Führungen
+            (Läufer) aus korrosionsbeständigem Material.
+             Kommentar:
+             Bei etwaigen Durchdringungen einer Abdichtungsebene (z.B. Abdichtungshochzug, Schutzabdeckung) müssen Positionen
+             für das Öffnen und Beidecken einer bestehenden Dachhaut aus der ULG 25.01 (Sonderkosten) ausgeschrieben werden.
+             Bei neu hergestellten Abdichtungen, Eindeckungen und Verblechungen ist das Anarbeiten mit den Positionen der jeweiligen
+             LG auszuschreiben (z.B. LG 21, LG 22).
+             Überfahrbare Zwischenhalterungen sind frei zu formulieren.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+25.11 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+25.11 00C   Dachdraufsichtsplan zu 25.11
+            Dachdraufsichtsplan.
+            Betrifft Position(en): ____________
+            Angaben zur Ausführung: ____________
+
+25.11 00E   Untergrund/Dachaufbau Neubau Flachdach zu 25.11
+            Angaben zum Untergrund beziehungsweise Dachaufbau bei neu errichteten Flach-Dächern.
+            Betrifft Position(en): ____________
+            Untergrund: ____________
+            Dachaufbau: ____________
+            Dachneigung: ____________
+
+25.11 00F   Untergrund/Dachaufbau Bestand Flachdach zu 25.11
+            Angaben zum Untergrund beziehungsweise Dachaufbau bei bestehenden Flach-Dächern (Nachrüsten).
+            Betrifft Position(en): ____________
+            Untergrund: ____________
+            Dachaufbau: ____________
+            Dachneigung: ____________
+
+25.11 00G   Untergrund/Dachaufbau Neubau Steildach zu 25.11
+            Angaben zum Untergrund beziehungsweise Dachaufbau bei neu errichteten Steil-Dächern.
+            Betrifft Position(en): ____________
+                                                                                                                           Seite 4 / 13
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            Untergrund: ____________
+            Dachaufbau: ____________
+            Dachneigung: ____________
+
+25.11 00H   Untergrund/Dachaufbau Bestand Steildach zu 25.11
+            Angaben zum Untergrund beziehungsweise Dachaufbau bei neu bestehenden Steil-Dächern (Nachrüsten).
+            Betrifft Position(en): ____________
+            Untergrund: ____________
+            Dachaufbau: ____________
+            Dachneigung: ____________
+
+25.11 00V   Verfügbarkeit von Beilagen zum LV zu 25.11
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von (z.B. Plänen)/wie (z.B. im PDF-Format): ____________
+25.11 01    Sicherheitsdachhaken zum Einhängen einer Dachleiter und als Anschlagpunkt.
+                • in alle Belastungsrichtungen geprüft
+                • passend zur geplanten oder vorhandenen Dacheindeckung
+
+25.11 01A   Anschlagpunkt Sicherheitsdachhaken Edelstahl                                                                Stk
+            Aus Edelstahl.
+            Angaben zum Untergrund: ____________
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+25.11 01B   Anschlagpunkt Sicherheitsdachhaken Stahl/pulverbeschichtet                                                  Stk
+            Aus Stahl verzinkt/pulverbeschichtet.
+            Angaben zum Untergrund: ____________
+25.11 12    Einzelanschlagpunkt, geprüft für den Einsatz von mindestens 2 Personen.
+
+25.11 12A   Einzelanschlagpunkt Auflast                                                                                 Stk
+            Durch Auflast gehalten.
+            Angaben zum Untergrund: ____________
+
+25.11 12B   Einzelanschlagpunkt Beton                                                                                   Stk
+            Auf tragfähiger Betonunterkonstruktion der Festigkeitsklasse C20/25 und höher.
+
+            LB-Version: 23               Geändert
+
+25.11 12C   Einzelanschlagpunkt Holz                                                                                    Stk
+            Auf tragfähiger Holzunterkonstruktion.
+            Vorhandener Querschnitt: ____________
+
+25.11 12D   Einzelanschlagpunkt MWK/Voll-u.Hohlziegel                                                                   Stk
+            Auf Mauerwerk (MWK) aus Voll- und Hohlziegeln.
+
+25.11 12E   Einzelanschlagpunkt Metalleindeckungen                                                                      Stk
+            Auf Metalleindeckungen, durchdringungsfrei geklemmt.
+
+25.11 12X   Einzelanschlagpunkt                                                                                         Stk
+            Angaben zum Untergrund: ____________
+
+25.11 13    Zubehör für Einzelanschlagpunkte.
+
+25.11 13A   Wärmedämmkappen f.Einzelanschlagpunkte                                                                      Stk
+            Wärmedämmkappen.
+
+25.11 21    Seilsystem mit konstanter Seilvorspannung (Verbindungselement) und Sicherungsseil aus Edelstahl (Leitseil)
+            für bewegliche Führungen (Läufer), geprüft für den Einsatz von mindestens 2 Personen.
+
+                                                                                                                   Seite 5 / 13
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+25.11 21A   Seilsystem Auflast                                                                                             m
+            Durch Auflast gehalten.
+            Angaben zum Untergrund: ____________
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+25.11 21B   Seilsystem Beton                                                                                               m
+            Auf tragfähiger Betonunterkonstruktion der Festigkeitsklasse C20/25 und höher.
+
+            LB-Version: 23               Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+25.11 21C   Seilsystem Holz                                                                                                m
+            Auf tragfähiger Holzunterkonstruktion.
+            Vorhandener Querschnitt: ____________
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+25.11 21D   Seilsystem MWK/Voll-u.Hohlziegel                                                                               m
+            Auf Mauerwerk (MWK) aus Voll- und Hohlziegeln.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+25.11 21E   Seilsystem auf Metalleindeckungen                                                                              m
+            Auf Metalleindeckungen, durchdringungsfrei geklemmt.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+25.11 21X   Seilsystem                                                                                                     m
+            Angaben zum Untergrund: ____________
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+25.11 22    Zubehör für Seilsysteme mit konstanter Seilvorspannung (Verbindungselement) und Sicherungsseil aus
+            Edelstahl (Leitseil), passend zum ausgeschriebenen System.
+
+25.11 22A   Bewegliche Führungen waagrecht f.Seilsysteme                                                                   Stk
+            Bewegliche Führungen (Läufer) für waagrecht geführte Leitseile.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+25.11 22B   Bewegliche Führungen lotrecht/schräg f.Seilsysteme                                                             Stk
+            Bewegliche Führungen (Läufer) für lotrecht oder schräg geführte Leitseile mit integrierter Sperre (Steigschutz).
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+25.11 22C   Verbindungselemente f.Seilsysteme                                                                              Stk
+            Verbindungselemente.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+25.11 22D   Endverankerung f.Seilsysteme                                                                                   Stk
+            Endverankerung.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+
+
+                                                                                                                      Seite 6 / 13
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+25.11 22E   Kurven-/Eckelemente 45°/90° f.Seilsysteme                                                                     Stk
+            Kurven- oder Eckelemente überfahrbar, 45° oder 90°.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+25.11 22F   Wärmedämmkappen f.Stützen f.Seilsysteme                                                                       Stk
+            Wärmedämmkappen für Stützen.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+25.11 31    Schienensystem für bewegliche Führungen (Läufer), geprüft für den Einsatz von mindestens 2 Personen.
+
+25.11 31A   Schienensystem Auflast                                                                                        m
+            Durch Auflast gehalten.
+            Angaben zum Untergrund: ____________
+
+25.11 31B   Schienensystem Beton                                                                                          m
+            Auf tragfähiger Betonunterkonstruktion der Festigkeitsklasse C20/25.
+
+25.11 31C   Schienensystem Holz                                                                                           m
+            Auf tragfähiger Holzunterkonstruktion.
+            Vorhandener Querschnitt: ____________
+
+25.11 31D   Schienensystem MWK/Voll-u.Hohlziegel                                                                          m
+            Auf Mauerwerk (MWK) aus Voll- und Hohlziegeln.
+
+25.11 31E   Schienensystem auf Metalleindeckungen                                                                         m
+            Auf Metalleindeckungen, durchdringungsfrei geklemmt.
+
+25.11 31X   Schienensystem                                                                                                m
+            Angaben zum Untergrund: ____________
+
+25.11 32    Zubehör für Schienensysteme, passend zum ausgeschriebenen System.
+
+25.11 32A   Bewegliche Führungen waagrecht f.Schienensysteme                                                              Stk
+            Bewegliche Führungen (Läufer) für waagrecht geführte Schienen..
+
+25.11 32B   Bewegliche Führungen lotrecht/schräg f.Schienensysteme                                                        Stk
+            Bewegliche Führungen (Läufer) für lotrecht oder schräg geführte Schienen mit integrierter Sperre (Steigschutz).
+
+25.11 32C   Verbindungselemente f.Schienensysteme                                                                         Stk
+            Verbindungselemente.
+
+25.11 32D   Kurvenelemente 45°/90° f.Schienensysteme                                                                      Stk
+            Kurvenelemente als Innen - oder Außenkurven, 45° oder 90°.
+
+25.11 32E   Wärmedämmkappen f.Stützen f.Schienensysteme                                                                   Stk
+            Wärmedämmkappen für Stützen.
+
+25.14       Seitenschutz f.Dachkanten,Dach-u.Deckenöffnungen
+            Im Folgenden sind dauerhaft montierte oder aufgestellte Absturzsicherungen (Seitenschutz) an
+            Dachkanten, Dach- und Deckenöffnungen, die aus einer durchlaufenden Brust-, Mittel- und Fußwehr bestehen,
+            beschrieben.
+                • Systeme, einschließlich Befestigung (Halterung) am tragenden Untergrund und
+                • Systeme, durch Auflast gehalten,
+            einschließlich statischem Nachweis oder Prüfzeugnis einer akkreditierten Prüfanstalt, gemäß NORM.
+            Absturzsicherungen (Seitenschutz)
+            bestehen aus:
+                                                                                                                     Seite 7 / 13
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+                • Stehern, Holmen und Verbindungsmitteln aus Aluminium oder aus nicht rostendem Stahl und
+                • Stütz- und Haltegewichten sind aus witterungsbeständigem und zu den Dachbauteilen kompatiblen
+                  Material.
+             Kommentar:
+             Bei etwaigen Durchdringungen einer Abdichtungsebene (z.B. Abdichtungshochzug, Schutzabdeckung) müssen Positionen
+             für das Öffnen und Beidecken einer bestehenden Dachhaut aus der ULG 25.01 (Sonderkosten) ausgeschrieben werden.
+             Bei neu hergestellter Abdichtungen, Eindeckungen und Verblechungen ist das Anarbeiten mit den Positionen der jeweiligen
+             LG auszuschreiben (z.B. LG 21, LG 22).
+             Geländer gemäß OIB RL 1 und 4 sind in der LG 31 (Metallbauarbeiten) beschrieben.
+             Seitenschutz als Absicherung an der Traufe von Dächern mit einer Neigung über 20° ist gemäß
+             Bauarbeiterschutzverordnung, Abschnitt 11 zu planen.
+             Bei vorhandenen Bauteilen mit einer Höhe von mind. 15 cm über der Standfläche kann die Fußwehr entfallen
+
+25.14 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+25.14 00C   Dachdraufsichtsplan zu 25.14
+            Dachdraufsichtsplan.
+            Angaben zur Ausführung: ____________
+
+25.14 00E   Untergrund/Dachaufbau Neubau zu 25.14
+            Angaben zum Untergrund beziehungsweise Dachaufbau bei neu errichteten Flach-Dächern.
+            Betrifft Position(en): ____________
+            Untergrund: ____________
+            Dachaufbau: ____________
+            Dachneigung: ____________
+
+25.14 00F   Untergrund/Dachaufbau Bestand zu 25.14
+            Angaben zum Untergrund beziehungsweise Dachaufbau bei bestehenden Flach-Dächern (Nachrüsten).
+            Betrifft Position(en): ____________
+            Untergrund: ____________
+            Dachaufbau: ____________
+            Dachneigung: ____________
+
+25.14 00V   Verfügbarkeit von Beilagen zum LV zu 25.14
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von (z.B. Plänen)/wie (z.B. im PDF-Format): ____________
+25.14 01    Absturzsicherung (Seitenschutz), durch Auflast gehalten.
+
+25.14 01A   Seitenschutz aufgestellt                                                                                             m
+            Als durchdringungsfreie Konstruktion
+                • auf flach geneigten Dächern aufgestellt
+            Material des Seitenschutzes: ____________
+
+25.14 03    Absturzsicherung (Seitenschutz) an der Innenseite der Attika, oberhalb des Abdichtungshochzuges, montiert,
+                • bestehend aus Steher, Brust- und Mittelwehr gemäß EN 13374
+            Im Positionsstichwort ist die Gesamthöhe, ab dem Montagepunkt, angegeben.
+
+25.14 03A   Seitenschutz Attika-Innenseite b.50cm                                                                                m
+            Angaben zum Attikadetail (z.B. Plannummer): ____________
+            Material des Seitenschutzes: ____________
+
+25.14 03B   Seitenschutz Attika-Innenseite ü.50-70cm                                                                             m
+            Angaben zum Attikadetail (z.B. Plannummer): ____________
+            Material des Seitenschutzes: ____________
+
+25.14 03C   Seitenschutz Attika-Innenseite ü.70-100cm                                                                            m
+
+                                                                                                                            Seite 8 / 13
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+            Angaben zum Attikadetail (z.B. Plannummer): ____________
+            Material des Seitenschutzes: ____________
+
+25.14 03X   Seitenschutz Attika-Innenseite ü.100cm-__________                                                                    m
+            Angaben zum Attikadetail (z.B. Plannummer): ____________
+            Material des Seitenschutzes: ____________
+
+25.14 03Y   Az Seitenschutz Attika-Innenseite f.Ecken                                                                            Stk
+            Aufzahlung (Az) für Eckausbildungen.
+            Betrifft Position(en): ____________
+25.14 05    Absturzsicherung (Seitenschutz) am Untergrund oder Dachrand, durch die Abdichtungsebene, montiert.
+                • bestehend aus Steher, Brust- und Mittelwehr beziehungsweise einer Fußwehr gemäß EN 13374
+            Im Positionsstichwort ist die Gesamthöhe, ab dem Montagepunkt, angegeben.
+
+25.14 05A   Seitenschutz am Untergrund/Dachrand b.50cm                                                                           m
+            Material des Seitenschutzes: ____________
+
+25.14 05B   Seitenschutz am Untergrund/Dachrand ü.50-70cm                                                                        m
+            Material des Seitenschutzes: ____________
+
+25.14 05C   Seitenschutz am Untergrund/Dachrand ü.70-100cm                                                                       m
+            Material des Seitenschutzes: ____________
+
+25.14 05D   Seitenschutz am Untergrund/Dachrand ü.100-125cm                                                                      m
+            Material des Seitenschutzes: ____________
+
+25.14 05E   Seitenschutz am Untergrund/Dachrand ü.125-150cm                                                                      m
+            Material des Seitenschutzes: ____________
+
+25.14 05X   Seitenschutz am Untergrund/Dachrand ü.150cm-__________                                                               m
+            Material des Seitenschutzes: ____________
+
+25.14 05Y   Az Seitenschutz am Untergrund/Dachrand f.Ecken                                                                       Stk
+            Aufzahlung (Az) für Eckausbildungen.
+            Angaben zum Attikadetail (z.B. Plannummer): ____________
+
+25.16       Abgrenzungen auf Dachflächen
+            Im Folgenden sind dauerhaft montierte oder aufgestellte Abgrenzungen vor Dachkanten, Dach- und
+            Deckenöffnungen, die aus einer durchlaufenden Brustwehr mit einer Höhe von 1 m über der begehbaren Fläche
+            bestehen, beschrieben.
+                • Systeme, einschließlich Befestigung (Halterung) am tragenden Untergrund und
+                • Systeme, durch Auflast gehalten,
+            einschließlich statischem Nachweis oder Prüfzeugnis einer akkreditierten Prüfanstalt, gemäß NORM
+            Abgrenzungen:
+            mit einem Abstand zur Absturzkante von mindestens 2 m, bestehen aus:
+                • Stehern, Holmen und Verbindungsmitteln aus Aluminium oder aus nicht rostendem Stahl und
+                • Stützgewichten aus witterungsbeständigem und zu den Dachbauteilen kompatiblen Material.
+            Mindestanforderungen von Abgrenzungen entsprechen der ÖNORM EN 13374.
+             Kommentar:
+             Bei etwaigen Durchdringungen einer Abdichtungsebene (z.B. Abdichtungshochzug, Schutzabdeckung) müssen Positionen
+             für das Öffnen und Beidecken einer bestehenden Dachhaut aus der ULG 25.01 (Sonderkosten) ausgeschrieben werden.
+             Bei neu hergestellter Abdichtungen, Eindeckungen und Verblechungen ist das Anarbeiten mit den Positionen der jeweiligen
+             LG auszuschreiben (z.B. LG 21, LG 22).
+             Absturzsicherungen, die an Lichtkuppeln, Aufsatzkränzen oder Lichtbandsystemen montiert sind sowie Lichtkuppeln oder
+             Lichtsystemen, die ohne weitere Maßnahmen durchsturzsicher sind, sind in der LG 56 (Dachflächenfenster, Lichtkuppeln,
+
+
+
+
+                                                                                                                            Seite 9 / 13
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+             Lichtbänder) beschrieben.
+             Abgrenzungen als Absicherung an der Traufe von Dächern mit einer Neigung über 20° ist gemäß
+             Bauarbeiterschutzverordnung, Abschnitt 11 zu planen.
+25.16 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+25.16 00C   Dachdraufsichtsplan AG 25.16
+            Dachdraufsichtsplan.
+            Angaben zur Ausführung: ____________
+
+25.16 00E   Untergrund/Dachaufbau Neubau zu 25.16
+            Angaben zum Untergrund beziehungsweise Dachaufbau bei neu errichteten Flach-Dächern.
+            Betrifft Position(en): ____________
+            Untergrund: ____________
+            Dachaufbau: ____________
+            Dachneigung: ____________
+
+25.16 00F   Untergrund/Dachaufbau Bestand zu 25.16
+            Angaben zum Untergrund beziehungsweise Dachaufbau bei bestehenden Flach-Dächern (Nachrüsten).
+            Betrifft Position(en): ____________
+            Untergrund: ____________
+            Dachaufbau: ____________
+            Dachneigung: ____________
+
+25.16 00V   Verfügbarkeit von Beilagen zum LV zu 25.16
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von (z.B. Plänen)/wie (z.B. im PDF-Format): ____________
+25.16 03    Abgrenzung am Untergrund, aufgestellt.
+                • als durchdringungsfreie Konstruktionen
+                • auf flach geneigten Dächern
+            Im Positionsstichwort ist die Gesamthöhe, ab dem Montagepunkt, angegeben.
+
+25.16 03A   Abgrenzung aufgestellt b.100cm                                                                                       m
+
+25.16 03B   Abgrenzung aufgestellt ü.100cm-__________                                                                            m
+25.16 05    Abgrenzung am Untergrund, durch die Abdichtungsebene, montiert.
+                • einschließlich Eckausbildungen
+            Im Positionsstichwort ist die Gesamthöhe ab dem Montagepunkt angegeben.
+
+25.16 05A   Abgrenzung am Untergrund b.100cm                                                                                     m
+
+25.16 05B   Abgrenzung am Untergrund ü.100cm-__________                                                                          m
+25.19       Durchsturzsicherungen f.Dach-u.Deckenöffnungen
+            Im Folgenden sind dauerhafte Netzunterspannungen oder Gitter für Dach- und Deckenöffnungen, die
+            nachträglich eingebaut werden, beschrieben.
+                • Netze aus Edelstahl (Maschenweite 100 x 100 mm) und
+                • Gitter (Rundstahl oder Kantprofile) aus rostfreiem, feuerverzinktem oder verzinkt und beschichtetem Stahl
+                  (Maschenweite höchstens 120 x 120 mm)
+            Mindestfestigkeit gemäß GS-Bau-18: SB 600 (600 Joule).
+             Kommentar:
+             Bei neu hergestellter Abdichtungen, Eindeckungen und Verblechungen ist das Anarbeiten mit den Positionen der jeweiligen
+             LG auszuschreiben (z.B. LG 21, LG 22).
+             Das De- und Wiedermontieren von Lichtkuppel, Lichtbändern etc. ist in gesonderten Positionen auszuschreiben.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+
+                                                                                                                           Seite 10 / 13
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+25.19 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+25.19 00C   Montagezugang zu 25.19
+            Umstände der Leistungserbringung.
+            Montagemöglichkeit von oben nach Öffnen von Lichtkuppeln oder Lichtbändern beziehungsweise von unten.
+            Betrifft Position(en): ____________
+            Angabe der Innenhöhe: ____________
+            Einsatz von Hebebühnen/Gerüsten: ____________
+            Einschränkungen der Zugänglichkeit: ____________
+
+25.19 00E   Untergrund/Dachaufbau zu 25.19
+            Angaben zum Untergrund beziehungsweise Dachaufbau im Montagebereich.
+            Betrifft Position(en): ____________
+            Untergrund: ____________
+            Dachaufbau: ____________
+            Dachneigung: ____________
+
+25.19 00V   Verfügbarkeit von Beilagen zum LV zu 25.19
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von (z.B. Plänen)/wie (z.B. im PDF-Format): ____________
+25.19 01    Nachträgliche Durchsturzsicherung für Lichtkuppeln und Belichtungsöffnungen.
+
+25.19 01A   Durchsturzsicherung Lichtk./Belichtungsöff.Gitter/Edelstahl                                                Stk
+            Als Gitter, Edelstahl.
+            Abmessungen (Länge x Breite; Durchmesser): ____________
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+25.19 01B   Durchsturzsicherung f.Lichtk./Belichtungsöff.Gitter verz.                                                  Stk
+            Als Gitter, verzinkt.
+            Abmessungen (Länge x Breite; Durchmesser): ____________
+
+25.19 01C   Durchsturzsicherung f.Lichtk./Belichtungsöff.Netz/Edelstahl                                                Stk
+            Als Netz, Edelstahl.
+            Abmessungen (Länge x Breite): ____________
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+25.19 01Y   Az Durchst.-Sicherung Lichtk./Belichtungsöff.f.Öffnungen                                                   Stk
+            Aufzahlungen (Az) für das Herstellen von Öffnungen (z.B. für Lüftungsmotore).
+            Abmessungen: bis 20 x 20 cm
+
+25.19 01Z   Az Durchst.-Sicherung Lichtk./Belichtungsöff.f.Unterbrechung                                               Stk
+            Aufzahlungen (Az) für das Herstellen von über die gesamte Breite durchgehender Unterbrechungen (z.B.
+            Rauchklappenbrücken), einschließlich Verstärkungen.
+            Abgerechnet wir je Unterbrechung (= beidseitig).
+
+25.19 21    Durchsturzsicherung für Lichtbänder mit Gitter.
+
+25.19 21A   Durchsturzsicherung Lichtband Gitter                                                                       Stk
+            Ausführung: ____________
+            Sonstige Angaben: ____________
+            Abmessungen (Länge x Breite): ____________
+
+25.19 21Y   Az Durchst.-Sicherung Lichtband Gitter f.Öffnungen                                                         Stk
+                                                                                                                 Seite 11 / 13
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+            Aufzahlungen (Az) für das Herstellen von Öffnungen (z.B. für Lüftungsmotore)
+            Abmessungen: bis 20 x 20 cm
+
+25.19 21Z   Az Durchst.-Sicherung Lichtband Gitter f.Unterbrechung                                                     Stk
+            Aufzahlungen (Az) für das Herstellen von Unterbrechungen.
+            Abmessungen: ____________
+25.19 31    Durchsturzsicherung für Lichtbänder mit Auffangnetz.
+
+25.19 31A   Durchsturzsicherung Lichtband Auffangnetz                                                                  m²
+            Ausführung: ____________
+            Sonstige Angaben: ____________
+            Abmessungen (Länge x Breite): ____________
+
+25.19 31B   Az Durchst.-Sicherung Lichtband Auffangnetz f.Öff.20x20cm                                                  Stk
+            Aufzahlungen (Az) für das Herstellen von Öffnungen (z.B. für Lüftungsmotore).
+            Abmessungen: bis 20 x 20 cm
+
+25.19 31X   Az Durchst.-Sicherung Lichtband Auffangnetz f.Öffnung                                                      Stk
+            Aufzahlungen (Az) für das Herstellen einer Öffnung.
+            Abmessungen: ____________
+
+25.19 31Y   Az Durchst.-Sicherung Lichtband Auffangnetz f.Unterbrechung                                                Stk
+            Aufzahlungen (Az) für das Herstellen von Unterbrechungen.
+            Abmessungen: ____________
+
+25.21       Sonstiges
+25.21 01    Protokolle und Dokumentation gemäß ÖN B 3417.
+
+25.21 01A   Dokumentation von Sicherheits-u.Schutzmaßnahmen                                                            PA
+            Dokumentation von Sicherheits-u.Schutzmaßnahmen mit nachweislicher Übergabe der Unterlagen an den AG,
+            bestehend aus:
+                • Übersichtsplan (z.B. Dachdraufsichtpläne) mit Kennzeichnung der Auf- und Ausstiege, Schema des
+                  Systems, einschließlich nummeriertem Eintrag aller Elemente (z.B. Stützen und Anschlagpunkte)
+                • nummerierte Bilddokumentation der Befestigung am Untergrund aller Elemente (z.B. Stützen und
+                  Anschlagpunkte)
+                • Angaben zum Hersteller und zum angebotenem System, einschließlich Bedienungs- und
+                  Wartungshinweisen
+                • Angaben zum Installationszeitpunkt
+                • Zeitpunkt der nächsten Überprüfung
+            Übergabe/Form (schriftlicher oder digital): ____________
+
+25.21 01B   Aushang Übersichtsplan u.Systembeschreibung                                                                Stk
+            Dauerhafter Aushang an witterungsgeschützten Stellen (z.B. am Dachboden, beim Dachausstieg)
+                • mit Übersichtsplan und Bedienungshinweisen
+                • in allseitig foliertem Ausdruck (oder gleichwertiger Qualität)
+                • einschließlich Montage an vom AG angegebenen Stellen
+            Abgerechnet wird je Aushangstelle.
+
+25.90       Regieleistungen
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+                                                                                                                 Seite 12 / 13
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+            3. Beschäftigungsgruppen:
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Überstunden, die dem Arbeitsruhegesetz unterliegen sind frei zu formulieren.
+
+25.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+25.90 00A   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+25.90 01    Regiestundensatz.
+
+25.90 01A   Regiestundensatz Facharbeiter                                                                                    h
+            Für Facharbeiter.
+
+25.90 01B   Regiestundensatz Hilfsarbeiter                                                                                   h
+            Für Hilfsarbeiter.
+
+25.90 51    Materiallieferungen f.Regieleistungen                                                                            VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+            LB-Version: 23                 Geringfügig Geändert
+
+
+
+
+                                                                                                                       Seite 13 / 13
+                                                                                                  ib-data GmbH, Softwareentwicklung
+

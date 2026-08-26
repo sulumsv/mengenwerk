@@ -1,0 +1,1866 @@
+{
+  "lg": "22",
+  "title": "Dachdeckerarbeiten",
+  "positions": [
+    {
+      "code": "22.00.01A",
+      "text": "Materialprüfung",
+      "unit": ""
+    },
+    {
+      "code": "22.00.01V",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "22.14.01A",
+      "text": "Windlastsicherung gem.Windlast-Berechnung f.Ziegeldeckung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.02A",
+      "text": "Ziegeltasche DD eckig 18/20x38/40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.02B",
+      "text": "Ziegeltasche DD eckig 19/20x42cm",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.02C",
+      "text": "Ziegeltasche DD gerundet 19/20x40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.03A",
+      "text": "Biberschwanzziegel DD Rundschnitt 18/20x38/40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.03B",
+      "text": "Biberschwanzziegel DD Rundschnitt 19/20x42cm",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.03C",
+      "text": "Biberschwanzziegel DD Segmentschnitt 19/20x40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.04A",
+      "text": "Strangfalzziegeldeckung/Strangdachziegel 20-21cm",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.05A",
+      "text": "Pressfalz-/Strangfalzziegeldeckung 20-21cm",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.05B",
+      "text": "Pressfalzziegeldeckung eben 19-22cm",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.05C",
+      "text": "Pressfalzziegeldeckung eben 22-25cm",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.05D",
+      "text": "Pressfalzziegeldeckung profiliert 19-22cm",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.05E",
+      "text": "Pressfalzziegeldeckung profiliert 22-25cm",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.06A",
+      "text": "Biberfalzziegeldeckung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.07A",
+      "text": "Gebrauchte Dachziegel DD 18/20x38/40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.07B",
+      "text": "Gebrauchte Dachziegel DD 19/20x42/46cm",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.08A",
+      "text": "Gebrauchte Strangfalzziegel",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.09A",
+      "text": "Gebrauchte Pressfalzziegel 19-22cm",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.09B",
+      "text": "Gebrauchte Pressfalzziegel 22-25cm",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.10A",
+      "text": "Gebrauchte Biberfalzziegel",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.15A",
+      "text": "Fugenverstrich Taschen/Biberschwanz-Ziegeldeckung DD",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.15B",
+      "text": "Fugenverstrich Strangfalz-/Biberfalz-Ziegeldeckung ED",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.15C",
+      "text": "Fugenverstrich Pressfalz-Ziegeldeckung ED",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.17A",
+      "text": "Az Ziegeldeckung ED f.Erschwernisse Unterdach",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.17B",
+      "text": "Az Ziegeldeckung DD f.Erschwernisse Unterdach",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.18A",
+      "text": "Az Ziegeldeckung ED f.Anarbeiten/gerade                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.18B",
+      "text": "Az Ziegeldeckung DD f.Anarbeiten/gerade                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.18C",
+      "text": "Az Ziegeldeckung ED f.Anarbeiten/schräg                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.18D",
+      "text": "Az Ziegeldeckung DD f.Anarbeiten/schräg                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.19A",
+      "text": "Az Ziegeldeckung ED f.Neigung ü.45-60°",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.19B",
+      "text": "Az Ziegeldeckung DD f.Neigung ü.45-60°",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.19C",
+      "text": "Az Ziegeldeckung f.Ortgangziegel                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.19D",
+      "text": "Az Ziegeldeckung f.Abdichten Innenrand                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.19E",
+      "text": "Az Ziegeldeckung f.Vogelschutz                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.19F",
+      "text": "Az Ziegeldeckung f.Vogelschutz m.Höhenausgleich                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.19G",
+      "text": "Az Ziegeldeckung f.Höhenausgleich                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.19H",
+      "text": "Az Ziegeldeckung Fläche f.Kronendeckung DD",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.21A",
+      "text": "First-/Gratziegel Falzfirst trocken verlegt                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.21B",
+      "text": "First-/Gratziegel Falzfirst+Mörtel                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.21C",
+      "text": "First-/Gratziegel Glattfirst trocken verlegt                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.21D",
+      "text": "First-/Gratziegel Glattfirst+Mörtel                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.21E",
+      "text": "Anfang-/Endscheiben f.First-/Grat-Ziegeldeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.21F",
+      "text": "Grat-Anfangziegel f.First-/Grat-Ziegeldeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.21G",
+      "text": "Verteiler 3-achsig f.First-/Grat-Ziegeldeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.21H",
+      "text": "Verteiler 4-achsig f.First-/Grat-Ziegeldeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.21I",
+      "text": "First-/Pultziegel Ziegeldeckung                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.21J",
+      "text": "First-/Gratlatte Ziegeldeckung                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.22A",
+      "text": "Entlüft.-Elemente Kunstst.f.First-/Grat-Ziegeldeckung                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.22B",
+      "text": "Entlüft.-Elemente Alu f.First-/Grat-Ziegeldeckung                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.22C",
+      "text": "Lüftungsband f.Ziegeldeckung                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.22D",
+      "text": "Lüfterziegel f.Ziegeldeckung ED",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.22E",
+      "text": "Lüfterset f.Ziegeldeckung DD",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.22F",
+      "text": "Belüftungsgitter/Vogelschutz Traufe f.Ziegeldeckung                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.25A",
+      "text": "Dunstrohrset Ton f.Ziegeldeckung b.150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.25B",
+      "text": "Dunstrohrset Kunststoff f.Ziegeldeckung b.100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.25C",
+      "text": "Dunstrohrset Kunststoff f.Ziegeldeckung ü.100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.25D",
+      "text": "Antennenaufsatz Ton f.Ziegeldeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.25E",
+      "text": "Rohr-u.Kabeldurchführungen Ton f.Ziegeldeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.25F",
+      "text": "Az Ziegeldeckung m.Unterdach f.Dichtmanschette",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.26A",
+      "text": "Stand-/Grundplatte f.Ziegeldeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.26B",
+      "text": "Steigtritt-Set f.Ziegeldeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.26C",
+      "text": "Stufenrost-Set 40x25cm f.Ziegeldeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.26D",
+      "text": "Stufenrost-Set 80x25cm f.Ziegeldeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.26E",
+      "text": "Laufrost-System f.Ziegeldeckung                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.26G",
+      "text": "Schneefangbaum f.Ziegeldeckung                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.26H",
+      "text": "Schneehalter Metall f.Ziegeldeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.26I",
+      "text": "Schneehalter Ton f.Ziegeldeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.26J",
+      "text": "Ausstiegsfenster feuerverzinkt/beschicht.f.Ziegeldeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.26K",
+      "text": "Ausstiegsfenster Cu f.Ziegeldeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.26L",
+      "text": "Ausstiegsfenster Kunststoff f.Ziegeldeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.26M",
+      "text": "Ausstiegsfenster m.Metalleinfassung f.Ziegeldeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.30A",
+      "text": "Az Ziegeld.f.Ausschn.UD regen-/flugschneesicher b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.30B",
+      "text": "Az Ziegeld.f.Ausschn.UD regen-/flugschneesicher ü.0,1m2                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.30C",
+      "text": "Az Ziegeld.f.Ausschn.UD winddicht b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.30D",
+      "text": "Az Ziegeld.f.Ausschn.UD winddicht ü.0,1m2                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.31A",
+      "text": "Az Ziegeldeckung f.Beidecken Stütze ED",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.31B",
+      "text": "Az Ziegeldeckung f.Beidecken Stütze DD",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.31C",
+      "text": "Az Ziegeldeckung f.Beidecken Öffnung b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.14.31D",
+      "text": "Az Ziegeldeckung f.Beidecken Öffnung ü.0,5m2                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.41A",
+      "text": "Az DD Ziegeldeckung f.Ränder/Umsäumungen m.Mörtel                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "22.14.42A",
+      "text": "Az DD Ziegeldeckung f.Runddeckung Kegel",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.42B",
+      "text": "Az DD Ziegeldeckung f.Runddeckung Kehlen",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.42C",
+      "text": "Az DD Ziegeldeckung f.Runddeckung Gaupen",
+      "unit": "m²"
+    },
+    {
+      "code": "22.14.42D",
+      "text": "Az DD Ziegeldeckung f.Runddeckung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.15.01A",
+      "text": "Windlastsicherung gem.Windlast-Berechnung f.Betondachsteine",
+      "unit": "m²"
+    },
+    {
+      "code": "22.15.02A",
+      "text": "Betontaschen DD",
+      "unit": "m²"
+    },
+    {
+      "code": "22.15.03A",
+      "text": "Betondach-Bibersteine DD",
+      "unit": "m²"
+    },
+    {
+      "code": "22.15.04A",
+      "text": "Betondachsteine profiliert glatt",
+      "unit": "m²"
+    },
+    {
+      "code": "22.15.04B",
+      "text": "Betondachsteine profiliert granuliert",
+      "unit": "m²"
+    },
+    {
+      "code": "22.15.04C",
+      "text": "Betondachsteine eben m.Seitenfalz",
+      "unit": "m²"
+    },
+    {
+      "code": "22.15.04D",
+      "text": "Betondachsteine profiliert großflächig",
+      "unit": "m²"
+    },
+    {
+      "code": "22.15.08A",
+      "text": "Gebrauchte Betontaschen DD",
+      "unit": "m²"
+    },
+    {
+      "code": "22.15.09A",
+      "text": "Gebrauchte Betondach-Bibersteine DD",
+      "unit": "m²"
+    },
+    {
+      "code": "22.15.10A",
+      "text": "Gebrauchte Betondachsteine",
+      "unit": "m²"
+    },
+    {
+      "code": "22.15.10B",
+      "text": "Gebrauchte Betondachsteine profiliert",
+      "unit": "m²"
+    },
+    {
+      "code": "22.15.15A",
+      "text": "Fugenverstrich Bet.-Dachsteindeckung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.15.17A",
+      "text": "Az Bet.-Dachsteindeckung f.Erschwernisse Unterdach",
+      "unit": "m²"
+    },
+    {
+      "code": "22.15.18A",
+      "text": "Az Bet.-Dachsteindeckung ED f.Anarbeiten/gerade                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.18B",
+      "text": "Az Bet.-Dachsteindeckung DD f.Anarbeiten/gerade                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.18C",
+      "text": "Az Bet.-Dachsteindeckung ED f.Anarbeiten/schräg                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.18D",
+      "text": "Az Bet.-Dachsteindeckung DD f.Anarbeiten/schräg                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.19A",
+      "text": "Az Bet.-Dachsteindeckung ED f.Neigung ü.45-60°",
+      "unit": "m²"
+    },
+    {
+      "code": "22.15.19B",
+      "text": "Az Bet.-Dachsteindeckung DD f.Neigung ü.45-60°",
+      "unit": "m²"
+    },
+    {
+      "code": "22.15.19C",
+      "text": "Az Bet.-Dachsteindeckung f.Ortgangstein                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.19D",
+      "text": "Az Bet.-Dachsteindeckung f.Abdichten Innenrand                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.19E",
+      "text": "Az Bet.-Dachsteindeckung f.Vogelschutz                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.19F",
+      "text": "Az Bet.-Dachsteindeckung f.Vogelschutz m.Höhenausgleich                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.19G",
+      "text": "Az Bet.-Dachsteindeckung f.Höhenausgleich                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.21A",
+      "text": "First-/Gratstein                                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.21B",
+      "text": "First-/Gratstein m.Glattfirst                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.21C",
+      "text": "Anfang-/Endscheiben f.First-/Grat-Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.21D",
+      "text": "Grat-Anfangstein f.First-/Grat-Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.21E",
+      "text": "Verteiler 3-achsig f.First-/Grat-Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.21F",
+      "text": "First-/Pultstein Bet.-Dachsteindeckung trocken verlegt                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.21G",
+      "text": "First-/Gratlatte Bet.-Dachsteindeckung                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.22A",
+      "text": "Entlüftungssteine f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.22B",
+      "text": "Entlüftungselement First-/Gratrolle f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.22C",
+      "text": "Entlüftungselement Kunststoffkappe f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.25A",
+      "text": "Dunstrohrset Kunstst.f.Bet.-Dachsteindeckung b.100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.25B",
+      "text": "Dunstrohrset Kunstst.f.Bet.-Dachsteindeckung ü.100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.25C",
+      "text": "Antennenaufsatz f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.25D",
+      "text": "Rohr-u.Kabeldurchführungen f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.25E",
+      "text": "Az Bet.-Dachsteindeckung m.Unterdach f.Dichtmanschetten",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.26A",
+      "text": "Stand-/Grundplatte f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.26B",
+      "text": "Steigtritt-Set f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.26C",
+      "text": "Stufenrost-Set 40x25cm f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.26D",
+      "text": "Stufenrost-Set 80x25cm f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.26E",
+      "text": "Laufrost-System f.Bet.-Dachsteindeckung                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.26G",
+      "text": "Schneefangbaum f.Bet.-Dachsteindeckung                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.26H",
+      "text": "Schneehalter Metall f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.26I",
+      "text": "Schneefangrohr 1-fach f.Bet.-Dachsteindeckung                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.26J",
+      "text": "Schneefangrohr 2-fach f.Bet.-Dachsteindeckung                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.26K",
+      "text": "Schneestop-Steine Beton f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.26L",
+      "text": "Ausstiegsfenster feuerverzinkt/besch.f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.26M",
+      "text": "Ausstiegsfenster Cu f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.26N",
+      "text": "Ausstiegsfenster Kunststoff f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.26O",
+      "text": "Ausstiegsfenster m.Metalleinfassung f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.26P",
+      "text": "Standbrettstein f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.26Q",
+      "text": "Stufenrost-Set/Standbrettst.40x25cm f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.26R",
+      "text": "Stufenrost-Set/Standbrettst.800x25cm f.Bet.-Dachsteindeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.30A",
+      "text": "Az BDSD f.Ausschneiden UD regen-/flugschneesicher b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.30B",
+      "text": "Az BDSD f.Ausschneiden UD regen-/flugschneesicher ü.0,1m2                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.30C",
+      "text": "Az BDSD f.Ausschneiden UD winddicht b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.30D",
+      "text": "Az BDSD f.Ausschneiden UD winddicht ü.0,1m2                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "22.15.31A",
+      "text": "Az Bet.-Dachsteindeckung f.Beidecken Stütze ED",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.31B",
+      "text": "Az Bet.-Dachsteindeckung f.Beidecken Stütze DD",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.31C",
+      "text": "Az Bet.-Dachsteindeckung f.Beidecken Öffnung b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.15.31D",
+      "text": "Az Bet.-Dachsteindeckung f.Beidecken Öffnung ü.0,5m2                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.01A",
+      "text": "Windlastsicherung gem.Windlast-Berechnung f.Faserzementd.Pl.",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.02A",
+      "text": "FZ-Rechteck 40x60cm ED Lattung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.02B",
+      "text": "FZ-Rechteck 40x60cm ED Schalung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.03A",
+      "text": "FZ-Rhombus 40x44cm waagrechte Lattung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.03B",
+      "text": "FZ-Rhombus 40x44cm waagrechte Schalung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.03C",
+      "text": "FZ-Rhombus 40x44cm steigende Schalung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.04A",
+      "text": "FZ-Rhombus-Schablone 40x44cm Lattung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.04B",
+      "text": "FZ-Rhombus-Schablone 40x44cm Schalung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.05A",
+      "text": "FZ-Steinschindel 38x19cm Lattung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.05B",
+      "text": "FZ-Steinschindel 38x19cm Schalung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.06A",
+      "text": "FZ-Rechteck 60x40 vollkantig DD Lattung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.06B",
+      "text": "FZ-Rechteck 60x40 vollkantig DD Schalung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.06C",
+      "text": "FZ-Rechteck 60x40 gest.Ecken DD Lattung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.06D",
+      "text": "FZ-Rechteck 60x40 gest.Ecken DD Schalung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.07A",
+      "text": "FZ-Quadrat 40x40 vollkantig DD Lattung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.07B",
+      "text": "FZ-Quadrat 40x40 vollkantig DD Schalung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.07C",
+      "text": "FZ-Quadrat 40x40 vollkantig/Sonderlochung DD Lattung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.07D",
+      "text": "FZ-Quadrat 40x40 vollkantig/Sonderlochung DD Schalung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.08A",
+      "text": "FZ-Rechteck 40x30 vollkantig DD Lattung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.08B",
+      "text": "FZ-Rechteck 40x30 vollkantig DD Schalung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.08C",
+      "text": "FZ-Rechteck 40x30 gest.Ecken DD Lattung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.08D",
+      "text": "FZ-Rechteck 40x30 gest.Ecken DD Schalung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.17A",
+      "text": "Az FZ-Deckung ED f.Erschwernisse Unterdach",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.17B",
+      "text": "Az FZ-Deckung DD f.Erschwernisse Unterdach",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.18A",
+      "text": "Az FZ-Deckung ED f.Anarbeiten/gerade                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.18B",
+      "text": "Az FZ-Deckung DD f.Anarbeiten/gerade                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.18C",
+      "text": "Az FZ-Deckung ED f.Anarbeiten/schräg                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.18D",
+      "text": "Az FZ-Deckung DD f.Anarbeiten/schräg                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.19A",
+      "text": "Az FZ-Deckung ED f.Neigung ü.45-60°",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.19B",
+      "text": "Az FZ-Deckung DD f.Neigung ü.45-60°",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.19C",
+      "text": "Az FZ-Deckung ED 2faches Fußgebinde",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.19D",
+      "text": "Az FZ-Deckung DD 3faches Fußgebinde",
+      "unit": "m²"
+    },
+    {
+      "code": "22.16.21A",
+      "text": "Firstkappe f.FZ-Deckung                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.21B",
+      "text": "First-/Grat-Faltplatte f.FZ-Deckung                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.21C",
+      "text": "Anfänger/Ender f.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.21D",
+      "text": "Gratverteiler f.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.21E",
+      "text": "Rollgebinde f.FZ-Deckung                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.21F",
+      "text": "Rollgebinde+Überstand f.FZ-Deckung                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.21G",
+      "text": "Rollgebinde+Bleinocken f.FZ-Deckung                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.21H",
+      "text": "Rollgebinde First f.FZ-Deckung                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.21I",
+      "text": "Grat+Bleinocken f.FZ-Deckung                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.22A",
+      "text": "Entlüft.-Elemente Blechentlüfter f.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.22B",
+      "text": "Entlüft.-Elemente Lüftungsband f.FZ-Deckung                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.22C",
+      "text": "Entlüft.-Elemente Lüftungsstein f.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.25A",
+      "text": "Dunstrohrset Kunstst.f.FZ-Deckung b.100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.25B",
+      "text": "Dunstrohrset Kunstst.f.FZ-Deckung ü.100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.25C",
+      "text": "Antennenaufsatz f.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.25D",
+      "text": "Rohr-u.Kabeldurchführung f.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.25E",
+      "text": "Az FZ-Deckung m.Unterdach f.Dichtmanschetten",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.26A",
+      "text": "Stand/Grundplatte f.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.26B",
+      "text": "Steigtritt-Set f.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.26C",
+      "text": "Stufenrost-Set 40x25cm f.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.26D",
+      "text": "Stufenrost-Set 80x25cm f.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.26E",
+      "text": "Laufrost-System f.FZ-Deckung                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.26G",
+      "text": "Schneefangbaum f.FZ-Deckung                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.26H",
+      "text": "Schneehalter Metall f.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.26I",
+      "text": "Schneefangrohr 1-fach f.FZ-Deckung                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.26J",
+      "text": "Schneefangrohr 2-fach f.FZ-Deckung                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.26K",
+      "text": "Ausstiegsfenster feuerverzinkt/beschicht.f.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.26L",
+      "text": "Ausstiegsfenster Cu f.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.26M",
+      "text": "Ausstiegsfenster Kunststoff f.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.26N",
+      "text": "Ausstiegsfenster m.Metalleinfassung f.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.30A",
+      "text": "Az FZD f.Ausschneiden UD regen-/flugschneesicher b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.30B",
+      "text": "Az FZD f.Ausschneiden UD regen-/flugschneesicher ü.0,1m2                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.30C",
+      "text": "Az FZD f.Ausschneiden UD winddicht b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.30D",
+      "text": "Az FZD f.Ausschneiden UD winddicht ü.0,1m2                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "22.16.31A",
+      "text": "Az FZ-Deckung f.Beidecken Stütze ED",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.31B",
+      "text": "Az FZ-Deckung f.Beidecken Stütze DD",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.31C",
+      "text": "Az FZ-Deckung f.Beidecken Öffnung b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.16.31D",
+      "text": "Az FZ-Deckung f.Beidecken Öffnung ü.0,5m2                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "22.17.01A",
+      "text": "Windlastsicherung gem.Windlast-Berechnung f.prof.FZ-D.Pl.",
+      "unit": "m²"
+    },
+    {
+      "code": "22.17.02A",
+      "text": "Profilierte FZ-Dachplatte auf Holzpfette",
+      "unit": "m²"
+    },
+    {
+      "code": "22.17.03A",
+      "text": "Lichtplatten f.profilierte FZ-Dachplattendeckung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.17.17A",
+      "text": "Az profil.FZ-Deckung ED f.Erschwernisse Unterdach",
+      "unit": "m²"
+    },
+    {
+      "code": "22.17.18A",
+      "text": "Az profil.FZ-Deckung ED f.Anarbeiten/gerade                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "22.17.18B",
+      "text": "Az profil.FZ-Deckung ED f.Anarbeiten/schräg                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "22.17.19A",
+      "text": "Az profil.FZ-Deckung ED f.Neigung ü.45-60°",
+      "unit": "m²"
+    },
+    {
+      "code": "22.17.19B",
+      "text": "Az profil.FZ-Deckung ED f.Ortgangstein                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "22.17.19C",
+      "text": "Az profil.FZ-Deckung ED f.Ortganganfangssteine",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.19D",
+      "text": "Az profil.FZ-Deckung ED f.Pultortgangstein",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.19E",
+      "text": "Az profil.FZ-Deckung ED f.Traufenstein 60x200                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "22.17.19F",
+      "text": "Az profil.FZ-Deckung ED f.Übergangsstein                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "22.17.19G",
+      "text": "Az profil.FZ-Deckung ED f.Höhenübergriffdichtung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.17.21A",
+      "text": "First-/Gratstein f.profil.FZ-Deckung                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "22.17.21B",
+      "text": "Gratanfangstein f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.21C",
+      "text": "First-Gratverteiler f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.21D",
+      "text": "Firstanfangscheibe f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.21E",
+      "text": "Firstendscheibe f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.21F",
+      "text": "Halbfirst-Pultstein f.profil.FZ-Deckung                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "22.17.22A",
+      "text": "Entlüft.-Elemente Blechentlüfter f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.22B",
+      "text": "Entlüft.-Elemente First-u.Gratrolle f.profil.FZ-Deckung                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "22.17.22C",
+      "text": "Entlüft.-Elemente Firstgitter Alu f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.25A",
+      "text": "Dunstrohrset Alu-Color f.profil.FZ-Deckung b.100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.25B",
+      "text": "Dunstrohrset Alu-Color f.profil.FZ-Deckung ü.100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.25C",
+      "text": "Antennenaufsatz f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.25D",
+      "text": "Rohr-u.Kabeldurchführung f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.26A",
+      "text": "Stand/Grundplatte f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.26B",
+      "text": "Steigtritt-Set f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.26C",
+      "text": "Stufenrost-Set 40x25cm f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.26D",
+      "text": "Stufenrost-Set 80x25cm f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.26E",
+      "text": "Laufrost-System f.profil.FZ-Deckung                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "22.17.26G",
+      "text": "Schneefangbaum f.profil.FZ-Deckung                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "22.17.26H",
+      "text": "Schneehalter Metall f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.26I",
+      "text": "Schneefangrohr 1-fach f.profil.FZ-Deckung                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "22.17.26J",
+      "text": "Schneefangrohr 2-fach f.profil.FZ-Deckung                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "22.17.26K",
+      "text": "Winkelschneerechen f.profil.FZ-Deckung                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "22.17.26L",
+      "text": "Ausstiegsfenster feuerverzinkt/besch.f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.26M",
+      "text": "Ausstiegsfenster Cu f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.26N",
+      "text": "Ausstiegsfenster Kunststoff f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.26O",
+      "text": "Ausstiegsfenster m.Metalleinfassung f.profil.FZ-Deckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.30A",
+      "text": "Az p.FZD f.Ausschneiden UD regen-/flugschneesicher b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.30B",
+      "text": "Az p.FZD f.Ausschneiden UD regen-/flugschneesicher ü.0,1m2                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "22.17.30C",
+      "text": "Az p.FZD f.Ausschneiden UD winddicht b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.30D",
+      "text": "Az p.FZD f.Ausschneiden UD winddicht ü.0,1m2                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "22.17.31A",
+      "text": "Az profil.FZ-Deckung f.Beidecken Stütze ED",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.31B",
+      "text": "Az profil.FZ-Deckung f.Beidecken Öffnung b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.17.31C",
+      "text": "Az profil.FZ-Deckung f.Beidecken Öffnung ü.0,5m2                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.01A",
+      "text": "Windlastsicherung gem.Windlast-Berechnung f.FZ-Wellpl.-D",
+      "unit": "m²"
+    },
+    {
+      "code": "22.18.02A",
+      "text": "FZ-Wellplattendeckung auf Holz Profil 6",
+      "unit": "m²"
+    },
+    {
+      "code": "22.18.02B",
+      "text": "FZ-Wellplattendeckung auf Holz Kurzwellplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "22.18.03A",
+      "text": "FZ-Wellplattendeckung auf Stahlpfetten Profil 6",
+      "unit": "m²"
+    },
+    {
+      "code": "22.18.05A",
+      "text": "Az FZ-Wellplattendeckung f.Lichtwellplatten 125cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.05B",
+      "text": "Az FZ-Wellplattendeckung f.Lichtwellplatten 150cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.05C",
+      "text": "Az FZ-Wellplattendeckung f.Lichtwellplatten 180cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.05D",
+      "text": "Az FZ-Wellplattendeckung f.Lichtwellplatten 210cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.05E",
+      "text": "Az FZ-Wellplattendeckung f.Lichtwellplatten 250cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.05F",
+      "text": "Az FZ-Wellplattendeckung f.Lichtwellplatten 300cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.05X",
+      "text": "Az FZ-Wellplattendeckung f.Lichtwellplatten__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.18A",
+      "text": "Az FZ-Wellplattendeckung f.Anarbeiten/gerade                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.18B",
+      "text": "Az FZ-Wellplattendeckung f.Anarbeiten/schräg                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.19A",
+      "text": "Az FZ-Wellplattendeckung f.Neigung ü.45-60°",
+      "unit": "m²"
+    },
+    {
+      "code": "22.18.19B",
+      "text": "Az FZ-Wellplattendeckung f.Giebel-Abschlusssteine                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.19C",
+      "text": "Az FZ-Wellplattendeckung f.Zargenstreifen",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.19D",
+      "text": "Az FZ-Wellplattendeckung f.Unterleger",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.19E",
+      "text": "Az FZ-Wellplattendeckung f.Traufensteine                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.19F",
+      "text": "Az FZ-Wellplattendeckung f.Dichtband bei seitl.Höhenübergr.                                                m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.19H",
+      "text": "Az FZ-Wellplattendeckung f.Dichtband Höhenübergriff",
+      "unit": "m²"
+    },
+    {
+      "code": "22.18.20A",
+      "text": "FZ-Wellplatten Gratsteine                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.20B",
+      "text": "FZ-Wellplatten Gratsteine+Gratrolle 390mm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.20C",
+      "text": "FZ-Wellplatten Gratstein+Bleiblech                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.20D",
+      "text": "FZ-Wellplatten Grat-Anfangsstein                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.21A",
+      "text": "FZ-Wellplatten Firstkappen 1-teilig                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.21B",
+      "text": "FZ-Wellplatten Firstkappen 1-teilig abgehoben                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.21C",
+      "text": "FZ-Wellplatten Firstkappen 2-teilig+Dichtungsband                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.21D",
+      "text": "FZ-Wellplatten Firstkappen 2-teilig+Bl.-Lüfter+Dichtungsband                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.21E",
+      "text": "FZ-Wellplatten Entlüftungsfirststeine                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.21F",
+      "text": "FZ-Wellplatten Shedfirstkappe 75Grad                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.21G",
+      "text": "FZ-Wellplatten Übergangsstein                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.21H",
+      "text": "FZ-Wellplatten Übergangs-u.Gratstein                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.22A",
+      "text": "Universal-Lüftungskappe f.FZ-Wellplattendeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.22B",
+      "text": "Alu-Welllüfter P6/400 f.FZ-Wellplattendeckung                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.22C",
+      "text": "Belüftungskammelemente f.FZ-Wellplattendeckung                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.22D",
+      "text": "Lüftungsgitter-Vogelschutz f.FZ-Wellplattendeckung                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.25A",
+      "text": "Dunstrohrset f.FZ-Wellplattendeckung b.100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.25B",
+      "text": "Dunstrohrset f.FZ-Wellplattendeckung ü.100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.25C",
+      "text": "Antennendurchgang f.FZ-Wellplattendeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.26A",
+      "text": "Stand/Grundplatte f.FZ-Wellplattendeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.26B",
+      "text": "Steigtritt-Set f.FZ-Wellplattendeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.26C",
+      "text": "Stufenrost-Set 40x25cm f.FZ-Wellplattendeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.26D",
+      "text": "Stufenrost-Set 80x25cm f.FZ-Wellplattendeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.26E",
+      "text": "Laufrost-System f.FZ-Wellplattendeckung                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.26G",
+      "text": "Schneefangbaum f.FZ-Wellplattendeckung                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.26H",
+      "text": "Schneehalter Metall f.FZ-Wellplattendeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.26I",
+      "text": "Schneefangrohr 1-fach f.FZ-Wellplattendeckung                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.26J",
+      "text": "Schneefangrohr 2-fach f.FZ-Wellplattendeckung                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.26K",
+      "text": "Winkelschneerechen f.FZ-Wellplattendeckung                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.26L",
+      "text": "Ausstiegsfenster feuerverzinkt/besch.f.FZ-Wellplattendeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.26M",
+      "text": "Ausstiegsfenster Cu f.FZ-Wellplattendeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.26N",
+      "text": "Ausstiegsfenster Kunststoff f.FZ-Wellplattendeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.26O",
+      "text": "Ausstiegsfenster m.Metalleinfassung f.FZ-Wellplattendeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.26P",
+      "text": "Hängehaken f.FZ-Wellplattendeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.30A",
+      "text": "Az FZWPD f.Ausschneiden UD regen-/flugschneesicher b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.30B",
+      "text": "Az FZWPD f.Ausschneiden UD regen-/flugschneesicher ü.0,1m2                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.30C",
+      "text": "Az FZWPD f.Ausschneiden UD winddicht b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.30D",
+      "text": "Az FZWPD f.Ausschneiden UD winddicht ü.0,1m2                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "22.18.31A",
+      "text": "Az FZ-Wellplatten f.Stütze beidecken",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.31B",
+      "text": "Az FZ-Wellplatten f.Beidecken Öffnung b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.18.31C",
+      "text": "Az FZ-Wellplatten f.Beidecken Öffnung ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.01A",
+      "text": "Windlastsicherung gem.Windlast-Berechnung f.Bitu-Schindel",
+      "unit": "m²"
+    },
+    {
+      "code": "22.19.02A",
+      "text": "Bitu-Schindel Doppeldeckung Standardfarbe",
+      "unit": "m²"
+    },
+    {
+      "code": "22.19.18A",
+      "text": "Az Bitu-Schindel f.Anarbeiten/gerade                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "22.19.18B",
+      "text": "Az Bitu-Schindel f.Anarbeiten/schräg                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "22.19.19A",
+      "text": "Az Bitu-Schindel f.Neigung ü.45-60°",
+      "unit": "m²"
+    },
+    {
+      "code": "22.19.21A",
+      "text": "First-/Grat Bitu-Schindel verlegt                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "22.19.22A",
+      "text": "Belüftungsgitter/Vogelschutz Traufe bei Konterlattung                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "22.19.22B",
+      "text": "Lüftungslaterne einseitig                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "22.19.22C",
+      "text": "Lüftungslaterne beidseitig                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "22.19.22D",
+      "text": "Schindeldachlüfter Kunststoff f.Bitu-Schindel                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "22.19.22E",
+      "text": "Schindeldachlüfter Kupferf.Bitu-Schindel                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "22.19.25A",
+      "text": "Dunstrohrset Kunstst.f.Bitu-Schindel b.100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.25B",
+      "text": "Dunstrohrset Kunstst.f.Bitu-Schindel ü.100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.25C",
+      "text": "Antennenaufsatz Kunststoff f.Bitu-Schindel",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.25D",
+      "text": "Rohr-u.Kabeldurchführung f.Bitu-Schindel",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.25E",
+      "text": "Az Bitu-Schindel m.Unterdach f.Dichtmanschette",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.26A",
+      "text": "Stand/Grundplatte f.Bitu-Schindel",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.26B",
+      "text": "Steigtritt-Set f.Bitu-Schindel",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.26C",
+      "text": "Stufenrost-Set 40x25cm f.Bitu-Schindel",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.26D",
+      "text": "Stufenrost-Set 80x25cm f.Bitu-Schindel",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.26E",
+      "text": "Laufrost-System f.Bitu-Schindel                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "22.19.26G",
+      "text": "Schneefangbaum f.Bitu-Schindel                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "22.19.26H",
+      "text": "Schneehalter Metall f.Bitu-Schindel",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.26I",
+      "text": "Schneefangrohr 1-fach f.Bitu-Schindel                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "22.19.26J",
+      "text": "Schneefangrohr 2-fach f.Bitu-Schindel                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "22.19.26K",
+      "text": "Ausstiegsfenster feuerverzinkt/beschicht.f.Bitu-Schindel",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.26L",
+      "text": "Ausstiegsfenster Cu f.Bitu-Schindel",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.26M",
+      "text": "Ausstiegsfenster Kunststoff f.Bitu-Schindel",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.26N",
+      "text": "Ausstiegsfenster m.Metalleinfassung f.Bitu-Schindel",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.30A",
+      "text": "Az BITU-S f.Ausschneiden UD regen-/flugschneesicher b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.30B",
+      "text": "Az BITU-S f.Ausschneiden UD regen-/flugschneesicher ü.0,1m2                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "22.19.30C",
+      "text": "Az BITU-S f.Ausschneiden UD winddicht b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.30D",
+      "text": "Az BITU-S f.Ausschneiden UD winddicht ü.0,1m2                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "22.19.31A",
+      "text": "Az Bitu-Schindel f.Beidecken Stütze DD",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.31B",
+      "text": "Az Bitu-Schindel f.Beidecken Öffnung b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "22.19.31C",
+      "text": "Az Bitu-Schindel f.Beidecken Öffnung ü.0,1m2                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "22.19.42A",
+      "text": "Az DD Bitu-Schindel f.Runddeckung Kegel",
+      "unit": "m²"
+    },
+    {
+      "code": "22.19.42B",
+      "text": "Az DD Bitu-Schindel f.Runddeckung Kehlen",
+      "unit": "m²"
+    },
+    {
+      "code": "22.19.42C",
+      "text": "Az DD Bitu-Schindel f.Runddeckung Gaupen",
+      "unit": "m²"
+    },
+    {
+      "code": "22.19.42D",
+      "text": "Az DD Bitu-Schindel f.Runddeckung",
+      "unit": "m²"
+    },
+    {
+      "code": "22.90.00A",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "22.90.01A",
+      "text": "Regiestunden Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "22.90.01B",
+      "text": "Regiestunden Hilfsarbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "22.90.01C",
+      "text": "Regiestunden Vorarbeiter",
+      "unit": "h"
+    }
+  ]
+}

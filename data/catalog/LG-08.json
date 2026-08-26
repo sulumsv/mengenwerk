@@ -1,0 +1,1166 @@
+{
+  "lg": "08",
+  "title": "Mauerarbeiten",
+  "positions": [
+    {
+      "code": "08.00.00A",
+      "text": "Statische Berechnungen",
+      "unit": ""
+    },
+    {
+      "code": "08.00.00B",
+      "text": "Ausfachungen f.Stahlbetonskelettbauten",
+      "unit": ""
+    },
+    {
+      "code": "08.00.00V",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "08.01.01A",
+      "text": "NF Ziegel-Mwk.b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "08.01.02A",
+      "text": "NF Ziegel-Mwk.ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "08.01.71A",
+      "text": "Az NF Mwk.f.Pfeiler",
+      "unit": "m³"
+    },
+    {
+      "code": "08.01.71B",
+      "text": "Az NF Mwk.f.schrägen Abschluss",
+      "unit": "m²"
+    },
+    {
+      "code": "08.01.71C",
+      "text": "Az NF Mwk.f.gebogene Wände",
+      "unit": "m²"
+    },
+    {
+      "code": "08.01.71D",
+      "text": "Az NF Mwk.f.gebogenen Sturz",
+      "unit": "m²"
+    },
+    {
+      "code": "08.01.71E",
+      "text": "Az NF Mwk.f.Rund-/Ovalöffnungen",
+      "unit": "m²"
+    },
+    {
+      "code": "08.01.71F",
+      "text": "Az NF Mwk.f.Umm.Fänge",
+      "unit": "m²"
+    },
+    {
+      "code": "08.01.71L",
+      "text": "Az NF Mwk.f.Umm.Leitungen b.0,05m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "08.02.01A",
+      "text": "17cm HLZ-Mwk.b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.01B",
+      "text": "20cm HLZ-Mwk.b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.01C",
+      "text": "25cm HLZ-Mwk.b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.01D",
+      "text": "30cm HLZ-Mwk.b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.01E",
+      "text": "38cm HLZ-Mwk.b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.01F",
+      "text": "50cm HLZ-Mwk.b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.02A",
+      "text": "17cm HLZ-Mwk.ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.02B",
+      "text": "20cm HLZ-Mwk.ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.02C",
+      "text": "25cm HLZ-Mwk.ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.02D",
+      "text": "30cm HLZ-Mwk.ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.02E",
+      "text": "38cm HLZ-Mwk.ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.02F",
+      "text": "50cm HLZ-Mwk.ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.03A",
+      "text": "17cm HLZ-Plan-Mwk.b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.03B",
+      "text": "20cm HLZ-Plan-Mwk.b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.03C",
+      "text": "25cm HLZ-Plan-Mwk.b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.03D",
+      "text": "30cm HLZ-Plan-Mwk.b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.03E",
+      "text": "38cm HLZ-Plan-Mwk.b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.03F",
+      "text": "50cm HLZ-Plan-Mwk.b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.04A",
+      "text": "17cm HLZ-Plan-Mwk.ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.04B",
+      "text": "20cm HLZ-Plan-Mwk.ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.04C",
+      "text": "25cm HLZ-Plan-Mwk.ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.04D",
+      "text": "30cm HLZ-Plan-Mwk.ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.04E",
+      "text": "38cm HLZ-Plan-Mwk.ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.04F",
+      "text": "50cm HLZ-Plan-Mwk.ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.11A",
+      "text": "17cm HLZ-Mwk.Schallschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.11B",
+      "text": "20cm HLZ-Mwk.Schallschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.11C",
+      "text": "25cm HLZ-Mwk.Schallschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.11D",
+      "text": "30cm HLZ-Mwk.Schallschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.12A",
+      "text": "17cm HLZ-Mwk.Schallschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.12B",
+      "text": "20cm HLZ-Mwk.Schallschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.12C",
+      "text": "25cm HLZ-Mwk.Schallschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.12D",
+      "text": "30cm HLZ-Mwk.Schallschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.13A",
+      "text": "17cm HLZ-Plan-Mwk.Schallschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.13B",
+      "text": "20cm HLZ-Plan-Mwk.Schallschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.13C",
+      "text": "25cm HLZ-Plan-Mwk.Schallschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.14A",
+      "text": "17cm HLZ-Plan-Mwk.Schallschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.14B",
+      "text": "20cm HLZ-Plan-Mwk.Schallschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.14C",
+      "text": "25cm HLZ-Plan-Mwk.Schallschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.21B",
+      "text": "30cm HLZ-Mwk.Wärmeschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.21C",
+      "text": "38cm HLZ-Mwk.Wärmeschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.21F",
+      "text": "50cm HLZ-Mwk.Wärmeschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.22B",
+      "text": "30cm HLZ-Mwk.Wärmeschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.22C",
+      "text": "38cm HLZ-Mwk.Wärmeschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.22F",
+      "text": "50cm HLZ-Mwk.Wärmeschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.23B",
+      "text": "30cm HLZ-Plan-Mwk.Wärmeschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.23C",
+      "text": "38cm HLZ-Plan-Mwk.Wärmeschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.23F",
+      "text": "50cm HLZ-Plan-Mwk.Wärmeschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.24B",
+      "text": "30cm HLZ-Plan-Mwk.Wärmeschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.24C",
+      "text": "38cm HLZ-Plan-Mwk.Wärmeschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.24F",
+      "text": "50cm HLZ-Plan-Mwk.Wärmeschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.71A",
+      "text": "Az Hochlochziegeln f.Pfeiler",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.71B",
+      "text": "Az Hochlochziegeln f.schrägen Abschluss",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.71C",
+      "text": "Az Hochlochziegeln f.gebogene Wände",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.71F",
+      "text": "Az Hochlochziegeln f.Umm.Fänge",
+      "unit": "m²"
+    },
+    {
+      "code": "08.02.71L",
+      "text": "Az Hochlochziegeln f.Umm.Leitungen b.0,05m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "08.03.01A",
+      "text": "19cm Beton-HBL-Steine b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.01B",
+      "text": "25cm Beton-HBL-Steine b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.01C",
+      "text": "30cm Beton-HBL-Steine b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.01D",
+      "text": "38cm Beton-HBL-Steine b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.02A",
+      "text": "19cm Beton-HBL-Steine ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.02B",
+      "text": "25cm Beton-HBL-Steine ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.02C",
+      "text": "30cm Beton-HBL-Steine ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.02D",
+      "text": "38cm Beton-HBL-Steine ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.09A",
+      "text": "20cm LB-HBL-Steine b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.09B",
+      "text": "25cm LB-HBL-Steine b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.09C",
+      "text": "30cm LB-HBL-Steine b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.09D",
+      "text": "38cm LB-HBL-Steine b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.09E",
+      "text": "45cm LB-HBL-Steine b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.09F",
+      "text": "50cm LB-HBL-Steine b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.10A",
+      "text": "20cm LB-HBL-Steine ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.10B",
+      "text": "25cm LB-HBL-Steine ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.10C",
+      "text": "30cm LB-HBL-Steine ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.10D",
+      "text": "38cm LB-HBL-Steine ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.10E",
+      "text": "45cm LB-HBL-Steine ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.10F",
+      "text": "50cm LB-HBL-Steine ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.13B",
+      "text": "17cm (18cm) LB-Schallschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.13C",
+      "text": "20cm LB-Schallschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.13D",
+      "text": "25cm LB-Schallschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.14B",
+      "text": "17cm (18cm) LB -Schallschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.14C",
+      "text": "20cm LB-Schallschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.14D",
+      "text": "25cm LB-Schallschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.41A",
+      "text": "Az Betonsteine f.Pfeiler",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.41B",
+      "text": "Az Betonsteine f.schrägen Abschluss",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.41C",
+      "text": "Az Betonsteine f.gebogene Wände",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.41F",
+      "text": "Az Betonsteine f.Ummauern Fänge",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.41L",
+      "text": "Az Betonsteine f.Ummauern Leitungen b.0,05m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "08.03.51A",
+      "text": "25cm Leichtbeton VBL1 (Steinfestigkeit 2) b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.51B",
+      "text": "25cm Leichtbeton VBL2 (Steinfestigkeit 2,4) b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.51C",
+      "text": "25cm Leichtbeton VBL3 (Steinfestigkeit 3,2) b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.52A",
+      "text": "25cm Leichtbeton VBL1 (Steinfestigkeit 2) ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.52B",
+      "text": "25cm Leichtbeton VBL2 (Steinfestigkeit 2,4) ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.52C",
+      "text": "25cm Leichtbeton VBL3 (Steinfestigkeit 3,2) ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.53A",
+      "text": "30cm Leichtbeton VBL1 (Steinfestigkeit 2) b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.53B",
+      "text": "30cm Leichtbeton VBL2 (Steinfestigkeit 2,4) b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.53C",
+      "text": "30cm Leichtbeton VBL3 (Steinfestigkeit 3,2) b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.54A",
+      "text": "30cm Leichtbeton VBL1 (Steinfestigkeit 2) ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.54B",
+      "text": "30cm Leichtbeton VBL2 (Steinfestigkeit 2,4) ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.03.54C",
+      "text": "30cm Leichtbeton VBL3 (Steinfestigkeit 3,2) ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.01A",
+      "text": "20cm Porenbet.Verb.ST Mwk.2,5N b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.01B",
+      "text": "25cm Porenbet.Verb.ST Mwk.2,5N b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.01C",
+      "text": "30cm Porenbet.Verb.ST Mwk.2,5N b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.01D",
+      "text": "40cm Porenbet.Verb.ST Mwk.2,5N b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.02A",
+      "text": "20cm Porenbet.Verb.ST Mwk.2,5N ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.02B",
+      "text": "25cm Porenbet.Verb.ST Mwk.2,5N ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.02C",
+      "text": "30cm Porenbet.Verb.ST Mwk.2,5N ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.02D",
+      "text": "40cm Porenbet.Verb.ST Mwk.2,5N ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.11A",
+      "text": "20cm Porenbet.Verb.ST Mwk.5N b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.11B",
+      "text": "25cm Porenbet.Verb.ST Mwk.5N b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.11C",
+      "text": "30cm Porenbet.Verb.ST Mwk.5N b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.12A",
+      "text": "20cm Porenbet.Verb.ST Mwk.5N ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.12B",
+      "text": "25cm Porenbet.Verb.ST Mwk.5N ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.12C",
+      "text": "30cm Porenbet.Verb.ST Mwk.5N ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.71A",
+      "text": "Az Porenbet.VB.St.f.Pfeiler",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.71B",
+      "text": "Az Porenbet.VB.St.f.schrägen Abschluss",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.71C",
+      "text": "Az Porenbet.VB.St.f.gebogene Wände",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.71F",
+      "text": "Az Porenbet.VB.St.f.Umm.Fänge",
+      "unit": "m²"
+    },
+    {
+      "code": "08.04.71L",
+      "text": "Az Porenbet.VB.St.f.Umm.Leitungen b.0,05m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "08.05.01B",
+      "text": "20cm B.Schalst.Mwk.C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.01C",
+      "text": "25cm B.Schalst.Mwk.C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.01D",
+      "text": "30cm B.Schalst.Mwk.C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.01E",
+      "text": "35cm B.Schalst.Mwk.C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.01F",
+      "text": "40cm B.Schalst.Mwk.C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.01X",
+      "text": "Az B.Schalst.Mwk.f.Beton b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.02B",
+      "text": "20cm B.Schalst.Mwk.C16/20 ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.02C",
+      "text": "25cm B.Schalst.Mwk.C16/20 ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.02D",
+      "text": "30cm B.Schalst.Mwk.C16/20 ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.02E",
+      "text": "35cm B.Schalst.Mwk.C16/20 ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.02F",
+      "text": "40cm B.Schalst.Mwk.C16/20 ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.02X",
+      "text": "Az B.Schalst.Mwk.f.Beton ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.11A",
+      "text": "18cm Holz-MB C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.11B",
+      "text": "20cm Holz-MB C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.11C",
+      "text": "22cm Holz-MB C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.11D",
+      "text": "25cm Holz-MB C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.11E",
+      "text": "30cm Holz-MB C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.11X",
+      "text": "Az Holz-MB f.Beton b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.12A",
+      "text": "18cm Holz-MB C16/20 ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.12B",
+      "text": "20cm Holz-MB C16/20 ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.12C",
+      "text": "22cm Holz-MB C16/20 ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.12D",
+      "text": "25cm Holz-MB C16/20 ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.12E",
+      "text": "30cm Holz-MB C16/20 ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.12X",
+      "text": "Az Holz-MB f.Beton ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.13A",
+      "text": "25cm Holz-MB Wärmeschutz C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.13B",
+      "text": "30cm Holz-MB Wärmeschutz C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.13C",
+      "text": "32cm Holz-MB Wärmeschutz C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.13D",
+      "text": "35cm Holz-MB Wärmeschutz C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.13E",
+      "text": "36,5cm Holz-MB Wärmeschutz C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.13F",
+      "text": "38cm Holz-MB Wärmeschutz C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.13G",
+      "text": "40cm Holz-MB Wärmeschutz C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.13H",
+      "text": "43cm Holz-MB Wärmeschutz C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.13Y",
+      "text": "Az Holz-MB Wärmeschutz f.Beton b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.14A",
+      "text": "25cm Holz-MB Wärmeschutz C16/20 ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.14B",
+      "text": "30cm Holz-MB Wärmeschutz C16/20 ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.14C",
+      "text": "32cm Holz-MB Wärmeschutz C16/20 ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.14D",
+      "text": "35cm Holz-MB Wärmeschutz C16/20 ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.14E",
+      "text": "36,5cm Holz-MB Wärmeschutz C16/20 ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.14F",
+      "text": "38cm Holz-MB Wärmeschutz C16/20 ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.14G",
+      "text": "40cm Holz-MB Wärmeschutz C16/20 ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.14H",
+      "text": "43cm Holz-MB Wärmeschutz C16/20 ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.14Y",
+      "text": "Az Holz-MB Wärmeschutz f.Beton ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.15A",
+      "text": "20cm Holz-MB Schallschutz C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.15B",
+      "text": "25cm Holz-MB Schallschutz C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.15C",
+      "text": "30cm Holz-MB Schallschutz C16/20 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.15X",
+      "text": "Az Holz-MB Schallschutz f.Beton b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.16A",
+      "text": "20cm Holz-MB Schallschutz C16/20 ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.16B",
+      "text": "25cm Holz-MB Schallschutz C16/20 ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.16C",
+      "text": "30cm Holz-MB Schallschutz C16/20 ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.16X",
+      "text": "Az Holz-MB Schallschutz f.Beton ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.05.58A",
+      "text": "Bew.Mauerwerk aus Holzmantelbeton",
+      "unit": "kg"
+    },
+    {
+      "code": "08.05.71A",
+      "text": "Az Holz-MB f.Pfeiler",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.01A",
+      "text": "Zw-NF Ziegel-Mwk.b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "08.06.11C",
+      "text": "10cm Zw-keram.Ziegel b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.11D",
+      "text": "12cm Zw-keram.Ziegel b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.13A",
+      "text": "10cm Zw-keram.Plan-Ziegel b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.13B",
+      "text": "12cm Zw-keram.Plan-Ziegel b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.21B",
+      "text": "10cm Zw-Beton b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.21C",
+      "text": "12cm Zw-Beton b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.41B",
+      "text": "10cm Zw-Leichtb.HBL-Steine b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.41C",
+      "text": "12cm Zw-Leichtb.HBL-Steine b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.43C",
+      "text": "12cm Zw-Leichtb.-Schallschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.43D",
+      "text": "15cm Zw-Leichtb.-Schallschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.51A",
+      "text": "10cm Zw.Wand Porenbeton b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.51B",
+      "text": "12cm Zw.Wand Porenbeton b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.51C",
+      "text": "15cm Zw.Wand Porenbeton b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.55A",
+      "text": "10cm Hohlblocksteinen aus Blähton VBL2 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.57A",
+      "text": "10cm Vollblocksteinen aus Blähton VBL2 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.57B",
+      "text": "10cm Vollblocksteinen aus Blähton VBL6 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.71C",
+      "text": "Az Zwischenwände f.gebogene Wände",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.71F",
+      "text": "Az Zwischenwände f.Umm.Fänge",
+      "unit": "m²"
+    },
+    {
+      "code": "08.06.71L",
+      "text": "Az Zwischenwände f.Umm.Leitungen b.0,05m2",
+      "unit": "m²"
+    },
+    {
+      "code": "08.11.01A",
+      "text": "12cm Klinkermwk.1-Sf.b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.11.01B",
+      "text": "25cm Klinkermwk.1-Sf.b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.11.02A",
+      "text": "12cm Klinkermwk.1-Sf.ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.11.02B",
+      "text": "25cm Klinkermwk.1-Sf.ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.11.71A",
+      "text": "Az Klinker-Sichtmwk.f.Pfeiler",
+      "unit": "m²"
+    },
+    {
+      "code": "08.11.71B",
+      "text": "Az Klinker-Sichtmwk.f.schräg.Abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "08.11.71C",
+      "text": "Az Klinker-Sichtmwk.f.gebogene Wände",
+      "unit": "m²"
+    },
+    {
+      "code": "08.11.71D",
+      "text": "Az Klinker-Sichtmwk.f.gebogenen Sturz",
+      "unit": "m²"
+    },
+    {
+      "code": "08.11.71F",
+      "text": "Az Klinker-Sichtmwk.f.Umm.Fänge",
+      "unit": "m²"
+    },
+    {
+      "code": "08.11.71L",
+      "text": "Az Klinker-Sichtmwk.f.Umm.Leitungen",
+      "unit": "m²"
+    },
+    {
+      "code": "08.21.01A",
+      "text": "Az Ft-Überlagen b.15cm                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "08.21.01B",
+      "text": "Az Ft-Überlagen ü.15-20cm                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "08.21.01C",
+      "text": "Az Ft-Überlagen ü.20-25cm                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "08.21.01D",
+      "text": "Az Ft-Überlagen ü.25-30cm                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "08.21.01E",
+      "text": "Az Ft-Überlagen ü.30-40cm                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "08.21.01F",
+      "text": "Az Ft-Überlagen ü.40-50cm                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "08.21.03A",
+      "text": "Az Überlagen f.Wärmedämmung                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "08.21.06A",
+      "text": "Mauerziegeln (NF) f.Unterfangungen",
+      "unit": "m³"
+    },
+    {
+      "code": "08.21.08A",
+      "text": "Ausmauern Mauerbank b.0,05m2                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "08.21.09A",
+      "text": "Aus-/Abmauern ü.0,5-2m3 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "08.21.10A",
+      "text": "Aus-/Abmauern ü.0,5-2m3 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "08.21.13A",
+      "text": "Ob.Abschluss C16/20 b.50cm b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.21.13B",
+      "text": "Ob.Abschluss C16/20 ü.50-75cm b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.21.14A",
+      "text": "Ob.Abschluss C16/20 b.50cm ü.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "08.21.14B",
+      "text": "Ob.Abschluss C16/20 ü.50-75cm ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "08.21.21A",
+      "text": "Decke Rostziegel 8cm 50/20cm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "08.21.21B",
+      "text": "Decke Rostziegel 8cm 50/22cm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "08.21.21C",
+      "text": "Decke Rostziegel 8cm 50/25cm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "08.21.22A",
+      "text": "Decke Roststein 7cm 50/19cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "08.21.22B",
+      "text": "Decke Roststein 7cm 50/24cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "08.21.23A",
+      "text": "Wärmedämmung Roststein                                                                                    m",
+      "unit": ""
+    }
+  ]
+}

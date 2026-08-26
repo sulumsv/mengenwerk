@@ -1,0 +1,56 @@
+{
+  "lg": "19",
+  "title": "Baureinigung",
+  "positions": [
+    {
+      "code": "19.01.01A",
+      "text": "Zwischenreinigung",
+      "unit": "m²"
+    },
+    {
+      "code": "19.01.02A",
+      "text": "Schlussreinigung Objekt                                                                                          PA",
+      "unit": ""
+    },
+    {
+      "code": "19.01.02C",
+      "text": "Schlussreinigung",
+      "unit": "m²"
+    },
+    {
+      "code": "19.01.03A",
+      "text": "Schlussreinig.Whg.b.35m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "19.01.03B",
+      "text": "Schlussreinig.Whg.ü.35-50m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "19.01.03C",
+      "text": "Schlussreinig.Whg.ü.50-70m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "19.01.03D",
+      "text": "Schlussreinig.Whg.ü.70-100m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "19.01.07B",
+      "text": "Reinigen nach Instandsetzung Außenputz PA                                                                   PA",
+      "unit": ""
+    },
+    {
+      "code": "19.02.01A",
+      "text": "Schlussreinigung Außenanlage                                                                                PA",
+      "unit": ""
+    },
+    {
+      "code": "19.02.01B",
+      "text": "Schlussreinigung Verkehrsfläche",
+      "unit": "m²"
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                        Leistungsgruppe (LG) 09 - Versetzarbeiten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 0900    Wählbare Vorbemerkungen
+                     ULG 0901    Brandschutz-Türelemente liefern+versetzen
+                     ULG 0902    Stahlzargen liefern+versetzen
+                     ULG 0911    Brandschutz-Zargen nur versetzen
+                     ULG 0912    Stahlzargen nur versetzen
+                     ULG 0921    Sonstiges liefern+versetzen
+                     ULG 0922    Sonstiges nur versetzen
+                     ULG 0931    Trennschichten
+
+
+
+
+                                                                                                           Seite 1 / 10
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+09          Versetzarbeiten
+            Version 022 (2021-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Wandkonstruktion:
+            Auf die Erfordernisse der umgebenden Wandkonstruktion wird geachtet.
+            Alle Versetzarbeiten werden so durchgeführt, dass Beeinträchtigungen der Schall- und Wärmedämmung durch
+            Beschädigungen an bestehenden Bauteilen nicht eintreten.
+            Auf etwaige Mängel an den umschließenden Bauteilen wird der Auftraggeber vor Ausführung der
+            Versetzarbeiten nachweislich hingewiesen.
+            2. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Arbeitsgerüste für die angegebene Arbeitshöhe, einschließlich erhöhtem Aufwand für den
+                  Materialtransport und sonstiger Erschwernisse
+                • Distanzhalter bei Zargen oder Stöcken mit Zementmörtel untermauern
+                • Einlegen von mindestens 1 cm dicken Dämmstreifen zwischen Türstöcken, Zargen oder Türrahmen und
+                  der Rohdecke
+            3. Arbeitshöhen:
+            Sind keine Arbeitshöhen angegeben, gilt eine Arbeitshöhe bis 3,2 m.
+             Kommentar:
+             Das Ausbilden von Bauanschluss-, Acryl- oder Silikonfugen ist in der Leistungsgruppe des jeweiligen Gewerkes beschrieben
+             (z.B. Maler, Fliesenleger, Fenster).
+             Unterfangungs- und sonstige Instandsetzungsarbeiten sind in der LG14 (Besondere Instandsetzungsarbeiten) beschrieben.
+             Frei zu formulieren (z.B.):
+                 • Befestigen von Konsolen oder sonstigen Bauteilen an Wänden
+                 • Entfernen der Untermauerung der Zargendistanzhalter
+                 • Arbeitshöhen über 3,2 m (einschließlich aller Erschwernisse und Gerüste)
+             Literaturhinweis (z.B.):
+             ÖNORM B 2206 Mauer- und Versetzarbeiten Werkvertragsnorm
+             ÖNORM B 5330 ff. Türen
+
+            LB-Version: 23                 Geringfügig Geändert
+Änderung:   Geänderte Position(en):
+            09.22 02A Winkelrahmen versetzen Änderung von Vorbemerkung auf Positons mit Einheit Stück.
+
+09.00       Wählbare Vorbemerkungen
+09.00 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+09.00 00V   Verfügbarkeit von Beilagen zum LV
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von z.B. Plänen (z.B. im PDF-Format): ____________
+            Betrifft Position(en): ____________
+
+09.01       Brandschutz-Türelemente liefern+versetzen
+
+
+            Im Folgenden ist das Liefern und Versetzen von Brandschutz-Türelementen beschrieben.
+            1. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            Das Versetzen von Türelementen mit Feuerschutz erfolgt nach den vom Hersteller beigegebenen
+            Einbauanleitungen oder Verarbeitungsrichtlinien.
+            Es werden nur dem System zugehörige Bauteile und Materialien verwendet, geprüft gemäß NORM im Element
+            mit Stahlzarge.
+            2. Standardausführung:
+            Ein Brandschutztürelement/Luke (die Feuerwiderstandsklasse ist in den Positionen beschrieben) ist
+                                                                                                                            Seite 2 / 10
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+            selbstschließend (-C) mittels Federband und besteht aus:
+                • einer Z-Profilzarge aus 2 mm sendzimirverzinktem Stahlblech, 4-seitig umlaufend mit entfernbarer
+                  Wechselschwelle, einbrenngrundiert
+                • einem Türblatt, zweischalig, aus sendzimirverzinktem Stahlblech, Füllung aus geprüfter Mineralwolle, mit
+                  2-seitigem Dünnfalz, links/rechts Ausführung, einbrenngrundiert
+                • Dichtungsnut oder Dichtungseinlage
+                • Wechselschloss für Profilzylinder
+                • feuerhemmende (FH) U-Form Drückergarnitur aus Stahl mit Kurzschild
+                • 2 Bänder (1 Feder- und 1 höhenverstellbares Konstruktionsband)
+            LB-Version: 23              Geringfügig Geändert
+09.01 01    Brandschutz-Luke der Feuerwiderstandsklasse EI2 30-C bestehend aus einem 1 flügeligen Türblatt,
+            Z-Profilzarge und Beschlägen, für Mauermontage gerichtet. Im Positionsstichwort ist die Stocklichte angegeben.
+
+09.01 01A   Brandschutz-Luke EI2 30-C 700x800mm                                                                           Stk
+09.01 03    Brandschutztürelement (Schlüpftür) der Feuerwiderstandsklasse EI2 30-C bestehend aus einem 1 flügeligen
+            Türblatt, Z-Profilzarge und Beschlägen, für Mauermontage gerichtet. Im Positionsstichwort ist die Stocklichte
+            angegeben.
+
+09.01 03A   Brandschutztürelement EI2 30-C 800x1200mm                                                                     Stk
+09.01 05    Brandschutztürelement der Feuerwiderstandsklasse EI2 30-C bestehend aus einem 1 flügeligen Türblatt,
+            Z-Profilzarge und Beschlägen, für Mauermontage gerichtet. Im Positionsstichwort ist die Stocklichte angegeben.
+
+09.01 05A   Brandschutztürelement EI2 30-C b.900x2000mm                                                                   Stk
+            Stocklichte, nach Wahl des Auftraggebers, 800 x 1850 mm bis 900 x 2000 mm.
+
+09.01 05B   Brandschutztürelement EI2 30-C b.1200x2000mm                                                                  Stk
+            Stocklichte, nach Wahl des Auftraggebers, 1000 bis 1200 x 2000 mm.
+
+09.01 11    Brandschutz-Luke der Feuerwiderstandsklasse EI2 90-C bestehend aus einem 1 flügeligen Türblatt,
+            Z-Profilzarge und Beschlägen, für Mauermontage gerichtet. Im Positionsstichwort ist die Stocklichte angegeben.
+
+09.01 11A   Brandschutz-Luke EI2 90-C 700x800mm                                                                           Stk
+09.01 13    Brandschutztürelement (Schlüpftür) der Feuerwiderstandsklasse EI2 90-C bestehend aus einem 1 flügeligen
+            Türblatt, Z-Profilzarge und Beschlägen, für Mauermontage gerichtet. Im Positionsstichwort ist die Stocklichte
+            angegeben.
+
+09.01 13A   Brandschutztürelement EI2 90-C 800x1200mm                                                                     Stk
+09.01 15    Brandschutztürelement der Feuerwiderstandsklasse EI2 90-C bestehend aus einem 1 flügeligen Türblatt,
+            Z-Profilzarge und Beschlägen, für Mauermontage gerichtet. Im Positionsstichwort ist die Stocklichte angegeben.
+
+09.01 15A   Brandschutztürelement EI2 90-C b.900x2000mm                                                                   Stk
+            Stocklichte, nach Wahl des Auftraggebers, 800 x 1850 mm bis 900 x 2000 mm.
+
+09.01 15B   Brandschutztürelement EI2 90-C b.1200x2000mm                                                                  Stk
+            Stocklichte, nach Wahl des Auftraggebers, 1000 bis 1200 x 2000 mm.
+
+09.01 23    Aufzahlung (Az) auf Brandschutztürelemente für eine Umfassungszarge (U-Zarge) aus sendzimirverzinktem
+            Stahlblech, Bodeneinstand 60 mm, einbrenngrundiert, mit Dichtungsnut (Dichtungseinlage wird gesondert
+            übergeben), in die Schalung versetzt oder einbetoniert.
+            Stocklichte 800/900/1000 x 2000 mm.
+            Im Positionsstichwort ist die Profilbreite angegeben.
+
+09.01 23A   Az f.U-Zarge 200mm                                                                                            Stk
+            LB-Version: 23              Geringfügig Geändert
+
+09.01 23B   Az f.U-Zarge 250mm                                                                                            Stk
+            LB-Version: 23              Geringfügig Geändert
+
+09.01 23C   Az f.U-Zarge 300mm                                                                                            Stk
+            LB-Version: 23              Geringfügig Geändert
+
+09.02       Stahlzargen liefern+versetzen
+
+
+                                                                                                                     Seite 3 / 10
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+
+            Im Folgenden ist das Liefern und Versetzen von Stahlzargen beschrieben.
+09.02 21    Umfassungs-Zargen aus Stahlblech gemäß ÖNORM, mit Rostschutzfarbe tauchgrundiert, links/rechts
+            Ausführung, gerichtet für Schraubbänder und Dichtungen, einschließlich der dazu passenden Dichtungen liefern
+            und mit den aufgehenden Wänden oder in ausgebildeten Öffnungen versetzen. Im Positionsstichwort ist die
+            Profilbreite angegeben.
+            Stocklichte von 600 bis 850 x 2000 mm
+
+09.02 21A   Zarge Profilbreite 100mm                                                                                       Stk
+            LB-Version: 23               Geringfügig Geändert
+
+09.02 21B   Zarge Profilbreite 120mm                                                                                       Stk
+            LB-Version: 23               Geringfügig Geändert
+
+09.02 21C   Zarge Profilbreite 130mm                                                                                       Stk
+            LB-Version: 23               Geringfügig Geändert
+
+09.02 21D   Zarge Profilbreite 145mm                                                                                       Stk
+            LB-Version: 23               Geringfügig Geändert
+
+09.02 21E   Zarge Profilbreite 160mm                                                                                       Stk
+            LB-Version: 23               Geringfügig Geändert
+
+09.02 21F   Zarge Profilbreite 170mm                                                                                       Stk
+            LB-Version: 23               Geringfügig Geändert
+09.02 22    Eck-Zargen aus Stahlblech gemäß ÖNORM, mit Rostschutzfarbe tauchgrundiert, links/ rechts Ausführung,
+            gerichtet für Schraubbänder und Dichtungen, einschließlich der dazupassenden Dichtungen liefern und mit den
+            aufgehenden Wänden oder in ausgebildeten Öffnungen versetzen.
+            Stocklichte von 600 bis 850 x 2000 mm (nach Wahl des Auftraggebers).
+
+09.02 22A   Zarge Eckzarge                                                                                                 Stk
+            Als Eckzargen.
+
+09.11       Brandschutz-Zargen nur versetzen
+
+
+            Im Folgenden ist nur das Versetzen von vom AG beigestellten Brandschutz-Zargen beschrieben.
+            Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            Das Versetzen von Zargen mit Feuerschutz erfolgt nach den vom Hersteller beigegebenen Einbauanleitungen
+            oder Verarbeitungsrichtlinien.
+            Es werden nur dem System zugehörige Bauteile und Materialien verwendet, geprüft gemäß NORM.
+
+09.11 03    Stahl-Eckzargen (St-EZ), Stocklichte bis 2 m2, nur versetzen. Im Positionsstichwort ist die
+            Feuerwiderstandsklasse angegeben.
+
+09.11 03A   Versetzen St-EZ mitgem.EI2 30 b.2m2                                                                            Stk
+            Mitgemauert (mitgem.).
+
+09.11 03B   Versetzen St-EZ nachtr.EI2 30 b.2m2                                                                            Stk
+            Nachträglich (nachtr.) versetzt mit spannungsfreier Hinterfüllung.
+
+09.11 03C   Versetzen St-EZ einbet.EI2 30 b.2m2                                                                            Stk
+            In die Schalung versetzt und einbetoniert (einbet.).
+
+09.11 04    Stahl-Umfassungszargen (St-UZ), Stocklichte bis 2 m2, nur versetzen. Im Positionsstichwort ist die
+            Feuerwiderstandsklasse angegeben.
+
+09.11 04A   Versetzen St-UZ mitgem.EI2 30 b.2m2                                                                            Stk
+            Mitgemauert (mitgem.).
+
+                                                                                                                      Seite 4 / 10
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+09.11 04B   Versetzen St-UZ nachtr.EI2 30 b.2m2                                                                            Stk
+            Nachträglich (nachtr.) versetzt mit spannungsfreier Hinterfüllung.
+
+09.11 04C   Versetzen St-UZ einbet.EI2 30 b.2m2                                                                            Stk
+            In die Schalung versetzt und einbetoniert (einbet.).
+
+09.11 05    Stahl-Eckzargen (St-EZ), Stocklichte bis 2 m2, nur versetzen. Im Positionsstichwort ist die
+            Feuerwiderstandsklasse angegeben.
+
+09.11 05A   Versetzen St-EZ mitgem.EI2 90 b.2m2                                                                            Stk
+            Mitgemauert (mitgem.).
+
+09.11 05B   Versetzen St-EZ nachtr.EI2 90 b.2m2                                                                            Stk
+            Nachträglich (nachtr.) versetzt mit spannungsfreier Hinterfüllung.
+
+09.11 05C   Versetzen St-EZ einbet.EI2 90 b.2m2                                                                            Stk
+            In die Schalung versetzt und einbetoniert (einbet.).
+
+09.11 06    Stahl-Umfassungszargen (St-UZ), Stocklichte bis 2 m2, nur versetzen. Im Positionsstichwort ist die
+            Feuerwiderstandsklasse angegeben.
+
+09.11 06A   Versetzen St-UZ mitgem.EI2 90 b.2m2                                                                            Stk
+            Mitgemauert (mitgem.).
+
+09.11 06B   Versetzen St-UZ nachtr.EI2 90 b.2m2                                                                            Stk
+            Nachträglich (nachtr.) versetzt mit spannungsfreier Hinterfüllung.
+
+09.11 06C   Versetzen St-UZ einbet.EI2 90 b.2m2                                                                            Stk
+            In die Schalung versetzt und einbetoniert (einbet.).
+
+09.11 13    Stahl-Eckzargen (St-EZ), Stocklichte über 2 bis 4 m2, nur versetzen. Im Positionsstichwort ist die
+            Feuerwiderstandsklasse angegeben.
+
+09.11 13A   Versetzen St-EZ mitgem.EI2 30 ü.2-4m2                                                                          Stk
+            Mitgemauert (mitgem.).
+
+09.11 13B   Versetzen St-EZ nachtr.EI2 30 ü.2-4m2                                                                          Stk
+            Nachträglich (nachtr.) versetzt mit spannungsfreier Hinterfüllung.
+
+09.11 13C   Versetzen St-EZ einbet.EI2 30 ü.2-4m2                                                                          Stk
+            In die Schalung versetzt und einbetoniert (einbet.).
+
+09.11 14    Stahl-Umfassungszargen (St-UZ), Stocklichte über 2 bis 4 m2, nur versetzen. Im Positionsstichwort ist die
+            Feuerwiderstandsklasse angegeben.
+
+09.11 14A   Versetzen St-UZ mitgem.EI2 30 ü.2-4m2                                                                          Stk
+            Mitgemauert (mitgem.).
+
+09.11 14B   Versetzen St-UZ nachtr.EI2 30 ü.2-4m2                                                                          Stk
+            Nachträglich (nachtr.) versetzt mit spannungsfreier Hinterfüllung.
+
+09.11 14C   Versetzen St-UZ einbet.EI2 30 ü.2-4m2                                                                          Stk
+            In die Schalung versetzt und einbetoniert (einbet.).
+
+09.11 15    Stahl-Eckzargen (St-EZ), Stocklichte über 2 bis 4 m2, nur versetzen. Im Positionsstichwort ist die
+            Feuerwiderstandsklasse angegeben.
+
+09.11 15A   Versetzen St-EZ mitgem.EI2 90 ü.2-4m2                                                                          Stk
+            Mitgemauert (mitgem.).
+
+09.11 15B   Versetzen St-EZ nachtr.EI2 90 ü.2-4m2                                                                          Stk
+            Nachträglich (nachtr.) versetzt mit spannungsfreier Hinterfüllung.
+
+                                                                                                                      Seite 5 / 10
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+09.11 15C   Versetzen St-EZ einbet.EI2 90 ü.2-4m2                                                                        Stk
+            In die Schalung versetzt und einbetoniert (einbet.).
+
+09.11 16    Stahl-Umfassungszargen (St-UZ), Stocklichte über 2 bis 4 m2, nur versetzen. Im Positionsstichwort ist die
+            Feuerwiderstandsklasse angegeben.
+
+09.11 16A   Versetzen St-UZ mitgem.EI2 90 ü.2-4m2                                                                        Stk
+            Mitgemauert (mitgem.).
+
+09.11 16B   Versetzen St-UZ nachtr.EI2 90 ü.2-4m2                                                                        Stk
+            Nachträglich (nachtr.) versetzt mit spannungsfreier Hinterfüllung.
+
+09.11 16C   Versetzen St-UZ einbet.EI2 90 ü.2-4m2                                                                        Stk
+            In die Schalung versetzt und einbetoniert (einbet.).
+
+09.12       Stahlzargen nur versetzen
+
+
+            Im Folgenden ist nur das Versetzen von vom AG beigestellten Stahlzargen beschrieben.
+09.12 01    Stahl-Eckzargen (St-EZ), Stocklichte bis 2 m2, nur versetzen, Ausführung ohne Feuerschutz.
+
+09.12 01A   Versetzen St-EZ mitgem.b.2m2                                                                                 Stk
+            Mitgemauert (mitgem.).
+
+09.12 01B   Versetzen St-EZ nachtr.b.2m2                                                                                 Stk
+            Nachträglich (nachtr.) versetzt mit spannungsfreier Hinterfüllung.
+
+09.12 01C   Versetzen St-EZ einbet.b.2m2                                                                                 Stk
+            In die Schalung versetzt und einbetoniert (einbet.).
+
+09.12 02    Stahl-Umfassungszargen (St-UZ), Stocklichte bis 2 m2, nur versetzen, Ausführung ohne Feuerschutz.
+
+09.12 02A   Versetzen St-UZ mitgem.b.2m2                                                                                 Stk
+            Mitgemauert (mitgem.).
+
+09.12 02B   Versetzen St-UZ nachtr.b.2m2                                                                                 Stk
+            Nachträglich (nachtr.) versetzt mit spannungsfreier Hinterfüllung.
+
+09.12 02C   Versetzen St-UZ einbet.b.2m2                                                                                 Stk
+            In die Schalung versetzt und einbetoniert (einbet.).
+
+09.12 11    Stahl-Eckzargen (St-EZ), Stocklichte über 2 bis 4 m2, nur versetzen, Ausführung ohne Feuerschutz.
+
+09.12 11A   Versetzen St-EZ mitgem.ü.2-4m2                                                                               Stk
+            Mitgemauert (mitgem.).
+
+09.12 11B   Versetzen St-EZ nachtr.ü.2-4m2                                                                               Stk
+            Nachträglich (nachtr.) versetzt mit spannungsfreier Hinterfüllung.
+
+09.12 11C   Versetzen St-EZ einbet.ü.2-4m2                                                                               Stk
+            In die Schalung versetzt und einbetoniert (einbet.).
+
+09.12 12    Stahl-Umfassungszargen (St-UZ), Stocklichte über 2 bis 4 m2, nur versetzen, Ausführung ohne Feuerschutz.
+
+09.12 12A   Versetzen St-UZ mitgem.ü.2-4m2                                                                               Stk
+            Mitgemauert (mitgem.).
+
+09.12 12B   Versetzen St-UZ nachtr.ü.2-4m2                                                                               Stk
+            Nachträglich (nachtr.) versetzt mit spannungsfreier Hinterfüllung.
+
+09.12 12C   Versetzen St-UZ einbet.ü.2-4m2                                                                               Stk
+
+                                                                                                                    Seite 6 / 10
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+            In die Schalung versetzt und einbetoniert (einbet.).
+
+09.21       Sonstiges liefern+versetzen
+
+
+            Im Folgenden ist das Liefern und Versetzen von Bauteilen beschrieben.
+09.21 01    Kellerfenster (Ke-fe) liefern und versetzen mit vorgefertigten Leibungen aus glasfaserverstärktem Polyesterharz
+            in Mauerwerk, Schalungsstein- oder Mantelbetonwänden mitmauern, oberen Abschluss mit Schalung herstellen,
+            Schalungshöhe bis höchstens Steinhöhe (Bewehrungsstahl in eigener Position), Fenster für eine Verglasung mit
+            Drahtglas gerichtet. Im Positionsstichwort ist die Mauerlichte angegeben.
+
+09.21 01A   Ke-fe+Leib.Kipp+Lochg.50x50                                                                                          Stk
+            Als Kippfenster mit Doppelrahmen, Außenflügel mit Lochgitter.
+            Wanddicke: ____________
+
+09.21 01B   Ke-fe+Leib.Kipp+Lochg.80x50                                                                                          Stk
+            Als Kippfenster mit Doppelrahmen, Außenflügel mit Lochgitter.
+            Wanddicke: ____________
+
+09.21 01E   Ke-fe+Leib.2Fl+Lochg.80x50                                                                                           Stk
+            Zweiflügelig (2-Fl) mit Drehflügel, mit Doppelrahmen, Außenflügel mit Lochgitter.
+            Wanddicke: ____________
+
+09.21 01F   Ke-fe+Leib.2Fl+Lochg.100x50                                                                                          Stk
+            Zweiflügelig (2-Fl) mit Drehflügel, mit Doppelrahmen, Außenflügel mit Lochgitter. Wanddicke: ____________
+
+09.21 02    Kellerlichtschächte (Kellerlichtsch.) liefern und versetzen, lotrechte Tiefe 100 cm, aus glasfaserverstärktem
+            Kunststoff (GFK), einschließlich Einbruchschutz. Im Positionsstichwort ist die Fensterbreite angegeben.
+
+09.21 02A   Kellerlichtsch.GFK+Gitterrost b.100cm                                                                                Stk
+            Mit feuerverzinktem Gitterrost, Maschen 30 x 30 mm.
+            Schachtbreite ____________
+
+09.21 02B   Kellerlichtsch.GFK+Streckmetall b.100cm                                                                              Stk
+            Mit einem Rost aus feuerverzinktem Streckmetall.
+            Schachtbreite ____________
+
+09.21 02C   Kellerlichtsch.GFK+Gitterrost ü.100-125cm                                                                            Stk
+            Mit feuerverzinktem Gitterrost, Maschen 30 x 30 mm.
+            Schachtbreite ____________
+
+09.21 02D   Kellerlichtsch.GFK+Streckmetall ü.100-125cm                                                                          Stk
+            Mit einem Rost aus feuerverzinktem Streckmetall.
+            Schachtbreite ____________
+09.21 05    Aufzahlung (Az) auf Kellerlichtschächte (Kellerlichtsch.) aus glasfaserverstärktem Kunststoff (GFK).
+
+09.21 05A   Az Kellerlichtsch.GFK Entw.+Sieb                                                                                     Stk
+            Für einen Entwässerungsanschluss (Entw.) DN 70 mit Gummidichtung, Schmutzsieb und Übergangstück auf
+            DN 100.
+
+09.21 05B   Az Kellerlichtsch.GFK Aufsatz b.100cm                                                                                Stk
+            Für einen Lichtschachtaufsatz, mindestens 30 cm hoch, ohne Rost, für eine Fensterbreite bis 100 cm.
+
+09.21 05C   Az Kellerlichtsch.GFK Aufsatz ü.100cm                                                                                Stk
+            Für einen Lichtschachtaufsatz, mindestens 30 cm hoch, ohne Rost, für eine Fensterbreite über 100 bis 125 cm.
+
+09.21 11    Auflager aus Beton herstellen, Festigkeitsklasse C20/25, einschließlich Schalung. Im Positionsstichwort sind die
+            Abmessungen angegeben
+            Trägeroberkante bis 3,2 m.
+             Kommentar:
+             Diese Positionen beschreiben Leistungen für den Neubau. Positionen für die Instandsetzung sind in der LG 14 beschrieben.
+
+
+
+                                                                                                                            Seite 7 / 10
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+09.21 11A   Auflager 30x50x10 b.3,2m                                                                                             Stk
+09.21 13    Auflager aus Beton herstellen, Festigkeitsklasse C20/25, einschließlich Schalung. Im Positionsstichwort sind die
+            Abmessungen und die Trägeroberkante angegeben
+            Trägeroberkante über 3,2 m.
+             Kommentar:
+             Diese Positionen beschreiben Leistungen für den Neubau. Positionen für die Instandsetzung sind in der LG 14 beschrieben.
+
+09.21 13A   Auflager 30x50x10 ü.3,2m:__________                                                                                  Stk
+            LB-Version: 23                Geringfügig Geändert
+09.21 21    Stahlträger liefern und versetzen, mit einfachem Rostschutzanstrich, mit oder ohne Stahlplatten, als
+            Auflagerverstärkung auf fertigen Auflagern. Im Positionsstichwort ist die Einzelmasse angegeben.
+            Trägeroberkante bis 3,2 m.
+             Kommentar:
+             Diese Positionen beschreiben Leistungen für den Neubau. Positionen für die Instandsetzung sind in der LG 14 beschrieben.
+
+09.21 21A   Stahlträger b.100kg b.3,2m                                                                                           kg
+
+09.21 21B   Stahlträger ü.100-200kg b.3,2m                                                                                       kg
+
+09.21 21C   Stahlträger ü.200-300kg b.3,2m                                                                                       kg
+09.21 23    Stahlträger liefern und versetzen, mit einfachem Rostschutzanstrich, mit oder ohne Stahlplatten, als
+            Auflagerverstärkung auf fertigen Auflagern. Im Positionsstichwort sind die Einzelmasse und die Trägeroberkante
+            angegeben.
+            Trägeroberkante über 3,2 m.
+             Kommentar:
+             Diese Positionen beschreiben Leistungen für den Neubau. Positionen für die Instandsetzung sind in der LG 14 beschrieben.
+
+09.21 23A   Stahlträger b.100 ü.3,2m:__________                                                                                  kg
+
+09.21 23B   Stahlträger ü.100-200kg ü.3,2m:__________                                                                            kg
+
+09.21 23C   Stahlträger ü.200-300kg ü.3,2m:__________                                                                            kg
+09.21 31    Steigeisen liefern und versetzen, kunststoffbeschichtet und gekröpft.
+
+09.21 31A   Steigeisen gekr.Kst-besch.Mwk.                                                                                       Stk
+            In Mauerwerk.
+
+09.21 31B   Steigeisen gekr.Kst-besch.Beton                                                                                      Stk
+            In Beton, Stahlbeton oder Mantelbeton (Beton).
+
+09.22       Sonstiges nur versetzen
+
+
+            Im Folgenden ist nur das Versetzen von vom AG beigestellten Bauteilen beschrieben.
+            LB-Version: 23                Geändert
+09.22 01    Fußabstreifgitter, im Freien (außen) im Zuge der Betonierungsarbeiten nur versetzen, einschließlich Ausbilden
+            einer Mulde mit fein verriebener Oberfläche und eines Ablaufes durch Einlegen eines Kunststoffrohres,
+            Durchmesser mindestens 30 mm. Im Positionsstichwort ist das Flächenmaß der Rahmenlichte angegeben.
+
+09.22 01A   Fußabstreiferg.außen versetzen b.0,5m2                                                                               Stk
+
+09.22 01B   Fußabstreiferg.außen versetzen ü.0,5-1m2                                                                             Stk
+09.22 02    Winkelrahmen aus feuerverzinktem Stahl versetzen.
+                • rechteckig
+            Befestigungslaschen sind im Einheitspreis einkalkuliert.
+
+09.22 02A   Winkelrahmen versetzen                                                                                               Stk
+            Abmessungen/Winkel: ____________mm
+            Abmessungen Rahmenlichte: ____________cm
+
+                                                                                                                            Seite 8 / 10
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+            LB-Version: 23             Geändert
+Änderung:   Änderung von Vorbemerkung auf Positions mit Einheit Stk.
+
+09.22 11    Oberputz(OP)-Kantenschutzwinkel ohne Unterschied der Einzellängen und der Profile.
+             Kommentar:
+             Dehnfugenprofile sind in der LG 10 beschrieben.
+
+09.22 11A   Eckschutzwinkel OP versetzen Dübel                                                                            m
+            Mit Dübeln und Schrauben versetzen.
+
+            LB-Version: 23                Geringfügig Geändert
+
+09.22 11B   Eckschutzwinkel OP versetzen Pratzen                                                                          m
+            Mit Pratzen versetzen, einschließlich Stemm- und Nachputzarbeiten im Mauerwerk.
+
+            LB-Version: 23                Geringfügig Geändert
+09.22 21    Lüftungsgitter, Revisionstürchen und dergleichen (Gittertürchen) nur versetzen. Im Positionsstichwort sind die
+            Abmessungen angegeben.
+
+09.22 21A   Gitter-Türchen versetzen b.20x20cm                                                                            Stk
+
+09.22 21B   Gitter-Türchen versetzen b.40x40cm                                                                            Stk
+09.22 31    Verteiler-, Sicherungs- oder Zählerkästen (Verteiler-Kasten), vom Auftraggeber beigestellt, in vorbereiteten
+            Mauernischen versetzen. Gemessen werden die Außenabmessungen der versetzten Kästen, bei Abdeckleisten
+            deren Außenkanten. Im Positionsstichwort ist das Einzelausmaß angegeben.
+
+09.22 31A   Verteiler-Kasten versetzen b.0,5m2                                                                            Stk
+
+09.22 31B   Verteiler-Kasten versetzen ü.0,5-1m2                                                                          Stk
+
+09.22 31C   Verteiler-Kasten versetzen 1-2m2                                                                              Stk
+            Mit einer Einzelgröße über 1 bis 2 m2.
+
+09.22 31D   Verteiler-Kasten versetzen 2-3m2                                                                              Stk
+            Mit einer Einzelgröße über 2 bis 3 m2.
+
+09.22 41    Ausziehbare Dachbodentreppe, vom Auftraggeber beigestellt, in vorhandene Deckenausnehmung versetzen,
+            ohne Unterschied der Deckenhöhe bis 5 m.
+
+09.22 41A   Dachbodentreppe versetzen 80x150                                                                              Stk
+            Bis zu einer Durchgangslichte von 80 x 150 cm.
+
+09.22 51    Stufen mit Zementmörtel, ohne Unterschied der Stufenbreite und Stufenhöhe nur versetzen, einschließlich
+            Nachputzarbeiten an den Wangen und an der Wand. Abgerechnet die Summe der Stufenlängen.
+
+09.22 51A   Versetzen Keil-Hohlstufe b.1,5m                                                                               m
+            Keil- oder Hohlstufen, voll aufliegend auf Schrägplatten bis 1,5 m lang.
+
+09.22 51B   Versetzen Winkelstufe b.1,5m                                                                                  m
+            Winkelstufen auf Schrägplatten, bis 1,5 m lang.
+
+09.22 51C   Versetzen Trittstufenplatten                                                                                  m
+            Trittstufenplatten auf Stufenkernen.
+
+09.22 51D   Versetzen Tritt+Setzstufenplatten                                                                             m
+            Tritt- und Setzstufenplatten auf Stufenkernen.
+
+09.22 51E   Versetzen Keil-Blockstufe b.1,5m                                                                              m
+            Keil- oder Blockstufen beidseitig aufliegend auf Auflagern, bis 1,5 m lang.
+
+09.22 61    Setzungsmarken in Wänden nur versetzen.
+
+09.22 61A   Setzungsmarken versetzen                                                                                      Stk
+09.22 62    Tafeln (z.B. Hinweistafeln), vom Auftraggeber beigestellt, mit Dübeln und nicht rostenden Schrauben versetzen.
+                                                                                                                     Seite 9 / 10
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+09.22 62A   Tafeln versetzen b.0,25m2 b.3,2m                                                                           Stk
+            Größe bis 0,25 m2.
+
+09.31       Trennschichten
+
+
+            Im Folgenden ist das Liefern und Einbauen von Trennschichten beschrieben.
+
+09.31 41    Trennschichten zwischen Mauerwerksteilen, liefern und verlegen/versetzen, ohne Anforderungen an Schall-,
+            Wärme- und Brandschutz. Im Positionsstichwort ist die Dicke der Platten angegeben.
+
+09.31 41A   Trennschichten bitu.Weichfaserpl.1cm                                                                       m²
+            Aus bituminierten (bitu.) Weichfaserplatten.
+
+09.31 41B   Trennschichten bitu.Weichfaserpl.2cm                                                                       m²
+            Aus bituminierten (bitu.) Weichfaserplatten.
+
+09.31 45    Liefern und Einlegen von selbstklebenden, komprimierbaren (Kompri.) Bändern in Fugen (schließen). Im
+            Positionsstichwort ist die Breite angegeben.
+
+09.31 45A   Kompri.Band 15mm                                                                                           m
+
+09.31 45B   Kompri.Band 20mm                                                                                           m
+
+09.31 45C   Kompri.Band 25mm                                                                                           m
+
+
+
+
+                                                                                                                 Seite 10 / 10
+                                                                                            ib-data GmbH, Softwareentwicklung
+

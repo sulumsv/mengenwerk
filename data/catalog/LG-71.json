@@ -1,0 +1,286 @@
+{
+  "lg": "71",
+  "title": "Fenster aus Holz",
+  "positions": [
+    {
+      "code": "71.00.01A",
+      "text": "Seehöhe u.Gebäudegeometrie",
+      "unit": ""
+    },
+    {
+      "code": "71.10.01A",
+      "text": "Einfachfenster Holz m.Standard-Fensteranschluss",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11A",
+      "text": "Az Einfachfenster Holz MIG f.Fries",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11B",
+      "text": "Az Einfachfenster Holz MIG f.Fries doppelt",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11C",
+      "text": "Az Einfachfenster Holz MIG f.Sonneschutzgl.reflekt.",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11D",
+      "text": "Az Einfachfenster Holz MIG f.Sonneschutzgl.absorb.",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11E",
+      "text": "Az Einfachfenster Holz MIG f.Spr.vert./horiz.im Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11F",
+      "text": "Az Einfachfenster Holz MIG f.Spr/K.vert./horiz.im Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11G",
+      "text": "Az Einfachfenster Holz MIG f.Spr.vert./horiz.auf Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11H",
+      "text": "Az Einfachfenster Holz MIG f.Spr/K.vert./horiz.auf Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11I",
+      "text": "Az Einfachfenster Holz MIG f.Öffnungsbegrenzung",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11J",
+      "text": "Az Einfachfenster Holz MIG f.Drehsperre",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11K",
+      "text": "Az Einfachfenster Holz MIG f.Gestänge f.Oberlichten 2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11L",
+      "text": "Az Einfachfenster Holz MIG f.Fenstergriff m.Rosette",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11M",
+      "text": "Az Einfachfenster Holz MIG f.Scheibenaufbau",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11N",
+      "text": "Az Einfachfenster Holz MIG f.Scheibenabstand",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11O",
+      "text": "Az Einfachfenster Holz MIG f.Mindestschalldämmmaß",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11P",
+      "text": "Az Einfachfenster Holz MIG f.Wärmedurchgangskoeffizient",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11Q",
+      "text": "Az Einfachfenster Holz MIG f.einbruchhemmend",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11R",
+      "text": "Az Einfachfenster Holz MIG f.Strahlenschutz",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11S",
+      "text": "Az Einfachfenster Holz MIG f.Innenjalousien",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11T",
+      "text": "Az Einfachfenster Holz MIG f.Absturzsicherung",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11U",
+      "text": "Az Einfachfenster Holz MIG f.Reedkontakte",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.10.11Y",
+      "text": "Az Einfachfenster Holz MIG f.Sonstiges",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.01A",
+      "text": "Kastenfenster Holz m.Standard-Fensteranschluss",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11A",
+      "text": "Az Kastenfenster Holz MIG f.Fries",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11B",
+      "text": "Az Kastenfenster Holz MIG f.Fries doppelt",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11C",
+      "text": "Az Kastenfenster Holz MIG f.Sonneschutzgl.reflekt.",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11D",
+      "text": "Az Kastenfenster Holz MIG f.Sonneschutzgl.absorb.",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11G",
+      "text": "Az Kastenfenster Holz MIG f.Spr.vert./horiz.auf Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11H",
+      "text": "Az Kastenfenster Holz MIG f.Spr/K.vert./horiz.auf Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11I",
+      "text": "Az Kastenfenster Holz MIG f.Öffnungsbegrenzung",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11J",
+      "text": "Az Kastenfenster Holz MIG f.Drehsperre",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11K",
+      "text": "Az Kastenfenster Holz MIG f.Gestänge f.Oberlichten 2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11L",
+      "text": "Az Kastenfenster Holz MIG f.Fenstergriff m.Rosette",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11M",
+      "text": "Az Kastenfenster Holz MIG f.Scheibenaufbau",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11N",
+      "text": "Az Kastenfenster Holz MIG f.Scheibenabstand",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11O",
+      "text": "Az Kastenfenster Holz MIG f.Mindestschalldämmmaß",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11P",
+      "text": "Az Kastenfenster Holz MIG f.Wärmedurchgangskoeffizient",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11Q",
+      "text": "Az Kastenfenster Holz MIG f.einbruchhemmend",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11S",
+      "text": "Az Kastenfenster Holz MIG f.Innenjalousien",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11T",
+      "text": "Az Kastenfenster Holz MIG f.Absturzsicherung",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11U",
+      "text": "Az Kastenfenster Holz MIG f.Reedkontakte",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.20.11Y",
+      "text": "Az Kastenfenster Holz MIG f.Sonstiges",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.50.01A",
+      "text": "Türfeststeller Fußbedienung",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.50.02A",
+      "text": "Bewegliche Anschlüsse",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.50.11A",
+      "text": "Innenfensterbank Holz                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "71.50.14A",
+      "text": "Innenfensterbank melaminharzbeschichtet__________                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "71.50.25A",
+      "text": "Außenfensterbank Aluminium                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "71.50.25B",
+      "text": "Seitlicher Abschluss Außenfensterbank Aluminium",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.50.29A",
+      "text": "Außenfensterbank-Stoßverbindung",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.50.36A",
+      "text": "Az f.Fensterlüfter",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.50.36C",
+      "text": "Az f.Schalldämmlüfter",
+      "unit": "Stk"
+    },
+    {
+      "code": "71.90.00A",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "71.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "71.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

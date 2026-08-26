@@ -1,0 +1,286 @@
+{
+  "lg": "12",
+  "title": "Abdichtungsarbeiten",
+  "positions": [
+    {
+      "code": "12.12.07A",
+      "text": "Waagr.Abdicht. Kunststoffabdichtungsbahnen W3",
+      "unit": "m²"
+    },
+    {
+      "code": "12.12.07B",
+      "text": "Waagr.Abdicht. Kunststoffabdichtungsbahnen W4",
+      "unit": "m²"
+    },
+    {
+      "code": "12.12.08A",
+      "text": "Waagr.Abdicht. Flüssigkunststoffe W3",
+      "unit": "m²"
+    },
+    {
+      "code": "12.12.08B",
+      "text": "Waagr.Abdicht. Flüssigkunststoffe W4",
+      "unit": "m²"
+    },
+    {
+      "code": "12.13.07A",
+      "text": "Lotr.Abdicht. Kunststoffabdichtungsbahnen W3",
+      "unit": "m²"
+    },
+    {
+      "code": "12.13.07B",
+      "text": "Lotr.Abdicht. Kunststoffabdichtungsbahnen W4",
+      "unit": "m²"
+    },
+    {
+      "code": "12.13.08A",
+      "text": "Lotr.Abdicht. Flüssigkunststoffe W3",
+      "unit": "m²"
+    },
+    {
+      "code": "12.13.08B",
+      "text": "Lotr.Abdicht. Flüssigkunststoffe W4",
+      "unit": "m²"
+    },
+    {
+      "code": "12.12.00C",
+      "text": "Material zu 12.12 Kunststoff halogenfrei",
+      "unit": ""
+    },
+    {
+      "code": "12.12.01A",
+      "text": "Hohlkehle Zementmörtel 5cm                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "12.12.02A",
+      "text": "Waagr.Abdicht.MWK 1L.E-KV4                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "12.12.02B",
+      "text": "Waagr.Abdicht.MWK 1L.E-KV5                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "12.12.03A",
+      "text": "Waagr.Abdicht.1L.E-KV5",
+      "unit": "m²"
+    },
+    {
+      "code": "12.12.03B",
+      "text": "Waagr.Abdicht.1L.E-KV4+1L.E-KV5",
+      "unit": "m²"
+    },
+    {
+      "code": "12.12.03C",
+      "text": "Waagr.Abdicht.2L.E-KV5",
+      "unit": "m²"
+    },
+    {
+      "code": "12.12.03D",
+      "text": "Waagr.Abdicht.1L.E-KV4+2L.E-KV5",
+      "unit": "m²"
+    },
+    {
+      "code": "12.12.05A",
+      "text": "Waagr.Abdicht.1L.P-KV5",
+      "unit": "m²"
+    },
+    {
+      "code": "12.12.05B",
+      "text": "Waagr.Abdicht.1L.P-KV4+1L.P-KV5",
+      "unit": "m²"
+    },
+    {
+      "code": "12.12.05C",
+      "text": "Waagr.Abdicht.2L.P-KV5",
+      "unit": "m²"
+    },
+    {
+      "code": "12.12.05D",
+      "text": "Waagr.Abdicht.1L.P-KV4+2L.P-KV5",
+      "unit": "m²"
+    },
+    {
+      "code": "12.12.15A",
+      "text": "Az waagr.Abdicht.Boden Hochzug b.30cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "12.12.21A",
+      "text": "Az waagr.Abdicht.Bewegungsf.Abdeckstreifen                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "12.12.21B",
+      "text": "Az waagr.Abdicht.Bwegungsf.Fugenband                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "12.12.22A",
+      "text": "Waagr.Abdicht.Rohrmanschetten b.20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "12.12.22B",
+      "text": "Waagr.Abdicht.Rohrflansch b.20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "12.12.22C",
+      "text": "Waagr.Abdicht.Rohrmanschetten ü.20-50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "12.12.22D",
+      "text": "Waagr.Abdicht.Rohrflansch ü.20-50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "12.13.00C",
+      "text": "Material zu 12.13 Kunststoff halogenfrei",
+      "unit": ""
+    },
+    {
+      "code": "12.13.01A",
+      "text": "Lotr.Mauerwerk verputzen ZM",
+      "unit": "m²"
+    },
+    {
+      "code": "12.13.02A",
+      "text": "Lot.Abdicht.Feucht.Spachtel.1k 1S",
+      "unit": "m²"
+    },
+    {
+      "code": "12.13.02B",
+      "text": "Lot.Abdicht.n.drück.Wasser Spachtel.1k 2S",
+      "unit": "m²"
+    },
+    {
+      "code": "12.13.02C",
+      "text": "Az Armierungseinlage Glasseidengewebe",
+      "unit": "m²"
+    },
+    {
+      "code": "12.13.03A",
+      "text": "Lotr.Abdicht.1L.E-KV5",
+      "unit": "m²"
+    },
+    {
+      "code": "12.13.03B",
+      "text": "Lotr.Abdicht.1L.E-KV4+1L.E-KV5",
+      "unit": "m²"
+    },
+    {
+      "code": "12.13.03C",
+      "text": "Lotr.Abdicht.2L.E-KV5",
+      "unit": "m²"
+    },
+    {
+      "code": "12.13.03D",
+      "text": "Lotr.Abdicht.1L.E-KV4+2L.E-KV5",
+      "unit": "m²"
+    },
+    {
+      "code": "12.13.05A",
+      "text": "Lotr.Abdicht.1L.P-KV5",
+      "unit": "m²"
+    },
+    {
+      "code": "12.13.05B",
+      "text": "Lotr.Abdicht.1L.P-KV4+1L.P-KV5",
+      "unit": "m²"
+    },
+    {
+      "code": "12.13.05C",
+      "text": "Lotr.Abdicht.2L.P-KV5",
+      "unit": "m²"
+    },
+    {
+      "code": "12.13.05D",
+      "text": "Lotr.Abdicht.1L.P-KV4+2L.P-KV5",
+      "unit": "m²"
+    },
+    {
+      "code": "12.13.21A",
+      "text": "Az lotr.Abdicht.Bewegungsf.Abdeckstreifen                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "12.13.21B",
+      "text": "Az lotr.Abdicht.Bewegungsf.Fugenband                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "12.13.22A",
+      "text": "Lotr.Abdicht.Rohrmanschetten b.20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "12.13.22B",
+      "text": "Lotr.Abdicht.Rohrflansch b.20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "12.13.22C",
+      "text": "Lotr.Abdicht.Rohrmanschetten ü.20-50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "12.13.22D",
+      "text": "Lotr.Abdicht.Rohrflansch ü.20-50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "12.13.24A",
+      "text": "Lotr.Befestigungsschiene Aluminium                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "12.15.02A",
+      "text": "Schutz lotr.Abd.EPS-P/S 30mm",
+      "unit": "m²"
+    },
+    {
+      "code": "12.15.02B",
+      "text": "Schutz lotr.Abd.EPS-P/S 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "12.15.03A",
+      "text": "Schutz lotr.Abd.Perimeterd.XPS-G30/S 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "12.15.03B",
+      "text": "Schutz lotr.Abd.Perimeterd.XPS-G30/S 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "12.15.03C",
+      "text": "Schutz lotr.Abd.Perimeterd.XPS-G30/S 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "12.15.03D",
+      "text": "Schutz lotr.Abd.Perimeterd.XPS-G30/S 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "12.15.03X",
+      "text": "Schutz lotr.Abd.Perimeterd.XPS-G30/S__________",
+      "unit": "m²"
+    },
+    {
+      "code": "12.15.07A",
+      "text": "Schutz lotr.Abd.Noppenbahn Hohlkehle                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "12.15.07B",
+      "text": "Schutz lotr.Abd.Noppenbahn",
+      "unit": "m²"
+    }
+  ]
+}

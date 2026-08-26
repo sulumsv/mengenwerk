@@ -1,0 +1,1207 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                      Leistungsgruppe (LG) 80 - Injektionsarbeiten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 8000    Wählbare Vorbemerkungen
+                     ULG 8002    Vorarbeiten u.besondere Baustelleneinrichtungen
+                     ULG 8003    Untergrund/Mauerwerk vorbereiten
+                     ULG 8011    Rissinjektion
+                     ULG 8012    Mauerwerksverpressung
+                     ULG 8013    Flächeninjektion/Schleier
+                     ULG 8014    Horizontalsperren
+                     ULG 8015    Bodenverpressung
+                     ULG 8016    Schlauchinjektion
+                     ULG 8021    Sondermaßnahmen
+                     ULG 8031    Nacharbeiten,Nachtrocknen
+                     ULG 8075    Sonstiges
+                     ULG 8080    Dokumentation,Untersuchungen,Prüfungen
+                     ULG 8090    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 20
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                                    EH
+
+80          Injektionsarbeiten
+            Version 023 (2025-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Allgemein:
+            Die Verarbeitung erfolgt gemäß den Verarbeitungsrichtlinien/Ausführungsanweisungen und technischen
+            Merkblättern des Materialherstellers.
+            2. Materialqualität:
+            Zur Sicherstellung von gleich bleibenden Qualitäten weist der Bieter bei Angebotsabgabe nach, dass der
+            Lieferant der eingesetzten Werkstoffe ein Zertifikat gemäß DIN EN ISO 9001 nachweisen kann.
+            3. Eigenüberwachung:
+            3.1 Der AN führt während der gesamten Dauer der Instandsetzungsarbeiten laufend Eigenüberwachungen
+            durch.
+            3.2 Dies bezieht sich auf die Kontrolle des Untergrundes, des eingesetzten Materials und der
+            Witterungsbedingungen. Die Ergebnisse der Eigenüberwachungen werden in den Bautagesberichten
+            festgehalten.
+            4. Funktionskontrollen:
+            Funktionskontrollen vor der Injektion sind in die Einheitspreise einkalkuliert.
+            5. Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+             Kommentar:
+             Baustelleneinrichtungen bzw. Baustellengemeinkosten sind in der LG 01, Abbrucharbeiten in der LG 02, Gerüste in der LG
+             04 und Unterstellungen in der LG 14 beschrieben.
+             Voruntersuchungen sind vor der LV-Erstellung auszuschreiben, zu beauftragen und auszuwerten. Ergebnisse fließen in die
+             Ausschreibung ein.
+             Testfelder sind vor der LV-Erstellung auszuschreiben, zu beauftragen und auszuwerten. Ergebnisse fließen in die
+             Ausschreibung ein.
+             Bei der Verwendung von gefährlichen Stoffen als Arbeitsmaterial, Füllstoff oder Hilfsstoff (z.B. Epoxidharz und
+             Lösemittelreiniger) sind zusätzliche Schutzmaßnahmen bzw. Vorschriften/Regelungen (z.B. zur Arbeitssicherheit)
+             auszuschreiben.
+             Das Entsorgen von Verfüllgut ist in eigenen Positionen auszuschreiben.
+             Literaturhinweise (z.B.):
+             - ÖNORM B 2202: Arbeiten gegen aufsteigende Feuchtigkeit bei Trockenlegung von feuchtem Mauerwerk -
+             Werkvertragsnorm
+             - ÖNORM B 2270: Injektionsarbeiten - Werkvertragsnorm (Zurückziehung: 2001 07 01)
+             - ÖNORM B 3355/1-3: Trockenlegung von feuchtem Mauerwerk - Bauwerksdiagnostik und Planungsgrundlagen
+             (Zurückziehung: 2006 03 01)
+             - ÖBV Injektionsrichtlinien Teil 1 & 2 (Arbeitskreis: Materialtechnologie - Injektionstechnik)
+             - ÖFI Richtlinien Horizontalsperre (IBV)
+             - WTA Richtlinien (z.B. Schleierinjektionen)
+
+            LB-Version: 23                   Geändert
+Änderung:   Geänderte Positionen:
+            80.14 Horizontalsperren
+            80.14 01A Horizontalsperren bohren,einfach
+            80.14 01B Horizontalsperren bohren,doppelt
+            80.14 11A Injektion hydrophobierend,drucklos
+            80.14 11B Injektion hydrophobierend,Niederdruck
+            80.14 11C Injektion hydrophobierend,Hochdruck
+            80.14 12A Injektion kapillar verschließend,Niederdruck
+            80.14 12B Injektion kapillar verschließend,Hochdruck
+            80.14 21A Az f.Erschwernisse Anschlüsse Einbauten
+            80.14 21B Az f.Erschwernisse Fremdsysteme
+
+80.00       Wählbare Vorbemerkungen
+80.00 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+80.00 00A   Qualifikationsnachweis
+                                                                                                                                    Seite 2 / 20
+                                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+            Der Bieter weist mit Abgabe des Angebotes nach, dass er über die notwendigen Voraussetzungen zur
+            Durchführung der ausgeschriebenen Leistungen verfügt.
+            Art der Ausbildung, einschließlich Zertifikatsnachweis: ____________ oder Gleichwertiges.
+            Kriterien der Gleichwertigkeit: ____________
+
+80.00 00C   Ausführungen unter Wasser
+            Ausführungen unter Wasser.
+            Ergänzende Angaben: ____________
+
+80.00 00D   Ausführungen unter Druckluft
+            Ausführungen unter Druckluft.
+            Ergänzende Angaben: ____________
+
+80.00 00E   Erhöhte technische Anforderung
+            Erhöhte technische Anforderung (Trinkwasser).
+            Für die abdichtenden Verpressarbeiten ist ein Füllgut zu verwenden, welches über die notwendigen
+            Prüfzeugnisse der Trinkwasserverträglichkeit verfügt: ____________
+
+80.00 00F   Nachweis der Wirksamkeitsprüfung
+            Ein Nachweis der Wirksamkeitsprüfung ist vorzulegen (z.B.: WTA-Prüfzeugnis): ____________
+
+80.00 00G   Nachweis der Umweltverträglichkeit
+            Nachweis der Umweltverträglichkeit durch KTW-Prüfzeugnis: ____________
+
+80.00 00H   Grundwasserhygienisches Gutachten
+            Grundwasserhygienisches Gutachten: ____________
+
+80.00 00I   Vertragsgrundlagen
+            Vertragsgrundlagen (z.B. Normen, Richtlinien): ____________
+             Kommentar:
+             Vertragsgrundlagen sind z.B. ÖNORM B 2202, ÖNORM B 2270, ÖNORM B 3355/1-3, Anhänge zu ÖNORMEN, ÖBV
+             Injektionsrichtlinien Teil 1 & 2, ÖFI Richtlinien Horizontalsperre (IBV), WTA Richtlinien (z.B. Schleierinjektionen)
+
+80.00 00W   Verfügbarkeit von Beilagen zum LV
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit (z.B. Pläne): ____________
+
+80.02       Vorarbeiten u.besondere Baustelleneinrichtungen
+             Kommentar:
+             Voruntersuchungen sind vor der LV-Erstellung auszuschreiben, zu beauftragen und auszuwerten. Ergebnisse fließen in die
+             Ausschreibung ein.
+             Testfelder sind in ihrer Gesamtheit Kleinaufträge mit bindendem Charakter. Sie sind äquivalent zu Normausführungen mit
+             einer Ausführungsplanung vorzubereiten, durchzuführen und umzusetzen. In weiterer Folge müssen die positiven Ergebnisse
+             weitere Grundlage für den Gesamtauftrag sein. Dies betrifft sowohl Art und Umfang der Einbringung, wie auch Materialwahl.
+
+80.02 01    Voruntersuchung.
+
+80.02 01A   Einfache Voruntersuchung                                                                                                PA
+            Einfach: ____________
+
+80.02 01B   Vertiefte Voruntersuchung                                                                                               PA
+            Vertieft: ____________
+
+80.02 02    Voruntersuchung.
+
+80.02 02A   Voruntersuchung f.Rissinjektion                                                                                         PA
+            Für Rissinjektion: ____________
+
+80.02 02B   Voruntersuchung f.Schleierinjektion                                                                                     PA
+            Für Schleierinjektion: ____________
+
+                                                                                                                              Seite 3 / 20
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+
+80.02 02C   Voruntersuchung f.Flächeninjektion                                                                                PA
+            Für Flächeninjektion: ____________
+
+80.02 02D   Voruntersuchung f.Bodeninjektion                                                                                  PA
+            Für Bodeninjektion: ____________
+
+80.02 02E   Voruntersuchung f.Fugeninjektion                                                                                  PA
+            Für Fugeninjektion: ____________
+
+80.02 02F   Voruntersuchung f.Horizontalsperren                                                                               PA
+            Für Horizontalsperren: ____________
+
+80.02 11    Testfeld.
+             Kommentar:
+             Für das Testfeld ist vorweg ein Konzept der erforderlichen Maßnahmen zu erstellen.
+
+80.02 11A   Testfeld herstellen                                                                                               Stk
+            Herstellen.
+            Ein Ausführungsprotokoll (z.B. mit Produktdaten) ist im Einheitspreis einkalkuliert und wird nach Fertigstellung
+            dem AG übergeben.
+            Lage im Gebäude (z.B. Geschoss): ____________
+            Abmessungen: ____________
+            LB-Version: 23                 Geringfügig Geändert
+
+80.02 11B   Testfeld prüfen                                                                                                   Stk
+            Prüfung auf Einhaltung der durch den AG vorgegebenen Parametern.
+            Prüfverfahren: ____________
+
+80.02 11C   Testfeld Ausführungsprotokoll                                                                                     PA
+            Ausführungsprotokoll.
+            Betrifft Position(en): ____________
+            Das Ausführungsprotokoll beinhaltet: ____________
+
+80.02 91    Baustelleneinrichtungen für Injektionsarbeiten (z.B. Überdruckbereiche).
+            Einmalige Kosten der Baustelle, einschließlich Geräte, Stromversorgung, Wasserversorgung, Verkehrswege
+            und Maßnahmen der Sicherheit und des Gesundheitsschutzes.
+             Kommentar:
+             Zusätzliche Baustelleneinrichtungen, Geräte und Maschinen sind frei zu formulieren.
+             Literaturhinweise (z.B.):
+             - ÖNORM B 2061: Preisermittlung für Bauleistungen - Verfahrensnorm
+
+80.02 91A   Baustelleneinrichtung f.Injektionsarbeiten einrichten                                                             PA
+            Einrichten (Aufbauen) des betriebsfertigen Zustandes.
+            Betrifft Position(en): ____________
+            Beschreibung: ____________
+
+80.02 91B   Baustelleneinrichtung f.Injektionsarbeiten vorhalten                                                              Wo
+            Vorhalten ohne Unterschied, ob Baubetriebszeiten oder Stillliegezeit.
+            Betrifft Position(en): ____________
+
+80.02 91C   Baustelleneinrichtung f.Injektionsarbeiten räumen                                                                 PA
+            Räumen (Abbauen und Abtransportieren), einschließlich Entsorgen der Baurestmassen.
+            Betrifft Position(en): ____________
+
+80.03       Untergrund/Mauerwerk vorbereiten
+            LB-Version: 23                 Geringfügig Geändert
+
+
+                                                                                                                         Seite 4 / 20
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+80.03 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+80.03 00A   Rastermaß f.Vortrocknen
+            Rastermaß: ____________
+            Betrifft Position(en): ____________
+80.03 01    Untergrundvorbereitung.
+
+80.03 01A   Untergrundvorbereitungen                                                                                    m²
+            Beschreibung: ____________
+            Substrat: ____________
+
+80.03 01B   Untergrundvorbereitungen f.Verdämmung                                                                       m²
+            Herstellen eines haftfesten Untergrundes für eine Verdämmung, ca. 10 cm breit, durch Abfräsen, Abschleifen
+            oder Abbürsten loser, trennend wirkender Bestandteile und Absaugen von Staub entlang der Rissufer.
+80.03 02    Fugen ausräumen und verschließen, einschließlich Abstrahlen gerissener, lose sitzender Teile und Glätten der
+            Fugen.
+            Fugenanteil von 6 m/m2 bis 8 m/m2
+
+80.03 02A   Fugen aus Naturstein-Mauerwerk ausräumen                                                                    m²
+            Abschnittsweises Ausräumen der Fugen mit Hochdruckwasserstrahlen, 1.000 - 1.600 bar bis auf ca. 5 cm Tiefe.
+
+80.03 02B   Fugen aus Ziegel-Mauerwerk ausräumen                                                                        m²
+            Abschnittsweises Ausräumen der Fugen mit Hochdruckwasserstrahlen, 1.000 - 1.600 bar bis auf ca. 5 cm Tiefe.
+
+80.03 02C   Mörtelfugen bei Naturstein-Mauerwerk verschließen                                                           m²
+            Abschnittsweises Verschließen der Fugen bei Naturstein-Mauerwerk mit einem trasshaltigen, raumbeständig
+            aushärtenden Verfugmörtel.
+
+80.03 02D   Mörtelfugen bei Ziegel-Mauerwerk verschließen                                                               m²
+            Abschnittsweises Verschließen der Fugen bei Ziegel-Mauerwerk mit einem Verfugmörtel.
+
+80.03 03    Herstellung einer (Spritz) Mörtelverdämmung für die vollflächige Verdämmung der Mauerwerksoberfläche.
+
+80.03 03A   (Spritz) Mörteldämmung                                                                                      m²
+80.03 04    Leckagenverdämmung mit hochreaktivem Verdämmmörtel.
+
+80.03 04A   Temporäre Verdämmung                                                                                        m²
+            LB-Version: 23              Geringfügig Geändert
+80.03 05    Vortrocknen Untergrund/Mauerwerk um ein saugfähiges Substrat für nachfolgende Arbeitsschritte zu schaffen.
+
+80.03 05A   Vortrocknen                                                                                                 m²
+            Mittels folgendem Verfahren/Methode (z.B. Mikrowelle, Infrarot): ____________
+            Trocknung auf: DF </= ____________ %
+80.03 07    Trocknen im Heizstabverfahren mit steuerbaren Heizstäben (bis 120°C).
+            Im Positionsstichwort ist die Dicke (cm) des Mauerwerks (MWK) angegeben.
+            Abgerechnet wird nach Verrechnungseinheiten (VE = m2 x Tage).
+
+80.03 07A   Vortrocknen/Heizstäbe MWK 20-30cm                                                                           VE
+            LB-Version: 23              Geringfügig Geändert
+
+80.03 07B   Vortrocknen/Heizstäbe MWK ü.30-45cm                                                                         VE
+            LB-Version: 23              Geringfügig Geändert
+
+80.03 07C   Vortrocknen/Heizstäbe MWK ü.45-60cm                                                                         VE
+            LB-Version: 23              Geringfügig Geändert
+
+80.03 07D   Vortrocknen/Heizstäbe MWK ü.60-75cm                                                                         VE
+                                                                                                                   Seite 5 / 20
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+            LB-Version: 23               Geringfügig Geändert
+
+80.03 07E   Vortrocknen/Heizstäbe MWK ü.75-90cm                                                                             VE
+            LB-Version: 23               Geringfügig Geändert
+
+80.03 07F   Vortrocknen/Heizstäbe MWK ü.90-120cm                                                                            VE
+            LB-Version: 23               Geringfügig Geändert
+
+80.03 07G   Vortrocknen/Heizstäbe MWK ü.120cm:__________                                                                    VE
+            LB-Version: 23               Geringfügig Geändert
+
+80.11       Rissinjektion
+            LB-Version: 23               Geringfügig Geändert
+80.11 01    Bohren von Injektionskanälen, wechselseitig schräg zum Riss unter einem Winkel von 45° bis über die
+            Rissebene hinaus, Bohrlänge gleich Risstiefe (ggf. Bauteildicke), Bohrlochabstand untereinander und zum Riss
+            gleich halber Risstiefe (ggf. Bauteildicke).
+            Im Positionsstichwort ist der Durchmesser (mm) angegeben.
+
+80.11 01A   Injektionskanäle f.Rissinjektion bohren 14mm                                                                    Stk
+            Bauteildicke: ____________
+            Material: ____________
+
+80.11 01B   Injektionskanäle f.Rissinjektion bohren 18mm                                                                    Stk
+            Bauteildicke: ____________
+            Material: ____________
+
+80.11 01C   Injektionskanäle f.Rissinjektion bohren 20mm                                                                    Stk
+            Bauteildicke: ____________
+            Material: ____________
+
+80.11 02    Bohrpacker setzen, einschließlich Absaugen von Bohrmehl und Staub aus dem Injektionskanal mit
+            Industriestaubsauger oder Ausblasen über eine bohrtiefe Lanze mit ölfreier Druckluft.
+
+80.11 02A   Bohrpacker f.Rissinjektion                                                                                      Stk
+            Betrifft Position(en): ____________
+
+80.11 03    Kleben der Klebepacker mit Polyurethanharz mit einem thixotropen Harz auf tragfähigem, staubfreien
+            Untergrund.
+            Packerabstand gleich Risstiefe (ggf. Bauteildicke).
+
+80.11 03A   Klebepacker f.Rissinjektion m.Polyurethanharz                                                                   Stk
+            Betrifft Position(en): ____________
+
+80.11 05    Risse verdämmen.
+                • Breite: ca. 10 cm
+
+80.11 05A   Rissverdämmung f.Rissinjektion m.Polyurethanharz                                                                m
+            Mit Polyurethanharz (wird durch Zugabe von Stellmittel auf die erforderliche Standfestigkeit eingestellt).
+
+80.11 05C   Rissverdämmung f.Rissinjektion m.hochreaktivem Zementmörtel                                                     m
+            Mit hochreaktivem Zementmörtel (wird durch Zugabe von unterschiedlichem Wasseranteil auf die erforderliche
+            Standfestigkeit eingestellt).
+80.11 14    Zementsuspension-Injektion für Risse.
+            Mischen und injizieren einer niedrigviskosen, hochsulfatbeständigen, sedimentationsfreien, raumbeständig
+            aushärtenden Zementsuspension, mit einer im Niederdruckbereich (bis 10 bar) gut regelbaren Membranpumpe
+            über vorbereitete Packer ohne Überwindungsdruck in Risse ≥ 0,2 mm.
+            Zementsuspension mit Partikelgröße d95 8 µm
+            Einschließlich Nachverpressen der Packer innerhalb der Verarbeitbarkeitsdauer der Zementsuspension.
+
+80.11 14A   Kraftschlüssige Zementsuspension-Injektion f.Risse ≥0,2mm                                                       m
+                                                                                                                       Seite 6 / 20
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            LB-Version: 23                Geringfügig Geändert
+80.11 15    Abdichtende, dehnfähige Injektion für Risse.
+            Mischen und injizieren eines niedrigviskosen, feuchtigkeitsreaktiven, dauerelastischen Polyurethanharzes mit
+            einer luftbetriebenen, gut regelbaren Hochdruckinjektionspumpe über vorbereitete Packer.
+            Einschließlich Nachverpressen der Packer innerhalb der Verarbeitbarkeitsdauer des Injektionsharzes.
+            Im Positionsstichwort ist die Mindestbreite (mm) des Risses angegeben.
+             Kommentar:
+             Ein Mehr- oder Minderverbrauch ist in eigenen Positionen beschrieben.
+
+80.11 15A   Abdichtende,dehnfähige Injektion f.Risse 0,1-0,3mm                                                            m
+            Angenommener Verbrauch (ml/m): ____________
+
+80.11 15B   Abdichtende,dehnfähige Injektion f.Risse ü.0,3-0,8mm                                                          m
+            Angenommener Verbrauch (ml/m): ____________
+
+80.11 15C   Abdichtende,dehnfähige Injektion f.Risse ü.0,8-4mm                                                            m
+            Angenommener Verbrauch (ml/m): ____________
+
+80.11 21    Vorinjektion bei Rissen.
+            Mischen und injizieren eines niedrigviskosen, feuchtigkeitsreaktiven, schnell aufschäumenden,
+            zweikomponentigen Polyurethanharzes mit hoher Volumenvergrößerung (3700 %) in vorbereitete Packer mit
+            einer luftbetriebenen, gut regelbaren Hochdruckinjektionspumpe in druckwasserführende Risse ≥ 0,2 mm zum
+            temporären Stoppen der Wasserzuflüsse.
+
+80.11 21A   Vorinjektion Polyurethanschaum Risse ≥0,2 mm                                                                  m
+80.11 22    Vorinjektion Wasser bei Rissen.
+            Injizieren von Wasser zum Vornässen der Haftflächen über vorbereitete Packer.
+            Abschätzen der Füllmengen und Kontrolle des Injektionsdruckes.
+
+80.11 22A   Vorinjektion Wasser f.Rissinjektion                                                                           m
+80.11 23    Niederdruck-Injektion für Risse.
+            Mischen und injizieren mit einem federkraftbetriebenen, stetig fördernden Niederdruckinjektionsgerät über
+            vorbereitete Packer.
+
+80.11 23B   Niederdruck-Injektion f.Risse m.Polyurethanharz                                                               m
+            Mit niedrigviskosen, feuchtigkeitsreaktiven, dauerelastischen Polyurethanharz, dehnfähig.
+
+80.11 23C   Niederdruck-Injektion f.Risse m.Zementsuspension                                                              m
+            Mit niedrigviskosen, sedimentationsfreien, raumbeständig aushärtenden Zementsuspension.
+
+80.11 91    Rissinjektion/Mehrverbrauch.
+            Liefern, lagern und injizieren von zusätzlich erforderlichem Material über den angenommenen Materialverbrauch
+            hinaus.
+
+80.11 91A   Rissinjektion Mehrverbrauch Zementsuspension                                                                  kg
+            Zementsuspension.
+
+80.11 91B   Rissinjektion Mehrverbrauch Polyurethanharz                                                                   l
+            Polyurethanharz.
+
+80.11 92    Rissinjektion/Minderverbrauch.
+
+80.11 92A   Rissinjektion Minderverbrauch Zementsuspension                                                                kg
+            Zementsuspension.
+
+80.11 92B   Rissinjektion Minderverbrauch Polyurethanharz                                                                 l
+            Polyurethanharz.
+
+80.12       Mauerwerksverpressung
+
+                                                                                                                     Seite 7 / 20
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+
+            1. Mauerwerksverpressung:
+            Injektionen sind von unten nach oben aufbauend ausgeführt und erfolgen unter Einhaltung der
+            Nachinjektionszeiten.
+            2. Ausmaß- und Abrechnungsregeln:
+            Bei Verpressungen und Injektionen wird das geometrische Gesamtvolumen des zu bearbeitenden Bauteils,
+            unabhängig vom tatsächlich erreichten Verfüllgrad, abgerechnet.
+             Kommentar:
+             Dem Bieter ist der Ausgangswert der Mauerwerksfestigkeit und das Mindest-Verfestigungsziel zu benennen. Die
+             Ausgangswerte sind Bestandteil der Vorbefundung, die Zielwerte sind abschließend in einem zu benennenden Prüfverfahren
+             nachzuprüfen (Mindestvorgaben).
+             Bei Mauerwerksdicken > 60 cm erfolgt eine Verpressung in mehreren Ebenen.
+             Kriterien zum Abbruch der Arbeiten (z.B. Größter Druck, Austritte, Mischtoleranzen) sind zwischen AG und AN abzustimmen
+             und im Injektionskonzept festzuhalten.
+
+            LB-Version: 23                 Geringfügig Geändert
+80.12 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+80.12 00A   Rastermaß f.Mauerwerksverpressung
+            Rastermaß für Injektionskanäle (z.B. 25 x 25 cm, versetzt): ____________
+            Betrifft Position(en): ____________
+80.12 01    Bohren von Injektionskanälen, einschließlich Säubern der Bohrlöcher.
+            Bohrwinkel 30 bis 45° gegen die Lagerfugenebene nach unten und 30 bis 45° gegen die Stoßfugenebene je
+            Reihe gegeneinander verschränkt (link-rechts-Wechsel).
+            Bohrlochtiefe = Bauteildicke minus 10 cm
+            Im Positionsstichwort ist der Durchmesser (mm) angegeben.
+             Kommentar:
+             Bohrlochtiefe gleich Bauteildicke minus 10 cm.
+
+80.12 01A   Injektionskanäle bohren 20mm                                                                                        Stk
+            Bauteildicke: ____________
+            Material: ____________
+80.12 02    Schlagpacker bzw. Kunststoffpacker, einschließlich Absaugen von Bohrmehl und Staub aus dem
+            Injektionskanal oder Ausblasen über eine bohrtiefe Lanze mit ölfreier Druckluft.
+
+80.12 02A   Schlagpacker f.Mauerwerksverpressung                                                                                Stk
+            Abdichtung: ____________
+            Betrifft Position(en): ____________
+80.12 04    Injektionspacker mit vorbereiteten Mundstücken für vorbereitete Bohrlöcher mind. 10 cm unter Wandoberfläche.
+            Bei ungenügendem Halt der Packer ist eine zusätzliche Verdämmung oder Fixierung im Einheitspreis
+            einkalkuliert.
+             Kommentar:
+             Mauerwerksverpressungen bei großen Dicken (> 60 cm) erfolgen in mehreren Ebenen.
+
+80.12 04A   Injektionspacker f.Mauerwerksverpressung                                                                            Stk
+            Betrifft Position(en): ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+80.12 11    Mauerwerksverpressung mit Injektionsgut.
+            Im Positionsstichwort ist die Mauerwerksdicke (cm) angegeben (einschließlich Putz).
+             Kommentar:
+             Mauerwerksverpressungen bei großen Dicken (> 60 cm) erfolgen in mehreren Ebenen.
+
+80.12 11A   Mauerwerksverpressung 25-40cm                                                                                       m³
+
+
+
+                                                                                                                           Seite 8 / 20
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Ausgangswert:____________
+            Zielwert: ____________
+            Verbrauch (kg/m3): ____________
+
+80.12 11B   Mauerwerksverpressung ü.40-60cm                                                                               m³
+            Ausgangswert:____________
+            Zielwert: ____________
+            Verbrauch (kg/m3): ____________
+
+80.12 11C   Mauerwerksverpressung ü.60-90cm                                                                               m³
+            Ausgangswert:____________
+            Zielwert: ____________
+            Verbrauch (kg/m3): ____________
+
+80.12 11D   Mauerwerksverpressung ü.90-120cm                                                                              m³
+            Ausgangswert:____________
+            Zielwert: ____________
+            Verbrauch (kg/m3): ____________
+
+80.12 11E   Mauerwerksverpressung ü.120cm:__________                                                                      m³
+            Ausgangswert:____________
+            Zielwert: ____________
+            Verbrauch (kg/m3): ____________
+
+80.12 21    Mischen und injizieren eines niedrigviskosen, sedimentationsfreien, raumbeständig aushärtenden Zementleims,
+            mit einer im Niederdruckbereich (bis 10 bar) gut regelbaren Membranpumpe über vorbereitete Packer ohne
+            Überwindungsdruck in Risse > 0,8 mm.
+            Partikelgröße d99,9 ≤ 200 µm
+            Einschließlich Nachverpressen der Packer innerhalb der Verarbeitbarkeitsdauer des Zementleims.
+
+80.12 21A   Injektion m.Zementleim                                                                                        m³
+            Mit Zementleim.
+            Ausgangswert:____________
+            Zielwert: ____________
+            Verbrauch (l/m3): ____________
+
+80.12 22    Mischen und injizieren eines trasshaltigen, hochsulfatbeständigen, niedrigviskosen, sedimentationsfreien,
+            raumbeständig aushärtenden Zementleims mit einer im Niederdruckbereich (bis 10 bar) gut regelbaren
+            Membranpumpe über vorbereitete Packer ohne Überwindungsdruck in Risse > 0,8 mm.
+            Einschließlich Nachverpressen der Packer innerhalb der Verarbeitbarkeitsdauer des Zementleims.
+
+80.12 22A   Injektion m.Trass-/Zementleim                                                                                 m³
+            Mit Trass-/Zementleim.
+            Ausgangswert:____________
+            Zielwert: ____________
+            Verbrauch (l/m3): ____________
+            LB-Version: 23                 Geringfügig Geändert
+80.12 23    Mischen und injizieren eines geprüften, niedrigviskosen ( ≤ 200 mPa*s bei RT), feuchtigkeitsreaktiven,
+            zähelastischen Polyurethanharzes mit einer luftbetriebenen, gut regelbaren Hochdruckinjektionspumpe über
+            vorbereitete Packer.
+            Einschließlich Nachverpressen der Packer innerhalb der Verarbeitbarkeitsdauer des Injektionsharzes.
+
+80.12 23A   Injektion ZPUR                                                                                                m³
+            Mit ZPUR.
+            Ausgangswert:____________
+                                                                                                                     Seite 9 / 20
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            Zielwert: ____________
+            Verbrauch (l/m3): ____________
+80.12 24    Mischen und injizieren einer niedrigviskosen, sedimentationsfreien, raumbeständig aushärtenden
+            Kalk/Trasssuspension mit einer im Niederdruckbereich (bis 10 bar) gut regelbaren Membranpumpe über
+            vorbereitete Packer ohne Überwindungsdruck in Hohlräume > 0,5 mm.
+            Einschließlich Nachverpressen der Packer innerhalb der Verarbeitbarkeitsdauer der Suspension.
+
+80.12 24A   Injektion Kalktrass                                                                                         m³
+            Mit Kalktrass.
+            Ausgangswert:____________
+            Zielwert: ____________
+            Verbrauch (l/m3): ____________
+
+80.12 91    Mauerwerksverpressung/Mehrverbrauch.
+            Liefern, lagern und injizieren von zusätzlich erforderlichem Material über den angenommenen Materialverbrauch
+            hinaus.
+
+80.12 91A   Mauerwerksverpressung Mehrverbrauch Zementleim                                                              l
+            Zementleim.
+
+80.12 92    Mauerwerksverpressung/Minderverbrauch.
+
+80.12 92A   Mauerwerksverpressung Minderverbrauch Zementleim                                                            l
+            Zementleim.
+
+80.13       Flächeninjektion/Schleier
+
+
+            Ausmaß- und Abrechnungsregeln:
+            Abgerechnet wird die tatsächlich injizierte Menge für einen dichten Injektionsschirm mit einer angenommenen
+            Dicke von >/= 8 cm im Packerkontakt.
+             Kommentar:
+             Der Verbrauch variiert je nach Einbringungsart, Untergrund und Materialbasis.
+
+80.13 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+80.13 00A   Rastermaß f.Flächeninjektion
+            Rastermaß für Injektionskanäle: ____________
+            Betrifft Position(en): ____________
+80.13 01    Bohren von Injektionskanälen über den zu injizierenden Bereich verteilt - unter dem angegebenen Winkel in das
+            Mauerwerk hinein.
+            Bohrlochabstand ca. 25 cm
+            Im Positionsstichwort ist der Durchmesser der Injektionskanäle (mm) und der Winkel angegeben.
+
+80.13 01A   Injektionskanäle bohren 14mm/30-45° (Bauteildicke)                                                          Stk
+            Bohrlochtiefe = Bauteildicke
+
+80.13 01B   Injektionskanäle bohren 20mm/30-45° (Bauteildicke-10)                                                       Stk
+            Bohrlochtiefe = Bauteildicke minus 10 cm
+
+80.13 01C   Injektionskanäle bohren 14mm/90° (2/3 Bauteildicke)                                                         Stk
+            Bohrlochtiefe = 2/3 Bauteildicke
+
+80.13 01D   Injektionskanäle bohren 20mm/90° (2/3 Bauteildicke)                                                         Stk
+            Bohrlochtiefe = 2/3 Bauteildicke
+
+80.13 01E   Injektionskanäle bohren 20mm/90° (Bauteildicke)                                                             Stk
+            Bohrlochtiefe = Bauteildicke
+
+                                                                                                                  Seite 10 / 20
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+80.13 11    Mischen und injizieren eines niedrigviskosen, lösemittelfreien, ungefüllten Acrylatgels mit einer gut regelbaren
+            2-Komponenten Hochdruckinjektionspumpe
+
+80.13 11A   Injektion m.Acrylatgel                                                                                          m²
+            Bauteildicke (cm): ____________
+
+80.13 91    Flächeninjektion/Mehrverbrauch.
+            Liefern, lagern und injizieren von zusätzlich erforderlichem Material über den angenommenen Materialverbrauch
+            hinaus.
+
+80.13 91A   Flächeninjektion Mehrverbrauch Acrylatgel                                                                       l
+            Acrylatgel.
+
+80.13 92    Flächeninjektion/Minderverbrauch.
+
+80.13 92A   Flächeninjektion Minderverbrauch Acrylatgel                                                                     l
+            Acrylatgel.
+
+80.14       Horizontalsperren
+            LB-Version: 23               Geändert
+Änderung:   Änderung der Einheiten beim Bohren und Injektionen von Stk./m3 auf m2.
+
+80.14 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+80.14 00A   Rastermaß f.Horizontalsperren
+            Rastermaß für Injektionskanäle: ____________
+            Betrifft Position(en): ____________
+
+80.14 00B   Angaben zum Bauteil
+            Angaben / Material des Bauteils (z.B. Beton, Ziegel, Mischmauerwerk): ____________
+
+            LB-Version: 23
+80.14 01    Bohren von Injektionskanälen mit 10 -12 mm Durchmesser - über den zu injizierenden Bereich verteilt, unter
+            einem Winkel von 85 - 90° in das Bauteil hinein.
+            Bohrtiefe gleich 4/5 Bauteildicke. Bohrlochabstand ca. 10 cm
+            Die angegebene Menge entspricht immer einer Reihenlänge (z.B. Länge der Wand) mal der Bauteildicke.
+            Im Positionsstichwort ist die Anzahl der Reihe (einfach für eine Reihe oder doppelt für zwei Reihen) angegeben.
+
+80.14 01A   Horizontalsperren bohren,einfach                                                                                m²
+            LB-Version: 23                 Geändert
+Änderung:   Änderung der Einheit von Stk. auf m²
+
+80.14 01B   Horizontalsperren bohren,doppelt                                                                                m²
+            LB-Version: 23                 Geändert
+Änderung:   Änderung der Einheit von Stk. auf m²
+
+80.14 02    Schlagpacker setzen bzw. einschlagen der Kunststoffpacker, einschließlich Absaugen von Bohrmehl und Staub
+            aus dem Injektionskanal oder Ausblasen über eine bohrtiefe Lanze mit ölfreier Druckluft.
+
+80.14 02A   Schlagpacker f.Horizontalsperren                                                                                Stk
+            Betrifft Position(en): ____________
+
+80.14 03    Setzen der Injektionspackern in die vorbereiteten Bohrlöcher mind. 5 cm unter Wandoberfläche.
+            Bei ungenügendem Halt der Packer ist eine zusätzliche Verdämmung oder Fixierung im Einheitspreis
+            einkalkuliert.
+
+80.14 03A   Injektionspacker f.Horizontalsperren                                                                            Stk
+            LB-Version: 23                Geringfügig Geändert
+
+
+
+
+                                                                                                                      Seite 11 / 20
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                               EH
+
+80.14 11    Injizieren eines hydrophobierenden Siloxan/Silan-Produkts mit einer gut regelbaren 1-Komponenten
+            Niederdruckinjektionspumpe.
+            Die angegebene Menge entspricht immer einer Reihenlänge (z.B. Länge der Wand) mal der Bauteildicke.
+            Im Positionsstichwort ist die Ausführung der Einbringung (drucklos, Niederdruck, Hochdruck) angegeben.
+
+80.14 11A   Injektion hydrophobierend,drucklos                                                                                       m²
+            Drucklos.
+             Kommentar:
+             Bei drucklosen Injektionen sind Packer nicht notwendig, jedoch ist eine zusätzliche Position für das Verschließen der
+             Bohrlöcher z.B. 80.14 71A notwendig.
+
+            LB-Version: 23                Geändert
+Änderung:   Änderung der Einheit von m³ auf m²
+
+80.14 11B   Injektion hydrophobierend,Niederdruck                                                                                    m²
+            Mit Niederdruck (< 10bar).
+
+            LB-Version: 23                Geändert
+Änderung:   Änderung der Einheit von m³ auf m²
+
+80.14 11C   Injektion hydrophobierend,Hochdruck                                                                                      m²
+            Mit Hochdruck.
+
+            LB-Version: 23                Geändert
+Änderung:   Änderung der Einheit von m³ auf m²
+
+80.14 12    Injizieren eines kapillar verschließenden Produkts mit einer gut regelbaren 2-Komponenten
+            Niederdruckinjektionspumpe.
+            Die angegebene Menge entspricht immer einer Reihenlänge (z.B. Länge der Wand) in m.
+            Im Positionsstichwort ist die Ausführung der Einbringung (Niederdruck oder Hochdruck) und die Bauteildicke (d)
+            in mm angegeben.
+
+80.14 12A   Injektion kapillar verschließend,Niederdruck                                                                             m²
+            Mit Niederdruck, Kapillar verschließend.
+
+            LB-Version: 23                Geändert
+Änderung:   Änderung der Einheit von m³ auf m²
+
+80.14 12B   Injektion kapillar verschließend,Hochdruck                                                                               m²
+            Mit Hochdruck, Kapillar verschließend.
+
+            LB-Version: 23                Geändert
+Änderung:   Änderung der Einheit von m³ auf m²
+
+80.14 21    Aufzahlung (Az) auf Horizontalsperren für Erschwernisse.
+
+80.14 21A   Az f.Erschwernisse Anschlüsse Einbauten                                                                                  PA
+            Bei Anschlüssen von Einbauten mittels Schottinjektion durch verdichteten/veränderten Injektionsraster und
+            -druck.
+            Betrifft Position(en): ____________
+            LB-Version: 23                 Geändert
+
+80.14 21B   Az f.Erschwernisse Fremdsysteme                                                                                          PA
+            Bei der Anbindung an vorhandene Fremdsysteme (z.B. mechanische Sperren, etc.) mittels Schottinjektion durch
+            verdichteten/veränderten Injektionsraster und -druck.
+            Betrifft Position(en): ____________
+            LB-Version: 23                 Geändert
+80.14 71    Kraftschlüssiges Verschließen der Bohrlöcher bei Horizontalsperren (HSP), nach statischen Erfordernissen,
+            nach den Injektionsarbeiten, auf voller Länge ohne Unterschied der Dicke und Mauerwerksart.
+
+80.14 71A   Bohrlochverschluss HSP                                                                                                   m²
+            LB-Version: 23
+
+
+                                                                                                                              Seite 12 / 20
+                                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+80.15       Bodenverpressung
+80.15 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+80.15 00A   Rastermaß f.Bodenverpressung
+            Rastermaß für Rammlanzen: ____________
+            Betrifft Position(en): ____________
+80.15 01    Injektionslanzen mit verschlossenen Austrittsöffnungen und abnehmbaren Mundstücken in das frei zugängliche
+            Erdreich, mind. 50 cm unter Bodenoberfläche, in mehreren Ebenen und Winkeln verpressen.
+            Bei ungenügendem Halt der Packer ist eine zusätzliche Verdämmung oder Fixierung im Einheitspreis
+            einkalkuliert.
+
+80.15 01A   Injektionslanzen f.Bodenverpressung                                                                                   Stk
+            Einbringtiefe (m): ____________
+
+            LB-Version: 23                      Geringfügig Geändert
+80.15 11    Einbringen eines 2K-zähelastischen Polyurethans mittels Pumpentechnik im vorgeschriebenen Druck- und
+            Mengenbereich.
+                • Druckfestigkeit des Materials > 50N/mm²
+                • Größter Schaumfaktor übersteigt das 15-fach nicht (frei- schäumend)
+                • Viskosität </= 200 mPas*s, und verändert sich durch Zugabe von Katalysatoren nicht
+            Für die Verfestigungen stehen mindestens zwei verschiedene Reaktionszeiten (~30’ und ~4’) zur Verfügung.
+            Einschließlich Zwischenspülen.
+             Kommentar:
+             Injektionen im Hochdruckverfahren (>10 bar an der Lanze) sind nur mit Ausnahmen und nach Bedarf zu unterschreiten!
+             Ein Nachziehen der installierten Lanzen ist möglich.
+
+80.15 11A   Bodenverpressung                                                                                                      m³
+            Bodenverpressung (Verfestigung auf fr > 30N/cm²)
+            Ausgangswert:____________
+            Zielwert: ____________
+            LB-Version: 23                      Geringfügig Geändert
+
+80.16       Schlauchinjektion
+            1. Schlauchinjektion:
+            Zugelassen sind der vom Hersteller vorgegebene Einsatzbereich und die zugelassenen Einbaulängen.
+            2. Einkalkulierte Leistungen:
+            Die Dokumentation mit Angaben zu: Produkt, die Charge, Bauteil-, Luft- und Materialtemperatur, sowie
+            Injektionsdruck ist in die Einheitspreise einkalkuliert.
+            3. Funktionskontrolle:
+            3.1 Die Kontrolle der Durchlässigkeit des Schlauchkanals erfolgt mittels Druckluft oder Wasserspülung. Die
+            Schlauchenden werden beidseits freigelegt und mit einem Druck von bis zu 1 bar beaufschlagt.
+            3.2 Die Funktionskontrolle der Probe bei normaler Gängigkeit ist in die Einheitspreise einkalkuliert.
+             Kommentar:
+             Frei zu formulieren sind (z.B.):
+             - das Verwahren freier Enden, die nicht z.B. an Nagelpackern enden (diese werden gebündelt so befestigt, dass sie bei den
+             Betonierarbeiten nicht verloren gehen oder beschädigt/verstopft werden).
+             - eine Wiederverwendung von Schlauchsystemen zur neuerlichen Verpressung
+
+            LB-Version: 23                      Geringfügig Geändert
+80.16 01    Injektionsschläuche, einschließlich Nagelpacker und Befestigungsmaterial.
+            Für Bodenplatten, Boden-/Wand-Anschlüsse, Wand-/Wand-Anschlüsse, Schlitzwände/Sohlplatten,
+            Rohrdurchführungen.
+            Abgerechnet wird die Länge der Arbeitsfuge inkl. aller notwendigen Übergriffe und Überlappungslängen.
+            Im Positionsstichwort ist die größte Länge (m) der einzelnen Schläuche angegeben.
+
+
+                                                                                                                            Seite 13 / 20
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+80.16 01A   Injektionsschläuche b.10m                                                                                   m
+            Anwendung: ____________
+
+            LB-Version: 23             Geringfügig Geändert
+
+80.16 01B   Injektionsschläuche ü.10-20m                                                                                m
+            Anwendung: ____________
+
+            LB-Version: 23             Geringfügig Geändert
+
+80.16 01C   Injektionsschläuche ü.20m:__________                                                                        m
+            Anwendung: ____________
+
+            LB-Version: 23             Geringfügig Geändert
+80.16 11    Verwahrdosen für Injektionsschlauchanschlüsse.
+
+80.16 11A   Verwahrdosen                                                                                                Stk
+80.16 21    Verpressen der Injektionsschläuche.
+            Einschließlich Geräte und Anschlüsse an die Enden der Schläuche, sowie ein Materialverbrauch von 0,15
+            kg/lfm.
+            Innerhalb der Verarbeitungszeit werden alle Schläuche nachverpresst.
+
+80.16 21A   Injektion/verpressen Schläuche m.Polyurethan                                                                m
+            Mittels einem dauerhaft abdichtenden PUR-Harz.
+
+            LB-Version: 23             Geringfügig Geändert
+
+80.16 21B   Injektion/verpressen Schläuche m.Acrylat                                                                    m
+            Mittels einem dauerhaft abdichtenden AY-Harz.
+
+            LB-Version: 23             Geringfügig Geändert
+
+80.16 21C   Injektion/verpressen Schläuche m.Zementsuspension                                                           m
+            Mittels einer Mikrozementsuspension.
+
+            LB-Version: 23             Geringfügig Geändert
+80.16 31    Nacharbeiten.
+
+80.16 31A   Nachinjektion von Schläuchen                                                                                m
+
+            Schläuche bis zur konstanten Verfüllung mehrfach nachverpressen (bei sichtbarem Abfließen der Füllgüter).
+
+80.21       Sondermaßnahmen
+80.21 01    Verpressen.
+
+80.21 01A   Verpressen Rohrdurchführung                                                                                 Stk
+            Von Rohrdurchführungen.
+            Abmessungen: ____________
+
+80.21 01B   Verpressen Fugenkonstruktion                                                                                m
+            Von Fugenkonstruktionen (z.B. Dehnfugen, Bewegungsfugen, Dilatationsfugen): ____________
+            Mit/ohne (z.B. außenliegendem Fugenband, innenliegendem Fugenband, Quellfugenband): ____________
+            Abmessungen: ____________
+
+80.21 01C   Verpressen Hohlräume                                                                                        m³
+            Von Hohlräumen
+            Abmessungen: ____________
+
+80.21 01D   Verpressen Risse <0,1mm                                                                                     m
+
+
+
+                                                                                                                  Seite 14 / 20
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+            Mikro Risse (< 0,1 mm).
+            Für die abdichtenden Verpressarbeiten wird ein Füllgut verwendet, welches über die notwendigen
+            Eigenschaften der Viskosität und des Benetzungswinkels verfügt.
+
+80.21 01E   Verpressen Schachtböden                                                                                        m²
+            Von Schachtböden.
+            Abmessungen: ____________
+80.21 02    Verfüllen.
+
+80.21 02A   Verfüllen Hohlblocksteine                                                                                      m³
+            Von Hohlblocksteinen.
+            Abmessungen: ____________
+            Abgerechnet wird das theoretische Gesamtvolumen der Hohlräume bei vollständiger Verfüllung.
+            Ein Injektionsprotokoll wird dem AG übergeben.
+
+80.31       Nacharbeiten,Nachtrocknen
+80.31 01    Nachtrocknen von Mauerwerk (MWK) mittels Heizstäben.
+                • Nieder-Temperaturverfahren (NTV)
+            Im Positionsstichwort ist die Mauerwerksdicke (cm) angegeben (einschließlich Putz).
+             Kommentar:
+             Bestimmungen zum Stromverbrauch sind mit der LG 00 (Allgemeine Bestimmungen) auszuschreiben.
+
+80.31 01A   NTV Nachtrocknen MWK 20-30cm                                                                                   m²
+            Setzen und Bohren.
+            Heizstäbe (STK/m2): ____________
+
+80.31 01B   NTV Nachtrocknen MWK 20-30cm vorhalten                                                                         VE
+            Vorhalten.
+            Heizstäbe (STK/m2): ____________
+            Abrechnung in VE (1 VE = m2 x Tage)
+
+80.31 01C   NTV Nachtrocknen MWK ü.30-45cm                                                                                 m²
+            Setzen und Bohren.
+            Heizstäbe (STK/m2): ____________
+
+80.31 01D   NTV Nachtrocknen MWK ü.30-45cm vorhalten                                                                       VE
+            Vorhalten.
+            Heizstäbe (STK/m2): ____________
+            Abrechnung in VE (1 VE = m2 x Tage)
+
+80.31 01E   NTV Nachtrocknen MWK ü.45-60cm                                                                                 m²
+            Setzen und Bohren.
+            Heizstäbe (STK/m2): ____________
+
+80.31 01F   NTV Nachtrocknen MWK ü.45-60cm vorhalten                                                                       VE
+            Vorhalten.
+            Heizstäbe (STK/m2): ____________
+            Abrechnung in VE (1 VE = m2 x Tage)
+
+80.31 01G   NTV Nachtrocknen MWK ü.60-75cm                                                                                 m²
+            Setzen und Bohren.
+            Heizstäbe (STK/m2): ____________
+
+                                                                                                                     Seite 15 / 20
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+80.31 01H   NTV Nachtrocknen MWK ü.60-75cm vorhalten                                                                       VE
+            Vorhalten.
+            Heizstäbe (STK/m2): ____________
+            Abrechnung in VE (1 VE = m2 x Tage)
+
+80.31 01I   NTV Nachtrocknen MWK ü.75-90cm                                                                                 m²
+            Setzen und Bohren.
+            Heizstäbe (STK/m2): ____________
+
+80.31 01J   NTV Nachtrocknen MWK ü.75-90cm vorhalten                                                                       VE
+            Vorhalten.
+            Heizstäbe (STK/m2): ____________
+            Abrechnung in VE (1 VE = m2 x Tage)
+
+80.31 01K   NTV Nachtrocknen MWK ü.90-120cm                                                                                m²
+            Setzen und Bohren.
+            Heizstäbe (STK/m2): ____________
+
+80.31 01L   NTV Nachtrocknen MWK ü.90-120cm vorhalten                                                                      VE
+            Vorhalten.
+            Heizstäbe (STK/m2): ____________
+            Abrechnung in VE (1 VE = m2 x Tage)
+
+80.31 01M   NTV Nachtrocknen MWK ü.120cm:__________                                                                        m²
+            Setzen und Bohren.
+            Heizstäbe (STK/m2): ____________
+
+80.31 01N   NTV Nachtrocknen MWK vorhalten ü.120cm:__________                                                              VE
+            Setzen und Bohren.
+            Heizstäbe (STK/m2): ____________
+            Abrechnung in VE (1 VE = m2 x Tage)
+
+80.31 11    Nachtrocknen von Mauerwerk (MWK) mittels Heizstäben.
+                • Hoch-Temperaturverfahren (HTV)
+            Im Positionsstichwort ist die Mauerwerksdicke (cm) angegeben (einschließlich Putz).
+             Kommentar:
+             Bestimmungen zum Stromverbrauch sind mit der LG 00 (Allgemeine Bestimmungen) auszuschreiben.
+
+80.31 11A   HTV Nachtrocknen MWK 20-30cm                                                                                   m²
+            Setzen und Bohren.
+            Heizstäbe (STK/m2): ____________
+
+80.31 11B   HTV Nachtrocknen MWK 20-30cm vorhalten                                                                         VE
+            Vorhalten.
+            Heizstäbe (STK/m2): ____________
+            Abrechnung in VE (1 VE = m2 x Tage)
+
+80.31 11C   HTV Nachtrocknen MWK ü.30-45cm                                                                                 m²
+            Setzen und Bohren.
+            Heizstäbe (STK/m2): ____________
+
+80.31 11D   HTV Nachtrocknen MWK ü.30-45cm vorhalten                                                                       VE
+                                                                                                                     Seite 16 / 20
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                      EH
+            Vorhalten.
+            Heizstäbe (STK/m2): ____________
+            Abrechnung in VE (1 VE = m2 x Tage)
+
+80.31 11E   HTV Nachtrocknen MWK ü.45-60cm                                                 m²
+            Setzen und Bohren.
+            Heizstäbe (STK/m2): ____________
+
+80.31 11F   HTV Nachtrocknen MWK ü.45-60cm vorhalten                                       VE
+            Vorhalten.
+            Heizstäbe (STK/m2): ____________
+            Abrechnung in VE (1 VE = m2 x Tage)
+
+80.31 11G   HTV Nachtrocknen MWK ü.60-75cm                                                 m²
+            Setzen und Bohren.
+            Heizstäbe (STK/m2): ____________
+
+80.31 11H   HTV Nachtrocknen MWK ü.60-75cm vorhalten                                       VE
+            Vorhalten.
+            Heizstäbe (STK/m2): ____________
+            Abrechnung in VE (1 VE = m2 x Tage)
+
+80.31 11I   HTV Nachtrocknen MWK ü.75-90cm                                                 m²
+            Setzen und Bohren.
+            Heizstäbe (STK/m2): ____________
+
+80.31 11J   HTV Nachtrocknen MWK ü.75-90cm vorhalten                                       VE
+            Vorhalten.
+            Heizstäbe (STK/m2): ____________
+            Abrechnung in VE (1 VE = m2 x Tage)
+
+80.31 11K   HTV Nachtrocknen MWK ü.90-120cm                                                m²
+            Setzen und Bohren.
+            Heizstäbe (STK/m2): ____________
+
+80.31 11L   HTV Nachtrocknen MWK ü.90-120cm vorhalten                                      VE
+            Vorhalten.
+            Heizstäbe (STK/m2): ____________
+            Abrechnung in VE (1 VE = m2 x Tage)
+
+80.31 11M   HTV Nachtrocknen MWK ü.120cm:__________                                        m²
+            Setzen und Bohren.
+            Heizstäbe (STK/m2): ____________
+
+80.31 11N   HTV Nachtrocknen MWK vorhalten ü.120cm:__________                              VE
+            Setzen und Bohren.
+            Heizstäbe (STK/m2): ____________
+            Abrechnung in VE (1 VE = m2 x Tage)
+
+80.75       Sonstiges
+
+
+
+                                                                                     Seite 17 / 20
+                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+80.75 30    Abschließendes, kraftschlüssiges Verschließen der Bohrlöcher mit Füllmaterial auf Zementbasis, nach
+            statischen Erfordernissen (Bohrlochverschluss).
+            Der Füllmörtel wird möglichst hohlraumfrei eingebracht und weist kein Schwindverhalten auf.
+            Ohne Unterschied der Tiefe und des Durchmessers der offenen Bohrlöcher nach Entnahme der Packer
+            Systeme.
+
+80.75 30A   Bohrlochverschluss                                                                                              VE
+                                                                 2
+            Abgerechnet wird in VE (____________ (Stück) x m )
+80.75 91    Abschneiden oder ausbauen von Packer-Systemen und Injektions-Füllgutresten.
+
+80.75 91A   Packer u.Füllgutreste entfernen                                                                                 Stk
+
+80.75 91B   Injektionspacker entsorgen                                                                                      Stk
+            Packer-Systeme entsorgen.
+            Material: ____________
+            Entsorgungsschlüssel: ____________
+
+80.75 91C   Verdämmung entsorgen                                                                                            PA
+            Verdämmung entsorgen.
+            Material: ____________
+            Entsorgungsschlüssel: ____________
+
+80.75 91E   Reparatur                                                                                                       m²
+            Reparaturarbeiten (egalisieren).
+
+80.80       Dokumentation,Untersuchungen,Prüfungen
+80.80 01    Dokumentation, während des gesamten Arbeitsverlaufs.
+            Einschließlich Angaben zu:
+                • Temperaturen von Luft, Substrat und Material mind. 3-mal pro Tag (Früh, Mittag, Abend)
+                • Chargen des Materials und des Equipments
+                • Auffälligkeiten (z.B. Untergrund)
+                • Druck-/Mengenaufzeichnung je Packer
+                • Einstellung von Reaktionszeiten steuerbarer Injektionsgüter
+                • Entsorgungsmaterialien (Spülmittel, Restmaterial, …) Art und Menge
+
+80.80 01A   Dokumentation                                                                                                   PA
+            Betrifft: ____________
+
+80.80 02    Nachuntersuchung von Bohrkernen.
+            Durch eine akkreditierte Prüfanstalt, ZT-Büro oder fachspezifisches Ingenieurbüro.
+            Einschließlich:
+                • Prüfungen auf Druckfestigkeiten (fk, fb, fm)
+                • Schlussbericht
+
+80.80 02A   Nachuntersuchung                                                                                                Stk
+            Betrifft: ____________
+
+80.80 03    Untersuchungen Verfestigung.
+            Durch eine akkreditierte Prüfanstalt, ZT-Büro oder fachspezifisches Ingenieurbüro.
+            Bohrkern >/= 150 mm mittels abdrücken direkt oder im Detailverfahren prüfen.
+            Einschließlich:
+                • Prüfungen auf Druckfestigkeit (fk)
+                • Schlussbericht
+
+80.80 03A   Untersuchungen Verfestigung im Direktverfahren                                                                  Stk
+            Im Direktverfahren.
+            Betrifft: ____________
+
+
+                                                                                                                      Seite 18 / 20
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+80.80 03B   Untersuchungen Verfestigung im Indirektverfahren                                                                 Stk
+            Im Indirektverfahren.
+            Betrifft: ____________
+80.80 04    Nachuntersuchungen Feuchtigkeit.
+            Durch eine akkreditierte Prüfanstalt, ZT-Büro oder fachspezifisches Ingenieurbüro.
+            Einschließlich:
+                 • IR-Bericht der betroffenen Stellen (zur einfachen Nachverfolgung)
+                 • Schlussbericht
+
+80.80 04A   Nachuntersuchungen Feuchtigkeit                                                                                  Stk
+            Feststellung des tatsächlichen Feuchtegehaltes mittels DARR- oder CM-Verfahren: ____________
+            Im Indirektverfahren.
+            Betrifft: ____________
+
+80.90       Regieleistungen
+
+
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+            LB-Version: 23                 Geringfügig Geändert
+80.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+80.90 00C   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+80.90 01    Regiestunden.
+
+80.90 01A   Regiestunde Facharbeiter                                                                                         h
+            Facharbeiter.
+
+80.90 01B   Regiestunde Hilfsarbeiter                                                                                        h
+            Hilfsarbeiter.
+
+                                                                                                                       Seite 19 / 20
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                   EH
+
+80.90 51   Materiallieferungen f.Regieleistungen                                                                       VE
+           Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+           ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+           Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+           nach ÖNORM B 2061).
+           Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+           berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+           unberücksichtigt.
+           Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+           Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+           eingesetzt.
+           1 VE = 1 EURO
+           Beispiel:
+           angebotener Prozentsatz: +12%
+           als Einheitspreis einzusetzen: 1,12
+           LB-Version: 23              Geringfügig Geändert
+
+
+
+
+                                                                                                                 Seite 20 / 20
+                                                                                            ib-data GmbH, Softwareentwicklung
+

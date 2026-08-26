@@ -1,0 +1,531 @@
+{
+  "lg": "15",
+  "title": "Schlitze, Durchbrüche, Sägen und Bohren",
+  "positions": [
+    {
+      "code": "15.00.00V",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "15.01.01A",
+      "text": "Schlitze b.5cm Mwk.b.10cm                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.01B",
+      "text": "Schlitze b.5cm Mwk.ü.10-20cm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.01C",
+      "text": "Schlitze b.5cm Mwk.ü.20-30cm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.02A",
+      "text": "Schlitze ü.5-10cm Mwk.b.10cm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.02B",
+      "text": "Schlitze ü.5-10cm Mwk.ü.10-20cm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.02C",
+      "text": "Schlitze ü.5-10cm Mwk.ü.20-30cm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.03A",
+      "text": "Schlitze b.5cm Gi.Ga.b.10cm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.03B",
+      "text": "Schlitze b.5cm Gi.Ga.ü.10-20cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.03C",
+      "text": "Schlitze b.5cm Gi.Ga.ü.20-30cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.04A",
+      "text": "Schlitze ü.5-10cm Gi.Ga.b.10cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.04B",
+      "text": "Schlitze ü.5-10cm Gi.Ga..ü.10-20cm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.04C",
+      "text": "Schlitze ü.5-10cm Gi.Ga.ü.20-30cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.05A",
+      "text": "Schlitze b.5cm Beton b.10cm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.05B",
+      "text": "Schlitze b.5cm Beton ü.10-20cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.05C",
+      "text": "Schlitze b.5cm Beton ü.20-30cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.06A",
+      "text": "Schlitze ü.5-10cm Beton b.10cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.06B",
+      "text": "Schlitze ü.5-10cm Beton ü.10-20cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.06C",
+      "text": "Schlitze ü.5-10cm Beton ü.20-30cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.07A",
+      "text": "Schlitze b.5cm Mantelbeton b.10cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.07B",
+      "text": "Schlitze b.5cm Mantelbeton ü.10-20cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.07C",
+      "text": "Schlitze b.5cm Mantelbeton ü.20-30cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.08A",
+      "text": "Schlitze ü.5-10cm Mantelbeton b.10cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.08B",
+      "text": "Schlitze ü.5-10cm Mantelbeton ü.10-20cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "15.01.08C",
+      "text": "Schlitze ü.5-10cm Mantelbeton ü.20-30cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "15.03.01A",
+      "text": "WD b.0,1m2 Mwk.b.15cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.03.01B",
+      "text": "WD b.0,1m2 Mwk.ü.15-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.03.01C",
+      "text": "WD b.0,1m2 Mwk.ü.30-40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.03.01D",
+      "text": "WD b.0,1m2 Mwk.ü.40-50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.03.03A",
+      "text": "WD b.0,1m2 Beton b.15cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.03.03B",
+      "text": "WD b.0,1m2 Beton ü.15-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.03.03C",
+      "text": "WD b.0,1m2 Beton ü.30-40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.03.03D",
+      "text": "WD b.0,1m2 Beton ü.40-50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.03.05A",
+      "text": "WD b.0,1m2 Mantelbeton b.20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.03.05B",
+      "text": "WD b.0,1m2 Mantelbeton ü.20-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.03.06A",
+      "text": "DD b.0,1m2 Stb-Decke b.10cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.03.06B",
+      "text": "DD b.0,1m2 Stb-Decke ü.10-20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.03.06C",
+      "text": "DD b.0,1m2 Stb-Decke ü.20-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.03.07A",
+      "text": "DD b.0,1m2 Hohlkörper",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.11.01A",
+      "text": "Schlitze b.5cm schließen b.10cm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.01B",
+      "text": "Schlitze b.5cm schließen ü.10-20cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.01C",
+      "text": "Schlitze b.5cm schließen ü.20-30cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.02A",
+      "text": "Schlitze ü.5-10cm schließen b.10cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.02B",
+      "text": "Schlitze ü.5-10cm schließen ü.10-20cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.02C",
+      "text": "Schlitze ü.5-10cm schließen ü.20-30cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.03A",
+      "text": "Schlitze b.5cm Gi.Ga.schließen b.10cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.03B",
+      "text": "Schlitze b.5cm Gi.Ga.schließen ü.10-20cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.03C",
+      "text": "Schlitze b.5cm Gi.Ga.schließen ü.20-30cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.04A",
+      "text": "Schlitze ü.5-10cm Gi.Ga.schließen b.10cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.04B",
+      "text": "Schlitze ü.5-10cm Gi.Ga.schließen ü.10-20cm                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.04C",
+      "text": "Schlitze ü.5-10cm Gi.Ga.schließen ü.20-30cm                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.11A",
+      "text": "Az Schlitze schließen f.Gasrohr b.10cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.11B",
+      "text": "Az Schlitze schließen f.Gasrohr ü.10-20cm                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.11C",
+      "text": "Az Schlitze schließen f.Gasrohr ü.20-30cm                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.21A",
+      "text": "Überspannen Schlitze b.10cm                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.21B",
+      "text": "Überspannen Schlitze ü.10-20cm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.21C",
+      "text": "Überspannen Schlitze ü.20-30cm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.22A",
+      "text": "Überspannen Schlitze+Tragk.b.10cm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.22B",
+      "text": "Überspannen Schlitze+Tragk.ü.10-20cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "15.11.22C",
+      "text": "Überspannen Schlitze+Tragk.ü.20-30cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "15.13.01A",
+      "text": "WD b.0,1m2 schließen b.15cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.13.01B",
+      "text": "WD b.0,1m2 schließen ü.15-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.13.01C",
+      "text": "WD b.0,1m2 schließen ü.30-40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.13.01D",
+      "text": "WD b.0,1m2 schließen ü.40-50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.13.03A",
+      "text": "WD b.0,1m2 schließen+Putz b.15cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.13.03B",
+      "text": "WD b.0,1m2 schließen+Putz ü.15-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.13.03C",
+      "text": "WD b.0,1m2 schließen+Putz ü.30-40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.13.03D",
+      "text": "WD b.0,1m2 schließen+Putz ü.40-50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.13.11A",
+      "text": "DD b.0,1m2 schließen b.15cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.13.11B",
+      "text": "DD b.0,1m2 schließen ü.15-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.13.11C",
+      "text": "DD b.0,1m2 schließen ü.30-40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.13.11D",
+      "text": "DD b.0,1m2 schließen ü.40-50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.13.13A",
+      "text": "DD b.0,1m2 schließen+Putz b.15cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.13.13B",
+      "text": "DD b.0,1m2 schließen+Putz ü.15-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.13.13C",
+      "text": "DD b.0,1m2 schließen+Putz ü.30-40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.13.13D",
+      "text": "DD b.0,1m2 schließen+Putz ü.40-50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.21.01A",
+      "text": "Umstellen Schneideeinrichtungen                                                                                     PA",
+      "unit": ""
+    },
+    {
+      "code": "15.21.11A",
+      "text": "Sägen Wand-Mwk./Beton/Mantelbeton",
+      "unit": "m²"
+    },
+    {
+      "code": "15.21.11B",
+      "text": "Sägen Wand-Stahlbeton",
+      "unit": "m²"
+    },
+    {
+      "code": "15.21.12A",
+      "text": "Sägen Decke-Stahlbeton nach unten",
+      "unit": "m²"
+    },
+    {
+      "code": "15.21.12B",
+      "text": "Sägen Decke-Stahlbeton nach oben",
+      "unit": "m²"
+    },
+    {
+      "code": "15.21.21A",
+      "text": "Az Sägen f.Stahleinlagen ü.2,01cm2                                                                                  VE",
+      "unit": ""
+    },
+    {
+      "code": "15.21.21C",
+      "text": "Az Sägen Wand f.1f-Schnitt ü.5-45Grad",
+      "unit": "m²"
+    },
+    {
+      "code": "15.21.22A",
+      "text": "Az Sägen f.Absaugen",
+      "unit": "m²"
+    },
+    {
+      "code": "15.23.01A",
+      "text": "Umstellen Bohreinrichtungen                                                                                         PA",
+      "unit": ""
+    },
+    {
+      "code": "15.23.11A",
+      "text": "Bohren Mwk./Beton/Mantelbet.10-24mm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "15.23.11B",
+      "text": "Bohren Mwk./Beton/Mantelbet.ü.24-52mm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "15.23.12A",
+      "text": "Bohren Stahlbeton 10-24mm                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "15.23.12B",
+      "text": "Bohren Stahlbeton ü.24-52mm                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "15.23.21C",
+      "text": "Kernbohrung Mwk./Beton/Mantelb.ü.52-102mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "15.23.21D",
+      "text": "Kernbohrung Mwk./Beton/Mantelb.ü.102-152mm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "15.23.21E",
+      "text": "Kernbohrung Mwk./Beton/Mantelb.ü.152-202mm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "15.23.21F",
+      "text": "Kernbohrung Mwk./Beton/Mantelb.ü.202-302mm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "15.23.21G",
+      "text": "Kernbohrung Mwk./Beton/Mantelb.ü.302-402mm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "15.23.21H",
+      "text": "Kernbohrung Mwk./Beton/Mantelb.ü.402-502mm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "15.23.22C",
+      "text": "Kernbohrung Stahlbeton ü.52-102mm                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "15.23.22D",
+      "text": "Kernbohrung Stahlbeton ü.102-152mm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "15.23.22E",
+      "text": "Kernbohrung Stahlbeton ü.152-202mm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "15.23.22F",
+      "text": "Kernbohrung Stahlbeton ü.202-302mm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "15.23.22G",
+      "text": "Kernbohrung Stahlbeton ü.302-402mm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "15.23.22H",
+      "text": "Kernbohrung Stahlbeton ü.402-502mm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "15.23.31A",
+      "text": "Az Bohrung f.Stahleinlagen ü.2,01cm2                                                                   VE",
+      "unit": ""
+    },
+    {
+      "code": "15.23.31C",
+      "text": "Az Bohrung 1f-Schnitt ü.5-45Grad",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.23.31G",
+      "text": "Az Bohrung 2f-Schnitt ü.5-45Grad",
+      "unit": "Stk"
+    },
+    {
+      "code": "15.23.31I",
+      "text": "Az Bohren Mwk./Beton/StB/Mantelb f.Absaugen",
+      "unit": "Stk"
+    }
+  ]
+}

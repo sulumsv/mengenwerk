@@ -1,0 +1,1580 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+      Leistungsgruppe (LG) 55 - Sanierung von Fenstern und Türen aus Holz
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 5500    Wählbare Vorbemerkungen
+                     ULG 5511    Instandsetzen von Fenstern
+                     ULG 5512    Einzelleistungen bei Fensterinstandsetzung
+                     ULG 5513    Instandsetzen Türen
+                     ULG 5514    Erneuern Fenster einschl.Rahmenstock
+                     ULG 5515    Aufzahlungen, Sonstiges
+                     ULG 5516    Fensterdichtungen
+                     ULG 5519    Schutt Abtransportieren und Entsorgen
+                     ULG 5590    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 25
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                               EH
+
+55          Sanierung von Fenstern und Türen aus Holz
+            Version 022 (2021-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            Diese Leistungsgruppe beinhaltet nur die Tischler- und Beschlagschlosserarbeiten.
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            1. Fenster, Fenstertüren:
+            Fenster und Fenstertüren werden im Folgenden kurz Fenster genannt.
+            2. Skizze:
+            Die Bezeichnung Skizze als einfachste Darstellungsmöglichkeit wird für Zeichnung, Plan und dergleichen
+            verwendet.
+            3. Verträglichkeit der Stoffe:
+            Die Verträglichkeit von Verleimung, Holz- und Korrosionsschutzmitteln, Beschichtungs- und Dichtstoffen,
+            Beschlagteilen und Befestigungsmitteln sowie Dichtungen untereinander wird vom Auftragnehmer sichergestellt.
+            4. Verleimung:
+            Für die Verleimung der Holzteile werden Klebstoffe der Beanspruchungsgruppe B 4 nach DIN 68 602
+            verwendet.
+            5. Fenster/Türen gangbar machen:
+            Alle beweglichen Beschlagteile an Fenstern und Türen werden vom Tischler oder Beschlagsschlosser vor der
+            Übergabe leicht gang- und sperrbar gerichtet. Diese Nacharbeiten sind im Einheitspreis einkalkuliert, nicht
+            einkalkuliert ist die Entfernung der Verunreinigungen von den Beschlägen, die der Beschichter zu verantworten
+            hat.
+            Abkürzungen im Positionsstichwort:
+            Folgende Abkürzungen werden im Positionsstichwort verwendet:
+            1f-FE. - Einfachfenster
+            1f-F-tür - Einfachfenstertür
+            Vb-FE. - Verbundfenster
+            Vb-F-tür - Verbundfenstertür
+            Kast.A-FE. - Kastenfensteraußenfensterflügel
+            Kast.A-F-tür - Kastenfensteraußenfenstertüren
+            Kast-I-FE. - Kastenfensterinnenflügel
+            Kast.I-F-tür - Kastenfensterinnenfenstertüren
+            Kast.I+A-FE. - Kastenfensterinnen- und Außenflügel
+            Kast.I+A-F-tür - Kastenfensterinnen- und Außenfenstertüren
+            1T, 2T - einteilig, zweiteilig usw.
+            1Fl, 2Fl - einflügelig, zweiflügelig usw.
+            +OL, +2OL - mit Oberlichte, mit zwei Oberlichten
+             Kommentar:
+             Glaserarbeiten (Arbeitsablauf):
+             Nach dem Instandsetzen der Fenster durch den Tischler und Beschlagschlosser wird vom Glaser (eigene Leistungsgruppe)
+             die Reparaturverglasung (gemäß Glasbruchliste) und das Instandsetzen der Glasverkittung durchgeführt.
+             Schutz der nicht demontierten Zubehörteile:
+             Der Schutz von nicht demontierten Bau- und Zubehörteilen, wie Schlössern, Lagern, Bändern, Getrieben, Schließteilen,
+             Triebstangen, vor Verschmutzung und Verklebung durch Beschichtungsmittel zwecks Aufrechterhaltung ihrer Funktion
+             obliegt dem Beschichter.
+             Glaserarbeiten, Beschichtungsarbeiten:
+             Positionen für Glaserarbeiten sind in der LG 42, für Beschichtungsarbeiten auf Holz und Metall in der LG 45 zu finden.
+
+            LB-Version: 23                 Geringfügig Geändert
+
+55.00       Wählbare Vorbemerkungen
+            LB-Version: 23
+55.00 03    Holzschutzmittel.
+
+55.00 03A   Holzschutzmittel gemäß AG
+            Für das Imprägnieren oder die Grundbeschichtung sind folgende Materialien zu verwenden: ____________
+
+            LB-Version: 23
+
+                                                                                                                               Seite 2 / 25
+                                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+55.00 03B   Holzschutzmittel gemäß System
+            Der verwendete Holzschutz muss dem beauftragten Beschichtungssystem entsprechen.
+            Beauftragt ist: ____________
+             Kommentar:
+             In die Lücke "Beauftragt ist" kann entweder der mit der Beschichtung beauftragte Auftragnehmer oder das
+             Beschichtungssystem angegeben werden.
+
+            LB-Version: 23
+55.00 05    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+55.00 05A   Verfügbarkeit von Beilagen zum LV
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit: ____________
+
+55.00 05B   Begehung v.Arbeitsb.Festlegung
+            Vor Beginn der Arbeiten wird in einer gemeinsamen Begehung mit dem Auftraggeber eine detaillierte schriftliche
+            Festlegung der Leistungen erstellt. Diese Festlegung dient auch als Grundlage der Abrechnung. Etwaige, erst
+            während der Arbeiten erkennbare Mängel, die eine Änderung der vereinbarten Mengen zur Folge haben,
+            werden dem Auftraggeber rechtzeitig gemeldet, um ihm eine Besichtigung der schadhaften Bauteile zu
+            ermöglichen. Diese Mengenänderungen werden schriftlich in das ursprüngliche Festlegungsprotokoll
+            eingetragen.
+
+55.11       Instandsetzen von Fenstern
+
+
+            Instandsetzen von Fenstern:
+            Die Leistung bei der Instandsetzung der Fenster bezieht sich auf die Fensterflügel, auf die Rahmenstöcke,
+            etwaige Pfosten (Mittelstücke) und Kämpfer.
+            Verbundfensterflügel:
+            Der Verbundfensterflügel (Innen- und Außenflügelteil) wird als ein Flügel verrechnet.
+            Kastenfenster:
+            Mit dem Begriff Kastenfenster sind Doppelfenster, Rahmenstockfenster oder Leistenpfostenfenster abgedeckt.
+            Tischler- und Beschlagsschlosserarbeiten:
+            Die Vergabe und Abrechnung der Instandsetzungsarbeiten an Fenstern erfolgt nach Stück-(Loch-) preisen,
+            gemäß den ausgeschriebenen Positionen. Im Einheitspreis sind sowohl die Kosten der Bautischler- als auch der
+            Beschlagsarbeiten einkalkuliert.
+            Instandsetzen-Durchschnittspreis:
+            Die instandzusetzenden Fenster wurden besichtigt, und es wurde ein durchschnittlicher Einheitspreis in
+            Abhängigkeit von der Schadensfeststellung kalkuliert. Erschwernisse durch etwaige Sprossenteilungen, Bögen
+            oder Segmente werden nach Besichtigung im Einheitspreis einkalkuliert. Das Erneuern von Flügeln, Flügel-
+            oder Stockteilen wird gesondert verrechnet (eigene Unterleistungsgruppe).
+            Haftung:
+            Für alle im Zuge der Arbeiten verursachten Schäden einschließlich Glasbruch, soweit es sich nicht um eine
+            notwendige Reparaturverglasung handelt, wird gehaftet.
+            Aushängen der Fensterflügel:
+            Bei Instandsetzungsarbeiten an den Außen- und Innenflügeln (bei Doppel- oder Verbundfenstern) erfolgen die
+            Arbeiten in der Weise, dass jeweils eine Flügelfläche eingehängt bleibt oder provisorisch befestigt wird (bei
+            Verbundfenstern).
+            Einkalkulierte Leistungen
+            BESCHLAGSARBEITEN:
+            Alle mit den Fenstern in Verbindung stehenden beweglichen und festen Metallteile werden auf ihre richtige
+            Funktion überprüft und instandgesetzt.
+            Unbrauchbare und fehlende Teile werden durch neue, funktionsgleiche, ersetzt oder ergänzt und gesondert
+            verrechnet (eigene Unterleistungsgruppe).
+            Alle neu eingebauten oder reparierten Eisenteile werden mit einem Rostschutz versehen.
+            Fenster mit Scheinhaken:
+            Bei Fenstern mit Scheinhaken werden angerostete und lockere Scheinhaken entfernt und durch neue, wenn
+            möglich größere, ersetzt. Der Untergrund wird vorher instandgesetzt, Nagellöcher werden mit
+            2-Komponenten-Füllmasse geschlossen, der Untergrund wird imprägniert und grundiert.
+                                                                                                                            Seite 3 / 25
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+            Regenschutzschienen:
+            Vorhandene Regenschutzschienen werden, wenn notwendig, neu abgedichtet. Regenschutzschienen aus Stahl
+            werden wie Beschläge behandelt. Das Einbauen von neuen Regenschutzschienen wird gesondert verrechnet.
+            Wetterschenkel:
+            Lockere Wetterschenkel werden demontiert und neu befestigt, schadhafte werden durch neue ersetzt und
+            gesondert verrechnet.
+            LEISTUNGSUMFANG DER TISCHLERARBEITEN:
+            Allgemein:
+            Holzfehler und Risse werden aufgeweitet und mit 2-Komponenten-Füllmasse verschlossen.
+            Fenster mit Holz- oder Sternnägeln:
+            Feste vorstehende Holz- oder Sternnägel werden abgeschliffen, lockere werden ausgewechselt und eingeleimt,
+            fehlende werden ergänzt.
+            Lockere Holzverbindungen werden geöffnet und neu verleimt.
+            Die verwitterten Holzoberflächen werden abgeschliffen oder abgezogen.
+            Schadhafte Holzteile an Stöcken und Flügeln werden ausgebaut, neue Teile nur in ganzer Länge eingesetzt,
+            stark verzogene Flügel werden durch neue ersetzt und gesondert verrechnet (eigene Unterleistungsgruppe).
+            Nach durchgeführter Instandsetzung werden alle Flügel unter Berücksichtigung der notwendigen Farbluft
+            eingepasst.
+            Das Einsetzen (Ausflicken) von Holzteilen z.B. im Bereich der Beschläge wird nur an der der Witterung nicht
+            ausgesetzten Seite der Flügel ausgeführt.
+            Imprägnieren, Grundbeschichtung:
+            Alle neu eingesetzten und die abgeschliffenen Holzoberflächen werden mit einem der ÖNORM entsprechenden
+            Imprägniermittel oder Grundbeschichtungsstoff eingelassen. Das Mittel ist mit dem nachfolgenden
+            Beschichtungsmittel verträglich.
+            Bei Fenstern und Türen mit nichtdeckender Oberflächenbeschichtung werden kleine Löcher und Risse mit zur
+            Holzfarbe passender Holzfüllmasse ausgekittet, abgeschliffen und mit Holzschutz versehen, wobei vom
+            Auftraggeber verlangte etwaige Einfärbungen mit dem Auftraggeber oder Anstreicher abgesprochen werden.
+             Kommentar:
+             Holzverbindung bei Kastenfenstern:
+             Bei Kastenfenstern ist die tischlermäßige Instandsetzung der Holzverbindung zwischen den beiden Stockrahmen gesondert
+             auszuschreiben.
+             Fensterbretter, Türschwellen:
+             Die Instandsetzung der inneren Fensterbretter und der Türschwellen, soweit bei Fenstertüren nicht der untere
+             Stockrahmenteil gemeint ist, sind frei zu formulieren. Das Erneuern von Fensterbrettern und Rahmenstockteilen kann mit der
+             ULG Einzelleistungen bei Fensterinstandsetzung ausgeschrieben werden.
+
+55.11 01    Instandsetzen der Einfachfenster, ohne Unterschied der Verglasung, einflügelig.
+
+55.11 01A   Inst.1f-FE.1Fl b.1                                                                                                    Stk
+            Stocklichte bis 1 m2.
+
+55.11 01B   Inst.1f-FE.1Fl ü.1-1,5                                                                                                Stk
+            Stocklichte über 1 bis 1,5 m2.
+
+55.11 01C   Inst.1f-FE.1Fl+OL b.1,5                                                                                               Stk
+            Mit einer Oberlichte. Stocklichte bis 1,5 m2.
+
+55.11 01D   Inst.1f-FE.1Fl+OL ü.1,5-2                                                                                             Stk
+            Mit einer Oberlichte. Stocklichte über 1,5 bis 2 m2.
+
+55.11 02    Instandsetzen der Einfachfenster, ohne Unterschied der Verglasung, zweiflügelig.
+
+55.11 02A   Inst.1f-FE.2Fl b.1,5                                                                                                  Stk
+            Stocklichte bis 1,5 m2.
+
+55.11 02B   Inst.1f-FE.2Fl ü.1,5-2                                                                                                Stk
+            Stocklichte über 1,5 bis 2 m2.
+
+55.11 02C   Inst.1f-FE.2Fl+OL b.2                                                                                                 Stk
+                                                                                                                             Seite 4 / 25
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Mit einer Oberlichte. Stocklichte bis 2 m2.
+
+55.11 02D   Inst.1f-FE.2Fl+OL ü.2-2,5                                                                                     Stk
+            Mit einer Oberlichte. Stocklichte über 2 bis 2,5 m2.
+
+55.11 02E   Inst.1f-FE.2Fl+2OL b.2                                                                                        Stk
+            Mit zwei Oberlichten. Stocklichte bis 2 m2.
+
+55.11 02F   Inst.1f-FE.2Fl+2OL ü.2-2,5                                                                                    Stk
+            Mit zwei Oberlichten. Stocklichte über 2 bis 2,5 m2.
+
+55.11 03    Instandsetzen der Einfachfenster, ohne Unterschied der Verglasung, dreiflügelig.
+
+55.11 03A   Inst.1f-FE.3Fl b.2,5                                                                                          Stk
+            Stocklichte bis 2,5 m2.
+
+55.11 03B   Inst.1f-FE.3Fl ü.2,5-3                                                                                        Stk
+            Stocklichte über 2,5 bis 3 m2.
+
+55.11 03C   Inst.1f-FE.3Fl+2OL b.3                                                                                        Stk
+            Mit zwei Oberlichten, Stocklichte bis 3 m2.
+
+55.11 03D   Inst.1f-FE.3Fl+2OL ü.3-3,5                                                                                    Stk
+            Mit zwei Oberlichten, Stocklichte über 3 bis 3,5 m2.
+
+55.11 03E   Inst.1f-FE.3Fl+3OL b.3                                                                                        Stk
+            Mit drei Oberlichten, Stocklichte bis 3 m2.
+
+55.11 03F   Inst.1f-FE.3Fl+3OL ü.3-3,5                                                                                    Stk
+            Mit drei Oberlichten, Stocklichte über 3 bis 3,5 m2.
+
+55.11 04    Instandsetzen der Einfachfenstertüren, ohne Unterschied der Verglasung, einflügelig.
+
+55.11 04A   Inst.1f-F-tür 1Fl b.2                                                                                         Stk
+            Stocklichte bis 2 m2.
+
+55.11 04B   Inst.1f-F-tür 1Fl ü.2-2,5                                                                                     Stk
+            Stocklichte über 2 bis 2,5 m2.
+
+55.11 04C   Inst.1f-F-tür 1Fl+OL b.2,5                                                                                    Stk
+            Mit Oberlichte. Stocklichte bis 2,5 m2.
+
+55.11 04F   Inst.1f-F-tür 1Fl+OL ü.2,5-3                                                                                  Stk
+            Mit Oberlichte. Stocklichte über 2,5 bis 3 m2.
+
+55.11 05    Instandsetzen der Einfachfenstertüren, ohne Unterschied der Verglasung, zweiflügelig.
+
+55.11 05A   Inst.1f-F-tür 2Fl b.3                                                                                         Stk
+            Stocklichte bis 3 m2.
+
+55.11 05B   Inst.1f-F-tür 2Fl ü.3-3,5                                                                                     Stk
+            Stocklichte über 3 bis 3,5 m2.
+
+55.11 05E   Inst.1f-F-tür 2Fl+2OL b.3,5                                                                                   Stk
+            Mit zwei Oberlichten, Stocklichte bis 3,5 m2.
+
+55.11 05F   Inst.1f-F-tür 2Fl+2OL ü.3,5-4                                                                                 Stk
+            Mit zwei Oberlichten, Stocklichte über 3,5 bis 4 m2.
+
+55.11 11    Instandsetzen der Verbundfenster, einflügelig.
+
+55.11 11A   Inst.Vb-FE.1Fl b.1                                                                                            Stk
+                                                                                                                     Seite 5 / 25
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+            Stocklichte bis 1 m2.
+
+55.11 11B   Inst.Vb-FE.1Fl ü.1-1,5                                                                                      Stk
+            Stocklichte über 1 bis 1,5 m2.
+
+55.11 12    Instandsetzen der Verbundfenster, zweiflügelig.
+
+55.11 12A   Inst.Vb-FE.2Fl b.1,5                                                                                        Stk
+            Stocklichte bis 1,5 m2.
+
+55.11 12B   Inst.Vb-FE.2Fl ü.1,5-2                                                                                      Stk
+            Stocklichte über 1,5 bis 2 m2.
+
+55.11 13    Instandsetzen der Verbundfenster, dreiflügelig.
+
+55.11 13A   Inst.Vb-FE.3Fl b.2,5                                                                                        Stk
+            Stocklichte bis 2,5 m2.
+
+55.11 13B   Inst.Vb-FE.3Fl ü.2,5-3                                                                                      Stk
+            Stocklichte über 2,5 bis 3 m2.
+
+55.11 14    Instandsetzen der Verbundfenster, vierflügelig.
+
+55.11 14A   Inst.Vb-FE.4Fl b.3,5                                                                                        Stk
+            Stocklichte bis 3,5 m2.
+
+55.11 14B   Inst.Vb-FE.4Fl ü.3,5-4                                                                                      Stk
+            Stocklichte über 3,5 bis 4 m2.
+
+55.11 15    Instandsetzen der Verbundfenstertüren, einflügelig.
+
+55.11 15A   Inst.Vb-F-tür 1Fl b.2                                                                                       Stk
+            Stocklichte bis 2 m2.
+
+55.11 15B   Inst.Vb-F-tür 1Fl ü.2-2,5                                                                                   Stk
+            Stocklichte über 2 bis 2,5 m2.
+
+55.11 16    Instandsetzen der Verbundfenstertüren, zweiflügelig.
+
+55.11 16A   Inst.Vb-F-tür 2Fl b.3,5                                                                                     Stk
+            Stocklichte bis 3,5 m2.
+
+55.11 16B   Inst.Vb-F-tür 2Fl ü.3,5-4                                                                                   Stk
+            Stocklichte über 3,5 bis 4 m2.
+
+55.11 21    Instandsetzen der Außenflügel von Kastenfenstern, ohne Unterschied der Verglasung, einflügelig.
+
+55.11 21A   Inst.Kast.A-FE 1Fl b.1                                                                                      Stk
+            Stocklichte bis 1 m2.
+
+55.11 21B   Inst.Kast.A-FE 1Fl ü.1-1,5                                                                                  Stk
+            Stocklichte über 1 bis 1,5 m2.
+
+55.11 21C   Inst.Kast.A-FE 1Fl+OL b.1,5                                                                                 Stk
+            Mit einer Oberlichte, Stocklichte bis 1,5 m2.
+
+55.11 21D   Inst.Kast.A-FE 1Fl+OL ü.1,5-2                                                                               Stk
+            Mit einer Oberlichte, Stocklichte über 1,5 bis 2 m2.
+
+55.11 22    Instandsetzen der Außenflügel von Kastenfenstern, ohne Unterschied der Verglasung, zweiflügelig.
+
+55.11 22A   Inst.Kast.A-FE 2Fl b.1,5                                                                                    Stk
+            Stocklichte bis 1,5 m2.
+
+                                                                                                                   Seite 6 / 25
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+55.11 22B   Inst.Kast.A-FE 2Fl ü.1,5-2                                                                                  Stk
+            Stocklichte über 1,5 bis 2 m2.
+
+55.11 22C   Inst.Kast.A-FE 2Fl+OL b.2                                                                                   Stk
+            Mit einer Oberlichte, Stocklichte bis 2 m2.
+
+55.11 22D   Inst.Kast.A-FE 2Fl+OL ü.2-2,5                                                                               Stk
+            Mit einer Oberlichte, Stocklichte über 2 bis 2,5 m2.
+
+55.11 22E   Inst.Kast.A-FE 2Fl+2OL b.2                                                                                  Stk
+            Mit zwei Oberlichten, Stocklichte bis 2 m2.
+
+55.11 22F   Inst.Kast.A-FE 2Fl+2OL ü.2-2,5                                                                              Stk
+            Mit zwei Oberlichten, Stocklichte über 2 bis 2,5 m2.
+
+55.11 23    Instandsetzen der Außenflügel von Kastenfenstern, ohne Unterschied der Verglasung, dreiflügelig.
+
+55.11 23A   Inst.Kast.A-FE 3Fl b.2,5                                                                                    Stk
+            Stocklichte bis 2,5 m2.
+
+55.11 23B   Inst.Kast.A-FE 3Fl ü.2,5-3                                                                                  Stk
+            Stocklichte über 2,5 bis 3 m2.
+
+55.11 23C   Inst.Kast.A-FE 3Fl+2OL b.3                                                                                  Stk
+            Mit zwei Oberlichten, Stocklichte bis 3 m2.
+
+55.11 23D   Inst.Kast.A-FE 3Fl+2OL ü.3-3,5                                                                              Stk
+            Mit zwei Oberlichten, Stocklichte über 3 bis 3,5 m2.
+
+55.11 23E   Inst.Kast.A-FE 3Fl+3OL b.3                                                                                  Stk
+            Mit drei Oberlichten, Stocklichte bis 3 m2.
+
+55.11 23F   Inst.Kast.A-FE 3Fl+3OL ü.3-3,5                                                                              Stk
+            Mit drei Oberlichten, Stocklichte über 3 bis 3,5 m2.
+
+55.11 24    Instandsetzen der Außenflügel von Kasten-Fenstertüren, ohne Unterschied der Verglasung, einflügelig.
+
+55.11 24A   Inst.Kast.A-F-tür 1Fl b.2                                                                                   Stk
+            Stocklichte bis 2 m2.
+
+55.11 24B   Inst.Kast.A-F-tür 1Fl ü.2-2,5                                                                               Stk
+            Stocklichte über 2 bis 2,5 m2.
+
+55.11 24C   Inst.Kast.A-F-tür 1Fl+OL b.2,5                                                                              Stk
+            Mit Oberlichte, Stocklichte bis 2,5 m2.
+
+55.11 24D   Inst.Kast.A-F-tür 1Fl+OL ü.2,5-3                                                                            Stk
+            Mit Oberlichte, Stocklichte über 2,5 bis 3 m2.
+
+55.11 25    Instandsetzen der Außenflügel von Kasten-Fenstertüren, ohne Unterschied der Verglasung, zweiflügelig.
+
+55.11 25A   Inst.Kast.A-F-tür 2Fl b.3,5                                                                                 Stk
+            Stocklichte bis 3,5 m2.
+
+55.11 25B   Inst.Kast.A-F-tür 2Fl ü.3,5-4                                                                               Stk
+            Stocklichte über 3,5 bis 4 m2.
+
+55.11 25E   Inst.Kast.A-F-tür 2Fl+2OL b.4                                                                               Stk
+            Mit zwei Oberlichten, Stocklichte bis 4 m2.
+
+
+                                                                                                                   Seite 7 / 25
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+55.11 25F   Inst.Kast.A-F-tür 2Fl+2OL ü.4-4,5                                                                            Stk
+            Mit zwei Oberlichten, Stocklichte über 4 bis 4,5 m2.
+
+55.11 31    Instandsetzen der Innenflügel von Kastenfenstern, ohne Unterschied der Verglasung, einflügelig.
+
+55.11 31A   Inst.Kast.I-FE 1Fl b.1                                                                                       Stk
+            Stocklichte bis 1 m2.
+
+55.11 31B   Inst.Kast.I-FE 1Fl ü.1-1,5                                                                                   Stk
+            Stocklichte über 1 bis 1,5 m2.
+
+55.11 31C   Inst.Kast.I-FE 1Fl+OL b.1,5                                                                                  Stk
+            Mit einer Oberlichte, Stocklichte bis 1,5 m2.
+
+55.11 31D   Inst.Kast.I-FE 1Fl+OL ü.1,5-2                                                                                Stk
+            Mit einer Oberlichte, Stocklichte über 1,5 bis 2 m2.
+
+55.11 32    Instandsetzen der Innenflügel von Kastenfenstern, ohne Unterschied der Verglasung, zweiflügelig.
+
+55.11 32A   Inst.Kast.I-FE 2Fl b.1,5                                                                                     Stk
+            Stocklichte bis 1,5 m2.
+
+55.11 32B   Inst.Kast.I-FE 2Fl ü.1,5-2                                                                                   Stk
+            Stocklichte über 1,5 bis 2 m2.
+
+55.11 32C   Inst.Kast.I-FE 2Fl+OL b.2                                                                                    Stk
+            Mit einer Oberlichte, Stocklichte bis 2 m2.
+
+55.11 32D   Inst.Kast.I-FE 2Fl+OL ü.2-2,5                                                                                Stk
+            Mit einer Oberlichte, Stocklichte über 2 bis 2,5 m2.
+
+55.11 32E   Inst.Kast.I-FE 2Fl+2OL b.2                                                                                   Stk
+            Mit zwei Oberlichten, Stocklichte bis 2 m2.
+
+55.11 32F   Inst.Kast.I-FE 2Fl+2OL ü.2-2,5                                                                               Stk
+            Mit zwei Oberlichten, Stocklichte über 2 bis 2,5 m2.
+
+55.11 33    Instandsetzen der Innenflügel von Kastenfenstern, ohne Unterschied der Verglasung, dreiflügelig.
+
+55.11 33A   Inst.Kast.I-FE 3Fl b.2,5                                                                                     Stk
+            Stocklichte bis 2,5 m2.
+
+55.11 33B   Inst.Kast.I-FE 3Fl ü.2,5-3                                                                                   Stk
+            Stocklichte über 2,5 bis 3 m2.
+
+55.11 33C   Inst.Kast.I-FE 3Fl+2OL b.3                                                                                   Stk
+            Mit zwei Oberlichten, Stocklichte bis 3 m2.
+
+55.11 33D   Inst.Kast.I-FE 3Fl+2OL ü.3-3,5                                                                               Stk
+            Mit zwei Oberlichten, Stocklichte über 3 bis 3,5 m2.
+
+55.11 33E   Inst.Kast.I-FE 3Fl+3OL b.3                                                                                   Stk
+            Mit drei Oberlichten, Stocklichte bis 3 m2.
+
+55.11 33F   Inst.Kast.I-FE 3Fl+3OL ü.3-3,5                                                                               Stk
+            Mit drei Oberlichten, Stocklichte über 3 bis 3,5 m2.
+
+55.11 34    Instandsetzen der Innenflügel von Kasten-Fenstertüren, ohne Unterschied der Verglasung, einflügelig.
+
+55.11 34A   Inst.Kast.I-F-tür 1Fl b.2                                                                                    Stk
+            Stocklichte bis 2 m2.
+                                                                                                                    Seite 8 / 25
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+55.11 34B   Inst.Kast.I-F-tür 1Fl ü.2-2,5                                                                               Stk
+            Stocklichte über 2 bis 2,5 m2.
+
+55.11 34C   Inst.Kast.I-F-tür 1Fl+OL b.2,5                                                                              Stk
+            Mit Oberlichte, Stocklichte bis 2,5 m2.
+
+55.11 34D   Inst.Kast.I-F-tür 1Fl+OL ü.2,5-3                                                                            Stk
+            Mit Oberlichte, Stocklichte über 2,5 bis 3 m2.
+
+55.11 35    Instandsetzen der Innenflügel von Kasten-Fenstertüren, ohne Unterschied der Verglasung, zweiflügelig.
+
+55.11 35A   Inst.Kast.I-F-tür 2Fl b.3,5                                                                                 Stk
+            Stocklichte bis 3,5 m2.
+
+55.11 35B   Inst.Kast.I-F-tür 2Fl ü.3,5-4                                                                               Stk
+            Stocklichte über 3,5 bis 4 m2.
+
+55.11 35E   Inst.Kast.I-F-tür 2Fl+2OL b.4                                                                               Stk
+            Mit zwei Oberlichten, Stocklichte bis 4 m2.
+
+55.11 35F   Inst.Kast.I-F-tür 2Fl+2OL ü.4-4,5                                                                           Stk
+            Mit zwei Oberlichten, Stocklichte über 4 bis 4,5 m2.
+
+55.11 41    Instandsetzen der Innen- und Außenflügel von Kastenfenstern, ohne Unterschied der Verglasung, einflügelig.
+
+55.11 41A   Inst.Kast-I+A-FE.1Fl b.1                                                                                    Stk
+            Stocklichte bis 1 m2.
+
+55.11 41B   Inst.Kast-I+A-FE.1Fl ü.1-1,5                                                                                Stk
+            Stocklichte über 1 bis 1,5 m2.
+
+55.11 41C   Inst.Kast-I+A-FE.1Fl+OL b.1,5                                                                               Stk
+            Mit einer Oberlichte, Stocklichte bis 1,5 m2.
+
+55.11 41D   Inst.Kast-I+A-FE.1Fl+OL ü.1,5-2                                                                             Stk
+            Mit einer Oberlichte, Stocklichte über 1,5 bis 2 m2.
+
+55.11 42    Instandsetzen der Innen- und Außenflügel von Kastenfenstern, ohne Unterschied der Verglasung, zweiflügelig.
+
+55.11 42A   Inst.Kast.I+A-FE.2Fl b.1,5                                                                                  Stk
+            Stocklichte bis 1,5 m2.
+
+55.11 42B   Inst.Kast.I+A-FE.2Fl ü.1,5-2                                                                                Stk
+            Stocklichte über 1,5 bis 2 m2.
+
+55.11 42C   Inst.Kast.I+A-FE.2Fl+OL b.2                                                                                 Stk
+            Mit einer Oberlichte, Stocklichte bis 2 m2.
+
+55.11 42D   Inst.Kast.I+A-FE.2Fl+OL ü.2-2,5                                                                             Stk
+            Mit einer Oberlichte, Stocklichte über 2 bis 2,5 m2.
+
+55.11 42E   Inst.Kast.I+A-FE.2Fl+2OL b.2                                                                                Stk
+            Mit zwei Oberlichten, Stocklichte bis 2 m2.
+
+55.11 42F   Inst.Kast.I+A-FE.2Fl+2OL ü.2-2,5                                                                            Stk
+            Mit zwei Oberlichten, Stocklichte über 2 bis 2,5 m2.
+
+55.11 43    Instandsetzen der Innen- und Außenflügel von Kastenfenstern, ohne Unterschied der Verglasung, dreiflügelig.
+
+55.11 43A   Inst.Kast.I+A-FE.3Fl b.2,5                                                                                  Stk
+            Stocklichte bis 2,5 m2.
+                                                                                                                   Seite 9 / 25
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+55.11 43B   Inst.Kast.I+A-FE.3Fl ü.2,5-3                                                                               Stk
+            Stocklichte über 2,5 bis 3 m2.
+
+55.11 43C   Inst.Kast.I+A-FE.3Fl+2OL b.3                                                                               Stk
+            Mit zwei Oberlichten, Stocklichte bis 3 m2.
+
+55.11 43D   Inst.Kast.I+A-FE.3Fl+2OL ü.3-3,5                                                                           Stk
+            Mit zwei Oberlichten, Stocklichte über 3 bis 3,5 m2.
+
+55.11 43E   Inst.Kast.I+A-FE.3Fl+3OL b.3                                                                               Stk
+            Mit drei Oberlichten, Stocklichte bis 3 m2.
+
+55.11 43F   Inst.Kast.I+A-FE.3Fl+3OL ü.3-3,5                                                                           Stk
+            Mit drei Oberlichten, Stocklichte über 3 bis 3,5 m2.
+
+55.11 44    Instandsetzen der Innen- und Außenflügel von Kasten-Fenstertüren, ohne Unterschied der Verglasung,
+            einflügelig.
+
+55.11 44A   Inst.Kast.I+A-F-tür 1Fl b.2                                                                                Stk
+            Stocklichte bis 2 m2.
+
+55.11 44B   Inst.Kast.I+A-F-tür 1Fl ü.2-2,5                                                                            Stk
+            Stocklichte über 2 bis 2,5 m2.
+
+55.11 44C   Inst.Kast.I+A-F-tür 1Fl+OL b.2,5                                                                           Stk
+            Mit Oberlichte, Stocklichte bis 2,5 m2.
+
+55.11 44D   Inst.Kast.I+A-F-tür 1Fl+OL ü.2,5-3                                                                         Stk
+            Mit Oberlichte, Stocklichte über 2,5 bis 3 m2.
+
+55.11 45    Instandsetzen der Innen- und Außenflügel von Kastentüren, ohne Unterschied der Verglasung, zweiflügelig.
+
+55.11 45A   Inst.Kast.I+A-F-tür 2Fl b.3,5                                                                              Stk
+            Stocklichte bis 3,5 m2.
+
+55.11 45B   Inst.Kast.I+A-F-tür 2Fl ü.3,5-4                                                                            Stk
+            Stocklichte über 3,5 bis 4 m2.
+
+55.11 45E   Inst.Kast.I+A-F-tür 2Fl+2OL b.4                                                                            Stk
+            Mit zwei Oberlichten, Stocklichte bis 4 m2.
+
+55.11 45F   Inst.Kast.I+A-F-tür 2Fl+2OL ü.4-4,5                                                                        Stk
+            Mit zwei Oberlichten, Stocklichte über 4 bis 4,5 m2.
+
+55.11 51    Instandsetzen der einflügeligen Wohnungsgangfenster.
+
+55.11 51A   Inst.Whg-Gangfe.1Fl b.1                                                                                    Stk
+            Stocklichte bis 1 m2.
+
+55.11 51B   Inst.Whg-Gangfe.1Fl ü.1-1,5                                                                                Stk
+            Stocklichte über 1 bis 1,5 m2.
+
+55.11 51C   Inst.Whg-Gangfe.1Fl+OL b.1,5                                                                               Stk
+            Mit einer Oberlichte, Stocklichte bis 1,5 m2.
+
+55.11 51D   Inst.Whg-Gangfe.1Fl+OL ü.1,5-2                                                                             Stk
+            Mit einer Oberlichte, Stocklichte über 1,5 bis 2 m2.
+
+55.11 52    Instandsetzen der zweiflügeligen Wohnungsgangfenster.
+
+55.11 52A   Inst.Whg-Gangfe.2Fl b.1,5                                                                                  Stk
+                                                                                                                 Seite 10 / 25
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+            Stocklichte bis 1,5 m2.
+
+55.11 52B   Inst.Whg-Gangfe.2Fl ü.1,5-2                                                                                           Stk
+            Stocklichte über 1,5 bis 2 m2.
+
+55.11 52C   Inst.Whg-Gangfe.2Fl+OL b.2                                                                                            Stk
+            Mit einer Oberlichte, Stocklichte bis 2 m2.
+
+55.11 52D   Inst.Whg-Gangfe.2Fl+OL ü.2-2,5                                                                                        Stk
+            Mit einer Oberlichte, Stocklichte über 2 bis 2,5 m2.
+
+55.11 52E   Inst.Whg-Gangfe.2Fl+2OL b.2                                                                                           Stk
+            Mit zwei Oberlichten, Stocklichte bis 2 m2.
+
+55.11 52F   Inst.Whg-Gangfe.2Fl+2OL ü.2-2,5                                                                                       Stk
+            Mit zwei Oberlichten, Stocklichte über 2 bis 2,5 m2.
+
+55.12       Einzelleistungen bei Fensterinstandsetzung
+            Erneuern:
+            Mit dem Begriff erneuern ist folgender Arbeitsvorgang gemeint: Ausbauen des alten Teiles, Erstellen und
+            Einbauen des neuen Teiles.
+            Alte Fensterteile, Entsorgung:
+            Das Abtransportieren und Entsorgen alter Fensterteile (Sprossen, Kämpfer, Pfosten und dergleichen) wird
+            gesondert verrechnet.
+             Kommentar:
+             Verzogene Fenster:
+             Verzogene Fenster ausglasen und richtig verklotzt verglasen kann mit der LG 42 Glaserarbeiten ausgeschrieben werden.
+             Holzverkleidungen:
+             Holzverkleidungen von Gewänden oder Parapeten sind unter der LG 37 frei zu formulieren.
+
+            LB-Version: 23                Geringfügig Geändert
+55.12 01    Erneuern einzelner Fenster- oder Türflügel (auch von Kastenfenstern), einschließlich der Erschwernisse durch
+            Einpassungsarbeiten.
+
+55.12 01A   1f-FE.Flügel erneuern m.Altbeschl.                                                                                    Stk
+            Fensterflügel für Einfachverglasung, ohne Sprossenteilung. Unter Verwendung der alten Beschläge.
+            Flügelabmessungen/Skizze Nr. ____________
+
+55.12 01C   1f-FE.Flügel erneuern+Spr.m.Altbeschl.                                                                                Stk
+            Fensterflügel mit Sprossenteilung. Unter Verwendung der alten Beschläge.
+            Flügelabmessungen/Sprossenteilung/ Skizze Nr. ____________
+
+55.12 01E   Vb-FE.Flügel erneuern m.Altbeschlag                                                                                   Stk
+            Verbundfensterflügel ohne Sprossenteilung. Unter Verwendung der alten Beschläge.
+            Flügelabmessungen/Skizze Nr. ____________
+
+55.12 01G   1f-FE.Oberlichte erneuern Steckflüg.                                                                                  Stk
+            Einfachfensterflügel für Oberlichten, als Steckflügel einschließlich des alten Beschlages.
+            Flügelabmessungen/Skizze Nr. ____________
+
+55.12 01H   1f-FE.Oberlichte erneuern Kippflüg.                                                                                   Stk
+            Einfachfensterflügel für Oberlichten, als Kippflügel einschließlich des alten Beschlages.
+            Flügelabmessungen/Skizze Nr. ____________
+
+55.12 01J   1f-F-türflügel erneuern Stehfl.m.Altbeschl.                                                                           Stk
+            Einfachfenstertürflügel als Stehflügel, einschließlich des alten Beschlages.
+            Türflügelabmessungen/Skizze Nr. ____________
+
+55.12 01K   1f-F-türflügel erneuern Drehfl.m.Altbeschl.                                                                           Stk
+
+                                                                                                                            Seite 11 / 25
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+            Einfachfenstertürflügel als Drehflügel einschließlich des alten Beschlages.
+            Türflügelabmessungen/Skizze Nr. ____________
+
+55.12 01M   Vb-Türflügel erneuern Stehfl.m.Altbeschl.                                                                            Stk
+            Verbundtürflügel als Stehflügel, einschließlich des alten Beschlages.
+            Türflügelabmessungen/Skizze Nr. ____________
+
+55.12 01N   Vb-Türflügel erneuern Drehfl.m.Altbeschl.                                                                            Stk
+            Verbundtürflügel als Drehflügel, einschließlich des alten Beschlages.
+            Türflügelabmessungen/Skizze Nr. ____________
+             Kommentar:
+             Werden für die einzelnen neuen Flügel neue Beschläge benötigt (alte unverwertbar), sind diese gesondert auszuschreiben.
+
+55.12 03    Erneuern einzelner Fensterstockteile, ohne Unterschied der Einzellänge und des Profils. Alle Teile sind mit
+            eingefärbtem Holzschutz behandelt.
+
+55.12 03A   Kämpfer erneuern                                                                                                     Stk
+
+55.12 03B   Pfosten erneuern                                                                                                     Stk
+            Pfosten (Mittelstück).
+
+55.12 03C   Waagr.Stockprofil erneuern                                                                                           Stk
+            Waagrechtes Stockprofil bei Einfach- oder Verbundfenstern.
+
+55.12 03D   Lotrechtes Stockprofil erneuern                                                                                      Stk
+            Lotrechtes Stockprofil bei Einfach- oder Verbundfenstern.
+
+55.12 03E   Waagr.Stockst.Kastenf.erneuern                                                                                       Stk
+            Waagrechtes Stockstück bei Kastenfenstern.
+
+55.12 03F   Lotr.Stockst.Kastenf.erneuern                                                                                        Stk
+            Lotrechtes Stockstück bei Kastenfenstern.
+
+55.12 03G   Oberlichtenpfosten erneuern                                                                                          Stk
+            Pfosten bei zweiflügeligen Oberlichten.
+
+55.12 04    Erneuern einzelner Fensterflügelteile, ohne Unterschied der Einzellänge und des Profils. Alle Teile sind mit
+            eingefärbtem Holzschutz behandelt.
+
+55.12 04A   Waagr.1f-Flügelprof.erneuern                                                                                         Stk
+            Waagrechte Flügelprofile bei Einfach- oder Doppelfenstern.
+
+55.12 04B   Lotr.1f-Flügelprof.erneuern                                                                                          Stk
+            Lotrechte Flügelprofile bei Einfach- oder Doppelfenstern.
+
+55.12 04C   Sprosse 1f-Fenster erneuern                                                                                          Stk
+            Sprossen lotrecht- oder waagrecht bei Einfach- oder Doppelfenstern.
+
+55.12 04D   Waagr.Verb.Flügelprof.erneuern                                                                                       Stk
+            Waagrechte Flügelprofile bei Verbundfenstern, getrennt für Innen- und Außenflügelteil abgerechnet.
+
+55.12 04E   Lotr.Verb.Flügelprof.erneuern                                                                                        Stk
+            Lotrechte Flügelprofile bei Verbundfenstern, getrennt für Innen- und Außenflügelteil abgerechnet.
+
+55.12 04F   Sprosse Verb.Fenster erneuern                                                                                        Stk
+            Sprossen lotrecht- oder waagrecht bei Verbundfenstern.
+
+55.12 05    Futterauskleidung bei Steingewänden herstellen.
+
+55.12 05A   Futterauskleid.aus Brettern                                                                                          m
+            Bretterdicke/Breite: ____________
+
+
+                                                                                                                           Seite 12 / 25
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+55.12 05B   Futterauskleid.aus Duplex                                                                                  m
+            Aus Duplexhartfaserplatten.
+
+55.12 06    Stockspangen aus Bandeisen erneuern, einschließlich Rostschutzanstrich.
+
+55.12 06A   Stockspangen Bandeisen                                                                                     Stk
+55.12 07    Einbauen von Regenschutzschienen in alte Fensterstöcke: Vorhandene Holz-Außenfensterbänke abhobeln oder
+            Eisenwinkel demontieren. Regenschutzschiene einpassen und provisorisch befestigen. Im Einheitspreis ist die
+            Nachbehandlung des Untergrundes, wie z.B. das etwaige Schließen der alten Schraubenlöcher mit
+            2-Komponenten-Füllmasse, das Imprägnieren oder Grundbeschichten des Untergrundes und das endgültige
+            Befestigen und Abdichten der Regenschutzschiene nach der Oberflächenschlussbeschichtung einkalkuliert.
+
+55.12 07A   Regenschutzsch.o.Dicht.b.1m                                                                                Stk
+            Bis 1 m lang.
+
+55.12 07B   Regenschutzsch.o.Dicht.ü.1-1,5m                                                                            Stk
+            Über 1 bis 1,5 m lang.
+
+55.12 07C   Regenschutzsch.o.Dicht.ü.1,5-2m                                                                            Stk
+            Über 1,5 bis 2 m lang.
+
+55.12 07D   Regenschutzsch+Schlauchd.b.1m                                                                              Stk
+            Einschließlich einer Schlauchdichtung. Bis 1 m lang.
+
+55.12 07F   Regenschutzsch+Schlauchd.ü.1-1,5m                                                                          Stk
+            Einschließlich einer Schlauchdichtung. Über 1 bis 1,5 m lang.
+
+55.12 07G   Regenschutzsch+Schlauchd.ü.1,5-2m                                                                          Stk
+            Einschließlich einer Schlauchdichtung. Über 1,5 bis 2 m lang.
+
+55.12 07I   Regenschutzsch+Doppellip.b.1m                                                                              Stk
+            Einschließlich einer Doppellippendichtung aus APTK (EPDM). Bis 1 m lang.
+
+55.12 07J   Regenschutzsch+Doppellip.ü.1-1,5m                                                                          Stk
+            Einschließlich einer Doppellippendichtung aus APTK (EPDM). Über 1 bis 1,5 m lang.
+
+55.12 07K   Regenschutzsch+Doppellip.ü.1,5-2m                                                                          Stk
+            Einschließlich einer Doppellippendichtung aus APTK (EPDM). Über 1,5 bis 2 m lang.
+
+55.12 08    Seitliche Verkleidungen und Sturzverkleidungen vorsichtig demontieren und nach Versetzen der neuen Innen-
+            oder Außenrahmenstöcke wieder montieren.
+
+55.12 08A   Verkleid.demont+montier.b.2m2                                                                              Stk
+            Je Loch Fenster. Fensterstocklichte bis 2 m2.
+
+55.12 08B   Verkleid.demont+montier.ü.2-3m2                                                                            Stk
+            Je Loch Fenster. Fensterstocklichte über 2 bis 3 m2.
+
+55.12 08C   Verkleid.demont+montier.ü.3-4m2                                                                            Stk
+            Je Loch Fenster. Fensterstocklichte über 3 bis 4 m2.
+
+55.12 08D   Verkleid.demont+montieren                                                                                  m²
+            Gemessen in den abgewickelten Ansichtsflächen der Verkleidung.
+
+55.12 10    Fensterbretter abbrechen, ohne Unterschied der Breite, als Einzelleistung, ohne Fensterdemontage,
+            einschließlich Entsorgen des anfallenden Abbruchmaterials.
+
+55.12 10A   Fensterbrett abbrech.b.1,5m                                                                                Stk
+            Bis 1,5 m lang.
+
+55.12 10B   Fensterbrett abbrech.ü.1,5-2m                                                                              Stk
+                                                                                                                 Seite 13 / 25
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+            Über 1,5 bis 2 m lang.
+
+55.12 10C   Fensterbrett abbrech.ü.2-3,5m                                                                                          Stk
+            Über 2 bis 3,5 m lang.
+             Kommentar:
+             Der Abbruch von Fensterbrettern ist im Einheitspreis von Fensterabbruch enthalten. Daher nur als Einzelleistung (ohne
+             Fensterabbruch) zu wählen.
+
+55.12 14    Innenfensterbrett, profiliert, aus beidseitig werkseitig kunststoffbeschichteten Spanplatten, mindestens 17 mm
+            dick. Vorderkante mindestens 40 mm dick, abgerundet. Farbe oder Dekor nach vorzulegender Kollektion
+            (mindestens drei Farben oder drei Dekors) werden vom Auftraggeber ausgewählt.
+            Nur liefern.
+            Abgerechnet wird die Summe der zugeschnittenen Längen (ohne Verschnitt).
+
+55.12 14A   Fensterb.kunststoffb.nur lief.150                                                                                      m
+            Bis 150 mm breit.
+
+55.12 14B   Fensterb.kunststoffb.nur lief.200                                                                                      m
+            Über 150 bis 200 mm breit.
+
+55.12 14C   Fensterb.kunststoffb.nur lief.250                                                                                      m
+            Über 200 bis 250 mm breit.
+
+55.12 14D   Fensterb.kunststoffb.nur lief.300                                                                                      m
+            Über 250 bis 300 mm breit.
+
+55.12 14E   Fensterb.kunststoffb.nur lief.350                                                                                      m
+            Über 300 bis 350 mm breit.
+
+55.12 14F   Fensterbank kunststoffb.nur lief.                                                                                      m
+            Breite: ____________
+
+55.12 20    Fensterbretter aus Holz oder Holzwerkstoff, nur versetzen auf vorbereitetem Untergrund, einschließlich
+            Befestigungsmaterial und etwaiger Stemmarbeiten, jedoch ohne Verputzarbeiten. Bei kunststoffbeschichteten
+            Fensterbrettern einschließlich Abdecken der Stirnkanten mit entsprechenden Kunststofffolien.
+
+55.12 20A   Fe-brett nur vers.2,5m b.20cm                                                                                          Stk
+            Ohne Unterschied der Einzellänge bis 2,5 m. Breite bis 20 cm.
+
+55.12 20B   Fe-brett nur vers.2,5m ü.20-35cm                                                                                       Stk
+            Ohne Unterschied der Einzellänge bis 2,5 m. Breite über 20 bis 35 cm.
+
+55.12 20C   Fe-brett nur versetzen                                                                                                 Stk
+            ____________
+
+55.13       Instandsetzen Türen
+55.13 01    Instandsetzen der glatten Wohnungseingangstüren.
+
+55.13 01A   Whg-Eing-Tür glatt 1Fl b.2                                                                                             Stk
+            Einflügelig, Stocklichte bis 2 m2.
+
+55.13 01B   Whg-Eing-Tür glatt 1Fl ü.2-2,5                                                                                         Stk
+            Einflügelig, Stocklichte über 2 bis 2,5 m2.
+
+55.13 01C   Whg-Eing-Tür glatt 2Fl b.3,5                                                                                           Stk
+            Zweiflügelig, Stocklichte bis 3,5 m2.
+
+55.13 01D   Whg-Eing-Tür glatt 2Fl ü.3,5-4                                                                                         Stk
+            Zweiflügelig, Stocklichte über 3,5 bis 4 m2.
+
+55.13 02    Instandsetzen der Wohnungseingangstüren mit Füllungen.
+                                                                                                                             Seite 14 / 25
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                      EH
+
+55.13 02A   Whg-Eing-Tür Füll.1Fl b.2                                                                      Stk
+            Einflügelig, Stocklichte bis 2 m2.
+
+55.13 02B   Whg-Eing-Tür Füll.1Fl ü.2-2,5                                                                  Stk
+            Einflügelig, Stocklichte über 2 bis 2,5 m2.
+
+55.13 02C   Whg-Eing-Tür Füll.2Fl b.3,5                                                                    Stk
+            Zweiflügelig, Stocklichte bis 3,5 m2.
+
+55.13 02D   Whg-Eing-Tür Füll.2Fl ü.3,5-4                                                                  Stk
+            Zweiflügelig, Stocklichte über 3,5 bis 4 m2.
+
+55.13 05    Instandsetzen der glatten allgemeinen Türen.
+
+55.13 05A   Inst.allg.Tür glatt 1Fl b.2                                                                    Stk
+            Einflügelig, Stocklichte bis 2 m2.
+
+55.13 05B   Inst.allg.Tür glatt 1Fl ü.2-2,5                                                                Stk
+            Einflügelig, Stocklichte über 2 bis 2,5 m2.
+
+55.13 05C   Inst.allg.Tür glatt 2Fl b.3,5                                                                  Stk
+            Zweiflügelig, Stocklichte bis 3,5 m2.
+
+55.13 05D   Inst.allg.Tür glatt 2Fl ü.3,5-4                                                                Stk
+            Zweiflügelig, Stocklichte über 3,5 bis 4 m2.
+
+55.13 06    Instandsetzen der allgemeinen Türen mit Füllungen.
+
+55.13 06A   Inst.allg.Tür Füll.1Fl b.2                                                                     Stk
+            Einflügelig, Stocklichte bis 2 m2.
+
+55.13 06B   Inst.allg.Tür Füll.1Fl ü.2-2,5                                                                 Stk
+            Einflügelig, Stocklichte über 2 bis 2,5 m2.
+
+55.13 06C   Inst.allg.Tür Füll.2Fl b.3,5                                                                   Stk
+            Zweiflügelig, Stocklichte bis 3,5 m2.
+
+55.13 06D   Inst.allg.Tür Füll.2Fl ü.3,5-4                                                                 Stk
+            Zweiflügelig, Stocklichte über 3,5 bis 4 m2.
+
+55.13 07    Instandsetzen der Hauseingangstüren.
+
+55.13 07A   Inst.Haustür 1Fl b.3                                                                           Stk
+            Einflügelig, Stocklichte bis 3 m2.
+
+55.13 07B   Inst.Haustür 1Fl ü.3-3,5                                                                       Stk
+            Einflügelig, Stocklichte über 3 bis 3,5 m2.
+
+55.13 07C   Inst.Haustür 1Fl+OL b.4                                                                        Stk
+            Einflügelig, mit einer Oberlichte, Stocklichte bis 4 m2.
+
+55.13 07D   Inst.Haustür 1Fl+OL ü.4-4,5                                                                    Stk
+            Einflügelig, mit einer Oberlichte, Stocklichte über 4 bis 4,5 m2.
+
+55.13 07E   Inst.Haustür 2Fl b.4                                                                           Stk
+            Zweiflügelig, Stocklichte bis 4 m2.
+
+55.13 07F   Inst.Haustür 2Fl.ü.4-4,5                                                                       Stk
+            Zweiflügelig, Stocklichte über 4 bis 4,5 m2.
+
+
+                                                                                                     Seite 15 / 25
+                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+55.13 07G   Inst.Haustür 2Fl+OL b.5                                                                                      Stk
+            Zweiflügelig, mit einer Oberlichte, Stocklichte bis 5 m2.
+
+55.13 07H   Inst.Haustür 2Fl+OL ü.5-6                                                                                    Stk
+            Zweiflügelig, mit einer Oberlichte, Stocklichte über 5 bis 6 m2.
+
+55.13 08    Instandsetzen der Haus- oder Hofeinfahrtstore.
+
+55.13 08A   Inst.Haustor Straße                                                                                          Stk
+            Straßen-, Hauseinfahrtstor.
+            Art/Beschreibung: ____________
+
+55.13 08B   Inst.Haustor Hof                                                                                             Stk
+            Hofeinfahrtstor.
+            Art/Beschreibung: ____________
+55.13 10    Instandsetzen der Geschäfts- und Auslagenportale, einschließlich der Geschäfts-Eingangstür. Abgerechnet wird
+            die abgewickelte Ansichtsfläche.
+
+55.13 10A   Inst.Holzportale                                                                                             m²
+            Beschreibung/Skizze: ____________
+
+55.13 12    Instandsetzen der Zählerkastentüren.
+
+55.13 12A   Inst.Zählerkastentür 1Fl b.1                                                                                 Stk
+            Einflügelig, Stocklichte bis 1 m2.
+
+55.13 12B   Inst.Zählerkastentür 1Fl ü.1-1,5                                                                             Stk
+            Einflügelig, Stocklichte über 1 bis 1,5 m2.
+
+55.13 12C   Inst.Zählerkastentür 2Fl b.2                                                                                 Stk
+            Zweiflügelig, Stocklichte bis 2 m2.
+
+55.13 12D   Inst.Zählerkastentür 2Fl ü.2-2,5                                                                             Stk
+            Zweiflügelig, Stocklichte über 2 bis 2,5 m2.
+
+55.14       Erneuern Fenster einschl.Rahmenstock
+            Erneuern:
+            Mit dem Begriff Erneuern ist folgender Arbeitsvorgang gemeint: Ausbauen des alten Teiles, Erstellen und
+            Einbauen des neuen Teiles.
+            Angegebene Abmessungen:
+            Die angebotenen Preise gelten bis zu +/- 10 cm Abweichung von den bei der Ausschreibung angegebenen
+            Abmessungen der Breite und/oder Höhe. Wenn bei der Ausschreibung Abmessungen der Breite und Höhe
+            angegeben werden, sind die in den Positionen angeführten Grenzwerte für die Flächen ohne Wirkung auf die
+            Preise.
+            Alte Fensterteile, Entsorgung:
+            Das Abtransportieren und Entsorgen der alten Fensterteile wird gesondert verrechnet (eigene ULG).
+            Neue Fensterflügel mit Rahmenstock:
+            Im Einheitspreis der neuen Fensterflügel mit Rahmenstock ist das Aushängen der alten Fensterflügel, das
+            Vorrichten des Altstockes für die Montage des neuen Rahmenstockes, das Anpassen und Montieren des
+            Rahmenstockes und der Flügel (ohne Verglasung), die Beschlagsarbeiten und der Holzschutz (nur
+            Grundierung) einkalkuliert. Alle Flügel sind nach innen aufgehend gerichtet, die Oberlichten dem Altbestand
+            entsprechend als Steckflügel ausgebildet.
+            Profilquerschnitte, Profilausbildungen:
+            Die Fensterflügel werden mindestens mit einem Profil 41 x 46 mm, bei den unteren Zapfenstücken 41 x 56 mm
+            ausgebildet, alle Leisten-, Stock- und Flügelkanten werden leicht abgerundet und die wetterseitigen Kanten
+            werden mit mindestens 2,5 mm Radius gerundet.
+            Glasfalze, Glashalteleisten:
+            Die Fenster sind mit Glashalteleisten ausgestattet. Der Glasfalz ist an äußeren Flügeln an der Rauminnenseite
+            ausgebildet. Die Glashalteleisten sind aus Holz. Die Verschraubung erfolgt in gleichmäßigen Abständen von
+            höchstens 500 mm, der Eckabstand beträgt über 50 bis 100 mm.
+                                                                                                                   Seite 16 / 25
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+            Rahmeneckverbindungen:
+            Die Eckverbindungen sind mit Schlitz und Zapfen ausgeführt, die Zapfendicke beträgt mindestens 10 mm.
+            Sturz- und Außenfensterbankanschluss:
+            Detailskizzen über die Sturz- und Außenfensterbankanschlüsse werden auf Anforderung des Auftraggebers
+            vorgelegt.
+            Friese bei Türflügeln:
+            Untere Zapfenstücke (Friese) von Türflügeln sind bei Breiten über 18 cm aus zwei Teilen mit Sichtfuge
+            hergestellt.
+            Holzschutz, Oberflächenbehandlung:
+            Der Holzschutz erfolgt nach dem Fertigstellen aller Beschlagsausnehmungen und vor dem Ausliefern. Es wird
+            darauf geachtet, dass die Fenster noch vor der Montage der Regenschutzschiene die letzte
+            Zwischenbeschichtung erhalten haben.
+            Dichtungen:
+            Die Außenflügel mit Rahmenstock bei Doppelfenstern werden ohne Dichtungen hergestellt.
+            Beschläge:
+            Die Drehflügel sind mit Einbohrbändern ausgestattet. Die Versperrung erfolgt mit Einlegestangen und Triebolive
+            (Alu poliert).
+            Steckoberlichten und Einzelflügel sind mit Zungenkästen und Halboliven (Alu poliert) versehen.
+            Regenschutzschienen:
+            Regenschutzschienen werden seitlich abgedichtet.
+            Einbauarbeiten, Montage:
+            Die Montage der Rahmenstöcke erfolgt auf den vorhandenen Altstöcken nach den Angaben des Auftraggebers,
+            jedoch ohne Stemm-, Mauer- und Verputzarbeiten. Die Rahmenstöcke werden mindestens dreimal je Seite mit
+            korrosionsgeschützten Schrauben im Abstand von höchstens 60 cm, Eckabstand höchstens 15 cm, befestigt
+            (nicht genagelt).
+            Fugendeckleisten:
+            Das Abdecken der Fuge zwischen neuem Rahmenstock und Altstock mit Fugendeckleisten ist nicht
+            vorgesehen.
+            Fugenabdichtung:
+            Die Abdichtung der Fuge zwischen Rahmenstock und Fassade wird gesondert verrechnet.
+             Kommentar:
+             Innenfensterflügel:
+             Das Erneuern der Innenfensterflügel kann, in Anlehnung an die Positionen für Außenfensterflügel, frei formuliert werden.
+             Beschläge:
+             Zusätzliche Beschläge wie z.B. Drehkippbeschlag und Drehbeschlag bei Oberlichten sind gesondert auszuschreiben (siehe
+             Aufzahlungspositionen).
+             Fensteraustausch:
+             Werden die alten Fenster komplett durch neue Fenster einschließlich Stock ersetzt (Stock- oder Mauermontage), ist je nach
+             Material des neuen Fensters (Holz, Kunststoff, Alu) die entsprechende Leistungsgruppe LG 51 bis LG 54, auch für die
+             Fensterdemontage (Abbruch) heranzuziehen.
+
+55.14 01    Erneuern der Außenfensterflügel einschließlich Rahmenstock bei Kastenfenstern. Die neuen Fensterflügel sind
+            für Einfachverglasung gerichtet und mit Regenschutzschiene ausgestattet, einteilig.
+
+55.14 01A   Erneuern A-Fe-flüg+R.stock 1T 1Fl 0,5                                                                                   Stk
+            Einflügelig. Fensterstockaußenmaß bis 0,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 01B   Erneuern A-Fe-flüg+R-stock 1T 1Fl 0,75                                                                                  Stk
+            Einflügelig. Fensterstockaußenmaß über 0,5 bis 0,75 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 01C   Erneuern A-Fe-flüg+R-stock 1T 1Fl 1                                                                                     Stk
+            Einflügelig. Fensterstockaußenmaß über 0,75 bis 1 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 01D   Erneuern A-Fe-flüg+R-stock 1T 1Fl 1,25                                                                                  Stk
+
+
+                                                                                                                              Seite 17 / 25
+                                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+            Einflügelig. Fensterstockaußenmaß über 1 bis 1,25 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 01E   Erneuern A-Fe-flüg+R-stock 1T 2Fl 1,5                                                                      Stk
+            Zweiflügelig. Fensterstockaußenmaß bis 1,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 01F   Erneuern A-Fe-flüg+R-stock 1T 2Fl 1,75                                                                     Stk
+            Zweiflügelig. Fensterstockaußenmaß über 1,5 bis 1,75 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 01G   Erneuern A-Fe-flüg+R-stock 1T 2Fl 2                                                                        Stk
+            Zweiflügelig. Fensterstockaußenmaß über 1,75 bis 2 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 01H   Erneuern A-Fe-flüg+R-stock 1T 2Fl 2,5                                                                      Stk
+            Zweiflügelig. Fensterstockaußenmaß über 2 bis 2,5 m2.
+            Abmessungen/Skizze Nr. ____________
+55.14 02    Erneuern der Außenfensterflügel einschließlich Rahmenstock bei Kastenfenstern. Die neuen Fensterflügel sind
+            für Einfachverglasung gerichtet und mit Regenschutzschiene ausgestattet, zweiteilig.
+
+55.14 02A   Erneuern A-FE-flüg+R-stock 2T 2Fl 2                                                                        Stk
+            Zweiflügelig. Fensterstockaußenmaß bis 2 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 02B   Erneuern A-FE-flüg+R-stock 2T 2Fl 2,5                                                                      Stk
+            Zweiflügelig. Fensterstockaußenmaß über 2 bis 2,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 02C   Erneuern A-FE-flüg+R-stock 2T 2Fl 3                                                                        Stk
+            Zweiflügelig. Fensterstockaußenmaß über 2,5 bis 3 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 02D   Erneuern A-FE-flüg+R-stock 2T 3Fl 2,5                                                                      Stk
+            Dreiflügelig. Fensterstockaußenmaß bis 2,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 02E   Erneuern A-FE-flüg+R-stock 2T 3Fl 3                                                                        Stk
+            Dreiflügelig. Fensterstockaußenmaß über 2,5 bis 3 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 02F   Erneuern A-FE-flüg+R-stock 2T 3Fl 3,5                                                                      Stk
+            Dreiflügelig. Fensterstockaußenmaß über 3 bis 3,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 02G   Erneuern A-FE-flüg+R-stock 2T 4Fl 3,5                                                                      Stk
+            Vierflügelig. Fensterstockaußenmaß bis 3,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 02H   Erneuern A-FE-flüg+R-stock 2T 4Fl 4                                                                        Stk
+            Vierflügelig. Fensterstockaußenmaß über 3,5 bis 4 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 02I   Erneuern A-FE-flüg+R-stock 2T 4Fl 4,5                                                                      Stk
+            Vierflügelig. Fensterstockaußenmaß über 4 bis 4,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 02J   Erneuern A-FE-flüg+R-stock 2T 4Fl 5                                                                        Stk
+            Vierflügelig. Fensterstockaußenmaß über 4,5 bis 5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+
+
+                                                                                                                 Seite 18 / 25
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+55.14 03    Erneuern der Außenfensterflügel einschließlich Rahmenstock bei Kastenfenstern. Die Fensterflügel sind für
+            Einfachverglasungen gerichtet und mit Regenschutzschiene ausgestattet, dreiteilig.
+
+55.14 03A   Erneuern A-FE-flüg+R-stock 3T 3Fl 2,5                                                                       Stk
+            Dreiflügelig. Fensterstockaußenmaß bis 2,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 03B   Erneuern A-FE-flüg+R-stock 3T 3Fl 3                                                                         Stk
+            Dreiflügelig. Fensterstockaußenmaß über 2,5 bis 3 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 03C   Erneuern A-FE-flüg+R-stock 3T 3Fl 3,5                                                                       Stk
+            Dreiflügelig. Fensterstockaußenmaß über 3 bis 3,5 m2.
+            Abmessungen/Skizze Nr. _____________
+
+55.14 03D   Erneuern A-FE-flüg+R-stock 3T 4Fl 3,5                                                                       Stk
+            Vierflügelig. Fensterstockaußenmaß bis 3,5 m2.
+            Abmessungen/Skizze Nr. _____________
+
+55.14 03E   Erneuern A-FE-flüg+R-stock 3T 4Fl 4                                                                         Stk
+            Vierflügelig. Fensterstockaußenmaß über 3,5 bis 4 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 03F   Erneuern A-FE-flüg+R-stock 3T 4Fl 4,5                                                                       Stk
+            Vierflügelig. Fensterstockaußenmaß über 4 bis 4,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 03G   Erneuern A-FE-flüg+R-stock 3T 5Fl 4,5                                                                       Stk
+            Fünfflügelig. Fensterstockaußenmaß bis 4,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 03H   Erneuern A-FE-flüg+R-stock 3T 5Fl 5                                                                         Stk
+            Fünfflügelig. Fensterstockaußenmaß über 4,5 bis 5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 03I   Erneuern A-FE-flüg+R-stock 3T 5Fl 6                                                                         Stk
+            Fünfflügelig. Fensterstockaußenmaß über 5 bis 6 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 03J   Erneuern A-FE-flüg+R-stock 3T 6Fl 5                                                                         Stk
+            Sechsflügelig. Fensterstockaußenmaß bis 5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 03K   Erneuern A-FE-flüg+R-stock 3T 6Fl 6                                                                         Stk
+            Sechsflügelig. Fensterstockaußenmaß über 5 bis 6 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 03L   Erneuern A-FE-flüg+R-stock 3T 6Fl 7                                                                         Stk
+            Sechsflügelig. Fensterstockaußenmaß über 6 bis 7 m2.
+            Abmessungen/Skizze Nr. ____________
+55.14 04    Erneuern der Außenfensterflügel einschließlich Rahmenstock bei Kastenfenstern. Die Fensterflügel sind für
+            Einfachverglasung gerichtet und mit Regenschutzschiene ausgestattet, einteilig.
+
+55.14 04A   Erneuern A-FE-flüg+R-stock 1T 1Fl+OL 1,5                                                                    Stk
+            Einflügelig, mit Oberlichte. Fensterstockaußenmaß bis 1,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 04B   Erneuern A-FE-flüg+R-stock 1T 1Fl+OL 1,75                                                                   Stk
+            Einflügelig, mit Oberlichte. Fensterstockaußenmaß über 1,5 bis 1,75 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 04C   Erneuern A-FE-flüg+R-stock 1T 1Fl+OL 2                                                                      Stk
+                                                                                                                  Seite 19 / 25
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+            Einflügelig, mit Oberlichte. Fensterstockaußenmaß über 1,75 bis 2 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 04D   Erneuern A-FE-flüg+R-stock 1T 2Fl+OL 2                                                                     Stk
+            Zweiflügelig, mit Oberlichte. Fensterstockaußenmaß bis 2 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 04F   Erneuern A-FE-flüg+R-stock 1T 2Fl+OL 2,5                                                                   Stk
+            Zweiflügelig, mit Oberlichte. Fensterstockaußenmaß über 2 bis 2,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 04G   Erneuern A-FE-flüg+R-stock 1T 2Fl+OL 3                                                                     Stk
+            Zweiflügelig, mit Oberlichte. Fensterstockaußenmaß über 2,5 bis 3 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 04H   Erneuern A-FE-flüg+R-stock 1T 2Fl+2OL 2                                                                    Stk
+            Zweiflügelig, mit zwei Oberlichten mit Drehbeschlägen. Fensterstockaußenmaß bis 2 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 04J   Erneuern A-FE-flüg+R-stock 1T 2Fl+2OL 2,5                                                                  Stk
+            Zweiflügelig, mit zwei Oberlichten mit Drehbeschlägen oder Kippbeschlägen nach Wahl des Auftraggebers.
+            Fensterstockaußenmaß über 2 bis 2,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 04K   Erneuern A-FE-flüg+R-stock 1T 2Fl+2OL 3                                                                    Stk
+            Zweiflügelig, mit zwei Oberlichten mit Drehbeschlägen oder Kippbeschlägen nach Wahl des Auftraggebers.
+            Fensterstockaußenmaß über 2,5 bis 3 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 05    Erneuern der Außenfensterflügel einschließlich Rahmenstock bei Kastenfenstern. Die neuen Fensterflügel sind
+            für Einfachverglasung gerichtet und mit Regenschutzschienen ausgestattet, zweiteilig.
+
+55.14 05A   Erneuern A-FE-flüg+R-stock 2T 2Fl+2OL 2,5                                                                  Stk
+            Zweiflügelig, mit zwei Oberlichten. Fensterstockaußenmaß bis 2,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 05B   Erneuern A-FE-flüg+R-stock 2T 2Fl+2OL 3                                                                    Stk
+            Zweiflügelig, mit zwei Oberlichten. Fensterstockaußenmaß über 2,5 bis 3 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 05C   Erneuern A-FE-flüg+R-stock 2T 2Fl+2OL 3,5                                                                  Stk
+            Zweiflügelig, mit zwei Oberlichten. Fensterstockaußenmaß über 3 bis 3,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 05D   Erneuern A-FE-flüg+R-stock 2T 3Fl+2OL 3,5                                                                  Stk
+            Dreiflügelig, mit zwei Oberlichten, eine mit Drehbeschlag oder Kippbeschlag nach Wahl des Auftraggebers.
+            Fensterstockaußenmaß bis 3,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 05E   Erneuern A-FE-flüg+R-stock 2T 3Fl+2OL 4                                                                    Stk
+            Dreiflügelig, mit zwei Oberlichten, eine mit Drehbeschlag oder Kippbeschlag nach Wahl des Auftraggebers.
+            Fensterstockaußenmaß über 3,5 bis 4 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 05F   Erneuern A-FE-flüg+R-stock 2T 3Fl+2OL 4,5                                                                  Stk
+            Dreiflügelig, mit zwei Oberlichten, eine mit Drehbeschlag oder Kippbeschlag nach Wahl des Auftraggebers.
+            Fensterstockaußenmaß über 4 bis 4,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 05G   Erneuern A-FE-flüg+R-stock 2T 4Fl+OL 4,5                                                                   Stk
+            Vierflügelig, mit zwei Oberlichten. Fensterstockaußenmaß bis 4,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+
+                                                                                                                 Seite 20 / 25
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+55.14 05H   Erneuern A-FE-flüg+R-stock 2T 4Fl+OL 5                                                                      Stk
+            Vierflügelig, mit zwei Oberlichten. Fensterstockaußenmaß über 4,5 bis 5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 05I   Erneuern A-FE-flüg+R-stock 2T 4Fl+OL 6                                                                      Stk
+            Vierflügelig, mit zwei Oberlichten. Fensterstockaußenmaß über 5 bis 6 m2.
+            Abmessungen/Skizze Nr. ____________
+55.14 06    Erneuern der Außenfensterflügel einschließlich Rahmenstock bei Kastenfenstern. Die Fensterflügel sind für
+            Einfachverglasungen gerichtet und mit Regenschutzschienen ausgestattet, dreiteilig.
+
+55.14 06A   Erneuern A-FE-flüg+R-stock 3T 3Fl+3OL 5                                                                     Stk
+            Dreiflügelig, mit drei Oberlichten. Fensterstockaußenmaß bis 5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 06C   Erneuern A-FE-flüg+R-stock 3T 3Fl+3OL 6                                                                     Stk
+            Dreiflügelig, mit drei Oberlichten. Fensterstockaußenmaß über 5 bis 6 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 06D   Erneuern A-FE-flüg+R-stock 3T 4Fl+3OL 6                                                                     Stk
+            Vierflügelig, mit drei Oberlichten. Fensterstockaußenmaß bis 6 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 06F   Erneuern A-FE-flüg+R-stock 3T 4Fl+3OL 7                                                                     Stk
+            Vierflügelig, mit drei Oberlichten. Fensterstockaußenmaß über 6 bis 7 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 06G   Erneuern A-FE-flüg+R-stock 3T 4Fl+4OL 6                                                                     Stk
+            Vierflügelig, mit vier Oberlichten, davon zwei mit Drehbeschlägen oder Kippbeschlag nach Wahl des
+            Auftraggebers. Fensterstockaußenmaß bis 6 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 06I   Erneuern A-FE-flüg+R-stock 3T 4Fl+4OL 7                                                                     Stk
+            Vierflügelig, mit vier Oberlichten, davon zwei mit Drehbeschlägen oder Kippbeschlag nach Wahl des
+            Auftraggebers. Fensterstockaußenmaß über 6 bis 7 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 07    Erneuern der Außenflügel einschließlich Rahmenstock bei Kasten-Fenstertüren. Die neuen Türflügel sind für
+            Einfachverglasung gerichtet und mit Regenschutzprofil ausgestattet.
+
+55.14 07A   Erneuern A-F-tür+R-stock 1Fl 2                                                                              Stk
+            Einflügelig. Türstockaußenmaß bis 2 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 07B   Erneuern A-F-tür+R-stock 1Fl 2,5                                                                            Stk
+            Einflügelig. Türstockaußenmaß über 2 bis 2,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 07C   Erneuern A-F-tür+R-st.1Fl+OL 2,5                                                                            Stk
+            Einflügelig, mit Oberlichte. Türstockaußenmaß bis 2,5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 07D   Erneuern A-F-tür+R-stock 1Fl+OL 3                                                                           Stk
+            Einflügelig, mit Oberlichte. Türstockaußenmaß über 2,5 bis 3 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 07E   Erneuern A-F-tür+R-stock 2Fl 3                                                                              Stk
+            Zweiflügelig. Türstockaußenmaß bis 3 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 07F   Erneuern A-F-tür+R-stock 2Fl 3,5                                                                            Stk
+            Zweiflügelig. Türstockaußenmaß über 3 bis 3,5 m2.
+            Abmessungen/Skizze Nr. ____________
+                                                                                                                  Seite 21 / 25
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+55.14 07G   Erneuern A-F-tür+R-st.2Fl+2OL 5                                                                               Stk
+            Zweiflügelig, mit zwei Oberlichten. Türstockaußenmaß bis 5 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.14 07H   Erneuern A-F-tür+R-st.2Fl+2OL 6                                                                               Stk
+            Zweiflügelig, mit zwei Oberlichten. Türstockaußenmaß über 5 bis 6 m2.
+            Abmessungen/Skizze Nr. ____________
+
+55.15       Aufzahlungen, Sonstiges
+            LB-Version: 23              Geringfügig Geändert
+55.15 01    Aufzahlung (Az) auf die Positionen Oberlichten von Einfachfenstern, als Steckflügel.
+
+55.15 01A   Az 1-f.Fe-oberlichte f.Drehb                                                                                  Stk
+            Für die Ausführung mit einem Drehbeschlag.
+
+55.15 01B   Az 1-f.Fe-oberlichte f.DK-B.                                                                                  Stk
+            Für die Ausführung mit einem Drehkippbeschlag.
+
+55.15 02    Aufzahlung (Az) auf die Positionen Erneuern von Außenflügel ohne Dichtung, für eine Ausführung mit
+            eingebauten Dichtungen aus APTK.
+
+55.15 02A   Az Erneuern A-FE-flügel m.Dichtung                                                                            m
+55.15 04    Fugen schließen nach DIN 18450/3, Fugenbreite bis 15 mm, von Bauteilen mit Haftflanken entsprechender
+            Haftzugfestigkeit und Verträglichkeit, vorbehandeln mit Primer und nachbehandeln der ausgefüllten Fugen nach
+            den Verarbeitungsrichtlinien des Erzeugers, in handelsüblicher Farbe nach Wahl des Auftraggebers.
+
+55.15 04A   Fuge 15mm Silikon                                                                                             m
+            Mit elastisch bleibendem Einkomponentendichtstoff auf Silikon-Basis, Shorehärte 10 bis 12, praktisch zulässige
+            Fugenbewegung 25 Prozent, nicht überstreichbar.
+
+55.15 04B   Fuge 15mm Acryl-Disp.                                                                                         m
+            Mit elastisch bleibendem Einkomponentendichtstoff auf Acryl-Dispersionsbasis, Shorehärte bis 35, praktisch
+            zulässige Fugenbewegung bis 10 Prozent, überstreichbar, für Innenfugen bei frostsicherer Verarbeitung und
+            Aushärtung.
+            LB-Version: 23              Geringfügig Geändert
+55.15 05    Aufzahlung (Az) auf die Positionen Fugen auspressen.
+
+55.15 05A   Az Fuge Polyeth.Rundschnur                                                                                    m
+            Für das Einlegen von entsprechenden Polyethylenrundschnüren, bis zu einer Fugenbreite von 15 mm.
+
+55.15 07    Erneuern von Fenster- oder Türbeschlagsteilen. Unbrauchbare Teile entfernen und entsorgen, neue zu dem
+            Altbestand passende (nach Absprache mit dem Auftraggeber) liefern und einbauen.
+
+55.15 07A   Erneuern Fensterbeschlag                                                                                      Stk
+            ____________
+
+55.15 07B   Erneuern Tür-Feinbeschlag                                                                                     Stk
+            ____________
+
+55.15 07C   Erneuern Tür-Einbauschloss                                                                                    Stk
+            ____________
+
+55.15 08    Aufzahlung (Az) auf die Positionen Erneuern von Fenster- oder Türbeschlagteilen für die behindertengerechte
+            Montage.
+
+55.15 08A   Az Erneuern Fensterbeschl.behindertenger.                                                                     m
+
+55.15 08B   Az Erneuern Tür-Einbauschloss behinderteng.                                                                   m
+55.15 09    Erneuern Wetterschenkel, unbrauchbare entfernen und entsorgen, neue zu dem Altbestand passende liefern
+            und einbauen.
+
+
+                                                                                                                    Seite 22 / 25
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+55.15 09A   Erneuern Wetterschenkel b.60cm                                                                               Stk
+            Länge bis 60 cm.
+
+55.15 11    Öffnungsbegrenzung der Drehstellung mit stufenloser Bremse mit 90 Grad. Endfeststellung an der Unterseite
+            der Flügel in die Beschlagsnut eingebaut. Mindestlänge des Öffnungsbegrenzers 20 cm.
+
+55.15 11A   Öffnungsbegrenzung                                                                                           Stk
+            Betrifft: ____________
+
+55.15 12    Lüftungsfeststeller mit mindestens zwei Spaltstellungen für die Kippstellung.
+
+55.15 12A   Lüftungsfeststeller                                                                                          Stk
+            Betrifft: ____________
+
+55.15 13    Kindersicherung.
+
+55.15 13A   Kindersicherung                                                                                              Stk
+            ____________
+            Betrifft: ____________
+
+55.16       Fensterdichtungen
+            LB-Version: 23                Geringfügig Geändert
+55.16 01    Dichtungen vom Fensterflügel oder Fensterstock entfernen, einschließlich der Kleberrückstände und Entsorgen
+            der anfallenden Abfallmaterialien.
+
+55.16 01A   Spritzdichtungen entfernen                                                                                   m
+
+55.16 01B   Aufgeklebte Dichtungen entfer.                                                                               m
+55.16 03    Einfräsen von Dichtungen.
+
+55.16 03A   Einfräsen+Dichtungsprofil                                                                                    m
+            Einfräsen einer Nut in den Flügel oder Stock eines Holzfensters und Einpressen (Kleben) eines Dichtungsprofils
+            aus synthetischem Kautschuk.
+55.16 04    Einkleben von Hohlprofil-Dichtungsstreifen auf Flügelrahmen oder Stock. Einschließlich vorheriges Reinigen des
+            Untergrundes (Entfetten).
+
+55.16 04A   Einkleben von Dichtungen                                                                                     m
+55.16 05    Dichtungsleiste, selbstklebend, aus Hart-PVC mit zwei weichen elastischen Dichtungslippen auf den
+            Fensterstock so aufkleben und mit Messingstiften nachnageln, dass sich die Lippen beim Schließen der
+            Fensterflügel andrücken.
+
+55.16 05A   Dichtungsleiste auf Fensterstock                                                                             m
+55.16 06    Vorhandene Einfräsdichtungen im Fensterflügel oder Fensterstock entfernen, neue Dichtung nach Fertigstellen
+            der Beschichtungsarbeiten einziehen, Beschläge nachstellen, einschließlich Entsorgen der anfallenden
+            Abfallmaterialien.
+
+55.16 06A   Fe-Dichtung erneuern Hohlkam.                                                                                m
+            Mit einer Hohlkammerdichtung.
+
+55.16 06B   Fe-Dichtung erneuern Lippend.                                                                                m
+            Mit einer Lippendichtung.
+
+55.16 06C   Fe-Dichtung erneuern Schlauchd.                                                                              m
+            Mit einer Schlauchdichtung.
+
+            LB-Version: 23                Geringfügig Geändert
+
+55.19       Schutt Abtransportieren und Entsorgen
+55.19 01    Abtransportieren und Entsorgen der alten Fensterflügel (mit Verglasung) oder Fensterteile einschließlich
+            Entsorgungskosten. Abgerechnet wird die Anzahl ohne Unterschied der Einzelgröße, der Art (Oberlichten), oder
+            der Art der Verglasung.
+
+                                                                                                                   Seite 23 / 25
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+55.19 01A   Abtransport+Entsorg.Fensterteile                                                                                 Stk
+            Von Fensterflügelteilen oder Stockteilen. Abgerechnet wird je Fenster.
+
+55.19 01B   Abtransport+Entsorg.Fensterbretter                                                                               Stk
+            Von Fensterbrettern aus Holz oder Holzwerkstoffen. Abgerechnet wird je Fenster.
+
+55.19 01C   Abtransp+Entsorg.1f-Fe-flüg.1-f.Vergl.                                                                           Stk
+            Von Einfach-Fensterflügeln oder Oberlichtenflügeln mit Einfachverglasung, einschließlich etwa dazugehöriger
+            Kämpfer und Pfosten. Abgerechnet wird je Flügel.
+
+55.19 01D   Abtransp+Entsorg.Verb-Fe-flügel                                                                                  Stk
+            Von Verbundfensterflügeln oder Oberlichtenflügeln, einschließlich etwa dazugehöriger Kämpfer und Pfosten.
+            Abgerechnet wird je Flügel.
+
+55.90       Regieleistungen
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen.
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+55.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+55.90 00C   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+55.90 01    Regiestunden.
+
+55.90 01A   Regiest.Tischler/Beschlagschl.                                                                                   h
+
+55.90 01B   Regiestunde Hilfsarbeiter                                                                                        h
+            Für Hilfsarbeiter.
+
+55.90 51    Materiallieferungen f.Regieleistungen                                                                            VE
+
+
+                                                                                                                       Seite 24 / 25
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                   EH
+           Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+           ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+           Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+           nach ÖNORM B 2061).
+           Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+           berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+           unberücksichtigt.
+           Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+           Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+           eingesetzt.
+           1 VE = 1 EURO
+           Beispiel:
+           angebotener Prozentsatz: +12%
+           als Einheitspreis einzusetzen: 1,12
+           LB-Version: 23              Geringfügig Geändert
+
+
+
+
+                                                                                                                 Seite 25 / 25
+                                                                                            ib-data GmbH, Softwareentwicklung
+

@@ -1,0 +1,5521 @@
+{
+  "lg": "36",
+  "title": "Holzbau",
+  "positions": [
+    {
+      "code": "36.10.01C",
+      "text": "Richt-u.Montageschwelle+Verfüllen d.Fuge f.Holzrahmenwand",
+      "unit": ""
+    },
+    {
+      "code": "36.10.01E",
+      "text": "Dichtungsband f.Schwellenabdichtung f.Holzrahmenwand",
+      "unit": ""
+    },
+    {
+      "code": "36.11.01C",
+      "text": "Richt-u.Montageschwelle+Verfüllen d.Fuge f.Holzmassivwand",
+      "unit": ""
+    },
+    {
+      "code": "36.11.01E",
+      "text": "Dichtungsband f.Schwellenabdichtung f.Holzmassivwand",
+      "unit": ""
+    },
+    {
+      "code": "36.12.05A",
+      "text": "Holzriegelbau Vollholz 5x5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.05B",
+      "text": "Holzriegelbau Vollholz 5x8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.05C",
+      "text": "Holzriegelbau Vollholz 8x10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.06B",
+      "text": "Holzriegelbau egalisiert 6x12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.06D",
+      "text": "Holzriegelbau egalisiert 6x16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.06E",
+      "text": "Holzriegelbau egalisiert 6x20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.10C",
+      "text": "Holzriegelbau BSH Oberflächenqualität2 8x12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.10E",
+      "text": "Holzriegelbau BSH Oberflächenqualität2 8x16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.10G",
+      "text": "Holzriegelbau BSH Oberflächenqualität2 8x20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.11X",
+      "text": "Holzriegelbau BSH Oberflächenqualität2: cm__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.03A",
+      "text": "Dampfbremse/Dampfsperre diffusionsoffen",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.03B",
+      "text": "Dampfbremse/Dampfsperre diffusionsbremsend",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.03C",
+      "text": "Dampfbremse/Dampfsperre diffusionshemmend",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.03D",
+      "text": "Dampfbremse/Dampfsperre diffusionssperrend",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.03E",
+      "text": "Dampfbremse/Dampfsperre diffusionsdicht",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.03H",
+      "text": "Anschluss Sockeldetail gem.ÖNORM B 2320",
+      "unit": ""
+    },
+    {
+      "code": "36.15.04B",
+      "text": "Anschlüsse verkleben m.Klebebändern",
+      "unit": ""
+    },
+    {
+      "code": "36.15.04C",
+      "text": "Anschlüsse verkleben m.Klebern",
+      "unit": ""
+    },
+    {
+      "code": "36.15.04D",
+      "text": "Anschlüsse verkleben auf nicht verputztem MWK",
+      "unit": ""
+    },
+    {
+      "code": "36.15.04E",
+      "text": "Anarbeiten an Durchführungen m.Manschetten",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.16.10A",
+      "text": "Bekleidung Wand m.3-Schichtplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.40E",
+      "text": "Az Holzmassivdecke BSP f.Stoßverbindung/Stufenfalz",
+      "unit": "m²"
+    },
+    {
+      "code": "36.23.01A",
+      "text": "Rippenplattendecke BSP-BSH",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.02A",
+      "text": "D-Dampfbremse/Dampfsperre diffusionsoffen",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.02B",
+      "text": "D-Dampfbremse/Dampfsperre diffusionsbremsend",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.02C",
+      "text": "D-Dampfbremse/Dampfsperre diffusionshemmend",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.02D",
+      "text": "D-Dampfbremse/Dampfsperre diffusionssperrend",
+      "unit": "m²"
+    },
+    {
+      "code": "36.26.10A",
+      "text": "Bekleidung Decke m.3-Schichtplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.00A",
+      "text": "Dachtragwerk/Arbeitshöhe ü.3,2m",
+      "unit": ""
+    },
+    {
+      "code": "36.31.01A",
+      "text": "Dachtragwerk Pultdach",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.01B",
+      "text": "Dachtragwerk Satteldach",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.01C",
+      "text": "Dachtragwerk Walmdach",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.01D",
+      "text": "Dachtragwerk Krüppelwalmdach",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.01E",
+      "text": "Dachtragwerk Zeltdach",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.01F",
+      "text": "Dachtragwerk Mansardendach",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.01G",
+      "text": "Dachtragwerk Flachdach bis 10Grad Dachneigung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.02A",
+      "text": "Dachtragwerk Flachdach Keilpfosten",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.22A",
+      "text": "Az Dachtragwerk f.Gaupendach als Schleppdach",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.31.22B",
+      "text": "Az Dachtragwerk f.Gaupendach als Satteldach",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.31.22C",
+      "text": "Az Dachtragwerk f.Gaupendach als Walmdach",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.31.22D",
+      "text": "Az Dachtragwerk f.Gaupendach",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.31.25A",
+      "text": "Az Dachtragwerk f.Anarbeiten an bestehende Bauteile",
+      "unit": ""
+    },
+    {
+      "code": "36.31.30A",
+      "text": "Az Dachtragwerk VH f.Konstruktionsvollholz",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.31A",
+      "text": "Az Dachtragwerk VH f.BSH Festigkeitskl.GL24h OF-Q1",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.31B",
+      "text": "Az Dachtragwerk VH f.BSH Festigkeitskl.GL24h OF-Q2",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.31C",
+      "text": "Az Dachtragwerk VH f.BSH Festigkeitskl.GL28h OF-Q1",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.31D",
+      "text": "Az Dachtragwerk VH f.BSH Festigkeitskl.GL28h OF-Q2",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.31E",
+      "text": "Az Dachtragwerk VH f.BSH Europäische Lärche OF-Q2",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.32A",
+      "text": "Az Dachtragwerk VH f.Festigkeitsklasse C27",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.32B",
+      "text": "Az Dachtragwerk VH f.Festigkeitsklasse C30",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.32C",
+      "text": "Az Dachtragwerk VH f.alternative Festigkeitsklasse",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.38A",
+      "text": "Az Dachtragwerk f.Holzart VH Lärche",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.38B",
+      "text": "Az Dachtragwerk f.Holzart VH Buche",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.38C",
+      "text": "Az Dachtragwerk f.alternative Holzart",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.42A",
+      "text": "Az Dachtragwerk VH f.Oberflächenqualität 2",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.42C",
+      "text": "Az Dachtragwerk VH f.Oberfläche gehobelt",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.42D",
+      "text": "Az Dachtragwerk VH f.Oberfläche geschliffen",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.42J",
+      "text": "Az Dachtragwerk VH f.Oberfläche gehobelt u.gefast",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.45A",
+      "text": "Az Dachtragwerk VH f.kerngetrennt",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.45B",
+      "text": "Az Dachtragwerk VH f.kerngetrennt u.scharfkantig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.45C",
+      "text": "Az Dachtragwerk VH f.scharfkantig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.45D",
+      "text": "Az Dachtragwerk VH f.kernfrei",
+      "unit": "m²"
+    },
+    {
+      "code": "36.31.45E",
+      "text": "Az Dachtragwerk VH f.kernfrei und scharfkantig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.05X",
+      "text": "Dachdämmung MW gerollt: cm__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.06X",
+      "text": "Dachdämmung MW Platte: cm__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.10A",
+      "text": "Bekleidung Dach innen m.3-Schichtpl.",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.20K",
+      "text": "Dachschalung 3-Schichtplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "36.50.01B",
+      "text": "Einbauteile geschweißt",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.50.02A",
+      "text": "Verankerungen",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.50.04A",
+      "text": "Verbindungswinkel Typ1 Holz/Holz b.100mm",
+      "unit": ""
+    },
+    {
+      "code": "36.50.04B",
+      "text": "Verbindungswinkel Typ2 Holz/Holz ü.100mm:__________",
+      "unit": ""
+    },
+    {
+      "code": "36.50.04C",
+      "text": "Verbindungswinkel Typ3 Holz/mineral.Baustoff b.100mm",
+      "unit": ""
+    },
+    {
+      "code": "36.50.04D",
+      "text": "Verbindungswinkel Typ4 Holz/mineral.Baustoff:__________",
+      "unit": ""
+    },
+    {
+      "code": "36.65.02A",
+      "text": "Terrassendielen Lärche",
+      "unit": "m²"
+    },
+    {
+      "code": "36.65.02B",
+      "text": "Terrassendielen",
+      "unit": "m²"
+    },
+    {
+      "code": "36.10.01D",
+      "text": "Quellmörtel-Verfüllen d.Fuge f.Holzrahmenwand",
+      "unit": ""
+    },
+    {
+      "code": "36.10.61A",
+      "text": "Wandrohbauelement Voll-u.Teilgewindeschrauben 6-8mm",
+      "unit": ""
+    },
+    {
+      "code": "36.10.61B",
+      "text": "Wandrohbauelement Voll-u.Teilgewindeschrauben ü. 8-10mm",
+      "unit": ""
+    },
+    {
+      "code": "36.10.61C",
+      "text": "Wandrohbauelement Voll-u.Teilgewindeschrauben ü. 10-14mm",
+      "unit": ""
+    },
+    {
+      "code": "36.10.61X",
+      "text": "Wandrohbauelement Voll-u.Teilgewindeschrauben: mm__________",
+      "unit": ""
+    },
+    {
+      "code": "36.11.01D",
+      "text": "Quellmörtel-Verfüllen d.Fuge f.Holzmassivwand",
+      "unit": ""
+    },
+    {
+      "code": "36.12.05X",
+      "text": "Holzriegelbau Vollholz: cm__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.06X",
+      "text": "Holzriegelbau egalisiert: cm__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.61A",
+      "text": "Holzriegelbau Voll-u.Teilgewindeschrauben 6-8mm",
+      "unit": ""
+    },
+    {
+      "code": "36.12.61B",
+      "text": "Holzriegelbau Voll-u.Teilgewindeschrauben ü. 8-10mm",
+      "unit": ""
+    },
+    {
+      "code": "36.12.61C",
+      "text": "Holzriegelbau Voll-u.Teilgewindeschrauben ü. 10-14mm",
+      "unit": ""
+    },
+    {
+      "code": "36.12.61X",
+      "text": "Holzriegelbau Voll-u.Teilgewindeschrauben: mm__________",
+      "unit": ""
+    },
+    {
+      "code": "36.15.07X",
+      "text": "Dämmung MW Platte: cm__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.37A",
+      "text": "Az Dämmung f.ü.15-45°Neigung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.37B",
+      "text": "Az Dämmung f.ü.45-90°Neigung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.51A",
+      "text": "Dämmung m.Steinwolle",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.51B",
+      "text": "Dämmung m.Glaswolle",
+      "unit": "m²"
+    },
+    {
+      "code": "36.16.25D",
+      "text": "Wandschalung sägerau 2,4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.15B",
+      "text": "Offene Schalung Rhombusleiste horizontal",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.35H",
+      "text": "Herstellen seitlicher Anschluss stumpf gestoßen",
+      "unit": ""
+    },
+    {
+      "code": "36.19.35I",
+      "text": "Herstellen schräger Abschluss",
+      "unit": ""
+    },
+    {
+      "code": "36.19.35J",
+      "text": "Herstellen Fensterleibung",
+      "unit": ""
+    },
+    {
+      "code": "36.19.37A",
+      "text": "Az Fassadenschalung f.ü.15-45°Neigung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.37B",
+      "text": "Az Fassadenschalung f.ü.45-90°Neigung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.37E",
+      "text": "Az Fassadenlattung f.ü.15-45°Neigung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.37F",
+      "text": "Az Fassadenlattung f.ü.45-90°Neigung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.37H",
+      "text": "Az Insektenschutzbahn f.ü.15-45°Neigung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.37I",
+      "text": "Az Insektenschutzbbahn f.ü.45-90°Neigung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.37L",
+      "text": "Az Winddichtbahn f.ü.15-45°Neigung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.37M",
+      "text": "Az Winddichtbahn f.ü.45-90°Neigung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.01B",
+      "text": "Holzmassivdecke BSP 10cm 5-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.40F",
+      "text": "Az Holzmassivdecke BSP f.besondere Verbindung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.21.40E",
+      "text": "Az Holzmassivdecke BSH f.Stoßausbildung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.61A",
+      "text": "Holzbalkendecke Voll-u.Teilgewindeschrauben 6-8mm",
+      "unit": ""
+    },
+    {
+      "code": "36.22.61B",
+      "text": "Holzbalkendecke Voll-u.Teilgewindeschrauben ü. 8-10mm",
+      "unit": ""
+    },
+    {
+      "code": "36.22.61C",
+      "text": "Holzbalkendecke Voll-u.Teilgewindeschrauben ü. 10-14mm",
+      "unit": ""
+    },
+    {
+      "code": "36.22.61X",
+      "text": "Holzbalkendecke Voll-u.Teilgewindeschrauben: mm__________",
+      "unit": ""
+    },
+    {
+      "code": "36.25.02E",
+      "text": "D-Dampfbremse/Dampfsperre diffusionsdicht",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.04E",
+      "text": "Decken Anarbeiten an Durchführungen m.Manschetten",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.26.25D",
+      "text": "Deckenschalung sägerau 2,4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.30.00B",
+      "text": "Rohbauelement Dachtragwerk - Fassadengerüst",
+      "unit": ""
+    },
+    {
+      "code": "36.30.16A",
+      "text": "Az Rohbau.-E.Dach f.Gaupendach als Schleppdach",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.30.16B",
+      "text": "Az Rohbau.-E.Dach f.Gaupendach als Satteldach",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.30.16D",
+      "text": "Az Rohbau.-E.Dach f.Gaupendach als Walmdach",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.31.00B",
+      "text": "Dachtragwerk - Fassadengerüst",
+      "unit": ""
+    },
+    {
+      "code": "36.33.00A",
+      "text": "Kantholzkonstruktion/Arbeitshöhe ü.3,2m",
+      "unit": ""
+    },
+    {
+      "code": "36.33.00B",
+      "text": "Kantholzkonstruktion-Arbeitshöhe ü.3,2m - Fassadengerüst",
+      "unit": ""
+    },
+    {
+      "code": "36.35.00B",
+      "text": "DpD Arbeitshöhe ü.3,2m",
+      "unit": ""
+    },
+    {
+      "code": "36.35.02A",
+      "text": "Dampfbremse/Dampfsperre Dach diffusionsoffen",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.02B",
+      "text": "Dampfbremse/Dampfsperre Dach diffusionsbremsend",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.02C",
+      "text": "Dampfbremse/Dampfsperre Dach diffusionshemmend",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.02D",
+      "text": "Dampfbremse/Dampfsperre Dach diffusionssperrend",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.02E",
+      "text": "Dampfbremse/Dampfsperre Dach diffusionsdicht",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.02F",
+      "text": "Dampfbremse/Dampfsperre Dach",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.04E",
+      "text": "Dach Anarbeiten an Durchführungen m.Manschetten",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.35.07X",
+      "text": "Dachdämmung MW-Keil/Klemm__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.25D",
+      "text": "Sichtschalung sägerau 2,4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.25F",
+      "text": "Sparschalung 2,4cm Achse 25cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.25G",
+      "text": "Sparschalung 2,4cm Achse 31cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.25H",
+      "text": "Sparschalung 2,4cm Achse 40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.25I",
+      "text": "Sparschalung 2,4cm Achse 60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.41A",
+      "text": "Bekleidung Dachschräge m.MW-W 40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.41B",
+      "text": "Bekleidung Dachschräge m.MW-W 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.41C",
+      "text": "Bekleidung Dachschräge m.MW-W 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.41X",
+      "text": "Bekleidung Dachschräge m.MW-W: mm__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.48D",
+      "text": "Az Dachlattung f.Firstlatten",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.48E",
+      "text": "Az Dachlattung f.Gratlatten",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.48F",
+      "text": "Az Dachlattung f.Firstausbildung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.48G",
+      "text": "Az Dachlattung f.Trauflattung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.58A",
+      "text": "Gesimsekonstruktion als Tragkonstruktion",
+      "unit": ""
+    },
+    {
+      "code": "36.39.61A",
+      "text": "Winkelsaumschalung m.Unterkonstruktion",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.94X",
+      "text": "Attika Flachdach Höhe in cm:__________",
+      "unit": ""
+    },
+    {
+      "code": "36.45.53F",
+      "text": "Az Stütze/Träger BSH in m³ f.Oberflächenqualität 2",
+      "unit": "m³"
+    },
+    {
+      "code": "36.45.53H",
+      "text": "Az Stütze/Träger BSH in m² f.Oberfläche gehobelt",
+      "unit": "m²"
+    },
+    {
+      "code": "36.45.53I",
+      "text": "Az Stütze/Träger in m² f.BSH f.Oberfläche geschliffen",
+      "unit": "m²"
+    },
+    {
+      "code": "36.50.03F",
+      "text": "Zuganker Typ1 Holz/Holz b.650mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.50.03G",
+      "text": "Zuganker Typ2 Holz/Holz ü.650mm:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.50.03H",
+      "text": "Zuganker Typ3 Holz/mineral.Baustoff b.650mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.50.03I",
+      "text": "Zuganker Typ4 Holz/mineral.Baustoff ü.650mm:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.50.05A",
+      "text": "Windverband",
+      "unit": "kg"
+    },
+    {
+      "code": "36.70.06A",
+      "text": "Beplankung f.Stahlkontruktion AG",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.00.04C",
+      "text": "Verfügbarkeit von Lagerflächen",
+      "unit": ""
+    },
+    {
+      "code": "36.00.04D",
+      "text": "Hindernisse Baustelle",
+      "unit": ""
+    },
+    {
+      "code": "36.00.04E",
+      "text": "Montagebereich",
+      "unit": ""
+    },
+    {
+      "code": "36.00.04G",
+      "text": "Leistungsetappen/Leistungsunterbrechungen",
+      "unit": ""
+    },
+    {
+      "code": "36.00.04V",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "36.01.07A",
+      "text": "Luftdichtheitsmessung durch AN                                                                                        PA",
+      "unit": ""
+    },
+    {
+      "code": "36.10.02A",
+      "text": "Wandrohbauelement MDF-OSB 19cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.10.02B",
+      "text": "Wandrohbauelement MDF-OSB 23cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.10.02C",
+      "text": "Wandrohbauelement MDF-OSB 27cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.10.03A",
+      "text": "Wandrohbauelement OSB-OSB 18,7cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.10.03B",
+      "text": "Wandrohbauelement OSB-OSB 22,7cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.10.03C",
+      "text": "Wandrohbauelement OSB-OSB 26,7cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.10.05A",
+      "text": "Wandrohbauelement Gipsf.-Gipsfaser 18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.10.05B",
+      "text": "Wandrohbauelement Gipsf.-Gipsfaser 22cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.10.05C",
+      "text": "Wandrohbauelement Gipsf.-Gipsfaser 26cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.10.06A",
+      "text": "Wandrohbauelement Holzf.-OSB 20,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.10.06B",
+      "text": "Wandrohbauelement Holzf.-OSB 24,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.10.06C",
+      "text": "Wandrohbauelement Holzf.-OSB 28,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.10.15E",
+      "text": "Az Wandrohbauelemente f.Verbindung Stoßausbildung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.10.19F",
+      "text": "Einlegen von Fugenbänder b.Wandrohbauelementen                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "36.10.19G",
+      "text": "Schallentkopplung b.Wandrohbauelementen                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "36.10.20A",
+      "text": "Statische Verstärkungen f.Wände b.Wandrohbauelementen                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.10.22A",
+      "text": "Geneigte Stirnseiten ü.0-45° b.Wandrohbauelementen                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "36.10.28A",
+      "text": "Kopf/Fußschwelle geneigt b.Wandrohbauelementen                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "36.10.28B",
+      "text": "Oberer Abschluss gekrümmt b.Wandrohbauelementen                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "36.10.55A",
+      "text": "Az RB/Wand f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.10.55C",
+      "text": "Az RB/Wand f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.10.55D",
+      "text": "Az RB/Wand f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.10.55F",
+      "text": "Az RB/Wand f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.11.02B",
+      "text": "Holzmassivwand BSP 10cm 3-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.11.02C",
+      "text": "Holzmassivwand BSP 10cm 5-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.11.02D",
+      "text": "Holzmassivwand BSP 12cm 3-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.11.02E",
+      "text": "Holzmassivwand BSP 12cm 5-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.11.02F",
+      "text": "Holzmassivwand BSP 14cm 5-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.11.02G",
+      "text": "Holzmassivwand BSP 16cm 5-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.11.03X",
+      "text": "Holzmassivwand BSP",
+      "unit": "m²"
+    },
+    {
+      "code": "36.11.06A",
+      "text": "Az Holzmassivwand BSP f.Abklebung Stoßfugen",
+      "unit": "m²"
+    },
+    {
+      "code": "36.11.09A",
+      "text": "Holzmassivwand BSP m.geneigter Stirnseite ü.0-45°                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.11.09B",
+      "text": "Holzmassivwand BSP Einlegen von Fugenbänder b.BSP                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.11.09C",
+      "text": "Holzmassivwand BSP Schallentkopplung b.BSP                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "36.11.11A",
+      "text": "Az Holzmassivwand BSP f.Oberflächenqualität 2 einseitig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.11.11B",
+      "text": "Az Holzmassivwand BSP f.Oberflächenqualität 2 beidseitig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.11.11C",
+      "text": "Az Holzmassivwand BSP f.Decklage Wand",
+      "unit": "m²"
+    },
+    {
+      "code": "36.11.11D",
+      "text": "Az Holzmassivwand BSP f.Oberflächenqualität 3 einseitig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.11.11E",
+      "text": "Az Holzmassivwand BSP f.Oberflächenqualität 3 beidseitig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.11.16D",
+      "text": "Az Holzmassivwand BSP Verbindungen f.Stufenfalz",
+      "unit": "m²"
+    },
+    {
+      "code": "36.11.16E",
+      "text": "Az Holzmassivwand f.besondere Verbindungen",
+      "unit": "m²"
+    },
+    {
+      "code": "36.11.21A",
+      "text": "Az Wandverschr.bei erhöhter Anf.BSP-Element-BSP-Element                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "36.11.21B",
+      "text": "Az Wandverschr.bei erhöhter Anf.BSP-Element-Auflager                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.11.36A",
+      "text": "Holzmassivwand BSP Installationsschl.offen (werkss.)                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.11.36B",
+      "text": "Holzmassivwand BSP Installationsschl.geschl.(werkss.)                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.11.36C",
+      "text": "Holzmassivwand BSP Installationsschl.Dosenbohrung (werkss.)",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.11.51A",
+      "text": "Bauteile m.Rundungen u.nicht rechtw.Abschnitten                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "36.11.56A",
+      "text": "Az W/BSP f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.11.56C",
+      "text": "Az W/BSP f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.11.56D",
+      "text": "Az W/BSP f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.11.56F",
+      "text": "Az W/BSP f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.12.01C",
+      "text": "Richt-u.Montageschwelle+Verfüllen d.Fuge f.Holzriegelbau                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "36.12.01E",
+      "text": "Dichtungsband f.Schwellenabdichtung f.Holzriegelbau                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "36.12.08A",
+      "text": "Az Holzriegelbau egalisiert f.Oberfläche gehobelt",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.20A",
+      "text": "Statische Verstärkungen f.Wände b.Holzriegelelementen                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "36.12.22A",
+      "text": "Holzriegelbau Überlager b.Öffnungen lichte Weite ü.2m                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "36.12.26A",
+      "text": "Az Holzriegelbau f.Montage zwischen Stahlprofilen                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.12.28A",
+      "text": "Az Holzriegelbau f.Kopf/Fußschwelle geneigt                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "36.12.28B",
+      "text": "Az Holzriegelbau f.oberer Abschluss gekrümmt                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.12.36B",
+      "text": "Bekleidung Holzriegelbauwände OSB 15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.36C",
+      "text": "Bekleidung Holzriegelbauwände OSB 18mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.36D",
+      "text": "Bekleidung Holzriegelbauwände OSB 22mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.37L",
+      "text": "Az Bekleidung Holzriegelbauwände f.Nut-Feder",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.37M",
+      "text": "Az Bekleidung Holzriegelbauwände OSB/3 f.OSB/4",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.38A",
+      "text": "Bekleidung Holzriegelbau MDF-Platten 15-16mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.38B",
+      "text": "Bekleidung Holzriegelbau MDF-Platten 19mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.42A",
+      "text": "Bekleidung Holzriegelbau Schalung sägerau 2,4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.42B",
+      "text": "Az Bekl.Holzriegelb.Schalung sägerau 2,4cm f.diag.verschalt",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.43B",
+      "text": "Bekleidung Holzriegelwand Sparschalung 2,4cm Achse 25cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.43C",
+      "text": "Bekleidung Holzriegelwand Sparschalung 2,4cm Achse 31cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.43D",
+      "text": "Bekleidung Holzriegelwand Sparschalung 2,4cm Achse 40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.43E",
+      "text": "Bekleidung Holzriegelwand Sparschalung 2,4cm Achse 60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.12.55A",
+      "text": "Az HRB f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.12.55C",
+      "text": "Az HRB f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.12.55D",
+      "text": "Az HRB f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.12.55F",
+      "text": "Az HRB f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.13.01C",
+      "text": "Richt-u.Montageschwelle+Verfüllen d.Fuge (zu ULG13)                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.13.01E",
+      "text": "Dichtungsband f.Schwellenabdichtung (zu ULG13)                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.13.05A",
+      "text": "Holzrahmenbau Vollholz 5x5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.05B",
+      "text": "Holzrahmenbau Vollholz 5x8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.05C",
+      "text": "Holzrahmenbau Vollholz 8x10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.05X",
+      "text": "Holzrahmenbau Vollholz: cm__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.06B",
+      "text": "Holzrahmenbau egalisiert 6x12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.06D",
+      "text": "Holzrahmenbau egalisiert 6x16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.06E",
+      "text": "Holzrahmenbau egalisiert 6x20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.06X",
+      "text": "Holzrahmenbau egalisiert: cm__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.09A",
+      "text": "Az Holzrahmenbau f.Konstruktionsholz",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.10C",
+      "text": "Holzrahmenbau BSH Oberflächenqualität2 8x12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.10E",
+      "text": "Holzrahmenbau BSH Oberflächenqualität2 8x16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.10G",
+      "text": "Holzrahmenbau BSH Oberflächenqualität2 8x20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.11X",
+      "text": "Holzrahmenbau BSH Oberflächenqualität2: cm__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.20A",
+      "text": "Statische Verstärkungen f.Wände b.Holzrahmenbau                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.13.36B",
+      "text": "Bekleidung Holzrahmenbauwände OSB 15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.36C",
+      "text": "Bekleidung Holzrahmenbauwände OSB 18mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.36D",
+      "text": "Bekleidung Holzrahmenbauwände OSB 22mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.37L",
+      "text": "Az Bekleidung Holzrahmenbauwände f.Nut-Feder",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.37M",
+      "text": "Az Bekleidung Holzrahmenbauwände f.OSB/3 f.OSB/4",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.38A",
+      "text": "Bekleidung Holzrahmenbauwände MDF-Platten 15-16mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.38B",
+      "text": "Bekleidung Holzrahmenbauwände MDF-Platten 19mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.39A",
+      "text": "Bekleidung Holzrahmenbauwände GF-Platten 15-16mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.39B",
+      "text": "Bekleidung Holzrahmenbauwände GF-Platten 12,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.39C",
+      "text": "Bekleidung Holzrahmenbauwände GF-Platten 25mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.42A",
+      "text": "Bekleidung Holzrahmenbauwände Schalung sägerau 2,4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.42B",
+      "text": "Az Bekl.Holzrahmenbauwände Schalung f.diagonal verschalt",
+      "unit": "m²"
+    },
+    {
+      "code": "36.13.55A",
+      "text": "Az HR-Bau f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.13.55C",
+      "text": "Az HR-Bau f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.13.55D",
+      "text": "Az HR-Bau f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.13.55F",
+      "text": "Az HR-Bau f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.13.61A",
+      "text": "Holzrahmenbau Voll-u.Teilgewindeschrauben 6-8mm                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "36.13.61B",
+      "text": "Holzrahmenbau Voll-u.Teilgewindeschrauben 8-10mm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "36.13.61C",
+      "text": "Holzrahmenbau Voll-u.Teilgewindeschrauben 10-14mm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.13.61X",
+      "text": "Holzrahmenbau Voll-u.Teilgewindeschrauben: mm__________                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "36.15.06A",
+      "text": "Dämmung MW-W Platte 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.06B",
+      "text": "Dämmung MW-W Platte 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.06C",
+      "text": "Dämmung MW-W Platte 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.06D",
+      "text": "Dämmung MW-W Platte 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.06E",
+      "text": "Dämmung MW-W Platte 14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.06F",
+      "text": "Dämmung MW-W Platte 16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.06G",
+      "text": "Dämmung MW-W Platte 18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.08B",
+      "text": "Dämmung MW-Keil/Klemmfilz 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.08C",
+      "text": "Dämmung MW-Keil/Klemmfilz 14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.08D",
+      "text": "Dämmung MW-Keil/Klemmfilz 16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.08E",
+      "text": "Dämmung MW-Keil/Klemmfilz 18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.08F",
+      "text": "Dämmung MW-Keil/Klemmfilz 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.09F",
+      "text": "Az Dämmung m.MW f.Wärmeleitfähigkeit 0,035W/mK",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.09G",
+      "text": "Az Dämmung m.MW f.Wärmeleitfähigkeit 0,032W/mK",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.20A",
+      "text": "Dämmung als Einblasdämmung Zellulose",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.20B",
+      "text": "Dämmung als Einblasdämmung Glaswolle",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.20C",
+      "text": "Dämmung als Einblasdämmung Steinwolle",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.24A",
+      "text": "Überdämmung Stahlkonstruktion m.mineral.WD b.6cm                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "36.15.24D",
+      "text": "Überdämmung Stahlkonstruktion m.XPS b.6cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.15.30C",
+      "text": "Dämmung für Lattung 40-60cm MW 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.30D",
+      "text": "Dämmung für Lattung 40-60cm MW 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.30I",
+      "text": "Dämmung für Lattung ü.60cm MW 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.30J",
+      "text": "Dämmung für Lattung ü.60cm MW 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.30X",
+      "text": "Dämmung für Lattung 40-60cm MW d=__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.30Y",
+      "text": "Dämmung für Lattung ü.60cm MW d=__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.35A",
+      "text": "Sockel-u.Anschlussdämmung Polystyrol b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.45A",
+      "text": "Dämmung Schacht m.Mineralwolle 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.15.55A",
+      "text": "Az f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.15.55C",
+      "text": "Az f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.15.55D",
+      "text": "Az f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.15.55F",
+      "text": "Az f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.16.01A",
+      "text": "Wand Lattung f.Unterkonstr.VH 4x4/40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.16.01B",
+      "text": "Wand Lattung f.Unterkonstr.VH 5x4/40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.16.01C",
+      "text": "Wand Lattung f.Unterkonstr.VH 5x8/40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.16.03A",
+      "text": "Wand Lattung f.Unterkonstr.VH 4x4/60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.16.03B",
+      "text": "Wand Lattung f.Unterkonstr.VH 5x4/60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.16.03C",
+      "text": "Wand Lattung f.Unterkonstr.VH 5x8/60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.16.15A",
+      "text": "Bekleidung Wand OSB",
+      "unit": "m²"
+    },
+    {
+      "code": "36.16.20A",
+      "text": "Bekleidung Wand profilierte Platten",
+      "unit": "m²"
+    },
+    {
+      "code": "36.16.25A",
+      "text": "Wandsichtschalung N+F 2,4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.16.25C",
+      "text": "Wandsichtschalung Glattkantbrett 2,4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.16.40A",
+      "text": "Bekleidung Wand m.WW 15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.16.40B",
+      "text": "Bekleidung Wand m.WW 25mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.16.40C",
+      "text": "Bekleidung Wand m.WW 35mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.16.40D",
+      "text": "Bekleidung Wand m.WW 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.16.55A",
+      "text": "Az IB/W.f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.16.55C",
+      "text": "Az IB/W.f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.16.55D",
+      "text": "Az IB/W.f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.16.55F",
+      "text": "Az IB/W.f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.19.05A",
+      "text": "Lattungen horizontal Holzuntergrund",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.05B",
+      "text": "Lattungen horizontal Mauerwerk/Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.05C",
+      "text": "Lattungen vertikal Holzuntergrund",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.05D",
+      "text": "Lattungen vertikal Mauerwerk/Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.05E",
+      "text": "Konterlattung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.05F",
+      "text": "Az Konterlattung f.Europäische Lärche",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.05G",
+      "text": "Traglattung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.05H",
+      "text": "Az Traglattung f.Europäische Lärche",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.10A",
+      "text": "Unterkonstruktion f.Jalousienkasten                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "36.19.10B",
+      "text": "Einbau von Regenabfallrohren b.150mm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.19.10C",
+      "text": "Unterkonstruktion f.Fenstermontagen in Dämmebene                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.19.10D",
+      "text": "Insektenschutzbahn",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.10E",
+      "text": "Winddichtbahn",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.15E",
+      "text": "Offene Schalung Holzstaffel vertikal",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.20B",
+      "text": "Geschlossene Nut-Federschalung horizontal",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.20D",
+      "text": "Geschlossene Holzschalung vertikal m.Deckleiste",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.25B",
+      "text": "Holzschindelfassade m.Holzschindeln",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.30B",
+      "text": "Plattenelemente",
+      "unit": "m²"
+    },
+    {
+      "code": "36.19.35A",
+      "text": "Herstellen Abdeckung Lüftungsgitter b.8cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.19.35B",
+      "text": "Herstellen Abdeckung Lüftungsgitter ü.8-15cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.19.35C",
+      "text": "Herstellen Gebäude-Außenecke stumpf gestoßen                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.19.35D",
+      "text": "Herstellen Gebäude-Außenecke Gehrung                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.19.35E",
+      "text": "Herstellen Gebäude-Innenecke stumpf gestoßen                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.19.35F",
+      "text": "Herstellen Gebäude-Innenecke Gehrung                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.19.35G",
+      "text": "Herstellen Unterkonstruktion Fensterbank                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "36.19.55A",
+      "text": "Az Fassade f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.19.55C",
+      "text": "Az Fassade f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.19.55D",
+      "text": "Az Fassade f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.19.55F",
+      "text": "Az Fassade f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.20.01A",
+      "text": "Holzmassivdecke BSP 10cm 3-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.01C",
+      "text": "Holzmassivdecke BSP 12cm 3-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.01D",
+      "text": "Holzmassivdecke BSP 12cm 5-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.01E",
+      "text": "Holzmassivdecke BSP 14cm 5-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.01F",
+      "text": "Holzmassivdecke BSP 16cm 5-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.01G",
+      "text": "Holzmassivdecke BSP 18cm 5-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.01H",
+      "text": "Holzmassivdecke BSP 20cm 5-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.01I",
+      "text": "Holzmassivdecke BSP 22cm 7-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.01J",
+      "text": "Holzmassivdecke BSP 24cm 7-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.01K",
+      "text": "Holzmassivdecke BSP 26cm 7-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.02X",
+      "text": "Holzmassivdecke BSP",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.30B",
+      "text": "Az Holzmassivdecke BSP f.geneigte Verlegung ü.5-20°",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.30C",
+      "text": "Az Holzmassivdecke BSP f.geneigte Verlegung ü.20-45°",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.30D",
+      "text": "Az Holzmassivdecke BSP f.geneigte Verlegung ü.45-75°",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.31A",
+      "text": "Holzmassivdecke BSP m.geneigter Stirnseite ü.0-45°                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "36.20.35A",
+      "text": "Az Holzmassivdecke BSP f.Oberflächenqualität 2 einseitig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.35B",
+      "text": "Az Holzmassivdecke BSP f.Oberflächenqualität 2 beidseitig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.35C",
+      "text": "Az Holzmassivdecke BSP f.Decklage Decke",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.35D",
+      "text": "Az Holzmassivdecke BSP f.Oberflächenqualität 3 einseitig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.35E",
+      "text": "Az Holzmassivdecke BSP f.Oberflächenqualität 3 beidseitig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.20.43F",
+      "text": "Holzmassivdecke BSP Einlegen von Fugenbänder                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.20.43G",
+      "text": "Holzmassivdecke BSP Schallentkopplung                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "36.20.45A",
+      "text": "Az Deckenverschr.bei erhöhter Anf.BSP-Element-BSP-Element                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "36.20.45B",
+      "text": "Az Deckenverschr.bei erhöhter Anf.BSP-Element-Auflager                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.20.52A",
+      "text": "Holzmassivdecke BSP Installationsschl.offen (werkss.)                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.20.52B",
+      "text": "Holzmassivdecke BSP Installationsschl.geschl.(werkss.)                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.20.52C",
+      "text": "Holzmassivdecke BSP Installationsschl.Dosenbohrung (werkss.)",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.20.55A",
+      "text": "Az D/BSP f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.20.55C",
+      "text": "Az D/BSP f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.20.55D",
+      "text": "Az D/BSP f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.20.55F",
+      "text": "Az D/BSP f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.21.01A",
+      "text": "Holzmassivdecke BSH 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.21.01B",
+      "text": "Holzmassivdecke BSH 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.21.01D",
+      "text": "Holzmassivdecke BSH 14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.21.01E",
+      "text": "Holzmassivdecke BSH 16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.21.01F",
+      "text": "Holzmassivdecke BSH 18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.21.01G",
+      "text": "Holzmassivdecke BSH 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.21.01H",
+      "text": "Holzmassivdecke BSH 22cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.21.02A",
+      "text": "Holzmassivdecke BSH",
+      "unit": "m²"
+    },
+    {
+      "code": "36.21.30B",
+      "text": "Az Holzmassivdecke BSH f.geneigte Verlegung ü.5-20°",
+      "unit": "m²"
+    },
+    {
+      "code": "36.21.30C",
+      "text": "Az Holzmassivdecke BSH f.geneigte Verlegung ü.20-45°",
+      "unit": "m²"
+    },
+    {
+      "code": "36.21.30D",
+      "text": "Az Holzmassivdecke BSH f.geneigte Verlegung ü.45-75°",
+      "unit": "m²"
+    },
+    {
+      "code": "36.21.31A",
+      "text": "Holzmassivdecke BSH m.geneigter Stirnseite ü.0-45°                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "36.21.36B",
+      "text": "Untersicht f.Holzmassivdecke BSH",
+      "unit": "m²"
+    },
+    {
+      "code": "36.21.43F",
+      "text": "Holzmassivdecke BSH Einlegen von Fugenbänder                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.21.43G",
+      "text": "Holzmassivdecke BSH Schallentkopplung                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "36.21.45A",
+      "text": "Az Deckenverschr.bei erhöhter Anf.BSH-Element-BSH-Element                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "36.21.45B",
+      "text": "Az Deckenverschr.bei erhöhter Anf.BSH-Element-Auflager                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.21.52A",
+      "text": "Holzmassivdecke BSH Installationsschl.offen (werkss.)                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.21.52B",
+      "text": "Holzmassivdecke BSH Installationsschl.geschl.(werkss.)                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.21.52C",
+      "text": "Holzmassivdecke BSH Installationsschl.Dosenbohrung (werkss.)",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.21.55A",
+      "text": "Az D/BSH f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.21.55C",
+      "text": "Az D/BSH f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.21.55D",
+      "text": "Az D/BSH f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.21.55F",
+      "text": "Az D/BSH f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.22.01A",
+      "text": "Holzbalkenlage auf Holzkonstruktion",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.01B",
+      "text": "Holzbalkenlage zwischen Holzkonstruktionen",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.03A",
+      "text": "Holzbalkendecke auf Betonunterkonstruktion",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.03B",
+      "text": "Holzbalkendecke zwischen Betonkonstruktion",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.05A",
+      "text": "Holzbalkendecke auf Stahlträgern",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.05B",
+      "text": "Holzbalkendecke zwischen Stahlträgern",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.11C",
+      "text": "Az HB VH f.Holzart",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.12C",
+      "text": "Az HB VH C24 f.höhere Festigkeitsklasse__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.15A",
+      "text": "Az HB VH f.Oberflächenqualität 2",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.15C",
+      "text": "Az HB VH f.Oberfläche gehobelt",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.15D",
+      "text": "Az HB VH f.Oberfläche geschliffen",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.18A",
+      "text": "Az HB VH f.Einschnittart kerngetrennt",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.18B",
+      "text": "Az HB VH f.Einschnittart kerngetrennt u.scharfkantig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.18C",
+      "text": "Az HB VH f.Einschnittart scharfkantig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.18D",
+      "text": "Az HB VH f.Einschnittart kernfrei",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.18E",
+      "text": "Az HB VH f.Einschnittart kernfrei u.scharfkantig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.20A",
+      "text": "Az HB VH f.Konstruktionsvollholz ü.6m",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.22F",
+      "text": "Az HB VH f.Brettschichtholz (BSH)",
+      "unit": "m²"
+    },
+    {
+      "code": "36.22.30A",
+      "text": "Wechselausbildung Befestigungsmittel sichtbar                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.22.30B",
+      "text": "Wechselausbildung Befestigungsmittel verdeckt                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.22.55A",
+      "text": "Az HB f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.22.55C",
+      "text": "Az HB f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.22.55D",
+      "text": "Az HB f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.22.55F",
+      "text": "Az HB f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.23.05B",
+      "text": "Az Rippenplattendecke f.geneigte Verlegung ü.5-20°",
+      "unit": "m²"
+    },
+    {
+      "code": "36.23.05C",
+      "text": "Az Rippenplattendecke f.geneigte Verlegung ü.20-45°",
+      "unit": "m²"
+    },
+    {
+      "code": "36.23.05D",
+      "text": "Az Rippenplattendecke f.geneigte Verlegung ü.45-75°",
+      "unit": "m²"
+    },
+    {
+      "code": "36.23.06A",
+      "text": "Rippenplattendecke m.geneigter Stirnseite ü.0-45°                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.23.11C",
+      "text": "Untersicht Decke f.Rippenplattendecke",
+      "unit": "m²"
+    },
+    {
+      "code": "36.23.12E",
+      "text": "Az Rippenplattendecke f.Stoßausbildung/Stufenfalz",
+      "unit": "m²"
+    },
+    {
+      "code": "36.23.12F",
+      "text": "Az Rippenplattendecke f.besondere Verbindung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.23.13F",
+      "text": "Rippenplattendecke Einlegen von Fugenbänder                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.23.13G",
+      "text": "Rippenplattendecke Schallentkopplung                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "36.23.15A",
+      "text": "Az D.-Verschr.bei erhöhter Anf.Rippenpl.D Element/Element                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "36.23.15B",
+      "text": "Az D.-Verschr.bei erhöhter Anf.Rippenpl.D Element/Auflager                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.23.22A",
+      "text": "Rippenplattendecke Installationsschl.offen (werkss.)                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "36.23.22B",
+      "text": "Rippenplattendecke Installationsschl.geschl.(werkss.)                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "36.23.22C",
+      "text": "Rippenplattendecke Installationsschl.Dosenbohrung (werkss.)",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.23.55A",
+      "text": "Az D/BSP-BSH f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.23.55C",
+      "text": "Az D/BSP-BSH f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.23.55D",
+      "text": "Az D/BSP-BSH f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.23.55F",
+      "text": "Az D/BSP-B f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.24.00A",
+      "text": "Unterstellung f.Holzmassivdecke",
+      "unit": ""
+    },
+    {
+      "code": "36.24.00B",
+      "text": "Unterstellung f.Balkendecke",
+      "unit": ""
+    },
+    {
+      "code": "36.24.00C",
+      "text": "Material für Auflager-/Montageuntergrund - Holz",
+      "unit": ""
+    },
+    {
+      "code": "36.24.00D",
+      "text": "Material für Auflager-/Montageuntergrund - Stahl",
+      "unit": ""
+    },
+    {
+      "code": "36.24.00E",
+      "text": "Material für Auflager-/Montageuntergrund - Beton/mineralisch",
+      "unit": ""
+    },
+    {
+      "code": "36.24.00P",
+      "text": "Prüf- und Dokumentationspflicht AN",
+      "unit": ""
+    },
+    {
+      "code": "36.24.01A",
+      "text": "FT BSP + Bet. 120/80",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.01B",
+      "text": "FT BSP + Bet. 120/100",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.01C",
+      "text": "FT BSP + Bet. 120/120",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.01D",
+      "text": "FT BSP + Bet. 140/80",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.01E",
+      "text": "FT BSP + Bet. 140/100",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.01F",
+      "text": "FT BSP + Bet. 140/120",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.01H",
+      "text": "FT BSP + Bet. 160/80",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.01I",
+      "text": "FT BSP + Bet. 160/100",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.01J",
+      "text": "FT BSP + Bet. 160/120",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.01L",
+      "text": "FT BSP + Bet. 180/100",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.01M",
+      "text": "FT BSP + Bet. 180/120",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.01N",
+      "text": "FT BSP + Bet. 180/140",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.01O",
+      "text": "FT BSP + Bet. 200/100",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.01Q",
+      "text": "FT BSP + Bet. 200/120",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.01S",
+      "text": "FT BSP + Bet. 200/140",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.01T",
+      "text": "FT BSP + Bet.:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.01V",
+      "text": "FT BSP -Bewehrung Stabstahl schlaff bew.",
+      "unit": "kg"
+    },
+    {
+      "code": "36.24.01W",
+      "text": "FT BSP -Bewehrung Matten schlaff bew.",
+      "unit": "kg"
+    },
+    {
+      "code": "36.24.01X",
+      "text": "FT BSP -Bewehrung Spannstahl vorgespannt",
+      "unit": "kg"
+    },
+    {
+      "code": "36.24.07A",
+      "text": "FT BSH + Bet. 220/120",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.07B",
+      "text": "FT BSH + Bet. 240/120",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.07C",
+      "text": "FT BSH + Bet. 260/120",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.07D",
+      "text": "FT BSH + Bet. 280/120",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.07E",
+      "text": "FT BSH + Bet. 320/120",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.07F",
+      "text": "FT BSH + Bet. 360/120",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.07T",
+      "text": "FT BSH + Bet. -__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.07V",
+      "text": "FT BSH -Bewehrung Stabstahl schlaff bew.",
+      "unit": "kg"
+    },
+    {
+      "code": "36.24.07W",
+      "text": "FT BSH -Bewehrung Matten schlaff bew.",
+      "unit": "kg"
+    },
+    {
+      "code": "36.24.07X",
+      "text": "FT BSH -Bewehrung Spannstahl vorgespannt",
+      "unit": "kg"
+    },
+    {
+      "code": "36.24.20C",
+      "text": "HFT-BSP 12cm 3-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.20D",
+      "text": "HFT-BSP 12cm 5-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.20E",
+      "text": "HFT-BSP 14cm 5-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.20F",
+      "text": "HFT-BSP 16cm 5-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.20G",
+      "text": "HFT-BSP 18cm 5-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.20H",
+      "text": "HFT-BSP 20cm 5-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.20I",
+      "text": "HFT-BSP 22cm 7-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.20J",
+      "text": "HFT-BSP 24cm 7-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.20K",
+      "text": "HFT-BSP 26cm 7-lagig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.20M",
+      "text": "HFT-BSP__________",
+      "unit": ""
+    },
+    {
+      "code": "36.24.25C",
+      "text": "HFT-BSH 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.25D",
+      "text": "HFT-BSH 14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.25E",
+      "text": "HFT-BSH 16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.25F",
+      "text": "HFT-BSH 18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.25G",
+      "text": "HFT-BSH 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.25H",
+      "text": "HFT-BSH 22cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.25X",
+      "text": "HFT-BSH__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.26C",
+      "text": "HFT-Brettstapeldecke 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.26D",
+      "text": "HFT-Brettstapeldecke 14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.26E",
+      "text": "HFT-Brettstapeldecke 16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.26F",
+      "text": "HFT-Brettstapeldecke 18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.26G",
+      "text": "HFT-Brettstapeldecke 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.26H",
+      "text": "HFT-Brettstapeldecke 22cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.26X",
+      "text": "HFT-Brettstapeldecke__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.27E",
+      "text": "HFT-VBE-Decke C25/30",
+      "unit": "m³"
+    },
+    {
+      "code": "36.24.27F",
+      "text": "HFT-VBE-Decke C30/37",
+      "unit": "m³"
+    },
+    {
+      "code": "36.24.27V",
+      "text": "HFT-VBE-Bewehrung Stabstahl schlaff bew.",
+      "unit": "kg"
+    },
+    {
+      "code": "36.24.27W",
+      "text": "HFT-VBE-Bewehrung Matten schlaff bew.",
+      "unit": "kg"
+    },
+    {
+      "code": "36.24.27X",
+      "text": "HFT-VBE-Bewehrung Spannstahl vorgespannt",
+      "unit": "kg"
+    },
+    {
+      "code": "36.24.28A",
+      "text": "Kraftschlüssiger Verbund - Verschraubung",
+      "unit": "kg"
+    },
+    {
+      "code": "36.24.28B",
+      "text": "Kraftschlüssiger Verbund - Kerven",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.28E",
+      "text": "Kraftschlüssiger Verbund - Schubbleche",
+      "unit": "kg"
+    },
+    {
+      "code": "36.24.28X",
+      "text": "Kraftschlüssiger Verbund - Ausführung:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.29O",
+      "text": "Aufbeton Decke",
+      "unit": "m³"
+    },
+    {
+      "code": "36.24.29R",
+      "text": "Bewehrung Stabst.",
+      "unit": "kg"
+    },
+    {
+      "code": "36.24.29S",
+      "text": "Bewehrung Matten",
+      "unit": "kg"
+    },
+    {
+      "code": "36.24.30A",
+      "text": "Kraftschlüssiger Verbund - HFT Verschraubung",
+      "unit": "kg"
+    },
+    {
+      "code": "36.24.30F",
+      "text": "Kraftschlüssiger Verbund - HFT Flächenverklebung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.30X",
+      "text": "Kraftschlüssiger Verbund - HFT Ausführung:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.31X",
+      "text": "Elementstoß:__________                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.24.31Y",
+      "text": "Anschlüsse zu anderen Bauteilen:__________                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "36.24.32A",
+      "text": "Holzbalkendecke Querzugverstärkung BSH-Rippe mit VG",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.24.48A",
+      "text": "Az Holzmassivdecke HFT-BSP f.Oberflächenqualität 2 einseitig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.48B",
+      "text": "Az Holzmassivdecke HFT-BSP f.Oberflächenqualität 3 einseitig",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.48C",
+      "text": "Az BSP f. Kantenschrägschnitt gemäß Abbundplan                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "36.24.48F",
+      "text": "Az BSP f.Entfernen Restradien gemäß Abbundplan",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.48G",
+      "text": "Az BSP Verbindungsfalz f.Stoßverbindung gemäß Abbundplan",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.48H",
+      "text": "Az Holzbalkendecke f.Ausf.Sicht-Qualität BSH",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.48I",
+      "text": "Az Holzbalkendecke f.Verschmutzungsschutz BSH",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.48L",
+      "text": "Az Holzbalkendecke Untersicht f.erh. Sichtqualität Stb.",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.48Q",
+      "text": "Az f.überhöhte Ausführung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.48R",
+      "text": "Az Fertigteil f.erh.Anf.Verschraubung - Bauteilverschr.",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.48S",
+      "text": "Az Fertigteil f.erh.Anf.Verschraubung zu Auflager",
+      "unit": "m²"
+    },
+    {
+      "code": "36.24.52A",
+      "text": "BSP Einbauteile E-Verrohr.                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "36.24.52B",
+      "text": "BSP Einbauteile W-Rohre                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "36.24.52D",
+      "text": "BSP Einbau E-Leerdose",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.24.52E",
+      "text": "BSP Einbau E-Verteiler",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.24.52F",
+      "text": "BSP Einbau E-Leerrohr b.25mm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "36.24.53A",
+      "text": "Installationsschlitz in BSP herstellen                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.24.53B",
+      "text": "Installationsschlitz in BSP schließen                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.24.54A",
+      "text": "Werks. Öffnung herstellen b.DN 300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.24.54B",
+      "text": "Werks. Öffnung herstellen ü.DN 300-__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.24.54F",
+      "text": "Werks. Öffnung herstellen rechteckig b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.24.54G",
+      "text": "Werks. Öffnung herstellen rechteckig ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.24.54H",
+      "text": "Werks. Öffnung herstellen rechteckig ü.0,5m2-__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.24.57A",
+      "text": "Fugenbänder                                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "36.24.57B",
+      "text": "Einlegen Elastomerlager                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.24.57C",
+      "text": "Versetzen m.Schallentkopplung                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "36.24.70A",
+      "text": "Az Decken f.geneigte Verlegung ü.5-20°",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.04B",
+      "text": "Decken Anschlüsse verkleben m.Klebebändern                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.25.04C",
+      "text": "Decken Anschlüsse verkleben m.Kleber                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "36.25.04D",
+      "text": "Decken Anschlüsse verkleben auf nicht verputzem MWK                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "36.25.05A",
+      "text": "Deckendämmung MW-WL gerollt 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.05B",
+      "text": "Deckendämmung MW-WL gerollt 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.05C",
+      "text": "Deckendämmung MW-WL gerollt 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.05D",
+      "text": "Deckendämmung MW-WL gerollt 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.05E",
+      "text": "Deckendämmung MW-WL gerollt 14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.05F",
+      "text": "Deckendämmung MW-WL gerollt 16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.05G",
+      "text": "Deckendämmung MW-WL gerollt 18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.05X",
+      "text": "Deckendämmung MW-WL gerollt__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.06A",
+      "text": "Deckendämmung MW-W Platte 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.06B",
+      "text": "Deckendämmung MW-W Platte 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.06C",
+      "text": "Deckendämmung MW-W Platte 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.06D",
+      "text": "Deckendämmung MW-W Platte 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.06E",
+      "text": "Deckendämmung MW-W Platte 14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.06F",
+      "text": "Deckendämmung MW-W Platte 16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.06G",
+      "text": "Deckendämmung MW-W Platte 18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.06X",
+      "text": "Deckendämmung MW-W Platte__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.07A",
+      "text": "Deckendämmung MW-Keil/Klemm 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.07B",
+      "text": "Deckendämmung MW-Keil/Klemm 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.07C",
+      "text": "Deckendämmung MW-Keil/Klemm 14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.07D",
+      "text": "Deckendämmung MW-Keil/Klemm 16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.07E",
+      "text": "Deckendämmung MW-Keil/Klemm 18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.07F",
+      "text": "Deckendämmung MW-Keil/Klemm 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.07X",
+      "text": "Deckendämmung MW-Keil/Klemm__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.09F",
+      "text": "Az Deckendämmung m.MW f.Wärmeleitfähigkeit 0,035W/mK",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.09G",
+      "text": "Az Deckendämmung m.MW f.Wärmeleitfähigkeit 0,032W/mK",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.20A",
+      "text": "Deckendämmung als Einblasdämmung Zellulose",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.20B",
+      "text": "Deckendämmung als Einblasdämmung Glaswolle",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.20C",
+      "text": "Deckendämmung als Einblasdämmung Steinwolle",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.23A",
+      "text": "Deckendämmung als Aufblasdämmung Zellulose",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.23B",
+      "text": "Deckendämmung als Aufblasdämmung Glaswolle",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.23C",
+      "text": "Deckendämmung als Aufblasdämmung Steinwolle",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.25A",
+      "text": "Decke Überdämmung Stahlkonstruktion m.mineral.WD b.6cm                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "36.25.25D",
+      "text": "Decke Überdämmung Stahlkonstruktion m.XPS b.6cm                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "36.25.30A",
+      "text": "Decke Bodendämmelemente",
+      "unit": "m²"
+    },
+    {
+      "code": "36.25.34A",
+      "text": "Abschluss b.Deckenöffnungen                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "36.25.40A",
+      "text": "Decken Kaminummantelung Steinwolle                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "36.25.55A",
+      "text": "Az D/Decke f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.25.55C",
+      "text": "Az D/Decke f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.25.55D",
+      "text": "Az D/Decke f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.25.55F",
+      "text": "Az D/Decke f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.26.01A",
+      "text": "Decke Lattung f.Unterkonstr.VH 4x4/40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.26.01B",
+      "text": "Decke Lattung f.Unterkonstr.VH 5x4/40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.26.01C",
+      "text": "Decke Lattung f.Unterkonstr.VH 5x8/40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.26.03A",
+      "text": "Decke Lattung f.Unterkonstr.VH 4x4/60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.26.03B",
+      "text": "Decke Lattung f.Unterkonstr.VH 5x4/60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.26.03C",
+      "text": "Decke Lattung f.Unterkonstr.VH 5x8/60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.26.15A",
+      "text": "Bekleidung Decke OSB",
+      "unit": "m²"
+    },
+    {
+      "code": "36.26.20A",
+      "text": "Bekleidung Decke profilierte Platten",
+      "unit": "m²"
+    },
+    {
+      "code": "36.26.25A",
+      "text": "Deckensichtschalung N+F 2,4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.26.25C",
+      "text": "Deckensichtschalung Glattkantbrett 2,4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.26.40A",
+      "text": "Bekleidung Decke m.WW 15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.26.40B",
+      "text": "Bekleidung Decke m.WW 25mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.26.40C",
+      "text": "Bekleidung Decke m.WW 35mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.26.40D",
+      "text": "Bekleidung Decke m.WW 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.26.55A",
+      "text": "Az IB/De f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.26.55C",
+      "text": "Az IB/De f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.26.55D",
+      "text": "Az IB/De f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.26.55F",
+      "text": "Az IB/De f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.29.01A",
+      "text": "Blindboden sägerau 2,4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.01B",
+      "text": "Blindboden sägerau 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.01C",
+      "text": "Blindboden gehobelt 2,4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.01D",
+      "text": "Blindboden gehobelt 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.01I",
+      "text": "Blindboden m.Nut-Feder 2,2cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.01J",
+      "text": "Blindboden EI30 m.gehobelten Brettern/Doppelnut",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.03A",
+      "text": "Blindboden OSB 22mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.03B",
+      "text": "Blindboden OSB 25mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.04A",
+      "text": "Az Blindboden OSB m.Nut u.Feder verklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.04B",
+      "text": "Az Blindboden OSB m.Nut u.Feder vollflächig verklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.08A",
+      "text": "Verlegespanplatte P3 Nut u.Feder 16mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.08B",
+      "text": "Verlegespanplatte P3 Nut u.Feder 19mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.08C",
+      "text": "Verlegespanplatte P3 Nut u.Feder 22mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.08D",
+      "text": "Verlegespanplatte P3 Nut u.Feder 25mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.10A",
+      "text": "Verlegespanplatte P4 Nut u.Feder 16mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.10B",
+      "text": "Verlegespanplatte P4 Nut u.Feder 19mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.10C",
+      "text": "Verlegespanplatte P4 Nut u.Feder 22mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.10D",
+      "text": "Verlegespanplatte P4 Nut u.Feder 25mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.12A",
+      "text": "Verlegespanplatte P5 Nut u.Feder 16mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.12B",
+      "text": "Verlegespanplatte P5 Nut u.Feder 19mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.12C",
+      "text": "Verlegespanplatte P5 Nut u.Feder 22mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.12D",
+      "text": "Verlegespanplatte P5 Nut u.Feder 25mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.20A",
+      "text": "Az Verlegespanplatte m.Nut u.Feder verklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.20B",
+      "text": "Az Verlegespanplatte m.Nut u.Feder vollflächig verklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.30A",
+      "text": "Diffusionsoffener Rieselschutz",
+      "unit": "m²"
+    },
+    {
+      "code": "36.29.35A",
+      "text": "Ausgleichsschicht Splitt",
+      "unit": "m³"
+    },
+    {
+      "code": "36.29.35D",
+      "text": "Ausgleichsschicht Perlit",
+      "unit": "m³"
+    },
+    {
+      "code": "36.29.35G",
+      "text": "Ausgleichsschicht",
+      "unit": "m³"
+    },
+    {
+      "code": "36.29.55A",
+      "text": "Az FB f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.29.55C",
+      "text": "Az FB f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.29.55D",
+      "text": "Az FB f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.29.55F",
+      "text": "Az FB f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.30.00A",
+      "text": "Rohbauelement Dachtragwerk/Arbeitshöhe ü.3,2m",
+      "unit": ""
+    },
+    {
+      "code": "36.30.01A",
+      "text": "Steildach Holzkonstruktion-Holzfaser 25,85cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.30.01B",
+      "text": "Steildach Holzkonstruktion-Holzfaser 27,85cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.30.01C",
+      "text": "Steildach Holzkonstruktion-Holzfaser 29,85cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.30.02A",
+      "text": "Steildach UDB Vollsch.-Holzkonstruktion-Holzfaser 26,05cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.30.02B",
+      "text": "Steildach UDB Vollsch.-Holzkonstruktion-Holzfaser 28,05cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.30.02C",
+      "text": "Steildach UDB Vollsch.-Holzkonstruktion-Holzfaser 30,05cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.30.03A",
+      "text": "Flachdach UDBo-Holzf.-Holzkonstruktion 28,45cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.30.03B",
+      "text": "Flachdach UDBo-Holzf.-Holzkonstruktion 30,45cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.30.03C",
+      "text": "Flachdach UDBo-Holzf.-Holzkonstruktion 32,45cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.30.11A",
+      "text": "Rohbauelement Dach Anschluss winddicht verkleben                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "36.30.11B",
+      "text": "Rohbauelement Dach Anschluss winddicht verkleben+Hochzug                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "36.30.15A",
+      "text": "Az Rohbauelement Dach f.ü.45 Grad Neigung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.30.15B",
+      "text": "Az Rohbauelement Dach f.Ichsen                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.30.55A",
+      "text": "Az Rohbau-E.Dach f.Herst./Anarb.Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.30.55B",
+      "text": "Az Rohbau-E.Dach f.Herst./Anarb.Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.30.55C",
+      "text": "Az Rohbau-E.Dach f.Herst./Anarb.Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.30.55D",
+      "text": "Az Rohbau.E.Dach f.Herst./Anarb.Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.32.00A",
+      "text": "Dachtragwerk im Einzelnen/Arbeitshöhe ü.3,2m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.00B",
+      "text": "Dachtragwerk im Einzelnen - Fassadengerüst",
+      "unit": ""
+    },
+    {
+      "code": "36.32.01A",
+      "text": "Konstruktionselement VH MB/FP 12/12                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.01B",
+      "text": "Konstruktionselement VH MB/FP 12/16                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.01C",
+      "text": "Konstruktionselement VH MB/FP 12/20                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.01X",
+      "text": "Konstruktionselement VH MB/FP Dim:__________                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.02A",
+      "text": "Konstruktionselement KVH MB/FP 12/12                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.02B",
+      "text": "Konstruktionselement KVH MB/FP 12/16                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.02C",
+      "text": "Konstruktionselement KVH MB/FP 12/20                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.02X",
+      "text": "Konstruktionselement KVH MB/FP Dim:__________                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.03A",
+      "text": "Konstruktionselement BSH MB/FP 12/12                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.03B",
+      "text": "Konstruktionselement BSH MB/FP 12/16                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.03C",
+      "text": "Konstruktionselement BSH MB/FP 16/20                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.03D",
+      "text": "Konstruktionselement BSH MB/FP 12/20                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.03X",
+      "text": "Konstruktionselement BSH MB/FP Dim:__________                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.04A",
+      "text": "Konstruktionselement VH Sparren 8/12                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.04B",
+      "text": "Konstruktionselement VH Sparren 8/16                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.04C",
+      "text": "Konstruktionselement VH Sparren 8/20                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.04D",
+      "text": "Konstruktionselement VH Sparren 10/14                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.04E",
+      "text": "Konstruktionselement VH Sparren 10/16                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.04G",
+      "text": "Konstruktionselement VH Sparren 10/20                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.04H",
+      "text": "Konstruktionselement VH Sparren 10/24                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.04I",
+      "text": "Konstruktionselement VH Sparren 12/16                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.04J",
+      "text": "Konstruktionselement VH Sparren 12/20                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.04K",
+      "text": "Konstruktionselement VH Sparren 12/24                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.04X",
+      "text": "Konstruktionselement VH Sparren Dim:__________                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.05A",
+      "text": "Konstruktionselement KVH Sparren 8/12                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.05B",
+      "text": "Konstruktionselement KVH Sparren 8/16                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.05C",
+      "text": "Konstruktionselement KVH Sparren 8/20                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.05D",
+      "text": "Konstruktionselement KVH Sparren 10/14                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.05E",
+      "text": "Konstruktionselement KVH Sparren 10/16                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.05G",
+      "text": "Konstruktionselement KVH Sparren 10/20                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.05H",
+      "text": "Konstruktionselement KVH Sparren 10/24                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.05P",
+      "text": "Konstruktionselement KVH Sparren 12/16                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.05Q",
+      "text": "Konstruktionselement KVH Sparren 12/20                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.05R",
+      "text": "Konstruktionselement KVH Sparren 12/24                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.05X",
+      "text": "Konstruktionselement KVH Sparren Dim:__________                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.08I",
+      "text": "Konstruktionselement BSH Sparren 8/12                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.08J",
+      "text": "Konstruktionselement BSH Sparren 8/16                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.08K",
+      "text": "Konstruktionselement BSH Sparren 8/20                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.08L",
+      "text": "Konstruktionselement BSH Sparren 10/14                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.08M",
+      "text": "Konstruktionselement BSH Sparren 10/16                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.08N",
+      "text": "Konstruktionselement BSH Sparren 10/20                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.08O",
+      "text": "Konstruktionselement BSH Sparren 10/24                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.08P",
+      "text": "Konstruktionselement BSH Sparren 12/16                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.08Q",
+      "text": "Konstruktionselement BSH Sparren 12/20                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.08R",
+      "text": "Konstruktionselement BSH Sparren 12/24                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.08X",
+      "text": "Konstruktionselement BSH Sparren Dim:__________                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.09A",
+      "text": "Konstruktionselement VH Pfette 12/16                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.09C",
+      "text": "Konstruktionselement VH Pfette 12/20                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.09E",
+      "text": "Konstruktionselement VH Pfette 12/24                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.09G",
+      "text": "Konstruktionselement VH Pfette 14/14                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.09I",
+      "text": "Konstruktionselement VH Pfette 14/20                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.09K",
+      "text": "Konstruktionselement VH Pfette 14/24                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.09M",
+      "text": "Konstruktionselement VH Pfette 16/16                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.09O",
+      "text": "Konstruktionselement VH Pfette 16/20                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.09Q",
+      "text": "Konstruktionselement VH Pfette 16/24                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.09X",
+      "text": "Konstruktionselement VH Pfette Dim:__________                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.10A",
+      "text": "Konstruktionselement KVH Pfette 12/16                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.10B",
+      "text": "Konstruktionselement KVH Pfette 12/20                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.10C",
+      "text": "Konstruktionselement KVH Pfette 14/14                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.10D",
+      "text": "Konstruktionselement KVH Pfette 14/20                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.10E",
+      "text": "Konstruktionselement KVH Pfette 14/24                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.10G",
+      "text": "Konstruktionselement KVH Pfette 16/16                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.10I",
+      "text": "Konstruktionselement KVH Pfette 16/20                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.10K",
+      "text": "Konstruktionselement KVH Pfette 16/24                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.10X",
+      "text": "Konstruktionselement KVH Pfette Dim:__________                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.12I",
+      "text": "Konstruktionselement BSH Pfette 12/16                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.12J",
+      "text": "Konstruktionselement BSH Pfette 12/20                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.12K",
+      "text": "Konstruktionselement BSH Pfette 12/24                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.12L",
+      "text": "Konstruktionselement BSH Pfette 14/14                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.12M",
+      "text": "Konstruktionselement BSH Pfette 14/20                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.12N",
+      "text": "Konstruktionselement BSH Pfette 14/24                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.12O",
+      "text": "Konstruktionselement BSH Pfette 14/28                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.12P",
+      "text": "Konstruktionselement BSH Pfette 16/16                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.12Q",
+      "text": "Konstruktionselement BSH Pfette 16/20                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.12R",
+      "text": "Konstruktionselement BSH Pfette 16/24                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.12S",
+      "text": "Konstruktionselement BSH Pfette 16/28                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.12X",
+      "text": "Konstruktionselement BSH Pfette Dim:__________                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.13A",
+      "text": "Konstruktionselement VH Säule/Stütze 12/12                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.13G",
+      "text": "Konstruktionselement VH Säule/Stütze 14/14                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.13M",
+      "text": "Konstruktionselement VH Säule/Stütze 16/16                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.13O",
+      "text": "Konstruktionselement VH Säule/Stütze 18/18                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.13Q",
+      "text": "Konstruktionselement VH Säule/Stütze 20/20                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.13X",
+      "text": "Konstruktionselement VH Säule/Stütze Dim:__________                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.14A",
+      "text": "Konstruktionselement KVH Säule/Stütze 12/12                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.14B",
+      "text": "Konstruktionselement KVH Säule/Stütze 14/14                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.14G",
+      "text": "Konstruktionselement KVH Säule/Stütze 16/16                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.14O",
+      "text": "Konstruktionselement KVH Säule/Stütze 18/18                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.14Q",
+      "text": "Konstruktionselement KVH Säule/Stütze 20/20                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.14X",
+      "text": "Konstruktionselement KVH Säule/Stütze Dim:__________                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.16I",
+      "text": "Konstruktionselement BSH Säule/Stütze 12/12                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.16J",
+      "text": "Konstruktionselement BSH Säule/Stütze 14/14                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.16K",
+      "text": "Konstruktionselement BSH Säule/Stütze 16/16                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.16L",
+      "text": "Konstruktionselement BSH Säule/Stütze 18/18                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.16M",
+      "text": "Konstruktionselement BSH Säule/Stütze 20/20                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.16X",
+      "text": "Konstruktionselement BSH Säule/Stütze Dim:__________                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.17A",
+      "text": "Konstruktionselement VH Kopfband 10/10                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.17B",
+      "text": "Konstruktionselement VH Kopfband 12/12                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.17C",
+      "text": "Konstruktionselement VH Kopfband 12/16                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.17G",
+      "text": "Konstruktionselement VH Kopfband 14/14                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.17I",
+      "text": "Konstruktionselement VH Kopfband 14/20                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.17X",
+      "text": "Konstruktionselement VH Kopfband Dim:__________                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.18A",
+      "text": "Konstruktionselement VH Kehlbalken 10/16                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.18C",
+      "text": "Konstruktionselement VH Kehlbalken 10/20                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.18D",
+      "text": "Konstruktionselement VH Kehlbalken 12/16                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.18E",
+      "text": "Konstruktionselement VH Kehlbalken 12/20                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.18X",
+      "text": "Konstruktionselement VH Kehlbalken Dim:__________                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.19A",
+      "text": "Konstruktionselement VH Wechsel 12/16                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.19C",
+      "text": "Konstruktionselement VH Wechsel 12/20                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.19E",
+      "text": "Konstruktionselement VH Wechsel 12/24                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.19G",
+      "text": "Konstruktionselement VH Wechsel 14/14                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.19I",
+      "text": "Konstruktionselement VH Wechsel 14/20                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.19K",
+      "text": "Konstruktionselement VH Wechsel 14/24                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.19L",
+      "text": "Konstruktionselement VH Wechsel 14/28                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.19M",
+      "text": "Konstruktionselement VH Wechsel 16/16                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.19O",
+      "text": "Konstruktionselement VH Wechsel 16/20                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.19Q",
+      "text": "Konstruktionselement VH Wechsel 16/24                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.19R",
+      "text": "Konstruktionselement VH Wechsel 16/28                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.19X",
+      "text": "Konstruktionselement VH Wechsel Dim:__________                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.20A",
+      "text": "Konstruktionselement VH Streben 10/10                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.20B",
+      "text": "Konstruktionselement VH Streben 12/12                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.20C",
+      "text": "Konstruktionselement VH Streben 12/16                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.20G",
+      "text": "Konstruktionselement VH Streben 14/14                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.20I",
+      "text": "Konstruktionselement VH Streben 14/20                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.20X",
+      "text": "Konstruktionselement VH Streben Dim:__________                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.23A",
+      "text": "Sekundärkonstruktion 90° gedreht Kantholz VH 8x8cm                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.23B",
+      "text": "Sekundärkonstruktion 90° gedreht Kantholz VH 8x10cm                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.23C",
+      "text": "Sekundärkonstruktion 90° gedreht Kantholz VH 8x12cm                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.23D",
+      "text": "Sekundärkonstruktion 90° gedreht Kantholz VH 8x14cm                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.23X",
+      "text": "Sekundärkonstruktion 90° gedreht Kantholz VH:__________                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.24A",
+      "text": "Konstruktionselement VH Zange 2,5/14                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.24B",
+      "text": "Konstruktionselement VH Zange 2,5/16                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.24C",
+      "text": "Konstruktionselement VH Zange 2,5/18                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.24D",
+      "text": "Konstruktionselement VH Zange 2,5/20                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.24F",
+      "text": "Konstruktionselement VH Zange 5/14                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.24G",
+      "text": "Konstruktionselement VH Zange 5/16                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.24H",
+      "text": "Konstruktionselement VH Zange 5/18                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.24I",
+      "text": "Konstruktionselement VH Zange 5/20                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.24X",
+      "text": "Konstruktionselement VH Zange:__________                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.25X",
+      "text": "Konstruktionselemente VH Aufschieblinge",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.32.45A",
+      "text": "Dachtragwerk Auflager Elastomer-Lager ub. b.14cm                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.45B",
+      "text": "Dachtragwerk Auflager Elastomer-Lager ub. ü.14cm-20cm                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.45X",
+      "text": "Dachtragwerk Auflager Elastomer-Lager ub. ü.20cm:__________                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.46A",
+      "text": "Dachtragwerk Auflager Elastomer-Lager bew. b.14cm                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.46B",
+      "text": "Dachtragwerk Auflager Elastomer-Lager bew. ü.14cm-20cm                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.46X",
+      "text": "Dachtragwerk Auflager Elastomer-Lager bew. ü.20cm:__________                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.50A",
+      "text": "Az Konstruktionselement VH f.Konstruktionsvollholz                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.51A",
+      "text": "Az Konstruktionselement BSH Festigkeitskl.GL24h OF-Q1                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.51B",
+      "text": "Az Konstruktionselement VH f.BSH Festigkeitskl.GL24h OF-Q2                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.51C",
+      "text": "Az Konstruktionselement VH f.BSH Festigkeitskl.GL28h OF-Q1                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.51D",
+      "text": "Az Konstruktionselement VH f.BSH Festigkeitskl.GL28h OF-Q2                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.51E",
+      "text": "Az Konstruktionselement VH f.BSH Europäische Lärche OF-Q2                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.53A",
+      "text": "Az auf Konstruktionselement Pfette auf Stahlbetonträger                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.53B",
+      "text": "Az auf Konstruktionselement Pfette zwischen Stahlträgern                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.54A",
+      "text": "Az Konstruktionselement VH f.Festigkeitsklasse C27                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.54B",
+      "text": "Az Konstruktionselement VH f.Festigkeitsklasse C30                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.54C",
+      "text": "Az Konstruktionselement VH f.alternative Festigkeitsklasse                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.60A",
+      "text": "Az Konstruktionselement f.Holzart VH Lärche                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.60B",
+      "text": "Az Konstruktionselement f.Holzart VH Buche                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.60C",
+      "text": "Az Konstruktionselement f.alternative Holzart                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.64A",
+      "text": "Az Konstruktionselement VH f.Oberflächenqualität 2                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.64C",
+      "text": "Az Konstruktionselement VH f.Oberfläche gehobelt                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.64D",
+      "text": "Az Konstruktionselement VH f.Oberfläche geschliffen                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.64J",
+      "text": "Az Konstruktionselement VH f.Oberfläche gehobelt u.gefast                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.67A",
+      "text": "Az Konstruktionselement VH f.kerngetrennt                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.67B",
+      "text": "Az Konstruktionselement VH f.kerngetrennt u.scharfkantig                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.67C",
+      "text": "Az Konstruktionselement VH f.scharfkantig                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.67D",
+      "text": "Az Konstruktionselement VH f.kernfrei                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.67E",
+      "text": "Az Konstruktionselement VH f.kernfrei und scharfkantig                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.32.68A",
+      "text": "Az auf Stuhlsäulen/Stützen schräg ausgeführt",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.32.69A",
+      "text": "Az für Zimmermannsmäßige Verbindungen",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.32.69B",
+      "text": "Az für Ingenieursmäßiger Verbindungen höherer Qualität",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.33.01A",
+      "text": "Kanthölzer auf Beton 100/8x8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.33.01B",
+      "text": "Kanthölzer auf Beton 100/10x10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.33.01C",
+      "text": "Kanthölzer auf Beton 100/__________",
+      "unit": "m²"
+    },
+    {
+      "code": "36.33.02A",
+      "text": "Sparrenlage auf Beton 85-100/8x18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.33.02B",
+      "text": "Sparrenlage auf Beton 85-100/8x20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.33.02C",
+      "text": "Sparrenlage auf Beton 85-100/8x22cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.33.02D",
+      "text": "Sparrenlage auf Beton 85-100/8x24cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.33.03A",
+      "text": "Zusätzl.Kantholzlage ü.85-100/8x10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.33.03B",
+      "text": "Zusätzl.Kantholzlage ü.85-100/8x12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.33.03C",
+      "text": "Zusätzl.Kantholzlage ü.85-100/ 8x14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.33.03D",
+      "text": "Zusätzl.Kantholzlage ü.85-100/8x16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.33.10I",
+      "text": "Kantholzkonstr.Auswechslungen f.Öffnungen b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.33.10J",
+      "text": "Kantholzkonstr.Auswechslungen f.Öffnungen ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.33.15A",
+      "text": "Az Kantholzkonstr.f.Gaupendach als Schleppdach",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.33.15B",
+      "text": "Az Kantholzkonstr.f.Gaupendach als Satteldach",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.33.15C",
+      "text": "Az Kantholzkonstr.f.Gaupendach als Walmdach",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.33.15D",
+      "text": "Az Kantholzkonstr.f.Gaupendach",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.33.20E",
+      "text": "Az Kantholzkonstr.f.Anarbeiten an bestehende Bauteile                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "36.35.00A",
+      "text": "Dämmpaket Dach/Arbeitshöhe ü.3,2m",
+      "unit": ""
+    },
+    {
+      "code": "36.35.04B",
+      "text": "Dach Anschlüsse verkleben m.Klebebändern                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "36.35.04C",
+      "text": "Dach Anschlüsse verkleben m.Kleber                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.35.04D",
+      "text": "Dach Anschlüsse verkleben auf nicht verputzem MWK                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.35.05A",
+      "text": "Dachdämmung MW-WL gerollt 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.05B",
+      "text": "Dachdämmung MW-WL gerollt 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.05C",
+      "text": "Dachdämmung MW-WL gerollt 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.05D",
+      "text": "Dachdämmung MW-WL gerollt 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.05E",
+      "text": "Dachdämmung MW-WL gerollt 14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.05F",
+      "text": "Dachdämmung MW-WL gerollt 16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.05G",
+      "text": "Dachdämmung MW-WL gerollt 18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.06A",
+      "text": "Dachdämmung MW-W Platte 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.06B",
+      "text": "Dachdämmung MW-W Platte 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.06C",
+      "text": "Dachdämmung MW-W Platte 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.06D",
+      "text": "Dachdämmung MW-W Platte 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.06E",
+      "text": "Dachdämmung MW-W Platte 14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.06F",
+      "text": "Dachdämmung MW-W Platte 16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.06G",
+      "text": "Dachdämmung MW-W Platte 18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.07A",
+      "text": "Dachdämmung MW-Keil/Klemm 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.07B",
+      "text": "Dachdämmung MW-Keil/Klemm 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.07C",
+      "text": "Dachdämmung MW-Keil/Klemm 14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.07D",
+      "text": "Dachdämmung MW-Keil/Klemm 16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.07E",
+      "text": "Dachdämmung MW-Keil/Klemm 18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.07F",
+      "text": "Dachdämmung MW-Keil/Klemm 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.09F",
+      "text": "Az Dachdämmung m.MW f.Wärmeleitfähigkeit 0,035W/mK",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.09G",
+      "text": "Az Dachdämmung m.MW f.Wärmeleitfähigkeit 0,032W/mK",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.10A",
+      "text": "Leibungen b.Dachöffnungen                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "36.35.20A",
+      "text": "Dachdämmung als Einblasdämmung Zellulose",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.20B",
+      "text": "Dachdämmung als Einblasdämmung Glaswolle",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.20C",
+      "text": "Dachdämmung als Einblasdämmung Steinwolle",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.24A",
+      "text": "Dach Überdämmung Stahlkonstruktion m.mineral.WD b.6cm                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "36.35.24D",
+      "text": "Dach Überdämmung Stahlkonstruktion m.XPS b.6cm                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "36.35.30A",
+      "text": "Aufsparrendämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.30D",
+      "text": "Az Aufsparrendämmung f.verlegen auf dem Sparren",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.30E",
+      "text": "Az Aufsparrendämmung f.verlegen auf dem Sargdeckel",
+      "unit": "m²"
+    },
+    {
+      "code": "36.35.30F",
+      "text": "Az Aufsparrendämmung f.Anarbeiten Grate,Ichsen,First                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.35.30G",
+      "text": "Az Aufsparrendämmung f.Anarbeiten aufgehende Bauteile                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.35.40A",
+      "text": "Dach Kaminummantelung Steinwolle                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.35.55A",
+      "text": "Az D/Dach f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.35.55C",
+      "text": "Az D/Dach f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.35.55D",
+      "text": "Az D/Dach f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.35.55F",
+      "text": "Az D/Dach f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.36.00A",
+      "text": "Innenbekleidungen Dach/Arbeitshöhe ü.3,2m",
+      "unit": ""
+    },
+    {
+      "code": "36.36.01A",
+      "text": "Dach Lattung f.Unterkonstr.VH 4x4cm/40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.01B",
+      "text": "Dach Lattung f.Unterkonstr.VH 5x4cm/40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.01C",
+      "text": "Dach Lattung f.Unterkonstr.VH 5x8cm/40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.03A",
+      "text": "Dach Lattung f.Unterkonstr.VH 4x4cm/60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.03B",
+      "text": "Dach Lattung f.Unterkonstr.VH 5x4cm/60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.03C",
+      "text": "Dach Lattung f.Unterkonstr.VH 5x8cm/60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.15A",
+      "text": "Bekleidung Dach innen m.Mehrschichtpl.",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.20A",
+      "text": "Bekleidung Dach innen m.profilierte Pl.",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.25A",
+      "text": "Sichtschalung N+F 2,4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.25C",
+      "text": "Sichtschalung Glattkantbrett 2,4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.40A",
+      "text": "Bekleidung Dachschräge m.WW 15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.40B",
+      "text": "Bekleidung Dachschräge m.WW 25mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.40C",
+      "text": "Bekleidung Dachschräge m.WW 35mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.40D",
+      "text": "Bekleidung Dachschräge m.WW 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.36.55A",
+      "text": "Az IB/Dach f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.36.55C",
+      "text": "Az IB/Dach f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.36.55D",
+      "text": "Az IB/Dach f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.36.55F",
+      "text": "Az IB/Dach f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.39.00A",
+      "text": "Dachaufbau/Arbeitshöhe ü.3,2m",
+      "unit": ""
+    },
+    {
+      "code": "36.39.01A",
+      "text": "Unterdeckung m.Bitu.-bahn regensicher",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.01B",
+      "text": "Unterdeckung m.Kunstst.-bahn regensicher",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.01C",
+      "text": "Az Unterdeck.m.Bitu.-bahn f.erhöhte Regensicherheit",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.01D",
+      "text": "Az Unterdeck.m.Kunst.-bahn f.erhöhte Regensicherheit",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.02B",
+      "text": "Unterdeckung Kunstst.-bahn regensicher diffusionsoffen (do)",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.02D",
+      "text": "Az Unterdeck.Kunstst.-bahn (do) f.erhöhte Regensicherheit",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.03B",
+      "text": "Unterdeckung Kunstst.-bahn winddicht (do/w)",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.03D",
+      "text": "Az Unterdeck.Kunstst.-bahn (do/w) f.erhöhte Regensicherheit",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.04A",
+      "text": "Unterdach aus Holzwerkstoffplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.10A",
+      "text": "Unterdeckung Anschluss winddicht verkleben                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "36.39.10B",
+      "text": "Unterdeckung Anschluss winddicht verkleben u.Hochzug b.15cm                                            m",
+      "unit": ""
+    },
+    {
+      "code": "36.39.13A",
+      "text": "Az Lattungen f.Nageldichtband",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.20A",
+      "text": "Dachschalung sägerau 2,4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.20B",
+      "text": "Dachschalung sägerau 3 cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.20E",
+      "text": "Dachschalung OSB 22 mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.20H",
+      "text": "Dachschalung MDF Platte 22mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.20I",
+      "text": "Dachschalung gehobelt Nut-Feder 22 mm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.20J",
+      "text": "Dachschalung EI30 gehobelt m.Doppelnut",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.21K",
+      "text": "Feuerschutzplatte EI60",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.21L",
+      "text": "Feuerschutzplatte EI90",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.21M",
+      "text": "Winkelsaumschalung 22mm m.Unterkonstruktion",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.25A",
+      "text": "Az Schalungen f.ü.45 Grad Neigung",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.25C",
+      "text": "Az Traufenschalung f.Mehrschichtplatten                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.39.27A",
+      "text": "Ausgleichslattung 8cm breit",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.28A",
+      "text": "Anschlagbohle f.Dämmung 50mm dick                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "36.39.30A",
+      "text": "Konterlattung Dach 5x8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.30B",
+      "text": "Konterlattung Dach 8x8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.33A",
+      "text": "Konterlattung Dach auf Betonuntergrund 5x8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.33B",
+      "text": "Konterlattung Dach auf Betonuntergrund 8x8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.35A",
+      "text": "Az Konterlattung f.verschrauben",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.35B",
+      "text": "Az Konterlattung f.verschrauben in Sparren",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.35C",
+      "text": "Az Konterlattung f.verschrauben in Aufsparrendämmung/Holz",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.35D",
+      "text": "Az Konterlattung f.verschrauben in Aufsparrendämmung/Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.35E",
+      "text": "Az Konterlattung f.Gegen- u.Quergefälle",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.35F",
+      "text": "Az Konterlattung f.Halbierung d.Achsabstandes",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.35I",
+      "text": "Az Konterlattung gekrümmt",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.40A",
+      "text": "Dachlattung 5x4cm Achse 14-17cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.40B",
+      "text": "Dachlattung 5x4cm Achse ü.17-20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.40C",
+      "text": "Dachlattung 5x4cm Achse ü.20-30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.40D",
+      "text": "Dachlattung 5x4cm Achse ü.30-39cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.40E",
+      "text": "Dachlattung 5x4cm Achse ü.39-45cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.43B",
+      "text": "Dachlattung 6x4cm Achse 17-20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.43C",
+      "text": "Dachlattung 6x4cm Achse ü.20-30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.43D",
+      "text": "Dachlattung 6x4cm Achse ü.30-39cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.43E",
+      "text": "Dachlattung 6x4cm Achse ü.39-45cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.48A",
+      "text": "Az f.d.Zwischenlatt.d.Halbierung Achsabstand",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.50A",
+      "text": "Untersichtverkl.auf UK m.gehobelten Brettern 2,4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.50B",
+      "text": "Untersichtverkl.auf UK",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.55A",
+      "text": "Az DB f.Ausschneiden/Anarbeiten Öff./Durchf.b.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.39.55C",
+      "text": "Az DB f.Ausschneiden/Anarbeiten Öff./Durchf.ü.DN300",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.39.55D",
+      "text": "Az DB f.Ausschneiden/Anarbeiten Öff./Durchf.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.39.55F",
+      "text": "Az DB f.Ausschneiden/Anarbeiten Öff./Durchf.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.39.56A",
+      "text": "Schalung Traufen-u.Ortgangblende VH b.30cm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "36.39.56B",
+      "text": "Schalung Traufen-u.Ortgangblende VH ü.30-50cm                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "36.39.57A",
+      "text": "Staubbrett zw.Sparren gehobelt b.20cm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.39.57C",
+      "text": "Staubschalung zw.Sparren gehobelt N+F b.30cm                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "36.39.60C",
+      "text": "Abdeckungen m.Mehrschichtplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.60H",
+      "text": "Az Abdeckung f.Einlegen Mineralwolle wasserabweisend b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.60J",
+      "text": "Az Abdeckung f.Einlegen XPS-Platten b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "36.39.62A",
+      "text": "Unterkonstruktion f.Kastenrinnen                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "36.39.65A",
+      "text": "Firstentlüftung m.Unterkonstruktion                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "36.39.65B",
+      "text": "Firstentlüft.pultdachförmig                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "36.39.91A",
+      "text": "Az Dachaufbau f.Ichsen                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.39.93H",
+      "text": "Az Konterlattung b.Dachneigung über 45 Grad",
+      "unit": "m²"
+    },
+    {
+      "code": "36.45.03A",
+      "text": "Träger VH Querschnitt rechteckig (bxh):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.03B",
+      "text": "Träger VH Querschnitt kreisförmig d:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.05A",
+      "text": "Träger VH Querschnitt rechteckig Konstruktions-Vh__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.22A",
+      "text": "Az VH f.Holzart Lärche",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.22B",
+      "text": "Az VH f.Holzart Buche",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.23A",
+      "text": "Az VH f.Festigkeitsklasse C27",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.23B",
+      "text": "Az VH f.Festigkeitsklasse C30",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.24A",
+      "text": "Az VH f.Oberflächenqualität 2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.24C",
+      "text": "Az VH f.Oberfläche gehobelt",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.24D",
+      "text": "Az VH f.Oberfläche geschliffen",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.25A",
+      "text": "Az VH f.kerngetrennt",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.25B",
+      "text": "Az VH f.kerngetrennt scharfkantig",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.25C",
+      "text": "Az VH f.scharfkantig",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.25D",
+      "text": "Az VH f.kernfrei",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.25E",
+      "text": "Az VH f.kernfrei und scharfkantig",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.28A",
+      "text": "Träger/Stütze BSH Querschnitt rechteckig (bxh):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.28B",
+      "text": "Stütze BSH Querschnitt kreisförmig d:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.30A",
+      "text": "Vollwand-Träger gerade BSH Parallelträger (bxh):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.30B",
+      "text": "Vollwand-Träger gebogen BSH Parallelträger (bxh):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.30C",
+      "text": "Vollwand-Träger trapezförmig BSH Pultdachträger__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.31A",
+      "text": "Vollwand-Träger gerade BSH Satteldachträger__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.31B",
+      "text": "Vollwand-Träger gebogen BSH Satteldachträger__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.31C",
+      "text": "Vollwand-Träger trapezförmig BSH Fischbauchträger__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.35A",
+      "text": "Fachwerk-Träger gerade BSH__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.35B",
+      "text": "Fachwerk-Träger gebogen BSH__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.35C",
+      "text": "Fachwerk-Träger trapezförmig BSH__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.51A",
+      "text": "Az Stütze/Träger BSH f.Holzart Lärche",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.51B",
+      "text": "Az Stütze/Träger BSH f.Holzart Buche",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.52A",
+      "text": "Az Stütze/Träger BSH f.Festigkeitsklasse GL28h",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.52B",
+      "text": "Az Stütze/Träger BSH f.Festigkeitsklasse GL28c",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.52C",
+      "text": "Az Stütze/Träger BSH f.Festigkeitsklasse GL30h",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.52D",
+      "text": "Az Stütze/Träger BSH f.Festigkeitsklasse GL30c",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.52E",
+      "text": "Az Stütze/Träger BSH f.Festigkeitsklasse GL32h",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.52F",
+      "text": "Az Stütze/Träger BSH f.Festigkeitsklasse GL32c",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.53A",
+      "text": "Az Stütze/Träger BSH f.Oberflächenqualität 2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.53C",
+      "text": "Az Stütze/Träger BSH f.Oberfläche gehobelt",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.53D",
+      "text": "Az Stütze/Träger BSH f.Oberfläche geschliffen",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.54B",
+      "text": "Az Stütze/Träger BSH f.Querschnitt blockverklebt",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.55A",
+      "text": "Az Stütze/Träger BSH f.DB eckig/schräg Gewindestange",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.55B",
+      "text": "Az Stütze/Träger BSH f.DB eckig/schräg VG-Schraube",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.55C",
+      "text": "Az Stütze/Träger BSH f.DB rund Gewindestange",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.55D",
+      "text": "Az Stütze/Träger BSH f.DB rund VG-Schraube",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.55E",
+      "text": "Az Stütze/Träger BSH f.Ausklink.eckig/schräg Gewindestange",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.55F",
+      "text": "Az Stütze/Träger BSH f.Ausklink.eckig/schräg VG-Schraube",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.55G",
+      "text": "Az Stütze/Träger BSH f.Querzugverstärkung Gewindestange",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.55H",
+      "text": "Az Stütze/Träger BSH f.Querzugverstärkung VG-Schraube",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.55I",
+      "text": "Az Stütze/Träger BSH f.Pressflächenverstärk.Gewindestange",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.55J",
+      "text": "Az Stütze/Träger BSH f.Pressflächenverstärk.VG-Schrauben",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.55K",
+      "text": "Az Stütze/Träger BSH f.Verstärkungsmaßn.aufgekl.Holzwerkst.",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.59A",
+      "text": "Az Träger BSH f.Querschnitt überhöht",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.61A",
+      "text": "Holztragwerke Auflager Elastomer-Lager unbewehrt__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.45.61B",
+      "text": "Holztragwerke Auflager Elastomer-Lager bewehrt__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.50.01A",
+      "text": "Einbauteile nicht geschweißt ü.1kg",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.65.03A",
+      "text": "Terrassendielen aus WPC",
+      "unit": "m²"
+    },
+    {
+      "code": "36.65.04A",
+      "text": "Vertikale,seitliche Bekleidung                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.65.05A",
+      "text": "Az Terrassendielen f.Kunststoffauflager",
+      "unit": "m²"
+    },
+    {
+      "code": "36.65.05B",
+      "text": "Az Terrassendielen f.Aufständerung Distanzf.verzinkt",
+      "unit": "m²"
+    },
+    {
+      "code": "36.65.05C",
+      "text": "Az Terrassendielen f.Aufständerung Distanzf.Edelstahl",
+      "unit": "m²"
+    },
+    {
+      "code": "36.65.05D",
+      "text": "Az Terrassendielen f.Niveauausgleich Kunststoff",
+      "unit": "m²"
+    },
+    {
+      "code": "36.65.07B",
+      "text": "Trennlage, UV-Schutzvlies 200g/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "36.65.08B",
+      "text": "Terrassendielen f.gekrümmte Abschnitte                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "36.65.09A",
+      "text": "Einbau diverser Bauteile",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.65.09B",
+      "text": "Einbau Bodenleuchten",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.65.10A",
+      "text": "Wartungsöffnungen b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.65.10B",
+      "text": "Wartungsöffnungen ü.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.70.01A",
+      "text": "Lattenzaun sägerau Lärche 3x5cm b.1m",
+      "unit": "m²"
+    },
+    {
+      "code": "36.70.01B",
+      "text": "Lattenzaun sägerau Lärche 3x5cm ü.1-1,5m",
+      "unit": "m²"
+    },
+    {
+      "code": "36.70.01C",
+      "text": "Lattenzaun sägerau Lärche 3x5cm ü.1,5-2m",
+      "unit": "m²"
+    },
+    {
+      "code": "36.70.01E",
+      "text": "Lattenzaun gehobelt Lärche 2,4x5cm ü.0,6-1m",
+      "unit": "m²"
+    },
+    {
+      "code": "36.70.01F",
+      "text": "Lattenzaun gehobelt Lärche 2,4x5cm ü.1-1,5m",
+      "unit": "m²"
+    },
+    {
+      "code": "36.70.01G",
+      "text": "Lattenzaun gehobelt Lärche 2,4x5cm ü.1,5-2m",
+      "unit": "m²"
+    },
+    {
+      "code": "36.70.02A",
+      "text": "Plankenzaun sägerau Lärche 2,4cm b.1,5m",
+      "unit": "m²"
+    },
+    {
+      "code": "36.70.02B",
+      "text": "Plankenzaun sägerau Lärche 2,4cm ü.1,5-2m",
+      "unit": "m²"
+    },
+    {
+      "code": "36.70.02D",
+      "text": "Plankenzaun gehob.Lärche 2,4cm ü.1-1,5m",
+      "unit": "m²"
+    },
+    {
+      "code": "36.70.02E",
+      "text": "Plankenzaun gehob.Lärche 2,4cm ü.1,5-2m",
+      "unit": "m²"
+    },
+    {
+      "code": "36.70.03B",
+      "text": "Holzzaunsäule m.Stahlschuh auf Betonsockel",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.70.05A",
+      "text": "Az Holzzaun f.Tür b.1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.70.05B",
+      "text": "Az Holzzaun f.Tor b.2,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.75.18A",
+      "text": "Klapptreppe EI30 b.2,7m 0,7x1,2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.75.18B",
+      "text": "Klapptreppe EI30 b.2,7m 0,7x1,3m",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.75.18C",
+      "text": "Klapptreppe EI30 b.2,7m 0,7x1,4m",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.75.18D",
+      "text": "Klapptreppe EI30 b.2,7m",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.75.20A",
+      "text": "Az Klapptreppe EI30 f.EI60",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.75.20B",
+      "text": "Az Klapptreppe EI30 f.EI90",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.75.22A",
+      "text": "Geländer um Klapptreppe 1m                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "36.75.30A",
+      "text": "Bekleidung Dachaus-u.Einstieg b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.75.36A",
+      "text": "Laufstege f.nicht begehbare Dachböden                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.75.38A",
+      "text": "Blindstock f.Dachflächenfenster 55x78cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.75.38B",
+      "text": "Blindstock f.Dachflächenfenster 74/78x98cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.75.38C",
+      "text": "Blindstock f.Dachflächenfenster 74/78x118cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.75.38D",
+      "text": "Blindstock f.Dachflächenfenster 74/78x140cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.75.38E",
+      "text": "Blindstock f.Dachflächenfenster 94x140cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.75.38X",
+      "text": "Blindstock f.Dachflächenfenster",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.80.02A",
+      "text": "Auswechslung Sparren b.10x16cm                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.80.02C",
+      "text": "Auswechslung Pfetten b.16x22cm                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "36.80.02E",
+      "text": "Auswechslung Säulen b.16x16cm                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "36.80.02G",
+      "text": "Auswechslung Mauerbank b.16x16cm                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "36.80.02I",
+      "text": "Auswechslung Bundtram b.16x24cm                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "36.80.03A",
+      "text": "Verstärken Dachkonstruktion m.Pfosten 5/20cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "36.80.03B",
+      "text": "Verstärken Sparren m.Pfosten 5/25cm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "36.80.04A",
+      "text": "Befestigung bestehender Fußpfette im Drempel",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.80.05A",
+      "text": "Befestigung bestehender Sparren auf Fuß-u.Mittelpfette",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.80.07A",
+      "text": "Erneuern Dachlattungen                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "36.80.07B",
+      "text": "Erneuern Wandlattungen                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "36.80.10A",
+      "text": "Erneuern Dach-Konterlattungen b.5x8cm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "36.80.10B",
+      "text": "Erneuern Wand-Konterlattungen b.5x8cm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "36.80.13A",
+      "text": "Instandsetzen Dachschalungen",
+      "unit": "m²"
+    },
+    {
+      "code": "36.80.13B",
+      "text": "Instandsetzen Saum-u.Ichsenschalungen",
+      "unit": "m²"
+    },
+    {
+      "code": "36.80.30A",
+      "text": "Bestandsdach/Einbau Gaupe m.Schleppdach",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.80.30B",
+      "text": "Bestandsdach/Einbau Gaupe m.Satteldach",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.80.30C",
+      "text": "Bestandsdach/Einbau Gaupe m.Walmdach",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.80.30D",
+      "text": "Bestandsdach/Einbau Gaupe",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.80.50A",
+      "text": "Dachbodenrinne                                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "36.80.51A",
+      "text": "Rinnenkesselverschalung 50x50x60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "36.80.52A",
+      "text": "Stufe über Dachbodenrinne u.Bundtram                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "36.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "36.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "36.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

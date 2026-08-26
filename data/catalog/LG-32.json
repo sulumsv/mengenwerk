@@ -1,0 +1,1426 @@
+{
+  "lg": "32",
+  "title": "Konstruktiver Stahlbau",
+  "positions": [
+    {
+      "code": "32.00.01A",
+      "text": "Vermessung/Bezugssystem vom AG",
+      "unit": ""
+    },
+    {
+      "code": "32.00.01D",
+      "text": "Zufahrt zur Baustelle",
+      "unit": ""
+    },
+    {
+      "code": "32.00.01E",
+      "text": "Montagebereich",
+      "unit": ""
+    },
+    {
+      "code": "32.00.01F",
+      "text": "Transport- und Hubmöglichkeiten",
+      "unit": ""
+    },
+    {
+      "code": "32.00.02A",
+      "text": "Leistungsetappen/Leistungsunterbrechungen",
+      "unit": ""
+    },
+    {
+      "code": "32.01.01A",
+      "text": "Stahlkonstruktion funktional                                                                                       PA",
+      "unit": ""
+    },
+    {
+      "code": "32.01.11A",
+      "text": "Stahlkonstruktion AG/kg",
+      "unit": "kg"
+    },
+    {
+      "code": "32.01.12A",
+      "text": "Stahlkonstruktion AG/ST",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.01.13A",
+      "text": "Stahlkonstruktion AG/m                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "32.01.14A",
+      "text": "Stahlkonstruktion AG/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "32.01.15A",
+      "text": "Stahlkonstruktion AG/Pauschale                                                                                        PA",
+      "unit": ""
+    },
+    {
+      "code": "32.02.01A",
+      "text": "Werkstattzeichnungen AN                                                                                               PA",
+      "unit": ""
+    },
+    {
+      "code": "32.02.01B",
+      "text": "Konstrukt.- u.Werkstattzeichnungen AN                                                                                 PA",
+      "unit": ""
+    },
+    {
+      "code": "32.02.01C",
+      "text": "Übersicht,Konstrukt.u.Werkstattzeichnung.AN                                                                           PA",
+      "unit": ""
+    },
+    {
+      "code": "32.03.01B",
+      "text": "Profil b.40kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.01C",
+      "text": "Profil ü.40-100kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.01X",
+      "text": "Profil ü.100kg/m-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.02A",
+      "text": "Profil HEM b.40kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.02B",
+      "text": "Profil HEM ü.40-100kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.02X",
+      "text": "Profil HEM ü.100kg/m-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.11A",
+      "text": "Profil zsg.b.50kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.11B",
+      "text": "Profil zsg.ü.50-120kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.11X",
+      "text": "Profil zsg.ü.120kg/m-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.21A",
+      "text": "Hohlprofil b.10kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.21B",
+      "text": "Hohlprofil ü.10-40kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.21X",
+      "text": "Hohlprofil ü.40kg/m-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.31A",
+      "text": "Kaltgeformtes Profil gerollt                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "32.03.33A",
+      "text": "Kaltgeformtes Profil gekantet",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.41A",
+      "text": "Ankerteile liefern,geschw.b.10kg/ST",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.41B",
+      "text": "Ankerteile liefern,geschw.ü.10-20kg/ST",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.41C",
+      "text": "Ankerteile liefern,geschw.ü.20-50kg/ST",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.41X",
+      "text": "Ankerteile liefern,geschw.ü.50kg/ST-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.42A",
+      "text": "Ankerteile liefern,verschr.b.10kg/ST",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.42B",
+      "text": "Ankerteile liefern,verschr.ü.10-20kg/ST",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.42C",
+      "text": "Ankerteile liefern,verschr.ü.20-50kg/ST",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.42X",
+      "text": "Ankerteile liefern,verschr.ü.50kg/ST-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.43A",
+      "text": "Az Ankerteile versetzen b.10kg/ST",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.43B",
+      "text": "Az Ankerteile versetzen ü.10-20kg/ST",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.43C",
+      "text": "Az Ankerteile versetzen ü.20-50kg/ST",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.43X",
+      "text": "Az Ankerteile versetzen ü.50kg/ST-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.51A",
+      "text": "Schweißgründe liefern b.10kg/ST",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.51B",
+      "text": "Schweißgründe liefern ü.10-20kg/ST",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.51C",
+      "text": "Schweißgründe liefern ü.20-50kg/ST",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.51X",
+      "text": "Schweißgründe liefern ü.50kg/ST-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.52A",
+      "text": "Az Schweißgründe versetzen b.10kg/ST",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.52B",
+      "text": "Az Schweißgründe versetzen ü.10-20kg/ST",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.52C",
+      "text": "Az Schweißgründe versetzen ü.20-50kg/ST",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.52X",
+      "text": "Az Schweißgründe versetzen ü.50kg/ST-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.03.61A",
+      "text": "Dübel",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.03.63A",
+      "text": "Ver- und Unterguss                                                                                                   l",
+      "unit": ""
+    },
+    {
+      "code": "32.04.01A",
+      "text": "Fachwerkträger parallel b.2,4m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.04.01X",
+      "text": "Fachwerkträger parallel ü.2,4m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.04.03A",
+      "text": "Fachwerkträger variabel b.2,4m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.04.03X",
+      "text": "Fachwerkträger variabel ü.2,4m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.04.05A",
+      "text": "Fachwerkträger stabweise geschraubt b.2,4m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.04.05X",
+      "text": "Fachwerkträger stabweise geschraubt ü.2,4m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.04.07A",
+      "text": "Fachwerkträger stabweise geschweißt b.2,4m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.04.07X",
+      "text": "Fachwerkträger stabweise geschweißt ü.2,4m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.04.11A",
+      "text": "Fachwerkträger eben n.W.AN/ST",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.04.11B",
+      "text": "Fachwerkträger eben n.W.AN/m                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "32.04.21A",
+      "text": "Fachwerkträger räuml.Angaben AG",
+      "unit": "kg"
+    },
+    {
+      "code": "32.04.21B",
+      "text": "Fachwerkträger räuml.Angaben AN                                                                           PA",
+      "unit": ""
+    },
+    {
+      "code": "32.05.01A",
+      "text": "Schweißprofil b.3tg.b.70kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.05.01B",
+      "text": "Schweißprofil b.3tg.ü.70-120kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.05.01X",
+      "text": "Schweißprofil b.3tg.ü.120kg/m-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.05.02A",
+      "text": "Sonderschweißprofil b.120kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.05.02B",
+      "text": "Sonderschweißprofil.ü.120-200kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.05.02X",
+      "text": "Sonderschweißprofil ü.200kg/m-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.05.03A",
+      "text": "Schweißprofile Kastenform b.70kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.05.03B",
+      "text": "Schweißprofile Kastenform ü.70-120kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.05.03X",
+      "text": "Schweißprofile Kastenform ü.120kg/m-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.05.04A",
+      "text": "Schweißprofile Kastenform SPr.b.70kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.05.04B",
+      "text": "Schweißprofile Kastenform SPr.ü.70-120kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.05.04X",
+      "text": "Schweißprofile Kastenform SPr.ü.120kg/m-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.05.05A",
+      "text": "Schweißprofil Auslegung AN/m                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "32.05.05B",
+      "text": "Schweißprofil Auslegung AN/ST",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.05.05X",
+      "text": "Schweißprofil Auslegung AN/Pauschale                                                                                  PA",
+      "unit": ""
+    },
+    {
+      "code": "32.06.01A",
+      "text": "Rahmenart.Tragw.räuml.Angaben AG",
+      "unit": "kg"
+    },
+    {
+      "code": "32.06.01B",
+      "text": "Rahmenart.Tragw.räuml.Angaben AN                                                                                      PA",
+      "unit": ""
+    },
+    {
+      "code": "32.07.01A",
+      "text": "Kranbahnträger WProf.b.70kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.01B",
+      "text": "Kranbahnträger WProf.ü.70-150kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.01C",
+      "text": "Kranbahnträger WProf.ü.150kg/m-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.02A",
+      "text": "Kranbahnträger gschw.Prof.b.70kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.02B",
+      "text": "Kranbahnträger gschw.Prof.ü.70-150kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.02C",
+      "text": "Kranbahnträger gschw.Prof.ü.150kg/m-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.03A",
+      "text": "Kranbahnträger gschw./gek.OG b.70kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.03B",
+      "text": "Kranbahnträger gschw./gek.OG 70-150kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.03C",
+      "text": "Kranbahnträger gschw./gek.OG ü.150kg/m-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.04A",
+      "text": "Seitenstoßverband fachwerkförmig geschraubt",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.04B",
+      "text": "Seitenstoßverband fachwerkförmig geschweißt",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.04C",
+      "text": "Seitenstoßverband Sonderform",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.05A",
+      "text": "Kranschiene FL b.20kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.05B",
+      "text": "Kranschiene FL ü.20-50kg/m",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.05C",
+      "text": "Kranschiene FL ü.50kg/m-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.06A",
+      "text": "Profilschiene Klemmplatte 1tlg.",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.06B",
+      "text": "Profilschiene Klemmplatte mehrtlg.",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.06C",
+      "text": "Profilschiene Profil u.Klemmplatte",
+      "unit": "kg"
+    },
+    {
+      "code": "32.07.08A",
+      "text": "Elast.Unterl.f.Kranschienen b.100mm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "32.07.08B",
+      "text": "Elast.Unterl.f.Kranschienen ü.100-175mm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "32.07.08C",
+      "text": "Elast.Unterl.f.Kranschienen ü.175-220mm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "32.08.01A",
+      "text": "Kopfbolzen Werk",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.08.01B",
+      "text": "Kopfbolzen Baustelle",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.08.02A",
+      "text": "Schenkeldübel 80mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.08.02X",
+      "text": "Schenkeldübel__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.08.03A",
+      "text": "Trapezblech",
+      "unit": "m²"
+    },
+    {
+      "code": "32.08.04A",
+      "text": "Randabschluss stirnseitig                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "32.08.04D",
+      "text": "Randabschluss längsseitig                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "32.08.05A",
+      "text": "Prov.Unterstellung Stahlkonstruktion",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.08.06A",
+      "text": "Prov.Unterstellung Trapezblech                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "32.08.11A",
+      "text": "Verbundträger f.Kammerbeton Angaben AG",
+      "unit": "kg"
+    },
+    {
+      "code": "32.08.12A",
+      "text": "Verbundträger f.Kammerbeton Angaben AN",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.08.15A",
+      "text": "Az f.Überhöhung Verbundträger",
+      "unit": "kg"
+    },
+    {
+      "code": "32.08.21A",
+      "text": "Verbundstütze f.Kammerbeton Angaben AG",
+      "unit": "kg"
+    },
+    {
+      "code": "32.08.22A",
+      "text": "Verbundstütze f.Kammerbeton Angaben AN",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.08.31A",
+      "text": "Verbundstütze Mantel Angaben AG",
+      "unit": "kg"
+    },
+    {
+      "code": "32.08.32A",
+      "text": "Verbundstütze Mantel Angaben AN",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.11.01A",
+      "text": "LSt.Geländer gerade mehrtlg.f.Bühnen                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "32.11.01B",
+      "text": "LSt.Geländer schräg mehrtlg.f.Stiegenläufe                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "32.11.02A",
+      "text": "Rohr-Geländer gerade mehrtlg.f.Bühnen                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "32.11.02B",
+      "text": "Rohr-Geländer schräg mehrtlg.f.Stiegenläufe                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "32.11.03A",
+      "text": "Tränenblechabdeckung geschweißt unverrippt",
+      "unit": "m²"
+    },
+    {
+      "code": "32.11.03B",
+      "text": "Tränenblechabdeckung geschweißt verrippt",
+      "unit": "m²"
+    },
+    {
+      "code": "32.11.03C",
+      "text": "Tränenblechabdeckung geschraubt unverrippt",
+      "unit": "m²"
+    },
+    {
+      "code": "32.11.03D",
+      "text": "Tränenblechabdeckung geschraubt verrippt",
+      "unit": "m²"
+    },
+    {
+      "code": "32.11.03E",
+      "text": "Az Tränenblechabdeckung f.Sonderform",
+      "unit": "m²"
+    },
+    {
+      "code": "32.11.04A",
+      "text": "Trittstufe mehrmals gekantet",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.11.05A",
+      "text": "Gitterrost/Schweiß-PRverzinkt",
+      "unit": "m²"
+    },
+    {
+      "code": "32.11.05B",
+      "text": "Gitterrost/PR verzinkt",
+      "unit": "m²"
+    },
+    {
+      "code": "32.11.05C",
+      "text": "Az Gitterrost f.Sonderform",
+      "unit": "m²"
+    },
+    {
+      "code": "32.11.06A",
+      "text": "Gitterrost-Trittstufen/Schweiß-PR verzinkt",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.11.06B",
+      "text": "Gitterrost-Trittstufen/PR verzinkt",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.11.07A",
+      "text": "Az Gitterroste f.Ausschnitte b.0,01m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.11.07B",
+      "text": "Az Gitterroste f.Ausschnitte ü.0,01m2                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "32.11.07C",
+      "text": "Az Gitterroste f.Ausschnitte+Einfassen                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "32.11.08A",
+      "text": "Leiteraufstieg LSt.ohne Rückenschutz                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "32.11.08B",
+      "text": "Leiteraufstieg LSt.mit Rückenschutz                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "32.11.08C",
+      "text": "Leiteraufstieg Rohr ohne Rückenschutz                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "32.11.08D",
+      "text": "Leiteraufstieg Rohr mit Rückenschutz                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "32.11.09A",
+      "text": "Zwischenpodest außen b.1,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.11.09B",
+      "text": "Klapppodest außen b.0,6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.11.10A",
+      "text": "Ausstieg+Geländer+Schranke",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.11.10B",
+      "text": "Ausstieg+Überstieg+Schranke",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.11.10C",
+      "text": "Az Ausstieg f.Einstiegsbeschränkung",
+      "unit": "Stk"
+    },
+    {
+      "code": "32.11.11A",
+      "text": "Treppenwange U-Profil",
+      "unit": "kg"
+    },
+    {
+      "code": "32.11.11B",
+      "text": "Treppenwange Kantwinkel",
+      "unit": "kg"
+    },
+    {
+      "code": "32.11.11C",
+      "text": "Treppenwange Flachstahl 250x15mm",
+      "unit": "kg"
+    },
+    {
+      "code": "32.11.11D",
+      "text": "Treppenwange Flachstahl",
+      "unit": "kg"
+    },
+    {
+      "code": "32.12.01A",
+      "text": "Stahlbl.Konstruktion eben 3-4,9mm",
+      "unit": "kg"
+    },
+    {
+      "code": "32.12.01B",
+      "text": "Stahlbl.Konstruktion eben 5-8mm",
+      "unit": "kg"
+    },
+    {
+      "code": "32.12.01X",
+      "text": "Stahlbl.Konstruktion eben ü.8mm-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.12.02A",
+      "text": "Stahlbl.Konstruktion eben/verrippt 3-4,9mm",
+      "unit": "kg"
+    },
+    {
+      "code": "32.12.02B",
+      "text": "Stahlbl.Konstruktion eben/verrippt 5-8mm",
+      "unit": "kg"
+    },
+    {
+      "code": "32.12.02X",
+      "text": "Stahlbl.Konstruktion eben/verrippt ü.8mm-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.12.03A",
+      "text": "Stahlbl.Konstruktion gerollt 3-4,9mm",
+      "unit": "kg"
+    },
+    {
+      "code": "32.12.03B",
+      "text": "Stahlbl.Konstruktion gerollt 5-8mm",
+      "unit": "kg"
+    },
+    {
+      "code": "32.12.03X",
+      "text": "Stahlbl.Konstruktion gerollt ü.8mm-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.12.04A",
+      "text": "Stahlbl.Konstruktion ger/verrippt 3-4,9mm",
+      "unit": "kg"
+    },
+    {
+      "code": "32.12.04B",
+      "text": "Stahlbl.Konstruktion ger/verrippt 5-8mm",
+      "unit": "kg"
+    },
+    {
+      "code": "32.12.04X",
+      "text": "Stahlbl.Konstruktion ger/verrippt ü.8mm-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "32.21.01A",
+      "text": "Entrostung St 2",
+      "unit": "m²"
+    },
+    {
+      "code": "32.21.01D",
+      "text": "Strahlentrostung Sa 2 1/2",
+      "unit": "m²"
+    },
+    {
+      "code": "32.21.01E",
+      "text": "Sweep-Strahlen",
+      "unit": "m²"
+    },
+    {
+      "code": "32.21.02A",
+      "text": "Erste Grundbeschichtung Werk",
+      "unit": "m²"
+    },
+    {
+      "code": "32.21.03A",
+      "text": "Zweite Grundbeschichtung Werk",
+      "unit": "m²"
+    },
+    {
+      "code": "32.21.03B",
+      "text": "Zwischenbeschichtung(en) Werk",
+      "unit": "m²"
+    },
+    {
+      "code": "32.21.04A",
+      "text": "Erste Deckbeschichtung Werk",
+      "unit": "m²"
+    },
+    {
+      "code": "32.21.04B",
+      "text": "Erste Deckbeschichtung Baustelle",
+      "unit": "m²"
+    },
+    {
+      "code": "32.21.05A",
+      "text": "Zweite Deckbeschichtung Werk",
+      "unit": "m²"
+    },
+    {
+      "code": "32.21.05B",
+      "text": "Zweite Deckbeschichtung Baustelle",
+      "unit": "m²"
+    },
+    {
+      "code": "32.21.06A",
+      "text": "Korrosionsschutzsystem Werk (m2)",
+      "unit": "m²"
+    },
+    {
+      "code": "32.21.06B",
+      "text": "Korrosionsschutzsystem Baustelle (m2)",
+      "unit": "m²"
+    },
+    {
+      "code": "32.21.10A",
+      "text": "Feuerverzinken v.Stahlkonstruktionen",
+      "unit": "kg"
+    },
+    {
+      "code": "32.22.01A",
+      "text": "Beschichtungen Werk (PA)                                                                                             PA",
+      "unit": ""
+    },
+    {
+      "code": "32.22.01B",
+      "text": "Beschichtungen Baustelle (PA)                                                                                        PA",
+      "unit": ""
+    },
+    {
+      "code": "32.22.03A",
+      "text": "Duplex-Beschichtungen Werk (PA)                                                                                      PA",
+      "unit": ""
+    },
+    {
+      "code": "32.22.03B",
+      "text": "Duplex-Beschichtungen Baustelle (PA)                                                                                 PA",
+      "unit": ""
+    },
+    {
+      "code": "32.22.06A",
+      "text": "Korrosionsschutzsystem Werk (PA)                                                                                     PA",
+      "unit": ""
+    },
+    {
+      "code": "32.22.06B",
+      "text": "Korrosionsschutzsystem Baustelle (PA)                                                                                  PA",
+      "unit": ""
+    },
+    {
+      "code": "32.22.10A",
+      "text": "Feuerverzinken v.Stahlkonstruktionen (PA)                                                                              PA",
+      "unit": ""
+    },
+    {
+      "code": "32.31.01A",
+      "text": "R30-Beschichtung Pr.off.innen,A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.01B",
+      "text": "R30-Beschichtung Pr.off.innen,A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.01C",
+      "text": "R30-Beschichtung Pr.off.innen,A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.01D",
+      "text": "R30-Beschichtung Pr.off.innen,A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.01E",
+      "text": "R30-Beschichtung Pr.off.innen,A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.01F",
+      "text": "R30-Beschichtung Pr.geschl.innen,A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.01G",
+      "text": "R30-Beschichtung Pr.geschl.innen,A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.01H",
+      "text": "R30-Beschichtung Pr.geschl.innen,A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.01I",
+      "text": "R30-Beschichtung Pr.geschl.innen,A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.01J",
+      "text": "R30-Beschichtung Pr.geschl.innen,A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.02A",
+      "text": "R60-Beschichtung Pr.off.innen,A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.02B",
+      "text": "R60-Beschichtung Pr.off.innen,A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.02C",
+      "text": "R60-Beschichtung Pr.off.innen,A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.02D",
+      "text": "R60-Beschichtung Pr.off.innen,A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.02E",
+      "text": "R60-Beschichtung Pr.off.innen,A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.02F",
+      "text": "R60-Beschichtung Pr.geschl.innen,A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.02G",
+      "text": "R60-Beschichtung Pr.geschl.innen,A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.02H",
+      "text": "R60-Beschichtung Pr.geschl.innen,A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.02I",
+      "text": "R60-Beschichtung Pr.geschl.innen,A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.02J",
+      "text": "R60-Beschichtung Pr.geschl.innen,A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.03A",
+      "text": "R90-Beschichtung Pr.off.innen,A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.03B",
+      "text": "R90-Beschichtung Pr.off.innen,A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.03C",
+      "text": "R90-Beschichtung Pr.off.innen,A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.03D",
+      "text": "R90-Beschichtung Pr.off.innen,A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.03E",
+      "text": "R90-Beschichtung Pr.off.innen,A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.03F",
+      "text": "R90-Beschichtung Pr.geschl.innen,A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.03G",
+      "text": "R90-Beschichtung Pr.geschl.innen,A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.03H",
+      "text": "R90-Beschichtung Pr.geschl.innen,A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.03I",
+      "text": "R90-Beschichtung Pr.geschl.innen,A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.03J",
+      "text": "R90-Beschichtung Pr.geschl.innen,A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.11A",
+      "text": "R30-Beschichtung Pr.off.außen,A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.11B",
+      "text": "R30-Beschichtung Pr.off.außen,A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.11C",
+      "text": "R30-Beschichtung Pr.off.außen,A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.11D",
+      "text": "R30-Beschichtung Pr.off.außen,A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.11E",
+      "text": "R30-Beschichtung Pr.off.außen,A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.11F",
+      "text": "R30-Beschichtung Pr.geschl.außen,A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.11G",
+      "text": "R30-Beschichtung Pr.geschl.außen,A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.11H",
+      "text": "R30-Beschichtung Pr.geschl.außen,A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.11I",
+      "text": "R30-Beschichtung Pr.geschl.außen,A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.11J",
+      "text": "R30-Beschichtung Pr.geschl.außen,A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.12A",
+      "text": "R60-Beschichtung Pr.off.außen,A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.12B",
+      "text": "R60-Beschichtung Pr.off.außen,A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.12C",
+      "text": "R60-Beschichtung Pr.off.außen,A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.12D",
+      "text": "R60-Beschichtung Pr.off.außen,A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.12E",
+      "text": "R60-Beschichtung Pr.off.außen,A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.12F",
+      "text": "R60-Beschichtung Pr.geschl.außen,A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.12G",
+      "text": "R60-Beschichtung Pr.geschl.außen,A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.12H",
+      "text": "R60-Beschichtung Pr.geschl.außen,A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.12I",
+      "text": "R60-Beschichtung Pr.geschl.außen,A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.12J",
+      "text": "R60-Beschichtung Pr.geschl.außen,A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.13A",
+      "text": "R90-Beschichtung Pr.off.außen,A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.13B",
+      "text": "R90-Beschichtung Pr.off.außen,A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.13C",
+      "text": "R90-Beschichtung Pr.off.außen,A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.13D",
+      "text": "R90-Beschichtung Pr.off.außen,A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.13E",
+      "text": "R90-Beschichtung Pr.off.außen,A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.13F",
+      "text": "R90-Beschichtung Pr.geschl.außen,A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.13G",
+      "text": "R90-Beschichtung Pr.geschl.außen,A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.13H",
+      "text": "R90-Beschichtung Pr.geschl.außen,A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.13I",
+      "text": "R90-Beschichtung Pr.geschl.außen,A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.13J",
+      "text": "R90-Beschichtung Pr.geschl.außen,A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.21A",
+      "text": "Az Beschichtung f.gr.Schlankheit/KSL",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.23A",
+      "text": "Az Beschichtung f.Decklack",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.31A",
+      "text": "R30-Spritzputz Pr.off.A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.31B",
+      "text": "R30-Spritzputz Pr.off.A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.31C",
+      "text": "R30-Spritzputz Pr.off.A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.31D",
+      "text": "R30-Spritzputz Pr.off.A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.31E",
+      "text": "R30-Spritzputz Pr.off.A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.31F",
+      "text": "R30-Spritzputz Pr.geschl.A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.31G",
+      "text": "R30-Spritzputz Pr.geschl.A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.31H",
+      "text": "R30-Spritzputz Pr.geschl.A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.31I",
+      "text": "R30-Spritzputz Pr.geschl.A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.31J",
+      "text": "R30-Spritzputz Pr.geschl.A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.32A",
+      "text": "R60-Spritzputz Pr.off.A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.32B",
+      "text": "R60-Spritzputz Pr.off.A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.32C",
+      "text": "R60-Spritzputz Pr.off.A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.32D",
+      "text": "R60-Spritzputz Pr.off.A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.32E",
+      "text": "R60-Spritzputz Pr.off.A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.32F",
+      "text": "R60-Spritzputz Pr.geschl.A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.32G",
+      "text": "R60-Spritzputz Pr.geschl.A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.32H",
+      "text": "R60-Spritzputz Pr.geschl.A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.32I",
+      "text": "R60-Spritzputz Pr.geschl.A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.32J",
+      "text": "R60-Spritzputz Pr.geschl.A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.33A",
+      "text": "R90-Spritzputz Pr.off.A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.33B",
+      "text": "R90-Spritzputz Pr.off.A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.33C",
+      "text": "R90-Spritzputz Pr.off.A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.33D",
+      "text": "R90-Spritzputz Pr.off.A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.33E",
+      "text": "R90-Spritzputz Pr.off.A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.33F",
+      "text": "R90-Spritzputz Pr.geschl.A/V b.100",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.33G",
+      "text": "R90-Spritzputz Pr.geschl.A/V ü.100-150",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.33H",
+      "text": "R90-Spritzputz Pr.geschl.A/V ü.150-200",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.33I",
+      "text": "R90-Spritzputz Pr.geschl.A/V ü.200-250",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.33J",
+      "text": "R90-Spritzputz Pr.geschl.A/V ü.250-300",
+      "unit": "m²"
+    },
+    {
+      "code": "32.31.35A",
+      "text": "Az Spritzputz f.Nachbearbeiten",
+      "unit": "m²"
+    },
+    {
+      "code": "32.51.01A",
+      "text": "Az f.Stahl S 355 J2 gemäß ÖNORM EN 10025-2",
+      "unit": "kg"
+    },
+    {
+      "code": "32.51.01B",
+      "text": "Az f.Stahl S 355 J0 gemäß ÖNORM EN 10025-2",
+      "unit": "kg"
+    },
+    {
+      "code": "32.51.01C",
+      "text": "Az f.Stahl Z15",
+      "unit": "kg"
+    },
+    {
+      "code": "32.51.01D",
+      "text": "Az f.Stahl Z25",
+      "unit": "kg"
+    },
+    {
+      "code": "32.51.01E",
+      "text": "Az f.Stahlgüte",
+      "unit": "kg"
+    },
+    {
+      "code": "32.51.03A",
+      "text": "Az f.Toleranzklasse 2                                                                                               PA",
+      "unit": ""
+    },
+    {
+      "code": "32.51.03B",
+      "text": "Az f.besondere Toleranzen                                                                                           PA",
+      "unit": ""
+    },
+    {
+      "code": "32.90.00A",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "32.90.01A",
+      "text": "Regiestunde Vorarbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "32.90.01B",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "32.90.01C",
+      "text": "Regiestunde Schweißer",
+      "unit": "h"
+    },
+    {
+      "code": "32.90.01D",
+      "text": "Regiestunde Schweiß-Aufsicht",
+      "unit": "h"
+    }
+  ]
+}

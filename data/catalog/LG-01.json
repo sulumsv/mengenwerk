@@ -1,0 +1,701 @@
+{
+  "lg": "01",
+  "title": "Baustellengemeinkosten",
+  "positions": [
+    {
+      "code": "01.11.01A",
+      "text": "Einrichten der Baustelle + SiGe",
+      "unit": ""
+    },
+    {
+      "code": "01.11.01B",
+      "text": "Räumen der Baustelle + SiGe",
+      "unit": ""
+    },
+    {
+      "code": "01.11.02A",
+      "text": "Zeitgebundene Kosten der Baustelle",
+      "unit": ""
+    },
+    {
+      "code": "01.11.02B",
+      "text": "Zeitgebundene Kosten der Baustelle - Stillliegezeit",
+      "unit": ""
+    },
+    {
+      "code": "01.11.02C",
+      "text": "Zeitgebundene Kosten SiGe",
+      "unit": ""
+    },
+    {
+      "code": "01.11.02D",
+      "text": "Zeitgebundene Kosten SiGe Stillliegezeit",
+      "unit": ""
+    },
+    {
+      "code": "01.11.06A",
+      "text": "Gesamte Baustellengemeinkosten n.Prozent + SiGe",
+      "unit": ""
+    },
+    {
+      "code": "01.11.05A",
+      "text": "Zeitgebundene Kosten der Baustelle + SiGe",
+      "unit": ""
+    },
+    {
+      "code": "01.11.05B",
+      "text": "Zeitgebundene Kosten der Baustelle - Stillliegezeit + SiGe",
+      "unit": ""
+    },
+    {
+      "code": "01.13.01A",
+      "text": "Subzähler",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.01C",
+      "text": "Subzähler AN vorhalten",
+      "unit": ""
+    },
+    {
+      "code": "01.10.03D",
+      "text": "Beweissicherung AN                                                                                                      PA",
+      "unit": ""
+    },
+    {
+      "code": "01.10.03E",
+      "text": "Beweissicherung AN/Sachverständiger                                                                                     PA",
+      "unit": ""
+    },
+    {
+      "code": "01.12.01A",
+      "text": "Sonderkosten Statik+Pläne AN                                                                                          PA",
+      "unit": ""
+    },
+    {
+      "code": "01.12.01B",
+      "text": "Sonderkosten Statik+Pläne AN+ZT                                                                                       PA",
+      "unit": ""
+    },
+    {
+      "code": "01.12.02A",
+      "text": "Bewachung nach Arbeitszeit ständig                                                                                    Wo",
+      "unit": ""
+    },
+    {
+      "code": "01.12.02B",
+      "text": "Bewachung nach Arbeitszeit Streife                                                                                    Wo",
+      "unit": ""
+    },
+    {
+      "code": "01.12.02C",
+      "text": "Bewachung rund um die Uhr                                                                                    Wo",
+      "unit": ""
+    },
+    {
+      "code": "01.13.00A",
+      "text": "Einrichtungen f.d.eigenen Bedarf u.Dritte",
+      "unit": ""
+    },
+    {
+      "code": "01.13.00B",
+      "text": "Einrichtungen f.d.eigenen Bedarf",
+      "unit": ""
+    },
+    {
+      "code": "01.13.00C",
+      "text": "Einrichtungen f.Dritte",
+      "unit": ""
+    },
+    {
+      "code": "01.13.02A",
+      "text": "Bauzaun                                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "01.13.02B",
+      "text": "Bauzaun vorhalten                                                                                            VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.03A",
+      "text": "Schranke Einfahrt",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.03B",
+      "text": "Schranke Einf.vorh.Baubetrieb                                                                                VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.03C",
+      "text": "Schranke Einf.vorh.Stillliegezeit                                                                            VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.04A",
+      "text": "Baustromverteiler",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.04B",
+      "text": "Baustromverteiler vorhalten                                                                                   VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.05A",
+      "text": "Cont.Stand.Aufenth.",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.05B",
+      "text": "Cont.Stand.Aufenth.vorhalten Baubetrieb                                                                       VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.05C",
+      "text": "Cont.Stand.Aufenth.vorhalten Stillliegezeit                                                                   VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.06A",
+      "text": "Cont.Stand.Büro",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.06B",
+      "text": "Cont.Stand.Büro vorhalten Baubetrieb                                                                          VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.06C",
+      "text": "Cont.Stand.Büro vorhalten Stillliegezeit                                                                      VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.07A",
+      "text": "Cont.Stand.Sanitär",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.07B",
+      "text": "Cont.Stand.Sanitär vorhalten Baubetrieb                                                                       VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.07C",
+      "text": "Cont.Stand.Sanitär vorhalten Stillliegezeit                                                                   VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.13A",
+      "text": "Chem.Toiletten",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.13B",
+      "text": "Chem.Toiletten vorhalten Baubetrieb                                                                           VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.13C",
+      "text": "Chem.Toiletten vorhalten Stillliegezeit                                                                       VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.15A",
+      "text": "Beleuchtung im Freien",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.15B",
+      "text": "Beleuchtung im Freien vorhalten                                                                               VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.16A",
+      "text": "Beleuchtung in Gebäude",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.16B",
+      "text": "Beleuchtung in Gebäuden vorhalten                                                                             VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.20A",
+      "text": "Verkehrszeichen                                                                                               PA",
+      "unit": ""
+    },
+    {
+      "code": "01.13.20B",
+      "text": "Verkehrszeichen vorhalten                                                                                     Wo",
+      "unit": ""
+    },
+    {
+      "code": "01.13.21A",
+      "text": "Hinweistafel b.0,25m2                                                                                         PA",
+      "unit": ""
+    },
+    {
+      "code": "01.13.21B",
+      "text": "Hinweistafel b.0,25m2 vorhalten                                                                               Wo",
+      "unit": ""
+    },
+    {
+      "code": "01.13.21C",
+      "text": "Hinweistafel ü.0,25-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.21D",
+      "text": "Hinweistafel ü.0,25-0,5m2 vorhalten                                                                           Wo",
+      "unit": ""
+    },
+    {
+      "code": "01.13.21E",
+      "text": "Hinweistafel ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.21F",
+      "text": "Hinweistafel ü.0,5-1m2 vorhalten                                                                              VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.21G",
+      "text": "Hinweistafel ü.1m2-__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.21H",
+      "text": "Hinweistafel vorhalten ü.1m2-__________                                                                       VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.25A",
+      "text": "Betonschutzwand 80cm                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "01.13.25B",
+      "text": "Betonschutzwand 80cm umsetzen                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "01.13.25C",
+      "text": "Betonschutzwand 80cm vorhalten                                                                                VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.26A",
+      "text": "Lichtzeichenanlage",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.26B",
+      "text": "Lichtzeichenanlage umsetzen",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.26C",
+      "text": "Lichtzeichenanl.vorhalten Baubetrieb                                                                          VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.26D",
+      "text": "Lichtzeichenanl.vorhalten Stillliegezeit                                                                      VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.30A",
+      "text": "Warnleuchten                                                                                                  PA",
+      "unit": ""
+    },
+    {
+      "code": "01.13.30B",
+      "text": "Warnleuchten vorhalten                                                                                        Wo",
+      "unit": ""
+    },
+    {
+      "code": "01.13.31A",
+      "text": "Stromversorgung                                                                                               PA",
+      "unit": ""
+    },
+    {
+      "code": "01.13.31B",
+      "text": "Stromversorgung vorhalten                                                                                     Wo",
+      "unit": ""
+    },
+    {
+      "code": "01.13.31C",
+      "text": "Stromversorgung Betrieb                                                                                       PA",
+      "unit": ""
+    },
+    {
+      "code": "01.13.32A",
+      "text": "Wasseranschluss DN25",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.32B",
+      "text": "Wasseranschluss DN25 vorhalten                                                                                Wo",
+      "unit": ""
+    },
+    {
+      "code": "01.13.33A",
+      "text": "Prov.Wasserversorgungsanl.                                                                                    PA",
+      "unit": ""
+    },
+    {
+      "code": "01.13.33B",
+      "text": "Prov.Wasserversorgungsanl.vorhalten                                                                           Wo",
+      "unit": ""
+    },
+    {
+      "code": "01.13.33C",
+      "text": "Az prov.Wasserversorgungsanl.frostsicher                                                                      PA",
+      "unit": ""
+    },
+    {
+      "code": "01.13.34A",
+      "text": "Prov.Wasserversogung Trinkwasser",
+      "unit": "m³"
+    },
+    {
+      "code": "01.13.35A",
+      "text": "Prov.Abwasserentsorgung                                                                                       PA",
+      "unit": ""
+    },
+    {
+      "code": "01.13.35B",
+      "text": "Prov.Abwasserentsorgung vorhalten                                                                             Wo",
+      "unit": ""
+    },
+    {
+      "code": "01.13.40A",
+      "text": "Pl.Aufzug 4 H.st.500kg",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.40B",
+      "text": "Pl.Aufzug 4 H.st.500kg vorh.Baubetrieb                                                                        VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.40C",
+      "text": "Pl.Aufzug 4 H.st.500kg vorh.Stillliegezeit                                                                    VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.41A",
+      "text": "Pl.Aufzug 500kg",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.41B",
+      "text": "Pl.Aufzug 500kg vorh.Baubetrieb                                                                               VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.41C",
+      "text": "Pl.Aufzug 500kg vorh.Stillliegezeit                                                                          VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.45A",
+      "text": "Bautafel AG freie Aufstellung",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.45B",
+      "text": "Bautafel AG Fassade",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.50A",
+      "text": "Baukran",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.13.50B",
+      "text": "Baukran vorhalten Baubetrieb                                                                                 VE",
+      "unit": ""
+    },
+    {
+      "code": "01.13.50C",
+      "text": "Baukran vorhalten Stillliegezeit                                                                             VE",
+      "unit": ""
+    },
+    {
+      "code": "01.17.01A",
+      "text": "Prov.Trennwand/Staubvorhang auf Holzrost",
+      "unit": "m²"
+    },
+    {
+      "code": "01.17.01B",
+      "text": "Prov.Trennwand staubdicht m.Plattenbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "01.17.01C",
+      "text": "Prov.Trennwand staubdicht m.Gipsbauplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "01.17.02A",
+      "text": "Az prov.Trennwand stoßfest",
+      "unit": "m²"
+    },
+    {
+      "code": "01.17.02B",
+      "text": "Az prov.Trennwand f.Tür+Schloss",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.17.03A",
+      "text": "Fußbodenschutz PE-Folie/Pappe",
+      "unit": "m²"
+    },
+    {
+      "code": "01.17.03B",
+      "text": "Fußbodenschutz Kunststoffstegplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "01.17.03C",
+      "text": "Fußbodenschutz Schaltafeln",
+      "unit": "m²"
+    },
+    {
+      "code": "01.17.11A",
+      "text": "Verschalung b.1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.17.11X",
+      "text": "Verschalung ü.1m2-__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.17.12A",
+      "text": "Rahmen m.PE-Folie b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.17.12X",
+      "text": "Rahmen m.PE-Folie ü.2m2-__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.17.21A",
+      "text": "Schutz von Fenster-Tür b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.17.21B",
+      "text": "Schutz von Fenster-Tür ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.17.21C",
+      "text": "Schutz von Fenster-Tür ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.17.21E",
+      "text": "Schutz von Bauteilen",
+      "unit": "m²"
+    },
+    {
+      "code": "01.19.01A",
+      "text": "Abdeckung b.1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.19.01B",
+      "text": "Abdeckung b.1m2 vorhalten                                                                                          VE",
+      "unit": ""
+    },
+    {
+      "code": "01.19.01C",
+      "text": "Abdeckung ü.1-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.19.01D",
+      "text": "Abdeckung ü.1-2m2 vorhalten                                                                                        VE",
+      "unit": ""
+    },
+    {
+      "code": "01.19.02A",
+      "text": "Umwehrung Absturzk.                                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "01.19.02B",
+      "text": "Umwehrung Absturzk.vorhalten                                                                                       VE",
+      "unit": ""
+    },
+    {
+      "code": "01.19.03A",
+      "text": "Abgrenzung                                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "01.19.03B",
+      "text": "Abgrenzung vorhalten                                                                                               VE",
+      "unit": ""
+    },
+    {
+      "code": "01.19.04A",
+      "text": "Sich-Anschlaganker Bet.Stahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.19.04B",
+      "text": "Sich-Anschlagank.Vollmwk.Stahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.19.04C",
+      "text": "Sich-Anschlagank.Hohlmwk.Stahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.19.04D",
+      "text": "Sich-Anschlagank.Holz Stahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.19.05A",
+      "text": "Sich.-Leitseil Beton                                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "01.19.05B",
+      "text": "Sich.-Leitseil Vollmwk                                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "01.19.05C",
+      "text": "Sich.-Leitseil Hohlmwk                                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "01.19.05D",
+      "text": "Sich.-Leitseil Holz                                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "01.19.05H",
+      "text": "Az Leitseil Sonderf.",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.19.05K",
+      "text": "Leitseil Anschl.-punkt waagrecht",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.19.05L",
+      "text": "Leitseil Anschl.-punkt lotrecht",
+      "unit": "Stk"
+    },
+    {
+      "code": "01.19.10A",
+      "text": "Auffangnetz Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "01.19.10B",
+      "text": "Auffangnetz Vollmwk",
+      "unit": "m²"
+    },
+    {
+      "code": "01.19.10C",
+      "text": "Auffangnetz Hohlmwk",
+      "unit": "m²"
+    },
+    {
+      "code": "01.19.10D",
+      "text": "Auffangnetz Holz",
+      "unit": "m²"
+    },
+    {
+      "code": "01.19.10H",
+      "text": "Auffangnetz vorhalten                                                                                                  VE",
+      "unit": ""
+    },
+    {
+      "code": "01.19.11A",
+      "text": "Drahtg.-Untersp.Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "01.19.11B",
+      "text": "Drahtg.-Untersp.Vollmwk",
+      "unit": "m²"
+    },
+    {
+      "code": "01.19.11C",
+      "text": "Drahtg.-Untersp.Hohlmwk",
+      "unit": "m²"
+    },
+    {
+      "code": "01.19.11D",
+      "text": "Drahtg.-Untersp.Holz",
+      "unit": "m²"
+    },
+    {
+      "code": "01.19.11H",
+      "text": "Drahtg.-Untersp.vorhalten                                                                                          VE",
+      "unit": ""
+    },
+    {
+      "code": "01.21.00B",
+      "text": "Benutzung öffentliches Gut",
+      "unit": ""
+    },
+    {
+      "code": "01.21.11A",
+      "text": "Dachschutzblende                                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "01.21.11B",
+      "text": "Dachschutzblende Gebrauchsüberl.                                                                                   VE",
+      "unit": ""
+    },
+    {
+      "code": "01.21.21A",
+      "text": "Schutzdach freist.b.3m breit                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "01.21.21B",
+      "text": "Schutzdach freist.b.3m breit Gebrauchsüberl.                                                              VE",
+      "unit": ""
+    },
+    {
+      "code": "01.21.31A",
+      "text": "Riegelgerüst Schacht",
+      "unit": "m²"
+    },
+    {
+      "code": "01.21.31B",
+      "text": "Riegelgerüst Schacht Gebrauchsüberl.                                                                      VE",
+      "unit": ""
+    },
+    {
+      "code": "01.21.32A",
+      "text": "Riegelgerüst Spindel",
+      "unit": "m²"
+    },
+    {
+      "code": "01.21.32B",
+      "text": "Riegelgerüst Spindel Gebrauchsüberl.                                                                      VE",
+      "unit": ""
+    }
+  ]
+}

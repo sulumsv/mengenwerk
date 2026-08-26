@@ -1,0 +1,1578 @@
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+            Ständige Vorbemerkung der LB
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten folgende Regelungen:
+            1. Standardisierte Leistungsbeschreibung:
+            Dieses Leistungsverzeichnis (LV) wurde mit der Standardisierten Leistungsbeschreibung Hochbau, Version 023
+            (2025-12) erstellt.
+            2. Gültigkeit bei Widersprüchen
+            Bei Widersprüchen im Leistungsverzeichnis (LV) gilt folgende Reihenfolge:
+            1. Folgetext einer geteilten Position oder Positionstext einer (ungeteilten) Position
+            2. Stichwort der Position
+            3. Grundtext zur geteilten Position
+            4. Wählbare Vorbemerkungen der Unterleistungsgruppe
+            5. Ständige Vorbemerkungen der Unterleistungsgruppe
+            6. Wählbare Vorbemerkungen der Leistungsgruppe
+            7. Ständige Vorbemerkungen der Leistungsgruppe
+            8. Wählbare Vorbemerkungen der Leistungsgruppe 00
+            9. Ständige Vorbemerkungen der Leistungsgruppe 00
+            10. Ständige Vorbemerkungen der Leistungsbeschreibung
+            Bei wählbaren Vorbemerkungen gilt die gleiche Textreihenfolge (Folgetext, Stichwort, Grundtext) wie bei
+            Positionen.
+            3. Zulassungen:
+            Alle verwendeten Materialien/Erzeugnisse/Typen/Systeme haben alle für den projektspezifischen
+            Verwendungszweck erforderlichen Zulassungen, sowie die erforderlichen CE-Kennzeichen.
+            4. Leistungsumfang:
+            Alle beschriebenen Leistungen umfassen das Liefern, Abladen, Lagern und Fördern (Vertragen) bis zur
+            Einbaustelle und Verarbeiten oder Versetzen/Montieren der Materialien/Erzeugnisse/Typen/Systeme.
+            Die Kosten für die Überprüfungen, Befunde, Betriebsanleitungen und Dokumentationen sind in die
+            Einheitspreise einkalkuliert.
+            Die Überprüfungen, Befunde, Betriebsanleitungen und Dokumentationen sind spätestens zum Zeitpunkt der
+            Übernahme zu übergeben.
+            Die im Leistungsverzeichnis zu den Materialien/Erzeugnisse/Typen/Systeme angegebenen technischen
+            Spezifikationen sind Mindesterfordernisse (Mindestqualitäten). Materialien/Erzeugnisse/Typen/Systeme
+            des Auftragnehmers (AN), die über den im LV angegebenen technischen Spezifikationen hinausgehen
+            (höhere Qualität) werden mit den angebotenen Preisen und nicht gesondert vergütet. Die Preise gelten
+            ohne Unterschied der Art der Ausführung (z.B. händisch oder maschinell).
+            5. Nur Liefern:
+            Ist ausdrücklich nur das Liefern vereinbart, ist der Transport bis zur vereinbarten Abladestelle (Lieferadresse)
+            und das Abladen in die Einheitspreise einkalkuliert.
+            6. Nur Verarbeiten oder Versetzen/Montieren:
+            Ist ausdrücklich nur das Verarbeiten oder Versetzen/Montieren von Materialien/Erzeugnissen/Typen/Systemen
+            vereinbart, ist das Fördern (Vertragen) von der Lagerstelle oder von der Abladestelle bis zur Einbaustelle in den
+            jeweiligen Einheitspreis der zugehörigen Verarbeitungs- oder Versetz-/Montagepositionen einkalkuliert.
+            7. Geschoße:
+            Alle Leistungen gelten ohne Unterschied der Geschoße.
+            8. Verwerten, Deponieren oder Entsorgen:
+            Sofern nicht anders festgelegt, gehen Materialien die z.B. abgebrochen oder z.B. bei Erdarbeiten ausgehoben
+            werden, in das Eigentum des Auftragnehmers über, unbeschadet einer Vergütung in eigenen Positionen für den
+            Transport, das Verwerten, Deponieren oder Entsorgen.
+            Das Führen eines Abfallnachweises gemäß Abfallnachweisverordnung durch den Auftragnehmer (AN) ist
+            vereinbart.
+            9. Arbeitshöhen:
+            Alle Arbeiten/Leistungen sind bis zu einer Arbeitshöhe von 3,2 m in die Einheitspreise einkalkuliert.
+            Die Arbeitshöhe ist jene Höhe über dem Fußbodenniveau (über dem Geländeniveau) oder über der
+            Aufstellfläche der Aufstiegshilfe, in der sich die zu erbringende Leistung befindet.
+            LB-Version: 23                Geändert
+Änderung:   Entfallen:
+            3. Materialien/Erzeugnisse/Typen/Systeme:
+            Bauprodukte (z.B. Baumaterialien, Bauelemente, Bausysteme) werden mit dem Begriff Materialien bezeichnet, für technische
+            Geräte und Anlagen werden die Begriffe Erzeugnisse/Typen/Systeme verwendet.
+                                                                                                                           Seite 1 / 25
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                               EH
+
+           4. Bieterangaben zu Materialien/Erzeugnisse/Typen/Systeme:
+           Die in den Bieterlücken angebotenen Materialien/Erzeugnisse/Typen/Systeme entsprechen mindestens den in der
+           Ausschreibung bedungenen oder gewöhnlich vorausgesetzten technischen Anforderungen.
+           Angebotene Materialien/Erzeugnisse/Typen/Systeme gelten für den Fall des Zuschlages als Vertragsbestandteil.
+           Auf Verlangen des Auftraggebers weist der Bieter die im Leistungsverzeichnis bedungenen oder gewöhnlich vorausgesetzten
+           technischen Anforderungen vollständig nach (Erfüllung der Mindestqualität).
+           5. Beispielhaft genannte Materialien/Erzeugnisse/Typen/Systeme:
+           Sind im Leistungsverzeichnis zu einzelnen Positionen zusätzlich beispielhafte Materialien/Erzeugnisse/Typen/Systeme
+           angeführt, können in der Bieterlücke gleichwertige Materialien/Erzeugnisse/Typen/Systeme angeboten werden. Die Kriterien
+           der Gleichwertigkeit sind in der Position beschrieben.
+           Setzt der Bieter in die Bieterlücke keine Materialien/Erzeugnisse/Typen/Systeme seiner Wahl ein, gelten die beispielhaft
+           genannten Materialien/Erzeugnisse/Typen/Systeme als angeboten.
+           7.Leistungsumfang:
+           Jede Bezugnahme auf bestimmte technische Spezifikationen gilt grundsätzlich mit dem Zusatz, dass auch rechtlich
+           zugelassene gleichwertige technische Spezifikationen vom Auftraggeber anerkannt werden, sofern die Gleichwertigkeit vom
+           Auftragnehmer nachgewiesen wird.
+           Geändert:
+           7.Leistungsumfang:
+           "Jede Bezugnahme auf bestimmte technische Spezifikationen gilt grundsätzlich mit dem Zusatz, dass auch rechtlich
+           zugelassene gleichwertige technische Spezifikationen vom Auftraggeber anerkannt werden, sofern die Gleichwertigkeit vom
+           Auftragnehmer nachgewiesen wird." geändert
+           11. Verwerten
+           ", welcher somit explizit zum umweltgerechten Verwerten, Deponieren oder Entsorgen der Baurestmassen beauftragt ist"
+           entfällt.
+           Klarstellung Punkt 6 - Zulassung
+           Zulassungen oder CE-Kennzeichen, wurden auf sowie erforderlichen CE-Kennzeichen geändert.
+
+
+
+
+                                                                                                                              Seite 2 / 25
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                Leistungsgruppe (LG) 00 - Allgemeine Bestimmungen
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 0010 Vergaberechtsbestimmungen
+                     ULG 0020 Bestimmungen für den Vertrag
+
+
+
+
+                                                                                                           Seite 1 / 25
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+00          Allgemeine Bestimmungen
+            Version 023 (2025-12)
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - besondere Bestimmungen des Auftraggebers (unter Berücksichtigung der Geltungsreihenfolge bei etwaigen Widersprüchen
+             in den einzelnen Unterleistungsgruppen)
+
+
+            LB-Version: 23               Geändert
+Änderung:   Die bisherigen ULGs wurden gelöscht und komplett überarbeitet.
+            Neue Positionen / ULGs:
+            ULG 00.10 Vergaberechtsbestimmungen
+            ULG 00.20 Bestimmungen für den Vertrag
+
+00.10       Vergaberechtsbestimmungen
+             Kommentar:
+             Die wählbaren Vorbemerkungen für Vergabeverfahren wurden auf Grundlage des einstufigen Ablaufes erstellt. Andere
+             Verfahren (z.B. Nicht offenes Verfahren mit vorheriger Bekanntmachung, Verhandlungsverfahren mit vorheriger
+             Bekanntmachung) sind frei zu formulieren.
+
+            LB-Version: 23
+00.10 01    Die Vergabe der ausgeschriebenen Leistung erfolgt auf der Grundlage des in Geltung stehenden
+            Bundesvergabegesetzes (BVergG) und den dazu ergangenen Verordnungen.
+
+00.10 01A   Oberschwellenbereich
+            Es gelten die Bestimmungen für den Oberschwellenbereich.
+
+            LB-Version: 23
+
+00.10 01B   Unterschwellenbereich
+            Es gelten die Bestimmungen für den Unterschwellenbereich.
+
+            LB-Version: 23
+00.10 02    Die Vergabe der ausgeschriebenen Leistung erfolgt gemäß folgendem Verfahren.
+             Kommentar:
+             Bezüglich der aktuellen Schwellenwerte zur Zulässigkeit der Durchführung der jeweiligen Verfahrensart wird auf die in
+             Geltung stehenden rechtlichen Vorgaben verwiesen.
+
+00.10 02A   Vergabeverfahren - Offenes Verfahren
+            Offenes Verfahren
+
+            LB-Version: 23
+
+00.10 02C   Vergabeverfahren - Nicht offenes Verf. ohne vorh. Bekanntm.
+            Nicht offenes Verfahren (Verf.) ohne vorheriger (vorh.) Bekanntmachung (Bekanntm.)
+
+            LB-Version: 23
+
+00.10 02D   Vergabeverfahren - Verhandlungsverf. ohne vorh. Bekanntm.
+            Verhandlungsverfahren (Verhandlungsverf.) ohne vorheriger (vorh.) Bekanntmachung (Bekanntm.)
+
+            LB-Version: 23
+
+00.10 02F   Vergabeverfahren - Direktvergabe
+            Direktvergabe
+
+            LB-Version: 23
+
+00.10 02G   Vergabeverfahren - Direktvergabe mit vorh. Bekanntm.
+            Direktvergabe mit vorheriger (vorh.) Bekanntmachung (Bekanntm.)
+
+            LB-Version: 23
+00.10 03    Die Vergabe der ausgeschriebenen Leistung erfolgt gemäß folgendem Verfahren.
+
+00.10 03A   Art des Vergabeverfahrens - Preisangebotsverfahren
+                                                                                                                               Seite 2 / 25
+                                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+            Die Bieter haben aufgrund der Ausschreibungsunterlagen die Preise für vom Auftraggeber beschriebene
+            Leistungen in ihren Angeboten bekannt zu geben.
+            LB-Version: 23
+
+00.10 03B   Art des Vergabeverfahrens - Preisaufschlag-/nachlass Verf.
+            Der Auftraggeber hat in den Ausschreibungsunterlagen zusätzlich zu den beschriebenen Leistungen auch
+            Bezugspreise bekannt gegeben, zu denen die Bieter in ihren Angeboten – gewöhnlich in Prozent ausgedrückt –
+            Aufschläge oder Nachlässe angeben.
+
+            LB-Version: 23
+00.10 04    Angebote können mit einem höchstmöglichem Gesamtpreis eingebracht werden. Angebote mit darüber
+            hinausgehendem Gesamtpreis werden nicht berücksichtigt.
+
+00.10 04A   Höchstmöglicher Gesamtpreis
+            Höchstmöglicher Gesamtpreis in EUR: ____________
+
+            LB-Version: 23
+00.10 05    Zwecks Fristen wird folgendes vereinbart:
+
+00.10 05A   Fragefristen
+            Fragen sind über den festgelegten Kommunikationsweg bis spätestens ____________ zu stellen. Fragen, die
+            nicht über den festgelegten Kommunikationsweg gestellt werden, gelten als unzulässig und werden nicht
+            berücksichtigt.
+            Die Beantwortung von allenfalls eingelangten Fragen erfolgt anonymisiert an alle Interessenten über den
+            festgelegten Kommunikationsweg.
+            Die Bieter haben alle auf diesem Wege erhaltenen Auskünfte bei der Erstellung der Angebote zu
+            berücksichtigen. Verspätet eingelangte Fragen werden nicht berücksichtigt.
+             Kommentar:
+             Der Weg der Informationsübermittlung ist anzugeben (Name der Plattform bzw. Postweg, siehe Vorbemerkungen 00.10
+             15A-C).
+
+            LB-Version: 23
+
+00.10 05B   Angebotsfrist
+            Die Angebote sind spätestens bis ____________ um ____________ Uhr einzureichen.
+            Das Risiko des rechtzeitigen Einlangens des Angebotes trägt der Bieter. Verspätet oder anderwärtig
+            eingebrachte Angebote werden nicht berücksichtigt.
+            LB-Version: 23
+00.10 06    Zuschlagsfrist
+
+00.10 06A   Dauer der Zuschlagsfrist
+            Die Zuschlagsfrist beginnt mit Ablauf der Angebotsfrist und dauert ____________ Monate. Während der
+            Zuschlagsfrist ist der Bieter an sein Angebot gebunden und kann es weder ändern noch zurückziehen.
+             Kommentar:
+             Die Zuschlagsfrist ist kurz zu halten. Die höchstzulässige Frist ist im Bundesvergabegesetz (BVergG) bestimmt.
+             Der Fortlauf der Zuschlagsfrist wird gemäß BVergG für die Dauer eines Nachprüfungsverfahrens gehemmt. Dadurch kann
+             sich der Zeitraum, in welchem die Bieter an ihr Angebot gebunden sind, verlängern.
+
+            LB-Version: 23
+00.10 07    Unterlagen des Bieters/Auftragnehmers.
+
+00.10 07A   Arbeits-, sozial- und umweltrechtlicher Bestimmungen
+            Einhaltung arbeits-, sozial- und umweltrechtlicher Bestimmungen.
+            Die Erstellung des Angebotes hat unter Einhaltung der in Österreich geltenden arbeits- und sozialrechtlichen
+            Bestimmungen, einschlägigen Kollektivverträge und umweltrechtlichen Vorschriften zu erfolgen.
+            Die Bieter sind verpflichtet, bei der Durchführung der Aufträge diese Vorschriften einzuhalten. Diese Vorschriften
+            können bei der für die Ausführung der Aufträge örtlich zuständigen Gliederung der gesetzlichen
+            Interessenvertretung der Arbeitgeber („Wirtschaftskammer“) und der Arbeitnehmer („Kammer für Arbeiter und
+            Angestellte“) eingesehen werden.
+            LB-Version: 23
+00.10 09    Zwecks Unklarheiten der Ausschreibungsunterlagen wird folgendes vereinbart:
+
+                                                                                                                              Seite 3 / 25
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+00.10 09A   Unklarheiten der Ausschreibungsunterlagen
+            Der Auftraggeber behält sich vor, innerhalb der Angebotsfrist Berichtigungen und Ergänzungen zu den
+            Ausschreibungsunterlagen vorzunehmen. Falls Umfang oder Zeitpunkt der Ergänzungen dies erforden, wird der
+            Auftraggeber die Angebotsfrist erstrecken. Der Bieter ist verpflichtet, diese allfälligen Berichtigungen und
+            Ergänzungen bei Abgabe eines Angebotes zu berücksichtigen.
+            Sollten sich dem Bieter bei Prüfung der Ausschreibungsunterlagen Widersprüche, sonstige Unklarheiten oder
+            (vermutete) Verstöße gegen Vergabebestimmungen ergeben, so hat er dies dem Auftraggeber umgehend
+            mitzuteilen. Mit der Abgabe eines Angebotes bestätigt der Bieter, dass die Ausschreibungsunterlagen einer
+            vollständigen Prüfung unterzogen worden sind, dass die Ausschreibungsunterlagen für die Abgabe eines
+            Angebotes ausreichend sind und dass der Bieter in der Lage ist, die Entscheidung zur Abgabe eines Angebotes
+            zu treffen.
+            LB-Version: 23
+00.10 15    Zwecks Informations - und Angebotsübermittlung im Zuge des Vergabeverfahrens wird folgender Weg
+            vereinbart:
+
+00.10 15A   Wege der Informations-/Angebotsübermittlung - Plattform
+            Die Durchführung des gesamten Vergabeverfahrens erfolgt digital über den elektronischen Kommunikationsweg
+            des Vergabeportals.
+            Angabe des Vergabeportals bzw. der Plattform: ____________
+             Kommentar:
+
+             Im Unterschwellenbereich hat die Kommunikation zwischen öffentlichem Auftraggeber und Bietern gesetzlich nicht
+             verpflichtend elektronisch zu erfolgen. Aus Dokumentationsgründen wird jedoch zur Nutzung eines elektronischen
+             Kommunikationswegs geraten. Bieteranfragen fallen auch unter die Informationsübermittlung.
+
+            LB-Version: 23
+
+00.10 15B   Wege der Informations-/Angebotsübermittlung - Postweg
+            Kommunikation über den Postweg.
+
+            LB-Version: 23
+
+00.10 15C   Wege der Informations-/Angebotsübermittlung - Digital/Post
+            Festlegung der Kommunikationsmittel zwischen Auftraggeber und Bieter: ____________
+
+            LB-Version: 23
+00.10 16    Zwecks Angebotsabgabe im Zuge des Vergabeverfahrens wird wie folgt vereinbart:
+
+00.10 16A   Plattform - Rechtsgültige Fertigung/elektronische Signatur
+            Die Form der Angebote bei Nutzung einer Plattform wird wie folgt geregelt:
+            Das Angebot muss mit einer elektronischen Signatur unterfertigt werden.
+            Bei der elektronischen Signatur ist darauf zu achten, dass der Unterzeichnende zum Zeitpunkt der
+            Unterzeichnung auch vertretungsbefugt ist. Die Vertretungsbefugnis ist dem Auftraggeber gegenüber offen zu
+            legen.
+            Die Rechtsgültigkeit der elektronischen Signatur im Rahmen der elektronischen Angebotsabgabe über das
+            Vergabeportal umfasst alle vom Bieter abgegebene Dokumente und Dateien und die darin angeführten
+            Erklärungen und Verpflichtungen.
+            Ein Datenträgeraustausch gemäß ÖNORM ist zulässig, wenn ein Datenträger gemäß ÖNORM mit dem
+            Ausschreibungs-Leistungsverzeichnis veröffentlicht wurde.
+            Macht der Bieter von der Möglichkeit der Abgabe eines Datenträgers Gebrauch, ist die Abgabe eines eigenen
+            automationsunterstützt und rechtsgültig unterfertigten Angebotes des Bieters anstelle des auf den Vordrucken
+            des Auftraggebers erstellten Leistungsverzeichnis zulässig.
+            Inhaltliche Abweichungen sind unzulässig.
+            Eine sonstige Übermittlung des Angebots, insbesondere eine Übermittlung per E-Mail oder eine Abgabe in
+            Papierform, ist nicht zulässig und führt zu dessen Nichtberücksichtigung!
+             Kommentar:
+             Im Oberschwellenbereich muss das Angebot gemäß BVergG zwingend mit einer qualifizierten elektronischen Signatur
+             unterfertigt werden.
+
+            LB-Version: 23
+00.10 17    Die Form der Angebote ohne Nutzung einer Plattform wird wie folgt geregelt:
+            Die vom Bieter erstellte Unterlage ist vollständig auszufüllen und rechtsgültig zu unterfertigten.
+                                                                                                                            Seite 4 / 25
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+            Bei der rechtsgültigen Unterfertigung ist darauf zu achten, dass der Unterzeichnende zum Zeitpunkt der
+            Unterzeichnung auch vertretungsbefugt ist. Die Vertretungsbefugnis ist dem Auftraggeber gegenüber offen zu
+            legen.
+
+00.10 17A   Angebotsform - Vordruck verbindlich
+            Das Angebot ist gänzlich auf den Vordrucken des Auftraggebers zu erstellen.
+
+            LB-Version: 23
+
+00.10 17B   Angebotsform - Eigener Angebotsdruck zulässig
+            Das Angebot kann auf den Vordrucken des Auftraggebers oder inhaltlich identen Kopien oder eigenen
+            EDV-Ausdrucken mit komplettem Langtext erstellt werden. Bei Widersprüchen zwischen Vordruck und Kopie gilt
+            der Vordruck des Auftraggebers.
+
+            LB-Version: 23
+
+00.10 17C   Angebotsform - Eigener Angebotsdruck mit Datenbestand ÖNORM
+            Ein Datenträgeraustausch gemäß ÖNORM ist zulässig, wenn der Bieter vom Auftraggeber einen Datenträger
+            mit dem Ausschreibungs-Leistungsverzeichnis erhalten hat.
+            Macht der Bieter von der Möglichkeit der Abgabe eines Datenträgers Gebrauch, ist die Abgabe eines eigenen
+            automationsunterstützt und rechtsgültig unterfertigten Leistungsverzeichnisses des Bieters anstelle des auf den
+            Vordrucken des Ausschreibers erstellten Angebots zulässig.
+            Inhaltliche Abweichungen sind unzulässig.
+
+            LB-Version: 23
+00.10 18    Art der Angebotsöffnung
+
+00.10 18A   Angebotsöffnung ohne Bieterbeteiligung
+            Die Öffnung, der fristgerecht eingelangten Angebote, wird nach Ablauf der Angebotsfrist ohne Beteiligung der
+            Bieter durchgeführt.
+            LB-Version: 23
+
+00.10 18B   Angebotsöffnung unter Bieterbeteiligung
+            Die Öffnung, der fristgerecht eingelangten Angebote, wird nach Ablauf der Angebotsfrist unter Beteiligung der
+            Bieter durchgeführt.
+            Teilnahmebedingungen (z.B. Ort, Zeit und Umstände): ____________
+             Kommentar:
+             Der Auftraggeber kann beim offenen und beim nicht offenen Verfahren eine Öffnung der Angebote unter Beteiligung der
+             Bieter vornehmen. Zudem ist über die Öffnung der Angebote beim offenen und beim nicht offenen Verfahren ein Protokoll
+             gemäß BVergG zu verfassen, welches jedem Bieter zu übermitteln bzw. bereitzustellen ist.
+
+            LB-Version: 23
+00.10 19    Bei rechnerisch fehlerhaften Angeboten, wird wie folgt vorgegangen:
+             Kommentar:
+             Im Unterschwellenbereich steht es dem Auftraggeber frei anzugeben, ob rechnerisch fehlerhafte Angebote ausgeschieden
+             werden und ob eine neuerliche Reihung aufgrund der Berichtigung eines Rechenfehlers zulässig ist.
+             Soweit diese Angaben nicht auf andere Weise erfolgen, können sie mit den nachfolgenden Bestimmungen festgelegt
+             werden.
+
+00.10 19A   Ausscheiden bei Rechenfehlern
+            Angebote werden ausgeschieden, wenn die Summe der Berichtigungen, erhöhend oder vermindernd, 2 Prozent
+            oder mehr des ursprünglichen Gesamtpreises (ohne Umsatzsteuer) beträgt.
+            LB-Version: 23
+
+00.10 19C   Neuerliche Reihung korrigierter Angebote zulässig
+            Angebote mit einem Rechenfehler werden nicht ausgeschieden und nach Berichtigung des Rechenfehlers
+            entsprechend gereiht.
+            LB-Version: 23
+00.10 20    Alternativ- und Abänderungsangebote sind als solche zu kennzeichnen.
+            Hinsichtlich der Mindestanforderungen im Hinblick auf die Vergleichbarkeit der Alternativ- oder
+            Abänderungsangebote mit der ausgeschriebenen Leistung gelten die technischen Spezifikationen des
+            Leistungsverzeichnisses.
+
+
+
+
+                                                                                                                            Seite 5 / 25
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+             Kommentar:
+             Falls der öffentliche Auftraggeber keine Angabe über die Zulässigkeit von Alternativangeboten gemacht hat, so sind
+             Alternativangebote nicht zugelassen.
+             Sofern der öffentliche Auftraggeber in der Ausschreibung nichts anderes festlegt, sind Abänderungsangebote zulässig.
+
+00.10 20A   Alternativangebote zulässig
+            Alternativangebote sind zulässig.
+
+            LB-Version: 23
+
+00.10 20C   Alternativangebot selbständig
+            Ein Alternativangebot ist auch ohne ausschreibungsgemäßes Angebot zulässig.
+
+            LB-Version: 23
+
+00.10 20E   Abänderungsangebot nicht zulässig
+            Ein Abänderungsangebot ist nicht zulässig.
+
+            LB-Version: 23
+
+00.10 20F   Abänderungsangebot selbständig
+            Ein Abänderungsangebot ist auch ohne ausschreibungsgemäßes Angebot zulässig.
+
+            LB-Version: 23
+00.10 21    Die ausgeschriebene Gesamtleistung kann als Gesamt- oder in Teilleistungen (z.B. in Losen) getrennt zur
+            Vergabe gelangen.
+
+00.10 21A   Teilvergabe mit Teilangebot gemäß ÖNORM A2063
+            Die Abgabe von Teilangeboten für eine oder mehrere Teilleistungen ist zulässig. Es gilt die Zuordnung der
+            angegebenen Teilangebotsnummern zu den Leistungsgruppen am Ausschreibungsleistungsverzeichnis.
+            LB-Version: 23
+
+00.10 21B   Teilleistungen Teilvergaben
+            Die Abgabe von Teilangeboten für eine oder mehrere Teilleistungen ist zulässig.
+            Folgende Teilleistungen sind vorgesehen: ____________
+            LB-Version: 23
+00.10 22    Bestimmungen zu den geforderten Formblättern:
+
+00.10 22A   Formblatt m. Angebot
+            Alle Formblätter sind mit dem Angebot vorzulegen.
+
+            LB-Version: 23
+
+00.10 22B   Formblatt bei Aufforderung
+            Alle Formblätter sind bei Aufforderung durch den Auftraggeber vorzulegen.
+            Frist: ____________
+            LB-Version: 23
+00.10 23    Zwecks Angemessenheitsprüfung der Preise sind folgende Formblätter gemäß ÖNORM B 2061 zu übermitteln.
+
+00.10 23A   Formblatt - K2
+            K2 - Gesamtzuschläge
+
+            LB-Version: 23
+
+00.10 23B   Formblatt - K3
+            K3 - Personalpreis
+
+            LB-Version: 23
+
+00.10 23C   Formblatt - K4
+            K4 Materialpreise
+
+            LB-Version: 23
+
+00.10 23D   Formblatt - K5
+                                                                                                                              Seite 6 / 25
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+            K5 Zusammengesetzte Preiskomponenten
+
+            LB-Version: 23
+
+00.10 23E   Formblatt - K6
+            K6 Gerätepreise
+
+            LB-Version: 23
+
+00.10 23F   Formblatt - K7 - Alle Positionen
+            K7 Darstellung der Preisermittlung
+
+            LB-Version: 23
+
+00.10 23G   Formblatt - K7 - Wesentliche Pos.
+            K7 Darstellung der Preisermittlung für als wesentlich gekennzeichnete Positionen
+             Kommentar:
+             Gemäß ÖNORM A2063 können Positionen als wesentlich "w" gekennzeichnet werden.
+
+            LB-Version: 23
+00.10 24    Zur Sicherstellung, dass der Bieter während der Zuschlagsfrist nicht von seinem Angebot zurücktritt, wird
+            vereinbart:
+
+00.10 24A   Vadium
+            Ein Vadium in der Höhe von: ____________
+
+            LB-Version: 23
+00.10 25    Zur Erbringung von Leistungsteilen durch Dritte gilt:
+
+00.10 25A   Sub-/Nachunternehmer zulässig - Gesamtes LV
+            Es müssen alle Subunternehmer und durch diese übernommene Leistungen bekanntgegeben werden,
+            unabhängig davon ob sich der Bieter für die Eignung auf diese stützt.
+            Form und Angabe zur Bekanntgabe der Subunternehmer und übernommenen Leistungen bzw. der Befugnisse
+            und Leistungsfähigkeit: ____________
+            Der Bieter erklärt auf die in der Beilage angegebenen Kapazitäten der (des) Subunternehmer(s) für den
+            Nachweis der erforderlichen Befugnis, der technischen Leistungsfähigkeit oder der finanziellen und
+            wirtschaftlichen Leistungsfähigkeit zurückzugreifen.
+            Der Bieter nimmt zur Kenntnis, dass der (die) genannte(n) Subunternehmer die Kriterien der beim Auftraggeber
+            erforderlichen Bieterprüfung erfüllen muss (müssen).
+            Ein Wechsel des Subunternehmers ist nur mit vorheriger schriftlicher Zustimmung des Auftraggebers und
+            darüber hinaus nur dann zulässig, wenn eine sachliche Notwendigkeit für den Wechsel besteht. Im Übrigen wird
+            der Auftraggeber einem Wechsel des Subunternehmers im Wesentlichen dann zustimmen, wenn der Bieter die
+            Gleichwertigkeit des neuen Subunternehmers nachweist. Der Auftraggeber behält sich vor, für den neuen
+            Subunternehmer alle Nachweise zu fordern, die vom Bieter zu erbringen sind.
+            Der Bieter verpflichtet sich weiters, die vorgenannte Mitteilungspflicht alllen Unternehmern in der
+            Subunternehmerkette vertraglich zu überbinden.
+            Die Erklärung(en) der (des) angeführten Subunternehmer(s) ist (sind) dem Angebot angeschlossen.
+            LB-Version: 23
+
+00.10 25B   Sub-/Nachunternehmer zulässig - krit. Aufgaben nicht zul.
+            Die Erbringung von Leistungen bzw. Teilleistungen durch Dritte, sogenannte Sub- bzw. Nachunternehmer ist für
+            folgende kritische (krit.) Aufgaben NICHT zulässig:
+            Kritische Aufgaben (Leistungsteile): ____________
+            Es müssen die Subunternehmer und durch diese sonstig übernommenen Leistungen bekanntgegeben werden.
+            Form und Angabe zur Bekanntgabe der Subunternehmer und übernommenen Leistungen bzw. der Befugnisse
+            und Leistungsfähigkeit: ____________
+            Der Bieter erklärt auf die in der Beilage angegebenen Kapazitäten der (des) Subunternehmer(s) für den
+            Nachweis der erforderlichen Befugnis, der technischen Leistungsfähigkeit oder, der finanziellen und
+            wirtschaftlichen Leistungsfähigkeit zurückzugreifen.
+            Der Bieter nimmt zur Kenntnis, dass der (die) genannte(n) Subunternehmer die Kriterien der beim Auftraggeber
+            erforderlichen Bieterprüfung erfüllen muss (müssen).
+            Ein Wechsel des Subunternehmers ist nur mit vorheriger schriftlicher Zustimmung des Auftraggebers und
+            darüber hinaus nur dann zulässig, wenn eine sachliche Notwendigkeit für den Wechsel besteht. Im Übrigen wird
+                                                                                                                       Seite 7 / 25
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+            der Auftraggeber einem Wechsel des Subunternehmers im Wesentlichen dann zustimmen, wenn der Bieter die
+            Gleichwertigkeit des neuen Subunternehmers nachweist. Der Auftraggeber behält sich vor, für den neuen
+            Subunternehmer alle Nachweise zu fordern, die vom Bieter zu erbringen sind.
+            Der Bieter verpflichtet sich weiters, die vorgenannte Mitteilungspflicht allen Unternehmern in der
+            Subunternehmerkette vertraglich zu überbinden.
+            Die Erklärung(en) der (des) angeführten Subunternehmer(s) ist (sind) dem Angebot angeschlossen.
+             Kommentar:
+             Der Auftraggeber kann bei Bau- oder Dienstleistungsaufträgen sowie bei Verlege- oder Installationsarbeiten im
+             Zusammenhang mit einem Lieferauftrag vorschreiben, dass bestimmte, von ihm festgelegte kritische Aufgaben vom Bieter
+             selbst, von einem mit diesem verbundenen Unternehmer, oder — im Falle der Teilnahme einer Arbeits- oder
+             Bietergemeinschaft am Vergabeverfahren – von einem Mitglied dieser Arbeits- oder Bietergemeinschaft ausgeführt werden
+             müssen, oder den Rückgriff auf Subunternehmer in der Ausschreibung im Einzelfall beschränken, sofern dies durch den
+             Auftragsgegenstand sachlich gerechtfertigt und angemessen ist.
+
+            LB-Version: 23
+
+00.10 25C   Sub-/Nachunternehmer zulässig - Wesentliche Teile LV
+            Es müssen nur Subunternehmer, welche wesentliche Teile der Leistungen übernehmen, bekanntgegeben
+            werden.
+            Wesentliche Teile der Leistung: ____________
+            Form und Angabe zur Bekanntgabe der Subunternehmer und übernommenen Leistungen bzw. der Befugnisse
+            und Leistungsfähigkeit: ____________
+            Der Bieter erklärt auf die in der Beilage angegebenen Kapazitäten der (des) Subunternehmer(s) für den
+            Nachweis der erforderlichen Befugnis, der technischen Leistungsfähigkeit oder, der finanziellen und
+            wirtschaftlichen Leistungsfähigkeit zurückzugreifen.
+            Der Bieter nimmt zur Kenntnis, dass der (die) genannte(n) Subunternehmer die Kriterien der beim Auftraggeber
+            erforderlichen Bieterprüfung erfüllen muss (müssen).
+            Ein Wechsel des Subunternehmers ist nur mit vorheriger schriftlicher Zustimmung des Auftraggebers und
+            darüber hinaus nur dann zulässig, wenn eine sachliche Notwendigkeit für den Wechsel besteht. Im Übrigen wird
+            der Auftraggeber einem Wechsel des Subunternehmers im Wesentlichen dann zustimmen, wenn der Bieter die
+            Gleichwertigkeit des neuen Subunternehmers nachweist. Der Auftraggeber behält sich vor, für den neuen
+            Subunternehmer alle Nachweise zu fordern, die vom Bieter zu erbringen sind.
+            Der Bieter verpflichtet sich weiters, die vorgenannte Mitteilungspflicht allen Unternehmern in der
+            Subunternehmerkette vertraglich zu überbinden.
+            Die Erklärung(en) der (des) angeführten Subunternehmer(s) ist (sind) dem Angebot angeschlossen.
+             Kommentar:
+             Der Auftraggeber kann aus sachlichen Gründen in der Ausschreibung festlegen, dass nur hinsichtlich der von ihm
+             festgelegten wesentlichen Teile des Auftrages, bei denen der Bieter Subunternehmer in Anspruch nehmen möchte, die
+             jeweils in Frage kommenden Subunternehmer im Angebot bekannt zu geben sind.
+
+            LB-Version: 23
+00.10 27    Für Eignungs- oder Zuschlagskriterien sind die geforderten Nachweise wie folgt abzugeben:
+            Sämtliche geforderten Nachweise sind in der aktuellen Fassung vorzulegen. Die Nachweise dürfen bei Vorlage
+            nicht älter als sechs Monate sein.
+            Bestehen Zweifel an der Eignung des Bieters, kann der Auftraggeber weitere Nachweise verlangen und diese in
+            seine Prüfung einbeziehen.
+             Kommentar:
+             Die hier angeführten Eignungs- und Zuschlagskriterien orientieren sich am BVergG. Es handelt sich um keine vollständige
+             und abschließende Darstellung. Es ist vor jeder Vergabe individuell zu prüfen, welche Eignungsnachweise für den konkreten
+             Leistungsgegenstand abzufragen sind.
+             Beim nicht offenen Verfahren ohne vorherige Bekanntmachung und beim Verhandlungsverfahren ohne vorherige
+             Bekanntmachung hat der Auftraggeber sicherzustellen, dass nur geeignete Unternehmen zur Angebotsabgabe aufgefordert
+             werden.
+
+00.10 27A   Nachweise Eignungskriterien m. Angebot
+            Alle Nachweise sind mit dem Angebot vorzulegen. Stichtag: Ende der Angebotsfrist
+
+            LB-Version: 23
+
+00.10 27B   Nachweise Eignungskriterien bei Aufforderung
+            Alle Nachweise sind bei Aufforderung durch den Auftraggeber vorzulegen.
+            Frist: ____________
+            LB-Version: 23
+
+                                                                                                                            Seite 8 / 25
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+00.10 27C   Nachweise Zuschlagskriterien m. Angebot
+            Alle Nachweise sind mit dem Angebot vorzulegen. Stichtag: Ende der Angebotsfrist
+
+            LB-Version: 23
+00.10 29    Nachweise für das Vorliegen der Eignung der Befugnis.
+
+00.10 29A   Eignungskriterium - Erklärung des Unternehmers
+            Erklärung des Unternehmers, dass er für die Erbringung der ausschreibungsgegenständlichen Leistung alle
+            erforderlichen rechtlichen, fachlichen, technischen und sonstigen Voraussetzungen besitzt.
+             Kommentar:
+             Im Unterschwellenbereich ist auch die Vorlage einer Erklärung darüber, dass der Bieter die vom Auftraggeber verlangten
+             Eignungskriterien erfüllt und die festgelegten Nachweise auf Aufforderung unverzüglich beibringen kann (Eigenerklärung),
+             zulässig. In einer solchen Eigenerklärung sind die Befugnisse anzugeben, über die der Unternehmer konkret verfügt. Wird
+             von dieser Möglichkeit Gebrauch gemacht, ist zudem die Position 00.10 27B "Nachweis Eignungskriterien bei Aufforderung"
+             auszuwählen, sodass alle Nachweise bei Aufforderung durch den Auftraggeber vorzulegen sind.
+
+            LB-Version: 23
+
+00.10 29B   Eignungskriterium - Befugnis
+            Der Bieter garantiert dem Auftraggeber, im Besitz aller für die Durchführung der zu erbringenden Leistungen
+            erforderlichen Berechtigungen bzw. behördlichen Bewilligungen zu sein.
+            Über folgende Befugnis hat der Bieter jedenfalls zu verfügen: ____________
+            Nachweis: ____________
+             Kommentar:
+             Beispielhafter Nachweis:
+             Auskunft aus dem Gewerbeinformationssystem Austria (GISA) gemäß § 365e Abs. 1 der Gewerbeordnung 1994 – GewO
+             1994, BGBl. Nr. 194/1994.oder gleichwertige Dokumente der zuständigen Behörden des Sitzstaates des Unternehmers.
+
+            LB-Version: 23
+
+00.10 29C   Eignungskriterium - Gewerbeinformationssystem GISA
+            Der Unternehmer darf sich nicht in Liquidation befinden oder seine gewerbliche Tätigkeit einstellen oder
+            eingestellt haben.
+            Nachweis: Auskunft aus dem Gewerbeinformationssystem Austria (GISA) gemäß § 365e Abs. 1 der
+            Gewerbeordnung 1994 – GewO 1994, BGBl. Nr. 194/1994.oder gleichwertige Dokumente der zuständigen
+            Behörden des Sitzstaates des Unternehmers.
+            LB-Version: 23
+
+00.10 29D   Eignungskriterium - Strafregisterbescheinigung
+            Der Unternehmer und jene natürlichen Personen, die Mitglieder im Verwaltungs-, Leitungs- oder Aufsichtsorgan
+            des Unternehmers sind oder die darin Vertretungs-, Entscheidungs- oder Kontrollbefugnisse haben, dürfen für
+            keine im BVergG aufgezählten Straftaten rechtskräftig verurteilt worden sein.
+            Nachweis: Strafregisterbescheinigung gemäß § 10 des Strafregistergesetzes 1968 (oder eine gleichwertige
+            Bescheinigung einer Gerichts- oder Verwaltungsbehörde des Herkunftslandes des Unternehmers), des Bieters
+            oder im Fall einer juristischen Person oder einer eingetragenen Personengesellschaft jener natürlichen
+            Personen, die Mitglieder im Verwaltungs-, Leitungs- oder Aufsichtsorgan des Unternehmers sind oder die darin
+            Vertretungs-, Entscheidungs- oder Kontrollbefugnisse haben (z.B. Geschäftsführer oder Prokuristen einer
+            Gesellschaft mit beschränkter Haftung) und die Registerauskunft für Verbände gemäß § 89m des
+            Gerichtsorganisationsgesetzes – GOG, RGBl. Nr. 217/1896, oder eine gleichwertige Bescheinigung eines
+            Gerichtes oder einer Verwaltungsbehörde des Sitzstaates des Unternehmers.
+             Kommentar:
+             Straftaten siehe § 78 Abs 1 Z 1 BVergG 2018
+
+            LB-Version: 23
+
+00.10 29E   Eignungskriterium - Insolvenzdatei
+            Über das Vermögen des Unternehmers darf kein Insolvenzverfahren eröffnet oder mangels kostendeckenden
+            Vermögens von der Eröffnung eines Insolvenzverfahrens abgesehen worden sein.
+            Nachweis: Auszug aus der Insolvenzdatei gemäß § 256 der Insolvenzordnung oder gleichwertige Dokumente
+            der zuständigen Behörden des Sitzstaates des Unternehmers.
+
+
+
+
+                                                                                                                            Seite 9 / 25
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+             Kommentar:
+             Hinweis: An Unternehmer, über deren Vermögen ein Insolvenzverfahren eröffnet oder mangels kostendeckenden
+             Vermögens kein Insolvenzverfahren eröffnet wurde oder die sich in Liquidation befinden oder ihre gewerbliche Tätigkeit
+             einstellen, können jedoch Aufträge im Wege der Direktvergabe und der Direktvergabe mit vorheriger Bekanntmachung
+             vergeben werden, wenn ihre Leistungsfähigkeit dazu hinreicht.
+
+            LB-Version: 23
+
+00.10 29F   Eignungskriterium - Firmenbuchauszug
+            Der Unternehmer darf sich nicht in Liquidation befinden oder seine gewerbliche Tätigkeit einstellen oder
+            eingestellt haben.
+            Nachweis: Auszug aus dem Firmenbuch gemäß § 33 des Firmenbuchgesetzes oder gleichwertige Dokumente
+            der zuständigen Behörden des Sitzstaates des Unternehmers.
+
+            LB-Version: 23
+
+00.10 29G   Eignungskriterium - Sozialversicherungsbeiträge
+            Der Unternehmer muss seine Verpflichtungen zur Entrichtung der Sozialversicherungsbeiträge in Österreich
+            oder gemäß den Vorschriften des Landes, in dem er seinen Sitz hat, erfüllt haben.
+            Nachweis: Letztgültige Kontobestätigung bzw. Unbedenklichkeitsbescheinigung des zuständigen
+            Sozialversicherungsträgers oder gleichwertige Dokumente der zuständigen Behörden des Sitzstaates des
+            Unternehmers als Beilage.
+            LB-Version: 23
+
+00.10 29H   Eignungskriterium - Rückstandsbescheinigung
+            Der Unternehmer muss seine Verpflichtungen zur Entrichtung der Steuern und Abgaben in Österreich oder
+            gemäß den Vorschriften des Landes, in dem er seinen Sitz hat, erfüllt haben.
+            Nachweis: Letztgültige Rückstandsbescheinigung gemäß § 229a der Bundesabgabenordnung– BAO, BGBl. Nr.
+            194/1961 oder gleichwertige Dokumente der zuständigen Behörden des Sitzstaates des Unternehmers als
+            Beilage.
+            LB-Version: 23
+00.10 31    Nachweise für das Vorliegen der finanziellen und wirtschaftlichen Leistungsfähigkeit.
+
+00.10 31A   Eignungskriterium - Bonitätsauskunft
+            Der Bieter muss über eine Bonitätsauskunft eines im EWR oder der Schweiz ansässigen Kreditinstitutes
+            verfügen, mit welcher bestätigt wird, dass der Bieter kreditwürdig, nicht überschuldet und nicht
+            insolvenzgefährdet ist.
+            LB-Version: 23
+
+00.10 31B   Eignungskriterium - Berufshaftpflichtversicherung
+            Der Bieter (bzw. jedes Mitglied der Bietergemeinschaft) muss über eine aufrechte Berufshaftpflichtversicherung
+            verfügen.
+            Die Versicherungssumme darf pro Schadensfall nicht kleiner als der Angebotspreis (inkl. Umsatzsteuer) sein,
+            mindestens hat sie jedoch ____________ EURO zu betragen.
+            Jede Änderung ist dem Auftraggeber schriftlich mitzuteilen.
+            Nachweis: ____________
+             Kommentar:
+             Beispiel für einen Nachweis:
+             Vorlage einer Versicherungsbestätigung mit Angabe über die Versicherungssumme.
+
+            LB-Version: 23
+
+00.10 31D   Eignungskriterium - Vorlage von Jahresabschlüssen
+            Vorlage von Jahresabschlüssen oder Auszügen aus diesen.
+            Mindestanforderungen des Auftraggebers an die Jahresabschlüsse oder Auszüge aus diesen Zeitraum:
+            ____________
+            Nachweis: ____________
+             Kommentar:
+             Nur zulässig, sofern deren Offenlegung im Sitzstaat des Unternehmers gesetzlich vorgeschrieben ist, gegebenenfalls unter
+             Angabe des Verhältnisses z.B. zwischen Vermögen und Verbindlichkeiten, sofern der Auftraggeber die transparenten,
+             objektiven und nicht diskriminierenden Methoden und Kriterien für die Ermittlung dieses Verhältnisses spezifiziert hat.
+
+            LB-Version: 23
+                                                                                                                             Seite 10 / 25
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+00.10 31E   Eignungskriterium - solidarische Leistungserbringung Sub
+            Erklärung über die solidarische Leistungserbringung von Subunternehmern, falls sich der Bieter zum Nachweis
+            seiner finanziellen und wirtschaftlichen Leistungsfähigkeit auf die Kapazitäten von Subunternehmern stützt:
+            Nachweis: ____________
+            LB-Version: 23
+
+00.10 31G   Eignungskriterium - Mindestgesamtumsatz
+            Erklärung über den Gesamtumsatz und gegebenenfalls über den Umsatz für den Tätigkeitsbereich, in den die
+            gegenständliche Vergabe fällt, für die letzten drei Geschäftsjahre oder für einen kürzeren Tätigkeitszeitraum,
+            falls das Unternehmen noch nicht so lange besteht.
+            Nachweis: ____________
+                • Mindestgesamtumsatz (netto): ____________
+                • Mindestumsatz (netto) und Angabe des Tätigkeitsbereichs in den die Vergabe fällt:____________
+             Kommentar:
+             Hier ist entweder der gesamte Umsatz des Unternehmens und/oder der Umsatz für einen gewissen Tätigkeitsbereich, in den
+             die gegenständliche Vergabe fällt, der letzten drei Geschäftsjahre anzugeben. Zudem ist der Tätigkeitsbereich, in den die
+             gegenständliche Vergabe fällt vom Auftraggeber, anzugeben. Als Nachweis kann zusätzlich z.B. die Vorlage von
+             Jahresabschlüssen verlangt werden.
+
+            LB-Version: 23
+
+00.10 31H   Eignungskriterium - Mindestgesamtjahresumsatz
+            Erklärung über den Mindestgesamtjahresumsatz und gegebenenfalls über einen Mindestjahresumsatz für den
+            Tätigkeitsbereich, in den die gegenständliche Vergabe fällt, für die letzten drei Geschäftsjahre oder für einen
+            kürzeren Tätigkeitszeitraum, falls das Unternehmen noch nicht so lange besteht.
+            Nachweis: ____________
+                • Mindestgesamtjahresumsatz (netto):____________
+                • Mindestumsatz (netto) und Angabe des Tätigkeitsbereichs in den die Vergabe fällt, pro Geschäftsjahr
+                  (netto):____________
+             Kommentar:
+             Hier ist entweder der gesamte Jahresumsatz des Unternehmens und/oder der Umsatz für einen gewissen Tätigkeitsbereich,
+             in den die gegenständliche Vergabe fällt, der letzten drei Geschäftsjahre pro Geschäftsjahr anzugeben. Zudem ist der
+             Tätigkeitsbereich, in den die gegenständliche Vergabe fällt, vom Auftraggeber anzugeben. Als Nachweis kann zusätzlich z.B.
+             die Vorlage von Jahresabschlüssen verlangt werden.
+             Der verlangte Mindestgesamtjahresumsatz darf nicht das Zweifache des geschätzten Auftragswertes überschreiten, außer in
+             hinreichend begründeten Fällen, die mit den speziellen Risiken zusammenhängen, die die Wesensart der Leistung betreffen.
+             Der Auftraggeber hat die wichtigsten Gründe für eine solche Überschreitung in der Ausschreibung oder im Vergabevermerk
+             anzugeben.
+
+            LB-Version: 23
+
+00.10 31K   Eignungskriterium - Einstufung Ratingsystem
+            Vorlage einer Auskunft/Ratings einer anerkannten europäischen Bonitätsauskunft/Ratingagentur, welches dem
+            Unternehmer höchstens ein geringes Risiko bescheinigt.
+            LB-Version: 23
+
+00.10 31L   Eignungskriterium - Einstufung Ratingsystem:__________
+            Vorlage einer Auskunft/Ratings vom ____________, welches weniger als ____________ Punkte (geringes
+            Risiko) aufweist oder eines vergleichbaren Ratings einer anerkannten europäischen
+            Bonitätsauskunft/Ratingagentur.
+             Kommentar:
+             Wird dieses Eignungskriterium herangezogen, ist vom Auftraggeber eine der beiden Unterpositionen auszuwählen
+
+            LB-Version: 23
+00.10 32    Nachweise für das Vorliegen der technischen Leistungsfähigkeit.
+
+00.10 32B   Eignungskriterium - Nachweis Referenzen Jahre
+            Referenzen über die wesentlichen, in den letzten ____________ Jahren erbrachten Leistungen.
+            Verlangte Anzahl der Referenzprojekte: ____________
+            Mindestanforderungen des Auftraggebers an das Referenzprojekt: ____________
+            Nachweis: ____________
+
+
+                                                                                                                            Seite 11 / 25
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                                EH
+             Kommentar:
+             Es können grundsätzlich Referenzprojekte über die wesentlichen, in den letzten 5 Jahren erbrachten Bauleistungen gefordert
+             werden. Bei Lieferungen und Dienstleistungen beträgt dieser Zeitraum 3 Jahre. Soweit dies zur Sicherstellung eines
+             ausreichenden Wettbewerbs erforderlich ist, kann der Auftraggeber einen längeren Zeitraum festlegen. Dies ist intern
+             schriftlich zu begründen und zu dokumentieren.
+             Beispiel für Nachweis: „Für jedes bekannt gegebene Referenzprojekt ist als Beilage eine Beschreibung desselben
+             beizulegen, aus welcher sich eindeutig die Erfüllung der festgelegten Anforderungen ergibt.“
+
+            LB-Version: 23
+
+00.10 32C   Eignungskriterium Qualitätssicherung
+            Beschreibung der Maßnahmen des Unternehmers zur Qualitätssicherung (QS).
+            Mindestanforderungen des Auftraggebers an die Maßnahmen des Unternehmers zur Qualitätssicherung:
+            ____________
+            Nachweis: ____________
+             Kommentar:
+             Für den Nachweis kann z.B. eine Zertifizierung gemäß ÖNORM EN ISO 9001 erbracht werden.
+
+            LB-Version: 23
+
+00.10 32D   Eignungskriterium - techn. Fachkräfte in Bezug auf QK
+            Angabe der technischen Fachkräfte oder technischen Stellen, unabhängig davon, ob diese dem Unternehmen
+            angehören, und zwar insbesondere derjenigen, die mit der Qualitätskontrolle (QK) beauftragt sind oder über die
+            der Unternehmer für die Ausführung des Bauvorhabens verfügen wird:
+            Mindestanforderungen des Auftraggebers an die technischen Fachkräfte oder technischen Stellen:
+            ____________
+            Nachweis: ____________
+             Kommentar:
+             Beispiel für Nachweis: Ausbildungsnachweis, Zertifizierung
+
+            LB-Version: 23
+
+00.10 32F   Eignungskriterium - Ausbildung/Qualifikation Schlüsselpers.
+            Ausbildungsnachweise und Bescheinigungen über die berufliche Befähigung des Schlüsselpersonals:
+            Mindestanforderungen des Auftraggebers an die Ausbildung und die Qualifikation der Schlüsselpersonen
+            (einschließlich Festlegung wer als Schlüsselpersonal gilt): ____________
+            Der Bieter verpflichtet sich das namentlich genannte Schlüsselpersonal für die Leistungserbringung
+            heranzuziehen. Beabsichtigt der Bieter, Schlüsselpersonal auszutauschen, so hat er dies dem Auftraggeber
+            vorab schriftlich mitzuteilen. Ein Austausch des bekannt gegebenen Schlüsselpersonals durch den
+            Auftragnehmer ist nur mit vorheriger schriftlicher Zustimmung des Auftraggebers möglich, wobei sich durch
+            einen Wechsel des Schlüsselpersonals keine Schlechterstellung des Auftraggebers ergeben darf. Die
+            Beweislast diesbezüglich trifft den Auftragnehmer.
+            Nachweis: ____________
+             Kommentar:
+             Beispiel: Für jede bekannt gegebene Schlüsselperson ist als Beilage ein Lebenslauf mit Angabe der Ausbildung und
+             Berufserfahrung (in vollen Jahren) beizulegen. Als Stichtag für die Berufserfahrung in vollen Jahren gilt das Ende der
+             Angebotsfrist.
+
+            LB-Version: 23
+
+00.10 32G   Eignungskriterium - Umweltmanagementmaßnahmen
+            Angabe der Umweltmanagementmaßnahmen, die der Unternehmer bei der Ausführung des Auftrages
+            anwenden wird.
+            Mindestanforderungen des Auftraggebers an die Umweltmanagementmaßnahmen: ____________
+            Nachweis: ____________
+             Kommentar:
+             Beispiel für Nachweis: Zertifizierung
+
+            LB-Version: 23
+
+00.10 32H   Eignungskriterium - Erklärung ü. Geräte, techn. Ausrüstung
+
+
+
+
+                                                                                                                               Seite 12 / 25
+                                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+            Erklärung, aus der hervorgeht, über welche Ausstattung, welche Geräte und welche technische (techn.)
+            Ausrüstung der Unternehmer für die Ausführung des Auftrages verfügen wird.
+            Mindestanforderungen des Auftraggebers an die technische Ausrüstung des Unternehmers: ____________
+            Nachweis: ____________
+             Kommentar:
+             Beispiel für Nachweis: Zertifizierung
+
+            LB-Version: 23
+
+00.10 32I   Eignungskriterium - Erklärung durchschnittl. Beschäftigte
+            Erklärung, aus der das jährliche Mittel der vom Unternehmer in den letzten drei Jahren Beschäftigten und die
+            Anzahl seiner Führungskräfte in den letzten drei Jahren ersichtlich sind.
+            Mindestanforderungen des Auftraggebers: ____________
+            Nachweis: ____________
+             Kommentar:
+             Es wird empfohlen, die Begriffe „Beschäftigte“ und „Führungskräfte“ in den Mindestanforderungen abschließend zu
+             definieren.
+             Beispiel: Als Beschäftigte gelten Mitarbeiter mit einer durchgehenden Gesamtvertragslaufzeit von zumindest 6 Monaten und
+             einer wöchentlichen Arbeitszeit von zumindest 30 Stunden.
+
+            LB-Version: 23
+00.10 39    Die Vergabe erfolgt gemäß folgendem Zuschlagsprinzip:
+
+00.10 39A   Vergabe gemäß niedrigstem Preis
+            Zuschlag für das Angebot mit dem niedrigsten Preis.
+
+            LB-Version: 23
+
+00.10 39B   Vergabe gemäß technisch, wirtschaftlich günstigstem Angebot
+            Zuschlag für das technisch und wirtschaftlich günstigste Angebot auf Basis der definierten Zuschlagskriterien.
+            Die erreichten Punkte werden mathematisch auf eine Nachkommastelle gerundet.
+
+
+                                                                                                          Höchstmögliche Punkte
+            Zuschlagskriterium:
+                                                                                                          je Zuschlagskriterium:
+            ____________                                                                                  ____________
+            ____________                                                                                  ____________
+            ____________                                                                                  ____________
+            ____________                                                                                  ____________
+            ____________                                                                                  ____________
+            ____________                                                                                  ____________
+            ____________                                                                                  ____________
+            ____________                                                                                  ____________
+            ____________                                                                                  ____________
+            ____________                                                                                  ____________
+            ____________                                                                                  ____________
+            ____________                                                                                  ____________
+            ____________                                                                                  ____________
+            ____________                                                                                  ____________
+            ____________                                                                                  ____________
+
+             Gesamtpunkte für die Vergabe gemäß technisch und wirtschaftlich
+                                                                                                          ____________
+             günstigstem Angebot:
+
+
+             Kommentar:
+             Es ist sicherzustellen, dass die festgelegten Zuschlagskriterien mit dem Auftragsgegenstand in Verbindung stehen.
+             Zuschlagskriterien stehen mit dem Auftragsgegenstand in Verbindung, wenn sie sich in irgendeiner Hinsicht und in
+             irgendeinem Stadium des Lebenszyklus auf die gemäß dem Auftrag zu erbringenden Leistungen beziehen
+             Beispiel:
+             Es wird eine maximal erreichbare Punkteanzahl von 100 Punkten festgelegt. Diese 100 Punkte werden im Folgenden durch
+             den Auftraggeber gewichtet (z.B. Zuschlagskriterium Preis 60 Punkte, Zuschlagskriterium Energieverbrauch 30 Punkte,
+                                                                                                                            Seite 13 / 25
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                               EH
+             Zuschlagskriterium Qualität 5 Punkte, Zuschlagskriterium Gewährleistung 5 Punkte).
+             Die Zuschlagskriterien werden in folgenden Positionen definiert, in der Tabelle in den Spalten "Zuschlagskriterien" und
+             "Maximal erreichbare Punkte je Zuschlagskriterium" untereinander eingetragen.
+             In Summe muss dies nun wieder die vorab festgelegten 100 Punkte ergeben.
+              Preis                                                            60 Punkte
+              Energie                                                          30 Punkte
+              Qualität                                                         5 Punkte
+              Gewährleistung                                                   5 Punkte
+              ____
+              Gesamt                                                           100 Punkte
+             Dazu können die nachfolgenden Vorbemerkungen zur inhaltlichen Definition auch mehrfach herangezogen werden.
+             (Mehrfachverwendung)
+            LB-Version: 23
+00.10 41    Die Wahl des Angebotes für den Zuschlag erfolgt gemäß folgenden Zuschlagskriterien:
+             Kommentar:
+             Vor der Auswahl jedes Kriteriums ist zu prüfen, ob dieses Zuschlagskriterium für den ausgeschriebenen
+             Leistungsgegenstand geeignet ist. Sollte dieses Kriterium schon im Rahmen der Eignungskriterien angewendet worden sein,
+             so ist nur eine über die Eignungskriterien hinausgehende Bewertung dieses Kriteriums im Rahmen der Zuschlagskriterien
+             zulässig.
+             In der Stichwortlücke ist die Angabe zum jeweiligen Zuschlagskriterium zu definieren.
+
+00.10 41A   Zuschlagskriterium Preis
+            Erreichte Punkteanzahl = (Geprüfter Gesamtpreis des Bieters mit dem niedrigsten Preis / Gesamtpreis des
+            jeweiligen Bieters) * ____________ (Maximal erreichbare Punkte für das Zuschlagskriterium Preis)
+            Die Berechnung der Punkte wird mathematisch gerundet auf eine Nachkommastelle ermittelt.
+             Kommentar:
+             Bei der Vergabe gemäß technisch und wirtschaftlich günstigstem Angebot (Position 00 10 39B) ist die in der Tabelle
+             angegebene maximale Punktezahl für das Zuschlagskriterium Preis in der Ausschreiberlücke anzugeben.
+             Beispiel:
+             Maximale Punktezahl für das Zuschlagskriterium Preis mit 60 Punkten.
+             Bieterpreis A: 120.000€
+             Geprüfter Billigstbieter: 100.000€
+             (100.000/120.000)*60 = 50
+             Der Bieter A erhält somit beim Zuschlagskriterium Preis von den maximal erreichbaren 60 Punkten nun 50 Punkte.
+
+            LB-Version: 23
+
+00.10 41B   Zuschlagskriterium Spezifikation:__________
+            Spezifikationen beschreiben die für die Leistung geforderten Merkmale und können sich auf folgende Merkmale
+            beziehen:
+                • Spezifischer Prozess
+                • Spezifische Methode zur Produktion bzw. Erbringung der nachgefragten Leistung
+                • Spezifischer Prozess eines Lebenszyklus-Stadiums der Leistung
+            Die erreichte Punkteanzahl des Zuschlagskriteriums "Spezifikationen" richtet sich je Art der Spezifikation gemäß
+            dem angegebenen Bewertungsverfahren.
+            Die Berechnung der Punkte wird mathematisch gerundet auf eine Nachkommastelle ermittelt.
+            Angabe der Spezifikation: ____________
+            Bewertungsverfahren: ____________
+             Kommentar:
+             Bei Vergabe gemäß technisch und wirtschaftlich günstigstem Angebot sind die maximal erreichbaren Punkte für das
+             Zuschlagskriterium Spezifikation in der Ausschreiberlücke der Tabelle (Vorbemerkung 00.10 39B) anzugeben.
+             Unter Art Spezifikation fallen folgende beispielhaften Angaben:
+                 • Qualität
+                 • Folgekosten
+                 • Reaktionszeit für Kundendienst und technische Hilfe
+                 • Ausführungsfrist
+                 • Ökobilanz
+             Unter Bewertungsverfahren ist die Methode der Bewertung, z.B. Kriterien wie Kategorisierung, Vergleichsverfahren (mit
+             kleinerer oder größerer Zahl steigt die Qualität), Ja/Nein-Kriterium, sowie die nachvollziehbare Punktegewichtung des
+             Bewertungsverfahrens festzulegen.
+             Beispiel:
+                                                                                                                               Seite 14 / 25
+                                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+             Spezifikation Qualitätskriterium Monitoringsanbindung.
+             Bewertungsverfahren als Ja/Nein-Kriterium:
+             Wird die Spezifikation erfüllt: 30 Punkte. Spezifikation wird nicht erfüllt: 0 Punkte
+            LB-Version: 23
+
+00.10 41C   Zuschlagskriterium Produkteigenschaften:__________
+            Produkteigenschaften beschreiben die für die ausgeschriebenen Materialien geforderten Mindestmerkmale(z.B.
+            Materialkennzeichen, Wirkungsgrad, Verbrauch).
+            Die erreichte Punkteanzahl des Zuschlagskriteriums "Produkteigenschaften" richtet sich je Art der Angabe
+            gemäß dem angegebenen Bewertungsverfahren.
+            Die Berechnung der Punkte wird mathematisch gerundet auf eine Nachkommastelle ermittelt.
+            Angabe der Produkteigenschaft: ____________
+            Bewertungsfahren: ____________
+             Kommentar:
+             Bei Vergabe gemäß technisch und wirtschaftlich günstigstem Angebot sind die maximal erreichbaren Punkte für das
+             Zuschlagskriterium Spezifikation in der Ausschreiberlücke der Tabelle (Vorbemerkung 00.10 39B) anzugeben.
+             Unter die Art Produkteigenschaften fallen folgende beispielhaften Angaben:
+                 • Qualität
+                 • erweiterter Gewährleistungszeitraum
+                 • Folgekosteneinsparung Heizung oder Lüftung
+                 • Sicherstellung von Liefer- und Produktionsketten durch Nearshoring und Reshoring
+                 • Maßnahmen für eine klimaneutrale, nachhaltige Kreislaufwirtschaft der Produktion
+             Unter Bewertungsverfahren ist die Methode der Bewertung, z.B. Kriterien wie Kategorisierung, Vergleichsverfahren (mit
+             kleinerer oder größerer Zahl steigt die Qualität), Ja/Nein-Kriterium, sowie die nachvollziehbare Punktegewichtung des
+             Bewertungsverfahrens festzulegen.
+             Beispiel:
+             Bewertungsverfahren: Kategorisierung von Produkteigenschaften (maximale Punkteanzahl 20 Punkte) - Angabe der
+             Produkteigenschaft:
+             "erweiterter Gewährleistungszeitraum"
+                 • 3 Jahre - 10 Punkte
+                 • ü.3-5 Jahre - 15 Punkte
+                 • >7 Jahre - 20 Punkte
+
+            LB-Version: 23
+
+00.10 41D   Zuschlagskriterium Baustellenlogistik/ -einricht.:__________
+            Das Zuschlagskriterium Baustellenlogistik/-einrichtung (Baustellenlogistik/-einricht.) beschreibt die logistischen
+            Komponenten des Baubetriebs oder die Komponenten der Baustelleneinrichtung (z.B. Ausstattung
+            Baustelleneinrichtung, Energieeffizienz/Verbrauch der Baustelleneinrichtung, Logistiksteuerung,
+            Logistikmanagement).
+            Die erreichte Punkteanzahl des Zuschlagskriteriums " Baustellenlogistik/-einrichtung" richtet sich je Art der
+            Angabe gemäß dem angegebenen Bewertungsverfahren.
+            Die Berechnung der Punkte wird mathematisch gerundet auf eine Nachkommastelle ermittelt.
+            Angabe der Baustellenlogistik/-einrichtung: ____________
+            Bewertungsfahren: ____________
+             Kommentar:
+             Bei Vergabe gemäß technisch und wirtschaftlich günstigstem Angebot sind die maximal erreichbaren Punkte für das
+             Zuschlagskriterium Spezifikation in der Ausschreiberlücke der Tabelle (Vorbemerkung 00.10 39B) anzugeben.
+             Unter Art Baustellenlogistik/-einrichtung fallen folgende beispielhaften Angaben:
+                 • Energieeffizienz durch neue Technologien alternative Energiesysteme
+                 • Maßnahmen Emissionsschutz
+                 • Maßnahmen Kreislaufwirtschaft
+             Unter Bewertungsverfahren ist die Methode der Bewertung, z.B. Kriterien wie Kategorisierung, Vergleichsverfahren (mit
+             kleinerer oder größerer Zahl steigt die Qualität), Ja/Nein-Kriterium, sowie die nachvollziehbare Punktegewichtung des
+             Bewertungsverfahrens festzulegen.
+             Beispiel:
+             Baustellenlogistik als Vergleichsverfahren (maximale Punkteanzahl 10 Punkte) - Angabe der Baustellenlogistik/-einrichtung:
+             Energieeffizienz durch Alternative Energiesysteme (Je kleiner der Energieverbrauch der Baustelleneinrichtung durch neue
+             Technologien oder alternative Energiesysteme, desto mehr Punkte.)
+             Der Bieter hat die Maßnahmen und deren Auswirkung anzugeben. z.B. Einsparungspotential in kWh durch Maßnahme
+             PV-Anlage für Baustellencontainer, Wasser/Abwasser in Liter durch Einsatz von wassersparenden Technologien, Nutzung
+             von Grauwasser.
+
+                                                                                                                             Seite 15 / 25
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                                EH
+             Beispiel:
+             Bewertungsverfahren "Vergleichsverfahren" in Bezug auf die Energieeffizienz durch Alternative Energiesysteme
+             5 Punkte für den niedrigsten Energiewert
+             Bieter C gibt 30.000kWh an
+             Bieter B gibt 40.000kWh an
+             Bieter A gibt 35.000kWh an
+             d.h. Bieter C bekommt 5 Punkte, Bieter B bekommt (30.000/40.000)*5=3,75 Punkte, Bieter A bekommt
+             (30.000/35.000)*5=4,29 Punkte
+            LB-Version: 23
+
+00.10 41F   Zuschlagskriterium Qualifikation Schlüsselpers.:__________
+            In diesem Kriterium wird die fachspezifische Qualifikation (z.B. Ausbildung und Berufserfahrung) des bekannt
+            gegebenen Schlüsselpersonals (Schlüsselpers.) bewertet.
+            Personalkategorie (z.B. Bauleiter, Polier): ____________
+            Bewertungsverfahren: ____________
+            Nachweis: ____________
+             Kommentar:
+             Bei Vergabe gemäß technisch und wirtschaftlich günstigstem Angebot sind die maximal erreichbaren Punkte für das
+             Zuschlagskriterium Spezifikation in der Ausschreiberlücke der Tabelle (Vorbemerkung 00.10 39B) anzugeben.
+             Unter Bewertungsverfahren ist die Methode der Bewertung, z.B. Kriterien wie Kategorisierung, Vergleichsverfahren (mit
+             kleinerer oder größerer Zahl steigt die Qualität), Ja/Nein-Kriterium, sowie die nachvollziehbare Punktegewichtung des
+             Bewertungsverfahrens festzulegen.
+             Beispiel:
+             Personalkategorie: Bauleiter
+             Bewertungsverfahren "Kategorisierung"
+             maximal erreichbare Punkte: 5
+             Berufserfahrung
+             0-3 Jahre 0 Punkte
+             über 3-7 Jahre 2 Punkte;
+             über 7 Jahre 5 Punkte
+             Als Nachweis ist z.B. Für jede bekannt gegebene Schlüsselperson ein Lebenslauf mit Angabe der Ausbildung und
+             Berufserfahrung (in vollen Jahren), beizulegen. Als Stichtag für die Berufserfahrung in vollen Jahren gilt das Ende der
+             Angebotsfrist.
+
+            LB-Version: 23
+
+00.10 41G   Zuschlagskriterium Referenzen Schlüsselpers.:__________
+            In diesem Kriterium werden die vom bekannt gegebenen Schlüsselpersonal (Schlüsselpers.) erbrachten
+            Referenzen bewertet.
+            Personalkategorie (z.B. Bauleiter, Polier): ____________
+            Anforderungen an die Referenzen (z.B. Anzahl Referenzen der letzten 3 Jahre, Auftragsvolumen,
+            Auftragsgegenstand): ____________
+            Bewertungsverfahren: ____________
+            Nachweis: ____________
+             Kommentar:
+             Bei Vergabe gemäß technisch und wirtschaftlich günstigstem Angebot sind die maximal erreichbaren Punkte für das
+             Zuschlagskriterium Spezifikation in der Ausschreiberlücke der Tabelle (Vorbemerkung 00.10 39B) anzugeben.
+             Unter Bewertungsverfahren ist die Methode der Bewertung, z.B. Kriterien wie Kategorisierung, Vergleichsverfahren (mit
+             kleinerer oder größerer Zahl steigt die Qualität), Ja/Nein-Kriterium, sowie die nachvollziehbare Punktegewichtung des
+             Bewertungsverfahrens festzulegen.
+             Beispiel:
+             Personalkategorie: Bauleiter
+             Anforderungen an die Referenzen:
+                 • Auftragsgegenstand: Bauprojekt XY
+                 • Auftragsvolumen: XX EUR
+                 • Zeitraum: Innerhalb der letzten 3 Jahre ab Ende der Angebotsfrist
+                 • Anzahl: höchstens 3 Referenzen
+             Bewertungsverfahren: "Vergleichsverfahren mit Punkteverteilung":
+             Für jede Referenz, welche alle Anforderungen erfüllt, erhält der Bieter 5 Punkte.
+
+
+
+
+                                                                                                                               Seite 16 / 25
+                                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+             max. erreichbare Punkte: 15 Punkte
+             Beispiel für Nachweis: „Für jede bekannt gegebene Referenz des Schlüsselpersonals ist als Beilage eine Beschreibung
+             desselben beizulegen, aus welcher sich eindeutig die Erfüllung der festgelegten Anforderungen ergibt.“
+            LB-Version: 23
+
+00.10 41H   Zuschlagskriterium Referenzprojekte Bieter:__________
+            Unter diesem Zuschlagskriterium sind vom bietenden Unternehmer erbrachte Referenzprojekte vorzulegen.
+            Anforderungen an die Referenzen (z.B. Auftragsgegenstand, Auftragsvolumen, Zeitraum, Anzahl):
+            ____________
+            Anzahl Referenzen der letzten 3 Jahre: ____________
+            Bewertungsverfahren: ____________
+            Nachweis: ____________
+             Kommentar:
+             Bei Vergabe gemäß technisch und wirtschaftlich günstigstem Angebot sind die maximal erreichbaren Punkte für das
+             Zuschlagskriterium Spezifikation in der Ausschreiberlücke der Tabelle (Vorbemerkung 00.10 39B) anzugeben.
+             Es können grundsätzlich Referenzprojekte über die wesentlichen, in den letzten 5 Jahren erbrachten Bauleistungen gefordert
+             werden. Bei Lieferungen und Dienstleistungen beträgt dieser Zeitraum 3 Jahre. Soweit dies zur Sicherstellung eines
+             ausreichenden Wettbewerbs erforderlich ist, kann der Auftraggeber einen längeren Zeitraum festlegen. Dies ist intern
+             schriftlich zu begründen und zu dokumentieren.
+             Unter Bewertungsverfahren ist die Methode der Bewertung, z.B. Kriterien wie Kategorisierung, Vergleichsverfahren (mit
+             kleinerer oder größerer Zahl steigt die Qualität), Ja/Nein-Kriterium, sowie die nachvollziehbare Punktegewichtung des
+             Bewertungsverfahrens festzulegen.
+             Beispiel:
+             Anforderungen an die Referenzprojekte:
+                 • Auftragsgegenstand: Bauprojekt XY
+                 • Auftragsvolumen: XX EUR
+                 • Zeitraum: Innerhalb der letzten 5 Jahre ab Ende der Angebotsfrist
+                 • Anzahl: höchstens 3 Referenzprojekte
+             Bewertungsverfahren: "Vergleichsverfahren mit Punkteverteilung":
+             Für jede Referenz, welche alle Anforderungen erfüllt, erhält der Bieter 5 Punkte.
+             max. erreichbare Punkte: 15 Punkte
+             Beispiel für Nachweis: „Für jedes bekannt gegebene Referenzprojekt ist als Beilage eine Beschreibung desselben
+             beizulegen, aus welcher sich eindeutig die Erfüllung der festgelegten Anforderungen ergibt.“
+
+            LB-Version: 23
+
+00.10 41I   Zuschlagskriterium Umweltmanagementmaßnahmen:__________
+            Dieses Zuschlagskriterium dient der Bewertung der Umweltmanagementmaßnahmen des bietenden
+            Unternehmers.
+            Anforderungen an das Umweltmanagementsystem: ____________
+            Bewertungsverfahren: ____________
+            Nachweis: ____________
+             Kommentar:
+             Bei Vergabe gemäß technisch und wirtschaftlich günstigstem Angebot sind die maximal erreichbaren Punkte für das
+             Zuschlagskriterium Spezifikation in der Ausschreiberlücke der Tabelle (Vorbemerkung 00.10 39B) anzugeben.
+             Unter Bewertungsverfahren ist die Methode der Bewertung, z.B. Kriterien wie Kategorisierung, Vergleichsverfahren (mit
+             kleinerer oder größerer Zahl steigt die Qualität), Ja/Nein-Kriterium, sowie die nachvollziehbare Punktegewichtung des
+             Bewertungsverfahrens festzulegen.
+             Beispiel für Nachweis: Zertifizierung
+             Bei Vergabe gemäß technisch, wirtschaftlich günstigstem Angebot (Position 00 10 39B) ist die in der Tabelle die maximal
+             erreichbaren Punkte für das Zuschlagskriterium Umweltmanagementmaßnahmen in der Ausschreiberlücke anzugeben.
+             Beispiel:
+             Spezifikation Umweltmanagementmaßnahme Recycling vor Ort und Einbau Altbestand Beton.
+             Bewertungsverfahren "Ja/Nein-Kriterium":
+             Wird die Spezifikation erfüllt: 30 Punkte. Spezifikation wird nicht erfüllt: 0 Punkte
+
+            LB-Version: 23
+
+00.20       Bestimmungen für den Vertrag
+            LB-Version: 23
+
+
+
+                                                                                                                            Seite 17 / 25
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+00.20 01    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+00.20 01A   Leistungstermine
+            Termine:
+            Frühestmöglicher Arbeitsbeginn: ____________
+            Verbindlicher Fertigstellungstermin: ____________
+             Kommentar:
+             Bei vorhandenem Terminplan ist die Pos. 00.20.01 A nicht zu verwenden.
+
+            LB-Version: 23
+
+00.20 01B   Terminplan verbindlich
+            Die Arbeiten und Lieferungen sind in den im Terminplan festgesetzten Leistungsfristen durchzuführen.
+            Terminplan Version: ____________
+            LB-Version: 23
+
+00.20 01F   Beschreibung des Vorhabens
+            Beschreibung des Vorhabens:
+            ____________
+            LB-Version: 23
+
+00.20 01G   Beschreibung der Leistung
+            Beschreibung der Leistung:
+            ____________
+            LB-Version: 23
+00.20 02    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung (z.B. örtliche oder
+            zeitliche Umstände oder besondere Anforderungen hinsichtlich der Art und Weise der Leistungserbringung,
+            besondere Erschwernisse oder Erleichterungen) gelten als vereinbart und sind in die Einheitspreise
+            einkalkuliert.
+
+00.20 02A   Örtliche Besonderheiten
+            Örtliche Besonderheiten: ____________
+
+            LB-Version: 23
+
+00.20 02C   Besondere Erschwernisse/Erleichterungen
+            Besondere Erschwernisse/Erleichterungen: ____________
+
+            LB-Version: 23
+
+00.20 02D   Zufahrts- /Liefermöglichkeiten
+            Zufahrtsmöglichkeiten: ____________
+
+            LB-Version: 23
+
+00.20 02E   Zutrittskontrolle
+            Für den Zutritt zur Baustelle gelten folgende Umstände (z.B. Zutrittskontrolle): ____________
+
+            LB-Version: 23
+
+00.20 02H   Baustellenbereich
+            Baustellenbereich: ____________
+
+            LB-Version: 23
+
+00.20 02J   Leistungserbringung im laufenden Betrieb
+            Bei der Durchführung der Arbeiten ist auf den laufenden Betrieb Rücksicht zu nehmen.
+            Beschreibung der Rahmenbedingungen: ____________
+            LB-Version: 23
+
+00.20 02P   Parkmöglichkeiten
+            Der Auftragnehmer hat für nötige Parkplätze selbst Vorsorge zu tragen.
+                                                                                                                    Seite 18 / 25
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+            LB-Version: 23
+
+00.20 02U   Unterbringung des Personals
+            Für die Unterbringung des Personals und der Geräte werden Räume und Ausstattungen zur Verfügung gestellt.
+            Beschreibung: ____________
+            LB-Version: 23
+
+00.20 02V   Bestimmungen Versorgungsunternehmen
+            Technische Ausführungsbestimmungen / Geschäftsbedingungen des örtlich zuständigen
+            Elektroversorgungsunternehmens: ____________
+            Technische Ausführungsbestimmungen / Geschäftsbedingungen des örtlich zuständigen
+            Wasserversorgungsunternehmens: ____________
+            Technische Ausführungsbestimmungen / Geschäftsbedingungen des örtlich zuständigen
+            Abwasserentsorgungsunternehmens: ____________
+            Technische Ausführungsbestimmungen / Geschäftsbedingungen des örtlich zuständigen
+            Fernwärme-/kälteversorgungsunternehmens: ____________
+             Kommentar:
+             Neben der Angabe des Versorgungsunternehmens ist auch das Ausgabedatum / Stand der Ausführungsbestimmungen /
+             Geschäftsbedingungen anzuführen.
+
+            LB-Version: 23
+00.20 11    Als Vertragsgrundlage werden vereinbart.
+
+00.20 11A   Vertragsgrundlage ÖNORMEN
+            Die ÖNORM B 2110.
+
+            LB-Version: 23
+
+00.20 11B   Vertragsgrundlage gemäß Beilage
+            Angabe: ____________
+             Kommentar:
+             z.B. AGB,
+
+            LB-Version: 23
+00.20 12    Die im Leistungsverzeichnis angebotenen Einheits-, Pauschal- oder Regiepreise gelten als:
+             Kommentar:
+             Wird keine Preisbasis angegeben gilt die Angebotsfrist als Preisbasis.
+
+00.20 12B   Festpreise
+            Festpreise.
+
+            LB-Version: 23
+
+00.20 12C   Veränderliche Preise gemäß ÖNORM-Datenbestand
+            Bei elektronischem Datenträgeraustausch gemäß ÖNORM A2063-1 mit veränderlichen Preisen auf Basis
+            ÖNORM B2111 gilt die Definition von einem oder mehreren Leistungsteil(en) und der Zuordnung des
+            betreffenden Leistungsteils je Position wie am Datenbestand angegeben.
+            Als Kalkulationsgrundlage und Ausgangspunkt für veränderliche Preise, gilt folgende Preisbasis als vereinbart:
+            ____________
+            Die Preisveränderung gilt ab Erreichen des Schwellenwerts gemäß ÖNORM für einen der Preisanteile, sowohl
+            bei Erhöhungen als auch Ermäßigungen.
+             Kommentar:
+             Arbeitskategorien (z.B. BMWET oder www.preisumrechnung.at)
+             Als Grundlage ist die Indexbezeichnung (z.B. Baukostenveränderungen, Baukostenindex, Baupreisindex) anzugeben.
+             Können mehrere Kategorien zu einer Leistungsgruppe zugeordnet werden, so ist ein Index/Kategorie entweder der gesamten
+             Leistung gemäß überwiegendem Inhalt, oder einzelnen Leistungsteilen (z.B. Unterleistungsgruppen, Positionen) zuzuordnen.
+             Hochbau:
+             02 bis 20 Baumeisterarbeiten / Baugewerbe oder Bauindustrie
+             04 Gerüste / Gerüstverleiher
+             11 Estrich / Estrichhersteller
+             12 Abdichtungen bei Betonflächen und Wänden / Bauwerksabdichter Bauwerk
+             13 Außenanlagen / Baugewerbe oder Bauindustrie
+
+                                                                                                                          Seite 19 / 25
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+             21 Dachabdichtungsarbeiten/ Bauwerksabdichter Dächer (Schwarzdecker)
+             22 Dachdeckerarbeiten / Dachdecker
+             23 Bauspenglerarbeiten / Spengler
+             24 Fliesen- und Plattenlegearbeiten / Hafner, Platten- u. Fliesenleger
+             27 Terrazzoarbeiten / Terrazzomacher
+             28 Natursteinarbeiten / Steinmetz/Naturstein
+             29 Kunststeinarbeiten / Betonwaren- u. Kunststeinerzeuger
+             30 Schließanlagen / Schlosser Beschlag Industrie
+             31 Metallbauarbeiten / entweder konstruktiver Stahlbau oder Schlosser Beschlag - Gewerbe oder Industrie
+             32 Konstruktiver Stahlbau / konstruktiver Stahlbau - Gewerbe oder Industrie
+             34 Rohrrahmenelemente m.Drehtüren / Schlosser-Leichtmetall - Gewerbe oder Industrie
+             35 System-Abgasanlagen / Baugewerbe oder Bauindustrie
+             36 Holzbau / Holzbau (Zimmerer) Gewerbe oder Holzbau Industrie
+             37 Tischlerarbeiten / Tischler Gewerbe
+             38 Holzfußböden / Fußbodenleger (Parkett) Gewerbe
+             39 Trockenbauarbeiten / Stukkateure und Gipser
+             42 Glaserarbeiten / Glaser - Verglasungen
+             44 Wärmedämmverbundsysteme (WDVS) / Baugewerbe oder Bauindustrie
+             48 Beschichtungen auf Holz, Metall, Mauerwerk, Putz, Beton und Leichtbauwände / Maler Anstrich auf Mauerwerk bzw.
+             Anstreicher (sonstiger Anstrich)
+             50 Boden- und Wandbeläge / Bodenleger
+             55 Sanierung von Fenstern und Türen aus Holz / Tischler Gewerbe
+             56 Dachflächenfenster / Tischler Gewerbe
+             Lichtkuppeln, Lichtbänder / Bauwerksabdichter Dächer (Schwarzdecker)
+             58 Gartengestaltung und Landschaftsbau / Garten- u. Grünflächengestaltung
+             59 Sportanlagen im Freien / Baugewerbe oder Bauindustrie
+             67 Pfosten-Riegelfassaden aus Alu / Schlosser-/Leichtmetall/Gewerbe oder Industrie
+             68 Vorgehängte hinterlüftete Fassaden / Schlosser-/Leichtmetall/Gewerbe oder Industrie
+             69 Aufsatzkonstruktionen / Schlosser-/Leichtmetall/Gewerbe oder Industrie
+
+             Haustechnik:
+             02-30 Elektrobereich / Elektroinstall. -Blitzschutz - Gewerbe oder Industrie
+             35-38,67 / Zentralheizungen - Gewerbe oder Industrie
+             50-59 / Lüftung und Klima - Gewerbe oder Industrie
+             61-65 / Gas- und Wasserinstallationensgewerbe
+             82+83 / Wärme-, Kälte- Schallisolation
+             96 Förderanlagen / Aufzüge
+            LB-Version: 23
+
+00.20 12D   Veränderliche Preise
+            Veränderliche Preise gemäß ÖNORM B2111.
+            Als Kalkulationsgrundlage und Ausgangspunkt für veränderliche Preise, gilt folgende Preisbasis als vereinbart:
+            ____________
+            Die Preisveränderung gilt ab Erreichen des Schwellenwerts gemäß ÖNORM für einen der Preisanteile, sowohl
+            bei Erhöhungen als auch Ermäßigungen.
+            Basis für den Preisanteil 1 (Lohn):
+            Indexbezeichnung: ____________
+            Arbeitskategorie: ____________
+            Basis für den Preisanteil 2 (Sonstiges):
+            Indexbezeichnung: ____________
+            Arbeitskategorie: ____________
+             Kommentar:
+             Bei elektronischem Datenträgeraustausch gemäß ÖNORM A2063-1 ist diese Position nicht anzuwenden, sondern die VB
+             "00.20 12C Veränderliche Preise gemäß ÖNORM-Datenbestand" zu verwenden.
+             Arbeitskategorien (z.B. BMWET oder www.preisumrechnung.at)
+             Als Grundlage ist die Indexbezeichnung (z.B. Baukostenveränderungen, Baukostenindex, Baupreisindex) anzugeben.
+             Können mehrere Kategorien zu einer Leistungsgruppe zugeordnet werden, so ist ein Index/Kategorie entweder der gesamten
+             Leistung gemäß überwiegendem Inhalt, oder einzelnen Leistungsteilen (z.B. Unterleistungsgruppen, Positionen) zuzuordnen.
+             Hochbau:
+             02 bis 20 Baumeisterarbeiten / Baugewerbe oder Bauindustrie
+             04 Gerüste / Gerüstverleiher
+             11 Estrich / Estrichhersteller
+             12 Abdichtungen bei Betonflächen und Wänden / Bauwerksabdichter Bauwerk
+             13 Außenanlagen / Baugewerbe oder Bauindustrie
+             21 Dachabdichtungsarbeiten/ Bauwerksabdichter Dächer (Schwarzdecker)
+             22 Dachdeckerarbeiten / Dachdecker
+             23 Bauspenglerarbeiten / Spengler
+             24 Fliesen- und Plattenlegearbeiten / Hafner, Platten- u. Fliesenleger
+             27 Terrazzoarbeiten / Terrazzomacher
+             28 Natursteinarbeiten / Steinmetz/Naturstein
+             29 Kunststeinarbeiten / Betonwaren- u. Kunststeinerzeuger
+                                                                                                                          Seite 20 / 25
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+             30 Schließanlagen / Schlosser Beschlag Industrie
+             31 Metallbauarbeiten / entweder konstruktiver Stahlbau oder Schlosser Beschlag - Gewerbe oder Industrie
+             32 Konstruktiver Stahlbau / konstruktiver Stahlbau - Gewerbe oder Industrie
+             34 Rohrrahmenelemente m.Drehtüren / Schlosser-Leichtmetall - Gewerbe oder Industrie
+             35 System-Abgasanlagen / Baugewerbe oder Bauindustrie
+             36 Holzbau / Holzbau (Zimmerer) Gewerbe oder Holzbau Industrie
+             37 Tischlerarbeiten / Tischler Gewerbe
+             38 Holzfußböden / Fußbodenleger (Parkett) Gewerbe
+             39 Trockenbauarbeiten / Stukkateure und Gipser
+             42 Glaserarbeiten / Glaser - Verglasungen
+             44 Wärmedämmverbundsysteme (WDVS) / Baugewerbe oder Bauindustrie
+             48 Beschichtungen auf Holz, Metall, Mauerwerk, Putz, Beton und Leichtbauwände / Maler Anstrich auf Mauerwerk bzw.
+             Anstreicher (sonstiger Anstrich)
+             50 Boden- und Wandbeläge / Bodenleger
+             55 Sanierung von Fenstern und Türen aus Holz / Tischler Gewerbe
+             56 Dachflächenfenster / Tischler Gewerbe
+             Lichtkuppeln, Lichtbänder / Bauwerksabdichter Dächer (Schwarzdecker)
+             58 Gartengestaltung und Landschaftsbau / Garten- u. Grünflächengestaltung
+             59 Sportanlagen im Freien / Baugewerbe oder Bauindustrie
+             67 Pfosten-Riegelfassaden aus Alu / Schlosser-/Leichtmetall/Gewerbe oder Industrie
+             68 Vorgehängte hinterlüftete Fassaden / Schlosser-/Leichtmetall/Gewerbe oder Industrie
+             69 Aufsatzkonstruktionen / Schlosser-/Leichtmetall/Gewerbe oder Industrie
+
+             Haustechnik:
+             02-30 Elektrobereich / Elektroinstall. -Blitzschutz - Gewerbe oder Industrie
+             35-38,67 / Zentralheizungen - Gewerbe oder Industrie
+             50-59 / Lüftung und Klima - Gewerbe oder Industrie
+             61-65 / Gas- und Wasserinstallationensgewerbe
+             82+83 / Wärme-, Kälte- Schallisolation
+             96 Förderanlagen / Aufzüge
+            LB-Version: 23
+00.20 31    Als Vertragsbestandteile gelten:
+
+00.20 31A   Sicherheit und Gesundheitsschutz
+            Der Sicherheits- und Gesundheitsschutzplan (SiGe-Plan), in der Fassung: ____________
+            Die Grundsätze der Gefahrenverhütung, sowie die im Sicherheits- und Gesundheitsschutzplan (SiGe-Plan)
+            festgelegten Maßnahmen auf Basis des Bauarbeitenkoordinationsgesetzes (BauKG), sowie der Unterlage für
+            spätere Arbeiten sind verbindlich. Der SiGe-Plan ist bei der Kalkulation des Angebotes zu berücksichtigen.
+            Kosten für Maßnahmen, die der Bieter gemäß SiGe-Plan durchzuführen hat, sind, soweit das
+            Leistungsverzeichnis dafür keine eigenen Positionen im Einzelnen enthält, einkalkuliert.
+            LB-Version: 23
+
+00.20 31B   Unterlage f.spätere Arbeiten
+            Die Unterlage für spätere Arbeiten, in der Fassung: ____________
+             Kommentar:
+             Diese Vorbemerkung ist die Grundlage bei Wartung, Instandhaltung, Umbauarbeiten oder Abbruch.
+
+            LB-Version: 23
+
+00.20 31C   Schad- und Störstoffanalyse AG
+            Schad- und Störstoffanalyse
+            Sonstige Angaben: ____________
+            LB-Version: 23
+
+00.20 31D   Rückbaukonzept AG
+            Rückbaukonzept AG
+            Sonstige Angaben: ____________
+            LB-Version: 23
+00.20 36    Die Kosten für den Verbrauch von Wasser trägt:
+
+00.20 36A   Wasserverbrauch:AG
+            Der Auftraggeber (AG).
+
+            LB-Version: 23
+00.20 37    Die Kosten für den Verbrauch von Strom trägt:
+
+
+                                                                                                                         Seite 21 / 25
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+00.20 37A   Stromverbrauch:AG
+            Der Auftraggeber (AG).
+
+            LB-Version: 23
+00.20 43    Weg des Informationsaustausches und Dokumentation des Bauvorhabens wird folgende Art vereinbart:
+             Kommentar:
+             z.B. Austausch von Unterlagen (z.B. Protokolle, Pläne, Nachweise) durch den Auftraggeber (AG) und den Auftragnehmer
+             (AN)
+
+00.20 43A   Projektplattform AG
+            Der Auftraggeber (AG) stellt eine elektronische Projektplattform zur Verfügung. Der Auftragnehmer (AN) erhält
+            Zugriffsberechtigung und hat die erforderlichen Unterlagen herunterzuladen und die eigenen Unterlagen auf die
+            Plattform zu stellen.
+             Kommentar:
+             Zur Verfügung stellen von elektronischen Projektplattformen des Auftragnehmers sind frei zu formulieren.
+
+            LB-Version: 23
+00.20 45    Aufzeichnungen über wichtige Vorkommnisse:
+
+00.20 45B   Bautagesberichte AN
+            Die Führung von Bautagesberichten durch den Auftragnehmer (AN) wird vereinbart.
+
+            LB-Version: 23
+00.20 46    Zur Koordinierung und Abstimmung der Arbeiten und Leistungen werden Baubesprechungen des Auftraggebers
+            (AG) abgehalten. Der Auftragnehmer (AN) ist verpflichtet, durch eine bevollmächtigte Vertretung an den
+            Baubesprechungen teilzunehmen.
+
+00.20 46A   Teilnahme AN Baubesprechungen
+            Teilnahme des AN Baubesprechungen verbindlich.
+
+            LB-Version: 23
+00.20 51    Hinsichtlich der Übernahme durch den Auftraggeber wird vereinbart:
+
+00.20 51A   Übernahme formlos
+            Eine formlose Übernahme.
+
+            LB-Version: 23
+
+00.20 51B   Übernahme förmlich
+            Eine förmliche Übernahme.
+
+            LB-Version: 23
+00.20 52    Hinsichtlich der Gewährleistung wird vereinbart:
+
+00.20 52B   Gewährleistungsfristen vereinbarte
+            Es gelten die Fristen von: ____________
+
+            LB-Version: 23
+00.20 53    Besondere Regelungen bezüglich Schadenersatz und Vertragsstrafen.
+
+00.20 53A   Schadenersatz – leichte Fahrlässigkeit
+            Bei leichter Fahrlässigkeit wird vereinbart: ____________
+
+            LB-Version: 23
+
+00.20 53B   Vertragsstrafe
+            Als Vertragsstrafe wird vereinbart (z.B. Höhe der Pönale je Kalendertag bei Auftragnehmerverzug):
+            ____________
+            LB-Version: 23
+00.20 60    Die angegebenen Sicherstellungen werden vereinbart.
+
+00.20 60A   Kaution
+
+                                                                                                                             Seite 22 / 25
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                           gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                               EH
+           Eine Kaution in der Höhe von: ____________
+
+           LB-Version: 23
+
+
+
+
+                                                                             Seite 23 / 25
+                                                        ib-data GmbH, Softwareentwicklung
+

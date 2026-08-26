@@ -1,0 +1,246 @@
+{
+  "lg": "69",
+  "title": "Aufsatzkonstruktionen für Fassaden",
+  "positions": [
+    {
+      "code": "69.00.01A",
+      "text": "Allgemeine Beschreibung des Gebäudes",
+      "unit": ""
+    },
+    {
+      "code": "69.00.01B",
+      "text": "Bemusterungen eloxiertes/beschichtetes Aluminium",
+      "unit": ""
+    },
+    {
+      "code": "69.00.01C",
+      "text": "Vermessung/Bezugssystem vom AG",
+      "unit": ""
+    },
+    {
+      "code": "69.00.01D",
+      "text": "Zufahrt zur Baustelle",
+      "unit": ""
+    },
+    {
+      "code": "69.00.01E",
+      "text": "Montagebereich",
+      "unit": ""
+    },
+    {
+      "code": "69.00.01F",
+      "text": "Transport- u.Hubmöglichkeiten",
+      "unit": ""
+    },
+    {
+      "code": "69.00.01L",
+      "text": "Leistungsetappen/Leistungsunterbrechungen",
+      "unit": ""
+    },
+    {
+      "code": "69.00.01V",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "69.11.00C",
+      "text": "Angaben zur Unterkonstruktion",
+      "unit": ""
+    },
+    {
+      "code": "69.11.00D",
+      "text": "Luftdurchlässigkeit",
+      "unit": ""
+    },
+    {
+      "code": "69.11.00E",
+      "text": "Schlagregendichtheit f.Fassaden",
+      "unit": ""
+    },
+    {
+      "code": "69.11.00F",
+      "text": "Widerstand gegen Windlast",
+      "unit": ""
+    },
+    {
+      "code": "69.11.00G",
+      "text": "Zusätzliche Anforderungen",
+      "unit": ""
+    },
+    {
+      "code": "69.11.11A",
+      "text": "Aufsatzk.vertikal m.Alupressl.Vergl.außen",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.11B",
+      "text": "Aufsatzk.vertikal vorgeb./nicht vorgebohrt",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.11C",
+      "text": "Aufsatzk.vertikal außen verschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.11D",
+      "text": "Aufsatzk.vertikal m./o.Kunststoffkappe",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.21A",
+      "text": "Aufsatzk.vertikal,polyg.m.Winkeln m.Alupressl.Vergl.außen",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.21B",
+      "text": "Aufsatzk.vertikal,polyg.m.Winkeln vorgeb./nicht vorgebohrt",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.21C",
+      "text": "Aufsatzk.vertikal,polyg.m.Winkeln außen verschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.21D",
+      "text": "Aufsatzk.vertikal,polyg.m.Winkeln m./o.Kunststoffkappe",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.31A",
+      "text": "Aufsatzk.Dachkonstr.m.Alupressl.Vergl.außen",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.31B",
+      "text": "Aufsatzk.Dachkonstr.vorgebohrt/nicht vorgebohrt",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.31C",
+      "text": "Aufsatzk.Dachkonstr.außen verschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.31D",
+      "text": "Aufsatzk.Dachkonstr.m./o.Kunststoffkappe",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.40A",
+      "text": "Aufsatzk.Randabschluss BAF ü.20mm seitlich                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "69.11.40B",
+      "text": "Aufsatzk.Randabschluss BAF ü.20mm unten                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "69.11.40C",
+      "text": "Aufsatzk.Randabschluss BAF ü.20mm oben                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "69.11.41A",
+      "text": "Aufsatzk.geneigt Randabschluss BAF b.20mm seitlich                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "69.11.41B",
+      "text": "Aufsatzk.geneigt Randabschluss BAF b.20mm unten                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "69.11.41C",
+      "text": "Aufsatzk.geneigt Randabschluss BAF b.20mm oben                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "69.11.42A",
+      "text": "Aufsatzk.geneigt Randabschluss BAF ü.20mm seitlich                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "69.11.42B",
+      "text": "Aufsatzk.geneigt Randabschluss BAF ü.20mm unten                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "69.11.42C",
+      "text": "Aufsatzk.geneigt Randabschluss BAF ü.20mm oben                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "69.11.51A",
+      "text": "Az Aufsatzk.f.Einbruchhemmung",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.51B",
+      "text": "Az Aufsatzk.f.Verglasungen m.Sicherheitsglas",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.51C",
+      "text": "Az Aufsatzk.f.Brandschutz",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.51D",
+      "text": "Az Aufsatzk.f.Teilfl.m.Paneele/Dämmplatten Stahlbl.b.4m",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.51E",
+      "text": "Az Aufsatzk.f.Teilfl.m.Paneele/Dämmplatten Alubl.b.4m",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.51F",
+      "text": "Az Aufsatzk.f.Teilfl.m.Paneele/Dämmplatten Stahlbl.ü.4m",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.51G",
+      "text": "Az Aufsatzk.f.Teilfl.m.Paneele/Dämmplatten Alubl.ü.4m",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.51H",
+      "text": "Az Aufsatzk.f.Teilfl.m.besonderen Glasausführungen",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.51I",
+      "text": "Az Aufsatzk.f.Sonderformate",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.51J",
+      "text": "Az Aufsatzk.f.Glasdicke ü.4mm",
+      "unit": "m²"
+    },
+    {
+      "code": "69.11.52A",
+      "text": "Az Aufsatzk.f.vertikale Abschottungen                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "69.90.00A",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "69.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "69.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

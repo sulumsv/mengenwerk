@@ -1,0 +1,2256 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                Leistungsgruppe (LG) 07 - Beton-u.Stahlbetonarbeiten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 0700    Wählbare Vorbemerkungen
+                     ULG 0701    Flachgründungen, Bodenkonstruktionen
+                     ULG 0702    Wände,Balken u.Stützen
+                     ULG 0703    Decken
+                     ULG 0704    Dachkonstruktionen
+                     ULG 0708    Schächte, Kollektoren, spezielle Konstruktionen
+                     ULG 0711    Einbauteile
+                     ULG 0721    Fugen
+                     ULG 0725    Doppelwandelemente aus Beton
+                     ULG 0770    Monolithische Fließbetonbodenplatte
+                     ULG 0781    Instandsetzungsarbeiten
+
+
+
+
+                                                                                                           Seite 1 / 35
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                   EH
+
+07         Beton-u.Stahlbetonarbeiten
+           Version 023 (2025-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           1. Statik:
+           Statische Berechnungen und Konstruktionszeichnungen werden vom Auftraggeber beigestellt.
+           2. Bewehrungsstahl:
+           Bewehrungen werden in BSt. 550 (Rippen-Stabstahl) oder M 550 (Bewehrungsmatten) ausgeführt.
+           Als Standardbewehrung gelten alle Stabstahl Positionen (Stabst.) ohne Unterschied der Durchmesser von 8 bis
+           36 mm und Bewehrungsmatten mit einem Flächengewicht über 2,1 kg/m2.
+           3. Einkalkulierte Leistungen:
+           Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+           einkalkuliert:
+           3.1 Oberfläche bei Schalungen:
+           Geschalte Betonoberflächen werden gemäß Porigkeitsklasse 3P, Strukturklasse S1, Farbgleichheitsklasse F1,
+           und einer Arbeitsfuge Klasse A1 ausgeführt.
+           3.2 Gerüste:
+           Gerüste sind für die angegebene Höhe, einschließlich erhöhtem Aufwand für den Materialtransport und
+           sonstiger Erschwernisse, in die Einheitspreise einkalkuliert.
+           3.3 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+           einkalkuliert:
+                • Verwenden eines höheren Zementanteils, eines anderen Kornaufbaus oder einer höheren
+                  Festigkeitsklasse als gefordert, aus Gründen der Fertigung oder leichterer Einbringung des Betons, nach
+                  Wahl des Auftragnehmers im Einvernehmen mit dem Auftraggeber
+                • Beton der Festigkeitsklassen bis C12/15 mit einer Expositionsklasse XO(A)
+                • Beton der Festigkeitsklassen über C12/15 mit der Expositionsklasse XC1
+                • Bauteile mit einer Neigung bis 3 Prozent (lot- oder waagrecht)
+                • Betonarbeiten bei Lufttemperaturen ab + 3° C (Lufttemperatur) und 5° C (Beton)
+                • Schutz bei stehenden Bewehrungsteilen, den gesetzlichen Vorschriften entsprechend (bei Durchmessern
+                  bis 10 mm werden Sicherheitsleisten verwendet)
+                • Absteifungen bei Schalungen einschließlich etwa notwendiger statischer Berechnungen (für bewehrten
+                  oder nicht bewehrten Beton)
+                • Abfasen der Kanten (z.B. bei Unterzügen, Säulen, Wänden) durch Einlegen von Dreikantleisten
+                • Herstellen von Wassernasen, nach Wahl des Auftragnehmers
+                • die Durchdringung der Schalung (z.B. mit Fugenbändern, Bewehrung)
+                • Fugen aus arbeitstechnischer Sicht (z.B. Arbeitsunterbrechungen für Betonierabschnitte
+                • wasserdichtes Verschließen der Hüllrohre, wenn wasserundurchlässigem Beton (B2 bis B7) vereinbart ist
+                • Einlegen und Verankern von Installations-Einbauteilen (z.B. Dosen, Rohre) durch andere Auftragnehmer,
+                  wenn keine Behinderung des Arbeitsablaufes eintritt und die Schalung nicht beschädigt wird.
+           4. Ausmaß- und Abrechnungsregeln:
+           Preise gelten ohne Unterschied der Art der Ausführung (z.B. händisch oder maschinell) und ohne Unterschied,
+           ob Transportbeton oder auf der Baustelle hergestellter Beton verwendet wird.
+           4.1 Höhen:
+           Leistungen bei Höhen von Null bis 3,2 m (b.3,2m) einerseits und Höhen von Null bis über 3,2 m (ü.3,2m:
+           "Ausschreiberlücke") andererseits werden in unterschiedlichen Positionen beschrieben.
+           Wände mit einer Höhe von Null bis über 3,2 m werden durch gedachte lotrechte seitliche Begrenzungen
+           gegenüber etwaigen Wänden mit einer Höhe von Null bis 3,2 m, auch bei schrägem oberen Abschluss,
+           abgegrenzt. Abgerechnet wird die Summe der Flächen von Null bis 3,2 m und die Summe der Flächen von Null
+           bis zur angegebenen Höhe (über 3,2 m).
+           Höhen von lotrechten Bauteilen aus Beton werden je Geschoß von der Aufstandsfläche bis zur Oberkante des
+           Bauteiles gemessen.
+           Höhen von waagrechten Bauteilen werden nach der Unterstellungshöhe des fertigen Betonkörpers (=
+           Untersicht) gemessen.
+           Höhen von z.B. Plattenbalken- und Kassettendecken werden nach der größten Unterstellungshöhe des fertigen
+           Betonkörpers (= Untersicht) gemessen.
+           4.2 Stahlgewichte:
+           Gewichte von Distanzhaltern, Bügeln und dergleichen aus Stahl werden dem Gewicht (Abrechnungsmenge) der
+           Bewehrungspositionen des jeweiligen Bauteiles ohne Unterschied der Art und ihres Durchmessers
+           hinzugerechnet.
+                                                                                                                   Seite 2 / 35
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+            Die Abrechnung erfolgt nach Stahlauszugslisten, die vom Auftraggeber oder vom damit beauftragten Statiker so
+            aufbereitet wurden, dass eine Zuordnung der Stahlgewichte zu den Positionen der Ausschreibung durch den
+            Auftragnehmer eindeutig ersichtlich und diese daher in Folge für den Auftraggeber überprüfbar ist.
+            4.3 Anschlussbewehrungen:
+            Etwaige Anschlussbewehrungen aus normalen Stabstählen oder Bewehrungsmatten, welche aus einem Bauteil
+            für einen später anzufertigenden Teil herausragen, werden in der Position und Menge des (früher hergestellten)
+            Bauteils erfasst.
+            Anschlussbewehrungen werden bei der Höhenermittlung des Bauteiles nicht berücksichtigt.
+            4.4 Schalungen:
+            Schalungen werden nach dem Ausmaß der abgewickelten, geschalten Flächen der Betonkörper abgerechnet.
+             Kommentar:
+             Sägen und Bohren ist in der LG15 beschrieben.
+             Köcherfundamente sind in der LG16 (Fertigteile) beschrieben
+             Besondere Eigenschaften von Beton:
+                 • XC 2: wechselnd feuchte und trockene Umgebung (bis C 20/25)
+                 • B1: Wasserdruck bis 10 m (unter Frostgrenze, chem. nicht angreifendes Grundwasser) (bis C 20/25)
+                 • B4: Wasserdruck über 10 m (bis C 25/30)
+                 • B2: außen liegende Bauteile, Bauteile mit schwach lösendem Angriff (Grundwasser oder Boden) (bis C 25/30)
+                 • B3: annähernd waagrecht außenliegende Bauteile mit Frost-, aber ohne Tausalzbeanspruchungen (bis C 25/30)
+                 • B5: Taumittelhaltigen Sprühnebel ausgesetzte Bauteile (bis C 25/30)
+                 • B7: Taumittel direkt ausgesetzte Bauteile (bis C 20/25)
+                 • Für stark lösenden oder treibenden Angriff sind die Umweltklassen XA 2L oder/und XA 2T oder XA3
+                   (Hochleistungsbeton nach ÖNORM B 5017) maßgebend oder Sondermaßnahmen frei zu formulieren.
+             Zementarten gemäß EN-197-1:
+                 • Portlandzement (CEM I) Portlandkompositzemente (CEM II) Hochofenzement (CEM III) Puzzolanzement (CEM IV)
+                   Kompositzement (CEM V)
+                 • Etwaige Angaben nach der Bezeichnung der Zementart, beschreiben besondere Eigenschaften gemäß Tabelle 1 der
+                   EN-197-1.
+
+
+             Frei zu formulieren (z.B.):
+                 1. CO2-reduzierter Beton mit entsprechenden CO2-Klassen (dabei sind die Angaben zur Verfügbarkeit der CO2-Klassen
+                    nach Anwendungsgebiet und Druckfestigkeitsklasse gemäß ÖBV-Merkblatt zu beachten)
+                 2. Sonderbewehrungen (z.B. Ankerstangen, Gewindestahl, nicht rostender Stahl, Querkraftdorne)
+                 3. ein besonders hohes Ausmaß an kleinen Dimensionen anstelle von weniger größeren, wie es etwa bei besonders
+                    dünnen oder schlanken Bauteilen oder zur Erzielung einer geringeren Rissbildung nötig sein kann (z.B. mit einer
+                    projektspezifischen genauen Beschreibung)
+                 4. Stabstahl Durchmesser über 36 mm
+                 5. Schüttbetonwände
+                 6. Gesimse
+                 7. Schalungen für Sonderformen (z.B. gekrümmt, bogenförmig, bei konische oder V-förmige Stützen)
+                 8. Bauteile aus Stahlfaserbeton
+                 9. Bauteile aus Leicht- oder Porenbeton
+                10. Fugenbleche
+                11. Rohr- und Kabeldurchführungssysteme
+                12. Faserbewehrung aus Stahl oder Kunststoff für monolithische Bodenplatten
+                13. Einfärben von Beton
+                14. erhöhte Anforderungen an die Oberflächenausführungen (z.B. S3), Porigkeit oder die Farbgebung (z.B. F3) bei
+                    Schalungen. Eine Beschreibung der Qualitätskriterien ist in den Normen und in den Richtlinien der österreichischen
+                    Vereinigung für Beton- und Bautechnik zu finden
+                15. erhöhte Anforderungen an die Ebenheit von Oberflächen
+                16. erhöhte Anforderungen der Oberflächenbehandlungen (z.B. für Versiegelungen und Beschichtungen)
+                17. erhöhte Anforderungen an die Maßtoleranzen
+                18. erhöhte Anforderungen an Zement mit erhöhtem Widerstand gegen Sulfatangriff
+                19. Dämmung unter Fundamentplatten und Kellerdecken
+                20. Einlegen von Putzträgern
+                21. verlorene Schalungen bei Einzel- und Streifenfundamenten
+
+
+             Literaturhinweis (z.B):
+             ÖNORM B 2211: Beton-, Stahlbeton- und Spannbetonarbeiten - Werkvertragsnorm
+             ÖNORM B 4710-1: Beton - Festlegung, Herstellung, Verwendung und Konformitätsnachweis (Regeln zur Umsetzung der
+             ÖNORM EN 206-1)
+             ÖNORM EN 15037: Balkendecken mit Zwischenbauteilen
+
+            LB-Version: 23                 Geändert
+Änderung:   Geänderte Positionen:
+            07.03 48A Öffnungen Decken/Treppen/Rampen b.0,1m2
+            07.03 48B Öffnungen Decken/Treppen/Rampen ü.0,1-0,5m2
+            07.04 48A Öffnungen,Aussp. Sargdeckel b.0,1m2
+            07.04 48B Öffnungen,Aussp. Sargdeckel ü.0,1-0,5m2
+                                                                                                                             Seite 3 / 35
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+            07.21 03A Arbeitsfugenbänder Innen Fund.-/Sohlen-/Bodenkonstr.20cm
+            07.21 03B Arbeitsfugenbänder Innen Fund.-/Sohlen-/Bodenkonstr.25cm
+            07.21 05A Dehnfugenbänder Innen Fund.-/Sohlen-/Bodenkonstr.20cm
+            07.21 05B Dehnfugenbänder Innen Fund.-/Sohlen-/Bodenkonstr.25cm
+            07.21 23A Arbeitsfugenbänder Innen Wand/Stütze/Balken 20cm
+            07.21 23B Arbeitsfugenbänder Innen Wand/Stütze/Balken 25cm
+            07.21 25A Dehnfugenbänder Innen Wand/Stütze/Balken 20cm
+            07.21 25B Dehnfugenbänder Innen Wand/Stütze/Balken 25cm
+            07.21 33A Arbeitsfugenbänder Innen Decken 20cm
+            07.21 33B Arbeitsfugenbänder Innen Decken 25cm
+            07.21 35A Dehnfugenbänder Innen Decken 20cm
+            07.21 35B Dehnfugenbänder Innen Decken 25cm
+            Neue Positionen:
+            07.00 00C Ökologisch optimierte Betonbauweise
+            07.11 60A Einbau von Tragsystem, Leitungen - Flächenkühlung Decken
+            07.11 60B Einbau von Tragsystem, Leitungen - Flächenkühlung Wände
+            07.21 03F Arbeitsfugenbänder Außen Fund.-/Sohlen-/Bodenkonstr.20cm
+            07.21 03G Arbeitsfugenbänder Außen Fund.-/Sohlen-/Bodenkonstr.25cm
+            07.21 05F Dehnfugenbänder Außen Fund.-/Sohlen-/Bodenkonstr.20cm
+            07.21 05G Dehnfugenbänder Außen Fund.-/Sohlen-/Bodenkonstr.25cm
+            07.21 23F Arbeitsfugenbänder Außen Wand/Stütze/Balken 20cm
+            07.21 23G Arbeitsfugenbänder Außen Wand/Stütze/Balken 25cm
+            07.21 25F Dehnfugenbänder Außen Wand/Stütze/Balken 20cm
+            07.21 25G Dehnfugenbänder Außen Wand/Stütze/Balken 25cm
+            07.21 33F Arbeitsfugenbänder Außen Decken 20cm
+            07.21 33G Arbeitsfugenbänder Außen Decken 25cm
+            07.21 35F Dehnfugenbänder Außen Decken 20cm
+            07.21 35G Dehnfugenbänder Außen Decken 25cm
+
+07.00       Wählbare Vorbemerkungen
+            LB-Version: 23                Geringfügig Geändert
+07.00 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+07.00 00C   Ökologisch optimierte Betonbauweise
+            Zur Herstellung von ökologisch optimierten Betonbauwerken sind Zemente des Typs CEM II/C-M (S-LL) bzw.
+            CEM II/C-M (S-F) mit aufrechter bautechnischer Zulassung des OIB (Österreichisches Institut für Bautechnik) zu
+            verwenden.
+            Betrifft Positionen: ____________
+             Kommentar:
+             Anwendbar für alle vorgegebenen Betonsorten:
+                 • bei allen Folgepositionen der folgenden Nummern:
+             070101, 070102, 070103, 070105, 070106, 070107, 070109, 070113, 070201, 070203, 070209, 070214, 070215, 070218,
+             070219, 070220, 070301, 070302, 070316, 070317, 070318, 070320, 070325, 070326, 070340, 070801, 070802, 070803,
+             070851
+             Ausgenommen sind:
+                 • 070109E (C25/30/B7)
+                 • 070240 G (C20/25/B7)
+                 • 070340F (C25/30/B7)
+
+            LB-Version: 23
+
+07.00 00V   Verfügbarkeit von Beilagen zum LV
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von z.B. Plänen (z.B. im PDF-Format): ____________
+            Betrifft Position(en): ____________
+
+07.01       Flachgründungen, Bodenkonstruktionen
+
+
+            Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Schalungen bei Gründungsarbeiten, die infolge nicht plangemäßen Aushubs erforderlich sind
+            LB-Version: 23                Geringfügig Geändert
+
+
+                                                                                                                       Seite 4 / 35
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+07.01 01    Bodenauswechslung oder Auffüllen von Gruben und Hohlräumen.
+            Abgerechnet nach Raummaß.
+
+07.01 01A   Auffüllen Beton C8/10                                                                                         m³
+            Mit Beton der Festigkeitsklasse C8/10.
+
+07.01 01B   Auffüllen m.stabilisierter Sandmischung                                                                       m³
+            Mit stabilisierter Sandmischung.
+
+07.01 02    Sauberkeitsschicht unter Betonfundamenten. Bei geschalten Fundamenten wird allseitig 10 cm zum Planmaß
+            dazugerechnet.
+            Abgerechnet nach Raummaß.
+
+07.01 02A   Sauberkeitsschicht C12/15                                                                                     m³
+            Mit Beton der Festigkeitsklasse mindestens C12/15.
+
+07.01 03    Unterbeton.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse und die Dicke (cm) angegeben.
+
+07.01 03A   Unterbeton C12/15 b.10cm                                                                                      m³
+
+07.01 03B   Unterbeton C12/15 ü.10-15cm                                                                                   m³
+
+07.01 03C   Unterbeton C12/15 ü.15-20cm                                                                                   m³
+
+07.01 03D   Unterbeton C16/20 b.10cm                                                                                      m³
+
+07.01 03E   Unterbeton C16/20 ü.10-15cm                                                                                   m³
+
+07.01 03F   Unterbeton C16/20 ü.15-20cm                                                                                   m³
+
+07.01 03S   Seitliche Schalung Unterbeton                                                                                 m²
+            Seitliche Schalung.
+
+07.01 03V   Bewehrung Stabst.Unterbeton                                                                                   kg
+            Bewehrung mit Stabstahl.
+
+07.01 03W   Bewehrung Matten Unterbeton                                                                                   kg
+            Bewehrung mit Matten.
+
+07.01 03X   Az Unterbeton f.Beton__________                                                                               m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en): ____________
+
+07.01 04    Trennschicht (z.B. PE-Folie, Bitumenpappe mit Übergriffen von mindestens 30 cm).
+
+07.01 04A   Trennschicht                                                                                                  m²
+07.01 05    Einzelfundamente aus Beton.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse angegeben.
+
+07.01 05A   Einzelfundamente Beton C12/15                                                                                 m³
+
+07.01 05C   Einzelfundamente Beton C16/20                                                                                 m³
+
+07.01 05E   Einzelfundamente Beton C20/25                                                                                 m³
+
+07.01 05G   Einzelfundamente Beton C25/30                                                                                 m³
+
+07.01 05S   Schalung Einzelfundamente                                                                                     m²
+            Schalung.
+
+07.01 05V   Bewehrung Stabst.Einzelfundamente                                                                             kg
+
+                                                                                                                     Seite 5 / 35
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Bewehrung mit Stabstahl.
+
+07.01 05W   Bewehrung Matten Einzelfundamente                                                                            kg
+            Bewehrung mit Matten.
+
+07.01 05X   Az Einzelfundamente f.Beton__________                                                                        m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en): ____________
+07.01 06    Streifenfundamente und Frostschürzen aus Beton.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse angegeben.
+
+07.01 06A   Streifenfundament/Frostschürzen Beton C12/15                                                                 m³
+
+07.01 06C   Streifenfundament/Frostschürzen Beton C16/20                                                                 m³
+
+07.01 06E   Streifenfundament/Frostschürzen Beton C20/25                                                                 m³
+
+07.01 06G   Streifenfundament/Frostschürzen Beton C25/30                                                                 m³
+
+07.01 06S   Schalung Streifenfundament/Frostschürzen                                                                     m²
+            Schalung.
+
+07.01 06V   Bewehrung Stabst.Streifenfundament/Frostschürzen                                                             kg
+            Bewehrung mit Stabstahl.
+
+07.01 06W   Bewehrung Matten Streifenfundament/Frostschürzen                                                             kg
+            Bewehrung mit Matten.
+
+07.01 06X   Az Streifenfundament/Frostschürzen f.Beton__________                                                         m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en): ____________
+07.01 07    Fundamentplatten aus Beton.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse und die Dicke (cm) angegeben.
+
+07.01 07A   Beton Fundamentplatte C16/20 b.30cm                                                                          m³
+
+07.01 07B   Beton Fundamentplatte C16/20 ü.30-50cm                                                                       m³
+
+07.01 07C   Beton Fundamentplatte C20/25 b.30cm                                                                          m³
+
+07.01 07D   Beton Fundamentplatte C20/25 ü.30-50cm                                                                       m³
+
+07.01 07E   Beton Fundamentplatte C25/30 b.30cm                                                                          m³
+
+07.01 07F   Beton Fundamentplatte C25/30 ü.30-50cm                                                                       m³
+
+07.01 07S   Schalung Fundamentplatte                                                                                     m²
+            Schalung.
+
+07.01 07V   Bewehrung Stabst.Fundamentplatte                                                                             kg
+            Bewehrung mit Stabstahl.
+
+07.01 07W   Bewehrung Matten Fundamentplatte                                                                             kg
+            Bewehrung mit Matten.
+
+07.01 07X   Az Fundamentplatte f.Beton__________                                                                         m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en): ____________
+
+07.01 09    Aufzahlung (Az) auf Beton für Fundamente, Sohlen und Bodenkonstruktionen (Fund./Platten) für besondere
+            Eigenschaften von Beton.
+                                                                                                                    Seite 6 / 35
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+07.01 09A   Az Beton Fund./Platte C20/25 f.XC2                                                                            m³
+            Für eine Expositionsklasse XC2 (C20/25) bei wechselnder feuchter und trockener Umgebung.
+
+07.01 09B   Az Beton Fund./Platte C20/25 f.B1                                                                             m³
+            Für eine Expositionsklasse B1 (C20/25) bei einem Wasserdruck bis 10 m.
+
+07.01 09C   Az Beton Fund./Platte C25/30 f.B2                                                                             m³
+            Für eine Expositionsklasse B2 (C25/30) bei außen liegenden Bauteilen, bei schwach lösenden Angriff.
+
+07.01 09D   Az Beton Fund./Platte C25/30 f.B4                                                                             m³
+            Für eine Expositionsklasse B4 (C25/30) bei einem Wasserdruck über 10 m (dichte Bauwerke).
+
+07.01 09E   Az Beton Fund./Platte C25/30 f.B7                                                                             m³
+            Für eine Expositionsklasse B7 (C25/30) bei Bauteilen, die einem Taumittel direkt ausgesetzt sind.
+
+07.01 09X   Az Beton Fund./Platte f.besondere Eigenschaften                                                               m³
+            Besondere Eigenschaften von Beton:____________
+            Betrifft Position(en): ____________
+07.01 13    Unterfangungs-Fundamente aus Beton, abschnittsweise hergestellt, ohne Unterschied der Einzelausmaße.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse angegeben.
+
+07.01 13A   Beton Unterfangung-Fundamente C16/20                                                                          m³
+
+07.01 13B   Beton Unterfangung-Fundamente C25/30                                                                          m³
+
+07.01 13S   Schalung Unterfangung-Fundamente                                                                              m²
+            Schalung.
+
+07.01 13V   Bewehrung Stabst.Unterfangung-Fundamente                                                                      kg
+            Bewehrung mit Stabstahl.
+
+07.01 13W   Bewehrung Matten Unterfangung-Fundamente                                                                      kg
+            Bewehrung mit Matten.
+
+07.01 13X   Az Unterfangung-Fundamente f.Beton__________                                                                  m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en): ____________
+
+07.01 23    Aufzahlung (Az) auf Unterbeton für die Ausführung eines Gefälles (Betonschicht, deren ungleiche Dicken ein
+            Oberflächengefälle zur Folge hat) einschließlich Herstellen von erforderlichen Graten und Ichsen.
+            Im Positionsstichwort ist das arithmetische Mittel der Dicke (cm) angegeben.
+             Kommentar:
+             Gefälle herstellen z.B. für Dachaufbauten.
+
+07.01 23A   Az Unterbeton f.Gefälle b.10cm                                                                                m²
+
+07.01 23B   Az Unterbeton f.Gefälle ü.10-15cm                                                                             m²
+07.01 32    Aufzahlung (Az) auf Beton für Fundamente.
+
+07.01 32A   Az Beton Fundament f.geneigte OF                                                                              m³
+            Für eine geneigte Oberfläche (OF) über 3 bis 20 Prozent.
+
+07.01 48    Öffnungen, Aussparungen (Öffnungen) und Schlitze in Fundament-, Sohlen- oder Bodenkonstruktionen
+            (Fund./Bodenk.) aus Beton.
+            Im Positionsstichwort ist die Größe (m2) der ausgesparten Fläche angegeben.
+
+07.01 48A   Öffnungen Fund./Bodenk.b.0,1m2                                                                                Stk
+            LB-Version: 23                 Geringfügig Geändert
+
+
+                                                                                                                     Seite 7 / 35
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+Änderung:   Änderung im Grundtext: statt Querschnitt nun ausgesparte Fläche
+
+07.01 48B   Öffnungen Fund./Bodenk.ü.0,1-0,5m2                                                                           Stk
+            LB-Version: 23                Geringfügig Geändert
+Änderung:   Änderung im Grundtext: statt Querschnitt nun ausgesparte Fläche
+
+07.01 48C   Schlitze Fund/Bodenk.b.0,05m2                                                                                m
+            LB-Version: 23                Geringfügig Geändert
+Änderung:   Änderung im Grundtext: statt Querschnitt nun ausgesparte Fläche
+
+07.02       Wände,Balken u.Stützen
+
+
+            Ausmaß- und Abrechnungsregeln:
+            Rahmen werden als Stützen und Balken ohne jede Überschneidung abgerechnet, Stützen bis Unterkante
+            Balken, Balken von außen bis außen gemessen.
+            LB-Version: 23                Geringfügig Geändert
+07.02 01    Wände aus Beton (Wand).
+            Im Positionsstichwort ist die Dicke (cm) und bei Beton die Festigkeitsklasse angegeben.
+            Bauteilhöhe über Null bis 3,2 m.
+
+07.02 01E   Beton Wand b.20cm C20/25 b.3,2m                                                                              m³
+
+07.02 01F   Beton Wand ü.20-30cm C20/25 b.3,2m                                                                           m³
+
+07.02 01G   Beton Wand ü.30-40cm C20/25 b.3,2m                                                                           m³
+
+07.02 01H   Beton Wand b.20cm C25/30 b.3,2m                                                                              m³
+
+07.02 01I   Beton Wand ü.20-30cm C25/30 b.3,2m                                                                           m³
+
+07.02 01J   Beton Wand ü.30-40cm C25/30 b.3,2m                                                                           m³
+
+07.02 01S   Schalung Beton Wand b.3,2m                                                                                   m²
+            Schalung, ohne Unterschied der Wanddicke.
+
+07.02 01T   Spreizschalung Beton Wand b.3,2m                                                                             m²
+            Einseitige Spreizschalung (z.B. in Baulücken), ohne Unterschied der Wanddicke.
+
+07.02 01V   Bewehrung Stabst.Beton Wand b.3,2m                                                                           kg
+            Bewehrung mit Stabstahl.
+
+07.02 01W   Bewehrung Matten Beton Wand b.3,2m                                                                           kg
+            Bewehrung mit Matten.
+
+07.02 01X   Az Wand b.3,2m f.Beton__________                                                                             m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en): ____________
+
+07.02 03    Wände aus Beton (Wand).
+            Im Positionsstichwort ist die Dicke (cm), bei Beton die Festigkeitsklasse und die Bauteilhöhe (m) angegeben.
+            Bauteilhöhe über Null bis über 3,2 m.
+
+07.02 03A   Beton Wand b.20cm C20/25 ü.3,2m:__________                                                                   m³
+
+07.02 03B   Beton Wand ü.20-30cm C20/25 ü.3,2m:__________                                                                m³
+
+07.02 03C   Beton Wand ü.30-40cm C20/25 ü.3,2m:__________                                                                m³
+
+07.02 03D   Beton Wand b.20cm C25/30 ü.3,2m:__________                                                                   m³
+
+
+                                                                                                                    Seite 8 / 35
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+07.02 03E   Beton Wand ü.20-30cm C25/30 ü.3,2m:__________                                                                m³
+
+07.02 03F   Beton Wand ü.30-40cm C25/30 ü.3,2m:__________                                                                m³
+
+07.02 03S   Schalung Beton Wand ü.3,2m:__________                                                                        m²
+            Schalung, ohne Unterschied der Wanddicke.
+
+07.02 03T   Spreiz-Schalung Beton Wand ü.3,2m:__________                                                                 m²
+            Einseitige Spreiz-Schalung (z.B. in Baulücken), ohne Unterschied der Wanddicke.
+
+07.02 03V   Bewehrung Stabst.Beton Wand ü.3,2m:__________                                                                kg
+            Bewehrung mit Stabstahl.
+
+07.02 03W   Bewehrung Matten Beton Wand ü.3,2m:__________                                                                kg
+            Bewehrung mit Matten.
+
+07.02 03X   Az Wand ü.3,2m f.Beton__________                                                                             m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en): ____________
+07.02 09    Brüstungen, Attiken und Parapete (Brüstung) als gesonderter Bauteil aus Beton.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse und die Dicke (cm) angegeben.
+
+07.02 09A   Beton Brüstung/Attika/Parapet C20/25 b.15cm                                                                  m³
+            Nähere Angaben: ____________
+
+07.02 09B   Beton Brüstung/Attika/Parapet C20/25 ü.15-25cm                                                               m³
+            Nähere Angaben: ____________
+
+07.02 09D   Beton Brüstung/Attika/Parapet C25/30 b.15cm                                                                  m³
+            Nähere Angaben: ____________
+
+07.02 09E   Beton Brüstung/Attika/Parapet C25/30 ü.15-25cm                                                               m³
+            Nähere Angaben: ____________
+
+07.02 09S   Schalung Beton Brüstung/Attika/Parapet                                                                       m²
+            Schalung, ohne Unterschied der Wanddicke.
+
+07.02 09V   Bewehrung Stabst.Beton Brüstung/Attika/Parapet                                                               kg
+            Bewehrung mit Stabstahl.
+
+07.02 09W   Bewehrung Matten Beton Brüstung/Attika/Parapet                                                               kg
+            Bewehrung mit Matten.
+
+07.02 09X   Az Brüstung/Attika/Parapet f.Beton__________                                                                 m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en): ____________
+07.02 14    Stützen (Säulen oder Pfeiler) als gesonderter Bauteil aus Beton.
+            Im Positionsstichwort ist bei Beton die Querschnittsfläche (m2) und die Festigkeitsklasse angegeben.
+            Bauteilhöhe über Null bis 3,2 m.
+
+07.02 14A   Beton Stützen b.0,05m2 C20/25 b.3,2m                                                                         m³
+
+07.02 14B   Beton Stützen ü.0,05m2 C20/25 b.3,2m                                                                         m³
+
+07.02 14C   Beton Stützen b.0,05m2 C25/30 b.3,2m                                                                         m³
+
+07.02 14D   Beton Stützen ü.0,05m2 C25/30 b.3,2m                                                                         m³
+
+                                                                                                                    Seite 9 / 35
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+07.02 14E   Beton Stützen b.0,05m2 C30/37 b.3,2m                                                                             m³
+
+07.02 14F   Beton Stützen ü.0,05m2 C30/37 b.3,2m                                                                             m³
+
+07.02 14N   Schalung Beton Sützen rechteckig b.3,2m                                                                          m²
+            Schalung rechteckig.
+
+07.02 14O   Schalung Beton Stützen rund b.3,2m                                                                               m²
+            Schalung rund.
+
+07.02 14T   Bewehrung Stabst.Beton Stützen b.3,2m                                                                            kg
+            Bewehrung mit Stabstahl.
+
+07.02 14X   Az Stützen b.3,2m f.Beton__________                                                                              m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en): ____________
+07.02 15    Stützen (Säulen oder Pfeiler) als gesonderter Bauteil aus Beton.
+            Im Positionsstichwort ist bei Beton die Querschnittsfläche (m2), die Festigkeitsklasse und die Bauteilhöhe (m)
+            angegeben
+            Bauteilhöhe über Null bis über 3,2 m.
+
+07.02 15A   Beton Stützen b.0,05m2 C20/25 ü.3,2m:__________                                                                  m³
+
+07.02 15B   Beton Stützen ü.0,05m2 C20/25 ü.3,2m:__________                                                                  m³
+
+07.02 15C   Beton Stützen b.0,05m2 C25/30 ü.3,2m:__________                                                                  m³
+
+07.02 15D   Beton Stützen ü.0,05m2 C25/30 ü.3,2m:__________                                                                  m³
+
+07.02 15E   Beton Stützen b.0,05m2 C30/37 ü.3,2m:__________                                                                  m³
+
+07.02 15F   Beton Stützen ü.0,05m2 C30/37 ü.3,2m:__________                                                                  m³
+
+07.02 15N   Schalung Beton Stützen rechteckig ü.3,2m:__________                                                              m²
+            Schalung rechteckig.
+
+07.02 15O   Schalung Beton Stützen rund ü.3,2m:__________                                                                    m²
+            Schalung rund.
+
+07.02 15T   Bewehrung Stabst.Beton Stützen ü.3,2m:__________                                                                 kg
+            Bewehrung mit Stabstahl.
+
+07.02 15X   Az Stützen ü.3,2m f.Beton__________                                                                              m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en): ____________
+07.02 18    Balken, Träger, Über- oder Unterzüge und Roste (Balken/Rost) aus Beton.
+            Im Positionsstichwort ist bei Beton die Breite (cm) und die Festigkeitsklasse angegeben.
+            Unterstellungshöhe über Null bis 3,2 m.
+             Kommentar:
+             Deckenbalken und Deckenroste sind nur dann in eigenen Positionen auszuschreiben, wenn diese in einem gesondertem
+             Arbeitsgang (ohne Decke) betoniert werden.
+
+07.02 18A   Beton Balken/Rost b.20cm C20/25 b.3,2m                                                                           m³
+
+07.02 18B   Beton Balken/Rost ü.20cm C20/25 b.3,2m                                                                           m³
+
+07.02 18C   Beton Balken/Rost b.20cm C25/30 b.3,2m                                                                           m³
+
+07.02 18D   Beton Balken/Rost ü.20cm C25/30 b.3,2m                                                                           m³
+
+                                                                                                                       Seite 10 / 35
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+07.02 18E   Beton Balken/Rost b.20cm C30/37 b.3,2m                                                                           m³
+
+07.02 18F   Beton Balken/Rost ü.20cm C30/37 b.3,2m                                                                           m³
+
+07.02 18S   Schalung Beton Balken/Rost b.3,2m                                                                                m²
+            Schalung, ohne Unterschied der Dicke.
+
+07.02 18V   Bewehrung Stabst.Beton Balken/Rost b.3,2m                                                                        kg
+            Bewehrung mit Stabstahl.
+
+07.02 18X   Az Balken/Rost b.3,2m f.Beton__________                                                                          m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en): ____________
+07.02 19    Balken, Träger, Über- oder Unterzüge und Roste (Balken/Rost) aus Beton.
+            Im Positionsstichwort ist die Breite (cm), bei Beton die Festigkeitsklasse und Unterstellungshöhe (m)
+            angegeben.
+            Unterstellungshöhe über Null bis über 3,2 m.
+             Kommentar:
+             Deckenbalken und Deckenroste sind nur dann in eigenen Positionen auszuschreiben, wenn diese in einem gesondertem
+             Arbeitsgang (ohne Decke) betoniert werden.
+
+07.02 19A   Beton Balken/Rost b.20cm C20/25 ü.3,2m:__________                                                                m³
+
+07.02 19B   Beton Balken/Rost ü.20cm C20/25 ü.3,2m:__________                                                                m³
+
+07.02 19C   Beton Balken/Rost b.20cm C25/30 ü.3,2m:__________                                                                m³
+
+07.02 19D   Beton Balken/Rost ü.20cm C25/30 ü.3,2m:__________                                                                m³
+
+07.02 19E   Beton Balken/Rost b.20cm C30/37 ü.3,2m:__________                                                                m³
+
+07.02 19F   Beton Balken/Rost ü.20cm C30/37 ü.3,2m:__________                                                                m³
+
+07.02 19S   Schalung Beton Balken/Rost ü.3,2m:__________                                                                     m²
+            Schalung, ohne Unterschied der Dicke.
+
+07.02 19V   Bewehrung Stabst.Beton Balken/Rost ü.3,2m:__________                                                             kg
+            Bewehrung mit Stabstahl.
+
+07.02 19X   Az Balken/Rost ü.3,2m f.Beton__________                                                                          m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en): ____________
+07.02 25    Aufzahlung (Az) auf Beton.
+
+07.02 25C   Az Beton Wand f.Neigung ü.3%                                                                                     m³
+            Für geneigte Flächen bei Wänden,
+            über 3 Prozent von der Lotrechten: ____________%
+
+07.02 25D   Az Beton Brüstung/Attika/Parapet f.Neigung ü.3%                                                                  m³
+            Für geneigte Flächen bei Brüstungen,
+            über 3 Prozent von der Lotrechten: ____________%
+07.02 26    Aufzahlung (Az) auf Beton.
+
+07.02 26E   Az Beton Balken/Rost f.Neigung ü.3%                                                                              m³
+            Für geneigte Flächen bei Balken oder Roste (Balken/Rost),
+            über 3 Prozent von der Lotrechten: ____________%
+
+07.02 26F   Az Beton Stützen f.Neigung ü.3%                                                                                  m³
+
+                                                                                                                       Seite 11 / 35
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Für geneigte Flächen bei Stützen,
+            über 3 Prozent von der Lotrechten: ____________%
+07.02 40    Aufzahlung (Az) auf Beton (Wände, Stützen, Balken, Brüstungen, Attiken und Parapete) für besondere
+            Eigenschaften von Beton.
+
+07.02 40A   Az Beton b.C20/25 f.XC2                                                                                     m³
+            Für eine Expositionsklasse XC2 (C20/25) bei wechselnder Feuchtebelastung, Wasserdruck < 2 m.
+            Betrifft Position(en): ____________
+
+07.02 40B   Az Beton b.C20/25 f.B1                                                                                      m³
+            Für eine Expositionsklasse B1 (C20/25) bei einem Wasserdruck 2 bis 10 m.
+            Betrifft Position(en): ____________
+
+07.02 40C   Az Beton b.C25/30 f.B2                                                                                      m³
+            Für eine Expositionsklasse B2 (C25/30), bei außen liegenden Bauteilen, bei schwach lösendem Angriff.
+            Betrifft Position(en): ____________
+
+07.02 40D   Az Beton b.C25/30 f.B4                                                                                      m³
+            Für eine Expositionsklasse B4 (C25/30) bei einem Wasserdruck über 10 m (dichte Bauwerke).
+            Betrifft Position(en): ____________
+
+07.02 40G   Az Beton b.C20/25 f.B7                                                                                      m³
+            Für eine Expositionsklasse B7 (C20/25) bei Bauteilen die dem Taumittel direkt ausgesetzt werden.
+            Betrifft Position(en): ____________
+
+07.02 40X   Az Beton Balken/Rost f.besondere Eigenschaften                                                              m³
+            Besondere Eigenschaften von Beton (z.B. Expositionsklasse):____________
+            Betrifft Position(en): ____________
+07.02 47    Ausbilden von Nischen, ohne Unterschied der Tiefe.
+            Im Positionsstichwort ist die Ansichtsfläche (lichte Weite in m2) angegeben.
+
+07.02 47A   Schalung Wand f.Nische b.0,1m2                                                                              Stk
+
+07.02 47B   Schalung Wand f.Nische ü.0,1-0,5m2                                                                          Stk
+
+07.02 47C   Schalung Wand f.Nische ü.0,5-1m2                                                                            m²
+            Abgerechnet wird die abgewickelte Fläche.
+
+07.02 48    Öffnungen, Aussparungen (Öffnungen) und Schlitze in Wänden und Balken (Wand/Balken) aus Beton.
+            Im Positionsstichwort ist die Größe (m2) der ausgesparten Fläche angegeben.
+
+07.02 48A   Öffnungen Wand/Balken b.0,1m2                                                                               Stk
+            Öffnungen und Aussparungen.
+
+            LB-Version: 23                Geringfügig Geändert
+Änderung:   Änderung im Grundtext: statt Querschnitt nun ausgesparte Fläche
+
+07.02 48B   Öffnungen Wand/Balken ü.0,1-0,5m2                                                                           Stk
+            Öffnungen und Aussparungen.
+
+            LB-Version: 23                Geringfügig Geändert
+Änderung:   Änderung im Grundtext: statt Querschnitt nun ausgesparte Fläche
+
+07.02 48C   Schlitze Wand/Balken b.0,05m2                                                                               m
+            Schlitze.
+
+            LB-Version: 23                Geringfügig Geändert
+Änderung:   Änderung im Grundtext: statt Querschnitt nun ausgesparte Fläche
+
+07.02 62    Behandeln von Betonflächen bei Bauteilen, ausgenommen Unterbeton und Betonpflaster.
+
+                                                                                                                  Seite 12 / 35
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+
+07.02 62G   Kratzen von Wand-,u.Stützenflächen                                                                                 m²
+            Kratzen von Wand-, und Stützenflächen.
+
+07.02 62H   Stocken von Wand-,u.Stützenflächen                                                                                 m²
+            Stocken von Wand-, und Stützenflächen.
+
+07.02 62I   Spitzen von Wand-,u.Stützenflächen                                                                                 m²
+            Spitzen von Wand-, und Stützenflächen.
+
+07.02 62J   Scharrieren von Wand-,u.Stützenflächen                                                                             m²
+            Scharrieren von Wand-, und Stützenflächen.
+
+07.02 95    Bewehrungs-Rückbiegeanschluss (Anschlusselement) für Wände, Balken und Roste (Wand) aus Beton.
+
+07.02 95A   Anschlusselement Wand/Balken/Roste 1-reihig                                                                        m
+            1-reihig.
+
+07.02 95B   Anschlusselement Wand/Balken/Roste 2-reihig                                                                        m
+            2-reihig.
+
+07.03       Decken
+
+
+            1. Zulässige Auflast:
+            Die in den Positionen angegebene zulässige Auflast beinhaltet:
+                 • einen Deckenputz
+                 • abgehängte Decken
+                 • eine Fußbodenkonstruktion
+                 • eine Nutzlast
+                 • einen Zuschlag für leichte Trennwände
+            2. Podeste:
+            Podeste, die als Auflager für Stiegen dienen, sind als Decke zu betrachten.
+            Zwischenpodeste sind Podeste, die in der Konstruktion der Stiegen(lauf)platte enthalten sind.
+            3. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                 • die Durchdringung der Schalung (z.B. mit Fugenbändern, Bewehrung)
+            Bei Elementdecken (Halbfertigteile) sind Gitterträger sowie Montage- und Verlegepläne in die Einheitspreise
+            einkalkuliert.
+            4. Ausmaß- und Abrechnungsregeln:
+            Elementdecken und Stiegen werden nach dem Flächenmaß (Planmaß) abgerechnet.
+            Abgerechnet wird je Geschoß, gemessen an der Oberseite der Decke oder Stiegenlaufplatte, von Außenkante
+            zu Außenkante.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+                  • Gewölbte oder polygonale Decken unter Angabe der Geometrie (Neigungen) und Konstruktion
+                  • Stahlbeton-Hohlkörperdecken einschließlich der Hohlkörper
+                  • geneigte Oberflächen bei Beton für Platten
+                  • eine verriebene Oberfläche für das Aufbringen von Versiegelungen und Beschichtungen aus Reaktionsharz
+
+            LB-Version: 23                 Geringfügig Geändert
+07.03 01    Decken und Kragplatten (D/Kragpl.) aus Beton mit ebener Untersicht, einschließlich Deckenroste, wenn diese in
+            einem Arbeitsgang mitbetoniert werden können.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse und die Plattendicke (cm) angegeben.
+            Unterstellungshöhe über Null bis 3,2 m.
+             Kommentar:
+             Randschalungen für Kragplatten und Schalungen für Deckenroste sind immer in eigenen Positionen auszuschreiben.
+
+07.03 01A   Beton C20/25 D/Kragpl.b.25cm b.3,2m                                                                                m³
+                                                                                                                         Seite 13 / 35
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+
+07.03 01C   Beton C25/30 D/Kragpl.b.25cm b.3,2m                                                                                m³
+
+07.03 01D   Beton C30/37 D/Kragpl.b.25cm b.3,2m                                                                                m³
+
+07.03 01S   Schalung D/Kragpl.Untersicht b.3,2m                                                                                m²
+            Schalung.
+
+07.03 01T   Rand-Schalung D/Kragpl.Roste b.3,2m                                                                                m²
+            Randschalungen für Kragplatten und Schalungen für Deckenroste.
+
+07.03 01V   Bewehrung Stabst.D/Kragpl.b.3,2m                                                                                   kg
+            Bewehrung mit Stabstahl.
+
+07.03 01W   Bewehrung Matten D/Kragpl.b.3,2m                                                                                   kg
+            Bewehrung mit Matten.
+
+07.03 01X   Az D/Kragpl.b.3,2m f.Beton__________                                                                               m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en):____________
+07.03 02    Decken und Kragplatten (D/Kragpl.) aus Beton mit ebener Untersicht, einschließlich Deckenroste, wenn diese in
+            einem Arbeitsgang mitbetoniert werden können.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse, die Plattendicke (cm) und die Unterstellungshöhe (m)
+            angegeben.
+            Unterstellungshöhe über Null bis über 3,2 m.
+             Kommentar:
+             Randschalungen für Kragplatten und Schalungen für Deckenroste sind immer in eigenen Positionen auszuschreiben.
+
+07.03 02A   Beton C20/25 D/Kragpl.b.25cm ü.3,2m:__________                                                                     m³
+
+07.03 02C   Beton C25/30 D/Kragpl.b.25cm ü.3,2m:__________                                                                     m³
+
+07.03 02D   Beton C30/37 D/Kragpl.b.25cm ü.3,2m:__________                                                                     m³
+
+07.03 02S   Schalung D/Kragpl.Untersicht ü.3,2m:__________                                                                     m²
+            Schalung.
+
+07.03 02T   Rand-Schalung D/Kragpl.Roste ü.3,2m:__________                                                                     m²
+            Randschalungen für Kragplatten und Schalungen für Deckenroste.
+
+07.03 02V   Bewehrung Stabst.D/Kragpl.ü.3,2m:__________                                                                        kg
+            Bewehrung mit Stabstahl.
+
+07.03 02W   Bewehrung Matten D/Kragpl.ü.3,2m:__________                                                                        kg
+            Bewehrung mit Matten.
+
+07.03 02X   Az D/Kragpl.ü.3,2m f.Beton__________                                                                               m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en):____________
+07.03 07    Fertigteildecke mit ebener Untersicht (Ft.D.e.U.), bestehend aus Deckenbalken und Deckensteinen,
+            einschließlich Bewehrung, Beton, Unterstellungen, Schalung und Bewehrung für Auswechslungen, Randfelder
+            und Roste, ausgeführt nach vom Auftragnehmer beizustellenden Verlegeplänen und Systemstatik.
+            Im Positionsstichwort ist die lichte Weite (m), die zulässige Auflast und die Art der Deckensteine angegeben.
+            Unterstellungshöhe über Null bis 3,2 m.
+
+07.03 07A   Ft.D.e.U.b.4m 5kN Beton b.3,2m                                                                                     m²
+
+07.03 07B   Ft.D.e.U.b.4-5m 5kN/m2 Beton b.3,2m                                                                                m²
+
+07.03 07C   Ft.D.e.U.b.5-6m 5kN/m2 Beton b.3,2m                                                                                m²
+                                                                                                                         Seite 14 / 35
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+07.03 07I   Ft.D.e.U.b.4m 5kN/m2 Ziegel b.3,2m                                                                              m²
+
+07.03 07J   Ft.D.e.U.b.4-5m 5kN/m2 Ziegel b.3,2m                                                                            m²
+
+07.03 07K   Ft.D.e.U.b.5-6m 5kN/m2 Ziegel b.3,2m                                                                            m²
+07.03 08    Fertigteildecke mit ebener Untersicht (Ft.D.e.U.), bestehend aus Deckenbalken und Deckensteinen,
+            einschließlich Bewehrung, Beton, Unterstellungen, Schalung und Bewehrung für Auswechslungen, Randfelder
+            und Roste, ausgeführt nach vom Auftragnehmer beizustellenden Verlegeplänen und Systemstatik.
+            Im Positionsstichwort ist die lichte Weite (m), die zulässige Auflast, die Art der Deckensteine und die
+            Unterstellungshöhe (m) angegeben.
+            Unterstellungshöhe über Null bis über 3,2 m.
+
+07.03 08A   Ft.D.e.U.b.4m 5kN/m2 Beton ü.3,2m:__________                                                                    m²
+
+07.03 08B   Ft.D.e.U.4-5m 5kN/m2 Beton ü.3,2m:__________                                                                    m²
+
+07.03 08C   Ft.D.e.U.b.5-6m 5kN/m2 Beton ü.3,2m:__________                                                                  m²
+
+07.03 08I   Ft.D.e.U.b.4m 5kN/m2 Ziegel ü.3,2m:__________                                                                   m²
+
+07.03 08J   Ft.D.e.U.b.4-5m 5kN/m2 Ziegel ü.3,2m:__________                                                                 m²
+
+07.03 08K   Ft.D.e.U.b.5-6m 5kN/m2 Ziegel ü.3,2m:__________                                                                 m²
+07.03 09    Stahlbetondecken aus bewehrten Elementdecken, einschließlich der Passstücke, ausgeführt nach vom
+            Auftragnehmer beizustellenden Verlegeplänen.
+                 • Fertigteil mindestens 5 cm dick
+            im Einheitspreis einkalkuliert ist:
+                 • Ortbeton der Festigkeitsklasse mindestens C25/30 XC2 auf die erforderliche Rohdeckendicke ergänzt
+                   (E-Decke)
+                 • Beton für Roste
+                 • Unterstellung
+                 • malerfertige Verspachtelung der Stoßfugen
+            Die Bewehrung ist in eigenen Positionen beschrieben.
+
+07.03 09A   Elementdecke b.3,2m 20cm                                                                                        m²
+            Im Positionsstichwort ist die Rohdeckendicke (cm) angegeben.
+            Unterstellungshöhe über Null bis 3.2 m
+            LB-Version: 23                 Geringfügig Geändert
+
+07.03 09X   Elementdecke b.3,2m__________                                                                                   m²
+            Im Positionsstichwort ist die Rohdeckendicke (cm) angegeben.
+            Unterstellungshöhe über Null bis 3.2 m
+            LB-Version: 23                 Geringfügig Geändert
+
+07.03 09Y   Bewehrung f.Elementdecke b.3,2m                                                                                 kg
+            Bewehrung, ohne Unterschied ob für Ortbeton oder Fertigteil.
+            Bauteilhöhe über Null bis 3,2 m.
+            Betrifft Position(en):____________
+
+            LB-Version: 23                 Geringfügig Geändert
+07.03 11    Stahlbetondecken aus bewehrten Elementdecken, einschließlich der Passstücke, ausgeführt nach vom
+            Auftragnehmer beizustellenden Verlegeplänen.
+                 • Fertigteil mindestens 5 cm dick
+            im Einheitspreis einkalkuliert ist:
+                 • Ortbeton der Festigkeitsklasse mindestens C25/30 XC2 auf die erforderliche Rohdeckendicke ergänzt
+                   (E-Decke)
+                 • Beton für Roste
+                 • Unterstellung
+                 • malerfertige Verspachtelung der Stoßfugen
+            Die Bewehrung ist in eigenen Positionen beschrieben.
+                                                                                                                      Seite 15 / 35
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+
+07.03 11A   Elementdecke ü.3,2m 20cm                                                                                 m²
+            Im Positionsstichwort ist die Rohdeckendicke (cm) angegeben.
+            Unterstellungshöhe über Null bis über 3.2 m:____________
+            LB-Version: 23              Geringfügig Geändert
+
+07.03 11X   Elementdecke ü.3,2m__________                                                                            m²
+            Im Positionsstichwort ist die Rohdeckendicke (cm) angegeben.
+            Unterstellungshöhe über Null bis über 3.2 m:____________
+            LB-Version: 23              Geringfügig Geändert
+
+07.03 11Y   Bewehrung f.Elementdecke ü.3,2m                                                                          kg
+            Bewehrung, ohne Unterschied ob für Ortbeton oder Fertigteil.
+            Bauteilhöhe über Null bis über 3,2 m.
+            Betrifft Position(en):____________
+            LB-Version: 23              Geringfügig Geändert
+07.03 13    Durchgehende Öffnungen für Stahlbetondecken aus bewehrten Elementdecken, quadratisch oder rechteckig,
+            einschließlich Abschalungen.
+            Im Positionsstichwort ist die Größe (m2) der ausgesparten Fläche angegeben.
+
+07.03 13A   Elementdecke/Öffnungen b.0,25m2                                                                          Stk
+
+07.03 13B   Elementdecke/Öffnungen ü.0,25-0,5m2                                                                      Stk
+
+07.03 13C   Elementdecke/Öffnungen ü.0,5-1m2                                                                         Stk
+
+07.03 13D   Elementdecke/Öffnungen ü.1-2m2                                                                           Stk
+
+07.03 13X   Elementdecke/Öffnungen ü.2m2:__________                                                                  Stk
+07.03 14    Aufzahlung (Az) auf Elementdecken aus Beton für besondere Eigenschaften von Beton.
+
+07.03 14A   Az Elementdecke f.Betongüte                                                                              m²
+            Betongüte: ____________
+
+07.03 14B   Az Elementdecke f.Expositionsklasse                                                                      m²
+            Expositionsklasse: ____________
+
+07.03 15    Einbauten für Elementdecken aus Beton für Elektroinstallationen.
+
+07.03 15A   Einbaudosen f.Elementdecke                                                                               Stk
+            Einbaudosen (z.B. Schalter-, Verteiler- oder Abzweigdosen).
+
+07.03 15B   Leerverrohrungen b.25mm f.Elementdecke                                                                   m
+            Leerverrohrungen bis 25 mm Durchmesser.
+
+07.03 16    Plattenbalkendecke.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse angegeben.
+            Unterstellungshöhe über Null bis 3,2 m.
+
+07.03 16A   Beton Plattenbalkendecke C20/25 b.3,2m                                                                   m³
+
+07.03 16B   Beton Plattenbalkendecke C25/30 b.3,2m                                                                   m³
+
+07.03 16S   Schalung Plattenbalkendecke b.3,2m                                                                       m²
+            Schalung.
+
+07.03 16T   Rand-Schalung Plattenbalkendecke/Roste b.3,2m                                                            m²
+            Rand-Schalung.
+
+07.03 16V   Bewehrung Stabst.Plattenbalkendecke b.3,2m                                                               kg
+                                                                                                               Seite 16 / 35
+                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Bewehrung mit Stabstahl.
+
+07.03 16W   Bewehrung Matten Plattenbalkendecke b.3,2m                                                                   kg
+            Bewehrung mit Matten.
+
+07.03 16X   Az Plattenbalkendecke b.3,2m f.Beton__________                                                               m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en):____________
+07.03 17    Plattenbalkendecke.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse und die Unterstellungshöhe (m) angegeben.
+            Unterstellungshöhe über Null bis über 3,2 m.
+
+07.03 17A   Beton Plattenbalkendecke C20/25 ü.3,2m:__________                                                            m³
+
+07.03 17B   Beton Plattenbalkendecke C25/30 ü.3,2m:__________                                                            m³
+
+07.03 17S   Schalung Plattenbalkendecke ü.3,2m:__________                                                                m²
+            Schalung.
+
+07.03 17T   Rand-Schalung Plattenbalkendecke/Roste ü.3,2m:__________                                                     m²
+            Rand-Schalung.
+
+07.03 17V   Bewehrung Stabst.Plattenbalkendecke ü.3,2m:__________                                                        kg
+            Bewehrung mit Stabstahl.
+
+07.03 17W   Bewehrung Matten Plattenbalkendecke ü.3,2m:__________                                                        kg
+            Bewehrung mit Matten.
+
+07.03 17X   Az Plattenbalkendecke ü.3,2m f.Beton__________                                                               m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en):____________
+07.03 18    Kassettendecke.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse angegeben.
+            Unterstellungshöhe über Null bis 3,2 m.
+
+07.03 18A   Beton Kassettendecke C20/25 b.3,2m                                                                           m³
+
+07.03 18B   Beton Kassettendecke C25/30 b.3,2m                                                                           m³
+
+07.03 18S   Schalung Kassettendecke b.3,2m                                                                               m²
+            Schalung.
+
+07.03 18V   Bewehrung Stabst.Kassettenecke b.3,2m                                                                        kg
+            Bewehrung mit Stabstahl.
+
+07.03 18W   Bewehrung Matten Kassettendecke b.3,2m                                                                       kg
+            Bewehrung mit Matten.
+
+07.03 18X   Az Kassettendecke b.3,2m f.Beton__________                                                                   m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en):____________
+07.03 19    Kassettendecke.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse und die Unterstellungshöhe (m) angegeben.
+            Unterstellungshöhe über Null bis über 3,2 m.
+
+07.03 19A   Beton Kassettendecke C20/25 ü.3,2m:__________                                                                m³
+
+07.03 19B   Beton Kassettendecke C25/30 ü.3,2m:__________                                                                m³
+                                                                                                                   Seite 17 / 35
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+07.03 19S   Schalung Kassettendecke ü.3,2m:__________                                                                     m²
+            Schalung.
+
+07.03 19V   Bewehrung Stabst.Kassettendecke ü.3,2m:__________                                                             kg
+            Bewehrung mit Stabstahl.
+
+07.03 19W   Bewehrung Matten Kassettendecke ü.3,2m:__________                                                             kg
+            Bewehrung mit Matten.
+
+07.03 19X   Az Kassettendecke ü.3,2m f.Beton__________                                                                    m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en):____________
+07.03 20    Stahlbetonplatten über Aufzugsschächten, einschließlich aller Aussparungen.
+            Erschwernisse bei der Unterstellung der Schalung im Schacht sind in die Einheitspreise einkalkuliert.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse und die Plattendicke (cm) angegeben.
+            Abgerechnet wird hohl für voll.
+
+07.03 20A   Beton Platte ü.Aufzugsschacht C20/25 b.25cm                                                                   m³
+
+07.03 20C   Beton Platte ü.Aufzugsschacht C25/30 b.25cm                                                                   m³
+
+07.03 20S   Schalung Platte ü.Aufzugsschacht                                                                              m²
+            Schalung.
+
+07.03 20V   Bewehrung Stabst.Platte ü.Aufzugsschacht                                                                      kg
+            Bewehrung mit Stabstahl.
+
+07.03 20W   Bewehrung Matten Platte ü.Aufzugsschacht                                                                      kg
+            Bewehrung mit Matten.
+
+07.03 20X   Az Platte ü.Aufzugsschacht f.Beton__________                                                                  m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en):____________
+07.03 25    Treppenlauf- und Zwischenpodestplatten (Treppen) aus Beton, einschließlich gerader oder spitzer Stufenkerne.
+            Im Positionsstichwort ist die Dicke (cm) der Platte und bei Beton die Festigkeitsklasse angegeben.
+            Unterstellungshöhe über Null bis 3,2 m.
+
+07.03 25C   Beton Treppen b.20cm C25/30 b.3,2m                                                                            m³
+
+07.03 25E   Beton Treppen b.20cm C30/37 b.3,2m                                                                            m³
+
+07.03 25S   Schalung Treppen gerade+Wangen b.3,2m                                                                         m²
+            Schalung gerade + Wangen.
+
+07.03 25T   Schalung Treppen gewendelt+Wangen b.3,2m                                                                      m²
+            Schalung gewendelt + Wangen.
+
+07.03 25V   Bewehrung Stabst.Treppen b.3,2m                                                                               kg
+            Bewehrung mit Stabstahl.
+
+07.03 25W   Bewehrung Matte Treppen b.3,2m                                                                                kg
+            Bewehrung mit Matten.
+
+07.03 25X   Az Treppen b.3,2m f.Beton__________                                                                           m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en):____________
+
+
+                                                                                                                    Seite 18 / 35
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+07.03 26    Treppenlauf- und Zwischenpodestplatten (Treppen) aus Beton, einschließlich gerader oder spitzer Stufenkerne.
+            Im Positionsstichwort ist die Dicke (cm) der Platte, bei Beton die Festigkeitsklasse und die Unterstellungshöhe
+            (m) angegeben.
+            Unterstellungshöhe über Null bis über 3,2 m.
+
+07.03 26C   Beton Treppen b.20cm C25/30 ü.3,2m:__________                                                                          m³
+
+07.03 26E   Beton Treppen b.20cm C30/37 ü.3,2m:__________                                                                          m³
+
+07.03 26S   Schalung Treppen gerade+Wangen ü.3,2m:__________                                                                       m²
+            Schalung gerade + Wangen.
+
+07.03 26T   Schalung Treppen gewendelt+Wangen ü.3,2m:__________                                                                    m²
+            Schalung gewendelt + Wangen.
+
+07.03 26V   Bewehrung Stabst.Treppen ü.3,2m:__________                                                                             kg
+            Bewehrung mit Stabstahl.
+
+07.03 26W   Bewehrung Matte Treppen ü.3,2m:__________                                                                              kg
+            Bewehrung mit Matten.
+
+07.03 26X   Az Treppen ü.3,2m f.Beton__________                                                                                    m³
+            Aufzahlung (Az) für eine höhere Betonfestigkeit.
+            Betrifft Position(en):____________
+07.03 40    Aufzahlung (Az) auf Betondecken, Treppen und Rampen, für besondere Eigenschaften von Beton.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse angegeben.
+
+07.03 40A   Az Beton C25/30 Treppen/Decken f.XC2                                                                                   m³
+            Für eine Expositionsklasse XC2, nass selten trocken (z.B. Hallenbäder).
+
+07.03 40E   Az Beton C25/30 Treppen/Decken f.B3                                                                                    m³
+            Für eine Expositionsklasse B 3 bei außen liegenden Bauteilen mit Frost- aber ohne Tausalzbeanspruchung.
+
+07.03 40F   Az Beton C25/30 Treppen/Decken f.B7                                                                                    m³
+            Für eine Expositionsklasse B7, bei Bauteilen die dem Taumittel direkt ausgesetzt werden.
+             Kommentar:
+             Bei Sichtbeton-Bauteilen ist bereits die Grundposition mit der entsprechenden Betonfestigkeitsklasse zu wählen.
+
+07.03 40X   Az Beton Treppen/Decken f.besondere Eigenschaften                                                                      m³
+            Besondere Eigenschaften von Beton (z.B. Expositionsklasse):____________
+            Betrifft Position(en): ____________
+             Kommentar:
+             Bei Sichtbeton-Bauteilen ist bereits die Grundposition mit der entsprechenden Betonfestigkeitsklasse zu wählen.
+
+07.03 48    Öffnungen, Aussparungen (Öffnungen) in Decken, Treppen und Rampen aus Beton.
+            Im Positionsstichwort ist der Querschnitt (m2) angegeben.
+
+07.03 48A   Öffnungen Decken/Treppen/Rampen b.0,1m2                                                                                Stk
+            LB-Version: 23                 Geändert
+Änderung:   Entfall von "Schlitzen"
+
+07.03 48B   Öffnungen Decken/Treppen/Rampen ü.0,1-0,5m2                                                                            Stk
+            LB-Version: 23                 Geändert
+Änderung:   Entfall von "Schlitzen"
+
+07.03 95    Bewehrungs-Rückbiegeanschluss (Anschlusselement) für Decken, Treppen und Rampen aus Beton.
+
+07.03 95A   Anschlusselement Decken/Treppen/Rampen 1-reihig                                                                        m
+
+                                                                                                                             Seite 19 / 35
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                               EH
+            1-reihig.
+
+07.03 95B   Anschlusselement Decken/Treppen/Rampen 2-reihig                                                                         m
+            2-reihig.
+
+07.03 97    Dübelleiste mit Doppelkopfdübel als Zulage zur Bewehrung in punktförmig gestützten Stahlbetonplatten,
+            einschließlich erforderlicher Abstandhalter (Durchstanzbewehrung).
+
+07.03 97A   Dübelleiste+Durchstanzbewehrung                                                                                         Stk
+            Deckendicke: ____________cm
+            Dübelhöhe: ____________mm
+            Dübeldurchmesser: ____________mm
+            Dübelabstand:____________cm
+            Länge Dübelleiste: ____________cm
+
+07.04       Dachkonstruktionen
+             Kommentar:
+             Konstruktionen von Decken oder Dächern spezieller Art (z.B. Zeltdächer) sind frei zu formulieren.
+
+            LB-Version: 23                 Geringfügig Geändert
+07.04 01    Trapezförmig/Polygonal gestaltete Dachkonstruktionen (Sargdeckel) aus Beton.
+            Ohne Unterschied der Höhe.
+            Seitliche lotrechte Wände und Giebelwände sind mit den Positionen aus 0702 (Wände) auszuschreiben und
+            abzurechnen.
+
+07.04 01A   Beton Sargdeckel                                                                                                        m³
+            Beschreibung: ____________
+            Festigkeitsklasse Beton: ____________
+
+07.04 01S   Schalung Sargdeckel                                                                                                     m²
+            Schalung.
+            Betrifft Position(en): ____________
+
+07.04 01T   Konterschalung Sargdeckel                                                                                               m²
+            Konterschalung.
+            Betrifft Position(en): ____________
+
+07.04 01V   Bewehrung Stabst.Sargdeckel                                                                                             kg
+            Bewehrung mit Stabstahl.
+            Betrifft Position(en): ____________
+
+07.04 01W   Bewehrung Matten Sargdeckel                                                                                             kg
+            Bewehrung mit Matten.
+            Betrifft Position(en): ____________
+07.04 48    Öffnungen, Aussparungen (Aussp.) in polygonal gestalteten Dachkonstruktionen (Sargdeckel) aus Beton.
+            Im Positionsstichwort ist der Querschnitt (m2) angegeben.
+
+07.04 48A   Öffnungen,Aussp. Sargdeckel b.0,1m2                                                                                     Stk
+            LB-Version: 23                 Geändert
+Änderung:   Entfall von "Schlitzen"
+
+07.04 48B   Öffnungen,Aussp. Sargdeckel ü.0,1-0,5m2                                                                                 Stk
+            LB-Version: 23                 Geändert
+Änderung:   Entfall von "Schlitzen"
+
+07.04 95    Bewehrungs-Rückbiegeanschluss (Anschlusselement) für polygonal gestalteten Dachkonstruktionen
+            (Sargdeckel) aus Beton.
+
+
+                                                                                                                              Seite 20 / 35
+                                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+07.04 95A   Anschlusselement Dach 1-reihig                                                                                   m
+            1-reihig.
+
+07.04 95B   Anschlusselement Dach 2-reihig                                                                                   m
+            2-reihig.
+
+07.08       Schächte, Kollektoren, spezielle Konstruktionen
+07.08 01    Schächte aus Beton, bestehend aus Bodenplatte, Wänden und Abdeckplatten, einschließlich aller
+            Aussparungen (Abdeckungen/Deckel sind in eigenen Positionen beschrieben).
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse und das Raummaß (m3) des inneren Hohlraums
+            angegeben.
+            Abgerechnet wird die tatsächliche Betonmenge.
+             Kommentar:
+             Andere Schächte und Schächte im Grundwasser sind getrennt nach Boden-, Deckenplatten und Wänden auszuschreiben.
+
+07.08 01A   Beton Schacht C16/20 b.1m3                                                                                       m³
+
+07.08 01B   Beton Schacht C16/20 ü.1-3m3                                                                                     m³
+
+07.08 01C   Beton Schacht C20/25 b.1m3                                                                                       m³
+
+07.08 01D   Beton Schacht C20/25 ü.1-3m3                                                                                     m³
+
+07.08 01E   Beton Schacht C25/30 b.1m3                                                                                       m³
+
+07.08 01F   Beton Schacht C25/30 ü.1-3m3                                                                                     m³
+
+07.08 01S   Schalung Schacht b.1m3                                                                                           m²
+            Schalung.
+
+07.08 01T   Schalung Schacht ü.1-3m3                                                                                         m²
+            Schalung.
+
+07.08 01V   Bewehrung Schacht Stabstahl                                                                                      kg
+            Bewehrung mit Stabstahl.
+
+07.08 01W   Bewehrung Schacht Matten                                                                                         kg
+            Bewehrung mit Matten.
+
+07.08 02    Waagrechte (waagr.) Versorgungskanäle (Kollektoren) aus Beton, als eigener Baukörper, bestehend aus
+            Bodenplatte, Wänden und Abdeckplatten aus Ortbeton oder Fertigteil, einschließlich Aussparungen für etwaige
+            Einstiegdeckel und Auflager für Abdeckplatten.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse und der lichte Querschnitt (m2) des inneren Hohlraums
+            angegeben.
+            Fertigteile werden wie Ortbetonbauteile abgerechnet.
+             Kommentar:
+             Andere Kollektoren und Kollektoren im Grundwasser sind getrennt nach Boden-, Deckenplatten und Wänden
+             auszuschreiben.
+
+07.08 02A   Beton waagr.Kollektor C16/20 b.1m2                                                                               m³
+
+07.08 02B   Beton waagr.Kollektor C16/20 ü.1-3m2                                                                             m³
+
+07.08 02C   Beton waagr.Kollektor C20/25 b.1m2                                                                               m³
+
+07.08 02D   Beton waagr.Kollektor C20/25 ü.1-3m2                                                                             m³
+
+07.08 02E   Beton waagr.Kollektor C25/30 b.1m2                                                                               m³
+
+07.08 02F   Beton waagr.Kollektor C25/30 ü.1-3m2                                                                             m³
+
+                                                                                                                       Seite 21 / 35
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+07.08 02S   Schalung Kollektor Wand+Decke                                                                                m²
+            Schalung.
+
+07.08 02V   Bewehrung Kollektor Stabstahl                                                                                kg
+            Bewehrung mit Stabstahl.
+
+07.08 02W   Bewehrung Kollektor Matten                                                                                   kg
+            Bewehrung mit Matten.
+
+07.08 03    Maschinensockel aus Beton.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse und das Einzelausmaß (m3) angegeben.
+
+07.08 03A   Maschinensockel C16/20 b.0,25m3                                                                              m³
+
+07.08 03B   Maschinensockel C16/20 ü.0,25-0,5m3                                                                          m³
+
+07.08 03C   Maschinensockel C16/20 ü.0,5-2m3                                                                             m³
+
+07.08 03S   Schalung Maschinensockel b.0,25m3                                                                            m²
+            Schalung.
+
+07.08 03T   Schalung Maschinensockel ü.0,25-0,5m3                                                                        m²
+            Schalung
+
+07.08 03U   Schalung Maschinensockel ü.0,5-2m3                                                                           m²
+            Schalung.
+
+07.08 03V   Bewehrung Stabst.Maschinensockel                                                                             kg
+            Bewehrung mit Stabstahl.
+
+07.08 03W   Bewehrung Matten Maschinensockel                                                                             kg
+            Bewehrung mit Matten.
+
+07.08 08    Trafoaufstellplatz aus Beton, einschließlich der HDPE-Verbindungsrohre.
+
+07.08 08A   Beton Trafoaufstellplatz C16/20                                                                              Stk
+            Festigkeitsklasse C16/20, 15 cm dick mit 1 Prozent Gefälle zur Mitte, Oberfläche mit Zementmörtel fein
+            verrieben und geschliffen, gemäß Detailzeichnung: ____________
+
+07.08 08S   Schalung Trafoaufstellplatz                                                                                  m²
+            Schalung.
+
+07.08 08V   Bewehrung Stabst.Trafoaufstellplatz                                                                          kg
+            Bewehrung mit Stabstahl.
+
+07.08 08W   Bewehrung Matten Trafoaufstellplatz                                                                          kg
+            Bewehrung mit Matten.
+
+07.08 09    Versetzen eines vom Auftraggeber beigestellten Ölablaufbehälters einschließlich der HDPE-Rohre in einer
+            Betonummantelung der Feuerwiderstandsklasse EI 90, einschließlich Anarbeiten des Estrichs an die
+            Ölabpumpöffnung 15 x 15 cm.
+
+07.08 09A   Ölablaufbehälter                                                                                             Stk
+            Gemäß Detailzeichnung: ____________
+
+07.08 10    Fertigteilabdeckbalken für Trafoschächte, aus Beton, Festigkeitsklasse C16/20, 15 x 20 cm, bis 2 m lang,
+            einschließlich Schalung und Bewehrung, in Zementmörtel versetzt.
+
+07.08 10A   Abdeckbalken-Trafoschacht                                                                                    m
+            Gemäß Detailzeichnung: ____________
+
+
+
+                                                                                                                   Seite 22 / 35
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+07.08 51    Wände aus Beton für Lift- und Lüftungsschächte.
+            Im Positionsstichwort ist bei Beton die Festigkeitsklasse und die Dicke (cm) angegeben.
+
+07.08 51A   Beton Wand f.Schächte b.20cm C20/25                                                                                    m³
+            Lichte Schachtabmessungen innen: ____________cm (Länge) x ____________cm (Breite) x ____________cm
+            (Höhe)
+
+07.08 51B   Beton Wand f.Schächte ü.20-30cm C20/25                                                                                 m³
+            Lichte Schachtabmessungen innen: ____________cm (Länge) x ____________cm (Breite) x ____________cm
+            (Höhe)
+
+07.08 51C   Beton Wand f.Schächte ü.30cm C20/25                                                                                    m³
+            Lichte Schachtabmessungen innen: ____________cm (Länge) x ____________cm (Breite) x ____________cm
+            (Höhe)
+
+07.08 51D   Beton Wand f.Schächte b.20cm C25/30                                                                                    m³
+            Lichte Schachtabmessungen innen: ____________cm (Länge) x ____________cm (Breite) x ____________cm
+            (Höhe)
+
+07.08 51E   Beton Wand f.Schächte ü.20-30cm C25/30                                                                                 m³
+            Lichte Schachtabmessungen innen: ____________cm (Länge) x ____________cm (Breite) x ____________cm
+            (Höhe)
+
+07.08 51F   Beton Wand f.Schächte ü.30cm C25/30                                                                                    m³
+            Lichte Schachtabmessungen innen: ____________cm (Länge) x ____________cm (Breite) x ____________cm
+            (Höhe)
+
+07.08 51G   Schalung Betonwand f.Schächte                                                                                          m²
+            Schalung, ohne Unterschied der Wanddicke.
+            Betrifft Position(en): ____________
+
+07.08 51H   Spreiz-Schalung Betonwand f.Schächte                                                                                   m²
+            Einseitige Spreiz-Schalung, ohne Unterschied der Wanddicke.
+            Betrifft Position(en): ____________
+
+07.08 51I   Bewehrung Stabst.Betonwand f.Schächte                                                                                  kg
+            Bewehrung mit Stabstahl, ohne Unterschied der Schachthöhe.
+
+07.08 51J   Bewehrung Matten Betonwand f.Schächte                                                                                  kg
+            Bewehrung mit Matten, ohne Unterschied der Schachthöhe.
+
+07.08 55    Aufzahlung (Az) auf Schächte, Kollektoren, Maschinensockel für besondere Eigenschaften von Beton.
+
+07.08 55X   Az Beton Schacht/Kollektor f.besondere Eigenschaften                                                                   m³
+            Besondere Eigenschaften von Beton (z.B. Expositionsklasse):____________
+            Betrifft Position(en): ____________
+             Kommentar:
+             Bei Sichtbeton-Bauteilen ist bereits die Grundposition mit der entsprechenden Betonfestigkeitsklasse zu wählen.
+
+07.08 95    Bewehrungs-Rückbiegeanschluss (Anschlusselement) für Schächte und Kollektoren aus Beton.
+
+07.08 95A   Anschlusselement Schacht/Kollektor 1-reihig                                                                            m
+            1-reihig.
+
+07.08 95B   Anschlusselement Schacht/Kollektor 2-reihig                                                                            m
+            2-reihig.
+
+07.11       Einbauteile
+
+
+            Einkalkulierte Leistungen:
+                                                                                                                             Seite 23 / 35
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+            Leistungen sind ohne Unterschied der Höhe beschrieben und ausgeführt.
+            Erschwernisse (z.B. Gerüstmehrkosten) sind in die Einheitspreise einkalkuliert.
+            LB-Version: 23                 Geringfügig Geändert
+07.11 02    Erdungs-, Potenzialausgleichs- und Blitzschutz-Bauteile.
+            Klemm-, Schraub- oder Schweißverbindungen einschließlich Befestigungsmaterial zur Herstellung von
+            zuverlässig elektrisch leitenden Verbindungen zwischen den Bauteilen untereinander und der
+            Ortbeton-Stahlbewehrung sind im Einheitspreis einkalkuliert.
+             Kommentar:
+             Gemäß der in der Elektrotechnikverordnung verbindlichen OVE Richtlinie R 1000-2 ist das Blitzschutzsystem bereits in der
+             Planungsphase des Bauvorhabens zu berücksichtigen.
+             Als zuverlässig elektrisch leitende Verbindung gelten gemäß OVE E 8014 und ÖVE/ÖNORM EN 62305-3 galvanisch
+             einwandfreie Klemm-, Schweiß- oder Schraubverbindungen.
+             Wenn für den Blitzschutz, Potentialausgleich oder die Erdung Stahlbetonbauteile (Ortbeton) z.B. als Erdung, Ableitungen, für
+             die Schirmung oder als Leiter für den Potentialausgleich verwendet werden, ist die Bewehrung der baulichen Anlage
+             (Ortbeton) zuverlässig elektrisch leitend untereinander zu verbinden, in das Blitzschutzsystem zu integrieren und
+             Erdungsfestpunkte in ausreichender Anzahl auszuführen.
+             Weiterführende Erdungs-, Potenzialausgleichs-, Blitzschutzbauteile, sowie Ausführungsdetails sind in der
+             Leistungsbeschreibung Haustechnik, Leistungsgruppe 12 (Erdungs- und Blitzschutzanlagen) beschrieben.
+
+07.11 02A   Blitzschutzdraht verzinkt D8mm                                                                                          m
+            Blitzschutzdraht, verzinkt.
+            Durchmesser (D): 8 mm
+            LB-Version: 23                 Geringfügig Geändert
+
+07.11 02B   Blitzschutzdraht verzinkt D10mm                                                                                         m
+            Blitzschutzdraht, verzinkt.
+            Durchmesser (D): 10 mm
+            LB-Version: 23                 Geringfügig Geändert
+
+07.11 02C   Blitzschutzdraht Edelstahl A4 D10mm                                                                                     m
+            Blitzschutzdraht aus Edelstahl A4.
+            Durchmesser (D): 10 mm
+            LB-Version: 23                 Geringfügig Geändert
+
+07.11 02D   Erdungsfestpunkt Edelstahl A4 M10/12                                                                                    Stk
+            Anschlussplatte ca. D 80 mm, mit Doppelgewinde M10 und M12, geprüft für 50 Hz Kurzschlussströme und
+            Blitzstoßströme.
+            LB-Version: 23                 Geringfügig Geändert
+
+07.11 02E   Erdungsfestpunkt Edelstahl A4 M16                                                                                       Stk
+            Anschlussplatte ca. D 80 mm, mit Gewinde M16, geprüft für 50 Hz Kurzschlussströme und Blitzstoßströme.
+
+            LB-Version: 23                 Geringfügig Geändert
+
+07.11 02H   Blitzschutzprüfkasten feuerverzinkt 150/200mm                                                                           Stk
+            Blitzschutzprüfkasten, feuerverzinkt.
+            Abmessungen: 150 x 200 mm
+            LB-Version: 23                 Geringfügig Geändert
+07.11 15    Überschubrohre in Schalungen der Fundamente-, Sohlen- oder Bodenkonstruktionen (Fund./Bodenk.).
+
+07.11 15A   Überschubrohre in Schalung Fund./Bodenk.b.25cm/b.60cm                                                                   Stk
+            Außendurchmesser bis 25 cm, Länge bis 60 mm.
+
+07.11 15B   Überschubrohre in Schalung Fund./Bodenk.Stahl b.2,5kg                                                                   Stk
+            Aus Stahl, Stückmasse bis 2 kg.
+
+07.11 21    Ankerplatten aus Stahl in Schalungen von Wänden, Stützen oder Balken.
+
+07.11 21A   Ankerplatten in Schalungen Wand/Stütze/Balken ü.2,5-4kg                                                                 Stk
+
+                                                                                                                              Seite 24 / 35
+                                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+            Stückmasse über 2,5 bis 4 kg.
+
+07.11 21B   Ankerplatten in Schalungen Wand/Stütze/Balken versetzen                                                     Stk
+            Vom Auftraggeber beigestellt, Stückmasse bis 8 kg, nur versetzen.
+
+07.11 22    Ankerschienen in Schalungen von Wänden, Stützen oder Balken.
+
+07.11 22A   Ankerschiene in Schalungen Wand/Stütze/Balken                                                               m
+
+07.11 22B   Ankerschiene in Schalungen Wand/Stütze/Balken versetzen                                                     m
+            Vom Auftraggeber beigestellt, nur versetzen.
+
+07.11 25    Überschubrohre in Schalungen von Wänden, Stützen und Balken.
+
+07.11 25A   Überschubrohre in Schalungen Wand/Stütze/Balken D25cm                                                       Stk
+            Bis Außendurchmesser D = 25 cm, Länge bis 60 cm.
+
+07.11 25B   Überschubrohre in Schalung Wand/Stütze/Balken Stahl b.2,5kg                                                 Stk
+            Aus Stahl, Stückmasse bis 2,5 kg.
+
+07.11 31    Ankerplatten aus Stahl in Schalungen von Decken- und Plattenkonstruktionen.
+
+07.11 31A   Ankerplatten in Schalungen Decken- u.Pl.-konstr.ü.2,5-4kg                                                   Stk
+            Stückmasse über 2,5 bis 4 kg.
+
+07.11 31B   Ankerplatten in Schalungen Decken- u.Pl.-konstr.versetzen                                                   Stk
+            Vom Auftraggeber beigestellt, Stückmasse bis 8 kg, nur versetzen.
+
+07.11 35    Überschubrohre in Schalungen von Decken- und Plattenkonstruktionen (Pl.-konstr Stahl).
+
+07.11 35A   Überschubrohre in Schalung Decken-u.Pl.-konstr.D25                                                          Stk
+            Bis Außendurchmesser D 25 cm, Länge bis 60 cm.
+
+07.11 35B   Überschubrohre in Schalung Decken-u.Pl.-konstr Stahl b.2,5kg                                                Stk
+            Aus Stahl, Stückmasse bis 2,5 kg.
+
+            LB-Version: 23                  Geringfügig Geändert
+07.11 41    Lager aus Elastomer bei Stahlbetontreppenlauf- und Zwischenpodestplatten, einschließlich Vorbereiten des
+            Auflagers.
+
+07.11 41A   Elastomer Lager/Streifenlager bei Treppenlauf/Podestplatten                                                 m
+            Streifenförmig, ohne Unterschied des Querschnittes.
+
+07.11 41B   Elastomer Lager/Punktlager bei Treppenlauf/Podestplatten                                                    m
+            Punktlager, ohne Unterschied der Abmessungen.
+
+07.11 51    Rohrdurchführung (Futterrohre) für Betonbauteile, Schalungen oder für den nachträglichen Einbau.
+             Kommentar:
+             Dichteinsätze sind frei zu formulieren.
+
+07.11 51A   Rohrdurchführungen f.Betonteile,Schalungen,nachtr.Einbau                                                    Stk
+            Einbaumaß: ____________ mm
+            Durchmesser D: ____________ mm
+07.11 52    Wärmedämmende Bewehrungsanschlüsse.
+
+07.11 52A   Wärmedämmende Bewehrungsanschlüsse Kragplatte                                                               Stk
+            Als Kragplatte.
+            Höhe:____________ cm
+            Länge:____________ cm
+            Dämmdicke: ____________cm
+
+
+
+                                                                                                                  Seite 25 / 35
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+            Feuerwiderstand REI: ____________
+            Statische Angaben (Schnittkräfte): ____________
+
+07.11 52B   Wärmedämmende Bewehrungsanschlüsse Querkraftanschluss                                                          Stk
+            Als Querkraftanschluss.
+            Höhe:____________ cm
+            Länge:____________ cm
+            Dämmdicke: ____________cm
+            Feuerwiderstand REI: ____________
+            Statische Angaben (Schnittkräfte): ____________
+
+07.11 60    Einbau von Tragssystemen und Leitungen einschließlich Befestigung innerhalb und auf den Bewehrungslagen
+            in der Decke für Flächenkühlungen/Bauteilaktivierungen.
+
+07.11 60A   Einbau von Tragsystem, Leitungen - Flächenkühlung Decken                                                       m²
+            In Decken.
+
+            LB-Version: 23
+
+07.11 60B   Einbau von Tragsystem, Leitungen - Flächenkühlung Wände                                                        m²
+            In Wänden.
+
+            LB-Version: 23
+
+07.21       Fugen
+            Die Leistungen sind ohne Unterschied der Höhe beschrieben und ausgeführt.
+            Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Erschwernisse (z.B. Gerüstmehrkosten)
+                • Ein- bzw. Anbinden des Fugenbandes in die Bewehrung
+             Kommentar:
+             Frei zu formulieren sind:
+             Elastomerfugenbänder (z.B. Bitumen- und Ölbeständig)
+
+            LB-Version: 23                 Geändert
+Änderung:   Änderung der einkalkulierten Leistungen.
+            Die Fugenbänder wurden in innenliegende und außenliegende Fugenbänder aufgeteilt.
+
+07.21 01    Bewegungsfugen, einschließlich Trennstreifen und etwaige Abschalungen, ohne Unterschied der Fugentiefe
+            und der Fugenbreite.
+
+07.21 01A   Bewegungsfuge Fundamente                                                                                       m²
+            In Fundamenten.
+
+07.21 01B   Bewegungsfuge Fundamentplatten                                                                                 m²
+            In Fundamentplatten.
+
+07.21 01C   Bewegungsfuge Bodenkonstruktion                                                                                m
+            In Bodenkonstruktionen.
+
+07.21 02    Kraftschlüssiger Anschluss des Unterfangungsfundamentes an das vorhandene Fundament.
+            Abgerechnet wird die Anschlussfläche.
+
+07.21 02A   Kraftschlüssiger Anschluss Unterfangung-Fundament                                                              m²
+07.21 03    Arbeitsfugenbänder innenliegend (Innen) oder außenliegend (Außen) im Zuge der Betonarbeiten von
+            Fundament-, Sohlen- und Bodenkonstruktionen.
+            Die jeweils angegebene Breite gilt +/- 2 cm.
+            Im Positionsstichwort sind die Lage des Fugenbandes und die Breite (cm) angegeben.
+
+07.21 03A   Arbeitsfugenbänder Innen Fund.-/Sohlen-/Bodenkonstr.20cm                                                       m
+
+                                                                                                                     Seite 26 / 35
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+
+            LB-Version: 23                 Geändert
+Änderung:   Grundtext/Stichwort geändert, Aufteilung der Positionen in innenliegende Fugenbänder und außenliegende Fugenbänder
+
+07.21 03B   Arbeitsfugenbänder Innen Fund.-/Sohlen-/Bodenkonstr.25cm                                                           m
+            LB-Version: 23                 Geändert
+Änderung:   Grundtext/Stichwort geändert, Aufteilung der Positionen in innenliegende Fugenbänder und außenliegende Fugenbänder
+
+07.21 03F   Arbeitsfugenbänder Außen Fund.-/Sohlen-/Bodenkonstr.20cm                                                           m
+            LB-Version: 23
+
+07.21 03G   Arbeitsfugenbänder Außen Fund.-/Sohlen-/Bodenkonstr.25cm                                                           m
+            LB-Version: 23
+07.21 04    Aufzahlung (Az) auf Arbeitsfugenbänder (AFB) ohne Unterschied der Verlegeart im Zuge der Betonarbeiten von
+            Fundament-, Sohlen- und Bodenkonstruktionen.
+            Die jeweils angegebene Breite gilt +/- 2 cm.
+            Im Positionsstichwort ist die Breite (cm) angegeben.
+
+07.21 04A   Az f.AFB armiert Fund.-/Sohlen-/Bodenkonstr.20cm                                                                   m
+            Für armierte Fugenbänder.
+
+07.21 04B   Az f.AFB armiert Fund.-/Sohlen-/Bodenkonstr.25cm                                                                   m
+            Für armierte Fugenbänder.
+
+07.21 05    Dehnfugenbänder innenliegend (Innen) oder außenliegend (Außen) im Zuge der Betonarbeiten von
+            Fundament-, Sohlen und Bodenkonstruktionen.
+            Die jeweils angegebene Breite gilt +/- 2 cm.
+            Im Positionsstichwort sind die Lage des Fugenbandes und die Breite (cm) angegeben.
+
+07.21 05A   Dehnfugenbänder Innen Fund.-/Sohlen-/Bodenkonstr.20cm                                                              m
+            LB-Version: 23                 Geändert
+Änderung:   Grundtext/Stichwort geändert, Aufteilung der Positionen in innenliegende Fugenbänder und außenliegende Fugenbänder
+
+07.21 05B   Dehnfugenbänder Innen Fund.-/Sohlen-/Bodenkonstr.25cm                                                              m
+            LB-Version: 23                 Geändert
+Änderung:   Grundtext/Stichwort geändert, Aufteilung der Positionen in innenliegende Fugenbänder und außenliegende Fugenbänder
+
+07.21 05F   Dehnfugenbänder Außen Fund.-/Sohlen-/Bodenkonstr.20cm                                                              m
+            LB-Version: 23
+
+07.21 05G   Dehnfugenbänder Außen Fund.-/Sohlen-/Bodenkonstr.25cm                                                              m
+            LB-Version: 23
+07.21 07    Aufzahlung (Az) auf Dehnfugenbänder (DFB) für das Einlegen einer Dämmplatte.
+            Im Positionsstichwort ist die Dicke (cm) angegeben.
+
+07.21 07A   Az DFB f.Dämmplatten Fund.-/Sohlen-/Bodenkonstr.b.20mm                                                             m²
+            Bei Fundament-, Sohlen und Bodenkonstruktionen (Fund./Bodenk.).
+
+07.21 08    Aufzahlung (Az) auf Fugenbänder bei Betonarbeiten bei Fundament-, Sohlen und Bodenkonstruktionen.
+
+07.21 08A   Az Fugenband Fund.-/Sohlen-/Bodenkonstr.f.Formstücke                                                               Stk
+            Für Formstücke (z.B. Kreuzungen, Abzweigungen).
+
+07.21 09    Fugen bei Fundament-, Sohlen und Bodenkonstruktionen aus Beton schließen.
+            Im Positionsstichwort ist die Breite (cm) angegeben.
+
+07.21 09A   Fugen schließen Fund.-/Sohlen-/Bodenkonstr.b.20mm                                                                  m
+
+07.21 09B   Fugen schließen Fund.-/Sohlen-/Bodenkonstr.ü.20-30mm                                                               m
+
+07.21 09C   Fugen schließen Fund.-/Sohlen-/Bodenkonstr.ü.30-40mm                                                               m
+                                                                                                                         Seite 27 / 35
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+
+07.21 21    Bewegungsfugen, einschließlich Trennlage, ohne Unterschied der Breite und der Dicke.
+            Abgerechnet wird die Trennfläche.
+
+07.21 21A   Bewegungsfuge Wand/Stütze/Balken                                                                                   m²
+            In Wänden, Stützen und Balken.
+
+07.21 23    Arbeitsfugenbänder innenliegend (Innen) oder außenliegend (Außen) im Zuge der Betonarbeiten von Wänden,
+            Stützen und Balken.
+            Die jeweils angegebene Breite gilt +/- 2 cm.
+            Im Positionsstichwort sind die Lage des Fugenbandes und die Breite (cm) angegeben.
+
+07.21 23A   Arbeitsfugenbänder Innen Wand/Stütze/Balken 20cm                                                                   m
+            LB-Version: 23                 Geändert
+Änderung:   Grundtext/Stichwort geändert, Aufteilung der Positionen in innenliegende Fugenbänder und außenliegende Fugenbänder
+
+07.21 23B   Arbeitsfugenbänder Innen Wand/Stütze/Balken 25cm                                                                   m
+            LB-Version: 23                 Geändert
+Änderung:   Grundtext/Stichwort geändert, Aufteilung der Positionen in innenliegende Fugenbänder und außenliegende Fugenbänder
+
+07.21 23F   Arbeitsfugenbänder Außen Wand/Stütze/Balken 20cm                                                                   m
+            LB-Version: 23
+
+07.21 23G   Arbeitsfugenbänder Außen Wand/Stütze/Balken 25cm                                                                   m
+            LB-Version: 23
+07.21 24    Aufzahlung (Az) auf Arbeitsfugenbänder (AFB) im Zuge der Betonarbeiten von Wänden, Stützen und Balken.
+            Die jeweils angegebene Breite gilt +/- 2 cm.
+            Im Positionsstichwort ist die Breite (cm) angegeben.
+
+07.21 24A   Az f.AFB armiert Wand/Stütze/Balken 20cm                                                                           m
+            Für armierte Fugenbänder.
+
+07.21 24B   Az f.AFB armiert Wand/Stütze/Balken 25cm                                                                           m
+            Für armierte Fugenbänder.
+
+07.21 25    Dehnfugenbänder innenliegend (Innen) oder außenliegend (Außen) im Zuge der Betonarbeiten von Wänden,
+            Stützen und Balken.
+            Die jeweils angegebene Breite gilt +/- 2 cm.
+            Im Positionsstichwort sind die Lage des Fugenbandes und die Breite (cm) angegeben.
+
+07.21 25A   Dehnfugenbänder Innen Wand/Stütze/Balken 20cm                                                                      m
+            LB-Version: 23                 Geändert
+Änderung:   Grundtext/Stichwort geändert, Aufteilung der Positionen in innenliegende Fugenbänder und außenliegende Fugenbänder
+
+07.21 25B   Dehnfugenbänder Innen Wand/Stütze/Balken 25cm                                                                      m
+            LB-Version: 23                 Geändert
+Änderung:   Grundtext/Stichwort geändert, Aufteilung der Positionen in innenliegende Fugenbänder und außenliegende Fugenbänder
+
+07.21 25F   Dehnfugenbänder Außen Wand/Stütze/Balken 20cm                                                                      m
+            LB-Version: 23
+
+07.21 25G   Dehnfugenbänder Außen Wand/Stütze/Balken 25cm                                                                      m
+            LB-Version: 23
+07.21 27    Aufzahlung (Az) auf Dehnfugenbänder (DFB) für das Einlegen einer Dämmplatte.
+            Im Positionsstichwort ist die Dicke (cm) angegeben.
+
+07.21 27A   Az DFBf.Dämmplatten Wand/Stütze/Balken b.20mm                                                                      m²
+            Bei Wänden, Stützen und Balken.
+
+07.21 28    Aufzahlung (Az) auf Fugenbänder bei Betonarbeiten bei Wänden, Stützen oder Balken.
+
+                                                                                                                         Seite 28 / 35
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+
+07.21 28A   Az Fugenband Wand/Stütze/Balken f.Formstücke                                                                       Stk
+            Für Formstücke (z.B. Kreuzungen, Abzweigungen).
+
+07.21 29    Fugen bei Wänden, Stützen und Balken aus Beton schließen.
+            Im Positionsstichwort ist die Breite (cm) angegeben.
+
+07.21 29A   Fugen schließen Wand/Stütze/Balken b.20mm                                                                          m
+
+07.21 29B   Fugen schließen Wand/Stütze/Balken ü.20-30mm                                                                       m
+
+07.21 29C   Fugen schließen Wand/Stütze/Balken ü.30-40mm                                                                       m
+07.21 31    Bewegungsfugen, einschließlich Trennlage, ohne Unterschied der Breite und der Dicke.
+            Abgerechnet wird die Trennfläche.
+
+07.21 31A   Bewegungsfuge Decken                                                                                               m²
+            In Decken.
+
+07.21 33    Arbeitsfugenbänder innenliegend (Innen) oder außenliegend (Außen) im Zuge der Betonarbeiten von Decken.
+            Die jeweils angegebene Breite gilt +/- 2 cm.
+            Im Positionsstichwort sind die Lage des Fugenbandes und die Breite (cm) angegeben.
+
+07.21 33A   Arbeitsfugenbänder Innen Decken 20cm                                                                               m
+            LB-Version: 23                 Geändert
+Änderung:   Grundtext/Stichwort geändert, Aufteilung der Positionen in innenliegende Fugenbänder und außenliegende Fugenbänder
+
+07.21 33B   Arbeitsfugenbänder Innen Decken 25cm                                                                               m
+            LB-Version: 23                 Geändert
+Änderung:   Grundtext/Stichwort geändert, Aufteilung der Positionen in innenliegende Fugenbänder und außenliegende Fugenbänder
+
+07.21 33F   Arbeitsfugenbänder Außen Decken 20cm                                                                               m
+            LB-Version: 23
+
+07.21 33G   Arbeitsfugenbänder Außen Decken 25cm                                                                               m
+            LB-Version: 23
+07.21 34    Aufzahlung (Az) auf Arbeitsfugenbänder (AFB) im Zuge der Betonarbeiten von Decken.
+            Die jeweils angegebene Breite gilt +/- 2 cm.
+            Im Positionsstichwort ist die Breite (cm) angegeben.
+
+07.21 34A   Az f.AFB armiert Decken 20cm                                                                                       m
+            Für armierte Fugenbänder.
+
+07.21 34B   Az f.AFB armiert Decken 25cm                                                                                       m
+            Für armierte Fugenbänder.
+
+07.21 35    Dehnfugenbänder innenliegend (Innen) oder außenliegend (Außen) im Zuge der Betonarbeiten von Decken.
+            Die jeweils angegebene Breite gilt +/- 2 cm.
+            Im Positionsstichwort sind die Lage des Fugenbandes und die Breite (cm) angegeben.
+
+07.21 35A   Dehnfugenbänder Innen Decken 20cm                                                                                  m
+            LB-Version: 23                 Geändert
+Änderung:   Grundtext/Stichwort geändert, Aufteilung der Positionen in innenliegende Fugenbänder und außenliegende Fugenbänder
+
+07.21 35B   Dehnfugenbänder Innen Decken 25cm                                                                                  m
+            LB-Version: 23                 Geändert
+Änderung:   Grundtext/Stichwort geändert, Aufteilung der Positionen in innenliegende Fugenbänder und außenliegende Fugenbänder
+
+07.21 35F   Dehnfugenbänder Außen Decken 20cm                                                                                  m
+            LB-Version: 23
+
+                                                                                                                         Seite 29 / 35
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+07.21 35G   Dehnfugenbänder Außen Decken 25cm                                                                                       m
+            LB-Version: 23
+07.21 37    Aufzahlung (Az) auf Dehnfugenbänder für das Einlegen einer Dämmplatte.
+            Im Positionsstichwort ist die Dicke (cm) angegeben.
+
+07.21 37A   Az DFB f.Dämmplatten Decken 20mm                                                                                        m
+            Bei Decken.
+
+07.21 38    Aufzahlung (Az) auf Fugenbänder bei Betonarbeiten bei Decken.
+
+07.21 38A   Az Fugenband Decken f.Formstücke                                                                                        Stk
+            Für Formstücke (z.B. Kreuzungen, Abzweigungen).
+
+07.21 39    Fugen bei Decken aus Beton schließen.
+            Im Positionsstichwort ist die Breite (cm) angegeben.
+
+07.21 39A   Fugen schließen Decken b.20mm                                                                                           m
+
+07.21 39B   Fugen schließen Decken ü.20-30mm                                                                                        m
+
+07.21 39C   Fugen schließen Decken ü.30-40mm                                                                                        m
+07.25       Doppelwandelemente aus Beton
+
+
+            1. Doppelwandelemente:
+            Doppelwandelemente sind Halbfertigteile aus zwei mit Gitterträgern, Systemverbindern oder einem räumlichen
+            Bewehrungskorb verbundenen Betonschalen.
+            Wandelemente sind aus Beton C25/30 XC2 hergestellt, für den Füllbeton ist eine Mindestbetongüte von C25/30
+            erforderlich.
+            2. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Bewehrungs-, Bügelkörbe bzw. Mattenstreifen (zur Verbindung zweier Elemente)
+                • Gitterträger, Systemverbinder oder Bewehrungskörbe
+                • das Verschließen von Verankerungspunkten der Einrichtstützen
+                • Montage- und Verlegepläne
+                • Montagehülsen (2 Stück/Element), Montagekleinmaterial und Montagestützen
+                • Hilfskonstruktionen für Wandabstützungen
+             Kommentar:
+             Ausmaß- und Abrechnungsregeln gemäß ÖNORM B 2204.
+             Eine außenliegende Wärmedämmung ist mit der LG 44 (WDVS) auszuschreiben.
+
+
+             Frei zu formulieren (z.B.):
+                 • Rohrdurchführungen und Dichteinsätze
+                 • das Einlegen bzw. der Einbau von Bauteilen (Türzargen, Fensterzargen, Stahlplatten)
+                 • Schließen von Fugen außen
+
+            LB-Version: 23
+07.25 01    Doppelwandelemente, einschließlich Füllbeton.
+            Im Positionsstichwort ist die Gesamtwanddicke (cm) angegeben.
+            Bauteilhöhe über Null bis 3,2 m.
+
+07.25 01A   Doppelwandelement 20cm b.3,2m                                                                                           m²
+
+07.25 01B   Doppelwandelement 25cm b.3,2m                                                                                           m²
+
+07.25 01C   Doppelwandelement 30cm b.3,2m                                                                                           m²
+
+07.25 01D   Doppelwandelement 35cm b.3,2m                                                                                           m²
+
+07.25 01E   Doppelwandelement 40cm b.3,2m                                                                                           m²
+                                                                                                                              Seite 30 / 35
+                                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+07.25 01F   Doppelwandelement 45cm b.3,2m                                                                             m²
+
+07.25 01G   Doppelwandelement 50cm b.3,2m                                                                             m²
+07.25 02    Doppelwandelemente, einschließlich Füllbeton.
+            Im Positionsstichwort ist die Gesamtwanddicke (cm) und die Bauteilhöhe (m) angegeben.
+            Bauteilhöhe über Null bis über 3,2 m.
+
+07.25 02A   Doppelwandelement 20cm ü.3,2m:__________                                                                  m²
+
+07.25 02B   Doppelwandelement 25cm ü.3,2m:__________                                                                  m²
+
+07.25 02C   Doppelwandelement 30cm ü.3,2m:__________                                                                  m²
+
+07.25 02D   Doppelwandelement 35cm ü.3,2m:__________                                                                  m²
+
+07.25 02E   Doppelwandelement 40cm ü.3,2m:__________                                                                  m²
+
+07.25 02F   Doppelwandelement 45cm ü.3,2m:__________                                                                 m²
+
+07.25 02G   Doppelwandelement 50cm ü.3,2m:__________                                                                 m²
+07.25 03    Bewehrung für Doppelwandelemente.
+
+07.25 03A   Bewehrung f.Doppelwandelemente b.3,2m                                                                     kg
+            Bauteilhöhe über Null bis 3,2 m.
+            Betrifft Position(en):____________
+
+07.25 03B   Bewehrung f.Doppelwandelemente ü.3,2m                                                                     kg
+            Bauteilhöhe über Null bis über 3,2 m.
+            Betrifft Position(en):____________
+
+07.25 21    Aufzahlung (Az) auf Doppelwandelemente aus Beton für besondere Eigenschaften von Beton.
+                • für die Elementschale
+
+07.25 21A   Az Doppelwandelement f.Betongüte/Elementschale                                                            m²
+            Betongüte: ____________
+
+07.25 21B   Az Doppelwandelement f.Expositionsklasse/Elementschale                                                    m²
+            Expositionsklasse: ____________
+
+07.25 22    Aufzahlung (Az) auf Doppelwandelemente aus Beton für besondere Eigenschaften von Beton.
+                • für den Füllbeton
+
+07.25 22A   Az Doppelwandelement f.Betongüte/Füllbeton                                                                m³
+            Betongüte: ____________
+
+07.25 22B   Az Doppelwandelement f.Expositionsklasse/Füllbeton                                                        m³
+            Expositionsklasse: ____________
+
+07.25 25    Aufzahlung (Az) auf Doppelwandelemente aus Beton für einen Plattenrand im Gefälle (schräger
+            Wandabschluss).
+
+07.25 25A   Az Doppelwandelement f.schrägen Wandabschluss                                                             m
+07.25 27    Einbauten für Doppelwandelemente für Elektroinstallationen
+
+07.25 27A   Einbaudosen f.Doppelwandelemente                                                                          Stk
+            Einbaudosen (z.B. Schalter-, Verteiler- oder Abzweigdosen).
+
+07.25 27B   Leerverrohrungen b.25mm f.Doppelwandelemente                                                              m
+            Leerverrohrungen bis 25 mm Durchmesser.
+
+            LB-Version: 23                Geringfügig Geändert
+
+                                                                                                                Seite 31 / 35
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+07.25 31    Durchgehende Öffnungen in Doppelwandelemente aus Beton (durch beide Seiten des Systems), quadratisch
+            oder rechteckig, einschließlich Abschalungen.
+            Im Positionsstichwort ist die Größe (m2) der ausgesparten Fläche angegeben.
+
+07.25 31A   Doppelwandelement/Öffnungen b.0,25m2                                                                            Stk
+
+07.25 31B   Doppelwandelement/Öffnungen ü.0,25-0,5m2                                                                        Stk
+
+07.25 31C   Doppelwandelement/Öffnungen ü.0,5-1m2                                                                           Stk
+
+07.25 31D   Doppelwandelement/Öffnungen ü.1-2m2                                                                             Stk
+
+07.25 31E   Doppelwandelement/Öffnungen ü.2-3,5m2                                                                           Stk
+
+07.25 31F   Doppelwandelement/Öffnungen ü.3,5-5,5m2                                                                         Stk
+
+07.25 31X   Doppelwandelement/Öffnungen ü.5,5m2:__________                                                                  Stk
+07.25 33    Endabschalungen für Doppelwandelemente aus Beton.
+
+07.25 33A   Endabschalung f.Doppelwandelement b.3,2m                                                                        m
+            Bauteilhöhe über Null bis 3,2 m.
+            Betrifft Position(en):____________
+
+07.25 33B   Endabschalung f.Doppelwandelement ü.3,2m                                                                        m
+            Bauteilhöhe über Null bis über 3,2 m.____________
+            Betrifft Position(en):____________
+07.25 41    Aufzahlung (Az) auf Doppelwandelemente aus Beton für eine Kerndämmung, einschließlich der
+            Verbindungselemente aus korrosionsbeständigem Stahl (Edelstahl).
+            Im Positionsstichwort ist die Art und die Dicke (cm) der Dämmung angegeben.
+
+07.25 41A   Az Doppelwandelement f.Kerndämmung EPS 10cm                                                                     m²
+
+07.25 41X   Az Doppelwandelement f.Kerndämmung EPS__________                                                                m²
+07.25 43    Aufzahlung (Az) auf Doppelwandelemente aus Beton für eine W ärmedämmung (WD) für innere Wandschalen,
+            einschließlich der Verbindungselemente aus korrosionsbeständigem Stahl (Edelstahl).
+            Im Positionsstichwort ist die Dicke (cm) der Dämmung angegeben.
+
+07.25 43A   Az Doppelwandelement f.Kerndämmung XPS 10cm                                                                     m²
+
+07.25 43X   Az Doppelwandelement f.Kerndämmung XPS__________                                                                m²
+07.25 44    Aufzahlung (Az) auf Doppelwandelemente aus Beton für eine W ärmedämmung (WD) für innere Wandschalen,
+            einschließlich der Verbindungselemente aus korrosionsbeständigem Stahl (Edelstahl).
+
+07.25 44A   Az Doppelwandelement f.Kerndämmung                                                                              m²
+            Material/Art der Dämmung: ____________
+            Dicke der Dämmung (cm): ____________
+
+07.25 51    Schließen von Fugen als malerfertige Verspachtelung der Stoßfugen.
+
+07.25 51A   Schließen von Fugen f.Verspachtelung einseitig                                                                  m²
+            Abgerechnet wird pro Seite, ohne Unterschied der Höhe.
+
+07.70       Monolithische Fließbetonbodenplatte
+
+
+            1. Allgemeines:
+            Als Einbringungsort gelten nur ebenerdige Bauteile.
+            Alle Positionen gelten ohne Unterschied ob sie in offenen oder in geschlossenen Räumen ausgeführt werden.
+            Öffnungen (z.B. Fenster, Türen, Tore) sind witterungs- und winddicht verschlossen.
+
+
+                                                                                                                      Seite 32 / 35
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+            2. Leistungen des AG:
+            Der Nachweis zur Eignung von Böden und Untergründen (Schüttlagen) als Baugrund ist vom AG zu erbringen.
+             Kommentar:
+             Statische Lastplattenversuche zur Bestimmung der Tragfähigkeit des Unterbaus bzw. der Tragschichte sind nicht
+             Gegenstand dieser Leistungsbeschreibung.
+             Erforderliche Heizkosten sind in der LG18 (Winterbauarbeiten) beschrieben.
+
+07.70 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+07.70 00C   Anforderungen an die Tragschicht (Unterbau)
+            Anforderungen an die Tragschicht (Unterbau).
+            Kennwerte und Anzahl der statischen Lastplattenversuche werden vom AG zur Verfügung gestellt.
+            Kennwerte: ____________
+            Anzahl: ____________
+
+07.70 00D   Ebenheit der Tragschicht
+            Ebenheit der Tragschicht.
+            Die Ebenheit der Tragschicht entspricht der ÖNORM DIN 18202 Tabelle 3, Zeile 1 (z.B. bei 4 m - Stichmaß 2
+            cm).
+            Angaben zur Ebenheit: ____________
+
+07.70 11    Monolithische Bodenplatte aus Fließbeton, Einbau mit Pumpe.
+                • Beton: C25/30/B2/GK32/F52
+            Einkalkulierte Leistungen:
+                • PE-Randstreifen bei allen, die Bodenplatte durchdringenden Bauteilen
+                • Schneiden von Schwindfugen
+            Im Positionsstichwort ist die Plattendicke (cm) angegeben.
+             Kommentar:
+             Benützung der monolithischen Bodenplatte erst nach vollständiger Aushärtung.
+             Die unbedingt notwendige Wartung der Fugenausbildung obliegt dem Auftraggeber.
+             Als Trennlage ist z.B. eine PE-Folie, Typ 200 auszuschreiben.
+             Besondere Eigenschaften von Beton sind in der Unterleistungsgruppe 07.01 beschrieben.
+
+07.70 11A   Monolithische Bodenplatte b.30cm                                                                                     m³
+
+07.70 11B   Monolithische Bodenplatte ü.30-50cm                                                                                  m³
+
+07.70 11C   Monolithische Bodenplatte ü.50cm:__________                                                                          m³
+
+07.70 11S   Schalung Monolithische Bodenplatte                                                                                   m²
+            Schalung.
+
+07.70 11V   Bewehrung Stabst.Monolithische Bodenplatte                                                                           kg
+            Bewehrung mit Stabstahl.
+
+07.70 11W   Bewehrung Matten Monolithische Bodenplatte                                                                           kg
+            Bewehrung mit Matten.
+
+07.70 13    Aufzahlung (Az) auf monolithische Bodenplatte aus Fließbeton.
+
+07.70 13A   Az monolithische Bodenplatte f.GK16mm                                                                                m³
+            Für die Verwendung von Beton mit Größtkorn 16 mm.
+
+07.70 13B   Az monolithische Bodenplatte f.Betongüte B7                                                                          m³
+            Für die Verwendung von Beton mit einer Betongüte 7.
+
+07.70 13D   Az monolithische Bodenplatte f.Zementsorte                                                                           m³
+            Für die Verwendung der Zementsorte CEM II-A 42,5 R oder CEM II-A 52,5 N.
+
+07.70 20    Oberflächenvergütung (OF) für monolithische Bodenplatten aus Fließbeton.
+
+                                                                                                                           Seite 33 / 35
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+07.70 20A   Oberflächenvergütung m.Besenstrich (rutschfest)                                                           m²
+            Als strukturierter Oberfläche mit Besenstrich (rutschfeste Ausführung).
+
+07.70 21    Oberflächenvergütung (OF) für monolithische Bodenplatten aus Fließbeton als Oberfläche, abgezogen und in
+            mehreren Arbeitsgängen maschinell geglättet (Glätten).
+
+07.70 21A   Oberflächenvergütung m.Glätten                                                                            m²
+
+07.70 21C   Az OF Glätten f.Hartstoffgemisch Korund                                                                   m²
+            Aufzahlung (Az) für das Einarbeiten eines werksgemischten Hartstoffgemisches auf Basis von hochwertigen
+            Elektrokorund.
+                • Abriebklasse A6
+
+07.70 21D   Az OF Glätten f.Hartstoffgemisch Quarz                                                                    m²
+            Aufzahlung (Az) für das Einarbeiten eines werksgemischten Hartstoffgemisches auf Basis von hochwertigen
+            Quarzkorn und Portlandzement.
+                • Abriebklasse A3
+
+07.70 21E   Az OF Glätten f.Hartstoffgemisch Siliciumcarbid                                                           m²
+            Aufzahlung (Az) für das Einarbeiten eines werksgemischten Hartstoffgemisches auf Basis von hochwertigen
+            Siliciumcarbit und Portlandzement.
+                • Abriebklasse A3
+
+07.70 22    Oberflächenvergütung für monolithische Bodenplatten aus Fließbeton.
+
+07.70 22G   Oberflächenvergütung m.Verdunstungsschutz sprühfähig                                                      m²
+            Durch Aufbringen eines sprühfähigen Verdunstungsschutzes.
+
+07.70 22H   Oberflächenvergütung m.Verdunstungsschutz Folie                                                           m²
+            Durch Aufbringen einer Lage PE-Folie als Verdunstungsschutz.
+
+07.70 22I   Oberflächenvergütung m.Frühimprägnierung                                                                  m²
+            Mittels Frühimprägnierung.
+
+07.70 22J   Oberflächenvergütung m.Tiefenimprägnierung                                                                m²
+            Mittels Tiefenimprägnierung.
+
+07.70 23    Dehnfugenprofil, einschließlich Verdübelung mit Rundstahl.
+                • einlagig
+                • Profildicke 3 mm
+            Im Positionsstichwort ist die Höhe (mm) angegeben.
+
+07.70 23A   Dehnfugenprofil einlagig 150-200mm                                                                        m
+
+07.70 23B   Dehnfugenprofil einlagig ü.200-250mm                                                                      m
+
+07.70 23C   Dehnfugenprofil einlagig ü.250-300mm                                                                      m
+
+07.70 23D   Dehnfugenprofil einlagig ü.300-350mm                                                                      m
+
+07.70 23E   Dehnfugenprofil einlagig ü.350-400mm                                                                      m
+07.70 24    Dehnfugenprofil-Doppelprofil, einschließlich Verdübelung mit Rundstahl.
+                • Profildicke 3 mm
+            Im Positionsstichwort ist die Höhe (mm) angegeben.
+
+07.70 24A   Dehnfugen-Doppelprofil 150-200mm                                                                          m
+
+07.70 24B   Dehnfugen-Doppelprofil ü.200-250mm                                                                        m
+
+07.70 24C   Dehnfugen-Doppelprofil ü.250-300mm                                                                        m
+
+07.70 24D   Dehnfugen-Doppelprofil ü.300-350mm                                                                        m
+                                                                                                                Seite 34 / 35
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+
+07.70 24E   Dehnfugen-Doppelprofil ü.350-400mm                                                                                 m
+07.70 25    Dehnfugenprofil-Sonderprofil, einschließlich Verdübelung mit Rundstahl.
+
+07.70 25A   Dehnfugen-Sonderprofil                                                                                             m
+            Sonderprofil: ____________
+
+07.70 99    Stahlteile.
+
+07.70 99I   Stahlteile b.5kg                                                                                                   Stk
+            Bis 5 kg
+
+07.70 99J   Stahlteile ü.5kg                                                                                                   kg
+            Über 5 kg: ____________
+
+07.81       Instandsetzungsarbeiten
+             Kommentar:
+             Instandsetzungsarbeiten können im Leistungsverzeichnis auch mit Obergruppen oder mit Aufzahlungspositionen beschrieben
+             werden.
+
+07.81 01    Aufzahlungen (Az) für Erschwernisse für Arbeiten an bestehenden Baukörpern bei Instandsetzungsarbeiten
+            (z.B. Umbauten, Sanierungen).
+
+07.81 01A   Az f.Beton bei Instandsetzungsarbeiten                                                                             m³
+            Für Beton, ohne Unterschied der Betongüte.
+            Betrifft Bauteil(e):____________
+
+07.81 01S   Az f.Schalung Beton bei Instandsetzungsarbeiten                                                                    m²
+            Für Schalungen.
+            Betrifft Bauteil(e):____________
+
+07.81 01V   Az f.Bew.Stabst.Beton bei Instandsetzungsarbeiten                                                                  kg
+            Für Bewehrung mit Stabstahl.
+            Betrifft Bauteil(e):____________
+
+07.81 01W   Az f.Bew.Matten Beton bei Instandsetzungsarbeiten                                                                  kg
+            Für Bewehrung mit Matten.
+            Betrifft Bauteil(e):____________
+
+
+
+
+                                                                                                                         Seite 35 / 35
+                                                                                                    ib-data GmbH, Softwareentwicklung
+

@@ -1,0 +1,631 @@
+{
+  "lg": "11",
+  "title": "Estricharbeiten",
+  "positions": [
+    {
+      "code": "11.21.04A",
+      "text": "Niveauausgleich Splitt zementgebunden b.5cm",
+      "unit": "m³"
+    },
+    {
+      "code": "11.21.04B",
+      "text": "Niveauausgleich Splitt zementgebunden ü.5-10cm",
+      "unit": "m³"
+    },
+    {
+      "code": "11.21.04X",
+      "text": "Niveauausgleich Splitt zementgebunden ü.10 cm b.__________",
+      "unit": "m³"
+    },
+    {
+      "code": "11.21.04Y",
+      "text": "Az Niveauausgleich zementgebunden b.10cm f.schnell trocknend",
+      "unit": "m³"
+    },
+    {
+      "code": "11.21.06A",
+      "text": "Niveauausgleich gebundene Stoffe b.5cm",
+      "unit": "m³"
+    },
+    {
+      "code": "11.21.06B",
+      "text": "Niveauausgleich gebundene Stoffe ü.5-10cm",
+      "unit": "m³"
+    },
+    {
+      "code": "11.21.06X",
+      "text": "Niveauausgleich gebundene Stoffe ü.10cm b.__________",
+      "unit": "m³"
+    },
+    {
+      "code": "11.21.06Y",
+      "text": "Az Niveauausgleich gebunden b.10cm f.schnell trocknend",
+      "unit": "m³"
+    },
+    {
+      "code": "11.21.07A",
+      "text": "Untergrund f.Verbundestrich aufrauen",
+      "unit": "m²"
+    },
+    {
+      "code": "11.21.08A",
+      "text": "Haftbrücke Dispersionsbasis",
+      "unit": "m²"
+    },
+    {
+      "code": "11.21.08B",
+      "text": "Haftbrücke Epoxyharz",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.00F",
+      "text": "Fußbodenaufbau zu 11.22",
+      "unit": ""
+    },
+    {
+      "code": "11.22.01A",
+      "text": "Trenn-/Gleitschicht Folie 0,1mm",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.01B",
+      "text": "Trenn-/Gleitschicht Folie 0,2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.01C",
+      "text": "Trenn-/Gleitschicht Folie 0,2mm verklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.02A",
+      "text": "Dampfbremsschichte PE-Folie verklebt sd-Wert≥100",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.02X",
+      "text": "Dampfbremsschichte verklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.10A",
+      "text": "Trittschalldämmung m.Kautschuk/Polyurethan 5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.10B",
+      "text": "Trittschalldämmung m.Kautschuk/Polyurethan 10mm",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.10X",
+      "text": "Trittschalldämmung m.Kautschuk/Polyurethan__________",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.11B",
+      "text": "Trittschalldämmung m.Mineralwollepl.20mm CP5",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.11C",
+      "text": "Trittschalldämmung m.Mineralwollepl.25mm CP5",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.11D",
+      "text": "Trittschalldämmung m.Mineralwollepl.30mm CP5",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.11E",
+      "text": "Trittschalldämmung m.Mineralwollepl.35mm CP5",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.12B",
+      "text": "Trittschalldämmung m.Mineralwollepl.20mm CP4",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.12C",
+      "text": "Trittschalldämmung m.Mineralwollepl.25mm CP4",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.12D",
+      "text": "Trittschalldämmung m.Mineralwollepl.30mm CP4",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.12E",
+      "text": "Trittschalldämmung m.Mineralwollepl.35mm CP4",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.13B",
+      "text": "Trittschalldämmung m.Mineralwollepl.20mm CP3",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.13C",
+      "text": "Trittschalldämmung m.Mineralwollepl.25mm CP3",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.13D",
+      "text": "Trittschalldämmung m.Mineralwollepl.30mm CP3",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.13E",
+      "text": "Trittschalldämmung m.Mineralwollepl.35mm CP3",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.14A",
+      "text": "Trittschalldämmung m.Mineralwollepl.15mm CP2",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.14B",
+      "text": "Trittschalldämmung m.Mineralwollepl.20mm CP2",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.14C",
+      "text": "Trittschalldämmung m.Mineralwollepl.25mm CP2",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.14D",
+      "text": "Trittschalldämmung m.Mineralwollepl.30mm CP2",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.14E",
+      "text": "Trittschalldämmung m.Mineralwollepl.35mm CP2",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.17B",
+      "text": "Trittschalldämmung m.Hartschaumpl.20mm CP3",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.17C",
+      "text": "Trittschalldämmung m.Hartschaumpl.25mm CP3",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.17D",
+      "text": "Trittschalldämmung m.Hartschaumpl.30mm CP3",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.17F",
+      "text": "Trittschalldämmung m.Hartschaumpl.40mm CP3",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.18B",
+      "text": "Trittschalldämmung m.Hartschaumpl.20mm CP2",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.18C",
+      "text": "Trittschalldämmung m.Hartschaumpl.25mm CP2",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.18D",
+      "text": "Trittschalldämmung m.Hartschaumpl.30mm CP2",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.18F",
+      "text": "Trittschalldämmung m.Hartschaumpl.40mm CP2",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.21A",
+      "text": "Wärmedämmung m.Hartschaumpl.XPS-G 30mm",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.21B",
+      "text": "Wärmedämmung m.Hartschaumpl.XPS-G 40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.21C",
+      "text": "Wärmedämmung m.Hartschaumpl.XPS-G 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.21X",
+      "text": "Wärmedämmung m.Hartschaumpl.XPS-G__________",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.23A",
+      "text": "Wärmedämmung m.Hartschaumpl.0,038 W/mK EPS-W 20 30mm",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.23B",
+      "text": "Wärmedämmung m.Hartschaumpl.0,038 W/mK EPS-W 20 40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.23C",
+      "text": "Wärmedämmung m.Hartschaumpl.0,038 W/mK EPS-W 20 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.23X",
+      "text": "Wärmedämmung m.Hartschaumpl.0,038 W/mK EPS-W 20__________",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.25X",
+      "text": "Wärmedämmung m.Hartschaumpl.EPS-W 20 g/s__________",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.27X",
+      "text": "Wärmedämmung m.Hartschaumpl.PU-DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "11.22.29A",
+      "text": "Az Trittschall-u.Wärmedämmung f.Trägersystem f.Montage FBH",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.00F",
+      "text": "Fußbodenaufbau zu 11.23",
+      "unit": ""
+    },
+    {
+      "code": "11.23.03A",
+      "text": "Schwimm.Zem.E-Nutzestrich 50mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.03B",
+      "text": "Schwimm.Zem.E-Nutzestrich 60mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.03C",
+      "text": "Schwimm.Zem.E-Nutzestrich 70mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.03E",
+      "text": "Schwimm.Zem.E-Nutzestrich 50mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.03F",
+      "text": "Schwimm.Zem.E-Nutzestrich 60mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.03G",
+      "text": "Schwimm.Zem.E-Nutzestrich 70mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.03H",
+      "text": "Schwimm.Zem.E-Nutzestrich 80mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.03I",
+      "text": "Schwimm.Zem.E-Nutzestrich 90mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.03K",
+      "text": "Schwimm.Zem.E-Nutzestrich 40mm E400",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.03L",
+      "text": "Schwimm.Zem.E-Nutzestrich 50mm E400",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.03M",
+      "text": "Schwimm.Zem.E-Nutzestrich 60mm E400",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.03N",
+      "text": "Schwimm.Zem.E-Nutzestrich 70mm E400",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.03O",
+      "text": "Schwimm.Zem.E-Nutzestrich 80mm E400",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.03P",
+      "text": "Schwimm.Zem.E-Nutzestrich 90mm E400",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.05A",
+      "text": "Verbund Zem.E-Nutzestrich 30mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.05B",
+      "text": "Verbund Zem.E-Nutzestrich 40mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.05C",
+      "text": "Verbund Zem.E-Nutzestrich 50mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.05E",
+      "text": "Verbund Zem.E-Nutzestrich 30mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.05F",
+      "text": "Verbund Zem.E-Nutzestrich 40mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.05G",
+      "text": "Verbund Zem.E-Nutzestrich 50mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.05I",
+      "text": "Verbund Zem.E-Nutzestrich 20mm E400",
+      "unit": "m²"
+    },
+    {
+      "code": "11.23.05J",
+      "text": "Verbund Zem.E-Nutzestrich 30mm E400",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.00F",
+      "text": "Fußbodenaufbau zu 11.24",
+      "unit": ""
+    },
+    {
+      "code": "11.24.03A",
+      "text": "Schwimm.Zem.E-U-Estrich 45mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.03B",
+      "text": "Schwimm.Zem.E-U-Estrich 50mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.03C",
+      "text": "Schwimm.Zem.E-U-Estrich 60mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.03D",
+      "text": "Schwimm.Zem.E-U-Estrich 70mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.03F",
+      "text": "Schwimm.Zem.E-U-Estrich 45mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.03G",
+      "text": "Schwimm.Zem.E-U-Estrich 50mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.03H",
+      "text": "Schwimm.Zem.E-U-Estrich 60mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.03I",
+      "text": "Schwimm.Zem.E-U-Estrich 70mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.03J",
+      "text": "Schwimm.Zem.E-U-Estrich 80mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.03K",
+      "text": "Schwimm.Zem.E-U-Estrich 90mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.03M",
+      "text": "Schwimm.Zem.E-U-Estrich 40mm E400",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.03N",
+      "text": "Schwimm.Zem.E-U-Estrich 50mm E400",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.03O",
+      "text": "Schwimm.Zem.E-U-Estrich 60mm E400",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.03P",
+      "text": "Schwimm.Zem.E-U-Estrich 70mm E400",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.03Q",
+      "text": "Schwimm.Zem.E-U-Estrich 80mm E400",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.03R",
+      "text": "Schwimm.Zem.E-U-Estrich 90mm E400",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.05A",
+      "text": "Verbund Zem.E-U-Estrich 30mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.05B",
+      "text": "Verbund Zem.E-U-Estrich 40mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.05C",
+      "text": "Verbund Zem.E-U-Estrich 50mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.05F",
+      "text": "Verbund Zem.E-U-Estrich 30mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.05G",
+      "text": "Verbund Zem.E-U-Estrich 40mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.05H",
+      "text": "Verbund Zem.E-U-Estrich 50mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.11A",
+      "text": "Schwimm.CSFE-U-Estrich 40mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.11B",
+      "text": "Schwimm.CSFE-U-Estrich 45mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.11C",
+      "text": "Schwimm.CSFE-U-Estrich 50mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.11D",
+      "text": "Schwimm.CSFE-U-Estrich 60mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.11E",
+      "text": "Schwimm.CSFE-U-Estrich 65mm E225",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.11G",
+      "text": "Schwimm.CSFE-U-Estrich 40mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.11H",
+      "text": "Schwimm.CSFE-U-Estrich 45mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.11I",
+      "text": "Schwimm.CSFE-U-Estrich 50mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.11J",
+      "text": "Schwimm.CSFE-U-Estrich 60mm E300",
+      "unit": "m²"
+    },
+    {
+      "code": "11.24.31A",
+      "text": "Az beheizter Estrich f.Erschwernis u.Feuchtigkeitsmesspunkte",
+      "unit": "m²"
+    },
+    {
+      "code": "11.25.01A",
+      "text": "Az f.Schnellestrich SE21",
+      "unit": "m³"
+    },
+    {
+      "code": "11.25.01B",
+      "text": "Az f.Schnellestrich SE14",
+      "unit": "m³"
+    },
+    {
+      "code": "11.25.01C",
+      "text": "Az f.Schnellestrich SE7",
+      "unit": "m³"
+    },
+    {
+      "code": "11.25.01D",
+      "text": "Az f.Schnellestrich SE4",
+      "unit": "m³"
+    },
+    {
+      "code": "11.25.01E",
+      "text": "Az f.Schnellestrich SE2",
+      "unit": "m³"
+    },
+    {
+      "code": "11.25.01F",
+      "text": "Az f.Schnellestrich SE1",
+      "unit": "m³"
+    },
+    {
+      "code": "11.25.02B",
+      "text": "Fuge m.elastischem Dichtstoff ü.5-8mm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "11.25.02C",
+      "text": "Fuge m.elastischem Dichtstoff ü.8-12mm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "11.25.04B",
+      "text": "Bewehrung Kunststofffaser",
+      "unit": "m³"
+    },
+    {
+      "code": "11.25.11A",
+      "text": "Anarbeiten an Einbauteile b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "11.25.11B",
+      "text": "Anarbeiten an Einbauteile ü.0,5m2                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "11.25.12A",
+      "text": "Deckel,Fußabstreifer ausfüllen m.Estrich",
+      "unit": "Stk"
+    },
+    {
+      "code": "11.25.15A",
+      "text": "Schwindfugen m.Fugendübel                                                                                    m",
+      "unit": ""
+    }
+  ]
+}

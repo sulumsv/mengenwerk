@@ -1,0 +1,3121 @@
+{
+  "lg": "58",
+  "title": "Gartengestaltung und Landschaftsbau",
+  "positions": [
+    {
+      "code": "58.12.23A",
+      "text": "Baumschutz m.Bodenauftrag/Blähton",
+      "unit": "m²"
+    },
+    {
+      "code": "58.12.23B",
+      "text": "Baumschutz Bodenauftrag/Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "58.20.10A",
+      "text": "Füllen Pflanzgefäße innen ebenerdig",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.20.10B",
+      "text": "Füllen Pflanzgefäße innen Geschoß",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.20.11A",
+      "text": "Füllen Pflanzgefäße außen ebenerdig",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.20.11B",
+      "text": "Füllen Pflanzgefäße außen Geschoß",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.22.01A",
+      "text": "Schutzvlies verrottungsfest 3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.01B",
+      "text": "Schutzvlies verrottungsfest 5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.02A",
+      "text": "Schutzvlies thermisch verfestigt 4mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.02B",
+      "text": "Schutzvlies thermisch verfestigt 8mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.03A",
+      "text": "Schutz-Dränmatte PP-Vlies 10mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.04A",
+      "text": "HDPE Schutz-/Drainelement 10mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.14A",
+      "text": "Filterschicht Kunststoffvlies",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.01A",
+      "text": "Trennlage ext. Bwbg. (PP-Vlies) D=1-2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.01B",
+      "text": "Schutzlage ext. Bwbg.(PP-Vlies) D=3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.01C",
+      "text": "Schutzlage ext. Bwbg.(PP-Vlies) D=4mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.01D",
+      "text": "Schutzlage ext. Bwbg.(PP-Vlies) D=5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.10A",
+      "text": "Drän-,Schutz-u.Filterschicht diffusionsoffen D=1-2cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.14A",
+      "text": "Filterschicht Kunststoffvlies ext. Bwbg.",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.01A",
+      "text": "Trennlage red. ext. Bwbg. (PP-Vlies) D=1-2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.01B",
+      "text": "Schutzlage red. ext. Bwbg.(PP-Vlies) D=3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.01C",
+      "text": "Schutzlage red. ext. Bwbg.(PP-Vlies) D=4mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.01D",
+      "text": "Schutzlage red. ext. Bwbg.(PP-Vlies) D=5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.14A",
+      "text": "Filterschicht Kunststoffvlies red. ext. Bwbg.",
+      "unit": "m²"
+    },
+    {
+      "code": "58.00.00C",
+      "text": "Oberboden Eigentum AG",
+      "unit": ""
+    },
+    {
+      "code": "58.00.00E",
+      "text": "Bereitstellung Wasser AG",
+      "unit": ""
+    },
+    {
+      "code": "58.00.00F",
+      "text": "Bereitstellung Wasser AN",
+      "unit": ""
+    },
+    {
+      "code": "58.00.00V",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "58.11.01A",
+      "text": "Mähen b.6cm+entsorgen",
+      "unit": "m²"
+    },
+    {
+      "code": "58.11.02A",
+      "text": "Fläche roden+entsorgen (m2)",
+      "unit": "m²"
+    },
+    {
+      "code": "58.11.02B",
+      "text": "Fläche roden+entsorgen (PA)                                                                              PA",
+      "unit": ""
+    },
+    {
+      "code": "58.11.09A",
+      "text": "Gehölz fällen+zwischenlagern ü.30-100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.09B",
+      "text": "Gehölz fällen+zwischenlagern ü.100-150cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.09C",
+      "text": "Gehölz fällen+zwischenlagern ü.150-200cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.09D",
+      "text": "Gehölz fällen+zwischenlagern ü.200-250cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.09E",
+      "text": "Gehölz fällen+zwischenlagern ü.250-300cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.09X",
+      "text": "Gehölz fällen+zwischenlagern ü.300cm-__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.09Y",
+      "text": "Gehölz fällen (zusätzliche Angaben)",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.10A",
+      "text": "Gehölz fällen+entsorgen ü.30-100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.10B",
+      "text": "Gehölz fällen+entsorgen ü.100-150cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.10C",
+      "text": "Gehölz fällen+entsorgen ü.150-200cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.10D",
+      "text": "Gehölz fällen+entsorgen ü.200-250cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.10E",
+      "text": "Gehölz fällen+entsorgen ü.250-300cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.10X",
+      "text": "Gehölz fällen+entsorgen ü.300cm-__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.16A",
+      "text": "Wurzelstock entfernen+zwischenlagern ü.10-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.16B",
+      "text": "Wurzelstock entfernen+zwischenlagern ü.30-60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.16X",
+      "text": "Wurzelstock entfernen+zwischenlagern ü.60cm-__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.16Y",
+      "text": "Wurzelstock entfernen (zusätzliche Angaben)",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.17A",
+      "text": "Wurzelstock entfernen+entsorgen ü.10-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.17B",
+      "text": "Wurzelstock entfernen+entsorgen ü.30-60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.17X",
+      "text": "Wurzelstock entfernen+entsorgen ü.60cm-__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.18A",
+      "text": "Wurzelstock fräsen 20cm/10-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.18B",
+      "text": "Wurzelstock fräsen 70cm/10-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.18C",
+      "text": "Wurzelstock fräsen 20cm/30-60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.18D",
+      "text": "Wurzelstock fräsen 70cm/30-60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.18X",
+      "text": "Wurzelstock fräsen__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.19A",
+      "text": "Wurzelstock fräsen+auffüllen Fräsgut 20cm/10-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.19B",
+      "text": "Wurzelstock fräsen+auffüllen Fräsgut 70cm/10-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.19C",
+      "text": "Wurzelstock fräsen+auffüllen Fräsgut 20cm/30-60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.19D",
+      "text": "Wurzelstock fräsen+auffüllen Fräsgut 70cm/30-60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.19X",
+      "text": "Wurzelstock fräsen+auffüllen Fräsgut__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.20A",
+      "text": "Wurzelstock fräsen+auffüllen/entsorgen 20cm/10-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.20B",
+      "text": "Wurzelstock fräsen+auffüllen/entsorgen 70cm/10-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.20C",
+      "text": "Wurzelstock fräsen+auffüllen/entsorgen 20cm/30-60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.20D",
+      "text": "Wurzelstock fräsen+auffüllen/entsorgen 70cm/30-60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.20X",
+      "text": "Wurzelstock fräsen+auffüllen/entsorgen__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.31A",
+      "text": "Bodenprobe Hauptnährstoffe",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.31B",
+      "text": "Bodenprobe Spurenelemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.31C",
+      "text": "Bodenprobe Salz und pH-Wert",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.11.31D",
+      "text": "Bodenprobe Sieblinie",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.12.20A",
+      "text": "Schutzzaun 10x10cm m.Sparschalung                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "58.12.20B",
+      "text": "Schutzzaun 10x10cm m.Drahtgeflecht                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "58.12.25A",
+      "text": "Az Bodenauftrag f.Drainschicht                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "58.12.26A",
+      "text": "Wurzelvorhang b.50cm                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "58.12.26B",
+      "text": "Wurzelvorhang ü.50-100cm                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "58.12.26V",
+      "text": "Wurzelvorhang Vorhalten                                                                                      VE",
+      "unit": ""
+    },
+    {
+      "code": "58.12.30A",
+      "text": "Wurzelschutz f.Überfahren m.Schotter+Pfosten",
+      "unit": "m²"
+    },
+    {
+      "code": "58.12.30B",
+      "text": "Wurzelschutz f.Überfahren m.Schotter+Kantholz",
+      "unit": "m²"
+    },
+    {
+      "code": "58.12.31A",
+      "text": "Schutz des Baumstammes m.elastischem Material+Schalung                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "58.12.33A",
+      "text": "Abtr.Bodenbelag wurzelsch.+Entsorgen b.Betondecken",
+      "unit": "m²"
+    },
+    {
+      "code": "58.12.33B",
+      "text": "Abtr.Bodenbelag wurzelsch.+Entsorgen b.bituminöse Decken",
+      "unit": "m²"
+    },
+    {
+      "code": "58.12.33C",
+      "text": "Abtr.Bodenbelag wurzelsch.+Entsorgen b.wassergeb.Decken",
+      "unit": "m²"
+    },
+    {
+      "code": "58.12.33D",
+      "text": "Abtr.Bodenbelag wurzelsch.+Entsorgen b.wassergeb.Decken H",
+      "unit": "m²"
+    },
+    {
+      "code": "58.12.33E",
+      "text": "Abtr.Bodenbelag wurzelsch.+Entsorgen b.Pl.u.Pfl.",
+      "unit": "m²"
+    },
+    {
+      "code": "58.12.33F",
+      "text": "Abtr.Bodenbelag wurzelsch.+Entsorgen b.Pl.u.Pfl.Absaugen",
+      "unit": "m²"
+    },
+    {
+      "code": "58.12.36A",
+      "text": "Bodenabtrag in Sektoren wurzelsch.+Entsorgen",
+      "unit": "m²"
+    },
+    {
+      "code": "58.12.41A",
+      "text": "Stammschutz m.Schilfrohrmatten",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.12.41B",
+      "text": "Stammschutz m.Schutzanstrich",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.12.41C",
+      "text": "Mähschutz",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.13.01A",
+      "text": "Grasnarbe abschälen+Entsorgen",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.11A",
+      "text": "Oberboden/Herstellen von Mieten",
+      "unit": "m³"
+    },
+    {
+      "code": "58.13.12A",
+      "text": "Oberboden/Mieten pflegen                                                                                           VE",
+      "unit": ""
+    },
+    {
+      "code": "58.13.19A",
+      "text": "Oberboden vorh./gelagert andecken b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.19B",
+      "text": "Oberboden vorh./gelagert andecken ü.10-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.19C",
+      "text": "Oberboden vorh./gelagert andecken ü.15-20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.19D",
+      "text": "Oberboden vorh./gelagert andecken ü.20-30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.19E",
+      "text": "Oberboden vorh./gelagert andecken ü.30-40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.19X",
+      "text": "Oberboden vorh./gelagert andecken ü.40cm-__________",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.20A",
+      "text": "Oberboden andecken b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.20B",
+      "text": "Oberboden andecken ü.10-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.20C",
+      "text": "Oberboden andecken ü.15-20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.20D",
+      "text": "Oberboden andecken ü.20-30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.20E",
+      "text": "Oberboden andecken ü.30-40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.20X",
+      "text": "Oberboden andecken ü.40cm-__________",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.21A",
+      "text": "Zwischenboden andecken b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.21B",
+      "text": "Zwischenboden andecken ü.10-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.21C",
+      "text": "Zwischenboden andecken ü.15-20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.21D",
+      "text": "Zwischenboden andecken ü.20-30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.21E",
+      "text": "Zwischenboden andecken ü.30-40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.21X",
+      "text": "Zwischenboden andecken ü.40cm-__________",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.22A",
+      "text": "Substrat andecken b.5cm",
+      "unit": "m³"
+    },
+    {
+      "code": "58.13.22B",
+      "text": "Substrat andecken ü.5-10cm",
+      "unit": "m³"
+    },
+    {
+      "code": "58.13.22C",
+      "text": "Substrat andecken ü.10-20cm",
+      "unit": "m³"
+    },
+    {
+      "code": "58.13.22D",
+      "text": "Substrat andecken ü.20-50cm",
+      "unit": "m³"
+    },
+    {
+      "code": "58.13.22X",
+      "text": "Substrat andecken ü.50cm-__________",
+      "unit": "m³"
+    },
+    {
+      "code": "58.13.23A",
+      "text": "Az Substrat f.Tröge",
+      "unit": "m³"
+    },
+    {
+      "code": "58.13.23B",
+      "text": "Az Substrat f.Transport/Kran",
+      "unit": "m³"
+    },
+    {
+      "code": "58.13.23C",
+      "text": "Az Substrat f.Transport/Silo m.Druckluft",
+      "unit": "m³"
+    },
+    {
+      "code": "58.13.23D",
+      "text": "Az Substrat f.Transport Gebäude",
+      "unit": "m³"
+    },
+    {
+      "code": "58.13.26A",
+      "text": "Rasensteine m.Substrat+auffüllen b.8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.26B",
+      "text": "Rasensteine m.Substrat+auffüllen ü.8-10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.26C",
+      "text": "Rasensteine m.Substrat+auffüllen ü.10-12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.26X",
+      "text": "Rasensteine m.Substrat+auffüllen ü.12cm-__________",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.27A",
+      "text": "Pflasterfugen m.Substrat+auffüllen",
+      "unit": "m²"
+    },
+    {
+      "code": "58.13.28A",
+      "text": "Böschungsteine m.Substrat+auffüllen",
+      "unit": "m³"
+    },
+    {
+      "code": "58.13.31A",
+      "text": "Az f.Modellieren",
+      "unit": "m²"
+    },
+    {
+      "code": "58.14.01A",
+      "text": "Bodenlockerung b.5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.14.01B",
+      "text": "Bodenlockerung ü.5-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.14.01C",
+      "text": "Bodenlockerung ü.15-30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.14.01D",
+      "text": "Az Bodenlockerung f.händisches Lockern",
+      "unit": "m²"
+    },
+    {
+      "code": "58.14.01X",
+      "text": "Bodenlockerung ü.30cm-__________",
+      "unit": "m²"
+    },
+    {
+      "code": "58.14.03A",
+      "text": "Feinplanum +/-3cm m.Steinen b.5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.14.04A",
+      "text": "Fläche m.Steinen säubern+entsorgen b.5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.14.04B",
+      "text": "Fläche m.Steinen säubern+entsorgen ü.5-10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.14.05B",
+      "text": "Bodenverbesserung m.Sand gewaschen 1/3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.14.05C",
+      "text": "Bodenverbesserung m.Kompost Qualitätskl.A",
+      "unit": "m²"
+    },
+    {
+      "code": "58.14.08A",
+      "text": "Dünger liefern+einbauen",
+      "unit": "m²"
+    },
+    {
+      "code": "58.15.00C",
+      "text": "Wildpflanzen Herkunftsbescheid",
+      "unit": ""
+    },
+    {
+      "code": "58.15.11A",
+      "text": "Laubbaum H oB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.11B",
+      "text": "Laubbaum ha oB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.11C",
+      "text": "Laubbaum Stbu oB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.11D",
+      "text": "Laubbaum Hei oB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.12A",
+      "text": "Laubbaum H mB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.12B",
+      "text": "Laubbaum ha mB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.12C",
+      "text": "Laubbaum Stbu mB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.12D",
+      "text": "Laubbaum Hei mB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.12E",
+      "text": "Laubbaum Sol H mB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.12F",
+      "text": "Laubbaum Sol Hei mB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.13A",
+      "text": "Nadelbaum mB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.13B",
+      "text": "Nadelbaum Sol mB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.14A",
+      "text": "Sträucher oB 1j nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.14B",
+      "text": "Sträucher oB 2j v nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.14C",
+      "text": "Sträucher oB 3j v nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.14D",
+      "text": "Sträucher oB 2v nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.15A",
+      "text": "Sträucher mB 2v nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.15B",
+      "text": "Sträucher mTB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.16A",
+      "text": "Sträucher mB Sol 3v nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.17A",
+      "text": "Heckenpflanzen mB Laubgehölz verpflanzt nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.17B",
+      "text": "Heckenpflanzen mB Laubgehölz 2v nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.17C",
+      "text": "Heckenpflanzen mTB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.17D",
+      "text": "Heckenpflanzen mB als Nadelgehölz nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.17E",
+      "text": "Heckenpflanzen mTB als Nadelgehölz nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.18A",
+      "text": "Kleinkoniferen mB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.18B",
+      "text": "Kleinkoniferen mTB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.19A",
+      "text": "Immergrünes Laubgehölz mB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.20A",
+      "text": "Heckenpflanzen oB als Laubgehölz 1j nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.20B",
+      "text": "Heckenpflanzen oB als Laubgehölz v nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.21A",
+      "text": "Bodendecker mTB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.22A",
+      "text": "Schling-Kletterpflanzen mTB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.25A",
+      "text": "Teehybrid-Rosen oB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.25B",
+      "text": "Polyantha-Rosen oB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.25C",
+      "text": "Zwergrosen oB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.25D",
+      "text": "Schlingrosen oB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.25E",
+      "text": "Strauchrosen oB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.26A",
+      "text": "Teehybrid-Rosen mTB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.26B",
+      "text": "Polyantha-Rosen mTB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.26C",
+      "text": "Zwergrosen mTB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.26D",
+      "text": "Schlingrosen mTB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.26E",
+      "text": "Strauchrosen mTB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.26F",
+      "text": "Bodendeckerrosen mTB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.30A",
+      "text": "Moorbeetpflanzen mTB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.33A",
+      "text": "Stauden mTB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.36A",
+      "text": "Ziergräser mTB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.40A",
+      "text": "Sumpf-u.Wasserpflanzen nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.42A",
+      "text": "1-2-jähr.Sommer u.Frühjahrsblüher mTB nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.44A",
+      "text": "Blumenzwiebeln nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.15.46A",
+      "text": "Blumenknollen nur liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.00D",
+      "text": "Ausführungstermine zu 58.16",
+      "unit": ""
+    },
+    {
+      "code": "58.16.01A",
+      "text": "Pflanzen oB lagern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.01B",
+      "text": "Pflanzen mB lagern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.01C",
+      "text": "Solitärpflanzen lagern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.01D",
+      "text": "Topfballenpflanzen lagern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.01X",
+      "text": "Pflanzen lagern",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.02A",
+      "text": "Pflanzen oB einschlagen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.02B",
+      "text": "Pflanzen mB einschlagen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.02C",
+      "text": "Solitärpflanzen einschlagen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.02D",
+      "text": "Topfballenpflanzen einschlagen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.02X",
+      "text": "Pflanzen einschlagen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.03A",
+      "text": "Wurzeltauchung",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.04A",
+      "text": "Pflanzlöcher+Aushubmaterial verfüllen 0,3m/0,3m",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.04B",
+      "text": "Pflanzlöcher+Aushubmaterial verfüllen 0,5m/0,4m",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.05A",
+      "text": "Pflanzlöcher+Boden/AN verfüllen 0,3m/0,3m",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.05B",
+      "text": "Pflanzlöcher+Boden/AN verfüllen 0,5m/0,4m",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.06A",
+      "text": "Pflanzlöcher+Substrat/AN verfüllen 0,3m/0,3m",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.06B",
+      "text": "Pflanzlöcher+Substrat/AN verfüllen 0,5m/0,4m",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.07A",
+      "text": "Baumgrube+Aushubmaterial verfüllen 1x1x0,8m",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.07B",
+      "text": "Baumgrube+Aushubmaterial verfüllen 2x2x1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.08A",
+      "text": "Baumgrube+Boden/AN verfüllen 1x1x0,8m",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.08B",
+      "text": "Baumgrube+Boden/AN verfüllen 2x2x1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.09A",
+      "text": "Baumgrube+Substrat/AN verfüllen 1x1x0,8m",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.09B",
+      "text": "Baumgrube+Substrat/AN verfüllen 2x2x1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.10A",
+      "text": "Pflanzgraben+Aushubmaterial verfüllen 0,3m/0,3m                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "58.16.10B",
+      "text": "Pflanzgraben+Aushubmaterial verfüllen 0,5m/0,4m                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "58.16.11A",
+      "text": "Pflanzgraben+Boden/AN verfüllen 0,3m/0,3m                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "58.16.11B",
+      "text": "Pflanzgraben+Boden/AN verfüllen 0,5m/0,4m                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "58.16.20A",
+      "text": "Laubbaum pflanzen oB",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.21A",
+      "text": "Laub-u.Nadelbäume pflanzen mB-25/250cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.21B",
+      "text": "Laub-u.Nadelbäume pflanzen mB-35/400cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.21C",
+      "text": "Laub-u.Nadelbäume pflanzen mB-50/600cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.22A",
+      "text": "Strauch/Hecken pflanzen oB",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.23A",
+      "text": "Strauch/Hecke pflanzen mB/mTB b.100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.23B",
+      "text": "Strauch/Hecke pflanzen mB/mTB ü.100-150cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.23C",
+      "text": "Strauch/Hecke pflanzen mB/mTB ü.150-200cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.24A",
+      "text": "Immergrüne pflanzen mB/mTB b.60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.24B",
+      "text": "Immergrüne pflanzen mB/mTB ü.60-100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.24C",
+      "text": "Immergrüne pflanzen mB/mTB ü.100-150cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.25A",
+      "text": "Bodendecker pflanzen mTB",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.26A",
+      "text": "Schling-u.Kletterpflanzen pflanzen mTB",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.28A",
+      "text": "Rosen pflanzen mTB",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.28B",
+      "text": "Rosen pflanzen oB",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.30A",
+      "text": "Moorbeetpflanzen pflanzen mB/mTB",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.33A",
+      "text": "Stauden/Ziergräser pflanzen mit Topfballen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.40A",
+      "text": "Wasser-u.Sumpfpflanzen pflanzen mit Topfballen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.42A",
+      "text": "1-2 jährige Blüher pflanzen mit Topfballen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.44A",
+      "text": "Zwiebeln u.Knollen legen pro Stück",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.44B",
+      "text": "Zwiebeln u.Knollen legen pro m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.16.46A",
+      "text": "Baumverankerung 1fach",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.46B",
+      "text": "Baumverankerung 2fach",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.53A",
+      "text": "Dreipfahlverankerung 3m/50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.53B",
+      "text": "Dreipfahlverankerung 4m/80cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.54A",
+      "text": "Dreibockverankerung",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.55A",
+      "text": "Unterirdische Baumverankerung b.25cm/b.250cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.55B",
+      "text": "Unterirdische Baumverankerung ü.25-35cm/ü.250-400cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.55C",
+      "text": "Unterirdische Baumverankerung ü.35-50cm/ü.400-600cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.56A",
+      "text": "Oberirdische Baumverankerung b.25cm/b.250cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.56B",
+      "text": "Oberirdische Baumverankerung ü.25-35cm/ü.250-400cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.56C",
+      "text": "Oberirdische Baumverankerung ü.35-50cm/ü.400-600cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.59A",
+      "text": "Rindenmulch (DEKO) 3cm dick",
+      "unit": "m²"
+    },
+    {
+      "code": "58.16.59B",
+      "text": "Rindenmulch 5cm dick",
+      "unit": "m²"
+    },
+    {
+      "code": "58.16.59C",
+      "text": "Rindenmulch 8cm dick",
+      "unit": "m²"
+    },
+    {
+      "code": "58.16.59D",
+      "text": "Rindenmulch 10cm dick",
+      "unit": "m²"
+    },
+    {
+      "code": "58.16.60A",
+      "text": "Mineralisches Mulchschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "58.16.81A",
+      "text": "Az Pflanzen f.Dach Baum b.25cm H:b.250cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.81B",
+      "text": "Az Pflanzen f.Dach Baum ü.25-35cm H:ü.250-400cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.81X",
+      "text": "Az Pflanzen f.Dach Baum",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.82A",
+      "text": "Az Pflanzen f.Dach Strauch b.100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.82B",
+      "text": "Az Pflanzen f.Dach Strauch ü.100-200cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.82C",
+      "text": "Az Pflanzen f.Dach Strauch ü.200cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.82X",
+      "text": "Az Pflanzen f.Dach Strauch",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.83A",
+      "text": "Az Pflanzen f.Dach Pflanzen TB 9cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.83B",
+      "text": "Az Pflanzen f.Dach Pflanzen Container",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.91A",
+      "text": "Ringdrainrohr DN 100 Guss-D 105mm H 155mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.91B",
+      "text": "Ringdrainrohr DN 100 Kunststoff-D 105mm H 155mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.91C",
+      "text": "Ringdrainrohr DN 100 ohne Deckel",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.92A",
+      "text": "Bodenverbesserungsmaterial f.Pflanzloch",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.16.92B",
+      "text": "Bodenverbesserungsmaterial f.Grabenpflanzung                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "58.16.92C",
+      "text": "Bodenverbesserungsmaterial f.Flächenpflanzung",
+      "unit": "m²"
+    },
+    {
+      "code": "58.17.00D",
+      "text": "Ausführungstermine zu 58.17",
+      "unit": ""
+    },
+    {
+      "code": "58.17.01A",
+      "text": "Vorbereiten der Pflanzstelle f.Rasensoden",
+      "unit": "m²"
+    },
+    {
+      "code": "58.17.03A",
+      "text": "Vorbereitung zur Wurzelbildung f.Rasensoden",
+      "unit": "m²"
+    },
+    {
+      "code": "58.17.05A",
+      "text": "Mäharbeiten Rückschnitt v.Rasensoden",
+      "unit": "m²"
+    },
+    {
+      "code": "58.17.13A",
+      "text": "Fertigrasen liefern+verlegen",
+      "unit": "m²"
+    },
+    {
+      "code": "58.17.17A",
+      "text": "Ansaat (Saatgut)",
+      "unit": "m²"
+    },
+    {
+      "code": "58.17.17B",
+      "text": "Ansaat (Saatgut+Dünger)",
+      "unit": "m²"
+    },
+    {
+      "code": "58.17.21A",
+      "text": "Strohmulchsaat/Strohdecksaat",
+      "unit": "m²"
+    },
+    {
+      "code": "58.17.21B",
+      "text": "Mulchsaat",
+      "unit": "m²"
+    },
+    {
+      "code": "58.17.21C",
+      "text": "Az Strohdecksaat f.Maschengeflecht",
+      "unit": "m²"
+    },
+    {
+      "code": "58.17.23A",
+      "text": "Spritzbegrünung Saatgut",
+      "unit": "m²"
+    },
+    {
+      "code": "58.17.23B",
+      "text": "Spritzbegrünung Saatgut AG",
+      "unit": "m²"
+    },
+    {
+      "code": "58.17.25A",
+      "text": "Rasenmatten",
+      "unit": "m²"
+    },
+    {
+      "code": "58.17.26A",
+      "text": "Schotterrasen 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.17.26B",
+      "text": "Schotterrasen__________",
+      "unit": "m²"
+    },
+    {
+      "code": "58.17.31A",
+      "text": "Regeneration bestehender Rasenflächen",
+      "unit": "m²"
+    },
+    {
+      "code": "58.18.01A",
+      "text": "Anwuchspflege Bäume                                                                                         VE",
+      "unit": ""
+    },
+    {
+      "code": "58.18.01B",
+      "text": "Anwuchspflege Sträucher u.Bodendeckerflächen                                                                 VE",
+      "unit": ""
+    },
+    {
+      "code": "58.18.01C",
+      "text": "Anwuchspflege Staudenflächen                                                                                 VE",
+      "unit": ""
+    },
+    {
+      "code": "58.18.03A",
+      "text": "Anwuchspflege Rasen",
+      "unit": "m²"
+    },
+    {
+      "code": "58.18.05A",
+      "text": "Entwicklungspflege Bäume                                                                                     VE",
+      "unit": ""
+    },
+    {
+      "code": "58.18.05B",
+      "text": "Entwicklungspflege Sträucher u.Bodendeckerflächen                                                            VE",
+      "unit": ""
+    },
+    {
+      "code": "58.18.05C",
+      "text": "Entwicklungspflege Staudenflächen                                                                            VE",
+      "unit": ""
+    },
+    {
+      "code": "58.18.05D",
+      "text": "Entwicklungspflege Strohdecksaat                                                                             VE",
+      "unit": ""
+    },
+    {
+      "code": "58.18.05E",
+      "text": "Entwicklungspflege Spritzbegrünung                                                                           VE",
+      "unit": ""
+    },
+    {
+      "code": "58.18.06A",
+      "text": "Entwicklungspflege Rasen                                                                                     VE",
+      "unit": ""
+    },
+    {
+      "code": "58.18.06B",
+      "text": "Az Entwicklungspflege f.Rasensteine                                                                                     VE",
+      "unit": ""
+    },
+    {
+      "code": "58.19.01A",
+      "text": "Unterbauplanum Geh-u.Radweg",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.01C",
+      "text": "Unterbauplanum Fahrweg",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.01E",
+      "text": "Az Unterbauplanum f.Gefälle ü.6-10%",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.02A",
+      "text": "Frostschutzschichte 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.02B",
+      "text": "Frostschutzschichte 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.02C",
+      "text": "Frostschutzschichte 25cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.02D",
+      "text": "Frostschutzschichte 30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.02E",
+      "text": "Az Frostschutzschichte f.Gefälle ü.6-10%",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.03A",
+      "text": "Mech.stab.Tragschichte Geh-u.Radweg 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.03B",
+      "text": "Mech.stab.Tragschichte Geh-u.Radweg 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.03C",
+      "text": "Mech.stab.Tragschichte Fahrweg 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.03D",
+      "text": "Az Mech.stab.Tragschichte f.Gefälle ü.6-10%",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.04A",
+      "text": "Dynamische Schicht Geh-und Radweg",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.04C",
+      "text": "Dynamische Schicht Fahrweg",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.04D",
+      "text": "Az Dynamische Schicht f.Gefälle ü.6-10%",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.05A",
+      "text": "Deckschicht 0/4mm 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.05B",
+      "text": "Deckschicht 0/8mm 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.05C",
+      "text": "Deckschicht 0/4mm 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.05D",
+      "text": "Deckschicht 0/8mm 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.05E",
+      "text": "Az Deckschicht f.Gefälle ü.6-10%",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.06C",
+      "text": "Deckschicht m.Bindemittel 0/4mm 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.06D",
+      "text": "Deckschicht m.Bindemittel 0/8mm 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.06E",
+      "text": "Az Deckschicht m.Bindemittel f.Gefälle ü.6-10%",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.13A",
+      "text": "Verfestigter Edelsplitt Geh-u.Radweg 2,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.13C",
+      "text": "Verfestigter Edelsplitt Fahrweg 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.13E",
+      "text": "Az Verfestigter Edelsplitt f.Gefälle ü.6-10%",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.20A",
+      "text": "Natursteinplatten Mörtelbett unregelmäßig 4-6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.20B",
+      "text": "Natursteinplatten Mörtelbett unregelmäßig ü.6-8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.20C",
+      "text": "Natursteinplatten Mörtelbett regelmäßig 4-6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.20D",
+      "text": "Natursteinplatten Mörtelbett regelmäßig ü.6-8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.20E",
+      "text": "Az Natursteinplatten Mörtelbett f.Gefälle ü.6-10%",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.21A",
+      "text": "Natursteinplatten Sandbett unregelmäßig 4-6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.21B",
+      "text": "Natursteinplatten Sandbett unregelmäßig ü.6-8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.21C",
+      "text": "Natursteinplatten Sandbett regelmäßig 4-6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.21D",
+      "text": "Natursteinplatten Sandbett regelmäßig ü.6-8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.21E",
+      "text": "Az Natursteinplatten Sandbett f.Gefälle ü.6-10%",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.22A",
+      "text": "Natursteinplatten Erde unregelmäßig 4-6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.22B",
+      "text": "Natursteinplatten Erde unregelmäßig ü.6-8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.22C",
+      "text": "Natursteinplatten Erde regelmäßig 4-6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.22D",
+      "text": "Natursteinplatten Erde regelmäßig ü.6-8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.22E",
+      "text": "Az Natursteinplatten Erde f.Gefälle ü.6-10%",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.23A",
+      "text": "Trittsteine Naturstein ü.0,1-0,25m2/4-6cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.19.23B",
+      "text": "Trittsteine Naturstein ü.0,25-0,4m2/6-8cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.19.24A",
+      "text": "Trittsteine Waschbetonplatten 50x50cm/5cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.19.24B",
+      "text": "Trittsteine Betonplatten 50x50cm/5cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.19.30A",
+      "text": "Wegkante Bandstahl gerade 5/100mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "58.19.30B",
+      "text": "Wegkante Bandstahl gerade 5/200mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "58.19.30C",
+      "text": "Wegkante Bandstahl gerade 6/100mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "58.19.30D",
+      "text": "Az Wegkante Bandstahl f.Radius b.3m 5/100mm                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "58.19.30E",
+      "text": "Az Wegkante Bandstahl f.Radius b.3m 5/200mm                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "58.19.32A",
+      "text": "Wegkante                                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "58.19.50A",
+      "text": "Naturstein Trockenmauerwerk",
+      "unit": "m²"
+    },
+    {
+      "code": "58.19.50B",
+      "text": "Naturstein Betonbettmauerwerk",
+      "unit": "m²"
+    },
+    {
+      "code": "58.20.00C",
+      "text": "Umstände der Leistungserbringung 58.20",
+      "unit": ""
+    },
+    {
+      "code": "58.20.01A",
+      "text": "Pflanzgefäß Holz ebenerdig",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.20.01B",
+      "text": "Pflanzgefäß Holz Geschoß",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.20.02A",
+      "text": "Pflanzgefäß Beton ebenerdig",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.20.02B",
+      "text": "Pflanzgefäß Beton Geschoß",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.20.03A",
+      "text": "Pflanzgefäß beschichtet FZ/MF ebenerdig",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.20.03B",
+      "text": "Pflanzgefäß beschichtet FZ/MF Geschoß",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.20.04A",
+      "text": "Pflanzgefäß Kunststoff ebenerdig",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.20.04B",
+      "text": "Pflanzgefäß Kunststoff Geschoß",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.22.00C",
+      "text": "Intensive Bauwerksbegrünung/Dachflächenbeschreibung",
+      "unit": ""
+    },
+    {
+      "code": "58.22.00D",
+      "text": "Intensive Bauwerksbegrünung/Transport auf Dach",
+      "unit": ""
+    },
+    {
+      "code": "58.22.00E",
+      "text": "Intensive Bauwerksbegrünung/Dachaufbau",
+      "unit": ""
+    },
+    {
+      "code": "58.22.05A",
+      "text": "Schutzmatte Recycling-Gummigranulat 8mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.05B",
+      "text": "Schutzmatte Recycling-Gummigranulat 10mm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.06A",
+      "text": "Kontrollschacht D=250-300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.22.06B",
+      "text": "Kontrollschacht D=250-300mm Wasserleitprofil__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.22.07A",
+      "text": "Kiesrandstreifen blasbar 8/16mm 30cm",
+      "unit": "m³"
+    },
+    {
+      "code": "58.22.07B",
+      "text": "Kiesrandstreifen blasbar 8/16mm ü.30cm-__________",
+      "unit": "m³"
+    },
+    {
+      "code": "58.22.07C",
+      "text": "Kiesrandstreifen 16/32mm 30cm",
+      "unit": "m³"
+    },
+    {
+      "code": "58.22.07D",
+      "text": "Kiesrandstreifen 16/32mm ü.30cm-__________",
+      "unit": "m³"
+    },
+    {
+      "code": "58.22.08A",
+      "text": "Dränschicht/Speicherfunkt.Blähschief.10cm,2/12mm,40l/m2,oWA",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.08B",
+      "text": "Dränschicht/Speicherfunkt.Blähschief.15cm,4/16mm,60l/m2,oWA",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.08C",
+      "text": "Dränschicht/Speicherfunkt.Blähschief.10cm,2/12mm,60l/m2,mWA",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.08D",
+      "text": "Dränschicht/Speicherfunkt.Blähschief.15cm,4/16mm,90l/m2,mWA",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.09A",
+      "text": "Dränschicht/Speicherfunkt.Ziegelsplitt 10cm,2/12mm,30l/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.09B",
+      "text": "Dränschicht/Speicherfunkt.Ziegelsplitt 15cm,4/16mm,45l/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.11A",
+      "text": "Drän-u.Schutzschicht/Speichfunktion EPS-SF 5cm,10Liter/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.11B",
+      "text": "Drän-u.Schutzschicht/Speichfunktion EPS-SF 7,5cm,20l/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.12A",
+      "text": "Drän-u.Schutzschicht/Speichfunktion Hartkunststoff 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.12B",
+      "text": "Drän-u.Schutzschicht/Speichfunktion Hartkunststoff 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.12C",
+      "text": "Drän-u.Schutzschicht/Speichfunktion Hartkunststoff 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.13A",
+      "text": "Verfüllen Drän-u.Schutzschicht Hartkunstst.Blähschiefer 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.13B",
+      "text": "Verfüllen Drän-u.Schutzschicht Hartkunstst.Blähschiefer 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.13C",
+      "text": "Verfüllen Drän-u.Schutzschicht Hartkunstst.Rundkiesel 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.13D",
+      "text": "Verfüllen Drän-u.Schutzschicht Hartkunstst.Rundkiesel 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.17A",
+      "text": "Intensiv-Substrat leicht 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.17B",
+      "text": "Intensiv-Substrat leicht 40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.18A",
+      "text": "Intensiv-Substrat schwer 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.18B",
+      "text": "Intensiv-Substrat schwer 40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.19A",
+      "text": "Intensiv-Untersubstrat leicht__________",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.19B",
+      "text": "Intensiv-Untersubstrat schwer__________",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.21A",
+      "text": "Az Schüttstoffgemisch f.Modellierung",
+      "unit": "m²"
+    },
+    {
+      "code": "58.22.31A",
+      "text": "Baumbefestigung m.Ballenverankerung",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.22.31B",
+      "text": "Baumbefestigung m.Kronenverankerung",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.22.31C",
+      "text": "Baumbefestigung m.Ballen- u.Kronenverankerung",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.23.00C",
+      "text": "Extensive Bauwerksbegrünung/Dachflächenbeschreibung",
+      "unit": ""
+    },
+    {
+      "code": "58.23.00D",
+      "text": "Extensive Bauwerksbegrünung/Transport auf Dach",
+      "unit": ""
+    },
+    {
+      "code": "58.23.00E",
+      "text": "Extensive Bauwerksbegrünung/Dachaufbau",
+      "unit": ""
+    },
+    {
+      "code": "58.23.06A",
+      "text": "Kontrollschacht 250-300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.23.06B",
+      "text": "Kontrollschacht 250-300mm Wasserleitprofil__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.23.07A",
+      "text": "Kiesrandstreifen blasbar 8/16mm 40/10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.07B",
+      "text": "Kiesrandstreifen blasbar 8/16mm 40cm/__________",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.07C",
+      "text": "Kiesrandstreifen 16/32mm 40/10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.07X",
+      "text": "Kiesrandstreifen 16/32mm 40cm/__________",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.08A",
+      "text": "Dränschicht/Speicherfunkt.Blähschief.5cm,2/12mm,20l/m2,oWA",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.09A",
+      "text": "Dränschicht/Speicherfunkt.Ziegelsplitt 5cm,2/12mm,15l/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.11A",
+      "text": "Drän-u.Schutzschicht/Speichfunktion EPS-SF 5cm,10l/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.12A",
+      "text": "Drän-u.Schutzschicht/Speichfunkt.Hartkunststoff D=2-3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.12B",
+      "text": "Drän-u.Schutzschicht/Speichfunkt.Hartkunststoff 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.12C",
+      "text": "Drän-u.Schutzschicht/Speichfunkt.Hartkunststoff 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.16A",
+      "text": "Drän-,Schutz-,Filter-u.Speichermatte 10mm 800g/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.17A",
+      "text": "Extensiv-Substrat leicht 5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.17B",
+      "text": "Extensiv-Substrat leicht 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.17C",
+      "text": "Extensiv-Substrat leicht 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.17X",
+      "text": "Extensiv-Substrat leicht__________",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.18A",
+      "text": "Extensiv-Substrat schwer 5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.18B",
+      "text": "Extensiv-Substrat schwer 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.18C",
+      "text": "Extensiv-Substrat schwer 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.18X",
+      "text": "Extensiv-Substrat schwer__________",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.20A",
+      "text": "Spritzbegrünung m.Sedum >=100g/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.20B",
+      "text": "Spritzbegrünung m.Sedum >=50g/m2,Kräuter >=2g/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.20C",
+      "text": "Spritzbegrünung m.Sedum >=50g/m2; Kräuter/Gräser >=2g/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.20X",
+      "text": "Spritzbegrünung",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.21A",
+      "text": "Normalsaat m.Sedum >=100g/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.21B",
+      "text": "Normalsaat m.Sedum >=50g/m2,Kräuter >=5g/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.21C",
+      "text": "Normalsaat m.Sedum >=50g/m2,Kräuter/Gräser >=5g/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.21X",
+      "text": "Normalsaat",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.22A",
+      "text": "Sedum-Matte verrottbar 0,3kN/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.22B",
+      "text": "Sedum-Gras-/Kräuter-Matte verrottbar 0,3kN/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.23A",
+      "text": "Sedum-Matte unverrottbar 0,45 kN/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.23B",
+      "text": "Sedum-Gras-/Kräuter-Matte unverrottbar 0,45 kN/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.24A",
+      "text": "Fertiggründachmodul 0,50kN/m2-1kN/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.25A",
+      "text": "Bepflanzung m.Flachballen 3x3cm 20St/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.25B",
+      "text": "Bepflanzung m.Flachballen 3x3cm 30St/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.26A",
+      "text": "Bepflanzung m.Flachballen 5x5cm 15St/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.26B",
+      "text": "Bepflanzung m.Flachballen 5x5cm 30St/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.31A",
+      "text": "Anwuchspflege f.Extensivbegrünung Spritzbegrünung/Normalsaat",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.31B",
+      "text": "Anwuchspflege f.Extensivbegrünung Vegetationsmatten",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.31C",
+      "text": "Anwuchspflege f.Extensivbegrünung Pflanzungen",
+      "unit": "m²"
+    },
+    {
+      "code": "58.23.32A",
+      "text": "Entwicklungspflege f.Extensivbegr.Spritzbegrünung/Normalsaat                                                      VE",
+      "unit": ""
+    },
+    {
+      "code": "58.23.32B",
+      "text": "Entwicklungspflege f.Extensivbegr.Vegetationsmatten                                                               VE",
+      "unit": ""
+    },
+    {
+      "code": "58.23.32C",
+      "text": "Entwicklungspflege f.Extensivbegr.Pflanzungen                                                                     VE",
+      "unit": ""
+    },
+    {
+      "code": "58.24.00C",
+      "text": "Red.extensive Bauwerksbegrünung/Dachflächenbeschreibung",
+      "unit": ""
+    },
+    {
+      "code": "58.24.00D",
+      "text": "Red.extensive Bauwerksbegrünung/Transport auf Dach",
+      "unit": ""
+    },
+    {
+      "code": "58.24.00E",
+      "text": "Red.extensive Bauwerksbegrünung/Dachaufbau",
+      "unit": ""
+    },
+    {
+      "code": "58.24.06A",
+      "text": "Kontrollschacht 250/300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.24.06B",
+      "text": "Kontrollschacht 250/300mm Wasserleitprofil__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.24.07A",
+      "text": "Kiesrandstreifen blasbar 8/16mm 40/8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.07B",
+      "text": "Kiesrandstreifen blasbar 8/16mm 40cm__________",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.07C",
+      "text": "Kiesrandstreifen 16/32mm 40/8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.07X",
+      "text": "Kiesrandstreifen 16/32mm 40cm__________",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.10A",
+      "text": "Drän-,Schutz-u.Filterschicht diffusionsoffen 1-2cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.12A",
+      "text": "Drän-u.Schutzschicht/Speichfunkt.Hartkunststoff 2-3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.17A",
+      "text": "Red.Extensiv-Einschicht-Substrat leicht 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.17B",
+      "text": "Red.Extensiv-Einschicht-Substrat leicht 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.17C",
+      "text": "Red.Extensiv-Einschicht-Substrat leicht 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.17X",
+      "text": "Red.Extensiv-Substrat leicht__________",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.18A",
+      "text": "Red.Extensiv-Einschicht-Substrat schwer 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.18B",
+      "text": "Red.Extensiv-Einschicht-Substrat schwer 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.18C",
+      "text": "Red.Extensiv-Einschicht-Substrat schwer 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.18X",
+      "text": "Red.Extensiv-Einschicht-Substrat schwer__________",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.20A",
+      "text": "Spritzbegrünung m.Sedum 100g/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.20B",
+      "text": "Spritzbegrünung m.Sedum 50g/m2,Kräuter 2g/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.21A",
+      "text": "Normalsaat m.Sedum 100g/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.21B",
+      "text": "Normalsaat m.Sedum 50g/m2,Kräuter 5g/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.31A",
+      "text": "Anwuchspflege f.Red.Extensivbegr.Spritzbegr./Normalsaat",
+      "unit": "m²"
+    },
+    {
+      "code": "58.24.32A",
+      "text": "Entwicklungspflege f.Red.Extensivbegr.Spritzbegr./Normalsaat                                                         VE",
+      "unit": ""
+    },
+    {
+      "code": "58.25.00V",
+      "text": "Verfügbarkeit von Beilagen zum LV zu 58.25",
+      "unit": ""
+    },
+    {
+      "code": "58.25.01A",
+      "text": "Bewässerungsanlage gemäß Plan                                                                                           PA",
+      "unit": ""
+    },
+    {
+      "code": "58.25.11A",
+      "text": "Rasen abschälen+wiederverlegen 2Wo.b.20cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.11B",
+      "text": "Rasen abschälen+wiederverlegen 2Wo.ü.20-40cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.15A",
+      "text": "Gräben f.Zuleitungsrohre 15/20cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.15B",
+      "text": "Gräben f.Zuleitungsrohre 15/30cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.15C",
+      "text": "Gräben f.Zuleitungsrohre 15/40cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.15D",
+      "text": "Gräben f.Zuleitungsrohre 15/60cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.15E",
+      "text": "Gräben f.Zuleitungsrohre 15/80cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.15F",
+      "text": "Gräben f.Zuleitungsrohre 30/30cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.15G",
+      "text": "Gräben f.Zuleitungsrohre 30/40cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.15H",
+      "text": "Gräben f.Zuleitungsrohre 30/60cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.15I",
+      "text": "Gräben f.Zuleitungsrohre 30/80cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.15K",
+      "text": "Az Gräben f.händische Herstellung                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21A",
+      "text": "Zuleitungsrohre PN4 DN/OD16mm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21B",
+      "text": "Zuleitungsrohre PN4 DN/OD20mm (1/2\"NW)                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21C",
+      "text": "Zuleitungsrohre PN4 DN/OD25mm (3/4\"NW)                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21D",
+      "text": "Zuleitungsrohre PN4 DN/OD32mm (1\"NW)                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21E",
+      "text": "Zuleitungsrohre PN6 DN/OD16mm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21F",
+      "text": "Zuleitungsrohre PN6 DN/OD20mm (1/2\"NW)                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21G",
+      "text": "Zuleitungsrohre PN6 DN/OD25mm (3/4\"NW)                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21H",
+      "text": "Zuleitungsrohre PN6 DN/OD32mm (1\"NW)                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21I",
+      "text": "Zuleitungsrohre PN6 DN/OD40mm (5/4\"NW)                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21J",
+      "text": "Zuleitungsrohre PN6 DN/OD50mm (6/4\"NW)                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21K",
+      "text": "Zuleitungsrohre PN6 DN/OD63mm (2\"NW)                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21L",
+      "text": "Zuleitungsrohre PN6 DN/OD75mm (2 1/2\"NW)                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21M",
+      "text": "Zuleitungsrohre PN6 DN/OD90mm (3\"NW)                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21N",
+      "text": "Zuleitungsrohre PN10 DN/OD20mm (1/2\"NW)                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21O",
+      "text": "Zuleitungsrohre PN10 DN/OD25mm (3/4\"NW)                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21P",
+      "text": "Zuleitungsrohre PN10 DN/OD32mm (1\"NW)                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21Q",
+      "text": "Zuleitungsrohre PN10 DN/OD40mm (5/4\"NW)                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21R",
+      "text": "Zuleitungsrohre PN10 DN/OD50mm (6/4\"NW)                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21S",
+      "text": "Zuleitungsrohre PN10 DN/OD63mm (2\"NW)                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21T",
+      "text": "Zuleitungsrohre PN10 DN/OD75mm (2 1/2\"NW)                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.21U",
+      "text": "Zuleitungsrohre PN10 DN/OD90mm (3\"NW)                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.22A",
+      "text": "Getriebeversenkregner Kst.10/8cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.22B",
+      "text": "Getriebeversenkregner Kst.10/13cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.22C",
+      "text": "Getriebeversenkregner Kst.10/20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.22D",
+      "text": "Getriebeversenkregner Kst.30/8cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.22E",
+      "text": "Getriebeversenkregner Kst.30/13cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.22F",
+      "text": "Getriebeversenkregner Kst.30/20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.22G",
+      "text": "Getriebeversenkregner Edelstahl 10/13cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.22H",
+      "text": "Getriebeversenkregner Edelstahl 10/20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.23A",
+      "text": "Az Getriebeversenkregner f. Auslaufsperrventil",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.24A",
+      "text": "Versenksprühdüse Kst.10cm variabel",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.24B",
+      "text": "Versenksprühdüse Kst.10cm fix",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.24C",
+      "text": "Versenksprühdüse Kst.30cm variabel",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.24D",
+      "text": "Versenksprühdüse Kst.30cm fix",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.25A",
+      "text": "Rotationsregner 10cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.25B",
+      "text": "Rotationsregner 30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.26A",
+      "text": "Tropfschlauch fix DN16mm 33cm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.26B",
+      "text": "Tropfschlauch fix DN16mm 50cm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.27A",
+      "text": "Tropfschlauch+Dränrohr fix DN/OD16mm 33cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.27B",
+      "text": "Tropfschlauch+Dränrohr fix DN/OD16mm 50cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.28A",
+      "text": "Tropfschlauch+Dränrohr Baum fix DN/OD16mm 33cm                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.28B",
+      "text": "Tropfschlauch+Dränrohr Baum fix DN/OD16mm 50cm                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.31A",
+      "text": "Automatische Entleerung",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41A",
+      "text": "Wasserverteiler Kst.1\" 2 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41B",
+      "text": "Wasserverteiler Kst.1\" 3 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41C",
+      "text": "Wasserverteiler Kst.1\" 4 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41D",
+      "text": "Wasserverteiler Kst.1\" 5 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41E",
+      "text": "Wasserverteiler Kst.1\" 6 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41F",
+      "text": "Wasserverteiler Metall 1\" 2 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41G",
+      "text": "Wasserverteiler Metall 1\" 3 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41H",
+      "text": "Wasserverteiler Metall 1\" 4 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41I",
+      "text": "Wasserverteiler Metall 1\" 5 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41J",
+      "text": "Wasserverteiler Metall 1\" 6 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41K",
+      "text": "Wasserverteiler Metall 6/4\" 2 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41L",
+      "text": "Wasserverteiler Metall 6/4\" 3 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41M",
+      "text": "Wasserverteiler Metall 6/4\" 4 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41N",
+      "text": "Wasserverteiler Metall 6/4\" 5 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41O",
+      "text": "Wasserverteiler Metall 6/4\" 6 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41P",
+      "text": "Wasserverteiler Metall 2\" 2 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41Q",
+      "text": "Wasserverteiler Metall 2\" 3 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41R",
+      "text": "Wasserverteiler Metall 2\" 4 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41S",
+      "text": "Wasserverteiler Metall 2\" 5 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.41T",
+      "text": "Wasserverteiler Metall 2\" 6 Abgänge",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.51A",
+      "text": "Magnetventil mit Handrad Bat.1\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.51B",
+      "text": "Magnetventil mit Handrad Bat.6/4\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.51C",
+      "text": "Magnetventil mit Handrad Bat.2\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.51D",
+      "text": "Magnetventil mit Handrad 24VAC 1\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.51E",
+      "text": "Magnetventil mit Handrad 24VAC 6/4\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.51F",
+      "text": "Magnetventil mit Handrad 24VAC 2\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.52A",
+      "text": "Druckreduziervent.f.Magnetvent",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.55A",
+      "text": "Absperrhahn m.Entleerung 1\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.55B",
+      "text": "Absperrhahn m.Entleerung 6/4\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.55C",
+      "text": "Absperrhahn m.Entleerung 2\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.61A",
+      "text": "Schacht eckig Kst.38x25cm H32cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.61B",
+      "text": "Schacht eckig Kst.49x34cm H32cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.61C",
+      "text": "Schacht eckig Kst.64x50cm H32cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.62A",
+      "text": "Schacht rund Kst.22cm H25cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.62B",
+      "text": "Schacht rund Metall 30cm H50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.63A",
+      "text": "Steuerschacht m.1 Abgang 1\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.63B",
+      "text": "Steuerschacht m.2 Abgängen 1\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.63C",
+      "text": "Steuerschacht m.3 Abgängen 1\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.63D",
+      "text": "Steuerschacht m.4 Abgängen 1\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.63E",
+      "text": "Steuerschacht m.5 Abgängen 1\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.63F",
+      "text": "Steuerschacht m.6 Abgängen 1\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.63G",
+      "text": "Steuerschacht m.1 Abgang 6/4\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.63H",
+      "text": "Steuerschacht m.2 Abgängen 6/4\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.63I",
+      "text": "Steuerschacht m.1 Abgang 2\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.63J",
+      "text": "Steuerschacht m.2 Abgängen 2\"",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.64A",
+      "text": "Batteriesteuerung 1 Sektion",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.64B",
+      "text": "Batteriesteuerung b.4 Sektionen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.64C",
+      "text": "Funk-Batteriesteuerung b.2 Sektionen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.64D",
+      "text": "Funk-Batteriesteuerung ü.2-4 Sektionen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.64E",
+      "text": "Funk-Handsteuergerät f.Funk-Batteriesteuerung",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.71A",
+      "text": "Elektron.Steuerung 24VAC b.4 Stationen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.71B",
+      "text": "Elektron.Steuerung 24VAC ü.4-6 Stationen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.71C",
+      "text": "Elektron.Steuerung 24VAC ü.6-8 Stationen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.71D",
+      "text": "Elektron.Steuerung 24VAC ü.8-12 Stationen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.71E",
+      "text": "Elektron.Steuerung 24VAC ü.12-16 Stationen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.71F",
+      "text": "Elektron.Steuerung 24VAC ü.16-20 Stationen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.71G",
+      "text": "Elektron.Steuerung 24VAC ü.20-32 Stationen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.71H",
+      "text": "Elektron.Steuerung 24VAC ü.32-48 Stationen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.72A",
+      "text": "Regensensor automatisch Abschaltung",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.72B",
+      "text": "Regensensor automatisch Abschaltung funkgesteuert",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.25.81A",
+      "text": "Erdkabel Steuerleitung 0,6mm2 2polig                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.81B",
+      "text": "Erdkabel Steuerleitung 0,6mm2 4polig                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.81C",
+      "text": "Erdkabel Steuerleitung 0,6mm2 6polig                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.81D",
+      "text": "Erdkabel Steuerleitung 0,6mm2 10polig                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.81E",
+      "text": "Erdkabel Steuerleitung 0,6mm2 12polig                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.81F",
+      "text": "Erdkabel Steuerleitung 0,6mm2 14polig                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.82A",
+      "text": "Erdkabel Steuerleitung 1,5mm2 2polig                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.82B",
+      "text": "Erdkabel Steuerleitung 1,5mm2 4polig                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.82C",
+      "text": "Erdkabel Steuerleitung 1,5mm2 6polig                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.82D",
+      "text": "Erdkabel Steuerleitung 1,5mm2 10polig                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.82E",
+      "text": "Erdkabel Steuerleitung 1,5mm2 12polig                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.82F",
+      "text": "Erdkabel Steuerleitung 1,5mm2 14polig                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.85A",
+      "text": "Bewässerungsrohr                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.90A",
+      "text": "Leerverrohrung f.Bewässerung                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "58.25.91A",
+      "text": "Bewässerungsprogramm+Ersteinschulung                                                                        PA",
+      "unit": ""
+    },
+    {
+      "code": "58.25.92A",
+      "text": "Bestandsplan Bewässerungsanlage                                                                             PA",
+      "unit": ""
+    },
+    {
+      "code": "58.25.93A",
+      "text": "Digitaler Bewässerungsplan                                                                                  PA",
+      "unit": ""
+    },
+    {
+      "code": "58.26.01A",
+      "text": "Kronenerziehungsschnitt ü.20-40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.01B",
+      "text": "Kronenerziehungsschnitt ü.40-70cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.01X",
+      "text": "Kronenerziehungsschnitt ü.70cm-__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.02A",
+      "text": "Lichtraumprofilschnitt Geh-u.Radwege",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.02B",
+      "text": "Lichtraumprofilschnitt Fahrbahnen",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.03A",
+      "text": "Dürrast-/Totholzentfernung b.30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.03B",
+      "text": "Dürrast-/Totholzentfernung ü.30-50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.03C",
+      "text": "Dürrast-/Totholzentfernung ü.50-100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.03D",
+      "text": "Dürrast-/Totholzentfernung ü.100-150cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.03E",
+      "text": "Dürrast-/Totholzentfernung ü.150-200cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.03F",
+      "text": "Dürrast-/Totholzentfernung ü.200-250cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.03G",
+      "text": "Dürrast-/Totholzentfernung ü.250-300cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.03H",
+      "text": "Dürrast-/Totholzentfernung ü.300-350cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.03I",
+      "text": "Dürrast-/Totholzentfernung ü.350-400cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.03X",
+      "text": "Dürrast-/Totholzentfernung ü.400cm-__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.05W",
+      "text": "Kronenauslichtung leicht__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.05X",
+      "text": "Kronenauslichtung mittel__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.05Y",
+      "text": "Kronenauslichtung stark__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.06W",
+      "text": "Kroneneinkürzung b.10%__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.06X",
+      "text": "Kroneneinkürzung ü.10-15%__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.26.06Y",
+      "text": "Kroneneinkürzung ü.15-20%__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "58.79.00V",
+      "text": "Verfügbarkeit von Beilagen zum LV zu 58.79",
+      "unit": ""
+    },
+    {
+      "code": "58.90.00A",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "58.90.01A",
+      "text": "Regiestunden Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "58.90.01B",
+      "text": "Regiestunden Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

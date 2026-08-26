@@ -1,0 +1,732 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                       Leistungsgruppe (LG) 27 - Terrazzoarbeiten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 2700    Wählbare Vorbemerkungen
+                     ULG 2711    Terrazzoarbeiten
+                     ULG 2712    Einbauteile und Sonstiges
+                     ULG 2781    Schutzvorkehrungen bei Abbrucharbeiten
+                     ULG 2782    Instandsetzungsarbeiten
+                     ULG 2790    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 12
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+27          Terrazzoarbeiten
+            Version 023 (2025-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Instandsetzungsarbeiten:
+            Erfolgen Instandsetzungsarbeiten bei Aufrechterhaltung des Betriebes (z.B. im bewohnten Zustand), werden
+            erforderliche Sicherungsmaßnahmen gesondert verrechnet.
+            2. Abkürzungen:
+            Grauer Zement, z.B. CEM I, CEM II oder CEM III, wird im Folgenden in den Positionsstichwörtern mit gZ
+            abgekürzt, weißer Zement mit wZ.
+            3. Pflegeanleitung:
+            Vom Auftragnehmer werden rechtzeitig Anleitungen zur Reinigung und Pflege der ausgeführten Böden
+            übergeben.
+             Kommentar:
+             Eine Prüfung und Nachweis der Rutschsicherheit kann nach ÖNORM Z 1261, alternativ nach DIN 51130 und DIN 51097
+             durchgeführt werden.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+27.00       Wählbare Vorbemerkungen
+             Kommentar:
+             Das Verlegen von Terrazzo hat auf rauem Unterbeton zu erfolgen. Weil die Werkstoffe bei Terrazzoarbeiten besonders
+             schwer sind, sind Angaben über Transportmöglichkeiten in der zusätzlichen Vorbemerkungen erforderlich.
+
+27.00 01    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+27.00 01A   Transport Baustellenber.waagr.
+            Transportmöglichkeiten zu den einzelnen Arbeitsplätzen zum Zeitpunkt der Leistungserbringung: ____________
+            Transport waagrecht: ____________
+
+27.00 01B   Transport Baustellenber.lotr.
+            Transportmöglichkeiten zu den einzelnen Arbeitsplätzen zum Zeitpunkt der Leistungserbringung: ____________
+            Transport lotrecht: ____________
+             Kommentar:
+             Anzuführen ist, ob ein Hebezeug vom Auftragnehmer während der Leistungsfrist ohne gesonderten Schutz für Bauteile
+             aufgestellt und betrieben werden kann.
+
+27.00 02    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+27.00 02A   Terrazzoböden innen
+            Das Herstellen der Terrazzoböden erfolgt in geschlossenen Räumen: ____________
+            Geschoß: ____________
+            Betrifft: ____________
+
+27.00 02B   Terrazzoböden außen
+            Das Herstellen der Terrazzoböden erfolgt außerhalb des Gebäudes: ____________
+            Betrifft: ____________
+
+27.00 02C   Verlegung n.Verlegeplan v.AG
+            Das Verlegen erfolgt nach den vom Auftraggeber beigestellten Verlegeplänen.
+            Betrifft die Position: ____________
+
+27.00 02D   Belagsmuster
+            Die aufgelegten Belagsmuster sind zu besichtigen: ____________
+            Betrifft die Position: ____________
+
+27.00 02E   Verfügbarkeit von Beilagen zum LV
+
+                                                                                                                            Seite 2 / 12
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit: ____________
+
+27.11       Terrazzoarbeiten
+            Das Anarbeiten an Rahmen und Einbauteile ist in die Einheitspreise einkalkuliert.
+
+            LB-Version: 23               Geringfügig Geändert
+27.11 03    Granito-Terrazzoboden (Streuterrazzo) 20 mm dick, Korngruppe 7 bis 10 mm, auf rauem Betonuntergrund,
+            waagrecht oder im Gefälle bis 5 Prozent dem Untergrund folgend, Oberfläche fein geschliffen (Schleifkorn 120).
+
+27.11 03A   Granito-Terrazzo gZ 1-f.                                                                                       m²
+            Mit grauem Zement, Steinkörnung 1-färbig, weiß.
+
+27.11 03B   Granito-Terrazzo gZ 2-f.                                                                                       m²
+            Mit grauem Zement, Steinkörnung 2-färbig, weiß und schwarz.
+
+27.11 03C   Granito-Terrazzo gZ 3-f.                                                                                       m²
+            Mit grauem Zement, Steinkörnung 3-färbig, weiß, schwarz und rot.
+
+27.11 03D   Granito-Terrazzo gZ                                                                                            m²
+            Mit grauem Zement, Steinkörnung ____________
+
+27.11 05    Griechischer Anticoterrazzo als Streuterrazzo, Solldicke 25 mm, Korngruppe 10 bis 20 mm, mit grauem Zement,
+            Grundmasse mit braunem bis rotem Gestein (z.B. Rosso Verona), auf rauem Betonuntergrund, waagrecht oder
+            im Gefälle bis 5 Prozent dem Untergrund folgend, Oberfläche fein geschliffen (Schleifkorn 120).
+
+27.11 05A   Griech.Antico-Streuterr.weiß                                                                                   m²
+            Streukörnung weiß.
+
+27.11 05B   Griech.Antico-Streuterr.bunt                                                                                   m²
+            Streukörnung bunt (mehrfarbig).
+
+27.11 05C   Griech.Antico-Streuterr.Muster                                                                                 m²
+            Ausführung gemäß Muster: ____________
+
+27.11 07    Römischer Anticoterrazzo als Streuterrazzo, Solldicke 25 mm , Korngruppe 10 bis 20 mm, mit eingefärbtem
+            Zement, Grundmasse aus Dolomit, auf rauem Betonuntergrund, waagrecht oder im Gefälle bis 5 Prozent dem
+            Untergrund folgend, Oberfläche fein geschliffen (Schleifkorn 120).
+
+27.11 07A   Röm.Antic-Streuterr.Farb.I                                                                                     m²
+            Eingefärbt mit Farben der Gruppe I: schwarz, rot, gelb oder braun.
+
+27.11 07B   Röm.Antic-Streuterr.Farb.grün                                                                                  m²
+            Eingefärbt mit Farbe grün.
+
+27.11 07C   Röm.Antic-Streuterr.Farb.blau                                                                                  m²
+            Eingefärbt mit Farbe blau.
+
+27.11 07D   Röm.Antic-Streuterr.Muster                                                                                     m²
+            Ausführung gemäß Muster: ____________
+
+27.11 09    Einschichtterrazzoboden 40 mm dick, auf rauem Betonuntergrund, Korngruppe 3 bis 8 mm, waagrecht oder im
+            Gefälle bis 5 Prozent dem Untergrund folgend, einschließlich Acryl-Haftbrücke, Oberfläche fein geschliffen
+            (Schleifkorn 120).
+
+27.11 09A   Einschichtterrazzo gZ 1-f.                                                                                     m²
+            Mit grauem Zement, Marmorkörnung 1-färbig, weiß.
+
+27.11 09B   Einschichtterrazzo gZ 2-f.                                                                                     m²
+            Mit grauem Zement, Marmorkörnung 2-färbig, weiß und schwarz.
+
+27.11 09C   Einschichtterrazzo gZ 3-f.                                                                                     m²
+
+                                                                                                                      Seite 3 / 12
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Mit grauem Zement, Marmorkörnung 3-färbig, weiß, schwarz und rot.
+
+27.11 09D   Einschichtterrazzo gZ                                                                                       m²
+            Mit grauem Zement, Marmorkörnung: ____________
+
+27.11 09E   Einschichtterrazzo wZ 1-f.                                                                                  m²
+            Mit weißem Zement, Marmorkörnung 1-färbig, weiß.
+
+27.11 09F   Einschichtterrazzo wZ 2-f.                                                                                  m²
+            Mit weißem Zement, Marmorkörnung 2-färbig, weiß und schwarz oder grau.
+
+27.11 09G   Einschichtterrazzo wZ 3-f.                                                                                  m²
+            Mit weißem Zement, Marmorkörnung 3-färbig, weiß, grau und gelb.
+
+27.11 09H   Einschichtterrazzo gemäß Muster                                                                             m²
+            Ausführung gemäß Muster: ____________
+
+            LB-Version: 23               Geringfügig Geändert
+27.11 11    Aufzahlung (Az) auf die Positionen Terrazzoboden, ohne Unterschied der Art, für einen Farbzusatz, wenn kein
+            Muster aufgelegt wird.
+
+27.11 11A   Az Terrazzo Farbzusatz I                                                                                    m²
+            Farbzusatz I: schwarz, rot gelb und braun.
+
+27.11 11B   Az Terrazzo Farbzusatz grün                                                                                 m²
+            Farbzusatz grün.
+
+27.11 11C   Az Terrazzo Farbzusatz blau                                                                                 m²
+            Farbzusatz blau.
+
+27.11 12    Aufzahlung (Az) auf die Positionen Terrazzoboden, ohne Unterschied der Art, für eine Mehrdicke von je 1 cm.
+            Verrechnet wird die Fläche, auf der die Solldicke um mehr als 25 Prozent überschritten wird.
+
+27.11 12A   Az Terrazzo Dicke+1cm gZ                                                                                    m²
+            Mit grauem Zement.
+
+27.11 12B   Az Terrazzo Dicke+1cm wZ                                                                                    m²
+            Mit weißem Zement.
+
+27.11 12C   Az Terrazzo Dicke+1cm Farbz. I                                                                              m²
+            Mit Farbzusatz I: schwarz, rot, gelb und braun.
+
+            LB-Version: 23               Geringfügig Geändert
+
+27.11 12D   Az Terrazzo Dicke+1cm Farbz. grün                                                                           m²
+            Mit Farbzusatz grün.
+
+            LB-Version: 23               Geringfügig Geändert
+
+27.11 12E   Az Terrazzo Dicke+1cm Farbz. blau                                                                           m²
+            Mit Farbzusatz blau.
+
+            LB-Version: 23               Geringfügig Geändert
+27.11 15    Staffel aus Terrazzo, ohne Unterschied ob mit grauem Zement oder Weißzement, in der Farbe dem
+            Terrazzoboden angepasst, einschließlich Kernbeton, Breite bis 20 cm.
+
+27.11 15A   Terrazzostaffel 2cm                                                                                         m
+            Höhe bis 2 cm.
+
+27.11 15B   Terrazzostaffel 2-5cm                                                                                       m
+            Höhe über 2 bis 5 cm.
+
+
+
+                                                                                                                   Seite 4 / 12
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+27.11 17    Aufzahlung (Az) auf die Positionen Terrazzoboden für das Herstellen von Sockelhohlkehlen, dem
+            Terrazzoboden in der Farbe angepasst, einschließlich Vorspritzer und Verputz.
+
+27.11 17A   Az Terrazzo Hohlkehle b.7cm                                                                                m
+            Bis 7 cm hoch.
+
+27.11 17B   Az Terrazzo Hohlkehle ü.7-10cm                                                                             m
+            Über 7 bis 10 cm hoch.
+
+27.11 18    Terrazzo zusätzlich schleifen.
+
+27.11 18A   Terrazzo zus.schleifen m.200                                                                               m²
+            Mit Schleifkorn 200.
+
+27.11 20    Nach erfolgter Baureinigung überschleifen des Terrazzos.
+
+27.11 20A   N.Baurein.Terraz.überschl.120                                                                              m²
+            Mit Schleifkorn 120.
+
+27.11 21    Nach erfolgter Baureinigung Terrazzo reinigen und zweimal fluatieren.
+
+27.11 21A   Terrazzo 2x fluatieren                                                                                     m²
+27.12       Einbauteile und Sonstiges
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+27.12 01    Herstellen von Schwindfugen mit Trennschienen.
+
+27.12 01A   Trennschiene Alu 3/20                                                                                      m
+            Aus Aluminium, 3/20 mm.
+
+27.12 01B   Trennschiene Alu 3/30                                                                                      m
+            Aus Aluminium, 3/30 mm.
+
+27.12 01C   Trennschiene Alu 4/30                                                                                      m
+            Aus Aluminium, 4/30 mm.
+
+27.12 01E   Trennschiene Messing 3/20                                                                                  m
+            Aus Messing, 3/20 mm.
+
+27.12 01F   Trennschiene Messing 3/30                                                                                  m
+            Aus Messing, 3/30 mm.
+
+27.12 01G   Trennschiene Messing 4/30                                                                                  m
+            Aus Messing, 4/30 mm.
+
+27.12 01I   Trennschiene Kunststoff 3/20                                                                               m
+            Aus Kunststoff, 3/20 mm.
+
+27.12 01J   Trennschiene Kunststoff 3/30                                                                               m
+            Aus Kunststoff, 3/30 mm.
+
+27.12 01K   Trennschiene Kunststoff 4/30                                                                               m
+            Aus Kunststoff, 4/30 mm.
+
+27.12 01M   Trennschiene Edelstahl 3/20                                                                                m
+            Aus Edelstahl, 3/20 mm.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+
+
+                                                                                                                  Seite 5 / 12
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+27.12 01N   Trennschiene Edelstahl 3/30                                                                               m
+            Aus Edelstahl, 3/30 mm.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+27.12 01O   Trennschiene Edelstahl 4/30                                                                               m
+            Aus Edelstahl, 4/30 mm.
+             Kommentar:
+             Bei Einschicht-Terrazzo sollte die Profilhöhe 30 mm gewählt werden.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+27.12 02    Abschlusswinkel liefern und versetzen.
+
+27.12 02A   Abschlusswinkel 20/20/2 Alu                                                                               m
+            Profil 20/20/2 mm, aus Aluminium.
+
+27.12 02B   Abschlusswinkel 30/30/3 Alu                                                                               m
+            Profil 30/30/3 mm, aus Aluminium.
+
+27.12 02C   Abschlusswinkel 35/35/3 Alu                                                                               m
+            Profil 35/35/3 mm, aus Aluminium.
+
+27.12 02E   Abschlusswinkel 20/20/2 Messing                                                                           m
+            Profil 20/20/2 mm, aus Messing.
+
+27.12 02F   Abschlusswinkel 30/30/3 Messing                                                                           m
+            Profil 30/30/3 mm, aus Messing.
+
+27.12 02G   Abschlusswinkel 35/35/3 Messing                                                                           m
+            Profil 35/35/3 mm, aus Messing.
+
+27.12 02I   Abschlusswinkel 20/20/2 Edelstahl                                                                         m
+            Profil 20/20/2 mm, aus Edelstahl.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+27.12 02J   Abschlusswinkel 30/30/3 Edelstahl                                                                         m
+            Profil 30/30/3 mm, aus Edelstahl.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+27.12 02K   Abschlusswinkel 35/35/4 Edelstahl                                                                         m
+            Profil 35/35/4 mm, aus Edelstahl.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+27.12 04    Winkelrahmen, vom Auftraggeber beigestellt, versetzen in Terrazzoböden, ohne Unterschied der Einzelgröße
+            und des Profils. Gemessen wird die abgewickelte Länge des Rahmens.
+
+27.12 04A   Winkelrahmen nur versetzen                                                                                m
+27.12 07    Füllen und/oder Ausgleichen des Bodens innerhalb von Winkelrahmen mit Estrich oder Spachtelmasse.
+
+27.12 07A   Ausgleich.Boden innerh.Rahmen                                                                             m²
+27.12 09    Schachtabdeckung für wählbare Oberfläche, vom Auftraggeber beigestellt, versetzen ohne Unterschied der
+            Einzelgröße. In den Einheitspreis ist die Erschwernis für das Füllen mit Terrazzo einkalkuliert.
+
+27.12 09A   Deckel wählbar Oberfl.n.vers.                                                                             Stk
+                                                                                                                 Seite 6 / 12
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+27.12 11    Schachtabdeckung mit Rahmen für wählbare Oberfläche (Fülldeckel), geruchsdicht, liefern und versetzen. In
+            den Einheitspreis ist die Erschwernis für das Füllen mit Terrazzo einkalkuliert.
+
+27.12 11A   Alufülldeckel 40x60                                                                                          Stk
+            Aus Aluminium, Innenlichte 40 x 60 cm, Belastungsklasse A.
+
+27.12 11B   Alufülldeckel 60x60                                                                                          Stk
+            Aus Aluminium, Innenlichte 60 x 60 cm, Belastungsklasse A.
+
+27.12 11C   Alufülldeckel 60x100                                                                                         Stk
+            Aus Aluminium, Innenlichte 60 x 100 cm, Belastungsklasse A.
+
+27.12 11E   Edelstahl-Fülldeckel 40x60                                                                                   Stk
+            Aus Edelstahl, Innenlichte 40 x 60 cm, Belastungsklasse A.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+27.12 11F   Edelstahl-Fülldeckel 60x60                                                                                   Stk
+            Aus Edelstahl, Innenlichte 60 x 60 cm, Belastungsklasse A.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+27.12 11G   Edelstahl-Fülldeckel 60x100                                                                                  Stk
+            Aus Edelstahl, Innenlichte 60 x 100 cm, Belastungsklasse A.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+27.12 14    Aufzahlung (Az) auf die Positionen Terrazzo für die Erschwernis bei der Terrazzoherstellung innerhalb von
+            Fülldeckeln.
+
+27.12 14A   Az Terrazzo Fülldeckel b.0,5m2                                                                               Stk
+            Fülldeckelfläche bis 0, 5 m2.
+
+27.12 14B   Az Terrazzo Fülldeckel ü.0,5-0,8m2                                                                           Stk
+            Fülldeckelfläche über 0,5 bis 0,8 m2.
+
+27.12 16    Ausbilden einer Bewegungsfuge durch Ausfüllen der Fuge zwischen zwei gegeneinander verlegten Profilen
+            (Profile in eigener Position).
+
+27.12 16A   Bewegungsf.m.PU+Runds.5mm                                                                                    m
+            Mit Polyurethankitt, Fuge 5 mm breit, einschließlich Einlegen einer Rundschnur aus Polyethylen.
+
+27.12 16B   Bewegungsf.m.PU+Runds.10mm                                                                                   m
+            Mit Polyurethankitt, Fuge 10 mm breit, einschließlich Einlegen einer Rundschnur aus Polyethylen.
+
+27.81       Schutzvorkehrungen bei Abbrucharbeiten
+            Die Kosten für etwaige Instandsetzungen der Schutzvorkehrungen während der Arbeiten sind in die
+            Einheitspreise einkalkuliert. Nicht wiederverwendbare Materialien der Schutzvorkehrungen entsorgt der
+            Auftragnehmer.
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+
+27.81 01    Herstellen und wieder Abtragen einer staubdichten, provisorischen Trennwand im Gebäude.
+
+27.81 01A   Staubvorhang auf Holzrost                                                                                    m²
+            Bestehend aus einer Holzunterkonstruktion, überspannt mit einer bewehrten PE-Folie, die Stöße mit 10 cm
+            Überdeckung auf einer Holzunterlage mit Heftklammern befestigt.
+
+27.81 01B   Staubdichte Wand-Weichfaserpl.                                                                               m²
+            Bestehend aus einer Holzunterkonstruktion mit aufgenagelten Weichfaserplatten, 12 mm dick, die Stöße auf
+            einer Holzunterlage genagelt und überklebt.
+                                                                                                                    Seite 7 / 12
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+27.81 02    Aufzahlung (Az) auf die Positionen provisorische Trennwand im Gebäude, für eine Tür bis 3 m2 Stocklichte.
+
+27.81 02A   Az prov.Wand f.Tür                                                                                          Stk
+            Nicht sperrbar.
+
+27.81 02B   Az prov.Wand f.Tür+Schloss                                                                                  Stk
+            Absperrbar mit Zylinderschloss einschließlich Beistellen von drei Schlüsseln.
+
+27.81 03    Fußbodenschutz herstellen und abbauen.
+
+27.81 03A   Fußbodenschutz PE-Folie/Pappe                                                                               m²
+            Mit einer Lage PE-Folie, Packzellulose oder Wellpappe mit 10 cm Überdeckung, Fugen verklebt.
+
+27.81 03B   Fußbodenschutz Weichfaserplatten                                                                            m²
+            Mit einer Lage Weichfaserplatten mindestens 6 mm dick.
+
+27.82       Instandsetzungsarbeiten
+            Das Abtransportieren sowie Entsorgen oder Verwerten des anfallenden Schuttes ist in die Einheitspreise
+            einkalkuliert.
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+
+27.82 01    Herstellen von Trennschnitten im Terrazzoboden mit Trennscheibe.
+
+27.82 01A   Trennschnitt im Terrazzo 2cm                                                                                m
+            Bis 2 cm tief.
+
+27.82 01B   Trennschnitt im Terrazzo 5cm                                                                                m
+            Einschließlich Unterbeton über 2 bis 5 cm tief.
+
+27.82 01C   Trennschnitt im Terrazzo                                                                                    m
+            Schnitttiefe: ____________
+
+27.82 02    Nassschneiden von Terrazzoboden einschließlich Absaugen der Schleifschlämme sowie Schützen der
+            angrenzenden Teile vor Nässe und Verschmutzung.
+
+27.82 02A   Nassschneiden im Terrazzo 2cm                                                                               m
+            Bis 2cm tief.
+
+27.82 02B   Nassschneiden im Terrazzo 5cm                                                                               m
+            Einschließlich Unterbeton über 2 bis 5 cm tief.
+
+27.82 02C   Nassschneiden im Terrazzo                                                                                   m
+            Schnitttiefe: ____________
+
+27.82 03    Terrazzoboden instandsetzen nach Durchbrüchen, Rohrverlegungen, Einbauten und dergleichen. Ausstemmen
+            von geometrischen Flächen, Unterbeton ergänzen, Terrazzo in Körnung und Farbe dem Altbestand angepasst
+            ergänzen. Etwaiges Schneiden der Ränder wird gesondert verrechnet.
+
+27.82 03A   Inst.Terrazzo b.0,1m2                                                                                       Stk
+            Ohne Farbwechsel, Einzelfläche bis 0,1 m2.
+
+27.82 03B   Inst.Terrazzo ü.0,1-0,5m2                                                                                   Stk
+            Ohne Farbwechsel, Einzelfläche über 0,1 bis 0,5 m2.
+
+27.82 03C   Inst.Terrazzo ü.0,5-1m2                                                                                     Stk
+            Ohne Farbwechsel, Einzelfläche über 0,5 bis 1 m2.
+
+27.82 03E   Inst.Terrazzo+1Farbwe.b.0,1m2                                                                               Stk
+            Mit einem Farbwechsel, Einzelfläche bis 0,1 m2.
+
+27.82 03F   Inst.Terrazzo+1Farbwe.ü.0,1-0,5m2                                                                           Stk
+                                                                                                                   Seite 8 / 12
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Mit einem Farbwechsel, Einzelfläche über 0,1 bis 0,5 m2.
+
+27.82 03G   Inst.Terrazzo+1Farbwe.ü.0,5-1m2                                                                               Stk
+            Mit einem Farbwechsel, Einzelfläche über 0,5 bis 1 m2.
+
+27.82 03I   Inst.Terrazzo+Farbwechsel                                                                                     Stk
+            Farbwechsel: ____________
+            Einzelfläche: ____________
+27.82 05    Terrazzo-Teilflächen ergänzen, dem Altbestand angepasst. Abgerechnet wird die Summe der Einzelflächen.
+
+27.82 05A   Terrazzo ergänz.1-2m2 o.Fw.                                                                                   m²
+            Einzelflächen über 1 bis 2 m2, auf vorbereitetem Untergrund, ohne Farbwechsel (o.Fw.).
+            Terrazzoart: ____________
+
+27.82 05B   Terrazzo ergänz.2-4m2 o.Fw.                                                                                   m²
+            Einzelflächen über 2 bis 4 m2, auf vorbereitetem Untergrund, ohne Farbwechsel (o.Fw.).
+            Terrazzoart: ____________
+
+27.82 05C   Terraz.ergänz.1-2m2+U-Bet.o.Fw                                                                                m²
+            Einzelflächen über 1 bis 2 m2, einschließlich Unterbeton bis 6 cm dick und einer Lage PE-Folie, ohne
+            Farbwechsel (o.Fw).
+            Terrazzoart: ____________
+
+27.82 05D   Terraz.ergänz.2-4m2+U-Bet.o.Fw                                                                                m²
+            Einzelflächen über 2 bis 4 m2, einschließlich Unterbeton bis 6 cm dick und einer Lage PE-Folie, ohne
+            Farbwechsel (o.Fw).
+            Terrazzoart: ____________
+
+27.82 05F   Terrazzo ergänz.1-2m2 m.Fw.                                                                                   m²
+            Einzelflächen über 1 bis 2 m2, auf vorbereitetem Untergrund, mit einem Farbwechsel (m.Fw.).
+            Terrazzoart: ____________
+
+27.82 05G   Terrazzo ergänz.2-4m2 m.Fw.                                                                                   m²
+            Einzelflächen über 2 bis 4 m2, auf vorbereitetem Untergrund, mit einem Farbwechsel (m.Fw.).
+            Terrazzoart: ____________
+
+27.82 05H   Terraz.ergänz.1-2m2+U-Bet.m.Fw                                                                                m²
+            Einzelflächen über 1 bis 2 m2, einschließlich Unterbeton bis 6 cm dick und einer Lage PE-Folie, mit einem
+            Farbwechsel (m.Fw).
+            Terrazzoart: ____________
+
+27.82 05I   Terraz.ergänz.2-4m2+U-Bet.m.Fw                                                                                m²
+            Einzelflächen über 2 bis 4 m2, einschließlich Unterbeton bis 6 cm dick und einer Lage PE-Folie, mit
+            Farbwechsel (m.Fw).
+            Terrazzoart: ____________
+
+27.82 06    Aufzahlung (Az) auf die Positionen Terrazzo instandsetzen oder ergänzen, für jeden weiteren Farbwechsel
+            (Farbw.).
+
+27.82 06A   Az Inst.Terrazzo Farbw.b.0,1m2                                                                                Stk
+            Bei Einzelfläche bis 0,1 m2.
+
+27.82 06B   Az Inst.Terrazzo Farbw.ü.0,1-0,5m2                                                                            Stk
+            Bei Einzelfläche über 0,1 bis 0,5 m2.
+
+27.82 06C   Az Inst.Terrazzo Farbw.ü.0,5-1m2                                                                              Stk
+            Bei Einzelfläche über 0,5 bis 1 m2.
+
+27.82 06E   Az Ergänz.Terrazzo Farbw.ü.1-2m2                                                                              m²
+            Bei Einzelfläche über 1 bis 2 m2. Abgerechnet wird die Summe der Einzelflächen.
+
+27.82 06F   Az Ergänz.Terrazzo Farbw.ü.2-4m2                                                                              m²
+                                                                                                                     Seite 9 / 12
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Bei Einzelfläche über 2 bis 4 m2. Abgerechnet wird die Summe der Einzelflächen.
+
+27.82 08    Instandsetzen von Mosaik im Terrazzoboden, gemäß vom Auftraggeber beigestellten Darstellungen
+            (Bilddokumente).
+
+27.82 08A   Inst.Mosaik-Terrazzoboden                                                                                    Stk
+            Abbildung: ____________
+
+27.82 10    Aufzahlung (Az) auf die Positionen Terrazzo ergänzen ohne Unterschied der Größe. Abgerechnet wird die
+            Summe der Einzellängen.
+
+27.82 10A   Az Terr.erg.Bordüre                                                                                          m
+            Für Bordüren ohne Unterschied der Breite und Farbe, dem Altbestand angepasst.
+
+27.82 10B   Az Terrazzo ergänz.Fries                                                                                     m
+            Für eingefärbte Randfriese ohne Unterschied der Breite und Farbe dem Altbestand angepasst.
+
+27.82 10C   Az Terrazzo Reihe Steine                                                                                     m
+            Für das händische Einlegen einer Reihe Steine (Filosteine).
+
+27.82 12    Hohlkehlen aus Terrazzo ergänzen und schleifen, dem Altbestand angepasst, einschließlich Begradigen der
+            verbliebenen Anschlüsse.
+
+27.82 12A   Hohlkehle ergänz.b.10cm b.0,5m                                                                               Stk
+            Höhe bis 10 cm, Einzellänge bis 0,5 m.
+
+27.82 12B   Hohlkehle ergänz.b.10cm ü.0,5-1m                                                                             Stk
+            Höhe bis 10 cm, Einzellänge über 0,5 bis 1 m.
+
+27.82 12C   Hohlkehle ergänz.b.10cm ü.1m                                                                                 m
+            Höhe bis 10 cm, Einzellänge über 1 m. Abgerechnet wird die Summe der Einzellängen.
+
+27.82 13    Sockel aus Terrazzo ergänzen und schleifen, dem Altbestand angepasst, einschließlich Begradigen der
+            verbliebenen Anschlüsse.
+
+27.82 13A   Sockel ergänz.b.10cm b.0,5m                                                                                  Stk
+            Höhe bis 10 cm, Einzellänge bis 0,5 m.
+
+27.82 13B   Sockel ergänz.b.10cm ü.0,5-1m                                                                                Stk
+            Höhe bis 10 cm, Einzellänge über 0,5 bis 1 m.
+
+27.82 13C   Sockel ergänz.b.10cm ü.1m                                                                                    m
+            Höhe bis 10 cm, Einzellänge über 1 m. Abgerechnet wird die Summe der Einzellängen.
+
+27.82 15    Alten Terrazzobelag grob abschleifen, mit vergüteter Spachtelmasse überziehen, fein schleifen (Schleifkorn
+            120) und reinigen. Nach erfolgter Baureinigung zweimal fluatieren.
+
+27.82 15A   Terrazzo inst.schleifen+fluat.                                                                               m²
+27.82 16    Alte Terrazzo-Hohlkehlen abschleifen.
+
+27.82 16A   Terr.Hohlkehl.abschleif.10cm                                                                                 m
+            Bis 10 cm hoch.
+
+27.82 16B   Terr.Hohlkehl.abschleif.20cm                                                                                 m
+            Über 10 bis 20 cm hoch.
+
+27.82 17    Alte Terrazzo-Sockel abschleifen.
+
+27.82 17A   Terr.Sockel abschleif.10cm                                                                                   m
+            Bis 10 cm hoch.
+
+27.82 17B   Terr.Sockel abschleif.20cm                                                                                   m
+            Über 10 bis 20 cm hoch.
+
+                                                                                                                   Seite 10 / 12
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+27.90       Regieleistungen
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen.
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+27.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+27.90 00C   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+27.90 01    Regiestunden für Terrazzoarbeiten.
+
+27.90 01A   Regiestunde Terr.Facharbeiter                                                                                    h
+            Für Facharbeiter.
+
+27.90 01B   Regiestunde Terr.Schleifer                                                                                       h
+            Für Terrazzoschleifer.
+
+27.90 01C   Regiestunde Terr.Hilfsarbeiter                                                                                   h
+            Für Hilfsarbeiter.
+
+27.90 02    Zusätzlicher An- und Abtransport der Fußbodenschleifmaschine auf die Baustelle.
+
+27.90 02A   Bodenschleifmasch.Transport                                                                                      PA
+27.90 03    Fußbodenschleifmaschine einschließlich Schleifmittel. Verrechnet wird nur die tatsächliche Betriebszeit.
+
+27.90 03A   Bodenschleifmaschine                                                                                             h
+27.90 04    Elektrohammer, Winkelschleifer, Trennscheibengeräte und dergleichen, ohne Arbeiter, einschließlich der
+            Einsatzteile wie z.B. Meißel oder Bohrer. Trennscheiben werden nach dem tatsächlichen Verbrauch gegen
+            Nachweis gesondert vergütet. Eine zusätzliche Verrechnung von An- und Abtransport wird ausgeschlossen.
+
+27.90 04A   Elektrische Handgeräte                                                                                           h
+
+27.90 51    Materiallieferungen f.Regieleistungen                                                                            VE
+                                                                                                                       Seite 11 / 12
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                   EH
+           Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+           ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+           Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+           nach ÖNORM B 2061).
+           Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+           berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+           unberücksichtigt.
+           Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+           Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+           eingesetzt.
+           1 VE = 1 EURO
+           Beispiel:
+           angebotener Prozentsatz: +12%
+           als Einheitspreis einzusetzen: 1,12
+           LB-Version: 23              Geringfügig Geändert
+
+
+
+
+                                                                                                                 Seite 12 / 12
+                                                                                            ib-data GmbH, Softwareentwicklung
+

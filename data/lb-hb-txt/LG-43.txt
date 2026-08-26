@@ -1,0 +1,1874 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                   Leistungsgruppe (LG) 43 - Türsysteme (Elemente)
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 4300    Wählbare Vorbemerkungen
+                     ULG 4301    Innentür m.Holzzarge/Holztürblatt ohne Feuerschutz
+                     ULG 4302    Innentür m.Stahlzarge/Holztürblatt ohne Feuerschutz
+                     ULG 4303    Innentür m.Stahlzarge/Stahltürblatt ohne Feuerschutz
+                     ULG 4311    Innentür m.Holzzarge/Holztürblatt mit Feuerschutz
+                     ULG 4312    Innentür m.Stahlzarge/Holztürblatt mit Feuerschutz
+                     ULG 4313    Innentür m.Stahlzarge/Stahltürblatt mit Feuerschutz
+                     ULG 4332    Innentür m.Stahlzarge (lief.)/Holztürblatt ohne Feuerschutz
+                     ULG 4333    Innentür m.Stahlzarge (lief.)/Stahltürblatt ohne Feuerschutz
+                     ULG 4342    Innentür m.Stahlzarge (lief.)/Holztürblatt mit Feuerschutz
+                     ULG 4343    Innentür m.Stahlzarge (lief.)/Stahltürblatt mit Feuerschutz
+                     ULG 4351    Außentür-Elemente ohne Feuerschutz
+                     ULG 4352    Außentür-Elemente m.Feuerschutz
+                     ULG 4371    Schloss-u.Beschlagstechnik f.Vollbautürblatt-Türen
+                     ULG 4372    Türschließer u.Drehtürantriebe f.Vollbautürblatt-Türen
+                     ULG 4373    Fluchtwegsicherungen f.Vollbautürblatt-Türen
+                     ULG 4379    Aufzahlungen f.Ausstattung u.Zubehör
+                     ULG 4390    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 31
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                           EH
+
+43         Türsysteme (Elemente)
+           Version 023 (2025-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           Im Folgenden sind Türsysteme als Elemente für einen beweglichen Raumabschluss beschrieben.
+           Das Türsystem wird ohne unteren Anschlag ausgeführt.
+           Die beschriebenen Eigenschaften gelten für das ganze Türsystem (Element), auch wenn dieses in Teilen und zu
+           verschiedenen Zeitpunkten auf die Baustelle geliefert und dort versetzt oder montiert wird.
+           1. Prüfwerte:
+           Prüfwerte für Wärme- und Schallschutz beziehen sich immer auf einflügelige Türsysteme mit allseitiger
+           Dichtung.
+           Schalldämmwerte des geprüften Systems sind im bewerteten Schalldämmmaß RW angegeben.
+           2. Falzausführungen am Türblatt:
+           2.1 Stumpfe Türen sind ohne Türblattüberschlag und mit ungefälzten Türblättern ausgeführt, die auf der
+           Anschlagseite bündig mit dem Zargenspiegel in der Zarge montiert sind (bei Zargen mit Schattennut auch
+           bündig mit der Wandfläche).
+           2.2 Gefälzte Türen sind mit Türblattüberschlag und Türblättern mit Einfachfalz ausgeführt.
+           2.2.1 Doppelfalztüren werden mit Überschlag und einem zweifach gefälzten Türblatt und mit zwei
+           Dichtungsebenen ausgeführt.
+           2.2.2 Dünnfalztüren sind Stahltüren mit einem außenliegenden dünnen Überschlag (Blechumbug).
+           Die beschriebene Falzausführung gilt seitlich und oben, unten wird das Türblatt stumpf ausgeführt, mit
+           Ausnahme von Türen mit allseitig umlaufender Zarge.
+           3. Werkstoffe:
+           Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl (z.B. V2A oder V4A) beschrieben.
+           Verzinkte Oberflächen sind bandverzinkt ausgeführt.
+           4. Oberlichten (OL):
+           Oberlichten werden mindestens gemäß den Anforderungen des Türsystems ausgeführt.
+           Die angegebene Höhe bezieht sich auf das gesamte Türsystem (einschließlich Oberlichte).
+           5. Einkalkulierte Leistungen:
+           5.1 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+           einkalkuliert:
+           Systemabhängige Absenkabdichtungen bei Ausführungen bei z.B. Schall- und Rauchschutzanforderungen sind
+           in die Einheitspreise einkalkuliert.
+           Der Auftragnehmer weist auf Verlangen des Auftraggebers die Erfüllung der beschriebenen Anforderungen oder
+           der Eigenschaften des Türsystems nach.
+           Alle Einheitspreise gelten ohne Unterschied, ob Links- oder Rechtsausführung.
+           5.2 Leistungserklärung:
+           Eine Leistungserklärung ist spätesten zum Zeitpunkt der ersten Anlieferung beizubringen.
+           6. Beschläge, Schloss und Drücker:
+           Baubeschläge (z.B. Zylinder und Drücker) und weitere Ausstattungen sind in eigenen Positionen zu beschreiben
+           (frei zu formulieren).
+            Kommentar:
+            Bei der Montage bzw. dem Einbau von Türsystemen ist auf Vorgaben/Angaben des Herstellers zu achten.
+            Frei zu formulieren (z.B.):
+                • Oberlichten zum Öffnen, bei Innen- und Außentüren
+                • Gestängetürschließer
+            Literaturhinweis (z.B.):
+            ÖNORM B 3716: Glas im Bauwesen - Konstruktiver Glasbau
+            ÖNORM B 3850: Feuerschutzabschlüsse - Drehflügeltüren und -tore sowie Pendeltüren - Anforderungen und Prüfungen für
+            ein- und zweiflügelige Elemente
+            ÖNORM B 5330-1, 2012 10 01: Innentüren - Teil 1: Allgemeine Maße
+            ÖNORM B 5330-3: 2012 10 01: Innentüren - Teil 3: Vollbautürblätter aus Holz und/oder Holzwerkstoffen
+            ÖNORM B 5330-8, 2014 07 15: Innentüren - Teil 8: Stahlzargen für Massivwände
+            ÖNORM B 5330-9, 2019 02 01: Türen - Innentüren - Teil 9: Zargen und Türstöcke aus Holz/Holzwerkstoffen
+                                                                                                                           Seite 2 / 31
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+             ÖNORM B 5330-10, 2014 07 15: Innentüren - Teil 10: Stahlzargen für Ständerwandsysteme mit Gipsplatten
+             ÖNORM B 5335: Türen-Einbau und Montage
+             ÖNORM B 5337, 2017 11 15: Innentüren - Allgemeine Anforderungen
+             ÖNORM B 5339, 2009 04 15: Außentüren - Anforderungen - Ergänzungen zur ÖNORM EN 14351-1
+             ÖNORM EN 179: Schlösser und Baubeschläge - Notausgangsverschlüsse mit Drücker oder Stoßrosette für Türen im
+             Rettungswesen
+             ÖNORM EN 1125: Schlösser und Baubeschläge - Paniktürverschlüsse mit horizontaler Betätigungsstange für Türen im
+             Rettungswesen
+             ÖNORM EN 1154: Schlösser und Baubeschläge - Türschließmittel mit kontrolliertem Schließablauf - Anforderungen und
+             Prüfverfahren
+             ÖNORM EN 13501-2: Klassifizierung mit den Ergebnissen aus den Feuerwiderstandsprüfungen
+             ÖNORM EN 13637: Schlösser und Baubeschläge - Elektrisch gesteuerte Fluchttüranlagen für Türen in Fluchtwegen -
+             Anforderungen und Prüfverfahren
+             ÖNORM EN 16005: Kraftbetätigte Türen - Nutzungssicherheit - Anforderungen und Prüfverfahren
+             OIB4 (Österreichisches Institut für Bautechnik - Richtlinie 4)
+            LB-Version: 23                  Geringfügig Geändert
+Änderung:   Neue Position:
+            43.79 21R Az Holz-/Stahltürblatt f.Reedkontakte
+
+43.00       Wählbare Vorbemerkungen
+43.00 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+43.00 00A   Lieferung/Lagerung Zargen
+            Bestimmungen für die Lieferung und Lagerung, wenn Zargen und Türblatt zu unterschiedlichen Terminen
+            geliefert werden.
+            Angaben zur Lieferung Zargen: ____________
+            Angaben zur Lagerung Zargen: ____________
+
+43.00 00B   Lieferung/Lagerung Türblätter
+            Bestimmungen für die Lieferung und Lagerung, wenn Zargen und Türblatt zu unterschiedlichen Terminen
+            geliefert werden.
+            Angaben zur Lieferung Türblätter: ____________
+            Angaben zur Lagerung Türblätter: ____________
+
+43.00 00C   Edelstahl korrosionsbeständiger Stahl V2A
+            Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl V2A mit der Werkstoffnummer ____________
+            beschrieben.
+            Betrifft Position(en):____________
+
+43.00 00D   Edelstahl korrosionsbeständiger Stahl V4A
+            Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl V4A mit der Werkstoffnummer ____________
+            beschrieben.
+            Betrifft Position(en):____________
+
+43.00 00E   Befestigungs-u.Verbindungsmittel V2A
+            Befestigungs- und Verbindungsmittel (z.B. für den Innen- oder Außenbereich, für Feuchtbereiche).
+            Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl V2A mit der Werkstoffnummer ____________
+            beschrieben.
+            Betrifft Position(en):____________
+
+43.00 00F   Befestigungs-u.Verbindungsmittel V4A
+            Befestigungs- und Verbindungsmittel (z.B. für den Innen- oder Außenbereich, für Feuchtbereiche).
+            Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl V4A mit der Werkstoffnummer ____________
+            beschrieben.
+            Betrifft Position(en):____________
+
+43.00 00Z   Ergänzende Zeichnungen des AG
+
+                                                                                                                          Seite 3 / 31
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+            Die vom Auftraggeber beigestellten Unterlagen (z.B. Zeichnungen, Pläne) zu den angegebenen Positionen
+            beinhalten z.B. ergänzende Maße und Angaben (z.B. Achsen-Bezeichnungen) und gelten als
+            Vertragsbestandteile.
+            Betrifft Position(en):____________
+            Beiliegende Unterlagen:____________
+
+43.01       Innentür m.Holzzarge/Holztürblatt ohne Feuerschutz
+
+
+            Ausführung Türblatt:
+            Das Türblatt besteht aus Holz oder Holzwerkstoffen und ist so ausgeführt, dass es in der Höhe bis zu 5 cm
+            kürzbar ist.
+            Holztürblatt mit Folien- oder Furnierkante.
+            LB-Version: 23               Geringfügig Geändert
+43.01 02    Innentüre mit Holzzarge und glattem Holztürblatt (Vollbautürblatt).
+                • ohne Feuerschutz
+
+43.01 02A   Innentür m.Holzzarge+gl.Holztürblatt                                                                             Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Holzzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            LB-Version: 23               Geringfügig Geändert
+43.01 12    Innentüre mit Holzzarge und glattem Holztürblatt (Vollbautürblatt).
+                • mit Oberlicht (OL)
+                • ohne Feuerschutz
+
+43.01 12A   Innentür m.Holzzarge+gl.Holztürblatt+OL                                                                          Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                                                                                                                        Seite 4 / 31
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+                • Sonstige Anforderungen:____________
+            Holzzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.02       Innentür m.Stahlzarge/Holztürblatt ohne Feuerschutz
+
+
+            Ausführung Türblatt:
+            Das Türblatt besteht aus Holz oder Holzwerkstoffen und ist so ausgeführt, dass es in der Höhe bis zu 5 cm
+            kürzbar ist.
+            Holztürblatt mit Folien- oder Furnierkante.
+            LB-Version: 23               Geringfügig Geändert
+43.02 02    Innentüre mit Stahlzarge und glattem Holztürblatt (Vollbautürblatt).
+                • ohne Feuerschutz
+
+43.02 02A   Innentür m.Stahlzarge+gl.Holztürblatt                                                                            Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.02 02B   Innentür m.Stahlzarge/Nut+gl.Holztürblatt                                                                        Stk
+            Ausführung mit beidseitiger Schattennut beim Übergang zur Wandfläche.
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                                                                                                                        Seite 5 / 31
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            LB-Version: 23               Geringfügig Geändert
+43.02 12    Innentüre mit Stahlzarge und glattem Holztürblatt (Vollbautürblatt).
+                • mit Oberlicht (OL)
+                • ohne Feuerschutz
+
+43.02 12A   Innentür m.Stahlzarge+gl.Holztürblatt+OL                                                                         Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.02 12B   Innentür m.Stahlzarge/Nut+gl.Holztürblatt+OL                                                                     Stk
+            Ausführung mit beidseitiger Schattennut beim Übergang zur Wandfläche.
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+                                                                                                                        Seite 6 / 31
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.03       Innentür m.Stahlzarge/Stahltürblatt ohne Feuerschutz
+            LB-Version: 23               Geringfügig Geändert
+43.03 02    Innentüre mit Stahlzarge und Stahltürblatt aus verzinktem Stahl.
+                • ohne Feuerschutz
+
+43.03 02A   Innentür m.Stahlzarge+Stahltürblatt                                                                              Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, Dünnfalz, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.03 02B   Innentür m.Stahlzarge/Nut+Stahltürblatt                                                                          Stk
+            Ausführung mit beidseitiger Schattennut beim Übergang zur Wandfläche.
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, Dünnfalz, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+
+
+                                                                                                                        Seite 7 / 31
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+            Oberfläche (beidseitig) Türblatt (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            LB-Version: 23               Geringfügig Geändert
+43.03 12    Innentüre mit Stahlzarge und Stahltürblatt aus verzinktem Stahl.
+                • mit Oberlicht (OL)
+                • ohne Feuerschutz
+
+43.03 12A   Innentür m.Stahlzarge+Stahltürblatt+OL                                                                          Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, Dünnfalz, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.03 12B   Innentür m.Stahlzarge/Nut+Stahltürblatt+OL                                                                      Stk
+            Ausführung mit beidseitiger Schattennut beim Übergang zur Wandfläche.
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, Dünnfalz, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+
+                                                                                                                       Seite 8 / 31
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+            LB-Version: 23               Geringfügig Geändert
+
+43.11       Innentür m.Holzzarge/Holztürblatt mit Feuerschutz
+
+
+            Ausführung Türblatt:
+            Das Türblatt besteht aus Holz oder Holzwerkstoffen und ist so ausgeführt, dass es in der Höhe bis zu 4 cm
+            kürzbar ist.
+            Holztürblatt mit Folien- oder Furnierkante.
+            LB-Version: 23               Geringfügig Geändert
+43.11 02    Innentüre mit Holzzarge und glattem Holztürblatt (Vollbautürblatt).
+            Die Feuerschutzklasse ist im Positionsstichwort angegeben.
+
+43.11 02A   Innentür m.Holzzarge+gl.Holztürblatt__________                                                                   Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Holzzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            LB-Version: 23               Geringfügig Geändert
+43.11 12    Innentüre mit Holzzarge und glattem Holztürblatt (Vollbautürblatt).
+                • mit Oberlicht (OL)
+            Die Feuerschutzklasse ist im Positionsstichwort angegeben.
+
+43.11 12A   Innentür m.Holzzarge+gl.Holztürblatt+OL__________                                                                Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Holzzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+                                                                                                                        Seite 9 / 31
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.12       Innentür m.Stahlzarge/Holztürblatt mit Feuerschutz
+
+
+            Ausführung Türblatt:
+            Das Türblatt besteht aus Holz oder Holzwerkstoffen und ist so ausgeführt, dass es in der Höhe bis zu 4 cm
+            kürzbar ist.
+            Holztürblatt mit Folien- oder Furnierkante.
+            LB-Version: 23               Geringfügig Geändert
+43.12 02    Innentüre mit Stahlzarge und glattem Holztürblatt (Vollbautürblatt).
+            Die Feuerschutzklasse ist im Positionsstichwort angegeben.
+
+43.12 02A   Innentür m.Stahlzarge+gl.Holztürblatt__________                                                                  Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.12 02B   Innentür m.Stahlzarge/Nut+gl.Holztürblatt__________                                                              Stk
+            Ausführung mit beidseitiger Schattennut beim Übergang zur Wandfläche.
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+                                                                                                                       Seite 10 / 31
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            LB-Version: 23               Geringfügig Geändert
+43.12 12    Innentüre mit Stahlzarge und glattem Holztürblatt (Vollbautürblatt).
+                • mit Oberlicht (OL)
+            Die Feuerschutzklasse ist im Positionsstichwort angegeben.
+
+43.12 12A   Innentür m.Stahlzarge+gl.Holztürblatt+OL__________                                                               Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.12 12B   Innentür m.Stahlzarge/Nut+gl.Holztürblatt+OL__________                                                           Stk
+            Ausführung mit beidseitiger Schattennut beim Übergang zur Wandfläche.
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+                                                                                                                       Seite 11 / 31
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.13       Innentür m.Stahlzarge/Stahltürblatt mit Feuerschutz
+            LB-Version: 23               Geringfügig Geändert
+43.13 02    Innentüre mit Stahlzarge und Stahltürblatt aus verzinktem Stahl.
+            Die Feuerschutzklasse ist im Positionsstichwort angegeben.
+
+43.13 02A   Innentür m.Stahlzarge+Stahltürblatt__________                                                                   Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, Dünnfalz, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.13 02B   Innentür m.Stahlzarge/Nut+Stahltürblatt__________                                                               Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Ausführung mit beidseitiger Schattennut beim Übergang zur Wandfläche.
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, Dünnfalz, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            LB-Version: 23               Geringfügig Geändert
+
+
+
+                                                                                                                      Seite 12 / 31
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+43.13 12    Innentüre mit Stahlzarge und Stahltürblatt aus verzinktem Stahl.
+                • mit Oberlicht (OL)
+            Die Feuerschutzklasse ist im Positionsstichwort angegeben.
+
+43.13 12A   Innentür m.Stahlzarge+Stahltürblatt+OL__________                                                                Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, Dünnfalz, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.13 12B   Innentür m.Stahlzarge/Nut+Stahltürblatt+OL__________                                                            Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Ausführung mit beidseitiger Schattennut beim Übergang zur Wandfläche.
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, Dünnfalz, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.32       Innentür m.Stahlzarge (lief.)/Holztürblatt ohne Feuerschutz
+
+                                                                                                                      Seite 13 / 31
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+
+            Im Folgenden ist das Liefern einer Zarge für den Einbau, der durch den AG erfolgt, mit anschließendem
+            Einbauen/Einhängen der Türblätter beschrieben.
+
+
+            Ausführung Türblatt:
+            Das Türblatt besteht aus Holz oder Holzwerkstoffen und ist so ausgeführt, dass es in der Höhe bis zu 5 cm
+            kürzbar ist.
+            Holztürblatt mit Folien- oder Furnierkante.
+            LB-Version: 23               Geringfügig Geändert
+43.32 02    Innentüre mit Stahlzarge und glattem Holztürblatt (Vollbautürblatt).
+                • ohne Feuerschutz
+
+43.32 02A   Innentür m.Stahlzarge (lief.)+gl.Holztürblatt                                                                    Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.32 02B   Innentür m.Stahlzarge/Nut (lief.)+gl.Holztürblatt                                                                Stk
+            Ausführung mit beidseitiger Schattennut beim Übergang zur Wandfläche.
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            LB-Version: 23               Geringfügig Geändert
+                                                                                                                       Seite 14 / 31
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+43.32 12    Innentüre mit Stahlzarge und glattem Holztürblatt (Vollbautürblatt).
+                • mit Oberlicht (OL)
+                • ohne Feuerschutz
+
+43.32 12A   Innentür m.Stahlzarge (lief.)+gl.Holztürblatt+OL                                                                 Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.32 12B   Innentür m.Stahlzarge/Nut (lief.)+gl.Holztürblatt+OL                                                             Stk
+            Ausführung mit beidseitiger Schattennut beim Übergang zur Wandfläche.
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+
+                                                                                                                       Seite 15 / 31
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+43.33       Innentür m.Stahlzarge (lief.)/Stahltürblatt ohne Feuerschutz
+
+
+            Im Folgenden ist das Liefern einer Zarge für den Einbau, der durch den AG erfolgt, mit anschließendem
+            Einbauen/Einhängen der Türblätter beschrieben.
+            LB-Version: 23               Geringfügig Geändert
+43.33 02    Innentüre mit Stahlzarge und Stahltürblatt aus verzinktem Stahl.
+                • ohne Feuerschutz
+
+43.33 02A   Innentür m.Stahlzarge (lief.)+Stahltürblatt                                                                     Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, Dünnfalz, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.33 02B   Innentür m.Stahlzarge/Nut (lief.)+Stahltürblatt                                                                 Stk
+            Ausführung mit beidseitiger Schattennut beim Übergang zur Wandfläche.
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, Dünnfalz, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            LB-Version: 23               Geringfügig Geändert
+43.33 12    Innentüre mit Stahlzarge und Stahltürblatt aus verzinktem Stahl.
+                • mit Oberlicht (OL)
+                • ohne Feuerschutz
+
+43.33 12A   Innentür m.Stahlzarge (lief.)+Stahltürblatt+OL                                                                  Stk
+                                                                                                                      Seite 16 / 31
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, Dünnfalz, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.33 12B   Innentür m.Stahlzarge/Nut (lief.)+Stahltürblatt+OL                                                              Stk
+            Ausführung mit beidseitiger Schattennut beim Übergang zur Wandfläche.
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, Dünnfalz, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.42       Innentür m.Stahlzarge (lief.)/Holztürblatt mit Feuerschutz
+
+
+            Im Folgenden ist das Liefern einer Zarge für den Einbau, der durch den AG erfolgt, mit anschließendem
+            Einbauen/Einhängen der Türblätter beschrieben.
+
+
+            Ausführung Türblatt:
+                                                                                                                      Seite 17 / 31
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+            Das Türblatt besteht aus Holz oder Holzwerkstoffen und ist so ausgeführt, dass es in der Höhe bis zu 4 cm
+            kürzbar ist.
+            Holztürblatt in Standardausführung, mit Folien- oder Furnierkante.
+            LB-Version: 23               Geringfügig Geändert
+43.42 02    Innentüre mit Stahlzarge und glattem Holztürblatt (Vollbautürblatt).
+            Die Feuerschutzklasse ist im Positionsstichwort angegeben.
+
+43.42 02A   Innentür m.Stahlzarge (lief.)+gl.Holztürblatt__________                                                          Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.42 02B   Innentür m.Stahlzarge/Nut (lief.)+gl.Holztürblatt__________                                                      Stk
+            Ausführung mit beidseitiger Schattennut beim Übergang zur Wandfläche.
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            LB-Version: 23               Geringfügig Geändert
+43.42 12    Innentüre mit Stahlzarge und glattem Holztürblatt (Vollbautürblatt).
+                • mit Oberlicht (OL)
+            Die Feuerschutzklasse ist im Positionsstichwort angegeben.
+
+43.42 12A   Innentür m.Stahlzarge (lief.)+gl.Holztürblatt+OL__________                                                       Stk
+                                                                                                                       Seite 18 / 31
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.42 12B   Innentür m.Stahlzarge/Nut (lief+gl.Holztürblatt+OL__________                                                     Stk
+            Ausführung mit beidseitiger Schattennut beim Übergang zur Wandfläche.
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. Art: Furnier, Melaminharzplatten, Laminat, Farbe: lackiert/beschichtet):
+            ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.43       Innentür m.Stahlzarge (lief.)/Stahltürblatt mit Feuerschutz
+
+
+            Im Folgenden ist das Liefern einer Zarge für den Einbau, der durch den AG erfolgt, mit anschließendem
+            Einbauen/Einhängen der Türblätter beschrieben.
+
+
+                                                                                                                       Seite 19 / 31
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+            LB-Version: 23               Geringfügig Geändert
+43.43 02    Innentüre mit Stahlzarge und Stahltürblatt aus verzinktem Stahl.
+            Die Feuerschutzklasse ist im Positionsstichwort angegeben.
+
+43.43 02A   Innentür m.Stahlzarge (lief.)+Stahltürblatt__________                                                           Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, Dünnfalz, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.43 02B   Innentür m.Stahlzarge/Nut (lief.)+Stahltürblatt__________                                                       Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Ausführung mit beidseitiger Schattennut beim Übergang zur Wandfläche.
+            Stocklichte (Nennmaß) Element (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, Dünnfalz, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            LB-Version: 23               Geringfügig Geändert
+43.43 12    Innentüre mit Stahlzarge und Stahltürblatt aus verzinktem Stahl.
+                • mit Oberlicht (OL)
+            Die Feuerschutzklasse ist im Positionsstichwort angegeben.
+
+43.43 12A   Innentür m.Stahlzarge (lief.)+Stahltürblatt+OL__________                                                        Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+                                                                                                                      Seite 20 / 31
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, Dünnfalz, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.43 12B   Innentür m.Stahlzarge/Nut (lief.)+Stahltürblatt+OL__________                                                    Stk
+            Wandkonstruktion (z.B. Ziegel, Beton, GKB-Ständerwände): ____________
+            Ausführung mit beidseitiger Schattennut beim Übergang zur Wandfläche.
+            Stocklichte (Nennmaß) Element, einschließlich Oberlicht (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Beanspruchungsklasse (A, B, C, D): ____________
+                • Türblattdicke: ____________ mm
+                • Ausführung (stumpf, gefälzt, Dünnfalz, bündig): ____________
+                • Durchgangshöhe Türblatt: ____________ cm
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (a, b, c):____________
+                • Einbruchhemmung (Klasse):____________
+                • Sonstige Anforderungen:____________
+            Stahlzarge (Blockzarge, Eckzarge, Umfassungszarge mit Angabe der Maulweite): ____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Oberfläche (beidseitig) Türblatt (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberfläche (allseitig) Zarge (z.B. verzinkt, grundiert, Edelstahl, Farbe: lackiert/beschichtet): ____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite): ____________ x ____________ cm
+                • Ausführung/Glasart: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.51       Außentür-Elemente ohne Feuerschutz
+
+
+
+            Das Türsystem erfüllt mindestens die Anforderungen an Standardhaus- und Standardlaubengangtüren.
+            Das Türsystem wird mit einem unteren Anschlag mit Schwellenschiene und Dichtung ausgeführt.
+             Kommentar:
+             Die Mechanische Festigkeit Klasse und die Dauerfunktionstauglichkeit sind gemäß ÖNORM EN 14351 anzugeben.
+
+43.51 11    Außentür-Element.
+
+43.51 11A   Außentür-Element ohne Feuerschutz                                                                               Stk
+                                                                                                                      Seite 21 / 31
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+            Verwendungsklasse/Einbausituation (ungeschützt, teilgeschützt, geschützt):____________
+            Wandkonstruktion (z.B. Ziegel, Beton): ____________
+            Blindstock (Ja/Nein): ____________
+            Rohbaulichte (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Öffnet nach Innen oder nach Außen: ____________
+                • Ausführung Element (z.B. Holz/Holzwerkstoffe, Kunststoff, Alu, Holz/Alu, Kunststoff/Alu): ____________
+                • Ausführung (z.B. stumpf-gefälzt, gefälzt, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (c, d, e):____________
+                • Einbruchhemmung (Klasse):____________
+                • Rauchschutz:____________
+                • Sonstige Anforderungen:____________
+            Mechanische Festigkeit Klasse: ____________
+            Dauerfunktionstauglichkeit:____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Türschließer (Ja/Nein):____________
+43.51 21    Außentür-Element mit Oberlicht (OL) oder Seitenteil.
+
+43.51 21A   Außentür-Element+OL/Seitenteil ohne Feuerschutz                                                             Stk
+            Verwendungsklasse/Einbausituation (ungeschützt, teilgeschützt, geschützt):____________
+            Wandkonstruktion (z.B. Ziegel, Beton): ____________
+            Blindstock (Ja/Nein): ____________
+            Rohbaulichte (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Öffnet nach Innen oder nach Außen: ____________
+                • Ausführung Element (z.B. Holz/Holzwerkstoffe, Kunststoff, Alu, Holz/Alu, Kunststoff/Alu): ____________
+                • Ausführung (z.B. stumpf-gefälzt, gefälzt, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (c, d, e):____________
+                • Einbruchhemmung (Klasse):____________
+                • Rauchschutz:____________
+                • Sonstige Anforderungen:____________
+            Mechanische Festigkeit Klasse: ____________
+            Dauerfunktionstauglichkeit:____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Türschließer (Ja/Nein):____________
+            Oberlicht:
+                • Glaslichte (Höhe x Breite):____________
+                • Ausführung/Glasart :____________
+            Seitenteil:
+                • Glaslichte (Höhe x Breite):____________
+                • Ausführung/Glasart :____________
+
+43.52       Außentür-Elemente m.Feuerschutz
+
+
+
+
+                                                                                                                  Seite 22 / 31
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+            Das Türsystem erfüllt mindestens die Anforderungen an Standardhaus- und Standardlaubengangtüren.
+            Das Türsystem wird mit einem unteren Anschlag mit Schwellenschiene und Dichtung ausgeführt.
+             Kommentar:
+             Die Mechanische Festigkeit Klasse und die Dauerfunktionstauglichkeit sind gemäß ÖNORM EN 14351 anzugeben.
+
+43.52 11    Außentür-Element.
+            Die Feuerschutzklasse ist im Positionsstichwort angegeben.
+
+43.52 11B   Außentür-Element m.Feuerschutz__________                                                                        Stk
+            Verwendungsklasse/Einbausituation (ungeschützt, teilgeschützt, geschützt):____________
+            Wandkonstruktion (z.B. Ziegel, Beton): ____________
+            Blindstock (Ja/Nein): ____________
+            Rohbaulichte (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Öffnet nach Innen oder nach Außen: ____________
+                • Ausführung Element (z.B. Holz/Holzwerkstoffe, Kunststoff, Alu, Holz/Alu, Kunststoff/Alu): ____________
+                • Ausführung (z.B. stumpf-gefälzt, gefälzt, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (c, d, e):____________
+                • Einbruchhemmung (Klasse):____________
+                • Rauchschutz:____________
+                • Sonstige Anforderungen:____________
+            Mechanische Festigkeit Klasse: ____________
+            Dauerfunktionstauglichkeit:____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Türschließer (Ja/Nein): ____________
+43.52 21    Außentür-Element mit Oberlicht (OL) oder Seitenteil.
+            Die Feuerschutzklasse ist im Positionsstichwort angegeben.
+
+43.52 21B   Außentür-Element+OL/Seitenteil m.Feuerschutz__________                                                          Stk
+            Verwendungsklasse/Einbausituation (ungeschützt, teilgeschützt, geschützt):____________
+            Wandkonstruktion (z.B. Ziegel, Beton): ____________
+            Blindstock (Ja/Nein): ____________
+            Rohbaulichte (Breite x Höhe): ____________ x ____________ cm
+            Tür, einflügelig oder zweiflügelig: ____________
+            Gehflügel/effektive Durchgangslichte (Breite x Höhe):____________ x ____________ cm
+            Stehflügel (Breite): ____________ cm
+            Technische Eigenschaften:
+                • Öffnet nach Innen oder nach Außen: ____________
+                • Ausführung Element (z.B. Holz/Holzwerkstoffe, Kunststoff, Alu, Holz/Alu, Kunststoff/Alu): ____________
+                • Ausführung (z.B. stumpf-gefälzt, gefälzt, bündig): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert (U-Wert):____________W/m2K
+                • Klimakategorie (c, d, e):____________
+                • Einbruchhemmung (Klasse):____________
+                • Rauchschutz:____________
+                • Sonstige Anforderungen:____________
+            Mechanische Festigkeit Klasse: ____________
+            Dauerfunktionstauglichkeit:____________
+            Bänder (verdeckt/nicht verdeckt): ____________
+            Türschließer (Ja/Nein):____________
+            Oberlicht:
+
+                                                                                                                      Seite 23 / 31
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+                 • Glaslichte (Höhe x Breite):____________
+                 • Ausführung/Glasart :____________
+            Seitenteil:
+                 • Glaslichte (Höhe x Breite):____________
+                 • Ausführung/Glasart :____________
+
+43.71       Schloss-u.Beschlagstechnik f.Vollbautürblatt-Türen
+             Kommentar:
+             Auf Parameter wie z.B. Feuerschutz, Benutzerklasse/Objekttauglichkeit, Widerstandsklasse, Barrierefreiheit, Ausführung
+             (Rosette oder Langschild), Schutzklasse Drücker, Panik- oder Fluchtfunktionen ist zu achten.
+             Frei zu formulieren (z.B.):
+             Elektronische Schlösser und Schlösser wie z.B. Innen- und Objekttürschlösser, Fluchttür- und SVP-Fluchttürschlösser,
+             einschließlich z.B. Türdrücker und Panikstangen sind frei zu formulieren.
+
+43.71 01    Innentürschloss für Vollbautürblatt-Türen.
+                 • Gebrauchskategorie 2
+                 • Einsteckschloss
+                 • 1-tourig
+                 • Rundstulp
+                 • mit Fallenanschlag
+                 • Schlosskasten aus verzinktem Stahlblech
+                 • Distanzhülsen zwischen Kasten und Decke
+            Einschließlich Sichtbeschlag.
+
+43.71 01A   Innentürschloss f.Vollbautürblatt-Türen                                                                               Stk
+            Betrifft Position(en): ____________
+            Fallenausführung (z.B. Flüsterfalle, Magnetfalle, Kurbelfalle, Metallfalle, Rollfalle, Kunststofffalle):
+            ____________
+            Art der Sperre (z.B. Keilbart, WC, Profilzylinder mit/ohne Wechsel, Fallenschloss): ____________
+            Oberfläche (z.B. Edelstahl, schwarz, Dekorsilber): ____________
+
+43.71 02    Objekttürschloss für Vollbautürblatt-Türen für Innen-, Außen- und Feuerschutztüren.
+                 • Gebrauchskategorie 3
+                 • Einsteckschloss
+                 • Rundstulp
+                 • mit Fallenanschlag
+                 • Schlosskasten aus verzinktem Stahlblech
+                 • Distanzhülsen zwischen Kasten und Decke
+            Einschließlich Sichtbeschlag.
+
+43.71 02A   Objektschloss f.Vollbautürblatt-Türen                                                                                 Stk
+            Betrifft Position(en): ____________
+            Fallenausführung (z.B. Flüsterfalle, Kurbelfalle, Metallfalle): ____________
+            Fallenblockierung (Ja/Nein): ____________
+            Art der Sperre (z.B. Keilbart, WC, Profilzylinder mit Wechsel, Fallenschloss): ____________
+            Art der Verriegelung (z.B. einfach, mehrfach): ____________
+            Oberfläche (z.B. Edelstahl, schwarz, Dekorsilber): ____________
+            Beschreibung Sichtbeschlag: ____________
+
+43.71 11    Notausgangsverschluss für Vollbautürblatt-Türen für Innen-, Außen- und Feuerschutztüren.
+                 • Einsteckschloss
+                 • Schlosskasten aus verzinktem Stahlblech
+            Einschließlich Sichtbeschlag.
+
+43.71 11A   Notausgangsverschluss f.Vollbautürblatt-Türen                                                                         Stk
+            Betrifft Position(en):____________
+            Panikfunktion (z.B. Panik E, B, D): ____________
+            Fallenausführung (z.B. Flüsterfalle, Metallfalle):____________
+            Fallenblockierung (Ja/Nein):____________
+            Art der Verriegelung (z.B. einfach, mehrfach): ____________
+                                                                                                                            Seite 24 / 31
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+            Oberfläche (z.B. Edelstahl, Dekorsilber): ____________
+            Beschreibung Sichtbeschlag: ____________
+43.71 12    Panikverschluss für Vollbautürblatt-Türen für Innen-, Außen- und Feuerschutztüren.
+                • Einsteckschloss
+                • Schlosskasten aus verzinktem Stahlblech
+            Einschließlich Sichtbeschlag.
+
+43.71 12A   Panikverschluss f.Vollbautürblatt-Türen                                                                               Stk
+            Betrifft Position(en):____________
+            Panikfunktion (z.B. Panik E, B, D): ____________
+            Fallenausführung (z.B. Flüsterfalle, Metallfalle):____________
+            Fallenblockierung (Ja/Nein):____________
+            Art der Verriegelung (z.B. einfach, mehrfach): ____________
+            Oberfläche (z.B. Edelstahl, Dekorsilber): ____________
+            Beschreibung Sichtbeschlag: ____________
+
+43.71 21    Notausgangsverschluss, selbstverriegelnd (selbstv.), für Vollbautürblatt-Türen für Innen-, Außen- und
+            Feuerschutztüren.
+                • Einsteckschloss
+                • Rundstulp
+                • mit Fallenanschlag
+                • Schlosskasten aus verzinktem Stahlblech
+                • Distanzhülsen zwischen Kasten und Decke
+            Einschließlich Sichtbeschlag.
+
+43.71 21A   Notausgangsverschluss selbstv.f.Vollbautürblatt-Türen                                                                 Stk
+            Betrifft Position(en):____________
+            Fallenausführung (z.B. Kreuzfalle, Metallfalle):____________
+            Art der Verriegelung (z.B. einfach, mehrfach): ____________
+            Oberfläche (z.B. Edelstahl, Dekorsilber): ____________
+            Beschreibung Sichtbeschlag: ____________
+
+43.71 22    Panikverschluss, selbstverriegelnd (selbstv.), für Vollbautürblatt-Türen für Innen-, Außen- und Feuerschutztüren.
+                • Einsteckschloss
+                • Rundstulp
+                • mit Fallenanschlag
+                • Schlosskasten aus verzinktem Stahlblech
+                • Distanzhülsen zwischen Kasten und Decke
+            Einschließlich Sichtbeschlag.
+
+43.71 22A   Panikverschluss selbstv.f.Vollbautürblatt-Türen                                                                       Stk
+            Betrifft Position(en):____________
+            Fallenausführung (z.B. Kreuzfalle, Metallfalle):____________
+            Art der Verriegelung (z.B. einfach, mehrfach): ____________
+            Oberfläche (z.B. Edelstahl, Dekorsilber): ____________
+            Beschreibung Sichtbeschlag: ____________
+            Ausführung (z.B. mechanisch, batteriebetrieben, elektronisch kuppelbar, mit motorischer Entriegelung, mit
+            motorischer Ent- und Verriegelung): ____________
+
+43.72       Türschließer u.Drehtürantriebe f.Vollbautürblatt-Türen
+             Kommentar:
+             Auf Parameter wie z.B. Feuerschutz, Benutzerklasse/Objekttauglichkeit, Widerstandsklasse, Barrierefreiheit, Ausführung
+             (Rosette oder Langschild), Schutzklasse Drücker, Panik- oder Fluchtfunktionen ist zu achten.
+             Das Zusammenstellen einzelner Bauteile, die Krafteinstellung und die Montage erfolgen nach Angaben des Herstellers.
+             Frei zu formulieren (z.B.):
+                  • Kraftunterstützte Antriebe
+
+
+
+                                                                                                                            Seite 25 / 31
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+                 • Vollantriebe
+                 • Systemzubehör für Antriebe (z.B. Wand- und Bodenstopper, Taster, Radarmelder)
+                 • Niedrigenergieantriebe
+            LB-Version: 23               Geringfügig Geändert
+43.72 01    Gleitschienen-Türschließer für Vollbautürblatt-Türen.
+
+43.72 01A   Gleitschienen-Türschließer f.Vollbautürblatt-Türen                                                                Stk
+            Betrifft Position(en): ____________
+            Montageart (bandseitig, bandgegenseitig): ____________
+            Ausführung (einflügelig, zweiflügelig):____________
+            Stark abfallendes Öffnungsmoment (ja/nein):____________
+            Einstellbare Schließkraft (ja/nein):____________
+            Einstellbare Schließverzögerung (ja/nein):____________
+            Einstellbarer Endschlag (ja/nein):____________
+            Einstellbare Öffnungsdämpfung (ja/nein):____________
+            Einstellbare Schließgeschwindigkeit (ja/nein):____________
+            Einstellbare Schließung leise (ja/nein):____________
+            Freilauffunktion (ja/nein):____________
+            Elektromechanische Feststellung (ja/nein):____________
+            Rastfeststellung (ja/nein):____________
+            Öffnungsbegrenzer (ja/nein):____________
+            Integrierter Rauchmelder (ja/nein):____________
+43.72 11    Integrierter Türschließer für Vollbautürblatt-Türen.
+
+43.72 11A   Integrierter Türschließer f.Vollbautürblatt-Türen                                                                 Stk
+            Betrifft Position(en): ____________
+            Ausführung (einflügelig, zweiflügelig):____________
+            Stark abfallendes Öffnungsmoment (ja/nein):____________
+            Einstellbare Schließkraft (ja/nein):____________
+            Einstellbare Schließgeschwindigkeit (ja/nein):____________
+            Freilauffunktion (ja/nein):____________
+            Elektromechanische Feststellung (ja/nein):____________
+            Rastfeststellung (ja/nein):____________
+            Öffnungsbegrenzer (ja/nein):____________
+43.72 21    Bodentürschließer für Vollbautürblatt-Türen.
+
+43.72 21A   Bodentürschließer f.Vollbautürblatt-Türen                                                                         Stk
+            Betrifft Position(en): ____________
+            Ausführung (einflügelig, zweiflügelig):____________
+            Stark abfallendes Öffnungsmoment (ja/nein):____________
+            Einstellbare Schließkraft (ja/nein):____________
+            Einstellbare Schließgeschwindigkeit (ja/nein):____________
+            Freilauffunktion (ja/nein):____________
+            Elektromechanische Feststellung (ja/nein):____________
+            Rastfeststellung (ja/nein):____________
+            Öffnungsbegrenzer (ja/nein):____________
+43.72 31    Drehtürantriebe für Innen, für Vollbautürblatt-Türen, entsprechend der jeweiligen Nutzungsvariante ausgeführt.
+            Zur sicheren Schließung bei Ausführung eines Fallenschlosses ist gesichertes Überwinden des
+            Fallenwiderstandes in Form einer kurzen Kraftbewegung auszufügen.
+            Auftretende Windlasten sind vom Antrieb automatisch auszugleichen.
+             Kommentar:
+             Drehtürantriebe sind entsprechend der geltenden ÖNORM EN 16005 in der jeweiligen Nutzungsvariante auszuführen.
+
+                                                                                                                        Seite 26 / 31
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+
+43.72 31A   Drehtürantriebe f.Vollbautürblatt-Türen                                                                           Stk
+            Betrifft Position(en):____________
+            Ausführung (einflügelig, zweiflügelig, zweiflügelig nur Gangflügel):____________
+            Montageart (bandseitig oder gegenbandseitig):____________
+            Erforderlicher Öffnungswinkel:____________
+            Einstellbarer Endschlag (Ja/Nein):____________
+            Einstellbare Schließgeschwindigkeit (Ja/Nein):____________
+            Feststellung in Offenstellung (Ja/Nein):____________
+            Automatische Schließung bei Stromausfall: (Ja/Nein):____________
+            Ansteuerung Elektroschloss (Ja/Nein): ____________
+            LB-Version: 23               Geringfügig Geändert
+43.72 41    Vollautomatische Antriebe innen, für Vollbautürblatt-Türen.
+            Zur Absicherung der Nebenschließkante(n) sind elektronische Absicherungselemente in erforderlicher Anzahl
+            zu berücksichtigen und im Einheitspreis einkalkuliert.
+             Kommentar:
+             Drehtürantriebe sind entsprechend der geltenden ÖNORM EN 16005 in der jeweiligen Nutzungsvariante auszuführen.
+
+43.72 41A   Vollautomatische Antriebe innen f.Vollbautürblatt-Türen                                                           Stk
+            Betrifft Position(en):____________
+            Ausführung (einflügelig, zweiflügelig, zweiflügelig nur Gangflügel):____________
+            Montageart (bandseitig oder gegenbandseitig):____________
+            Gleitschienenmontage (Ja/Nein):____________
+            Erforderlicher Öffnungswinkel:____________
+            Einstellbarer Endschlag (Ja/Nein):____________
+            Einstellbare Schließgeschwindigkeit (Ja/Nein):____________
+            Feststellung in Offenstellung (Ja/Nein):____________
+            Automatische Schließung bei Stromausfall: (Ja/Nein):____________
+            Ansteuerung Elektroschloss (Ja/Nein): ____________
+            Beschreibung Sicherheits-Sensorik:____________
+            LB-Version: 23               Geringfügig Geändert
+43.72 42    Vollautomatische Antriebe außen, für Vollbautürblatt-Türen.
+            Zur Absicherung der Nebenschließkante(n) sind elektronische Absicherungselemente in erforderlicher Anzahl
+            zu berücksichtigen und im Einheitspreis einkalkuliert.
+             Kommentar:
+             Drehtürantriebe sind entsprechend der geltenden ÖNORM EN 16005 in der jeweiligen Nutzungsvariante auszuführen.
+
+43.72 42A   Vollautomatische Antriebe außen f.Vollbautürblatt-Türen                                                           Stk
+            Betrifft Position(en):____________
+            Ausführung (einflügelig, zweiflügelig, zweiflügelig nur Gangflügel):____________
+            Montageart (bandseitig oder gegenbandseitig):____________
+            Gleitschienenmontage (Ja/Nein):____________
+            Erforderlicher Öffnungswinkel:____________
+            Einstellbarer Endschlag (Ja/Nein):____________
+            Einstellbare Schließgeschwindigkeit (Ja/Nein):____________
+            Feststellung in Offenstellung (Ja/Nein):____________
+            Automatische Schließung bei Stromausfall: (Ja/Nein):____________
+            Ansteuerung Elektroschloss (Ja/Nein): ____________
+            Beschreibung Sicherheits-Sensorik:____________
+            LB-Version: 23               Geringfügig Geändert
+
+43.73       Fluchtwegsicherungen f.Vollbautürblatt-Türen
+
+                                                                                                                        Seite 27 / 31
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+             Kommentar:
+             Auf Parameter wie z.B. Feuerschutz, Benutzerklasse/Objekttauglichkeit, Widerstandsklasse, Barrierefreiheit, Ausführung
+             (Rosette oder Langschild), Schutzklasse Drücker, Panik- oder Fluchtfunktionen ist zu achten.
+             Durch elektrische Steuerungen, Auslöseelemente und Verriegelungen wird eine missbräuchliche Benutzung eines
+             Fluchtweges entgegengewirkt.
+
+43.73 01    Unterputz (UP) - Türterminal zur Sicherung von Flucht- und Rettungswegen, für Vollbautürblatt-Türen.
+                • ohne Netzteil
+                • mit aktiv beleuchtetem Fluchtwegschild (LED)
+                • mit integrierter Schlüsseltasteinrichtung, vorgerichtet für Europrofil-Halbzylinder
+                • mit integrierter Steuer- und Nottasteneinheit im sabotagegeschütztem Gehäuse
+
+43.73 01A   UP-Türterminal 1x24V LED f.Vollbautürblatt-Türen                                                                      Stk
+            Betrifft Position(en): ____________
+            Für externe 24 V DC +/-10% Spannungsversorgung.
+            Art der Bedienung (Schlüssel, PIN Code, RFID): ____________
+            Zusatzverriegelung Tür (z.B. verdeckt, elektromagnetisch, elektromechanisch): ____________
+            Zeitverzögerung (Ja/Nein): ____________
+
+43.73 01B   UP-Türterminal 1x230V LED f.Vollbautürblatt-Türen                                                                     Stk
+            Betrifft Position(en): ____________
+            Für externe 230 V DC +/-10% Spannungsversorgung.
+            Art der Bedienung (Schlüssel, PIN Code, RFID): ____________
+            Zusatzverriegelung Tür (z.B. verdeckt, elektromagnetisch, elektromechanisch): ____________
+            Zeitverzögerung (Ja/Nein): ____________
+
+43.73 11    Aufputz (AP) - Türterminal zur Sicherung von Flucht- und Rettungswegen, für Vollbautürblatt-Türen.
+                • ohne Netzteil
+                • mit aktiv beleuchtetem Fluchtwegschild (LED)
+                • mit integrierter Schlüsseltasteinrichtung, vorgerichtet für Europrofil-Halbzylinder
+                • mit integrierter Steuer- und Nottasteneinheit im sabotagegeschütztem Gehäuse
+
+43.73 11A   AP-Türterminal 1x24V LED f.Vollbautürblatt-Türen                                                                      Stk
+            Betrifft Position(en): ____________
+            Für externe 24 V DC +/-10% Spannungsversorgung.
+            Art der Bedienung (Schlüssel, PIN Code, RFID): ____________
+            Zusatzverriegelung Tür (z.B. verdeckt, elektromagnetisch, elektromechanisch): ____________
+            Zeitverzögerung (Ja/Nein): ____________
+
+43.73 11B   AP-Türterminal 1x230V LED f.Vollbautürblatt-Türen                                                                     Stk
+            Betrifft Position(en): ____________
+            Für externe 230 V DC +/-10% Spannungsversorgung.
+            Art der Bedienung (Schlüssel, PIN Code, RFID): ____________
+            Zusatzverriegelung Tür (z.B. verdeckt, elektromagnetisch, elektromechanisch): ____________
+            Zeitverzögerung (Ja/Nein): ____________
+
+43.79       Aufzahlungen f.Ausstattung u.Zubehör
+
+
+            Ausmaß- und Abrechnungsregeln:
+            Abgerechnet wird die Anzahl der Türblätter mit der beschriebenen Ausführung.
+            LB-Version: 23                 Geringfügig Geändert
+43.79 11    Aufzahlung (Az) auf ein Türsystem mit Holztürblatt in Standardausführung.
+
+43.79 11A   Az Holztürblatt f.Kanteneinleimer Hartholz                                                                            Stk
+            Für eine Kantenausführung mit Einleimer aus Hartholz.
+            Betrifft Position(en): ____________
+
+
+                                                                                                                            Seite 28 / 31
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+43.79 11B   Az Holztürblatt f.Kantenanleimer Hartholz                                                                       Stk
+            Für eine Kantenausführung mit Anleimer aus Hartholz.
+            Betrifft Position(en): ____________
+
+43.79 11C   Az Holztürblatt f.PU-Gießharzkante                                                                              Stk
+            Für eine Kantenausführung mit aus Poly-Urethan-Gießharz.
+            Betrifft Position(en): ____________
+
+43.79 11D   Az Holztürblatt f.Starkfurnier Hartholz                                                                         Stk
+            Für eine Kantenausführung mit als 3 mm dicke Massivholzkante am Überschlag, passend zur Oberfläche.
+            Betrifft Position(en): ____________
+43.79 21    Aufzahlung (Az) auf ein Türsystem mit Holz- oder Stahltürblatt.
+
+43.79 21M   Az Holz-/Stahltürblatt f.Hartholzschwelle m.Dichtung                                                            Stk
+            Für eine Hartholzschwelle mit Dichtung.
+            Betrifft Position(en): ____________
+
+43.79 21N   Az Holz-/Stahltürblatt f.Aluanschlagschiene m.Dichtung                                                          Stk
+            Für eine Aluanschlagschiene mit Dichtung.
+            Betrifft Position(en): ____________
+
+43.79 21O   Az Holz-/Stahltürblatt f.Stahlanschlagschiene m.Dichtung                                                        Stk
+            Für eine Stahlanschlagschiene mit Dichtung.
+            Betrifft Position(en): ____________
+
+43.79 21P   Az Holz-/Stahltürblatt f.umlaufende Stahlzarge m.Dichtung                                                       Stk
+            Für ein allseitig umlaufendes Stahlzargenprofil mit Dichtung.
+            Eine etwaige zusätzliche Falzausbildung am Türblatt (unten) ist im Einheitspreis einkalkuliert.
+            Betrifft Position(en): ____________
+
+            LB-Version: 23               Geringfügig Geändert
+
+43.79 21Q   Az Holz-/Stahltürblatt f.Spion                                                                                  Stk
+            Für die Ausstattung mit Spion.____________
+            Betrifft Position(en): ____________
+
+43.79 21R   Az Holz-/Stahltürblatt f.Reedkontakte                                                                           Stk
+            Aufzahlung auf Türsysteme für die Ausführung mit Reedkontakt, bestehend aus dem Reedkontakt, dem
+            Permanentmagnet, sowie Gehäuse und Kappen als Überwachungselement, angebunden an ein Kabel mit
+            Länge von mindestens 5 m.
+            Schutzart: IP67
+            Das Einbringen der Leitung in eine bestehende Dose ist einkalkulieren.
+            Der Magnetkontakt ist auf seine elektrische Schaltfunktion geprüft (z.B. mit Durchgangsprüfer oder Multimeter).
+            LB-Version: 23
+
+43.79 21S   Az Holz-/Stahltürblatt f.Glasausschnitt                                                                         Stk
+            Für einen Glasausschnitt.
+            Abmessungen (Breite x Höhe): ____________ x ____________ cm
+            Feuerschutzklasse: ____________
+            Beanspruchungsklasse: ____________
+            Glasart (Normalglas, ESG, Feuerschutzglas, Rauchschutzglas): ____________
+            Betrifft Position(en): ____________
+
+43.79 21U   Az Holz-/Stahltürblatt f.Haltemagnet m.Unterbrechertaster                                                       Stk
+
+
+
+                                                                                                                      Seite 29 / 31
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+            Für eine Ausstattung mit Feststellvorrichtung (aufgeschraubter Haltemagnet),
+            einschließlich integriertem Unterbrechertaster.
+            Betrifft Position(en): ____________
+
+43.79 31    Aufzahlung (Az) auf ein Türsystem.
+
+43.79 31A   Az Türsystem f.Bodentürpuffer                                                                                    Stk
+            Für einen Bodentürpuffer, einschließlich Befestigungsmittel.
+            Abgerechnet wird die Anzahl der Bodentürpuffer.
+            Betrifft Position(en): ____________
+
+43.79 31B   Az Türsystem f.Wandtürpuffer                                                                                     Stk
+            Für einen Wandtürpuffer, einschließlich Befestigungsmittel.
+            Abgerechnet wird die Anzahl der Wandtürpuffer.
+            Betrifft Position(en): ____________
+
+43.79 33    Aufzahlung (Az) auf ein Türsystem.
+
+43.79 33A   Az Türsystem f.Lüftungsgitter                                                                                    Stk
+            Für ein Lüftungsgitter.
+            Abmessungen (cm): ____________
+            Feuerwiderstandsklasse: ____________
+            Betrifft Position(en): ____________
+
+43.90       Regieleistungen
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen.
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+            LB-Version: 23                 Geringfügig Geändert
+43.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+43.90 00C   Überstundenregelung
+
+
+
+                                                                                                                       Seite 30 / 31
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+43.90 01    Regiestunden
+
+43.90 01A   Regiestunde Facharbeiter                                                                                    h
+
+43.90 01B   Regiestunde Hilfsarbeiter                                                                                   h
+
+43.90 51    Materiallieferungen f.Regieleistungen                                                                       VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+            LB-Version: 23              Geringfügig Geändert
+
+
+
+
+                                                                                                                  Seite 31 / 31
+                                                                                             ib-data GmbH, Softwareentwicklung
+

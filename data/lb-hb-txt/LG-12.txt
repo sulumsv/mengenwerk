@@ -1,0 +1,360 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                    Leistungsgruppe (LG) 12 - Abdichtungsarbeiten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 1212 Waagrechte Abdichtungen
+                     ULG 1213 Lotrechte Abdichtungen
+                     ULG 1215 Schutz der Abdichtungen
+
+
+
+
+                                                                                                            Seite 1 / 6
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+12          Abdichtungsarbeiten
+            Version 023 (2025-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            Ausmaß- und Abrechnungsregeln:
+            Hoch- und Tiefzüge bis 30 cm werden in ihrem Ausmaß dem Ausmaß der waagrechten Abdichtung zugezählt
+            und zusätzlich mit einer Aufzahlung für die Erschwernisse verrechnet. Hoch- und Tiefzüge über 30 cm werden in
+            ihrem Ausmaß dem Ausmaß der lotrechten Abdichtung zugezählt.
+             Kommentar:
+             In dieser Leistungsgruppe sind keine Abdichtungen für Dächer oder befahrbare Flächen beschrieben.
+             Eine nachträgliche horizontale Mauerwerksabdichtung ist in der LG 14 beschrieben.
+             Frei zu formulieren sind (z.B.):
+             - Abdichtungen bei Steckeisen mit Stoffen aus Bitumen oder Kunststoffen (wird nicht empfohlen)
+             - Flüssigabdichtungen
+             - Ausführung rückläufiger Stoß
+             - Arbeiten bei Höhen über 3,2 m (einschließlich aller Erschwernisse und Gerüste)
+             - Angaben (wählbare Vorbemerkungen) und Positionen gemäß Werkvertragsnorm und der ÖNORM B 2110, in Ergänzung
+             zur standardisierten Leistungsbeschreibung
+             Literaturhinweis (z.B.):
+             - ÖNORM B 2209-1 Abdichtungsarbeiten - Werkvertragsnorm - Bauwerke
+             - ÖNORM B 3692 Planung und Ausführung von Bauwerksabdichtungen
+
+            LB-Version: 23              Geändert
+Änderung:   Änderung der LG "Abdichtungen bei Betonflächen und Wänden" auf "Abdichtungsarbeiten"
+            Neue Positionen:
+            12.12 07A Waagr.Abdicht. Kunststoffabdichtungsbahnen W3
+            12.12 07B Waagr.Abdicht. Kunststoffabdichtungsbahnen W4
+            12.12 08A Waagr.Abdicht. Flüssigkunststoffe W3
+            12.12 08B Waagr.Abdicht. Flüssigkunststoffe W4
+            12.13 07A Lotr.Abdicht. Kunststoffabdichtungsbahnen W3
+            12.13 07B Lotr.Abdicht. Kunststoffabdichtungsbahnen W4
+            12.13 08A Lotr.Abdicht. Flüssigkunststoffe W3
+            12.13 08B Lotr.Abdicht. Flüssigkunststoffe W4
+
+12.12       Waagrechte Abdichtungen
+            LB-Version: 23                      Geringfügig Geändert
+12.12 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+12.12 00C   Material zu 12.12 Kunststoff halogenfrei
+            Alle Kunststoffteile sind halogenfrei. Halogenfrei bedeutet, dass Halogene (chemische Elemente wie Fluor,
+            Chlor, Brom und Jod) weder im Kunststoff noch als Zusatzstoff, etwa als Flammschutzmittel, im Produkt
+            enthalten sind.
+            Betrifft Position(en): ____________
+
+            LB-Version: 23                      Geringfügig Geändert
+12.12 01    Hohlkehlen aus Zementmörtel. Im Positionsstichwort ist die Schenkellänge angegeben.
+
+12.12 01A   Hohlkehle Zementmörtel 5cm                                                                                          m
+12.12 02    Waagrechte (waagr.) Abdichtung unter aufgehendem Mauerwerk, Streifen-Zuschnittsbreite bis 50 cm, mit
+            bituminösen Abdichtungsbahnen aus Kunststoffbitumen-Elastomer mit Kunststoffvlieseinlage (E-KV)
+            einschließlich Voranstrich auf Emulsionsbasis.
+
+12.12 02A   Waagr.Abdicht.MWK 1L.E-KV4                                                                                          m
+             Kommentar:
+             Bei entsprechenden Vorleistungen (z.B. Rollierung und Drainage) ist keine Gefahr eines Wasserandranges von unten her
+             und diese Bodenabdichtung ist als Dampfbremse zulässig.
+
+12.12 02B   Waagr.Abdicht.MWK 1L.E-KV5                                                                                          m
+12.12 03    Waagrechte (waagr.) Abdichtung mit bituminösen Abdichtungsbahnen aus Kunststoffbitumen-Elastomer mit
+            Kunststoffvlieseinlage (E-KV), einschließlich Voranstrich auf Emulsions- oder Lösungsmittelbasis.
+
+                                                                                                                            Seite 2 / 6
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+12.12 03A   Waagr.Abdicht.1L.E-KV5                                                                                     m²
+            Gegen Bodenfeuchte, mit 1 Lage E-KV5.
+
+12.12 03B   Waagr.Abdicht.1L.E-KV4+1L.E-KV5                                                                            m²
+            Gegen nicht drückendes Wasser, mit 1 Lage E-KV4 + 1 Lage E-KV5.
+
+12.12 03C   Waagr.Abdicht.2L.E-KV5                                                                                     m²
+            Gegen drückendes Wasser (bis 4 m), 2 Lagen E-KV5.
+
+12.12 03D   Waagr.Abdicht.1L.E-KV4+2L.E-KV5                                                                            m²
+            Gegen drückendes Wasser (über 4 m), 3-lagig, 1 Lage E-KV4 + 2 Lagen E-KV5.
+
+12.12 05    Waagrechte (waagr.) Abdichtung mit bituminösen Abdichtungsbahnen aus Kunststoffbitumen-Plastomer mit
+            Kunststoffvlieseinlage (P-KV), einschließlich Voranstrich auf Emulsionsbasis.
+
+12.12 05A   Waagr.Abdicht.1L.P-KV5                                                                                     m²
+            Gegen Bodenfeuchte, mit 1 Lage P-KV5.
+
+12.12 05B   Waagr.Abdicht.1L.P-KV4+1L.P-KV5                                                                            m²
+            Gegen nicht drückendes Wasser, mit 1 Lage P-KV4 + 1 Lage P-KV5.
+
+12.12 05C   Waagr.Abdicht.2L.P-KV5                                                                                     m²
+            Gegen drückendes Wasser (bis 4 m), 2 Lagen P-KV5.
+
+12.12 05D   Waagr.Abdicht.1L.P-KV4+2L.P-KV5                                                                            m²
+            Gegen drückendes Wasser (über 4 m), 3-lagig, 1 Lage P-KV4 + 2 Lagen P-KV5.
+
+12.12 07    Waagrechte (waagr.) Abdichtung für feuchtigkeitsempfindliche tragende Teile (z.B. Gipswerkstoffe,
+            Holzwerkstoffe) mit Kunststoffabdichtungsbahnen im Bereich der Feuchtraumabdichtung, einschließlich
+            Voranstrich mit Haftgrund.
+            Im Positionsstichwort ist die Art der Abdichtung und die Beanspruchungsklasse der Wasserbelastung
+            angegeben.
+
+12.12 07A   Waagr.Abdicht. Kunststoffabdichtungsbahnen W3                                                              m²
+            Mindestnenndicke 1,2mm
+
+            LB-Version: 23
+
+12.12 07B   Waagr.Abdicht. Kunststoffabdichtungsbahnen W4                                                              m²
+            Mindestnenndicke 1,5mm
+
+            LB-Version: 23
+12.12 08    Waagrechte (waagr.) Abdichtung für feuchtigkeitsempfindliche tragende Teile (z.B. Gipswerkstoffe,
+            Holzwerkstoffe) mit Flüssigkunststoffen für Balkone, Terrassen, sowie im Bereich der Feuchtraumabdichtung.
+            Im Positionsstichwort ist die Art der Abdichtung und die Beanspruchungsklasse der Wasserbelastung
+            angegeben.
+
+12.12 08A   Waagr.Abdicht. Flüssigkunststoffe W3                                                                       m²
+            Mindestnenndicke 1,8mm
+
+            LB-Version: 23
+
+12.12 08B   Waagr.Abdicht. Flüssigkunststoffe W4                                                                       m²
+            Mindestnenndicke 2,1mm
+
+            LB-Version: 23
+12.12 15    Aufzahlung (Az) auf waagrechte (waagr.) Abdichtungen auf Unterböden für Erschwernisse für Hoch- und
+            Tiefzüge (Hochzug) bis 30 cm Höhe.
+
+12.12 15A   Az waagr.Abdicht.Boden Hochzug b.30cm                                                                      m
+12.12 21    Aufzahlung (Az) auf waagrechte (waagr.) Abdichtungen für das Überdecken von Bewegungsfugen
+            (Bewegungsf.).
+
+
+                                                                                                                   Seite 3 / 6
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+12.12 21A   Az waagr.Abdicht.Bewegungsf.Abdeckstreifen                                                                   m
+            Mit Abdeckstreifen aus Abdichtungsbahnen mit Kunststoffbitumen-Elastomer (E) oder Plastomer (P) KV4 mit
+            Kunststoffvlieseinlage, einseitig geklebt, mindestens 50 cm breit, darüber eine Lage E-KV5 oder P-KV-5 mit
+            Kunststoffvlieseinlage, an beiden Seiten verklebt, einschließlich der Eckausbildungen und geschlossenzelligem
+            Rundprofil
+
+12.12 21B   Az waagr.Abdicht.Bwegungsf.Fugenband                                                                         m
+            Mit Dehnfugenbändern mit mindestens 10 cm breiten Klebeflanschen, für Fugen 25 bis 40 mm breit,
+            einschließlich der Eckausbildungen.
+12.12 22    Abdichten bei Rohrdurchführungen in waagrechten (waagr.) Abdichtungen. Im Positionsstichwort ist der
+            Rohraußendurchmesser angegeben.
+
+12.12 22A   Waagr.Abdicht.Rohrmanschetten b.20cm                                                                         Stk
+            Einschließlich Manschetten.
+
+12.12 22B   Waagr.Abdicht.Rohrflansch b.20cm                                                                             Stk
+            Einschließlich Einbinden vorhandener Flansche.
+
+12.12 22C   Waagr.Abdicht.Rohrmanschetten ü.20-50cm                                                                      Stk
+            Einschließlich Manschetten.
+
+12.12 22D   Waagr.Abdicht.Rohrflansch ü.20-50cm                                                                          Stk
+            Einschließlich Einbinden vorhandener Flansche.
+
+12.13       Lotrechte Abdichtungen
+            LB-Version: 23                Geringfügig Geändert
+12.13 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+12.13 00C   Material zu 12.13 Kunststoff halogenfrei
+            Alle Kunststoffteile sind halogenfrei. Halogenfrei bedeutet, dass Halogene (chemische Elemente wie Fluor,
+            Chlor, Brom und Jod) weder im Kunststoff noch als Zusatzstoff, etwa als Flammschutzmittel, im Produkt
+            enthalten sind.
+            Betrifft Position(en): ____________
+            LB-Version: 23                Geringfügig Geändert
+12.13 01    Vorbereiten der Oberfläche für lotrechte (Lotr.) Abdichtungen.
+
+12.13 01A   Lotr.Mauerwerk verputzen ZM                                                                                  m²
+            Von gemauerten Wänden durch Verputzen mit mindestens 10 mm Zementmörtel, einschließlich Verreiben der
+            Oberfläche.
+12.13 02    Lotrechte (Lotr.) Abdichtung (Abdicht.) auf Wandflächen mit Spachtelmassen, hergestellt nach den
+            Verarbeitungsrichtlinien des Erzeugers.
+
+12.13 02A   Lot.Abdicht.Feucht.Spachtel.1k 1S                                                                            m²
+            Gegen Bodenfeuchtigkeit, mit kalt zu verarbeitender einkomponentiger (1k), lösungsmittelfreier Spachtelmasse
+            auf Bitumenemulsionsbasis, in einer Schicht (1S), 2 mm dick.
+
+12.13 02B   Lot.Abdicht.n.drück.Wasser Spachtel.1k 2S                                                                    m²
+            Gegen nicht drückendes Wasser, mit kalt zu verarbeitender einkomponentiger (1k), lösungsmittelfreier
+            Spachtelmasse auf Bitumenemulsionsbasis, in zwei Schichten (2S), 4 mm dick.
+
+12.13 02C   Az Armierungseinlage Glasseidengewebe                                                                        m²
+12.13 03    Lotrechte (Lotr.) Abdichtung auf Wandflächen mit bituminösen Abdichtungsbahnen aus
+            Kunststoffbitumen-Elastomer mit Kunststoffvlieseinlage (E-KV) einschließlich Voranstrich auf Emulsions- oder
+            Lösungsmittelbasis.
+
+12.13 03A   Lotr.Abdicht.1L.E-KV5                                                                                        m²
+            Gegen Bodenfeuchte, mit 1 Lage E-KV5.
+
+
+                                                                                                                     Seite 4 / 6
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+12.13 03B   Lotr.Abdicht.1L.E-KV4+1L.E-KV5                                                                                 m²
+            Gegen nicht drückendes Wasser, mit 1 Lage E-KV4 + 1 Lage E-KV5.
+
+12.13 03C   Lotr.Abdicht.2L.E-KV5                                                                                          m²
+            Gegen drückendes Wasser (bis 4 m), 2 Lagen E-KV5.
+
+12.13 03D   Lotr.Abdicht.1L.E-KV4+2L.E-KV5                                                                                 m²
+            Gegen drückendes Wasser (über 4 m), 3-lagig, 1 Lage E-KV4 + 2 Lagen E-KV5.
+
+12.13 05    Lotrechte (Lotr.) Abdichtung auf Wandflächen mit bituminösen Abdichtungsbahnen aus
+            Kunststoffbitumen-Plastomer mit Kunststoffvlieseinlage (E-KV) einschließlich Voranstrich auf Emulsions- oder
+            Lösungsmittelbasis.
+
+12.13 05A   Lotr.Abdicht.1L.P-KV5                                                                                          m²
+            Gegen Bodenfeuchte, mit 1 Lage P-KV5.
+
+12.13 05B   Lotr.Abdicht.1L.P-KV4+1L.P-KV5                                                                                 m²
+            Gegen nicht drückendes Wasser, mit 1 Lage E-KV4 + 1 Lage E-KV5.
+
+12.13 05C   Lotr.Abdicht.2L.P-KV5                                                                                          m²
+            Gegen drückendes Wasser (bis 4 m), 2 Lagen P-KV5.
+
+12.13 05D   Lotr.Abdicht.1L.P-KV4+2L.P-KV5                                                                                 m²
+            Gegen drückendes Wasser (über 4 m), 3-lagig, 1 Lage P-KV4 + 2 Lagen P-KV5.
+
+12.13 07    Lotrechte (Lotr.) Abdichtung für feuchtigkeitsempfindliche tragende Teile (z.B. Gipswerkstoffe, Holzwerkstoffe)
+            mit Kunststoffabdichtungsbahnen im Bereich der Feuchtraumabdichtung, einschließlich Voranstrich mit
+            Haftgrund.
+            Im Positionsstichwort ist die Art der Abdichtung und die Beanspruchungsklasse der Wasserbelastung
+            angegeben.
+
+12.13 07A   Lotr.Abdicht. Kunststoffabdichtungsbahnen W3                                                                   m²
+            Mindestnenndicke 1,2mm
+
+            LB-Version: 23
+
+12.13 07B   Lotr.Abdicht. Kunststoffabdichtungsbahnen W4                                                                   m²
+            Mindestnenndicke 1,5mm
+
+            LB-Version: 23
+12.13 08    Lotrechte (Lotr.) Abdichtung für feuchtigkeitsempfindliche tragende Teile (z.B. Gipswerkstoffe, Holzwerkstoffe)
+            mit Flüssigkunststoffen für Balkone, Terrassen, sowie im Bereich der Feuchtraumabdichtung.
+            Im Positionsstichwort ist die Art der Abdichtung und die Beanspruchungsklasse der Wasserbelastung
+            angegeben.
+
+12.13 08A   Lotr.Abdicht. Flüssigkunststoffe W3                                                                            m²
+            Mindestnenndicke 1,8mm
+
+            LB-Version: 23
+
+12.13 08B   Lotr.Abdicht. Flüssigkunststoffe W4                                                                            m²
+            Mindestnenndicke 2,1mm
+
+            LB-Version: 23
+12.13 21    Aufzahlung (Az) auf lotrechte Abdichtungen (lotr.Abdicht.) für das Überdecken von Bewegungsfugen
+            (Bewegungsf.).
+
+12.13 21A   Az lotr.Abdicht.Bewegungsf.Abdeckstreifen                                                                      m
+            Mit Abdeckstreifen aus Abdichtungsbahnen mit Kunststoffbitumen-Elastomer (E) oder Plastomer (P) -KV4 mit
+            Kunststoffvlieseinlage, einseitig geklebt, mindestens 50 cm breit, darüber eine Lage E-KV5 oder P-KV5 mit
+            Kunststoffvlieseinlage, an beiden Seiten verklebt, einschließlich der Eckausbildungen und geschlossenzelligem
+            Rundprofil.
+
+12.13 21B   Az lotr.Abdicht.Bewegungsf.Fugenband                                                                           m
+                                                                                                                       Seite 5 / 6
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Mit Dehnfugenbändern mit mindestens 10 cm breiten Klebeflanschen, für Fugen 25 bis 40 mm breit,
+            einschließlich der Eckausbildungen.
+12.13 22    Abdichten bei Rohrdurchführungen in lotrechten (Lotr.) Abdichtungen. Im Positionsstichwort ist der
+            Rohraußendurchmesser angegeben.
+
+12.13 22A   Lotr.Abdicht.Rohrmanschetten b.20cm                                                                            Stk
+            Einschließlich Manschetten.
+
+12.13 22B   Lotr.Abdicht.Rohrflansch b.20cm                                                                                Stk
+            Einschließlich Einbinden vorhandener Flansche.
+
+12.13 22C   Lotr.Abdicht.Rohrmanschetten ü.20-50cm                                                                         Stk
+            Einschließlich Manschetten.
+
+12.13 22D   Lotr.Abdicht.Rohrflansch ü.20-50cm                                                                             Stk
+            Einschließlich Einbinden vorhandener Flansche.
+
+12.13 24    Befestigungsschiene aus Aluminium an lotrechten Wänden (Lotr.), befestigt im Abstand von höchstens 25 cm.
+
+12.13 24A   Lotr.Befestigungsschiene Aluminium                                                                             m
+12.15       Schutz der Abdichtungen
+12.15 02    Schutz der lotrechten Abdichtung (lotr.Abd.) im Erdbereich mit formgeschäumten expandierten
+            Polystyrolhartschaumplatten mit Stufenfalz, Platten punktweise geklebt. Im Positionsstichwort ist die Dicke der
+            Platten angegeben.
+
+12.15 02A   Schutz lotr.Abd.EPS-P/S 30mm                                                                                   m²
+
+12.15 02B   Schutz lotr.Abd.EPS-P/S 50mm                                                                                   m²
+12.15 03    Schutz der lotrechten Abdichtung (lotr.Abd.) und Außenwanddämmung im Erdbereich mit extrudierten
+            Polystyrolhartschaumstoffplatten mit Stufenfalz, Platten punktweise mit Bitumenkaltkleber geklebt. Im
+            Positionsstichwort ist die Dicke der Platten angegeben.
+
+12.15 03A   Schutz lotr.Abd.Perimeterd.XPS-G30/S 50mm                                                                      m²
+
+12.15 03B   Schutz lotr.Abd.Perimeterd.XPS-G30/S 60mm                                                                      m²
+
+12.15 03C   Schutz lotr.Abd.Perimeterd.XPS-G30/S 80mm                                                                      m²
+
+12.15 03D   Schutz lotr.Abd.Perimeterd.XPS-G30/S 100mm                                                                     m²
+
+12.15 03X   Schutz lotr.Abd.Perimeterd.XPS-G30/S__________                                                                 m²
+12.15 07    Schutz der lotrechten Abdichtung mit verrottungsfesten Noppenbahnen, hergestellt nach den
+            Verarbeitungsrichtlinien des Erzeugers.
+
+12.15 07A   Schutz lotr.Abd.Noppenbahn Hohlkehle                                                                           m
+            Untere Hohlkehle.
+
+12.15 07B   Schutz lotr.Abd.Noppenbahn                                                                                     m²
+            Abgerechnet die geschützte Fläche.
+
+
+
+
+                                                                                                                       Seite 6 / 6
+                                                                                                ib-data GmbH, Softwareentwicklung
+

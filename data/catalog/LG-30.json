@@ -1,0 +1,1021 @@
+{
+  "lg": "30",
+  "title": "Schließanlagen",
+  "positions": [
+    {
+      "code": "30.30.01A",
+      "text": "Schließplan",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.00A",
+      "text": "Zylinder und Schlüssel (zu 30.31)",
+      "unit": ""
+    },
+    {
+      "code": "30.31.00B",
+      "text": "Schließhierarchie (zu 30.31)",
+      "unit": ""
+    },
+    {
+      "code": "30.31.00C",
+      "text": "Einbindung anderer Objekte (zu 30.31)",
+      "unit": ""
+    },
+    {
+      "code": "30.31.00D",
+      "text": "Elektronische Aufrüstung (zu 30.31)",
+      "unit": ""
+    },
+    {
+      "code": "30.31.00E",
+      "text": "Sonderzylinder (zu 30.31)",
+      "unit": ""
+    },
+    {
+      "code": "30.31.00F",
+      "text": "Zusatzprodukte (zu 30.31)",
+      "unit": ""
+    },
+    {
+      "code": "30.31.00G",
+      "text": "Sonderfunktionen (zu 30.31)",
+      "unit": ""
+    },
+    {
+      "code": "30.31.00H",
+      "text": "Sonstige Vereinbarungen (zu 30.31)",
+      "unit": ""
+    },
+    {
+      "code": "30.31.01A",
+      "text": "NO-Haupt/Zentral Halbzylinder 30mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.01B",
+      "text": "NO-Haupt/Zentral Halbzylinder ü.30-35mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.01C",
+      "text": "NO-Haupt/Zentral Halbzylinder ü.35-40mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.01D",
+      "text": "NO-Haupt/Zentral Halbzylinder ü.40-45mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.01E",
+      "text": "NO-Haupt/Zentral Halbzylinder ü.45-50mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.01F",
+      "text": "NO-Haupt/Zentral Halbzylinder ü.50-55mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.01G",
+      "text": "NO-Haupt/Zentral Halbzylinder ü.55-60mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.02A",
+      "text": "NO-Haupt/Zentral Doppelzylinder 60-65mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.02B",
+      "text": "NO-Haupt/Zentral Doppelzylinder ü.65-70mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.02C",
+      "text": "NO-Haupt/Zentral Doppelzylinder ü.70-75mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.02D",
+      "text": "NO-Haupt/Zentral Doppelzylinder ü.75-80mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.02E",
+      "text": "NO-Haupt/Zentral Doppelzylinder ü.80-85mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.02F",
+      "text": "NO-Haupt/Zentral Doppelzylinder ü.85-90mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.02G",
+      "text": "NO-Haupt/Zentral Doppelzylinder ü.90-95mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.02H",
+      "text": "NO-Haupt/Zentral Doppelzylinder ü.95mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.03A",
+      "text": "NO-Haupt/Zentral Blechmontagezylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.04A",
+      "text": "NO-Haupt/Zentral Außenzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.05A",
+      "text": "NO-Haupt/Zentral Aufzugszylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.06A",
+      "text": "NO-Haupt/Zentral Hangschloss",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.07A",
+      "text": "NO-Haupt/Zentral HZ/Schalt.E/A",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.07B",
+      "text": "NO-Haupt/Zentral HZ/Schalt.4-fach",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.07E",
+      "text": "NO-Haupt/Zentral HZ/Glastür Edelstahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.07F",
+      "text": "NO-Haupt/Zentral HZ/Glastür Alu",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.07G",
+      "text": "NO-Haupt/Zentral HZ/Glastür",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.07H",
+      "text": "NO-Haupt/Zentral Fenstergriff sperrbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.07L",
+      "text": "NO-Haupt/Zentral Knaufzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.11A",
+      "text": "NO-HG-Sperr-Anl.Halbzylinder 30mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.11B",
+      "text": "NO-HG-Sperr-Anl.Halbzylinder ü.30-35mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.11C",
+      "text": "NO-HG-Sperr-Anl.Halbzylinder ü.35-40mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.11D",
+      "text": "NO-HG-Sperr-Anl.Halbzylinder ü.40-45mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.11E",
+      "text": "NO-HG-Sperr-Anl.Halbzylinder ü.45-50mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.11F",
+      "text": "NO-HG-Sperr-Anl.Halbzylinder ü.50-55mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.11G",
+      "text": "NO-HG-Sperr-Anl.Halbzylinder ü.55-60mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.12A",
+      "text": "NO-HG-Sperr-Anl.Dopp.Zylinder 60-65mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.12B",
+      "text": "NO-HG-Sperr-Anl.Dopp.Zylinder ü.65-70mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.12C",
+      "text": "NO-HG-Sperr-Anl.Dopp.Zylinder ü.70-75mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.12D",
+      "text": "NO-HG-Sperr-Anl.Dopp.Zylinder ü.75-80mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.12E",
+      "text": "NO-HG-Sperr-Anl.Dopp.Zylinder ü.80-85mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.12F",
+      "text": "NO-HG-Sperr-Anl.Dopp.Zylinder ü.85-90mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.12G",
+      "text": "NO-HG-Sperr-Anl.Dopp.Zylinder ü.90-95mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.12H",
+      "text": "NO-HG-Sperr-Anl.Dopp.Zylinder ü.95-100mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.13A",
+      "text": "NO-HG-Sperr-Anl.Blechmontagezylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.14A",
+      "text": "NO-HG-Sperr-Anl.Außenzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.15A",
+      "text": "NO-HG-Sperr-Anl.Aufzugzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.16A",
+      "text": "NO-HG-Sperr-Anl.Hangschloss",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.17A",
+      "text": "NO-HG-Sperr-Anl.HZ/Schalt.E/A",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.17B",
+      "text": "NO-HG-Sperr-Anl.HZ/Schalt.4-fach",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.17E",
+      "text": "NO-HG-Sperr-Anl.HZ/Glastür Edelstahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.17F",
+      "text": "NO-HG-Sperr-Anl.HZ/Glastür Alu",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.17G",
+      "text": "NO-HG-Sperr-Anl.HZ/Glastür",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.17H",
+      "text": "NO-HG-Sperr-Anl.Fenstergriff sperrbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.17L",
+      "text": "NO-HG-Sperr-Anl.Knaufzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.21A",
+      "text": "NO-Hauptschlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.21B",
+      "text": "NO-Gruppenschlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.21C",
+      "text": "NO-Eigenschlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.21D",
+      "text": "NO-übergeordneter Schlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.22A",
+      "text": "Az NO-Witterungsschutz",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.22B",
+      "text": "Az NO-beidseitig sperrbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.31.22C",
+      "text": "Az NO-Zahnritzel",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.00A",
+      "text": "Zylinder und Schlüssel (zu 30.32)",
+      "unit": ""
+    },
+    {
+      "code": "30.32.00B",
+      "text": "Schließhierarchie (zu 30.32)",
+      "unit": ""
+    },
+    {
+      "code": "30.32.00C",
+      "text": "Einbindung anderer Objekte (zu 30.32)",
+      "unit": ""
+    },
+    {
+      "code": "30.32.00D",
+      "text": "Elektronische Aufrüstung (zu 30.32)",
+      "unit": ""
+    },
+    {
+      "code": "30.32.00E",
+      "text": "Sonderzylinder (zu 30.32)",
+      "unit": ""
+    },
+    {
+      "code": "30.32.00F",
+      "text": "Zusatzprodukte (zu 30.32)",
+      "unit": ""
+    },
+    {
+      "code": "30.32.00G",
+      "text": "Sonderfunktionen (zu 30.32)",
+      "unit": ""
+    },
+    {
+      "code": "30.32.00H",
+      "text": "Sonstige Vereinbarungen (zu 30.32)",
+      "unit": ""
+    },
+    {
+      "code": "30.32.01A",
+      "text": "BS-Haupt/Zentral Halbzylinder 30mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.01B",
+      "text": "BS-Haupt/Zentral Halbzylinder ü.30-35mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.01C",
+      "text": "BS-Haupt/Zentral Halbzylinder ü.35-40mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.01D",
+      "text": "BS-Haupt/Zentral Halbzylinder ü.40-45mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.01E",
+      "text": "BS-Haupt/Zentral Halbzylinder ü.45-50mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.01F",
+      "text": "BS-Haupt/Zentral Halbzylinder ü.50-55mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.01G",
+      "text": "BS-Haupt/Zentral Halbzylinder ü.55-60mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.02A",
+      "text": "BS-Haupt/Zentral Dopp.Zylinder 60-65mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.02B",
+      "text": "BS-Haupt/Zentral Dopp.Zylinder ü.65-70mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.02C",
+      "text": "BS-Haupt/Zentral Dopp.Zylinder ü.70-75mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.02D",
+      "text": "BS-Haupt/Zentral Dopp.Zylinder ü.75-80mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.02E",
+      "text": "BS-Haupt/Zentral Dopp.Zylinder ü.80-85mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.02F",
+      "text": "BS-Haupt/Zentral Dopp.Zylinder ü.85-90mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.02G",
+      "text": "BS-Haupt/Zentral Dopp.Zylinder ü.90-95mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.02H",
+      "text": "BS-Haupt/Zentral Dopp.Zylinder ü.95-100mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.03A",
+      "text": "BS-Haupt/Zentral Blechmontagezylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.04A",
+      "text": "BS-Haupt/Zentral Außenzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.05A",
+      "text": "BS-Haupt/Zentral Aufzugzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.06A",
+      "text": "BS-Haupt/Zentral Hangschloss",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.07A",
+      "text": "BS-Haupt/Zentral HZ/Schalt.E/A",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.07B",
+      "text": "BS-Haupt/Zentral HZ/Schalt.4-fach",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.07E",
+      "text": "BS-Haupt/Zentral HZ/Glastür Edelstahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.07F",
+      "text": "BS-Haupt/Zentral HZ/Glastür Alu",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.07G",
+      "text": "BS-Haupt/Zentral HZ/Glastür",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.07H",
+      "text": "BS-Haupt/Zentral Fenstergriff sperrbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.07L",
+      "text": "BS-Haupt/Zentral Knaufzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.11A",
+      "text": "BS-HG-Sperr-Anl.Halbzylinder 30mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.11B",
+      "text": "BS-HG-Sperr-Anl.Halbzylinder ü.30-35mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.11C",
+      "text": "BS-HG-Sperr-Anl.Halbzylinder ü.35-40mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.11D",
+      "text": "BS-HG-Sperr-Anl.Halbzylinder ü.40-45mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.11E",
+      "text": "BS-HG-Sperr-Anl.Halbzylinder ü.45-50mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.11F",
+      "text": "BS-HG-Sperr-Anl.Halbzylinder ü.50-55mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.11G",
+      "text": "BS-HG-Sperr-Anl.Halbzylinder ü.55-60mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.12A",
+      "text": "BS-HG-Sperr-Anl.Dopp.Zylinder 60-65mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.12B",
+      "text": "BS-HG-Sperr-Anl.Dopp.Zylinder ü.65-70mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.12C",
+      "text": "BS-HG-Sperr-Anl.Dopp.Zylinder ü.70-75mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.12D",
+      "text": "BS-HG-Sperr-Anl.Dopp.Zylinder ü.75-80mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.12E",
+      "text": "BS-HG-Sperr-Anl.Dopp.Zylinder ü.80-85mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.12F",
+      "text": "BS-HG-Sperr-Anl.Dopp.Zylinder ü.85-90mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.12G",
+      "text": "BS-HG-Sperr-Anl.Dopp.Zylinder ü.90-95mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.12H",
+      "text": "BS-HG-Sperr-Anl.Dopp.Zylinder ü.95-100mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.13A",
+      "text": "BS-HG-Sperr-Anl.Blechmontagezylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.14A",
+      "text": "BS-HG-Sperr-Anl.Außenzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.15A",
+      "text": "BS-HG-Sperr-Anl.Aufzugzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.16A",
+      "text": "BS-HG-Sperr-Anl.Hangschloss",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.17A",
+      "text": "BS-HG-Sperr-Anl.HZ/Schalt.E/A",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.17B",
+      "text": "BS-HG-Sperr-Anl.HZ/Schalt.4-fach",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.17E",
+      "text": "BS-HG-Sperr-Anl.HZ/Glastür Edelstahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.17F",
+      "text": "BS-HG-Sperr-Anl.HZ/Glastür Alu",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.17G",
+      "text": "BS-HG-Sperr-Anl.HZ/Glastür",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.17H",
+      "text": "BS-HG-Sperr-Anl.Fenstergriff sperrbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.17L",
+      "text": "BS-HG-Sperr-Anl.Knaufzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.21A",
+      "text": "BS-Hauptschlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.21B",
+      "text": "BS-Gruppenschlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.21C",
+      "text": "BS-Eigenschlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.21D",
+      "text": "BS-übergeordneter Schlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.22A",
+      "text": "Az BS-Witterungsschutz",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.22B",
+      "text": "Az BS-beidseitig sperrbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.22C",
+      "text": "Az BS-Zahnritzel",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.32.23A",
+      "text": "Az Klasse A gemäß VDS",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.00A",
+      "text": "Zylinder und Schlüssel (zu 30.33)",
+      "unit": ""
+    },
+    {
+      "code": "30.33.00B",
+      "text": "Schließhierarchie (zu 30.33)",
+      "unit": ""
+    },
+    {
+      "code": "30.33.00C",
+      "text": "Einbindung anderer Objekte (zu 30.33)",
+      "unit": ""
+    },
+    {
+      "code": "30.33.00D",
+      "text": "Elektronische Aufrüstung (zu 30.33)",
+      "unit": ""
+    },
+    {
+      "code": "30.33.00E",
+      "text": "Sonderzylinder (zu 30.33)",
+      "unit": ""
+    },
+    {
+      "code": "30.33.00F",
+      "text": "Zusatzprodukte (zu 30.33)",
+      "unit": ""
+    },
+    {
+      "code": "30.33.00G",
+      "text": "Sonderfunktionen (zu 30.33)",
+      "unit": ""
+    },
+    {
+      "code": "30.33.00K",
+      "text": "Technischer Schlüsselschutz (zu 30.33)",
+      "unit": ""
+    },
+    {
+      "code": "30.33.00L",
+      "text": "Technologischer Schlüsselschutz (zu 30.33)",
+      "unit": ""
+    },
+    {
+      "code": "30.33.02A",
+      "text": "KS-Haupt/Zentral Halbzylinder 30mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.02B",
+      "text": "KS-Haupt/Zentral Halbzylinder ü.30-35mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.02C",
+      "text": "KS-Haupt/Zentral Halbzylinder ü.35-40mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.02D",
+      "text": "KS-Haupt/Zentral Halbzylinder ü.40-45mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.02E",
+      "text": "KS-Haupt/Zentral Halbzylinder ü.45-50mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.02F",
+      "text": "KS-Haupt/Zentral Halbzylinder ü.50-55mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.02G",
+      "text": "KS-Haupt/Zentral Halbzylinder ü.55-60mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.03A",
+      "text": "KS-Haupt/Zentral Dopp.Zylinder 60-65mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.03B",
+      "text": "KS-Haupt/Zentral Dopp.Zylinder ü.65-70mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.03C",
+      "text": "KS-Haupt/Zentral Dopp.Zylinder ü.70-75mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.03D",
+      "text": "KS-Haupt/Zentral Dopp.Zylinder ü.75-80mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.03E",
+      "text": "KS-Haupt/Zentral Dopp.Zylinder ü.80-85mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.03F",
+      "text": "KS-Haupt/Zentral Dopp.Zylinder ü.85-90mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.03G",
+      "text": "KS-Haupt/Zentral Dopp.Zylinder ü.90-95mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.03H",
+      "text": "KS-Haupt/Zentral Dopp.Zylinder ü.95-100mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.04A",
+      "text": "KS-Haupt/Zentral Blechmontagezylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.05A",
+      "text": "KS-Haupt/Zentral Außenzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.06A",
+      "text": "KS-Haupt/Zentral Aufzugzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.07A",
+      "text": "KS-Haupt/Zentral Hangschloss",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.08A",
+      "text": "KS-Haupt/Zentral HZ/Schalt.E/A",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.08B",
+      "text": "KS-Haupt/Zentral HZ/Schalt.4-fach",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.08E",
+      "text": "KS-Haupt/Zentral HZ/Glastür Edelstahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.08F",
+      "text": "KS-Haupt/Zentral HZ/Glastür Alu",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.08G",
+      "text": "KS-Haupt/Zentral HZ/Glastür",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.08H",
+      "text": "KS-Haupt/Zentral Fenstergriff sperrbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.08L",
+      "text": "KS-Haupt/Zentral Knaufzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.12A",
+      "text": "KS-HG-Sperr-Anl.Halbzylinder 30mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.12B",
+      "text": "KS-HG-Sperr-Anl.Halbzylinder ü.30-35mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.12C",
+      "text": "KS-HG-Sperr-Anl.Halbzylinder ü.35-40mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.12D",
+      "text": "KS-HG-Sperr-Anl.Halbzylinder ü.40-45mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.12E",
+      "text": "KS-HG-Sperr-Anl.Halbzylinder ü.45-50mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.12F",
+      "text": "KS-HG-Sperr-Anl.Halbzylinder ü.50-55mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.12G",
+      "text": "KS-HG-Sperr-Anl.Halbzylinder ü.55-60mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.13A",
+      "text": "KS-HG-Sperr-Anl.Dopp.Zylinder 60-65mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.13B",
+      "text": "KS-HG-Sperr-Anl.Dopp.Zylinder ü.65-70mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.13C",
+      "text": "KS-HG-Sperr-Anl.Dopp.Zylinder ü.70-75mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.13D",
+      "text": "KS-HG-Sperr-Anl.Dopp.Zylinder ü.75-80mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.13E",
+      "text": "KS-HG-Sperr-Anl.Dopp.Zylinder ü.80-85mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.13F",
+      "text": "KS-HG-Sperr-Anl.Dopp.Zylinder ü.85-90mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.13G",
+      "text": "KS-HG-Sperr-Anl.Dopp.Zylinder ü.90-95mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.13H",
+      "text": "KS-HG-Sperr-Anl.Dopp.Zylinder ü.95-100mm L",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.14A",
+      "text": "KS-HG-Sperr-Anl.Blechmontagezylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.15A",
+      "text": "KS-HG-Sperr-Anl.Außenzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.16A",
+      "text": "KS-HG-Sperr-Anl.Aufzugzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.17A",
+      "text": "KS-HG-Sperr-Anl.Hangschloss",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.18A",
+      "text": "KS-HG-Sperr-Anl.HZ/Schalt.E/A",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.18B",
+      "text": "KS-HG-Sperr-Anl.HZ/Schalt.4-fach",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.18E",
+      "text": "KS-HG-Sperr-Anl.HZ/Glastür Edelstahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.18F",
+      "text": "KS-HG-Sperr-Anl.HZ/Glastür Alu",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.18G",
+      "text": "KS-HG-Sperr-Anl.HZ/Glastür",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.18H",
+      "text": "KS-HG-Sperr-Anl.Fenstergriff sperrbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.18L",
+      "text": "KS-HG-Sperr-Anl.Knaufzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.22A",
+      "text": "KS-Hauptschlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.22B",
+      "text": "KS-Gruppenschlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.22C",
+      "text": "KS-Eigenschlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.22D",
+      "text": "KS-übergeordnete Schlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.24B",
+      "text": "Az Klasse B gemäß VDS",
+      "unit": "Stk"
+    },
+    {
+      "code": "30.33.24C",
+      "text": "Az Klasse B+gemäß VDS",
+      "unit": "Stk"
+    }
+  ]
+}

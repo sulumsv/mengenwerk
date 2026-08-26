@@ -1,0 +1,1532 @@
+  Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+  LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                              Standardisierte Leistungsbeschreibung
+Leistungsgruppe (LG) 48 - Beschichtungen auf Holz,Metall,Mwk,Putz,Beton, Bauplatten
+
+                                  Kennung: HB            Version: 023
+
+                              Leistungsbeschreibung Hochbau
+
+                                           Datum: 31.12.2025
+                    Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                        https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                              Vorversion:
+                                                 HB 022
+                   Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                       ULG 4800    Wählbare Vorbemerkungen
+                       ULG 4801    Schutzabdeckungen, Demontage u.Montage
+                       ULG 4811    Vorarbeiten f.Beschichtungen auf Holz
+                       ULG 4812    Vorarbeiten f.Beschichtungen auf Metall
+                       ULG 4813    Vorarbeiten f.Beschichtungen
+                       ULG 4814    Vorarbeiten f.Beschichtungen Fassade (außen)
+                       ULG 4821    Beschichtungen auf Holz u.Holzwerkstoffen
+                       ULG 4822    Beschichtungen auf Metall
+                       ULG 4831    Innenbeschichtung m.Leimfarben
+                       ULG 4832    Innenbeschichtung m.Kalkfarben
+                       ULG 4833    Innenbeschichtung m.Silikatfarben
+                       ULG 4834    Innenbeschichtung m.Dispersionsfarben
+                       ULG 4835    Innenbeschichtung von Beton (Fußböden)
+                       ULG 4841    Beschichtungen von Außenflächen (Fassade)
+                       ULG 4851    Walzen, Fugen, Sonstiges
+                       ULG 4852    Transporte Fenster-/Türflügeln
+                       ULG 4880    Instandhaltungs-/Wartungsarbeiten
+                       ULG 4890    Regieleistungen
+
+
+
+
+                                                                                                             Seite 1 / 25
+                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+48          Beschichtungen auf Holz,Metall,Mwk,Putz,Beton, Bauplatten
+            Version 023 (2025-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            Im Folgenden sind Beschichtungen auf Holz und Holzwerkstoffen, Metall, Mauerwerk (Mwk), Putz, Beton und
+            Bauplatten beschrieben.
+            1. Ausführung der Beschichtungen:
+            Einfache, Standard- und hochwertige Ausführungen sowie die Instandhaltung (Wartung) sind gemäß ÖNORM
+            ausgeführt.
+            Beschichtungen von Fensterflügeln und Türblättern erfolgen im ausgehängtem Zustand.
+            2. Erbringungsort:
+            Der Erbringungsort ist die Baustelle.
+            3. Einkalkulierte Leistungen:
+            Das Entsorgen der Baurestmassen ist in die Einheitspreise einkalkuliert.
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Beschichtungsarbeiten auf Fenstern und Türen im eingehängten Zustand
+             - Beschichtungsarbeiten auf Fenstern und Türen, abgerechnet nach Stück (Loch)
+
+            LB-Version: 23                  Geändert
+Änderung:   Der Begriff der Leichtbauplatten (Leichtbaupl.) ist nun als "Bauplatten" (ehem. Gipsbauplatten, siehe LG 39 bzw. ÖN B 3410)
+            vereinheitlicht.
+            Geänderte Positionen:
+            48.12 Vorarbeiten f.Beschichtungen auf Metall
+            48.12 01C Vorarbeiten (teilw.entf.) f.Instandsetzung Gussheizkörper
+            48.13 Vorarbeiten f.Beschichtungen
+            48.13 31A Tiefengrund wasserverdünnbar
+            48.13 31B Tiefengrund Lösungsmittelbasis
+            48.14 Vorarbeiten f.Beschichtungen Fassade (außen)
+            Neue Positionen:
+            48.00 00N Besondere Ausmaß- und Abrechnungsregelung
+            48.11 00A Ausmaß/Abrechnung Vorarbeiten auf Holz
+            48.12 00A Ausmaß/Abrechnung Vorarbeiten auf Metall
+            48.13 00A Ausmaß/Abrechnung Vorarbeiten f. Beschichtungen
+            48.14 00A Ausmaß/Abrechnung Vorarbeiten f. Beschichtungen Fassade
+
+48.00       Wählbare Vorbemerkungen
+            LB-Version: 23                 Geringfügig Geändert
+48.00 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+48.00 00N   Besondere Ausmaß- und Abrechnungsregelung
+            Für Beschichtungen auf Holz,Metall,Mwk,Putz,Beton, Bauplatten gelten folgende Ausmaß- und
+            Abrechnungsregeln (z.B. Abrechnung nach Nettolängen und Nettoflächen ohne Zuschläge, Abrechnung ohne
+            Zuschläge für Höhen über 3,2m sofern es eigene Positionen gibt):
+            ____________
+             Kommentar:
+             Zur Abweichung oder außer Kraft setzen der ÖNORM B 2230-1.
+
+            LB-Version: 23
+48.00 04    Beschichtungen auf Holz und Metall:
+            Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+48.00 04B   Farbtöne gemäß Altbestand
+
+
+                                                                                                                              Seite 2 / 25
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+            Die ausgeschriebenen Beschichtungen werden in den gleichen Farbtönen wie der Altbestand ausgeführt.
+            Glanzgrad: ____________
+            Betrifft Position(en): ____________
+
+48.00 04C   Stoff-u.Ausführungsprüfungen
+            Der Auftragnehmer verpflichtet sich, die für die Stoffprüfung erforderlichen Proben unentgeltlich zur Verfügung
+            zu stellen. Bei Probeentnahmen übergibt der Arbeiter aus seinem Gebrauchsbehälter die verlangten
+            Probemengen. Wenn der Auftraggeber auch andere Prüfungen, z.B. Gitterschnittprüfungen der Haftfestigkeit,
+            Schnitte zur Kontrolle der Anzahl und Dicken der aufgebrachten Beschichtungen durchführt, werden die durch
+            Prüfungen beschädigten Stellen ohne gesonderte Vergütung ausgebessert.
+            Betrifft Position(en): ____________
+
+48.00 04D   Kontrollflächen
+            Vor Beginn der Arbeiten werden vom Auftraggeber für die Gesamtheit der zu bearbeitenden Flächen
+            repräsentative Kontrollflächen festgelegt, z.B. je zweihundert Fenster ein Kontrollfenster. Die Bearbeitung der
+            Kontrollfläche erfolgt wie angeboten, jedoch wird jeder Arbeitsgang in Anwesenheit eines Vertreters des
+            Auftraggebers durchgeführt. Über den Ausgangszustand, die Vorbehandlung, die einzelnen Arbeitsgänge und
+            die verwendeten Stoffe wird ein Protokoll angelegt und vom Auftraggeber und Auftragnehmer unterzeichnet. Die
+            Ausführung der übrigen Flächen hat der Ausführung der Kontrollfläche zumindest gleichwertig zu sein.
+            Folgende Kontrollflächen sind vorgesehen: ____________
+            Betrifft Position(en): ____________
+
+48.00 04H   Erbringungsort Baustelle
+            Dem Auftragnehmer stehen für die Erbringung der Leistungen folgende Räumlichkeiten auf der Baustelle zur
+            Verfügung: ____________
+            Betrifft Position(en): ____________
+
+48.00 04I   Erbringungsort n.W.AN
+            Dem Auftragnehmer wird freigestellt, wo er Leistungen oder Teilleistungen erbringt.
+            In den angebotenen Preisen sind alle mit der etwaigen Erbringung der Leistungen auch außerhalb der Baustelle
+            verbundenen Mehr- oder Minderkosten einkalkuliert.
+            Betrifft Position(en): ____________
+
+48.01       Schutzabdeckungen, Demontage u.Montage
+
+
+            1. Schutzabdeckungen:
+            Schutzabdeckungen beziehen sich nur auf den Schutz der angegebenen Gebäudeteile oder Gegenstände für
+            die Dauer und für die Art der eigenen Leistung.
+            Sie werden sofort nach Fertigstellung der eigenen Leistung entfernt.
+            2. Einkalkulierte Leistungen:
+            Das Entfernen und Entsorgen der Abdeckung nach den erfolgten Beschichtungsarbeiten ist in die Einheitspreise
+            einkalkuliert.
+
+48.01 01    Demontieren der Beschläge.
+            Von grobem Schmutz reinigen, aufbewahren und nach den erfolgten Beschichtungsarbeiten wieder montieren.
+            Abgerechnet wird je Schließeinheit.
+
+48.01 01A   De- u.Montage Fensterbeschlag                                                                                    Stk
+            Fensterbeschläge.
+
+48.01 01B   De- u.Montage Türbeschlag                                                                                        Stk
+            Türbeschläge.
+
+48.01 02    Abdecken von nicht abmontierten Baubeschlägen.
+            Abgerechnet wird je Schließeinheit.
+
+48.01 02A   Abdecken Fensterbeschlag                                                                                         Stk
+            Fensterbeschläge.
+
+
+                                                                                                                        Seite 3 / 25
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+48.01 02B   Abdecken Türbeschlag                                                                                       Stk
+            Türbeschläge.
+
+48.01 03    Schutzabdeckung (z.B. mit Papier, PE-Folie oder Wellpappen) nach Wahl des Auftragnehmers (AN) ohne
+            Unterschied, ob in Räumen mit waagrechtem oder geneigtem Fußboden oder in Stiegenhäusern.
+            Schutz vor Wasser, Farbe und Staub.
+            Abgerechnet wird das Ausmaß des zu schützenden Bauteils.
+
+48.01 03A   Schutzabdeckung f.Wände                                                                                    m²
+            Für Wände.
+
+48.01 03B   Schutzabdeckung f.Untersichten                                                                             m²
+            Für Untersichten.
+
+48.01 03C   Schutzabdeckung f.Treppen                                                                                  m²
+            Für Treppenläufe einschließlich Zwischen- und Hauptpodesten.
+            Art der Oberfläche: ____________
+
+48.01 03D   Schutzabdeckung f.Geländer                                                                                 m²
+            Für Geländer einschließlich eines etwaigen Handlaufes.
+
+48.01 03E   Schutzabdeckung f.Handlauf                                                                                 m
+            Für Handlauf.
+
+48.01 03F   Schutzabdeckung f.Möbel                                                                                    m²
+            Für Möbel: ____________
+
+48.01 05    Schutzabdeckung (z.B. mit Papier, PE-Folie oder Wellpappen) nach Wahl des Auftragnehmers (AN).
+            Schutz vor Wasser, Farbe und Staub.
+            Von z.B. Türen, Fenstern, Aufzugsportalen und Umwehrungen.
+            Im Positionsstichwort ist die Stocklichte (m2) angegeben.
+
+48.01 05A   Abdecken Tür/Fenster b.2m2                                                                                 Stk
+
+48.01 05B   Abdecken Tür/Fenster ü.2-4m2:                                                                              Stk
+
+48.01 05C   Abdecken Tür/Fenster ü.4m2:__________                                                                      m²
+            Abgerechnet wird die Summe der abgedeckten Flächen.
+
+48.01 06    Abdecken von Fußböden, nach Wahl des Auftragnehmers (AN), ohne Unterschied, ob in Räumen mit
+            waagrechtem oder geneigtem Fußboden oder in Stiegenhäusern.
+            Schutz vor Wasser, Farbe und Staub.
+            Abgerechnet wird die abgedeckte Fläche.
+
+48.01 06A   Abdecken Boden m.Vlies+Folie                                                                               m²
+            Mit Abdeckvlies und Folie.
+
+48.01 06B   Abdecken Boden Pappe                                                                                       m²
+            z.B. mit Packzellulose oder Wellpappe, mit 10 cm Überdeckung.
+
+48.01 06C   Abdecken Boden Pappe Fugen verklebt                                                                        m²
+            z.B. mit Packzellulose oder Wellpappe, mit 10 cm Überdeckung, Fugen verklebt.
+
+48.01 06D   Abdecken Boden PE+Pappe Fugen verklebt                                                                     m²
+            Mit PE-Folie, darüber z.B. Packzellulose oder Wellpappe, mit 10 cm Überdeckung, Fugen verklebt.
+
+48.01 07    Schutzabdeckung (z.B. mit Papier, PE-Folie oder Wellpappen) nach Wahl des Auftragnehmers (AN).
+            Schutz vor Wasser, Farbe und Staub.
+            Abgerechnet wird das Ausmaß des zu schützenden Bauteils.
+
+                                                                                                                  Seite 4 / 25
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+48.01 07A   Schutzabdeckung f.Sockelleisten                                                                               m
+            Von Sockelleisten bei waagrechten Fußböden oder solchen bis 10 Prozent Gefälle.
+
+48.01 07B   Schutzabdeckung f.Sockelleisten Treppe                                                                        m
+            Von Sockelleisten bei Treppenläufen einschließlich Zwischen- und Hauptpodesten.
+
+48.11       Vorarbeiten f.Beschichtungen auf Holz
+            LB-Version: 23              Geringfügig Geändert
+48.11 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+48.11 00A   Ausmaß/Abrechnung Vorarbeiten auf Holz
+            Ausmaß/Abrechnung nach ÖNORM: STLB@JANEIN ____________
+            Definition der Ausmaß-/Abrechnungsregeln: ____________
+            LB-Version: 23
+48.11 01    Vorarbeiten für Beschichtungen bei Instandsetzungsarbeiten.
+                • auf Holz oder Holzwerkstoffen
+            Lose und schadhafte Beschichtungen entfernen, verbleibende Beschichtungen chemisch oder mechanisch
+            aufrauen, korrosionsanfällige Metallteile reinigen und mit einer Grundbeschichtung (Korrosionsschutz,
+            Haftgrund) versehen.
+
+48.11 01A   Vorarbeiten (teilw.entf.) f.Instandsetzung Holz deckend                                                       m²
+            Bei Erneuerung von deckenden Holzbeschichtungen.
+
+48.11 01B   Vorarbeiten (teilw.entf.) f.Instandsetzung Holz Klarlack                                                      m²
+            Bei Erneuerung von nicht deckenden Holzbeschichtungen (Klarlack).
+
+48.11 02    Vorarbeiten für Beschichtungen bei Instandsetzungsarbeiten.
+                • auf Holz oder Holzwerkstoffen
+            Gänzliches Entfernen der alten Beschichtungen, korrosionsanfällige Metallteile reinigen und mit einer
+            Grundbeschichtung (Korrosionsschutz, Haftgrund) versehen.
+
+48.11 02A   Vorarbeiten (ganz entf.) f.Instandsetzung Holz deckend                                                        m²
+            Bei deckenden Beschichtungen.
+
+48.11 02B   Vorarbeiten (ganz entf.) f.Instandsetzung Holz Klarlack                                                       m²
+            Bei nicht deckenden Beschichtungen (Klarlack).
+
+48.11 03    Vorarbeiten für Beschichtungen bei Instandsetzungsarbeiten.
+                • auf Holz oder Holzwerkstoffen
+            Staub und Schmutz entfernen, raue Oberflächen schleifen.
+
+48.11 03A   Vorarbeiten (teilw.entf.) f.Instandsetzung Holz Lasur                                                         m²
+            Bei Erneuerung von Beschichtungen mit Lasur.
+
+48.11 04    Vorarbeiten für Beschichtungen bei Instandsetzungsarbeiten.
+                • auf Holz oder Holzwerkstoffen
+            Gänzliches Entfernen der alten Beschichtungen.
+
+48.11 04A   Vorarbeiten (ganz entf.) f.Instandsetzung Holz Lasur                                                          m²
+            Bei Beschichtungen mit Lasur.
+
+48.12       Vorarbeiten f.Beschichtungen auf Metall
+            LB-Version: 23              Geändert
+48.12 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+48.12 00A   Ausmaß/Abrechnung Vorarbeiten auf Metall
+                                                                                                                     Seite 5 / 25
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+            Ausmaß/Abrechnung nach ÖNORM: STLB@JANEIN ____________
+            Definition der Ausmaß-/Abrechnungsregeln: ____________
+            LB-Version: 23
+48.12 01    Vorarbeiten für deckende Instandsetzungsbeschichtungen auf Metall.
+            Entrosten, lose und schadhafte Beschichtungen entfernen, verbleibende Beschichtungen aufrauen, blanke
+            Metallflächen mit einer Grundbeschichtung (Korrosionsschutz, Haftgrund) versehen (ausfleckeln).
+
+48.12 01A   Vorarbeiten (teilw.entf.) f.Instandsetzung Metall                                                          m²
+            Bei Metallflächen.
+
+48.12 01B   Vorarbeiten (teilw.entf.) f.Instandsetzung Heizkörper St-b.                                                m²
+            Bei Heizkörpern aus Stahlblech (St-b.).
+
+48.12 01C   Vorarbeiten (teilw.entf.) f.Instandsetzung Gussheizkörper                                                  Stk
+            Bei Gussheizkörpern.
+            Dimension: ____________
+            LB-Version: 23                Geändert
+Änderung:   Änderung der Einheit von m2 auf Stk.
+            Ergänzung im Folgetext: Größenangabe
+
+48.12 01D   Vorarbeiten (teilw.entf.) f.Instandsetzung Rohr b.30mm                                                     m
+            Bei Stahlrohren mit einem äußeren Durchmesser bis 30 mm.
+
+48.12 01E   Vorarbeiten (teilw.entf.) f.Instandsetzung Rohr ü.30-60mm                                                  m
+            Bei Stahlrohren mit einem äußeren Durchmesser über 30 bis 60 mm.
+
+48.12 01F   Vorarbeiten (teilw.entf.) f.Instandsetzung Konsole 0,8m                                                    Stk
+            Bei Stahlkonsolen und Steigbügeln bis zu einer Einzellänge von 0,8 m.
+
+48.12 02    Vorarbeiten für deckende Instandsetzungsbeschichtungen auf Metall.
+            Entfernen loser Beschichtungen, blanke Metallflächen mit einer Grundbeschichtung (Korrosionsschutz,
+            Haftgrund) versehen.
+
+48.12 02A   Vorarbeiten Abstrahlen                                                                                     m²
+            Entfernen von Beschichtungen mit einem Pressluft- bzw. Wasserstrahlmittel-Gemisch (Abstrahlen).
+            Vorbereitungsgrad (z.B. Sa1-Sa3): ____________
+
+48.12 02B   Vorarbeiten Oberfläche Hand/maschinell                                                                     m²
+            Oberflächenvorbereitung von Hand oder maschinell.
+            Vorbereitungsgrad (z.B. St2-St3): ____________
+
+48.12 02C   Vorarbeiten f.Instandsetzung Metall                                                                        m²
+            Entfernungsart nach Wahl des Auftragnehmers.
+            Vorbereitungsgrad: ____________
+48.12 03    Vorarbeiten für deckende Neubeschichtungen auf Stahl.
+            Entrosten, lose und schadhafte Grundbeschichtung (z.B. Transportbeschichtungen) abschleifen, blanke
+            Stahlflächen mit einer Grundbeschichtung versehen (ausfleckeln).
+
+48.12 03A   Vorarbeiten Neubeschichtung Stahl                                                                          m²
+            Bei Stahlflächen.
+
+48.12 03B   Vorarbeiten Neubeschichtung Rohr b.30mm                                                                    m
+            Bei Stahlrohren mit einem äußeren Durchmesser bis 30 mm.
+
+48.12 03C   Vorarbeiten Neubeschichtung Rohr ü.30-60mm                                                                 m
+            Bei Stahlrohren mit einem äußeren Durchmesser über 30 bis 60 mm.
+
+48.12 03F   Vorarbeiten Neubeschichtung Konsole 0,8m                                                                   Stk
+                                                                                                                  Seite 6 / 25
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+            z.B. bei Stahlkonsolen und Steigbügeln bis zu einer Einzellänge von 0,8 m.
+
+48.13       Vorarbeiten f.Beschichtungen
+            Im Folgenden sind Vorarbeiten für Beschichtungen (innen) auf Mauerwerk (Mwk), Putz, Beton und Bauplatten
+            beschrieben.
+            LB-Version: 23                 Geändert
+48.13 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+48.13 00A   Ausmaß/Abrechnung Vorarbeiten f. Beschichtungen
+            Ausmaß/Abrechnung nach ÖNORM: STLB@JANEIN ____________
+            Definition der Ausmaß-/Abrechnungsregeln: ____________
+            LB-Version: 23
+48.13 01    Abscheren von Leimfarbe.
+
+48.13 01A   Abscheren+entsorgen Leimfarbe                                                                                         m²
+            Einschichtig.
+
+48.13 02    Abscheren von lockerer Kalkfarbe.
+
+48.13 02A   Abscheren+entsorgen Kalkfarbe                                                                                         m²
+48.13 03    Abscheren von lockerer Dispersionsfarbe.
+
+48.13 03A   Abscheren+entsorgen Dispersion                                                                                        m²
+48.13 04    Abscheren von Tapeten, 1-lagig.
+
+48.13 04A   Abscheren+entsorgen Tapeten 1-lag.                                                                                    m²
+48.13 05    Abscheren von Tapeten, mehrlagig.
+
+48.13 05A   Abscheren+entsorgen Tapeten mehrl.                                                                                    m²
+            Anzahl der Lagen: ____________
+
+48.13 06    Abscheren von Belägen aus Kunststoff oder Textilien, 1-lagig.
+
+48.13 06A   Abscheren+entsorgen Kunstst./Textil 1-lag.                                                                            m²
+48.13 07    Abscheren von Belägen aus Kunststoff oder Textilien, mehrlagig.
+
+48.13 07A   Abscheren+entsorgen Kunstst./Textil mehrl.                                                                            m²
+            Anzahl der Lagen: ____________
+
+48.13 11    Gänzliches Entfernen von Dispersionsfarbe durch Abbeizen.
+
+48.13 11A   Entfernen+entsorgen Dispersion                                                                                        m²
+48.13 21    Absperren von durchschlagendem Untergrund.
+
+48.13 21A   Untergrund absperren                                                                                                  m²
+48.13 31    Tiefengrundierung (Einlassen) als Saugausgleich für Bauplatten, Bauplattensystemen oder mineralischer
+            Untergründe.
+
+48.13 31A   Tiefengrund wasserverdünnbar                                                                                          m²
+            Wasserverdünnbar.
+
+            LB-Version: 23                  Geändert
+Änderung:   Alter Grundtext: Tiefengrundierung als Saugausgleich für Bauplatten sowie zur oberflächlichen Untergrundverfestigung
+            sandender oder zu weicher mineralischer Untergründe.
+
+48.13 31B   Tiefengrund Lösungsmittelbasis                                                                                        m²
+            Auf Lösungsmittelbasis.
+
+            LB-Version: 23                 Geändert
+
+
+                                                                                                                             Seite 7 / 25
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+Änderung:   Alter Grundtext: Tiefengrundierung als Saugausgleich für Bauplatten sowie zur oberflächlichen Untergrundverfestigung
+            sandender oder zu weicher mineralischer Untergründe.
+
+48.13 41    Vollflächiges Überziehen.
+
+48.13 41A   Spachteln 1x Putz                                                                                                     m²
+            Von Putzoberflächen mit Spachtelmasse, passend zum Untergrund und zur nachfolgenden Beschichtung,
+            einschließlich Schleifen.
+            Einmaliges Spachteln.
+
+48.13 41B   Spachteln 2x Putz                                                                                                     m²
+            Von Putzoberflächen mit Spachtelmasse, passend zum Untergrund und zur nachfolgenden Beschichtung,
+            einschließlich Schleifen.
+            Zweimaliges Spachteln.
+
+48.13 41E   Spachteln 1x Bauplatten                                                                                               m²
+            Von Bauplatten, passend zum Untergrund und zur nachfolgenden Beschichtung, einschließlich Schleifen.
+            Einmaliges Spachteln.
+            LB-Version: 23                 Geringfügig Geändert
+
+48.13 41F   Spachteln 2x Bauplatten                                                                                               m²
+            Von Bauplatten, passend zum Untergrund und zur nachfolgenden Beschichtung, einschließlich Schleifen.
+            Zweimaliges Spachteln.
+            LB-Version: 23                 Geringfügig Geändert
+48.13 51    Risse mit Vlies bis 10 cm breit armieren und schleifen.
+
+48.13 51A   Risse armieren m.Vlies                                                                                                m
+48.13 52    Risse mit Glasfasergewebe bis 10 cm breit armieren und schleifen.
+
+48.13 52A   Risse armieren m.Gewebe                                                                                               m
+48.13 61    Flächen mit Vlies vollflächig armieren und schleifen.
+
+48.13 61A   Flächen armieren m.Vlies-Wand                                                                                         m²
+            An Wänden.
+
+48.13 61C   Flächen armieren m.Vlies-Deckenuntersicht                                                                             m²
+            An Decken-Untersichten.
+
+48.13 62    Flächen mit Glasfasergewebe vollflächig armieren und schleifen.
+
+48.13 62A   Flächen armieren m.Gewebe-Wand                                                                                        m²
+            An Wänden.
+
+48.13 62C   Flächen armieren m.Gewebe-Deckenuntersicht                                                                            m²
+            An Decken-Untersichten.
+
+48.13 71    Öl- und fetthaltige Verunreinigungen, zur Herstellung eines tragfähigen Untergrundes, entfernen.
+
+48.13 71A   Betonuntergrund Öl/Fett entfernen+entsorgen                                                                           m²
+48.13 72    Nicht tragfähige Beschichtung mechanisch oder chemisch vom Betonuntergrund entfernen.
+
+48.13 72A   Betonuntergrund Beschichtung entfernen+entsorgen                                                                      m²
+48.13 73    Tiefengrundierung (Einlassen) des Betonuntergrundes.
+
+48.13 73A   Betonuntergrund Tiefengrundierung                                                                                     m²
+            Passend zu folgenden Beschichtungen: ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+
+
+
+
+                                                                                                                             Seite 8 / 25
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+48.13 81    Vollflächiges Überziehen von Betonuntergrund (ausgenommen Fußböden) mit Spachtelmasse, passend zum
+            Untergrund und zur nachfolgenden Beschichtung. Schleifen ist im Einheitspreis einkalkuliert.
+                • Schichtdicke bis 3 mm
+
+48.13 81A   Spachteln 1x Ort-Beton                                                                                     m²
+            Einmaliges Spachteln bei Ortbeton.
+
+            LB-Version: 23             Geringfügig Geändert
+
+48.13 81C   Spachteln 1x Fertigteilbeton                                                                               m²
+            Einmaliges Spachteln bei Fertigbeton.
+
+            LB-Version: 23             Geringfügig Geändert
+48.13 82    Zweimaliges vollflächiges Überziehen von Betonuntergrund (ausgenommen Fußböden) mit Spachtelmasse,
+            passend zum Untergrund und zur nachfolgenden Beschichtung. Schleifen ist im Einheitspreis einkalkuliert.
+                • Schichtdicke bis 5 mm
+
+48.13 82A   Spachteln 2x Ort-Beton                                                                                     m²
+            Zweimaliges Spachteln bei Ortbeton.
+
+            LB-Version: 23             Geringfügig Geändert
+
+48.13 82C   Spachteln 2x Fertigteilbeton                                                                               m²
+            Zweimaliges Spachteln bei Fertigbeton.
+
+            LB-Version: 23             Geringfügig Geändert
+48.13 91    Ausgesandete oder abgesprungene Betonuntergründe abbürsten bis auf festen Untergrund, vorbehandeln mit
+            einem Haftungsmittel und mit zementgebundener Spachtelmasse ausgleichen.
+
+48.13 91A   Betonuntergrund ausgleichen                                                                                m²
+48.14       Vorarbeiten f.Beschichtungen Fassade (außen)
+            LB-Version: 23             Geändert
+48.14 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+48.14 00A   Ausmaß/Abrechnung Vorarbeiten f. Beschichtungen Fassade
+            Ausmaß/Abrechnung nach ÖNORM: STLB@JANEIN ____________
+            Definition der Ausmaß-/Abrechnungsregeln: ____________
+            LB-Version: 23
+48.14 01    Reinigen der Außenflächen (Fassaden) von Algen und Pilzen.
+
+48.14 01A   Reinigen Fassade-WDVS                                                                                      m²
+            Einer WDVS-Fassade.
+
+48.14 02    Abwaschen der Außenflächen (Fassaden) von Staub und Verschmutzung.
+
+48.14 02A   Abwaschen Fassade m.Hochdruckreiniger                                                                      m²
+            Mit Hochdruckreiniger (Druck): ____________
+
+48.14 02B   Abwaschen Fassade-WDVS m.Hochdruckreiniger                                                                 m²
+            Einer WDVS-Fassade.
+            Mit Hochdruckreiniger (Druck): ____________
+
+48.14 03    Abwaschen der Außenflächen (Fassaden) von Staub und Verschmutzung.
+
+48.14 03A   Abwaschen Fassade nass/Bürste                                                                              m²
+48.14 04    Abscheren der Außenflächen (Fassaden).
+
+48.14 04A   Abscheren+entsorgen Kalkfarbe Fassade Teilflächen                                                          m²
+
+
+                                                                                                                  Seite 9 / 25
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+            Von lockerer Kalkfarbe (Teilflächen).
+            Abgerechnet wird die Summe der Teilflächen.
+
+48.14 04B   Abscheren+entsorgen Kalkfarbe Fassade gesamt                                                                         m²
+            Von lockerer Kalkfarbe.
+
+48.14 05    Abscheren der Außenflächen (Fassaden).
+
+48.14 05A   Abscheren+entsorgen Dispersion Fassade Teilflächen                                                                   m²
+            Von lockerer Dispersionsfarbe (Teilflächen):
+            Abgerechnet wird die Summe der Teilflächen.
+
+48.14 05B   Abscheren+entsorgen Dispersion Fassade gesamt                                                                        m²
+            Von lockerer Dispersionsfarbe.
+
+48.14 11    Tiefengrundierung (Einlassen) als Saugausgleich für mineralischen Untergrund an Außenflächen (Fassaden).
+
+48.14 11A   Tiefengrund Fassade wasserlöslich                                                                                    m²
+            Wasserlöslich.
+
+            LB-Version: 23                  Geringfügig Geändert
+Änderung:   Alter Grundtext: Tiefengrundierung als Saugausgleich sowie zur oberflächlichen Untergrundverfestigung sandender oder zu
+            weicher mineralischer Untergründe an Außenflächen (Fassaden).
+
+48.14 11B   Tiefengrund Fassade Lösungsmittel                                                                                    m²
+            Auf Lösungsmittelbasis.
+
+            LB-Version: 23                  Geringfügig Geändert
+Änderung:   Alter Grundtext: Tiefengrundierung als Saugausgleich sowie zur oberflächlichen Untergrundverfestigung sandender oder zu
+            weicher mineralischer Untergründe an Außenflächen (Fassaden).
+
+48.21       Beschichtungen auf Holz u.Holzwerkstoffen
+             Kommentar:
+             Deckende Beschichtungen können entweder nach den einzelnen Schichten oder als Gesamtleistung (Instandhaltung,
+             einfache, Standard- oder hochwertige Ausführung) ausgeschrieben werden.
+             Instandhaltungs-/Wartungsarbeiten in ULG 48.80 (neu)
+
+48.21 01    Bei Ausführung in einzelnen Schichten.
+            Imprägnieren von Holzbauteilen farblos oder getönt, Farbton nach Wahl des Auftraggebers.
+
+48.21 01A   Holz imprägnieren f.Deckbeschichtung                                                                                 m²
+            Für nachfolgende deckende Beschichtungen.
+
+48.21 02    Bei Ausführung in einzelnen Schichten.
+            Deckende Beschichtungen auf Holz oder Holzwerkstoffen.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - das 2-fache Zwischenbeschichten
+             - das 2-fache Schlussbeschichten
+
+48.21 02A   Holz deckend grundbeschichten                                                                                        m²
+            Grundbeschichten, einschließlich Verkitten.
+
+48.21 02B   Holz Kittüberzug                                                                                                     m²
+            Überziehen der ganzen Fläche mit Spachtelkitt, ausgenommen die bewitterten Außenflächen.
+
+48.21 02C   Holz 1x deckend zwischenbeschichten                                                                                  m²
+            Einmal zwischenbeschichten.
+
+48.21 02D   Holz 1x deckend schlussbeschichten m.Lack                                                                            m²
+
+
+
+                                                                                                                           Seite 10 / 25
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+            Einmal schlussbeschichten mit Lack.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.21 03    Deckende Beschichtungen auf Holz oder Holzwerkstoffen.
+
+48.21 03A   Holz deckend einfach                                                                                             m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.21 03B   Holz deckend standard                                                                                            m²
+            Standardausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.21 03C   Holz deckend hochwertig                                                                                          m²
+            Hochwertige Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.21 04    Nicht deckende Beschichtungen mit Klarlack auf Holz oder Holzwerkstoffen, ausgenommen bewitterte
+            Außenflächen.
+
+48.21 04B   Holz Klarlack standard                                                                                           m²
+            Standardausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+
+48.21 04C   Holz Klarlack hochwertig                                                                                         m²
+            Hochwertige Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+48.21 05    Nicht deckende Beschichtungen (Lasur) ohne Klarlack-Schlussbeschichtung auf Holz oder Holzwerkstoffen.
+
+48.21 05B   Holz Lasur standard                                                                                              m²
+            Standardausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.21 05C   Holz Lasur hochwertig                                                                                            m²
+            Hochwertige Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.22       Beschichtungen auf Metall
+             Kommentar:
+             Deckende Beschichtungen können entweder nach den einzelnen Schichten oder als Gesamtleistung (Instandhaltung,
+             einfache, Standard- oder hochwertige Ausführung) ausgeschrieben werden.
+             Instandhaltungs-/Wartungsarbeiten in ULG 48.80 (neu)
+             Frei zu formulieren (z.B.):
+             - deckende Beschichtungen mit besonderer Beständigkeit gegen Streusalz und Harn
+             - deckende Beschichtungen mit einer erhöhten Schlag- und Stoßfestigkeit
+
+48.22 01    Zusätzlicher Korrosionsschutz.
+
+48.22 01A   Zusätzlicher Korrosionsschutz gesamt                                                                             m²
+            Über die gesamte Fläche.
+
+48.22 01B   Zusätzlicher Korrosionsschutz Kanten                                                                             m
+                                                                                                                       Seite 11 / 25
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+            Von Kanten.
+
+48.22 02    Bei Ausführung in einzelnen Schichten.
+            Deckende Beschichtungen auf Stahl.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - das 2-fache Grundbeschichten
+             - das 2-fache Zwischenbeschichten
+             - das 2-fache Schlussbeschichten
+
+48.22 02A   Stahl 1x grundbeschichten                                                                                  m²
+            Einmal grundbeschichten, einschließlich Verkitten.
+
+48.22 02B   Stahl 1x zwischenbeschichten                                                                               m²
+            Einmal zwischenbeschichten.
+
+48.22 02C   Stahl 1x schlussbeschichten m.Lack                                                                         m²
+            Einmal schlussbeschichten mit Lack.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.22 03    Deckende Beschichtungen auf Stahl.
+
+48.22 03A   Stahlbeschichtung einfach                                                                                  m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.22 03B   Stahlbeschichtung standard                                                                                 m²
+            Standardausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.22 03C   Stahlbeschichtung hochwertig                                                                               m²
+            Hochwertige Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.22 05    Deckende Beschichtungen auf verzinkten Stahloberflächen.
+            Das Entfetten und das Entfernen von Weiß- und Rotrost (einschließlich der Baurestmassen) sind im
+            Einheitspreis einkalkuliert.
+
+48.22 05A   Stahl verzinkt beschichten einfach                                                                         m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+            LB-Version: 23                 Geringfügig Geändert
+
+48.22 05B   Stahl verzinkt beschichten standard                                                                        m²
+            Standardausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+            LB-Version: 23                 Geringfügig Geändert
+
+48.22 05C   Stahl verzinkt beschichten hochwertig                                                                      m²
+
+
+
+
+                                                                                                                 Seite 12 / 25
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+            Hochwertige Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+            LB-Version: 23              Geringfügig Geändert
+48.22 06    Deckende Beschichtungen auf Aluminium, Kupfer und Zink (keine Metalle aus Eisen).
+            Das Entfetten und das Entfernen von Weiß- und Rotrost (einschließlich der Baurestmassen) sind im
+            Einheitspreis einkalkuliert.
+
+48.22 06A   Alu,Kupfer,Zink (NE-Metalle) beschichten standard                                                          m²
+            In Standardausführung:
+            Grundbeschichtung, Zwischenbeschichtung und Schlussbeschichtung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+            LB-Version: 23              Geringfügig Geändert
+48.22 07    Kittüberzug auf Metallflächen.
+
+48.22 07A   Kittüberzug Metall                                                                                         m²
+48.22 08    Deckende Beschichtungen auf grundierten Stahlzargen bis zu einer Abwicklung von 36 cm.
+
+48.22 08A   Stahlzarge b.80x200cm standard                                                                             Stk
+            Innenlichte bis 80 x 200 cm, Standardausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.22 08B   Stahlzarge ü.80-110x200cm standard                                                                         Stk
+            Innenlichte über 80 bis 110 x 200 cm, Standardausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.22 09    Deckende Beschichtungen, ohne Verkittung, mit entsprechenden Beschichtungsstoffen, auf freigeführten
+            Rohrleitungen, einschließlich der Rohrschellen.
+            Bei Heizungsrohren für eine Betriebstemperatur bis 95 Grad.
+
+48.22 09A   Rohrbeschichtung b.30mm einfach                                                                            m
+            Einfache Ausführung.
+            Mit einem äußeren Durchmesser bis 30 mm.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.22 09B   Rohrbeschichtung ü.30-60mm einfach                                                                         m
+            Einfache Ausführung.
+            Mit einem äußeren Durchmesser über 30 bis 60 mm.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.22 10    Heizkörper beschichten.
+            Für eine Betriebstemperatur bis 95 Grad, ohne Verkitten.
+
+48.22 10A   Heizkörper beschichten                                                                                     m²
+            Beschichtete Heizkörper ausfleckeln, zwischenbeschichten und mit Lack schlussbeschichten.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.22 11    Deckende Beschichtungen, ohne Verkitten, in Standardausführung.
+
+48.22 11A   Heizkörperbefestigung beschichten standard                                                                 Stk
+
+                                                                                                                 Seite 13 / 25
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            z.B. auf Heizkörperbefestigungen und Konsolen.
+            Abgerechnet je demontiertem Heizkörper, ohne Unterschied der Heizkörpergröße.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.22 11B   Hahntür beschichten 2-seit.b.30x30cm standard                                                                 Stk
+            Auf Hahntürchen, beidseitig, bis zu einer Größe von 30 x 30 cm.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.22 11C   Jalousie beschichten 1-seit.b.30x30cm standard                                                                Stk
+            z.B. auf Ventilationssieben und Jalousien, im eingebauten Zustand, einseitig, bis zu einer Größe von 30 x 30
+            cm.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.22 11D   Stahlkonsole beschichten b.0,8m standard                                                                      Stk
+            z.B. auf Stahlkonsolen und Steigbügeln, bis zu einer Einzellänge von 0,8 m.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.31       Innenbeschichtung m.Leimfarben
+48.31 01    Innenbeschichtung mit Leimfarbe, Grundierung und Schlussbeschichtung.
+
+48.31 01A   Beschichtung Leimfarbe                                                                                        m²
+48.31 02    Aufzahlung (Az) auf Innenbeschichtung mit Leimfarben.
+
+48.31 02A   Az Leimfarbe f.Fungizid                                                                                       m²
+            Für Fungizide in allen Farbschichten.
+
+48.31 52    Innenbeschichtung des Kehrsockels mit Kunstharzlack, bis 25 cm hoch.
+            Das Anarbeiten (Beschneiden) ist im Einheitspreis einkalkuliert.
+
+48.31 52A   Kunstharzlack Kehrsockel Streifen b.Leimfarben                                                                m
+            Als Streifen, Oberkante parallel zu ebenen Fußböden (waagrecht oder schräg).
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+            LB-Version: 23              Geringfügig Geändert
+
+48.31 52B   Kunstharzlack Kehrsockel Stufen b.Leimfarben                                                                  m
+            Oberkante geradlinig, Unterkante an angrenzendes Stufenprofil angearbeitet.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+            LB-Version: 23              Geringfügig Geändert
+
+48.32       Innenbeschichtung m.Kalkfarben
+48.32 01    Innenbeschichtung mit Kalkfarbe und Leinöl, Grundierung mit dünner Kalkmilch mit Leinölfirnis und
+            Schlussbeschichtung mit dünner Kalkfarbe.
+
+48.32 01A   Beschichtung Kalkfarbe+Leinöl                                                                                 m²
+            Farbton: ____________
+
+48.32 02    Innenbeschichtung mit Kalkfarbe, Grundierung mit dünner Kalkmilch und Schlussbeschichtung mit dünner
+            Kalkfarbe.
+
+48.32 02A   Beschichtung Kalkfarbe                                                                                        m²
+            Farbton: ____________
+
+                                                                                                                    Seite 14 / 25
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+48.32 52    Innenbeschichtung des Kehrsockels mit Kunstharzlack, bis 25 cm hoch.
+            Das Anarbeiten (Beschneiden) ist im Einheitspreis einkalkuliert.
+
+48.32 52A   Kunstharzlack Kehrsockel Streifen b.Kalkfarben                                                              m
+            Als Streifen, Oberkante parallel zu ebenen Fußböden (waagrecht oder schräg).
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+            LB-Version: 23              Geringfügig Geändert
+
+48.32 52B   Kunstharzlack Kehrsockel Stufen b.Kalkfarben                                                                m
+            Oberkante geradlinig, Unterkante an angrenzendes Stufenprofil angearbeitet.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+            LB-Version: 23              Geringfügig Geändert
+
+48.33       Innenbeschichtung m.Silikatfarben
+48.33 01    Innenbeschichtung mit Silikatfarbe, Grundierung mit Silikattiefengrund, Grund- und Schlussbeschichtung mit
+            Silikatfarbe.
+
+48.33 01A   Beschichtung Silikat                                                                                        m²
+            Farbton: ____________
+
+48.33 52    Innenbeschichtung des Kehrsockels mit Kunstharzlack, bis 25 cm hoch.
+            Das Anarbeiten (Beschneiden) ist im Einheitspreis einkalkuliert.
+
+48.33 52A   Kunstharzlack Kehrsockel Streifen b.Silikatfarben                                                           m
+            Als Streifen, Oberkante parallel zu ebenen Fußböden (waagrecht oder schräg).
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+            LB-Version: 23              Geringfügig Geändert
+
+48.33 52B   Kunstharzlack Kehrsockel Stufen b.Silikatfarben                                                             m
+            Oberkante geradlinig, Unterkante an angrenzendes Stufenprofil angearbeitet.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+            LB-Version: 23              Geringfügig Geändert
+
+48.34       Innenbeschichtung m.Dispersionsfarben
+48.34 01    Innenbeschichtung mit Dispersionsfarbe, gemäß ÖNORM EN 13300.
+                • Nassabriebbeständigkeit Klasse 3 (NAK)
+
+48.34 01A   Beschichtung Dispersion NAK 3                                                                               m²
+            Grund- und Schlussbeschichtung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.34 01B   Beschichtung Dispersion einf.Ausf.NAK 3                                                                     m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.34 02    Innenbeschichtung mit Dispersionsfarbe, gemäß ÖNORM EN 13300.
+                • Nassabriebbeständigkeit Klasse 2 (NAK)
+
+48.34 02A   Beschichtung Dispersion NAK 2                                                                               m²
+
+
+                                                                                                                  Seite 15 / 25
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+            Grund- und Schlussbeschichtung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.34 02B   Beschichtung Dispersion einf.Ausf.NAK 2                                                                   m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.34 03    Innenbeschichtung mit Dispersionsfarbe, gemäß ÖNORM EN 13300.
+                • Nassabriebbeständigkeit Klasse 1 (NAK)
+
+48.34 03A   Beschichtung Dispersion NAK 1                                                                             m²
+            Grund- und Schlussbeschichtung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.34 03B   Beschichtung Dispersion einf.Ausf.NAK 1                                                                   m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.34 11    Innenbeschichtung mit Raufaserdispersionsfarbe, gemäß ÖNORM EN 13300.
+                • Nassabriebbeständigkeit Klasse 3 (NAK)
+
+48.34 11A   Beschichtung Dispersion Raufaser NAK 3                                                                    m²
+            Grund- und Schlussbeschichtung.
+            Farbton: ____________
+
+48.34 21    Aufzahlung (Az) auf Innendispersionsfarben.
+
+48.34 21A   Az Innendispersion f.gesättigten Farbton                                                                  m²
+            Für gesättigten Farbton: ____________
+            Betrifft Position(en): ____________
+
+48.34 21B   Az Innendispersion f.Fungizid                                                                             m²
+            Für Fungizide in allen Farbschichten.
+            Betrifft Position(en): ____________
+
+48.34 52    Innenbeschichtung des Kehrsockels mit Dispersionsfarbe, Grundierung und Schlussbeschichtung, bis 25 cm
+            hoch.
+                • Nassabriebbeständigkeit Klasse 1 (NAK)
+            Das Beschneiden ist im Einheitspreis einkalkuliert.
+
+48.34 52A   Kehrsockel Dispersion NAK 1 Streifen                                                                      m
+            Als Streifen, Oberkante parallel zu ebenen Fußböden (waagrecht oder schräg).
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+            LB-Version: 23              Geringfügig Geändert
+
+48.34 52B   Kehrsockel Dispersion NAK 1 Stufen                                                                        m
+            Oberkante geradlinig, Unterkante an angrenzendes Stufenprofil angearbeitet.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+            LB-Version: 23              Geringfügig Geändert
+48.34 53    Innenbeschichtung des Kehrsockels mit Kunstharzlack, bis 25 cm hoch.
+            Das Anarbeiten (Beschneiden) ist im Einheitspreis einkalkuliert.
+
+                                                                                                                Seite 16 / 25
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+48.34 53A   Kunstharzlack Kehrsockel Streifen b.Dispersionsfarben                                                          m
+            Als Streifen, Oberkante parallel zu ebenen Fußböden (waagrecht oder schräg).
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+            LB-Version: 23                 Geringfügig Geändert
+
+48.34 53B   Kunstharzlack Kehrsockel Stufen b.Dispersionsfarben                                                            m
+            Oberkante geradlinig, Unterkante an angrenzendes Stufenprofil angearbeitet.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+            LB-Version: 23                 Geringfügig Geändert
+
+48.35       Innenbeschichtung von Beton (Fußböden)
+             Kommentar:
+             Frei zu formulieren (z.B.):
+                 • säurebeständige Beschichtungen
+                 • leitfähige Beschichtungen
+                 • besondere Oberflächenausführungen
+                 • Sandung
+
+            LB-Version: 23                 Geringfügig Geändert
+48.35 01    Beschichtung (Staubfreimachen) der Oberfläche, ohne besondere Ansprüche auf mechanische oder chemische
+            Belastung, auf Dispersionsbasis.
+                • auf Fußböden einschließlich Sockel
+            bestehend aus:
+                • Grundbeschichtung
+                • Schlussbeschichtung
+
+48.35 01A   Beton Dispersionsbasis innen                                                                                   m²
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.35 11    Versiegeln der Oberfläche für eine durchschnittliche mechanische oder chemische Belastung mit
+            Polymerisatharzlack.
+                • auf Fußböden einschließlich Sockel
+            bestehend aus:
+                • Grundbeschichtung
+                • Schlussbeschichtung
+
+48.35 11A   Beton versiegeln m.Polymerisatharzlack innen                                                                   m²
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.35 12    Versiegeln der Oberfläche für eine erhöhte mechanische oder chemische Belastung mit Polymerisatharzlack.
+                • auf Fußböden einschließlich Sockel
+            bestehend aus:
+                • Grundbeschichtung
+                • Zwischenbeschichtung
+                • Schlussbeschichtung
+                • Versiegelung transparent/farblos
+
+48.35 12A   Beton versiegeln m.Polymerisatharzlack erhöht innen                                                            m²
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+48.35 21    Öldichtes Versiegeln der Oberfläche (z.B. für Öllagerräume) auf Dispersionsbasis.
+                • auf Fußböden einschließlich Sockel
+            bestehend aus:
+
+                                                                                                                     Seite 17 / 25
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+                • Grundbeschichtung
+                • Zwischenbeschichtung
+                • Schlussbeschichtung
+
+48.35 21A   Beton versiegeln Dispersionsbasis innen                                                                     m²
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+48.35 31    Öldichtes Versiegeln der Oberfläche (z.B. für Öllagerräume) mit Zweikomponeneten-Lack.
+                • auf Fußböden einschließlich Sockel
+            bestehend aus:
+                • Grundbeschichtung
+                • Schlussbeschichtung
+
+48.35 31A   Beton versiegeln m.2-Komp.-Lack innen                                                                       m²
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+48.35 41    Hochabriebfeste Dickbeschichtung für hohe mechanische Belastung, mit Epoxy- oder Polyurethanmaterial
+                • auf Fußböden
+            bestehend aus:
+                • Grundbeschichtung
+                • Kratzspachtel
+                • Verlaufsmörtel
+                • Versiegelung transparent/farblos
+            Schichtdicke über 1 bis 2 mm.
+
+48.35 41A   Beton Dickbeschichtung 1-2mm innen                                                                          m²
+48.35 51    Kunstharzbeschichtung für hohe mechanische Belastung, mit Epoxy- oder Polyurethanmaterial
+                • auf Fußböden
+            bestehend aus:
+                • Grundbeschichtung
+                • Kratzspachtel
+                • Verlaufsmörtel
+                • Versiegelung transparent/farblos
+            Schichtdicke über 2 bis 3 mm.
+
+48.35 51A   Beton Kunstharzbeschichtung innen 2-3mm                                                                     m²
+
+48.35 51C   Beton Kunstharzbeschichtung innen 2-3mm Kantenabschluss                                                     m
+            Herstellung eines Kantenabschlusses (z.B. an der Stufenkante).
+
+48.35 52    Kunstharzbeschichtung für hohe mechanische Belastung, mit Epoxy- oder Polyurethanmaterial
+                • auf Fußböden
+            bestehend aus:
+                • Grundbeschichtung
+                • Kratzspachtel
+                • Verlaufsmörtel
+                • Versiegelung transparent/farblos
+            Schichtdicke über 3 bis 5 mm.
+
+48.35 52A   Beton Kunstharzbeschichtung innen 3-5mm                                                                     m²
+
+48.35 52C   Beton Kunstharzbeschichtung innen 3-5mm Kantenabschluss                                                     m
+            Herstellung eines Kantenabschlusses (z.B. an der Stufenkante).
+
+48.35 61    Imprägnieren von Betonflächen mit einer zweifachen, farblosen Beschichtung auf Silikonbasis.
+                • auf Fußböden
+
+48.35 61A   Beton Imprägnieren 2x Silikon innen                                                                         m²
+
+                                                                                                                  Seite 18 / 25
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+48.41       Beschichtungen von Außenflächen (Fassade)
+48.41 01    Beschichtung auf Außenflächen (Fassaden) mit Kalkfarbe (wobei alkalibeständige Pigmente und Bindemittel
+            zugesetzt werden können).
+
+48.41 01A   Fassade Kalkfarbe einfach                                                                                 m²
+            Einfache Ausführung.
+            Farbton: ____________
+
+48.41 01B   Fassade Kalkfarbe Standard                                                                                m²
+            Standardausführung.
+            Farbton: ____________
+48.41 11    Beschichtung auf Außenflächen (Fassaden) mit einkomponentiger Organosilikatfarbe.
+                • Durchlässigkeit für Wasser: Klasse W2
+                • Wasserdampf-Diffusionsstromdichte: Klasse V1
+
+48.41 11A   Fassade Silikatfarbe 1-Komp.einfach                                                                       m²
+            Einfache Ausführung.
+            Farbe: ____________
+
+48.41 11B   Fassade Silikatfarbe 1-Komp.Standard                                                                      m²
+            Standardausführung.
+            Farbton: ____________
+
+48.41 12    Beschichtung auf Außenflächen (Fassaden) mit zweikomponentiger Silikatfarbe, Grundierung und
+            Schlussbeschichtung
+                • Wasserdampf-Diffusionsstromdichte: Klasse V1
+
+48.41 12A   Fassade Silikatfarbe 2-Komp.Standard                                                                      m²
+            Standardausführung.
+            Farbton: ____________
+48.41 21    Beschichtung auf Außenflächen (Fassaden) mit Silikonharzfarbe.
+                • Durchlässigkeit für Wasser: Klasse W3
+                • Wasserdampf-Diffusionsstromdichte: Klasse V1
+
+48.41 21A   Fassade Silikonharzfarbe einfach                                                                          m²
+            Einfache Ausführung.
+            Farbton: ____________
+
+48.41 21B   Fassade Silikonharzfarbe Standard                                                                         m²
+            Standardausführung.
+            Farbton: ____________
+
+48.41 31    Beschichtung auf Außenflächen (Fassaden) mit Außen (A) -Dispersionsfarbe.
+                • Durchlässigkeit für Wasser: Klasse W2
+                • Wasserdampf-Diffusionsstromdichte: Klasse V2
+
+48.41 31A   Fassade A-Dispersionsfarbe einfach                                                                        m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.41 31B   Fassade A-Dispersionsfarbe Standard                                                                       m²
+            Standardausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.41 41    Beschichtung auf Betonflächen (Fassaden) mit Dispersionsfarbe.
+
+                                                                                                                Seite 19 / 25
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+48.41 41A   Fassade Betonfl.Dispersionsfarbe einfach                                                                    m²
+            Durchlässigkeit von CO2, bis zu einem sd-Wert ≥: ____________
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.41 41B   Fassade Betonfl.Dispersionsfarbe Standard                                                                   m²
+            Durchlässigkeit von CO2, bis zu einem sd-Wert ≥: ____________
+            Standardausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.41 51    Beschichtung auf Außenflächen (Fassaden) mit lösemittelhaltigen Kunstharzfarben.
+                • Durchlässigkeit für Wasser: Klasse W2
+                • Wasserdampf-Diffusionsstromdichte: Klasse V2
+
+48.41 51A   Fassade Kunstharzfarbe lösemittelh.einfach                                                                  m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.41 51B   Fassade Kunstharzfarbe lösemittelh.Standard                                                                 m²
+            Standardausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.41 61    Wasserabweisendes Imprägnieren von Außenflächen (Fassaden) aus mineralischen Baustoffen mit einer
+            wasserverdünnbaren, farblosen Silikonimprägnierung.
+
+48.41 61A   Fassade imprägnieren Silikon                                                                                m²
+            Einfache Ausführung.
+
+48.41 71    Aufzahlung (Az) auf Beschichtung auf Außenflächen (Fassaden).
+
+48.41 71A   Az Fassade f.gestättigten Farbton                                                                           m²
+            Für Farbton: ____________
+            Betrifft Position(en): ____________
+
+48.51       Walzen, Fugen, Sonstiges
+48.51 01    Fleckspachteln (z.B. bei Rissen, Löcher, Ausbrüchen) in einem Arbeitsgang mit einer 7 cm breiten Spachtel bis
+            zu einer Fläche von 5 x 20 cm, wobei jede zu spachtelnde Fläche mit einem Mindestmaß von 0,1 m2 bewertet
+            wird.
+            Der Schadensgrad wird gemeinsam von Auftraggeber und Auftragnehmer anhand der tatsächlichen
+            Gegebenheiten ermittelt.
+            Abgerechnet wird die gesamte Fläche, von welcher der Schadensgrad angegeben ist.
+
+48.51 01A   Fleckspachteln b.Schadensgrad b.10%                                                                         m²
+            Spachteln von Kleinflächen (Fleckspachteln),
+            Schadensgrad bis 10%.
+            LB-Version: 23              Geringfügig Geändert
+
+48.51 01B   Fleckspachteln b.Schadensgrad                                                                               m²
+            Spachteln von Kleinflächen (Fleckspachteln),
+            Schadensgrad bis ____________%.
+            LB-Version: 23              Geringfügig Geändert
+
+
+
+                                                                                                                  Seite 20 / 25
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+48.51 11    Überlackieren der Lamperie bis 2 m Höhe mit Kunstharzlack, einschließlich Abschlussstrich.
+            Das Beschneiden ist im Einheitspreis einkalkuliert.
+
+48.51 11A   Überlackieren Kunstharzlack Lamperie                                                                        m²
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+            LB-Version: 23               Geringfügig Geändert
+48.51 21    Einmaliges Walzen der Lamperie, bis 2 m Höhe.
+            Das Beschneiden ist im Einheitspreis einkalkuliert.
+
+48.51 21A   Walzen Dekor Lamperie                                                                                       m²
+            Farbton: ____________
+
+            LB-Version: 23               Geringfügig Geändert
+48.51 22    Einmaliges Walzen in Räumen.
+
+48.51 22A   Walzen Dekor Räume                                                                                          m²
+            Farbton: ____________
+
+48.51 31    Herstellen eines geradlinigen einfärbigen Abschlussstriches, zur Beschichtung passend.
+
+48.51 31A   Abschlussstrich                                                                                             m
+            Farbton: ____________
+
+48.51 41    Behandeln von Innenflächen mit einer Antischimmelbeschichtung (Fungizidbeschichtung).
+
+48.51 41A   Antischimmelbeschichtung                                                                                    m²
+            Farbton: ____________
+
+48.51 51    Anschlussfugen schließen mit einem elastischen Dichtungsstoff auf Acrylbasis, überstreichbar.
+            Im Positionsstichwort ist die Fugenbreite (mm) angegeben.
+
+48.51 51A   Fuge Acryl überstreichbar b.5mm                                                                             m
+
+48.51 51C   Fuge Acryl überstreichbar ü.5-10mm                                                                          m
+48.51 52    Anschlussfugen mit elastischem Dichtungsstoff schließen.
+            Im Positionsstichwort ist die Fugenbreite (mm) angegeben.
+
+48.51 52A   Fuge Acryl schließen b.5mm                                                                                  m
+            Auf Acrylbasis, überstreichbar.
+
+48.51 52B   Fuge Acryl schließen ü.5-10mm                                                                               m
+            Auf Acrylbasis, überstreichbar.
+
+48.51 52D   Fuge Silikon schließen b.5mm                                                                                m
+            Auf Silikonbasis, nicht überstreichbar.
+
+48.51 52E   Fuge Silikon schließen ü.5-10mm                                                                             m
+            Auf Silikonbasis, nicht überstreichbar.
+
+48.51 61    Besondere Profile und Kantenschutz.
+
+48.51 61A   Besondere Profile/Kantenschutz                                                                              m
+            Für: ____________
+            Beschreibung: ____________
+
+48.52       Transporte Fenster-/Türflügeln
+48.52 02    Abtransport.
+            z.B. von Fenster- oder Türflügeln.
+
+
+                                                                                                                  Seite 21 / 25
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                               EH
+
+            Das Ein- und Aushängen und der Rücktransport zur Einbaustelle sind im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist das Ausmaß (m2) angegeben.
+
+48.52 02A   Ab- u.Rücktransport Fenster- u.Türflügel b.1m2                                                                          Stk
+            Auf einen Behandlungs- oder Lagerungsort, außerhalb der Baustelle: ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+
+48.52 02B   Ab- u.Rücktransport Fenster- u.Türflügel ü.1-2m2                                                                        Stk
+            Auf einen Behandlungs- oder Lagerungsort, außerhalb der Baustelle: ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+
+48.52 02D   Ab- u.Rücktransport Fenster- u.Türflügel b.2m2                                                                          Stk
+            Auf einen Behandlungs- oder Lagerungsort, außerhalb der Baustelle: ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+
+48.52 02E   Ab- u.Rücktransport Fenster- u.Türflügel ü.2-3m2                                                                        Stk
+            Auf einen Behandlungs- oder Lagerungsort, außerhalb der Baustelle: ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+
+48.80       Instandhaltungs-/Wartungsarbeiten
+             Kommentar:
+             Fleckspachteln bzw. Spachteln von Kleinflächen (z.B. bei Rissen, Löcher, Ausbrüche) ist frei zu formulieren.
+
+48.80 02    Deckende Beschichtungen auf Holz oder Holzwerkstoffen bei Instandhaltungsarbeiten (Wartungsarbeiten).
+
+48.80 02A   Instandh./Wartung Holz deckend einfach                                                                                  m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.80 02B   Instandh./WartungHolz deckend standard                                                                                  m²
+            Standardausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.80 03    Nicht deckende Beschichtungen mit Klarlack auf Holz oder Holzwerkstoffen bei Instandhaltungsarbeiten
+            (Wartungsarbeiten), ausgenommen bewitterte Außenflächen.
+
+48.80 03A   Instandh./Wartung Holz Klarlack standard                                                                                m²
+            Standardausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+48.80 04    Nicht deckende Beschichtungen (Lasur) ohne Klarlack-Schlussbeschichtung auf Holz oder Holzwerkstoffen bei
+            Instandhaltungsarbeiten (Wartungsarbeiten).
+
+48.80 04A   Instandh./Wartung Holz Lasur standard                                                                                   m²
+            Standardausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.80 11    Deckende Beschichtungen auf Stahl bei Instandhaltungsarbeiten (Wartungsarbeiten).
+
+48.80 11A   Instandh./Wartung Stahlbeschichtung einfach                                                                             m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.80 11B   Instandh./Wartung Stahlbeschichtung standard                                                                            m²
+
+                                                                                                                              Seite 22 / 25
+                                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Standardausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.80 11C   Instandh./Wartung Stahlbeschichtung hochwertig                                                              m²
+            Hochwertige Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.80 13    Deckende Beschichtungen auf verzinkten Stahloberflächen oder auf Zinkoberflächen bei
+            Instandhaltungsarbeiten (Wartungsarbeiten).
+
+48.80 13A   Instandh./Wartung Stahl verzinkt beschichten einfach                                                        m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.80 13B   Instandh./Wartung Stahl verzinkt beschichten standard                                                       m²
+            Standardausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.80 13C   Instandh./Wartung Stahl verzinkt beschichten hochwertig                                                     m²
+            Hochwertige Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.80 21    Deckende Beschichtungen von Blechdächern mit Altanstrichen bei Instandhaltungsarbeiten (Wartungsarbeiten).
+
+48.80 21A   Instandh./Wartung Blechdächer beschichten einfach                                                           m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.80 21B   Instandh./Wartung Blechdächer beschichten standard                                                          m²
+            Standardausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.80 31    Deckende Beschichtungen auf grundierten Stahlzargen bis zu einer Abwicklung von 36 cm bei
+            Instandhaltungsarbeiten (Wartungsarbeiten).
+
+48.80 31A   Instandh./Wartung Stahlzarge b.80x200cm einfach                                                             Stk
+            Innenlichte bis 80 x 200 cm, einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.80 31B   Instandh./Wartung Stahlzarge ü.80-110x200cm einfach                                                         Stk
+            Innenlichte über 80 bis 110 x 200 cm, einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.80 41    Heizkörper beschichten, bei Instandhaltungsarbeiten (Wartungsarbeiten), einschließlich aufrauen.
+            Für eine Betriebstemperatur bis 95 Grad, ohne Verkitten.
+
+48.80 41B   Instandh./Wartung Heizkörper beschichten                                                                    m²
+
+
+
+                                                                                                                  Seite 23 / 25
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+            Bereits lackierte Heizkörper reinigen, ausfleckeln und mit Lack beschichten.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+48.90       Regieleistungen
+
+
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+48.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+48.90 00C   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+48.90 01    Regiestunden.
+
+48.90 01A   Regiestunde Facharbeiter                                                                                         h
+            Facharbeiter.
+
+48.90 01B   Regiestunde Hilfsarbeiter                                                                                        h
+            Hilfsarbeiter.
+
+48.90 51    Materiallieferungen f.Regieleistungen                                                                            VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+
+                                                                                                                       Seite 24 / 25
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                 gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                     EH
+
+           Beispiel:
+           angebotener Prozentsatz: +12%
+           als Einheitspreis einzusetzen: 1,12
+           LB-Version: 23              Geringfügig Geändert
+
+
+
+
+                                                                                   Seite 25 / 25
+                                                              ib-data GmbH, Softwareentwicklung
+

@@ -1,0 +1,4241 @@
+{
+  "lg": "02",
+  "title": "Abbruch",
+  "positions": [
+    {
+      "code": "02.17.05A",
+      "text": "Kanalschacht Mwk.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.21.13A",
+      "text": "Dämmung MW abräumen+lagern b.6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.13B",
+      "text": "Dämmung MW abräumen+lagern ü.6-8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.51G",
+      "text": "Abtragen/Demontieren WD m.Asbestzement-Fassadenplatten ED",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.51H",
+      "text": "Abtragen/Demontieren WD m.Asbestzement-Fassadenplatten DD",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.01A",
+      "text": "Abbr.Schalung Vollholz unbehandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.01B",
+      "text": "Abbr.Schalung Vollholz behandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.01F",
+      "text": "Abbr.Schalung+Vordeckung Teer-/Bitu-Pappe",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.02K",
+      "text": "Abbr.Untersichtsschalung behandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.02L",
+      "text": "Abbr.Untersichtschalung+Traglattung behandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.05A",
+      "text": "Abbr.Lattung Vollholz 3x5cm b.20cm unbehandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.05B",
+      "text": "Abbr.Lattung Vollholz 3x5cm b.20cm behandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.05C",
+      "text": "Abbr.Lattung Vollholz 4x6cm ü.20-25cm unbehandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.05D",
+      "text": "Abbr.Lattung Vollholz 4x6cm ü.20-25cm behandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.16D",
+      "text": "Abbr.Mehrschichtplatten b.2,2cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.16E",
+      "text": "Abbr.Mehrschichtplatten ü.2,2-2,7cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.16F",
+      "text": "Abbr.Holzverlege-/Verlegespanplatten b.2,2cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.26C",
+      "text": "Abbr.Einblasdämmung Zellulose",
+      "unit": "m³"
+    },
+    {
+      "code": "02.36.26D",
+      "text": "Abbr.Einblasdämmung Zellulose (g.A)",
+      "unit": "m³"
+    },
+    {
+      "code": "02.36.26E",
+      "text": "Abbr.Einblasdämmung Glas-/Steinwolle",
+      "unit": "m³"
+    },
+    {
+      "code": "02.36.26F",
+      "text": "Abbr.Einblasdämmung Glas-/Steinwolle (g.A)",
+      "unit": "m³"
+    },
+    {
+      "code": "02.44.03A",
+      "text": "Abtragen Fassaden-WD aus Mineralwolle b.5cm",
+      "unit": "m³"
+    },
+    {
+      "code": "02.44.04A",
+      "text": "Abtragen Fassaden-WD aus Mineralwolle b.5cm (g.A)",
+      "unit": "m³"
+    },
+    {
+      "code": "02.44.06A",
+      "text": "Abtragen Fassaden-WD aus XPS b.5cm",
+      "unit": "m³"
+    },
+    {
+      "code": "02.44.07A",
+      "text": "Abtragen Fassaden-WD aus XPS b.5cm (g.A)",
+      "unit": "m³"
+    },
+    {
+      "code": "02.36.05K",
+      "text": "Abbr.Lattung Vollholz 4x6cm ü.25-40cm unbehandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.05L",
+      "text": "Abbr.Lattung Vollholz 4x6cm ü.25-40cm behandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.05M",
+      "text": "Abbr.Konterlattung Vollholz 3x5cm bis 100cm unbehandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.05N",
+      "text": "Abbr.Konterlattung Vollholz 3x5cm bis 100cm behandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.05O",
+      "text": "Abbr.Konterlattung Vollholz 4x6cm bis 100cm unbehandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.05P",
+      "text": "Abbr.Konterlattung Vollholz 4x6cm bis 100cm behandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.05Q",
+      "text": "Abbr.Konterlattung Vollholz 5x8cm bis 100cm unbehandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.05R",
+      "text": "Abbr.Konterlattung Vollholz 5x8cm bis 100cm behandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.05S",
+      "text": "Abbr.Konterlattung Vollholz 8x8cm bis 100cm unbehandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.05T",
+      "text": "Abbr.Konterlattung Vollholz 8x8cm bis 100cm behandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.20A",
+      "text": "Abbr.Holzriegelbauwand Vollholz b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.20C",
+      "text": "Abbr.Holzriegelbauwand Vollholz/BSH ü.10-20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.21D",
+      "text": "Abbr.Dachflächenfenster b.1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.36.21G",
+      "text": "Abbr.Dachflächenfenster ü.1-1,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.36.21K",
+      "text": "Abbr.Dachaus-u.Einstieg b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.91.11Q",
+      "text": "Transp./Verw./Dep. Papier, Pappe, unbeschichtet",
+      "unit": "t"
+    },
+    {
+      "code": "02.91.11R",
+      "text": "Transp./Verw./Dep. Papier, Pappe, unbeschichtet (g.A.)",
+      "unit": "t"
+    },
+    {
+      "code": "02.00.01A",
+      "text": "Abtransport Lichthof",
+      "unit": ""
+    },
+    {
+      "code": "02.00.01B",
+      "text": "Denkmalschutz",
+      "unit": ""
+    },
+    {
+      "code": "02.11.01A",
+      "text": "Ziegelfundament abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.01B",
+      "text": "Steinfundament abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.01D",
+      "text": "Betonfundament unbew.abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.01F",
+      "text": "Stb.Fundament abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.02A",
+      "text": "Ziegelmwk.abbr.ü.15cm",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.02B",
+      "text": "Hohlziegel/Hohlblockmwk.abbr.ü.15cm",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.02C",
+      "text": "Gasbetonmwk.abbr.ü.15cm",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.02D",
+      "text": "Steinmwk.abbr.ü.15cm",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.03B",
+      "text": "Beton-Wand unbew.abbr.b.C35/45 ü.15cm",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.03C",
+      "text": "Mantelbeton-Wand abbr.ü.15cm",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.04B",
+      "text": "Stb.Wand abbr.b.C35/45 ü.15cm",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.05A",
+      "text": "Az Mauerwerk abbr.b.1m3",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.05C",
+      "text": "Az Steinmwk.abbr.b.1m3",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.05D",
+      "text": "Az Beton-Wand abbr.b.1m3",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.06A",
+      "text": "Ziegelmauerwerk abstemmen b.15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.06D",
+      "text": "Betonwand unbew.abstemmen b.15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.06E",
+      "text": "Stb.Wand abstemmen b.15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.07A",
+      "text": "Betonwand unbew.abbr.b.15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.07B",
+      "text": "Stb.Wand abbr.b.15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.08D",
+      "text": "Gipsdielenwand abbr.b.8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.08E",
+      "text": "Gipsdielenwand abbr.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.09A",
+      "text": "Zwischenwand abbr.b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.09B",
+      "text": "Zwischenwand abbr.ü.10-12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.09C",
+      "text": "Zwischenwand abbr.ü.12-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.09D",
+      "text": "Zwischenwand abbr.m.Wandfliesen (ohne Putz)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.10A",
+      "text": "Wand-Glasbausteine abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.11A",
+      "text": "Mauerziegel reinigen",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.12A",
+      "text": "Fangkopfmauerwerk abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.12B",
+      "text": "Fangkopfmauerwerk unrein abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.12C",
+      "text": "Fangmauerwerk abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.12D",
+      "text": "Fangmauerwerk unrein abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.13A",
+      "text": "Beton Fangabdeckplatte abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.14A",
+      "text": "Fangaufsatz Steinzeug abbr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.11.15A",
+      "text": "Fangaufsatz Asbestzement b.50cm abbr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.11.15B",
+      "text": "Fangaufsatz Asbestzement b.100cm abbr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.11.15C",
+      "text": "Fangaufsatz Asbestzement b.150cm abbr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.11.15D",
+      "text": "Fangaufsatz Faserzement b.50cm abbr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.11.15E",
+      "text": "Fangaufsatz Faserzement b.100cm abbr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.11.15F",
+      "text": "Fangaufsatz Faserzement b.150cm abbr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.11.16A",
+      "text": "GKB STW abbr.1-s.1fach bepl.b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.16B",
+      "text": "GKB STW abbr.1-s.2fach bepl.b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.16C",
+      "text": "GKB STW abbr.2-s.1fach bepl.b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.16D",
+      "text": "GKB STW abbr.2-s.2fach bepl.b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.16F",
+      "text": "GKB STW abbr.1-s.1fach bepl.b.10cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.16G",
+      "text": "GKB STW abbr.1-s.2fach bepl.b.10cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.16H",
+      "text": "GKB STW abbr.2-s.1fach bepl.b.10cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.16I",
+      "text": "GKB STW abbr.2-s.2fach bepl.b.10cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.17A",
+      "text": "GKB STW abbr.1-s.1fach bepl.ü.10-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.17B",
+      "text": "GKB STW abbr.1-s.2fach bepl.ü.10-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.17C",
+      "text": "GKB STW abbr.2-s.1fach bepl.ü.10-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.17D",
+      "text": "GKB STW abbr.2-s.2fach bepl.ü.10-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.17F",
+      "text": "GKB STW abbr.1-s.1fach bepl.ü.10-15cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.17G",
+      "text": "GKB STW abbr.1-s.2fach bepl.ü.10-15cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.17H",
+      "text": "GKB STW abbr.2-s.1fach bepl.ü.10-15cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.17I",
+      "text": "GKB STW abbr.2-s.2fach bepl.ü.10-15cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.18A",
+      "text": "GKB STW abbr.1-s.1fach bepl.ü.15-25cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.18B",
+      "text": "GKB STW abbr.1-s.2fach bepl.ü.15-25cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.18C",
+      "text": "GKB STW abbr.2-s.1fach bepl.ü.15-25cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.18D",
+      "text": "GKB STW abbr.2-s.2fach bepl.ü.15-25cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.18F",
+      "text": "GKB STW abbr.1-s.1fach bepl.ü.15-25cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.18G",
+      "text": "GKB STW abbr.1-s.2fach bepl.ü.15-25cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.18H",
+      "text": "GKB STW abbr.2-s.1fach bepl.ü.15-25cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.18I",
+      "text": "GKB STW abbr.2-s.2fach bepl.ü.15-25cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.19A",
+      "text": "GKB STW abbr.m.Wandfliesen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.20A",
+      "text": "GKB STW abbr.m.Wandfliesen (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.21B",
+      "text": "Trennwand Holz-Glas abbr.6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.11.22A",
+      "text": "Mauerwerkskronen Ziegel ü.Dach abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.22B",
+      "text": "Mauerwerkskronen Ziegel Hofmauer abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.22C",
+      "text": "Mauerwerkskronen Beton ü.Dach abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.11.22D",
+      "text": "Mauerwerkskronen Beton Hofmauer abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.12.01A",
+      "text": "Dippelbaumdecke abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.12.01B",
+      "text": "Tramdecke abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.12.01C",
+      "text": "Tramtraversendecke abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.12.02A",
+      "text": "Platzldecke 15cm abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.12.03A",
+      "text": "Gewölbe abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.12.04B",
+      "text": "Stb.Decke b.C35/45 abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.12.05A",
+      "text": "Stb.Fertigteildecke abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.12.05B",
+      "text": "Fertigteildecken abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.12.07A",
+      "text": "Gesimse Ziegel abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.12.07B",
+      "text": "Gesimse Stein abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.12.07C",
+      "text": "Gesimse Beton b.C35/45 abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.12.08A",
+      "text": "Stb.Rost oder Balken abbr.b.C35/45",
+      "unit": "m³"
+    },
+    {
+      "code": "02.12.09A",
+      "text": "Az Deckenabbruch Teilfläche b.4m Holz",
+      "unit": "m²"
+    },
+    {
+      "code": "02.12.09B",
+      "text": "Az Deckenabbruch Teilfläche b.4m Gewölbe",
+      "unit": "m²"
+    },
+    {
+      "code": "02.12.09C",
+      "text": "Az Deckenabbruch Teilfläche b.4m Stahlbeton",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.01A",
+      "text": "Wand-Innenputz b.25mm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.01B",
+      "text": "Wand-Innenputz ZM b.25mm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.01D",
+      "text": "Wand-Innenputz b.25mm+Putzträger abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.01E",
+      "text": "Wand-Innenputz b.25mm+LB-Pl.b.2,5cm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.01F",
+      "text": "Wand-Innenputz b.25mm+LB-Pl.ü.2,5cm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.02A",
+      "text": "Deckenputz b.10mm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.02B",
+      "text": "Deckenputz ü.10-25mm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.03A",
+      "text": "Stukkaturputz b.35mm+Verrohr.abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.03B",
+      "text": "Stukkaturputz b.25mm+Holzw.-LB-Pl.abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.04A",
+      "text": "Gewölbeputz abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.05A",
+      "text": "Patschokkierung Gewölbe abtragen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.05B",
+      "text": "Patschokkierung Wand abtragen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.05C",
+      "text": "Patschokkierung Decke abtragen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.06A",
+      "text": "Fugen Gewölbe auskratzen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.06B",
+      "text": "Fugen Wand auskratzen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.07A",
+      "text": "Außenputz b.35mm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.07B",
+      "text": "Außenputz ü.35-45mm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.07C",
+      "text": "Außenputz ü.45-60mm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.07D",
+      "text": "Außenputz ü.60-80mm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.07E",
+      "text": "Außenputz ü.80-100mm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.07F",
+      "text": "Außenputz b.35mm+Putzträger 5cm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.07G",
+      "text": "Az Außenputz f.Untersicht",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.08A",
+      "text": "Fassadensockel ZM b.5cm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.08B",
+      "text": "Fassadensockel ZM ü.5-8cm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.08C",
+      "text": "Fassadensockel+Ziegelmwk.b.15cm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.10A",
+      "text": "Wandvorsatzschalen abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.11A",
+      "text": "Innenwandbekleidung Holz abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.11B",
+      "text": "Innenwandbekleidung Holz abbr.(g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.11C",
+      "text": "Innenwandbekleidung Metall abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.11D",
+      "text": "Innenwandbekleidung Metall abbr.(g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.13A",
+      "text": "Fassadenbekleidung Holz abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.13B",
+      "text": "Fassadenbekleidung Holz abbr.(g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.13C",
+      "text": "Fassadenbekleidung Metall abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.13D",
+      "text": "Fassadenbekleidung Metall abbr.(g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.14A",
+      "text": "Innenwandbekleidung+Mörtelbett abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.14B",
+      "text": "Innenwandbekleidung+Dünnbett abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.14C",
+      "text": "Innenwandbekleidung Kunststoff b.2mm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.14D",
+      "text": "Innenwandbekleidung Kunststoff ü.2-4mm abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.15A",
+      "text": "Fassaden-Wandbekleidung+Mörtelbett abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.15B",
+      "text": "Fassaden-Wandbekleidung+Dünnlbett abschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.16A",
+      "text": "Deckenbekleidung GKB +UK abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.16B",
+      "text": "Deckenbekleidung Weichfaser+UK abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.16C",
+      "text": "Deckenbekleidung Holz+UK abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.13.16D",
+      "text": "Deckenbekleidung Metall+UK abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.01A",
+      "text": "Schiff-Bretterbelag abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.01B",
+      "text": "Pfostenbelag b.4cm abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.01C",
+      "text": "Brettl-Parkettbelag abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.01D",
+      "text": "Klebeparkett abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.01E",
+      "text": "Fertigparkett abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.01F",
+      "text": "Polsterhölzer+Blindb.abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.01G",
+      "text": "Blindboden Presspanplatten b.22mm abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.01H",
+      "text": "Bitumenkorkunterlage abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.02A",
+      "text": "Abtragen Rückstand Schaum",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.02C",
+      "text": "Abtragen Rückstand Kork",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.02D",
+      "text": "Abtragen Rückstand Vlies/Gewebe",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.03A",
+      "text": "Bodenbelag+Sockelleiste abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.03B",
+      "text": "Bodenbelag abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.04A",
+      "text": "Sockelleisten Holz abbr.                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "02.14.04B",
+      "text": "Sockelleisten Kunstst.abbr.                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "02.14.05A",
+      "text": "Beschüttung mineralisch abräumen",
+      "unit": "m³"
+    },
+    {
+      "code": "02.14.05B",
+      "text": "Beschüttung m.Schutt abräumen",
+      "unit": "m³"
+    },
+    {
+      "code": "02.14.05C",
+      "text": "Beschüttung m.Schlacke abräumen",
+      "unit": "m³"
+    },
+    {
+      "code": "02.14.06A",
+      "text": "Az Bodenbelag abtragen Stufe gerade",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.06B",
+      "text": "Az Bodenbelag abtragen Spitzstufe",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.06C",
+      "text": "Az Bodenbelag abtragen Setzstufe",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.07A",
+      "text": "Demontieren Leisten angeschraubt                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "02.14.07B",
+      "text": "Demontieren Leisten angenagelt                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "02.14.08A",
+      "text": "Abbr.Leisten geklebt                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "02.14.08B",
+      "text": "Abbr.Leisten genagelt                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "02.14.08C",
+      "text": "Abbr.Leisten geschraubt                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "02.14.08D",
+      "text": "Abbr.Leisten+Unterkonstruktion                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "02.14.11A",
+      "text": "Ziegelpflaster b.10cm abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.12A",
+      "text": "Plattenpflaster/Bodenfliesen b.5cm abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.12B",
+      "text": "Plattenpflaster/Bodenfliesen ü.5-10cm abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.13A",
+      "text": "Terrazzoboden abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.13B",
+      "text": "Terrazzohohlkehl.schneiden+abbr.                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "02.14.14A",
+      "text": "Estrich Gussasphalt b.3cm abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.14B",
+      "text": "Estrich Steinholz b.4cm abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.14C",
+      "text": "Estrich Anhydrit b.6cm abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.14.15A",
+      "text": "Beton b.15cm abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.14.16A",
+      "text": "Schwimmender Zement-Estrich abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.14.16B",
+      "text": "Schwimmender Anhydrit-Estrich abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.14.17A",
+      "text": "Gerade Abbruchkante b.10cm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "02.14.17B",
+      "text": "Gerade Abbruchkante ü.10-20cm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "02.14.18A",
+      "text": "Dämmschichten Mineralfaser abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.14.18B",
+      "text": "Dämmschichten Mineralfaser abbr.(g.A.)",
+      "unit": "m³"
+    },
+    {
+      "code": "02.15.01A",
+      "text": "Holzfenster abbr.b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.01B",
+      "text": "Holzfenster abbr.ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.01C",
+      "text": "Holzfenster abbr.ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.01D",
+      "text": "Holzfenster abbr.ü.6-8m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.03A",
+      "text": "Holzfenster Kasten abbr.b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.03B",
+      "text": "Holzfenster Kasten abbr.ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.03C",
+      "text": "Holzfenster Kasten abbr.ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.03D",
+      "text": "Holzfenster Kasten abbr.ü.6-8m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.05A",
+      "text": "Kunststofffenster abbr.b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.05B",
+      "text": "Kunststofffenster abbr.ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.05C",
+      "text": "Kunststofffenster abbr.ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.05D",
+      "text": "Kunststofffenster abbr.ü.6-8m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.07A",
+      "text": "Alu-fenster abbr.b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.07B",
+      "text": "Alu-fenster abbr.ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.07C",
+      "text": "Alu-fenster abbr.ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.07D",
+      "text": "Alu-fenster abbr.ü.6-8m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.09A",
+      "text": "Holz/Alu-fenster abbr.b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.09B",
+      "text": "Holz/Alu-fenster abbr.ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.09C",
+      "text": "Holz/Alu-fenster abbr.ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.09D",
+      "text": "Holz/Alu-fenster abbr.ü.6-8m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.11A",
+      "text": "Kunststoff/Alu-fenster abbr.b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.11B",
+      "text": "Kunststoff/Alu-fenster abbr.ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.11C",
+      "text": "Kunststoff/Alu-fenster abbr.ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.15.11D",
+      "text": "Kunststoff/Alu-fenster abbr.ü.6-8m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.01A",
+      "text": "Holztürstock abbr.b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.01B",
+      "text": "Holztürstock abbr.ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.01C",
+      "text": "Holztürstock abbr.ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.01D",
+      "text": "Holztürstock abbr.ü.6-8m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.02F",
+      "text": "St-Zargen abbr.b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.02G",
+      "text": "St-Zargen abbr.ü..2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.02H",
+      "text": "St-Zargen abbr.ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.02I",
+      "text": "St-Zargen abbr.ü.6-8m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.03A",
+      "text": "Türblatt Holz abbr.b.2,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.03B",
+      "text": "Torblatt Holz abbr.ü.2,5-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.03C",
+      "text": "Torblatt Holz abbr.ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.03E",
+      "text": "Türblatt Metall abbr.b.2,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.03F",
+      "text": "Torblatt Metall abbr.ü.2,5-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.03G",
+      "text": "Torblatt Metall abbr.ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.04A",
+      "text": "Holztürstock auslösen b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.04B",
+      "text": "Holztürstock auslösen ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.04C",
+      "text": "Holztürstock auslösen ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.04D",
+      "text": "Holztürstock auslösen ü.6-8m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.05F",
+      "text": "St-Zargen auslösen b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.05G",
+      "text": "St-Zargen auslösen ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.05H",
+      "text": "St-Zargen auslösen ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.05I",
+      "text": "St-Zargen auslösen ü.6-8m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.06A",
+      "text": "Türblatt Holz demontieren.b.2,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.06B",
+      "text": "Torblatt Holz demontieren ü.2,5-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.06C",
+      "text": "Torblatt Holz demontieren ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.06E",
+      "text": "Türblatt Metall demontieren b.2,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.06F",
+      "text": "Torblatt Metall demontieren ü.2,5-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.06G",
+      "text": "Torblatt Metall demontieren ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.08A",
+      "text": "Fenster-Sohlbank Holz abbr.                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.08B",
+      "text": "Fenster-Sohlbank Stein abbr.                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.08C",
+      "text": "Fenster-Sohlbank Faserzement abbr.                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.08D",
+      "text": "Sohlbankabd.Blech/Alu abbr.                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.10B",
+      "text": "Geländerkonstr.Holz abbr.                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.11A",
+      "text": "Geländerkonstr.Metall auslösen                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.13A",
+      "text": "Türchen b.0,1m2 ausbrechen",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.14A",
+      "text": "Türchen b.0,1m2 auslösen",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.15A",
+      "text": "Kleineisenteile b.5kg ausbrechen",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.16A",
+      "text": "Stahlteile ausbrechen b.100kg",
+      "unit": "kg"
+    },
+    {
+      "code": "02.16.17A",
+      "text": "Stahlteile auslösen b.100kg",
+      "unit": "kg"
+    },
+    {
+      "code": "02.16.19A",
+      "text": "Rohre abbr.freigef.b.70mm                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.19B",
+      "text": "Rohre abbr.bekleidet b.70mm                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.19C",
+      "text": "Rohre abbr.eingemauert b.70mm                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.19D",
+      "text": "Rohre abbr.freigeführt ü.70-150mm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.19E",
+      "text": "Rohre abbr.bekleidet ü.70-150mm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.19F",
+      "text": "Rohre abbr.eingemauert ü.70-150mm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.20A",
+      "text": "Poterien abbr.freigeführt                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.20B",
+      "text": "Poterien abbr.bekleidet                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.20C",
+      "text": "Poterien Asbestzement abbr.freigeführt                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.20D",
+      "text": "Poterien Asbestzement abbr.bekleidet                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.21A",
+      "text": "Abortüberlüftung abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.16.22A",
+      "text": "Anschlussbüchse ausbr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.23A",
+      "text": "Guss-Aufstandsbogen abbr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.24A",
+      "text": "Herd abbr.ein Kessel",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.24B",
+      "text": "Herd abbr.zwei Kessel",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.25A",
+      "text": "Kantenschutzwinkel abbr.                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.26A",
+      "text": "Steigeisen ausstemmen Mwk",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.26B",
+      "text": "Steigeisen ausstemmen Beton",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.27A",
+      "text": "Fertigteilstufen abbr.voll aufliegend                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.27B",
+      "text": "Fertigteilstufen abbr.beidseitig aufliegend                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.27C",
+      "text": "Fertigteilstufen abbr.eingespannt                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.28A",
+      "text": "Stufenplatte abbr.voll aufliegend                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.28B",
+      "text": "Stufenplatte abbr.beidseitig aufliegend                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.28C",
+      "text": "Stufenplatte abbr.eingespannt                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.29A",
+      "text": "Aufbeton-Stufen abstemmen bew.                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.29B",
+      "text": "Aufbeton-Stufen abstemmen                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.30A",
+      "text": "Sanitärkeramik abbr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.30B",
+      "text": "Sanitärgegenstände aus Metall abbr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.30C",
+      "text": "Wanne eingemauert abbr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.30D",
+      "text": "Dusche eingemauert abbr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.32A",
+      "text": "Heizkörper abtragen Blech",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.32B",
+      "text": "Heizkörper abtragen Gusseisen",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.43A",
+      "text": "Portal Holz abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.16.43B",
+      "text": "Portal Metall abbr.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.16.44A",
+      "text": "Az Portal abbr.Rollbalken                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.45A",
+      "text": "Ausziehbare Holztreppe abbr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.45B",
+      "text": "Ausziehbare Alutreppe abbr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.46A",
+      "text": "Ausziehbare Dachbodentreppe auslösen",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.16.47A",
+      "text": "Treppe Holz abbr.                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.47B",
+      "text": "Treppe Metall abbr.                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.49A",
+      "text": "Dachbodenrinne abbr.                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "02.16.51A",
+      "text": "Abbr.Profilbauverglasung 1-schal.6mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.16.51B",
+      "text": "Abbr.Profilbauverglasung 2-schal.6mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.16.51C",
+      "text": "Abbr.Profilbauverglasung 1-schal.7mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.16.51D",
+      "text": "Abbr.Profilbauverglasung 2-schal.7mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.17.01A",
+      "text": "Kanalbauteil abbr.b.50kg",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.17.01B",
+      "text": "Kanalbauteil abbr.ü.50-100kg",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.17.01C",
+      "text": "Kanalbauteil abbr.ü.100-200kg",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.17.01X",
+      "text": "Kanalbauteil abbr.ü.200-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "02.17.02A",
+      "text": "Kanalbauteil auslösen b.50kg",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.17.02B",
+      "text": "Kanalbauteil auslösen ü.50-100kg",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.17.02C",
+      "text": "Kanalbauteil auslösen ü.100-200kg",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.17.02X",
+      "text": "Kanalbauteil auslösen ü.200-__________",
+      "unit": "kg"
+    },
+    {
+      "code": "02.17.03A",
+      "text": "Kanal Beton/Steinzeug abbr.b.DN200                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.03B",
+      "text": "Kanal Beton/Steinzeug abbr.ü.DN200                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.03D",
+      "text": "Kanal Gusseisen abbr.b.DN200                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.03E",
+      "text": "Kanal Gusseisen abbr.ü.DN200                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.03G",
+      "text": "Kanal Kunststoff abbr.b.DN200                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.03H",
+      "text": "Kanal Kunststoff abbr.ü.DN200                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.04J",
+      "text": "Kanal+Beton abbr.b.10cm                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.04K",
+      "text": "Kanal+Beton abbr.ü.10-15cm                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.05B",
+      "text": "Kanalschacht Beton",
+      "unit": "m³"
+    },
+    {
+      "code": "02.17.07A",
+      "text": "Kanalrohranschlussmuffe freistemmen",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.17.14A",
+      "text": "Abgehängter Kanal Beton/Steinzeug abbr.b.DN200                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.14B",
+      "text": "Abgehängter Kanal Beton/Steinzeug abbr.ü.DN200                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.14D",
+      "text": "Abgehängter Kanal Gusseisen abbr.b.DN200                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.14E",
+      "text": "Abgehängter Kanal Gusseisen abbr.ü.DN200                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.14G",
+      "text": "Abgehängter Kanal Kunststoff abbr.b.DN200                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.14H",
+      "text": "Abgehängter Kanal Kunststoff abbr.ü.DN200                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.16A",
+      "text": "Deckel+Rahmen Stahl abbr.b.60x60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.17.16B",
+      "text": "Deckel+Rahmen Stahl abbr.60x100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.17.16C",
+      "text": "Deckel+Rahmen Guss abbr.b.60x60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.17.16D",
+      "text": "Deckel+Rahmen Beton abbr.b.60x60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.17.18A",
+      "text": "Einlaufgitter m.Gussrahmen abbr.b.60x60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.17.20A",
+      "text": "Regenabfallrohr abbr.verz.Bl                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.20B",
+      "text": "Regenabfallrohr abbr.Zink/Cu                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.20C",
+      "text": "Regenabfallrohr abbr.Kunststoff                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "02.17.31A",
+      "text": "Durchbruch Fundament Ziegel b.80cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.17.31B",
+      "text": "Durchbruch Fundament Ziegel ü.80-120cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.17.31C",
+      "text": "Durchbruch Fundament Beton b.80cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.18.01A",
+      "text": "Raseneinfassung abbr.                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "02.18.02A",
+      "text": "Randsteine abbr.b.25cm                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "02.18.02B",
+      "text": "Randsteine abbr.ü.25-40cm                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "02.18.03A",
+      "text": "Randsteine auslösen b.25cm                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "02.18.03B",
+      "text": "Randsteine auslösen ü.25-40cm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "02.18.04A",
+      "text": "Großpflaster abbr.in Sandfuge",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.04B",
+      "text": "Großpflaster abbr.Halbverguss",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.04C",
+      "text": "Großpflaster abbr.Vollverguss",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.05A",
+      "text": "Großpflaster auslösen Sandfuge",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.05B",
+      "text": "Großpflaster auslösen Halbverguss",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.05C",
+      "text": "Großpflaster auslösen Vollverguss",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.06A",
+      "text": "Kleinsteinpflaster abbr.Sandfuge",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.06B",
+      "text": "Kleinsteinpflaster abbr.ZM-Fuge",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.06C",
+      "text": "Kleinsteinpflaster abbr.Bitumen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.07A",
+      "text": "Kleinsteinpflaster auslösen Sandfuge",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.07B",
+      "text": "Kleinsteinpflaster auslösen ZM-Fuge",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.07C",
+      "text": "Kleinsteinpflaster auslösen Bitumenfuge",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.11A",
+      "text": "Unbewehrte Betondecken abbr.b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.11B",
+      "text": "Unbewehrte Betondecken abbr.ü.10-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.11C",
+      "text": "Unbewehrte Betondecken abbr.ü.15-20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.11D",
+      "text": "Unbewehrte Betondecken abbr.ü.20-25cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.12A",
+      "text": "Bewehrte Betondecken abbr.b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.12B",
+      "text": "Bewehrte Betondecken abbr.ü.10-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.12C",
+      "text": "Bewehrte Betondecken abbr.ü.15-20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.12D",
+      "text": "Bewehrte Betondecken abbr.ü.20-25cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.13A",
+      "text": "Unbewehrte Betondecke b.5m2 abbr.b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.13B",
+      "text": "Unbewehrte Betondecke b.5m2 abbr.b.15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.13C",
+      "text": "Unbewehrte Betondecke b.5m2 abbr.b.20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.13D",
+      "text": "Unbewehrte Betondecke b.5m2 abbr.ü.20-25cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.14A",
+      "text": "Bewehrte Betondecke b.5m2 abbr.b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.14B",
+      "text": "Bewehrte Betondecke b.5m2 abbr.ü.10-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.14C",
+      "text": "Bewehrte Betondecke b.5m2 abbr.ü.15-20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.14D",
+      "text": "Bewehrte Betondeckeb.5m2 abbr.ü.20-25cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.15A",
+      "text": "Plattenpflaster Beton b.5cm abbr.Sand",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.15B",
+      "text": "Plattenpflaster Beton b.5cm abbr.ZM",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.15C",
+      "text": "Plattenpflaster Beton b.5cm abbr.Distanzh.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.15D",
+      "text": "Plattenpflaster Naturstein b.8cm abbr.Sand",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.15E",
+      "text": "Plattenpflaster Naturstein b.8cm abbr.ZM",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.16A",
+      "text": "Plattenpflaster b.5cm auslösen Sand",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.16B",
+      "text": "Plattenpflaster b.5cm auslösen ZM",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.16C",
+      "text": "Plattenpflaster b.5cm auslösen Distanzhalter",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.16D",
+      "text": "Plattenpflaster b.8cm auslösen Sand",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.16E",
+      "text": "Plattenpflaster b.8cm auslösen ZM",
+      "unit": "m²"
+    },
+    {
+      "code": "02.18.17A",
+      "text": "Az Unbewehrte Betondecke geradl.schneiden                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "02.18.17B",
+      "text": "Az Bewehrte Betondecke geradl.schneiden                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "02.18.18A",
+      "text": "Dübel u.Anker freilegen",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.18.19A",
+      "text": "Rohrständer b.10cm auslösen",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.18.19B",
+      "text": "Rohrständer b.10cm abschneiden",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.18.19C",
+      "text": "Rohrständer b.10cm abbr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.18.20A",
+      "text": "Metallmaste b.15cm abschneiden",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.18.20B",
+      "text": "Holzmaste b.15cm abschneiden",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.18.21A",
+      "text": "Metallmaste b.15cm auslösen",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.18.21B",
+      "text": "Holzmaste b.15cm auslösen",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.18.23A",
+      "text": "Drahtgitterzaun abbr.b.1,5m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "02.18.23B",
+      "text": "Drahtgitterzaun abbr.ü.1,5-3m                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "02.18.23C",
+      "text": "Drahtgitterzaun abbr.ü.3-4,5m                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "02.18.23D",
+      "text": "Drahtgitterzaun abbr.ü.4,5-6m                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "02.18.24A",
+      "text": "Holzeinfriedung abbr.b.1,5m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "02.18.24B",
+      "text": "Holzeinfriedung abbr.ü.1,5-3m                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "02.18.30A",
+      "text": "Betongerinne abbr.b.50cm                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "02.18.30B",
+      "text": "Betongerinne abbr.ü.50-80cm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "02.21.01A",
+      "text": "Kiesschüttung abbrechen",
+      "unit": "m³"
+    },
+    {
+      "code": "02.21.02A",
+      "text": "Kiesschüttung abräumen+lagern Dach",
+      "unit": "m³"
+    },
+    {
+      "code": "02.21.02B",
+      "text": "Kiesschüttung abräumen+lagern Baustelle",
+      "unit": "m³"
+    },
+    {
+      "code": "02.21.03A",
+      "text": "Dachhaut reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.04A",
+      "text": "Presskies kontaminiert,abscheren oder abfräsen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.06A",
+      "text": "Dachhaut abbr.Holz b.3 Schichten",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.06B",
+      "text": "Dachhaut abbr.Holz ü.3 Schichten",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.06C",
+      "text": "Dachhaut abbr.Beton b.3 Schichten",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.06D",
+      "text": "Dachhaut abbr.Beton ü.3 Schichten",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.07A",
+      "text": "Dachhaut+Presskies abbr.Holz b.3 Schichten",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.07B",
+      "text": "Dachhaut+Presskies abbr.Holz ü.3 Schichten",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.07C",
+      "text": "Dachhaut+Presskies abbr.Beton b.3 Schichten",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.07D",
+      "text": "Dachhaut+Presskies abbr.Beton ü.3 Schichten",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.08A",
+      "text": "Dachhaut Kunststoff abbrechen lose",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.08B",
+      "text": "Dachhaut Kunststoff abbrechen geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.08C",
+      "text": "Dachhaut Kunststoff abbrechen mechanisch befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09A",
+      "text": "Dämmung MW lose abbr.b.6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09B",
+      "text": "Dämmung MW lose abbr.ü.6-8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09C",
+      "text": "Dämmung MW lose abbr.ü.8-10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09D",
+      "text": "Dämmung MW lose abbr.ü.10-12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09E",
+      "text": "Dämmung EPS lose abbr.b.6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09F",
+      "text": "Dämmung EPS lose abbr.ü.6-8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09G",
+      "text": "Dämmung EPS lose abbr.ü.8-10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09H",
+      "text": "Dämmung EPS lose abbr.ü.10-12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09J",
+      "text": "Dämmung PU beidseitig verklebt abbr.b.6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09K",
+      "text": "Dämmung PU beidseitig verklebt abbr.ü.6-8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09L",
+      "text": "Dämmung PU beidseitig verklebt abbr.ü.8-10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09M",
+      "text": "Dämmung PU beidseitig verklebt abbr.ü.10-12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09N",
+      "text": "Dämmung m.Bitumen verklebt abbr.b.6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09O",
+      "text": "Dämmung m.Bitumen verklebt abbr.ü.6-8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09P",
+      "text": "Dämmung m.Bitumen verklebt abbr.ü.8-10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09Q",
+      "text": "Dämmung m.Bitumen verklebt abbr.ü.10-12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09R",
+      "text": "Dämmung XPS lose abbr.b.6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09S",
+      "text": "Dämmung XPS lose abbr.ü.6-8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09T",
+      "text": "Dämmung XPS lose abbr.ü.8-10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.09U",
+      "text": "Dämmung XPS lose abbr.ü.10-12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.10A",
+      "text": "Dämmung MW lose abbr.b.6cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.10B",
+      "text": "Dämmung MW lose abbr.ü.6-8cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.10C",
+      "text": "Dämmung MW lose abbr.ü.8-10cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.10D",
+      "text": "Dämmung MW lose abbr.ü.10-12cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.11E",
+      "text": "Dämmung XPS lose abbr.b.6cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.11F",
+      "text": "Dämmung XPS lose abbr.ü.6-8cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.11G",
+      "text": "Dämmung XPS lose abbr.ü.8-10cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.11H",
+      "text": "Dämmung XPS lose abbr.ü.10-12cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.13D",
+      "text": "Dämmung EPS abräumen+lagern b.6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.13E",
+      "text": "Dämmung EPS abräumen+lagern ü.6-8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.13F",
+      "text": "Dämmung EPS abräumen+lagern ü.8-10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.13G",
+      "text": "Dämmung EPS abräumen+lagern ü.10-12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.13H",
+      "text": "Dämmung XPS abräumen+lagern b.6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.13I",
+      "text": "Dämmung XPS abräumen+lagern ü.6-8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.13J",
+      "text": "Dämmung XPS abräumen+lagern ü.8-10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.13K",
+      "text": "Dämmung XPS abräumen+lagern ü.10-12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.13M",
+      "text": "Dämmung XPS abräumen+lagern b.6cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.13N",
+      "text": "Dämmung XPS abräumen+lagern ü.6-8cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.13O",
+      "text": "Dämmung XPS abräumen+lagern ü.8-10cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.13P",
+      "text": "Dämmung XPS abräumen+lagern ü.10-12cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.14A",
+      "text": "Betonschutzschicht abbrechen b.5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.15A",
+      "text": "Az abbr.Dachhaut bei mechanischer Befestigung",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.15B",
+      "text": "Az abbr.Dämmung EPS bei geklebter WD",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.15C",
+      "text": "Az abbr.Dämmung XPS bei geklebter WD",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.15D",
+      "text": "Az abbr.Dämmung XPS bei geklebter WD (g.A.)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.16A",
+      "text": "Betonplatten+Mörtelbett abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.16B",
+      "text": "Betonplatten+Kiesbettung abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.16C",
+      "text": "Betonplatten+Distanzhalter abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.17A",
+      "text": "Betonplatten Kiesbettung abräumen+lagern",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.17B",
+      "text": "Betonplatten Distanzhalter abräumen+lagern",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.20A",
+      "text": "Gehroste aus Holz abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.20B",
+      "text": "Gehroste aus Stahl abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.21.20C",
+      "text": "Gehroste aus Alu abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.01A",
+      "text": "Abbr.Dachziegel ED",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.01B",
+      "text": "Abbr.Dachziegel DD",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.01C",
+      "text": "Abbr.Betondachstein ED",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.01D",
+      "text": "Abbr.Betondachstein DD",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.01E",
+      "text": "Abbr.Polymerbitumen-Dachschindeln",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.02A",
+      "text": "Abtragen Dachziegel ED",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.02B",
+      "text": "Abtragen Dachziegel DD",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.02C",
+      "text": "Abtragen Betondachstein ED",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.02D",
+      "text": "Abtragen Betondachstein DD",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.06A",
+      "text": "Abbr.Blitzschutzleitungen b.Dachdeckerarbeiten                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "02.22.06B",
+      "text": "Abbr.Blitzschutzanlage b.Dachdeckerarbeiten                                                                   PA",
+      "unit": ""
+    },
+    {
+      "code": "02.22.07A",
+      "text": "Az Abbr.f.Deckung ü.45-60G",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.08A",
+      "text": "Az Abtragen Einfachdeckung f.Reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.08B",
+      "text": "Az Abtragen Doppeldeckung f.Reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.08C",
+      "text": "Az Abtragen First-Gratelementen f.Reinigen                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "02.22.41A",
+      "text": "Abbr.Faserzement-Dachplatten ED",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.41B",
+      "text": "Abbr.Faserzement-Dachplatten DD",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.41C",
+      "text": "Abbr.Faserzement-Wellplatten (Dach)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.41D",
+      "text": "Abbr.Wanddeckung m.Faserzement-Wellplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.41E",
+      "text": "Abbr.Wanddeckung m.Faserzement-Großtafeln b.8mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.41F",
+      "text": "Abbr.Wanddeckung m.Faserzement-Großtafeln 10-15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.41G",
+      "text": "Abbr.Wanddeckung m.Faserzement-Fassadenplatten ED",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.41H",
+      "text": "Abbr.Wanddeckung m.Faserzement-Fassadenplatten DD",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.42A",
+      "text": "Az Faserzement-Platten f.First/Grat m.Kst.-Band                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.22.42B",
+      "text": "Az Faserzement-Platten f.First/Grat trocken verlegt                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "02.22.51A",
+      "text": "Abtragen/Demontieren Asbestzement-Dachpl.ED",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.51B",
+      "text": "Abtragen/Demontieren Asbestzement-Dachpl.DD",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.51C",
+      "text": "Abtragen/Demontieren Asbestzement-Wellpl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.51D",
+      "text": "Abtragen/Demontieren WD m.Asbestzement-Wellpl.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.51E",
+      "text": "Abtragen/Demontieren WD m.Asbestzement-Großtafeln b.8mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.51F",
+      "text": "Abtragen/Demontieren WD m.Asbestzement-Großtafeln 10-15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.52A",
+      "text": "Az Asbestzement-Platten f.First/Grat m.KST-Band                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.22.52B",
+      "text": "Az Asbestzement-Platten f.First/Grat trocken verlegt                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "02.22.61A",
+      "text": "Abtragen Fassaden-UK Holz 5/8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.62A",
+      "text": "Abtragen Fassaden-UK b.25cm Holz 3/5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.62B",
+      "text": "Abtragen Fassaden-UK ü.25-65cm Holz 3/5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.63A",
+      "text": "Abtragen Fassaden-UK Aluminium",
+      "unit": "m²"
+    },
+    {
+      "code": "02.22.65A",
+      "text": "Abtragen Lüftungsgitter u.Verblechungen b.15cm                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.22.65B",
+      "text": "Abtragen Lüftungsgitter u.Verblechungen ü.15-25cm                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "02.22.65C",
+      "text": "Abtragen Lüftungsgitter u.Verblechungen ü.25-33cm                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "02.22.65X",
+      "text": "Abtragen Lüftungsgitter u.Verblechungen__________                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.01A",
+      "text": "Abbr.Saum-Ichse-Einf.verz.b.50cm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.01B",
+      "text": "Abbr.Saum-Ichse-Einf.verz.ü.50-80cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.01C",
+      "text": "Abbr.Saum-Ichse-Einf.Zink b.50cm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.01D",
+      "text": "Abbr.Saum-Ichse-Einf.Zink ü.50-80cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.01E",
+      "text": "Abbr.Saum-Ichse-Einf.Kupfer b.50cm                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.01F",
+      "text": "Abbr.Saum-Ichse-Einf.Kupfer ü.50-80cm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.01G",
+      "text": "Abbr.Saum-Ichse-Einf.Alu b.50cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.01H",
+      "text": "Abbr.Saum-Ichse-Einf.Alu ü.50-80cm                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.01I",
+      "text": "Abbr.Saum-Ichse-Einf. Bitu b.50cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.01J",
+      "text": "Abbr.Saum-Ichse-Einf. Bitu ü.50-80cm                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.01K",
+      "text": "Abbr.Saum-Ichse-Einf.Edelst.b.50cm                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.01L",
+      "text": "Abbr.Saum-Ichse-Einf.Edelst.ü.50-80cm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.01M",
+      "text": "Abbr.Saum-Ichse-Einf.vz-besch.b.50cm                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.01N",
+      "text": "Abbr.Saum-Ichse-Einf.vz-besch.ü.50-80cm                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.03A",
+      "text": "Abbr.Dachausstiegfenster",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.23.05A",
+      "text": "Abbr.Blecheindeckung verz.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.05B",
+      "text": "Abbr.Blecheindeckung Zink",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.05C",
+      "text": "Abbr.Blecheindeckung Kupfer",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.05D",
+      "text": "Abbr.Blecheindeckung Alu",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.05K",
+      "text": "Abbr.Blecheindeckung Edelst.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.05M",
+      "text": "Abbr.Blecheindeckung vz-besch.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.07A",
+      "text": "Abbr.Rinne verz.b.50cm                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.07B",
+      "text": "Abbr.Rinne verz.ü.50-80cm                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.07D",
+      "text": "Abbr.Rinne Zink b.50cm                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.07E",
+      "text": "Abbr.Rinne Zink ü.50-80cm                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.07G",
+      "text": "Abbr.Rinne Kupfer b.50cm                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.07H",
+      "text": "Abbr.Rinne Kupfer ü.50-80cm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.07K",
+      "text": "Abbr.Rinne Alu b.50cm                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.07L",
+      "text": "Abbr.Rinne Alu ü.50-80cm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.07O",
+      "text": "Abtr.Rinne Bit/kst-verunreinigt b.50cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.07P",
+      "text": "Abtr.Rinne Bit/kst-verunreinigt ü.50-80cm                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.07Q",
+      "text": "Abbr.Rinne Edelst.b.50cm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.07R",
+      "text": "Abbr.Rinne Edelst.ü.50-80cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.07S",
+      "text": "Abbr.Rinne vz-besch.b.50cm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.07T",
+      "text": "Abbr.Rinne vz-besch.ü.50-80cm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.10A",
+      "text": "Abbr.Entlüftung b.2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.23.11A",
+      "text": "Abbr.Ablaufrohr verz.                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.11B",
+      "text": "Abbr.Ablaufrohr Zink                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.11C",
+      "text": "Abbr.Ablaufrohr Kupfer                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.11D",
+      "text": "Abbr.Ablaufrohr Alu                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.11E",
+      "text": "Abbr.Ablaufrohr Edelst.                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.11F",
+      "text": "Abbr.Ablaufrohr vz-besch.                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.13A",
+      "text": "Abbr.Schneerechen                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.14A",
+      "text": "Abbr.Schneefang                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.15A",
+      "text": "Abbr.Blitzschutzleitungen b.Metalldeckungen                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.15B",
+      "text": "Abbr.Blitzschutzanlage b.Metalldeckungen                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.17A",
+      "text": "Abbr.Fassadenabdeckung verz.b.50cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.17B",
+      "text": "Abbr.Fassadenabdeckung verz.ü.50-100cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.17C",
+      "text": "Abbr.Fassadenabdeckung Zink b.50cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.17D",
+      "text": "Abbr.Fassadenabdeckung Zink ü.50-100cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.17E",
+      "text": "Abbr.Fassadenabdeckung Kupfer b.50cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.17F",
+      "text": "Abbr.Fassadenabdeckung Kupfer ü.50-100cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.17G",
+      "text": "Abbr.Fassadenabdeckung Alu b.50cm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.17H",
+      "text": "Abbr.Fassadenabdeckung Alu ü.50-100cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.17I",
+      "text": "Abbr.Fassadenabdeckung Eblack.b.50cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.17J",
+      "text": "Abbr.Fassadenabdeckung Eblack.ü.50-100cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.17K",
+      "text": "Abbr.Fassadenabdeckung Edelst.b.50cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.17L",
+      "text": "Abbr.Fassadenabdeckung Edelst.ü.50-100cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.17M",
+      "text": "Abbr.Fassadenabdeckung vz-besch.b.50cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.17N",
+      "text": "Abbr.Fassadenabdeckung vz-besch.ü.50-100cm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "02.23.19A",
+      "text": "Abbr.Verblechung verz.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.19B",
+      "text": "Abbr.Verblechung Zink",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.19C",
+      "text": "Abbr.Verblechung Kupfer",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.19D",
+      "text": "Abbr.Verblechung Alu",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.19I",
+      "text": "Abbr.Verblech.verunreinigt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.19K",
+      "text": "Abbr.Verblechung Edelst.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.19M",
+      "text": "Abbr.Verblechung vz-besch.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.21A",
+      "text": "Abbr.Vordeckung Bitu 1-lag.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.21B",
+      "text": "Abbr.Vordeckung Bitu 2-lag.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.21C",
+      "text": "Abbr.Trennlagen u. Unterlagsstreifen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.21D",
+      "text": "Abbr.Strukturmatten",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.21E",
+      "text": "Abbr.Trennlage aus Polymerbitumen.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.25A",
+      "text": "Abbr.Dach-/Wandplatten+UK verz.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.25B",
+      "text": "Abbr.Dach-/Wandplatten+UK Zink",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.25C",
+      "text": "Abbr.Dach-/Wandplatten+UK Kupfer",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.25D",
+      "text": "Abbr.Dach-/Wandplatten+UK Alu",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.25E",
+      "text": "Abbr.Dach-/Wandplatten+UK Edelst.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.23.25F",
+      "text": "Abbr.Dach-/Wandplatten+UK vz-besch.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.01A",
+      "text": "Abbr.Asphalt außen b.3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.01B",
+      "text": "Abbr.Asphalt außen ü.3-4,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.02A",
+      "text": "Abbr.Asphalt innen b.3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.02B",
+      "text": "Abbr.Asphalt innen ü.3-4,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.03A",
+      "text": "Abstemmen Asphalt Rand b.3cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "02.26.03B",
+      "text": "Abstemmen Asphalt Rand ü.3-4,5cm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "02.26.04A",
+      "text": "Schneiden Asphalt Rand b.3cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "02.26.04B",
+      "text": "Schneiden Asphalt Rand ü.3-.4,5cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "02.26.05A",
+      "text": "Abfräsen b.3cm Asphalt b.10m2",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.05B",
+      "text": "Abfräsen b.3cm Asphalt ü.10-25m2",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.05C",
+      "text": "Abfräsen b.3cm Asphalt ü.25-__________",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.06A",
+      "text": "Az Abbr.b.10m2 b.3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.06B",
+      "text": "Az Abbr.b.10m2 ü.3-4,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.08A",
+      "text": "Abbr.provisorisch Kaltmischbelag Gehsteig",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.08B",
+      "text": "Abbr.provisorisch Kaltmischbelag Fahrbahn",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.11A",
+      "text": "Bitumenschicht abbr.b.6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.11B",
+      "text": "Bitumenschicht abbr.ü.6-10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.11C",
+      "text": "Bitumenschicht abbr.ü.10-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.12A",
+      "text": "Gussasphalt abbr.außen b.3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.12B",
+      "text": "Gussasphalt abbr.außen ü.3-4,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.12C",
+      "text": "Gussasphalt abbr.innen b.3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.12D",
+      "text": "Gussasphalt abbr.innen ü.3-4,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.26.13A",
+      "text": "Bitumen geradlinig schneiden b.6cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "02.26.13B",
+      "text": "Bitumen geradlinig schneiden ü.6-10cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "02.26.13C",
+      "text": "Bitumen geradlinig schneiden ü.10-15cm                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "02.31.01A",
+      "text": "Abbr.Blindstock b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.31.01B",
+      "text": "Abbr.Blindstock ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.31.01C",
+      "text": "Abbr.Blindstock ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.31.01D",
+      "text": "Abbr.Rahmenstock b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.31.01E",
+      "text": "Abbr.Rahmenstock ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.31.01F",
+      "text": "Abbr.Rahmenstock ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.31.03A",
+      "text": "Abbr.Portal o.Rollbalken b.3m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.31.03B",
+      "text": "Abbr.Portal o.Rollbalken ü.3-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.31.03C",
+      "text": "Abbr.Portal o.Rollbalken ü.6-12m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.31.04A",
+      "text": "Abbr.Rollbalken b.10m2",
+      "unit": "m²"
+    },
+    {
+      "code": "02.31.04B",
+      "text": "Abbr.Rollbalken ü.10-20m2",
+      "unit": "m²"
+    },
+    {
+      "code": "02.31.05A",
+      "text": "Abbr.Geländerkonstruktion                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "02.31.05B",
+      "text": "Abbr.Geländer+Füllung                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "02.31.05C",
+      "text": "Abbr.Geländer+Sprossen                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "02.31.05D",
+      "text": "Abbr.Brüstungsgeländer                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "02.31.07A",
+      "text": "Abbr.Fenstergitter b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.31.07B",
+      "text": "Abbr.Fenstergitter ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.31.07D",
+      "text": "Abbr.Scherengitter__________",
+      "unit": "m²"
+    },
+    {
+      "code": "02.31.11A",
+      "text": "Abbr.Leiter aus Metall                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "02.31.12A",
+      "text": "Demontage Rahmenstock b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.31.12B",
+      "text": "Demontage Rahmenstock ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.31.14A",
+      "text": "Demontage Fenstergitter b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.31.14B",
+      "text": "Demontage Fenstergitter ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.31.15A",
+      "text": "Demontage Geländer abschneiden                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.31.15B",
+      "text": "Demontage Geländer abschrauben                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.31.16A",
+      "text": "Demontage Handlauf von Konsole                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.31.16B",
+      "text": "Demontage Handlauf mit Konsole                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.31.17A",
+      "text": "Demontage Metalltreppen b.1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.31.17B",
+      "text": "Demontage Metalltreppen ü.1-1,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.36.02H",
+      "text": "Abbr.Sparschalung unbehandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.02I",
+      "text": "Abbr.Sparschalung behandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.07A",
+      "text": "Abbr.Steildach Vollholz/Konstr-vollholz unbehandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.07B",
+      "text": "Abbr.Steildach Vollholz/Konstr-vollholz behandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.07D",
+      "text": "Abbr.Flachdach b.10Grad Vollholz/Konstr-vollholz unbehandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.07E",
+      "text": "Abbr.Flachdach b.10Grad Vollholz/Konstr-vollholz behandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.07G",
+      "text": "Abbr.Keilpfosten Vollholz/Konstr-vollholz unbehandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.07H",
+      "text": "Abbr.Keilpfosten Vollholz/Konstr-vollholz behandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.10A",
+      "text": "Abbr.Dachbodenrinne Vollholz behandelt ohne Blechrinne                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "02.36.11A",
+      "text": "Abbr.Stufe Vollholz behandelt                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "02.36.12A",
+      "text": "Abbr.Trennwand Latten Vollholz unbehandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.12B",
+      "text": "Abbr.Trennwand Latten Vollholz behandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.12D",
+      "text": "Abbr.Trennwand Bretter Vollholz unbehandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.12E",
+      "text": "Abbr.Trennwand Bretter Vollholz behandelt",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.14A",
+      "text": "Abbr.Holzmassivdecke BSP b.16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.14B",
+      "text": "Abbr.Holzmassivdecke BSP ü.16-22cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.14C",
+      "text": "Abbr.Holzmassivdecke BSH b.16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.14D",
+      "text": "Abbr.Holzmassivdecke BSH ü.16-22cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.14E",
+      "text": "Abbr.Rippenplattendecke BSP/BSH b.16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.14F",
+      "text": "Abbr.Rippenplattendecke BSP/BSH ü.16-22cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.16G",
+      "text": "Abbr.Holzverlege-/Verlegespanplatten ü.2,2-3,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.18A",
+      "text": "Abbr.Holzmassivwand BSP b.12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.18B",
+      "text": "Abbr.Holzmassivwand BSP ü.12-16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.19A",
+      "text": "Abbr.Traufen-/Giebel-/Ortgangblende Vollholz b.30cm                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "02.36.19B",
+      "text": "Abbr.Traufen-/Giebel-/Ortgangblende Vollholz ü.30-50cm                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "02.36.24B",
+      "text": "Abbr.WD Mineralwolle b.10cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.24C",
+      "text": "Abbr.WD Mineralwolle ü.10-20cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.25B",
+      "text": "Abbr.WD Mineralwolle b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.25C",
+      "text": "Abbr.WD Mineralwolle ü.10-20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.25I",
+      "text": "Abbr.Sockel-u.Anschlussdämmung EPS b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.25J",
+      "text": "Abbr.Sockel-u.Anschlussdämmung XPS b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.36.25K",
+      "text": "Abbr.Sockel-u.Anschlussdämmung XPS b.10cm (g.A)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.44.01A",
+      "text": "Strippen vor dem Abtragen (WD)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.44.05A",
+      "text": "Abtragen Fassaden-WD aus EPS b.5cm",
+      "unit": "m³"
+    },
+    {
+      "code": "02.50.01D",
+      "text": "Abbr. CV-Belag bis 0,25mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.01G",
+      "text": "Abbr. CV-Belag ü. 0,25-0,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.01N",
+      "text": "Abbr. CV-Belag bis 0,25mm (g.A.)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.01Q",
+      "text": "Abbr. CV-Belag ü. 0,25-0,5mm (g.A.)",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.02A",
+      "text": "Abbr. PVC-homog.Bahn b. 2,0mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.02K",
+      "text": "Abbr. PVC-homog.Platte b. 2,0mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.02P",
+      "text": "Abbr. PVC-homog.Platte ü. 2,0 - 2,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.03A",
+      "text": "Abbr. PVC-leitf.homog.Ba. b. 2,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.03D",
+      "text": "Abbr. PVC-leitf.homog.Pl. b. 2,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.04A",
+      "text": "Abbr. PVC-homog+Schaumr.b. 4mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.05A",
+      "text": "Abbr. PVC-homog.Stufe b. 2,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.06A",
+      "text": "Abbr. PVC- heter.3,8/0,6+Schaum",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.06C",
+      "text": "Abbr. PVC-heter.2/1mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.06E",
+      "text": "Abbr. PVC-heter.el.2/1",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.07A",
+      "text": "Abbr. PVC-heter.Stufe 2/1",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.07C",
+      "text": "Abbr. PVC-heter.Stufe+Kant.3,5/1",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.09A",
+      "text": "Abbr. PVC Hochzug Sockel                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "02.50.09B",
+      "text": "Abbr. PVC Hochzug Innen- oder Außeneck",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.50.10A",
+      "text": "Abbr. Linoleum b. 2,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.10E",
+      "text": "Abbr. Linoleum ü.2,5-4mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.11A",
+      "text": "Abbr. Linoleum Stufe b. 2,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.11B",
+      "text": "Abbr. Linoleum Stufe ü. 2,5-4mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.12A",
+      "text": "Abbr. Kork-Linoleum 3,2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.12B",
+      "text": "Abbr.Kork-Linoleum 4,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.12C",
+      "text": "Abbr. Kork-Linoleum 6mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.13E",
+      "text": "Abbr. Linoleum Hochzug Sockel                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "02.50.13F",
+      "text": "Abbr. Linoleum Hochzug Innen- oder Außeneck",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.50.18A",
+      "text": "Abbr. Kautsch. b. 2,5mm Bahn",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.18B",
+      "text": "Abbr. Kautsch. b. 2,5mm Fliese",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.21A",
+      "text": "Abbr. Kautsch.el b. 2,5mm Bahn",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.21B",
+      "text": "Abbr. Kautsch.el.b. 2,5mm Fliese",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.21D",
+      "text": "Abbr. Kautsch.el ü. 2,5-4mm Bahn",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.21E",
+      "text": "Abbr. Kautsch.el.ü. 2,5-4mm Fliese",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.22A",
+      "text": "Abbr. Kautsch.schalld.4mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.24A",
+      "text": "Abbr. Kautsch.hdp.3,5mm Platte",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.26A",
+      "text": "Abbr. Kautsch.hdp.al.3,5mm Platte",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.26B",
+      "text": "Abbr. Kautsch.hdp+Zäpf.al.4,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.28A",
+      "text": "Abbr. Kautsch.hdp.3,5mm Fliese",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.30A",
+      "text": "Abbr. Kautsch.Stufe 2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.30F",
+      "text": "Abbr. Kautsch.Stufe 2mm al",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.30H",
+      "text": "Abbr. Kautsch.Stufe 3,5mm al",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.35A",
+      "text": "Abbr. Kautschnoppe 3,2nnm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.35B",
+      "text": "Abbr. Kautschnoppe 4mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.35C",
+      "text": "Abbr. Kautschnoppe+Zäpf.5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.38B",
+      "text": "Abbr. Kautschnoppe+Zäpf.6mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.40A",
+      "text": "Abbr. Kautsch.r-l-noppe 4,2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.42A",
+      "text": "Abbr. Kauts-noppe+Zäpf.al.5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.45A",
+      "text": "Abbr. Kautschnoppe kerbz.9mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.47A",
+      "text": "Abbr. Kautschnoppe TU 4mm",
+      "unit": "m²"
+    },
+    {
+      "code": "02.50.48E",
+      "text": "Abbr. Kautschuk Hochzug Sockel                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "02.50.48F",
+      "text": "Abbr. Kautschuk Hochzug Innen- oder Außeneck",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.50.59A",
+      "text": "Abbr. Kautsch.Sockelleiste 60mm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "02.50.59B",
+      "text": "Abbr. Kautsch.Sockelleiste 100mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "02.50.69A",
+      "text": "Abbr. Formtreppe Kautsch. b.100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.50.69B",
+      "text": "Abbr. Formtreppe Kautsch. ü.100-130cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.50.69C",
+      "text": "Abbr. Formtreppe Kautsch. ü.130-160cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.50.69D",
+      "text": "Abbr. Formtreppe Kautsch. ü.160-200cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.50.71A",
+      "text": "Abbr. Formtrep.Kautschnopp. b. 100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.50.71B",
+      "text": "Abbr. Formtrep.Kautschnopp. ü.100-130cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.50.71C",
+      "text": "Abbr. Formtrep.Kautschnopp. ü.130-160cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.50.71D",
+      "text": "Abbr. Formtrep.Kautschnopp. ü.160-200cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.50.74A",
+      "text": "Abbr. Treppenwinkel Kautsch.Wands.                                                                         VE",
+      "unit": ""
+    },
+    {
+      "code": "02.50.74B",
+      "text": "Abbr. Treppenwink.Kautsch.Geländers.                                                                       VE",
+      "unit": ""
+    },
+    {
+      "code": "02.50.76A",
+      "text": "Abbr. Treppenkante Kautsch.50/45                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "02.50.76B",
+      "text": "Abbr.Treppenkante Kautsch.50/185                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "02.57.01A",
+      "text": "Abbr.Rollo Verdunkelung",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.01B",
+      "text": "Abbr.Innenjalousie Alu",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.01C",
+      "text": "Abbr.Außenjalousie Alu",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.01D",
+      "text": "Abbr.Einbaurolladen",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.01G",
+      "text": "Abbr.Markisette",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.01H",
+      "text": "Abbr.Gelenk-Kassettenmarkise b.10m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.01I",
+      "text": "Abbr.Gelenk-Kassettenmarkise ü.10-15m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.01J",
+      "text": "Abbr.Gelenk-Kassettenmarkise ü.15-20m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.01K",
+      "text": "Abbr.Gelenk-Kassettenmarkise ü.20-30m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.01L",
+      "text": "Abbr.Fallarmmarkise b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.01M",
+      "text": "Abbr.Fallarmmarkise ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.01N",
+      "text": "Abbr.Fassadenmarkise",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.01P",
+      "text": "Abbr.Wintergartenmarkise b.15m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.01Q",
+      "text": "Abbr.Wintergartenmarkise ü.15-25m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.01R",
+      "text": "Abbr.Wintergartenmarkise ü.25-35m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.03A",
+      "text": "Demontieren Rollo Verdunkelung",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.03B",
+      "text": "Demontieren Innenjalousien",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.03D",
+      "text": "Demontieren Außenjalousien",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.03G",
+      "text": "Demontieren Vertikaljalousien",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.03I",
+      "text": "Demontieren Einbaurollladen",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.03K",
+      "text": "Demontieren Markisoletten",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.03L",
+      "text": "Demontieren Gelenk-Kassettenmarkise",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.03N",
+      "text": "Demontieren Fallarmmarkisen",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.57.03O",
+      "text": "Demontieren Fassadenmarkisen",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.61.01A",
+      "text": "Wandverkleidungsdecklage aus Holz abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.01B",
+      "text": "Textile Wandverkleidungsdecklage abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.01C",
+      "text": "Wandverkleidungsdecklage abbrechen - Material:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.02A",
+      "text": "Wandunterkonstr.1-f.Latten abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.02B",
+      "text": "Wandunterkonstr.1-f.Holzrost abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.02D",
+      "text": "Wandunterkonstr.1-f.Holzrost, Dist b. 30 cm abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.02E",
+      "text": "Wandunterkonstr.1-f.Holzrost, Dist ü. 30–60 cm abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.02G",
+      "text": "Wandunterkonstr.Metallrost abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.03A",
+      "text": "Wand-Dämmung b.5cm abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.03B",
+      "text": "Wand-Dämmung b.5cm abbrechen g.A.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.04A",
+      "text": "Turnsaaltüre Holz abbr. bis 2,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.61.04B",
+      "text": "Turnsaaltüre Holz abbr.ü.2,5-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.61.04C",
+      "text": "Turnsaaltüre Holz abbr.ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.61.04D",
+      "text": "Turnsaaltüre abbrechen, Material:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.61.05A",
+      "text": "Wand-Lüftungsgitter u.Verblechungen abbr. b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.61.05B",
+      "text": "Wand-Lüftungsgitter u.Verblechungen abbr. ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.61.05C",
+      "text": "Wand-Lüftungsgitter u.Verblechungen abbr. ü.0,5m2-__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.61.05D",
+      "text": "Wand-Sonstige Einbauteile abbr. b. 0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.61.06A",
+      "text": "Deckenverkleidungsdecklage Holz abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.06B",
+      "text": "Deckenverkleidungsdecklage Holzwolle abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.06C",
+      "text": "Deckenverkleidungsdecklage abbrechen - Material:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.07A",
+      "text": "Deckenunterkonstruktion 1-f.Latt. Dist b. 10 cm abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.07B",
+      "text": "Deckenunterkonstruktion Holzrost, Dist ü.10-50 cm abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.07C",
+      "text": "Deckenunterkonstruktion Holzrost, Dist ü.50-100 cm abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.07D",
+      "text": "Deckenunterkonstruktion Metallrost abbrech.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.08A",
+      "text": "Deckendämmung b.5cm abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.08B",
+      "text": "Deckendämmung b.5cm abbrechen g.A.",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.08C",
+      "text": "Deckendämmung abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.09A",
+      "text": "Sporthallenleuchte abbrechen",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.61.10A",
+      "text": "Decke-Lüftungsgitter u.Verblechungen abbr. b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.61.10B",
+      "text": "Decke-Lüftungsgitter u.Verblechungen abbr. ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.61.10C",
+      "text": "Decke-Lüftungsgitter u.Verblechungen abbr. ü.0,5m2__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.61.10D",
+      "text": "Decke-Sonstige Einbauteile abbr. b. 0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "02.61.11A",
+      "text": "Sportbod.Holz/Holzschwingk.abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.11B",
+      "text": "Sportbod.Kst/Holzschwingk.abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.11C",
+      "text": "Sportbod.Holz/Kunststoff.abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.11D",
+      "text": "Sportbod.Kunstst./Kunstst.abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.11E",
+      "text": "Sportbod.punkt.-mischelastisch abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.11X",
+      "text": "Sportbod. abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "02.61.12A",
+      "text": "Mineralwolle abbrechen",
+      "unit": "m³"
+    },
+    {
+      "code": "02.61.12B",
+      "text": "Mineralwolle abbrechen (g.A.)",
+      "unit": "m³"
+    },
+    {
+      "code": "02.61.12F",
+      "text": "Dämmung EPS lose abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.61.12G",
+      "text": "Dämmung EPS lose abbr. (g.A.)",
+      "unit": "m³"
+    },
+    {
+      "code": "02.61.12J",
+      "text": "Dämmung XPS lose abbr.",
+      "unit": "m³"
+    },
+    {
+      "code": "02.61.12K",
+      "text": "Dämmung XPS lose abbr. (g.A.)",
+      "unit": "m³"
+    },
+    {
+      "code": "02.61.12X",
+      "text": "Dämmung unter Sportb. abtragen__________",
+      "unit": "m³"
+    },
+    {
+      "code": "02.61.90A",
+      "text": "Demontage Turngeräte                                                                                                  PA",
+      "unit": ""
+    },
+    {
+      "code": "02.61.90B",
+      "text": "Wiedermontage Turngeräte                                                                                              PA",
+      "unit": ""
+    },
+    {
+      "code": "02.61.91A",
+      "text": "Abbruch Turngeräte                                                                                                    PA",
+      "unit": ""
+    },
+    {
+      "code": "02.91.11A",
+      "text": "Transp./Verw./Dep.Betonabbruch",
+      "unit": "t"
+    },
+    {
+      "code": "02.91.11B",
+      "text": "Transp./Verw./Dep.Asphaltabbruch",
+      "unit": "t"
+    },
+    {
+      "code": "02.91.11C",
+      "text": "Transp./Verw./Dep.behandelte Holzabfälle",
+      "unit": "t"
+    },
+    {
+      "code": "02.91.11D",
+      "text": "Transp./Verw./Dep.unbehandelte Holzabfälle",
+      "unit": "t"
+    },
+    {
+      "code": "02.91.11E",
+      "text": "Transp./Verw./Dep.Metallabfälle",
+      "unit": "t"
+    },
+    {
+      "code": "02.91.11F",
+      "text": "Transp./Verw./Dep.Baustellenabfälle",
+      "unit": "t"
+    },
+    {
+      "code": "02.91.11G",
+      "text": "Transp./Verw./Dep.mineralischer Bauschutt",
+      "unit": "t"
+    },
+    {
+      "code": "02.91.11H",
+      "text": "Transp./Verw./Dep.künstl.Mineralfasern KMF",
+      "unit": "t"
+    },
+    {
+      "code": "02.91.11I",
+      "text": "Transp./Verw./Dep.künstl.Mineralfasern KMF (gefährlich)",
+      "unit": "t"
+    },
+    {
+      "code": "02.91.11J",
+      "text": "Transp./Verw./Dep.EPS",
+      "unit": "t"
+    },
+    {
+      "code": "02.91.11K",
+      "text": "Transp./Verw./Dep.XPS",
+      "unit": "t"
+    },
+    {
+      "code": "02.91.11L",
+      "text": "Transp./Verw./Dep.XPS (gefährlich)",
+      "unit": "t"
+    },
+    {
+      "code": "02.91.11M",
+      "text": "Transp./Verw./Dep.Asbestabfälle",
+      "unit": "t"
+    },
+    {
+      "code": "02.91.11P",
+      "text": "Transp./Verw./Dep.gefährlicher Abfall",
+      "unit": "t"
+    }
+  ]
+}

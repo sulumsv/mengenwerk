@@ -1,0 +1,1107 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                         Leistungsgruppe (LG) 08 - Mauerarbeiten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 0800    Wählbare Vorbemerkungen
+                     ULG 0801    Mauerwerk aus Normalformat (NF) -Steinen
+                     ULG 0802    Mauerwerk aus Hochlochziegeln (HLZ)
+                     ULG 0803    Mauerwerk aus Beton-u.Leichtbetonsteinen
+                     ULG 0804    Mauerwerk aus Porenbeton
+                     ULG 0805    Mauerwerk aus Schalsteinen u.Holzmantelbeton
+                     ULG 0806    Zwischenwände (nicht tragende Wände)
+                     ULG 0811    Klinker-Sichtmauerwerk
+                     ULG 0821    Mauerwerk Sonstiges
+
+
+
+
+                                                                                                           Seite 1 / 17
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+08          Mauerarbeiten
+            Version 022 (2021-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Kategorie I für tragende Wände:
+            Für tragende Wände werden Ziegel und Steine der Kategorie I gemäß ÖNORM (ohne Angaben von
+            Festigkeitsklassen) verwendet.
+            2. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            2.1 Anforderungen:
+            Alle Wände, Wandelemente und Pfeiler sind aus verputz- und einstemmfähigen Material ohne besondere
+            Anforderungen an den Brandschutz ausgeführt.
+            Das Ausfachen von Stahlbetonskelettbauten wird mit den Positionen Mauerwerk abgerechnet.
+            2.2 Gerüste:
+            Gerüste sind für die angegebene Höhe, einschließlich erhöhtem Aufwand für den Materialtransport und
+            sonstiger Erschwernisse, in die Einheitspreise einkalkuliert.
+            2.3 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • waagrechte und lotrechte Schnitte von Ziegeln und Steinen, wenn der geplante Wandabschluss nicht mit
+                  passenden Ziegel- oder Steinformaten erreicht wird
+                • Ausführungen von Ecken oder Leibungen mit Formziegeln oder Formsteinen, die der Hersteller der
+                  verwendeten Ziegel- oder Steinart erzeugt
+            3. Höhen:
+            Leistungen bei Höhen von Null bis 3,2 m (b.3,2m) einerseits und Höhen von Null bis über 3,2 m (ü.3,2m:
+            "Ausschreiberlücke") andererseits werden in unterschiedlichen Positionen beschrieben.
+            Wände mit einer Höhe von Null bis über 3,2 m werden durch gedachte lotrechte seitliche Begrenzungen
+            gegenüber etwaigen Wänden mit einer Höhe von Null bis 3,2 m, auch bei schrägem oberen Abschluss,
+            abgegrenzt. Abgerechnet wird die Summe der Flächen von Null bis 3,2 m und die Summe der Flächen von Null
+            bis zur angegebenen Höhe (über 3,2 m).
+            Höhen von lotrechten Bauteilen aus Beton werden je Geschoß von der Aufstandsfläche bis zur Oberkante des
+            Bauteiles gemessen.
+             Kommentar:
+             Das Ausbilden von Bauanschlussfugen ist in der jeweiligen Leistungsgruppe beschrieben (z.B. Fenster).
+             Frei zu formulieren (z.B.):
+                 • Mantelbetonwände
+                 • Holzbeton-Mantelplatten
+                 • Verankerungen bei Ausfachungen von Stahlbetonwänden
+                 • Naturstein- oder Mischmauerwerk
+                 • besondere Anforderungen an den Feuerschutz (z.B. Brandabschluss/Schachtabschluss)
+                 • gebogener Sturz und runde oder ovale Öffnungen (ausgenommen mit Mauerwerk mit Mauerziegeln NF)
+                 • Arbeiten bei Temperaturen unter 5 Grad Celsius (ausgenommen Mantelbeton (Az) in LG18)
+             Literaturhinweis (z.B.):
+             ÖNORM B 2206: Mauer- und Versetzarbeiten Werkvertragsnorm
+             ÖNORM B 3358: Nichttragende Innenwandsysteme
+             ÖNORM EN 771: Festlegungen für Mauersteine
+             ÖNORM EN 998-2: Festlegungen für Mörtel im Mauerwerksbau - Mauermörtel
+
+            LB-Version: 23                 Geringfügig Geändert
+
+08.00       Wählbare Vorbemerkungen
+08.00 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+08.00 00A   Statische Berechnungen
+            Statische Berechnungen (z.B. für Schalungs- oder Mantelbetonsteine): ____________
+
+08.00 00B   Ausfachungen f.Stahlbetonskelettbauten
+
+                                                                                                                            Seite 2 / 17
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+            Ausfachungen für Stahlbetonskelettbauten (Beilagen): ____________
+
+08.00 00V   Verfügbarkeit von Beilagen zum LV
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von z.B. Plänen (z.B. im PDF-Format): ____________
+            Betrifft Position(en): ____________
+
+08.01       Mauerwerk aus Normalformat (NF) -Steinen
+08.01 01    Mauerwerk (Mwk.) aus Mauerziegeln, voll oder gelocht, Normalformat (NF).
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.01 01A   NF Ziegel-Mwk.b.3,2m                                                                                       m³
+08.01 02    Mauerwerk (Mwk.) aus Mauerziegeln, Normalformat (NF). Im Positionsstichwort ist die Gesamthöhe angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+08.01 02A   NF Ziegel-Mwk.ü.3,2m:__________                                                                            m³
+08.01 71    Aufzahlung (Az) auf Mauerwerk, Normalformat (NF), ohne Unterschied der Bauteilhöhe.
+
+08.01 71A   Az NF Mwk.f.Pfeiler                                                                                        m³
+            Für das Ausbilden von freistehenden Pfeilern.
+
+08.01 71B   Az NF Mwk.f.schrägen Abschluss                                                                             m²
+            Für das Ausbilden eines schrägen Abschlusses (z.B. bei Giebelwänden). Abgerechnet wird das Flächenmaß
+            (schräge Länge x Mauerdicke).
+
+08.01 71C   Az NF Mwk.f.gebogene Wände                                                                                 m²
+            Für das Ausbilden von im Grundriss gebogenen Wänden. Abgerechnet wird das Flächenmaß (Mauerachse x
+            Höhe).
+
+08.01 71D   Az NF Mwk.f.gebogenen Sturz                                                                                m²
+            Für das Ausbilden von bogenförmigen Stürzen (z.B. Fenster- oder Türöffnungen). Abgerechnet wird das
+            Flächenmaß (= abgewickelte untere Ansichtsfläche).
+
+08.01 71E   Az NF Mwk.f.Rund-/Ovalöffnungen                                                                            m²
+            Für das Ausbilden von runden oder ovalen Öffnungen. Abgerechnet wird das Flächenmaß (= abgewickelte
+            Innenleibung).
+
+08.01 71F   Az NF Mwk.f.Umm.Fänge                                                                                      m²
+            Für das Ummauern (Umm.) von Fängen, einschließlich Herstellen aller Aussparungen für
+            Reinigungsverschlüsse, Anschlüsse und Einbauten.
+
+08.01 71L   Az NF Mwk.f.Umm.Leitungen b.0,05m2                                                                         Stk
+            Für das Ummauern (Umm.) von querenden Leitungen bis zu einem Querschnitt von 0,05 m2, die vor dem
+            Errichten von Wänden bestehen, einschließlich Trennlage (Bewegungsfuge) und abschneiden der Trennlage an
+            der Wandoberfläche.
+
+08.02       Mauerwerk aus Hochlochziegeln (HLZ)
+
+
+            Schalldämmmaß:
+            Die Prüfung des bewerteten Schalldämmmaßes RW erfolgt mit beidseitig verputzten Wänden.
+            In den Positionen ist nur die Dicke des Mauerwerks angegeben.
+            Putz ist in eigenen Positionen beschrieben.
+
+08.02 01    Mauerwerk aus Hochlochziegeln (HLZ-Mwk.), für tragende Wände ohne besondere Anforderungen. Im
+            Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.02 01A   17cm HLZ-Mwk.b.3,2m                                                                                        m²
+
+08.02 01B   20cm HLZ-Mwk.b.3,2m                                                                                        m²
+                                                                                                                  Seite 3 / 17
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+
+08.02 01C   25cm HLZ-Mwk.b.3,2m                                                                                     m²
+
+08.02 01D   30cm HLZ-Mwk.b.3,2m                                                                                     m²
+
+08.02 01E   38cm HLZ-Mwk.b.3,2m                                                                                     m²
+
+08.02 01F   50cm HLZ-Mwk.b.3,2m                                                                                     m²
+08.02 02    Mauerwerk aus Hochlochziegeln (HLZ-Mwk.), für tragende Wände ohne besondere Anforderungen. Im
+            Positionsstichwort sind die Dicke des Mauerwerks und die Gesamthöhe angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+08.02 02A   17cm HLZ-Mwk.ü.3,2m:__________                                                                          m²
+
+08.02 02B   20cm HLZ-Mwk.ü.3,2m:__________                                                                          m²
+
+08.02 02C   25cm HLZ-Mwk.ü.3,2m:__________                                                                          m²
+
+08.02 02D   30cm HLZ-Mwk.ü.3,2m:__________                                                                          m²
+
+08.02 02E   38cm HLZ-Mwk.ü.3,2m:__________                                                                          m²
+
+08.02 02F   50cm HLZ-Mwk.ü.3,2m:__________                                                                          m²
+08.02 03    Mauerwerk aus Hochlochziegeln aus Planziegeln (HLZ-Plan-Mwk.), für tragende Wände ohne besondere
+            Anforderungen. Im Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.02 03A   17cm HLZ-Plan-Mwk.b.3,2m                                                                                m²
+
+08.02 03B   20cm HLZ-Plan-Mwk.b.3,2m                                                                                m²
+
+08.02 03C   25cm HLZ-Plan-Mwk.b.3,2m                                                                                m²
+
+08.02 03D   30cm HLZ-Plan-Mwk.b.3,2m                                                                                m²
+
+08.02 03E   38cm HLZ-Plan-Mwk.b.3,2m                                                                                m²
+
+08.02 03F   50cm HLZ-Plan-Mwk.b.3,2m                                                                                m²
+08.02 04    Mauerwerk aus Hochlochziegeln aus Planziegeln (HLZ-Plan-Mwk.), für tragende Wände ohne besondere
+            Anforderungen. Im Positionsstichwort sind die Dicke des Mauerwerks und die Gesamthöhe angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+08.02 04A   17cm HLZ-Plan-Mwk.ü.3,2m:__________                                                                     m²
+
+08.02 04B   20cm HLZ-Plan-Mwk.ü.3,2m:__________                                                                     m²
+
+08.02 04C   25cm HLZ-Plan-Mwk.ü.3,2m:__________                                                                     m²
+
+08.02 04D   30cm HLZ-Plan-Mwk.ü.3,2m:__________                                                                     m²
+
+08.02 04E   38cm HLZ-Plan-Mwk.ü.3,2m:__________                                                                     m²
+
+08.02 04F   50cm HLZ-Plan-Mwk.ü.3,2m:__________                                                                     m²
+08.02 11    Mauerwerk aus Hochlochziegeln (HLZ-Mwk.), für tragende Wände mit erhöhtem Schallschutz. Im
+            Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.02 11A   17cm HLZ-Mwk.Schallschutz b.3,2m                                                                        m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.02 11B   20cm HLZ-Mwk.Schallschutz b.3,2m                                                                        m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.02 11C   25cm HLZ-Mwk.Schallschutz b.3,2m                                                                        m²
+
+                                                                                                               Seite 4 / 17
+                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.02 11D   30cm HLZ-Mwk.Schallschutz b.3,2m                                                                          m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.02 12    Mauerwerk aus Hochlochziegeln (HLZ-Mwk.), für tragende Wände mit erhöhtem Schallschutz. Im
+            Positionsstichwort sind die Dicke des Mauerwerks und die Gesamthöhe angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+08.02 12A   17cm HLZ-Mwk.Schallschutz ü.3,2m:__________                                                               m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.02 12B   20cm HLZ-Mwk.Schallschutz ü.3,2m:__________                                                               m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.02 12C   25cm HLZ-Mwk.Schallschutz ü.3,2m:__________                                                               m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.02 12D   30cm HLZ-Mwk.Schallschutz ü.3,2m:__________                                                               m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.02 13    Mauerwerk aus Hochlochziegeln aus Planziegeln (HLZ-Plan-Mwk.), für tragende Wände mit erhöhtem
+            Schallschutz (Schall.). Im Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.02 13A   17cm HLZ-Plan-Mwk.Schallschutz b.3,2m                                                                     m²
+            Bewertetes Schalldämmmaß RW: ____________dB ____________
+
+08.02 13B   20cm HLZ-Plan-Mwk.Schallschutz b.3,2m                                                                     m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.02 13C   25cm HLZ-Plan-Mwk.Schallschutz b.3,2m                                                                     m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.02 14    Mauerwerk aus Hochlochziegeln aus Planziegeln (HLZ-Plan-Mwk.), für tragende Wände mit erhöhtem
+            Schallschutz (Schall.). Im Positionsstichwort sind die Dicke des Mauerwerks und die Gesamthöhe angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+08.02 14A   17cm HLZ-Plan-Mwk.Schallschutz ü.3,2m:__________                                                          m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.02 14B   20cm HLZ-Plan-Mwk.Schallschutz ü.3,2m:__________                                                          m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.02 14C   25cm HLZ-Plan-Mwk.Schallschutz ü.3,2m:__________                                                          m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.02 21    Mauerwerk aus Hochlochziegeln (HLZ-Mwk.), für tragende Wände mit erhöhtem Wärmeschutz. Im
+            Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.02 21B   30cm HLZ-Mwk.Wärmeschutz b.3,2m                                                                           m²
+                                                                                                2
+            Wärmedämmwert (U-Wert) Hochlochziegelmauerwerk (unverputzt): ____________W/m K
+
+08.02 21C   38cm HLZ-Mwk.Wärmeschutz b.3,2m                                                                           m²
+            Wärmedämmwert (U-Wert) Hochlochziegelmauerwerk (unverputzt): ____________W/m2K
+
+08.02 21F   50cm HLZ-Mwk.Wärmeschutz b.3,2m                                                                           m²
+            Wärmedämmwert (U-Wert) Hochlochziegelmauerwerk (unverputzt): ____________W/m2K
+
+08.02 22    Mauerwerk aus Hochlochziegeln (HLZ-Mwk.), für tragende Wände mit erhöhtem Wärmeschutz. Im
+            Positionsstichwort sind die Dicke des Mauerwerks und die Gesamthöhe angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+                                                                                                                 Seite 5 / 17
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+
+08.02 22B   30cm HLZ-Mwk.Wärmeschutz ü.3,2m:__________                                                               m²
+                                                                                               2
+            Wärmedämmwert (U-Wert) Hochlochziegelmauerwerk (unverputzt): ____________W/m K
+
+08.02 22C   38cm HLZ-Mwk.Wärmeschutz ü.3,2m:__________                                                               m²
+                                                                                               2
+            Wärmedämmwert (U-Wert) Hochlochziegelmauerwerk (unverputzt): ____________W/m K
+
+08.02 22F   50cm HLZ-Mwk.Wärmeschutz ü.3,2m:__________                                                               m²
+                                                                                               2
+            Wärmedämmwert (U-Wert) Hochlochziegelmauerwerk (unverputzt): ____________W/m K
+
+08.02 23    Mauerwerk aus Hochlochziegeln aus Planziegeln (HLZ-Plan-Mwk.), für tragende Wände mit erhöhtem
+            Wärmeschutz. Im Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.02 23B   30cm HLZ-Plan-Mwk.Wärmeschutz b.3,2m                                                                     m²
+                                                                                               2
+            Wärmedämmwert (U-Wert) Hochlochziegelmauerwerk (unverputzt): ____________W/m K
+
+08.02 23C   38cm HLZ-Plan-Mwk.Wärmeschutz b.3,2m                                                                     m²
+                                                                                               2
+            Wärmedämmwert (U-Wert) Hochlochziegelmauerwerk (unverputzt): ____________W/m K
+
+08.02 23F   50cm HLZ-Plan-Mwk.Wärmeschutz b.3,2m                                                                     m²
+                                                                                               2
+            Wärmedämmwert (U-Wert) Hochlochziegelmauerwerk (unverputzt): ____________W/m K
+08.02 24    Mauerwerk aus Hochlochziegeln aus Planziegeln (HLZ-Plan-Mwk.), für tragende Wände mit erhöhtem
+            Wärmeschutz. Im Positionsstichwort sind die Dicke des Mauerwerks und die Gesamthöhe angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+08.02 24B   30cm HLZ-Plan-Mwk.Wärmeschutz ü.3,2m:__________                                                          m²
+                                                                                               2
+            Wärmedämmwert (U-Wert) Hochlochziegelmauerwerk (unverputzt): ____________W/m K
+
+08.02 24C   38cm HLZ-Plan-Mwk.Wärmeschutz ü.3,2m:__________                                                          m²
+                                                                                               2
+            Wärmedämmwert (U-Wert) Hochlochziegelmauerwerk (unverputzt): ____________W/m K
+
+08.02 24F   50cm HLZ-Plan-Mwk.Wärmeschutz ü.3,2m:__________                                                          m²
+                                                                                               2
+            Wärmedämmwert (U-Wert) Hochlochziegelmauerwerk (unverputzt): ____________W/m K
+
+08.02 71    Aufzahlung (Az) auf Mauerwerk aus Hochlochziegeln, ohne Unterschied der Bauteilhöhe.
+
+08.02 71A   Az Hochlochziegeln f.Pfeiler                                                                             m²
+            Für das Ausbilden von freistehenden Pfeilern.
+
+08.02 71B   Az Hochlochziegeln f.schrägen Abschluss                                                                  m²
+            Für das Ausbilden eines schrägen Abschlusses (z.B. bei Giebelwänden). Abgerechnet wird das Flächenmaß
+            (schräge Länge x Mauerdicke).
+
+08.02 71C   Az Hochlochziegeln f.gebogene Wände                                                                      m²
+            Für das Ausbilden von im Grundriss gebogenen Wänden. Abgerechnet wird das Flächenmaß (Mauerachse x
+            Höhe).
+
+08.02 71F   Az Hochlochziegeln f.Umm.Fänge                                                                           m²
+            Für das Ummauern (Umm.) von Fängen, einschließlich Herstellen aller Aussparungen für
+            Reinigungsverschlüsse, Anschlüsse und Einbauten.
+
+08.02 71L   Az Hochlochziegeln f.Umm.Leitungen b.0,05m2                                                              Stk
+            Für das Ummauern (Umm.) von querenden Leitungen bis zu einem Querschnitt von 0,05 m2, die vor dem
+            Errichten von Wänden bestehen, einschließlich Trennlage (Bewegungsfuge) und abschneiden der Trennlage an
+            der Wandoberfläche.
+
+08.03       Mauerwerk aus Beton-u.Leichtbetonsteinen
+
+
+                                                                                                                Seite 6 / 17
+                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+
+            Schalldämmmaß:
+            Die Prüfung des bewerteten Schalldämmmaßes RW erfolgt mit beidseitig verputzten Wänden.
+            In den Positionen ist nur die Dicke des Mauerwerks angegeben.
+            Putz ist in eigenen Positionen beschrieben.
+
+08.03 01    Mauerwerk aus Beton-Hohlblock (HBL)-Steinen für tragende Wände ohne besondere Anforderungen. Im
+            Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.03 01A   19cm Beton-HBL-Steine b.3,2m                                                                              m²
+
+08.03 01B   25cm Beton-HBL-Steine b.3,2m                                                                              m²
+
+08.03 01C   30cm Beton-HBL-Steine b.3,2m                                                                              m²
+
+08.03 01D   38cm Beton-HBL-Steine b.3,2m                                                                              m²
+08.03 02    Mauerwerk aus Beton-Hohlblock (HBL)-Steinen für tragende Wände ohne besondere Anforderungen. Im
+            Positionsstichwort sind die Dicke des Mauerwerks und die Gesamthöhe angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+08.03 02A   19cm Beton-HBL-Steine ü.3,2m:__________                                                                   m²
+
+08.03 02B   25cm Beton-HBL-Steine ü.3,2m:__________                                                                   m²
+
+08.03 02C   30cm Beton-HBL-Steine ü.3,2m:__________                                                                   m²
+
+08.03 02D   38cm Beton-HBL-Steine ü.3,2m:__________                                                                   m²
+08.03 09    Mauerwerk aus Leichtbeton (LB) -Hohlblock (HBL) -Steinen für tragende Wände ohne besondere
+            Anforderungen. Im Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.03 09A   20cm LB-HBL-Steine b.3,2m                                                                                 m²
+
+08.03 09B   25cm LB-HBL-Steine b.3,2m                                                                                 m²
+
+08.03 09C   30cm LB-HBL-Steine b.3,2m                                                                                 m²
+
+08.03 09D   38cm LB-HBL-Steine b.3,2m                                                                                 m²
+
+08.03 09E   45cm LB-HBL-Steine b.3,2m                                                                                 m²
+
+08.03 09F   50cm LB-HBL-Steine b.3,2m                                                                                 m²
+08.03 10    Mauerwerk aus Leichtbeton (LB) -Hohlblock (HBL) -Steinen für tragende Wände ohne besondere
+            Anforderungen. Im Positionsstichwort sind die Dicke des Mauerwerks und die Gesamthöhe angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+08.03 10A   20cm LB-HBL-Steine ü.3,2m:__________                                                                      m²
+
+08.03 10B   25cm LB-HBL-Steine ü.3,2m:__________                                                                      m²
+
+08.03 10C   30cm LB-HBL-Steine ü.3,2m:__________                                                                      m²
+
+08.03 10D   38cm LB-HBL-Steine ü.3,2m:__________                                                                      m²
+
+08.03 10E   45cm LB-HBL-Steine ü.3,2m:__________                                                                      m²
+
+08.03 10F   50cm LB-HBL-Steine ü.3,2m:__________                                                                      m²
+08.03 13    Mauerwerk aus Leichtbeton (LB)-Steinen für tragende Wände mit erhöhtem Schallschutz. Im Positionsstichwort
+            ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.03 13B   17cm (18cm) LB-Schallschutz b.3,2m                                                                        m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+                                                                                                                 Seite 7 / 17
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+08.03 13C   20cm LB-Schallschutz b.3,2m                                                                                  m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.03 13D   25cm LB-Schallschutz b.3,2m                                                                                  m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.03 14    Mauerwerk aus Leichtbeton (LB)-Steinen für tragende Wände mit erhöhtem Schallschutz. Im Positionsstichwort
+            sind die Dicke des Mauerwerks und die Gesamthöhe angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+08.03 14B   17cm (18cm) LB -Schallschutz ü.3,2m:__________                                                               m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.03 14C   20cm LB-Schallschutz ü.3,2m:__________                                                                       m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.03 14D   25cm LB-Schallschutz ü.3,2m:__________                                                                       m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.03 41    Aufzahlung (Az) auf Mauerwerk aus Betonsteinen, ohne Unterschied der Bauteilhöhe.
+
+08.03 41A   Az Betonsteine f.Pfeiler                                                                                     m²
+            Für das Ausbilden von freistehenden Pfeilern.
+
+08.03 41B   Az Betonsteine f.schrägen Abschluss                                                                          m²
+            Für das Ausbilden eines schrägen Abschlusses (z.B. bei Giebelwänden). Abgerechnet wird das Flächenmaß
+            (schräge Länge x Mauerdicke).
+
+08.03 41C   Az Betonsteine f.gebogene Wände                                                                              m²
+            Für das Ausbilden von im Grundriss gebogenen Wänden. Abgerechnet wird das Flächenmaß (Mauerachse x
+            Höhe).
+
+08.03 41F   Az Betonsteine f.Ummauern Fänge                                                                              m²
+            Für das Ummauern von Fängen, einschließlich Herstellen aller Aussparungen für Reinigungsverschlüsse,
+            Anschlüsse und Einbauten.
+
+08.03 41L   Az Betonsteine f.Ummauern Leitungen b.0,05m2                                                                 Stk
+            Für das Ummauern von querenden Leitungen bis zu einem Querschnitt von 0,05 m2, die vor dem Errichten von
+            Wänden bestehen, einschließlich Trennlage (Bewegungsfuge) und abschneiden der Trennlage an der
+            Wandoberfläche.
+
+08.03 51    Mauerwerk aus Leichtbeton Vollblocksteinen (VBL).
+            Im Positionsstichwort ist die Dicke des Mauerwerks (cm) und die Druckfestigkeit/Steinfestigkeit angegeben.
+            Bauteilhöhe über Null bis 3,2 m.
+
+08.03 51A   25cm Leichtbeton VBL1 (Steinfestigkeit 2) b.3,2m                                                             m²
+
+08.03 51B   25cm Leichtbeton VBL2 (Steinfestigkeit 2,4) b.3,2m                                                           m²
+
+08.03 51C   25cm Leichtbeton VBL3 (Steinfestigkeit 3,2) b.3,2m                                                           m²
+08.03 52    Mauerwerk aus Leichtbeton Vollblocksteinen (VBL).
+            Im Positionsstichwort ist die Dicke des Mauerwerks (cm) und die Druckfestigkeit/Steinfestigkeit angegeben.
+            Bauteilhöhe über Null bis über 3,2 m.
+
+08.03 52A   25cm Leichtbeton VBL1 (Steinfestigkeit 2) ü.3,2m__________                                                   m²
+
+08.03 52B   25cm Leichtbeton VBL2 (Steinfestigkeit 2,4) ü.3,2m__________                                                 m²
+
+08.03 52C   25cm Leichtbeton VBL3 (Steinfestigkeit 3,2) ü.3,2m__________                                                 m²
+
+
+
+
+                                                                                                                    Seite 8 / 17
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+08.03 53    Mauerwerk aus Leichtbeton Vollblocksteinen (VBL).
+            Im Positionsstichwort ist die Dicke des Mauerwerks (cm) und die Druckfestigkeit/Steinfestigkeit angegeben.
+            Bauteilhöhe über Null bis 3,2 m.
+
+08.03 53A   30cm Leichtbeton VBL1 (Steinfestigkeit 2) b.3,2m                                                             m²
+
+08.03 53B   30cm Leichtbeton VBL2 (Steinfestigkeit 2,4) b.3,2m                                                           m²
+
+08.03 53C   30cm Leichtbeton VBL3 (Steinfestigkeit 3,2) b.3,2m                                                           m²
+08.03 54    Mauerwerk aus Leichtbeton Vollblocksteinen (VBL).
+            Im Positionsstichwort ist die Dicke des Mauerwerks (cm) und die Druckfestigkeit/Steinfestigkeit angegeben.
+            Bauteilhöhe über Null bis über 3,2 m.
+
+08.03 54A   30cm Leichtbeton VBL1 (Steinfestigkeit 2) ü.3,2m__________                                                   m²
+
+08.03 54B   30cm Leichtbeton VBL2 (Steinfestigkeit 2,4) ü.3,2m__________                                                 m²
+
+08.03 54C   30cm Leichtbeton VBL3 (Steinfestigkeit 3,2) ü.3,2m__________                                                 m²
+08.04       Mauerwerk aus Porenbeton
+08.04 01    Mauerwerk (Mwk.) mit Porenbeton-Verbundsteinen (Porenbet.Verb.ST) für tragende Wände, einschließlich
+            Einlegen einer Mauerwerksbewehrung in die Lagerfugen, Festigkeitsklasse 2,5 N/mm2. Im Positionsstichwort ist
+            die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.04 01A   20cm Porenbet.Verb.ST Mwk.2,5N b.3,2m                                                                        m²
+
+08.04 01B   25cm Porenbet.Verb.ST Mwk.2,5N b.3,2m                                                                        m²
+
+08.04 01C   30cm Porenbet.Verb.ST Mwk.2,5N b.3,2m                                                                        m²
+
+08.04 01D   40cm Porenbet.Verb.ST Mwk.2,5N b.3,2m                                                                        m²
+08.04 02    Mauerwerk (Mwk.) mit Porenbeton-Verbundsteinen (Porenbet.Verb.ST) für tragende Wände, einschließlich
+            Einlegen einer Mauerwerksbewehrung in die Lagerfugen, Festigkeitsklasse 2,5 N/mm2. Im Positionsstichwort
+            sind die Dicke des Mauerwerks und die Gesamthöhe angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+08.04 02A   20cm Porenbet.Verb.ST Mwk.2,5N ü.3,2m:__________                                                             m²
+
+08.04 02B   25cm Porenbet.Verb.ST Mwk.2,5N ü.3,2m:__________                                                             m²
+
+08.04 02C   30cm Porenbet.Verb.ST Mwk.2,5N ü.3,2m:__________                                                             m²
+
+08.04 02D   40cm Porenbet.Verb.ST Mwk.2,5N ü.3,2m:__________                                                             m²
+08.04 11    Mauerwerk (Mwk.) mit Porenbeton-Verbundsteinen (Porenbet.Verb.ST) für tragende Wände, einschließlich
+            Einlegen einer Mauerwerksbewehrung in die Lagerfugen, Festigkeitsklasse 5 N/mm2. Im Positionsstichwort ist
+            die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.04 11A   20cm Porenbet.Verb.ST Mwk.5N b.3,2m                                                                          m²
+
+08.04 11B   25cm Porenbet.Verb.ST Mwk.5N b.3,2m                                                                          m²
+
+08.04 11C   30cm Porenbet.Verb.ST Mwk.5N b.3,2m                                                                          m²
+08.04 12    Mauerwerk (Mwk.) mit Porenbeton-Verbundsteinen (Porenbet.Verb.ST) für tragende Wände, einschließlich
+            Einlegen einer Mauerwerksbewehrung in die Lagerfugen, Festigkeitsklasse 5 N/mm2. Im Positionsstichwort sind
+            die Dicke des Mauerwerks und die Gesamthöhe angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+08.04 12A   20cm Porenbet.Verb.ST Mwk.5N ü.3,2m:__________                                                               m²
+
+08.04 12B   25cm Porenbet.Verb.ST Mwk.5N ü.3,2m:__________                                                               m²
+
+08.04 12C   30cm Porenbet.Verb.ST Mwk.5N ü.3,2m:__________                                                               m²
+                                                                                                                    Seite 9 / 17
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+08.04 71    Aufzahlung (Az) auf Mauerwerk aus Porenbeton-Verbundsteinen (Porenbet.VB.St.), ohne Unterschied der
+            Bauteilhöhe.
+
+08.04 71A   Az Porenbet.VB.St.f.Pfeiler                                                                                m²
+            Für das Ausbilden von freistehenden Pfeilern.
+
+08.04 71B   Az Porenbet.VB.St.f.schrägen Abschluss                                                                     m²
+            Für das Ausbilden eines schrägen Abschlusses (z.B. bei Giebelwänden). Abgerechnet wird das Flächenmaß
+            (schräge Länge x Mauerdicke).
+
+08.04 71C   Az Porenbet.VB.St.f.gebogene Wände                                                                         m²
+            Für das Ausbilden von im Grundriss gebogenen Wänden. Abgerechnet wird das Flächenmaß (Mauerachse x
+            Höhe).
+
+08.04 71F   Az Porenbet.VB.St.f.Umm.Fänge                                                                              m²
+            Für das Ummauern (Umm.) von Fängen, einschließlich Herstellen aller Aussparungen für
+            Reinigungsverschlüsse, Anschlüsse und Einbauten.
+
+08.04 71L   Az Porenbet.VB.St.f.Umm.Leitungen b.0,05m2                                                                 Stk
+            Für das Ummauern (Umm.) von querenden Leitungen bis zu einem Querschnitt von 0,05 m2, die vor dem
+            Errichten von Wänden bestehen, einschließlich Trennlage (Bewegungsfuge) und abschneiden der Trennlage an
+            der Wandoberfläche.
+
+08.05       Mauerwerk aus Schalsteinen u.Holzmantelbeton
+
+
+            1. Schalldämmmaß:
+            Die Prüfung des bewerteten Schalldämmmaßes RW erfolgt mit beidseitig verputzten Wänden.
+            In den Positionen ist nur die Dicke des Mauerwerks angegeben.
+            Putz ist in eigenen Positionen beschrieben.
+            2. Bewehrungsstahl:
+            Bewehrungen werden in BSt. 550 (Rippen-Stabstahl) ausgeführt. Die Bewehrungsstähle entsprechen den
+            Bestimmungen der ÖNORM.
+            Als Standardbewehrung gelten alle Stabstahl Positionen (Stabst.) ohne Unterschied der Durchmesser von 8 bis
+            36 mm und
+08.05 01    Mauerwerk (Mwk.) mit Beton-Schalungssteinen (B.Schalst.) für tragende Wände, Betonkern der
+            Festigkeitsklasse C16/20. Im Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.05 01B   20cm B.Schalst.Mwk.C16/20 b.3,2m                                                                           m²
+
+08.05 01C   25cm B.Schalst.Mwk.C16/20 b.3,2m                                                                           m²
+
+08.05 01D   30cm B.Schalst.Mwk.C16/20 b.3,2m                                                                           m²
+
+08.05 01E   35cm B.Schalst.Mwk.C16/20 b.3,2m                                                                           m²
+
+08.05 01F   40cm B.Schalst.Mwk.C16/20 b.3,2m                                                                           m²
+
+08.05 01X   Az B.Schalst.Mwk.f.Beton b.3,2m                                                                            m²
+            Aufzahlung (Az) für eine höhere Betonfestigkeit:____________
+            Betrifft Position(en): ____________
+08.05 02    Mauerwerk (Mwk.) mit Beton-Schalungssteinen (B.Schalst.) für tragende Wände, Betonkern der
+            Festigkeitsklasse C16/20. Im Positionsstichwort sind die Dicke des Mauerwerks und die Gesamthöhe
+            angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+08.05 02B   20cm B.Schalst.Mwk.C16/20 ü.3,2m:__________                                                                m²
+
+08.05 02C   25cm B.Schalst.Mwk.C16/20 ü.3,2m:__________                                                                m²
+
+08.05 02D   30cm B.Schalst.Mwk.C16/20 ü.3,2m:__________                                                                m²
+                                                                                                                 Seite 10 / 17
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+
+08.05 02E   35cm B.Schalst.Mwk.C16/20 ü.3,2m:__________                                                             m²
+
+08.05 02F   40cm B.Schalst.Mwk.C16/20 ü.3,2m:__________                                                             m²
+
+08.05 02X   Az B.Schalst.Mwk.f.Beton ü.3,2m__________                                                               m²
+            Aufzahlung (Az) für eine höhere Betonfestigkeit:____________
+            Betrifft Position(en): ____________
+
+08.05 11    Mauerwerk (Mwk.) aus Holzmantelbeton (Holz-MB) für tragende Wände, ohne Zusatzisolierung, Betonkern der
+            Festigkeitsklasse C16/20.
+            Im Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.05 11A   18cm Holz-MB C16/20 b.3,2m                                                                              m²
+
+08.05 11B   20cm Holz-MB C16/20 b.3,2m                                                                              m²
+
+08.05 11C   22cm Holz-MB C16/20 b.3,2m                                                                              m²
+
+08.05 11D   25cm Holz-MB C16/20 b.3,2m                                                                              m²
+
+08.05 11E   30cm Holz-MB C16/20 b.3,2m                                                                              m²
+
+08.05 11X   Az Holz-MB f.Beton b.3,2m                                                                               m²
+            Aufzahlung (Az) für eine höhere Betonfestigkeit:____________
+            Betrifft Position(en): ____________
+08.05 12    Mauerwerk (Mwk.) aus Holzmantelbeton (Holz-MB) für tragende Wände, ohne Zusatzisolierung, Betonkern der
+            Festigkeitsklasse C16/20. Im Positionsstichwort sind die Dicke des Mauerwerks und die Gesamthöhe
+            angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+08.05 12A   18cm Holz-MB C16/20 ü.3,2m:__________                                                                   m²
+
+08.05 12B   20cm Holz-MB C16/20 ü.3,2m:__________                                                                   m²
+
+08.05 12C   22cm Holz-MB C16/20 ü.3,2m:__________                                                                   m²
+
+08.05 12D   25cm Holz-MB C16/20 ü.3,2m:__________                                                                   m²
+
+08.05 12E   30cm Holz-MB C16/20 ü.3,2m:__________                                                                   m²
+
+08.05 12X   Az Holz-MB f.Beton ü.3,2m__________                                                                     m²
+            Aufzahlung (Az) für eine höhere Betonfestigkeit:____________
+            Betrifft Position(en): ____________
+08.05 13    Mauerwerk (Mwk.) aus Holzmantelbeton (Holz-MB) für tragende Wände, mit Hartschaumstoff für Wärmeschutz
+            (W.Sch.). Betonkern der Festigkeitsklasse C16/20. Im Positionsstichwort ist die Dicke des Mauerwerks
+            angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.05 13A   25cm Holz-MB Wärmeschutz C16/20 b.3,2m                                                                  m²
+                                                                                     2
+            Wärmedämmwert (U-Wert) Holzmantelbeton (unverputzt): ____________W/m K
+
+08.05 13B   30cm Holz-MB Wärmeschutz C16/20 b.3,2m                                                                  m²
+                                                                                     2
+            Wärmedämmwert (U-Wert) Holzmantelbeton (unverputzt): ____________W/m K
+
+08.05 13C   32cm Holz-MB Wärmeschutz C16/20 b.3,2m                                                                  m²
+                                                                                     2
+            Wärmedämmwert (U-Wert) Holzmantelbeton (unverputzt): ____________W/m K
+
+08.05 13D   35cm Holz-MB Wärmeschutz C16/20 b.3,2m                                                                  m²
+                                                                                     2
+            Wärmedämmwert (U-Wert) Holzmantelbeton (unverputzt): ____________W/m K
+
+
+                                                                                                              Seite 11 / 17
+                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+08.05 13E   36,5cm Holz-MB Wärmeschutz C16/20 b.3,2m                                                                    m²
+                                                                                        2
+            Wärmedämmwert (U-Wert) Holzmantelbeton (unverputzt): ____________W/m K
+
+08.05 13F   38cm Holz-MB Wärmeschutz C16/20 b.3,2m                                                                      m²
+                                                                                        2
+            Wärmedämmwert (U-Wert) Holzmantelbeton (unverputzt): ____________W/m K
+
+08.05 13G   40cm Holz-MB Wärmeschutz C16/20 b.3,2m                                                                      m²
+                                                                                        2
+            Wärmedämmwert (U-Wert) Holzmantelbeton (unverputzt): ____________W/m K
+
+08.05 13H   43cm Holz-MB Wärmeschutz C16/20 b.3,2m                                                                      m²
+                                                                                        2
+            Wärmedämmwert (U-Wert) Holzmantelbeton (unverputzt): ____________W/m K
+
+08.05 13Y   Az Holz-MB Wärmeschutz f.Beton b.3,2m                                                                       m²
+            Aufzahlung (Az) für eine höhere Betonfestigkeit:____________
+            Betrifft Position(en): ____________
+08.05 14    Mauerwerk (Mwk.) aus Holzmantelbeton (Holz-MB) für tragende Wände, mit Hartschaumstoff für Wärmeschutz
+            (W.Sch.). Betonkern der Festigkeitsklasse C16/20.
+            Im Positionsstichwort ist die Dicke des Mauerwerks und die Gesamthöhe angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+08.05 14A   25cm Holz-MB Wärmeschutz C16/20 ü.3,2m__________                                                            m²
+                                                                                        2
+            Wärmedämmwert (U-Wert) Holzmantelbeton (unverputzt): ____________W/m K
+
+08.05 14B   30cm Holz-MB Wärmeschutz C16/20 ü.3,2m__________                                                            m²
+                                                                                        2
+            Wärmedämmwert (U-Wert) Holzmantelbeton (unverputzt): ____________W/m K
+
+08.05 14C   32cm Holz-MB Wärmeschutz C16/20 ü.3,2m__________                                                            m²
+                                                                                        2
+            Wärmedämmwert (U-Wert) Holzmantelbeton (unverputzt): ____________W/m K
+
+08.05 14D   35cm Holz-MB Wärmeschutz C16/20 ü.3,2m__________                                                            m²
+                                                                                        2
+            Wärmedämmwert (U-Wert) Holzmantelbeton (unverputzt): ____________W/m K
+
+08.05 14E   36,5cm Holz-MB Wärmeschutz C16/20 ü.3,2m__________                                                          m²
+                                                                                        2
+            Wärmedämmwert (U-Wert) Holzmantelbeton (unverputzt): ____________W/m K
+
+08.05 14F   38cm Holz-MB Wärmeschutz C16/20 ü.3,2m__________                                                            m²
+                                                                                        2
+            Wärmedämmwert (U-Wert) Holzmantelbeton (unverputzt): ____________W/m K
+
+08.05 14G   40cm Holz-MB Wärmeschutz C16/20 ü.3,2m__________                                                            m²
+                                                                                        2
+            Wärmedämmwert (U-Wert) Holzmantelbeton (unverputzt): ____________W/m K
+
+08.05 14H   43cm Holz-MB Wärmeschutz C16/20 ü.3,2m__________                                                            m²
+                                                                                        2
+            Wärmedämmwert (U-Wert) Holzmantelbeton (unverputzt): ____________W/m K
+
+08.05 14Y   Az Holz-MB Wärmeschutz f.Beton ü.3,2m__________                                                             m²
+            Aufzahlung (Az) für eine höhere Betonfestigkeit:____________
+            Betrifft Position(en): ____________
+08.05 15    Mauerwerk (Mwk.) aus Holzmantelbeton (Holz-MB) für tragende Wände, ohne Zusatzisolierung mit Schallschutz
+            (Sch.), Betonkern der Festigkeitsklasse C16/20. Im Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.05 15A   20cm Holz-MB Schallschutz C16/20 b.3,2m                                                                     m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.05 15B   25cm Holz-MB Schallschutz C16/20 b.3,2m                                                                     m²
+                                                                                                                  Seite 12 / 17
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.05 15C   30cm Holz-MB Schallschutz C16/20 b.3,2m                                                                               m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.05 15X   Az Holz-MB Schallschutz f.Beton b.3,2m                                                                                m²
+            Aufzahlung (Az) für eine höhere Betonfestigkeit:____________
+            Betrifft Position(en): ____________
+08.05 16    Mauerwerk (Mwk.) aus Holzmantelbeton (Holz-MB) für tragende Wände, ohne Zusatzisolierung mit Schallschutz
+            (Sch.), Betonkern der Festigkeitsklasse C16/20. Im Positionsstichwort sind die Dicke des Mauerwerks und die
+            Gesamthöhe angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+08.05 16A   20cm Holz-MB Schallschutz C16/20 ü.3,2m:__________                                                                    m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.05 16B   25cm Holz-MB Schallschutz C16/20 ü.3,2m:__________                                                                    m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.05 16C   30cm Holz-MB Schallschutz C16/20 ü.3,2m:__________                                                                    m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.05 16X   Az Holz-MB Schallschutz f.Beton ü.3,2m__________                                                                      m²
+            Aufzahlung (Az) für eine höhere Betonfestigkeit:____________
+            Betrifft Position(en): ____________
+
+08.05 58    Mauerwerk aus Holzmantelbeton (Holz-MB) für tragende Wände.
+
+08.05 58A   Bew.Mauerwerk aus Holzmantelbeton                                                                                     kg
+            Bewehrung mit Stabstahl.
+            Betrifft Position(en):____________
+
+08.05 71    Aufzahlung (Az) auf Mauerwerk aus Holzmantelbeton (Holz-MB).
+
+08.05 71A   Az Holz-MB f.Pfeiler                                                                                                  m²
+            Für das Ausbilden von freistehenden Pfeilern.
+
+08.06       Zwischenwände (nicht tragende Wände)
+
+
+            1. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Auflegen einer Unterlage unter Zwischenwänden in der Breite der verputzten Wand, nach Wahl des
+                  Auftragnehmers (z.B. bituminierte Weichfaserplatten, Bitukorkstreifen)
+                • Aufkleben von Dämmstreifen, nach Wahl des Auftragnehmers, über Zwischenwänden beim
+                  Deckenanschluss, in der Breite der Wanddicke
+                • Ausbilden eines Abschlusses mit geschnittenen Ziegeln oder Steinen
+            2. Schalldämmmaß:
+            Die Prüfung des bewerteten Schalldämmmaßes RW erfolgt mit beidseitig verputzten Wänden.
+            In den Positionen ist nur die Dicke des Mauerwerks angegeben.
+            Putz ist in eigenen Positionen beschrieben.
+            3. Ausmaß- und Abrechnungsregeln:
+            Überlagen in Zwischenwänden werden nur dann in Rechnung gestellt, wenn Zargen oder Stöcke bis zu einer
+            lichten Breite von 1 m nicht gleichzeitig beim Mauern versetzt werden.
+            In den Einheitspreis ist eine etwaige Systembewehrung einkalkuliert.
+             Kommentar:
+             Zwischenwände (nicht tragende Wände) mit einer Höhe von Null bis über 3,2 m sind frei zu formulieren.
+
+
+
+                                                                                                                            Seite 13 / 17
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+08.06 01    Zwischenwände (Zw) aus Mauerziegeln (nicht tragende Wände), voll oder gelocht, Normalformat (NF). Die
+            Dicke des Mauerwerks entspricht der Ziegelbreite.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.06 01A   Zw-NF Ziegel-Mwk.b.3,2m                                                                                      m³
+08.06 11    Zwischenwände (Zw) aus keramischen Zwischenwandziegeln (keram.Ziegel) (nicht tragende Wände). Im
+            Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.06 11C   10cm Zw-keram.Ziegel b.3,2m                                                                                  m²
+
+08.06 11D   12cm Zw-keram.Ziegel b.3,2m                                                                                  m²
+08.06 13    Zwischenwände (Zw) aus keramischen Zwischenwandziegeln (nicht tragende Wände), Planziegeln. Im
+            Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.06 13A   10cm Zw-keram.Plan-Ziegel b.3,2m                                                                             m²
+
+08.06 13B   12cm Zw-keram.Plan-Ziegel b.3,2m                                                                             m²
+08.06 21    Zwischenwände (Zw) aus Zwischenwandsteinen aus Beton (nicht tragende W ände). Im Positionsstichwort ist
+            die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.06 21B   10cm Zw-Beton b.3,2m                                                                                         m²
+
+08.06 21C   12cm Zw-Beton b.3,2m                                                                                         m²
+08.06 41    Zwischenwände (Zw) aus Leichtbeton (LB) -Hohlblock (HBL) -Steinen (nicht tragende Wände). Im
+            Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.06 41B   10cm Zw-Leichtb.HBL-Steine b.3,2m                                                                            m²
+
+08.06 41C   12cm Zw-Leichtb.HBL-Steine b.3,2m                                                                            m²
+08.06 43    Zwischenwände (Zw) aus Leichtbeton (LB) -Steinen (nicht tragende Wände) mit erhöhten
+            Schallschutz-Anforderungen. Im Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.06 43C   12cm Zw-Leichtb.-Schallschutz b.3,2m                                                                         m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.06 43D   15cm Zw-Leichtb.-Schallschutz b.3,2m                                                                         m²
+            Bewertetes Schalldämmmaß RW: ____________dB
+
+08.06 51    Zwischenwände (Zw.Wand) aus Porenbeton (nicht tragende Wände), einschließlich Einlegen einer
+            Mauerwerksbewehrung in die Lagerfugen. Im Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.06 51A   10cm Zw.Wand Porenbeton b.3,2m                                                                               m²
+
+08.06 51B   12cm Zw.Wand Porenbeton b.3,2m                                                                               m²
+
+08.06 51C   15cm Zw.Wand Porenbeton b.3,2m                                                                               m²
+08.06 55    Zwischenwände (Zw.Wand) aus Hohlblocksteinen (nicht tragende Wände), einschließlich Einlegen einer
+            Mauerwerksbewehrung in die Lagerfugen.
+            Im Positionsstichwort ist die Dicke des Mauerwerks (cm) und die Druckfestigkeit/Steinfestigkeit angegeben.
+            Bauteilhöhe über Null bis 3,2 m.
+
+08.06 55A   10cm Hohlblocksteinen aus Blähton VBL2 b.3,2m                                                                m²
+08.06 57    Zwischenwände (Zw.Wand) aus Vollblocksteinen aus Blähton (nicht tragende Wände), einschließlich Einlegen
+            einer Mauerwerksbewehrung in die Lagerfugen.
+            Im Positionsstichwort ist die Dicke des Mauerwerks (cm) und die Druckfestigkeit/Steinfestigkeit angegeben.
+            Bauteilhöhe über Null bis 3,2 m.
+
+                                                                                                                   Seite 14 / 17
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+08.06 57A   10cm Vollblocksteinen aus Blähton VBL2 b.3,2m                                                               m²
+
+08.06 57B   10cm Vollblocksteinen aus Blähton VBL6 b.3,2m                                                               m²
+08.06 71    Aufzahlung (Az) auf Zwischenwände (nicht tragende Wände).
+
+08.06 71C   Az Zwischenwände f.gebogene Wände                                                                           m²
+            Für das Ausbilden von im Grundriss gebogenen Wänden. Abgerechnet wird das Flächenmaß (Mauerachse x
+            Höhe).
+
+08.06 71F   Az Zwischenwände f.Umm.Fänge                                                                                m²
+            Für das Ummauern (Umm.) von Fängen, einschließlich Herstellen aller Aussparungen für
+            Reinigungsverschlüsse, Anschlüsse und Einbauten.
+
+08.06 71L   Az Zwischenwände f.Umm.Leitungen b.0,05m2                                                                   m²
+            Für das Ummauern (Umm.) von querenden Leitungen bis zu einem Querschnitt von 0,05 m2, die vor dem
+            Errichten von Wänden bestehen, einschließlich Trennlage (Bewegungsfuge) und abschneiden der Trennlage an
+            der Wandoberfläche.
+
+08.11       Klinker-Sichtmauerwerk
+
+
+            1. Ausführung:
+            Klinkerziegeln werden mit grauem Sondermauermörtel mit Lagerfugen (im Mittel 1,2 cm) und Stoßfugen (1 cm)
+            gemauert und mit kantenbündiger Hohlkehle verfugt. Teilsteine sind sauber geschnitten. Der Ziegelverband
+            erfolgt nach Angaben des Auftraggebers.
+            2. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Ausbilden von geraden (nicht verzahnten) Trenn- und Bewegungsfugen
+
+08.11 01    Klinker-Sichtmauerwerk für Innen- und Außenflächen aus kantenreinen Klinkerziegeln, mit einer Sichtfläche
+            (1-Sf.). Im Positionsstichwort ist die Dicke des Mauerwerks angegeben.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.11 01A   12cm Klinkermwk.1-Sf.b.3,2m                                                                                 m²
+
+08.11 01B   25cm Klinkermwk.1-Sf.b.3,2m                                                                                 m²
+08.11 02    Klinker-Sichtmauerwerk für Innen- und Außenflächen aus kantenreinen Klinkerziegeln, mit einer Sichtfläche
+            (1-Sf.). Im Positionsstichwort sind die Dicke des Mauerwerks und die Gesamthöhe angegeben.
+            Bauteilhöhe von Null bis über 3,2 m.
+
+08.11 02A   12cm Klinkermwk.1-Sf.ü.3,2m:__________                                                                      m²
+
+08.11 02B   25cm Klinkermwk.1-Sf.ü.3,2m:__________                                                                      m²
+08.11 71    Aufzahlung (Az) auf Klinker-Sichtmauerwerk (Sichtmwk.) für Innen- und Außenflächen aus kantenreinen
+            Klinkerziegeln, ohne Unterschied der Bauteilhöhe.
+
+08.11 71A   Az Klinker-Sichtmwk.f.Pfeiler                                                                               m²
+            Für das Ausbilden von freistehenden Pfeilern.
+
+08.11 71B   Az Klinker-Sichtmwk.f.schräg.Abschl.                                                                        m²
+            Für das Ausbilden eines schrägen Abschlusses (z.B. bei Giebelwänden). Abgerechnet wird das Flächenmaß
+            (schräge Länge x Mauerdicke).
+
+08.11 71C   Az Klinker-Sichtmwk.f.gebogene Wände                                                                        m²
+            Für das Ausbilden von im Grundriss gebogenen Wänden. Abgerechnet wird das Flächenmaß (Mauerachse x
+            Höhe).
+
+08.11 71D   Az Klinker-Sichtmwk.f.gebogenen Sturz                                                                       m²
+            Für das Ausbilden von bogenförmigen Stürzen (z.B. Fenster- oder Türöffnungen). Abgerechnet wird das
+            Flächenmaß (= abgewickelte untere Ansichtsfläche).
+
+
+                                                                                                                  Seite 15 / 17
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+08.11 71F   Az Klinker-Sichtmwk.f.Umm.Fänge                                                                                m²
+            Für das Ummauern (Umm.) von Fängen, einschließlich Herstellen aller Aussparungen für
+            Reinigungsverschlüsse, Anschlüsse und Einbauten.
+
+08.11 71L   Az Klinker-Sichtmwk.f.Umm.Leitungen                                                                            m²
+            Für das Ummauern (Umm.) von querenden Leitungen bis zu einem Querschnitt von 0,05 m2, die vor dem
+            Errichten von Wänden bestehen, einschließlich Trennlage (Bewegungsfuge) und abschneiden der Trennlage an
+            der Wandoberfläche.
+
+08.21       Mauerwerk Sonstiges
+08.21 01    Aufzahlung (Az) auf Mauerwerk für Fertigteil (Ft) -Überlagen über Öffnungen und Nischen bis zu einer
+            Rohbaulichte von 2,5 m, passend zu dem ausgeschriebenen Mauerwerk, einschließlich des etwaigen
+            Ausbildens eines Anschlages, ohne Aufbeton und zusätzliche Stahleinlagen, ohne Unterschied der Einbauhöhe.
+            Abgerechnet wird die jeweilige Rohbaulichte, zusätzlich 2 x 15 cm für die Auflager. Im Positionsstichwort ist die
+            Dicke des Mauerwerks angegeben.
+
+08.21 01A   Az Ft-Überlagen b.15cm                                                                                         m
+
+08.21 01B   Az Ft-Überlagen ü.15-20cm                                                                                      m
+
+08.21 01C   Az Ft-Überlagen ü.20-25cm                                                                                      m
+
+08.21 01D   Az Ft-Überlagen ü.25-30cm                                                                                      m
+
+08.21 01E   Az Ft-Überlagen ü.30-40cm                                                                                      m
+
+08.21 01F   Az Ft-Überlagen ü.40-50cm                                                                                      m
+08.21 03    Aufzahlung (Az) auf Fertigteil (Ft) -Überlagen.
+
+08.21 03A   Az Überlagen f.Wärmedämmung                                                                                    m
+            Für das Einlegen einer Wärmedämmung, angepasst an die Werte der Wand.
+
+08.21 06    Mauerwerk mit Mauerziegeln (NF), für das abschnittsweise Unterfangen einschließlich Auskeilen, Mauermörtel
+            nach Wahl des Auftragnehmers.
+
+08.21 06A   Mauerziegeln (NF) f.Unterfangungen                                                                             m³
+08.21 08    Ausmauern und Abmauern mit Mauerziegeln (z.B. von Mauerbänken, Fußpfetten), einschließlich Umhüllen der
+            Holzteile mit Dachpappe. Im Positionsstichwort ist der Querschnitt angegeben.
+
+08.21 08A   Ausmauern Mauerbank b.0,05m2                                                                                   m
+08.21 09    Ausmauern und Abmauern mit entsprechendem Material in verschiedenen Dicken. Nur auf besondere
+            Anordnung des Auftraggebers. Im Positionsstichwort ist das Einzelausmaß angegeben.
+            Arbeitshöhe von Null bis 3,2 m. Im Positionsstichwort ist die Gesamthöhe angegeben.
+
+08.21 09A   Aus-/Abmauern ü.0,5-2m3 b.3,2m                                                                                 m³
+08.21 10    Ausmauern und Abmauern mit entsprechendem Material in verschiedenen Dicken. Nur auf besondere
+            Anordnung des Auftraggebers. Im Positionsstichwort ist das Einzelausmaß angegeben.
+            Arbeitshöhe von Null bis über 3,2 m. Im Positionsstichwort ist die Gesamthöhe angegeben.
+
+08.21 10A   Aus-/Abmauern ü.0,5-2m3 ü.3,2m:__________                                                                      m³
+08.21 13    Mauerabdeckung aus einer Betonschicht, Festigkeitsklasse C16/20, mindestens 5 cm dick, Oberfläche mit
+            mindestens 3 Prozent Gefälle. Die Mauerabdeckung wird so breit ausgeführt, dass der Überstand über die
+            Mauerflucht mindestens 5 cm beträgt, wobei ein etwaiger projektgemäßer Verputz durch größeren Überstand
+            beim Rohbau berücksichtigt wird und beidseitig Wassernasen ausgeführt werden. Die Oberflächen werden fein
+            verrieben. Abgerechnet wird die Mauerabdeckung im Grundriss. Der Einbau etwaiger Sicherungen (Krallen) wird
+            gesondert vergütet. Schalungen und lotrechte, auf die Mauer abgestimmte, Dehnfugen, witterungsbeständig
+            geschlossen (z.B. Silikon) sind in die Einheitspreise einkalkuliert.
+            Bauteilhöhe von Null bis 3,2 m.
+
+08.21 13A   Ob.Abschluss C16/20 b.50cm b.3,2m                                                                              m²
+
+08.21 13B   Ob.Abschluss C16/20 ü.50-75cm b.3,2m                                                                           m²
+
+
+                                                                                                                     Seite 16 / 17
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+08.21 14    Mauerabdeckung aus einer Betonschicht, Festigkeitsklasse C16/20, mindestens 5 cm dick, Oberfläche mit
+            mindestens 3 Prozent Gefälle. Die Mauerabdeckung wird so breit ausgeführt, dass der Überstand über die
+            Mauerflucht mindestens 5 cm beträgt, wobei ein etwaiger projektgemäßer Verputz durch größeren Überstand
+            beim Rohbau berücksichtigt wird und beidseitig Wassernasen ausgeführt werden. Die Oberflächen werden fein
+            verrieben. Abgerechnet wird die Mauerabdeckung im Grundriss. Der Einbau etwaiger Sicherungen (Krallen) wird
+            gesondert vergütet. Schalungen und lotrechte, auf die Mauer abgestimmte, Dehnfugen, witterungsbeständig
+            geschlossen (z.B. Silikon) sind in die Einheitspreise einkalkuliert.
+            Bauteilhöhe von Null bis über 3,2 m. Im Positionsstichwort ist die Gesamthöhe angegeben.
+
+08.21 14A   Ob.Abschluss C16/20 b.50cm ü.3,2m                                                                         m²
+
+08.21 14B   Ob.Abschluss C16/20 ü.50-75cm ü.3,2m:__________                                                           m²
+08.21 21    Decken-Rostziegel zur Ummauerung von Ziegel- und Stahlbetondecken, Breite 8 cm, ohne Unterschied der
+            Einbauhöhe.
+            Im Positionsstichwort sind die Länge/Höhe angegeben.
+
+08.21 21A   Decke Rostziegel 8cm 50/20cm                                                                              m
+
+08.21 21B   Decke Rostziegel 8cm 50/22cm                                                                              m
+
+08.21 21C   Decke Rostziegel 8cm 50/25cm                                                                              m
+08.21 22    Decken-Roststein zur Ummauerung von Leichtbaudecken, Breite 7 cm, ohne Unterschied der Einbauhöhe.
+            Im Positionsstichwort sind die Länge/Höhe angegeben.
+
+08.21 22A   Decke Roststein 7cm 50/19cm                                                                               m
+
+08.21 22B   Decke Roststein 7cm 50/24cm                                                                               m
+08.21 23    Einlegen einer Wärmedämmung hinter Roststeinen, ohne Unterschied der Einbauhöhe.
+
+08.21 23A   Wärmedämmung Roststein                                                                                    m
+            Material: ____________
+            Dicke: ____________cm
+            Höhe: ____________cm
+
+
+
+
+                                                                                                                Seite 17 / 17
+                                                                                           ib-data GmbH, Softwareentwicklung
+

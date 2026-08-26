@@ -1,0 +1,1581 @@
+{
+  "lg": "14",
+  "title": "Besondere Instandsetzungsarbeiten",
+  "positions": [
+    {
+      "code": "14.00.00A",
+      "text": "Erschwernisse Geschoss",
+      "unit": ""
+    },
+    {
+      "code": "14.00.00V",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "14.01.01A",
+      "text": "Öffnungen Zw.W.15cm b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.01B",
+      "text": "Öffnungen Zw.W.15cm ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.01C",
+      "text": "Öffnungen Zw.W.15cm ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.03A",
+      "text": "Öffnungen Ziegel-Mwk.b.30cm b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.03B",
+      "text": "Öffnungen Ziegel-Mwk.b.30cm ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.03C",
+      "text": "Öffnungen Ziegel-Mwk.b.30cm ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.03F",
+      "text": "Öffnungen Ziegel-Mwk.ü.30-45cm b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.03G",
+      "text": "Öffnungen Ziegel-Mwk.ü.30-45cm ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.03H",
+      "text": "Öffnungen Ziegel-Mwk.ü.30-45cm ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.03K",
+      "text": "Öffnungen Ziegel-Mwk.ü.45-60cm b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.03L",
+      "text": "Öffnungen Ziegel-Mwk.ü.45-60cm ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.03M",
+      "text": "Öffnungen Ziegel-Mwk.ü.45-60cm ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.05A",
+      "text": "Öffnungen Misch-Mwk.b.30cm b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.05B",
+      "text": "Öffnungen Misch-Mwk.b.30cm ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.05C",
+      "text": "Öffnungen Misch-Mwk.b.30cm ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.05F",
+      "text": "Öffnungen Misch-Mwk.ü.30-45cm b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.05G",
+      "text": "Öffnungen Misch-Mwk.ü.30-45cm ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.05H",
+      "text": "Öffnungen Misch-Mwk.ü.30-45cm ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.05K",
+      "text": "Öffnungen Misch-Mwk.ü.45-60cm b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.05L",
+      "text": "Öffnungen Misch-Mwk.ü.45-60cm ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.05M",
+      "text": "Öffnungen Misch-Mwk.ü.45-60cm ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.13A",
+      "text": "Stock/Zarge ausbr.Zw.W.+abmauern b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.13B",
+      "text": "Stock/Zarge ausbr.Zw.W.+abmauern ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.13C",
+      "text": "Stock/Zarge ausbr.Zw.W.+abmauern ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.14A",
+      "text": "Stock/Zarge ausbr.Zw.W.+seitw.vers.b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.14B",
+      "text": "Stock/Zarge ausbr.Zw.W.+seitw.vers.ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.14C",
+      "text": "Stock/Zarge ausbr.Zw.W.+seitw.vers.ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.15A",
+      "text": "Geradestemmen von Leibungen",
+      "unit": "m²"
+    },
+    {
+      "code": "14.01.17A",
+      "text": "Öffnung Mwk.zumauern b.15cm b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.17B",
+      "text": "Öffnung Mwk.zumauern b.15cm ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.17C",
+      "text": "Öffnung Mwk.zumauern b.15cm ü.0,5-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.17D",
+      "text": "Öffnung Mwk.zumauern ü.15-30cm b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.17E",
+      "text": "Öffnung Mwk.zumauern ü.15-30cm ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.17F",
+      "text": "Öffnung Mwk.zumauern ü.15-30cm ü.0,5-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.17G",
+      "text": "Öffnung Mwk.zumauern ü.30-45cm b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.17H",
+      "text": "Öffnung Mwk.zumauern ü.30-45cm ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.17I",
+      "text": "Öffnung Mwk.zumauern ü.30-45cm ü.0,5-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.17J",
+      "text": "Öffnung Mwk.zumauern ü.45-60cm b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.17K",
+      "text": "Öffnung Mwk.zumauern ü.45-60cm ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.17L",
+      "text": "Öffnung Mwk.zumauern ü.45-60cm ü.0,5-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.19A",
+      "text": "Mauerschmatzen Mwk.ausstemmen",
+      "unit": "m²"
+    },
+    {
+      "code": "14.01.20A",
+      "text": "Mauerschmatzen ausmauern",
+      "unit": "m²"
+    },
+    {
+      "code": "14.01.21A",
+      "text": "Auflagerschlitze 20/20cm Mwk.b.3,2m                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "14.01.21B",
+      "text": "Auflagerschlitze 20/20cm Beton b.3,2m                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "14.01.21D",
+      "text": "Einzelauflager 20/20/20cm Mwk.b.3,2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.21E",
+      "text": "Einzelauflager 20/20/20cm Beton b.3,2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.22A",
+      "text": "Auflagerschlitze 20/20cm Mwk.ü.3,2m:__________                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "14.01.22B",
+      "text": "Auflagerschlitze 20/20cm Beton ü.3,2m:__________                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "14.01.22D",
+      "text": "Einzelauflager 20/20/20cm Mwk.ü.3,2m:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.22E",
+      "text": "Einzelauflager 20/20/20cm Beton ü.3,2m:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.24A",
+      "text": "Türstock verkeilen b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.24B",
+      "text": "Türstock verkeilen ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.24C",
+      "text": "Türstock verkeilen ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.25A",
+      "text": "Fensterstock verkeilen b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.25B",
+      "text": "Fensterstock verkeilen ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.25C",
+      "text": "Fensterstock verkeilen ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.26A",
+      "text": "Innenfensterbank befestigen                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "14.01.27A",
+      "text": "Hahn-Absperrtür versetzen b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.27B",
+      "text": "Hahn-Absperrtür versetzen ü.0,1-0,3m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.29A",
+      "text": "Hahn-Absperrtür ausbr.+vermauern b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.29B",
+      "text": "Hahn-Absperrtür ausbr.+vermauern ü.0,1-0,3m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.34A",
+      "text": "Bodenplatten auslösen/versetzen b.0,05m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.34B",
+      "text": "Bodenplatten auslösen/versetzen ü.0,05-0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.34C",
+      "text": "Bodenplatten auslösen/versetzen b.2m2",
+      "unit": "m²"
+    },
+    {
+      "code": "14.01.37A",
+      "text": "Steckeisen bohren/verankern Mwk.",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.37B",
+      "text": "Steckeisen bohren/verankern Beton",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.01.45A",
+      "text": "Gewände 10cm nachmauern b.15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "14.01.45B",
+      "text": "Gewände 10cm nachmauern ü.15-30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "14.01.45C",
+      "text": "Gewände 10cm nachmauern ü.30-45cm",
+      "unit": "m²"
+    },
+    {
+      "code": "14.01.45D",
+      "text": "Gewände 10cm nachmauern ü.45-60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "14.01.55A",
+      "text": "Sturz/FT-Überlage b.15cm                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "14.01.55B",
+      "text": "Sturz/FT-Überlage ü.15-30cm                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "14.01.55C",
+      "text": "Sturz/FT-Überlage ü.30-45cm                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "14.01.55D",
+      "text": "Sturz/FT-Überlage ü.45-60cm                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "14.01.56A",
+      "text": "Az Sturz/FT-Überlage f.Wärmedämmung                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "14.01.60A",
+      "text": "Putzausgleich Fenster                                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "14.01.61A",
+      "text": "Leibung verputzen b.15cm                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "14.01.61B",
+      "text": "Leibung verputzen ü.15-30cm                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "14.01.61C",
+      "text": "Leibung verputzen ü.30-45cm                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "14.01.61D",
+      "text": "Leibung verputzen ü.45-60cm                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.01A",
+      "text": "Unterfangen Zwischenwand 15cm b.3m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.01B",
+      "text": "Unterfangen Zwischenwand 15cm ü.3-5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.01C",
+      "text": "Unterfangen Zwischenwand 15cm ü.5-7m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.11A",
+      "text": "Pölzung f.Unterfangung b.10kN/m b.3,2m                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.11B",
+      "text": "Pölzung f.Unterfangung ü.10-30kN/m b.3,2m                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.12A",
+      "text": "Pölzung f.Unterfangung b.10kN/m ü.3,2m:__________                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.12B",
+      "text": "Pölzung f.Unterfangung ü.10-30kN/m ü.3,2m:__________                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.13A",
+      "text": "Decke unterstellen b.10kN/m b.3,2m                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.14A",
+      "text": "Decke unterstellen ü.10-30kN/m ü.3,2m:__________                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.21A",
+      "text": "Auflager Ziegelmauerwerk b.30cm b.3,2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.21B",
+      "text": "Auflager Ziegelmauerwerk ü.30-45cm b.3,2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.21C",
+      "text": "Auflager Ziegelmauerwerk ü.45-60cm b.3,2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.22A",
+      "text": "Auflager Ziegelmauerwerk b.30cm ü.3,2m:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.22B",
+      "text": "Auflager Ziegelmauerwerk ü.30-45cm ü.3,2m:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.22C",
+      "text": "Auflager Ziegelmauerwerk ü.45-60cm ü.3,2m:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.23A",
+      "text": "Auflager Mischmauerwerk b.30cm b.3,2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.23B",
+      "text": "Auflager Mischmauerwerk ü.30-45cm b.3,2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.23C",
+      "text": "Auflager Mischmauerwerk ü.45-60cm b.3,2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.24A",
+      "text": "Auflager Mischmauerwerk b.30cm ü.3,2m:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.24B",
+      "text": "Auflager Mischmauerwerk ü.30-45cm ü.3,2m:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.24C",
+      "text": "Auflager Mischmauerwerk ü.45-60cm ü.3,2m:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.31A",
+      "text": "Schlitze im Mwk.Unterf.b.0,05m2 b.3,2m                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.31B",
+      "text": "Schlitze im Mwk.Unterf.ü.0,05-0,08m2 b.3,2m                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.31X",
+      "text": "Schlitze im Mwk.Unterf.ü.0,08m2 b.3,2m                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.32A",
+      "text": "Schlitze im Mwk.Unterf.b.0,05m2 ü.3,2m:__________                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.32B",
+      "text": "Schlitze im Mwk.Unterf.ü.0,05-0,08m2 ü.3,2:__________                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.32X",
+      "text": "Schlitze im Mwk.Unterf.ü.0,08m2 ü.3,2:__________                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.41A",
+      "text": "Stahlkonsolen mit Rostschutz b.10kg b.3,2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.41B",
+      "text": "Stahlkonsolen mit Rostschutz ü.10-20kg b.3,2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.42A",
+      "text": "Stahlkonsolen mit Rostschutz b.10kg ü.3,2m:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.42B",
+      "text": "Stahlkonsolen mit Rostschutz ü.10-20kg ü.3,2m:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.03.43A",
+      "text": "Stahlträger b.100kg b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "14.03.43B",
+      "text": "Stahlträger ü.100-200kg b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "14.03.43C",
+      "text": "Stahlträger ü.200-300kg b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "14.03.44A",
+      "text": "Stahlträger b.100kg ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "14.03.44B",
+      "text": "Stahlträger ü.100-200kg ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "14.03.44C",
+      "text": "Stahlträger ü.200-300kg ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "14.03.45A",
+      "text": "Stahlstütze b.100kg",
+      "unit": "kg"
+    },
+    {
+      "code": "14.03.45B",
+      "text": "Stahlstütze ü.100-200kg",
+      "unit": "kg"
+    },
+    {
+      "code": "14.03.45C",
+      "text": "Stahlstütze ü.200-300kg",
+      "unit": "kg"
+    },
+    {
+      "code": "14.03.51A",
+      "text": "Auffüllen Hohlräume zw.Träger C20/25 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "14.03.51B",
+      "text": "Schalung f.Auffüllen Hohlräume zw.Träger b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "14.03.52A",
+      "text": "Auffüllen Hohlräume zw.Träger C20/25 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "14.03.52B",
+      "text": "Schalung f.Auffüllen Hohlräume zw.Trägerü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "14.03.61A",
+      "text": "Ausmauern+Auskeilen ü.Träger b.15cm b.3,2m                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.61B",
+      "text": "Ausmauern+Auskeilen ü.Träger ü.15-30cm b.3,2m                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.62A",
+      "text": "Ausmauern+Auskeilen ü.Träger b.15cm ü.3,2m:__________                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.62B",
+      "text": "Ausmauern+Auskeilen ü.Träger ü.15-30cm ü.3,2m:__________                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.63A",
+      "text": "Ummanteln Träger ohne Feuerschutz b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "14.03.64A",
+      "text": "Ummanteln Träger ohne Feuerschutz ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "14.03.65A",
+      "text": "Schlitze schließen ü.Decke b.5cm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "14.03.65B",
+      "text": "Schlitze schließen ü.Decke ü.5-10cm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "14.12.00A",
+      "text": "Unterstellung f.HB-Verbunddecke/Tram",
+      "unit": ""
+    },
+    {
+      "code": "14.12.00B",
+      "text": "Unterstellung f.HB-Verbunddecke/Dippelbaum",
+      "unit": ""
+    },
+    {
+      "code": "14.12.01A",
+      "text": "Deckenauflager Dachboden Ziegel freilegen",
+      "unit": "m²"
+    },
+    {
+      "code": "14.12.01B",
+      "text": "Deckenauflager Platten freilegen",
+      "unit": "m²"
+    },
+    {
+      "code": "14.12.01C",
+      "text": "Deckenauflager Holzboden freilegen",
+      "unit": "m²"
+    },
+    {
+      "code": "14.12.02B",
+      "text": "Beschüttung/Deckenauflager abräumen u.lagern",
+      "unit": "m³"
+    },
+    {
+      "code": "14.12.02D",
+      "text": "Beschüttung/Deckenauflager abbrechen",
+      "unit": "m³"
+    },
+    {
+      "code": "14.12.03A",
+      "text": "Sturzschalung/Deckenauflager abbrechen",
+      "unit": "m²"
+    },
+    {
+      "code": "14.12.04A",
+      "text": "Deckenauflager/Untersicht Putz abschlagen b.0,5m                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "14.12.04B",
+      "text": "Deckenauflager/Untersicht Putz abschlagen ü.0,5m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "14.12.05A",
+      "text": "Deckenauflager/Stukkatursch.abtragen b.0,5m                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "14.12.05B",
+      "text": "Deckenauflager/Stukkatursch.ü.0,5m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "14.12.09A",
+      "text": "Pölzen der Decken                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "14.12.11A",
+      "text": "Tramkopflasche 1-seitig",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.12.11B",
+      "text": "Tramkopflasche 2-seitig",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.12.14A",
+      "text": "Aufhängen Dippelbaum auf Stahlprofile",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.12.14C",
+      "text": "Aufhängen Tram auf Stahlprofile",
+      "unit": "kg"
+    },
+    {
+      "code": "14.12.16A",
+      "text": "Sturzboden/Deckenauflager wieder herstellen",
+      "unit": "m²"
+    },
+    {
+      "code": "14.12.17B",
+      "text": "Beschüttung (zwischengelagert) wieder einbringen",
+      "unit": "m³"
+    },
+    {
+      "code": "14.12.18A",
+      "text": "Dachbodenpflaster wieder herstellen 20% ergänzen",
+      "unit": "m²"
+    },
+    {
+      "code": "14.12.20A",
+      "text": "Deckenauflager/Deckenputz b.0,5m                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "14.12.20D",
+      "text": "Deckenauflager/Deckenputz ü.0,5m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "14.12.21A",
+      "text": "Deckenauflager/Wandputz b.0,5m                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "14.12.31A",
+      "text": "Dippelbaum einzeln auslösen+zwischenlagern b.4m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.12.31B",
+      "text": "Dippelbaum einzeln auslösen+zwischenlagern ü.4-6,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.12.31C",
+      "text": "Dippelbaum einzeln auslösen+zwischenlagern ü.6,5-8m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.12.41A",
+      "text": "Dippelbaum einzeln wieder einbauen b.4m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.12.41B",
+      "text": "Dippelbaum einzeln wieder einbauen ü.4-6,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.12.41C",
+      "text": "Dippelbaum einzeln wieder einbauen ü.6,5-8m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.12.51A",
+      "text": "Beton f.HB-Verbunddecke/Tram unterstellungsfrei",
+      "unit": "m³"
+    },
+    {
+      "code": "14.12.51S",
+      "text": "Schrauben f.HB-Verbunddecke/Tram unterstellungsfrei",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.12.51V",
+      "text": "Bew.Stabst.f.HB-Verbunddecke/Tram unterstellungsfrei",
+      "unit": "kg"
+    },
+    {
+      "code": "14.12.51W",
+      "text": "Bew.Matten f.HB-Verbunddecke/Tram unterstellungsfrei",
+      "unit": "kg"
+    },
+    {
+      "code": "14.12.53A",
+      "text": "Beton f.HB-Verbunddecke/Tram",
+      "unit": "m³"
+    },
+    {
+      "code": "14.12.53S",
+      "text": "Schrauben f.HB-Verbunddecke/Tram",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.12.53V",
+      "text": "Bew.Stabst.f.HB-Verbunddecke/Tram",
+      "unit": "kg"
+    },
+    {
+      "code": "14.12.53W",
+      "text": "Bew.Matten f.HB-Verbunddecke/Tram",
+      "unit": "kg"
+    },
+    {
+      "code": "14.12.55A",
+      "text": "Beton f.HB-Verbunddecke/Tram aufgehängt",
+      "unit": "m³"
+    },
+    {
+      "code": "14.12.55S",
+      "text": "Schrauben f.HB-Verbunddecke/Tram aufgehängt",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.12.55V",
+      "text": "Bew.Stabst.f.HB-Verbunddecke/Tram aufgehängt",
+      "unit": "kg"
+    },
+    {
+      "code": "14.12.55W",
+      "text": "Bew.Matten f.HB-Verbunddecke/Tram aufgehängt",
+      "unit": "kg"
+    },
+    {
+      "code": "14.12.61A",
+      "text": "Beton f.HB-Verbunddecke/Dippelbaum unterstellungsfrei",
+      "unit": "m³"
+    },
+    {
+      "code": "14.12.61S",
+      "text": "Schrauben f.HB-Verbunddecke/Dippelbaum unterstellungsfrei",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.12.61V",
+      "text": "Bew.Stabst.f.HB-Verbunddecke/Dippelbaum unterstellungsfrei",
+      "unit": "kg"
+    },
+    {
+      "code": "14.12.61W",
+      "text": "Bew.Matten f.HB-Verbunddecke/Dippelbaum unterstellungsfrei",
+      "unit": "kg"
+    },
+    {
+      "code": "14.12.63A",
+      "text": "Beton f.HB-Verbunddecke/Dippelbaum",
+      "unit": "m³"
+    },
+    {
+      "code": "14.12.63S",
+      "text": "Schrauben f.HB-Verbunddecke/Dippelbaum",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.12.63V",
+      "text": "Bew.Stabst.f.HB-Verbunddecke/Dippelbaum",
+      "unit": "kg"
+    },
+    {
+      "code": "14.12.63W",
+      "text": "Bew.Matten f.HB-Verbunddecke/Dippelbaum",
+      "unit": "kg"
+    },
+    {
+      "code": "14.12.65A",
+      "text": "Beton f.HB-Verbunddecke/Dippelbaum aufgehängt",
+      "unit": "m³"
+    },
+    {
+      "code": "14.12.65S",
+      "text": "Schrauben f.HB-VerbunddeckeDippelbaum aufgehängt",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.12.65V",
+      "text": "Bew.Stabst.f.HB-Verbunddecke/Dippelbaum aufgehängt",
+      "unit": "kg"
+    },
+    {
+      "code": "14.12.65W",
+      "text": "Bew.Matten f.HB-Verbunddecke/Dippelbaum aufgehängt",
+      "unit": "kg"
+    },
+    {
+      "code": "14.12.71A",
+      "text": "Az f.Beton f.HB-Verbunddecke/Tram",
+      "unit": "m³"
+    },
+    {
+      "code": "14.12.71B",
+      "text": "Az f.Beton f.HB-Verbunddecke/Dippelbaum",
+      "unit": "m³"
+    },
+    {
+      "code": "14.13.01A",
+      "text": "Fassadengliederung auslösen+Transport b.10kg",
+      "unit": "kg"
+    },
+    {
+      "code": "14.13.01B",
+      "text": "Fassadengliederung auslösen+Transport ü.10-50kg",
+      "unit": "kg"
+    },
+    {
+      "code": "14.13.01C",
+      "text": "Fassadengliederung auslösen+Transport ü.50-100kg",
+      "unit": "kg"
+    },
+    {
+      "code": "14.13.01D",
+      "text": "Fassadengliederung auslösen+Transport__________",
+      "unit": "kg"
+    },
+    {
+      "code": "14.13.02A",
+      "text": "Fassadengliederung versetzen/verankern b.10kg",
+      "unit": "kg"
+    },
+    {
+      "code": "14.13.02B",
+      "text": "Fassadengliederung versetzen/verankern ü.10-50kg",
+      "unit": "kg"
+    },
+    {
+      "code": "14.13.02C",
+      "text": "Fassadengliederung versetzen/verankern ü.50-100kg",
+      "unit": "kg"
+    },
+    {
+      "code": "14.13.02D",
+      "text": "Fassadengliederung versetzen/verankern__________",
+      "unit": "kg"
+    },
+    {
+      "code": "14.22.01A",
+      "text": "Abschlagen Putz Fangkopfmauerwerk",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.01B",
+      "text": "Abschlagen Putz Fangmauerwerk unter Dach",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.02A",
+      "text": "Abbrechen Fangaufsatz b.0,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.02B",
+      "text": "Abbrechen Fangaufsatz Metall b.0,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.11A",
+      "text": "Fangkopf Abdeckplatte Ortbeton 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.11B",
+      "text": "Fangkopf Abdeckplatte Ortbeton 15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.12A",
+      "text": "Fangkopf Fertigteilabdeckplatte 1-zügig",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.12B",
+      "text": "Fangkopf Fertigteilabdeckplatte 2-zügig",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.12C",
+      "text": "Az Fangkopf Fertigteilabdeckplatte f.weiteren Zug",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.21A",
+      "text": "Fangkopf m.Mauerziegel-NF",
+      "unit": "m³"
+    },
+    {
+      "code": "14.22.21B",
+      "text": "Fangkopf m.Mauerziegel-ÖF",
+      "unit": "m³"
+    },
+    {
+      "code": "14.22.21C",
+      "text": "Fangkopf m.Kleinlochklinkerziegel",
+      "unit": "m³"
+    },
+    {
+      "code": "14.22.21D",
+      "text": "Fangkopf m.Betonstein NF",
+      "unit": "m³"
+    },
+    {
+      "code": "14.22.31A",
+      "text": "Putz Fangkopfmauerwerk einlagig",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.31B",
+      "text": "Putz Fangkopfmauerwerk zweilagig",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.31C",
+      "text": "Az Putz Fangkopfmauerwerk f.Gesimse b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.32A",
+      "text": "Putz Fangmauerwerk Dachbodenbereich einlagig",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.32B",
+      "text": "Putz Fangmauerwerk Dachbodenbereich zweilagig",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.41A",
+      "text": "WDVS 5cm Fang/Fangkopf+Dünnputz",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.41B",
+      "text": "WDVS 8cm Fang/Fangkopf+Dünnputz",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.51A",
+      "text": "Instandsetzen Fangkopf Sichtmauerwerk b.25%",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.51B",
+      "text": "Instandsetzen Fangkopf Sichtmauerwerk ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.52A",
+      "text": "Instandsetzen Fangmauerwerk verputzt b.25%",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.52B",
+      "text": "Instandsetzen Fangmauerwerk verputzt 25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.52C",
+      "text": "Instandsetzen Fangmauerwerk Dachbodenbereich b.25%",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.52D",
+      "text": "Instandsetzen Fangmauerwerk Dachbodenbereich 25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "14.22.54A",
+      "text": "Mündungsverlängerung Edelst./Edelst.b.150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.54B",
+      "text": "Mündungsverlängerung Edelst./Edelst.ü.150-200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.54C",
+      "text": "Mündungsverlängerung Edelst./Alu b.150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.54D",
+      "text": "Mündungsverlängerung Edelst./Alu ü.150-200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.55A",
+      "text": "Erneuern Fangtür St.Blech b.140mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.55B",
+      "text": "Erneuern Fangtür St.Blech ü.140-200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.55C",
+      "text": "Erneuern Fangtür St.Blech m.Dichtung b.140mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.55D",
+      "text": "Erneuern Fangtür St.Blech m.Dichtung ü.140-200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.55E",
+      "text": "Erneuern Fangtür Edelst.m.Dichtung b.140mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.55F",
+      "text": "Erneuern Fangtür Edelst.m.Dichtung ü.140-200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.56A",
+      "text": "Erneuern Anschlussbüchse b.150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.56B",
+      "text": "Erneuern Anschlussbüchse ü.150-200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.57A",
+      "text": "Fangputztür ausbrechen/vermauern/verputzen b.200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.58A",
+      "text": "Anschlussbüchse ausbrechen/zumauern b.300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.59A",
+      "text": "Fangöffnung f.Türchen/Büchse b.15cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.59B",
+      "text": "Fangöffnung f.Türchen/Büchse 15-25cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.99A",
+      "text": "Mündungsrohr b.25cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.22.99B",
+      "text": "Mündungsrohr b.25cm+Aufsatz",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.23.01A",
+      "text": "Baustelleneinrichtung f.Fang-Innenabdichtungen                                                                PA",
+      "unit": ""
+    },
+    {
+      "code": "14.23.02A",
+      "text": "Umsetzen d. Einrichtungen f.Fang-Innenabdichtungen",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.23.03A",
+      "text": "Az Fang-Innenabdichten f.Umsetzen Fangschleif-Einrichtung",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.23.05A",
+      "text": "Fang-Innenabd. li.Weite b.180mm/b.25m                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "14.23.05B",
+      "text": "Fang-Innenabd. li.Weite ü.180-250mm/b.25m                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "14.23.05C",
+      "text": "Fang-Innenabd. li.Weite b.180mm/ü.25-50m                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "14.23.05D",
+      "text": "Fang-Innenabd. li.Weite ü.180-250mm/ü.25-50m                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "14.23.10A",
+      "text": "Verlegung/Verengung b.140mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.23.10B",
+      "text": "Az Verlegung/Verengung f.Mauerarbeiten b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.23.10C",
+      "text": "Az Verlegung/Verengung f.Mauerarbeiten ü.0,1-0,25m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.23.11B",
+      "text": "Verlegung,Verengung ü.140-200mm b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.23.11C",
+      "text": "Verlegung,Verengung ü.140-200mm ü.0,1-0,25m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.23.12A",
+      "text": "Zungenbrüche b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.23.12B",
+      "text": "Zungenbrüche ü.0,1-0,25m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.23.13A",
+      "text": "Fehleinmündungen beheben",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.51.00C",
+      "text": "Einstufiges Verfahren zu 14.51",
+      "unit": ""
+    },
+    {
+      "code": "14.51.00D",
+      "text": "Mehrstufiges Verfahren zu 14.51",
+      "unit": ""
+    },
+    {
+      "code": "14.51.00F",
+      "text": "Musterarbeit zu 14.51",
+      "unit": ""
+    },
+    {
+      "code": "14.51.01A",
+      "text": "Analyse vor Arbeitsbeginn zu 14.51",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.51.01B",
+      "text": "Messung nach Fertigstellung zu 14.51",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.51.21A",
+      "text": "Mwk.Abd.Ziegelmwk.+Edelstahl Pl.einstufig b.90cm",
+      "unit": "m²"
+    },
+    {
+      "code": "14.51.31A",
+      "text": "Mwk.Abd.Ziegelmwk.mehrstufig b.100cm",
+      "unit": "m²"
+    },
+    {
+      "code": "14.51.31B",
+      "text": "Mwk.Abd.Ziegelmwk.mehrstufig ü.100-300cm",
+      "unit": "m²"
+    },
+    {
+      "code": "14.51.31E",
+      "text": "Mwk.Abd.Misch-/Stein.-mwk.mehrstufig b.100cm",
+      "unit": "m²"
+    },
+    {
+      "code": "14.51.31F",
+      "text": "Mwk.Abd.Misch-/Stein.-mwk.mehrstufig ü.100-300cm",
+      "unit": "m²"
+    },
+    {
+      "code": "14.51.33A",
+      "text": "Az Mwk.Abd.mehrstufig f.Stahlblech",
+      "unit": "m²"
+    },
+    {
+      "code": "14.51.81A",
+      "text": "Mwk.Entf.mech.Mauerwerk H-stab ü.20-60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "14.51.81B",
+      "text": "Mwk.Entf.mech.Mauerwerk H-stab ü.60-90cm",
+      "unit": "m²"
+    },
+    {
+      "code": "14.51.83A",
+      "text": "Az Mwk.Entf.mech.Mauerwerk H-stab ü.20-60cm                                                                      VE",
+      "unit": ""
+    },
+    {
+      "code": "14.51.83B",
+      "text": "Az Mwk.Entf.mech.Mauerwerk H-stab ü.60-90cm                                                                      VE",
+      "unit": ""
+    },
+    {
+      "code": "14.80.02A",
+      "text": "Schutzeinhausung Wasserstrahlen                                                                                       PA",
+      "unit": ""
+    },
+    {
+      "code": "14.80.02B",
+      "text": "Schutzeinhausung Sandstrahlen                                                                                         PA",
+      "unit": ""
+    },
+    {
+      "code": "14.80.06A",
+      "text": "Flächig abschremmen b.3cm b.0,05m2",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.06B",
+      "text": "Flächig abschremmen b.3cm ü.0,05-0,25m2",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.06C",
+      "text": "Flächig abschremmen b.3cm ü.0,25-0,5m2",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.06D",
+      "text": "Flächig abschremmen b.3cm ü.0,5m2:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.06F",
+      "text": "Flächig abschremmen ü.3-.5cm b.0,05m2",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.06G",
+      "text": "Flächig abschremmen ü.3-5cm ü.0,05-0,25m2",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.06H",
+      "text": "Flächig abschremmen ü.3-5cm ü.0,25-0,5m2",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.06I",
+      "text": "Flächig abschremmen ü.3-5cm ü.0,5m2:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.07A",
+      "text": "Az Bewehrung f.Hinterstemmen Bewehrung                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "14.80.08A",
+      "text": "Anschlusskanten begradigen                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "14.80.09A",
+      "text": "Hochdruckwasserstrahlen",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.10A",
+      "text": "Strahlen normale Betonfläche",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.11A",
+      "text": "Bewehrung entrosten/abstrahlen SA2,5                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "14.80.12A",
+      "text": "Korrosionsschutz Bewehrung zementgebunden                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "14.80.12B",
+      "text": "Korrosionsschutz Bewehrung Kunststoff                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "14.80.14A",
+      "text": "Schadstelle b.3cm schließen",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.14B",
+      "text": "Schadstelle ü.3-5cm schließen",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.16A",
+      "text": "Reprofilieren Spritzmörtel lotrecht",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.16B",
+      "text": "Reprofilieren Spritzmörtel Untersicht/Stirnseite",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.20A",
+      "text": "Überspachteln vollflächig ü.3-5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.21A",
+      "text": "Az f.Stemmen+Reprofilieren Untersicht",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.21B",
+      "text": "Az f.Spachtelarbeiten Untersicht/Stirnseite",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.22A",
+      "text": "Außenkanten wieder herstellen                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "14.80.22B",
+      "text": "Außenkanten wieder herstellen+Kantenschutzprofil                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "14.80.23A",
+      "text": "Wassernase nachprofilieren                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "14.80.23B",
+      "text": "Wassernase wieder herstellen+Profil                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "14.80.25A",
+      "text": "Betonfläche Imprägnieren",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.26A",
+      "text": "Versiegeln Acrylharz lösungsmittelfrei",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.26B",
+      "text": "Versiegeln Acrylharz lösungsmittelhältig",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.26C",
+      "text": "Versiegeln Acrylharz rissüberbrückend",
+      "unit": "m²"
+    },
+    {
+      "code": "14.80.28A",
+      "text": "Bauwerksfugen instands.Dichtstoff b.20mm                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "14.80.28B",
+      "text": "Bauwerksfugen instands.Dichtstoff ü.20-30mm                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "14.80.29A",
+      "text": "Bauwerksfugen instands.Dichtband b.10mm                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "14.80.29B",
+      "text": "Bauwerksfugen instands.Dichtband ü.10-20mm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "14.80.31A",
+      "text": "Risse sanieren-verpressen m.Injektionsharz b.3mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.80.32A",
+      "text": "Betonanstrich lösungsmittelfrei",
+      "unit": "m²"
+    },
+    {
+      "code": "14.94.01A",
+      "text": "Bestandsprüfungen Balkon m.Rückprallhammer",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.94.01B",
+      "text": "Bestandsprüfungen Balkon Karbonatisierung",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.94.01C",
+      "text": "Bestandsprüfungen Balkon Haftzugfestigkeit",
+      "unit": "Stk"
+    },
+    {
+      "code": "14.94.02A",
+      "text": "Bestandsprüfungen Laubengang m.Rückprallhammer",
+      "unit": "m²"
+    },
+    {
+      "code": "14.94.02B",
+      "text": "Bestandsprüfungen Laubengang Karbonatisierung",
+      "unit": "m²"
+    },
+    {
+      "code": "14.94.02C",
+      "text": "Bestandsprüfungen Laubengang Haftzugfestigkeit",
+      "unit": "m²"
+    }
+  ]
+}

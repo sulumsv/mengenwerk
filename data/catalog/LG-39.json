@@ -1,0 +1,2561 @@
+{
+  "lg": "39",
+  "title": "Trockenbauarbeiten",
+  "positions": [
+    {
+      "code": "39.25.19A",
+      "text": "Abgh.Decke M.L.glatt weiß vU 2000/400mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.19B",
+      "text": "Az M.L.f.Längenänderung",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.19C",
+      "text": "Az M.L.f.Breitenänderung",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.19D",
+      "text": "Az M.L.f.abklappbare Ausführung",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.41A",
+      "text": "Az f.Rev.Ö.GKB glatt abklappbar b.40/40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.41B",
+      "text": "Az f.Rev.Ö.GKB glatt abklappbar ü.40/40-60/60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.41C",
+      "text": "Az f.Rev.Ö.Paneel glatt abklappbar 40/40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.28.51A",
+      "text": "Beihilfe Versetzen von Einbauteilen (AG)",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.31.01C",
+      "text": "Trenn-/Gleitschicht Folie 0,2mm verklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.01B",
+      "text": "Versiegeln Rohboden m.Epoxyharzemulsion",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.18D",
+      "text": "Az Dampfbremse W.f.Abkleben/Durchdringungen",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.50D",
+      "text": "Az Dampfbremse D.f.Abkleben/Durchdringungen",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.28.61A",
+      "text": "Az Einbauteile bis 0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.28.61B",
+      "text": "Az Einbauteile ü. 0,5 bis 1,0m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.28.61C",
+      "text": "Az Einbauteile ü.1,0 bis 2,0m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.00.01A",
+      "text": "Nachweise des Auftragnehmers",
+      "unit": ""
+    },
+    {
+      "code": "39.00.01B",
+      "text": "Kunststoff halogenfrei",
+      "unit": ""
+    },
+    {
+      "code": "39.21.01A",
+      "text": "ESTW CW50/80mm 41dB 2GKB b.2,75m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.02D",
+      "text": "ESTW CW75/100mm 42dB 2GKB b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.02F",
+      "text": "ESTW CW100/125mm 43dB 2GKB b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.03H",
+      "text": "ESTW CW50/100mm 48dB 4GKB b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.03I",
+      "text": "ESTW CW75/125mm 49dB 4GKB b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.03J",
+      "text": "ESTW CW100/150mm 49dB 4GKB b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.11A",
+      "text": "ESTW CW50/80mm 41dB 2GKF EI30 b.2,75m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.12D",
+      "text": "ESTW CW75/100mm 42dB 2GKF EI30 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.12F",
+      "text": "ESTW CW100/125mm 43dB 2GKF EI30 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.13A",
+      "text": "ESTW CW50/100mm 48dB 4GKF EI90 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.13B",
+      "text": "ESTW CW75/125mm 49dB 4GKF EI90 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.13C",
+      "text": "ESTW CW100/150mm 49dB 4GKF EI90 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.21A",
+      "text": "DSTW CW50+50/155mm 60dB 4GKB b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.21B",
+      "text": "DSTW CW75+75/205mm 60dB 4GKB b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.21C",
+      "text": "DSTW CW100+100/255mm 60dB 4GKB b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.22A",
+      "text": "DSTW CW50+50/155mm 60dB 4GKF EI90 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.22B",
+      "text": "DSTW CW75+75/205mm 60dB 4GKF EI90 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.22C",
+      "text": "DSTW CW100+100/255mm 60dB 4GKF EI90 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.41A",
+      "text": "DSTW CW50+50/b.500mm 4GKB b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.41B",
+      "text": "DSTW CW75+75/b.500mm 4GKB b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.41C",
+      "text": "DSTW CW100+100/b.500mm 4GKB b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.51A",
+      "text": "DSTW CW75+75/220mm 60dB 5GKF EI90 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.51B",
+      "text": "DSTW CW75+75/220mm 69dB 5GKF EI90 b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.61A",
+      "text": "Einfachständerwände (ESTW)",
+      "unit": "m²"
+    },
+    {
+      "code": "39.21.62A",
+      "text": "Doppelständerwände (DSTW)",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.01A",
+      "text": "Wandflächen ausgleichen ü.20-50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.02A",
+      "text": "Grundieren bei stark saugendem Untergrund",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.02B",
+      "text": "Herstellen einer Haftbrücke",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.04A",
+      "text": "Trockenputz GKB12,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.04B",
+      "text": "Az f.Trockenputz verdübeln",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.10B",
+      "text": "Vorsatzschale MW50 GKB 12,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.13A",
+      "text": "Freist.Vorsatzschale CW75 GKB 12,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.13D",
+      "text": "Freist.Vorsatzschale CW75 GKB 2x12,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.13E",
+      "text": "Freist.Vorsatzschale CW100 GKB 12,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.13F",
+      "text": "Freist.Vorsatzschale CW100 GKB 2x12,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.14A",
+      "text": "Vorsatzschale CW75 GKB 2x12,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.15A",
+      "text": "Wand-Rohrbekleidungen GKB zweiseitig                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "39.24.15B",
+      "text": "Wand-Rohrbekleidungen GKB dreiseitig                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "39.24.18A",
+      "text": "Dampfbremse W.PE-Folie 0,2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.18B",
+      "text": "Dampfbremse W.Austrocknungseffekt 20m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.18C",
+      "text": "Dampfbremse W.Austrocknungseffekt 0,2-20m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.31A",
+      "text": "Drempelwand GKF+UK Blechprofil b.1,5m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.24.31B",
+      "text": "Drempelwand GKF+UK Blechprofil ü.1,5-2m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.01A",
+      "text": "VBM abgh.Decken bei Holz-u.Ziegeldecken",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.01B",
+      "text": "VBM abgh.Decken bei Ast-Molindecken",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.02A",
+      "text": "Deckenuntersicht GKB 12,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.03A",
+      "text": "Deckenuntersicht EI30 GKF 15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.03B",
+      "text": "Deckenuntersicht EI60 GKF 2x15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.03C",
+      "text": "Deckenuntersicht EI90 GKF 3x15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.08A",
+      "text": "Abgh.Decke+Stbl.-Rost GKB 12,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.08B",
+      "text": "Abgh.Decke+Stbl.-Rost GKB 15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.12C",
+      "text": "Abgh.Decke+Stbl.-Rost EI30 GKF 2x12,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.12D",
+      "text": "Abgh.Decke+Stbl.-Rost EI60 GKF 2x15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.12E",
+      "text": "Abgh.Decke+Stbl.-Rost EI90 GKF 3x15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.12F",
+      "text": "Abgh.Decke+Stbl.-Rost EI90 GKF 2x20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.13A",
+      "text": "Abgh.Decke+Stbl.-Rost GKB-loch",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.14A",
+      "text": "Abgh.Decke verd.UK Mineralfaserpl.625/625mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.14B",
+      "text": "Abgh.Decke vertieft liegend Mineralfaserpl.625/625mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.14D",
+      "text": "Abgh.Decke Sichtschienen Mineralfaserpl.625/625mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.15A",
+      "text": "Abgh.Decke vertieft liegend Gipsdekorpl.625/625mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.15B",
+      "text": "Abgh.Decke Sichtschienen Gipsdekorpl.625/625mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.16A",
+      "text": "Abgh.Decke Alu-paneel glatt weiß M10",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.16B",
+      "text": "Abgh.Decke Alu-paneel weiß gelocht M10",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.16X",
+      "text": "Abgh.Decke Alu-paneel glatt weiß M__________",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.17A",
+      "text": "Az Alu-paneel f.Füllprofil glatt",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.17B",
+      "text": "Az Alu-paneel f.Füllprofil gelocht",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.18A",
+      "text": "Abgh.Decke Metallk.glatt weiß vU 625/625mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.18D",
+      "text": "Abgh.Decke Metallk.glatt weiß sU 625/625 mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.21A",
+      "text": "Az abgh.Decke f.drucksteife UK",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.23A",
+      "text": "Az f.GKB Deckenschürze b.20cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.23B",
+      "text": "Az f.GKB Deckenschürze ü.20-50cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.23C",
+      "text": "Az f.GKB Deckenschürze ü.50-100cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.24A",
+      "text": "Az f.GKB f.Anschlussfl.Deckenschürze b.20cm                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.24B",
+      "text": "Az f.GKB f.Anschlussfl.Deckenschürze ü.20-50cm                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.24C",
+      "text": "Az f.GKB f.Anschlussfl.Deckenschürze ü.50-100cm                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.27A",
+      "text": "Decke Dämmung Mineralwolle 5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.27B",
+      "text": "Decke Dämmung Mineralwolle 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.27C",
+      "text": "Decke Dämmung Mineralwolle 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.27D",
+      "text": "Decke Dämmung Mineralwolle 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.27E",
+      "text": "Decke Dämmung Mineralwolle 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.27F",
+      "text": "Decke Dämmung Mineralwolle 14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.27G",
+      "text": "Decke Dämmung Mineralwolle 16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.27H",
+      "text": "Decke Dämmung Mineralwolle 18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.27I",
+      "text": "Decke Dämmung Mineralwolle 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.27X",
+      "text": "Decke Dämmung Mineralwolle ü.20cm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.28A",
+      "text": "Decke Dämmung Steinwolle 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.28B",
+      "text": "Decke Dämmung Steinwolle 14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.28C",
+      "text": "Decke Dämmung Steinwolle 16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.28D",
+      "text": "Decke Dämmung Steinwolle 18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.31A",
+      "text": "Zusätzliche Tragkonstruktion                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.34A",
+      "text": "Decke Rieselschutz",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.35A",
+      "text": "Decke Akustikfilz",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.36G",
+      "text": "Az abgh.Decke f.schräge Untersicht",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.36H",
+      "text": "Az abgh.Decke f.schräge Untersicht+Boden",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.37A",
+      "text": "Az f.Abhängehöhe ü.50-100cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.37B",
+      "text": "Az f.Abhängehöhe ü.100-150cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.39A",
+      "text": "Az Deckenbekl.f.Fries GKB b.20cm                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.39B",
+      "text": "Az Deckenbekl.f.Fries GKB ü.20-50cm                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.39C",
+      "text": "Az Deckenbekl.f.Fries GKB ü.50-100cm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.40A",
+      "text": "Az f.Wandanschluss Stufenwinkel                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.40B",
+      "text": "Az f.Wandanschluss Winkelprofil                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.40C",
+      "text": "Az f.Wandanschluss offene Fuge 20mm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.42A",
+      "text": "Az f.Rev.Ö.GKB gel.abklappbar b.40/40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.42B",
+      "text": "Az f.Rev.Ö.GKB gel.abklappbar ü.40/40-60/60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.42C",
+      "text": "Az f.Rev.Ö.Paneel gel.abklappbar 40/40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.46A",
+      "text": "Az abgh.Decken f.Einbauleuchten",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.46B",
+      "text": "Az f.Einhausung Einbauleuchten",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.46C",
+      "text": "Az f.Unterkonstruktion Aufbauleuchten",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.47D",
+      "text": "Az f.Deckenausschnitt b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.47E",
+      "text": "Az f.Deckenausschnitt ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.48A",
+      "text": "Az f.Dehnfuge GKB Decke                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.49A",
+      "text": "Vorhangschiene Alu 1-läufig deckeneben                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.49B",
+      "text": "Vorhangschiene Alu 2-läufig deckeneben                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.49C",
+      "text": "Vorhangschiene Alu 1-läufig aufgesetzt                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.49D",
+      "text": "Vorhangschiene Alu 2-läufig aufgesetzt                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.50A",
+      "text": "Dampfbremse D.PE-Folie 0,2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.50B",
+      "text": "Dampfbremse D.Austrocknungseffekt 20m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.50C",
+      "text": "Dampfbremse D.Austrocknungseffet 0,2-20m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.25.51A",
+      "text": "Decken-Rohrbekleidungen GKB zweiseitig                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.51B",
+      "text": "Decken-Rohrbekleidungen GKB dreiseitig                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "39.25.74A",
+      "text": "Bekleidungen von Dachgaupen b.5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.74B",
+      "text": "Bekleidungen von Dachgaupen ü.5-10m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.74D",
+      "text": "Bekleidungen von Dachgaupen ü.10-20m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.74E",
+      "text": "Bekleidungen von DFF 70cm b.1,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.74F",
+      "text": "Bekleidungen von DFF 70cm ü.1,5-3m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.25.91A",
+      "text": "Az Decken f.Höhen ü.3,2-5m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.26.01A",
+      "text": "Feuerschutzbekleidung Holzstütze R30",
+      "unit": "m²"
+    },
+    {
+      "code": "39.26.01B",
+      "text": "Feuerschutzbekleidung Holzstütze R60",
+      "unit": "m²"
+    },
+    {
+      "code": "39.26.01C",
+      "text": "Feuerschutzbekleidung Holzstütze R90",
+      "unit": "m²"
+    },
+    {
+      "code": "39.26.02A",
+      "text": "Feuerschutzbekleidung Holzbalken R30",
+      "unit": "m²"
+    },
+    {
+      "code": "39.26.02B",
+      "text": "Feuerschutzbekleidung Holzbalken R60",
+      "unit": "m²"
+    },
+    {
+      "code": "39.26.02C",
+      "text": "Feuerschutzbekleidung Holzbalken R90",
+      "unit": "m²"
+    },
+    {
+      "code": "39.26.03A",
+      "text": "Feuerschutzbekleidung Stahlstütze R30",
+      "unit": "m²"
+    },
+    {
+      "code": "39.26.03B",
+      "text": "Feuerschutzbekleidung Stahlstütze R60",
+      "unit": "m²"
+    },
+    {
+      "code": "39.26.03C",
+      "text": "Feuerschutzbekleidung Stahlstütze R90",
+      "unit": "m²"
+    },
+    {
+      "code": "39.26.04A",
+      "text": "Feuerschutzbekleidung Stahlträger R30",
+      "unit": "m²"
+    },
+    {
+      "code": "39.26.04B",
+      "text": "Feuerschutzbekleidung Stahlträger R60",
+      "unit": "m²"
+    },
+    {
+      "code": "39.26.04C",
+      "text": "Feuerschutzbekleidung Stahlträger R90",
+      "unit": "m²"
+    },
+    {
+      "code": "39.27.01A",
+      "text": "ESTW Schacht CW50/75 2GKF 1-f.EI30 75mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.27.01B",
+      "text": "ESTW Schacht CW50/95 3GKF 1-f.EI90 95mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.27.02A",
+      "text": "Schachtwand Revisionsöffnung 30/30cm EI30",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.27.02B",
+      "text": "Schachtwand Revisionsöffnung 40/40cm EI30",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.27.02C",
+      "text": "Schachtwand Revisionsöffnung 30/30cm EI90",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.27.02D",
+      "text": "Schachtwand Revisionsöffnung 40/40cm EI90",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.28.01A",
+      "text": "St-Zarge b.2m2 80-100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.28.01B",
+      "text": "St-Zarge b.2m2 ü.100-150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.28.01C",
+      "text": "St-Zarge b.2m2 ü.150-220mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.28.11A",
+      "text": "St-UZ b.2m2 in STW nur versetzen",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.28.21A",
+      "text": "Az f.Zargenhöhe ü. 2-2,4m",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.28.21B",
+      "text": "Az f.Sonderbänder",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.28.31A",
+      "text": "Schiebetüreinbaukasten CW75 b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.28.31B",
+      "text": "Schiebetüreinbaukasten CW100 b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.28.33A",
+      "text": "Stockbekl.f.Schiebetüreinbauk.CW75 b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.28.33B",
+      "text": "Stockbekl.f.Schiebetüreinbauk.CW100 b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.28.41A",
+      "text": "Tragständer f.Boiler STW",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.29.01A",
+      "text": "Herst./Schließen Wandöffnung 1f.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.29.01B",
+      "text": "Herst./Schließen Wandöffnung 1f.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.29.01C",
+      "text": "Herst./Schließen Wandöffnung 2f.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.29.01D",
+      "text": "Herst./Schließen Wandöffnung 2f.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.29.11A",
+      "text": "Gleitender Wandanschluss                                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.11B",
+      "text": "Gleitender Wandanschluss EI30                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.11C",
+      "text": "Gleitender Wandanschluss EI90                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.12A",
+      "text": "Gleitender Deckenanschluss 1-f.Stw.                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.12B",
+      "text": "Gleitender Deckenanschuss 1-f.Stw.EI30                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.12C",
+      "text": "Gleitender Deckenanschluss 1-f.Stw.EI90                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.13A",
+      "text": "Zusätzliche GKB 12,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.13B",
+      "text": "Zusätzliche GKF 12,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.13C",
+      "text": "Zusätzliche GKF 15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.15A",
+      "text": "Dehnfuge STW oder Wandbekleidungen                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.15C",
+      "text": "Dehnfuge STW EI30                                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.15D",
+      "text": "Dehnfuge STW EI90                                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.16A",
+      "text": "Auswechslungen b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.29.16B",
+      "text": "Auswechslungen ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.29.17A",
+      "text": "Az f.Spachtelung Qualitäts-Stufe 3",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.17B",
+      "text": "Az f.Spachtelung Qualitäts-Stufe 4",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.19A",
+      "text": "Eckschutzschiene Alu                                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.31A",
+      "text": "Dreischichtplatten STW                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.32A",
+      "text": "Spezialtraversen f.schwere Konsollasten",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.29.33A",
+      "text": "Einbau Schraubgründe STW                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.35A",
+      "text": "U-Wandprofil STW                                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.41A",
+      "text": "Az GKB f.imprägnierte Platten",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.41C",
+      "text": "Az GKB f.Vliesarmierung",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.41D",
+      "text": "Az GKB f.zementgeb.Platten",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.42B",
+      "text": "Az (STW) GKB+Mineralwolle f.7,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.42D",
+      "text": "Az (STW) GKB+Mineralwolle f.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.45A",
+      "text": "Az STW f.reduzierter St-Abstand 41cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.45B",
+      "text": "Az STW f.reduzierter St-Abstand 31cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.46A",
+      "text": "Az STW f.Blechdicke 0,7mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.47A",
+      "text": "Az STW f.U-Aussteifungsprofil 2/50mm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.47B",
+      "text": "Az STW f.U-Aussteifungsprofil 2/75mm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.47C",
+      "text": "Az STW f.U-Aussteifungsprofil 2/100mm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.51A",
+      "text": "Az STW f.Anarbeiten offene Untersicht                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "39.29.61A",
+      "text": "Az ESTW GKB f.ü.3,2-5m f.beidseitig/1f.",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.61B",
+      "text": "Az ESTW GKB f.ü.3,2-5m f.beidseitig/2f.",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.61C",
+      "text": "Az DSTW GKB f.ü.3,2-5m f.beidseitig/2f.",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.61D",
+      "text": "Az VS-Schale GKB f.ü.3,2-5m 1f.",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.61E",
+      "text": "Az VS-Schale GKB f.ü.3,2-5m 2f.",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.61F",
+      "text": "Az VS-Schale GKB f.ü.3,2-5m 3f.",
+      "unit": "m²"
+    },
+    {
+      "code": "39.29.61G",
+      "text": "Az EI-Bekleidungen Holz-/Stahlst.f.ü.3,2-5m",
+      "unit": "m²"
+    },
+    {
+      "code": "39.30.01A",
+      "text": "Paneel-Wand Spanplatte P2 E1 beschichtet                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "39.30.01B",
+      "text": "Az Paneel-Wand Spanplatte P2 E1 f.Tür80/200",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.30.02A",
+      "text": "Paneel-Wand Spanplatten P5 E1                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "39.30.02B",
+      "text": "Az Paneel-Wand Spanplatte P5 E1 f.Tür80/200",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.30.03A",
+      "text": "Paneel-Wand Vollkernkunststoffplatten                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "39.30.03B",
+      "text": "Az Paneel-Wand,Kunststoff f.Tür 80/200",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.30.04A",
+      "text": "Paneel-Wand,Verbundplatte,wasserfest                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "39.30.04B",
+      "text": "Az Paneel-Wand,Verbundplatte f.Tür 80/200",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.30.11A",
+      "text": "Az Paneelwand f.Eckausbildung",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.30.11B",
+      "text": "Az Paneelwand f.Anarbeiten Wandanschluss",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.30.11C",
+      "text": "Az Paneelwand f.Eckausbildung rund",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.30.11D",
+      "text": "Az Paneelwand f.Anarbeiten Wandvorsprung                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "39.30.11E",
+      "text": "Az Paneelwand f.Tür ü.80/200cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.30.11F",
+      "text": "Az Paneelwand f.Aussteifung Tür ü.1,2m                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "39.30.11G",
+      "text": "Az Paneelwand f.Alusockel (o.Bodenfreiheit)                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "39.30.11H",
+      "text": "Az Paneelwand f.Aufsatzelemente b.55cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "39.30.11I",
+      "text": "Az Paneelwand f.Aluprofil-Beschichtung                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "39.30.21A",
+      "text": "Rohrausschnitt f.Paneelwände b.10cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.30.21B",
+      "text": "Rohrausschnitt f.Paneelwände ü.10-20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.30.21C",
+      "text": "Rohrausschnitt f.Paneelwände ü.20cm:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.30.31A",
+      "text": "Wandausschnitt f.Paneelwände b.0,01m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.30.31B",
+      "text": "Wandausschnitt f.Paneelwände ü.0,01-0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.30.31C",
+      "text": "Wandausschnitt f.Paneelwände ü.0,1m2:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.31.00F",
+      "text": "Fußbodenaufbau zu 11.22",
+      "unit": ""
+    },
+    {
+      "code": "39.31.01A",
+      "text": "Trenn-/Gleitschicht Folie 0,1mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.01B",
+      "text": "Trenn-/Gleitschicht Folie 0,2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.01D",
+      "text": "Trenn-/Gleitschicht Diffusionsoffenes Flies mind. 50g/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.02A",
+      "text": "Dampfbremsschichte PE-Folie verklebt sd-Wert≥100",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.02X",
+      "text": "Dampfbremsschichte verklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.06A",
+      "text": "Niveauausgleich gebundene Stoffe b.5cm",
+      "unit": "m³"
+    },
+    {
+      "code": "39.31.06B",
+      "text": "Niveauausgleich gebundene Stoffe ü.5-10cm",
+      "unit": "m³"
+    },
+    {
+      "code": "39.31.06X",
+      "text": "Niveauausgleich gebundene Stoffe ü.10cm b.__________",
+      "unit": "m³"
+    },
+    {
+      "code": "39.31.06Y",
+      "text": "Az Niveauausgleich gebunden b.10cm f.schnell trocknend",
+      "unit": "m³"
+    },
+    {
+      "code": "39.31.14A",
+      "text": "Trittschalldämmung m.Mineralwollepl.15mm CP2",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.14B",
+      "text": "Trittschalldämmung m.Mineralwollepl.20mm CP2",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.18B",
+      "text": "Trittschalldämmung m.Hartschaumpl.20mm CP2",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.21A",
+      "text": "Wärmedämmung m.Hartschaumpl.XPS-G 30mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.40A",
+      "text": "Gipsfaser-Platte GF bearbeitet für HT-Rohre 18mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.40B",
+      "text": "Gipsfaser-Platte GF bearbeitet für HT-Rohre 25mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.41A",
+      "text": "Trockenestrich-Platten GF 10 mm (2-lagig)",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.41B",
+      "text": "Trockenestrich-Platten GF 12,5 mm (2-lagig)",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.41C",
+      "text": "Trockenestrich-Platten GK 12,5 mm (2-lagig)",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.45A",
+      "text": "Trockenestrich-Element GF 18-20 mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.45B",
+      "text": "Trockenestrich-Element GF 22-25 mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.46A",
+      "text": "Trockenestrich-Element GF 18-20 mm +20 mm EPS",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.46B",
+      "text": "Trockenestrich-Element GF 22-25 mm +20 mm EPS",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.46C",
+      "text": "Trockenestrich-Element GF 18-20 mm +30 mm EPS",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.46D",
+      "text": "Trockenestrich-Element GF 22-25 mm +30 mm EPS",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.46E",
+      "text": "Trockenestrich-Element GF 18-20 mm +10 mm WF",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.46F",
+      "text": "Trockenestrich-Element GF 22-25 mm +10 mm WF",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.46G",
+      "text": "Trockenestrich-Element GF 18-20 mm +10 mm MW",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.46H",
+      "text": "Trockenestrich-Element GF 22-25 mm +10 mm MW",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.50A",
+      "text": "Zusätzliche Trockenestrich Platte GF 10 mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.50B",
+      "text": "Zusätzliche Trockenestrich Platte GF 12,5 mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.50C",
+      "text": "Zusätzliche Trockenestrich Platte GK 12,5 mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.31.60A",
+      "text": "Bauteilfuge f. Trockenestrich                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "39.31.61A",
+      "text": "Anarbeiten an Einbauteile b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.31.61B",
+      "text": "Anarbeiten an Einbauteile ü.0,5m2                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "39.31.90B",
+      "text": "Fuge m.elastischem Dichtstoff ü.5-8mm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "39.31.90C",
+      "text": "Fuge m.elastischem Dichtstoff ü.8-12mm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "39.35.01A",
+      "text": "Versiegeln Rohboden m. Kunstharzdispersion",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.02A",
+      "text": "Erstellen von Rasterplänen",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.02B",
+      "text": "Rasterkennzeichnung Rohboden",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.21A",
+      "text": "Doppelboden,freist.Holzwerkstoff 3kN (FD) 20-80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.21B",
+      "text": "Doppelboden,freist.Holzwerkstoff 3kN (FD) ü.80-150mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.21C",
+      "text": "Doppelboden,freist.Holzwerkstoff 3kN (FD) ü.150-250mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.21D",
+      "text": "Doppelboden,freist.Holzwerkstoff 3kN (FD) ü.250-460mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.21E",
+      "text": "Doppelboden,freist.Holzwerkstoff 3kN (FD) ü.460mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.23A",
+      "text": "Doppelboden,freist.Holzwerkstoff 5kN (FD) 20-80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.23B",
+      "text": "Doppelboden,freist.Holzwerkstoff 5kN (FD) ü.80-150mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.23C",
+      "text": "Doppelboden,freist.Holzwerkstoff 5kN (FD) ü.150-250mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.23D",
+      "text": "Doppelboden,freist.Holzwerkstoff 5kN (FD) ü.250-460mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.23E",
+      "text": "Doppelboden,freist.Holzwerkstoff 5kN (FD) ü.460mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.25A",
+      "text": "Doppelboden,freist.Holzwerkstoff b.460mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.25B",
+      "text": "Doppelboden,freist.Holzwerkstoff ü.460mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.27A",
+      "text": "Az Doppelboden,freist.Holzwerkstoff f.Lüftungsplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.27E",
+      "text": "Az Doppelboden,freist.Holzwerkstoff f.Erdableitwiderstand",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.27F",
+      "text": "Az Doppelboden,freist.Holzwerkstoff f.Schaltwarterahmen                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "39.35.28A",
+      "text": "Az Doppelboden,freist.Holzwerkstoff f.Kunststoffbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.28B",
+      "text": "Az Doppelboden,freist.Holzwerkstoff f.Linoleumbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.28C",
+      "text": "Az Doppelboden,freist.Holzwerkstoff f.Kautschukbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.28D",
+      "text": "Az Doppelboden,freist.Holzwerkstoff f.HPL",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.29A",
+      "text": "Az Doppelboden,freist.Holzwerkstoff ablf. f.Kunststoffbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.29B",
+      "text": "Az Doppelboden,freist.Holzwerkstoff ablf. f.Linoleumbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.29C",
+      "text": "Az Doppelboden,freist.Holzwerkstoff ablf. f.Kautschukbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.29D",
+      "text": "Az Doppelboden,freist.Holzwerkstoff ablf. f.HPL",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.31A",
+      "text": "Doppelboden,freist.CaSu 3kN (FD) 20-80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.31B",
+      "text": "Doppelboden,freist.CaSu 3kN (FD) ü.80-150mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.31C",
+      "text": "Doppelboden,freist.CaSu 3kN (FD) ü.150-250mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.31D",
+      "text": "Doppelboden,freist.CaSu 3kN (FD) ü.250-460mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.31E",
+      "text": "Doppelboden,freist.CaSu 3kN (FD) ü.460mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.33A",
+      "text": "Doppelboden,freist.CaSu 5kN (FD) 20-80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.33B",
+      "text": "Doppelboden,freist.CaSu 5kN (FD) ü.80-150mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.33C",
+      "text": "Doppelboden,freist.CaSu 5kN (FD) ü.150-250mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.33D",
+      "text": "Doppelboden,freist.CaSu 5kN (FD) ü.250-460mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.33E",
+      "text": "Doppelboden,freist.CaSu 5kN (FD) ü.460mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.35X",
+      "text": "Doppelboden,freist.CaSu b.460mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.35Y",
+      "text": "Doppelboden,freist.CaSu ü.460mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.37A",
+      "text": "Az Doppelboden,freist.CaSu f.Lüftungsplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.37E",
+      "text": "Az Doppelboden,freist.CaSu f.Erdableitwiderstand",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.37F",
+      "text": "Az Doppelboden,freist.CaSu f.Schaltwarterahmen",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.35.38A",
+      "text": "Az Doppelboden,freist.CaSu f.Kunststoffbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.38B",
+      "text": "Az Doppelboden,freist.CaSu f.Linoleumbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.38C",
+      "text": "Az Doppelboden,freist.CaSu f.Kautschukbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.38D",
+      "text": "Az Doppelboden,freist.CaSu f.HPL",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.39A",
+      "text": "Az Doppelboden,freist.CaSu ablf. f.Kunststoffbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.39B",
+      "text": "Az Doppelboden,freist.CaSu ablf. f.Linoleumbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.39C",
+      "text": "Az Doppelboden,freist.CaSu ablf. f.Kautschukbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.39D",
+      "text": "Az Doppelboden,freist.CaSu ablf. f.HPL",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.41A",
+      "text": "Doppelb./Schallwartekonstr.Holzwerkst.3kN 150-300mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.41B",
+      "text": "Doppelb./Schallwartekonstr.Holzwerkst.3kN ü.300-500mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.41C",
+      "text": "Doppelb./Schallwartekonstr.Holzwerkst.3kN ü.500mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.43A",
+      "text": "Doppelb./Schallwartekonstr.Holzwerkst.5kN 150-300mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.43B",
+      "text": "Doppelb./Schallwartekonstr.Holzwerkst.5kN ü.300-500mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.43C",
+      "text": "Doppelb./Schallwartekonstr.Holzwerkst.5kN ü.500mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.45A",
+      "text": "Doppelb./Schallwartekonstr.Holzwerkst.",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.47A",
+      "text": "Az Doppelb./Schaltwartekonstr.f.Lüftungsplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.47B",
+      "text": "Az Doppelb./Schaltwartekonstr.f.CaSu (nicht brennbar)",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.47C",
+      "text": "Az Doppelb./Schaltwartekonstr.f.Reservefeldabdeckung",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.47E",
+      "text": "Az Doppelb./Schaltwartekonstr.f.Erdableitwiderstand",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.48A",
+      "text": "Az Doppelb./Schaltwartekonstr.f.Kunststoffbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.48B",
+      "text": "Az Doppelb./Schaltwartekonstr.f.Linoleumbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.48C",
+      "text": "Az Doppelb./Schaltwartekonstr.f.Kautschukbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.48D",
+      "text": "Az Doppelb./Schaltwartekonstr.f.HPL",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.49A",
+      "text": "Az Doppelb./Schaltwartekonstr. ablf. f.Kunststoffbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.49B",
+      "text": "Az Doppelb./Schaltwartekonstr. ablf. f.Linoleumbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.49C",
+      "text": "Az Doppelb./Schaltwartekonstr. ablf. f.Kautschukbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.49D",
+      "text": "Az Doppelb./Schaltwartekonstr. ablf. f.HPL",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.61A",
+      "text": "Hohlraumboden 3kN (FD) 20-80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.61B",
+      "text": "Hohlraumboden 3kN (FD) ü.80-200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.61C",
+      "text": "Hohlraumboden 3kN (FD) ü.200-250mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.61D",
+      "text": "Hohlraumboden 3kN (FD) ü.250-460mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.61E",
+      "text": "Hohlraumboden 3kN (FD) ü.460mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.63A",
+      "text": "Hohlraumboden 5kN (FD) 20-80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.63B",
+      "text": "Hohlraumboden 5kN (FD) ü.80-200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.63C",
+      "text": "Hohlraumboden 5kN (FD) ü.200-250mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.63D",
+      "text": "Hohlraumboden 5kN (FD) ü.250-460mm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.63E",
+      "text": "Hohlraumboden 5kN (FD) ü.460mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.71A",
+      "text": "Az f. Revisionsöffnung f.Hohlraumboden",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.35.71B",
+      "text": "Az f. Belagstrennung Alu f.Hohlraumboden",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.35.71C",
+      "text": "Az Hohlraumboden f.zementgebundene Trägerplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.71D",
+      "text": "Az Hohlraumboden f.Maßnahmen f.starre Beläge",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.81A",
+      "text": "Ausschnitte Plattenmitte werksseitig b.300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.35.81B",
+      "text": "Ausschnitte/Stufenfräsung Plattenmitte werksseitig b.300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.35.81C",
+      "text": "Ausschnitte f.Leitungsdurchführungen b.50mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.35.82A",
+      "text": "Az f. Trittschalldämmplättchen f.Doppelboden",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.82B",
+      "text": "Az f. Trittschalldämmplättchen f.Hohlraumboden",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.83A",
+      "text": "Systemüberbrücker b.600mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.35.83B",
+      "text": "Systemüberbrücker ü.600-1200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.35.83C",
+      "text": "Systemüberbrücker ü.1200-1800mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.35.84A",
+      "text": "Treppenkonstruktion                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "39.35.84B",
+      "text": "Az Treppenkonstruktion f.Belag                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "39.35.84C",
+      "text": "Rampenkonstruktion",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.84D",
+      "text": "Az Rampenkonstruktion f.Belag",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.84E",
+      "text": "Frontverkleidung                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "39.35.85A",
+      "text": "Lastverteilung m.Platten",
+      "unit": "m²"
+    },
+    {
+      "code": "39.35.87A",
+      "text": "Schallschott Mineralwolle                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "39.35.87B",
+      "text": "Ausschnitte Schallabschottungen b.0,01m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.35.87C",
+      "text": "Ausschnitte Schallabschottungen ü.0,01-0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.35.88A",
+      "text": "Brandabschottung REi30                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "39.35.88B",
+      "text": "Brandabschottung REi90                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "39.35.88C",
+      "text": "Ausschnitte Brandabschottung b.0,01m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.35.88D",
+      "text": "Brandabschottung f.Ausschnitte ü.0,01-0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.35.90A",
+      "text": "Saugheber liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.35.91A",
+      "text": "Schutzabdeckungen aus feuchtigkeitsresistenten Karton",
+      "unit": "m²"
+    },
+    {
+      "code": "39.41.11A",
+      "text": "H-Systemtrennw.volle Paneele b.2,8m                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "39.41.11B",
+      "text": "H-Systemtrennw.volle Paneele ü.2,8m                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "39.41.13A",
+      "text": "Az H-Systemtrennw.f.Oberlichtglas Lack",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.13B",
+      "text": "Az H-Systemtrennw.f.Mittelverglasung Lack",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.13C",
+      "text": "Az H-Systemtrennw.f. Parapetglas Lack",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.13D",
+      "text": "Az H-Systemtrennw.f.Glaselement rh Lack",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.13E",
+      "text": "Az H-Systemtrennw.f.Zarge b.100x200cm Lack",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.13F",
+      "text": "Az H-Systemtrennw.f.Oberlichtglas F1",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.13G",
+      "text": "Az H-Systemtrennw.f.Mittelverglasung F1",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.13H",
+      "text": "Az H-Systemtrennw.f. Parapetglas F1",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.13I",
+      "text": "Az H-Systemtrennw.f.Glaselement rh F1",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.13J",
+      "text": "Az H-Systemtrennw.f.Zarge b.100x200cm F1",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.13K",
+      "text": "Az H-Systemtrennw.f.Oberlichtglas RAL",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.13L",
+      "text": "Az H-Systemtrennw.f.Mittelverglasung RAL",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.13M",
+      "text": "Az H-Systemtrennw.f. Parapetglas RAL",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.13N",
+      "text": "Az H-Systemtrennw.f.Glaselement rh RAL",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.13O",
+      "text": "Az H-Systemtrennw.Zarge 100x200cm RAL",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.13P",
+      "text": "Az H-Systemtrennw.Wandanschluss                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "39.41.13Q",
+      "text": "Az H-Systemtrennw.f.Wandecke 90°                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "39.41.21A",
+      "text": "GK-Systemtrennw.volle Paneele b.3m                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "39.41.21B",
+      "text": "GK-Systemtrennw.volle Paneele ü.3m                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "39.41.23A",
+      "text": "Az GK-Systemtrennw.f.Oberlichtglas F1",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.23B",
+      "text": "Az GK-Systemtrennw.f.Mittelverglasung F1",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.23C",
+      "text": "Az GK-Systemtrennw.f.Parapetglas F1",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.23D",
+      "text": "Az GK-Systemtrennw.f.Glaselement rh F1",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.23E",
+      "text": "Az GK-Systemtrennw.f.Zarge b.100x200cm F1",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.23F",
+      "text": "Az GK-Systemtrennw.f.Oberlichtglas RAL",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.23G",
+      "text": "Az GK-Systemtrennw.f.Mittelverglasung RAL",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.23H",
+      "text": "Az GK-Systemtrennw.f.Parapetglas RAL",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.23I",
+      "text": "Az GK-Systemtrennw.f.Glaselement rh RAL",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.23J",
+      "text": "Az GK-Systemtrennw.f.Zarge b.100x200cm RAL",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.23P",
+      "text": "Az GK-Systemtrennw.f.Wandanschluss                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "39.41.23Q",
+      "text": "Az GK-Systemtrennw.f.Wandecke 90°                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "39.41.31A",
+      "text": "I-türblatt 40mm stumpf 1fl.E0 furniert",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.31B",
+      "text": "I-türblatt 40mm stumpf 1fl.E0 Melamin",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.31D",
+      "text": "I-türblatt 40mm gefälzt 1fl.E0 furniert",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.31E",
+      "text": "I-türblatt 40mm gefälzt 1fl.E0 Melamin",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.33A",
+      "text": "B Drückergarnitur E0 PZ",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.33B",
+      "text": "Bad/WC Drückergarnitur E0",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.34A",
+      "text": "Az f.Kantenanleimer Hartholz",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.34B",
+      "text": "Az f.PU-Gießharzkante für E0-Türblätter",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.34E",
+      "text": "Az f.einstellbare Objektbänder",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.34F",
+      "text": "Az f.Bodenabsenkdichtung",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.41.34K",
+      "text": "Az f.Türblatt E0 Schalldämmwert Rw=36dB",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.00A",
+      "text": "Prüfberichte gemäß ÖNORM zur Angebotsabgabe",
+      "unit": ""
+    },
+    {
+      "code": "39.50.00B",
+      "text": "Prüfberichte gemäß ÖNORM",
+      "unit": ""
+    },
+    {
+      "code": "39.50.00T",
+      "text": "Verrohrung System Tichelmann",
+      "unit": ""
+    },
+    {
+      "code": "39.50.00V",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "39.50.01A",
+      "text": "VBM Klimadecken bei Holz-u.Ziegeldecken",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.01B",
+      "text": "VBM Klimadecken bei Ast-Molindecken",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.11A",
+      "text": "Klimadecke mit linearen Wärmeleitprofilen GKBglatt",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.11B",
+      "text": "Klimadecke mit linearen Wärmeleitprofilen GKBgelocht",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.13A",
+      "text": "Klimadecke mit flächigen Wärmeleitprofilen GKBglatt",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.13B",
+      "text": "Klimadecke mit flächigen Wärmeleitprofilen GKBgelocht",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.15A",
+      "text": "Klimadecke mit eingefrästem Rohrmäander GF-Pl.glatt",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.15B",
+      "text": "Klimadecke mit eingefrästem Rohrmäander GF-Pl.gelocht",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.17G",
+      "text": "Az Klimadecken GKB glatt f.Lambda 0,5W/m2K",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.17H",
+      "text": "Az Klimadecken GKB gelocht f.Lambda 0,5W/m2K",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.18A",
+      "text": "Az Klimadecken GKB/GF-Pl.f.Direktmontage",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.21A",
+      "text": "Klimadecke Metallkassetten quadratisch m.Einhängekonstr.",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.21B",
+      "text": "Klimadecke Metallkassetten quadratisch m.Klemmsystem",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.23A",
+      "text": "Klimadecke Metallkassetten Langfeld m.Einhängekonstr.",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.23B",
+      "text": "Klimadecke Metallkassetten Langfeld m.Bandrastersystem",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.27A",
+      "text": "Az Klimadecken Metallkassetten f.gelochte Oberfläche",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.27B",
+      "text": "Az Klimadecken Metallkassetten f.Längenänderung",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.27C",
+      "text": "Az Klimadecken Metallkassetten f.Breitenänderung",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.27D",
+      "text": "Az Klimadecken Metallkassetten f.abklappbare Ausführung",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.28A",
+      "text": "Az Klimadecken Metallkassett.m. Langfeldpl.f.andere Formate",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.31A",
+      "text": "Deckensegel einteilig als Langfeldmetallkassetten",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.33A",
+      "text": "Deckensegel mehrteilig als Langfeldmetallkassetten",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.37A",
+      "text": "Az Klimadecken Deckensegel f.gelochte Oberfläche",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.37B",
+      "text": "Az Klimadecken Deckensegel f.Längenänderung",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.37C",
+      "text": "Az Klimadecken Deckensegel f.Breitenänderung",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.38A",
+      "text": "Az Klimadecken Deckensegel m. Langfeldpl.f.andere Formate",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.41A",
+      "text": "Wandanschlusspr.als Alu Federleitsten f.Klimadecken                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.41B",
+      "text": "Stufenwandanschlusspr.als Alu Federleitsten f.Klimadecken                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.45A",
+      "text": "Decke Dämmung Mineralwolle 5cm f.Klimadecken",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.45B",
+      "text": "Decke Dämmung Mineralwolle 6cm f.Klimadecken",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.45C",
+      "text": "Decke Dämmung Mineralwolle 8cm f.Klimadecken",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.45D",
+      "text": "Decke Dämmung Mineralwolle 10cm f.Klimadecken",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.46A",
+      "text": "Zusätzliche Tragkonstruktion f.Klimadecken                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.47A",
+      "text": "Decke Rieselschutz f.Klimadecken",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.48A",
+      "text": "Decke Akustikfilz f.Klimadecken",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.51A",
+      "text": "Vorhangschiene Alu 1-läufig deckeneben f.Klimadecken                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.51B",
+      "text": "Vorhangschiene Alu 2-läufig deckeneben f.Klimadecken                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.51C",
+      "text": "Vorhangschiene Alu 1-läufig aufgesetzt f.Klimadecken                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.51D",
+      "text": "Vorhangschiene Alu 2-läufig aufgesetzt f.Klimadecken                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.61A",
+      "text": "Verteiler f.Klimadecken f.2 Netze",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.61B",
+      "text": "Verteiler f.Klimadecken f.3 Netze",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.61C",
+      "text": "Verteiler f.Klimadecken f.4 Netze",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.61D",
+      "text": "Verteiler f.Klimadecken f.5 Netze",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.61E",
+      "text": "Verteiler f.Klimadecken f.6 Netze",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.61F",
+      "text": "Verteiler f.Klimadecken f.7 Netze",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.61G",
+      "text": "Verteiler f.Klimadecken f.8 Netze",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.61H",
+      "text": "Verteiler f.Klimadecken f.9 Netze",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.61I",
+      "text": "Verteiler f.Klimadecken f.10 Netze",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.61X",
+      "text": "Verteiler f.Klimadecken f.Netze/Anzahl:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.73A",
+      "text": "Az Klimadecken f.GKB Deckenschürze b.20cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.73B",
+      "text": "Az Klimadecken f.GKB Deckenschürze ü.20-50cm                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.73C",
+      "text": "Az Klimadecken f.GKB Deckenschürze ü.50-100cm                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.75A",
+      "text": "Az Klimadecken f.GKB f.Anschlussfl.Deckenschürze b.20cm                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.75B",
+      "text": "Az Klimadecken f.GKB f.Anschlussfl.Deckenschürze ü.20-50cm                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.75C",
+      "text": "Az Klimadecken f.GKB f.Anschlussfl.Deckenschürze ü.50-100cm                                                m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.76G",
+      "text": "Az Klimadecken abgh.Decke f.schräge Untersicht",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.76H",
+      "text": "Az Klimadecken abgh.Decke f.schräge Untersicht+Boden",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.77A",
+      "text": "Az Klimadecken f.Abhängehöhe ü.50-100cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.77B",
+      "text": "Az Klimadecken f.Abhängehöhe ü.100-150cm",
+      "unit": "m²"
+    },
+    {
+      "code": "39.50.79A",
+      "text": "Az Klimadecken Deckenbekl.f.Fries GKB b.20cm                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.79B",
+      "text": "Az Klimadecken Deckenbekl.f.Fries GKB ü.20-50cm                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.79C",
+      "text": "Az Klimadecken Deckenbekl.f.Fries GKB ü.50-100cm                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.80A",
+      "text": "Az Klimadecken f.Wandanschluss Stufenwinkel                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.80B",
+      "text": "Az Klimadecken f.Wandanschluss Winkelprofil                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.80C",
+      "text": "Az Klimadecken f.Wandanschluss offene Fuge 20mm                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "39.50.81A",
+      "text": "Az Klimadecken f.Rev.Ö.GKB glatt abklappbar b.40/40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.81B",
+      "text": "Az Klimadecken f.Rev.Ö.GKB glatt abklappbar ü.40/40-60/60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.81C",
+      "text": "Az Klimadecken f.Rev.Ö.Paneel glatt abklappbar 40/40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.82A",
+      "text": "Az Klimadecken f.Rev.Ö.GKB gel.abklappbar b.40/40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.82B",
+      "text": "Az Klimadecken f.Rev.Ö.GKB gel.abklappbar ü.40/40-60/60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.82C",
+      "text": "Az Klimadecken f.Rev.Ö.Paneel gel.abklappbar 40/40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.83A",
+      "text": "Az Klimadecken abgh.Decken f.Einbauleuchten",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.83B",
+      "text": "Az Klimadecken f.Einhausung Einbauleuchten",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.83C",
+      "text": "Az Klimadecken f.Unterkonstruktion Aufbauleuchten",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.84D",
+      "text": "Az Klimadecken f.Deckenausschnitt b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.84E",
+      "text": "Az Klimadecken f.Deckenausschnitt ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.85A",
+      "text": "Rechteckiger Ausschitt m. Aufkant. f.Klimadecken b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.50.85B",
+      "text": "Rechteckiger Ausschitt m. Aufkant. f.Klimadecken ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "39.90.00A",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "39.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "39.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "39.90.01C",
+      "text": "Regiestunde Lehrling",
+      "unit": "h"
+    }
+  ]
+}

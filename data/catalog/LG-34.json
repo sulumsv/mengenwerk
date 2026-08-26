@@ -1,0 +1,456 @@
+{
+  "lg": "34",
+  "title": "Rohrrahmenelemente mit Drehtüren",
+  "positions": [
+    {
+      "code": "34.01.01A",
+      "text": "Rohrrahmenelement Alu innen",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.01.02A",
+      "text": "Rohrrahmenelement Alu innen+Seitenfelder",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.01.11A",
+      "text": "Rohrrahmenelement Alu innen+OL",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.01.12A",
+      "text": "Rohrrahmenelement Alu innen+OL+Seitenfelder",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.01.17A",
+      "text": "Az Rohrrahmenelement Alu innen f.Sonderfarben",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.01.17B",
+      "text": "Az Rohrrahmenelement Alu innen f.mittige Glaslagerung",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.01.17C",
+      "text": "Az Rohrrahmenelement Alu innen f.geschraubte Glasleisten",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.01.17D",
+      "text": "Az Rohrrahmenelement Alu innen f.Quersprosse",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.02.01A",
+      "text": "Rohrrahmenelement Alu innen__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.02.02A",
+      "text": "Rohrrahmenelement Alu innen+Seitenfelder__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.02.11A",
+      "text": "Rohrrahmenelement Alu innen+OL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.02.12A",
+      "text": "Rohrrahmenelement Alu innen+OL+Seitenfelder__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.02.17A",
+      "text": "Az Rohrrahmenelement Alu innen f.Sonderfarben__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.02.17B",
+      "text": "Az Rohrrahmenelement Alu innen f.mittige Glaslagerung (F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.02.17C",
+      "text": "Az Rohrrahmenelement Alu innen f.geschraubte Glasleisten (F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.02.17D",
+      "text": "Az Rohrrahmenelement Alu innen f.Quersprosse (F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.02.17E",
+      "text": "Az Rohrrahmenelement Alu innen f.Rauchschutz/Rauchabschl.(F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.03.01A",
+      "text": "Rohrrahmenelement Stahl innen",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.03.02A",
+      "text": "Rohrrahmenelement Stahl innen+Seitenfelder",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.03.11A",
+      "text": "Rohrrahmenelement Stahl innen+OL",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.03.12A",
+      "text": "Rohrrahmenelement Stahl innen+OL+Seitenfelder",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.03.17A",
+      "text": "Az Rohrrahmenelement Stahl innen f.Sonderfarben",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.03.17B",
+      "text": "Az Rohrrahmenelement Stahl innen f.mittige Glaslagerung",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.03.17C",
+      "text": "Az Rohrrahmenelement Stahl innen f.geschraubte Glasleisten",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.03.17D",
+      "text": "Az Rohrrahmenelement Stahl innen f.Quersprosse",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.03.18A",
+      "text": "Az Rohrrahmenelement Stahl innen f.Edelstahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.04.01A",
+      "text": "Rohrrahmenelement Stahl innen__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.04.02A",
+      "text": "Rohrrahmenelement Stahl innen+Seitenfelder__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.04.11A",
+      "text": "Rohrrahmenelement Stahl innen+OL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.04.12A",
+      "text": "Rohrrahmenelement Stahl innen+OL+Seitenfelder__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.04.17A",
+      "text": "Az Rohrrahmenelement Stahl innen f.Sonderfarben (F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.04.17B",
+      "text": "Az Rohrrahmenelement Stahl innen f.mittige Glaslagerung (F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.04.17C",
+      "text": "Az Rohrrahmenelement Stahl innen f.geschraubte Glasl.(F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.04.17D",
+      "text": "Az Rohrrahmenelement Stahl innen f.Quersprosse (F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.04.17E",
+      "text": "Az Rohrrahmenelement Stahl innen f.Rauchsch./Rauchabschl.(F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.04.18A",
+      "text": "Az Rohrrahmenelement Stahl innen f.Edelstahl (F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.11.01A",
+      "text": "Rohrrahmenelement Alu außen",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.11.02A",
+      "text": "Rohrrahmenelement Alu außen+Seitenfelder",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.11.11A",
+      "text": "Rohrrahmenelement Alu außen+OL",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.11.12A",
+      "text": "Rohrrahmenelement Alu außen+OL+Seitenfelder",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.11.17A",
+      "text": "Az Rohrrahmenelement Alu außen f.Sonderfarben",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.11.17B",
+      "text": "Az Rohrrahmenelement Alu außen f.mittige Glaslagerung",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.11.17C",
+      "text": "Az Rohrrahmenelement Alu außen f.geschraubte Glasleisten",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.11.17D",
+      "text": "Az Rohrrahmenelement Alu außen f.Quersprosse",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.12.01A",
+      "text": "Rohrrahmenelement Alu außen__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.12.02A",
+      "text": "Rohrrahmenelement Alu außen+Seitenfelder__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.12.11A",
+      "text": "Rohrrahmenelement Alu außen+OL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.12.12A",
+      "text": "Rohrrahmenelement Alu außen+OL+Seitenfelder__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.12.17A",
+      "text": "Az Rohrrahmenelement Alu außen f.Sonderfarben (F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.12.17B",
+      "text": "Az Rohrrahmenelement Alu außen f.mittige Glaslagerung (F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.12.17C",
+      "text": "Az Rohrrahmenelement Alu außen f.geschraubte Glasleisten (F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.12.17D",
+      "text": "Az Rohrrahmenelement Alu außen f.Quersprosse (F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.12.17E",
+      "text": "Az Rohrrahmenelement Alu außen f.Rauchschutz/Rauchabschl.(F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.13.01A",
+      "text": "Rohrrahmenelement Stahl außen",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.13.02A",
+      "text": "Rohrrahmenelement Stahl außen+Seitenfelder",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.13.11A",
+      "text": "Rohrrahmenelement Stahl außen+OL",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.13.12A",
+      "text": "Rohrrahmenelement Stahl außen+OL+Seitenfelder",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.13.17A",
+      "text": "Az Rohrrahmenelement Stahl außen f.Sonderfarben",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.13.17B",
+      "text": "Az Rohrrahmenelement Stahl außen f.mittige Glaslagerung",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.13.17C",
+      "text": "Az Rohrrahmenelement Stahl außen f.geschraubte Glasleisten",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.13.17D",
+      "text": "Az Rohrrahmenelement Stahl außen f.Quersprosse",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.13.18A",
+      "text": "Az Rohrrahmenelement Stahl außen f.Edelstahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.14.01A",
+      "text": "Rohrrahmenelement Stahl außen__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.14.02A",
+      "text": "Rohrrahmenelement Stahl außen+Seitenfelder__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.14.11A",
+      "text": "Rohrrahmenelement Stahl außen+OL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.14.12A",
+      "text": "Rohrrahmenelement Stahl außen+OL+Seitenfelder__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.14.17A",
+      "text": "Az Rohrrahmenelement Stahl außen f.Sonderfarben (F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.14.17B",
+      "text": "Az Rohrrahmenelement Stahl außen f.mittige Glaslagerung (F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.14.17C",
+      "text": "Az Rohrrahmenelement Stahl außen f.geschraubte Glasl.(F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.14.17D",
+      "text": "Az Rohrrahmenelement Stahl außen f.Quersprosse (F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.14.17E",
+      "text": "Az Rohrrahmenelement Stahl außen f.Rauchsch./Rauchabschl.(F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.14.18A",
+      "text": "Az Rohrrahmenelement Stahl außen f.Edelstahl (F)",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.71.02A",
+      "text": "Objektschloss f.Türen/RR.-Elemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.71.11A",
+      "text": "Notausgangsverschluss f.Türen/RR.-Elemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.71.12A",
+      "text": "Panikverschluss f.Türen/RR.-Elemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.71.21A",
+      "text": "Notausgangsverschluss selbstv.f.Türen/RR.-Elemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.71.22A",
+      "text": "Panikverschluss selbstv.f.Türen/RR.-Elemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.72.01A",
+      "text": "Gleitschienen-Türschließer f.Türen/RR.-Elemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.72.11A",
+      "text": "Integrierter Türschließer f.Türen/RR.-Elemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.72.21A",
+      "text": "Bodentürschließer f.Türen/RR.-Elemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.72.31A",
+      "text": "Drehtürantriebe f.Türen/RR.-Elemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.72.41A",
+      "text": "Vollautomatische Antriebe innen f.Türen/RR.-Elemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.72.42A",
+      "text": "Vollautomatische Antriebe außen f.Türen/RR.-Elemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.73.01A",
+      "text": "UP-Türterminal 1x24V LED f.Türen/RR.-Elemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.73.01B",
+      "text": "UP-Türterminal 1x230V LED f.Türen/RR.-Elemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.73.11A",
+      "text": "AP-Türterminal 1x24V LED f.Türen/RR.-Elemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.73.11B",
+      "text": "AP-Türterminal 1x230V LED f.Türen/RR.-Elemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "34.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "34.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "34.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

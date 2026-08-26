@@ -1,0 +1,2481 @@
+{
+  "lg": "50",
+  "title": "Bodenbeläge",
+  "positions": [
+    {
+      "code": "50.00.05C",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "50.11.20A",
+      "text": "Betonuntergrund schleifen",
+      "unit": "m²"
+    },
+    {
+      "code": "50.11.24A",
+      "text": "Estrich ausgleich.ü.2-5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "50.11.24B",
+      "text": "Estrich ausgleich.ü.5-10mm",
+      "unit": "m²"
+    },
+    {
+      "code": "50.11.24C",
+      "text": "Estrich ausgleich.d.Rakel ü.10-15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "50.11.24D",
+      "text": "Estrich ausgleich.d.Rakel ü.15-20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "50.11.25A",
+      "text": "Ausgleichen Trittstuf.Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "50.11.25C",
+      "text": "Ausgleichen Setzstuf.Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "50.11.27A",
+      "text": "Voranstrich Anhydr.Gipsestrich",
+      "unit": "m²"
+    },
+    {
+      "code": "50.11.27B",
+      "text": "Oberflächenverfestig.Estrich",
+      "unit": "m²"
+    },
+    {
+      "code": "50.11.27C",
+      "text": "Vorstrich Holzwerkstoff",
+      "unit": "m²"
+    },
+    {
+      "code": "50.11.27D",
+      "text": "Haftbrücke",
+      "unit": "m²"
+    },
+    {
+      "code": "50.11.27E",
+      "text": "Haftbrücke + Quarzsandstreuung",
+      "unit": "m²"
+    },
+    {
+      "code": "50.11.27F",
+      "text": "Voranstrich Zement-/Fließzementestrich",
+      "unit": "m²"
+    },
+    {
+      "code": "50.11.29B",
+      "text": "Spachteln Stuhlr/Heiz-eignung",
+      "unit": "m²"
+    },
+    {
+      "code": "50.11.31A",
+      "text": "Randstreifen abschneiden                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "50.13.01A",
+      "text": "Linoleum einf. 2mm Kl.23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.01B",
+      "text": "Linoleum einf. 2mm Kl.32",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.01C",
+      "text": "Linoleum einf. 2,5mm Kl.34 r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.01D",
+      "text": "Linoleum einf. 2,5mm Kl.42 r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.01E",
+      "text": "Linoleum einf. 3,2mm Kl.42 r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.01F",
+      "text": "Linoleum einf. 4mm Kl.43 r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.02A",
+      "text": "Linoleum durchm. 2mm Kl.23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.02B",
+      "text": "Linoleum durchm. 2mm Kl.32",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.02C",
+      "text": "Linoleum durchm. 2,5mm Kl.34 r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.02D",
+      "text": "Linoleum durchm. 2,5mm Kl.42 r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.02E",
+      "text": "Linoleum durchm. 3,2mm Kl.42 r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.02F",
+      "text": "Linoleum durchm. 4mm Kl.43 r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.04A",
+      "text": "Linoleum Stufe 2,5mm Kl.34r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.04B",
+      "text": "Linoleum Stufe 2,5mm Kl.42r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.04C",
+      "text": "Linoleum Stufe 3,2mm Kl.42r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.04D",
+      "text": "Linoleum Stufe 4mm Kl.43r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.08A",
+      "text": "Az Linoleum Fuge schließen",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.16A",
+      "text": "Az Linoleum Hohlkehlenleiste b. 15cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "50.13.16E",
+      "text": "Az Linoleum als Wandhochzug                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "50.13.16F",
+      "text": "Az Linoleum Innen- oder Außeneck",
+      "unit": "Stk"
+    },
+    {
+      "code": "50.13.30B",
+      "text": "Az Linoleum Markierstreifen                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "50.13.31A",
+      "text": "Az Linoleum Fläche b.5m2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.13.50C",
+      "text": "Winkelsockell.Belag Linoleum                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "50.13.51A",
+      "text": "Hohlkehl.Linoleum 100/50 2mm                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "50.13.51B",
+      "text": "Hohlkehl.Linoleum 100/50 2,5mm                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "50.13.51C",
+      "text": "Hohlkehl.Linoleum 100/50 3,2mm                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "50.13.51D",
+      "text": "Hohlkehl.Linoleum 100/50 4mm                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "50.14.01A",
+      "text": "Kautsch.2mm Granul.Bahn Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.01B",
+      "text": "Kautsch.2mm Granul.Fliese Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.01I",
+      "text": "Kautsch.2mm uni Bahn Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.01K",
+      "text": "Kautsch.2mm uni Fliese Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.02A",
+      "text": "Kautsch.3mm Granul.Bahn Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.02B",
+      "text": "Kautsch.3mm Granul.Fliese Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.02I",
+      "text": "Kautsch.3mm uni Bahn Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.02K",
+      "text": "Kautsch.3mm uni Fliese Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.03A",
+      "text": "Kautsch.2mm Granul.Bahn Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.03B",
+      "text": "Kautsch.2mm Granul.Fliese Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.03I",
+      "text": "Kautsch.2mm uni Bahn Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.03K",
+      "text": "Kautsch.2mm uni Fliese Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.04A",
+      "text": "Kautsch.3mm Granul.Bahn Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.04B",
+      "text": "Kautsch.3mm Granul.Fliese Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.04I",
+      "text": "Kautsch.3mm uni Bahn Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.04K",
+      "text": "Kautsch.3mm uni Fliese Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.05A",
+      "text": "Kautsch.2mm Granul.Bahn Kl. 42",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.05B",
+      "text": "Kautsch.2mm Granul.Fliese Kl. 42",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.05I",
+      "text": "Kautsch.2mm uni Bahn Kl. 42",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.05K",
+      "text": "Kautsch.2mm uni Fliese Kl. 42",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.06A",
+      "text": "Kautsch.3mm Granul.Bahn Kl. 43",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.06B",
+      "text": "Kautsch.3mm Granul.Fliese Kl. 43",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.06I",
+      "text": "Kautsch.3mm uni Bahn Kl. 43",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.06K",
+      "text": "Kautsch.3mm uni Fliese Kl. 43",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.07A",
+      "text": "Kautsch. ED 2mm Granul.Bahn Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.07B",
+      "text": "Kautsch. ED 2mm Granul.Fliese Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.07I",
+      "text": "Kautsch. ED 2mm uni Bahn Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.07K",
+      "text": "Kautsch. ED 2mm uni Fliese Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.08A",
+      "text": "Kautsch. ED 3mm Granul.Bahn Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.08B",
+      "text": "Kautsch. ED 3mm Granul.Fliese Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.08I",
+      "text": "Kautsch. ED 3mm uni Bahn Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.08K",
+      "text": "Kautsch. ED 3mm uni Fliese Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.09A",
+      "text": "Kautsch. ED 2mm Granul.Bahn Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.09B",
+      "text": "Kautsch. ED 2mm Granul.Fliese Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.09I",
+      "text": "Kautsch. ED 2mm uni Bahn Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.09K",
+      "text": "Kautsch. ED 2mm uni Fliese Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.10A",
+      "text": "Kautsch. ED 3mm Granul.Bahn Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.10B",
+      "text": "Kautsch. ED 3mm Granul.Fliese Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.10I",
+      "text": "Kautsch. ED 3mm uni Bahn Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.10K",
+      "text": "Kautsch. ED 3mm uni Fliese Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.11A",
+      "text": "Kautsch. ED 2mm Granul.Bahn Kl. 42",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.11B",
+      "text": "Kautsch. ED 2mm Granul.Fliese Kl. 42",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.11I",
+      "text": "Kautsch. ED 2mm uni Bahn Kl. 42",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.11K",
+      "text": "Kautsch. ED 2mm uni Fliese Kl. 42",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.12A",
+      "text": "Kautsch. ED 3mm Granul.Bahn Kl. 43",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.12B",
+      "text": "Kautsch. ED 3mm Granul.Fliese Kl. 43",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.12I",
+      "text": "Kautsch. ED 3mm uni Bahn Kl. 43",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.12K",
+      "text": "Kautsch. ED 3mm uni Fliese Kl. 43",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.20A",
+      "text": "Kautsch.al.2mm gl.Granul.Bahn Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.20B",
+      "text": "Kautsch.al.2mm gl.Granul.Fliese Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.20C",
+      "text": "Kautsch.al.2mm gepr.Kornd.Bahn Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.20D",
+      "text": "Kautsch.al.2mmgepr.Kornd.Fliese Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.21A",
+      "text": "Kautsch.al.2mm gl.Granul.Bahn Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.21B",
+      "text": "Kautsch.al.2mm gl.Granul.Fliese Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.21C",
+      "text": "Kautsch.al.2mm gepr.Kornd.Bahn Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.21D",
+      "text": "Kautsch.al.2mmgepr.Kornd.Fliese Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.22A",
+      "text": "Kautsch.al.2mm gl.Granul.Bahn Kl. 42",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.22B",
+      "text": "Kautsch.al.2mm gl.Granul.Fliese Kl. 42",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.22C",
+      "text": "Kautsch.al.2mm gepr.Kornd.Bahn Kl. 42",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.22D",
+      "text": "Kautsch.al.2mmgepr.Kornd.Fliese Kl. 42",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.23A",
+      "text": "Kautsch.schalld.4mm Kornd. Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.23B",
+      "text": "Kautsch.schalld.4mm Granul. Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.24A",
+      "text": "Kautsch.schalld.4mm Kornd. Kl. 33",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.24B",
+      "text": "Kautsch.schalld.4mm Granul. Kl. 33",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.25A",
+      "text": "Kautsch.hdp.3,5 Granuld. Fliese Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.25B",
+      "text": "Kautsch.hdp.3,5 Kornd. Fliese Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.25C",
+      "text": "Kautsch.hdp.3,5 uni. Fliese Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.26A",
+      "text": "Kautsch.hdp.3,5 Granuld. Fliese Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.26B",
+      "text": "Kautsch.hdp.3,5 Kornd. Fliese Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.26C",
+      "text": "Kautsch.hdp.3,5 uni. Fliese Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.27A",
+      "text": "Kautsch.hdp.3,5 Granuld. Fliese Kl. 43",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.27B",
+      "text": "Kautsch.hdp.3,5 Kornd. Fliese Kl. 43",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.27C",
+      "text": "Kautsch.hdp.3,5 uni. Fliese Kl. 43",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.37A",
+      "text": "Kautsch.hdp.al.3,5 glatt geschl. RS Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.37B",
+      "text": "Kautsch.hdp+Zäpf.al.3,5 Zäpfchenrücken Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.38A",
+      "text": "Kautsch.hdp.al.3,5 glatt geschl. RS Kl. 43",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.38B",
+      "text": "Kautsch.hdp+Zäpf.al.3,5 Zäpfchenrücken Kl. 43",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.40A",
+      "text": "Kautsch.Stufe 2mm Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.40F",
+      "text": "Kautsch.Stufe 2mm al Kl. 23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.41A",
+      "text": "Kautsch.Stufe 2mm Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.41F",
+      "text": "Kautsch.Stufe 2mm al Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.42A",
+      "text": "Kautsch.Stufe 2mm Kl. 42",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.42F",
+      "text": "Kautsch.Stufe 2mm al Kl. 42",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.50A",
+      "text": "Kautschnoppe 3,2 uniFg2 Flie. Kl. 32",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.50B",
+      "text": "Kautschnoppe 4mm uniFg2 Fl. Kl. 34",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.51A",
+      "text": "Kautschnoppe 3,2 uniFg2 Flie. Kl. 41",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.51B",
+      "text": "Kautschnoppe 4mm uniFg2 Fl. Kl. 42",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.55A",
+      "text": "Az Kautschpl.Randfries",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.55B",
+      "text": "Az Kautschpl.mehrfarbig",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.55G",
+      "text": "Az Kautsch-bel.Markier-streifen                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "50.14.57A",
+      "text": "Az Kautsch-.Fläche b.5m2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.60A",
+      "text": "Therm.Verfugen von Bahnen",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.60B",
+      "text": "Therm.Verfugen von Fliesen",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.61A",
+      "text": "Verfugen Bahn m.Fugenmasse",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.61B",
+      "text": "Verfugen Fliese m.Fugenmasse",
+      "unit": "m²"
+    },
+    {
+      "code": "50.14.62A",
+      "text": "Az Kautschuk Hohlkehlenleiste b. 15cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "50.14.62E",
+      "text": "Az Kautschuk als Wandhochzug                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "50.14.62F",
+      "text": "Az Kautschuk Innen- oder Außeneck                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "50.14.65A",
+      "text": "Kautsch.Sockelleiste 60mm                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "50.14.65B",
+      "text": "Kautsch.Sockelleiste 100mm                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "50.14.66A",
+      "text": "Kautsch.Hohlkehlsockelleiste                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "50.14.67A",
+      "text": "Kautsch.vorgefertigter Stellsockel h=__________                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "50.14.67B",
+      "text": "Kautsch. gemäß Bodenbelag Stellsockel h=__________                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "50.14.68A",
+      "text": "Verfug.Kautsch.Stellsock-Belag                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "50.14.70A",
+      "text": "Kautsch.Abschlussprofil                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "50.14.73A",
+      "text": "Verf.Kautsch.Trepp-Winkel-Bel.                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "50.14.75A",
+      "text": "Formtreppe Kautsch.Gran.",
+      "unit": "Stk"
+    },
+    {
+      "code": "50.14.75F",
+      "text": "Formtreppe Kautsch.uni",
+      "unit": "Stk"
+    },
+    {
+      "code": "50.14.77A",
+      "text": "Formtrep.Kautschnopp.Gran.                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "50.14.77B",
+      "text": "Formtrep.Kautschnoppe uni                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "50.14.80A",
+      "text": "Treppenwinkel Kautsch.Wands.",
+      "unit": "Stk"
+    },
+    {
+      "code": "50.14.80B",
+      "text": "Treppenwink.Kautsch.Geländers.",
+      "unit": "Stk"
+    },
+    {
+      "code": "50.14.82A",
+      "text": "Treppenkante Kautsch.50/45                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "50.15.01A",
+      "text": "Nadelvlies Bahn K21.meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01B",
+      "text": "Nadelvlies Bahn K21 bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01C",
+      "text": "Nadelvlies Bahn K21 struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01D",
+      "text": "Nadelvlies Bahn K22.meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01E",
+      "text": "Nadelvlies Bahn K22 bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01F",
+      "text": "Nadelvlies Bahn K22 struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01G",
+      "text": "Nadelvlies Bahn K23 meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01H",
+      "text": "Nadelvlies Bahn K23 bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01I",
+      "text": "Nadelvlies Bahn K23 struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01J",
+      "text": "Nadelvlies Bahn K31.meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01K",
+      "text": "Nadelvlies Bahn K31 bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01L",
+      "text": "Nadelvlies Bahn K31 struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01M",
+      "text": "Nadelvlies Bahn K32 meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01N",
+      "text": "Nadelvlies Bahn K32 bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01O",
+      "text": "Nadelvlies Bahn K32 struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01P",
+      "text": "Nadelvlies Bahn K33.meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01Q",
+      "text": "Nadelvlies Bahn K33 bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.01R",
+      "text": "Nadelvlies Bahn K33 struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.02A",
+      "text": "Nadelvlies Bahn K31.StR meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.02B",
+      "text": "Nadelvlies Bahn K31 StR bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.02C",
+      "text": "Nadelvlies Bahn K31 StR struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.02D",
+      "text": "Nadelvlies Bahn K32 StR meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.02E",
+      "text": "Nadelvlies Bahn K32 StR bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.02F",
+      "text": "Nadelvlies Bahn K32 StR struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.02G",
+      "text": "Nadelvlies Bahn K33 StR meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.02H",
+      "text": "Nadelvlies Bahn K33 StR bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.02I",
+      "text": "Nadelvlies Bahn K33 StR struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03A",
+      "text": "Nadelvlies Fliese K21.meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03B",
+      "text": "Nadelvlies Fliese K21 bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03C",
+      "text": "Nadelvlies Fliese K21 struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03D",
+      "text": "Nadelvlies Fliese K22.meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03E",
+      "text": "Nadelvlies Fliese K22 bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03F",
+      "text": "Nadelvlies Fliese K22 struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03G",
+      "text": "Nadelvlies Fliese K23 meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03H",
+      "text": "Nadelvlies Fliese K23 bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03I",
+      "text": "Nadelvlies Fliese K23 struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03J",
+      "text": "Nadelvlies Fliese K31.meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03K",
+      "text": "Nadelvlies Fliese K31 bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03L",
+      "text": "Nadelvlies Fliese K31 struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03M",
+      "text": "Nadelvlies Fliese K32 meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03N",
+      "text": "Nadelvlies Fliese K32 bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03O",
+      "text": "Nadelvlies Fliese K32 struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03P",
+      "text": "Nadelvlies Fliese K33.meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03Q",
+      "text": "Nadelvlies Fliese K33 bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.03R",
+      "text": "Nadelvlies Fliese K33 struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.04A",
+      "text": "Nadelvlies Fliese K31.StR meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.04B",
+      "text": "Nadelvlies Fliese K31 StR bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.04C",
+      "text": "Nadelvlies Fliese K31 StR struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.04D",
+      "text": "Nadelvlies Fliese K32 StR meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.04E",
+      "text": "Nadelvlies Fliese K32 StR bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.04F",
+      "text": "Nadelvlies Fliese K32 StR struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.04G",
+      "text": "Nadelvlies Fliese K33 StR meliert",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.04H",
+      "text": "Nadelvlies Fliese K33 StR bedruckt",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.04I",
+      "text": "Nadelvlies Fliese K33 StR struktur",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.12A",
+      "text": "Az Nadelvliesb.leitfähig",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.12B",
+      "text": "Az Nadelvliesb.leitf+Kupfernetz",
+      "unit": "m²"
+    },
+    {
+      "code": "50.15.50A",
+      "text": "Sockell.2-teil.Nadelfilz                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "50.15.55A",
+      "text": "Sockelstreifen Nadelfilz                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "50.16.01A",
+      "text": "Tuft.Schlinge Ba.Sy.K21/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01B",
+      "text": "Tuft.Schlinge Ba.Sy.K21/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01C",
+      "text": "Tuft.Schlinge Ba.Sy.K21/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01D",
+      "text": "Tuft.Schlinge Ba.Sy.K22/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01E",
+      "text": "Tuft.Schlinge Ba.Sy.K22/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01F",
+      "text": "Tuft.Schlinge Ba.Sy.K22/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01G",
+      "text": "Tuft.Schlinge Ba.Sy.K23/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01H",
+      "text": "Tuft.Schlinge Ba.Sy.K23/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01I",
+      "text": "Tuft.Schlinge Ba.Sy.K23/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01J",
+      "text": "Tuft.Schlinge Ba.Sy.K31/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01K",
+      "text": "Tuft.Schlinge Ba.Sy.K31/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01L",
+      "text": "Tuft.Schlinge Ba.Sy.K31/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01M",
+      "text": "Tuft.Schlinge Ba.Sy.K32/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01N",
+      "text": "Tuft.Schlinge Ba.Sy.K32/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01O",
+      "text": "Tuft.Schlinge Ba.Sy.K32/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01P",
+      "text": "Tuft.Schlinge Ba.Sy.K33/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01Q",
+      "text": "Tuft.Schlinge Ba.Sy.K33/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.01R",
+      "text": "Tuft.Schlinge Ba.Sy.K33/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.02A",
+      "text": "Tuft.Schlinge Ba.Sy. StR. K31/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.02B",
+      "text": "Tuft.Schlinge Ba.Sy. StR. K31/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.02C",
+      "text": "Tuft.Schlinge Ba.Sy. StR. K31/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.02D",
+      "text": "Tuft.Schlinge Ba.Sy. StR. K32/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.02E",
+      "text": "Tuft.Schlinge Ba.Sy. StR. K32/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.02F",
+      "text": "Tuft.Schlinge Ba.Sy. StR. K32/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.02G",
+      "text": "Tuft.Schlinge Ba.Sy. StR. K33/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.02H",
+      "text": "Tuft.Schlinge Ba.Sy. StR. K33/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.02I",
+      "text": "Tuft.Schlinge Ba.Sy. StR. K33/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.03A",
+      "text": "Tuft.Schlinge Fl.Sy.K31/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.03B",
+      "text": "Tuft.Schlinge Fl.Sy.K31/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.03C",
+      "text": "Tuft.Schlinge Fl.Sy.K31/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.03D",
+      "text": "Tuft.Schlinge Fl.Sy.K32/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.03E",
+      "text": "Tuft.Schlinge Fl.Sy.K32/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.03F",
+      "text": "Tuft.Schlinge Fl.Sy.K32/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.03G",
+      "text": "Tuft.Schlinge Fl.Sy.K33/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.03H",
+      "text": "Tuft.Schlinge Fl.Sy.K33/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.03I",
+      "text": "Tuft.Schlinge Fl.Sy.K33/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04A",
+      "text": "Tuft.Schlinge Ba.Wo.K21/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04B",
+      "text": "Tuft.Schlinge Ba.Wo.K21/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04C",
+      "text": "Tuft.Schlinge Ba.Wo.K21/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04D",
+      "text": "Tuft.Schlinge Ba.Wo.K22/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04E",
+      "text": "Tuft.Schlinge Ba.Wo.K22/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04F",
+      "text": "Tuft.Schlinge Ba.Wo.K22/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04G",
+      "text": "Tuft.Schlinge Ba.Wo.K23/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04H",
+      "text": "Tuft.Schlinge Ba.Wo.K23/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04I",
+      "text": "Tuft.Schlinge Ba.Wo.K23/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04J",
+      "text": "Tuft.Schlinge Ba.Wo.K31/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04K",
+      "text": "Tuft.Schlinge Ba.Wo.K31/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04L",
+      "text": "Tuft.Schlinge Ba.Wo.K31/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04M",
+      "text": "Tuft.Schlinge Ba.Wo.K32/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04N",
+      "text": "Tuft.Schlinge Ba.Wo.K32/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04O",
+      "text": "Tuft.Schlinge Ba.Wo.K32/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04P",
+      "text": "Tuft.Schlinge Ba.Wo.K33/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04Q",
+      "text": "Tuft.Schlinge Ba.Wo.K33/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.04R",
+      "text": "Tuft.Schlinge Ba.Wo.K33/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.05A",
+      "text": "Tuft.Schlinge Ba.Wo. StR. K31/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.05B",
+      "text": "Tuft.Schlinge Ba.Wo. StR. K31/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.05C",
+      "text": "Tuft.Schlinge Ba.Wo. StR. K31/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.05D",
+      "text": "Tuft.Schlinge Ba.Wo. StR. K32/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.05E",
+      "text": "Tuft.Schlinge Ba.Wo. StR. K32/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.05F",
+      "text": "Tuft.Schlinge Ba.Wo. StR. K32/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.05G",
+      "text": "Tuft.Schlinge Ba.Wo. StR. K33/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.05H",
+      "text": "Tuft.Schlinge Ba.Wo. StR. K33/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.05I",
+      "text": "Tuft.Schlinge Ba.Wo. StR. K33/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.06A",
+      "text": "Tuft.Schlinge Stufe Sy.K31/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.06B",
+      "text": "Tuft.Schlinge Stufe Sy.K31/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.06C",
+      "text": "Tuft.Schlinge Stufe Sy.K31/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.06D",
+      "text": "Tuft.Schlinge Stufe Sy.K32/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.06E",
+      "text": "Tuft.Schlinge Stufe Sy.K32/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.06F",
+      "text": "Tuft.Schlinge Stufe Sy.K32/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.06G",
+      "text": "Tuft.Schlinge Stufe Sy.K33/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.06H",
+      "text": "Tuft.Schlinge Stufe Sy.K33/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.06I",
+      "text": "Tuft.Schlinge Stufe Sy.K33/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.07A",
+      "text": "Tuft.Schlinge Stufe Wo.K31/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.07B",
+      "text": "Tuft.Schlinge Stufe Wo.K31/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.07C",
+      "text": "Tuft.Schlinge Stufe Wo.K31/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.07D",
+      "text": "Tuft.Schlinge Stufe Wo.K32/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.07E",
+      "text": "Tuft.Schlinge Stufe Wo.K32/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.07F",
+      "text": "Tuft.Schlinge Stufe Wo.K32/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.07G",
+      "text": "Tuft.Schlinge Stufe Wo.K33/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.07H",
+      "text": "Tuft.Schlinge Stufe Wo.K33/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.07I",
+      "text": "Tuft.Schlinge Stufe Wo.K33/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10A",
+      "text": "Tuft.Velourbel. Ba.Sy.K21/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10B",
+      "text": "Tuft.Velourbel. Ba.Sy.K21/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10C",
+      "text": "Tuft.Velourbel. Ba.Sy.K21/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10D",
+      "text": "Tuft.Velourbel. Ba.Sy.K22/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10E",
+      "text": "Tuft.Velourbel. Ba.Sy.K22/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10F",
+      "text": "Tuft.Velourbel. Ba.Sy.K22/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10G",
+      "text": "Tuft.Velourbel. Ba.Sy.K23/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10H",
+      "text": "Tuft.Velourbel. Ba.Sy.K23/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10I",
+      "text": "Tuft.Velourbel. Ba.Sy.K23/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10J",
+      "text": "Tuft.Velourbel. Ba.Sy.K31/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10K",
+      "text": "Tuft.Velourbel. Ba.Sy.K31/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10L",
+      "text": "Tuft.Velourbel. Ba.Sy.K31/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10M",
+      "text": "Tuft.Velourbel. Ba.Sy.K32/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10N",
+      "text": "Tuft.Velourbel. Ba.Sy.K32/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10O",
+      "text": "Tuft.Velourbel. Ba.Sy.K32/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10P",
+      "text": "Tuft.Velourbel. Ba.Sy.K33/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10Q",
+      "text": "Tuft.Velourbel. Ba.Sy.K33/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.10R",
+      "text": "Tuft.Velourbel. Ba.Sy.K33/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.11A",
+      "text": "Tuft.Velourbel. Ba.Sy. StR. K31/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.11B",
+      "text": "Tuft.Velourbel. Ba.Sy. StR. K31/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.11C",
+      "text": "Tuft.Velourbel. Ba.Sy. StR. K31/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.11D",
+      "text": "Tuft.Velourbel. Ba.Sy. StR. K32/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.11E",
+      "text": "Tuft.Velourbel. Ba.Sy. StR. K32/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.11F",
+      "text": "Tuft.Velourbel. Ba.Sy. StR. K32/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.11G",
+      "text": "Tuft.Velourbel. Ba.Sy. StR. K33/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.11H",
+      "text": "Tuft.Velourbel. Ba.Sy. StR. K33/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.11I",
+      "text": "Tuft.Velourbel. Ba.Sy. StR. K33/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.12A",
+      "text": "Tuft.Velourbel. Fl.Sy.K31/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.12B",
+      "text": "Tuft.Velourbel. Fl.Sy.K31/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.12C",
+      "text": "Tuft.Velourbel. Fl.Sy.K31/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.12D",
+      "text": "Tuft.Velourbel. Fl.Sy.K32/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.12E",
+      "text": "Tuft.Velourbel. Fl.Sy.K32/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.12F",
+      "text": "Tuft.Velourbel. Fl.Sy.K32/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.12G",
+      "text": "Tuft.Velourbel. Fl.Sy.K33/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.12H",
+      "text": "Tuft.Velourbel. Fl.Sy.K33/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.12I",
+      "text": "Tuft.Velourbel. Fl.Sy.K33/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15A",
+      "text": "Tuft.Velourbel. Ba.Wo. K21/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15B",
+      "text": "Tuft.Velourbel. Ba.Wo. K21/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15C",
+      "text": "Tuft.Velourbel. Ba.Wo. K21/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15D",
+      "text": "Tuft.Velourbel. Ba.Wo. K22/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15E",
+      "text": "Tuft.Velourbel. Ba.Wo. K22/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15F",
+      "text": "Tuft.Velourbel. Ba.Wo. K22/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15G",
+      "text": "Tuft.Velourbel. Ba.Wo. K23/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15H",
+      "text": "Tuft.Velourbel. Ba.Wo. K23/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15I",
+      "text": "Tuft.Velourbel. Ba.Wo. K23/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15J",
+      "text": "Tuft.Velourbel. Ba.Wo. K31/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15K",
+      "text": "Tuft.Velourbel. Ba.Wo. K31/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15L",
+      "text": "Tuft.Velourbel. Ba.Wo. K31/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15M",
+      "text": "Tuft.Velourbel. Ba.Wo. K32/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15N",
+      "text": "Tuft.Velourbel. Ba.Wo. K32/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15O",
+      "text": "Tuft.Velourbel. Ba.Wo. K32/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15P",
+      "text": "Tuft.Velourbel. Ba.Wo. K33/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15Q",
+      "text": "Tuft.Velourbel. Ba.Wo. K33/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.15R",
+      "text": "Tuft.Velourbel. Ba.Wo. K33/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.16A",
+      "text": "Tuft.Velourbel. Ba.Wo. StR. K31/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.16B",
+      "text": "Tuft.Velourbel. Ba.Wo. StR. K31/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.16C",
+      "text": "Tuft.Velourbel. Ba.Wo. StR. K31/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.16D",
+      "text": "Tuft.Velourbel. Ba.Wo. StR. K32/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.16E",
+      "text": "Tuft.Velourbel. Ba.Wo. StR. K32/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.16F",
+      "text": "Tuft.Velourbel. Ba.Wo. StR. K32/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.16G",
+      "text": "Tuft.Velourbel. Ba.Wo. StR. K33/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.16H",
+      "text": "Tuft.Velourbel. Ba.Wo. StR. K33/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.16I",
+      "text": "Tuft.Velourbel. Ba.Wo. StR. K33/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.21A",
+      "text": "Tuft.Velourbel. Stufe Sy. K31/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.21B",
+      "text": "Tuft.Velourbel. Stufe Sy. K31/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.21C",
+      "text": "Tuft.Velourbel. Stufe Sy. K31/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.21D",
+      "text": "Tuft.Velourbel. Stufe Sy. K32/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.21E",
+      "text": "Tuft.Velourbel. Stufe Sy. K32/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.21F",
+      "text": "Tuft.Velourbel. Stufe Sy. K32/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.21G",
+      "text": "Tuft.Velourbel. Stufe Sy. K32/LC4",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.21H",
+      "text": "Tuft.Velourbel. Stufe Sy. K33/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.21I",
+      "text": "Tuft.Velourbel. Stufe Sy. K33/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.21J",
+      "text": "Tuft.Velourbel. Stufe Sy. K33/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.21K",
+      "text": "Tuft.Velourbel. Stufe Sy. K33/LC4",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.22A",
+      "text": "Tuft.Velourbel. Stufe Wo. K31/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.22B",
+      "text": "Tuft.Velourbel. Stufe Wo. K31/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.22C",
+      "text": "Tuft.Velourbel. Stufe Wo. K31/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.22D",
+      "text": "Tuft.Velourbel. Stufe Wo. K32/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.22E",
+      "text": "Tuft.Velourbel. Stufe Wo. K32/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.22F",
+      "text": "Tuft.Velourbel. Stufe Wo. K32/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.22G",
+      "text": "Tuft.Velourbel. Stufe Wo. K32/LC4",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.22H",
+      "text": "Tuft.Velourbel. Stufe Wo. K33/LC1",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.22I",
+      "text": "Tuft.Velourbel. Stufe Wo. K33/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.22J",
+      "text": "Tuft.Velourbel. Stufe Wo. K33/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.22K",
+      "text": "Tuft.Velourbel. Stufe Wo. K33/LC4",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.26B",
+      "text": "Tuft.Schnitt-Velour Ba.Sy.K21/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.26C",
+      "text": "Tuft.Schnitt-Velour Ba.Sy.K21/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.26E",
+      "text": "Tuft.Schnitt-Velour Ba.Sy.K22/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.26F",
+      "text": "Tuft.Schnitt-Velour Ba.Sy.K22/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.26H",
+      "text": "Tuft.Schnitt-Velour Ba.Sy.K23/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.26I",
+      "text": "Tuft.Schnitt-Velour Ba.Sy.K23/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.26K",
+      "text": "Tuft.Schnitt-Velour Ba.Sy.K31/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.26L",
+      "text": "Tuft.Schnitt-Velour Ba.Sy.K31/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.26M",
+      "text": "Tuft.Schnitt-Velour Ba.Sy.K31/LC4",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.26N",
+      "text": "Tuft.Schnitt-Velour Ba.Sy.K32/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.26O",
+      "text": "Tuft.Schnitt-Velour Ba.Sy.K32/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.26P",
+      "text": "Tuft.Schnitt-Velour Ba.Sy.K32/LC4",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.26Q",
+      "text": "Tuft.Schnitt-Velour Ba.Sy.K33/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.26R",
+      "text": "Tuft.Schnitt-Velour Ba.Sy.K33/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.26S",
+      "text": "Tuft.Schnitt-Velour Ba.Sy.K33/LC4",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.29K",
+      "text": "Tuft.Schnitt-Velour Stufe Sy.K31/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.29L",
+      "text": "Tuft.Schnitt-Velour Stufe Sy.K31/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.29M",
+      "text": "Tuft.Schnitt-Velour Stufe Sy.K31/LC4",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.29N",
+      "text": "Tuft.Schnitt-Velour Stufe Sy.K32/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.29O",
+      "text": "Tuft.Schnitt-Velour Stufe Sy.K32/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.29P",
+      "text": "Tuft.Schnitt-Velour Stufe Sy.K32/LC4",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.29Q",
+      "text": "Tuft.Schnitt-Velour Stufe Sy.K33/LC2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.29R",
+      "text": "Tuft.Schnitt-Velour Stufe Sy.K33/LC3",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.29S",
+      "text": "Tuft.Schnitt-Velour Stufe Sy.K33/LC4",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.35A",
+      "text": "Az getufteter Bel.leitfähig",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.35B",
+      "text": "Az getuft.Bel.leitf+Kupfernetz",
+      "unit": "m²"
+    },
+    {
+      "code": "50.16.50B",
+      "text": "Sockell.2-teil.Schlinge tuft.                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "50.16.50D",
+      "text": "Sockell.2-teil.Velour tuft.                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "50.16.55B",
+      "text": "Sockelstreifen Schlinge tuft.                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "50.16.55D",
+      "text": "Sockelstreifen Velour tuft.                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.01A",
+      "text": "Bodenbel. PVC-homog.Bahn 1,5mm Kl.22",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.01B",
+      "text": "Bodenbel. PVC-homog.Bahn 1,5mm Kl.23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.01C",
+      "text": "Bodenbel. PVC-homog.Bahn 1,5mm Kl.31",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.01D",
+      "text": "Bodenbel. PVC-homog.Bahn 2mm Kl.32 r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.01E",
+      "text": "Bodenbel. PVC-homog.Bahn 2mm Kl.33 r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.01G",
+      "text": "Bodenbel. PVC-homog.Bahn 2mm Kl.41 r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.01H",
+      "text": "Bodenbel. PVC-homog.Bahn 2mm Kl.42 r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.02A",
+      "text": "Bodenbel. PVC-homog.Platte 1,5mm Kl.22",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.02B",
+      "text": "Bodenbel. PVC-homog.Platte 1,5mm Kl.23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.02C",
+      "text": "Bodenbel. PVC-homog.Platte 1,5mm Kl.31",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.02D",
+      "text": "Bodenbel. PVC-homog.Platte 2mm Kl.32 r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.02E",
+      "text": "Bodenbel. PVC-homog.Platte 2mm Kl.33 r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.02G",
+      "text": "Bodenbel. PVC-homog.Platte 2mm Kl.41 r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.02H",
+      "text": "Bodenbel. PVC-homog.Platte 2mm Kl.42 r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.06A",
+      "text": "Bodenbel. PVC-leitf.homog.Ba.2mm Kl.34 r",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.06B",
+      "text": "Bodenbel. PVC-leitf.homog.Ba.2,5mm Kl.34 r",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.06D",
+      "text": "Bodenbel. PVC-leitf.homog.Pl.2mm Kl.34 r",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.07A",
+      "text": "Az PVC leitfäh.Kupfernetz",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.09A",
+      "text": "PVC-homog+Schaumr.1,5+2 Kl.23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.09B",
+      "text": "PVC-homog+Schaumr.1,5+2 Kl.32",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.09C",
+      "text": "PVC-homog+Schaumrück.2+2 Kl.23",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.09D",
+      "text": "PVC-homog+Schaumrück.2+2 Kl.32",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.09X",
+      "text": "PVC-homog+Schaumrück.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.10A",
+      "text": "PVC-homog.Stufe 2mm Kl.33r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.10C",
+      "text": "PVC-homog.Stufe 2mm Kl.41r.",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.15A",
+      "text": "Az PVC Fuge schweißen 30x30",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.15B",
+      "text": "Az PVC Fuge schweißen 60x60",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.15C",
+      "text": "Az PVC Fuge schweißen Bahn",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.16A",
+      "text": "Az PVC-Belag Hohlkehlenleiste b. 15cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.16E",
+      "text": "Az PVC-Belag als Wandhochzug                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.16F",
+      "text": "Az PVC-Bel.Innen- oder Außeneck",
+      "unit": "Stk"
+    },
+    {
+      "code": "50.20.17B",
+      "text": "Az PVC-Plattenbel.mehrfarbig",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.18B",
+      "text": "Az PVC-Belag Markier-streifen                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.31A",
+      "text": "Az PVC-Bel. Fläche b.5m2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.20.47A",
+      "text": "PVC Stellsockel h=__________                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.51A",
+      "text": "Sockelleiste PVC-weich 50mm                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.51B",
+      "text": "Sockelleiste PVC-weich 70mm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.51C",
+      "text": "Sockelleiste PVC-weich 100mm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.53A",
+      "text": "Winkelsockell.PVC-weich 70mm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.53B",
+      "text": "Winkelsockell.PVC-weich 80mm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.53C",
+      "text": "Winkelsockell.PVC-weich 100mm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.54A",
+      "text": "Winkelsockell.Belag PVC homog.                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.54B",
+      "text": "Winkelsockell.Belag PVC heter.                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.60A",
+      "text": "Hohlkehle PVC-hart 100/50mm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.61A",
+      "text": "Sockell.PVC-hart Hohlkam.60mm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.61B",
+      "text": "Sockell.PVC-hart Hohlkam.70mm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.63A",
+      "text": "Sockell.PVC Kern Holzwerkstoff                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.70B",
+      "text": "Bel.Tritt+Setzstufe PVC-weich                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.70D",
+      "text": "Bel.Trittstufe PVC-weich                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.72A",
+      "text": "Stufenkantenprofil PVC-weich                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.72B",
+      "text": "Stufenkantenprofil PVC-hart                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.72D",
+      "text": "Stufenkantenprofil Alu                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.72E",
+      "text": "Stufenkantenprofil Messing                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "50.20.74A",
+      "text": "Stufenprofile Wand",
+      "unit": "Stk"
+    },
+    {
+      "code": "50.20.76A",
+      "text": "Stufenprofil Spindel",
+      "unit": "Stk"
+    },
+    {
+      "code": "50.20.99X",
+      "text": "Az auf erhöhtem Gleitreibungskoeffizient - PVC",
+      "unit": "m²"
+    },
+    {
+      "code": "50.23.01A",
+      "text": "Schiene Alu                                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "50.23.01X",
+      "text": "Schiene__________                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "50.23.09A",
+      "text": "Az Bodenb.Deckel b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "50.23.09B",
+      "text": "Az Bodenb.Deckel ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "50.23.09C",
+      "text": "Az Bodenb.Deckel ü.0,5m2",
+      "unit": "m²"
+    },
+    {
+      "code": "50.23.17B",
+      "text": "Abdecken Boden Pappe",
+      "unit": "m²"
+    },
+    {
+      "code": "50.23.17C",
+      "text": "Abdeck.Boden PE+Pappe",
+      "unit": "m²"
+    },
+    {
+      "code": "50.23.17D",
+      "text": "Abdeck.Boden Vlies + Pappe",
+      "unit": "m²"
+    },
+    {
+      "code": "50.23.17E",
+      "text": "Abdeck.Boden PP Hohlplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "50.23.18A",
+      "text": "Entfernen Abdeckung",
+      "unit": "m²"
+    },
+    {
+      "code": "50.81.01A",
+      "text": "Bodenplatten ersetzen",
+      "unit": "Stk"
+    },
+    {
+      "code": "50.81.01B",
+      "text": "Bodenplatten nachkleben",
+      "unit": "Stk"
+    },
+    {
+      "code": "50.81.03A",
+      "text": "Schweißnähte instandsetzen                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "50.81.05A",
+      "text": "Fugen instands.Linoleum                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "50.81.20B",
+      "text": "Betonuntergrund abstrahlen",
+      "unit": "m²"
+    },
+    {
+      "code": "50.81.20C",
+      "text": "Betonuntergrund fräsen",
+      "unit": "m²"
+    },
+    {
+      "code": "50.81.22A",
+      "text": "Estrichrisse verdübeln                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "50.81.22B",
+      "text": "Estrichrisse verbinden                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "50.81.22C",
+      "text": "Estrichrisse mit Netzen verbinden                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "50.81.23A",
+      "text": "Flächensanierung Estrich- b. 10mm",
+      "unit": "m²"
+    },
+    {
+      "code": "50.81.23B",
+      "text": "Flächensanierung Estrich - ü. 10mm - 20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "50.81.23C",
+      "text": "Flächensanierung Estrich - ü. 20mm - 30mm",
+      "unit": "m²"
+    },
+    {
+      "code": "50.81.26A",
+      "text": "Ausgl. und Aufs. v. Spanpl. Trittstuf.Beton d=12mm",
+      "unit": "m²"
+    },
+    {
+      "code": "50.81.26B",
+      "text": "Ausgl. und Aufs. v. Spanpl. Trittstuf.Beton d=16mm",
+      "unit": "m²"
+    },
+    {
+      "code": "50.81.26C",
+      "text": "Ausgl. und Aufs. v. Spanpl. Trittstuf.Beton d=19mm",
+      "unit": "m²"
+    },
+    {
+      "code": "50.81.26D",
+      "text": "Ausgl. und Aufs. v. Spanpl. Trittstuf.Beton d=__________",
+      "unit": "m²"
+    },
+    {
+      "code": "50.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "50.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "50.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

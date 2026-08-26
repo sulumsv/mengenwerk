@@ -1,0 +1,2037 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                         Leistungsgruppe (LG) 13 - Außenanlagen
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 1300    Wählbare Vorbemerkungen
+                     ULG 1301    Flächenabtrag und Schüttungen
+                     ULG 1311    Unterbauplanum
+                     ULG 1312    Ungebundene untere Tragschichten
+                     ULG 1313    Ungebundene obere Tragschichten
+                     ULG 1315    Hydraulisch gebundene Tragschichten
+                     ULG 1317    Bituminöse Tragschichten
+                     ULG 1321    Wassergebundene Decken
+                     ULG 1331    Unterlagsbeton
+                     ULG 1341    Vorarbeiten für bituminöse Arbeiten
+                     ULG 1350    Asphaltbetondeckschichten
+                     ULG 1351    Gussasphaltdeckschichten
+                     ULG 1361    Randbegrenzungen
+                     ULG 1362    Kleinsteinpflaster
+                     ULG 1363    Großsteinpflaster
+                     ULG 1364    Pflasterplatten
+                     ULG 1365    Betonsteinpflaster
+                     ULG 1366    Pflasterklinker
+                     ULG 1369    Pflasterstufen
+                     ULG 1371    Böschungen, Stein- und Einfriedungsmauern
+                     ULG 1391    Transportieren,Verwerten,Deponieren von Flächenabtrag
+
+
+
+
+                                                                                                           Seite 1 / 31
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+
+13          Außenanlagen
+            Version 023 (2025-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Begriffe:
+            Im Folgenden ist unter Gesteinskörnungen natürliches, recyceltes oder industriell hergestelltes Material zu
+            verstehen.
+            2. Neigungen:
+            Leistungen sind ohne Unterschied der Neigung, ausgenommen bei Oberboden, Flächenabtrag, Schüttungen,
+            Gussasphalt und Asphaltdeckschichten auf Betonunterlage, beschrieben.
+            3. Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+             Kommentar:
+             Oberboden ist die oberste Bodenschicht mit organischen Bestandteilen (> 2 M.-% Glühverlust cgl gemäß ÖNORM B 4424)
+             des angereicherten, oberen Mineralbodenbereichs. Im Landschaftsbau wird der Begriff Mutterboden dem Begriff Oberboden
+             gleichgesetzt.
+             In eigenen Positionen beschrieben sind (z.B.):
+             - der Abbruch und das Entsorgen von bituminösen Schichten
+             - das Reinigen und Vorspritzen der Unterlage
+             - Unterlagen und Rückenstützen für Pflaster- und Plattenbeläge
+             - Aushub, Drainage, Fundament, Begrünungsmaßnahmen, Absturzsicherungen und Zaunfelder bei
+             Betonsteinsichtmauerwerk
+             Frei zu formulieren sind (z.B.):
+             - Betondecken
+             - wassergebundene Decken
+             - das Verlegen nach Verlegeplan
+             - das Anschütten eines Dammkörpers mit vom Auftraggeber beigestelltem Material und etwaiges Verdichten
+             Literaturhinweis (z.B.):
+             - ÖNORM B 2207: Fliesen-, Platten- und Mosaiklegearbeiten - Werkvertragsnorm
+             - ÖNORM B 2214: Pflasterarbeiten - Werkvertragsnorm
+             - ÖNORM B 3108: Natürliche Gesteine - Pflastersteine und Pflasterplatten, Randeinfassungen - Abmessungen und
+             Anforderungen an die Gesteinseigenschaften
+             - ÖNORM B 3256: Bordsteine aus Beton - Anforderungen, Prüfverfahren und Konformitätsnachweis - Nationale
+             Festlegungen zur ÖNORM EN 1340
+             - ÖNORM B 3258: Pflastersteine und Platten aus Beton - Anforderungen, Prüfverfahren und Konformitätsnachweis -
+             Nationale Festlegungen zu ÖNORM EN 1338 und ÖNORM EN 1339
+             - ÖNORM B 3580-1: Asphaltmischgut - Mischgutanforderungen - Teil 1: Asphaltbeton - Empirischer Ansatz - Regeln zur
+             Umsetzung der ÖNORM EN 13108-1
+             - ÖNORM B 3580-2: Asphaltmischgut - Mischgutanforderungen - Teil 2: Asphaltbeton - Gebrauchsverhaltensorientierte
+             Anforderungen - Regeln für die Umsetzung der ÖNORM EN 13108-1
+             - ÖNORM B 4710-1: Beton - Teil 1: Festlegung, Herstellung, Verwendung und Konformitätsnachweis (Regeln zur Umsetzung
+             der ÖNORM EN 206-1 für Normal- und Schwerbeton)
+             - ÖNORM EN 13108-1: Asphaltmischgut - Mischgutanforderungen - Teil 1: Asphaltbeton (konsolidierte Fassung)
+             - ÖNORM EN 1338: Pflastersteine aus Beton - Anforderungen und Prüfverfahren
+             - ÖNORM EN 1339: Platten aus Beton - Anforderungen und Prüfverfahren
+             - ÖNORM EN 1340: Bordsteine aus Beton - Anforderungen und Prüfverfahren
+             - ÖNORM EN 1341: Platten aus Naturstein für Außenbereiche - Anforderungen und Prüfverfahren
+             - ÖNORM EN 1342: Pflastersteine aus Naturstein für Außenbereiche - Anforderungen und Prüfverfahren
+             - ÖNORM EN 1343: Bordsteine aus Naturstein für Außenbereiche - Anforderungen und Prüfverfahren
+             - ÖNORM EN 1344: Pflasterziegel - Anforderungen und Prüfverfahren
+             - RVS 08.97.05: Anforderungen an Asphaltmischgut
+             - RVS 08.18 01: Pflasterstein- und Pflasterplattendecken, Randeinfassungen
+             - RVS 08.16 01: Anforderungen an Asphaltschichten
+             - Richtlinien des FQP (Forum Qualitätspflaster)
+
+            LB-Version: 23                      Geändert
+Änderung:   Änderung der Lastklasse beim Geotextil
+            Geänderte Positionen:
+            13.01 21A Geotextil UG1/LK>=0,4/K.b.63mm
+            13.01 21B Geotextil UG1/LK<=0,1/K.b.63mm
+            13.01 21C Geotextil UG2/LK>=0,4/K.b.63mm
+            13.01 21D Geotextil UG2/LK<=0,1/K.b.63mm
+            13.01 21E Geotextil UG3/LK>=0,4/K.b.63mm
+            13.01 21F Geotextil UG3/LK<=0,1/K.b.63mm
+            13.01 21G Geotextil UG1/LK>=0,4/K.ü.63mm
+            13.01 21H Geotextil UG1/LK<=0,1/K.ü.63mm
+            13.01 21I Geotextil UG2/LK>=0,4/K.ü.63mm
+                                                                                                                          Seite 2 / 31
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            13.01 21J Geotextil UG2/LK<=0,1/K.ü.63mm
+            13.01 21K Geotextil UG3/LK>=0,4/K.ü.63mm
+            13.01 21L Geotextil UG3/LK<=0,1/K.ü.63mm
+
+13.00       Wählbare Vorbemerkungen
+13.00 21    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+13.00 21A   Mutterboden (AKL-M) Eigentum AG
+            Auf der Baustelle nicht benötigter abgehobener Mutterboden (AKL-M) bleibt im Eigentum des Auftraggebers.
+            Etwaige Zwischenlagerung oder Abtransport auf Anordnung des Auftraggebers werden gesondert vergütet
+            (eigene Positionen).
+
+13.00 21B   Oberboden (AKL-O) Eigentum AG
+            Auf der Baustelle nicht benötigter abgehobener Oberboden (AKL-O) bleibt im Eigentum des Auftraggebers.
+            Etwaige Zwischenlagerung oder Abtransport auf Anordnung des Auftraggebers werden gesondert vergütet
+            (eigene Positionen).
+
+13.01       Flächenabtrag und Schüttungen
+
+
+            1. Bodenklassen, Neigung:
+            Leistungen sind bis 20 Prozent Geländeneigung beschrieben. Angaben über die Neigung erfolgen im Verhältnis
+            der Höhe zur projizierten Länge im Grundriss.
+            Vertragsbasis sind die durch den Auftraggeber beigestellten Unterlagen (z.B. Aufschlüsse, Bohrprofile oder
+            Bodengutachten, beschriebene Baugrundschichten (Bodenverhältnisse) und die im Plan festgehaltenen
+            Geländeformen). Die Dokumentation wird gemäß ÖNORM durchgeführt.
+            Eine Dokumentation wird gemäß ÖNORM durchgeführt.
+            2. Verwerten oder Deponieren:
+            Baurestmassen werden grundsätzlich verwertet. Wenn dies aus wirtschaftlichen oder technischen Gründen
+            nicht möglich ist, werden Baurestmassen ordnungsgemäß deponiert.
+            2.1 Unzulässige Belastungen durch Manipulationen im Baubetrieb:
+            Der Baubetrieb ist derart gestaltet, dass die Schadstoffgesamtgehalte und Eluate des Aushub- und
+            Abbruchmaterials nicht unzulässigerweise nachteilig verändert werden.
+            Der Auftragnehmer trägt Sorge, dass das Aushubmaterial durch den Baubetrieb mit nicht mehr als insgesamt 5
+            Prozent des Volumens mineralischer Baurestmassen verunreinigt wird.
+            Allfällige Kosten aus derartigen Veränderungen (z. B. Altlastenbeiträge nach dem Altlastensanierungsgesetz)
+            übernimmt der Auftragnehmer.
+            2.2 Nachweise:
+            Eine Bestätigung, dass der Auftragnehmer (AN) die Baurestmassen an berechtigte Abfallsammler übergeben
+            hat, wird dem Auftraggeber (AG) nach Aufforderung übergeben.
+            2.3 Trennung:
+            Die Trennung von Aushubmaterial und Baurestmassen erfolgt gemäß Recycling-Baustoffverordnung.
+            2.4 Eigentumsübergang:
+            Das Aushubmaterial geht mit dem ersten Laden in das Eigentum des Auftragnehmers über, sofern eine
+            Wiederverwendung durch den AG nicht Vertragsbestandteil ist und unbeschadet einer Vergütung mit den
+            Positionen der ULG 13.91 für den Transport, das Verwerten, Deponieren oder Entsorgen.
+            3. Zwischenlagern:
+            Unter Zwischenlagern ist das Lagern innerhalb des Baustellenbereiches zu verstehen. Es enthält somit auch
+            den Transport zum Zwischenlager und das sachgemäße Lagern.
+            Zwischenlager sind vorzuhalten und vor der Übernahme zu räumen.
+            Der Platz für die Zwischenlagerung wird, wenn nicht bereits in der Ausschreibung bestimmt, im Einvernehmen
+            mit dem Auftraggeber festgelegt.
+            4. Transport:
+            Das Transportieren erfolgt unter Berücksichtigung von etwaigen erforderlichen Genehmigungen und
+            Vorschriften.
+            5. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+                                                                                                                    Seite 3 / 31
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            einkalkuliert:
+                 • das Beseitigen von Einzelhindernissen mit einen Einzelausmaß bis 0,1 m3
+                 • das Laden des Aushub- oder Abtragmaterials
+                 • ein etwaiges Zwischenlagern
+                 • behördliche Vorschreibungen betreffend Schallschutz, Staubschutz (werden vom Auftragnehmer vor der
+                   Angebotslegung erkundet)
+                 • die Wiederinstandsetzung der vom Auftraggeber für die Zwischenlagerung von Abbruch- oder
+                   Aushubmaterial beigestellten Flächen nach Beendigung der Bauarbeiten
+                 • Gebühren und Abgaben (z.B. Altlastenbeitrag)
+                 • Organisation (Förderart und Förderweg)
+                 • das Trennen und Ausscheiden von Massen, die nicht oder beschränkt zur weiteren Verwertung
+                   verwendbar sind
+            6. Ausmaß- und Abrechnungsregeln:
+            6.1 Preise:
+            Preise gelten ohne Unterschied der Art der Ausführung (z.B. händisch oder maschinell).
+             Kommentar:
+             Literaturhinweis (z.B.):
+             - RVS 08.97 03 (Geotextilien im Unterbau)
+             - RVS 03.08 63 (Oberbaubemessung)
+
+            LB-Version: 23                Geändert
+Änderung:   Änderung der Geotextile - Anpassung an die neuen Lastklassendefinitionen
+
+13.01 01    Gras mähen und Schnittgut entsorgen.
+
+13.01 01A   Gras mähen                                                                                                  m²
+13.01 05    Mutterboden (AKL-M).
+
+13.01 05A   Mutterboden (AKL-M) ohne Grasnarbe                                                                          m³
+            Ohne Grasnarbe, abtragen oder abschieben und im Baustellenbereich zwischenlagern.
+            Abgerechnet wird das abgetragene Raummaß (m3).
+            Schichtdicke:____________cm
+
+13.01 05B   Mutterboden (AKL-M) ohne Grasnarbe b.30cm                                                                   m²
+            Ohne Grasnarbe bis zu 30 cm Schichtdicke abtragen oder abschieben und im Baustellenbereich
+            zwischenlagern.
+            Abgerechnet wird die abgetragene Fläche.
+
+13.01 05C   Mutterboden (AKL-M) mit Grasnarbe b.30cm                                                                    m²
+            Mit Grasnarbe bis zu 30 cm Schichtdicke abtragen oder abschieben und im Baustellenbereich zwischenlagern.
+            Abgerechnet wird die abgetragene Fläche.
+13.01 06    Oberboden (AKL-O).
+
+13.01 06A   Oberboden (AKL-O)                                                                                           m³
+            Abtragen oder abschieben und im Baustellenbereich zwischenlagern.
+            Abgerechnet wird das abgetragene Raummaß (m3).
+            Schichtdicke: ____________cm
+
+13.01 06B   Oberboden (AKL-O) b.30cm                                                                                    m²
+            Bis zu 30 cm Schichtdicke abtragen oder abschieben und im Baustellenbereich zwischenlagern.
+            Abgerechnet wird die abgetragene Fläche (m2).
+
+13.01 07    Als Baugrund ungeeigneten Boden abtragen.
+
+13.01 07A   Schöpfboden (AKL-S) abtragen                                                                                m³
+            Wasserhaltender oder fließender Boden (Schöpfboden AKL-S).
+
+
+
+
+                                                                                                                   Seite 4 / 31
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+13.01 11    Flächenabtrag (Kofferabtrag) für Außenanlagen.
+            Abgerechnet wird das projektgemäße Abtragsprofil.
+            Im Positionsstichwort ist die Bodenklasse angegeben.
+
+13.01 11B   Flächenabtrag Lockerboden (AKL)                                                                             m³
+            Von Lockerboden (AKL).
+
+13.01 11C   Flächenabtrag brüchige Fels (AKBF) ohne Sprengmöglichkeit                                                   m³
+            Von brüchigem Fels (AKBF), ohne Sprengmöglichkeit.
+
+13.01 11D   Flächenabtrag feste Fels (AKF) ohne Sprengmöglichkeit                                                       m³
+            Vom festem Fels (AKF), ohne Sprengmöglichkeit.
+
+13.01 11E   Az Flächenabtrag klebriger Boden (AKL-K)                                                                    m³
+            Aufzahlung (Az) bei klebrigem Boden (AKL-K).
+
+13.01 12    Aufzahlung (Az) auf Flächenabtrag (Kofferabtrag) für Außenanlagen für Sprengmöglichkeit.
+            Abgerechnet wird das projektgemäße Abtragsprofil.
+            Im Positionsstichwort ist die Bodenklasse angegeben.
+
+13.01 12C   Az Flächenabtrag brüchige Fels (AKBF) f.Sprengmöglichkeit                                                   m³
+            Von brüchigem Fels (AKBF).
+
+13.01 12D   Az Flächenabtrag feste Fels (AKF) f.Sprengmöglichkeit                                                       m³
+            Vom festem Fels (AKF).
+
+13.01 13    Aufzahlung (Az) auf Flächenabtrag (Kofferabtrag) bei Lockerboden (AKL) bei Außenanlagen für Erschwernisse
+            beim Abtragen oder Durchörtern von Einzelhindernissen (Freilegen, Lösen und Laden) mit einem Einzelausmaß
+            über 0,1 bis 10 m3, ohne Sprengmöglichkeit, einschließlich Zerkleinern auf das zum Fördern erforderliche Maß.
+
+13.01 13A   Az Flächenabtrag Steinmwk.ü.0,1-10m3                                                                        m³
+            Aus Natur- und Mischmauerwerk (Steinmwk.).
+
+13.01 13B   Az Flächenabtrag Ziegelmwk.ü.0,1-10m3                                                                       m³
+            Aus Ziegelmauerwerk (Ziegelmwk.).
+
+13.01 13C   Az Flächenabtrag Beton ü.0,1-10m3                                                                           m³
+            Ohne Unterschied ob bewehrter oder unbewehrter Beton.
+
+13.01 13D   Az Flächenabtrag Holzeinlagen ü.0,1-10m3                                                                    m³
+            Beim Abtragen von Holzeinlagen (z.B. Holzstammeinlagen mit einem Umfang über 30 cm oder Holzeinbauten
+            (z.B. Pfahlköpfe)).
+            Abgerechnet wird das Raummaß des Holzes (m3).
+
+13.01 14    Flächenschüttungen.
+
+13.01 14A   Dammaufstands-/Abtreppungsflächen                                                                           m²
+            Für Dammaufstandsflächen oder Abtreppungsflächen, einschließlich planieren und projektgemäß verdichten.
+
+13.01 14B   Dammkörper vorh.Material                                                                                    m³
+            Dammkörper mit vorhandenem Material anschütten.
+
+13.01 14C   Dammkörper vorh.Material+verdichten                                                                         m³
+            Dammkörper mit vorhandenem Material anschütten, einschließlich projektgemäß verdichten.
+
+13.01 15    Schüttmaterial nur liefern.
+            Im Positionsstichwort sind die Eigenschaften des Schüttmaterials angegeben.
+
+13.01 15A   Schüttmaterial verdichtbar                                                                                  m³
+
+13.01 15B   Schüttmaterial verdichtbar+frostsicher                                                                      m³
+                                                                                                                   Seite 5 / 31
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+13.01 15C   Schüttmaterial grobk.Steinbruchmaterial                                                                      m³
+            Grobkörniges (grobk.) Steinbruchmaterial aus vorrangig kantigen Bruchsteinen, Kantenlänge 1 bis 30 cm, ohne
+            bindige Anteile.
+
+13.01 15D   Schüttmaterial Grobschotter 80/100mm                                                                         m³
+13.01 21    Geotextil, einschließlich Überlappungen liefern und verlegen, einschließlich Vorbereiten des Untergrundes.
+            Abgerechnet wird die tatsächlich abgedeckte Fläche.
+            Im Positionsstichwort sind der Untergrund (UG), die Lastklasse (LK) und die Korngröße (K.) angegeben.
+
+13.01 21A   Geotextil UG1/LK>=0,4/K.b.63mm                                                                               m²
+            LB-Version: 23                 Geändert
+Änderung:   Änderung auf die neue Definition der Lastklassen
+
+13.01 21B   Geotextil UG1/LK<=0,1/K.b.63mm                                                                               m²
+            LB-Version: 23                 Geändert
+Änderung:   Änderung auf die neue Definition der Lastklassen
+
+13.01 21C   Geotextil UG2/LK>=0,4/K.b.63mm                                                                               m²
+            LB-Version: 23                 Geändert
+Änderung:   Änderung auf die neue Definition der Lastklassen
+
+13.01 21D   Geotextil UG2/LK<=0,1/K.b.63mm                                                                               m²
+            LB-Version: 23                 Geändert
+Änderung:   Änderung auf die neue Definition der Lastklassen
+
+13.01 21E   Geotextil UG3/LK>=0,4/K.b.63mm                                                                               m²
+            LB-Version: 23                 Geändert
+Änderung:   Änderung auf die neue Definition der Lastklassen
+
+13.01 21F   Geotextil UG3/LK<=0,1/K.b.63mm                                                                               m²
+            LB-Version: 23                 Geändert
+Änderung:   Änderung auf die neue Definition der Lastklassen
+
+13.01 21G   Geotextil UG1/LK>=0,4/K.ü.63mm                                                                               m²
+            LB-Version: 23                 Geändert
+Änderung:   Änderung auf die neue Definition der Lastklassen
+
+13.01 21H   Geotextil UG1/LK<=0,1/K.ü.63mm                                                                               m²
+            LB-Version: 23                 Geändert
+Änderung:   Änderung auf die neue Definition der Lastklassen
+
+13.01 21I   Geotextil UG2/LK>=0,4/K.ü.63mm                                                                               m²
+            LB-Version: 23                 Geändert
+Änderung:   Änderung auf die neue Definition der Lastklassen
+
+13.01 21J   Geotextil UG2/LK<=0,1/K.ü.63mm                                                                               m²
+            LB-Version: 23                 Geändert
+Änderung:   Änderung auf die neue Definition der Lastklassen
+
+13.01 21K   Geotextil UG3/LK>=0,4/K.ü.63mm                                                                               m²
+            LB-Version: 23                 Geändert
+Änderung:   Änderung auf die neue Definition der Lastklassen
+
+13.01 21L   Geotextil UG3/LK<=0,1/K.ü.63mm                                                                               m²
+            LB-Version: 23                 Geändert
+Änderung:   Änderung auf die neue Definition der Lastklassen
+
+13.01 31    Aufzahlung (Az) auf Geotextil.
+
+                                                                                                                    Seite 6 / 31
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+13.01 31A   Geotextil verschweißen                                                                                        m²
+            Für das Verschweißen.
+
+13.01 31B   Geotextil vernähen                                                                                            m²
+            Für das Vernähen.
+
+13.11       Unterbauplanum
+13.11 01    Unterbauplanum (ausgenommen in Felsböden).
+
+13.11 01A   Unterbauplanum Gehsteig                                                                                       m²
+            Für Gehsteige, Geh- und Radwege (Gehsteig).
+
+13.11 01B   Unterbauplanum Fahrbahn                                                                                       m²
+            Für Fahrbahnen und Abstellstreifen (Fahrbahn).
+
+13.11 02    Unterbauplanum in Felsböden.
+            Der Abtrag zur Herstellung des Unterbauplanums in leichtem und schwerem Fels wird so weit unter das
+            projektgemäße Planum durchgeführt, dass keine Felsspitzen über das Unterbauplanum herausragen. Die
+            Abtragssohle wird mit gebundenen oder ungebundenen Gesteinskörnungen bis auf die Höhe des
+            Unterbauplanums aufgefüllt und so verdichtet, dass die geforderten Gütewerte überall erreicht werden.
+            Der erforderliche Felsabtrag unterhalb der Sollhöhe des Unterbauplanums sowie die Lieferung und der Einbau
+            von Gesteinskörnungen sind im Einheitspreis einkalkuliert.
+
+13.11 02A   Unterbauplanum Fels Gehsteig                                                                                  m²
+            Für Gehsteige, Geh- und Radwege (Gehsteig).
+
+            LB-Version: 23              Geringfügig Geändert
+
+13.11 02B   Unterbauplanum Fels Fahrbahn                                                                                  m²
+            Für Fahrbahnen und Abstellstreifen (Fahrbahn).
+
+            LB-Version: 23              Geringfügig Geändert
+
+13.12       Ungebundene untere Tragschichten
+
+
+            1. Einkalkulierte Leistungen:
+            1.1 Maßtoleranzen:
+            Das fertiggestellte Planum der ungebundenen unteren Tragschicht liegt mit einer Genauigkeit von +/- 2 cm auf
+            Sollhöhe.
+            1.2 Verdichtungswerte:
+            Die geforderten Verdichtungswerte werden überall erreicht.
+            1.3 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - das Einbauen einschließlich Verdichten
+            2. Ausmaß- und Abrechnungsregeln:
+            Bei Tragschichten mit trapezförmigen Querschnitten gilt die mittlere Breite als Verrechnungsbreite.
+13.12 01    Ungebundene untere Tragschichten (Tragsch.) für Gehsteige, Geh- und Radwege (Gehsteig) mit
+            Gesteinskörnungen.
+            Im Positionsstichwort ist die Dicke der Schicht angegeben.
+
+13.12 01A   Ungebundene untere Tragsch.15-30cm Gehsteig                                                                   m³
+
+13.12 01B   Ungebundene untere Tragsch.30-60cm Gehsteig                                                                   m³
+13.12 02    Ungebundene untere Tragschichten (Tragsch.) für Fahrbahnen und Abstellstreifen (Fahrbahn) mit
+            Gesteinskörnungen.
+            Im Positionsstichwort ist die Dicke der Schicht angegeben.
+
+13.12 02A   Ungebundene untere Tragsch.15-30cm Fahrbahn                                                                   m³
+
+13.12 02B   Ungebundene untere Tragsch.30-60cm Fahrbahn                                                                   m³
+
+                                                                                                                     Seite 7 / 31
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+13.13       Ungebundene obere Tragschichten
+
+
+            1. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - das Einbauen einschließlich Verdichten
+            2. Ausmaß- und Abrechnungsregeln:
+            Bei Tragschichten bei trapezförmigem Querschnitt gilt die mittlere Breite als Verrechnungsbreite.
+
+13.13 01    Ungebundene obere Tragschichten für Gehsteige, Geh- und Radwege (Gehsteig) mit Gesteinskörnungen.
+            Im Positionsstichwort ist die Dicke der Schicht angegeben.
+
+13.13 01A   Ungebundene obere Tragsch.10cm Gehsteig                                                                       m²
+
+13.13 01B   Ungebundene obere Tragsch.15cm Gehsteig                                                                       m²
+
+13.13 01C   Ungebundene obere Tragsch.20cm Gehsteig                                                                       m²
+13.13 02    Ungebundene obere Tragschichten für Fahrbahnen und Abstellstreifen (Fahrbahn) mit Gesteinskörnungen.
+            Im Positionsstichwort ist die Dicke der Schicht angegeben.
+
+13.13 02A   Ungebundene obere Tragsch.15cm Fahrbahn                                                                       m²
+
+13.13 02B   Ungebundene obere Tragsch.20cm Fahrbahn                                                                       m²
+13.15       Hydraulisch gebundene Tragschichten
+
+
+            1. Einkalkulierte Leistungen
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Abgleichen der Oberfläche
+                • Verteilen des Bindemittels
+                • das homogene Einmischen des Bindemittels bis zu einer Krümelbildung des Bodens
+                • die Zugabe von Wasser bis zum Erreichen der geforderten Feuchtigkeit
+                • Verdichten auf geforderte Verdichtungswerte
+            2. Ausmaß- und Abrechnungsregeln:
+            Die Stabilisierungsdicke wird in verdichtetem Zustand gemessen.
+13.15 01    Bodenstabilisierung.
+            Im Positionsstichwort ist die Schichtdicke angegeben.
+
+13.15 01A   Bodenstabilisierung Feinkalk 30cm                                                                             m²
+            Mit Feinkalk.
+
+13.15 01B   Bodenstabilisierung Kalkhydrat 30cm                                                                           m²
+            Mit Kalkhydrat.
+
+13.15 01C   Bodenstabilisierung CEM 30cm                                                                                  m²
+            Mit Zement (CEM) II/A-32,5.
+
+13.15 01D   Bodenstabilisierung Feinkalk 40cm                                                                             m²
+            Mit Feinkalk.
+
+13.15 01E   Bodenstabilisierung Kalkhydrat 40cm                                                                           m²
+            Mit Kalkhydrat.
+
+13.15 01F   Bodenstabilisierung CEM 40cm                                                                                  m²
+            Mit Zement (CEM) II/A-32,5.
+
+13.15 03    Bindemittel zur Bodenstabilisierung, nur liefern.
+
+
+                                                                                                                     Seite 8 / 31
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+13.15 03A   Weißfeinkalk nur liefern                                                                                     t
+
+13.15 03B   Kalkhydrat nur liefern                                                                                       t
+
+13.15 03C   Zement CEM II/A-32,5 nur liefern                                                                             t
+13.17       Bituminöse Tragschichten
+
+
+            Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Type des Asphaltbetons, die Art des Bitumens, die Korngrößenverteilung, die
+            Gesteinskörnungsklasse und die Schichtdicke (im verdichteten Zustand) angegeben.
+
+13.17 01    Bituminöse Tragschichte für Gehsteige, Geh- und Radwege (Gehsteig).
+
+13.17 01A   AC16trag 70/100 T2 G6 Gehsteig 6cm                                                                           m²
+
+13.17 01B   AC16trag 70/100 T2 G6 Gehsteig 7cm                                                                           m²
+
+13.17 01C   AC22trag 70/100 T2 G6 Gehsteig 6cm                                                                           m²
+
+13.17 01D   AC22trag 70/100 T2 G6 Gehsteig 7cm                                                                           m²
+
+13.17 01E   AC22trag 70/100 T2 G6 Gehsteig 8cm                                                                           m²
+13.17 02    Bituminöse Tragschichte für Fahrbahnen und Abstellstreifen (Fahrbahn).
+
+13.17 02A   AC16trag 70/100 T2 G6 Fahrbahn 6cm                                                                           m²
+
+13.17 02B   AC16trag 70/100 T2 G6 Fahrbahn 7cm                                                                           m²
+
+13.17 02C   AC22trag 70/100 T2 G6 Fahrbahn 6cm                                                                           m²
+
+13.17 02D   AC22trag 70/100 T2 G6 Fahrbahn 7cm                                                                           m²
+
+13.17 02E   AC22trag 70/100 T2 G6 Fahrbahn 8cm                                                                           m²
+
+13.17 02F   AC22trag 70/100 T2 G6 Fahrbahn 9cm                                                                           m²
+
+13.17 02G   AC32trag 70/100 T2 G6 Fahrbahn 7cm                                                                           m²
+
+13.17 02H   AC32trag 70/100 T2 G6 Fahrbahn 8cm                                                                           m²
+
+13.17 02I   AC32trag 70/100 T2 G6 Fahrbahn 9cm                                                                           m²
+
+13.17 02J   AC32trag 70/100 T2 G6 Fahrbahn 10cm                                                                          m²
+
+13.17 02K   AC32trag 70/100 T2 G6 Fahrbahn 11cm                                                                          m²
+
+13.17 02L   AC32trag 70/100 T2 G6 Fahrbahn 12cm                                                                          m²
+13.17 03    Bituminöse Tragschichte für Fahrbahnen und Abstellstreifen (Fahrbahn).
+
+13.17 03A   AC16trag 70/100 T2 G5 Fahrbahn 6cm                                                                           m²
+
+13.17 03B   AC16trag 70/100 T2 G5 Fahrbahn 7cm                                                                           m²
+
+13.17 03C   AC22trag 70/100 T2 G5 Fahrbahn 6cm                                                                           m²
+
+13.17 03D   AC22trag 70/100 T2 G5 Fahrbahn 7cm                                                                           m²
+
+13.17 03E   AC22trag 70/100 T2 G5 Fahrbahn 8cm                                                                           m²
+
+13.17 03F   AC22trag 70/100 T2 G5 Fahrbahn 9cm                                                                           m²
+
+13.17 03G   AC32trag 70/100 T2 G5 Fahrbahn 7cm                                                                           m²
+
+13.17 03H   AC32trag 70/100 T2 G5 Fahrbahn 8cm                                                                           m²
+                                                                                                                    Seite 9 / 31
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+13.17 03I   AC32trag 70/100 T2 G5 Fahrbahn 9cm                                                                          m²
+
+13.17 03J   AC32trag 70/100 T2 G5 Fahrbahn 10cm                                                                         m²
+
+13.17 03K   AC32trag 70/100 T2 G5 Fahrbahn 11cm                                                                         m²
+
+13.17 03L   AC32trag 70/100 T2 G5 Fahrbahn 12cm                                                                         m²
+13.17 04    Bituminöse Tragdeckschichte für Gehsteige, Geh- und Radwege (Gehsteig).
+
+13.17 04A   AC16trag/deck 70/100 A5 G8 Gehsteig 6cm                                                                     m²
+
+13.17 04B   AC16trag/deck 70/100 A5 G8 Gehsteig 7cm                                                                     m²
+
+13.17 04C   AC16trag/deck 70/100 A5 G8 Gehsteig 8cm                                                                     m²
+13.17 05    Bituminöse Tragdeckschichte für Fahrbahnen oder Abstellstreifen (Fahrbahn).
+
+13.17 05A   AC16trag/deck 70/100 A5 G8 Fahrbahn 6cm                                                                     m²
+
+13.17 05B   AC16trag/deck 70/100 A5 G8 Fahrbahn 7cm                                                                     m²
+
+13.17 05C   AC16trag/deck 70/100 A5 G8 Fahrbahn 8cm                                                                     m²
+13.17 11    Profilieren mit bituminösem Tragschichtmischgut.
+            Mischgut liefern und auf die vorhandene Unterlage profilgemäß aufbringen und verdichten.
+
+13.17 11A   Profilieren AC16trag 70/100 T2 G5                                                                           t
+
+13.17 11B   Profilieren AC22trag 70/100 T2 G5                                                                           t
+
+13.17 11C   Profilieren AC32trag 70/100 T2 G5                                                                           t
+13.21       Wassergebundene Decken
+
+
+            1. Einkalkulierte Leistungen:
+            1.1 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Wässern der einzelnen Lagen zur Erreichung des für den Einbau erforderlichen Wassergehaltes der
+                  einzelnen Schichten
+                • das Einbauen einschließlich Verdichten
+            1.2 Material:
+            Eigenschaften der einzelnen Gesteinskörnungen (Anteil der gebrochenen Körnungen)
+                • 0/4 mm C90/3
+                • 0/8 mm, 2/8 mm, 0/16 mm und 0/32 mm C50/30
+            2. Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Dicke der einzelnen Lagen und die Korngröße (in mm) angegeben.
+13.21 01    Wassergebundene Decken in 1-Schichtbauweise. Abstreuung mit 15 bis 20 kg/m2 Brechsand, 0/4 mm.
+
+13.21 01A   Wassergebundene Decke 20cm 0/16+Abstreuung                                                                  m²
+
+13.21 01B   Wassergebundene Decke 20cm 0/32+Abstreuung                                                                  m²
+13.21 03    Wassergebundene Decken in 2-Schichtbauweise.
+
+13.21 03A   Wassergebundene Decke 3cm 0/4,20cm 0/16                                                                     m²
+
+13.21 03B   Wassergebundene Decke 3cm 0/4,20cm 0/32                                                                     m²
+
+13.21 03C   Wassergebundene Decke 3cm 0/4,25cm 0/32                                                                     m²
+13.21 05    Wassergebundene Decken in 3-Schichtbauweise.
+
+13.21 05A   Wassergebundene Decke 2,5cm 0/4,3cm 0/8,20cm 0/32                                                           m²
+
+                                                                                                                  Seite 10 / 31
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+13.21 05B   Wassergebundene Decke 2,5cm 0/4,8cm 2/8,20cm 0/32                                                            m²
+13.31       Unterlagsbeton
+13.31 01    Unterlagsbeton für Gehsteige, Geh- und Radwege (Gehsteig), einschließlich planmäßiges Abgleichen und rohes
+            Abziehen (beim Ausführen einer bituminösen Decke) der Oberfläche. Fugen in erforderlichen Abständen sind im
+            Einheitspreis einkalkuliert (mindestens alle 4 m).
+            Im Positionsstichwort sind die Festigkeit des Betons und die Schichtdicke angegeben.
+
+13.31 01A   Unterlagsbeton C16/20 Gehsteig 10cm                                                                          m²
+            LB-Version: 23              Geringfügig Geändert
+
+13.31 01B   Unterlagsbeton C16/20 Gehsteig 15cm                                                                          m²
+            LB-Version: 23              Geringfügig Geändert
+
+13.31 01C   Unterlagsbeton C20/25 Gehsteig 10cm                                                                          m²
+            LB-Version: 23              Geringfügig Geändert
+
+13.31 01D   Unterlagsbeton C20/25 Gehsteig 15cm                                                                          m²
+            LB-Version: 23              Geringfügig Geändert
+13.31 03    Unterlagsbeton für Fahrbahnen und Abstellstreifen (Fahrbahn), einschließlich planmäßiges Abgleichen und
+            rohes Abziehen (beim Ausführen einer bituminösen Decke) der Oberfläche. Fugen in erforderlichen Abständen
+            sind im Einheitspreis einkalkuliert (mindestens alle 4 m).
+            Im Positionsstichwort sind die Festigkeit des Betons und die Schichtdicke angegeben.
+
+13.31 03A   Unterlagsbeton C16/20 Fahrbahn 20cm                                                                          m²
+            LB-Version: 23              Geringfügig Geändert
+
+13.31 03B   Unterlagsbeton C20/25 Fahrbahn 20cm                                                                          m²
+            LB-Version: 23              Geringfügig Geändert
+
+13.31 03C   Unterlagsbeton C25/30 B7 Fahrbahn 20cm                                                                       m²
+            LB-Version: 23              Geringfügig Geändert
+13.31 11    Unterlagsbeton aus Pflasterdrainbeton.
+            Im Positionsstichwort sind die Festigkeit, die Art des Betons und die Schichtdicke angegeben.
+
+13.31 11A   Pflasterdrainbeton C16/20/X0 10cm                                                                            m²
+
+13.31 11B   Pflasterdrainbeton C16/20/X0 15cm                                                                            m²
+
+13.31 11C   Pflasterdrainbeton C16/20/X0 20cm                                                                            m²
+13.41       Vorarbeiten für bituminöse Arbeiten
+13.41 01    Die Oberfläche von gebundenen Schichten vor dem Vorspritzen reinigen, einschließlich Entsorgen von
+            anfallendem Reinigungsgut.
+
+13.41 01A   Reinigen                                                                                                     m²
+
+13.41 01B   Reinigen Hochdruckwasser                                                                                     m²
+            Mit einem Hochdruck-Wasserstrahl, mindestens 100 bar Druck.
+
+13.41 02    Vorspritzen mit Bitumenemulsion, einschließlich Schutzmaßnahmen gegen Verunreinigung. (z.B. bei
+            Sichtflächen von Randeinfassungen, Leiteinrichtungen, Geländer).
+
+13.41 02A   Vorspritzen m.Bitumenemulsion                                                                                m²
+
+13.41 02B   Vorspritzen m.polymer-modifizierter Bitumenemulsion                                                          m²
+            Mit einer polymer-modifizierten Bitumenemulsion.
+
+13.41 03    Fugenanschluss in Asphalt-Deckschichten mit selbstklebendem Bitumenfugenband.
+            Im Positionsstichwort ist der Querschnitt (Breite/Höhe) angegeben.
+
+13.41 03A   Fugenanschluss selbstklebend 10/30mm                                                                         m
+                                                                                                                   Seite 11 / 31
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+13.41 03B   Fugenanschluss selbstklebend 10/35mm                                                                         m
+
+13.41 03C   Fugenanschluss selbstklebend 10/40mm                                                                         m
+
+13.41 03D   Fugenanschluss selbstklebend 10/45mm                                                                         m
+13.41 04    Vorstreichen von Nahtflanken und Bestandsanschlüssen von Asphaltschichten mit hochviskoser thixotroper
+            Bitumenemulsion mit einer Bindemittelmenge von 3 bis 5 kg/m2 Flankenfläche.
+            Im Positionsstichwort ist die Höhe angegeben.
+
+13.41 04A   Voranstrich Nahtflanken 0-5cm                                                                                m
+
+13.41 04B   Voranstrich Nahtflanken ü.5-10cm                                                                             m
+
+13.41 04C   Voranstrich Nahtflanken ü.10-15cm                                                                            m
+13.50       Asphaltbetondeckschichten
+
+
+            1. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • das Aufbringen auf einer Betonunterlage bis 10 % Gefälle
+                • alle Maßnahmen zum Schutz der Abdichtung (z.B. gegen Beschädigungen und Verunreinigungen)
+            2. Angaben im Positionsstichwort bei Asphaltbeton:
+            Im Positionsstichwort sind die Type des Asphaltbetons, die Art des Bitumens, die Korngrößenverteilung, die
+            Gesteinskörnungsklasse und die Schichtdicke (im verdichteten Zustand) angegeben.
+
+13.50 01    Asphaltbetonschutzschichten (AC-schutz). Der Einbau und die Verdichtung des Mischgutes erfolgt im Bereich
+            der kleinsten Einbautemperatur und der größten thermischen Beanspruchung der Isolierung oder
+            Brückenabdichtung.
+
+13.50 01A   AC8schutz 70/100 A1 G2 3cm                                                                                   m²
+
+13.50 01B   AC11schutz 70/100 A1 G2 Schutz 3cm                                                                           m²
+13.50 02    Asphaltbetondeckschichten (AC-deck) für Gehsteige, Geh- und Radwege (Gehsteig).
+
+13.50 02A   AC4deck 70/100 A1 G2 Gehsteig 2,5cm                                                                          m²
+
+13.50 02B   AC8deck 70/100 A1 G2 Gehsteig 3cm                                                                            m²
+
+13.50 02C   AC11deck 70/100 A1 G2 Gehsteig 3cm                                                                           m²
+
+13.50 02D   AC11deck 70/100 A1 G2 Gehsteig 4cm                                                                           m²
+13.50 03    Asphaltbetondeckschichten (AC-deck) für Fahrbahnen und Abstellstreifen (Fahrbahn).
+
+13.50 03A   AC8deck 70/100 A1 G1 Fahrbahn 3cm                                                                            m²
+
+13.50 03B   AC11deck 70/100 A1 G1 Fahrbahn 3cm                                                                           m²
+
+13.50 03C   AC11deck 70/100 A1 G1 Fahrbahn 4cm                                                                           m²
+
+13.50 03D   AC8deck 70/100 A1 G2 Fahrbahn 3cm                                                                            m²
+
+13.50 03E   AC11deck 70/100 A1 G2 Fahrbahn 3cm                                                                           m²
+
+13.50 03F   AC11deck 70/100 A1 G2 Fahrbahn 4cm                                                                           m²
+13.51       Gussasphaltdeckschichten
+
+
+            1. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • das Aufbringen bis 10 % Gefälle
+                                                                                                                   Seite 12 / 31
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+                • alle Maßnahmen zum Schutz der Abdichtung (z.B. gegen Beschädigungen und Verunreinigungen)
+                  - das Herstellen von Fugen einschließlich Ausgießen mit einer Heißvergussmasse
+            2. Angaben im Positionsstichwort bei Gussasphalt:
+            Im Positionsstichwort sind die Type des Gussasphalts, die Art des Bitumens, die Korngrößenverteilung, die
+            Gesteinskörnungsklasse und die Schichtdicke (im verdichteten Zustand) angegeben.
+13.51 01    Aufbringen einer Trennschicht zwischen Unterlage und Gussasphalt.
+            Im Positionsstichwort ist die Art des Trennmaterials angegeben.
+
+13.51 01A   Trennschicht Sand                                                                                           m²
+
+13.51 01B   Trennschicht Rohglasvlies                                                                                   m²
+
+13.51 01C   Trennschicht Rotationspapier                                                                                m²
+            z.B. Perkalor-Papier.
+
+13.51 11    Gussasphalt auf vorbereiteter Unterlage oder Trennschicht (in eigenen Positionen beschrieben) für Gehsteige,
+            Geh- und Radwege (Gehsteig).
+            Im Positionsstichwort ist die Dicke angegeben.
+             Kommentar:
+             Die Oberflächenausbildung ist in eigenen Positionen beschrieben.
+
+13.51 11A   MA4 90/10 M2 G3 Gehsteig 2cm                                                                                m²
+
+13.51 11B   MA4 90/10 M2 G3 Gehsteig 2,5cm                                                                              m²
+
+13.51 11C   MA4 90/10 M2 G3 Gehsteig 4cm                                                                                m²
+13.51 12    Gussasphalt auf vorbereiteter Unterlage oder Trennschicht (in eigenen Positionen beschrieben) für Fahrbahnen
+            und Abstellstreifen (Fahrbahn).
+            Im Positionsstichwort ist die Dicke angegeben.
+             Kommentar:
+             Die Oberflächenausbildung ist in eigenen Positionen beschrieben.
+
+13.51 12A   MA8 90/10 M1 G1 Fahrbahn 3cm                                                                                m²
+
+13.51 12B   MA8 90/10 M2 G1 Fahrbahn 3cm                                                                                m²
+
+13.51 12C   MA8 PmB25/55-65 M1 G1 Fahrbahn 3cm                                                                          m²
+
+13.51 12D   MA11 90/10 M1 G1 Fahrbahn 3cm                                                                               m²
+
+13.51 12E   MA11 90/10 M2 G1 Fahrbahn 3cm                                                                               m²
+
+13.51 12F   MA11 PmB25//55-65 M1 G1 Fahrbahn 3cm                                                                        m²
+
+13.51 12G   MA8 90/10 M1 G1 Fahrbahn 4cm                                                                                m²
+
+13.51 12H   MA8 90/10 M2 G1 Fahrbahn 4cm                                                                                m²
+
+13.51 12I   MA8 PmB25/55-65 M1 G1 Fahrbahn 4cm                                                                          m²
+
+13.51 12J   MA11 90/10 M1 G1 Fahrbahn 4cm                                                                               m²
+
+13.51 12K   MA11 90/10 M2 G1 Fahrbahn 4cm                                                                               m²
+
+13.51 12L   MA11 PmB25//55-65 M1 G1 Fahrbahn 4cm                                                                        m²
+13.51 21    Oberflächenausbildung von Gussasphalt MA4/MA8. Abstreuen und mittels Handwalze eindrücken,
+            einschließlich Entsorgen des überschüssigen Materials.
+
+13.51 21A   Abstreuen MA4/MA8 Sand                                                                                      m²
+            Mit Sand.
+
+13.51 21B   Abstreuen MA4/MA8 2/4mm C90/1                                                                               m²
+            C90/1, 2/4 mm.
+
+                                                                                                                  Seite 13 / 31
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+13.51 21C   Riffeln mittels Stachelwalze                                                                                m²
+13.51 22    Oberflächenausbildung von Gussasphalt MA8/MA11. Mit bitumenumhüllter Gesteinskörnung absplitten,
+            einschließlich Entsorgen des überschüssigen Materials.
+
+13.51 22A   Abspl.MA8 MA11 C100/0 LA20 PSV50 5-15kg                                                                     m²
+            Mit einer Gesteinskörnung 2/4 mm.
+
+13.51 51    Rinnsal- oder Spitzgrabenausbildung (Rinnsal) in Gussasphalt, auf vorhandener gereinigter Unterlage (in
+            eigenen Positionen beschrieben), einschließlich Abreiben der Oberfläche mit füllerarmem Sand.
+            Im Positionsstichwort ist Dicke angegeben.
+
+13.51 51A   Rinnsal MA8 35/50 M2/G1 2cm                                                                                 m²
+
+13.51 51B   Rinnsal MA8 35/50 M2/G1 2,5cm                                                                               m²
+
+13.51 51C   Rinnsal MA8 35/50 M2/G1 3cm                                                                                 m²
+
+13.51 51D   Rinnsal MA8 90/10 M2/G3 3cm                                                                                 m²
+13.51 52    Rinnsal- oder Spitzgrabenausbildung (Rinnsal) in Gussasphalt, einschließlich Abreiben der Oberfläche mit
+            füllerarmem Sand.
+            Im Positionsstichwort sind die Breite und die Dicke angegeben.
+
+13.51 52A   Rinnsal 30cm MA8 35/50 M2/G1 2cm                                                                            m
+
+13.51 52B   Rinnsal 30cm MA8 35/50 M2/G1 2,5cm                                                                          m
+
+13.51 52C   Rinnsal 30cm MA8 35/50 M2/G1 3cm                                                                            m
+
+13.51 52D   Rinnsal 40cm MA8 35/50 M2/G1 2cm                                                                            m
+
+13.51 52E   Rinnsal 40cm MA8 35/50 M2/G1 2,5cm                                                                          m
+
+13.51 52F   Rinnsal 40cm MA8 35/50 M2/G1 3cm                                                                            m
+
+13.51 52G   Rinnsal 50cm MA8 35/50 M2/G1 2cm                                                                            m
+
+13.51 52H   Rinnsal 50cm MA8/35/50 M2/G1 2,5cm                                                                          m
+
+13.51 52I   Rinnsal 50cm MA8/35/50 M2/G1 3cm                                                                            m
+13.61       Randbegrenzungen
+
+
+            1. Einkalkulierte Leistungen bei Randsteinen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • flucht- und höhengerechtes Versetzen und Verlegen
+                • eine Verfugung mit Zementmörtel (auf voller Höhe)
+                • das Fugen- und Bettungsmaterial
+            2. Angaben im Positionsstichwort bei Randbegrenzungen:
+            Im Positionsstichwort sind die Abmessungen oder Type, die Art der Bettung und die Form der Steine
+            angegeben.
+            3. Ausmaß- und Abrechnungsregeln:
+            Bögen mit einem Radius über 10 m werden als Gerade abgerechnet.
+            LB-Version: 23              Geringfügig Geändert
+13.61 01    Unterlagsbeton für Randbegrenzungen (z.B. als Unterlage, Bettung, Rückenstütze nach der Verlegung).
+            Im Positionsstichwort ist die Festigkeit des Betons angegeben.
+
+13.61 01A   Unterlagsbeton C16/20 Rand.                                                                                 m³
+
+13.61 01B   Unterlagsbeton C16/20 Rand.+Schalung                                                                        m³
+            Einschließlich Schalung. Das Vorhalten, Abstützen und Entfernen der Schalung sind im Einheitspreis
+            einkalkuliert.
+                                                                                                                  Seite 14 / 31
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            LB-Version: 23              Geringfügig Geändert
+
+13.61 01C   Unterlagsbeton C16/20 Rand.+Aush.+Schal.                                                                    m³
+            Einschließlich Aushub und Schalung. Das Entsorgen von Bodenaushubmaterial und das Vorhalten, Abstützen
+            und Entfernen der Schalung sind im Einheitspreis einkalkuliert.
+            LB-Version: 23              Geringfügig Geändert
+13.61 03    Unterlagsbeton aus Pflasterdrainbeton (Pfl.-Drainbeton) für Randbegrenzungen (z.B. als Unterlage, Bettung,
+            Rückenstütze nach der Verlegung).
+            Im Positionsstichwort sind die Festigkeit und die Art des Betons angegeben.
+
+13.61 03A   Pfl.-Drainbeton C16/20/X0 Rand.                                                                             m³
+            Einschließlich Aushub. Das Entsorgen von Bodenaushubmaterial ist im Einheitspreis einkalkuliert.
+
+            LB-Version: 23              Geringfügig Geändert
+
+13.61 03B   Pfl.-Drainbeton C16/20/X0 Rand.+Schalung                                                                    m³
+            Einschließlich Schalung. Das Vorhalten, Abstützen und Entfernen der Schalung sind im Einheitspreis
+            einkalkuliert.
+            LB-Version: 23              Geringfügig Geändert
+
+13.61 03C   Pfl.-Drainbeton C16/20/X0 Rand.+Aush.+Schal.                                                                m³
+            Einschließlich Aushub und Schalung. Das Entsorgen von Bodenaushubmaterial und das Vorhalten, Abstützen
+            und Entfernen der Schalung sind im Einheitspreis einkalkuliert.
+            LB-Version: 23              Geringfügig Geändert
+13.61 11    Gerade Randsteine aus Granit im 3 bis 6 cm dicken Zementmörtelbett (ZM) satt verlegt.
+
+13.61 11A   Randsteine Granit 15/24 ROA1 ZM gerade                                                                      m
+
+13.61 11B   Randsteine Granit 16/20 ROA2 ZM gerade                                                                      m
+
+13.61 11C   Randsteine Granit 18/20 ROA3 ZM gerade                                                                      m
+
+13.61 11D   Randsteine Granit 20/20 ROA4 ZM gerade                                                                      m
+
+13.61 11E   Randsteine Granit 20/24 ROA5 ZM gerade                                                                      m
+
+13.61 11F   Randsteine Granit 30/20 ROA6 ZM gerade                                                                      m
+            LB-Version: 23              Geringfügig Geändert
+
+13.61 11G   Randsteine Granit 32/24 ROA7 ZM gerade                                                                      m
+13.61 12    Gebogene Randsteine aus Granit im 3 bis 6 cm dicken Zementmörtelbett (ZM) satt verlegt.
+
+13.61 12A   Randsteine Granit 15/24 ROA1 ZM Bogen                                                                       m
+
+13.61 12B   Randsteine Granit 16/20 ROA2 ZM Bogen                                                                       m
+
+13.61 12C   Randsteine Granit 18/20 ROA3 ZM Bogen                                                                       m
+
+13.61 12D   Randsteine Granit 20/20 ROA4 ZM Bogen                                                                       m
+
+13.61 12E   Randsteine Granit 20/24 ROA5 ZM Bogen                                                                       m
+
+13.61 12F   Randsteine Granit 30/20 ROA6 ZM Bogen                                                                       m
+
+13.61 12G   Randsteine Granit 32/24 ROA7 ZM Bogen                                                                       m
+13.61 13    Gerade Randsteine aus Granit in Betonbettung (BB) (Betonbettung in eigener Position beschrieben).
+
+13.61 13A   Randsteine Granit 15/24 ROA1 BB gerade                                                                      m
+
+13.61 13B   Randsteine Granit 16/20 ROA2 BB gerade                                                                      m
+
+13.61 13C   Randsteine Granit 18/20 ROA3 BB gerade                                                                      m
+
+                                                                                                                  Seite 15 / 31
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+13.61 13D   Randsteine Granit 20/20 ROA4 BB gerade                                                                       m
+
+13.61 13E   Randsteine Granit 20/24 ROA5 BB gerade                                                                       m
+
+13.61 13F   Randsteine Granit 30/20 ROA6 BB gerade                                                                       m
+
+13.61 13G   Randsteine Granit 32/24 ROA7 BB gerade                                                                       m
+13.61 14    Gebogene Randsteine aus Granit in Betonbettung (BB) (Betonbettung in eigener Position beschrieben).
+
+13.61 14A   Randsteine Granit 15/24 ROA1 BB Bogen                                                                        m
+
+13.61 14B   Randsteine Granit 16/20 ROA2 BB Bogen                                                                        m
+
+13.61 14C   Randsteine Granit 18/20 ROA3 BB Bogen                                                                        m
+
+13.61 14D   Randsteine Granit 20/20 ROA4 BB Bogen                                                                        m
+
+13.61 14E   Randsteine Granit 20/24 ROA5 BB Bogen                                                                        m
+
+13.61 14F   Randsteine Granit 30/20 ROA6 BB Bogen                                                                       m
+
+13.61 14G   Randsteine Granit 32/24 ROA7 BB Bogen                                                                       m
+13.61 16    Gerade Randsteine aus Beton im 3 bis 6 cm dicken Zementmörtelbett (ZM) satt verlegt.
+
+13.61 16A   Randsteine Beton 12/20 ZM gerade                                                                             m
+
+13.61 16B   Randsteine Beton 12/25 ZM gerade                                                                             m
+
+13.61 16C   Randsteine Beton 18/20 ZM gerade                                                                             m
+
+13.61 16D   Randsteine Beton 20/15 ZM gerade                                                                             m
+13.61 17    Gerade Randsteine aus Beton in Betonbettung (BB) (Betonbettung in eigener Position beschrieben).
+
+13.61 17A   Randsteine Beton 12/20 BB gerade                                                                             m
+
+13.61 17B   Randsteine Beton 12/25 BB gerade                                                                             m
+
+13.61 17C   Randsteine Beton 18/20 BB gerade                                                                             m
+
+13.61 17D   Randsteine Beton 20/15 BB gerade                                                                             m
+13.61 18    Aufzahlung (Az) auf gerade Randsteine aus Beton.
+
+13.61 18A   Az Bogen b.10m Randstein Beton                                                                               m
+            Für das bogenförmige Versetzen oder Verlegen (Bogen), Radius bis 10 m.
+
+13.61 19    Ablängen von Randsteinen.
+            Im Positionsstichwort sind die Abmessungen (Breite/Höhe) und die Art der Steine angegeben.
+
+13.61 19A   Ablängen Randsteine Granit b.20/20cm                                                                         Stk
+
+13.61 19B   Ablängen Randsteine Granit ü.20/20cm                                                                         Stk
+
+13.61 19C   Ablängen Randsteine Beton b.20/20cm                                                                          Stk
+
+13.61 19D   Ablängen Randsteine Beton ü.20/20cm                                                                          Stk
+13.61 20    Aufzahlung (Az) auf Randsteine in Unterlags-Zementmörtel für Mehrdicken über 6 cm.
+
+13.61 20A   Az Unterlagszementmörtel Mehrdicke                                                                           m³
+13.61 21    Gerade Leistensteine aus Granit in Betonbettung (BB) (Betonbettung in eigener Position).
+
+13.61 21A   Leistensteine Granit 11/15 LS1 BB gerade                                                                     m
+
+13.61 21B   Leistensteine Granit 11/17 LS2 BB gerade                                                                     m
+
+                                                                                                                   Seite 16 / 31
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+13.61 21C   Leistensteine Granit 11/19 LS3 BB gerade                                                                     m
+
+13.61 21D   Leistensteine Granit 13/19 LS4 BB gerade                                                                     m
+
+13.61 21E   Leistensteine Granit 11/23 LS5 BB gerade                                                                     m
+
+13.61 21F   Leistensteine Granit 13/23 LS6 BB gerade                                                                     m
+13.61 22    Gerade Leistensteine aus Beton in Betonbettung (BB) (Betonbettung in eigener Position beschrieben).
+
+13.61 22A   Leistensteine Beton 8/20 BB gerade                                                                           m
+
+13.61 22B   Leistensteine Beton 8/25 BB gerade                                                                           m
+
+13.61 22C   Leistensteine Beton 10/20 BB gerade                                                                          m
+13.61 23    Aufzahlung (Az) auf Leistensteinen.
+
+13.61 23A   Az Schnurkante beids.Leistensteine                                                                           m
+            Für eine beidseitige Schnurkante bei Granit- und Betonsteinen.
+
+13.61 23B   Az Bogen b.10m Leistensteine                                                                                 m
+            Für das bogenförmige Versetzen (Bogen), Radius bis 10 m, bei Granit- und Betonsteinen.
+
+13.61 23C   Az Fase Leistensteine Granit                                                                                 m
+            Für das Herstellen einer Fase unter 45 Grad, etwa 1,5 cm gleichmäßig breit, bei Granitsteinen.
+
+13.61 31    Beeteinfassungssteine aus Beton in Betonbettung (BB) (Betonbettung in eigener Position beschrieben).
+
+13.61 31A   Beeteinfassungssteine Beton 5/20 BB gerade                                                                   m
+
+13.61 31B   Beeteinfassungssteine Beton 5/25 BB gerade                                                                   m
+
+13.61 31C   Beeteinfassungssteine Beton 5/30 BB gerade                                                                   m
+13.61 32    Aufzahlung (Az) bei Beeteinfassungssteinen (Beeteinfassung).
+
+13.61 32A   Az Bogen b.10m Beeteinfassung                                                                                m
+            Für das bogenförmige Versetzen (Bogen), Radius bis 10 m.
+
+13.61 41    Pflastersaum mit neuen Großpflastersteinen aus Granit im 3 bis 6 cm dicken Zementmörtelbett (ZM) satt verlegt.
+
+13.61 41A   Pflastersaum Granit 18/18/18 GPS1 ZM                                                                         m
+
+13.61 41B   Pflastersaum Granit 18/27/18 GPS2 ZM                                                                         m
+
+13.61 41C   Pflastersaum Granit 18/18/13 GPS3 ZM                                                                         m
+
+13.61 41D   Pflastersaum Granit 18/27/13 GPS4 ZM                                                                         m
+
+13.61 41E   Pflastersaum Granit 18/18/9 GPS5 ZM                                                                          m
+
+13.61 41F   Pflastersaum Granit 18/27/9 GPS6 ZM                                                                          m
+
+13.61 41G   Pflastersaum Granit 16/16/16 GPS7 ZM                                                                         m
+
+13.61 41H   Pflastersaum Granit 16/24/16 GPS8 ZM                                                                         m
+13.61 42    Pflastersaum mit neuen Großpflastersteinen aus Granit in Betonbettung (BB) (Betonbettung in eigener Position
+            beschrieben).
+
+13.61 42A   Pflastersaum Granit 18/18/18 GPS1 BB                                                                         m
+
+13.61 42B   Pflastersaum Granit 18/27/18 GPS2 BB                                                                         m
+
+13.61 42C   Pflastersaum Granit 18/18/13 GPS3 BB                                                                         m
+
+13.61 42D   Pflastersaum Granit 18/27/13 GPS4 BB                                                                         m
+                                                                                                                   Seite 17 / 31
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+13.61 42E   Pflastersaum Granit 18/18/9 GPS5 BB                                                                             m
+
+13.61 42F   Pflastersaum Granit 18/27/9 GPS6 BB                                                                             m
+
+13.61 42G   Pflastersaum Granit 16/16/16 GPS7 BB                                                                            m
+
+13.61 42H   Pflastersaum Granit 16/24/16 GPS8 BB                                                                            m
+13.61 43    Pflastersaum mit "alten" Großpflastersteinen aus Granit im 3 bis 6 cm dicken Zementmörtelbett (ZM) satt
+            verlegt. Abmessungen sind in Zoll angegeben.
+
+13.61 43A   Pflastersaum Granit 7"/7"/7" ZM                                                                                 m
+
+13.61 43B   Pflastersaum Granit 5"/7"/7" ZM                                                                                 m
+13.61 44    Pflastersaum mit "alten" Großpflastersteinen aus Granit in Betonbettung (BB) (Betonbettung in eigener Position
+            beschrieben). Abmessungen sind in Zoll angegeben.
+
+13.61 44A   Pflastersaum Granit 7"/7"/7" BB                                                                                 m
+
+13.61 44B   Pflastersaum Granit 5"/7"/7" BB                                                                                 m
+13.61 45    Aufzahlung (Az) auf Pflastersaum für das bogenförmige Versetzen, Radius bis 10 m.
+
+13.61 45A   Az Bogen b.10 m Pflastersaum                                                                                    m
+13.61 51    Pflasterstreifen (Pflasterstr.) mit neuen Kleinpflastersteinen (KP) aus Granit im 3 bis 6 cm dicken
+            Zementmörtelbett (ZM).
+            Im Positionsstichwort ist die Anzahl der Scharen (S) angegeben.
+
+13.61 51A   Pflasterstr.2S Granit 7/7/7 KPS1 ZM                                                                             m
+
+13.61 51B   Pflasterstr.2S Granit 9/9/9 KPS2 ZM                                                                             m
+
+13.61 51C   Pflasterstr.2S Granit 11/11/11 KPS3 ZM                                                                          m
+
+13.61 51D   Pflasterstr.3S Granit 7/7/7 KPS1 ZM                                                                             m
+
+13.61 51E   Pflasterstr.3S Granit 9/9/9 KPS2 ZM                                                                             m
+
+13.61 51F   Pflasterstr.3S Granit 11/11/11 KPS3 ZM                                                                          m
+
+13.61 51G   Pflasterstr.4S Granit 7/7/7 KPS1 ZM                                                                             m
+
+13.61 51H   Pflasterstr.4S Granit 9/9/9 KPS2 ZM                                                                             m
+
+13.61 51I   Pflasterstr.4S Granit 11/11/11 KPS3 ZM                                                                          m
+13.61 52    Pflasterstreifen (Pflasterstr.) mit "alten" Großpflastersteinen aus Granit im 3 bis 6 cm dicken Zementmörtelbett
+            (ZM). Abmessungen sind in Zoll angegeben.
+
+13.61 52A   Pflasterstr.2S Granit 7"/7"/7" ZM                                                                               m
+
+13.61 52B   Pflasterstr.2S Granit 7"/5"/7" ZM                                                                               m
+13.61 53    Pflasterstreifen mit "alten" Großpflastersteinen aus Granit in Betonbettung (Betonbettung in eigener Position
+            beschrieben). Abmessungen sind in Zoll angegeben.
+
+13.61 53A   Pflasterstr.2S Granit 7"/7"/7" BB                                                                               m
+
+13.61 53B   Pflasterstr.2S Granit 7"/5"/7" BB                                                                               m
+13.61 54    Pflasterstreifen (Pflasterstr.) mit neuen Großpflastersteinen aus Granit im 3 bis 6 cm dicken Zementmörtelbett
+            (ZM) satt verlegt, Oberfläche gesägt oder gestrahlt.
+            Im Positionsstichwort ist die Anzahl der Scharen (S) angegeben.
+
+13.61 54A   Pflasterstr.2S Granit 18/9/18 ges.ZM                                                                            m
+
+13.61 54B   Pflasterstr.2S Granit 18/5-6/18 ges.ZM                                                                          m
+
+
+                                                                                                                      Seite 18 / 31
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+13.61 54C   Pflasterstr.3S Granit 18/9/18 ges.ZM                                                                            m
+
+13.61 54E   Pflasterstr.3S Granit 18/5-6/18 ges.ZM                                                                          m
+
+13.61 54F   Pflasterstr.4S Granit 18/9/18 ges.ZM                                                                            m
+
+13.61 54G   Pflasterstr.4S Granit 18/5-6/18 ges.ZM                                                                          m
+13.61 55    Pflasterstreifen (Pflasterstr.) mit Großwürfelsteinen aus Granit in Betonbettung (BB) (Betonbettung in eigener
+            Position beschrieben), Oberfläche gesägt oder gestrahlt.
+            Im Positionsstichwort ist die Anzahl der Scharen (S) angegeben.
+
+13.61 55A   Pflasterstr.2S Granit 18/9/18 ges.BB                                                                            m
+
+13.61 55B   Pflasterstr.2S Granit 18/5-6/18 ges.BB                                                                          m
+
+13.61 55C   Pflasterstr.3S Granit 18/9/18 ges.BB                                                                            m
+
+13.61 55D   Pflasterstr.3S Granit 18/5-6/18 ges.BB                                                                          m
+
+13.61 55E   Pflasterstr.4S Granit 18/9/18 ges.BB                                                                            m
+
+13.61 55F   Pflasterstr.4S Granit 18/5-6/18 ges.BB                                                                         m
+13.61 56    Pflasterstreifen (Pflasterstr.) mit Großpflastersteinen aus Granit, in einem 3 bis 6 cm dicken Zementmörtelbett
+            (ZM) satt verlegt.
+            Im Positionsstichwort ist die Anzahl der Scharen (S) angegeben.
+
+13.61 56A   Pflasterstr.2S Granit 18/18/18 GPS1 ZM                                                                          m
+
+13.61 56B   Pflasterstr.2S Granit 18/13/18 GPS3 ZM                                                                          m
+
+13.61 56C   Pflasterstr.2S Granit 16/16/16 GPS7 ZM                                                                          m
+
+13.61 56D   Pflasterstr.3S Granit 18/18/18 GPS1 ZM                                                                          m
+
+13.61 56E   Pflasterstr.3S Granit 18/13/18 GPS3 ZM                                                                          m
+
+13.61 56F   Pflasterstr.3S Granit 16/16/16 GPS7 ZM                                                                         m
+
+13.61 56G   Pflasterstr.4S Granit 18/18/18 GPS1 ZM                                                                         m
+
+13.61 56H   Pflasterstr.4S Granit 18/13/18 GPS3 ZM                                                                         m
+
+13.61 56I   Pflasterstr.4S Granit 16/16/16 GPS7 ZM                                                                         m
+13.61 57    Pflasterstreifen (Pflasterstr.) mit Großpflastersteinen aus Granit, in Betonbettung (Betonbettung in eigener
+            Position beschrieben).
+            Im Positionsstichwort ist die Anzahl der Scharen (S) angegeben.
+
+13.61 57A   Pflasterstr.2S Granit 18/18/18 GPS1 BB                                                                          m
+
+13.61 57B   Pflasterstr.2S Granit 18/13/18 GPS3 BB                                                                          m
+
+13.61 57C   Pflasterstr.2S Granit 16/16/16 GPS7 BB                                                                          m
+
+13.61 57D   Pflasterstr.3S Granit 18/18/18 GPS1 BB                                                                          m
+
+13.61 57E   Pflasterstr.3S Granit 18/13/18 GPS3 BB                                                                          m
+
+13.61 57F   Pflasterstr.3S Granit 16/16/16 GPS7 BB                                                                         m
+
+13.61 57G   Pflasterstr.4S Granit 18/18/18 GPS1 BB                                                                         m
+
+13.61 57H   Pflasterstr.4S Granit 18/13/18 GPS3 BB                                                                         m
+
+13.61 57I   Pflasterstr.4S Granit 16/16/16 GPS7 BB                                                                         m
+
+
+                                                                                                                      Seite 19 / 31
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+13.61 59    Aufzahlung (Az) auf Pflasterstreifen für das bogenförmige Versetzen, Radius bis 10 m.
+            Im Positionsstichwort ist die Anzahl der Scharen (S) angegeben.
+
+13.61 59A   Az f.Bogen b.10m Pflasterstreifen 2S                                                                         m
+
+13.61 59B   Az f.Bogen b.10m Pflasterstreifen 3S                                                                         m
+
+13.61 59C   Az f.Bogen b.10m Pflasterstreifen 4S                                                                         m
+13.61 61    Aufzahlung (Az) auf Pflasterstreifen für das Ausbilden von Mulden.
+            Im Positionsstichwort ist die Anzahl der Scharen (S) angegeben.
+
+13.61 61A   Az f.Muldenausbildung 1S                                                                                     m
+
+13.61 61B   Az f.Muldenausbildung 2S                                                                                     m
+
+13.61 61C   Az f.Muldenausbildung 3S                                                                                     m
+13.62       Kleinsteinpflaster
+
+
+            1. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • eine hammerfeste Ausführung
+                • eine Sandbettung (S) im verdichteten Zustand 3 bis 6 cm dick
+                • eine Fugenfüllung mit Sand (SF) auf volle Fugenhöhe eingekehrt, eingeschlämmt und verdichtet
+                • das Schlämmen und Abrütteln der Fläche
+                • das Fugenmaterial
+                • ein Verlegeverband als Segmentbogen
+            2. Angaben im Positionsstichwort bei Kleinsteinpflaster:
+            Im Positionsstichwort sind das Format und die Type angegeben.
+            LB-Version: 23               Geringfügig Geändert
+13.62 01    Pflaster mit Kleinsteinen aus Granit.
+
+13.62 01A   Kleinsteine Granit 11/11/11 KPS3 S/SF                                                                        m²
+
+13.62 01B   Kleinsteine Granit 9/9/9 KPS2 S/SF                                                                           m²
+
+13.62 01C   Kleinsteine Granit 7/7/7 KPS1 S/SF                                                                           m²
+
+13.62 01D   Kleinsteine Granit 8/10 gebraucht S/SF                                                                       m²
+13.62 02    Pflaster mit Kleinsteinen aus Porphyr.
+
+13.62 02A   Kleinsteine Porphyr 11/11/11 KPS3 S/SF                                                                       m²
+
+13.62 02B   Kleinsteine Porphyr 9/9/9 KPS2 S/SF                                                                          m²
+
+13.62 02C   Kleinsteine Porphyr 7/7/7 KPS1 S/SF                                                                          m²
+13.62 03    Pflaster mit Mosaikpflastersteinen (Mosaik) aus Granit.
+
+13.62 03A   Mosaik Granit 4,5/4,5/4,5 MPS1 S/SF                                                                          m²
+13.62 11    Dehnfugen für Fugenausbildungen im Flächenbereich (z.B. entlang fester Begrenzungen, um Einbauten herum)
+            mittels Einlegen von Styroporstreifen, einschließlich Reinigen der Fugenkanten und Grundieren mit
+            Fugenprimer, Einlegen eines runden Fugenhinterfüllprofiles aus geschlossenzelligem, unverrottbarem
+            Polyethylen-Schaumstoff, Verfüllen des Fugenraumes mit einem dauerelastischen, haftfesten Fugenfüllstoff auf
+            Kunststoffbasis. Fugenfüllstofftiefe entspricht der Fugenbreite. Dauerdehnung des Fugenfüllstoffes 25%,
+            Shore-A-Härte höchstens 35.
+            Im Positionsstichwort ist die Breite angegeben.
+
+13.62 11A   Dehnfugen Kleinsteinpflaster b.10mm                                                                          m
+            LB-Version: 23               Geringfügig Geändert
+
+13.62 11B   Dehnfugen Kleinsteinpflaster ü.10-20mm                                                                       m
+                                                                                                                   Seite 20 / 31
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+            LB-Version: 23              Geringfügig Geändert
+
+13.62 11C   Dehnfugen Kleinsteinpflaster ü.20-30mm                                                                        m
+            LB-Version: 23              Geringfügig Geändert
+13.62 21    Aufzahlung (Az) auf Kleinsteinpflasterungen für die erschwerte Pflasterung in geraden, geschnürten (gg)
+            Scharen.
+
+13.62 21A   Az gg Scharen 11/11/11 KPS3                                                                                   m²
+
+13.62 21B   Az gg Scharen 9/9/9 KPS2                                                                                      m²
+
+13.62 21C   Az gg Scharen 7/7/7 KPS1                                                                                      m²
+
+13.62 21D   Az gg Scharen 4,5/4,5/4,5 MPS1                                                                                m²
+13.62 22    Aufzahlung (Az) auf Kleinsteinpflasterungen für die erschwerte Pflasterung in Schuppenform mit ein- oder
+            mehrfarbigen Steinen.
+
+13.62 22A   Az Schuppenform 7/7/7 KPS1                                                                                    m²
+
+13.62 22B   Az Schuppenform 4,5/4,5/4,5 MPS1                                                                              m²
+13.62 23    Aufzahlung (Az) auf Kleinsteinpflasterungen für die erschwerte Pflasterung im Passeverband.
+
+13.62 23A   Az Passeverband 11/11/11 KPS3                                                                                 m²
+
+13.62 23B   Az Passeverband 9/9/9 KPS2                                                                                    m²
+
+13.62 23C   Az Passeverband 7/7/7 KPS1                                                                                    m²
+
+13.62 23D   Az Passeverband 4,5/4,5/4,5 MPS1                                                                              m²
+13.62 24    Aufzahlung (Az) auf Kleinsteinpflasterungen (Kleinstein).
+
+13.62 24A   Az Kleinstein Mörtelbettung 3-6cm                                                                             m²
+            Für eine Mörtelbettung aus Werksmörtel, 3 bis 6 cm dick.
+
+13.63       Großsteinpflaster
+
+
+            1. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • eine hammerfeste Ausführung
+                • eine Sandbettung (S) im verdichteten Zustand 3 bis 6 cm dick
+                • eine Fugenfüllung mit Sand (SF) auf volle Fugenhöhe eingekehrt, eingeschlämmt und verdichtet
+                • das Schlämmen und Abrütteln der Fläche
+                • das Fugenmaterial
+                • ein Verlegeverband in geraden Scharen auf Bund
+            2. Angaben im Positionsstichwort bei Großsteinpflaster:
+            Im Positionsstichwort ist das Format (Breite/Dicke/Länge) angegeben.
+            LB-Version: 23              Geringfügig Geändert
+13.63 01    Pflaster mit "alten" Großsteinen aus Granit. Abmessungen sind in Zoll angegeben.
+
+13.63 01A   Großsteine Granit 7"/7"/7" S/SF                                                                               m²
+
+13.63 01B   Großsteine Granit 7"/5"/7" S/SF                                                                               m²
+13.63 02    Pflaster mit Großpflastersteinen aus Granit, Oberfläche gesägt und gestrahlt.
+
+13.63 02A   Großsteine Granit 18/9/18 gesägt S/SF                                                                         m²
+
+13.63 02B   Großsteine Granit 18/5-6/18 gesägt S/SF                                                                       m²
+13.63 03    Pflaster mit Großwürfelsteinen aus Granit (GPS)
+
+
+                                                                                                                    Seite 21 / 31
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+13.63 03A   Groß-Würfelsteine Granit 18/18/18 GPS1 S/SF                                                               m²
+
+13.63 03B   Groß-Würfelsteine Granit 18/13/18 GPS3 S/SF                                                               m²
+
+13.63 03C   Groß-Würfelsteine Granit 18/9/18 GPS5 S/SF                                                                m²
+
+13.63 03D   Groß-Würfelsteine Granit 16/16/16 GPS7 S/SF                                                               m²
+13.63 04    Pflaster mit "altem" Halbgut aus Granit.
+
+13.63 04A   Grst.Halbgut Granit 24/10-16/24 S/SF                                                                      m²
+13.63 05    Pflaster mit "alten" Platten aus Granit.
+
+13.63 05A   Grst.12"-Platten Granit 32/15-17/32 S/SF                                                                  m²
+
+13.63 05B   Grst.18"-Platten Granit 48/15-17/48 S/SF                                                                  m²
+13.63 11    Oberfläche Stocken, einschließlich Laden und Entsorgen der Baurestmassen.
+
+13.63 11A   Stocken Großsteinpflaster                                                                                 m²
+13.63 12    Steinmetzmäßiges Zuarbeiten von Großsteinen an Kanten und Randeinfassungen, einschließlich Laden und
+            Entsorgen der Baurestmassen. Abgerechnet wird die bearbeitete Querschnittsfläche.
+
+13.63 12A   Zuarbeiten Großsteinpflaster                                                                              m²
+13.63 13    Dehnfugen bei Großsteinpflaster für Fugenausbildungen im Flächenbereich (z.B. entlang fester Begrenzungen,
+            um Einbauten herum) mittels Einlegen von Styroporstreifen, einschließlich Reinigen der Fugenkanten und
+            Grundieren mit Fugenprimer, Einlegen eines runden Fugenhinterfüllprofiles aus geschlossenzelligem,
+            unverrottbarem Polyethylen-Schaumstoff, Verfüllen des Fugenraumes mit einem dauerelastischen, haftfesten
+            Fugenfüllstoff auf Kunststoffbasis. Fugenfüllstofftiefe entspricht der Fugenbreite. Dauerdehnung des
+            Fugenfüllstoffes 25%, Shore-A-Härte höchstens 35.
+            Im Positionsstichwort ist die Breite angegeben.
+
+13.63 13A   Dehnfugen Großsteinpflaster b.10mm                                                                        m
+            LB-Version: 23                Geringfügig Geändert
+
+13.63 13B   Dehnfugen Großsteinpflaster ü.10-20mm                                                                     m
+            LB-Version: 23                Geringfügig Geändert
+
+13.63 13C   Dehnfugen Großsteinpflaster ü.20-30mm                                                                     m
+            LB-Version: 23                Geringfügig Geändert
+13.63 21    Aufzahlung (Az) auf Großsteinpflaster.
+
+13.63 21A   Az Großsteinpfl.Fugenverguss Heißbitumen                                                                  m²
+            Für einen Heißbitumenverguss.
+            Die gepflasterte Fläche wird vor dem Rütteln oder Rammen mit Pflastersand so eingekehrt, dass die Fugen
+            nach dem Rütteln oder Rammen halb gefüllt sind. Danach wird die Fläche mit Heißbitumen auf volle Fugenhöhe
+            vergossen.
+
+13.63 21B   Az Großsteinpfl.Mörtelbettung 3-6cm                                                                       m²
+            Für eine Mörtelbettung aus Werksmörtel, 3 bis 6 cm dick.
+
+13.64       Pflasterplatten
+
+
+            1. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • eine hammerfeste Ausführung
+                • eine Sandbettung (S) im verdichteten Zustand, 3 bis 6 cm dick
+                • eine Fugenfüllung mit Sand (SF) auf volle Fugenhöhe eingekehrt, eingeschlämmt und verdichtet
+                • das Schlämmen und Abrütteln der Fläche
+                • das Fugenmaterial
+                • ein Verlegeverband in geraden Scharen auf Bund
+
+                                                                                                                Seite 22 / 31
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            2. Angaben im Positionsstichwort bei Pflasterplatten:
+            Im Positionsstichwort ist das Format angegeben.
+            LB-Version: 23                 Geringfügig Geändert
+13.64 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+13.64 00C   Material zu 13.64 Oberfläche
+            Betrifft Position(en): ____________
+            Oberfläche: ____________
+
+13.64 00D   Material zu 13.64 Oberflächenschutz
+            Betrifft Position(en): ____________
+            Oberflächenschutz: ____________
+
+13.64 01    Pflasterplatten aus Granit (Typ PP).
+
+13.64 01A   Pflasterplatten Granit 24/8/24 PP1 S/SF                                                                       m²
+
+13.64 01B   Pflasterplatten Granit 32/10/32 PP3 S/SF                                                                      m²
+
+13.64 01C   Pflasterplatten Granit 48/12/48 PP5 S/SF                                                                      m²
+13.64 02    Pflasterplatten aus Granit.
+
+13.64 02A   Pflasterplatten Granit 25-50/4/25-50 S/SF                                                                     m²
+
+13.64 02B   Pflasterplatten Granit 25-50/5/25-50 S/SF                                                                     m²
+
+13.64 02C   Pflasterplatten Granit 25-50/6/25-50 S/SF                                                                     m²
+
+13.64 02D   Pflasterplatten Granit 25-50/8/25-50 S/SF                                                                     m²
+
+13.64 02E   Pflasterplatten Granit 25-50/10/25-50 S/SF                                                                    m²
+
+13.64 02F   Pflasterplatten Granit 25-50/12/25-50 S/SF                                                                   m²
+
+13.64 02G   Pflasterplatten Granit 25-50/14/25-50 S/SF                                                                   m²
+
+13.64 02H   Pflasterplatten Granit 25-50/18/25-50 S/SF                                                                   m²
+13.64 03    Pflasterplatten aus Porphyr.
+
+13.64 03A   Pflasterplatten Porph.25-50/3-7/25-50 S/SF                                                                    m²
+13.64 04    Graue Pflasterplatten aus Beton.
+
+13.64 04A   Pflasterplatten Beton 30-60/4/30-60 S/SF                                                                      m²
+
+13.64 04B   Pflasterplatten Beton 30-60/5/30-60 S/SF                                                                      m²
+
+13.64 04C   Pflasterplatten Beton 30-60/6/30-60 S/SF                                                                      m²
+
+13.64 04D   Pflasterplatten Beton 30-60/8/30-60 S/SF                                                                      m²
+
+13.64 04E   Pflasterplatten Beton 30-60/10/30-60 S/SF                                                                     m²
+
+13.64 04F   Pflasterplatten Beton 30-60/12/30-60 S/SF                                                                     m²
+
+13.64 04G   Pflasterplatten Beton 30-60/14/30-60 S/SF                                                                     m²
+
+13.64 04H   Pflasterplatten Beton 30-60/18/30-60 S/SF                                                                     m²
+
+13.64 04I   Pflasterplatten Beton 30-60/20/30-60 S/SF                                                                     m²
+
+13.64 04J   Pflasterplatten Beton 30-60/20/61-100 S/SF                                                                   m²
+13.64 11    Pflasterplatten aus Kombiplatten (Mehrschichtplatten) aus Granit, einschließlich Betonsockel.
+
+
+                                                                                                                    Seite 23 / 31
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+13.64 11A   Kombiplatten Granit 2+10 25-40/12/25-80 S/SF                                                                m²
+
+13.64 11B   Kombiplatten Granit 2+12 25-40/14/25-80 S/SF                                                                m²
+
+13.64 11C   Kombiplatten Granit 3+13 25-40/16/25-80 S/SF                                                                m²
+
+13.64 11D   Kombiplatten Granit 3+15 25-40/18/25-80 S/SF                                                                m²
+
+13.64 11E   Kombiplatten Granit 3+17 25-40/20/25-80 S/SF                                                                m²
+13.64 21    Schneiden von Naturstein-, Kombi- oder Betonsteinplatten. Abgerechnet wird die geschnittene
+            Querschnittsfläche der Platte.
+
+13.64 21A   Schneiden Natursteinplatten/Kombiplatten                                                                    m²
+
+13.64 21B   Schneiden Betonsteinplatten                                                                                 m²
+13.64 24    Steinmetzmäßiges Zuarbeiten von Pflasterplatten an Kanten und Randeinfassungen, einschließlich Laden und
+            Entsorgen der Baurestmassen. Abgerechnet wird die bearbeitete Querschnittsfläche.
+
+13.64 24A   Zuarbeiten Pflasterplatten                                                                                  m²
+13.64 31    Dehnfugen bei Pflasterplatten für Fugenausbildungen im Flächenbereich (z.B. entlang fester Begrenzungen, um
+            Einbauten herum) mittels Einlegen von Styroporstreifen, einschließlich Reinigen der Fugenkanten und
+            Grundieren mit Fugenprimer, Einlegen eines runden Fugenhinterfüllprofiles aus geschlossenzelligem,
+            unverrottbarem Polyethylen-Schaumstoff, Verfüllen des Fugenraumes mit einem dauerelastischen, haftfesten
+            Fugenfüllstoff auf Kunststoffbasis. Fugenfüllstofftiefe entspricht der Fugenbreite. Dauerdehnung des
+            Fugenfüllstoffes 25%, Shore-A-Härte höchstens 35.
+            Im Positionsstichwort ist die Breite angegeben.
+
+13.64 31A   Dehnfugen Pflasterplatten 10mm                                                                              m
+            LB-Version: 23               Geringfügig Geändert
+
+13.64 31B   Dehnfugen Pflasterplatten >10-20 mm                                                                         m
+            LB-Version: 23               Geringfügig Geändert
+
+13.64 31C   Dehnfugen Pflasterplatten >20-30 mm                                                                         m
+            LB-Version: 23               Geringfügig Geändert
+13.64 51    Aufzahlung (Az) auf Pflasterplatten.
+
+13.64 51A   Az Pflasterplatten Mörtelbettung 3-6cm                                                                      m²
+            Für eine Mörtelbettung aus Werksmörtel. Im Positionsstichwort ist die Dicke angegeben.
+
+13.64 51B   Az Pflasterplatten Fugenverguss ZM                                                                          m²
+            Für einen Fugenverguss mit Zementmörtel.
+
+13.64 51C   Az Pflasterplatten Kreuzfuge                                                                                m²
+            Für Kreuzfugen.
+
+13.64 51D   Az Pflasterplatten Fixlängen                                                                                m²
+            Für Fixlängen (bei vorgegebenen Breiten- und Längenangaben).
+
+13.64 51E   Az Pflasterplatten Abfasen                                                                                  m
+            Für das Abfasen.
+
+13.65       Betonsteinpflaster
+
+
+            1. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • eine Sandbettung (S) im verdichteten Zustand, 3 bis 6 cm dick
+                • eine Fugenfüllung mit Sand (SF) auf volle Fugenhöhe eingekehrt, eingeschlämmt und verdichtet
+                • das Schlämmen und Abrütteln der Fläche
+                • Standardfarbe ist grau
+                                                                                                                  Seite 24 / 31
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            2. Angaben im Positionsstichwort bei Pflasterplatten:
+            Im Positionsstichwort ist die Dicke und bei Betonpflastersteinen die Anzahl der Steine/m2 angegeben.
+            LB-Version: 23              Geringfügig Geändert
+13.65 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+13.65 00C   Material zu 13.65 Oberfläche
+            Betrifft Position(en): ____________
+            Oberfläche: ____________
+
+13.65 00D   Material zu 13.65 Oberflächenschutz
+            Betrifft Position(en): ____________
+            Oberflächenschutz: ____________
+
+13.65 00E   Material zu 13.65 Sonderfarben
+            Betrifft Position(en): ____________
+            Sonderfarbe: ____________
+13.65 01    Pflasterung mit Betonpflastersteinen, Fugenmaterial und das Verlegen im Läuferverband.
+
+13.65 01A   Betonpflastersteine 5cm b.50St/m2 S/SF                                                                        m²
+
+13.65 01B   Betonpflastersteine 5cm ü.50St/m2 S/SF                                                                        m²
+
+13.65 01C   Betonpflastersteine 6cm b.50St/m2 S/SF                                                                        m²
+
+13.65 01D   Betonpflastersteine 6cm ü.50St/m2 S/SF                                                                        m²
+
+13.65 01E   Betonpflastersteine 7cm b.50St/m2 S/SF                                                                        m²
+
+13.65 01F   Betonpflastersteine 7cm ü.50St/m2 S/SF                                                                       m²
+
+13.65 01G   Betonpflastersteine 8cm b.50St/m2 S/SF                                                                       m²
+
+13.65 01H   Betonpflastersteine 8cm ü.50St/m2 S/SF                                                                       m²
+
+13.65 01I   Betonpflastersteine 10cm b.50St/m2 S/SF                                                                      m²
+
+13.65 01J   Betonpflastersteine 10cm ü.50St/m2 S/SF                                                                      m²
+
+13.65 01K   Betonpflastersteine 12cm b.50St/m2 S/SF                                                                      m²
+
+13.65 01L   Betonpflastersteine 12cm ü.50St/m2 S/SF                                                                      m²
+
+13.65 01M   Betonpflastersteine 14cm b.50St/m2 S/SF                                                                      m²
+
+13.65 01N   Betonpflastersteine 14cm ü.50St/m2 S/SF                                                                      m²
+13.65 11    Pflasterung mit Betonverbundpflastersteinen, Fugenmaterial und Verlegen im Läuferverband.
+
+13.65 11A   Betonverbundpflastersteine 6cm b.50St/m2 S/SF                                                                 m²
+
+13.65 11B   Betonverbundpflastersteine 6cm ü.50St/m2 S/SF                                                                 m²
+
+13.65 11C   Betonverbundpflastersteine 8cm b.50St/m2 S/SF                                                                 m²
+
+13.65 11D   Betonverbundpflastersteine 8cm ü.50St/m2 S/SF                                                                 m²
+
+13.65 11E   Betonverbundpflastersteine 10cm b.50St/m2 S/SF                                                                m²
+
+13.65 11F   Betonverbundpflastersteine 10cm ü.50St/m2 S/SF                                                               m²
+13.65 21    Gitterplatten aus Beton für Verkehrsflächen (befahrb.), mit Aussparungen (1/3 bis 1/2 der Gesamtfläche) verlegt,
+            Einbringen eines Sand-Oberbodengemisches (SO) in die Aussparungen und Einkehren auf 1/3 der vollen
+            Steinhöhe. Das Besämen und Befeuchten erfolgt durch den Auftraggeber.
+
+
+                                                                                                                    Seite 25 / 31
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+13.65 21A   Gitterplatten Beton 8cm befahrb.SO                                                                          m²
+
+13.65 21B   Gitterplatten Beton 10cm befahrb.SO                                                                         m²
+
+13.65 21C   Gitterplatten Beton 12cm befahrb.SO                                                                         m²
+
+13.65 21D   Gitterplatten Beton 30cm befahrb.SO                                                                         m²
+             Kommentar:
+             Diese Platten werden auf Anfrage gesondert produziert.
+
+13.65 22    Gitterplatten aus Beton für Mulden und Böschungen, mit Aussparungen (1/3 bis 1/2 der Gesamtfläche) verlegt,
+            Einbringen eines Sand-Oberbodengemisches (SO) in die Aussparungen und Einkehren auf 1/3 der vollen
+            Steinhöhe. Das Besämen und Befeuchten erfolgt durch den Auftraggeber.
+
+13.65 22A   Gitterplatten Beton 8cm Mulden+Böschung                                                                     m²
+
+13.65 22B   Gitterplatten Beton 10cm Mulden+Böschung                                                                    m²
+
+13.65 22C   Gitterplatten Beton 12cm Mulden+Böschung                                                                    m²
+13.65 31    Ökopflastersteine aus Beton für Verkehrsflächen, Sandfuge (SF), wasserdurchlässig.
+
+13.65 31A   Ökopflastersteine Beton 8cm b.50St/m2 SF                                                                    m²
+
+13.65 31B   Ökopflastersteine Beton 8cm ü.50St/m2 SF                                                                    m²
+
+13.65 31C   Ökopflastersteine Beton 10cm b.50St/m2 SF                                                                   m²
+
+13.65 31D   Ökopflastersteine Beton 10cm ü.50St/m2 SF                                                                   m²
+
+13.65 31E   Ökopflastersteine Beton 12cm b.50St/m2 SF                                                                   m²
+
+13.65 31F   Ökopflastersteine Beton 12cm ü.50St/m2 SF                                                                   m²
+13.65 32    Ökopflastersteine aus Beton für Verkehrsflächen, mit grüner Fuge, wasserdurchlässig, einschließlich Einbringen
+            eines Sand-Oberbodengemisches (SO) in die Aussparungen und Einkehren auf 1/3 der vollen Steinhöhe. Das
+            Besämen und Befeuchten erfolgt durch den Auftraggeber.
+
+13.65 32A   Ökopflastersteine Beton 8cm b.50St/m2 SO                                                                    m²
+
+13.65 32B   Ökopflastersteine Beton 8cm ü.50St/m2 SO                                                                    m²
+
+13.65 32C   Ökopflastersteine Beton 10cm b.50St/m2 SO                                                                   m²
+
+13.65 32D   Ökopflastersteine Beton 10cm ü.50St/m2 SO                                                                   m²
+
+13.65 32E   Ökopflastersteine Beton 12cm b.50St/m2 SO                                                                   m²
+
+13.65 32F   Ökopflastersteine Beton 12cm ü.50St/m2 SO                                                                   m²
+13.65 41    Betonsteine mit hydraulischer oder mechanischer Spaltpresse spalten. Abgerechnet wird die gespaltene Länge.
+
+13.65 41A   Spalten Betonsteine b.6cm                                                                                   m
+
+13.65 41B   Spalten Betonsteine ü.6-10cm                                                                                m
+13.65 42    Schneiden von Beton-/Ökosteinen. Abgerechnet wird die geschnittene Querschnittsfläche der Platte.
+
+13.65 42A   Schneiden Beton-/Ökosteine                                                                                  m²
+13.65 51    Dehnfugen bei Betonsteinpflaster für Fugenausbildungen im Flächenbereich (z.B. entlang fester Begrenzungen,
+            um Einbauten herum) mittels Einlegen von Styroporstreifen, einschließlich Reinigen der Fugenkanten und
+            Grundieren mit Fugenprimer, Einlegen eines runden Fugenhinterfüllprofiles aus geschlossenzelligem,
+            unverrottbarem Polyethylen-Schaumstoff, Verfüllen des Fugenraumes mit einem dauerelastischen, haftfesten
+            Fugenfüllstoff auf Kunststoffbasis. Fugenfüllstofftiefe entspricht der Fugenbreite. Dauerdehnung des
+            Fugenfüllstoffes 25 %, Shore-A-Härte höchstens 35.
+            Im Positionsstichwort ist die Breite angegeben.
+
+13.65 51A   Dehnfugen Betonsteinpflastersteine 10mm                                                                     m
+
+                                                                                                                  Seite 26 / 31
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+            LB-Version: 23                Geringfügig Geändert
+
+13.65 51B   Dehnfugen Betonsteinpflastersteine ü.10-20mm                                                                m
+            LB-Version: 23                Geringfügig Geändert
+
+13.65 51C   Dehnfugen Betonsteinpflastersteine ü.20-30mm                                                                m
+            LB-Version: 23                Geringfügig Geändert
+13.65 61    Aufzahlung (Az) auf Betonsteinpflaster.
+
+13.65 61A   Az Abfasen Betonsteine                                                                                      m
+            Für das Abfasen von geschnittenen oder gezwickten Kanten mit Topfscheibe.
+
+13.65 61B   Az Markierungssteine                                                                                        m
+            Für das Liefern und Einlegen von andersfärbigen Markierungssteinen.
+
+13.65 61C   Az Blindensteine                                                                                            m
+            Für das Liefern und Einlegen von Blindensteinen als Bodeninformation.
+
+13.65 61D   Az Steine ohne Fase                                                                                         m
+            Für das Liefern und Verlegen von Steinen ohne Fase und ohne Scheinfuge mit Sicherungsnoppen.
+
+13.65 61E   Az Betonsteinpflaster Mörtelbettung 3-6cm                                                                   m²
+            Für eine Mörtelbettung aus Werksmörtel. Im Positionsstichwort ist die Dicke angegeben.
+
+13.66       Pflasterklinker
+
+
+            1. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • eine Sandbettung (S) im verdichteten Zustand, 3 bis 6 cm dick
+                • eine Fugenfüllung mit Sand (SF) auf volle Fugenhöhe eingekehrt, eingeschlämmt und verdichtet
+                • das Schlämmen und Abrütteln der Fläche
+                • das Fugenmaterial
+                • ein Verlegeverband in geraden Scharen auf Bund
+                • Standardfarbe ist rot
+            2. Angaben im Positionsstichwort bei Pflasterklinker:
+            Im Positionsstichwort sind das Format und die Verlegeart angegeben.
+            LB-Version: 23                Geringfügig Geändert
+13.66 01    Pflasterung mit Pflasterklinkersteinen (Pflasterklinker).
+
+13.66 01A   Pflasterklinker 25/12/6,5 liegend S/SF                                                                      m²
+
+13.66 01B   Pflasterklinker 25/6,5/12 stehend S/SF                                                                      m²
+13.66 11    Dehnfugen bei Pflasterklinker für Fugenausbildungen im Flächenbereich (z.B. entlang fester Begrenzungen, um
+            Einbauten herum) mittels Einlegen von Styroporstreifen, einschließlich Reinigen der Fugenkanten und
+            Grundieren mit Fugenprimer, Einlegen eines runden Fugenhinterfüllprofiles aus geschlossenzelligem,
+            unverrottbarem Polyethylen-Schaumstoff, Verfüllen des Fugenraumes mit einem dauerelastischen, haftfesten
+            Fugenfüllstoff auf Kunststoffbasis. Fugenfüllstofftiefe entspricht der Fugenbreite. Dauerdehnung des
+            Fugenfüllstoffes 25%, Shore-A-Härte höchstens 35.
+            Im Positionsstichwort ist die Breite angegeben.
+
+13.66 11A   Dehnfugen Pflasterklinker b.10mm                                                                            m
+            LB-Version: 23                Geringfügig Geändert
+
+13.66 11B   Dehnfugen Pflasterklinker ü.10-20mm                                                                         m
+            LB-Version: 23                Geringfügig Geändert
+
+13.66 11C   Dehnfugen Pflasterklinker ü.20-30mm                                                                         m
+            LB-Version: 23                Geringfügig Geändert
+
+                                                                                                                  Seite 27 / 31
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+13.66 12    Schneiden von Pflasterklinkersteinen. Abgerechnet wird die geschnittene Querschnittsfläche der Klinkersteine.
+
+13.66 12A   Schneiden Pflasterklinker                                                                                     m²
+13.66 21    Aufzahlung (Az) auf Pflasterklinker
+
+13.66 21A   Az Pflasterklinker Mörtelbettung 3-6cm                                                                        m²
+            Für eine Mörtelbettung aus Werksmörtel, 3 bis 6 cm dick.
+
+13.69       Pflasterstufen
+
+
+            Angaben im Positionsstichwort:
+            Im Positionsstichwort sind die Abmessungen oder Type und die Art der Steine angegeben.
+
+13.69 01    Stufen aus Randbegrenzungssteinen in 20 cm Unterlagsbeton C16/20, einschließlich Fugen aus Zementmörtel.
+            Stufen bis 18 cm hoch und bis 35 cm Auftrittstiefe.
+
+13.69 01A   Stufen Großsteine GPS1 Kleinst.KPS1 7/7/7                                                                     m
+
+13.69 01B   Stufen Großsteine GPS2 Kleinst.KPS1 7/7/7                                                                     m
+
+13.69 01C   Stufen Großsteine GPS1 Kleinst.KPS2 11/11/11                                                                  m
+
+13.69 01D   Stufen Großsteine GPS2 Kleinst.KPS2 11/11/11                                                                  m
+
+13.69 01E   Stufen Leistensteine LS3 Kleinst.KPS1 7/7/7                                                                   m
+
+13.69 01F   Stufen Leistensteine LS3 Kleinst.KPS2 11/11/11                                                                m
+13.69 02    Trittstufen auf bestehende Betonkernstufen in Zementmörtelbett, mit Zementmörtel verfugt, mit Platten aus
+            Granit versetzen, Plattenbreite bis 35 cm. Abgerechnet wird die Summe der Längen der Stufenvorderkanten.
+            Im Positionsstichwort ist die Dicke angegeben.
+
+13.69 02A   Trittplatte 3cm                                                                                               m
+
+13.69 02B   Trittplatte 4cm                                                                                               m
+13.69 03    Setzplatten auf bestehende Betonkernstufen in Zementmörtelbett, mit Zementmörtel verfugt, mit Platten aus
+            Granit versetzen, Plattenhöhe bis 15 cm. Abgerechnet wird die Summe der Längen der Stufenvorderkanten.
+            Im Positionsstichwort ist die Dicke angegeben.
+
+13.69 03A   Setzplatte 3cm                                                                                                m
+13.69 11    Stufen aus Randbegrenzungssteinen aus Beton, Auftritt ausgepflastert, Stufen bis 18 cm hoch und bis 40 cm
+            Auftrittstiefe.
+            Im Positionsstichwort ist die Art der Platten angegeben.
+
+13.69 11A   Stufen Betonrandstein-Betonsteinpflaster                                                                      m
+
+13.69 11B   Stufen Betonrandstein-Betonpflasterplatten                                                                    m
+13.69 12    Tritt- und Setzstufen aus Beton versetzt in Drainagemörtelbett bis 4 cm oder in Dünnbettmörtel.
+            Im Positionsstichwort ist die Dicke angegeben.
+
+13.69 12A   Tritt-u.Setzstufen Betonsteinpflaster                                                                         m
+
+13.69 12B   Tritt-u.Setzstufen Betonpflasterplatten                                                                       m
+
+13.69 12X   Tritt-u.Setzstufen Betonpflasterplatten AG                                                                    m
+            Angaben: ____________
+
+13.69 15    Winkelstufen aus Beton, versetzt in Drainagemörtelbett bis 4 cm Dicke oder in Dünnbettmörtel, Stufen bis 18 cm
+            hoch und bis 40 cm Auftrittstiefe. Abgerechnet werden die Längen der Stufenvorderkanten.
+
+13.69 15X   Betonwinkelstufen AG                                                                                          m
+            Angaben: ____________
+
+13.69 17    Keilstufen aus Beton (Betonkeilstufen), versetzt in Drainagemörtelbett bis 4 cm Dicke oder in Dünnbettmörtel,
+            Stufen bis 18 cm hoch und bis 40 cm Auftrittstiefe. Abgerechnet werden die Längen der Stufenvorderkanten.
+                                                                                                                    Seite 28 / 31
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+13.69 17X   Betonkeilstufen AG                                                                                                    m
+            Angaben: ____________
+
+13.69 19    Blockstufen aus Beton (Betonblockstufen), versetzt in 20 cm Unterlagsbeton, Stufen bis 18 cm hoch und bis 40
+            cm Auftrittstiefe. Abgerechnet werden die Längen der Stufenvorderkanten.
+            Im Positionsstichwort ist die größte Einzellänge angegeben.
+
+13.69 19A   Betonblockstufen b.0,5m                                                                                               m
+
+13.69 19B   Betonblockstufen ü.0,5-1m                                                                                             m
+
+13.69 19X   Betonblockstufen ü.1m bis__________                                                                                   m
+13.71       Böschungen, Stein- und Einfriedungsmauern
+
+
+            Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • das Herstellen von allfällig angegebenen Wandneigungen, Abstufungen, Säulen, Radienausbildungen,
+                  Ecken, statische Verstärkungen
+                • Liefern und lagenweises Herstellen der Konstruktion im Zuge des Baufortschrittes
+                • das Verdichten von Hinterfüllungsmaterial
+                • Herstellung einer Wand- oder Säulenkrone
+             Kommentar:
+             Aushub, Drainage, Fundament, Begrünungsmaßnahmen, Absturzsicherungen und Zaunfelder sind in eigenen Positionen
+             beschrieben.
+             Als Grundlagen gelten die Verarbeitungshinweise, einschließlich Typenstatik des Steinherstellers. Die Ausschreibung von
+             Wänden außerhalb des in der Typenstatik abgedeckten Anwendungsbereiches bedarf einer auf das konkrete Objekt
+             abgestimmten Dimensionierung des gesamten lastabtragenden Bausystems.
+
+13.71 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+13.71 00E   Material zu 31.71 Sonderfarben
+            Betrifft Position(en): ____________
+            Sonderfarbe: ____________
+13.71 01    Einseitiges Betonsteinsichtmauerwerk (-mwk.), in ungebundener Bauweise (lose Schlichtung) gemäß Plan des
+            Auftraggebers. Abgerechnet wird nach der größten Ansichtsfläche, gemessen über die äußeren
+            Randbegrenzungen.
+            Im Positionsstichwort ist die Höhe der Wand angegeben.
+
+13.71 01A   Betonsteinsichtmwk.einseitig b.1,5m                                                                                   m²
+
+13.71 01B   Betonsteinsichtmwk.einseitig ü.1,5m bis__________                                                                     m²
+13.71 11    Freistehendes (freist.) Betonsteinsichtmauerwerk (-mwk.) grau, in ungebundener Bauweise (lose Schlichtung)
+            gemäß Plan des Auftraggebers. Abgerechnet wird nach der größten Ansichtsfläche, gemessen über die
+            äußeren Randbegrenzungen.
+            Im Positionsstichwort ist die Höhe der Wand angegeben.
+
+13.71 11A   Betonsteinsichtmwk.freist.b.1,5m                                                                                      m²
+
+13.71 11B   Betonsteinsichtmwk.freist.ü.1,5m bis__________                                                                        m²
+13.71 21    Aufzahlung (Az) auf Betonsteinsichtmauerwerk (-mwk.). Abgerechnet wird die Ansichtsfläche.
+
+13.71 21A   Az Betonsichtmwk.freist.mit Sichtfuge                                                                                 m²
+            Sichtfuge mit Mörtel ausgebildet.
+
+13.71 21B   Az Betonsichtmwk.freist.ohne Sichtfuge                                                                                m²
+            Ohne Sichtfuge, Steine mit Kleber verbunden.
+
+13.91       Transportieren,Verwerten,Deponieren von Flächenabtrag
+            LB-Version: 23                Geringfügig Geändert
+
+                                                                                                                            Seite 29 / 31
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+13.91 05    Geladenes Aushubmaterial (Flächenabtrag) transportieren, verwerten oder deponieren (Transp./Verw./Dep.),
+            nach Wahl des Auftragnehmers.
+
+13.91 05A   Transp./Verw./Dep.Flächenabtrag rein                                                                       m³
+            Für reines Aushubmaterial, das gemäß Deponieverordnung die Anforderungen der Bodenaushubdeponien
+            einhält.
+            Bodenaushub auf Bodenaushubdeponie (SNR 31411-29 bis 32)
+
+13.91 05B   Transp./Verw./Dep.Flächenabtrag Inertabfal b.30% / b.3%                                                    m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushubdeponien
+            ungeeignet ist, aber die Anforderungen der Inertabfalldeponien (Inertabfall.) einhält.
+            Bodenaushub Inertabfallqualität 30/3% (SNR 31411-33):
+                • bis 30% mineralische bodenfremde Bestandteile
+                • bis 3% organische bodenfremde Bestandteile
+
+13.91 05C   Transp./Verw./Dep.Flächenabtrag Inertabfall ü.30% / ü.3%                                                   m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushubdeponien
+            ungeeignet ist, aber die Anforderungen der Inertabfalldeponien (Inertabfall.) einhält.
+            Bodenaushub Inertabfallqualität (SNR 31411-33):
+                • über 30% mineralische bodenfremde Bestandteile
+                • über 3% organische bodenfremde Bestandteile
+
+13.91 05D   Transp./Verw./Dep.Flächenabtrag Baurestmassen b.30% / b.3%                                                 m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushub- oder
+            Inertabfalldeponien ungeeignet ist, aber die Anforderungen der Baurestmassendeponien (Baurestm.) einhält.
+            Bodenaushub Baurestmassenqualität (SNR 31423-36 bzw. 31424-37):
+                • bis 30% mineralische bodenfremde Bestandteile
+                • bis 3% organische bodenfremde Bestandteile
+
+13.91 05E   Transp./Verw./Dep.Flächenabtrag Baurestmassen ü.30% / ü.3%                                                 m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushub- oder
+            Inertabfalldeponien ungeeignet ist, aber die Anforderungen der Baurestmassendeponien (Baurestm.) einhält.
+            Bodenaushub Baurestmassenqualität (SNR 31423-36 bzw. 31424-37):
+                • über 30% mineralische bodenfremde Bestandteile
+                • über 3% organische bodenfremde Bestandteile
+
+13.91 05F   Transp./Verw./Dep.Flächenabtrag Reststoff.                                                                 m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushub-, Inertabfall- oder
+            Baurestmassendeponien ungeeignet ist, aber die Anforderungen der Reststoffdeponien (Reststoff.) einhält.
+            Bodenaushub Reststoffqualität (SNR 31423-36 bzw. 31424-37)
+
+13.91 05G   Transp./Verw./Dep.Flächenabtrag Massenabfall                                                               m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushub-, Inertabfall-,
+            Baurestmassen- und Reststoffdeponien ungeeignet ist, aber die Anforderungen der Massenabfalldeponien
+            (Massenabf.) einhält.
+            Bodenaushub Massenabfallqualität (SNR 31423-36 bzw. 31424-37)
+
+13.91 06    Geladenes Aushubmaterial (Flächenabtrag) transportieren, verwerten oder deponieren (Transp./Verw./Dep.),
+            nach Wahl des Auftragnehmers.
+
+13.91 06A   Transp./Verw./Dep.Flächenabtrag (nicht deponierbar)                                                        m³
+            Für nicht gefährliches verunreinigtes Aushubmaterial, das gemäß Deponieverordnung keine Deponieklasse
+            einhält.
+            Schlüsselnummer (SNR) gemäß Gutachten: ____________
+            LB-Version: 23             Geringfügig Geändert
+13.91 10    Geladener, auf der Baustelle gewonnenen und überschüssigen Mutterboden (AKL-M).
+
+13.91 10A   Transport Mutterboden (AKL-M)                                                                              m³
+
+
+                                                                                                                 Seite 30 / 31
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                             EH
+            Transportieren (Transport).
+            Örtlichkeit:____________
+
+13.91 10B   Verwerten Mutterboden (AKL-M)                                                                         m³
+            Verwerten.
+
+13.91 10C   Transportieren u.Verwerten Mutterboden (AKL-M)                                                        m³
+            Transportieren und verwerten.
+
+13.91 11    Geladener, auf der Baustelle gewonnenen und überschüssigen Oberboden (AKL-O).
+
+13.91 11A   Transport Oberboden (AKL-O)                                                                           m³
+            Transportieren (Transport).
+            Örtlichkeit:____________
+
+13.91 11B   Verwerten Oberboden (AKL-O)                                                                           m³
+            Verwerten.
+
+13.91 11C   Transportieren u.Verwerten Oberboden (AKL-O)                                                          m³
+            Transportieren und verwerten.
+
+
+
+
+                                                                                                            Seite 31 / 31
+                                                                                       ib-data GmbH, Softwareentwicklung
+

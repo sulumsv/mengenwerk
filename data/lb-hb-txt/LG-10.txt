@@ -1,0 +1,1983 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                                Leistungsgruppe (LG) 10 - Putz
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 1001    Innenputz IP auf Wänden W
+                     ULG 1002    Innenputz IP auf Decken D
+                     ULG 1003    Außenputz AP/Fassaden
+                     ULG 1081    Instandsetzen IP W nach Schadensgrad
+                     ULG 1082    Instandsetzen IP D nach Schadensgrad
+                     ULG 1083    Instandsetzen AP nach Schadensgrad
+                     ULG 1092    Putzträger, Putzarmierung, Einbauteile
+
+
+
+
+                                                                                                           Seite 1 / 30
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                            EH
+
+10         Putz
+           Version 022 (2025-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           1. Begriffe:
+           Im Folgenden wird für lotrechte oder für bis 20 Prozent geneigte Flächen in Innenräumen der Begriff Wand
+           verwendet, für Untersichten, ohne Unterschied, ob waagrecht oder geneigt (z.B. bei Stiegen- und
+           Treppenläufen), der Begriff Decke.
+           Für verputzte Flächen an Gebäudeaußenseiten, einschließlich etwaiger waagrechter oder geneigter
+           Untersichten von auskragenden Bauteilen, wird der Begriff Fassade verwendet.
+           2. Putzmörtel:
+           Der Auftragnehmer bestimmt die Ausführung als Hand- oder Maschinenputz, die Verwendung von Werk- oder
+           Baustellen-Putzmörtel sowie die Anzahl von Lagen oder Schichten, wobei Herstellervorschriften,
+           Normbestimmungen und Regeln des Handwerkes eingehalten werden.
+           3. Flächengliederung:
+           Wand-, Decken- und Fassadenflächen sind ohne Gliederung ausgeführt.
+           4. Neigungen, Treppen, Rampen:
+           Leistungen an Wänden und Decken (Untersichten) gelten ohne Unterschied der Neigungen der verputzten
+           Flächen bis 20 Prozent Neigung des Fußbodens. Angaben über die Neigung erfolgen im Verhältnis der Höhe
+           zur projizierten waagrechten Länge.
+           5. Einkalkulierte Leistungen:
+           5.1 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+           einkalkuliert:
+               • bei Innenputzen alle Arbeitsgerüste für die angegebene Höhe, einschließlich erhöhtem Aufwand für den
+                 Materialtransport und sonstiger Erschwernisse
+               • bei Außenputz der Aufwand für erhöhten Materialtransport und alle sonstigen Erschwernisse
+               • das Ausgleichen von Unebenheiten bis ca. 10 mm
+               • Putzprofile, die nur als Arbeitserleichterung bei der Herstellung von geradlinigen Außenkanten und
+                 Grenzlinien einschließlich Nuten dienen
+               • Sicherheitseinrichtungen (z.B. Geländer), die wegen Putzarbeiten entfernt werden müssen, werden
+                 entsprechend dem Arbeitnehmerschutzgesetz, wenn erforderlich auch mehrmals, wieder angebracht
+               • das An- oder Einputzen von Leitungen, die Wände durchdringen, soweit dies im Zuge von
+                 Verputzarbeiten auszuführen ist
+           5.2 Wand- und Deckenanschlüsse:
+           Der Anschluss von Wand- und Deckenflächen erfolgt gemäß ÖNORM mit einer scharfen Ichse.
+           5.3 Oberflächen:
+           Die Oberfläche bei gipshaltigen Putzen ist nach Wahl des Auftraggebers verrieben oder glatt (malfähig), ohne
+           Unterschied des Einheitspreises, ausgeführt.
+           Die Oberfläche bei zementhaltigen Putzen ist, ohne Unterschied des Einheitspreises, abgezogen und
+           zugestoßen oder für das Belegen mit Fliesen gerichtet.
+           6. Ausmaß- und Abrechnungsregeln:
+           Aufzahlungspositionen gelten ohne Unterschied der Höhe.
+            Kommentar:
+            Toleranzen im Hochbau:
+            Für geputzte Wände und Decken gilt die ÖNORM DIN 18202.
+            Putzgründe:
+            Die ÖNORM B 3346 (Putzmörtel, Regeln der Verwendung und Verarbeitung) unterscheidet folgende Untergründe mit den in
+            Tabelle A.4. bis A.11. angeführten Ausführungsmöglichkeiten:
+            - Mauer- und Hohlziegel, Ziegelelemente
+            - Hohlblocksteine und zementgebundene Vollsteine (MWK)
+            - Porenbeton-Steine (P-Bet.)
+            - Beton und Leichtbeton (Bet.)
+            - Holzspan-Mantelsteine mit und ohne Zusatzdämmung (HSP-MS)
+            - Holzspan-Dämmplatten, einschichtig, mitbetoniert als Mantelbeton oder mechanisch befestigt auf Mauerwerk (HSP-DP)
+            - Holzspan-Mehrschicht-Dämmplatten, zwei- oder dreischichtig, mitbetoniert als Mantelbeton oder mechanisch befestigt auf
+            Mauerwerk (HSP-MDP)
+            - Holzwolle-Dämmplatten, einschichtig, mitbetoniert als Mantelbeton oder mechanisch befestigt auf Mauerwerk (HW-DP)
+            - Holzwolle-Mehrschicht-Dämmplatten, zwei- oder dreischichtig, mitbetoniert als Mantelbeton oder mechanisch befestigt auf
+            Mauerwerk (HW-MDP)
+            Schlitze und Durchbrüche sind in der LG 15 beschrieben.
+                                                                                                                            Seite 2 / 30
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+             Wärmedämmverbundsysteme sind in der LG 44 beschrieben.
+             Instandsetzungsarbeiten:
+             Das Abschlagen und Entsorgen des bestehenden Putzes bei Sanierputzarbeiten ist in der LG 02 beschrieben.
+             Frei zu formulieren (z.B.):
+             - das Verputzen von Leibungen (wenn eine Aufmaßfeststellung erwünscht ist)
+             - Oberflächenausführungen für das Aufbringen von matten und halbmatten Anstrichen, glatten Tapeten und glatten
+             Wandbekleidungen sowie bei Glanzeffekten
+             - eine andere als "einfache" Gliederungen bei Wand-, Decken- und Fassadenflächen (eine entsprechende, dem
+             Leistungsverzeichnis beigefügte Dokumentation wird empfohlen)
+             - Innenwärmedämmungen einschließlich Verputzen
+             - Kalkputze
+             - Zementputze
+             - Wärmedämmputze
+             - Leicht- und Leichtgrundputze
+             - Vorhangschienen
+             - bei Instandsetzungsarbeiten das Erneuern von Putzträgern, das Verfestigen des Untergrundes und chemische
+             Behandlungen
+             - Sanierputze nach einem Trockenlegungsverfahren
+             - Angaben (wählbare Vorbemerkungen) und Positionen gemäß Werkvertragsnorm und der ÖNORM B 2110, in Ergänzung
+             zur standardisierten Leistungsbeschreibung
+             Literaturhinweis (z.B.):
+             - ÖNORM 2204 Ausführung von Bauteilen
+             - ÖNORM B 3346 Putzmörtel - Regeln für die Verwendung und Verarbeitung
+             - ÖNORM B 3347 Textilglasgitter für Putzarmierung
+             - ÖNORM DIN 18202 Toleranzen im Hochbau - Bauwerke
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Kommentar: ÖN B 2210 entfällt
+            Änderung der Positionen Ausgleichsschichten - Ergänzung um Kommentar im Grundtext
+
+10.01       Innenputz IP auf Wänden W
+
+
+            1. Nennputzdicke:
+            Nennputzdicke an Wänden innen: 1,5 cm
+            Nennputzdicke an Wänden innen bei Sanierputzen: 3 cm
+            2. Ausmaß- und Abrechnungsregeln:
+            2.1 Höhen:
+            Leistungen bei Höhen von Null bis 3,2 m (b.3,2m) einerseits und Höhen von Null bis über 3,2 m (ü.3,2m:"AL")
+            andererseits sind in unterschiedlichen Positionen beschrieben. Maßgebend ist die tatsächliche Gesamthöhe.
+            Wände mit einer Höhe von Null bis über 3,2 m werden durch gedachte lotrechte seitliche Begrenzungen
+            gegenüber etwaigen Wänden mit einer Höhe von Null bis 3,2 m, auch bei schrägem oberen Abschluss,
+            abgegrenzt.
+            Abgerechnet wird die Summe der Flächen von Null bis 3,2 m und die Summe der Flächen von Null bis zur
+            angegebenen Höhe (über 3,2 m).
+            2.2 Aufzahlungen beziehen sich auf fertig verputzte Flächen.
+            Grenzlinien, Nuten und Putzprofile werden nach dem Längenmaß abgerechnet.
+            Treffen mehrere Definitionen für eine Ausbildung (z.B. Kante = Putz- und Farbgrenze) zu, wird nur eine
+            Aufzahlungsposition verrechnet.
+             Die Ausgleichsschichten über 10mm sind in dieser ULG nötig, wenn es sich um Instandsetzungen von kompletten
+             Wandflächen handelt.
+
+            LB-Version: 23                 Geringfügig Geändert
+10.01 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+10.01 00D   Oberfläche zu 10.01
+            Eine auszuführenden Oberfläche zu den angegebenen Positionen der ULG 10.01 wird vereinbart:
+            Betrifft Position(en): ____________
+            Oberflächenausführung: ____________
+
+10.01 00E   Putzgrund zu 10.01
+            Betrifft Position(en): ____________
+            Putzgrund: ____________
+
+
+
+                                                                                                                          Seite 3 / 30
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+10.01 01    Gipshaltiger Putz innen auf Wänden (IP W).
+            Im Positionsstichwort ist die Höhe angegeben.
+
+10.01 01A   Gipshaltiger IP W b.3,2m                                                                                  m²
+
+10.01 01B   Gipshaltiger IP W Treppe b.3,2m                                                                           m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+10.01 02    Gipshaltiger Putz innen auf Wänden (IP W), einschließlich Putzgrundvorbehandlungen (PGV).
+            Im Positionsstichwort ist die Höhe angegeben.
+
+10.01 02A   Gipshaltiger IP W PGV b.3,2m                                                                              m²
+
+10.01 02B   Gipshaltiger IP W PGV Treppe b.3,2m                                                                       m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+10.01 03    Gipshaltiger Putz innen auf Wänden (IP W), einschließlich Putzgrundvorbehandlungen (PGV) und
+            Textilglasgitter (TGG).
+            Im Positionsstichwort ist die Höhe angegeben.
+
+10.01 03A   Gipshaltiger IP W PGV+TGG b.3,2m                                                                          m²
+
+10.01 03B   Gipshaltiger IP W PGV+TGG Treppe b.3,2m                                                                   m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+10.01 04    Gipshaltiger Putz innen auf Wänden (IP W).
+            Bauteilhöhe von Null bis über 3,2 m.
+            Im Positionsstichwort ist die Gesamthöhe angegeben.
+
+10.01 04A   Gipshaltiger IP W ü.3,2m:__________                                                                       m²
+
+10.01 04B   Gipshaltiger IP W Treppe ü.3,2m:__________                                                                m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+10.01 05    Gipshaltiger Putz innen auf Wänden (IP W), einschließlich Putzgrundvorbehandlungen (PGV).
+            Bauteilhöhe von Null bis über 3,2 m.
+            Im Positionsstichwort ist die Gesamthöhe angegeben.
+
+10.01 05A   Gipshaltiger IP W PGV ü.3,2m:__________                                                                   m²
+
+10.01 05B   Gipshaltiger IP W PGV Treppe ü.3,2m:__________                                                            m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+10.01 06    Gipshaltiger Putz innen auf Wänden (IP W), einschließlich Putzgrundvorbehandlungen (PGV) und
+            Textilglasgitter (TGG).
+            Bauteilhöhe von Null bis über 3,2 m.
+            Im Positionsstichwort ist die Gesamthöhe angegeben.
+
+10.01 06A   Gipshaltiger IP W PGV+TGG ü.3,2m:__________                                                               m²
+
+10.01 06B   Gipshaltiger IP W PGV+TGG Treppe ü.3,2m:__________                                                        m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+10.01 11    Kalkzementputz innen auf Wänden (IP W).
+            Im Positionsstichwort ist die Höhe angegeben.
+
+10.01 11A   Kalkzement IP W b.3,2m                                                                                    m²
+
+10.01 11B   Kalkzement IP W Treppe b.3,2m                                                                             m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+
+
+                                                                                                                 Seite 4 / 30
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+10.01 12    Kalkzementputz innen auf Wänden (IP W), einschließlich Putzgrundvorbehandlungen (PGV).
+            Im Positionsstichwort ist die Höhe angegeben.
+
+10.01 12A   Kalkzement IP W PGV b.3,2m                                                                                            m²
+
+10.01 12B   Kalkzement IP W PGV Treppe b.3,2m                                                                                     m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+10.01 13    Kalkzementputz innen auf Wänden (IP W), einschließlich Putzgrundvorbehandlungen (PGV) und Textilglasgitter
+            (TGG).
+            Im Positionsstichwort ist die Höhe angegeben.
+
+10.01 13A   Kalkzement IP W PGV+TGG b.3,2m                                                                                        m²
+
+10.01 13B   Kalkzement IP W PGV+TGG Treppe b.3,2m                                                                                 m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+10.01 14    Kalkzementputz innen auf Wänden (IP W).
+            Bauteilhöhe von Null bis über 3,2 m.
+            Im Positionsstichwort ist die Gesamthöhe angegeben.
+
+10.01 14A   Kalkzement IP W ü.3,2m:__________                                                                                     m²
+
+10.01 14B   Kalkzement IP W Treppe ü.3,2m:__________                                                                              m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+10.01 15    Kalkzementputz innen auf Wänden (IP W), einschließlich Putzgrundvorbehandlungen (PGV).
+            Bauteilhöhe von Null bis über 3,2 m.
+            Im Positionsstichwort ist die Gesamthöhe angegeben.
+
+10.01 15A   Kalkzement IP W PGV ü.3,2m:__________                                                                                 m²
+
+10.01 15B   Kalkzement IP W PGV Treppe ü.3,2m:__________                                                                          m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+10.01 16    Kalkzementputz innen auf Wänden (IP W), einschließlich Putzgrundvorbehandlungen (PGV) und Textilglasgitter
+            (TGG).
+            Bauteilhöhe von Null bis über 3,2 m.
+            Im Positionsstichwort ist die Gesamthöhe angegeben.
+
+10.01 16A   Kalkzement IP W PGV+TGG ü.3,2m:__________                                                                             m²
+
+10.01 16B   Kalkzement IP W PGV+TGG Treppe ü.3,2m:__________                                                                      m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+10.01 21    Sanierputz normal (N), ohne Unterschied, ob 1- oder 2-lagig, innen auf Wänden (IP W), einschließlich
+            Saniervorspritzer, nach Wahl des Auftragnehmers, ohne Unterschied der Art des Putzgrundes.
+            Im Positionsstichwort ist die Höhe angegeben.
+             Kommentar:
+             Sanierputze sind Putze für das Verputzen von feuchten und salzhaltigen Untergründen.
+             Sanierputzmörtel N (normal):
+             Sanierputzmörtel N (normal) sind Putzmörtel mit besonders verringerter kapillarer Saugfähigkeit und hoher mechanischer
+             Beständigkeit.
+
+10.01 21A   Sanierputz N IP W b.3,2m                                                                                              m²
+
+10.01 21B   Sanierputz N IP W Treppe b.3,2m                                                                                       m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+10.01 23    Sanierputz leicht (L), ohne Unterschied, ob 1- oder 2-lagig, innen auf Wänden (IP W), einschließlich
+            Saniervorspritzer, nach Wahl des Auftragnehmers, ohne Unterschied der Art des Putzgrundes.
+            Im Positionsstichwort ist die Höhe angegeben.
+                                                                                                                             Seite 5 / 30
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+             Kommentar:
+             Sanierputze sind Putze für das Verputzen von feuchten und salzhaltigen Untergründen.
+             Sanierputzmörtel L (leicht):
+             Sanierputzmörtel L (leicht) sind Putzmörtel mit sehr hoher Porosität, wärmedämmenden Eigenschaften und geringer
+             mechanischer Beständigkeit.
+
+10.01 23A   Sanierputz L IP W b.3,2m                                                                                              m²
+
+10.01 23B   Sanierputz L IP W Treppe b.3,2m                                                                                       m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+10.01 25    Aufzahlung (Az) auf Sanierputze, innen auf Wänden (IP W).
+
+10.01 25A   Az Sanierputz IP W f.Mehrdicke b.2cm                                                                                  m²
+            Für eine Mehrdicke bis 2 cm.
+
+10.01 25B   Az Sanierputz IP W f.Ausblühungen abb.                                                                                m²
+            Für eine zusätzliche Reinigung (z.B. Ausblühungen trocken abbürsten (abb.)).
+
+10.01 25C   Az Sanierputz IP W f.Entfernung von Algen                                                                             m²
+            Für das Entfernen von Algen und Moos, einschließlich Sporen, mechanisch oder mittels Sanierlösung (nach
+            Wahl des Auftragnehmers).
+10.01 41    Untergrund ausgleichen mit einer Ausgleichsschicht auf Wandflächen innen (IP W), ohne Unterschied der
+            Putzart und des Putzuntergrundes.
+            Im Positionsstichwort ist die Dicke der Ausgleichsschicht angegeben.
+             Kommentar:
+             Diese Positionen sind für die Herstellung eines normgerechten Untergrundes (z.B. Ebenheit) für Verputzarbeiten gedacht
+             nachdem der Altbestandsputz gänzlich (100 %) abgeschlagen wurde (z.B. mittels Positionen aus der ULG 02.13 Verputz
+             abschlagen, Abbruch Bekleidungen).
+             Die Positionswahl erfolgt entsprechend der auszuführenden Dicke und ist nicht als Aufzahlung auf vorangehend, gestaffelte
+             Positionen zu betrachten.
+             z.B. Ausgleichsschicht 25mm --> Pos. 10.01 41B
+
+10.01 41A   Ausgleichsschicht IP W ü.10-20mm                                                                                      m²
+            Größte Gesamthöhe: ____________
+
+            LB-Version: 23                  Geringfügig Geändert
+
+10.01 41B   Ausgleichsschicht IP W ü.20-30mm                                                                                      m²
+            Größte Gesamthöhe: ____________
+
+            LB-Version: 23                  Geringfügig Geändert
+
+10.01 41C   Ausgleichsschicht IP W ü.30-40mm                                                                                      m²
+            Größte Gesamthöhe: ____________
+
+            LB-Version: 23                  Geringfügig Geändert
+
+10.01 41D   Ausgleichsschicht IP W ü.40-50mm                                                                                      m²
+            Größte Gesamthöhe: ____________
+
+            LB-Version: 23                  Geringfügig Geändert
+10.01 51    Aufzahlung (Az) auf Innenputze auf Wänden (IP W) für Erschwernisse.
+
+10.01 51A   Az IP W f.Pfeiler                                                                                                     m²
+            Bei Pfeilern (frei stehende Mauerwerkskörper oder Wandabschnitte, deren Breite und Dicke nicht größer als ein
+            Drittel ihrer Höhe ist).
+
+10.01 51B   Az IP W f.Ebenheit erhöhte Anforderung                                                                                m²
+            Bei erhöhten Anforderungen an die Grenzwerte für die Ebenheit (z.B. als Untergrund für Fliesenbeläge)
+
+10.01 51C   Az IP W f.Ichse unter 90 Grad                                                                                         m
+            Beim Ausbilden von Innenkanten (Ichsen), die plangemäß einen kleineren Winkel als 90 Grad aufweisen.
+                                                                                                                             Seite 6 / 30
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+
+10.01 51D   Az IP W f.gekrümmte Wände und Pfeiler rund                                                                        m²
+            Beim Verputzen von gekrümmten Untergründen und Pfeilern mit rundem Querschnitt, einschließlich etwa
+            erforderlichen Putzmehrdicken und Hilfsmittel.
+            Nähere Angaben zu Krümmung oder zum Durchmesser: ____________
+
+10.01 51E   Az IP W f.Bögen                                                                                                   m
+            Beim Herstellen von Putzflächen mit gekrümmten Kanten einschließlich Kantenprofil mit Hilfe von Schablonen
+            (Lehren) und Kanten.
+
+10.01 51F   Az IP W f.SchabloneTür b.4m2                                                                                      m
+            Beim Herstellen von lotrechten und ebenflächigen Wandanschlussflächen, ohne Unterschied der Leibungslichte
+            bei Türen bis 4 m2.
+10.01 81    Aufzahlung (Az) auf Innenputz auf Wänden (IP W), ohne Unterschied der Art des Untergrundes und des Putzes,
+            für das Schließen (Verputzen) von Schlitzen, die nicht mit einem Putzträger überspannt oder ausgemauert sind,
+            im Zuge der Putzarbeiten.
+            Für Schlitze mit einer Tiefe über der zweifachen Nennputzdicke sowie über dem Ausmaß des vierfachen
+            Querschnittes der Leitungen.
+
+10.01 81A   Az IP W f.Schließen (Verputzen) von Schlitzen                                                                     m
+10.02       Innenputz IP auf Decken D
+
+
+            1. Nennputzdicke:
+            Nennputzdicke an Decken innen: 1,5 cm
+            2. Ausmaß- und Abrechnungsregeln:
+            2.1 Höhen:
+            Leistungen bei Höhen von Null bis 3,2 m (b.3,2m) einerseits und Höhen von Null bis über 3,2 m (ü.3,2m:"AL")
+            andererseits sind in unterschiedlichen Positionen beschrieben. Maßgebend ist die tatsächliche Gesamthöhe.
+            Bei Decken über 3,2 m wird die Summe der Teilflächen im angegebenen größeren Höhenbereich abgerechnet.
+            2.2 Aufzahlungen beziehen sich auf fertig verputzte Flächen.
+            Grenzlinien, Nuten und Putzprofile werden nach dem Längenmaß abgerechnet.
+            Treffen mehrere Definitionen für eine Ausbildung (z.B. Kante = Putz- und Farbgrenze) zu, wird nur eine
+            Aufzahlungsposition verrechnet.
+             Die Ausgleichsschichten über 10mm sind in dieser ULG nötig, wenn es sich um Instandsetzungen von kompletten
+             Deckenflächen handelt.
+
+            LB-Version: 23               Geringfügig Geändert
+10.02 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+10.02 00D   Oberfläche zu 10.02
+            Eine auszuführenden Oberfläche zu den angegebenen Positionen der ULG 10.02 wird vereinbart:
+            Betrifft Position(en): ____________
+            Oberflächenausführung: ____________
+
+10.02 00E   Putzgrund zu 10.02
+            Betrifft Position(en): ____________
+            Putzgrund: ____________
+10.02 01    Gipshaltiger Putz innen auf Decken (IP D).
+            Im Positionsstichwort ist die Höhe angegeben.
+
+10.02 01A   Gipshaltiger IP D b.3,2m                                                                                          m²
+10.02 02    Gipshaltiger Putz innen auf Decken (IP D), einschließlich Putzgrundvorbehandlungen (PGV).
+            Im Positionsstichwort ist die Höhe angegeben.
+
+10.02 02A   Gipshaltiger IP D PGV b.3,2m                                                                                      m²
+10.02 03    Gipshaltiger Putz innen auf Decken (IP D), einschließlich Putzgrundvorbehandlungen (PGV) und Textilglasgitter
+            (TGG).
+            Im Positionsstichwort ist die Höhe angegeben.
+
+                                                                                                                         Seite 7 / 30
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+10.02 03A   Gipshaltiger IP D PGV+TGG b.3,2m                                                                                      m²
+10.02 04    Gipshaltiger Putz innen auf Decken (IP D).
+            Bauteilhöhe von Null bis über 3,2 m.
+            Im Positionsstichwort ist die Gesamthöhe angegeben.
+
+10.02 04A   Gipshaltiger IP D ü.3,2m:__________                                                                                   m²
+10.02 05    Gipshaltiger Putz innen auf Decken (IP D), einschließlich Putzgrundvorbehandlungen (PGV).
+            Bauteilhöhe von Null bis über 3,2 m.
+            Im Positionsstichwort ist die Gesamthöhe angegeben.
+
+10.02 05A   Gipshaltiger IP D PGV ü.3,2m:__________                                                                               m²
+10.02 06    Gipshaltiger Putz innen auf Decken (IP D), einschließlich Putzgrundvorbehandlungen (PGV) und Textilglasgitter
+            (TGG).
+            Bauteilhöhe von Null bis über 3,2 m.
+            Im Positionsstichwort ist die Gesamthöhe angegeben.
+
+10.02 06A   Gipshaltiger IP D PGV+TGG ü.3,2m:__________                                                                           m²
+10.02 11    Kalkzementputz innen auf Decken (IP D).
+            Im Positionsstichwort ist die Höhe angegeben.
+
+10.02 11A   Kalkzement IP D b.3,2m                                                                                                m²
+10.02 12    Kalkzementputz innen auf Decken (IP D), einschließlich Putzgrundvorbehandlungen (PGV).
+            Im Positionsstichwort ist die Höhe angegeben.
+
+10.02 12A   Kalkzement IP D PGV b.3,2m                                                                                            m²
+10.02 13    Kalkzementputz innen auf Decken (IP D), einschließlich Putzgrundvorbehandlungen (PGV) und Textilglasgitter
+            (TGG).
+            Im Positionsstichwort ist die Höhe angegeben.
+
+10.02 13A   Kalkzement IP D PGV+TGG b.3,2m                                                                                        m²
+10.02 14    Kalkzementputz innen auf Decken (IP D).
+            Bauteilhöhe von Null bis über 3,2 m.
+            Im Positionsstichwort ist die Gesamthöhe angegeben.
+
+10.02 14A   Kalkzement IP D ü.3,2m:__________                                                                                     m²
+10.02 15    Kalkzementputz innen auf Decken (IP D), einschließlich Putzgrundvorbehandlungen (PGV).
+            Bauteilhöhe von Null bis über 3,2 m.
+            Im Positionsstichwort ist die Gesamthöhe angegeben.
+
+10.02 15A   Kalkzement IP D PGV ü.3,2m:__________                                                                                 m²
+10.02 16    Kalkzementputz innen auf Decken (IP D), einschließlich Putzgrundvorbehandlungen (PGV) und Textilglasgitter
+            (TGG).
+            Bauteilhöhe von Null bis über 3,2 m.
+            Im Positionsstichwort ist die Gesamthöhe angegeben.
+
+10.02 16A   Kalkzement IP D PGV+TGG ü.3,2m:__________                                                                             m²
+10.02 41    Untergrund ausgleichen mit einer Ausgleichsschicht auf Deckenflächen innen (IP D), ohne Unterschied der
+            Putzart und des Putzuntergrundes.
+            Im Positionsstichwort ist die Dicke der Ausgleichsschicht angegeben.
+             Kommentar:
+             Diese Positionen dienen nur der Sanierung, bei komplett abgeschlagenen Decken.
+             Die Positionswahl erfolgt entsprechend der auszuführenden Dicke und ist nicht als Aufzahlung auf vorangehend, gestaffelte
+             Positionen zu betrachten.
+             z.B. Ausgleichsschicht 25mm --> Pos. 10.02 41B
+
+10.02 41A   Ausgleichsschicht IP D ü.10-20mm                                                                                      m²
+            Größte Gesamthöhe: ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+
+10.02 41B   Ausgleichsschicht IP D ü.20-30mm                                                                                      m²
+
+                                                                                                                             Seite 8 / 30
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Größte Gesamthöhe: ____________
+
+            LB-Version: 23              Geringfügig Geändert
+
+10.02 41C   Ausgleichsschicht IP D ü.30-40mm                                                                              m²
+            Größte Gesamthöhe: ____________
+
+            LB-Version: 23              Geringfügig Geändert
+
+10.02 41D   Ausgleichsschicht IP D ü.40-50mm                                                                              m²
+            Größte Gesamthöhe: ____________
+
+            LB-Version: 23              Geringfügig Geändert
+10.02 51    Aufzahlung (Az) auf Innenputze auf Decken (IP D) für Erschwernisse.
+
+10.02 51B   Az IP D f.Ebenheit erhöhte Anforderung                                                                        m²
+            Bei erhöhten Anforderungen an die Grenzwerte für die Ebenheit.
+
+10.02 51C   Az IP D f.Ichse unter 90 Grad                                                                                 m
+            Beim Ausbilden von Innenkanten (Ichsen), die plangemäß einen kleineren Winkel als 90 Grad aufweisen.
+
+10.02 51E   Az IP D f.Gewölbe                                                                                             m²
+            Bei Gewölbeausbildungen gemäß den Angaben des Auftraggebers (z.B. Mehrflächen, die die lotrechte
+            Projektion auf eine waagrechte Fläche übersteigen).
+            Angaben (z.B. Stichhöhe, Verschneidungen): ____________
+
+10.02 81    Aufzahlung (Az) auf Innenputz auf Decken (IP D), ohne Unterschied der Art des Untergrundes und des Putzes,
+            für das Schließen (Verputzen) von Schlitzen, die nicht mit einem Putzträger überspannt oder ausgemauert sind,
+            im Zuge der Putzarbeiten.
+            Für Schlitze mit einer Tiefe über der zweifachen Nennputzdicke sowie über dem Ausmaß des vierfachen
+            Querschnittes der Leitungen.
+
+10.02 81A   Az IP D f.Schließen (Verputzen) von Schlitzen                                                                 m
+10.03       Außenputz AP/Fassaden
+
+
+            1. Begriffe:
+            Putze an Fassaden werden Außenputze (AP) genannt.
+            1.1 Reibstruktur:
+            Dünnputze, deren Oberfläche einer Kratzputzstruktur ähnelt, werden als Reibstruktur bezeichnet.
+            1.2 Kratzstruktur:
+            Der Dickputz wird in 3- bis 4-facher Korndicke aufgetragen und mit dem Kratzbrett gekratzt. Bei
+            kunstharzvergüteten Dickputzen auf Kalkzementbasis wird der Unterputz vorher aufgeraut.
+            1.3 Rillenstruktur:
+            Dünnputze, bei denen mit einem Rollkorn beim Strukturieren Rillen erzeugt werden (rund oder geradlinig).
+            1.4 Nennputzdicke:
+            Nennputzdicke an Außenflächen oder Fassaden: 2,5 cm
+            Nennputzdicke an Außenflächen oder Fassaden bei Sanierputzen: 3 cm
+            2. Farben:
+            2.1 Standardfarben:
+            Standardfarben sind Farben (nach Wahl des Auftraggebers) aus der Farbkarte des Herstellers, für die der
+            Hersteller keinen Aufpreis verlangt.
+            2.2 Sonderfarben:
+            Sonderfarben sind Farben (nach Wahl des Auftraggebers) aus der Farbkarte des Herstellers, für die der
+            Hersteller einen Aufpreis vorsieht (Aufzahlungen).
+            3. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                 • Unterputze werden gemäß ÖNORM abgezogen, zugestoßen oder geschnitten
+                 • Oberputze werden verrieben
+                                                                                                                     Seite 9 / 30
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+
+            4. Ausmaß- und Abrechnungsregeln:
+            4.1 Aufzahlungen beziehen sich auf fertig verputzte Flächen.
+            Grenzlinien, Nuten und Putzprofile werden nach dem Längenmaß abgerechnet.
+            Treffen mehrere Definitionen für eine Ausbildung (z.B. Kante = Putz- und Farbgrenze) zu, wird nur eine
+            Aufzahlungsposition verrechnet.
+            4.2 Fassadenputz:
+            Aufzahlungen werden nicht je Arbeitsgang (Unterputz oder Unterputz mit Oberputz) getrennt, sondern nur 1 Mal
+            nach dem Ausmaß des fertigen Fassadenputzes abgerechnet.
+             Die Ausgleichsschichten über 10mm sind in dieser ULG nötig, wenn es sich um Instandsetzungen von kompletten
+             Fassadenflächen handelt.
+
+            LB-Version: 23               Geringfügig Geändert
+10.03 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+10.03 00D   Oberfläche zu 10.03
+            Eine auszuführenden Oberfläche zu den angegebenen Positionen der ULG 10.03 wird vereinbart:
+            Betrifft Position(en): ____________
+            Oberflächenausführung: ____________
+
+10.03 00E   Putzgrund zu 10.03
+            Betrifft Position(en): ____________
+            Putzgrund: ____________
+
+10.03 00F   Beschreibung der Fassade zu 10.03
+            Betrifft Position(en): ____________
+            Beschreibung der Fassade: ____________
+            Beilagen: ____________
+
+10.03 00G   Geograph.Orientierung der Fassade zu 10.03
+            Betrifft Position(en): ____________
+            Angaben zur geographischen Orientierung: ____________
+
+10.03 00H   Sockel der Fassade zu 10.03
+            Betrifft Position(en): ____________
+            Sockelausbildung: ____________
+            Geländeanschluss: ____________
+
+10.03 01    Kalkzement-Unterputz außen (UP-AP) für die Ausführung eines Oberputzes, einschließlich
+            Putzgrundvorbehandlungen (PGV).
+
+10.03 01A   Kalkzement UP-AP m.PGV                                                                                            m²
+10.03 02    Kalkzement-Unterputz außen (UP-AP) für die Ausführung eines Oberputzes, einschließlich
+            Putzgrundvorbehandlungen (PGV) und einer vollflächigen Einlage aus Kunststoffgewebe (Kst.G.).
+
+10.03 02A   Kalkzement UP-AP m.PGV und Kst.G.                                                                                 m²
+10.03 03    Kalkzement-Unterputz außen (UP-AP) für die Ausführung eines Oberputzes, einschließlich
+            Putzgrundvorbehandlungen (PGV), einer vollflächigen Spachtelung und einer vollflächigen Einlage aus
+            Textilglasgitter (TGG).
+
+10.03 03A   Kalkzement UP-AP m.PGV+Spachtelung+TGG                                                                            m²
+10.03 11    Endbeschichtung mit kunstharzgebundenem Dünnputz (kunsth.), in Korndicke aufgebracht, einschließlich
+            systembedingter Grundierung, in Standardfarben.
+            Im Positionsstichwort sind die Struktur und das Größtkorn (GK) angegeben.
+
+10.03 11A   Dünnputz kunsth.Rillenstruktur GK2mm                                                                              m²
+
+10.03 11B   Dünnputz kunsth.Rillenstruktur GK3mm                                                                              m²
+
+10.03 11C   Dünnputz kunsth.Reibstruktur GK1,5mm                                                                              m²
+
+10.03 11D   Dünnputz kunsth.Reibstruktur GK2mm                                                                                m²
+
+10.03 11E   Dünnputz kunsth.Reibstruktur GK3mm                                                                                m²
+                                                                                                                        Seite 10 / 30
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+10.03 11F   Dünnputz kunsth.Füllputz GK0,5mm                                                                           m²
+            Überziehen des Dünnputzes mit Füllputz, Korngröße 0,5 mm, um eine glatte Oberfläche zu erzielen.
+
+10.03 11G   Dünnputz kunsth.Feinputz GK1mm                                                                             m²
+10.03 12    Endbeschichtung mit Silikat-Dünnputz, in Korndicke aufgebracht, einschließlich systembedingter Grundierung,
+            in Standardfarben.
+            Im Positionsstichwort sind die Struktur und das Größtkorn (GK) angegeben.
+
+10.03 12A   Silikat-Dünnputz Rillenstruktur GK2mm                                                                      m²
+
+10.03 12B   Silikat-Dünnputz Rillenstruktur GK3mm                                                                      m²
+
+10.03 12C   Silikat-Dünnputz Reibstruktur GK1,5mm                                                                      m²
+
+10.03 12D   Silikat-Dünnputz Reibstruktur GK2mm                                                                        m²
+
+10.03 12E   Silikat-Dünnputz Reibstruktur GK3mm                                                                        m²
+
+10.03 12F   Silikat-Dünnputz Füllputz GK0,5mm                                                                          m²
+            Überziehen des Dünnputzes mit Füllputz, Korngröße 0,5 mm, um eine glatte Oberfläche zu erzielen.
+
+10.03 12G   Silikat-Dünnputz Feinputz GK1mm                                                                            m²
+10.03 13    Endbeschichtung mit Silikon-Dünnputz, in Korndicke aufgebracht, einschließlich systembedingter Grundierung,
+            in Standardfarben.
+            Im Positionsstichwort sind die Struktur und das Größtkorn (GK) angegeben.
+
+10.03 13A   Silikon-Dünnputz Rillenstruktur GK2mm                                                                      m²
+
+10.03 13B   Silikon-Dünnputz Rillenstruktur GK3mm                                                                      m²
+
+10.03 13C   Silikon-Dünnputz Reibstruktur GK1,5mm                                                                      m²
+
+10.03 13D   Silikon-Dünnputz Reibstruktur GK2mm                                                                        m²
+
+10.03 13E   Silikon-Dünnputz Reibstruktur GK3mm                                                                        m²
+
+10.03 13F   Silikon-Dünnputz Füllputz GK0,5mm                                                                          m²
+            Überziehen des Dünnputzes mit Füllputz, Korngröße 0,5 mm, um eine glatte Oberfläche zu erzielen.
+
+10.03 13G   Silikon-Dünnputz Feinputz GK1mm                                                                            m²
+10.03 14    Endbeschichtung mit kunstharzgebundenem Dünnputz mit eingefärbter Gesteinskörnung (Buntstein), in
+            Korndicke aufgebracht, mit Stahltraufel geglättet, einschließlich systembedingter Grundierung, in
+            Standardfarben.
+            Im Positionsstichwort sind die Struktur und das Größtkorn (GK) angegeben.
+
+10.03 14A   Buntstein-Dünnputz Reibstruktur GK1,5mm                                                                    m²
+
+10.03 14B   Buntstein-Dünnputz Reibstruktur GK2mm                                                                      m²
+
+10.03 14C   Buntstein-Dünnputz Reibstruktur GK3mm                                                                      m²
+10.03 21    Endbeschichtung in Standardfarben.
+
+10.03 21A   Endbeschichtung m.Kunstharzfarbe                                                                           m²
+            Mit kunstharzgebundenen Fassadenfarben (Farbe kunsth.).
+
+10.03 21B   Endbeschichtung m.Silikatfarbe                                                                             m²
+            Mit Silikatfarben.
+
+10.03 21C   Endbeschichtung m.Silikonfarbe                                                                             m²
+            Mit Silikonfarben.
+
+10.03 22    Feinputz auf Kalkzementbasis (KZ) in Standardfarben.
+            Im Positionsstichwort sind die Struktur und das Größtkorn (GK) angegeben.
+
+                                                                                                                 Seite 11 / 30
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+10.03 22A   Feinputz KZ Reibstruktur GK1,5mm                                                                                      m²
+10.03 32    Außenputz (AP) mit Sanierputz normal (N), ohne Unterschied, ob 1- oder 2 lagig, einschließlich
+            Saniervorspritzer, nach Wahl des Auftragnehmers, ohne Unterschied der Art des Putzgrundes.
+
+10.03 32A   Sanierputz N AP                                                                                                       m²
+10.03 33    Außenputz (AP) mit Sanierputz schwer (S), ohne Unterschied, ob 1- oder 2 lagig, einschließlich
+            Saniervorspritzer, nach Wahl des Auftragnehmers, ohne Unterschied der Art des Putzgrundes.
+
+10.03 33A   Sanierputz S AP                                                                                                       m²
+10.03 35    Aufzahlung (Az) auf Sanierputze bei Fassaden oder Außenflächen (AP).
+
+10.03 35A   Az Sanierputz AP W f.Mehrdicke b.2cm                                                                                  m²
+            Für eine Mehrdicke bis 2 cm.
+
+10.03 35B   Az Sanierputz AP W f.Ausblühungen abb.                                                                                m²
+            Für eine zusätzliche Reinigung (z.B. Ausblühungen trocken abbürsten (abb.)).
+
+10.03 35C   Az Sanierputz AP W f.Entfernung von Algen                                                                             m²
+            Für das Entfernen von Algen und Moos, einschließlich Sporen, mechanisch oder mittels Sanierlösung (nach
+            Wahl des Auftragnehmers).
+10.03 41    Untergrund ausgleichen mit einer Ausgleichsschicht auf Fassaden oder Außenflächen (AP), ohne Unterschied
+            der Putzart und des Putzuntergrundes. Im Positionsstichwort ist die Dicke der Ausgleichsschicht angegeben.
+             Kommentar:
+             Diese Positionen dienen nur der Sanierung, bei komplett abgeschlagenen Fassaden.
+             Die Positionswahl erfolgt entsprechend der auszuführenden Dicke und ist nicht als Aufzahlung auf vorangehend, gestaffelte
+             Positionen zu betrachten.
+             z.B. Ausgleichsschicht 25mm --> Pos. 10.03 41B
+
+10.03 41A   Ausgleichsschicht AP ü.10-20mm                                                                                        m²
+            LB-Version: 23                 Geringfügig Geändert
+
+10.03 41B   Ausgleichsschicht AP ü.20-30mm                                                                                        m²
+            LB-Version: 23                 Geringfügig Geändert
+
+10.03 41C   Ausgleichsschicht AP ü.30-40mm                                                                                        m²
+            LB-Version: 23                 Geringfügig Geändert
+
+10.03 41D   Ausgleichsschicht AP ü.40-50mm                                                                                        m²
+            LB-Version: 23                 Geringfügig Geändert
+10.03 62    Aufzahlung (Az) auf Außenputze (AP).
+
+10.03 62A   Az AP f.Pfeiler                                                                                                       m²
+            Bei Pfeilern (frei stehende Mauerwerkskörper oder Wandabschnitte, deren Breite und Dicke nicht größer als ein
+            Drittel ihrer Höhe ist).
+
+10.03 62B   Az AP f.Ebenheit erhöhte Anforderung                                                                                  m²
+            Bei erhöhten Anforderungen an die Grenzwerte für die Ebenheit (z.B. als Untergrund für Fliesenbeläge).
+
+10.03 62C   Az AP f.Ichse unter 90 Grad                                                                                           m
+            Beim Ausbilden von Wandinnenkanten (Ichsen), die plangemäß einen kleineren Winkel als 90 Grad aufweisen.
+
+10.03 62D   Az AP f.gekrümmte Wände und Pfeiler rund                                                                              m²
+            Beim Verputzen von gekrümmten Untergründen und Pfeilern mit rundem Querschnitt, einschließlich etwa
+            erforderlichen Putzmehrdicken und Hilfsmitteln.
+            Nähere Angaben zu Krümmung oder zum Durchmesser: ____________
+
+10.03 62E   Az AP f.Bögen                                                                                                         m
+            Beim Herstellen von Putzflächen mit gekrümmten Kanten einschließlich Kantenprofil mit Hilfe von Schablonen
+            (Lehren) und Kanten.
+                                                                                                                            Seite 12 / 30
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                                  EH
+
+10.03 62F   Az AP f.SchabloneTür b.4m2                                                                                                  m
+            Beim Herstellen von lotrechten und ebenflächigen Wandanschlussflächen, ohne Unterschied der Leibungslichte
+            bei Türen bis 4 m2.
+
+10.03 62G   Az AP Endbesch.Farbe f.fungizid u.algizid                                                                                   m²
+            Bei der Endbeschichtung (Endbesch.) mit Farbe für eine fungizide und algizide Ausführung.
+
+10.03 62H   Az AP Endbesch.Putz f.fungizid u.algizid                                                                                    m²
+            Bei der Endbeschichtung (Endbesch.) mit Putzen für eine fungizide und algizide Ausführung.
+
+10.03 65    Aufzahlung (Az) bei Fassaden (AP).
+
+10.03 65A   Az AP Endbesch.Farbe f.Sonderfarbe                                                                                          m²
+            Bei einer Endbeschichtung (Endbesch.) mit Farbe für Sonderfarben.
+            Betrifft Position(en): ____________
+            Sonderfarbe: ____________
+
+10.03 65B   Az AP Endbesch.Putz f.Sonderfarbe                                                                                           m²
+            Mit einer Endbeschichtung (Endbesch.) mit Putzen für Sonderfarben.
+            Betrifft Position(en): ____________
+            Sonderfarbe: ____________
+
+10.03 67    Aufzahlung (Az) auf Außenputz (AP) für Erschwernisse.
+
+10.03 67A   Az AP f.Untersichten und Schrägdachfl.                                                                                      m²
+            Beim Verputzen von Untersichten (z.B. Erker, Balkonplatten, Durchfahrten, Konsolen, Stiegenuntersichten,
+            Gaupen und Attikainnenflächen) und Schrägdachflächen.
+            Angaben (z.B. größte Gesamthöhe): ____________
+
+10.03 71    Aufzahlung (Az) auf Außenputze (AP) bei glatten (nicht gegliederten) Flächen, für geradlinige Grenzlinien und
+            Nuten.
+
+10.03 71A   Az AP f.Nuten u.Grenzlinien                                                                                                 m
+10.03 72    Aufzahlung (Az) auf Außenputze bei glatten (nicht gegliederten) Flächen für Gliederungselemente, die geradlinig
+            und ebenflächig begrenzt sind (keine Rund- oder Bogenprofile, kein Stuckaturputz) und bezogen auf die
+            Hauptfläche vor- oder bis 30 cm zurückspringen.
+
+10.03 72A   Az AP f.einfache Gliederung                                                                                                 m
+10.03 73    Aufzahlung (Az) auf Außenputze bei glatten (nicht gegliederten) Flächen für einfach oder mehrfach aufgesetzte
+            oder abgesetzte Putzstreifen (z.B. Lisenen, Faschen bei Tür- und Fensterumrahmungen).
+             Kommentar:
+             Ebenflächige Putzstreifen mit einer Breite über 15 cm oder profilierte Putzstreifen sind frei zu formulieren.
+
+10.03 73A   Az AP f.Putzstreifen glatt 15cm                                                                                             m
+            Für glatte Putzstreifen bis 15 cm breit.
+
+            LB-Version: 23                  Geringfügig Geändert
+
+10.03 73B   Az AP f.Putzstreifen profiliert 15cm                                                                                        m
+            Für profilierter Putzstreifen bis 15 cm breit.
+
+            LB-Version: 23                  Geringfügig Geändert
+10.03 74    Aufzahlung (Az) auf Außenputze bei glatten (nicht gegliederten) Flächen für Gesimse (z.B. Kordongesimse,
+            Hauptgesimse), ohne Resche, ohne Unterschied des Putzes und des Putzgrundes, einschließlich etwa
+            erforderlicher Putzgrundvorbehandlungen.
+             Kommentar:
+             Für das Leistungsverzeichnis ist eine Dokumentation (z.B. Skizzen, Plandarstellungen, Fotos) hilfreich.
+
+10.03 74A   Az AP f.Gesimse glatt                                                                                                       m
+            Glatt bis einfach gezogen.
+            Ausladung: ____________
+            Profilabwicklung: ____________
+
+10.03 74B   Az AP f.Gesimse profiliert                                                                                                  m
+                                                                                                                                  Seite 13 / 30
+                                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+            Mit profilierter Zugarbeit.
+            Ausladung: ____________
+            Profilabwicklung: ____________
+
+10.03 75    Aufzahlung (Az) auf Außenputze bei glatten (nicht gegliederten) Flächen für die Ausbildung von rechteckigen
+            Putzfeldern (Quaderputz) mit einer Seitenlänge über 15 cm. Die Abrechnung erfolgt nach dem Flächenmaß.
+             Kommentar:
+             Rechteckige Putzfelder mit einer Seitenlänge bis 15 cm oder andere Formen sind frei zu formulieren.
+
+10.03 75A   Az AP f.Putzfelder rechteckig                                                                                          m²
+10.03 81    Aufzahlung (Az) auf Außenputz (AP), ohne Unterschied der Art des Untergrundes und des Putzes, für das
+            Schließen (Verputzen) von Schlitzen, die nicht mit einem Putzträger überspannt oder ausgemauert sind, im
+            Zuge der Putzarbeiten.
+            Für Schlitze mit einer Tiefe über der zweifachen Nennputzdicke sowie über dem Ausmaß des vierfachen
+            Querschnittes der Leitungen.
+
+10.03 81A   Az AP f.Schließen (Verputzen) von Schlitzen                                                                            m
+10.81       Instandsetzen IP W nach Schadensgrad
+
+
+            1. Erschwernisse:
+            Alle Erschwernisse, die aus den Merkmalen einer Instandsetzungs- oder Adaptierungsarbeit (Inst.) resultieren,
+            sind in die Einheitspreise einkalkuliert.
+            2. Begriffe:
+            2.1 Abschlagen:
+            Unter Abschlagen wird das Entfernen von schadhaften Teilflächen des Verputzes verstanden, die durch
+            vorangehendes Abklopfen festgestellt werden.
+            2.2 Schadensgrad:
+            Der Schadensgrad wird gemeinsam von Auftraggeber und Auftragnehmer anhand der tatsächlichen
+            Gegebenheiten ermittelt.
+            Der in den jeweiligen Positionen angegebene Schadensgrad ist der Anteil des neu herzustellenden Putzes,
+            unabhängig vom Ausmaß des abzuschlagenden Putzes.
+            2.3 Nennputzdicke:
+            Nennputzdicke an Wänden innen: 2 cm
+            2.4 Ergänzen des fehlenden Putzes:
+            Fehlender Putz wird in der Art des Bestandes ergänzt.
+            3. Einkalkulierte Leistungen:
+            3.1 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • behördliche Vorschreibungen betreffend Schall- und Staubschutz
+                • das Verwenden von Containern
+                • das Abklopfen der gesamten Fläche
+                • das Abschlagen von lockerem Putz
+                • das Auskratzen etwaiger Fugen
+                • das Reinigen von Flächen (z.B. durch Abbürsten, Abwaschen)
+                • das Entsorgen der Baurestmassen
+            3.2 Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            4. Ausmaß- und Abrechnungsregeln:
+            4.1 Flächen:
+            Abgerechnet wird die gesamte Fläche, von welcher der Schadensgrad angegeben ist.
+            Der Schadensgrad bezieht sich auf die einzelnen Wandflächen, wobei Öffnungen bis 4 m2 nicht abgezogen
+            werden.
+            4.2 Leibungen:
+            Das Instandsetzen von Leibungen, einschließlich Randausbildungen, mit einer Tiefe bis 25 cm ist bei Öffnungen
+            bis 4 m2 in die Einheitspreise einkalkuliert.
+            4.3 Höhen:
+
+                                                                                                                             Seite 14 / 30
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+            Leistungen bei Höhen von Null bis 3,2 m (b.3,2m) einerseits und Höhen von Null bis über 3,2 m (ü.3,2m:"AL")
+            andererseits werden in unterschiedlichen Positionen beschrieben. Maßgebend ist die tatsächliche Gesamthöhe.
+            Wände mit einer Höhe von Null bis über 3,2 m werden durch gedachte lotrechte seitliche Begrenzungen
+            gegenüber etwaigen Wänden mit einer Höhe von Null bis 3,2 m, auch bei schrägem oberen Abschluss,
+            abgegrenzt. Abgerechnet wird die Summe der Flächen von Null bis 3,2 m und die Summe der Flächen von Null
+            bis zur angegebenen Höhe (über 3,2 m).
+            4.4 Aufzahlungen beziehen sich auf fertig verputzte Flächen.
+            Grenzlinien, Nuten und Putzprofile werden nach dem Längenmaß abgerechnet.
+            Treffen mehrere Definitionen für eine Ausbildung (z.B. Kante = Putz- und Farbgrenze) zu, wird nur eine
+            Aufzahlungsposition verrechnet.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - ein anderer Schadensgrad (eine Dokumentation z.B. mit Planbeilagen, Ansichten, Fotos wird empfohlen)
+             - eine andere Gliederungen z.B. stark gegliederte Flächen (eine Dokumentation z.B. mit Planbeilagen, Ansichten, Fotos wird
+             empfohlen)
+             - besondere Reinigungsarbeiten (z.B. Sandstrahlen, Abbeizen oder Dampfreinigen, bei etwaigen Ausblühungen, Algen)
+
+            LB-Version: 23                 Geringfügig Geändert
+10.81 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+10.81 00D   Oberfläche zu 10.81
+            Eine auszuführenden Oberfläche zu den angegebenen Positionen der ULG 10.81 wird vereinbart:
+            Betrifft Position(en): ____________
+            Oberflächenausführung: ____________
+
+10.81 00E   Putzgrund zu 10.81
+            Betrifft Position(en): ____________
+            Putzgrund: ____________
+
+10.81 01    Putz innen auf Wänden (IP W) instandsetzen, ohne Unterschied der Putzart und ohne Unterschied, ob auf
+            tragenden Wänden oder Zwischenwänden, einschließlich Entsorgen der Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen.
+            Im Positionsstichwort sind die Höhe und der Schadensgrad angegeben.
+
+10.81 01A   Inst.IP W b.3,2m b.10%                                                                                                m²
+
+10.81 01B   Inst.IP W Treppe b.3,2m b.10%                                                                                         m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+
+10.81 01C   Inst.IP W b.3,2m ü.10-25%                                                                                             m²
+
+10.81 01D   Inst.IP W Treppe b.3,2m ü.10-25%                                                                                      m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+
+10.81 01E   Inst.IP W b.3,2m ü.25-50%                                                                                             m²
+
+10.81 01F   Inst.IP W Treppe b.3,2m ü.25-50%                                                                                      m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+10.81 02    Putz innen auf Wänden (IP W) instandsetzen, einschließlich Putzgrundvorbehandlungen (PGV), ohne
+            Unterschied der Putzart und ohne Unterschied, ob auf tragenden Wänden oder Zwischenwänden, einschließlich
+            Entsorgen der Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen.
+            Im Positionsstichwort sind die Höhe und der Schadensgrad angegeben.
+
+10.81 02A   Inst.IP W PGV b.3,2m b.10%                                                                                            m²
+
+10.81 02B   Inst.IP W PGV Treppe b.3,2m b.10%                                                                                     m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+
+10.81 02C   Inst.IP W PGV b.3,2m ü.10-25%                                                                                         m²
+                                                                                                                            Seite 15 / 30
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+10.81 02D   Inst.IP W PGV Treppe b.3,2m ü.10-25%                                                                      m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+
+10.81 02E   Inst.IP W PGV b.3,2m ü.25-50%                                                                             m²
+
+10.81 02F   Inst.IP W PGV Treppe b.3,2m ü.25-50%                                                                      m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+10.81 03    Putz innen auf Wänden (IP W) instandsetzen, einschließlich Putzgrundvorbehandlungen (PGV) und
+            Textilglasgitter (TGG), ohne Unterschied der Putzart und ohne Unterschied, ob auf tragenden Wänden oder
+            Zwischenwänden, einschließlich Entsorgen der Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen.
+            Im Positionsstichwort sind die Höhe und der Schadensgrad angegeben.
+
+10.81 03A   Inst.IP W PGV+TGG b.3,2m b.10%                                                                            m²
+
+10.81 03B   Inst.IP W PGV+TGG Treppe b.3,2m b.10%                                                                     m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+
+10.81 03C   Inst.IP W PGV+TGG b.3,2m ü.10-25%                                                                         m²
+
+10.81 03D   Inst.IP W PGV+TGG Treppe b.3,2m ü.10-25%                                                                  m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+
+10.81 03E   Inst.IP W PGV+TGG b.3,2m ü.25-50%                                                                         m²
+
+10.81 03F   Inst.IP W PGV+TGG Treppe b.3,2m ü.25-50%                                                                  m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+10.81 11    Putz innen auf Wänden (IP W) instandsetzen, ohne Unterschied der Putzart und ohne Unterschied, ob auf
+            tragenden Wänden oder Zwischenwänden, einschließlich Entsorgen der Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen.
+            Im Positionsstichwort ist der Schadensgrad angegeben.
+
+10.81 11A   Inst.IP W ü.3,2m b.10%                                                                                    m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+10.81 11B   Inst.IP W Treppe ü.3,2m b.10%                                                                             m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe):____________
+
+10.81 11C   Inst.IP W ü.3,2m ü.10-25%                                                                                 m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+10.81 11D   Inst.IP W Treppe ü.3,2m ü.10-25%                                                                          m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe):____________
+
+10.81 11E   Inst.IP W ü.3,2m ü.25-50%                                                                                 m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+10.81 11F   Inst.IP W Treppe ü.3,2m ü.25-50%                                                                          m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe):____________
+
+
+
+                                                                                                                Seite 16 / 30
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+10.81 12    Putz innen auf Wänden (IP W) instandsetzen, einschließlich Putzgrundvorbehandlungen (PGV), ohne
+            Unterschied der Putzart und ohne Unterschied, ob auf tragenden Wänden oder Zwischenwänden, einschließlich
+            Entsorgen der Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen.
+            Im Positionsstichwort ist der Schadensgrad angegeben.
+
+10.81 12A   Inst.IP W PGV ü.3,2m b.10%                                                                                m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+10.81 12B   Inst.IP W PGV Treppe ü.3,2m b.10%                                                                         m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe):____________
+
+10.81 12C   Inst.IP W PGV ü.3,2m ü.10-25%                                                                             m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+10.81 12D   Inst.IP W PGV Treppe ü.3,2m ü.10-25%                                                                      m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe):____________
+
+10.81 12E   Inst.IP W PGV ü.3,2m ü.25-50%                                                                             m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+10.81 12F   Inst.IP W PGV Treppe ü.3,2m ü.25-50%                                                                      m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe):____________
+
+10.81 13    Putz innen auf Wänden (IP W) instandsetzen, einschließlich Putzgrundvorbehandlungen (PGV) und
+            Textilglasgitter (TGG), ohne Unterschied der Putzart und ohne Unterschied, ob auf tragenden Wänden oder
+            Zwischenwänden, einschließlich Entsorgen der Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen.
+            Im Positionsstichwort ist der Schadensgrad angegeben.
+
+10.81 13A   Inst.IP W PGV+TGG ü.3,2m b.10%                                                                            m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+            LB-Version: 23             Geringfügig Geändert
+
+10.81 13B   Inst.IP W PGV+TGG Treppe ü.3,2m b.10%                                                                     m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe):____________
+            LB-Version: 23             Geringfügig Geändert
+
+10.81 13C   Inst.IP W PGV+TGG ü.3,2m ü.10-25%                                                                         m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+            LB-Version: 23             Geringfügig Geändert
+
+10.81 13D   Inst.IP W PGV+TGG Treppe ü.3,2m ü.10-25%                                                                  m²
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe):____________
+            LB-Version: 23             Geringfügig Geändert
+
+10.81 13E   Inst.IP W PGV+TGG ü.3,2m ü.25-50%                                                                         m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+            LB-Version: 23             Geringfügig Geändert
+
+10.81 13F   Inst.IP W PGV+TGG Treppe ü.3,2m ü.25-50%                                                                  m²
+
+
+                                                                                                                Seite 17 / 30
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+            Bei Wänden über Treppenläufen, einschließlich etwaiger Zwischenpodeste und Rampen, einschließlich aller
+            Erschwernisse (z.B. das Anarbeiten an das Treppenprofil).
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe):____________
+            LB-Version: 23                 Geringfügig Geändert
+10.81 21    Instandsetzen der Oberfläche (OF) und der Fugen für unverputzt bleibende Wände innen, ohne Unterschied der
+            Höhe, losen Mörtel aus den Fugen auskratzen und verschließen (Fug.verschl.). Die gesamte Fläche mit der
+            Bürste reinigen, einschließlich Entsorgen der Baurestmassen.
+            Gesamte Fläche reinigen.
+             Kommentar:
+             Das Abschlagen des Putzes für unverputzt bleibende Flächen ist in der LG 02 beschrieben.
+
+10.81 21A   Inst.IPW OF reinigen+Fug.verschl.                                                                                      m²
+
+10.81 21B   Inst.IPW OF reinigen+Fug.verschl.+weiß.                                                                                m²
+            Einschließlich weißen (weiß.).
+
+            LB-Version: 23                 Geringfügig Geändert
+
+10.81 21C   Inst.IPW OF reinigen+Fug.verschl.+pat.                                                                                 m²
+            Einschließlich patschokkieren (pat.).
+
+10.81 22    Kellerwände innen, ohne Unterschied der Höhe, reinigen und Schmutz abkehren, einschließlich Entsorgen der
+            Baurestmassen.
+            Gesamte Fläche reinigen.
+             Kommentar:
+             Das Abschlagen des Putzes für unverputzt bleibende Flächen ist in der LG 02 beschrieben.
+
+10.81 22A   Kellerwände innen reinigen                                                                                             m²
+
+10.81 22B   Kellerwände innen reinigen+weißen                                                                                      m²
+            Einschließlich weißen.
+
+            LB-Version: 23                 Geringfügig Geändert
+
+10.81 22C   Kellerwände innen reinigen+patschokkieren                                                                              m²
+            Einschließlich patschokkieren.
+
+10.81 23    Bei Instandsetzungsarbeiten Untergrund ausgleichen mit einer Ausgleichsschicht auf Wandflächen innen (IP
+            W), ohne Unterschied der Putzart und des Putzuntergrundes.
+            Im Positionsstichwort ist die Dicke der Ausgleichsschicht angegeben.
+             Die Positionswahl erfolgt entsprechend der auszuführenden Dicke und ist nicht als Aufzahlung auf vorangehend, gestaffelte
+             Positionen zu betrachten.
+             z.B. Ausgleichsschicht 25mm --> Pos. 10.81 23B
+
+10.81 23A   Inst.Ausgleichsschicht IP W ü.10-20mm                                                                                  m²
+            Größte Gesamthöhe: ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+
+10.81 23B   Inst.Ausgleichsschicht IP W ü.20-30mm                                                                                  m²
+            Größte Gesamthöhe: ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+
+10.81 23C   Inst.Ausgleichsschicht IP W ü.30-40mm                                                                                  m²
+            Größte Gesamthöhe: ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+
+10.81 23D   Inst.Ausgleichsschicht IP W ü.40-50mm                                                                                  m²
+            Größte Gesamthöhe: ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+10.81 51    Aufzahlung (Az) auf Innenputze auf Wänden (IP W) instandsetzen für Erschwernisse.
+
+10.81 51A   Az Inst.IP W f.Pfeiler                                                                                                 m²
+                                                                                                                             Seite 18 / 30
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Bei Pfeilern (frei stehende Mauerwerkskörper oder Wandabschnitte, deren Breite und Dicke nicht größer als ein
+            Drittel ihrer Höhe ist).
+
+10.81 51B   Az Inst.IP W f.Ebenheit erhöhte Anforderung                                                                  m²
+            Bei erhöhten Anforderungen an die Grenzwerte für die Ebenheit (z.B. als Untergrund für Fliesenbeläge)
+
+10.81 51C   Az Inst.IP W f.Ichse unter 90 Grad                                                                           m
+            Beim Ausbilden von Innenkanten (Ichsen), die plangemäß einen kleineren Winkel als 90 Grad aufweisen.
+
+10.81 51D   Az Inst.IP W f.gekrümmte Wände und Pfeiler rund                                                              m²
+            Beim Verputzen von gekrümmten Untergründen und Pfeilern mit rundem Querschnitt, einschließlich etwa
+            erforderlichen Putzmehrdicken und Hilfsmittel.
+            Nähere Angaben zu Krümmung oder zum Durchmesser: ____________
+
+10.81 51E   Az Inst.IP W f.Bögen                                                                                         m
+            Beim Herstellen von Putzflächen mit gekrümmten Kanten einschließlich Kantenprofil mit Hilfe von Schablonen
+            (Lehren) und Kanten.
+
+10.81 51F   Az Inst.IP W f.SchabloneTür b.4m2                                                                            m
+            Beim Herstellen von lotrechten und ebenflächigen Wandanschlussflächen, ohne Unterschied der Leibungslichte
+            bei Türen bis 4 m2.
+10.81 81    Aufzahlung (Az) auf das Instandsetzen von Innenputz auf Wänden (Inst.IP W), ohne Unterschied der Art des
+            Untergrundes und des Putzes, für das Schließen (Verputzen) von Schlitzen, die nicht mit einem Putzträger
+            überspannt oder ausgemauert sind, im Zuge der Putzarbeiten.
+            Für Schlitze mit einer Tiefe über der zweifachen Nennputzdicke sowie über dem Ausmaß des vierfachen
+            Querschnittes der Leitungen.
+
+10.81 81A   Az Inst.IP W f.Schließen (Verputzen) von Schlitzen                                                           m
+10.82       Instandsetzen IP D nach Schadensgrad
+
+
+            1. Erschwernisse:
+            Alle Erschwernisse, die aus den Merkmalen einer Instandsetzungs- oder Adaptierungsarbeit (Inst.) resultieren,
+            sind in die Einheitspreise einkalkuliert.
+            2. Begriffe:
+            2.1 Abschlagen:
+            Unter Abschlagen wird das Entfernen von schadhaften Teilflächen des Verputzes verstanden, die durch
+            vorangehendes Abklopfen festgestellt werden.
+            2.2 Schadensgrad:
+            Der Schadensgrad wird gemeinsam von Auftraggeber und Auftragnehmer anhand der tatsächlichen
+            Gegebenheiten ermittelt.
+            Der in den jeweiligen Positionen angegebene Schadensgrad ist der Anteil des neu herzustellenden Putzes,
+            unabhängig vom Ausmaß des abzuschlagenden Putzes.
+            2.3 Nennputzdicke:
+            Nennputzdicke an Decken innen: 2 cm
+            2.4 Ergänzen des fehlenden Putzes:
+            Fehlender Putz wird in der Art des Bestandes ergänzt.
+            3. Einkalkulierte Leistungen:
+            3.1 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • behördliche Vorschreibungen betreffend Schall- und Staubschutz
+                • das Verwenden von Containern
+                • das Abklopfen der gesamten Fläche
+                • das Abschlagen von lockerem Putz
+                • das Auskratzen etwaiger Fugen
+                • das Reinigen von Flächen (z.B. durch Abbürsten, Abwaschen)
+                • das Entsorgen der Baurestmassen
+            3.2 Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+                                                                                                                   Seite 19 / 30
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+            oder Entsorgen der Baurestmassen zu verstehen.
+            4. Ausmaß- und Abrechnungsregeln:
+            4.1 Flächen:
+            Abgerechnet wird die gesamte Fläche, von welcher der Schadensgrad angegeben ist. Der Schadensgrad
+            bezieht sich auf die einzelnen Deckenflächen.
+            4.2 Höhen:
+            Bei Decken über 3,2 m wird die Summe der Teilflächen im angegebenen größeren Höhenbereich abgerechnet.
+            4.3 Aufzahlungen:
+            Aufzahlungen beziehen sich auf fertig verputzte Flächen.
+            Grenzlinien, Nuten und Putzprofile werden nach dem Längenmaß abgerechnet.
+            Treffen mehrere Definitionen für eine Ausbildung (z.B. Kante = Putz- und Farbgrenze) zu, wird nur eine
+            Aufzahlungsposition verrechnet.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - ein anderer Schadensgrad (eine Dokumentation z.B. mit Planbeilagen, Ansichten, Fotos wird empfohlen)
+             - eine andere Gliederungen z.B. stark gegliederte Flächen (eine Dokumentation z.B. mit Planbeilagen, Ansichten, Fotos wird
+             empfohlen)
+             - besondere Reinigungsarbeiten (z.B. Sandstrahlen, Abbeizen oder Dampfreinigen, bei etwaigen Ausblühungen, Algen)
+
+            LB-Version: 23                 Geringfügig Geändert
+10.82 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+10.82 00D   Oberfläche zu 10.82
+            Eine auszuführenden Oberfläche zu den angegebenen Positionen der ULG 10.82 wird vereinbart:
+            Betrifft Position(en): ____________
+            Oberflächenausführung: ____________
+
+10.82 00E   Putzgrund zu 10.82
+            Betrifft Position(en): ____________
+            Putzgrund: ____________
+
+10.82 01    Putz innen auf Decken (IP D) instandsetzen, ohne Unterschied der Putzart, einschließlich Entsorgen der
+            Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen.
+            Im Positionsstichwort sind die Höhe und der Schadensgrad angegeben.
+
+10.82 01A   Inst.IP D b.3,2m b.10%                                                                                                m²
+
+10.82 01C   Inst.IP D b.3,2m ü.10-25%                                                                                             m²
+
+10.82 01E   Inst.IP D b.3,2m ü.25-50%                                                                                             m²
+10.82 02    Putz innen auf Decken (IP D) instandsetzen, einschließlich Putzgrundvorbehandlungen (PGV), ohne
+            Unterschied der Putzart, einschließlich Entsorgen der Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen.
+            Im Positionsstichwort sind die Höhe und der Schadensgrad angegeben.
+
+10.82 02A   Inst.IP D PGV b.3,2m b.10%                                                                                            m²
+
+10.82 02C   Inst.IP D PGV b.3,2m ü.10-25%                                                                                         m²
+
+10.82 02E   Inst.IP D PGV b.3,2m ü.25-50%                                                                                         m²
+10.82 03    Putz innen auf Decken (IP D) instandsetzen, einschließlich Putzgrundvorbehandlungen (PGV) und
+            Textilglasgitter (TGG), ohne Unterschied der Putzart, einschließlich Entsorgen der Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen.
+            Im Positionsstichwort sind die Höhe und der Schadensgrad angegeben.
+
+10.82 03A   Inst.IP D PGV+TGG b.3,2m b.10%                                                                                        m²
+
+10.82 03C   Inst.IP D PGV+TGG b.3,2m ü.10-25%                                                                                     m²
+
+10.82 03E   Inst.IP D PGV+TGG b.3,2m ü.25-50%                                                                                     m²
+
+
+                                                                                                                            Seite 20 / 30
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+10.82 11    Putz innen auf Decken (IP D) instandsetzen, ohne Unterschied der Putzart, einschließlich Entsorgen der
+            Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen.
+            Im Positionsstichwort ist der Schadensgrad angegeben.
+
+10.82 11A   Inst.IP D ü.3,2m b.10%                                                                                                 m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+10.82 11C   Inst.IP D ü.3,2m ü.10-25%                                                                                              m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+10.82 11E   Inst.IP D ü.3,2m ü.25-50%                                                                                              m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+10.82 12    Putz innen auf Decken (IP D) instandsetzen, einschließlich Putzgrundvorbehandlungen (PGV), ohne
+            Unterschied der Putzart, einschließlich Entsorgen der Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen.
+            Im Positionsstichwort ist der Schadensgrad angegeben.
+
+10.82 12A   Inst.IP D PGV ü.3,2m b.10%                                                                                             m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+10.82 12C   Inst.IP D PGV ü.3,2m ü.10-25%                                                                                          m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+10.82 12E   Inst.IP D PGV ü.3,2m ü.25-50%                                                                                          m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+10.82 13    Putz innen auf Decken (IP D) instandsetzen, einschließlich Putzgrundvorbehandlungen (PGV) und
+            Textilglasgitter (TGG), ohne Unterschied der Putzart, einschließlich Entsorgen der Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen.
+            Im Positionsstichwort ist der Schadensgrad angegeben.
+
+10.82 13A   Inst.IP D PGV+TGG ü.3,2m b.10%                                                                                         m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+10.82 13C   Inst.IP D PGV+TGG ü.3,2m ü.10-25%                                                                                      m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+10.82 13E   Inst.IP D PGV+TGG ü.3,2m ü.25-50%                                                                                      m²
+            Bauteilhöhe von Null bis über 3,2 m (Gesamthöhe): ____________
+
+10.82 21    Instandsetzen der Oberfläche (OF) und der Fugen für unverputzt bleibende Decken innen, ohne Unterschied der
+            Höhe. Losen Mörtel aus den Fugen auskratzen und verschließen (Fug.verschl.), einschließlich Entsorgen der
+            Baurestmassen.
+            Gesamte Fläche mit der Bürste reinigen.
+             Kommentar:
+             Das Abschlagen des Putzes für unverputzt bleibende Flächen ist in der LG 02 beschrieben.
+
+10.82 21A   Inst.IP D OF reinigen+Fug.verschl.                                                                                     m²
+
+10.82 21B   Inst.IP D OF reinigen+Fug.verschl.+weiß.                                                                               m²
+            Einschließlich weißigen (weiß.).
+
+10.82 21C   Inst.IP D OF reinigen+Fug.verschl.+pat.                                                                                m²
+            Einschließlich patschokkieren (pat.).
+
+10.82 22    Kellerdecken innen, ohne Unterschied der Höhe, reinigen und Schmutz abkehren, einschließlich Entsorgen der
+            Baurestmassen.
+            Gesamte Fläche reinigen.
+             Kommentar:
+             Das Abschlagen des Putzes für unverputzt bleibende Flächen ist in der LG 02 beschrieben.
+
+10.82 22A   Kellerdecken innen reinigen                                                                                            m²
+                                                                                                                             Seite 21 / 30
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+10.82 22B   Kellerdecken innen reinigen+weißen                                                                                     m²
+            Einschließlich weißen.
+
+            LB-Version: 23                 Geringfügig Geändert
+
+10.82 22C   Kellerdecken innen reinigen+patschokkieren                                                                             m²
+            Einschließlich patschokkieren.
+
+10.82 23    Instandsetzen der Oberfläche und der Fugen für unverputzt bleibende Gewölbeflächen innen, ohne Unterschied
+            der Höhe. Losen Mörtel aus den Fugen auskratzen und Fugen verschließen, einschließlich Entsorgen der
+            Baurestmassen.
+            Gesamte Fläche reinigen.
+             Kommentar:
+             Das Abschlagen des Putzes für unverputzt bleibende Flächen ist in der LG 02 beschrieben.
+
+10.82 23A   Gewölbeflächen innen reinigen                                                                                          m²
+
+10.82 23B   Gewölbeflächen innen reinigen+weißen                                                                                   m²
+            Einschließlich weißen.
+
+            LB-Version: 23                 Geringfügig Geändert
+
+10.82 23C   Gewölbefläche innen reinigen+patschokkieren                                                                            m²
+            Einschließlich patschokkieren.
+
+10.82 41    Bei Instandsetzungsarbeiten Untergrund ausgleichen mit einer Ausgleichsschicht auf Deckenflächen innen (IP
+            D), ohne Unterschied der Putzart und des Putzuntergrundes.
+            Im Positionsstichwort ist die Dicke der Ausgleichsschicht angegeben.
+             Die Positionswahl erfolgt entsprechend der auszuführenden Dicke und ist nicht als Aufzahlung auf vorangehend, gestaffelte
+             Positionen zu betrachten.
+             z.B. Ausgleichsschicht 25mm --> Pos. 10.82 41B
+
+10.82 41A   Inst.Ausgleichsschicht IP D ü.10-20mm                                                                                  m²
+            Größte Gesamthöhe: ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+
+10.82 41B   Inst.Ausgleichsschicht IP D ü.20-30mm                                                                                  m²
+            Größte Gesamthöhe: ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+
+10.82 41C   Inst.Ausgleichsschicht IP D ü.30-40mm                                                                                  m²
+            Größte Gesamthöhe: ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+
+10.82 41D   Inst.Ausgleichsschicht IP D ü.40-50mm                                                                                  m²
+            Größte Gesamthöhe: ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+10.82 51    Aufzahlung (Az) auf Innenputze auf Decken (IP D) instandsetzen für Erschwernisse.
+
+10.82 51B   Az Inst.IP D f.Ebenheit erhöhte Anforderung                                                                            m²
+            Bei erhöhten Anforderungen an die Grenzwerte für die Ebenheit.
+
+10.82 51C   Az Inst.IP D f.Ichse unter 90 Grad                                                                                     m
+            Beim Ausbilden von Innenkanten (Ichsen), die plangemäß einen kleineren Winkel als 90 Grad aufweisen.
+
+10.82 51E   Az Inst.IP D f.Gewölbe                                                                                                 m²
+            Bei Gewölbeausbildungen gemäß den Angaben des Auftraggebers (z.B. Mehrflächen, die die lotrechte
+            Projektion auf eine waagrechte Fläche übersteigen).
+            Angaben (z.B. Stichhöhe, Verschneidungen): ____________
+
+10.82 81    Aufzahlung (Az) auf das Instandsetzen Innenputz auf Decken (IP D), ohne Unterschied der Art des
+            Untergrundes und des Putzes, für das Schließen (Verputzen) von Schlitzen, die nicht mit einem Putzträger
+            überspannt oder ausgemauert sind, im Zuge der Putzarbeiten.
+                                                                                                                             Seite 22 / 30
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            Für Schlitze mit einer Tiefe über der zweifachen Nennputzdicke sowie über dem Ausmaß des vierfachen
+            Querschnittes der Leitungen.
+
+10.82 81A   Az Inst.IP D f.Schließen (Verputzen) von Schlitzen                                                           m
+10.83       Instandsetzen AP nach Schadensgrad
+
+
+            1. Erschwernisse:
+            Alle Erschwernisse, die aus den Merkmalen einer Instandsetzungs- oder Adaptierungsarbeit (Inst.) resultieren,
+            sind in die Einheitspreise einkalkuliert.
+            2. Begriffe:
+            2.1 Abschlagen:
+            Unter Abschlagen wird das Entfernen von schadhaften Teilflächen des Verputzes verstanden, die durch
+            vorangehendes Abklopfen festgestellt werden.
+            2.2 Schadensgrad:
+            Der Schadensgrad wird gemeinsam von Auftraggeber und Auftragnehmer anhand der tatsächlichen
+            Gegebenheiten ermittelt.
+            Der in den jeweiligen Positionen angegebene Schadensgrad ist der Anteil des neu herzustellenden Putzes,
+            unabhängig vom Ausmaß des abzuschlagenden Putzes.
+            2.3 Nennputzdicke:
+            Nennputzdicke an Außenflächen oder Fassaden: 3 cm
+            2.4 Ergänzen des fehlenden Putzes:
+            Fehlender Putz wird in der Art des Bestandes ergänzt.
+            3. Fassadenteile:
+            Die Kalkulation geht von glatten oder einfach gegliederten Fassadenflächen aus.
+            Fassaden, die nur Haupt- und Kordongesimse und vertiefte oder erhöhte glatte Putzfaschen aufweisen, sind
+            einer einfachen Gliederung zugeordnet.
+            Unter einfach gegliederten Fassaden werden solche verstanden, deren Gliederungselemente bis 25 cm,
+            bezogen auf die Fassadenfläche, vor- oder zurückspringen (z.B. Kordon- oder Fenstergesimse).
+            3. Einkalkulierte Leistungen:
+            3.1 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • behördliche Vorschreibungen betreffend Schall- und Staubschutz
+                • das Verwenden von Containern
+                • das Abklopfen der gesamten Fläche
+                • das Abschlagen von lockerem Putz
+                • das Auskratzen etwaiger Fugen
+                • das Reinigen von Flächen (z.B. durch Abbürsten, Abwaschen)
+                • Anschlüsse an nicht verputzte Bauteile (z.B. Bekleidungen, Verblechungen, Fenster- oder Türstöcke,
+                  Sichtbetonflächen)
+                • das Entsorgen der Baurestmassen
+            3.2 Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            4. Ausmaß- und Abrechnungsregeln:
+            4.1 Flächen:
+            Abgerechnet wird die gesamte projizierte Ansichtsfläche (ohne Abwicklung), von welcher der Schadensgrad
+            angegeben ist.
+            Der Schadensgrad bezieht sich auf die einzelnen Wandflächen, wobei Öffnungen bis 4 m2 nicht abgezogen
+            werden.
+            4.2 Leibungen:
+            Das Instandsetzen von Leibungen, einschließlich Randausbildungen, mit einer Tiefe bis 25 cm ist bei Öffnungen
+            bis 4 m2 in die Einheitspreise einkalkuliert.
+            4.3 Resche:
+            Der Untergrund für Verblechungen (z.B. Gesimse) wird im Folgenden mit Resche bezeichnet. Die Abwicklung
+            der Gesimse wird ohne Resche gemessen.
+            4.4 Aufzahlungen:
+                                                                                                                   Seite 23 / 30
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+            Aufzahlungen beziehen sich auf fertig verputzte Flächen.
+            Grenzlinien, Nuten und Putzprofile werden nach dem Längenmaß abgerechnet.
+            Treffen mehrere Definitionen für eine Ausbildung (z.B. Kante = Putz- und Farbgrenze) zu, wird nur eine
+            Aufzahlungsposition verrechnet.
+            4.5 Fassadenputz:
+            Aufzahlungen werden nicht je Arbeitsgang (Unterputz oder Unterputz mit Oberputz) getrennt, sondern nur 1 Mal
+            nach dem Ausmaß des fertigen Fassadenputzes abgerechnet.
+             Kommentar:
+             Frei zu formulieren (z.B.)
+             - ein anderer Schadensgrad (eine Dokumentation z.B. mit Planbeilagen, Ansichten, Fotos wird empfohlen)
+             - eine andere Gliederungen z.B. stark gegliederte Flächen (eine Dokumentation z.B. mit Planbeilagen, Ansichten, Fotos wird
+             empfohlen)
+             - das genaue Anpassen an den Bestand durch Schleifen, Spachteln oder Schlämmen
+             - das Neuherstellen von Abformungen und künstlerischen Ausgestaltungen
+             - besondere Reinigungsarbeiten (z.B. Sandstrahlen, Abbeizen oder Dampfreinigen, bei etwaigen Ausblühungen, Algen)
+             - das genaue Anpassen an den Bestand (z.B. durch Schleifen, Spachteln oder Schlämmen), das Neuherstellen von
+             Abformungen und künstlerischen Ausgestaltungen (z.B. von Figuren, Sinnbildern, Ornamenten, Abgüsse und Nachbauten
+             von Gesimsen oder sonstigen auskragenden Bauteilen)
+
+            LB-Version: 23                 Geringfügig Geändert
+10.83 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+10.83 00D   Oberfläche zu 10.83
+            Eine auszuführenden Oberfläche zu den angegebenen Positionen der ULG 10.83 wird vereinbart:
+            Betrifft Position(en): ____________
+            Oberflächenausführung: ____________
+
+10.83 00E   Putzgrund zu 10.83
+            Betrifft Position(en): ____________
+            Putzgrund: ____________
+
+10.83 00F   Beschreibung der Fassade zu 10.83
+            Betrifft Position(en): ____________
+            Beschreibung der Fassade: ____________
+            Beilagen: ____________
+
+10.83 00G   Geograph.Orientierung der Fassade zu 10.83
+            Betrifft Position(en): ____________
+            Angaben zur geographischen Orientierung: ____________
+
+10.83 00H   Sockel der Fassade zu 10.83
+            Betrifft Position(en): ____________
+            Sockelausbildung: ____________
+            Geländeanschluss: ____________
+
+10.83 00I   Arbeitshöhe zu 10.83
+            Betrifft Position(en): ____________
+            Größte Arbeitshöhe: ____________
+10.83 01    Instandsetzen Kalkzement-Außenputz (AP) an einer glatten Fassade, einschließlich Zement-Vorspritzer, ohne
+            Unterschied des Putzgrundes, einschließlich Entsorgen der Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen.
+            Im Positionsstichwort ist der Schadensgrad angegeben.
+
+10.83 01A   Inst.AP Fassade glatt b.10%                                                                                           m²
+
+10.83 01B   Inst.AP Fassade glatt ü.10-25%                                                                                        m²
+
+10.83 01C   Inst.AP Fassade glatt ü.25-50%                                                                                        m²
+10.83 02    Instandsetzen von Kalkzement-Außenputz (AP) an einer einfach gegliederten (einf.gg) Fassade, einschließlich
+            Zement-Vorspritzer, ohne Unterschied des Putzgrundes, einschließlich Entsorgen der Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen.
+            Im Positionsstichwort ist der Schadensgrad angegeben.
+
+
+                                                                                                                            Seite 24 / 30
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+10.83 02A   Inst.AP Fassade einf.gg b.10%                                                                              m²
+
+10.83 02B   Inst.AP Fassade einf.gg ü.10-25%                                                                           m²
+
+10.83 02C   Inst.AP Fassade einf.gg ü.25-50%                                                                           m²
+10.83 03    Instandsetzen von Kalkzement-Außenputz (AP) an einer stark gegliederten (stark gg) Fassade, einschließlich
+            Zement-Vorspritzer, ohne Unterschied des Putzgrundes, einschließlich Entsorgen der Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen.
+            Im Positionsstichwort ist der Schadensgrad angegeben.
+
+10.83 03A   Inst.AP Fassade stark gg b.10%                                                                             m²
+            Gliederung gemäß Planbeilage: ____________
+
+            LB-Version: 23
+
+10.83 03B   Inst.AP Fassade stark gg ü.10-25%                                                                          m²
+            Gliederung gemäß Planbeilage: ____________
+
+            LB-Version: 23
+
+10.83 03C   Inst.AP Fassade stark gg ü.25-50%                                                                          m²
+            Gliederung gemäß Planbeilage: ____________
+
+            LB-Version: 23
+10.83 04    Instandsetzen von Kalkzement-Außenputz (AP) an einer glatten Fassade, einschließlich Zement-Vorspritzer,
+            ohne Unterschied des Putzgrundes, einschließlich Entsorgen der Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen sowie
+            Restflächen vorspritzen und aufrauen.
+            Die Gesamtfläche mit Feinputz (GFl/FP) überziehen.
+            Im Positionsstichwort ist der Schadensgrad angegeben.
+
+10.83 04A   Inst.AP Fassade glatt+GFl/FP b.10%                                                                         m²
+
+10.83 04B   Inst.AP Fassade glatt+GFl/FP ü.10-25%                                                                      m²
+
+10.83 04C   Inst.AP Fassade glatt+GFl/FP ü.25-50%                                                                      m²
+10.83 05    Instandsetzen von Kalkzement-Außenputz (AP) an einer einfach gegliederten (einf.gg) Fassade, einschließlich
+            Zement-Vorspritzer, ohne Unterschied des Putzgrundes, einschließlich Entsorgen der Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen sowie
+            Restflächen vorspritzen und aufrauen.
+            Die Gesamtfläche mit Feinputz (GFl/FP) überziehen.
+            Im Positionsstichwort ist der Schadensgrad angegeben.
+
+10.83 05A   Inst.AP Fassade einf.gg+GFl/FP b.10%                                                                       m²
+
+10.83 05B   Inst.AP Fassade einf.gg+GFl/FP ü.10-25%                                                                    m²
+
+10.83 05C   Inst.AP Fassade einf.gg+GFl/FP ü.25-50%                                                                    m²
+10.83 06    Instandsetzen von Kalkzement-Außenputz (AP) an einer stark gegliederten (stark gg) Fassade, einschließlich
+            Zement-Vorspritzer, ohne Unterschied des Putzgrundes, einschließlich Entsorgen der Baurestmassen.
+            Schadhaften Altputz abschlagen und fehlende Teilflächen, dem Oberflächenbestand angepasst, ergänzen sowie
+            Restflächen vorspritzen und aufrauen.
+            Die Gesamtfläche mit Feinputz (GFl/FP) überziehen.
+            Im Positionsstichwort ist der Schadensgrad angegeben.
+
+10.83 06A   Inst.AP Fassade stark gg+GFl/FP b.10%                                                                      m²
+            Gliederung gemäß Planbeilage: ____________
+
+            LB-Version: 23
+
+10.83 06B   Inst.AP Fassade stark gg+GFl/FP ü.10-25%                                                                   m²
+            Gliederung gemäß Planbeilage: ____________
+
+            LB-Version: 23
+
+10.83 06C   Inst.AP Fassade stark gg+GFl/FP ü.25-50%                                                                   m²
+
+                                                                                                                 Seite 25 / 30
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+            Gliederung gemäß Planbeilage: ____________
+
+            LB-Version: 23
+10.83 11    Aufzahlung (Az) auf das Instandsetzen von Kalkzement-Außenputz (AP), ohne Unterschied des Putzgrundes,
+            einschließlich Entsorgen der Baurestmassen.
+
+10.83 11B   Az Inst.AP f.Spritzputz entfernen                                                                                     m²
+            Für das Entfernen des gesamten Spritzputzes von der Fassadenfläche oder von Teilflächen.
+
+10.83 12    Gesamte Fassade mit Wasserstrahl und Bürste reinigen.
+
+10.83 12A   Inst.AP reinigen                                                                                                      m²
+10.83 14    Instandsetzen von Fassaden-Sockelputz, bis 5 cm dick, aus gekratztem Zementmörtel. Schadhaften Altputz
+            abschlagen, einschließlich Entsorgen der Baurestmassen.
+            Teilflächen, dem Oberflächenbestand angepasst, ergänzen.
+
+10.83 14A   Inst.AP Sockelputz ZM gekr.                                                                                           m²
+10.83 41    Bei Instandsetzungsarbeiten Untergrund ausgleichen mit einer Ausgleichsschicht auf Fassaden oder
+            Außenflächen (AP), ohne Unterschied der Putzart und des Putzuntergrundes. Im Positionsstichwort ist die Dicke
+            der Ausgleichsschicht angegeben.
+             Die Positionswahl erfolgt entsprechend der auszuführenden Dicke und ist nicht als Aufzahlung auf vorangehend, gestaffelte
+             Positionen zu betrachten.
+             z.B. Ausgleichsschicht 25mm --> Pos. 10.83 41B
+
+10.83 41A   Inst.Ausgleichsschicht AP ü.10-20mm                                                                                   m²
+            LB-Version: 23                 Geringfügig Geändert
+
+10.83 41B   Inst.Ausgleichsschicht AP ü.20-30mm                                                                                   m²
+            LB-Version: 23                 Geringfügig Geändert
+
+10.83 41C   Inst.Ausgleichsschicht AP ü.30-40mm                                                                                   m²
+            LB-Version: 23                 Geringfügig Geändert
+
+10.83 41D   Inst.Ausgleichsschicht AP ü.40-50mm                                                                                   m²
+            LB-Version: 23                 Geringfügig Geändert
+10.83 51    Aufzahlung (Az) auf das Instandsetzen von Fassaden (AP) für das Instandsetzen von Hauptgesimsen (HG) mit
+            einer Ausladung über 25 cm:
+            - ohne Resche
+            - ohne Unterschied des Putzes und des Putzgrundes
+            - einschließlich Entsorgen der Baurestmassen
+            Fassade, einfach gegliedert (einf.gg): Schadensgrad bis 10%
+
+10.83 51A   Az Inst.AP einf.gg b.10% f.HG b.10%                                                                                   m
+            Hauptgesimse: Schadensgrad bis 10 %
+
+10.83 51B   Az Inst.AP einf.gg b.10% f.HG ü.10-25%                                                                                m
+            Hauptgesimse: Schadensgrad über 10 bis 25 %
+
+10.83 51C   Az Inst.AP einf.gg b.10% f.HG ü.25-50%                                                                                m
+            Hauptgesimse: Schadensgrad über 25 bis 50 %
+
+10.83 52    Aufzahlung (Az) auf das Instandsetzen von Fassaden (AP) für das Instandsetzen von Hauptgesimsen (HG) mit
+            einer Ausladung über 25 cm:
+            - ohne Resche
+            - ohne Unterschied des Putzes und des Putzgrundes
+            - einschließlich Entsorgen der Baurestmassen
+            Fassade, einfach gegliedert (einf.gg): Schadensgrad über 10 bis 25 %
+
+10.83 52B   Az Inst.AP einf.gg ü.10-25% f.HG ü.10-25%                                                                             m
+            Hauptgesimse: Schadensgrad über 10 bis 25 %
+
+10.83 52C   Az Inst.AP einf.gg ü.10-25% f.HG ü.25-50%                                                                             m
+
+                                                                                                                            Seite 26 / 30
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Hauptgesimse: Schadensgrad über 25 bis 50 %
+
+10.83 53    Aufzahlung (Az) auf das Instandsetzen von Fassaden (AP) für das Instandsetzen von Hauptgesimsen (HG) mit
+            einer Ausladung über 25 cm:
+            - ohne Resche
+            - ohne Unterschied des Putzes und des Putzgrundes
+            - einschließlich Entsorgen der Baurestmassen
+            Fassade, einfach gegliedert (einf.gg): Schadensgrad über 25 bis 50 %
+
+10.83 53C   Az Inst.AP einf.gg ü.25-50% f.HG ü.25-50%                                                                   m
+            Hauptgesimse: Schadensgrad über 25 bis 50 %
+
+10.83 61    Aufzahlung (Az) auf das Instandsetzen von Fassaden (AP) für das Instandsetzen von Kordongesimsen (KG) mit
+            einer Ausladung über 25 cm:
+            - ohne Resche
+            - ohne Unterschied des Putzes und des Putzgrundes
+            - einschließlich Entsorgen der Baurestmassen
+            Fassade, einfach gegliedert (einf.gg): Schadensgrad bis 10%
+
+10.83 61A   Az Inst.AP einf.gg b.10% f.KG b.10%                                                                         m
+            Kordongesimse: Schadensgrad bis 10 %
+
+10.83 61B   Az Inst.AP einf.gg b.10% f.KG ü.10-25%                                                                      m
+            Kordongesimse: Schadensgrad über 10 bis 25 %
+
+10.83 61C   Az Inst.AP einf.gg b.10% f.KG ü.25-50%                                                                      m
+            Kordongesimse: Schadensgrad über 25 bis 50 %
+
+10.83 62    Aufzahlung (Az) auf das Instandsetzen von Fassaden (AP) für das Instandsetzen von Kordongesimsen (KG) mit
+            einer Ausladung über 25 cm:
+            - ohne Resche
+            - ohne Unterschied des Putzes und des Putzgrundes
+            - einschließlich Entsorgen der Baurestmassen
+            Fassade, einfach gegliedert (einf.gg): Schadensgrad über 10 bis 25%
+
+10.83 62B   Az Inst.AP einf.gg ü.10-25% f.KG ü.10-25%                                                                   m
+            Kordongesimse: Schadensgrad über 10 bis 25 %
+
+10.83 62C   Az Inst.AP einf.gg ü.10-25% f.KG ü.25-50%                                                                   m
+            Kordongesimse: Schadensgrad über 25 bis 50 %
+
+10.83 63    Aufzahlung (Az) auf das Instandsetzen von Fassaden (AP) für das Instandsetzen von Kordongesimsen (KG) mit
+            einer Ausladung über 25 cm:
+            - ohne Resche
+            - ohne Unterschied des Putzes und des Putzgrundes
+            - einschließlich Entsorgen der Baurestmassen
+            Fassade, einfach gegliedert (einf.gg): Schadensgrad über 25 bis 50%
+
+10.83 63C   Az Inst.AP einf.gg ü.25-50% f.KG ü.25-50%                                                                   m
+            Kordongesimse: Schadensgrad über 25 bis 50 %
+
+10.83 71    Aufzahlung (Az) auf das Instandsetzen von Fassaden (AP), einfach gegliedert (einf.gg), für einen abgeschrägten
+            Untergrund unter den Verblechungen (Resche) (z.B. von Gesimsen, Sohlbänken), ohne Unterschied des
+            Beschädigungsgrades.
+            - einschließlich Entsorgen der Baurestmassen.
+            Breite: bis 0,5 m
+
+10.83 71A   Az Inst.AP einf.gg b.10% f.Resche b.0,5m                                                                    m
+            Fassade: Schadensgrad bis 10%
+
+10.83 71B   Az Inst.AP einf.gg ü.10-25% f.Resche b.0,5m                                                                 m
+            Fassade: Schadensgrad über 10 bis 25 %
+
+10.83 71C   Az Inst.AP einf.gg ü.25-50% f.Resche b.0,5m                                                                 m
+            Fassade: Schadensgrad über 25 bis 50 %
+
+                                                                                                                  Seite 27 / 30
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+10.83 78    Aufzahlung (Az) auf Außenputze (AP) instandsetzen.
+
+10.83 78A   Az Inst.AP f.Untersichten und Schrägdachfl.                                                                 m²
+            Beim Verputzen von Untersichten (z.B. Erker, Balkonplatten, Durchfahrten, Konsolen, Stiegenuntersichten,
+            Gaupen und Attikainnenflächen) und Schrägdachflächen.
+            Angaben (z.B. größte Gesamthöhe): ____________
+
+10.83 79    Aufzahlung (Az) auf Außenputze (AP) instandsetzen.
+
+10.83 79A   Az Inst.AP f.Pfeiler                                                                                        m²
+            Bei Pfeilern (frei stehende Mauerwerkskörper oder Wandabschnitte, deren Breite und Dicke nicht größer als ein
+            Drittel ihrer Höhe ist).
+
+10.83 79B   Az Inst.AP f.Ebenheit erhöhte Anforderung                                                                   m²
+            Bei erhöhten Anforderungen an die Grenzwerte für die Ebenheit (z.B. als Untergrund für Fliesenbeläge).
+
+10.83 79C   Az Inst.AP f.Ichse unter 90 Grad                                                                            m
+            Beim Ausbilden von Wandinnenkanten (Ichsen), die plangemäß einen kleineren Winkel als 90 Grad aufweisen.
+
+10.83 79D   Az Inst.AP f.gekrümmte Wände und Pfeiler rund                                                               m²
+            Beim Verputzen von gekrümmten Untergründen und Pfeilern mit rundem Querschnitt, einschließlich etwa
+            erforderlichen Putzmehrdicken und Hilfsmitteln.
+            Nähere Angaben zu Krümmung oder zum Durchmesser: ____________
+
+10.83 79E   Az Inst.AP f.Bögen                                                                                          m
+            Beim Herstellen von Putzflächen mit gekrümmten Kanten einschließlich Kantenprofil mit Hilfe von Schablonen
+            (Lehren) und Kanten.
+
+10.83 79F   Az Inst.AP f.SchabloneTür b.4m2                                                                             m
+            Beim Herstellen von lotrechten und ebenflächigen Wandanschlussflächen, ohne Unterschied der Leibungslichte
+            bei Türen bis 4 m2.
+
+10.83 79G   Az Inst.AP Endbesch.Farbe f.fungizid u.algizid                                                              m²
+            Bei der Endbeschichtung (Endbesch.) mit Farbe für eine fungizide und algizide Ausführung.
+
+10.83 79H   Az Inst.AP Endbesch.Putz f.fungizid u.algizid                                                               m²
+            Bei der Endbeschichtung (Endbesch.) mit Putzen für eine fungizide und algizide Ausführung.
+
+10.83 81    Aufzahlung (Az) auf das Instandsetzen von Außenputz (AP), ohne Unterschied der Art des Untergrundes und
+            des Putzes, für das Schließen (Verputzen) von Schlitzen, die nicht mit einem Putzträger überspannt oder
+            ausgemauert sind, im Zuge der Putzarbeiten.
+            Für Schlitze mit einer Tiefe über der zweifachen Nennputzdicke sowie über dem Ausmaß des vierfachen
+            Querschnittes der Leitungen.
+
+10.83 81A   Az Inst.AP f.Schließen (Verputzen) von Schlitzen                                                            m
+10.92       Putzträger, Putzarmierung, Einbauteile
+            1.Begriffe:
+            Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl (z.B. V2A oder V4A) beschrieben.
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+10.92 01    Ummanteln von Abfallrohren, Leitungsgruppen, Stahlstützen oder Stahlträgern, einschließlich
+            Befestigungsmaterial. Abgerechnet wird die abgewickelte Fläche.
+
+10.92 01A   Ummanteln Rohr Ziegelgewebe                                                                                 m²
+            Mit Drahtziegelgewebe als Putzträger.
+
+10.92 01B   Ummanteln Rohr Drahtgitter                                                                                  m²
+            Mit verzinktem Drahtgitter als Putzarmierung.
+
+10.92 02    Überspannen von Wand- und Deckenflächen aus Materialien, einschließlich Befestigungsmaterial.
+
+
+                                                                                                                  Seite 28 / 30
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+10.92 02A   Überspannen Ziegelgewebe                                                                                     m²
+            Mit Drahtziegelgewebe als Putzträger.
+
+10.92 02B   Überspannen Drahtgitter                                                                                      m²
+            Mit verzinktem Drahtgitter als Putzarmierung.
+
+10.92 02C   Überspannen Streckmetall                                                                                     m²
+            Mit Streckmetall als Putzträger.
+
+10.92 02D   Überspannen Glasgewebe                                                                                       m²
+            Mit Glasgewebe als Putzarmierung.
+
+10.92 03    Putzarmierung bei Fugen, Anschlüssen und dergleichen auf Wand- und Deckenflächen, Bandbreite mindestens
+            8 cm.
+
+10.92 03A   Putzarmierung Fuge Drahtband                                                                                 m
+            Mit verzinkten Drahtbändern.
+
+10.92 03B   Putzarmierung Fuge Glasvlies                                                                                 m
+            Mit Glasvliesbändern.
+
+10.92 03C   Putzarmierung Fuge Jute                                                                                      m
+            Mit Jutebändern.
+
+10.92 04    Holzwolleleichtbauplatten (Holzw.Pl.), zementgebunden (zementgeb.), als Putzträger an Wänden mit
+            Klebemörtel dicht gestoßen verlegt, einschließlich Bandagieren der Fugen und Anschlüsse. Im
+            Positionsstichwort ist die Dicke angegeben.
+
+10.92 04A   Holzw.Pl.zementgeb.im Mörtel 1,5cm                                                                           m²
+
+10.92 04B   Holzw.Pl.zementgeb.im Mörtel 2,5cm                                                                           m²
+10.92 05    Holzwolleleichtbauplatten (Holzw.Pl.), magnesitgebunden (magnesitgeb.), als Putzträger an Wänden, mit
+            Klebemörtel dicht gestoßen verlegt, einschließlich Bandagieren der Fugen und Anschlüsse. Im
+            Positionsstichwort ist die Dicke angegeben.
+
+10.92 05A   Holzw.Pl.magnesitgeb.im Mörtel 0,9cm                                                                         m²
+
+10.92 05B   Holzw.Pl.magnesitgeb.im Mörtel 1,5cm                                                                         m²
+
+10.92 05C   Holzw.Pl.magnesitgeb.im Mörtel 2,5cm                                                                         m²
+10.92 06    Wärmedämmung von Wänden mit dreischichtigen Holzwolleleichtbauplatten mit Dämmstoffkern, mit
+            Klebemörtel fugendicht verlegt, einschließlich Bandagieren der Fugen und Anschlüsse. Im Positionsstichwort ist
+            die Dicke angegeben.
+
+10.92 06A   3-Schichtplatten in Mörtel 2,5cm                                                                             m²
+
+10.92 06B   3-Schichtplatten in Mörtel 3,5cm                                                                             m²
+
+10.92 06C   3-Schichtplatten in Mörtel 5cm                                                                               m²
+            Einschließlich Andübeln.
+
+10.92 07    Dehnfugenprofil als Einputzprofil, einschließlich elastischer Abdichtung.
+
+10.92 07A   Dehnfugenprofil verzinkt Flucht                                                                              m
+            Aus verzinktem Stahlblech, für in der Flucht weiterführenden Putzgrund.
+
+10.92 07B   Dehnfugenprofil Alu Flucht                                                                                   m
+            Aus Aluminium (Alu), für in der Flucht weiterführenden Putzgrund.
+
+10.92 07C   Dehnfugenprofil Kunstst.Flucht                                                                               m
+            Aus Kunststoff, für in der Flucht weiterführenden Putzgrund.
+
+10.92 07D   Dehnfugenprofil Edelstahl Flucht                                                                             m
+                                                                                                                   Seite 29 / 30
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+            Aus Edelstahl, für in der Flucht weiterführenden Putzgrund.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl
+
+10.92 07E   Dehnfugenprofil verzinkt Eck                                                                              m
+            Aus verzinktem Stahlblech, für als Innenkante (Eck) ausgebildeten Putzgrund.
+
+10.92 07F   Dehnfugenprofil Alu Eck                                                                                   m
+            Aus Aluminium (Alu), für als Innenkante (Eck) ausgebildeten Putzgrund.
+
+10.92 07G   Dehnfugenprofil Edelstahl Eck                                                                             m
+            Aus Edelstahl, für als Innenkante (Eck) ausgebildeten Putzgrund.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl
+
+10.92 08    Kantenschutz als Kantenschutzprofil aufgesetzt, ohne Unterschied des Putzes.
+
+10.92 08A   Kantenschutz verzinkt Eck                                                                                 m
+            Kantenschutzwinkel aus verzinktem Stahlblech als Außenkante (Eck).
+
+10.92 08B   Kantenschutz Alu Eck                                                                                      m
+            Kantenschutzwinkel aus Aluminium (Alu) als Außenkante (Eck).
+
+10.92 08C   Kantenschutz Edelstahl Eck                                                                                m
+            Kantenschutzwinkel aus Edelstahl, als Außenkante (Eck).
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+10.92 08D   Kantenschutz Kunststoff Eck                                                                               m
+            Kantenschutzwinkel aus Kunststoff, als Außenkante (Eck).
+
+10.92 23    Glattstrich für Bauanschlussfugen.
+            Im Positionsstichwort ist die Breite des Glattstriches (cm) angegeben.
+
+10.92 23A   Glattstrich b.25cm                                                                                        m
+
+10.92 23B   Glattstrich ü.25-35cm                                                                                     m
+
+10.92 23X   Glattstrich ü.35cm:__________                                                                             m
+
+
+
+
+                                                                                                                Seite 30 / 30
+                                                                                           ib-data GmbH, Softwareentwicklung
+

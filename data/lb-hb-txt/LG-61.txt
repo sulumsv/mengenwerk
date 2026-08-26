@@ -1,0 +1,2634 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                      Leistungsgruppe (LG) 61 - Sporthallenausbau
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 6100    Wählbare Vorbemerkungen
+                     ULG 6111    Vorarbeiten für Sporthallenböden
+                     ULG 6114    Flächenelastische Schwingbodenkonstruktionen
+                     ULG 6115    Flächenelastische Bodenkonstruktion in Sandwichbauweise
+                     ULG 6116    Mischelastische Sportböden
+                     ULG 6117    Kombielastische Sportböden
+                     ULG 6118    Punktelastische Sportböden
+                     ULG 6119    Sonstige Leistungen
+                     ULG 6132    Wand-u.Leibungsbekleidungen
+                     ULG 6133    Deckenbekleidungen
+                     ULG 6181    Instandsetzungsarbeiten
+                     ULG 6190    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 43
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                            EH
+
+61         Sporthallenausbau
+           Version 023 (2025-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           Ergänzend zu den Normen gelten die einschlägigen Richtlinien des Österreichischen Institutes für Schul- und
+           Sportstättenbau (ÖISS), Prinz-Eugen-Straße 12, 1040 Wien. Ausgenommen ist die Richtlinie für den
+           Sporthallenboden.
+           1. Werkstoffe, Hilfsstoffe:
+           Alle geleimten Holzwerkstoffe, z.B. Spanplatten, Sperrhölzer entsprechen der Emissionsklasse E1.
+           Kleber sind formaldehydfrei.
+           2. Einkalkulierte Leistungen:
+               • Arbeitsgerüste und Erschwernisse für Arbeiten bis zu einer Arbeitshöhe von 7,5 m
+               • Befestigungsmittel
+               • Schraubverbindungen sind gegen selbsttätiges Lösen (z.B. durch Vibrationen, Holznachtrocknung,
+                 Reibung in Drehlagern) gesichert. Sofern möglich, werden Sicherungsmuttern nach DIN 985 verwendet
+               • Anarbeiten z.B. an Zargen, Stöcke und lotrechte Heizungsrohre
+               • Muster für Oberflächen bis 30x40cm
+               • das maschinelle Abschleifen der verlegten, nicht werksmäßig versiegelten Holz-Oberböden, um eine zum
+                 Versiegeln oder Einlassen geeignete Oberfläche zu erzielen
+               • erste Pflege des (Sport-)Bodens einschließlich vorheriger Grundreinigung gemäß Pflegeanleitung
+               • Erstellung von Nachweisen
+           Nachweis der Kennwerte gemäß ÖNORM B 2608 sind nach Aufforderung dem AG zu übergeben (z.B. durch
+           Eignungsprüfungszeugnisse (Prüfstelle, Prüfbericht Nr., Datum).
+           3. Einschulung und Wartungsanweisung:
+           Nach Fertigstellung und vor Übernahme der Leistung werden zu einem einvernehmlich festgelegten Termin der
+           Auftraggeber, sowie von diesem namhaft gemachte Vertreter der künftigen Nutzer, in die Handhabung der
+           Geräte und Einrichtungen eingeschult.
+           Dabei wird auch eine schriftliche Wartungs- und Pflegeanweisung für alle wartungs- und pflegebedürftigen
+           Geräte und Bauteile übergeben und mündlich vor Ort erläutert.
+           Über die Durchführung der Einschulung sowie die Übergabe der Wartungs- und Pflegeanweisungen wird vom
+           Auftragnehmer ein Protokoll verfasst, dieses von den Teilnehmern schriftlich bestätigt und in Kopie dem
+           Auftraggeber übergeben.
+           Dem Auftraggeber wird nach Fertigstellung der Sportbodenarbeiten ein Rückstellmuster in zweifacher
+           Ausführung (Größe 20x30cm) bei der Übernahme übergeben. Dies betrifft entweder den Gesamtaufbau oder die
+           Einzelkomponenten.
+           4. Technische Beschreibung:
+           4.1 Ebenheitsanforderungen an den Unterbeton: Für die Ebenheit der Betonoberfläche gelten folgende
+           Anforderungen (Abstand der Messpunkte in m/zulässige Höhendifferenz in mm): bis 0,1 m/3 mm; bis 1 m/ 6
+           mm; bis 4 m/10 mm; bis 10 m/15 mm; ab 15 m/20 mm.
+           5. Farben:
+           Standardfarben: Im Folgenden sind Belag, Sockelleisten, Fugen und Formteile in Standardfarben beschrieben.
+           Standardfarben sind Farben aus der Farbkarte des Herstellers, für die der Hersteller keinen Aufpreis verlangt.
+            Kommentar:
+            Die Sportstätte(n) wird(werden) mit Turn- und Sportgeräten nach dem üblichen Standard gemäß ÖNORM B 2609
+            ausgestattet.
+            Für Sporthallenböden kann die wählbare Vertragsbestimmung des ÖISS herangezogen werden.
+
+
+            Frei zu formulieren (z.B.):
+                • Gerüste oder Erschwernisse bei Arbeitshöhen über 7,5m
+                • Instandsetzen von Wand- u. Deckenverkleidungen
+                • Verankerungs-Pfosten (z.B. von Spanngerät- und Sprossenwand-Abspannungen)
+                • Schleifen und Fräsen als Untergrundvorbereitung bei Wänden, Decken und Böden
+                • Liefern und Einbau/Montage von Bauteilen mit z.B. elektrischen Anschlüssen (z.B. Pausenglocken, Uhren, Leuchten,
+                  Temperaturfühler und Lautsprecher)
+                • Bekleidungen von Heizkörpernischen
+                • Kombiniertelastische Sportböden mit flächenelastischer und mischelastischer Komponente (FL+ME Komp.)
+                • verglaste Ausschnitte (z.B. VSG, ESG) in Turnhallentüren
+                • Mineralwolle-Schallschluckmatten
+                • textile Wandbeläge, einschließlich etwaiger Sperrschichten und Haftbrücken
+                • Sonderfarben, nach Wahl des Auftraggebers, aus der Farbkarte des Herstellers, für die der Hersteller einen Aufpreis
+                  vorsieht
+                                                                                                                            Seite 2 / 43
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                               EH
+                 • Nischen in Deckenbekleidungen
+                 • elastische Sicherheitskanten bei Nischen
+                 • Laufende Güteüberwachung der Arbeiten durch eine Prüf-, Überwachungs- und Zertifizierungsstelle, z.B. ofi-Wien
+                   (Österreichisches Institut für Sporttechnologie, Franz Grill Straße 5, Objekt 213, 1030 Wien), nach den derzeit gültigen
+                   ÖNORMEN und Richtlinien des ÖISS. (Bei der Güteüberwachung weist der Auftragnehmer nach, dass die
+                   angelieferten Materialien geprüfte Einzelkomponenten sind.)
+
+
+             Literaturhinweis (z.B.):
+             ÖNORM B 2608: Sporthallen - Richtlinien für Planung und Ausführung
+             ÖNORM B 2609: Geräteausstattung für Sporthallen - Richtlinien für Planung, Ausführung und Erhaltung
+             ÖNORM EN 13226: Holzfußböden - Massivholz-Elemente mit Nut und/oder Feder
+             ÖNORM EN 13488: Holzfußböden - Mosaikparkettelemente
+             ÖNORM EN 13489: Holzfußböden und Parkett - Mehrschichtparkettelemente
+             ÖNORM EN 13501-1: Klassifizierung von Bauprodukten und Bauarten zu ihrem Brandverhalten - Teil 1: Klassifizierung mit
+             den Ergebnissen aus den Prüfungen zum Brandverhalten von Bauprodukten
+             Richtlinien des Österreichischen Institutes für Schul- und Sportstättenbau (ÖISS)
+            LB-Version: 23                 Geändert
+Änderung:   Geänderte Positionen:
+            LG 61
+            ULG 61.00 Wählbare Vorbemerkungen
+            ULG 61.11 Vorarbeiten für Sporthallenböden
+            ULG 61.14 Flächenelastische Schwingbodenkonstruktionen
+            ULG 61.15 Flächenelastische Bodenkonstruktion in Sandwichbauweise
+            ULG 61.16 Mischelastische Sportböden
+            ULG 61.19 Sonstige Leistungen
+            ULG 61.32 Wand-u.Leibungsbekleidungen
+            ULG 61.33 Deckenbekleidungen
+            ULG 61.81 Instandsetzungsarbeiten
+            ULG 61.90 Regieleistungen
+            Neue Positionen:
+            ULG 61.18 Punktelastische Sportböden
+
+61.00       Wählbare Vorbemerkungen
+            LB-Version: 23                 Geändert
+61.00 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+61.00 00A   Beschreibung Untergrund f.Wände
+            Beschreibung Untergrund für Wände:____________
+            Betrifft Position(en): ____________
+            LB-Version: 23                                                                 Vorherige Position: 610014B
+
+61.00 00B   Beschreibung Untergrund f.Decken
+            Beschreibung Untergrund für Decken:____________
+            Betrifft Position(en): ____________
+            LB-Version: 23                                                                 Vorherige Position: 610014C
+
+61.00 00C   Beschreibung Untergrund f.Böden
+            Beschreibung Untergrund für Böden:____________
+            Betrifft Position(en): ____________
+            LB-Version: 23                                                                 Vorherige Position: 610014D
+
+61.00 00F   Beschreibung Fußbodenheizung
+            Ausführung mit Fußbodenheizungen (z.B. Konstruktion, Materialien, Anarbeiten).
+            Beschreibung Fußbodenheizung: ____________
+            Betrifft Position(en):____________
+             Kommentar:
+             Ein etwaiger Kältezonenplan (heizungsfreie Zonen) ist zu beachten.
+             Flächen für Montagen von Geräten sind zu beachten.
+
+            LB-Version: 23
+                                                                                                                                Seite 3 / 43
+                                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+61.00 00O   Brandverhalten - Klassifikation von Materialien
+            Brandverhalten:
+            Klassifikation von Materialien gemäß ÖN EN 13501-1: ____________
+            LB-Version: 23
+
+61.00 00P   Anforderungen gem. einschlägiger ÖISS RL Sporthallenböden
+            Der Sportboden erfüllt alle in der Richtlinie für Sporthallenböden des Österreichischen Instituts für Schul- und
+            Sportstättenbau festgelegten Qualitätsanforderungen.
+            LB-Version: 23
+
+61.00 00R   Prüfzeugnis gemäß ÖISS Richtlinien
+            Für die angebotenen Materialien/Erzeugnisse/Typen/Systeme sind Prüfzeugnisse gemäß der einschlägigen
+            Richtlinie des Österreichischen Institutes für Schul- und Sportstättenbau (ÖISS) nachzuweisen und nach
+            Aufforderung des Auftraggebers zu erbringen.
+            Die Erfüllung der Anforderungen wird durch die Vorlage von gültigen Eignungsprüfungszeugnissen (erstellt von
+            einschlägig zertifizierten Prüfinstituten) nachgewiesen.
+            LB-Version: 23
+
+61.00 00S   Verfügbarkeit von Beilagen (Statik) zum LV
+            Zu dieser Leistungsgruppe sind statische Berechnungen zum Leistungsverzeichnis zu beachten.
+            Beilagen (Statik): ____________
+            Betrifft Position(en): ____________
+            LB-Version: 23                                                               Vorherige Position: 610010B
+
+61.00 00T   Verfügbarkeit von Beilagen (Sport-/Spielgeräte/Boden)
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von z.B. Beilagen (Sport-/Spielgeräte/Boden) z.B. im PDF-Format: ____________
+            Betrifft Position(en): ____________
+            LB-Version: 23
+
+61.00 00U   Verfügbarkeit von Beilagen (Sport-Spielgeräte Wand)
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von z.B. Beilagen (Sport-Spielgeräte Wand) z.B. im PDF-Format: ____________
+            Betrifft Position(en): ____________
+            LB-Version: 23
+
+61.00 00V   Verfügbarkeit von Beilagen (Pläne) zum LV
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von z.B. Beilagen (Pläne) z.B. im PDF-Format: ____________
+            Betrifft Position(en): ____________
+            LB-Version: 23                                                               Vorherige Position: 610010A
+
+61.00 00X   Sonstige Angaben
+            Sonstige Angaben:____________
+            Betrifft Position(en): ____________
+            LB-Version: 23                                                               Vorherige Position: 610014E
+61.00 01    Endkontrollprüfung.
+            Vorlage des Prüfberichtes einer Prüf-, Überwachungs- und Zertifizierungsstelle als Bestätigung über die
+            Durchführung einer Kontrollprüfung.
+            Gemäß der einschlägigen Richtlinie des Österreichischen Institutes für Schul- und Sportstättenbau (ÖISS).
+             Kommentar:
+             Die einschlägigen Normen und Richtlinien für Sportböden sehen eine End-Kontrollprüfung verpflichtend vor.
+             Es bleibt dem Auftraggeber vorbehalten, die End-Kontrollprüfung dem Auftragnehmer zu übertragen oder selbst eine
+             Prüfstelle zu beauftragen.
+
+
+                                                                                                                             Seite 4 / 43
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+61.00 01A   Endkontrollprüfung Boden
+            Für Böden.
+            Die zu prüfenden Werte sind:
+                • Kraftabbau
+                • Standardverformung
+                • Durchbiegungsmulde
+                • Ballreflexion
+                • Gleitreibungsbeiwert
+                • Verhalten unter rollender Last
+            Betrifft Position(en): ____________
+            LB-Version: 23
+
+61.00 01B   Endkontrollprüfung Wand
+            Für Wände.
+            Die zu prüfenden Werte sind:
+                • Kraftabbau
+                • Gleitreibungsbeiwert
+                • Ballwurfsicherheit
+            Betrifft Position(en): ____________
+            LB-Version: 23
+
+61.00 01C   Endkontrollprüfung Decke
+            Für Decken.
+            Die zu prüfenden Werte sind:
+                • Ballwurfsicherheit
+            Betrifft Position(en): ____________
+            LB-Version: 23
+
+61.11       Vorarbeiten für Sporthallenböden
+            LB-Version: 23               Geändert
+61.11 01    Erstellen einer Höhenaufnahme des Unterbetons mit einem Nivelliergerät und Festhalten im Höhenprotokoll.
+
+61.11 01A   Höhenaufnahme Nivelliernetz 3x3m Unterbeton                                                                  m²
+            Nivelliernetz in einem Raster von 3 x 3 m,
+            gemessen in einer Genauigkeit von 0,1 cm.
+            LB-Version: 23               Geringfügig Geändert
+61.11 04    Ausgleichsschüttung als Höhenausgleich aus bituminiertem Perlit, einschließlich der Verdichtung.
+
+61.11 04A   Höhenausgleich bituminiertes Perlit b.4cm                                                                    m³
+            Bis höchstens 4 cm Dicke.
+            Gemessen wird die mittlere Dicke.
+            LB-Version: 23               Geringfügig Geändert
+61.11 05    Ausgleichs-Trockenschüttung als Höhenausgleich aus mineralisierten Holzspänen, einschließlich Nivellieren
+            und Verdichten.
+
+61.11 05A   Höhenausgleich mineralisierte Holzspäne                                                                      m³
+            Spangröße: 5 - 10 mm
+            Korndruckfestigkeit: 15 N/mm2
+            Wärmeleitfähigkeit: ≥ 0,085 W/(mK)
+            Schüttdichte: ~ 370 kg/m3
+            Mittlere Einbauhöhen von 10 bis 100 mm (verdichtet): ____________mm
+            LB-Version: 23               Geringfügig Geändert
+
+61.14       Flächenelastische Schwingbodenkonstruktionen
+
+                                                                                                                    Seite 5 / 43
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            LB-Version: 23               Geändert
+61.14 11    Flächenelastische Schwingbodenkonstruktion mit Mehrschichtparkett als Oberboden.
+            • werksseitig versiegelt
+            Einkalkulierte Leistungen:
+                • Unterkonstruktion aus Schwingriegeln, Elastikpads, Blindboden, biegesteifer Lastverteilerplatte und
+                  Knarrschutzvlies
+                • Distanzklötze als Höhenausgleich
+                • erforderlicher Ausschnitte in der Dämmung
+            Gesamtdicke Mehrschichtparkett: 11 mm
+
+61.14 11A   Schwingboden Mehrschichtparkett Eiche 4,5mm Riemen                                                           m²
+            Eiche massiv
+            Nutzschicht: 4,5 mm
+            Verlegeart: Riemen
+            Art der Sortierung: Kreis
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+            LB-Version: 23               Geringfügig Geändert
+
+61.14 11B   Schwingboden Mehrschichtparkett Eiche 5,5mm Riemen                                                           m²
+            Eiche massiv
+            Nutzschicht: 5,5 mm
+            Verlegeart: Riemen
+            Art der Sortierung: Kreis
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+            LB-Version: 23               Geringfügig Geändert
+
+61.14 11C   Schwingboden Mehrschichtparkett Esche 4,5mm Riemen                                                           m²
+            Esche massiv
+            Nutzschicht: 4,5 mm
+            Verlegeart: Riemen
+            Art der Sortierung: Kreis
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+            LB-Version: 23               Geringfügig Geändert
+
+61.14 11D   Schwingboden Mehrschichtparkett Esche 5,5mm Riemen                                                           m²
+            Esche massiv
+            Nutzschicht: 5,5 mm
+            Verlegeart: Riemen
+            Art der Sortierung: Kreis
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+            LB-Version: 23               Geringfügig Geändert
+61.14 13    Flächenelastische Schwingbodenkonstruktion mit Mehrschichtparkett als Oberboden.
+            Einkalkulierte Leistungen:
+                • Distanzklötze als Höhenausgleich
+                • erforderlicher Ausschnitte in der Dämmung
+            Gesamtdicke Mehrschichtparkett: 11 mm
+
+61.14 13X   Schwingboden Mehrschichtparkett                                                                              m²
+            Einschließlich Unterkonstruktion (Beschreibung der UK):____________
+            Oberboden (Mehrschichtparkett):____________
+            Nutzschicht: ____________mm
+            Verlegeart: ____________
+            Art der Sortierung: ____________
+
+                                                                                                                    Seite 6 / 43
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            Oberfläche:____________
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+            LB-Version: 23               Geringfügig Geändert
+61.14 21    Flächenelastische Schwingbodenkonstruktion.
+            Einkalkulierte Leistungen:
+                • Unterkonstruktion aus Schwingriegeln und biegesteifer Lastverteilerplatten aus Sperrholz
+                • Distanzklötze als Höhenausgleich
+                • erforderlicher Ausschnitte in der Dämmung
+
+61.14 21A   Schwingboden Linoleum 3mm                                                                                    m²
+            Oberboden aus Linoleum, Fugen verfüllt.
+            Dicke (Belag): 3 mm
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+
+            LB-Version: 23               Geringfügig Geändert
+
+61.14 21B   Schwingboden Polyurethan-Hartschaum 4mm                                                                      m²
+            Oberboden Polyurethan-Hartschaum (PUR), Fugen verfüllt.
+            Dicke (Belag): 4 mm
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+            LB-Version: 23               Geringfügig Geändert
+61.14 23    Flächenelastische Schwingbodenkonstruktion.
+            Einkalkulierte Leistungen:
+                • Distanzklötze als Höhenausgleich
+                • erforderlicher Ausschnitte in der Dämmung
+
+61.14 23X   Schwingboden Kunststoff                                                                                      m²
+            Einschließlich Unterkonstruktion (Beschreibung der UK):____________
+            Oberboden (Kunststoff):____________
+            Dicke (Belag): ____________mm
+            Ausführung Fugen:____________
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+            LB-Version: 23               Geringfügig Geändert
+
+61.15       Flächenelastische Bodenkonstruktion in Sandwichbauweise
+            LB-Version: 23               Geändert
+61.15 11    Flächenelastische Bodenkonstruktion in Sandwichbauweise mit Parkett als Oberboden
+            • werksseitig versiegelt
+            Einkalkulierte Leistungen:
+                • Unterkonstruktion aus Schwingriegeln, Elastikpads, Blindboden, biegesteifer Lastverteilerplatte und
+                  Knarrschutzvlies
+                • Distanzklötze als Höhenausgleich
+                • erforderlicher Ausschnitte in der Dämmung
+            Gesamtdicke Mehrschichtparkett: 11 mm
+
+61.15 11A   Bodenkonst.in Sandwichbauweise/Parkett Eiche 4,5mm Riemen                                                    m²
+            Eiche massiv
+            Nutzschicht: 4,5 mm
+            Verlegeart: Riemen
+            Art der Sortierung: Kreis
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+            LB-Version: 23               Geringfügig Geändert
+
+61.15 11B   Bodenkonst.in Sandwichbauweise/Parkett Eiche 5,5mm Riemen                                                    m²
+
+
+                                                                                                                    Seite 7 / 43
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Eiche massiv
+            Nutzschicht: 5,5 mm
+            Verlegeart: Riemen
+            Art der Sortierung: Kreis
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+            LB-Version: 23               Geringfügig Geändert
+
+61.15 11C   Bodenkonst.in Sandwichbauweise/Parkett 4,5mm Riemen                                                         m²
+            Esche massiv
+            Nutzschicht: 4,5 mm
+            Verlegeart: Riemen
+            Art der Sortierung: Kreis
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+            LB-Version: 23               Geringfügig Geändert
+
+61.15 11D   Bodenkonst.in Sandwichbauweise/Parkett 5,5mm Riemen                                                         m²
+            Esche massiv
+            Nutzschicht: 5,5 mm
+            Verlegeart: Riemen
+            Art der Sortierung: Kreis
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+            LB-Version: 23               Geringfügig Geändert
+61.15 13    Flächenelastische Bodenkonstruktion in Sandwichbauweise mit Parkett als Oberboden, in Sandwichbauweise.
+            Einkalkulierte Leistungen:
+                • Distanzklötze als Höhenausgleich
+                • erforderlicher Ausschnitte in der Dämmung
+            Gesamtdicke Mehrschichtparkett: 11 mm
+
+61.15 13X   Bodenkonst.in Sandwichbauweise/Parkett                                                                      m²
+            Einschließlich Unterkonstruktion (Beschreibung der UK):____________
+            Oberboden (Parkett):____________
+            Nutzschicht: ____________mm
+            Verlegeart: ____________
+            Art der Sortierung: ____________
+            Oberfläche:____________
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+            LB-Version: 23               Geringfügig Geändert
+61.15 21    Flächenelastische Bodenkonstruktion in Sandwichbauweise, in Sandwichbauweise.
+            Einkalkulierte Leistungen:
+                • Unterkonstruktion aus Schwingriegeln und biegesteifer Lastverteilerplatten aus Sperrholz
+                • Distanzklötze als Höhenausgleich
+                • erforderlicher Ausschnitte in der Dämmung
+
+61.15 21A   Bodenkonst.in Sandwichbauweise/Linoleum 3mm                                                                 m²
+            Oberboden aus Linoleum, Fugen verfüllt.
+            Dicke (Belag): 3 mm
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+            LB-Version: 23               Geringfügig Geändert
+
+61.15 21B   Bodenkonst.in Sandwichbauweise/Polyurethan-Hartschaum 4mm                                                   m²
+            Oberboden Polyurethan-Hartschaum (PUR), Fugen verfüllt.
+            Dicke (Belag): 4 mm
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+                                                                                                                   Seite 8 / 43
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            LB-Version: 23               Geringfügig Geändert
+
+61.15 21C   Bodenkonst.in Sandwichbauweise/Kautschuk 3mm                                                                m²
+            Oberboden Kautschuk, Fugen verfüllt.
+            Dicke (Belag): 3 mm
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+            LB-Version: 23               Geringfügig Geändert
+61.15 23    Flächenelastische Bodenkonstruktion in Sandwichbauweise (mit Schwingriegel).
+            Einkalkulierte Leistungen:
+                • Distanzklötze als Höhenausgleich
+                • erforderlicher Ausschnitte in der Dämmung
+
+61.15 23X   Bodenkonst.in Sandwichbauweise/Kunststoff                                                                   m²
+            Einschließlich Unterkonstruktion (Beschreibung der UK):____________
+            Oberboden (Kunststoff):____________
+            Dicke (Belag): ____________mm
+            Ausführung Fugen:____________
+            Gesamtdicke von Unterkonstruktion und Oberboden:____________mm
+            LB-Version: 23               Geringfügig Geändert
+
+61.16       Mischelastische Sportböden
+            LB-Version: 23               Geändert
+61.16 21    Mischelastische Sportbodenkonstruktion.
+            Die Stoßfugen der Elastikschicht werden abgedichtet und bandagiert, Bandagenbreite 100 mm, vollflächig
+            verklebt.
+            Elastikschicht aus PE-Schaum, vernetzt, mit werkseitig aufkaschiertem Glasrovinggewebe, 11 mm dick.
+
+61.16 21A   Mischelastischer Sportboden Linoleum 3mm                                                                    m²
+            Oberboden aus Linoleum, Fugen verfüllt.
+            Dicke (Belag): 3 mm
+            Gesamtdicke: 14 mm
+
+            LB-Version: 23               Geringfügig Geändert
+
+61.16 21B   Mischelastischer Sportboden Polyurethan-Hartschaum 4mm                                                      m²
+            Einschließlich biegesteifer Lastverteilerschicht aus Polyurethan-Hartschaum (PUR).
+            Oberboden Polyurethan-Hartschaum (PUR), Fugen verfüllt.
+            Beschichtung, einschließlich Decklack.
+            Dicke (Belag): 4 mm
+            LB-Version: 23               Geringfügig Geändert
+
+61.16 21C   Mischelastischer Sportboden Kautschuk 3mm                                                                   m²
+            Oberboden Kautschuk, Fugen verfüllt.
+            Dicke (Belag): 3 mm
+            LB-Version: 23               Geringfügig Geändert
+61.16 23    Mischelastische Sportbodenkonstruktion.
+            Die Stoßfugen der Elastikschicht werden abgedichtet und bandagiert, Bandagenbreite 100 mm, vollflächig
+            verklebt .
+            Elastikschicht aus PE-Schaum, vernetzt, mit werkseitig aufkaschiertem Glasrovinggewebe, 11 mm dick.
+
+61.16 23X   Mischelastischer Sportboden Kunststoff                                                                      m²
+            Oberboden (Kunststoff):____________
+            Dicke (Belag): ____________mm
+            Ausführung Fugen:____________
+
+
+                                                                                                                   Seite 9 / 43
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            LB-Version: 23              Geringfügig Geändert
+
+61.17       Kombielastische Sportböden
+            Standardfarben, Design:
+            Wenn keine Farbe und Design angegeben sind, kann der Auftraggeber Farbe und Design des Belages, der
+            Sockelleisten, etwaiger Fugen und etwaiger Formteile aus der vorgelegten Kollektion des Belags- oder
+            Formerzeugers wählen.
+            Anarbeiten:
+            Das Anarbeiten an Zargen, Stöcke, lotrechte Heizungsrohre und dergleichen ist im Einheitspreis einkalkuliert.
+            Rückstellmuster:
+            Dem Auftraggeber wird nach Fertigstellung der Sportbodenarbeiten ein Rückstellmuster in zweifacher
+            Ausführung und entsprechender Größe ohne Aufforderung bei der Übernahme übergeben. Dies betrifft
+            entweder den Gesamtaufbau oder die Einzelkomponenten.
+            LB-Version: 23              Geringfügig Geändert
+61.17 04    Kombielastischer Sportboden mit flächenelastischer und mischelastischer Komponente (FL+ME Komp.).
+            Flächenelastische Komponente bestehend aus:
+            Elastikschicht, vollflächig aufgelegt und punktuell verklebt,
+            Druckverteilerschicht aus mehrlagiger Platte vollflächig verleimt, Stöße der einzelnen Lagen um 90 Grad
+            versetzt und verklammert.
+            Mischelastische Komponente, Gesamtdicke 14 mm, bestehend aus Elastikschicht mit PE-Schaum, vernetzt, mit
+            werkseitig aufkaschiertem Glasrovinggewebe, 10 mm dick,
+            Lastverteilerschicht, biegesteif aus Hart-PUR und Oberboden.
+             Kommentar:
+             Sollen Kennwerte gemäß den Forderungen der ÖNORM B 2608 nachgewiesen werden (z.B. durch folgende
+             Eignungsprüfungszeugnisse (Prüfstelle, Prüfbericht Nr., Datum), so ist das frei zu formulieren.
+
+61.17 04A   Kombielast-Boden FL+ME Komp.PUR+Deckl.                                                                        m²
+            Oberboden aus PUR-Beschichtung einschließlich Decklack.
+            Gesamtdicke des Sportbodens: ____________
+            LB-Version: 23
+
+61.17 04C   Kombielast-Boden FL+ME Komp.Linol 3,2mm                                                                       m²
+            Oberboden aus Linol, vollflächig verklebt, Fugen verschweißt, 3,2 mm dick.
+            Gesamtdicke des Sportbodens: ____________
+            LB-Version: 23
+61.17 06    Kombielastischer Sportboden mit flächenelastischer und punktelastischer Komponente (FL+PE Komp.).
+            Flächenelastische Komponente bestehend aus:
+            Elastikschicht, vollflächig aufgelegt und punktuell verklebt,
+            Druckverteilerschicht aus mehrlagiger Platte vollflächig verleimt, Stöße der einzelnen Lagen um 90 Grad
+            versetzt und verklammert.
+            Punktelastische Komponente, bestehend aus Elastikschicht und Oberbelag.
+             Kommentar:
+             Sollen Kennwerte gemäß den Forderungen der ÖNORM B 2608 nachgewiesen werden (z.B. durch folgende
+             Eignungsprüfungszeugnisse (Prüfstelle, Prüfbericht Nr., Datum), so ist das frei zu formulieren.
+
+61.17 06A   Kombielast-Boden FL+PE Komp.PUR+Deckl.                                                                        m²
+            Oberboden aus PUR-Beschichtung einschließlich Decklack.
+            Gesamtdicke des Sportbodens: ____________
+
+61.17 06C   Kombielast-Boden FL+PE Komp.Linol 3,2mm                                                                       m²
+            Oberboden aus Linol, vollflächig verklebt, Fugen verschweißt, 3,2 mm dick.
+            Gesamtdicke des Sportbodens: ____________
+
+61.17 06E   Kombielast-Boden FL+PE Komp.PVC 2mm                                                                           m²
+            Oberboden aus PVC, vollflächig verklebt, Fugen verschweißt, 2 mm dick.
+            Gesamtdicke des Sportbodens: ____________
+
+61.18       Punktelastische Sportböden
+            LB-Version: 23
+
+
+
+                                                                                                                    Seite 10 / 43
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+61.18 06    Punktelastischer Sportboden bestehend aus Elastikschicht, vollflächig aufgelegt und verklebt, und Oberbelag.
+            Im Positionsstichwort ist die Ausführung des Oberbelags angegeben.
+             Kommentar:
+             Sollen Kennwerte gemäß den Forderungen der ÖNORM B 2608 nachgewiesen werden (z.B. durch folgende
+             Eignungsprüfungszeugnisse (Prüfstelle, Prüfbericht Nr., Datum), so ist das frei zu formulieren.
+
+61.18 06A   Punktelast-Boden PUR+Deckl.                                                                                   m²
+            Oberboden aus PUR-Beschichtung einschließlich Decklack.
+            Gesamtdicke des Sportbodens: ____________
+            LB-Version: 23
+
+61.18 06B   Punktelast-Boden Vinyl                                                                                        m²
+            Oberboden aus Vinyl. Bahnenstöße sind thermisch verbunden..
+            Gesamtdicke des Sportbodens: ____________
+            LB-Version: 23
+
+61.18 06X   Punktelast-Boden:__________                                                                                   m²
+            Oberboden aus: ____________
+            Gesamtdicke des Sportbodens: ____________
+            LB-Version: 23
+
+61.19       Sonstige Leistungen
+            LB-Version: 23              Geändert                                  Vorherige Position: 6118
+61.19 02    Höhenausgleich für Geräteraumboden-Unterkonstruktionen.
+
+61.19 02A   Höhenausgleich Geräteraumboden m.Distanzklötzen                                                               m²
+            Höhenausgleich bei Schwingböden mit Klötzen.
+            Fußboden (Gesamthöhe): ____________mm
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 611802A
+
+61.19 02C   Höhenausgleich Geräteraumboden/Sandwichbauweise m.XPS 40mm                                                    m²
+            Höhenausgleich bei Sandwichsystemböden mit Platten aus extrudiertem Polystyrol (XPS), mit Stufenfalz (SF),
+            schwer entflammbar, schwach qualmend, Plattendicke 40 mm.
+            Rohdichte: 25 kg/m3
+            Fußboden (Gesamthöhe): ____________mm
+            LB-Version: 23              Geändert                                  Vorherige Position: 611802C
+
+61.19 02D   Höhenausgleich Geräteraumboden/Sandwichbauweise m.XPS 50mm                                                    m²
+            Höhenausgleich bei Sandwichsystemböden mit Platten aus extrudiertem Polystyrol (XPS), mit Stufenfalz (SF),
+            schwer entflammbar, schwach qualmend, Plattendicke 50 mm.
+            Rohdichte: 25 kg/m3
+            Fußboden (Gesamthöhe): ____________mm
+            LB-Version: 23              Geändert                                  Vorherige Position: 611802D
+61.19 04    Starre Unterkonstruktion (UK) für Geräteraumboden, ohne Oberbelag.
+
+61.19 04A   UK-Geräteraumboden m.Polsterholz+Blindboden                                                                   m²
+            Unterkonstruktion aus Polsterhölzern mit Weichfaserdämmstreifen unterlegt und einem Blindboden aus
+            gehobelten 24 mm dicken Brettern, vorgerichtet für Massivparkett.
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 611804A
+
+61.19 04C   UK-Geräteraumboden m.Polsterholz+Blindboden+Platten                                                           m²
+            Unterkonstruktion aus Polsterhölzern mit Weichfaserdämmstreifen unterlegt, einem Blindboden aus 24 mm
+            dicken Brettern und einer Lage aus formschlüssig verbundenen AW100-verleimten 18 mm dicken
+            Sperrholzplatten, vorgerichtet für Kunststoff- oder Beläge aus Linoleum.
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 611804C
+
+61.19 04E   UK-Geräteraumboden m.XPS                                                                                      m²
+                                                                                                                    Seite 11 / 43
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Unterkonstruktion aus extrudierten Polystyrolplatten (XPS), mit Stufenfalz (SF), vorgerichtet für einen Oberbelag
+            wie bei Sandwich-Boden in der Sporthalle.
+            Rohdichte: 25 kg/m3
+            Plattendicke: ____________mm
+            LB-Version: 23              Geändert                                   Vorherige Position: 611804E
+Änderung:   Lücke bei Plattendicke
+
+61.19 07    Oberbelag für Geräteraumboden.
+            Belags- und Verlegeart angepasst an den (angrenzenden) Sportboden der Sporthalle.
+
+61.19 07A   Geräteraumboden Mehrschichtparkett Eiche 4,5mm Riemen                                                          m²
+            Eiche massiv
+            Nutzschicht: 4,5 mm
+            Verlegeart: Riemen
+            Art der Sortierung: Kreis
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 611807A
+
+61.19 07B   Geräteraumboden Mehrschichtparkett Eiche 5,5mm Riemen                                                          m²
+            Eiche massiv
+            Nutzschicht: 5,5 mm
+            Verlegeart: Riemen
+            Art der Sortierung: Kreis
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 611807B
+
+61.19 07C   Geräteraumboden Mehrschichtparkett Esche 4,5mm Riemen                                                          m²
+            Esche massiv
+            Nutzschicht: 4,5 mm
+            Verlegeart: Riemen
+            Art der Sortierung: Kreis
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 611807C
+
+61.19 07D   Geräteraumboden Mehrschichtparkett Esche 5,5mm Riemen                                                          m²
+            Esche massiv
+            Nutzschicht: 5,5 mm
+            Verlegeart: Riemen
+            Art der Sortierung: Kreis
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 611807D
+
+61.19 07E   Geräteraumboden Linoleum 3mm                                                                                   m²
+            Oberboden aus Linoleum, Fugen verfüllt.
+            Dicke (Belag): 3 mm
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 611807E
+
+61.19 07F   Geräteraumboden Polyurethan-Hartschaum 4mm                                                                     m²
+            Oberboden Polyurethan-Hartschaum (PUR), Fugen verfüllt.
+            Dicke (Belag): 4 mm
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 611807F
+
+61.19 07G   Geräteraumboden Kautschuk 3mm                                                                                  m²
+            Oberboden Kautschuk, Fugen verfüllt.
+            Dicke (Belag): 3 mm
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 611807G
+61.19 10    Spielfeld markieren auf vorhandenen Belägen, deckend aufgebracht, Farbe und Breite nach den
+            Wettkampfbestimmungen.
+
+                                                                                                                     Seite 12 / 43
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            Das verwendete Farbmaterial haftet auf der Oberfläche und ist hinsichtlich Härte, Gleitreibung und Dehnbarkeit
+            auf die Eigenschaften des Oberbodens abgestimmt.
+            Die Markierung erfolgt nach Wahl des Auftragnehmers vor oder nach der letzten Versiegelung.
+            Gekreuzte Linien ohne Abstand sind im Einheitspreis einkalkuliert.
+            Markierungslinien unter 30 cm Länge und Symbole werden mit 30 cm Länge abgerechnet.
+
+61.19 10A   Spielfeldmarkierung auf Parkett                                                                               m
+            Auf Parkettbelägen.
+
+            LB-Version: 23                Geändert                                Vorherige Position: 611810A
+Änderung:   Umformatierung Grundtext
+
+61.19 10B   Spielfeldmarkierung auf Polyurethan-Decklackbeschichtung                                                      m
+            Auf Polyurethan-(PUR)-Decklackbeschichtung.
+
+            LB-Version: 23                Geändert                                Vorherige Position: 611810B
+Änderung:   Umformatierung Grundtext
+
+61.19 10C   Spielfeldmarkierung auf Linoleum                                                                              m
+            Auf Belägen aus Linoleum.
+
+            LB-Version: 23                Geändert                                Vorherige Position: 611810C
+Änderung:   Umformatierung Grundtext
+            Änderung Linol zu Linoleum
+
+61.19 10D   Spielfeldmarkierung auf Kunststoff                                                                            m
+            Auf Belägen aus Kunststoff.
+
+            LB-Version: 23                Geändert                                Vorherige Position: 611810D
+Änderung:   Umformatierung Grundtext
+            Änderung PVC zu Kunststoff
+
+61.19 10N   Az Spielfeldmarkierung f.Hohllinie                                                                            m
+            Aufzahlung (Az) auf die Spielfeldmarkierung, ohne Unterschied des Untergrundes für die Erschwernis bei der
+            Ausführung von Hohllinien, z.B. für Nebenspielfelder. Die Gesamtbreite der Hohllinie beträgt 50 mm, der nicht
+            markierte Bereich in der Mitte ist 30 mm breit.
+            Abgerechnet wird die Hohllinie als eine Markierung.
+            Betrifft Position(en):____________
+            LB-Version: 23                Geändert                                Vorherige Position: 611810N
+61.19 11    Spielfeld markieren auf vorhandenen Belägen, deckend aufgebracht, Farbe und Breite nach den
+            Wettkampfbestimmungen.
+            Das verwendete Farbmaterial haftet auf der Oberfläche und ist hinsichtlich Härte, Gleitreibung und Dehnbarkeit
+            auf die Eigenschaften des Oberbodens abgestimmt.
+            Die Markierung erfolgt nach Wahl des Auftragnehmers vor oder nach der letzten Versiegelung.
+            Flächenmarkierung, abgerechnet wird die markierte Fläche.
+
+61.19 11F   Flächenmarkierung auf Parkett                                                                                 m²
+            Auf Parkettbelägen.
+
+            LB-Version: 23                Geändert                                Vorherige Position: 611810F
+
+61.19 11H   Flächenmarkierung auf Polyurethan-Decklackbeschichtung                                                        m²
+            Auf Polyurethan-(PUR)-Decklackbeschichtung.
+
+            LB-Version: 23                Geändert                                Vorherige Position: 611810H
+
+61.19 11J   Flächenmarkierung auf Linoleum                                                                                m²
+            Auf Belägen aus Linoleum.
+
+            LB-Version: 23                Geändert                                Vorherige Position: 611810J
+
+61.19 11L   Flächenmarkierung auf Kunststoff                                                                              m²
+            Auf Belägen aus Kunststoff.
+                                                                                                                    Seite 13 / 43
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            LB-Version: 23                Geändert                                Vorherige Position: 611810L
+61.19 12    Bodendeckel einbauen und niveaugleich mit dem Oberboden fixieren.
+            Einkalkulierte Leistungen:
+                • Halterung in den Oberbelag einfräsen
+                • Belegen des Deckels mit dem gleichen Belag wie auf der angrenzenden Fläche verlegt
+                • Einbau in der jeweils vorhandenen Sportbodenart oder im Untergrund
+                • Hilfs- und Verbrauchsmaterialien sowie der Halterungen
+            Eine starre Befestigung der Deckelhalterung an Bodenhülsen und ähnlichen Einbauteilen ist nicht zulässig.
+             Kommentar:
+             Der Einbau von wasserdichten Bodendeckeln ist frei zu formulieren.
+
+
+
+61.19 12B   Bodendeckel f.Mehrschichtparkett                                                                              Stk
+            Oberboden aus Mehrschichtparkett.
+            Betrifft Position(en):____________
+            LB-Version: 23                Geringfügig Geändert                    Vorherige Position: 611812B
+
+61.19 12G   Bodendeckel f.Linoleum                                                                                        Stk
+            Oberboden aus Linoleum.
+            Betrifft Position(en):____________
+            LB-Version: 23                  Geändert                              Vorherige Position: 611812G
+Änderung:   Lücke in Positionstext hinzugefügt
+
+61.19 12J   Bodendeckel f.Polyurethan-Hartschaum                                                                          Stk
+            Oberboden aus Polyurethan-Hartschaum (PUR).
+            Betrifft Position(en):____________
+            LB-Version: 23                Geringfügig Geändert                    Vorherige Position: 611812J
+
+61.19 12L   Bodendeckel f.Kautschuk                                                                                       Stk
+            Oberboden aus Kautschuk.
+            Betrifft Position(en):____________
+            LB-Version: 23                Geringfügig Geändert                    Vorherige Position: 611812L
+
+61.19 12M   Bodendeckel f.Kunststoff                                                                                      Stk
+            Oberboden aus Kunststoff.
+            Betrifft Position(en):____________
+            LB-Version: 23                Geändert                                Vorherige Position: 611812G
+61.19 13    Sockelleisten aus Combi- oder Laubholz-Sperrholz mittels rostfreier Schrauben (größter Abstand 50 cm) auf
+            vorhandener Wand- bzw. Unterkonstruktion.
+                • Außenecken und -kanten gerundet mit R ≥ 8 mm, farblos versiegelt
+                • Teilung soweit möglich ca. 1,5 m
+                • Stöße stumpf dicht an dicht gestoßen
+            Unterkante an Bodenniveau angepasst (Schattenfuge 5 mm), mit eingefräster Kunststoff-Dichtlippe.
+            Im Positionsstichwort sind die Abmessungen (mm) angegeben.
+
+61.19 13A   Sockelleiste Sperrholz m.Kst.Dichtlippe 150x18mm Birke                                                        m
+            Birke.
+
+            LB-Version: 23                Geringfügig Geändert                    Vorherige Position: 611813A
+61.19 14    Sockelleisten mit Öffnungen zur Belüftung der Unterkonstruktion.
+                • Mit abgerundeter Oberkante
+                • mit eingefräster Gummidichtlippe (Dicht.) als Bodenanschluss
+                • Oberfläche fertig behandelt
+                • an der Wand höchstens alle 50 cm mit nicht rostenden Schrauben und Dübeln
+                • Anschlüsse, Ecken und Kanten in Gehrung geschnitten
+            Im Positionsstichwort sind die Abmessungen (mm) angegeben.
+
+
+                                                                                                                    Seite 14 / 43
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+61.19 14A   Sockelleiste+Lüft.+Dicht.70x32-20mm konisch Eiche                                                            m
+            Eiche, konisch.
+
+            LB-Version: 23                Geändert                               Vorherige Position: 611814A
+
+61.19 14C   Sockelleiste+Lüft.+Dicht.70x20mm rechteckig Eiche                                                            m
+            Eiche, rechteckiger Querschnitt.
+
+            LB-Version: 23                Geändert                               Vorherige Position: 611814C
+
+61.19 14E   Az Sockelleiste Holz f.bündig m.Wandbelag                                                                    m
+            Aufzahlung (Az) für die Erschwernis bei der Montage in bündiger Ausführung mit dem Wandbelag,
+            einschließlich Ausbilden einer Fuge und etwaiger zusätzlicher Unterfütterungen.
+            Betrifft Position(en):____________
+            LB-Version: 23                Geändert                               Vorherige Position: 611814E
+61.19 16    Übergangsprofil zum Abdecken der Anschlussfugen zwischen dem Sportboden und dem Boden angrenzender
+            Räume.
+            Das Profil wird einseitig außerhalb der Sporthalle im Boden in einem Abstand von höchstens 30 cm mit nicht
+            rostenden Schrauben und Dübeln befestigt.
+            Bei Fußbodenheizungen wird der Kältezonenplan berücksichtigt.
+
+61.19 16A   Übergangsprofil nicht rostender Stahl 8cm                                                                    Stk
+            Aus nicht rostendem Stahl.
+            Oberkante gerundet, 8 cm breit.
+            LB-Version: 23                 Geändert                              Vorherige Position: 611816A
+Änderung:   Alt: Oberkante gerundet, 5 cm breit
+            Neu: Oberkante gerundet, 8 cm breit
+
+61.19 19    Härtekeil als Übergang vom elastischen Sportboden zum starren Geräteraumboden.
+            Breite: 10 cm
+            Abgerechnet wird die Länge des Überganges.
+
+61.19 19A   Härtekeil 10cm                                                                                               m
+            Beschreibung Sportboden: ____________
+            Beschreibung Geräteraumboden:____________
+            LB-Version: 23                Geringfügig Geändert                   Vorherige Position: 611819A
+61.19 21    Aufzahlung (Az) auf Sport- und Geräteraumbodenbeläge (Boden).
+
+61.19 21A   Az Boden f.Anarbeiten an Turn- u.Sportgeräte                                                                 Stk
+            Für das Anarbeiten der gesamten Sportbodenkonstruktion an Bodeneinbauten, einschließlich aller
+            Erschwernisse.
+            LB-Version: 23                Geringfügig Geändert                   Vorherige Position: 611821A
+61.19 22    Aufzahlung (Az) auf Sport- und Geräteraumbodenbeläge (Boden).
+
+61.19 22A   Az Boden f.Anarbeiten Anarbeiten Putzschacht b.2m                                                            Stk
+            Für das Anarbeiten an Putzschächte, einschließlich Belegen des Deckels mit Belag wie angrenzende Fläche.
+            Putzschacht-Umfang bis 2 m
+            LB-Version: 23                Geringfügig Geändert                   Vorherige Position: 611822A
+
+61.19 22B   Az Boden f.Anarbeiten Anarbeiten Putzschacht ü.2-3m                                                          Stk
+            Für das Anarbeiten an Putzschächte, einschließlich Belegen des Deckels mit Belag wie angrenzende Fläche.
+            Putzschacht-Umfang über 2 bis 3 m
+            LB-Version: 23                Geringfügig Geändert                   Vorherige Position: 611822B
+61.19 99    Versiegeln des bereits geschliffenen Oberbodens in drei Arbeitsgängen, Grund-, Zwischen- und
+            Schlussbeschichtung, einschließlich der Zwischenschliffe.
+            Versiegelungslack entspricht der ÖNORM C 2354, Belastungsgruppe C, mit erforderlichem Gleitreibungswert
+            gemäß ÖNORM B 2608.
+                                                                                                                   Seite 15 / 43
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+61.19 99A   Versiegeln mit säurehärtendem Lack                                                                                    m²
+            Mit säurehärtendem Lack.
+
+            LB-Version: 23                     Geändert                                  Vorherige Position: 611808A
+
+61.19 99B   Versiegeln mit Polyurethan-Lack                                                                                       m²
+            Mit Polyurethan-(PUR)-Lack.
+
+            LB-Version: 23                     Geändert                                  Vorherige Position: 611808B
+
+61.32       Wand-u.Leibungsbekleidungen
+            1. Einkalkulierte Leistungen:
+            1.1 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                 • Stoßkanten der Platten einer Wandbekleidung sind gefast oder gerundet (s/R 3 mm +/- 1 mm)
+                 • Stöße werden als 3 mm +/- 1 mm breite offene Fugen hergestellt und einheitlich entweder schwarz
+                   hinterlegt oder hinterstrichen oder mit einer mattschwarzen "fremden Feder" (mind. 1,5 mm dicke
+                   Schichtstoffplatten) verschlossen
+                 • fluchtgerechte Montage waagrecht oder lotrecht, einschließlich etwaiger Unterfütterungen
+                 • Montage mit Dübeln und passivierten (verzinkten) Schrauben
+                 • Befestigung der Decklagen, sichtbar mit rostgeschützten Kreuz-Schlitz-Senkkopfschrauben
+            Auswechslungen in der Unterkonstruktion (z.B. für Turngeräte, Lüftungseinbauten) sind in die Einheitspreise
+            einkalkuliert.
+            Ausschnitte in der Decklage (z.B. für Turngeräte, Lüftungseinbauten) sind in eigenen Positionen beschrieben.
+
+
+            2. Technische Beschreibung:
+            2.1 Konstruktionsvollholz Fichte: Als Konstruktionsvollholz wird keilgezinktes Vollholz gemäß ÖNORM EN
+            15497, Oberfläche egalisiert (auf Maß gehobelt, mit zulässigen Raustellen) verwendet.
+            2.2 Latten sind fäulnishemmend und färbig imprägniert.
+            2.3 Stahlteile sind korrosionsgeschützt
+            2.4 Prallschutzbeläge sind vollflächig geklebt.
+
+
+            3. Ausmaß- und Abrechnungsregeln:
+            3.1 Abgerechnet wird im Deckmaß (nicht Federmaß).
+            3.2 Bekleidungen mit Öffnungen und Aussparungen bis 0,5 m2 werden hohl für voll abgerechnet.
+             Kommentar:
+             Frei zu formulieren ist (z.B.):
+                  • Mineralwolle-Schallschluckmatten, eingeschweißt in schwarze PE-Folie, in die Unterkonstruktion eingelegt und
+                    absacksicher befestigt
+                  • Montieren der Wandverkleidungsplatten mittels Einhängeleisten ohne sichtbare Verschraubung
+
+            LB-Version: 23                     Geändert
+61.32 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+61.32 00A   Regelformat(e) bei Wandbekleidungen
+            Abgesehen von den Passstücken an Rändern, Kanten sowie in Leibungen werden für die Wandbekleidung im
+            Allgemeinen folgende
+            Plattenzuschnitte (Regelformate) verwendet:____________ x ____________mm
+            LB-Version: 23
+61.32 03    Unterkonstruktion (UK) für Wandbekleidungen im Raster von bis zu 60 x 60 cm oder ausgeteilt entsprechend
+            den Montageerfordernissen.
+            Fluchtend, direkt an die tragende Wand montiert.
+
+61.32 03A   UK f.Wandbekleidungen Latten 3x5cm                                                                                    m²
+            Mit Latten gehobelt.
+            3 x 5 cm Raumaß
+            Abstand zur tragenden Wand bis 5 cm
+
+                                                                                                                            Seite 16 / 43
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+            LB-Version: 23               Geändert
+
+61.32 03C   UK f.Wandbekleidungen Doppellatten 3x5cm                                                                        m²
+            Mit Latten gehobelt.
+            Konterlattung und Lattung 3 x 5 cm Raumaß
+            Abstand zur tragenden Wand über 5 bis 8 cm
+            LB-Version: 23               Geändert
+
+61.32 03X   UK f.Wandbekleidungen                                                                                           m²
+            Mit ____________
+            Abstand zur tragenden Wand über: ____________cm
+            LB-Version: 23               Geringfügig Geändert
+61.32 05    Unterkonstruktion (UK) für Wandbekleidungen aus gehobelten Staffeln (Querschnitt nach statischen
+            Erfordernissen, mindestens jedoch 5 x 8 cm Raumaß) und einer Sekundärlattung (mindestens 3 x 5 cm
+            Raumaß), im Raster von bis zu 60 x 60 cm oder ausgeteilt entsprechend den Montageerfordernissen.
+            Fluchtend, direkt an die tragende Wand mit Stahlwinkeln montiert.
+            Im Positionsstichwort ist der Abstand (cm) der Vorderkante-Unterkonstruktion vor der tragenden Wand
+            angegeben.
+
+61.32 05A   UK f.Wandbekleidungen Holzrost Abst.ü.8-15cm                                                                    m²
+            LB-Version: 23               Geändert
+
+61.32 05C   UK f.Wandbekleidungen Holzrost Abst.ü.15-23cm                                                                   m²
+            LB-Version: 23               Geändert
+
+61.32 05E   UK f.Wandbekleidungen Holzrost Abst.ü.23-30cm                                                                   m²
+            LB-Version: 23               Geändert
+
+61.32 05F   UK f.Wandbekleidungen Holzrost Abst.ü.30-45cm                                                                   m²
+            LB-Version: 23               Geringfügig Geändert
+
+61.32 05X   UK f.Wandbekleidungen Holzrost Abst.ü.45cm:__________                                                           m²
+            LB-Version: 23               Geringfügig Geändert
+61.32 07    Unterkonstruktion (UK) aus Stahl-Profilrohren mit Sekundärlattung, nach statischen Erfordernissen, ausgeteilt
+            entsprechend den Montageerfordernissen
+            Fluchtend, direkt an die tragende Wand mit Stahlteilen montiert.
+            Im Positionsstichwort ist der Abstand (cm) der Vorderkante (Abst.) vor der tragenden Wand angegeben.
+
+61.32 07A   UK f.Wandbekleidungen Stahl+Latten Abst.ü.15-23cm                                                               m²
+            LB-Version: 23               Geändert
+
+61.32 07C   UK f.Wandbekleidungen Stahl+Latten Abst.ü.23-30cm                                                               m²
+            LB-Version: 23               Geändert
+
+61.32 07E   UK f.Wandbekleidungen Stahl+Latten Abst.ü.30-45cm                                                               m²
+            LB-Version: 23               Geändert
+
+61.32 07G   UK f.Wandbekleidungen Stahl+Latten Abst.ü.45-60cm                                                               m²
+            LB-Version: 23               Geändert
+
+61.32 07X   UK f.Wandbekleidungen Stahl+Latten Abst.ü.60cm:__________                                                       m²
+            LB-Version: 23
+61.32 09    Unterkonstruktion (UK) für Ständerwand (1-faches Ständerwerk) aus feuerverzinkten Stahlprofilrohren, im
+            Achsabstand von höchstens 60 cm, ausgeteilt und ausgefacht entsprechend den Montageerfordernissen mit
+            verzinkten Stahlwinkeln, fluchtend an Boden, Decke und nach Möglichkeit an angrenzenden massiven Wänden
+            befestigt, für ein- oder beidseitige Beplankung, mit integrierter, absacksicher befestigter mindestens 5 cm dicker
+            Mineralfaser-Dämmschicht.
+            Im Positionsstichwort sind die Abmessungen (mm) der Steher aus Stahlrohrprofilen angegeben.
+
+                                                                                                                      Seite 17 / 43
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+61.32 09A   UK f.Ständerwand Stahlprofilrohr 80/80mm                                                                            m²
+            Ständerwand (Dicke): ____________cm
+            Höhe der Ständerwand: ____________m
+            LB-Version: 23                Geändert
+Änderung:   Änderung im Grundtext
+            Alt: Achsabstand von höchstens 50cm
+            Neu: Achsabstand von höchstens 60cm
+            Änderung im Positionstext:
+            Lücke für Ständerwand (Dicke) hinzugefügt
+
+61.32 09B   UK f.Ständerwand Stahlprofilrohr 100/100mm                                                                          m²
+            Ständerwand (Dicke): ____________cm
+            Höhe der Ständerwand: ____________m
+            LB-Version: 23
+
+61.32 09X   UK f.Ständerwand Stahlprofilrohr mm:__________                                                                      m²
+            Ständerwand (Dicke): ____________cm
+            Höhe der Ständerwand: ____________m
+            LB-Version: 23
+61.32 12    Unterkonstruktion (UK) für eine Leibungsbekleidung, die nicht an der Unterkonstruktion einer angrenzenden
+            Sichtbekleidung montiert werden kann.
+            Raster nach Erfordernis, in Leibungen fluchtend direkt an die tragende Wand montiert.
+            Vorderkante Unterkonstruktion bis 5 cm vor der tragenden Wand.
+
+61.32 12A   UK f.Leibungsbekleidungen Latten3x5cm                                                                               m²
+            Mit gehobelten Latten 3 x 5 cm Raumaß.
+            Höhe der Ständerwand: ____________m
+            LB-Version: 23                 Geändert
+Änderung:   Änderung im Grundtext:
+            Hinzufügen der Information, dass die Leibungsbekleidung nicht an einer angrenzenden Sichtbekleidung montiert werden kann
+            Änderung Positionstext:
+            Alt: Fichtenlatten
+            Neu: Latten
+
+61.32 15    Freistehende Unterkonstruktion (UK) für Sockelleisten zur wandunabhängigen Halterung der vor
+            Heizkörpernischen durchlaufenden Sockelleisten, am Boden montiert, bestehend aus feuerverzinkten
+            Stahlkonsolen im Abstand von höchstens 1 m und einem daran befestigten durchlaufenden Holzstaffel.
+
+61.32 15A   UK freistehend f.Sockelleiste                                                                                       m
+            Holzstaffel Querschnitt 12 x 4 cm.
+
+            LB-Version: 23                Geringfügig Geändert
+61.32 17    Wandbekleidungs-Decklage aus Birke/Fichte-Combisperrholz-Platten.
+                 • Sperrholzplatten 18 mm dick, mit Deckfurnier aus Birke
+                 • Deckfurnier Qualität I/III-AW 100 gemäß ÖNORM B 3008 (entspricht B/BB nach ISO und SFS)
+            Die einzelnen Platten werden so sortiert und montiert, dass insgesamt ein farblich ruhiges Bild ohne abrupte
+            Farbübergänge entsteht, mit verzinkten Senkkopfschrauben flächenbündig auf die Unterkonstruktion
+            aufgeschraubt, Stoßfugen.
+                 • grundiert und im Glanzgrad G50 mit PU-Klarlack versiegelt, Rückseite mindestens grundiert
+                 • mit Senkkopfschrauben flächenbündig auf die Unterkonstruktion aufgeschraubt
+                 • Stoßfugen, Kanten und Sichtflächen sauber geschliffen
+                 • Stoßkanten gefast oder gerundet (s/R 3 mm)
+                 • Außenkanten gerundet (R 8 mm)
+            Plattengröße und Verschraubungsraster nach Angabe des Auftraggebers in Rapporten (Regel-Elemente).
+
+61.32 17A   Wandbekl.-Sperrholzpl.Deckfurnier Birke                                                                             m²
+            Gemäß Planbeilage: ____________
+
+            LB-Version: 23
+
+                                                                                                                          Seite 18 / 43
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+61.32 17B   Wandbekl.-Sperrholzpl.Deckfurnier Birke,elast.unterlegt                                                          m²
+            Elastisch unterlegt.
+            Gemäß Planbeilage: ____________
+            LB-Version: 23
+
+61.32 17C   Wandbekl.-Sperrholzpl.Deckfurnier Birke,sw,elast.unterlegt                                                       m²
+            Elastische Wandbekleidungs-Decklage, gesamt 27 mm dick,
+            werksseitig sandwichartig (sw) vollflächig verklebt aus:
+            • 6 mm Sperrholz, Deckfurnier Birke (Sichtseite zur Sporthalle hin); wird durch die vollflächige Verklebung mit
+            der Verbundschaumlage gehalten, ohne jede zusätzliche starre Fixierung (wie z. B Verschraubungen,
+            Tragleisten).
+            • 12 mm Verbundschaum
+            • 9 mm Sperrholz, durch Bohrungen in der 6 mm-Lage und in der Verbundschaumlage, starr auf die
+            Unterkonstruktion geschraubt; die frontalen Bohrungen sind entweder verletzungsgeschützt gefast oder mit
+            überschliffenen und überlackierten Holzdübeln bündig verschlossen.
+            Bei Außenkanten von Nischen und Einbauten ist auf einer Breite von 20 mm anstelle der
+            Verbundschaumschicht ein Stabilisierungsstreifen (bestehend aus 6 mm Sperrholz und 6 mm Schaumstoff)
+            eingebaut.
+            Gemäß Planbeilage: ____________
+            LB-Version: 23
+61.32 18    Aufzahlung (Az) auf Wandbekleidungs-Decklage aus Birke/Fichte-Combisperrholz-Platten.
+                • Sperrholzplatten 18 mm dick, mit Deckfurnier aus Birke.
+
+61.32 18A   Az Wandbekl.-Sperrholzpl.Deckf.Birke f.edelfurniert                                                              m²
+            Für eine zusätzlicher Edelholz-Messerfurnier-Auflage (Qualität mind. A) und Gegenzug.
+            Furnier-Holzart:____________
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.32 18B   Az Wandbekl.-Sperrholzpl.Deckf.Birke f.farbige Lasierung                                                         m²
+            Für eine farbige Lasierung unter der Schlussbeschichtung mit Klarlack,
+            Farbe: ____________
+            Betrifft Position(en):____________
+            LB-Version: 23
+61.32 19    Wandbekleidungs-Decklage aus Birke/Fichte-Combisperrholz-Platten,
+            als Leibungsbekleidung, Rücksprünge seitlich, oben und unten.
+                • Sperrholzplatten 18 mm dick, mit Deckfurnier aus Birke
+                • Deckfurnier Qualität I/III-AW 100 gemäß ÖNORM B 3008 (entspricht B/BB nach ISO und SFS)
+            Die einzelnen Platten werden so sortiert und montiert, dass insgesamt ein farblich ruhiges Bild ohne abrupte
+            Farbübergänge entsteht, mit verzinkten Senkkopfschrauben flächenbündig auf die Unterkonstruktion
+            aufgeschraubt, Stoßfugen.
+                • grundiert und im Glanzgrad G50 mit PU-Klarlack versiegelt, Rückseite mindestens grundiert
+                • mit Senkkopfschrauben flächenbündig auf die Unterkonstruktion aufgeschraubt
+                • Stoßfugen, Kanten und Sichtflächen sauber geschliffen
+                • Stoßkanten gefast oder gerundet (s/R 3 mm)
+                • Außenkanten gerundet (R 8 mm)
+            Plattengröße und Verschraubungsraster nach Angabe des Auftraggebers in Rapporten (Regel-Elemente).
+            Im Positionsstichwort ist die Leibungsbreite (cm) angegeben.
+
+61.32 19A   Leibungsbekl.Sperrholz Birke 18mm b.30cm                                                                         m²
+            Gemäß Planbeilage: ____________
+
+            LB-Version: 23               Geändert                                    Vorherige Position: 613220C
+
+61.32 19B   Leibungsbekl.Sperrholz Birke 18mm ü.30-60cm                                                                      m²
+            Gemäß Planbeilage: ____________
+
+                                                                                                                       Seite 19 / 43
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+            LB-Version: 23               Geändert                               Vorherige Position: 613220E
+
+61.32 19C   Leibungsbekl.Sperrholz Birke 18mm ü.60-90cm                                                                 m²
+            Gemäß Planbeilage: ____________
+
+            LB-Version: 23
+61.32 21    Wandbekleidungs-Decklage aus mitteldichter Faserplatte (MDF).
+                • Platten 19 mm dick
+                • mit Senkkopfschrauben flächenbündig auf die Unterkonstruktion aufgeschraubt
+                • Stoßfugen, Kanten und Sichtflächen sauber geschliffen
+                • Stoßkanten gefast oder gerundet (s/R 3 mm)
+                • Außenkanten gerundet (R 8 mm)
+            Plattengröße und Verschraubungsraster nach Angabe des Auftraggebers in Rapporten (Regel-Elemente).
+
+61.32 21A   Wandbekl.-Faserplatte MDF                                                                                   m²
+            Durchgefärbt (Farbe):____________
+            Gemäß Planbeilage: ____________
+            LB-Version: 23
+
+61.32 21B   Wandbekl.-Faserplatte MDF,elast.unterlegt                                                                   m²
+            Elastisch unterlegt.
+            Durchgefärbt (Farbe):____________
+            Gemäß Planbeilage: ____________
+            LB-Version: 23
+61.32 23    Aufzahlung (Az) auf Wandbekleidungs-Decklage aus mitteldichter Faserplatte (MDF), durchgefärbt.
+                • Platten 19 mm dick
+
+61.32 23A   Az Wandbekl.-Faserplatte MDF f.Decklage farbig                                                              m²
+            Für eine farbige Decklage.
+            Farbe: ____________
+            Betrifft Position(en):____________
+            LB-Version: 23
+61.32 24    Wandbekleidungs-Decklage aus mitteldichter Faserplatte (MDF), durchgefärbt (gleich der
+            Wandbekleidunges-Decklage)
+            als Leibungsbekleidung, Rücksprünge seitlich, oben und unten.
+                • Platten 19 mm dick
+                • mit Senkkopfschrauben flächenbündig auf die Unterkonstruktion aufgeschraubt
+                • Stoßfugen, Kanten und Sichtflächen sauber geschliffen
+                • Stoßkanten gefast oder gerundet (s/R 3 mm)
+                • Außenkanten gerundet (R 8 mm)
+            Plattengröße und Verschraubungsraster nach Angabe des Auftraggebers in Rapporten (Regel-Elemente).
+            Im Positionsstichwort ist die Leibungsbreite (cm) angegeben.
+
+61.32 24A   Leibungsbekl.Faserplatte MDF b.30cm                                                                         m²
+            Gemäß Planbeilage: ____________
+
+            LB-Version: 23
+
+61.32 24B   Leibungsbekl.Faserplatte MDF ü.30-60cm                                                                      m²
+            Gemäß Planbeilage: ____________
+
+            LB-Version: 23
+
+61.32 24C   Leibungsbekl.Faserplatte MDF ü.60-90cm                                                                      m²
+            Gemäß Planbeilage: ____________
+
+            LB-Version: 23
+
+
+
+
+                                                                                                                  Seite 20 / 43
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+61.32 26    Wandbekleidungs-Decklage.
+            Plattengröße und Verschraubungsraster nach Angabe des Auftraggebers in Rapporten (Regel-Elemente).
+            Im Positionsstichwort ist das Plattenformat (mm) angegeben.
+
+61.32 26A   Wandbekl.-Decklage                                                                                        m²
+            Material:____________
+            Besondere Eigenschaften (z.B. Brandverhalten, Schallabsorption):____________
+            Montageart:____________
+            Ausbildung Fugen:____________
+            Plattendicke:____________mm
+            Farbe:____________
+            Gemäß Planbeilage: ____________
+            LB-Version: 23
+61.32 28    Wandbekleidungs-Decklage (Deckl.)
+            als Leibungsbekleidung, Rücksprünge seitlich, oben und unten.
+            Plattengröße und Verschraubungsraster nach Angabe des Auftraggebers in Rapporten (Regel-Elemente).
+            Im Positionsstichwort ist die Leibungsbreite (cm) angegeben.
+
+61.32 28A   Leibungsbekl.f.Wandbekl.-Deckl.b.30cm                                                                     m²
+            Material:____________
+            Besondere Eigenschaften (z.B. Brandverhalten, Schallabsorption):____________
+            Montageart:____________
+            Ausbildung Fugen:____________
+            Plattendicke:____________mm
+            Farbe:____________
+            Gemäß Planbeilage: ____________
+            LB-Version: 23
+
+61.32 28B   Leibungsbekl.f.Wandbekl.-Deckl.ü.30-60cm                                                                  m²
+            Material:____________
+            Besondere Eigenschaften (z.B. Brandverhalten, Schallabsorption):____________
+            Montageart:____________
+            Ausbildung Fugen:____________
+            Plattendicke:____________mm
+            Farbe:____________
+            Gemäß Planbeilage: ____________
+            LB-Version: 23
+
+61.32 28C   Leibungsbekl.f.Wandbekl.-Deckl.ü.60-90cm                                                                  m²
+            Material:____________
+            Besondere Eigenschaften (z.B. Brandverhalten, Schallabsorption):____________
+            Montageart:____________
+            Ausbildung Fugen:____________
+            Plattendicke:____________mm
+            Farbe:____________
+            Gemäß Planbeilage: ____________
+            LB-Version: 23
+61.32 30    Wandbekleidungs-Decklage, elastisch unterlegt.
+            Im Positionsstichwort ist das Plattenformat (mm) angegeben.
+
+61.32 30A   Wandbekl.-Decklage elastisch unterlegt                                                                    m²
+
+                                                                                                                Seite 21 / 43
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Material:____________
+            Besondere Eigenschaften (z.B. Brandverhalten, Schallabsorption):____________
+            Montageart:____________
+            Ausbildung Fugen:____________
+            Plattendicke:____________mm
+            Farbe:____________
+            Gemäß Planbeilage: ____________
+            LB-Version: 23
+61.32 35    Turnhallentür mit Zarge (+Z), Türblatt in Sandwich-Bauweise,
+            mindestens 60 mm dick, für eine Wandbekleidungs-Decklage.
+            Fertige Türe bündig mit der Turnhallen-Wandbekleidung, nach außen öffnend.
+            Einkalkulierte Leistungen:
+                 • Einstemmschloss mit Wechsel für großes Zylinderprofil
+                 • mit Turnhallen-Sicherheitsdrückergarnitur an der Innenseite, flächenbündig eingefräst
+                 • Drücker nach Baustellenstandard an der Außenseite
+                 • Rahmen und Unterkonstruktion der Zarge aus Profilrohr, mit Rostschutz grundiert und lackiert, mit
+                   dreiseitiger Falzausbildung, mit drei kugelgelagerten Türbändern, verankert in der Unterkonstruktion der
+                   Turnhallen-Wandbekleidung
+            Das Ausbilden der gangseitigen Leibungsflächen in Decklage, entsprechend der Wandbekleidung in der
+            Sporthalle, mit der dazu gehörigen Unterkonstruktion ist im Einheitspreis einkalkuliert.
+
+61.32 35A   Tür+Z+Leib.1Fl.90-120x220cm f.Wandbekl.-Decklage                                                               Stk
+            Einflügelig (1Fl.)
+                 • Stocklichte 90 bis 120 x 220 cm
+            Türblatt sporthallenseitig: ____________
+            Türblatt gangseitig: ____________
+            LB-Version: 23               Geändert                                  Vorherige Position: 613225A
+
+61.32 35C   Tür+Z+Leib.1Fl.90x200cm EI2 30-C (T30) f.Wandbekl.-Decklage                                                    Stk
+            Einflügelig (1Fl.)
+                 • Stocklichte 90 x 200 cm
+            Ausführung in Feuerwiderstandsklasse EI2 30-C (T30)
+                 • mit Türschließer
+            Leibungsflächen und Türblatt sporthallenseitig: ____________
+            Leibungsflächen und Türblatt gangseitig: ____________
+            LB-Version: 23               Geändert                                  Vorherige Position: 613225C
+
+61.32 35E   Tür+Z+Leib.2Fl.220cm f.Wandbekl.-Decklage                                                                      Stk
+            Zweiflügelig (2Fl.)
+                 • Stocklichte bis 160 x 220 cm
+            Flügelgrößen gemäß Zeichnung: ____________
+                 • Gehflügel wie im Grundtext beschrieben
+                 • Stehflügel mit Einstemm-Riegelschloss, Riegelstangen oben in Zarge und unten in den Boden
+                   eingreifend, einschließlich der Deckbleche
+            Leibungen und Türblatt sporthallenseitig:____________
+            Leibungen und Türblatt gangseitig: ____________
+            LB-Version: 23               Geändert                                  Vorherige Position: 613225E
+
+61.32 35F   Tür+Z+Leib.2Fl.220cm EI2 30-C (T30) f.Wandbekl.-Decklage                                                       Stk
+            Zweiflügelig (2Fl.)
+                 • Stocklichte bis 160 x 220 cm
+            Ausführung in Feuerwiderstandsklasse EI2 30-C (T30),
+            Flügelgrößen gemäß: ____________
+                 • Gehflügel wie im Grundtext beschrieben
+                 • Stehflügel mit Einstemm-Riegelschloss, Riegelstangen oben in Zarge und unten in den Boden
+                                                                                                                     Seite 22 / 43
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+                  eingreifend, einschließlich der Deckbleche
+            Leibungen und Türblatt sporthallenseitig: ____________
+            Leibungen und Türblatt gangseitig:____________
+            LB-Version: 23               Geringfügig Geändert
+
+61.32 35G   Az Tür 1Fl f.witterungsbeständig f.Wandbekl.-Decklage                                                           Stk
+            Aufzahlung (Az) für eine Turnhallentür, einflügelig (1Fl.) für eine witterungsbeständig Ausführung.
+            Mit regendichtem Bodenanschuss - Bodenabsenkung von 20 mm nach außen.
+            Türblattrohling mit Prüfbescheinigung nach Prüfung des Stehvermögens gemäß ÖNORM B 5330-1 und EN
+            12219 Prüfklima c Differenzklimabelastung: Klasse 2 (c).
+            Türaußenseite/Türblatt und Rahmenstock belegt mit: ____________
+            Farbe: ____________
+            Betrifft Position(en):____________
+
+            LB-Version: 23               Geringfügig Geändert
+
+61.32 35H   Az Tür 2Fl.f.witterungsbeständig f.Wandbekl.-Decklage                                                           Stk
+            Aufzahlung (Az) für eine Turnhallentür, zweiflügelig (1Fl.) für eine witterungsbeständig Ausführung.
+            Mit regendichtem Bodenanschuss - Bodenabsenkung von 20 mm nach außen.
+            Türblattrohling mit Prüfbescheinigung nach Prüfung des Stehvermögens gemäß ÖNORM B 5330-1 und EN
+            12219 Prüfklima c Differenzklimabelastung: Klasse 2 (c).
+            Türaußenseite/Türblatt und Rahmenstock belegt mit: ____________
+            Farbe: ____________
+            Betrifft Position(en):____________
+            LB-Version: 23               Geringfügig Geändert
+
+61.32 35K   Az Tür+Z+Leib.2Fl.180° öffnend+Fix.f.Wandbekl.-Decklage                                                         Stk
+            Aufzahlung (Az) auf Turnhallen-Doppeltür.
+            • beide Türflügel 180° öffnend
+            • beide Türflügel mit verdeckt eingebauten Bodenriegel zur Fixierung der geöffneten Türflügeln
+            • 2 bodenbündig eingebaute Schlussbleche zur Aufnahme der Bodenriegel
+            Betrifft Position(en):____________
+            LB-Version: 23               Geringfügig Geändert
+
+61.32 35P   Az Tür Einstemmschloß m.Panikfunktion f.Wandbekl.-Decklage                                                      Stk
+            Aufzahlung (Az) für die Ausrüstung der Turnhallentür(en) mit Einstemmschlössern in Panikausführung.
+            Die versperrte Tür kann von innen ohne Schlüssel nur durch die Betätigung der Turnhallendrücker geöffnet
+            werden.
+            Abgerechnet wird je Tür, ohne Unterschied ob ein- oder zweiflügelig.
+            Betrifft Position(en):____________
+            LB-Version: 23               Geringfügig Geändert
+
+61.32 35S   Az Tür Türschließer f.Wandbekl.-Decklage                                                                        Stk
+            Aufzahlung (Az) für Türschließer.
+            Betrifft Position(en):____________
+            LB-Version: 23               Geringfügig Geändert
+61.32 37    Nischen, als in die Wandbekleidung bündig eingebauter Wandschrank mit Türen.
+            Türen, Korpus und Rückwand aus Material gleich der Wandbekleidung,
+            Einkalkulierte Leistungen:
+                • Muschelgriff und Kastenschloss für großes Zylinderprofil
+
+61.32 37E   Audionische f.Wandbekl.-Decklage 4-türig                                                                        Stk
+            Abmessungen (L x B x H): ____________ x ____________ x ____________ mm
+            Vertikal unterteilt: Oberer Teil (ca. 45 cm hoch) mit seitlichen Befestigungsschienen für die Montage von
+            19"-Einschubgeräten
+                                                                                                                      Seite 23 / 43
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            Gemäß Planbeilage: ____________
+                • Rückwand mit mind. 6 Ausschnitten zum Einbau von Hohlwanddosen für Steckdosen
+                • unterer Teil (ca. 25 cm hoch) als Ablagefach
+                • einschließlich Schubriegeln
+                • Rückwand mit mind. 2 Ausschnitten zum Einbau von Hohlwanddosen für Steckdosen
+                • 1 fixer Fachboden als Trennung zwischen oberem und unterem Abteil
+                • Tür-Rückseiten schwarz foliert
+            LB-Version: 23
+
+61.32 37F   Schalternische f.Wandbekl.-Decklage                                                                         Stk
+            Abmessungen (L x B x H): ____________ x ____________ x ____________ mm
+            mit demontierbarer Rückwand und Bohrungen für Hohlraumdosen.
+            Gemäß Planbeilage:____________
+
+            LB-Version: 23
+
+61.32 37G   Gerätenische f.Wandbekl.-Decklage                                                                           Stk
+            Abmessungen (L x B x H): ____________ x ____________ x ____________ mm
+            Für Turngerätebefestigungen (z.B. Slackline- oder Wandhaken)
+            Gemäß Planbeilage: ____________
+            LB-Version: 23
+61.32 38    Aufzahlung (Az) auf Schalter-Nische.
+
+61.32 38A   Az Schalternische f.Tür mit Schloss (abschließbar)                                                          Stk
+            Für einen in die Wandbekleidung bündig eingebauten Wandschrank mit einer Tür.
+                • Tür mit Kastenschloss für großes Zylinderprofil
+            mit herausnehmbarer Rückwand mit Bohrungen für Hohlraumdosen.
+            Betrifft Position(en):____________
+            LB-Version: 23
+61.32 39    Offene Schalternische in Wandbekleidung-Decklage.
+            Wandbekleidungs-Decklage ausschneiden (Ecken und Außenkanten gerundet, geschliffen und versiegelt).
+            Bohrungen für Hohlwanddosen sind im Einheitspreis einkalkuliert.
+
+61.32 39A   Offene Schalternische b.2 Einbauten f.Wandbekl.-Decklage                                                    Stk
+            Für bis zu 2 einreihig angeordnete Einbauten (Steckdosen bzw. Schalter).
+            Ausschnitt mit einer mind. 30 mm zurückgesetzten Sperrholzplatte (mind. 15 mm, geschliffen und versiegelt,
+            von hinten unsichtbar angeschraubt) hinterfüttern.
+            Gemäß Planbeilage:____________
+            LB-Version: 23              Geringfügig Geändert
+
+61.32 39B   Offene Schalternische ü.2-4 Einbauten f.Wandbekl.-Decklage                                                  Stk
+            Für bis zu 4 einreihig angeordnete Einbauten (Steckdosen bzw. Schalter).
+            Ausschnitt mit einer mind. 30 mm zurückgesetzten Sperrholzplatte (mind. 15 mm, geschliffen und versiegelt,
+            von hinten unsichtbar angeschraubt) hinterfüttern.
+            Gemäß Planbeilage:____________
+            LB-Version: 23              Geringfügig Geändert
+
+61.32 39C   Offene Schalternische ü.4-8 Einbauten f.Wandbekl.-Decklage                                                  Stk
+            Für bis zu 8 zweireihig angeordnete Einbauten (Steckdosen bzw. Schalter).
+            Ausschnitt mit einer mind. 60 mm zurückgesetzten Sperrholzplatte (s mind. 15 mm, geschliffen und versiegelt,
+            von hinten unsichtbar angeschraubt) hinterfüttern.
+            Gemäß Planbeilage:____________
+            LB-Version: 23              Geringfügig Geändert
+61.32 40    Aufzahlung (Az) auf Wandbekleidung-Decklage für einen rechteckiger oder runden Ausschnitt für die versenkte
+            Montage (z.B. einer Uhr, einer Notausgangsleuchte).
+            Ecken und Außenkanten gerundet, geschliffen und versiegelt.
+
+                                                                                                                  Seite 24 / 43
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+            Entlang der Schnittkante wird ein Glasfalz gefräst. In den Glasfalz wird bündig eine durchsichtige Plexiglasplatte
+            (8 mm) geschraubt.
+            Auswechslungen in der Unterkonstruktion sind im Einheitspreis einkalkuliert.
+            Abgerechnet wird je Ausschnitt, ohne Unterschied ob dieser in einer Platte liegt oder über mehrere Platten
+            greift.
+
+61.32 40E   Az Wandbekl.-Decklage f.Ausschnitt m.Plexiglaspl.b.0,15m2                                                       m²
+                                         2
+            Ausschnitt-Größe bis 0,15 m .
+            Betrifft Position(en):____________
+            LB-Version: 23               Geringfügig Geändert
+61.32 44    Sprossenwandartiger Heizkörpernischenabschluss (HKNA),
+            ausgeführt analog ÖNORM S 4706, Abschnitt 5.1;
+            jedoch mit:
+                • vordere Ebene des Heizkörpernischenabschlusses flächenbündig mit der angrenzenden
+                  Wandbekleidung
+                • Holme geteilt
+                • Deckleiste aus Hartholz bzw. mit Hartholz-Anleimer an der Vorderseite
+                • Sprossen aus massiver Esche bzw. Buchen-Schichtholz
+                • jede Sprosse separat mit verzinkten Schrauben an den Holmen befestigt
+                • Sprossen regelmäßig angeordnet ohne die bei Sprossenwänden sonst übliche Durchstiegsöffnung
+                • gerade Holme jeweils zweifach mit verzinkten Beschlägen am Nischengrund oder an den
+                  Leibungsflächen montiert
+                • geknickte Holme mindestens dreifach befestigt
+                • Element, je nach Breite, mit 2 oder mehreren Holmen (maximaler Holmabstand 90 cm)
+            Die Breite der einzelnen Elemente ist so ausgeführt, dass - abgesehen von allenfalls notwendigen
+            Gerätenischen - ein geschlossenes Wandbild entsteht.
+
+61.32 44A   Sprossenwandartige HKNA gerade                                                                                  Stk
+            Abmessungen gesamt (B x H): ____________x____________mm
+            Gemäß Planbeilage:____________
+            LB-Version: 23
+
+61.32 44F   Sprossenwandartige HKNA geneigt                                                                                 Stk
+            Oberteil schräg nach hinten zum Nischengrund geneigt;
+            Holmstöße verdübelt und verleimt;
+            Abmessungen gesamt (B x H): ____________x____________mm
+            Gemäß Planbeilage:____________
+            LB-Version: 23
+61.32 54    Wartungsöffnungen innerhalb der Wandbekleidung (z.B. als Zugang zu dahinter angeordneten Putzöffnungen,
+            Fußbodenheizungs-Ventilen (FBHV)).
+            Ausschnitt und Tür mit sauber gerundeten Ecken und Kanten.
+            Einkalkulierte Leistungen:
+                • erforderlicher Auswechslungen in der Unterkonstruktion
+            Im Positionsstichwort ist die Größe der Öffnung (m2) angegeben.
+
+61.32 54A   Wartungsöffnung b.0,15m2 f.Wandbekl.-Decklage                                                                   Stk
+            Als rechteckige Tür mit stabilen Scharnieren und vibrationssicherem Riegelverschluss.
+            Gemäß Planbeilage:____________
+            LB-Version: 23
+
+61.32 54B   Wartungsöffnung FBHV ü.0,15-0,75m2 f.Wandbekl.-Decklage                                                         Stk
+            Als massive Doppeltür, mit stabilen Scharnieren, umlaufender vibrationsdämpfender Dichtung und
+            Riegelschlössern mit Einheitssperre 61005 ("Sicherungskastenschloss").
+            Gemäß Planbeilage:____________
+            LB-Version: 23
+
+61.32 54C   Wartungsöffnung FBHV ü.0,75-.1m2 f.Wandbekl.-Decklage                                                           Stk
+                                                                                                                      Seite 25 / 43
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+            Als massive Doppeltür, mit stabilen Scharnieren, umlaufender vibrationsdämpfender Dichtung und
+            Riegelschlössern mit Einheitssperre 61005 ("Sicherungskastenschloss").
+            Gemäß Planbeilage:____________
+            LB-Version: 23
+61.32 55    Aufzahlung (Az) auf Wandbekleidung-Decklage, für die Lochung der Verkleidungsplatten, einschließlich
+            rückseitiger Kaschierung der Platten mit schwarzem Akustikvlies.
+            Im Positionsstichwort ist der Durchmesser der Lochung (mm) und das orthogonale Rastermaß (mm)
+            angegeben.
+            Abgerechnet wird die Summe der gelochten Flächen.
+
+61.32 55B   Az Wandbekl.-Decklage Loch.8mm Raster 20/20mm ohne Fries                                                   m²
+            Für eine Lochung, ohne besondere Friesausbildung.
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.32 55C   Az Wandbekl.-Decklage Loch.8mm Raster 20/20mm+Fries 60mm                                                   m²
+            Für eine Lochung mit lochfreiem Fries, Breite 60 mm.
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.32 55D   Az Wandbekl.-Decklage Loch.20mm Raster 40/40mm+Fries 60mm                                                  m²
+            Für eine Lochung mit lochfreiem Fries, Breite 60 mm.
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.32 55E   Az Wandbekl.-Decklage Loch.5mm Raster 16/16mm ohne Fries                                                   m²
+            Für eine Lochung, ohne besondere Friesausbildung.
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.32 55F   Az Wandbekl.-Decklage Loch.5mm Raster 16/16mm+Fries 60mm                                                   m²
+            Für eine Lochung mit lochfreiem Fries, Breite 60 mm.
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.32 55G   Az Wandbekl.-Decklage Loch.3mm Raster 16/16mm ohne Fries                                                   m²
+            Für eine Lochung, ohne besondere Friesausbildung.
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.32 55H   Az Wandbekl.-Decklage Loch.3mm Raster 16/16mm+Fries 60mm                                                   m²
+            Für eine Lochung mit lochfreiem Fries, Breite 60 mm.
+            Betrifft Position(en):____________
+            LB-Version: 23
+61.32 57    Aufzahlung (Az) auf Wandbekleidung-Decklage für die Lochung einzelner Verkleidungsplatten zur nicht
+            sichtbaren Luftführung.
+            Einschließlich erforderlicher Auswechslungen in der Unterkonstruktion.
+            Im Positionsstichwort ist der Durchmesser der Lochung (mm) und das orthogonale Rastermaß (mm)
+            angegeben.
+
+61.32 57A   Az Wandbekl.-Decklage Loch.20mm Raster 40/40mm                                                             m²
+            Für eine Lochung im Bereich des dahinter montierten Zu-/Abluftkanals mit rückseitigem bis zur Wand
+            reichenden Rahmen zur Verhinderung von Fehlluft (z.B. Lüftung, Lautsprecher/Pausenklingel).
+            Abgerechnet wird die Summe der gelochten Flächen.
+            Betrifft Position(en):____________
+
+                                                                                                                 Seite 26 / 43
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            LB-Version: 23
+61.32 58    Aufzahlung (Az) auf Wandbekleidung-Decklage für eine waagrechte Schlitzung im Bereich des dahinter
+            montierten Zu-/Abluftkanals mit rückseitigem bis zur Wand reichenden Rahmen zur Verhinderung von Fehlluft.
+
+61.32 58A   Az Wandbekl.-Decklage f.Schlitzung f.Lüftung                                                                 m²
+            Schlitzung: 8 x 100 mm
+            waagrechter/lotrechter Abstand 12/42 mm
+            Abgerechnet wird die Summe der geschlitzten Flächen.
+            Gemäß Planbeilage: ____________
+            Betrifft Position(en):____________
+            LB-Version: 23
+61.32 62    Schallschlucklage in die Unterkonstruktion (UK) einlegen und absacksicher befestigen.
+                • glas- und mineralfaserfrei
+                • schwarz oder weiß
+                • Flächengewicht ca. 350 g/m2
+                • Brandklasse B1
+            Im Positionsstichwort ist die Dicke (mm) angegeben.
+
+61.32 62A   W/LB - Schallschlucklage in UK Akustikvlies 10mm                                                             m²
+            LB-Version: 23
+
+61.32 62B   W/LB Schallschlucklage in UK Akustikvlies 20mm                                                               m²
+            LB-Version: 23
+61.32 65    Oberes Abschlussbrett (oberer Abschluss des Vorsprunges der Wandbekleidung) aus
+            Wandbekleidungs-Decklage,
+                • min. 18 mm dick
+                • der Kontur der Wandbekleidungs-Vorderkante folgend
+                • mit einer Neigung von über 10 % zur Waagrechten
+                • mit verzinkten Senkkopfschrauben an der Unterkonstruktion befestigt
+            Im Positionsstichwort ist die Breite (cm) angegeben.
+
+61.32 65A   Oberes Abschlussbrett Wandbekleidung b.15cm                                                                  m
+            LB-Version: 23              Geändert                                 Vorherige Position: 613238A
+
+61.32 65B   Oberes Abschlussbrett Wandbekleidung ü.15-30cm                                                               m
+            LB-Version: 23              Geändert                                 Vorherige Position: 613238B
+
+61.32 65C   Oberes Abschlussbrett Wandbekleidung ü.30-50cm                                                               m
+            LB-Version: 23              Geändert                                 Vorherige Position: 613238C
+
+61.32 65D   Oberes Abschlussbrett Wandbekleidung ü.50-70cm                                                               m
+            LB-Version: 23              Geringfügig Geändert
+
+61.32 65E   Az Oberes Abschlussbrett Wandbekl.Fe-anschl.cm__________                                                     m
+            Aufzahlung (Az) für das Anarbeiten der oberen Abschlussbretter an die Kontur der Fensternischen.
+            Mindestens 5 Bohrungen/m Abschlussbrett, Durchmesser 20 mm, zur Hinterlüftung der Wandbekleidung
+            vorhanden.
+            Betrifft Position(en):____________
+
+            LB-Version: 23              Geringfügig Geändert
+61.32 67    Pass- oder Abschlussleiste aus Hartholz
+                • profiliert und gefälzt
+                • Kanten und Ecken gerundet, geschliffen, gebeizt, grundiert und im Glanzgrad G 50 mit PU-Klarlack
+                  versiegelt
+                • mit verzinkten Senkschrauben auf Untergrund montiert
+            Im Positionsstichwort sind die Abmessungen (cm) angegeben.
+
+61.32 67A   Passleiste gefälzt 2x4cm                                                                                     m
+
+                                                                                                                   Seite 27 / 43
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+            LB-Version: 23              Geändert                                   Vorherige Position: 613240A
+
+61.32 67B   Passleiste gefälzt 2x8cm                                                                                       m
+            LB-Version: 23
+
+61.32 67C   Passleiste gefälzt 3x6cm                                                                                       m
+            LB-Version: 23              Geändert                                   Vorherige Position: 613240C
+
+61.32 67D   Passleiste gefälzt 3x8cm                                                                                       m
+            LB-Version: 23
+
+61.32 67E   Passleiste gefälzt 4x8cm                                                                                       m
+            LB-Version: 23              Geändert                                   Vorherige Position: 613240E
+61.32 70    Sockelleisten, Oberfläche dem Material der Wandbekleidung angepasst.
+                • 18 mm dick
+            auf vorhandene Unterkonstruktion montiert
+                • auf Gehrung geschnitten
+                • Außenecken und -kanten gerundet
+                • mit Schattenfuge 5 mm über Fußboden-Oberkante montiert
+
+61.32 70A   Sockelleiste                                                                                                   m
+            Höhe: ____________mm
+            Betrifft Position(en): ____________
+            LB-Version: 23              Geändert                                   Vorherige Position: 613242A
+61.32 71    Aufzahlung (Az) auf Sockelleiste aus Sperrholz.
+
+61.32 71A   Az Sockelleiste f.Lüftung+Dichtunglippe                                                                        m
+            Für eine Ausführung mit Lüftungsschlitzen und mit eingefräster Gummidichtungslippe.
+            Betrifft Position(en):____________
+            LB-Version: 23              Geändert                                   Vorherige Position: 613243A
+
+61.32 71B   Az Sockelleiste f.Bohrungen+Dichtlippe                                                                         m
+            Für eine Ausführung mit Lüftungsbohrungen und eingefräster Gummidichtungslippe.
+                • 4 Reihen
+                • Bohrung 8 mm
+                • Bohrungsraster 20 x 20 mm
+            Betrifft Position(en):____________
+            LB-Version: 23
+61.32 72    Aufzahlung (Az) auf Nische bei Wandbekleidung Decklage.
+
+61.32 72A   Az Nischen f.Außenkante Falz+Fase+Rundung                                                                      m
+            Für eine Außenkante mit Falz, Rundung und Fase.
+            Kantenausführung werkseitig hergestellt, glatt geschliffen und beschichtet.
+            Gemäß Planbeilage: ____________
+            Betrifft Position(en):____________
+            LB-Version: 23              Geändert                                   Vorherige Position: 613245A
+
+61.32 72B   Az Wandbekl.-Decklage f.Nischenkante m.gerund.Leiste Buche                                                     m
+            Für die Ausführung von (Geräte-)Nischen-Außenkanten mit gerundeter Hartholz-Leiste.
+                • Leiste aus Buchenholz 50/50 mm
+            Außenkante gerundet, 2-seitig gefalzt.
+                • Radius: 20 mm
+            Kantenausführung werkseitig hergestellt, glatt geschliffen und beschichtet;
+            Gemäß Planbeilage:____________
+            Betrifft Position(en):____________
+
+                                                                                                                     Seite 28 / 43
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+            LB-Version: 23
+61.32 74    Erschwernisse für das Anarbeiten bei Unterkonstruktion und Decklage der Wandbekleidung.
+
+61.32 74A   Anarbeiten Wandbekleidung f.eingeb.Turn-u.Sportgeräte                                                          PA
+            Bei fest eingebauten Turn- und Sportgeräten.
+            Gemäß Planbeilage: ____________
+            Gemäß ÖNORM B 2609____________
+
+            LB-Version: 23               Geändert                                  Vorherige Position: 613250A
+
+61.32 74B   Anarbeiten Wandbekleidung f.Kletter-/Boulderwand                                                               PA
+            Bei künstlicher Kletter-/Boulderwand.
+            Gemäß Planbeilage:____________
+            LB-Version: 23
+61.32 85    Geräteraum-Abschluss
+            ausgeführt analog ÖNORM S 4706, Abschnitt 5.1.
+
+61.32 85A   Geräteraum-Abschluss Netz                                                                                      Stk
+            Mit Netz.
+                • Material: Perlon
+                • Dicke: mind. 3 mm
+                • Maschenweite: 45 x 45 mm
+            Abmessungen Öffnung (B x H): ____________x____________mm (lichte Maße)
+            Laufschienenlänge (inkl. 2 x 150 mm): ____________mm
+
+            LB-Version: 23
+61.32 86    Sprossenwandartiger Geräteraum-Abschluss.
+            ausgeführt analog ÖNORM S 4706, Abschnitt 5.1.
+
+61.32 86A   Sprossenwandartige Geräteraum-Abschluss drehbar                                                                Stk
+            Beschreibung: ____________
+
+            LB-Version: 23
+61.32 89    Gitter (z.B. Lüftungs- oder Schutzgitter über Lautsprecher) ohne Unterschied ob korbartiger Aufbau- oder
+            flächiger Einbau, vom AG beigestellt,
+            auf der Wandbekleidung oder in Ausschnitte befestigen bzw. montieren.
+            Einschließlich aller Befestigungsmaterialien.
+            Mit oder ohne Schutzabdeckung.
+            Im Positionsstichwort ist das projizierte Flächenmaß (m2) angegeben.
+
+61.32 89A   Gitter f.Wandbekl.b.0,25m2 nur montieren                                                                       Stk
+            LB-Version: 23
+
+61.32 89B   Gitter f.Wandbekl.ü.0,25-0,5m2 nur montieren                                                                   Stk
+            LB-Version: 23
+
+61.32 89C   Gitter f.Wandbekl.ü.0,5-0,75m2 nur montieren                                                                   Stk
+            LB-Version: 23
+61.32 92    Sektionaltor in sporthallengerechter Ausführung
+            ausgeführt gemäß ÖNORM EN 13241-1 und ÖNORM B 2608
+            flächenbündig mit der Sporthallen-Innenwand in der Leibung der Geräteraumöffnung montiert.
+            Zarge:
+                • Stabile Stahlzarge, verzinkt, außen mit Wandbekleidungs-Oberbelag (Schichtholz o.ä.) gemäß
+                  angrenzender Wandfläche bekleidet, mit seitlichem Eingreifschutz
+                • in der Leibung der Einbauöffnung und an der Decke des Geräteraumes befestigt bzw. von dieser
+                  abgehängt
+            Verriegelung:
+
+                                                                                                                     Seite 29 / 43
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+                 • seitlich montierter Schließriegel
+                 • mittig montiertes Schloß, vorgerichtet für AG-seitig beigestellten Halbzylinder (großes Zylinderprofil)
+                 • hallenseitig mit eingelassenem Drehgriff und zusätzlichem Muschelgriff
+                 • geräteraumseitig mit Griffolive
+                 • von innen jederzeit zu öffnen
+            Gewichtsausgleich:
+                 • Torsionsfederwelle mit verzinkten Federn
+                 • mit Federbruchsicherung und innenliegender Seilführung
+            Torführung:
+                 • Laufschienen aus Stahl
+                 • wartungsfreie Rollen mit Kunststoff-Lauffläche
+                 • robuste verletzungssichere und geräuscharme Bauweise
+            Torblatt:
+                 • aus ca. 0,5 m hohen horizontalen Lamellen ("Sektionen") zusammengesetzt, Länge entsprechend der
+                   Breite der Geräteraumöffnung
+                 • jede Sektion bestehend aus einem stabilen und verzugsfreien Rahmen und einer zur angrenzenden
+                   Wandbekleidung materialgleichen mind. 20 mm dicken Beplankung
+                 • Oberflächenbehandlung wie Wandbekleidung
+                 • die Kanten der Sektionen und die Scharniere sind ohne Fingerklemm- und -quetschstellen ausgeführt
+            Unterer Abschluss als elastisches, seitenstabiles Gummi-Hohlprofil, mind. 80 mm hoch.
+
+61.32 92A   Sektionaltor,manuell betätigt                                                                                    Stk
+            Sektionaltor in sporthallengerechter Ausführung für manuelle Betätigung mit Federgewichtsausgleich;
+            Durchgangslichte (B x H): ____________
+            LB-Version: 23
+
+61.32 92B   Az Sektionaltor f.Elektro-Antrieb                                                                                Stk
+            Aufzahlung (Az) für einen Elektro-Antrieb.
+                 • zentral angeordnete Deckenschiene, von der Decke abgehängt und zusätzlich abgestützt
+                 • robuster 240 V - Motor mit Überlastschutz
+                 • komplett mit Steuer- und Schalteinrichtungen, mit Lichtschranke und Abschaltautomatik
+                 • ohne Schloss und zugehörige Beschläge
+                 • mit Antriebs-Notentriegelung
+                 • mit Schlüsselschalter für AG-seitig beigestellten Halbzylinder (großes Zylinderprofil), je nach örtlicher
+                   Erfordernis in Einbau- oder Aufbau-Ausführung
+            Betrifft Position(en):____________
+            LB-Version: 23
+61.32 94    Montage von vom AG beigestellten Einbauteilen
+            auf der Wandbekleidung oder in Ausschnitte befestigen bzw. montieren.
+            Einschließlich aller Befestigungsmaterialien.
+            Mit oder ohne Schutzabdeckung.
+
+61.32 94A   Leuchten in Wandbekl.nur montieren                                                                               Stk
+            Von Leuchten, ohne elektrischem Anschluss.
+            Beschreibung: ____________
+            LB-Version: 23
+
+61.32 94B   Lautsprecher in Wandbekl.nur montieren                                                                           Stk
+            Von Lautsprecher, ohne elektrischem Anschluss.
+            Beschreibung: ____________
+            LB-Version: 23
+
+61.32 94X   Einbauteile in Wandbekl.nur montieren                                                                            Stk
+            Beschreibung: ____________
+
+            LB-Version: 23
+
+
+
+
+                                                                                                                       Seite 30 / 43
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+61.32 97    Ausschnitte (z.B. Lüftungsgitter, Einbauleuchten) in Wandbekleidung
+            einschließlich erforderlichen Auswechslungen der Unterkonstruktion.
+            Ohne Unterschied, ob in einem Paneel oder über mehrere Paneele.
+
+61.32 97A   Ausschnitte Wandbekl.eckig                                                                                    Stk
+            Eckige Ausschnitte.
+            Abmessungen: ____________x____________mm
+            Gemäß Planbeilage:____________
+            LB-Version: 23
+
+61.32 97B   Ausschnitte Wandbekl.rund                                                                                     Stk
+            Runde Ausschnitte.
+            Durchmesser: ____________mm
+            Gemäß Planbeilage:____________
+            LB-Version: 23
+61.32 98    Aufzahlungen (Az) auf Wandbekleidung-Decklage.
+
+61.32 98A   Az Wandbekl.-Decklage f.Kurvenschnitt                                                                         m
+            Für Kurvenschnitt.
+            Betrifft Position(en):____________
+            LB-Version: 23               Geändert                                 Vorherige Position: 613234A
+
+61.33       Deckenbekleidungen
+
+
+            1. Einkalkulierte Leistungen:
+            1.1. Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Stoßkanten der Platten einer Deckenbekleidung sind gefast oder gerundet (s/R 3 mm +/- 1 mm)
+                • Stöße werden als 3 mm +/- 1 mm breite offene Fugen hergestellt und einheitlich entweder schwarz
+                  hinterlegt oder hinterstrichen oder mit einer mattschwarzen "fremden Feder" (mind. 1,5 mm dicke
+                  Schichtstoffplatten) verschlossen
+                • fluchtgerechte Montage waagrecht oder lotrecht, einschließlich etwaiger Unterfütterungen
+                • Montage mit Dübeln und passivierten (verzinkten) Schrauben
+                • Befestigung der Decklagen, sichtbar mit rostgeschützten Kreuz-Schlitz-Senkkopfschrauben
+            Auswechslungen in der Unterkonstruktion (z.B. für Turngeräte, Lüftungseinbauten) sind in die Einheitspreise
+            einkalkuliert.
+            Ausschnitte in der Decklage (z.B. für Turngeräte, Lüftungseinbauten) sind in eigenen Positionen beschrieben.
+
+
+            2. Technische Beschreibung:
+            2.1 Konstruktionsvollholz Fichte: Als Konstruktionsvollholz wird keilgezinktes Vollholz gemäß ÖNORM EN
+            15497, Oberfläche egalisiert (auf Maß gehobelt, mit zulässigen Raustellen) verwendet.
+            2.2 Latten sind fäulnishemmend und färbig imprägniert.
+            2.3 Stahlteile sind korrosionsgeschützt
+            2.4 Prallschutzbeläge sind vollflächig geklebt.
+
+
+            3. Ausmaß- und Abrechnungsregeln:
+            3.1 Abgerechnet wird im Deckmaß (nicht Federmaß).
+            3.2 Bekleidungen mit Öffnungen und Aussparungen bis 0,5 m2 werden hohl für voll abgerechnet.
+            LB-Version: 23               Geändert
+61.33 01    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+61.33 01A   Regelformat(e) bei Deckenbekleidungen                                                                         m²
+
+
+                                                                                                                    Seite 31 / 43
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+            Abgesehen von den Passstücken an Rändern, Kanten sowie in Leibungen werden für die Deckenbekleidung im
+            Allgemeinen folgende
+            Plattenzuschnitte (Regelformate) verwendet:____________ x ____________mm
+            LB-Version: 23
+61.33 03    Deckenunterkonstruktion aus gehobelten Fichtenstaffeln und Konterlattung, ausgeteilt entsprechend den
+            Montageerfordernissen für die Deckenbekleidung,
+                • fäulnishemmend färbig imprägniert
+                • mit Konterlattung aus Befestigungsmaterial seitlich an den Deckenträgern und Wänden sowie an der
+                  Deckenplattenunterseite montiert
+            Abhängungen auf verzinkten Gewindestangen mindestens M8 drucksteif ausgebildet, fluchtgerecht einjustiert,
+            einschließlich aller erforderlichen Auswechslungen (z.B. für Leuchten, Lautsprecher, Lüftungsgitter).
+
+61.33 03A   Decken-UK-Lattenrost direkt                                                                                    m²
+            Betrifft Position(en):____________
+            Direkt an der Deckenplattenunterseite montiert.
+            LB-Version: 23              Geringfügig Geändert
+
+61.33 03C   Decken-UK-Lattenrost b.0,5 abgehängt                                                                           m²
+            Betrifft Position(en):____________
+            Von der Deckenplattenunterkonstruktion bis 0,5 m abgehängt.
+            LB-Version: 23              Geringfügig Geändert
+
+61.33 03E   Decken-UK Lattenrost ü.0,5-1m abgehängt                                                                        m²
+            Betrifft Position(en):____________
+            Von der Deckenplattenunterkonstruktion über 0,5 bis 1 m abgehängt.
+            LB-Version: 23              Geringfügig Geändert
+
+61.33 03G   Decken-UK Lattenrost ü.1-1,5m abgehängt                                                                        m²
+            Betrifft Position(en):____________
+            Von der Deckenplattenunterkonstruktion über 1 bis 1,5 m abgehängt.
+            LB-Version: 23              Geringfügig Geändert
+
+61.33 03H   Decken-UK Lattenrost ü.1,5m abgehängt                                                                          m²
+            Betrifft Position(en):____________
+            Von der Deckenplattenunterkonstruktion über 1,5 m abgehängt.
+            Abhängehöhe: ____________m
+            LB-Version: 23
+
+61.33 03X   Az Abhängungen f.besondere Anforderungen                                                                       m²
+            Aufzahlung (Az) für besondere Anforderungen (z.B. Brandschutztechnisch Gestaltung der Abhängungen
+            (Werkstoff, Dimension, Durchführung durch GKF-Platten, Beschichtung).
+            Beschreibung:____________
+            Betrifft Position(en):____________
+
+            LB-Version: 23
+61.33 04    Aufzahlung (Az) auf Deckenunterkonstruktion (Decken-UK).
+
+61.33 04B   Az Decken-UK f.Revisionsöffnungen b.1m2
+            Herstellen einer Rahmenkonstruktion für den Einbau von Revisionsöffnungen.
+            Größe: bis 1 m2
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.33 04C   Az Decken-UK f.vertikale UK
+
+
+
+                                                                                                                     Seite 32 / 43
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+            Für das Herstellen einer vertikalen Unterkonstruktion im Bereich von Deckensprüngen und
+            Schürzenausbildungen.
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.33 04X   Az Decken-UK f.besondere Anforderungen
+            Für besondere Anforderungen (z.B. zusätzliche Verstärkungsvorkehrungen bei Belastungen).
+            Beschreibung: ____________
+            Betrifft Position(en):____________
+            LB-Version: 23
+61.33 17    Deckenbekleidungs-Decklage aus Birke/Fichte-Combisperrholz-Platten.
+                • Sperrholzplatten 18 mm dick, mit Deckfurnier aus Birke
+                • Deckfurnier Qualität I/III-AW 100 gemäß ÖNORM B 3008 (entspricht B/BB nach ISO und SFS)
+            Die einzelnen Platten werden so sortiert und montiert, dass insgesamt ein farblich ruhiges Bild ohne abrupte
+            Farbübergänge entsteht, mit verzinkten Senkkopfschrauben flächenbündig auf die Unterkonstruktion
+            aufgeschraubt, Stoßfugen.
+                • grundiert und im Glanzgrad G50 mit PU-Klarlack versiegelt, Rückseite mindestens grundiert
+                • mit Senkkopfschrauben flächenbündig auf die Unterkonstruktion aufgeschraubt
+                • Stoßfugen, Kanten und Sichtflächen sauber geschliffen
+                • Stoßkanten gefast oder gerundet (s/R 3 mm)
+                • Außenkanten gerundet (R 8 mm)
+            Plattengröße und Verschraubungsraster nach Angabe des Auftraggebers in Rapporten (Regel-Elemente).
+
+61.33 17A   Deck.bekl.-Sperrholzpl.Deckf.Birke                                                                              m²
+            Gemäß Planbeilage: ____________
+
+            LB-Version: 23
+
+61.33 17B   Deck.bekl.-Sperrholzpl.Deckf.Birke,elast.unterlegt                                                              m²
+            Elastisch unterlegt.
+            Gemäß Planbeilage: ____________
+            LB-Version: 23
+
+61.33 17C   Deck.bekl.-Sperrholzpl.Deckf.Birke,sw,elast.unterlegt                                                           m²
+            Elastische Deckenbekleidungs-Decklage, gesamt 27 mm dick,
+            werksseitig sandwichartig (sw) vollflächig verklebt aus:
+            • 6 mm Sperrholz, Deckfurnier Birke (Sichtseite zur Sporthalle hin); wird durch die vollflächige Verklebung mit
+            der Verbundschaumlage gehalten, ohne jede zusätzliche starre Fixierung (wie z. B Verschraubungen,
+            Tragleisten).
+            • 12 mm Verbundschaum
+            • 9 mm Sperrholz, durch Bohrungen in der 6 mm-Lage und in der Verbundschaumlage, starr auf die
+            Unterkonstruktion geschraubt; die frontalen Bohrungen sind entweder verletzungsgeschützt gefast oder mit
+            überschliffenen und überlackierten Holzdübeln bündig verschlossen.
+            Bei Außenkanten von Nischen und Einbauten ist auf einer Breite von 20 mm anstelle der
+            Verbundschaumschicht ein Stabilisierungsstreifen (bestehend aus 6 mm Sperrholz und 6 mm Schaumstoff)
+            eingebaut.
+            Gemäß Planbeilage: ____________
+            LB-Version: 23
+61.33 18    Aufzahlung (Az) auf Deckenbekleidungs-Decklage aus Birke/Fichte-Combisperrholz-Platten.
+                • Sperrholzplatten 18 mm dick, mit Deckfurnier aus Birke.
+
+61.33 18A   Az Deckenbekl.-Sperrholzpl.Deckf.Birke f.edelfurniert                                                           m²
+            Für eine zusätzlicher Edelholz-Messerfurnier-Auflage (Qualität mind. A) und Gegenzug.
+            Furnier-Holzart:____________
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.33 18B   Az Deckenbekl.-Sperrholzpl.Deckf.Birke f.farbige Lasierung                                                      m²
+                                                                                                                      Seite 33 / 43
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+            Für eine farbige Lasierung unter der Schlussbeschichtung mit Klarlack,
+            Farbe: ____________
+            Betrifft Position(en):____________
+            LB-Version: 23
+61.33 21    Deckenbekleidungs-Decklage aus mitteldichter Faserplatte (MDF).
+                • Platten 19 mm dick
+                • mit Senkkopfschrauben flächenbündig auf die Unterkonstruktion aufgeschraubt
+                • Stoßfugen, Kanten und Sichtflächen sauber geschliffen
+                • Stoßkanten gefast oder gerundet (s/R 3 mm)
+                • Außenkanten gerundet (R 8 mm)
+
+61.33 21A   Deckenbekl.-Faserplatte MDF                                                                                m²
+            Durchgefärbt.
+            Farbe:____________
+            Plattengröße und Verschraubungsraster nach Angabe des Auftraggebers in Rapporten (Regel-Elemente)
+            Gemäß Zeichnung Nr. ____________
+            LB-Version: 23
+61.33 23    Aufzahlung (Az) auf Deckenbekleidungs-Decklage aus mitteldichter Faserplatte (MDF), durchgefärbt.
+                • Platten 19 mm dick
+
+61.33 23A   Az Deckenbekl.-Faserplatte MDF f.Decklage farbig                                                           m²
+            Für eine farbige Decklage.
+            Farbe: ____________
+            Betrifft Position(en):____________
+            LB-Version: 23
+61.33 26    Deckenbekleidungs-Decklage aus magnesitgebundener Holzwolle.
+            Brandverhalten B-s0 gemäß EN 13501
+            Schallabsorptionswert von 0,9 bis 1
+                • mit entsprechenden Schrauben flächenbündig auf die Unterkonstruktion ballwurfsicher aufgeschraubt
+                • Stoßfugen, Kanten und Sichtflächen sauber geschliffen
+                • Stoßkanten gefast
+            Im Positionsstichwort ist das Plattenformat (mm) angegeben.
+
+61.33 26A   Deckenbekl.-Decklage mag.geb.Holzwolle 600x600mm                                                           m²
+            Plattendicke:____________mm
+            Farbe:____________
+            Plattengröße und Verschraubungsraster nach Angabe des Auftraggebers in Rapporten (Regel-Elemente)
+            Gemäß Zeichnung Nr. ____________
+            LB-Version: 23
+
+61.33 26B   Deckenbekl.-Decklage mag.geb.Holzwolle 1200x600mm                                                          m²
+            Plattendicke:____________mm
+            Farbe:____________
+            Plattengröße und Verschraubungsraster nach Angabe des Auftraggebers in Rapporten (Regel-Elemente)
+            Gemäß Zeichnung Nr. ____________
+            LB-Version: 23
+
+61.33 26X   Deckenbekl.-Decklage mag.geb.Holzwolle__________                                                           m²
+            Plattendicke:____________mm
+            Farbe:____________
+            Plattengröße und Verschraubungsraster nach Angabe des Auftraggebers in Rapporten (Regel-Elemente)
+            Gemäß Zeichnung Nr. ____________
+            LB-Version: 23
+
+                                                                                                                 Seite 34 / 43
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+61.33 31    Deckenbekleidungs-Decklage,
+                • mit Senkkopfschrauben flächenbündig auf die Unterkonstruktion aufgeschraubt
+                • Stoßfugen, Kanten und Sichtflächen sauber geschliffen
+                • Stoßkanten gefast oder gerundet (s/R 3 mm)
+                • Außenkanten gerundet (R 8 mm)
+
+61.33 31A   Deckenbekl.-Decklage                                                                                        m²
+            Material:____________
+            Plattengröße und Verschraubungsraster nach Angabe des Auftraggebers in Rapporten (Regel-Elemente)
+            Gemäß Zeichnung Nr. ____________
+            LB-Version: 23
+61.33 54    Aufzahlung (Az) auf Deckenbekleidung-Decklage.
+            Für ein Wartungsöffnungen/Klappe innerhalb der Deckenbekleidung.
+            Ausschnitt mit sauber gerundeten Ecken und Kanten.
+            Als rechteckige Klappe mit stabilen Scharnieren und vibrationssicherem Riegelverschluss.
+            Im Positionsstichwort ist die Größe der Öffnung (m2) angegeben.
+
+61.33 54A   Az Wartungsöffnung b.0,15m2                                                                                 Stk
+            LB-Version: 23
+
+61.33 54B   Az Wartungsöffnungf.Antrieb b.1m2                                                                           Stk
+            Als Zugang (z.B. zu darüber liegendem Antrieb eines Elektromotor-betriebenen Trennvorhanges).
+
+            LB-Version: 23
+61.33 55    Aufzahlung (Az) auf Deckenbekleidung-Decklage, für die Lochung der Bekleidungsplatten, einschließlich
+            rückseitiger Kaschierung der Platten mit schwarzem Akustikvlies.
+            Im Positionsstichwort ist der Durchmesser der Lochung (mm) und das orthogonale Rastermaß (mm)
+            angegeben.
+            Abgerechnet wird die Summe der gelochten Flächen.
+
+61.33 55A   Az Deckenbekl.-Decklage Loch.20mm Raster 40/40mm                                                            m²
+            Für eine Lochung im Bereich der dahinter montierten Lautsprecher oder der Pausenklingel.
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.33 55B   Az Deckebekl.-Decklage Loch.8mm Raster 20/20mm ohne Fries                                                   m²
+            Für eine Lochung, ohne besondere Friesausbildung.
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.33 55C   Az Deckebekl.-Decklage Loch.8mm Raster 20/20mm+Fries 60mm                                                   m²
+            Für eine Lochung mit lochfreiem Fries, Breite 60 mm.
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.33 55D   Az Deckbekl.-Decklage Loch.20mm Raster 40/40mm+Fries 60mm                                                   m²
+            Für eine Lochung mit lochfreiem Fries, Breite 60 mm.
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.33 55E   Az Deckebekl.-Decklage Loch.5mm Raster 16/16mm ohne Fries                                                   m²
+            Für eine Lochung, ohne besondere Friesausbildung.
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.33 55F   Az Deckebekl.-Decklage Loch.5mm Raster 16/16mm+Fries 60mm                                                   m²
+
+                                                                                                                  Seite 35 / 43
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Für eine Lochung mit lochfreiem Fries, Breite 60 mm.
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.33 55G   Az Deckebekl.-Decklage Loch.3mm Raster 16/16mm ohne Fries                                                    m²
+            Für eine Lochung, ohne besondere Friesausbildung.
+            Betrifft Position(en):____________
+            LB-Version: 23
+
+61.33 55H   Az Deckebekl.-Decklage Loch.3mm Raster 16/16mm+Fries 60mm                                                    m²
+            Für eine Lochung mit lochfreiem Fries, Breite 60 mm.
+            Betrifft Position(en):____________
+            LB-Version: 23
+61.33 57    Aufzahlung (Az) auf Deckenbekleidung-Decklage für die Lochung einzelner Verkleidungsplatten zur nicht
+            sichtbaren Luftführung.
+            Im Positionsstichwort ist der Durchmesser der Lochung (mm) und das orthogonale Rastermaß (mm)
+            angegeben.
+
+61.33 57A   Az Deckenbekl.-Decklage Loch.g. Fehlluft 20mm Raster 40/40mm                                                 m²
+            Für eine Lochung im Bereich des dahinter montierten Zu-/Abluftkanals mit rückseitigem reichenden Rahmen zur
+            Verhinderung von Fehlluft (z.B. Lüftung, Lautsprecher/Pausenklingel).
+            Abgerechnet wird die Summe der gelochten Flächen.
+            Betrifft Position(en):____________
+            LB-Version: 23
+61.33 62    Schallschlucklage in die Unterkonstruktion (UK) einlegen und absacksicher befestigen.
+                • glas- und mineralfaserfrei
+                • schwarz oder weiß
+                • Flächengewicht ca. 350 g/m2
+                • Brandklasse B1
+            Im Positionsstichwort ist die Dicke (mm) angegeben.
+
+61.33 62A   DB Schallschlucklage in UK Akustikvlies 10mm                                                                 m²
+            LB-Version: 23
+
+61.33 62B   DB Schallschlucklage in UK Akustikvlies 20mm                                                                 m²
+            LB-Version: 23
+61.33 74    Erschwernisse für das Anarbeiten bei Unterkonstruktion und Decklage der Deckenbekleidung.
+
+61.33 74A   Anarbeiten Deckenbekleidung f.eingeb.Turn-u.Sportgeräte                                                      PA
+            Bei fest eingebauten Turn- und Sportgeräten.
+            Gemäß Planbeilage: ____________
+            Gemäß ÖNORM B 2609____________
+            LB-Version: 23              Geändert                                 Vorherige Position: 613250A
+
+61.33 74B   Anarbeiten Deckenbekleidung f.Kletter-/Boulderwand                                                           PA
+            Bei künstlicher Kletter-/Boulderwand.
+            Gemäß Planbeilage:____________
+            LB-Version: 23
+
+61.33 74C   Anarbeiten Deckenbekleidung f.Deckenstrahlungsheizung                                                        PA
+            Bei Deckenstrahlungsheizung.
+            Beschreibung:____________
+            Gemäß Planbeilage:____________
+
+            LB-Version: 23
+
+
+                                                                                                                   Seite 36 / 43
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+61.33 89    Gitter (z.B. Lüftungs- oder Schutzgitter über Lautsprecher) ohne Unterschied ob korbartiger Aufbau- oder
+            flächiger Einbau, vom AG beigestellt,
+            auf der Deckenbekleidung oder in Ausschnitte befestigen bzw. montieren.
+            Einschließlich aller Befestigungsmaterialien.
+            Mit oder ohne Schutzabdeckung.
+            Im Positionsstichwort ist das projizierte Flächenmaß (m2) angegeben.
+
+61.33 89A   Gitter f.Deckenbekl.b.0,25m2 nur montieren                                                                      Stk
+            LB-Version: 23
+
+61.33 89B   Gitter f.Deckenbekl.ü.0,25-0,5m2 nur montieren                                                                  Stk
+            LB-Version: 23
+
+61.33 89C   Gitter f.Deckenbekl.ü.0,5-0,75m2 nur montieren                                                                  Stk
+            LB-Version: 23
+61.33 94    Montage von vom AG beigestellten Einbauteilen
+            auf der Deckenbekleidung oder in Ausschnitte befestigen bzw. montieren.
+            Einschließlich aller Befestigungsmaterialien.
+            Mit oder ohne Schutzabdeckung.
+
+61.33 94A   Leuchten in Deckenbekl.nur montieren                                                                            Stk
+            Von Leuchten, ohne elektrischem Anschluss.
+            Beschreibung: ____________
+            LB-Version: 23
+
+61.33 94B   Lautsprecher in Deckenbekl.nur montieren                                                                        Stk
+            Von Lautsprecher, ohne elektrischem Anschluss.
+            Beschreibung: ____________
+            LB-Version: 23
+
+61.33 94X   Einbauteile in Deckenbekl.nur montieren                                                                         Stk
+            Beschreibung: ____________
+
+            LB-Version: 23
+61.33 97    Ausschnitte (z.B. Lüftungsgitter, Einbauleuchten) in Deckenbekleidung
+            einschließlich erforderlichen Auswechslungen der Unterkonstruktion.
+            Ohne Unterschied, ob in einem Paneel oder über mehrere Paneele.
+
+61.33 97A   Ausschnitte Deckenbekl.eckig                                                                                    Stk
+            Eckige Ausschnitte.
+            Abmessungen: ____________x____________mm
+            Gemäß Planbeilage::____________
+
+            LB-Version: 23               Geändert                                   Vorherige Position: 613316A
+
+61.33 97B   Ausschnitte Deckenbekl.rund                                                                                     Stk
+            Runde Ausschnitte.
+            Durchmesser: ____________mm
+            Gemäß Planbeilage::____________
+            LB-Version: 23               Geändert                                   Vorherige Position: 613316B
+61.33 98    Aufzahlungen (Az) auf Deckenbekl.-Decklage.
+
+61.33 98A   Az Deckenbekl.-Decklage f.Kurvenschnitt                                                                         m
+            Für Kurvenschnitt.
+
+            LB-Version: 23
+
+
+                                                                                                                      Seite 37 / 43
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+61.81       Instandsetzungsarbeiten
+            Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+             Kommentar:
+             Wenn der Untergrund neu zu machen ist, dann Belag neu! (28.05 entfällt)
+             Wenn Blindboden, Schwingriegel und Polsterhölzer beschädigt sind, dann neu (Pos. 28.08/10/11 entfällt)
+             Anschleifen Linol, Kunststoff entfällt (Pos.28.21)
+
+            LB-Version: 23                  Geändert                                     Vorherige Position: 6128
+61.81 01    Instandsetzen von Holzfußboden-Teilflächen.
+            Beschädigte Teile des Oberbodens werden sorgfältig ausgelöst, brauchbares Material zur Wiederverwendung
+            seitlich gelagert, etwaige Beschädigungen des Unterbodens werden ausgebessert.
+            Der Oberboden wird wieder verlegt.
+            Als Ergänzung notwendiges neues Oberbodenmaterial wird mit einer Aufzahlungsposition geregelt.
+            Als Ergänzung notwendiges neues Oberbodenmaterial ist in eigenen Positionen beschrieben..
+            Abgerechnet wird die Summe der instandgesetzten Teilflächen.
+
+61.81 01A   Instandsetzen Parkett                                                                                                m²
+            Von genagelten Parkettböden.
+
+            LB-Version: 23                  Geringfügig Geändert                         Vorherige Position: 612801A
+
+61.81 01B   Instandsetzen Klebeparkett                                                                                           m²
+            Von Klebeparkett.
+
+            LB-Version: 23                  Geringfügig Geändert                         Vorherige Position: 612801B
+
+61.81 01X   Instandsetzen Holzfußboden                                                                                           m²
+            Von ____________
+
+            LB-Version: 23                  Geringfügig Geändert                         Vorherige Position: 612801X
+61.81 02    Abschleifen von alten Holzfußböden bis eine zum Versiegeln oder Einlassen geeignete Oberfläche erzielt wird.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+
+61.81 02A   Abschleifen Hartholz b.2mm                                                                                           m²
+            Bei stark abgenützten Böden aus Hartholz, bis zu einer Abschleiftiefe von 2 mm.
+
+            LB-Version: 23                  Geringfügig Geändert                         Vorherige Position: 612802A
+
+61.81 02B   Abschleifen Hartholz b.1mm                                                                                           m²
+            Bei normal abgenützten Böden aus Hartholz, bis zu einer Abschleiftiefe von 1 mm.
+
+            LB-Version: 23                  Geringfügig Geändert                         Vorherige Position: 612802B
+61.81 06    Aufzahlung (Az) auf Parkett instandsetzen oder Parkett demontieren und Wiederverlegen,
+            für das Ersetzen des schadhaften Parketts durch neues gleichartiges.
+            Abgerechnet wird die Fläche des ersetzten Materials.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+
+61.81 06A   Az Ersetzen Stabparkett Eiche                                                                                        m²
+            Mit Stabparkett, 22 mm dick.
+
+            LB-Version: 23                  Geringfügig Geändert                         Vorherige Position: 612806A
+
+61.81 06B   Az Ersetzen Riemenparkett Eiche                                                                                      m²
+            Mit Riemenparkett.
+
+            LB-Version: 23                  Geringfügig Geändert                         Vorherige Position: 612806B
+
+61.81 06X   Az Ersetzen Holzboden                                                                                                m²
+            Mit ____________
+
+                                                                                                                           Seite 38 / 43
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            LB-Version: 23               Geringfügig Geändert                     Vorherige Position: 612806X
+61.81 21    Nichttextile Sporthallenböden (Sportbodenbelag) anschleifen und grundreinigen als Vorarbeit für weitere
+            Instandsetzungsarbeiten.
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+
+61.81 21C   Sportbodenbelag anschleifen+reinigen PUR                                                                      m²
+            Oberbelag aus Polyurethan (PUR).
+
+            LB-Version: 23               Geringfügig Geändert                     Vorherige Position: 612821C
+
+61.81 21X   Sportbodenbelag anschleifen+reinigen                                                                          m²
+            Oberbelag aus ____________
+
+            LB-Version: 23               Geringfügig Geändert                     Vorherige Position: 612821X
+61.81 22    Verschließen schnittartiger Beschädigungen und offener Stoßfugen in nichttextilen Sporthallenböden
+            (Sportbodenbelag), einschließlich etwaigem Vorbehandeln der Schnittflächen und aller erforderlichen
+            Verbrauchsmaterialien und Hilfsstoffe.
+
+61.81 22A   Sportbodenbelag Fugen/Schnitte verschweißen Linoleum                                                          m
+            Bei einem Oberbelag aus Linoleum.
+
+            LB-Version: 23               Geringfügig Geändert                     Vorherige Position: 612822A
+
+61.81 22B   Sportbodenbelag Fugen/Schnitte verschweißen Kunststoff                                                        m
+            Bei einem Oberbelag aus Kunststoff.
+
+            LB-Version: 23               Geringfügig Geändert                     Vorherige Position: 612822B
+
+61.81 22C   Sportbodenbelag Fugen/Schnitte verschweißen PUR                                                               m
+            Bei einem Oberbelag aus Polyurethan (PUR).
+
+            LB-Version: 23               Geringfügig Geändert                     Vorherige Position: 612822C
+
+61.81 22X   Sportbodenbelag Fugen/Schnitte verschweißen                                                                   m
+            Bei einem Oberbelag aus ____________
+
+            LB-Version: 23               Geringfügig Geändert                     Vorherige Position: 612822X
+61.81 24    Vorbereitete Fläche (Sportbodenbelag) vollflächig mit Glasfasergewebe (Masse mindestens 550 g/m2)
+            bekleben, darüber eine mindestens 2,5 mm dicke Polyurethanbeschichtung aufbringen und darauf einen
+            Polyurethan (PUR).-Decklack (Farbe nach Wahl des Auftraggebers) auftragen.
+
+61.81 24A   Sportbodenbelag GF-Gewebe+PUR+Decklack                                                                        m²
+            Farbe:____________
+
+            LB-Version: 23               Geringfügig Geändert                     Vorherige Position: 612824A
+61.81 26    Vorbereitete Fläche (Sportbodenbelag) vollflächig mit Polyurethan(PUR)-Decklack (Farbe nach Wahl des
+            Auftraggebers) beschichten.
+
+61.81 26A   Sportbodenbelag m.PUR-Decklack                                                                                m²
+                                               2
+            Materialeinsatz mindestens 15 g/m .
+            Farbe:____________
+            LB-Version: 23               Geringfügig Geändert                     Vorherige Position: 612826A
+61.81 28    Sportboden (Sportbodenbelag) im Bereich lokaler Schadstellen (z.B. Zugang zu einer Sportgerät - Bodenhülse)
+            instandsetzen,
+            einschließlich aller dazu benötigten Materialien.
+            Das Entsorgen von Baurestmassen ist im Einheitspreis einkalkuliert.
+
+61.81 28A   Inst.Sportboden Bodenöffnung/Gerätehülse                                                                      Stk
+            Rund um eine Bodenöffnung.
+            Abmessungen: bis 0,2 m2
+            Vorhandener Bodenaufbau: ____________
+            LB-Version: 23               Geringfügig Geändert                     Vorherige Position: 612828A
+                                                                                                                    Seite 39 / 43
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+61.81 28B   Inst.Sportboden Deckelbelag neu Linoleum/Kunststoff                                                           Stk
+            Deckel über einer Bodenöffnung mit neuer Sportboden-Auflage versehen.
+            Bei einem Oberboden aus Linoleum oder Kunststoff.
+            Vorhandener Bodenaufbau: ____________
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 612828B
+
+61.81 28C   Inst.Sportboden Deckelbelag neu PUR                                                                           Stk
+            Deckel über einer Bodenöffnung mit neuer Sportboden-Auflage versehen.
+            Bei einem Oberboden aus Polyurethan (PUR).
+            Vorhandener Bodenaufbau: ____________
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 612828C
+
+61.81 28E   Inst.Sportboden Deckel+Deckelbelelag neu Linoleum/Kunststoff                                                  Stk
+            Einschließlich neuen Deckel zu im Bestand vorhandener Deckelhalterung über einer Bodenöffnung mit neuer
+            Sportboden-Auflage versehen.
+            Oberboden aus Linoleum oder Kunststoff.
+            Vorhandener Bodenaufbau: ____________
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 612828E
+
+61.81 28F   Inst.Sportboden Deckel+Deckelbelag neu PUR                                                                    Stk
+            Einschließlich neuen Deckel zu im Bestand vorhandener Deckelhalterung über einer Bodenöffnung, mit neuer
+            Sportboden-Auflage versehen.
+            Oberboden aus Polyurethan (PUR).
+            Vorhandener Bodenaufbau: ____________
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 612828F
+61.81 35    Erneuern von Spielfeldmarkierungen auf vorhandenem Sportboden entsprechend den aufgetragenen
+            Spielfeldmarkierungen in der Halle, ohne Unterschied, ob gerade oder gekrümmt, ob durchgehend oder
+            strichliert.
+            Markierungslinien deckend aufbringen, einschließlich etwaiges Vorbehandeln.
+            Farbe und Breite nach den Wettkampfbestimmungen.
+            Die verwendeten Materialien haften auf der Oberfläche und sind hinsichtlich Härte, Gleitreibung und
+            Dehnbarkeit auf die Eigenschaft des Oberbodens abgestimmt.
+            Markierungen unter 30 cm Länge und Symbole werden mit 30 cm Länge abgerechnet.
+
+61.81 35A   Markierung erneuern Oberboden Holz                                                                            m
+            Noch sichtbare Markierung erneuern, Oberboden aus Holz.
+
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 612835A
+
+61.81 35B   Markierung erneuern Oberboden Linoleum                                                                        m
+            Noch sichtbare Markierung erneuern, Oberboden aus Linoleum.
+
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 612835B
+
+61.81 35C   Markierung erneuern Oberboden Kunststoff                                                                      m
+            Noch sichtbare Markierung erneuern, Oberboden aus Kunststoff.
+
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 612835C
+
+61.81 35D   Markierung erneuern Oberboden PUR                                                                             m
+            Noch sichtbare Markierung erneuern, Oberboden aus Polyurethan (PUR).
+
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 612835D
+
+61.81 35F   Markierung neu einmessen+aufbring.Holzoberb                                                                   m
+            Nicht sichtbare oder neuartige Markierung neu einmessen und dauerhaft markieren. Oberboden aus Holz.
+
+            LB-Version: 23              Geringfügig Geändert                      Vorherige Position: 612835F
+
+61.81 35G   Markierung neu einmessen+aufbr.Oberb.Linoleum                                                                 m
+                                                                                                                    Seite 40 / 43
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+            Nicht sichtbare oder neuartige Markierung neu einmessen und dauerhaft markieren. Oberboden aus Linoleum.
+
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 612835G
+
+61.81 35H   Markierung neu einmessen+aufbr.Kunststoff Oberbod.                                                             m
+            Nicht sichtbare oder neuartige Markierung neu einmessen und dauerhaft markieren. Oberboden aus Kunststoff.
+
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 612835H
+
+61.81 35I   Markierung neu einmessen+aufbr.PUR Oberbod.                                                                    m
+            Nicht sichtbare oder neuartige Markierung neu einmessen und dauerhaft markieren. Oberboden aus
+            Polyurethan (PUR).
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 612835I
+61.81 39    Demontage bei Arbeiten an Sportböden.
+
+61.81 39A   Demontage Turngeräte                                                                                           PA
+            Turn- und Sportgeräte demontieren und an einem vom AG zugewiesenen Ort im Baustellenbereich lagern.
+            Art der Geräte: ____________
+            Anzahl der Geräte: ____________
+
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 612840A
+
+61.81 39B   Demontage Sockelleisten                                                                                        m
+            Sockelleisten demontieren und an einem vom AG zugewiesenen Ort im Baustellenbereich lagern.
+
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 612840B
+61.81 40    Wiedermontage bei Arbeiten an Sportböden.
+
+61.81 40C   Wiedermontage Turngeräte                                                                                       PA
+            Turn- und Sportgeräte vom Lagerort innerhalb des Baustellenbereichs in die Sporthalle vertragen und dort
+            wieder montieren.
+            Das Beistellen neuer Befestigungsmaterialien (Dübel, Schrauben) sowie zugehöriger bodenmontierter
+            Kleinbeschläge (z.B. Schlussbleche) ist im Einheitspreis einkalkuliert.
+            Art der Geräte: ____________
+            Anzahl der Geräte: ____________
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 612840C
+
+61.81 40D   Wiedermontage Sockelleisten                                                                                    m
+            Sockelleisten vom Lagerort innerhalb des Baustellenbereichs in die Sporthalle vertragen und dort wieder
+            montieren.
+            Erforderliche Schrauben (aus nicht rostendem Material) in einem Abstand von höchstens 50 cm, Wanddübel
+            sowie Ecken und Kanten in Gehrung geschnitten sind in die Einheitspreise einkalkuliert.
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 612840D
+61.81 41    Aufzahlung (Az) auf Sockelleisten wiedermontieren, für das Ersetzen von schadhaften Sockelleisten durch
+            gleichartige.
+            Sockelleisten mit Lüftungsschlitzen und Dichtungslippe ausgeführt.
+            Das Entsorgen der Baurestmassen (das ersetzte Material) ist im Einheitspreis einkalkuliert.
+            Im Positionsstichwort sind die Abmessungen (mm) angegeben.
+
+61.81 41A   Az Ersetzen m.Sockelleisteiste Eiche 70x32/20mm                                                                m
+            Aus Eiche.
+
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 612841A
+
+61.81 41B   Az Ersetzen m.Sockelleisteiste Sperrholz 150x18mm                                                              m
+            Aus Sperrholz.
+
+            LB-Version: 23              Geringfügig Geändert                       Vorherige Position: 612841B
+
+61.81 41C   Az Ersetzen m.Sockelleisteiste Sperrholz 150x36mm                                                              m
+            Aus Sperrholz.
+
+                                                                                                                     Seite 41 / 43
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+            LB-Version: 23                 Geringfügig Geändert                       Vorherige Position: 612841C
+
+61.81 41X   Az Ersetzen m.Sockelleisteiste__________                                                                          m
+            Aus ____________
+
+            LB-Version: 23                 Geringfügig Geändert                       Vorherige Position: 612841X
+
+61.90       Regieleistungen
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+            LB-Version: 23                 Geändert
+61.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+61.90 00C   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+            LB-Version: 23
+61.90 01    Regiestunden.
+
+61.90 01A   Regiestunde Facharbeiter                                                                                          h
+            Facharbeiter.
+
+            LB-Version: 23
+
+61.90 01B   Regiestunde Hilfsarbeiter                                                                                         h
+            Hilfsarbeiten.
+
+            LB-Version: 23
+
+61.90 51    Materiallieferungen f.Regieleistungen                                                                             VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+                                                                                                                        Seite 42 / 43
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                   EH
+
+           unberücksichtigt.
+           Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+           Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+           eingesetzt.
+           1 VE = 1 EURO
+           Beispiel:
+           angebotener Prozentsatz: +12%
+           als Einheitspreis einzusetzen: 1,12
+           LB-Version: 23              Geringfügig Geändert
+
+
+
+
+                                                                                                                 Seite 43 / 43
+                                                                                            ib-data GmbH, Softwareentwicklung
+

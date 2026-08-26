@@ -1,0 +1,1861 @@
+{
+  "lg": "31",
+  "title": "Metallbauarbeiten",
+  "positions": [
+    {
+      "code": "31.00.00A",
+      "text": "Edelstahl korrosionsbeständiger Stahl V2A",
+      "unit": ""
+    },
+    {
+      "code": "31.00.00B",
+      "text": "Edelstahl korrosionsbeständiger Stahl V4A",
+      "unit": ""
+    },
+    {
+      "code": "31.00.00C",
+      "text": "Befestigungs-u.Verbindungsmittel V2A",
+      "unit": ""
+    },
+    {
+      "code": "31.00.00D",
+      "text": "Befestigungs-u.Verbindungsmittel V4A",
+      "unit": ""
+    },
+    {
+      "code": "31.00.00X",
+      "text": "Ergänzende Zeichnungen des AG",
+      "unit": ""
+    },
+    {
+      "code": "31.02.01A",
+      "text": "Stahl-Kellerfenster feuerverzinkt 1Fl 60x40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.02.01B",
+      "text": "Stahl-Kellerfenster feuerverzinkt 1Fl 80x50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.02.01C",
+      "text": "Stahl-Kellerfenster feuerverzinkt 1Fl 80x60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.02.02A",
+      "text": "Stahl-Kellerfenster feuerverzinkt 2Fl 80x50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.02.02B",
+      "text": "Stahl-Kellerfenster feuerverzinkt 2Fl 80x60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.02.02C",
+      "text": "Stahl-Kellerfenster feuerverzinkt 2Fl 100x50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.02.02D",
+      "text": "Stahl-Kellerfenster feuerverzinkt 2Fl 100x60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.02.02E",
+      "text": "Stahl-Kellerfenster feuerverzinkt 2Fl 100x80cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.02.11A",
+      "text": "Stahl-Kellerfenster feuerverzinkt m.LüM 1Fl",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.02.11B",
+      "text": "Stahl-Kellerfenster feuerverzinkt m.LüM 2Fl",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.02.42A",
+      "text": "Az Stahl-Kellerfenster feuerverzinkt f.Oberfläche",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.02.51A",
+      "text": "Fenstergitter aus Stahl feuerverzinkt b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.02.51B",
+      "text": "Fenstergitter aus Stahl feuerverzinkt ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.02.51C",
+      "text": "Fenstergitter aus Stahl feuerverzinkt ü.1-1,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.02.51D",
+      "text": "Fenstergitter aus Stahl feuerverzinkt ü.1,5-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.04.00A",
+      "text": "Oberfläche m.Schutzanstrich",
+      "unit": ""
+    },
+    {
+      "code": "31.04.00B",
+      "text": "Oberfläche feuerverzinkt",
+      "unit": ""
+    },
+    {
+      "code": "31.04.00C",
+      "text": "Oberfläche verzinkt+pulverbeschichtet",
+      "unit": ""
+    },
+    {
+      "code": "31.04.00D",
+      "text": "Oberfläche galvanisch verzinkt+pulverbeschichtet",
+      "unit": ""
+    },
+    {
+      "code": "31.04.00E",
+      "text": "Oberfläche pulverbeschichtet",
+      "unit": ""
+    },
+    {
+      "code": "31.04.00F",
+      "text": "Oberfläche Edelstahl",
+      "unit": ""
+    },
+    {
+      "code": "31.04.00G",
+      "text": "Oberfläche Edelstahl f.Handlauf",
+      "unit": ""
+    },
+    {
+      "code": "31.04.00M",
+      "text": "Liefern u.Montieren in 2 Arbeitsschritten",
+      "unit": ""
+    },
+    {
+      "code": "31.04.00N",
+      "text": "Liefern u.Montieren in 1 Arbeitsschritt",
+      "unit": ""
+    },
+    {
+      "code": "31.04.51A",
+      "text": "A-Stahlgeländer waagrecht Formrohr/Sprossen 0,5kN/m                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.51B",
+      "text": "A-Stahlgeländer waagrecht Formrohr/Sprossen 1kN/m                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.51C",
+      "text": "A-Stahlgeländer waagrecht Formrohr/Sprossen 3kN/m                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.52A",
+      "text": "A-Stahlgeländer steigend Formrohr/Sprossen 0,5kN/m                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.52B",
+      "text": "A-Stahlgeländer steigend Formrohr/Sprossen 1kN/m                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.52C",
+      "text": "A-Stahlgeländer steigend Formrohr/Sprossen 3kN/m                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.53A",
+      "text": "A-Stahlgeländer waagrecht Rahmen/Glasfüllung 0,5kN/m                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.53B",
+      "text": "A-Stahlgeländer waagrecht Rahmen/Glasfüllung 1kN/m                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.53C",
+      "text": "A-Stahlgeländer waagrecht Rahmen/Glasfüllung 3kN/m                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.53D",
+      "text": "A-Stahlgeländer waagrecht Stabilgitter 0,5kN/m                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.53E",
+      "text": "A-Stahlgeländer waagrecht Stabilgitter 1kN/m                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.53F",
+      "text": "A-Stahlgeländer waagrecht Stabilgitter 3kN/m                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.54A",
+      "text": "A-Stahlgeländer steigend Rahmen/Glasfüllung 0,5kN/m                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.54B",
+      "text": "A-Stahlgeländer steigend Rahmen/Glasfüllung 1kN/m                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.54C",
+      "text": "A-Stahlgeländer steigend Rahmen/Glasfüllung 3kN/m                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.54D",
+      "text": "A-Stahlgeländer steigend Stabilgitter 0,5kN/m                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.54E",
+      "text": "A-Stahlgeländer steigend Stabilgitter 1kN/m                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.54F",
+      "text": "A-Stahlgeländer steigend Stabilgitter 3kN/m                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.55A",
+      "text": "A-Stahlgeländer waagrecht Flachstahl/Sprossen 0,5kN/m                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.55B",
+      "text": "A-Stahlgeländer waagrecht Flachstahl/Sprossen 1kN/m                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.55C",
+      "text": "A-Stahlgeländer waagrecht Flachstahl/Sprossen 3kN/m                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.56A",
+      "text": "A-Stahlgeländer steigend Flachstahl/Sprossen 0,5kN/m                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.56B",
+      "text": "A-Stahlgeländer steigend Flachstahl/Sprossen 1kN/m                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.56C",
+      "text": "A-Stahlgeländer steigend Flachstahl/Sprossen 3kN/m                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.67A",
+      "text": "I-Stahlgeländer waagrecht Formrohr/Sprossen 0,5kN/m                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.67B",
+      "text": "I-Stahlgeländer waagrecht Formrohr/Sprossen 1kN/m                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.67C",
+      "text": "I-Stahlgeländer waagrecht Formrohr/Sprossen 3kN/m                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.68A",
+      "text": "I-Stahlgeländer steigend Formrohr/Sprossen 0,5kN/m                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.68B",
+      "text": "I-Stahlgeländer steigend Formrohr/Sprossen 1kN/m                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.68C",
+      "text": "I-Stahlgeländer steigend Formrohr/Sprossen 3kN/m                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.69A",
+      "text": "I-Stahlgeländer waagrecht Rahmen/Glasfüllung 0,5kN/m                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.69B",
+      "text": "I-Stahlgeländer waagrecht Rahmen/Glasfüllung 1kN/m                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.69C",
+      "text": "I-Stahlgeländer waagrecht Rahmen/Glasfüllung 3kN/m                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.69D",
+      "text": "I-Stahlgeländer waagrecht Stabilgitter 0,5kN/m                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.69E",
+      "text": "I-Stahlgeländer waagrecht Stabilgitter 1kN/m                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.69F",
+      "text": "I-Stahlgeländer waagrecht Stabilgitter 3kN/m                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.70A",
+      "text": "I-Stahlgeländer steigend Rahmen/Glasfüllung 0,5kN/m                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.70B",
+      "text": "I-Stahlgeländer steigend Rahmen/Glasfüllung 1kN/m                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.70C",
+      "text": "I-Stahlgeländer steigend Rahmen/Glasfüllung 3kN/m                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.70D",
+      "text": "I-Stahlgeländer steigend Stabilgitter 0,5kN/m                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.70E",
+      "text": "I-Stahlgeländer steigend Stabilgitter 1kN/m                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.70F",
+      "text": "I-Stahlgeländer steigend Stabilgitter 3kN/m                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.71A",
+      "text": "Az Stahlgeländer f.seitliche Befestigungen",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.04.80C",
+      "text": "A-Handlauf+Stützen m.Rohr                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.80D",
+      "text": "A-Handlauf+Stützen m.Rundstahl                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.81A",
+      "text": "I-Handlauf+Stützen m.Flachstahl 30/8mm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.81B",
+      "text": "I-Handlauf+Stützen m.Flachstahl 40/8mm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.81C",
+      "text": "I-Handlauf+Stützen m.Rohr                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.81D",
+      "text": "I-Handlauf+Stützen m.Rundstahl                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "31.04.95A",
+      "text": "Fenstergitter/Absturzsicherung b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.04.95B",
+      "text": "Fenstergitter/Absturzsicherung ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.04.95C",
+      "text": "Fenstergitter/Absturzsicherung ü.1-1,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.04.95D",
+      "text": "Fenstergitter/Absturzsicherung ü.1,5-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.01A",
+      "text": "Stahltreppe feuerverzinkt Gitterrost 700mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.01B",
+      "text": "Stahltreppe feuerverzinkt Gitterrost 800mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.01C",
+      "text": "Stahltreppe feuerverzinkt Gitterrost 900mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.01D",
+      "text": "Stahltreppe feuerverzinkt Gitterrost 1000mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.01E",
+      "text": "Stahltreppe feuerverzinkt Gitterrost 1200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.02A",
+      "text": "Leiter feuerverzinkte ortsfest 2-2,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.02B",
+      "text": "Leiter feuerverzinkte ortsfest ü.2,5-3m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.02C",
+      "text": "Leiter feuerverzinkte ortsfest ü.3-3,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.02D",
+      "text": "Leiter feuerverzinkte ortsfest ü.3,5-4m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.02X",
+      "text": "Leiter feuerverzinkte Leiter ortsfest__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.03A",
+      "text": "Az Leiter feuerverzinkt ortsfest f.verlängerte Holme",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.04A",
+      "text": "Schutzkorb f.Leiter                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "31.06.05A",
+      "text": "Absperrbare Klappe f.Leiter",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.05B",
+      "text": "Sicherheitsplatte ohne Fallschutz f.Leiter",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.05C",
+      "text": "Sicherheitsplatte mit Fallschutz f.Leiter",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.05D",
+      "text": "Leiterverlängerung f.Leiter",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.07A",
+      "text": "Stahltreppe mit aufgesetzten Stufen",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.07B",
+      "text": "Stahltreppe mit aufgesetzten Stufen+Wangen",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.07C",
+      "text": "Stahltreppe mit Podest",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.07D",
+      "text": "Unterkonstruktion f.Stahltreppe",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.11A",
+      "text": "Podest f.Stahltreppe Gitterrost",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.19A",
+      "text": "Laufsteg+Rost feuerverzinkt Flachdach__________                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "31.06.20A",
+      "text": "Laufsteg+Rost feuerverzinkt b.30°                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "31.06.20B",
+      "text": "Laufsteg+Rost feuerverzinkt ü.30-45°                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "31.06.20C",
+      "text": "Laufsteg+Rost feuerverzinkt ü.45°                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "31.06.21A",
+      "text": "Az Laufsteg feuerverzinkt f.Geländer                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "31.06.21B",
+      "text": "Az Laufsteg feuerverzinkt f.3.Durchzug Rundstahl                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "31.06.23A",
+      "text": "Eingebaute Stufen+Gitterrost f.Laufsteg feuerverzinkt",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.28A",
+      "text": "Winkelrahmen f.Gitterrost feuerverzinkt liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.28B",
+      "text": "Winkelrahmen f.Gitterrost (Sonderform) feuerverzinkt liefern",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.30A",
+      "text": "Gitterrost feuerverzinkt 15kN 30x10mm Tragst.b.500mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.30B",
+      "text": "Gitterrost feuerverzinkt 15kN 30x10mm Tragst.ü.500-800mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.30C",
+      "text": "Gitterrost feuerverzinkt 15kN 30x10mm Tragst.ü.800-1000mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.30D",
+      "text": "Gitterrost feuerverzinkt 15kN 30x10mm Tragst.ü.1000-1200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.30X",
+      "text": "Gitterrost feuerverzinkt 15kN 30x10mm Tragst.__________",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.31A",
+      "text": "Gitterrost feuerverzinkt 15kN 30x30mm Tragst.b.500mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.31B",
+      "text": "Gitterrost feuerverzinkt 15kN 30x30mm Tragst.ü.500-800mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.31C",
+      "text": "Gitterrost feuerverzinkt 15kN 30x30mm Tragst.ü.800-1000mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.31D",
+      "text": "Gitterrost feuerverzinkt 15kN 30x30mm Tragst.ü.1000-1200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.31X",
+      "text": "Gitterrost feuerverzinkt 15kN 30x30mm Tragst.__________",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.32A",
+      "text": "Gitterrost feuerverzinkt 125kN 30x30mm Tragst.b.500mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.32B",
+      "text": "Gitterrost feuerverzinkt 125kN 30x30mm Tragst.ü.500-800mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.32C",
+      "text": "Gitterrost feuerverzinkt 125kN 30x30mm Tragst.ü.800-1000mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.32D",
+      "text": "Gitterrost feuerverzinkt 125kN 30x30mm Tragst.ü.1000-1200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.32X",
+      "text": "Gitterrost feuerverzinkt 125kN 30x30mm Tragst.__________",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.33A",
+      "text": "Gitterrost feuerverzinkt 250kN 30x30mm Tragst.b.500mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.33B",
+      "text": "Gitterrost feuerverzinkt 250kN 30x30mm Tragst.ü.500-800mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.33C",
+      "text": "Gitterrost feuerverzinkt 250kN 30x30mm Tragst.ü.800-1000mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.33D",
+      "text": "Gitterrost feuerverzinkt 250kN 30x30mm Tragst.ü.1000-1200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.33X",
+      "text": "Gitterrost feuerverzinkt 250kN 30x30mm Tragst.__________",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.34A",
+      "text": "Gitterrost feuerverzinkt 400kN 30x30mm Tragst.b.500mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.34B",
+      "text": "Gitterrost feuerverzinkt 400kN 30x30mm Tragst.ü.500-800",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.34C",
+      "text": "Gitterrost feuerverzinkt 400kN 30x30mm Tragst.ü.800-1000",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.34D",
+      "text": "Gitterrost feuerverzinkt 400kN 30x30mm Tragst.ü.1000-1200",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.34X",
+      "text": "Gitterrost feuerverzinkt 400kN 30x30mm Tragst.__________",
+      "unit": "m²"
+    },
+    {
+      "code": "31.06.35A",
+      "text": "Gitterrost feuerverzinkt in Sonderform",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.42A",
+      "text": "Az Gitterrost feuerverzinkt f.Sicherung gegen Herausheben",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.42B",
+      "text": "Az Gitterrost feuerverzinkt f.Klammern feuerverzinkt",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.42D",
+      "text": "Az Gitterrost feuerverzinkt f.Ausschnitt",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.44A",
+      "text": "Rinnenabdeckung Prägeblech feuerverzinkt 125kN/m2 b.300mm                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "31.06.44B",
+      "text": "Rinnenabdeckung Prägeblech feuerverzinkt 250kN/m2 b.300mm                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "31.06.44C",
+      "text": "Rinnenabdeckung Prägeblech feuerverzinkt 400kN/m2 b.300mm                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "31.06.45D",
+      "text": "Rinnenabdeckung Prägeblech feuerverzinkt in Sonderform                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "31.06.46A",
+      "text": "Schachtabdeckung Prägeblech feuerverzinkt 125kN/m2 400x600mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.46B",
+      "text": "Schachtabdeckung Prägeblech feuerverzinkt 125kN/m2 600x600mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.46C",
+      "text": "Schachtabdeckung Prägeblech feuerverzinkt 250kN/m2 400x600mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.46D",
+      "text": "Schachtabdeckung Prägeblech feuerverzinkt 250kN/m2 600x600mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.46E",
+      "text": "Schachtabdeckung Prägeblech feuerverzinkt 400kN/m2 400x600mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.46F",
+      "text": "Schachtabdeckung Prägeblech feuerverzinkt 400kN/m2 600x600mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.48A",
+      "text": "Schachtabdeckung Prägeblech feuerverzinkt 125kN/m2 600mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.49A",
+      "text": "Schachtabdeckung Prägeblech feuerverzinkt in Sonderform",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.50A",
+      "text": "Az Schacht-/Rinnenabdeckung feuerv.f.Abdeckung klappbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.50B",
+      "text": "Az Schacht-/Rinnenabdeckung feuerv.f.Zungenverschluss",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.50C",
+      "text": "Az Schacht-/Rinnenabdeckung feuerv.f.Randaussparung",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.50D",
+      "text": "Az Schacht-/Rinnenabdeckung feuerv.f.Aussparung Deckel",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.51A",
+      "text": "Steckschlüssel f.Zungenverschluss",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.06.51B",
+      "text": "Hakengriff f.Anheben Deckel",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.10.01A",
+      "text": "Glasvordach bei WDVS auskragend b.1,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.10.01B",
+      "text": "Glasvordach bei WDVS auskragend ü.1,5-3m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.10.04A",
+      "text": "Rohrtresor mit Einbauhülse",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.30.01A",
+      "text": "St-Systemtrennwand verzinkt blickdicht",
+      "unit": "m²"
+    },
+    {
+      "code": "31.30.01B",
+      "text": "St-Systemtrennwand verzinkt Profilabstand b.50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "31.30.02A",
+      "text": "Az St-Systemtrennwand verzinkt f.Drehtüre",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.30.02B",
+      "text": "Az St-Systemtrennwand verzinkt f.Ausschnitt b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.30.02C",
+      "text": "Az St-Systemtrennwand verzinkt f.Gewölbeanpassung                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.01A",
+      "text": "Zaun Gittergeflecht feuerv.1m                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.01B",
+      "text": "Zaun Gittergeflecht feuerv.1,25m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.01C",
+      "text": "Zaun Gittergeflecht feuerv.1,5m                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.01D",
+      "text": "Zaun Gittergeflecht feuerv.1,75m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.01E",
+      "text": "Zaun Gittergeflecht feuerv.2m                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.02A",
+      "text": "Az Zaun Gittergeflecht feuerv.1m f.Eckst.",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.02B",
+      "text": "Az Zaun Gittergeflecht feuerv.1,25m f.Eckst.",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.02C",
+      "text": "Az Zaun Gittergeflecht feuerv.1,5m f.Eckst.",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.02D",
+      "text": "Az Zaun Gittergeflecht feuerv.1,75m f.Eckst.",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.02E",
+      "text": "Az Zaun Gittergeflecht feuerv.2m f.Eckst.",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.03A",
+      "text": "Az Zaun Gittergeflecht feuerv.1m f.Endst.",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.03B",
+      "text": "Az Zaun Gittergeflecht feuerv.1,25m f.Endst.",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.03C",
+      "text": "Az Zaun Gittergeflecht feuerv.1,5m f.Endst.",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.03D",
+      "text": "Az Zaun Gittergeflecht feuerv.1,75m f.Endst.",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.03E",
+      "text": "Az Zaun Gittergeflecht feuerv.2m f.Endst.",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.05A",
+      "text": "Tür f.Gittergeflecht feuerv. b.1,2m/1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.05B",
+      "text": "Tür f.Gittergeflecht feuerv.b.1,2m/1,25m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.05C",
+      "text": "Tür f.Gittergeflecht feuerv.b.1,2m/1,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.05D",
+      "text": "Tür f.Gittergeflecht feuerv. b.1,2m/2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.06D",
+      "text": "Tor f.Gittergeflecht feuerv.2Fl.b.3m/2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.11A",
+      "text": "Zaun Gittergeflecht feuerv.+beschichtet/grün 1m                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.11B",
+      "text": "Zaun Gittergeflecht feuerv.+beschichtet/grün 1,25m                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.11C",
+      "text": "Zaun Gittergeflecht feuerv.+beschichtet/grün 1,5m                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.11D",
+      "text": "Zaun Gittergeflecht feuerv.+beschichtet/grün 1,75m                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.11E",
+      "text": "Zaun Gittergeflecht feuerv.+beschichtet/grün 2m                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.12A",
+      "text": "Az Zaun Gittergeflecht feuerv.+besch./grün 1m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.12B",
+      "text": "Az Zaun Gittergeflecht feuerv.+besch./grün 1,25m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.12C",
+      "text": "Az Zaun Gittergeflecht feuerv.+besch./grün 1,5m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.12D",
+      "text": "Az Zaun Gittergeflecht feuerv.+besch./grün 1,75m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.12E",
+      "text": "Az Zaun Gittergeflecht feuerv.+besch./grün 2m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.13A",
+      "text": "Az Zaun Gittergeflecht feuerv.+besch./grün 1m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.13B",
+      "text": "Az Zaun Gittergeflecht feuerv.+besch./grün 1,25m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.13C",
+      "text": "Az Zaun Gittergeflecht feuerv.+besch./grün 1,5m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.13D",
+      "text": "Az Zaun Gittergeflecht feuerv.+besch./grün 1,75m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.13E",
+      "text": "Az Zaun Gittergeflecht feuerv.+besch./grün 2m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.15A",
+      "text": "Tür f.Gittergeflecht feuerverz.+beschichtet/grün b.1,2m/1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.15B",
+      "text": "Tür f.Gittergeflecht feuerverz+beschichtet/grün b.1,2m/1,25m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.15C",
+      "text": "Tür f.Gittergeflecht feuerverz.+beschichtet/grün b.1,2m/1,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.15D",
+      "text": "Tür f.Gittergeflecht feuerverz.+beschichtet/grün b.1,2m/2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.16D",
+      "text": "Tor f.Gittergeflecht feuerverz.+beschichtet/grün 2Fl.b.3m/2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.31A",
+      "text": "Zaun Gittergeflecht feuerv.+Kunststoff/grün 1m                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.31B",
+      "text": "Zaun Gittergeflecht feuerv.+Kunststoff/grün 1,25m                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.31C",
+      "text": "Zaun Gittergeflecht feuerv.+Kunststoff/grün 1,5m                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.31D",
+      "text": "Zaun Gittergeflecht feuerv.+Kunststoff/grün 1,75m                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.31E",
+      "text": "Zaun Gittergeflecht feuerv.+Kunststoff/grün 2m                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.32A",
+      "text": "Az Zaun Gittergeflecht feuerv.+Kunsts./grün 1m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.32B",
+      "text": "Az Zaun Gittergeflecht feuerv.+Kunsts./grün1,25m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.32C",
+      "text": "Az Zaun Gittergeflecht feuerv.+Kunsts./grün 1,5m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.32D",
+      "text": "Az Zaun Gittergeflecht feuerv.+Kunsts./grün1,75m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.32E",
+      "text": "Az Zaun Gittergeflecht feuerv.+Kunsts./grün 2m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.33A",
+      "text": "Az Zaun Gittergeflecht feuerv.+Kunsts./grün 1m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.33B",
+      "text": "Az Zaun Gittergeflecht feuerv.+Kunsts./grün1,25m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.33C",
+      "text": "Az Zaun Gittergeflecht feuerv.+Kunsts./grün 1,5m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.33D",
+      "text": "Az Zaun Gittergeflecht feuerv.+Kunsts./grün1,75m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.33E",
+      "text": "Az Zaun Gittergeflecht feuerv.+Kunsts./grün 2m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.35A",
+      "text": "Tür f.Gittergeflecht feuerverz.+Kunststoff/grün b.1,2m/1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.35B",
+      "text": "Tür f.Gittergeflecht feuerverz.+Kunststoff/grün b.1,2m/1,25m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.35C",
+      "text": "Tür f.Gittergeflecht feuerverz.+Kunststoff/grün b.1,2m/1,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.35D",
+      "text": "Tür f.Gittergeflecht feuerverz.+Kunststoff/grün b.1,2m/2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.36D",
+      "text": "Tor f.Gittergeflecht feuerverz.+Kunststoff/grün 2Fl.b.3m/2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.51A",
+      "text": "Az Zaun Gittergeflecht feuerv.f.Neigung ü.10-20Grad                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.51B",
+      "text": "Az Zaun Gittergeflecht feuerv.f.Neigung ü.20-30Grad                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.51C",
+      "text": "Az Zaun Gittergeflecht feuerv. f.Neigung ü.30-40Grad                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.53A",
+      "text": "Aushub/Fundament f.Zaun Gittergeflecht f.Zwischensäule b.2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.53B",
+      "text": "Aushub/Fundament f.Zaun Gittergeflecht f.Endsäule b.2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.53C",
+      "text": "Aushub/Fundament f.Zaun Gittergeflecht f.Ecksäule b.2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.53D",
+      "text": "Aushub/Fundament f.Zaun Gittergeflecht f.Türsäule b.2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.31.55A",
+      "text": "Az Zaun Gittergeflecht feuerv.b.2m hoch f.Planen                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "31.31.67A",
+      "text": "Az Zaun Gittergeflecht feuerv.f.Stein b.5cm bohren                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.01A",
+      "text": "Zaun D-Stabmatte feuerv.30x200 1m                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.01B",
+      "text": "Zaun D-Stabmatte feuerv.30x200 1,25m                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.01C",
+      "text": "Zaun D-Stabmatte feuerv.30x200 1,5m                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.01D",
+      "text": "Zaun D-Stabmatte feuerv.30x200 1,75m                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.01E",
+      "text": "Zaun D-Stabmatte feuerv.30x200 2m                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.02A",
+      "text": "Zaun D-Stabmatte feuerv.50x200 1m                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.02B",
+      "text": "Zaun D-Stabmatte feuerv.50x200 1,25m                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.02C",
+      "text": "Zaun D-Stabmatte feuerv.50x200 1,5m                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.02D",
+      "text": "Zaun D-Stabmatte feuerv.50x200 1,75m                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.02E",
+      "text": "Zaun D-Stabmatte feuerv.50x200 2m                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.03A",
+      "text": "Zaun D-Stabmatte feuerv.100x200 1m                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.03B",
+      "text": "Zaun D-Stabmatte feuerv.100x200 1,25m                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.03C",
+      "text": "Zaun D-Stabmatte feuerv.100x200 1,5m                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.03D",
+      "text": "Zaun D-Stabmatte feuerv.100x200 1,75m                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.03E",
+      "text": "Zaun D-Stabmatte feuerv.100x200 2m                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.04A",
+      "text": "Zaun D-Stabmatte feuerv.1m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.04B",
+      "text": "Zaun D-Stabmatte feuerv.1,25m                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.04C",
+      "text": "Zaun D-Stabmatte feuerv.1,5m                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.04D",
+      "text": "Zaun D-Stabmatte feuerv.1,75m                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.04E",
+      "text": "Zaun D-Stabmatte feuerv.2m                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.11A",
+      "text": "Az Zaun D-Stabmatte feuerv.1m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.11B",
+      "text": "Az Zaun D-Stabmatte feuerv.1,25m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.11C",
+      "text": "Az Zaun D-Stabmatte feuerv.1,5m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.11D",
+      "text": "Az Zaun D-Stabmatte feuerv.1,75m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.11E",
+      "text": "Az Zaun D-Stabmatte feuerv.2m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.13A",
+      "text": "Az Zaun D-Stabmatte feuerv.1m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.13B",
+      "text": "Az Zaun D-Stabmatte feuerv.1,25m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.13C",
+      "text": "Az Zaun D-Stabmatte feuerv.1,5m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.13D",
+      "text": "Az Zaun D-Stabmatte feuerv.1,75m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.13E",
+      "text": "Az Zaun D-Stabmatte feuerv.2m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.15A",
+      "text": "Tür f.D-Stabmatte feuerv.b.1,2m/1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.15B",
+      "text": "Tür f.D-Stabmatte feuerv.b.1,2m/1,25m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.15C",
+      "text": "Tür f.D-Stabmatte feuerv.b.1,2m/1,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.15D",
+      "text": "Tür f.D-Stabmatte feuerv.b.1,2m/2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.16A",
+      "text": "Tor f.D-Stabmatte feuerv.2Fl.b.3m/2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.21A",
+      "text": "Zaun D-Stabmatten feuerv.+beschichtet 1m                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.21B",
+      "text": "Zaun D-Stabmatten feuerv.+beschichtet 1,25m                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.21C",
+      "text": "Zaun D-Stabmatten feuerv.+beschichtet 1,5m                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.21D",
+      "text": "Zaun D-Stabmatten feuerv.+beschichtet 1,75m                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.21E",
+      "text": "Zaun D-Stabmatten feuerv.+beschichtet 2m                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.22A",
+      "text": "Az Zaun D-Stabmatten feuerv.+beschichtet 1m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.22B",
+      "text": "Az Zaun D-Stabmatten feuerv.+beschichtet 1,25m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.22C",
+      "text": "Az Zaun D-Stabmatten feuerv.+beschichtet 1,5m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.22D",
+      "text": "Az Zaun D-Stabmatten feuerv.+beschichtet 1,75m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.22E",
+      "text": "Az Zaun D-Stabmatten feuerv.+beschichtet 2m f.Ecksteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.23A",
+      "text": "Az Zaun D-Stabmatten feuerv.+beschichtet 1m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.23B",
+      "text": "Az Zaun D-Stabmatten feuerv.+beschichtet 1,25m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.23C",
+      "text": "Az Zaun D-Stabmatten feuerv.+beschichtet 1,5m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.23D",
+      "text": "Az Zaun D-Stabmatten feuerv.+beschichtet 1,75m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.23E",
+      "text": "Az Zaun D-Stabmatten feuerv.+beschichtet 2m f.Endsteher",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.25A",
+      "text": "Tür f.D-Stabmatte feuerverzinkt+beschichtet b.1,2m/1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.25B",
+      "text": "Tür f.D-Stabmatte feuerverzinkt+beschichtet b.1,2m/1,25m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.25C",
+      "text": "Tür f.D-Stabmatte feuerverzinkt+beschichtet b.1,2m/1,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.25D",
+      "text": "Tür f.D-Stabmatte feuerverzinkt+beschichtet b.1,2m/2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.26D",
+      "text": "Tor f.D-Stabmatte feuerverzinkt+beschichtet 2Fl.b.3m/2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.51A",
+      "text": "Az Zaun D-Stabmatte feuerv.f.Neigung ü.10-20Grad                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.51B",
+      "text": "Az Zaun D-Stabmatte feuerv.f.Neigung ü.20-30Grad                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.51C",
+      "text": "Az Zaun D-Stabmatte feuerv.f.Neigung ü.30-40Grad                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.53A",
+      "text": "Aushub/Fundament f.Zaun D-Stabmatte f.Zwischensäule b.2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.53B",
+      "text": "Aushub/Fundament f.D-Stabmatte feuerv.f.Endsäule b.2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.53C",
+      "text": "Aushub/Fundament f.D-Stabmatte feuerv.f.Ecksäule b.2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.53D",
+      "text": "Aushub/Fundament f.D-Stabmatte feuerv.f.Türsäule b.2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.32.55A",
+      "text": "Az Zaun D-Stabmatte feuerv.b.2m hoch f.Planen                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "31.32.67A",
+      "text": "Az Zaun D-Stabmatte feuerv.f.Stein bohren                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "31.41.01A",
+      "text": "Einzelsperrender Halbzylinder b.42mm Länge",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.41.01B",
+      "text": "Einzelsperrender Halbzylinder b.47mm Länge",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.41.01C",
+      "text": "Einzelsperrender Halbzylinder b.52mm Länge",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.41.02A",
+      "text": "Einzelsperrender Doppelzylinder b.67mm Länge",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.41.02B",
+      "text": "Einzelsperrender Doppelzylinder b.72mm Länge",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.41.02C",
+      "text": "Einzelsperrender Doppelzylinder b.77mm Länge",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.41.02D",
+      "text": "Einzelsperrender Doppelzylinder b.82mm Länge",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.41.02E",
+      "text": "Einzelsperrender Doppelzylinder b.87mm Länge",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.41.02F",
+      "text": "Einzelsperrender Doppelzylinder b.92mm Länge",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.41.02G",
+      "text": "Einzelsperrender Doppelzylinder b.97mm Länge",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.41.03A",
+      "text": "Einzelsperrender Blechmontagezylinder DN 23mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.41.03B",
+      "text": "Einzelsperrender Blechmontagezylinder DN 29mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.41.04A",
+      "text": "Einzelsperrender Außenzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.41.05A",
+      "text": "Einzelsperrender Aufzugzylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.41.11A",
+      "text": "Zusatzschlüsself.einzelsperrenden Zylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.01A",
+      "text": "Brieffach C4 tief",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.01B",
+      "text": "Brieffach C4 quer",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.01C",
+      "text": "Brieffach C4 lotrecht",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.01D",
+      "text": "Brieffach C4",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.02A",
+      "text": "Sonderelement Blindfach",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.02B",
+      "text": "Sonderelement Beschriftungsschild",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.02C",
+      "text": "Sonderelement Gegensprechanlage",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.02X",
+      "text": "Sonderelement",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.03A",
+      "text": "Innen-Hausbrieffachanlage Wand f.Brieffächer C4 tief",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.03B",
+      "text": "Innen-Hausbrieffachanlage Wand f.Brieffächer C4 quer",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.03C",
+      "text": "Innen-Hausbrieffachanlage Wand f.Brieffächer C4 lotrecht",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.03D",
+      "text": "Innen-Hausbrieffachanlage Wand C4",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.06A",
+      "text": "Außen-Hausbrieffachanlage freist.f.Briefkasten C4 tief",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.06B",
+      "text": "Außen-Hausbrieffachanlage freist.f.Briefkasten C4 quer",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.06C",
+      "text": "Außen-Hausbrieffachanlage freist.f.Briefkasten C4 lotrecht",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.06D",
+      "text": "Außen-Hausbrieffachanlage freist.C4",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.07A",
+      "text": "Az Brieffächer C4 f.Urlaubsreserve",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.42.07B",
+      "text": "Az Brieffächer C4 f.Wendekarte",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.43.01A",
+      "text": "Fahnenmast rund Stahl feuerverzinkt",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.43.04A",
+      "text": "Rundrohrrahmen feuerverzinkt f.Tafel b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.43.04B",
+      "text": "Rundrohrrahmen feuerverzinkt f.Tafel ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.43.04X",
+      "text": "Rundrohrrahmen feuerverzinkt f.Tafel__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.43.40A",
+      "text": "Fensterputzsicherung Verankerung in Beton",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.43.40B",
+      "text": "Fensterputzsicherung Verankerung",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.43.63A",
+      "text": "Schlüsselkasten Stahlblech+Z.f.30 Schlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.43.63B",
+      "text": "Schlüsselkasten Stahlblech+Z.f.50 Schlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.43.63C",
+      "text": "Schlüsselkasten Stahlblech+Z.f.100 Schlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.43.63D",
+      "text": "Schlüsselkasten Stahlblech+Z.f.200 Schlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.43.63E",
+      "text": "Schlüsselkasten Stahlblech+Z.f.300 Schlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.34A",
+      "text": "Bodentürpuffer",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.34B",
+      "text": "Wandtürpuffer",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.35A",
+      "text": "Türgucker Kunststoff D 30mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.35B",
+      "text": "Türgucker Kunststoff D 15mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.35C",
+      "text": "Türgucker Messing verchromt 180Gr.D15",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.35D",
+      "text": "Türgucker+Schild Alu-Silber/eloxiert",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.36A",
+      "text": "Briefeinwurf",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.38A",
+      "text": "Sicherheits-Türkette",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.38B",
+      "text": "Sicherheits-Türsperre",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.38C",
+      "text": "Sicherheit-Zusatzschloss+Schlüssel",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.51A",
+      "text": "Lüftungsjalousie",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.51B",
+      "text": "Lüftungsjalousie verstellbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.51C",
+      "text": "Lüftungsjalousie f.Abschluss Lüftungsschacht",
+      "unit": "m²"
+    },
+    {
+      "code": "31.46.53A",
+      "text": "Lüftungsgitter",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.53B",
+      "text": "Schachtabdeckung",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.53C",
+      "text": "Schachtabdeckung öffenbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.53D",
+      "text": "Hahntürchen",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.53E",
+      "text": "Steigeisen",
+      "unit": "m²"
+    },
+    {
+      "code": "31.46.61A",
+      "text": "Notschlüsselkasten+Zylinder",
+      "unit": "Stk"
+    },
+    {
+      "code": "31.46.65A",
+      "text": "St-Winkel feuerv.b.2kg liefern",
+      "unit": "kg"
+    },
+    {
+      "code": "31.46.65B",
+      "text": "St-Winkel feuerv.ü.2-5kg liefern",
+      "unit": "kg"
+    },
+    {
+      "code": "31.46.65C",
+      "text": "St-Winkel feuerv.liefern__________",
+      "unit": "kg"
+    },
+    {
+      "code": "31.90.00A",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "31.90.01A",
+      "text": "Regiestunde Vorarbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "31.90.01B",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "31.90.01C",
+      "text": "Regiestunde Schweißer",
+      "unit": "h"
+    },
+    {
+      "code": "31.90.01D",
+      "text": "Regiestunde Schweiß-Aufsicht",
+      "unit": "h"
+    }
+  ]
+}

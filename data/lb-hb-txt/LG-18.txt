@@ -1,0 +1,319 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                      Leistungsgruppe (LG) 18 - Winterbauarbeiten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 1800    Wählbare Vorbemerkungen
+                     ULG 1811    Winterbaumaßnahmen, Rohbau
+                     ULG 1812    Öffnungen verschließen
+                     ULG 1813    Heizen (nach Heizleistung)
+                     ULG 1814    Heizen (nach Rauminhalt)
+                     ULG 1815    Entfeuchten
+
+
+
+
+                                                                                                            Seite 1 / 6
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+18          Winterbauarbeiten
+            Version 022 (2021-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen.
+            1. Allgemeines:
+            Zum Aufrechterhalten der Bautätigkeit während der Wintermonate, werden alle Maßnahmen getroffen, die für
+            eine technisch einwandfreie Durchführung der Baumeister- und Professionistenarbeiten erforderlich sind.
+            2. Arbeitsplan:
+            Ein Arbeitsplan für die Winterbauarbeiten wird zeitgerecht ausgearbeitet, einvernehmlich mit dem Auftraggeber
+            abgesprochen und schriftlich festgelegt.
+            3. Beheizen:
+            Die Kosten für das Beheizen der Aufenthaltsräume und sanitären Anlagen sind in die Baustellen-Gemeinkosten
+            einkalkuliert.
+            4. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - Mehraufwendungen und verringerte Produktivität während der Winterperiode
+             Kommentar:
+             Angeordnetes Schneeschaufeln wird nach tatsächlichem Aufwand verrechnet.
+
+            LB-Version: 23                Geringfügig Geändert
+
+18.00       Wählbare Vorbemerkungen
+18.00 01    Beginn des Winterbetriebes.
+
+18.00 01A   Beginn des Winterbetriebes
+            Alle für den Winterbetrieb geforderten vorbereitenden Maßnahmen fertiggestellt,
+            bis: ____________
+
+18.11       Winterbaumaßnahmen, Rohbau
+
+
+            1. Herstellen (Leistungsumfang):
+            Die Leistung (Herstellen) umfasst das Aufbauen eines gebrauchsfähigen Zustandes einschließlich
+            Antransportieren, Aufstellen und Montieren sowie das Abbauen, Demontieren und Abtransportieren.
+            Die Teilleistung des Aufbauens eines gebrauchsfertigen Zustandes wird mit 70 Prozent, die Teilleistung des
+            Abbauens mit 30 Prozent der Gesamtleistung bewertet.
+            2. Vorhalten:
+            Das Vorhalten umfasst auch alle Prüfungen, Instandhaltungsmaßnahmen, etwaiges Verbrauchsmaterial und die
+            erforderliche Reinigung.
+            Abgerechnet wird in Verrechnungseinheiten, ermittelt aus dem Ausmaß x der Anzahl der Wochen. Wochen sind
+            teilbar, wobei 1 Kalendertag gleich 1/7 Woche ist.
+            LB-Version: 23                Geringfügig Geändert
+18.11 01    Zusätzliche Baustelleneinrichtung während des Winterbetriebes (An- und Abtransport, Auf- und Abbauen aller
+            zusätzlichen Betriebseinrichtungen und Geräte), insbesondere für den Schutz von Mischanlagen und
+            Baustoffen, durch Herstellen von Flugdächern und Verschalungen, die Einrichtungen zum Erwärmen der
+            Baustoffe und des Wassers, ferner alle für die Einrichtung als Winterbaustelle zusätzlich erforderlichen
+            Maßnahmen einschließlich des erforderlichen Materials.
+
+18.11 01A   Winterbaueinrichtung +5/-10 Grad herstellen                                                                  PA
+            Winterbaueinrichtung herstellen (auf- und abbauen). Die Baustelleneinrichtung ist so bemessen, dass die
+            Arbeiten bis zu einer Außentemperatur von plus 5 bis minus 10 Grad Celsius durchgeführt werden können.
+
+18.11 01B   Winterbaueinrichtung +5/-10 Grad vorhalten                                                                   Wo
+            Vorhalten der Winterbaueinrichtungen.
+            Die Baustelleneinrichtung ist so bemessen, dass die Arbeiten bis zu einer Außentemperatur von plus 5 bis
+            minus 10 Grad Celsius durchgeführt werden können. Der Beginn und das Ende des Winterbetriebes wird im
+            Einvernehmen mit dem Auftraggeber festgelegt.
+
+                                                                                                                     Seite 2 / 6
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+18.11 02    Aufzahlung (Az) für den Betrieb der zusätzlichen Winterbaueinrichtungen. Die Leistung beinhaltet das Wärmen
+            des Wassers, falls erforderlich von Baustoffen und Zuschlägen sowie das Enteisen und Vorwärmen von
+            Anschlussflächen, Schalungen und Bewehrungen einschließlich aller Heizkosten. Die Einbringtemperatur des
+            Betons muss den Werten gemäß ÖNORM entsprechen. Einzukalkulieren sind auch alle Vorkehrungen zum
+            Schutz der Bauteile gegen Abkühlung, wie Abdecken, Umhüllen und, falls erforderlich, das Warmhalten durch
+            Heizen, einschließlich aller Heizkosten und die Mehrkosten für das etwaige Verwenden eines höherwertigen
+            Zements. Maßgeblich ist die Außentemperatur morgens bei Arbeitsbeginn.
+
+18.11 02A   Az Betonfundament +5/-10 Grad                                                                               m³
+            Auf Beton- und Stahlbetonfundamente, für das Herstellen bei einer Außenlufttemperatur von plus 5 bis minus 10
+            Grad Celsius.
+            Betrifft Position(en): ____________
+
+18.11 02C   Az Unterbeton+Bodenpl.+5/-10 Grad                                                                           m³
+            Auf Unterbeton oder Bodenplatten aus Beton oder Stahlbeton, für das Herstellen bei Außentemperaturen von
+            plus 5 bis minus 10 Grad Celsius.
+            Betrifft Position(en): ____________
+
+18.11 02E   Az Betondecke-Stiegenl.+5/-10 Grad                                                                          m³
+            Auf Decken, Podeste und Stiegenläufe aus Stahlbeton für das Herstellen bei Außentemperaturen von plus 5 bis
+            minus 10 Grad Celsius.
+            Betrifft Position(en): ____________
+
+18.11 02H   Az Betonsäule+Träger +5/-10 Grad                                                                            m³
+            Auf Säulen und Träger aus Stahlbeton, für das Herstellen bei Außentemperaturen plus 5 bis minus 10 Grad
+            Celsius.
+            Betrifft Position(en): ____________
+
+18.11 02J   Az Betonwand +5/-10 Grad                                                                                    m³
+            Auf Wände aus Beton oder Stahlbeton, für das Herstellen bei Außentemperaturen plus 5 bis minus 10 Grad
+            Celsius.
+            Betrifft Position(en): ____________
+
+18.11 02L   Az Mantelbeton +5/-10 Grad                                                                                  m³
+            Auf Mantelbetonmauerwerk, abgerechnet im Raummaß, und zwar die gesamte Wanddicke mal der Fläche.
+            Herstellen bei einer Außentemperatur plus 5 bis minus 10 Grad Celsius.
+            Betrifft Position(en): ____________
+
+18.12       Öffnungen verschließen
+18.12 01    Verschließen von Öffnungen in den Außenwänden des Gebäudes für den Winterbetrieb mit lichtdurchlässigen,
+            armierten (arm.) Kunststofffolien (Folie) einschließlich Rahmen, Befestigungen und Abdichtungen. Herstellen,
+            erhalten während des Winterbetriebes, einschließlich Erneuern nach witterungsbedingten Schäden und
+            Entfernen. Im Positionsstichwort ist das Flächenmaß der Einzelfläche der zu verschließenden Öffnungen
+            angegeben.
+
+18.12 01A   Verschließen Öffnung arm.Folie b.2m2                                                                        Stk
+
+18.12 01B   Verschließen Öffnung arm.Folie ü.2-4m2                                                                      Stk
+
+18.12 01C   Verschließen Öffnung arm.Folie ü.4-6m2                                                                      Stk
+18.12 02    Verschalen von Öffnungen für den Winterbetrieb mit mindestens 24 mm dicken Brettern, auf Rahmen genagelt,
+            außenseitig Dachpappe oder Folie, einschließlich aller Befestigungen und Abdichtungen sowie notwendigen
+            Aussteifungen. Einschließlich Erneuern nach witterungsbedingten Schäden und Entfernen. Im
+            Positionsstichwort ist das Flächenmaß der Einzelfläche der zu verschließenden Öffnungen angegeben.
+
+18.12 02A   Verschalen Öffnung b.2m2                                                                                    Stk
+
+18.12 02B   Verschalen Öffnung ü.2-4m2                                                                                  Stk
+
+18.12 02C   Verschalen Öffnung ü.4-6m2                                                                                  Stk
+18.12 03    Aufzahlung (Az) auf Verschalen von Öffnungen, für innenseitiges Befestigen einer Wärmedämmung, ohne
+            Unterschied der Einzelgrößen.
+
+18.12 03A   Az Verschalen m.Weichfaserplatte 1cm                                                                        m²
+
+                                                                                                                    Seite 3 / 6
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Für Weichfaserplatten 1 cm dick.
+
+18.12 03C   Az Verschalen m.Holzw.WW.Platte 3,5cm                                                                        m²
+            Für Holzwolledämmplatten (Holz.W.Platte) 3,5 cm dick.
+
+18.12 04    Aufzahlung (Az) auf Verschalen von Öffnungen für das Herstellen von Türen, selbstzufallend und versperrbar.
+            Im Positionsstichwort ist das Flächenmaß je Flügel angegeben.
+
+18.12 04A   Az Verschalen f.Tür b.2m2                                                                                    Stk
+
+18.12 04B   Az Verschalen f.Tür ü.2-4m2                                                                                  Stk
+18.13       Heizen (nach Heizleistung)
+
+
+            1. Heizgeräte:
+            Vor dem Einsatz von Heizgeräten wird die Zustimmung des Auftraggebers zu Art, Eignung und Anzahl dieser
+            Geräte und zum Zeitpunkt des Einsatzes eingeholt. Die Geräte entsprechen den geltenden Prüfvorschriften. Es
+            werden keine schadhaften Geräte (übermäßige Abgase, schlechter Wirkungsgrad) eingesetzt. Der
+            Auftragnehmer haftet für alle nachteiligen Folgen, die durch das Verwenden defekter Heizgeräte oder durch
+            nicht sachgemäßes Bedienen und mangelhaftes Warten entstehen.
+            Alle Anschlüsse, Versorgungsinstallationen und Messeinrichtungen zum Feststellen des Strom- oder
+            Gasverbrauches sind in die Einheitspreise einkalkuliert.
+            Die Raumtemperatur beträgt mindestens plus 5 Grad Celsius.
+            2. Ausmaß- und Abrechnungsregeln (Wirkungsgrade):
+            - Handelsübliche Heizgeräte für Heizöle und Flüssiggase sowie Kokskörbe - 0,90
+            - Elektrische Energie - 1,00
+            - Öfen mit festen Brennstoffen - 0,80
+             Kommentar.
+             Es werden nur Heizgeräte aus der ULG 13 oder der ULG 14 ausgeschrieben.
+
+18.13 10    Beistellen (antransportieren, aufstellen, abbauen und abtransportieren) von Raumheizgeräten, transportabel
+            oder stationär, nach Wahl des Auftragnehmers. Im Positionsstichwort ist die Heizleistung angegeben.
+
+18.13 10A   Raum-Heizgerät beistellen b.5kW                                                                              Stk
+
+18.13 10B   Raum-Heizgerät beistellen ü.5-10kW                                                                           Stk
+
+18.13 10C   Raum-Heizgerät beistellen ü.10-20kW                                                                          Stk
+
+18.13 10D   Raum-Heizgerät beistellen ü.20-40kW                                                                          Stk
+18.13 11    Vorhalten und Betreiben von Raumheizgeräten, transportabel oder stationär, nach Wahl des Auftragnehmers
+            einschließlich Brennstoff. Im Positionsstichwort ist die Heizleistung angegeben. Abgerechnet wird in Monaten.
+
+18.13 11A   Raum-Heizgerät vorhalt./betreiben b.5kW                                                                      Mo
+
+18.13 11B   Raum-Heizgerät vorhalt./betreiben ü.5-10kW                                                                   Mo
+
+18.13 11C   Raum-Heizgerät vorhalt./betreiben ü.10-20kW                                                                  Mo
+
+18.13 11D   Raum-Heizgerät vorhalt./betreiben ü.20-40kW                                                                  Mo
+18.13 12    Aufzahlung (Az) auf das Vorhalten und Betreiben von Raumheizgeräten.
+
+18.13 12A   Az Raum-Heizgerät (kW) f.Sa./So.-Feiertag                                                                    VE
+            Für das Bedienen außerhalb der kollektivvertraglich geregelten Normalarbeitszeit. Über die Notwendigkeit, Art
+            und Dauer des Heizens wird mit dem Auftraggeber im Voraus ein Einvernehmen getroffen. Abgerechnet wird in
+            VE (VE = Stück Gerät, ohne Unterschied der Leistung X Samstag, Sonn- und Feiertag).
+
+18.14       Heizen (nach Rauminhalt)
+
+
+            1. Heizgeräte:
+            Vor dem Einsatz von Heizgeräten wird die Zustimmung des Auftraggebers zu Art, Eignung und Anzahl dieser
+            Geräte und zum Zeitpunkt des Einsatzes eingeholt. Die Geräte entsprechen den geltenden Prüfvorschriften. Es
+            werden keine schadhaften Geräte (übermäßige Abgase, schlechter Wirkungsgrad) eingesetzt. Der
+                                                                                                                     Seite 4 / 6
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            Auftragnehmer haftet für alle nachteiligen Folgen, die durch das Verwenden defekter Heizgeräte oder durch
+            nicht sachgemäßes Bedienen und mangelhaftes Warten entstehen.
+            Alle Anschlüsse, Versorgungsinstallationen und Messeinrichtungen zum Feststellen des Strom- oder
+            Gasverbrauches sind in die Einheitspreise einkalkuliert.
+            Die Raumtemperatur beträgt mindestens plus 5 Grad Celsius.
+            2. Ausmaß- und Abrechnungsregeln (Wirkungsgrade):
+            - Handelsübliche Heizgeräte für Heizöle und Flüssiggase sowie Kokskörbe - 0,90
+            - Elektrische Energie - 1,00
+            - Öfen mit festen Brennstoffen - 0,80
+             Kommentar.
+             Es werden nur Heizgeräte aus der ULG 13 oder der ULG 14 ausgeschrieben.
+
+18.14 10    Beistellen (antransportieren, aufstellen, abbauen und abtransportieren) von Raumheizgeräten, transportabel
+            oder stationär, nach Wahl des Auftragnehmers. Abgerechnet wird das größte beheizte Raummaß
+            (Fußbodenfläche x Raumhöhe)
+
+18.14 10A   Raum-Heizgerät beistellen                                                                                    m³
+18.14 11    Vorhalten und Betreiben von Raumheizgeräten, transportabel oder stationär, nach Wahl des Auftragnehmers,
+            einschließlich Brennstoff. Abgerechnet wird in Monaten.
+
+18.14 11A   Raum-Heizgerät vorhalt./betreiben                                                                            Mo
+18.14 12    Aufzahlung (Az) auf das Vorhalten und Betreiben von Raumheizgeräten.
+
+18.14 12A   Az Raum-Heizgerät (m3) f.Sa./So.-Feiertag                                                                    VE
+            Für das Bedienen außerhalb der kollektivvertraglich geregelten Normalarbeitszeit. Über die Notwendigkeit, Art
+            und Dauer des Heizens wird mit dem Auftraggeber im Voraus ein Einvernehmen getroffen. Abgerechnet wird in
+            VE (VE = m3 X Samstag, Sonn- und Feiertag).
+
+18.14 20    Beistellen (antransportieren, aufstellen, abbauen und abtransportieren) von Infrarotstrahlern mit Zünd- und
+            Regeleinheit (ohne Gaszuleitung Gasbehälter und Montagegestell), transportabel oder stationär, nach Wahl des
+            Auftragnehmers. Abgerechnet wird das größte beheizte Raummaß (Fußbodenfläche x Raumhöhe)
+
+18.14 20A   Infrarotstrahler beistellen                                                                                  m³
+18.14 21    Vorhalten und Betreiben von Infrarotstrahlern (ohne Gaszuleitung Gasbehälter und Montagegestell),
+            transportabel oder stationär, nach Wahl des Auftragnehmers, einschließlich Brennstoff. Abgerechnet wird in
+            Monaten.
+
+18.14 21A   Infrarotstrahler vorhalt./betreiben                                                                          Mo
+18.14 22    Aufzahlung (Az) auf das Vorhalten und Betreiben von Infrarotstrahlern (ohne Gaszuleitung Gasbehälter und
+            Montagegestell).
+
+18.14 22A   Az Infrarotstrahler (m3) f.Sa./So.-Feiertag                                                                  VE
+            Für das Bedienen außerhalb der kollektivvertraglich geregelten Normalarbeitszeit. Über die Notwendigkeit, Art
+            und Dauer des Heizens wird mit dem Auftraggeber im Voraus ein Einvernehmen getroffen. Abgerechnet wird in
+            VE (VE = m3 X Samstag, Sonn- und Feiertag).
+
+18.15       Entfeuchten
+            LB-Version: 23               Geringfügig Geändert
+18.15 10    Beistellen (antransportieren, aufstellen, abbauen und abtransportieren) von Kondenstrocknern mit
+            Heißgasabtauung.
+
+18.15 10A   Kondenstrockner beistellen                                                                                   m³
+            Technische Angaben: ____________
+
+18.15 11    Vorhalten und Betreiben von Kondenstrocknern mit Heißgasabtauung, einschließlich Brennstoff. Abgerechnet
+            wird in Monaten.
+
+18.15 11A   Kondenstrockner vorhalt./betreiben                                                                           Mo
+            LB-Version: 23               Geringfügig Geändert
+18.15 12    Aufzahlung (Az) auf das Vorhalten und Betreiben von Kondenstrocknern mit eingebautem Hygrostat und
+            Überlaufschutz.
+
+
+                                                                                                                     Seite 5 / 6
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+18.15 12A   Az Kondenstrockner f.Sa./So.-Feiertag                                                                       VE
+            Für das Bedienen außerhalb der kollektivvertraglich geregelten Normalarbeitszeit. Über die Notwendigkeit, Art
+            und Dauer des Heizens wird mit dem Auftraggeber im Voraus ein Einvernehmen getroffen. Abgerechnet wird in
+            VE (VE = m3 X Samstag, Sonn- und Feiertag).
+
+
+
+
+                                                                                                                    Seite 6 / 6
+                                                                                             ib-data GmbH, Softwareentwicklung
+

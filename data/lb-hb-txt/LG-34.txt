@@ -1,0 +1,2069 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+           Leistungsgruppe (LG) 34 - Rohrrahmenelemente m.Drehtüren
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 3401    Rohrrahmenelemente Alu innen ohne Feuer-/Rauchschutz
+                     ULG 3402    Rohrrahmenelemente Alu innen mit Feuer-/Rauchschutz
+                     ULG 3403    Rohrrahmenelemente Stahl innen ohne Feuer-/Rauchschutz
+                     ULG 3404    Rohrrahmenelemente Stahl innen mit Feuer-/Rauchschutz
+                     ULG 3411    Rohrrahmenelemente Alu außen ohne Feuer-/Rauchschutz
+                     ULG 3412    Rohrrahmenelemente Alu außen mit Feuer-/Rauchschutz
+                     ULG 3413    Rohrrahmenelemente Stahl außen ohne Feuer-/Rauchschutz
+                     ULG 3414    Rohrrahmenelemente Stahl außen mit Feuer-/Rauchschutz
+                     ULG 3471    Schloss-u.Beschlagstechnik f.Türen/RR.-Elemente
+                     ULG 3472    Türschließer u.Drehtürantriebe f.Türen/RR.-Elemente
+                     ULG 3473    Fluchtwegsicherungen f.Türen/RR.-Elemente
+                     ULG 3490    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 34
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                        EH
+
+34         Rohrrahmenelemente m.Drehtüren
+           Version 022 (2012-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           1. Profile/Oberfläche:
+           1.1 Stahl S 235 J0 gemäß EN 10025 mit verzinkter Oberfläche.
+           1.2 Stahl S 235 J0 gemäß EN 10025 mit blanker Oberfläche.
+           1.3 Aluminiumbleche (Alu) für Farbbeschichtung und Eloxalqualität (EQ), gemäß ÖNORM
+           1.4 Anodische Oxidation (Eloxierung) A6/C0: Die Eloxierung von Aluminiumoberflächen erfolgt gemäß ÖNORM
+           C 2351 C0, die Vorbehandlung der Oberfläche A6. Die Schichtdicke entspricht Klasse 20.
+           1.5 Stranggepresste Aluminiumprofile (Alu) als Werkstoff gemäß EN AW-6060, T66, Eloxalqualität (EQ)
+           Erfordert die Konstruktion den Einsatz unterschiedlicher Materialien oder von Materialkombinationen,
+           berücksichtigt der Auftragnehmer deren Verträglichkeit untereinander.
+           Technische Lieferbedingungen und Maßtoleranzen gemäß ÖNORM EN 12020-1 bzw. ÖNORM EN 12020-2
+           2. Beschichtete Oberflächen (RAL):
+           Farbbeschichtungen werden nach Wahl des Auftragnehmers pulverbeschichtet oder einbrennlackiert ohne
+           Unterschied des Einheitspreises ausgeführt.
+           Die Schichtdicke beträgt mindestens 65 my (+/- 15 my) für Hauptsichtflächen, Nebensichtflächen werden
+           farbdeckend beschichtet.
+           2.1 Standardfarben sind Farben (nach Wahl des Auftraggebers) aus der Farbkarte des Herstellers, für die der
+           Hersteller keinen Aufpreis verlangt.
+           2.2 Sonderfarben sind Farben (nach Wahl des Auftraggebers) aus der Farbkarte des Herstellers, für die der
+           Hersteller einen Aufpreis vorsieht (Aufzahlungen).
+           3. Einkalkulierte Leistungen:
+           3.1 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+           einkalkuliert:
+               • Anschlussleitungen in der bestehenden Leerverrohrung bis 2 m Länge bis Übergabepunkt (oben und
+                 unten)
+               • Glasleisten mit verdeckt liegender Befestigung
+               • systemabhängige Abdichtungen bei Ausführungen z.B. für Schall-, Wärme- und
+                 Rauchschutzanforderungen
+               • Dokumentation für Einbau und Betrieb
+           3.2 Alle Einheitspreise gelten ohne Unterschied, ob Links- oder Rechtsausführung der Drehtüren..
+           3.3 Der Auftragnehmer weist auf Verlangen des Auftraggebers die Erfüllung der beschriebenen Anforderungen
+           oder der Eigenschaften des Türsystems nach.
+           3.4 Eine Zeichnung des angebotenen Systems (Systemschnitt unten/seitlich/oben) wird nach Auftragserteilung
+           dem AG übergeben.
+           3.5 Eine Leistungserklärung für Außenelemente mit/ohne Feuerschutz ist spätesten zum Zeitpunkt der ersten
+           Anlieferung beizubringen.
+           4. Schließ-, Schloss- und Beschlagstechnik:
+           Feststelleinrichtungen, Schlösser mit/ohne Panik- oder Fluchttürfunktion, Beschläge, Türschließer und Antriebe
+           sind in eigenen Positionen beschrieben.
+           5. Selbstschließeinrichtungen bei Rohrrahmenelementen mit Feuerschutz:
+           Selbstschließeinrichtungen bei Rohrrahmenelementen mit Feuerschutz sind in eigenen Positionen beschrieben.
+            Kommentar:
+            Prüfnormmaße für die Elemente (OIB RL6, die auf die ÖNORM EN ISO 12567-1 referenziert):
+            Für Fenster ist das Prüfnormmaß B x H 1,23 m × 1,48 m anzuwenden
+            Für Fenstertüren und verglaste Türen ist das Prüfnormmaß B x H 1,48 m × 2,18 m anzuwenden
+            Für Türen ist das Prüfnormmaß B x H 1,23 m × 2,18 m anzuwenden
+            Für Tore ist das Prüfnormmaß B x H 2,00 m × 2,18 m anzuwenden
+            Frei zu formulieren (z.B.):
+                • Nassbeschichtungen
+                • detaillierte (herstellerbezogene) Profilabmessungen
+                • Rohrrahmenelemente mit Schiebetüren
+                • Rohrrahmenelemente mit Pendeltüren
+                • Positionen mit Angaben zu Profilabmesssungen (Ansichtsbreite/Tiefe )
+                • Pflege
+                                                                                                                        Seite 2 / 34
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+                 • Wartung (in und nach der Gewährleistungszeit)
+             Literaturhinweise (z.B.):
+             ÖNORM EN 12400: Fenster und Türen - Mechanische Beanspruchung - Anforderungen und Einteilung
+             ÖNORM EN 12206-1: Beschichtungsstoffe - Beschichtungen auf Aluminium und Aluminiumlegierungen für Bauzwecke - Teil
+             1: Beschichtungen aus Beschichtungspulvern
+            LB-Version: 23               Geringfügig Geändert
+
+34.01       Rohrrahmenelemente Alu innen ohne Feuer-/Rauchschutz
+
+
+            Im Folgendem sind Rohrrahmenelemente aus Aluminium, INNEN, ohne Feuer- und Rauchschutzeigenschaften
+            beschrieben.
+            LB-Version: 23               Geringfügig Geändert
+34.01 01    Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, innen.
+
+34.01 01A   Rohrrahmenelement Alu innen                                                                                     Stk
+            Planbeilage: ____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Rahmen/Oberfläche (Aluminium eloxiert, beschichtet in Standardfarben): ____________
+            Ausführungen (Tür):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Sonstige Anforderungen:____________
+            LB-Version: 23               Geringfügig Geändert
+34.01 02    Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, innen.
+
+34.01 02A   Rohrrahmenelement Alu innen+Seitenfelder                                                                        Stk
+            Planbeilage: ____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+                                                                                                                       Seite 3 / 34
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Rahmen/Oberfläche (Aluminium eloxiert, beschichtet in Standardfarben): ____________
+            Ausführungen (Tür/Seitenfelder):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+                • Anzahl der Seitenfelder:____________ Stück
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Sonstige Anforderungen:____________
+            LB-Version: 23              Geringfügig Geändert
+34.01 11    Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, innen mit Oberlicht (OL).
+
+34.01 11A   Rohrrahmenelement Alu innen+OL                                                                              Stk
+            Planbeilage: ____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Rahmen/Oberfläche (Aluminium eloxiert, beschichtet in Standardfarben): ____________
+            Ausführungen (Tür):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Sonstige Anforderungen:____________
+            Oberlichte:
+                • Glaslichte (Höhe x Breite):____________ x ____________ mm
+                • Glasart:____________
+                • Glasdicke: ____________ mm
+                • Sprossen (ja/nein): ____________
+                • Anzahl ____________ Stück
+            LB-Version: 23              Geringfügig Geändert
+34.01 12    Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, innen mit Oberlicht (OL).
+                                                                                                                   Seite 4 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+34.01 12A   Rohrrahmenelement Alu innen+OL+Seitenfelder                                                                 Stk
+            Planbeilage: ____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Rahmen/Oberfläche (Aluminium eloxiert, beschichtet in Standardfarben): ____________
+            Ausführungen (Tür/Seitenfelder):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+                • Anzahl der Seitenfelder:____________ Stück
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Sonstige Anforderungen:____________
+            Oberlichte:
+                • Glaslichte (Höhe x Breite):____________ x ____________ mm
+                • Glasart:____________
+                • Glasdicke: ____________ mm
+                • Sprossen (ja/nein): ____________
+                • Anzahl ____________ Stück
+            LB-Version: 23              Geringfügig Geändert
+34.01 17    Aufzahlung (Az) auf Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, innen.
+
+34.01 17A   Az Rohrrahmenelement Alu innen f.Sonderfarben                                                               Stk
+            Für eine Ausführung mit Sonderfarben: ____________
+            Betrifft Position(en); ____________
+
+34.01 17B   Az Rohrrahmenelement Alu innen f.mittige Glaslagerung                                                       Stk
+            Für eine mittige Glaslagerung.
+            Betrifft Position(en); ____________
+
+34.01 17C   Az Rohrrahmenelement Alu innen f.geschraubte Glasleisten                                                    Stk
+            Für geschraubte Glasleisten.
+            Betrifft Position(en); ____________
+
+34.01 17D   Az Rohrrahmenelement Alu innen f.Quersprosse                                                                Stk
+            Für eine Quersprosse (in 1 m Höhe) Türflügel und Seitenteile
+            Betrifft Position(en); ____________
+
+34.02       Rohrrahmenelemente Alu innen mit Feuer-/Rauchschutz
+
+
+                                                                                                                   Seite 5 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+
+
+            Im Folgendem sind Rohrrahmenelemente aus Aluminium, INNEN, mit Feuer- und Rauchschutzeigenschaften
+            beschrieben.
+            Angaben zum Feuerschutz erfolgen im Positionsstichwort.
+             Kommentar:
+             Gültige Klassifizierungen der Profilhersteller sind zu beachten.
+
+            LB-Version: 23                  Geringfügig Geändert
+34.02 01    Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, innen.
+            Mit Feuerschutz.
+
+34.02 01A   Rohrrahmenelement Alu innen__________                                                                       Stk
+            Planbeilage: ____________
+            Feuerschutz:
+                • Tür:____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Rahmen/Oberfläche (Aluminium eloxiert, beschichtet in Standardfarben): ____________
+            Ausführungen (Tür):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Sonstige Anforderungen:____________
+            LB-Version: 23                  Geringfügig Geändert
+34.02 02    Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, innen.
+            Mit Feuerschutz.
+
+34.02 02A   Rohrrahmenelement Alu innen+Seitenfelder__________                                                          Stk
+            Planbeilage: ____________
+            Feuerschutz:
+                • Tür:____________
+                • Seitenteile:____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+
+                                                                                                                   Seite 6 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Rahmen/Oberfläche (Aluminium eloxiert, beschichtet in Standardfarben): ____________
+            Ausführungen (Tür/Seitenfelder):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+                • Anzahl der Seitenfelder:____________ Stück
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Sonstige Anforderungen:____________
+            LB-Version: 23              Geringfügig Geändert
+34.02 11    Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, innen mit Oberlicht (OL).
+            Mit Feuerschutz.
+
+34.02 11A   Rohrrahmenelement Alu innen+OL__________                                                                    Stk
+            Planbeilage: ____________
+            Feuerschutz:
+                • Tür:____________
+                • Oberlichte:____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Rahmen/Oberfläche (Aluminium eloxiert, beschichtet in Standardfarben): ____________
+            Ausführungen (Tür):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                                                                                                                   Seite 7 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+                • Sonstige Anforderungen:____________
+            Oberlichte:
+                • Glaslichte (Höhe x Breite):____________ x ____________ mm
+                • Glasart:____________
+                • Glasdicke: ____________ mm
+                • Sprossen (ja/nein): ____________
+                • Anzahl ____________ Stück
+            LB-Version: 23              Geringfügig Geändert
+34.02 12    Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, innen mit Oberlicht (OL).
+            Mit Feuerschutz.
+
+34.02 12A   Rohrrahmenelement Alu innen+OL+Seitenfelder__________                                                       Stk
+            Planbeilage: ____________
+            Feuerschutz:
+                • Tür:____________
+                • Oberlichte:____________
+                • Seitenteile:____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Rahmen/Oberfläche (Aluminium eloxiert, beschichtet in Standardfarben): ____________
+            Ausführungen (Tür/Seitenfelder):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+                • Anzahl der Seitenfelder:____________ Stück
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Sonstige Anforderungen:____________
+            Oberlichte:
+                • Glaslichte (Höhe x Breite):____________ x ____________ mm
+                • Glasart:____________
+                • Glasdicke: ____________ mm
+                • Sprossen (ja/nein): ____________
+                • Anzahl ____________ Stück
+            LB-Version: 23              Geringfügig Geändert
+34.02 17    Aufzahlung (Az) auf Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, innen.
+                • mit Feuerschutz (F)
+
+34.02 17A   Az Rohrrahmenelement Alu innen f.Sonderfarben__________                                                     Stk
+
+
+                                                                                                                   Seite 8 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+            Für eine Ausführung mit Sonderfarben: ____________
+            Betrifft Position(en); ____________
+
+34.02 17B   Az Rohrrahmenelement Alu innen f.mittige Glaslagerung (F)                                                   Stk
+            Für eine mittige Glaslagerung.
+            Betrifft Position(en); ____________
+
+34.02 17C   Az Rohrrahmenelement Alu innen f.geschraubte Glasleisten (F)                                                Stk
+            Für geschraubte Glasleisten.
+            Betrifft Position(en); ____________
+
+34.02 17D   Az Rohrrahmenelement Alu innen f.Quersprosse (F)                                                            Stk
+            Für eine Quersprosse (in 1 m Höhe) Türflügel und Seitenteile
+            Betrifft Position(en); ____________
+
+34.02 17E   Az Rohrrahmenelement Alu innen f.Rauchschutz/Rauchabschl.(F)                                                Stk
+            Für Rauchschutz/Rauchabschluss.
+            Betrifft Position(en); ____________
+
+34.03       Rohrrahmenelemente Stahl innen ohne Feuer-/Rauchschutz
+
+
+            Im Folgendem sind Rohrrahmenelemente aus Stahl, INNEN, ohne Feuer- und Rauchschutzeigenschaften
+            beschrieben.
+            LB-Version: 23              Geringfügig Geändert
+34.03 01    Rohrrahmenelement mit Drehtüre, Stahl, innen.
+
+34.03 01A   Rohrrahmenelement Stahl innen                                                                               Stk
+            Planbeilage: ____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Stahl (verzinkt oder blank):____________
+                • Oberfläche (z.B. beschichtet): ____________
+            Ausführungen (Tür):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Sonstige Anforderungen:____________
+            LB-Version: 23              Geringfügig Geändert
+                                                                                                                   Seite 9 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+
+34.03 02    Rohrrahmenelement mit Drehtüre, Stahl, innen.
+
+34.03 02A   Rohrrahmenelement Stahl innen+Seitenfelder                                                                  Stk
+            Planbeilage: ____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Stahl (verzinkt oder blank):____________
+                • Oberfläche(z.B. beschichtet): ____________
+            Ausführungen (Tür/Seitenfelder):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+                • Anzahl der Seitenfelder:____________ Stück
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Sonstige Anforderungen:____________
+            LB-Version: 23              Geringfügig Geändert
+34.03 11    Rohrrahmenelement mit Drehtüre, Stahl, innen mit Oberlicht (OL).
+
+34.03 11A   Rohrrahmenelement Stahl innen+OL                                                                            Stk
+            Planbeilage: ____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Stahl (verzinkt oder blank):____________
+                • Oberfläche(z.B. beschichtet): ____________
+            Ausführungen (Tür/Seitenteile):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                                                                                                                  Seite 10 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Sonstige Anforderungen:____________
+            Oberlichte:
+                • Glaslichte (Höhe x Breite):____________ x ____________ mm
+                • Glasart:____________
+                • Glasdicke: ____________ mm
+                • Sprossen (ja/nein): ____________
+                • Anzahl ____________ Stück
+            LB-Version: 23              Geringfügig Geändert
+34.03 12    Rohrrahmenelement mit Drehtüre, Stahl, innen mit Oberlicht (OL).
+
+34.03 12A   Rohrrahmenelement Stahl innen+OL+Seitenfelder                                                               Stk
+            Planbeilage: ____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Stahl (verzinkt oder blank):____________
+                • Oberfläche(z.B. beschichtet): ____________
+            Ausführungen (Tür/Seitenfelder):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+                • Anzahl der Seitenfelder:____________ Stück
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Sonstige Anforderungen:____________
+            Oberlichte:
+                • Glaslichte (Höhe x Breite):____________ x ____________ mm
+                • Glasart:____________
+                • Glasdicke: ____________ mm
+                • Sprossen (ja/nein): ____________
+                • Anzahl ____________ Stück
+            LB-Version: 23              Geringfügig Geändert
+34.03 17    Aufzahlung (Az) auf Rohrrahmenelement mit Drehtüre, Stahl, innen.
+
+34.03 17A   Az Rohrrahmenelement Stahl innen f.Sonderfarben                                                             Stk
+
+
+                                                                                                                  Seite 11 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+            Für eine Ausführung mit Sonderfarben: ____________
+            Betrifft Position(en); ____________
+
+34.03 17B   Az Rohrrahmenelement Stahl innen f.mittige Glaslagerung                                                     Stk
+            Für eine mittige Glaslagerung.
+            Betrifft Position(en); ____________
+
+34.03 17C   Az Rohrrahmenelement Stahl innen f.geschraubte Glasleisten                                                  Stk
+            Für geschraubte Glasleisten.
+            Betrifft Position(en); ____________
+
+34.03 17D   Az Rohrrahmenelement Stahl innen f.Quersprosse                                                              Stk
+            Für eine Quersprosse (in 1 m Höhe) Türflügel und Seitenteile
+            Betrifft Position(en); ____________
+34.03 18    Aufzahlung (Az) auf Rohrrahmenelement mit Drehtüre, Stahl, innen.
+
+34.03 18A   Az Rohrrahmenelement Stahl innen f.Edelstahl                                                                Stk
+            Für eine Ausführung aus Edelstahl mit der Werkstoffnummer:____________
+            Betrifft Position(en): ____________
+
+34.04       Rohrrahmenelemente Stahl innen mit Feuer-/Rauchschutz
+
+
+            Im Folgendem sind Rohrrahmenelemente aus Stahl, INNEN, mit Feuer- und Rauchschutzeigenschaften
+            beschrieben.
+            Angaben zum Feuerschutz erfolgen im Positionsstichwort.
+            LB-Version: 23              Geringfügig Geändert
+34.04 01    Rohrrahmenelement mit Drehtüre, Stahl, innen.
+            Mit Feuerschutz.
+
+34.04 01A   Rohrrahmenelement Stahl innen__________                                                                     Stk
+            Planbeilage: ____________
+            Feuerschutz:
+                • Tür:____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Stahl (verzinkt oder blank):____________
+                • Oberfläche(z.B. beschichtet): ____________
+            Ausführungen (Tür):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                                                                                                                  Seite 12 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Sonstige Anforderungen:____________
+            LB-Version: 23              Geringfügig Geändert
+34.04 02    Rohrrahmenelement mit Drehtüre, Stahl, innen.
+            Mit Feuerschutz.
+
+34.04 02A   Rohrrahmenelement Stahl innen+Seitenfelder__________                                                        Stk
+            Planbeilage: ____________
+            Feuerschutz:
+                • Tür:____________
+                • Seitenteile:____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Stahl (verzinkt oder blank):____________
+                • Oberfläche(z.B. beschichtet): ____________
+            Ausführungen (Tür/Seitenfelder):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+                • Anzahl der Seitenfelder:____________ Stück
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Sonstige Anforderungen:____________
+            LB-Version: 23              Geringfügig Geändert
+34.04 11    Rohrrahmenelement mit Drehtüre, Stahl, innen mit Oberlicht (OL).
+            Mit Feuerschutz.
+
+34.04 11A   Rohrrahmenelement Stahl innen+OL__________                                                                  Stk
+            Planbeilage: ____________
+            Feuerschutz:
+                • Tür:____________
+                • Oberlichte:____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+                                                                                                                  Seite 13 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Stahl (verzinkt oder blank):____________
+                • Oberfläche(z.B. beschichtet): ____________
+            Ausführungen (Tür/Seitenteile):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Sonstige Anforderungen:____________
+            Oberlichte:
+                • Glaslichte (Höhe x Breite):____________ x ____________ mm
+                • Glasart:____________
+                • Glasdicke: ____________ mm
+                • Sprossen (ja/nein): ____________
+                • Anzahl ____________ Stück
+            LB-Version: 23              Geringfügig Geändert
+34.04 12    Rohrrahmenelement mit Drehtüre, Stahl, innen mit Oberlicht (OL).
+            Mit Feuerschutz.
+
+34.04 12A   Rohrrahmenelement Stahl innen+OL+Seitenfelder__________                                                     Stk
+            Planbeilage: ____________
+            Feuerschutz:
+                • Tür:____________
+                • Oberlichte:____________
+                • Seitenteile:____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Stahl (verzinkt oder blank):____________
+                • Oberfläche(z.B. beschichtet): ____________
+            Ausführungen (Tür/Seitenfelder):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+                • Anzahl der Seitenfelder:____________ Stück
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                                                                                                                  Seite 14 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                                EH
+
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Sonstige Anforderungen:____________
+            Oberlichte:
+                • Glaslichte (Höhe x Breite):____________ x ____________ mm
+                • Glasart:____________
+                • Glasdicke: ____________ mm
+                • Sprossen (ja/nein): ____________
+                • Anzahl ____________ Stück
+            LB-Version: 23                 Geringfügig Geändert
+34.04 17    Rohrrahmenelement mit Drehtüre, Stahl, innen.
+                • mit Feuerschutz (F)
+
+34.04 17A   Az Rohrrahmenelement Stahl innen f.Sonderfarben (F)                                                                      Stk
+            Für eine Ausführung mit Sonderfarben: ____________
+            Betrifft Position(en); ____________
+
+34.04 17B   Az Rohrrahmenelement Stahl innen f.mittige Glaslagerung (F)                                                              Stk
+            Für eine mittige Glaslagerung.
+            Betrifft Position(en); ____________
+
+34.04 17C   Az Rohrrahmenelement Stahl innen f.geschraubte Glasl.(F)                                                                 Stk
+            Für geschraubte Glasleisten.
+            Betrifft Position(en); ____________
+
+34.04 17D   Az Rohrrahmenelement Stahl innen f.Quersprosse (F)                                                                       Stk
+            Für eine Quersprosse (in 1 m Höhe) Türflügel und Seitenteile
+            Betrifft Position(en); ____________
+
+34.04 17E   Az Rohrrahmenelement Stahl innen f.Rauchsch./Rauchabschl.(F)                                                             Stk
+            Für Rauchschutz/Rauchabschluss.
+            Betrifft Position(en); ____________
+34.04 18    Aufzahlung (Az) auf Rohrrahmenelement mit Drehtüre, Stahl, innen.
+                • mit Feuerschutz (F)
+
+34.04 18A   Az Rohrrahmenelement Stahl innen f.Edelstahl (F)                                                                         Stk
+            Für eine Ausführung aus Edelstahl mit der Werkstoffnummer:____________
+            Betrifft Position(en): ____________
+
+34.11       Rohrrahmenelemente Alu außen ohne Feuer-/Rauchschutz
+
+
+            Im Folgendem sind Rohrrahmenelemente aus Aluminium, AUSSEN, ohne Feuer- und
+            Rauchschutzeigenschaften beschrieben.
+             Kommentar:
+             Angaben zu detaillierten Profilabmessungen sind herstellerbezogen und frei zu formulieren.
+
+            LB-Version: 23                 Geringfügig Geändert
+34.11 01    Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, außen.
+
+34.11 01A   Rohrrahmenelement Alu außen                                                                                              Stk
+
+
+                                                                                                                               Seite 15 / 34
+                                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+            Planbeilage: ____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Rahmen/Oberfläche (Aluminium eloxiert, beschichtet in Standardfarben): ____________
+            Ausführungen (Tür):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund, wasserdichte Abklebung): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Schlagregendichtheit (ja/nein):____________
+                • Sonstige Anforderungen:____________
+            Ausführung Sohlbank: ____________
+            Ausführung Parapettabdeckung:____________
+            LB-Version: 23              Geringfügig Geändert
+34.11 02    Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, außen.
+
+34.11 02A   Rohrrahmenelement Alu außen+Seitenfelder                                                                    Stk
+            Planbeilage: ____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Rahmen/Oberfläche (Aluminium eloxiert, beschichtet in Standardfarben): ____________
+            Ausführungen (Tür/Seitenfelder):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+                • Anzahl der Seitenfelder:____________ Stück
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund, wasserdichte Abklebung): ____________
+            Technische Eigenschaften:
+                                                                                                                  Seite 16 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Schlagregendichtheit (ja/nein):____________
+                • Sonstige Anforderungen:____________
+            Ausführung Sohlbank: ____________
+            Ausführung Parapettabdeckung:____________
+            LB-Version: 23              Geringfügig Geändert
+34.11 11    Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, außen mit Oberlicht (OL).
+
+34.11 11A   Rohrrahmenelement Alu außen+OL                                                                              Stk
+            Planbeilage: ____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Rahmen/Oberfläche (Aluminium eloxiert, beschichtet in Standardfarben): ____________
+            Ausführungen (Tür):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund, wasserdichte Abklebung): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Schlagregendichtheit (ja/nein):____________
+                • Sonstige Anforderungen:____________
+            Ausführung Sohlbank: ____________
+            Ausführung Parapettabdeckung:____________
+            Oberlichte:
+                • Glaslichte (Höhe x Breite):____________ x ____________ mm
+                • Glasart:____________
+                • Glasdicke: ____________ mm
+                • Sprossen (ja/nein): ____________
+                • Anzahl ____________ Stück
+            LB-Version: 23              Geringfügig Geändert
+34.11 12    Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, außen mit Oberlicht (OL).
+
+34.11 12A   Rohrrahmenelement Alu außen+OL+Seitenfelder                                                                 Stk
+            Planbeilage: ____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+                                                                                                                  Seite 17 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Rahmen/Oberfläche (Aluminium eloxiert, beschichtet in Standardfarben): ____________
+            Ausführungen (Tür/Seitenfelder):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+                • Anzahl der Seitenfelder:____________ Stück
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund, wasserdichte Abklebung): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Schlagregendichtheit (ja/nein):____________
+                • Sonstige Anforderungen:____________
+            Ausführung Sohlbank: ____________
+            Ausführung Parapettabdeckung:____________
+            Oberlichte:
+                • Glaslichte (Höhe x Breite):____________ x ____________ mm
+                • Glasart:____________
+                • Glasdicke: ____________ mm
+                • Sprossen (ja/nein): ____________
+                • Anzahl ____________ Stück
+            LB-Version: 23              Geringfügig Geändert
+34.11 17    Aufzahlung (Az) auf Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, außen.
+
+34.11 17A   Az Rohrrahmenelement Alu außen f.Sonderfarben                                                               Stk
+            Für eine Ausführung mit Sonderfarben: ____________
+            Betrifft Position(en); ____________
+
+34.11 17B   Az Rohrrahmenelement Alu außen f.mittige Glaslagerung                                                       Stk
+            Für eine mittige Glaslagerung.
+            Betrifft Position(en); ____________
+
+34.11 17C   Az Rohrrahmenelement Alu außen f.geschraubte Glasleisten                                                    Stk
+            Für geschraubte Glasleisten.
+            Betrifft Position(en); ____________
+
+34.11 17D   Az Rohrrahmenelement Alu außen f.Quersprosse                                                                Stk
+            Für eine Quersprosse (in 1 m Höhe) Türflügel und Seitenteile
+            Betrifft Position(en); ____________
+
+34.12       Rohrrahmenelemente Alu außen mit Feuer-/Rauchschutz
+
+
+            Im Folgendem sind Rohrrahmenelemente aus Aluminium, AUSSEN, mit Feuer- und Rauchschutzeigenschaften
+            beschrieben.
+            Angaben zum Feuerschutz erfolgen im Positionsstichwort.
+                                                                                                                  Seite 18 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+             Kommentar:
+             Gültige Klassifizierungen der Profilhersteller sind zu beachten.
+
+            LB-Version: 23                  Geringfügig Geändert
+34.12 01    Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, außen.
+            Mit Feuerschutz.
+
+34.12 01A   Rohrrahmenelement Alu außen__________                                                                       Stk
+            Planbeilage: ____________
+            Feuerschutz:
+                • Tür:____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Rahmen/Oberfläche (Aluminium eloxiert, beschichtet in Standardfarben): ____________
+            Ausführungen (Tür):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund, wasserdichte Abklebung): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Schlagregendichtheit (ja/nein):____________
+                • Sonstige Anforderungen:____________
+            Ausführung Sohlbank: ____________
+            Ausführung Parapettabdeckung:____________
+            LB-Version: 23                  Geringfügig Geändert
+34.12 02    Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, außen.
+            Mit Feuerschutz.
+
+34.12 02A   Rohrrahmenelement Alu außen+Seitenfelder__________                                                          Stk
+            Planbeilage: ____________
+            Feuerschutz:
+                • Tür:____________
+                • Seitenteile:____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                                                                                                                  Seite 19 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Rahmen/Oberfläche (Aluminium eloxiert, beschichtet in Standardfarben): ____________
+            Ausführungen (Tür/Seitenfelder):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+                • Anzahl der Seitenfelder:____________ Stück
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund, wasserdichte Abklebung): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Schlagregendichtheit (ja/nein):____________
+                • Sonstige Anforderungen:____________
+            Ausführung Sohlbank: ____________
+            Ausführung Parapettabdeckung:____________
+            LB-Version: 23              Geringfügig Geändert
+34.12 11    Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, außen mit Oberlicht (OL).
+            mit Feuerschutz.
+
+34.12 11A   Rohrrahmenelement Alu außen+OL__________                                                                    Stk
+            Planbeilage: ____________
+            Feuerschutz:
+                • Tür:____________
+                • Oberlichte:____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Rahmen/Oberfläche (Aluminium eloxiert, beschichtet in Standardfarben): ____________
+            Ausführungen (Tür):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund, wasserdichte Abklebung): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                                                                                                                  Seite 20 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+                • Panikfunktion (ja/nein): ____________
+                • Schlagregendichtheit (ja/nein):____________
+                • Sonstige Anforderungen:____________
+            Ausführung Sohlbank: ____________
+            Ausführung Parapettabdeckung:____________
+            Oberlichte:
+                • Glaslichte (Höhe x Breite):____________ x ____________ mm
+                • Glasart:____________
+                • Glasdicke: ____________ mm
+                • Sprossen (ja/nein): ____________
+                • Anzahl ____________ Stück
+            LB-Version: 23              Geringfügig Geändert
+34.12 12    Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, außen mit Oberlicht (OL).
+            mit Feuerschutz.
+
+34.12 12A   Rohrrahmenelement Alu außen+OL+Seitenfelder__________                                                       Stk
+            Planbeilage: ____________
+            Feuerschutz:
+                • Tür:____________
+                • Oberlichte:____________
+                • Seitenteile:____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Rahmen/Oberfläche (Aluminium eloxiert, beschichtet in Standardfarben): ____________
+            Ausführungen (Tür/Seitenfelder):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+                • Anzahl der Seitenfelder:____________ Stück
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund, wasserdichte Abklebung): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Schlagregendichtheit (ja/nein):____________
+                • Sonstige Anforderungen:____________
+            Ausführung Sohlbank: ____________
+            Ausführung Parapettabdeckung:____________
+            Oberlichte:
+                • Glaslichte (Höhe x Breite):____________ x ____________ mm
+                • Glasart:____________
+                • Glasdicke: ____________ mm
+                • Sprossen (ja/nein): ____________
+                • Anzahl ____________ Stück
+
+                                                                                                                  Seite 21 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+            LB-Version: 23              Geringfügig Geändert
+34.12 17    Aufzahlung (Az) auf Rohrrahmenelement mit Drehtüre, Aluminium eloxiert oder beschichtet, außen.
+                • mit Feuerschutz (F)
+
+34.12 17A   Az Rohrrahmenelement Alu außen f.Sonderfarben (F)                                                           Stk
+            Für eine Ausführung mit Sonderfarben: ____________
+            Betrifft Position(en); ____________
+
+34.12 17B   Az Rohrrahmenelement Alu außen f.mittige Glaslagerung (F)                                                   Stk
+            Für eine mittige Glaslagerung.
+            Betrifft Position(en); ____________
+
+34.12 17C   Az Rohrrahmenelement Alu außen f.geschraubte Glasleisten (F)                                                Stk
+            Für geschraubte Glasleisten.
+            Betrifft Position(en); ____________
+
+34.12 17D   Az Rohrrahmenelement Alu außen f.Quersprosse (F)                                                            Stk
+            Für eine Quersprosse (in 1 m Höhe) Türflügel und Seitenteile
+            Betrifft Position(en); ____________
+
+34.12 17E   Az Rohrrahmenelement Alu außen f.Rauchschutz/Rauchabschl.(F)                                                Stk
+            Für Rauchschutz/Rauchabschluss.
+            Betrifft Position(en); ____________
+
+34.13       Rohrrahmenelemente Stahl außen ohne Feuer-/Rauchschutz
+
+
+            Im Folgendem sind Rohrrahmenelemente aus Stahl, AUSSEN, ohne Feuer- und Rauchschutzeigenschaften
+            beschrieben.
+            LB-Version: 23              Geringfügig Geändert
+34.13 01    Rohrrahmenelement mit Drehtüre, Stahl, außen.
+
+34.13 01A   Rohrrahmenelement Stahl außen                                                                               Stk
+            Planbeilage: ____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Stahl (verzinkt oder blank):____________
+                • Oberfläche(z.B. beschichtet): ____________
+            Ausführungen (Tür):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund, wasserdichte Abklebung): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                                                                                                                  Seite 22 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Schlagregendichtheit (ja/nein):____________
+                • Sonstige Anforderungen:____________
+            Ausführung Sohlbank: ____________
+            Ausführung Parapettabdeckung:____________
+            LB-Version: 23              Geringfügig Geändert
+34.13 02    Rohrrahmenelement mit Drehtüre, Stahl, außen.
+
+34.13 02A   Rohrrahmenelement Stahl außen+Seitenfelder                                                                  Stk
+            Planbeilage: ____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Stahl (verzinkt oder blank):____________
+                • Oberfläche(z.B. beschichtet): ____________
+            Ausführungen (Tür/Seitenfelder):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+                • Anzahl der Seitenfelder:____________ Stück
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund, wasserdichte Abklebung): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Schlagregendichtheit (ja/nein):____________
+                • Sonstige Anforderungen:____________
+            Ausführung Sohlbank: ____________
+            Ausführung Parapettabdeckung:____________
+            LB-Version: 23              Geringfügig Geändert
+34.13 11    Rohrrahmenelement mit Drehtüre, Stahl, außen mit Oberlicht (OL).
+
+34.13 11A   Rohrrahmenelement Stahl außen+OL                                                                            Stk
+            Planbeilage: ____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+
+                                                                                                                  Seite 23 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Stahl (verzinkt oder blank):____________
+                • Oberfläche(z.B. beschichtet): ____________
+            Ausführungen (Tür):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund, wasserdichte Abklebung): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Schlagregendichtheit (ja/nein):____________
+                • Sonstige Anforderungen:____________
+            Ausführung Sohlbank: ____________
+            Ausführung Parapettabdeckung:____________
+            Oberlichte:
+                • Glaslichte (Höhe x Breite):____________ x ____________ mm
+                • Glasart:____________
+                • Glasdicke: ____________ mm
+                • Sprossen (ja/nein): ____________
+                • Anzahl ____________ Stück
+            LB-Version: 23              Geringfügig Geändert
+34.13 12    Rohrrahmenelement mit Drehtüre, Stahl, außen mit Oberlicht (OL).
+
+34.13 12A   Rohrrahmenelement Stahl außen+OL+Seitenfelder                                                               Stk
+            Planbeilage: ____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Stahl (verzinkt oder blank):____________
+                • Oberfläche(z.B. beschichtet): ____________
+            Ausführungen (Tür/Seitenfelder):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+                • Anzahl der Seitenfelder:____________ Stück
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund, wasserdichte Abklebung): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                                                                                                                  Seite 24 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Schlagregendichtheit (ja/nein):____________
+                • Sonstige Anforderungen:____________
+            Ausführung Sohlbank: ____________
+            Ausführung Parapettabdeckung:____________
+            Oberlichte:
+                • Glaslichte (Höhe x Breite):____________ x ____________ mm
+                • Glasart:____________
+                • Glasdicke: ____________ mm
+                • Sprossen (ja/nein): ____________
+                • Anzahl ____________ Stück
+            LB-Version: 23              Geringfügig Geändert
+34.13 17    Aufzahlung (Az) auf Rohrrahmenelement mit Drehtüre, Stahl, außen.
+
+34.13 17A   Az Rohrrahmenelement Stahl außen f.Sonderfarben                                                         Stk
+            Für eine Ausführung mit Sonderfarben: ____________
+            Betrifft Position(en); ____________
+
+34.13 17B   Az Rohrrahmenelement Stahl außen f.mittige Glaslagerung                                                 Stk
+            Für eine mittige Glaslagerung.
+            Betrifft Position(en); ____________
+
+34.13 17C   Az Rohrrahmenelement Stahl außen f.geschraubte Glasleisten                                              Stk
+            Für geschraubte Glasleisten.
+            Betrifft Position(en); ____________
+
+34.13 17D   Az Rohrrahmenelement Stahl außen f.Quersprosse                                                          Stk
+            Für eine Quersprosse (in 1 m Höhe) Türflügel und Seitenteile
+            Betrifft Position(en); ____________
+34.13 18    Aufzahlung (Az) auf Rohrrahmenelement mit Drehtüre, Stahl, außen.
+
+34.13 18A   Az Rohrrahmenelement Stahl außen f.Edelstahl                                                            Stk
+            Für eine Ausführung aus Edelstahl mit der Werkstoffnummer:____________
+            Betrifft Position(en): ____________
+
+34.14       Rohrrahmenelemente Stahl außen mit Feuer-/Rauchschutz
+
+
+            Im Folgendem sind Rohrrahmenelemente aus Stahl, AUSSEN, mit Feuer- und Rauchschutzeigenschaften
+            beschrieben.
+            Angaben zum Feuerschutz erfolgen im Positionsstichwort.
+            LB-Version: 23              Geringfügig Geändert
+34.14 01    Rohrrahmenelement mit Drehtüre, Stahl, außen.
+            Mit Feuerschutz.
+
+34.14 01A   Rohrrahmenelement Stahl außen__________                                                                 Stk
+            Planbeilage: ____________
+            Feuerschutz:
+                • Tür:____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+
+                                                                                                              Seite 25 / 34
+                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Stahl (verzinkt oder blank):____________
+                • Oberfläche(z.B. beschichtet): ____________
+            Ausführungen (Tür):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund, wasserdichte Abklebung): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Schlagregendichtheit (ja/nein):____________
+                • Sonstige Anforderungen:____________
+            Ausführung Sohlbank: ____________
+            Ausführung Parapettabdeckung:____________
+            LB-Version: 23              Geringfügig Geändert
+34.14 02    Rohrrahmenelement mit Drehtüre, Stahl, außen.
+            Mit Feuerschutz.
+
+34.14 02A   Rohrrahmenelement Stahl außen+Seitenfelder__________                                                        Stk
+            Planbeilage: ____________
+            Feuerschutz:
+                • Tür:____________
+                • Seitenteile:____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Stahl (verzinkt oder blank):____________
+                • Oberfläche(z.B. beschichtet): ____________
+            Ausführungen (Tür/Seitenfelder):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+                • Anzahl der Seitenfelder:____________ Stück
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund, wasserdichte Abklebung): ____________
+            Technische Eigenschaften:
+
+                                                                                                                  Seite 26 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Schlagregendichtheit (ja/nein):____________
+                • Sonstige Anforderungen:____________
+            Ausführung Sohlbank: ____________
+            Ausführung Parapettabdeckung:____________
+            LB-Version: 23              Geringfügig Geändert
+34.14 11    Rohrrahmenelement mit Drehtüre, Stahl, außen mit Oberlicht (OL).
+            Mit Feuerschutz.
+
+34.14 11A   Rohrrahmenelement Stahl außen+OL__________                                                                  Stk
+            Planbeilage: ____________
+            Feuerschutz:
+                • Tür:____________
+                • Oberlichte:____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Stahl (verzinkt oder blank):____________
+                • Oberfläche(z.B. beschichtet): ____________
+            Ausführungen (Tür/Seitenteile):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund, wasserdichte Abklebung): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Schlagregendichtheit (ja/nein):____________
+                • Sonstige Anforderungen:____________
+            Ausführung Sohlbank: ____________
+            Ausführung Parapettabdeckung:____________
+            Oberlichte:
+                • Glaslichte (Höhe x Breite):____________ x ____________ mm
+                • Glasart:____________
+                • Glasdicke: ____________ mm
+                • Sprossen (ja/nein): ____________
+                • Anzahl ____________ Stück
+            LB-Version: 23              Geringfügig Geändert
+
+
+
+                                                                                                                  Seite 27 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+
+34.14 12    Rohrrahmenelement mit Drehtüre, Stahl, außen mit Oberlicht (OL).
+            Mit Feuerschutz.
+
+34.14 12A   Rohrrahmenelement Stahl außen+OL+Seitenfelder__________                                                     Stk
+            Planbeilage: ____________
+            Feuerschutz:
+                • Tür:____________
+                • Oberlichte:____________
+                • Seitenteile:____________
+            Einbausituation:
+                • Wandkonstruktion (z.B. Ziegel, Beton, GK-Ständerwände): ____________
+                • Wandanschlüsse (z.B. seitlich, oben, unten): ____________
+            Blindstock (ja/nein):____________
+            Stockverbreiterungen (ja/nein):____________
+            Bänder (z.B. verdeckt/nicht verdeckt, Anschraubband, Rollenband): ____________
+            Abmessungen:
+                • Baurichtmaß Element (Breite x Höhe): ____________ x ____________ cm
+                • Durchgangslichte Tür (Breite x Höhe): ____________ x ____________ cm
+            Profile/Oberfläche:
+                • Profilmerkmale (z.B. beidseitig flächenbündig):____________
+                • Stahl (verzinkt oder blank):____________
+                • Oberfläche(z.B. beschichtet): ____________
+            Ausführungen (Tür/Seitenfelder):
+                • Drehtür (einflügelig oder zweiflügelig): ____________
+                • Anzahl der Seitenfelder:____________ Stück
+            Füllungen:
+                • Glasart (z.B. ESG, VSG): ____________
+                • Randverbund (Alu, Edelstahl, Kunststoff):____________
+                • Paneel:____________
+                • Paneel/Randausbildungen (z.B. druckfester Randverbund, wasserdichte Abklebung): ____________
+            Technische Eigenschaften:
+                • Mechanische Festigkeit/Beanspruchung (Klasse gemäß ÖNORM EN 12400): ____________
+                • Bewertetes Schalldämmmaß RW:____________dB
+                • Wärmedämmwert Element (U-Wert) :____________W/m2K
+                • Einbruchhemmung (Klasse):____________
+                • Panikfunktion (ja/nein): ____________
+                • Schlagregendichtheit (ja/nein):____________
+                • Sonstige Anforderungen:____________
+            Ausführung Sohlbank: ____________
+            Ausführung Parapettabdeckung:____________
+            Oberlichte:
+                • Glaslichte (Höhe x Breite):____________ x ____________ mm
+                • Glasart:____________
+                • Glasdicke: ____________ mm
+                • Sprossen (ja/nein): ____________
+                • Anzahl ____________ Stück
+            LB-Version: 23              Geringfügig Geändert
+34.14 17    Rohrrahmenelement mit Drehtüre, Stahl, außen.
+                • mit Feuerschutz (F)
+
+34.14 17A   Az Rohrrahmenelement Stahl außen f.Sonderfarben (F)                                                         Stk
+            Für eine Ausführung mit Sonderfarben: ____________
+            Betrifft Position(en); ____________
+
+34.14 17B   Az Rohrrahmenelement Stahl außen f.mittige Glaslagerung (F)                                                 Stk
+
+
+                                                                                                                  Seite 28 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+            Für eine mittige Glaslagerung.
+            Betrifft Position(en); ____________
+
+34.14 17C   Az Rohrrahmenelement Stahl außen f.geschraubte Glasl.(F)                                                              Stk
+            Für geschraubte Glasleisten.
+            Betrifft Position(en); ____________
+
+34.14 17D   Az Rohrrahmenelement Stahl außen f.Quersprosse (F)                                                                    Stk
+            Für eine Quersprosse (in 1 m Höhe) Türflügel und Seitenteile
+            Betrifft Position(en); ____________
+
+34.14 17E   Az Rohrrahmenelement Stahl außen f.Rauchsch./Rauchabschl.(F)                                                          Stk
+            Für Rauchschutz/Rauchabschluss.
+            Betrifft Position(en); ____________
+34.14 18    Aufzahlung (Az) auf Rohrrahmenelement mit Drehtüre, Stahl, außen.
+                • mit Feuerschutz (F)
+
+34.14 18A   Az Rohrrahmenelement Stahl außen f.Edelstahl (F)                                                                      Stk
+            Für eine Ausführung aus Edelstahl mit der Werkstoffnummer:____________
+            Betrifft Position(en): ____________
+
+34.71       Schloss-u.Beschlagstechnik f.Türen/RR.-Elemente
+             Kommentar:
+             Auf Parameter wie z.B. Feuerschutz, Benutzerklasse/Objekttauglichkeit, Widerstandsklasse, Barrierefreiheit, Ausführung
+             (Rosette oder Langschild), Schutzklasse Drücker, Panik- oder Fluchtfunktionen ist zu achten.
+             Frei zu formulieren (z.B.):
+             Elektronische Schlösser und Schlösser wie z.B. Innen- und Objekttürschlösser, Fluchttür- und SVP-Fluchttürschlösser,
+             einschließlich z.B. Türdrücker und Panikstangen sind frei zu formulieren.
+
+34.71 02    Objekttürschloss für Rohrrahmen (RR).-Elemente bei Innen-, Außen- und Feuerschutztüren.
+                • Einsteckschloss
+                • Schlosskasten aus verzinktem Stahlblech
+                • Distanzhülsen zwischen Kasten und Decke
+            Einschließlich Sichtbeschlag.
+
+34.71 02A   Objektschloss f.Türen/RR.-Elemente                                                                                    Stk
+            Betrifft Position(en): ____________
+            Fallenausführung (z.B. Flüsterfalle, Metallfalle): ____________
+            Art der Sperre (z.B. WC, Profilzylinder mit Wechsel, Fallenschloss): ____________
+            Art der Verriegelung (z.B. einfach, mehrfach): ____________
+            Oberfläche (z.B. Edelstahl, Dekorsilber): ____________
+            Beschreibung Sichtbeschlag: ____________
+
+34.71 11    Notausgangsverschluss für Rohrrahmen (RR).-Elemente bei Innen-, Außen- und Feuerschutztüren.
+                • Einsteckschloss
+                • Schlosskasten aus verzinktem Stahlblech
+            Einschließlich Sichtbeschlag.
+
+34.71 11A   Notausgangsverschluss f.Türen/RR.-Elemente                                                                            Stk
+            Betrifft Position(en):____________
+            Panikfunktion (z.B. Panik E, B, D): ____________
+            Fallenausführung (z.B. Flüsterfalle, Metallfalle):____________
+            Art der Verriegelung (z.B. einfach, mehrfach): ____________
+            Oberfläche (z.B. Edelstahl, Dekorsilber): ____________
+            Beschreibung Sichtbeschlag: ____________
+
+
+
+                                                                                                                            Seite 29 / 34
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+34.71 12    Panikverschluss für Rohrrahmen (RR).-Elemente bei Innen-, Außen- und Feuerschutztüren.
+                • Einsteckschloss
+                • Schlosskasten aus verzinktem Stahlblech
+            Einschließlich Sichtbeschlag.
+
+34.71 12A   Panikverschluss f.Türen/RR.-Elemente                                                                                  Stk
+            Betrifft Position(en):____________
+            Panikfunktion (z.B. Panik E, B, D): ____________
+            Fallenausführung (z.B. Flüsterfalle, Metallfalle):____________
+            Art der Verriegelung (z.B. einfach, mehrfach): ____________
+            Oberfläche (z.B. Edelstahl, Dekorsilber): ____________
+            Beschreibung Sichtbeschlag: ____________
+
+34.71 21    Notausgangsverschluss, selbstverriegelnd (selbstv.), für Rohrrahmen (RR).-Elemente bei Innen-, Außen- und
+            Feuerschutztüren.
+                • Einsteckschloss
+                • Schlosskasten aus verzinktem Stahlblech
+            Einschließlich Sichtbeschlag.
+
+34.71 21A   Notausgangsverschluss selbstv.f.Türen/RR.-Elemente                                                                    Stk
+            Betrifft Position(en):____________
+            Fallenausführung (z.B. Kreuzfalle, Metallfalle):____________
+            Art der Verriegelung (z.B. einfach, mehrfach): ____________
+            Oberfläche (z.B. Edelstahl, Dekorsilber): ____________
+            Beschreibung Sichtbeschlag: ____________
+
+34.71 22    Panikverschluss, selbstverriegelnd (selbstv.), für Rohrrahmen (RR).-Elemente für Innen-, Außen- und
+            Feuerschutztüren.
+                • Einsteckschloss
+                • Schlosskasten aus verzinktem Stahlblech
+            Einschließlich Sichtbeschlag.
+
+34.71 22A   Panikverschluss selbstv.f.Türen/RR.-Elemente                                                                          Stk
+            Betrifft Position(en):____________
+            Fallenausführung (z.B. Kreuzfalle, Metallfalle):____________
+            Art der Verriegelung (z.B. einfach, mehrfach): ____________
+            Oberfläche (z.B. Edelstahl, Dekorsilber): ____________
+            Beschreibung Sichtbeschlag: ____________
+            Ausführung (z.B. mechanisch, batteriebetrieben, elektronisch kuppelbar, mit motorischer Entriegelung, mit
+            motorischer Ent- und Verriegelung): ____________
+
+34.72       Türschließer u.Drehtürantriebe f.Türen/RR.-Elemente
+             Kommentar:
+             Auf Parameter wie z.B. Feuerschutz, Benutzerklasse/Objekttauglichkeit, Widerstandsklasse, Barrierefreiheit, Ausführung
+             (Rosette oder Langschild), Schutzklasse Drücker, Panik- oder Fluchtfunktionen ist zu achten.
+             Das Zusammenstellen einzelner Bauteile, die Krafteinstellung und die Montage erfolgen nach Angaben des Herstellers.
+             Frei zu formulieren (z.B.):
+                  • Kraftunterstützte Antriebe
+                  • Vollantriebe
+                  • Systemzubehör für Antriebe (z.B. Wand- und Bodenstopper, Taster, Radarmelder)
+                  • Niedrigenergieantriebe
+
+            LB-Version: 23                 Geringfügig Geändert
+34.72 01    Gleitschienen-Türschließer für Türen bei Rohrrahmen (RR).-Elementen.
+
+34.72 01A   Gleitschienen-Türschließer f.Türen/RR.-Elemente                                                                       Stk
+            Betrifft Position(en): ____________
+            Montageart (bandseitig, bandgegenseitig): ____________
+
+                                                                                                                            Seite 30 / 34
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+
+            Ausführung (einflügelig, zweiflügelig):____________
+            Stark abfallendes Öffnungsmoment (ja/nein):____________
+            Einstellbare Schließkraft (ja/nein):____________
+            Einstellbare Schließverzögerung (ja/nein):____________
+            Einstellbarer Endschlag (ja/nein):____________
+            Einstellbare Öffnungsdämpfung (ja/nein):____________
+            Einstellbare Schließgeschwindigkeit (ja/nein):____________
+            Einstellbare Schließung leise (ja/nein):____________
+            Freilauffunktion (ja/nein):____________
+            Elektromechanische Feststellung (ja/nein):____________
+            Rastfeststellung (ja/nein):____________
+            Öffnungsbegrenzer (ja/nein):____________
+            Integrierter Rauchmelder (ja/nein):____________
+34.72 11    Integrierter Türschließer für Türen bei Rohrrahmen (RR).-Elementen.
+
+34.72 11A   Integrierter Türschließer f.Türen/RR.-Elemente                                                                    Stk
+            Betrifft Position(en): ____________
+            Ausführung (einflügelig, zweiflügelig):____________
+            Stark abfallendes Öffnungsmoment (ja/nein):____________
+            Einstellbare Schließkraft (ja/nein):____________
+            Einstellbare Schließgeschwindigkeit (ja/nein):____________
+            Freilauffunktion (ja/nein):____________
+            Elektromechanische Feststellung (ja/nein):____________
+            Rastfeststellung (ja/nein):____________
+            Öffnungsbegrenzer (ja/nein):____________
+34.72 21    Bodentürschließer für Türen bei Rohrrahmen (RR).-Elementen.
+
+34.72 21A   Bodentürschließer f.Türen/RR.-Elemente                                                                            Stk
+            Betrifft Position(en): ____________
+            Ausführung (einflügelig, zweiflügelig):____________
+            Stark abfallendes Öffnungsmoment (ja/nein):____________
+            Einstellbare Schließkraft (ja/nein):____________
+            Einstellbare Schließgeschwindigkeit (ja/nein):____________
+            Freilauffunktion (ja/nein):____________
+            Elektromechanische Feststellung (ja/nein):____________
+            Rastfeststellung (ja/nein):____________
+            Öffnungsbegrenzer (ja/nein):____________
+34.72 31    Drehtürantriebe für Innen, für Türen bei Rohrrahmen (RR).-Elementen, entsprechend der jeweiligen
+            Nutzungsvariante ausgeführt.
+            Zur sicheren Schließung bei Ausführung eines Fallenschlosses ist gesichertes Überwinden des
+            Fallenwiderstandes in Form einer kurzen Kraftbewegung auszufügen.
+            Auftretende Windlasten sind vom Antrieb automatisch auszugleichen.
+             Kommentar:
+             Drehtürantriebe sind entsprechend der geltenden ÖNORM EN 16005 in der jeweiligen Nutzungsvariante auszuführen.
+
+34.72 31A   Drehtürantriebe f.Türen/RR.-Elemente                                                                              Stk
+            Betrifft Position(en):____________
+            Ausführung (einflügelig, zweiflügelig, zweiflügelig nur Gangflügel):____________
+            Montageart (bandseitig oder gegenbandseitig):____________
+            Erforderlicher Öffnungswinkel:____________
+            Einstellbarer Endschlag (Ja/Nein):____________
+            Einstellbare Schließgeschwindigkeit (Ja/Nein):____________
+                                                                                                                        Seite 31 / 34
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+            Feststellung in Offenstellung (Ja/Nein):____________
+            Automatische Schließung bei Stromausfall: (Ja/Nein):____________
+            Ansteuerung Elektroschloss (Ja/Nein): ____________
+            LB-Version: 23                 Geringfügig Geändert
+34.72 41    Vollautomatische Antriebe innen, für Türen bei Rohrrahmen (RR).-Elementen.
+            Zur Absicherung der Nebenschließkante(n) sind elektronische Absicherungselemente in erforderlicher Anzahl
+            zu berücksichtigen und im Einheitspreis einkalkuliert.
+             Kommentar:
+             Drehtürantriebe sind entsprechend der geltenden ÖNORM EN 16005 in der jeweiligen Nutzungsvariante auszuführen.
+
+34.72 41A   Vollautomatische Antriebe innen f.Türen/RR.-Elemente                                                                  Stk
+            Betrifft Position(en):____________
+            Ausführung (einflügelig, zweiflügelig, zweiflügelig nur Gangflügel):____________
+            Montageart (bandseitig oder gegenbandseitig):____________
+            Gleitschienenmontage (Ja/Nein):____________
+            Erforderlicher Öffnungswinkel:____________
+            Einstellbarer Endschlag (Ja/Nein):____________
+            Einstellbare Schließgeschwindigkeit (Ja/Nein):____________
+            Feststellung in Offenstellung (Ja/Nein):____________
+            Automatische Schließung bei Stromausfall: (Ja/Nein):____________
+            Ansteuerung Elektroschloss (Ja/Nein): ____________
+            Beschreibung Sicherheits-Sensorik:____________
+            LB-Version: 23                 Geringfügig Geändert
+34.72 42    Vollautomatische Antriebe außen, für Türen bei Rohrrahmen (RR).-Elementen.
+            Zur Absicherung der Nebenschließkante(n) sind elektronische Absicherungselemente in erforderlicher Anzahl
+            zu berücksichtigen und im Einheitspreis einkalkuliert.
+             Kommentar:
+             Drehtürantriebe sind entsprechend der geltenden ÖNORM EN 16005 in der jeweiligen Nutzungsvariante auszuführen.
+
+34.72 42A   Vollautomatische Antriebe außen f.Türen/RR.-Elemente                                                                  Stk
+            Betrifft Position(en):____________
+            Ausführung (einflügelig, zweiflügelig, zweiflügelig nur Gangflügel):____________
+            Montageart (bandseitig oder gegenbandseitig):____________
+            Gleitschienenmontage (Ja/Nein):____________
+            Erforderlicher Öffnungswinkel:____________
+            Einstellbarer Endschlag (Ja/Nein):____________
+            Einstellbare Schließgeschwindigkeit (Ja/Nein):____________
+            Feststellung in Offenstellung (Ja/Nein):____________
+            Automatische Schließung bei Stromausfall: (Ja/Nein):____________
+            Ansteuerung Elektroschloss (Ja/Nein): ____________
+            Beschreibung Sicherheits-Sensorik:____________
+            LB-Version: 23                 Geringfügig Geändert
+
+34.73       Fluchtwegsicherungen f.Türen/RR.-Elemente
+             Kommentar:
+             Auf Parameter wie z.B. Feuerschutz, Benutzerklasse/Objekttauglichkeit, Widerstandsklasse, Barrierefreiheit, Ausführung
+             (Rosette oder Langschild), Schutzklasse Drücker, Panik- oder Fluchtfunktionen ist zu achten.
+             Durch elektrische Steuerungen, Auslöseelemente und Verriegelungen wird eine missbräuchliche Benutzung eines
+             Fluchtweges entgegengewirkt.
+
+34.73 01    Unterputz (UP) - Türterminal zur Sicherung von Flucht- und Rettungswegen, für Türen bei Rohrrahmen
+            (RR).-Elementen.
+                • ohne Netzteil
+
+                                                                                                                            Seite 32 / 34
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+                • mit aktiv beleuchtetem Fluchtwegschild (LED)
+                • mit integrierter Schlüsseltasteinrichtung, vorgerichtet für Europrofil-Halbzylinder
+                • mit integrierter Steuer- und Nottasteneinheit im sabotagegeschütztem Gehäuse
+
+34.73 01A   UP-Türterminal 1x24V LED f.Türen/RR.-Elemente                                                                    Stk
+            Betrifft Position(en): ____________
+            Für externe 24 V DC +/-10% Spannungsversorgung.
+            Art der Bedienung (Schlüssel, PIN Code, RFID): ____________
+            Zusatzverriegelung Tür (z.B. verdeckt, elektromagnetisch, elektromechanisch): ____________
+            Zeitverzögerung (Ja/Nein): ____________
+
+34.73 01B   UP-Türterminal 1x230V LED f.Türen/RR.-Elemente                                                                   Stk
+            Betrifft Position(en): ____________
+            Für externe 230 V DC +/-10% Spannungsversorgung.
+            Art der Bedienung (Schlüssel, PIN Code, RFID): ____________
+            Zusatzverriegelung Tür (z.B. verdeckt, elektromagnetisch, elektromechanisch): ____________
+            Zeitverzögerung (Ja/Nein): ____________
+
+34.73 11    Aufputz (AP) - Türterminal zur Sicherung von Flucht- und Rettungswegen, für Türen bei Rohrrahmen
+            (RR).-Elementen.
+                • ohne Netzteil
+                • mit aktiv beleuchtetem Fluchtwegschild (LED)
+                • mit integrierter Schlüsseltasteinrichtung, vorgerichtet für Europrofil-Halbzylinder
+                • mit integrierter Steuer- und Nottasteneinheit im sabotagegeschütztem Gehäuse
+
+34.73 11A   AP-Türterminal 1x24V LED f.Türen/RR.-Elemente                                                                    Stk
+            Betrifft Position(en): ____________
+            Für externe 24 V DC +/-10% Spannungsversorgung.
+            Art der Bedienung (Schlüssel, PIN Code, RFID): ____________
+            Zusatzverriegelung Tür (z.B. verdeckt, elektromagnetisch, elektromechanisch): ____________
+            Zeitverzögerung (Ja/Nein): ____________
+
+34.73 11B   AP-Türterminal 1x230V LED f.Türen/RR.-Elemente                                                                   Stk
+            Betrifft Position(en): ____________
+            Für externe 230 V DC +/-10% Spannungsversorgung.
+            Art der Bedienung (Schlüssel, PIN Code, RFID): ____________
+            Zusatzverriegelung Tür (z.B. verdeckt, elektromagnetisch, elektromechanisch): ____________
+            Zeitverzögerung (Ja/Nein): ____________
+
+34.90       Regieleistungen
+
+
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen.
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+                                                                                                                       Seite 33 / 34
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+34.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+34.90 00C   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+34.90 01    Regiestunden.
+
+34.90 01A   Regiestunde Facharbeiter                                                                                    h
+            Für Facharbeiter.
+
+34.90 01B   Regiestunde Hilfsarbeiter                                                                                   h
+            Für Hilfsarbeiter.
+
+34.90 51    Materiallieferungen f.Regieleistungen                                                                       VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+            LB-Version: 23                 Geringfügig Geändert
+
+
+
+
+                                                                                                                  Seite 34 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+

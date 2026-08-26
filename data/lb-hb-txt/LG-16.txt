@@ -1,0 +1,1228 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                            Leistungsgruppe (LG) 16 - Fertigteile
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 1600    Wählbare Vorbemerkungen
+                     ULG 1601    Köcherhals,Verschraubungen,Schlitzfundamente
+                     ULG 1602    Fertigteilstützen aus Stahlbeton
+                     ULG 1603    Fertigteilträger aus Stahlbeton
+                     ULG 1604    Fertigteildecken
+                     ULG 1605    Fertigteilwandelemente einschichtig
+                     ULG 1606    Fertigteilwandelemente einschichtig,vorgehängt als Fassade
+                     ULG 1607    Fertigteilwandelemente dreischichtig
+                     ULG 1626    Sonstige Fertigteile
+                     ULG 1628    Einbauteile u.Sonstiges
+                     ULG 1651    Fertig-Garagen aus Stahlbeton
+
+
+
+
+                                                                                                           Seite 1 / 20
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                                 EH
+
+16          Fertigteile
+            Version 022 (2021-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Leistungen des AG:
+            Statische Berechnungen und Konstruktionszeichnungen (z.B. Polier- und etwaiger Detailpläne) werden vom AG
+            zur Verfügung gestellt.
+            2. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Anfertigen der Werkzeichnungen, einschließlich Einbauteile. Werkzeichnungen werden dem
+                  Auftraggeber zur rechtzeitigen Freigabe vor Beginn der Erzeugung innerhalb der zu vereinbarenden Frist
+                  vorgelegt.
+                • durch den Auftragnehmer zu vertretenden Zwischentransporte
+                • Einmessen der Fertigteile
+                • Vergießen von Hüllrohr- und Dornverbindungen
+                • Ausbilden abgefaster Kanten
+                • Einbauteile, die zur Manipulation, Montage und zum Verbinden der Fertigteile untereinander oder mit der
+                  Tragkonstruktion benötigt werden, einschließlich der Gegenstücke, die beim Errichten der
+                  Tragkonstruktion versetzt werden müssen
+            3. Oberflächen:
+            Die geschalten Sichtoberflächen werden mit wassersperrenden Schalungen (aus Stahl, Kunststoff oder
+            oberflächenvergüteten, mehrschichtigen Platten) gemäß ÖNORM B 2204 Klasse 2P, S2, F1 und A1 hergestellt.
+            Die Einfüllseite ist waagrecht abgezogen.
+            4. Bewehrung:
+            Bewehrungen werden in BSt. 550 (Rippen-Stabstahl) oder M 550 (Bewehrungsmatten) ausgeführt.
+            Als Standardbewehrung gelten alle Stabstahl Positionen ohne Unterschied der Durchmesser von 8 bis 36 mm
+            mit einer Werkslänge von höchstens 14 m und Bewehrungsmatten mit einem Flächengewicht über 2,1 kg/m2.
+            Die Abrechnung erfolgt nach Stahlauszugslisten.
+             Kommentar:
+             Ist beabsichtigt, die Vergabe getrennt von den übrigen Baumeisterarbeiten durchzuführen, sind entsprechende
+             Bestimmungen auch aus der LG 01 (Baustellengemeinkosten) auszuschreiben.
+             Halb-Fertigteile (z.B. Elementdecken mit Bewehrungsstegen und Decken aus Trägern und Füllsteinen) sind in der LG 07
+             (Beton- und Stahlbetonarbeiten) beschrieben.
+             Auflager bei Treppen und Podesten sind in der LG 07 (Beton- und Stahlbetonarbeiten) beschrieben.
+             In die Lücke "Plan-/Skizzennummer, sonstige Angaben" ist der Hinweis auf eine Ausführungszeichnung oder eine weitere
+             Beschreibung einzutragen.
+             Regiearbeiten sind in der LG 20 beschrieben.
+             Pflanzentröge sind in der LG 58 (Garten- und Landschaftsbau) beschrieben oder frei zu formulieren.
+             Frei zu formulieren (z.B.):
+                 • Hilfskonstruktionen (z.B. Sonderunterstellungen, Aussteifungen) gemäß Statik (AG)
+                 • vorgespannte Träger mit nachträglichem Verbund
+                 • Auflager für die Fertigteilträger in Sonderform (z.B. verdornte Auflager, Gleitlager)
+                 • andere Oberflächen (Sichtbeton)
+             Literaturverzeichnis (z.B.):
+             ÖNORM B 2204: Ausführung von Bauteilen - Werkvertragsnorm
+             DIN 18202: Toleranzen im Hochbau - Bauwerke
+             ÖNORM EN 13369: Allgemeine Regeln für Betonfertigteile
+
+            LB-Version: 23                  Geringfügig Geändert
+
+16.00       Wählbare Vorbemerkungen
+16.00 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+16.00 00C   Edelstahl korrosionsbeständiger Stahl V2A
+
+
+
+                                                                                                                                 Seite 2 / 20
+                                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl V2A mit der Werkstoffnummer ____________
+            beschrieben.
+            Betrifft Position(en):____________
+
+16.00 00D   Edelstahl korrosionsbeständiger Stahl V4A
+            Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl V4A mit der Werkstoffnummer ____________
+            beschrieben.
+            Betrifft Position(en):____________
+
+16.01       Köcherhals,Verschraubungen,Schlitzfundamente
+16.01 01    Köcherhälse aus Stahlbeton (Stb.) als Fertigteile auf vorhandener Sauberkeitsschicht.
+            Standfüße werden mit den Bewehrungspositionen abgerechnet.
+
+16.01 01A   Köcherhälse Stb.als Fertigteile                                                                              Stk
+            Festigkeitsklasse Beton: C ____________
+            Abmessungen: ____________ cm
+            Wanddicke: ____________ cm
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.01 02    Zentriereinrichtungen für Köcherhälse für Fertigteilstützen.
+
+16.01 02A   Zentriereinrichtungen f.Köcherhälse                                                                          Stk
+            Einmessen und einbauen.
+
+16.01 03    Schraubverbindungen für Verankerung von Fertigteilstützen.
+
+16.01 03A   Schraubverbindungen/Stützenschuhe                                                                            Stk
+            Stützenschuhe.
+            Abmessungen: ____________ cm
+            Type gemäß Statik vom AG: ____________
+            Betrifft Position(en): ____________
+
+16.01 03B   Schraubverbindungen/Ankerbolzen                                                                              Stk
+            Ankerbolzen.
+            Abmessungen: ____________ cm
+            Type gemäß Statik vom AG: ____________
+            Betrifft Position(en): ____________
+
+16.01 05    Schlitzfundamente aus Stahlbeton (Stb.) als Fertigteile auf vorhandener Sauberkeitsschicht.
+
+16.01 05A   Schlitzfundamente Stb.als Fertigteile                                                                        Stk
+            Festigkeitsklasse Beton C: ____________
+            Abmessungen der Fundamentplatte (Länge x Breite x Höhe): ____________ x ____________ x ____________
+            cm
+            Wanddicke: ____________ cm
+            Wandhöhe: ____________ cm
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.01 71    Aufzahlung (Az) auf Beton für Köcherhälse und Schlitzfundamente.
+
+16.01 71X   Az Beton Köcherh./Schlitzf.f.Expositionsklasse                                                               m³
+            Für eine höhere Expositionsklasse:____________
+            Betrifft Position(en):____________
+
+16.02       Fertigteilstützen aus Stahlbeton
+
+
+            Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+                                                                                                                    Seite 3 / 20
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            einkalkuliert:
+                 • bei Fertigteilstützen aus Stahlbeton der Vergussmörtel bzw. der Vergussbeton
+16.02 01    Fertigteilstützen aus Stahlbeton (Stb.) mit quadratischem oder rechteckigem (eckig) Querschnitt.
+
+16.02 01A   Fertigteilstützen Stb.eckig                                                                                   Stk
+            Festigkeitsklasse Beton: C ____________
+            Querschnitt: ____________ x ____________ cm
+            Fertigteil/Länge: ____________ cm
+            Stützenfuß (z.B. profiliert in Köcher, geschraubt, Hüllrohrstoß): ____________
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.02 01V   Bewehrung Stabstahl f.Fertigteilstützen Stb.eckig                                                             kg
+            Bewehrung aus Stabstahl.
+
+16.02 01W   Bewehrung Matten f.Fertigteilstützen Stb.eckig                                                                kg
+            Bewehrung mit Matten.
+
+16.02 03    Fertigteilstützen aus Stahlbeton (Stb.) mit rundem Querschnitt.
+
+16.02 03A   Fertigteilstützen Stb.rund                                                                                    Stk
+            Festigkeitsklasse Beton: C ____________
+            Durchmesser: ____________ cm
+            Fertigteil/Länge: ____________ cm
+            Stützenfuß (z.B. profiliert in Köcher, geschraubt, Hüllrohrstoß): ____________
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.02 03V   Bewehrung Stabstahl f.Fertigteilstützen Stb.rund                                                              kg
+            Bewehrung aus Stabstahl.
+
+16.02 03W   Bewehrung Matten f.Fertigteilstützen Stb.rund                                                                 kg
+            Bewehrung mit Matten
+
+16.02 05    Fertigteilstützen aus Stahlbeton (Stb.) in Sonderform.
+
+16.02 05A   Fertigteilstützen Stb.Sonderform                                                                              Stk
+            Festigkeitsklasse Beton: C ____________
+            Abmessungen: ____________ cm
+            Fertigteil/Länge: ____________ cm
+            Stützenfuß (z.B. profiliert in Köcher, geschraubt, Hüllrohrstoß): ____________
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.02 05V   Bewehrung Stabstahl f.Fertigteilstützen Stb.Sonderform                                                        kg
+            Bewehrung aus Stabstahl.
+
+16.02 05W   Bewehrung Matten f.Fertigteilstützen Stb.Sonderform                                                           kg
+            Bewehrung mit Matten.
+
+16.02 71    Aufzahlung (Az) auf Beton für Fertigteilstützen.
+
+16.02 71X   Az Beton Fertigteilstützen f.Expositionsklasse                                                                m³
+            Für eine höhere Expositionsklasse:____________
+            Betrifft Position(en):____________
+
+16.03       Fertigteilträger aus Stahlbeton
+
+
+            Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+
+                                                                                                                     Seite 4 / 20
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+            einkalkuliert:
+                 • bei Fertigteilträgern aus Stahlbeton der Vergussmörtel bzw. der Vergussbeton
+16.03 01    Fertigteilträger aus Stahlbeton (Stb.) mit quadratischem oder rechteckigem (eckig) Querschnitt.
+
+16.03 01A   Fertigteilträger Stb.eckig                                                                                    Stk
+            Festigkeitsklasse Beton: C ____________
+            Querschnitt: ____________ x ____________ cm
+            Fertigteil/Länge: ____________ cm
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.03 01V   Bewehrung Stabstahl f.Fertigteilträger Stb.eckig                                                              kg
+            Bewehrung aus Stabstahl.
+
+16.03 01W   Bewehrung Matten f.Fertigteilträger Stb.eckig                                                                 kg
+            Bewehrung mit Matten.
+
+16.03 03    Fertigteilträger aus Stahlbeton (Stb.) mit T-förmigem Querschnitt.
+
+16.03 03A   Fertigteilträger Stb.T-förmig                                                                                 Stk
+            Festigkeitsklasse Beton: C ____________
+            Querschnitt: ____________ x ____________ cm
+            Fertigteil/Länge: ____________ cm
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.03 03V   Bewehrung Stabstahl f.Fertigteilträger Stb.T-förmig                                                           kg
+            Bewehrung aus Stabstahl.
+
+16.03 03W   Bewehrung Matten f.Fertigteilträger Stb.T-förmig                                                              kg
+            Bewehrung mit Matten
+
+16.03 05    Fertigteilträger aus Stahlbeton (Stb.) mit I-förmigem Querschnitt.
+
+16.03 05A   Fertigteilträger Stb.I-förmig                                                                                 Stk
+            Festigkeitsklasse Beton: C ____________
+            Querschnitt: ____________ x ____________ cm
+            Fertigteil/Länge: ____________ cm
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.03 05V   Bewehrung Stabstahl f.Fertigteilträger Stb.I-förmig                                                           kg
+            Bewehrung aus Stabstahl.
+
+16.03 05W   Bewehrung Matten f.Fertigteilträger Stb.I-förmig                                                              kg
+            Bewehrung mit Matten
+
+16.03 07    Fertigteilträger aus Stahlbeton (Stb.) mit L-förmigem Querschnitt.
+
+16.03 07A   Fertigteilträger Stb.L-förmig                                                                                 Stk
+            Festigkeitsklasse Beton: C ____________
+            Querschnitt: ____________ x ____________ cm
+            Fertigteil/Länge: ____________ cm
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.03 07V   Bewehrung Stabstahl f.Fertigteilträger Stb.L-förmig                                                           kg
+            Bewehrung aus Stabstahl.
+
+16.03 07W   Bewehrung Matten f.Fertigteilträger Stb.L-förmig                                                              kg
+            Bewehrung mit Matten.
+
+16.03 09    Fertigteilträger aus Stahlbeton (Stb.) in Sonderform.
+                                                                                                                     Seite 5 / 20
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+
+16.03 09A   Fertigteilträger Stb.Sonderform                                                                          Stk
+            Festigkeitsklasse Beton: C ____________
+            Abmessungen: ____________ cm
+            Fertigteil/Länge: ____________ cm
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.03 09V   Bewehrung Stabstahl f.Fertigteilträger Stb.Sonderform                                                    kg
+            Bewehrung aus Stabstahl.
+
+16.03 09W   Bewehrung Matten f.Fertigteilträger Stb.Sonderform                                                       kg
+            Bewehrung mit Matten.
+
+16.03 21    Auflager für Fertigteilträger aus Stahlbeton (Stb.).
+
+16.03 21A   Auflager f.Fertigteilträger Stb.elastisch                                                                Stk
+            Elastisch unbewehrt.
+            Belastung: ____________ kN/m2
+            Abmessungen: ____________ x ____________ cm
+
+16.03 21B   Auflager f.Fertigteilträger Stb.elastisch textilbewehrt                                                  Stk
+            Aus einem elastischen Lagerkörper, textilbewehrt.
+            Belastung: ____________ kN/m2
+            Abmessungen: ____________ x ____________ cm
+
+16.03 21C   Auflager f.Fertigteilträger Stb.elastisch stahlbewehrt                                                   Stk
+            Aus einem elastischen Lagerkörper, mit Stahlbewehrung.
+            Belastung: ____________ kN/m2
+            Abmessungen: ____________ x ____________ cm
+
+16.03 71    Aufzahlung (Az) auf Beton für Fertigteilträger.
+
+16.03 71X   Az Beton Fertigteilträger f.Expositionsklasse                                                            m³
+            Für eine höhere Expositionsklasse:____________
+            Betrifft Position(en):____________
+
+16.04       Fertigteildecken
+
+
+            1. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Längs- oder Schrägschnitte bei vorgespannten Hohldielendecken, ohne Unterschied der Dielendicke
+            2. Ausmaß- und Abrechnungsregeln:
+            Abgerechnet wird die verlegte Deckenfläche, gemessen über die Roste, ohne Fugenverguss und Rostbeton.
+            Roste, Rostbeton und Fugenverguss sind in eigenen Positionen beschrieben.
+
+16.04 01    Fertigteildecken, schlaff bewehrt.
+
+16.04 01A   Fertigteildecke m.Vollbetonelementen schlaff bew.                                                        m²
+            Fertigteildecke mit Vollbetonelementen.
+            Festigkeitsklasse Beton: C ____________
+            Querschnitt/Abmessungen: ____________ cm
+            Fertigteil/Länge: ____________ cm
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.04 01B   Fertigteildecke m.TT-Platten schlaff bew.                                                                m²
+
+                                                                                                                Seite 6 / 20
+                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+            Fertigteildecke mit TT-Platten.
+            Festigkeitsklasse Beton: C ____________
+            Querschnitt/Abmessungen: ____________ cm
+            Fertigteil/Länge: ____________ cm
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.04 01C   Fertigteildecke m.Hohldielen schlaff bew.                                                                 m²
+            Fertigteildecke mit Hohldielen und Bewehrung.
+            Festigkeitsklasse Beton: C ____________
+            Querschnitt/Abmessungen: ____________ cm
+            Fertigteil/Länge: ____________ cm
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.04 01V   Bewehrung Stabstahl f.Fertigteildecken schlaff bew.                                                       kg
+            Bewehrung aus Stabstahl.
+
+16.04 01W   Bewehrung Matten f.Fertigteildecken schlaff bew.                                                          kg
+            Bewehrung mit Matten.
+
+16.04 03    Fertigteildecken, vorgespannt.
+
+16.04 03B   Fertigteildecke m.TT-Platten vorgespannt                                                                  m²
+            Fertigteildecke mit TT-Platten.
+            Festigkeitsklasse Beton: C ____________
+            Querschnitt/Abmessungen: ____________ cm
+            Fertigteil/Länge: ____________ cm
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.04 03C   Fertigteildecke m.Hohldielen vorgespannt                                                                  m²
+            Fertigteildecke mit Hohldielen und Bewehrung.
+            Festigkeitsklasse Beton: C ____________
+            Querschnitt/Abmessungen: ____________ cm
+            Fertigteil/Länge: ____________ cm
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.04 03S   Bewehrung Spannstahl f.Fertigteildecken vorgespannt                                                       kg
+            Bewehrung mit Spannstahl (Spannbetonlitzen z.B. ST 1570/1770, ST 1660/1860): ____________
+
+16.04 03V   Bewehrung Stabstahl f.Fertigteildecken vorgespannt                                                        kg
+            Bewehrung aus Stabstahl.
+
+16.04 03W   Bewehrung Matten f.Fertigteildecken vorgespannt                                                           kg
+            Bewehrung mit Matten.
+
+16.04 11    Fugenverguss von Vollbetonelement-, TT-Platten- und Hohldielendecken, ohne Unterschied der Plattendicke.
+            Abgerechnet im Ausmaß (m2) der Fertigteildecken.
+
+16.04 11A   Fugenverguss f.Fertigteildecken                                                                           m²
+
+16.04 11V   Bewehrung Stabstahl f.Fugenverguss                                                                        kg
+            Bewehrung mit Stabstahl.
+
+16.04 14    Rostbeton für Vollbetonelement-, TT-Platten- und Hohldielendecken,
+            Festigkeitsklasse C25/30.
+
+16.04 14A   Rostbeton f.Fertigteildecken                                                                              m³
+
+16.04 14S   Schalung f.Rostbeton                                                                                      m²
+                                                                                                                 Seite 7 / 20
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+            Randabschalung/Schalung für Rostbeton.
+
+16.04 14V   Bewehrung Stabstahl f.Rostbeton                                                                           kg
+            Bewehrung mit Stabstahl.
+
+16.04 21    Konstruktiver, ergänzender Aufbeton auf Fertigteildecken.
+                • unbewehrt
+            Dicke gemessen ab Oberkante Fertigteil.
+
+16.04 21A   Konstruktiver Aufbeton f.Fertigteildecken                                                                 m³
+            Beton der Festigkeitsklasse ____________
+            Dicke: ____________ cm
+
+16.04 21V   Bewehrung Stabstahl f.konstruktiver Aufbeton                                                              kg
+            Bewehrung aus Stabstahl.
+
+16.04 21W   Bewehrung Matten f.konstruktiver Aufbeton                                                                 kg
+            Bewehrung mit Matten.
+
+16.04 41    Rahmen aus Stahl für Auswechslungen bei Hohldielendecken.
+                • bis 1,2 m Auswechslungsbreite
+
+16.04 41A   Rahmen f.Auswechslung f.Hohldielendecken                                                                  Stk
+            Deckendicke: ____________cm
+
+16.04 51    Aufzahlung (Az) auf Fertigteildeckenelemente.
+
+16.04 51A   Az Fertigteildecken f.Verstärkungen                                                                       m³
+            Für Verstärkungen mit Beton (z.B. bei Treppenauflager).
+
+16.04 71    Aufzahlung (Az) auf Beton für Fertigteildecken.
+
+16.04 71X   Az Beton Fertigteildecken f.Expositionsklasse                                                             m³
+            Für eine höhere Expositionsklasse:____________
+            Betrifft Position(en):____________
+16.04 91    Aussparungen, Öffnungen und Nischen bei Fertigteildecken aus Vollbetonelementen (Vollbeton.-E.) und
+            TT-Platten.
+            Im Positionsstichwort ist die Größe (m2) angegeben.
+
+16.04 91A   Aussparung f.Vollbeton.-E./TT-Platten b.0,25m2                                                            Stk
+
+16.04 91B   Aussparung f.Vollbeton.-E./TT-Platten ü.0,25-0,5m2                                                        Stk
+
+16.04 91C   Aussparung f.Vollbeton.-E./TT-Platten ü.0,5-1m2                                                           Stk
+
+16.04 91D   Aussparung f.Vollbeton.-E./TT-Platten ü.1-2m2                                                             Stk
+
+16.04 91X   Aussparung f.Vollbeton.-E./TT-Platten ü.2m2:__________                                                    Stk
+16.05       Fertigteilwandelemente einschichtig
+
+
+            Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Befestigungsmittel, grundiert oder verzinkt
+                • etwaige Sichtflächenausbildungen an den Stirnseiten in Plattendicke
+            LB-Version: 23               Geringfügig Geändert
+16.05 11    Fertigteil-Wandelemente, ohne Unterschied der Einzelabmessungen.
+                • einschichtig (1sch.)
+                • ebenflächig
+
+                                                                                                                 Seite 8 / 20
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+16.05 11A   Fertigteil-Wandelemente 1sch.                                                                                 m²
+            Festigkeitsklasse Beton: C ____________
+            Elementdicke:____________ cm
+            Durchschnittliche Elementgröße:____________ m2
+            Anzahl der Elemente:____________
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.05 11E   Az Fertigteil-Wandelemente 1sch.f.Eck-/Leibungsausb.                                                          m²
+            Aufzahlung (Az) für die Ausführung von winkelförmigen Eck- oder Leibungsausbildungen.
+            Größte Schenkel-/Kantenlängen: ____________ cm
+            Abgerechnet wird die Summe der Längen von Gebäudeecken und Leibungen.
+            LB-Version: 23               Geringfügig Geändert
+
+16.05 11V   Bewehrung Stabstahl f.Fertigteil-Wandelemente 1sch.                                                           kg
+            Bewehrung aus Stabstahl.
+
+16.05 11W   Bewehrung Matten f.Fertigteil-Wandelemente 1sch.                                                              kg
+            Bewehrung mit Matten.
+
+16.05 71    Aufzahlung (Az) auf Beton für Fertigteil (FT)-Wandelemente einschichtig (1sch.).
+
+16.05 71X   Az Beton FT-Wandelemente 1sch.f.Expositionsklasse                                                             m³
+            Für eine höhere Expositionsklasse:____________
+            Betrifft Position(en):____________
+16.05 91    Aussparungen, Öffnungen und Nischen bei Fertigteilwandelemente (FT-Wand.-E.) einschichtig.
+            Im Positionsstichwort ist die Größe (m2) angegeben.
+
+16.05 91A   Aussparung FT-Wand.-E.einschichtig b.0,25m2                                                                   Stk
+
+16.05 91B   Aussparung FT-Wand.-E.einschichtig ü.0,25-0,5m2                                                               Stk
+
+16.05 91C   Aussparung FT-Wand.-E.einschichtig ü.0,5-1m2                                                                  Stk
+
+16.05 91D   Aussparung FT-Wand.-E.einschichtig ü.1-2m2                                                                    Stk
+
+16.05 91X   Aussparung FT-Wand.-E.einschichtig ü.2m2:__________                                                           Stk
+16.06       Fertigteilwandelemente einschichtig,vorgehängt als Fassade
+
+
+            Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Befestigungsmittel, grundiert oder verzinkt
+                • etwaige Sichtflächenausbildungen an den Stirnseiten in Plattendicke
+            LB-Version: 23               Geringfügig Geändert
+16.06 01    Musterplatte für einschichtige (1sch.) Fertigteil-Wandelemente.
+
+16.06 01A   Musterplatte f.1sch.Fertigteil-Wandelemente                                                                   Stk
+            Für eine spezielle Oberflächengestaltung.
+            Abmessungen: ____________ cm
+            Ausführung Oberfläche:____________
+
+16.06 01V   Bewehrung Stabstahl f.Fertigteil-Wandelement Musterpl.1sch.                                                   kg
+            Bewehrung aus Stabstahl.
+
+16.06 01W   Bewehrung Matten f.Fertigteil-Wandelemente Musterpl.1sch.                                                     kg
+
+                                                                                                                     Seite 9 / 20
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Bewehrung mit Matten.
+
+16.06 11    Fertigteil-Wandelemente, ohne Unterschied der Einzelabmessungen, als vorgehängtes Fassadenelement.
+                • einschichtig (1sch.)
+                • ebenflächig
+            Befestigungsmittel (z.B. Hängezuganker, Brüstungsanker) sind im Einheitspreis einkalkuliert.
+
+16.06 11A   Fertigteil-Wandelemente 1sch.,vorgehängt                                                                     m²
+            Festigkeitsklasse Beton: C ____________
+            Elementdicke:____________ cm
+            Durchschnittliche Elementgröße:____________ m2
+            Anzahl der Elemente:____________
+            Art der Befestigung: ____________
+            Wandabstand/Distanz: ____________ cm
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.06 11E   Az Fertigteil-Wandelemente 1sch.vorgehängt f.Eck/Leibung                                                     m²
+            Aufzahlung (Az) für die Ausführung von winkelförmigen Eck- oder Leibungsausbildungen.
+            Größte Schenkel-/Kantenlängen: ____________ cm
+            Abgerechnet wird die Summe der Längen von Gebäudeecken und Leibungen.
+            LB-Version: 23               Geringfügig Geändert
+
+16.06 11V   Bewehrung Stabstahl f.Fertigteil-Wandelement 1sch.vorgehängt                                                 kg
+            Bewehrung aus Stabstahl.
+
+16.06 11W   Bewehrung Matten f.Fertigteil-Wandelemente 1sch.vorgehängt                                                   kg
+            Bewehrung mit Matten.
+
+16.06 71    Aufzahlung (Az) auf Beton für Fertigteil (FT)-Wandelemente einschichtig (1sch.), eingehängt.
+
+16.06 71X   Az Beton FT-Wandelemente 1sch./eingeh.f.Expositionsklasse                                                    m³
+            Für eine höhere Expositionsklasse:____________
+            Betrifft Position(en):____________
+16.06 91    Aussparungen, Öffnungen und Nischen bei Fertigteilwandelemente (FT-Wand.-E.) einschichtig, vorgehängt
+            (vorgeh.) als Fassade.
+            Im Positionsstichwort ist die Größe (m2) angegeben.
+
+16.06 91A   Aussparung FT-Wand.-E.einschichtig,vorgeh.b.0,25m2                                                           Stk
+
+16.06 91B   Aussparung FT-Wand.-E.einschichtig,vorgeh.ü.0,25-0,5m2                                                       Stk
+
+16.06 91C   Aussparung FT-Wand.-E.einschichtig,vorgeh.ü.0,5-1m2                                                          Stk
+
+16.06 91D   Aussparung FT-Wand.-E.einschichtig,vorgeh.ü.1-2m2                                                            Stk
+
+16.06 91X   Aussparung FT-Wand.-E.einschichtig,vorgeh.ü.2m2:__________                                                   Stk
+16.07       Fertigteilwandelemente dreischichtig
+
+
+            Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Befestigungsmittel, grundiert oder verzinkt
+                • etwaige Sichtflächenausbildungen an den Stirnseiten in Plattendicke
+            Für das Verbinden dreischichtiger Fassadenplatten wird nur korrosionsbeständiges Material verwendet. Die
+            Verbindungen werden so ausgebildet, dass keine Zwängungsspannungen durch Temperaturunterschiede
+            entstehen können.
+            LB-Version: 23               Geringfügig Geändert
+
+                                                                                                                   Seite 10 / 20
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+16.07 01    Musterplatte für dreischichtige (3sch.) Fertigteil-Wandelemente.
+
+16.07 01A   Musterplatte f.3sch.Fertigteil-Wandelemente                                                                  Stk
+            Für eine spezielle Oberflächengestaltung.
+            Abmessungen: ____________ cm
+            Ausführung Oberfläche:____________
+
+16.07 01V   Bewehrung Stabstahl f.Fertigteil-Wandelement Musterpl.3sch.                                                  kg
+            Bewehrung aus Stabstahl.
+
+16.07 01W   Bewehrung Matten f.Fertigteil-Wandelemente Musterpl.3sch.                                                    kg
+            Bewehrung mit Matten.
+
+16.07 11    Fertigteil-Wandelemente, ohne Unterschied der Einzelabmessungen.
+                • dreischichtig (3sch.)
+                • ebenflächig
+            Bestehend aus:
+                • Vorsatzschale mindestens 7 cm dick
+                • Dämmmaterial: Expandiertes Polystyrol (EPS)
+            Befestigungsmittel (z.B. Hängezuganker, Brüstungsanker) sind im Einheitspreis einkalkuliert.
+
+16.07 11A   Fertigteil-Wandelemente 3sch.                                                                                m²
+            Festigkeitsklasse Beton: C ____________
+            U-Wert der Gesamtkonstruktion: ____________
+            Dicke der Tragschicht:____________ cm
+            Gesamt-Elementdicke:____________ cm
+            Anzahl der Elemente:____________
+            Art der Befestigung: ____________
+            Wandabstand/Distanz: ____________ cm
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+            LB-Version: 23                Geringfügig Geändert
+
+16.07 11E   Az Fertigteil-Wandelemente 3sch.f.Eck/Leibung                                                                m²
+            Aufzahlung (Az) für die Ausführung von winkelförmigen Eck- oder Leibungsausbildungen.
+            Größte Schenkel-/Kantenlängen: ____________ cm
+            Abgerechnet wird die Summe der Längen von Gebäudeecken und Leibungen.
+            LB-Version: 23                Geringfügig Geändert
+
+16.07 11F   Az Fertigteil-Wandelemente 3sch.f.Eck/Leibung f.Pl.                                                          m²
+            Aufzahlung (Az) für die Ausführung von winkelförmigen Eck- oder Leibungsausbildungen.
+                • in Plattendicke
+            Größte Schenkel-/Kantenlängen: ____________ cm
+            Abgerechnet wird die Summe der Längen von Gebäudeecken und Leibungen.
+            LB-Version: 23                Geringfügig Geändert
+
+16.07 11V   Bewehrung Stabstahl f.Fertigteil-Wandelement 3sch.                                                           kg
+            Bewehrung aus Stabstahl.
+
+            LB-Version: 23                Geringfügig Geändert
+
+16.07 11W   Bewehrung Matten f.Fertigteil-Wandelement 3sch.                                                              kg
+            Bewehrung mit Matten.
+
+            LB-Version: 23                Geringfügig Geändert
+16.07 21    Aufzahlung (Az) auf Fertigteil-Wandelemente, ohne Unterschied der Einzelabmessungen.
+                • dreischichtig (3sch.)
+                • ebenflächig
+
+                                                                                                                   Seite 11 / 20
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            Bestehend aus:
+                • Vorsatzschale mindestens 7 cm dick
+                • Dämmmaterial
+            Befestigungsmittel (z.B. Hängezuganker, Brüstungsanker) sind im Einheitspreis einkalkuliert.
+
+16.07 21A   Az Fertigteil-Wandelemente 3sch.f.XPS                                                                        m²
+            Für ein Dämmmaterial aus extrudiertem Polysterol (XPS).
+            Betrifft Position(en): ____________
+            LB-Version: 23              Geringfügig Geändert
+
+16.07 21B   Az Fertigteil-Wandelemente 3sch.f.Steinwolle                                                                 m²
+            Für ein Dämmmaterial aus Steinwolle.
+            Betrifft Position(en): ____________
+            LB-Version: 23              Geringfügig Geändert
+
+16.07 21C   Az Fertigteil-Wandelemente 3sch.f.Dämmmaterial                                                               m²
+            Für ein Dämmmaterial aus: ____________
+            Betrifft Position(en): ____________
+            LB-Version: 23              Geringfügig Geändert
+16.07 71    Aufzahlung (Az) auf Beton für Fertigteil (FT)-Wandelemente dreischichtig (3sch.), eingehängt.
+
+16.07 71X   Az Beton FT-Wandelemente 3sch./eingeh.f.Expositionsklasse                                                    m³
+            Für eine höhere Expositionsklasse:____________
+            Betrifft Position(en):____________
+16.07 91    Aussparungen, Öffnungen und Nischen bei Fertigteilwandelemente (FT-Wand.-E.) dreischichtig.
+            Im Positionsstichwort ist die Größe (m2) angegeben.
+
+16.07 91A   Aussparung FT-Wand.-E.dreischichtig b.0,25m2                                                                 Stk
+            LB-Version: 23              Geringfügig Geändert
+
+16.07 91B   Aussparung FT-Wand.-E.dreischichtig ü.0,25-0,5m2                                                             Stk
+            LB-Version: 23              Geringfügig Geändert
+
+16.07 91C   Aussparung FT-Wand.-E.dreischichtig ü.0,5-1m2                                                                Stk
+            LB-Version: 23              Geringfügig Geändert
+
+16.07 91D   Aussparung FT-Wand.-E.dreischichtig ü.1-2m2                                                                  Stk
+            LB-Version: 23              Geringfügig Geändert
+
+16.07 91X   Aussparung FT-Wand.-E.dreischichtig ü.2m2:__________                                                         Stk
+            LB-Version: 23              Geringfügig Geändert
+
+16.26       Sonstige Fertigteile
+16.26 01    Treppenelemente/Treppenlauf als Fertigteil, einschließlich Bewehrung.
+                • gerade
+
+16.26 01A   Fertigteil Treppenelemente gerade                                                                            Stk
+            Festigkeitsklasse Beton: C____________
+            Treppenlauf Breite: ____________ cm
+            Laufplattendicke: ____________ cm
+            Belagsdicke: ____________ mm
+            Steigungsverhältnis (HxB): ____________ x ____________ cm
+            Anzahl der Steigungen: ____________
+
+
+
+
+                                                                                                                   Seite 12 / 20
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+            Nutzlast ohne Belag: ____________ kN/m2
+            Plan-/Skizzennummer, sonstige Angaben (z.B. Oberfläche Trittstufen): ____________
+16.26 03    Treppenelemente/Treppenlauf als Fertigteil, einschließlich Bewehrung.
+                • gewendelt
+
+16.26 03A   Fertigteil Treppenelemente gewendelt                                                                          Stk
+            Festigkeitsklasse Beton: C____________
+            Treppenlauf Breite: ____________ cm
+            Laufplattendicke: ____________ cm
+            Belagsdicke: ____________ mm
+            Steigungsverhältnis (HxB): ____________ x ____________ cm
+            Anzahl der Steigungen: ____________
+            Nutzlast ohne Belag: ____________ kN/m2
+            Plan-/Skizzennummer, sonstige Angaben (z.B. Oberfläche Trittstufen): ____________
+16.26 05    Treppenelemente/Treppenlauf als Fertigteil, einschließlich Bewehrung.
+
+16.26 05A   Fertigteil Treppenelemente+Podest einseitig                                                                   Stk
+            Mit einseitig angeformtem Podest.
+            Festigkeitsklasse Beton: C____________
+            Abmessungen Podest (LxB):____________ x ____________ cm
+            Treppenlauf Breite: ____________ cm
+            Podestplattendicke: ____________ cm
+            Laufplattendicke: ____________ cm
+            Belagsdicke: ____________ mm
+            Steigungsverhältnis (HxB): ____________ x ____________ cm
+            Anzahl der Steigungen: ____________
+            Nutzlast ohne Belag: ____________ kN/m2
+            Plan-/Skizzennummer, sonstige Angaben (z.B. Oberfläche Trittstufen): ____________
+
+16.26 05B   Fertigteil Treppenelemente+Podest zweiseitig                                                                  Stk
+            Mit zweiseitig angeformtem Podest.
+            Festigkeitsklasse Beton: C____________
+            Abmessungen Podest (LxB):____________ x ____________ cm
+            Treppenlauf Breite: ____________ cm
+            Podestplattendicke: ____________ cm
+            Laufplattendicke: ____________ cm
+            Belagsdicke: ____________ mm
+            Steigungsverhältnis (HxB): ____________ x ____________ cm
+            Anzahl der Steigungen: ____________
+            Nutzlast ohne Belag: ____________ kN/m2
+            Plan-/Skizzennummer, sonstige Angaben (z.B. Oberfläche Trittstufen): ____________
+16.26 07    Podestplatten als Fertigteile, einschließlich Bewehrung, mit Auflagerausbildung für den Treppenlauf.
+
+16.26 07A   Fertigteil Podestplatten f.Treppen                                                                            Stk
+            Betrifft Treppenlauf: ____________
+            Festigkeitsklasse Beton: C____________
+            Abmessungen Podest (L x B):____________ x ____________ cm
+            Podestplattendicke: ____________ cm
+            Belagsdicke: ____________ mm____________
+
+
+
+                                                                                                                    Seite 13 / 20
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            Nutzlast ohne Belag: ____________ kN/m2
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+16.26 11    Loggia- und Balkonplatte als Fertigteile, einschließlich Bewehrung.
+                • ohne Belag
+
+16.26 11A   Fertigteil Loggia- u.Balkonplatten ohne Belag                                                                Stk
+            Festigkeitsklasse Beton: C____________
+            Abmessungen (L x B):____________ x ____________ cm
+            Plattendicke: ____________ cm
+            Nutzlast: ____________ kN/m2
+            Plan-/Skizzennummer:____________
+            Anforderungen an die Oberfläche (z.B. Besenstrich): ____________
+
+16.26 13    Loggia- und Balkonelemente als Fertigteile, einschließlich Bewehrung.
+                • gerichtet für Belag (ist in eigenen Positionen beschrieben)
+
+16.26 13A   Fertigteil Loggia- u.Balkonplatten                                                                           Stk
+            Festigkeitsklasse Beton: C____________
+            Abmessungen (L x B):____________ x ____________ cm
+            Plattendicke: ____________ cm
+            Nutzlast ohne Belag: ____________ kN/m2
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.26 15    Loggien- oder Balkonbrüstungen als Fertigteile, einschließlich Bewehrung und Verankerungen.
+
+16.26 15A   Fertigteil Loggia- u.Balkonbrüstungselemente                                                                 Stk
+            Festigkeitsklasse Beton: C____________
+            Abmessungen (L x H):____________ x ____________ cm
+            Plattendicke: ____________ cm
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.26 17    Loggia-Wandelemente als Fertigteile, einschließlich Bewehrung.
+
+16.26 17A   Fertigteil Loggia-Wandelement                                                                                Stk
+            Festigkeitsklasse Beton: C____________
+            Abmessungen (B x H):____________ x ____________ cm
+            Plattendicke: ____________ cm
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.26 21    L-förmige Fertigteile (z.B. Winkelstützmauern, Tribünenelemente), einschließlich Bewehrung und
+            Verankerungen.
+
+16.26 21A   Fertigteil L-förmig                                                                                          Stk
+            Für/als: ____________
+            Festigkeitsklasse Beton: C____________
+            Abmessungen (Länge x Breite x Höhe): ____________x____________x____________ cm
+            Dicke Wand: ____________ cm
+            Dicke Schenkel: ____________ cm
+            Art der Verankerung: ____________
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.26 31    U-förmige Fertigteile (z.B. Liftschächte, Tröge), einschließlich Bewehrung und Verankerungen.
+
+16.26 31A   Fertigteil U-förmig                                                                                          Stk
+            Für/als: ____________
+            Festigkeitsklasse Beton: C____________
+            Abmessungen (Länge x Breite x Höhe): ____________x____________x____________ cm
+                                                                                                                   Seite 14 / 20
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+            Dicke Wand: ____________ cm
+            Dicke Schenkel: ____________ cm
+            Art der Verankerung: ____________
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+16.26 41    Fertigteile in Sonderform, einschließlich Bewehrung und Verankerungen.
+
+16.26 41A   Fertigteil in Sonderform                                                                                              Stk
+            Für/als: ____________
+            Festigkeitsklasse Beton: C____________
+            Abmessungen: ____________ cm
+            Dicke: ____________ cm
+            Art der Verankerung: ____________
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+
+16.26 71    Aufzahlung (Az) auf Beton für Fertigteile.
+
+16.26 71X   Az Beton Fertigteile f.Expositionsklasse                                                                              m³
+            Für eine höhere Expositionsklasse:____________
+            Betrifft Position(en):____________
+
+16.28       Einbauteile u.Sonstiges
+
+
+            1. Einbauteile:
+            Alle Einbauteile werden so ausgebildet, dass keine Beeinträchtigungen der Sichtflächen (z.B. durch
+            Rostbildung) eintreten.
+            Aussparungen für Einbauteile (z.B. Elektroinstallationen) sind in die Einheitspreise einkalkuliert.
+            2. Einkalkulierte Leistungen:
+            Eine Dokumentation der Erdungs-, Potentialausgleichs- und Blitzschutz-Bauteile ist in die Einheitspreise
+            einkalkuliert.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+                 • Erdungsfestpunkt für druckwasserdichte Ausführung Edelstahl A4 M10/12
+                 • Erder-Gebäude-Durchführung druckwasserdichte Ausführung Edelstahl A4 M10/12
+                 • Detailangaben zur Dokumentation der Erdungs-, Potentialausgleichs- und Blitzschutz-Bauteile
+
+            LB-Version: 23                 Geringfügig Geändert
+16.28 01    Erdungs-, Potenzialausgleichs- und Blitzschutz-Bauteile.
+            Klemm-, Schraub- oder Schweißverbindungen einschließlich Befestigungsmaterial zur Herstellung von
+            zuverlässig elektrisch leitenden Verbindungen zwischen den Bauteilen untereinander und der
+            Fertigteil-Stahlbewehrung sind im Einheitspreis einkalkuliert.
+             Kommentar:
+             Gemäß der in der Elektrotechnikverordnung verbindlichen OVE Richtlinie R 1000-2 ist das Blitzschutzsystem bereits in der
+             Planungsphase des Bauvorhabens zu berücksichtigen.
+             Als zuverlässig elektrisch leitende Verbindung gelten gemäß OVE E 8014 und ÖVE/ÖNORM EN 62305-3 galvanisch
+             einwandfreie Klemm-, Schweiß- oder Schraubverbindungen.
+             Wenn für den Blitzschutz Fertigteile aus Stahlbeton z. B. als Ableitungen, für die Schirmung oder als Leiter für den
+             Potentialausgleich verwendet werden, sind Verbindungspunkte an diese Teile anzubringen, damit auf der Baustelle eine
+             zuverlässig elektrisch leitende Verbindung der Bewehrung der Fertigteile untereinander und mit der Bewehrung der baulichen
+             Anlage (Ortbeton) möglich ist.
+             Weiterführende Erdungs-, Potenzialausgleichs-, Blitzschutzbauteile, sowie Ausführungsdetails sind in der
+             Leistungsbeschreibung Haustechnik, Leistungsgruppe 12 (Erdungs- und Blitzschutzanlagen) beschrieben.
+
+16.28 01A   Blitzschutzdraht verzinkt D8mm                                                                                        m
+            Blitzschutzdraht, verzinkt.
+            Durchmesser (D): 8 mm
+            LB-Version: 23                 Geringfügig Geändert
+
+16.28 01B   Blitzschutzdraht verzinkt D10mm                                                                                       m
+                                                                                                                            Seite 15 / 20
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+            Blitzschutzdraht, verzinkt.
+            Durchmesser (D): 10 mm
+            LB-Version: 23                Geringfügig Geändert
+
+16.28 01C   Blitzschutzdraht Edelstahl A4 D10mm                                                                       m
+            Blitzschutzdraht aus Edelstahl A4.
+            Durchmesser (D): 10 mm
+            LB-Version: 23                Geringfügig Geändert
+
+16.28 01D   Erdungsfestpunkt Edelstahl A4 M10/12                                                                      Stk
+            Anschlussplatte ca. D 80 mm, mit Doppelgewinde M10 und M12, geprüft für 50 Hz Kurzschlussströme und
+            Blitzstoßströme.
+            LB-Version: 23                Geringfügig Geändert
+
+16.28 01E   Erdungsfestpunkt Edelstahl A4 M16                                                                         Stk
+            Anschlussplatte ca. D 80 mm, mit Gewinde M16, geprüft für 50 Hz Kurzschlussströme und Blitzstoßströme.
+
+            LB-Version: 23                Geringfügig Geändert
+
+16.28 01H   Blitzschutzprüfkasten feuerverzinkt 150/200mm                                                             Stk
+            Blitzschutzprüfkasten, feuerverzinkt.
+            Abmessungen: 150 x 200 mm
+            LB-Version: 23                Geringfügig Geändert
+16.28 11    Stahleinbauteile für Fertigteile,
+
+16.28 11A   Stahleinbauteile f.Fertigteile                                                                            kg
+            Walzprofile.
+            Oberfläche (grundiert, verzinkt, Edelstahl): ____________
+            Stahlgüte: ____________
+
+16.28 11B   Stahlplatten,Schweißgründe b.5kg                                                                          kg
+            Stahlplatten, Schweißgründe bis 5 kg.
+
+16.28 11C   Stahlplatten,Schweißgründe ü.5-25kg                                                                       kg
+            Stahlplatten, Schweißgründe über 5 bis 25 kg.
+
+16.28 11D   Stahlplatten,Schweißgründe ü.25kg                                                                         kg
+            Stahlplatten, Schweißgründe über 25 kg: ____________
+
+16.28 11M   Ankerschienen verzinkt                                                                                    Stk
+            Ankerschienen verzinkt.
+            Länge: ____________ mm
+            Type: ____________
+
+16.28 11N   Ankerschienen Edelstahl                                                                                   Stk
+            Ankerschienen aus Edelstahl.
+            Länge: ____________ mm
+            Type: ____________
+
+16.28 31    Elektroeinbauteile (im Werk eingelegt).
+
+16.28 31A   Elektroinstallations-Schlauch FXP 25-50mm                                                                 m
+            Elektroinstallations-Schlauch FXP 25 bis 50 mm.
+            Etwaige Schlauchanschlüsse (Tüllen) sind im Einheitspreis einkalkuliert.
+            LB-Version: 23                Geringfügig Geändert
+
+16.28 31D   Elektroinstallations-Abzweigdosen b 200x200mm                                                             Stk
+
+                                                                                                                Seite 16 / 20
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                        EH
+            Elektroinstallation-Abzweigdosen bis 200 x 200 mm.
+
+16.28 31E   Elektroinstallations-Gerätedose 1-fach                                           Stk
+            Elektroinstallations-Gerätedose 1-fach.
+
+16.28 41    Oberflächenvergütung für Fertigteile.
+
+16.28 41A   Oberflächenvergütung f.Fertigteile sandgestrahlt                                 m²
+            Sandgestrahlt.
+            Betrifft Position(en): ____________
+
+16.28 41B   Oberflächenvergütung f.Fertigteile gewaschen                                     m²
+            Gewaschen.
+            Betrifft Position(en): ____________
+
+16.28 41C   Oberflächenvergütung f.Fertigteile gesäuert                                      m²
+            Gesäuert.
+            Betrifft Position(en): ____________
+
+16.28 41D   Oberflächenvergütung f.Fertigteile strukturiert                                  m²
+            Strukturiert.
+            Matrize Typ:____________
+            Betrifft Position(en): ____________
+
+16.28 41H   Oberflächenvergütung f.Fertigteile hydrophobiert                                 m²
+            Hydrophobiert.
+            Eigenschaften: ____________
+            Betrifft Position(en): ____________
+
+16.28 41I   Oberflächenvergütung f.Fertigteile m.Graffitischutz                              m²
+            Mit Graffitischutz.
+            Eigenschaften: ____________
+            Betrifft Position(en): ____________
+
+16.28 51    Fugen und Wassernasen in Fertigteilelementen.
+
+16.28 51J   Scheinfugen f.Fertigteilelemente                                                 m
+            Scheinfugen mit Trapezleisten 20 mm.
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+            Betrifft Position(en): ____________
+
+16.28 51K   Trennfugen f.Fertigteilelemente                                                  m
+            Trennfugen in der Vorsatzschale.
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+            Betrifft Position(en): ____________
+            LB-Version: 23               Geringfügig Geändert
+
+16.28 51L   Wassernasen f.Fertigteilelemente                                                 m
+            Wassernasen.
+            Plan-/Skizzennummer, sonstige Angaben: ____________
+            Betrifft Position(en): ____________
+
+16.28 52    Aufzahlung (Az) auf Beton für Fertigteilelemente.
+
+16.28 52E   Az Beton f.Sonderzuschlagstoffe                                                  m³
+            Für Sonderzuschlagsstoffe.
+            Material (z.B. Marmorsplitt): ____________
+
+                                                                                       Seite 17 / 20
+                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+            Korngröße: ____________mm
+            Betrifft Position(en): ____________
+
+16.28 52F   Az Beton f.Weißzement                                                                                          m³
+            Für Weißzement.
+
+16.28 52G   Az Beton f.eingefärbten Beton                                                                                  m³
+            Für eingefärbten Beton.
+            Farbton: ____________
+            Pigmentanteil zu Zementgehalt: ____________%
+            Material (z.B. Gesteinskörnungen (z.B. Kies, Marmor, Granit), Korngröße, Zementart): ____________
+            Betrifft Position(en): ____________
+
+16.28 61    Ausprägungen, Ausklinkungen, Steg- und Auflagerverbreiterungen.
+
+16.28 61A   Punktkonsole f.Wand-/Trägerelemente                                                                            Stk
+            Punktkonsolen für Wand- und Trägerelemente.
+            Abmessung: ____________ cm
+            Betrifft Position(en): ____________
+
+16.28 61B   Bandkonsole f.Wandelemente                                                                                     m
+            Bandkonsole für Wandelemente
+            Abmessung/Querschnitt: ____________ cm
+            Betrifft Position(en): ____________
+
+16.28 61C   Ausklinkung bei Trägern u.Unterzügen                                                                           Stk
+            Ausklinkung bei Trägern und Unterzügen.
+            Abmessung: ____________ cm
+            Beschreibung: ____________
+            Betrifft Position(en): ____________
+
+16.28 61D   Steg-u.Auflagerverbreiterung                                                                                   Stk
+            Steg- und Auflagerverbreiterung.
+            Abmessung: ____________ cm
+            Beschreibung: ____________
+            Betrifft Position(en): ____________
+
+16.28 64    Fugen zwischen Fertigteilen oder zwischen Fertigteilen und der tragenden Konstruktion (aus Beton) schließen.
+            Das Vorbehandeln mit systementsprechendem Primer, Füllen mit elastischem Dichtstoff und Nachbehandeln
+            der ausgefüllten Fuge ist im Einheitspreis einkalkuliert.
+            Dichtstoffe Farben: weiß und grau
+
+16.28 64A   Außenfuge b.20mm                                                                                               m
+            Außenfuge mit Dichtstoff, einschließlich Hinterlegen mit einer Rundschnur.
+            Fuge bis 20 mm breit.
+            LB-Version: 23              Geringfügig Geändert
+
+16.28 64C   Außenfugen EI90 b.20mm                                                                                         m
+            Außenfugen EI90 mit Dichtstoff, einschließlich Hinterfüllen mit Mineralwollezopf (statt Rundschnur).
+            Fuge bis 20 mm breit.
+            Material: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+16.28 64E   Innenfuge PUR b.20mm                                                                                           m
+            Innenfugen mit Dichtstoff auf Polyurethanbasis, einschließlich Hinterlegen mit einer Rundschnur.
+            Fuge bis 20 mm breit.
+
+                                                                                                                     Seite 18 / 20
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+
+            LB-Version: 23              Geringfügig Geändert
+16.28 91    Bewehrungs-Rückbiegeanschluss (Anschlusselement) aus Beton.
+
+16.28 91A   Bewehrungsanschlusselement 1-reihig                                                                      m
+            Einreihig.
+
+16.28 91B   Bewehrungsanschlusselement 2-reihig                                                                      m
+            Zweireihig.
+
+16.28 93    Wärmedämmende Bewehrungsanschlüsse.
+
+16.28 93A   Wärmedämmende Bewehrungsanschlüsse Kragplatte                                                            Stk
+            Als Kragplatte.
+            Höhe:____________ cm
+            Länge:____________ cm
+            Dämmdicke: ____________cm
+            Feuerwiderstand REI: ____________
+            Statische Angaben (Schnittkräfte): ____________
+
+16.28 93B   Wärmedämmende Bewehrungsanschlüsse Querkraftanschluss                                                    Stk
+            Als Querkraftanschluss.
+            Höhe:____________ cm
+            Länge:____________ cm
+            Dämmdicke: ____________cm
+            Feuerwiderstand REI: ____________
+            Statische Angaben (Schnittkräfte): ____________
+
+16.28 95    Sonstige Stahlteile aus Baustahl, mindestens BSt.500.
+            Im Positionsstichwort ist der Durchmesser (mm) angegeben.
+
+16.28 95A   Muffenstoß f.Bewehrungsstäbe__________                                                                   Stk
+            Muffenstoß für Bewehrungsstäbe.
+
+16.28 95B   Muffenstäbe mit Schraubmuffe__________                                                                   Stk
+            Muffenstäbe mit Schraubmuffe.
+
+16.28 95C   Anschlussstäbe f.Schraubmuffe__________                                                                  Stk
+            Anschlussstäbe für Schraubmuffe.
+
+16.51       Fertig-Garagen aus Stahlbeton
+
+
+            Leistungen des AG:
+            Fundamente gemäß statischen Berechnungen für Fertigteil-Garagen.
+            Fundamente sind in eigenen Positionen beschrieben.
+            LB-Version: 23              Geringfügig Geändert
+16.51 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+16.51 00M   Montage und Zufahrt
+            Angaben zur Zufahrt: ____________
+            Angaben zum Versetzen der Garage (z.B. Mobilkran, LKW-Kran):____________
+            Angaben zu Montage: ____________
+            Betrifft Position(en): ____________
+
+16.51 00V   Verfügbarkeit von Beilagen zum LV
+
+
+                                                                                                               Seite 19 / 20
+                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+            Zu dieser Unterleistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von Plänen (z.B. Einreichpläne, einschließlich Lagepläne, Topographie (z.B. im PDF-Format oder
+            CAD Format): ____________
+            Betrifft Position(en): ____________
+
+16.51 01    Fertig-Garage aus Stahlbeton.
+                • Einzelgarage
+
+16.51 01A   Fertigteil-Einzelgarage aus Stahlbeton                                                                     Stk
+            Abmessungen (Außenmaße):
+                • Länge:____________cm
+                • Breite:____________cm
+                • Höhe:____________cm
+                • Dicke Wände:____________cm
+            Wandverstärkung und Abdichtung für Einschüttung:____________
+            Nutzlast der Decke:____________ kN/m2
+            Nutzlast des Bodens: ____________ kN/m2____________
+            Art der Dachdeckung/-Abdichtung:____________
+            Oberfläche/Beschichtung Wände/Decke (innen):____________
+            Oberfläche/Beschichtung Wände (außen):____________
+            Oberfläche/Beschichtung Boden:____________
+            Ausstattung:
+                • Fenster: ____________
+                • Türen: ____________
+                • Tore: ____________
+            E-Anschlüsse (z.B. Garagentor, Beleuchtung, Steckdosen):____________
+            Öffnungen (z.B. Lüftung): ____________
+            Beschilderung: ____________
+16.51 11    Fertig-Garage aus Stahlbeton.
+                • Doppelgarage/Reihengarage
+
+16.51 11A   Fertigteil-Doppelgarage/Reihengarage aus Stahlbeton                                                        Stk
+            Anzahl der Garagen: ____________
+            Fugen zwischen den Garagen: ____________
+            Abmessungen (Außenmaße):
+                • Länge:____________cm
+                • Breite:____________cm
+                • Höhe:____________cm
+                • Dicke Wände:____________cm
+            Wandverstärkung und Abdichtung für Einschüttung:____________
+            Nutzlast der Decke:____________ kN/m2
+            Nutzlast des Bodens: ____________ kN/m2
+            Art der Dachdeckung/-Abdichtung:____________
+            Oberfläche/Beschichtung Wände/Decke (innen):____________
+            Oberfläche/Beschichtung Wände (außen):____________
+            Oberfläche/Beschichtung Boden:____________
+            Ausstattung:
+                • Fenster: ____________
+                • Türen: ____________
+                • Tore: ____________
+            E-Anschlüsse (z.B. Garagentor, Beleuchtung, Steckdosen):____________
+            Öffnungen (z.B. Lüftung): ____________
+            Beschilderung: ____________
+
+
+
+                                                                                                                 Seite 20 / 20
+                                                                                            ib-data GmbH, Softwareentwicklung
+

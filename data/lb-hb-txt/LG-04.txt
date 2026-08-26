@@ -1,0 +1,421 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                                Leistungsgruppe (LG) 04 - Gerüste
+
+                                 Kennung: HB           Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 0418 System-Gerüste
+
+
+
+
+                                                                                                            Seite 1 / 7
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                        EH
+
+04         Gerüste
+           Version 022 (2021-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           1. Herstellen:
+           Die Leistung (Herstellen) umfasst das Aufbauen eines gebrauchsfähigen Zustandes einschließlich
+           Antransportieren, Aufstellen und Montieren sowie das Abbauen, Demontieren und Abtransportieren.
+           Die Teilleistung des Aufbauens eines gebrauchsfertigen Zustandes wird mit 70 Prozent, die Teilleistung des
+           Abbauens mit 30 Prozent der Gesamtleistung bewertet.
+           2. Auf- und Abbauen (Herstellen):
+           Das Herstellen umfasst auch das Schließen der Verankerungsstellen gemäß ÖNORM (wenn der Auftraggeber
+           den Verbleib der Verankerungsstellen nicht ausdrücklich anordnet).
+           3. Einkalkulierte Leistungen:
+           3.1 Aufstellflächen, Zugänge, Lagerung:
+           Etwaige Kosten für die vereinbarte Benutzung von Teilen des öffentlichen Gutes sind für die angegebene Dauer
+           in die Einheitspreise einkalkuliert.
+           3.2 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+           einkalkuliert:
+           - das Beistellen statischer Nachweise (z.B. Typenstatik) und Typenbezeichnungen für die verwendeten Gerüste
+           - die Überprüfung des Gerüstes nach Fertigstellung
+           - Brust-, Fuß- und Mittelwehren an der Außenseite des Gerüstes
+           - alle seitlichen und dachseitigen Sicherungen (Wehren) bei Giebelwänden
+           - wiederkehrende Prüfungen und Instandhaltungskosten bei einer Gebrauchsüberlassung
+           4. Gebrauchsüberlassung:
+           Die Gebrauchsüberlassung (Gebrauchsüberl.) wird für jene Tage vergütet, die zwischen dem Tag der positiven
+           Aufstellüberprüfung des Gerüstes nach Fertigstellung und dem ersten Tag des Abbaus liegen, unabhängig ob
+           das Gerüst für die eigene Leistung (dem eigenen Bedarf) oder dem Gebrauch Dritter (anderer Auftragnehmer
+           des Auftraggebers) hergestellt ist.
+           Das Ende der Gebrauchsüberlassung wird vom jeweiligen Vertragspartner eine Woche vorher angekündigt.
+           Erfolgt der Abbau später als dies unter Einhaltung der Verständigungsfrist festgelegt wurde, gilt der festgelegte
+           Tag.
+           Die Gebrauchsüberlassung wird in Verrechnungseinheiten, ermittelt aus dem Ausmaß mal der Anzahl der
+           Wochen, abgerechnet. Wochen sind teilbar, wobei 1 Kalendertag gleich 1/7 Woche ist.
+            Kommentar:
+            Sonstige Gerüste sind in der LG 01 (Baustellengemeinkosten) beschrieben.
+            Frei zu formulieren (z.B.):
+            - Angaben (wählbare Vorbemerkungen) und Positionen gemäß Werkvertragsnorm und der ÖNORM B 2110, in Ergänzung
+            zur standardisierten Leistungsbeschreibung
+            - Ausschussgerüst als Arbeitsgerüste
+            - Konsolgerüst als Arbeitsgerüst
+            Literaturhinweis (z.B.):
+            - ÖNORM B 2252 Gerüstarbeiten - Werkvertragsnorm
+            - ÖNORM B 4007 Gerüste Allgemeines, Verwendung, Bauart und Belastung
+            - ÖNORM EN 12810 Fassadengerüste aus vorgefertigten Bauteilen
+            - ÖNORM EN 12811-1 Temporäre Konstruktionen für Bauwerke - Arbeitsgerüste - Leistungsanforderungen, Entwurf,
+            Konstruktion und Bemessung
+
+           LB-Version: 23                 Geringfügig Geändert
+
+04.18      System-Gerüste
+           1. System-Gerüste:
+           Im Folgenden werden Fassadengerüste (stehende Arbeitsgerüste) aus vorgefertigten Bauteilen, nach Wahl des
+           Auftragnehmers, gemäß ÖNORM als System-Gerüste (System-G.) in Standardausführung bezeichnet.
+           2. Einfach gegliederte Fassaden:
+           System-Gerüste in Standardausführung werden für nicht oder einfach gegliederte Fassaden ausgeführt.
+           Unter einfach gegliederten Fassaden werden solche verstanden, deren Gliederungselemente bis 25 cm,
+           bezogen auf die Fassadenfläche, vor- oder zurückspringen (z.B. Kordon- oder Fenstergesimse).
+                                                                                                                        Seite 2 / 7
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+
+            3. Einkalkulierte Leistungen:
+            3.1 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - Leiteraufstiege in der Arbeitsgerüstebene
+            - die An- und Abfahrt bei einem vom Auftraggeber angeordneten Teilauf- oder Teilabbau über 400 m2
+            Gerüstfläche
+            - die An- und Abfahrt beim Umsetzen von Gerüsten
+            4. Umsetzen:
+            Ein etwaiges Umsetzen von Gerüsten im Ganzen oder in Teilen, das heißt das Abbauen an einem Ort der
+            Baustelle und das Aufbauen an einem anderen Ort der Baustelle (darunter ist kein Teilauf- und Teilabbau zu
+            verstehen) wird mit den Positionen System-Gerüst (Addition der Abrechnungseinheiten) verrechnet.
+            5. Ausmaß und Abrechnungsregeln:
+            System-Gerüste bei Giebelwänden (z.B. mit Dachvorsprüngen oder auskragenden Hauptgesimsen) werden mit
+            dem Flächenmaß, ermittelt durch das größte umschriebene Rechteck (Aufstandsfläche (m) x Höhe (m) des
+            obersten Punktes der Giebelwand) abgerechnet.
+             Kommentar:
+             Systemgerüste:
+             Mit dieser Unterleistungsgruppe können Gerüste ausgeschrieben werden, die nicht gemäß ÖNORM als Nebenleistung mit
+             der Hauptleistung abgegolten werden.
+             Frei zu formulieren (z.B.):
+             - System-Gerüste der Lastklasse 5 und höher (z.B. für schwere Beanspruchungen über 3 kN/m2, wie befahrbare Gerüste
+             oder solche zur Aufstellung und den Betrieb von schweren Geräten)
+             - Plateaugerüste
+             - System-Gerüste sowohl mit Wehren als auch mit Konsolen
+             - doppelt-gestellte System-Gerüste
+             - System-Gerüste und einzelne Gerüstfelder für eine Gerüsthöhe über 20 m
+             - die An- und Abreise bei einem vom Auftraggeber angeordneter Teilaufbau oder -Teilabbau von Gerüstflächen oder
+             Gerüstteilen bis 400 m2
+             - Erschwernisse durch das Angleichen an gekrümmte Wände
+             - Verstärkungen bei Gerüstdurchfahrten über 5 m Breite
+             - Schutzabdeckungen und etwaige Unterstellungen bei Dächern und Terrassen
+             - frei stehende Passagengerüste (nicht in Verbindung mit einem System-Gerüst)
+             - staubdichte Ausführungen (z.B. mit Folie) bei Schutzdächern
+             - freistehende Außentreppen einschließlich Absturzsicherung und Handlauf
+             - Maßnahmen für blinde, sehbehinderte und mobilitätsbehinderte Menschen, ausgenommen bei Passagen
+             - Umhängen von Verankerungen des fertig gestellten Gerüstes
+             - das lagenweise, rückschreitende Entfernen von Gerüstteilen (z.B. bei LG44/WDVS)
+             - Ösen- und Rahmenverstärkungen für das Befestigen bei WDVS
+
+            LB-Version: 23                 Geringfügig Geändert
+04.18 00    Folgende Angaben oder Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise der zutreffenden Positionen einkalkuliert:
+
+04.18 00A   Fassaden-/Wandaufbau
+            Betrifft Position(en): ____________
+            Fassaden-/Wandaufbau: ____________
+            Wärmedämmdicke (cm): ____________
+             Kommentar:
+             In der Ausschreiberlücke können besondere Umstände (z.B. längere Verankerungsösen aufgrund von
+             Wärmedämmverbundsystemen) angegeben werden.
+
+04.18 00B   Benutzung öffentliches Gut
+            Betrifft Position(en): ____________
+            Benutzung von öffentlichem Gut ist erforderlich (z.B. Gehsteig): ____________
+            Dauer (z.B. Wochen): ____________
+
+04.18 00C   Auskragende Bauteile
+            Betrifft Position(en): ____________
+            Für die Eingerüstung auskragender Bauteile (z.B. Balkon, Erker, Loggia) werden die Anzahl der Bauteile und die
+            Abmessungen (Länge/Breite/Höhe/Tiefe) angegeben.
+            Art des Bauteils: ____________
+            Anzahl der Bauteile: ____________
+            Abmessungen: ____________
+
+
+                                                                                                                          Seite 3 / 7
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+04.18 00E   System-G.Lastklasse 3
+            System-Gerüst der Lastklasse 3 als Arbeitsgerüst in Standardausführung (System-G.) bis 20 m Höhe.
+             Kommentar:
+             Lastklasse 3: für Verputz-, Beschichtungs- und Bekleidungsarbeiten (vgl. ÖN B 4007)
+
+04.18 00F   System-G.Lastklasse 4
+            System-Gerüst der Lastklasse 4 als Arbeitsgerüst in Standardausführung (System-G.) bis 20 m Höhe.
+             Kommentar:
+             Lastklasse 4: für Mauer-, Beton-, Steinmetz-, Versetz- und Montagearbeiten (vgl. ÖN B 4007)
+
+04.18 01    System-Gerüst (System-G.) als Arbeitsgerüst in Standardausführung bis 20 m Höhe.
+
+04.18 01A   System-G.                                                                                                             m²
+
+04.18 01B   System-G.Gebrauchsüberl.                                                                                              VE
+            Gebrauchsüberlassung.
+
+04.18 02    System-Gerüst (System-G.) als Arbeitsgerüst in Standardausführung bis 20 m Höhe mit objektseitigen Wehren,
+            einschließlich Entfernen derselben im Zuge des Abbaus des Gerüstes, bei Bedarf wöchentlich.
+
+04.18 02A   System-G.m.Wehren                                                                                                     m²
+
+04.18 02B   System-G.m.Wehren Gebrauchsüberl.                                                                                     VE
+            Gebrauchsüberlassung.
+
+04.18 03    System-Gerüst (System-G.) als Arbeitsgerüst in Standardausführung bis 20 m Höhe mit Konsolen bis 35 cm
+            breit, einschließlich Entfernen derselben im Zuge des Abbaus des Gerüstes, bei Bedarf wöchentlich.
+
+04.18 03A   System-G.m.Konsolen b.35cm                                                                                            m²
+
+04.18 03B   System-G.m.Konsolen b.35cm Gebrauchsüberl.                                                                            VE
+            Gebrauchsüberlassung.
+
+04.18 04    System-Gerüst (System-G.) als Arbeitsgerüst in Standardausführung bis 20 m Höhe mit Konsolen über 35 bis
+            70 cm breit, einschließlich Entfernen derselben im Zuge des Abbaus des Gerüstes, bei Bedarf wöchentlich.
+
+04.18 04A   System-G.m.Konsolen ü.35-70cm                                                                                         m²
+
+04.18 04B   System-G.m.Konsolen ü.35-70cm Gebrauchsüberl.                                                                         VE
+            Gebrauchsüberlassung.
+
+04.18 05    System-Gerüst (System-G.) als Systemleer-Gerüst:
+            Tragkonstruktion für ein Dachfanggerüst (Leergerüst nicht als Arbeitsgerüst verwendbar, ohne Wehren) mit bis
+            zu zwei Arbeitslagen im Bereich der Traufe, nach Wahl des Auftragnehmers.
+            Aufzahlungspositionen von System-Gerüsten als Arbeitsgerüst gelten ebenso für ein System-Gerüst als
+            Leergerüst.
+             Kommentar:
+             In dieser Position sind Dachfanggerüste als Schutz- und Arbeitsgerüste für Arbeiten am Dach beschrieben, wobei das
+             System-Gerüst als Leergerüst (Tragkonstruktion) fungiert. Dachfanggerüste sind mit den bestehenden
+             Aufzahlungspositionen des System-Gerüstes als Arbeitsgerüst zu beschreiben (z.B. Aufzahlung für Verbreiterungen, für
+             Dachfang-Netz und -Gitter b.2m, für Transport/Hof, für Fußgänger-Passagen).
+             Frei zu formulieren (z.B.):
+             - Dachfanggerüst als eigenständiges Konsolgerüst
+             - sonstige Fanggerüste
+
+04.18 05A   System-G.als Systemleer-Gerüst f.Dachfanggerüst                                                                       m²
+            Höhe in Bezug zur Traufe: ____________
+
+04.18 05B   System-G.als Systemleer-Gerüst f.Dachfangger Gebrauchsüberl.                                                          VE
+            Gebrauchsüberlassung.
+
+04.18 10    Einzelnes Gerüstfeld als Systemgerüste (System-G.) in Standardausführung, ohne Unterschied der Lastklasse.
+            Abgerechnet nach der Gerüsthöhe.
+
+                                                                                                                              Seite 4 / 7
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+             Kommentar:
+             Gerüstfelder über 3 m sind frei zu formulieren.
+
+04.18 10A   Gerüstfeld/System-G.b.3m                                                                                             m
+            Bis 3 m breit.
+
+04.18 10B   Gerüstfeld/System-G.b.3m Gebrauchsüberl.                                                                             VE
+            Gebrauchsüberlassung.
+
+04.18 11    Aufzahlung (Az) auf System-Gerüst (System-G.) in Standardausführung, ohne Unterschied der Lastklasse.
+            Die Gebrauchsüberlassung gilt mit jener des System-Gerüstes abgegolten.
+
+04.18 11A   Az System-G.f.Eckausbildungen                                                                                        m
+            Für Eckausbildungen bei Außenecken von Gebäuden.
+            Abgerechnet wird die Gerüsthöhe.
+
+04.18 11C   Az System-G.f.Verst.b.Durchfahrt ü.3-5m                                                                              Stk
+            Für Verstärkungen (Verst.) bei Gerüstdurchfahrten (Durchfahrt) über 3 bis 5 m Breite.
+
+04.18 12    Aufzahlung (Az) auf System-Gerüst (System-G.) in Standardausführung, ohne Unterschied der Lastklasse,
+            einschließlich Transport der Gerüstteile auf das Dach über ein angrenzendes Gerüst oder Gerüstfeld.
+            Abgerechnet wird die eingerüstete Wandfläche über der Basis (Aufstandsfläche).
+            Die Gebrauchsüberlassung gilt mit jener des System-Gerüstes abgegolten.
+             Kommentar:
+             Etwaige erforderliche System-Gerüste oder Gerüstfelder für den Transport werden, soweit nicht vorhanden, mit den
+             Positionen System-Gerüst oder System-Gerüst Gerüstfeld ausgeschrieben.
+
+04.18 12A   Az System-G.f.Dächer b.15°,Terrasse                                                                                  m²
+            Für das Aufstellen auf Dächern bis 15° (Grad) oder Terrassen.
+
+04.18 12B   Az System-G.f.Dächer ü.15°                                                                                           m²
+            Für das Aufstellen auf Dächern über 15° (Grad).
+
+04.18 13    Aufzahlung (Az) auf System-Gerüst (System-G.) in Standardausführung.
+            Die Gebrauchsüberlassung gilt mit jener des System-Gerüstes abgegolten.
+             Kommentar:
+             Lichthöfe, Höfe mit unterschiedlichen Voraussetzungen werden getrennt beschrieben.
+
+04.18 13A   Az System-G.f.Hof                                                                                                    m²
+            Für Erschwernisse bei schwierigem Transport in einen Hof, wenn eine befahrbare Durchfahrt (Zufahrt) weniger
+            als 4 m hoch und weniger als 2,5 m breit ist.
+            Grundriss/Abmessungen: ____________
+
+04.18 13B   Az System-G.f.Lichthof                                                                                               m²
+            Für Erschwernisse bei Arbeiten in Lichthöfen (z.B. beim Transport und Herstellen des System-G.).
+            Grundriss/Abmessungen: ____________
+            Örtlichkeit/Zugang/Erreichbarkeit:____________
+
+04.18 21    Aufzahlung (Az) auf System-Gerüst (System-G.) in Standardausführung, für die Ausführung von
+            Gerüstverbreiterungen (Verbr.) für Auskragung (z.B. von Gesimsen) über 25 bis 90 cm.
+
+04.18 21A   Az System-G.f.Verbr.                                                                                                 m
+
+04.18 21B   Az System-G.f.Verbr.Gebrauchsüberl.                                                                                  VE
+            Gebrauchsüberlassung.
+
+04.18 22    Aufzahlung (Az) auf System-Gerüst (System-G.) in Standardausführung, für ein auskragendes Schutzdach bis
+            4,5 m über dem Aufstandsniveau, mindestens 1,5 m über der äußersten Absturzkante des System-Gerüstes
+            hinausragend, ohne Unterschied, ob mit lotrechter oder schräger Blende, Höhe mindestens 50 cm,
+            einschließlich Tragkonstruktion.
+
+04.18 22A   Az System-G.f.Schutzdach                                                                                             m
+
+                                                                                                                             Seite 5 / 7
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+04.18 22B   Az System-G.f.Schutzdach Gebrausüberl.                                                                                 VE
+            Gebrauchsüberlassung.
+
+04.18 23    Aufzahlung (Az) auf System-Gerüst (System-G.) in Standardausführung, für eine Fußgänger-Passage (Pass.)
+            bis 4,5 m hoch und bis 3 m breit, einschließlich Konstruktion und Maßnahmen für blinde, sehbehinderte und
+            mobilitätsbehinderte Menschen, ausgenommen Beleuchtung.
+             Kommentar:
+             Die Beleuchtung kann mit den Baustellengemeinkosten ausgeschrieben werden.
+
+04.18 23A   Az System-G.f.Fußgänger-Pass.                                                                                          m
+
+04.18 23B   Az System-G.f.Fußgänger-Pass.Gebrauchsüberl.                                                                           VE
+            Gebrauchsüberlassung.
+
+04.18 24    Aufzahlung (Az) auf System-Gerüst (System-G.) in Standardausführung, für ein Dachfang (Df) -Netz oder
+            Fanggitter zur Sicherung der Absturzkante. Abgerechnet wird das Längenmaß des Dachfangnetzes oder
+            Fanggitters.
+
+04.18 24A   Az System-G.f.Df-Netz,-Gitter b.2m                                                                                     m
+            Bis 2 m hoch.
+
+04.18 24B   Az System-G.f.Df-Netz,-Gitter Gebrauchsüberl.                                                                          VE
+            Gebrauchsüberlassung.
+
+04.18 31    Schutzbekleidung (z.B. Netz/Vorhang, Plane) für System-Gerüst (System-G.) in Standardausführung,
+            einschließlich windsicherer Verhängung am Gerüst und windsicherem Verschluss der Stöße zwischen den
+            Bahnen, geeignet für Windgeschwindigkeiten bis 60 km/h.
+             Kommentar:
+             Schutznetze oder Schutzplanen sind für Windgeschwindigkeiten bis 60 km/h vorgesehen. Die Behebung von Schäden nach
+             Windgeschwindigkeiten über 60 km/h wird nach Aufwand verrechnet.
+
+04.18 31A   Schutznetz System-G.                                                                                                   m²
+            Als Schutznetz oder Schutzvorhang.
+
+04.18 31B   Schutznetz System-G.Gebrauchsüberl.                                                                                    VE
+            Gebrauchsüberlassung.
+
+04.18 31C   Schutzplane System-G.                                                                                                  m²
+            Als Schutzplane aus armiertem Kunststoff.
+
+04.18 31D   Schutzplane System-G.Gebrauchsüberl.                                                                                   VE
+            Gebrauchsüberlassung.
+
+04.18 32    Durchgehender, außenliegender Aufstieg mit Einstiegsplattform in der Höhe jeder Gerüstlage, einschließlich
+            Absturzsicherungen und Handlauf (Geländer). Abgerechnet nach der angrenzenden Gerüsthöhe.
+             Kommentar:
+             Treppenaufstiege sind Aufstiege für Bauarbeiter, nicht jedoch als Außentreppe (z.B. als Treppenersatz) geeignet.
+
+04.18 32A   Treppenaufstieg b.60cm                                                                                                 m
+            Treppenaufstieg.
+            Laufbreite 60 cm.
+
+04.18 32B   Treppenaufstieg b.60cm Gebrauchsüberl.                                                                                 VE
+            Treppenaufstieg.
+            Laufbreite 60 cm.
+            Gebrauchsüberlassung.
+
+04.18 32C   Leiteraufstieg                                                                                                         m
+            Leiteraufstieg (vor der Arbeitsgerüstebene).
+
+04.18 32D   Leiteraufstieg Gebrauchsüberl.                                                                                         VE
+
+                                                                                                                               Seite 6 / 7
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+            Leiteraufstieg (vor der Arbeitsgerüstebene).
+            Gebrauchsüberlassung.
+04.18 41    Fangkopfgerüst für die Instandsetzung von (Rauch-) Fangköpfen auf Dächern. Im Positionsstichwort ist die
+            Dachneigung angegeben.
+
+04.18 41A   Fangkopfgerüst Dach ü.15-45°                                                                                Stk
+            Abgerechnet wird nach Stück.
+            Umfang: ____________
+            größte Höhe über Dach: ____________
+
+04.18 41B   Fangkopfgerüst Dach ü.15-45°Gebrauchsüberl.                                                                 VE
+            Gebrauchsüberlassung.
+
+04.18 41C   Fangkopfgerüst Dach ü.45-60°                                                                                Stk
+            Abgerechnet wird nach Stück.
+            Umfang: ____________
+            größte Höhe über Dach: ____________
+
+04.18 41D   Fangkopfgerüst Dach ü.45-60°Gebrauchsüberl.                                                                 VE
+            Gebrauchsüberlassung.
+
+04.18 51    System-Gerüst (System-G.) für Schächte als Gerüstturm.
+            Grundriss/Abmessungen bis 3 x 3 m.
+
+04.18 51A   System-G.f.Schacht                                                                                          m
+            Geometrie (z.B. Skizze, Plan):
+            Lastklasse: ____________
+            Abgerechnet wird die Höhe, 2 m über dem letzten Belag.
+            LB-Version: 23              Geringfügig Geändert
+
+04.18 51B   System-G.f.Schacht Gebrauchsüberl.                                                                          VE
+            Gebrauchsüberlassung.
+
+            LB-Version: 23              Geringfügig Geändert
+04.18 52    System-Gerüst (System-G.) für Spindelräume als Gerüstturm.
+            Grundriss/Abmessungen bis 3 x 3 m.
+
+04.18 52A   System-G.f.Spindel                                                                                          m
+            Geometrie (z.B. Skizze, Plan):
+            Lastklasse: ____________
+            Abgerechnet wird die Höhe, 2 m über dem letzten Belag.
+            LB-Version: 23              Geringfügig Geändert
+
+04.18 52B   System-G.f.Spindel Gebrauchsüberl.                                                                          VE
+            Gebrauchsüberlassung.
+
+            LB-Version: 23              Geringfügig Geändert
+
+
+
+
+                                                                                                                    Seite 7 / 7
+                                                                                             ib-data GmbH, Softwareentwicklung
+

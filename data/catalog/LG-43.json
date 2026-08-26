@@ -1,0 +1,411 @@
+{
+  "lg": "43",
+  "title": "Türsysteme (Elemente)",
+  "positions": [
+    {
+      "code": "43.79.21R",
+      "text": "Az Holz-/Stahltürblatt f.Reedkontakte",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.00.00A",
+      "text": "Lieferung/Lagerung Zargen",
+      "unit": ""
+    },
+    {
+      "code": "43.00.00B",
+      "text": "Lieferung/Lagerung Türblätter",
+      "unit": ""
+    },
+    {
+      "code": "43.00.00C",
+      "text": "Edelstahl korrosionsbeständiger Stahl V2A",
+      "unit": ""
+    },
+    {
+      "code": "43.00.00D",
+      "text": "Edelstahl korrosionsbeständiger Stahl V4A",
+      "unit": ""
+    },
+    {
+      "code": "43.00.00E",
+      "text": "Befestigungs-u.Verbindungsmittel V2A",
+      "unit": ""
+    },
+    {
+      "code": "43.00.00F",
+      "text": "Befestigungs-u.Verbindungsmittel V4A",
+      "unit": ""
+    },
+    {
+      "code": "43.00.00Z",
+      "text": "Ergänzende Zeichnungen des AG",
+      "unit": ""
+    },
+    {
+      "code": "43.01.02A",
+      "text": "Innentür m.Holzzarge+gl.Holztürblatt",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.01.12A",
+      "text": "Innentür m.Holzzarge+gl.Holztürblatt+OL",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.02.02A",
+      "text": "Innentür m.Stahlzarge+gl.Holztürblatt",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.02.02B",
+      "text": "Innentür m.Stahlzarge/Nut+gl.Holztürblatt",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.02.12A",
+      "text": "Innentür m.Stahlzarge+gl.Holztürblatt+OL",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.02.12B",
+      "text": "Innentür m.Stahlzarge/Nut+gl.Holztürblatt+OL",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.03.02A",
+      "text": "Innentür m.Stahlzarge+Stahltürblatt",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.03.02B",
+      "text": "Innentür m.Stahlzarge/Nut+Stahltürblatt",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.03.12A",
+      "text": "Innentür m.Stahlzarge+Stahltürblatt+OL",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.03.12B",
+      "text": "Innentür m.Stahlzarge/Nut+Stahltürblatt+OL",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.11.02A",
+      "text": "Innentür m.Holzzarge+gl.Holztürblatt__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.11.12A",
+      "text": "Innentür m.Holzzarge+gl.Holztürblatt+OL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.12.02A",
+      "text": "Innentür m.Stahlzarge+gl.Holztürblatt__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.12.02B",
+      "text": "Innentür m.Stahlzarge/Nut+gl.Holztürblatt__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.12.12A",
+      "text": "Innentür m.Stahlzarge+gl.Holztürblatt+OL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.12.12B",
+      "text": "Innentür m.Stahlzarge/Nut+gl.Holztürblatt+OL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.13.02A",
+      "text": "Innentür m.Stahlzarge+Stahltürblatt__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.13.02B",
+      "text": "Innentür m.Stahlzarge/Nut+Stahltürblatt__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.13.12A",
+      "text": "Innentür m.Stahlzarge+Stahltürblatt+OL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.13.12B",
+      "text": "Innentür m.Stahlzarge/Nut+Stahltürblatt+OL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.32.02A",
+      "text": "Innentür m.Stahlzarge (lief.)+gl.Holztürblatt",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.32.02B",
+      "text": "Innentür m.Stahlzarge/Nut (lief.)+gl.Holztürblatt",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.32.12A",
+      "text": "Innentür m.Stahlzarge (lief.)+gl.Holztürblatt+OL",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.32.12B",
+      "text": "Innentür m.Stahlzarge/Nut (lief.)+gl.Holztürblatt+OL",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.33.02A",
+      "text": "Innentür m.Stahlzarge (lief.)+Stahltürblatt",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.33.02B",
+      "text": "Innentür m.Stahlzarge/Nut (lief.)+Stahltürblatt",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.33.12A",
+      "text": "Innentür m.Stahlzarge (lief.)+Stahltürblatt+OL",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.33.12B",
+      "text": "Innentür m.Stahlzarge/Nut (lief.)+Stahltürblatt+OL",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.42.02A",
+      "text": "Innentür m.Stahlzarge (lief.)+gl.Holztürblatt__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.42.02B",
+      "text": "Innentür m.Stahlzarge/Nut (lief.)+gl.Holztürblatt__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.42.12A",
+      "text": "Innentür m.Stahlzarge (lief.)+gl.Holztürblatt+OL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.42.12B",
+      "text": "Innentür m.Stahlzarge/Nut (lief+gl.Holztürblatt+OL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.43.02A",
+      "text": "Innentür m.Stahlzarge (lief.)+Stahltürblatt__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.43.02B",
+      "text": "Innentür m.Stahlzarge/Nut (lief.)+Stahltürblatt__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.43.12A",
+      "text": "Innentür m.Stahlzarge (lief.)+Stahltürblatt+OL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.43.12B",
+      "text": "Innentür m.Stahlzarge/Nut (lief.)+Stahltürblatt+OL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.51.11A",
+      "text": "Außentür-Element ohne Feuerschutz",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.51.21A",
+      "text": "Außentür-Element+OL/Seitenteil ohne Feuerschutz",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.52.11B",
+      "text": "Außentür-Element m.Feuerschutz__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.52.21B",
+      "text": "Außentür-Element+OL/Seitenteil m.Feuerschutz__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.71.01A",
+      "text": "Innentürschloss f.Vollbautürblatt-Türen",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.71.02A",
+      "text": "Objektschloss f.Vollbautürblatt-Türen",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.71.11A",
+      "text": "Notausgangsverschluss f.Vollbautürblatt-Türen",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.71.12A",
+      "text": "Panikverschluss f.Vollbautürblatt-Türen",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.71.21A",
+      "text": "Notausgangsverschluss selbstv.f.Vollbautürblatt-Türen",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.71.22A",
+      "text": "Panikverschluss selbstv.f.Vollbautürblatt-Türen",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.72.01A",
+      "text": "Gleitschienen-Türschließer f.Vollbautürblatt-Türen",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.72.11A",
+      "text": "Integrierter Türschließer f.Vollbautürblatt-Türen",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.72.21A",
+      "text": "Bodentürschließer f.Vollbautürblatt-Türen",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.72.31A",
+      "text": "Drehtürantriebe f.Vollbautürblatt-Türen",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.72.41A",
+      "text": "Vollautomatische Antriebe innen f.Vollbautürblatt-Türen",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.72.42A",
+      "text": "Vollautomatische Antriebe außen f.Vollbautürblatt-Türen",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.73.01A",
+      "text": "UP-Türterminal 1x24V LED f.Vollbautürblatt-Türen",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.73.01B",
+      "text": "UP-Türterminal 1x230V LED f.Vollbautürblatt-Türen",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.73.11A",
+      "text": "AP-Türterminal 1x24V LED f.Vollbautürblatt-Türen",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.73.11B",
+      "text": "AP-Türterminal 1x230V LED f.Vollbautürblatt-Türen",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.79.11A",
+      "text": "Az Holztürblatt f.Kanteneinleimer Hartholz",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.79.11B",
+      "text": "Az Holztürblatt f.Kantenanleimer Hartholz",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.79.11C",
+      "text": "Az Holztürblatt f.PU-Gießharzkante",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.79.11D",
+      "text": "Az Holztürblatt f.Starkfurnier Hartholz",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.79.21M",
+      "text": "Az Holz-/Stahltürblatt f.Hartholzschwelle m.Dichtung",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.79.21N",
+      "text": "Az Holz-/Stahltürblatt f.Aluanschlagschiene m.Dichtung",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.79.21O",
+      "text": "Az Holz-/Stahltürblatt f.Stahlanschlagschiene m.Dichtung",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.79.21P",
+      "text": "Az Holz-/Stahltürblatt f.umlaufende Stahlzarge m.Dichtung",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.79.21Q",
+      "text": "Az Holz-/Stahltürblatt f.Spion",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.79.21S",
+      "text": "Az Holz-/Stahltürblatt f.Glasausschnitt",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.79.21U",
+      "text": "Az Holz-/Stahltürblatt f.Haltemagnet m.Unterbrechertaster",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.79.31A",
+      "text": "Az Türsystem f.Bodentürpuffer",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.79.31B",
+      "text": "Az Türsystem f.Wandtürpuffer",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.79.33A",
+      "text": "Az Türsystem f.Lüftungsgitter",
+      "unit": "Stk"
+    },
+    {
+      "code": "43.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "43.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "43.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

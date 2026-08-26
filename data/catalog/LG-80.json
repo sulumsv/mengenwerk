@@ -1,0 +1,781 @@
+{
+  "lg": "80",
+  "title": "Injektionsarbeiten",
+  "positions": [
+    {
+      "code": "80.14.01A",
+      "text": "Horizontalsperren bohren,einfach",
+      "unit": "m²"
+    },
+    {
+      "code": "80.14.01B",
+      "text": "Horizontalsperren bohren,doppelt",
+      "unit": "m²"
+    },
+    {
+      "code": "80.14.11A",
+      "text": "Injektion hydrophobierend,drucklos",
+      "unit": "m²"
+    },
+    {
+      "code": "80.14.11B",
+      "text": "Injektion hydrophobierend,Niederdruck",
+      "unit": "m²"
+    },
+    {
+      "code": "80.14.11C",
+      "text": "Injektion hydrophobierend,Hochdruck",
+      "unit": "m²"
+    },
+    {
+      "code": "80.14.12A",
+      "text": "Injektion kapillar verschließend,Niederdruck",
+      "unit": "m²"
+    },
+    {
+      "code": "80.14.12B",
+      "text": "Injektion kapillar verschließend,Hochdruck",
+      "unit": "m²"
+    },
+    {
+      "code": "80.14.21A",
+      "text": "Az f.Erschwernisse Anschlüsse Einbauten",
+      "unit": ""
+    },
+    {
+      "code": "80.14.21B",
+      "text": "Az f.Erschwernisse Fremdsysteme",
+      "unit": ""
+    },
+    {
+      "code": "80.00.00A",
+      "text": "Qualifikationsnachweis",
+      "unit": ""
+    },
+    {
+      "code": "80.00.00C",
+      "text": "Ausführungen unter Wasser",
+      "unit": ""
+    },
+    {
+      "code": "80.00.00D",
+      "text": "Ausführungen unter Druckluft",
+      "unit": ""
+    },
+    {
+      "code": "80.00.00E",
+      "text": "Erhöhte technische Anforderung",
+      "unit": ""
+    },
+    {
+      "code": "80.00.00F",
+      "text": "Nachweis der Wirksamkeitsprüfung",
+      "unit": ""
+    },
+    {
+      "code": "80.00.00G",
+      "text": "Nachweis der Umweltverträglichkeit",
+      "unit": ""
+    },
+    {
+      "code": "80.00.00H",
+      "text": "Grundwasserhygienisches Gutachten",
+      "unit": ""
+    },
+    {
+      "code": "80.00.00I",
+      "text": "Vertragsgrundlagen",
+      "unit": ""
+    },
+    {
+      "code": "80.00.00W",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "80.02.01A",
+      "text": "Einfache Voruntersuchung                                                                                                PA",
+      "unit": ""
+    },
+    {
+      "code": "80.02.01B",
+      "text": "Vertiefte Voruntersuchung                                                                                               PA",
+      "unit": ""
+    },
+    {
+      "code": "80.02.02A",
+      "text": "Voruntersuchung f.Rissinjektion                                                                                         PA",
+      "unit": ""
+    },
+    {
+      "code": "80.02.02B",
+      "text": "Voruntersuchung f.Schleierinjektion                                                                                     PA",
+      "unit": ""
+    },
+    {
+      "code": "80.02.02C",
+      "text": "Voruntersuchung f.Flächeninjektion                                                                                PA",
+      "unit": ""
+    },
+    {
+      "code": "80.02.02D",
+      "text": "Voruntersuchung f.Bodeninjektion                                                                                  PA",
+      "unit": ""
+    },
+    {
+      "code": "80.02.02E",
+      "text": "Voruntersuchung f.Fugeninjektion                                                                                  PA",
+      "unit": ""
+    },
+    {
+      "code": "80.02.02F",
+      "text": "Voruntersuchung f.Horizontalsperren                                                                               PA",
+      "unit": ""
+    },
+    {
+      "code": "80.02.11A",
+      "text": "Testfeld herstellen",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.02.11B",
+      "text": "Testfeld prüfen",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.02.11C",
+      "text": "Testfeld Ausführungsprotokoll                                                                                     PA",
+      "unit": ""
+    },
+    {
+      "code": "80.02.91A",
+      "text": "Baustelleneinrichtung f.Injektionsarbeiten einrichten                                                             PA",
+      "unit": ""
+    },
+    {
+      "code": "80.02.91B",
+      "text": "Baustelleneinrichtung f.Injektionsarbeiten vorhalten                                                              Wo",
+      "unit": ""
+    },
+    {
+      "code": "80.02.91C",
+      "text": "Baustelleneinrichtung f.Injektionsarbeiten räumen                                                                 PA",
+      "unit": ""
+    },
+    {
+      "code": "80.03.00A",
+      "text": "Rastermaß f.Vortrocknen",
+      "unit": ""
+    },
+    {
+      "code": "80.03.01A",
+      "text": "Untergrundvorbereitungen",
+      "unit": "m²"
+    },
+    {
+      "code": "80.03.01B",
+      "text": "Untergrundvorbereitungen f.Verdämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "80.03.02A",
+      "text": "Fugen aus Naturstein-Mauerwerk ausräumen",
+      "unit": "m²"
+    },
+    {
+      "code": "80.03.02B",
+      "text": "Fugen aus Ziegel-Mauerwerk ausräumen",
+      "unit": "m²"
+    },
+    {
+      "code": "80.03.02C",
+      "text": "Mörtelfugen bei Naturstein-Mauerwerk verschließen",
+      "unit": "m²"
+    },
+    {
+      "code": "80.03.02D",
+      "text": "Mörtelfugen bei Ziegel-Mauerwerk verschließen",
+      "unit": "m²"
+    },
+    {
+      "code": "80.03.03A",
+      "text": "(Spritz) Mörteldämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "80.03.04A",
+      "text": "Temporäre Verdämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "80.03.05A",
+      "text": "Vortrocknen",
+      "unit": "m²"
+    },
+    {
+      "code": "80.03.07A",
+      "text": "Vortrocknen/Heizstäbe MWK 20-30cm                                                                           VE",
+      "unit": ""
+    },
+    {
+      "code": "80.03.07B",
+      "text": "Vortrocknen/Heizstäbe MWK ü.30-45cm                                                                         VE",
+      "unit": ""
+    },
+    {
+      "code": "80.03.07C",
+      "text": "Vortrocknen/Heizstäbe MWK ü.45-60cm                                                                         VE",
+      "unit": ""
+    },
+    {
+      "code": "80.03.07D",
+      "text": "Vortrocknen/Heizstäbe MWK ü.60-75cm                                                                         VE",
+      "unit": ""
+    },
+    {
+      "code": "80.03.07E",
+      "text": "Vortrocknen/Heizstäbe MWK ü.75-90cm                                                                             VE",
+      "unit": ""
+    },
+    {
+      "code": "80.03.07F",
+      "text": "Vortrocknen/Heizstäbe MWK ü.90-120cm                                                                            VE",
+      "unit": ""
+    },
+    {
+      "code": "80.03.07G",
+      "text": "Vortrocknen/Heizstäbe MWK ü.120cm:__________                                                                    VE",
+      "unit": ""
+    },
+    {
+      "code": "80.11.01A",
+      "text": "Injektionskanäle f.Rissinjektion bohren 14mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.11.01B",
+      "text": "Injektionskanäle f.Rissinjektion bohren 18mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.11.01C",
+      "text": "Injektionskanäle f.Rissinjektion bohren 20mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.11.02A",
+      "text": "Bohrpacker f.Rissinjektion",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.11.03A",
+      "text": "Klebepacker f.Rissinjektion m.Polyurethanharz",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.11.05A",
+      "text": "Rissverdämmung f.Rissinjektion m.Polyurethanharz                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "80.11.05C",
+      "text": "Rissverdämmung f.Rissinjektion m.hochreaktivem Zementmörtel                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "80.11.14A",
+      "text": "Kraftschlüssige Zementsuspension-Injektion f.Risse ≥0,2mm                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "80.11.15A",
+      "text": "Abdichtende,dehnfähige Injektion f.Risse 0,1-0,3mm                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "80.11.15B",
+      "text": "Abdichtende,dehnfähige Injektion f.Risse ü.0,3-0,8mm                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "80.11.15C",
+      "text": "Abdichtende,dehnfähige Injektion f.Risse ü.0,8-4mm                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "80.11.21A",
+      "text": "Vorinjektion Polyurethanschaum Risse ≥0,2 mm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "80.11.22A",
+      "text": "Vorinjektion Wasser f.Rissinjektion                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "80.11.23B",
+      "text": "Niederdruck-Injektion f.Risse m.Polyurethanharz                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "80.11.23C",
+      "text": "Niederdruck-Injektion f.Risse m.Zementsuspension                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "80.11.91A",
+      "text": "Rissinjektion Mehrverbrauch Zementsuspension",
+      "unit": "kg"
+    },
+    {
+      "code": "80.11.91B",
+      "text": "Rissinjektion Mehrverbrauch Polyurethanharz                                                                   l",
+      "unit": ""
+    },
+    {
+      "code": "80.11.92A",
+      "text": "Rissinjektion Minderverbrauch Zementsuspension",
+      "unit": "kg"
+    },
+    {
+      "code": "80.11.92B",
+      "text": "Rissinjektion Minderverbrauch Polyurethanharz                                                                 l",
+      "unit": ""
+    },
+    {
+      "code": "80.12.00A",
+      "text": "Rastermaß f.Mauerwerksverpressung",
+      "unit": ""
+    },
+    {
+      "code": "80.12.01A",
+      "text": "Injektionskanäle bohren 20mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.12.02A",
+      "text": "Schlagpacker f.Mauerwerksverpressung",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.12.04A",
+      "text": "Injektionspacker f.Mauerwerksverpressung",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.12.11A",
+      "text": "Mauerwerksverpressung 25-40cm",
+      "unit": "m³"
+    },
+    {
+      "code": "80.12.11B",
+      "text": "Mauerwerksverpressung ü.40-60cm",
+      "unit": "m³"
+    },
+    {
+      "code": "80.12.11C",
+      "text": "Mauerwerksverpressung ü.60-90cm",
+      "unit": "m³"
+    },
+    {
+      "code": "80.12.11D",
+      "text": "Mauerwerksverpressung ü.90-120cm",
+      "unit": "m³"
+    },
+    {
+      "code": "80.12.11E",
+      "text": "Mauerwerksverpressung ü.120cm:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "80.12.21A",
+      "text": "Injektion m.Zementleim",
+      "unit": "m³"
+    },
+    {
+      "code": "80.12.22A",
+      "text": "Injektion m.Trass-/Zementleim",
+      "unit": "m³"
+    },
+    {
+      "code": "80.12.23A",
+      "text": "Injektion ZPUR",
+      "unit": "m³"
+    },
+    {
+      "code": "80.12.24A",
+      "text": "Injektion Kalktrass",
+      "unit": "m³"
+    },
+    {
+      "code": "80.12.91A",
+      "text": "Mauerwerksverpressung Mehrverbrauch Zementleim                                                              l",
+      "unit": ""
+    },
+    {
+      "code": "80.12.92A",
+      "text": "Mauerwerksverpressung Minderverbrauch Zementleim                                                            l",
+      "unit": ""
+    },
+    {
+      "code": "80.13.00A",
+      "text": "Rastermaß f.Flächeninjektion",
+      "unit": ""
+    },
+    {
+      "code": "80.13.01A",
+      "text": "Injektionskanäle bohren 14mm/30-45° (Bauteildicke)",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.13.01B",
+      "text": "Injektionskanäle bohren 20mm/30-45° (Bauteildicke-10)",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.13.01C",
+      "text": "Injektionskanäle bohren 14mm/90° (2/3 Bauteildicke)",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.13.01D",
+      "text": "Injektionskanäle bohren 20mm/90° (2/3 Bauteildicke)",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.13.01E",
+      "text": "Injektionskanäle bohren 20mm/90° (Bauteildicke)",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.13.11A",
+      "text": "Injektion m.Acrylatgel",
+      "unit": "m²"
+    },
+    {
+      "code": "80.13.91A",
+      "text": "Flächeninjektion Mehrverbrauch Acrylatgel                                                                       l",
+      "unit": ""
+    },
+    {
+      "code": "80.13.92A",
+      "text": "Flächeninjektion Minderverbrauch Acrylatgel                                                                     l",
+      "unit": ""
+    },
+    {
+      "code": "80.14.00A",
+      "text": "Rastermaß f.Horizontalsperren",
+      "unit": ""
+    },
+    {
+      "code": "80.14.00B",
+      "text": "Angaben zum Bauteil",
+      "unit": ""
+    },
+    {
+      "code": "80.14.02A",
+      "text": "Schlagpacker f.Horizontalsperren",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.14.03A",
+      "text": "Injektionspacker f.Horizontalsperren",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.14.71A",
+      "text": "Bohrlochverschluss HSP",
+      "unit": "m²"
+    },
+    {
+      "code": "80.15.00A",
+      "text": "Rastermaß f.Bodenverpressung",
+      "unit": ""
+    },
+    {
+      "code": "80.15.01A",
+      "text": "Injektionslanzen f.Bodenverpressung",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.15.11A",
+      "text": "Bodenverpressung",
+      "unit": "m³"
+    },
+    {
+      "code": "80.16.01A",
+      "text": "Injektionsschläuche b.10m                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "80.16.01B",
+      "text": "Injektionsschläuche ü.10-20m                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "80.16.01C",
+      "text": "Injektionsschläuche ü.20m:__________                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "80.16.11A",
+      "text": "Verwahrdosen",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.16.21A",
+      "text": "Injektion/verpressen Schläuche m.Polyurethan                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "80.16.21B",
+      "text": "Injektion/verpressen Schläuche m.Acrylat                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "80.16.21C",
+      "text": "Injektion/verpressen Schläuche m.Zementsuspension                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "80.16.31A",
+      "text": "Nachinjektion von Schläuchen                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "80.21.01A",
+      "text": "Verpressen Rohrdurchführung",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.21.01B",
+      "text": "Verpressen Fugenkonstruktion                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "80.21.01C",
+      "text": "Verpressen Hohlräume",
+      "unit": "m³"
+    },
+    {
+      "code": "80.21.01D",
+      "text": "Verpressen Risse <0,1mm                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "80.21.01E",
+      "text": "Verpressen Schachtböden",
+      "unit": "m²"
+    },
+    {
+      "code": "80.21.02A",
+      "text": "Verfüllen Hohlblocksteine",
+      "unit": "m³"
+    },
+    {
+      "code": "80.31.01A",
+      "text": "NTV Nachtrocknen MWK 20-30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "80.31.01B",
+      "text": "NTV Nachtrocknen MWK 20-30cm vorhalten                                                                         VE",
+      "unit": ""
+    },
+    {
+      "code": "80.31.01C",
+      "text": "NTV Nachtrocknen MWK ü.30-45cm",
+      "unit": "m²"
+    },
+    {
+      "code": "80.31.01D",
+      "text": "NTV Nachtrocknen MWK ü.30-45cm vorhalten                                                                       VE",
+      "unit": ""
+    },
+    {
+      "code": "80.31.01E",
+      "text": "NTV Nachtrocknen MWK ü.45-60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "80.31.01F",
+      "text": "NTV Nachtrocknen MWK ü.45-60cm vorhalten                                                                       VE",
+      "unit": ""
+    },
+    {
+      "code": "80.31.01G",
+      "text": "NTV Nachtrocknen MWK ü.60-75cm",
+      "unit": "m²"
+    },
+    {
+      "code": "80.31.01H",
+      "text": "NTV Nachtrocknen MWK ü.60-75cm vorhalten                                                                       VE",
+      "unit": ""
+    },
+    {
+      "code": "80.31.01I",
+      "text": "NTV Nachtrocknen MWK ü.75-90cm",
+      "unit": "m²"
+    },
+    {
+      "code": "80.31.01J",
+      "text": "NTV Nachtrocknen MWK ü.75-90cm vorhalten                                                                       VE",
+      "unit": ""
+    },
+    {
+      "code": "80.31.01K",
+      "text": "NTV Nachtrocknen MWK ü.90-120cm",
+      "unit": "m²"
+    },
+    {
+      "code": "80.31.01L",
+      "text": "NTV Nachtrocknen MWK ü.90-120cm vorhalten                                                                      VE",
+      "unit": ""
+    },
+    {
+      "code": "80.31.01M",
+      "text": "NTV Nachtrocknen MWK ü.120cm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "80.31.01N",
+      "text": "NTV Nachtrocknen MWK vorhalten ü.120cm:__________                                                              VE",
+      "unit": ""
+    },
+    {
+      "code": "80.31.11A",
+      "text": "HTV Nachtrocknen MWK 20-30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "80.31.11B",
+      "text": "HTV Nachtrocknen MWK 20-30cm vorhalten                                                                         VE",
+      "unit": ""
+    },
+    {
+      "code": "80.31.11C",
+      "text": "HTV Nachtrocknen MWK ü.30-45cm",
+      "unit": "m²"
+    },
+    {
+      "code": "80.31.11D",
+      "text": "HTV Nachtrocknen MWK ü.30-45cm vorhalten                                                                       VE",
+      "unit": ""
+    },
+    {
+      "code": "80.31.11E",
+      "text": "HTV Nachtrocknen MWK ü.45-60cm",
+      "unit": "m²"
+    },
+    {
+      "code": "80.31.11F",
+      "text": "HTV Nachtrocknen MWK ü.45-60cm vorhalten                                       VE",
+      "unit": ""
+    },
+    {
+      "code": "80.31.11G",
+      "text": "HTV Nachtrocknen MWK ü.60-75cm",
+      "unit": "m²"
+    },
+    {
+      "code": "80.31.11H",
+      "text": "HTV Nachtrocknen MWK ü.60-75cm vorhalten                                       VE",
+      "unit": ""
+    },
+    {
+      "code": "80.31.11I",
+      "text": "HTV Nachtrocknen MWK ü.75-90cm",
+      "unit": "m²"
+    },
+    {
+      "code": "80.31.11J",
+      "text": "HTV Nachtrocknen MWK ü.75-90cm vorhalten                                       VE",
+      "unit": ""
+    },
+    {
+      "code": "80.31.11K",
+      "text": "HTV Nachtrocknen MWK ü.90-120cm",
+      "unit": "m²"
+    },
+    {
+      "code": "80.31.11L",
+      "text": "HTV Nachtrocknen MWK ü.90-120cm vorhalten                                      VE",
+      "unit": ""
+    },
+    {
+      "code": "80.31.11M",
+      "text": "HTV Nachtrocknen MWK ü.120cm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "80.31.11N",
+      "text": "HTV Nachtrocknen MWK vorhalten ü.120cm:__________                              VE",
+      "unit": ""
+    },
+    {
+      "code": "80.75.30A",
+      "text": "Bohrlochverschluss                                                                                              VE",
+      "unit": ""
+    },
+    {
+      "code": "80.75.91A",
+      "text": "Packer u.Füllgutreste entfernen",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.75.91B",
+      "text": "Injektionspacker entsorgen",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.75.91C",
+      "text": "Verdämmung entsorgen                                                                                            PA",
+      "unit": ""
+    },
+    {
+      "code": "80.75.91E",
+      "text": "Reparatur",
+      "unit": "m²"
+    },
+    {
+      "code": "80.80.01A",
+      "text": "Dokumentation                                                                                                   PA",
+      "unit": ""
+    },
+    {
+      "code": "80.80.02A",
+      "text": "Nachuntersuchung",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.80.03A",
+      "text": "Untersuchungen Verfestigung im Direktverfahren",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.80.03B",
+      "text": "Untersuchungen Verfestigung im Indirektverfahren",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.80.04A",
+      "text": "Nachuntersuchungen Feuchtigkeit",
+      "unit": "Stk"
+    },
+    {
+      "code": "80.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "80.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "80.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

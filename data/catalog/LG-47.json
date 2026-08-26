@@ -1,0 +1,366 @@
+{
+  "lg": "47",
+  "title": "Tapetenarbeiten",
+  "positions": [
+    {
+      "code": "47.01.01A",
+      "text": "Schutzabdeckung f.Wände",
+      "unit": "m²"
+    },
+    {
+      "code": "47.01.01B",
+      "text": "Schutzabdeckung f.Untersichten",
+      "unit": "m²"
+    },
+    {
+      "code": "47.01.01C",
+      "text": "Schutzabdeckung f.Böden",
+      "unit": "m²"
+    },
+    {
+      "code": "47.01.01D",
+      "text": "Schutzabdeckung f.Treppen",
+      "unit": "m²"
+    },
+    {
+      "code": "47.01.01E",
+      "text": "Schutzabdeckung f.Geländer",
+      "unit": "m²"
+    },
+    {
+      "code": "47.01.01F",
+      "text": "Schutzabdeckung f.Handlauf                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "47.01.01G",
+      "text": "Schutzabdeckung f.Möbel",
+      "unit": "m²"
+    },
+    {
+      "code": "47.01.01H",
+      "text": "Schutzabdeckung f.Fenster/Tür",
+      "unit": "m²"
+    },
+    {
+      "code": "47.01.01I",
+      "text": "Schutzabdeckung f.Sockelleisten                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "47.01.01J",
+      "text": "Schutzabdeckung f.Sockelleisten Treppe                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "47.02.10A",
+      "text": "I-Abscheren Leimfarbe",
+      "unit": "m²"
+    },
+    {
+      "code": "47.02.11A",
+      "text": "I-Abscheren Kalkfarbe",
+      "unit": "m²"
+    },
+    {
+      "code": "47.02.12A",
+      "text": "I-Abscheren Dispersion",
+      "unit": "m²"
+    },
+    {
+      "code": "47.02.13A",
+      "text": "I-Abscheren Tapeten 1-lag.",
+      "unit": "m²"
+    },
+    {
+      "code": "47.02.14A",
+      "text": "I-Abscheren Tapeten mehrl.",
+      "unit": "m²"
+    },
+    {
+      "code": "47.02.15A",
+      "text": "I-Abscheren Kunstst./Textil 1-lag.",
+      "unit": "m²"
+    },
+    {
+      "code": "47.02.16A",
+      "text": "I-Entfernen Dispersion",
+      "unit": "m²"
+    },
+    {
+      "code": "47.02.21A",
+      "text": "I-Untergrund absperren",
+      "unit": "m²"
+    },
+    {
+      "code": "47.02.22A",
+      "text": "I-Tiefengrund wasserlöslich",
+      "unit": "m²"
+    },
+    {
+      "code": "47.02.23A",
+      "text": "I-Tiefengrund Lösungsmittelbasis",
+      "unit": "m²"
+    },
+    {
+      "code": "47.02.25A",
+      "text": "I-Spachteln 1x",
+      "unit": "m²"
+    },
+    {
+      "code": "47.02.27A",
+      "text": "I-Risse armieren m.Vlies                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "47.02.29A",
+      "text": "I-Flächen armieren m.Vlies",
+      "unit": "m²"
+    },
+    {
+      "code": "47.02.31A",
+      "text": "I-Fläche armieren m.Gewebe",
+      "unit": "m²"
+    },
+    {
+      "code": "47.02.33A",
+      "text": "Makulatur aus Papier",
+      "unit": "m²"
+    },
+    {
+      "code": "47.02.33B",
+      "text": "Makulatur aus Glasvlies",
+      "unit": "m²"
+    },
+    {
+      "code": "47.02.45A",
+      "text": "De-und Wiedermontage Leisten geschraubt                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "47.12.01A",
+      "text": "Verkleben Papiertapete o.Rapport",
+      "unit": "m²"
+    },
+    {
+      "code": "47.12.02A",
+      "text": "Verkleben Papiertapete Rapport b.25",
+      "unit": "m²"
+    },
+    {
+      "code": "47.12.03A",
+      "text": "Verkleben Papiertapete Rapport -60",
+      "unit": "m²"
+    },
+    {
+      "code": "47.13.01A",
+      "text": "Verkleb.Vinyltap/Papier o.Rap.                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "47.13.02A",
+      "text": "Verkleb.Vinyltap/Papier Rap.b.25                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "47.13.03A",
+      "text": "Verkleb.Vinyltap/Papier Rap.-60                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "47.13.11A",
+      "text": "Verkleb.Vinyltap/träg.o.Rap.",
+      "unit": "m²"
+    },
+    {
+      "code": "47.13.12A",
+      "text": "Verkleb.Vinyltap/träg.Rap.b.25",
+      "unit": "m²"
+    },
+    {
+      "code": "47.13.13A",
+      "text": "Verkleb.Vinyltap/träg.Rap.-60",
+      "unit": "m²"
+    },
+    {
+      "code": "47.14.01A",
+      "text": "Verkleben Raufasertapeten",
+      "unit": "m²"
+    },
+    {
+      "code": "47.14.06A",
+      "text": "Az Verkleben Raufaser auf Polystyrol",
+      "unit": "m²"
+    },
+    {
+      "code": "47.14.16A",
+      "text": "Beschichtung Raufaser Dispersion NAK3",
+      "unit": "m²"
+    },
+    {
+      "code": "47.14.16B",
+      "text": "Beschichtung Raufaser Dispersion einf.Ausf.NAK3",
+      "unit": "m²"
+    },
+    {
+      "code": "47.14.16E",
+      "text": "Beschichtung Raufaser Dispersion NAK2",
+      "unit": "m²"
+    },
+    {
+      "code": "47.14.16F",
+      "text": "Beschichtung Raufaser Dispersion einf.Ausf.NAK2",
+      "unit": "m²"
+    },
+    {
+      "code": "47.14.16J",
+      "text": "Beschichtung Raufaser Dispersion NAK1",
+      "unit": "m²"
+    },
+    {
+      "code": "47.14.16K",
+      "text": "Beschichtung Raufaser Dispersion einf.Ausf.NAK1",
+      "unit": "m²"
+    },
+    {
+      "code": "47.15.01A",
+      "text": "Glasgewebe-u.Glasvliestapeten reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "47.15.02A",
+      "text": "Grundierung vor Glasgewebe-u.Glasvliestapeten auf Holz",
+      "unit": "m²"
+    },
+    {
+      "code": "47.15.05A",
+      "text": "Verkleben nicht vorbeschichteter Glasgewebetapeten",
+      "unit": "m²"
+    },
+    {
+      "code": "47.15.06A",
+      "text": "Verkleben vorbeschichteter Glasgewebetapeten",
+      "unit": "m²"
+    },
+    {
+      "code": "47.15.07A",
+      "text": "Verkleben nicht vorbeschichtete/struktur.Glasgewebetapeten",
+      "unit": "m²"
+    },
+    {
+      "code": "47.15.12A",
+      "text": "Beschichtung Glasgewebetapeten Epoxidharz",
+      "unit": "m²"
+    },
+    {
+      "code": "47.15.14A",
+      "text": "Bordüren selbstklebend quarzbeschichtet                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "47.15.18A",
+      "text": "Verkleben Glasvlies Strukturdruck",
+      "unit": "m²"
+    },
+    {
+      "code": "47.15.21A",
+      "text": "Beschichtung Glasgewebetapeten Dispersion NAK3",
+      "unit": "m²"
+    },
+    {
+      "code": "47.15.21B",
+      "text": "Beschichtung Glasgewebetapeten Dispersion einf.Ausf.NAK3",
+      "unit": "m²"
+    },
+    {
+      "code": "47.15.21E",
+      "text": "Beschichtung Glasgewebetapeten Dispersion NAK2",
+      "unit": "m²"
+    },
+    {
+      "code": "47.15.21F",
+      "text": "Beschichtung Glasgewebetapeten Dispersion einf.Ausf.NAK2",
+      "unit": "m²"
+    },
+    {
+      "code": "47.15.21J",
+      "text": "Beschichtung Glasgewebetapeten Dispersion NAK1",
+      "unit": "m²"
+    },
+    {
+      "code": "47.15.21K",
+      "text": "Beschichtung Glasgewebetapeten Dispersion einf.Ausf.NAK1",
+      "unit": "m²"
+    },
+    {
+      "code": "47.21.01A",
+      "text": "Oberer Abschluss Leiste                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "47.21.01B",
+      "text": "Oberer Abschluss Papierbordüre                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "47.21.01C",
+      "text": "Oberer Abschluss Stoffbordüre                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "47.21.11A",
+      "text": "Kehrsockel Dispersion Streifen                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "47.21.11B",
+      "text": "Kehrsockel Dispersion Stufen                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "47.21.13A",
+      "text": "Überlackieren Kunstharzlack Kehrsockel Streifen                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "47.21.13B",
+      "text": "Überlackieren Kunstharzlack Kehrsockel Stufen                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "47.21.14A",
+      "text": "Überlack.Kunstharz.Lambrie",
+      "unit": "m²"
+    },
+    {
+      "code": "47.21.51A",
+      "text": "Fuge Acryl überstreichbar b.5mm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "47.21.51C",
+      "text": "Fuge Acryl überstreichbar ü.5-10mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "47.21.52A",
+      "text": "Fuge Silikon b.5mm                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "47.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "47.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "47.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

@@ -1,0 +1,707 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+           Leistungsgruppe (LG) 69 - Aufsatzkonstruktionen f.Fassaden
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 6900 Wählbare Vorbemerkungen
+                     ULG 6911 Aufsatzkonstruktionen
+                     ULG 6990 Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 12
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                      EH
+
+69         Aufsatzkonstruktionen f.Fassaden
+           Version 022 (2021-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           1. Begriffsbestimmung:
+           Die Aufsatzkonstruktion wird auf eine statisch tragende Unterkonstruktion aufgesetzt und erfüllt alle relevanten
+           Systemanforderungen (z.B. Dichtungsaufnahme, Schraubkanal, Belüftungs- und Entwässerungssystem,
+           Aufnahme von Ausfachungen) einer Pfosten- Riegelfassade.
+           Mit durchsichtigen oder undurchsichtigen Füllelementen (Verglasung oder Paneele) bilden die
+           Aufsatzkonstruktionen eine raumabschließende Haut, die selbständig oder in Verbindung mit dem Bauwerk alle
+           geforderten Funktionen einer Außenwand erfüllt, aber keinerlei Lasten des Bauwerkes aufnimmt.
+           2. Standardqualität/Ausführung:
+           2.1 Beschläge:
+           Beschläge, nach Wahl des Auftragnehmers, entsprechen mindestens RAL-RG 607/3 (RAL Deutsches Institut
+           für Gütesicherung und Kennzeichnung e.V.; Güte- und Prüfbestimmungen für Drehbeschläge und
+           Drehkippbeschläge, zu beziehen durch Beuth Verlag GmbH, Postfach 1145, D-10772 Berlin)
+           2.2 Aluminiumprofile und Aluminiumbleche:
+           Aufsatzkonstruktionen werden aus stranggepressten Aluminiumprofilen aus der Legierung EN AW-6060 T66
+           hergestellt.
+           Für anodisierte/eloxierte Aluminiumprofile und Aluminiumbleche ist Eloxalqualität erforderlich. Für
+           farbbeschichtete Aluminiumprofile und Aluminiumbleche werden verzugsfreie, wärmebehandelte Legierungen
+           verwendet.
+           Unterschiedliche Werkstoffe und Lieferformen (z.B. Profile, Bleche, Bänder, Beschläge) werden zwecks eines
+           einheitlichen Erscheinungsbildes aufeinander abgestimmt. Bei Blechen und Bändern wird der Einfluss der
+           Walzrichtung berücksichtigt.
+           2.3 Oberflächen:
+           Farbbeschichtungen auf Aluminiumoberflächen werden pulverbeschichtet oder einbrennlackiert in
+           Standardfarben oder Sonderfarben ausgeführt. Die Schichtdicke ist nach aktuellen Richtlinien der GSB
+           International bzw. QUALICOAT ausgeführt.
+           2.3.1 Standardfarben: Standardfarben sind Farben (nach Wahl des Auftraggebers), für die der Hersteller keinen
+           Aufpreis verlangt.
+           2.3.2 Sonderfarben: Sonderfarben sind Farben (nach Wahl des Auftraggebers), für die der Hersteller einen
+           Aufpreis vorsieht (Aufzahlungen).
+           2.3.3 Anodische Oxidation (Eloxal): Die anodische Oxidation der Aluminiumprofile und/oder -bleche ist gemäß
+           ÖNORM C 2531 ausgeführt.
+           Oberflächenbehandlungen, wie z.B. Struktur E0 bis E6, Farbe C0 (natur), C2-C4 (Goldfarbtöne), C31-C35
+           (leichtbronze bis schwarz) oder Edelstahloptik werden gesondert vereinbart.
+           Die jeweiligen Dickenklassen der anodisch erzeugten Oxidschichten sind abhängig vom Anwendungsfall und
+           sind in ÖNORM C 2531 definiert.
+           2.4 Dichtungsprofile:
+           Material: mind. EPDM (Ethylen-Propylen-Dien-Kautschuk). Härte, Abmessungen und Profile der Dichtungen
+           entsprechen dem Verwendungszweck und den Systemerfordernissen.
+           2.5 Paneele:
+           Paneele werden direkt in die Aufsatzkonstruktion eingebaut.
+           2.6. Splitterfallhöhe:
+           Die Splitterfallhöhe ist gemäß OIB die Höhe, aus der bei Bruch einer Verglasung Splitter fallen können.
+           2.7 Zusätzliche Scheiben:
+           Eine Ausführung von zusätzlichen Scheiben erfolgt außen: mit ESG, ab einer Splitterfallhöhe von > 4 m mit HST
+           (Heat-Soak-Test) und allseitig gelagert.
+           3. Einkalkulierte Leistungen:
+           Die Positionen umfassen das Liefern, Herstellen und die Montage einer Aufsatzkonstruktion.
+           Die tragende Unterkonstruktion ist nicht Gegenstand dieser Leistungsgruppe.
+           Die Fassade ist in jedem Geschoß gegen die anschließende Geschoßdecke gemäß den Vorgaben
+           abgeschottet.
+           3.1 Statische Anforderungen:
+           Die Berechnung und Berücksichtigung der statischen Erfordernisse für die Aufsatzkonstruktion erfolgt durch den
+                                                                                                                     Seite 2 / 12
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                              EH
+
+           Auftragnehmer. Für die Lastannahmen gelten die einschlägigen ÖNORMEN. Die Konstruktion wird so gewählt,
+           dass einwirkende Lasten sicher auf die Unterkonstruktion übertragen werden.
+           3.2 Verbindungen und Befestigungen:
+           Verbindungselemente (z.B. Schrauben, Bolzen, Muttern) sind, wenn sie in Verbindung mit Aluminium stehen,
+           aus Chromnickelstahl (Mindestqualität A2 mit reduziertem Cu-Gehalt).
+           Für alle übrigen Verbindungen und Kleinteile aus Stahl wird feuerverzinktes Material gemäß ÖNORM verwendet.
+           Kontaktkorrosion wird beim Zusammenbau verschiedenartiger metallischer Werkstoffe durch eine Zwischenlage
+           aus neutralem Material vermieden (Ausnahme im Trockenbereich bei Einsatz von Chromnickelstahl).
+           3.3 Dichtungen bei geneigten Flächen:
+           Bei geneigten Flächen werden die äußeren waagrechten Deck- und Druckprofile mit besonderen
+           Dichtungsmaßnahmen und zusätzlich seitlichen Wasserablaufspalten hergestellt.
+           3.4 Kondensatableitungen:
+           Etwaige hinterlüftete Wand-, Brüstungs- und sonstige Bekleidungen sowie Entwässerungsschlitze von
+           Hohlprofilen werden so ausgebildet, dass eingedrungenes oder kondensiertes Wasser nach außen ablaufen
+           kann und das Eindringen von Kleintieren und Insekten verhindert wird.
+           3.5 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+           einkalkuliert:
+               • der Ausgleich von etwaigen Ungenauigkeiten, die im Rahmen der vorgegebenen Toleranzen für die
+                 Unterkonstruktion liegen
+               • der Ausgleich bei Bewegungen der einzelnen Bauteile der Aufsatzkonstruktion gegeneinander (z.B.
+                 infolge von Temperaturschwankungen, Winddruck)
+           3.6 Eine Leistungserklärung ist spätesten zum Zeitpunkt der ersten Anlieferung beizubringen.
+           4. Allgemeines:
+           Vorschriften der System- beziehungsweise Systemkomponentenhersteller werden beachtet.
+           Verordnungen und Zulassungen, die das System beziehungsweise die Systemkomponenten betreffen und für
+           den angegeben Standort, den Gebäudezweck und die angegebene Gebäudehöhe zutreffen, gelten als
+           Vertragsbestandteil.
+           5. Planungsunterlagen des Auftraggebers (Ausführungsplanung):
+           Der Auftraggeber stellt als Unterlagen zum Leistungsverzeichnis eine Ausführungsplanung unter
+           Berücksichtigung der Vorgaben der Behörden (z.B. Brandschutz) und der bauphysikalischen Gutachten zur
+           Verfügung.
+           Die Ausführungsplanung enthält:
+           • eine maßstäbliche und bemaßte Darstellung der Ansichten
+           • eine maßstäbliche und bemaßte Darstellung der (Haupt) Schnitte
+           • eine maßstäbliche und bemaßte Darstellung der Baukörperanschlüsse
+           • Angaben zu Glastyp und Glasaufbau beziehungsweise zur Art der Fassadenbekleidung
+           • Angaben zur Beschlagsausführung für Fenster und Türen
+           • Angaben zur Oberflächenausführung
+           6. Abkürzungsverzeichnis:
+           SG-Fassade: Structural-Glazing (Fassade)
+           ESG-HST: Heißgelagertes thermisch vorgespanntes Kalknatron-Einscheiben-Sicherheitsglas (Heat-Soak-Test)
+           gemäß ÖNORM
+           BAF: Bauanschlussfuge
+            Kommentar:
+            Unterkonstruktion: Im Unterschied zur Pfosten- Riegelkonstruktion wird die statisch tragende Unterkonstruktion (zumeist aus
+            Stahl und Holz) getrennt - eventuell auch durch ein anderes Gewerk/AN - errichtet. Die Unterkonstruktion, für die
+            auszuführende Aufsatzkonstruktion, ist hinsichtlich der Fertigungs- und Montagetoleranzen (siehe Pkt. XX Toleranzen) nach
+            den Vorgaben der Aufsatzkonstruktion ausgeführt. Tragende Unterkonstruktionen sind in eigenen Positionen
+            auszuschreiben.
+            Gerüste für eine Arbeitshöhe über 3,2 m sind in der LG 04 beschrieben.
+            Brandschutz- und Brandrauchsteuerklappen sind z.B. in der LB-HT beschrieben.
+            Literaturhinweise (z.B.):
+            • ÖNORM B 13022: Glas im Bauwesen - Geklebte Verglasungen
+            • ÖNORM B 2225: Metallbauarbeiten, Herstellung von Stahl- und Aluminiumtragwerken sowie Korrosionsschutzarbeiten -
+            Werkvertragsnorm
+            • ÖNORM B 5300: Fenster - Anforderungen - Ergänzungen zur ÖNORM EN 14351-1
+            • ÖNORM B 5320: Einbau von Fenstern und Türen in Wände - Planung und Ausführung des Bau- und des
+            Fenster/Türanschlusses
+                                                                                                                             Seite 3 / 12
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+             • ÖNORM B 5339: Außentüren - Anforderungen - Ergänzungen zur ÖNORM EN 14351-1
+             • ÖNORM B 3716: Glas im Bauwesen - Konstruktiver Glasbau
+             • ÖNORM EN 13830: Vorhangfassaden - Produktnorm
+             • ÖNORM EN 14351-1: Fenster und Türen - Produktnorm, Leistungseigenschaften - Teil 1: Fenster und Außentüren ohne
+             Eigenschaften bezüglich Feuerschutz und/oder Rauchdichtheit
+             • ÖNORM EN 1991-1-7: Eurocode 1 - Einwirkungen auf Tragwerke - Teil 1-7: Allgemeine Einwirkungen - Außergewöhnliche
+             Einwirkungen (konsolidierte Fassung)
+             • OIB Richtlinie 4: Nutzungssicherheit und Barrierefreiheit
+             • OIB Richtlinie 5: Schallschutz
+             • OIB Richtlinie 6: Energieeinsparung und Wärmeschutz
+             • Gütevorschriften GSB (http://www.gsb-international.de/)
+             • Gütevorschriften QUALICOAT (http://www.qualicoat.net/main/home.htlm)
+             • Gütevorschriften OFI (http://www.ofi.at/zertifizierung.htlm)
+            LB-Version: 23                   Geringfügig Geändert
+
+69.00       Wählbare Vorbemerkungen
+69.00 01    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+69.00 01A   Allgemeine Beschreibung des Gebäudes
+            Adresse: ____________
+            Gebäudewidmung: ____________
+            Höhe des Gebäudes (absolute Höhe): ____________
+            Geländekategorie: ____________
+            Zusätzliche Feuerschutzbestimmungen: ____________
+            Angaben zu den Gebäudeaußenkanten (z.B. Länge): ____________
+            Art der Fassade: ____________
+            LB-Version: 23                   Geringfügig Geändert
+
+69.00 01B   Bemusterungen eloxiertes/beschichtetes Aluminium
+            Bei farbig anodisierten oder beschichteten Ausführungen nach Halbzeugarten getrennte Grenzmuster oder
+            Farbmuster (Farbtöne und Glanzgrad).
+            Mit der Produktion wird erst nach der Freigabe durch den Auftraggeber begonnen.
+
+69.00 01C   Vermessung/Bezugssystem vom AG
+            Der Auftraggeber stellt dem Auftragnehmer vor Beginn seiner Arbeiten unentgeltlich ein Bezugssystem zur
+            Verfügung. Davon ausgehend misst der Auftragnehmer, ohne gesonderte Vergütung, Bauteilachsen und Höhen
+            ein.
+            Art des Bezugssystems: ____________
+
+69.00 01D   Zufahrt zur Baustelle
+            Eine Zufahrt zur Baustelle ist gegeben.
+            Beschränkte Radlast: ____________
+            Sonstige Einschränkungen: ____________
+
+69.00 01E   Montagebereich
+            Der Montagebereich ist benutzbar.
+            Beschränkte Radlast: ____________
+            Sonstige Einschränkungen: ____________
+
+69.00 01F   Transport- u.Hubmöglichkeiten
+            Dem Auftragnehmer stehen im Baustellenbereich zum Zeitpunkt der Leistungserbringung folgende Transport-
+            und Hubmöglichkeiten unentgeltlich zur Verfügung.
+            Art der Transport- und Hubmöglichkeiten: ____________
+            Hubkapazität: ____________
+            Zeitliche Vorgaben/Einschränkungen: ____________
+
+                                                                                                                        Seite 4 / 12
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+69.00 01L   Leistungsetappen/Leistungsunterbrechungen
+            Leistungsetappen: ____________
+            Sonstige Angaben (z.B. Leistungsunterbrechungen): ____________
+
+69.00 01V   Verfügbarkeit von Beilagen zum LV
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von z.B. Plänen im PDF-Format: ____________
+            Betrifft Position(en): ____________
+
+69.11       Aufsatzkonstruktionen
+
+
+            1. Systembeschreibung
+            Im Folgenden ist ein thermisch getrenntes Pfosten-/ Riegelsystem als Aufsatzkonstruktion (Aufsatzk.) als
+            zugelassenes, mit allen zugehörigen Komponenten geprüftes Fassadensystem, systemzugehörigem
+            Verglasungssystem, einschließlich der zugehörigen Dichtungsprofile und der systemzugehörigen Press- und/
+            oder Deckleisten mit entsprechender Ansichtsbreite (ausgenommen bei SG-Fassaden), einschließlich
+            integrierter Entwässerung in der durchgängigen Innendichtung in mindestens drei Ebenen beschrieben.
+            Das Fassadensystem weist keine von außen (aus dem Kaltbereich) bis in die Unterkonstruktion (in den
+            Warmbereich) durchgehenden Bauteile auf.
+            Die Fassadenkonstruktion übernimmt keine zusätzlichen Lasten aus dem Bauwerk (die
+            Durchbiegungstoleranzen des Hochbaus sind entsprechend zu berücksichtigen bzw. auf die Aufsatzkonstruktion
+            abzustimmen).
+            Das angebotene Fassadensystem ist auch für die Anwendung als Dachkonstruktion zugelassen, die
+            erforderlichen Mindestneigungen des Systems werden eingehalten. Bei geneigten Konstruktion werden die
+            gleichen Werte hinsichtlich Luftdurchlässigkeit, Schlagregendichtheit und Widerstand gegen Wind wie für die
+            vertikale Konstruktion erreicht (Werte siehe "Technische Anforderungen").
+            Bei flach geneigten Dächern und großen Sparrenlängen (Spannweite ab ca. 10 m) ist ein zusätzlicher
+            Druckausgleich in den Sparren mit der Außenluft erforderlich.
+            Die Oberflächenbehandlung/Oberflächenschutz für die Verbindungsstellen zwischen der Aufsatzkonstruktion
+            und Tragkonstruktion ist nach den Vorgaben des Systemgebers der Aufsatzkonstruktion auszuführen.
+            1.1 Bauanschlussfugen:
+            Die konstruktive Ausbildung etwaiger Bauanschlussfugen (BAF), Breite bis 20 mm, ist in die Einheitspreise
+            einkalkuliert.
+            Bauanschlüsse sind in der Ausführungsplanung dargestellt. Die Werkplanung des Auftragnehmers ist auf der
+            Grundlage dieser Ausführungsplanung erstellt und wird dem Auftraggeber zur Freigabe vorgelegt.
+            1.2 Zulässige Durchbiegungen und Toleranzen (Bauwerk/Aufsatzkonstruktion):
+            1.2.1 Durchbiegungen.
+            Unter den aufgebrachten Wind-, Schnee- bzw. Verkehrslasten überschreitet die größte frontale Durchbiegung (
+            d ) der Rahmenelemente die folgenden Grenzwerte nicht:
+                • d ≤ L / 200, wenn L ≤ 3000 mm
+                • d ≤ 5 mm + L / 300, wenn 3000 mm > L < 7500 mm
+                • d ≤ L / 250, wenn L ≥ 7500 mm
+            Die größte Durchbiegung jeder horizontalen Hauptrahmung (Riegel, Pfette ) infolge vertikaler Lasten
+            überschreitet L / 500 nicht und verhindert jegliche Berührung zwischen Riegel und Ausfachung, um
+            gegebenenfalls eine ausreichende Belüftung und Entwässerung des Ausfachungspaneels sicherzustellen.
+                • L = Abstand zwischen den Auflagepunkten oder den Verankerungspunkten an der Gebäudestruktur.
+            Zusätzlich sind die zulässigen Grenzen der Durchbiegung der Ausfachungen (z.B. Mehrscheiben – Isolierglas,
+            Stein) zu beachten.
+            1.2.2 Toleranzen:
+            Die Bündigkeit der Unterkonstruktion, auf der die Aufsatzkonstruktion aufgebracht wird, überschreitet in den
+            Übergängen von Pfosten (Sparren) zu Riegel (Pfette) 0,5 mm nicht.
+                • Parallelität der Aufsatzkonstruktion zueinander: ± 2 mm
+                • Seitliche Ausbauchung pro Feld: ± 2 mm
+                • Felddiagonale: ± 2 mm
+            1.3 Anforderungen:
+            Das angebotene Fassadensystem als Aufsatzkonstruktion erfüllt folgende Anforderungen:
+                • alle Anforderungen bei absturzsicherer Verglasung werden erfüllt und nachgewiesen
+                • innerhalb des Fassadensystems ist ein Wechsel von einer Kalt- zu einer Warmfassade als Systemlösung
+                                                                                                                     Seite 5 / 12
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+
+                  bei gleichbleibenden Qualitätsmerkmalen in Bezug auf Ansichtsbreiten, Wärmeschutz und Funktion
+                  möglich
+                • das Verglasungssystem besteht aus Deckschalen und/oder Andruckprofilen (Klemmverbindung) aus
+                  Aluminium (ausgenommen bei SG-Fassaden)
+            1.4 Anbindung:
+            Die Anbindung des Verglasungssystems an das Tragwerk erfolgt gemäß den vom Systemhersteller der
+            Aufsatzkonstruktion vorgesehenen Ausführungen (Technische Systembeschreibung).
+            Stahlprofile können aufgeschweißt (Spaltkorrosion beachten!), verschraubt oder mit Bolzensetztechnologie auf
+            der Unterkonstruktion befestigt werden.
+            Ein entsprechendes Aluminiumgrundprofil gelangt mittels Verschraubung oder Bolzensetzung auf
+            Stahlhohlprofilen zur Ausführung.
+            Zur Vermeidung von Kontaktkorrosion und ausdehnungsbedingten Geräuschen wird zwischen der
+            Stahlunterkonstruktion und dem Aluminiumgrundprofil ein Trennband angeordnet. Eine darüber verlegte
+            EPDM-Dichtung mit integrierten Belüftungsnuten bildet die Basis für die Aufnahme der Verglasung und für die
+            Belüftung der Konstruktion. Die Stöße der horizontal und vertikal verlegten Dichtungsprofile sind überlappend
+            ausgeführt und abgedichtet.
+            Ein luftdichter Anschluss an das Bauwerk wird durch Einsatz von Baukörperanschlussdichtungen und
+            dazugehörigen Endstücken gewährleistet.
+            1.5 Lagerung der Verglasung:
+            Die Lastabtragung der Glasfüllung wird über systemzugehörige Glasauflagen ausgeführt. Die Glasauflagen
+            bestehen aus Kunststoff oder Aluminium/Stahl und sind gemäß dem Gewicht und der Glasdicke der Glasfüllung
+            gewählt. Die Glasauflagen sind mit Befestigungsmitteln gemäß den Herstellerangaben im Schraubkanal der
+            Aufsatzkonstruktion bzw. an der Tragkonstruktion befestigt.
+            LB-Version: 23                Geringfügig Geändert
+69.11 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+69.11 00C   Angaben zur Unterkonstruktion
+            Entsprechend den Vorgaben des Systems ausgeführte Unterkonstruktionen (aus Holz, Stahl etc.)
+            siehe Plan Nr.: ____________
+            Dimension/Bezeichnung der Unterkonstruktion (Breite x Höhe): ____________ mm x ____________ mm
+            Informationen zum Werkstoff: ____________
+
+69.11 00D   Luftdurchlässigkeit
+            Luftdurchlässigkeit gemäß Klassifizierung nach EN 12152: ____________
+
+69.11 00E   Schlagregendichtheit f.Fassaden
+            Schlagregendichtheit für Fassaden gemäß Klassifizierung nach EN 12154: ____________
+
+69.11 00F   Widerstand gegen Windlast
+            Widerstand gegen Windlast gemäß Klassifizierung nach EN 13116: ____________
+
+69.11 00G   Zusätzliche Anforderungen
+            Zusätzliche Anforderungen: ____________
+
+69.11 11    Fassadenkonstruktion als Aufsatzkonstruktion.
+                • mit Mehrscheiben-Isolierglas (Floatglas)
+                • vertikal
+            Der angegebene Wärmedämmwert und das Schalldämmmaß beziehen sich auf die gesamte Konstruktion.
+             Kommentar:
+             Wärmedämmwerte und das Schalldämmmaß sind zu beachten.
+             Außenansicht der Fassade: Hier sind die Anforderungen entsprechend zu dokumentieren. Die aufgeführten Möglichkeiten
+             stellen nur eine Auswahl dar.
+
+69.11 11A   Aufsatzk.vertikal m.Alupressl.Vergl.außen                                                                          m²
+            Außen auf die Verglasung aufgesetzte Aluminiumpressleiste (ausgenommen bei SG-Fassaden).
+            Rasterfeld (er): ____________
+            Rasterabstand: ____________
+            Wärmedämmwert (W/m2K): ____________
+                                                                                                                          Seite 6 / 12
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+
+            Schalldämmmaß: ____________
+            Deckleisten: Werkstoff und Oberfläche (eloxiert, pulverbeschichtet, Edelstahl, Nurglas): ____________
+            Abmessungen: (Breite/Höhe): ____________/____________
+
+69.11 11B   Aufsatzk.vertikal vorgeb./nicht vorgebohrt                                                                         m²
+            Vorgebohrt oder nicht vorgebohrt.
+            Rasterfeld (er): ____________
+            Rasterabstand: ____________
+            Wärmedämmwert (W/m2K): ____________
+            Schalldämmmaß: ____________
+            Deckleisten: Werkstoff und Oberfläche (eloxiert, pulverbeschichtet, Edelstahl, Nurglas): ____________
+            Abmessungen: (Breite/Höhe): ____________/____________
+
+69.11 11C   Aufsatzk.vertikal außen verschraubt                                                                                m²
+            Von außen verschraubt, nach statischer Erfordernis mit systemzugehörigen Schrauben.
+            Rasterfeld (er): ____________
+            Rasterabstand: ____________
+            Wärmedämmwert (W/m2K): ____________
+            Schalldämmmaß: ____________
+            Deckleisten: Werkstoff und Oberfläche (eloxiert, pulverbeschichtet, Edelstahl, Nurglas): ____________
+            Abmessungen: (Breite/Höhe): ____________/____________
+
+69.11 11D   Aufsatzk.vertikal m./o.Kunststoffkappe                                                                             m²
+            Mit oder ohne Kunststoffkappe zur Abdeckung des Schraubenkopfes.
+            Rasterfeld (er): ____________
+            Rasterabstand: ____________
+            Wärmedämmwert (W/m2K): ____________
+            Schalldämmmaß: ____________
+            Deckleisten: Werkstoff und Oberfläche (eloxiert, pulverbeschichtet, Edelstahl, Nurglas): ____________
+            Abmessungen: (Breite/Höhe): ____________/____________
+
+69.11 21    Fassadenkonstruktion als Aufsatzkonstruktion mit Mehrscheiben-Isolierglas (Floatglas).
+                • mit Mehrscheiben-Isolierglas (Floatglas)
+                • vertikal, polygonal mit Winkeln
+            Der angegebene Wärmedämmwert und das Schalldämmmaß beziehen sich auf die gesamte Konstruktion.
+             Kommentar:
+             Wärmedämmwerte und das Schalldämmmaß sind zu beachten.
+             Außenansicht der Fassade: Hier sind die Anforderungen entsprechend zu dokumentieren. Die aufgeführten Möglichkeiten
+             stellen nur eine Auswahl dar.
+
+69.11 21A   Aufsatzk.vertikal,polyg.m.Winkeln m.Alupressl.Vergl.außen                                                          m²
+            Ausführung von 1 bis 45 Grad: ____________
+            Außen auf die Verglasung aufgesetzte Aluminiumpressleiste (ausgenommen bei SG-Fassaden).
+            Rasterfeld (er): ____________
+            Rasterabstand: ____________
+            Wärmedämmwert (W/m2K): ____________
+            Schalldämmmaß: ____________
+            Deckleisten: Werkstoff und Oberfläche (eloxiert, pulverbeschichtet, Edelstahl, Nurglas): ____________
+            Abmessungen: (Breite/Höhe): ____________/____________
+
+69.11 21B   Aufsatzk.vertikal,polyg.m.Winkeln vorgeb./nicht vorgebohrt                                                         m²
+            Ausführung von 1 bis 45 Grad: ____________
+            Vorgebohrt oder nicht vorgebohrt.
+
+                                                                                                                          Seite 7 / 12
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+
+            Rasterfeld (er): ____________
+            Rasterabstand: ____________
+            Wärmedämmwert (W/m2K): ____________
+            Schalldämmmaß: ____________
+            Deckleisten: Werkstoff und Oberfläche (eloxiert, pulverbeschichtet, Edelstahl, Nurglas): ____________
+            Abmessungen: (Breite/Höhe): ____________/____________
+
+69.11 21C   Aufsatzk.vertikal,polyg.m.Winkeln außen verschraubt                                                                m²
+            Ausführung von 1 bis 45 Grad: ____________
+            Von außen verschraubt, nach statischer Erfordernis mit systemzugehörigen Schrauben.
+            Rasterfeld (er): ____________
+            Rasterabstand: ____________
+            Wärmedämmwert (W/m2K): ____________
+            Schalldämmmaß: ____________
+            Deckleisten: Werkstoff und Oberfläche (eloxiert, pulverbeschichtet, Edelstahl, Nurglas): ____________
+            Abmessungen: (Breite/Höhe): ____________/____________
+
+69.11 21D   Aufsatzk.vertikal,polyg.m.Winkeln m./o.Kunststoffkappe                                                             m²
+            Ausführung von 1 bis 45 Grad: ____________
+            Mit oder ohne Kunststoffkappe zur Abdeckung des Schraubenkopfes.
+            Rasterfeld (er): ____________
+            Rasterabstand: ____________
+            Wärmedämmwert (W/m2K): ____________
+            Schalldämmmaß: ____________
+            Deckleisten: Werkstoff und Oberfläche (eloxiert, pulverbeschichtet, Edelstahl, Nurglas): ____________
+            Abmessungen: (Breite/Höhe): ____________/____________
+69.11 31    Aufsatzkonstruktion als Dachkonstruktion.
+                • mit Mehrscheiben-Isolierglas (Floatglas)
+            Der angegebene Wärmedämmwert und das Schalldämmmaß beziehen sich auf die gesamte Konstruktion.
+             Kommentar:
+             Wärmedämmwerte und das Schalldämmmaß sind zu beachten.
+             Außenansicht der Fassade: Hier sind die Anforderungen entsprechend zu dokumentieren. Die aufgeführten Möglichkeiten
+             stellen nur eine Auswahl dar.
+
+69.11 31A   Aufsatzk.Dachkonstr.m.Alupressl.Vergl.außen                                                                        m²
+            Mindestneigungen des Systemherstellers werden eingehalten.
+            Außen auf die Verglasung aufgesetzte Aluminiumpressleiste (ausgenommen bei SG-Fassaden).
+            Rasterfeld (er): ____________
+            Rasterabstand: ____________
+            Wärmedämmwert (W/m2K): ____________
+            Schalldämmmaß: ____________
+            Deckleisten: Werkstoff und Oberfläche (eloxiert, pulverbeschichtet, Edelstahl, Nurglas): ____________
+            Abmessungen: (Breite/Höhe): ____________/____________
+
+69.11 31B   Aufsatzk.Dachkonstr.vorgebohrt/nicht vorgebohrt                                                                    m²
+            Mindestneigungen des Systemherstellers werden eingehalten.
+            Vorgebohrt oder nicht vorgebohrt.
+            Rasterfeld (er): ____________
+            Rasterabstand: ____________
+            Wärmedämmwert (W/m2K): ____________
+            Schalldämmmaß: ____________
+
+                                                                                                                          Seite 8 / 12
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            Deckleisten: Werkstoff und Oberfläche (eloxiert, pulverbeschichtet, Edelstahl, Nurglas): ____________
+            Abmessungen: (Breite/Höhe): ____________/____________
+
+69.11 31C   Aufsatzk.Dachkonstr.außen verschraubt                                                                       m²
+            Mindestneigungen des Systemherstellers werden eingehalten.
+            Von außen verschraubt, nach statischer Erfordernis mit systemzugehörigen Schrauben.
+            Rasterfeld (er): ____________
+            Rasterabstand: ____________
+            Wärmedämmwert (W/m2K): ____________
+            Schalldämmmaß: ____________
+            Deckleisten: Werkstoff und Oberfläche (eloxiert, pulverbeschichtet, Edelstahl, Nurglas): ____________
+            Abmessungen: (Breite/Höhe): ____________/____________
+
+69.11 31D   Aufsatzk.Dachkonstr.m./o.Kunststoffkappe                                                                    m²
+            Mindestneigungen des Systemherstellers werden eingehalten.
+            Mit oder ohne Kunststoffkappe zur Abdeckung des Schraubenkopfes.
+            Rasterfeld (er): ____________
+            Rasterabstand: ____________
+            Wärmedämmwert (W/m2K): ____________
+            Schalldämmmaß: ____________
+            Deckleisten: Werkstoff und Oberfläche (eloxiert, pulverbeschichtet, Edelstahl, Nurglas): ____________
+            Abmessungen: (Breite/Höhe): ____________/____________
+
+69.11 40    Randabschluss/Randfläche der Fassadenkonstruktion als Aufsatzkonstruktion mit Mehrscheiben-Isolierglas
+            (Floatglas).
+            Abgerechnet wird die Länge des hergestellten Randabschlusses.
+
+69.11 40A   Aufsatzk.Randabschluss BAF ü.20mm seitlich                                                                  m
+            Seitlich.
+            Breite über 20 mm: ____________
+            Betrifft Position(en): ____________
+
+69.11 40B   Aufsatzk.Randabschluss BAF ü.20mm unten                                                                     m
+            Unten.
+            Breite über 20 mm: ____________
+            Betrifft Position(en): ____________
+
+69.11 40C   Aufsatzk.Randabschluss BAF ü.20mm oben                                                                      m
+            Oben.
+            Breite über 20 mm: ____________
+            Betrifft Position(en): ____________
+
+69.11 41    Randabschluss/Randfläche der Fassadenkonstruktion als Aufsatzkonstruktion mit Mehrscheiben-Isolierglas
+            (Floatglas), über 15 Grad zur Vertikalen geneigt.
+                 • Breite bis 20 mm
+            Abgerechnet wird die Länge des hergestellten Randabschlusses.
+
+69.11 41A   Aufsatzk.geneigt Randabschluss BAF b.20mm seitlich                                                          m
+            Seitlich.
+            Betrifft Position(en): ____________
+
+69.11 41B   Aufsatzk.geneigt Randabschluss BAF b.20mm unten                                                             m
+            Unten.
+            Betrifft Position(en): ____________
+
+
+                                                                                                                   Seite 9 / 12
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+69.11 41C   Aufsatzk.geneigt Randabschluss BAF b.20mm oben                                                              m
+            Oben.
+            Betrifft Position(en): ____________
+69.11 42    Randabschluss/Randfläche der Fassadenkonstruktion als Aufsatzkonstruktion mit Mehrscheiben-Isolierglas
+            (Floatglas), über 15 Grad zur Vertikalen geneigt.
+            Abgerechnet wird die Länge des hergestellten Randabschlusses.
+
+69.11 42A   Aufsatzk.geneigt Randabschluss BAF ü.20mm seitlich                                                          m
+            Seitlich.
+            Breite über 20 mm: ____________
+            Betrifft Position(en): ____________
+
+69.11 42B   Aufsatzk.geneigt Randabschluss BAF ü.20mm unten                                                             m
+            Unten.
+            Breite über 20 mm: ____________
+            Betrifft Position(en): ____________
+
+69.11 42C   Aufsatzk.geneigt Randabschluss BAF ü.20mm oben                                                              m
+            Oben.
+            Breite über 20 mm: ____________
+            Betrifft Position(en): ____________
+
+69.11 51    Aufzahlungen (Az) auf Fassadenkonstruktion als Aufsatzkonstruktion mit Mehrscheiben-Isolierglas (Floatglas).
+            Abgerechnet wird die Teilfläche der Fassade, gemessen im Achsmaß (Rastermaß).
+
+69.11 51A   Az Aufsatzk.f.Einbruchhemmung                                                                               m²
+            Für einbruchhemmende Maßnahmen.
+            Die Aufsatzkonstruktionen sind hinsichtlich ihrer Konstruktion und ihrer Befestigung am Rohbau nach folgender
+            Widerstandsklasse auszuführen:
+            Einbruchhemmung: ____________
+            Betrifft Position(en): ____________
+
+69.11 51B   Az Aufsatzk.f.Verglasungen m.Sicherheitsglas                                                                m²
+            Für Verglasungen mit Sicherheitsglas.
+            Bodentiefe Verglasungen in Arbeitsstätten und bodentiefe Verglasungen an öffentlichen Verkehrsflächen gemäß
+            OIB RL z.B. mit Verbundsicherheitsgläsern (VSG) auf der den entsprechenden Flächen zugewandten Seite.
+            Betrifft Position(en): ____________
+
+69.11 51C   Az Aufsatzk.f.Brandschutz                                                                                   m²
+            Für eine Brandschutzklasse: ____________
+            Betrifft Position(en): ____________
+
+69.11 51D   Az Aufsatzk.f.Teilfl.m.Paneele/Dämmplatten Stahlbl.b.4m                                                     m²
+            Für die Ausführung von Teilflächen mit Paneelen mit Dämmplatten.
+            • Splitterfallhöhe bis 4 m
+            Paneelaufbau:
+            • außen: Einscheibensicherheitsglas (ESG), emailliert
+            • Dämmung: ____________
+            • innen: Stahlblechkassetten, dicht ausgeführt und verzinkt
+            Beschreibung Paneel/Oberfläche: ____________
+            Betrifft Position(en): ____________
+
+69.11 51E   Az Aufsatzk.f.Teilfl.m.Paneele/Dämmplatten Alubl.b.4m                                                       m²
+            Für die Ausführung von Teilflächen mit Paneelen mit Dämmplatten.
+
+
+                                                                                                                  Seite 10 / 12
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            • Splitterfallhöhe bis 4 m
+            Paneelaufbau:
+            • außen: Einscheibensicherheitsglas (ESG), emailliert
+            • Dämmung: ____________
+            • innen: Aluminiumblechkassetten, dicht ausgeführt und eloxiert
+            Beschreibung Paneel/Oberfläche: ____________
+            Betrifft Position(en): ____________
+
+69.11 51F   Az Aufsatzk.f.Teilfl.m.Paneele/Dämmplatten Stahlbl.ü.4m                                                     m²
+            Für die Ausführung von Teilflächen mit Paneelen mit Dämmplatten.
+            • Splitterfallhöhe über 4 m: ____________
+            Paneelaufbau:
+            • außen: Einscheibensicherheitsglas (ESG-HST), emailliert
+            • Dämmung: ____________
+            • innen: Stahlblechkassetten, dicht ausgeführt und verzinkt
+            Beschreibung Paneel/Oberfläche: ____________
+            Betrifft Position(en): ____________
+
+69.11 51G   Az Aufsatzk.f.Teilfl.m.Paneele/Dämmplatten Alubl.ü.4m                                                       m²
+            Für die Ausführung von Teilflächen mit Paneelen mit Dämmplatten.
+            • Splitterfallhöhe über 4 m: ____________
+            Paneelaufbau:
+            • außen: Einscheibensicherheitsglas (ESG-HST), emailliert
+            • Dämmung: ____________
+            • innen: Aluminiumblechkassetten, dicht ausgeführt und eloxiert
+            Beschreibung Paneel/Oberfläche: ____________
+            Betrifft Position(en): ____________
+
+69.11 51H   Az Aufsatzk.f.Teilfl.m.besonderen Glasausführungen                                                          m²
+            Für eine besondere Glasausführungen (z.B. eingefärbte Gläser, mattierte Folie): ____________
+            Betrifft Position(en): ____________
+
+69.11 51I   Az Aufsatzk.f.Sonderformate                                                                                 m²
+            Für eine Ausführung von/mit Sonderformaten.
+            Abmessungen: ____________
+            Planbeilage: ____________
+            Betrifft Position(en): ____________
+
+69.11 51J   Az Aufsatzk.f.Glasdicke ü.4mm                                                                               m²
+            Für eine Glasdicke über 4 mm.
+            Glasdicke (mm): ____________
+            Planbeilage: ____________
+            Betrifft Position(en): ____________
+
+69.11 52    Aufzahlungen (Az) auf Fassadenkonstruktion als Aufsatzkonstruktion mit Mehrscheiben-Isolierglas (Floatglas).
+
+69.11 52A   Az Aufsatzk.f.vertikale Abschottungen                                                                       m
+            Für vertikale Abschottungen (z.B. beim Anschluss von Zwischenwänden).
+            Betrifft Position(en): ____________
+
+69.90       Regieleistungen
+
+
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+                                                                                                                  Seite 11 / 12
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit. Die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Überstunden, die dem Arbeitsruhegesetz unterliegen, sind frei zu formulieren.
+
+69.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+69.90 00A   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+69.90 01    Regiestunden.
+
+69.90 01A   Regiestunde Facharbeiter                                                                                         h
+            Facharbeiter.
+
+69.90 01B   Regiestunde Hilfsarbeiter                                                                                        h
+            Hilfsarbeiter.
+
+69.90 51    Materiallieferungen f.Regieleistungen                                                                            VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+            LB-Version: 23                 Geringfügig Geändert
+
+
+
+
+                                                                                                                       Seite 12 / 12
+                                                                                                  ib-data GmbH, Softwareentwicklung
+

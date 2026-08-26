@@ -1,0 +1,191 @@
+{
+  "lg": "18",
+  "title": "Winterbauarbeiten",
+  "positions": [
+    {
+      "code": "18.00.01A",
+      "text": "Beginn des Winterbetriebes",
+      "unit": ""
+    },
+    {
+      "code": "18.11.01A",
+      "text": "Winterbaueinrichtung +5/-10 Grad herstellen                                                                  PA",
+      "unit": ""
+    },
+    {
+      "code": "18.11.01B",
+      "text": "Winterbaueinrichtung +5/-10 Grad vorhalten                                                                   Wo",
+      "unit": ""
+    },
+    {
+      "code": "18.11.02A",
+      "text": "Az Betonfundament +5/-10 Grad",
+      "unit": "m³"
+    },
+    {
+      "code": "18.11.02C",
+      "text": "Az Unterbeton+Bodenpl.+5/-10 Grad",
+      "unit": "m³"
+    },
+    {
+      "code": "18.11.02E",
+      "text": "Az Betondecke-Stiegenl.+5/-10 Grad",
+      "unit": "m³"
+    },
+    {
+      "code": "18.11.02H",
+      "text": "Az Betonsäule+Träger +5/-10 Grad",
+      "unit": "m³"
+    },
+    {
+      "code": "18.11.02J",
+      "text": "Az Betonwand +5/-10 Grad",
+      "unit": "m³"
+    },
+    {
+      "code": "18.11.02L",
+      "text": "Az Mantelbeton +5/-10 Grad",
+      "unit": "m³"
+    },
+    {
+      "code": "18.12.01A",
+      "text": "Verschließen Öffnung arm.Folie b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "18.12.01B",
+      "text": "Verschließen Öffnung arm.Folie ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "18.12.01C",
+      "text": "Verschließen Öffnung arm.Folie ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "18.12.02A",
+      "text": "Verschalen Öffnung b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "18.12.02B",
+      "text": "Verschalen Öffnung ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "18.12.02C",
+      "text": "Verschalen Öffnung ü.4-6m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "18.12.03A",
+      "text": "Az Verschalen m.Weichfaserplatte 1cm",
+      "unit": "m²"
+    },
+    {
+      "code": "18.12.03C",
+      "text": "Az Verschalen m.Holzw.WW.Platte 3,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "18.12.04A",
+      "text": "Az Verschalen f.Tür b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "18.12.04B",
+      "text": "Az Verschalen f.Tür ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "18.13.10A",
+      "text": "Raum-Heizgerät beistellen b.5kW",
+      "unit": "Stk"
+    },
+    {
+      "code": "18.13.10B",
+      "text": "Raum-Heizgerät beistellen ü.5-10kW",
+      "unit": "Stk"
+    },
+    {
+      "code": "18.13.10C",
+      "text": "Raum-Heizgerät beistellen ü.10-20kW",
+      "unit": "Stk"
+    },
+    {
+      "code": "18.13.10D",
+      "text": "Raum-Heizgerät beistellen ü.20-40kW",
+      "unit": "Stk"
+    },
+    {
+      "code": "18.13.11A",
+      "text": "Raum-Heizgerät vorhalt./betreiben b.5kW                                                                      Mo",
+      "unit": ""
+    },
+    {
+      "code": "18.13.11B",
+      "text": "Raum-Heizgerät vorhalt./betreiben ü.5-10kW                                                                   Mo",
+      "unit": ""
+    },
+    {
+      "code": "18.13.11C",
+      "text": "Raum-Heizgerät vorhalt./betreiben ü.10-20kW                                                                  Mo",
+      "unit": ""
+    },
+    {
+      "code": "18.13.11D",
+      "text": "Raum-Heizgerät vorhalt./betreiben ü.20-40kW                                                                  Mo",
+      "unit": ""
+    },
+    {
+      "code": "18.13.12A",
+      "text": "Az Raum-Heizgerät (kW) f.Sa./So.-Feiertag                                                                    VE",
+      "unit": ""
+    },
+    {
+      "code": "18.14.10A",
+      "text": "Raum-Heizgerät beistellen",
+      "unit": "m³"
+    },
+    {
+      "code": "18.14.11A",
+      "text": "Raum-Heizgerät vorhalt./betreiben                                                                            Mo",
+      "unit": ""
+    },
+    {
+      "code": "18.14.12A",
+      "text": "Az Raum-Heizgerät (m3) f.Sa./So.-Feiertag                                                                    VE",
+      "unit": ""
+    },
+    {
+      "code": "18.14.20A",
+      "text": "Infrarotstrahler beistellen",
+      "unit": "m³"
+    },
+    {
+      "code": "18.14.21A",
+      "text": "Infrarotstrahler vorhalt./betreiben                                                                          Mo",
+      "unit": ""
+    },
+    {
+      "code": "18.14.22A",
+      "text": "Az Infrarotstrahler (m3) f.Sa./So.-Feiertag                                                                  VE",
+      "unit": ""
+    },
+    {
+      "code": "18.15.10A",
+      "text": "Kondenstrockner beistellen",
+      "unit": "m³"
+    },
+    {
+      "code": "18.15.11A",
+      "text": "Kondenstrockner vorhalt./betreiben                                                                           Mo",
+      "unit": ""
+    },
+    {
+      "code": "18.15.12A",
+      "text": "Az Kondenstrockner f.Sa./So.-Feiertag                                                                       VE",
+      "unit": ""
+    }
+  ]
+}

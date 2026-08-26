@@ -1,0 +1,2115 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                      Leistungsgruppe (LG) 31 - Metallbauarbeiten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 3100    Wählbare Vorbemerkungen
+                     ULG 3102    Stahl-Kellerfenster u.-Gitter
+                     ULG 3104    Stahl-Geländer u.Fenstergitter als Absturzsicherung
+                     ULG 3106    Stahltreppen,-Leitern,-Laufstege,-Gitterroste
+                     ULG 3110    Konstruktive Bauteile
+                     ULG 3130    Systemtrennwände aus Stahl
+                     ULG 3131    Standard-Zäune m.Gittergeflecht
+                     ULG 3132    Standard-Zäune m.D-Stabmatten
+                     ULG 3141    Einzelsperrende Einbau-Profilzylinder
+                     ULG 3142    Brieffächer und Hausbrieffachanlagen
+                     ULG 3143    Maste,Rahmen u.Fensterputzsicherungen
+                     ULG 3146    Zubehör und Sonstiges
+                     ULG 3190    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 34
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                             EH
+
+31         Metallbauarbeiten
+           Version 022 (2021-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+
+
+           1. Qualitätsanforderungen/Ausführung:
+           Metallbauarbeiten werden entsprechend der (den) ausgeschriebenen Ausführungsklasse(n) gemäß ÖNORM in
+           einer für die Fertigung der Konstruktionsteile sowohl größenmäßig als auch von der Kran-, Maschinen- und der
+           Prüfgeräteausstattung her geeigneten Betriebsstätte ausgeführt.
+           1.1 Korrosionsbeständiger Stahl:
+           Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl (z.B. V2A oder V4A) beschrieben.
+           1.2 Stahlgüte:
+           Alle Positionen sind mindestens mit Stahlgüte S 235 JR, gemäß EN 10025-2 ausgeführt
+           1.3 Stahlteile im Außenbereich:
+           Stahlteile im Außenbereich sind feuerverzinkt, gemäß ÖNORM EN ISO 1461.
+           2. Einkalkulierte Leistungen:
+           Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+           einkalkuliert:
+               • Bohren von Montagelöchern in Mauerwerk, Beton oder Stahlbeton bis zu einem Durchmesser von 20
+                 mm, wenn gelieferte Bauteile auch montiert werden
+            Kommentar:
+            Für die Ausführung von konstruktiven Bauteilen (z.B. Geländer, Treppen, Roste, Vordächer) stehen 4 Ausführungsklassen –
+            EXC1 bis EXC 4 zur Verfügung. Kriterien bzw. Anforderungen für die Auswahl der Ausführungsklassen sind in EN 1993-1-1
+            angegeben.
+            Etwaige Blindstöcke sind in den Leistungsgruppen für jene Bauteile beschrieben, bei denen sie gegebenenfalls zum Einsatz
+            kommen.
+            Gliederung der ULGs (neu):
+            Um die in der vorliegenden LG enthaltenen Produkte einer praxisgerechten Preisgleitung unterziehen zu können, wurden
+            diese - wie folgt - gegliedert.
+                • bis ULG 31.32: Produkte und Konstruktionen (Konstruktive Stahlbauteile), die unter Beschaffung/Einsatz von
+                  Vormaterialien beim Hersteller gefertigt werden (z.B. Geländer, Stiegen, Gitterroste, Zäune)
+                • ab ULG 31.41: Produkte, die überwiegend als Fertigprodukt bezogen und bereitgestellt werden (z.B. Profilzylinder,
+                  Briefkästen, Hausbrieffachanlagen, Beschläge)
+            Um die Kostenentwicklung eines Systems (Produktes) mit Hilfe eines Index/einer Arbeitskategorie beschreiben zu können,
+            muss ein Index aus mehreren Messgrößen, die in einem Warenkorb mit unterschiedlichen Anteilen zusammen gefasst
+            werden, gebildet werden.
+            In der LG 00 (Allgemeine Bestimmungen) sind entsprechende Arbeitskategorien, die nach überwiegendem Inhalt der
+            beschriebenen Leistung vereinbart werden können, beschrieben.
+            Frei zu formulieren (z.B.):
+                • Oberfläche feuerverzinkt und nass beschichtet (Malerarbeiten)
+                • Sicherheitsgitter gemäß ÖNORM EN 1627: Türen, Fenster, Vorhangfassaden, Gitterelemente und Abschlüsse -
+                  Einbruchhemmung - Anforderungen und Klassifizierung
+                • Laufsteg für Schrägdächer aus Alu-Profilen
+                • Stahl-Geländer ohne Abschlussbögen am Geländerende (z.B. zwischen zwei Mauerpfeiler)
+                • Fenster, Fenstertüren,Türen und Tore aus Stahl
+                • Traforaumabschlüsse und Traforaumausstattungen
+                • Aufzugsschächte einschließlich z.B. Ankerteile, Ausfachungen und Portale
+                • Zäune für Ballspielanlagen
+                • Instandsetzungsarbeiten
+
+
+            Literaturhinweis (z.B.):
+            OIB - Richtlinien
+            ÖNORM B 2225: Metallbauarbeiten, Herstellung von Stahl- und Aluminiumtragwerken sowie Korrosionsschutzarbeiten
+            (Werkvertragsnorm)
+            ÖNORM B 3716: Glas im Bauwesen - Konstruktiver Glasbau
+            ÖNORM B 5371: Treppen, Geländer und Brüstungen in Gebäuden und von Außenanlagen
+            ÖNORM B 8207: Rauch- und Abgasfänge - Leitern und Stege für die Durchführung der Reinigung und Überprüfung von
+            Fängen
+            ÖNORM Z 1600: Leitern - Fest verlegte Aufstiege aus metallischen Werkstoffen an baulichen Anlagen
+            ÖNORM EN 1090: Ausführung von Stahltragwerken und Aluminiumtragwerken
+                                                                                                                            Seite 2 / 34
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+             ÖNORM EN 13724: Postalische Dienstleistungen - Einwurföffnungen von Hausbriefkästen - Anforderungen und Prüfungen
+             ÖNORM EN 1990: Grundlagen der Tragwerksplanung
+             ÖNORM EN 1991: Einwirkungen auf Tragwerke
+             ÖNORM EN 1993: Bemessung und Konstruktion von Stahlbauten
+             ÖNORM B 1991: Einwirkungen auf Tragwerke - Nationale Festlegungen zu ÖNORM EN 1991-1-1 und nationale
+             Ergänzungen
+             ÖNORM EN 1993: Bemessung und Konstruktion von Stahlteilen
+            LB-Version: 23               Geringfügig Geändert
+
+31.00       Wählbare Vorbemerkungen
+31.00 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+             Kommentar:
+             Ausführung aus korrosionsbeständigem Stahl (Edelstahl) z.B. Werkstoffnummer 1.4571 (V4A) und Werkstoffnummer 1.4301
+             (V2A).
+
+31.00 00A   Edelstahl korrosionsbeständiger Stahl V2A
+            Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl V2A mit der Werkstoffnummer ____________
+            beschrieben.
+            Betrifft Position(en):____________
+
+31.00 00B   Edelstahl korrosionsbeständiger Stahl V4A
+            Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl V4A mit der Werkstoffnummer ____________
+            beschrieben.
+            Betrifft Position(en):____________
+
+31.00 00C   Befestigungs-u.Verbindungsmittel V2A
+            Befestigungs- und Verbindungsmittel (z.B. für den Innen- oder Außenbereich, für Feuchtbereiche).
+            Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl V4A mit der Werkstoffnummer ____________
+            beschrieben.
+            Betrifft Position(en):____________
+
+31.00 00D   Befestigungs-u.Verbindungsmittel V4A
+            Befestigungs- und Verbindungsmittel (z.B. für den Innen- oder Außenbereich, für Feuchtbereiche).
+            Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl V4A mit der Werkstoffnummer ____________
+            beschrieben.
+            Betrifft Position(en):____________
+
+31.00 00X   Ergänzende Zeichnungen des AG
+            Die vom Auftraggeber beigestellten Unterlagen (z.B. Zeichnungen, Pläne) zu den angegebenen Positionen
+            beinhalten z.B. ergänzende Maße und Angaben (z.B. Achsen-Bezeichnungen) und gelten als
+            Vertragsbestandteile.
+            Betrifft Position(en):____________
+            Beiliegende Unterlagen:____________
+
+31.02       Stahl-Kellerfenster u.-Gitter
+
+
+            Qualitätsanforderungen/Ausführung:
+            Drehflügel sind mit zwei Bändern, Zungensperre mit Halbolive oder Exzenterverschluss ausgestattet.
+            Das perforierte Blech (Lochblech) ist mindestens 1 mm dick und mit einer Quadratlochung versehen.
+            Pratzen, Schrauben und Dübel werden im Abstand von höchstens 800 mm und einem Eckabstand von
+            höchstens 150 mm im Baukörper oder im Blindstock befestigt.
+
+31.02 01    Stahl-Kellerfenster, feuerverzinkt, mit Rahmen und einflügeligem Drehflügel (1Fl), einschließlich schwenkbarem
+            Schutzgitter (Lochblech mit quadratischer Perforierung).
+            Im Positionsstichwort ist das Rahmenaußenmaß (cm) angegeben.
+
+31.02 01A   Stahl-Kellerfenster feuerverzinkt 1Fl 60x40cm                                                                    Stk
+
+                                                                                                                        Seite 3 / 34
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+            Mit Verglasung, Art der Verglasung: ____________
+
+31.02 01B   Stahl-Kellerfenster feuerverzinkt 1Fl 80x50cm                                                                  Stk
+            Mit Verglasung, Art der Verglasung: ____________
+
+31.02 01C   Stahl-Kellerfenster feuerverzinkt 1Fl 80x60cm                                                                  Stk
+            Mit Verglasung, Art der Verglasung: ____________
+
+31.02 02    Stahl-Kellerfenster, feuerverzinkt, mit Rahmen und zweiflügeligen Drehflügeln (2Fl), einschließlich
+            schwenkbarem Schutzgitter (Lochblech mit quadratischer Perforierung).
+            Im Positionsstichwort ist das Rahmenaußenmaß (cm) angegeben.
+
+31.02 02A   Stahl-Kellerfenster feuerverzinkt 2Fl 80x50cm                                                                  Stk
+            Mit Verglasung, Art der Verglasung: ____________
+
+31.02 02B   Stahl-Kellerfenster feuerverzinkt 2Fl 80x60cm                                                                  Stk
+            Mit Verglasung, Art der Verglasung: ____________
+
+31.02 02C   Stahl-Kellerfenster feuerverzinkt 2Fl 100x50cm                                                                 Stk
+            Mit Verglasung, Art der Verglasung: ____________
+
+31.02 02D   Stahl-Kellerfenster feuerverzinkt 2Fl 100x60cm                                                                 Stk
+            Mit Verglasung, Art der Verglasung: ____________
+
+31.02 02E   Stahl-Kellerfenster feuerverzinkt 2Fl 100x80cm                                                                 Stk
+            Mit Verglasung, Art der Verglasung: ____________
+
+31.02 11    Stahl-Kellerfenster, feuerverzinkt, mit ausgeschnittenem Lüftungsmuster (LüM), dem Altbestand entsprechend
+            ausgeführt.
+
+31.02 11A   Stahl-Kellerfenster feuerverzinkt m.LüM 1Fl                                                                    Stk
+            Einflügelig (1Fl.).
+            Rahmenaußenmaß: ____________ x ____________ cm
+            Aufteilung/Skizze: ____________
+
+31.02 11B   Stahl-Kellerfenster feuerverzinkt m.LüM 2Fl                                                                    Stk
+            Zweiflügelig (2Fl.).
+            Rahmenaußenmaß: ____________ x ____________ cm
+            Aufteilung/Skizze: ____________
+
+31.02 42    Aufzahlung (Az) auf Stahl-Kellerfenster, feuerverzinkt.
+
+31.02 42A   Az Stahl-Kellerfenster feuerverzinkt f.Oberfläche                                                              Stk
+            Für eine Oberflächenbehandlung.
+            Art der Oberflächenbehandlung: ____________
+            Betrifft Position(en): ____________
+
+31.02 51    Fenstergitter aus Stahl, feuerverzinkt.
+            Im Positionsstichwort ist die Größe (m2) angegeben.
+
+31.02 51A   Fenstergitter aus Stahl feuerverzinkt b.0,5m2                                                                  Stk
+            Art/Skizze: ____________
+
+31.02 51B   Fenstergitter aus Stahl feuerverzinkt ü.0,5-1m2                                                                Stk
+            Art/Skizze: ____________
+
+31.02 51C   Fenstergitter aus Stahl feuerverzinkt ü.1-1,5m2                                                                Stk
+            Art/Skizze: ____________
+
+31.02 51D   Fenstergitter aus Stahl feuerverzinkt ü.1,5-2m2                                                                Stk
+                                                                                                                      Seite 4 / 34
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Art/Skizze: ____________
+
+31.04       Stahl-Geländer u.Fenstergitter als Absturzsicherung
+
+
+            1. Qualitätsanforderungen/Ausführung:
+            Rohrenden:
+            Bei nicht feuerverzinkten Hohlprofilen sind Anfänge und Enden verschweißt.
+            Bei Hohlprofilen aus Aluminium oder aus feuerverzinktem Stahl werden, bis zu einem Innendurchmesser von 60
+            mm, Kunststoffabdeckungen verwendet.
+            2. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Befestigen der Geländesteher am Untergrund, einschließlich der Grundplatte, angeschweißtem
+                  Anschlussbund für Abdichtungsanschluss und der Befestigungsmittel
+
+31.04 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+31.04 00A   Oberfläche m.Schutzanstrich
+            Ausführung der Oberfläche(n) entrostet mit Schutzanstrich.
+            Betrifft Position(en): ____________
+
+31.04 00B   Oberfläche feuerverzinkt
+            Ausführung der Oberfläche(n) feuerverzinkt.
+            Betrifft Position(en): ____________
+
+31.04 00C   Oberfläche verzinkt+pulverbeschichtet
+            Ausführung der Oberfläche(n) verzinkt und pulverbeschichtet (raue Oberfläche).
+            Farbe:____________
+            Betrifft Position(en): ____________
+
+31.04 00D   Oberfläche galvanisch verzinkt+pulverbeschichtet
+            Ausführung der Oberfläche(n) galvanisch verzinkt und pulverbeschichtet.
+            Farbe:____________
+            Betrifft Position(en): ____________
+
+31.04 00E   Oberfläche pulverbeschichtet
+            Ausführung der Oberfläche(n) pulverbeschichtet.
+            Farbe:____________
+            Betrifft Position(en): ____________
+
+31.04 00F   Oberfläche Edelstahl
+            Ausführung der Oberfläche(n) aus korrosionsbeständigem Stahl (z.B. unbehandelt, gebeizt, geschliffen (K220)
+            oder poliert):____________
+            Betrifft Position(en): ____________
+
+31.04 00G   Oberfläche Edelstahl f.Handlauf
+            Ausführung der Oberfläche(n) aus korrosionsbeständigem Stahl (z.B. unbehandelt, gebeizt, geschliffen (K220)
+            oder poliert):____________
+                • für Handläufe
+            Betrifft Position(en): ____________
+
+31.04 00M   Liefern u.Montieren in 2 Arbeitsschritten
+            Liefern und Montieren in zwei Arbeitsschritten (1. der Unterkonstruktion und 2. Geländer bzw.
+            Absturzsicherung).
+            Betrifft Position(en): ____________
+
+
+                                                                                                                     Seite 5 / 34
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+31.04 00N   Liefern u.Montieren in 1 Arbeitsschritt
+            Liefern und Montieren in einem Arbeitsschritt.
+            Betrifft Position(en): ____________
+31.04 51    Waagrechtes Stahlgeländer für den Außenbereich (A) aus Formrohren mit Sprossen, nach statischem
+            Erfordernis, einschließlich Handlauf aus Rundrohr und Rohrbögen an den Rohrenden.
+            Im Positionsstichwort ist die Horizontallast (kN/m) angegeben.
+
+31.04 51A   A-Stahlgeländer waagrecht Formrohr/Sprossen 0,5kN/m                                                        m
+            EXC: ____________
+            Höhe: ____________ m
+
+31.04 51B   A-Stahlgeländer waagrecht Formrohr/Sprossen 1kN/m                                                          m
+            EXC: ____________
+            Höhe: ____________ m
+
+31.04 51C   A-Stahlgeländer waagrecht Formrohr/Sprossen 3kN/m                                                          m
+            EXC: ____________
+            Höhe: ____________ m
+31.04 52    Steigendes Stahlgeländer für den Außenbereich (A) aus Formrohren mit Sprossen, nach statischem Erfordernis,
+            einschließlich Handlauf aus Rundrohr und Rohrbögen an den Rohrenden.
+            Im Positionsstichwort ist die Horizontallast (kN/m) angegeben.
+
+31.04 52A   A-Stahlgeländer steigend Formrohr/Sprossen 0,5kN/m                                                         m
+            EXC: ____________
+            Höhe: ____________ m
+
+31.04 52B   A-Stahlgeländer steigend Formrohr/Sprossen 1kN/m                                                           m
+            EXC: ____________
+            Höhe: ____________ m
+
+31.04 52C   A-Stahlgeländer steigend Formrohr/Sprossen 3kN/m                                                           m
+            EXC: ____________
+            Höhe: ____________ m
+
+31.04 53    Waagrechtes Stahlgeländer für den Außenbereich (A) aus Formrohren, nach statischem Erfordernis,
+            einschließlich Handlauf aus Rundrohr und Rohrbögen an den Rohrenden.
+            Im Positionsstichwort ist die Horizontallast (kN/m) angegeben.
+
+31.04 53A   A-Stahlgeländer waagrecht Rahmen/Glasfüllung 0,5kN/m                                                       m
+            Mit Füllungsrahmen aus Faltstegrohr, an jedem Steher mindestens zweimal befestigt.
+            EXC: ____________
+            Höhe: ____________ m
+            Mit Glasfüllung, Art der Verglasung: ____________
+
+31.04 53B   A-Stahlgeländer waagrecht Rahmen/Glasfüllung 1kN/m                                                         m
+            Mit Füllungsrahmen aus Faltstegrohr, an jedem Steher mindestens zweimal befestigt.
+            EXC: ____________
+            Höhe: ____________ m
+            Mit Glasfüllung, Art der Verglasung: ____________
+
+31.04 53C   A-Stahlgeländer waagrecht Rahmen/Glasfüllung 3kN/m                                                         m
+            Mit Füllungsrahmen aus Faltstegrohr, an jedem Steher mindestens zweimal befestigt.
+            EXC: ____________
+            Höhe: ____________ m
+            Mit Glasfüllung, Art der Verglasung: ____________
+
+                                                                                                                  Seite 6 / 34
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+31.04 53D   A-Stahlgeländer waagrecht Stabilgitter 0,5kN/m                                                             m
+            Mit Füllung mit feuerverzinktem Stabilgitter.
+            EXC: ____________
+            Höhe: ____________ m
+            Maschenweite: ____________ x ____________ mm
+
+31.04 53E   A-Stahlgeländer waagrecht Stabilgitter 1kN/m                                                               m
+            Mit Füllung mit feuerverzinktem Stabilgitter.
+            EXC: ____________
+            Höhe: ____________ m
+            Maschenweite: ____________ x ____________ mm
+
+31.04 53F   A-Stahlgeländer waagrecht Stabilgitter 3kN/m                                                               m
+            Mit Füllung mit feuerverzinktem Stabilgitter.
+            EXC: ____________
+            Höhe: ____________ m
+            Maschenweite: ____________ x ____________ mm
+
+31.04 54    Steigendes Stahlgeländer für den Außenbereich (A) aus Formrohren, nach statischem Erfordernis,
+            einschließlich Handlauf aus Rundrohr und Rohrbögen an den Rohrenden.
+            Im Positionsstichwort ist die Horizontallast (kN/m) angegeben.
+
+31.04 54A   A-Stahlgeländer steigend Rahmen/Glasfüllung 0,5kN/m                                                        m
+            Mit Füllungsrahmen aus Faltstegrohr, an jedem Steher mindestens zweimal befestigt.
+            EXC: ____________
+            Höhe: ____________ m
+            Mit Glasfüllung, Art der Verglasung: ____________
+
+31.04 54B   A-Stahlgeländer steigend Rahmen/Glasfüllung 1kN/m                                                          m
+            Mit Füllungsrahmen aus Faltstegrohr, an jedem Steher mindestens zweimal befestigt.
+            EXC: ____________
+            Höhe: ____________ m
+            Mit Glasfüllung, Art der Verglasung: ____________
+
+31.04 54C   A-Stahlgeländer steigend Rahmen/Glasfüllung 3kN/m                                                          m
+            Mit Füllungsrahmen aus Faltstegrohr, an jedem Steher mindestens zweimal befestigt.
+            EXC: ____________
+            Höhe: ____________ m
+            Mit Glasfüllung, Art der Verglasung: ____________
+
+31.04 54D   A-Stahlgeländer steigend Stabilgitter 0,5kN/m                                                              m
+            Mit Füllung mit feuerverzinktem Stabilgitter.
+            EXC: ____________
+            Höhe: ____________ m
+            Maschenweite: ____________ x ____________ mm
+
+31.04 54E   A-Stahlgeländer steigend Stabilgitter 1kN/m                                                                m
+            Mit Füllung mit feuerverzinktem Stabilgitter.
+            EXC: ____________
+            Höhe: ____________ m
+            Maschenweite: ____________ x ____________ mm
+
+31.04 54F   A-Stahlgeländer steigend Stabilgitter 3kN/m                                                                m
+
+
+                                                                                                                  Seite 7 / 34
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+            Mit Füllung mit feuerverzinktem Stabilgitter.
+            EXC: ____________
+            Höhe: ____________ m
+            Maschenweite: ____________ x ____________ mm
+
+31.04 55    Waagrechtes Stahlgeländer für den Außenbereich (A) aus Flachstahl mit Sprossen, nach statischem
+            Erfordernis, einschließlich Handlauf aus Rundrohr und Abschlussbögen.
+            Im Positionsstichwort ist die Horizontallast (kN/m) angegeben.
+
+31.04 55A   A-Stahlgeländer waagrecht Flachstahl/Sprossen 0,5kN/m                                                      m
+            EXC: ____________
+            Höhe: ____________ m
+
+31.04 55B   A-Stahlgeländer waagrecht Flachstahl/Sprossen 1kN/m                                                        m
+            EXC: ____________
+            Höhe: ____________ m
+
+31.04 55C   A-Stahlgeländer waagrecht Flachstahl/Sprossen 3kN/m                                                        m
+            EXC: ____________
+            Höhe: ____________ m
+31.04 56    Steigendes Stahlgeländer für den Außenbereich (A) aus Flachstahl mit Sprossen, nach statischem Erfordernis,
+            einschließlich Handlauf aus Rundrohr.
+            Im Positionsstichwort ist die Horizontallast (kN/m) angegeben.
+
+31.04 56A   A-Stahlgeländer steigend Flachstahl/Sprossen 0,5kN/m                                                       m
+            EXC: ____________
+            Höhe: ____________ m
+
+31.04 56B   A-Stahlgeländer steigend Flachstahl/Sprossen 1kN/m                                                         m
+            EXC: ____________
+            Höhe: ____________ m
+
+31.04 56C   A-Stahlgeländer steigend Flachstahl/Sprossen 3kN/m                                                         m
+            EXC: ____________
+            Höhe: ____________ m
+
+31.04 67    Waagrechtes Stahlgeländer für den Innenbereich (I) aus Formrohren mit Sprossen, nach statischem
+            Erfordernis, einschließlich Flachstahl mit aufgesetztem Holzhandlauf und Abschlussbögen aus Holz.
+            Im Positionsstichwort ist die Horizontallast (kN/m) angegeben.
+
+31.04 67A   I-Stahlgeländer waagrecht Formrohr/Sprossen 0,5kN/m                                                        m
+            EXC: ____________
+            Höhe: ____________ m
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 67B   I-Stahlgeländer waagrecht Formrohr/Sprossen 1kN/m                                                          m
+            EXC: ____________
+            Höhe: ____________ m
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 67C   I-Stahlgeländer waagrecht Formrohr/Sprossen 3kN/m                                                          m
+            EXC: ____________
+            Höhe: ____________ m
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+
+
+
+                                                                                                                  Seite 8 / 34
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+31.04 68    Steigendes Stahlgeländer für den Innenbereich (I) aus Formrohren mit Sprossen, nach statischem Erfordernis,
+            einschließlich Flachstahl mit aufgesetztem Holzhandlauf und Abschlussbögen aus Holz.
+            Im Positionsstichwort ist die Horizontallast (kN/m) angegeben.
+
+31.04 68A   I-Stahlgeländer steigend Formrohr/Sprossen 0,5kN/m                                                         m
+            EXC: ____________
+            Höhe: ____________ m
+
+31.04 68B   I-Stahlgeländer steigend Formrohr/Sprossen 1kN/m                                                           m
+            EXC: ____________
+            Höhe: ____________ m
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 68C   I-Stahlgeländer steigend Formrohr/Sprossen 3kN/m                                                           m
+            EXC: ____________
+            Höhe: ____________ m
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 69    Waagrechtes Stahlgeländer für den Innenbereich (I) aus Formrohren, nach statischem Erfordernis,
+            einschließlich Flachstahl mit aufgesetztem Holzhandlauf und Abschlussbögen aus Holz.
+            Im Positionsstichwort ist die Horizontallast (kN/m) angegeben.
+
+31.04 69A   I-Stahlgeländer waagrecht Rahmen/Glasfüllung 0,5kN/m                                                       m
+            Mit Füllungsrahmen aus Faltstegrohr, an jedem Steher mindestens zweimal befestigt.
+            EXC: ____________
+            Höhe: ____________ m
+            Mit Glasfüllung, Art der Verglasung: ____________
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 69B   I-Stahlgeländer waagrecht Rahmen/Glasfüllung 1kN/m                                                         m
+            Mit Füllungsrahmen aus Faltstegrohr, an jedem Steher mindestens zweimal befestigt.
+            EXC: ____________
+            Höhe: ____________ m
+            Mit Glasfüllung, Art der Verglasung: ____________
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 69C   I-Stahlgeländer waagrecht Rahmen/Glasfüllung 3kN/m                                                         m
+            Mit Füllungsrahmen aus Faltstegrohr, an jedem Steher mindestens zweimal befestigt.
+            EXC: ____________
+            Höhe: ____________ m
+            Mit Glasfüllung, Art der Verglasung: ____________
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 69D   I-Stahlgeländer waagrecht Stabilgitter 0,5kN/m                                                             m
+            Mit Füllung mit feuerverzinktem Stabilgitter.
+            EXC: ____________
+            Höhe: ____________ m
+            Maschenweite: ____________ x ____________ mm
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 69E   I-Stahlgeländer waagrecht Stabilgitter 1kN/m                                                               m
+            Mit Füllung mit feuerverzinktem Stabilgitter.
+            EXC: ____________
+            Höhe: ____________ m
+
+
+                                                                                                                  Seite 9 / 34
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            Maschenweite: ____________ x ____________ mm
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 69F   I-Stahlgeländer waagrecht Stabilgitter 3kN/m                                                                 m
+            Mit Füllung mit feuerverzinktem Stabilgitter.
+            EXC: ____________
+            Höhe: ____________ m
+            Maschenweite: ____________ x ____________ mm
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 70    Steigendes Stahlgeländer für den Innenbereich (I) aus Formrohren, nach statischem Erfordernis, einschließlich
+            Flachstahl mit aufgesetztem Holzhandlauf und Abschlussbögen aus Holz.
+            Im Positionsstichwort ist die Horizontallast (kN/m) angegeben.
+
+31.04 70A   I-Stahlgeländer steigend Rahmen/Glasfüllung 0,5kN/m                                                          m
+            Mit Füllungsrahmen aus Faltstegrohr, an jedem Steher mindestens zweimal befestigt.
+            EXC: ____________
+            Höhe: ____________ m
+            Mit Glasfüllung, Art der Verglasung: ____________
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 70B   I-Stahlgeländer steigend Rahmen/Glasfüllung 1kN/m                                                            m
+            Mit Füllungsrahmen aus Faltstegrohr, an jedem Steher mindestens zweimal befestigt.
+            EXC: ____________
+            Höhe: ____________ m
+            Mit Glasfüllung, Art der Verglasung: ____________
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 70C   I-Stahlgeländer steigend Rahmen/Glasfüllung 3kN/m                                                            m
+            Mit Füllungsrahmen aus Faltstegrohr, an jedem Steher mindestens zweimal befestigt.
+            EXC: ____________
+            Höhe: ____________ m
+            Mit Glasfüllung, Art der Verglasung: ____________
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 70D   I-Stahlgeländer steigend Stabilgitter 0,5kN/m                                                                m
+            Mit Füllung mit feuerverzinktem Stabilgitter.
+            EXC: ____________
+            Höhe: ____________ m
+            Maschenweite: ____________ x ____________ mm
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 70E   I-Stahlgeländer steigend Stabilgitter 1kN/m                                                                  m
+            Mit Füllung mit feuerverzinktem Stabilgitter.
+            EXC: ____________
+            Höhe: ____________ m
+            Maschenweite: ____________ x ____________ mm
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 70F   I-Stahlgeländer steigend Stabilgitter 3kN/m                                                                  m
+            Mit Füllung mit feuerverzinktem Stabilgitter.
+            EXC: ____________
+            Höhe: ____________ m
+
+
+
+                                                                                                                   Seite 10 / 34
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            Maschenweite: ____________ x ____________ mm
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+31.04 71    Aufzahlung (Az) auf Stahlgeländer für die Befestigung der Steher seitlich anstatt am Boden.
+
+31.04 71A   Az Stahlgeländer f.seitliche Befestigungen                                                                   Stk
+            Einschließlich etwaigem Distanzstück oder einer gebogenen Ausführung mit Wasserabweiser.
+            Abgerechnet wird die Anzahl der seitlichen Befestigungen.
+            Betrifft Position(en): ____________
+
+31.04 80    Handlauf mit wandseitigen Stützen aus Rundstahl, für den Außenbereich (A), gebogen, mit Abdeckrosetten,
+            einschließlich Befestigungsmittel.
+
+31.04 80C   A-Handlauf+Stützen m.Rohr                                                                                    m
+            Mit einem Rohr als Handlauf und Rohrbögen an den Rohrenden.
+            Durchmesser Rohr: ____________ mm
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 80D   A-Handlauf+Stützen m.Rundstahl                                                                               m
+            Mit Rundstahl als Handlauf und Rohrbögen an den Rohrenden.
+            Durchmesser Rundstahl: ____________ mm
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 81    Handlauf mit wandseitigen Stützen aus Rundstahl, für den Innenbereich (I), gebogen, mit Abdeckrosetten,
+            einschließlich Befestigungsmittel.
+
+31.04 81A   I-Handlauf+Stützen m.Flachstahl 30/8mm                                                                       m
+            Mit Flachstahl 30/8 mm mit aufgesetztem Holzhandlauf und Abschlussbögen aus Holz.
+            Beschreibung Holzhandlauf (z.B. Profil, Material): ____________
+
+31.04 81B   I-Handlauf+Stützen m.Flachstahl 40/8mm                                                                       m
+            Mit Flachstahl 40/8 mm mit aufgesetztem Holzhandlauf und Abschlussbögen aus Holz.
+            Beschreibung Holzhandlauf (z.B. Profil, Material): ____________
+
+31.04 81C   I-Handlauf+Stützen m.Rohr                                                                                    m
+            Mit einem Rohr als Handlauf und Rohrbögen an den Rohrenden.
+            Durchmesser Rohr: ____________ mm
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 81D   I-Handlauf+Stützen m.Rundstahl                                                                               m
+            Mit Rundstahl als Handlauf und Rohrbögen an den Rohrenden.
+            Durchmesser Rundstahl: ____________mm
+            Beschreibung Handlauf (z.B. Profil, Material): ____________
+
+31.04 95    Fenstergitter aus Stahl, feuerverzinkt, als Absturzsicherung.
+            Im Positionsstichwort ist die Größe (m2) angegeben.
+
+31.04 95A   Fenstergitter/Absturzsicherung b.0,5m2                                                                       Stk
+            EXC: ____________
+            Art/Skizze: ____________
+
+31.04 95B   Fenstergitter/Absturzsicherung ü.0,5-1m2                                                                     Stk
+            EXC: ____________
+            Art/Skizze: ____________
+
+31.04 95C   Fenstergitter/Absturzsicherung ü.1-1,5m2                                                                     Stk
+            EXC: ____________
+            Art/Skizze: ____________
+
+                                                                                                                   Seite 11 / 34
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+31.04 95D   Fenstergitter/Absturzsicherung ü.1,5-2m2                                                                       Stk
+            EXC: ____________
+            Art/Skizze: ____________
+
+31.06       Stahltreppen,-Leitern,-Laufstege,-Gitterroste
+            LB-Version: 23              Geringfügig Geändert
+31.06 01    Einläufige gerade Stahltreppe, feuerverzinkt, nach statischem Erfordernis, bestehend aus Seitenwangen aus
+            Flachstahl oder gekanteten Stahlblechprofilen mit eingeschraubten Gitterroststufen, verstärkter Antrittskante,
+            einschließlich aller Befestigungsmittel und etwaiger Grundplatten.
+            Abgerechnet wird je Treppenlauf.
+            Geschoßhöhe bis 3,2 m.
+            Im Positionsstichwort ist die Gitterrostbreite (mm) angegeben.
+
+31.06 01A   Stahltreppe feuerverzinkt Gitterrost 700mm                                                                     Stk
+            EXC: ____________
+            Stufenanzahl: ____________
+
+31.06 01B   Stahltreppe feuerverzinkt Gitterrost 800mm                                                                     Stk
+            EXC: ____________
+            Stufenanzahl: ____________
+
+31.06 01C   Stahltreppe feuerverzinkt Gitterrost 900mm                                                                     Stk
+            EXC: ____________
+            Stufenanzahl: ____________
+
+31.06 01D   Stahltreppe feuerverzinkt Gitterrost 1000mm                                                                    Stk
+            EXC: ____________
+            Stufenanzahl:____________
+
+31.06 01E   Stahltreppe feuerverzinkt Gitterrost 1200mm                                                                    Stk
+            EXC: ____________
+            Stufenanzahl: ____________
+
+31.06 02    Leiter in ortsfester Ausführung aus feuerverzinktem Stahl, nach statischem Erfordernis, einschließlich
+            Befestigungsmittel.
+            Im Positionsstichwort ist die Höhe (m) angegeben.
+
+31.06 02A   Leiter feuerverzinkte ortsfest 2-2,5m                                                                          Stk
+            EXC: ____________
+
+31.06 02B   Leiter feuerverzinkte ortsfest ü.2,5-3m                                                                        Stk
+            EXC: ____________
+
+31.06 02C   Leiter feuerverzinkte ortsfest ü.3-3,5m                                                                        Stk
+            EXC: ____________
+
+31.06 02D   Leiter feuerverzinkte ortsfest ü.3,5-4m                                                                        Stk
+            EXC: ____________
+
+31.06 02X   Leiter feuerverzinkte Leiter ortsfest__________                                                                Stk
+            EXC: ____________
+
+31.06 03    Aufzahlung (Az) auf Leiter in ortsfester Ausführung aus feuerverzinktem Stahl.
+
+31.06 03A   Az Leiter feuerverzinkt ortsfest f.verlängerte Holme                                                           Stk
+            Für eine Verlängerung beider Holme als Austrittshandlauf, mindestens 1100 mm über der letzten Sprosse.
+
+31.06 04    Schutzkorb, für Leiter in ortsfester Ausführung aus feuerverzinktem Stahl, nach statischem Erfordernis.
+
+                                                                                                                     Seite 12 / 34
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+31.06 04A   Schutzkorb f.Leiter                                                                                            m
+            Bestehend aus Querungen und Längsstreben.
+            Abgerechnet wird die Länge der ausgeführten Schutzeinrichtung, ohne Unterschied der Anzahl der
+            ausgestatteten Leitern.
+
+31.06 05    Bauteile für Leiter in ortsfester Ausführung aus feuerverzinktem Stahl, nach statischem Erfordernis.
+
+31.06 05A   Absperrbare Klappe f.Leiter                                                                                    Stk
+            Absperrbare Klappe beim Beginn des Schutzkorbes, Sperre mit vom AG beigestelltem Sperrzylinder.
+
+31.06 05B   Sicherheitsplatte ohne Fallschutz f.Leiter                                                                     Stk
+            Sicherheitsplatte zum Anklemmen an die Leiter, als Schutz gegen unbefugtes Besteigen.
+            Als drehbare Konstruktion aus Stahlblech, feuerverzinkt. Absperrung mit vom AG beigestelltem Sperrzylinder.
+                • ohne Fallschutz
+            Nutzlänge:____________m
+
+31.06 05C   Sicherheitsplatte mit Fallschutz f.Leiter                                                                      Stk
+            Sicherheitsplatte zum Anklemmen an die Leiter, als Schutz gegen unbefugtes Besteigen.
+            Als drehbare Konstruktion aus Stahlblech, feuerverzinkt. Absperrung mit vom AG beigestelltem Sperrzylinder.
+                • mit Fallschutz
+            Nutzlänge:____________m
+
+31.06 05D   Leiterverlängerung f.Leiter                                                                                    Stk
+            Leiterverlängerung, nach unten ausschiebbar.
+            Einschließlich Vorhängeschloss für nicht ausgezogener Funktion.
+            Länge Schiebeelement: bis 200 cm
+            LB-Version: 23              Geringfügig Geändert
+31.06 07    Stahltreppe als tragende Konstruktion (z.B. für Niveauunterschiede) einschließlich Grundplatte und
+            Befestigungsmittel, Auflager akustisch entkoppelt, nach statischem Erfordernis.
+            Abgerechnet wird je Stiegenlauf.
+
+31.06 07A   Stahltreppe mit aufgesetzten Stufen                                                                            Stk
+            Mit aufgesetzten Stufen.
+            EXC:____________
+            Stufenbreite:____________cm
+            Stufenanzahl:____________Stück
+            Stufenmaterial:____________
+            Oberfläche:____________
+
+31.06 07B   Stahltreppe mit aufgesetzten Stufen+Wangen                                                                     Stk
+            Mit aufgesetzten Stufen und treppenartigen Wangen.
+            EXC:____________
+            Stufenbreite:____________cm
+            Stufenanzahl:____________Stück
+            Stufenmaterial:____________
+            Oberfläche:____________
+
+31.06 07C   Stahltreppe mit Podest                                                                                         Stk
+            Mit Podest.
+            Abmessungen: ____________ x ____________ (cm)
+            EXC:____________
+
+31.06 07D   Unterkonstruktion f.Stahltreppe                                                                                Stk
+
+
+                                                                                                                     Seite 13 / 34
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+            EXC:____________
+            Unterkonstruktion (UK), bestehend aus:
+                • tragende Mittelsäulenkonstruktion im Spindelbereich
+                • auskragende Profile für Podeste und Stufen
+                • Verbindung mit dem Baukörper, gemäß statischen Erfordernissen
+            Die Fundamentierung erfolgt durch den AG und ist in eigenen Positionen beschrieben (z.B. in der LG07).
+            LB-Version: 23               Geringfügig Geändert
+31.06 11    Austrittspodest für gerade Stahltreppen, feuerverzinkt, nach statischem Erfordernis,
+            bestehend aus:
+                • Seitenwangen aus gekantetem Stahlblechprofil
+                • eingeschraubten Gitterrosten
+                • mit verstärkter Austrittskante
+                • Befestigungsmittel
+
+31.06 11A   Podest f.Stahltreppe Gitterrost                                                                                   Stk
+            EXC:____________
+            Abmessungen Gitterrost: ____________x____________cm
+31.06 19    Laufsteg auf Flachdächer aus Stahlprofilen, nach statischem Erfordernis, feuerverzinkt, einschließlich Gitterrost,
+            Maschenweite 30 x 30 mm, einschließlich Füße und Grundplatte.
+            Einschließlich Befestigung am Dach.
+            Breite des Steges 600 mm.
+            Im Positionsstichwort ist die Dachneigung (Grad) angegeben.
+
+31.06 19A   Laufsteg+Rost feuerverzinkt Flachdach__________                                                                   m
+            EXC:____________
+            Art der Dachdeckung (z.B. Blech, Schotter, Stein): ____________
+
+31.06 20    Laufsteg für Schrägdächer aus Stahlprofilen, nach statischem Erfordernis, feuerverzinkt, einschließlich
+            Gitterrost, Maschenweite 30 x 30 mm, einschließlich Befestigung der Stützen am Dachstuhl (für die Einbindung
+            in die Dachhaut vorbereitet).
+            Breite des Steges 600 mm.
+            Im Positionsstichwort ist die Dachneigung (Grad) angegeben.
+
+31.06 20A   Laufsteg+Rost feuerverzinkt b.30°                                                                                 m
+            EXC:____________
+            Art der Dachdeckung: ____________
+
+31.06 20B   Laufsteg+Rost feuerverzinkt ü.30-45°                                                                              m
+            EXC:____________
+            Art der Dachdeckung: ____________
+
+31.06 20C   Laufsteg+Rost feuerverzinkt ü.45°                                                                                 m
+            EXC:____________
+            Art der Dachdeckung: ____________
+
+31.06 21    Aufzahlung (Az) auf Laufstege, feuerverzinkt.
+
+31.06 21A   Az Laufsteg feuerverzinkt f.Geländer                                                                              m
+            EXC:____________
+            Für Geländer, mit Fußleiste und zwei Durchzügen, nach statischem Erfordernis, feuerverzinkt.
+
+31.06 21B   Az Laufsteg feuerverzinkt f.3.Durchzug Rundstahl                                                                  m
+            EXC:____________
+            Für einen dritten Durchzug aus Rundstahl, nach statischem Erfordernis, feuerverzinkt.
+
+31.06 23    Eingebaute Stufen mit Gitterrost, nach statischem Erfordernis, für Laufstege, feuerverzinkt.
+
+31.06 23A   Eingebaute Stufen+Gitterrost f.Laufsteg feuerverzinkt                                                             Stk
+
+                                                                                                                        Seite 14 / 34
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+            EXC:____________
+
+31.06 28    Winkelrahmen für Gitterroste, rechteckig, aus feuerverzinktem Stahl, einschließlich Befestigungslaschen, nur
+            liefern.
+             Kommentar:
+             Das Versetzten von Winkelrahmen ist in der LG09 (Versetzarbeiten) beschrieben.
+             Winkelrahmen als tragende Elemente sind frei zu formulieren und mit einer EXC zu belegen.
+
+31.06 28A   Winkelrahmen f.Gitterrost feuerverzinkt liefern                                                                         Stk
+            Betrifft Position(en): ____________
+
+31.06 28B   Winkelrahmen f.Gitterrost (Sonderform) feuerverzinkt liefern                                                            Stk
+            In Sonderform.
+            Betrifft Position(en): ____________
+31.06 30    Gitterrost, rechteckig, Prüfkraft 15 kN/m2, aus feuerverzinktem Stahl mit Umrandung, ohne Rahmen, in die
+            bereits versetzten Rahmen einlegen.
+            Im Positionsstichwort ist die Maschenweite (mm) und die Tragstablänge (mm) angegeben.
+
+31.06 30A   Gitterrost feuerverzinkt 15kN 30x10mm Tragst.b.500mm                                                                    m²
+
+31.06 30B   Gitterrost feuerverzinkt 15kN 30x10mm Tragst.ü.500-800mm                                                                m²
+
+31.06 30C   Gitterrost feuerverzinkt 15kN 30x10mm Tragst.ü.800-1000mm                                                               m²
+
+31.06 30D   Gitterrost feuerverzinkt 15kN 30x10mm Tragst.ü.1000-1200mm                                                              m²
+
+31.06 30X   Gitterrost feuerverzinkt 15kN 30x10mm Tragst.__________                                                                 m²
+31.06 31    Gitterrost, rechteckig, Prüfkraft 15 kN/m2, aus feuerverzinktem Stahl mit Umrandung, ohne Rahmen, in die
+            bereits versetzten Rahmen einlegen.
+            Im Positionsstichwort ist die Maschenweite (mm) und die Tragstablänge (mm) angegeben.
+
+31.06 31A   Gitterrost feuerverzinkt 15kN 30x30mm Tragst.b.500mm                                                                    m²
+
+31.06 31B   Gitterrost feuerverzinkt 15kN 30x30mm Tragst.ü.500-800mm                                                                m²
+
+31.06 31C   Gitterrost feuerverzinkt 15kN 30x30mm Tragst.ü.800-1000mm                                                               m²
+
+31.06 31D   Gitterrost feuerverzinkt 15kN 30x30mm Tragst.ü.1000-1200mm                                                              m²
+
+31.06 31X   Gitterrost feuerverzinkt 15kN 30x30mm Tragst.__________                                                                 m²
+31.06 32    Gitterrost, rechteckig, Prüfkraft 125 kN/m2, aus feuerverzinktem Stahl mit Umrandung, ohne Rahmen, in die
+            bereits versetzten Rahmen einlegen.
+            Im Positionsstichwort ist die Maschenweite (mm) und die Tragstablänge (mm) angegeben.
+
+31.06 32A   Gitterrost feuerverzinkt 125kN 30x30mm Tragst.b.500mm                                                                   m²
+
+31.06 32B   Gitterrost feuerverzinkt 125kN 30x30mm Tragst.ü.500-800mm                                                               m²
+
+31.06 32C   Gitterrost feuerverzinkt 125kN 30x30mm Tragst.ü.800-1000mm                                                              m²
+
+31.06 32D   Gitterrost feuerverzinkt 125kN 30x30mm Tragst.ü.1000-1200mm                                                             m²
+
+31.06 32X   Gitterrost feuerverzinkt 125kN 30x30mm Tragst.__________                                                                m²
+31.06 33    Gitterrost, rechteckig, Prüfkraft 250 kN/m2, aus feuerverzinktem Stahl mit Umrandung, ohne Rahmen, in die
+            bereits versetzten Rahmen einlegen.
+            Im Positionsstichwort ist die Maschenweite (mm) und die Tragstablänge (mm) angegeben.
+
+31.06 33A   Gitterrost feuerverzinkt 250kN 30x30mm Tragst.b.500mm                                                                   m²
+
+31.06 33B   Gitterrost feuerverzinkt 250kN 30x30mm Tragst.ü.500-800mm                                                               m²
+
+
+                                                                                                                              Seite 15 / 34
+                                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+31.06 33C   Gitterrost feuerverzinkt 250kN 30x30mm Tragst.ü.800-1000mm                                                  m²
+
+31.06 33D   Gitterrost feuerverzinkt 250kN 30x30mm Tragst.ü.1000-1200mm                                                 m²
+
+31.06 33X   Gitterrost feuerverzinkt 250kN 30x30mm Tragst.__________                                                    m²
+31.06 34    Gitterrost, rechteckig, Prüfkraft 400 kN/m2, aus feuerverzinktem Stahl mit Umrandung, ohne Rahmen, in die
+            bereits versetzten Rahmen einlegen.
+            Im Positionsstichwort ist die Maschenweite (mm) und die Tragstablänge (mm) angegeben.
+
+31.06 34A   Gitterrost feuerverzinkt 400kN 30x30mm Tragst.b.500mm                                                       m²
+
+31.06 34B   Gitterrost feuerverzinkt 400kN 30x30mm Tragst.ü.500-800                                                     m²
+
+31.06 34C   Gitterrost feuerverzinkt 400kN 30x30mm Tragst.ü.800-1000                                                    m²
+
+31.06 34D   Gitterrost feuerverzinkt 400kN 30x30mm Tragst.ü.1000-1200                                                   m²
+
+31.06 34X   Gitterrost feuerverzinkt 400kN 30x30mm Tragst.__________                                                    m²
+31.06 35    Gitterrost, aus feuerverzinktem Stahl mit Umrandung, ohne Rahmen, in die bereits versetzten Rahmen einlegen.
+
+31.06 35A   Gitterrost feuerverzinkt in Sonderform                                                                      Stk
+            Ausführung Sonderform: ____________
+            Prüfkraft: ____________ kN/m2
+            Maschenweite: ____________ mm
+            Tragstablänge: ____________ mm
+
+31.06 42    Aufzahlung (Az) auf Gitterroste, feuerverzinkt.
+
+31.06 42A   Az Gitterrost feuerverzinkt f.Sicherung gegen Herausheben                                                   Stk
+            Für eine Sicherung gegen Herausheben.
+            Abgerechnet wird die Anzahl der Sicherungen.
+            Betrifft Position(en): ____________
+
+31.06 42B   Az Gitterrost feuerverzinkt f.Klammern feuerverzinkt                                                        Stk
+            Für das Befestigen mit feuerverzinkten Klammern.
+            Abgerechnet wird die Anzahl der Klammern.
+            Betrifft Position(en): ____________
+
+31.06 42D   Az Gitterrost feuerverzinkt f.Ausschnitt                                                                    Stk
+            Für einen Ausschnitt, einschließlich Einfassung.
+            Ausschnitt Form:____________
+            Abmessungen: ____________mm
+            Betrifft Position(en): ____________
+
+31.06 44    Rinnenabdeckung, rechteckig, aus Prägeblech, feuerverzinkt, einschließlich Rahmen und Anhebevorrichtung
+            (z.B. durch mittige, versenkbare Öse).
+                • Rinnenbreite: 300 mm
+            Im Positionsstichwort sind die Prüfkraft (kN/m2) angegeben.
+
+31.06 44A   Rinnenabdeckung Prägeblech feuerverzinkt 125kN/m2 b.300mm                                                   m
+
+31.06 44B   Rinnenabdeckung Prägeblech feuerverzinkt 250kN/m2 b.300mm                                                   m
+
+31.06 44C   Rinnenabdeckung Prägeblech feuerverzinkt 400kN/m2 b.300mm                                                   m
+31.06 45    Rinnenabdeckung, aus Prägeblech, feuerverzinkt, einschließlich Rahmen und Anhebevorrichtung (z.B. durch
+            mittige, versenkbare Öse).
+
+31.06 45D   Rinnenabdeckung Prägeblech feuerverzinkt in Sonderform                                                      m
+
+                                                                                                                  Seite 16 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+            Ausführung Sonderform: ____________
+            Rinnenbreite: ____________ mm
+            Prüfkraft: ____________ kN/m2
+
+31.06 46    Schachtabdeckung aus Prägeblech, feuerverzinkt, einschließlich Rahmen und Anhebevorrichtung (z.B. durch
+            mittige, versenkbare Öse).
+                • rechteckig
+            Im Positionsstichwort ist die Prüfkraft (kN/m2) und die Nenngröße (Rahmenlichte) angegeben.
+
+31.06 46A   Schachtabdeckung Prägeblech feuerverzinkt 125kN/m2 400x600mm                                                Stk
+
+31.06 46B   Schachtabdeckung Prägeblech feuerverzinkt 125kN/m2 600x600mm                                                Stk
+
+31.06 46C   Schachtabdeckung Prägeblech feuerverzinkt 250kN/m2 400x600mm                                                Stk
+
+31.06 46D   Schachtabdeckung Prägeblech feuerverzinkt 250kN/m2 600x600mm                                                Stk
+
+31.06 46E   Schachtabdeckung Prägeblech feuerverzinkt 400kN/m2 400x600mm                                                Stk
+
+31.06 46F   Schachtabdeckung Prägeblech feuerverzinkt 400kN/m2 600x600mm                                                Stk
+31.06 48    Schachtabdeckung aus Prägeblech, feuerverzinkt, einschließlich Rahmen und Anhebevorrichtung (z.B. durch
+            mittige, versenkbare Öse).
+                • rund
+            Im Positionsstichwort ist die Prüfkraft (kN/m2) angegeben.
+
+31.06 48A   Schachtabdeckung Prägeblech feuerverzinkt 125kN/m2 600mm                                                    Stk
+            Nenngröße (Rahmenlichte/Durchmesser): 600 mm
+
+31.06 49    Schachtabdeckung aus Prägeblech, feuerverzinkt, einschließlich Rahmen und Anhebevorrichtung (z.B. durch
+            mittige, versenkbare Öse).
+
+31.06 49A   Schachtabdeckung Prägeblech feuerverzinkt in Sonderform                                                     Stk
+            Ausführung Sonderform: ____________
+            Prüfkraft: ____________ kN/m2
+            Rahmenlichte/Abmessungen : ____________ mm
+
+31.06 50    Aufzahlung (Az) auf Schacht- und Rinnenabdeckungen mit Prägeblech, feuerverzinkt (feuerv.).
+
+31.06 50A   Az Schacht-/Rinnenabdeckung feuerv.f.Abdeckung klappbar                                                     Stk
+            Für eine klappbare Ausführung mit zwei verdeckten Bändern und mit Überschlagsicherung.
+            Abgerechnet wird die Anzahl der Abdeckungen.
+            Betrifft Position(en): ____________
+
+31.06 50B   Az Schacht-/Rinnenabdeckung feuerv.f.Zungenverschluss                                                       Stk
+            Für einen Zungenverschluss.
+            Betätigung durch einen Steckschlüssel (in eigener Position beschrieben).
+            Betrifft Position(en): ____________
+
+31.06 50C   Az Schacht-/Rinnenabdeckung feuerv.f.Randaussparung                                                         Stk
+            Für eine Randaussparung.
+            Art: ____________
+            Abmessungen: ____________ mm
+            Betrifft Position(en): ____________
+
+31.06 50D   Az Schacht-/Rinnenabdeckung feuerv.f.Aussparung Deckel                                                      Stk
+            Für eine Aussparung innerhalb des Deckels.
+            Art: ____________
+
+
+
+                                                                                                                  Seite 17 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+            Abmessungen: ____________ mm
+            Betrifft Position(en): ____________
+31.06 51    Zubehör zu den Gitterrosten.
+
+31.06 51A   Steckschlüssel f.Zungenverschluss                                                                                      Stk
+            Steckschlüssel für die Betätigung der Zungenverschlüsse.
+
+31.06 51B   Hakengriff f.Anheben Deckel                                                                                            Stk
+            Hakengriff zum Anheben der Deckel.
+
+31.10       Konstruktive Bauteile
+31.10 01    Vordachkonstruktion aus Glas, für eine vom AG hergestellte Fassade mit Wärmedämmverbundsystem (WDVS).
+            Vordachkonstruktion aus
+                • mindestens 16 mm VSG (Verbundsicherheitsglas)
+                • schlagfest
+                • splitterbindend
+                • temperaturbeständig
+                • Klarglas transparent mit polierten Glasrändern
+                • Punkthalterungen
+                • Abhängungen, Abspannelemente
+            einschließlich Konsolen.
+            Die Montage einschließlich Befestigungsmittel, nach statischem Erfordernis, ist im Einheitspreis einkalkuliert.
+            Alle Metallteile sind aus nicht rostendem Edelstahl.
+             Kommentar:
+             In Abhängigkeit von der Größe bzw. den Abmessungen ist die Angabe einer EXC zu beachten.
+             Ist das Glasvordach ein Fertigprodukt mit entsprechenden Zulassungen (Systemzulassung, ETA-Zulassung) dann erfolgt die
+             Ausführung nicht nach EXC-Klassen unabhängig von der Größe. Der Nachweis ist durch die Zulassung gegeben.
+             Wird das Glasdach aber individuell mit tragenden Stahlbauteilen hergestellt, hat die Fertigung nach einer EXC-Klasse zu
+             erfolgen.
+
+31.10 01A   Glasvordach bei WDVS auskragend b.1,5m2                                                                                Stk
+            EXC:____________
+            Planbeilage: ____________
+            Abmessungen des Glasvordaches (bis 1,5 m2) : ____________ x ____________ cm
+            Untergrund:____________
+            Dämmstoffdicke: ____________ cm
+
+            LB-Version: 23                 Geringfügig Geändert
+
+31.10 01B   Glasvordach bei WDVS auskragend ü.1,5-3m2                                                                              Stk
+            EXC____________:
+            Planbeilage: ____________
+            Abmessungen des Glasvordaches (über 1,5 bis 3 m2) : ____________ x ____________ cm
+            Untergrund:____________
+            Dämmstoffdicke: ____________ cm
+            LB-Version: 23                 Geringfügig Geändert
+31.10 04    Rohrtresors aus korrosionsbeständigem Edelstahl, mit Rosette zur Abdeckung des Bohrlochs, fassadenbündig
+            eingebaut.
+                • Rohrkorpus bis 70 mm
+            Einschließlich Zylindergehäuse ,vorgerichtet für Profil-Halbzylinder mit verstellbarer Sperrnase, einschließlich
+            Schlüsselring mit
+            Kette.
+            Einbauhülse aus Edelstahl mit Grundplatte für eine kraftschlüssige Befestigung am Untergrund.
+            Länge des Rohrtresors der Dämmstoffdicke der Fassade angepasst,
+            Die Montage einschließlich Befestigungsmittel, nach statischem Erfordernis, ist im Einheitspreis einkalkuliert.
+            Alle Metallteile sind aus nicht rostendem Edelstahl.
+                                                                                                                             Seite 18 / 34
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+31.10 04A   Rohrtresor mit Einbauhülse                                                                                   Stk
+            Untergrund: ____________
+            Dämmstoffdicke bei Wärmedämmverbundsystem oder Aufbau bei einer vorgehängten Fassade:____________
+            LB-Version: 23                 Geringfügig Geändert
+
+31.30       Systemtrennwände aus Stahl
+
+
+            1. Qualitätsanforderungen/Ausführung:
+            Systemtrennwände (z.B. für Kellerabteile oder Dachböden) bestehen aus senkrechten Ständerprofilen und
+            mindestens 3 waagrechten Tragprofilen und sind mit senkrechten Stahllamellen beplankt.
+            Der Abstand der Stahllamellen zum Fußboden und zur Deckenuntersicht beträgt höchstens 80 mm.
+            Die Dimensionierung der Konstruktion und deren Befestigung erfolgt nach statischen Erfordernissen durch den
+            Auftragnehmer.
+            2. Ausmaß- und Abrechnungsregeln:
+            Abgerechnet werden Systemtrennwände nach dem Flächenmaß, ermittelt aus der lichten Raumhöhe (eventuell
+            verglichenes Höhenmittel) mal der abgewickelten Länge im Grundriss.
+            Öffnungen und Türen werden nicht abgezogen.
+31.30 01    Systemtrennwand aus Stahl (St-Systemtrennwand), verzinkt, Tragkonstruktion mit Stahllamellen, beplankt.
+
+31.30 01A   St-Systemtrennwand verzinkt blickdicht                                                                       m²
+            Blickdicht mit dicht gestoßenen Lamellen, ohne Profilabstand.
+
+31.30 01B   St-Systemtrennwand verzinkt Profilabstand b.50mm                                                             m²
+            Mit Profilabstand bis 50 mm.
+
+31.30 02    Aufzahlung (Az) auf Systemtrennwände aus Stahl (St-Systemtrennwand), verzinkt.
+
+31.30 02A   Az St-Systemtrennwand verzinkt f.Drehtüre                                                                    Stk
+            Für eine Drehtüre (z.B. Kellerabteiltüre) mit aushängesicheren Bändern, ohne Unterschied der Durchgangslichte
+            und Anschlagseite, mit Nummernschild nach Angabe des Auftraggebers, gerichtet für Vorhangschloss mit Arbe
+            und Kloben, Beplankung entsprechend der Systemtrennwand.
+
+31.30 02B   Az St-Systemtrennwand verzinkt f.Ausschnitt b.0,5m2                                                          Stk
+                                            2
+            Für einen Ausschnitt bis 0,5 m (z.B. bei Leitungsdurchführungen oder Unterzügen).
+
+31.30 02C   Az St-Systemtrennwand verzinkt f.Gewölbeanpassung                                                            m
+            Für die Anpassung des oberen Abschlusses an gewölbte Decken.
+            Abgerechnet wird die angepasste projizierte Länge im Grundriss.
+
+31.31       Standard-Zäune m.Gittergeflecht
+
+
+            Im Folgenden sind nichttragende Zäune beschrieben.
+
+
+            1. Qualitätsanforderungen/Ausführung:
+            Alle Teile des Zaunes sind aus Stahl feuerverzinkt mit einer in den Positionen beschriebenen
+            Oberflächenausführung (z.B. pulverbeschichtet, kunststoffummantelt).
+            Der Auftragnehmer wählt den Querschnitt der Stützen/Steher (z.B. Winkel, Rundrohr, Kantrohr).
+            Das Gittergeflecht besteht aus mindestens 2,5 mm und die Spanndrähte aus mindestens 3,8 mm dickem
+            Stahldraht.
+            Die Säulenquerschnitte sind so gewählt, dass die Standsicherheit gegeben ist.
+            Rohre und Hohlprofile sind für die Führungshalterungen der Spanndrähte und für die Abstützungen nicht
+            angebohrt.
+            2. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Versetzen aller Zaun- und Türsäulen (Zaun- und Türsäulen sind in eigenen Positionen beschrieben),
+                                                                                                                   Seite 19 / 34
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+                  einschließlich etwaiger Abstützungen in die vorhandenen Betonfundamente und Betonsockel (z.B. ohne
+                  Unterschied, ob in Aussparungen oder Frischbeton, Schraubfundamente)
+                • Ausführungen bei Geländeneigungen bis 10°
+                • für den Spalt unter dem Geflecht und das Säulenende die erforderlichen zusätzlichen Längen zum
+                  Einbetonieren
+                • Halterungen für das Geflecht
+                • Spanndrähte-Anzahl je nach Zaunhöhe im Abstand bis höchstens 500 mm
+                • Zwischenstützen im Abstand von höchstens 2,5 m
+                • Rohre und Hohlprofile sind oben wasserdicht verschlossen (abgedeckt)
+31.31 01    Zaun mit Gittergeflecht, Maschenweite 50 x 50 mm, feuerverzinkt (feuerv.).
+            Im Positionsstichwort ist die Gittergeflechthöhe (m) angegeben.
+
+31.31 01A   Zaun Gittergeflecht feuerv.1m                                                                                    m
+
+31.31 01B   Zaun Gittergeflecht feuerv.1,25m                                                                                 m
+
+31.31 01C   Zaun Gittergeflecht feuerv.1,5m                                                                                  m
+
+31.31 01D   Zaun Gittergeflecht feuerv.1,75m                                                                                 m
+
+31.31 01E   Zaun Gittergeflecht feuerv.2m                                                                                    m
+31.31 02    Aufzahlung (Az) auf Zäune, feuerverzinkt, mit Gittergeflecht, Maschenweite 50 x 50 mm, für die Anordnung
+            eines Eckstehers, einschließlich beidseitiger Abstützung.
+            Im Positionsstichwort ist die Gittergeflechthöhe (m) angegeben.
+
+31.31 02A   Az Zaun Gittergeflecht feuerv.1m f.Eckst.                                                                        Stk
+
+31.31 02B   Az Zaun Gittergeflecht feuerv.1,25m f.Eckst.                                                                     Stk
+
+31.31 02C   Az Zaun Gittergeflecht feuerv.1,5m f.Eckst.                                                                      Stk
+
+31.31 02D   Az Zaun Gittergeflecht feuerv.1,75m f.Eckst.                                                                     Stk
+
+31.31 02E   Az Zaun Gittergeflecht feuerv.2m f.Eckst.                                                                        Stk
+31.31 03    Aufzahlung (Az) auf Zäune, feuerverzinkt, mit Gittergeflecht, Maschenweite 50 x 50 mm, für die Anordnung
+            eines Endstehers, einschließlich Abstützung.
+            Im Positionsstichwort ist die Gittergeflechthöhe (m) angegeben.
+
+31.31 03A   Az Zaun Gittergeflecht feuerv.1m f.Endst.                                                                        Stk
+
+31.31 03B   Az Zaun Gittergeflecht feuerv.1,25m f.Endst.                                                                     Stk
+
+31.31 03C   Az Zaun Gittergeflecht feuerv.1,5m f.Endst.                                                                      Stk
+
+31.31 03D   Az Zaun Gittergeflecht feuerv.1,75m f.Endst.                                                                     Stk
+
+31.31 03E   Az Zaun Gittergeflecht feuerv.2m f.Endst.                                                                        Stk
+31.31 05    Tür, feuerverzinkt (feuerv.) , für Zäune mit Gittergeflecht.
+            Der Rahmen und die zwei Türsäulen sind aus Formrohr. Das Geflecht entspricht der Ausführung des Zaunes,
+            beschlagen mit Türbändern, Schlosskasten, Schloss zweitourig für Zylinder gerichtet, mit Drücker und
+            Schilderpaar.
+            Im Positionsstichwort sind die lichte Breite (m) und die Höhe (m) angegeben.
+
+31.31 05A   Tür f.Gittergeflecht feuerv. b.1,2m/1m                                                                           Stk
+
+31.31 05B   Tür f.Gittergeflecht feuerv.b.1,2m/1,25m                                                                         Stk
+
+31.31 05C   Tür f.Gittergeflecht feuerv.b.1,2m/1,5m                                                                          Stk
+
+31.31 05D   Tür f.Gittergeflecht feuerv. b.1,2m/2m                                                                           Stk
+31.31 06    Tor, feuerverzinkt (feuerv.) und zweiflügelig (2Fl.), für Zäune mit Gittergeflecht.
+            Die Flügelrahmen und die Torsäulen sind aus Formrohr. Das Geflecht entspricht der Ausführung des Zaunes,
+            beschlagen mit Torbändern, Schlosskasten, Schloss zweitourig für Zylinder gerichtet, Drücker- und Schilderpaar
+            sowie Treibriegel und Abstützung für den Stehflügel. Flügelgrößen gleich oder ungleich nach Wahl des
+                                                                                                                       Seite 20 / 34
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+
+            Auftraggebers.
+            Im Positionsstichwort sind die lichte Breite (m) und die Höhe (m) angegeben.
+
+31.31 06D   Tor f.Gittergeflecht feuerv.2Fl.b.3m/2m                                                                            Stk
+31.31 11    Zaun, feuerverzinkt (feuerv.) , mit Gittergeflecht, Maschenweite 50 x 50 mm, beschichtet.
+                • Farbe: grün
+            Im Positionsstichwort ist die Gittergeflechthöhe (m) angegeben.
+
+31.31 11A   Zaun Gittergeflecht feuerv.+beschichtet/grün 1m                                                                    m
+
+31.31 11B   Zaun Gittergeflecht feuerv.+beschichtet/grün 1,25m                                                                 m
+
+31.31 11C   Zaun Gittergeflecht feuerv.+beschichtet/grün 1,5m                                                                  m
+
+31.31 11D   Zaun Gittergeflecht feuerv.+beschichtet/grün 1,75m                                                                 m
+
+31.31 11E   Zaun Gittergeflecht feuerv.+beschichtet/grün 2m                                                                    m
+31.31 12    Aufzahlung (Az) auf Zäune, feuerverzinkt (feuerv.) , mit Gittergeflecht, Maschenweite 50 x 50 mm, beschichtet
+            (besch.), für die Anordnung eines Eckstehers, einschließlich beidseitiger Abstützung.
+            Im Positionsstichwort ist die Gittergeflechthöhe (m) angegeben.
+
+31.31 12A   Az Zaun Gittergeflecht feuerv.+besch./grün 1m f.Ecksteher                                                          Stk
+
+31.31 12B   Az Zaun Gittergeflecht feuerv.+besch./grün 1,25m f.Ecksteher                                                       Stk
+
+31.31 12C   Az Zaun Gittergeflecht feuerv.+besch./grün 1,5m f.Ecksteher                                                        Stk
+
+31.31 12D   Az Zaun Gittergeflecht feuerv.+besch./grün 1,75m f.Ecksteher                                                       Stk
+
+31.31 12E   Az Zaun Gittergeflecht feuerv.+besch./grün 2m f.Ecksteher                                                          Stk
+31.31 13    Aufzahlung (Az) auf Zäune, feuerverzinkt (feuerv.), mit Gittergeflecht, Maschenweite 50 x 50 mm, beschichtet
+            (besch.), für die Anordnung eines Endstehers, einschließlich Abstützung.
+            Im Positionsstichwort ist die Gittergeflechthöhe (m) angegeben.
+
+31.31 13A   Az Zaun Gittergeflecht feuerv.+besch./grün 1m f.Endsteher                                                          Stk
+
+31.31 13B   Az Zaun Gittergeflecht feuerv.+besch./grün 1,25m f.Endsteher                                                       Stk
+
+31.31 13C   Az Zaun Gittergeflecht feuerv.+besch./grün 1,5m f.Endsteher                                                        Stk
+
+31.31 13D   Az Zaun Gittergeflecht feuerv.+besch./grün 1,75m f.Endsteher                                                       Stk
+
+31.31 13E   Az Zaun Gittergeflecht feuerv.+besch./grün 2m f.Endsteher                                                          Stk
+31.31 15    Tür, feuerverzinkt (feuerv.) und beschichtet, für Zäune mit Gittergeflecht.
+            Der Rahmen und die zwei Türsäulen sind aus Formrohr. Das Geflecht entspricht der Ausführung des Zaunes,
+            beschlagen mit Türbändern, Schlosskasten, Schloss zweitourig für Zylinder gerichtet, mit Drücker und
+            Schilderpaar.
+                • Farbe: grün
+            Im Positionsstichwort sind die lichte Breite (m) und die Höhe (m) angegeben.
+
+31.31 15A   Tür f.Gittergeflecht feuerverz.+beschichtet/grün b.1,2m/1m                                                         Stk
+
+31.31 15B   Tür f.Gittergeflecht feuerverz+beschichtet/grün b.1,2m/1,25m                                                       Stk
+
+31.31 15C   Tür f.Gittergeflecht feuerverz.+beschichtet/grün b.1,2m/1,5m                                                       Stk
+
+31.31 15D   Tür f.Gittergeflecht feuerverz.+beschichtet/grün b.1,2m/2m                                                         Stk
+31.31 16    Tor, feuerverzinkt (f-feuerverzinkt), beschichtet und zweiflügelig (2Fl.), für Zäune mit Gittergeflecht.
+            Die Flügelrahmen und die Torsäulen sind aus Formrohr. Das Geflecht entspricht der Ausführung des Zaunes,
+            beschlagen mit Torbändern, Schlosskasten, Schloss zweitourig für Zylinder gerichtet, Drücker- und Schilderpaar
+            sowie Treibriegel und Abstützung für den Stehflügel. Flügelgrößen gleich oder ungleich nach Wahl des
+            Auftraggebers.
+                                                                                                                         Seite 21 / 34
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+
+                • Farbe: grün
+            Im Positionsstichwort sind die lichte Breite (m) und die Höhe (m) angegeben.
+
+31.31 16D   Tor f.Gittergeflecht feuerverz.+beschichtet/grün 2Fl.b.3m/2m                                                      Stk
+31.31 31    Zaun mit Gittergeflecht, feuerverzinkt (feuerv.), Maschenweite 50 x 50 mm, mit Kunststoff ummantelt.
+                • Farbe: grün
+            Im Positionsstichwort ist die Gittergeflechthöhe (m) angegeben.
+
+31.31 31A   Zaun Gittergeflecht feuerv.+Kunststoff/grün 1m                                                                    m
+
+31.31 31B   Zaun Gittergeflecht feuerv.+Kunststoff/grün 1,25m                                                                 m
+
+31.31 31C   Zaun Gittergeflecht feuerv.+Kunststoff/grün 1,5m                                                                  m
+
+31.31 31D   Zaun Gittergeflecht feuerv.+Kunststoff/grün 1,75m                                                                 m
+
+31.31 31E   Zaun Gittergeflecht feuerv.+Kunststoff/grün 2m                                                                    m
+31.31 32    Aufzahlung (Az) auf Zäune, feuerverzinkt (feuerv.), mit Gittergeflecht, Maschenweite 50 x 50 mm, mit Kunststoff
+            ummantelt, für die Anordnung eines Eckstehers, einschließlich beidseitiger Abstützung.
+                • Farbe: grün
+            Im Positionsstichwort ist die Gittergeflechthöhe (m) angegeben.
+
+31.31 32A   Az Zaun Gittergeflecht feuerv.+Kunsts./grün 1m f.Ecksteher                                                        Stk
+
+31.31 32B   Az Zaun Gittergeflecht feuerv.+Kunsts./grün1,25m f.Ecksteher                                                      Stk
+
+31.31 32C   Az Zaun Gittergeflecht feuerv.+Kunsts./grün 1,5m f.Ecksteher                                                      Stk
+
+31.31 32D   Az Zaun Gittergeflecht feuerv.+Kunsts./grün1,75m f.Ecksteher                                                      Stk
+
+31.31 32E   Az Zaun Gittergeflecht feuerv.+Kunsts./grün 2m f.Ecksteher                                                        Stk
+31.31 33    Aufzahlung (Az) auf Zäune mit Gittergeflecht, feuerverzinkt (feuerv.), Maschenweite 50 x 50 mm, mit Kunststoff
+            ummantelt, für die Anordnung eines Endstehers, einschließlich Abstützung.
+                • Farbe: grün
+            Im Positionsstichwort ist die Gittergeflechthöhe (m) angegeben.
+
+31.31 33A   Az Zaun Gittergeflecht feuerv.+Kunsts./grün 1m f.Endsteher                                                        Stk
+
+31.31 33B   Az Zaun Gittergeflecht feuerv.+Kunsts./grün1,25m f.Endsteher                                                      Stk
+
+31.31 33C   Az Zaun Gittergeflecht feuerv.+Kunsts./grün 1,5m f.Endsteher                                                      Stk
+
+31.31 33D   Az Zaun Gittergeflecht feuerv.+Kunsts./grün1,75m f.Endsteher                                                      Stk
+
+31.31 33E   Az Zaun Gittergeflecht feuerv.+Kunsts./grün 2m f.Endsteher                                                        Stk
+31.31 35    Tür, feuerverzinkt (feuerv.) und mit Kunststoff ummantelt, für Zäune mit Gittergeflecht.
+            Der Rahmen und die zwei Türsäulen sind aus Formrohr. Das Geflecht entspricht der Ausführung des Zaunes,
+            beschlagen mit Türbändern, Schlosskasten, Schloss zweitourig für Zylinder gerichtet, mit Drücker und
+            Schilderpaar.
+                • Farbe: grün
+            Im Positionsstichwort sind die lichte Breite (m) und die Höhe (m) angegeben.
+
+31.31 35A   Tür f.Gittergeflecht feuerverz.+Kunststoff/grün b.1,2m/1m                                                         Stk
+
+31.31 35B   Tür f.Gittergeflecht feuerverz.+Kunststoff/grün b.1,2m/1,25m                                                      Stk
+
+31.31 35C   Tür f.Gittergeflecht feuerverz.+Kunststoff/grün b.1,2m/1,5m                                                       Stk
+
+31.31 35D   Tür f.Gittergeflecht feuerverz.+Kunststoff/grün b.1,2m/2m                                                         Stk
+31.31 36    Tor, feuerverzinkt (feuerv.), mit Kunststoff ummantelt (Kst.) und zweiflügelig (2Fl.), für Zäune mit Gittergeflecht.
+            Die Flügelrahmen und die Torsäulen sind aus Formrohr. Das Geflecht entspricht der Ausführung des Zaunes,
+            beschlagen mit Torbändern, Schlosskasten, Schloss zweitourig für Zylinder gerichtet, Drücker- und Schilderpaar
+                                                                                                                        Seite 22 / 34
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+            sowie Treibriegel und Abstützung für den Stehflügel. Flügelgrößen gleich oder ungleich nach Wahl des
+            Auftraggebers.
+                • Farbe: grün
+            Im Positionsstichwort sind die lichte Breite (m) und die Höhe (m) angegeben.
+
+31.31 36D   Tor f.Gittergeflecht feuerverz.+Kunststoff/grün 2Fl.b.3m/2m                                                     Stk
+31.31 51    Aufzahlung (Az) auf Zäune mit Gittergeflecht, feuerverzinkt (feuerv.), für einen schrägen Zaunverlauf.
+            Abgerechnet wird die Zaunlänge in der betreffenden Geländeneigung.
+            Im Positionsstichwort ist die Geländeneigung angegeben.
+
+31.31 51A   Az Zaun Gittergeflecht feuerv.f.Neigung ü.10-20Grad                                                             m
+
+31.31 51B   Az Zaun Gittergeflecht feuerv.f.Neigung ü.20-30Grad                                                             m
+
+31.31 51C   Az Zaun Gittergeflecht feuerv. f.Neigung ü.30-40Grad                                                            m
+31.31 53    Aushub für Einzelfundamente, mindestens 60 cm tief, einschließlich Betonfundament und Versetzen von Säulen
+            für Zäune mit Gittergeflecht.
+                • für Zäune mit Gittergeflecht, feuerverzinkt
+            Das Entsorgen des Aushubmaterials ist im Einheitspreis einkalkuliert.
+
+31.31 53A   Aushub/Fundament f.Zaun Gittergeflecht f.Zwischensäule b.2m                                                     Stk
+            Für Zwischensäulen, Höhe bis 2 m.
+
+            LB-Version: 23               Geringfügig Geändert
+
+31.31 53B   Aushub/Fundament f.Zaun Gittergeflecht f.Endsäule b.2m                                                          Stk
+            Für Endsäulen, einschließlich der Abstützungen, Höhe bis 2 m.
+
+            LB-Version: 23               Geringfügig Geändert
+
+31.31 53C   Aushub/Fundament f.Zaun Gittergeflecht f.Ecksäule b.2m                                                          Stk
+            Für Ecksäulen und Sonderecksäulen, einschließlich der Abstützungen, Höhe bis 2 m.
+
+            LB-Version: 23               Geringfügig Geändert
+
+31.31 53D   Aushub/Fundament f.Zaun Gittergeflecht f.Türsäule b.2m                                                          Stk
+            Für Türsäulen, Türhöhe bis 2 m.
+            Fundamenttiefe mindestens 80 cm.
+            LB-Version: 23               Geringfügig Geändert
+31.31 55    Aufzahlung (Az) auf Zäune mit Gittergeflecht, feuerverzinkt (feuerv.), für das Verstärken aller Stützen (Steher),
+            damit die Standsicherheit beim Anbringen von Planen (z.B. für Wind- oder Sichtschutz) gewährleistet bleibt.
+             Kommentar:
+             Zur Bemessung der Stützen sind Windlasten gemäß ÖNORM EN 1991-1-4 heranzuziehen.
+
+31.31 55A   Az Zaun Gittergeflecht feuerv.b.2m hoch f.Planen                                                                m
+31.31 67    Aufzahlung (Az) auf Zäune mit Gittergeflecht, feuerverzinkt (feuerv.), für das Bohren von Löchern in Kunststein
+            (außer Beton) oder Naturstein, einschließlich Schützen der angrenzenden Teile.
+                • Steindicke bis 5 cm
+
+31.31 67A   Az Zaun Gittergeflecht feuerv.f.Stein b.5cm bohren                                                              m
+            Steinart: ____________
+
+31.32       Standard-Zäune m.D-Stabmatten
+
+
+            Im Folgenden sind nichttragende Zäune beschrieben.
+
+
+            1. Qualitätsanforderungen/Ausführung:
+            Alle Teile des Zaunes sind aus Stahl feuerverzinkt mit einer in den Positionen beschriebenen
+            Oberflächenausführung (z.B. pulverbeschichtet, kunststoffummantelt).
+
+                                                                                                                      Seite 23 / 34
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+            Doppelstabmatten (D-stabmatten) sind punktgeschweißt.
+            Der Auftragnehmer wählt den Querschnitt der Stützen/Steher (z.B. Winkel, Rundrohr, Kantrohr).
+            Jede Doppelstabmatte ist rund 2500 mm lang, die lotrechten Stäbe haben einen Durchmesser von mindestens
+            6 mm, die waagrechten Doppelstäbe haben einen Durchmesser von mindestens 8 mm.
+            Die Säulenquerschnitte sind so gewählt, dass die Standsicherheit gegeben ist.
+            Rohre und Hohlprofile sind für die Führungshalterungen der Spanndrähte und für die Abstützungen nicht
+            angebohrt.
+            2. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Versetzen aller Zaun- und Türsäulen (in eigenen Positionen beschrieben), einschließlich etwaiger
+                  Abstützungen in die vorhandenen Fundamente (z.B. ohne Unterschied, ob in Aussparungen oder
+                  Frischbeton, Schraubfundamente)
+                • Ausführungen bei Geländeneigungen bis 10°
+                • für den Spalt unter dem Geflecht und das Säulenende die erforderlichen zusätzlichen Längen zum
+                  Einbetonieren
+                • Halterungen für das Geflecht
+                • Spanndrähte-Anzahl je nach Zaunhöhe im Abstand bis höchstens 500 mm
+                • Zwischenstützen im Abstand von höchstens 2,5 m
+                • Rohre und Hohlprofile sind oben wasserdicht verschlossen (abgedeckt)
+31.32 01    Zaun, feuerverzinkt (feuerv.), mit Doppelstabmatten (D-Stabmatte).
+            Im Positionsstichwort ist die Maschenweite (mm) und die Höhe (m) angegeben.
+
+31.32 01A   Zaun D-Stabmatte feuerv.30x200 1m                                                                          m
+
+31.32 01B   Zaun D-Stabmatte feuerv.30x200 1,25m                                                                       m
+
+31.32 01C   Zaun D-Stabmatte feuerv.30x200 1,5m                                                                        m
+
+31.32 01D   Zaun D-Stabmatte feuerv.30x200 1,75m                                                                       m
+
+31.32 01E   Zaun D-Stabmatte feuerv.30x200 2m                                                                          m
+31.32 02    Zaun, feuerverzinkt (feuerv.), mit Doppelstabmatten (D-Stabmatte).
+            Im Positionsstichwort sind die Maschenweite (mm) und die Höhe (m) angegeben.
+
+31.32 02A   Zaun D-Stabmatte feuerv.50x200 1m                                                                          m
+
+31.32 02B   Zaun D-Stabmatte feuerv.50x200 1,25m                                                                       m
+
+31.32 02C   Zaun D-Stabmatte feuerv.50x200 1,5m                                                                        m
+
+31.32 02D   Zaun D-Stabmatte feuerv.50x200 1,75m                                                                       m
+
+31.32 02E   Zaun D-Stabmatte feuerv.50x200 2m                                                                          m
+31.32 03    Zaun, feuerverzinkt (feuerv.), mit Doppelstabmatten (D-Stabmatte).
+            Im Positionsstichwort sind die Maschenweite (mm) und die Höhe (m) angegeben.
+
+31.32 03A   Zaun D-Stabmatte feuerv.100x200 1m                                                                         m
+
+31.32 03B   Zaun D-Stabmatte feuerv.100x200 1,25m                                                                      m
+
+31.32 03C   Zaun D-Stabmatte feuerv.100x200 1,5m                                                                       m
+
+31.32 03D   Zaun D-Stabmatte feuerv.100x200 1,75m                                                                      m
+
+31.32 03E   Zaun D-Stabmatte feuerv.100x200 2m                                                                         m
+31.32 04    Zaun, feuerverzinkt (feuerv.), mit Doppelstabmatten (D-Stabmatte).
+            Im Positionsstichwort ist die Höhe (m) angegeben.
+
+31.32 04A   Zaun D-Stabmatte feuerv.1m                                                                                 m
+            Maschenweite:____________
+
+                                                                                                                 Seite 24 / 34
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+31.32 04B   Zaun D-Stabmatte feuerv.1,25m                                                                               m
+            Maschenweite:____________
+
+31.32 04C   Zaun D-Stabmatte feuerv.1,5m                                                                                m
+            Maschenweite:____________
+
+31.32 04D   Zaun D-Stabmatte feuerv.1,75m                                                                               m
+            Maschenweite:____________
+
+31.32 04E   Zaun D-Stabmatte feuerv.2m                                                                                  m
+            Maschenweite:____________
+
+31.32 11    Aufzahlung (Az) auf Zäune, feuerverzinkt (feuerv.), mit Doppelstabmatten (D-Stabmatte), für die Anordnung
+            eines Eckstehers, einschließlich beidseitiger Abstützung.
+            Im Positionsstichwort ist die Höhe (m) angegeben.
+
+31.32 11A   Az Zaun D-Stabmatte feuerv.1m f.Ecksteher                                                                   Stk
+
+31.32 11B   Az Zaun D-Stabmatte feuerv.1,25m f.Ecksteher                                                                Stk
+
+31.32 11C   Az Zaun D-Stabmatte feuerv.1,5m f.Ecksteher                                                                 Stk
+
+31.32 11D   Az Zaun D-Stabmatte feuerv.1,75m f.Ecksteher                                                                Stk
+
+31.32 11E   Az Zaun D-Stabmatte feuerv.2m f.Ecksteher                                                                   Stk
+31.32 13    Aufzahlung (Az) auf Zäune, feuerverzinkt (feuerv.), mit Doppelstabmatten (D-Stabmatte), für die Anordnung
+            eines Endstehers, einschließlich Abstützung.
+            Im Positionsstichwort ist die Höhe (m) angegeben.
+
+31.32 13A   Az Zaun D-Stabmatte feuerv.1m f.Endsteher                                                                   Stk
+
+31.32 13B   Az Zaun D-Stabmatte feuerv.1,25m f.Endsteher                                                                Stk
+
+31.32 13C   Az Zaun D-Stabmatte feuerv.1,5m f.Endsteher                                                                 Stk
+
+31.32 13D   Az Zaun D-Stabmatte feuerv.1,75m f.Endsteher                                                                Stk
+
+31.32 13E   Az Zaun D-Stabmatte feuerv.2m f.Endsteher                                                                   Stk
+31.32 15    Tür, feuerverzinkt (feuerv.).
+            Der Rahmen und die zwei Türsäulen sind aus Formrohr. Die Doppelstabmatte (D-Stabmatte) entspricht der
+            Ausführung des Zaunes, beschlagen mit Türbändern, Schlosskasten, Schloss zweitourig für Zylinder gerichtet,
+            mit Drücker und Schilderpaar.
+            Im Positionsstichwort sind die lichte Breite (m) und die Höhe (m) angegeben.
+
+31.32 15A   Tür f.D-Stabmatte feuerv.b.1,2m/1m                                                                          Stk
+
+31.32 15B   Tür f.D-Stabmatte feuerv.b.1,2m/1,25m                                                                       Stk
+
+31.32 15C   Tür f.D-Stabmatte feuerv.b.1,2m/1,5m                                                                        Stk
+
+31.32 15D   Tür f.D-Stabmatte feuerv.b.1,2m/2m                                                                          Stk
+31.32 16    Tor, feuerverzinkt (feuerv.) und zweiflügelig (2Fl.).
+            Die Flügelrahmen und die Torsäulen sind aus Formrohr. Die Doppelstabmatte (D-Stabmatte) entspricht der
+            Ausführung des Zaunes, beschlagen mit Torbändern, Schlosskasten, Schloss zweitourig für Zylinder gerichtet,
+            Drücker- und Schilderpaar sowie Treibriegel und Abstützung für den Stehflügel. Flügelgrößen gleich oder
+            ungleich nach Wahl des Auftraggebers.
+            Im Positionsstichwort sind die lichte Breite (m) und die Höhe (m) angegeben.
+
+31.32 16A   Tor f.D-Stabmatte feuerv.2Fl.b.3m/2m                                                                        Stk
+31.32 21    D-Stabmatte, (feuerv.) und beschichtet in Standardfarbe.
+            Im Positionsstichwort ist die Höhe (m) angegeben.
+
+                                                                                                                  Seite 25 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+31.32 21A   Zaun D-Stabmatten feuerv.+beschichtet 1m                                                                      m
+
+31.32 21B   Zaun D-Stabmatten feuerv.+beschichtet 1,25m                                                                   m
+
+31.32 21C   Zaun D-Stabmatten feuerv.+beschichtet 1,5m                                                                    m
+
+31.32 21D   Zaun D-Stabmatten feuerv.+beschichtet 1,75m                                                                   m
+
+31.32 21E   Zaun D-Stabmatten feuerv.+beschichtet 2m                                                                      m
+31.32 22    Aufzahlung (Az) auf Zäune, feuerverzinkt (feuerv.), mit Doppelstabmatten, beschichtet in Standardfarbe, für die
+            Anordnung eines Eckstehers, einschließlich beidseitiger Abstützung.
+            Im Positionsstichwort ist die Höhe (m) angegeben.
+
+31.32 22A   Az Zaun D-Stabmatten feuerv.+beschichtet 1m f.Ecksteher                                                       Stk
+
+31.32 22B   Az Zaun D-Stabmatten feuerv.+beschichtet 1,25m f.Ecksteher                                                    Stk
+
+31.32 22C   Az Zaun D-Stabmatten feuerv.+beschichtet 1,5m f.Ecksteher                                                     Stk
+
+31.32 22D   Az Zaun D-Stabmatten feuerv.+beschichtet 1,75m f.Ecksteher                                                    Stk
+
+31.32 22E   Az Zaun D-Stabmatten feuerv.+beschichtet 2m f.Ecksteher                                                       Stk
+31.32 23    Aufzahlung (Az) auf Zäune, feuerverzinkt (feuerv.), mit Doppelstabmatten, beschichtet, in Standardfarbe, für die
+            Anordnung eines Endstehers, einschließlich Abstützung.
+            Im Positionsstichwort ist die Höhe (m) angegeben.
+
+31.32 23A   Az Zaun D-Stabmatten feuerv.+beschichtet 1m f.Endsteher                                                       Stk
+
+31.32 23B   Az Zaun D-Stabmatten feuerv.+beschichtet 1,25m f.Endsteher                                                    Stk
+
+31.32 23C   Az Zaun D-Stabmatten feuerv.+beschichtet 1,5m f.Endsteher                                                     Stk
+
+31.32 23D   Az Zaun D-Stabmatten feuerv.+beschichtet 1,75m f.Endsteher                                                    Stk
+
+31.32 23E   Az Zaun D-Stabmatten feuerv.+beschichtet 2m f.Endsteher                                                       Stk
+31.32 25    Tür, feuerverzinkt (feuerv.) und beschichtet in Standardfarbe.
+            Der Rahmen und die zwei Türsäulen sind aus Formrohr. Das Geflecht entspricht der Ausführung des Zaunes,
+            beschlagen mit Türbändern, Schlosskasten, Schloss zweitourig für Zylinder gerichtet, mit Drücker und
+            Schilderpaar.
+            Im Positionsstichwort sind die lichte Breite (m) und die Höhe (m) angegeben.
+
+31.32 25A   Tür f.D-Stabmatte feuerverzinkt+beschichtet b.1,2m/1m                                                         Stk
+
+31.32 25B   Tür f.D-Stabmatte feuerverzinkt+beschichtet b.1,2m/1,25m                                                      Stk
+
+31.32 25C   Tür f.D-Stabmatte feuerverzinkt+beschichtet b.1,2m/1,5m                                                       Stk
+
+31.32 25D   Tür f.D-Stabmatte feuerverzinkt+beschichtet b.1,2m/2m                                                         Stk
+31.32 26    Tor, feuerverzinkt, beschichtet in Standardfarbe und zweiflügelig (2Fl.).
+            Die Flügelrahmen und die Torsäulen sind aus Formrohr. Das Geflecht entspricht der Ausführung des Zaunes,
+            beschlagen mit Torbändern, Schlosskasten, Schloss zweitourig für Zylinder gerichtet, Drücker- und Schilderpaar
+            sowie Treibriegel und Abstützung für den Stehflügel. Flügelgrößen gleich oder ungleich nach Wahl des
+            Auftraggebers.
+            Im Positionsstichwort sind die lichte Breite (m) und die Höhe (m) angegeben.
+
+31.32 26D   Tor f.D-Stabmatte feuerverzinkt+beschichtet 2Fl.b.3m/2m                                                       Stk
+31.32 51    Aufzahlung (Az) auf Zäune, feuerverzinkt (feuerv.), mit Doppelstabmatten für einen schrägen Zaunverlauf.
+            Abgerechnet wird die Zaunlänge in der betreffenden Geländeneigung.
+            Im Positionsstichwort ist die Geländeneigung angegeben.
+
+31.32 51A   Az Zaun D-Stabmatte feuerv.f.Neigung ü.10-20Grad                                                              m
+
+                                                                                                                    Seite 26 / 34
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+31.32 51B   Az Zaun D-Stabmatte feuerv.f.Neigung ü.20-30Grad                                                                     m
+
+31.32 51C   Az Zaun D-Stabmatte feuerv.f.Neigung ü.30-40Grad                                                                     m
+31.32 53    Aushub für Einzelfundamente, mindestens 60 cm tief, einschließlich Betonfundament und Versetzen von Säulen
+            für Zäune mit Gittergeflecht.
+                • für Zäune mit D-Stabmatten feuerverzinkt
+            Das Entsorgen des Aushubmaterials ist im Einheitspreis einkalkuliert.
+
+31.32 53A   Aushub/Fundament f.Zaun D-Stabmatte f.Zwischensäule b.2m                                                             Stk
+            Für Zwischensäulen, Höhe bis 2 m.
+
+            LB-Version: 23                Geringfügig Geändert
+
+31.32 53B   Aushub/Fundament f.D-Stabmatte feuerv.f.Endsäule b.2m                                                                Stk
+            Für Endsäulen, einschließlich der Abstützungen, Höhe bis 2 m.
+
+            LB-Version: 23                Geringfügig Geändert
+
+31.32 53C   Aushub/Fundament f.D-Stabmatte feuerv.f.Ecksäule b.2m                                                                Stk
+            Für Ecksäulen und Sonderecksäulen, einschließlich der Abstützungen, Höhe bis 2 m.
+
+            LB-Version: 23                Geringfügig Geändert
+
+31.32 53D   Aushub/Fundament f.D-Stabmatte feuerv.f.Türsäule b.2m                                                                Stk
+            Für Türsäulen, Türhöhe bis 2 m.
+            Fundamenttiefe mindestens 80 cm.
+            LB-Version: 23                Geringfügig Geändert
+31.32 55    Aufzahlung (Az) auf Zäune mit Doppelstabmatten feuerverzinkt (feuerv.) für das Verstärken aller Stützen
+            (Steher), damit die Standsicherheit beim Anbringen von Planen (z.B. für Wind- oder Sichtschutz) gewährleistet
+            bleibt.
+             Kommentar:
+             Zur Bemessung der Stützen sind Windlasten gemäß ÖNORM EN 1991-1-4 heranzuziehen.
+
+31.32 55A   Az Zaun D-Stabmatte feuerv.b.2m hoch f.Planen                                                                        m
+31.32 67    Aufzahlung (Az) auf Zäune mit Doppelstabmatten, feuerverzinkt (feuerv.), für das Bohren von Löchern in
+            Kunststein (außer Beton) oder Naturstein, einschließlich Schützen der angrenzenden Teile.
+                • Steindicke bis 5 cm
+
+31.32 67A   Az Zaun D-Stabmatte feuerv.f.Stein bohren                                                                            m
+            Steinart: ____________
+
+31.41       Einzelsperrende Einbau-Profilzylinder
+
+
+            Qualitätsanforderungen/Ausführung:
+            Einzelsperrende Einbauprofilzylinder werden mit Sicherungskarte und mit je drei Schlüsseln geliefert, in das
+            Schloss eingesteckt und befestigt, einschließlich Sperrprobe und etwaiger geringfügiger Anpassarbeiten.
+            Die Zylinder oder Schlüssel sind mit Einsteckprofilen, mindestens fünf Stifthalterungen, Abtast- und
+            Aufbohrsicherungen ausgeführt.
+            Alle Zylinder sind links oder rechts verwendbar, Einbau-Doppelzylinder (EDZ) von beiden Seiten sperrbar.
+             Kommentar:
+             Zylinder für Schließanlagen (z.B. Hauptschlüsselanlage oder Gruppensperranlage) sowie Spezial- und Möbelzylinder sind in
+             der LG30 (Schließanlagen) beschrieben.
+
+31.41 01    Einzelsperrender Einbau-Halbzylinder.
+            Im Positionsstichwort ist die Baulänge (bis Mitte Schließnase) angegeben.
+
+31.41 01A   Einzelsperrender Halbzylinder b.42mm Länge                                                                           Stk
+
+31.41 01B   Einzelsperrender Halbzylinder b.47mm Länge                                                                           Stk
+
+
+                                                                                                                           Seite 27 / 34
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+31.41 01C   Einzelsperrender Halbzylinder b.52mm Länge                                                                     Stk
+31.41 02    Einzelsperrender Einbau-Doppelzylinder.
+            Im Positionsstichwort ist die Gesamtlänge angegeben.
+
+31.41 02A   Einzelsperrender Doppelzylinder b.67mm Länge                                                                   Stk
+
+31.41 02B   Einzelsperrender Doppelzylinder b.72mm Länge                                                                   Stk
+
+31.41 02C   Einzelsperrender Doppelzylinder b.77mm Länge                                                                   Stk
+
+31.41 02D   Einzelsperrender Doppelzylinder b.82mm Länge                                                                   Stk
+
+31.41 02E   Einzelsperrender Doppelzylinder b.87mm Länge                                                                   Stk
+
+31.41 02F   Einzelsperrender Doppelzylinder b.92mm Länge                                                                   Stk
+
+31.41 02G   Einzelsperrender Doppelzylinder b.97mm Länge                                                                   Stk
+31.41 03    Einzelsperrender Blechmontagezylinder mit Schließnase und Befestigungsblech oder Befestigungsmutter, nach
+            Wahl des Auftraggebers.
+            Im Positionsstichwort angegeben ist der Durchmesser (DN).
+
+31.41 03A   Einzelsperrender Blechmontagezylinder DN 23mm                                                                  Stk
+
+31.41 03B   Einzelsperrender Blechmontagezylinder DN 29mm                                                                  Stk
+31.41 04    Einzelsperrender Außenzylinder für Zusatzschloss (in eigener Position beschrieben) mit Sicherheitsrosette.
+
+31.41 04A   Einzelsperrender Außenzylinder                                                                                 Stk
+            Passend zur angegebenen Türblattdicke: ____________ mm
+
+31.41 05    Einzelsperrender Aufzugzylinder.
+
+31.41 05A   Einzelsperrender Aufzugzylinder                                                                                Stk
+31.41 11    Zusätzliche Schlüssel für einzelsperrende Zylinder.
+
+31.41 11A   Zusatzschlüsself.einzelsperrenden Zylinder                                                                     Stk
+31.42       Brieffächer und Hausbrieffachanlagen
+
+
+            1. Qualitätsanforderungen/Ausführung:
+            Jedes Brieffach besteht aus schmelztauchveredeltem (beschichtetem) oder feuerverzinktem Stahlblech mit
+            Pulverbeschichtung, nach Wahl des Auftragnehmers, in einer RAL-Standardfarbe nach Wahl des Auftraggebers
+            aus der Farbkarte des Herstellers, für die kein Aufpreis vorgesehen ist.
+            Jedes Brieffach ist mit einer frontseitigen Entnahmetür mit Blechmontagezylinder mit 2 Schlüsseln, einem
+            Schlüsselabzugsanschlag und einem von innen auswechselbarem Beschriftungsschild ca. 70 x 20 mm mit
+            eingelegtem Namen, einschließlich Topnummer und Einwurfschlitz mit geräuscharmer Klappe gemäß ÖNORM,
+            ausgestattet.
+            Zylinder und/oder Schlüssel sind mit einem eindeutigen Identifizierungscode für etwaige
+            Schlüsselnachbestellungen gekennzeichnet.
+            Namenslisten werden vom Auftraggeber in elektronischer Form zur Verfügung gestellt.
+            Der Stapelraum ist mindestens 10 cm tief.
+            2. Einkalkulierte Leistungen:
+            Die Montage einzelner Brieffächer oder einer Hausbrieffachanlage erfolgt - bei Wandmontage auch unter
+            Berücksichtigung des Untergrundes - mit Befestigungsmaterial nach Wahl des Auftragnehmers.
+            Die einzelnen Brieffächer werden, damit eine Stabilität der Gesamtanlage gewährleistet ist, jeweils mit allen
+            benachbarten Briefkästen ausreichend verschraubt oder vernietet.
+            Alle auf Dauer sichtbar bleibenden Montage-Öffnungen (z.B. Nietlöcher) sind mit Abdeckungen verschlossen.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+                  • Unterputzausführungen
+                  • besondere Bekleidungen (z.B. in nicht rostendem Stahl)
+
+
+                                                                                                                     Seite 28 / 34
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+                 • Anlagen mit Durchwurfbrieffächern im Mauerwerk
+                 • Bestandsaufnahmen
+                 • Austausch von Briefkästen
+31.42 01    Brieffach.
+            Im Positionsstichwort ist die Ausführung/Lage angegeben.
+
+31.42 01A   Brieffach C4 tief                                                                                             Stk
+
+31.42 01B   Brieffach C4 quer                                                                                             Stk
+
+31.42 01C   Brieffach C4 lotrecht                                                                                         Stk
+
+31.42 01D   Brieffach C4                                                                                                  Stk
+            Anordnung/Skizze: ____________
+
+31.42 02    Sonderelemente, in Größe und Format, in die Hausbrieffachanlage integriert.
+
+31.42 02A   Sonderelement Blindfach                                                                                       Stk
+            Blindfach mit frontseitiger abmontierbarer Blechabdeckung, gerichtet für einen Einbau (z.B. einer Beleuchtung,
+            eines Sprechsiebes, eines Klingeltasters).
+            Abmessungen: ____________ x ____________ mm
+
+31.42 02B   Sonderelement Beschriftungsschild                                                                             Stk
+            Beschriftungsschild (z.B. für die Adressangabe bei Außenmontage), einschließlich Gravur des Textes 60 mm
+            hoch, schwarz.
+            Text: ____________
+
+31.42 02C   Sonderelement Gegensprechanlage                                                                               Stk
+            Frontplatte für Gegensprechanlage mit Sprechsieb und je einem Klingeltaster mit Namensschild für die Anzahl
+            der gelieferten Brieffächer.
+            Abmessungen: ____________ x ____________ mm
+
+31.42 02X   Sonderelement                                                                                                 Stk
+            Angabe/Skizze: ____________
+
+31.42 03    Innen-Hausbrieffachanlage.
+            Brieffächer einschließlich einer eng anliegenden Bekleidung (Rahmen) ohne Rückwand, einschließlich Montage
+            an Wänden.
+            Im Positionsstichwort ist die Ausführung/Lage angegeben.
+
+31.42 03A   Innen-Hausbrieffachanlage Wand f.Brieffächer C4 tief                                                          Stk
+            Anzahl der Brieffächer:____________
+            Sonderelemente:____________
+
+31.42 03B   Innen-Hausbrieffachanlage Wand f.Brieffächer C4 quer                                                          Stk
+            Anzahl der Brieffächer:____________
+            Sonderelemente:____________
+
+31.42 03C   Innen-Hausbrieffachanlage Wand f.Brieffächer C4 lotrecht                                                      Stk
+            Anzahl der Brieffächer:____________
+            Sonderelemente:____________
+
+31.42 03D   Innen-Hausbrieffachanlage Wand C4                                                                             Stk
+            Anordnung/Skizze: ____________
+            Anzahl der Brieffächer:____________
+            Sonderelemente:____________
+
+31.42 06    Außen-Hausbrieffachanlage, freistehend (freist.) in Regenschutzausführung,
+            Brieffächer einschließlich einer eng anliegenden Bekleidung (Rahmen) einschließlich Rückwand und
+            Rahmen-/Ständerkonstruktion zum Einbetonieren oder mit Bodenplatte zum Aufschrauben, einschließlich
+
+                                                                                                                    Seite 29 / 34
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+            Montage in oder auf vorhandenem Fundament.
+            Im Positionsstichwort ist die Ausführung/Lage angegeben.
+
+31.42 06A   Außen-Hausbrieffachanlage freist.f.Briefkasten C4 tief                                                               Stk
+            Anzahl der Brieffächer:____________
+            Sonderelemente:____________
+
+31.42 06B   Außen-Hausbrieffachanlage freist.f.Briefkasten C4 quer                                                               Stk
+            Anzahl der Brieffächer:____________
+            Sonderelemente:____________
+
+31.42 06C   Außen-Hausbrieffachanlage freist.f.Briefkasten C4 lotrecht                                                           Stk
+            Anzahl der Brieffächer:____________
+            Sonderelemente:____________
+
+31.42 06D   Außen-Hausbrieffachanlage freist.C4                                                                                  Stk
+            Anzahl der Brieffächer:____________
+            Sonderelemente:____________
+31.42 07    Aufzahlung (Az) auf Brieffächer C4.
+
+31.42 07A   Az Brieffächer C4 f.Urlaubsreserve                                                                                   Stk
+            Für einen vergrößerten Stapelraum von mindestens 15 cm Tiefe (Urlaubsreserve), einschließlich des
+            Mehraufwandes der Bekleidung bei Hausbriefanlagen infolge größerer Abmessungen.
+
+31.42 07B   Az Brieffächer C4 f.Wendekarte                                                                                       Stk
+            Für ein zusätzliches von innen austauschbares Beschriftungsfeld mit Wendekarte "Keine Werbung" auf rotem
+            Untergrund und "Werbung, ja bitte" auf grünem Untergrund.
+
+31.43       Maste,Rahmen u.Fensterputzsicherungen
+31.43 01    Fahnenmast aus Konstruktionsrohren nach oben jeweils im Drittel verjüngt, oben das Rohr geschlossen,
+            einschließlich korrosionsbeständigen Stahl-Rollen, kunststoffüberzogenem Seilzug und korrosionsbeständigen
+            Stahl-Ringen, Spannschloss und Fixierung.
+
+31.43 01A   Fahnenmast rund Stahl feuerverzinkt                                                                                  Stk
+            Aus feuerverzinktem Stahl.
+            Rohrdurchmesser: ____________ mm
+            Höhe: ____________ m
+            Unterer Abschluss, Befestigungsart: ____________
+
+31.43 04    Feuerverzinkter Rundrohrrahmen, bis 2 m hoch, Rohrdurchmesser 60 mm, Ecken mit Viertelbogen, mit Laschen
+            zur Befestigung von Tafeln.
+            Das Versetzen des Rahmens, der Fundamentaushub, das Entsorgen des Aushubmaterials und der
+            Fundamentbeton sind im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Größe (m2) angegeben.
+
+31.43 04A   Rundrohrrahmen feuerverzinkt f.Tafel b.0,5m2                                                                         Stk
+
+31.43 04B   Rundrohrrahmen feuerverzinkt f.Tafel ü.0,5-1m2                                                                       Stk
+
+31.43 04X   Rundrohrrahmen feuerverzinkt f.Tafel__________                                                                       Stk
+            Nähere Angaben/Skizze: ____________
+
+31.43 40    Sicherheits-Anschlagpunkt für Fanggeschirr mit Fangseil (Fensterputzsicherung), im Innenbereich in
+            Fensternähe, gemäß Angabe des Auftraggebers montiert, bestehend aus feuerverzinkten Ringmuttern mit M16
+            Ankerstangen bis 300 mm lang, einschließlich normgerechter Verankerung und Sicherheits-Überprüfung.
+             Kommentar:
+             Verankerungen in Untergründen, ausgenommen Beton oder Stahlbeton (z.B. in Ziegelwänden, Mauerwerk aus
+             Hohlblocksteinen, Mantelbetonwänden oder bei Vorsatzschalen), erfordern - insbesondere bei Altbauten - meist eine Prüfung
+             der Standsicherheit des Wandbildners (z.B. Ausziehversuche vor Ort) und besondere Verankerungs- oder zusätzliche
+
+
+                                                                                                                           Seite 30 / 34
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+             Sicherungsmaßnahmen.
+             Um ein Sicherheitsrisiko zu vermeiden, wird eine vorhergehende Untersuchung des Verankerungsgrundes und eine auf das
+             Ergebnis abgestimmte freie Formulierung der Leistung empfohlen.
+
+31.43 40A   Fensterputzsicherung Verankerung in Beton                                                                         Stk
+            Verankerung in Bauteilen aus Beton oder Stahlbeton.
+
+31.43 40B   Fensterputzsicherung Verankerung                                                                                  Stk
+            Verankerung in Bauteilen aus: ____________
+
+31.43 63    Schlüsselkasten aus Stahlblech mit Schlüsselhaken, mit Zylinder (Z.), in die Sperranlage integrierbar,
+            einschließlich Befestigungsmaterial.
+            Im Positionsstichwort ist die Anzahl der Schlüssel angegeben.
+
+31.43 63A   Schlüsselkasten Stahlblech+Z.f.30 Schlüssel                                                                       Stk
+
+31.43 63B   Schlüsselkasten Stahlblech+Z.f.50 Schlüssel                                                                       Stk
+
+31.43 63C   Schlüsselkasten Stahlblech+Z.f.100 Schlüssel                                                                      Stk
+
+31.43 63D   Schlüsselkasten Stahlblech+Z.f.200 Schlüssel                                                                      Stk
+
+31.43 63E   Schlüsselkasten Stahlblech+Z.f.300 Schlüssel                                                                      Stk
+31.46       Zubehör und Sonstiges
+31.46 34    Türpuffer, einschließlich Befestigungsmittel.
+
+31.46 34A   Bodentürpuffer                                                                                                    Stk
+            Boden.
+
+31.46 34B   Wandtürpuffer                                                                                                     Stk
+            Wand.
+
+31.46 35    Türgucker, optisch (Spion).
+            Im Positionsstichwort ist die Türbohrung (D) angegeben.
+
+31.46 35A   Türgucker Kunststoff D 30mm                                                                                       Stk
+            Für Türblattdicken 28 bis 50 mm verstellbar, aus Kunststoff, ohne Unterschied der Farbe.
+
+31.46 35B   Türgucker Kunststoff D 15mm                                                                                       Stk
+            Für Türblattdicken 30 bis 50 mm verstellbar, aus vernickeltem oder vermessingtem Kunststoff.
+
+31.46 35C   Türgucker Messing verchromt 180Gr.D15                                                                             Stk
+            Für Türblattdicken 36 bis 57 mm verstellbar, mit einem Blickwinkel von 180 Grad, aus Messing verchromt
+            (MS/8).
+
+31.46 35D   Türgucker+Schild Alu-Silber/eloxiert                                                                              Stk
+            Mit Namensschild 120 x 70 x 6 mm. Für Türblattdicken 28 bis 45 mm verstellbar. Platte aus Alu-Silber oder
+            Neusilber eloxiert (AL F1 oder AL F2).
+31.46 36    Briefeinwurf.
+
+31.46 36A   Briefeinwurf                                                                                                      Stk
+31.46 38    Sicherheits-Türkette oder Türsperre.
+
+31.46 38A   Sicherheits-Türkette                                                                                              Stk
+
+31.46 38B   Sicherheits-Türsperre                                                                                             Stk
+
+31.46 38C   Sicherheit-Zusatzschloss+Schlüssel                                                                                Stk
+            Sicherheits-Zusatzschloss mit Außenzylinder und Sicherungsbügel und Innendrehknopf, einschließlich dreier
+            Schlüssel.
+
+
+                                                                                                                        Seite 31 / 34
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+31.46 51    Jalousien aus Stahlblech mit gekanteten Lamellen, einschließlich Winkelrahmenkonstruktion mit erforderlichen
+            Unterteilungen durch Steher und Kämpfer und engmaschigem Insektenschutzgitter an der Innenseite.
+
+31.46 51A   Lüftungsjalousie                                                                                               Stk
+            Lüftungsjalousie.
+            Rahmenaußenmaße: ____________x____________cm
+
+31.46 51B   Lüftungsjalousie verstellbar                                                                                   Stk
+            Lüftungsjalousie, verstellbar.
+            Rahmenaußenmaße: ____________x____________cm
+
+31.46 51C   Lüftungsjalousie f.Abschluss Lüftungsschacht                                                                   m²
+            Rahmenkonstuktion mit leicht geneigtem Blechdach, vierseitig, einschließlich umlaufender Jalousie als
+            gekantete Lamellen als oberer Abschluss eines Lüftungsschachtes.
+31.46 53    Einbauteile.
+
+31.46 53A   Lüftungsgitter                                                                                                 Stk
+            Lüftungsgitter.
+            Material:____________
+            Abmessungen: ____________x____________cm
+
+31.46 53B   Schachtabdeckung                                                                                               Stk
+            Schachtabdeckung.
+            Material:____________
+            Rahmenaußenmaß: ____________x____________cm
+
+31.46 53C   Schachtabdeckung öffenbar                                                                                      Stk
+            Schachtabdeckung, öffenbar, für einen Ausstieg, einschließlich Abdeckrahmen mit Tropftasse.
+            Absperrbar, für Zylinder gerichtet.
+            Material:____________
+            Rahmenaußenmaß: ____________x____________cm
+
+31.46 53D   Hahntürchen                                                                                                    Stk
+            Hahntürchen.
+            Material:____________
+            Abmessungen: ____________x____________cm
+
+31.46 53E   Steigeisen                                                                                                     m²
+            Steigeisen.
+            Material:____________
+            Abmessungen: ____________cm
+
+31.46 61    Notschlüsselkasten aus Stahlblech, mit Zylinder, in die Sperranlage integrierbar, einschließlich
+            Befestigungsmaterial.
+
+31.46 61A   Notschlüsselkasten+Zylinder                                                                                    Stk
+31.46 65    Stahlwinkel (St-Winkel), feuerverzinkt (feuerv.), nur liefern.
+            Im Positionsstichwort ist die Stückmasse (kg) angegeben.
+
+31.46 65A   St-Winkel feuerv.b.2kg liefern                                                                                 kg
+
+31.46 65B   St-Winkel feuerv.ü.2-5kg liefern                                                                               kg
+
+31.46 65C   St-Winkel feuerv.liefern__________                                                                             kg
+31.90       Regieleistungen
+
+
+
+                                                                                                                     Seite 32 / 34
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+            LB-Version: 23               Geringfügig Geändert
+31.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+31.90 00A   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+31.90 01    Regiestunden.
+
+31.90 01A   Regiestunde Vorarbeiter                                                                                          h
+            Vorarbeiter.
+
+31.90 01B   Regiestunde Facharbeiter                                                                                         h
+            Facharbeiter.
+
+31.90 01C   Regiestunde Schweißer                                                                                            h
+            Schweißer.
+
+31.90 01D   Regiestunde Schweiß-Aufsicht                                                                                     h
+            Schweiß-Aufsicht.
+
+31.90 51    Materiallieferungen f.Regieleistungen                                                                            VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+                                                                                                                       Seite 33 / 34
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                          gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                              EH
+
+           LB-Version: 23       Geringfügig Geändert
+
+
+
+
+                                                                            Seite 34 / 34
+                                                       ib-data GmbH, Softwareentwicklung
+

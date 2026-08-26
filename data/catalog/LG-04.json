@@ -1,0 +1,241 @@
+{
+  "lg": "04",
+  "title": "Gerüste",
+  "positions": [
+    {
+      "code": "04.18.00A",
+      "text": "Fassaden-/Wandaufbau",
+      "unit": ""
+    },
+    {
+      "code": "04.18.00B",
+      "text": "Benutzung öffentliches Gut",
+      "unit": ""
+    },
+    {
+      "code": "04.18.00C",
+      "text": "Auskragende Bauteile",
+      "unit": ""
+    },
+    {
+      "code": "04.18.00E",
+      "text": "System-G.Lastklasse 3",
+      "unit": ""
+    },
+    {
+      "code": "04.18.00F",
+      "text": "System-G.Lastklasse 4",
+      "unit": ""
+    },
+    {
+      "code": "04.18.01A",
+      "text": "System-G.",
+      "unit": "m²"
+    },
+    {
+      "code": "04.18.01B",
+      "text": "System-G.Gebrauchsüberl.                                                                                              VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.02A",
+      "text": "System-G.m.Wehren",
+      "unit": "m²"
+    },
+    {
+      "code": "04.18.02B",
+      "text": "System-G.m.Wehren Gebrauchsüberl.                                                                                     VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.03A",
+      "text": "System-G.m.Konsolen b.35cm",
+      "unit": "m²"
+    },
+    {
+      "code": "04.18.03B",
+      "text": "System-G.m.Konsolen b.35cm Gebrauchsüberl.                                                                            VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.04A",
+      "text": "System-G.m.Konsolen ü.35-70cm",
+      "unit": "m²"
+    },
+    {
+      "code": "04.18.04B",
+      "text": "System-G.m.Konsolen ü.35-70cm Gebrauchsüberl.                                                                         VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.05A",
+      "text": "System-G.als Systemleer-Gerüst f.Dachfanggerüst",
+      "unit": "m²"
+    },
+    {
+      "code": "04.18.05B",
+      "text": "System-G.als Systemleer-Gerüst f.Dachfangger Gebrauchsüberl.                                                          VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.10A",
+      "text": "Gerüstfeld/System-G.b.3m                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "04.18.10B",
+      "text": "Gerüstfeld/System-G.b.3m Gebrauchsüberl.                                                                             VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.11A",
+      "text": "Az System-G.f.Eckausbildungen                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "04.18.11C",
+      "text": "Az System-G.f.Verst.b.Durchfahrt ü.3-5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "04.18.12A",
+      "text": "Az System-G.f.Dächer b.15°,Terrasse",
+      "unit": "m²"
+    },
+    {
+      "code": "04.18.12B",
+      "text": "Az System-G.f.Dächer ü.15°",
+      "unit": "m²"
+    },
+    {
+      "code": "04.18.13A",
+      "text": "Az System-G.f.Hof",
+      "unit": "m²"
+    },
+    {
+      "code": "04.18.13B",
+      "text": "Az System-G.f.Lichthof",
+      "unit": "m²"
+    },
+    {
+      "code": "04.18.21A",
+      "text": "Az System-G.f.Verbr.                                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "04.18.21B",
+      "text": "Az System-G.f.Verbr.Gebrauchsüberl.                                                                                  VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.22A",
+      "text": "Az System-G.f.Schutzdach                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "04.18.22B",
+      "text": "Az System-G.f.Schutzdach Gebrausüberl.                                                                                 VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.23A",
+      "text": "Az System-G.f.Fußgänger-Pass.                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "04.18.23B",
+      "text": "Az System-G.f.Fußgänger-Pass.Gebrauchsüberl.                                                                           VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.24A",
+      "text": "Az System-G.f.Df-Netz,-Gitter b.2m                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "04.18.24B",
+      "text": "Az System-G.f.Df-Netz,-Gitter Gebrauchsüberl.                                                                          VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.31A",
+      "text": "Schutznetz System-G.",
+      "unit": "m²"
+    },
+    {
+      "code": "04.18.31B",
+      "text": "Schutznetz System-G.Gebrauchsüberl.                                                                                    VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.31C",
+      "text": "Schutzplane System-G.",
+      "unit": "m²"
+    },
+    {
+      "code": "04.18.31D",
+      "text": "Schutzplane System-G.Gebrauchsüberl.                                                                                   VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.32A",
+      "text": "Treppenaufstieg b.60cm                                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "04.18.32B",
+      "text": "Treppenaufstieg b.60cm Gebrauchsüberl.                                                                                 VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.32C",
+      "text": "Leiteraufstieg                                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "04.18.32D",
+      "text": "Leiteraufstieg Gebrauchsüberl.                                                                                         VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.41A",
+      "text": "Fangkopfgerüst Dach ü.15-45°",
+      "unit": "Stk"
+    },
+    {
+      "code": "04.18.41B",
+      "text": "Fangkopfgerüst Dach ü.15-45°Gebrauchsüberl.                                                                 VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.41C",
+      "text": "Fangkopfgerüst Dach ü.45-60°",
+      "unit": "Stk"
+    },
+    {
+      "code": "04.18.41D",
+      "text": "Fangkopfgerüst Dach ü.45-60°Gebrauchsüberl.                                                                 VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.51A",
+      "text": "System-G.f.Schacht                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "04.18.51B",
+      "text": "System-G.f.Schacht Gebrauchsüberl.                                                                          VE",
+      "unit": ""
+    },
+    {
+      "code": "04.18.52A",
+      "text": "System-G.f.Spindel                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "04.18.52B",
+      "text": "System-G.f.Spindel Gebrauchsüberl.                                                                          VE",
+      "unit": ""
+    }
+  ]
+}

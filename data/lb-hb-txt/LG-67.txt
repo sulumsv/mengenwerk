@@ -1,0 +1,863 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+            Leistungsgruppe (LG) 67 - Pfosten-Riegel-Fassaden aus Alu
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 6700    Wählbare Vorbemerkungen
+                     ULG 6701    Besondere Umstände der Leistungserbringung
+                     ULG 6711    Pfosten-Riegel-Fassaden
+                     ULG 6712    Sonstiges
+                     ULG 6790    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 15
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+
+67          Pfosten-Riegel-Fassaden aus Alu
+            Version 022 (2021-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Allgemeines:
+            Vorschriften der System- beziehungsweise System-Komponenten-Hersteller werden beachtet.
+            Verordnungen und Zulassungen, die das System beziehungsweise die Systemkomponeten betreffen und für
+            den angegeben Standort, den Gebäudezweck und die angegebene Gebäudehöhe zutreffen, gelten als
+            Vertragsbestandteil.
+            2. Planungsunterlagen des Auftraggebers (Ausführungsplanung):
+            Der Auftraggeber stellt als Unterlagen zum Leistungsverzeichnis eine Ausführungsplanung unter
+            Berücksichtigung der Vorgaben der Behörden (z.B. Brandschutz) und der bauphysikalischen Gutachten zur
+            Verfügung.
+            Die Ausführungsplanung enthält:
+                • eine maßstäbliche und bemaßte Darstellung der Ansichten
+                • eine maßstäbliche und bemaßte Darstellung der (Haupt) Schnitte
+                • eine maßstäbliche und bemaßte Darstellung der Baukörperanschlüsse
+                • Angaben zu Glastyp und Glasaufbau beziehungsweise zur Art der Fassadenbekleidung
+                • Angaben zur Beschlagsausführung für Fenster und Türen
+                • Angaben zur Oberflächenausführung
+            3. Splitterfallhöhe:
+            Die Splitterfallhöhe ist gemäß OIB die Höhe aus der, bei Bruch einer Verglasung, Splitter fallen können.
+            4. Abkürzungsverzeichnis:
+                • ESG: Thermisch vorgespanntes Kalknatron-Einscheibensicherheitsglas gemäß ÖNORM
+                • ESG-H: Einscheibensicherheitsglas wie vorher, heißgelagert (Heat-Soak-Test) gemäß ÖNORM
+                • MIG: Mehrscheiben-Isolierglas gemäß ÖNORM
+                • VSG: Verbund-Sicherheitsglas gemäß ÖNORM
+                • TVG: Teilvorgespanntes Kalknatronglas gemäß ÖNORM
+            5. Einkalkulierte Leistungen:
+            Eine Leistungserklärung ist spätesten zum Zeitpunkt der ersten Anlieferung beizubringen und in die
+            Einheitspreise einkalkuliert.
+             Kommentar:
+             Gerüste für eine Arbeitshöhe über 3,2 m sind in der LG 04 beschrieben.
+             Brandschutz- und Brandrauchsteuerklappen sind z.B. in der LB-HT beschrieben.
+             Literaturverzeichnis (z.B.):
+                  • ÖNORM B 13022: Glas im Bauwesen - Geklebte Verglasungen
+                  • ÖNORM B 5300: Fenster - Anforderungen - Ergänzungen zur ÖNORM EN 14351-1
+                  • ÖNORM B 5320: Einbau von Fenstern und Türen in Wände - Planung und Ausführung des Bau- und des
+                    Fenster/Türanschlusses
+                  • ÖNORM B 5339: Außentüren - Anforderungen - Ergänzungen zur ÖNORM EN 14351-1
+                  • ÖNORM B 3716: Glas im Bauwesen - Konstruktiver Glasbau
+                  • ÖNORM EN 13830: Vorhangfassaden - Produktnorm
+                  • ÖNORM EN 14351-1: Fenster und Türen - Produktnorm, Leistungseigenschaften - Teil 1: Fenster und Außentüren
+                    ohne Eigenschaften bezüglich Feuerschutz und/oder Rauchdichtheit
+                  • ÖNORM EN 1991-1-7: Eurocode 1 - Einwirkungen auf Tragwerke - Teil 1-7: Allgemeine Einwirkungen -
+                    Außergewöhnliche Einwirkungen (konsolidierte Fassung)
+                  • OIB Richtlinie 4: Nutzungssicherheit und Barrierefreiheit
+                  • OIB Richtlinie 5: Schallschutz
+                  • OIB Richtlinie 6: Energieeinsparung und Wärmeschutz
+                  • Gütevorschriften GSB (http://www.gsb-international.de/)
+                  • Gütevorschriften QUALICOAT (http://www.qualicoat.net/main/home.htlm)
+                  • Gütevorschriften OFI (http://www.ofi.at/zertifizierung.htlm)
+
+            LB-Version: 23                  Geringfügig Geändert
+
+67.00       Wählbare Vorbemerkungen
+            LB-Version: 23                  Geringfügig Geändert
+67.00 01    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+67.00 01A   Allgemeine Beschreibung des Gebäudes
+
+                                                                                                                         Seite 2 / 15
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+            Adresse: ____________
+            Gebäudewidmung: ____________
+            Höhe des Gebäudes (absolute Höhe):____________
+            Geländekategorie: ____________
+            Basis-Windgeschwindigkeit: ____________
+            Zusätzliche Feuerschutzbestimmungen: ____________
+            Angaben zu den Gebäudeaußenkanten (z.B. Länge): ____________
+            Art der Fassade: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+67.00 01B   Bemusterungen eloxiertes Aluminium
+            Bei farbig anodisierten oder beschichteten Ausführungen nach Halbzeugarten getrennte Grenzmuster oder
+            Farbmuster (Farbtöne und Glanzgrad).
+            Mit der Produktion wird erst nach der Freigabe durch den Auftraggeber begonnen.
+
+67.00 01C   Konstruktion Gesamtdicke ohne Beschränkung
+            Hinsichtlich der größten Dicke, der vor den tragenden Baukörper vorspringenden Fassadenkonstruktion ist
+            keine Beschränkung zu beachten.
+
+67.00 01D   Konstruktion Gesamtdicke mit Beschränkung
+            Hinsichtlich der größten Dicke, der vor den tragenden Baukörper vorspringenden Fassadenkonstruktion ist zu
+            beachten:
+            Eine Beschränkung auf: ____________
+
+67.00 01V   Verfügbarkeit von Beilagen zum LV
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von (z.B. Plänen/wie (z.B. im PDF-Format): ____________
+            Betrifft Position(en): ____________
+
+67.00 02    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+             Kommentar:
+             Bei unterschiedlichen Montageverhältnissen innerhalb eines Leistungsverzeichnisses können unterschiedliche
+             Vorbemerkungen gewählt werden. In diesem Fall sollten in der Ausschreiberlücke nicht nur die betroffenen Positionen
+             angegeben werden, sondern auch deren Anteil in Prozent an der gesamten Positionsmenge.
+
+67.00 02A   Montage PF-RI-F Betondecke
+            Für die Verankerung der Pfosten-Riegel-Fassade am Baukörper stehen je Geschoß die angegebenen
+            tragfähigen Bauteile zur Verfügung:
+                • Betondecken
+            Betrifft Position(en): ____________
+
+67.00 02B   Montage PF-RI-F Betondecke+Parapetmauerw.
+            Für die Verankerung der Pfosten-Riegel-Fassade am Baukörper stehen je Geschoß die angegebenen
+            tragfähigen Bauteile zur Verfügung:
+                • Betondecken mit darüberliegendem Parapet-/ Attika-Mauerwerk
+            Betrifft Position(en): ____________
+            LB-Version: 23                Geringfügig Geändert
+
+67.00 02C   Montage PF-RI-F Decke+Parapet aus Beton
+            Für die Verankerung der Pfosten-Riegel-Fassade am Baukörper stehen je Geschoß die angegebenen
+            tragfähigen Bauteile zur Verfügung:
+                • Decken mit darüberliegendem Parapet/Attika aus Stahlbeton
+            Betrifft Position(en): ____________
+            LB-Version: 23                Geringfügig Geändert
+
+67.00 02D   Montage PF-RI-F Stahlkonstruktionen
+
+                                                                                                                             Seite 3 / 15
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Für die Verankerung der Pfosten-Riegel-Fassade am Baukörper stehen je Geschoß die angegebenen
+            tragfähigen Bauteile zur Verfügung:
+                • Stahlkonstruktionen
+            Betrifft Position(en): ____________
+
+67.00 02E   Montage-Untergrund/Untergrundverhältnisse
+            Für die Montage der Unterkonstruktion von Pfosten-Riegel Fassaden sind folgende Untergrundverhältnisse
+            einkalkuliert.
+            gemäß Ausführungsplan Nr.: ____________
+                • für unverputzte Untergründe (z.B. Hohlziegel, Hohlblocksteine, Vollziegel, Beton, Betonstein,
+                  Leichtbeton/Porenbeton, Mantelbeton, Manteldicke, Holzwerkstoffe): ____________
+                  Weitere Angaben: ____________
+                • für verputzte Untergründe (z.B. Hohlziegel, Hohlblocksteine, Vollziegel, Beton, Betonstein,
+                  Leichtbeton/Porenbeton, Mantelbeton, Manteldicke, Holzwerkstoffe): ____________
+                  Weitere Angaben: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+67.01       Besondere Umstände der Leistungserbringung
+67.01 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+67.01 00A   Vermessung/Bezugssystem vom AG
+            Der Auftraggeber stellt dem Auftragnehmer vor Beginn seiner Arbeiten unentgeltlich ein Bezugssystem zur
+            Verfügung. Davon ausgehend misst der Auftragnehmer, ohne gesonderte Vergütung, Bauteilachsen und Höhen
+            ein.
+            Art des Bezugssystems: ____________
+            Betrifft Position(en): ____________
+
+67.01 00D   Zufahrt zur Baustelle
+            Eine Zufahrt zur Baustelle ist gegeben.
+            beschränkte Radlast: ____________
+            sonstige Einschränkungen: ____________
+            Betrifft Position(en): ____________
+
+67.01 00E   Montagebereich
+            Der Montagebereich ist benutzbar.
+            Beschränkte Radlast: ____________
+            Sonstige Einschränkungen: ____________
+            Betrifft Position(en): ____________
+
+67.01 00F   Transport- und Hubmöglichkeiten
+            Dem Auftragnehmer stehen im Baustellenbereich zum Zeitpunkt der Leistungserbringung folgende Transport-
+            und Hubmöglichkeiten unentgeltlich zur Verfügung.
+            Art der Transport- und Hubmöglichkeiten: ____________
+            Hubkapazität: ____________
+            Zeitliche Vorgaben/Einschränkungen: ____________
+            Betrifft Position(en): ____________
+
+67.01 00L   Leistungsetappen/Leistungsunterbrechungen
+            Leistungsetappen: ____________
+            Sonstige Angaben (z.B. Leistungsunterbrechungen): ____________
+            Betrifft Position(en): ____________
+
+67.11       Pfosten-Riegel-Fassaden
+
+
+            1. Begriffsbestimmung:
+            Im Folgenden sind Fassadenkonstruktionen, die aus miteinander verbundenen lotrechten oder geneigten
+                                                                                                                   Seite 4 / 15
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                    EH
+
+           Elementen (Pfosten) und waagrechten Elementen (Riegeln) bestehen und an der Tragkonstruktion des
+           Bauwerkes befestigt sind, die von einer vertikalen Konstruktion bis hin zu Konstruktionen mit einer Neigung von
+           bis zu 15° von der Vertikalen reichen, beschrieben.
+           Die Ausführung erfolgt mit Systemkomponenten.
+           Mit durchsichtigen oder undurchsichtigen Füllelementen (Verglasung oder Paneele) bilden die
+           Pfosten-Riegel-Fassaden eine raumabschließende Haut, die selbständig oder in Verbindung mit dem Bauwerk
+           alle normalen Funktionen einer Außenwand erfüllt, aber keinerlei Lasten des Bauwerkes aufnimmt.
+           2. Standardqualität/Ausführung:
+           2.1 Beschläge:
+           Beschläge, nach Wahl des Auftragnehmers, entsprechen mindestens RAL-RG 607/3 (RAL Deutsches Institut
+           für Gütesicherung und Kennzeichnung e.V.; Güte- und Prüfbestimmungen für Drehbeschläge und
+           Drehkippbeschläge, zu beziehen durch Beuth Verlag GmbH, Postfach 11 45, D-10772 Berlin)
+           2.2 Werkstoffanforderungen an Aluminium:
+           Im Folgenden wird für Werkstoffe aus Aluminium und für Aluminiumlegierungen der Begriff Aluminium (Alu)
+           verwendet.
+           Mindestanforderungen:
+               • Pfosten und Riegel werden aus stranggepressten Aluminiumprofilen mit mindestens 1,5 mm Wanddicke
+                 und aus der Legierung EN AW-6060 T66 in Eloxalqualität hergestellt.
+               • Für anodisierte Aluminiumbleche wird die Legierung EN AW-5005, H14/H24 für farbbeschichtete
+                 Aluminiumbleche EN AW-1050A, H14/H24 verwendet.
+           Unterschiedliche Werkstoffe und Lieferformen (z.B. Profile, Bleche, Bänder, Beschläge) werden zwecks eines
+           einheitlichen Erscheinungsbildes aufeinander abgestimmt. Bei Blechen und Bändern wird der Einfluss der
+           Walzrichtung berücksichtigt.
+           2.3 Beschichtete Oberflächen (RAL):
+           Farbbeschichtungen auf Aluminiumoberflächen werden pulverbeschichtet oder einbrennlackiert in
+           Standardfarben (RAL) ausgeführt.
+           Die Schichtdicke beträgt 65 µm (+/- 15 µm) für Hauptsichtflächen, Nebensichtflächen werden farbdeckend
+           beschichtet.
+           Die Beschichtung erfolgt in einer RAL-Standardfarbe nach Wahl des Auftraggebers aus der Farbkarte des
+           Herstellers, für die kein Aufpreis vorgesehen ist.
+           2.4 Dichtungsprofile:
+           Material: mind. EPDM - Ethylen-Propylen-Dien-Kautschuk).
+           Härte, Abmessungen und Profile der Dichtungen entsprechen dem Verwendungszweck und den
+           Systemerfordernissen.
+           2.5 Paneele:
+           Paneele werden wie Fixverglasungen ohne Flügelprofil direkt in die Pfosten-Riegel-Konstruktion eingebaut.
+           2.6 Mehrscheiben-Isolierglas:
+           Mehrscheiben-Isolierglas 2-fach mit 2 x 4 mm Floatglas ausgeführt.
+           2.7 Zusätzliche Scheiben:
+           Ausführung von zusätzlichen Scheiben.
+           Außen: mit ESG, ab einer Splitterfallhöhe von > 4 m, nur heiß gelagert das heißt mit HST (Heat-Soak-Test) und
+           allseitig gelagert.
+           3. Einkalkulierte Leistungen:
+           Die Positionen umfassen das Herstellen einer vertikal stehenden oder einer mit einer Neigung von bis 15° von
+           der Vertikalen geneigten ebenflächigen Pfosten-Riegel-Fassade aus wärmedämmenden Aluminiumprofilen,
+           einschließlich fest stehender Verglasung, sonstigen Ausfachungen und aller statisch erforderlichen
+           Aussteifungen.
+           Die Verankerung erfolgt ein Mal je Geschoß oder einmal innerhalb des Befestigungsabstandes bis zu 3,5 m.
+           Die Fassade ist in jedem Geschoß gegen die anschließende Geschoßdecke dicht abgeschottet.
+           3.1 Statische Anforderungen:
+           Die Berechnung und Berücksichtigung aller statischen Erfordernisse erfolgt durch den Auftragnehmer. Für die
+           Lastannahmen gelten die einschlägigen ÖNORMEN. Die Konstruktion wird so gewählt, dass einwirkende Lasten
+           sicher auf das Bauwerk übertragen werden.
+           3.2 Verbindungen und Befestigungen:
+           Verbindungselemente (z.B. Schrauben, Bolzen, Muttern) sind, wenn sie in Verbindung mit Aluminium stehen,
+           aus Chromnickelstahl (Mindestqualität A2 mit reduziertem Cu-Gehalt).
+           Für alle übrigen Verbindungen und Kleinteile aus Stahl wird feuerverzinktes Material gemäß ÖNORM verwendet.
+                                                                                                                    Seite 5 / 15
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+            Kontaktkorrosion wird beim Zusammenbau verschiedenartiger metallischer Werkstoffe durch eine Zwischenlage
+            aus neutralem Material vermieden (Ausnahme im Trockenbereich bei Einsatz von Chromnickelstahl).
+            3.3 Dichtungen bei geneigten Flächen:
+            Bei geneigten Flächen werden die äußeren waagrechten Deck- und Druckprofile mit besonderen
+            Dichtungsmaßnahmen und zusätzlich seitlichen Wasserablaufspalten hergestellt.
+            3.4 Kondensatableitungen:
+            Etwaige hinterlüftete Wand-, Brüstungs- und sonstige Bekleidungen sowie Entwässerungsschlitze von
+            Hohlprofilen werden so ausgebildet, dass eingedrungenes oder kondensiertes Wasser nach außen ablaufen
+            kann und das Eindringen von Kleintieren und Insekten verhindert wird.
+            3.5 Bauanschlussfugen:
+            Die konstruktive Ausbildung etwaiger Bauanschlussfugen (BAF), Breite bis 20 mm, ist in die Einheitspreise
+            einkalkuliert.
+            3.6 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • der Ausgleich von etwaigen Ungenauigkeiten, die im Rahmen der Maßtoleranzen des Rohbaues gemäß
+                  ÖNORM liegen
+                • der Ausgleich bei Bewegungen der einzelnen Bauteile der vorgehängten Fassade gegeneinander (z.B.
+                  infolge von Temperaturschwankungen, Winddruck)
+                • etwaige konstruktiv zu berücksichtigende planmäßige Baukörperfugen (z.B. Dehnfugen, Setzungsfugen),
+                  über die der Auftraggeber zeitgerecht Planunterlagen liefert (diese werden in den Werkzeichnungen des
+                  Auftragnehmers berücksichtigt).
+                • der Auftraggeber ermöglicht zumindest auf einer waagrechten Ebene des Rohbaues Festlager, die von
+                  Setzungen des Baukörpers unberührt bleiben
+                • etwaige Bewegungen bis +/- 20 mm zwischen Baukörper und vorgehängter Fassade in Folge von
+                  Verformungen der Baukörperkonstruktion (z.B. in Folge von Belastungen).
+            4. Ausmaß- und Abrechnungsregeln:
+            Alle Fassadenflächen und Teilflächen der Fassade werden als ebene Projektionen im Achsmaß (Rastermaß)
+            der Konstruktion gemessen.
+            4.1 Maße:
+            Die im Leistungsverzeichnis angegebenen Maße sind Planmaße.
+            4.2 Vertikale Abschottungen:
+            Etwaige vertikale Abschottungen (z.B. beim Anschluss von Zwischenwänden) werden nach dem Längenmaß in
+            eigenen Positionen abgerechnet.
+67.11 01    Pfosten-Riegel-Fassade (PF-RI-F), einschließlich Mehrscheiben-Isolierglas (MIG).
+                • Oberfläche: Aluminium eloxiert (Alu)
+                • mit einem Rasterfeld (geschoßhoch) je Geschoß (1-Feld)
+            Im Positionsstichwort ist der UCW -Gesamtwert angegeben.
+
+67.11 01A   PF-RI-F MIG Alu 1-Feld Ucw(W/m2K)=__________                                                                  m²
+            Pfostenraster (Achsabstand): ____________
+            Glastyp: ____________
+            Schalldämmmaß der gesamten Konstruktion: ____________
+            Abmessungen:
+                • Breite (cm): ____________
+                • Höhe (cm): ____________
+
+67.11 02    Pfosten-Riegel-Fassade (PF-RI-F), einschließlich Mehrscheiben-Isolierglas (MIG).
+                • Oberfläche: Aluminium eloxiert (Alu)
+            Im Positionsstichwort ist der UCW -Gesamtwert angegeben.
+
+67.11 02A   PF-RI-F MIG Alu Ucw(W/m2K)=__________                                                                         m²
+            Angaben Rasterfeld(er): ____________
+            Pfostenraster (Achsabstand): ____________
+            Glastyp: ____________
+            Schalldämmmaß der gesamten Konstruktion: ____________
+            Abmessungen:
+                • Breite (cm): ____________
+                • Höhe (cm): ____________
+                                                                                                                     Seite 6 / 15
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+67.11 11    Pfosten-Riegel-Fassade (PF-RI-F), einschließlich Mehrscheiben-Isolierglas (MIG).
+                • Oberfläche: in RAL-Standardfarbe beschichtet
+                • mit einem Rasterfeld (geschoßhoch) je Geschoß (1-Feld)
+            Im Positionsstichwort ist der UCW -Gesamtwert angegeben.
+
+67.11 11A   PF-RI-F MIG RAL 1-Feld Ucw(W/m2K)=__________                                                                  m²
+            Pfostenraster (Achsabstand): ____________
+            Glastyp: ____________
+            Schalldämmmaß der gesamten Konstruktion: ____________
+            Abmessungen:
+                • Breite (cm): ____________
+                • Höhe (cm): ____________
+
+67.11 12    Pfosten-Riegel-Fassade (PF-RI-F), einschließlich Mehrscheiben-Isolierglas (MIG).
+                • Oberfläche: in RAL-Standardfarbe beschichtet
+            Im Positionsstichwort ist der UCW -Gesamtwert angegeben.
+
+67.11 12A   PF-RI-F MIG RAL Ucw(W/m2K)=__________                                                                         m²
+            Angaben Rasterfeld(er): ____________
+            Pfostenraster (Achsabstand): ____________
+            Glastyp: ____________
+            Schalldämmmaß der gesamten Konstruktion: ____________
+            Abmessungen:
+                • Breite (cm): ____________
+                • Höhe (cm): ____________
+
+67.11 21    Aufzahlung (Az) auf Pfosten-Riegel-Fassaden (PF-RI-F) mit Mehrscheiben-Isolierglas.
+            Abgerechnet wird die mit Paneelen ausgeführte Teilfläche der Fassade, gemessen im Achsmaß (Rastermaß).
+            Im Positionsstichwort ist der Mindestdämmwert angegeben.
+
+67.11 21A   Az PF-RI-F MIG f.Paneel/Dämmpl.b.4m Stahl verz.U=__________                                                   m²
+            Für die Ausführung von Teilflächen mit Paneelen mit Dämmplatten.
+                • Splitterfallhöhe bis 4 m
+            Betrifft Position(en): ____________
+            Paneelaufbau:
+                • außen: Einscheibensicherheitsglas (ESG), emailliert
+                • Dämmung: ____________
+                • innen: Stahlblechkassetten, dicht verschweißt und verzinkt
+            Beschreibung Paneel: ____________
+
+67.11 21B   Az PF-RI-F MIG f.Paneel/Dämmpl.b.4m Alu U=__________                                                          m²
+            Für die Ausführung von Teilflächen mit Paneelen mit Dämmplatten.
+                • Splitterfallhöhe bis 4 m
+            Betrifft Position(en): ____________
+            Paneelaufbau:
+                • außen: Einscheibensicherheitsglas (ESG), emailliert
+                • Dämmung: ____________
+                • innen: Alu-Blech 2 mm dick
+                • Randverbund dicht geschlossen
+            Beschreibung Paneel: ____________
+
+67.11 21C   Az PF-RI-F MIG f.Paneel/Dämmpl.ü.4m Stahl verz.U=__________                                                   m²
+            Für die Ausführung von Teilflächen mit Paneelen mit Dämmplatten.
+                • Splitterfallhöhe über 4 m: ____________
+            Betrifft Position(en): ____________
+            Paneelaufbau:
+
+                                                                                                                     Seite 7 / 15
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+                • außen: Einscheibensicherheitsglas (ESG-H), emailliert
+                • Dämmung:____________
+                • innen: Stahlblechkassetten, dicht verschweißt und verzinkt
+            Beschreibung Paneel: ____________
+
+67.11 21D   Az PF-RI-F MIG f.Paneel/Dämmpl.ü.4m Alu U=__________                                                           m²
+            Für die Ausführung von Teilflächen mit Paneelen mit Dämmplatten.
+                • Splitterfallhöhe über 4 m: ____________
+            Betrifft Position(en): ____________
+            Paneelaufbau:
+                • außen: Einscheibensicherheitsglas (ESG-H), emailliert
+                • Dämmung: ____________
+                • innen: Alu-Blech 2 mm dick
+                • Randverbund dicht geschlossen
+            Beschreibung Paneel: ____________
+67.11 24    Feuerschutzschürzen bei Pfosten-Riegel-Fassaden (PF-RI-F) mit Mehrscheiben-Isolierglas (MIG).
+                • von Sturzunterkante bis Parapethöhe des darüberliegenden Geschoßes bei Glasflächen
+            Abgerechnet wird das Achsmaß der Länge der Feuerschutzschürzen ohne Unterschied der Höhe bis 1,5 m.
+             Kommentar:
+             Feuerschutzschürzen sind auch im Wandanschluss brandschutztechnisch zu schützen.
+
+67.11 24A   Feuerschutzschürzen f.PF-RI-F MIG+Glas b.1,5m f.EI30                                                           m
+            Dicke und Scheibenabstand gemäß der angegebenen Bezugsposition, jedoch in Feuerwiderstandsklasse EI 30,
+            einschließlich der Aufhängungen, Verbindungen und Befestigungen in R 90.
+            Betrifft Position(en): ____________
+
+67.11 24B   Feuerschutzschürzen f.PF-RI-F MIG+Glas b.1,5m f.EI60                                                           m
+            Ausführung gemäß der angegebenen Bezugsposition, jedoch in Feuerwiderstandsklasse EI 60, einschließlich
+            der Aufhängungen, Verbindungen und Befestigungen in R 90.
+            Betrifft Position(en): ____________
+
+67.11 24C   Feuerschutzschürzen f.PF-RI-F MIG+Glas b.1,5m f.EI90                                                           m
+            Ausführung gemäß der angegebenen Bezugsposition, jedoch in Feuerwiderstandsklasse EI 90, einschließlich
+            der Aufhängungen, Verbindungen und Befestigungen in R 90.
+            Betrifft Position(en): ____________
+             Kommentar:
+             Eine EI 90 Ausführung in Aluminium ist technisch nicht möglich.
+
+67.11 25    Feuerschutzschürzen bei Pfosten-Riegel-Fassaden (PF-RI-F) mit Mehrscheiben-Isolierglas (MIG).
+                • von Sturzunterkante bis Parapethöhe des darüberliegenden Geschoßes bei Paneelen
+            Abgerechnet wird das Achsmaß der Länge der Feuerschutzschürzen ohne Unterschied der Höhe bis 1,5 m.
+             Kommentar:
+             Feuerschutzschürzen sind auch im Wandanschluss brandschutztechnisch zu schützen.
+
+67.11 25A   Feuerschutzschürzen f.PF-RI-F MIG+Paneel b.1,5m f.EI30                                                         m
+            Dicke und Scheibenabstand gemäß der angegebenen Bezugsposition, jedoch in Feuerwiderstandsklasse EI 30,
+            einschließlich der Aufhängungen, Verbindungen und Befestigungen in R 90.
+            Betrifft Position(en): ____________
+
+67.11 25B   Feuerschutzschürzen f.PF-RI-F MIG+Paneel b.1,5m f.EI60                                                         m
+            Ausführung gemäß der angegebenen Bezugsposition, jedoch in Feuerwiderstandsklasse EI 60, einschließlich
+            der Aufhängungen, Verbindungen und Befestigungen in R 90.
+            Betrifft Position(en): ____________
+
+67.11 25C   Feuerschutzschürzen f.PF-RI-F MIG+Paneel b.1,5m f.EI90                                                         m
+
+
+
+
+                                                                                                                      Seite 8 / 15
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Ausführung gemäß der angegebenen Bezugsposition, jedoch in Feuerwiderstandsklasse EI 90, einschließlich
+            der Aufhängungen, Verbindungen und Befestigungen in R 90.
+            Betrifft Position(en): ____________
+             Kommentar:
+             Eine EI 90 Ausführung in Aluminium ist technisch nicht möglich.
+
+67.11 26    Aufzahlung (Az) auf Pfosten-Riegel-Fassaden (PF-RI-F) mit Mehrscheiben-Isolierglas (MIG).
+            Abgerechnet wird die ausgeführte Teilfläche der Fassade mit der angegebenen Scheibe, gemessen im
+            Achsmaß (Rastermaß).
+
+67.11 26A   Az PF-RI-F MIG f.1xESG b.4m                                                                                 m²
+            Für die Ausführung einer Scheibe aus Einscheibensicherheitsglas (ESG), 4 mm dick (innen oder außen).
+            Einbau (innen oder außen): ____________
+                 • Splitterfallhöhe bis 4 m
+            Betrifft Position(en): ____________
+
+67.11 26B   Az PF-RI-F MIG f.1xFloatglas b.4m                                                                           m²
+            Für die Ausführung von zusätzlichen Scheiben aus Floatglas, 4 mm dick (innen oder außen).
+            Einbau (innen oder außen): ____________
+            Betrifft Position(en): ____________
+
+67.11 26C   Az PF-RI-F MIG f.1xFloatglas+1xESG b.4m                                                                     m²
+            Für die Ausführung einer zusätzlichen dritten Scheibe aus Floatglas, 4 mm dick, und einer Scheibe aus
+            Einscheibensicherheitsglas (ESG), 4 mm dick (innen oder außen).
+            Einbau (innen oder außen): ____________
+                 • Splitterfallhöhe bis 4 m
+            Betrifft Position(en): ____________
+
+67.11 26D   Az PF-RI-F MIG f.2xESG b.4m                                                                                 m²
+            Für die Ausführung von zwei Scheiben aus Einscheibensicherheitsglas (ESG), 4 mm dick (innen oder außen).
+            Einbau (innen oder außen): ____________
+                 • Splitterfallhöhe bis 4 m
+            Betrifft Position(en): ____________
+
+67.11 26E   Az PF-RI-F MIG f.1xESG-H ü.4m                                                                               m²
+            Für die Ausführung einer Scheibe aus Einscheibensicherheitsglas, heißgelagert (ESG-H), 4 mm dick (außen).
+                 • Splitterfallhöhe über 4 m: ____________
+            Betrifft Position(en): ____________
+
+67.11 26F   Az PF-RI-F MIG f.1xFloatglas+1xESG-H ü.4m                                                                   m²
+            Für die Ausführung einer zusätzlichen dritten Scheibe aus Floatglas, 4 mm dick, und einer Scheibe aus
+            Einscheibensicherheitsglas, heißgelagert (ESG-H), 4 mm dick (außen).
+                 • Splitterfallhöhe über 4 m: ____________
+            Betrifft Position(en): ____________
+
+67.11 31    Aufzahlung (Az) auf Pfosten-Riegel-Fassaden (PF-RI-F) mit Mehrscheiben-Isolierglas (MIG) für die Ausführung
+            mit Einsatzelementen
+                 • mit öffenbaren Flügeln
+                 • mit Drehkippbeschlag
+                 • Oberfläche Aluminium eloxiert (Alu)
+
+67.11 31A   Az PF-RI-F MIG f.Fenster 1-flügelig Alu                                                                     Stk
+            Einflügelig.
+            Betrifft Position(en): ____________
+            Ausführungsplan Nr.: ____________
+            Abmessungen:
+
+
+                                                                                                                   Seite 9 / 15
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+                 • Breite (cm): ____________
+                 • Höhe (cm): ____________
+
+67.11 31B   Az PF-RI-F MIG f.Fenster 2-flügelig Alu                                                                    Stk
+            Zweiflügelig.
+            Betrifft Position(en): ____________
+            Ausführungsplan Nr.: ____________
+            Abmessungen:
+                 • Breite (cm): ____________
+                 • Höhe (cm): ____________
+
+67.11 32    Aufzahlung (Az) auf Pfosten-Riegel-Fassaden (PF-RI-F) mit Mehrscheiben-Isolierglas (MIG) für die Ausführung
+            mit Einsatzelementen
+                 • mit öffenbaren Senkklappflügeln
+                 • Oberfläche Aluminium eloxiert (Alu)
+
+67.11 32A   Az PF-RI-F MIG f.Fenster Senkklappflügel Alu                                                               Stk
+            Ausführungsplan Nr.: ____________
+            Betrifft Position(en): ____________
+            Abmessungen:
+                 • Breite (cm): ____________
+                 • Höhe (cm): ____________
+
+67.11 35    Aufzahlung (Az) auf Pfosten-Riegel-Fassaden mit Mehrscheiben-Isolierglas (MIG) für die Ausführung mit
+            Einsatzelementen
+                 • mit öffenbaren Flügeln
+                 • mit Drehkippbeschlag
+                 • Oberfläche in RAL-Standardfarbe beschichtet
+
+67.11 35A   Az PF-RI-F MIG f.Fenster 1-flügelig RAL                                                                    Stk
+            Einflügelig.
+            Betrifft Position(en): ____________
+            Ausführungsplan Nr.: ____________
+            Abmessungen:
+                 • Breite (cm): ____________
+                 • Höhe (cm): ____________
+
+67.11 35B   Az PF-RI-F MIG f.Fenster 2-flügelig RAL                                                                    Stk
+            Zweiflügelig.
+            Betrifft Position(en): ____________
+            Ausführungsplan Nr.: ____________
+            Abmessungen:
+                 • Breite (cm): ____________
+                 • Höhe (cm): ____________
+
+67.11 36    Aufzahlung (Az) auf Pfosten-Riegel-Fassaden (PF-RI-F) mit Mehrscheiben-Isolierglas (MIG) für die Ausführung
+            mit Einsatzelementen
+                 • mit öffenbaren Senkklappflügeln
+                 • Oberfläche in RAL-Standardfarbe beschichtet
+
+67.11 36A   Az PF-RI-F MIG f.Fenster Senkklappflügel RAL                                                               Stk
+            Ausführungsplan Nr.: ____________
+            Betrifft Position(en): ____________
+            Abmessungen:
+                 • Breite (cm): ____________
+                 • Höhe (cm): ____________
+
+
+
+
+                                                                                                                 Seite 10 / 15
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+67.11 41    Randabschluss der Pfosten-Riegel-Fassade (PF-RI-F) mit Mehrscheiben-Isolierglas (MIG).
+                 • Bauanschlussfuge (BAF) höchstens 20 mm breit
+            Abgerechnet wird die Länge des hergestellten Randabschlusses.
+
+67.11 41A   PF-RI-F MIG Randabschluss BAF b.20mm seitlich                                                                        m
+            Seitlich.
+            Betrifft Position(en): ____________
+
+67.11 41B   PF-RI-F MIG Randabschluss BAF b.20mm unten                                                                           m
+            Unten.
+            Betrifft Position(en): ____________
+
+67.11 41C   PF-RI-F MIG Randabschluss BAF b.20mm oben                                                                            m
+            Oben.
+            Betrifft Position(en): ____________
+
+67.11 42    Aufzahlung (Az) auf Pfosten-Riegel-Fassaden (PF-RI-F) mit Mehrscheiben-Isolierglas (MIG) für die Ausführung
+            über einem polygonalen Grundriss (mit schrägem Anschluss der Verglasungsebene an die Pfostenprofile).
+            Abgerechnet wird die Summe der Längen der Pfosten mit schrägem Anschluss.
+
+67.11 42A   Az PF-RI-F MIG f.polygonal einseitig b.15 Grad                                                                       m
+            Bei einem einseitigen schrägen Anschluss mit bis zu 15 Grad Abweichung.
+            Betrifft Position(en): ____________
+
+67.11 42B   Az PF-RI-F MIG f.polygonal zweiseitig b.15 Grad                                                                      m
+            Bei einem zweiseitigen schrägen Anschluss mit bis zu 15 Grad Abweichung (eingeschlossener Winkel bis 30
+            Grad).
+            Betrifft Position(en): ____________
+
+67.11 42E   Az PF-RI-F MIG f.polygonal 90 Grad Innen/Außen                                                                       m
+            Bei einer Richtungsänderung von 90 Grad (Innen- oder Außenecke).
+            Betrifft Position(en): ____________
+67.11 45    Aufzahlung (Az) auf Pfosten-Riegel-Fassaden (PF-RI-F) mit Mehrscheiben-Isolierglas (MIG) für Vorkehrungen
+            im Fassadensystem für die Montage von außenliegenden Sonnenschutzeinrichtungen (Jalousien).
+            Abgerechnet wird die Anzahl der Jalousien.
+             Kommentar:
+             Außenliegende Jalousien können mit den Positionen der LG 57 Bewegliche Abschlüsse von Fenstern beschrieben werden.
+             Die oberen und unteren Abschlüsse, einschließlich der seitlichen Führungen sind im Leistungsumfang der Jalousien bereits
+             enthalten.
+
+67.11 45A   Az PF-RI-F MIG f.Standardkonsolen Außenjalousien                                                                     Stk
+            System-Standardkonsolen zur Befestigung einer außenliegenden Jalousie.
+            Betrifft Position(en): ____________
+
+67.11 45B   Az PF-RI-F MIG f.Durchdringung elektrische Leiter                                                                    Stk
+            Durchdringung der Fassade mit einer Verrohrung für elektrische Leiter (z.B. für Außensensoren oder außen
+            liegende Motoren).
+            Betrifft Position(en): ____________
+
+67.11 45C   Az PF-RI-F MIG f.Durchdringung mechanischer Antriebe                                                                 Stk
+            Durchdringung der Fassade mit einer Vorrichtung für den Einbau eines mechanischen Antriebs von Jalousien
+            (z.B. Gurtenführung, Seilzug, Kurbelwelle).
+            Betrifft Position(en): ____________
+
+67.11 46    Anschluss (Abschottung) einer Wand an die Pfosten-Riegel-Fassade (PF-RI-F) mit Mehrscheiben-Isolierglas
+            (MIG).
+            Abgerechnet wird die Länge des hergestellten Anschlusses (Abschottung).
+
+67.11 46A   PF-RI-F MIG Anschluss Zwischenwand 30dB                                                                              m
+                                                                                                                           Seite 11 / 15
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+            Zwischenwand ohne Feuerschutz.
+            Betrifft Position(en): ____________
+                • Schallschutz: Rw = 30 dB
+
+67.11 46B   PF-RI-F MIG Anschluss Trennwand 34dB                                                                      m
+            Trennwand ohne Feuerschutz.
+            Betrifft Position(en): ____________
+                • Schallschutz: Rw = 34 dB
+
+67.11 46C   PF-RI-F MIG Anschluss Trennwand erhöhter Schallschutz                                                     m
+            Trennwand ohne Feuerschutz.
+            Betrifft Position(en): ____________
+                • erhöhter Schallschutz: Rw = ____________
+
+67.11 46D   PF-RI-F MIG Anschluss Feuerschutzwand EI30                                                                m
+            Feuerschutzwand.
+            Betrifft Position(en): ____________
+                • Feuerwiderstandsklasse: EI 30
+
+67.11 46E   PF-RI-F MIG Anschluss Feuerschutzwand EI60                                                                m
+            Feuerschutzwand.
+            Betrifft Position(en): ____________
+                • Feuerwiderstandsklasse: EI 60
+
+67.11 46F   PF-RI-F MIG Anschluss Feuerschutzwand EI90                                                                m
+            Feuerschutzwand.
+            Betrifft Position(en): ____________
+                • Feuerwiderstandsklasse: EI 90
+
+67.11 51    Pfosten-Riegel-Fassade (PF-RI-F) mit Mehrscheiben-Isolierglas (MIG), mit Verbund-Sicherheitsglas (VSG)
+            (außen oder innen).
+                • geneigt
+                • Oberfläche Aluminium eloxiert (Alu)
+
+67.11 51A   PF-RI-F MIG Alu geneigt VSG                                                                               m²
+            Anzahl der Felder je Befestigungsabstand: ____________
+            Scheibendicke: ____________
+            Scheibenzwischenraum (SZR): ____________
+            Neigungswinkel: ____________
+            Pfostenraster (Achsabstand):
+                • Breite (cm): ____________
+                • Höhe (cm): ____________
+            Anzahl/Abstand der Befestigungsmöglichkeiten für die schräg liegenden Pfosten: ____________
+            Betrifft Position(en): ____________
+
+67.12       Sonstiges
+            Abkürzungen:
+            BAF : Bauanschlussfuge
+67.12 01    Randabschluss/Randfläche der Pfosten-Riegel-Fassade (PF-RI-F) mit Mehrscheiben-Isolierglas (MIG), über 15
+            Grad zur Vertikalen geneigt.
+                • Breite bis 20 mm
+            Abgerechnet wird die Länge des hergestellten Randabschlusses.
+
+67.12 01A   PF-RI-F MIG geneigt Randabschluss BAF b.20mm seitlich                                                     m
+
+
+                                                                                                                Seite 12 / 15
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+            Seitlich.
+            Betrifft Position(en): ____________
+
+67.12 01B   PF-RI-F MIG geneigt Randabschluss BAF b.20mm unten                                                         m
+            Unten.
+            Betrifft Position(en): ____________
+
+67.12 01C   PF-RI-F MIG geneigt Randabschluss BAF b.20mm oben                                                          m
+            Oben.
+            Betrifft Position(en): ____________
+67.12 11    Randabschluss/Randfläche der Pfosten-Riegel-Fassade (PF-RI-F) mit Mehrscheiben-Isolierglas (MIG).
+            Abgerechnet wird die Länge des hergestellten Randabschlusses.
+
+67.12 11A   PF-RI-F MIG Randabschluss BAF ü.20mm seitlich                                                              m
+            Seitlich.
+            Breite über 20 mm: ____________
+            Betrifft Position(en): ____________
+
+67.12 11B   PF-RI-F MIG Randabschluss BAF ü.20mm unten                                                                 m
+            Unten.
+            Breite über 20 mm: ____________
+            Betrifft Position(en): ____________
+
+67.12 11C   PF-RI-F MIG Randabschluss BAF ü.20mm oben                                                                  m
+            Oben.
+            Breite über 20 mm: ____________
+            Betrifft Position(en): ____________
+
+67.12 21    Randabschluss/Randfläche der Pfosten-Riegel-Fassade (PF-RI-F) mit Mehrscheiben-Isolierglas (MIG), über 15
+            Grad zur Vertikalen geneigt.
+            Abgerechnet wird die Länge des hergestellten Randabschlusses.
+
+67.12 21A   PF-RI-F MIG geneigt Randabschluss BAF ü.20mm seitlich                                                      m
+            Seitlich.
+            Breite über 20 mm: ____________
+            Betrifft Position(en): ____________
+
+67.12 21B   PF-RI-F MIG geneigt Randabschluss BAF ü.20mm unten                                                         m
+            Unten.
+            Breite über 20 mm: ____________
+            Betrifft Position(en): ____________
+
+67.12 21C   PF-RI-F MIG geneigt Randabschluss BAF ü.20mm oben                                                          m
+            Oben.
+            Breite über 20 mm: ____________
+            Betrifft Position(en): ____________
+
+67.12 51    Aufzahlung (Az) auf Pfosten-Riegel-Fassade (PF-RI-F) mit Mehrscheiben-Isolierglas (MIG)
+
+67.12 51A   Az PF-RI-F MIG f.Sonderformate                                                                             m²
+            Für eine Ausführung von/mit Sonderformaten.
+            Abmessungen: ____________
+            Planbeilage: ____________
+            Betrifft Position(en): ____________
+
+67.12 51B   Az PF-RI-F MIG f.Glasdicke ü.4mm                                                                           m²
+
+                                                                                                                 Seite 13 / 15
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+            Für eine Glasdicke über 4 mm.
+            Glasdicke (mm): ____________
+            Planbeilage: ____________
+            Betrifft Position(en): ____________
+
+67.90       Regieleistungen
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Überstunden, die dem Arbeitsruhegesetz unterliegen, sind frei zu formulieren.
+
+67.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+67.90 00A   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+67.90 01    Regiestunden.
+
+67.90 01A   Regiestunde Facharbeiter                                                                                         h
+            Für Facharbeiter.
+
+67.90 01B   Regiestunde Hilfsarbeiter                                                                                        h
+            Für Hilfsarbeiter.
+
+67.90 51    Materiallieferungen f.Regieleistungen                                                                            VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+                                                                                                                       Seite 14 / 15
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                          gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                              EH
+
+           LB-Version: 23       Geringfügig Geändert
+
+
+
+
+                                                                            Seite 15 / 15
+                                                       ib-data GmbH, Softwareentwicklung
+

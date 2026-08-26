@@ -1,0 +1,3006 @@
+{
+  "lg": "59",
+  "title": "Sportanlagen im Freien",
+  "positions": [
+    {
+      "code": "59.20.02A",
+      "text": "PP-Vlies zu 59.20",
+      "unit": "m²"
+    },
+    {
+      "code": "59.20.02B",
+      "text": "Vlies zu 59.20",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.02A",
+      "text": "PP-Vlies zu 59.30",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.02B",
+      "text": "Vlies",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.07A",
+      "text": "Kst.Belag spritzbeschichtet 2kg wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.07C",
+      "text": "Kst.Belag spritzbeschichtet 2kg wud",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.07D",
+      "text": "Kst.Belag spritzbeschichtet 3kg wud",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.07E",
+      "text": "Kst.Belag spritzbeschichtet",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.08C",
+      "text": "Az spritzbeschichtet and.Farbe",
+      "unit": "m²"
+    },
+    {
+      "code": "59.00.01A",
+      "text": "Güteprüfung AG",
+      "unit": ""
+    },
+    {
+      "code": "59.00.01B",
+      "text": "Güteprüfung AN+Kosten",
+      "unit": ""
+    },
+    {
+      "code": "59.00.01C",
+      "text": "Güteprüfung AN",
+      "unit": ""
+    },
+    {
+      "code": "59.02.02A",
+      "text": "Feinplanum Sand 2cm",
+      "unit": "m²"
+    },
+    {
+      "code": "59.02.03A",
+      "text": "Anschluss Randeinfassung                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "59.02.04A",
+      "text": "Kst.Decke reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "59.03.01A",
+      "text": "Sicherheitsrandst.6x20,weiß                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.01B",
+      "text": "Sicherheitsrandst.6x20,schwarz                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.01C",
+      "text": "Sicherheitsrandst.6x25,weiß                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.01D",
+      "text": "Sicherheitsrandst.6x25,schwarz                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.01E",
+      "text": "Sicherheitsrandst.6x30,weiß                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.01F",
+      "text": "Sicherheitsrandst.6x30,schwarz                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.01G",
+      "text": "Sicherheitsrandstein__________                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.02A",
+      "text": "Az Sicherheitsrandst.Winkel",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.03.03A",
+      "text": "Entwässer.Rinne ohne Gefälle                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.03B",
+      "text": "Entwässer.Rinne m.Gefälle                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.03C",
+      "text": "Entwässerungsrinne                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.04A",
+      "text": "Auf.Entwässerungsrinne Bogen                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.05A",
+      "text": "Entw.Rinne m.Stütze o.Gefälle                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.05B",
+      "text": "Entw.Rinne m.Stütze m.Gefälle                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.05C",
+      "text": "Entw.Rinne m.Stütze                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.06A",
+      "text": "Az Rinne m.Stütze, Bogen                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.07A",
+      "text": "Schlitzrinne 10/12cm                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.07B",
+      "text": "Schlitzrinne                                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.08A",
+      "text": "Az Schlitzrinne Bogen                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.09A",
+      "text": "Einlaufkasten",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.03.09B",
+      "text": "Einlaufkasten m.Rasenstütze",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.03.10A",
+      "text": "Rinnenabdeckung GFK.Gerade                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.10B",
+      "text": "Rinnenabdeckung GFK.Bogen                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.11A",
+      "text": "Abdeckung m.Weichprofil,Gerade                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.11B",
+      "text": "Abdeckung m.Weichprofil,Bogen                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.12A",
+      "text": "Sicherheitszarge Gerade                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.12B",
+      "text": "Sicherheitszarge Bogen                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.13A",
+      "text": "Rinnen-Klemm-Stegrost verz.                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "59.03.13B",
+      "text": "Rinnenrost                                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "59.10.00C",
+      "text": "Rasenflächen",
+      "unit": ""
+    },
+    {
+      "code": "59.10.01A",
+      "text": "Untergrundverbesserung",
+      "unit": "m²"
+    },
+    {
+      "code": "59.10.02A",
+      "text": "Dränschicht 10cm dick",
+      "unit": "m²"
+    },
+    {
+      "code": "59.10.02B",
+      "text": "Dränschicht 15cm dick",
+      "unit": "m²"
+    },
+    {
+      "code": "59.10.02C",
+      "text": "Dränschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "59.10.03A",
+      "text": "Oberboden liefern",
+      "unit": "m³"
+    },
+    {
+      "code": "59.10.04A",
+      "text": "Sand 0-4 liefern",
+      "unit": "m³"
+    },
+    {
+      "code": "59.10.05A",
+      "text": "Zuschlagstoffe liefern",
+      "unit": "m³"
+    },
+    {
+      "code": "59.10.06A",
+      "text": "Nährstoffe liefern",
+      "unit": "kg"
+    },
+    {
+      "code": "59.10.07A",
+      "text": "Rasentragschichte 10cm n.einbr",
+      "unit": "m²"
+    },
+    {
+      "code": "59.10.07B",
+      "text": "Rasentragschichte 12cm n.einbr",
+      "unit": "m²"
+    },
+    {
+      "code": "59.10.08A",
+      "text": "Rasentragschichte 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "59.10.08B",
+      "text": "Rasentragschichte 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "59.10.09A",
+      "text": "Saatrasen m.Raygras",
+      "unit": "m²"
+    },
+    {
+      "code": "59.10.09B",
+      "text": "Saatrasen ohne Raygras",
+      "unit": "m²"
+    },
+    {
+      "code": "59.10.10A",
+      "text": "Fertigrasen Sportflächen",
+      "unit": "m²"
+    },
+    {
+      "code": "59.10.11A",
+      "text": "Pflege Saatrasen",
+      "unit": "m²"
+    },
+    {
+      "code": "59.10.11B",
+      "text": "Pflege Fertigrasen",
+      "unit": "m²"
+    },
+    {
+      "code": "59.11.00A",
+      "text": "Verfügbarkeit von Beilagen",
+      "unit": ""
+    },
+    {
+      "code": "59.15.01A",
+      "text": "Markieren Rasen 10-12cm Mehl                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "59.15.01B",
+      "text": "Markieren Rasen 10-12cm Farbe                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "59.15.01C",
+      "text": "Markieren Rasen 10-12cm Kreide                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "59.15.01D",
+      "text": "Markieren Rasen                                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "59.17.01A",
+      "text": "Rasenschnitt 1x",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.02A",
+      "text": "Rasenschnitt Periode",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.03A",
+      "text": "Beregnung Periode",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.04A",
+      "text": "Volldüngung Frühjahr",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.04B",
+      "text": "Volldüngung Sommer",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.04C",
+      "text": "Volldüngung Herbst",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.05A",
+      "text": "Stickstoffdüngung 1x,10g/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.05B",
+      "text": "Stickstoffdüngung 1x,5g/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.06A",
+      "text": "Unkrautbekämpfung chemisch",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.07A",
+      "text": "Walzen",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.08A",
+      "text": "Rasentiefschnitt",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.09A",
+      "text": "Verticutieren - Rasen",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.10A",
+      "text": "Aerifizieren,Bohrmat.einkehren",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.10B",
+      "text": "Aerifizieren,Bohrmat.entfernen",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.11A",
+      "text": "Ausbessern von Kahlstellen",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.12A",
+      "text": "Quarzsand b.4mm",
+      "unit": "m³"
+    },
+    {
+      "code": "59.17.13A",
+      "text": "Rasennarbe auswechseln",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.14A",
+      "text": "Laubbeseitigung",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.15A",
+      "text": "Gehölzflächen hacken",
+      "unit": "m²"
+    },
+    {
+      "code": "59.17.16A",
+      "text": "Strauch Schnitt",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.17.16B",
+      "text": "Hecken Schnitt                                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.17.16C",
+      "text": "Baum Schnitt",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.20.00C",
+      "text": "Tennenflächen",
+      "unit": ""
+    },
+    {
+      "code": "59.20.01A",
+      "text": "Filterschichte 6cm zu 59.20",
+      "unit": "m²"
+    },
+    {
+      "code": "59.20.01B",
+      "text": "Filterschichte zu 59.20",
+      "unit": "m²"
+    },
+    {
+      "code": "59.20.03A",
+      "text": "Tragschichte 1-lagig 10cm zu 59.20",
+      "unit": "m²"
+    },
+    {
+      "code": "59.20.03B",
+      "text": "Tragschichte 1-lagig 15cm zu 59.20",
+      "unit": "m²"
+    },
+    {
+      "code": "59.20.03C",
+      "text": "Tragschichte zu 59.20",
+      "unit": "m²"
+    },
+    {
+      "code": "59.20.04A",
+      "text": "Dynamische Schichte 6cm zu 59.20",
+      "unit": "m²"
+    },
+    {
+      "code": "59.20.04B",
+      "text": "Dynamische Schichte zu 59.20",
+      "unit": "m²"
+    },
+    {
+      "code": "59.20.05A",
+      "text": "Deckschichte 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "59.20.05B",
+      "text": "Deckschichte 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "59.20.05C",
+      "text": "Deckschichte 5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "59.20.06A",
+      "text": "Streuschichte 3mm K1",
+      "unit": "m²"
+    },
+    {
+      "code": "59.20.06B",
+      "text": "Streuschichte 3mm K2",
+      "unit": "m²"
+    },
+    {
+      "code": "59.25.01A",
+      "text": "Markieren Tennen 5cm Steinmehl                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "59.25.01B",
+      "text": "Markieren Tennen 5cm Kreide                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "59.25.01C",
+      "text": "Markieren Tennen 5cm PVC                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "59.25.01D",
+      "text": "Markieren Tennen                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "59.27.01A",
+      "text": "Reinigen Tennendecke",
+      "unit": "m²"
+    },
+    {
+      "code": "59.27.02A",
+      "text": "Abschürfen Tennendecke b.15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "59.27.02B",
+      "text": "Abschürfen Tennendecke ü.15-30mm",
+      "unit": "m²"
+    },
+    {
+      "code": "59.27.02C",
+      "text": "Abschürfen Tennendecke",
+      "unit": "m²"
+    },
+    {
+      "code": "59.27.03A",
+      "text": "Aufrauen Tennendecke",
+      "unit": "m²"
+    },
+    {
+      "code": "59.27.04A",
+      "text": "Verbessern Tennendecken b.15mm",
+      "unit": "m²"
+    },
+    {
+      "code": "59.27.04B",
+      "text": "Verbessern Tennendecken ü.15-30mm",
+      "unit": "m²"
+    },
+    {
+      "code": "59.27.04C",
+      "text": "Verbessern Tennendecke",
+      "unit": "m²"
+    },
+    {
+      "code": "59.27.05A",
+      "text": "Auflockern Tennendecke",
+      "unit": "m²"
+    },
+    {
+      "code": "59.27.06A",
+      "text": "Markierungen vorh.PVC                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "59.30.00C",
+      "text": "Bitumengebundene Flächen",
+      "unit": ""
+    },
+    {
+      "code": "59.30.01A",
+      "text": "Filterschichte 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.01B",
+      "text": "Filterschichte",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.03A",
+      "text": "Untere Tragschicht 15cm Kantkorn",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.03B",
+      "text": "Untere Tragschicht gemäß Ang.Kantkorn",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.03C",
+      "text": "Untere Tragschicht 15cm Rundkorn",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.03D",
+      "text": "Untere Tragschicht gemäß Ang.Rundkorn",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.04A",
+      "text": "Obere Tragschicht 5cm Kantkorn",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.04B",
+      "text": "Obere Tragschicht 10cm Kantkorn",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.05A",
+      "text": "Feinschicht 5cm Split",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.06A",
+      "text": "Bitumentragschicht 4cm, wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.06B",
+      "text": "Bitumentragschicht wd__________",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.06C",
+      "text": "Bitumentragschicht 4cm, wud",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.06D",
+      "text": "Bitumentragschicht wud__________",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.07A",
+      "text": "Bitumendecke 3cm, wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.07B",
+      "text": "Bitumendecke wd__________",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.07C",
+      "text": "Bitumendecke 3cm, wud",
+      "unit": "m²"
+    },
+    {
+      "code": "59.30.07D",
+      "text": "Bitumendecke wud__________",
+      "unit": "m²"
+    },
+    {
+      "code": "59.31.01A",
+      "text": "Bitumentragschicht 6cm, wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.31.01B",
+      "text": "Bitumentragschicht 6cm, wud",
+      "unit": "m²"
+    },
+    {
+      "code": "59.31.02A",
+      "text": "Asphaltbahnbelag 3,5cm, wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.31.02B",
+      "text": "Asphaltbahnbelag 3,5cm, wud",
+      "unit": "m²"
+    },
+    {
+      "code": "59.33.01A",
+      "text": "KH-Beschichtung Bitu-Decke",
+      "unit": "m²"
+    },
+    {
+      "code": "59.33.02A",
+      "text": "Az Verstärkung                                                                                               VE",
+      "unit": ""
+    },
+    {
+      "code": "59.33.03A",
+      "text": "Versiegeln Bitu-Decke wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.33.03B",
+      "text": "Versiegeln Bitu-Decke wud",
+      "unit": "m²"
+    },
+    {
+      "code": "59.33.04A",
+      "text": "Az versch.Farbe                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "59.35.01A",
+      "text": "Markieren Bitu-Flächen 5cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "59.35.01B",
+      "text": "Markieren Bitu-Flächen                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "59.37.01A",
+      "text": "Abkehren, Absaugen Bitu-Decke",
+      "unit": "m²"
+    },
+    {
+      "code": "59.37.03A",
+      "text": "Reinigen Bitu-Decke",
+      "unit": "m²"
+    },
+    {
+      "code": "59.37.04A",
+      "text": "Verbessern wd 20 Bohrlöcher",
+      "unit": "m²"
+    },
+    {
+      "code": "59.37.04B",
+      "text": "Verbessern wd Bohrlöcher",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.37.05A",
+      "text": "Ausbessern Bitu-Decke 8cm wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.37.05B",
+      "text": "Ausbessern Bitu-Decke 8cm wud",
+      "unit": "m²"
+    },
+    {
+      "code": "59.37.05C",
+      "text": "Ausbessern Bitu-Decke wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.37.05D",
+      "text": "Ausbessern Bitu-Decke wud",
+      "unit": "m²"
+    },
+    {
+      "code": "59.37.06A",
+      "text": "Anschluss Bitu-Decke                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "59.37.07A",
+      "text": "Ausbess.Bitu-Decke, Rand 20cm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "59.40.01A",
+      "text": "Kst.Belag rot Spielfl.wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.01B",
+      "text": "Kst.Belag rot LA-Sond.Fl.wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.01C",
+      "text": "Kst.Belag rot LA-Fl.wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.01D",
+      "text": "Kst.Belag rot LA-Fl.spikef.wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.01E",
+      "text": "Kunststoffbelag rot",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.02A",
+      "text": "Az Kst.Belag andere Farbe",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.03A",
+      "text": "Az Kst.Belag versch.Farben                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "59.40.04A",
+      "text": "Kst.Belag 2-schichtig Spielfl.wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.04B",
+      "text": "Kst.Belag 2-schichtig LA-Sond.Fl.wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.04C",
+      "text": "Kst.Belag 2-schichtig LA-Fl.wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.04D",
+      "text": "Kst.Belag 2-schichtig LA-Fl.spikef.wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.04E",
+      "text": "Kst.Belag 2-schichtig",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.05A",
+      "text": "Az Kst.Belag 2-schichtig and.Farbe",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.06A",
+      "text": "Az Kst.Belag 2-schichtig versch.Fb.                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "59.40.08A",
+      "text": "Az spritzbeschichtet 2kg and.Farbe",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.08B",
+      "text": "Az spritzbeschichtet 3kg and.Farbe",
+      "unit": "m²"
+    },
+    {
+      "code": "59.40.09A",
+      "text": "Az spritzbeschichtet versch.Farbe                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "59.41.01A",
+      "text": "Gummigranulat",
+      "unit": "m²"
+    },
+    {
+      "code": "59.41.01B",
+      "text": "Verbundschaumstoff, 10mm",
+      "unit": "m²"
+    },
+    {
+      "code": "59.41.01C",
+      "text": "PE-Matte 10mm",
+      "unit": "m²"
+    },
+    {
+      "code": "59.41.01D",
+      "text": "Elastikschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "59.41.02A",
+      "text": "Elastische Tragschicht 35mm",
+      "unit": "m²"
+    },
+    {
+      "code": "59.41.03A",
+      "text": "SKR f.Fußballplätze",
+      "unit": "m²"
+    },
+    {
+      "code": "59.41.03B",
+      "text": "SKR f.Handball, Hockey",
+      "unit": "m²"
+    },
+    {
+      "code": "59.41.03C",
+      "text": "SKR f.Tennisplätze",
+      "unit": "m²"
+    },
+    {
+      "code": "59.41.04A",
+      "text": "VKR f.Fußballplätze",
+      "unit": "m²"
+    },
+    {
+      "code": "59.41.04B",
+      "text": "VKR f.Handball, Hockey",
+      "unit": "m²"
+    },
+    {
+      "code": "59.41.04C",
+      "text": "VKR f.Tennisplätze",
+      "unit": "m²"
+    },
+    {
+      "code": "59.45.01A",
+      "text": "Markieren Kst.Belag 5cm                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "59.45.01B",
+      "text": "Markieren Kst.Belag 7,5cm                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "59.45.01C",
+      "text": "Markieren Kst.Belag 10cm                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "59.45.02A",
+      "text": "Az Markieren Kunstrasen 5cm                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "59.45.02B",
+      "text": "Az Markieren Kunstrasen7,5cm                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "59.45.02C",
+      "text": "Az Markieren Kunstrasen 10cm                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "59.45.03A",
+      "text": "Az Mark.eingetuftet KR 5cm                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "59.45.03B",
+      "text": "Az Mark.eingetuftet KR 7,5cm                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "59.45.03C",
+      "text": "Az Mark.eingetuftet KR 10cm                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "59.47.01A",
+      "text": "Abkehren, Absaugen Kst.Decke",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.02A",
+      "text": "Reinigen Kst.Belag",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.03A",
+      "text": "Verbessern wd Kst.Belag",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.47.04A",
+      "text": "Ausbessern Kst.Belag 0,1m2 rot",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.47.04B",
+      "text": "Ausbessern Kst.Belag 0,1m2 sw.",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.47.04C",
+      "text": "Ausbessern Kst.Belag Str.rot                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "59.47.04D",
+      "text": "Ausbessern Kst.Belag Str.sw.                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "59.47.05A",
+      "text": "Ausbessern Kst.Belag b.13mm rot",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.05B",
+      "text": "Ausbessern Kst.Belag ü.13-20mm rot",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.05C",
+      "text": "Ausbessern Kst.Belag b.13mm sw.",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.05D",
+      "text": "Ausbessern Kst.Belag ü.13-20mm sw.",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.05E",
+      "text": "Ausbessern Kst.Belag",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.06A",
+      "text": "Anschluss Kst.Belag                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "59.47.07A",
+      "text": "Mittelfuge instandsetzen                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "59.47.07B",
+      "text": "Randfuge instandsetzen                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "59.47.08A",
+      "text": "Ausgleichen Unebenheiten rot",
+      "unit": "kg"
+    },
+    {
+      "code": "59.47.08B",
+      "text": "Ausgleichen Unebenheiten sw.",
+      "unit": "kg"
+    },
+    {
+      "code": "59.47.09A",
+      "text": "Kst.Belag rot, 7mm",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.10A",
+      "text": "Stabil.Kst.Belag, 1kg, wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.10B",
+      "text": "Stabil.Kst.Belag, wd__________",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.10C",
+      "text": "Stabil.Kst.Belag, wud__________",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.11A",
+      "text": "Versiegeln Kst.Belag, 0,5kg,wd",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.11B",
+      "text": "Versiegeln Kst.Belag,0,5kg,wud",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.13A",
+      "text": "Ausbessern KR b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.47.13B",
+      "text": "Ausbessern KR ü.0,1-1m2",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.13C",
+      "text": "Ausbessern KR ü.1m2",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.13D",
+      "text": "Ausbessern KR Streifen                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "59.47.20A",
+      "text": "Nachsanden Kst.Rasen 2kg",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.20B",
+      "text": "Nachsanden Kst.Rasen",
+      "unit": "m³"
+    },
+    {
+      "code": "59.47.21A",
+      "text": "SKR Instandsetzen",
+      "unit": "m²"
+    },
+    {
+      "code": "59.47.22A",
+      "text": "VKR Instandsetzen",
+      "unit": "m²"
+    },
+    {
+      "code": "59.50.00C",
+      "text": "Wählbare Vorbemerkungen ULG 59.50",
+      "unit": ""
+    },
+    {
+      "code": "59.50.01A",
+      "text": "Rohr PE-hart 20x2 PN10                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.01B",
+      "text": "Rohr PE-hart 25x2,3 PN10                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.01C",
+      "text": "Rohr PE-hart 32x3 PN10                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.01D",
+      "text": "Rohr PE-hart 40x3,7 PN10                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.01E",
+      "text": "Rohr PE-hart 50x4,6 PN10                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.01F",
+      "text": "Rohr PE-hart 63x5,8 PN10                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.01G",
+      "text": "Rohr PE-hart 75x6,9 PN10                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.01H",
+      "text": "Rohr PE-hart PN10__________                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.02A",
+      "text": "Verbindung Kst x Kst 20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.02B",
+      "text": "Verbindung Kst x Kst 25",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.02C",
+      "text": "Verbindung Kst x Kst 32",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.02D",
+      "text": "Verbindung Kst x Kst 40",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.02E",
+      "text": "Verbindung Kst x Kst 50",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.02F",
+      "text": "Verbindung Kst x Kst 63",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.02G",
+      "text": "Verbindung Kst x Kst 75",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.02H",
+      "text": "Verbindung Kst x Kst",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.03A",
+      "text": "Übergang Kst x E 20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.03B",
+      "text": "Übergang Kst x E 25",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.03C",
+      "text": "Übergang Kst x E 32",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.03D",
+      "text": "Übergang Kst x E 40",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.03E",
+      "text": "Übergang Kst x E 50",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.03F",
+      "text": "Übergang Kst x E 63",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.03G",
+      "text": "Übergang Kst x E 75",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.03H",
+      "text": "Übergang Kst x E",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.04A",
+      "text": "Reduktion Kst x Kst 25x20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.04B",
+      "text": "Reduktion Kst x Kst 32x25",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.04C",
+      "text": "Reduktion Kst x Kst 40x32",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.04D",
+      "text": "Reduktion Kst x Kst 50x40",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.04E",
+      "text": "Reduktion Kst x Kst 63x50",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.04F",
+      "text": "Reduktion Kst x Kst",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.05A",
+      "text": "T-Verbindungsstück 20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.05B",
+      "text": "T-Verbindungsstück 25",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.05C",
+      "text": "T-Verbindungsstück 32",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.05D",
+      "text": "T-Verbindungsstück 40",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.05E",
+      "text": "T-Verbindungsstück 50",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.05F",
+      "text": "T-Verbindungsstück 63",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.05G",
+      "text": "T-Verbindungsstück",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.06A",
+      "text": "Anbohrschelle 25",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.06B",
+      "text": "Anbohrschelle 32",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.06C",
+      "text": "Anbohrschelle 40",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.06D",
+      "text": "Anbohrschelle 50",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.06E",
+      "text": "Anbohrschelle 63",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.06F",
+      "text": "Anbohrschelle 75",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.06G",
+      "text": "Anbohrschelle",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.21A",
+      "text": "Gew.Rohr geschw.verz.DN15                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.21B",
+      "text": "Gew.Rohr geschw.verz.DN20                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.21C",
+      "text": "Gew.Rohr geschw.verz.DN25                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.21D",
+      "text": "Gew.Rohr geschw.verz.DN32                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.21E",
+      "text": "Gew.Rohr geschw.verz.DN40                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.21F",
+      "text": "Gew.Rohr geschw.verz.DN50                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.21G",
+      "text": "Gew.Rohr geschw.verz.DN65                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.21H",
+      "text": "Gew.Rohr geschw.verz.                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.22A",
+      "text": "Gew.Rohr nahtl.verz.DN15                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.22B",
+      "text": "Gew.Rohr nahtl.verz.DN20                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.22C",
+      "text": "Gew.Rohr nahtl.verz.DN25                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.22D",
+      "text": "Gew.Rohr nahtl.verz.DN32                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.22E",
+      "text": "Gew.Rohr nahtl.verz.DN40                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.22F",
+      "text": "Gew.Rohr nahtl.verz.DN50                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.22G",
+      "text": "Gew.Rohr nahtl.verz.DN65                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.22H",
+      "text": "Gew.Rohr nahtl.verz.                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.23A",
+      "text": "Verschraubung verz.DN15",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.23B",
+      "text": "Verschraubung verz.DN20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.23C",
+      "text": "Verschraubung verz.DN25",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.23D",
+      "text": "Verschraubung verz.DN32",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.23E",
+      "text": "Verschraubung verz.DN40",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.23F",
+      "text": "Verschraubung verz.DN50",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.23G",
+      "text": "Verschraubung verz.DN65",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.23H",
+      "text": "Verschraubung verz.",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.24A",
+      "text": "Übergangsflansch DN50",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.24B",
+      "text": "Übergangsflansch DN65",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.24C",
+      "text": "Übergangsflansch",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.25A",
+      "text": "Gewindeflansch DN50",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.25B",
+      "text": "Gewindeflansch DN65",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.25C",
+      "text": "Gewindeflansch",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.41A",
+      "text": "Schrägs.Ventil Mess.DN15",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.41B",
+      "text": "Schrägs.Ventil Mess.DN20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.41C",
+      "text": "Schrägs.Ventil Mess.DN25",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.41D",
+      "text": "Schrägs.Ventil Mess.DN32",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.41E",
+      "text": "Schrägs.Ventil Mess.DN40",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.41F",
+      "text": "Schrägs.Ventil Mess.DN50",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.41G",
+      "text": "Schrägs.Ventil Mess.DN65",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.41H",
+      "text": "Schrägs.Ventil Mess.__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.42A",
+      "text": "Az Schrägs.Ventil, Entl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.43A",
+      "text": "Durchlaufventil DN15",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.43B",
+      "text": "Durchlaufventil DN20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.43C",
+      "text": "Durchlaufventil DN25",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.43D",
+      "text": "Durchlaufventil DN32",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.43E",
+      "text": "Durchlaufventil DN40",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.43F",
+      "text": "Durchlaufventil DN50",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.44A",
+      "text": "Kugelhahn Mess.red.DN15",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.44B",
+      "text": "Kugelhahn Mess.red.DN20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.44C",
+      "text": "Kugelhahn Mess.red.DN25",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.44D",
+      "text": "Kugelhahn Mess.red.DN32",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.44E",
+      "text": "Kugelhahn Mess.red.DN40",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.44F",
+      "text": "Kugelhahn Mess.red.DN50",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.45A",
+      "text": "Kugelhahn Grauguss red.DN50",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.45B",
+      "text": "Kugelhahn Grauguss red.DN65",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.45C",
+      "text": "Kugelhahn Grauguss red.__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.46A",
+      "text": "Druckreduzierventil Mess.DN20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.46B",
+      "text": "Druckreduzierventil Mess.DN25",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.46C",
+      "text": "Druckreduzierventil Mess.DN32",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.46D",
+      "text": "Druckreduzierventil Mess.DN40",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.46E",
+      "text": "Druckreduzierventil Mess.DN50",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.47A",
+      "text": "Schmutzfänger Mess.DN15",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.47B",
+      "text": "Schmutzfänger Mess.DN20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.47C",
+      "text": "Schmutzfänger Mess.DN25",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.47D",
+      "text": "Schmutzfänger Mess.DN32",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.47E",
+      "text": "Schmutzfänger Mess.DN40",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.47F",
+      "text": "Schmutzfänger Mess.DN50",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.47G",
+      "text": "Schmutzfänger Mess.DN65",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.48A",
+      "text": "Gartenventil Mess.DN15",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.48B",
+      "text": "Gartenventil Mess.DN20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.48C",
+      "text": "Gartenventil Mess.DN25",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.49A",
+      "text": "Auslaufventil Mess.verch.DN15",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.49B",
+      "text": "Auslaufventil Mess.verch.DN20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.50A",
+      "text": "Schachtdeckel Guss 300",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.50B",
+      "text": "Schachtdeckel Guss",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.50.51A",
+      "text": "Rohrisolierung Korr.DN15                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.51B",
+      "text": "Rohrisolierung Korr.DN20                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.51C",
+      "text": "Rohrisolierung Korr.DN25                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.51D",
+      "text": "Rohrisolierung Korr.DN32                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.51E",
+      "text": "Rohrisolierung Korr.DN40                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.51F",
+      "text": "Rohrisolierung Korr.DN50                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.51G",
+      "text": "Rohrisolierung Korr.DN65                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.51H",
+      "text": "Rohrisolierung Korr.__________                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "59.50.52A",
+      "text": "Warnband                                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "59.51.00C",
+      "text": "Wählbare Vorbemerkungen ULG 59.51",
+      "unit": ""
+    },
+    {
+      "code": "59.51.01A",
+      "text": "Steuergerät hydr.b.5 Sekt.",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.01B",
+      "text": "Steuergerät hydr.b.8 Sekt.",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.01C",
+      "text": "Steuergerät hydr.b.12 Sekt.",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.01D",
+      "text": "Steuergerät hydr.b.20 Sekt.",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.01E",
+      "text": "Steuergerät hydr.__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.02A",
+      "text": "Steuerventil hydr.20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.02B",
+      "text": "Steuerventil hydr.25",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.02C",
+      "text": "Steuerventil hydr.32",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.02D",
+      "text": "Steuerventil hydr.40",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.02E",
+      "text": "Steuerventil hydr.__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.03A",
+      "text": "PE-Rohr 10x2                                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "59.51.03B",
+      "text": "PE-Rohr__________                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "59.51.04A",
+      "text": "Steuerger.elektr.b.5 Sekt.",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.04B",
+      "text": "Steuerger.elektr.b.8 Sekt.",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.04C",
+      "text": "Steuerger.elektr.b.12 Sekt.",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.04D",
+      "text": "Steuerger.elektr.b.20 Sekt.",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.04E",
+      "text": "Steuergerät elektr.__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.05A",
+      "text": "Steuerventil elektr.20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.05B",
+      "text": "Steuerventil elektr.25",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.05C",
+      "text": "Steuerventil elektr.32",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.05D",
+      "text": "Steuerventil elektr.40",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.05E",
+      "text": "Steuerventil elektr.__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.06A",
+      "text": "Magnetventil 20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.06B",
+      "text": "Magnetventil 25",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.06C",
+      "text": "Magnetventil 32",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.06D",
+      "text": "Magnetventil 40",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.06E",
+      "text": "Magnetventil 50",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.07A",
+      "text": "Magnetventil__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.08A",
+      "text": "Feuchtefühler",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.09A",
+      "text": "Entleerungsventil 15",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.10A",
+      "text": "Ventilkasten Kst.",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.11A",
+      "text": "Verteiler",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.12A",
+      "text": "Filter 20mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.12B",
+      "text": "Filter 25mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.12C",
+      "text": "Filter 32mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.12D",
+      "text": "Filter__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.21A",
+      "text": "Sprühdüse Kst.",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.21B",
+      "text": "Sprühdüse",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.22A",
+      "text": "Versenksprühregner b.4m",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.23A",
+      "text": "Versenkregner VK 11m 2,5bar",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.23B",
+      "text": "Versenkregner TK 11m 2,5bar",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.23C",
+      "text": "Versenkregner VK 14m 3,5bar",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.23D",
+      "text": "Versenkregner TK 14m 3,5bar",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.23E",
+      "text": "Versenkregner VK 17m 3,5bar",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.23F",
+      "text": "Versenkregner TK 17m 3,5bar",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.23G",
+      "text": "Versenkregner VK 20m 5bar",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.23H",
+      "text": "Versenkregner TK 20m 5bar",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.23K",
+      "text": "Versenkregner VK 25m 5bar",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.23L",
+      "text": "Versenkregner TK 25m 5bar",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.23M",
+      "text": "Versenkregner VK 30m 5bar",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.23N",
+      "text": "Versenkregner TK 30m 5bar",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.23O",
+      "text": "Versenkregner__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.24A",
+      "text": "Az Steuerventil eingebaut",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.25A",
+      "text": "Az Einbau elastisch",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.41A",
+      "text": "PE-Rohr Tropfberegnung 16x1,2                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "59.51.41B",
+      "text": "PE-Rohr Tropfberegnung 20x1,5                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "59.51.42A",
+      "text": "Tropfer aus Kunststoff",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.43A",
+      "text": "Anschluss f.Tropferrohr",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.44A",
+      "text": "T-Anschluss f.Tropferrohr",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.45A",
+      "text": "Endkappe",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.51A",
+      "text": "Schlauchkupplung 15",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.51B",
+      "text": "Schlauchkupplung 20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.52A",
+      "text": "Gartenschlauch Kst.15                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "59.51.52B",
+      "text": "Gartenschlauch Kst.20                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "59.51.52C",
+      "text": "Gartenschlauch Kst.25                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "59.51.53A",
+      "text": "Gartenschlauch PVC-Gewebe 15                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "59.51.53B",
+      "text": "Gartenschlauch PVC-Gewebe 20                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "59.51.53C",
+      "text": "Gartenschlauch PVC-Gewebe 25                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "59.51.54A",
+      "text": "Strahlrohr 15",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.54B",
+      "text": "Strahlrohr 20",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.51.54C",
+      "text": "Strahlrohr 25",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.52.00C",
+      "text": "Wählbare Vorbemerkungen ULG 59.52",
+      "unit": ""
+    },
+    {
+      "code": "59.52.01A",
+      "text": "KS-Rohr MS-SB DN50 sw                                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "59.52.01B",
+      "text": "KS-Rohr MS-SB DN63 sw                                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "59.52.01C",
+      "text": "KS-Rohr MS-SB DN75 sw                                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "59.52.01D",
+      "text": "KS-Rohr MS-SB DN90 sw                                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "59.52.01E",
+      "text": "KS-Rohr MS-SB DN110 sw                                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "59.52.01F",
+      "text": "KS-Rohr MS-SB DN125 sw                                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "59.52.01G",
+      "text": "KS-Rohr MS-SB DN140 sw                                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "59.52.01H",
+      "text": "KS-Rohr MS-SB DN160 sw                                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "59.52.02A",
+      "text": "Az Richtungsänderung DN50",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.52.02B",
+      "text": "Az Richtungsänderung DN63",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.52.02C",
+      "text": "Az Richtungsänderung DN75",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.52.02D",
+      "text": "Az Richtungsänderung DN90",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.52.02E",
+      "text": "Az Richtungsänderung DN110",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.52.02F",
+      "text": "Az Richtungsänderung DN125",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.52.02G",
+      "text": "Az Richtungsänderung DN140",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.52.02H",
+      "text": "Az Richtungsänderung DN160",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.52.03A",
+      "text": "KS-Rohr MS-SB DN50 sw flex.                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "59.52.03B",
+      "text": "KS-Rohr MS-SB DN65 sw flex.                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "59.52.03C",
+      "text": "KS-Rohr MS-SB DN80 sw flex.                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "59.52.03D",
+      "text": "KS-Rohr MS-SB DN100 sw flex.                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "59.52.03E",
+      "text": "KS-Rohr MS-SB DN125 sw flex.                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "59.52.03F",
+      "text": "KS-Rohr MS-SB DN160 sw flex.                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "59.52.03G",
+      "text": "KS-Rohr MS-SB DN200 sw flex.                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "59.60.00C",
+      "text": "Sprung- und Wurfanlagen",
+      "unit": ""
+    },
+    {
+      "code": "59.60.01A",
+      "text": "Weitsprunggrube 9x2,75m",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.60.01B",
+      "text": "Weitsprunggrube 8x2,75m",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.60.01C",
+      "text": "Weitsprunggrube",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.60.02A",
+      "text": "Rahmen 122x34x10cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.60.02B",
+      "text": "Rahmen 122x20x10cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.60.03A",
+      "text": "Absprungbalken Kst.122x34cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.60.03B",
+      "text": "Absprungbalken Holz 122x34cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.60.03C",
+      "text": "Absprungbalken 122x34cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.60.04A",
+      "text": "Absprungbalken Kst.122x20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.60.04B",
+      "text": "Absprungbalken Holz 122x20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.60.04C",
+      "text": "Absprungbalken 122x20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.60.05A",
+      "text": "Blindbalken 122x34cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.60.06A",
+      "text": "Einlagebrett m.Plastilin",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.60.06B",
+      "text": "Einlagebrett ohne Plastilin",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.60.10A",
+      "text": "Sandfangrinne 500/175                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "59.61.01A",
+      "text": "Hochsprungständer Alu.2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.01B",
+      "text": "Hochsprungständer Alu.2,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.01C",
+      "text": "Hochsprungständer",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.03A",
+      "text": "Hochsprungmatte massiv 5x3m",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.03B",
+      "text": "Hochsprungmatte massiv 6x3m",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.03C",
+      "text": "Hochsprungmatte Hohlk.5x3m",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.03D",
+      "text": "Hochsprungmatte Hohlk.6x3m",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.03E",
+      "text": "Hochsprungmatte",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.04A",
+      "text": "Sprunglatte Alu.4m",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.04B",
+      "text": "Sprunglatte Glasfiber 4m",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.04C",
+      "text": "Sprunglatte Glasfiber 4,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.04D",
+      "text": "Sprunglatte",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.05A",
+      "text": "Stabhochsprungständer einfach",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.06A",
+      "text": "Stabhochsprungständer Kurbel",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.07A",
+      "text": "Fundament f.Stabhoch.",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.08A",
+      "text": "Stabhochsprungmatte 5x5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.08B",
+      "text": "Stabhochsprungmatte 6x5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.08C",
+      "text": "Stabhochsprungmatte",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.09A",
+      "text": "Einstichkasten verzinkt",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.09B",
+      "text": "Einstichkasten Alu",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.09C",
+      "text": "Einstichkasten",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.10A",
+      "text": "Sprunglatte Stabhoch GFK",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.61.11A",
+      "text": "Rost aus Holz",
+      "unit": "m²"
+    },
+    {
+      "code": "59.61.11B",
+      "text": "Rost verzinkt",
+      "unit": "m²"
+    },
+    {
+      "code": "59.61.11C",
+      "text": "Rost Alu",
+      "unit": "m²"
+    },
+    {
+      "code": "59.61.11D",
+      "text": "Rost",
+      "unit": "m²"
+    },
+    {
+      "code": "59.62.01A",
+      "text": "Wassergraben Hindernisbahn",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.62.02A",
+      "text": "Bodenmatte Kokos",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.62.02B",
+      "text": "Bodenmatte",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.62.04A",
+      "text": "Abdeckung Wassergraben Alu",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.62.04B",
+      "text": "Abdeckg.Wassergraben Alu m.KS",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.62.04C",
+      "text": "Abdeckung Wassergraben",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.62.08A",
+      "text": "Hindernislaufhürde",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.62.08B",
+      "text": "Hindernislaufhürde Satz                                                                                      VE",
+      "unit": ""
+    },
+    {
+      "code": "59.62.09A",
+      "text": "Hürde - Wassergraben",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.63.01A",
+      "text": "Kugelstoßfläche rund",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.63.01B",
+      "text": "Kugelstoßfläche quadratisch",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.63.01C",
+      "text": "Diskuswurffläche rund",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.63.01D",
+      "text": "Diskuswurffläche quadratisch",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.63.02A",
+      "text": "Wurf-,Stoßflächen",
+      "unit": "m²"
+    },
+    {
+      "code": "59.63.03A",
+      "text": "Az Kugelstoßfläche",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.63.03B",
+      "text": "Az Diskuswurffläche",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.63.04A",
+      "text": "Az Farbe Kugelstoßfläche",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.63.04B",
+      "text": "Az Farbe Diskuswurffläche",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.63.05A",
+      "text": "Reduktionseinlage GFK",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.63.06A",
+      "text": "Abstoßbalken Kugel Holz",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.63.06B",
+      "text": "Abstoßbalken Kugel GFK",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.63.07A",
+      "text": "Auffallfläche Kugel",
+      "unit": "m²"
+    },
+    {
+      "code": "59.63.09A",
+      "text": "Abwurfbogen Speer",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.63.10A",
+      "text": "Schutzgitter Diskuswurf",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.63.11A",
+      "text": "Schutzgitter Hammerwurf",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.70.01A",
+      "text": "Fußballtor fest 7,32x2,44m                                                                                   VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.01B",
+      "text": "Fußballtor steckb.7,32x2,44m                                                                                 VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.01C",
+      "text": "Fußballtor 7,32x2,44m                                                                                        VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.02A",
+      "text": "Fußballnetz PE-Schnur 3mm                                                                                    VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.02B",
+      "text": "Fußballnetz PE-Schnur 4mm                                                                                    VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.03A",
+      "text": "Jugendtor fest 5x2m                                                                                          VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.03B",
+      "text": "Jugendtor steckbar 5x2m                                                                                      VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.03C",
+      "text": "Jugendtor 5x2m                                                                                               VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.04A",
+      "text": "Jugendnetz PE-Schnur 3mm                                                                                     VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.04B",
+      "text": "Jugendnetz PE-Schnur 4mm                                                                                     VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.05A",
+      "text": "Kleinfeldtor fest 3x2m                                                                                       VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.05B",
+      "text": "Kleinfeldtor einsteckb.3x2m                                                                                  VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.05C",
+      "text": "Kleinfeldtor 3x2m                                                                                            VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.06A",
+      "text": "Kleinnetz PE-Schnur 3mm                                                                                      VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.06B",
+      "text": "Kleinnetz PE-Schnur 4mm                                                                                      VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.07A",
+      "text": "Netz 7,32x2,44m                                                                                              VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.07B",
+      "text": "Netz 5x2m                                                                                                    VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.07C",
+      "text": "Netz 3x2m                                                                                                    VE",
+      "unit": ""
+    },
+    {
+      "code": "59.70.08A",
+      "text": "Bodenhülse KS m.Deckel",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.70.08B",
+      "text": "Bodenhülse Alu m.Kasten",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.70.08C",
+      "text": "Bodenhülse m.Deckel",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.71.01A",
+      "text": "Volleyballsäul.Alu 100x115x2,5                                                                               VE",
+      "unit": ""
+    },
+    {
+      "code": "59.71.01B",
+      "text": "Volleyballsäulen Alu.80x80mm                                                                                 VE",
+      "unit": ""
+    },
+    {
+      "code": "59.71.01C",
+      "text": "Volleyballsäulen                                                                                             VE",
+      "unit": ""
+    },
+    {
+      "code": "59.71.02A",
+      "text": "Volleyballnetz PE 2mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.71.02B",
+      "text": "Volleyballnetz PE 3mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.71.02C",
+      "text": "Volleyballnetz",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.71.03A",
+      "text": "Az Volleyball-Antennen                                                                                       VE",
+      "unit": ""
+    },
+    {
+      "code": "59.72.01A",
+      "text": "Basketballanl.fest 165cm                                                                                     VE",
+      "unit": ""
+    },
+    {
+      "code": "59.72.01B",
+      "text": "Basketballanl.fest 225cm                                                                                     VE",
+      "unit": ""
+    },
+    {
+      "code": "59.72.01C",
+      "text": "Basketballanl.steckb.165cm                                                                                   VE",
+      "unit": ""
+    },
+    {
+      "code": "59.72.01D",
+      "text": "Basketballanl.steckb.225cm                                                                                   VE",
+      "unit": ""
+    },
+    {
+      "code": "59.72.01E",
+      "text": "Basketballanlage                                                                                            VE",
+      "unit": ""
+    },
+    {
+      "code": "59.72.02A",
+      "text": "Basketballbrett lack.120x180cm                                                                              VE",
+      "unit": ""
+    },
+    {
+      "code": "59.72.02B",
+      "text": "Basketballbrett GFK 120x180cm                                                                               VE",
+      "unit": ""
+    },
+    {
+      "code": "59.72.02C",
+      "text": "Basketballbrett                                                                                             VE",
+      "unit": ""
+    },
+    {
+      "code": "59.72.03A",
+      "text": "Basketballkorb Stahl m.Netz                                                                                 VE",
+      "unit": ""
+    },
+    {
+      "code": "59.72.03B",
+      "text": "Basketballkorb                                                                                              VE",
+      "unit": ""
+    },
+    {
+      "code": "59.73.01A",
+      "text": "Tennisständer Alu.Prof.                                                                                     VE",
+      "unit": ""
+    },
+    {
+      "code": "59.73.01B",
+      "text": "Tennisständer Stahlrohr                                                                                     VE",
+      "unit": ""
+    },
+    {
+      "code": "59.73.01C",
+      "text": "Tennisständer                                                                                               VE",
+      "unit": ""
+    },
+    {
+      "code": "59.73.02A",
+      "text": "Tennisnetz PE 2,2mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.73.02B",
+      "text": "Tennisnetz",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.73.03A",
+      "text": "Singlestützen Holz                                                                                          VE",
+      "unit": ""
+    },
+    {
+      "code": "59.73.03B",
+      "text": "Singlestützen Stahl                                                                                         VE",
+      "unit": ""
+    },
+    {
+      "code": "59.74.01A",
+      "text": "Feldhockeytor Alu                                                                                            VE",
+      "unit": ""
+    },
+    {
+      "code": "59.74.02A",
+      "text": "Feldhockeytor                                                                                                VE",
+      "unit": ""
+    },
+    {
+      "code": "59.74.03A",
+      "text": "Hockeytornetz PE 3mm                                                                                         VE",
+      "unit": ""
+    },
+    {
+      "code": "59.74.03B",
+      "text": "Hockeytornetz                                                                                                VE",
+      "unit": ""
+    },
+    {
+      "code": "59.75.01A",
+      "text": "Rugbytor Alu                                                                                                 VE",
+      "unit": ""
+    },
+    {
+      "code": "59.75.02A",
+      "text": "Rugbytor                                                                                                     VE",
+      "unit": ""
+    },
+    {
+      "code": "59.75.03A",
+      "text": "Footballtor Alu                                                                                              VE",
+      "unit": ""
+    },
+    {
+      "code": "59.75.04A",
+      "text": "Footballtor                                                                                                  VE",
+      "unit": ""
+    },
+    {
+      "code": "59.76.01A",
+      "text": "Mehrzweckanlagen Alu                                                                                         VE",
+      "unit": ""
+    },
+    {
+      "code": "59.76.02A",
+      "text": "Mehrzweckanlage                                                                                              VE",
+      "unit": ""
+    },
+    {
+      "code": "59.78.01A",
+      "text": "PE-Netz 45/2",
+      "unit": "m²"
+    },
+    {
+      "code": "59.78.01B",
+      "text": "PE-Netz 45/3",
+      "unit": "m²"
+    },
+    {
+      "code": "59.78.01C",
+      "text": "PE-Netz 45/4",
+      "unit": "m²"
+    },
+    {
+      "code": "59.78.01D",
+      "text": "PE-Netz 100/2",
+      "unit": "m²"
+    },
+    {
+      "code": "59.78.01E",
+      "text": "PE-Netz 100/3",
+      "unit": "m²"
+    },
+    {
+      "code": "59.78.01F",
+      "text": "PE-Netz 100/4",
+      "unit": "m²"
+    },
+    {
+      "code": "59.78.02A",
+      "text": "Kunstfaser-Netz 45/2",
+      "unit": "m²"
+    },
+    {
+      "code": "59.78.02B",
+      "text": "Kunstfaser-Netz 45/3",
+      "unit": "m²"
+    },
+    {
+      "code": "59.78.02C",
+      "text": "Kunstfaser-Netz 45/4",
+      "unit": "m²"
+    },
+    {
+      "code": "59.78.02D",
+      "text": "Kunstfaser-Netz 100/2",
+      "unit": "m²"
+    },
+    {
+      "code": "59.78.02E",
+      "text": "Kunstfaser-Netz 100/3",
+      "unit": "m²"
+    },
+    {
+      "code": "59.78.02F",
+      "text": "Kunstfaser-Netz 100/4",
+      "unit": "m²"
+    },
+    {
+      "code": "59.78.03A",
+      "text": "Bleibeschwerung 200g/m                                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "59.78.03B",
+      "text": "Bleibeschwerung 400 g/m                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "59.78.04A",
+      "text": "Einfassung Fangnetz                                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "59.78.05A",
+      "text": "Stahlseil verzinkt                                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "59.78.06A",
+      "text": "Spannschloss",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.78.07A",
+      "text": "Karabinerhaken",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.78.08A",
+      "text": "Stahlring",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.78.09A",
+      "text": "St.Bodenhülse 80/80/350",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.78.09B",
+      "text": "St.Bodenhülse 100/115/400",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.78.09C",
+      "text": "St.Bodenhülse 100/115/500",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.78.09D",
+      "text": "St.Bodenhülse 100/115/800",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.78.10A",
+      "text": "Systembodenhülse",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.78.15A",
+      "text": "Deckel f.Kunststoffbeläge",
+      "unit": "Stk"
+    },
+    {
+      "code": "59.80.01A",
+      "text": "Güteprüfung - Rasenflächen                                                                                       PA",
+      "unit": ""
+    },
+    {
+      "code": "59.80.01B",
+      "text": "Güteprüfung - Tennenflächen                                                                                      PA",
+      "unit": ""
+    },
+    {
+      "code": "59.80.01C",
+      "text": "Güteprüfung - Kunststofffl.                                                                                      PA",
+      "unit": ""
+    },
+    {
+      "code": "59.80.01D",
+      "text": "Güteprüfung - Kunstrasenfl.                                                                                      PA",
+      "unit": ""
+    },
+    {
+      "code": "59.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "59.90.01A",
+      "text": "Regiestunden Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "59.90.01B",
+      "text": "Regiestunden Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

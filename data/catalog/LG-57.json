@@ -1,0 +1,601 @@
+{
+  "lg": "57",
+  "title": "Bewegliche Abschlüsse von Fenster/Türen",
+  "positions": [
+    {
+      "code": "57.00.00A",
+      "text": "Art / Ausführung von Lamellen",
+      "unit": ""
+    },
+    {
+      "code": "57.00.00B",
+      "text": "Montagebedingungen Außenjalousien",
+      "unit": ""
+    },
+    {
+      "code": "57.00.00C",
+      "text": "Bedienbarkeit / Ansteuerung beweglicher Abschlüsse",
+      "unit": ""
+    },
+    {
+      "code": "57.00.00H",
+      "text": "Montagebeding.E-Rolllad.manuell",
+      "unit": ""
+    },
+    {
+      "code": "57.00.00K",
+      "text": "Montagebeding.E-Rollllad.Motor",
+      "unit": ""
+    },
+    {
+      "code": "57.00.00M",
+      "text": "Montagebeding.Vorsatzr.manuell",
+      "unit": ""
+    },
+    {
+      "code": "57.00.00N",
+      "text": "Montagebeding.Vorsatzr.Motor",
+      "unit": ""
+    },
+    {
+      "code": "57.00.00O",
+      "text": "Montagebeding.Fassadenm.Kurbel",
+      "unit": ""
+    },
+    {
+      "code": "57.00.00P",
+      "text": "Montagebeding.Fassadenm.Motor",
+      "unit": ""
+    },
+    {
+      "code": "57.00.00Z",
+      "text": "Bohrung, Abdichtung und Kabelführung",
+      "unit": ""
+    },
+    {
+      "code": "57.01.01A",
+      "text": "Selbstroll.Stahlfeder (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.01.02A",
+      "text": "Selbstroll.Endloszug (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.01.03A",
+      "text": "Selbstroll. Endloszug e-Motor (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.01.99A",
+      "text": "Az Innenrollos Farbe RAL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.02.01A",
+      "text": "ZIP-Selbstroll.Stahlfeder (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.02.02A",
+      "text": "ZIP-Selbstroll.Endloszug (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.02.03A",
+      "text": "ZIP-Selbstroll. Endloszug e-Motor (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.02.61B",
+      "text": "Steuereinheit für Sonnen-/Windsensoren - Wetterschutzrollos                                                   PA",
+      "unit": ""
+    },
+    {
+      "code": "57.02.62A",
+      "text": "Sensoren mit Funkanbindung f. Wind/Sonne b.ZIP-Selbstroll.",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.02.66A",
+      "text": "Az ZIP-Wettersch.f. Windsicherung m. Seilführung",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.02.66B",
+      "text": "Az ZIP-Wettersch.f. Windsicherung m. Schienen",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.02.66C",
+      "text": "Az ZIP-Wettersch.f. Windsicherung m. Blenden",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.02.99A",
+      "text": "Az Wetterschutzrollos Farbe RAL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.03.01A",
+      "text": "I-Jalous. Schnur.frei häng.(BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.03.02A",
+      "text": "I-Jalous. Endl.frei häng. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.03.03A",
+      "text": "I-Jalous. Kurb.frei häng. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.03.04A",
+      "text": "I-Jalous. Kurb+Seilf. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.03.05A",
+      "text": "I-Jalous.Motor frei häng. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.03.99A",
+      "text": "Az Innenjalousie Farbe RAL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.04.01A",
+      "text": "A-Jal.flex. 50mm Schn. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.04.03A",
+      "text": "A-Jal.flex. 50mm Endl. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.04.05A",
+      "text": "A-Jal.flex. 50mm Kurb. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.04.07A",
+      "text": "A-Jal.flex. 50mm Mot. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.04.09A",
+      "text": "A-Jal.flex. 50mm Solar (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.04.11A",
+      "text": "A-Jal.flex. 80mm Schn. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.04.13A",
+      "text": "A-Jal.flex. 80mm Endl. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.04.15A",
+      "text": "A-Jal.flex. 80mm Kurb. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.04.17A",
+      "text": "A-Jal.flex. 80mm Mot. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.04.19A",
+      "text": "A-Jal.flex. 80mm Solar (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.04.61B",
+      "text": "Steuereinheit für Sonnen-/Windsensoren - A-Jal.flex.                                                           PA",
+      "unit": ""
+    },
+    {
+      "code": "57.04.62A",
+      "text": "Senoren mit Funkanbindung f. Wind/Sonne b. A-Jal.flex.",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.04.66A",
+      "text": "Az A-Jal.flex.f. Windsicherung m. Seilführung",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.04.66B",
+      "text": "Az A-Jal.flex.f. Windsicherung m. Schienen",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.04.66C",
+      "text": "Az A-Jal.flex.f. Windsicherung m. Blenden",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.04.99A",
+      "text": "Az A-Jal.flex. Farbe RAL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.01A",
+      "text": "A-Jal.rdg. 80mm horizontal Schn. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.03A",
+      "text": "A-Jal.rdg. 80mm horizontal Endl. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.05A",
+      "text": "A-Jal.rdg. 80mm horizontal Kurb. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.07A",
+      "text": "A-Jal.rdg. 80mm horizontal Mot. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.09A",
+      "text": "A-Jal.rdg. 80mm horizontal Solar (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.11A",
+      "text": "A-Jal.rdg. 90mm horizontal Schn. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.13A",
+      "text": "A-Jal.rdg. 90mm horizontal Endl. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.15A",
+      "text": "A-Jal.rdg. 90mm horizontal Kurb. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.17A",
+      "text": "A-Jal.rdg. 90mm horizontal Mot. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.19A",
+      "text": "A-Jal.rdg. 90mm horizontal Solar (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.21A",
+      "text": "A-Jal.rdg. 80mm vertikal Schn. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.23A",
+      "text": "A-Jal.rdg. 80mm vertikal Endl. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.25A",
+      "text": "A-Jal.rdg. 80mm vertikal Kurb. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.27A",
+      "text": "A-Jal.rdg. 80mm vertikal Mot. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.29A",
+      "text": "A-Jal.rdg. 80mm vertikal Solar (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.31A",
+      "text": "A-Jal.rdg. 90mm vertikal Schn. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.53A",
+      "text": "A-Jal.rdg. 90mm vertikal Endl. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.55A",
+      "text": "A-Jal.rdg. 90mm vertikal Kurb. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.57A",
+      "text": "A-Jal.rdg. 90mm vertikal Mot. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.59A",
+      "text": "A-Jal.rdg. 90mm vertikal Solar (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.61B",
+      "text": "Steuereinheit für Sonnen-/Windsensoren - A-Jal.rdg.                                                                 PA",
+      "unit": ""
+    },
+    {
+      "code": "57.05.62A",
+      "text": "Senoren mit Funkanbindung f. Wind/Sonne b. A-Jal.rdg.",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.66A",
+      "text": "Az A-Jal.rdg.f. Windsicherung m. Seilführung",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.66B",
+      "text": "Az A-Jal.rdg.f. Windsicherung m. Schienen",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.66C",
+      "text": "Az A-Jal.rdg.f. Windsicherung m. Blenden",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.05.99A",
+      "text": "Az A-Jal.rdg. Farbe RAL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.05A",
+      "text": "A-Jal.G-met. 80mm horizontal Kurb. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.07A",
+      "text": "A-Jal.G-met. 80mm horizontal Mot. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.09A",
+      "text": "A-Jal.G-met. 80mm horizontal Solar (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.15A",
+      "text": "A-Jal.G-met. 100mm horizontal Kurb. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.17A",
+      "text": "A-Jal.G-met. 100mm horizontal Mot. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.19A",
+      "text": "A-Jal.G-met. 100mm horizontal Solar (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.25A",
+      "text": "A-Jal.G-met. 80mm vertikal Kurb. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.27A",
+      "text": "A-Jal.G-met. 80mm vertikal Mot. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.29A",
+      "text": "A-Jal.G-met. 80mm vertikal Solar (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.35A",
+      "text": "A-Jal.G-met. 100mm vertikal Kurb. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.37A",
+      "text": "A-Jal.G-met. 100mm vertikal Mot. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.39A",
+      "text": "A-Jal.G-met. 100mm vertikal Solar (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.61B",
+      "text": "Steuereinheit für Sonnen-/Windsensoren - A-Jal.G-met.                                                     PA",
+      "unit": ""
+    },
+    {
+      "code": "57.06.62A",
+      "text": "Senoren mit Funkanbindung f. Wind/Sonne b. A-Jal.G-met.",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.66A",
+      "text": "Az A-Jal.G-met.f. Windsicherung m. Seilführung",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.66B",
+      "text": "Az A-Jal.G-met.f. Windsicherung m. Schienen",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.66C",
+      "text": "Az A-Jal.G-met.f. Windsicherung m. Blenden",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.06.99A",
+      "text": "Az A-Jal.G-met. Farbe RAL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.09.01A",
+      "text": "Einbaukasten selbsttragend",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.09.02A",
+      "text": "Einbaukasten am Sturz/Leibung",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.09.05A",
+      "text": "Rollladen Gurt Kunstst (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.09.06A",
+      "text": "Rollladen Gurt Alu (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.09.10A",
+      "text": "Rollladen Kurb.Kunstst. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.09.11A",
+      "text": "Rollladen Kurb.Alu (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.09.15A",
+      "text": "Rollladen Mot.Kunstst. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.09.16A",
+      "text": "Rollladen Mot.Alu (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.09.99A",
+      "text": "Az E-Rollladen Farbe RAL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.10.01A",
+      "text": "Vorsatzroll.Gurt Ku. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.10.02A",
+      "text": "Vorsatzroll.Gurt Al. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.10.06A",
+      "text": "Vorsatzroll.Kurb.Ku. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.10.07A",
+      "text": "Vorsatzroll.Kurb.Al. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.10.11A",
+      "text": "Vorsatzroll.Mot.Ku. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.10.12A",
+      "text": "Vorsatzroll.Mot.Al. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.10.15A",
+      "text": "Vorsatzroll.Solar Ku. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.10.16A",
+      "text": "Vorsatzroll.Solar Al. (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.10.99A",
+      "text": "Az Vorsatzroll. Farbe RAL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.16.01C",
+      "text": "ZIP-Senkr.-mark.Tuch Kurbel m.Abd.eckig (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.16.01D",
+      "text": "ZIP-Senkr.-mark.Tuch Kurbel m.Abd.rund (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.16.03C",
+      "text": "ZIP-Senkr.-mark.Gitt.Kurbel m.Abd.eckig (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.16.03D",
+      "text": "ZIP-Senkr.-mark.Gitt.Kurbel m.Abd.rund (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.16.05C",
+      "text": "ZIP-Senkr.-mark.Tuch Motor m.Abd.eckig (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.16.05D",
+      "text": "ZIP-Senkr.-mark.Tuch Motor m.Abd.rund (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.16.07C",
+      "text": "ZIP-Senkr.-mark.Gitt.Motor m.Abd.eckig (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.16.07D",
+      "text": "ZIP-Senkr.-mark.Gitt.Motor m.Abd.rund (BxH):__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.16.99A",
+      "text": "Az ZIP-Senkr.-mark. Farbe RAL__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "57.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "57.90.01A",
+      "text": "Regiestunden Monteur",
+      "unit": "h"
+    },
+    {
+      "code": "57.90.01B",
+      "text": "Regiestunden Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "lg": "09",
+  "title": "Versetzarbeiten",
+  "positions": [
+    {
+      "code": "09.22.02A",
+      "text": "Winkelrahmen versetzen",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.00.00V",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "09.01.01A",
+      "text": "Brandschutz-Luke EI2 30-C 700x800mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.01.03A",
+      "text": "Brandschutztürelement EI2 30-C 800x1200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.01.05A",
+      "text": "Brandschutztürelement EI2 30-C b.900x2000mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.01.05B",
+      "text": "Brandschutztürelement EI2 30-C b.1200x2000mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.01.11A",
+      "text": "Brandschutz-Luke EI2 90-C 700x800mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.01.13A",
+      "text": "Brandschutztürelement EI2 90-C 800x1200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.01.15A",
+      "text": "Brandschutztürelement EI2 90-C b.900x2000mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.01.15B",
+      "text": "Brandschutztürelement EI2 90-C b.1200x2000mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.01.23A",
+      "text": "Az f.U-Zarge 200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.01.23B",
+      "text": "Az f.U-Zarge 250mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.01.23C",
+      "text": "Az f.U-Zarge 300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.02.21A",
+      "text": "Zarge Profilbreite 100mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.02.21B",
+      "text": "Zarge Profilbreite 120mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.02.21C",
+      "text": "Zarge Profilbreite 130mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.02.21D",
+      "text": "Zarge Profilbreite 145mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.02.21E",
+      "text": "Zarge Profilbreite 160mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.02.21F",
+      "text": "Zarge Profilbreite 170mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.02.22A",
+      "text": "Zarge Eckzarge",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.03A",
+      "text": "Versetzen St-EZ mitgem.EI2 30 b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.03B",
+      "text": "Versetzen St-EZ nachtr.EI2 30 b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.03C",
+      "text": "Versetzen St-EZ einbet.EI2 30 b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.04A",
+      "text": "Versetzen St-UZ mitgem.EI2 30 b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.04B",
+      "text": "Versetzen St-UZ nachtr.EI2 30 b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.04C",
+      "text": "Versetzen St-UZ einbet.EI2 30 b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.05A",
+      "text": "Versetzen St-EZ mitgem.EI2 90 b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.05B",
+      "text": "Versetzen St-EZ nachtr.EI2 90 b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.05C",
+      "text": "Versetzen St-EZ einbet.EI2 90 b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.06A",
+      "text": "Versetzen St-UZ mitgem.EI2 90 b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.06B",
+      "text": "Versetzen St-UZ nachtr.EI2 90 b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.06C",
+      "text": "Versetzen St-UZ einbet.EI2 90 b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.13A",
+      "text": "Versetzen St-EZ mitgem.EI2 30 ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.13B",
+      "text": "Versetzen St-EZ nachtr.EI2 30 ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.13C",
+      "text": "Versetzen St-EZ einbet.EI2 30 ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.14A",
+      "text": "Versetzen St-UZ mitgem.EI2 30 ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.14B",
+      "text": "Versetzen St-UZ nachtr.EI2 30 ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.14C",
+      "text": "Versetzen St-UZ einbet.EI2 30 ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.15A",
+      "text": "Versetzen St-EZ mitgem.EI2 90 ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.15B",
+      "text": "Versetzen St-EZ nachtr.EI2 90 ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.15C",
+      "text": "Versetzen St-EZ einbet.EI2 90 ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.16A",
+      "text": "Versetzen St-UZ mitgem.EI2 90 ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.16B",
+      "text": "Versetzen St-UZ nachtr.EI2 90 ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.11.16C",
+      "text": "Versetzen St-UZ einbet.EI2 90 ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.12.01A",
+      "text": "Versetzen St-EZ mitgem.b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.12.01B",
+      "text": "Versetzen St-EZ nachtr.b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.12.01C",
+      "text": "Versetzen St-EZ einbet.b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.12.02A",
+      "text": "Versetzen St-UZ mitgem.b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.12.02B",
+      "text": "Versetzen St-UZ nachtr.b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.12.02C",
+      "text": "Versetzen St-UZ einbet.b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.12.11A",
+      "text": "Versetzen St-EZ mitgem.ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.12.11B",
+      "text": "Versetzen St-EZ nachtr.ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.12.11C",
+      "text": "Versetzen St-EZ einbet.ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.12.12A",
+      "text": "Versetzen St-UZ mitgem.ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.12.12B",
+      "text": "Versetzen St-UZ nachtr.ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.12.12C",
+      "text": "Versetzen St-UZ einbet.ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.21.01A",
+      "text": "Ke-fe+Leib.Kipp+Lochg.50x50",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.21.01B",
+      "text": "Ke-fe+Leib.Kipp+Lochg.80x50",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.21.01E",
+      "text": "Ke-fe+Leib.2Fl+Lochg.80x50",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.21.01F",
+      "text": "Ke-fe+Leib.2Fl+Lochg.100x50",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.21.02A",
+      "text": "Kellerlichtsch.GFK+Gitterrost b.100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.21.02B",
+      "text": "Kellerlichtsch.GFK+Streckmetall b.100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.21.02C",
+      "text": "Kellerlichtsch.GFK+Gitterrost ü.100-125cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.21.02D",
+      "text": "Kellerlichtsch.GFK+Streckmetall ü.100-125cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.21.05A",
+      "text": "Az Kellerlichtsch.GFK Entw.+Sieb",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.21.05B",
+      "text": "Az Kellerlichtsch.GFK Aufsatz b.100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.21.05C",
+      "text": "Az Kellerlichtsch.GFK Aufsatz ü.100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.21.11A",
+      "text": "Auflager 30x50x10 b.3,2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.21.13A",
+      "text": "Auflager 30x50x10 ü.3,2m:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.21.21A",
+      "text": "Stahlträger b.100kg b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "09.21.21B",
+      "text": "Stahlträger ü.100-200kg b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "09.21.21C",
+      "text": "Stahlträger ü.200-300kg b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "09.21.23A",
+      "text": "Stahlträger b.100 ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "09.21.23B",
+      "text": "Stahlträger ü.100-200kg ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "09.21.23C",
+      "text": "Stahlträger ü.200-300kg ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "09.21.31A",
+      "text": "Steigeisen gekr.Kst-besch.Mwk.",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.21.31B",
+      "text": "Steigeisen gekr.Kst-besch.Beton",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.22.01A",
+      "text": "Fußabstreiferg.außen versetzen b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.22.01B",
+      "text": "Fußabstreiferg.außen versetzen ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.22.11A",
+      "text": "Eckschutzwinkel OP versetzen Dübel                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "09.22.11B",
+      "text": "Eckschutzwinkel OP versetzen Pratzen                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "09.22.21A",
+      "text": "Gitter-Türchen versetzen b.20x20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.22.21B",
+      "text": "Gitter-Türchen versetzen b.40x40cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.22.31A",
+      "text": "Verteiler-Kasten versetzen b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.22.31B",
+      "text": "Verteiler-Kasten versetzen ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.22.31C",
+      "text": "Verteiler-Kasten versetzen 1-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.22.31D",
+      "text": "Verteiler-Kasten versetzen 2-3m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.22.41A",
+      "text": "Dachbodentreppe versetzen 80x150",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.22.51A",
+      "text": "Versetzen Keil-Hohlstufe b.1,5m                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "09.22.51B",
+      "text": "Versetzen Winkelstufe b.1,5m                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "09.22.51C",
+      "text": "Versetzen Trittstufenplatten                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "09.22.51D",
+      "text": "Versetzen Tritt+Setzstufenplatten                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "09.22.51E",
+      "text": "Versetzen Keil-Blockstufe b.1,5m                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "09.22.61A",
+      "text": "Setzungsmarken versetzen",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.22.62A",
+      "text": "Tafeln versetzen b.0,25m2 b.3,2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "09.31.41A",
+      "text": "Trennschichten bitu.Weichfaserpl.1cm",
+      "unit": "m²"
+    },
+    {
+      "code": "09.31.41B",
+      "text": "Trennschichten bitu.Weichfaserpl.2cm",
+      "unit": "m²"
+    },
+    {
+      "code": "09.31.45A",
+      "text": "Kompri.Band 15mm                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "09.31.45B",
+      "text": "Kompri.Band 20mm                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "09.31.45C",
+      "text": "Kompri.Band 25mm                                                                                           m",
+      "unit": ""
+    }
+  ]
+}

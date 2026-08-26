@@ -1,0 +1,2936 @@
+{
+  "lg": "65",
+  "title": "Toranlagen in Gebäuden",
+  "positions": [
+    {
+      "code": "65.00.01B",
+      "text": "Wartungskosten als Zuschlagkriterien",
+      "unit": ""
+    },
+    {
+      "code": "65.00.02A",
+      "text": "Ergänzende Angaben/Skizze",
+      "unit": ""
+    },
+    {
+      "code": "65.01.01A",
+      "text": "Drehflügeltor Alu 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.01C",
+      "text": "Drehflügeltor Alu 1-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.01D",
+      "text": "Drehflügeltor Alu 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.01E",
+      "text": "Drehflügeltor Alu 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.01F",
+      "text": "Drehflügeltor Alu 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.01X",
+      "text": "Drehflügeltor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.02A",
+      "text": "Drehflügeltor beschichtet RAL 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.02C",
+      "text": "Drehflügeltor RAL 1-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.02D",
+      "text": "Drehflügeltor RAL 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.02E",
+      "text": "Drehflügeltor RAL 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.02F",
+      "text": "Drehflügeltor RAL 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.02X",
+      "text": "Drehflügeltor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.03A",
+      "text": "Drehflügeltor Edelstahl 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.03C",
+      "text": "Drehflügeltor Edelstahl 1-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.03D",
+      "text": "Drehflügeltor Edelstahl 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.03E",
+      "text": "Drehflügeltor Edelstahl 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.03F",
+      "text": "Drehflügeltor Edelstahl 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.03X",
+      "text": "Drehflügeltor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.04A",
+      "text": "Hubtor Alu 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.04B",
+      "text": "Hubtor Alu 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.04C",
+      "text": "Hubtor Alu 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.04X",
+      "text": "Hubtor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.05A",
+      "text": "Hubtor RAL 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.05B",
+      "text": "Hubtor RAL 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.05C",
+      "text": "Hubtor RAL 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.05X",
+      "text": "Hubtor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.06A",
+      "text": "Hubtor Edelstahl 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.06B",
+      "text": "Hubtor Edelstahl 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.06C",
+      "text": "Hubtor Edelstahl 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.06X",
+      "text": "Hubtor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.11A",
+      "text": "Falttor Alu 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.11B",
+      "text": "Falttor Alu 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.11C",
+      "text": "Falttor Alu 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.11E",
+      "text": "Falttor Alu 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.11F",
+      "text": "Falttor Alu 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.11G",
+      "text": "Falttor Alu 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.11H",
+      "text": "Falttor Alu 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.11I",
+      "text": "Falttor Alu 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.11J",
+      "text": "Falttor Alu 3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.11K",
+      "text": "Falttor Alu 4-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.11L",
+      "text": "Falttor Alu 5-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.11X",
+      "text": "Falttor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.12A",
+      "text": "Falttor RAL 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.12B",
+      "text": "Falttor RAL 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.12C",
+      "text": "Falttor RAL 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.12E",
+      "text": "Falttor RAL 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.12F",
+      "text": "Falttor RAL 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.12G",
+      "text": "Falttor RAL 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.12H",
+      "text": "Falttor RAL 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.12I",
+      "text": "Falttor RAL 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.12J",
+      "text": "Falttor RAL 3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.12K",
+      "text": "Falttor RAL 4-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.12L",
+      "text": "Falttor RAL 5-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.12X",
+      "text": "Falttor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.13A",
+      "text": "Falttor Edelstahl 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.13B",
+      "text": "Falttor Edelstahl 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.13C",
+      "text": "Falttor Edelstahl 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.13E",
+      "text": "Falttor Edelstahl 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.13F",
+      "text": "Falttor Edelstahl 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.13G",
+      "text": "Falttor Edelstahl 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.13H",
+      "text": "Falttor Edelstahl 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.13I",
+      "text": "Falttor Edelstahl 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.13J",
+      "text": "Falttor Edelstahl 3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.13K",
+      "text": "Falttor Edelstahl 4-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.13L",
+      "text": "Falttor Edelstahl 5-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.13X",
+      "text": "Falttor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.15A",
+      "text": "Schiebefalttor Alu 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.15B",
+      "text": "Schiebefalttor Alu 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.15C",
+      "text": "Schiebefalttor Alu 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.15E",
+      "text": "Schiebefalttor Alu 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.15F",
+      "text": "Schiebefalttor Alu 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.15G",
+      "text": "Schiebefalttor Alu 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.15H",
+      "text": "Schiebefalttor Alu 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.15I",
+      "text": "Schiebefalttor Alu 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.15J",
+      "text": "Schiebefalttor Alu 3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.15K",
+      "text": "Schiebefalttor Alu 4-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.15L",
+      "text": "Schiebefalttor Alu 5-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.15X",
+      "text": "Schiebefalttor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.16A",
+      "text": "Schiebefalttor besch.RAL 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.16B",
+      "text": "Schiebefalttor RAL 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.16C",
+      "text": "Schiebefalttor RAL 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.16E",
+      "text": "Schiebefalttor RAL 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.16F",
+      "text": "Schiebefalttor RAL 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.16G",
+      "text": "Schiebefalttor RAL 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.16H",
+      "text": "Schiebefalttor RAL 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.16I",
+      "text": "Schiebefalttor RAL 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.16J",
+      "text": "Schiebefalttor RAL 3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.16K",
+      "text": "Schiebefalttor RAL 4-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.16L",
+      "text": "Schiebefalttor RAL 5-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.16X",
+      "text": "Schiebefalttor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.17A",
+      "text": "Schiebefalttor Edelstahl 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.17B",
+      "text": "Schiebefalttor Edelstahl 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.17C",
+      "text": "Schiebefalttor Edelstahl 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.17E",
+      "text": "Schiebefalttor Edelstahl 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.17F",
+      "text": "Schiebefalttor Edelstahl 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.17G",
+      "text": "Schiebefalttor Edelstahl 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.17H",
+      "text": "Schiebefalttor Edelstahl 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.17I",
+      "text": "Schiebefalttor Edelstahl 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.17J",
+      "text": "Schiebefalttor Edelstahl 3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.17K",
+      "text": "Schiebefalttor Edelstahl 4-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.17L",
+      "text": "Schiebefalttor Edelstahl 5-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.17X",
+      "text": "Schiebefalttor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.21A",
+      "text": "Schiebetor Alu 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.21B",
+      "text": "Schiebetor Alu 1-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.21C",
+      "text": "Schiebetor Alu 1-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.21D",
+      "text": "Schiebetor Alu 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.21E",
+      "text": "Schiebetor Alu 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.21F",
+      "text": "Schiebetor Alu 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.21X",
+      "text": "Schiebetor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.22A",
+      "text": "Schiebetor RAL 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.22B",
+      "text": "Schiebetor RAL 1-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.22C",
+      "text": "Schiebetor RAL 1-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.22D",
+      "text": "Schiebetor RAL 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.22E",
+      "text": "Schiebetor RAL 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.22F",
+      "text": "Schiebetor RAL 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.22X",
+      "text": "Schiebetor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.23A",
+      "text": "Schiebetor Edelstahl 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.23B",
+      "text": "Schiebetor Edelstahl 1-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.23C",
+      "text": "Schiebetor Edelstahl 1-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.23D",
+      "text": "Schiebetor Edelstahl 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.23E",
+      "text": "Schiebetor Edelstahl 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.23F",
+      "text": "Schiebetor Edelstahl 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.23X",
+      "text": "Schiebetor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.25A",
+      "text": "Teleskopschiebetor Alu 1-seit.2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.25B",
+      "text": "Teleskopschiebetor Alu 1-seit.2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.25C",
+      "text": "Teleskopschiebetor Alu 1-seit.2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.25D",
+      "text": "Teleskopschiebetor Alu 1-seit.3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.25E",
+      "text": "Teleskopschiebetor Alu 1-seit.3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.25F",
+      "text": "Teleskopschiebetor Alu 1-seit.3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.25G",
+      "text": "Teleskopschiebetor Alu 2-seit.2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.25H",
+      "text": "Teleskopschiebetor Alu 2-seit.2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.25I",
+      "text": "Teleskopschiebetor Alu 2-seit.2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.25J",
+      "text": "Teleskopschiebetor Alu 2-seit.3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.25K",
+      "text": "Teleskopschiebetor Alu 2-seit.3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.25L",
+      "text": "Teleskopschiebetor Alu 2-seit.3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.25X",
+      "text": "Teleskopschiebetor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.26A",
+      "text": "Teleskopschiebetor RAL 1-seit.2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.26B",
+      "text": "Teleskopschiebetor RAL 1-seit.2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.26C",
+      "text": "Teleskopschiebetor RAL 1-seit.2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.26D",
+      "text": "Teleskopschiebetor RAL 1-seit.3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.26E",
+      "text": "Teleskopschiebetor RAL 1-seit.3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.26F",
+      "text": "Teleskopschiebetor RAL 1-seit.3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.26G",
+      "text": "Teleskopschiebetor RAL 2-seit.2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.26H",
+      "text": "Teleskopschiebetor RAL 2-seit.2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.26I",
+      "text": "Teleskopschiebetor RAL 2-seit.2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.26J",
+      "text": "Teleskopschiebetor RAL 2-seit.3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.26K",
+      "text": "Teleskopschiebetor RAL 2-seit.3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.26L",
+      "text": "Teleskopschiebetor RAL 2-seit.3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.26X",
+      "text": "Teleskopschiebetor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.27A",
+      "text": "Teleskopschiebetor Edelstahl 1-seit.2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.27B",
+      "text": "Teleskopschiebetor Edelstahl 1-seit.2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.27C",
+      "text": "Teleskopschiebetor Edelstahl 1-seit.2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.27D",
+      "text": "Teleskopschiebetor Edelstahl 1-seit.3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.27E",
+      "text": "Teleskopschiebetor Edelstahl 1-seit.3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.27F",
+      "text": "Teleskopschiebetor Edelstahl 1-seit.3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.27G",
+      "text": "Teleskopschiebetor Edelstahl 2-seit.2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.27H",
+      "text": "Teleskopschiebetor Edelstahl 2-seit.2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.27I",
+      "text": "Teleskopschiebetor Edelstahl 2-seit.2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.27J",
+      "text": "Teleskopschiebetor Edelstahl 2-seit.3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.27K",
+      "text": "Teleskopschiebetor Edelstahl 2-seit.3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.27L",
+      "text": "Teleskopschiebetor Edelstahl 2-seit.3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.27X",
+      "text": "Teleskopschiebetor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.31A",
+      "text": "Rundlaufschiebetor Alu 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.31B",
+      "text": "Rundlaufschiebetor Alu 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.31C",
+      "text": "Rundlaufschiebetor Alu 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.31X",
+      "text": "Rundlaufschiebetor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.32A",
+      "text": "Rundlaufschiebetor RAL 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.32B",
+      "text": "Rundlaufschiebetor RAL 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.32C",
+      "text": "Rundlaufschiebetor RAL 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.32X",
+      "text": "Rundlaufschiebetor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.33A",
+      "text": "Rundlaufschiebetor Edelstahl 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.33B",
+      "text": "Rundlaufschiebetor Edelstahl 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.33C",
+      "text": "Rundlaufschiebetor Edelstahl 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.33X",
+      "text": "Rundlaufschiebetor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.35A",
+      "text": "Sektionaltor Alu 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.35B",
+      "text": "Sektionaltor Alu 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.35C",
+      "text": "Sektionaltor Alu 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.35X",
+      "text": "Sektionaltor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.36A",
+      "text": "Sektionaltor RAL 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.36B",
+      "text": "Sektionaltor RAL 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.36C",
+      "text": "Sektionaltor RAL 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.36X",
+      "text": "Sektionaltor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.37A",
+      "text": "Sektionaltor Edelstahl 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.37B",
+      "text": "Sektionaltor Edelstahl 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.37C",
+      "text": "Sektionaltor Edelstahl 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.37X",
+      "text": "Sektionaltor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.50A",
+      "text": "Az Sektionaltor schräge Abl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.50B",
+      "text": "Az Sektionaltor schräge Abl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.50C",
+      "text": "Az Sektionaltor schräge Abl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.01.50X",
+      "text": "Az Sektionaltor schräge Abl.Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.01A",
+      "text": "Kraft-Drehflügeltor Alu 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.01C",
+      "text": "Kraft-Drehflügeltor Alu 1-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.01D",
+      "text": "Kraft-Drehflügeltor Alu 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.01E",
+      "text": "Kraft-Drehflügeltor Alu 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.01F",
+      "text": "Kraft-Drehflügeltor Alu 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.01X",
+      "text": "Kraft-Drehflügeltor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.02A",
+      "text": "Kraft-Drehflügeltor RAL 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.02C",
+      "text": "Kraft-Drehflügeltor RAL 1-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.02D",
+      "text": "Kraft-Drehflügeltor RAL 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.02E",
+      "text": "Kraft-Drehflügeltor RAL 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.02F",
+      "text": "Kraft-Drehflügeltor RAL 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.02X",
+      "text": "Kraft-Drehflügeltor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.03A",
+      "text": "Kraft-Drehflügeltor Edelstahl 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.03C",
+      "text": "Kraft-Drehflügeltor Edelstahl 1-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.03D",
+      "text": "Kraft-Drehflügeltor Edelstahl 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.03E",
+      "text": "Kraft-Drehflügeltor Edelstahl 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.03F",
+      "text": "Kraft-Drehflügeltor Edelstahl 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.03X",
+      "text": "Kraft-Drehflügeltor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.04A",
+      "text": "Kraft-Hubtor Alu 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.04B",
+      "text": "Kraft-Hubtor Alu 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.04C",
+      "text": "Kraft-Hubtor Alu 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.04X",
+      "text": "Kraft-Hubtor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.05A",
+      "text": "Kraft-Hubtor RAL 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.05B",
+      "text": "Kraft-Hubtor RAL 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.05C",
+      "text": "Kraft-Hubtor RAL 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.05X",
+      "text": "Kraft-Hubtor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.06A",
+      "text": "Kraft-Hubtor Edelstahl 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.06B",
+      "text": "Kraft-Hubtor Edelstahl 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.06C",
+      "text": "Kraft-Hubtor Edelstahl 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.06X",
+      "text": "Kraft-Hubtor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.11A",
+      "text": "Kraft-Falttor Alu 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.11B",
+      "text": "Kraft-Falttor Alu 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.11C",
+      "text": "Kraft-Falttor Alu 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.11E",
+      "text": "Kraft-Falttor Alu 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.11F",
+      "text": "Kraft-Falttor Alu 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.11G",
+      "text": "Kraft-Falttor Alu 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.11H",
+      "text": "Kraft-Falttor Alu 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.11I",
+      "text": "Kraft-Falttor Alu 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.11J",
+      "text": "Kraft-Falttor Alu 3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.11K",
+      "text": "Kraft-Falttor Alu 4-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.11L",
+      "text": "Kraft-Falttor Alu 5-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.11X",
+      "text": "Kraft-Falttor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.12A",
+      "text": "Kraft-Falttor RAL 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.12B",
+      "text": "Kraft-Falttor RAL 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.12C",
+      "text": "Kraft-Falttor RAL 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.12E",
+      "text": "Kraft-Falttor RAL 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.12F",
+      "text": "Kraft-Falttor RAL 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.12G",
+      "text": "Kraft-Falttor RAL 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.12H",
+      "text": "Kraft-Falttor RAL 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.12I",
+      "text": "Kraft-Falttor RAL 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.12J",
+      "text": "Kraft-Falttor RAL 3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.12K",
+      "text": "Kraft-Falttor RAL 4-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.12L",
+      "text": "Kraft-Falttor RAL 5-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.12X",
+      "text": "Kraft-Falttor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.13A",
+      "text": "Kraft-Falttor Edelstahl 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.13B",
+      "text": "Kraft-Falttor Edelstahl 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.13C",
+      "text": "Kraft-Falttor Edelstahl 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.13E",
+      "text": "Kraft-Falttor Edelstahl 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.13F",
+      "text": "Kraft-Falttor Edelstahl 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.13G",
+      "text": "Kraft-Falttor Edelstahl 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.13H",
+      "text": "Kraft-Falttor Edelstahl 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.13I",
+      "text": "Kraft-Falttor Edelstahl 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.13J",
+      "text": "Kraft-Falttor Edelstahl 3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.13K",
+      "text": "Kraft-Falttor Edelstahl 4-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.13L",
+      "text": "Kraft-Falttor Edelstahl 5-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.13X",
+      "text": "Kraft-Falttor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.15A",
+      "text": "Kraft-Schiebefalttor Alu 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.15B",
+      "text": "Kraft-Schiebefalttor Alu 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.15C",
+      "text": "Kraft-Schiebefalttor Alu 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.15E",
+      "text": "Kraft-Schiebefalttor Alu 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.15F",
+      "text": "Kraft-Schiebefalttor Alu 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.15G",
+      "text": "Kraft-Schiebefalttor Alu 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.15H",
+      "text": "Kraft-Schiebefalttor Alu 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.15I",
+      "text": "Kraft-Schiebefalttor Alu 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.15J",
+      "text": "Kraft-Schiebefalttor Alu 3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.15K",
+      "text": "Kraft-Schiebefalttor Alu 4-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.15L",
+      "text": "Kraft-Schiebefalttor Alu 5-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.15X",
+      "text": "Kraft-Schiebefalttor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.16A",
+      "text": "Kraft-Schiebefalttor RAL 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.16B",
+      "text": "Kraft-Schiebefalttor RAL 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.16C",
+      "text": "Kraft-Schiebefalttor RAL 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.16E",
+      "text": "Kraft-Schiebefalttor RAL 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.16F",
+      "text": "Kraft-Schiebefalttor RAL 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.16G",
+      "text": "Kraft-Schiebefalttor RAL 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.16H",
+      "text": "Kraft-Schiebefalttor RAL 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.16I",
+      "text": "Kraft-Schiebefalttor RAL 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.16J",
+      "text": "Kraft-Schiebefalttor RAL 3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.16K",
+      "text": "Kraft-Schiebefalttor RAL 4-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.16L",
+      "text": "Kraft-Schiebefalttor RAL 5-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.16X",
+      "text": "Kraft-Schiebefalttor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.17A",
+      "text": "Kraft-Schiebefalttor Edelstahl 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.17B",
+      "text": "Kraft-Schiebefalttor Edelstahl 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.17C",
+      "text": "Kraft-Schiebefalttor Edelstahl 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.17E",
+      "text": "Kraft-Schiebefalttor Edelstahl 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.17F",
+      "text": "Kraft-Schiebefalttor Edelstahl 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.17G",
+      "text": "Kraft-Schiebefalttor Edelstahl 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.17H",
+      "text": "Kraft-Schiebefalttor Edelstahl 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.17I",
+      "text": "Kraft-Schiebefalttor Edelstahl 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.17J",
+      "text": "Kraft-Schiebefalttor Edelstahl 3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.17K",
+      "text": "Kraft-Schiebefalttor Edelstahl 4-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.17L",
+      "text": "Kraft-Schiebefalttor Edelstahl 5-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.17X",
+      "text": "Kraft-Schiebefalttor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.21A",
+      "text": "Kraft-Schiebetor Alu 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.21B",
+      "text": "Kraft-Schiebetor Alu 1-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.21C",
+      "text": "Kraft-Schiebetor Alu 1-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.21D",
+      "text": "Kraft-Schiebetor Alu 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.21E",
+      "text": "Kraft-Schiebetor Alu 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.21F",
+      "text": "Kraft-Schiebetor Alu 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.21X",
+      "text": "Kraft-Schiebetor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.22A",
+      "text": "Kraft-Schiebetor RAL 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.22B",
+      "text": "Kraft-Schiebetor RAL 1-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.22C",
+      "text": "Kraft-Schiebetor RAL 1-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.22D",
+      "text": "Kraft-Schiebetor RAL 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.22E",
+      "text": "Kraft-Schiebetor RAL 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.22F",
+      "text": "Kraft-Schiebetor RAL 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.22X",
+      "text": "Kraft-Schiebetor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.23A",
+      "text": "Kraft-Schiebetor Edelstahl 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.23B",
+      "text": "Kraft-Schiebetor Edelstahl 1-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.23C",
+      "text": "Kraft-Schiebetor Edelstahl 1-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.23D",
+      "text": "Kraft-Schiebetor Edelstahl 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.23E",
+      "text": "Kraft-Schiebetor Edelstahl 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.23F",
+      "text": "Kraft-Schiebetor Edelstahl 2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.23X",
+      "text": "Kraft-Schiebetor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.25A",
+      "text": "Kraft-Tel.-schiebetor Alu 1-seit.2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.25B",
+      "text": "Kraft-Tel.-schiebetor Alu 1-seit.2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.25C",
+      "text": "Kraft-Tel.-schiebetor Alu 1-seit.2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.25D",
+      "text": "Kraft-Tel.-schiebetor Alu 1-seit.3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.25E",
+      "text": "Kraft-Tel.-schiebetor Alu 1-seit.3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.25F",
+      "text": "Kraft-Tel.-schiebetor Alu 1-seit.3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.25G",
+      "text": "Kraft-Tel.-schiebetor Alu 2-seit.2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.25H",
+      "text": "Kraft-Tel.-schiebetor Alu 2-seit.2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.25I",
+      "text": "Kraft-Tel.-schiebetor Alu 2-seit.2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.25J",
+      "text": "Kraft-Tel.-schiebetor Alu 2-seit.3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.25K",
+      "text": "Kraft-Tel.-schiebetor Alu 2-seit.3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.25L",
+      "text": "Kraft-Tel.-schiebetor Alu 2-seit.3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.25X",
+      "text": "Kraft-Tel.-schiebetor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.26A",
+      "text": "Kraft-Tel.-schiebetor RAL 1-seit.2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.26B",
+      "text": "Kraft-Tel.-schiebetor RAL 1-seit.2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.26C",
+      "text": "Kraft-Tel.-schiebetor RAL 1-seit.2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.26D",
+      "text": "Kraft-Tel.-schiebetor RAL 1-seit.3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.26E",
+      "text": "Kraft-Tel.-schiebetor RAL 1-seit.3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.26F",
+      "text": "Kraft-Tel.-schiebetor RAL 1-seit.3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.26G",
+      "text": "Kraft-Tel.-schiebetor RAL 2-seit.2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.26H",
+      "text": "Kraft-Tel.-schiebetor RAL 2-seit.2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.26I",
+      "text": "Kraft-Tel.-schiebetor RAL 2-seit.2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.26J",
+      "text": "Kraft-Tel.-schiebetor RAL 2-seit.3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.26K",
+      "text": "Kraft-Tel.-schiebetor RAL 2-seit.3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.26L",
+      "text": "Kraft-Tel.-schiebetor RAL 2-seit.3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.26X",
+      "text": "Kraft-Tel.-schiebetor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.27A",
+      "text": "Kraft-Tel-schiebetor Edelstahl 1-seit.2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.27B",
+      "text": "Kraft-Tel-schiebetor Edelstahl 1-seit.2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.27C",
+      "text": "Kraft-Tel-schiebetor Edelstahl 1-seit.2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.27D",
+      "text": "Kraft-Tel-schiebetor Edelstahl 1-seit.3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.27E",
+      "text": "Kraft-Tel-schiebetor Edelstahl 1-seit.3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.27F",
+      "text": "Kraft-Tel-schiebetor Edelstahl 1-seit.3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.27G",
+      "text": "Kraft-Tel-schiebetor Edelstahl 2-seit.2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.27H",
+      "text": "Kraft-Tel-schiebetor Edelstahl 2-seit.2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.27I",
+      "text": "Kraft-Tel-schiebetor Edelstahl 2-seit.2-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.27J",
+      "text": "Kraft-Tel-schiebetor Edelstahl 2-seit.3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.27K",
+      "text": "Kraft-Tel-schiebetor Edelstahl 2-seit.3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.27L",
+      "text": "Kraft-Tel-schiebetor Edelstahl 2-seit.3-fl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.27X",
+      "text": "Kraft-Tel-schiebetor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.31A",
+      "text": "Kraft-Rundl.-schiebetor Alu 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.31B",
+      "text": "Kraft-Rundl.-schiebetor Alu 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.31C",
+      "text": "Kraft-Rundl.-schiebetor Alu 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.31X",
+      "text": "Kraft-Rundl.-schiebetor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.32A",
+      "text": "Kraft-Rundl.-schiebetor RAL 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.32B",
+      "text": "Kraft-Rundl.-schiebetor RAL 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.32C",
+      "text": "Kraft-Rundl.-schiebetor RAL 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.32X",
+      "text": "Kraft-Rundl.-schiebetor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.33A",
+      "text": "Kraft-Rundl.-schiebetor Edelstahl 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.33B",
+      "text": "Kraft-Rundl.-schiebetor Edelstahl 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.33C",
+      "text": "Kraft-Rundl.-schiebetor Edelstahl 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.33X",
+      "text": "Kraft-Rundl.-schiebetor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.35A",
+      "text": "Kraft-Sektionaltor Alu 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.35B",
+      "text": "Kraft-Sektionaltor Alu 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.35C",
+      "text": "Kraft-Sektionaltor Alu 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.35X",
+      "text": "Kraft-Sektionaltor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.36A",
+      "text": "Kraft-Sektionaltor RAL 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.36B",
+      "text": "Kraft-Sektionaltor RAL 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.36C",
+      "text": "Kraft-Sektionaltor RAL 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.36X",
+      "text": "Kraft-Sektionaltor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.37A",
+      "text": "Kraft-Sektionaltor Edelstahl 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.37B",
+      "text": "Kraft-Sektionaltor Edelstahl 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.37C",
+      "text": "Kraft-Sektionaltor Edelstahl 1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.37X",
+      "text": "Kraft-Sektionaltor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.50A",
+      "text": "Az Kraft-Sektionaltor schräge Abl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.50B",
+      "text": "Az Kraft-Sektionaltor schräge Abl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.50C",
+      "text": "Az Kraft-Sektionaltor schräge Abl.1-LKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.02.50X",
+      "text": "Az Kraft-Sektionaltor schräge Abl.Sondergr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.01A",
+      "text": "Sammelg.-Drehflügeltor Alu 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.01D",
+      "text": "Sammelg.-Drehflügeltor Alu 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.01E",
+      "text": "Sammelg.-Drehflügeltor Alu 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.01X",
+      "text": "Sammelg.-Drehflügeltor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.02A",
+      "text": "Sammelg.-Drehflügeltor RAL 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.02D",
+      "text": "Sammelg.-Drehflügeltor RAL 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.02E",
+      "text": "Sammelg.-Drehflügeltor RAL 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.02X",
+      "text": "Sammelg.-Drehflügeltor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.03A",
+      "text": "Sammelg.-Drehflügeltor Edelstahl 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.03D",
+      "text": "Sammelg.-Drehflügeltor Edelstahl 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.03E",
+      "text": "Sammelg.-Drehflügeltor Edelstahl 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.03X",
+      "text": "Sammelg.-Drehflügeltor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.11A",
+      "text": "Sammelg.-Falttor Alu 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.11B",
+      "text": "Sammelg.-Falttor Alu 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.11C",
+      "text": "Sammelg.-Falttor Alu 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.11E",
+      "text": "Sammelg.-Falttor Alu 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.11F",
+      "text": "Sammelg.-Falttor Alu 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.11G",
+      "text": "Sammelg.-Falttor Alu 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.11H",
+      "text": "Sammelg.-Falttor Alu 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.11X",
+      "text": "Sammelg.-Falttor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.12A",
+      "text": "Sammelg.-Falttor RAL 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.12B",
+      "text": "Sammelg.-Falttor RAL 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.12C",
+      "text": "Sammelg.-Falttor RAL 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.12E",
+      "text": "Sammelg.-Falttor RAL 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.12F",
+      "text": "Sammelg.-Falttor RAL 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.12G",
+      "text": "Sammelg.-Falttor RAL 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.12H",
+      "text": "Sammelg.-Falttor RAL 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.12X",
+      "text": "Sammelg.-Falttor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.13A",
+      "text": "Sammelg.-Falttor Edelstahl 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.13B",
+      "text": "Sammelg.-Falttor Edelstahl 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.13C",
+      "text": "Sammelg.-Falttor Edelstahl 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.13E",
+      "text": "Sammelg.-Falttor Edelstahl 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.13F",
+      "text": "Sammelg.-Falttor Edelstahl 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.13G",
+      "text": "Sammelg.-Falttor Edelstahl 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.13H",
+      "text": "Sammelg.-Falttor Edelstahl 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.13X",
+      "text": "Sammelg.-Falttor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.15A",
+      "text": "Sammelg.-Schiebefalttor Alu 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.15B",
+      "text": "Sammelg.-Schiebefalttor Alu 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.15C",
+      "text": "Sammelg.-Schiebefalttor Alu 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.15E",
+      "text": "Sammelg.-Schiebefalttor Alu 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.15F",
+      "text": "Sammelg.-Schiebefalttor Alu 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.15G",
+      "text": "Sammelg.-Schiebefalttor Alu 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.15H",
+      "text": "Sammelg.-Schiebefalttor Alu 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.15X",
+      "text": "Sammelg.-Schiebefalttor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.16A",
+      "text": "Sammelg.-Schiebefalttor RAL 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.16B",
+      "text": "Sammelg.-Schiebefalttor RAL 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.16C",
+      "text": "Sammelg.-Schiebefalttor RAL 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.16E",
+      "text": "Sammelg.-Schiebefalttor RAL 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.16F",
+      "text": "Sammelg.-Schiebefalttor RAL 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.16G",
+      "text": "Sammelg.-Schiebefalttor RAL 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.16H",
+      "text": "Sammelg.-Schiebefalttor RAL 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.16X",
+      "text": "Sammelg.-Schiebefalttor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.17A",
+      "text": "Sammelg.-Schiebefalttor Edelstahl 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.17B",
+      "text": "Sammelg.-Schiebefalttor Edelstahl 3-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.17C",
+      "text": "Sammelg.-Schiebefalttor Edelstahl 4-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.17E",
+      "text": "Sammelg.-Schiebefalttor Edelstahl 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.17F",
+      "text": "Sammelg.-Schiebefalttor Edelstahl 3-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.17G",
+      "text": "Sammelg.-Schiebefalttor Edelstahl 4-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.17H",
+      "text": "Sammelg.-Schiebefalttor Edelstahl 5-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.17X",
+      "text": "Sammelg.-Schiebefalttor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.21A",
+      "text": "Sammelg.-Schiebetor Alu 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.21B",
+      "text": "Sammelg.-Schiebetor Alu 1-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.21D",
+      "text": "Sammelg.-Schiebetor Alu 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.21E",
+      "text": "Sammelg.-Schiebetor Alu 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.21X",
+      "text": "Sammelg.-Schiebetor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.22A",
+      "text": "Sammelg.-Schiebetor RAL 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.22B",
+      "text": "Sammelg.-Schiebetor RAL 1-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.22D",
+      "text": "Sammelg.-Schiebetor RAL 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.22E",
+      "text": "Sammelg.-Schiebetor RAL 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.22X",
+      "text": "Sammelg.-Schiebetor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.23A",
+      "text": "Sammelg.-Schiebetor Edelstahl 1-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.23B",
+      "text": "Sammelg.-Schiebetor Edelstahl 1-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.23D",
+      "text": "Sammelg.-Schiebetor Edelstahl 2-fl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.23E",
+      "text": "Sammelg.-Schiebetor Edelstahl 2-fl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.23X",
+      "text": "Sammelg.-Schiebetor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.31A",
+      "text": "Sammelg.-Rundl.-schiebetor Alu 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.31B",
+      "text": "Sammelg.-Rundl.-schiebetor Alu 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.31X",
+      "text": "Sammelg.-Rundl.-schiebetor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.32A",
+      "text": "Sammelg.-Rundl.-schiebetor RAL 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.32B",
+      "text": "Sammelg.-Rundl.-schiebetor RAL 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.32X",
+      "text": "Sammelg.-Rundl.-schiebetor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.33A",
+      "text": "Sammelg.-Rundl.-schiebetor Edelstahl 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.33B",
+      "text": "Sammelg.-Rundl.-schiebetor Edelstahl 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.33X",
+      "text": "Sammelg.-Rundl.-schiebetor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.35A",
+      "text": "Sammelg.-Sektionaltor Alu 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.35B",
+      "text": "Sammelg.-Sektionaltor Alu 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.35X",
+      "text": "Sammelg.-Sektionaltor Alu Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.36A",
+      "text": "Sammelg.-Sektionaltor RAL 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.36B",
+      "text": "Sammelg.-Sektionaltor RAL 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.36X",
+      "text": "Sammelg.-Sektionaltor RAL Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.37A",
+      "text": "Sammelg.-Sektionaltor Edelstahl 1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.37B",
+      "text": "Sammelg.-Sektionaltor Edelstahl 2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.37X",
+      "text": "Sammelg.-Sektionaltor Edelstahl Sondergröße",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.50A",
+      "text": "Az Sammelg.-Sektionaltor schräge Abl.1-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.50B",
+      "text": "Az Sammelg.-Sektionaltor schräge Abl.2-PKW",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.03.50X",
+      "text": "Az Sammelg.-Sektionaltor schräg.Abl.Sondergr.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.01A",
+      "text": "Hand-Drehflügeltor gem.Anforderung 1-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.01B",
+      "text": "Hand-Drehflügeltor gem.Anforderung 2-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.02A",
+      "text": "Hand-Hubtor gem.Anforderung 1-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.03A",
+      "text": "Hand-Falttor gem.Anforderung 2-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.03B",
+      "text": "Hand-Falttor gem.Anforderung 3-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.03C",
+      "text": "Hand-Falttor gem.Anforderung 4-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.03D",
+      "text": "Hand-Falttor gem.Anforderung 5-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.04A",
+      "text": "Hand-Schiebefalttor gem.Anforderung 2-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.04B",
+      "text": "Hand-Schiebefalttor gem.Anforderung 3-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.04C",
+      "text": "Hand-Schiebefalttor gem.Anforderung 4-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.04D",
+      "text": "Hand-Schiebefalttor gem.Anforderung 5-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.05A",
+      "text": "Hand-Schiebetor gem.Anforderung 1-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.05B",
+      "text": "Hand-Schiebetor gem.Anforderung 2-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.06A",
+      "text": "Hand-Teleskopsch.gem.Anford.1-seit.2-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.06B",
+      "text": "Hand-Teleskopsch.gem.Anford.1-seit.3-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.06C",
+      "text": "Hand-Teleskopsch.gem.Anford.2-seit.2-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.06D",
+      "text": "Hand-Teleskopsch.gem.Anford.2-seit.3-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.07A",
+      "text": "Hand-Rundl.-schiebetor gem.Anforderung",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.08A",
+      "text": "Hand-Sektionaltor gem.Anforderung",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.08B",
+      "text": "Az Hand-Sektional.gem.Anford.schräge Ablage",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.11A",
+      "text": "Kraft-Drehflügeltor gem.Anforderung 1-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.11B",
+      "text": "Kraft-Drehflügeltor gem.Anforderung 2-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.12A",
+      "text": "Kraft-Hubtor gem.Anforderung 1-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.13A",
+      "text": "Kraft-Falttor gem.Anforderung 2-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.13B",
+      "text": "Kraft-Falttor gem.Anforderung 3-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.13C",
+      "text": "Kraft-Falttor gem.Anforderung 4-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.13D",
+      "text": "Kraft-Falttor gem.Anforderung 5-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.14A",
+      "text": "Kraft-Schiebefalttor gem.Anforderung 2-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.14B",
+      "text": "Kraft-Schiebefalttor gem.Anforderung 3-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.14C",
+      "text": "Kraft-Schiebefalttor gem.Anforderung 4-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.14D",
+      "text": "Kraft-Schiebefalttor gem.Anforderung 5-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.15A",
+      "text": "Kraft-Schiebetor gem.Anforderung 1-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.15B",
+      "text": "Kraft-Schiebetor gem.Anforderung 2-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.16A",
+      "text": "Kraft-Teleskopsch.gem.Anford.1-seit.2-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.16B",
+      "text": "Kraft-Teleskopsch.gem.Anford.1-seit.3-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.16C",
+      "text": "Kraft-Teleskopsch.gem.Anford.2-seit.2-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.16D",
+      "text": "Kraft-Teleskopsch.gem.Anford.2-seit.3-fl.",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.17A",
+      "text": "Kraft-Rundl.-schiebetor gem.Anforderung",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.18A",
+      "text": "Kraft-Sektionaltor gem.Anforderung",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.04.18B",
+      "text": "Az Kraft-Sektionaltor gem.Anford.schräge Ablage",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.01A",
+      "text": "Az Tore f.Sperrbarkeit",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.02A",
+      "text": "Az Tore f.Schlupftür ohne Schwelle",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.02B",
+      "text": "Az Tore f.Schlupftür m.Schwelle",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.02C",
+      "text": "Az Sektionaltor f.Schlupftür m.Schwelle",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.02E",
+      "text": "Az Gehtüre m.Elektroöffner",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.03A",
+      "text": "Az T.f.Glasausschnitt ESG 8mm b.0,25m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.03B",
+      "text": "Az T.f.Glasausschnitt ESG 8mm ü.0,25 -0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.03C",
+      "text": "Az T.f.Glasausschnitt ESG 8mm ü.0,5 -0,75m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.03D",
+      "text": "Az T.f.Glasausschnitt ESG 8mm ü.0,75 -1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.04A",
+      "text": "Az T.f.Glasausschnitt VSG 8mm b.0,25m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.04B",
+      "text": "Az T.f.Glasausschnitt VSG 8mm ü.0,25 -0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.04C",
+      "text": "Az T.f.Glasausschnitt VSG 8mm ü.0,5 -0,75m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.04D",
+      "text": "Az T.f.Glasausschnitt VSG 8mm ü.0,75 -1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.05A",
+      "text": "Az Sektionaltor f.Glasausschnitt",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.06A",
+      "text": "Az Kraft-Tor Schlüsseltaster",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.06B",
+      "text": "Az Kraft-Tor Schlüsseltaster+Säule",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.06C",
+      "text": "Az Kraft-Tor Lichtschranke",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.06D",
+      "text": "Az Kraft-Tor Bewegungsmelder",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.06E",
+      "text": "Az Kraft-Tor Funkhandsender",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.06F",
+      "text": "Az Kraft-Tor Induktionsschleife",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.05.07A",
+      "text": "Az Kraft-Tor Körperschalldämmung",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.01A",
+      "text": "Hand-Drehflügeltor 1-fl.R30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.01B",
+      "text": "Hand-Drehflügeltor 2-fl.R30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.01C",
+      "text": "Hand-Drehflügeltor 1-fl.T30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.01D",
+      "text": "Hand-Drehflügeltor 2-fl.T30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.01E",
+      "text": "Hand-Drehflügeltor 1-fl.T90",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.01F",
+      "text": "Hand-Drehflügeltor 2-fl.T90",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.02A",
+      "text": "Hand-Schiebetor 1-fl.R30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.02B",
+      "text": "Hand-Schiebetor 2-fl.R30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.02C",
+      "text": "Hand-Schiebetor 1-fl.T30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.02D",
+      "text": "Hand-Schiebetor 2-fl.T30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.02E",
+      "text": "Hand-Schiebetor 1-fl.T90",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.02F",
+      "text": "Hand-Schiebetor 2-fl.T90",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.03A",
+      "text": "Hand-Teleskopschiebetor R30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.03B",
+      "text": "Hand-Teleskopschiebetor T30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.04A",
+      "text": "Hand-Sektionaltor R30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.04B",
+      "text": "Hand-Sektionaltor T30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.04F",
+      "text": "Az Hand-Sektionaltor T30 schräge Ablage",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.11A",
+      "text": "Kraft-Drehflügeltor 1-fl.R30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.11B",
+      "text": "Kraft-Drehflügeltor 2-fl.R30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.11C",
+      "text": "Kraft-Drehflügeltor 1-fl.T30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.11D",
+      "text": "Kraft-Drehflügeltor 2-fl.T30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.11E",
+      "text": "Kraft-Drehflügeltor 1-fl.T90",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.11F",
+      "text": "Kraft-Drehflügeltor 2-fl.T90",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.12A",
+      "text": "Kraft-Schiebetor 1-fl.R30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.12B",
+      "text": "Kraft-Schiebetor 2-fl.R30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.12C",
+      "text": "Kraft-Schiebetor 1-fl.T30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.12D",
+      "text": "Kraft-Schiebetor 2-fl.T30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.12E",
+      "text": "Kraft-Schiebetor 1-fl.T90",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.12F",
+      "text": "Kraft-Schiebetor 2-fl.T90",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.13A",
+      "text": "Kraft-Teleskopschiebetor R30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.13B",
+      "text": "Kraft-Teleskopschiebetor T30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.14A",
+      "text": "Kraft-Sektionaltor R30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.14B",
+      "text": "Kraft-Sektionaltor T30",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.14F",
+      "text": "Az Kraft-Sektionaltor T30 schräge Ablage",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.21A",
+      "text": "Rauchsensor n.W.AN",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.21B",
+      "text": "Rauchsensor Wahl AG",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.50A",
+      "text": "Az Feuerschutztore 25.000 Lastwechsel",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.50B",
+      "text": "Az Feuerschutztore 150.000 Lastwechsel",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.51A",
+      "text": "Az Feuerschutztor T30 Glasausschnitt eckig",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.51B",
+      "text": "Az Feuerschutztor T30 Glasausschnitt rund",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.51C",
+      "text": "Az Feuerschutztor T90 Glasausschnitt eckig",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.51D",
+      "text": "Az Feuerschutztor T90 Glasausschnitt rund",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.06.52A",
+      "text": "Az Feuerschutztor Rauchschutzabschluss Sm",
+      "unit": "Stk"
+    },
+    {
+      "code": "65.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "65.90.00D",
+      "text": "Ingenieur- u.Technikerstunden",
+      "unit": ""
+    },
+    {
+      "code": "65.90.01A",
+      "text": "Regiestunden Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "65.90.01B",
+      "text": "Regiestunden Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

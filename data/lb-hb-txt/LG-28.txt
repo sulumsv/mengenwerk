@@ -1,0 +1,2324 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                      Leistungsgruppe (LG) 28 - Natursteinarbeiten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 2800    Wählbare Vorbemerkungen
+                     ULG 2801    Vorarbeiten, Trenn- und Dämmschichten
+                     ULG 2811    Bodenbelag und Sockelleisten, innen (I-)
+                     ULG 2812    Bodenbelag und Sockelleisten, außen (A-)
+                     ULG 2819    Aufzahlungen auf Bodenbeläge, Sonstiges
+                     ULG 2821    Stufen und Stufensockel, innen (I-)
+                     ULG 2822    Stufen und Stufensockel, außen (A-)
+                     ULG 2829    Aufzahlungen auf Stufen, Sonstiges
+                     ULG 2831    Lotrechte Verkleidungen, innen (I-)
+                     ULG 2832    Lotrechte Verkleidungen, außen (A-)
+                     ULG 2839    Aufzahlungen auf Verkleidungen, Sonstiges
+                     ULG 2841    Fenster- und Türumrahmung, innen (I-)
+                     ULG 2842    Fenster- und Türumrahmungen, außen (A-)
+                     ULG 2880    Instandsetzungsarbeiten
+                     ULG 2881    Natursteinreinigung, Konservierung
+                     ULG 2890    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 35
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                            gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                                EH
+
+28         Natursteinarbeiten
+           Version 022 (2021-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           1. Instandsetzungsarbeiten:
+           Erfolgen Instandsetzungsarbeiten bei Aufrechterhaltung des Betriebes oder im bewohnten Zustand, werden
+           erforderliche Sicherungsmaßnahmen gesondert verrechnet.
+           2. Innen, außen:
+           Im Folgenden werden mit innen nicht bewitterte, mit außen bewitterte Bauteile bezeichnet.
+           3. Frostbeständigkeit:
+           Für Belagsarbeiten außen wird nur frostbeständiges Material verwendet. Die Frostbeständigkeit des Materials
+           wird vom Auftragnehmer gewährleistet.
+           4. Skizze:
+           Im Folgenden wird Skizze als einfachste Darstellungsmöglichkeit stellvertretend für Zeichnung, Plan und
+           dergleichen verwendet.
+            Kommentar:
+            Naturstein Restaurierung und Denkmalpflege sind frei zu formulieren.
+            Angaben über den Naturstein:
+            Die Anwendung der Ausschreiberlücke Gesteinsmaterial, kombiniert mit einer wählbaren Vorbemerkung oder ohne eine
+            solche, gibt folgende Möglichkeiten (a, b), deren rechtliche Zulässigkeit der Ausschreiber jeweils für sich zu entscheiden hat
+            (z. B. privater oder öffentlicher Ausschreiber, Anwendbarkeit eines Vergabegesetzes, Umstände des Einzelfalles).
+            a) Technische Angaben:
+            In der Ausschreiberlücke "Gesteinsmaterial: _ _" sind die Gesteinsart gemäß ÖNORM sowie eine nähere Sortenbezeichnung
+            und Angaben über Farbe, Gefüge, Korngröße und dergleichen, je nach Erfordernis auch die Herkunft des Gesteinsmaterials
+            einzutragen.
+            b) Ausschließliche Angabe:
+            Der Ausschreiber setzt in die Ausschreiberlücke Gesteinsmaterial eine genaue Gesteinsbezeichnung einschließlich
+            Herkunftsort und etwaige Handelsbezeichnungen ein.
+            Gerüstungen:
+            Für Wandverkleidungen sind Gerüstungen mit einer Tragfähigkeit von 3500 N/m2 und einer Breite von 1 m erforderlich.
+            Bestimmung der Steinqualität:
+            Die Steinqualität wird bestimmt durch die Gesteinsart, Gesteinssorte, Musterplatten, Prüfbericht einer Prüf-, Überwachungs-
+            und Zertifizierungsstelle über die Eignung in Bezug auf die Verwendung (Boden, innen, außen, Wandverkleidung usw.).
+            Durch die geforderten Werte für die Abriebfestigkeit - Verschleißprüfung des gesamten Steines (ÖNORM B 3126/Teil 2),
+            Biegezugfestigkeit (ÖNORM B 3124/Teil 5), Verwitterungs- und Frostbeständigkeit (ÖNORM B 3123, bei bewitterten
+            Bauteilen) und der Ausbruchfestigkeit am Ankerdornloch bei Wandverkleidungen.
+            Materialdicke:
+            Bei Wandverkleidungen ist die Dicke abhängig von der Ausbruchfestigkeit am Ankerdornloch und von der Biegezugfestigkeit.
+            Bei geringer Materialfestigkeit muss bis zu einer doppelten Dicke gegenüber festerem Gestein gerechnet werden.
+            Plattengrößen:
+            Bei Bodenplatten sollte in Bezug auf die Biegezugfestigkeit ein Verhältnis von Breite zu Länge von 1:2,5 nicht überschritten
+            werden.
+            Plattenfarbe:
+            Weiße Materialien sind im Bodenbelag wegen ihrer Empfindlichkeit gegen eindringende Verunreinigung von oben oder auch
+            vom Mörtelbett her sowie wegen der möglichen Verfärbungen nur begrenzt zu empfehlen. Die Kenntnis der Gesteinsart und
+            die Erfahrung allein sind ausschlaggebend für die Materialwahl.
+            Oberflächenbearbeitung:
+            Bei weichem oder mittelhartem Gestein (z.B. Kalkstein, Marmor) sollte man bei Bodenbelägen nicht über die fein
+            geschliffene Bearbeitung hinausgehen. Im Freien (bewittert) sollten die Gehflächen nicht feiner als gemasert oder gesandelt
+            sein, um die Rutschgefahr zu vermindern.
+            Sonstige Leistungen:
+            Sonstige in dieser Leistungsgruppe nicht enthaltene standardisierte Texte sind anderen Leistungsgruppen zu entnehmen,
+            wie z.B. Gerüste, Abbrucharbeiten, Estricharbeiten und Kunststeinarbeiten.
+            Eine Prüfung und Nachweis der Rutschsicherheit kann nach ÖNORM Z 1261, alternativ nach DIN 51130 und DIN 51097
+            durchgeführt werden.
+
+           LB-Version: 23                   Geringfügig Geändert
+
+28.00      Wählbare Vorbemerkungen
+
+
+                                                                                                                                Seite 2 / 35
+                                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+             Kommentar:
+             Transportmöglichkeiten:
+             Weil die Werkstoffe bei Natursteinarbeiten besonders schwer sind und meistens am Ende der Bautätigkeit verlegt werden,
+             ist es für die Kalkulation der Leistungen wichtig, in zusätzlichen Vorbemerkungen die Angaben über Transportmöglichkeiten
+             genau zu formulieren.
+             Fußbodenheizung:
+             Sollen Steinbeläge über Fußbodenheizungen verlegt werden, ist es ratsam, mit der entsprechenden zusätzlichen
+             Vorbemerkung darauf hinzuweisen.
+
+            LB-Version: 23                 Geringfügig Geändert
+28.00 01    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+28.00 01A   Transport Arbeitsplatz waagrecht
+            Folgende Transportmöglichkeiten zu den einzelnen Arbeitsplätzen stehen zum angebotenen Zeitpunkt der
+            Leistungserbringung für den Auftragnehmer kostenlos zur Verfügung.
+            Transport waagrecht: ____________
+            LB-Version: 23                 Geringfügig Geändert
+
+28.00 01B   Transport Arbeitsplatz lotrecht
+            Folgende Transportmöglichkeiten zu den einzelnen Arbeitsplätzen stehen zum angebotenen Zeitpunkt der
+            Leistungserbringung für den Auftragnehmer kostenlos zur Verfügung.
+            Transport lotrecht: ____________
+             Kommentar:
+             Erforderliche Baustelleneinrichtungen (z.B. Hebezeug) können mit der LG 01 ausgeschrieben werden.
+
+            LB-Version: 23                 Geringfügig Geändert
+28.00 02    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+28.00 02A   Untergrundaufb.m.Fußbodenheiz.
+            Aufbau mit Fußbodenheizung: ____________
+            Betrifft die Position: ____________
+
+28.00 02B   Untergrundaufbau innen
+            Aufbau des Untergrundes unter dem ausgeschriebenen Belag.
+            Aufbau innen: ____________
+            Betrifft die Position: ____________
+
+28.00 02C   Untergrundaufbau Terrassen
+            Aufbau des Untergrundes unter dem ausgeschriebenen Belag.
+            Aufbau außen: ____________
+            Betrifft die Position: ____________
+
+28.00 02D   Untergrundaufbau Balkon
+            Aufbau des Untergrundes unter dem ausgeschriebenen Belag.
+            Aufbau Balkon: ____________
+            Betrifft die Position: ____________
+
+28.00 02E   Untergrundaufbau außen
+            Aufbau des Untergrundes unter dem ausgeschriebenen Belag. In Außenanlagen.
+            Aufbau: ____________
+            Betrifft die Position: ____________
+
+28.00 05    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+28.00 05A   Verlegung nach Plan
+            Die Verlegung erfolgt nach dem Verlegeplan des Auftraggebers.
+            Betrifft Position: ____________
+
+28.00 05B   Verfügbarkeit von Beilagen zum LV
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit: ____________
+                                                                                                                             Seite 3 / 35
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+28.00 05C   Belagsmuster
+            Die aufgelegten Belagsmuster sind zu besichtigen: ____________
+            Betrifft die Position: ____________
+
+28.00 05D   Platten, Sockel, Stufen gleich
+            Bodenplatten, Sockel und Stufen sind, abgesehen von produktionsbedingten Abweichungen, im
+            Gesteinsmaterial und Farbton aufeinander abgestimmt.
+            Betrifft die Position: ____________
+
+28.00 20    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+28.00 20A   Größe d.Einzelfl.Boden inn.
+            Angaben über die Größen der Einzelflächen.
+            Bei Bodenbelägen innen: ____________
+            Betrifft: ____________
+
+28.00 20B   Größe d.Einzelfl.Boden auß.
+            Angaben über die Größen der Einzelflächen.
+            Bei Bodenbelägen außen: ____________
+            Betrifft: ____________
+
+28.00 20C   Größe d.Einzelfl.Wand inn.
+            Angaben über die Größen der Einzelflächen.
+            Bei Wandverkleidungen innen: ____________
+            Betrifft: ____________
+
+28.00 20D   Größe d.Einzelfl.Wand auß.
+            Angaben über die Größen der Einzelflächen.
+            Bei Wandverkleidungen außen (Fassaden): ____________
+            Betrifft: ____________
+
+28.01       Vorarbeiten, Trenn- und Dämmschichten
+             Kommentar:
+             Sonstige Leistungen:
+             Estriche, Trittschalldämmungen, Gleit- und Trennlagen sowie Wärmedämmschichten unter dem Bodenbelag können mit der
+             LG 11 Estricharbeiten ausgeschrieben werden. Unterbetone sind in der LG 07 zu finden.
+             Alternativabdichtung:
+             Alternativabdichtungen sind direkt unter den Belägen angebrachte Abdichtungen (ÖNORM B 2207 Fliesen-, Platten- und
+             Mosaiklegearbeiten - Werkvertragsnorm).
+             Feuchtigkeitsbelastung bis W3:
+             Gemäß ÖNORM B 2207 Fliesen-, Platten- und Mosaiklegearbeiten - Werkvertragsnorm müssen gips- oder anhydrithältige
+             Untergründe in Räumen der Beanspruchungsgruppen W2 und W3 einer besonderen Vorbehandlung unterzogen werden.
+             Gemäß Tabelle 1 dieser ÖNORM ist die Beanspruchung W3 wie folgt definiert: kurzzeitig hohe Luftfeuchtigkeit, periodische
+             Nassreinigung, Spritzwasser kurzzeitig stark. Dies betrifft Einzelduschen und Badezimmer im Wohnbereich oder
+             Gastgewerbe. Für WC und Küche genügt die Feuchtigkeitsbelastung W2. Duschanlagen und Großküchen im
+             Betriebsbereich fallen unter die Feuchtigkeitsbelastung W4.
+
+28.01 05    Vorstreichen (Grundieren) stark oder nicht saugender Untergründe von Boden- oder Wandflächen mit einer
+            saugausgleichenden Emulsion als Haftvermittler.
+
+28.01 05A   Grund-Vorstrich-Haftbrücke                                                                                            m²
+28.01 06    Voranstrich gegen Wasseraufnahme auf Wänden aus gipshaltigen Baustoffen, bei einer
+            Feuchtigkeitsbelastungsgruppe W1 und W2.
+
+28.01 06A   Voranstrich Gips-Wand W1/W2                                                                                           m²
+            Auf wässriger Dispersionsbasis, mit Kontrollfarbton.
+
+28.01 07    Voranstrich gegen Wasseraufnahme bei Böden aus gipshaltigen Baustoffen (z.B. Anhydritestrich), bei einer
+            Feuchtigkeitsbelastungsgruppe W1 und W2.
+
+28.01 07A   Voranstrich Gips-Boden W1/W2                                                                                          m²
+            Auf wässriger Dispersionsbasis, mit Kontrollfarbton.
+
+
+                                                                                                                             Seite 4 / 35
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+28.01 08    Ausgleichen des Untergrundes. Abgerechnet wird die tatsächlich ausgeglichene Fläche. Das Ausmaß ist vor
+            Inangriffnahme der Leistung im Einvernehmen mit dem Auftraggeber festzustellen. Die Unebenheiten werden
+            mit einer 1,2 m langen Latte gemessen.
+
+28.01 08A   Ausgleich.Wand ü.3-5mm                                                                                        m²
+            Bei Wandflächen mit Unebenheiten über 3 bis 5 mm, mit einem Ausgleichsmörtel.
+
+28.01 08B   Ausgleich.Boden ü.3-5mm                                                                                       m²
+            Bei Bodenflächen mit Unebenheiten über 3 bis 5 mm, mit einer Nivelliermasse einschließlich Haftbrücke.
+
+28.01 08C   Ausgleich.Boden ü.5-10mm                                                                                      m²
+            Bei Bodenflächen mit Unebenheiten in einer Gesamthöhe über 6 bis 10 mm, mit einer Nivelliermasse bis 10 mm
+            dick einschließlich Haftbrücke.
+
+28.01 08D   Stufe ausgleichen ü.3-5mm                                                                                     m²
+            Stufentrittflächen mit Nivelliermasse über 3 bis 5 mm dick, für das Verlegen im Dünnbettverfahren.
+
+28.01 09    Höhenausgleich bei Bodenflächen mit einem werksmäßig vergütetem Ausgleichsmörtel einschließlich
+            Haftbrücke.
+
+28.01 09A   Höhenausgl.Boden b.10mm                                                                                       m²
+            Höhenunterschiede bis 10 mm.
+
+28.01 09B   Höhenausgl.Boden ü.10-15mm                                                                                    m²
+            Höhenunterschiede über 10 bis 15 mm, Ausgleichsmörteldicke bis 15 mm.
+
+28.01 09C   Höhenausgl.Boden ü.15-20mm                                                                                    m²
+            Höhenunterschiede über 15 bis 20 mm, Ausgleichsmörteldicke bis 20 mm.
+
+28.01 13    Trennschichten oder zweilagige Gleitschichten mit mindestens 10 cm Übergriffen. Abgerechnet wird die
+            abgedeckte Bodenfläche je Lage.
+
+28.01 13A   Abdecken m.Folie 0,1mm                                                                                        m²
+            Mit Kunststofffolie mindestens 0,1 mm dick.
+
+28.01 13B   Abdecken m.Folie 0,2mm                                                                                        m²
+            Mit Kunststofffolie mindestens 0,2 mm dick.
+
+28.01 14    Matten aus extrudiertem Schaumstoff aus Polyethylen (PE). Abgerechnet wird die abgedeckte Bodenfläche
+            zuzüglich etwaiger Hochzüge.
+
+28.01 14A   Matte extr.Schaumst.PE 5mm                                                                                    m²
+            Einlagig, 5 mm dick.
+
+28.01 20    Feuchtigkeitsabdichtung (Alternativabdichtung) von Wänden mit einer hochelastischen Flüssigfolie auf
+            Dispersionsbasis, hergestellt nach den Verarbeitungsrichtlinien des Erzeugers.
+
+28.01 20A   Altern-Feucht-abdicht.Wand W3                                                                                 m²
+            Bei einer Feuchtigkeitsbelastungsgruppe W3.
+
+28.01 20B   Altern-Feucht-abdicht.Wand W4                                                                                 m²
+            Bei einer Feuchtigkeitsbelastungsgruppe W4. Die Flächenabdichtung ist durch das Einbetten eines Vlieses in
+            den ersten Anstrich verstärkt.
+
+28.01 21    Feuchtigkeitsabdichtung (Alternativabdichtung) von Böden mit einer hochelastischen Flüssigfolie auf
+            Dispersionsbasis, einschließlich eines Hochzuges mindestens 15 cm hoch, hergestellt nach den
+            Verarbeitungsrichtlinien des Erzeugers. Abgerechnet wird die abgedichtete Bodenfläche zuzüglich der
+            Hochzüge.
+
+28.01 21A   Altern-Feucht-abd.Gipsboden W2                                                                                m²
+            Auf Gipsbaustoffböden (Anhydritestrich), bei einer Feuchtigkeitsbelastungsgruppe W2.
+
+28.01 21B   Altern-Feucht-abdicht.Boden W3                                                                                m²
+            Auf Böden, ausgenommen aus Gipsbaustoffen, bei einer Feuchtigkeitsbelastungsgruppe W3.
+
+                                                                                                                     Seite 5 / 35
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+28.01 21C   Altern-Feucht-abd.Boden W4                                                                                     m²
+            Auf Böden, ausgenommen aus Gipsbaustoffen, bei einer Feuchtigkeitsbelastungsgruppe W4. Die
+            Bodenabdichtung ist durch das Einbetten eines Vlieses in die erste Schicht verstärkt.
+28.01 23    Feuchtigkeitsabdichtung (Alternativabdichtung) auf Epoxybasis auf Estrichen oder Putzuntergründen, für das
+            direkte Verlegen von Belägen, hergestellt nach den Verarbeitungsrichtlinien des Erzeugers und zwar: Die zu
+            beschichtenden Flächen reinigen und entstauben, mit lösungsmittelfreier Epoxyemulsion grundieren, eine
+            Epoxyschicht aufbringen, eine Glasfasermatte (225 g/m2) mit einer Überlappung bei Ichsen und Stößen von
+            mindestens 5 cm einarbeiten, Deckanstrich herstellen, Quarzsand, Körnung 0,8 bis 1,2 mm, in die letzte Schicht
+            einstreuen. In den Einheitspreis ist das dichte Anarbeiten an Zargen und Abläufe sowie sonstige Aussparungen
+            einkalkuliert, abgerechnet die abgedichtete Fläche.
+
+28.01 23A   Abdichtung Epoxy unter Belag                                                                                   m²
+28.01 25    Abdichten von Fugen, Rohrdurchführungen und Bodenabläufen in Kombination mit Flächenabdichtungen gegen
+            Bodenfeuchte und nichtdrückendes Oberflächen- oder Sickerwasser.
+
+28.01 25A   Abdicht.Eckfuge Wand/Wand                                                                                      m
+            Von Eckfugen zwischen Wandflächen (Wand/Wand) mit einem Dichtband.
+
+28.01 25B   Abdicht.Eckfuge Boden/Wand                                                                                     m
+            Von Eckfugen zwischen Boden und Wandflächen (Boden/Wand) mit einem Dichtband.
+
+28.01 25C   Abdicht.Wand/Rohr DN25                                                                                         Stk
+            Von Rohrdurchführungen bis DN 25 in Wänden (Wand/Rohr) mit Dichtmanschetten.
+
+28.01 25D   Abdicht.Bodenablauf b.200mm                                                                                    Stk
+            Von Bodenabläufen bis 200 mm Durchmesser mit Dichtmanschetten.
+
+28.11       Bodenbelag und Sockelleisten, innen (I-)
+            Ausführung begehbar:
+            Alle Fußbodenbeläge werden nur begehbar ausgeführt.
+            Verlegungsart:
+            Die Verlegung der Bodenbeläge erfolgt auf Schnitt oder Bund (voll auf Fug) nach Wahl des Auftraggebers.
+            Zuschnitt, Anarbeitung:
+            Das Zuschneiden von Passplatten und das Verlegen von Platten im Gefälle bis 3 Prozent, dem Untergrund
+            folgend, ist in die Einheitspreise einkalkuliert. Das Anarbeiten an Einbauteile und das Ausbilden der Ichsen und
+            Grate beim Verlegen im Gefälle (betrifft nicht Wandanschlüsse) wird gesondert verrechnet.
+            Untergrund mit Bodenheizung:
+            Bei einem Untergrund mit Bodenheizung erfolgt die Verlegung von Belägen erst, wenn der Untergrund (Estrich)
+            nachweislich (Heizprotokoll) termingerecht vor dem Verlegebeginn ausgeheizt wurde.
+            Verfugen:
+            Das Verfugen ist nach Wahl des Auftraggebers ohne Unterschied, ob mit Grau- oder Weißzement oder
+            eingefärbt, in den Einheitspreisen einkalkuliert.
+            Mörtelgruppe:
+            Für innen verlegte (nicht bewitterte) Bodenbeläge werden mindestens Mörtel der Gruppe II mit einer
+            Mindestdruckfestigkeit nach 28 Tagen von 4 N/mm2 verwendet (ÖNORM B 2213, Tabelle 2).
+            Trasszementmörtel:
+            Bei Natursteinen, die zur Verfärbung neigen, wird Trasszementmörtel verwendet.
+             Kommentar:
+             Befahrbare Beläge können mit Angabe der Belastung frei formuliert werden.
+
+28.11 01    Fußbodenbelag innen mit Platten aus Naturstein, scharfkantig, im Dünnbettverfahren verlegt.
+
+28.11 01A   I-Boden Dünnb.Scharen 25/1,5                                                                                   m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen, 25 cm breit, Nenndicke 1,5 cm,
+            Sichtflächenbearbeitung poliert oder fein geschliffen (K220) nach Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.11 01B   I-Boden Dünnb.Scharen 25/2                                                                                     m²
+
+                                                                                                                      Seite 6 / 35
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen, 25 cm breit, Nenndicke 2 cm,
+            Sichtflächenbearbeitung poliert oder fein geschliffen (K220) nach Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.11 01C   I-Boden Dünnb.Scharen 30/1,5                                                                                  m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen, 30 cm breit, Nenndicke 1,5 cm,
+            Sichtflächenbearbeitung poliert oder fein geschliffen (K220) nach Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.11 01D   I-Boden Dünnb.Scharen 30/2                                                                                    m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen, 30 cm breit, Nenndicke 2 cm,
+            Sichtflächenbearbeitung poliert oder fein geschliffen (K220) nach Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.11 01E   I-Boden Dünnb.40x40/2                                                                                         m²
+            Plattengröße 40 x 40 cm, Nenndicke 2 cm, Sichtflächenbearbeitung poliert oder fein geschliffen (K220) nach
+            Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.11 01F   I-Boden Dünnb.40x40/3                                                                                         m²
+            Plattengröße 40 x 40 cm, Nenndicke 3 cm, Sichtflächenbearbeitung poliert oder fein geschliffen (K220) nach
+            Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.11 01G   I-Boden Dünnb.Skizze                                                                                          m²
+            Verlegung gemäß Skizze/Angabe: ____________
+            Gesteinsmaterial: ____________
+            Plattengröße: ____________
+            Nenndicke: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.11 02    Fußbodenbelag innen mit Natursteinfliesen, Kanten abgefast, im Dünnbettverfahren verlegt.
+
+28.11 02A   I-Boden Fliese 30,5x30,5/1                                                                                    m²
+            Fliesengröße 30,5 x 30,5 cm, Nenndicke 1 cm, Sichtflächenbearbeitung poliert,
+            Gesteinsmaterial: ____________
+28.11 03    Fußbodenbelag innen mit Platten aus Naturstein, scharfkantig, im Mörtelbett verlegt.
+
+28.11 03A   I-Boden Mört.Scharen 25/1,5                                                                                   m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen, 25 cm breit, Nenndicke 1,5 cm,
+            Sichtflächenbearbeitung poliert oder fein geschliffen (K220) nach Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.11 03B   I-Boden Mört.Scharen 25/2                                                                                     m²
+            Platten mit freien Länge, mindestens 1,5 x die Breite, in Scharen, 25 cm breit, Nenndicke 2 cm,
+            Sichtflächenbearbeitung poliert oder fein geschliffen (K220) nach Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.11 03C   I-BodenMört.Scharen 30/1,5                                                                                    m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen, 30 cm breit, Nenndicke 1,5 cm,
+            Sichtflächenbearbeitung poliert oder fein geschliffen (K220) nach Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.11 03D   I-Boden Mört.Scharen 30/2                                                                                     m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen, 30 cm breit, Nenndicke 2 cm,
+            Sichtflächenbearbeitung poliert oder fein geschliffen (K220) nach Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.11 03E   I-Boden Mört.40x40/3                                                                                          m²
+            Plattengröße 40 x 40 cm, Nenndicke 3 cm, Sichtflächenbearbeitung poliert oder fein geschliffen (K220) nach
+            Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.11 03G   I-Boden Mört.Skizze                                                                                           m²
+                                                                                                                     Seite 7 / 35
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Verlegung gemäß Skizze/Angabe: ____________
+            Gesteinsmaterial: ____________
+            Plattengröße: ____________
+            Nenndicke: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.11 11    Sockelleisten innen aus Naturstein, an geraden Wänden im Dünnbettverfahren verlegt, einschließlich der
+            stumpf gestoßenen rechtwinkeligen Ecken, obere Kante im rechten Winkel.
+
+28.11 11A   I-Sockel.Dünn.b.1/8cm p/K220                                                                                   m
+            Platten 0,8 bis 1 cm dick, Höhe 7 bis 8 cm, Sichtflächen poliert oder fein geschliffen (p/K220) nach Wahl des
+            Auftraggebers.
+            Gesteinsmaterial: ____________
+
+28.11 11C   I-Sockel.Dünn.b2/10cm p/K220                                                                                   m
+            Platten über 1 bis 2 cm dick, Höhe über 8 bis 10 cm. Sichtflächen poliert oder fein geschliffen (p/K220) nach
+            Wahl des Auftraggebers
+            Gesteinsmaterial: ____________
+
+28.11 11E   I-Sockelleiste Dünnb.                                                                                          m
+            Gesteinsmaterial: ____________
+            Plattengröße: ____________
+            Nenndicke: ____________
+            Sichtflächenbearbeitung: ____________
+            Höhe: ____________
+
+28.12       Bodenbelag und Sockelleisten, außen (A-)
+            Ausführung nur begehbar:
+            Alle Fußbodenbeläge werden nur begehbar (nicht befahrbar) ausgeführt.
+            Verlegungsart:
+            Die Verlegung der Bodenbeläge erfolgt auf Schnitt oder Bund (voll auf Fug) nach Wahl des Auftraggebers.
+            Zuschnitt, Anarbeitung:
+            Das Zuschneiden von Passplatten und das Verlegen von Platten im Gefälle bis 3 Prozent, dem Untergrund
+            folgend, ist in die Einheitspreise einkalkuliert. Das Anarbeiten an Einbauteile und das Ausbilden der Ichsen und
+            Grate beim Verlegen im Gefälle (Betrifft nicht Wandanschlüsse) wird gesondert verrechnet.
+            Technische Werte:
+            Für Bodenplatten gelten, ohne Unterschied der Gesteinsart/Sorte, außen, soweit in der ÖNORM nicht bessere
+            Mindestwerte angegeben sind, für die Biegezugfestigkeit mindestens 7 N/mm2, für die Abriebfestigkeit (nach
+            Böhme) höchstens 25 mm3/50 cm2.
+            Verfugen:
+            Das Verfugen ist nach Wahl des Auftraggebers ohne Unterschied, ob mit Grau- oder Weißzement oder
+            eingefärbt, in den Einheitspreisen einkalkuliert.
+            Dünnbett:
+            Es werden nur kunststoffmodifizierte Klebemörtel verwendet.
+            Mörtelgruppe:
+            Für außen verlegte (bewitterte) Bodenbeläge werden nur Mörtel der Mörtelgruppe III mit einer
+            Mindestdruckfestigkeit von 8 N/mm2 verwendet (ÖNORM B 2213 Tabelle 2).
+             Kommentar:
+             Befahrbare Beläge können mit Angabe der Belastung frei formuliert werden.
+
+28.12 01    Fußbodenbelag außen mit Platten aus Naturstein, scharfkantig, im Dünnbettverfahren verlegt.
+
+28.12 01A   A-Bod.Dünnb.Schar.25/3 gesägt                                                                                  m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen, 25 cm breit, Nenndicke 3 cm, Sichtflächen
+            mit Stahl oder Quarzsand gesägt.
+            Gesteinsmaterial: ____________
+
+28.12 01B   A-Bod.Dünnb.Schar.25/3 gemas.                                                                                  m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen, 25 cm breit, Nenndicke 3 cm, Sichtflächen
+            gemasert oder gesandelt (gemas).
+            Gesteinsmaterial: ____________
+
+                                                                                                                      Seite 8 / 35
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+28.12 01C   A-Bod.Dünnb.Schar.30/3 gesägt                                                                                 m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen, 30 cm breit, Nenndicke 3 cm, Sichtflächen
+            mit Stahl oder Quarzsand gesägt.
+            Gesteinsmaterial: ____________
+
+28.12 01D   A-Bod.Dünnb.Schar.30/3 gemas.                                                                                 m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen, 30 cm breit, Nenndicke 3 cm, Sichtflächen
+            gemasert oder gesandelt (gemas.).
+            Gesteinsmaterial: ____________
+
+28.12 01E   A-Bod.Dünnb.40x40/3 gesägt                                                                                    m²
+            Plattengröße 40 x 40 cm, Nenndicke 3 cm, Sichtflächen mit Stahl oder Quarzsand gesägt.
+            Gesteinsmaterial: ____________
+
+28.12 01F   A-Bod.Dünnb.40x40/3 gemas.                                                                                    m²
+            Plattengröße 40 x 40 cm, Nenndicke 3 cm, Sichtflächen gemasert oder gesandelt (gemas.).
+            Gesteinsmaterial: ____________
+
+28.12 01J   A-Bodenb.Dünnb.Scharen                                                                                        m²
+            Scharenanordnung: ____________
+            Gesteinsmaterial: ____________
+            Plattengröße: ____________
+            Nenndicke: ____________
+
+28.12 01K   A-Bodenbel.Dünnb.Skizze                                                                                       m²
+            Verlegung gemäß Skizze: ____________
+            Gesteinsmaterial: ____________
+            Plattengröße: ____________
+            Nenndicke: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.12 02    Fußbodenbelag außen mit Platten aus Naturstein, scharfkantig, im Mörtelbett verlegt.
+
+28.12 02A   A-Bod.Mört.Schar.25/3 gesägt                                                                                  m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen, 25 cm breit, Nenndicke 3 cm, Sichtflächen
+            mit Stahl oder Quarzsand gesägt.
+            Gesteinsmaterial: ____________
+
+28.12 02B   A-Bod.Mört.Schar.25/3 gemas.                                                                                  m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen, 25 cm breit, Nenndicke 3 cm, Sichtflächen
+            gemasert oder gesandelt (gemas.).
+            Gesteinsmaterial: ____________
+
+28.12 02C   A-Bod.Mört.Schar.30/3 gesägt                                                                                  m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen, 30 cm breit, Nenndicke 3 cm, Sichtflächen
+            mit Stahl oder Quarzsand gesägt.
+            Gesteinsmaterial: ____________
+
+28.12 02D   A-Bod.Mört.Schar.30/3 gemas.                                                                                  m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen, 30 cm breit, Nenndicke 3 cm, Sichtflächen
+            gemasert oder gesandelt (gemas.).
+            Gesteinsmaterial: ____________
+
+28.12 02E   A-Bod.Mört.40x40/3 gesägt                                                                                     m²
+            Plattengröße 40 x 40 cm, Nenndicke 3 cm, Sichtflächen mit Stahl oder Quarzsand gesägt.
+            Gesteinsmaterial: ____________
+
+28.12 02F   A-Bod.Mört.40x40/3 gemas.                                                                                     m²
+            Plattengröße 40 x 40 cm, Nenndicke 3 cm, Sichtflächen gemasert oder gesandelt (gemas.).
+            Gesteinsmaterial: ____________
+
+28.12 02J   A-Bodenb.Mört.Scharen                                                                                         m²
+
+
+                                                                                                                     Seite 9 / 35
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Scharenanordnung: ____________
+            Gesteinsmaterial: ____________
+            Plattengröße: ____________
+            Nenndicke: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.12 02K   A-Bodenbel.Mört.Skizze                                                                                        m²
+            Verlegung gemäß Skizze: ____________
+            Gesteinsmaterial: ____________
+            Plattengröße: ____________
+            Nenndicke: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.12 03    Fußbodenbelag außen mit Platten aus Naturstein, scharfkantig, in ein Sandbett 3 bis 5 cm dick verlegt.
+
+28.12 03A   A-Bod.Sandb.Schar.25/3 gesägt                                                                                 m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen 30 cm breit, Nenndicke 3 cm, Sichtflächen mit
+            Stahl oder Quarzsand gesägt,
+            Gesteinsmaterial: ____________
+
+28.12 03B   A-Bod.Sandb.Schar.25/3 gemas.                                                                                 m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen 30 cm breit, Nenndicke 3 cm, Sichtflächen
+            gemasert oder gesandelt (gemas.),
+            Gesteinsmaterial: ____________
+
+28.12 03C   A-Bod.Sandb.Schar.30/3 gesägt                                                                                 m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen 30 cm breit, Nenndicke 3 cm, Sichtflächen mit
+            Stahl oder Quarzsand gesägt,
+            Gesteinsmaterial: ____________
+
+28.12 03D   A-Bod.Sandb.Schar.30/3 gemas.                                                                                 m²
+            Platten mit freien Längen, mindestens 1,5 x die Breite, in Scharen 30 cm breit, Nenndicke 3 cm, Sichtflächen
+            gemasert oder gesandelt (gemas.),
+            Gesteinsmaterial: ____________
+
+28.12 03E   A-Bodenb.Sandb.40x40/3 gesägt                                                                                 m²
+            Plattengröße 40 x 40 cm, Nenndicke 3 cm, Sichtflächen mit Stahl oder Quarzsand gesägt,
+            Gesteinsmaterial: ____________
+
+28.12 03F   A-Bodenb.Sandb.40x40/3 gemas.                                                                                 m²
+            Plattengröße 40 x 40 cm, Nenndicke 3 cm, Sichtflächen gemasert oder gesandelt (gemas.),
+            Gesteinsmaterial: ____________
+
+28.12 03I   A-Bodenb.Sandb.                                                                                               m²
+            Gesteinsmaterial: ____________
+            Nenndicke: ____________
+            Plattengröße: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.12 03J   A-Bodenb.Sandb.Scharen                                                                                        m²
+            Scharenanordnung: ____________
+            Gesteinsmaterial: ____________
+            Plattengröße: ____________
+            Nenndicke: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.12 03K   A-Bodenbel.Sandb.Skizze                                                                                       m²
+            Verlegung gemäß Skizze: ____________
+            Gesteinsmaterial: ____________
+            Plattengröße: ____________
+            Nenndicke: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.12 04    Fußbodenbelag außen mit Platten aus Naturstein, auf Distanzplatten verlegt.
+
+28.12 04A   A-Bodenb.Distanzp.40x40/3 ges.                                                                                m²
+                                                                                                                    Seite 10 / 35
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Plattengröße 40 x 40 cm, Nenndicke 3 cm, Sichtflächen mit Stahl oder Quarzsand gesägt (ges.),
+            Gesteinsmaterial: ____________
+
+28.12 04B   A-Bodenb.Dist.40x40/3 gemas.                                                                                  m²
+            Plattengröße 40 x 40 cm, Nenndicke 3 cm, Sichtflächen gemasert oder gesandelt (gemas.),
+            Gesteinsmaterial: ____________
+
+28.12 04E   A-Bodenb.Distanzpl.                                                                                           m²
+            Gesteinsmaterial: ____________
+            Plattengröße: ____________
+            Nenndicke: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.12 11    Sockelleisten außen aus Naturstein, an geraden Wänden im Dünnbettverfahren verlegt, einschließlich der
+            stumpf gestoßenen, rechtwinkeligen Ecken, obere Kante im rechten Winkel.
+
+28.12 11A   A-Sockell.Dünnb.b.1/8cm p/K220                                                                                m
+            Platten 0,8 bis 1 cm dick, Höhe 7 bis 8 cm, Sichtflächen poliert oder fein geschliffen (p/K220) nach Wahl des
+            Auftraggebers.
+            Gesteinsmaterial: ____________
+
+28.12 11B   A-Sockell.Dünnb.b.1/8cm gesä.                                                                                 m
+            Platten 0,8 bis 1 cm dick, Höhe 7 bis 8 cm, Sichtflächen mit Stahl oder Quarzsand gesägt (gesä.),
+            Gesteinsmaterial: ____________
+
+28.12 11C   A-Sockell.Dünnb.1/8cm gemas.                                                                                  m
+            Platten 0,8 bis 1 cm dick, Höhe 7 bis 8 cm, Sichtflächen gemasert oder gesandelt (gemas.),
+            Gesteinsmaterial: ____________
+
+28.12 11D   A-Sockell.Dünnb.b2/10cm p/K220                                                                                m
+            Platten bis 2 cm dick, Höhe über 8 bis 10 cm, Sichtflächen poliert oder fein geschliffen (p/K220) nach Wahl des
+            Auftraggebers.
+            Gesteinsmaterial: ____________
+
+28.12 11E   A-Sockell.Dünnb.b.2/10cm gesä.                                                                                m
+            Platten bis 2 cm dick, Höhe über 8 bis 10 cm, Sichtflächen mit Stahl oder Quarzsand gesägt (gesä.).
+            Gesteinsmaterial: ____________
+
+28.12 11F   A-Sockell.Dünnb.2/10cm gemas.                                                                                 m
+            Platten bis 2 cm dick, Höhe über 8 bis 10 cm, Sichtflächen gemasert oder gesandelt (gemas.),
+            Gesteinsmaterial: ____________
+
+28.12 11G   A-Sockell.Dünnbett                                                                                            m
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+            Sichtflächenbearbeitung: ____________
+            Höhe: ____________
+
+28.19       Aufzahlungen auf Bodenbeläge, Sonstiges
+28.19 01    Aufzahlung (Az) auf die Positionen Verlegen von Sockelleisten aus Naturstein, ohne Unterschied der Verlegeart,
+            innen oder außen.
+
+28.19 01A   Az Sockell.Eckausb.Gehr.b.10cm                                                                                Stk
+            Für das Ausbilden von Außen- und Innenecken in Gehrung, bei einer Sockelhöhe bis 10 cm, ohne Unterschied
+            der Plattendicke.
+            Betrifft: ____________
+
+28.19 02    Aufzahlung (Az) auf die Positionen Bodenbeläge aus Naturstein, ohne Unterschied der Verlegeart, innen oder
+            außen.
+
+28.19 02A   Az Bodenb.Gefälle ü.3-10Proz.                                                                                 m²
+            Für das Verlegen im Gefälle über 3 bis 10 Prozent, dem vorhandenen Untergrund folgend, ohne Unterschied
+            der Gesteinsart und Dicke.
+
+
+                                                                                                                    Seite 11 / 35
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+28.19 02B   Az Plattenschnitt Ichse/Grate/Gehrung                                                                            m
+            Für Schrägschnitte der Platten (Ichse, Grate, Gehrungen). Abgerechnet wird die Länge der Schnitte, ohne
+            Abzug der Fugen.
+
+28.19 02C   Az Bodenb.f.Bogenschnitte                                                                                        m
+            Für Bogenschnitte. Abgerechnet wird die Länge der Schnitte.
+            Betrifft: ____________
+
+28.19 02F   Az Bodenb.f.Plattenverstärk.                                                                                     m
+            Für eine Plattenverstärkung gemäß
+            Skizze: ____________
+            Betrifft: ____________
+
+28.19 02G   Az Bodenb.Anarbeit.0,1m2                                                                                         Stk
+            Für das Anarbeiten an Einbauten (z.B. Deckel, freistehende Pfeiler oder Säulen), bis zu einer Größe von 0,1
+            m2.
+            Betrifft: ____________
+
+28.19 02H   Az Bodenb.Anarbeit.0,5m2                                                                                         Stk
+            Für das Anarbeiten an Einbauten (z.B. Deckel, freistehende Pfeiler oder Säulen), über 0,1 bis 0,5 m2.
+            Betrifft: ____________
+
+28.19 02J   Az Bodenb.sichtb.Plattendicke                                                                                    m
+            Für das Bearbeiten der sichtbaren Plattendicke bis 5 cm,
+            Bearbeitungsart: ____________
+            Betrifft: ____________
+
+28.19 02L   Az Mörtelbett je 1cm                                                                                             m²
+            Für die Mehrdicke des Mörtelbettes über die in der ÖNORM geregelten Toleranzen um je 1 cm.
+
+28.19 02M   Az Bodenbel.b.5m2                                                                                                m²
+            Für das Verlegen in Flächen bis 5 m2 Einzelfläche.
+            Betrifft: ____________
+
+28.19 02O   Az Bodenb.diagonal verl.                                                                                         m²
+            Für das Verlegen des Belages mit der Fugenrichtung diagonal zum Raum oder zur Randbegrenzung.
+            Abgerechnet wird die Anschlusslänge.
+            Betrifft: ____________
+
+28.19 04    Aufzahlung (Az) auf die Positionen Bodenbeläge innen oder außen aus Naturstein, für Friese, ohne Unterschied
+            ob im Dünnbettverfahren oder im Mörtelbett verlegt.
+
+28.19 04A   Az Bodenb.Fries                                                                                                  m
+            Mit Platten.
+            Friesart/Skizze: ____________
+            Gesteinsmaterial: ____________
+            Nenndicke: ____________
+            Friesbreite: ____________
+            Sichtflächenbearbeitung: ____________
+            Betrifft Position: ____________
+
+28.19 04B   Az Bod-fliese Fries Dünnb.                                                                                       m
+            Mit Fliesen, Nenndicke 1 cm.
+            Friesart/Skizze: ____________
+            Gesteinsmaterial: ____________
+            Friesbreite: ____________
+            Betrifft Position: ____________
+
+28.19 06    Aufzahlung (Az) auf die Positionen Sockelleisten, ohne Unterschied der Verlegeart, außen oder innen.
+
+28.19 06A   Az Sockell.Kante poliert                                                                                         m
+            Für eine polierte obere Sichtfläche (Dicke), bearbeitet wie die lotrechte Ansichtsfläche.
+
+28.19 06B   Az Sockell.Kante schräg                                                                                          m
+                                                                                                                       Seite 12 / 35
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Für eine schräg ausgebildete obere Sichtfläche (Dicke), bearbeitet wie die lotrechte Ansichtsfläche.
+
+28.19 06C   Az Sockell.Kante gerund.                                                                                       m
+            Für eine gerundet ausgebildete Oberkante, bearbeitet wie die Ansichtsfläche.
+
+28.19 07    Aufzahlung (Az) auf die Positionen Sockelleisten, für die Erschwernis bei Verlegearbeiten an gekrümmten
+            Flächen, einschließlich zusätzlicher Schneidearbeiten.
+
+28.19 07A   Az gekrümmte Sockel b.0,2m                                                                                     m
+            Mit einem Radius bis 0,2 m.
+
+28.19 07B   Az gekrümmte Sockel ü.0,2-1m                                                                                   m
+            Mit einem Radius über 0,2 bis 1 m.
+
+28.19 07C   Az gekrümmte Sockel ü.1-2m                                                                                     m
+            Mit einem Radius über 1 bis 2 m.
+
+28.19 09    Bewehrungsmatten in das Mörtelbett einlegen. Abgerechnet wird die tatsächlich bewehrte Fläche ohne
+            Verschnitt und Überdeckungen.
+
+28.19 09A   Bewehrungsmatten M550                                                                                          kg
+            Matten M550 bis 3,2 kg/m2.
+
+28.19 11    Schließen von Dehn- oder Anschlussfugen mit elastischem Dichtstoff, ausgeführt nach den
+            Verarbeitungsrichtlinien des Erzeugers.
+
+28.19 11A   Fugen schließen Silikon 5mm                                                                                    m
+            Mit elastisch bleibendem Einkomponenten-Dichtstoff auf Silikon-Basis. Fugenbreite bis 5 mm.
+
+28.19 11B   Fugen schließen Silikon 10mm                                                                                   m
+            Mit elastisch bleibendem Einkomponenten-Dichtstoff auf Silikon-Basis. Fugenbreite über 5 bis 10 mm.
+
+28.19 12    Füllen und/oder Ausgleichen des Bodens innerhalb von Winkelrahmen.
+
+28.19 12A   Boden ausgl.im Rahmen Estr.                                                                                    m²
+            Mit Estrich.
+
+28.19 12B   Boden ausgl.im Rahmen Spachtel                                                                                 m²
+            Mit Spachtelmasse.
+
+28.19 14    Winkelrahmen, vom Auftraggeber beigestellt, in Natursteinböden versetzen.
+
+28.19 14A   Winkelrahmen nur versetzen                                                                                     m
+            Ohne Unterschied der Einzelgröße und des Profils. Gemessen wird die abgewickelte Länge des Rahmens.
+
+28.19 15    Schachtabdeckung für wählbare Oberfläche mit Rahmen, vom Auftraggeber beigestellt, versetzen.
+
+28.19 15A   Deck.wählb.Oberfl.n.vers.0,5m2                                                                                 Stk
+            Rahmenaußenmaß bis 0,5 m2.
+
+28.19 15B   Deck.wählb.Oberfl.n.vers.1m2                                                                                   Stk
+            Rahmenaußenmaß über 0,5 bis 1 m2.
+
+28.19 16    Schachtdeckel für wählbare Oberfläche, geruchsdicht, mit Rahmen liefern und versetzen.
+
+28.19 16A   Deckel wählb.Oberfl.40x60 Klasse A                                                                             Stk
+            Innenlichte 40 x 60 cm, Belastungsklasse A.
+
+28.19 16B   Deckel wählb.Oberfl.60x60 Klasse A                                                                             Stk
+            Innenlichte 60 x 60 cm, Belastungsklasse A.
+
+28.19 16C   Deckel wählb.Oberfl.60x100 Klasse A                                                                            Stk
+            Innenlichte 60 x 100 cm, Belastungsklasse A.
+
+
+                                                                                                                     Seite 13 / 35
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+
+28.19 18    Aufzahlung (Az) auf die Positionen Bodenbeläge für die Erschwernis beim Belegen von Schachtdeckeln.
+
+28.19 18A   Az Bodenb.Schachtdeckel b.0,5m2                                                                           Stk
+            Rahmenaußenmaß bis 0,5 m2.
+
+28.19 18B   Az Bodenb.Schachtdeckel ü.0,5-1m2                                                                         Stk
+            Rahmenaußenmaß über 0,5 bis 1 m2.
+
+28.19 20    Abschlusswinkel liefern und versetzen, bis 20 mm hoch.
+
+28.19 20A   Abschlussw.b.20mm Alu 2mm                                                                                 m
+            Aus Aluminium, 2 mm dick.
+
+28.19 20B   Abschlussw.b.20mm Alu 3mm                                                                                 m
+            Aus Aluminium, 3 mm dick.
+
+28.19 20C   Abschlussw.b.20mm Messing 2mm                                                                             m
+            Aus Messing, 2 mm dick.
+
+28.19 20D   Abschlussw.b.20mm Messing 3mm                                                                             m
+            Aus Messing, 3 mm dick.
+
+28.19 21    Abschlusswinkel liefern und versetzen, über 20 bis 30 mm hoch.
+
+28.19 21A   Abschlussw.20-30mm Alu 2mm                                                                                m
+            Aus Aluminium, 2 mm dick.
+
+28.19 21B   Abschlussw.20-30mm Alu 3mm                                                                                m
+            Aus Aluminium, 3 mm dick.
+
+28.19 21C   Abschlussw.20-30mm Messing 2mm                                                                            m
+            Aus Messing, 2 mm dick.
+
+28.19 21D   Abschlussw.20-30mm Messing 3mm                                                                            m
+            Aus Messing, 3 mm dick.
+
+28.19 22    Abschlusswinkel liefern und versetzen, über 30 bis 40 mm hoch.
+
+28.19 22A   Abschlussw.30-40mm Alu 3mm                                                                                m
+            Aus Aluminium, 3 mm dick.
+
+28.19 22B   Abschlussw.30-40mm Messing 3mm                                                                            m
+            Aus Messing, 3 mm dick.
+
+28.19 23    Dehnfugenprofil liefern und einbauen.
+
+28.19 23A   Dehnfugenprofil                                                                                           m
+            Art: ____________
+
+28.19 25    Löcher bohren in Naturstein und Beton.
+
+28.19 25A   Löcher bohren 10cm D b.10mm                                                                               Stk
+            Bohrtiefe bis 10 cm, Durchmesser bis 10 mm.
+
+28.19 25B   Löcher bohren 10cm D ü.10-15mm                                                                            Stk
+            Bohrtiefe bis 10 cm, Durchmesser über 10 bis 15 mm.
+
+28.19 25C   Löcher bohren 10cm D ü.15-20mm                                                                            Stk
+            Bohrtiefe bis 10 cm, Durchmesser über 15 bis 20 mm.
+
+28.19 27    Sichtflächen bearbeiten bei fertiggestelltem und verfugtem Bodenbelag.
+
+28.19 27A   Bodenb.schleifen 320                                                                                      m²
+                                                                                                                Seite 14 / 35
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+            Schleifen bis Körnung 320.
+            Betrifft: ____________
+
+28.19 27B   Bodenbelag polieren                                                                                                    m²
+            Polieren. Betrifft: ____________
+
+28.19 30    Provisorischer Schutz der Natursteinfußböden gegen Verschmutzung und Kratzspuren (polierte Oberfläche),
+            einschließlich Entfernen nach Verständigung durch den Auftraggeber.
+
+28.19 30A   Provis-Schutz des Steinbelages                                                                                         m²
+            Nach Wahl des Auftragnehmers.
+
+28.21       Stufen und Stufensockel, innen (I-)
+            Stufenmaße:
+            Gerade Stufen-Trittflächen werden ohne Unterschied der Breite bis 35 cm (Auftritt + Unterschneidung),
+            Setzstufenflächen bis 18 cm kalkuliert.
+            Stufensichtflächen:
+            Das Bearbeiten der Oberflächen von Trittflächen und Randplatten sowie der vorderen Sichtflächen der
+            Stufenplatten, Randplatten und Setzstufen (Spiegel) ist im Einheitspreis einkalkuliert.
+            Verfugen:
+            Das Verfugen ist im Einheitspreis einkalkuliert.
+            Mörtelgruppe:
+            Für innen verlegte (nicht bewitterte) Bodenbeläge werden mindestens Mörtel der Gruppe II mit einer
+            Mindestdruckfestigkeit nach 28 Tagen von 4 N/mm2 verwendet (ÖNORM B 2213, Tabelle 2).
+             Kommentar:
+             Nicht gerade Stufen, Oberflächen:
+             Spitze, gebogene oder verzogene Stufen sind frei zu formulieren und mit Skizzen zu belegen. Andere
+             Oberflächenbearbeitungen, z.B. gesägt oder grob geschliffen, können mit Lückenpositionen oder mit frei formulierten
+             Positionen ausgeschrieben werden.
+             Stufensockel:
+             Bei stark saugendem Untergrund wird empfohlen, einen Haftanstrich aus der ULG 28.01 auszuschreiben.
+
+            LB-Version: 23                 Geringfügig Geändert
+28.21 01    Gerade Innenstufentrittplatten aus Naturstein, voll aufliegend. Abgerechnet wird die Summe der Einzellängen.
+
+28.21 01A   I-Trittpl.b.1,5m K220 Mört.                                                                                            m
+            Im Mörtelbett verlegt, bis zu einer Einzellänge von 1,5 m. Sichtflächen poliert oder fein geschliffen (K220) nach
+            Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.21 01C   I-Trittplatte b.1,5m Mört.                                                                                             m
+            Im Mörtelbett verlegt, bis zu einer Einzellänge von 1,5 m.
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.21 01E   I-Trittpl.b.1,5m K220 Dünnb.                                                                                           m
+            Im Dünnbettverfahren auf ebenen Untergrund (Vorbehandlung in eigener Position) verlegt, bis zu einer
+            Einzellänge von 1,5 m. Sichtflächen poliert oder fein geschliffen (K220) nach Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.21 01G   I-Trittplatte b.1,5m Dünnb.                                                                                            m
+            Im Dünnbettverfahren auf ebenen Untergrund (Vorbehandlung in eigener Position) verlegt, bis zu einer
+            Einzellänge von 1,5 m,
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.21 01H   I-Trittplatte                                                                                                          m
+
+                                                                                                                             Seite 15 / 35
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+            Einzellänge: ____________
+            Sichtflächenbearbeitung: ____________
+            Verlegeart: ____________
+
+28.21 02    Gerade Innenstufensetzplatten aus Naturstein, voll aufliegend. Abgerechnet wird die Summe der Einzellängen.
+
+28.21 02A   I-Setzpl.b.1,5m p/K220 Mört.                                                                                    m
+            Im Mörtelbett verlegt, bis zu einer Einzellänge von 1,5 m. Sichtflächen poliert oder fein geschliffen (p/K220) nach
+            Wahl des Auftraggebers.
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.21 02C   I-Setzplatte b.1,5m Mört.                                                                                       m
+            Im Mörtelbett verlegt, bis zu einer Einzellänge von 1,5 m.
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.21 02E   I-Setzpl.b.1,5m p/K220 Dünnb.                                                                                   m
+            Im Dünnbettverfahren auf ebenen Untergrund (Vorbehandlung in eigener Position) verlegt, bis zu einer
+            Einzellänge von 1,5 m. Sichtflächen poliert oder fein geschliffen (p/K220) nach Wahl des Auftraggebers.
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.21 02G   I-Setzplatte b.1,5m Dünnb.                                                                                      m
+            Im Dünnbettverfahren auf ebenen Untergrund (Vorbehandlung in eigener Position) verlegt, bis zu einer
+            Einzellänge von 1,5 m.
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.21 02H   I-Setzplatte                                                                                                    m
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+            Einzellänge: ____________
+            Sichtflächenbearbeitung: ____________
+            Verlegeart: ____________
+
+28.21 03    Innenrandplatten (Saumplatten) aus Naturstein bis 35 cm breit. Abgerechnet wird die Summe der Einzellängen.
+
+28.21 03A   I-Randpl.b.1,5m p/K220 Mört.                                                                                    m
+            Im Mörtelbett verlegt, bis zu einer Einzellänge von 1,5 m. Sichtflächen poliert oder fein geschliffen (p/K220) nach
+            Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.21 03C   I-Randplatte b.1,5m Mört.                                                                                       m
+            Im Mörtelbett verlegt, bis zu einer Einzellänge von 1,5 m.
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.21 03H   I-Randplatte                                                                                                    m
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+            Einzellänge: ____________
+            Sichtflächenbearbeitung: ____________
+            Verlegeart: ____________
+
+28.21 11    Innen-Keilstufen, gerade, aus Naturstein, voll aufliegend, mit Tragfalz mindestens 3/5 cm. Abgerechnet wird die
+            Summe der Einzellängen.
+
+28.21 11A   I-Keilst.ger.b.1,5m p/K220                                                                                      m
+
+
+
+                                                                                                                      Seite 16 / 35
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Bis zu einer Einzellänge von 1,5 m. Sichtflächen poliert oder fein geschliffen (p/K220) nach Wahl des
+            Auftraggebers.
+            Gesteinsmaterial: ____________
+
+28.21 11C   I-Keilst.ger.b.1,5m                                                                                            m
+            Bis zu einer Einzellänge von 1,5 m.
+            Gesteinsmaterial: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.21 11F   I-Keilstufe gerade                                                                                             m
+            Gesteinsmaterial: ____________
+            Sichtflächenbearbeitung: ____________
+            Querschnitt: ____________
+            Einzellänge: ____________
+
+28.21 12    Innen-Blockstufen, gerade, aus Naturstein, voll aufliegend. Abgerechnet wird die Summe der Einzellängen.
+
+28.21 12A   I-Blockst.ger.b.1,5m p/K220                                                                                    m
+            Bis zu einer Einzellänge von 1,5 m. Sichtflächen poliert oder fein geschliffen (p/K220) nach Wahl des
+            Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.21 12C   I-Blockst.ger.b.1,5m                                                                                           m
+            Bis zu einer Einzellänge von 1,5 m.
+            Gesteinsmaterial: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.21 12F   I-Blockstufe gerade                                                                                            m
+            Gesteinsmaterial: ____________
+            Sichtflächenbearbeitung: ____________
+            Querschnitt: ____________
+            Einzellänge: ____________
+
+28.21 20    Innenstufen-Wandsockel (Bischofsmütze) aus Naturstein, an geraden Wänden im Dünnbettverfahren verlegt.
+            Obere Kante parallel mit der Stiegensteigung, mindestens 7 cm über Stufenkanten. Obere Plattenkante im
+            rechten Winkel gesägt. Abgerechnet wird je Stufe und Wandseite.
+
+28.21 20A   I-Bischofsm.Dünn.b.1cm p/K220                                                                                  Stk
+            Platten über 0,8 bis 1 cm dick. Sichtflächen poliert oder fein geschliffen (p/K220) nach Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.21 20B   I-Bischofsm.Dünn.2cm p/K220                                                                                    Stk
+            Platten über 1 bis 2 cm dick. Sichtflächen poliert oder fein geschliffen (p/K220) nach Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.21 20C   I-Bischofsmütze Dünnbett                                                                                       Stk
+            Gesteinsmaterial: ____________
+            Plattendicke/-höhe: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.21 24    Innenstufen Sockelleisten aus Naturstein, an geraden Wänden, im Dünnbettverfahren auf vorbereitetem
+            Untergrund verlegt, den Stufen folgend. Obere Plattenkante im rechten Winkel gesägt. Abgerechnet wird die
+            Summe der Stufenbreiten und Stufenhöhen.
+
+28.21 24A   I-Stuf-sockel Dünn.1/8 p/K220                                                                                  m
+            Platten 0,8 bis 1 cm dick, Höhe 7 bis 8 cm. Sichtflächen poliert oder fein geschliffen (p/K220) nach Wahl des
+            Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.21 24C   I-Stuf-sockel Dünn.2/10 p/K220                                                                                 m
+            Platten über 1 bis 2 cm dick, Höhe über 8 bis 10 cm. Sichtflächen poliert oder fein geschliffen (p/K220) nach
+            Wahl des Auftraggebers.
+            Gesteinsmaterial: ____________
+
+28.21 24E   I-Stuf-sockel Dünnbett                                                                                         m
+
+                                                                                                                     Seite 17 / 35
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+            Gesteinsmaterial: ____________
+            Plattendicke/-höhe: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.22       Stufen und Stufensockel, außen (A-)
+            Stufenmaße:
+            Gerade Stufen-Trittflächen werden ohne Unterschied der Breite bis 35 cm (Auftritt + Unterschneidung),
+            Setzstufenflächen bis 18 cm kalkuliert.
+            Dünnbett:
+            Es werden nur kunststoffmodifizierte Klebemörtel verwendet.
+            Stufensichtflächen:
+            Das Bearbeiten der Oberflächen von Trittflächen und Randplatten sowie der vorderen Sichtflächen der
+            Stufenplatten, Randplatten und Setzstufen (Spiegel) ist im Einheitspreis einkalkuliert.
+            Mörtelgruppe:
+            Für außen verlegte (bewitterte) Bodenbeläge werden nur Mörtel der Mörtelgruppe III mit einer
+            Mindestdruckfestigkeit von 8 N/mm2 verwendet (ÖNORM B 2213, Tabelle 2).
+            Verfugen:
+            Das Verfugen ist im Einheitspreis einkalkuliert.
+             Kommentar:
+             Nicht gerade Stufen, Oberflächen:
+             Spitze, gebogene oder verzogene Stufen sind frei zu formulieren und mit Skizzen zu belegen. Andere
+             Oberflächenbearbeitungen, z.B. grob geschliffen, müssen mit Lückenpositionen oder mit frei formulierten Positionen
+             ausgeschrieben werden.
+
+            LB-Version: 23                 Geringfügig Geändert
+28.22 01    Außenstufentrittplatten, gerade, aus Naturstein, voll aufliegend. Abgerechnet wird die Summe der Einzellängen.
+
+28.22 01A   A-Trittpl.b.1,5m gesägt Mört.                                                                                          m
+            Im Mörtelbett verlegt, bis zu einer Einzellänge von 1,5 m, Sichtflächen mit Stahl oder Quarzsand gesägt.
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.22 01C   A-Trittpl.b.1,5m gemas.Mört.                                                                                           m
+            Im Mörtelbett verlegt, bis zu einer Einzellänge von 1,5 m, Sichtflächen gemasert oder gesandelt (gemas.).
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.22 01E   A-Trittpl.b.1,5m gesägt Dünnb.                                                                                         m
+            Im Dünnbettverfahren auf ebenen Untergrund (Vorbehandlung in eigener Position) verlegt, bis zu einer
+            Einzellänge von 1,5 m, Sichtflächen mit Stahl oder Quarzsand gesägt.
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.22 01G   A-Trittpl.b.1,5m gemas.Dünnb.                                                                                          m
+            Im Dünnbettverfahren auf ebenen Untergrund (Vorbehandlung in eigener Position) verlegt, bis zu einer
+            Einzellänge von 1,5 m, Sichtflächen gemasert oder gesandelt (gemas.).
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.22 01H   A-Trittplatte                                                                                                          m
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+            Sichtflächenbearbeitung: ____________
+            Einzellänge: ____________
+            Verlegeart: ____________
+
+28.22 02    Außenstufensetzplatten, gerade, aus Naturstein, voll aufliegend. Abgerechnet die Summe der Einzellängen.
+
+28.22 02A   A-Setzpl.b.1,5m gesägt Mört.                                                                                           m
+            Im Mörtelbett verlegt, bis zu einer Einzellänge von 1,5 m, Sichtflächen mit Stahl oder Quarzsand gesägt.
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+                                                                                                                             Seite 18 / 35
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+28.22 02C   A-Setzpl.b.1,5m gemas.Mört.                                                                                    m
+            Im Mörtelbett verlegt, bis zu einer Einzellänge von 1,5 m. Sichtflächen gemasert oder gesandelt (gemas.).
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.22 02E   A-Setzpl.b.1,5m gesägt Dünnb.                                                                                  m
+            Im Dünnbettverfahren auf ebenen Untergrund (Vorbehandlung in eigener Position) verlegt, bis zu einer
+            Einzellänge von 1,5 m, Sichtflächen mit Stahl oder Quarzsand gesägt.
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.22 02G   A-Setzpl.b.1,5m gemas.Dünnb.                                                                                   m
+            Im Dünnbettverfahren auf ebenen Untergrund (Vorbehandlung in eigener Position) verlegt, bis zu einer
+            Einzellänge von 1,5 m. Sichtflächen gemasert oder gesandelt (gemas.).
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.22 02H   A-Setzplatte                                                                                                   m
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+            Sichtflächenbearbeitung: ____________
+            Einzellänge: ____________
+            Verlegeart: ____________
+
+28.22 03    Außenrandplatten (Saumplatten) aus Naturstein, voll aufliegend, bis 35 cm breit. Abgerechnet wird die Summe
+            der Einzellängen.
+
+28.22 03A   A-Randpl.b.1,5m gesägt Mört.                                                                                   m
+            Im Mörtelbett verlegt, bis zu einer Einzellänge von 1,5 m, Sichtflächen mit Stahl oder Quarzsand gesägt.
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.22 03C   A-Randpl.b.1,5m gemas.Mört.                                                                                    m
+            Im Mörtelbett verlegt, bis zu einer Einzellänge von 1,5 m, Sichtflächen gemasert oder gesandelt (gemas.).
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.22 03H   A-Randplatte                                                                                                   m
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+            Sichtflächenbearbeitung: ____________
+            Einzellänge: ____________
+            Verlegeart: ____________
+
+28.22 10    Außen-Keilstufen, gerade, aus Naturstein, voll aufliegend. Abgerechnet wird die Summe der Einzellängen.
+
+28.22 10A   A-Keilst.ger.b.1,5m gesägt                                                                                     m
+            Bis zu einer Einzellänge von 1,5 m, Sichtflächen mit Stahl oder Quarzsand gesägt.
+            Gesteinsmaterial: ____________
+
+28.22 10C   A-Keilst.ger.b.1,5m gemas.                                                                                     m
+            Bis zu einer Einzellänge von 1,5 m, Sichtflächen gemasert oder gesandelt (gemas.).
+            Gesteinsmaterial: ____________
+
+28.22 10H   A-Keilstufe gerade                                                                                             m
+            Gesteinsmaterial: ____________
+            Sichtflächenbearbeitung: ____________
+            Querschnitt: ____________
+            Einzellänge: ____________
+
+28.22 12    Außen-Blockstufen, gerade, aus Naturstein, voll aufliegend. Abgerechnet wird die Summe der Einzellängen.
+
+28.22 12A   A-Blockst.ger.b.1,5m gesägt                                                                                    m
+            Bis zu einer Einzellänge von 1,5 m, Sichtflächen mit Stahl oder Quarzsand gesägt.
+            Gesteinsmaterial: ____________
+
+                                                                                                                     Seite 19 / 35
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+28.22 12C   A-Blockst.b.1,5m gemas.                                                                                         m
+            Bis zu einer Einzellänge von 1,5 m. Sichtflächen gemasert oder gesandelt (gemas.).
+            Gesteinsmaterial: ____________
+
+28.22 12H   A-Ger.Blockstufe                                                                                                m
+            Gesteinsmaterial: ____________
+            Querschnitt: ____________
+            Sichtflächenbearbeitung: ____________
+            Einzellänge: ____________
+
+28.22 20    Außenstufen-Wandsockel (Bischofsmütze) aus Naturstein, an geraden Wänden im Dünnbettverfahren verlegt,
+            obere Kante parallel mit der Stiegensteigung, mindestens 7 cm über Stufenkanten. Obere Plattenkante im
+            rechten Winkel gesägt. Abgerechnet wird je Stufe und Wandseite.
+
+28.22 20A   A-Bischofsm.Dünn.b.1cm p/K220                                                                                   Stk
+            Platten über 0,8 bis 1 cm dick, Sichtflächen poliert oder fein geschliffen (p/K220) nach Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.22 20B   A-Bischofsm.Dünn.2cm p/K220                                                                                     Stk
+            Platten über 1 bis 2 cm dick, Sichtflächen poliert oder fein geschliffen (p/K220) nach Wahl des Auftraggebers,
+            Gesteinsmaterial: ____________
+
+28.22 20C   A-Bischofsmütze Dünnbett                                                                                        Stk
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+            Sichtflächenbearbeitung: ____________
+
+28.22 24    Außen-Stufensockelleisten aus Naturstein, an geraden Wänden im Dünnbettverfahren auf vorbereitetem
+            Untergrund verlegt, den Stufen folgend. Obere Plattenkante im rechten Winkel gesägt. Abgerechnet wird die
+            Summe der Stufenbreiten und Stufenhöhen.
+
+28.22 24A   A-Stuf-sockel Dünn.1/8 p/K220                                                                                   m
+            Platten 0,8 bis 1 cm dick, Höhe 7 bis 8 cm. Sichtflächen poliert oder fein geschliffen (p/K220),
+            Gesteinsmaterial: ____________
+
+28.22 24C   A-Stuf-sockel Dünn.2/10 p/K220                                                                                  m
+            Platten über 1 bis 2 cm dick, Höhe über 8 bis 10 cm. Sichtflächen poliert oder fein geschliffen (p/K220), nach
+            Wahl des Auftraggebers.
+            Gesteinsmaterial: ____________
+
+28.22 24E   A-Stuf-sockel Dünnbett                                                                                          m
+            Gesteinsmaterial: ____________
+            Sichtflächenbearbeitung: ____________
+            Plattendicke/-höhe: ____________
+
+28.29       Aufzahlungen auf Stufen, Sonstiges
+28.29 01    Aufzahlung (Az) auf die Positionen Trittplatten aus Naturstein, ohne Unterschied der Oberflächenbearbeitung,
+            für die Kopfausbildung des Stufenkopfes (Stirnseite), einschließlich Oberflächenbearbeitung nach Wahl des
+            Auftraggebers, innen oder außen.
+
+28.29 01A   Az Trittpl.gerader Kopf                                                                                         Stk
+            Für eine im Grundriss rechtwinkelige Kopfausbildung.
+            Gesteinsmaterial: ____________
+            Skizze: ____________
+
+28.29 01B   Az Trittpl.schräger Kopf                                                                                        Stk
+            Für eine im Grundriss nicht rechtwinkelige (schräge) Kopfausbildung.
+            Gesteinsmaterial: ____________
+            Skizze: ____________
+
+28.29 01C   Az Trittpl.gerund.Kopf                                                                                          Stk
+            Für einen im Grundriss gerundeten Kopf.
+            Gesteinsmaterial: ____________
+            Skizze: ____________
+                                                                                                                      Seite 20 / 35
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+28.29 01D   Az Trittpl.Kopfausbildung                                                                                    Stk
+            Für eine Kopfausbildung: ____________
+            Gesteinsmaterial: ____________
+            Skizze: ____________
+
+28.29 02    Aufzahlung (Az) auf die Positionen Trittplatten aus Naturstein, ohne Unterschied der Oberflächenbearbeitung,
+            für die besondere Bearbeitung der Stufenvorderkante, innen oder außen.
+
+28.29 02A   Az Trittpl.St.vorderk.abgefast                                                                               m
+            Stufenvorderkante stark abgefast, über 5 bis 10 mm, gemessen in der Schräge.
+            Gesteinsmaterial: ____________
+
+28.29 02B   Az Trittpl.St-vorderk.abgerun.                                                                               m
+            Stufenvorderkante abgerundet bis zu einem Radius von 5 mm.
+            Gesteinsmaterial: ____________
+            Radius/Skizze: ____________
+
+28.29 02C   Az Trittpl.Halbkreis gerund.                                                                                 m
+            Stufenvorderkante im Halbkreis gerundet.
+            Gesteinsmaterial: ____________
+            Radius/Skizze: ____________
+
+28.29 02D   Az Trittpl.Sichtkantenausf.                                                                                  m
+            Stufenvorderkante
+            Ausführung: ____________
+            Gesteinsmaterial: ____________
+            Skizze: ____________
+
+28.29 03    Aufzahlung (Az) auf die Positionen Setzplatten aus Naturstein, ohne Unterschied der Oberflächenbearbeitung,
+            für eine Ausbildung des Stufenkopfes (Stirnseite), einschließlich Oberflächenbearbeitung nach Wahl des
+            Auftraggebers, innen oder außen.
+
+28.29 03A   Az Setzpl.rechtwinkelig Kopf                                                                                 Stk
+            Für eine rechtwinkelige Kopfausbildung.
+            Gesteinsmaterial: ____________
+            Skizze: ____________
+
+28.29 03B   Az Setzpl.schräger Kopf                                                                                      Stk
+            Für eine im Grundriss nicht rechtwinkelige (schräge) Kopfausbildung.
+            Gesteinsmaterial: ____________
+            Skizze: ____________
+
+28.29 03D   Az Setzpl.Kopfausbildung                                                                                     Stk
+            Für eine Kopfausbildung: ____________
+            Gesteinsmaterial: ____________
+            Skizze: ____________
+
+28.29 04    Aufzahlung (Az) auf die Positionen Massivstufen (Keil- und Blockstufen), ohne Unterschied der
+            Oberflächenbearbeitung, für eine Kopfausbildung, einschließlich Oberflächenbearbeitung nach Wahl des
+            Auftraggebers, innen oder außen.
+
+28.29 04A   Az Massivst.rechtw.Kopf                                                                                      Stk
+            Für eine im Grundriss rechtwinkelige (rechtw.) Kopfausbildung.
+            Gesteinsmaterial: ____________
+            Skizze: ____________
+
+28.29 04B   Az Massivst.schräger Kopf                                                                                    Stk
+            Für eine im Grundriss nicht rechtwinkelige (schräge) Kopfausbildung.
+            Gesteinsmaterial: ____________
+            Skizze: ____________
+
+28.29 04C   Az Massivst.konkav.Kopf                                                                                      Stk
+            Für eine im Grundriss konkave Kopfausbildung.
+            Gesteinsmaterial: ____________
+            Skizze: ____________
+
+                                                                                                                   Seite 21 / 35
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+28.29 04D   Az Massivst.konvex.Kopf                                                                                               Stk
+            Für eine im Grundriss konvexe Kopfausbildung.
+            Gesteinsmaterial: ____________
+            Skizze: ____________
+
+28.29 04E   Az Massivstufe Kopfausbildung                                                                                         Stk
+            Für eine Kopfausbildung: ____________
+            Gesteinsmaterial: ____________
+            Skizze: ____________
+
+28.29 07    Herstellen eines Gleitschutzes auf Stufen, innen oder außen. Abgerechnet wird die Summe der Einzellängen.
+
+28.29 07A   Gleitschutzstreifen Sandstrahl                                                                                        m
+            Durch Sandstrahlen 3 bis 5 cm breit.
+
+28.29 07B   Gleitschutzstreifen Stocken                                                                                           m
+            Durch Stocken 3 bis 5 cm breit.
+
+28.29 07C   Gleitschutz vertieft 4x1 lang                                                                                         m
+            Eingefräst, 4 cm breit und 1 cm tief, einschließlich eines Gleitschutzprofils, über die gesamte Stufenlänge.
+
+28.29 07D   Gleitschutz vertieft 4x1 kurz                                                                                         m
+            Eingefräst, 4 cm breit und 1 cm tief, einschließlich eines Gleitschutzprofils, an beiden Enden der Stufe
+            eingerückt um: ____________
+
+28.29 07E   Gleitschutz vertieft 1x1 lang                                                                                         m
+            Eingefräste Rille 1 x 1 cm, einschließlich eines Gleitschutzprofils, über die gesamte Stufenlänge.
+
+28.29 07F   Gleitschutz vertieft 1x1 kurz                                                                                         m
+            Eingefräste Rille 1 x 1 cm, einschließlich eines Gleitschutzprofils, an beiden Enden der Stufe eingerückt um cm:
+            ____________
+             Kommentar:
+             Markierungen als Sehhilfe für An- und Austrittstufen sind frei zu formulieren.
+
+28.29 20    Provisorischer Schutz der fertigen Stufen, einschließlich Entfernen nach Verständigung durch den Auftraggeber,
+            mit Brettern oder Holzwerkstoffplatten. Ohne Unterschied, ob gerade oder spitze Stufen, innen oder außen.
+
+28.29 20A   Schutz der Trittstufen                                                                                                m
+            Nur der Trittstufen.
+
+28.29 20B   Schutz der Tritt- u.Setzstufen                                                                                        m
+            Der Tritt- und Setzstufen.
+
+28.31       Lotrechte Verkleidungen, innen (I-)
+            Untergrund:
+            Es wird angenommen, dass der Untergrund aus Ziegeln oder Beton besteht. Der Plattenabstand wird ab
+            tragfähigem Untergrund gemessen, z.B. bei Mantelbeton ab Betonkern.
+            Pfeiler, Wandvorlagen:
+            Pfeiler sind freistehende Mauerwerks- oder Betonkörper oder Wandabschnitte, deren Breite und Dicke nicht
+            größer ist als ein Drittel ihrer Höhe (ÖNORM B 2206 Mauer- und Versetzarbeiten Werkvertragsnorm).
+            Wandvorlagen (Lisenen) werden wie Pfeiler abgerechnet. In den Einheitspreis der Pfeilerverkleidungen und
+            Wandvorlagen ist die Ausbildung der rechtwinkeligen Ecken, stumpf gestoßen, einkalkuliert.
+            Höhen:
+            Verkleidungen an Innenflächen sind bis zu einer Höhe von 3,2 m einschließlich Gerüstung kalkuliert. Höhen
+            über 3,2 m werden mit Aufzahlungspositionen verrechnet.
+             Kommentar:
+             Nicht rechtwinkelige Querschnitte:
+             Verkleidungen von Säulen und Pfeilern, deren Querschnitte von rechten Winkeln abweichen, sind frei zu formulieren.
+             Wandverkleidungen, Dicken:
+
+
+                                                                                                                            Seite 22 / 35
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+             Die Dicken der Platten müssen, unter der Annahme einer einwandfreien Qualität, statisch berechnet werden. Ungeachtet
+             dessen müssen die Wandverkleidungsplatten bei Verkleidungen ohne Bewitterung (innen) bei einer Biegezugfestigkeit
+             größer oder gleich 10 N/mm2 mindestens 2 cm, bei einer Biegezugfestigkeit kleiner als 10 mindestens 3 cm dick sein.
+28.31 01    Wandverkleidungen innen mit Platten aus Naturstein, befestigt mit Ankern aus nicht rostendem Stahl,
+            Regelabstand der Platten zum tragfähigen Untergrund bis 6 cm, mit offener Fuge.
+
+28.31 01A   I-Wandverkleidung K220                                                                                              m²
+            Sichtflächen fein geschliffen (K220).
+            Gesteinsmaterial: ____________
+            Plattengröße/-dicke: ____________
+            Skizze: ____________
+
+28.31 01B   I-Wandverkleidung poliert                                                                                           m²
+            Sichtflächen poliert.
+            Gesteinsmaterial: ____________
+            Plattengröße/-dicke: ____________
+            Skizze: ____________
+
+28.31 01C   I-Wandverkleidung                                                                                                   m²
+            Sichtflächenbearbeitung: ____________
+            Gesteinsmaterial: ____________
+            Plattengröße/-dicke: ____________
+            Skizze: ____________
+
+28.31 10    Pfeilerverkleidungen innen mit Platten aus Naturstein, befestigt mit Ankern aus nicht rostendem Stahl,
+            Regelabstand der Platten vom tragfähigen Untergrund bis 6 cm, mit offener Fuge.
+
+28.31 10A   I-Pfeilerverkl.rechteck.K220                                                                                        m²
+            Querschnitt rechteckig. Sichtflächen fein geschliffen (K220).
+            Gesteinsmaterial: ____________
+            Plattengröße/-dicke: ____________
+            Querschnitt/Skizze: ____________
+
+28.31 10B   I-Pfeilerverkl.rechteck.pol.                                                                                        m²
+            Querschnitt rechteckig. Sichtflächen poliert.
+            Gesteinsmaterial: ____________
+            Plattengröße/-dicke: ____________
+            Querschnitt/Skizze: ____________
+
+28.31 10C   I-Pfeilerverkl.rechteckig                                                                                           m²
+            Querschnitt rechteckig.
+            Sichtflächenbearbeitung: ____________
+            Gesteinsmaterial: ____________
+            Plattengröße/-dicke: ____________
+            Querschnitt/Skizze: ____________
+
+28.31 10D   I-Pfeilerverkl.Querschnitt                                                                                          m²
+            Querschnitt/Skizze: ____________
+            Sichtflächenbearbeitung: ____________
+            Gesteinsmaterial: ____________
+            Plattengröße/-dicke: ____________
+
+28.31 20    Sockelverkleidungen innen mit Platten aus Naturstein, befestigt mit Ankern aus nicht rostendem Stahl,
+            Regelabstand der Platten zum tragfähigen Untergrund bis 6 cm, mit offener Fuge.
+
+28.31 20A   I-Sockelverkleid.K220                                                                                               m
+            Sichtflächen fein geschliffen (K220).
+            Gesteinsmaterial: ____________
+            Sockelhöhe: ____________
+            Plattengröße/-dicke: ____________
+            Skizze: ____________
+
+28.31 20B   I-Sockelverkleid.poliert                                                                                            m
+
+
+
+
+                                                                                                                          Seite 23 / 35
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+            Sichtflächen poliert.
+            Gesteinsmaterial: ____________
+            Sockelhöhe: ____________
+            Plattengröße/-dicke: ____________
+            Skizze: ____________
+
+28.31 20C   I-Sockelverkleidung                                                                                                  m
+            Sichtflächenbearbeitung: ____________
+            Gesteinsmaterial: ____________
+            Sockelhöhe: ____________
+            Plattengröße/-dicke: ____________
+            Skizze: ____________
+
+28.32       Lotrechte Verkleidungen, außen (A-)
+            Pfeiler, Wandvorlagen:
+            Pfeiler sind freistehende Mauerwerks- oder Betonkörper oder Wandabschnitte, deren Breite und Dicke nicht
+            größer ist als ein Drittel ihrer Höhe (ÖNORM B 2206 Mauer- und Versetzarbeiten Werkvertragsnorm).
+            Wandvorlagen (Lisenen) werden wie Pfeiler abgerechnet. In den Einheitspreis der Pfeilerverkleidungen und
+            Wandvorlagen ist die Ausbildung der rechtwinkeligen Ecken, stumpf gestoßen, einkalkuliert.
+            Untergrund:
+            Es wird angenommen, dass der Untergrund aus Ziegeln oder Beton besteht. Der Plattenabstand wird ab
+            tragfähigem Untergrund gemessen, z.B. bei Mantelbeton ab Betonkern.
+            Höhen:
+            Verkleidungen an Außenflächen sind bis zu einer Höhe von 3,2 m einschließlich Gerüstung kalkuliert. Höhen
+            über 3,2 m werden in eigenen Aufzahlungspositionen verrechnet.
+             Kommentar:
+             Nicht rechtwinkelige Querschnitte:
+             Verkleidungen von Säulen und Pfeilern, deren Querschnitte vom rechten Winkel abweichen, sind frei zu formulieren.
+             Verkleidungsplatten:
+             Die bewitterten (außen) Wandverkleidungsplatten müssen bei einer Biegezugfestigkeit größer oder gleich 10 N/mm2
+             mindestens 3 cm, bei einer Biegezugfestigkeit kleiner als 10 mindestens 4 cm dick sein. Dämmschichten und Dampfbremse
+             sind mit eigenen Positionen auszuschreiben. Wenn die Biegezugfestigkeit nicht bekannt ist, ist die Verwendbarkeit durch
+             einen Prüfbericht einer Prüf-, Überwachungs- und Zertifizierungsstelle nachzuweisen.
+
+28.32 01    Wandverkleidungen außen mit Platten aus Naturstein, befestigt mit Ankern aus nicht rostendem Stahl,
+            Regelabstand der Platten zum tragfähigen Untergrund bis 6 cm, mit offener Fuge.
+
+28.32 01A   A-Wandverkleidung K220                                                                                               m²
+            Sichtflächen fein geschliffen (K220).
+            Gesteinsmaterial: ____________
+            Plattengröße/Dicke: ____________
+            Skizze: ____________
+
+28.32 01B   A-Wandverkleidung poliert                                                                                            m²
+            Sichtflächen poliert.
+            Gesteinsmaterial: ____________
+            Plattengröße/Dicke: ____________
+            Skizze: ____________
+
+28.32 01C   A-Wandverkleidung                                                                                                    m²
+            Sichtflächenbearbeitung: ____________
+            Gesteinsmaterial: ____________
+            Plattengröße/Dicke: ____________
+            Skizze: ____________
+
+28.32 10    Pfeilerverkleidungen außen mit Platten aus Naturstein, befestigt mit Ankern aus nicht rostendem Stahl,
+            Regelabstand der Platten zum tragfähigen Untergrund bis 6 cm, mit offener Fuge.
+
+28.32 10A   A-Pfeilerverkl.rechteck.K220                                                                                         m²
+            Querschnitt rechteckig. Sichtflächen fein geschliffen (K220).
+            Gesteinsmaterial: ____________
+            Plattengröße/Dicke: ____________
+            Querschnitt/Skizze: ____________
+
+28.32 10B   A-Pfeilerverkl.rechteck.pol.                                                                                         m²
+                                                                                                                           Seite 24 / 35
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Querschnitt rechteckig. Sichtflächen poliert.
+            Gesteinsmaterial: ____________
+            Plattengröße/Dicke: ____________
+            Querschnitt/Skizze: ____________
+
+28.32 10C   A-Pfeilerverkl.rechteckig                                                                                   m²
+            Querschnitt rechteckig.
+            Sichtflächenbearbeitung: ____________
+            Gesteinsmaterial: ____________
+            Plattengröße/Dicke: ____________
+            Querschnitt/Skizze: ____________
+
+28.32 10D   A-Pfeilerverkl.Querschnitt                                                                                  m²
+            Querschnitt/Skizze: ____________
+            Sichtflächenbearbeitung: ____________
+            Gesteinsmaterial: ____________
+            Plattengröße/Dicke: ____________
+
+28.32 20    Sockelverkleidungen außen mit Platten aus Naturstein, befestigt mit Ankern aus nicht rostendem Stahl,
+            Regelabstand der Platten zum tragfähigen Untergrund bis 6 cm, mit offener Fuge.
+
+28.32 20A   A-Sockelverkleid.K220                                                                                       m
+            Sichtflächen fein geschliffen (K220).
+            Gesteinsmaterial: ____________
+            Sockelhöhe: ____________
+            Plattengröße/Dicke: ____________
+            Skizze: ____________
+
+28.32 20B   A-Sockelverkleid.poliert                                                                                    m
+            Sichtflächen poliert.
+            Gesteinsmaterial: ____________
+            Sockelhöhe: ____________
+            Plattengröße/Dicke: ____________
+            Skizze: ____________
+
+28.32 20C   A-Sockelverkleidung                                                                                         m
+            Sichtflächenbearbeitung: ____________
+            Gesteinsmaterial: ____________
+            Sockelhöhe: ____________
+            Plattengröße/Dicke: ____________
+            Skizze: ____________
+
+28.39       Aufzahlungen auf Verkleidungen, Sonstiges
+28.39 01    Aufzahlung (Az) auf die Positionen lotrechte Verkleidungen, ohne Unterschied, ob bei Wänden oder Pfeilern,
+            innen oder außen.
+
+28.39 01A   Az lotr.Verkl.Abstand ü.6-15cm                                                                              m²
+            Für einen Plattenabstand zum tragfähigen Untergrund über 6 bis 15 cm.
+
+28.39 01B   Az lotr.Verkl.Abstand ü.15cm                                                                                m²
+            Für einen Plattenabstand zum tragfähigen Untergrund über 15 cm.
+            Abstand: ____________
+
+28.39 01C   Az lotr.Verkl.Anarbeit.b.0,05                                                                               Stk
+            Für das Anarbeiten an Einbauteile, mit einer Größe bis 0,05 m2.
+
+28.39 01D   Az lotr.Verkl.Anarbeit.ü.0,05-0,1                                                                           Stk
+            Für das Anarbeiten an Einbauteile, mit einer Größe über 0,05 bis 0,1 m2.
+
+28.39 01E   Az lotr.Verkl.Anarbeit ü.0,1                                                                                m
+            Für das Anarbeiten an Einbauteile, mit einer Größe über 0,1 m2, abgerechnet wird der Umfang.
+
+28.39 01F   Az lotr.Verkl.Verfugen zem.                                                                                 m²
+            Für das Verfugen mit Verfugungsmörtel, ohne Unterschied der Farbe, auf Zementbasis.
+                                                                                                                  Seite 25 / 35
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+28.39 01G   Az lotr.Verkl.elast.Fuge M1                                                                                 m
+            Für das Verfugen mit elastischem Dichtstoff, ohne Unterschied der Farbe. Abgerechnet die Fugenlängen.
+            Fugenbreite: ____________
+
+28.39 01H   Az lotr.Verkl.elast.Fuge                                                                                    m²
+            Für das Verfugen mit elastischem Dichtstoff, ohne Unterschied der Farbe.
+            Fugenbreite: ____________
+
+28.39 01J   Az lotr.Verkl.Hinterf.Mört.                                                                                 m²
+            Für das Hinterfüllen mit Mörtel bis zu einer Dicke von ____________
+
+28.39 01K   Az Wandverkl.Ecke gestoß.                                                                                   m
+            Bei Wandverkleidungen, für das Ausbilden von rechtwinkeligen Außenecken, stumpf gestoßen, einschließlich
+            Sichtflächenbearbeitung.
+
+28.39 01L   Az lotr.Verkl.Eckfalz                                                                                       m
+            Für das Ausbilden von Außenecken auf Eckfalz gesetzt, einschließlich Sichtflächenbearbeitung.
+
+28.39 01M   Az lotr.Verkl.Ecke Gehrung                                                                                  m
+            Für das Ausbilden von Außenecken in Gehrung.
+
+28.39 01N   Az lotr.Verkl.Ecke stumpf                                                                                   m
+            Für das Ausbilden von Außenecken mit stumpfem Winkel, einschließlich Sichtflächenbearbeitung.
+
+28.39 01O   Az lotr.Verkl.Ecke spitz                                                                                    m
+            Für das Ausbilden von Außenecken mit spitzem Winkel, einschließlich Sichtflächenbearbeitung.
+
+28.39 01P   Az lotr.Verkl.Bohrung b.20mm                                                                                Stk
+            Für Bohrungen bis zu einem Durchmesser von 20 mm.
+
+28.39 01Q   Az Lotr.Verkl.Bohrung ü.20-100mm                                                                            Stk
+            Für Bohrungen mit einem Durchmesser über 20 bis 100 mm.
+
+28.39 01R   Az lotr.Verkl.Ausschn.b.0,1m2                                                                               Stk
+            Für das Herstellen von Ausschnitten bis zu einer Einzelfläche von 0,1 m2.
+
+28.39 02    Aufzahlung auf die Positionen lotrechte Verkleidungen, innen oder außen aus Naturstein, ohne Unterschied der
+            Sichtflächenbearbeitung.
+
+28.39 02A   Az lotr.Verkl.Sichtk.abgefast                                                                               m
+            Für Sichtkanten stark abgefast, über 5 bis 10 mm, gemessen in der Schräge.
+            Gesteinsmaterial: ____________
+
+28.39 02B   Az lotr.Verk.Sichtk.abgerundet                                                                              m
+            Für eine abgerundete Sichtkante, bis zu einem Radius von 10 mm.
+            Gesteinsmaterial: ____________
+            Radius/Skizze: ____________
+
+28.39 02D   Az lotr.Verkl.Sichtkantenausf.                                                                              m
+            Für eine Sichtkantenausführung: ____________
+            Gesteinsmaterial: ____________
+            Skizze: ____________
+
+28.39 03    Aufzahlung (Az) auf die Positionen Wandverkleidungen, innen oder außen für die Erschwernis bei gekrümmten
+            Wandflächen.
+
+28.39 03A   Az Wandv.in Gehrung polygon                                                                                 m²
+            Mit geraden Platten, in Gehrung geschnitten und polygon versetzt.
+            Betrifft: ____________
+
+28.39 03B   Az Wandv.bogenförm.konkav                                                                                   m²
+
+                                                                                                                  Seite 26 / 35
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+            Für bogenförmige Bearbeitung der Platten, konkav.
+            Betrifft: ____________
+
+28.39 03C   Az Wandv.bogenförm.konvex                                                                                           m²
+            Für bogenförmige Bearbeitung der Platten, konvex.
+            Betrifft: ____________
+28.39 04    Aufzahlung (Az) auf die Positionen Sockelverkleidungen, innen oder außen für die Erschwernis bei gekrümmten
+            Wandflächen.
+
+28.39 04A   Az Sockelv.i.Gehrung polygon                                                                                        m
+            Mit geraden Platten, in Gehrung geschnitten und polygonal versetzt (konvex).
+            Betrifft: ____________
+
+28.39 04B   Az Sockelv.gerade polygon                                                                                           m
+            Mit geraden Platten, gerade geschnitten und polygonal versetzt (konkav).
+
+28.39 04C   Az Sockelv.bogenförm.konkav                                                                                         m
+            Für bogenförmige Bearbeitung der Platten, konkav.
+            Betrifft: ____________
+
+28.39 04D   Az Sockelv.bogenförm.konvex                                                                                         m
+            Für bogenförmige Bearbeitung der Platten, konvex.
+            Betrifft: ____________
+28.39 06    Aufzahlung (Az) auf die Positionen Wandverkleidungen mit Natursteinplatten ohne Unterschied der Art, an
+            Innen- und Außenflächen (I/A-), für Erschwernisse bei Arbeitshöhen über 3,2 m.
+
+28.39 06D   Az I/A-Wandver.ü.3,2-5 o.Gerüst                                                                                     m
+            Höhe über 3,2 bis 5 m, ohne Gerüstung.
+            Abgerechnet wird die Fläche der Wandverkleidung jeweils ab der Höhe von 3,2 m.
+
+28.39 06E   Az I/A-Wandverk.ü.5-8 o.Gerüst                                                                                      m
+            Höhe über 5 bis 8 m, ohne Gerüstung. Abgerechnet wird die Fläche der Wandverkleidung jeweils ab der Höhe
+            von 3,2 m.
+
+28.39 06F   Az I/A-Wandver.ü.8-15 o.Gerüst                                                                                      m
+            Höhe über 8 bis 15 m, ohne Gerüstung.
+            Abgerechnet wird die Fläche der Wandverkleidung jeweils ab der Höhe von 3,2 m.
+
+28.39 06G   Az I/A-Wandver.ü.15-20 o.Gerüst                                                                                     m
+            Höhe über 15 bis 20 m, ohne Gerüstung. Abgerechnet wird die Fläche der Wandverkleidung jeweils ab der
+            Höhe von 3,2 m.
+             Kommentar:
+             Gerüste können mit der LG 04 ausgeschrieben werden. Von einer Standardisierung der Wandverkleidungen einschließlich
+             Gerüstung wurde Abstand genommen, da das Ausmaß der Verkleidung und des Gerüstes voneinander stark abweichen
+             können.
+
+28.39 07    Aufzahlung (Az) auf die Positionen Verkleidungen von freistehenden Pfeilern oder Wandvorlagen mit
+            Natursteinplatten, ohne Unterschied der Art, innen oder außen (I/A-), für Erschwernisse bei Arbeitshöhen über
+            3,2 m.
+
+28.39 07D   Az I/A-Pfeilerver.ü.3,2-5 o.Ger                                                                                     m²
+            Höhe über 3,2 bis 5 m, ohne Gerüstung. Abgerechnet wird die Fläche der Wandverkleidung jeweils ab der Höhe
+            von 3,2 m.
+
+28.39 07E   Az I/A-Pfeilerverk.ü.5-8 o.Ger                                                                                      m²
+            Höhe über 5 bis 8 m, ohne Gerüstung. Abgerechnet wird die Fläche der Wandverkleidung jeweils ab der Höhe
+            von 3,2 m.
+             Kommentar:
+             Gerüste können mit der LG 04 ausgeschrieben werden. Von einer Standardisierung der Pfeilerverkleidungen einschließlich
+             Gerüstung wurde Abstand genommen, da das Ausmaß der Verkleidung und des Gerüstes voneinander stark abweichen.
+
+28.41       Fenster- und Türumrahmung, innen (I-)
+                                                                                                                          Seite 27 / 35
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+28.41 01    Fensterbänke innen aus Naturstein, Sichtkanten abgefast. Auf vorbereitetem Untergrund im Mörtelbett verlegt.
+            In den Einheitspreisen sind etwaige Stemmarbeiten und die seitlichen Abdichtungen mit elastischem Dichtstoff,
+            jedoch keine Verputzarbeiten, einkalkuliert.
+
+28.41 01A   I-Fensterbank Mört.1,5 K220                                                                                 m
+            Sichtflächen fein geschliffen (K220). Einzellänge bis 1,5 m.
+            Breite: ____________
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.41 01B   I-Fensterbank Mört.1,5 pol.                                                                                 m
+            Sichtflächen poliert. Einzellänge bis 1,5 m.
+            Breite: ____________
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.41 01C   I-Fensterbank Mörtel                                                                                        m
+            Sichtflächenbearbeitung: ____________
+            Einzellänge: ____________
+            Breite: ____________
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.41 02    Fensterbänke innen aus Naturstein, Sichtkanten abgefast. Auf vorbereitetem Untergrund im Dünnbettverfahren
+            verlegt. In den Einheitspreisen sind etwaige Stemmarbeiten und die seitlichen Abdichtungen mit elastischem
+            Dichtstoff, jedoch keine Verputzarbeiten, einkalkuliert.
+
+28.41 02A   I-Fensterbank Dünnb.1,5 K220                                                                                m
+            Sichtflächen fein geschliffen (K220). Einzellänge bis 1,5 m.
+            Breite: ____________
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.41 02B   I-Fensterbank Dünnb.1,5 pol.                                                                                m
+            Sichtflächen poliert. Einzellänge bis 1,5 m.
+            Breite: ____________
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.41 02C   I-Fensterbank Dünnb.                                                                                        m
+            Sichtflächenbearbeitung: ____________
+            Einzellänge: ____________
+            Breite: ____________
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.41 05    Aufzahlung auf die Positionen Fensterbänke innen ohne Unterschied der Art.
+
+28.41 05A   Az Fensterb.inn.Schwitzw.Rinne                                                                              m
+            Für das Herstellen von Schwitzwasserrinnen.
+
+28.41 10    Seitliche Gewände aus Naturstein.
+
+28.41 10A   I-Türgewände                                                                                                m
+            Von Türen gemäß Skizze: ____________
+            Gesteinsmaterial: ____________
+            Sonstige Angaben: ____________
+
+28.41 10B   I-Fenstergewände                                                                                            m
+            Von Fenstern gemäß Skizze: ____________
+            Gesteinsmaterial: ____________
+            Sonstige Angaben: ____________
+
+28.41 12    Stürze aus Naturstein.
+
+28.41 12A   I-Türstürze                                                                                                 m
+
+                                                                                                                  Seite 28 / 35
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+            Von Türen gemäß Skizze: ____________
+            Gesteinsmaterial: ____________
+            Sonstige Angaben: ____________
+
+28.41 12B   I-Fensterstürze                                                                                                 m
+            Von Fenstern gemäß Skizze: ____________
+            Gesteinsmaterial: ____________
+            Sonstige Angaben: ____________
+
+28.42       Fenster- und Türumrahmungen, außen (A-)
+28.42 01    Fensterbänke außen aus Naturstein, Sichtkanten abgefast, einschließlich Tropfkante (Wassernase). Auf
+            vorbereitetem Untergrund im Mörtelbett verlegt. In den Einheitspreisen sind etwaige Stemmarbeiten und die
+            seitlichen Abdichtungen mit elastischem Dichtstoff, jedoch keine Verputzarbeiten, einkalkuliert.
+
+28.42 01A   A-Fensterbank Mört.1,5 K220                                                                                     m
+            Sichtflächen fein geschliffen (K220). Einzellänge bis 1,5 m.
+            Breite: ____________
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.42 01B   A-Fensterbank Mört.1,5 pol.                                                                                     m
+            Sichtflächen poliert. Einzellänge bis 1,5 m.
+            Breite: ____________
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.42 01C   A-Fensterbank Mörtel                                                                                            m
+            Sichtflächenbearbeitung: ____________
+            Einzellänge: ____________
+            Breite: ____________
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.42 02    Fensterbänke außen aus Naturstein, Sichtkanten abgefast, einschließlich Tropfkante (Wassernase). Auf
+            vorbereitetem Untergrund im Dünnbettverfahren verlegt. In den Einheitspreisen sind etwaige Stemmarbeiten
+            und die seitlichen Abdichtungen mit elastischem Dichtstoff, jedoch keine Verputzarbeiten, einkalkuliert.
+
+28.42 02A   A-Fensterbank Dünnb.1,5 K220                                                                                    m
+            Sichtflächen fein geschliffen (K220). Einzellänge bis 1,5 m.
+            Breite: ____________
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.42 02B   A-Fensterbank Dünnb.1,5 pol.                                                                                    m
+            Sichtflächen poliert. Einzellänge bis 1,5 m.
+            Breite: ____________
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.42 02C   A-Fensterbank Dünnb.                                                                                            m
+            Sichtflächenbearbeitung: ____________
+            Einzellänge: ____________
+            Breite: ____________
+            Gesteinsmaterial: ____________
+            Plattendicke: ____________
+
+28.42 05    Aufzahlung auf die Positionen Fensterbänke, außen ohne Unterschied der Art.
+
+28.42 05A   Az Fensterb.auß.seitl.Rille                                                                                     Stk
+            Für das Herstellen von seitlichen Rillen, ohne Unterschied der Rilleneinzellängen.
+
+28.42 10    Seitliche Gewände aus Naturstein.
+
+28.42 10A   A-Türgewände                                                                                                    m
+
+
+                                                                                                                      Seite 29 / 35
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+            Von Türen gemäß Skizze: ____________
+            Gesteinsmaterial: ____________
+            Sonstige Angaben: ____________
+
+28.42 10B   A-Fenstergewände                                                                                          m
+            Von Fenstern gemäß Skizze: ____________
+            Gesteinsmaterial: ____________
+            Sonstige Angaben: ____________
+
+28.42 12    Stürze aus Naturstein.
+
+28.42 12A   A-Türstürze                                                                                               m
+            Von Türen gemäß Skizze: ____________
+            Gesteinsmaterial: ____________
+            Sonstige Angaben: ____________
+
+28.42 12B   A-Fensterstürze                                                                                           m
+            Von Fenstern gemäß Skizze: ____________
+            Gesteinsmaterial: ____________
+            Sonstige Angaben: ____________
+
+28.80       Instandsetzungsarbeiten
+            LB-Version: 23               Geringfügig Geändert
+28.80 01    Herstellen von Trennschnitten in Natursteinböden mit Trennscheibe.
+
+28.80 01A   Trennschnitt im Bodenbel.2cm                                                                              m
+            Bis 2 cm tief.
+            Gesteinsart: ____________
+
+28.80 01B   Trennschnitt im Bodenbel.3cm                                                                              m
+            Über 2 bis 3 cm tief.
+            Gesteinsart: ____________
+
+28.80 01C   Trennschnitt im Bodenbel.                                                                                 m
+            Schnitttiefe: ____________
+            Gesteinsart: ____________
+28.80 02    Nassschneiden von Natursteinböden, einschließlich Absaugen der Flüssigkeit sowie Schützen der
+            angrenzenden Teile vor Nässe und Verschmutzung.
+
+28.80 02A   Nassschneiden im Bodenbel.2cm                                                                             m
+            Bis 2 cm tief.
+            Gesteinsart: ____________
+
+28.80 02B   Nassschneiden im Bodenbel.3cm                                                                             m
+            Über 2 bis 3 cm tief.
+            Gesteinsart: ____________
+
+28.80 02C   Nassschneiden im Bodenbel.                                                                                m
+            Schnitttiefe: ____________
+            Gesteinsart: ____________
+28.80 03    Einzelne Bodennatursteinplatten nach Angabe des Auftraggebers einschließlich Mörtelbett auslösen und durch
+            neue ähnliche Platten ersetzen, einschließlich Mörtelbett. Abgerechnet wird je Platte.
+
+28.80 03A   Einzel.Bod-Steinpl.ersetzen b.0,16                                                                        Stk
+            Plattengröße bis 0,16 m2.
+            Gesteinsart/Sorte: ____________
+
+28.80 03B   Einzel.Bod-Steinpl.ersetzen ü.0,16-0,25                                                                   Stk
+            Plattengröße über 0,16 bis 0,25 m2.
+            Gesteinsart/Sorte: ____________
+
+28.80 03C   Einzel.Bod-Steinpl.ersetzen                                                                               Stk
+                                                                                                                Seite 30 / 35
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+            Gesteinsart/Sorte: ____________
+            Plattengröße/Dicke: ____________
+28.80 04    Bodennatursteinplatten nach Angabe des Auftraggebers einschließlich Mörtelbett auslösen und durch neue
+            ähnliche Platten ersetzen, einschließlich Mörtelbett. Abgerechnet wird die Summe der Einzelflächen.
+
+28.80 04A   Bod-Steinplatten ersetz.b.2/0,16m2                                                                        m²
+            Einzelflächen über 0,5 bis 2 m2. Plattengröße bis 0,16 m2.
+            Gesteinsart/Sorte: ____________
+
+28.80 04B   Bod-Steinplatten ersetz.b.2/0,25m2                                                                        m²
+            Einzelflächen über 0,5 bis 2 m2. Plattengröße über 0,16 bis 0,25 m2.
+            Gesteinsart/Sorte: ____________
+
+28.80 04C   Bod-Steinplatten ersetzen                                                                                 m²
+            Gesteinsart/Sorte: ____________
+            Plattengröße/Dicke: ____________
+            Einzelflächen: ____________
+
+28.80 07    Sockelleisten nach Angabe des Auftraggebers auslösen und durch neue passende ersetzen oder fehlende
+            ergänzen, einschließlich etwaiger Stemmarbeiten. Ohne Unterschied der Plattengröße. Abgerechnet wird je
+            Stück Sockelleiste.
+
+28.80 07A   Einzel.Sockell.ersetzen 1/8cm                                                                             Stk
+            Bis 1 cm dick und 8 cm hoch.
+            Gesteinsart/Sorte: ____________
+
+28.80 07B   Einzel.Sockell.ersetzen 2/10cm                                                                            Stk
+            Über 1 bis 2 cm dick, über 8 bis 10 cm hoch.
+            Gesteinsart/Sorte: ____________
+28.80 10    Einsetzen von Vierungen, dem vorhandenen Natursteinmaterial gleich.
+
+28.80 10A   Vierungen einsetzen 15x15x8cm                                                                             Stk
+            Bis zu einer Einzelgröße von 15 x 15 cm bis 8 cm dick.
+            Bereich/Gesteinsart: ____________
+
+28.80 10B   Vierungen einsetzen 30x30x8cm                                                                             Stk
+            Einzelgröße über 15 x 15 bis 30 x 30 cm bis 8 cm dick.
+            Bereich/Gesteinsart: ____________
+
+28.80 10C   Vierungen einsetzen                                                                                       Stk
+            Einzelgröße: ____________
+            Bereich/Gesteinsart: ____________
+28.80 11    Überschleifen von Natursteinflächen.
+
+28.80 11A   Überschleif.Bodenbelag innen                                                                              m²
+            Von Bodenbelägen innen.
+            Betrifft: ____________
+
+28.80 11B   Überschleif.Bodenbelag außen                                                                              m²
+            Von Bodenbelägen außen.
+            Betrifft: ____________
+
+28.80 11C   Überschl.Wand-Sockelverkl.inn.                                                                            m²
+            Von Wand-, Pfeiler- oder Sockelverkleidungen innen.
+            Betrifft: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+28.80 11D   Überschl.Wand-Sockelverkl.auß.                                                                            m²
+            Von Wand-, Pfeiler- oder Sockelverkleidungen außen.
+            Betrifft: ____________
+
+
+                                                                                                                Seite 31 / 35
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+28.80 12    Stufentrittflächen vollflächig stocken. Ohne Unterschied, der Gesteinsart. Abgerechnet wird die Summe der
+            Stufenlängen, ohne Unterschied, ob gerade oder spitze Stufen, gemessen die Länge der vorderen Sichtkante.
+
+28.80 12A   Stufen vollfläch.stocken                                                                                          m
+28.80 14    Massivstufen aus Naturstein (z.B. Kalkstein, Marmor, Sandstein) reinigen. Die etwaigen Richtlinien des
+            Bundesdenkmalamtes (BDA) werden eingehalten. Abgerechnet wird die Summe der Stufenlängen, ohne
+            Unterschied, ob gerade oder spitze Stufen, gemessen die Länge der vorderen Sichtkante.
+
+28.80 14A   Naturst.Trittst.reinig.bürsten                                                                                    m
+            Reinigen der Trittstufenflächen durch bürsten (händisch).
+
+28.80 14B   Naturst.Setzst.reinig.bürsten                                                                                     m
+            Reinigen der Setzstufenflächen durch bürsten (händisch).
+
+28.80 14C   Naturst.Trittst.reinig.Sandstr                                                                                    m
+            Reinigen der Trittstufenflächen durch Sandstrahlen.
+
+28.80 14D   Naturst.Setzst.reinig.Sandstr.                                                                                    m
+            Reinigen der Setzstufenflächen durch Sandstrahlen.
+
+28.80 14E   Naturst.Trittst.überschleifen                                                                                     m
+            Trittstufenflächen überschleifen.
+
+28.80 15    Massivstufen aus Naturstein (z.B. Kalkstein, Marmor, Sandstein) instandsetzen durch
+            schwalbenschwanzförmiges Einsetzen von Vierungen, einschließlich der dazu benötigten Vorarbeiten. Die
+            etwaigen Richtlinien des Bundesdenkmalamtes werden eingehalten.
+
+28.80 15A   Steinstufe Vierung Kstst.10x10                                                                                    Stk
+            Aus Kunststeinmaterial (Kstst.), farblich angepasst, Einzelgröße bis 10 x 10 x 5 cm.
+
+28.80 15B   Steinstufe Vierung Kstst.20x10                                                                                    Stk
+            Aus Kunststeinmaterial (Kstst.), farblich angepasst, Einzelgröße über 10 x 10 x 5 bis 20 x 10 x 5 cm.
+
+28.80 15C   Steinstufe Vierung Kstst.30x15                                                                                    Stk
+            Aus Kunststeinmaterial (Kstst.), farblich angepasst, Einzelgröße über 20 x 10 x 5 bis 30 x 15 x 5 cm.
+
+28.80 15E   Steinstuf.Vierung Nstein 10x10                                                                                    Stk
+            Aus Natursteinmaterial (Nstein), farblich angepasst, mit möglichst ähnlichem Material, Einzelgröße bis 10 x 10 x
+            5 cm.
+
+28.80 15F   Steinstuf.Vierung Nstein 20x10                                                                                    Stk
+            Aus Natursteinmaterial (Nstein), farblich angepasst, mit möglichst ähnlichem Material, Einzelgröße über 10 x 10
+            x 5 bis 20 x 10 x 5 cm.
+
+28.80 15G   Steinstuf.Vierung Nstein 30x15                                                                                    Stk
+            Aus Natursteinmaterial (Nstein), farblich angepasst, mit möglichst ähnlichem Material, Einzelgröße über 20 x 10
+            x 5 bis 30 x 15 x 5 cm.
+28.80 16    Gereinigte (eigene Position) ausgetretene Trittstufenflächen von Natursteinstufen (Nt-stufe) mit Kunststein
+            inkrustieren, einschließlich Einsetzen der zu inkrustierenden Flächen (der Querschnitt der Stufen darf nicht unter
+            die statisch zulässige Dicke geschwächt werden) und Aufbringen einer Haftbrücke. Abgerechnet wird die
+            Summe der vorderen Sichtkanten, ohne Unterschied, ob gerade oder spitze Stufen.
+
+28.80 16A   Nt-stufe inkrustier+schleifen                                                                                     m
+            Nach Erhärtung schleifen.
+
+28.80 16B   Nt-stufe inkrustier+stocken                                                                                       m
+            Nach Erhärtung stocken.
+
+28.81       Natursteinreinigung, Konservierung
+
+
+
+                                                                                                                        Seite 32 / 35
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+28.81 01    Reinigen der Natursteinflächen durch Berieseln und Bürsten mit vom Auftraggeber beigestelltem
+            Leitungswasser ab Hausanschluss. Im Einheitspreis ist die schadenfreie Ableitung des gebrauchten,
+            verunreinigten Wassers je nach örtlicher Möglichkeit einkalkuliert.
+
+28.81 01A   Steinfl.Berieseln+Bürsten M2                                                                                     m²
+            Abgerechnet wird die projizierte Ansichtsfläche.
+            Betrifft Bauteil: ____________
+            Gesteinsart: ____________
+
+28.81 01B   Steinfl.Berieseln+Bürsten PA                                                                                     PA
+            Betrifft Bauteil: ____________
+            Gesteinsart: ____________
+28.81 02    Hydrophobieren der gewaschenen Natursteinflächen.
+
+28.81 02A   Steinfl.Hydrophobieren M2                                                                                        m²
+            Abgerechnet wird die projizierte Ansichtsfläche.
+            Hydrophobieren mit: ____________
+            Betrifft Bauteil: ____________
+            Gesteinsart: ____________
+
+28.81 02B   Steinfl.Hydrophobieren PA                                                                                        PA
+            Hydrophobieren mit: ____________
+            Betrifft Bauteil: ____________
+            Gesteinsart: ____________
+
+28.81 03    Verfestigen der Natursteinflächen mit Kieselsäureester.
+
+28.81 03A   Verfestig.Kieselsäureester M2                                                                                    m²
+            Abgerechnet wird die projizierte Ansichtsfläche.
+            Betrifft Bauteil: ____________
+            Gesteinsart: ____________
+
+28.81 03B   Verfestig.Kieselsäureester ST                                                                                    Stk
+            Betrifft Bauteil: ____________
+            Gesteinsart: ____________
+
+28.90       Regieleistungen
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen.
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+
+
+
+                                                                                                                       Seite 33 / 35
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+            LB-Version: 23                 Geringfügig Geändert
+28.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+28.90 00C   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+28.90 01    Regiestunden einschließlich Benützung von Kleingeräten.
+
+28.90 01A   Regiestunde Facharbeiter                                                                                     h
+            Für Facharbeiter.
+
+28.90 01B   Regiestunde Hilfsarbeiter                                                                                    h
+            Für Hilfsarbeiter.
+
+28.90 02    Mörtel für Verlegearbeiten im Mörtelbett.
+
+28.90 02A   Verlegemörtel                                                                                                l
+28.90 03    Klebemörtel zementgebunden, ohne Unterschied der Farbe. Abgerechnet wird die Masse der Gebinde.
+
+28.90 03A   Klebemörtel zementgebunden                                                                                   kg
+28.90 04    Verfugungsmörtel mit grauem Zement oder Weißzement.
+
+28.90 04A   Verfugungsmörtel                                                                                             l
+28.90 05    Verfugungsmasse zementgebunden. Abgerechnet wird die Masse der Gebinde.
+
+28.90 05A   Fugenmasse zementg.weiß od.grau                                                                              kg
+            Farbe weiß oder grau.
+
+            LB-Version: 23                 Geringfügig Geändert
+
+28.90 05B   Fugenmasse zementg.farbig                                                                                    kg
+            In handelsüblichen Farben.
+
+            LB-Version: 23                 Geringfügig Geändert
+28.90 07    Distanzhalter.
+
+28.90 07A   Distanzhalter PVC 1cm                                                                                        Stk
+            Aus PVC, 1 cm dick.
+
+28.90 07B   Distanzhalter Kautsch.1cm                                                                                    Stk
+            Aus Kautschuk, 1 cm dick.
+
+28.90 07C   Distanzhalter verstellbar                                                                                    Stk
+            Verstellbar: ____________
+
+28.90 08    Zusätzlicher An- und Abtransport der Fußbodenschleifmaschine auf die Baustelle.
+
+28.90 08A   Bodenschleifmasch.Transport                                                                                  PA
+28.90 09    Fußbodenschleifmaschine einschließlich Schleifmittel. Verrechnet wird nur die tatsächliche Betriebszeit ohne
+            Arbeiter.
+
+28.90 09A   Bodenschleifmaschine                                                                                         h
+
+28.90 51    Materiallieferungen f.Regieleistungen                                                                        VE
+
+                                                                                                                   Seite 34 / 35
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                   EH
+           Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+           ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+           Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+           nach ÖNORM B 2061).
+           Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+           berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+           unberücksichtigt.
+           Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+           Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+           eingesetzt.
+           1 VE = 1 EURO
+           Beispiel:
+           angebotener Prozentsatz: +12%
+           als Einheitspreis einzusetzen: 1,12
+           LB-Version: 23              Geringfügig Geändert
+
+
+
+
+                                                                                                                 Seite 35 / 35
+                                                                                            ib-data GmbH, Softwareentwicklung
+

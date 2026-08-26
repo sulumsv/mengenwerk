@@ -1,0 +1,2016 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+           Leistungsgruppe (LG) 68 - Vorgehängte hinterlüftete Fassaden
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 6800    Wählbare Vorbemerkungen
+                     ULG 6801    Besondere Umstände der Leistungserbringung
+                     ULG 6811    Großformat auf Holz-UK sichtbar geschraubt
+                     ULG 6812    Großformat auf Alu-UK sichtbar genietet
+                     ULG 6813    Großformat auf Alu-UK verdeckt befestigt (HS)
+                     ULG 6814    Großformat auf Alu-UK verdeckt befestigt
+                     ULG 6821    Stulpdeckung auf Holz-UK sichtbar geschraubt
+                     ULG 6822    Stulpdeckung auf Holz-UK verdeckt geschraubt
+                     ULG 6823    Stulpdeckung auf Alu-UK sichtbar genietet
+                     ULG 6824    Stulpdeckung auf Alu-UK verdeckt genietet
+                     ULG 6831    Kleinformat auf Holz-UK sichtbar befestigt
+                     ULG 6832    Kleinformat auf Holz-UK verdeckt befestigt
+                     ULG 6841    Siding auf Alu-UK verdeckt befestigt
+                     ULG 6842    Siding auf Stahl-UK/Wandkasetten verdeckt befestigt
+                     ULG 6861    Profilierte Bekl.auf Alu-UK verdeckt befestigt
+                     ULG 6862    Profilierte Bekl.auf Alu-UK sichtbar befestigt
+                     ULG 6863    Profilierte Bekl.auf Stahl-UK sichtbar befestigt
+                     ULG 6881    Sonstiges und Aufzahlungen
+                     ULG 6890    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 34
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                      EH
+
+68         Vorgehängte hinterlüftete Fassaden
+           Version 022 (2021-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           1. Allgemeines:
+           Verordnungen und Zulassungen, die das System beziehungsweise die Systemkomponenten betreffen und für
+           den angegeben Standort, den Gebäudezweck und die angegebene Gebäudehöhe zutreffen, gelten als
+           Vertragsbestandteil.
+           Eine Leistungserklärung ist spätesten zum Zeitpunkt der ersten Anlieferung beizubringen.
+           2. Planungsunterlagen des Auftraggebers (Ausführungsplanung):
+           Der Auftraggeber stellt als Unterlagen zum Leistungsverzeichnis eine Ausführungsplanung unter
+           Berücksichtigung der Vorgaben der Behörden (z.B. Brandschutz) und der bauphysikalischen Gutachten zur
+           Verfügung.
+           Die Ausführungsplanung enthält:
+               • eine maßstäbliche und bemaßte Darstellung der Ansichten
+               • eine maßstäbliche und bemaßte Darstellung der (Haupt) Schnitte
+               • eine maßstäbliche und bemaßte Darstellung der Baukörperanschlüsse
+               • Angaben zur Art der Fassadenbekleidung
+               • Angaben zur Oberflächenausführung
+           3. Vorgehängte, hinterlüftete Fassaden:
+           Im Folgenden sind Gesamtsysteme, bestehend aus Unterkonstruktion, Verankerungs-, Verbindungs- und
+           Befestigungselementen, Hinterlüftungsspalt und Außenschicht beschrieben.
+           4. Wärmegedämmte, hinterlüftete Fassaden:
+           Im Folgenden sind vorgehängte, hinterlüftete Fassaden mit zusätzlicher Wärmedämmung durch
+           Wärmedämmstoffe der Euroklasse mindestens A2 gemäß EN 13501-1, die systemkonform an der Außenwand
+           verankert werden, beschrieben.
+           5. Unterkonstruktion:
+           Ausgeführt wird eine Systemkonstruktion eines Herstellers, die auf das Material der Außenschicht und die
+           Dämmstoffdicke abgestimmt ist und den statischen und bauphysikalischen Erfordernissen gemäß der vom
+           Auftraggeber bekannt gegebenen Allgemeinen Beschreibung des Gebäudes entspricht.
+           Es werden Distanzhalter (Wandstützen) verwendet, die einen Ausgleich von Wandtoleranzen bis zu 35 mm
+           ohne zusätzliche Kosten ermöglichen und mit einer Kunststoffunterlage zur thermischen Trennung vom
+           Baukörper montiert werden.
+           Die Tragprofile sind dehnungsgerecht mittels Fix- und Gleitpunkte montiert.
+           Der statische Nachweis des Befestigungssystems wird vom Auftragnehmer vorgelegt.
+           6. Be- und Hinterlüftung:
+           Für eine wirksame Be- und Hinterlüftung wird die Außenschicht mit einem lichten Abstand von mindestens 20
+           mm und höchstens 50 mm vor der Wärmedämmung montiert.
+           Die ungehinderte Hinterlüftung der gesamten Außenschicht oder aller abgeschlossenen Teilbereiche von unten
+           nach oben ist durch die Art der Unterkonstruktion und Befestigung der Außenschicht sichergestellt.
+           Die untere Lufteintrittsöffnung und der obere Luftaustritt sind durch Lüftungsgitter aus nicht rostendem Metall
+           verschlossen. Diese ermöglichen einen wirksamen Lüftungsquerschnitt von mindestens 150 cm2/m bei
+           Holz-Unterkonstruktionen und 50 cm2/m bei metallischen Unterkonstruktionen.
+           7. Außenschicht:
+           7.1 Faserzement (FZ)
+           7.2 High Pressure Laminate (HPL)
+           7.3 Aluminium-Verbund (AluV)
+           7.4 Aluminium (Alu)
+           7.5 Edelstahl (V2A)
+           7.6 Titanzink (TiZi)
+           7.7 verzinkt beschichtetes Stahlblech (VZB)
+           7.8 Kupfer (CU)
+           7.9 Faserbeton (FB)
+           7.10 Glas
+           7.11 Kunststoffglas (KSTG)
+                                                                                                                      Seite 2 / 34
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+
+            7.12 gepresste Steinwollplatten (HPST)
+            7.13 Ton/Keramik (TON)
+            7.14 Kunststoff (KST)
+            7.15 Holz
+            7.16 Mineralwerkstoffe (MWST)
+            8. Befestigungssysteme:
+            Die Befestigung der Tafeln erfolgt technisch zwängungsfrei nach den Angaben des Systemherstellers.
+            Alle sichtbaren Befestigungselemente sind farblich der Oberfläche der Fassadentafeln angepasst.
+            9. Oberflächenfarbe:
+            Gemäß Standardkollektion des Tafelherstellers.
+            9.1 Standardfarben: Standardfarben sind Farben (nach Wahl des Auftraggebers), für die der Hersteller keinen
+            Aufpreis verlangt.
+            9.2.Sonderfarben: Sonderfarben sind Farben (nach Wahl des Auftraggebers), für die der Hersteller einen
+            Aufpreis vorsieht (Aufzahlungen).
+            10. Fugenausbildung:
+            Die Fugenausbildung erfolgt technisch zwängungsfrei nach den Angaben des Systemherstellers.
+            11. Profile:
+            Trennprofile, Stoßbleche, Leibungs- und Sturzprofile werden aus geeignetem korrosionsbeständigem Material
+            hergestellt.
+            12. Abrechnung:
+            Die Abrechnung erfolgt gemäß ÖNORM für Dachdeckerarbeiten.
+            13. Einkalkulierte Leistungen:
+            Eine Leistungserklärung ist spätesten zum Zeitpunkt der ersten Anlieferung beizubringen und in die
+            Einheitspreise einkalkuliert.
+             Kommentar:
+             Gerüste für eine Arbeitshöhe über 3,2 m sind in der LG 04 beschrieben.
+             Brandschutz- und Brandrauchsteuerklappen sind z.B. in der LB-HT beschrieben.
+             Literaturverzeichnis (z.B.):
+                  • ÖNORM B 13022: Glas im Bauwesen - Geklebte Verglasungen
+                  • ÖNORM B 5300: Fenster - Anforderungen - Ergänzungen zur ÖNORM EN 14351-1
+                  • ÖNORM B 5320: Einbau von Fenstern und Türen in Wände - Planung und Ausführung des Bau- und des
+                    Fenster/Türanschlusses
+                  • ÖNORM B 5339: Außentüren - Anforderungen - Ergänzungen zur ÖNORM EN 14351-1
+                  • ÖNORM B 3716: Glas im Bauwesen - Konstruktiver Glasbau
+                  • ÖNORM EN 13830: Vorhangfassaden - Produktnorm
+                  • ÖNORM EN 14351-1: Fenster und Türen - Produktnorm, Leistungseigenschaften - Teil 1: Fenster und Außentüren
+                    ohne Eigenschaften bezüglich Feuerschutz und/oder Rauchdichtheit
+                  • ÖNORM EN 1991-1-7: Eurocode 1 - Einwirkungen auf Tragwerke - Teil 1-7: Allgemeine Einwirkungen -
+                    Außergewöhnliche Einwirkungen (konsolidierte Fassung)
+                  • OIB Richtlinie 4: Nutzungssicherheit und Barrierefreiheit
+                  • OIB Richtlinie 5: Schallschutz
+                  • OIB Richtlinie 6: Energieeinsparung und Wärmeschutz
+                  • Gütevorschriften GSB (http://www.gsb-international.de/)
+                  • Gütevorschriften QUALICOAT (http://www.qualicoat.net/main/home.htlm)
+                  • Gütevorschriften OFI (http://www.ofi.at/zertifizierung.htlm)
+
+            LB-Version: 23                  Geringfügig Geändert
+
+68.00       Wählbare Vorbemerkungen
+            LB-Version: 23
+68.00 01    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+68.00 01A   Allgemeine Beschreibung des Gebäudes
+            Adresse: ____________
+            Gebäudewidmung: ____________
+            Höhe des Gebäudes (absolute Höhe):____________
+            Art der vorgehängten Fassade: ____________
+            Geländekategorie: ____________
+                                                                                                                         Seite 3 / 34
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+            Gebäudeklasse: ____________
+            Basis-Windgeschwindigkeit: ____________
+            Zusätzliche Feuerschutzbestimmungen: ____________
+            Angaben zu den Gebäudeaußenkanten (z.B. Länge): ____________
+            LB-Version: 23                 Geringfügig Geändert
+
+68.00 01B   Bemusterung Handmuster
+            Angaben zur Bemusterung: ____________
+            Betrifft Position(en): ____________
+            Mit der Produktion wird erst nach Freigabe durch den Auftraggeber begonnen.
+
+68.00 01C   Bemusterung an der Fassade
+            Angaben zur Bemusterung/zum Herstellen von Musterflächen: ____________
+            Betrifft Position(en): ____________
+            Mit der Produktion wird erst nach Freigabe durch den Auftraggeber begonnen.
+
+68.00 01D   Montage UK Fassadensystem
+            Für die Verankerung der vorgehängten Fassade am Baukörper (Untergrund) stehen je Geschoß die
+            angegebenen tragfähigen Bauteile zur Verfügung: ____________
+            Betrifft Position(en): ____________
+             Kommentar:
+             Bei unterschiedlichen Montageverhältnissen innerhalb eines Leistungsverzeichnisses können unterschiedliche
+             Vorbemerkungen gewählt werden. In diesem Fall sollten in der Ausschreiberlücke nicht nur die betroffenen Positionen
+             angegeben werden, sondern auch deren Anteil in Prozent an der gesamten Positionsmenge.
+
+68.00 01V   Verfügbarkeit von Beilagen zum LV
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von (z.B. Plänen)/wie (z.B. im PDF-Format): ____________
+            Betrifft Position(en): ____________
+
+68.01       Besondere Umstände der Leistungserbringung
+             Kommentar:
+             Die Beschreibung der Leistung bleibt in der Regel unvollständig, wenn nicht alle Angaben getätigt und/
+             oder Ausschreiberlücken ausgefüllt werden.
+
+68.01 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+68.01 00A   Vermessung/Bezugssystem vom AG
+            Der Auftraggeber stellt dem Auftragnehmer vor Beginn seiner Arbeiten unentgeltlich ein Bezugssystem zur
+            Verfügung. Davon ausgehend misst der Auftragnehmer, ohne gesonderte Vergütung, Bauteilachsen und Höhen
+            ein.
+            Art des Bezugssystems: ____________
+            Betrifft Position(en): ____________
+
+68.01 00D   Zufahrt zur Baustelle
+            Eine Zufahrt zur Baustelle ist gegeben.
+            beschränkte Radlast: ____________
+            sonstige Einschränkungen: ____________
+            Betrifft Position(en): ____________
+
+68.01 00E   Montagebereich
+            Der Montagebereich ist benutzbar.
+            beschränkte Radlast: ____________
+            sonstige Einschränkungen: ____________
+            Betrifft Position(en): ____________
+
+68.01 00F   Transport- und Hubmöglichkeiten
+
+
+                                                                                                                              Seite 4 / 34
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Dem Auftragnehmer stehen im Baustellenbereich zum Zeitpunkt der Leistungserbringung folgende Transport-
+            und Hubmöglichkeiten unentgeltlich zur Verfügung.
+            Art der Transport- und Hubmöglichkeiten: ____________
+            Hubkapazität: ____________
+            zeitliche Vorgaben/Einschränkungen: ____________
+            Betrifft Position(en): ____________
+
+68.01 00L   Leistungsetappen/Leistungsunterbrechungen
+            Leistungsetappen: ____________
+            sonstige Angaben (z.B. Leistungsunterbrechungen): ____________
+            Betrifft Position(en): ____________
+
+68.11       Großformat auf Holz-UK sichtbar geschraubt
+            1. Großformat, eben verlegt:
+            Es werden Großtafeln oder Zuschnitte aus Großtafeln verwendet und ohne Überlappung eben verlegt.
+            Großtafeln sind Elemente mit einer Fläche größer als 0,6 m2.
+            2. Unterkonstruktion:
+            2.1 Holzunterkonstruktion:
+            Bestehend aus einer horizontalen oder vertikal-horizontal kombinierten Wandkonterlattung und einer vertikalen
+            Traglattung, einschließlich korrosionsgeschützter Befestigungsmittel. Die Traglattung ist vollflächig abgedeckt.
+            Der Ausgleich von Wandunebenheiten bis zu 5 mm ist in die Einheitspreise einkalkuliert.
+            2.2 zusätzliche Metallunterkonstruktion:
+            Kombination aus Aluminiumunterkonstruktion mit vertikaler Holztraglattung. Der Ausgleich von
+            Wandunebenheiten bis zu 35 mm ist in die Einheitspreise einkalkuliert.
+            3. Fugenausbildung:
+            Horizontale und vertikale Tafelfugen sind geschlossen ausgeführt.
+            LB-Version: 23               Geringfügig Geändert
+68.11 01    Wärmegedämmte, hinterlüftete Fassade auf Holz-Unterkonstruktion.
+                • sichtbar befestigt (geschraubt)
+
+68.11 01A   FZ-Großtafel+UK-Holz+WD geschraubt                                                                             m²
+            Mit Großtafeln aus Faserzement (FZ).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.11 01B   HPL-Großtafel+UK-Holz+WD geschraubt                                                                            m²
+            Mit Großtafeln aus High Pressure Laminate (HPL).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.11 01C   AluV-Großtafel+UK-Holz+WD geschraubt                                                                           m²
+            Mit Großtafeln aus Aluminium-Verbund (AluV).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+
+
+                                                                                                                      Seite 5 / 34
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.11 01I   FB-Großtafel+UK-Holz+WD geschraubt                                                                           m²
+            Mit Großtafeln aus Faserbeton (FB).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.11 01K   HPST-Großtafel+UK-Holz+WD geschraubt                                                                         m²
+            Mit Großtafeln aus gepresster Steinwolle (HPST).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.11 01M   MWST-Großtafel+UK-Holz+WD geschraubt                                                                         m²
+            Mit Großtafeln aus Mineralwerkstoffen (MWST)
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+68.11 11    Aufzahlung (Az) auf wärmegedämmte, hinterlüftete Großformat-Fassaden auf Holz-Unterkonstruktion.
+                • sichtbar befestigt (geschraubt)
+                • ohne Unterschied des Materials
+            Für eine 2-schalige Metall-Unterkonstruktion aus Wandkonsolen mit werkseitig integrierten Klemmzungen zur
+            Aufnahme der horizontalen L-Profile (1. Ebene), Mindestdicke 1,6 mm, je nach statischem Erfordernis aus
+            stranggepressten Profilen und vertikaler Holztraglattung (2. Ebene), Dimension je nach Verkleidung und
+            statischen Erfordernissen.
+            Die thermische Trennung zwischen Wandkonsole und Untergrund wird mit einem Isolator der Dicke 5 mm
+            ausgeführt.
+            Die Verarbeitung wird unter Berücksichtigung der Herstellerrichtlinien und der objektbezogenen statischen
+            Berechnungen ausgeführt.
+
+68.11 11A   Az Großtafel+UK-Holz+WD geschraubt f.2-schalig Stahl                                                         m²
+            Aus Stahl korrosionsgeschützt.
+
+68.11 11B   Az Großtafel+UK-Holz+WD geschraubt f.2-schalig Alu                                                           m²
+            Aus Aluminium.
+
+68.12       Großformat auf Alu-UK sichtbar genietet
+            1. Großformat, eben verlegt:
+            Es werden Großtafeln oder Zuschnitte aus Großtafeln verwendet und ohne Überlappung eben verlegt.
+            Großtafeln sind Elemente mit einer Fläche größer als 0,6 m2.
+            2. Unterkonstruktion:
+            Justierbare Aluminium (Alu)-Unterkonstruktion, bestehend aus Wandkonsolen mit werkseitig integrierten
+                                                                                                                    Seite 6 / 34
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            Klemmzungen zur Aufnahme der vertikalen L- oder T-Tragprofile (Mindestdicke 1,6 mm) je nach statischem
+            Erfordernis aus stranggepressten Profilen, sowie allen korrosionsgeschützten Befestigungsmitteln.
+            Die Befestigung der Außenschicht erfolgt auf Profilen, die entsprechend der Anordnung der Plattenfugen
+            thermischer Längenänderungen unterteilt sind.
+            3. Fugenausbildung:
+            Horizontale und vertikale Fugenausbildungen sind offen ausgeführt.
+            LB-Version: 23               Geringfügig Geändert
+68.12 01    Wärmegedämmte, hinterlüftete Fassade auf Aluminium (Alu)-Unterkonstruktion.
+                • sichtbar befestigt (genietet)
+
+68.12 01A   FZ-Großtafel+UK-Alu+WD genietet                                                                             m²
+            Mit Großtafeln aus Faserzement (FZ).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.12 01B   HPL-Großtafel+UK-Alu+WD genietet                                                                            m²
+            Mit Großtafeln aus High Pressure Laminate (HPL).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.12 01C   AluV-Großtafel+UK-Alu+WD genietet                                                                           m²
+            Mit Großtafeln aus Aluminium-Verbund (AluV)
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.12 01D   Alu-Großtafel+UK-Alu+WD genietet                                                                            m²
+            Mit Großtafeln aus Aluminium (Alu).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.12 01E   V2A-Großtafel+UK-Alu+WD genietet                                                                            m²
+            Mit Großtafeln aus Edelstahl (V2A).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+                                                                                                                   Seite 7 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                  EH
+
+            LB-Version: 23               Geringfügig Geändert
+
+68.12 01F   TiZi-Großtafel+UK-Alu+WD genietet                                                          m²
+            Mit Großtafeln aus Titanzink (TiZi).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.12 01G   VZB-Großtafel+UK-Alu+WD genietet                                                           m²
+            Mit Großtafeln aus verzinkt beschichtetem Stahlblech (VZB).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.12 01H   CU-Großtafel+UK-Alu+WD genietet                                                            m²
+            Mit Großtafeln aus Kupfer (Cu).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.12 01I   FB-Großtafel+UK-Alu+WD genietet                                                            m²
+            Mit Großtafeln aus Faserbeton (FB).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.12 01J   KSTG-Großtafel+UK-Alu+WD genietet                                                          m²
+            Mit Großtafeln aus Kunststoffglas (KSTG).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.12 01K   HPST-Großtafel+UK-Alu+WD genietet                                                          m²
+            Mit Großtafeln aus gepressten Steinwolleplatten (HPST).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+
+
+                                                                                                  Seite 8 / 34
+                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.12 01M   MWST-Großtafel+UK-Alu+WD genietet                                                                            m²
+            Mit Großtafeln aus Mineralwerkstoffen (MWST).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+68.12 02    Wärmegedämmte, hinterlüftete Fassade auf Aluminium (Alu)-Unterkonstruktion.
+                • mit Großtafeln aus Ton- oder Keramik (TON)
+                • sichtbar befestigt, mit Klammern genietet
+
+68.12 02A   TON-Großtafel+UK-Alu+WD genietet                                                                             m²
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+68.12 11    Aufzahlung (Az) auf wärmegedämmte, hinterlüftete Großformat-Fassaden auf Aluminium-Unterkonstruktion.
+                • sichtbar befestigt (genietet)
+                • ohne Unterschied des Materials
+
+68.12 11A   Az Großtafel+UK-Alu+WD genietet f.2-schalig                                                                  m²
+            Für eine 2-schalige Alu-Unterkonstruktion, bestehend aus Wandkonsolen, horizontalen Alu-L-Profilen und
+            vertikalen Alu-Tragprofilen.
+
+68.12 11B   Az Großtafel+UK-Alu+WD genietet f.Abdeckbahnen                                                               m²
+            Für das Anbringen UV-beständiger, diffusionsoffenen Abdeckbahnen bei 2-schaligen Alu-Unterkonstruktionen.
+
+68.12 11C   Az Großtafel+UK-Alu+WD genietet f.geschl.V-Fugen                                                             m²
+            Für eine geschlossene Fugenausführung bei vertikalen (V-) Fugen.
+
+68.12 11D   Az Großtafel+UK-Alu+WD genietet f.geschl.H-Fugen                                                             m²
+            Für eine geschlossene Fugenausführung bei horizontale (H-) Fugen.
+
+68.13       Großformat auf Alu-UK verdeckt befestigt (HS)
+            1. Großformat, eben verlegt:
+            Es werden Großtafeln oder Zuschnitte aus Großtafeln verwendet und ohne Überlappung eben verlegt.
+            Großtafeln sind Elemente mit einer Fläche größer als 0,6 m2.
+            2. Unterkonstruktion:
+            Justierbare Aluminium (Alu)-Unterkonstruktion, bestehend aus Wandkonsolen mit werkseitig integrierten
+            Klemmzungen zur Aufnahme der vertikalen L- oder T-Tragprofile (Mindestdicke 1,6 mm) der horizontalen
+            Tragprofile, Agraffen zum Einhängen der Tafeln, je nach statischem Erfordernis aus stranggepressten Profilen,
+            sowie allen korrosionsgeschützten Befestigungsmitteln.
+            Die Befestigung der Außenschicht erfolgt in die Tragprofile, die entsprechend der Anordnung der Tafelfugen und
+            der Befestigungspunkte zum Ausgleich thermischer Längenänderungen unterteilt sind.
+            3. Fugenausbildung:
+            Horizontale und vertikale Tafelfugen sind offen ausgeführt.
+            LB-Version: 23              Geringfügig Geändert
+
+                                                                                                                    Seite 9 / 34
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+68.13 01    Wärmegedämmte, hinterlüftete Fassade auf Aluminium (Alu)-Unterkonstruktion.
+                • verdeckt (nicht sichtbar) befestigt mit Hinterschnittankern (HS)
+
+68.13 01A   FZ-Großtafel+UK-Alu+WD v.befestigt (HS)                                                                       m²
+            Mit Großtafeln aus Faserzement (FZ).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.13 01B   HPL-Großtafel+UK-Alu+WD v.befestigt (HS)                                                                      m²
+            Mit Großtafeln aus High Pressure Laminate (HPL).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.13 01I   FB-Großtafel+UK-Alu+WD v.befestigt (HS)                                                                       m²
+            Mit Großtafeln aus Faserbeton (FB).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.13 01J   KSTG-Großtafel+UK-Alu+WD v.befestigt (HS)                                                                     m²
+            Mit Großtafeln aus Kunststoffglas (KSTG).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.13 01M   MWST-Großtafel+UK-Alu+WD v.befestigt (HS)                                                                     m²
+            Mit Großtafeln aus Mineralwerkstoffen (MWST).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+68.13 02    Wärmegedämmte, hinterlüftete Fassade auf Aluminium (Alu)-Unterkonstruktion.
+                • mit Großtafeln aus Ton- oder Keramik (TON)
+                • verdeckt (nicht sichtbar) befestigt mit Hinterschnittankern (HS), mit Klammern genietet
+
+68.13 02A   TON-Großtafel+UK-Alu+WD v.befestigt (HS)                                                                      m²
+
+                                                                                                                    Seite 10 / 34
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.14       Großformat auf Alu-UK verdeckt befestigt
+            1. Großformat, eben verlegt:
+            Es werden Großtafeln oder Zuschnitte aus Großtafeln verwendet und ohne Überlappung eben verlegt.
+            Großtafeln sind Elemente mit einer Fläche größer als 0,6 m2.
+            2. Unterkonstruktion:
+            Justierbare Aluminium (Alu)-Unterkonstruktion, bestehend aus Wandkonsolen mit werkseitig integrierten
+            Klemmzungen zur Aufnahme der vertikalen L- oder T-Tragprofile (Mindestdicke 1,6 mm) je nach statischem
+            Erfordernis aus stranggepressten Profilen, sowie allen korrosionsgeschützten Befestigungsmitteln.
+            Die Befestigung der Außenschicht erfolgt auf Profilen, die entsprechend der Anordnung der Plattenfugen
+            thermischer Längenänderungen unterteilt sind.
+            3. Fugenausbildung:
+            Horizontale und vertikale Tafelfugen sind offen ausgeführt.
+            LB-Version: 23               Geringfügig Geändert
+68.14 01    Wärmegedämmte, hinterlüftete Fassade auf Aluminium (Alu)-Unterkonstruktion.
+                • verdeckt (nicht sichtbar) befestigt (geklebt)
+
+68.14 01A   FZ-Großtafel+UK-Alu+WD geklebt                                                                              m²
+            Mit Großtafeln aus Faserzement (FZ).
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.14 01B   HPL-Großtafel+UK-Alu+WD geklebt                                                                             m²
+            Mit Großtafeln aus High Pressure Laminate (HPL).
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.14 01C   AluV-Großtafel+UK-Alu+WD geklebt                                                                            m²
+            Mit Großtafeln aus Aluminium-Verbund (AluV)
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.14 01D   Alu-Großtafel+UK-Alu+WD geklebt                                                                             m²
+
+
+                                                                                                                  Seite 11 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                    EH
+            Mit Großtafeln aus Aluminium (Alu).
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.14 01E   V2A-Großtafel+UK-Alu+WD geklebt                                                              m²
+            Mit Großtafeln aus Edelstahl (V2A).
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.14 01F   TiZi-Großtafel+UK-Alu+WD geklebt                                                             m²
+            Mit Großtafeln aus Titanzink (TiZi).
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.14 01G   VZB-Großtafel+UK-Alu+WD geklebt                                                              m²
+            Mit Großtafeln aus verzinkt beschichtetem Stahlblech (VZB).
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.14 01H   CU-Großtafel+UK-Alu+WD geklebt                                                               m²
+            Mit Großtafeln aus Kupfer (Cu).
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.14 01I   FB-Großtafel+UK-Alu+WD geklebt                                                               m²
+            Mit Großtafeln aus Faserbeton (FB).
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+                                                                                                   Seite 12 / 34
+                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+68.14 01J   KSTG-Großtafel+UK-Alu+WD geklebt                                                                           m²
+            Mit Großtafeln aus Kunststoffglas (KSTG).
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.14 01K   HPST-Großtafel+UK-Alu+WD geklebt                                                                           m²
+            Mit Großtafeln aus gepressten Steinwolleplatten (HPST).
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.14 01M   MWST-Großtafel+UK-Alu+WD geklebt                                                                           m²
+            Mit Großtafeln aus Mineralwerkstoffen (MWST).
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+68.14 02    Wärmegedämmte, hinterlüftete Fassade auf Aluminium (Alu)-Unterkonstruktion.
+                • mit Großtafeln aus Ton- oder Keramik (TON)
+                • verdeckt (nicht sichtbar) befestigt (geklebt)
+
+68.14 02A   TON-Großtafel+UK-Alu+WD geklebt                                                                            m²
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+68.14 11    Aufzahlung (Az) auf wärmegedämmte, hinterlüftete Großformat-Fassaden auf Aluminium-Unterkonstruktion.
+                • verdeckt (nicht sichtbar) befestigt (vb geklebt)
+                • ohne Unterschied des Materials
+
+68.14 11A   Az Großtafel+UK-Alu+WD vb geklebt f.2-schalig                                                              m²
+            Für eine 2-schalige Alu-Unterkonstruktion, bestehend aus Wandkonsolen, horizontalen Alu-L-Profilen und
+            vertikalen Alu-Tragprofilen.
+
+68.14 11B   Az Großtafel+UK-Alu+WD vb geklebt f.Abdeckbahnen                                                           m²
+            Für das Anbringen UV-beständiger, diffusionsoffenen Abdeckbahnen bei 2-schaligen Alu-Unterkonstruktionen.
+
+68.14 11C   Az Großtafel+UK-Alu+WD vb geklebt f.geschl.V-Fugen                                                         m²
+            Für eine geschlossene Fugenausführung bei vertikalen (V-) Fugen.
+
+68.14 11D   Az Großtafel+UK-Alu+WD vb geklebt f.geschl.H-Fugen                                                         m²
+            Für eine geschlossene Fugenausführung bei horizontale (H-) Fugen.
+
+                                                                                                                 Seite 13 / 34
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+68.21       Stulpdeckung auf Holz-UK sichtbar geschraubt
+            1. Stulpbekleidungen/Stulpdeckung, horizontal überlappt verlegt:
+            Es werden Großtafel-Zuschnitte als Stulpbekleidung verwendet und mit horizontaler Überlappung verlegt.
+            Großtafeln sind Elemente mit einer Fläche größer als 0,6 m2.
+            2. Unterkonstruktion:
+            2.1 Holzunterkonstruktion:
+            Bestehend aus einer horizontalen oder vertikal-horizontal kombinierten Wandkonterlattung und einer vertikalen
+            Traglattung, einschließlich korrosionsgeschützter Befestigungsmittel. Die Traglattung ist vollflächig abgedeckt.
+            Der Ausgleich von Wandunebenheiten bis zu 5 mm ist in die Einheitspreise einkalkuliert.
+            2.2 zusätzliche Metallunterkonstruktion:
+            Kombination aus Aluminiumunterkonstruktion mit vertikaler Holztraglattung. Der Ausgleich von
+            Wandunebenheiten bis zu 35 mm ist in die Einheitspreise einkalkuliert.
+            3. Fugenausbildung:
+            Vertikale Tafelfugen sind geschlossen ausgeführt.
+            LB-Version: 23               Geringfügig Geändert
+68.21 01    Wärmegedämmte, hinterlüftete Fassade als Stulpdeckung mit horizontaler Überlappung auf
+            Holz-Unterkonstruktion.
+                • sichtbar befestigt (geschraubt)
+
+68.21 01A   FZ-Stulpdeckung+UK-Holz+WD geschraubt                                                                          m²
+            Mit einer Stulpdeckung aus Faserzement (FZ).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.21 01B   HPL-Stulpdeckung+UK-Holz+WD geschraubt                                                                         m²
+            Mit einer Stulpdeckung aus High Pressure Laminate (HPL).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.21 01I   FB-Stulpdeckung+UK-Holz+WD geschraubt                                                                          m²
+            Mit einer Stulpdeckung aus Faserbeton (FB).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________):____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+
+            LB-Version: 23               Geringfügig Geändert
+
+68.21 01K   HPST-Stulpdeckung+UK-Holz+WD geschraubt                                                                        m²
+
+
+                                                                                                                     Seite 14 / 34
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Mit einer Stulpdeckung aus gepresster Steinwolle (HPST).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.21 01M   MWST-Stulpdeckung+UK-Holz+WD geschraubt                                                                        m²
+            Mit einer Stulpdeckung aus Mineralwerkstoffen (MWST).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+68.21 11    Aufzahlung (Az) auf wärmegedämmte, hinterlüftete Fassaden mit einer Stulpdeckung auf
+            Holz-Unterkonstruktion.
+                • sichtbar befestigt (geschraubt)
+                • ohne Unterschied des Materials
+            Für eine 2-schalige Metall-Unterkonstruktion aus Wandkonsolen mit werkseitig integrierten Klemmzungen zur
+            Aufnahme der horizontalen L-Profile (1. Ebene), Mindestdicke 1,6 mm, je nach statischem Erfordernis aus
+            stranggepressten Profilen und vertikaler Holztraglattung (2. Ebene), Dimension je nach Verkleidung und
+            statischen Erfordernissen.
+            Die thermische Trennung zwischen Wandkonsole und Untergrund wird mit einem Isolator der Dicke 5 mm
+            ausgeführt.
+            Die Verarbeitung wird unter Berücksichtigung der Herstellerrichtlinien und der objektbezogenen statischen
+            Berechnungen ausgeführt.
+
+68.21 11A   Az Stulpdeckung+UK-Holz+WD geschraubt f.2-schalig Stahl                                                        m²
+            Aus Stahl korrosionsgeschützt.
+
+68.21 11B   Az Stulpdeckung+UK-Holz+WD geschraubt f.2-schalig Alu                                                          m²
+            Aus Aluminium.
+
+68.22       Stulpdeckung auf Holz-UK verdeckt geschraubt
+            1. Stulpbekleidungen/Stulpdeckung, horizontal überlappt verlegt:
+            Es werden Großtafel-Zuschnitte als Stulpbekleidung verwendet und mit horizontaler Überlappung verlegt.
+            Großtafeln sind Elemente mit einer Fläche größer als 0,6 m2.
+            2. Unterkonstruktion:
+            2.1 Holzunterkonstruktion:
+            Bestehend aus einer horizontalen oder vertikal-horizontal kombinierten Wandkonterlattung und einer vertikalen
+            Traglattung, einschließlich korrosionsgeschützter Befestigungsmittel. Die Traglattung ist vollflächig abgedeckt.
+            Der Ausgleich von Wandunebenheiten bis zu 5 mm ist in die Einheitspreise einkalkuliert.
+            2.2 zusätzliche Metallunterkonstruktion:
+            Kombination aus Aluminiumunterkonstruktion mit vertikaler Holztraglattung. Der Ausgleich von
+            Wandunebenheiten bis zu 35 mm ist in die Einheitspreise einkalkuliert.
+            3. Fugenausbildung:
+            Vertikale Tafelfugen sind geschlossen ausgeführt.
+            LB-Version: 23               Geringfügig Geändert
+
+
+
+
+                                                                                                                     Seite 15 / 34
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+
+68.22 01    Wärmegedämmte, hinterlüftete Fassade als Stulpdeckung mit horizontaler Überlappung auf
+            Holz-Unterkonstruktion.
+                • verdeckt (nicht sichtbar) befestigt (geschraubt)
+
+68.22 01A   FZ-Stulpdeckung+UK-Holz+WD v.geschraubt                                                                  m²
+            Mit einer Stulpdeckung aus Faserzement (FZ).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.22 01B   HPL-Stulpdeckung+UK-Holz+WD v.geschraubt                                                                 m²
+            Mit einer Stulpdeckung aus High Pressure Laminate (HPL).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.22 01I   FB-Stulpdeckung+UK-Holz+WD v.geschraubt                                                                  m²
+            Mit einer Stulpdeckung aus Faserbeton (FB).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.22 01K   HPST-Stulpdeckung+UK-Holz+WD v.geschraubt                                                                m²
+            Mit einer Stulpdeckung aus gepresster Steinwolle (HPST).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+
+            LB-Version: 23              Geringfügig Geändert
+
+68.22 01M   MWST-Stulpdeckung+UK-Holz+WD v.geschraubt                                                                m²
+            Mit einer Stulpdeckung aus Mineralwerkstoffen (MWST).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+
+                                                                                                               Seite 16 / 34
+                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            LB-Version: 23               Geringfügig Geändert
+68.22 11    Aufzahlung (Az) auf wärmegedämmte, hinterlüftete Fassaden mit einer Stulpdeckung auf
+            Holz-Unterkonstruktion.
+                • verdeckt befestigt (geschraubt)
+                • ohne Unterschied des Materials
+            Für eine 2-schalige Metall-Unterkonstruktion aus Wandkonsolen mit werkseitig integrierten Klemmzungen zur
+            Aufnahme der horizontalen L-Profile (1. Ebene), Mindestdicke 1,6 mm, je nach statischem Erfordernis aus
+            stranggepressten Profilen und vertikaler Holztraglattung (2. Ebene), Dimension je nach Verkleidung und
+            statischen Erfordernissen.
+            Die thermische Trennung zwischen Wandkonsole und Untergrund wird mit einem Isolator der Dicke 5 mm
+            ausgeführt.
+            Die Verarbeitung wird unter Berücksichtigung der Herstellerrichtlinien und der objektbezogenen statischen
+            Berechnungen ausgeführt.
+
+68.22 11A   Az Stulpdeckung+UK-Holz+WD v.geschraub f.2-schalig Stahl                                                     m²
+            Aus Stahl korrosionsgeschützt.
+
+68.22 11B   Az Stulpdeckung+UK-Holz+WD v.geschraubt f.2-schalig Alu                                                      m²
+            Aus Aluminium.
+
+68.23       Stulpdeckung auf Alu-UK sichtbar genietet
+            1. Stulpbekleidungen/Stulpdeckung, horizontal überlappt verlegt:
+            Es werden Großtafel-Zuschnitte als Stulpbekleidung verwendet und mit horizontaler Überlappung verlegt.
+            Großtafeln sind Elemente mit einer Fläche größer als 0,6 m2.
+            2. Unterkonstruktion:
+            Justierbare Aluminium (Alu)-Unterkonstruktion, bestehend aus Wandkonsolen mit werkseitig integrierten
+            Klemmzungen zur Aufnahme der vertikalen L- oder T-Tragprofile (Mindestdicke 1,6 mm) je nach statischem
+            Erfordernis aus stranggepressten Profilen, sowie allen korrosionsgeschützten Befestigungsmitteln.
+            Die Befestigung der Außenschicht erfolgt auf Profilen, die entsprechend der Anordnung der Plattenfugen
+            thermischer Längenänderungen unterteilt sind.
+            3. Fugenausbildung:
+            Vertikale Tafelfugen sind offen ausgeführt.
+            LB-Version: 23               Geringfügig Geändert
+68.23 01    Wärmegedämmte, hinterlüftete Fassade als Stulpdeckung mit horizontaler Überlappung auf Aluminium
+            (Alu)-Unterkonstruktion.
+                • sichtbar befestigt (genietet)
+
+68.23 01A   FZ-Stulpdeckung+UK-Alu+WD genietet                                                                           m²
+            Mit einer Stulpdeckung aus Faserzement (FZ).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+
+            LB-Version: 23               Geringfügig Geändert
+
+68.23 01B   HPL-Stulpdeckung+UK-Alu+WD genietet                                                                          m²
+            Mit einer Stulpdeckung aus High Pressure Laminate (HPL).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+                                                                                                                   Seite 17 / 34
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+            LB-Version: 23              Geringfügig Geändert
+
+68.23 01I   FB-Stulpdeckung+UK-Alu+WD genietet                                                                         m²
+            Mit einer Stulpdeckung aus Faserbeton (FB).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.23 01K   HPST-Stulpdeckung+UK-Alu+WD genietet                                                                       m²
+            Mit einer Stulpdeckung aus gepressten Steinwolleplatten (HPST).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.23 01M   MWST-Stulpdeckung+UK-Alu+WD genietet                                                                       m²
+            Mit einer Stulpdeckung aus Mineralwerkstoffen (MWST).
+            Größte Tafelgröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+68.23 11    Aufzahlung (Az) auf wärmegedämmte, hinterlüftete Fassaden mit einer Stulpdeckung auf Aluminium
+            (Alu)-Unterkonstruktion.
+                • sichtbar befestigt (genietet)
+                • ohne Unterschied des Materials
+
+68.23 11A   Az Stulpdeckung+UK-Alu+WD genietet f.2-schalig                                                             m²
+            Für eine 2-schalige Alu-Unterkonstruktion, bestehend aus Wandkonsolen, horizontalen Alu-L-Profilen und
+            vertikalen Alu-Tragprofilen.
+
+68.23 11B   Az Stulpdeckung+UK-Alu+WD genietet f.Abdeckbahnen                                                          m²
+            Für das Anbringen UV-beständiger, diffusionsoffenen Abdeckbahnen bei 2-schaligen Alu-Unterkonstruktionen.
+
+68.23 11C   Az Stulpdeckung+UK-Alu+WD genietet f.geschl.V-Fugen                                                        m²
+            Für eine geschlossene Fugenausführung bei vertikalen (V-) Fugen.
+
+68.24       Stulpdeckung auf Alu-UK verdeckt genietet
+            1. Stulpbekleidungen/Stulpdeckung, horizontal überlappt verlegt:
+            Es werden Großtafel-Zuschnitte als Stulpbekleidung verwendet und mit horizontaler Überlappung verlegt.
+            Großtafeln sind Elemente mit einer Fläche größer als 0,6 m2.
+            2. Unterkonstruktion:
+            Justierbare Aluminium (Alu)-Unterkonstruktion, bestehend aus Wandkonsolen mit werkseitig integrierten
+            Klemmzungen zur Aufnahme der vertikalen L- oder T-Tragprofile (Mindestdicke 1,6 mm) je nach statischem
+            Erfordernis aus stranggepressten Profilen, sowie allen korrosionsgeschützten Befestigungsmitteln.
+
+                                                                                                                 Seite 18 / 34
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            Die Befestigung der Außenschicht erfolgt auf Profilen, die entsprechend der Anordnung der Plattenfugen
+            thermischer Längenänderungen unterteilt sind.
+            3. Fugenausbildung:
+            Vertikale Tafelfugen sind offen ausgeführt.
+            LB-Version: 23               Geringfügig Geändert
+68.24 01    Wärmegedämmte, hinterlüftete Fassade als Stulpdeckung mit horizontaler Überlappung auf Aluminium
+            (Alu)-Unterkonstruktion.
+                • verdeckt (nicht sichtbar) befestigt (genietet)
+
+68.24 01A   FZ-Stulpdeckung+UK-Alu+WD v.genietet                                                                        m²
+            Mit einer Stulpdeckung aus Faserzement (FZ).
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+
+            LB-Version: 23               Geringfügig Geändert
+
+68.24 01B   HPL-Stulpdeckung+UK-Alu+WD v.genietet                                                                       m²
+            Mit einer Stulpdeckung aus High Pressure Laminate (HPL).
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.24 01I   FB-Stulpdeckung+UK-Alu+WD v.genietet                                                                        m²
+            Mit einer Stulpdeckung aus Faserbeton (FB).
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.24 01K   HPST-Stulpdeckung+UK-Alu+WD v.genietet                                                                      m²
+            Mit einer Stulpdeckung aus gepressten Steinwolleplatten (HPST).
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.24 01M   MWST-Stulpdeckung+UK-Alu+WD v.genietet                                                                      m²
+            Mit einer Stulpdeckung aus Mineralwerkstoffen (MWST).
+            Größte Plattengröße (gemäß Plannr.: ____________): ____________
+            Tafelsichtbreite: ____________
+                                                                                                                  Seite 19 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            Fugenteilung (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+68.24 11    Aufzahlung (Az) auf wärmegedämmte, hinterlüftete Fassaden mit einer Stulpdeckung auf Aluminium
+            (Alu)-Unterkonstruktion.
+                • verdeckt (nicht sichtbar) befestigt (genietet)
+                • ohne Unterschied des Materials
+
+68.24 11A   Az Stulpdeckung+UK-Alu+WD v.genietet f.2-schalig                                                             m²
+            Für eine 2-schalige Alu-Unterkonstruktion, bestehend aus Wandkonsolen, horizontalen Alu-L-Profilen und
+            vertikalen Alu-Tragprofilen.
+
+68.24 11B   Az Stulpdeckung+UK-Alu+WD v.genietet f.Abdeckbahnen                                                          m²
+            Für das Anbringen UV-beständiger, diffusionsoffenen Abdeckbahnen bei 2-schaligen Alu-Unterkonstruktionen.
+
+68.24 11C   Az Stulpdeckung+UK-Alu+WD v.genietet f.geschl.V-Fugen                                                        m²
+            Für eine geschlossene Fugenausführung bei vertikalen (V-) Fugen.
+
+68.31       Kleinformat auf Holz-UK sichtbar befestigt
+            1. Kleinformat, horizontal und/oder vertikale überlappt verlegt:
+            Es werden Kleinformat-Tafeln verwendet und mit horizontaler und/oder vertikaler Überlappung verlegt.
+            Kleinformate sind Elemente mit einer Fläche kleiner/gleich 0,6 m2.
+            2. Unterkonstruktion:
+            2.1 Holzunterkonstruktion:
+            Bestehend aus einer horizontalen oder vertikal-horizontal kombinierten Wandkonterlattung und einer vertikalen
+            Traglattung, einschließlich korrosionsgeschützter Befestigungsmittel.
+            Die Traglattung ist vollflächig abgedeckt.
+            Der Ausgleich von Wandunebenheiten bis zu 5 mm ist in die Einheitspreise einkalkuliert.
+            2.2 zusätzliche Metallunterkonstruktion:
+            Kombination aus Aluminiumunterkonstruktion mit vertikaler Holztraglattung. Der Ausgleich von
+            Wandunebenheiten bis zu 35 mm ist in die Einheitspreise einkalkuliert.
+            3. Fugenausbildung:
+            Vertikale Kleinformatfugen sind geschlossen durch Hinterlegung oder Überlappung ausgeführt..
+            LB-Version: 23               Geringfügig Geändert
+68.31 01    Wärmegedämmte, hinterlüftete Fassade auf Holz-Unterkonstruktion.
+                • sichtbar befestigt (genagelt, geschraubt oder gehängt n.W.AN)
+
+68.31 01A   FZ-Kleinformat+UK-Holz+WD sichtbar befestigt                                                                 m²
+            Mit Kleinformattafeln aus Faserzement (FZ).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.31 01B   HPL-Kleinformat+UK-Holz+WD sichtbar befestigt                                                                m²
+            Mit Kleinformattafeln aus High Pressure Laminate (HPL).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+
+
+                                                                                                                   Seite 20 / 34
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                       EH
+
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+68.31 01D   Alu-Kleinformat+UK-Holz+WD sichtbar befestigt                                                   m²
+            Mit Kleinformattafeln aus Aluminium (Alu).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+68.31 01E   V2A-Kleinformat+UK-Holz+WD sichtbar befestigt                                                   m²
+            Mit Kleinformattafeln aus Edelstahl (V2A).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+68.31 01F   TiZi-Kleinformat+UK-Holz+WD sichtbar befestigt                                                  m²
+            Mit Kleinformattafeln aus Titanzink (TiZi).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+68.31 01G   VZB-Kleinformat+UK-Holz+WD sichtbar befestigt                                                   m²
+            Mit Kleinformattafeln aus verzinkt beschichtetem Stahlblech (VZB).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+68.31 01H   CU-Kleinformat+UK-Holz+WD sichtbar befestigt                                                    m²
+            Mit Kleinformattafeln aus Kupfer (Cu).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+68.31 01L   KST-Kleinformat+UK-Holz+WD sichtbar befestigt                                                   m²
+            Mit Kleinformattafeln aus Kunststoff (KST).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+                                                                                                      Seite 21 / 34
+                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.31 01M   MWST-Kleinformat+UK-Holz+WD sichtbar befestigt                                                               m²
+            Mit Kleinformattafeln aus Mineralwerkstoffen (MWST).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.31 01N   Holz-Kleinformat+UK-Holz+WD sichtbar befestigt                                                               m²
+            Mit Kleinformattafeln aus Holz.
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+68.31 11    Aufzahlung (Az) auf wärmegedämmte, hinterlüftete -Fassaden mit Kleinformattafeln auf
+            Aluminium-Unterkonstruktion.
+                • sichtbar befestigt (genagelt, geschraubt oder gehängt n.W.AN)
+                • ohne Unterschied des Materials
+            Für eine 2-schalige Metall-Unterkonstruktion aus Wandkonsolen mit werkseitig integrierten Klemmzungen zur
+            Aufnahme der horizontalen L-Profile (1. Ebene), Mindestdicke 1,6 mm, je nach statischem Erfordernis aus
+            stranggepressten Profilen und vertikaler Holztraglattung (2. Ebene), Dimension je nach Verkleidung und
+            statischen Erfordernissen.
+            Die thermische Trennung zwischen Wandkonsole und Untergrund wird mit einem Isolator der Dicke 5 mm
+            ausgeführt.
+            Die Verarbeitung wird unter Berücksichtigung der Herstellerrichtlinien und der objektbezogenen statischen
+            Berechnungen ausgeführt.
+
+68.31 11A   Az Kleinformat+UK-Holz+WD sichtbar bef.f.2-schalig Stahl                                                     m²
+            Aus Stahl korrosionsgeschützt.
+
+68.31 11B   Az Kleinformat+UK-Holz+WD sichtbar bef.f.2-schalig Alu                                                       m²
+            Aus Aluminium.
+
+68.32       Kleinformat auf Holz-UK verdeckt befestigt
+            1. Kleinformat, horizontal und/oder vertikale überlappt verlegt:
+            Es werden Kleinformat-Tafeln verwendet und mit horizontaler und/oder vertikaler Überlappung verlegt.
+            Kleinformate sind Elemente mit einer Fläche kleiner/gleich 0,6 m2.
+            2. Unterkonstruktion:
+            2.1 Holzunterkonstruktion:
+            Bestehend aus einer horizontalen oder vertikal-horizontal kombinierten Wandkonterlattung und einer vertikalen
+            Traglattung, einschließlich korrosionsgeschützter Befestigungsmittel.
+            Die Traglattung ist vollflächig abgedeckt.
+            Der Ausgleich von Wandunebenheiten bis zu 5 mm ist in die Einheitspreise einkalkuliert.
+            2.2 zusätzliche Metallunterkonstruktion:
+            Kombination aus Aluminiumunterkonstruktion mit vertikaler Holztraglattung. Der Ausgleich von
+            Wandunebenheiten bis zu 35 mm ist in die Einheitspreise einkalkuliert.
+
+
+                                                                                                                   Seite 22 / 34
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            3. Fugenausbildung:
+            Vertikale Kleinformatfugen sind geschlossen durch Hinterlegung oder Überlappung ausgeführt..
+            LB-Version: 23                Geringfügig Geändert
+68.32 01    Wärmegedämmte, hinterlüftete Fassade auf Holz-Unterkonstruktion.
+                • verdeckt (nicht sichtbar) befestigt (genagelt, geschraubt oder gehängt n.W.AN)
+
+68.32 01A   FZ-Kleinformat+UK-Holz+WD v.befestigt                                                                       m²
+            Mit Kleinformattafeln aus Faserzement (FZ).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+68.32 01B   HPL-Kleinformat+UK-Holz+WD v.befestigt                                                                      m²
+            Mit Kleinformattafeln aus High Pressure Laminate (HPL).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+68.32 01D   Alu-Kleinformat+UK-Holz+WD v.befestigt                                                                      m²
+            Mit Kleinformattafeln aus Aluminium (Alu).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+68.32 01E   V2A-Kleinformat+UK-Holz+WD v.befestigt                                                                      m²
+            Mit Kleinformattafeln aus Edelstahl (V2A).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+68.32 01F   TiZi-Kleinformat+UK-Holz+WD v.befestigt                                                                     m²
+            Mit Kleinformattafeln aus Titanzink (TiZi).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+68.32 01G   VZB-Kleinformat+UK-Holz+WD v.befestigt                                                                      m²
+
+                                                                                                                  Seite 23 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Mit Kleinformattafeln aus verzinkt beschichtetem Stahlblech (VZB).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.32 01H   CU-Kleinformat+UK-Holz+WD v.befestigt                                                                       m²
+            Mit Kleinformattafeln aus Kupfer (Cu).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.32 01L   KST-Kleinformat+UK-Holz+WD v.befestigt                                                                      m²
+            Mit Kleinformattafeln aus Kunststoff (KST).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.32 01M   MWST-Kleinformat+UK-Holz+WD v.befestigt                                                                     m²
+            Mit Kleinformattafeln aus Mineralwerkstoffen (MWST).
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.32 01N   Holz-Kleinformat+UK-Holz+WD v.befestigt                                                                     m²
+            Mit Kleinformattafeln aus Holz.
+            Tafelformat: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+68.32 11    Aufzahlung (Az) auf wärmegedämmte, hinterlüftete -Fassaden mit Kleinformattafeln auf
+            Aluminium-Unterkonstruktion.
+                • verdeckt (nicht sichtbar) befestigt (genagelt, geschraubt oder gehängt n.W.AN)
+                • ohne Unterschied des Materials
+            Für eine 2-schalige Metall-Unterkonstruktion aus Wandkonsolen mit werkseitig integrierten Klemmzungen zur
+            Aufnahme der horizontalen L-Profile (1. Ebene), Mindestdicke 1,6 mm, je nach statischem Erfordernis aus
+            stranggepressten Profilen und vertikaler Holztraglattung (2. Ebene), Dimension je nach Verkleidung und
+            statischen Erfordernissen.
+            Die thermische Trennung zwischen Wandkonsole und Untergrund wird mit einem Isolator der Dicke 5 mm
+            ausgeführt.
+
+                                                                                                                  Seite 24 / 34
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            Die Verarbeitung wird unter Berücksichtigung der Herstellerrichtlinien und der objektbezogenen statischen
+            Berechnungen ausgeführt.
+
+68.32 11A   Az Kleinformat+UK-Holz+WD v.befestigt f.2-schalig Stahl                                                      m²
+            Aus Stahl korrosionsgeschützt.
+
+68.32 11B   Az Kleinformat+UK-Holz+WD v.befestigt f.2-schalig Alu                                                        m²
+            Aus Aluminium.
+
+68.41       Siding auf Alu-UK verdeckt befestigt
+            1. Sidings:
+            Sidings werden zwängungsfrei zu einer geschlossenen Außenschicht montiert. Es werden Fassadenprofile
+            verwendet, die linear und eben zusammengesteckt werden.
+            Sidings sind horizontale und vertikale Elemente mit einer Deckbreite von 120 bis 800 mm.
+            2. Unterkonstruktion:
+            Justierbare Unterkonstruktion, bestehend aus Wandkonsolen mit werkseitig integrierten Klemmzungen zur
+            Aufnahme der Tragprofile und Systemleisten je nach statischem Erfordernis aus stranggepressten Profilen,
+            sowie allen korrosionsgeschützten Befestigungsmitteln.
+            Die Befestigung der Außenschicht erfolgt durchdringungsfrei oder verdeckt befestigt.
+            3. Fugenausbildung:
+            Profilfugen sind geschlossen ausgeführt.
+            LB-Version: 23              Geringfügig Geändert
+68.41 01    Wärmegedämmte, hinterlüftete Fassade mit Sidings auf Alu-Unterkonstruktion.
+                • verdeckt befestigt
+
+68.41 01D   ALU-Siding+UK-Alu+WD verdeckt befestigt                                                                      m²
+            Mit einer Sidingfassade aus Aluminium (Alu), beschichtet mit Polyester ca. 25 bis 30 µm ohne Schattenfuge mit
+            Kopfkantung.
+            Profilsichtbreite: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.41 01E   V2A-Siding+UK-Alu+WD verdeckt befestigt                                                                      m²
+            Mit einer Sidingfassade aus Edelstahl (V2A) ohne Schattenfuge mit Kopfkantung.
+            Profilsichtbreite: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.41 01F   TiZi-Siding+UK-Alu+WD verdeckt befestigt                                                                     m²
+            Mit einer Sidingfassade aus Titanzink (TiZi) ohne Schattenfuge mit Kopfkantung.
+            Profilsichtbreite: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.41 01G   VZB-Siding+UK-Alu+WD verdeckt befestigt                                                                      m²
+                                                                                                                   Seite 25 / 34
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Mit einer Sidingfassade aus Stahlblech verzinkt (VZB), beschichtet mit Polyester ca. 25 bis 30 µm ohne
+            Schattenfuge mit Kopfkantung.
+            Profilsichtbreite: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.41 01H   CU-Siding+UK-Alu+WD verdeckt befestigt                                                                       m²
+            Mit einer Sidingfassade aus Kupfer (CU) ohne Schattenfuge mit Kopfkantung.
+            Profilsichtbreite: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+68.41 11    Aufzahlung (Az) auf wärmegedämmte, hinterlüftete -Fassaden mit Sidings auf Aluminium-Unterkonstruktion.
+                • verdeckt befestigt
+                • ohne Unterschied des Materials
+
+68.41 11A   Az Siding+UK-Alu+WD verdeckt bef.f.Sonderbeschichtung                                                        m²
+            Für eine Sonderbeschichtung PVDF ca. 25 bis 30 µm.
+
+68.42       Siding auf Stahl-UK/Wandkasetten verdeckt befestigt
+            1. Sidings:
+            Sidings werden zwängungsfrei zu einer geschlossenen Außenschicht montiert. Es werden Fassadenprofile
+            verwendet, die linear und eben zusammengesteckt werden.
+            Sidings sind horizontale und vertikale Elemente mit einer Deckbreite von 120 bis 800 mm.
+            2. Unterkonstruktion:
+            Stahlkassettenprofile selbstspannend nach DIN 18807-3, bestehend aus Tragprofilen und Systemleisten, einer
+            Abdichtung gegen Diffusion an den Längs- und Querstößen, sowie korrosionsgeschützter Befestigungsmittel.
+            Die Befestigung der Außenschicht erfolgt durchdringungsfrei oder verdeckt befestigt.
+            3. Fugenausbildung:
+            Profilfugen sind geschlossen ausgeführt.
+            LB-Version: 23              Geringfügig Geändert
+68.42 01    Wärmegedämmte, hinterlüftete Fassade mit Sidings auf Alu-Unterkonstruktion.
+                • verdeckt befestigt
+
+68.42 01D   ALU-Siding+UK-Kasette+WD verdeckt befestigt                                                                  m²
+            Mit einer Sidingfassade aus Aluminium (Alu), beschichtet mit Polyester ca. 25 bis 30 µm ohne Schattenfuge mit
+            Kopfkantung.
+            Profilsichtbreite: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+68.42 01E   V2A-Siding+UK-Kasette+WD verdeckt befestigt                                                                  m²
+            Mit einer Sidingfassade aus Edelstahl (V2A) ohne Schattenfuge mit Kopfkantung.
+            Profilsichtbreite: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+
+                                                                                                                   Seite 26 / 34
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.42 01F   TiZi-Siding+UK-Kasette+WD verdeckt befestigt                                                                 m²
+            Mit einer Sidingfassade aus Titanzink (TiZi) ohne Schattenfuge mit Kopfkantung.
+            Profilsichtbreite: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.42 01G   VZB-Siding+UK-Kasette+WD verdeckt befestigt                                                                  m²
+            Mit einer Sidingfassade aus Stahlblech verzinkt (VZB), beschichtet mit Polyester ca. 25 bis 30 µm ohne
+            Schattenfuge mit Kopfkantung.
+            Profilsichtbreite: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.42 01H   CU-Siding+UK-Kasette+WD verdeckt befestigt                                                                   m²
+            Mit einer Sidingfassade aus Kupfer (CU) ohne Schattenfuge mit Kopfkantung.
+            Profilsichtbreite: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+68.42 11    Aufzahlung (Az) auf wärmegedämmte, hinterlüftete -Fassaden mit Sidings auf
+            Stahl-Unterkonstruktion/Wandkasetten..
+                • verdeckt befestigt
+                • ohne Unterschied des Materials
+
+68.42 11A   Az Siding+UK-Kasette+WD verdeckt bef.f.Sonderbeschichtung                                                    m²
+            Für eine Sonderbeschichtung PVDF ca. 25 bis 30 µm.
+
+68.61       Profilierte Bekl.auf Alu-UK verdeckt befestigt
+            1. Profilierte Bekleidung:
+            Profilierte Bekleidungen werden zwängungsfrei zu einer geschlossenen Außenschicht montiert.
+            Es werden Profile beziehungsweise Profilbleche verwendet, die verdeckt entweder direkt oder mit Hafter auf die
+            Unterkonstruktion befestigt werden.
+            2. Unterkonstruktion:
+            Justierbare Unterkonstruktion, bestehend aus Wandkonsolen mit werkseitig integrierten Klemmzungen zur
+            Aufnahme der Tragprofile je nach statischem Erfordernis aus kaltgewalzten- oder stranggepressten Profilen,
+            sowie allen korrosionsgeschützten Befestigungsmitteln.
+            Die Befestigung der Außenschicht erfolgt durchdringungsfrei oder verdeckt befestigt.
+
+            LB-Version: 23               Geringfügig Geändert
+68.61 01    Wärmegedämmte, hinterlüftete Fassade mit profilierter Bekleidung auf Aluminium (Alu)-Unterkonstruktion.
+                • sichtbar befestigt
+
+
+                                                                                                                   Seite 27 / 34
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+68.61 01D   Alu-Stülppaneel+UK-Alu+WD verdeckt befestigt                                                                    m²
+            Mit Stülppaneelen aus Aluminium und beschichtet (Alu) Polyester ca. 25 bis 30 µm.
+            Profil: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.61 01F   TiZi-Stülppaneel+UK-Alu+WD verdeckt befestigt                                                                   m²
+            Mit Stülppaneelen aus Titanzink (TiZi).
+            Profil: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+68.61 01G   VZB-Stülppaneel+UK-Alu+WD verdeckt befestigt                                                                    m²
+            Mit Stülppaneelen aus Stahlblech verzinkt und beschichtet (VZB) Polyester ca. 25 bis 30 µm.
+            Profil: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+68.61 11    Aufzahlung (Az) auf wärmegedämmte, hinterlüftete Fassaden mit profilierten Platten auf
+            Aluminium-Unterkonstruktion.
+                • verdeckt befestigt
+                • ohne Unterschied des Materials
+
+68.61 11A   Az Stülppaneel+UK-Alu+WD verdeckt bef.f.Sonderbeschichtung                                                      m²
+            Für eine Sonderbeschichtung PVDF ca. 25 bis 30 µm.
+
+68.62       Profilierte Bekl.auf Alu-UK sichtbar befestigt
+            1. Profilierte Bekleidung:
+            Profilierte Bekleidungen werden zwängungsfrei zu einer geschlossenen Außenschicht montiert.
+            Es werden Profilbleche verwendet, die im Längs- und Querstoß direkt auf die Unterkonstruktion befestigt
+            werden.
+            2. Unterkonstruktion:
+            Justierbare Unterkonstruktion, bestehend aus Wandkonsolen mit werkseitig integrierten Klemmzungen zur
+            Aufnahme der Tragprofile je nach statischem Erfordernis aus kaltgewalzten- oder stranggepressten Profilen,
+            sowie allen korrosionsgeschützten Befestigungsmitteln.
+            Die Befestigung der Außenschicht erfolgt sichtbar mit Schrauben oder Nieten.
+            LB-Version: 23               Geringfügig Geändert
+68.62 01    Wärmegedämmte, hinterlüftete Fassade mit profilierter Bekleidung auf Aluminium (Alu)-Unterkonstruktion.
+                • sichtbar befestigt
+
+68.62 01D   Alu-Trapezprofil+UK-Alu+WD sichtbar befestigt                                                                   m²
+            Mit Trapezprofilen aus Aluminium und beschichtet (Alu) Polyester ca. 25 bis 30 µm.
+            Profil: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+                                                                                                                      Seite 28 / 34
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+68.62 01F   TiZi-Trapezprofil+UK-Alu+WD sichtbar befestigt                                                                m²
+            Mit Trapezprofilen aus Titanzink (TiZi).
+            Profil: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+68.62 01G   VZB-Trapezprofil+UK-Alu+WD sichtbar befestigt                                                                 m²
+            Mit Trapezprofilen aus Stahlblech verzinkt und beschichtet (VZB) Polyester ca. 25 bis 30 µm.
+            Profil: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+68.62 02    Wärmegedämmte, hinterlüftete Fassade auf Aluminium (Alu)-Unterkonstruktion.
+                • sichtbar befestigt
+
+68.62 02D   Alu-Wellprofil+UK-Alu+WD sichtbar befestigt                                                                   m²
+            Mit Wellprofilen aus Aluminium und beschichtet (Alu) Polyester ca. 25 bis 30 µm.
+            Profil: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+68.62 02F   TiZi-Wellprofil+UK-Alu+WD sichtbar befestigt                                                                  m²
+            Mit Wellprofilen aus Titanzink (TiZi).
+            Profil: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            Profildicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+68.62 02G   VZB-Wellprofil+UK-Alu+WD sichtbar befestigt                                                                   m²
+            Mit Wellprofilen aus Stahlblech verzinkt und beschichtet (VZB) Polyester ca. 25 bis 30 µm.
+            Profil: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            Profildicke: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+                                                                                                                    Seite 29 / 34
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+68.62 11    Aufzahlung (Az) auf wärmegedämmte, hinterlüftete Fassaden mit profilierten Platten auf
+            Aluminium-Unterkonstruktion.
+                • sichtbar befestigt
+                • ohne Unterschied des Materials
+
+68.62 11A   Az Trapezpr.+UK-Alu+WD sichtbar bef.f.Sonderbeschichtung                                                      m²
+            Für eine Sonderbeschichtung PVDF ca. 25 bis 30 µm.
+                • bei Trapezblechen
+
+68.62 11B   Az Welllpr.+UK-Alu+WD sichtbar bef.f.Sonderbeschichtung                                                       m²
+            Für eine Sonderbeschichtung PVDF ca. 25 bis 30 µm.
+                • bei Wellblechen
+
+68.63       Profilierte Bekl.auf Stahl-UK sichtbar befestigt
+            1. Profilierte Bekleidung:
+            Profilierte Bekleidungen werden zwängungsfrei zu einer geschlossenen Außenschicht montiert.
+            Es werden Profilbleche verwendet, die im Längs- und Querstoß direkt auf die Unterkonstruktion befestigt
+            werden.
+            2. Unterkonstruktion:
+            Justierbare Unterkonstruktion, bestehend aus Wandkonsolen mit werkseitig integrierten Klemmzungen zur
+            Aufnahme der Tragprofile je nach statischem Erfordernis aus kaltgewalzten- oder stranggepressten Profilen,
+            sowie allen korrosionsgeschützten Befestigungsmitteln.
+            Die Befestigung der Außenschicht erfolgt sichtbar mit Schrauben oder Nieten.
+
+            LB-Version: 23               Geringfügig Geändert
+68.63 01    Wärmegedämmte, hinterlüftete Fassade mit profilierter Bekleidung auf Stahl-Unterkonstruktion.
+                • sichtbar befestigt
+
+68.63 01G   VZB-Trapezprofil+UK-Stahl+WD sichtbar befestigt                                                               m²
+            Mit Trapezprofilen aus Stahlblech verzinkt und beschichtet (VZB) Polyester ca. 25 bis 30 µm.
+            Profil: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+68.63 02    Wärmegedämmte, hinterlüftete Fassade auf Stahl-Unterkonstruktion.
+                • sichtbar befestigt
+
+68.63 02G   VZB-Wellprofil+UK-Stahl+WD sichtbar befestigt                                                                 m²
+            Mit Wellprofilen aus Stahlblech verzinkt und beschichtet (VZB) Polyester ca. 25 bis 30 µm.
+            Profil: ____________
+            Deckbild (gemäß Plannr.:____________): ____________
+            Oberfläche: ____________
+            Farbsystem: ____________
+            Dämmdicke: ____________
+            LB-Version: 23               Geringfügig Geändert
+68.63 11    Aufzahlung (Az) auf wärmegedämmte, hinterlüftete Fassaden mit profilierten Platten auf
+            Stahl-Unterkonstruktion.
+                • sichtbar befestigt
+                • ohne Unterschied des Materials
+
+68.63 11A   Az Trapezpr.i+UK-Stahl+WD sichtbar bef.f.Sonderbeschicht.                                                     m²
+            Für eine Sonderbeschichtung PVDF ca. 25 bis 30 µm.
+                • bei Trapezblechen
+
+                                                                                                                    Seite 30 / 34
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+68.63 11B   Az Welllpr.+UK-Alu+WD sichtbar bef.f.Sonderbeschicht.                                                           m²
+            Für eine Sonderbeschichtung PVDF ca. 25 bis 30 µm.
+                • bei Wellblechen
+
+68.81       Sonstiges und Aufzahlungen
+            LB-Version: 23
+68.81 01    Aufzahlungen (Az) auf hinterlüftete Fassaden-Systeme.
+
+68.81 01A   Az Fass.+UK+WD f.erhöhte Abstand Bauteil/Außenkante                                                             m²
+            Betrifft Position(en):____________
+            Für einen erhöhten Abstand zwischen tragendem Bauteil und Traglattungsaußenkante
+            Gesamtabstand (über 5 cm): ____________ cm
+
+68.81 01B   Az Fass.+UK+WD f.erhöhte Anforderungen/Plattendicke                                                             m²
+            Betrifft Position(en): ____________
+            Für erhöhte Anforderungen an die Plattendicke (z.B. bezüglich Ballwurfsicherheit, Grafitti -Beständigkeit).
+            Angaben: ____________
+
+68.81 11    Sonstige Leistungen für hinterlüftete Fassaden-Systeme.
+
+68.81 11A   Hinterlüftete Fassade+UK+WD f.Untersicht                                                                        m²
+            Betrifft Position(en): ____________
+            Untersichtkonstruktionen.
+
+68.81 11B   Hinterlüftete Fassade+UK+WD f.Sonderfarbe                                                                       m²
+            Betrifft Position(en): ____________
+            Ausführen in einer Sonderfarbe: ____________
+
+68.81 11C   Hinterlüftete Fassade+UK+WD f.Ausschneiden WD                                                                   Stk
+            Betrifft Position(en): ____________
+            Ausschneiden eines bestehenden VWDS zur punktweisen Befestigung von Wandwinkelstützen, einschließlich
+            Ergänzen der Dämmung.
+
+68.81 11D   Hinterlüftete Fassade+UK+WD f. WD s.A.                                                                          m²
+            Betrifft Position(en): ____________
+            Wärmedämmung in "schwerer Ausführung". (WD s.A.)
+            LB-Version: 23               Geringfügig Geändert
+
+68.81 11E   Hinterlüftete Fassade+UK+WD f.Eckausbildungen                                                                   m
+            Betrifft Position(en): ____________
+            Eckausbildungen (innen oder außen), einschließlich beidseitigem Beidecken und der Berücksichtigung erhöhter
+            Windkräfte.
+
+68.81 11F   Hinterlüftete Fassade+UK+WD f.Gliederung                                                                        m
+            Betrifft Position(en): ____________
+            Kunststoffbeschichtete Metallprofile als Gliederung in der Fläche.
+
+68.81 11G   Hinterlüftete Fassade+UK+WD f.Dehnfugen                                                                         m
+            Betrifft Position(en): ____________
+            Dehnfugen über Bauwerksabschnitten, einschließlich Dehnfugenprofile aus kunststoffbeschichtetem
+            Aluminiumblech, einschließlich beidseitigem Beidecken.
+
+68.81 11H   Hinterlüftete Fassade+UK+W.Fugenausbildung Lüftungsgitter                                                       m
+            Betrifft Position(en): ____________
+            Kunststoffbeschichtete Lüftungsbleche im Zu- und Abluftbereich.
+
+
+                                                                                                                      Seite 31 / 34
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+68.81 11I   Hinterlüftete Fassade+UK+WD f.Putzanschluss                                                                    m
+            Betrifft Position(en): ____________
+            Kunststoffbeschichtete Aluminiumbleche als Putzanschluss ausgeführt, ohne Unterschied der Zuschnittsbreite,
+            einschließlich einseitigem Beidecken.
+
+68.81 11J   Hinterlüftete Fassade+UK+WD f.Anschluss Glas                                                                   m
+            Betrifft Position(en): ____________
+            Kunststoffbeschichtete Aluminiumbleche als Anschluss zu Glasfassaden, ohne Unterschied der
+            Zuschnittsbreite, einschließlich einseitigem Beidecken.
+
+68.81 11K   Hinterlüftete Fassade+UK+WD f.Jalousiekasten                                                                   m
+            Betrifft Position(en): ____________
+            Freiraum im Fenstersturzbereich für einen verdeckten Jalousiekasten.
+            LB-Version: 23              Geringfügig Geändert
+
+68.81 11L   Hinterlüftete Fassade+UK+WD f.Anarbeiten/gerade                                                                m
+            Betrifft Position(en): ____________
+            Einseitiges Anarbeiten und Befestigen
+                • an gerade Umsäumungen
+
+68.81 11M   Hinterlüftete Fassade+UK+WD f.Anarbeiten/schräg                                                                m
+            Betrifft Position(en): ____________
+            Einseitiges Anarbeiten und Befestigen
+                • an schräge Umsäumungen
+
+68.81 13    Fenster- und Türanschluss für wärmegedämmte, hinterlüftete Fassaden.
+            Das Alu-Anschlussprofil und die Dichtung zum Fenster- oder Türstock sowie das einseitige Beidecken sind im
+            Einheitspreis einkalkuliert.
+
+68.81 13A   Fe.-u.Türanschl.hinterlüftete Fassade+UK+WD m.Großtafelstr.                                                    m
+            Großtafelstreifen.
+            Betrifft Position(en): ____________
+            Leibungstiefe: ____________
+
+68.81 13B   Fe.-u.Türanschl.hinterlüftete Fassade+UK+WD m.farbb.Alu                                                        m
+            Farbbeschichtetes Aluminium.
+            Betrifft Position(en): ____________
+            Leibungstiefe: ____________
+
+68.81 15    Fenstersohlbänke mit Anschlussprofilierung oder Anschlusselementen für wärmegedämmte, hinterlüftete
+            Fassaden.
+            Ausführung: zum Fensterstock und zur Leibungsbekleidung mit mindestens 3 cm hohem Tropfnasenumbug, mit
+            Abstand zur Fassade mindestens 3 cm höchstens 5 cm, Mindestneigung 8 Grad.
+            Abgerechnet wird die Summe der Einzellängen.
+            Die Dämmschicht und das einseitige Beidecken sind im Einheitspreis einkalkuliert.
+
+68.81 15A   Sohlbank Alublech farbbeschichtet                                                                              m
+            Alublech farbbeschichtet.
+            Betrifft Position(en): ____________
+            Leibungstiefe (Breite in cm): ____________
+            Materialdicke (mm): ____________
+
+68.81 15B   Sohlbank Alu stranggepresst farbbeschichtet                                                                    m
+            Alu stranggepresst farbbeschichtet.
+            Betrifft Position(en): ____________
+
+
+
+                                                                                                                     Seite 32 / 34
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            Leibungstiefe (Breite in cm): ____________
+            Materialdicke (mm): ____________
+
+68.81 15C   Sohlbank Stahlblech verzinkt farbbeschichtet                                                                 m
+            Stahlblech verzinkt farbbeschichtet.
+            Betrifft Position(en): ____________
+            Leibungstiefe (Breite in cm): ____________
+            Materialdicke (mm): ____________
+
+68.81 17    Aufzahlung (Az) auf wärmegedämmte, hinterlüftete Fassaden mit Metallprofilen.
+
+68.81 17A   Fass.+UK+WD m.Metallpr.f.Startprofil (STB)                                                                   m
+            Betrifft Position(en): ____________
+            Startprofile, Stahlblech (STB), verzinkt farbbeschichtet.
+
+68.81 17B   Fass.+UK+WD m.Metallpr.f.Startprofil (ALU)                                                                   m
+            Betrifft Position(en):____________
+            Startprofile, Aluminiumblech (ALU), farbbeschichtet.
+
+68.81 17C   Fass.+UK+WD m.Metallpr.f.Schattenfugenprofile (STB)                                                          m
+            Betrifft Position(en): ____________
+            Schattenfugenprofile, Stahlblech (STB), verzinkt farbbeschichtet.
+
+68.81 17D   Fass.+UK+WD m.Metallpr.f.Schattenfugenprofile (ALU)                                                          m
+            Betrifft Position(en): ____________
+            Schattenfugenprofile, Aluminiumblech (ALU), farbbeschichtet.
+
+68.81 17E   Fass.+UK+WD m.Metallpr.f.Eckelement (STB)                                                                    Stk
+            Betrifft Position(en): ____________
+            Eckelemente (innen oder außen), Stahlblech (STB), verzinkt farbbeschichtet.
+            Schenkellänge A: ____________
+            Schenkellänge B: ____________
+            Winkel: ____________
+
+68.81 17F   Fass.+UK+WD m.Metallpr.f.Eckelement (ALU)                                                                    Stk
+            Betrifft Position(en): ____________
+            Eckelemente (innen oder außen), Aluminiumblech (ALU), verzinkt farbbeschichtet.
+            Schenkellänge A: ____________
+            Schenkellänge B: ____________
+            Winkel: ____________
+
+68.81 17G   Fass.+UK+WD m.Metallpr.f.Passelement                                                                         m
+            Betrifft Position(en): ____________
+            Passelemente mit Sonderdeckbreiten mit Nut- oder Federausbildung.
+
+68.81 17H   Fass.+UK+WD m.Metallpr.f.Profillängen                                                                        m
+            Betrifft Position(en): ____________
+            Profillängen bis 1.000 mm.
+
+68.90       Regieleistungen
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+                                                                                                                   Seite 33 / 34
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+            2. Mengenänderungen:
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Überstunden, die dem Arbeitsruhegesetz unterliegen, sind frei zu formulieren.
+
+            LB-Version: 23                 Geringfügig Geändert
+68.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+68.90 00A   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+68.90 01    Regiestunden.
+
+68.90 01A   Regiestunde Facharbeiter                                                                                         h
+            Für Facharbeiter.
+
+68.90 01B   Regiestunde Hilfsarbeiter                                                                                        h
+            Für Hilfsarbeiter.
+
+68.90 51    Materiallieferungen f.Regieleistungen                                                                            VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+            LB-Version: 23                 Geringfügig Geändert
+
+
+
+
+                                                                                                                       Seite 34 / 34
+                                                                                                  ib-data GmbH, Softwareentwicklung
+

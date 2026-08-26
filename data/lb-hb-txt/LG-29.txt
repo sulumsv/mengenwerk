@@ -1,0 +1,1561 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                      Leistungsgruppe (LG) 29 - Kunststeinarbeiten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 2900    Wählbare Vorbemerkungen
+                     ULG 2911    Vorbereiten des Untergrundes
+                     ULG 2912    Bodenbeläge aus Kunststeinplatten
+                     ULG 2913    Bodenbeläge aus Betonplatten
+                     ULG 2914    Stufen, Rand- und Antrittplatten
+                     ULG 2915    Fensterbänke, Türschwellen
+                     ULG 2916    Sockel
+                     ULG 2917    Einbauteile und Sonstiges
+                     ULG 2980    Instandsetzungsarbeiten
+                     ULG 2990    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 24
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                                 EH
+
+29          Kunststeinarbeiten
+            Version 023 (2025-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Instandsetzungsarbeiten:
+            Erfolgen Instandsetzungsarbeiten bei Aufrechterhaltung des Betriebes oder im bewohnten Zustand, werden
+            erforderliche Sicherungsmaßnahmen gesondert verrechnet.
+            2. Abkürzungen:
+            Grauer Zement, z.B. CEM I, CEM II oder CEM III, wird im Folgenden in den Positionsstichwörtern mit gZ
+            abgekürzt, weißer Zement mit wZ.
+            3. Frostbeständigkeit:
+            Für Belagsarbeiten an Flächen, die der Witterung ausgesetzt sind (außen), wird nur frostbeständiges Material
+            verwendet. Die Frostbeständigkeit des Materials wird vom Auftragnehmer gewährleistet.
+            4. Verlegungsart:
+            Die Verlegung der Bodenbeläge erfolgt auf Schnitt oder Bund nach Wahl des Auftraggebers.
+            5 Skizze:
+            Im Folgenden wird Skizze als einfachste Darstellungsmöglichkeit stellvertretend für Zeichnung, Plan und
+            dergleichen verwendet.
+             Kommentar:
+             Beläge, die frostbeständig und tausalzbeständig sein sollen, sollten nicht in ein Mörtelbett verlegt werden.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+29.00       Wählbare Vorbemerkungen
+            LB-Version: 23                  Geringfügig Geändert
+29.00 01    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+29.00 01A   Transport Arbeitsplatz waagrecht
+            Transportmöglichkeiten zu den einzelnen Arbeitsplätzen zum Zeitpunkt der Leistungserbringung: ____________
+            Transport waagrecht: ____________
+            LB-Version: 23                  Geringfügig Geändert
+
+29.00 01B   Transport Arbeitsplatz lotrecht
+            Transportmöglichkeiten zu den einzelnen Arbeitsplätzen zum Zeitpunkt der Leistungserbringung: ____________
+            Transport lotrecht: ____________
+             Kommentar:
+             Anzuführen ist unter anderem, ob ein Hebezeug vom Auftragnehmer während der Leistungsfrist ohne gesonderten Schutz für
+             Bauteile aufgestellt und betrieben werden kann.
+
+            LB-Version: 23                  Geringfügig Geändert
+29.00 03    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+29.00 03A   Untergrund bei Böden innen
+            Untergrund bei Bodenverlegungen in geschlossenen Räumen: ____________
+
+29.00 03B   Untergrund bei Böden außen
+            Untergrund bei Bodenverlegungen außerhalb von Gebäuden: ____________
+
+29.00 03C   Belagsmuster
+            Belagsmuster sind zu besichtigen: ____________
+            Betrifft die Position: ____________
+
+29.00 03D   Platten, Sockel, Stufen gleich
+
+
+                                                                                                                                 Seite 2 / 24
+                                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+            Bodenplatten, Sockel und Stufen sind, abgesehen von produktionsbedingten Abweichungen, im Kornaufbau
+            und Farbton aufeinander abgestimmt.
+            Betrifft die Position: ____________
+
+29.00 05    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+29.00 05A   Verlegung nach beiliegend.Plan
+            Die Verlegung erfolgt nach Verlegeplänen. Die Verlegepläne liegen bei.
+            Betrifft die Position: ____________
+
+29.00 05B   Verlegeplan ist einzusehen
+            Betrifft die Position: ____________
+            Die Verlegepläne sind einzusehen: ____________
+
+29.11       Vorbereiten des Untergrundes
+             Kommentar:
+             Besondere körperschalltechnische Maßnahmen sind frei zu textieren.
+
+29.11 01    Ausgleichen von Unebenheiten des Bodens, ohne Unterschied der Größe der Einzelflächen. Abgerechnet wird
+            die Summe der bearbeiteten Einzelflächen.
+
+29.11 01A   Boden ausgleich.ü.3-5mm                                                                                             m²
+            Mit Nivelliermasse über 3 bis 5 mm dick, für das Verlegen im Dünnbettverfahren.
+
+29.11 02    Abdecken mit Vlies, gemessen die abgedeckte Fläche.
+
+29.11 02A   Vlies 150g/m2                                                                                                       m²
+            Mit Kunststofffaservlies, mindestens 150 g/m2.
+
+29.11 03    Matten aus extrudiertem Schaumstoff aus Polyethylen (PE). Abgerechnet wird je Lage die abgedeckte Fläche
+            zuzüglich etwaiger Hochzüge.
+
+29.11 03A   Matte extr.Schaumst.PE 5mm                                                                                          m²
+            Unter Plattenbelägen, einlagig, 5 mm dick.
+
+29.12       Bodenbeläge aus Kunststeinplatten
+            Plattendicken:
+            Die Dicken der Terrazzoplatten betragen bei 30 x 30 cm mindestens 2,2 cm, bei 40 x 40 cm mindestens 2,8 cm.
+            Mörtel, Dünnbettmörtel:
+            Das Verlegen auf vorbereiteten Untergrund ist mit Mörtel oder Dünnbettmörtel ohne besondere Eigenschaften,
+            auf Zementbasis, ohne Kunststoffvergütung kalkuliert.
+            Anschlussfugen:
+            Anschlussfugen zwischen Wand- und Fußbodenflächen werden entsprechend der Anordnung des
+            Auftraggebers ausgeführt. Die Verfugung mit elastischem Dichtstoff wird gesondert verrechnet.
+            Sichtflächen:
+            Die Sichtflächen der Platten sind fein geschliffen.
+            Verfugung:
+            Die Verfugungen mit grauem Zement oder weißem Zement nach Wahl des Auftraggebers sind im Einheitspreis
+            einkalkuliert.
+            Zuschnitt, Anarbeitung:
+            Das Zuschneiden von Passplatten und das Verlegen von Platten im Gefälle bis 3 Prozent, dem Untergrund
+            folgend, ist in die Einheitspreise einkalkuliert. Das Anarbeiten an Einbauteile und das Ausbilden der Ichsen und
+            Grate beim Verlegen im Gefälle (betrifft nicht Wandanschlüsse) wird gesondert verrechnet.
+             Kommentar:
+             Lücke Terrazzoplatten:
+             In die Ausschreiberlücke bei Terrazzoplatten können die Art und Größe der Steinkörnung sowie etwaige Einfärbungen
+             angegeben werden.
+             Größtkorn:
+             Das angegebene Größtkorn bei den Terrazzo- und Agglomeratplatten bezieht sich auf die größte Sieböffnung, wobei die
+             Sichtkörner meist kleiner sind.
+
+                                                                                                                           Seite 3 / 24
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+            LB-Version: 23             Geringfügig Geändert
+29.12 02    Bodenbelag aus Terrazzoplatten 30 x 30 cm im Mörtelbett verlegt.
+
+29.12 02A   Terrazzopl.30x30 gZ K15 2-f.                                                                               m²
+            Mit grauem Zement, Größtkorn 15 mm,
+            2-färbig. Ausführung nach Wahl des Auftraggebers aus drei gleichwertigen, verschiedenen Mustern.
+
+29.12 02B   Terrazzopl.30x30 gZ K15 schw/w                                                                             m²
+            Mit grauem Zement, schwarz/weiß, Größtkorn 15 mm.
+
+29.12 02C   Terrazzopl.30x30 gZ K25                                                                                    m²
+            Mit grauem Zement, Größtkorn 25 mm.
+            Steinmaterial: ____________
+
+29.12 02E   Terrazzopl.30x30 wZ K15 2-f.                                                                               m²
+            Mit weißem Zement, Größtkorn 15 mm,
+            2-färbig. Ausführung nach Wahl des Auftraggebers aus drei gleichwertigen, verschiedenen Mustern.
+
+29.12 02F   Terrazzopl.30x30 wZ K15 beige                                                                              m²
+            Mit weißem Zement, Größtkorn 15 mm, mit beigem Korn.
+
+29.12 02G   Terrazzopl.30x30 wZ K25 beige                                                                              m²
+            Mit weißem Zement, Größtkorn 25 mm, mit beigem Korn.
+            Steinmaterial: ____________
+29.12 03    Bodenbelag aus Terrazzoplatten 40 x 40 cm im Mörtelbett verlegt.
+
+29.12 03A   Terrazzopl.40x40 gZ K15 2-f.                                                                               m²
+            Mit grauem Zement, Größtkorn 15 mm,
+            2-färbig. Ausführung nach Wahl des Auftraggebers aus drei gleichwertigen, verschiedenen Mustern.
+
+29.12 03B   Terrazzopl.40x40 gZ K15 schw/w                                                                             m²
+            Mit grauem Zement, schwarz/weiß, Größtkorn 15 mm.
+
+29.12 03C   Terrazzopl.40x40 gZ K25                                                                                    m²
+            Mit grauem Zement, Größtkorn 25 mm.
+            Steinmaterial: ____________
+
+29.12 03E   Terrazzopl.40x40 wZ K15 2-f.                                                                               m²
+            Mit weißem Zement, Größtkorn 15 mm,
+            2-färbig. Ausführung nach Wahl des Auftraggebers aus drei gleichwertigen, verschiedenen Mustern.
+
+29.12 03F   Terrazzopl.40x40 wZ K15 beige                                                                              m²
+            Mit weißem Zement, Größtkorn 15 mm, mit beigem Korn.
+
+29.12 03G   Terrazzopl.40x40 wZ K25 beige                                                                              m²
+            Mit weißem Zement, Größtkorn 25 mm, mit beigem Korn.
+            Steinmaterial: ____________
+29.12 04    Bodenbelag aus kunstharzgebundenen Agglomeratplatten, im Mörtelbett verlegt, verfugt mit Stoffen auf
+            Zementbasis.
+
+29.12 04A   Agglo k-harzg.Mört.1,2/40x40                                                                               m²
+            1,2 cm dick, Platte 40 x 40 cm, Größtkorn bis 100 mm,
+            Steinmaterial: ____________
+
+29.12 04B   Agglo k-harz.Mört.1,2/30x50-60                                                                             m²
+            1,2 cm dick, Platte 30 x 50 cm oder 30 x 60 cm, Größtkorn bis 100 mm,
+            Steinmaterial: ____________
+
+29.12 04C   Agglo k-harzg.Mört.2/40x40                                                                                 m²
+
+
+                                                                                                                  Seite 4 / 24
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            2 cm dick, Platte 40 x 40 cm, Größtkorn bis 100 mm,
+            Steinmaterial: ____________
+
+29.12 04D   Agglo k-harzg.Mört.2/30x50-60                                                                                m²
+            2 cm dick, Platte 30 x 50 cm oder 30 x 60 cm, Größtkorn bis 100 mm,
+            Steinmaterial: ____________
+29.12 05    Bodenbelag aus kunstharzgebundenen Agglomeratplatten, im Dünnbettverfahren verlegt, verfugt mit Stoffen auf
+            Zementbasis.
+
+29.12 05A   Agglo k-harzg.Dünnb.1,2/40x40                                                                                m²
+            1,2 cm dick, Platte 40 x 40 cm, Größtkorn bis 100 mm,
+            Steinmaterial: ____________
+
+29.12 05B   Agglok-harz.Dünnb.1,2/30x50-60                                                                               m²
+            1,2 cm dick, Platte 30 x 50 cm oder 30 x 60 cm, Größtkorn bis 100 mm,
+            Steinmaterial: ____________
+
+29.12 05C   Agglo k-harzg.Dünnb.2/40x40                                                                                  m²
+            2 cm dick, Platte 40 x 40 cm, Größtkorn bis 100 mm,
+            Steinmaterial: ____________
+
+29.12 05D   Agglo k-harz.Dünnb.2/30x50-60                                                                                m²
+            2 cm dick, Platte 30 x 50 cm oder 30 x 60 cm, Größtkorn bis 100 mm,
+            Steinmaterial: ____________
+29.12 06    Bodenbelag aus zementgebundenen Agglomeratplatten.
+
+29.12 06A   Agglo-pl.zementgeb.Mörtelbett                                                                                m²
+            Im Mörtelbett verlegt.
+            Plattendicke 2 cm
+            Plattengröße: ____________
+            Größtkorn bis 25 mm, aus ____________
+
+29.12 06B   Agglo-pl.zementgeb.Dünnbett                                                                                  m²
+            Im Dünnbettverfahren verlegt.
+            Plattendicke 2 cm
+            Plattengröße: ____________
+            Größtkorn bis 25 mm, aus ____________
+
+29.12 08    Aufzahlung (Az) auf die Positionen Beläge aus Terrazzoplatten oder Agglomeratplatten ohne Unterschied der
+            Art.
+
+29.12 08A   Az Terrazzo Mörteldicke+1cm                                                                                  m²
+            Für eine Mehrdicke des Mörtelbettes von je 1 cm. Verrechnet wird die Fläche auf der die Solldicke des
+            Mörtelbettes von 3 cm um mehr als 0,5 cm überschritten wird.
+
+29.12 08B   Az Terr.Plattenschnitt Ichse/Gr                                                                              m
+            Für Schrägschnitte der Platten in den Ichsen und Graten innerhalb der Fußbodenfläche beim Verlegen im
+            Gefälle. Abgerechnet wird die einfache Länge der Ichsen oder Grate.
+
+29.12 08C   Az Terr.Gefälle ü.3-10 Prozent                                                                               m²
+            Für ein Gefälle über 3 bis 10 Prozent.
+
+29.12 08D   Az Terr.Bodenb.Bogenschnitte                                                                                 m
+            Für Bogenschnitte. Abgerechnet wird die Summe der Einzellängen.
+            Betrifft: ____________
+
+29.12 08E   Az Terr.Bodenb.Gehrungen                                                                                     m
+            Für Gehrungsschnitte. Abgerechnet wird die Summe der Einzellängen.
+            Betrifft: ____________
+
+29.12 08F   Az Terr.Bodenb.Aussparung b.0,1m2                                                                            Stk
+
+
+                                                                                                                    Seite 5 / 24
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+            Für Aussparungen bis zu einer Größe von 0,1 m2.
+            Betrifft: ____________
+
+29.12 08G   Az Terr.Bodenb.Aussparung ü.0,1-0,5m2                                                                               Stk
+            Für Aussparungen über 0,1 bis 0,5 m2.
+            Betrifft: ____________
+
+29.12 08H   Az Terr.Bodenb.Aussparung ü.0,5-1m2                                                                                 Stk
+            Für Aussparungen über 0,5 bis 1 m2.
+            Betrifft: ____________
+
+29.12 08I   Az Terr.Bodenbel.b.5m2                                                                                              m²
+            Für das Verlegen in Einzelflächen bis 5 m2.
+            Betrifft: ____________
+
+29.12 08J   Az Terr.Bodenb.diagonal verl.                                                                                       m²
+            Für das Verlegen des Belages mit der Fugenrichtung diagonal zum Raum oder zur Randbegrenzung.
+            Betrifft: ____________
+29.12 10    Aufzahlung (Az) auf die Positionen Beläge aus Terrazzoplatten oder Agglomeratplatten ohne Unterschied der
+            Art und Verlegung, für das Erstellen eines Frieses. Abgerechnet wird die größte Länge des Frieses.
+
+29.12 10A   Az Terr.Bel.Fries b.50% Platte                                                                                      m
+            Mit Platten gleichwertig mit den Belagsplatten, nach Wahl des Auftraggebers. Friesbreite bis 50 Prozent der
+            Belagsplattenbreite oder -länge.
+
+29.12 10B   Az Terr.Bel.Fries ü.50% Platte                                                                                      m
+            Mit Platten gleichwertig mit den Belagsplatten, nach Wahl des Auftraggebers. Friesbreite über 50 bis 100
+            Prozent der Belagsplattenbreite oder -länge.
+29.12 11    Aufzahlung (Az) auf die Positionen Beläge aus Terrazzoplatten oder Agglomeratplatten ohne Unterschied der
+            Art und Verlegung, für das Erstellen einer Bordüre. Abgerechnet wird die größte Länge der Bordüre.
+
+29.12 11A   Az Terr-Bel.Bordür 50% Platte                                                                                       m
+            Mit Platten gleichwertig den Belagsplatten, nach Wahl des Auftraggebers. Bordürenbreite bis 50 Prozent der
+            Belagsplattenbreite oder -länge.
+
+29.12 11B   Az Terr.Bel.Bordür ü.50% Platte                                                                                     m
+            Mit Platten gleichwertig den Belagsplatten, nach Wahl des Auftraggebers. Bordürenbreite über 50 bis 100
+            Prozent der Belagsplattenbreite oder -länge.
+
+29.13       Bodenbeläge aus Betonplatten
+            Frost- und Tausalzbeständigkeit:
+            Betonplatten sind frost- und tausalzbeständig.
+            Abmessungen:
+            Es steht dem Auftragnehmer frei, die angegebenen Abmessungen entweder auf die Plattengröße oder auf den
+            Abstand der Fugenachsen zu beziehen.
+            Anschlussfugen:
+            Anschlussfugen zwischen Wand- und Fußbodenflächen werden entsprechend der Anordnung des
+            Auftraggebers ausgeführt. Die Verfugung mit elastischem Dichtstoff wird gesondert verrechnet.
+            Zuschnitt, Anarbeitung:
+            Das Zuschneiden von Passplatten und das Verlegen von Platten im Gefälle bis 3 Prozent dem Untergrund
+            folgend, ist in die Einheitspreise einkalkuliert. Das Anarbeiten an Einbauteile und das Ausbilden der Ichsen und
+            Grate beim Verlegen im Gefälle (betrifft nicht Wandanschlüsse) wird gesondert verrechnet.
+             Kommentar:
+             Besteht der Auftraggeber auf einem bestimmten Rastermaß, kann er dies frei textieren.
+
+29.13 01    Bodenbelag aus Betonplatten (Estrichplatten) im Mörtelbett verlegt, Fugen ausgefüllt mit Zementmörtel.
+
+29.13 01A   Betonplatte Mört.40x40x3cm                                                                                          m²
+            40 x 40 cm, Mindestdicke 3 cm.
+
+
+                                                                                                                           Seite 6 / 24
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+29.13 01B   Betonplatte Mört.50x50x4cm                                                                                    m²
+            50 x 50 cm, Mindestdicke 4 cm.
+
+29.13 02    Bodenbelag aus Waschbetonplatten im Mörtelbett verlegt, Fugen ausgefüllt mit Zementmörtel, Mindestdicke der
+            Platten 4 cm.
+
+29.13 02A   Waschbetonpl.Mört.50x25x4cm                                                                                   m²
+            Oberfläche mit Rundkies aus Fein- oder Grobkorn nach Wahl des Auftraggebers, 50 x 25 cm.
+
+29.13 02B   Waschbetonpl.Mört.50x50x4cm                                                                                   m²
+            Oberfläche mit Rundkies aus Fein- oder Grobkorn nach Wahl des Auftraggebers, 50 x 50 cm.
+
+29.13 02C   Waschbetonpl.Mört.50x75x4cm                                                                                   m²
+            Oberfläche mit Rundkies aus Fein- oder Grobkorn nach Wahl des Auftraggebers, 50 x 75 cm.
+
+29.13 03    Bodenbelag aus Betonplatten mit strukturierter Oberfläche im Mörtelbett verlegt, Fugen ausgefüllt mit
+            Zementmörtel.
+
+29.13 03A   Betonpl.Ornam.Mört.                                                                                           m²
+            Oberfläche (Ornament, Art, Farbe): ____________
+            Abmessungen: ____________
+29.13 04    Bodenbelag aus Betonplatten (Estrichplatten) auf nicht verstellbaren Abstandhaltern aus Kunststoff 1 cm dick,
+            einschließlich Ausgleichsplättchen.
+
+29.13 04A   Betonplatte Abstandh.40x40x4cm                                                                                m²
+            40 x 40 cm, Mindestdicke 4 cm dick.
+
+29.13 04B   Betonplatte Abstandh.50x50x5cm                                                                                m²
+            50 x 50 cm, Mindestdicke 5 cm dick.
+
+29.13 05    Bodenbelag aus Waschbetonplatten auf nicht verstellbaren Abstandhaltern aus Kunststoff 1 cm dick,
+            einschließlich Ausgleichsplättchen.
+
+29.13 05A   Waschbetonpl.Abstandh.50x25x5                                                                                 m²
+            Oberfläche mit Rundkies aus Fein- oder Grobkorn nach Wahl des Auftraggebers, 50 x 25 cm, 5 cm dick.
+
+29.13 05B   Waschbetonpl.Abstandh.50x50x5                                                                                 m²
+            Oberfläche mit Rundkies aus Fein- oder Grobkorn nach Wahl des Auftraggebers, 50 x 50 cm, 5 cm dick.
+
+29.13 05C   Waschbetonpl.Abstandh.50x75x5                                                                                 m²
+            Oberfläche mit Rundkies aus Fein- oder Grobkorn nach Wahl des Auftraggebers, 50 x 75 cm, 5 cm dick.
+
+29.13 07    Bodenbelag aus Betonplatten mit fein verriebener Oberfläche in ein 3 bis 5 cm dickes Kies- oder Splittbett
+            verlegt, Korngröße 4 bis 8 mm, Fugen ausgefüllt mit Kies oder Splitt.
+
+29.13 07A   Betonplatten Kiesbett 40x40x3                                                                                 m²
+            40 x 40 cm, mindestens 3 cm dick.
+
+29.13 07B   Betonplatten Kiesbett 50x50x4                                                                                 m²
+            50 x 50 cm, mindestens 4 cm dick.
+
+29.13 08    Bodenbelag aus Waschbetonplatten in ein 3 bis 5 cm dickes Kies- oder Splittbett verlegt, Korngröße 4 bis 8
+            mm, Fugen ausgefüllt mit Kies oder Splitt.
+
+29.13 08A   Waschbetonpl.Kiesbett 50x25x4                                                                                 m²
+            Oberfläche mit Rundkies aus Fein- oder Grobkorn nach Wahl des Auftraggebers, 50 x 25 cm, mindestens 4 cm
+            dick.
+
+29.13 08B   Waschbetonpl.Kiesbett 50x50x4                                                                                 m²
+            Oberfläche mit Rundkies aus Fein- oder Grobkorn nach Wahl des Auftraggebers, 50 x 50 cm, mindestens 4 cm
+            dick.
+
+29.13 08C   Waschbetonpl.Kiesbett 50x75x4                                                                                 m²
+                                                                                                                     Seite 7 / 24
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+            Oberfläche mit Rundkies aus Fein- oder Grobkorn nach Wahl des Auftraggebers, 50 x 75 cm, mindestens 4 cm
+            dick.
+29.13 09    Bodenbelag aus Betonplatten mit strukturierter Oberfläche in ein 3 bis 5 cm dickes Kies- oder Splittbett verlegt,
+            Korngröße 4 bis 8 mm, Fugen ausgefüllt mit Kies oder Splitt.
+
+29.13 09A   Betonpl.Ornam.Kiesbett                                                                                                 m²
+            Oberfläche (Ornament, Art, Farbe): ____________
+            Abmessungen: ____________
+29.13 10    Aufzahlung (Az) auf die Positionen Betonplatten ohne Unterschied der Art.
+
+29.13 10A   Az Bet-pl.Mörteldicke+1cm                                                                                              m²
+            Für eine Mehrdicke des Mörtelbettes von je 1 cm. Verrechnet wird die Fläche auf der die Solldicke des
+            Mörtelbettes von 3 cm um mehr als 0,5 cm überschritten wird.
+
+29.13 10B   Az Bet-pl.Kies-Splittbett+1cm                                                                                          m²
+            Für eine Mehrdicke des Kies- oder Splittbettes von je 1 cm. Verrechnet wird die Fläche, auf der die Solldicke der
+            Bettung von 5 cm um mehr als 1 cm überschritten wird.
+
+29.13 10C   Az Bet-plattenschnitt Ichse/Gr                                                                                         m
+            Für Schrägschnitte der Platten in den Ichsen und Graten innerhalb der Fußbodenfläche bei Verlegung im
+            Gefälle. Abgerechnet wird die einfache Länge der Ichsen oder Grate.
+
+29.13 10D   Az Bet-pl.Bogenschnitte                                                                                                m
+            Für Bogenschnitte. Abgerechnet die Summe der Einzellängen.
+            Betrifft: ____________
+
+29.14       Stufen, Rand- und Antrittplatten
+            Sichtflächen:
+            Die Sichtflächen der Stufen sind fein geschliffen.
+            Untersichten Stufen:
+            Untersichten werden ohne gesonderte Verrechnung nur im Bereich des Stufenkopfes höchstens 5 cm tief
+            bearbeitet. Das Bearbeiten der Längskante wird gesondert verrechnet.
+            Werkstücke:
+            Werkstücke bis zu einer Länge von 1,8 m werden in einem Stück geliefert und versetzt. Stufenlängen über 1,8
+            m werden mehrteilig ausgeführt.
+            Verfugung:
+            Die Verfugungen mit grauem Zement oder Weißzement nach Wahl des Auftraggebers sind in die Einheitspreise
+            einkalkuliert.
+            Zuschnitt, Anarbeitung:
+            Das Zuschneiden von Passplatten ist im Einheitspreis einkalkuliert.
+             Kommentar:
+             Spitze, gebogene Stufen:
+             Spitze, gebogene oder verzogene Stufen sind frei zu textieren und mit Skizze zu belegen.
+             Freitragende Stufen:
+             Freitragende Stufen sind nach statischem Erfordernis frei zu textieren.
+             Ausschreiberlücke:
+             In die Ausschreiberlücke bei Stufen können die Art und Größe der Steinkörnung sowie etwaige Einfärbungen angegeben
+             werden.
+             Agglo-Größtkorn:
+             Das angegebene Größtkorn bei den Agglomeratplatten bezieht sich auf die größte Sieböffnung, wobei die Sichtkörner meist
+             kleiner sind.
+
+29.14 01    Gerade Stufen-Tritt-, Rand- und Antrittsplatten aus Kunststein voll aufliegend verlegt, ohne Unterschied der
+            Breite bis 35 cm.
+
+29.14 01A   Trittplatte gZ K15 2-f.b.1,4m                                                                                          m
+            Mit grauem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, bis 1,4 m lang, mindestens 3 cm dick.
+
+
+                                                                                                                              Seite 8 / 24
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+
+29.14 01B   Trittplatte gZK15 2-f.ü.1,4-1,8m                                                                          m
+            Mit grauem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, über 1,4 bis 1,8 m lang, mindestens 4 cm dick.
+
+29.14 01C   Trittplatte gZ K15 schw/w.b.1,4m                                                                          m
+            Mit grauem Zement, Größtkorn 15 mm, schwarz/weiß, bis 1,4 m lang, mindestens 3 cm dick.
+
+29.14 01D   Trittplatte gZ K15 schw/w.ü.1,4-1,8m                                                                      m
+            Mit grauem Zement, Größtkorn 15 mm, schwarz/weiß, über 1,4 bis 1,8 m lang, mindestens 4 cm dick.
+
+29.14 01E   Trittplatte gZ K25 b.1,4m                                                                                 m
+            Mit grauem Zement, Größtkorn 25 mm, bis 1,4 m lang, mindestens 3 cm dick.
+            Steinmaterial: ____________
+
+29.14 01F   Trittplatte gZ K25 ü.1,4-1,8m                                                                             m
+            Mit grauem Zement, Größtkorn 25 mm, über 1,4 bis 1,8 m lang, mindestens 4 cm dick.
+            Steinmaterial: ____________
+
+29.14 01I   Trittplatte wZ K15 2-f.b.1,4m                                                                             m
+            Mit weißem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, bis 1,4 m lang, mindestens 3 cm dick.
+
+29.14 01J   Trittplatte wZ K15 2-f.ü.1,4-1,8m                                                                         m
+            Mit weißem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, über 1,4 bis 1,8 m lang, mindestens 4 cm dick.
+
+29.14 01K   Trittplatte wZ K15 beige b.1,4m                                                                           m
+            Mit weißem Zement, Größtkorn 15 mm, mit beigem Korn, bis 1,4 m lang, mindestens 3 cm dick.
+
+29.14 01L   Trittplatte wZ K15 beige ü.1,4-1,8m                                                                       m
+            Mit weißem Zement, Größtkorn 15 mm, mit beigem Korn, über 1,4 bis 1,8 m lang, mindestens 4 cm dick.
+
+29.14 01M   Trittplatte wZ K25 beige b.1,4m                                                                           m
+            Mit weißem Zement, Größtkorn 25 mm, mit beigem Korn, bis 1,4 m lang, mindestens 3 cm dick.
+
+29.14 01N   Trittplatte wZ K25 beige ü.1,4-1,8m                                                                       m
+            Mit weißem Zement, Größtkorn 25 mm, mit beigem Korn, über 1,4 bis 1,8 m lang, mindestens 4 cm dick.
+
+29.14 02    Stufensetzplatten aus Kunststein, ohne Unterschied der Höhe bis 16 cm.
+
+29.14 02A   Setzplatte gZ K15 2-f.b.1,4m 2cm                                                                          m
+            Mit grauem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen verschiedenen Mustern, bis 1,4 m lang, mindestens 2 cm dick.
+
+29.14 02B   Setzplatte gZ K15 2-f.b.1,4m 3cm                                                                          m
+            Mit grauem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, bis 1,4 m lang, mindestens 3 cm dick.
+
+29.14 02C   Setzplatte gZK15 2-f.ü.1,4-1,8 3cm                                                                        m
+            Mit grauem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, über 1,4 bis 1,8 m lang, mindestens 3 cm dick.
+
+29.14 02D   Setzplatte gZK15 2-f.ü.1,4-1,8 4cm                                                                        m
+            Mit grauem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, über 1,4 bis 1,8 m lang, mindestens 4 cm dick.
+
+29.14 02E   Setzplatte gZ K15 schw/w.b.1,4 2cm                                                                        m
+            Mit grauem Zement, Größtkorn 15 mm, schwarz/weiß, bis 1,4 m lang, mindestens 2 cm dick.
+
+29.14 02F   Setzplatte gZ K15 schw/w.b.1,4 3cm                                                                        m
+
+                                                                                                                 Seite 9 / 24
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+            Mit grauem Zement, Größtkorn 15 mm, schwarz/weiß, bis 1,4 m lang, mindestens 3 cm dick.
+
+29.14 02G   Setzplatte gZ K15 schw/w.ü.1,4-1,8 3cm                                                                    m
+            Mit grauem Zement, Größtkorn 15 mm, schwarz/weiß, über 1,4 bis 1,8 m lang, mindestens 3 cm dick.
+
+29.14 02H   Setzplatte gZ K15 schw/w.ü.1,4-1,8 4cm                                                                    m
+            Mit grauem Zement, Größtkorn 15 mm, schwarz/weiß, über 1,4 bis 1,8 m lang, mindestens 4 cm dick.
+
+29.14 02I   Setzplatte gZ K25 b.1,4m 2cm                                                                              m
+            Mit grauem Zement, Größtkorn 25 mm, bis 1,4 m lang, mindestens 2 cm dick.
+            Steinmaterial: ____________
+
+29.14 02J   Setzplatte gZ K25 b.1,4m 3cm                                                                              m
+            Mit grauem Zement, Größtkorn 25 mm, bis 1,4 m lang, mindestens 3 cm dick.
+            Steinmaterial: ____________
+
+29.14 02K   Setzplatte gZ K25 ü.1,4-1,8m 3cm                                                                          m
+            Mit grauem Zement, Größtkorn 25 mm, über 1,4 bis 1,8 m lang, mindestens 3 cm dick.
+            Steinmaterial: ____________
+
+29.14 02L   Setzplatte gZ K25 ü.1,4-1,8m 4cm                                                                          m
+            Mit grauem Zement, Größtkorn 25 mm, über 1,4 bis 1,8 m lang, mindestens 4 cm dick.
+            Steinmaterial: ____________
+
+29.14 02M   Setzplatte wZ K15 2-f.b.1,4m 2cm                                                                          m
+            Mit weißem Zement, Größtkorn 25 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, bis 1,4 m lang, mindestens 2 cm dick.
+
+29.14 02N   Setzplatte wZ K15 2-f.b.1,4m 3cm                                                                          m
+            Mit weißem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, bis 1,4 m lang, mindestens 3 cm dick.
+
+29.14 02O   Setzplatte wZ K15 2-f.ü.1,4-1,8m 3cm                                                                      m
+            Mit weißem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, über 1,4 bis 1,8 m lang, mindestens 3 cm dick.
+
+29.14 02P   Setzplatte wZ K15 2-f.ü.1,4-1,8m 4cm                                                                      m
+            Mit weißem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, über 1,4 bis 1,8 m lang, mindestens 4 cm dick.
+
+29.14 02Q   Setzplatte wZ K15 beige b.1,4m 2cm                                                                        m
+            Mit weißem Zement, Größtkorn 15 mm, mit beigem Korn, bis 1,4 m lang, mindestens 2 cm dick.
+
+29.14 02R   Setzplatte wZ K15 beige b.1,4m 3cm                                                                        m
+            Mit weißem Zement, Größtkorn 15 mm, mit beigem Korn, bis 1,4 m lang, mindestens 3 cm dick.
+
+29.14 02S   Setzplatte wZ K15 beige ü.1,4-1,8m 3cm                                                                    m
+            Mit weißem Zement, Größtkorn 15 mm, mit beigem Korn, über 1,4 bis 1,8 m lang, mindestens 3 cm dick.
+
+29.14 02T   Setzplatte wZ K15 beige ü.1,4-1,8m 4cm                                                                    m
+            Mit weißem Zement, Größtkorn 15 mm, mit beigem Korn, über 1,4 bis 1,8 m lang, mindestens 4 cm dick.
+
+29.14 02U   Setzplatte wZ K25 beige b.1,4m 2cm                                                                        m
+            Mit weißem Zement, Größtkorn 25 mm, mit beigem Korn, bis 1,4 m lang, mindestens 2 cm dick.
+
+29.14 02V   Setzplatte wZ K25 beige b.1,4m 3cm                                                                        m
+            Mit weißem Zement, Größtkorn 25 mm, mit beigem Korn, bis 1,4 m lang, mindestens 3 cm dick.
+
+29.14 02W   Setzplatte wZ K25 beige ü.1,4-1,8m 3cm                                                                    m
+            Mit weißem Zement, Größtkorn 25 mm, mit beigem Korn, über 1,4 bis 1,8 m lang, mindestens 3 cm dick.
+
+                                                                                                                Seite 10 / 24
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+29.14 02X   Setzplatte wZ K25 beige ü.1,4-1,8m 4cm                                                                        m
+            Mit weißem Zement, Größtkorn 25 mm, mit beigem Korn, über 1,4 bis 1,8 m lang, mindestens 4 cm dick.
+
+29.14 03    Gerade Stufen-Tritt-, Rand- und Antrittsplatten aus Agglomerat voll aufliegend verlegt, ohne Unterschied der
+            Breite bis 35 cm.
+
+29.14 03A   Trittplatte Agglo k-harzg.3cm b.1,4m                                                                          m
+            Kunstharzgebunden, bis 1,4 m lang, 3 cm dick, Größtkorn bis 100 mm.
+            Steinmaterial: ____________
+
+29.14 03B   Trittplatte Agglo k-harzg.4cm b.1,4m                                                                          m
+            Kunstharzgebunden, bis 1,4 m lang, 4 cm dick, Größtkorn bis 100 mm.
+            Steinmaterial: ____________
+
+29.14 03C   Trittplatte Agglo k-harzg.3cm ü.1,4-1,8m                                                                      m
+            Kunstharzgebunden, über 1,4 bis 1,8 m lang, 3 cm dick, Größtkorn bis 100 mm.
+            Steinmaterial: ____________
+
+29.14 03D   Trittplatte Agglo k-harzg.4cm ü.1,4-1,8m                                                                      m
+            Kunstharzgebunden, über 1,4 bis 1,8 m lang, 4 cm dick, Größtkorn bis 100 mm.
+            Steinmaterial: ____________
+
+29.14 03E   Trittplatte Agglo zementg.4cm b.1,4m                                                                          m
+            Zementgebunden, bis 1,4 m lang, 4 cm dick, Größtkorn bis 25 mm.
+            Steinmaterial: ____________
+
+29.14 03F   Trittplatte Agglo zementg.4cm ü.1,4-1,8m                                                                      m
+            Zementgebunden, über 1,4 bis 1,8 m lang, 4 cm dick, Größtkorn bis 25 mm.
+            Steinmaterial: ____________
+29.14 04    Stufensetzplatten aus Agglomerat ohne Unterschied der Höhe bis 16 cm.
+
+29.14 04A   Setzplatte Agglo k-harzg.2cm b.1,4m                                                                           m
+            Kunstharzgebunden, bis 1,4 m lang, 2 cm dick, Größtkorn bis 100 mm, aus ____________
+
+29.14 04B   Setzpatte Agglo k-harzg.3cm b.1,4m                                                                            m
+            Kunstharzgebunden, bis 1,4 m lang, 3 cm dick, Größtkorn bis 100 mm, aus ____________
+
+29.14 04C   Setzplatte Agglo k-harzg.2cm ü.1,4-1,8m                                                                       m
+            Kunstharzgebunden, über 1,4 bis 1,8 m lang, 2 cm dick, Größtkorn bis 100 mm, aus ____________
+
+29.14 04D   Setzplatte Agglo k-harzg.3cm ü.1,4-1,8m                                                                       m
+            Kunstharzgebunden, über 1,4 bis 1,8 m lang, 3 cm dick, Größtkorn bis 100 mm, aus ____________
+
+29.14 04F   Setzplatte Agglo zementg.3cm b.1,4m                                                                           m
+            Zementgebunden, bis 1,4 m lang, 3 cm dick, Größtkorn bis 25 mm, aus ____________
+
+29.14 04G   Setzplatte Agglo zementg.4cm b.1,4m                                                                           m
+            Zementgebunden, bis 1,4 m lang, 4 cm dick, Größtkorn bis 25 mm, aus ____________
+
+29.14 04H   Setzplatte Agglo zementg.3cm ü.1,4-1,8m                                                                       m
+            Zementgebunden, über 1,4 bis 1,8 m lang, 3 cm dick, Größtkorn bis 25 mm, aus ____________
+
+29.14 04I   Setzplatte Agglo zementg.4cm ü.1,4-1,8m                                                                       m
+            Zementgebunden, über 1,4 bis 1,8 m lang, 4 cm dick, Größtkorn bis 25 mm, aus ____________
+
+29.14 06    Aufzahlung (Az) auf die Positionen Stufenplatten, aus Kunststein oder Agglomerat, voll aufliegend verlegt, ohne
+            Unterschied der Steinkörnung und Dicke.
+
+29.14 06A   Az Kopf schleifen Trittplatte                                                                                 Stk
+            Für das Schleifen von Plattenköpfen, bei Trittstufenplatten.
+
+                                                                                                                    Seite 11 / 24
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+29.14 06B   Az Kopf Schleifen Setzplatte                                                                                  Stk
+            Für das Schleifen von Plattenköpfen, bei Setzstufenplatten.
+
+29.14 07    Gerade Stufen-Tritt-, Rand- und Antrittsplatten aus Waschbeton, voll aufliegend verlegt, ohne Unterschied der
+            Breite bis 35 cm.
+
+29.14 07A   Trittplatte Waschbet.Rundkies b.1,4m                                                                          m
+            Mindestens 5 cm dick, bis 1,4 m lang, Oberfläche mit Rundkies aus Fein- oder Grobkorn nach Wahl des
+            Auftraggebers.
+
+29.14 07B   Trittplatte Waschbet.Rundkies ü.1,4-1,8m                                                                      m
+            Mindestens 5 cm dick, über 1,4 bis 1,8 m lang, Oberfläche mit Rundkies aus Fein- oder Grobkorn nach Wahl
+            des Auftraggebers.
+29.14 08    Stufensetzplatten aus Waschbeton ohne Unterschied der Höhe bis 16 cm.
+
+29.14 08A   Setzplatte Waschbet.Rundkies b.1,4m                                                                           m
+            Mindestens 5 cm dick, bis 1,4 m lang, Oberfläche mit Rundkies aus Fein- oder Grobkorn nach Wahl des
+            Auftraggebers.
+
+29.14 08B   Setzplatte Waschbet.Rundkies ü.1,4-1,8m                                                                       m
+            Mindestens 5 cm dick, über 1,4 bis 1,8 m lang, Oberfläche mit Rundkies aus Fein- oder Grobkorn nach Wahl
+            des Auftraggebers.
+29.14 10    Aufzahlung (Az) auf die Positionen Stufenplatten aus Waschbeton, voll aufliegend verlegt.
+
+29.14 10A   Az Waschb.Kopfausbild.Trittstufenplatte                                                                       Stk
+            Für das Ausbilden von Stufenköpfen, bei Trittstufenplatten.
+
+29.14 10B   Az Waschb.Kopfausbild.Setzstufenplatte                                                                        Stk
+            Für das Ausbilden von Stufenköpfen, bei Setzstufenplatten.
+
+29.14 11    Winkelstufen aus Kunststein, Trittstufenbreite bis 35 cm, Spiegelhöhe bis 18 cm.
+
+29.14 11A   Winkelstufe gZ K15 2-f.b.1,4m                                                                                 m
+            Mit grauem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, bis 1,4 m lang.
+
+29.14 11B   Winkelstufe gZK15 2-f.ü.1,4-1,8m                                                                              m
+            Mit grauem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, über 1,4 bis 1,8 m lang.
+
+29.14 11C   Winkelstufe gZ K15 schw/w.b.1,4m                                                                              m
+            Mit grauem Zement, Größtkorn 15 mm, schwarz/weiß, bis 1,4 m lang.
+
+29.14 11D   Winkelstufe gZ K15schw/w.ü.1,4-1,8m                                                                           m
+            Mit grauem Zement, Größtkorn 15 mm, schwarz/weiß, über 1,4 bis 1,8 m lang.
+
+29.14 11E   Winkelstufe gZ K25 b.1,4m                                                                                     m
+            Mit grauem Zement, Größtkorn 25 mm, bis 1,4 m lang.
+            Steinmaterial: ____________
+
+29.14 11F   Winkelstufe gZ K25 ü.1,4-1,8m                                                                                 m
+            Mit grauem Zement, Größtkorn 25 mm, über 1,4 bis 1,8 m lang.
+            Steinmaterial: ____________
+
+29.14 11I   Winkelstufe wZ K15 2-f.b.1,4m                                                                                 m
+            Mit weißem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, bis 1,4 m lang.
+
+29.14 11J   Winkelstufe wZ K15 2-f.ü.1,4-1,8m                                                                             m
+            Mit weißem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, über 1,4 bis 1,8 m lang.
+                                                                                                                    Seite 12 / 24
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+29.14 11K   Winkelstufe wZ K15 beige b.1,4m                                                                               m
+            Mit weißem Zement, Größtkorn 15 mm, mit beigem Korn, bis 1,4 m lang.
+
+29.14 11L   Winkelstufe wZK15 beige ü.1,4-1,8m                                                                            m
+            Mit weißem Zement, Größtkorn 15 mm, mit beigem Korn, über 1,4 bis 1,8 m lang.
+
+29.14 11M   Winkelstufe wZ K25 beige b.1,4m                                                                               m
+            Mit weißem Zement, Größtkorn 25 mm, mit beigem Korn, bis 1,4 m lang.
+
+29.14 11N   Winkelstufe wZ K25 beige ü.1,4-1,8m                                                                           m
+            Mit weißem Zement, Größtkorn 25 mm, mit beigem Korn, über 1,4 bis 1,8 m lang.
+
+29.14 12    Winkelstufen aus Waschbeton, Trittstufenbreite bis 35 cm, Spiegelhöhe bis 18 cm.
+
+29.14 12A   Winkelstufe Waschb.Rundkies b.1,4m                                                                            m
+            Bis 1,4 m lang, Oberfläche mit Rundkies aus Fein- oder Grobkorn nach Wahl des Auftraggebers.
+
+29.14 12B   Winkelstufe Waschb.Rundkies ü.1,4-1,8m                                                                        m
+            Über 1,4 bis 1,8 m lang, Oberfläche mit Rundkies aus Fein- oder Grobkorn nach Wahl des Auftraggebers.
+
+29.14 13    Aufzahlung (Az) auf die Positionen Winkelstufen ohne Unterschied der Art.
+
+29.14 13A   Az Winkelstufe Kopf schleifen                                                                                 Stk
+            Für das Schleifen von Stufenköpfen.
+
+29.14 14    Keilstufen aus Kunststein, Trittstufenbreite bis 35 cm, Spiegelhöhe bis 18 cm.
+
+29.14 14A   Keilstufe gZ K15 2-f.b.1,4m                                                                                   m
+            Mit grauem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, bis 1,4 m lang.
+
+29.14 14B   Keilstufe gZ K15 2-f.ü.1,4-1,8m                                                                               m
+            Mit grauem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, über 1,4 bis 1,8 m lang.
+
+29.14 14C   Keilstufe gZ K15 schw/w.b.1,4m                                                                                m
+            Mit grauem Zement, Größtkorn 15 mm, schwarz/weiß, bis 1,4 m lang.
+
+29.14 14D   Keilstufe gZ K15 schw/w.ü.1,4-1,8m                                                                            m
+            Mit grauem Zement, Größtkorn 15 mm, schwarz/weiß, über 1,4 bis 1,8 m lang.
+
+29.14 14E   Keilstufe gZ K25 b.1,4m                                                                                       m
+            Mit grauem Zement, Größtkorn 25 mm, bis 1,4 m lang.
+            Steinmaterial: ____________
+
+29.14 14F   Keilstufe gZ K25 ü.1,4-1,8m                                                                                   m
+            Mit grauem Zement, Größtkorn 25 mm, über 1,4 bis 1,8 m lang.
+            Steinmaterial: ____________
+
+29.14 14I   Keilstufe wZ K15 2-f.b.1,4m                                                                                   m
+            Mit weißem Zement, Größtkorn 15 mm, 2-färbig, nach Wahl des Auftraggebers aus drei gleichwertigen,
+            verschiedenen Mustern, bis 1,4 m lang.
+
+29.14 14J   Keilstufe wZ K15 2-f.ü.1,4-1,8m                                                                               m
+            Mit weißem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, über 1,4 bis 1,8 m lang.
+
+29.14 14K   Keilstufe wZ K15 beige b.1,4m                                                                                 m
+            Mit weißem Zement, Größtkorn 15 mm, mit beigem Korn, bis 1,4 m lang.
+
+29.14 14L   Keilstufe wZ K15 beige ü.1,4-1,8m                                                                             m
+
+                                                                                                                    Seite 13 / 24
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Mit weißem Zement, Größtkorn 15 mm, mit beigem Korn, über 1,4 bis 1,8 m lang.
+
+29.14 14M   Keilstufe wZ K25 beige b.1,4m                                                                                m
+            Mit weißem Zement, Größtkorn 25 mm, mit beigem Korn, bis 1,4 m lang.
+
+29.14 14N   Keilstufe Wz K25 beige ü.1,4-1,8m                                                                            m
+            Mit Weißzement, Größtkorn 25 mm, mit beigem Korn, über 1,4 bis 1,8 m lang.
+
+29.14 15    Aufzahlung (Az) auf die Positionen Keilstufen, ohne Unterschied der Art.
+
+29.14 15A   Az Keilstufe Kopf schleifen                                                                                  Stk
+            Für das Schleifen von Stufenköpfen.
+
+29.14 18    Blockstufen aus Kunststein, Trittstufenbreite bis 35 cm, Spiegelhöhe bis 18 cm.
+
+29.14 18A   Blockstufe gZ K15 2-f.b.1,4m                                                                                 m
+            Mit grauem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, bis 1,4 m lang.
+
+29.14 18B   Blockstufe gZ K15 2-f.ü1,4-1,8m                                                                              m
+            Mit grauem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, über 1,4 bis 1,8 m lang.
+
+29.14 18C   Blockstufe gZ K15 schw/w.b.1,4m                                                                              m
+            Mit grauem Zement, Größtkorn 15 mm, schwarz/weiß, bis 1,4 m lang.
+
+29.14 18D   Blockstufe gZ K15 schw/w.ü.1,4-1,8m                                                                          m
+            Mit grauem Zement, Größtkorn 15 mm, schwarz/weiß, über 1,4 bis 1,8 m lang.
+
+29.14 18E   Blockstufe gZ K25 b.1,4m                                                                                     m
+            Mit grauem Zement, Größtkorn 25 mm, bis 1,4 m lang.
+            Steinmaterial: ____________
+
+29.14 18F   Blockstufe gZ K25 ü.1,4-1,8m                                                                                 m
+            Mit grauem Zement, Größtkorn 25 mm, über 1,4 bis 1,8 m lang.
+            Steinmaterial: ____________
+
+29.14 18I   Blockstufe wZ K15 2-f.b.1,4m                                                                                 m
+            Mit weißem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, bis 1,4 m lang.
+
+29.14 18J   Blockstufe wZ K15 2-f.ü1,4-1,8m                                                                              m
+            Mit weißem Zement, Größtkorn 15 mm, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, über 1,4 bis 1,8 m lang.
+
+29.14 18K   Blockstufe wZ K15 beige b.1,4m                                                                               m
+            Mit weißem Zement, Größtkorn 15 mm, mit beigem Korn, bis 1,4 m lang.
+
+29.14 18L   Blockstufe wZ K15 beige ü.1,4-1,8m                                                                           m
+            Mit weißem Zement, Größtkorn 15 mm, mit beigem Korn, über 1,4 bis 1,8 m lang.
+
+29.14 18M   Blockstufe wZ K25 beige b.1,8m                                                                               m
+            Mit weißem Zement, Größtkorn 25 mm, mit beigem Korn, bis 1,4 m lang.
+
+29.14 18N   Blockstufe wZ K25 beige ü.1,8-1,9m                                                                           m
+            Mit weißem Zement, Größtkorn 25 mm, mit beigem Korn, über 1,4 bis 1,8 m lang.
+
+29.14 19    Aufzahlung auf die Positionen Blockstufen ohne Unterschied der Art.
+
+29.14 19A   Az Blockstufe Kopf schleifen                                                                                 Stk
+            Für das Schleifen von Stufenköpfen.
+
+
+                                                                                                                   Seite 14 / 24
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+29.14 21    Aufzahlung (Az) auf die Positionen Stufen-, Tritt- und Randplatten, ohne Unterschied des Materials und Breite,
+            für die Bearbeitung der Untersicht einer Längskante.
+
+29.14 21A   Az f.Randplatte Untersicht 5cm                                                                                       m
+            Bis 5 cm breit.
+
+29.15       Fensterbänke, Türschwellen
+            Sichtflächen:
+            Die Sichtflächen auch die der vorspringenden Plattenköpfe sind fein geschliffen, die Untersichten grob
+            geschliffen.
+             Kommentar:
+             Das angegebene Größtkorn bei den Agglomeratplatten bezieht sich auf die größte Sieböffnung, wobei die Sichtkörner meist
+             kleiner sind.
+
+29.15 01    Fensterbänke aus Kunststein, mit grauem Zement, 2-färbig, Sichtkanten abgefast, auf vorhandener tragfähiger
+            Unterlage versetzt, Ausführung nach Wahl des Auftraggebers aus drei gleichwertigen, verschiedenen Mustern,
+            ohne Unterschied der Breite bis 20 cm.
+
+29.15 01A   Fensterbank gZ 2-f.K15 3/20cm b.1,4m                                                                                 m
+            Größtkorn 15 mm, 3 cm dick, bis 1,4 m lang.
+
+29.15 01B   Fensterbank gZ 2-f.K15 3/20cm ü.1,4-1,8m                                                                             m
+            Größtkorn 15 mm, 3 cm dick, über 1,4 bis 1,8 m lang.
+
+29.15 01C   Fensterbank gZ 2-f.K15 4/20cm b.1,4m                                                                                 m
+            Größtkorn 15 mm, 4 cm dick, bis 1,4 m lang.
+
+29.15 01D   Fensterbank gZ 2-f.K15 4/20cm ü.1,4-1,8m                                                                             m
+            Größtkorn 15 mm, 4 cm dick, über 1,4 bis 1,8 m lang.
+
+29.15 01E   Fensterbank gZ 2-f.K25 3/20cm b.1,4m                                                                                 m
+            Größtkorn 25 mm, 3 cm dick, bis 1,4 m lang.
+
+29.15 01F   Fensterbank gZ 2-f.K25 3/20cm ü.1,4-1,8m                                                                             m
+            Größtkorn 25 mm, 3 cm dick, über 1,4 bis 1,8 m lang.
+
+29.15 01G   Fensterbank gZ 2-f.K25 4/20cm b.1,4m                                                                                 m
+            Größtkorn 25 mm, 4 cm dick, bis 1,4 m lang.
+
+29.15 01H   Fensterbank gZ 2-f.K25 4/20cm ü.1,4-1,8m                                                                             m
+            Größtkorn 25 mm, 4 cm dick, über 1,4 bis 1,8 m lang.
+
+29.15 04    Fensterbänke aus kunstharzgebundenem Agglomerat, Sichtkanten abgefast, auf vorhandener tragfähiger
+            Unterlage versetzt, ohne Unterschied der Breite bis 20 cm.
+
+29.15 04A   Fensterbank Aggloharz 2/20cm b.1,4m                                                                                  m
+            Größtkorn bis 100 mm, 2 cm dick, bis 1,4 m lang, Steinmaterial: ____________
+
+29.15 04B   Fensterbank Aggloharz 2/20cm ü.1,4-1,8m                                                                              m
+            Größtkorn bis 100 mm, 2 cm dick, über 1,4 bis 1,8 m lang, Steinmaterial: ____________
+
+29.15 04C   Fensterbank Aggloharz 3/20cm b.1,4m                                                                                  m
+            Größtkorn bis 100 mm, 3 cm dick, bis 1,4 m lang, Steinmaterial: ____________
+
+29.15 04D   Fensterbank Aggloharz 3/20cm ü.1,4-1,8m                                                                              m
+            Größtkorn bis 100 mm, 3 cm dick, über 1,4 bis 1,8 m lang, Steinmaterial: ____________
+
+29.15 04E   Fensterbank Aggloharz 4/20cm b.1,4m                                                                                  m
+            Größtkorn bis 100 mm, 4 cm dick, bis 1,4 m lang, Steinmaterial: ____________
+
+
+
+                                                                                                                           Seite 15 / 24
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+29.15 05    Fensterbänke aus zementgebundenem Agglomerat, Sichtkanten abgefast, auf vorhandener tragfähiger
+            Unterlage versetzt, ohne Unterschied der Breite bis 20 cm.
+
+29.15 05A   Fensterbank Agglo zem.3/20cm b.1,4m                                                                         m
+            Größtkorn bis 25 mm, 3 cm dick, bis 1,4 m lang, Steinmaterial: ____________
+
+29.15 05B   Fensterbank Agglo zem.3/20cm ü.1,4-1,8m                                                                     m
+            Größtkorn bis 25 mm, 3 cm dick, über 1,4 bi 1,8 m lang, Steinmaterial: ____________
+
+29.15 07    Aufzahlung (Az) auf die Positionen Fensterbänke.
+
+29.15 07A   Az A-FensterbankTropfkante                                                                                  m
+            Für das Herstellen einer Tropfkante (Wassernase) bei Außenfensterbänken.
+
+29.15 07B   Az A-Fensterbank Schwitzw.Rinne                                                                             m
+            Für das Herstellen von Schwitzwasserrinnen bei Innenfensterbänken.
+
+29.15 07C   Az A-Fensterbank seitl.Rille                                                                                Stk
+            Für das Herstellen von seitlichen Rillen an Außenfensterbänken, ohne Unterschied der Rilleneinzellänge.
+            Abgerechnet werden die Rillen.
+29.15 08    Aufzahlung (Az) auf die Positionen Fensterbänke aus Kunststein für eine Mehrbreite über 20 cm, ohne
+            Unterschied der Länge bis 1,8 m.
+
+29.15 08A   Az Fensterbank Kunstst.3cm+Br.b.5cm                                                                         m
+            3 cm dick, für eine Mehrbreite bis 5 cm.
+
+29.15 08B   Az Fensterbank Kunstst.3cm+Br.ü.5-10cm                                                                      m
+            3 cm dick, für eine Mehrbreite über 5 bis 10 cm.
+
+29.15 08C   Az Fensterbank Kunstst.3cm+Br.ü.10-15cm                                                                     m
+            3 cm dick, für eine Mehrbreite über 10 bis 15 cm.
+
+29.15 08E   Az Fensterbank Kunstst.4cm+Br.b.5cm                                                                         m
+            4 cm dick, für eine Mehrbreite bis 5 cm.
+
+29.15 08F   Az Fensterbank Kunstst.4cm+Br.ü.5-10cm                                                                      m
+            4 cm dick, für eine Mehrbreite über 5 bis 10 cm.
+
+29.15 08G   Az Fensterbank Kunstst.4cm+Br.ü.10-15cm                                                                     m
+            4 cm dick, für eine Mehrbreite über 10 bis 15 cm.
+
+29.15 10    Aufzahlung (Az) auf die Positionen Fensterbänke aus kunstharzgebundenem Agglomerat, für eine Mehrbreite
+            über 20 cm, ohne Unterschied der Länge bis 1,8 m.
+
+29.15 10A   Az Fensterbank Aggloharz 2cm+Br.b.5cm                                                                       m
+            2 cm dick, für eine Mehrbreite bis 5 cm.
+
+29.15 10B   Az Fensterbank Aggloharz 2cm+Br.ü.5-10cm                                                                    m
+            2 cm dick, für eine Mehrbreite über 5 bis 10 cm.
+
+29.15 10C   Az Fensterbank Aggloharz 2cm+Br.ü.10-15cm                                                                   m
+            2 cm dick, für eine Mehrbreite über 10 bis 15 cm.
+
+29.15 10E   Az Fensterbank Aggloharz 3cm+Br.b.5cm                                                                       m
+            3 cm dick, für eine Mehrbreite bis 5 cm.
+
+29.15 10F   Az Fensterbank Aggloharz 3cm+Br.ü.5-10cm                                                                    m
+            3 cm dick, für eine Mehrbreite über 5 bis 10 cm.
+
+29.15 10G   Az Fensterbank Aggloharz 3cm+Br.ü.10-15cm                                                                   m
+
+                                                                                                                  Seite 16 / 24
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            3 cm dick, für eine Mehrbreite über 10 bis 15 cm.
+
+29.15 10I   Az Fensterbank Aggloharz 4cm+Br.b.5cm                                                                        m
+            4 cm dick, für eine Mehrbreite bis 5 cm.
+
+29.15 10J   Az Fensterbank Aggloharz 4cm+Br.ü.5-10cm                                                                     m
+            4 cm dick, für eine Mehrbreite über 5 bis 10 cm.
+
+29.15 10K   Az Fensterbank Aggloharz 4cm+Br.ü.10-15cm                                                                    m
+            4 cm dick, für eine Mehrbreite über 10 bis 15 cm.
+
+29.15 12    Ausstemmen von Schlitzen in die verputzten Fensterleibungen für das Versetzen von Fensterbänken,
+            einschließlich Entfernen des anfallenden Schuttes.
+
+29.15 12A   Stemmen Schlitz in Leibung                                                                                   m
+29.15 15    Türschwellen aus Kunststein, Sichtflächen geschliffen, obere Kanten abgefast, einschließlich etwaiges Ausfüllen
+            des Untergrundes mit Beton bis 5 cm dick, im Dünnbettverfahren oder Mörtelbett verlegt.
+
+29.15 15A   Türschwelle gZ K15 2-f.b.15cm                                                                                Stk
+            Mit grauem Zement, Größtkorn 15 mm, 2- färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, 3 cm dick, bis 1 m lang, bis 15 cm breit.
+
+29.15 15B   Türschwelle gZ K15 2-f.ü.15-20cm                                                                             Stk
+            Mit grauem Zement, Größtkorn 15 mm, 2- färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, 3 cm dick, bis 1 m lang, über 15 bis 20 cm breit.
+
+29.15 15C   Türschwelle wZ K15 2-f.b.15cm                                                                                Stk
+            Mit weißem Zement, Größtkorn 15 mm, 2- färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, 3 cm dick, bis 1 m lang, bis 15 cm breit.
+
+29.15 15D   Türschwelle wZ K15 2-f.ü.15-20cm                                                                             Stk
+            Mit weißem Zement, Größtkorn 15 mm, 2- färbig, Ausführung nach Wahl des Auftraggebers aus drei
+            gleichwertigen, verschiedenen Mustern, 3 cm dick, bis 1 m lang, über 15 bis 20 cm breit.
+29.15 17    Türschwellen aus kunstharzgebundenen Agglomeratplatten, Kanten abgefasst, einschließlich etwaiges
+            Ausfüllen des Untergrundes mit Beton, bis 5 cm dick, im Dünnbettverfahren verlegt.
+
+29.15 17A   Türschwelle Agglokunstharz b.15cm                                                                            Stk
+            Größtkorn bis 100 mm,
+            Steinmaterial 3 cm dick: ____________
+            bis 1 m lang, bis 15 cm breit.
+
+29.15 17B   Türschwelle Agglokunstharz ü.15-20cm                                                                         Stk
+            Größtkorn bis 100 mm,
+            Steinmaterial 3 cm dick: ____________
+            bis 1 m lang, über 15 bis 20 cm breit.
+
+29.15 19    Aufzahlung (Az) auf die Positionen Türschwellen mindestens 3 cm dick, für das Einfräsen einer Nut, für das
+            Einlegen einer Dichtung durch den Auftraggeber.
+
+29.15 19A   Az Türschwelle Nut 5/10mm                                                                                    m
+            Nut ca. 5 mm breit und bis 10 mm tief.
+
+29.16       Sockel
+            Fugenaufteilung:
+            Die Sockel müssen nicht mit dem Bodenbelag fugengleich ausgeführt werden.
+            Elastische Fugen:
+            Das Verfugen mit elastischem Dichtstoff wird gesondert verrechnet.
+
+29.16 01    Sockel aus Kunststeinplatten, 0,7 bis 1 cm dick, 7 cm hoch, zementgebunden, passend zu den
+            ausgeschriebenen Belägen, im Dünnbettverfahren verlegt.
+
+29.16 01A   Sockel zementg.K15 2-f.gZ                                                                                    m
+                                                                                                                   Seite 17 / 24
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Größtkorn 15, mit grauem Zement, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei gleichwertigen,
+            verschiedenen Mustern.
+
+29.16 01B   Sockel zementg.K15 2-f.Wz                                                                                    m
+            Größtkorn 15 mm, mit Weißzement, 2-färbig, Ausführung nach Wahl des Auftraggebers aus drei gleichwertigen,
+            verschiedenen Mustern.
+
+29.16 01C   Sockel zementg.K15                                                                                           m
+            Größtkorn 15 mm.
+            Steinmaterial: ____________
+
+29.16 01D   Sockel zementg.K25                                                                                           m
+            Größtkorn 25 mm.
+            Steinmaterial: ____________
+29.16 02    Sockel aus kunstharzgebundenen Agglomeratplatten, 7 cm hoch, passend zu den ausgeschriebenen Belägen,
+            im Dünnbettverfahren verlegt, verfugt mit Stoffen auf Zementbasis.
+
+29.16 02A   Sockel Agglo kunstharzg.0,8cm                                                                                m
+            Platten 0,8 cm dick, Größtkorn bis 25 mm.
+            Steinmaterial: ____________
+29.16 07    Stufensockel aus Kunststeinplatten, 0,7 bis 1 cm dick, 7 cm hoch, zementgebunden, im Dünnbettverfahren
+            verlegt, passend zu den ausgeschriebenen Stufen.
+
+29.16 07A   Stufensockel abgetr.K15 2-f.gZ                                                                               m
+            Abgetreppt verlegt, Größtkorn 15 mm, 2- färbig, mit grauem Zement, Ausführung nach Wahl des Auftraggebers
+            aus drei gleichwertigen, verschiedenen Mustern.
+
+29.16 07B   Stufensockel abgetr.K15 2-f.wZ                                                                               m
+            Abgetreppt verlegt, Größtkorn 15 mm, 2- färbig, mit weißem Zement, Ausführung nach Wahl des Auftraggebers
+            aus drei gleichwertigen, verschiedenen Mustern.
+29.16 08    Stufensockel aus kunstharzgebundenen Agglomeratplatten, 0,8 cm dick, 7 cm hoch, im Dünnbettverfahren
+            verlegt, passend zu den ausgeschriebenen Stufen.
+
+29.16 08A   Stufensock.abgetr.Agglo-kunsth                                                                               m
+            Abgetreppt verlegt, Größtkorn bis 25 mm.
+            Steinmaterial: ____________
+
+29.16 10    Aufzahlung (Az) auf die Positionen Sockelleisten für die Erschwernis bei Verlegearbeiten an gekrümmten
+            Flächen (auch bei Stiegen).
+
+29.16 10A   Az gekrümmt Sockel b.r=ü.1m                                                                                  m
+            Einschließlich Schneiden von Riemchen aus Platten, bis zu einem Radius von 1 m.
+
+29.16 10B   Az gekrümmt Sockel b.r=ü.1-2m                                                                                m
+            Einschließlich etwaigem zusätzlichem Schnitt, mit einem Radius über 1 bis 2 m.
+
+29.17       Einbauteile und Sonstiges
+            1.Begriffe:
+            Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl (z.B. V2A oder V4A) beschrieben.
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+29.17 01    Fugen schließen mit elastischem Dichtstoff, einschließlich Reinigen der Fugen, Haftanstrich und Glätten der
+            Fugen, in handelsüblichen Farben nach Wahl des Auftraggebers.
+
+29.17 01A   Fuge m.elast.Dichtstoff 5mm                                                                                  m
+            Auf Silikonbasis, Fugenbreite bis 5 mm.
+
+29.17 01B   Fuge m.elast.Dichtstoff 10mm                                                                                 m
+            Auf Silikonbasis, Fugenbreite über 5 bis 10 mm.
+
+
+                                                                                                                   Seite 18 / 24
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+29.17 02    Winkelrahmen, vom Auftraggeber beigestellt, versetzen in Kunststeinböden, ohne Unterschied der Einzelgröße
+            und des Profils. Gemessen wird die abgewickelte Länge des Rahmens.
+
+29.17 02A   Winkelrahmen nur versetzen                                                                                m
+29.17 03    Füllen und/oder Ausgleichen des Bodens innerhalb von Winkelrahmen mit Estrich oder Spachtelmasse.
+
+29.17 03A   Boden innerh.Rahmen ausgleichen                                                                           m²
+29.17 04    Schachtabdeckung für wählbare Oberfläche mit Rahmen, vom Auftraggeber beigestellt, versetzen.
+
+29.17 04A   Deck.wählb.Oberfl.n.vers.0,5m2                                                                            Stk
+            Rahmenaußenmaß bis 0,5 m2.
+
+29.17 04B   Deck.wählb.Oberfl.n.vers.1m2                                                                              Stk
+            Rahmenaußenmaß über 0,5 bis 1 m2.
+
+29.17 05    Schachtdeckel für wählbare Oberfläche geruchsdicht, mit Rahmen.
+
+29.17 05A   Deckel wählb.Oberfl.Al 40x60cm                                                                            Stk
+            Aus Aluminium, Innenlichte 40 x 60 cm, Belastungsklasse A.
+
+29.17 05B   Deckel wählb.Oberfl.Edelstahl 40x60cm                                                                     Stk
+            Aus Edelstahl, Innenlichte 40 x 60 cm, Belastungsklasse A.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+29.17 05E   Deckel wählb.Oberfl.Al 60x60cm                                                                            Stk
+            Aus Aluminium, Innenlichte 60 x 60 cm, Belastungsklasse A.
+
+29.17 05F   Deckel wählb.Oberfl.Edelstahl 60x60cm                                                                     Stk
+            Aus Edelstahl, Innenlichte 60 x 60 cm, Belastungsklasse A.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+29.17 05H   Deckel wählb.Oberfl.Al 60x100                                                                             Stk
+            Aus Aluminium, Innenlichte 60 x 100 cm, Belastungsklasse A.
+
+29.17 05I   Deckel wählb.Oberfl.Edelstahl 60x100                                                                      Stk
+            Aus Edelstahl, Innenlichte 60 x 100 cm, Belastungsklasse A.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+29.17 06    Abschlusswinkel liefern und versetzen, bis 25 mm hoch.
+
+29.17 06A   Abschlusswinkel b.25mm Alu 2mm                                                                            m
+            Aus Aluminium, 2 mm dick.
+
+29.17 06B   Abschlusswinkel b.25mm Messing 2mm                                                                        m
+            Aus Messing, 2 mm dick.
+
+29.17 06C   Abschlusswinkel b.25mm Edelstahl 2mm                                                                      m
+            Aus Edelstahl, 2 mm dick.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+29.17 07    Abschlusswinkel liefern und versetzen, über 25 bis 35 mm hoch.
+
+29.17 07A   Abschlusswinkel 25-35mm Alu 2mm                                                                           m
+            Aus Aluminium, 2 mm dick.
+
+29.17 07B   Abschlusswinkel 25-35mm Messing 2mm                                                                       m
+                                                                                                                Seite 19 / 24
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Aus Messing, 2 mm dick.
+
+29.17 07C   Abschlusswinkel 25-35mm Edelstahl 2mm                                                                         m
+            Aus Edelstahl, 2 mm dick.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+29.17 08    Abschlusswinkel liefern und versetzen, über 35 bis 45 mm hoch.
+
+29.17 08A   Abschlusswinkel 35-45mm Alu 3mm                                                                               m
+            Aus Aluminium, 3 mm dick.
+
+29.17 08B   Abschlusswinkel 35-45mm Messing 3mm                                                                           m
+            Aus Messing, 3 mm dick.
+
+29.17 08C   Abschlusswinkel 35-45mm Edelstahl 3mm                                                                         m
+            Aus Edelstahl, 3 mm dick.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+29.17 08E   Abschlusswinkel Al.40/20/2mm                                                                                  m
+            Aus Aluminium, 40/20, 2 mm dick.
+
+29.17 08F   Abschlusswinkel Al.40/20/3mm                                                                                  m
+            Aus Aluminium, 40/20, 3 mm dick.
+
+29.17 09    Gleitschutz aus Kunststoff (Kst) einschließlich Ausfräsen der Nut in Stufen, ohne Unterschied der Stufenart und
+            des Materials.
+
+29.17 09A   Gleitsch.Kst+Fräs.1cm durchgehend                                                                             m
+            Gleitschutz 1 cm breit, durchgehend.
+
+            LB-Version: 23                Geringfügig Geändert
+
+29.17 09B   Gleitsch.Kst+Fräs.1cm 1s abgesetzt                                                                            m
+            Gleitschutz 1 cm breit, einseitig (1s) abgesetzt.
+
+            LB-Version: 23                Geringfügig Geändert
+
+29.17 09C   Gleitsch.Kst+Fräs.1cm 2s abgesetzt                                                                            m
+            Gleitschutz 1 cm breit, beidseitig (2s) abgesetzt.
+
+            LB-Version: 23                Geringfügig Geändert
+
+29.17 09D   Gleitsch.Kst+Fräs.4-5cm durchgehend                                                                           m
+            Gleitschutz 4 bis 5 cm breit, durchgehend.
+
+            LB-Version: 23                Geringfügig Geändert
+
+29.17 09E   Gleitsch.Kst+Fräs.4-5cm 1s abgesetzt                                                                          m
+            Gleitschutz 4 bis 5 cm breit, einseitig (1s) abgesetzt.
+
+            LB-Version: 23                Geringfügig Geändert
+
+29.17 09F   Gleitsch.Kst+Fräs.4-5cm 2s abgesetzt                                                                          m
+            Gleitschutz 4 bis 5 cm breit, beidseitig (2s) abgesetzt.
+
+            LB-Version: 23                Geringfügig Geändert
+29.17 10    Löcher bohren in Kunststein.
+
+29.17 10A   Löcher bohren 10cm D b.10mm                                                                                   Stk
+            Bohrtiefe bis 10 cm. Durchmesser bis 10 mm.
+
+29.17 10B   Löcher bohren 10cm D ü.10-15mm                                                                                Stk
+
+                                                                                                                    Seite 20 / 24
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Bohrtiefe bis 10 cm. Durchmesser über 10 bis 15 mm.
+
+29.17 10C   Löcher bohren 10cm D ü.15-20mm                                                                               Stk
+            Bohrtiefe bis 10 cm. Durchmesser über 15 bis 20 mm.
+
+29.17 11    Nach erfolgter Baureinigung Bodenbeläge oder Stufen aus Kunststein nachreinigen und zweimal fluatieren.
+
+29.17 11A   Kunststein fluatieren                                                                                        m²
+29.17 12    Dehnfugenprofil liefern und einbauen.
+
+29.17 12A   Dehnfugenprofil Al.Klasse A                                                                                  m
+            Aus Aluminium, Belastungsklasse A.
+
+29.17 12B   Dehnfugenprofil Al.Klasse B                                                                                  m
+            Aus Aluminium, Belastungsklasse B bis zu einem Raddruck: ____________
+
+29.17 12D   Dehnfugenprofil Edelstahl Klasse A                                                                           m
+            Aus Edelstahl, nur Belastungsklasse A.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+29.17 12E   Dehnfugenprofil Edelstahl Klasse B                                                                           m
+            Aus Edelstahl, Belastungsklasse B bis zu einem Raddruck: ____________
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+29.17 14    Schleifen von neuen Terrazzoplattenbelägen mit Nachschleifen vorgesehener, entsprechend überhöhter
+            Verfugung, bis Korn 300, einschließlich Entfernen des Schleifschlammes. Die Verfugung darf nach dem
+            Schleifen keine Vertiefung aufweisen.
+
+29.17 14A   Schleifen Terrazzoplattenbeläge                                                                              m²
+29.80       Instandsetzungsarbeiten
+            Anfallender Schutt wird vom Auftragnehmer abtransportiert und entsorgt oder verwertet. Die Kosten hiefür sind
+            in die Einheitspreise einkalkuliert.
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+
+29.80 01    Herstellen von Trennschnitten in Kunststeinböden mit Trennscheibe (trocken).
+
+29.80 01A   Trennschnitt im Bodenbelag 2cm                                                                               m
+            Bis 2 cm tief.
+
+29.80 01B   Trennschnitt im Bodenbelag 5cm                                                                               m
+            Über 2 bis 5 cm tief.
+
+29.80 02    Nassschneiden von Kunststeinböden, Flüssigkeit absaugen und die angrenzenden Teile vor Nässe und
+            Verschmutzung schützen.
+
+29.80 02A   Nassschneiden Bodenbelag 2cm                                                                                 m
+            Bis 2 cm tief.
+
+29.80 02B   Nassschneiden Bodenbelag 5cm                                                                                 m
+            Über 2 bis 5 cm tief.
+
+29.80 03    Einzelne Terrazzoplatten nach Angabe des Auftraggebers einschließlich Mörtelbett auslösen und durch
+            ähnliche, handelsübliche, neue Platten ersetzen, einschließlich Mörtelbett. Ohne Unterschied der Plattengröße.
+            Abgerechnet wird je Platte, bei Einzelflächen bis 0,5 m2.
+
+29.80 03A   Einzel.Terrazzoplatten ersetzen K15                                                                          Stk
+            Platten mit grauem Zement oder Weißzement, Größtkorn 15 mm.
+
+29.80 03B   Einzel.Terrazzoplatten ersetzen K25                                                                          Stk
+                                                                                                                   Seite 21 / 24
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+            Platten mit grauem Zement oder Weißzement, Größtkorn 25 mm.
+
+29.80 04    Terrazzoplatten nach Angabe des Auftraggebers einschließlich Mörtelbett auslösen und durch ähnliche,
+            handelsübliche neue Platten ersetzen, einschließlich Mörtelbett. Ohne Unterschied der Plattengröße.
+            Abgerechnet wird die Summe der Einzelflächen.
+
+29.80 04A   Terrazzoplattenbelag inst.K15 2m2                                                                                m²
+            Platten mit grauem Zement oder Weißzement, Größtkorn 15 mm, Einzelflächen über 0,5 bis 2 m2.
+
+29.80 04B   Terrazzoplattenbelag inst.K25 2m2                                                                                m²
+            Platten mit grauem Zement oder Weißzement, Größtkorn 25 mm, Einzelflächen über 0,5 bis 2 m2.
+
+29.80 07    Sockelplatten nach Angabe des Auftraggebers auslösen und durch ähnliche, handelsübliche, neue
+            Sockelplatten ersetzen, einschließlich etwaiger Stemmarbeiten, ohne Unterschied der Plattengröße.
+            Abgerechnet wird je Platte bei Einzellängen bis 2 m.
+
+29.80 07A   Einzel.Sockelplatten ersetzen K15                                                                                Stk
+            Sockelplatten mit grauem Zement oder Weißzement, Größtkorn 15 mm.
+
+29.80 07B   Einzel.Sockelplatten ersetzen K25                                                                                Stk
+            Sockelplatten mit grauem Zement oder Weißzement, Größtkorn 25 mm.
+
+29.80 08    Ausgetretene oder beschädigte Stufen instandsetzen aus Kunststein oder Naturstein bis Härte 4. Seitliche und
+            hintere Begrenzungen der auszubessernden Stellen geradlinig einschneiden, die eingegrenzte Fläche mit einem
+            Zahneisen oder Spitzeisen vorsichtig aufrauen und vertiefen, mit Kunststein passend zu den Stufen auffüllen,
+            einschließlich Haftbrücke. Oberfläche fein schleifen. Abgerechnet die Summe der Längen der ausgebesserten
+            Stellen, ohne Unterschied der Breite. Stellen unter 0,5 m Länge werden mit 0,5 m gerechnet. Sprünge in den
+            Stufen sind unverzüglich dem Auftraggeber zu melden.
+
+29.80 08A   Stufen instandsetzen                                                                                             m
+29.80 09    Ausbessern der Stufenkanten mit Steinkitt und entsprechendem Kunststeinmaterial und fein schleifen.
+
+29.80 09A   Ausbessern Stufenkante b.5cm                                                                                     Stk
+            Bis 5 cm lang.
+
+29.80 09B   Ausbessern Stufenkante ü.5-20cm                                                                                  Stk
+            Über 5 bis 20 cm lang.
+
+29.80 09C   Ausbessern Stufenkante ü.20-50cm                                                                                 Stk
+            Über 20 bis 50 cm lang.
+
+29.80 09D   Ausbessern Stufenkante ü.50cm                                                                                    m
+            Über 50 cm lang.
+
+29.80 10    Hauseingangspodeststufen, inkrustieren, einschließlich Haftbrücke. Vorhandenen Betonkern mit
+            Kunststeinmaterial (Dolomitsand mit Serpentinkörnung) bis 3 cm dick überziehen, einschließlich Haftbrücke,
+            Schalung und Schutz vor Beschädigung während der Härtezeit.
+
+29.80 10A   Podesttrittstufe inkrustieren                                                                                    m²
+            Trittfläche halbfein stocken, Ränder schleifen, einschließlich Herstellen der Fase.
+
+29.80 10B   Podestsetzstufe inkrustieren                                                                                     m
+29.80 11    Aufzahlung (Az) auf die Positionen Inkrustieren von Hauseingangspodeststufen, für das Herstellen von Profilen.
+
+29.80 11A   Az inkrust.Stufe Kante schleif                                                                                   m²
+            Für das Feinschleifen der Kanten und Ränder.
+
+29.80 11B   Az inkrust.Stufe einf.Rundung                                                                                    m
+            Von einfacher Rundung der vorspringenden Trittstufenkante, Radius = 2 cm.
+
+29.80 12    Vorhandenen alten Terrazzoplattenbelag grob schleifen, mit vergüteter Spachtelmasse einspachteln und fein
+            schleifen bis Korn 300, einschließlich Entfernen des Schleifschlammes.
+
+29.80 12A   Alten Terrazzopl-bel.schleifen                                                                                   m²
+                                                                                                                       Seite 22 / 24
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+29.90       Regieleistungen
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen.
+            1. Allgemeines:
+            IIn dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+            LB-Version: 23                  Geringfügig Geändert
+29.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+29.90 00C   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+29.90 01    Regiestunden.
+
+29.90 01A   Regiestunde K-st.Facharbeiter                                                                                    h
+            Für Facharbeiter.
+
+29.90 01B   Regiestunde K-st.Schleifer                                                                                       h
+            Für Kunststeinbelag-Schleifer.
+
+29.90 01C   Regiestunde K-st.Hilfsarbeiter                                                                                   h
+            Für Hilfsarbeiter.
+
+29.90 02    Mörtel für Verlegearbeiten im Mörtelbett.
+
+29.90 02A   Verlegemörtel                                                                                                    l
+29.90 03    Klebemörtel zementgebunden ohne Unterschied der Farbe. Abgerechnet nach dem Gewicht der Gebinde.
+
+29.90 03A   Klebemörtel zementgebunden                                                                                       kg
+29.90 06    Bodenplatten frei Baustelle (ohne Verlegearbeiten), einschließlich Abladen und Transport in einem vom
+            Auftraggeber beigestellten Aufbewahrungsraum.
+
+29.90 06A   Terrazzoplatten gZ                                                                                               m²
+
+
+                                                                                                                       Seite 23 / 24
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Terrazzoplatten mit grauem Zement,
+            Kornaufbau: ____________
+            Abmessungen: ____________
+
+29.90 06B   Terrazzoplatten Wz                                                                                          m²
+            Terrazzoplatten mit Weißzement,
+            Kornaufbau: ____________
+            Abmessungen: ____________
+
+29.90 06C   Terrazzoplatten gemäß Position                                                                              m²
+            Terrazzoplatten wie beschrieben in Position: ____________
+
+            LB-Version: 23              Geringfügig Geändert
+
+29.90 06D   Betonplatten gemäß Position                                                                                 m²
+            Betonplatten mit fein verriebener Oberfläche wie beschrieben in Position: ____________
+
+            LB-Version: 23              Geringfügig Geändert
+
+29.90 06E   Waschbetonplatten gemäß Position                                                                            m²
+            Waschbetonplatten wie beschrieben in Position: ____________
+
+            LB-Version: 23              Geringfügig Geändert
+
+29.90 06G   Agglomeratpl.harz. gemäß Position                                                                           m²
+            Agglomeratplatten kunstharzgebunden, wie beschrieben in Position: ____________
+
+            LB-Version: 23              Geringfügig Geändert
+
+29.90 06H   Agglomeratpl.zem. gemäß Position                                                                            m²
+            Agglomeratplatten zementgebunden, wie beschrieben in Position: ____________
+
+            LB-Version: 23              Geringfügig Geändert
+
+29.90 51    Materiallieferungen f.Regieleistungen                                                                       VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+            LB-Version: 23              Geringfügig Geändert
+
+
+
+
+                                                                                                                  Seite 24 / 24
+                                                                                             ib-data GmbH, Softwareentwicklung
+

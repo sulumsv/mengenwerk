@@ -1,0 +1,2276 @@
+{
+  "lg": "07",
+  "title": "Beton- und Stahlbetonarbeiten",
+  "positions": [
+    {
+      "code": "07.03.48A",
+      "text": "Öffnungen Decken/Treppen/Rampen b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.03.48B",
+      "text": "Öffnungen Decken/Treppen/Rampen ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.04.48A",
+      "text": "Öffnungen,Aussp. Sargdeckel b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.04.48B",
+      "text": "Öffnungen,Aussp. Sargdeckel ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.21.03A",
+      "text": "Arbeitsfugenbänder Innen Fund.-/Sohlen-/Bodenkonstr.20cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.03B",
+      "text": "Arbeitsfugenbänder Innen Fund.-/Sohlen-/Bodenkonstr.25cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.05A",
+      "text": "Dehnfugenbänder Innen Fund.-/Sohlen-/Bodenkonstr.20cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.05B",
+      "text": "Dehnfugenbänder Innen Fund.-/Sohlen-/Bodenkonstr.25cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.23A",
+      "text": "Arbeitsfugenbänder Innen Wand/Stütze/Balken 20cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.23B",
+      "text": "Arbeitsfugenbänder Innen Wand/Stütze/Balken 25cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.25A",
+      "text": "Dehnfugenbänder Innen Wand/Stütze/Balken 20cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.25B",
+      "text": "Dehnfugenbänder Innen Wand/Stütze/Balken 25cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.33A",
+      "text": "Arbeitsfugenbänder Innen Decken 20cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.33B",
+      "text": "Arbeitsfugenbänder Innen Decken 25cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.35A",
+      "text": "Dehnfugenbänder Innen Decken 20cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.35B",
+      "text": "Dehnfugenbänder Innen Decken 25cm",
+      "unit": ""
+    },
+    {
+      "code": "07.00.00C",
+      "text": "Ökologisch optimierte Betonbauweise",
+      "unit": ""
+    },
+    {
+      "code": "07.11.60A",
+      "text": "Einbau von Tragsystem, Leitungen - Flächenkühlung Decken",
+      "unit": "m²"
+    },
+    {
+      "code": "07.11.60B",
+      "text": "Einbau von Tragsystem, Leitungen - Flächenkühlung Wände",
+      "unit": "m²"
+    },
+    {
+      "code": "07.21.03F",
+      "text": "Arbeitsfugenbänder Außen Fund.-/Sohlen-/Bodenkonstr.20cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.03G",
+      "text": "Arbeitsfugenbänder Außen Fund.-/Sohlen-/Bodenkonstr.25cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.05F",
+      "text": "Dehnfugenbänder Außen Fund.-/Sohlen-/Bodenkonstr.20cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.05G",
+      "text": "Dehnfugenbänder Außen Fund.-/Sohlen-/Bodenkonstr.25cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.23F",
+      "text": "Arbeitsfugenbänder Außen Wand/Stütze/Balken 20cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.23G",
+      "text": "Arbeitsfugenbänder Außen Wand/Stütze/Balken 25cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.25F",
+      "text": "Dehnfugenbänder Außen Wand/Stütze/Balken 20cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.25G",
+      "text": "Dehnfugenbänder Außen Wand/Stütze/Balken 25cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.33F",
+      "text": "Arbeitsfugenbänder Außen Decken 20cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.33G",
+      "text": "Arbeitsfugenbänder Außen Decken 25cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.35F",
+      "text": "Dehnfugenbänder Außen Decken 20cm",
+      "unit": ""
+    },
+    {
+      "code": "07.21.35G",
+      "text": "Dehnfugenbänder Außen Decken 25cm",
+      "unit": ""
+    },
+    {
+      "code": "07.00.00V",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "07.01.01A",
+      "text": "Auffüllen Beton C8/10",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.01B",
+      "text": "Auffüllen m.stabilisierter Sandmischung",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.02A",
+      "text": "Sauberkeitsschicht C12/15",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.03A",
+      "text": "Unterbeton C12/15 b.10cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.03B",
+      "text": "Unterbeton C12/15 ü.10-15cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.03C",
+      "text": "Unterbeton C12/15 ü.15-20cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.03D",
+      "text": "Unterbeton C16/20 b.10cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.03E",
+      "text": "Unterbeton C16/20 ü.10-15cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.03F",
+      "text": "Unterbeton C16/20 ü.15-20cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.03S",
+      "text": "Seitliche Schalung Unterbeton",
+      "unit": "m²"
+    },
+    {
+      "code": "07.01.03V",
+      "text": "Bewehrung Stabst.Unterbeton",
+      "unit": "kg"
+    },
+    {
+      "code": "07.01.03W",
+      "text": "Bewehrung Matten Unterbeton",
+      "unit": "kg"
+    },
+    {
+      "code": "07.01.03X",
+      "text": "Az Unterbeton f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.04A",
+      "text": "Trennschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "07.01.05A",
+      "text": "Einzelfundamente Beton C12/15",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.05C",
+      "text": "Einzelfundamente Beton C16/20",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.05E",
+      "text": "Einzelfundamente Beton C20/25",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.05G",
+      "text": "Einzelfundamente Beton C25/30",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.05S",
+      "text": "Schalung Einzelfundamente",
+      "unit": "m²"
+    },
+    {
+      "code": "07.01.05V",
+      "text": "Bewehrung Stabst.Einzelfundamente",
+      "unit": "kg"
+    },
+    {
+      "code": "07.01.05W",
+      "text": "Bewehrung Matten Einzelfundamente",
+      "unit": "kg"
+    },
+    {
+      "code": "07.01.05X",
+      "text": "Az Einzelfundamente f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.06A",
+      "text": "Streifenfundament/Frostschürzen Beton C12/15",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.06C",
+      "text": "Streifenfundament/Frostschürzen Beton C16/20",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.06E",
+      "text": "Streifenfundament/Frostschürzen Beton C20/25",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.06G",
+      "text": "Streifenfundament/Frostschürzen Beton C25/30",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.06S",
+      "text": "Schalung Streifenfundament/Frostschürzen",
+      "unit": "m²"
+    },
+    {
+      "code": "07.01.06V",
+      "text": "Bewehrung Stabst.Streifenfundament/Frostschürzen",
+      "unit": "kg"
+    },
+    {
+      "code": "07.01.06W",
+      "text": "Bewehrung Matten Streifenfundament/Frostschürzen",
+      "unit": "kg"
+    },
+    {
+      "code": "07.01.06X",
+      "text": "Az Streifenfundament/Frostschürzen f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.07A",
+      "text": "Beton Fundamentplatte C16/20 b.30cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.07B",
+      "text": "Beton Fundamentplatte C16/20 ü.30-50cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.07C",
+      "text": "Beton Fundamentplatte C20/25 b.30cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.07D",
+      "text": "Beton Fundamentplatte C20/25 ü.30-50cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.07E",
+      "text": "Beton Fundamentplatte C25/30 b.30cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.07F",
+      "text": "Beton Fundamentplatte C25/30 ü.30-50cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.07S",
+      "text": "Schalung Fundamentplatte",
+      "unit": "m²"
+    },
+    {
+      "code": "07.01.07V",
+      "text": "Bewehrung Stabst.Fundamentplatte",
+      "unit": "kg"
+    },
+    {
+      "code": "07.01.07W",
+      "text": "Bewehrung Matten Fundamentplatte",
+      "unit": "kg"
+    },
+    {
+      "code": "07.01.07X",
+      "text": "Az Fundamentplatte f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.09A",
+      "text": "Az Beton Fund./Platte C20/25 f.XC2",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.09B",
+      "text": "Az Beton Fund./Platte C20/25 f.B1",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.09C",
+      "text": "Az Beton Fund./Platte C25/30 f.B2",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.09D",
+      "text": "Az Beton Fund./Platte C25/30 f.B4",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.09E",
+      "text": "Az Beton Fund./Platte C25/30 f.B7",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.09X",
+      "text": "Az Beton Fund./Platte f.besondere Eigenschaften",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.13A",
+      "text": "Beton Unterfangung-Fundamente C16/20",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.13B",
+      "text": "Beton Unterfangung-Fundamente C25/30",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.13S",
+      "text": "Schalung Unterfangung-Fundamente",
+      "unit": "m²"
+    },
+    {
+      "code": "07.01.13V",
+      "text": "Bewehrung Stabst.Unterfangung-Fundamente",
+      "unit": "kg"
+    },
+    {
+      "code": "07.01.13W",
+      "text": "Bewehrung Matten Unterfangung-Fundamente",
+      "unit": "kg"
+    },
+    {
+      "code": "07.01.13X",
+      "text": "Az Unterfangung-Fundamente f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.23A",
+      "text": "Az Unterbeton f.Gefälle b.10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "07.01.23B",
+      "text": "Az Unterbeton f.Gefälle ü.10-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "07.01.32A",
+      "text": "Az Beton Fundament f.geneigte OF",
+      "unit": "m³"
+    },
+    {
+      "code": "07.01.48A",
+      "text": "Öffnungen Fund./Bodenk.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.01.48B",
+      "text": "Öffnungen Fund./Bodenk.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.01.48C",
+      "text": "Schlitze Fund/Bodenk.b.0,05m2                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "07.02.01E",
+      "text": "Beton Wand b.20cm C20/25 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.01F",
+      "text": "Beton Wand ü.20-30cm C20/25 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.01G",
+      "text": "Beton Wand ü.30-40cm C20/25 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.01H",
+      "text": "Beton Wand b.20cm C25/30 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.01I",
+      "text": "Beton Wand ü.20-30cm C25/30 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.01J",
+      "text": "Beton Wand ü.30-40cm C25/30 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.01S",
+      "text": "Schalung Beton Wand b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.02.01T",
+      "text": "Spreizschalung Beton Wand b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.02.01V",
+      "text": "Bewehrung Stabst.Beton Wand b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "07.02.01W",
+      "text": "Bewehrung Matten Beton Wand b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "07.02.01X",
+      "text": "Az Wand b.3,2m f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.03A",
+      "text": "Beton Wand b.20cm C20/25 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.03B",
+      "text": "Beton Wand ü.20-30cm C20/25 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.03C",
+      "text": "Beton Wand ü.30-40cm C20/25 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.03D",
+      "text": "Beton Wand b.20cm C25/30 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.03E",
+      "text": "Beton Wand ü.20-30cm C25/30 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.03F",
+      "text": "Beton Wand ü.30-40cm C25/30 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.03S",
+      "text": "Schalung Beton Wand ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.02.03T",
+      "text": "Spreiz-Schalung Beton Wand ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.02.03V",
+      "text": "Bewehrung Stabst.Beton Wand ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "07.02.03W",
+      "text": "Bewehrung Matten Beton Wand ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "07.02.03X",
+      "text": "Az Wand ü.3,2m f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.09A",
+      "text": "Beton Brüstung/Attika/Parapet C20/25 b.15cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.09B",
+      "text": "Beton Brüstung/Attika/Parapet C20/25 ü.15-25cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.09D",
+      "text": "Beton Brüstung/Attika/Parapet C25/30 b.15cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.09E",
+      "text": "Beton Brüstung/Attika/Parapet C25/30 ü.15-25cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.09S",
+      "text": "Schalung Beton Brüstung/Attika/Parapet",
+      "unit": "m²"
+    },
+    {
+      "code": "07.02.09V",
+      "text": "Bewehrung Stabst.Beton Brüstung/Attika/Parapet",
+      "unit": "kg"
+    },
+    {
+      "code": "07.02.09W",
+      "text": "Bewehrung Matten Beton Brüstung/Attika/Parapet",
+      "unit": "kg"
+    },
+    {
+      "code": "07.02.09X",
+      "text": "Az Brüstung/Attika/Parapet f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.14A",
+      "text": "Beton Stützen b.0,05m2 C20/25 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.14B",
+      "text": "Beton Stützen ü.0,05m2 C20/25 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.14C",
+      "text": "Beton Stützen b.0,05m2 C25/30 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.14D",
+      "text": "Beton Stützen ü.0,05m2 C25/30 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.14E",
+      "text": "Beton Stützen b.0,05m2 C30/37 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.14F",
+      "text": "Beton Stützen ü.0,05m2 C30/37 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.14N",
+      "text": "Schalung Beton Sützen rechteckig b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.02.14O",
+      "text": "Schalung Beton Stützen rund b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.02.14T",
+      "text": "Bewehrung Stabst.Beton Stützen b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "07.02.14X",
+      "text": "Az Stützen b.3,2m f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.15A",
+      "text": "Beton Stützen b.0,05m2 C20/25 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.15B",
+      "text": "Beton Stützen ü.0,05m2 C20/25 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.15C",
+      "text": "Beton Stützen b.0,05m2 C25/30 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.15D",
+      "text": "Beton Stützen ü.0,05m2 C25/30 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.15E",
+      "text": "Beton Stützen b.0,05m2 C30/37 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.15F",
+      "text": "Beton Stützen ü.0,05m2 C30/37 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.15N",
+      "text": "Schalung Beton Stützen rechteckig ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.02.15O",
+      "text": "Schalung Beton Stützen rund ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.02.15T",
+      "text": "Bewehrung Stabst.Beton Stützen ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "07.02.15X",
+      "text": "Az Stützen ü.3,2m f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.18A",
+      "text": "Beton Balken/Rost b.20cm C20/25 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.18B",
+      "text": "Beton Balken/Rost ü.20cm C20/25 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.18C",
+      "text": "Beton Balken/Rost b.20cm C25/30 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.18D",
+      "text": "Beton Balken/Rost ü.20cm C25/30 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.18E",
+      "text": "Beton Balken/Rost b.20cm C30/37 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.18F",
+      "text": "Beton Balken/Rost ü.20cm C30/37 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.18S",
+      "text": "Schalung Beton Balken/Rost b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.02.18V",
+      "text": "Bewehrung Stabst.Beton Balken/Rost b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "07.02.18X",
+      "text": "Az Balken/Rost b.3,2m f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.19A",
+      "text": "Beton Balken/Rost b.20cm C20/25 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.19B",
+      "text": "Beton Balken/Rost ü.20cm C20/25 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.19C",
+      "text": "Beton Balken/Rost b.20cm C25/30 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.19D",
+      "text": "Beton Balken/Rost ü.20cm C25/30 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.19E",
+      "text": "Beton Balken/Rost b.20cm C30/37 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.19F",
+      "text": "Beton Balken/Rost ü.20cm C30/37 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.19S",
+      "text": "Schalung Beton Balken/Rost ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.02.19V",
+      "text": "Bewehrung Stabst.Beton Balken/Rost ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "07.02.19X",
+      "text": "Az Balken/Rost ü.3,2m f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.25C",
+      "text": "Az Beton Wand f.Neigung ü.3%",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.25D",
+      "text": "Az Beton Brüstung/Attika/Parapet f.Neigung ü.3%",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.26E",
+      "text": "Az Beton Balken/Rost f.Neigung ü.3%",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.26F",
+      "text": "Az Beton Stützen f.Neigung ü.3%",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.40A",
+      "text": "Az Beton b.C20/25 f.XC2",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.40B",
+      "text": "Az Beton b.C20/25 f.B1",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.40C",
+      "text": "Az Beton b.C25/30 f.B2",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.40D",
+      "text": "Az Beton b.C25/30 f.B4",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.40G",
+      "text": "Az Beton b.C20/25 f.B7",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.40X",
+      "text": "Az Beton Balken/Rost f.besondere Eigenschaften",
+      "unit": "m³"
+    },
+    {
+      "code": "07.02.47A",
+      "text": "Schalung Wand f.Nische b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.02.47B",
+      "text": "Schalung Wand f.Nische ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.02.47C",
+      "text": "Schalung Wand f.Nische ü.0,5-1m2",
+      "unit": "m²"
+    },
+    {
+      "code": "07.02.48A",
+      "text": "Öffnungen Wand/Balken b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.02.48B",
+      "text": "Öffnungen Wand/Balken ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.02.48C",
+      "text": "Schlitze Wand/Balken b.0,05m2                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "07.02.62G",
+      "text": "Kratzen von Wand-,u.Stützenflächen",
+      "unit": "m²"
+    },
+    {
+      "code": "07.02.62H",
+      "text": "Stocken von Wand-,u.Stützenflächen",
+      "unit": "m²"
+    },
+    {
+      "code": "07.02.62I",
+      "text": "Spitzen von Wand-,u.Stützenflächen",
+      "unit": "m²"
+    },
+    {
+      "code": "07.02.62J",
+      "text": "Scharrieren von Wand-,u.Stützenflächen",
+      "unit": "m²"
+    },
+    {
+      "code": "07.02.95A",
+      "text": "Anschlusselement Wand/Balken/Roste 1-reihig                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "07.02.95B",
+      "text": "Anschlusselement Wand/Balken/Roste 2-reihig                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "07.03.01A",
+      "text": "Beton C20/25 D/Kragpl.b.25cm b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.01C",
+      "text": "Beton C25/30 D/Kragpl.b.25cm b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.01D",
+      "text": "Beton C30/37 D/Kragpl.b.25cm b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.01S",
+      "text": "Schalung D/Kragpl.Untersicht b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.01T",
+      "text": "Rand-Schalung D/Kragpl.Roste b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.01V",
+      "text": "Bewehrung Stabst.D/Kragpl.b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.01W",
+      "text": "Bewehrung Matten D/Kragpl.b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.01X",
+      "text": "Az D/Kragpl.b.3,2m f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.02A",
+      "text": "Beton C20/25 D/Kragpl.b.25cm ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.02C",
+      "text": "Beton C25/30 D/Kragpl.b.25cm ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.02D",
+      "text": "Beton C30/37 D/Kragpl.b.25cm ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.02S",
+      "text": "Schalung D/Kragpl.Untersicht ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.02T",
+      "text": "Rand-Schalung D/Kragpl.Roste ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.02V",
+      "text": "Bewehrung Stabst.D/Kragpl.ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.02W",
+      "text": "Bewehrung Matten D/Kragpl.ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.02X",
+      "text": "Az D/Kragpl.ü.3,2m f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.07A",
+      "text": "Ft.D.e.U.b.4m 5kN Beton b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.07B",
+      "text": "Ft.D.e.U.b.4-5m 5kN/m2 Beton b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.07C",
+      "text": "Ft.D.e.U.b.5-6m 5kN/m2 Beton b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.07I",
+      "text": "Ft.D.e.U.b.4m 5kN/m2 Ziegel b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.07J",
+      "text": "Ft.D.e.U.b.4-5m 5kN/m2 Ziegel b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.07K",
+      "text": "Ft.D.e.U.b.5-6m 5kN/m2 Ziegel b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.08A",
+      "text": "Ft.D.e.U.b.4m 5kN/m2 Beton ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.08B",
+      "text": "Ft.D.e.U.4-5m 5kN/m2 Beton ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.08C",
+      "text": "Ft.D.e.U.b.5-6m 5kN/m2 Beton ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.08I",
+      "text": "Ft.D.e.U.b.4m 5kN/m2 Ziegel ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.08J",
+      "text": "Ft.D.e.U.b.4-5m 5kN/m2 Ziegel ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.08K",
+      "text": "Ft.D.e.U.b.5-6m 5kN/m2 Ziegel ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.09A",
+      "text": "Elementdecke b.3,2m 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.09X",
+      "text": "Elementdecke b.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.09Y",
+      "text": "Bewehrung f.Elementdecke b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.11A",
+      "text": "Elementdecke ü.3,2m 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.11X",
+      "text": "Elementdecke ü.3,2m__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.11Y",
+      "text": "Bewehrung f.Elementdecke ü.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.13A",
+      "text": "Elementdecke/Öffnungen b.0,25m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.03.13B",
+      "text": "Elementdecke/Öffnungen ü.0,25-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.03.13C",
+      "text": "Elementdecke/Öffnungen ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.03.13D",
+      "text": "Elementdecke/Öffnungen ü.1-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.03.13X",
+      "text": "Elementdecke/Öffnungen ü.2m2:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.03.14A",
+      "text": "Az Elementdecke f.Betongüte",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.14B",
+      "text": "Az Elementdecke f.Expositionsklasse",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.15A",
+      "text": "Einbaudosen f.Elementdecke",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.03.15B",
+      "text": "Leerverrohrungen b.25mm f.Elementdecke                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "07.03.16A",
+      "text": "Beton Plattenbalkendecke C20/25 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.16B",
+      "text": "Beton Plattenbalkendecke C25/30 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.16S",
+      "text": "Schalung Plattenbalkendecke b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.16T",
+      "text": "Rand-Schalung Plattenbalkendecke/Roste b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.16V",
+      "text": "Bewehrung Stabst.Plattenbalkendecke b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.16W",
+      "text": "Bewehrung Matten Plattenbalkendecke b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.16X",
+      "text": "Az Plattenbalkendecke b.3,2m f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.17A",
+      "text": "Beton Plattenbalkendecke C20/25 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.17B",
+      "text": "Beton Plattenbalkendecke C25/30 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.17S",
+      "text": "Schalung Plattenbalkendecke ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.17T",
+      "text": "Rand-Schalung Plattenbalkendecke/Roste ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.17V",
+      "text": "Bewehrung Stabst.Plattenbalkendecke ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.17W",
+      "text": "Bewehrung Matten Plattenbalkendecke ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.17X",
+      "text": "Az Plattenbalkendecke ü.3,2m f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.18A",
+      "text": "Beton Kassettendecke C20/25 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.18B",
+      "text": "Beton Kassettendecke C25/30 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.18S",
+      "text": "Schalung Kassettendecke b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.18V",
+      "text": "Bewehrung Stabst.Kassettenecke b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.18W",
+      "text": "Bewehrung Matten Kassettendecke b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.18X",
+      "text": "Az Kassettendecke b.3,2m f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.19A",
+      "text": "Beton Kassettendecke C20/25 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.19B",
+      "text": "Beton Kassettendecke C25/30 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.19S",
+      "text": "Schalung Kassettendecke ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.19V",
+      "text": "Bewehrung Stabst.Kassettendecke ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.19W",
+      "text": "Bewehrung Matten Kassettendecke ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.19X",
+      "text": "Az Kassettendecke ü.3,2m f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.20A",
+      "text": "Beton Platte ü.Aufzugsschacht C20/25 b.25cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.20C",
+      "text": "Beton Platte ü.Aufzugsschacht C25/30 b.25cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.20S",
+      "text": "Schalung Platte ü.Aufzugsschacht",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.20V",
+      "text": "Bewehrung Stabst.Platte ü.Aufzugsschacht",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.20W",
+      "text": "Bewehrung Matten Platte ü.Aufzugsschacht",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.20X",
+      "text": "Az Platte ü.Aufzugsschacht f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.25C",
+      "text": "Beton Treppen b.20cm C25/30 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.25E",
+      "text": "Beton Treppen b.20cm C30/37 b.3,2m",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.25S",
+      "text": "Schalung Treppen gerade+Wangen b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.25T",
+      "text": "Schalung Treppen gewendelt+Wangen b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.25V",
+      "text": "Bewehrung Stabst.Treppen b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.25W",
+      "text": "Bewehrung Matte Treppen b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.25X",
+      "text": "Az Treppen b.3,2m f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.26C",
+      "text": "Beton Treppen b.20cm C25/30 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.26E",
+      "text": "Beton Treppen b.20cm C30/37 ü.3,2m:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.26S",
+      "text": "Schalung Treppen gerade+Wangen ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.26T",
+      "text": "Schalung Treppen gewendelt+Wangen ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.03.26V",
+      "text": "Bewehrung Stabst.Treppen ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.26W",
+      "text": "Bewehrung Matte Treppen ü.3,2m:__________",
+      "unit": "kg"
+    },
+    {
+      "code": "07.03.26X",
+      "text": "Az Treppen ü.3,2m f.Beton__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.40A",
+      "text": "Az Beton C25/30 Treppen/Decken f.XC2",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.40E",
+      "text": "Az Beton C25/30 Treppen/Decken f.B3",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.40F",
+      "text": "Az Beton C25/30 Treppen/Decken f.B7",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.40X",
+      "text": "Az Beton Treppen/Decken f.besondere Eigenschaften",
+      "unit": "m³"
+    },
+    {
+      "code": "07.03.95A",
+      "text": "Anschlusselement Decken/Treppen/Rampen 1-reihig                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "07.03.95B",
+      "text": "Anschlusselement Decken/Treppen/Rampen 2-reihig                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "07.03.97A",
+      "text": "Dübelleiste+Durchstanzbewehrung",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.04.01A",
+      "text": "Beton Sargdeckel",
+      "unit": "m³"
+    },
+    {
+      "code": "07.04.01S",
+      "text": "Schalung Sargdeckel",
+      "unit": "m²"
+    },
+    {
+      "code": "07.04.01T",
+      "text": "Konterschalung Sargdeckel",
+      "unit": "m²"
+    },
+    {
+      "code": "07.04.01V",
+      "text": "Bewehrung Stabst.Sargdeckel",
+      "unit": "kg"
+    },
+    {
+      "code": "07.04.01W",
+      "text": "Bewehrung Matten Sargdeckel",
+      "unit": "kg"
+    },
+    {
+      "code": "07.04.95A",
+      "text": "Anschlusselement Dach 1-reihig                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "07.04.95B",
+      "text": "Anschlusselement Dach 2-reihig                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "07.08.01A",
+      "text": "Beton Schacht C16/20 b.1m3",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.01B",
+      "text": "Beton Schacht C16/20 ü.1-3m3",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.01C",
+      "text": "Beton Schacht C20/25 b.1m3",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.01D",
+      "text": "Beton Schacht C20/25 ü.1-3m3",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.01E",
+      "text": "Beton Schacht C25/30 b.1m3",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.01F",
+      "text": "Beton Schacht C25/30 ü.1-3m3",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.01S",
+      "text": "Schalung Schacht b.1m3",
+      "unit": "m²"
+    },
+    {
+      "code": "07.08.01T",
+      "text": "Schalung Schacht ü.1-3m3",
+      "unit": "m²"
+    },
+    {
+      "code": "07.08.01V",
+      "text": "Bewehrung Schacht Stabstahl",
+      "unit": "kg"
+    },
+    {
+      "code": "07.08.01W",
+      "text": "Bewehrung Schacht Matten",
+      "unit": "kg"
+    },
+    {
+      "code": "07.08.02A",
+      "text": "Beton waagr.Kollektor C16/20 b.1m2",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.02B",
+      "text": "Beton waagr.Kollektor C16/20 ü.1-3m2",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.02C",
+      "text": "Beton waagr.Kollektor C20/25 b.1m2",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.02D",
+      "text": "Beton waagr.Kollektor C20/25 ü.1-3m2",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.02E",
+      "text": "Beton waagr.Kollektor C25/30 b.1m2",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.02F",
+      "text": "Beton waagr.Kollektor C25/30 ü.1-3m2",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.02S",
+      "text": "Schalung Kollektor Wand+Decke",
+      "unit": "m²"
+    },
+    {
+      "code": "07.08.02V",
+      "text": "Bewehrung Kollektor Stabstahl",
+      "unit": "kg"
+    },
+    {
+      "code": "07.08.02W",
+      "text": "Bewehrung Kollektor Matten",
+      "unit": "kg"
+    },
+    {
+      "code": "07.08.03A",
+      "text": "Maschinensockel C16/20 b.0,25m3",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.03B",
+      "text": "Maschinensockel C16/20 ü.0,25-0,5m3",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.03C",
+      "text": "Maschinensockel C16/20 ü.0,5-2m3",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.03S",
+      "text": "Schalung Maschinensockel b.0,25m3",
+      "unit": "m²"
+    },
+    {
+      "code": "07.08.03T",
+      "text": "Schalung Maschinensockel ü.0,25-0,5m3",
+      "unit": "m²"
+    },
+    {
+      "code": "07.08.03U",
+      "text": "Schalung Maschinensockel ü.0,5-2m3",
+      "unit": "m²"
+    },
+    {
+      "code": "07.08.03V",
+      "text": "Bewehrung Stabst.Maschinensockel",
+      "unit": "kg"
+    },
+    {
+      "code": "07.08.03W",
+      "text": "Bewehrung Matten Maschinensockel",
+      "unit": "kg"
+    },
+    {
+      "code": "07.08.08A",
+      "text": "Beton Trafoaufstellplatz C16/20",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.08.08S",
+      "text": "Schalung Trafoaufstellplatz",
+      "unit": "m²"
+    },
+    {
+      "code": "07.08.08V",
+      "text": "Bewehrung Stabst.Trafoaufstellplatz",
+      "unit": "kg"
+    },
+    {
+      "code": "07.08.08W",
+      "text": "Bewehrung Matten Trafoaufstellplatz",
+      "unit": "kg"
+    },
+    {
+      "code": "07.08.09A",
+      "text": "Ölablaufbehälter",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.08.10A",
+      "text": "Abdeckbalken-Trafoschacht                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "07.08.51A",
+      "text": "Beton Wand f.Schächte b.20cm C20/25",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.51B",
+      "text": "Beton Wand f.Schächte ü.20-30cm C20/25",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.51C",
+      "text": "Beton Wand f.Schächte ü.30cm C20/25",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.51D",
+      "text": "Beton Wand f.Schächte b.20cm C25/30",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.51E",
+      "text": "Beton Wand f.Schächte ü.20-30cm C25/30",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.51F",
+      "text": "Beton Wand f.Schächte ü.30cm C25/30",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.51G",
+      "text": "Schalung Betonwand f.Schächte",
+      "unit": "m²"
+    },
+    {
+      "code": "07.08.51H",
+      "text": "Spreiz-Schalung Betonwand f.Schächte",
+      "unit": "m²"
+    },
+    {
+      "code": "07.08.51I",
+      "text": "Bewehrung Stabst.Betonwand f.Schächte",
+      "unit": "kg"
+    },
+    {
+      "code": "07.08.51J",
+      "text": "Bewehrung Matten Betonwand f.Schächte",
+      "unit": "kg"
+    },
+    {
+      "code": "07.08.55X",
+      "text": "Az Beton Schacht/Kollektor f.besondere Eigenschaften",
+      "unit": "m³"
+    },
+    {
+      "code": "07.08.95A",
+      "text": "Anschlusselement Schacht/Kollektor 1-reihig                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "07.08.95B",
+      "text": "Anschlusselement Schacht/Kollektor 2-reihig                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "07.11.02A",
+      "text": "Blitzschutzdraht verzinkt D8mm                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "07.11.02B",
+      "text": "Blitzschutzdraht verzinkt D10mm                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "07.11.02C",
+      "text": "Blitzschutzdraht Edelstahl A4 D10mm                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "07.11.02D",
+      "text": "Erdungsfestpunkt Edelstahl A4 M10/12",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.11.02E",
+      "text": "Erdungsfestpunkt Edelstahl A4 M16",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.11.02H",
+      "text": "Blitzschutzprüfkasten feuerverzinkt 150/200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.11.15A",
+      "text": "Überschubrohre in Schalung Fund./Bodenk.b.25cm/b.60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.11.15B",
+      "text": "Überschubrohre in Schalung Fund./Bodenk.Stahl b.2,5kg",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.11.21A",
+      "text": "Ankerplatten in Schalungen Wand/Stütze/Balken ü.2,5-4kg",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.11.21B",
+      "text": "Ankerplatten in Schalungen Wand/Stütze/Balken versetzen",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.11.22A",
+      "text": "Ankerschiene in Schalungen Wand/Stütze/Balken                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "07.11.22B",
+      "text": "Ankerschiene in Schalungen Wand/Stütze/Balken versetzen                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "07.11.25A",
+      "text": "Überschubrohre in Schalungen Wand/Stütze/Balken D25cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.11.25B",
+      "text": "Überschubrohre in Schalung Wand/Stütze/Balken Stahl b.2,5kg",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.11.31A",
+      "text": "Ankerplatten in Schalungen Decken- u.Pl.-konstr.ü.2,5-4kg",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.11.31B",
+      "text": "Ankerplatten in Schalungen Decken- u.Pl.-konstr.versetzen",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.11.35A",
+      "text": "Überschubrohre in Schalung Decken-u.Pl.-konstr.D25",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.11.35B",
+      "text": "Überschubrohre in Schalung Decken-u.Pl.-konstr Stahl b.2,5kg",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.11.41A",
+      "text": "Elastomer Lager/Streifenlager bei Treppenlauf/Podestplatten                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "07.11.41B",
+      "text": "Elastomer Lager/Punktlager bei Treppenlauf/Podestplatten                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "07.11.51A",
+      "text": "Rohrdurchführungen f.Betonteile,Schalungen,nachtr.Einbau",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.11.52A",
+      "text": "Wärmedämmende Bewehrungsanschlüsse Kragplatte",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.11.52B",
+      "text": "Wärmedämmende Bewehrungsanschlüsse Querkraftanschluss",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.21.01A",
+      "text": "Bewegungsfuge Fundamente",
+      "unit": "m²"
+    },
+    {
+      "code": "07.21.01B",
+      "text": "Bewegungsfuge Fundamentplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "07.21.01C",
+      "text": "Bewegungsfuge Bodenkonstruktion                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "07.21.02A",
+      "text": "Kraftschlüssiger Anschluss Unterfangung-Fundament",
+      "unit": "m²"
+    },
+    {
+      "code": "07.21.04A",
+      "text": "Az f.AFB armiert Fund.-/Sohlen-/Bodenkonstr.20cm                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "07.21.04B",
+      "text": "Az f.AFB armiert Fund.-/Sohlen-/Bodenkonstr.25cm                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "07.21.07A",
+      "text": "Az DFB f.Dämmplatten Fund.-/Sohlen-/Bodenkonstr.b.20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "07.21.08A",
+      "text": "Az Fugenband Fund.-/Sohlen-/Bodenkonstr.f.Formstücke",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.21.09A",
+      "text": "Fugen schließen Fund.-/Sohlen-/Bodenkonstr.b.20mm                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "07.21.09B",
+      "text": "Fugen schließen Fund.-/Sohlen-/Bodenkonstr.ü.20-30mm                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "07.21.09C",
+      "text": "Fugen schließen Fund.-/Sohlen-/Bodenkonstr.ü.30-40mm                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "07.21.21A",
+      "text": "Bewegungsfuge Wand/Stütze/Balken",
+      "unit": "m²"
+    },
+    {
+      "code": "07.21.24A",
+      "text": "Az f.AFB armiert Wand/Stütze/Balken 20cm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "07.21.24B",
+      "text": "Az f.AFB armiert Wand/Stütze/Balken 25cm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "07.21.27A",
+      "text": "Az DFBf.Dämmplatten Wand/Stütze/Balken b.20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "07.21.28A",
+      "text": "Az Fugenband Wand/Stütze/Balken f.Formstücke",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.21.29A",
+      "text": "Fugen schließen Wand/Stütze/Balken b.20mm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "07.21.29B",
+      "text": "Fugen schließen Wand/Stütze/Balken ü.20-30mm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "07.21.29C",
+      "text": "Fugen schließen Wand/Stütze/Balken ü.30-40mm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "07.21.31A",
+      "text": "Bewegungsfuge Decken",
+      "unit": "m²"
+    },
+    {
+      "code": "07.21.34A",
+      "text": "Az f.AFB armiert Decken 20cm                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "07.21.34B",
+      "text": "Az f.AFB armiert Decken 25cm                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "07.21.37A",
+      "text": "Az DFB f.Dämmplatten Decken 20mm                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "07.21.38A",
+      "text": "Az Fugenband Decken f.Formstücke",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.21.39A",
+      "text": "Fugen schließen Decken b.20mm                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "07.21.39B",
+      "text": "Fugen schließen Decken ü.20-30mm                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "07.21.39C",
+      "text": "Fugen schließen Decken ü.30-40mm                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "07.25.01A",
+      "text": "Doppelwandelement 20cm b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.01B",
+      "text": "Doppelwandelement 25cm b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.01C",
+      "text": "Doppelwandelement 30cm b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.01D",
+      "text": "Doppelwandelement 35cm b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.01E",
+      "text": "Doppelwandelement 40cm b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.01F",
+      "text": "Doppelwandelement 45cm b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.01G",
+      "text": "Doppelwandelement 50cm b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.02A",
+      "text": "Doppelwandelement 20cm ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.02B",
+      "text": "Doppelwandelement 25cm ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.02C",
+      "text": "Doppelwandelement 30cm ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.02D",
+      "text": "Doppelwandelement 35cm ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.02E",
+      "text": "Doppelwandelement 40cm ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.02F",
+      "text": "Doppelwandelement 45cm ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.02G",
+      "text": "Doppelwandelement 50cm ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.03A",
+      "text": "Bewehrung f.Doppelwandelemente b.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "07.25.03B",
+      "text": "Bewehrung f.Doppelwandelemente ü.3,2m",
+      "unit": "kg"
+    },
+    {
+      "code": "07.25.21A",
+      "text": "Az Doppelwandelement f.Betongüte/Elementschale",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.21B",
+      "text": "Az Doppelwandelement f.Expositionsklasse/Elementschale",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.22A",
+      "text": "Az Doppelwandelement f.Betongüte/Füllbeton",
+      "unit": "m³"
+    },
+    {
+      "code": "07.25.22B",
+      "text": "Az Doppelwandelement f.Expositionsklasse/Füllbeton",
+      "unit": "m³"
+    },
+    {
+      "code": "07.25.25A",
+      "text": "Az Doppelwandelement f.schrägen Wandabschluss                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "07.25.27A",
+      "text": "Einbaudosen f.Doppelwandelemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.25.27B",
+      "text": "Leerverrohrungen b.25mm f.Doppelwandelemente                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "07.25.31A",
+      "text": "Doppelwandelement/Öffnungen b.0,25m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.25.31B",
+      "text": "Doppelwandelement/Öffnungen ü.0,25-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.25.31C",
+      "text": "Doppelwandelement/Öffnungen ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.25.31D",
+      "text": "Doppelwandelement/Öffnungen ü.1-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.25.31E",
+      "text": "Doppelwandelement/Öffnungen ü.2-3,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.25.31F",
+      "text": "Doppelwandelement/Öffnungen ü.3,5-5,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.25.31X",
+      "text": "Doppelwandelement/Öffnungen ü.5,5m2:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.25.33A",
+      "text": "Endabschalung f.Doppelwandelement b.3,2m                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "07.25.33B",
+      "text": "Endabschalung f.Doppelwandelement ü.3,2m                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "07.25.41A",
+      "text": "Az Doppelwandelement f.Kerndämmung EPS 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.41X",
+      "text": "Az Doppelwandelement f.Kerndämmung EPS__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.43A",
+      "text": "Az Doppelwandelement f.Kerndämmung XPS 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.43X",
+      "text": "Az Doppelwandelement f.Kerndämmung XPS__________",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.44A",
+      "text": "Az Doppelwandelement f.Kerndämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "07.25.51A",
+      "text": "Schließen von Fugen f.Verspachtelung einseitig",
+      "unit": "m²"
+    },
+    {
+      "code": "07.70.00C",
+      "text": "Anforderungen an die Tragschicht (Unterbau)",
+      "unit": ""
+    },
+    {
+      "code": "07.70.00D",
+      "text": "Ebenheit der Tragschicht",
+      "unit": ""
+    },
+    {
+      "code": "07.70.11A",
+      "text": "Monolithische Bodenplatte b.30cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.70.11B",
+      "text": "Monolithische Bodenplatte ü.30-50cm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.70.11C",
+      "text": "Monolithische Bodenplatte ü.50cm:__________",
+      "unit": "m³"
+    },
+    {
+      "code": "07.70.11S",
+      "text": "Schalung Monolithische Bodenplatte",
+      "unit": "m²"
+    },
+    {
+      "code": "07.70.11V",
+      "text": "Bewehrung Stabst.Monolithische Bodenplatte",
+      "unit": "kg"
+    },
+    {
+      "code": "07.70.11W",
+      "text": "Bewehrung Matten Monolithische Bodenplatte",
+      "unit": "kg"
+    },
+    {
+      "code": "07.70.13A",
+      "text": "Az monolithische Bodenplatte f.GK16mm",
+      "unit": "m³"
+    },
+    {
+      "code": "07.70.13B",
+      "text": "Az monolithische Bodenplatte f.Betongüte B7",
+      "unit": "m³"
+    },
+    {
+      "code": "07.70.13D",
+      "text": "Az monolithische Bodenplatte f.Zementsorte",
+      "unit": "m³"
+    },
+    {
+      "code": "07.70.20A",
+      "text": "Oberflächenvergütung m.Besenstrich (rutschfest)",
+      "unit": "m²"
+    },
+    {
+      "code": "07.70.21A",
+      "text": "Oberflächenvergütung m.Glätten",
+      "unit": "m²"
+    },
+    {
+      "code": "07.70.21C",
+      "text": "Az OF Glätten f.Hartstoffgemisch Korund",
+      "unit": "m²"
+    },
+    {
+      "code": "07.70.21D",
+      "text": "Az OF Glätten f.Hartstoffgemisch Quarz",
+      "unit": "m²"
+    },
+    {
+      "code": "07.70.21E",
+      "text": "Az OF Glätten f.Hartstoffgemisch Siliciumcarbid",
+      "unit": "m²"
+    },
+    {
+      "code": "07.70.22G",
+      "text": "Oberflächenvergütung m.Verdunstungsschutz sprühfähig",
+      "unit": "m²"
+    },
+    {
+      "code": "07.70.22H",
+      "text": "Oberflächenvergütung m.Verdunstungsschutz Folie",
+      "unit": "m²"
+    },
+    {
+      "code": "07.70.22I",
+      "text": "Oberflächenvergütung m.Frühimprägnierung",
+      "unit": "m²"
+    },
+    {
+      "code": "07.70.22J",
+      "text": "Oberflächenvergütung m.Tiefenimprägnierung",
+      "unit": "m²"
+    },
+    {
+      "code": "07.70.23A",
+      "text": "Dehnfugenprofil einlagig 150-200mm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "07.70.23B",
+      "text": "Dehnfugenprofil einlagig ü.200-250mm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "07.70.23C",
+      "text": "Dehnfugenprofil einlagig ü.250-300mm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "07.70.23D",
+      "text": "Dehnfugenprofil einlagig ü.300-350mm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "07.70.23E",
+      "text": "Dehnfugenprofil einlagig ü.350-400mm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "07.70.24A",
+      "text": "Dehnfugen-Doppelprofil 150-200mm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "07.70.24B",
+      "text": "Dehnfugen-Doppelprofil ü.200-250mm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "07.70.24C",
+      "text": "Dehnfugen-Doppelprofil ü.250-300mm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "07.70.24D",
+      "text": "Dehnfugen-Doppelprofil ü.300-350mm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "07.70.24E",
+      "text": "Dehnfugen-Doppelprofil ü.350-400mm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "07.70.25A",
+      "text": "Dehnfugen-Sonderprofil                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "07.70.99I",
+      "text": "Stahlteile b.5kg",
+      "unit": "Stk"
+    },
+    {
+      "code": "07.70.99J",
+      "text": "Stahlteile ü.5kg",
+      "unit": "kg"
+    },
+    {
+      "code": "07.81.01A",
+      "text": "Az f.Beton bei Instandsetzungsarbeiten",
+      "unit": "m³"
+    },
+    {
+      "code": "07.81.01S",
+      "text": "Az f.Schalung Beton bei Instandsetzungsarbeiten",
+      "unit": "m²"
+    },
+    {
+      "code": "07.81.01V",
+      "text": "Az f.Bew.Stabst.Beton bei Instandsetzungsarbeiten",
+      "unit": "kg"
+    },
+    {
+      "code": "07.81.01W",
+      "text": "Az f.Bew.Matten Beton bei Instandsetzungsarbeiten",
+      "unit": "kg"
+    }
+  ]
+}

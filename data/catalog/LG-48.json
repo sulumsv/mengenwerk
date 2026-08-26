@@ -1,0 +1,1041 @@
+{
+  "lg": "48",
+  "title": "Beschichtungen auf verschiedenen Materialien",
+  "positions": [
+    {
+      "code": "48.12.01C",
+      "text": "Vorarbeiten (teilw.entf.) f.Instandsetzung Gussheizkörper",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.13.31A",
+      "text": "Tiefengrund wasserverdünnbar",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.31B",
+      "text": "Tiefengrund Lösungsmittelbasis",
+      "unit": "m²"
+    },
+    {
+      "code": "48.00.00N",
+      "text": "Besondere Ausmaß- und Abrechnungsregelung",
+      "unit": ""
+    },
+    {
+      "code": "48.11.00A",
+      "text": "Ausmaß/Abrechnung Vorarbeiten auf Holz",
+      "unit": ""
+    },
+    {
+      "code": "48.12.00A",
+      "text": "Ausmaß/Abrechnung Vorarbeiten auf Metall",
+      "unit": ""
+    },
+    {
+      "code": "48.13.00A",
+      "text": "Ausmaß/Abrechnung Vorarbeiten f. Beschichtungen",
+      "unit": ""
+    },
+    {
+      "code": "48.14.00A",
+      "text": "Ausmaß/Abrechnung Vorarbeiten f. Beschichtungen Fassade",
+      "unit": ""
+    },
+    {
+      "code": "48.00.04B",
+      "text": "Farbtöne gemäß Altbestand",
+      "unit": ""
+    },
+    {
+      "code": "48.00.04C",
+      "text": "Stoff-u.Ausführungsprüfungen",
+      "unit": ""
+    },
+    {
+      "code": "48.00.04D",
+      "text": "Kontrollflächen",
+      "unit": ""
+    },
+    {
+      "code": "48.00.04H",
+      "text": "Erbringungsort Baustelle",
+      "unit": ""
+    },
+    {
+      "code": "48.00.04I",
+      "text": "Erbringungsort n.W.AN",
+      "unit": ""
+    },
+    {
+      "code": "48.01.01A",
+      "text": "De- u.Montage Fensterbeschlag",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.01.01B",
+      "text": "De- u.Montage Türbeschlag",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.01.02A",
+      "text": "Abdecken Fensterbeschlag",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.01.02B",
+      "text": "Abdecken Türbeschlag",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.01.03A",
+      "text": "Schutzabdeckung f.Wände",
+      "unit": "m²"
+    },
+    {
+      "code": "48.01.03B",
+      "text": "Schutzabdeckung f.Untersichten",
+      "unit": "m²"
+    },
+    {
+      "code": "48.01.03C",
+      "text": "Schutzabdeckung f.Treppen",
+      "unit": "m²"
+    },
+    {
+      "code": "48.01.03D",
+      "text": "Schutzabdeckung f.Geländer",
+      "unit": "m²"
+    },
+    {
+      "code": "48.01.03E",
+      "text": "Schutzabdeckung f.Handlauf                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "48.01.03F",
+      "text": "Schutzabdeckung f.Möbel",
+      "unit": "m²"
+    },
+    {
+      "code": "48.01.05A",
+      "text": "Abdecken Tür/Fenster b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.01.05B",
+      "text": "Abdecken Tür/Fenster ü.2-4m2:",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.01.05C",
+      "text": "Abdecken Tür/Fenster ü.4m2:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "48.01.06A",
+      "text": "Abdecken Boden m.Vlies+Folie",
+      "unit": "m²"
+    },
+    {
+      "code": "48.01.06B",
+      "text": "Abdecken Boden Pappe",
+      "unit": "m²"
+    },
+    {
+      "code": "48.01.06C",
+      "text": "Abdecken Boden Pappe Fugen verklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "48.01.06D",
+      "text": "Abdecken Boden PE+Pappe Fugen verklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "48.01.07A",
+      "text": "Schutzabdeckung f.Sockelleisten                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "48.01.07B",
+      "text": "Schutzabdeckung f.Sockelleisten Treppe                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "48.11.01A",
+      "text": "Vorarbeiten (teilw.entf.) f.Instandsetzung Holz deckend",
+      "unit": "m²"
+    },
+    {
+      "code": "48.11.01B",
+      "text": "Vorarbeiten (teilw.entf.) f.Instandsetzung Holz Klarlack",
+      "unit": "m²"
+    },
+    {
+      "code": "48.11.02A",
+      "text": "Vorarbeiten (ganz entf.) f.Instandsetzung Holz deckend",
+      "unit": "m²"
+    },
+    {
+      "code": "48.11.02B",
+      "text": "Vorarbeiten (ganz entf.) f.Instandsetzung Holz Klarlack",
+      "unit": "m²"
+    },
+    {
+      "code": "48.11.03A",
+      "text": "Vorarbeiten (teilw.entf.) f.Instandsetzung Holz Lasur",
+      "unit": "m²"
+    },
+    {
+      "code": "48.11.04A",
+      "text": "Vorarbeiten (ganz entf.) f.Instandsetzung Holz Lasur",
+      "unit": "m²"
+    },
+    {
+      "code": "48.12.01A",
+      "text": "Vorarbeiten (teilw.entf.) f.Instandsetzung Metall",
+      "unit": "m²"
+    },
+    {
+      "code": "48.12.01B",
+      "text": "Vorarbeiten (teilw.entf.) f.Instandsetzung Heizkörper St-b.",
+      "unit": "m²"
+    },
+    {
+      "code": "48.12.01D",
+      "text": "Vorarbeiten (teilw.entf.) f.Instandsetzung Rohr b.30mm                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "48.12.01E",
+      "text": "Vorarbeiten (teilw.entf.) f.Instandsetzung Rohr ü.30-60mm                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "48.12.01F",
+      "text": "Vorarbeiten (teilw.entf.) f.Instandsetzung Konsole 0,8m",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.12.02A",
+      "text": "Vorarbeiten Abstrahlen",
+      "unit": "m²"
+    },
+    {
+      "code": "48.12.02B",
+      "text": "Vorarbeiten Oberfläche Hand/maschinell",
+      "unit": "m²"
+    },
+    {
+      "code": "48.12.02C",
+      "text": "Vorarbeiten f.Instandsetzung Metall",
+      "unit": "m²"
+    },
+    {
+      "code": "48.12.03A",
+      "text": "Vorarbeiten Neubeschichtung Stahl",
+      "unit": "m²"
+    },
+    {
+      "code": "48.12.03B",
+      "text": "Vorarbeiten Neubeschichtung Rohr b.30mm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "48.12.03C",
+      "text": "Vorarbeiten Neubeschichtung Rohr ü.30-60mm                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "48.12.03F",
+      "text": "Vorarbeiten Neubeschichtung Konsole 0,8m",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.13.01A",
+      "text": "Abscheren+entsorgen Leimfarbe",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.02A",
+      "text": "Abscheren+entsorgen Kalkfarbe",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.03A",
+      "text": "Abscheren+entsorgen Dispersion",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.04A",
+      "text": "Abscheren+entsorgen Tapeten 1-lag.",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.05A",
+      "text": "Abscheren+entsorgen Tapeten mehrl.",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.06A",
+      "text": "Abscheren+entsorgen Kunstst./Textil 1-lag.",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.07A",
+      "text": "Abscheren+entsorgen Kunstst./Textil mehrl.",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.11A",
+      "text": "Entfernen+entsorgen Dispersion",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.21A",
+      "text": "Untergrund absperren",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.41A",
+      "text": "Spachteln 1x Putz",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.41B",
+      "text": "Spachteln 2x Putz",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.41E",
+      "text": "Spachteln 1x Bauplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.41F",
+      "text": "Spachteln 2x Bauplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.51A",
+      "text": "Risse armieren m.Vlies                                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "48.13.52A",
+      "text": "Risse armieren m.Gewebe                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "48.13.61A",
+      "text": "Flächen armieren m.Vlies-Wand",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.61C",
+      "text": "Flächen armieren m.Vlies-Deckenuntersicht",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.62A",
+      "text": "Flächen armieren m.Gewebe-Wand",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.62C",
+      "text": "Flächen armieren m.Gewebe-Deckenuntersicht",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.71A",
+      "text": "Betonuntergrund Öl/Fett entfernen+entsorgen",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.72A",
+      "text": "Betonuntergrund Beschichtung entfernen+entsorgen",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.73A",
+      "text": "Betonuntergrund Tiefengrundierung",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.81A",
+      "text": "Spachteln 1x Ort-Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.81C",
+      "text": "Spachteln 1x Fertigteilbeton",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.82A",
+      "text": "Spachteln 2x Ort-Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.82C",
+      "text": "Spachteln 2x Fertigteilbeton",
+      "unit": "m²"
+    },
+    {
+      "code": "48.13.91A",
+      "text": "Betonuntergrund ausgleichen",
+      "unit": "m²"
+    },
+    {
+      "code": "48.14.01A",
+      "text": "Reinigen Fassade-WDVS",
+      "unit": "m²"
+    },
+    {
+      "code": "48.14.02A",
+      "text": "Abwaschen Fassade m.Hochdruckreiniger",
+      "unit": "m²"
+    },
+    {
+      "code": "48.14.02B",
+      "text": "Abwaschen Fassade-WDVS m.Hochdruckreiniger",
+      "unit": "m²"
+    },
+    {
+      "code": "48.14.03A",
+      "text": "Abwaschen Fassade nass/Bürste",
+      "unit": "m²"
+    },
+    {
+      "code": "48.14.04A",
+      "text": "Abscheren+entsorgen Kalkfarbe Fassade Teilflächen",
+      "unit": "m²"
+    },
+    {
+      "code": "48.14.04B",
+      "text": "Abscheren+entsorgen Kalkfarbe Fassade gesamt",
+      "unit": "m²"
+    },
+    {
+      "code": "48.14.05A",
+      "text": "Abscheren+entsorgen Dispersion Fassade Teilflächen",
+      "unit": "m²"
+    },
+    {
+      "code": "48.14.05B",
+      "text": "Abscheren+entsorgen Dispersion Fassade gesamt",
+      "unit": "m²"
+    },
+    {
+      "code": "48.14.11A",
+      "text": "Tiefengrund Fassade wasserlöslich",
+      "unit": "m²"
+    },
+    {
+      "code": "48.14.11B",
+      "text": "Tiefengrund Fassade Lösungsmittel",
+      "unit": "m²"
+    },
+    {
+      "code": "48.21.01A",
+      "text": "Holz imprägnieren f.Deckbeschichtung",
+      "unit": "m²"
+    },
+    {
+      "code": "48.21.02A",
+      "text": "Holz deckend grundbeschichten",
+      "unit": "m²"
+    },
+    {
+      "code": "48.21.02B",
+      "text": "Holz Kittüberzug",
+      "unit": "m²"
+    },
+    {
+      "code": "48.21.02C",
+      "text": "Holz 1x deckend zwischenbeschichten",
+      "unit": "m²"
+    },
+    {
+      "code": "48.21.02D",
+      "text": "Holz 1x deckend schlussbeschichten m.Lack",
+      "unit": "m²"
+    },
+    {
+      "code": "48.21.03A",
+      "text": "Holz deckend einfach",
+      "unit": "m²"
+    },
+    {
+      "code": "48.21.03B",
+      "text": "Holz deckend standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.21.03C",
+      "text": "Holz deckend hochwertig",
+      "unit": "m²"
+    },
+    {
+      "code": "48.21.04B",
+      "text": "Holz Klarlack standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.21.04C",
+      "text": "Holz Klarlack hochwertig",
+      "unit": "m²"
+    },
+    {
+      "code": "48.21.05B",
+      "text": "Holz Lasur standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.21.05C",
+      "text": "Holz Lasur hochwertig",
+      "unit": "m²"
+    },
+    {
+      "code": "48.22.01A",
+      "text": "Zusätzlicher Korrosionsschutz gesamt",
+      "unit": "m²"
+    },
+    {
+      "code": "48.22.01B",
+      "text": "Zusätzlicher Korrosionsschutz Kanten                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "48.22.02A",
+      "text": "Stahl 1x grundbeschichten",
+      "unit": "m²"
+    },
+    {
+      "code": "48.22.02B",
+      "text": "Stahl 1x zwischenbeschichten",
+      "unit": "m²"
+    },
+    {
+      "code": "48.22.02C",
+      "text": "Stahl 1x schlussbeschichten m.Lack",
+      "unit": "m²"
+    },
+    {
+      "code": "48.22.03A",
+      "text": "Stahlbeschichtung einfach",
+      "unit": "m²"
+    },
+    {
+      "code": "48.22.03B",
+      "text": "Stahlbeschichtung standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.22.03C",
+      "text": "Stahlbeschichtung hochwertig",
+      "unit": "m²"
+    },
+    {
+      "code": "48.22.05A",
+      "text": "Stahl verzinkt beschichten einfach",
+      "unit": "m²"
+    },
+    {
+      "code": "48.22.05B",
+      "text": "Stahl verzinkt beschichten standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.22.05C",
+      "text": "Stahl verzinkt beschichten hochwertig",
+      "unit": "m²"
+    },
+    {
+      "code": "48.22.06A",
+      "text": "Alu,Kupfer,Zink (NE-Metalle) beschichten standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.22.07A",
+      "text": "Kittüberzug Metall",
+      "unit": "m²"
+    },
+    {
+      "code": "48.22.08A",
+      "text": "Stahlzarge b.80x200cm standard",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.22.08B",
+      "text": "Stahlzarge ü.80-110x200cm standard",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.22.09A",
+      "text": "Rohrbeschichtung b.30mm einfach                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "48.22.09B",
+      "text": "Rohrbeschichtung ü.30-60mm einfach                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "48.22.10A",
+      "text": "Heizkörper beschichten",
+      "unit": "m²"
+    },
+    {
+      "code": "48.22.11A",
+      "text": "Heizkörperbefestigung beschichten standard",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.22.11B",
+      "text": "Hahntür beschichten 2-seit.b.30x30cm standard",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.22.11C",
+      "text": "Jalousie beschichten 1-seit.b.30x30cm standard",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.22.11D",
+      "text": "Stahlkonsole beschichten b.0,8m standard",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.31.01A",
+      "text": "Beschichtung Leimfarbe",
+      "unit": "m²"
+    },
+    {
+      "code": "48.31.02A",
+      "text": "Az Leimfarbe f.Fungizid",
+      "unit": "m²"
+    },
+    {
+      "code": "48.31.52A",
+      "text": "Kunstharzlack Kehrsockel Streifen b.Leimfarben                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "48.31.52B",
+      "text": "Kunstharzlack Kehrsockel Stufen b.Leimfarben                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "48.32.01A",
+      "text": "Beschichtung Kalkfarbe+Leinöl",
+      "unit": "m²"
+    },
+    {
+      "code": "48.32.02A",
+      "text": "Beschichtung Kalkfarbe",
+      "unit": "m²"
+    },
+    {
+      "code": "48.32.52A",
+      "text": "Kunstharzlack Kehrsockel Streifen b.Kalkfarben                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "48.32.52B",
+      "text": "Kunstharzlack Kehrsockel Stufen b.Kalkfarben                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "48.33.01A",
+      "text": "Beschichtung Silikat",
+      "unit": "m²"
+    },
+    {
+      "code": "48.33.52A",
+      "text": "Kunstharzlack Kehrsockel Streifen b.Silikatfarben                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "48.33.52B",
+      "text": "Kunstharzlack Kehrsockel Stufen b.Silikatfarben                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "48.34.01A",
+      "text": "Beschichtung Dispersion NAK 3",
+      "unit": "m²"
+    },
+    {
+      "code": "48.34.01B",
+      "text": "Beschichtung Dispersion einf.Ausf.NAK 3",
+      "unit": "m²"
+    },
+    {
+      "code": "48.34.02A",
+      "text": "Beschichtung Dispersion NAK 2",
+      "unit": "m²"
+    },
+    {
+      "code": "48.34.02B",
+      "text": "Beschichtung Dispersion einf.Ausf.NAK 2",
+      "unit": "m²"
+    },
+    {
+      "code": "48.34.03A",
+      "text": "Beschichtung Dispersion NAK 1",
+      "unit": "m²"
+    },
+    {
+      "code": "48.34.03B",
+      "text": "Beschichtung Dispersion einf.Ausf.NAK 1",
+      "unit": "m²"
+    },
+    {
+      "code": "48.34.11A",
+      "text": "Beschichtung Dispersion Raufaser NAK 3",
+      "unit": "m²"
+    },
+    {
+      "code": "48.34.21A",
+      "text": "Az Innendispersion f.gesättigten Farbton",
+      "unit": "m²"
+    },
+    {
+      "code": "48.34.21B",
+      "text": "Az Innendispersion f.Fungizid",
+      "unit": "m²"
+    },
+    {
+      "code": "48.34.52A",
+      "text": "Kehrsockel Dispersion NAK 1 Streifen                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "48.34.52B",
+      "text": "Kehrsockel Dispersion NAK 1 Stufen                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "48.34.53A",
+      "text": "Kunstharzlack Kehrsockel Streifen b.Dispersionsfarben                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "48.34.53B",
+      "text": "Kunstharzlack Kehrsockel Stufen b.Dispersionsfarben                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "48.35.01A",
+      "text": "Beton Dispersionsbasis innen",
+      "unit": "m²"
+    },
+    {
+      "code": "48.35.11A",
+      "text": "Beton versiegeln m.Polymerisatharzlack innen",
+      "unit": "m²"
+    },
+    {
+      "code": "48.35.12A",
+      "text": "Beton versiegeln m.Polymerisatharzlack erhöht innen",
+      "unit": "m²"
+    },
+    {
+      "code": "48.35.21A",
+      "text": "Beton versiegeln Dispersionsbasis innen",
+      "unit": "m²"
+    },
+    {
+      "code": "48.35.31A",
+      "text": "Beton versiegeln m.2-Komp.-Lack innen",
+      "unit": "m²"
+    },
+    {
+      "code": "48.35.41A",
+      "text": "Beton Dickbeschichtung 1-2mm innen",
+      "unit": "m²"
+    },
+    {
+      "code": "48.35.51A",
+      "text": "Beton Kunstharzbeschichtung innen 2-3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "48.35.51C",
+      "text": "Beton Kunstharzbeschichtung innen 2-3mm Kantenabschluss                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "48.35.52A",
+      "text": "Beton Kunstharzbeschichtung innen 3-5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "48.35.52C",
+      "text": "Beton Kunstharzbeschichtung innen 3-5mm Kantenabschluss                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "48.35.61A",
+      "text": "Beton Imprägnieren 2x Silikon innen",
+      "unit": "m²"
+    },
+    {
+      "code": "48.41.01A",
+      "text": "Fassade Kalkfarbe einfach",
+      "unit": "m²"
+    },
+    {
+      "code": "48.41.01B",
+      "text": "Fassade Kalkfarbe Standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.41.11A",
+      "text": "Fassade Silikatfarbe 1-Komp.einfach",
+      "unit": "m²"
+    },
+    {
+      "code": "48.41.11B",
+      "text": "Fassade Silikatfarbe 1-Komp.Standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.41.12A",
+      "text": "Fassade Silikatfarbe 2-Komp.Standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.41.21A",
+      "text": "Fassade Silikonharzfarbe einfach",
+      "unit": "m²"
+    },
+    {
+      "code": "48.41.21B",
+      "text": "Fassade Silikonharzfarbe Standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.41.31A",
+      "text": "Fassade A-Dispersionsfarbe einfach",
+      "unit": "m²"
+    },
+    {
+      "code": "48.41.31B",
+      "text": "Fassade A-Dispersionsfarbe Standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.41.41A",
+      "text": "Fassade Betonfl.Dispersionsfarbe einfach",
+      "unit": "m²"
+    },
+    {
+      "code": "48.41.41B",
+      "text": "Fassade Betonfl.Dispersionsfarbe Standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.41.51A",
+      "text": "Fassade Kunstharzfarbe lösemittelh.einfach",
+      "unit": "m²"
+    },
+    {
+      "code": "48.41.51B",
+      "text": "Fassade Kunstharzfarbe lösemittelh.Standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.41.61A",
+      "text": "Fassade imprägnieren Silikon",
+      "unit": "m²"
+    },
+    {
+      "code": "48.41.71A",
+      "text": "Az Fassade f.gestättigten Farbton",
+      "unit": "m²"
+    },
+    {
+      "code": "48.51.01A",
+      "text": "Fleckspachteln b.Schadensgrad b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "48.51.01B",
+      "text": "Fleckspachteln b.Schadensgrad",
+      "unit": "m²"
+    },
+    {
+      "code": "48.51.11A",
+      "text": "Überlackieren Kunstharzlack Lamperie",
+      "unit": "m²"
+    },
+    {
+      "code": "48.51.21A",
+      "text": "Walzen Dekor Lamperie",
+      "unit": "m²"
+    },
+    {
+      "code": "48.51.22A",
+      "text": "Walzen Dekor Räume",
+      "unit": "m²"
+    },
+    {
+      "code": "48.51.31A",
+      "text": "Abschlussstrich                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "48.51.41A",
+      "text": "Antischimmelbeschichtung",
+      "unit": "m²"
+    },
+    {
+      "code": "48.51.51A",
+      "text": "Fuge Acryl überstreichbar b.5mm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "48.51.51C",
+      "text": "Fuge Acryl überstreichbar ü.5-10mm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "48.51.52A",
+      "text": "Fuge Acryl schließen b.5mm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "48.51.52B",
+      "text": "Fuge Acryl schließen ü.5-10mm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "48.51.52D",
+      "text": "Fuge Silikon schließen b.5mm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "48.51.52E",
+      "text": "Fuge Silikon schließen ü.5-10mm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "48.51.61A",
+      "text": "Besondere Profile/Kantenschutz                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "48.52.02A",
+      "text": "Ab- u.Rücktransport Fenster- u.Türflügel b.1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.52.02B",
+      "text": "Ab- u.Rücktransport Fenster- u.Türflügel ü.1-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.52.02D",
+      "text": "Ab- u.Rücktransport Fenster- u.Türflügel b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.52.02E",
+      "text": "Ab- u.Rücktransport Fenster- u.Türflügel ü.2-3m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.80.02A",
+      "text": "Instandh./Wartung Holz deckend einfach",
+      "unit": "m²"
+    },
+    {
+      "code": "48.80.02B",
+      "text": "Instandh./WartungHolz deckend standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.80.03A",
+      "text": "Instandh./Wartung Holz Klarlack standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.80.04A",
+      "text": "Instandh./Wartung Holz Lasur standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.80.11A",
+      "text": "Instandh./Wartung Stahlbeschichtung einfach",
+      "unit": "m²"
+    },
+    {
+      "code": "48.80.11B",
+      "text": "Instandh./Wartung Stahlbeschichtung standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.80.11C",
+      "text": "Instandh./Wartung Stahlbeschichtung hochwertig",
+      "unit": "m²"
+    },
+    {
+      "code": "48.80.13A",
+      "text": "Instandh./Wartung Stahl verzinkt beschichten einfach",
+      "unit": "m²"
+    },
+    {
+      "code": "48.80.13B",
+      "text": "Instandh./Wartung Stahl verzinkt beschichten standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.80.13C",
+      "text": "Instandh./Wartung Stahl verzinkt beschichten hochwertig",
+      "unit": "m²"
+    },
+    {
+      "code": "48.80.21A",
+      "text": "Instandh./Wartung Blechdächer beschichten einfach",
+      "unit": "m²"
+    },
+    {
+      "code": "48.80.21B",
+      "text": "Instandh./Wartung Blechdächer beschichten standard",
+      "unit": "m²"
+    },
+    {
+      "code": "48.80.31A",
+      "text": "Instandh./Wartung Stahlzarge b.80x200cm einfach",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.80.31B",
+      "text": "Instandh./Wartung Stahlzarge ü.80-110x200cm einfach",
+      "unit": "Stk"
+    },
+    {
+      "code": "48.80.41B",
+      "text": "Instandh./Wartung Heizkörper beschichten",
+      "unit": "m²"
+    },
+    {
+      "code": "48.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "48.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "48.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

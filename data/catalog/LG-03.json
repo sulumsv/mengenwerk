@@ -1,0 +1,1471 @@
+{
+  "lg": "03",
+  "title": "Roden, Baugrube, Sicherungen und Tiefgründungen",
+  "positions": [
+    {
+      "code": "03.61.11A",
+      "text": "Ummanteln Filtergeotextil Grube",
+      "unit": "m²"
+    },
+    {
+      "code": "03.61.11B",
+      "text": "Ummanteln Filtergeotextil erh. Anford. Grube",
+      "unit": "m²"
+    },
+    {
+      "code": "03.61.11C",
+      "text": "Abdecken Matten Grube",
+      "unit": "m²"
+    },
+    {
+      "code": "03.81.11A",
+      "text": "Aushub Lockerboden (AKL) Arbeitsraum 0-1,25m",
+      "unit": "m³"
+    },
+    {
+      "code": "03.81.11B",
+      "text": "Aushub Lockerboden (AKL) Arbeitsraum 0-3m",
+      "unit": "m³"
+    },
+    {
+      "code": "03.81.11C",
+      "text": "Aushub Lockerboden (AKL) Arbeitsraum 0-5m",
+      "unit": "m³"
+    },
+    {
+      "code": "03.81.11X",
+      "text": "Aushub Lockerboden (AKL) Arbeitsraum 0-__________",
+      "unit": "m³"
+    },
+    {
+      "code": "03.00.11A",
+      "text": "Grundlegende Charakterisierung AG",
+      "unit": ""
+    },
+    {
+      "code": "03.00.11B",
+      "text": "Zuordnung Aushubmaterial AG",
+      "unit": ""
+    },
+    {
+      "code": "03.00.21A",
+      "text": "Mutterboden (AKL-M) Eigentum AG",
+      "unit": ""
+    },
+    {
+      "code": "03.00.21B",
+      "text": "Oberboden (AKL-O) Eigentum AG",
+      "unit": ""
+    },
+    {
+      "code": "03.01.01A",
+      "text": "Fläche säubern+Abfälle entsorgen pauschal                                                                     PA",
+      "unit": ""
+    },
+    {
+      "code": "03.01.01B",
+      "text": "Fläche säubern+Abfälle entsorgen",
+      "unit": "m²"
+    },
+    {
+      "code": "03.01.02A",
+      "text": "Freimachen von Bewuchs b.30cm pauschal                                                                        PA",
+      "unit": ""
+    },
+    {
+      "code": "03.01.02B",
+      "text": "Freimachen von Bewuchs b.30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "03.01.03A",
+      "text": "Schutz Baumstamm",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.01.04A",
+      "text": "Schutzzaun m.Sparschalung                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "03.01.04B",
+      "text": "Schutzzaun m.Drahtgeflecht                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "03.01.04C",
+      "text": "Az Schutzzaun+Plane                                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "03.01.11A",
+      "text": "Fällen+Wurzelstock entfernen ü.30-100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.01.11B",
+      "text": "Fällen+Wurzelstock entfernen ü.100-150cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.01.11C",
+      "text": "Fällen+Wurzelstock entfernen ü.150-200cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.01.11X",
+      "text": "Fällen+Wurzelstock entfernen ü.200cm:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.01.12A",
+      "text": "Fällen Umfang ü.30-100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.01.12B",
+      "text": "Fällen Umfang ü.100-150cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.01.12C",
+      "text": "Fällen Umfang ü.150-200cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.01.12X",
+      "text": "Fällen Umfang ü.200cm:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.01.13A",
+      "text": "Baumstumpf entfernen ü.30-100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.01.13B",
+      "text": "Baumstumpf entfernen ü.100-150cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.01.13C",
+      "text": "Baumstumpf entfernen ü.150-200cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.01.13X",
+      "text": "Baumstumpf entfernen ü.200cm:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.01.19A",
+      "text": "Gras mähen",
+      "unit": "m²"
+    },
+    {
+      "code": "03.02.01A",
+      "text": "Mutterboden (AKL-M) ohne Grasnarbe",
+      "unit": "m³"
+    },
+    {
+      "code": "03.02.01B",
+      "text": "Mutterboden (AKL-M) ohne Grasnarbe b.30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "03.02.01C",
+      "text": "Mutterboden (AKL-M) mit Grasnarbe b.30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "03.02.02A",
+      "text": "Oberboden (AKL-O)",
+      "unit": "m³"
+    },
+    {
+      "code": "03.02.02B",
+      "text": "Oberboden (AKL-O) b.30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "03.02.05A",
+      "text": "Schöpfboden (AKL-S) abtragen",
+      "unit": "m³"
+    },
+    {
+      "code": "03.02.10A",
+      "text": "Aushub Lockerboden (AKL) Grube 0-1,25m",
+      "unit": "m³"
+    },
+    {
+      "code": "03.02.10B",
+      "text": "Aushub Lockerboden (AKL) Grube 0-3m",
+      "unit": "m³"
+    },
+    {
+      "code": "03.02.10C",
+      "text": "Aushub Lockerboden (AKL) Grube 0-5m",
+      "unit": "m³"
+    },
+    {
+      "code": "03.02.10X",
+      "text": "Aushub Lockerboden (AKL) Grube 0-__________",
+      "unit": "m³"
+    },
+    {
+      "code": "03.02.12A",
+      "text": "Az Aushub Grube brüchiger Fels (AKBF) ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "03.02.12B",
+      "text": "Az Aushub Grube fester Fels (AKF) ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "03.02.13A",
+      "text": "Az Aushub Grube klebriger Boden (AKL-K)",
+      "unit": "m³"
+    },
+    {
+      "code": "03.02.13B",
+      "text": "Az Aushub Grube unter Wasser",
+      "unit": "m³"
+    },
+    {
+      "code": "03.02.14A",
+      "text": "Az Aushub Grube Steinmwk.ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "03.02.14B",
+      "text": "Az Aushub Grube Ziegelmwk.ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "03.02.14C",
+      "text": "Az Aushub Grube Beton ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "03.02.14D",
+      "text": "Az Aushub Grube Holzeinlagen ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "03.02.15A",
+      "text": "Az Aushub Grube Leitungsquerung b.0,5m                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "03.02.15B",
+      "text": "Az Aushub Grube Leitungsquerung ü.0,5-1m                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "03.02.21A",
+      "text": "Feinplanum Baugrube",
+      "unit": "m²"
+    },
+    {
+      "code": "03.02.30A",
+      "text": "Aushub schuttgefüllter Räume",
+      "unit": "m³"
+    },
+    {
+      "code": "03.03.10A",
+      "text": "Aushub Lockerboden (AKL) Fundament 0-1,25m",
+      "unit": "m³"
+    },
+    {
+      "code": "03.03.10B",
+      "text": "Aushub Lockerboden (AKL) Fundament 0-3m",
+      "unit": "m³"
+    },
+    {
+      "code": "03.03.11A",
+      "text": "Aushub Lockerboden (AKL) Unterfangungen 0-1,25m",
+      "unit": "m³"
+    },
+    {
+      "code": "03.03.11B",
+      "text": "Aushub Lockerboden (AKL) Unterfangungen 0-3m",
+      "unit": "m³"
+    },
+    {
+      "code": "03.03.12A",
+      "text": "Az Aushub Fund.brüchiger Fels (AKBF) ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "03.03.12B",
+      "text": "Az Aushub Fund.fester Fels (AKF) ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "03.03.13A",
+      "text": "Az Aushub Fund.klebriger Boden (AKL-K)",
+      "unit": "m³"
+    },
+    {
+      "code": "03.03.13B",
+      "text": "Az Aushub Fund.f.unter Wasser",
+      "unit": "m³"
+    },
+    {
+      "code": "03.03.14A",
+      "text": "Az Aushub Fund.Steinmwk.ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "03.03.14B",
+      "text": "Az Aushub Fund.Ziegelmwk.ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "03.03.14C",
+      "text": "Az Aushub Fund.Beton ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "03.03.14D",
+      "text": "Az Aushub Fund.f.Holzeinlagen ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "03.03.15A",
+      "text": "Az Aushub Fund.Leitungsquerung b.0,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.03.15B",
+      "text": "Az Aushub Fund.Leitungsquerung ü.0,5-1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.03.21A",
+      "text": "Feinplanum Fundamente",
+      "unit": "m²"
+    },
+    {
+      "code": "03.04.01A",
+      "text": "Bodenaustausch 250kN/m2",
+      "unit": "m³"
+    },
+    {
+      "code": "03.04.01B",
+      "text": "Bodenaustausch 300kN/m2",
+      "unit": "m³"
+    },
+    {
+      "code": "03.04.01X",
+      "text": "Bodenaustausch__________",
+      "unit": "m³"
+    },
+    {
+      "code": "03.05.01A",
+      "text": "Spritzbeton ü.5-7cm",
+      "unit": "m²"
+    },
+    {
+      "code": "03.05.01B",
+      "text": "Spritzbeton ü.7-9cm",
+      "unit": "m²"
+    },
+    {
+      "code": "03.05.01C",
+      "text": "Spritzbeton ü.9-11cm",
+      "unit": "m²"
+    },
+    {
+      "code": "03.05.01D",
+      "text": "Spritzbeton ü.11-13cm",
+      "unit": "m²"
+    },
+    {
+      "code": "03.05.01E",
+      "text": "Spritzbeton ü.13-15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "03.05.01X",
+      "text": "Spritzbeton ü.15cm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "03.05.02A",
+      "text": "Bewehrung Spritzbeton M 550",
+      "unit": "m²"
+    },
+    {
+      "code": "03.05.03A",
+      "text": "Spritzbeton Entspannungsrohr",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.06.01A",
+      "text": "Sichern Grube Pfosten",
+      "unit": "m²"
+    },
+    {
+      "code": "03.06.01B",
+      "text": "Sichern Grube Pfosten geschlossen",
+      "unit": "m²"
+    },
+    {
+      "code": "03.06.01C",
+      "text": "Sichern Grube Pfosten Getriebepölzung",
+      "unit": "m²"
+    },
+    {
+      "code": "03.06.02A",
+      "text": "Verbleibendes Pölzungsmaterial Grube",
+      "unit": "m²"
+    },
+    {
+      "code": "03.06.03A",
+      "text": "Schutz der Gruben-Böschung m.Folie",
+      "unit": "m²"
+    },
+    {
+      "code": "03.06.11A",
+      "text": "Abschnittsw.Unterfangung pölzen 0-3m",
+      "unit": "m²"
+    },
+    {
+      "code": "03.06.11X",
+      "text": "Abschnittsw.Unterfangung pölzen 0-__________",
+      "unit": "m²"
+    },
+    {
+      "code": "03.11.01A",
+      "text": "Bes.Baustelleneinr. Schlitzwand herstellen                                                                          PA",
+      "unit": ""
+    },
+    {
+      "code": "03.11.01B",
+      "text": "Bes.Baustelleneinr.Schlitzwand räumen                                                                               PA",
+      "unit": ""
+    },
+    {
+      "code": "03.11.02A",
+      "text": "Arbeitsplanum Schlitzwand                                                                                       PA",
+      "unit": ""
+    },
+    {
+      "code": "03.11.03A",
+      "text": "Gerät u.Maschinen Schlitzwand                                                                                   PA",
+      "unit": ""
+    },
+    {
+      "code": "03.11.04A",
+      "text": "Stillliegezeit Gerät Schlitzwand                                                                                d",
+      "unit": ""
+    },
+    {
+      "code": "03.11.04B",
+      "text": "Stillliegezeit Gerät+Bed.Schlitzwand",
+      "unit": "h"
+    },
+    {
+      "code": "03.11.11A",
+      "text": "Vorschachtungen Schlitzwand                                                                                     PA",
+      "unit": ""
+    },
+    {
+      "code": "03.11.11B",
+      "text": "Suchschlitze Schlitzwand                                                                                        PA",
+      "unit": ""
+    },
+    {
+      "code": "03.11.21A",
+      "text": "Leitwand f.Schlitzwand                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "03.11.22A",
+      "text": "Leitwand f.Schlitzwand abbrechen+entsorgen                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "03.11.31A",
+      "text": "Schlitzwand 0-10m",
+      "unit": "m²"
+    },
+    {
+      "code": "03.11.31B",
+      "text": "Schlitzwand 0-20m",
+      "unit": "m²"
+    },
+    {
+      "code": "03.11.31C",
+      "text": "Schlitzwand 0-30m",
+      "unit": "m²"
+    },
+    {
+      "code": "03.11.35E",
+      "text": "Beton Schlitzwand C25/30 B10",
+      "unit": "m³"
+    },
+    {
+      "code": "03.11.35F",
+      "text": "Beton Schlitzwand C25/30 B12",
+      "unit": "m³"
+    },
+    {
+      "code": "03.11.37A",
+      "text": "Schlitzwandfläche reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "03.11.37B",
+      "text": "Schlitzwandfläche abgleichen",
+      "unit": "m²"
+    },
+    {
+      "code": "03.11.38A",
+      "text": "Bewehrung Schlitzwand Stabstahl",
+      "unit": "kg"
+    },
+    {
+      "code": "03.11.41K",
+      "text": "Az Schlitzw.C25/30 mäßig sulfatbeständig",
+      "unit": "m³"
+    },
+    {
+      "code": "03.11.41L",
+      "text": "Az Schlitzw.C25/30 erhöht sulfatbeständig",
+      "unit": "m³"
+    },
+    {
+      "code": "03.12.01A",
+      "text": "Bes.Baustelleneinr. St-Spundwand herstellen                                                                     PA",
+      "unit": ""
+    },
+    {
+      "code": "03.12.01B",
+      "text": "Bes.Baustelleneinr. St-Spundwand räumen                                                                         PA",
+      "unit": ""
+    },
+    {
+      "code": "03.12.02A",
+      "text": "Arbeitsplanum St-Spundwand                                                                                      PA",
+      "unit": ""
+    },
+    {
+      "code": "03.12.03A",
+      "text": "Gerät u.Maschinen St-Spundwand                                                                                  PA",
+      "unit": ""
+    },
+    {
+      "code": "03.12.04A",
+      "text": "Stillliegezeit Gerät St-Spundwand                                                                               d",
+      "unit": ""
+    },
+    {
+      "code": "03.12.04B",
+      "text": "Stillliegezeit Gerät+Bed.St-Spundwand",
+      "unit": "h"
+    },
+    {
+      "code": "03.12.11A",
+      "text": "Stahl-Spundbohlen rammen 0-3m",
+      "unit": "m²"
+    },
+    {
+      "code": "03.12.11B",
+      "text": "Stahl-Spundbohlen rammen 0-6m",
+      "unit": "m²"
+    },
+    {
+      "code": "03.12.11C",
+      "text": "Stahl-Spundbohlen rammen 0-9m",
+      "unit": "m²"
+    },
+    {
+      "code": "03.12.11X",
+      "text": "Stahl-Spundbohlen rammen 0-__________",
+      "unit": "m²"
+    },
+    {
+      "code": "03.12.12A",
+      "text": "Stahl-Spundbohlen ziehen 0-3m",
+      "unit": "m²"
+    },
+    {
+      "code": "03.12.12B",
+      "text": "Stahl-Spundbohlen ziehen 0-6m",
+      "unit": "m²"
+    },
+    {
+      "code": "03.12.12C",
+      "text": "Stahl-Spundbohlen ziehen 0-9m",
+      "unit": "m²"
+    },
+    {
+      "code": "03.12.12X",
+      "text": "Stahl-Spundbohlen ziehen 0-__________",
+      "unit": "m²"
+    },
+    {
+      "code": "03.12.13A",
+      "text": "Stahl-Spundbohlen belassen",
+      "unit": "m²"
+    },
+    {
+      "code": "03.12.13B",
+      "text": "Stahl-Spundbohlen Verschnitt",
+      "unit": "m²"
+    },
+    {
+      "code": "03.12.14A",
+      "text": "Stahl-Spundbohle schneiden                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "03.12.14B",
+      "text": "Eck-Stahl-Spundbohle schneiden                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "03.12.41A",
+      "text": "Az Eck-Stahl-Spundbohlen rammen                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "03.12.41B",
+      "text": "Az Eck-Stahl-Spundbohlen ziehen                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "03.12.41C",
+      "text": "Az Eck-Stahl-Spundbohlen belassen                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "03.31.01A",
+      "text": "Bes.Baustelleneinr.Ft.-Rammpfahl herstellen                                                                     PA",
+      "unit": ""
+    },
+    {
+      "code": "03.31.01B",
+      "text": "Bes.Baustelleneinr.Ft.-Rammpfahl räumen                                                                         PA",
+      "unit": ""
+    },
+    {
+      "code": "03.31.02A",
+      "text": "Arbeitsplanum Ft.-Rammpfahl                                                                                     PA",
+      "unit": ""
+    },
+    {
+      "code": "03.31.03A",
+      "text": "Gerät u.Maschinen Ft.-Rammpfahl                                                                                 PA",
+      "unit": ""
+    },
+    {
+      "code": "03.31.04A",
+      "text": "Stillliegezeit Gerät Ft.-Rammpfahl                                                                              d",
+      "unit": ""
+    },
+    {
+      "code": "03.31.04B",
+      "text": "Stillliegezeit Gerät+Bed.Ft.-Rammpfahl",
+      "unit": "h"
+    },
+    {
+      "code": "03.31.10A",
+      "text": "Vorschachtungen Ft.-Rammpfahl                                                                                PA",
+      "unit": ""
+    },
+    {
+      "code": "03.31.10B",
+      "text": "Suchschlitze Ft.-Rammpfahl                                                                                   PA",
+      "unit": ""
+    },
+    {
+      "code": "03.31.11A",
+      "text": "Ft.-Rammpfahl lotrecht ansetzen+rammen",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.31.12A",
+      "text": "Az Ft.-Rammpfahl schräg rammen",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.31.13B",
+      "text": "Ft.-Rammpfahl Kopf abschrämmen",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.31.14A",
+      "text": "Ft.-Rammpfahl Fläche reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "03.31.41G",
+      "text": "Az Ft.-Rammpfahl C25/30 XC3",
+      "unit": "m³"
+    },
+    {
+      "code": "03.31.41K",
+      "text": "Az Ft.-Rammpfahl C25/30 mäßig sulfatb.",
+      "unit": "m³"
+    },
+    {
+      "code": "03.31.41L",
+      "text": "Az Ft.-Rammpfahl C25/30 erhöht sulfatb.",
+      "unit": "m³"
+    },
+    {
+      "code": "03.31.42A",
+      "text": "Az Ft.-Rammpfahl Durchörtern Mauerwerk                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "03.31.42B",
+      "text": "Az Ft.-Rammpfahl Durchörtern Holz                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "03.31.42C",
+      "text": "Az Ft.-Rammpfahl Durchörtern Beton                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "03.31.42X",
+      "text": "Az Ft.-Rammpfahl Durchörtern                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.00A",
+      "text": "Erschütterungsmessungen (zu 03.32)",
+      "unit": ""
+    },
+    {
+      "code": "03.32.00B",
+      "text": "Besondere Schallschutzmaßnahmen (zu 03.32)",
+      "unit": ""
+    },
+    {
+      "code": "03.32.01A",
+      "text": "Bes.Baustelleneinr.Ortbeton-Pf.herstellen                                                                     PA",
+      "unit": ""
+    },
+    {
+      "code": "03.32.01B",
+      "text": "Bes.Baustelleneinr.Ortbeton-Pf.räumen                                                                         PA",
+      "unit": ""
+    },
+    {
+      "code": "03.32.02A",
+      "text": "Arbeitsplanum Ortbeton-Pf.                                                                                    PA",
+      "unit": ""
+    },
+    {
+      "code": "03.32.03A",
+      "text": "Gerät u.Maschinen Ortbeton-Pf.                                                                                PA",
+      "unit": ""
+    },
+    {
+      "code": "03.32.04A",
+      "text": "Stillliegezeit Gerät Ortbeton-Pf.                                                                             d",
+      "unit": ""
+    },
+    {
+      "code": "03.32.04B",
+      "text": "Stillliegezeit Gerät+Bed.Ortbeton-Pf.",
+      "unit": "h"
+    },
+    {
+      "code": "03.32.10A",
+      "text": "Vorschachtungen Ortbeton-Pfählen                                                                              PA",
+      "unit": ""
+    },
+    {
+      "code": "03.32.10B",
+      "text": "Suchschlitze Ortbeton-Pfählen                                                                                 PA",
+      "unit": ""
+    },
+    {
+      "code": "03.32.11A",
+      "text": "Ortbeton-Rammpfahl lot.ansetzen",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.32.11B",
+      "text": "Ortbeton-Rammpfahl lot.0-10m rammen                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.11C",
+      "text": "Ortbeton-Rammpfahl lot.0-20m rammen                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.11D",
+      "text": "Ortbeton-Rammpfahl lot.0-30m rammen                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.11X",
+      "text": "Ortbeton-Rammpfahl lot.rammen 0-__________                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.12A",
+      "text": "Ortbeton-Rammpfahl Eignungsprüfung",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.32.21A",
+      "text": "Ortbeton-Bohrpfahl lot.ansetzen",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.32.21B",
+      "text": "Ortbeton-Bohrpfahl lot.0-10m bohren                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.21C",
+      "text": "Ortbeton-Bohrpfahl lot.0-20m bohren                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.21D",
+      "text": "Ortbeton-Bohrpfahl lot.0-30m bohren                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.21X",
+      "text": "Ortbeton-Bohrpfahl lot.bohren 0-__________                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.22A",
+      "text": "Ortbeton-Bohrpfahl Eignungsprüfung",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.32.31A",
+      "text": "Beton Ortbeton-Pfahl C25/30",
+      "unit": "m³"
+    },
+    {
+      "code": "03.32.31B",
+      "text": "Beton Ortbeton-Pfahl C30/37",
+      "unit": "m³"
+    },
+    {
+      "code": "03.32.31C",
+      "text": "Beton Ortbeton-Pfahl C25/30 B8",
+      "unit": "m³"
+    },
+    {
+      "code": "03.32.31D",
+      "text": "Beton Ortbeton-Pfahl C25/30 B9",
+      "unit": "m³"
+    },
+    {
+      "code": "03.32.31F",
+      "text": "Beton Ortbeton-Pfahl C25/30 B11",
+      "unit": "m³"
+    },
+    {
+      "code": "03.32.32A",
+      "text": "Bewehrung Ortbeton-Rammpfahl Stabstahl",
+      "unit": "kg"
+    },
+    {
+      "code": "03.32.32B",
+      "text": "Bewehrung Ortbeton-Bohrpfahl Stabstahl",
+      "unit": "kg"
+    },
+    {
+      "code": "03.32.35A",
+      "text": "Ortbeton-Rammpfahl Fläche reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "03.32.36A",
+      "text": "Ortbeton-Bohrpfahl Fläche reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "03.32.41G",
+      "text": "Az Ortbeton-Pfahl C25/30 XC3",
+      "unit": "m³"
+    },
+    {
+      "code": "03.32.41H",
+      "text": "Az Ortbeton-Pfahl C25/30 XC4",
+      "unit": "m³"
+    },
+    {
+      "code": "03.32.41K",
+      "text": "Az Ortbeton-Pfahl C25/30 mäßig sulfatb.",
+      "unit": "m³"
+    },
+    {
+      "code": "03.32.41L",
+      "text": "Az Ortbeton-Pfahl C25/30 erhöht sulfatb",
+      "unit": "m³"
+    },
+    {
+      "code": "03.32.42A",
+      "text": "Az Ortbeton-Pfahl schräg rammen                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.43A",
+      "text": "Az Ortbeton-Pfahl Durchörtern Mauerwerk                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.43B",
+      "text": "Az Ortbeton-Pfahl Durchörtern Holz                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.43C",
+      "text": "Az Ortbeton-Pfahl Durchörtern Beton                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.43X",
+      "text": "Az Ortbeton-Pfahl Durchörtern                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.44B",
+      "text": "Az Ortbeton-Bohrpfahl überschnitt.0-10m                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.44C",
+      "text": "Az Ortbeton-Bohrpfahl überschnitt.0-20m                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.44D",
+      "text": "Az Ortbeton-Bohrpfahl überschnitt.0-30m                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.44X",
+      "text": "Az Ortbeton-Bohrpfahl überschnitt.0-__________                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.45A",
+      "text": "Az Ortbeton-Bohrpfahl m.Suspensionsauflast                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "03.32.71A",
+      "text": "Spritzbetonschale 10cm C25/30",
+      "unit": "m²"
+    },
+    {
+      "code": "03.32.71B",
+      "text": "Spritzbetonschale 15cm C25/30",
+      "unit": "m²"
+    },
+    {
+      "code": "03.32.71C",
+      "text": "Spritzbetonschale 20cm C25/30",
+      "unit": "m²"
+    },
+    {
+      "code": "03.32.72A",
+      "text": "Az Bewehrung f.Spritzbetonschalen",
+      "unit": "kg"
+    },
+    {
+      "code": "03.33.00A",
+      "text": "Erschütterungsmessungen (zu 03.33)",
+      "unit": ""
+    },
+    {
+      "code": "03.33.00B",
+      "text": "Besondere Schallschutzmaßnahmen (zu 03.33)",
+      "unit": ""
+    },
+    {
+      "code": "03.33.01A",
+      "text": "Bes.Baustelleneinr. dukt.Guss-Pf.herstellen                                                                    PA",
+      "unit": ""
+    },
+    {
+      "code": "03.33.01B",
+      "text": "Bes.Baustelleneinr. dukt.Guss-Pf.räumen                                                                        PA",
+      "unit": ""
+    },
+    {
+      "code": "03.33.02A",
+      "text": "Arbeitsplanum dukt.Guss-Pf.                                                                                    PA",
+      "unit": ""
+    },
+    {
+      "code": "03.33.03A",
+      "text": "Gerät u.Maschinen dukt.Guss-Pf.                                                                                PA",
+      "unit": ""
+    },
+    {
+      "code": "03.33.04A",
+      "text": "Stillliegezeit Gerät dukt.Guss-Pf.                                                                             d",
+      "unit": ""
+    },
+    {
+      "code": "03.33.04B",
+      "text": "Stillliegezeit Gerät+Bed.dukt.Guss-Pf.",
+      "unit": "h"
+    },
+    {
+      "code": "03.33.11A",
+      "text": "Dukt.Guss-Pfahl mvp 0-15m ansetzen 300kN",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.33.11B",
+      "text": "Dukt.Guss-Pfahl mvp 0-15m rammen 300kN                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "03.33.11C",
+      "text": "Dukt.Guss-Pfahl mvp 0-15m ansetzen 500kN",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.33.11D",
+      "text": "Dukt.Guss-Pfahl mvp 0-15m rammen 500kN                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "03.33.11X",
+      "text": "Dukt.Guss-Pfahl mvp 0-15m ansetzen__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.33.11Y",
+      "text": "Dukt.Guss-Pfahl mvp 0-15m rammen__________                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "03.33.13A",
+      "text": "Dukt.Guss-Pfahl mvp 0-30m ansetzen 300kN",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.33.13B",
+      "text": "Dukt.Guss-Pfahl mvp 0-30m rammen 300kN                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "03.33.13C",
+      "text": "Dukt.Guss-Pfahl mvp 0-30m ansetzen 500kN",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.33.13D",
+      "text": "Dukt.Guss-Pfahl mvp 0-30m rammen 500kN                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "03.33.13X",
+      "text": "Dukt.Guss-Pfahl mvp 0-30m ansetzen__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.33.13Y",
+      "text": "Dukt.Guss-Pfahl mvp 0-30m rammen__________                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "03.33.21A",
+      "text": "Dukt.Guss-Pfahl 0-15m ansetzen 300kN",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.33.21B",
+      "text": "Dukt.Guss-Pfahl 0-15m rammen 300kN                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "03.33.21C",
+      "text": "Dukt.Guss-Pfahl 0-15m ansetzen 500kN",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.33.21D",
+      "text": "Dukt.Guss-Pfahl 0-15m rammen 500kN                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "03.33.21X",
+      "text": "Dukt.Guss-Pfahl 0-15m ansetzen__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.33.21Y",
+      "text": "Dukt.Guss-Pfahl 0-15m rammen__________                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "03.33.23A",
+      "text": "Dukt.Guss-Pfahl 0-30m ansetzen 300kN",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.33.23B",
+      "text": "Dukt.Guss-Pfahl 0-30m rammen 300kN                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "03.33.23C",
+      "text": "Dukt.Guss-Pfahl 0-30m ansetzen 500kN",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.33.23D",
+      "text": "Dukt.Guss-Pfahl 0-30m rammen 500kN                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "03.33.23X",
+      "text": "Dukt.Guss-Pfahl 0-30m ansetzen__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.33.23Y",
+      "text": "Dukt.Guss-Pfahl 0-30m rammen__________                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "03.33.41A",
+      "text": "Az dukt.Guss-Pfahl schräg                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "03.33.42A",
+      "text": "Az dukt.Guss-Pfahl Durchörtern Mauerwerk                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "03.33.42B",
+      "text": "Az dukt.Guss-Pfahl Durchörtern Holz                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "03.33.42C",
+      "text": "Az dukt.Guss-Pfahl Durchörtern Beton                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "03.33.42X",
+      "text": "Az dukt.Guss-Pfahl Durchörtern                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "03.36.00A",
+      "text": "Erschütterungsmessungen",
+      "unit": ""
+    },
+    {
+      "code": "03.36.00B",
+      "text": "Besondere Schallschutzmaßnahmen",
+      "unit": ""
+    },
+    {
+      "code": "03.36.01A",
+      "text": "Bes.Baustelleneinr.Erdanker herstellen                                                                                   PA",
+      "unit": ""
+    },
+    {
+      "code": "03.36.01B",
+      "text": "Bes.Baustelleneinr.Erdanker räumen                                                                                       PA",
+      "unit": ""
+    },
+    {
+      "code": "03.36.02A",
+      "text": "Arbeitsplanum Erdanker                                                                                                   PA",
+      "unit": ""
+    },
+    {
+      "code": "03.36.03A",
+      "text": "Gerät u.Maschinen Erdanker                                                                                               PA",
+      "unit": ""
+    },
+    {
+      "code": "03.36.04A",
+      "text": "Stillliegezeit Gerät Erdanker                                                                                            d",
+      "unit": ""
+    },
+    {
+      "code": "03.36.04B",
+      "text": "Stillliegezeit Gerät+Bed.Erdanker",
+      "unit": "h"
+    },
+    {
+      "code": "03.36.11A",
+      "text": "Erdanker ansetzen 300kN",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.36.11B",
+      "text": "Erdanker ansetzen 500kN",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.36.11X",
+      "text": "Erdanker ansetzen__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.36.12A",
+      "text": "Erdanker bohren 300kN                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "03.36.12B",
+      "text": "Erdanker bohren 500kN                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "03.36.12X",
+      "text": "Erdanker bohren__________                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "03.36.15A",
+      "text": "Erdanker Eignungsprüfung",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.36.53A",
+      "text": "Az Erdanker Durchbohren Mauerwerk                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "03.36.53B",
+      "text": "Az Erdanker Durchbohren Holz                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "03.36.53C",
+      "text": "Az Erdanker Durchbohren Beton                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "03.36.53D",
+      "text": "Az Erdanker Durchbohren Stahlbeton                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "03.36.53E",
+      "text": "Az Erdanker Durchbohren Fels                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "03.36.53X",
+      "text": "Az Erdanker Durchbohren                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "03.36.59A",
+      "text": "Erdankerkopf ausbilden",
+      "unit": "Stk"
+    },
+    {
+      "code": "03.41.00A",
+      "text": "Ableitungsbewilligung AG",
+      "unit": ""
+    },
+    {
+      "code": "03.41.00B",
+      "text": "Ableitungsbewilligung AN",
+      "unit": ""
+    },
+    {
+      "code": "03.41.00C",
+      "text": "Sonstige Vereinbarungen Wasserhaltung",
+      "unit": ""
+    },
+    {
+      "code": "03.41.01A",
+      "text": "Entwässerung Baugrube",
+      "unit": "m²"
+    },
+    {
+      "code": "03.41.02A",
+      "text": "Pumpe Baugrube betreiben u.warten                                                                                Wo",
+      "unit": ""
+    },
+    {
+      "code": "03.51.01A",
+      "text": "Einbau fl.Schüttung Rundkies b.50cm",
+      "unit": "m³"
+    },
+    {
+      "code": "03.51.01B",
+      "text": "Einbau fl.Schüttung Dränmaterial b.50cm",
+      "unit": "m³"
+    },
+    {
+      "code": "03.51.02A",
+      "text": "Einbau fl.Schüttung Frostschutz+verdichten",
+      "unit": "m³"
+    },
+    {
+      "code": "03.51.02D",
+      "text": "Einbau fl.Schüttung Glasschaumschotter",
+      "unit": "m³"
+    },
+    {
+      "code": "03.61.01A",
+      "text": "Hinterfüllen Grube Aushub+verdichten",
+      "unit": "m³"
+    },
+    {
+      "code": "03.61.02A",
+      "text": "Schüttmaterial Grube gebrochenes Material",
+      "unit": "m³"
+    },
+    {
+      "code": "03.61.02B",
+      "text": "Schüttmaterial Grube Rollschotter",
+      "unit": "m³"
+    },
+    {
+      "code": "03.61.03A",
+      "text": "Schüttmaterial Grube SVM",
+      "unit": "m³"
+    },
+    {
+      "code": "03.81.01A",
+      "text": "Aushub Lockerboden (AKL) Grube abschnittsweise",
+      "unit": "m³"
+    },
+    {
+      "code": "03.81.02A",
+      "text": "Aushub Lockerboden (AKL) Fundament 0-1,25m+fördern Erdg.",
+      "unit": "m³"
+    },
+    {
+      "code": "03.81.02B",
+      "text": "Aushub Lockerboden (AKL) 0-3m+fördern Erdg.",
+      "unit": "m³"
+    },
+    {
+      "code": "03.81.02C",
+      "text": "Aushub Lockerboden (AKL) 0-1,25m+fördern Keller",
+      "unit": "m³"
+    },
+    {
+      "code": "03.81.02D",
+      "text": "Aushub Lockerboden (AKL) 0-3m+fördern Keller",
+      "unit": "m³"
+    },
+    {
+      "code": "03.81.03A",
+      "text": "Abgraben Erdgeschoß 0-0,2m+fördern",
+      "unit": "m³"
+    },
+    {
+      "code": "03.81.03B",
+      "text": "Abgraben Keller 0-0,2m+fördern",
+      "unit": "m³"
+    },
+    {
+      "code": "03.81.04D",
+      "text": "Aushub Lockerboden (AKL) Unterfangung Erdg.0-1,25m+fördern",
+      "unit": "m³"
+    },
+    {
+      "code": "03.81.04E",
+      "text": "Aushub Lockerboden (AKL) Unterfangung Erdg.0-3m+födern",
+      "unit": "m³"
+    },
+    {
+      "code": "03.81.04G",
+      "text": "Aushub Lockerboden (AKL) Unterfangung Ke.0-1,25m+fördern",
+      "unit": "m³"
+    },
+    {
+      "code": "03.81.04H",
+      "text": "Aushub Lockerboden (AKL) Unterfangung Ke.0-3m+fördern",
+      "unit": "m³"
+    },
+    {
+      "code": "03.91.05A",
+      "text": "Transp./Verw./Dep.Aushub Grube rein",
+      "unit": "m³"
+    },
+    {
+      "code": "03.91.05B",
+      "text": "Transp./Verw./Dep.Aushub Grube Inertabfall b.30% / b.3%",
+      "unit": "m³"
+    },
+    {
+      "code": "03.91.05C",
+      "text": "Transp./Verw./Dep.Aushub Grube Inertabfall ü.30% / ü.3%",
+      "unit": "m³"
+    },
+    {
+      "code": "03.91.05D",
+      "text": "Transp./Verw./Dep.Aushub Grube Baurestmassen b.30% / b.3%",
+      "unit": "m³"
+    },
+    {
+      "code": "03.91.05E",
+      "text": "Transp./Verw./Dep.Aushub Grube Baurestmassen ü.30% / ü.3%",
+      "unit": "m³"
+    },
+    {
+      "code": "03.91.05F",
+      "text": "Transp./Verw./Dep.Aushub Grube Reststoff",
+      "unit": "m³"
+    },
+    {
+      "code": "03.91.05G",
+      "text": "Transp./Verw./Dep.Aushub Grube Massenabfall",
+      "unit": "m³"
+    },
+    {
+      "code": "03.91.06A",
+      "text": "Transp./Verw./Dep.Aushub Grube (nicht deponierbar)",
+      "unit": "m³"
+    },
+    {
+      "code": "03.91.10A",
+      "text": "Transport Mutterboden (AKL-M)",
+      "unit": "m³"
+    },
+    {
+      "code": "03.91.10B",
+      "text": "Verwerten Mutterboden (AKL-M)",
+      "unit": "m³"
+    },
+    {
+      "code": "03.91.10C",
+      "text": "Transportieren u.Verwerten Mutterboden (AKL-M)",
+      "unit": "m³"
+    },
+    {
+      "code": "03.91.11A",
+      "text": "Transport Oberboden (AKL-O)",
+      "unit": "m³"
+    },
+    {
+      "code": "03.91.11B",
+      "text": "Verwerten Oberboden (AKL-O)",
+      "unit": "m³"
+    },
+    {
+      "code": "03.91.11C",
+      "text": "Transportieren u.Verwerten Oberboden (AKL-O)",
+      "unit": "m³"
+    }
+  ]
+}

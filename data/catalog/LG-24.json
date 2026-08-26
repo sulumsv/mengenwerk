@@ -1,0 +1,581 @@
+{
+  "lg": "24",
+  "title": "Fliesen- und Plattenlegearbeiten",
+  "positions": [
+    {
+      "code": "24.01.01A",
+      "text": "Abscheren innen von Farbe+Entsorgen",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.01B",
+      "text": "Abscheren innen von Kalkfarbe+Entsorgen",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.01C",
+      "text": "Abscheren innen von Dispersion+Entsorgen",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.01D",
+      "text": "Abscheren innen von Tapete+Entsorgen",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.02B",
+      "text": "Vorstreichen (Grundieren) bei nicht saugenden Untergründen",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.03A",
+      "text": "Ausgleichen von Unebenheiten Wand b.4mm",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.03B",
+      "text": "Ausgleichen von Unebenheiten Wand ü.4-10mm",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.04A",
+      "text": "Ausgleichen von Unebenheiten Boden b.4mm",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.04B",
+      "text": "Ausgleichen von Unebenheiten Boden ü.4-10mm",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.06A",
+      "text": "Reinigungsschliff Fußboden",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.11A",
+      "text": "Bauplatten XPS 6mm",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.11B",
+      "text": "Bauplatten XPS 10mm",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.11C",
+      "text": "Bauplatten XPS 20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.11D",
+      "text": "Bauplatten XPS 30mm",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.11E",
+      "text": "Bauplatten XPS 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.21A",
+      "text": "Verbundabdichtung Wand W3",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.21B",
+      "text": "Verbundabdichtung Wand W4",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.21C",
+      "text": "Verbundabdichtung Wand W5",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.21D",
+      "text": "Verbundabdichtung Wand W6",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.23A",
+      "text": "Verbundabdichtung Wand Reaktionsharzbasis (W5, W6)",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.31A",
+      "text": "Verbundabdichtung Boden W3",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.31B",
+      "text": "Verbundabdichtung Boden W4",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.31C",
+      "text": "Verbundabdichtung Boden W5",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.31D",
+      "text": "Verbundabdichtung Boden W6",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.33B",
+      "text": "Verbundabdichtung Boden auf Reaktionsharzbasis (W5, W6)",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.35A",
+      "text": "Verbundabdichtung PLUS Boden",
+      "unit": "m²"
+    },
+    {
+      "code": "24.01.44A",
+      "text": "Abdichten Eckfugen m.Dichtband                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "24.01.44B",
+      "text": "Abdichten Rohrdurchf.+Dichtmansch.b.50mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.01.44C",
+      "text": "Abdichten Rohrdurchf./Bodenabl.+Dichtmansch.ü.50-300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.01.44E",
+      "text": "Abdichten m.Dichtbandecken bei Duschabsenkungen",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.01.44F",
+      "text": "Einbinden m.Flansch bei Duschrinnen",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.01.44G",
+      "text": "Eindichten m.Wannendichtbändern bei Wannen                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "24.01.44H",
+      "text": "Kapillarbrechende Maßnahmen im Wandbereich                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "24.01.44I",
+      "text": "Kapillarbrechende Maßnahmen im Türbereich",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.01.44J",
+      "text": "Schnittschutzband bei Wartungsfugen                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "24.01.45A",
+      "text": "Abdichten RHB Eckfugen m.Dichtband                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "24.01.45B",
+      "text": "Abdichten RHB Rohrdurchf.+Dichtmansch.b.50mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.01.45C",
+      "text": "Abdichten RHB Rohrdurchf./Bodenabl.+Dichtmansch.ü.50-300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.01.45E",
+      "text": "Abdichten RHB m.Dichtbandecken bei Duschabsenkungen",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.01.45F",
+      "text": "Einbinden RHB m.Flansch bei Duschrinnen",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.01.45G",
+      "text": "Eindichten RHB m.Wannendichtbändern bei Wannen                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "24.01.45H",
+      "text": "Kapillarbrechende Maßnahmen im Wandbereich bei RHB                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "24.01.45I",
+      "text": "Kapillarbrechende Maßnahmen im Türbereich bei RHB                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "24.01.45J",
+      "text": "Schnittschutzband bei Wartungsfugen bei RHB                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "24.11.51A",
+      "text": "Wandbelag 20x20cm weiß innen b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "24.11.51B",
+      "text": "Wandbelag innen b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "24.11.61A",
+      "text": "Wandbelag 20x20cm weiß innen ü.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "24.11.61B",
+      "text": "Wandbelag innen ü.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "24.12.51A",
+      "text": "Bodenbelag 30x30cm grau innen unbeheizt",
+      "unit": "m²"
+    },
+    {
+      "code": "24.12.51B",
+      "text": "Bodenbelag innen unbeheizt",
+      "unit": "m²"
+    },
+    {
+      "code": "24.12.61A",
+      "text": "Bodenbelag 30x30cm grau innen beheizt",
+      "unit": "m²"
+    },
+    {
+      "code": "24.12.61B",
+      "text": "Bodenbelag innen beheizt",
+      "unit": "m²"
+    },
+    {
+      "code": "24.12.71A",
+      "text": "Bodensockelbelag 30x30cm grau innen                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "24.12.71B",
+      "text": "Bodensockelbelag innen                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "24.13.51A",
+      "text": "Stufenbelag 30x30cm grau innen m.Bodenplatte                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "24.13.51B",
+      "text": "Stufenbelag 30x30cm grau innen m.Rillenplatte                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "24.13.51C",
+      "text": "Stufenbelag innen                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "24.13.51D",
+      "text": "Az Stufenbelag innen f.Stufenkante m.Kontrastfarbe                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "24.13.51E",
+      "text": "Az Stufenbelag innen f.Aufmerksamkeitsfeld                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "24.13.71A",
+      "text": "Stufensockelbelag Dünnbett grau innen                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "24.13.71B",
+      "text": "Stufensockelbelag Dünnbett innen                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "24.21.51B",
+      "text": "Wandbelag außen b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "24.21.61B",
+      "text": "Wandbelag außen ü.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "24.22.51B",
+      "text": "Bodenbelag Dünnbett außen b.30x30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "24.22.71B",
+      "text": "Sockelbelag Dünnbett außen                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "24.23.51A",
+      "text": "Stufenbelag außen auf Betonkern                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "24.23.51B",
+      "text": "Stufenbelag außen                                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "24.23.71A",
+      "text": "Stufensockelbelag Dünnbett außen auf Zementputz                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "24.23.71B",
+      "text": "Stufensockelbelag Dünnbett außen                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "24.51.01A",
+      "text": "Abschlussschienen Alu natur b.10mm                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "24.51.01B",
+      "text": "Abschlussschienen                                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "24.51.07A",
+      "text": "Elastische Fuge Silikon/Acryl b.5mm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "24.51.07B",
+      "text": "Elastische Fuge Silikon/ Acryl ü.5-10mm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "24.51.07C",
+      "text": "Az Elastische Fuge Silikon/Acryl f.Hinterfüllen m.Rundschnur                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "24.51.11A",
+      "text": "Winkelrahmen Wand Dünnbett nur versetzen                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "24.51.11B",
+      "text": "Winkelrahmen Boden Dünnbett nur versetzen                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "24.51.11C",
+      "text": "Mattenrahmen Boden Dünnbett nur versetzen                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "24.51.15A",
+      "text": "Revisionsabdeckplatte Wand Edelstahl 150x150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.51.15B",
+      "text": "Revisionsabdeckplatte Wand Edelstahl 200x200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.51.15C",
+      "text": "Revisionsabdeckplatte Wand Edelstahl 300x150mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.51.15D",
+      "text": "Revisionsabdeckplatte Wand Edelstahl 300x300mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.51.17A",
+      "text": "Fliesenmagnet m.Wand-Montageset",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.51.21A",
+      "text": "Badewanne verblenden (einmauern)",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.51.21C",
+      "text": "Az Badewanne verblenden f.schalltechnische Maßnahmen",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.51.22A",
+      "text": "Badewanne-Wannenbank einmauern",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.51.23A",
+      "text": "Duschtasse verblenden b.20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.51.23C",
+      "text": "Az Duschtasse verblenden f.schalltechnische Maßnahmen",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.51.24A",
+      "text": "Az f.Badewanne,Duschtasse",
+      "unit": "m²"
+    },
+    {
+      "code": "24.51.31A",
+      "text": "Az f.gekrümmte Wandbeläge b.1m",
+      "unit": "m²"
+    },
+    {
+      "code": "24.51.32A",
+      "text": "Az f.gekrümmte Sockelfbeläge b.1m                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "24.51.33A",
+      "text": "Az f.Fugenmörtel vergütet weiß/grau",
+      "unit": "m²"
+    },
+    {
+      "code": "24.51.33B",
+      "text": "Az f.Fugenmörtel vergütet Farbe",
+      "unit": "m²"
+    },
+    {
+      "code": "24.51.33C",
+      "text": "Az f.Fugenmörtel Reaktionsharz weiß/grau",
+      "unit": "m²"
+    },
+    {
+      "code": "24.51.33D",
+      "text": "Az f.Fugenmörtel Reaktionsharz Farbe",
+      "unit": "m²"
+    },
+    {
+      "code": "24.51.36A",
+      "text": "Az f.Bohren v.Löchern b.10cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.51.36B",
+      "text": "Az f.Anarbeiten Auslässe ü.0,01-0,3m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.51.41A",
+      "text": "Az Wandbeläge f.diagonale Verlegung",
+      "unit": "m²"
+    },
+    {
+      "code": "24.51.41B",
+      "text": "Az Wandbeläge f. Bogenschnitte                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "24.51.41C",
+      "text": "Az Wandbeläge f.Sicht- und Schrägschnitte                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "24.51.42A",
+      "text": "Az Bodenbeläge f.diagonale Verlegung",
+      "unit": "m²"
+    },
+    {
+      "code": "24.51.42B",
+      "text": "Az Bodenbeläge f. Bogenschnitte                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "24.51.42C",
+      "text": "Az Bodenbeläge f.Sicht- u.Schrägschnitte                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "24.51.45A",
+      "text": "Az Stufenbeläge im Dünnbett f.Wendelstufen                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "24.51.54A",
+      "text": "Az f.Hohlkehle Eckleiste                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "24.51.55A",
+      "text": "Az Bodenbeläge f.Verfüllen Deckel 40x60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.51.55B",
+      "text": "Az Bodenbeläge f.Verfüllen Deckel 60x60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.51.55C",
+      "text": "Az Bodenbeläge f.Verfüllen Deckel 60x100cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "24.51.61A",
+      "text": "Schutzimprägnierung f.Wand-,Boden-,Stufen-u.Sockelfliesen",
+      "unit": "m²"
+    },
+    {
+      "code": "24.51.91A",
+      "text": "Reserve-Material Wandbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "24.51.91B",
+      "text": "Reserve-Material Bodenbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "24.51.91C",
+      "text": "Reserve-Material Stufenbelag",
+      "unit": "m²"
+    },
+    {
+      "code": "24.90.00A",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "24.90.01A",
+      "text": "Regiestundensatz Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "24.90.01B",
+      "text": "Regiestundensatz Hilfsarbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "24.90.01C",
+      "text": "Regiestundensatz Lehrling",
+      "unit": "h"
+    }
+  ]
+}

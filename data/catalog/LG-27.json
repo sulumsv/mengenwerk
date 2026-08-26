@@ -1,0 +1,651 @@
+{
+  "lg": "27",
+  "title": "Terrazzoarbeiten",
+  "positions": [
+    {
+      "code": "27.00.01A",
+      "text": "Transport Baustellenber.waagr.",
+      "unit": ""
+    },
+    {
+      "code": "27.00.01B",
+      "text": "Transport Baustellenber.lotr.",
+      "unit": ""
+    },
+    {
+      "code": "27.00.02A",
+      "text": "Terrazzoböden innen",
+      "unit": ""
+    },
+    {
+      "code": "27.00.02B",
+      "text": "Terrazzoböden außen",
+      "unit": ""
+    },
+    {
+      "code": "27.00.02C",
+      "text": "Verlegung n.Verlegeplan v.AG",
+      "unit": ""
+    },
+    {
+      "code": "27.00.02D",
+      "text": "Belagsmuster",
+      "unit": ""
+    },
+    {
+      "code": "27.00.02E",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "27.11.03A",
+      "text": "Granito-Terrazzo gZ 1-f.",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.03B",
+      "text": "Granito-Terrazzo gZ 2-f.",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.03C",
+      "text": "Granito-Terrazzo gZ 3-f.",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.03D",
+      "text": "Granito-Terrazzo gZ",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.05A",
+      "text": "Griech.Antico-Streuterr.weiß",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.05B",
+      "text": "Griech.Antico-Streuterr.bunt",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.05C",
+      "text": "Griech.Antico-Streuterr.Muster",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.07A",
+      "text": "Röm.Antic-Streuterr.Farb.I",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.07B",
+      "text": "Röm.Antic-Streuterr.Farb.grün",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.07C",
+      "text": "Röm.Antic-Streuterr.Farb.blau",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.07D",
+      "text": "Röm.Antic-Streuterr.Muster",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.09A",
+      "text": "Einschichtterrazzo gZ 1-f.",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.09B",
+      "text": "Einschichtterrazzo gZ 2-f.",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.09C",
+      "text": "Einschichtterrazzo gZ 3-f.",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.09D",
+      "text": "Einschichtterrazzo gZ",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.09E",
+      "text": "Einschichtterrazzo wZ 1-f.",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.09F",
+      "text": "Einschichtterrazzo wZ 2-f.",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.09G",
+      "text": "Einschichtterrazzo wZ 3-f.",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.09H",
+      "text": "Einschichtterrazzo gemäß Muster",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.11A",
+      "text": "Az Terrazzo Farbzusatz I",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.11B",
+      "text": "Az Terrazzo Farbzusatz grün",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.11C",
+      "text": "Az Terrazzo Farbzusatz blau",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.12A",
+      "text": "Az Terrazzo Dicke+1cm gZ",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.12B",
+      "text": "Az Terrazzo Dicke+1cm wZ",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.12C",
+      "text": "Az Terrazzo Dicke+1cm Farbz. I",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.12D",
+      "text": "Az Terrazzo Dicke+1cm Farbz. grün",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.12E",
+      "text": "Az Terrazzo Dicke+1cm Farbz. blau",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.15A",
+      "text": "Terrazzostaffel 2cm                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "27.11.15B",
+      "text": "Terrazzostaffel 2-5cm                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "27.11.17A",
+      "text": "Az Terrazzo Hohlkehle b.7cm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "27.11.17B",
+      "text": "Az Terrazzo Hohlkehle ü.7-10cm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "27.11.18A",
+      "text": "Terrazzo zus.schleifen m.200",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.20A",
+      "text": "N.Baurein.Terraz.überschl.120",
+      "unit": "m²"
+    },
+    {
+      "code": "27.11.21A",
+      "text": "Terrazzo 2x fluatieren",
+      "unit": "m²"
+    },
+    {
+      "code": "27.12.01A",
+      "text": "Trennschiene Alu 3/20                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.01B",
+      "text": "Trennschiene Alu 3/30                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.01C",
+      "text": "Trennschiene Alu 4/30                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.01E",
+      "text": "Trennschiene Messing 3/20                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.01F",
+      "text": "Trennschiene Messing 3/30                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.01G",
+      "text": "Trennschiene Messing 4/30                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.01I",
+      "text": "Trennschiene Kunststoff 3/20                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.01J",
+      "text": "Trennschiene Kunststoff 3/30                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.01K",
+      "text": "Trennschiene Kunststoff 4/30                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.01M",
+      "text": "Trennschiene Edelstahl 3/20                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.01N",
+      "text": "Trennschiene Edelstahl 3/30                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.01O",
+      "text": "Trennschiene Edelstahl 4/30                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.02A",
+      "text": "Abschlusswinkel 20/20/2 Alu                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.02B",
+      "text": "Abschlusswinkel 30/30/3 Alu                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.02C",
+      "text": "Abschlusswinkel 35/35/3 Alu                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.02E",
+      "text": "Abschlusswinkel 20/20/2 Messing                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.02F",
+      "text": "Abschlusswinkel 30/30/3 Messing                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.02G",
+      "text": "Abschlusswinkel 35/35/3 Messing                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.02I",
+      "text": "Abschlusswinkel 20/20/2 Edelstahl                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.02J",
+      "text": "Abschlusswinkel 30/30/3 Edelstahl                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.02K",
+      "text": "Abschlusswinkel 35/35/4 Edelstahl                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.04A",
+      "text": "Winkelrahmen nur versetzen                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.07A",
+      "text": "Ausgleich.Boden innerh.Rahmen",
+      "unit": "m²"
+    },
+    {
+      "code": "27.12.09A",
+      "text": "Deckel wählbar Oberfl.n.vers.",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.12.11A",
+      "text": "Alufülldeckel 40x60",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.12.11B",
+      "text": "Alufülldeckel 60x60",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.12.11C",
+      "text": "Alufülldeckel 60x100",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.12.11E",
+      "text": "Edelstahl-Fülldeckel 40x60",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.12.11F",
+      "text": "Edelstahl-Fülldeckel 60x60",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.12.11G",
+      "text": "Edelstahl-Fülldeckel 60x100",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.12.14A",
+      "text": "Az Terrazzo Fülldeckel b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.12.14B",
+      "text": "Az Terrazzo Fülldeckel ü.0,5-0,8m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.12.16A",
+      "text": "Bewegungsf.m.PU+Runds.5mm                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "27.12.16B",
+      "text": "Bewegungsf.m.PU+Runds.10mm                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "27.81.01A",
+      "text": "Staubvorhang auf Holzrost",
+      "unit": "m²"
+    },
+    {
+      "code": "27.81.01B",
+      "text": "Staubdichte Wand-Weichfaserpl.",
+      "unit": "m²"
+    },
+    {
+      "code": "27.81.02A",
+      "text": "Az prov.Wand f.Tür",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.81.02B",
+      "text": "Az prov.Wand f.Tür+Schloss",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.81.03A",
+      "text": "Fußbodenschutz PE-Folie/Pappe",
+      "unit": "m²"
+    },
+    {
+      "code": "27.81.03B",
+      "text": "Fußbodenschutz Weichfaserplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "27.82.01A",
+      "text": "Trennschnitt im Terrazzo 2cm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "27.82.01B",
+      "text": "Trennschnitt im Terrazzo 5cm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "27.82.01C",
+      "text": "Trennschnitt im Terrazzo                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "27.82.02A",
+      "text": "Nassschneiden im Terrazzo 2cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "27.82.02B",
+      "text": "Nassschneiden im Terrazzo 5cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "27.82.02C",
+      "text": "Nassschneiden im Terrazzo                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "27.82.03A",
+      "text": "Inst.Terrazzo b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.82.03B",
+      "text": "Inst.Terrazzo ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.82.03C",
+      "text": "Inst.Terrazzo ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.82.03E",
+      "text": "Inst.Terrazzo+1Farbwe.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.82.03F",
+      "text": "Inst.Terrazzo+1Farbwe.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.82.03G",
+      "text": "Inst.Terrazzo+1Farbwe.ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.82.03I",
+      "text": "Inst.Terrazzo+Farbwechsel",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.82.05A",
+      "text": "Terrazzo ergänz.1-2m2 o.Fw.",
+      "unit": "m²"
+    },
+    {
+      "code": "27.82.05B",
+      "text": "Terrazzo ergänz.2-4m2 o.Fw.",
+      "unit": "m²"
+    },
+    {
+      "code": "27.82.05C",
+      "text": "Terraz.ergänz.1-2m2+U-Bet.o.Fw",
+      "unit": "m²"
+    },
+    {
+      "code": "27.82.05D",
+      "text": "Terraz.ergänz.2-4m2+U-Bet.o.Fw",
+      "unit": "m²"
+    },
+    {
+      "code": "27.82.05F",
+      "text": "Terrazzo ergänz.1-2m2 m.Fw.",
+      "unit": "m²"
+    },
+    {
+      "code": "27.82.05G",
+      "text": "Terrazzo ergänz.2-4m2 m.Fw.",
+      "unit": "m²"
+    },
+    {
+      "code": "27.82.05H",
+      "text": "Terraz.ergänz.1-2m2+U-Bet.m.Fw",
+      "unit": "m²"
+    },
+    {
+      "code": "27.82.05I",
+      "text": "Terraz.ergänz.2-4m2+U-Bet.m.Fw",
+      "unit": "m²"
+    },
+    {
+      "code": "27.82.06A",
+      "text": "Az Inst.Terrazzo Farbw.b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.82.06B",
+      "text": "Az Inst.Terrazzo Farbw.ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.82.06C",
+      "text": "Az Inst.Terrazzo Farbw.ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.82.06E",
+      "text": "Az Ergänz.Terrazzo Farbw.ü.1-2m2",
+      "unit": "m²"
+    },
+    {
+      "code": "27.82.06F",
+      "text": "Az Ergänz.Terrazzo Farbw.ü.2-4m2",
+      "unit": "m²"
+    },
+    {
+      "code": "27.82.08A",
+      "text": "Inst.Mosaik-Terrazzoboden",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.82.10A",
+      "text": "Az Terr.erg.Bordüre                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "27.82.10B",
+      "text": "Az Terrazzo ergänz.Fries                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "27.82.10C",
+      "text": "Az Terrazzo Reihe Steine                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "27.82.12A",
+      "text": "Hohlkehle ergänz.b.10cm b.0,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.82.12B",
+      "text": "Hohlkehle ergänz.b.10cm ü.0,5-1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.82.12C",
+      "text": "Hohlkehle ergänz.b.10cm ü.1m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "27.82.13A",
+      "text": "Sockel ergänz.b.10cm b.0,5m",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.82.13B",
+      "text": "Sockel ergänz.b.10cm ü.0,5-1m",
+      "unit": "Stk"
+    },
+    {
+      "code": "27.82.13C",
+      "text": "Sockel ergänz.b.10cm ü.1m                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "27.82.15A",
+      "text": "Terrazzo inst.schleifen+fluat.",
+      "unit": "m²"
+    },
+    {
+      "code": "27.82.16A",
+      "text": "Terr.Hohlkehl.abschleif.10cm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "27.82.16B",
+      "text": "Terr.Hohlkehl.abschleif.20cm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "27.82.17A",
+      "text": "Terr.Sockel abschleif.10cm                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "27.82.17B",
+      "text": "Terr.Sockel abschleif.20cm                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "27.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "27.90.01A",
+      "text": "Regiestunde Terr.Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "27.90.01B",
+      "text": "Regiestunde Terr.Schleifer",
+      "unit": "h"
+    },
+    {
+      "code": "27.90.01C",
+      "text": "Regiestunde Terr.Hilfsarbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "27.90.02A",
+      "text": "Bodenschleifmasch.Transport                                                                                      PA",
+      "unit": ""
+    },
+    {
+      "code": "27.90.03A",
+      "text": "Bodenschleifmaschine",
+      "unit": "h"
+    },
+    {
+      "code": "27.90.04A",
+      "text": "Elektrische Handgeräte",
+      "unit": "h"
+    }
+  ]
+}

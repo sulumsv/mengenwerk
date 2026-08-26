@@ -1,0 +1,538 @@
+Leistungsbeschreibung Hochbau                                                          gedruckt am 24.11.2025
+LGPosNr.     Positionsstichwort                                                                            EH
+
+
+
+
+                              Standardisierte Leistungsbeschreibung
+           Leistungsgruppe (LG) 15 - Schlitze, Durchbrüche, Sägen u.Bohren
+
+                                  Kennung: HB            Version: 023
+
+                              Leistungsbeschreibung Hochbau
+
+                                           Datum: 31.12.2025
+                    Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                        https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                              Vorversion:
+                                                 HB 022
+                   Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                       ULG 1500    Wählbare Vorbemerkungen
+                       ULG 1501    Schlitze herstellen
+                       ULG 1503    Durchbrüche herstellen
+                       ULG 1511    Schlitze schließen
+                       ULG 1513    Durchbrüche schließen
+                       ULG 1521    Sägen (Schneiden)
+                       ULG 1523    Bohren
+
+
+
+
+                                                                                                              Seite 1 / 9
+                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+15          Schlitze, Durchbrüche, Sägen u.Bohren
+            Version 022 (2021-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Ver- und Entsorgungsleitungen:
+            Der Auftraggeber sorgt vor Beginn der Arbeiten, nach Rücksprache mit dem Auftragnehmer, für eine Stilllegung
+            oder Abschaltung etwaiger Ver- und Entsorgungsleitungen.
+            2. Statik:
+            Statische Fragen (z.B. bei vorliegenden Bewehrungen) werden vor Beginn der Arbeiten mit dem Auftraggeber
+            geklärt.
+            3. Einkalkulierte Leistungen:
+            3.1 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - behördliche Vorschreibungen betreffend Schallschutz, Staubschutz (werden vom Auftragnehmer vor der
+            Angebotslegung erkundet)
+            - das Entsorgen von Baurestmassen
+            3.2 Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            4. Ausmaß- und Abrechnungsregeln:
+            Alle angegebenen Mauerdicken und lichten Öffnungen gelten als Rohbaumaße.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Arbeitshöhen über 3,2 m (einschließlich aller Erschwernisse, einschließlich Gerüste)
+             Literaturhinweis (z.B.):
+             ÖNORM B 2253 Mechanisches Bearbeiten von Beton und Mauerwerk - Bohr- und Schneidearbeiten - Werkvertragsnorm
+
+            LB-Version: 23                 Geringfügig Geändert
+
+15.00       Wählbare Vorbemerkungen
+15.00 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+15.00 00V   Verfügbarkeit von Beilagen zum LV
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von z.B. Plänen (z.B. im PDF-Format): ____________
+            Betrifft Position(en): ____________
+
+15.01       Schlitze herstellen
+
+
+            1. Herstellen von Schlitzen:
+            Im Folgenden ist das Herstellen von Schlitzen (z.B. durch Stemmen, Fräsen), ohne Unterschied ob in verputzten
+            oder unverputzten Wänden, beschrieben.
+            2. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                 • lotrechte Schlitze im Mauerwerk aus Mauerziegeln, wenn diese Schlitze vor dem Herstellen des
+                   Mauerwerkes angegeben sind und im Verband hergestellt werden
+             Kommentar:
+             Frei zu formulieren (z.B.):
+                 • Schlitze in Naturstein- oder Mischmauerwerk
+
+15.01 01    Schlitze, bis 5 cm tief, in Mauerwerk aus Ziegeln (z.B. Mauerziegeln, Hohlziegeln), Hohlblocksteinen, Blähton
+            oder Zwischenwandsteinen herstellen, gemessen von der Wandoberfläche. Im Positionsstichwort ist die Breite
+            der Schlitze angegeben.
+
+15.01 01A   Schlitze b.5cm Mwk.b.10cm                                                                                            m
+                                                                                                                             Seite 2 / 9
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+15.01 01B   Schlitze b.5cm Mwk.ü.10-20cm                                                                                 m
+
+15.01 01C   Schlitze b.5cm Mwk.ü.20-30cm                                                                                 m
+15.01 02    Schlitze, über 5 bis 10 cm tief, in Mauerwerk aus Ziegeln (z.B. Mauerziegeln, Hohlziegeln), Hohlblocksteinen,
+            Blähton oder Zwischenwandsteinen herstellen, gemessen von der Wandoberfläche. Im Positionsstichwort ist die
+            Breite der Schlitze angegeben.
+
+15.01 02A   Schlitze ü.5-10cm Mwk.b.10cm                                                                                 m
+
+15.01 02B   Schlitze ü.5-10cm Mwk.ü.10-20cm                                                                              m
+
+15.01 02C   Schlitze ü.5-10cm Mwk.ü.20-30cm                                                                              m
+15.01 03    Schlitze, bis 5 cm tief, in Mauerwerk aus Gipsdielen und Gasbeton (Gi.Ga.) herstellen, gemessen von der
+            Wandoberfläche. Im Positionsstichwort ist die Breite der Schlitze angegeben.
+
+15.01 03A   Schlitze b.5cm Gi.Ga.b.10cm                                                                                  m
+
+15.01 03B   Schlitze b.5cm Gi.Ga.ü.10-20cm                                                                               m
+
+15.01 03C   Schlitze b.5cm Gi.Ga.ü.20-30cm                                                                               m
+15.01 04    Schlitze, über 5 bis 10 cm tief, in Mauerwerk aus Gipsdielen und Gasbeton (Gi.Ga.) herstellen, gemessen von
+            der Wandoberfläche. Im Positionsstichwort ist die Breite der Schlitze angegeben.
+
+15.01 04A   Schlitze ü.5-10cm Gi.Ga.b.10cm                                                                               m
+
+15.01 04B   Schlitze ü.5-10cm Gi.Ga..ü.10-20cm                                                                           m
+
+15.01 04C   Schlitze ü.5-10cm Gi.Ga.ü.20-30cm                                                                            m
+15.01 05    Schlitze, bis 5 cm tief, in Wänden aus Beton oder Stahlbeton, ohne Unterschied der Betongüte, herstellen,
+            gemessen von der Wandoberfläche. Im Positionsstichwort ist die Breite der Schlitze angegeben.
+
+15.01 05A   Schlitze b.5cm Beton b.10cm                                                                                  m
+
+15.01 05B   Schlitze b.5cm Beton ü.10-20cm                                                                               m
+
+15.01 05C   Schlitze b.5cm Beton ü.20-30cm                                                                               m
+15.01 06    Schlitze, über 5 bis 10 cm tief, in Wänden aus Beton oder Stahlbeton, ohne Unterschied der Betongüte,
+            herstellen, gemessen von der Wandoberfläche. Im Positionsstichwort ist die Breite der Schlitze angegeben.
+
+15.01 06A   Schlitze ü.5-10cm Beton b.10cm                                                                               m
+
+15.01 06B   Schlitze ü.5-10cm Beton ü.10-20cm                                                                            m
+
+15.01 06C   Schlitze ü.5-10cm Beton ü.20-30cm                                                                            m
+15.01 07    Schlitze, bis 5 cm tief, in Wänden aus Mantelbeton herstellen, gemessen von der Wandoberfläche. Im
+            Positionsstichwort ist die Breite der Schlitze angegeben.
+
+15.01 07A   Schlitze b.5cm Mantelbeton b.10cm                                                                            m
+
+15.01 07B   Schlitze b.5cm Mantelbeton ü.10-20cm                                                                         m
+
+15.01 07C   Schlitze b.5cm Mantelbeton ü.20-30cm                                                                         m
+15.01 08    Schlitze, über 5 bis 10 cm tief, in Wänden aus Mantelbeton herstellen, gemessen von der Wandoberfläche. Im
+            Positionsstichwort ist die Breite der Schlitze angegeben.
+
+15.01 08A   Schlitze ü.5-10cm Mantelbeton b.10cm                                                                         m
+
+15.01 08B   Schlitze ü.5-10cm Mantelbeton ü.10-20cm                                                                      m
+
+15.01 08C   Schlitze ü.5-10cm Mantelbeton ü.20-30cm                                                                      m
+15.03       Durchbrüche herstellen
+
+
+                                                                                                                     Seite 3 / 9
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+
+            Im Folgenden ist das Herstellen von Durchbrüchen, ohne Unterschied ob in unverputzten oder verputzten
+            Bauteilen beschrieben.
+            Vor dem Herstellen von Bauteilen angegebene Öffnungen gelten nicht als Durchbrüche im Sinne dieser
+            Unterleistungsgruppe.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+                 • Durchbrüche in Gipsdielen und Gasbeton
+                 • Durchbrüche in Naturstein- oder Mischmauerwerk
+
+15.03 01    Durchbrüche, bis 0,1 m2 groß, in Wänden (WD) aus Mauerziegeln, Hohlziegeln, Hohlblocksteinen oder Blähton
+            (Mwk.), ausgenommen Sichtmauerwerk, herstellen. Im Positionsstichwort ist die Dicke der Wand angegeben.
+
+15.03 01A   WD b.0,1m2 Mwk.b.15cm                                                                                       Stk
+
+15.03 01B   WD b.0,1m2 Mwk.ü.15-30cm                                                                                    Stk
+
+15.03 01C   WD b.0,1m2 Mwk.ü.30-40cm                                                                                    Stk
+
+15.03 01D   WD b.0,1m2 Mwk.ü.40-50cm                                                                                    Stk
+15.03 03    Durchbrüche, bis 0,1 m2 groß, in Wänden (WD) aus Beton oder Stahlbeton, ohne Unterschied der Betongüte,
+            herstellen. Im Positionsstichwort ist die Dicke der Wand angegeben.
+
+15.03 03A   WD b.0,1m2 Beton b.15cm                                                                                     Stk
+
+15.03 03B   WD b.0,1m2 Beton ü.15-30cm                                                                                  Stk
+
+15.03 03C   WD b.0,1m2 Beton ü.30-40cm                                                                                  Stk
+
+15.03 03D   WD b.0,1m2 Beton ü.40-50cm                                                                                  Stk
+15.03 05    Durchbrüche, bis 0,1 m2 groß, in Wänden (WD) aus Mantelbeton, ohne Unterschied der Betongüte, herstellen.
+            Im Positionsstichwort ist die Dicke der Wand angegeben.
+
+15.03 05A   WD b.0,1m2 Mantelbeton b.20cm                                                                               Stk
+
+15.03 05B   WD b.0,1m2 Mantelbeton ü.20-30cm                                                                            Stk
+15.03 06    Durchbrüche, bis 0,1 m2 groß, in Decken (DD) aus Stahlbeton, ohne Unterschied der Betongüte, Dicke
+            gemessen im Durchbruch. Im Positionsstichwort ist die Dicke der Decke angegeben.
+
+15.03 06A   DD b.0,1m2 Stb-Decke b.10cm                                                                                 Stk
+
+15.03 06B   DD b.0,1m2 Stb-Decke ü.10-20cm                                                                              Stk
+
+15.03 06C   DD b.0,1m2 Stb-Decke ü.20-30cm                                                                              Stk
+15.03 07    Durchbrüche, bis 0,1 m2 groß, in Decken mit Hohlkörpern, einschließlich eines etwaigen Aufbetons (nicht durch
+            den Fertigteilträger).
+
+15.03 07A   DD b.0,1m2 Hohlkörper                                                                                       Stk
+15.11       Schlitze schließen
+15.11 01    Schlitze, bis 5 cm tief, in verputzten Wänden (außer aus Gipsbauplatten und Gasbeton) mit passendem Mörtel,
+            ohne Gewebeüberspannung, schließen. Im Positionsstichwort ist die Breite der Schlitze angegeben.
+
+15.11 01A   Schlitze b.5cm schließen b.10cm                                                                             m
+
+15.11 01B   Schlitze b.5cm schließen ü.10-20cm                                                                          m
+
+15.11 01C   Schlitze b.5cm schließen ü.20-30cm                                                                          m
+15.11 02    Schlitze, über 5 bis 10 cm tief, in verputzten Wänden (außer aus Gipsbauplatten und Gasbeton) mit passendem
+            Mörtel, ohne Gewebeüberspannung, schließen. Im Positionsstichwort ist die Breite der Schlitze angegeben.
+
+15.11 02A   Schlitze ü.5-10cm schließen b.10cm                                                                          m
+
+
+                                                                                                                    Seite 4 / 9
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+15.11 02B   Schlitze ü.5-10cm schließen ü.10-20cm                                                                         m
+
+15.11 02C   Schlitze ü.5-10cm schließen ü.20-30cm                                                                         m
+15.11 03    Schlitze, bis 5 cm tief, in verputzten Wänden aus Gipsdielen oder Gasbeton (Gi.Ga.) mit passendem Mörtel,
+            ohne Gewebeüberspannung, schließen. Im Positionsstichwort ist die Breite der Schlitze angegeben.
+
+15.11 03A   Schlitze b.5cm Gi.Ga.schließen b.10cm                                                                         m
+
+15.11 03B   Schlitze b.5cm Gi.Ga.schließen ü.10-20cm                                                                      m
+
+15.11 03C   Schlitze b.5cm Gi.Ga.schließen ü.20-30cm                                                                      m
+15.11 04    Schlitze, über 5 bis 10 cm tief, in verputzten Wänden aus Gipsdielen oder Gasbeton (Gi.Ga.) mit passendem
+            Mörtel, ohne Gewebeüberspannung, schließen. Im Positionsstichwort ist die Breite der Schlitze angegeben.
+
+15.11 04A   Schlitze ü.5-10cm Gi.Ga.schließen b.10cm                                                                      m
+
+15.11 04B   Schlitze ü.5-10cm Gi.Ga.schließen ü.10-20cm                                                                   m
+
+15.11 04C   Schlitze ü.5-10cm Gi.Ga.schließen ü.20-30cm                                                                   m
+15.11 11    Aufzahlung (Az) auf Schlitze, über 5 bis 10 cm tief, in verputzten Wänden schließen, für das hohlraumfreie
+            Ausfüllen wegen einer Gasleitung. Im Positionsstichwort ist die Breite der Schlitze angegeben.
+
+15.11 11A   Az Schlitze schließen f.Gasrohr b.10cm                                                                        m
+
+15.11 11B   Az Schlitze schließen f.Gasrohr ü.10-20cm                                                                     m
+
+15.11 11C   Az Schlitze schließen f.Gasrohr ü.20-30cm                                                                     m
+15.11 21    Überspannen der Schlitze mit jeweils 10 cm Übergriff, Überspannungsmaterial nach Wahl des Auftragnehmers.
+            Im Positionsstichwort ist die Breite der Schlitze angegeben.
+
+15.11 21A   Überspannen Schlitze b.10cm                                                                                   m
+
+15.11 21B   Überspannen Schlitze ü.10-20cm                                                                                m
+
+15.11 21C   Überspannen Schlitze ü.20-30cm                                                                                m
+15.11 22    Überspannen der Schlitze, Überspannungsmaterial nach Wahl des Auftragnehmers, einschließlich Traggerippe.
+            Abgerechnet wird die Schlitzbreite zusätzlich zweimal 10 cm Übergriff. Im Positionsstichwort ist die Breite der
+            Schlitze angegeben.
+
+15.11 22A   Überspannen Schlitze+Tragk.b.10cm                                                                             m
+
+15.11 22B   Überspannen Schlitze+Tragk.ü.10-20cm                                                                          m
+
+15.11 22C   Überspannen Schlitze+Tragk.ü.20-30cm                                                                          m
+15.13       Durchbrüche schließen
+
+
+            Im Folgenden ist das Schließen von Durchbrüchen, ohne Unterschied ob mit oder ohne Leitungen beschrieben.
+15.13 01    Durchbrüche und Öffnungen in Wänden (WD), bis 0,1 m2 groß, (ausgenommen wasserdichte Ausführung) mit
+            dem Bestand entsprechendem Material, schließen. Bei Außenbauteilen wird die Wärmedämmung des
+            Bestandes eingehalten, ohne Anschlussputz (Rohbau). Im Positionsstichwort ist die Dicke der Wand
+            angegeben.
+
+15.13 01A   WD b.0,1m2 schließen b.15cm                                                                                   Stk
+
+15.13 01B   WD b.0,1m2 schließen ü.15-30cm                                                                                Stk
+
+15.13 01C   WD b.0,1m2 schließen ü.30-40cm                                                                                Stk
+
+15.13 01D   WD b.0,1m2 schließen ü.40-50cm                                                                                Stk
+
+
+
+                                                                                                                      Seite 5 / 9
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+
+15.13 03    Durchbrüche und Öffnungen in Wänden (WD), bis 0,1 m2 groß, (ausgenommen wasserdichte Ausführung) mit
+            dem Bestand entsprechendem Material, schließen. Bei Außenbauteilen wird die Wärmedämmung des
+            Bestandes eingehalten, einschließlich Anschlussputz bis 0,25 m2 je Seite. Im Positionsstichwort ist die Dicke
+            der Wand angegeben.
+
+15.13 03A   WD b.0,1m2 schließen+Putz b.15cm                                                                                   Stk
+
+15.13 03B   WD b.0,1m2 schließen+Putz ü.15-30cm                                                                                Stk
+
+15.13 03C   WD b.0,1m2 schließen+Putz ü.30-40cm                                                                                Stk
+
+15.13 03D   WD b.0,1m2 schließen+Putz ü.40-50cm                                                                                Stk
+15.13 11    Durchbrüche und Öffnungen in Decken (DD), bis 0,1 m2 groß, mit dem Bestand entsprechendem Material,
+            schließen. Bei Außenbauteilen wird die Wärmedämmung des Bestandes eingehalten, ohne Anschlussputz
+            (Rohbau). Im Positionsstichwort ist die Dicke der Decke angegeben.
+
+15.13 11A   DD b.0,1m2 schließen b.15cm                                                                                        Stk
+
+15.13 11B   DD b.0,1m2 schließen ü.15-30cm                                                                                     Stk
+
+15.13 11C   DD b.0,1m2 schließen ü.30-40cm                                                                                     Stk
+
+15.13 11D   DD b.0,1m2 schließen ü.40-50cm                                                                                     Stk
+15.13 13    Durchbrüche und Öffnungen in Decken (DD), bis 0,1 m2 groß, mit dem Bestand entsprechendem Material,
+            schließen. Bei Außenbauteilen wird die Wärmedämmung des Bestandes eingehalten, einschließlich
+            Anschlussputz bis 0,25 m2 auf der Unterseite, einschließlich eines etwaigen Putzträgers. Im Positionsstichwort
+            ist die Dicke der Decke angegeben.
+
+15.13 13A   DD b.0,1m2 schließen+Putz b.15cm                                                                                   Stk
+
+15.13 13B   DD b.0,1m2 schließen+Putz ü.15-30cm                                                                                Stk
+
+15.13 13C   DD b.0,1m2 schließen+Putz ü.30-40cm                                                                                Stk
+
+15.13 13D   DD b.0,1m2 schließen+Putz ü.40-50cm                                                                                Stk
+15.21       Sägen (Schneiden)
+
+
+            1. Auslösen Bauteile:
+            Das Auslösen der ausgeschnittenen Bauteile einschließlich der etwa notwendigen Zerkleinerung in
+            abtransportierbare Stücke gelten als Abbrucharbeiten.
+            Schäden, die durch nicht absaugbare Kühlwassermengen entstehen können (z.B. bei Deckenschnitten, bei
+            Schnitten in Mantelbetonwänden und Verputzdurchnässung) werden dem Auftraggeber vor Beginn der Arbeiten
+            bekannt gegeben und gehen dann nicht zu Lasten des Auftragnehmers.
+
+            2. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Sichern und Abstützen gegen Umkippen oder Herunterfallen von ausgeschnittenen Wand- oder
+                  Deckenteilen
+                • Arbeiten an schrägen Bauteilen mit einer Neigung bis 3 Prozent zur Lot- oder Waagrechten
+                • schräges Schneiden bis 5 Grad zur Lot- oder Waagrechten
+                • Abschranken der Öffnung während der Leistungsfrist (nicht aber das Erstellen notwendiger Pölzungen
+                  und Absicherungen)
+            3. Ausmaß- und Abrechnungsregeln:
+            Das Umstellen der Schneideeinrichtung wird, unabhängig wie oft die Schneideeinrichtung umgestellt wird,
+            einmal Pauschal vergütet.
+             Kommentar:
+             Baustelleneinrichtungen:
+             Die vorliegenden, standardisierten Texte für Sägen und Bohren sind unter der Voraussetzung erstellt, dass die
+             Ausschreibung gemeinsam mit anderen Baumeisterarbeiten erfolgt. Bei beabsichtigter, gesonderter Ausschreibung der
+             Leistungen sind entsprechende Bestimmungen aus der LG 00 und Positionen der LG 01 auszuschreiben.
+             Abbrucharbeiten sind in der LG 02 beschrieben.
+
+                                                                                                                           Seite 6 / 9
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+
+             Frei zu formulieren (z.B.):
+                 • Sägen an schrägen Bauteilen mit einer Neigung über 3 Prozent zur Lot- oder Waagrechten (z.B. Sargdeckel)
+                 • Arbeiten auf Dächern
+                 • Trockenschnitte
+15.21 01    Umstellen.
+
+15.21 01A   Umstellen Schneideeinrichtungen                                                                                     PA
+            Aller erforderlichen Schneideeinrichtungen.
+            Betrifft Position(en):____________
+            Anzahl der Gebäude: ____________
+            Anzahl der Stockwerke: ____________
+            Größte Entfernung im gleichen Stockwerk: ____________
+
+15.21 11    Sägen von Wänden, ohne Unterschied der Dicke der Wand. Abgerechnet wird das Flächenmaß (Schnittlänge x
+            Tiefe).
+
+15.21 11A   Sägen Wand-Mwk./Beton/Mantelbeton                                                                                   m²
+            Aus Mauerwerk (Mwk.), unbewehrtem Beton (Beton) und Mantelbeton.
+
+15.21 11B   Sägen Wand-Stahlbeton                                                                                               m²
+            Aus Stahlbeton, ohne Unterschied der Betongüte.
+
+15.21 12    Sägen von Stahlbeton-Decken, ohne Unterschied der Dicke der Decke. Abgerechnet wird das Flächenmaß
+            (Schnittlänge x Tiefe).
+
+15.21 12A   Sägen Decke-Stahlbeton nach unten                                                                                   m²
+            Aus Stahlbeton, ohne Unterschied der Betongüte, lotrecht nach unten.
+
+15.21 12B   Sägen Decke-Stahlbeton nach oben                                                                                    m²
+            Aus Stahlbeton, ohne Unterschied der Betongüte, lotrecht nach oben.
+
+15.21 21    Aufzahlung (Az) auf Sägen von Wänden und Decken.
+
+15.21 21A   Az Sägen f.Stahleinlagen ü.2,01cm2                                                                                  VE
+            Für das Durchtrennen von Stahleinlagen mit einem Durchmesser über 2,01 cm2. Abgerechnet die Summe der
+            Schnittflächen durch die Stahleinlagen in cm2 (= VE).
+
+15.21 21C   Az Sägen Wand f.1f-Schnitt ü.5-45Grad                                                                               m²
+            Für einfach geneigte Schnitte (1f.) über 5 bis 45 Grad in Wänden.
+
+15.21 22    Aufzahlung (Az) beim Sägen.
+
+15.21 22A   Az Sägen f.Absaugen                                                                                                 m²
+            Für das Absaugen des Schneidwassers mit gesondertem Gerät.
+
+15.23       Bohren
+
+
+            1. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Arbeiten an schrägen Bauteilen mit einer Neigung bis 3 Prozent zur Lot- oder Waagrechten
+                • schräges Bohren bis 5 Grad zur Lot- oder Waagrechten
+                • Abschranken der Öffnung während der Leistungsfrist (nicht aber das Erstellen notwendiger Pölzungen
+                  und Absicherungen)
+                • Zerkleinern der Bohrkerne bei Kernbohrungen in transportierbare Stücke
+            2. Eckbohrungen:
+            Vom Auftraggeber angeordnete Eckbohrungen beim Ausschneiden von Bauteilen (wenn nicht überschnitten
+            werden darf) werden wie Bohrungen verrechnet.
+            3. Ausmaß- und Abrechnungsregeln:
+            Das Umstellen der Bohreinrichtung wird, unabhängig wie oft die Bohreinrichtung umgestellt wird, einmal
+            Pauschal vergütet.
+
+
+                                                                                                                            Seite 7 / 9
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+             Kommentar:
+             Baustelleneinrichtungen:
+             Die vorliegenden, standardisierten Texte für Sägen und Bohren sind unter der Voraussetzung erstellt, dass die
+             Ausschreibung gemeinsam mit anderen Baumeisterarbeiten erfolgt. Bei beabsichtigter, gesonderter Ausschreibung der
+             Leistungen sind entsprechende Bestimmungen aus der LG 00 und Positionen der LG 01 auszuschreiben.
+
+
+             Frei zu formulieren (z.B.):
+                 • Bohren an schrägen Bauteilen mit einer Neigung über 3 Prozent zur Lot- oder Waagrechten (z.B. Sargdeckel)
+                 • Bohrungen über Kopf
+                 • Arbeiten auf Dächern
+
+15.23 01    Umstellen.
+
+15.23 01A   Umstellen Bohreinrichtungen                                                                                         PA
+            Aller erforderlichen Bohreinrichtungen.
+            Betrifft Position(en):____________
+            Anzahl der Gebäude: ____________
+            Anzahl der Stockwerke: ____________
+            Größte Entfernung im gleichen Stockwerk: ____________
+
+15.23 11    Bohren durch Wände und Decken (von oben) aus Mauerwerk (Mwk.), unbewehrtem Beton (Beton) oder
+            Mantelbeton (Mantelb.), trocken oder nass, nach Wahl des Auftragnehmers, ohne Unterschied der Dicke der
+            Wand, einschließlich etwaiger Wasserabsaugung am Bohrloch. Abgerechnet wird die Summe der Bohrlängen.
+            Im Positionsstichwort ist der Bohrdurchmesser angegeben.
+
+15.23 11A   Bohren Mwk./Beton/Mantelbet.10-24mm                                                                                 m
+
+15.23 11B   Bohren Mwk./Beton/Mantelbet.ü.24-52mm                                                                               m
+15.23 12    Bohren durch Wände und Decken (von oben) aus Stahlbeton, ohne Unterschied der Betongüte, trocken oder
+            nass, nach Wahl des Auftragnehmers, ohne Unterschied der Dicke der Wand, einschließlich etwaiger
+            Wasserabsaugung am Bohrloch. Abgerechnet wird die Summe der Bohrlängen. Im Positionsstichwort ist der
+            Bohrdurchmesser angegeben.
+
+15.23 12A   Bohren Stahlbeton 10-24mm                                                                                           m
+
+15.23 12B   Bohren Stahlbeton ü.24-52mm                                                                                         m
+15.23 21    Kernbohrung (nass) durch Wände und Decken (von oben) aus Mauerwerk (Mwk.), unbewehrtem Beton (Beton)
+            oder Mantelbeton (Mantelb.), ohne Unterschied der Dicke der Wand. Abgerechnet wird die Summe der
+            Bohrlängen (Absaugung in eigener Position). Im Positionsstichwort ist der Bohrdurchmesser angegeben.
+
+15.23 21C   Kernbohrung Mwk./Beton/Mantelb.ü.52-102mm                                                                           m
+
+15.23 21D   Kernbohrung Mwk./Beton/Mantelb.ü.102-152mm                                                                          m
+
+15.23 21E   Kernbohrung Mwk./Beton/Mantelb.ü.152-202mm                                                                          m
+
+15.23 21F   Kernbohrung Mwk./Beton/Mantelb.ü.202-302mm                                                                          m
+
+15.23 21G   Kernbohrung Mwk./Beton/Mantelb.ü.302-402mm                                                                          m
+
+15.23 21H   Kernbohrung Mwk./Beton/Mantelb.ü.402-502mm                                                                          m
+15.23 22    Kernbohrung (nass) durch Wände und Decken (von oben) aus Stahlbeton, ohne Unterschied der Betongüte und
+            der Dicke der Wand. Abgerechnet wird die Summe der Bohrlängen (Absaugung in eigener Position). Im
+            Positionsstichwort ist der Bohrdurchmesser angegeben.
+
+15.23 22C   Kernbohrung Stahlbeton ü.52-102mm                                                                                   m
+
+15.23 22D   Kernbohrung Stahlbeton ü.102-152mm                                                                                  m
+
+15.23 22E   Kernbohrung Stahlbeton ü.152-202mm                                                                                  m
+
+15.23 22F   Kernbohrung Stahlbeton ü.202-302mm                                                                                  m
+
+15.23 22G   Kernbohrung Stahlbeton ü.302-402mm                                                                                  m
+
+15.23 22H   Kernbohrung Stahlbeton ü.402-502mm                                                                                  m
+
+                                                                                                                            Seite 8 / 9
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                             EH
+
+15.23 31    Aufzahlung (Az) auf Bohrungen in Wänden und Decken aus Mauerwerk, unbewehrtem Beton, Stahlbeton oder
+            Mantelbeton.
+
+15.23 31A   Az Bohrung f.Stahleinlagen ü.2,01cm2                                                                   VE
+            Für das Durchbohren von Stahleinlagen mit einem Durchmesser über 2,01 cm2. Abgerechnet die Summe der
+            durchtrennten Flächen der Stahleinlagen in cm2 (= VE).
+
+15.23 31C   Az Bohrung 1f-Schnitt ü.5-45Grad                                                                       Stk
+            Für einfach (1f.) geneigte Bohrungen über 5 bis 45 Grad.
+
+15.23 31G   Az Bohrung 2f-Schnitt ü.5-45Grad                                                                       Stk
+            Für zweifach (2f.) geneigte Bohrungen über 5 bis 45 Grad.
+
+15.23 31I   Az Bohren Mwk./Beton/StB/Mantelb f.Absaugen                                                            Stk
+            Für das Absaugen des Schneidwassers mit gesondertem Gerät.
+
+
+
+
+                                                                                                               Seite 9 / 9
+                                                                                        ib-data GmbH, Softwareentwicklung
+

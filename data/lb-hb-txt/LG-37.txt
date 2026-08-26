@@ -1,0 +1,923 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                       Leistungsgruppe (LG) 37 - Tischlerarbeiten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 3711    Allgemeine Tischlerarbeiten gem.Werkplan
+                     ULG 3713    Fenster- oder Türladen
+                     ULG 3714    Pfostenstöcke, Blindstöcke mit Futter
+                     ULG 3715    Holztüren, Zargen, Zubehör (konstruktiv)
+                     ULG 3718    Geländer, Handläufe
+                     ULG 3719    Innenwand- und Deckenverkleidungen
+                     ULG 3725    Montagearbeiten
+                     ULG 3780    Instandsetzungsarbeiten
+                     ULG 3790    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 14
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+37          Tischlerarbeiten
+            Version 023 (2025-12)
+             Kommentar:
+             Die ehemalige LG 37 wurde auf Grund neuer Anforderungen und geänderter Normen nach unterschiedlichen Bauteilen
+             (Elementen) in mehrere Leistungsgruppen aufgelöst:
+             - Holzfußböden sind in der LG 38 zu finden.
+             - Türsysteme (Elemente) für verschiedene Beanspruchungsklassen einschließlich Zargen, Baubeschläge und Zubehör sind
+             in der LG 43 zu finden.
+             - Paneelwände aus Holzwerkstoffen (z.B. Nassraumtrennwände) sind in der LG 39 zu finden.
+             - Tischlerarbeiten im Zusammenhang mit dem Sporthallenausbau sind in der LG 61 beschrieben.
+             - Holzfenster siehe LG 71.
+             - Holz-Alu-Fenster siehe LG 74.
+             - Blindstöcke sind in den LGs für Fenster und Fenstertüren beschrieben.
+             - Für Leistungen zur Sanierung von Fenstern und Türen aus Holz kann die LG 55 verwendet werden.
+             - Dachflächenfenster aus Holz sind in der LG 56 beschrieben.
+             - Rollladen aus Holz sind in der LG 57 zu finden.
+             - Holztreppen sind frei zu formulieren
+             Die in der LG 37 festgelegte ULG-Gliederung und die jeweiligen Kommentare dazu sind als Hilfe für den Ausschreiber
+             gedacht, wenn sonstige Tischlerarbeiten als projektspezifische handwerkliche Einzelanfertigungen erforderlich sind.
+
+            LB-Version: 23                 Geändert
+Änderung:   Geändert:
+            ULG 37.19 Innenwand- und Deckenverkleidungen - Entfall der Höhenregel/Gerüste
+
+37.11       Allgemeine Tischlerarbeiten gem.Werkplan
+             Kommentar:
+             Soweit Tischlerarbeiten nicht als standardisierte Bauelemente in anderen Leistungsgruppen oder Unterleistungsgruppen
+             beschrieben sind, sind Tischlerarbeiten frei zu formulieren.
+             In dieser Unterleistungsgruppe sind Leistungen unter Bezugnahme auf einen Ausführungsplan (Werkplan) des Auftraggebers
+             geregelt.
+             Soweit das nicht aus den Planunterlagen ersichtlich ist, sind im Allgemeinem folgende Angaben erforderlich:
+             - Werkstoff (Holzart)
+             - Oberflächenbehandlung
+             - Verbindungstechnik (z.B. geleimt, sichtbar geschraubt, gedübelt)
+             - Materialdicken und Mindestabmessungen
+             - Dekor, Design, Gestaltung
+             - Ausführung etwaiger Kanten und sichtbar bleibender Schmalseiten
+             - Beschlagsteile, Material, Design, Qualität
+             Nachweise über das Erreichen bestimmter Messwerte oder einer Klassifizierung von Eigenschaften gemäß ÖNORM werden
+             vom Auftragnehmer nicht erbracht.
+
+            LB-Version: 23                 Geringfügig Geändert
+37.11 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+37.11 00A   Verfügbarkeit von Beilagen (zu 37.11)
+            Betrifft Position(en): ____________
+            Folgende Beilagen sind zu beachten: ____________
+
+37.13       Fenster- oder Türladen
+             Kommentar:
+             Soweit nicht standardisierte Elemente für bewegliche Fensterabschlüsse in der LG 57 zutreffen, sind Fenster- und Türladen
+             unter Angabe der Einzelgröße nach Stück auszuschreiben.
+             Anzugeben ist
+             - die Ausführungsart (z.B. mit feststehenden Lamellen, beweglichen Lamellen oder als geschlossene flächige Abschlüsse)
+             - die Holzart und Oberflächenbehandlung
+             - die Art der Befestigung (Montage) durch Angabe der Leibungstiefe und der Untergrundmaterialien (z.B. Mauerwerk
+             verputzt, Beton, Holz)
+             - die Art und Anzahl der Beschläge (z.B. Ladenbänder aus nicht rostendem Material seitlich regulierbar, mit verstellbaren
+             Kloben aus Stahl, Haltekonsolen, Feststeller, Ladenverschluss mit Gestänge und Klauen, bei Faltladen zusätzliche
+             Verschlusseinrichtungen, bei beweglichen Jalousien Verstellbeschläge, etwaige Ladeninnenöffner).
+             Es wird empfohlen im Leistungsverzeichnis neben der Beschreibung auf eine Skizze (Plandarstellung) zu verweisen. Dies ist
+             erforderlich, wenn eine besondere Gestaltungsabsicht des Auftraggebers erfüllt werden soll.
+
+37.13 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+                                                                                                                              Seite 2 / 14
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+
+37.13 00A   Verfügbarkeit von Beilagen (zu 37.13)
+            Betrifft Position(en): ____________
+            Folgende Beilagen sind zu beachten: ____________
+
+37.14       Pfostenstöcke, Blindstöcke mit Futter
+            Pfostenstöcke:
+            Im Einheitspreis der Pfostenstöcke und Blindstöcke mit Futter ist einkalkuliert: das Liefern des Stockes ohne
+            Versetzen, Vorköpfe oder Pratzen nach Wahl des Auftraggebers, drei Stück je Seite, das zeitlich spätere Liefern
+            und Montieren der Verkleidungen oder des Futters, des Schließbleches, der Bänder und der
+            Anschlagdichtungen, auf die bereits vom Auftraggeber oder nach gesonderter Position versetzten oder
+            montierten Türstöcke. Die Einheitspreise gelten ohne Unterschied für stumpfe (ungefälzte) oder gefälzte
+            Türblätter.
+            Pfostenstöcke, nicht deckend beschichtet:
+            Pfostenstöcke mit nicht deckender Beschichtung können nach Wahl des Auftragnehmers entweder lamelliert
+            (Sichtfläche in ausgeschriebener Holzart) oder in Vollholz ausgeführt werden.
+             Kommentar:
+             Futterstöcke, Rundbögen und segmentförmige Bögen sind frei zu formulieren.
+
+37.14 01    Pfostenstock für einflügelige Türen, einschließlich Zier- und Falzverkleidungen, ohne Unterschied der
+            Stocklichte bis 900 x 2000 mm.
+
+37.14 01A   Pfostenstock b.900 grundb.b.80                                                                                      Stk
+            Grundbeschichtet für eine Deckbeschichtung. Stocktiefe bis 80 mm.
+
+37.14 01B   Pfostenstock b.900 grundb.ü.80-100                                                                                  Stk
+            Grundbeschichtet für eine Deckbeschichtung. Stocktiefe über 80 bis 100 mm.
+
+37.14 01C   Pfostenstock b.900 grundb.ü.100-130                                                                                 Stk
+            Grundbeschichtet für eine Deckbeschichtung. Stocktiefe über 100 bis 130 mm.
+
+37.14 01D   Pfostenstock b.900 grundb.ü.130-150                                                                                 Stk
+            Grundbeschichtet für eine Deckbeschichtung. Stocktiefe über 130 bis 150 mm.
+
+37.14 03    Pfostenstock für zweiflügelige Türen, einschließlich Zier- und Falzverkleidungen, ohne Unterschied der
+            Stocklichte über 1200 bis 1600 x 2000 mm.
+
+37.14 03A   Pfostenst.2Fl Tür grundb.b.80                                                                                       Stk
+            Grundbeschichtet für eine Deckbeschichtung. Stocktiefe bis 80 mm.
+
+37.14 03B   Pfostenst.2Fl Tür grundb.ü.80-100                                                                                   Stk
+            Grundbeschichtet für eine Deckbeschichtung. Stocktiefe über 80 bis 100 mm.
+
+37.14 03C   Pfostenst.2Fl Tür grundb.ü.100-130                                                                                  Stk
+            Grundbeschichtet für eine Deckbeschichtung. Stocktiefe über 100 bis 130 mm.
+
+37.14 03D   Pfostenst.2Fl Tür grundb.ü.130-150                                                                                  Stk
+            Grundbeschichtet für eine Deckbeschichtung. Stocktiefe über 130 bis 150 mm.
+
+37.15       Holztüren, Zargen, Zubehör (konstruktiv)
+            Ein Nachweis der Eignung in Bezug auf Klassifizierungen gemäß ÖNORM oder der Einhaltung
+            bauphysikalischer Werte für Leistungen in der ULG 37.15 ist nicht vorgesehen.
+             Kommentar:
+             Türen, Zargen, Baubeschläge und Zubehör sind in der LG 43 als Systeme (Elemente) standardisiert.
+             Eine von der in der LG 43 beschriebenen Beanspruchungsklasse gemäß ÖNORM abweichende Kombination von
+             normgemäßen Klassifizierungen von Eigenschaften in Bezug auf allgemeine Anforderungen (z.B. Maßtoleranzen, Ebenheit,
+             Festigkeit, Bedienkräfte, mechanische Beanspruchung, Klimabelastung) oder die Angabe von Grenzwerten hinsichtlich
+             Wärmeschutz und Schallschutz sowie die Angabe von Klassifizierungen hinsichtlich Feuerschutz, Einbruchhemmung,
+             Beschusshemmung, Explosionshemmung und dergleichen kann in der LG 43 unter Bezugnahme auf geltende Normen frei
+             formuliert werden (funktional).
+
+
+
+
+                                                                                                                           Seite 3 / 14
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+             Es wird empfohlen, in dieser Unterleistungsgruppe nur individuell gestaltete Türen, Zargen, Beschläge und Zubehör nach
+             genauer Angabe oder Skizze des Auftraggebers hinsichtlich Material, Oberfläche, Design, Beschläge und dergleichen
+             (konstruktiv) frei zu formulieren.
+            LB-Version: 23                Geringfügig Geändert
+37.15 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+37.15 00A   Verfügbarkeit von Beilagen (zu 37.15)
+            Betrifft Position(en): ____________
+            Folgende Beilagen sind zu beachten: ____________
+
+37.18       Geländer, Handläufe
+             Kommentar:
+             Geländer aus Holz, Geländerfüllungen für Tragkonstruktionen aus Metall oder Handläufe aus Holz einschließlich der
+             Tragkonstruktion können mit Angabe der genauen Abmessungen, Holzart, Oberflächenbehandlung, Holzdicken,
+             Verbindungsmittel, Art der Montage und dergleichen frei formuliert werden.
+             Die Bezugnahme auf eine Plandarstellung (Skizze) wird empfohlen.
+
+            LB-Version: 23                Geringfügig Geändert
+37.18 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+37.18 00A   Verfügbarkeit von Beilagen (zu 37.18)
+            Betrifft Position(en): ____________
+            Folgende Beilagen sind zu beachten: ____________
+
+37.19       Innenwand- und Deckenverkleidungen
+            Begriffsbestimmung:
+            Wand- oder Deckenverkleidungen bestehen aus der Unterkonstruktion und der Decklage.
+            Ausmaß:
+            Abgerechnet wird die abgewickelte Oberfläche der Verkleidung im Deckmaß (nicht Federmaß).
+            Sortierung:
+            Alle Verkleidungen werden mit Profilholz der Sortierung ausgeführt.
+            Abrechnung Deckenverkleidungen:
+            Deckenverkleidungen werden ohne Unterschied, ob sie waagrecht, lotrecht (Schürzen, Stufen) oder in Neigung
+            verlegt sind, abgerechnet.
+            Befestigungsgrund:
+            Die Befestigung ist ohne Unterschied des Untergrundes im Einheitspreis einkalkuliert. Bei Wänden oder Decken
+            mit einer Dämmung aus Holzwolleleichtbauplatten oder Ähnlichem mit einer Dicke über 25 mm werden die
+            Erschwernisse mit einer Aufzahlung abgegolten.
+            Unterkonstruktionen:
+            Für die Unterkonstruktion werden Latten aus Fichte, Tanne oder Kiefer verwendet, die lufttrocken und sägerau
+            sind. Im Einheitspreis ist die fluchtgerechte Montage waagrecht, lotrecht oder in Neigung, einschließlich
+            etwaiger Unterfütterungen, einkalkuliert. Die Montage erfolgt mit Dübeln und passivierten (verzinkten)
+            Schrauben. Abgerechnet wird die Fläche der Verkleidung.
+            Befestigung der Decklagen:
+            Die Befestigung der Decklagen wird nicht sichtbar mit rostgeschütztem Befestigungsmaterial ausgeführt.
+            Waagrechte Profilholz-Decklagen:
+            Stöße bei waagrecht verlegten Decklagen an Wänden werden versetzt hergestellt. Stoßverbindungen mit
+            Profilleisten (z.B. mit Doppelnut) werden mit Aufzahlungspositionen geregelt.
+            Senkrechte Profilholz-Decklagen:
+            Bei senkrecht verlegten Decklagen an Wänden werden bis zu einer Höhe von 3 m keine Stöße hergestellt.
+            Oberflächenbearbeitung:
+            Alle Profile sind dreiseitig gehobelt, die Rückseite nur vom Hobelmesser gestreift. Andere
+            Oberflächenbearbeitungen, wie z.B. geschliffen, sandgestrahlt, gebürstet, geschroppt, geflämmt oder gehackt,
+            werden mit Aufzahlungspositionen verrechnet.
+            Beschichtungen (Oberflächenbehandlung):
+
+
+                                                                                                                             Seite 4 / 14
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            Die allseitige Imprägnierung der Verkleidung, mit oder ohne Farbzusatz, oder eine Grundbeschichtung der
+            Verkleidung wird vor der Verlegung durchgeführt und ist im Einheitspreis einkalkuliert. Eine etwaige
+            Imprägnierung der Unterkonstruktion wird gesondert verrechnet.
+            LB-Version: 23               Geändert
+Änderung:   Entfall Höhenregel/Gerüste
+
+37.19 01    Unterkonstruktion aus einfacher Lattung.
+
+37.19 01A   Einfache Lattung f.Wand                                                                                      m²
+            Auf Wänden, Profil mindestens 22 x 45 mm.
+
+37.19 01B   Einfache Lattung f.Decken                                                                                    m²
+            Auf Deckenuntersichten, Profil mindestens 22 x 45 mm.
+
+37.19 02    Unterkonstruktion bestehend aus Lattung und Konterlattung (Doppellattung).
+
+37.19 02A   Doppellatt.Wand 15x45+22x45                                                                                  m²
+            An Wänden, Grundlattung mindestens 15 x 45 mm, Konterlattung mindestens 22 x 45 mm.
+
+37.19 02B   Doppellatt.Decke 15x45+22x45                                                                                 m²
+            An Decken, Grundlattung mindestens 15 x 45 mm, Konterlattung mindestens 22 x 45 mm.
+
+37.19 02C   Doppellatt.Wand 15x45+30x50                                                                                  m²
+            An Wänden, Grundlattung mindestens 15 x 45 mm, Konterlattung mindestens 30 x 50 mm.
+
+37.19 02D   Doppellatt.Decke 15x45+30x50                                                                                 m²
+            An Decken, Grundlattung mindestens 15 x 45 mm, Konterlattung mindestens 30 x 50 mm.
+
+37.19 02E   Doppellatt.Wand 30x50+30x50                                                                                  m²
+            An Wänden, Grund- und Konterlattung 30 x 50 mm.
+
+37.19 02F   Doppellatt.Decke 30x50+30x50                                                                                 m²
+            An Decke, Grund- und Konterlattung 30 x 50 mm.
+
+37.19 03    Aufzahlung (Az) auf die Positionen Unterkonstruktionen, für eine gehobelte Lattung, ohne Unterschied, ob auf
+            Wänden oder Deckenuntersichten.
+
+37.19 03A   Az einfache Lattung gehobelt                                                                                 m²
+
+37.19 03B   Az Lattung15x45+22x45 gehobelt                                                                               m²
+
+37.19 03C   Az Lattung15x45+30x50 gehobelt                                                                               m²
+
+37.19 03D   Az Lattung 30x50+30x50 gehobelt                                                                              m²
+37.19 04    Aufzahlung (Az) auf die Positionen Unterkonstruktionen für eine abgehängte Ausführung. Der Abhängeabstand
+            wird gemessen von der Unterkante der Tragkonstruktion bis Oberkante Unterkonstruktion.
+
+37.19 04A   Az Unterkonstr.abgehängt b.25                                                                                m²
+            Abhängeabstand bis 25 cm.
+
+37.19 04B   Az Unterkonstr.abgehängt ü.25-40                                                                             m²
+            Abhängeabstand über 25 bis 40 cm.
+
+37.19 05    Aufzahlung (Az) auf die Positionen Unterkonstruktionen auf Wänden oder Decken, für die Befestigung an einem
+            Untergrund mit einer Dämmung aus Holzwolleleichtbauplatten oder anderem nicht tragenden Dämmmaterial
+            über 25 mm dick.
+
+37.19 05A   Az Unterk.f.Befestig.ü.25-mm                                                                                 m²
+37.19 06    Aufzahlung (Az) auf die Positionen Unterkonstruktion aus Latten, ohne Unterschied der Art.
+
+37.19 06A   Az Einf.Lattung imprägniert                                                                                  m²
+            Einfache Lattung, für eine Imprägnierung. ____________
+
+
+                                                                                                                    Seite 5 / 14
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+37.19 06B   Az Doppellatt.imprägniert                                                                                    m²
+            Lattung und Konterlattung (Doppellattung), für eine Imprägnierung. ____________
+
+37.19 10    Decklage von Wandverkleidungen, waagrecht oder lotrecht, aus Vollholzprofilbrettern, auf vorhandene
+            Unterkonstruktion aus Holz. Im Positionsstichwort angegeben ist die Holzart, die Profilbezeichnung gemäß
+            ÖNORM und die Dicke/Gesamtbreite in mm.
+
+37.19 10A   Decklage Wand Fichte C 12/96                                                                                 m²
+            Profil C, 12/96 mm, Fasebretter aus Fichte oder Tanne.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 10B   Decklage Wand Fichte C 15/114                                                                                m²
+            Profil C, 15/114 mm, Fasebretter aus Fichte oder Tanne.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 10C   Decklage Wand Profil C                                                                                       m²
+            Profil C, Fasebretter.
+            Holzart: ____________
+            Dicke/Gesamtbreite: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 10D   Decklage Wand Fichte E 12/96                                                                                 m²
+            Profil E, 12/96 mm, Softlineprofil aus Fichte oder Tanne.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 10E   Decklage Wand Fichte E 15/114                                                                                m²
+            Profil E, 15/114 mm, Softlineprofil aus Fichte oder Tanne.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 10F   Decklage Wand Profil E                                                                                       m²
+            Softlineprofil.
+            Holzart: ____________
+            Dicke/Gesamtbreite: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 10G   Decklage Wand Fi.F od.G 12/96                                                                                m²
+            Profil F oder G Schattennutbretter, 12/96 mm, mit trapezförmiger oder rechteckiger Schattennut, nach Wahl des
+            Auftraggebers.
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 10H   Decklage Wand Fi.F od.G 15/119                                                                               m²
+            Profil F oder G Schattennutbretter, 15/119 mm, mit trapezförmiger oder rechteckiger Schattennut, nach Wahl
+            des Auftraggebers.
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 10I   Decklage Wand Profil F od.G                                                                                  m²
+            Schattennutbretter.
+            Holzart: ____________
+            Profil/Dicke/Gesamtbreite: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 10J   Decklage Wand Fi.H12/71/o.Fed.                                                                               m²
+            Profil H, 12/71 mm, Doppelnutbretter aus Fichte oder Tanne (Fi.), Brettabstand bis 10 mm, ohne Feder.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 10K   Decklage Wand Fi.H15/119/o.Fed                                                                               m²
+            Profil H, 15/119 mm, Doppelnutbretter aus Fichte oder Tanne (Fi.), Brettabstand bis 10 mm, ohne Feder.
+
+            LB-Version: 23               Geringfügig Geändert
+
+                                                                                                                    Seite 6 / 14
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+37.19 10L   Decklage Wand Profil H/o.Feder                                                                                 m²
+            Profil H (Doppelnutbretter), Brettabstand bis 10 mm, ohne Feder.
+            Dicke/Gesamtbreite: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 10M   Decklage Wand Fichte K 15/114                                                                                  m²
+            Profil K, 15/114 mm, Stülpschalungsbretter, aus Fichte oder Tanne.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 10N   Decklage Wand Fichte K 15/126                                                                                  m²
+            Profil K, 15/126 mm, Stülpschalungsbretter, aus Fichte oder Tanne.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 10O   Decklage Wand Profil K                                                                                         m²
+            Profil K, Stülpschalungsbretter,
+            Holzart: ____________
+            Dicke/Gesamtbreite: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 10P   Decklage Wand Fichte L 15/133                                                                                  m²
+            Profil L, 15/133 mm, Landhausprofil, aus Fichte oder Tanne.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 10Q   Decklage Wand Profil L                                                                                         m²
+            Landhausprofil.
+            Holzart: ____________
+            Dicke/Gesamtbreite: ____________
+            LB-Version: 23               Geringfügig Geändert
+37.19 11    Aufzahlung (Az) auf die Positionen Decklagen von Wandverkleidungen aus Vollholzprofilen H, ohne Unterschied
+            der Dicke, Breite und Holzart.
+
+37.19 11A   Az Deckl.Wand H Feder Hartf.                                                                                   m²
+            Für das Einlegen von fremden Federn aus Hartfaserplatten.
+
+37.19 11B   Az Deckl.Wand H Feder farbig                                                                                   m²
+            Für das Einlegen von fremden Federn aus Hartfaserplatten mit eingefärbter Oberfläche.
+            Farbe: ____________
+
+37.19 11C   Az Deckl.Wand H Fed.m.Stab                                                                                     m²
+            Für das Einlegen von fremden Federn mit Stab, Federbreite 30 mm, Stabbreite 6 mm.
+
+37.19 11D   Az Deckl.Wand H Feder Filz                                                                                     m²
+            Für das Einlegen von dunklen Filzstreifen in die Nuten der bereits montierten Profile.
+
+37.19 12    Decklage von Deckenverkleidungen aus Vollholzprofilbrettern auf vorhandene Unterkonstruktion aus Holz. Im
+            Positionsstichwort angegeben ist die Holzart, die Profilbezeichnung gemäß ÖNORM und die
+            Dicke/Gesamtbreite in mm.
+
+37.19 12A   Decklage Decke Fichte C 12/96                                                                                  m²
+            Fasebretter aus Fichte oder Tanne, Profil C, 12/96 mm.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 12B   Decklage Decke Fichte C 15/114                                                                                 m²
+            Fasebretter aus Fichte oder Tanne, Profil C, 15/114 mm.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 12C   Decklage Decke Profil C                                                                                        m²
+
+
+                                                                                                                      Seite 7 / 14
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Fasebretter, Profil C.
+            Holzart: ____________
+            Dicke/Gesamtbreite: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 12D   Decklage Decke Fichte E 12/96                                                                                 m²
+            Softlineprofil aus Fichte oder Tanne, Profil E, 12/96 mm.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 12E   Decklage Decke Fichte E 15/114                                                                                m²
+            Softlineprofil aus Fichte oder Tanne, Profil E, 15/114 mm.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 12F   Decklage Decke Profil E                                                                                       m²
+            Softlineprofil.
+            Holzart: ____________
+            Dicke/Gesamtbreite: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 12G   Decklage Decke Fi.F od.G 12/96                                                                                m²
+            Schattennutbretter aus Fichte oder Tanne (Fi.), Profil F oder G, 12/96 mm, mit trapezförmiger oder rechteckiger
+            Schattennut, nach Wahl des Auftraggebers.
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 12H   Decklage Decke Fi.F od.G15/119                                                                                m²
+            Schattennutbretter aus Fichte oder Tanne (Fi.), Profil F oder G, 15/119 mm, mit trapezförmiger oder
+            rechteckiger Schattennut, nach Wahl des Auftraggebers.
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 12I   Decklage Decke Profil F od.G                                                                                  m²
+            Schattennutbretter.
+            Holzart: ____________
+            Profil/Dicke/Gesamtbreite: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 12J   Deckl.Decke Fi.H 12/71/o.Feder                                                                                m²
+            Doppelnutbretter aus Fichte oder Tanne (Fi.), Profil H, 12/71 mm, Brettabstand bis 10 mm, ohne Feder.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 12K   Deckl.Decke Fi.15/119/o.Feder                                                                                 m²
+            Doppelnutbretter aus Fichte oder Tanne (Fi.), Profil H, 15/119 mm, Brettabstand bis 10 mm, ohne Feder.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 12L   Deckl.Decke Profil H/o.Feder                                                                                  m²
+            Doppelnutbretter, Profil H, Brettabstand bis 10 mm, ohne Feder.
+            Dicke/Gesamtbreite: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 12M   Decklage Decke Fi.K 15/114                                                                                    m²
+            Stülpschalungsbretter aus Fichte oder Tanne (Fi.), Profil K, 15/114 mm.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 12N   Decklage Decke Fi.K 15/126                                                                                    m²
+            Stülpschalungsbretter aus Fichte oder Tanne (Fi.), Profil K, 15/126 mm.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 12O   Decklage Decke Profil K                                                                                       m²
+
+
+                                                                                                                     Seite 8 / 14
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+            Stülpschalungsbretter, Profil K.
+            Holzart: ____________
+            Dicke/Gesamtbreite: ____________
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 12P   Decklage Decke Fichte L 15/133                                                                                 m²
+            Landhausprofil aus Fichte oder Tanne, Profil L, 15/133 mm.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 12Q   Decklage Decke Profil L                                                                                        m²
+            Landhausprofil.
+            Holzart: ____________
+            Dicke/Gesamtbreite: ____________
+            LB-Version: 23               Geringfügig Geändert
+37.19 13    Aufzahlung (Az) auf die Positionen Decklagen von Deckenverkleidungen aus Vollholzprofilen H, ohne
+            Unterschied der Dicke, Breite und Holzart.
+
+37.19 13A   Az Deckl.Decke H Feder Hartf.                                                                                  m²
+            Für das Einlegen von fremden Federn aus Hartfaserplatten.
+
+            LB-Version: 23               Geringfügig Geändert
+
+37.19 13B   Az Deckl.Decke H Feder farb.                                                                                   m²
+            Für das Einlegen von fremden Federn aus Hartfaserplatten mit eingefärbter Oberfläche.
+            Farbe: ____________
+
+37.19 13C   Az Deckl.Decke H Fed.m.Stab                                                                                    m²
+            Für das Einlegen von fremden Federn mit Stab, Federbreite 30 mm, Stabbreite 6 mm.
+
+37.19 13D   Az Deckl.Decke H Feder Filz                                                                                    m²
+            Für das Einlegen von dunklen Filzstreifen in die Nuten der bereits montierten Profile.
+
+37.19 14    Aufzahlung (Az) auf die Positionen Decklagen von Wand- oder Deckenverkleidungen für eine Stoßverbindung
+            mit zusätzlichem Profilholz.
+
+37.19 14A   Az Verkl.Stoßprof.Doppelnut                                                                                    m
+            Profilholz mit Doppelnut. ____________
+
+37.19 14B   Az Verkl.Stoßverbind.Profil                                                                                    m
+            Mit ____________
+
+37.19 15    Decklage von Wandverkleidungen auf vorhandener Unterkonstruktion.
+
+37.19 15A   Decklage Wand HF-Platte                                                                                        m²
+            Mit Holzfaserplatten (HF).
+            Dicke: ____________
+            Verlegeart/Plattengrößen: ____________
+
+37.19 15B   Decklage Wand HFD-Dekor                                                                                        m²
+            Mit kunststoffbeschichteten dekorativen Holzfaserplatten (HFD-Dekor).
+            Beschichtung: ____________
+            Verlegeart/Plattengrößen: ____________
+
+37.19 15C   Decklage Wand Holzspanpl.V20                                                                                   m²
+            Mit Holzspanplatten V 20, ohne Nut und Feder.
+            Dicke: ____________
+            Verlegeart/Plattengrößen: ____________
+
+37.19 15D   Decklage Wand V20 Nut+Fed.                                                                                     m²
+            Mit Holzspanplatten V 20, mit Nut und Feder.
+            Dicke: ____________
+            Verlegeart/Plattengrößen: ____________
+
+
+                                                                                                                      Seite 9 / 14
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                           EH
+
+37.19 15E   Decklage Wand Holzspanpl.V100                                                                       m²
+            Mit Holzspanplatten V 100, ohne Nut und Feder.
+            Dicke: ____________
+            Verlegeart/Plattengrößen: ____________
+
+37.19 15F   Decklage Wand V100 Nut+Fed.                                                                         m²
+            Mit Holzspanplatten V 100, mit Nut und Feder.
+            Dicke: ____________
+            Verlegeart/Plattengrößen: ____________
+
+37.19 15G   Decklage Wand Sperrplatte FU                                                                        m²
+            Mit Sperrplatten (Furnierplatten FU).
+            Dicke: ____________
+            Deckfurnier/Güteklasse: ____________
+            Verlegeart/Plattengrößen: ____________
+
+37.19 15H   Decklage Wand Paneelplatte Ti                                                                       m²
+            Mit Paneelplatten (Tischlerplatten Ti).
+            Dicke: ____________
+            Deckfurnier/Güteklasse: ____________
+            Verlegeart/Plattengrößen: ____________
+
+37.19 17    Decklagen von Deckenverkleidungen auf vorhandener Unterkonstruktion.
+
+37.19 17A   Decklage Decke HF-Platte                                                                            m²
+            Mit Holzfaserplatten (HF).
+            Decke: ____________
+            Verlegeart/Plattengrößen: ____________
+
+37.19 17B   Decklage Decke HFD-Dekor                                                                            m²
+            Mit kunststoffbeschichteten, dekorativen Holzfaserplatten (HFD-Dekor).
+            Beschichtung: ____________
+            Verlegeart/Plattengrößen: ____________
+
+37.19 17C   Decklage Decke Holzspanpl.V20                                                                       m²
+            Mit Holzspanplatten V 20, ohne Nut und Feder.
+            Dicke: ____________
+            Verlegeart/Plattengrößen: ____________
+
+37.19 17D   Decklage Decke V20 Nut+Fed.                                                                         m²
+            Mit Holzspanplatten V 20, mit Nut und Feder.
+            Dicke: ____________
+            Verlegeart/Plattengrößen: ____________
+
+37.19 17E   Decklage Decke Holzspanpl.V100                                                                      m²
+            Mit Holzspanplatten V 100, ohne Nut und Feder.
+            Dicke: ____________
+            Verlegeart/Plattengrößen: ____________
+
+37.19 17F   Deckl.Deck.Holzspanpl.V100 N+F                                                                      m²
+            Mit Holzspanplatten V 100, mit Nut und Feder.
+            Dicke: ____________
+            Verlegeart/Plattengrößen: ____________
+
+37.19 17G   Decklage Decke Sperrpl.FU                                                                           m²
+            Mit Sperrplatten (Furnierplatten FU).
+            Dicke: ____________
+            Deckfurnier/Güteklasse: ____________
+            Verlegeart/Plattengrößen: ____________
+
+37.19 17H   Decklage Decke Paneelpl.Ti                                                                          m²
+
+
+
+                                                                                                          Seite 10 / 14
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+            Mit Paneelplatten (Tischlerplatten Ti).
+            Dicke: ____________
+            Deckfurnier/Güteklasse: ____________
+            Verlegeart/Plattengrößen: ____________
+
+37.19 17I   Decklage Decke m.Kassettenpl.                                                                              m²
+            Mit Kassettenplatten aus ____________
+            Gemäß Skizze: ____________
+37.19 18    Dämmstoff zwischen die Lattenunterkonstruktion der Wandverkleidung abgleitsicher verlegt. Abgerechnet wird
+            je Lage.
+
+37.19 18A   Mineralfasermatte Wand 5cm                                                                                 m²
+            Aus Mineralfaser, 5 cm dick, als Matte.
+
+37.19 18B   Mineralfasermatte Wand 6cm                                                                                 m²
+            Aus Mineralfaser, 6 cm dick, als Matte.
+
+37.19 18C   Mineralfasermatte Wand 8cm                                                                                 m²
+            Aus Mineralfaser, 8 cm dick, als Matte.
+
+37.19 18D   Mineralfasermatte Wand 10cm                                                                                m²
+            Aus Mineralfaser, 10 cm dick, als Matte.
+
+37.19 19    Dämmstoff auf die Decklage der Deckenverkleidung verlegt. Abgerechnet wird je Lage.
+
+37.19 19A   Mineralfasermatte Decke 5cm                                                                                m²
+            Aus Mineralfaser, 5 cm dick, als Matte.
+
+37.19 19B   Mineralfasermatte Decke 6cm                                                                                m²
+            Aus Mineralfaser, 6 cm dick, als Matte.
+
+37.19 19C   Mineralfasermatte Decke 8cm                                                                                m²
+            Aus Mineralfaser, 8 cm dick, als Matte.
+
+37.19 19D   Mineralfasermatte Decke 10cm                                                                               m²
+            Aus Mineralfaser, 10 cm dick, als Matte.
+
+37.19 20    Wärmedämmung aus Mineralfasermatten mit Alukraftfolie kaschiert, Folie beidseitig mindestens 5 mm
+            vorstehend. Wärmedämmung zwischen die Lattenunterkonstruktion der Wandverkleidung verlegt, mit
+            Folienüberstand an die Konstruktion als Dampfbremse befestigt.
+
+37.19 20A   Mineralfaserm.alukasch.Wand 6cm                                                                            m²
+            Ohne Unterschied der Breite.
+
+37.19 20B   Mineralfaserm.alukasch.Wand 10cm                                                                           m²
+            Ohne Unterschied der Breite.
+
+37.19 21    Wärmedämmung aus Mineralfasermatten mit Alukraftfolie kaschiert, Folie beidseitig mindestens 5 mm
+            vorstehend. Wärmedämmung zwischen die Unterkonstruktion der Deckenverkleidung verlegt, mit
+            Folienüberstand an die Unterkonstruktion als Dampfbremse befestigt.
+
+37.19 21A   Mineralfaserm.alukasch.Decke 6cm                                                                           m²
+            Ohne Unterschied der Breite.
+
+37.19 21B   Mineralfaserm.alukasch.Decke 10cm                                                                          m²
+            Ohne Unterschied der Breite.
+
+37.19 22    Herstellen einer Dampfbremse mit einer dampfdiffusionsäquivalenten Luftschichtdicke von Sd = mindestens 10
+            m.
+
+37.19 22A   Dampfbremse Sd=mind.10m                                                                                    m²
+37.25       Montagearbeiten
+
+                                                                                                                 Seite 11 / 14
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+37.25 01    Abdichten von Fugen zum Baukörper bis 20 mm breit.
+
+37.25 01A   Abdichten m.PUR-Schaum                                                                                         m
+            Mit Polyurethanschaum (PUR).
+
+37.25 01B   Abdichten m.PUR+Dicht.1-seit.                                                                                  m
+            Mit Polyurethanschaum (PUR) einseitig abgedichtet, mit Hinterfüllungsband und elastischem Dichtstoff.
+
+37.25 01C   Abdichten m.PUR+Dicht.2-seit.                                                                                  m
+            Mit Polyurethanschaum (PUR) außen- und innenseitig, abgedichtet, mit Hinterfüllungsband und elastischem
+            Dichtstoff.
+
+37.25 01D   Abdichten m.Mineralf.Zopf                                                                                      m
+            Mit Mineralfaserzopf oder Stopfwolle.
+
+37.25 01E   Abdichten m.Zopf+Dicht.1-seit.                                                                                 m
+            Mit Mineralfaserzopf oder Stopfwolle einseitig abgedichtet, mit Hinterfüllungsband und elastischem Dichtstoff.
+
+37.25 01F   Abdichten m.Zopf+Dicht.2-seit.                                                                                 m
+            Mit Mineralfaserzopf oder Stopfwolle außen- und innenseitig abgedichtet, mit Hinterfüllungsband und
+            elastischem Dichtstoff.
+37.25 02    Fugen füllen, Fugenbreite bis 15 mm, von Bauteilen mit Haftflanken entsprechender Haftzugfestigkeit und
+            Verträglichkeit. Vorbehandeln mit Primer und nachbehandeln der ausgefüllten Fugen nach den
+            Verarbeitungsrichtlinien des Erzeugers, in handelsüblicher Farbe nach Wahl des Auftraggebers.
+
+37.25 02A   Fuge 15mm Silikon                                                                                              m
+            Mit elastisch bleibendem Einkomponentendichtstoff auf Silikonbasis, Shorehärte 10 bis 12, praktisch zulässige
+            Fugenbewegung 25 Prozent, nicht überstreichbar.
+
+37.25 02B   Fuge 15mm Acryldispersion                                                                                      m
+            Mit elastisch bleibendem Einkomponentendichtstoff auf Acryldispersionsbasis, Shorehärte höchstens 35,
+            praktisch zulässige Fugenbewegung bis 10 Prozent, überstreichbar, für Innenfugen bei frostsicherer
+            Verarbeitung und Aushärtung.
+
+37.25 02C   Fuge 15mm Polysulfid 1Ko                                                                                       m
+            Mit elastisch bleibendem Einkomponentendichtstoff auf Polysulfidbasis, Shorehärte 19 bis 20, praktisch
+            zulässige Fugenbewegung bis 25 Prozent.
+
+37.25 02D   Fuge 15mm Polysulfid 2Ko                                                                                       m
+            Mit elastisch bleibendem Zweikomponentendichtstoff auf Polysulfidbasis, Shorehärte 10 bis 15, praktisch
+            zulässige Fugenbewegung bis 25 Prozent.
+
+37.25 02E   Fuge 15mm Polyur.2Ko.waagr.                                                                                    m
+            Mit elastisch bleibendem Zweikomponentendichtstoff auf Polyurethanbasis, nivellierend, Shorehärte 25,
+            praktisch zulässige Fugenbewegung bis 25 Prozent, überstreichbar.
+
+37.25 02X   Fuge 15mm elast.Dichtstoff                                                                                     m
+            Mit elastisch bleibendem Dichtstoff.
+
+37.25 03    Aufzahlung (Az) auf die Positionen Fugen füllen für die Fugenbreite über 15 bis 25 mm.
+
+37.25 03A   Az Fuge 25mm Silikon                                                                                           m
+            Mit Silikon-Dichtstoff.
+
+37.25 03B   Az Fuge 25mm Acryldispersion                                                                                   m
+            Mit Acryldispersion-Dichtstoff.
+
+37.25 03C   Az Fuge 25mm Polysulfid 1Ko                                                                                    m
+            Mit Einkomponenten-Polysulfid-Dichtstoff.
+
+37.25 03D   Az Fuge 25mm Polysulfid 2Ko                                                                                    m
+                                                                                                                     Seite 12 / 14
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+            Mit Zweikomponenten-Polysulfid-Dichtstoff.
+
+37.25 03E   Az Fuge 25mm Polyurethan                                                                                             m
+            Mit Polyurethandichtstoff.
+
+37.25 06    Aufzahlung (Az) auf die Positionen Fugen füllen, für das Einlegen von Polyethylenrundschnüren.
+
+37.25 06A   Az Fuge Polyeth.Rundschnur b.15                                                                                      m
+            Bis zu einer Fugenbreite von 15 mm.
+
+37.25 06B   Az Fuge Polyeth.Rundschnur ü.15-25                                                                                   m
+            Bei einer Fugenbreite über 15 mm bis 25 mm.
+
+37.25 10    Aufzahlung (Az) auf alle Positionen Bauteile liefern und montieren, ohne Unterschied der Art, für das Bohren
+            von Löchern in Kunststein oder Naturstein (Stein), einschließlich Schutz der angrenzenden Teile.
+
+37.25 10A   Az Stein bohren b.100 D b.10mm                                                                                       Stk
+            Bohrtiefe bis 100 mm. Durchmesser bis 10 mm.
+            Steinart: ____________
+
+37.25 10B   Az Stein bohren b.100 D ü.10-15                                                                                      Stk
+            Bohrtiefe bis 100 mm. Durchmesser über 10 bis 15 mm.
+            Steinart: ____________
+
+37.25 10C   Az Stein bohren b.100 D ü.15-20mm                                                                                    Stk
+            Aufzahlung (Az) für Bohrtiefe bis 100 mm. Durchmesser über 15 bis 20 mm.
+            Steinart: ____________
+37.25 12    Einlegen der vom Auftraggeber gelieferten Zargendichtungen in die bereits versetzten Zargen oder Stöcke.
+
+37.25 12A   Einlegen vom AG Zargendichtung                                                                                       Stk
+            Abgerechnet je Zarge ohne Unterschied der Art und Größe.
+
+37.80       Instandsetzungsarbeiten
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+             Kommentar:
+             Instandsetzung von Türen, Fenstertüren, Fenstern und dergleichen sind in der LG 55 Sanierung von Holzfenstern zu finden.
+
+37.80 20    Instandsetzen der Handläufe und Handgriffstangen, und zwar: lockere Holzteile neu befestigen, lockere
+            Wandkonsolen neu versetzen, raue Teile abschleifen, kleinere Teile einleimen. Ausgebesserte Teile werden
+            dem Bestand entsprechend beschichtet.
+
+37.80 20A   Instands.Handlauf profiliert                                                                                         m
+            Aus profiliertem Vollholz.
+
+37.80 20B   Instands.Handlauf Brett                                                                                              m
+            Aus glatten Brettern.
+
+37.80 21    Handläufe oder Handlaufteile angepasst an den Bestand neu herstellen und an Stelle schadhafter oder
+            fehlender Teile versetzen, einschließlich Entsorgen der Abfallmaterialien.
+
+37.80 21A   Handlauf profiliert neu                                                                                              m
+            Aus profiliertem Vollholz.
+
+37.80 21B   Handlauf Brett neu                                                                                                   m
+            Aus glatten Brettern.
+
+37.80 22    Aufzahlung (Az) auf die Positionen Handlauf neu herstellen, für gekrümmte Teile. Abgerechnet je Krümmung bis
+            90 Grad.
+
+37.80 22A   Az Handl.neu profil.Krümmung                                                                                         Stk
+37.90       Regieleistungen
+
+                                                                                                                           Seite 13 / 14
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen.
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+37.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+37.90 00C   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+37.90 01    Regiestunden.
+
+37.90 01A   Regiestunde Facharbeiter                                                                                         h
+
+37.90 01B   Regiestunde Hilfsarbeiter                                                                                        h
+
+37.90 51    Materiallieferungen f.Regieleistungen                                                                            VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+            LB-Version: 23                  Geringfügig Geändert
+
+
+
+
+                                                                                                                       Seite 14 / 14
+                                                                                                  ib-data GmbH, Softwareentwicklung
+

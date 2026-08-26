@@ -1,0 +1,2230 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                     Leistungsgruppe (LG) 22 - Dachdeckerarbeiten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 2200    Wählbare Vorbemerkungen
+                     ULG 2214    Deckung m.Dachziegeln
+                     ULG 2215    Deckung m.Betondachsteinen
+                     ULG 2216    Deckung m.ebenen Faserzementdachplatten
+                     ULG 2217    Deckung m.profilierten Faserzementdachplatten
+                     ULG 2218    Deckung m.Faserzement-Wellplatten (Dachpl.)
+                     ULG 2219    Deckung m.Polymerbitumen-Dachschindeln
+                     ULG 2290    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 35
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                              EH
+
+22         Dachdeckerarbeiten
+           Version 023 (2025-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           1. Allgemeines:
+           Alle Leistungen gelten für Dachneigungen bis 45 Grad.
+           Die Preise für die Deckung gelten ohne Unterschied, ob mit oder ohne Unterdach beziehungsweise
+           Unterspannung.
+           2. Windlast - Berechnung:
+           Die Windlast-Berechnung gemäß ÖNORM erfolgt durch den Auftraggeber.
+           Eine vereinfachte grafische Darstellung (z.B. Dachdraufsicht M 1:100 mit einer Darstellung der
+           Windlastbereiche) der Dachfläche wird vom Auftraggeber beigestellt.
+           Die Ausführung (Dimensionierung) und die Art der systemgerechten Befestigung für die jeweiligen Dachflächen
+           erfolgt nach Wahl des Auftragnehmers.
+           3. Einkalkulierte Leistungen:
+           Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+           einkalkuliert:
+               • Gerüste (z.B. Arbeitsgerüste, Aufstiegshilfen) bis 3,2 m
+               • bei Arbeitshöhen über 3,2 m alle Erschwernisse, einschließlich etwaigem erhöhtem Aufwand für den
+                 Materialtransport
+               • Ausstiegsfenster mit einer Einscheiben-Sicherheitsverglasung und Einbaurahmen
+           4. Farben:
+           4.1 Standardfarben:
+           Standardfarben sind Farben (nach Wahl des Auftraggebers) aus der Farbkarte des Herstellers, für die der
+           Hersteller keinen Aufpreis verlangt.
+           4.2 Sonderfarben:
+           Sonderfarben sind Farben (nach Wahl des Auftraggebers) aus der Farbkarte des Herstellers, für die der
+           Hersteller einen Aufpreis vorsieht (Aufzahlungen).
+           5. Edelstahl:
+           Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl (z.B. V2A oder V4A) beschrieben.
+           6. Skizze:
+           Im Folgenden wird der Begriff Skizze für die einfachste Darstellungsmöglichkeit (z.B. Zeichnung, Plan)
+           verwendet.
+           7. Abkürzungen:
+               • ED für Einfachdeckungen
+               • DD für Doppeldeckungen
+           8. Deckregeln:
+           Für die Ausführung der Dachdeckerarbeiten gelten die von der Bundesinnung der Dachdecker
+           herausgegebenen Deckregeln (erhältlich bei der Bundesinnung der Dachdecker, 1040 Wien, Schaumburggasse
+           20/6) und die Verarbeitungsrichtlinien der Hersteller.
+            Kommentar:
+            Für gebrauchtes, im Dachboden gelagertes Deckungsmaterial wird bei vorhandenem Unterdach oder vorhandener
+            Unterspannung eine Aufzahlung für die Erschwernis des Transportes auf das Dach verrechnet.
+            Sicherheits- und Schutzeinrichtungen für spätere Arbeiten sind in der LG 25 beschrieben.
+            Frei zu formulieren (z.B.):
+                 • Dachneigungen über 60 Grad
+                 • Maßnahmen zur Befestigung von Solar- und Fotovoltaik-Halterungen
+                 • Instandsetzungsarbeiten
+            Etwa erforderliche Schutzgerüste sind in der LG 04 beschrieben. Schalungen, Trag- und Konterlattungen sind in der LG 36
+            (Zimmermeisterarbeiten) beschrieben. Sanierungen von gemauerten Fangköpfen sind mit der LG 14 auszuschreiben.
+            Literaturhinweise (z.B.):
+                 • ÖNORM A 2050: Vergabe von Aufträgen über Leistungen - Ausschreibung, Angebot, Zuschlag
+                 • ÖNORM B 1991-1-3: Eurocode 1 - Einwirkungen auf Tragwerke/Windlasten
+                 • ÖNORM B 1991-1-4: Eurocode 1 - Einwirkungen auf Tragwerke/Windlasten
+                 • ÖNORM B 2107-1: Umsetzung des Bauarbeiterkoordinationsgesetzes (BauKG)
+                 • ÖNORM B 2107-2: Umsetzung des Bauarbeiterkoordinationsgesetzes (BauKG)
+                 • ÖNORM B 2107-3: Umsetzung des Bauarbeiterkoordinationsgesetzes (BauKG)
+                                                                                                                             Seite 2 / 35
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+                  • ÖNORM B 2110: Allgemeine Vertragsbestimmungen für Bauwesen
+                  • ÖNORM B 2118: Allgemeine Vertragsbestimmungen für Bauleistungen unter Anwendung des Partnerschaftsmodells,
+                    insbesondere bei Großprojekten
+                  • ÖNORM B 2219: Dachdeckerarbeiten – Werkvertragsnorm
+                  • ÖNORM B 3418: Planung und Ausführung von Schneefangsystemen
+                  • ÖNORM B 3419: Planung und Ausführung von Dacheindeckungen und Wandverkleidungen
+                  • ÖNORM EN 354: Persönliche Schutzausrüstung gegen Absturz - Verbindungsmittel
+                  • ÖNORM EN 355: Persönliche Schutzausrüstung gegen Absturz - Falldämpfer
+                  • ÖNORM EN 362: Persönliche Schutzausrüstung gegen Absturz - Verbindungselemente
+                  • ÖNORM EN 364: Persönliche Schutzausrüstung gegen Absturz - Prüfverfahren
+                  • ÖVE/ÖNORM E 8049-1: Blitzschutz baulicher Anlagen - Allgemeine Grundsätze
+                  • BGBI: ArbeitnehmerInnenschutzgsetz, Bauarbeitenkoordinationsgesetz, Bauarbeiterschutzverordnung
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+22.00       Wählbare Vorbemerkungen
+22.00 01    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+22.00 01A   Materialprüfung
+            Die Mindestanforderungen an das Material gemäß ÖNORM werden über Aufforderung des Auftraggebers
+            nachgewiesen.
+
+22.00 01V   Verfügbarkeit von Beilagen zum LV
+            Zu dieser Leistungsgruppe sind Beilagen zum Leistungsverzeichnis zu beachten.
+            Verfügbarkeit von (z.B. Plänen)/wie (z.B. im PDF-Format): ____________
+            Betrifft Position(en): ____________
+
+22.14       Deckung m.Dachziegeln
+            Deckungsmaterial:
+            Dachziegel sind keramische Erzeugnisse.
+            Standardausführung: naturrote Ziegel
+            Das Neumaterial wird gesondert vom Altmaterial in geschlossener Fläche verlegt.
+            Ein Vermengen von gebrauchtem und neuem Deckungsmaterial erfolgt nur auf Anordnung des Auftraggebers.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+                  • Dachdeckungen mit Engoben
+                  • Dachdeckungen mit Glasuren
+                  • Mischdeckungen und historische Doppeldeckungen
+                  • bei Doppeldeckungen (DD) andere Ziegellängen, Schnittformen und Materialdicken
+                  • Belichtungsformstücke
+                  • andere Schneefangsysteme
+
+            LB-Version: 23                 Geringfügig Geändert
+22.14 01    Windlastsicherung in der Dachfläche gemäß Windlast-Berechnung.
+            Abgerechnet wird die eingedeckte Dachfläche gemäß ÖNORM.
+
+22.14 01A   Windlastsicherung gem.Windlast-Berechnung f.Ziegeldeckung                                                           m²
+            Für Deckungen mit Dachziegeln.
+
+22.14 02    Dachziegeldeckung mit Taschen (Ziegeltasche), als Doppeldeckung (DD) auf vorbereiteter Lattung trocken
+            gehängt.
+            Im Positionsstichwort sind die Abmessungen (Breite x Länge) angegeben.
+
+22.14 02A   Ziegeltasche DD eckig 18/20x38/40cm                                                                                 m²
+            Mit geraden Ecken.
+
+22.14 02B   Ziegeltasche DD eckig 19/20x42cm                                                                                    m²
+            Mit geraden Ecken.
+
+22.14 02C   Ziegeltasche DD gerundet 19/20x40cm                                                                                 m²
+            Mit gerundeten Ecken.
+
+                                                                                                                           Seite 3 / 35
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+22.14 03    Dachziegeldeckung mit Biberschwanzziegeln, als Doppeldeckung (DD) auf vorbereiteter Lattung trocken
+            gehängt.
+            Im Positionsstichwort sind die Abmessungen (Breite x Länge) angegeben.
+
+22.14 03A   Biberschwanzziegel DD Rundschnitt 18/20x38/40cm                                                             m²
+            Mit Rundschnitt.
+
+22.14 03B   Biberschwanzziegel DD Rundschnitt 19/20x42cm                                                                m²
+            Mit Rundschnitt.
+
+22.14 03C   Biberschwanzziegel DD Segmentschnitt 19/20x40cm                                                             m²
+            Mit Segmentschnitt.
+
+22.14 04    Strangfalzziegeldeckung auf vorbereiteter Lattung trocken einhängen.
+            Im Positionsstichwort ist die Deckbreite angegeben.
+
+22.14 04A   Strangfalzziegeldeckung/Strangdachziegel 20-21cm                                                            m²
+            Strangfalzziegel - "Steinbrück" - mit Seitenfalzausbildung.
+                • Lattenabstand: 24 bis 31 cm
+22.14 05    Pressfalzziegeldeckung auf vorbereiteter Lattung trocken einhängen.
+            Im Positionsstichwort ist die Deckbreite angegeben.
+
+22.14 05A   Pressfalz-/Strangfalzziegeldeckung 20-21cm                                                                  m²
+            Strangfalzziegel - gepresst, mit doppelter Seitenfalz- und Kopffalzausbildung.
+                • Lattenabstand: 28 bis 34 cm
+
+22.14 05B   Pressfalzziegeldeckung eben 19-22cm                                                                         m²
+            Mit ebenflächigen Dachziegeln.
+                • Lattenabstand: 28 bis 35 cm
+
+22.14 05C   Pressfalzziegeldeckung eben 22-25cm                                                                         m²
+            Mit ebenflächigen Dachziegeln.
+                • Lattenabstand: 33 bis 40 cm
+
+22.14 05D   Pressfalzziegeldeckung profiliert 19-22cm                                                                   m²
+            Mit profilierten Dachziegeln.
+                • Lattenabstand: 28 bis 35 cm
+
+22.14 05E   Pressfalzziegeldeckung profiliert 22-25cm                                                                   m²
+            Mit profilierten Dachziegeln.
+                • Lattenabstand: 33 bis 40 cm
+
+22.14 06    Biberfalzziegeldeckung auf vorbereiteter Lattung trocken einhängen.
+
+22.14 06A   Biberfalzziegeldeckung                                                                                      m²
+22.14 07    Dachziegeldeckung mit gebrauchten, am Dachboden gelagerten Taschen oder Biberschwanzziegeln, als
+            Doppeldeckung (DD) auf vorbereiteter Lattung trocken gehängt.
+            Im Positionsstichwort sind die Abmessungen (Breite x Länge) angegeben.
+
+22.14 07A   Gebrauchte Dachziegel DD 18/20x38/40cm                                                                      m²
+
+22.14 07B   Gebrauchte Dachziegel DD 19/20x42/46cm                                                                      m²
+22.14 08    Strangfalzziegeldeckung auf vorbereiteter Lattung trocken einhängen.
+            Im Positionsstichwort ist das Format angegeben.
+
+22.14 08A   Gebrauchte Strangfalzziegel                                                                                 m²
+            Mit gebrauchten, am Dachboden gelagerten Strangfalzziegeln.
+
+
+                                                                                                                   Seite 4 / 35
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+22.14 09    Pressfalzziegeldeckung mit gebrauchten, am Dachboden gelagerten Pressfalzziegeln, auf vorbereiteter Lattung
+            trocken einhängen.
+            Im Positionsstichwort ist die Deckbreite angegeben.
+
+22.14 09A   Gebrauchte Pressfalzziegel 19-22cm                                                                          m²
+                • Lattenabstand 28 bis 35 cm
+
+22.14 09B   Gebrauchte Pressfalzziegel 22-25cm                                                                          m²
+                • Lattenabstand über 33 bis 40 cm
+
+22.14 10    Biberfalzziegeldeckung, mit gebrauchten, am Dachboden gelagerten Biberfalzziegeln, auf vorbereiteter Lattung
+            trocken einhängen.
+
+22.14 10A   Gebrauchte Biberfalzziegel                                                                                  m²
+22.14 15    Fugenverstrich (Längs- und Querfugen) an der Innenseite der Dachfläche mit Kalkzementmörtel bei
+            Dachziegeldeckungen (Ziegeldeckung).
+            Abgerechnet wird die Dachfläche ohne Unterschied der Neigung und ohne Zuschläge.
+
+22.14 15A   Fugenverstrich Taschen/Biberschwanz-Ziegeldeckung DD                                                        m²
+            Bei Deckungen mit Taschen oder Biberschwanzziegeln.
+                • als Doppeldeckung
+            Arbeitshöhe: ____________
+
+22.14 15B   Fugenverstrich Strangfalz-/Biberfalz-Ziegeldeckung ED                                                       m²
+            Bei Deckungen mit Strangfalzziegeln und Biberfalzziegeln.
+                • als Einfachdeckung
+            Arbeitshöhe: ____________
+
+22.14 15C   Fugenverstrich Pressfalz-Ziegeldeckung ED                                                                   m²
+            Bei Deckungen mit Pressfalzziegeln.
+                • als Einfachdeckung
+            Arbeitshöhe: ____________
+
+22.14 17    Aufzahlung (Az) auf Dachziegeldeckungen (Ziegeldeckung) für die Erschwernisse bei einem Unterdach.
+
+22.14 17A   Az Ziegeldeckung ED f.Erschwernisse Unterdach                                                               m²
+            Für die Materialeinbringung aus dem Dachraum.
+                • bei Einfachdeckungen
+
+22.14 17B   Az Ziegeldeckung DD f.Erschwernisse Unterdach                                                               m²
+            Für die Materialeinbringung aus dem Dachraum.
+                • bei Doppeldeckungen
+22.14 18    Aufzahlung (Az) auf Dachziegeldeckungen (Ziegeldeckung) für das einseitige Anarbeiten.
+
+22.14 18A   Az Ziegeldeckung ED f.Anarbeiten/gerade                                                                     m
+            An gerade Umsäumungen (z.B. Firste, Traufen, Ortsäume).
+                • bei Einfachdeckungen
+
+22.14 18B   Az Ziegeldeckung DD f.Anarbeiten/gerade                                                                     m
+            An gerade Umsäumungen (z.B. Firste, Traufen, Ortsäume).
+                • bei Doppeldeckungen
+
+22.14 18C   Az Ziegeldeckung ED f.Anarbeiten/schräg                                                                     m
+            An schräge Umsäumungen (z.B. Ichsen, Grate).
+                • bei Einfachdeckungen
+
+22.14 18D   Az Ziegeldeckung DD f.Anarbeiten/schräg                                                                     m
+
+                                                                                                                   Seite 5 / 35
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            An schräge Umsäumungen (z.B. Ichsen, Grate).
+                 • bei Doppeldeckungen
+22.14 19    Aufzahlung (Az) auf Dachziegeldeckungen (Ziegeldeckung).
+
+22.14 19A   Az Ziegeldeckung ED f.Neigung ü.45-60°                                                                       m²
+            Für die Erschwernisse bei Dächern mit einer Neigung über 45 bis 60 Grad.
+                 • bei Einfachdeckungen
+
+22.14 19B   Az Ziegeldeckung DD f.Neigung ü.45-60°                                                                       m²
+            Für die Erschwernisse bei Dächern mit einer Neigung über 45 bis 60 Grad.
+                 • bei Doppeldeckungen
+
+22.14 19C   Az Ziegeldeckung f.Ortgangziegel                                                                             m
+            Für das Eindecken mit Ortgangziegeln, einschließlich Befestigungen.
+
+22.14 19D   Az Ziegeldeckung f.Abdichten Innenrand                                                                       m
+            Für das Abdichten der inneren Dachränder (Blechanschlüsse) mit Schaumstoffdichtkeilen.
+
+22.14 19E   Az Ziegeldeckung f.Vogelschutz                                                                               m
+            Für das Einsetzen von Kamm-Elementen als Vogelschutz an der Traufe.
+
+22.14 19F   Az Ziegeldeckung f.Vogelschutz m.Höhenausgleich                                                              m
+            Für das Einsetzen von offenen Traufen-Elementen mit Kamm, aus Kunststoff, als Vogelschutz und
+            Höhenausgleich.
+                 • Profilhöhe: 30 cm
+
+22.14 19G   Az Ziegeldeckung f.Höhenausgleich                                                                            m
+            Für das Einsetzen von offenen Traufen-Elementen, aus Kunststoff, als Höhenausgleich.
+                 • Profilhöhe: 30 cm
+
+22.14 19H   Az Ziegeldeckung Fläche f.Kronendeckung DD                                                                   m²
+            Auf Dachziegeldoppeldeckungen für eine Ausführung als Kronendeckung.
+
+22.14 21    First- und Grateindeckung mit Ziegeln auf vorhandener First- und Gratlattung.
+            Jeder Firstziegel wird mit Klammern befestigt, bei Vermörtelungen mit Edelstahl- oder Kupferdraht verhängt.
+
+22.14 21A   First-/Gratziegel Falzfirst trocken verlegt                                                                  m
+            Mit First-/Gratziegeln, trocken verlegt.
+                 • mit profiliertem Falzfirst mit Deckwulst
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+22.14 21B   First-/Gratziegel Falzfirst+Mörtel                                                                           m
+            Mit First-/Gratziegeln, in Mörtel verlegt.
+                 • mit profiliertem Falzfirst mit Deckwulst
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+22.14 21C   First-/Gratziegel Glattfirst trocken verlegt                                                                 m
+            Mit First-/Gratziegeln, trocken verlegt.
+                 • mit Glattfirst
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+22.14 21D   First-/Gratziegel Glattfirst+Mörtel                                                                          m
+
+
+
+                                                                                                                    Seite 6 / 35
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Mit First-/Gratziegeln, in Mörtel verlegt.
+                 • mit Glattfirst
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+22.14 21E   Anfang-/Endscheiben f.First-/Grat-Ziegeldeckung                                                              Stk
+            Mit Anfang- und/oder Endscheiben.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+22.14 21F   Grat-Anfangziegel f.First-/Grat-Ziegeldeckung                                                                Stk
+            Mit Grat-Anfangziegel.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+22.14 21G   Verteiler 3-achsig f.First-/Grat-Ziegeldeckung                                                               Stk
+            Mit Verteilern, 3-achsig.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+22.14 21H   Verteiler 4-achsig f.First-/Grat-Ziegeldeckung                                                               Stk
+            Mit Verteilern, 4-achsig.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+22.14 21I   First-/Pultziegel Ziegeldeckung                                                                              m
+            Mit First-Pultziegeln, trocken verlegt.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+22.14 21J   First-/Gratlatte Ziegeldeckung                                                                               m
+            First- oder Gratlatte, in der Höhenlage den technischen Erfordernissen angepasst, verlegen.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung im Grundtext von NIRO auf Edelstahl.
+
+22.14 22    Ent- und Belüftungselemente für Dachziegeldeckungen (Ziegeldeckung)
+
+22.14 22A   Entlüft.-Elemente Kunstst.f.First-/Grat-Ziegeldeckung                                                        m
+            Unterlegen mit Entlüftungs-Elementen aus Kunststoff.
+
+22.14 22B   Entlüft.-Elemente Alu f.First-/Grat-Ziegeldeckung                                                            m
+            Unterlegen mit Entlüftungs-Elementen aus Metall, Alu beschichtet.
+
+22.14 22C   Lüftungsband f.Ziegeldeckung                                                                                 m
+            Durchlaufendes Lüftungsband aus Streckmetall, einschließlich Zusatzlattungen.
+
+22.14 22D   Lüfterziegel f.Ziegeldeckung ED                                                                              Stk
+            Lüfterziegel für Einfachdeckungen.
+
+22.14 22E   Lüfterset f.Ziegeldeckung DD                                                                                 Stk
+            Lüfterset für Doppeldeckung.
+
+22.14 22F   Belüftungsgitter/Vogelschutz Traufe f.Ziegeldeckung                                                          m
+            Belüftungsgitter bei Konterlattung als Vogelschutz im Traufenbereich.
+
+22.14 25    Zubehör für Durchdringungen bei Dachziegeldeckungen (Ziegeldeckung).
+
+22.14 25A   Dunstrohrset Ton f.Ziegeldeckung b.150mm                                                                     Stk
+                                                                                                                    Seite 7 / 35
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Dunstrohraufsatz aus Ton, bestehend aus:
+                • Durchgangsziegel
+                • Dunstrohr mit Abdeckkappe
+                • Anschlussschlauch mit Reduktion
+            Nenn-Durchmesser (DN): bis 150 mm
+
+22.14 25B   Dunstrohrset Kunststoff f.Ziegeldeckung b.100mm                                                               Stk
+            Dunstrohraufsatz aus Kunststoff, bestehend aus:
+                • Durchgangselement
+                • Rohr mit Abdeckkappe
+                • Anschlussschlauch mit Reduktion
+            Nenn-Durchmesser (DN): bis 100 mm
+
+22.14 25C   Dunstrohrset Kunststoff f.Ziegeldeckung ü.100mm                                                               Stk
+            Dunstrohraufsatz aus Kunststoff, bestehend aus:
+                • Durchgangselement
+                • Rohr mit Abdeckkappe
+                • Anschlussschlauch mit Reduktion
+            Nenn-Durchmesser (DN) über 100 mm: ____________
+
+22.14 25D   Antennenaufsatz Ton f.Ziegeldeckung                                                                           Stk
+            Antennenaufsatz aus Ton, einschließlich Durchgangsziegel.
+            Zusätzliche Angaben: ____________
+
+22.14 25E   Rohr-u.Kabeldurchführungen Ton f.Ziegeldeckung                                                                Stk
+            Rohr- und Kabeldurchführungen aus Ton.
+            Zusätzliche Angaben: ____________
+
+22.14 25F   Az Ziegeldeckung m.Unterdach f.Dichtmanschette                                                                Stk
+            Aufzahlung (Az) für regensichere, wind- und luftdichte Durchdringungen im Unterdach mittels Dichtmanschetten.
+            Zusätzliche Angaben: ____________
+
+22.14 26    Sonderelemente für Dachziegeldeckungen (Ziegeldeckungen).
+
+22.14 26A   Stand-/Grundplatte f.Ziegeldeckung                                                                            Stk
+            Grundplatte aus Metall in Ziegelform, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung) als
+            Zusatzelement für Stand- oder Laufrostsysteme, einschließlich Haltebügel oder Haltestütze, Verbindungsmittel
+            und Stützlattungen.
+
+22.14 26B   Steigtritt-Set f.Ziegeldeckung                                                                                Stk
+            Steigtritt-Set, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatte aus Metall in Ziegelform
+                • Steigtritt
+
+22.14 26C   Stufenrost-Set 40x25cm f.Ziegeldeckung                                                                        Stk
+            Stufenrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • zwei Grundplatten aus Metall in Ziegelform
+                • mit Stütze und Haltebügel
+                • Stufenrost ca. 40 x 25 cm
+
+22.14 26D   Stufenrost-Set 80x25cm f.Ziegeldeckung                                                                        Stk
+            Stufenrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • zwei Grundplatten aus Metall in Ziegelform
+                • mit Stütze und Haltebügel
+                • Stufenrost ca. 80 x 25 cm
+
+22.14 26E   Laufrost-System f.Ziegeldeckung                                                                               m
+
+                                                                                                                     Seite 8 / 35
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Laufrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatten aus Metall in Ziegelform
+                • einschließlich Stützen
+                • Laufrostbügel und Laufrost
+
+22.14 26G   Schneefangbaum f.Ziegeldeckung                                                                                 m
+            Schneefangbaum aus Lärche oder Kiefer druckimprägniert, einschließlich Stützen, Verbinder,
+            Befestigungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatten aus Metall in Ziegelform
+                • Stützen
+                • Schneefangbaum
+
+22.14 26H   Schneehalter Metall f.Ziegeldeckung                                                                            Stk
+            Schneehalter (Schneenasen) aus Metall.
+
+22.14 26I   Schneehalter Ton f.Ziegeldeckung                                                                               Stk
+            Schneehalter (Schneestopziegel) aus Ton.
+
+22.14 26J   Ausstiegsfenster feuerverzinkt/beschicht.f.Ziegeldeckung                                                       Stk
+            Ausstiegfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • feuerverzinkt und beschichtet
+                • mit regensicherer Einbindung
+
+22.14 26K   Ausstiegsfenster Cu f.Ziegeldeckung                                                                            Stk
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • aus Kupfer (Cu)
+                • mit regensicherer Einbindung
+
+22.14 26L   Ausstiegsfenster Kunststoff f.Ziegeldeckung                                                                    Stk
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • aus Kunststoff
+                • mit regensicherer Einbindung
+
+22.14 26M   Ausstiegsfenster m.Metalleinfassung f.Ziegeldeckung                                                            Stk
+            Ausstiegsfenster-System mit Metalleinfassung, einschließlich Ausschneiden, Hilfslattung und Beideckung.
+                • innere Lichte: ca. 40 x 55 cm
+                • verzinkt und beschichtet oder Alu-beschichtet
+                • mit regensicherer Einbindung
+
+22.14 30    Aufzahlung (Az) auf Dachziegeldeckungen (Ziegeld.).
+
+22.14 30A   Az Ziegeld.f.Ausschn.UD regen-/flugschneesicher b.0,1m2                                                        Stk
+            Für das Ausschneiden (Ausschn.) des Unterdaches (UD), einschließlich Einbauen von Wasserabweisern oder
+            Dichtmanschetten.
+                • regensicher/flugschneesicher
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+
+22.14 30B   Az Ziegeld.f.Ausschn.UD regen-/flugschneesicher ü.0,1m2                                                        m
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbauen von Wasserabweisern oder
+            Dichtmanschetten.
+                • regensicher/flugschneesicher
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+            Abgerechnet wird die Schnittlänge.
+
+22.14 30C   Az Ziegeld.f.Ausschn.UD winddicht b.0,1m2                                                                      Stk
+
+
+                                                                                                                      Seite 9 / 35
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbinden der Durchdringungen.
+                • winddicht
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+
+22.14 30D   Az Ziegeld.f.Ausschn.UD winddicht ü.0,1m2                                                                          m
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbinden der Durchdringungen.
+                • winddicht
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+            Abgerechnet wird die Schnittlänge.
+
+22.14 31    Aufzahlung (Az) auf Dachziegeldeckungen (Ziegeldeckung) für das Beidecken.
+             Kommentar:
+             Diese Positionen sind auszuschreiben, wenn Einbauteile vor den Dachdeckerarbeiten beziehungsweise von "Dritten"
+             vorhanden sind.
+
+22.14 31A   Az Ziegeldeckung f.Beidecken Stütze ED                                                                             Stk
+            An vorhandene Stützen.
+                • bei Einfachdeckungen
+
+22.14 31B   Az Ziegeldeckung f.Beidecken Stütze DD                                                                             Stk
+            An vorhandene Stützen.
+                • bei Doppeldeckungen
+
+22.14 31C   Az Ziegeldeckung f.Beidecken Öffnung b.0,5m2                                                                       Stk
+            Von Öffnungen (z.B. Einbauten, Aufbauten).
+            Größe der Öffnung bis 0,5 m2
+
+22.14 31D   Az Ziegeldeckung f.Beidecken Öffnung ü.0,5m2                                                                       m
+            Von Öffnungen (z.B. Einbauten, Aufbauten).
+            Größe der Öffnung über 0,5 m2: ____________
+            Abgerechnet wird die Länge.
+
+22.14 41    Aufzahlung (Az) auf Ziegeldoppeldeckungen für das Eindecken der Dachränder in Mörtel.
+             Kommentar:
+             Ganz im Mörtel verlegte Dachziegeldeckungen sind frei zu formulieren.
+
+22.14 41A   Az DD Ziegeldeckung f.Ränder/Umsäumungen m.Mörtel                                                                  m
+            Für die Verlegung an Dachrändern und Umsäumungen in Mörtel.
+            Sonstige Angaben: ____________
+22.14 42    Aufzahlung (Az) auf Ziegeldoppeldeckungen für Runddeckungen.
+            Abgerechnet wird die rundgedeckte Fläche.
+
+22.14 42A   Az DD Ziegeldeckung f.Runddeckung Kegel                                                                            m²
+            Als Kegeleindeckung.
+            Sonstige Angaben: ____________
+
+22.14 42B   Az DD Ziegeldeckung f.Runddeckung Kehlen                                                                           m²
+            Als Kehleneindeckung.
+            Sonstige Angaben: ____________
+
+22.14 42C   Az DD Ziegeldeckung f.Runddeckung Gaupen                                                                           m²
+            Als Gaupe.
+            Sonstige Angaben/Art: ____________
+
+22.14 42D   Az DD Ziegeldeckung f.Runddeckung                                                                                  m²
+            Sonstige Angaben: ____________
+
+
+                                                                                                                         Seite 10 / 35
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+
+22.15       Deckung m.Betondachsteinen
+            Deckungsmaterial:
+            Das Neumaterial wird gesondert vom Altmaterial in geschlossener Fläche verlegt.
+            Ein Vermengen von gebrauchtem und neuem Deckungsmaterial erfolgt nur auf Anordnung des Auftraggebers.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+                  • Mischdeckungen und historische Doppeldeckungen
+                  • bei Doppeldeckungen (DD) andere Steinlängen, Schnittlängen, Schnittformen und Materialdicken
+
+22.15 01    Windlastsicherung in der Dachfläche gemäß Windlast-Berechnung.
+            Abgerechnet wird die eingedeckte Dachfläche gemäß ÖNORM.
+
+22.15 01A   Windlastsicherung gem.Windlast-Berechnung f.Betondachsteine                                                         m²
+            Für Deckungen mit Betondachsteinen.
+
+22.15 02    Betondachsteindeckung mit Taschen, als Doppeldeckung auf vorbereiteter Lattung trocken gehängt.
+
+22.15 02A   Betontaschen DD                                                                                                     m²
+            Mit Betontaschen.
+
+22.15 03    Betondachsteindeckung mit Biberschwanzsteinen mit Rund- oder Segmentschnitt nach Wahl des
+            Auftraggebers, als Doppeldeckung auf vorbereiteter Lattung trocken gehängt.
+
+22.15 03A   Betondach-Bibersteine DD                                                                                            m²
+            Mit Biberschwanzsteinen.
+
+22.15 04    Betondachsteindeckung, auf vorbereiteter Lattung trocken gehängt.
+
+22.15 04A   Betondachsteine profiliert glatt                                                                                    m²
+            Mit profilierten Dachsteinen.
+                • glatt
+                • Bedarf über 9 bis 11 Stück/m2
+
+22.15 04B   Betondachsteine profiliert granuliert                                                                               m²
+            Mit profilierten Dachsteinen.
+                • granuliert
+                • Bedarf über 9 bis 11 Stück/m2
+
+22.15 04C   Betondachsteine eben m.Seitenfalz                                                                                   m²
+            Mit ebener, glatter Oberfläche und mit Seitenfalz.
+                • Bedarf über 9 bis 11 Stück/m2
+
+22.15 04D   Betondachsteine profiliert großflächig                                                                              m²
+            Mit profilierten, großflächigen Dachsteinen.
+                • Bedarf 7 bis 9 Stück/m2
+
+22.15 08    Betondachsteindeckung mit Taschen, als Doppeldeckung auf vorbereiteter Lattung trocken gehängt.
+
+22.15 08A   Gebrauchte Betontaschen DD                                                                                          m²
+            Mit gebrauchten, am Dachboden gelagerten Betontaschen.
+
+22.15 09    Betondachsteindeckung mit Biberschwanzsteinen mit Rund- oder Segmentschnitt nach Wahl des
+            Auftraggebers, als Doppeldeckung auf vorbereiteter Lattung trocken gehängt.
+
+22.15 09A   Gebrauchte Betondach-Bibersteine DD                                                                                 m²
+            Mit gebrauchten, am Dachboden gelagerten Biberschwanzsteinen.
+
+22.15 10    Betondachsteindeckung mit gebrauchten, am Dachboden gelagerten Steinen, auf vorbereiteter Lattung trocken
+            gehängt.
+
+22.15 10A   Gebrauchte Betondachsteine                                                                                          m²
+
+                                                                                                                          Seite 11 / 35
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+            Mit Betondachsteinen.
+                • Bedarf 9 bis 11 Stück/m2
+
+22.15 10B   Gebrauchte Betondachsteine profiliert                                                                     m²
+            Mit Betondachsteinen.
+                • Bedarf 7 bis 9 Stück/m2
+
+22.15 15    Fugenverstrich (Längs- und Querfugen) an der Innenseite der Dachfläche mit Kalkzementmörtel bei
+            Betondachsteindeckungen (Bet.-Dachsteindeckung).
+            Abgerechnet wird die Dachfläche ohne Unterschied der Neigung und ohne Zuschläge.
+
+22.15 15A   Fugenverstrich Bet.-Dachsteindeckung                                                                      m²
+            Bei Deckungen mit Betondachsteinen.
+            Arbeitshöhe: ____________
+22.15 17    Aufzahlung (Az) auf Betondachsteindeckungen (Bet.-Dachsteindeckung) für die Erschwernisse bei einem
+            Unterdach.
+
+22.15 17A   Az Bet.-Dachsteindeckung f.Erschwernisse Unterdach                                                        m²
+            Für die Materialeinbringung aus dem Dachraum.
+
+22.15 18    Aufzahlung (Az) auf Betondachsteindeckungen (Bet.-Dachsteindeckung) für das einseitige Anarbeiten und
+            Befestigen.
+
+22.15 18A   Az Bet.-Dachsteindeckung ED f.Anarbeiten/gerade                                                           m
+            An gerade Umsäumungen (z.B. Firste, Traufen, Ortsäume).
+                • bei Einfachdeckungen
+
+22.15 18B   Az Bet.-Dachsteindeckung DD f.Anarbeiten/gerade                                                           m
+            An gerade Umsäumungen (z.B. Firste, Traufen, Ortsäume).
+                • bei Doppeldeckungen
+
+22.15 18C   Az Bet.-Dachsteindeckung ED f.Anarbeiten/schräg                                                           m
+            An schräge Umsäumungen (z.B. Ichsen, Grate).
+                • bei Einfachdeckungen
+
+22.15 18D   Az Bet.-Dachsteindeckung DD f.Anarbeiten/schräg                                                           m
+            An schräge Umsäumungen (z.B. Ichsen, Grate).
+                • bei Doppeldeckungen
+22.15 19    Aufzahlung (Az) auf Betondachsteindeckungen (Bet.-Dachsteindeckung).
+
+22.15 19A   Az Bet.-Dachsteindeckung ED f.Neigung ü.45-60°                                                            m²
+            Für die Erschwernisse bei Dächern mit einer Neigung über 45 bis 60 Grad.
+                • bei Einfachdeckungen
+
+22.15 19B   Az Bet.-Dachsteindeckung DD f.Neigung ü.45-60°                                                            m²
+            Für die Erschwernisse bei Dächern mit einer Neigung über 45 bis 60 Grad.
+                • bei Doppeldeckungen
+
+22.15 19C   Az Bet.-Dachsteindeckung f.Ortgangstein                                                                   m
+            Für das Eindecken mit Ortgangsteinen, einschließlich Befestigungen.
+
+22.15 19D   Az Bet.-Dachsteindeckung f.Abdichten Innenrand                                                            m
+            Für das Abdichten der inneren Dachränder (Blechanschlüsse) mit Schaumstoffdichtkeilen.
+
+22.15 19E   Az Bet.-Dachsteindeckung f.Vogelschutz                                                                    m
+            Für das Einsetzen von Kamm-Elementen als Vogelschutz an der Traufe.
+
+22.15 19F   Az Bet.-Dachsteindeckung f.Vogelschutz m.Höhenausgleich                                                   m
+                                                                                                                Seite 12 / 35
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+            Für das Einsetzen von offenen Traufen-Elementen mit Kamm, aus Kunststoff, als Vogelschutz und
+            Höhenausgleich.
+            Profilhöhe: 30 cm
+
+22.15 19G   Az Bet.-Dachsteindeckung f.Höhenausgleich                                                                       m
+            Für das Einsetzen von offenen Traufen-Elementen, aus Kunststoff, als Höhenausgleich.
+                 • Profilhöhe: 30 cm
+22.15 21    First- und Grateindeckung mit Betondachsteinen auf vorgefertigten, wasserabweisenden Elementen mit
+            Lüftungsfunktion auf vorhandener First- und Gratlattung oder in Mörtel.
+            Jeder Firststein wird mit Klammern befestigt.
+
+22.15 21A   First-/Gratstein                                                                                                m
+            Mit First-/Gratsteinen, trocken verlegt.
+
+22.15 21B   First-/Gratstein m.Glattfirst                                                                                   m
+            Mit First-/Gratsteinen, trocken verlegt.
+                 • mit Glattfirst
+
+22.15 21C   Anfang-/Endscheiben f.First-/Grat-Bet.-Dachsteindeckung                                                         Stk
+            Mit Anfang- und/oder Endscheiben.
+
+22.15 21D   Grat-Anfangstein f.First-/Grat-Bet.-Dachsteindeckung                                                            Stk
+            Mit Grat-Anfangsteinen.
+
+22.15 21E   Verteiler 3-achsig f.First-/Grat-Bet.-Dachsteindeckung                                                          Stk
+            Mit Verteilern, 3-achsig.
+
+22.15 21F   First-/Pultstein Bet.-Dachsteindeckung trocken verlegt                                                          m
+            Mit First-Pultsteinen, trocken verlegt.
+
+22.15 21G   First-/Gratlatte Bet.-Dachsteindeckung                                                                          m
+            First- oder Gratlatte, in der Höhenlage den technischen Erfordernissen angepasst, verlegen.
+
+22.15 22    Ent- und Belüftungselemente für Betondachsteindeckungen (Bet.-Dachsteindeckung).
+
+22.15 22A   Entlüftungssteine f.Bet.-Dachsteindeckung                                                                       Stk
+            Entlüftungssteine.
+
+22.15 22B   Entlüftungselement First-/Gratrolle f.Bet.-Dachsteindeckung                                                     Stk
+            Mit First- und Gratrolle bei First- und Gratausführung mit First- und Gratsteinen.
+
+22.15 22C   Entlüftungselement Kunststoffkappe f.Bet.-Dachsteindeckung                                                      Stk
+            Kunststoffkappe mit Bürsten bei First- und Gratausführung mit First- und Gratsteinen.
+
+22.15 25    Zubehör für Durchdringungen bei Betondachsteindeckungen (Bet.-Dachsteindeckung).
+
+22.15 25A   Dunstrohrset Kunstst.f.Bet.-Dachsteindeckung b.100mm                                                            Stk
+            Dunstrohraufsatz aus Kunststoff, bestehend aus:
+                 • Durchgangselement (Pfanne)
+                 • Rohr mit Abdeckkappe
+                 • Anschlussschlauch mit Reduktion
+            Nenn-Durchmesser (DN): bis 100 mm
+
+22.15 25B   Dunstrohrset Kunstst.f.Bet.-Dachsteindeckung ü.100mm                                                            Stk
+            Dunstrohraufsatz aus Kunststoff, bestehend aus:
+                 • Durchgangselement (Pfanne)
+                 • Rohr mit Abdeckkappe
+                 • Anschlussschlauch mit Reduktion
+            Nenn-Durchmesser (DN) über 100 mm: ____________
+
+                                                                                                                      Seite 13 / 35
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+22.15 25C   Antennenaufsatz f.Bet.-Dachsteindeckung                                                                      Stk
+            Antennenaufsatz, einschließlich Pfanne.
+            Zusätzliche Angaben: ____________
+
+22.15 25D   Rohr-u.Kabeldurchführungen f.Bet.-Dachsteindeckung                                                           Stk
+            Rohr- und Kabeldurchführungen.
+            Zusätzliche Angaben: ____________
+
+22.15 25E   Az Bet.-Dachsteindeckung m.Unterdach f.Dichtmanschetten                                                      Stk
+            Aufzahlung (Az) für regensichere, wind- und luftdichte Durchdringungen im Unterdach mittels Dichtmanschetten.
+            Zusätzliche Angaben: ____________
+22.15 26    Sonderelemente für Betondachsteindeckungen (Bet.-Dachsteindeckung).
+
+22.15 26A   Stand-/Grundplatte f.Bet.-Dachsteindeckung                                                                   Stk
+            Grundplatte aus Metall in Steinform, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung),:als
+            Zusatzelemente für Stand- oder Laufrostsysteme, einschließlich Haltebügel oder Haltestütze, Verbindungsmittel
+            und Stützlattungen.
+
+22.15 26B   Steigtritt-Set f.Bet.-Dachsteindeckung                                                                       Stk
+            Steigtritt-Set, korrosionsbeständig und beschichtet (Farbe der Dachdeckung angepasst), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatte aus Metall in Steinform
+                • Steigtritt
+
+22.15 26C   Stufenrost-Set 40x25cm f.Bet.-Dachsteindeckung                                                               Stk
+            Stufenrost-System, korrosionsbeständig und beschichtet (Farbe der Dachdeckung angepasst), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • zwei Grundplatten aus Metall in Steinform
+                • mit Stütze und Haltebügel
+                • Stufenrost ca. 40 x 25 cm
+
+22.15 26D   Stufenrost-Set 80x25cm f.Bet.-Dachsteindeckung                                                               Stk
+            Stufenrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • zwei Grundplatten aus Metall in Steinform
+                • mit Stütze und Haltebügel
+                • Stufenrost ca. 80 x 25 cm
+
+22.15 26E   Laufrost-System f.Bet.-Dachsteindeckung                                                                      m
+            Laufrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatten aus Metall in Steinform
+                • einschließlich Stützen
+                • Laufrostbügel und Laufrost
+
+22.15 26G   Schneefangbaum f.Bet.-Dachsteindeckung                                                                       m
+            Schneefangbaum aus Lärche oder Kiefer druckimprägniert, einschließlich Stützen, Verbinder,
+            Befestigungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatten aus Metall in Steinform
+                • Stützen
+                • Schneefangbaum
+
+
+22.15 26H   Schneehalter Metall f.Bet.-Dachsteindeckung                                                                  Stk
+            Schneehalter (Schneenasen) aus Metall.
+            Anzahl nach erforderlichem Schneeschutzschema: ____________
+
+22.15 26I   Schneefangrohr 1-fach f.Bet.-Dachsteindeckung                                                                m
+
+
+
+                                                                                                                   Seite 14 / 35
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+            Schneefangrohre, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich Stützen,
+            Verbindungsmittel und Stützlattungen.
+                • für 1-fachen Durchzug
+
+22.15 26J   Schneefangrohr 2-fach f.Bet.-Dachsteindeckung                                                                  m
+            Schneefangrohre, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen.
+                • für 2-fachen Durchzug
+
+22.15 26K   Schneestop-Steine Beton f.Bet.-Dachsteindeckung                                                                Stk
+            Schneestop-Steine aus Beton..
+            Anzahl nach erforderlichem Schneeschutzschema: ____________
+
+22.15 26L   Ausstiegsfenster feuerverzinkt/besch.f.Bet.-Dachsteindeckung                                                   Stk
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • feuerverzinkt und beschichtet
+                • mit regensicherer Einbindung
+
+22.15 26M   Ausstiegsfenster Cu f.Bet.-Dachsteindeckung                                                                    Stk
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • aus Kupfer (Cu)
+                • mit regensicherer Einbindung
+
+22.15 26N   Ausstiegsfenster Kunststoff f.Bet.-Dachsteindeckung                                                            Stk
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • aus Kunststoff
+                • mit regensicherer Einbindung
+
+22.15 26O   Ausstiegsfenster m.Metalleinfassung f.Bet.-Dachsteindeckung                                                    Stk
+            Ausstiegsfenster-System mit Metalleinfassung, einschließlich Ausschneiden, Hilfslattung und Beideckung.
+                • innere Lichte: ca. 40 x 55 cm
+                • verzinkt und beschichtet oder Alu-beschichtet
+                • mit regensicherer Einbindung
+
+22.15 26P   Standbrettstein f.Bet.-Dachsteindeckung                                                                        Stk
+            Standbrettstein aus Beton für Stand- und Laufrost-Systeme, einschließlich
+                • Haltebügel
+                • Verbindungsmittel
+                • Stützlattung
+
+22.15 26Q   Stufenrost-Set/Standbrettst.40x25cm f.Bet.-Dachsteindeckung                                                    Stk
+            Stufenrost-System aus Formsteinen und korrosionsbeständig, beschichtete Elemente (Farbe der Dachdeckung
+            angepasst), einschließlich Verbindungsmittel und Stützlattungen, bestehend aus:
+                • zwei Standbrettsteinen aus Beton
+                • mit Stütze und Haltebügel
+                • Stufenrost ca. 40 x 25 cm
+
+22.15 26R   Stufenrost-Set/Standbrettst.800x25cm f.Bet.-Dachsteindeckung                                                   Stk
+            Stufenrost-System aus Formsteinen und korrosionsbeständig, beschichtete Elemente (Farbe der Dachdeckung
+            angepasst), einschließlich Verbindungsmittel und Stützlattungen, bestehend aus:
+                • zwei Standbrettsteinen aus Beton
+                • mit Stütze und Haltebügel
+                • Stufenrost ca. 80 x 25 cm
+
+22.15 30    Aufzahlung (Az) auf Betondachsteindeckungen (BDSD).
+
+22.15 30A   Az BDSD f.Ausschneiden UD regen-/flugschneesicher b.0,1m2                                                      Stk
+
+
+                                                                                                                     Seite 15 / 35
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbauen von Wasserabweisern oder
+            Dichtmanschetten.
+                • regensicher/flugschneesicher
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+
+22.15 30B   Az BDSD f.Ausschneiden UD regen-/flugschneesicher ü.0,1m2                                                          m
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbauen von Wasserabweisern oder
+            Dichtmanschetten.
+                • regensicher/flugschneesicher
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+            Abgerechnet wird die Schnittlänge.
+
+22.15 30C   Az BDSD f.Ausschneiden UD winddicht b.0,1m2                                                                        Stk
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbinden der Durchdringungen.
+                • winddicht
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+
+22.15 30D   Az BDSD f.Ausschneiden UD winddicht ü.0,1m2                                                                        m
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbinden der Durchdringungen.
+                • winddicht
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+            Abgerechnet wird die Schnittlänge.
+
+22.15 31    Aufzahlung (Az) auf Betondachsteindeckungen (Bet.-Dachsteindeckung) für das Beidecken.
+             Kommentar:
+             Diese Positionen sind auszuschreiben, wenn Einbauteile vor den Dachdeckerarbeiten beziehungsweise von "Dritten"
+             vorhanden sind.
+
+22.15 31A   Az Bet.-Dachsteindeckung f.Beidecken Stütze ED                                                                     Stk
+            An vorhandene Stützen.
+                • bei Einfachdeckungen
+
+22.15 31B   Az Bet.-Dachsteindeckung f.Beidecken Stütze DD                                                                     Stk
+            An vorhandene Stützen.
+                • bei Doppeldeckungen
+
+22.15 31C   Az Bet.-Dachsteindeckung f.Beidecken Öffnung b.0,5m2                                                               Stk
+            Von Öffnungen (z.B. Einbauten, Aufbauten).
+            Größe der Öffnung bis 0,5 m2
+
+22.15 31D   Az Bet.-Dachsteindeckung f.Beidecken Öffnung ü.0,5m2                                                               m
+            Von Öffnungen (z.B. Einbauten, Aufbauten).
+            Größe der Öffnung über 0,5 m2: ____________
+            Abgerechnet wird die Länge.
+
+22.16       Deckung m.ebenen Faserzementdachplatten
+             Kommentar:
+             Frei zu formulieren (z.B.):
+                  • Faserzementdachplatten in Sonderfarben
+                  • Belichtungsformstücke
+                  • Runddeckungen (z.B. Kehlen, Kegel, Gaupen)
+
+22.16 01    Windlastsicherung in der Dachfläche gemäß Windlast-Berechnung.
+            Abgerechnet wird die eingedeckte Dachfläche gemäß ÖNORM.
+
+22.16 01A   Windlastsicherung gem.Windlast-Berechnung f.Faserzementd.Pl.                                                       m²
+            Für Deckungen mit Faserzementdachplatten.
+
+                                                                                                                         Seite 16 / 35
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                              EH
+
+22.16 02    Faserzementdachplattendeckung mit Rechtecksteinen.
+            Abmessungen: 40 x 60 cm
+
+22.16 02A   FZ-Rechteck 40x60cm ED Lattung                                                                         m²
+            Als Einfachdeckung auf vorhandener Lattung.
+
+22.16 02B   FZ-Rechteck 40x60cm ED Schalung                                                                        m²
+            Als Einfachdeckung auf vorhandener Schalung und Vordeckung.
+
+22.16 03    Faserzementdachplattendeckung mit Rhombussteinen.
+            Abmessungen: 40 x 44 cm
+
+22.16 03A   FZ-Rhombus 40x44cm waagrechte Lattung                                                                  m²
+            Als waagrechte Deckung auf vorhandener Lattung.
+
+22.16 03B   FZ-Rhombus 40x44cm waagrechte Schalung                                                                 m²
+            Als waagrechte Deckung auf vorhandener Schalung und Vordeckung.
+
+22.16 03C   FZ-Rhombus 40x44cm steigende Schalung                                                                  m²
+            Als steigende Deckung auf vorhandener Schalung und Vordeckung.
+
+22.16 04    Faserzementdachplattendeckung mit Rhombus-Schablonen.
+            Abmessungen: 40 x 44 cm
+
+22.16 04A   FZ-Rhombus-Schablone 40x44cm Lattung                                                                   m²
+            Auf vorhandener Lattung.
+
+22.16 04B   FZ-Rhombus-Schablone 40x44cm Schalung                                                                  m²
+            Auf vorhandener Schalung und Vordeckung.
+
+22.16 05    Faserzementdachplattendeckung mit Steinschindeln.
+            Abmessungen: 38,5 x 19,4 cm
+
+22.16 05A   FZ-Steinschindel 38x19cm Lattung                                                                       m²
+            Auf vorhandener Lattung.
+
+22.16 05B   FZ-Steinschindel 38x19cm Schalung                                                                      m²
+            Auf vorhandener Schalung und Vordeckung.
+
+22.16 06    Faserzementdachplattendeckung mit Rechtecksteinen.
+            Abmessungen: 60 x 40 cm
+
+22.16 06A   FZ-Rechteck 60x40 vollkantig DD Lattung                                                                m²
+            Vollkantig als Doppeldeckung auf vorhandener Lattung.
+
+22.16 06B   FZ-Rechteck 60x40 vollkantig DD Schalung                                                               m²
+            Vollkantig als Doppeldeckung auf vorhandener Schalung und Vordeckung.
+
+22.16 06C   FZ-Rechteck 60x40 gest.Ecken DD Lattung                                                                m²
+            Mit gestutzten Ecken als Doppeldeckung auf vorhandener Lattung.
+
+22.16 06D   FZ-Rechteck 60x40 gest.Ecken DD Schalung                                                               m²
+            Mit gestutzten Ecken als Doppeldeckung auf vorhandener Schalung und Vordeckung.
+
+22.16 07    Faserzementdachplattendeckung mit Quadratsteinen.
+            Abmessungen: 40 x 40 cm
+
+22.16 07A   FZ-Quadrat 40x40 vollkantig DD Lattung                                                                 m²
+            Vollkantig als Doppeldeckung auf vorhandener Lattung.
+
+22.16 07B   FZ-Quadrat 40x40 vollkantig DD Schalung                                                                m²
+                                                                                                             Seite 17 / 35
+                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+            Vollkantig als Doppeldeckung auf vorhandener Schalung und Vordeckung.
+
+22.16 07C   FZ-Quadrat 40x40 vollkantig/Sonderlochung DD Lattung                                                     m²
+            Vollkantig als Doppeldeckung mit Sonderlochung auf vorhandener Lattung.
+
+22.16 07D   FZ-Quadrat 40x40 vollkantig/Sonderlochung DD Schalung                                                    m²
+            Vollkantig als Doppeldeckung mit Sonderlochung auf vorhandener Schalung und Vordeckung.
+
+22.16 08    Faserzementdachplattendeckung mit Rechtecksteinen.
+            Abmessungen: 40 x 30 cm
+
+22.16 08A   FZ-Rechteck 40x30 vollkantig DD Lattung                                                                  m²
+            Vollkantig als Doppeldeckung auf vorhandener Lattung.
+
+22.16 08B   FZ-Rechteck 40x30 vollkantig DD Schalung                                                                 m²
+            Vollkantig als Doppeldeckung auf vorhandener Schalung und Vordeckung.
+
+22.16 08C   FZ-Rechteck 40x30 gest.Ecken DD Lattung                                                                  m²
+            Doppeldeckung mit gestutzten Ecken auf vorhandener Lattung.
+
+22.16 08D   FZ-Rechteck 40x30 gest.Ecken DD Schalung                                                                 m²
+            Doppeldeckung mit gestutzten Ecken auf vorhandener Schalung und Vordeckung.
+
+22.16 17    Aufzahlung (Az) auf Faserzementdachplattendeckung (FZ-Deckung) für die Erschwernisse bei einem
+            Unterdach.
+
+22.16 17A   Az FZ-Deckung ED f.Erschwernisse Unterdach                                                               m²
+            Für die Materialeinbringung aus dem Dachraum bei Einfachdeckungen.
+
+22.16 17B   Az FZ-Deckung DD f.Erschwernisse Unterdach                                                               m²
+            Für die Materialeinbringung aus dem Dachraum bei Doppeldeckungen.
+
+22.16 18    Aufzahlung (Az) auf Faserzementdachplattendeckung (FZ-Deckung) für das einseitige Anarbeiten und
+            Befestigen.
+
+22.16 18A   Az FZ-Deckung ED f.Anarbeiten/gerade                                                                     m
+            An gerade Umsäumungen (z.B. Firste, Traufen, Ortsäume).
+                • bei Einfachdeckungen
+
+22.16 18B   Az FZ-Deckung DD f.Anarbeiten/gerade                                                                     m
+            An gerade Umsäumungen (z.B. Firste, Traufen, Ortsäume).
+                • bei Doppeldeckungen
+
+22.16 18C   Az FZ-Deckung ED f.Anarbeiten/schräg                                                                     m
+            An schräge Umsäumungen (z.B. Ichsen, Grate).
+                • bei Einfachdeckungen
+
+22.16 18D   Az FZ-Deckung DD f.Anarbeiten/schräg                                                                     m
+            An schräge Umsäumungen (z.B. Ichsen, Grate).
+                • bei Doppeldeckungen
+22.16 19    Aufzahlung (Az) auf Faserzementdachplattendeckung (FZ-Deckung).
+
+22.16 19A   Az FZ-Deckung ED f.Neigung ü.45-60°                                                                      m²
+            Für die Erschwernisse bei Dächern mit einer Neigung über 45 bis 60 Grad.
+                • bei Einfachdeckungen
+
+22.16 19B   Az FZ-Deckung DD f.Neigung ü.45-60°                                                                      m²
+            Für die Erschwernisse bei Dächern mit einer Neigung über 45 bis 60 Grad.
+                • bei Doppeldeckungen
+
+                                                                                                               Seite 18 / 35
+                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+22.16 19C   Az FZ-Deckung ED 2faches Fußgebinde                                                                         m²
+            Für ein zweifaches Fußgebinde.
+                 • bei Einfachdeckungen
+
+22.16 19D   Az FZ-Deckung DD 3faches Fußgebinde                                                                         m²
+            Für ein dreifaches Fußgebinde.
+                 • bei Doppeldeckungen
+22.16 21    First- und Grateindeckung bei Faserzementdachplattendeckungen (FZ-Deckung) auf vorhandener First- und
+            Gratlattung.
+
+22.16 21A   Firstkappe f.FZ-Deckung                                                                                     m
+            Mit Firstkappen.
+            Jede Firstkappe wird mit Klammern befestigt.
+
+22.16 21B   First-/Grat-Faltplatte f.FZ-Deckung                                                                         m
+            Mit First-/Grat-Faltplatten.
+
+22.16 21C   Anfänger/Ender f.FZ-Deckung                                                                                 Stk
+            Mit First-Anfänger beziehungsweise -Ender.
+
+22.16 21D   Gratverteiler f.FZ-Deckung                                                                                  Stk
+            Mit Gratverteilerplatten beziehungsweise -steinen.
+
+22.16 21E   Rollgebinde f.FZ-Deckung                                                                                    m
+            Mit beidseitigem Rollgebinde ohne Überstand.
+
+22.16 21F   Rollgebinde+Überstand f.FZ-Deckung                                                                          m
+            Mit beidseitigem Rollgebinde mit wetterseitigem Überstand.
+
+22.16 21G   Rollgebinde+Bleinocken f.FZ-Deckung                                                                         m
+            Mit beidseitigem Rollgebinde mit eingelegten Bleinocken.
+
+22.16 21H   Rollgebinde First f.FZ-Deckung                                                                              m
+            Mit Rollgebinde am Halbfirst.
+
+22.16 21I   Grat+Bleinocken f.FZ-Deckung                                                                                m
+            Für beidseitig genaues Anarbeiten der Scharen an Grate, einschließlich Unterlegen mit Bleinocken.
+
+22.16 22    Ent- und Belüftungselemente für Faserzementdachplattendeckungen (FZ-Deckung)
+
+22.16 22A   Entlüft.-Elemente Blechentlüfter f.FZ-Deckung                                                               Stk
+            Mit Blechentlüfter.
+
+22.16 22B   Entlüft.-Elemente Lüftungsband f.FZ-Deckung                                                                 m
+            Mit Lüftungsbändern.
+
+22.16 22C   Entlüft.-Elemente Lüftungsstein f.FZ-Deckung                                                                Stk
+            Mit Lüftungssteinen.
+
+22.16 25    Zubehör für Durchdringungen bei Faserzementdachplattendeckungen (FZ-Deckung).
+
+22.16 25A   Dunstrohrset Kunstst.f.FZ-Deckung b.100mm                                                                   Stk
+            Dunstrohraufsatz aus Kunststoff, bestehend aus:
+                 • Durchgangselement (Pfanne)
+                 • Rohr mit Abdeckkappe
+                 • Anschlussschlauch mit Reduktion
+            Nenn-Durchmesser (DN): bis 100 mm
+
+22.16 25B   Dunstrohrset Kunstst.f.FZ-Deckung ü.100mm                                                                   Stk
+                                                                                                                  Seite 19 / 35
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Dunstrohraufsatz aus Kunststoff, bestehend aus:
+                • Durchgangselement (Pfanne)
+                • Rohr mit Abdeckkappe
+                • Anschlussschlauch mit Reduktion
+            Nenn-Durchmesser (DN) über 100 mm: ____________
+
+22.16 25C   Antennenaufsatz f.FZ-Deckung                                                                                  Stk
+            Antennenaufsatz, einschließlich Grundplatte.
+            Zusätzliche Angaben:____________
+
+22.16 25D   Rohr-u.Kabeldurchführung f.FZ-Deckung                                                                         Stk
+            Rohr- und Kabeldurchführungen.
+            Zusätzliche Angaben:____________
+
+22.16 25E   Az FZ-Deckung m.Unterdach f.Dichtmanschetten                                                                  Stk
+            Aufzahlung (Az) für regensichere, wind- und luftdichte Durchdringungen im Unterdach mittels Dichtmanschetten.
+            Zusätzliche Angaben: ____________
+22.16 26    Sonderelemente für Faserzementdachplattendeckungen (FZ-Deckung).
+
+22.16 26A   Stand/Grundplatte f.FZ-Deckung                                                                                Stk
+            Grundplatte aus Metall, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung) als Zusatzelement
+            für Stand- oder Laufrostsysteme, einschließlich Haltebügel oder Haltestütze, Verbindungsmittel und
+            Stützlattungen.
+
+22.16 26B   Steigtritt-Set f.FZ-Deckung                                                                                   Stk
+            Steigtritt-Set, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatte aus Metall
+                • Steigtritt
+
+22.16 26C   Stufenrost-Set 40x25cm f.FZ-Deckung                                                                           Stk
+            Stufenrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • zwei Grundplatten aus Metall
+                • mit Stütze und Haltebügel
+                • Stufenrost ca. 40 x 25 cm
+
+22.16 26D   Stufenrost-Set 80x25cm f.FZ-Deckung                                                                           Stk
+            Stufenrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • zwei Grundplatten aus Metall
+                • mit Stütze und Haltebügel
+                • Stufenrost ca. 80 x 25 cm
+
+22.16 26E   Laufrost-System f.FZ-Deckung                                                                                  m
+            Laufrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatten aus Metall
+                • einschließlich Stützen
+                • Laufrostbügel und Laufrost mit Verbinder
+
+22.16 26G   Schneefangbaum f.FZ-Deckung                                                                                   m
+            Schneefangbaum aus Lärche oder Kiefer druckimprägniert, einschließlich Stützen, Verbinder,
+            Befestigungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatten aus Metall
+                • Stützen
+                • Schneefangbaum
+
+22.16 26H   Schneehalter Metall f.FZ-Deckung                                                                              Stk
+            Schneehalter (Schneenasen) aus Metall.
+
+                                                                                                                    Seite 20 / 35
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+22.16 26I   Schneefangrohr 1-fach f.FZ-Deckung                                                                             m
+            Schneefangrohre, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich Stützen,
+            Verbindungsmittel und Stützlattungen.
+                • für 1-fachen Durchzug
+
+22.16 26J   Schneefangrohr 2-fach f.FZ-Deckung                                                                             m
+            Schneefangrohre, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich Stützen,
+            Verbindungsmittel und Stützlattungen.
+                • für 2-fachen Durchzug
+
+22.16 26K   Ausstiegsfenster feuerverzinkt/beschicht.f.FZ-Deckung                                                          Stk
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • feuerverzinkt und beschichtet
+                • mit regensicherer Einbindung
+
+22.16 26L   Ausstiegsfenster Cu f.FZ-Deckung                                                                               Stk
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • aus Kupfer (Cu)
+                • mit regensicherer Einbindung
+
+22.16 26M   Ausstiegsfenster Kunststoff f.FZ-Deckung                                                                       Stk
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • aus Kunststoff
+                • mit regensicherer Einbindung
+
+22.16 26N   Ausstiegsfenster m.Metalleinfassung f.FZ-Deckung                                                               Stk
+            Ausstiegsfenster-System mit Metalleinfassung, einschließlich Ausschneiden, Hilfslattung und Beideckung.
+                • innere Lichte: ca. 40 x 55 cm
+                • verzinkt und beschichtet oder Alu-beschichtet
+                • mit regensicherer Einbindung
+
+22.16 30    Aufzahlung (Az) auf Faserzementdachplattendeckungen (FZD).
+
+22.16 30A   Az FZD f.Ausschneiden UD regen-/flugschneesicher b.0,1m2                                                       Stk
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbauen von Wasserabweisern oder
+            Dichtmanschetten.
+                • regensicher/flugschneesicher
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+
+22.16 30B   Az FZD f.Ausschneiden UD regen-/flugschneesicher ü.0,1m2                                                       m
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbauen von Wasserabweisern oder
+            Dichtmanschetten.
+                • regensicher/flugschneesicher
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+            Abgerechnet wird die Schnittlänge.
+
+22.16 30C   Az FZD f.Ausschneiden UD winddicht b.0,1m2                                                                     Stk
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbinden der Durchdringungen.
+                • winddicht
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+
+22.16 30D   Az FZD f.Ausschneiden UD winddicht ü.0,1m2                                                                     m
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbinden der Durchdringungen.
+                • winddicht
+
+
+                                                                                                                     Seite 21 / 35
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+            Abgerechnet wird die Schnittlänge.
+22.16 31    Aufzahlung (Az) auf Faserzementdachplattendeckungen (FZ-Deckung) für das Beidecken.
+             Kommentar:
+             Diese Positionen sind auszuschreiben, wenn Einbauteile vor den Dachdeckerarbeiten beziehungsweise von "Dritten"
+             vorhanden sind.
+
+22.16 31A   Az FZ-Deckung f.Beidecken Stütze ED                                                                                Stk
+            An vorhandene Stützen.
+                • bei Einfachdeckungen
+
+22.16 31B   Az FZ-Deckung f.Beidecken Stütze DD                                                                                Stk
+            An vorhandene Stützen.
+                • bei Doppeldeckungen
+
+22.16 31C   Az FZ-Deckung f.Beidecken Öffnung b.0,5m2                                                                          Stk
+            Von Öffnungen (z.B. Einbauten, Aufbauten).
+            Größe der Öffnung bis 0,5 m2
+
+22.16 31D   Az FZ-Deckung f.Beidecken Öffnung ü.0,5m2                                                                          m
+            Von Öffnungen (z.B. Einbauten, Aufbauten).
+            Größe der Öffnung über 0,5 m2: ____________
+            Abgerechnet wird die Länge.
+
+22.17       Deckung m.profilierten Faserzementdachplatten
+             Kommentar:
+             Frei zu formulieren (z.B.):
+                  • profilierte Faserzementdachplatten in Sonderfarben
+                  • Runddeckungen (z.B. Kehlen, Kegel, Gaupen)
+
+22.17 01    Windlastsicherung in der Dachfläche gemäß ÖNORM.
+
+22.17 01A   Windlastsicherung gem.Windlast-Berechnung f.prof.FZ-D.Pl.                                                          m²
+            Für Deckungen mit profilierte Faserzementdachplatten (FZ-D.Pl.).
+
+22.17 02    Profilierte Faserzement (FZ) -Dachplattendeckung auf vorhandenen Holzpfetten.
+
+22.17 02A   Profilierte FZ-Dachplatte auf Holzpfette                                                                           m²
+                • Länge: 625 mm
+
+22.17 03    Lichtplatten für profilierte FZ-Dachplattendeckung, aus glasfaserverstärktem Polyester auf Holzpfette verlegt.
+
+22.17 03A   Lichtplatten f.profilierte FZ-Dachplattendeckung                                                                   m²
+                • Länge: 625 mm
+
+22.17 17    Aufzahlung (Az) auf profilierte Faserzementdachplattendeckung (profil.FZ-Deckung) für die Erschwernisse bei
+            einem Unterdach.
+
+22.17 17A   Az profil.FZ-Deckung ED f.Erschwernisse Unterdach                                                                  m²
+            Für die Materialeinbringung aus dem Dachraum.
+
+22.17 18    Aufzahlung (Az) auf profilierte Faserzementdachplattendeckung (profil.FZ-Deckung) für das einseitige
+            Anarbeiten und Befestigen.
+
+22.17 18A   Az profil.FZ-Deckung ED f.Anarbeiten/gerade                                                                        m
+            An gerade Umsäumungen (z.B. Firste, Traufen, Ortsäume).
+
+22.17 18B   Az profil.FZ-Deckung ED f.Anarbeiten/schräg                                                                        m
+            An schräge Umsäumungen (z.B. Ichsen, Grate).
+
+22.17 19    Aufzahlung (Az) auf profilierte Faserzementdachplattendeckung (profil.FZ-Deckung).
+
+                                                                                                                         Seite 22 / 35
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+22.17 19A   Az profil.FZ-Deckung ED f.Neigung ü.45-60°                                                                      m²
+            Für die Erschwernisse bei Dächern mit einer Neigung über 45 bis 60 Grad.
+
+22.17 19B   Az profil.FZ-Deckung ED f.Ortgangstein                                                                          m
+            Für das Eindecken des Ortganges mit Ortgangsteinen.
+
+22.17 19C   Az profil.FZ-Deckung ED f.Ortganganfangssteine                                                                  Stk
+            Für einen Ortganganfangsstein (links oder rechts).
+
+22.17 19D   Az profil.FZ-Deckung ED f.Pultortgangstein                                                                      Stk
+            Für einen Pultortgangstein am Halbfirstende.
+
+22.17 19E   Az profil.FZ-Deckung ED f.Traufenstein 60x200                                                                   m
+            Für Traufensteine 60 x 200 mm an der Traufe.
+
+22.17 19F   Az profil.FZ-Deckung ED f.Übergangsstein                                                                        m
+            Für Übergangssteine für die Firstausführung mit First- und Gratsteinen.
+
+22.17 19G   Az profil.FZ-Deckung ED f.Höhenübergriffdichtung                                                                m²
+            Für eine Höhenübergriffdichtung vorkomprimiert, einseitig klebend und imprägniert.
+                • mit Dichtungsband 10 x 18 mm
+22.17 21    First- und Grateindeckung bei profilierte Faserzementdachplattendeckungen (profil.FZ-Deckung) auf
+            vorhandener First- und Gratlattung.
+
+22.17 21A   First-/Gratstein f.profil.FZ-Deckung                                                                            m
+            Mit First- und Gratsteinen.
+
+22.17 21B   Gratanfangstein f.profil.FZ-Deckung                                                                             Stk
+            Mit Gratanfangssteinen.
+
+22.17 21C   First-Gratverteiler f.profil.FZ-Deckung                                                                         Stk
+            Mit First-Gratverteilerplatten beziehungsweise -steinen.
+
+22.17 21D   Firstanfangscheibe f.profil.FZ-Deckung                                                                          Stk
+            Mit Firstanfangscheiben aus Faserzement.
+
+22.17 21E   Firstendscheibe f.profil.FZ-Deckung                                                                             Stk
+            Mit Firstendscheiben aus Faserzement.
+
+22.17 21F   Halbfirst-Pultstein f.profil.FZ-Deckung                                                                         m
+            Mit Halbfirst-Pultsteinen für Halbfirsteindeckungen.
+
+22.17 22    Ent- und Belüftungselemente für profilierte Faserzementdachplattendeckungen (profil.FZ-Deckung)
+
+22.17 22A   Entlüft.-Elemente Blechentlüfter f.profil.FZ-Deckung                                                            Stk
+            Mit Blechentlüfter.
+
+22.17 22B   Entlüft.-Elemente First-u.Gratrolle f.profil.FZ-Deckung                                                         m
+            Mit First- und Gratrolle bei First- und Gratausführung mit First- und Gratsteinen.
+                • Breite: 310 mm
+
+22.17 22C   Entlüft.-Elemente Firstgitter Alu f.profil.FZ-Deckung                                                           Stk
+            Mit Firstgitter aus Alu bei Firstausführung mit Übergangssteinen und First- und Gratsteinen.
+
+22.17 25    Zubehör für Durchdringungen bei profilierte Faserzementdachplattendeckungen (profil.FZ-Deckung).
+
+22.17 25A   Dunstrohrset Alu-Color f.profil.FZ-Deckung b.100mm                                                              Stk
+            Dunstrohraufsatz Alu-Color, bestehend aus:
+                • Durchgangselement (Pfanne)
+                                                                                                                      Seite 23 / 35
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+                • Rohr mit Abdeckkappe
+                • Anschlussschlauch mit Reduktion
+            Nenn-Durchmesser (DN): bis 100 mm
+
+22.17 25B   Dunstrohrset Alu-Color f.profil.FZ-Deckung ü.100mm                                                            Stk
+            Dunstrohraufsatz Alu-Color, bestehend aus:
+                • Durchgangselement (Pfanne)
+                • Rohr mit Abdeckkappe
+                • Anschlussschlauch mit Reduktion
+            Nenn-Durchmesser (DN) über 100 mm: ____________
+
+22.17 25C   Antennenaufsatz f.profil.FZ-Deckung                                                                           Stk
+            Antennenaufsatz, einschließlich Grundplatte.
+            Zusätzliche Angaben: ____________
+
+22.17 25D   Rohr-u.Kabeldurchführung f.profil.FZ-Deckung                                                                  Stk
+            Rohr- und Kabeldurchführungen.
+            Zusätzliche Angaben: ____________
+22.17 26    Sonderelemente für profilierte Faserzementdachplattendeckungen (profil.FZ-Deckung).
+
+22.17 26A   Stand/Grundplatte f.profil.FZ-Deckung                                                                         Stk
+            Grundplatte aus Metall, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung) als Zusatzelement
+            für Stand- oder Laufrostsysteme, einschließlich Haltebügel oder Haltestütze, Verbindungsmittel und
+            Stützlattungen.
+
+22.17 26B   Steigtritt-Set f.profil.FZ-Deckung                                                                            Stk
+            Steigtritt-Set, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatte aus Metall
+                • Steigtritt
+
+22.17 26C   Stufenrost-Set 40x25cm f.profil.FZ-Deckung                                                                    Stk
+            Stufenrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • zwei Grundplatten aus Metall
+                • mit Stütze und Haltebügel
+                • Stufenrost ca. 40 x 25 cm
+
+22.17 26D   Stufenrost-Set 80x25cm f.profil.FZ-Deckung                                                                    Stk
+            Stufenrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • zwei Grundplatten aus Metall
+                • mit Stütze und Haltebügel
+                • Stufenrost ca. 80 x 25 cm
+
+22.17 26E   Laufrost-System f.profil.FZ-Deckung                                                                           m
+            Laufrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatten aus Metall
+                • einschließlich Stützen
+                • Laufrostbügel und Laufrost mit Verbinder
+
+22.17 26G   Schneefangbaum f.profil.FZ-Deckung                                                                            m
+            Schneefangbaum aus Lärche oder Kiefer druckimprägniert, einschließlich Stützen, Verbinder,
+            Befestigungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatten aus Metall
+                • Stützen
+                • Schneefangbaum
+
+22.17 26H   Schneehalter Metall f.profil.FZ-Deckung                                                                       Stk
+
+                                                                                                                    Seite 24 / 35
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+            Schneehalter (Schneenasen) aus Metall.
+
+22.17 26I   Schneefangrohr 1-fach f.profil.FZ-Deckung                                                                      m
+            Schneefangrohre, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich Stützen,
+            Verbindungsmittel und Stützlattungen.
+                • für 1-fachen Durchzug
+
+22.17 26J   Schneefangrohr 2-fach f.profil.FZ-Deckung                                                                      m
+            Schneefangrohre, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich Stützen,
+            Verbindungsmittel und Stützlattungen.
+                • für 2-fachen Durchzug
+
+22.17 26K   Winkelschneerechen f.profil.FZ-Deckung                                                                         m
+            Winkelschneerechen, verzinkt, einschließlich Befestigung
+
+22.17 26L   Ausstiegsfenster feuerverzinkt/besch.f.profil.FZ-Deckung                                                       Stk
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • feuerverzinkt und beschichtet
+                • mit regensicherer Einbindung
+
+22.17 26M   Ausstiegsfenster Cu f.profil.FZ-Deckung                                                                        Stk
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • aus Kupfer (Cu)
+                • mit regensicherer Einbindung
+
+22.17 26N   Ausstiegsfenster Kunststoff f.profil.FZ-Deckung                                                                Stk
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • aus Kunststoff
+                • mit regensicherer Einbindung
+
+22.17 26O   Ausstiegsfenster m.Metalleinfassung f.profil.FZ-Deckung                                                        Stk
+            Ausstiegsfenster-System mit Metalleinfassung, einschließlich Ausschneiden, Hilfslattung und Beideckung.
+                • innere Lichte: ca. 40 x 55 cm
+                • verzinkt und beschichtet oder Alu-beschichtet
+                • mit regensicherer Einbindung
+
+22.17 30    Aufzahlung (Az) auf profilierte Faserzementdachplattendeckungen (p.FZ-Deckung).
+
+22.17 30A   Az p.FZD f.Ausschneiden UD regen-/flugschneesicher b.0,1m2                                                     Stk
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbauen von Wasserabweisern oder
+            Dichtmanschetten.
+                • regensicher/flugschneesicher
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+
+22.17 30B   Az p.FZD f.Ausschneiden UD regen-/flugschneesicher ü.0,1m2                                                     m
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbauen von Wasserabweisern oder
+            Dichtmanschetten.
+                • regensicher/flugschneesicher
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+            Abgerechnet wird die Schnittlänge.
+
+22.17 30C   Az p.FZD f.Ausschneiden UD winddicht b.0,1m2                                                                   Stk
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbinden der Durchdringungen.
+                • winddicht
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+
+22.17 30D   Az p.FZD f.Ausschneiden UD winddicht ü.0,1m2                                                                   m
+                                                                                                                     Seite 25 / 35
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbinden der Durchdringungen.
+                 • winddicht
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+            Abgerechnet wird die Schnittlänge.
+
+22.17 31    Aufzahlung (Az) auf profilierte Faserzementdachplattendeckungen (profil.FZ-Deckung) für das Beidecken.
+             Kommentar:
+             Diese Positionen sind auszuschreiben, wenn Einbauteile vor den Dachdeckerarbeiten beziehungsweise von "Dritten"
+             vorhanden sind.
+
+22.17 31A   Az profil.FZ-Deckung f.Beidecken Stütze ED                                                                         Stk
+            An vorhandene Stützen.
+                 • bei Einfachdeckungen
+
+22.17 31B   Az profil.FZ-Deckung f.Beidecken Öffnung b.0,5m2                                                                   Stk
+            Von Öffnungen (z.B. Einbauten, Aufbauten).
+            Größe der Öffnung bis 0,5 m2
+
+22.17 31C   Az profil.FZ-Deckung f.Beidecken Öffnung ü.0,5m2                                                                   m
+            Von Öffnungen (z.B. Einbauten, Aufbauten).
+            Größe der Öffnung über 0,5 m2: ____________
+            Abgerechnet wird die Länge.
+
+22.18       Deckung m.Faserzement-Wellplatten (Dachpl.)
+             Kommentar:
+             Frei zu formulieren (z.B.):
+                  • Wellplatten in Sonderfarben
+
+22.18 01    Windlastsicherung in der Dachfläche gemäß Windlast-Berechnung.
+            Abgerechnet wird die eingedeckte Dachfläche gemäß ÖNORM.
+
+22.18 01A   Windlastsicherung gem.Windlast-Berechnung f.FZ-Wellpl.-D                                                           m²
+            Für Deckungen mit Faserzementwellplattendeckung (FZ-Wellpl.-D).
+
+22.18 02    Faserzementwellplattendeckung (FZ-Wellplattendeckung) auf vorhandenen Holzpfetten.
+
+22.18 02A   FZ-Wellplattendeckung auf Holz Profil 6                                                                            m²
+            Profil 6.
+
+22.18 02B   FZ-Wellplattendeckung auf Holz Kurzwellplatten                                                                     m²
+            Kurzwellplatten.
+
+22.18 03    Faserzementwellplattendeckung (FZ-Wellplattendeckung) auf vorhandenen Stahlpfetten.
+
+22.18 03A   FZ-Wellplattendeckung auf Stahlpfetten Profil 6                                                                    m²
+            Profil 6.
+
+22.18 05    Aufzahlung (Az) auf Faserzementwellplattendeckungen (FZ-Wellplattendeckung), für Lichtwellplatten aus
+            glasfaserverstärktem Polyester, Farbe natur.
+                 • Profil 6
+            Im Positionsstichwort ist die Plattenlänge angegeben.
+
+22.18 05A   Az FZ-Wellplattendeckung f.Lichtwellplatten 125cm                                                                  Stk
+
+22.18 05B   Az FZ-Wellplattendeckung f.Lichtwellplatten 150cm                                                                  Stk
+
+22.18 05C   Az FZ-Wellplattendeckung f.Lichtwellplatten 180cm                                                                  Stk
+
+22.18 05D   Az FZ-Wellplattendeckung f.Lichtwellplatten 210cm                                                                  Stk
+
+22.18 05E   Az FZ-Wellplattendeckung f.Lichtwellplatten 250cm                                                                  Stk
+                                                                                                                         Seite 26 / 35
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+22.18 05F   Az FZ-Wellplattendeckung f.Lichtwellplatten 300cm                                                          Stk
+
+22.18 05X   Az FZ-Wellplattendeckung f.Lichtwellplatten__________                                                      Stk
+22.18 18    Aufzahlung (Az) auf Faserzementwellplattendeckungen (FZ-Wellplattendeckung) für das einseitige Anarbeiten
+            und Befestigen.
+
+22.18 18A   Az FZ-Wellplattendeckung f.Anarbeiten/gerade                                                               m
+            An gerade Umsäumungen (z.B. Firste, Traufen, Ortsäume).
+
+            LB-Version: 23                 Geringfügig Geändert
+
+22.18 18B   Az FZ-Wellplattendeckung f.Anarbeiten/schräg                                                               m
+            An schräge Umsäumungen (z.B. Ichsen, Grate).
+
+            LB-Version: 23                 Geringfügig Geändert
+22.18 19    Aufzahlung (Az) auf Faserzementwellplattendeckungen (FZ-Wellplattendeckung).
+
+22.18 19A   Az FZ-Wellplattendeckung f.Neigung ü.45-60°                                                                m²
+            Für die Erschwernisse bei Dächern mit einer Neigung über 45 bis 60 Grad.
+
+22.18 19B   Az FZ-Wellplattendeckung f.Giebel-Abschlusssteine                                                          m
+            Für Giebelabschlusssteine für Ortsäume.
+
+22.18 19C   Az FZ-Wellplattendeckung f.Zargenstreifen                                                                  Stk
+            Für Zargenstreifen.
+
+22.18 19D   Az FZ-Wellplattendeckung f.Unterleger                                                                      Stk
+            Für Unterleger.
+
+22.18 19E   Az FZ-Wellplattendeckung f.Traufensteine                                                                   m
+            Für Traufensteine.
+
+22.18 19F   Az FZ-Wellplattendeckung f.Dichtband bei seitl.Höhenübergr.                                                m
+            Bei Höhen- und seitlichen Übergriffen (Übergr.) mit Dichtungsband 15 x 15 mm vorkomprimiert
+
+22.18 19H   Az FZ-Wellplattendeckung f.Dichtband Höhenübergriff                                                        m²
+            Bei Höhenübergriffen mit Dichtungsband 15 x 15 mm vorkomprimiert.
+
+22.18 20    Grateindeckungen mit Formsteinen Faserzementwellplattendeckungen (FZ-Wellplattendeckung).
+
+22.18 20A   FZ-Wellplatten Gratsteine                                                                                  m
+            Mit Gratsteinen.
+
+22.18 20B   FZ-Wellplatten Gratsteine+Gratrolle 390mm                                                                  m
+            Mit Gratsteinen und Gratrolle 390 mm
+
+22.18 20C   FZ-Wellplatten Gratstein+Bleiblech                                                                         m
+            Mit Gratsteinen der Wellung angepasst, einschließlich Abdichtung.
+
+22.18 20D   FZ-Wellplatten Grat-Anfangsstein                                                                           m
+            Mit Grat-Anfangsstein.
+
+22.18 21    First- oder Halbfirsteindeckung mit Formsteinen bei Faserzementwellplattendeckungen
+            (FZ-Wellplattendeckung).
+
+22.18 21A   FZ-Wellplatten Firstkappen 1-teilig                                                                        m
+            Mit einteiligen Firstkappen.
+
+22.18 21B   FZ-Wellplatten Firstkappen 1-teilig abgehoben                                                              m
+            Mit einteiligen Firstkappen, abgehoben.
+                • 2 x 250 cm2/m
+                                                                                                                 Seite 27 / 35
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+22.18 21C   FZ-Wellplatten Firstkappen 2-teilig+Dichtungsband                                                            m
+            Mit zweiteiligen Firstkappen, einschließlich Dichtungsband 15 x 15 mm.
+
+22.18 21D   FZ-Wellplatten Firstkappen 2-teilig+Bl.-Lüfter+Dichtungsband                                                 m
+            Mit zweiteiligen Firstkappen, einschließlich Blechlüfter und Dichtungsband 15 x 15 mm.
+                • 2 x 110 cm2/m
+
+22.18 21E   FZ-Wellplatten Entlüftungsfirststeine                                                                        m
+            Mit Entlüftungsfirststeinen und Übergangssteinen für eine durchgehende Firstentlüftung.
+                • 2 x 400 cm2/m
+
+22.18 21F   FZ-Wellplatten Shedfirstkappe 75Grad                                                                         m
+            Mit Shedfirstkappen, Innenwinkel 75 Grad, für Halbfirste (Pultdach).
+
+22.18 21G   FZ-Wellplatten Übergangsstein                                                                                m
+            Mit Übergangssteinen für firstseitigen Wandanschluss.
+
+22.18 21H   FZ-Wellplatten Übergangs-u.Gratstein                                                                         m
+            Mit Übergangs- und Gratsteinen für durchgehende Firstentlüftung.
+                • 2 x 300 cm2/m
+
+22.18 22    Ent- und Belüftungselemente für Faserzementwellplattendeckungen (FZ-Wellplattendeckung).
+
+22.18 22A   Universal-Lüftungskappe f.FZ-Wellplattendeckung                                                              Stk
+            First-Universal-Lüfterkappen, einschließlich Ausschneiden.
+                • 2 x 30 cm2/Stk.
+
+22.18 22B   Alu-Welllüfter P6/400 f.FZ-Wellplattendeckung                                                                m
+            First-Alu-Well-Lüfter P6/400, einschließlich Ausschneiden.
+                • 2 x 120 cm2/Stk.
+
+22.18 22C   Belüftungskammelemente f.FZ-Wellplattendeckung                                                               m
+            Belüftungskammerelementen als Vogelschutz.
+
+22.18 22D   Lüftungsgitter-Vogelschutz f.FZ-Wellplattendeckung                                                           m
+            Lüftungsgitters zur Abdeckung des Wellenquerschnittes als Vogelschutz.
+
+22.18 25    Zubehör für Durchdringungen bei Faserzementwellplattendeckungen (FZ-Wellplattendeckung).
+
+22.18 25A   Dunstrohrset f.FZ-Wellplattendeckung b.100mm                                                                 Stk
+            Dunstrohraufsatz aus Kunststoff, bestehend aus Grundplatte, Profil 6, Rohr, Abdeckkappe, flexiblem
+            Anschlussschlauch und Reduktion.
+                • Nenn-Durchmesser (DN): bis 100 mm
+
+22.18 25B   Dunstrohrset f.FZ-Wellplattendeckung ü.100mm                                                                 Stk
+            Dunstrohraufsatz aus Kunststoff, bestehend aus Grundplatte, Profil 6, Rohr, Abdeckkappe, flexiblem
+            Anschlussschlauch und Reduktion.
+                • Nenn-Durchmesser (DN) über 100 mm: ____________
+
+22.18 25C   Antennendurchgang f.FZ-Wellplattendeckung                                                                    Stk
+            Antennendurchgang.
+
+22.18 26    Sonderelemente für Faserzementwellplattendeckungen (FZ-Wellplattendeckung).
+
+22.18 26A   Stand/Grundplatte f.FZ-Wellplattendeckung                                                                    Stk
+            Grundplatte aus Metall, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung) als Zusatzelement
+            für Stand- oder Laufrostsysteme, einschließlich Haltebügel oder Haltestütze, Verbindungsmittel und
+            Stützlattungen.
+
+                                                                                                                   Seite 28 / 35
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+22.18 26B   Steigtritt-Set f.FZ-Wellplattendeckung                                                                         Stk
+            Steigtritt-Set, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatte aus Metall
+                • Steigtritt
+
+22.18 26C   Stufenrost-Set 40x25cm f.FZ-Wellplattendeckung                                                                 Stk
+            Stufenrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • zwei Grundplatten aus Metall
+                • mit Stütze und Haltebügel
+                • Stufenrost ca. 40 x 25 cm
+
+22.18 26D   Stufenrost-Set 80x25cm f.FZ-Wellplattendeckung                                                                 Stk
+            Stufenrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • zwei Grundplatten aus Metall
+                • mit Stütze und Haltebügel
+                • Stufenrost ca. 80 x 25 cm
+
+22.18 26E   Laufrost-System f.FZ-Wellplattendeckung                                                                        m
+            Laufrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatten aus Metall
+                • einschließlich Stützen
+                • Laufrostbügel und Laufrost mit Verbinder
+
+22.18 26G   Schneefangbaum f.FZ-Wellplattendeckung                                                                         m
+            Schneefangbaum aus Lärche oder Kiefer druckimprägniert, einschließlich Stützen, Verbinder,
+            Befestigungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatten aus Metall
+                • Stützen
+                • Schneefangbaum
+
+22.18 26H   Schneehalter Metall f.FZ-Wellplattendeckung                                                                    Stk
+            Schneehalter (Schneenasen) aus Metall.
+
+22.18 26I   Schneefangrohr 1-fach f.FZ-Wellplattendeckung                                                                  m
+            Schneefangrohre, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich Stützen,
+            Verbindungsmittel und Stützlattungen.
+                • für 1-fachen Durchzug
+
+22.18 26J   Schneefangrohr 2-fach f.FZ-Wellplattendeckung                                                                  m
+            Schneefangrohre, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich Stützen,
+            Verbindungsmittel und Stützlattungen.
+                • für 2-fachen Durchzug
+
+22.18 26K   Winkelschneerechen f.FZ-Wellplattendeckung                                                                     m
+            Winkelschneerechen, verzinkt, einschließlich Befestigung
+
+22.18 26L   Ausstiegsfenster feuerverzinkt/besch.f.FZ-Wellplattendeckung                                                   Stk
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • feuerverzinkt und beschichtet
+                • mit regensicherer Einbindung
+
+22.18 26M   Ausstiegsfenster Cu f.FZ-Wellplattendeckung                                                                    Stk
+
+
+
+
+                                                                                                                     Seite 29 / 35
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • aus Kupfer (Cu)
+                • mit regensicherer Einbindung
+
+22.18 26N   Ausstiegsfenster Kunststoff f.FZ-Wellplattendeckung                                                                Stk
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • aus Kunststoff
+                • mit regensicherer Einbindung
+
+22.18 26O   Ausstiegsfenster m.Metalleinfassung f.FZ-Wellplattendeckung                                                        Stk
+            Ausstiegsfenster-System mit Metalleinfassung, einschließlich Ausschneiden, Hilfslattung und Beideckung.
+                • innere Lichte: ca. 40 x 55 cm
+                • verzinkt und beschichtet oder Alu-beschichtet
+                • mit regensicherer Einbindung
+
+22.18 26P   Hängehaken f.FZ-Wellplattendeckung                                                                                 Stk
+            Für zusätzliche Aufhängehaken.
+
+22.18 30    Aufzahlung (Az) auf Faserzementwellplattendeckungen (FZ-Wellplattendeckung).
+
+22.18 30A   Az FZWPD f.Ausschneiden UD regen-/flugschneesicher b.0,1m2                                                         Stk
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbauen von Wasserabweisern oder
+            Dichtmanschetten.
+                • regensicher/flugschneesicher
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+
+22.18 30B   Az FZWPD f.Ausschneiden UD regen-/flugschneesicher ü.0,1m2                                                         m
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbauen von Wasserabweisern oder
+            Dichtmanschetten.
+                • regensicher/flugschneesicher
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+            Abgerechnet wird die Schnittlänge.
+
+22.18 30C   Az FZWPD f.Ausschneiden UD winddicht b.0,1m2                                                                       Stk
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbinden der Durchdringungen.
+                • winddicht
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+
+22.18 30D   Az FZWPD f.Ausschneiden UD winddicht ü.0,1m2                                                                       m
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbinden der Durchdringungen.
+                • winddicht
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+            Abgerechnet wird die Schnittlänge.
+
+22.18 31    Aufzahlung (Az) auf Faserzementwellplattendeckungen (FZ-Wellplattendeckung).
+             Kommentar:
+             Diese Positionen sind auszuschreiben, wenn Einbauteile vor den Dachdeckerarbeiten beziehungsweise von "Dritten"
+             vorhanden sind.
+
+22.18 31A   Az FZ-Wellplatten f.Stütze beidecken                                                                               Stk
+            Für das Beidecken an vorhandene Stützen.
+
+22.18 31B   Az FZ-Wellplatten f.Beidecken Öffnung b.0,5m2                                                                      Stk
+            Von Öffnungen (z.B. Einbauten, Aufbauten).
+            Größe der Öffnung bis 0,5 m2
+
+22.18 31C   Az FZ-Wellplatten f.Beidecken Öffnung ü.0,5-1m2                                                                    Stk
+                                                                                                                         Seite 30 / 35
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+            Von Öffnungen (z.B. Einbauten, Aufbauten).
+            Größe der Öffnung über 0,5 m2: ____________
+            Abgerechnet wird die Länge.
+
+22.19       Deckung m.Polymerbitumen-Dachschindeln
+            Im Folgenden sind Polymerbitumen-Dachschindeldeckungen als Doppeldeckung beschrieben.
+             Kommentar:
+             Die unter einer Polymerbitumen-Dachschindeldeckung erforderliche Vordeckung mit Bitumen-Dachbahnen ist in eigenen
+             Positionen beschrieben.
+
+            LB-Version: 23               Geringfügig Geändert
+22.19 01    Windlastsicherung in der Dachfläche gemäß Windlast-Berechnung.
+            Abgerechnet wird die eingedeckte Dachfläche gemäß ÖNORM.
+
+22.19 01A   Windlastsicherung gem.Windlast-Berechnung f.Bitu-Schindel                                                         m²
+            Für Deckungen mit Polymerbitumen-Dachschindeldeckung (Bitu-Schindel).
+
+22.19 02    Polymerbitumen-Dachschindeldeckung (Bitu-Schindel) auf vorhandener Schalung und vorhandener Vordeckung
+            mit korrosionsgeschützten Flachkopfstiften befestigt.
+                • in Standardfarben
+
+22.19 02A   Bitu-Schindel Doppeldeckung Standardfarbe                                                                         m²
+22.19 18    Aufzahlung (Az) auf Polymerbitumen-Dachschindeldeckung (Bitu-Schindel) für das einseitige Anarbeiten.
+
+22.19 18A   Az Bitu-Schindel f.Anarbeiten/gerade                                                                              m
+            An gerade Umsäumungen (z.B. Firste, Traufen, Ortsäume).
+
+22.19 18B   Az Bitu-Schindel f.Anarbeiten/schräg                                                                              m
+            An schräge Umsäumungen (z.B. Ichsen, Grate).
+
+22.19 19    Aufzahlung (Az) auf Polymerbitumen-Dachschindeldeckung (Bitu-Schindel).
+
+22.19 19A   Az Bitu-Schindel f.Neigung ü.45-60°                                                                               m²
+            Für die Erschwernisse bei Dächern mit einer Neigung über 45 bis 60 Grad.
+
+22.19 21    First- und Grateindeckung für Polymerbitumen-Dachschindeldeckung (Bitu-Schindel).
+
+22.19 21A   First-/Grat Bitu-Schindel verlegt                                                                                 m
+            Mit Teilstücken der Polymerbitumen-Dachschindeln.
+
+22.19 22    Ent- und Belüftungselemente für Polymerbitumen-Dachschindeldeckungen (Bitu-Schindel).
+
+22.19 22A   Belüftungsgitter/Vogelschutz Traufe bei Konterlattung                                                             m
+            Belüftungsgitter bei Konterlattung als Vogelschutz im Traufenbereich.
+
+            LB-Version: 23               Geringfügig Geändert
+
+22.19 22B   Lüftungslaterne einseitig                                                                                         m
+            Durchgehende Firstlüftungslaterne (Deckungsmaterial entspricht dem Material der Hauptposition beschrieben),
+            einschließlich Blech- und Anschlussarbeiten.
+                • einseitig
+
+22.19 22C   Lüftungslaterne beidseitig                                                                                        m
+            Durchgehende Firstlüftungslaterne (Deckungsmaterial entspricht dem Material der Hauptposition beschrieben),
+            einschließlich Blech- und Anschlussarbeiten.
+                • beidseitig
+
+22.19 22D   Schindeldachlüfter Kunststoff f.Bitu-Schindel                                                                     m
+            Schindeldachlüfter aus Kunststoff.
+
+22.19 22E   Schindeldachlüfter Kupferf.Bitu-Schindel                                                                          m
+
+                                                                                                                        Seite 31 / 35
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Schindeldachlüfter aus Kupfer.
+
+22.19 25    Zubehör für Durchdringungen bei Polymerbitumen-Dachschindeldeckung (Bitu-Schindel).
+
+22.19 25A   Dunstrohrset Kunstst.f.Bitu-Schindel b.100mm                                                                  Stk
+            Dunstrohraufsatz aus Kunststoff, bestehend aus:
+                • Durchgangselement (Grundplatte)
+                • Rohr mit Abdeckkappe
+                • Anschlussschlauch mit Reduktion
+            Nenn-Durchmesser (DN): bis 100 mm
+
+22.19 25B   Dunstrohrset Kunstst.f.Bitu-Schindel ü.100mm                                                                  Stk
+            Dunstrohraufsatz aus Kunststoff, bestehend aus:
+                • Durchgangselement (Grundplatte)
+                • Rohr mit Abdeckkappe
+                • Anschlussschlauch mit Reduktion
+            Nenn-Durchmesser (DN) über 100 mm: ____________
+
+22.19 25C   Antennenaufsatz Kunststoff f.Bitu-Schindel                                                                    Stk
+            Antennenaufsatz aus Kunststoff, einschließlich Durchgangselement.
+            Zusätzliche Angaben: ____________
+
+22.19 25D   Rohr-u.Kabeldurchführung f.Bitu-Schindel                                                                      Stk
+            Rohr- und Kabeldurchführungen.
+            Zusätzliche Angaben: ____________
+
+22.19 25E   Az Bitu-Schindel m.Unterdach f.Dichtmanschette                                                                Stk
+            Aufzahlung (Az) für regensichere, wind- und luftdichte Durchdringungen im Unterdach mittels Dichtmanschetten.
+            Zusätzliche Angaben: ____________
+22.19 26    Sonderelemente für Polymerbitumen-Dachschindeldeckung (Bitu-Schindel).
+
+22.19 26A   Stand/Grundplatte f.Bitu-Schindel                                                                             Stk
+            Grundplatte aus Metall, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung) als Zusatzelement
+            für Stand- oder Laufrostsysteme, einschließlich Haltebügel oder Haltestütze, Verbindungsmittel und
+            Stützlattungen.
+
+22.19 26B   Steigtritt-Set f.Bitu-Schindel                                                                                Stk
+            Steigtritt-Set, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatte aus Metall
+                • Steigtritt
+
+22.19 26C   Stufenrost-Set 40x25cm f.Bitu-Schindel                                                                        Stk
+            Stufenrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • zwei Grundplatten aus Metall
+                • mit Stütze und Haltebügel
+                • Stufenrost ca. 40 x 25 cm
+
+22.19 26D   Stufenrost-Set 80x25cm f.Bitu-Schindel                                                                        Stk
+            Stufenrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+                • zwei Grundplatten aus Metall
+                • mit Stütze und Haltebügel
+                • Stufenrost ca. 80 x 25 cm
+
+22.19 26E   Laufrost-System f.Bitu-Schindel                                                                               m
+            Laufrost-System, korrosionsbeständig und beschichtet (in der Farbe der Dachdeckung), einschließlich
+            Verbindungsmittel und Stützlattungen, bestehend aus:
+
+
+                                                                                                                    Seite 32 / 35
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+                • Grundplatten aus Metall
+                • einschließlich Stützen
+                • Laufrostbügel und Laufrost
+
+22.19 26G   Schneefangbaum f.Bitu-Schindel                                                                                 m
+            Schneefangbaum aus Lärche oder Kiefer druckimprägniert, einschließlich Stützen, Verbinder,
+            Befestigungsmittel und Stützlattungen, bestehend aus:
+                • Grundplatten aus Metall
+                • Stützen
+                • Schneefangbaum
+
+22.19 26H   Schneehalter Metall f.Bitu-Schindel                                                                            Stk
+            Schneehalter (Schneenasen) aus Metall.
+
+22.19 26I   Schneefangrohr 1-fach f.Bitu-Schindel                                                                          m
+            Schneefangrohre, einschließlich Stützen, Verbinder, Befestigungsmittel und Stützlattungen.
+                • 1-facher Durchzug
+                • korrosionsbeständig und beschichtet in der Farbe der Deckung
+
+22.19 26J   Schneefangrohr 2-fach f.Bitu-Schindel                                                                          m
+            Schneefangrohre, einschließlich Stützen, Verbinder, Befestigungsmittel und Stützlattungen.
+                • 2-facher Durchzug
+                • korrosionsbeständig und beschichtet in der Farbe der Deckung
+
+22.19 26K   Ausstiegsfenster feuerverzinkt/beschicht.f.Bitu-Schindel                                                       Stk
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • feuerverzinkt und beschichtet
+                • mit regensicherer Einbindung
+
+22.19 26L   Ausstiegsfenster Cu f.Bitu-Schindel                                                                            Stk
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • aus Kupfer (Cu)
+                • mit regensicherer Einbindung
+
+22.19 26M   Ausstiegsfenster Kunststoff f.Bitu-Schindel                                                                    Stk
+            Ausstiegsfenster-System, einschließlich Ausschneiden, Hilfslattung und Beidecken.
+                • innere Lichte: bis 60 x 60 cm
+                • aus Kunststoff
+                • mit regensicherer Einbindung
+
+22.19 26N   Ausstiegsfenster m.Metalleinfassung f.Bitu-Schindel                                                            Stk
+            Ausstiegsfenster-System mit Metalleinfassung, einschließlich Ausschneiden, Hilfslattung und Beideckung.
+                • innere Lichte: ca. 40 x 55 cm
+                • verzinkt und beschichtet oder Alu-beschichtet
+                • mit regensicherer Einbindung
+
+22.19 30    Aufzahlung (Az) auf Polymerbitumen-Dachschindeldeckung (Bitu-S).
+
+22.19 30A   Az BITU-S f.Ausschneiden UD regen-/flugschneesicher b.0,1m2                                                    Stk
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbauen von Wasserabweisern oder
+            Dichtmanschetten.
+                • regensicher/flugschneesicher
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+
+22.19 30B   Az BITU-S f.Ausschneiden UD regen-/flugschneesicher ü.0,1m2                                                    m
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbauen von Wasserabweisern oder
+            Dichtmanschetten.
+                • regensicher/flugschneesicher
+
+
+                                                                                                                     Seite 33 / 35
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+            Abgerechnet wird die Schnittlänge.
+
+22.19 30C   Az BITU-S f.Ausschneiden UD winddicht b.0,1m2                                                             Stk
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbinden der Durchdringungen.
+                • winddicht
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+
+22.19 30D   Az BITU-S f.Ausschneiden UD winddicht ü.0,1m2                                                             m
+            Für das Ausschneiden des Unterdaches (UD), einschließlich Einbinden der Durchdringungen.
+                • winddicht
+            Im Positionsstichwort ist die Größe der Öffnung angegeben.
+            Abgerechnet wird die Schnittlänge.
+
+22.19 31    Aufzahlung (Az) auf Polymerbitumen-Dachschindeldeckung (Bitu-Schindel) für das Beidecken.
+
+22.19 31A   Az Bitu-Schindel f.Beidecken Stütze DD                                                                    Stk
+            An vorhandene Stützen.
+                • bei Doppeldeckungen
+
+22.19 31B   Az Bitu-Schindel f.Beidecken Öffnung b.0,1m2                                                              Stk
+            Von Öffnungen.
+            Größe der Öffnung bis 0,1 m2
+
+22.19 31C   Az Bitu-Schindel f.Beidecken Öffnung ü.0,1m2                                                              m
+            Von Öffnungen.
+            Größe der Öffnung über 0,1 m2: ____________
+            Abgerechnet wird die Länge.
+
+22.19 42    Aufzahlung (Az) auf Polymerbitumen-Dachschindeldeckung (Bitu-Schindel) für Runddeckungen.
+            Abgerechnet wird die rundgedeckte Fläche.
+
+22.19 42A   Az DD Bitu-Schindel f.Runddeckung Kegel                                                                   m²
+            Als Kegeleindeckung.
+            Sonstige Angaben: ____________
+
+22.19 42B   Az DD Bitu-Schindel f.Runddeckung Kehlen                                                                  m²
+            Als Kehleneindeckung.
+            Sonstige Angaben: ____________
+
+22.19 42C   Az DD Bitu-Schindel f.Runddeckung Gaupen                                                                  m²
+            Als Gaupe.
+            Sonstige Angaben/Art: ____________
+
+22.19 42D   Az DD Bitu-Schindel f.Runddeckung                                                                         m²
+            Sonstige Angaben: ____________
+
+22.90       Regieleistungen
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+
+                                                                                                                Seite 34 / 35
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+            3. Beschäftigungsgruppen:
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Überstunden, die dem Arbeitsruhegesetz unterliegen, sind frei zu formulieren.
+
+22.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+22.90 00A   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+22.90 01    Regiestunden.
+
+22.90 01A   Regiestunden Facharbeiter                                                                                        h
+            Für Facharbeiter.
+
+22.90 01B   Regiestunden Hilfsarbeiter                                                                                       h
+            Für Hilfsarbeiter.
+
+22.90 01C   Regiestunden Vorarbeiter                                                                                         h
+            Für Vorarbeiter.
+
+22.90 51    Materiallieferungen f.Regieleistungen                                                                            VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12 %
+            als Einheitspreis einzusetzen: 1,12
+            LB-Version: 23                 Geringfügig Geändert
+
+
+
+
+                                                                                                                       Seite 35 / 35
+                                                                                                  ib-data GmbH, Softwareentwicklung
+

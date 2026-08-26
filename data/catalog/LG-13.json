@@ -1,0 +1,2451 @@
+{
+  "lg": "13",
+  "title": "Außenanlagen",
+  "positions": [
+    {
+      "code": "13.01.21A",
+      "text": "Geotextil UG1/LK>=0,4/K.b.63mm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.21B",
+      "text": "Geotextil UG1/LK<=0,1/K.b.63mm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.21C",
+      "text": "Geotextil UG2/LK>=0,4/K.b.63mm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.21D",
+      "text": "Geotextil UG2/LK<=0,1/K.b.63mm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.21E",
+      "text": "Geotextil UG3/LK>=0,4/K.b.63mm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.21F",
+      "text": "Geotextil UG3/LK<=0,1/K.b.63mm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.21G",
+      "text": "Geotextil UG1/LK>=0,4/K.ü.63mm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.21H",
+      "text": "Geotextil UG1/LK<=0,1/K.ü.63mm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.21I",
+      "text": "Geotextil UG2/LK>=0,4/K.ü.63mm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.21J",
+      "text": "Geotextil UG2/LK<=0,1/K.ü.63mm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.21K",
+      "text": "Geotextil UG3/LK>=0,4/K.ü.63mm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.21L",
+      "text": "Geotextil UG3/LK<=0,1/K.ü.63mm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.00.21A",
+      "text": "Mutterboden (AKL-M) Eigentum AG",
+      "unit": ""
+    },
+    {
+      "code": "13.00.21B",
+      "text": "Oberboden (AKL-O) Eigentum AG",
+      "unit": ""
+    },
+    {
+      "code": "13.01.01A",
+      "text": "Gras mähen",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.05A",
+      "text": "Mutterboden (AKL-M) ohne Grasnarbe",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.05B",
+      "text": "Mutterboden (AKL-M) ohne Grasnarbe b.30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.05C",
+      "text": "Mutterboden (AKL-M) mit Grasnarbe b.30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.06A",
+      "text": "Oberboden (AKL-O)",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.06B",
+      "text": "Oberboden (AKL-O) b.30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.07A",
+      "text": "Schöpfboden (AKL-S) abtragen",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.11B",
+      "text": "Flächenabtrag Lockerboden (AKL)",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.11C",
+      "text": "Flächenabtrag brüchige Fels (AKBF) ohne Sprengmöglichkeit",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.11D",
+      "text": "Flächenabtrag feste Fels (AKF) ohne Sprengmöglichkeit",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.11E",
+      "text": "Az Flächenabtrag klebriger Boden (AKL-K)",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.12C",
+      "text": "Az Flächenabtrag brüchige Fels (AKBF) f.Sprengmöglichkeit",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.12D",
+      "text": "Az Flächenabtrag feste Fels (AKF) f.Sprengmöglichkeit",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.13A",
+      "text": "Az Flächenabtrag Steinmwk.ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.13B",
+      "text": "Az Flächenabtrag Ziegelmwk.ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.13C",
+      "text": "Az Flächenabtrag Beton ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.13D",
+      "text": "Az Flächenabtrag Holzeinlagen ü.0,1-10m3",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.14A",
+      "text": "Dammaufstands-/Abtreppungsflächen",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.14B",
+      "text": "Dammkörper vorh.Material",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.14C",
+      "text": "Dammkörper vorh.Material+verdichten",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.15A",
+      "text": "Schüttmaterial verdichtbar",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.15B",
+      "text": "Schüttmaterial verdichtbar+frostsicher",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.15C",
+      "text": "Schüttmaterial grobk.Steinbruchmaterial",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.15D",
+      "text": "Schüttmaterial Grobschotter 80/100mm",
+      "unit": "m³"
+    },
+    {
+      "code": "13.01.31A",
+      "text": "Geotextil verschweißen",
+      "unit": "m²"
+    },
+    {
+      "code": "13.01.31B",
+      "text": "Geotextil vernähen",
+      "unit": "m²"
+    },
+    {
+      "code": "13.11.01A",
+      "text": "Unterbauplanum Gehsteig",
+      "unit": "m²"
+    },
+    {
+      "code": "13.11.01B",
+      "text": "Unterbauplanum Fahrbahn",
+      "unit": "m²"
+    },
+    {
+      "code": "13.11.02A",
+      "text": "Unterbauplanum Fels Gehsteig",
+      "unit": "m²"
+    },
+    {
+      "code": "13.11.02B",
+      "text": "Unterbauplanum Fels Fahrbahn",
+      "unit": "m²"
+    },
+    {
+      "code": "13.12.01A",
+      "text": "Ungebundene untere Tragsch.15-30cm Gehsteig",
+      "unit": "m³"
+    },
+    {
+      "code": "13.12.01B",
+      "text": "Ungebundene untere Tragsch.30-60cm Gehsteig",
+      "unit": "m³"
+    },
+    {
+      "code": "13.12.02A",
+      "text": "Ungebundene untere Tragsch.15-30cm Fahrbahn",
+      "unit": "m³"
+    },
+    {
+      "code": "13.12.02B",
+      "text": "Ungebundene untere Tragsch.30-60cm Fahrbahn",
+      "unit": "m³"
+    },
+    {
+      "code": "13.13.01A",
+      "text": "Ungebundene obere Tragsch.10cm Gehsteig",
+      "unit": "m²"
+    },
+    {
+      "code": "13.13.01B",
+      "text": "Ungebundene obere Tragsch.15cm Gehsteig",
+      "unit": "m²"
+    },
+    {
+      "code": "13.13.01C",
+      "text": "Ungebundene obere Tragsch.20cm Gehsteig",
+      "unit": "m²"
+    },
+    {
+      "code": "13.13.02A",
+      "text": "Ungebundene obere Tragsch.15cm Fahrbahn",
+      "unit": "m²"
+    },
+    {
+      "code": "13.13.02B",
+      "text": "Ungebundene obere Tragsch.20cm Fahrbahn",
+      "unit": "m²"
+    },
+    {
+      "code": "13.15.01A",
+      "text": "Bodenstabilisierung Feinkalk 30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.15.01B",
+      "text": "Bodenstabilisierung Kalkhydrat 30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.15.01C",
+      "text": "Bodenstabilisierung CEM 30cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.15.01D",
+      "text": "Bodenstabilisierung Feinkalk 40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.15.01E",
+      "text": "Bodenstabilisierung Kalkhydrat 40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.15.01F",
+      "text": "Bodenstabilisierung CEM 40cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.15.03A",
+      "text": "Weißfeinkalk nur liefern",
+      "unit": "t"
+    },
+    {
+      "code": "13.15.03B",
+      "text": "Kalkhydrat nur liefern",
+      "unit": "t"
+    },
+    {
+      "code": "13.15.03C",
+      "text": "Zement CEM II/A-32,5 nur liefern",
+      "unit": "t"
+    },
+    {
+      "code": "13.17.01A",
+      "text": "AC16trag 70/100 T2 G6 Gehsteig 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.01B",
+      "text": "AC16trag 70/100 T2 G6 Gehsteig 7cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.01C",
+      "text": "AC22trag 70/100 T2 G6 Gehsteig 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.01D",
+      "text": "AC22trag 70/100 T2 G6 Gehsteig 7cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.01E",
+      "text": "AC22trag 70/100 T2 G6 Gehsteig 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.02A",
+      "text": "AC16trag 70/100 T2 G6 Fahrbahn 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.02B",
+      "text": "AC16trag 70/100 T2 G6 Fahrbahn 7cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.02C",
+      "text": "AC22trag 70/100 T2 G6 Fahrbahn 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.02D",
+      "text": "AC22trag 70/100 T2 G6 Fahrbahn 7cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.02E",
+      "text": "AC22trag 70/100 T2 G6 Fahrbahn 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.02F",
+      "text": "AC22trag 70/100 T2 G6 Fahrbahn 9cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.02G",
+      "text": "AC32trag 70/100 T2 G6 Fahrbahn 7cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.02H",
+      "text": "AC32trag 70/100 T2 G6 Fahrbahn 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.02I",
+      "text": "AC32trag 70/100 T2 G6 Fahrbahn 9cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.02J",
+      "text": "AC32trag 70/100 T2 G6 Fahrbahn 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.02K",
+      "text": "AC32trag 70/100 T2 G6 Fahrbahn 11cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.02L",
+      "text": "AC32trag 70/100 T2 G6 Fahrbahn 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.03A",
+      "text": "AC16trag 70/100 T2 G5 Fahrbahn 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.03B",
+      "text": "AC16trag 70/100 T2 G5 Fahrbahn 7cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.03C",
+      "text": "AC22trag 70/100 T2 G5 Fahrbahn 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.03D",
+      "text": "AC22trag 70/100 T2 G5 Fahrbahn 7cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.03E",
+      "text": "AC22trag 70/100 T2 G5 Fahrbahn 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.03F",
+      "text": "AC22trag 70/100 T2 G5 Fahrbahn 9cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.03G",
+      "text": "AC32trag 70/100 T2 G5 Fahrbahn 7cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.03H",
+      "text": "AC32trag 70/100 T2 G5 Fahrbahn 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.03I",
+      "text": "AC32trag 70/100 T2 G5 Fahrbahn 9cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.03J",
+      "text": "AC32trag 70/100 T2 G5 Fahrbahn 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.03K",
+      "text": "AC32trag 70/100 T2 G5 Fahrbahn 11cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.03L",
+      "text": "AC32trag 70/100 T2 G5 Fahrbahn 12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.04A",
+      "text": "AC16trag/deck 70/100 A5 G8 Gehsteig 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.04B",
+      "text": "AC16trag/deck 70/100 A5 G8 Gehsteig 7cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.04C",
+      "text": "AC16trag/deck 70/100 A5 G8 Gehsteig 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.05A",
+      "text": "AC16trag/deck 70/100 A5 G8 Fahrbahn 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.05B",
+      "text": "AC16trag/deck 70/100 A5 G8 Fahrbahn 7cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.05C",
+      "text": "AC16trag/deck 70/100 A5 G8 Fahrbahn 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.17.11A",
+      "text": "Profilieren AC16trag 70/100 T2 G5",
+      "unit": "t"
+    },
+    {
+      "code": "13.17.11B",
+      "text": "Profilieren AC22trag 70/100 T2 G5",
+      "unit": "t"
+    },
+    {
+      "code": "13.17.11C",
+      "text": "Profilieren AC32trag 70/100 T2 G5",
+      "unit": "t"
+    },
+    {
+      "code": "13.21.01A",
+      "text": "Wassergebundene Decke 20cm 0/16+Abstreuung",
+      "unit": "m²"
+    },
+    {
+      "code": "13.21.01B",
+      "text": "Wassergebundene Decke 20cm 0/32+Abstreuung",
+      "unit": "m²"
+    },
+    {
+      "code": "13.21.03A",
+      "text": "Wassergebundene Decke 3cm 0/4,20cm 0/16",
+      "unit": "m²"
+    },
+    {
+      "code": "13.21.03B",
+      "text": "Wassergebundene Decke 3cm 0/4,20cm 0/32",
+      "unit": "m²"
+    },
+    {
+      "code": "13.21.03C",
+      "text": "Wassergebundene Decke 3cm 0/4,25cm 0/32",
+      "unit": "m²"
+    },
+    {
+      "code": "13.21.05A",
+      "text": "Wassergebundene Decke 2,5cm 0/4,3cm 0/8,20cm 0/32",
+      "unit": "m²"
+    },
+    {
+      "code": "13.21.05B",
+      "text": "Wassergebundene Decke 2,5cm 0/4,8cm 2/8,20cm 0/32",
+      "unit": "m²"
+    },
+    {
+      "code": "13.31.01A",
+      "text": "Unterlagsbeton C16/20 Gehsteig 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.31.01B",
+      "text": "Unterlagsbeton C16/20 Gehsteig 15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.31.01C",
+      "text": "Unterlagsbeton C20/25 Gehsteig 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.31.01D",
+      "text": "Unterlagsbeton C20/25 Gehsteig 15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.31.03A",
+      "text": "Unterlagsbeton C16/20 Fahrbahn 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.31.03B",
+      "text": "Unterlagsbeton C20/25 Fahrbahn 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.31.03C",
+      "text": "Unterlagsbeton C25/30 B7 Fahrbahn 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.31.11A",
+      "text": "Pflasterdrainbeton C16/20/X0 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.31.11B",
+      "text": "Pflasterdrainbeton C16/20/X0 15cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.31.11C",
+      "text": "Pflasterdrainbeton C16/20/X0 20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.41.01A",
+      "text": "Reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "13.41.01B",
+      "text": "Reinigen Hochdruckwasser",
+      "unit": "m²"
+    },
+    {
+      "code": "13.41.02A",
+      "text": "Vorspritzen m.Bitumenemulsion",
+      "unit": "m²"
+    },
+    {
+      "code": "13.41.02B",
+      "text": "Vorspritzen m.polymer-modifizierter Bitumenemulsion",
+      "unit": "m²"
+    },
+    {
+      "code": "13.41.03A",
+      "text": "Fugenanschluss selbstklebend 10/30mm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.41.03B",
+      "text": "Fugenanschluss selbstklebend 10/35mm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.41.03C",
+      "text": "Fugenanschluss selbstklebend 10/40mm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.41.03D",
+      "text": "Fugenanschluss selbstklebend 10/45mm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.41.04A",
+      "text": "Voranstrich Nahtflanken 0-5cm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "13.41.04B",
+      "text": "Voranstrich Nahtflanken ü.5-10cm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.41.04C",
+      "text": "Voranstrich Nahtflanken ü.10-15cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.50.01A",
+      "text": "AC8schutz 70/100 A1 G2 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.50.01B",
+      "text": "AC11schutz 70/100 A1 G2 Schutz 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.50.02A",
+      "text": "AC4deck 70/100 A1 G2 Gehsteig 2,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.50.02B",
+      "text": "AC8deck 70/100 A1 G2 Gehsteig 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.50.02C",
+      "text": "AC11deck 70/100 A1 G2 Gehsteig 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.50.02D",
+      "text": "AC11deck 70/100 A1 G2 Gehsteig 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.50.03A",
+      "text": "AC8deck 70/100 A1 G1 Fahrbahn 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.50.03B",
+      "text": "AC11deck 70/100 A1 G1 Fahrbahn 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.50.03C",
+      "text": "AC11deck 70/100 A1 G1 Fahrbahn 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.50.03D",
+      "text": "AC8deck 70/100 A1 G2 Fahrbahn 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.50.03E",
+      "text": "AC11deck 70/100 A1 G2 Fahrbahn 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.50.03F",
+      "text": "AC11deck 70/100 A1 G2 Fahrbahn 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.01A",
+      "text": "Trennschicht Sand",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.01B",
+      "text": "Trennschicht Rohglasvlies",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.01C",
+      "text": "Trennschicht Rotationspapier",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.11A",
+      "text": "MA4 90/10 M2 G3 Gehsteig 2cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.11B",
+      "text": "MA4 90/10 M2 G3 Gehsteig 2,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.11C",
+      "text": "MA4 90/10 M2 G3 Gehsteig 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.12A",
+      "text": "MA8 90/10 M1 G1 Fahrbahn 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.12B",
+      "text": "MA8 90/10 M2 G1 Fahrbahn 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.12C",
+      "text": "MA8 PmB25/55-65 M1 G1 Fahrbahn 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.12D",
+      "text": "MA11 90/10 M1 G1 Fahrbahn 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.12E",
+      "text": "MA11 90/10 M2 G1 Fahrbahn 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.12F",
+      "text": "MA11 PmB25//55-65 M1 G1 Fahrbahn 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.12G",
+      "text": "MA8 90/10 M1 G1 Fahrbahn 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.12H",
+      "text": "MA8 90/10 M2 G1 Fahrbahn 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.12I",
+      "text": "MA8 PmB25/55-65 M1 G1 Fahrbahn 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.12J",
+      "text": "MA11 90/10 M1 G1 Fahrbahn 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.12K",
+      "text": "MA11 90/10 M2 G1 Fahrbahn 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.12L",
+      "text": "MA11 PmB25//55-65 M1 G1 Fahrbahn 4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.21A",
+      "text": "Abstreuen MA4/MA8 Sand",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.21B",
+      "text": "Abstreuen MA4/MA8 2/4mm C90/1",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.21C",
+      "text": "Riffeln mittels Stachelwalze",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.22A",
+      "text": "Abspl.MA8 MA11 C100/0 LA20 PSV50 5-15kg",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.51A",
+      "text": "Rinnsal MA8 35/50 M2/G1 2cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.51B",
+      "text": "Rinnsal MA8 35/50 M2/G1 2,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.51C",
+      "text": "Rinnsal MA8 35/50 M2/G1 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.51D",
+      "text": "Rinnsal MA8 90/10 M2/G3 3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.51.52A",
+      "text": "Rinnsal 30cm MA8 35/50 M2/G1 2cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.51.52B",
+      "text": "Rinnsal 30cm MA8 35/50 M2/G1 2,5cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.51.52C",
+      "text": "Rinnsal 30cm MA8 35/50 M2/G1 3cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.51.52D",
+      "text": "Rinnsal 40cm MA8 35/50 M2/G1 2cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.51.52E",
+      "text": "Rinnsal 40cm MA8 35/50 M2/G1 2,5cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.51.52F",
+      "text": "Rinnsal 40cm MA8 35/50 M2/G1 3cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.51.52G",
+      "text": "Rinnsal 50cm MA8 35/50 M2/G1 2cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.51.52H",
+      "text": "Rinnsal 50cm MA8/35/50 M2/G1 2,5cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.51.52I",
+      "text": "Rinnsal 50cm MA8/35/50 M2/G1 3cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.01A",
+      "text": "Unterlagsbeton C16/20 Rand.",
+      "unit": "m³"
+    },
+    {
+      "code": "13.61.01B",
+      "text": "Unterlagsbeton C16/20 Rand.+Schalung",
+      "unit": "m³"
+    },
+    {
+      "code": "13.61.01C",
+      "text": "Unterlagsbeton C16/20 Rand.+Aush.+Schal.",
+      "unit": "m³"
+    },
+    {
+      "code": "13.61.03A",
+      "text": "Pfl.-Drainbeton C16/20/X0 Rand.",
+      "unit": "m³"
+    },
+    {
+      "code": "13.61.03B",
+      "text": "Pfl.-Drainbeton C16/20/X0 Rand.+Schalung",
+      "unit": "m³"
+    },
+    {
+      "code": "13.61.03C",
+      "text": "Pfl.-Drainbeton C16/20/X0 Rand.+Aush.+Schal.",
+      "unit": "m³"
+    },
+    {
+      "code": "13.61.11A",
+      "text": "Randsteine Granit 15/24 ROA1 ZM gerade                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.11B",
+      "text": "Randsteine Granit 16/20 ROA2 ZM gerade                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.11C",
+      "text": "Randsteine Granit 18/20 ROA3 ZM gerade                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.11D",
+      "text": "Randsteine Granit 20/20 ROA4 ZM gerade                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.11E",
+      "text": "Randsteine Granit 20/24 ROA5 ZM gerade                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.11F",
+      "text": "Randsteine Granit 30/20 ROA6 ZM gerade                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.11G",
+      "text": "Randsteine Granit 32/24 ROA7 ZM gerade                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.12A",
+      "text": "Randsteine Granit 15/24 ROA1 ZM Bogen                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.12B",
+      "text": "Randsteine Granit 16/20 ROA2 ZM Bogen                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.12C",
+      "text": "Randsteine Granit 18/20 ROA3 ZM Bogen                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.12D",
+      "text": "Randsteine Granit 20/20 ROA4 ZM Bogen                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.12E",
+      "text": "Randsteine Granit 20/24 ROA5 ZM Bogen                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.12F",
+      "text": "Randsteine Granit 30/20 ROA6 ZM Bogen                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.12G",
+      "text": "Randsteine Granit 32/24 ROA7 ZM Bogen                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.13A",
+      "text": "Randsteine Granit 15/24 ROA1 BB gerade                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.13B",
+      "text": "Randsteine Granit 16/20 ROA2 BB gerade                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.13C",
+      "text": "Randsteine Granit 18/20 ROA3 BB gerade                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.13D",
+      "text": "Randsteine Granit 20/20 ROA4 BB gerade                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.13E",
+      "text": "Randsteine Granit 20/24 ROA5 BB gerade                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.13F",
+      "text": "Randsteine Granit 30/20 ROA6 BB gerade                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.13G",
+      "text": "Randsteine Granit 32/24 ROA7 BB gerade                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.14A",
+      "text": "Randsteine Granit 15/24 ROA1 BB Bogen                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.14B",
+      "text": "Randsteine Granit 16/20 ROA2 BB Bogen                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.14C",
+      "text": "Randsteine Granit 18/20 ROA3 BB Bogen                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.14D",
+      "text": "Randsteine Granit 20/20 ROA4 BB Bogen                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.14E",
+      "text": "Randsteine Granit 20/24 ROA5 BB Bogen                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.14F",
+      "text": "Randsteine Granit 30/20 ROA6 BB Bogen                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.14G",
+      "text": "Randsteine Granit 32/24 ROA7 BB Bogen                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.16A",
+      "text": "Randsteine Beton 12/20 ZM gerade                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.16B",
+      "text": "Randsteine Beton 12/25 ZM gerade                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.16C",
+      "text": "Randsteine Beton 18/20 ZM gerade                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.16D",
+      "text": "Randsteine Beton 20/15 ZM gerade                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.17A",
+      "text": "Randsteine Beton 12/20 BB gerade                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.17B",
+      "text": "Randsteine Beton 12/25 BB gerade                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.17C",
+      "text": "Randsteine Beton 18/20 BB gerade                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.17D",
+      "text": "Randsteine Beton 20/15 BB gerade                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.18A",
+      "text": "Az Bogen b.10m Randstein Beton                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.19A",
+      "text": "Ablängen Randsteine Granit b.20/20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "13.61.19B",
+      "text": "Ablängen Randsteine Granit ü.20/20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "13.61.19C",
+      "text": "Ablängen Randsteine Beton b.20/20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "13.61.19D",
+      "text": "Ablängen Randsteine Beton ü.20/20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "13.61.20A",
+      "text": "Az Unterlagszementmörtel Mehrdicke",
+      "unit": "m³"
+    },
+    {
+      "code": "13.61.21A",
+      "text": "Leistensteine Granit 11/15 LS1 BB gerade                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.21B",
+      "text": "Leistensteine Granit 11/17 LS2 BB gerade                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.21C",
+      "text": "Leistensteine Granit 11/19 LS3 BB gerade                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.21D",
+      "text": "Leistensteine Granit 13/19 LS4 BB gerade                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.21E",
+      "text": "Leistensteine Granit 11/23 LS5 BB gerade                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.21F",
+      "text": "Leistensteine Granit 13/23 LS6 BB gerade                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.22A",
+      "text": "Leistensteine Beton 8/20 BB gerade                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.22B",
+      "text": "Leistensteine Beton 8/25 BB gerade                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.22C",
+      "text": "Leistensteine Beton 10/20 BB gerade                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.23A",
+      "text": "Az Schnurkante beids.Leistensteine                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.23B",
+      "text": "Az Bogen b.10m Leistensteine                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.23C",
+      "text": "Az Fase Leistensteine Granit                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.31A",
+      "text": "Beeteinfassungssteine Beton 5/20 BB gerade                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.31B",
+      "text": "Beeteinfassungssteine Beton 5/25 BB gerade                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.31C",
+      "text": "Beeteinfassungssteine Beton 5/30 BB gerade                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.32A",
+      "text": "Az Bogen b.10m Beeteinfassung                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.41A",
+      "text": "Pflastersaum Granit 18/18/18 GPS1 ZM                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.41B",
+      "text": "Pflastersaum Granit 18/27/18 GPS2 ZM                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.41C",
+      "text": "Pflastersaum Granit 18/18/13 GPS3 ZM                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.41D",
+      "text": "Pflastersaum Granit 18/27/13 GPS4 ZM                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.41E",
+      "text": "Pflastersaum Granit 18/18/9 GPS5 ZM                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.41F",
+      "text": "Pflastersaum Granit 18/27/9 GPS6 ZM                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.41G",
+      "text": "Pflastersaum Granit 16/16/16 GPS7 ZM                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.41H",
+      "text": "Pflastersaum Granit 16/24/16 GPS8 ZM                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.42A",
+      "text": "Pflastersaum Granit 18/18/18 GPS1 BB                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.42B",
+      "text": "Pflastersaum Granit 18/27/18 GPS2 BB                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.42C",
+      "text": "Pflastersaum Granit 18/18/13 GPS3 BB                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.42D",
+      "text": "Pflastersaum Granit 18/27/13 GPS4 BB                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.42E",
+      "text": "Pflastersaum Granit 18/18/9 GPS5 BB                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.42F",
+      "text": "Pflastersaum Granit 18/27/9 GPS6 BB                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.42G",
+      "text": "Pflastersaum Granit 16/16/16 GPS7 BB                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.42H",
+      "text": "Pflastersaum Granit 16/24/16 GPS8 BB                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.43A",
+      "text": "Pflastersaum Granit 7\"/7\"/7\" ZM                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.43B",
+      "text": "Pflastersaum Granit 5\"/7\"/7\" ZM                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.44A",
+      "text": "Pflastersaum Granit 7\"/7\"/7\" BB                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.44B",
+      "text": "Pflastersaum Granit 5\"/7\"/7\" BB                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.45A",
+      "text": "Az Bogen b.10 m Pflastersaum                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.51A",
+      "text": "Pflasterstr.2S Granit 7/7/7 KPS1 ZM                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.51B",
+      "text": "Pflasterstr.2S Granit 9/9/9 KPS2 ZM                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.51C",
+      "text": "Pflasterstr.2S Granit 11/11/11 KPS3 ZM                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.51D",
+      "text": "Pflasterstr.3S Granit 7/7/7 KPS1 ZM                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.51E",
+      "text": "Pflasterstr.3S Granit 9/9/9 KPS2 ZM                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.51F",
+      "text": "Pflasterstr.3S Granit 11/11/11 KPS3 ZM                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.51G",
+      "text": "Pflasterstr.4S Granit 7/7/7 KPS1 ZM                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.51H",
+      "text": "Pflasterstr.4S Granit 9/9/9 KPS2 ZM                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.51I",
+      "text": "Pflasterstr.4S Granit 11/11/11 KPS3 ZM                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.52A",
+      "text": "Pflasterstr.2S Granit 7\"/7\"/7\" ZM                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.52B",
+      "text": "Pflasterstr.2S Granit 7\"/5\"/7\" ZM                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.53A",
+      "text": "Pflasterstr.2S Granit 7\"/7\"/7\" BB                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.53B",
+      "text": "Pflasterstr.2S Granit 7\"/5\"/7\" BB                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.54A",
+      "text": "Pflasterstr.2S Granit 18/9/18 ges.ZM                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.54B",
+      "text": "Pflasterstr.2S Granit 18/5-6/18 ges.ZM                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.54C",
+      "text": "Pflasterstr.3S Granit 18/9/18 ges.ZM                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.54E",
+      "text": "Pflasterstr.3S Granit 18/5-6/18 ges.ZM                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.54F",
+      "text": "Pflasterstr.4S Granit 18/9/18 ges.ZM                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.54G",
+      "text": "Pflasterstr.4S Granit 18/5-6/18 ges.ZM                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.55A",
+      "text": "Pflasterstr.2S Granit 18/9/18 ges.BB                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.55B",
+      "text": "Pflasterstr.2S Granit 18/5-6/18 ges.BB                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.55C",
+      "text": "Pflasterstr.3S Granit 18/9/18 ges.BB                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.55D",
+      "text": "Pflasterstr.3S Granit 18/5-6/18 ges.BB                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.55E",
+      "text": "Pflasterstr.4S Granit 18/9/18 ges.BB                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.55F",
+      "text": "Pflasterstr.4S Granit 18/5-6/18 ges.BB                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.56A",
+      "text": "Pflasterstr.2S Granit 18/18/18 GPS1 ZM                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.56B",
+      "text": "Pflasterstr.2S Granit 18/13/18 GPS3 ZM                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.56C",
+      "text": "Pflasterstr.2S Granit 16/16/16 GPS7 ZM                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.56D",
+      "text": "Pflasterstr.3S Granit 18/18/18 GPS1 ZM                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.56E",
+      "text": "Pflasterstr.3S Granit 18/13/18 GPS3 ZM                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.56F",
+      "text": "Pflasterstr.3S Granit 16/16/16 GPS7 ZM                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.56G",
+      "text": "Pflasterstr.4S Granit 18/18/18 GPS1 ZM                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.56H",
+      "text": "Pflasterstr.4S Granit 18/13/18 GPS3 ZM                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.56I",
+      "text": "Pflasterstr.4S Granit 16/16/16 GPS7 ZM                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.57A",
+      "text": "Pflasterstr.2S Granit 18/18/18 GPS1 BB                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.57B",
+      "text": "Pflasterstr.2S Granit 18/13/18 GPS3 BB                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.57C",
+      "text": "Pflasterstr.2S Granit 16/16/16 GPS7 BB                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.57D",
+      "text": "Pflasterstr.3S Granit 18/18/18 GPS1 BB                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.57E",
+      "text": "Pflasterstr.3S Granit 18/13/18 GPS3 BB                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.57F",
+      "text": "Pflasterstr.3S Granit 16/16/16 GPS7 BB                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.57G",
+      "text": "Pflasterstr.4S Granit 18/18/18 GPS1 BB                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.57H",
+      "text": "Pflasterstr.4S Granit 18/13/18 GPS3 BB                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.57I",
+      "text": "Pflasterstr.4S Granit 16/16/16 GPS7 BB                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.59A",
+      "text": "Az f.Bogen b.10m Pflasterstreifen 2S                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.59B",
+      "text": "Az f.Bogen b.10m Pflasterstreifen 3S                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.59C",
+      "text": "Az f.Bogen b.10m Pflasterstreifen 4S                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.61A",
+      "text": "Az f.Muldenausbildung 1S                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.61B",
+      "text": "Az f.Muldenausbildung 2S                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "13.61.61C",
+      "text": "Az f.Muldenausbildung 3S                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "13.62.01A",
+      "text": "Kleinsteine Granit 11/11/11 KPS3 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.01B",
+      "text": "Kleinsteine Granit 9/9/9 KPS2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.01C",
+      "text": "Kleinsteine Granit 7/7/7 KPS1 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.01D",
+      "text": "Kleinsteine Granit 8/10 gebraucht S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.02A",
+      "text": "Kleinsteine Porphyr 11/11/11 KPS3 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.02B",
+      "text": "Kleinsteine Porphyr 9/9/9 KPS2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.02C",
+      "text": "Kleinsteine Porphyr 7/7/7 KPS1 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.03A",
+      "text": "Mosaik Granit 4,5/4,5/4,5 MPS1 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.11A",
+      "text": "Dehnfugen Kleinsteinpflaster b.10mm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.62.11B",
+      "text": "Dehnfugen Kleinsteinpflaster ü.10-20mm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "13.62.11C",
+      "text": "Dehnfugen Kleinsteinpflaster ü.20-30mm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "13.62.21A",
+      "text": "Az gg Scharen 11/11/11 KPS3",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.21B",
+      "text": "Az gg Scharen 9/9/9 KPS2",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.21C",
+      "text": "Az gg Scharen 7/7/7 KPS1",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.21D",
+      "text": "Az gg Scharen 4,5/4,5/4,5 MPS1",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.22A",
+      "text": "Az Schuppenform 7/7/7 KPS1",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.22B",
+      "text": "Az Schuppenform 4,5/4,5/4,5 MPS1",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.23A",
+      "text": "Az Passeverband 11/11/11 KPS3",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.23B",
+      "text": "Az Passeverband 9/9/9 KPS2",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.23C",
+      "text": "Az Passeverband 7/7/7 KPS1",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.23D",
+      "text": "Az Passeverband 4,5/4,5/4,5 MPS1",
+      "unit": "m²"
+    },
+    {
+      "code": "13.62.24A",
+      "text": "Az Kleinstein Mörtelbettung 3-6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.63.01A",
+      "text": "Großsteine Granit 7\"/7\"/7\" S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.63.01B",
+      "text": "Großsteine Granit 7\"/5\"/7\" S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.63.02A",
+      "text": "Großsteine Granit 18/9/18 gesägt S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.63.02B",
+      "text": "Großsteine Granit 18/5-6/18 gesägt S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.63.03A",
+      "text": "Groß-Würfelsteine Granit 18/18/18 GPS1 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.63.03B",
+      "text": "Groß-Würfelsteine Granit 18/13/18 GPS3 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.63.03C",
+      "text": "Groß-Würfelsteine Granit 18/9/18 GPS5 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.63.03D",
+      "text": "Groß-Würfelsteine Granit 16/16/16 GPS7 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.63.04A",
+      "text": "Grst.Halbgut Granit 24/10-16/24 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.63.05A",
+      "text": "Grst.12\"-Platten Granit 32/15-17/32 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.63.05B",
+      "text": "Grst.18\"-Platten Granit 48/15-17/48 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.63.11A",
+      "text": "Stocken Großsteinpflaster",
+      "unit": "m²"
+    },
+    {
+      "code": "13.63.12A",
+      "text": "Zuarbeiten Großsteinpflaster",
+      "unit": "m²"
+    },
+    {
+      "code": "13.63.13A",
+      "text": "Dehnfugen Großsteinpflaster b.10mm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "13.63.13B",
+      "text": "Dehnfugen Großsteinpflaster ü.10-20mm                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "13.63.13C",
+      "text": "Dehnfugen Großsteinpflaster ü.20-30mm                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "13.63.21A",
+      "text": "Az Großsteinpfl.Fugenverguss Heißbitumen",
+      "unit": "m²"
+    },
+    {
+      "code": "13.63.21B",
+      "text": "Az Großsteinpfl.Mörtelbettung 3-6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.00C",
+      "text": "Material zu 13.64 Oberfläche",
+      "unit": ""
+    },
+    {
+      "code": "13.64.00D",
+      "text": "Material zu 13.64 Oberflächenschutz",
+      "unit": ""
+    },
+    {
+      "code": "13.64.01A",
+      "text": "Pflasterplatten Granit 24/8/24 PP1 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.01B",
+      "text": "Pflasterplatten Granit 32/10/32 PP3 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.01C",
+      "text": "Pflasterplatten Granit 48/12/48 PP5 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.02A",
+      "text": "Pflasterplatten Granit 25-50/4/25-50 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.02B",
+      "text": "Pflasterplatten Granit 25-50/5/25-50 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.02C",
+      "text": "Pflasterplatten Granit 25-50/6/25-50 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.02D",
+      "text": "Pflasterplatten Granit 25-50/8/25-50 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.02E",
+      "text": "Pflasterplatten Granit 25-50/10/25-50 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.02F",
+      "text": "Pflasterplatten Granit 25-50/12/25-50 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.02G",
+      "text": "Pflasterplatten Granit 25-50/14/25-50 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.02H",
+      "text": "Pflasterplatten Granit 25-50/18/25-50 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.03A",
+      "text": "Pflasterplatten Porph.25-50/3-7/25-50 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.04A",
+      "text": "Pflasterplatten Beton 30-60/4/30-60 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.04B",
+      "text": "Pflasterplatten Beton 30-60/5/30-60 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.04C",
+      "text": "Pflasterplatten Beton 30-60/6/30-60 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.04D",
+      "text": "Pflasterplatten Beton 30-60/8/30-60 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.04E",
+      "text": "Pflasterplatten Beton 30-60/10/30-60 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.04F",
+      "text": "Pflasterplatten Beton 30-60/12/30-60 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.04G",
+      "text": "Pflasterplatten Beton 30-60/14/30-60 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.04H",
+      "text": "Pflasterplatten Beton 30-60/18/30-60 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.04I",
+      "text": "Pflasterplatten Beton 30-60/20/30-60 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.04J",
+      "text": "Pflasterplatten Beton 30-60/20/61-100 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.11A",
+      "text": "Kombiplatten Granit 2+10 25-40/12/25-80 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.11B",
+      "text": "Kombiplatten Granit 2+12 25-40/14/25-80 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.11C",
+      "text": "Kombiplatten Granit 3+13 25-40/16/25-80 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.11D",
+      "text": "Kombiplatten Granit 3+15 25-40/18/25-80 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.11E",
+      "text": "Kombiplatten Granit 3+17 25-40/20/25-80 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.21A",
+      "text": "Schneiden Natursteinplatten/Kombiplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.21B",
+      "text": "Schneiden Betonsteinplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.24A",
+      "text": "Zuarbeiten Pflasterplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.31A",
+      "text": "Dehnfugen Pflasterplatten 10mm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "13.64.31B",
+      "text": "Dehnfugen Pflasterplatten >10-20 mm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.64.31C",
+      "text": "Dehnfugen Pflasterplatten >20-30 mm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.64.51A",
+      "text": "Az Pflasterplatten Mörtelbettung 3-6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.51B",
+      "text": "Az Pflasterplatten Fugenverguss ZM",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.51C",
+      "text": "Az Pflasterplatten Kreuzfuge",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.51D",
+      "text": "Az Pflasterplatten Fixlängen",
+      "unit": "m²"
+    },
+    {
+      "code": "13.64.51E",
+      "text": "Az Pflasterplatten Abfasen                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "13.65.00C",
+      "text": "Material zu 13.65 Oberfläche",
+      "unit": ""
+    },
+    {
+      "code": "13.65.00D",
+      "text": "Material zu 13.65 Oberflächenschutz",
+      "unit": ""
+    },
+    {
+      "code": "13.65.00E",
+      "text": "Material zu 13.65 Sonderfarben",
+      "unit": ""
+    },
+    {
+      "code": "13.65.01A",
+      "text": "Betonpflastersteine 5cm b.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.01B",
+      "text": "Betonpflastersteine 5cm ü.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.01C",
+      "text": "Betonpflastersteine 6cm b.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.01D",
+      "text": "Betonpflastersteine 6cm ü.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.01E",
+      "text": "Betonpflastersteine 7cm b.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.01F",
+      "text": "Betonpflastersteine 7cm ü.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.01G",
+      "text": "Betonpflastersteine 8cm b.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.01H",
+      "text": "Betonpflastersteine 8cm ü.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.01I",
+      "text": "Betonpflastersteine 10cm b.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.01J",
+      "text": "Betonpflastersteine 10cm ü.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.01K",
+      "text": "Betonpflastersteine 12cm b.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.01L",
+      "text": "Betonpflastersteine 12cm ü.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.01M",
+      "text": "Betonpflastersteine 14cm b.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.01N",
+      "text": "Betonpflastersteine 14cm ü.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.11A",
+      "text": "Betonverbundpflastersteine 6cm b.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.11B",
+      "text": "Betonverbundpflastersteine 6cm ü.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.11C",
+      "text": "Betonverbundpflastersteine 8cm b.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.11D",
+      "text": "Betonverbundpflastersteine 8cm ü.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.11E",
+      "text": "Betonverbundpflastersteine 10cm b.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.11F",
+      "text": "Betonverbundpflastersteine 10cm ü.50St/m2 S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.21A",
+      "text": "Gitterplatten Beton 8cm befahrb.SO",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.21B",
+      "text": "Gitterplatten Beton 10cm befahrb.SO",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.21C",
+      "text": "Gitterplatten Beton 12cm befahrb.SO",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.21D",
+      "text": "Gitterplatten Beton 30cm befahrb.SO",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.22A",
+      "text": "Gitterplatten Beton 8cm Mulden+Böschung",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.22B",
+      "text": "Gitterplatten Beton 10cm Mulden+Böschung",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.22C",
+      "text": "Gitterplatten Beton 12cm Mulden+Böschung",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.31A",
+      "text": "Ökopflastersteine Beton 8cm b.50St/m2 SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.31B",
+      "text": "Ökopflastersteine Beton 8cm ü.50St/m2 SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.31C",
+      "text": "Ökopflastersteine Beton 10cm b.50St/m2 SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.31D",
+      "text": "Ökopflastersteine Beton 10cm ü.50St/m2 SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.31E",
+      "text": "Ökopflastersteine Beton 12cm b.50St/m2 SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.31F",
+      "text": "Ökopflastersteine Beton 12cm ü.50St/m2 SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.32A",
+      "text": "Ökopflastersteine Beton 8cm b.50St/m2 SO",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.32B",
+      "text": "Ökopflastersteine Beton 8cm ü.50St/m2 SO",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.32C",
+      "text": "Ökopflastersteine Beton 10cm b.50St/m2 SO",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.32D",
+      "text": "Ökopflastersteine Beton 10cm ü.50St/m2 SO",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.32E",
+      "text": "Ökopflastersteine Beton 12cm b.50St/m2 SO",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.32F",
+      "text": "Ökopflastersteine Beton 12cm ü.50St/m2 SO",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.41A",
+      "text": "Spalten Betonsteine b.6cm                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "13.65.41B",
+      "text": "Spalten Betonsteine ü.6-10cm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "13.65.42A",
+      "text": "Schneiden Beton-/Ökosteine",
+      "unit": "m²"
+    },
+    {
+      "code": "13.65.51A",
+      "text": "Dehnfugen Betonsteinpflastersteine 10mm                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "13.65.51B",
+      "text": "Dehnfugen Betonsteinpflastersteine ü.10-20mm                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "13.65.51C",
+      "text": "Dehnfugen Betonsteinpflastersteine ü.20-30mm                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "13.65.61A",
+      "text": "Az Abfasen Betonsteine                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "13.65.61B",
+      "text": "Az Markierungssteine                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "13.65.61C",
+      "text": "Az Blindensteine                                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.65.61D",
+      "text": "Az Steine ohne Fase                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.65.61E",
+      "text": "Az Betonsteinpflaster Mörtelbettung 3-6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.66.01A",
+      "text": "Pflasterklinker 25/12/6,5 liegend S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.66.01B",
+      "text": "Pflasterklinker 25/6,5/12 stehend S/SF",
+      "unit": "m²"
+    },
+    {
+      "code": "13.66.11A",
+      "text": "Dehnfugen Pflasterklinker b.10mm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "13.66.11B",
+      "text": "Dehnfugen Pflasterklinker ü.10-20mm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.66.11C",
+      "text": "Dehnfugen Pflasterklinker ü.20-30mm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.66.12A",
+      "text": "Schneiden Pflasterklinker",
+      "unit": "m²"
+    },
+    {
+      "code": "13.66.21A",
+      "text": "Az Pflasterklinker Mörtelbettung 3-6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "13.69.01A",
+      "text": "Stufen Großsteine GPS1 Kleinst.KPS1 7/7/7                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.01B",
+      "text": "Stufen Großsteine GPS2 Kleinst.KPS1 7/7/7                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.01C",
+      "text": "Stufen Großsteine GPS1 Kleinst.KPS2 11/11/11                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.01D",
+      "text": "Stufen Großsteine GPS2 Kleinst.KPS2 11/11/11                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.01E",
+      "text": "Stufen Leistensteine LS3 Kleinst.KPS1 7/7/7                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.01F",
+      "text": "Stufen Leistensteine LS3 Kleinst.KPS2 11/11/11                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.02A",
+      "text": "Trittplatte 3cm                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.02B",
+      "text": "Trittplatte 4cm                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.03A",
+      "text": "Setzplatte 3cm                                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.11A",
+      "text": "Stufen Betonrandstein-Betonsteinpflaster                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.11B",
+      "text": "Stufen Betonrandstein-Betonpflasterplatten                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.12A",
+      "text": "Tritt-u.Setzstufen Betonsteinpflaster                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.12B",
+      "text": "Tritt-u.Setzstufen Betonpflasterplatten                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.12X",
+      "text": "Tritt-u.Setzstufen Betonpflasterplatten AG                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.15X",
+      "text": "Betonwinkelstufen AG                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.17X",
+      "text": "Betonkeilstufen AG                                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.19A",
+      "text": "Betonblockstufen b.0,5m                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.19B",
+      "text": "Betonblockstufen ü.0,5-1m                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "13.69.19X",
+      "text": "Betonblockstufen ü.1m bis__________                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "13.71.00E",
+      "text": "Material zu 31.71 Sonderfarben",
+      "unit": ""
+    },
+    {
+      "code": "13.71.01A",
+      "text": "Betonsteinsichtmwk.einseitig b.1,5m",
+      "unit": "m²"
+    },
+    {
+      "code": "13.71.01B",
+      "text": "Betonsteinsichtmwk.einseitig ü.1,5m bis__________",
+      "unit": "m²"
+    },
+    {
+      "code": "13.71.11A",
+      "text": "Betonsteinsichtmwk.freist.b.1,5m",
+      "unit": "m²"
+    },
+    {
+      "code": "13.71.11B",
+      "text": "Betonsteinsichtmwk.freist.ü.1,5m bis__________",
+      "unit": "m²"
+    },
+    {
+      "code": "13.71.21A",
+      "text": "Az Betonsichtmwk.freist.mit Sichtfuge",
+      "unit": "m²"
+    },
+    {
+      "code": "13.71.21B",
+      "text": "Az Betonsichtmwk.freist.ohne Sichtfuge",
+      "unit": "m²"
+    },
+    {
+      "code": "13.91.05A",
+      "text": "Transp./Verw./Dep.Flächenabtrag rein",
+      "unit": "m³"
+    },
+    {
+      "code": "13.91.05B",
+      "text": "Transp./Verw./Dep.Flächenabtrag Inertabfal b.30% / b.3%",
+      "unit": "m³"
+    },
+    {
+      "code": "13.91.05C",
+      "text": "Transp./Verw./Dep.Flächenabtrag Inertabfall ü.30% / ü.3%",
+      "unit": "m³"
+    },
+    {
+      "code": "13.91.05D",
+      "text": "Transp./Verw./Dep.Flächenabtrag Baurestmassen b.30% / b.3%",
+      "unit": "m³"
+    },
+    {
+      "code": "13.91.05E",
+      "text": "Transp./Verw./Dep.Flächenabtrag Baurestmassen ü.30% / ü.3%",
+      "unit": "m³"
+    },
+    {
+      "code": "13.91.05F",
+      "text": "Transp./Verw./Dep.Flächenabtrag Reststoff.",
+      "unit": "m³"
+    },
+    {
+      "code": "13.91.05G",
+      "text": "Transp./Verw./Dep.Flächenabtrag Massenabfall",
+      "unit": "m³"
+    },
+    {
+      "code": "13.91.06A",
+      "text": "Transp./Verw./Dep.Flächenabtrag (nicht deponierbar)",
+      "unit": "m³"
+    },
+    {
+      "code": "13.91.10A",
+      "text": "Transport Mutterboden (AKL-M)",
+      "unit": "m³"
+    },
+    {
+      "code": "13.91.10B",
+      "text": "Verwerten Mutterboden (AKL-M)",
+      "unit": "m³"
+    },
+    {
+      "code": "13.91.10C",
+      "text": "Transportieren u.Verwerten Mutterboden (AKL-M)",
+      "unit": "m³"
+    },
+    {
+      "code": "13.91.11A",
+      "text": "Transport Oberboden (AKL-O)",
+      "unit": "m³"
+    },
+    {
+      "code": "13.91.11B",
+      "text": "Verwerten Oberboden (AKL-O)",
+      "unit": "m³"
+    },
+    {
+      "code": "13.91.11C",
+      "text": "Transportieren u.Verwerten Oberboden (AKL-O)",
+      "unit": "m³"
+    }
+  ]
+}

@@ -1,0 +1,861 @@
+{
+  "lg": "68",
+  "title": "Vorgehängte hinterlüftete Fassaden",
+  "positions": [
+    {
+      "code": "68.00.01A",
+      "text": "Allgemeine Beschreibung des Gebäudes",
+      "unit": ""
+    },
+    {
+      "code": "68.00.01B",
+      "text": "Bemusterung Handmuster",
+      "unit": ""
+    },
+    {
+      "code": "68.00.01C",
+      "text": "Bemusterung an der Fassade",
+      "unit": ""
+    },
+    {
+      "code": "68.00.01D",
+      "text": "Montage UK Fassadensystem",
+      "unit": ""
+    },
+    {
+      "code": "68.00.01V",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "68.01.00A",
+      "text": "Vermessung/Bezugssystem vom AG",
+      "unit": ""
+    },
+    {
+      "code": "68.01.00D",
+      "text": "Zufahrt zur Baustelle",
+      "unit": ""
+    },
+    {
+      "code": "68.01.00E",
+      "text": "Montagebereich",
+      "unit": ""
+    },
+    {
+      "code": "68.01.00F",
+      "text": "Transport- und Hubmöglichkeiten",
+      "unit": ""
+    },
+    {
+      "code": "68.01.00L",
+      "text": "Leistungsetappen/Leistungsunterbrechungen",
+      "unit": ""
+    },
+    {
+      "code": "68.11.01A",
+      "text": "FZ-Großtafel+UK-Holz+WD geschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.11.01B",
+      "text": "HPL-Großtafel+UK-Holz+WD geschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.11.01C",
+      "text": "AluV-Großtafel+UK-Holz+WD geschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.11.01I",
+      "text": "FB-Großtafel+UK-Holz+WD geschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.11.01K",
+      "text": "HPST-Großtafel+UK-Holz+WD geschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.11.01M",
+      "text": "MWST-Großtafel+UK-Holz+WD geschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.11.11A",
+      "text": "Az Großtafel+UK-Holz+WD geschraubt f.2-schalig Stahl",
+      "unit": "m²"
+    },
+    {
+      "code": "68.11.11B",
+      "text": "Az Großtafel+UK-Holz+WD geschraubt f.2-schalig Alu",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.01A",
+      "text": "FZ-Großtafel+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.01B",
+      "text": "HPL-Großtafel+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.01C",
+      "text": "AluV-Großtafel+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.01D",
+      "text": "Alu-Großtafel+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.01E",
+      "text": "V2A-Großtafel+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.01F",
+      "text": "TiZi-Großtafel+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.01G",
+      "text": "VZB-Großtafel+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.01H",
+      "text": "CU-Großtafel+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.01I",
+      "text": "FB-Großtafel+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.01J",
+      "text": "KSTG-Großtafel+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.01K",
+      "text": "HPST-Großtafel+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.01M",
+      "text": "MWST-Großtafel+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.02A",
+      "text": "TON-Großtafel+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.11A",
+      "text": "Az Großtafel+UK-Alu+WD genietet f.2-schalig",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.11B",
+      "text": "Az Großtafel+UK-Alu+WD genietet f.Abdeckbahnen",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.11C",
+      "text": "Az Großtafel+UK-Alu+WD genietet f.geschl.V-Fugen",
+      "unit": "m²"
+    },
+    {
+      "code": "68.12.11D",
+      "text": "Az Großtafel+UK-Alu+WD genietet f.geschl.H-Fugen",
+      "unit": "m²"
+    },
+    {
+      "code": "68.13.01A",
+      "text": "FZ-Großtafel+UK-Alu+WD v.befestigt (HS)",
+      "unit": "m²"
+    },
+    {
+      "code": "68.13.01B",
+      "text": "HPL-Großtafel+UK-Alu+WD v.befestigt (HS)",
+      "unit": "m²"
+    },
+    {
+      "code": "68.13.01I",
+      "text": "FB-Großtafel+UK-Alu+WD v.befestigt (HS)",
+      "unit": "m²"
+    },
+    {
+      "code": "68.13.01J",
+      "text": "KSTG-Großtafel+UK-Alu+WD v.befestigt (HS)",
+      "unit": "m²"
+    },
+    {
+      "code": "68.13.01M",
+      "text": "MWST-Großtafel+UK-Alu+WD v.befestigt (HS)",
+      "unit": "m²"
+    },
+    {
+      "code": "68.13.02A",
+      "text": "TON-Großtafel+UK-Alu+WD v.befestigt (HS)",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.01A",
+      "text": "FZ-Großtafel+UK-Alu+WD geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.01B",
+      "text": "HPL-Großtafel+UK-Alu+WD geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.01C",
+      "text": "AluV-Großtafel+UK-Alu+WD geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.01D",
+      "text": "Alu-Großtafel+UK-Alu+WD geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.01E",
+      "text": "V2A-Großtafel+UK-Alu+WD geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.01F",
+      "text": "TiZi-Großtafel+UK-Alu+WD geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.01G",
+      "text": "VZB-Großtafel+UK-Alu+WD geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.01H",
+      "text": "CU-Großtafel+UK-Alu+WD geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.01I",
+      "text": "FB-Großtafel+UK-Alu+WD geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.01J",
+      "text": "KSTG-Großtafel+UK-Alu+WD geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.01K",
+      "text": "HPST-Großtafel+UK-Alu+WD geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.01M",
+      "text": "MWST-Großtafel+UK-Alu+WD geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.02A",
+      "text": "TON-Großtafel+UK-Alu+WD geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.11A",
+      "text": "Az Großtafel+UK-Alu+WD vb geklebt f.2-schalig",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.11B",
+      "text": "Az Großtafel+UK-Alu+WD vb geklebt f.Abdeckbahnen",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.11C",
+      "text": "Az Großtafel+UK-Alu+WD vb geklebt f.geschl.V-Fugen",
+      "unit": "m²"
+    },
+    {
+      "code": "68.14.11D",
+      "text": "Az Großtafel+UK-Alu+WD vb geklebt f.geschl.H-Fugen",
+      "unit": "m²"
+    },
+    {
+      "code": "68.21.01A",
+      "text": "FZ-Stulpdeckung+UK-Holz+WD geschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.21.01B",
+      "text": "HPL-Stulpdeckung+UK-Holz+WD geschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.21.01I",
+      "text": "FB-Stulpdeckung+UK-Holz+WD geschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.21.01K",
+      "text": "HPST-Stulpdeckung+UK-Holz+WD geschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.21.01M",
+      "text": "MWST-Stulpdeckung+UK-Holz+WD geschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.21.11A",
+      "text": "Az Stulpdeckung+UK-Holz+WD geschraubt f.2-schalig Stahl",
+      "unit": "m²"
+    },
+    {
+      "code": "68.21.11B",
+      "text": "Az Stulpdeckung+UK-Holz+WD geschraubt f.2-schalig Alu",
+      "unit": "m²"
+    },
+    {
+      "code": "68.22.01A",
+      "text": "FZ-Stulpdeckung+UK-Holz+WD v.geschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.22.01B",
+      "text": "HPL-Stulpdeckung+UK-Holz+WD v.geschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.22.01I",
+      "text": "FB-Stulpdeckung+UK-Holz+WD v.geschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.22.01K",
+      "text": "HPST-Stulpdeckung+UK-Holz+WD v.geschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.22.01M",
+      "text": "MWST-Stulpdeckung+UK-Holz+WD v.geschraubt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.22.11A",
+      "text": "Az Stulpdeckung+UK-Holz+WD v.geschraub f.2-schalig Stahl",
+      "unit": "m²"
+    },
+    {
+      "code": "68.22.11B",
+      "text": "Az Stulpdeckung+UK-Holz+WD v.geschraubt f.2-schalig Alu",
+      "unit": "m²"
+    },
+    {
+      "code": "68.23.01A",
+      "text": "FZ-Stulpdeckung+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.23.01B",
+      "text": "HPL-Stulpdeckung+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.23.01I",
+      "text": "FB-Stulpdeckung+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.23.01K",
+      "text": "HPST-Stulpdeckung+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.23.01M",
+      "text": "MWST-Stulpdeckung+UK-Alu+WD genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.23.11A",
+      "text": "Az Stulpdeckung+UK-Alu+WD genietet f.2-schalig",
+      "unit": "m²"
+    },
+    {
+      "code": "68.23.11B",
+      "text": "Az Stulpdeckung+UK-Alu+WD genietet f.Abdeckbahnen",
+      "unit": "m²"
+    },
+    {
+      "code": "68.23.11C",
+      "text": "Az Stulpdeckung+UK-Alu+WD genietet f.geschl.V-Fugen",
+      "unit": "m²"
+    },
+    {
+      "code": "68.24.01A",
+      "text": "FZ-Stulpdeckung+UK-Alu+WD v.genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.24.01B",
+      "text": "HPL-Stulpdeckung+UK-Alu+WD v.genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.24.01I",
+      "text": "FB-Stulpdeckung+UK-Alu+WD v.genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.24.01K",
+      "text": "HPST-Stulpdeckung+UK-Alu+WD v.genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.24.01M",
+      "text": "MWST-Stulpdeckung+UK-Alu+WD v.genietet",
+      "unit": "m²"
+    },
+    {
+      "code": "68.24.11A",
+      "text": "Az Stulpdeckung+UK-Alu+WD v.genietet f.2-schalig",
+      "unit": "m²"
+    },
+    {
+      "code": "68.24.11B",
+      "text": "Az Stulpdeckung+UK-Alu+WD v.genietet f.Abdeckbahnen",
+      "unit": "m²"
+    },
+    {
+      "code": "68.24.11C",
+      "text": "Az Stulpdeckung+UK-Alu+WD v.genietet f.geschl.V-Fugen",
+      "unit": "m²"
+    },
+    {
+      "code": "68.31.01A",
+      "text": "FZ-Kleinformat+UK-Holz+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.31.01B",
+      "text": "HPL-Kleinformat+UK-Holz+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.31.01D",
+      "text": "Alu-Kleinformat+UK-Holz+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.31.01E",
+      "text": "V2A-Kleinformat+UK-Holz+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.31.01F",
+      "text": "TiZi-Kleinformat+UK-Holz+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.31.01G",
+      "text": "VZB-Kleinformat+UK-Holz+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.31.01H",
+      "text": "CU-Kleinformat+UK-Holz+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.31.01L",
+      "text": "KST-Kleinformat+UK-Holz+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.31.01M",
+      "text": "MWST-Kleinformat+UK-Holz+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.31.01N",
+      "text": "Holz-Kleinformat+UK-Holz+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.31.11A",
+      "text": "Az Kleinformat+UK-Holz+WD sichtbar bef.f.2-schalig Stahl",
+      "unit": "m²"
+    },
+    {
+      "code": "68.31.11B",
+      "text": "Az Kleinformat+UK-Holz+WD sichtbar bef.f.2-schalig Alu",
+      "unit": "m²"
+    },
+    {
+      "code": "68.32.01A",
+      "text": "FZ-Kleinformat+UK-Holz+WD v.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.32.01B",
+      "text": "HPL-Kleinformat+UK-Holz+WD v.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.32.01D",
+      "text": "Alu-Kleinformat+UK-Holz+WD v.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.32.01E",
+      "text": "V2A-Kleinformat+UK-Holz+WD v.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.32.01F",
+      "text": "TiZi-Kleinformat+UK-Holz+WD v.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.32.01G",
+      "text": "VZB-Kleinformat+UK-Holz+WD v.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.32.01H",
+      "text": "CU-Kleinformat+UK-Holz+WD v.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.32.01L",
+      "text": "KST-Kleinformat+UK-Holz+WD v.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.32.01M",
+      "text": "MWST-Kleinformat+UK-Holz+WD v.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.32.01N",
+      "text": "Holz-Kleinformat+UK-Holz+WD v.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.32.11A",
+      "text": "Az Kleinformat+UK-Holz+WD v.befestigt f.2-schalig Stahl",
+      "unit": "m²"
+    },
+    {
+      "code": "68.32.11B",
+      "text": "Az Kleinformat+UK-Holz+WD v.befestigt f.2-schalig Alu",
+      "unit": "m²"
+    },
+    {
+      "code": "68.41.01D",
+      "text": "ALU-Siding+UK-Alu+WD verdeckt befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.41.01E",
+      "text": "V2A-Siding+UK-Alu+WD verdeckt befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.41.01F",
+      "text": "TiZi-Siding+UK-Alu+WD verdeckt befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.41.01G",
+      "text": "VZB-Siding+UK-Alu+WD verdeckt befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.41.01H",
+      "text": "CU-Siding+UK-Alu+WD verdeckt befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.41.11A",
+      "text": "Az Siding+UK-Alu+WD verdeckt bef.f.Sonderbeschichtung",
+      "unit": "m²"
+    },
+    {
+      "code": "68.42.01D",
+      "text": "ALU-Siding+UK-Kasette+WD verdeckt befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.42.01E",
+      "text": "V2A-Siding+UK-Kasette+WD verdeckt befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.42.01F",
+      "text": "TiZi-Siding+UK-Kasette+WD verdeckt befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.42.01G",
+      "text": "VZB-Siding+UK-Kasette+WD verdeckt befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.42.01H",
+      "text": "CU-Siding+UK-Kasette+WD verdeckt befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.42.11A",
+      "text": "Az Siding+UK-Kasette+WD verdeckt bef.f.Sonderbeschichtung",
+      "unit": "m²"
+    },
+    {
+      "code": "68.61.01D",
+      "text": "Alu-Stülppaneel+UK-Alu+WD verdeckt befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.61.01F",
+      "text": "TiZi-Stülppaneel+UK-Alu+WD verdeckt befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.61.01G",
+      "text": "VZB-Stülppaneel+UK-Alu+WD verdeckt befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.61.11A",
+      "text": "Az Stülppaneel+UK-Alu+WD verdeckt bef.f.Sonderbeschichtung",
+      "unit": "m²"
+    },
+    {
+      "code": "68.62.01D",
+      "text": "Alu-Trapezprofil+UK-Alu+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.62.01F",
+      "text": "TiZi-Trapezprofil+UK-Alu+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.62.01G",
+      "text": "VZB-Trapezprofil+UK-Alu+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.62.02D",
+      "text": "Alu-Wellprofil+UK-Alu+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.62.02F",
+      "text": "TiZi-Wellprofil+UK-Alu+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.62.02G",
+      "text": "VZB-Wellprofil+UK-Alu+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.62.11A",
+      "text": "Az Trapezpr.+UK-Alu+WD sichtbar bef.f.Sonderbeschichtung",
+      "unit": "m²"
+    },
+    {
+      "code": "68.62.11B",
+      "text": "Az Welllpr.+UK-Alu+WD sichtbar bef.f.Sonderbeschichtung",
+      "unit": "m²"
+    },
+    {
+      "code": "68.63.01G",
+      "text": "VZB-Trapezprofil+UK-Stahl+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.63.02G",
+      "text": "VZB-Wellprofil+UK-Stahl+WD sichtbar befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "68.63.11A",
+      "text": "Az Trapezpr.i+UK-Stahl+WD sichtbar bef.f.Sonderbeschicht.",
+      "unit": "m²"
+    },
+    {
+      "code": "68.63.11B",
+      "text": "Az Welllpr.+UK-Alu+WD sichtbar bef.f.Sonderbeschicht.",
+      "unit": "m²"
+    },
+    {
+      "code": "68.81.01A",
+      "text": "Az Fass.+UK+WD f.erhöhte Abstand Bauteil/Außenkante",
+      "unit": "m²"
+    },
+    {
+      "code": "68.81.01B",
+      "text": "Az Fass.+UK+WD f.erhöhte Anforderungen/Plattendicke",
+      "unit": "m²"
+    },
+    {
+      "code": "68.81.11A",
+      "text": "Hinterlüftete Fassade+UK+WD f.Untersicht",
+      "unit": "m²"
+    },
+    {
+      "code": "68.81.11B",
+      "text": "Hinterlüftete Fassade+UK+WD f.Sonderfarbe",
+      "unit": "m²"
+    },
+    {
+      "code": "68.81.11C",
+      "text": "Hinterlüftete Fassade+UK+WD f.Ausschneiden WD",
+      "unit": "Stk"
+    },
+    {
+      "code": "68.81.11D",
+      "text": "Hinterlüftete Fassade+UK+WD f. WD s.A.",
+      "unit": "m²"
+    },
+    {
+      "code": "68.81.11E",
+      "text": "Hinterlüftete Fassade+UK+WD f.Eckausbildungen                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.11F",
+      "text": "Hinterlüftete Fassade+UK+WD f.Gliederung                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.11G",
+      "text": "Hinterlüftete Fassade+UK+WD f.Dehnfugen                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.11H",
+      "text": "Hinterlüftete Fassade+UK+W.Fugenausbildung Lüftungsgitter                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.11I",
+      "text": "Hinterlüftete Fassade+UK+WD f.Putzanschluss                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.11J",
+      "text": "Hinterlüftete Fassade+UK+WD f.Anschluss Glas                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.11K",
+      "text": "Hinterlüftete Fassade+UK+WD f.Jalousiekasten                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.11L",
+      "text": "Hinterlüftete Fassade+UK+WD f.Anarbeiten/gerade                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.11M",
+      "text": "Hinterlüftete Fassade+UK+WD f.Anarbeiten/schräg                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.13A",
+      "text": "Fe.-u.Türanschl.hinterlüftete Fassade+UK+WD m.Großtafelstr.                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.13B",
+      "text": "Fe.-u.Türanschl.hinterlüftete Fassade+UK+WD m.farbb.Alu                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.15A",
+      "text": "Sohlbank Alublech farbbeschichtet                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.15B",
+      "text": "Sohlbank Alu stranggepresst farbbeschichtet                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.15C",
+      "text": "Sohlbank Stahlblech verzinkt farbbeschichtet                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.17A",
+      "text": "Fass.+UK+WD m.Metallpr.f.Startprofil (STB)                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.17B",
+      "text": "Fass.+UK+WD m.Metallpr.f.Startprofil (ALU)                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.17C",
+      "text": "Fass.+UK+WD m.Metallpr.f.Schattenfugenprofile (STB)                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.17D",
+      "text": "Fass.+UK+WD m.Metallpr.f.Schattenfugenprofile (ALU)                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.17E",
+      "text": "Fass.+UK+WD m.Metallpr.f.Eckelement (STB)",
+      "unit": "Stk"
+    },
+    {
+      "code": "68.81.17F",
+      "text": "Fass.+UK+WD m.Metallpr.f.Eckelement (ALU)",
+      "unit": "Stk"
+    },
+    {
+      "code": "68.81.17G",
+      "text": "Fass.+UK+WD m.Metallpr.f.Passelement                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "68.81.17H",
+      "text": "Fass.+UK+WD m.Metallpr.f.Profillängen                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "68.90.00A",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "68.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "68.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

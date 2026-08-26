@@ -1,0 +1,552 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+           Leistungsgruppe (LG) 49 - Beschichtungen von Betonböden
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 4900    Wählbare Vorbemerkungen
+                     ULG 4901    Versiegeln und Dünnbeschichten
+                     ULG 4902    Dickbeschichtung mittel (I)
+                     ULG 4903    Dickbeschichtung schwer (II), Einstreubelag
+                     ULG 4904    Bodenbeschichtung.f.Parkhaus u.Tiefgaragen
+                     ULG 4905    Deckversiegelung
+                     ULG 4906    Elektrostatisch ableitfähige Beschichtungen
+                     ULG 4908    Zusätzliche Leistungen
+                     ULG 4990    Regieleistungen
+
+
+
+
+                                                                                                            Seite 1 / 9
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                           EH
+
+49         Beschichtungen von Betonböden
+           Version 022 (2021-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           Vertragsgrundlagen:
+           Die Werkvertragsnormen für Malerarbeiten gelten nicht, stattdessen gelten die Vorschriften der Hersteller für
+           Systeme. Bei der Ausmaßfeststellung nach dem Flächenmaß werden Einzelflächen (ausgenommen bei
+           Sockeln) bis 0,5 m2 (Bodeneinläufe, Deckel, Grundrissflächen von Säulen, Pfeilern, Mauervorsprüngen und
+           dergleichen) nicht abgezogen, Einzelflächen bis 0,5 m2 (Nischen, Grundrissflächen in Maueröffnungen wie
+           Türen, Tore und dergleichen), die im Anschluss größerer Flächen beschichtet werden, bleiben bei der
+           Ausmaßfeststellung ohne Berechnung. Sockel werden auch bei kleineren Einzelflächen dem Ausmaß zu- oder
+           vom Ausmaß abgerechnet.
+           Verarbeitungsrichtlinien, Fachpersonal:
+           Die Verarbeitungsrichtlinien des Erzeugers werden eingehalten. Es werden nur die dem System zugehörigen
+           Materialien verwendet.
+           Auf Verlangen weist der Auftragnehmer nach, dass mindestens eine der ausführenden Personen ausreichend
+           geschult ist, z.B. durch die Teilnahme an einschlägigen Weiterbildungskursen bei externen Instituten oder eine
+           regelmäßige Ausbildung bei dem Systemlieferanten.
+           Prüfung des Untergrundes:
+           Der Untergrund muss eine Restfeuchtigkeit von weniger als 4 Prozent der Masse und eine Abreißfestigkeit von
+           mindestens 1,5 MPa aufweisen.
+           Vor Beginn der Arbeiten prüft der Auftragnehmer den Untergrund auf seine Eignung für die auszuführende
+           Beschichtung. Die Ergebnisse der Prüfung werden protokolliert. Bei festgestellten Mängeln wird das Protokoll
+           dem Auftraggeber unverzüglich nachweislich übermittelt und eine Entscheidung des Auftraggebers über die
+           weitere Vorgangsweise vor Leistungserbringung eingeholt.
+           Klimatische Bedingungen:
+           Der Auftraggeber sorgt für die klimatischen Bedingungen entsprechend den Verarbeitungsrichtlinien des
+           Erzeugers für die ausgeschriebenen Beschichtungen (Bauteil- und Lufttemperatur, relative Luftfeuchtigkeit und
+           Taupunkt).
+           Einheitspreis:
+           Im Einheitspreis der Beschichtungen sind alle Leistungen einkalkuliert, die für die systemgerechte Herstellung
+           auf dem beschriebenen und vom Auftragnehmer geprüften Untergrund erforderlich sind.
+           Ergibt die Prüfung vor Beginn der Arbeiten, dass der Untergrund geeignet ist, gelten die Einheitspreise für die
+           Beschichtungen ohne Unterschied, ob der Untergrund neu ist oder instand gesetzt wurde.
+           Das Entfernen etwaiger bei der Beschichtung entstandener Verunreinigungen gilt als Nebenleistung.
+           Gefälle:
+           Das Herstellen von Beschichtungen auf vorhandenem Gefälle bis zu einer Neigung von 2,5 Prozent ist in den
+           Einheitspreisen einkalkuliert. Angaben über die Neigung erfolgen im Verhältnis der Höhe zur projizierten
+           waagrechten Länge.
+           Sockelflächen:
+           Sockelflächen bis 15 cm Höhe werden in ihrer lotrechten Fläche (projizierte tatsächliche Höhe mal Länge) der
+           Bodenfläche zugerechnet. Die thixotrope Ausführung der Sockelflächen ist in den Einheitspreis der
+           Bodenflächen einkalkuliert.
+           Sollschichtdicke:
+           Sie ist eine aufgrund von statistischen Annahmen ermittelte Schichtdickenvorgabe, die nach der Ausführung im
+           Mittel auf der maßgeblichen Fläche mindestens erreicht werden muss, damit die Mindestschichtdicke (d min) mit
+           95 Prozentiger Sicherheit an keiner Stelle unterschritten wird (siehe Richtlinien Industrieböden aus
+           Reaktionsharz).
+           Maximalschichtdicke (d max):
+           Sie ergibt sich aus den Anforderungen an die Funktionstüchtigkeit für ein bestimmtes Produkt (siehe Richtlinien
+           Industrieböden aus Reaktionsharz).
+            Kommentar:
+            Richtlinien:
+            Die Vorbemerkungen berücksichtigen die IBF Richtlinien "Industrieböden aus Reaktionsharz", herausgegeben vom Institut
+            für Bauschadensforschung (ofi) und ofi-Bauinstitut, Franz Grill Straße 5, 1030 Wien.
+            Chemische Beständigkeit:
+            Meist sind Bodenbeschichtungen mit guter mechanischer Beständigkeit auch gegen bestimmte Chemikalien (z.B.
+            Reinigungsmittel) beständig.
+
+                                                                                                                           Seite 2 / 9
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                                EH
+             Zum Zeitpunkt der Herausgabe der Version 17 liegen aber weder europäische noch nationale Klassifizierungsnormen vor,
+             die die Standardisierung der chemischen Beständigkeit ermöglichen würden.
+             Bodenbeschichtungen, die eine erhöhte chemische Beständigkeit erfordern, müssen daher frei formuliert werden. Es wird
+             empfohlen dabei den Verwendungszweck genau zu beschreiben oder die Chemikalien, Konzentration und die mögliche
+             Dauer- und Häufigkeit des Einwirkens anzugeben.
+             Übliche klimatische Bedingungen:
+             Bauteil- und Lufttemperatur soll über 10 Grad C sein, die relative Luftfeuchtigkeit soll die Höchstwerte von 70 bis 80 Prozent
+             nicht überschreiten (entsprechend dem verwendeten Material) die Temperatur soll aber 3 Grad über der Taupunkttemperatur
+             liegen.
+            LB-Version: 23                 Geringfügig Geändert
+
+49.00       Wählbare Vorbemerkungen
+49.00 01    Angaben über den vorhandenen Betonuntergrund.
+
+49.00 01A   Vorhandener Untergrund
+            Untergrund: ____________
+            Betrifft Beschichtungsposition: ____________
+
+49.01       Versiegeln und Dünnbeschichten
+            Beanspruchung bei Versiegelung:
+            Beanspruchung sehr leicht, 0,3 mm dick.
+            Beanspruchung bei Dünnbeschichtung:
+            Beanspruchung leicht, über 0,3 bis 0,8 mm dick.
+             Kommentar:
+             Beanspruchung sehr leicht:
+             Für mäßigen Fußgeherverkehr, untergeordnete Innenbereiche, wie z.B. Kellerabteile, Fluchtstiegen, als Staubfreimachung.
+             Beanspruchung leicht:
+             Fußgeherverkehr, industrielle Innenbereiche mit leichter Beanspruchung ohne Flurförderfahrzeuge.
+
+            LB-Version: 23                 Geringfügig Geändert
+49.01 01    Bodenflächen versiegeln mit einem wässrigen, farbigen, 2-komponentigen Epoxidharz-Bindemittel, in zwei
+            Arbeitsgängen, mit Zulassung zur Verwendung im Lebensmittelbereich gemäß ÖNORM (Lebensm).
+             Kommentar:
+             Z.B. Dekontaminierbarkeit gemäß DIN 25 415 Teil 1, Zulassung zur Verwendung im Lebensmittelbereich.
+
+49.01 01A   EP-Versiegel.Lebensm.wässrig glatt RAL7032                                                                               m²
+            Standard-Farbton: RAL 7032
+
+            LB-Version: 23                 Geringfügig Geändert
+
+49.01 01B   EP-Versiegel.Lebensm.wässrig glatt farbig                                                                                m²
+            Sonderfarbe: ____________
+
+            LB-Version: 23                 Geringfügig Geändert
+49.01 03    Bodenflächen versiegeln mit einem farbigen, 2-komponentigen, lösemittelhältigen Epoxidharz-Bindemittel, in
+            zwei Arbeitsgängen.
+
+49.01 03A   EP-Versiegelung lösem-hält.glatt RAL7032                                                                                 m²
+            Standard-Farbton: RAL 7032
+
+49.01 03B   EP-Versiegelung lösem-hält.glatt farbig                                                                                  m²
+            Sonderfarbe: ____________
+
+49.01 05    Bodenflächen dünnbeschichten mit einem wässrigen (wässr.), diffusionsoffenen, farbigen, 2-komponentigen
+            Epoxidharz-Bindemittel, in zwei Arbeitsgängen, im 2. Arbeitsgang wird Stellmittel beigemengt, mit strukturierter
+            Oberfläche (struk.), Sollschichtdicke 0,5 mm.
+
+49.01 05A   EP-Dünnbeschicht.wässr.0,5mm strukt.RAL7032                                                                              m²
+            Standard-Farbton: RAL 7032
+
+49.01 05B   EP-Dünnbeschicht.wässr.0,5mm strukt.farbig                                                                               m²
+
+                                                                                                                                 Seite 3 / 9
+                                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+            Sonderfarbe: ____________
+
+49.01 07    Bodenflächen dünnbeschichten durch Rollen, mit einem lösemittelfreien (lös-frei), farbigen, starren,
+            thixotropierten, mechanisch beständigen, 2-komponentigen Epoxidharz-Bindemittel in zwei Arbeitsgängen, mit
+            strukturierter Oberfläche (strukt.), Sollschichtdicke 0,5 mm.
+
+49.01 07A   EP-Dünnbesch.lös-frei 0,5 strukt.RAL7032                                                                          m²
+            Standard-Farbton: RAL 7032
+
+49.01 07B   EP-Dünnbesch.lös-frei 0,5 strukt.farbig                                                                           m²
+            Sonderfarbe: ____________
+
+49.01 10    Aufzahlung (Az) auf die Positionen Dünnbeschichtungen leicht mit strukturierter Oberfläche, für die Ausführung
+            auf Flächen mit einer Neigung über 2,5 bis 18 Prozent.
+
+49.01 10A   Az Dünnbesch.strukt.f.Neig.-18%                                                                                   m²
+49.02       Dickbeschichtung mittel (I)
+            Beanspruchung:
+            Beanspruchung mittel (I) 1,7 mm dick.
+             Kommentar:
+             Beanspruchung mittel:
+             Industrielle Innenbereiche ohne schlagende oder schleifende Bewegung, Flurförderfahrzeuge ausgenommen mit
+             Stahlrädern, Garagenstellplätze.
+
+49.02 01    Bodenflächen dickbeschichten mit einem selbstverlaufenden (Dickb.verlauf), lösemittelfreien (L-frei),
+            gabelstaplerfesten, mit Füllstoff (Quarzsand) (0,08 bis 0,25 mm), im Mischungsverhältnis nach Angabe des
+            Herstellers gefüllten, 2-komponentigen Epoxidharz-Bindemittel, mit glatter Oberfläche, Sollschichtdicke 2 mm.
+
+49.02 01A   EP-Dickb.verlauf.L-frei glatt 2mm RAL 7032                                                                        m²
+            Standard-Farbton: RAL 7032.
+
+49.02 01B   EP-Dickb.verlauf.L-frei glatt 2mm farbig                                                                          m²
+            Sonderfarbe: ____________
+
+49.02 03    Bodenflächen dickbeschichten mit einem lösemittelfreien (l-frei), zähharten, mit Füllstoff (Quarzsand) (0,08 bis
+            0,25 mm) im Mischungsverhältnis nach Angabe des Herstellers gefüllten, 2-komponentigen
+            Polyurethan-Bindemittel, mit glatter Oberfläche, Sollschichtdicke 2 mm.
+
+49.02 03A   PUR-Dickbesch.L-frei glatt 2mm RAL7032                                                                            m²
+            Standard-Farbton: RAL 7032.
+
+49.02 03B   PUR-Dickbesch.L-frei glatt 2mm farbig                                                                             m²
+            Sonderfarbe: ____________
+
+49.02 05    Bodenflächen dickbeschichten mit einem lösemittelfreien (L-frei), gabelstaplerfesten, lebensmittelechten,
+            farbigen, mit Quarzsand, Mischungsverhältnis nach Angabe des Herstellers gefüllten 2-komponentigen
+            Epoxidharz-Bindemittel, mit glatter Oberfläche, Sollschichtdicke 2,5 mm.
+
+49.02 05A   EP-Dickb.L-frei gabelst-fest glatt 2,5 7032                                                                       m²
+            Standard-Farbton: RAL 7032.
+
+49.02 05B   EP-Dickb.L-frei gabelst-fest glatt 2,5farb.                                                                       m²
+            Sonderfarbe: ____________
+
+49.02 07    Rissüberbrückende Dickbeschichtung von Bodenflächen mit einem lösemittelfreien (l-frei), mechanisch
+            belastbaren, flüssigkeitsdichten, farbigen, 2-komponentigen Epoxidharz-Bindemittel, mit glatter Oberfläche,
+            Sollschichtdicke 1,7 mm.
+
+49.02 07A   EP-Dickb.L-frei rissüb.dicht glatt 1,7 7032                                                                       m²
+            Standard-Farbton: RAL 7032.
+
+49.02 07B   EP-Dickb.L-frei rissüb.dicht glatt 1,7 farb                                                                       m²
+            Sonderfarbe: ____________
+
+                                                                                                                          Seite 4 / 9
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+49.02 10    Aufzahlung (Az) auf die Positionen Dickbeschichtungen mittel mit eingestreuter Oberfläche, für die Ausführung
+            auf Flächen mit einer Neigung über 2,5 bis 18 Prozent.
+
+49.02 10A   Az Dickbesch.mittel eingestreut f.Neig-18%                                                                     m²
+49.03       Dickbeschichtung schwer (II), Einstreubelag
+            Beanspruchung:
+            Beanspruchung schwer (II), 3 bis 5 mm dick.
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+             Kommentar:
+             Beanspruchung schwer (II):
+             Rissüberbrückung möglich, Einstreubelag (Garagen in eigener ULG).
+             Rutschhemmung, Verdrängungsraum:
+             Die Rutschhemmungsklasse R und der Verdrängungsraum V wird bestimmt durch die DIN 51130, Anhang ZH 1/571,
+             entsprechend den vorhandenen Umständen.
+
+49.03 01    Bodenflächen dickbeschichten mit einem lösemittelfreien (L-frei), mechanisch hoch belastbaren,
+            gabelstaplerfesten, mit Quarzsand, im Mischungsverhältnis nach Angabe des Herstellers gefüllten,
+            2-komponentigen Epoxidharz-Bindemittel mit rutschhemmender Oberfläche (rau) mit Quarzsand volldeckend
+            abgestreut, einschließlich Entfernen und Entsorgen des nicht gebundenen Sandes (nach der Aushärtung) sowie
+            Herstellen einer transparenten Deckversiegelung, Sollschichtdicke 3 mm.
+
+49.03 01A   EP-Einstreub+Deckv.L-frei 3mm rau RAL7032                                                                      m²
+            Standard-Farbton: RAL 7032
+            Rutschhemmungsklasse R: ____________
+            Verdrängungsraum V: ____________
+
+49.03 01B   EP-Einstreub+Deckv.L-frei 3mm rau farbig                                                                       m²
+            Sonderfarbe: ____________
+            Rutschhemmungsklasse R: ____________
+            Verdrängungsraum V: ____________
+
+49.03 03    Bodenflächen dickbeschichten mit einem lösemittelfreien (L-frei), zähharten, mit Füllstoff (Quarzsand), im
+            Mischungsverhältnis nach Angabe des Herstellers gefüllten, 2-komponentigen Polyurethan-Bindemittel mit
+            rutschhemmender Oberfläche (rau) mit Quarzsand 0,4 bis 0,7 mm volldeckend abgestreut, einschließlich
+            Entfernen und Entsorgen des nicht gebundenen Sandes (nach der Aushärtung) sowie Herstellen einer
+            transparenten Deckversiegelung (+Deckv), Sollschichtdicke 3 mm.
+
+49.03 03A   PUR-Einstreub+Deckv.L-frei 3mm rau RAL7032                                                                     m²
+            Standard-Farbton: RAL 7032
+            Rutschhemmungsklasse R: ____________
+            Verdrängungsraum V: ____________
+
+49.03 03B   PUR-Einstreub+Deckv.L-frei 3mm rau farbig                                                                      m²
+            Sonderfarbe: ____________
+            Rutschhemmungsklasse R: ____________
+            Verdrängungsraum V: ____________
+
+49.03 05    Bodenflächen dickbeschichten mit einem lösemittelfreien (L-frei), mechanisch hoch belastbaren,
+            gabelstaplerfesten, mit Füllstoff (Quarzsand) im Mischungsverhältnis nach Angabe des Herstellers gefüllten,
+            2-komponentigen Epoxidharz-Bindemittel, volldeckend mit Buntquarzsand, Farbe nach Wahl des Auftraggebers,
+            abgestreuter Oberfläche (rau), einschließlich Entfernen und Entsorgen des nicht gebundenen Sandes (nach der
+            Aushärtung) sowie Herstellen einer transparenten Deckversiegelung (+Deckv.), Sollschichtdicke 3 mm.
+
+49.03 05A   EP-Buntquarz Dickb+Deckv.L-frei 3mm rau                                                                        m²
+            Rutschhemmungsklasse R: ____________
+            Verdrängungsraum V: ____________
+49.03 10    Aufzahlung (Az) auf die Positionen Dickbeschichtungen schwer (II), mit eingestreuter Oberfläche, für die
+            Ausführung auf Flächen mit einer Neigung (z.B. Rampe) über 2,5 bis 18 Prozent.
+
+49.03 10A   Az Dickbesch.II eingestr.f.Neig-18%                                                                            m²
+49.04       Bodenbeschichtung.f.Parkhaus u.Tiefgaragen
+
+                                                                                                                       Seite 5 / 9
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+            Beanspruchung:
+            Beanspruchung schwer (II.), über 3 bis 5 mm dick.
+            Prüfungen und Zulassungen:
+            Es werden nur Beschichtungen ausgeführt, die alle für den jeweiligen Standort geltenden Prüfungen und
+            Zulassungen für Garagen oder Kfz-Stellplätze haben.
+            Chemische Beständigkeit:
+            Beständig gegen Ottokraftstoffe, Dieselkraftstoffe, Motorenöle, Harnstofflösungen, gesättigte NaCI-Lösungen
+            und Schmierstoffe gemäß den Bau- und Prüfungsgrundsätzen des Deutschen Instituts für Bautechnik (BPG des
+            DIBt).
+             Kommentar:
+             Beanspruchung schwer (II):
+             Für Parkdecks, Rissüberbrückung möglich, Einstreubeläge.
+             Brennbarkeit und Feuerschutz:
+             Je nach dem Standort können unterschiedliche Vorschriften hinsichtlich der Brennbarkeit oder des Feuerschutzes und damit
+             unterschiedliche Prüfungen erforderlich sein, z.B. Prüfung des Brandverhaltens einer Garagenbelagbeschichtung.
+             In Wien hat die MA 39 - VFA ein Verfahren entwickelt, das die Prüfung von Garagenbelägen im Sinne der
+             Brennbarkeitsanforderungen des Wiener Garagengesetzes erlaubt.
+
+49.04 01    Parkhaus-Betonbodenbeschichtung mit einem lösemittelfreien (L-frei), flüssigkeitsdichten, 2-komponentigen
+            Polyurethan-Bindemittel, mit rutschfester Oberfläche (rau) mit Quarzsand 0,7 bis 1,2 mm abgestreut,
+            einschließlich Entfernen und Entsorgen des nicht gebundenen Sandes (nach der Aushärtung).
+
+49.04 01A   Parkh-Tiefg.Betonb-besch.inn.zähelast.rau                                                                            m²
+            Zähelastisch, geeignet für Fahrwege und Stellflächen innen (inn.).
+
+49.04 01B   Parkh-Tiefg.Betonbesch.inn.zähel.Rampe rau                                                                           m²
+            Zähelastisch, geeignet für z.B. Rampen mit einer Neigung über 2,5 bis 18 Prozent, innen (inn.).
+
+49.04 01C   Parkh-Tiefg.Bet-b-besch.i/a.rissüb.OS-11rau                                                                          m²
+            Rissüberbrückend, gemäß den Richtlinien SIB
+            2000 OS-11, geeignet für Fahrwege, Stellflächen im Innen- und Außenbereich (i/a.).
+
+49.04 01D   Parkh-Tiefg.Bet-b-be.i/a.rissüb.OS-13 rau                                                                            m²
+            Rissüberbrückend, gemäß den Richtlinien SIB 2000 OS-13, im Innen- und Außenbereich (i/a.).
+             Kommentar:
+             Richtlinien für Schutz und Instandsetzung von Bauteilen (SIB) 2001 des Deutschen Ausschusses für Stahlbetonarbeiten (DA
+             f.Stb).
+
+49.04 03    Deckversiegeln von volldeckend abgestreuten Parkhausbeschichtungen, entsprechend der Beschichtung.
+
+49.04 03A   Parkh.Standarddeckversiegelung innen                                                                                 m²
+            Im Farbton RAL 7037 oder 1001 nach Wahl des Auftraggebers.
+
+49.04 03B   Parkh.Deckversieg.vergilb-fr.lös-h.i/a 7032                                                                          m²
+            Vergilbungsfrei, lösemittelhältig (lös-h.), für Innen- und Außenflächen (i/a), im Farbton RAL 7032.
+
+49.04 03C   Parkh.Deckversieg.vergilb-fr.lös-h.i/a farb                                                                          m²
+            Vergilbungsfrei, lösemittelhältig (lös-h.), für Innen- und Außenflächen (i/a), Sonderfarbe: ____________
+
+49.05       Deckversiegelung
+            LB-Version: 23                Geringfügig Geändert
+49.05 01    Mattierende Versiegelung der Epoxidharzbeschichtungen, mit einem farbigen, lösemittelhaltigen (lös-h.),
+            seidenmatten, 2-komponentigen Polyurethan-Bindemittel.
+
+49.05 01A   PU-Versiegeln lös-h.seidenm.RAL 7032                                                                                 m²
+            Mit Standardfarbton: RAL 7032
+
+49.05 01B   PU-Versiegeln lös-h.seidenm.Sond-farb.                                                                               m²
+            Mit Sonderfarbton: ____________
+
+
+                                                                                                                             Seite 6 / 9
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+49.05 03    Mattierende Versiegelung der Epoxidharzbeschichtungen, mit einem transparenten, lösemittelhaltigen (lös-halt.),
+            seidenmatten (sm.), 2-komponentigen Polyurethan-Bindemittel.
+
+49.05 03A   PU-Versiegelung sm.lös-halt.transparent                                                                         m²
+49.05 07    Kratz- und rutschfeste, transparente Versiegelung der Bodenbeschichtungen auf EP- oder PU-Basis im
+            Innenbereich, 1-komponentig auf Polyacryl-Polyurethanharzbasis um die Rutschhemmung zu erhöhen:
+            - Abrieb gemäß ÖNORM: Kennzahl 4
+            - Ritzprüfung gemäß ÖNORM: Kennzahl 3
+            - Rutschhemmungsklasse gemäß ÖNORM: R11
+             Kommentar:
+             Anforderungen an das Produkt:
+             Abrieb nach Taber gemäß ÖNORM EN 438 Teil 2 - Kennzahl 4 Ritzprüfung nach ÖNORM A1605-12-Kennzahl 3
+             Rutschhemmung nach DIN 51130-R11
+
+49.05 07A   Transp.Versiegel.f.höhere Kratz+Rutschfest.                                                                     m²
+            LB-Version: 23               Geringfügig Geändert
+49.05 09    Pflege-Versiegelung der Epoxid- und Polyurethanharzbeschichtungen mit einer lösemittelfreien (lös-frei),
+            transparenten, 1-komponentigen Pflegeversiegelung, in einem Arbeitsgang.
+
+49.05 09A   Transpar.Pflegeversiegelung lös-frei 1komp.                                                                     m²
+49.06       Elektrostatisch ableitfähige Beschichtungen
+49.06 01    Anschluss der ableitfähigen Bodenbeschichtung mit einem Leitset nach festgelegtem Rasterplan an einen
+            Potentialausgleich (Erdungsanschluss). Der Anschluss der Leitsets an den Potentialausgleich erfolgt durch den
+            Auftraggeber. Abgerechnet wird die abgeleitete Bodenfläche.
+
+49.06 01A   Leitset f.elektrostat.Ableitung f.Erdung                                                                        m²
+49.06 03    Bodenflächen beschichten mit einem Leitfilm aus einem lösemittelfreien (L-frei), elektrostatisch ableitfähigen,
+            2-komponentigen, wässrigen Epoxidharz, Farbe schwarz und mit einer elektrostatisch ableitfähigen
+            Rollbeschichtung, lösemittelfrei (L-frei), thixotropiert, farbig, mit 2-komponentigem Epoxidharz-Bindemittel und
+            rutschhemmend-strukturierter Oberfläche 0,5 bis 0,7 mm dick.
+
+49.06 03A   EP-ableitfäh.strukt.L-frei 2-k-0,7mm 7032                                                                       m²
+            Standard-Farbton: RAL 7032
+
+49.06 03B   EP-ableitfäh.strukt.L-frei 2-k-0,7mm farb.                                                                      m²
+            Sonderfarbe: ____________
+
+49.06 07    Bodenflächen beschichten mit einem Leitfilm aus einem lösemittelfreien, elektrostatisch ableitfähigen,
+            2-komponentigen, wässrigen Epoxidharz, Farbe schwarz und mit einer elektrostatisch ableitfähigen
+            Beschichtung, lösemittelfrei (L-fr.), mechanisch hoch belastbar, gabelstaplerfest, farbig, mit 2-komponentigem
+            Epoxidharz-Bindemittel, mit Zuschlagstoff (Quarzsand) im Mischverhältnis nach Angabe des Herstellers, mit
+            glatter Oberfläche, Maximalschichtdicke 1,5 mm.
+
+49.06 07A   EP.ableitfäh.Besch.L-fr.gabelst-f.1,5 7032                                                                      m²
+            Standard-Farbton: RAL 7032
+
+49.06 07B   EP.ableitfäh.Besch.Lf.gabelst-f.1,5 farb.                                                                       m²
+            Sonderfarbe: ____________
+
+49.06 09    Bodenflächen beschichten mit einem Leitfilm aus einem lösemittelfreien, elektrostatisch ableitfähigen,
+            2-komponentigen, wässrigen Epoxidharz, Farbe schwarz und mit einer elektrostatisch ableitfähigen
+            Beschichtung, lösemittelfrei (Lf.), mechanisch hoch belastbar, gabelstaplerfest, farbig, mit 2-komponentigem
+            Epoxidharz-Bindemittel, gefüllt mit Quarzsand im Mischungsverhältnis nach Angabe des Herstellers, mit glatter
+            Oberfläche, Maximalschichtdicke 1,5 mm.
+
+49.06 09A   EPableitf.Besch.Lf.gabelst-f.1,5 7032                                                                           m²
+            Standard-Farbton: RAL 7032
+
+49.06 09B   EPableitf.Besch.Lf.gabelst-f.1,5 farb                                                                           m²
+            Sonderfarbe (farb): ____________
+
+49.06 11    Bodenflächen beschichten mit einem Leitfilm aus einem lösemittelfreien, elektrostatisch ableitfähigen,
+            2-komponentigen, wässrigen Epoxidharz, Farbe schwarz und mit einer elektrostatisch ableitfähigen
+                                                                                                                        Seite 7 / 9
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+            Spachtelung, rutschfest, mit einem lösemittelfreiem (Lf.), mechanisch hoch belastbaren, gabelstaplerfesten,
+            2-komponentigen Epoxidharz-Bindemittel, volldeckend mit Siliziumcarbid der Körnung 0,5 bis 1 mm abgestreut
+            (rau), Sollschichtdicke 2 mm, einschließlich Entfernen des nicht gebundenen Sandes (nach der Aushärtung)
+            sowie Herstellen einer transparenten Deckversiegelung (+Deckv.).
+
+49.06 11A   EPableitfBesch.Lf.hochb.2mm rau+Deckv.7032                                                                       m²
+            Standard-Farbton: RAL 7032
+
+49.06 11B   EPableitfBesch.Lf.hochb.2mm rau+Deckv.farb                                                                       m²
+            Sonderfarbe (farb): ____________
+
+49.06 13    Bodenflächen beschichten mit einem Leitfilm aus einem lösemittelfreien, elektrostatisch ableitfähigen,
+            2-komponentigen, wässrigen Epoxidharz, Farbe schwarz und mit einer elektrostatisch ableitfähigen
+            Beschichtung, rissüberbrückend, lösemittelfrei, mechanisch belastbar, flüssigkeitsdicht, farbig, 2-komponentigen
+            Epoxidharz-Bindemittel mit glatter Oberfläche, Maximalschichtdicke 1,5 mm.
+
+49.06 13A   EP ableitf.Besch.glatt rissüberbr.1,5mm7032                                                                      m²
+            Standard-Farbton: RAL 7032 oder 1001 nach Wahl des Auftraggebers.
+
+49.06 13B   EP ableitf.Besch.glatt rissüberbr.1,5mmfarb                                                                      m²
+            Sonderfarbe (farb.): ____________
+
+49.08       Zusätzliche Leistungen
+49.08 01    Vorhandene Scheinfugen reinigen und mit einem Dichtstoff auf Polyurethanbasis dauerelastisch verschließen.
+
+49.08 01A   Vorh.Scheinfugen schließen 4-6/8-10mm                                                                            m
+            Fugenbreite 4 bis 6 mm, Fugentiefe 8 bis 10 mm.
+
+49.08 01B   Vorh.Scheinfugen schließen 4-6/8-10mm+R-pr.                                                                      m
+            Fugenbreite 4 bis 6 mm, Fugentiefe 8 bis 10 mm, einschließlich einlegen eines nichtsaugenden Rundprofils
+            (R-pr) aus Polyethylen.
+49.08 03    Estrichrandstreifen auf eine Tiefe von 10 mm entfernen, reinigen und verschließen der Randfuge mit einem
+            1-komponentigen Dichtstoff auf Polyurethanbasis.
+
+49.08 03A   Randfugenverschluss                                                                                              m
+49.08 05    Hohlkehlen herstellen mit einem Radius von 3 bis 5 cm (z.B. Boden/Wand-Ichsen), nach Wahl des
+            Auftragnehmers mit Epoxidharzmörtel oder vorgefertigten Hohlkehlenprofilen.
+
+49.08 05A   Hohlkehlen und Hochzüge starr                                                                                    m
+49.08 06    Hohlkehlen herstellen (z.B. bei Säulen oder Anschlusswinkeln), mit einem dauerelastischen, einkomponentigen
+            Dichtstoff auf Polyurethanbasis.
+
+49.08 06A   Hohlkehlen und Hochzüge elastisch                                                                                m
+49.90       Regieleistungen
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen.
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+                                                                                                                         Seite 8 / 9
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+49.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+49.90 00A   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+49.90 00B   Verfügbarkeit von Beilagen
+            Betrifft Position(en): ____________
+            Folgende Beilagen sind zu beachten: ____________
+
+49.90 51    Materiallieferungen f.Regieleistungen                                                                       VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+            LB-Version: 23                  Geringfügig Geändert
+
+
+
+
+                                                                                                                    Seite 9 / 9
+                                                                                             ib-data GmbH, Softwareentwicklung
+

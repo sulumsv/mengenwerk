@@ -1,0 +1,3421 @@
+{
+  "lg": "21",
+  "title": "Dachabdichtungsarbeiten",
+  "positions": [
+    {
+      "code": "21.51.01A",
+      "text": "st.Kaltdach K2 ug PNB Kst-B.geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.51.01B",
+      "text": "st.Kaltdach K2 ug PNB Kst-B.mech.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.51.01C",
+      "text": "st.Kaltdach K2 ug PNB Kst-B.m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.01A",
+      "text": "st.Warmdach K2 ug PNB Kst-B.geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.01B",
+      "text": "st.Warmdach K2 ug PNB Kst-B.mech.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.01C",
+      "text": "st.Warmdach K2 ug PNB Kst-B.m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.53.01A",
+      "text": "st.Warmdach K2 PNB Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.53.02A",
+      "text": "st.Warmdach K2 FPO Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.53.03A",
+      "text": "Warmdach K2 Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.54.01A",
+      "text": "st.UK-Dach K2 ug PNB Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.54.02A",
+      "text": "st.UK-Dach K2 ug FPO Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.54.03A",
+      "text": "UK-Dach K2 ug Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.55.01A",
+      "text": "st.UK-Dach K2 PNB Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.55.02A",
+      "text": "st.UK-Dach K2 FPO Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.55.03A",
+      "text": "UK-Dach K2 Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.61.01A",
+      "text": "st.Kaltdach K3 ug PNB Kst-B.geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.61.01B",
+      "text": "st.Kaltdach K3 ug PNB Kst-B.mech.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.61.01C",
+      "text": "st.Kaltdach K3 ug PNB Kst-B.m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.01A",
+      "text": "st.Warmdach K3 ug PNB Kst-B.geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.01B",
+      "text": "st.Warmdach K3 ug PNB Kst-B.mech.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.01C",
+      "text": "st.Warmdach K3 ug PNB Kst-B.m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.63.01A",
+      "text": "st.Warmdach K3 PNB Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.63.02A",
+      "text": "st.Warmdach K3 FPO Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.63.03A",
+      "text": "Warmdach K3 Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.64.01A",
+      "text": "st.UK-Dach K3 ug PNB Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.64.02A",
+      "text": "st.UK-Dach K3 ug FPO Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.64.03A",
+      "text": "UK-Dach K3 ug Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.65.01A",
+      "text": "st.UK-Dach K3 PNB Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.65.02A",
+      "text": "st.UK-Dach K3 FPO Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.65.03A",
+      "text": "UK-Dach K3 Kst-B.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.00.01B",
+      "text": "Bemusterung m.technischen Datenblättern",
+      "unit": ""
+    },
+    {
+      "code": "21.00.01C",
+      "text": "Bemusterung m.Muster Format min.A5",
+      "unit": ""
+    },
+    {
+      "code": "21.00.01D",
+      "text": "Neuherstellung gemäß Plan",
+      "unit": ""
+    },
+    {
+      "code": "21.00.01E",
+      "text": "Neuherstellung Angaben AG",
+      "unit": ""
+    },
+    {
+      "code": "21.00.01F",
+      "text": "Haftanstrich auf Lösungsmittelbasis",
+      "unit": ""
+    },
+    {
+      "code": "21.00.01G",
+      "text": "Haftanstrich mit modifizierter Emulsion",
+      "unit": ""
+    },
+    {
+      "code": "21.00.01Q",
+      "text": "Nachweis f.Personal-Qualifikation",
+      "unit": ""
+    },
+    {
+      "code": "21.00.01V",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "21.01.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.01",
+      "unit": ""
+    },
+    {
+      "code": "21.01.00D",
+      "text": "Angaben Untergrund zu 21.01",
+      "unit": ""
+    },
+    {
+      "code": "21.01.01A",
+      "text": "st.Kaltdach K2 ug bituminös",
+      "unit": "m²"
+    },
+    {
+      "code": "21.01.01B",
+      "text": "st.Kaltdach K2 ug bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.01.03A",
+      "text": "Kaltdach K2 ug bituminös",
+      "unit": "m²"
+    },
+    {
+      "code": "21.01.03B",
+      "text": "Kaltdach K2 ug bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.01.21A",
+      "text": "Hochzug f.K2-Kaltdach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.01.21B",
+      "text": "Az f.Hochzug K2-Kaltdach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.01.22A",
+      "text": "Tiefzug f.K2-Kaltdach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.02.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.02",
+      "unit": ""
+    },
+    {
+      "code": "21.02.00D",
+      "text": "Angaben Untergrund zu 21.02",
+      "unit": ""
+    },
+    {
+      "code": "21.02.01A",
+      "text": "st.Warmdach K2 ug bituminös",
+      "unit": "m²"
+    },
+    {
+      "code": "21.02.01B",
+      "text": "st.Warmdach K2 ug bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.02.03A",
+      "text": "Warmdach K2 ug bituminös",
+      "unit": "m²"
+    },
+    {
+      "code": "21.02.03B",
+      "text": "Warmdach K2 ug bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.02.11A",
+      "text": "Az Warmdach K2 ug bituminös f.Untergrund/Holzwerkstoff",
+      "unit": "m²"
+    },
+    {
+      "code": "21.02.21A",
+      "text": "Hochzug f.K2-Warmdach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.02.21B",
+      "text": "Az f.Hochzug K2-Warmdach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.02.22A",
+      "text": "Tiefzug f.K2-Warmdach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.03.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.03",
+      "unit": ""
+    },
+    {
+      "code": "21.03.00D",
+      "text": "Angaben Untergrund zu 21.03",
+      "unit": ""
+    },
+    {
+      "code": "21.03.01A",
+      "text": "st.Warmdach K2 bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.03.01B",
+      "text": "st.Warmdach K2 bituminös f.Platten",
+      "unit": "m²"
+    },
+    {
+      "code": "21.03.01C",
+      "text": "st.Warmdach K2 bituminös m.Aufbeton",
+      "unit": "m²"
+    },
+    {
+      "code": "21.03.01D",
+      "text": "st.Warmdach K2 bituminös f.extensives Gründach",
+      "unit": "m²"
+    },
+    {
+      "code": "21.03.01E",
+      "text": "st.Warmdach K2 bituminös f.intensives Gründach",
+      "unit": "m²"
+    },
+    {
+      "code": "21.03.03A",
+      "text": "Warmdach K2 bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.03.03B",
+      "text": "Warmdach K2 bituminös f.Platten",
+      "unit": "m²"
+    },
+    {
+      "code": "21.03.03C",
+      "text": "Warmdach K2 bituminös m.Aufbeton",
+      "unit": "m²"
+    },
+    {
+      "code": "21.03.03D",
+      "text": "Warmdach K2 bituminös f.extensives Gründach",
+      "unit": "m²"
+    },
+    {
+      "code": "21.03.03E",
+      "text": "Warmdach K2 bituminös f.intensives Gründach",
+      "unit": "m²"
+    },
+    {
+      "code": "21.03.11A",
+      "text": "Az Warmdach K2 bituminös f.Untergrund/Holzwerkstoff",
+      "unit": "m²"
+    },
+    {
+      "code": "21.03.21A",
+      "text": "Hochzug f.K2-Warmdach m.Bitumenabd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.03.21B",
+      "text": "Az f.Hochzug K2-Warmdach m.Bitumenabd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.03.22A",
+      "text": "Tiefzug f.K2-Warmdach m.Bitumenabd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.04.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.04",
+      "unit": ""
+    },
+    {
+      "code": "21.04.00D",
+      "text": "Angaben Untergrund zu 21.04",
+      "unit": ""
+    },
+    {
+      "code": "21.04.01B",
+      "text": "st.UK-Dach K2 ug bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.04.03B",
+      "text": "UK-Dach K2 ug bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.04.21A",
+      "text": "Hochzug f.K2-UK-Dach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.04.21B",
+      "text": "Az f.Hochzug K2-UK-Dach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.04.22A",
+      "text": "Tiefzug f.K2-UK-Dach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.05.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.05",
+      "unit": ""
+    },
+    {
+      "code": "21.05.00D",
+      "text": "Angaben Untergrund zu 21.05",
+      "unit": ""
+    },
+    {
+      "code": "21.05.01A",
+      "text": "st.UK-Dach K2 bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.05.03A",
+      "text": "UK-Dach K2 bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.05.21A",
+      "text": "Hochzug f.K2-UK-Dach m.Bitumenabd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.05.21B",
+      "text": "Az f.Hochzug K2-UK-Dach m.Bitumenabd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.05.22A",
+      "text": "Tiefzug f.K2-UK-Dach m.Bitumenabd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.06.01A",
+      "text": "K2-BITU Dreikantleiste 5x5cm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "21.06.01B",
+      "text": "K2-BITU Dreikantleiste 8x8cm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "21.06.02A",
+      "text": "K2-ALU Klemmprofil                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "21.06.03A",
+      "text": "K2-BITU Schleppstreifen                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "21.06.04A",
+      "text": "K2-BITU Dampfsperre Dehnfuge E-KV-4 50cm                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "21.06.05A",
+      "text": "K2-BITU Dehnfugenband                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "21.06.05B",
+      "text": "Az K2-BITU Dehnfugenband f.Eckausbildung",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.06.06A",
+      "text": "K2-BITU Holzwerkstoffplatte 25mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "21.06.11A",
+      "text": "K2-BITU Anarbeiten Öffnungen/Durchdringungen b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.06.11B",
+      "text": "K2-BITU Anarbeiten Öffnungen/Durchdringungen ü.0,5-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.06.21A",
+      "text": "K2-BITU Gully einteilig",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.06.21B",
+      "text": "K2-BITU Gully zweiteilig",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.06.21D",
+      "text": "Az K2-BITU Gully f.Abgang",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.06.21E",
+      "text": "Az K2-BITU Gully f.Saugsystem",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.06.22A",
+      "text": "K2-BITU Gully einteilig nur einbinden",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.06.22B",
+      "text": "K2-BITU Gully zweiteilig nur einbinden",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.06.31A",
+      "text": "Az K2-BITU f.Kantholz in Dämmung                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "21.06.32A",
+      "text": "Az K2-BITU f.Sturmsicherung Schraube",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.06.33A",
+      "text": "Az K2-BITU f.schubfeste Dachhaut Alpindachbahn",
+      "unit": "m²"
+    },
+    {
+      "code": "21.06.35A",
+      "text": "Az K2-BITU f.Anarbeiten Wärmedämmung b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.06.35B",
+      "text": "Az K2-BITU f.Anarbeiten Wärmedämmung ü.0,5-2m2                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "21.06.36A",
+      "text": "Az K2-BITU f.Dachabdichtung auf Kleinflächen b.10m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.11.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.11",
+      "unit": ""
+    },
+    {
+      "code": "21.11.00D",
+      "text": "Angaben Untergrund zu 21.11",
+      "unit": ""
+    },
+    {
+      "code": "21.11.01A",
+      "text": "st.Kaltdach K3 ug bituminös",
+      "unit": "m²"
+    },
+    {
+      "code": "21.11.01B",
+      "text": "st.Kaltdach K3 ug bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.11.03A",
+      "text": "Kaltdach K3 ug bituminös",
+      "unit": "m²"
+    },
+    {
+      "code": "21.11.03B",
+      "text": "Kaltdach K3 ug bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.11.21A",
+      "text": "Hochzug f.K3-Kaltdach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.11.21B",
+      "text": "Az f.Hochzug K3-Kaltdach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.11.22A",
+      "text": "Tiefzug f.K3-Kaltdach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.12.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.12",
+      "unit": ""
+    },
+    {
+      "code": "21.12.00D",
+      "text": "Angaben Untergrund zu 21.12",
+      "unit": ""
+    },
+    {
+      "code": "21.12.01A",
+      "text": "st.Warmdach K3 ug bituminös",
+      "unit": "m²"
+    },
+    {
+      "code": "21.12.01B",
+      "text": "st.Warmdach K3 ug bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.12.03A",
+      "text": "Warmdach K3 ug bituminös",
+      "unit": "m²"
+    },
+    {
+      "code": "21.12.03B",
+      "text": "Warmdach K3 ug bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.12.11A",
+      "text": "Az Warmdach K3 ug bituminös f.Untergrund/Holzwerkstoff",
+      "unit": "m²"
+    },
+    {
+      "code": "21.12.21A",
+      "text": "Hochzug f.K3-Warmdach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.12.21B",
+      "text": "Az f.Hochzug K3-Warmdach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.12.22A",
+      "text": "Tiefzug f.K3-Warmdach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.13.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.13",
+      "unit": ""
+    },
+    {
+      "code": "21.13.00D",
+      "text": "Angaben Untergrund zu 21.13",
+      "unit": ""
+    },
+    {
+      "code": "21.13.01A",
+      "text": "st.Warmdach K3 bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.13.01B",
+      "text": "st.Warmdach K3 bituminös f.Platten",
+      "unit": "m²"
+    },
+    {
+      "code": "21.13.01C",
+      "text": "st.Warmdach K3 bituminös m.Aufbeton",
+      "unit": "m²"
+    },
+    {
+      "code": "21.13.01D",
+      "text": "st.Warmdach K3 bituminös f.extensives Gründach",
+      "unit": "m²"
+    },
+    {
+      "code": "21.13.01E",
+      "text": "st.Warmdach K3 bituminös f.intensives Gründach",
+      "unit": "m²"
+    },
+    {
+      "code": "21.13.03A",
+      "text": "Warmdach K3 bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.13.03B",
+      "text": "Warmdach K3 bituminös f.Platten",
+      "unit": "m²"
+    },
+    {
+      "code": "21.13.03C",
+      "text": "Warmdach K3 bituminös m.Aufbeton",
+      "unit": "m²"
+    },
+    {
+      "code": "21.13.03D",
+      "text": "Warmdach K3 bituminös f.extensives Gründach",
+      "unit": "m²"
+    },
+    {
+      "code": "21.13.03E",
+      "text": "Warmdach K3 bituminös f.intensives Gründach",
+      "unit": "m²"
+    },
+    {
+      "code": "21.13.11A",
+      "text": "Az Warmdach K3 bituminös f.Untergrund/Holzwerkstoff",
+      "unit": "m²"
+    },
+    {
+      "code": "21.13.21A",
+      "text": "Hochzug f.K3-Warmdach m.Bitumenabd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.13.21B",
+      "text": "Az f.Hochzug K3-Warmdach m.Bitumenabd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.13.22A",
+      "text": "Tiefzug f.K3-Warmdach m.Bitumenabd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.14.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.14",
+      "unit": ""
+    },
+    {
+      "code": "21.14.00D",
+      "text": "Angaben Untergrund zu 21.14",
+      "unit": ""
+    },
+    {
+      "code": "21.14.01B",
+      "text": "st.UK-Dach K3 ug bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.14.03B",
+      "text": "UK-Dach K3 ug bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.14.21A",
+      "text": "Hochzug f.K3-UK-Dach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.14.21B",
+      "text": "Az f.Hochzug K3-UK-Dach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.14.22A",
+      "text": "Tiefzug f.K3-UK-Dach m.Bitumenabd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.15.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.15",
+      "unit": ""
+    },
+    {
+      "code": "21.15.00D",
+      "text": "Angaben Untergrund zu 21.15",
+      "unit": ""
+    },
+    {
+      "code": "21.15.01A",
+      "text": "st.UK-Dach K3 bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.15.03A",
+      "text": "UK-Dach K3 bituminös m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.15.21A",
+      "text": "Hochzug f.K3-UK-Dach m.Bitumenabd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.15.21B",
+      "text": "Az f.Hochzug K3-UK-Dach m.Bitumenabd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.15.22A",
+      "text": "Tiefzug f.K3-UK-Dach m.Bitumenabd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.16.01A",
+      "text": "K3-BITU Dreikantleiste 5x5cm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "21.16.01B",
+      "text": "K3-BITU Dreikantleiste 8x8cm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "21.16.02A",
+      "text": "K3-ALU Klemmprofil                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "21.16.03A",
+      "text": "K3-BITU Schleppstreifen                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "21.16.04A",
+      "text": "K3-BITU Dampfsperre Dehnfuge E-KV-4 50cm                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "21.16.05A",
+      "text": "K3-BITU Dehnfugenband                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "21.16.05B",
+      "text": "Az K3-BITU Dehnfugenband f.Eckausbildung",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.16.06A",
+      "text": "K3-BITU Holzwerkstoffplatte 25mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "21.16.11A",
+      "text": "K3-BITU Anarbeiten Öffnungen/Durchdringungen b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.16.11B",
+      "text": "K3-BITU Anarbeiten Öffnungen/Durchdringungen ü.0,5-2 m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.16.21A",
+      "text": "K3-BITU Gully einteilig",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.16.21B",
+      "text": "K3-BITU Gully zweiteilig",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.16.21D",
+      "text": "Az K3-BITU Gully f.Abgang",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.16.21E",
+      "text": "Az K3-BITU Gully f.Saugsystem",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.16.22A",
+      "text": "K3-BITU Gully einteilig nur einbinden",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.16.22B",
+      "text": "K3-BITU Gully zweiteilig nur einbinden",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.16.31A",
+      "text": "Az K3-BITU f.Kantholz in Dämmung                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "21.16.32A",
+      "text": "Az K3-BITU f.Sturmsicherung Schraube",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.16.33A",
+      "text": "Az K3-BITU f.schubfeste Dachhaut Alpindachbahn",
+      "unit": "m²"
+    },
+    {
+      "code": "21.16.35A",
+      "text": "Az K3-BITU f.Anarbeiten Wärmedämmung b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.16.35B",
+      "text": "Az K3-BITU f.Anarbeiten Wärmedämmung ü.0,5-2m2                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "21.16.36A",
+      "text": "Az K3-BITU f.Dachabdichtung auf Kleinflächen b.10m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.16.51A",
+      "text": "K3-BITU Abschottungen                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "21.16.51B",
+      "text": "K3-BITU Dampfsperre mit Bitumendampfsperrbahnen",
+      "unit": "m²"
+    },
+    {
+      "code": "21.16.51C",
+      "text": "K3-BITU Ausbildung von Kompaktdächern",
+      "unit": "m²"
+    },
+    {
+      "code": "21.16.51D",
+      "text": "K3-BITU Unterdach bei Kaltdach",
+      "unit": "m²"
+    },
+    {
+      "code": "21.16.51E",
+      "text": "K3-BITU Einbau von flächigen Detektionssystemen",
+      "unit": "m²"
+    },
+    {
+      "code": "21.16.51F",
+      "text": "K3-BITU Gefälle der Abdichtungsschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "21.51.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.51",
+      "unit": ""
+    },
+    {
+      "code": "21.51.00D",
+      "text": "Angaben Untergrund zu 21.51",
+      "unit": ""
+    },
+    {
+      "code": "21.51.02A",
+      "text": "st.Kaltdach K2 ug FPO Kst-B.geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.51.02B",
+      "text": "st.Kaltdach K2 ug FPO Kst-B.mech.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.51.02C",
+      "text": "st.Kaltdach K2 ug FPO Kst-B.m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.51.03A",
+      "text": "Kaltdach K2 ug Kst-B. geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.51.03B",
+      "text": "Kaltdach K2 ug Kst-B. mech.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.51.03C",
+      "text": "Kaltdach K2 ug Kst-B. m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.51.11A",
+      "text": "Az Kaltdach K2 ug Kst-B.f.Schutzschicht Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "21.51.11B",
+      "text": "Az Kaltdach K2 ug Kst-B.f.Schutzschicht Holz sägerauh",
+      "unit": "m²"
+    },
+    {
+      "code": "21.51.11C",
+      "text": "Az Kaltdach K2 ug Kst.B.f.Schutzschicht Holz-Werkstoffpl.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.51.11D",
+      "text": "Az Kaltdach K2 ug Kst-B.f.Ausgleichsschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "21.51.21A",
+      "text": "Hochzug f.K2-Kaltdach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.51.21B",
+      "text": "Az f.Hochzug K2-Kaltdach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.51.22A",
+      "text": "Tiefzug f.K2-Kaltdach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.52",
+      "unit": ""
+    },
+    {
+      "code": "21.52.00D",
+      "text": "Angaben Untergrund zu 21.52",
+      "unit": ""
+    },
+    {
+      "code": "21.52.02A",
+      "text": "st.Warmdach K2 ug FPO Kst-B.geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.02B",
+      "text": "st.Warmdach K2 ug FPO Kst-B.mech.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.02C",
+      "text": "st.Warmdach K2 ug FPO Kst-B.m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.03A",
+      "text": "Warmdach K2 ug Kst-B. geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.03B",
+      "text": "Warmdach K2 ug Kst-B. mech.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.03C",
+      "text": "Warmdach K2 ug Kst-B. m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.11A",
+      "text": "Az Warmdach K2 ug Kst-B.f.Schutzschicht Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.11B",
+      "text": "Az Warmdach K2 ug Kst-B.f.Schutzschicht Holz sägerauh",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.11C",
+      "text": "Az Warmdach K2 ug Kst.B.f.Schutzschicht Holz-Werkstoffpl.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.11D",
+      "text": "Az Warmdach K2 ug Kst-B.f.Ausgleichsschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.11E",
+      "text": "Az Warmdach K2 ug Kst-B.f.Trennschicht auf WD-EPS",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.11F",
+      "text": "Az Warmdach K2 ug Kst-B.f.Dampfsperre bei klimat.Räumen",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.11G",
+      "text": "Az Warmdach K2 ug Kst-B.f.Dampfsperre bei Gefälledämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.21A",
+      "text": "Hochzug f.K2-Warmdach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.21B",
+      "text": "Az f.Hochzug K2-Warmdach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.52.22A",
+      "text": "Tiefzug f.K2-Warmdach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.53.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.53",
+      "unit": ""
+    },
+    {
+      "code": "21.53.00D",
+      "text": "Angaben Untergrund zu 21.53",
+      "unit": ""
+    },
+    {
+      "code": "21.53.11A",
+      "text": "Az Warmdach K2 Kst-B.f.Schutzschicht Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "21.53.11B",
+      "text": "Az Warmdach K2 Kst-B.f.Schutzschicht Holz sägerauh",
+      "unit": "m²"
+    },
+    {
+      "code": "21.53.11C",
+      "text": "Az Warmdach K2 Kst.B.f.Schutzschicht Holz-Werkstoffpl.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.53.11D",
+      "text": "Az Warmdach K2 Kst-B.f.Ausgleichsschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "21.53.11E",
+      "text": "Az Warmdach K2 Kst-B.f.Trennschicht auf WD-EPS",
+      "unit": "m²"
+    },
+    {
+      "code": "21.53.11F",
+      "text": "Az Warmdach K2 Kst-B.f.Dampfsperre bei klimat.Räumen",
+      "unit": "m²"
+    },
+    {
+      "code": "21.53.11G",
+      "text": "Az Warmdach K2 Kst-B.f.Dampfsperre bei Gefälledämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "21.53.11H",
+      "text": "Az Warmdach K2 Kst-B.f.Dampfsperre beim Gründach",
+      "unit": "m²"
+    },
+    {
+      "code": "21.53.11I",
+      "text": "Az Warmdach K2 Kst-B.f.Gummigranulatmatten",
+      "unit": "m²"
+    },
+    {
+      "code": "21.53.11J",
+      "text": "Az Warmdach K2 Kst-B.f.Schutzschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "21.53.21A",
+      "text": "Hochzug f.K2-Warmdach m.Kunstst.-Abd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.53.21B",
+      "text": "Az f.Hochzug K2-Warmdach m.Kunstst.-Abd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.53.22A",
+      "text": "Tiefzug f.K2-Warmdach m.Kunstst.-Abd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.54.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.54",
+      "unit": ""
+    },
+    {
+      "code": "21.54.00D",
+      "text": "Angaben Untergrund zu 21.54",
+      "unit": ""
+    },
+    {
+      "code": "21.54.11A",
+      "text": "Az UK-Dach K2 ug Kst-B.f.Schutzschicht Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "21.54.11B",
+      "text": "Az UK-Dach K2 ug Kst-B.f.Schutzschicht Holz sägerauh",
+      "unit": "m²"
+    },
+    {
+      "code": "21.54.11C",
+      "text": "Az UK-Dach K2 ug Kst.B.f.Schutzschicht Holz-Werkstoffpl.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.54.11D",
+      "text": "Az UK-Dach K2 ug Kst-B.f.Ausgleichsschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "21.54.21A",
+      "text": "Hochzug f.K2-UK-Dach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.54.21B",
+      "text": "Az f.Hochzug K2-UK-Dach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.54.22A",
+      "text": "Tiefzug f.K2-UK-Dach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.55.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.55",
+      "unit": ""
+    },
+    {
+      "code": "21.55.00D",
+      "text": "Angaben Untergrund zu 21.55",
+      "unit": ""
+    },
+    {
+      "code": "21.55.11A",
+      "text": "Az UK-Dach K2 Kst-B.f.Schutzschicht Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "21.55.11B",
+      "text": "Az UK-Dach K2 Kst-B.f.Schutzschicht Holz sägerauh",
+      "unit": "m²"
+    },
+    {
+      "code": "21.55.11C",
+      "text": "Az UK-Dach K2 Kst.B.f.Schutzschicht Holz-Werkstoffpl.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.55.11D",
+      "text": "Az UK-Dach K2 Kst-B.f.Ausgleichsschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "21.55.21A",
+      "text": "Hochzug f.K2-UK-Dach m.Kunstst.-Abd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.55.21B",
+      "text": "Az f.Hochzug K2-UK-Dach m.Kunstst.-Abd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.55.22A",
+      "text": "Tiefzug f.K2-UK-Dach m.Kunstst.-Abd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.56.01A",
+      "text": "K2-Kst.Lineare Randausbildung                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "21.56.02A",
+      "text": "K2-Kst.Klemmprofil                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "21.56.04A",
+      "text": "K2-Kst.Dampfsperre Dehnfuge 50cm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "21.56.05A",
+      "text": "K2-Kst.Dehnfugenband 50cm                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "21.56.05B",
+      "text": "Az K2-Kst.Dehnfugenband f.Eckausbildung",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.56.06A",
+      "text": "K2-Kst.Holzwerkstoffplatte 25mm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "21.56.11A",
+      "text": "K2-Kst.Anarbeiten Öffnungen/Durchdringungen b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.56.11B",
+      "text": "K2-Kst.Anarbeiten Öffnungen/Durchdringungen ü.0,5-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.56.21A",
+      "text": "K2-Kst.Gully einteilig",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.56.21B",
+      "text": "K2-Kst.Gully zweiteilig",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.56.21D",
+      "text": "Az K2-Kst.Gully f.Abgang",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.56.21E",
+      "text": "Az K2-Kst.Gully f.Saugsystem",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.56.22A",
+      "text": "K2-Kst.Gully einteilig nur einbinden",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.56.22B",
+      "text": "K2-Kst.Gully zweiteilig nur einbinden",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.56.31A",
+      "text": "Az K2-Kst.f.Kantholz in Dämmung                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "21.56.32A",
+      "text": "Az K2-Kst.f.Sturmsicherung m.Schrauben",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.56.35A",
+      "text": "Az K2-Kst.f.Anarbeiten Wärmedämmung b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.56.35B",
+      "text": "Az K2-Kst.f.Anarbeiten Wärmedämmung ü.0,5-2m2                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "21.56.36A",
+      "text": "Az K2-Kst.f.Dachabdichtung auf Kleinflächen b.10m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.61.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.61",
+      "unit": ""
+    },
+    {
+      "code": "21.61.00D",
+      "text": "Angaben Untergrund zu 21.61",
+      "unit": ""
+    },
+    {
+      "code": "21.61.02A",
+      "text": "st.Kaltdach K3 ug FPO Kst-B.geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.61.02B",
+      "text": "st.Kaltdach K3 ug FPO Kst-B.mech.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.61.02C",
+      "text": "st.Kaltdach K3 ug FPO Kst-B.m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.61.03A",
+      "text": "Kaltdach K3 ug Kst-B. geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.61.03B",
+      "text": "Kaltdach K3 ug Kst-B. mech.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.61.03C",
+      "text": "Kaltdach K3 ug Kst-B. m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.61.11A",
+      "text": "Az Kaltdach K3 ug Kst-B.f.Schutzschicht Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "21.61.11B",
+      "text": "Az Kaltdach K3 ug Kst-B.f.Schutzschicht Holz sägerauh",
+      "unit": "m²"
+    },
+    {
+      "code": "21.61.11C",
+      "text": "Az Kaltdach K3 ug Kst.B.f.Schutzschicht Holz-Werkstoffpl.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.61.11D",
+      "text": "Az Kaltdach K3 ug Kst-B.f.Ausgleichsschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "21.61.21A",
+      "text": "Hochzug f.K3-Kaltdach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.61.21B",
+      "text": "Az f.Hochzug K3-Kaltdach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.61.22A",
+      "text": "Tiefzug f.K3-Kaltdach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.62",
+      "unit": ""
+    },
+    {
+      "code": "21.62.00D",
+      "text": "Angaben Untergrund zu 21.62",
+      "unit": ""
+    },
+    {
+      "code": "21.62.02A",
+      "text": "st.Warmdach K3 ug FPO Kst-B.geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.02B",
+      "text": "st.Warmdach K3 ug FPO Kst-B.mech.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.02C",
+      "text": "st.Warmdach K3 ug FPO Kst-B.m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.03A",
+      "text": "Warmdach K3 ug Kst-B. geklebt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.03B",
+      "text": "Warmdach K3 ug Kst-B. mech.befestigt",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.03C",
+      "text": "Warmdach K3 ug Kst-B. m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.11A",
+      "text": "Az Warmdach K3 ug Kst-B.f.Schutzschicht Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.11B",
+      "text": "Az Warmdach K3 ug Kst-B.f.Schutzschicht Holz sägerauh",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.11C",
+      "text": "Az Warmdach K3 ug Kst.B.f.Schutzschicht Holz-Werkstoffpl.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.11D",
+      "text": "Az Warmdach K3 ug Kst-B.f.Ausgleichsschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.11E",
+      "text": "Az Warmdach K3 ug Kst-B.f.Trennschicht auf WD-EPS",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.11F",
+      "text": "Az Warmdach K3 ug Kst-B.f.Dampfsperre bei klimat.Räumen",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.11G",
+      "text": "Az Warmdach K3 ug Kst-B.f.Dampfsperre bei Gefälledämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.21A",
+      "text": "Hochzug f.K3-Warmdach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.21B",
+      "text": "Az f.Hochzug K3-Warmdach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.62.22A",
+      "text": "Tiefzug f.K3-Warmdach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.63.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.63",
+      "unit": ""
+    },
+    {
+      "code": "21.63.00D",
+      "text": "Angaben Untergrund zu 21.63",
+      "unit": ""
+    },
+    {
+      "code": "21.63.11A",
+      "text": "Az Warmdach K3 Kst-B.f.Schutzschicht Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "21.63.11B",
+      "text": "Az Warmdach K3 Kst-B.f.Schutzschicht Holz sägerauh",
+      "unit": "m²"
+    },
+    {
+      "code": "21.63.11C",
+      "text": "Az Warmdach K3 Kst.B.f.Schutzschicht Holz-Werkstoffpl.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.63.11D",
+      "text": "Az Warmdach K3 Kst-B.f.Ausgleichsschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "21.63.11E",
+      "text": "Az Warmdach K3 Kst-B.f.Trennschicht auf WD-EPS",
+      "unit": "m²"
+    },
+    {
+      "code": "21.63.11F",
+      "text": "Az Warmdach K3 Kst-B.f.Dampfsperre bei klimat.Räumen",
+      "unit": "m²"
+    },
+    {
+      "code": "21.63.11G",
+      "text": "Az Warmdach K3 Kst-B.f.Dampfsperre bei Gefälledämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "21.63.11H",
+      "text": "Az Warmdach K3 Kst-B.f.Dampfsperre beim Gründach",
+      "unit": "m²"
+    },
+    {
+      "code": "21.63.11I",
+      "text": "Az Warmdach K3 Kst-B.f.Gummigranulatmatten",
+      "unit": "m²"
+    },
+    {
+      "code": "21.63.11J",
+      "text": "Az Warmdach K3 Kst-B.f.Schutzschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "21.63.21A",
+      "text": "Hochzug f.K3-Warmdach m.Kunstst.-Abd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.63.21B",
+      "text": "Az f.Hochzug K3-Warmdach m.Kunstst.-Abd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.63.22A",
+      "text": "Tiefzug f.K3-Warmdach m.Kunstst.-Abd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.64.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.64",
+      "unit": ""
+    },
+    {
+      "code": "21.64.00D",
+      "text": "Angaben Untergrund zu 21.64",
+      "unit": ""
+    },
+    {
+      "code": "21.64.11A",
+      "text": "Az UK-Dach K3 ug Kst-B.f.Schutzschicht Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "21.64.11B",
+      "text": "Az UK-Dach K3 ug Kst-B.f.Schutzschicht Holz sägerauh",
+      "unit": "m²"
+    },
+    {
+      "code": "21.64.11C",
+      "text": "Az UK-Dach K3 ug Kst.B.f.Schutzschicht Holz-Werkstoffpl.",
+      "unit": "m²"
+    },
+    {
+      "code": "21.64.11D",
+      "text": "Az UK-Dach K3 ug Kst-B.f.Ausgleichsschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "21.64.21A",
+      "text": "Hochzug f.K3-UK-Dach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.64.21B",
+      "text": "Az f.Hochzug K3-UK-Dach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.64.22A",
+      "text": "Tiefzug f.K3-UK-Dach m.Kunstst.-Abd.f.ungenutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.65.00C",
+      "text": "Befestigung/Sicherung gegen Windlasten/Abgleiten zu 21.65",
+      "unit": ""
+    },
+    {
+      "code": "21.65.00D",
+      "text": "Angaben Untergrund zu 21.65",
+      "unit": ""
+    },
+    {
+      "code": "21.65.11A",
+      "text": "Az UK-Dach K3 Kst-B.f.Schutzschicht Beton",
+      "unit": "m²"
+    },
+    {
+      "code": "21.65.11B",
+      "text": "Az UK-Dach K3 Kst-B.f.Schutzschicht Holz sägerauh",
+      "unit": "m²"
+    },
+    {
+      "code": "21.65.11C",
+      "text": "Az UK-Dach K3 Kst.B.f.Schutzschicht Holz-Werkstoffpl..",
+      "unit": "m²"
+    },
+    {
+      "code": "21.65.11D",
+      "text": "Az UK-Dach K3 Kst-B.f.Ausgleichsschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "21.65.21A",
+      "text": "Hochzug f.K3-UK-Dach m.Kunstst.-Abd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.65.21B",
+      "text": "Az f.Hochzug K3-UK-Dach m.Kunstst.-Abd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.65.22A",
+      "text": "Tiefzug f.K3-UK-Dach m.Kunstst.-Abd.f.genutzte Dächer",
+      "unit": "m²"
+    },
+    {
+      "code": "21.66.01A",
+      "text": "K3-Kst.Lineare Randausbildung                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "21.66.02A",
+      "text": "K3-Kst.Klemmprofil                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "21.66.04A",
+      "text": "K3-Kst.Dampfsperre Dehnfuge 50cm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "21.66.05A",
+      "text": "K3-Kst.Dehnfugenband 50cm                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "21.66.05B",
+      "text": "Az K3-Kst.Dehnfugenband f.Eckausbildung",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.66.06A",
+      "text": "K3-Kst.Holzwerkstoffplatte 25mm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "21.66.11A",
+      "text": "K3-Kst.Anarbeiten Öffnungen/Durchdringungen b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.66.11B",
+      "text": "K3-Kst.Anarbeiten Öffnungen/Durchdringungen ü.0,5-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.66.21A",
+      "text": "K3-Kst.Gully einteilig",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.66.21B",
+      "text": "K3-Kst.Gully zweiteilig",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.66.21D",
+      "text": "Az K3-Kst.Gully f.Abgang",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.66.21E",
+      "text": "Az K3-Kst.Gully f.Saugsystem",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.66.22A",
+      "text": "K3-Kst.Gully einteilig nur einbinden",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.66.22B",
+      "text": "K3-Kst.Gully zweiteilig nur einbinden",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.66.31A",
+      "text": "Az K3-Kst.f.Kantholz in Dämmung                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "21.66.32A",
+      "text": "Az K3-Kst.f.Sturmsicherung m.Schrauben",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.66.35A",
+      "text": "Az K3-Kst.f.Anarbeiten Wärmedämmung b.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.66.35B",
+      "text": "Az K3-Kst.f.Anarbeiten Wärmedämmung ü.0,5-2m2                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "21.66.36A",
+      "text": "Az K3-Kst.f.Dachabdichtung auf Kleinflächen b.10m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.66.51A",
+      "text": "K3-Kst.Abschottungen                                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "21.66.51B",
+      "text": "K3-Kst.Dampfsperre mit Bitumendampfsperrbahnen",
+      "unit": "m²"
+    },
+    {
+      "code": "21.66.51D",
+      "text": "K3-Kst.Unterdach bei Kaltdach",
+      "unit": "m²"
+    },
+    {
+      "code": "21.66.51E",
+      "text": "K3-Kst.Einbau von flächigen Detektionssystemen",
+      "unit": "m²"
+    },
+    {
+      "code": "21.66.51F",
+      "text": "K3-Kst.Gefälle der Abdichtungsschicht",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.01B",
+      "text": "PUR DD alu.-kaschiert 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.01C",
+      "text": "PUR DD alu.-kaschiert 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.01D",
+      "text": "PUR DD alu.-kaschiert 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.01E",
+      "text": "PUR DD alu.-kaschiert 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.01F",
+      "text": "PUR DD alu.-kaschiert 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.01G",
+      "text": "PUR DD alu.-kaschiert 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.01W",
+      "text": "PUR DD alu.-kaschiert mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.01X",
+      "text": "Az PUR DD alu.-kaschiert f.Stufenfalz",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.02B",
+      "text": "PUR DO alu.-kaschiert 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.02C",
+      "text": "PUR DO alu.-kaschiert 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.02D",
+      "text": "PUR DO alu.-kaschiert 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.02E",
+      "text": "PUR DO alu.-kaschiert 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.02F",
+      "text": "PUR DO alu.-kaschiert 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.02G",
+      "text": "PUR DO alu.-kaschiert 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.02W",
+      "text": "PUR DO alu.-kaschiert mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.02X",
+      "text": "Az PUR DO alu.-kaschiert f.Stufenfalz",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.03A",
+      "text": "PUR Gefälledämmung 2% 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.03B",
+      "text": "PUR Gefälledämmung 2% 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.03C",
+      "text": "PUR Gefälledämmung 2% 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.03D",
+      "text": "PUR Gefälledämmung 2% 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.03E",
+      "text": "PUR Gefälledämmung 2% 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.03F",
+      "text": "PUR Gefälledämmung 2% 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.03G",
+      "text": "PUR Gefälledämmung 2% 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.03H",
+      "text": "PUR Gefälledämmung 2% 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.03X",
+      "text": "PUR Gefälledämmung 2% mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.04X",
+      "text": "PUR Gefälledämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.05A",
+      "text": "EPS-W20 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.05B",
+      "text": "EPS-W20 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.05C",
+      "text": "EPS-W20 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.05D",
+      "text": "EPS-W20 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.05E",
+      "text": "EPS-W20 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.05F",
+      "text": "EPS-W20 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.05G",
+      "text": "EPS-W20 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.05H",
+      "text": "EPS-W20 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.05I",
+      "text": "EPS-W20 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.05X",
+      "text": "EPS-W20 mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.05Y",
+      "text": "Az EPS-W20 f.Stufenfalz",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.07X",
+      "text": "EPS-W20 Gefälledämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.08A",
+      "text": "EPS-W20 g/s 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.08B",
+      "text": "EPS-W20 g/s 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.08C",
+      "text": "EPS-W20 g/s 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.08D",
+      "text": "EPS-W20 g/s 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.08E",
+      "text": "EPS-W20 g/s 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.08F",
+      "text": "EPS-W20 g/s 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.08G",
+      "text": "EPS-W20 g/s 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.08H",
+      "text": "EPS-W20 g/s 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.08I",
+      "text": "EPS-W20 g/s 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.08X",
+      "text": "EPS-W20 g/s mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.08Y",
+      "text": "Az EPS-W20 g/s f.Stufenfalz",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.10X",
+      "text": "EPS-W20 g/s Gefälledämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.11A",
+      "text": "EPS-W25 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.11B",
+      "text": "EPS-W25 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.11C",
+      "text": "EPS-W25 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.11D",
+      "text": "EPS-W25 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.11E",
+      "text": "EPS-W25 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.11F",
+      "text": "EPS-W25 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.11G",
+      "text": "EPS-W25 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.11H",
+      "text": "EPS-W25 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.11I",
+      "text": "EPS-W25 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.11X",
+      "text": "EPS-W25 mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.11Y",
+      "text": "Az EPS-W25 f.Stufenfalz",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.12A",
+      "text": "EPS-W25 Gefälledämmung 2% 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.12B",
+      "text": "EPS-W25 Gefälledämmung 2% 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.12C",
+      "text": "EPS-W25 Gefälledämmung 2% 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.12D",
+      "text": "EPS-W25 Gefälledämmung 2% 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.12E",
+      "text": "EPS-W25 Gefälledämmung 2% 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.12F",
+      "text": "EPS-W25 Gefälledämmung 2% 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.12G",
+      "text": "EPS-W25 Gefälledämmung 2% 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.12H",
+      "text": "EPS-W25 Gefälledämmung 2% 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.12X",
+      "text": "EPS-W25 Gefälledämmung 2% mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.13X",
+      "text": "EPS-W25 Gefälledämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.14A",
+      "text": "EPS-W25 g/s 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.14B",
+      "text": "EPS-W25 g/s 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.14C",
+      "text": "EPS-W25 g/s 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.14D",
+      "text": "EPS-W25 g/s 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.14E",
+      "text": "EPS-W25 g/s 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.14F",
+      "text": "EPS-W25 g/s 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.14G",
+      "text": "EPS-W25 g/s 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.14H",
+      "text": "EPS-W25 g/s 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.14I",
+      "text": "EPS-W25 g/s 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.14X",
+      "text": "EPS-W25 g/s mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.14Y",
+      "text": "Az EPS-W25 g/s f.Stufenfalz",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.15A",
+      "text": "EPS-W25 g/s Gefälledämmung 2% 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.15B",
+      "text": "EPS-W25 g/s Gefälledämmung 2% 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.15C",
+      "text": "EPS-W25 g/s Gefälledämmung 2% 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.15D",
+      "text": "EPS-W25 g/s Gefälledämmung 2% 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.15E",
+      "text": "EPS-W25 g/s Gefälledämmung 2% 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.15F",
+      "text": "EPS-W25 g/s Gefälledämmung 2% 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.15G",
+      "text": "EPS-W25 g/s Gefälledämmung 2% 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.15H",
+      "text": "EPS-W25 g/s Gefälledämmung 2% 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.15X",
+      "text": "EPS-W25 g/s Gefälledämmung 2% mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.16X",
+      "text": "EPS-W25 g/s Gefälledämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.17A",
+      "text": "EPS-W30 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.17B",
+      "text": "EPS-W30 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.17C",
+      "text": "EPS-W30 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.17D",
+      "text": "EPS-W30 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.17E",
+      "text": "EPS-W30 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.17F",
+      "text": "EPS-W30 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.17G",
+      "text": "EPS-W30 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.17H",
+      "text": "EPS-W30 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.17I",
+      "text": "EPS-W30 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.17X",
+      "text": "EPS-W30 mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.17Y",
+      "text": "Az EPS-W30 f.Stufenfalz",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.18A",
+      "text": "EPS-W30 Gefälledämmung 2% 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.18B",
+      "text": "EPS-W30 Gefälledämmung 2% 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.18C",
+      "text": "EPS-W30 Gefälledämmung 2% 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.18D",
+      "text": "EPS-W30 Gefälledämmung 2% 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.18E",
+      "text": "EPS-W30 Gefälledämmung 2% 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.18F",
+      "text": "EPS-W30 Gefälledämmung 2% 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.18G",
+      "text": "EPS-W30 Gefälledämmung 2% 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.18H",
+      "text": "EPS-W30 Gefälledämmung 2% 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.18X",
+      "text": "EPS-W30 Gefälledämmung 2% mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.19X",
+      "text": "EPS-W30 Gefälledämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.20A",
+      "text": "EPS-W30 g/s 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.20B",
+      "text": "EPS-W30 g/s 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.20C",
+      "text": "EPS-W30 g/s 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.20D",
+      "text": "EPS-W30 g/s 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.20E",
+      "text": "EPS-W30 g/s 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.20F",
+      "text": "EPS-W30 g/s 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.20G",
+      "text": "EPS-W30 g/s 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.20H",
+      "text": "EPS-W30 g/s 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.20I",
+      "text": "EPS-W30 g/s 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.20X",
+      "text": "EPS-W30 g/s mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.20Y",
+      "text": "Az EPS-W30 g/s f.Stufenfalz",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.21A",
+      "text": "EPS-W30 g/s Gefälledämmung 2% 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.21B",
+      "text": "EPS-W30 g/s Gefälledämmung 2% 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.21C",
+      "text": "EPS-W30 g/s Gefälledämmung 2% 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.21D",
+      "text": "EPS-W30 g/s Gefälledämmung 2% 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.21E",
+      "text": "EPS-W30 g/s Gefälledämmung 2% 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.21F",
+      "text": "EPS-W30 g/s Gefälledämmung 2% 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.21G",
+      "text": "EPS-W30 g/s Gefälledämmung 2% 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.21H",
+      "text": "EPS-W30 g/s Gefälledämmung 2% 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.21X",
+      "text": "EPS-W30 g/s Gefälledämmung 2% mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.22X",
+      "text": "EPS-W30 g/s Gefälledämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.23A",
+      "text": "XPS-G 30 S 40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.23B",
+      "text": "XPS-G 30 S 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.23C",
+      "text": "XPS-G 30 S 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.23D",
+      "text": "XPS-G 30 S 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.23E",
+      "text": "XPS-G 30 S 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.23F",
+      "text": "XPS-G 30 S 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.23G",
+      "text": "XPS-G 30 S 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.23H",
+      "text": "XPS-G 30 S 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.23I",
+      "text": "XPS-G 30 S 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.23X",
+      "text": "XPS-G 30 S mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.24A",
+      "text": "XPS-G 50 S 40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.24B",
+      "text": "XPS-G 50 S 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.24C",
+      "text": "XPS-G 50 S 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.24D",
+      "text": "XPS-G 50 S 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.24E",
+      "text": "XPS-G 50 S 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.24F",
+      "text": "XPS-G 50 S 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.24G",
+      "text": "XPS-G 50 S 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.24H",
+      "text": "XPS-G 50 S 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.24X",
+      "text": "XPS-G 50 S mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.25A",
+      "text": "XPS-G 70 S 40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.25B",
+      "text": "XPS-G 70 S 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.25C",
+      "text": "XPS-G 70 S 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.25D",
+      "text": "XPS-G 70 S 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.25E",
+      "text": "XPS-G 70 S 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.25F",
+      "text": "XPS-G 70 S 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.25G",
+      "text": "XPS-G 70 S 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.25X",
+      "text": "XPS-G 70 S mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.26A",
+      "text": "U-XPS-G 30 S 40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.26B",
+      "text": "U-XPS-G 30 S 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.26C",
+      "text": "U-XPS-G 30 S 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.26D",
+      "text": "U-XPS-G 30 S 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.26E",
+      "text": "U-XPS-G 30 S 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.26F",
+      "text": "U-XPS-G 30 S 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.26G",
+      "text": "U-XPS-G 30 S 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.26H",
+      "text": "U-XPS-G 30 S 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.26I",
+      "text": "U-XPS-G 30 S 220mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.26J",
+      "text": "U-XPS-G 30 S 240mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.26X",
+      "text": "U-XPS-G 30 S mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.27A",
+      "text": "U-XPS-G 50 S 40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.27B",
+      "text": "U-XPS-G 50 S 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.27C",
+      "text": "U-XPS-G 50 S 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.27D",
+      "text": "U-XPS-G 50 S 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.27E",
+      "text": "U-XPS-G 50 S 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.27F",
+      "text": "U-XPS-G 50 S 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.27G",
+      "text": "U-XPS-G 50 S 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.27H",
+      "text": "U-XPS-G 50 S 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.27I",
+      "text": "U-XPS-G 50 S 220mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.27J",
+      "text": "U-XPS-G 50 S 240mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.27X",
+      "text": "U-XPS-G 50 S mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.28A",
+      "text": "U-XPS-G 70 S 40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.28B",
+      "text": "U-XPS-G 70 S 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.28C",
+      "text": "U-XPS-G 70 S 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.28D",
+      "text": "U-XPS-G 70 S 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.28E",
+      "text": "U-XPS-G 70 S 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.28F",
+      "text": "U-XPS-G 70 S 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.28G",
+      "text": "U-XPS-G 70 S 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.28H",
+      "text": "U-XPS-G 70 S 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.28I",
+      "text": "U-XPS-G 70 S 220mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.28J",
+      "text": "U-XPS-G 70 S 240mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.28X",
+      "text": "U-XPS-G 70 S mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.30A",
+      "text": "EPS Automatenplatte S 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.30B",
+      "text": "EPS Automatenplatte S 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.30C",
+      "text": "EPS Automatenplatte S 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.30D",
+      "text": "EPS Automatenplatte S 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.30E",
+      "text": "EPS Automatenplatte S 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.30F",
+      "text": "EPS Automatenplatte S 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.30G",
+      "text": "EPS Automatenplatte S 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.30H",
+      "text": "EPS Automatenplatte S 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.30I",
+      "text": "EPS Automatenplatte S 220mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.30J",
+      "text": "EPS Automatenplatte S 240mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.30X",
+      "text": "EPS Automatenplatte S mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.31A",
+      "text": "EPSplus Automatenplatte S 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.31B",
+      "text": "EPSplus Automatenplatte S 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.31C",
+      "text": "EPSplus Automatenplatte S 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.31D",
+      "text": "EPSplus Automatenplatte S 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.31E",
+      "text": "EPSplus Automatenplatte S 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.31F",
+      "text": "EPSplus Automatenplatte S 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.31G",
+      "text": "EPSplus Automatenplatte S 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.31H",
+      "text": "EPSplus Automatenplatte S 200mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.31I",
+      "text": "EPSplus Automatenplatte S 220mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.31J",
+      "text": "EPSplus Automatenplatte S 240mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.31X",
+      "text": "EPSplus Automatenplatte S mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.32A",
+      "text": "Schaumglas (CG-D)400 40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.32B",
+      "text": "Schaumglas (CG-D)400 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.32C",
+      "text": "Schaumglas (CG-D)400 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.32D",
+      "text": "Schaumglas (CG-D)400 70mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.32E",
+      "text": "Schaumglas (CG-D)400 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.32F",
+      "text": "Schaumglas (CG-D)400 90mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.32G",
+      "text": "Schaumglas (CG-D)400 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.32H",
+      "text": "Schaumglas (CG-D)400 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.32I",
+      "text": "Schaumglas (CG-D)400 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.32X",
+      "text": "Schaumglas (CG-D)400 mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.33A",
+      "text": "Schaumglas (CG-D)400 Gefälledämmung 2% 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.33B",
+      "text": "Schaumglas (CG-D)400 Gefälledämmung 2% 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.33C",
+      "text": "Schaumglas (CG-D)400 Gefälledämmung 2% 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.33D",
+      "text": "Schaumglas (CG-D)400 Gefälledämmung 2% 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.33E",
+      "text": "Schaumglas (CG-D)400 Gefälledämmung 2% 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.33F",
+      "text": "Schaumglas (CG-D)400 Gefälledämmung 2% 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.33X",
+      "text": "Schaumglas (CG-D)400 Gefälledämmung 2% mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.34X",
+      "text": "Schaumglas (CG-D)400 Gefälledämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.35A",
+      "text": "Schaumglas (CG-HD)700 40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.35B",
+      "text": "Schaumglas (CG-HD)700 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.35C",
+      "text": "Schaumglas (CG-HD)700 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.35D",
+      "text": "Schaumglas (CG-HD)700 70mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.35E",
+      "text": "Schaumglas (CG-HD)700 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.35F",
+      "text": "Schaumglas (CG-HD)700 90mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.35G",
+      "text": "Schaumglas (CG-HD)700 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.35H",
+      "text": "Schaumglas (CG-HD)700 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.35I",
+      "text": "Schaumglas (CG-HD)700 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.35X",
+      "text": "Schaumglas (CG-HD)700 mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.36A",
+      "text": "Schaumglas (CG-HD)700 Gefälledämmung 2% 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.36B",
+      "text": "Schaumglas (CG-HD)700 Gefälledämmung 2% 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.36C",
+      "text": "Schaumglas (CG-HD)700 Gefälledämmung 2% 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.36D",
+      "text": "Schaumglas (CG-HD)700 Gefälledämmung 2% 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.36E",
+      "text": "Schaumglas (CG-HD)700 Gefälledämmung 2% 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.36F",
+      "text": "Schaumglas (CG-HD)700 Gefälledämmung 2% 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.36X",
+      "text": "Schaumglas (CG-HD)700 Gefälledämmung 2% mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.37X",
+      "text": "Schaumglas (CG-HD)700 Gefälledämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.38A",
+      "text": "Schaumglas (CG-F)1200 40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.38B",
+      "text": "Schaumglas (CG-F)1200 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.38C",
+      "text": "Schaumglas (CG-F)1200 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.38D",
+      "text": "Schaumglas (CG-F)1200 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.38E",
+      "text": "Schaumglas (CG-F)1200 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.38F",
+      "text": "Schaumglas (CG-F)1200 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.38X",
+      "text": "Schaumglas (CG-F)1200 mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.41A",
+      "text": "Mineralwolleplatten lose 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.41B",
+      "text": "Mineralwolleplatten lose 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.41C",
+      "text": "Mineralwolleplatten lose 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.41D",
+      "text": "Mineralwolleplatten lose 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.41X",
+      "text": "Mineralwolleplatten lose mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.42A",
+      "text": "Mineralwolleplatten geklebt 50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.42B",
+      "text": "Mineralwolleplatten geklebt 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.42C",
+      "text": "Mineralwolleplatten geklebt 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.42D",
+      "text": "Mineralwolleplatten geklebt 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.42E",
+      "text": "Mineralwolleplatten geklebt 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.42F",
+      "text": "Mineralwolleplatten geklebt 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.42G",
+      "text": "Mineralwolleplatten geklebt 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.42H",
+      "text": "Mineralwolleplatten geklebt 180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.42X",
+      "text": "Mineralwolleplatten geklebt mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.43A",
+      "text": "Mineralwolle (MW-WD) Gefälledämmung 2% 60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.43B",
+      "text": "Mineralwolle (MW-WD) Gefälledämmung 2% 80mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.43C",
+      "text": "Mineralwolle (MW-WD) Gefälledämmung 2% 100mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.43D",
+      "text": "Mineralwolle (MW-WD) Gefälledämmung 2% 120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.43E",
+      "text": "Mineralwolle (MW-WD) Gefälledämmung 2% 140mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.43F",
+      "text": "Mineralwolle (MW-WD) Gefälledämmung 2% 160mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.43X",
+      "text": "Mineralwolle (MW-WD) Gefälledämmung 2%__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.44A",
+      "text": "Mineralwolle (MW-WD) Gefälledämmung",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.51A",
+      "text": "Az Dämmung f.mechanische Befest.b.60mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.51B",
+      "text": "Az Dämmung f.mechanische Befest.ü.60-90mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.51C",
+      "text": "Az Dämmung f.mechanische Befest.ü.90-120mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.51D",
+      "text": "Az Dämmung f.mechanische Befest.ü.120-150mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.51E",
+      "text": "Az Dämmung f.mechanische Befest.ü.150-180mm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.51X",
+      "text": "Az Dämmung f.mechanische Befest. mm:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.71.52A",
+      "text": "Az Wärmedämmschicht f.Hochzug/Tiefzug",
+      "unit": "m²"
+    },
+    {
+      "code": "21.80.00D",
+      "text": "Angaben Untergrund zu 21.80",
+      "unit": ""
+    },
+    {
+      "code": "21.80.01A",
+      "text": "Dämmmaterial gelagert verlegen",
+      "unit": "m²"
+    },
+    {
+      "code": "21.80.02A",
+      "text": "Kies abtragen,lagern u.ausbreiten 6cm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.80.02B",
+      "text": "Kies abtragen,lagern u.ausbreiten 8cm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.80.02C",
+      "text": "Kies abtragen,lagern u.ausbreiten 10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "21.80.02X",
+      "text": "Kies abtragen,lagern u.ausbreiten__________",
+      "unit": "m²"
+    },
+    {
+      "code": "21.80.04A",
+      "text": "Instands.Dachhaut+Hochzug EKV-4",
+      "unit": "m²"
+    },
+    {
+      "code": "21.80.06A",
+      "text": "Instands.Spengler 2xEKV-4                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "21.80.07A",
+      "text": "Instands.Anschluss Stütze b.10cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.80.07B",
+      "text": "Instands.Anschluss Rohr 10-20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.80.07C",
+      "text": "Instands.Anschluss Durchdringung b.0,25m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.80.11A",
+      "text": "Instands.Dachschalung b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "21.80.11B",
+      "text": "Instands.Dachschalung ü.10-20%",
+      "unit": "m²"
+    },
+    {
+      "code": "21.80.12A",
+      "text": "Instands.Gefällsbeton b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "21.80.12B",
+      "text": "Instands.Gefällsbeton ü.10-20%",
+      "unit": "m²"
+    },
+    {
+      "code": "21.80.21A",
+      "text": "Schneefangschutzsystem nachträglich",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.80.21B",
+      "text": "Az Schneefangschutzsystem nachträglich f.Eisfänger",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.81.01A",
+      "text": "Verlegehilfe/lastverteilende Schicht",
+      "unit": "m²"
+    },
+    {
+      "code": "21.81.03A",
+      "text": "Az Sturmsicherung m.Kies",
+      "unit": "m²"
+    },
+    {
+      "code": "21.81.04A",
+      "text": "Dreikantleiste 5x5cm                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "21.81.21A",
+      "text": "Schneefangschutzsystem",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.81.21B",
+      "text": "Az Schneefangschutzsystem f.Eisfänger",
+      "unit": "Stk"
+    },
+    {
+      "code": "21.81.91A",
+      "text": "Dachabdichtungsarbeiten/Inspektion K2                                                                        PA",
+      "unit": ""
+    },
+    {
+      "code": "21.81.91B",
+      "text": "Dachabdichtungsarbeiten/Inspektion K3                                                                        PA",
+      "unit": ""
+    },
+    {
+      "code": "21.81.91C",
+      "text": "Dachabdichtungsarbeiten/Wartung K2                                                                           PA",
+      "unit": ""
+    },
+    {
+      "code": "21.81.91D",
+      "text": "Dachabdichtungsarbeiten/Wartung K3                                                                               PA",
+      "unit": ""
+    },
+    {
+      "code": "21.81.95A",
+      "text": "Blitzschutzleitungen abbr.                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "21.81.95B",
+      "text": "Blitzschutzanalage abbr.                                                                                         PA",
+      "unit": ""
+    },
+    {
+      "code": "21.81.96A",
+      "text": "Gehroste aus Stahl abräumen+lagern",
+      "unit": "m²"
+    },
+    {
+      "code": "21.81.96B",
+      "text": "Gehroste aus Alu abräumen+lagern",
+      "unit": "m²"
+    },
+    {
+      "code": "21.90.00A",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "21.90.01A",
+      "text": "Regiestunden Vorarbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "21.90.01B",
+      "text": "Regiestunden Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "21.90.01C",
+      "text": "Regiestunden Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

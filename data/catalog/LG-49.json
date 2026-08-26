@@ -1,0 +1,281 @@
+{
+  "lg": "49",
+  "title": "Beschichtungen von Betonböden",
+  "positions": [
+    {
+      "code": "49.00.01A",
+      "text": "Vorhandener Untergrund",
+      "unit": ""
+    },
+    {
+      "code": "49.01.01A",
+      "text": "EP-Versiegel.Lebensm.wässrig glatt RAL7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.01.01B",
+      "text": "EP-Versiegel.Lebensm.wässrig glatt farbig",
+      "unit": "m²"
+    },
+    {
+      "code": "49.01.03A",
+      "text": "EP-Versiegelung lösem-hält.glatt RAL7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.01.03B",
+      "text": "EP-Versiegelung lösem-hält.glatt farbig",
+      "unit": "m²"
+    },
+    {
+      "code": "49.01.05A",
+      "text": "EP-Dünnbeschicht.wässr.0,5mm strukt.RAL7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.01.05B",
+      "text": "EP-Dünnbeschicht.wässr.0,5mm strukt.farbig",
+      "unit": "m²"
+    },
+    {
+      "code": "49.01.07A",
+      "text": "EP-Dünnbesch.lös-frei 0,5 strukt.RAL7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.01.07B",
+      "text": "EP-Dünnbesch.lös-frei 0,5 strukt.farbig",
+      "unit": "m²"
+    },
+    {
+      "code": "49.01.10A",
+      "text": "Az Dünnbesch.strukt.f.Neig.-18%",
+      "unit": "m²"
+    },
+    {
+      "code": "49.02.01A",
+      "text": "EP-Dickb.verlauf.L-frei glatt 2mm RAL 7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.02.01B",
+      "text": "EP-Dickb.verlauf.L-frei glatt 2mm farbig",
+      "unit": "m²"
+    },
+    {
+      "code": "49.02.03A",
+      "text": "PUR-Dickbesch.L-frei glatt 2mm RAL7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.02.03B",
+      "text": "PUR-Dickbesch.L-frei glatt 2mm farbig",
+      "unit": "m²"
+    },
+    {
+      "code": "49.02.05A",
+      "text": "EP-Dickb.L-frei gabelst-fest glatt 2,5 7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.02.05B",
+      "text": "EP-Dickb.L-frei gabelst-fest glatt 2,5farb.",
+      "unit": "m²"
+    },
+    {
+      "code": "49.02.07A",
+      "text": "EP-Dickb.L-frei rissüb.dicht glatt 1,7 7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.02.07B",
+      "text": "EP-Dickb.L-frei rissüb.dicht glatt 1,7 farb",
+      "unit": "m²"
+    },
+    {
+      "code": "49.02.10A",
+      "text": "Az Dickbesch.mittel eingestreut f.Neig-18%",
+      "unit": "m²"
+    },
+    {
+      "code": "49.03.01A",
+      "text": "EP-Einstreub+Deckv.L-frei 3mm rau RAL7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.03.01B",
+      "text": "EP-Einstreub+Deckv.L-frei 3mm rau farbig",
+      "unit": "m²"
+    },
+    {
+      "code": "49.03.03A",
+      "text": "PUR-Einstreub+Deckv.L-frei 3mm rau RAL7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.03.03B",
+      "text": "PUR-Einstreub+Deckv.L-frei 3mm rau farbig",
+      "unit": "m²"
+    },
+    {
+      "code": "49.03.05A",
+      "text": "EP-Buntquarz Dickb+Deckv.L-frei 3mm rau",
+      "unit": "m²"
+    },
+    {
+      "code": "49.03.10A",
+      "text": "Az Dickbesch.II eingestr.f.Neig-18%",
+      "unit": "m²"
+    },
+    {
+      "code": "49.04.01A",
+      "text": "Parkh-Tiefg.Betonb-besch.inn.zähelast.rau",
+      "unit": "m²"
+    },
+    {
+      "code": "49.04.01B",
+      "text": "Parkh-Tiefg.Betonbesch.inn.zähel.Rampe rau",
+      "unit": "m²"
+    },
+    {
+      "code": "49.04.01C",
+      "text": "Parkh-Tiefg.Bet-b-besch.i/a.rissüb.OS-11rau",
+      "unit": "m²"
+    },
+    {
+      "code": "49.04.01D",
+      "text": "Parkh-Tiefg.Bet-b-be.i/a.rissüb.OS-13 rau",
+      "unit": "m²"
+    },
+    {
+      "code": "49.04.03A",
+      "text": "Parkh.Standarddeckversiegelung innen",
+      "unit": "m²"
+    },
+    {
+      "code": "49.04.03B",
+      "text": "Parkh.Deckversieg.vergilb-fr.lös-h.i/a 7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.04.03C",
+      "text": "Parkh.Deckversieg.vergilb-fr.lös-h.i/a farb",
+      "unit": "m²"
+    },
+    {
+      "code": "49.05.01A",
+      "text": "PU-Versiegeln lös-h.seidenm.RAL 7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.05.01B",
+      "text": "PU-Versiegeln lös-h.seidenm.Sond-farb.",
+      "unit": "m²"
+    },
+    {
+      "code": "49.05.03A",
+      "text": "PU-Versiegelung sm.lös-halt.transparent",
+      "unit": "m²"
+    },
+    {
+      "code": "49.05.07A",
+      "text": "Transp.Versiegel.f.höhere Kratz+Rutschfest.",
+      "unit": "m²"
+    },
+    {
+      "code": "49.05.09A",
+      "text": "Transpar.Pflegeversiegelung lös-frei 1komp.",
+      "unit": "m²"
+    },
+    {
+      "code": "49.06.01A",
+      "text": "Leitset f.elektrostat.Ableitung f.Erdung",
+      "unit": "m²"
+    },
+    {
+      "code": "49.06.03A",
+      "text": "EP-ableitfäh.strukt.L-frei 2-k-0,7mm 7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.06.03B",
+      "text": "EP-ableitfäh.strukt.L-frei 2-k-0,7mm farb.",
+      "unit": "m²"
+    },
+    {
+      "code": "49.06.07A",
+      "text": "EP.ableitfäh.Besch.L-fr.gabelst-f.1,5 7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.06.07B",
+      "text": "EP.ableitfäh.Besch.Lf.gabelst-f.1,5 farb.",
+      "unit": "m²"
+    },
+    {
+      "code": "49.06.09A",
+      "text": "EPableitf.Besch.Lf.gabelst-f.1,5 7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.06.09B",
+      "text": "EPableitf.Besch.Lf.gabelst-f.1,5 farb",
+      "unit": "m²"
+    },
+    {
+      "code": "49.06.11A",
+      "text": "EPableitfBesch.Lf.hochb.2mm rau+Deckv.7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.06.11B",
+      "text": "EPableitfBesch.Lf.hochb.2mm rau+Deckv.farb",
+      "unit": "m²"
+    },
+    {
+      "code": "49.06.13A",
+      "text": "EP ableitf.Besch.glatt rissüberbr.1,5mm7032",
+      "unit": "m²"
+    },
+    {
+      "code": "49.06.13B",
+      "text": "EP ableitf.Besch.glatt rissüberbr.1,5mmfarb",
+      "unit": "m²"
+    },
+    {
+      "code": "49.08.01A",
+      "text": "Vorh.Scheinfugen schließen 4-6/8-10mm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "49.08.01B",
+      "text": "Vorh.Scheinfugen schließen 4-6/8-10mm+R-pr.                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "49.08.03A",
+      "text": "Randfugenverschluss                                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "49.08.05A",
+      "text": "Hohlkehlen und Hochzüge starr                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "49.08.06A",
+      "text": "Hohlkehlen und Hochzüge elastisch                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "49.90.00A",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "49.90.00B",
+      "text": "Verfügbarkeit von Beilagen",
+      "unit": ""
+    }
+  ]
+}

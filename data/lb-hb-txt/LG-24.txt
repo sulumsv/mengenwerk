@@ -1,0 +1,921 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+            Leistungsgruppe (LG) 24 - Fliesen- und Plattenlegearbeiten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 2401    Vorbereiten des Untergrundes
+                     ULG 2411    Wandbeläge innen
+                     ULG 2412    Boden-u.Sockelbeläge innen
+                     ULG 2413    Stufen-u.Stufensockelbeläge innen
+                     ULG 2421    Wandbeläge außen
+                     ULG 2422    Boden-u.Sockelbeläge außen
+                     ULG 2423    Stufen-u.Stufensockelbeläge außen
+                     ULG 2451    Sonstige Leistungen, Aufzahlungen
+                     ULG 2490    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 15
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                           EH
+
+24         Fliesen- und Plattenlegearbeiten
+           Version 022 (2021-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           1. Innenräume:
+           Mit dem Begriff Innenräume sind nicht bewitterte und nicht frostgefährdete Belagsflächen gemeint.
+           2. Außenflächen, Außenbereich:
+           Mit dem Begriff Außenflächen oder Außenbereich sind bewitterte und frostgefährdete Belagsflächen gemeint.
+           Es werden ausschließlich Materialien einer frostsicheren Gruppe verwendet.
+           3. Standardausführungen:
+           Flächen sind planmäßig rechtwinkelig, geradlinig begrenzte Flächen im Wand- oder Bodenbereich, ohne
+           besondere Flächenausnehmungen.
+           4. Einkalkulierte Leistungen:
+           Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+           einkalkuliert:
+               • Verlegen der Wand- oder Bodenbeläge auf verlegereifem Untergrund mit Dünnbettmörtel, ohne
+                 besondere Anforderungen, auf Schnitt - bei rechtzeitiger Bekanntgabe durch den Auftraggeber auch auf
+                 Bund
+               • Verfugungen bei allen Belägen sind mit handelsüblichem Fugenmörtel auf Zementbasis, ohne besondere
+                 Eigenschaften
+               • Anarbeiten an Auslässe bis 0,01 m2
+           4.1 Vorstreichen/Grundieren:
+           Das Vorstreichen/Grundieren bei saugenden Untergründen ist in die Einheitspreise einkalkuliert.
+           Vorstreichen/Grundieren bei nicht saugenden Untergründen ist in eigenen Positionen beschrieben.
+           5. Ausmaß- und Abrechnungsregeln:
+           5.1 Leistungen bei Höhen von Null bis 3,2 m (b.3,2m) einerseits und Höhen von Null bis über 3,2 m (ü.3,2m:
+           "Ausschreiberlücke") andererseits werden in unterschiedlichen Positionen beschrieben.
+           5.2 Wände mit einer Höhe von Null bis über 3,2 m werden durch gedachte lotrechte seitliche Begrenzungen
+           gegenüber etwaigen Wänden mit einer Höhe von Null bis 3,2 m, auch bei schrägem oberen Abschluss,
+           abgegrenzt. Abgerechnet wird die Summe der Flächen von Null bis 3,2 m und die Summe der Flächen von Null
+           bis zur angegebenen Höhe (über 3,2 m).
+           5.3 Sockel über 15 cm Höhe werden als Wandfläche abgerechnet.
+           5.4 Aufzahlungspositionen gelten ohne Unterschied der Arbeitshöhe.
+            Kommentar:
+            Materialbedingte Farbabweichungen gemäß NORM sind zulässig.
+            Abdeckarbeiten sind in der LG 01 (Baustellengemeinkosten) beschrieben.
+            (Fassaden)-Gerüste für Arbeitshöhen über 3,2 m sind in eigenen Positionen auszuschreiben (vgl. LG 04 Gerüste).
+            Frei zu formulieren (z.B.):
+                • durchlaufende Fugen für Wände und Boden
+                • Gehrungsausbildung mit Fliesen bei Außenecken bei Wänden (Jolly)
+                • Untergrund vorbereiten bei Großformatfliesen (erhöhte Anforderungen)
+                • Verlegen von Großformatfliesen Boden (über 30 x 30 cm)
+                • Verlegen von Fliesen mit geschnittenen Kanten (rektifiziert)
+                • Verlegen von Spaltplatten (Grobkeramik)
+                • Verlegen nach Verlegeplan
+                • Verlegen von Friesen
+                • Verlegen von Sockelfliesen
+                • gemusterte Einstreuungen
+                • Stufensockel mit durchlaufender schrägen Oberkante (Bischofsmützen)
+                • unregelmäßige Flächen (z.B. mit Flächenausnehmungen oder Gestaltungsaussparungen)
+                • Wandbeläge bei Wandheizungen
+                • Verlegearbeiten auf beheizten Stufen
+                • Fugenbreiten über 7 mm bei nicht elastischen Fugen
+                • Epoxid-Reaktionsharzklebemörtel für chemikalienresistente Verlegung
+                • Grundreinigung der verlegten Flächen
+                • Teilverfliesungen, wenn Räume nur teilweise verfliest werden
+            Literaturhinweis (z.B.):
+            ÖNORM B 3407: Fliesen-, Platten- und Mosaiklegearbeiten - Anforderungs- und Ausführungsnorm
+            ÖNORM EN 14411: Keramische Fliesen und Platten - Begriffe, Klassifizierung, Gütemerkmale und Kennzeichnung
+
+                                                                                                                           Seite 2 / 15
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+             ÖNORM EN 12004: Mörtel und Klebstoffe für Fliesen und Platten - Anforderungen, Konformitätsbewertung, Klassifizierung
+             und Bezeichnung
+             ÖNORM EN 13888: Fugenmörtel für Fliesen und Platten - Anforderungen, Konformitätsbewertung, Klassifikation und
+             Bezeichnung
+             ÖNORM B 18202: Toleranzen im Hochbau - Bauwerke
+             OIB R4 Richtlinie Rutschsicherheit/Erläuterungen R4
+             Merkblätter technischer Ausschuss des österreichischen Fliesenverbandes
+             Eine Prüfung und Nachweis der Rutschsicherheit kann nach ÖNORM Z 1261, alternativ nach DIN 51130 und DIN 51097
+             durchgeführt werden.
+            LB-Version: 23                Geringfügig Geändert
+
+24.01       Vorbereiten des Untergrundes
+
+
+            Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            LB-Version: 23                Geringfügig Geändert
+24.01 01    Abscheren der Innenflächen, einschließlich Entsorgen der Baurestmassen.
+            Im Positionsstichwort ist die Art der Oberfläche angegeben.
+
+24.01 01A   Abscheren innen von Farbe+Entsorgen                                                                                 m²
+
+24.01 01B   Abscheren innen von Kalkfarbe+Entsorgen                                                                             m²
+
+24.01 01C   Abscheren innen von Dispersion+Entsorgen                                                                            m²
+
+24.01 01D   Abscheren innen von Tapete+Entsorgen                                                                                m²
+24.01 02    Grundieren - Voranstrich.
+
+24.01 02B   Vorstreichen (Grundieren) bei nicht saugenden Untergründen                                                          m²
+            Bei nicht saugenden Untergründen (z.B. Fliesen, Gussasphalt).
+
+24.01 03    Ausgleichen von Unebenheiten an Wänden.
+            Im Positionsstichwort ist die Gesamtdicke (mm) der auszugleichenden Schicht angegeben.
+            Je nach Gesamtdicke der auszugleichenden Schicht erfolgt die Zuordnung der Massen nicht kumulierend,
+            sondern nur in einer Position (A oder B).
+             Kommentar:
+             Position dient nicht zum vollflächigen Anheben der Flächen, sondern nur zum Ausgleichen von Unebenheiten, auf erhöhte
+             Anforderungen ist zu achten (z.B. Unebenheiten bei Wänden/Ausgleichsschicht, Fliesen ab 35 cm Seitenlänge).
+
+24.01 03A   Ausgleichen von Unebenheiten Wand b.4mm                                                                             m²
+            z.B. bei Fliesen ab 35 cm Seitenlänge.
+
+            LB-Version: 23                Geringfügig Geändert
+
+24.01 03B   Ausgleichen von Unebenheiten Wand ü.4-10mm                                                                          m²
+            z.B. bei Fliesen ab 35 cm Seitenlänge.
+
+            LB-Version: 23                Geringfügig Geändert
+24.01 04    Ausgleichen von Unebenheiten bei Böden.
+            Im Positionsstichwort ist die Gesamtdicke (mm) der auszugleichenden Schicht angegeben.
+            Je nach Gesamtdicke der auszugleichenden Schicht erfolgt die Zuordnung der Massen nicht kumulierend
+            sondern nur in einer Position (A oder B).
+             Kommentar:
+             Position dient nicht zum vollflächigen Anheben der Flächen, sondern nur zum Ausgleichen von Unebenheiten, auf erhöhte
+             Anforderungen ist zu achten (z.B. Unebenheiten bei Böden/Ausgleichsschicht, Fliesen ab 35 cm Seitenlänge).
+
+24.01 04A   Ausgleichen von Unebenheiten Boden b.4mm                                                                            m²
+            z.B. bei Fliesen ab 35 cm Seitenlänge.
+
+
+                                                                                                                           Seite 3 / 15
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+24.01 04B   Ausgleichen von Unebenheiten Boden ü.4-10mm                                                                  m²
+            z.B. bei Fliesen ab 35 cm Seitenlänge.
+
+24.01 06    Oberflächenvorbereitung von Fußböden.
+
+24.01 06A   Reinigungsschliff Fußboden                                                                                   m²
+            Mittels Reinigungsschliff.
+
+24.01 11    Bauplatten aus extrudierten Polystyrolschaumplatten (XPS) mit beidseitiger zementärer
+            Spezialmörtelbeschichtung, armiert mit Gewebe, als Untergrund für Wand- und Bodenbeläge.
+            Im Positionsstichwort ist die Plattendicke (mm) angegeben.
+
+24.01 11A   Bauplatten XPS 6mm                                                                                           m²
+
+24.01 11B   Bauplatten XPS 10mm                                                                                          m²
+
+24.01 11C   Bauplatten XPS 20mm                                                                                          m²
+
+24.01 11D   Bauplatten XPS 30mm                                                                                          m²
+
+24.01 11E   Bauplatten XPS 50mm                                                                                          m²
+24.01 21    Verbundabdichtung für Plattenbeläge an Wänden.
+            Verbundabdichtungen sind nur im System und in Verbindung mit einem Fliesen- oder Plattenbelag auszuführen.
+            Im Positionsstichwort ist die Feuchtigkeitsbelastung angegeben.
+
+24.01 21A   Verbundabdichtung Wand W3                                                                                    m²
+
+24.01 21B   Verbundabdichtung Wand W4                                                                                    m²
+
+24.01 21C   Verbundabdichtung Wand W5                                                                                    m²
+
+24.01 21D   Verbundabdichtung Wand W6                                                                                    m²
+24.01 23    Verbundabdichtung auf Reaktionsharzbasis auf chemisch belasteten Wandflächen für das direkte Verlegen von
+            Belägen auf Zementputz oder Untergründen aus Beton.
+            Verbundabdichtungen sind nur im System und in Verbindung mit einem Fliesen- oder Plattenbelag auszuführen.
+            Im Positionsstichwort ist die Feuchtigkeitsbelastung angegeben.
+
+24.01 23A   Verbundabdichtung Wand Reaktionsharzbasis (W5, W6)                                                           m²
+24.01 31    Verbundabdichtung für Plattenbeläge für Böden.
+            Verbundabdichtungen sind nur im System und in Verbindung mit einem Fliesen- oder Plattenbelag auszuführen.
+            Abgerechnet wird die abgedichtete Fläche (m2) zuzüglich Fläche für den Hochzug.
+            Im Positionsstichwort ist die Feuchtigkeitsbelastung angegeben.
+
+24.01 31A   Verbundabdichtung Boden W3                                                                                   m²
+
+24.01 31B   Verbundabdichtung Boden W4                                                                                   m²
+
+24.01 31C   Verbundabdichtung Boden W5                                                                                   m²
+
+24.01 31D   Verbundabdichtung Boden W6                                                                                   m²
+24.01 33    Verbundabdichtung auf Reaktionsharzbasis auf chemisch belasteten Bodenflächen für das direkte Verlegen von
+            Belägen auf Zementestrich oder Untergründen aus Beton.
+            Verbundabdichtungen sind nur im System und in Verbindung mit einem Fliesen- oder Plattenbelag auszuführen.
+            Abgerechnet wird die abgedichtete Fläche (m2) zuzüglich Fläche für den Hochzug.
+            Im Positionsstichwort ist die Feuchtigkeitsbelastung angegeben.
+
+24.01 33B   Verbundabdichtung Boden auf Reaktionsharzbasis (W5, W6)                                                      m²
+24.01 35    Verbundabdichtung PLUS als wasserdichte Bahnenware, verklebt mit einer Verbundabdichtung (RM, CM), 5 cm
+            überlappend.
+            Verbundabdichtungen PLUS sind nur im System und in Verbindung mit einem Fliesen- oder Plattenbelag
+                                                                                                                    Seite 4 / 15
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            auszuführen.
+            Abgerechnet wird die abgedichtete Fläche (m2) zuzüglich Fläche für den Hochzug.
+             Kommentar:
+             Verbundabdichtung gemäß Merkblatt 3 des Österreichischen Fliesenverbandes.
+
+24.01 35A   Verbundabdichtung PLUS Boden                                                                                 m²
+            LB-Version: 23               Geringfügig Geändert
+24.01 44    Abdichten (Wand/Boden/Rohr) von besonderen Stellen im Anschluss an Flächenabdichtungen.
+
+24.01 44A   Abdichten Eckfugen m.Dichtband                                                                               m
+            Von Eckfugen mit Dichtband.
+            Vorgefertigte Dichtbanddecken für Innen- und Außenecken sind im Einheitspreis einkalkuliert.
+
+24.01 44B   Abdichten Rohrdurchf.+Dichtmansch.b.50mm                                                                     Stk
+            Von Rohrdurchführungen mit Dichtmanschetten.
+            Durchmesser: bis 50 mm
+
+24.01 44C   Abdichten Rohrdurchf./Bodenabl.+Dichtmansch.ü.50-300mm                                                       Stk
+            Von Rohrdurchführungen und Bodenabläufen mit Dichtmanschetten.
+            Durchmesser: über 50 bis 300 mm
+
+24.01 44E   Abdichten m.Dichtbandecken bei Duschabsenkungen                                                              Stk
+            Von Sonderformteilen (Dichtbandecken) bei Duschabsenkungen.
+
+24.01 44F   Einbinden m.Flansch bei Duschrinnen                                                                          Stk
+            Bei Duschrinnen (in die Verbundabdichtung) mit Einbinden der vom Auftraggeber aufgebrachten Flansche.
+            Abgerechnet wird die Anzahl der Flansche.
+
+24.01 44G   Eindichten m.Wannendichtbändern bei Wannen                                                                   m
+            Bei Wannen (in die Verbundabdichtung) mit Einbindung der vom Auftraggeber aufgebrachten
+            Wannendichtbänder.
+            Abgerechnet wird die Gesamtlänge der Wannendichtbänder, ohne Unterschied der Einzellängen.
+
+24.01 44H   Kapillarbrechende Maßnahmen im Wandbereich                                                                   m
+            Mit kapillarbrechenden Maßnahmen im Wandbereich.
+            Details zur Ausführung:____________
+            Material: ____________
+
+24.01 44I   Kapillarbrechende Maßnahmen im Türbereich                                                                    Stk
+            Mit kapillarbrechenden Maßnahmen im Bereich der Türzarge, im Übergang zu anderen Bodenbelägen.
+            Details zur Ausführung:____________
+            Material: ____________
+
+24.01 44J   Schnittschutzband bei Wartungsfugen                                                                          m
+            Mit Einlage eines Schnittschutzbandes im Bereich der Wartungsfugen.
+
+24.01 45    Abdichten auf Reaktionsharzbasis (Wand/Boden/Rohr) von besonderen Stellen im Anschluss an
+            Flächenabdichtungen.
+
+24.01 45A   Abdichten RHB Eckfugen m.Dichtband                                                                           m
+            Von Eckfugen mit Dichtband.
+            Vorgefertigte Dichtbandecken für Innen- und Außenecken sind im Einheitspreis einkalkuliert.
+
+24.01 45B   Abdichten RHB Rohrdurchf.+Dichtmansch.b.50mm                                                                 Stk
+            Von Rohrdurchführungen mit Dichtmanschetten.
+            Durchmesser: bis 50 mm
+
+
+                                                                                                                    Seite 5 / 15
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+
+24.01 45C   Abdichten RHB Rohrdurchf./Bodenabl.+Dichtmansch.ü.50-300mm                                                Stk
+            Von Rohrdurchführungen und Bodenabläufen mit Dichtmanschetten.
+            Durchmesser: über 50 bis 300 mm
+
+24.01 45E   Abdichten RHB m.Dichtbandecken bei Duschabsenkungen                                                       Stk
+            Von Sonderformteilen (Dichtbandecken) bei Duschabsenkungen.
+
+24.01 45F   Einbinden RHB m.Flansch bei Duschrinnen                                                                   Stk
+            Bei Duschrinnen (in die Verbundabdichtung) mit Einbinden der vom Auftraggeber aufgebrachten Flansche.
+            Abgerechnet wird die Anzahl der Flansche.
+
+24.01 45G   Eindichten RHB m.Wannendichtbändern bei Wannen                                                            m
+            Bei Wannen (in die Verbundabdichtung) mit Einbindung der vom Auftraggeber aufgebrachten
+            Wannendichtbänder.
+            Abgerechnet wird die Gesamtlänge der Wannendichtbänder, ohne Unterschied der Einzellängen.
+
+24.01 45H   Kapillarbrechende Maßnahmen im Wandbereich bei RHB                                                        m
+            Mit kapillarbrechenden Maßnahmen im Wandbereich.
+            Details zur Ausführung:____________
+            Material: ____________
+
+24.01 45I   Kapillarbrechende Maßnahmen im Türbereich bei RHB                                                         m
+            Mit kapillarbrechenden Maßnahmen im Bereich der Türzarge, im Übergang zu anderen Bodenbelägen.
+            Details zur Ausführung:____________
+            Material: ____________
+
+24.01 45J   Schnittschutzband bei Wartungsfugen bei RHB                                                               m
+            Mit Einlage eines Schnittschutzbandes im Bereich der Wartungsfugen.
+
+24.11       Wandbeläge innen
+
+
+            Ausmaß- und Abrechnungsregeln:
+            Die Ausführung von Leibungen, Stürze und Parapete bei gleichzeitiger Verlegung von angrenzenden
+            Wandfliesen sind in das Ausmaß der Wandfläche einkalkuliert.
+            LB-Version: 23              Geringfügig Geändert
+24.11 51    Wandbeläge innen, mit glasierten keramischen Fliesen, im Dünnbettverfahren.
+            Arbeitshöhe von Null bis 3,2 m.
+
+24.11 51A   Wandbelag 20x20cm weiß innen b.3,2m                                                                       m²
+            Untergrund: Kalkzement
+            Gruppe: BIII
+            Farbe/Fliesen: weiß
+            Format: 20 x 20 cm
+            Farbe/Fugen: weiß
+
+24.11 51B   Wandbelag innen b.3,2m                                                                                    m²
+            Untergrund: ____________
+            Gruppe: ____________
+            Farbe/Fliesen: ____________
+            Format: ____________
+            Farbe/Fugen: ____________
+
+24.11 61    Wandbeläge innen, mit glasierten keramischen Fliesen, im Dünnbettverfahren.
+            Arbeitshöhe von Null bis über 3,2 m.
+
+
+                                                                                                                 Seite 6 / 15
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                      EH
+
+24.11 61A   Wandbelag 20x20cm weiß innen ü.3,2m                                                            m²
+            Arbeitshöhe über 3,2 m: ____________
+            Untergrund: Kalkzement (KZM)
+            Gruppe: BIII
+            Farbe/Fliesen: weiß
+            Format: 20 x 20 cm
+            Farbe/Fugen: weiß
+
+24.11 61B   Wandbelag innen ü.3,2m                                                                         m²
+            Arbeitshöhe über 3,2 m: ____________
+            Untergrund: ____________
+            Gruppe: ____________
+            Farbe/Fliesen: ____________
+            Format: ____________
+            Farbe/Fugen: ____________
+
+24.12       Boden-u.Sockelbeläge innen
+24.12 51    Bodenbeläge innen, mit keramischen Fliesen, im Dünnbettverfahren.
+                • unbeheizt
+
+24.12 51A   Bodenbelag 30x30cm grau innen unbeheizt                                                        m²
+            Untergrund: Zementestrich
+            Gruppe: BI, Feinkorn, unglasiert
+            Farbe/Fliesen: 2 Grautöne
+            Format: 30 x 30 cm
+            Farbe/Fugen: grau
+            Rutschsicherheit:____________
+
+24.12 51B   Bodenbelag innen unbeheizt                                                                     m²
+            Untergrund: ____________
+            Gruppe: ____________
+            Farbe/Fliesen: ____________
+            Format: ____________
+            Farbe/Fugen: ____________
+            Rutschsicherheit:____________
+
+24.12 61    Bodenbeläge innen, mit keramischen Fliesen, im Dünnbettverfahren.
+                • beheizt (Fußbodenheizung)
+
+24.12 61A   Bodenbelag 30x30cm grau innen beheizt                                                          m²
+            Untergrund: Zementestrich
+            Gruppe: BI, Feinkorn, unglasiert
+            Farbe/Fliesen: 2 Grautöne
+            Format: 30 x 30 cm
+            Farbe/Fugen: grau
+            Rutschsicherheit:____________
+
+24.12 61B   Bodenbelag innen beheizt                                                                       m²
+            Untergrund: ____________
+            Gruppe: ____________
+            Farbe/Fliesen: ____________
+            Format: ____________
+
+
+                                                                                                      Seite 7 / 15
+                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            Farbe/Fugen: ____________
+            Rutschsicherheit:____________
+24.12 71    Bodensockelbeläge innen, mit keramischen Fliesen, im Dünnbettverfahren.
+                 • aus Bodenplatten geschnitten
+                 • Sockelhöhe bis 15 cm
+
+24.12 71A   Bodensockelbelag 30x30cm grau innen                                                                          m
+            Untergrund: Kalkzement
+            Gruppe: BIa, Feinkorn, unglasiert
+            Farbe/Fliesen: 2 Grautöne
+            Format: 30 x 30 cm
+            Farbe/Fugen: grau
+
+24.12 71B   Bodensockelbelag innen                                                                                       m
+            Untergrund: ____________
+            Gruppe: ____________
+            Farbe/Fliesen: ____________
+            Format: ____________
+            Farbe/Fugen: ____________
+
+24.13       Stufen-u.Stufensockelbeläge innen
+
+
+            1. Stufen:
+            Eine Stufe besteht aus einer geraden Tritt- und einer geraden Setzstufenfläche (rechtwinkelige Podesttreppen).
+            2. Ausmaß- und Abrechnungsregeln:
+            Stufen und Stufensockel werden nach dem Längenmaß abgerechnet (Stufensockel = abgewickelte Länge der
+            Summe von Höhen und Auftrittsbreiten der Stufen).
+
+            LB-Version: 23                Geringfügig Geändert
+24.13 51    Stufenbeläge innen, für geraden Treppenlauf mit Platten, im Dünnbettverfahren.
+
+24.13 51A   Stufenbelag 30x30cm grau innen m.Bodenplatte                                                                 m
+            Mit Bodenplatten.
+            Untergrund: ____________
+            Beheizt/unbeheizt: ____________
+            Gruppe: BIa, Feinkorn, unglasiert
+            Farbe/Fliesen: 2 Grautöne
+            Format: 30 x 30 cm
+            Farbe/Fugen: grau
+            Rutschsicherheit:____________
+
+24.13 51B   Stufenbelag 30x30cm grau innen m.Rillenplatte                                                                m
+            Mit gerillten Trittplatten.
+            Untergrund: ____________
+            Beheizt/unbeheizt: ____________
+            Gruppe: BIa, Feinkorn, unglasiert
+            Farbe/Fliesen: 2 Grautöne
+            Format: 30 x 30 cm
+            Farbe/Fugen: grau
+            Rutschsicherheit:____________
+
+24.13 51C   Stufenbelag innen                                                                                            m
+            Mit: ____________
+            Untergrund: ____________
+                                                                                                                    Seite 8 / 15
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            Beheizt/unbeheizt: ____________
+            Gruppe: ____________
+            Farbe/Fliesen: ____________
+            Format: ____________
+            Farbe/Fugen: ____________
+            Rutschsicherheit:____________
+
+24.13 51D   Az Stufenbelag innen f.Stufenkante m.Kontrastfarbe                                                          m
+            Aufzahlung (Az) für Kennzeichnung der Stufenvorderkante in Kontrastfarbe (Streifenbreite 5 cm).
+
+            LB-Version: 23              Geringfügig Geändert
+
+24.13 51E   Az Stufenbelag innen f.Aufmerksamkeitsfeld                                                                  m
+            Aufzahlung (Az) für ein taktiles Aufmerksamkeitsfeld vor der Treppe.
+
+24.13 71    Stufensockelbeläge innen, für geraden Treppenlauf mit Platten, im Dünnbettverfahren.
+                • aus Bodenplatten geschnitten
+                • Sockelhöhe bis 15 cm
+                • Eckausbildungen ohne Gehrung und Formstücke
+
+24.13 71A   Stufensockelbelag Dünnbett grau innen                                                                       m
+            Untergrund: Kalkzement
+            Gruppe: BIa, Feinkorn, unglasiert
+            Farbe/Fliesen: 2 Grautöne
+            Format: ____________
+            Farbe/Fugen: grau
+
+24.13 71B   Stufensockelbelag Dünnbett innen                                                                            m
+            Untergrund: ____________
+            Gruppe: ____________
+            Farbe/Fliesen: ____________
+            Format: ____________
+            Farbe/Fugen: ____________
+
+24.21       Wandbeläge außen
+
+
+            Ausmaß- und Abrechnungsregeln:
+            Die Ausführung von Leibungen, Stürze und Parapete bei gleichzeitiger Verlegung von angrenzenden
+            Wandfliesen sind in das Ausmaß der Wandfläche einkalkuliert.
+            LB-Version: 23              Geringfügig Geändert
+24.21 51    Wandbeläge außen, mit keramischen Fliesen, im Dünnbettverfahren.
+            Arbeitshöhe von Null bis 3,2 m.
+
+24.21 51B   Wandbelag außen b.3,2m                                                                                      m²
+            Untergrund: ____________
+            Gruppe: ____________
+            Farbe/Fliesen: ____________
+            Format: ____________
+            Farbe/Fugen: ____________
+
+24.21 61    Wandbeläge außen, mit keramischen Fliesen, im Dünnbettverfahren.
+            Arbeitshöhe von Null bis über 3,2 m.
+
+24.21 61B   Wandbelag außen ü.3,2m                                                                                      m²
+            Arbeitshöhe über 3,2 m: ____________
+            Untergrund: ____________
+            Gruppe: ____________
+                                                                                                                   Seite 9 / 15
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+            Farbe/Fliesen: ____________
+            Format: ____________
+            Farbe/Fugen: ____________
+
+24.22       Boden-u.Sockelbeläge außen
+             Kommentar:
+             Das Verlegen von Bodenfliesen für den Außenbereich mit einer Größe über 30 x 30 cm ist frei zu formulieren.
+
+24.22 51    Bodenbeläge außen, mit keramischen Fliesen, im Dünnbettverfahren.
+
+24.22 51B   Bodenbelag Dünnbett außen b.30x30cm                                                                                   m²
+            Untergrund: ____________
+            Beheizt/unbeheizt:____________
+            Gruppe: ____________
+            Farbe/Fliesen: ____________
+            Format (bis 30 x 30 cm): ____________
+            Farbe/Fugen: ____________
+            Rutschsicherheit:____________
+
+24.22 71    Sockelbeläge außen, mit keramischen Fliesen, im Dünnbettverfahren.
+                • aus Bodenplatten geschnitten
+                • Sockelhöhe bis 15 cm
+
+24.22 71B   Sockelbelag Dünnbett außen                                                                                            m
+            Untergrund: ____________
+            Gruppe: ____________
+            Farbe/Fliesen: ____________
+            Format: ____________
+            Farbe/Fugen: ____________
+
+24.23       Stufen-u.Stufensockelbeläge außen
+
+
+            1. Stufen:
+            Eine Stufe besteht aus einer geraden Tritt- und einer geraden Setzstufenfläche (rechtwinkelige Podesttreppen).
+            2. Ausmaß- und Abrechnungsregeln:
+            Stufen und Stufensockel werden nach dem Längenmaß abgerechnet (Stufensockel = abgewickelte Länge der
+            Summe von Höhen und Auftrittsbreiten der Stufen).
+
+24.23 51    Stufenbeläge außen, für geraden Treppenlauf mit trocken- und stranggepressten Platten, im Dünnbettverfahren.
+
+24.23 51A   Stufenbelag außen auf Betonkern                                                                                       m
+            Auf Betonkern.
+            Beheizt/unbeheizt: ____________
+            Gruppe: ____________
+            Farbe/Fliesen: ____________
+            Format: ____________
+            Farbe/Fugen: ____________
+            Rutschsicherheit:____________
+
+24.23 51B   Stufenbelag außen                                                                                                     m
+            Untergrund:____________
+            Beheizt/unbeheizt: ____________
+            Gruppe: ____________
+            Farbe/Fliesen: ____________
+            Format: ____________
+
+                                                                                                                            Seite 10 / 15
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+            Farbe/Fugen: ____________
+            Rutschsicherheit:____________
+24.23 71    Stufensockelbeläge außen, für geraden Treppenlauf mit Platten, im Dünnbettverfahren.
+                • aus Bodenplatten geschnitten
+                • Sockelhöhe bis 15 cm
+                • Eckausbildungen ohne Gehrung und Formstücke
+
+24.23 71A   Stufensockelbelag Dünnbett außen auf Zementputz                                                                      m
+            Auf Zementputz.
+            Gruppe: ____________
+            Farbe/Fliesen: ____________
+            Format: ____________
+            Farbe/Fugen: ____________
+
+24.23 71B   Stufensockelbelag Dünnbett außen                                                                                     m
+            Untergrund:____________
+            Gruppe: ____________
+            Farbe/Fliesen: ____________
+            Format: ____________
+            Farbe/Fugen: ____________
+
+24.51       Sonstige Leistungen, Aufzahlungen
+24.51 01    Abschlussschienen bei Wand-, Boden- und Stufenbelägen.
+
+24.51 01A   Abschlussschienen Alu natur b.10mm                                                                                   m
+            Material: Aluminium
+            Belagsdicke: bis 10 mm
+
+24.51 01B   Abschlussschienen                                                                                                    m
+            Material: ____________
+            Belagsdicke: ____________
+24.51 07    Fugen bei Wand-, Boden- und Stufenbelägen mit elastischem fungizidem Material, weiß oder grau.
+             Kommentar:
+             Elastische Fugen auf Acrylbasis sind nur als Anschlussfugen von Fliesen zu anderen geeigneten Untergründen (z.B. Putz)
+             zulässig.
+
+24.51 07A   Elastische Fuge Silikon/Acryl b.5mm                                                                                  m
+            Fugen aus Silikon oder Acryl,
+            Fugenbreite bis 5 mm.
+
+24.51 07B   Elastische Fuge Silikon/ Acryl ü.5-10mm                                                                              m
+            Fugen aus Silikon oder Acryl,
+            Fugenbreite über 5 bis 10 mm.
+
+24.51 07C   Az Elastische Fuge Silikon/Acryl f.Hinterfüllen m.Rundschnur                                                         m
+            Aufzahlung (Az) auf Silikon/Acryl-Fugen für das Hinterfüllen mit Rundschnur (z.B. als zusätzliche
+            schälldämmende Maßnahme).
+24.51 11    Vom Auftraggeber beigestellte Rahmen, ohne Unterschied der Einzelgröße und des Profils, im Dünnbett, nur
+            versetzen.
+            Gemessen wird das abgewickelte äußere Längenmaß.
+
+24.51 11A   Winkelrahmen Wand Dünnbett nur versetzen                                                                             m
+            Auf Wandflächen.
+
+24.51 11B   Winkelrahmen Boden Dünnbett nur versetzen                                                                            m
+
+                                                                                                                           Seite 11 / 15
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+            Auf Bodenflächen.
+
+24.51 11C   Mattenrahmen Boden Dünnbett nur versetzen                                                                         m
+            Auf Bodenflächen einschließlich Ausgleichen des Rahmenbodens.
+
+24.51 15    Revisionsabdeckplatte mit Rahmen aus korrosionsbeständigem Stahl (Edelstahl).
+            Im Positionsstichwort sind die Abmessungen (mm) angegeben.
+
+24.51 15A   Revisionsabdeckplatte Wand Edelstahl 150x150mm                                                                    Stk
+
+24.51 15B   Revisionsabdeckplatte Wand Edelstahl 200x200mm                                                                    Stk
+
+24.51 15C   Revisionsabdeckplatte Wand Edelstahl 300x150mm                                                                    Stk
+
+24.51 15D   Revisionsabdeckplatte Wand Edelstahl 300x300mm                                                                    Stk
+24.51 17    Fliesenmagnet mit Gegenplättchen.
+
+24.51 17A   Fliesenmagnet m.Wand-Montageset                                                                                   Stk
+            Einschließlich Wand-Montageset.
+
+24.51 21    Verblenden (Einmauern) einer vom Auftraggeber beigestellten rechtwinkeligen Badewanne, ohne Wannenbank.
+
+24.51 21A   Badewanne verblenden (einmauern)                                                                                  Stk
+            Abmessungen: ____________ x ____________cm
+
+24.51 21C   Az Badewanne verblenden f.schalltechnische Maßnahmen                                                              Stk
+            Aufzahlung (Az) Ausführung für erhöhte Anforderungen bei schalltechnischen Maßnahmen.
+            Beschreibung der erhöhten Maßnahmen: ____________
+            Betrifft Position(en):____________
+             Kommentar:
+             Bei der Verkleidung/Vormauerung ist darauf zu achten, dass keine Schallbrücke von der Badewanne zum Boden oder zur
+             Wand hergestellt wird.
+
+24.51 22    Einmauern einer Wannenbank.
+
+24.51 22A   Badewanne-Wannenbank einmauern                                                                                    Stk
+            Abmessungen: ____________ x ____________cm
+
+24.51 23    Verblenden einer vom Auftraggeber beigestellten rechtwinkeligen Duschtasse, bis 20 cm Höhe.
+
+24.51 23A   Duschtasse verblenden b.20cm                                                                                      Stk
+            Abmessungen: ____________ x ____________cm
+
+24.51 23C   Az Duschtasse verblenden f.schalltechnische Maßnahmen                                                             Stk
+            Aufzahlung (Az) Ausführung für erhöhte Anforderungen bei schalltechnischen Maßnahmen.
+            Beschreibung der erhöhten Maßnahmen: ____________
+            Betrifft Position(en):____________
+             Kommentar:
+             Bei der Verkleidung/Vormauerung ist darauf zu achten, dass keine Schallbrücke von der Duschwanne zum Boden oder zur
+             Wand hergestellt wird.
+
+24.51 24    Aufzahlung (Az) auf Wandbeläge.
+
+24.51 24A   Az f.Badewanne,Duschtasse                                                                                         m²
+            Für das Verfliesen von Flächen bei Badewannen und Duschtassen.
+
+24.51 31    Aufzahlung (Az) auf Wandbeläge für das Verlegen auf gekrümmten Flächen. mit einem Durchmesser bis 1 m.
+
+24.51 31A   Az f.gekrümmte Wandbeläge b.1m                                                                                    m²
+            Durchmesser bis 1 m.
+
+24.51 32    Aufzahlung (Az) auf Sockelbeläge für das Verlegen auf gekrümmten Flächen.
+
+
+                                                                                                                        Seite 12 / 15
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                 EH
+
+24.51 32A   Az f.gekrümmte Sockelfbeläge b.1m                                                         m
+            Durchmesser bis 1 m.
+
+24.51 33    Aufzahlung (Az) auf Wand-, Boden-, Stufen- und Sockelbeläge.
+
+24.51 33A   Az f.Fugenmörtel vergütet weiß/grau                                                       m²
+            Für das Verwenden eines vergüteten Fugenmörtels.
+            Farbe: weiß oder grau
+
+24.51 33B   Az f.Fugenmörtel vergütet Farbe                                                           m²
+            Für das Verwenden eines vergüteten Fugenmörtels.
+            anders als weiß oder grau.
+            Farbe: ____________
+
+24.51 33C   Az f.Fugenmörtel Reaktionsharz weiß/grau                                                  m²
+            Für das Verwenden eines Reaktionsharz-Fugenmörtels
+            Farbe: weiß oder grau
+
+24.51 33D   Az f.Fugenmörtel Reaktionsharz Farbe                                                      m²
+            Für das Verwenden eines Reaktionsharz- Fugenmörtels.
+            anders als weiß oder grau:
+            Farbe: ____________
+
+24.51 36    Aufzahlung (Az) auf Wand-, Boden-, Stufen- und Sockelbeläge.
+
+24.51 36A   Az f.Bohren v.Löchern b.10cm                                                              Stk
+            Für das Bohren von Löchern.
+            Durchmesser bis 10 cm.
+
+24.51 36B   Az f.Anarbeiten Auslässe ü.0,01-0,3m2                                                     Stk
+            Für das Anarbeiten an Auslässe.
+            Mit einer Einzelgröße über 0,01 bis 0,3 m2
+
+24.51 41    Aufzahlung (Az) auf Wandbeläge.
+
+24.51 41A   Az Wandbeläge f.diagonale Verlegung                                                       m²
+            Für eine diagonale Verlegung.
+
+24.51 41B   Az Wandbeläge f. Bogenschnitte                                                            m
+            Für Bogenschnitte (bogenförmige Abschlüsse).
+            Abgerechnet wird die Schnittlänge.
+
+24.51 41C   Az Wandbeläge f.Sicht- und Schrägschnitte                                                 m
+            Für schräge Abschlüsse.
+            Abgerechnet wird die Schnittlänge.
+24.51 42    Aufzahlung (Az) auf Bodenbeläge.
+
+24.51 42A   Az Bodenbeläge f.diagonale Verlegung                                                      m²
+            Für eine diagonale Verlegung.
+
+24.51 42B   Az Bodenbeläge f. Bogenschnitte                                                           m
+            Für Bogenschnitte (bogenförmige Abschlüsse).
+            Abgerechnet wird die Schnittlänge.
+
+24.51 42C   Az Bodenbeläge f.Sicht- u.Schrägschnitte                                                  m
+            Für schräge Abschlüsse.
+            Abgerechnet wird die Schnittlänge.
+
+                                                                                                Seite 13 / 15
+                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+24.51 45    Aufzahlung (Az) auf Stufenbeläge für eine Ausführung von Wendelstufen, innen und außen.
+            Abgerechnet wird die Vorderkante unter Angabe des größten Stichmaßes.
+
+24.51 45A   Az Stufenbeläge im Dünnbett f.Wendelstufen                                                                 m
+            Verlegung im Dünnbett.
+            Größtes Stichmaß: ____________ cm
+24.51 54    Aufzahlung (Az) auf Boden-, Stufen- und Sockelbeläge.
+
+24.51 54A   Az f.Hohlkehle Eckleiste                                                                                   m
+            Für die Ausführung als Hohlkehlen und Eckleisten (Ichsen und Außenecken) mit Formsteinen, liegend oder
+            stehend.
+24.51 55    Aufzahlung (Az) auf Bodenbeläge auf Standardflächen für das Verfüllen mit Betonestrich von, vom
+            Auftraggeber, beigestellten Schachtdeckeln, einschließlich Verfugen.
+            Im Positionsstichwort sind die Abmessungen (cm) angegeben.
+
+24.51 55A   Az Bodenbeläge f.Verfüllen Deckel 40x60cm                                                                  Stk
+
+24.51 55B   Az Bodenbeläge f.Verfüllen Deckel 60x60cm                                                                  Stk
+
+24.51 55C   Az Bodenbeläge f.Verfüllen Deckel 60x100cm                                                                 Stk
+24.51 61    Schutzimprägnierung von Wand-, Boden-, Stufen- und Sockelbelägen.
+
+24.51 61A   Schutzimprägnierung f.Wand-,Boden-,Stufen-u.Sockelfliesen                                                  m²
+            Betrifft Position(en): ____________
+
+24.51 91    Reserve-Material.
+
+24.51 91A   Reserve-Material Wandbelag                                                                                 m²
+            Betrifft Wandbelag.
+            Position(en): ____________
+            Material: ____________
+            Lagerung: ____________
+
+24.51 91B   Reserve-Material Bodenbelag                                                                                m²
+            Betrifft Bodenbelag.
+            Position(en): ____________
+            Material: ____________
+            Lagerung: ____________
+
+24.51 91C   Reserve-Material Stufenbelag                                                                               m²
+            Betrifft Stufenbelag.
+            Position(en): ____________
+            Material: ____________
+            Lagerung: ____________
+
+24.90       Regieleistungen
+
+
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen.
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+
+                                                                                                                 Seite 14 / 15
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+24.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+24.90 00A   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+24.90 01    Regiestundensatz.
+
+24.90 01A   Regiestundensatz Facharbeiter                                                                                    h
+            Für Facharbeiter.
+
+24.90 01B   Regiestundensatz Hilfsarbeiter                                                                                   h
+            Für Hilfsarbeiter.
+
+24.90 01C   Regiestundensatz Lehrling                                                                                        h
+            Für Lehrlinge.
+
+24.90 51    Materiallieferungen f.Regieleistungen                                                                            VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+            LB-Version: 23                 Geringfügig Geändert
+
+
+
+
+                                                                                                                       Seite 15 / 15
+                                                                                                  ib-data GmbH, Softwareentwicklung
+

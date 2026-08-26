@@ -1,0 +1,2145 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+    Leistungsgruppe (LG) 03 - Roden,Baugrube,Sicherungen u.Tiefgründungen
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 0300    Wählbare Vorbemerkungen
+                     ULG 0301    Baureifmachen, Freimachen von Bewuchs
+                     ULG 0302    Aushub Baugrube (Grube)
+                     ULG 0303    Aushub Fundamente
+                     ULG 0304    Bodenaustausch
+                     ULG 0305    Sichern mit Spritzbeton
+                     ULG 0306    Sicherungsmaßnahmen
+                     ULG 0311    Schlitzwände
+                     ULG 0312    Stahl-Spundwände
+                     ULG 0331    Fertigteil-Rammpfähle
+                     ULG 0332    Ortbeton-Rammpfähle und Bohrpfähle
+                     ULG 0333    Duktile Guss-Pfähle
+                     ULG 0336    Erdanker
+                     ULG 0341    Wasserhaltung
+                     ULG 0351    Einbau (flächig) von Schüttungen in Gruben
+                     ULG 0361    Hinterfüllen von Gruben
+                     ULG 0381    Instandsetzen Baugrube u.Fundamente
+                     ULG 0391    Transportieren,Verwerten,Deponieren von Aushubmaterial
+
+
+
+
+                                                                                                           Seite 1 / 33
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                    EH
+
+03         Roden,Baugrube,Sicherungen u.Tiefgründungen
+           Version 023 (2025-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           1. Bodenklassen, Neigung:
+           Leistungen sind bis 20 Prozent Geländeneigung beschrieben. Angaben über die Neigung erfolgen im Verhältnis
+           der Höhe zur projizierten Länge im Grundriss.
+           Vertragsbasis sind die durch den Auftraggeber beigestellten Unterlagen (z.B. Aufschlüsse, Bohrprofile oder
+           Bodengutachten, beschriebene Baugrundschichten (Bodenverhältnisse) und die im Plan festgehaltenen
+           Geländeformen).
+           Die Dokumentation wird gemäß ÖNORM durchgeführt.
+           2. Verwerten oder Deponieren:
+           Baurestmassen werden grundsätzlich verwertet. Wenn dies aus wirtschaftlichen oder technischen Gründen
+           nicht möglich ist, werden Baurestmassen ordnungsgemäß deponiert.
+           2.1 Unzulässige Belastungen durch Manipulationen im Baubetrieb:
+           Der Baubetrieb ist derart gestaltet, dass die Schadstoffgesamtgehalte und Eluate des Aushub- und
+           Abbruchmaterials nicht unzulässigerweise nachteilig verändert werden.
+           Der Auftragnehmer trägt Sorge, dass das Aushubmaterial durch den Baubetrieb mit nicht mehr als insgesamt 5
+           Prozent des Volumens mineralischer Baurestmassen verunreinigt wird.
+           Allfällige Kosten aus derartigen Veränderungen (z. B. Altlastenbeiträge nach dem Altlastensanierungsgesetz)
+           übernimmt der Auftragnehmer.
+           2.2 Nachweise:
+           Eine Bestätigung, dass der Auftragnehmer (AN) die Baurestmassen an berechtigte Abfallsammler übergeben
+           hat, wird dem Auftraggeber (AG) nach Aufforderung übergeben.
+           2.3 Trennung:
+           Die Trennung von Aushubmaterial und Baurestmassen erfolgt gemäß Recycling-Baustoffverordnung.
+           2.4 Eigentumsübergang:
+           Das Aushubmaterial geht mit dem ersten Laden in das Eigentum des Auftragnehmers über, sofern eine
+           Wiederverwendung durch den AG nicht Vertragsbestandteil ist und unbeschadet einer Vergütung mit den
+           Positionen der ULG 03.91 für den Transport, das Verwerten, Deponieren oder Entsorgen.
+           3. Zwischenlagern:
+           Unter Zwischenlagern ist das Lagern innerhalb des Baustellenbereiches zu verstehen. Es enthält somit auch
+           den Transport zum Zwischenlager und das sachgemäße Lagern.
+           Zwischenlager sind vorzuhalten und vor der Übernahme zu räumen.
+           Der Platz für die Zwischenlagerung wird, wenn nicht bereits in der Ausschreibung bestimmt, im Einvernehmen
+           mit dem Auftraggeber festgelegt.
+           4. Transport:
+           Das Transportieren erfolgt unter Berücksichtigung von etwaigen erforderlichen Genehmigungen und
+           Vorschriften.
+           5. Einkalkulierte Leistungen:
+           Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+           einkalkuliert:
+           - das Beseitigen von Einzelhindernissen mit einen Einzelausmaß bis 0,1 m3
+           - das Laden des Aushub- oder Abbruchmaterials
+           - ein etwaiges Zwischenlagern
+           - behördliche Vorschreibungen betreffend Schallschutz, Staubschutz (werden vom Auftragnehmer vor der
+           Angebotslegung erkundet)
+           - die Wiederinstandsetzung der vom Auftraggeber für die Zwischenlagerung von Abbruch- oder Aushubmaterial
+           beigestellten Flächen nach Beendigung der Bauarbeiten
+           - Gebühren und Abgaben (z. B. Altlastenbeitrag)
+           - Organisation (Förderart und Förderweg)
+           - das Trennen und Ausscheiden von Massen, die nicht, beschränkt, oder zur weiteren Verwertung verwendbar
+           sind
+           6. Ausmaß- und Abrechnungsregeln:
+           Preise gelten ohne Unterschied der Art der Ausführung (z.B. händisch oder maschinell).
+           6.1 Tiefenstufen:
+                                                                                                                   Seite 2 / 33
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                               EH
+
+            Ausschreibung und Abrechnung für das Aushubmaterial, Sicherungen und Gründungen erfolgen nach
+            lotrechten (vertikalen) Abschnitten und nicht nach einzelnen Schichten.
+            Leistungen werden von Null bis zur angegebenen Tiefe (Gesamttiefe) beschrieben.
+             Kommentar:
+             Hinweise des Bundesdenkmalamtes:
+             Bei Aushubarbeiten ist auf archäologische Hinterlassenschaften zu achten: dunkle Verfärbungen im Boden, die auf
+             ehemalige Siedlungsobjekte hinweisen, Gräber (Skelette, Brandgräber), Mauerzüge oder Fundamente wie auch Böden von
+             Vorgängerbauten, Bodenfunde wie Steinwerkzeuge, Tongefäße, Scherben, Glas, Metall und Architekturteile. Gemäß
+             Denkmalschutzgesetz stehen derartige Funde und Befunde unter Schutz, solange das Bundesdenkmalamt nicht auf Antrag
+             des Eigentümers das Gegenteil festgestellt hat. Solche Funde sind sofort, spätestens aber an dem der Auffindung folgenden
+             Tag der Bezirksverwaltungsbehörde, dem Bürgermeister oder der nächsten Dienststelle der Polizei zu melden.
+             Aushubmaterial als gefährlicher Abfall – Ausstufung vor Aushub:
+             Wenn Aushubmaterial als „gefährlicher Abfall“ vorliegt, wird dieser, sofern möglich, durch den Auftraggeber vor dem Aushub
+             ausgestuft, und somit als „nicht gefährlicher Abfall“ zu verwerten oder zu deponieren. Die Ausstufung hat durch eine externe,
+             befugte Fachperson oder Fachanstalt im Sinne der Abfallverzeichnisverordnung, BGBl. II Nr. 227/1997, idgF, zu erfolgen.
+             Die Ausstufung hat im festen Zustand zu erfolgen. Die Frist, in der der Aushub weiterhin als gefahrenrelevant gilt, beträgt 6
+             Wochen nach Einlangen der Ausstufungsbeurteilung beim Bundesministerium für Land- und Forstwirtschaft, Umwelt und
+             Wasserwirtschaft (BMLFUW). Der Auftraggeber übergibt die entsprechenden Unterlagen wie Ausstufungsbeurteilung (inkl.
+             Ergebnisse der Untersuchungen von gefahrenrelevanten Eigenschaften, chemische Analysen) dem Auftragnehmer.
+             Andernfalls ist das Aushubmaterial durch befugte Abfallsammler einer Entsorgung zuzuführen.
+             Gelände:
+             Oberboden ist die oberste Bodenschicht mit organischen Bestandteilen (> 2 M.-% Glühverlust cgl gemäß ÖNORM B 4424)
+             des angereicherten, oberen Mineralbodenbereichs. Im Landschaftsbau wird der Begriff Mutterboden dem Begriff Oberboden
+             gleichgesetzt.
+             Oberboden ausbreiten und z. B. Gelände modellieren sind in der LG 58 und LG 59 beschreiben.
+             Frei zu formulieren (z.B.):
+             - das Einebnen (Anschütten) von Oberboden (AKL-O)
+             - der Wiedereinbau von Oberboden (AKL-O)
+             - das Instandsetzen von Grünflächen
+             - Ausführungen bei mehr als 20 Prozent Gelände-Neigung
+             - das Abtragen oder Durchörten von Einzelhindernissen (Freilegen oder Lösen und Laden) mit einem Einzelausmaß über 0,1
+             bis 10 m3 mit Sprengarbeiten
+             - das Abtragen oder Durchörten von Einzelhindernissen (Freilegen oder Lösen und Laden) mit einem Einzelausmaß über 10
+             m3, mit oder ohne Sprengarbeiten
+             - schwere Pölzungen (z.B. bei Feuermauern)
+             - Brunnengründungen
+             - Boden -und Wasseruntersuchungen
+             - Bodenaufschlussarbeiten
+             - Probebohrungen für Baugrunduntersuchungen
+             - Tiefenrüttelverfahren
+             - Angaben (wählbare Vorbemerkungen) und Positionen gemäß Werkvertragsnorm und der ÖNORM B 2110, in Ergänzung
+             zur standardisierten Leistungsbeschreibung
+             Literaturhinweis (z.B.):
+             - ÖNORM B 2279 Spezialtiefbauarbeiten - Aufschluss-, Brunnen- und Grundbauarbeiten - Werkvertragsnorm
+             - ÖNORM EN 1536 Ausführung von besonderen geotechnischen Arbeiten (Spezialtiefbau) - Bohrpfähle
+             - ÖNORM EN 12699 Ausführung spezieller geotechnischer Arbeiten (Spezialtiefbau) - Verdrängungspfähle
+             - ÖNORM EN 1538 Ausführung von besonderen geotechnischen Arbeiten (Spezialtiefbau) - Schlitzwände
+             - ÖNORM EN 1537 Ausführung von besonderen geotechnischen Arbeiten (Spezialtiefbau) - Verpressanker
+             - ÖNORM EN 12715 Ausführung von besonderen geotechnischen Arbeiten (Spezialtiefbau) - Injektionen
+             - ÖNORM EN 12716 Ausführung von besonderen geotechnischen Arbeiten (Spezialtiefbau) - Düsenstrahlverfahren
+             (Hochdruckinjektion, Hochdruckbodenvermörtelung, Jetting)
+             - ÖNORM EN 14679 Ausführung von besonderen geotechnischen Arbeiten (Spezialtiefbau) - Tiefreichende
+             Bodenstabilisierung
+             - ÖNORM EN 14731 Ausführung von besonderen geotechnischen Arbeiten (Spezialtiefbau) - Baugrundverbesserung durch
+             Tiefenrüttelverfahren
+             - ÖNORM EN 12063 Ausführung von besonderen geotechnischen Arbeiten (Spezialtiefbau) - Spundwandkonstruktionen
+
+            LB-Version: 23                 Geändert
+Änderung:   Geänderte Positionen:
+            03.61 11A Ummanteln Filtergeotextil Grube
+            03.61 11B Ummanteln Filtergeotextil erh. Anford. Grube
+            Neue Positionen:
+            03.61 11C Abdecken Matten Grube
+            03.81 11A Aushub Lockerboden (AKL) Arbeitsraum 0-1,25m
+            03.81 11B Aushub Lockerboden (AKL) Arbeitsraum 0-3m
+            03.81 11C Aushub Lockerboden (AKL) Arbeitsraum 0-5m
+            03.81 11X Aushub Lockerboden (AKL) Arbeitsraum 0-__________
+
+03.00       Wählbare Vorbemerkungen
+            LB-Version: 23                 Geringfügig Geändert
+
+                                                                                                                               Seite 3 / 33
+                                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+03.00 11    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise Positionen einkalkuliert:
+
+03.00 11A   Grundlegende Charakterisierung AG
+            Der Auftraggeber (AG) stellt dem Auftragnehmer die erforderlichen grundlegenden Charakterisierungen und die
+            Abfallinformation (z.B. Abbruch, Aushubmaterial, Abfall) im Sinne der Deponieverordnung einschließlich der
+            Zuordnung zu einer Deponieklasse auf Grund chemischer Analysen zur Verfügung,
+
+03.00 11B   Zuordnung Aushubmaterial AG
+            Der Auftraggeber (AG) stellt dem Auftragnehmer Prüfberichte einschließlich der chemischen Analyse für das
+            Aushubmaterial, sowie der Zuordnung zu den Einbauklassen zur Verfügung.
+            LB-Version: 23              Geringfügig Geändert
+03.00 21    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+03.00 21A   Mutterboden (AKL-M) Eigentum AG
+            Auf der Baustelle nicht benötigter abgehobener Mutterboden (AKL-M) bleibt im Eigentum des Auftraggebers.
+            Etwaige Zwischenlagerung oder Abtransport auf Anordnung des Auftraggebers werden gesondert vergütet
+            (eigene Positionen).
+
+03.00 21B   Oberboden (AKL-O) Eigentum AG
+            Auf der Baustelle nicht benötigter abgehobener Oberboden (AKL-O) bleibt im Eigentum des Auftraggebers.
+            Etwaige Zwischenlagerung oder Abtransport auf Anordnung des Auftraggebers werden gesondert vergütet
+            (eigene Positionen).
+
+03.01       Baureifmachen, Freimachen von Bewuchs
+
+
+            1. Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            2. Ausmaß- und Abrechnungsregeln:
+            Der Umfang von Bäumen, Baumstümpfen und Wurzelstöcken wird ca. 1 m über dem Erdboden gemessen.
+
+03.01 01    Säubern der Fläche von ungefährlichen Abfällen (z.B. Bauschutt, Kunststoffen, Holz- oder Metallteilen),
+            einschließlich Entsorgen.
+
+03.01 01A   Fläche säubern+Abfälle entsorgen pauschal                                                                     PA
+            Größe der Fläche: ____________
+
+03.01 01B   Fläche säubern+Abfälle entsorgen                                                                              m²
+03.01 02    Freimachen von Bewuchs (z.B. Hecken, Sträucher, Stauden) bis 30 cm Stammumfang einschließlich Entfernen
+            der Wurzelstöcke und Entsorgen.
+
+03.01 02A   Freimachen von Bewuchs b.30cm pauschal                                                                        PA
+            Größe der Fläche: ____________
+
+03.01 02B   Freimachen von Bewuchs b.30cm                                                                                 m²
+03.01 03    Schutzmaßnahmen für Baumstämme, einschließlich Entfernen und Entsorgen des Schutzes nach Aufforderung
+            durch den Auftraggeber.
+
+03.01 03A   Schutz Baumstamm                                                                                              Stk
+            Baumstamm mit elastischem Material (z.B. alten Autoreifen) ummanteln und darüber eine Bretterschalung bis
+            1,8 m Höhe anbringen. Die Schalung liegt weder an der Rinde noch an freiliegenden Wurzeln an.
+03.01 04    Schutzzaun bis 1,8 m Höhe, zum Sichern von Bäumen und deren Wurzelstöcke oder von Pflanzenbeständen,
+            einschließlich Entfernen und Entsorgen des Schutzzaunes nach Aufforderung durch den Auftraggeber.
+
+03.01 04A   Schutzzaun m.Sparschalung                                                                                     m
+            Bestehend aus Stehern, mindestens 8 x 8 cm, im Abstand von höchstens 2 m in den Boden geschlagen und
+            einer Sparschalung.
+
+                                                                                                                     Seite 4 / 33
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+03.01 04B   Schutzzaun m.Drahtgeflecht                                                                                          m
+            Bestehend aus Stehern, mindestens 8 x 8 cm, im Abstand von höchstens 2 m in den Boden geschlagen,
+            überspannt mit einem Drahtgeflecht mit einer Maschenweite bis 5 x 5 cm, einschließlich Abstützungen in den
+            Ecken.
+             Kommentar:
+             Der Zaun soll den gesamten Wurzelbereich umschließen. Als Wurzelbereich gilt die Bodenfläche unter der Krone von
+             Bäumen (Kronentraufe) zuzüglich 1,5 m, bei Säulenform zuzüglich 5 m nach allen Seiten.
+
+03.01 04C   Az Schutzzaun+Plane                                                                                                 m
+            Aufzahlung (Az) auf Schutzzäune für eine wasserbeständige und winddichte Plane.
+
+03.01 11    Bäume fällen (in einem Arbeitsgang umschneiden), Baumstümpfe und Wurzelstöcke bis mindestens 0,5 m unter
+            dem Geländeniveau entfernen, einschließlich Entsorgen. Im Positionsstichwort ist der Umfang angegeben.
+
+03.01 11A   Fällen+Wurzelstock entfernen ü.30-100cm                                                                             Stk
+
+03.01 11B   Fällen+Wurzelstock entfernen ü.100-150cm                                                                            Stk
+
+03.01 11C   Fällen+Wurzelstock entfernen ü.150-200cm                                                                            Stk
+
+03.01 11X   Fällen+Wurzelstock entfernen ü.200cm:__________                                                                     Stk
+03.01 12    Bäume fällen (in einem Arbeitsgang umschneiden) und entsorgen. Baumstümpfe und Wurzelstöcke bleiben. Im
+            Positionsstichwort ist der Umfang angegeben.
+
+03.01 12A   Fällen Umfang ü.30-100cm                                                                                            Stk
+
+03.01 12B   Fällen Umfang ü.100-150cm                                                                                           Stk
+
+03.01 12C   Fällen Umfang ü.150-200cm                                                                                           Stk
+
+03.01 12X   Fällen Umfang ü.200cm:__________                                                                                    Stk
+03.01 13    Baumstümpfe und Wurzelstöcke entfernen und entsorgen. Wurzelstöcke und Baumstümpfe werden bis
+            mindestens 0,5 m unter dem Geländeniveau entfernt. Im Positionsstichwort ist der Umfang angegeben.
+
+03.01 13A   Baumstumpf entfernen ü.30-100cm                                                                                     Stk
+
+03.01 13B   Baumstumpf entfernen ü.100-150cm                                                                                    Stk
+
+03.01 13C   Baumstumpf entfernen ü.150-200cm                                                                                    Stk
+
+03.01 13X   Baumstumpf entfernen ü.200cm:__________                                                                             Stk
+03.01 19    Gras mähen und Schnittgut entsorgen.
+
+03.01 19A   Gras mähen                                                                                                          m²
+03.02       Aushub Baugrube (Grube)
+
+
+            1. Einkalkulierte Leistungen:
+            Im Folgenden sind Gruben im Freien beschrieben.
+            1.1 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - das Abtragen von Holzeinlagen (z.B. Holzstammeinlagen) bis 30 cm Umfang
+            - das Herstellen des Grobplanums (+/-10 cm)
+            2. Ausmaß- und Abrechnungsregeln:
+            Der Aushub wird in lotrechten (vertikalen) Abschnitten ab vorhandener Geländeoberfläche (z.B. nach Abheben
+            des Oberbodens oder nach dem Abbrechen einer gebundenen Tragschicht) bis zur Sohle des Aushubes
+            gemessen.
+            Arbeitsräume (Abböschen/Böschungswinkel) werden spätestens vor Beginn der Arbeiten unter Einhaltung der
+            Bauarbeiterschutzverordnung mit dem Auftraggeber einvernehmlich festgelegt.
+             Kommentar:
+             Aushub:
+
+                                                                                                                           Seite 5 / 33
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+             Aushub Grube, Aushub Fundamente (z.B. auch Köcherfundamente für Fertigteil-Fundamente mit Breiten über 3 m) und
+             Aushub Gräben für Leitungen und Schächte sind in unterschiedlichen Leistungsgruppen/Unterleistungsgruppen beschrieben.
+             Frei zu formulieren (z.B.):
+             - Blitzschutz (oder mit Positionen der StLB-HT auszuschreiben)
+             - Erschwernisse bei gefrorenem Boden
+03.02 01    Mutterboden (AKL-M).
+
+03.02 01A   Mutterboden (AKL-M) ohne Grasnarbe                                                                                 m³
+            Ohne Grasnarbe, abtragen oder abschieben und im Baustellenbereich zwischenlagern.
+            Abgerechnet wird das angegebene Raummaß (m3).
+            Schichtdicke:____________cm
+
+03.02 01B   Mutterboden (AKL-M) ohne Grasnarbe b.30cm                                                                          m²
+            Ohne Grasnarbe bis zu 30 cm Schichtdicke abtragen oder abschieben und im Baustellenbereich
+            zwischenlagern.
+            Abgerechnet wird die abgetragene Fläche.
+
+03.02 01C   Mutterboden (AKL-M) mit Grasnarbe b.30cm                                                                           m²
+            Mit Grasnarbe bis zu 30 cm Schichtdicke abtragen oder abschieben und im Baustellenbereich zwischenlagern.
+            Abgerechnet wird die abgetragene Fläche.
+03.02 02    Oberboden (AKL-O).
+
+03.02 02A   Oberboden (AKL-O)                                                                                                  m³
+            Abtragen oder abschieben und im Baustellenbereich zwischenlagern.
+            Abgerechnet wird das abgetragene Raummaß (m3).
+            Schichtdicke: ____________cm
+
+03.02 02B   Oberboden (AKL-O) b.30cm                                                                                           m²
+            Bis zu 30 cm Schichtdicke abtragen oder abschieben und im Baustellenbereich zwischenlagern.
+            Abgerechnet wird die abgetragene Fläche (m2).
+
+03.02 05    Als Baugrund ungeeigneten Boden abtragen.
+
+03.02 05A   Schöpfboden (AKL-S) abtragen                                                                                       m³
+            Wasserhaltender oder fließender Boden (Schöpfboden AKL-S).
+
+03.02 10    Aushub Lockerboden (AKL) von Gruben.
+            Im Positionsstichwort ist die Tiefe des lotrechten Abschnittes angegeben.
+
+03.02 10A   Aushub Lockerboden (AKL) Grube 0-1,25m                                                                             m³
+
+03.02 10B   Aushub Lockerboden (AKL) Grube 0-3m                                                                                m³
+
+03.02 10C   Aushub Lockerboden (AKL) Grube 0-5m                                                                                m³
+
+03.02 10X   Aushub Lockerboden (AKL) Grube 0-__________                                                                        m³
+03.02 12    Aufzahlung (Az) auf Aushub Lockerboden (AKL) bei Gruben für Erschwernisse beim Abtragen oder Durchörtern
+            von Einzelhindernissen (Freilegen, Lösen und Laden) mit einem Einzelausmaß über 0,1 bis 10 m3, ohne
+            Sprengmöglichkeit, einschließlich Zerkleinern auf das zum Fördern erforderliche Maß.
+
+03.02 12A   Az Aushub Grube brüchiger Fels (AKBF) ü.0,1-10m3                                                                   m³
+            Bei brüchigem Fels (AKBF).
+
+03.02 12B   Az Aushub Grube fester Fels (AKF) ü.0,1-10m3                                                                       m³
+            Bei festem Fels (AKF).
+
+03.02 13    Aufzahlung (Az) auf Aushub Lockerboden (AKL) bei Gruben für Erschwernisse.
+
+03.02 13A   Az Aushub Grube klebriger Boden (AKL-K)                                                                            m³
+
+                                                                                                                          Seite 6 / 33
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+            Bei klebrigem Boden (AKL-K).
+
+03.02 13B   Az Aushub Grube unter Wasser                                                                                         m³
+            Bei Böden unterhalb des natürlichen oder unterhalb eines durch Wasserhaltung abgesenkten
+            Grundwasserspiegels.
+03.02 14    Aufzahlung (Az) auf Aushub Lockerboden (AKL) bei Gruben für Erschwernisse beim Abtragen oder Durchörtern
+            von Einzelhindernissen (Freilegen, Lösen und Laden) mit einem Einzelausmaß über 0,1 bis 10 m3, ohne
+            Sprengmöglichkeit, einschließlich Zerkleinern auf das zum Fördern erforderliche Maß.
+
+03.02 14A   Az Aushub Grube Steinmwk.ü.0,1-10m3                                                                                  m³
+            Aus Natur- und Mischmauerwerk (Steinmwk.).
+
+03.02 14B   Az Aushub Grube Ziegelmwk.ü.0,1-10m3                                                                                 m³
+            Aus Ziegelmauerwerk (Ziegelmwk.).
+
+03.02 14C   Az Aushub Grube Beton ü.0,1-10m3                                                                                     m³
+            Ohne Unterschied ob bewehrter oder unbewehrter Beton.
+
+03.02 14D   Az Aushub Grube Holzeinlagen ü.0,1-10m3                                                                              m³
+            Beim Abtragen von Holzeinlagen (z.B. Holzstammeinlagen mit einem Umfang über 30 cm oder Holzeinbauten
+            (z.B. Pfahlköpfe)).
+            Abgerechnet wird das Raummaß des Holzes (m3).
+
+03.02 15    Aufzahlung (Az) auf Aushub Lockerboden (AKL) bei Gruben für Erschwernisse bei Leitungsquerungen im
+            Grubenprofil, ohne Unterschied der Höhenlage, einschließlich Sichern und Schützen.
+
+03.02 15A   Az Aushub Grube Leitungsquerung b.0,5m                                                                               m
+            Bei Leitungen oder Leitungstrassen bis 0,5 m breit.
+            Höhenlage der Leitung über Baugrubensohle: ____________
+            Leitungsart: ____________
+
+03.02 15B   Az Aushub Grube Leitungsquerung ü.0,5-1m                                                                             m
+            Bei Leitungen oder Leitungstrassen über 0,5 bis 1 m breit.
+            Höhenlage der Leitung über Baugrubensohle: ____________
+            Leitungsart: ____________
+
+03.02 21    Feinplanum (+/- 3 cm) nach fertigem Grobplanum ohne Materialbeigabe herstellen.
+
+03.02 21A   Feinplanum Baugrube                                                                                                  m²
+            Von Baugrubensohlen und sonstigen Flächen.
+
+03.02 30    Aushub schuttgefüllter Räume im Altbestand.
+             Kommentar:
+             Diese Position gilt nicht für sonstigen Schutt im Aushubmaterial und ist ausschließlich unter der Voraussetzung
+             auszuschreiben, dass sogenannte schuttgefüllte Räume nach einem Gebäudeabbruch durch das Einschlagen von
+             Kellerdecken entstanden sind.
+
+03.02 30A   Aushub schuttgefüllter Räume                                                                                         m³
+03.03       Aushub Fundamente
+
+
+            1. Aushub von Fundamenten (Streifen-, Einzelfundamente und etwaige Frostschürzen):
+            Beim Fundamentaushub (Aushub Fundament) wird der letzte Arbeitsgang unmittelbar vor einer etwaigen
+            Sauberkeitsschicht oder vor dem Fundamentbeton (eigene Positionen) entsprechend den Bodenverhältnissen
+            so durchgeführt, dass die geplante (geforderte) Genauigkeit der Aushubsohle erzielt wird.
+            2. Einkalkulierte Leistungen:
+            Im Folgenden sind Fundamente im Freien beschrieben.
+            2.1 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - das Abtragen von Holzeinlagen (z.B. Holzstammeinlagen) bis 30 cm Umfang
+            - das Herstellen des Grobplanums (+/-10 cm)
+            - Schalungen bei Gründungsarbeiten, die infolge nicht plangemäßen Aushubs erforderlich sind
+                                                                                                                            Seite 7 / 33
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                               EH
+
+            3. Ausmaß- und Abrechnungsregeln:
+            Der Aushub wird in lotrechten (vertikalen) Abschnitten ab vorhandener Geländeoberfläche (z.B. nach Abheben
+            des Oberbodens oder nach dem Abbrechen einer gebundenen Tragschicht) oder ab der Grubensohle bis zur
+            Sohle des Aushubes gemessen.
+             Kommentar:
+             Das Hinterfüllen von Fundamenten ist frei zu formulieren.
+             Aushub:
+             Aushub Fundamente (z.B. auch Köcherfundamente für Fertigteil-Fundamente mit Breiten über 3 m), Aushub Grube und
+             Aushub Gräben für Leitungen und Schächte sind in unterschiedlichen Leistungsgruppen/Unterleistungsgruppen beschrieben.
+             Blitzschutz:
+             Blitzschutz ist bei Bedarf frei zu formulieren oder mit Positionen der StLB-HT auszuschreiben.
+
+03.03 10    Aushub Lockerboden (AKL) bei Streifen-, Einzelfundamenten und etwaiger Frostschürzen (Fundament).
+            Im Positionsstichwort ist die Tiefe des lotrechten Abschnittes angegeben.
+
+03.03 10A   Aushub Lockerboden (AKL) Fundament 0-1,25m                                                                               m³
+
+03.03 10B   Aushub Lockerboden (AKL) Fundament 0-3m                                                                                  m³
+03.03 11    Aushub Lockerboden (AKL) bei Unterfangungen, abschnittsweise, unterhalb von bestehenden Fundamenten.
+            Abgerechnet wird das Raummaß des neuen Unterfangungsfundamentes, gemessen ab Unterkante des
+            bestehenden Fundamentes.
+            Im Positionsstichwort ist die Tiefe des lotrechten Abschnittes angegeben.
+             Kommentar:
+             Unterfangungen bei Gruben oder geböschte Arbeitsräume sind in eigenen Positionen beschrieben (siehe Instandsetzung).
+
+03.03 11A   Aushub Lockerboden (AKL) Unterfangungen 0-1,25m                                                                          m³
+
+03.03 11B   Aushub Lockerboden (AKL) Unterfangungen 0-3m                                                                             m³
+03.03 12    Aufzahlung (Az) auf Aushub Lockerboden (AKL) bei Fundamenten und Unterfangungen (Fund.) für
+            Erschwernisse beim Abtragen oder Durchörtern von Einzelhindernissen (Freilegen, Lösen und Laden) mit einem
+            Einzelausmaß über 0,1 bis 10 m3, ohne Sprengmöglichkeit, einschließlich Zerkleinern auf das zum Fördern
+            erforderliche Maß.
+
+03.03 12A   Az Aushub Fund.brüchiger Fels (AKBF) ü.0,1-10m3                                                                          m³
+            Bei brüchigem Fels (AKBF).
+
+03.03 12B   Az Aushub Fund.fester Fels (AKF) ü.0,1-10m3                                                                              m³
+            Bei festem Fels (AKF).
+
+03.03 13    Aufzahlung (Az) auf Aushub Lockerboden (AKL) bei Fundamenten und Unterfangungen (Fund.) für
+            Erschwernisse.
+
+03.03 13A   Az Aushub Fund.klebriger Boden (AKL-K)                                                                                   m³
+            Bei klebrigem Boden (AKL-K).
+
+03.03 13B   Az Aushub Fund.f.unter Wasser                                                                                            m³
+            Bei Böden unterhalb des natürlichen oder unterhalb eines durch Wasserhaltung abgesenkten
+            Grundwasserspiegels.
+03.03 14    Aufzahlung (Az) auf Aushub Lockerboden (AKL) bei Fundamenten und Unterfangungen (Fund.) für
+            Erschwernisse beim Abtragen oder Durchörtern von Einzelhindernissen (Freilegen, Lösen und Laden) mit einem
+            Einzelausmaß über 0,1 bis 10 m3, ohne Sprengmöglichkeit, einschließlich Zerkleinern auf das zum Fördern
+            erforderliche Maß.
+
+03.03 14A   Az Aushub Fund.Steinmwk.ü.0,1-10m3                                                                                       m³
+            Aus Natur- und Mischmauerwerk (Steinmwk.).
+
+03.03 14B   Az Aushub Fund.Ziegelmwk.ü.0,1-10m3                                                                                      m³
+            Aus Ziegelmauerwerk (Ziegelmwk.).
+
+03.03 14C   Az Aushub Fund.Beton ü.0,1-10m3                                                                                          m³
+            Ohne Unterschied ob bewehrt oder unbewehrter Beton.
+
+                                                                                                                                Seite 8 / 33
+                                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+03.03 14D   Az Aushub Fund.f.Holzeinlagen ü.0,1-10m3                                                                      m³
+            Beim Abtragen von Holzeinlagen (z.B. Holzstammeinlagen mit einem Umfang über 30 cm oder Holzeinbauten
+            (z.B. Pfahlköpfe)).
+            Abgerechnet wird das Raummaß des Holzes (m3).
+
+03.03 15    Aufzahlung (Az) auf Aushub Lockerboden (AKL) bei Fundamenten und Unterfangungen (Fund.) für
+            Erschwernisse bei Leitungsquerungen (Leitungsquer.), ohne Unterschied der Höhenlage und der Länge,
+            einschließlich Sichern und Schützen.
+
+03.03 15A   Az Aushub Fund.Leitungsquerung b.0,5m                                                                         Stk
+            Bei Leitungen oder Leitungstrassen bis 0,5 m breit.
+            Höhenlage der Leitung über Baugrubensohle: ____________
+            Leitungsart: ____________
+
+03.03 15B   Az Aushub Fund.Leitungsquerung ü.0,5-1m                                                                       Stk
+            Bei Leitungen oder Leitungstrassen über 0,5 bis 1 m breit.
+            Höhenlage der Leitung über Baugrubensohle: ____________
+            Leitungsart: ____________
+
+03.03 21    Feinplanum (+/- 3 cm) nach fertigem Grobplanum ohne Materialbeigabe herstellen.
+
+03.03 21A   Feinplanum Fundamente                                                                                         m²
+            Bei Fundamenten.
+
+03.04       Bodenaustausch
+
+
+            Bei Abweichungen der Lage und Dicke der ungeeigneten Bodenschichten von den Planmaßen wird das
+            Einvernehmen mit dem Auftraggeber hergestellt und vor Leistungserbringung werden etwaige Änderungen
+            festgelegt.
+
+03.04 01    Bodenaustausch mit verdichtungsfähigem Material. In bereits ausgehobene flächige Bereiche wird
+            verdichtungsfähiges korngestuftes Material (Rund- oder Kantkörnungen) in Lagen von höchstens 50 cm Dicke
+            eingebracht, in der Längsneigung planiert und verdichtet. Im Positionsstichwort ist der Wert der zu erreichenden
+            Bodenpressung angegeben.
+
+03.04 01A   Bodenaustausch 250kN/m2                                                                                       m³
+
+03.04 01B   Bodenaustausch 300kN/m2                                                                                       m³
+
+03.04 01X   Bodenaustausch__________                                                                                      m³
+03.05       Sichern mit Spritzbeton
+
+
+            Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - eine etwa erforderliche Säuberung des Untergrundes mit Pressluft (nicht mit Wasser)
+
+03.05 01    Spritzbeton C16/20 als Sicherung (z.B. Absicherung von Lockergestein oder brüchigem Fels) beim Aushub von
+            Baugruben ohne Unterschied, ob ein- oder mehrlagig eingebaut, einschließlich aller Erschwernisse für
+            abschnittsweise Ausführung (Bewehrung in eigenen Position). Abgerechnet wird das Flächenmaß. Im
+            Positionsstichwort ist die Schichtdicke angegeben.
+
+03.05 01A   Spritzbeton ü.5-7cm                                                                                           m²
+            Ohne statische Anforderung.
+
+03.05 01B   Spritzbeton ü.7-9cm                                                                                           m²
+
+03.05 01C   Spritzbeton ü.9-11cm                                                                                          m²
+
+03.05 01D   Spritzbeton ü.11-13cm                                                                                         m²
+
+03.05 01E   Spritzbeton ü.13-15cm                                                                                         m²
+
+                                                                                                                     Seite 9 / 33
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+03.05 01X   Spritzbeton ü.15cm:__________                                                                                m²
+03.05 02    Baustahlgitter, dem statischen Erfordernis entsprechend, einschließlich etwaiger Befestigungen (z.B. Haken), im
+            Spritzbeton einbauen. Abgerechnet wird das Flächenmaß der abgedeckten Fläche, ohne Zuschlag für
+            Verschnitt und Überdeckungen im Stoßbereich.
+
+03.05 02A   Bewehrung Spritzbeton M 550                                                                                  m²
+            Mit Bewehrungsmatten der Gruppe M 550.
+
+03.05 03    Entspannungsrohre für Sicherungen mit Spritzbeton.
+
+03.05 03A   Spritzbeton Entspannungsrohr                                                                                 Stk
+            Betrifft Position(en): ____________
+            Durchmesser: ____________
+            Material: ____________
+            Einbauart: ____________
+
+03.06       Sicherungsmaßnahmen
+
+
+            1. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - der Einbau, das Vorhalten und der Abbau der Erdsicherungen sowie erforderliche Aussteifungen und
+            Verankerungen
+            2. Ausmaß- und Abrechnungsregeln:
+            Ausschreibung und Abrechnung erfolgen nach lotrechten (vertikalen) Abschnitten. Leistungen sind von Null bis
+            zur angegebenen Tiefe (Gesamttiefe) beschrieben.
+
+03.06 01    Sichern von Gruben. Abgerechnet wird das Flächenmaß der gestützten Seitenflächen von Gruben.
+
+03.06 01A   Sichern Grube Pfosten                                                                                        m²
+            Durch Pölzen mit nicht geschlossener, waagrechter Pfostenlage.
+
+03.06 01B   Sichern Grube Pfosten geschlossen                                                                            m²
+            Durch Pölzen mit geschlossener, waagrechter Pfostenlage.
+
+03.06 01C   Sichern Grube Pfosten Getriebepölzung                                                                        m²
+            Durch Getriebepölzung mit stehender Pfostenlage.
+
+03.06 02    Ausführungsbedingt im Baugrund verbleibendes (verlorenes) Pölzungsmaterial. Abgerechnet wird die
+            Ansichtsfläche der Pölzung.
+
+03.06 02A   Verbleibendes Pölzungsmaterial Grube                                                                         m²
+03.06 03    Schutz von Baugruben (Gruben)-Böschungen mit einer armierten Baufolie. Die Folie wird mindestens 1 m über
+            die Böschungskrone gezogen und durchgehend verankert, mit Überlappungen von mindestens 25 cm. Der
+            Böschungsfuß ist genagelt. Abgerechnet wird das Flächenmaß der abgedeckten Fläche ohne Überlappungen.
+
+03.06 03A   Schutz der Gruben-Böschung m.Folie                                                                           m²
+03.06 11    Sicherung der Erdwände (Pölzen) mit Holzverbau, bei abschnittsweisem Aushub für die Unterfangung von
+            Fundamenten. Abgerechnet wird das Flächenmaß der gepölzten Fläche. Im Positionsstichwort ist die Tiefe des
+            lotrechten Abschnittes angegeben.
+
+03.06 11A   Abschnittsw.Unterfangung pölzen 0-3m                                                                         m²
+
+03.06 11X   Abschnittsw.Unterfangung pölzen 0-__________                                                                 m²
+03.11       Schlitzwände
+
+
+            1. Ansatzebene:
+            Als Ansatzebene, ab welchem die Baggerung durchgeführt wird, gilt die Oberkante der Leitwände.
+            2. Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+                                                                                                                   Seite 10 / 33
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+
+            oder Entsorgen der Baurestmassen zu verstehen.
+            3. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            3.1 Technischer Bericht des Auftragnehmers:
+            Der Auftragnehmer legt dem Auftraggeber vor Beginn der Arbeiten einen technischen Bericht über die
+            Technologie der gegenständlichen Maßnahmen vor. Ist dies nicht der Fall, kann der Auftraggeber vom Auftrag
+            zurücktreten. Der technische Bericht umfasst folgende Angaben:
+            - Art und Technologie
+            - zeitlicher Abfolge (Reihenfolge) der Arbeiten
+            - Sicherstellung der Kontrolle von Lage- und Richtungsgenauigkeit
+            - Maßnahmen zur Verhinderung von Hebungen oder Setzungen (z.B. durch Entlastungsbohrungen)
+            3.2 Protokoll:
+            Für jede Schlitzwand legt der Auftragnehmer ein Protokollblatt mit folgenden Angaben an:
+            - Nummer gemäß Lageplan
+            - Beginn und Ende des Vorganges
+            - Länge von durchörterten Materialien (z.B. Mauerwerk)
+            - besondere Vorkommnisse mit Datum und Uhrzeit
+            3.3 Leerbaggerung:
+            Als Leerbaggerung gilt die Strecke von der Ansatzebene bis zur Unterkante jenes Bauteiles, in welchen die
+            Schlitzwand eingebunden wird. Allenfalls erforderliche Leerbaggerungen sind in die Einheitspreise einkalkuliert.
+            Das Verfüllen und Befahrbarmachen von Leerschlitzungen nach Fertigstellung der Schlitzwand ist in die
+            Einheitspreise einkalkuliert.
+            3.4 Überbeton:
+            Bei Ortbeton wird so hoch betoniert, dass nach Entfernen der obersten verunreinigten und nicht genügend
+            verfestigten Betonschicht in der projektgemäßen Höhenlage der volle Betonquerschnitt in der erforderlichen
+            Güte (projektgemäße Auflager) vorhanden ist.
+            Die Kosten für das Entfernen von Betonschichten, bevor die volle Härte erreicht ist, und für das Freilegen der
+            Bewehrung zum Einbinden derselben in nachfolgende Bauteile sind in die Einheitspreise einkalkuliert.
+            3.5 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - das Führen eines Protokolls mit laufenden geologischen Überprüfungen
+            - ein technischer Bericht
+            - das Anschütten, Ausbreiten und Einebnen des wiederverwendbaren Aushubmaterials im Bereich der Baustelle
+            - außerhalb der Toleranzgrenzen liegende, freigelegte Flächen werden im projektgemäß erforderlichen Ausmaß
+            abgestemmt, soweit dies der Auftragnehmer zu vertreten hat
+            - Schalungen bei Gründungsarbeiten, die infolge nicht plangemäßen Aushubs erforderlich sind
+            - das Entsorgen von Aushubmaterial und Baurestmassen (z.B. Suspension)
+            4. Ausmaß- und Abrechnungsregeln:
+            Ausschreibung und Abrechnung erfolgen nach lotrechten (vertikalen) Abschnitten. Leistungen sind von Null bis
+            zur angegebenen Tiefe (Gesamttiefe) beschrieben.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Erschwernisse beim Durchörtern von Hindernissen bei Schlitzwänden (z.B. Mauerwerk, Holz, Beton)
+
+            LB-Version: 23                 Geringfügig Geändert
+03.11 01    Besondere Baustelleneinrichtungen (Bes.Baustelleneinr.) für Schlitzwände (z.B. Arbeitspodeste oder
+            Arbeitsbühnen, Einhausungen und Schutzgerüste) entsprechend dem Baustelleneinrichtungsplan des
+            Auftragnehmers. Der Auftragnehmer übergibt dem Auftraggeber den Baustelleneinrichtungsplan 14 Tage nach
+            Auftragserteilung.
+
+03.11 01A   Bes.Baustelleneinr. Schlitzwand herstellen                                                                          PA
+            Herstellen und Instandhalten.
+
+            LB-Version: 23                 Geringfügig Geändert
+
+03.11 01B   Bes.Baustelleneinr.Schlitzwand räumen                                                                               PA
+            Räumen und den Zustand vor dem Herstellen des Arbeitsplanums wieder herstellen, einschließlich Entsorgen
+            des überschüssigen Aushub (Schüttungs)-Materials.
+03.11 02    Arbeitsplanum für Schlitzwände.
+
+
+                                                                                                                          Seite 11 / 33
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+03.11 02A   Arbeitsplanum Schlitzwand                                                                                       PA
+            Etwaige Unterschiede zwischen der Höhenlage der Ansatzpunkte und der Arbeitsebene: ____________
+            Untergrundverhältnisse der Arbeitsebene: ____________
+03.11 03    Geräte und Maschinen für Schlitzwände vorbereiten, an- und abtransportieren, auf- und abbauen sowie
+            beistellen (vorhalten) in erforderlicher Anzahl und Art, einschließlich Umstellen im Bereich der Baustelle oder
+            eines Baustellenabschnittes.
+
+03.11 03A   Gerät u.Maschinen Schlitzwand                                                                                   PA
+            Einschränkung der Geräteauswahl: ____________
+
+03.11 04    Stillliegezeiten von Geräten und Maschinen für Schlitzwände, die der Auftraggeber zu vertreten hat.
+
+03.11 04A   Stillliegezeit Gerät Schlitzwand                                                                                d
+            Ohne Bedienungsmannschaft bei einer ununterbrochenen Stillliegezeitdauer über zwei Arbeitstage. Der
+            Auftragnehmer wird mindestens 1 Woche vor Eintreten der Stillliegezeit darüber in Kenntnis gesetzt.
+            Abgerechnet wird in Arbeitstagen.
+
+03.11 04B   Stillliegezeit Gerät+Bed.Schlitzwand                                                                            h
+            Mit Bedienungsmannschaft bei einer ununterbrochenen Stillliegezeitdauer bis zu zwei Arbeitstagen (Montag bis
+            Freitag). Abgerechnet wird in Arbeitsstunden, bei ganzen Tagen der durchschnittliche Arbeitsstundeneinsatz je
+            Tag in der letzten Lohnwoche, höchstens aber 10 Arbeitsstunden.
+
+03.11 11    Vorschachtungen und Suchschlitze bei Schlitzwänden, einschließlich Entsorgen der Baurestmassen.
+
+03.11 11A   Vorschachtungen Schlitzwand                                                                                     PA
+            Angaben (z.B. Anzahl): ____________
+            Abmessungen Vorschachtungen: ____________
+
+03.11 11B   Suchschlitze Schlitzwand                                                                                        PA
+            Angaben (z.B. Anzahl): ____________
+            Abmessungen Suchschlitze: ____________
+03.11 21    Für die Errichtung von Schlitzwänden erforderliche Leitwände einschließlich Schalung, Beton, Bewehrung und
+            etwaiger Aussteifungen, entsprechend den Bodenverhältnissen, ohne Unterschied der Abmessung,
+            einschließlich Aushub und Entsorgen des Aushubmaterials. Abgerechnet wird das Längenmaß der Schlitzwand,
+            gemessen in der Achse.
+
+03.11 21A   Leitwand f.Schlitzwand                                                                                          m
+03.11 22    Leitwände einschließlich Schalung, Beton, Bewehrung und etwaiger Aussteifungen, ohne Unterschied der
+            Dimension, abbrechen und entsorgen (etwaige Hinterfüllungen entsorgen in eigener Position). Abgerechnet wird
+            das Längenmaß der Schlitzwand, gemessen in der Achse.
+
+03.11 22A   Leitwand f.Schlitzwand abbrechen+entsorgen                                                                      m
+03.11 31    Aushub für Schlitzwände, einschließlich Beistellung oder Ergänzung der thixotropen Stützflüssigkeit
+            (Suspension) und Reinigen der Anschlüsse vor dem Betonieren. Im Positionsstichwort ist die Tiefe des
+            lotrechten Abschnittes angegeben.
+
+03.11 31A   Schlitzwand 0-10m                                                                                               m²
+            Dicke: ____________
+
+03.11 31B   Schlitzwand 0-20m                                                                                               m²
+            Dicke: ____________
+
+03.11 31C   Schlitzwand 0-30m                                                                                               m²
+            Dicke: ____________
+
+03.11 35    Beton für Schlitzwände einbringen. Im Positionsstichwort sind die Festigkeitsklasse und Eigenschaften des
+            Betons angegeben.
+
+03.11 35E   Beton Schlitzwand C25/30 B10                                                                                    m³
+
+03.11 35F   Beton Schlitzwand C25/30 B12                                                                                    m³
+
+
+                                                                                                                      Seite 12 / 33
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+03.11 37    Nachbehandeln von Schlitzwandflächen, ohne Unterschied der Höhe, nach erfolgtem Aushub, Säuberungsart
+            nach Wahl des Auftragnehmers, einschließlich etwaiger Gerüste sowie Entsorgen des anfallenden Materials.
+            Abgerechnet wird die behandelte Fläche.
+
+03.11 37A   Schlitzwandfläche reinigen                                                                                   m²
+
+03.11 37B   Schlitzwandfläche abgleichen                                                                                 m²
+            Abtragen von Betonüberständen aufgrund geänderter Baugrundverhältnisse (z.B. durch Abschremmen oder
+            Fräsen).
+            LB-Version: 23              Geringfügig Geändert
+03.11 38    Bewehrung von Schlitzwänden.
+
+03.11 38A   Bewehrung Schlitzwand Stabstahl                                                                              kg
+            Betrifft Position(en): ____________
+            Bewehrung: ____________
+03.11 41    Aufzahlung (Az) auf Beton für Schlitzwände (Schlitzw.) für besondere Eigenschaften. Im Positionsstichwort sind
+            die Festigkeitsklasse und Eigenschaften des Betons angegeben.
+
+03.11 41K   Az Schlitzw.C25/30 mäßig sulfatbeständig                                                                     m³
+
+03.11 41L   Az Schlitzw.C25/30 erhöht sulfatbeständig                                                                    m³
+03.12       Stahl-Spundwände
+
+
+            1. Stahlspundbohlen
+            Stahlspundbohlen sind rammbare Walzwerk-Fertigerzeugnisse, die durch Schlösser zu zusammenhängenden
+            Wänden verbunden werden können. Die Schlösser können angewalzt oder für sich hergestellt sein. Eine
+            Spundbohle - beispielsweise Eck-, Abzweig-, Keilbohle oder dergleichen - kann auch durch Schweißen oder
+            andere geeignete Verbindungen aus mehreren Teilen zusammengesetzt sein.
+            2. Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            3. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            3.1 Statik:
+            Die statische Berechnung wird entsprechend den ausschreibungsgemäß vorgegebenen Lastangaben sowie den
+            Boden- und Grundwasserverhältnissen vom Auftragnehmer geprüft. Dementsprechend erfolgt die Wahl des
+            Stahl-Spundwandprofils und der Aussteifungskränze.
+            Die Aussteifungskränze werden so montiert, dass sowohl bei größtem Lastfall als auch bei gefluteter Baugrube
+            die Standfestigkeit der Baugrubenumschließung gewährleistet ist.
+            3.2 Verbleibende Stahl-Spundbohlen:
+            Für Stahl-Spundbohlen, die aus Gründen, die der Auftragnehmer zu vertreten hat, nicht gezogen werden
+            können, erfolgt keine gesonderte Vergütung. Diese werden mindestens 50 cm unter Geländeoberkante
+            geschnitten, ohne Unterschied ob im Trockenen oder unter Wasser.
+            Im Boden verbleibende Spundbohlen werden lage- und höhenmäßig aufgenommen und in den Bestandsplänen
+            festgehalten.
+            Beabsichtigt der Auftragnehmer, in Ausnahmefällen, Stahl-Spundbohlen zum Ziehen teilweise freizubaggern, so
+            wird hierfür die Zustimmung des Auftraggebers eingeholt.
+            3.3 Technischer Bericht des Auftragnehmers:
+            Der Auftragnehmer legt dem Auftraggeber vor Beginn der Arbeiten einen technischen Bericht über die
+            Technologie der gegenständlichen Maßnahmen vor. Ist dies nicht der Fall, kann der Auftraggeber vom Auftrag
+            zurücktreten. Der technische Bericht umfasst folgende Angaben:
+            - Art und Technologie
+            - Art des Ramm-Verfahrens
+            - verwendete Stoffe
+            - Lageplan mit Nummerierung und kotierter Angabe von Richtung, Neigung, Ansatzpunkt und Länge der
+            Rammung
+            - zeitliche Abfolge (Reihenfolge) der Arbeiten
+            - Sicherstellung der Kontrolle von Lage- und Richtungsgenauigkeit
+            - die Maßnahmen zur Verhinderung von Hebungen oder Setzungen (z.B. durch Entlastungsbohrungen)
+                                                                                                                   Seite 13 / 33
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+            - die angewendeten Prüfverfahren
+            3.4 Ramm-Protokoll:
+            Für jede Rammung legt der Auftragnehmer ein Protokollblatt mit folgenden Angaben an:
+            - Nummer gemäß Lageplan
+            - Beginn und Ende des Ramm-Vorganges
+            - Eindringtiefe/Zeit (z.B. Meter je Stunde)
+            - Länge von durchörterten Materialien (z.B. Mauerwerk)
+            - besondere Vorkommnisse mit Datum und Uhrzeit
+            - laufende geologische Überprüfungen
+            3.5 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - das Führen eines Ramm-Protokolls (Schlagdiagramm: bis zu einem Ausmaß von höchstens 20 Prozent der
+            gerammten Bohlen kann der Auftraggeber eine genauere Erfassung des Rammvorganges fordern, einkalkuliert
+            sind etwaige hierbei auftretende Kosten (z.B. durch kurzfristige Verzögerungen und alle erforderlichen
+            Aufnahmen für die Abrechnung wie Nummerierung und Längenaufnahmen der Bohlen)
+            - ein technischer Bericht
+            - Auswechslungen von beschädigten oder schlecht gerammten Stahl-Spundbohlen
+            - das Schweißen von Stahl-Spundbohlen, um die erforderliche Länge zu erreichen, nach Zustimmung des
+            Auftraggebers
+            - das Entsorgen von Baurestmassen
+            4. Ausmaß- und Abrechnungsregeln:
+            Ausschreibung und Abrechnung erfolgen nach lotrechten (vertikalen) Abschnitten. Leistungen sind von Null bis
+            zur angegebenen Tiefe (Gesamttiefe) beschrieben.
+            LB-Version: 23               Geringfügig Geändert
+03.12 01    Besondere Baustelleneinrichtungen (Bes.Baustelleneinr.) für Stahl (St)-Spundwände (z.B. Arbeitspodeste oder
+            Arbeitsbühnen, Einhausungen und Schutzgerüste) entsprechend dem Baustelleneinrichtungsplan des
+            Auftragnehmers. Der Auftragnehmer übergibt dem Auftraggeber den Baustelleneinrichtungsplan 14 Tage nach
+            Auftragserteilung.
+
+03.12 01A   Bes.Baustelleneinr. St-Spundwand herstellen                                                                     PA
+            Herstellen und Instandhalten.
+
+            LB-Version: 23               Geringfügig Geändert
+
+03.12 01B   Bes.Baustelleneinr. St-Spundwand räumen                                                                         PA
+            Räumen und den Zustand vor dem Herstellen des Arbeitsplanums wieder herstellen, einschließlich Entsorgen
+            des überschüssigen Aushub (Schüttungs)-Materials.
+            LB-Version: 23               Geringfügig Geändert
+03.12 02    Arbeitsplanum für Stahl (St)-Spundwände.
+
+03.12 02A   Arbeitsplanum St-Spundwand                                                                                      PA
+            Etwaige Unterschiede zwischen der Höhenlage der Ansatzpunkte und der Arbeitsebene: ____________
+            Untergrundverhältnisse der Arbeitsebene: ____________
+03.12 03    Geräte und Maschinen für Stahl (St)-Spundwände vorbereiten, an- und abtransportieren, auf- und abbauen
+            sowie beistellen (vorhalten) in erforderlicher Anzahl und Art, einschließlich Umstellen im Bereich der Baustelle
+            oder eines Baustellenabschnittes.
+
+03.12 03A   Gerät u.Maschinen St-Spundwand                                                                                  PA
+            Einschränkung der Geräteauswahl: ____________
+
+03.12 04    Stillliegezeiten von Geräten und Maschinen für Stahl (St)-Spundwände, die der Auftraggeber zu vertreten hat.
+
+03.12 04A   Stillliegezeit Gerät St-Spundwand                                                                               d
+            Ohne Bedienungsmannschaft bei einer ununterbrochenen Stillliegezeitdauer über zwei Arbeitstage. Der
+            Auftragnehmer wird mindestens 1 Woche vor Eintreten der Stillliegezeit darüber in Kenntnis gesetzt.
+            Abgerechnet wird in Arbeitstagen.
+
+03.12 04B   Stillliegezeit Gerät+Bed.St-Spundwand                                                                           h
+            Mit Bedienungsmannschaft bei einer ununterbrochenen Stillliegezeitdauer bis zu zwei Arbeitstagen (Montag bis
+            Freitag). Abgerechnet wird in Arbeitsstunden, bei ganzen Tagen der durchschnittliche Arbeitsstundeneinsatz je
+            Tag in der letzten Lohnwoche, höchstens aber 10 Arbeitsstunden.
+
+
+
+                                                                                                                      Seite 14 / 33
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+03.12 11    Stahl-Spundbohlen zur Sicherung von Baugruben oder Gräben, nach statischem Erfordernis, ohne Unterschied
+            der Profilart, einschließlich aller Aussteifungen und etwa erforderlicher Abstützungen nach Innen (waagrechte
+            Sicherung). Im Positionsstichwort ist die Tiefe des lotrechten Abschnittes angegeben.
+             Kommentar:
+             Eine Rückverankerung (z.B. mit Erdanker) ist in eigenen Positionen beschrieben.
+
+03.12 11A   Stahl-Spundbohlen rammen 0-3m                                                                                 m²
+
+03.12 11B   Stahl-Spundbohlen rammen 0-6m                                                                                 m²
+
+03.12 11C   Stahl-Spundbohlen rammen 0-9m                                                                                 m²
+
+03.12 11X   Stahl-Spundbohlen rammen 0-__________                                                                         m²
+03.12 12    Gerammte Stahl-Spundbohlen ziehen, einschließlich Entfernen aller Aussteifungen, Sicherungen oder
+            Verankerungen. Im Positionsstichwort ist die Tiefe des lotrechten Abschnittes angegeben.
+
+03.12 12A   Stahl-Spundbohlen ziehen 0-3m                                                                                 m²
+
+03.12 12B   Stahl-Spundbohlen ziehen 0-6m                                                                                 m²
+
+03.12 12C   Stahl-Spundbohlen ziehen 0-9m                                                                                 m²
+
+03.12 12X   Stahl-Spundbohlen ziehen 0-__________                                                                         m²
+03.12 13    Stahl-Spundbohlen auf Anordnung des Auftraggebers belassen. Abgerechnet wird die tatsächlich verbleibende
+            Stahl-Spundwandfläche. Bei einer Restlänge der Bohle bis zu 3 m wird diese als Verschnitt vergütet.
+
+03.12 13A   Stahl-Spundbohlen belassen                                                                                    m²
+
+03.12 13B   Stahl-Spundbohlen Verschnitt                                                                                  m²
+03.12 14    Stahl-Spundbohlen auf Anordnung des Auftraggebers schneiden. Abgerechnet wird die Schnittlänge, gemessen
+            in der projizierten Ebene (nicht nach der abgewickelten Schnittlänge des Bohlenprofiles).
+
+03.12 14A   Stahl-Spundbohle schneiden                                                                                    m
+
+03.12 14B   Eck-Stahl-Spundbohle schneiden                                                                                m
+03.12 41    Aufzahlung (Az) auf Stahl-Spundbohlen für ein T-Stück als Eckausbildung (Abzweigbohlen). Die Sonderstücke
+            weisen eine geschlossene Eckausbildung auf. Abgerechnet wird die Rammtiefe.
+
+03.12 41A   Az Eck-Stahl-Spundbohlen rammen                                                                               m
+
+03.12 41B   Az Eck-Stahl-Spundbohlen ziehen                                                                               m
+
+03.12 41C   Az Eck-Stahl-Spundbohlen belassen                                                                             m
+03.31       Fertigteil-Rammpfähle
+
+
+            1. Ansatzebene:
+            Als Ansatzebene gilt das Niveau, ab welchem die Rammung durchgeführt wird.
+            2. Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            3. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            3.1 Technischer Bericht des Auftragnehmers:
+            Der Auftragnehmer legt dem Auftraggeber vor Beginn der Arbeiten einen technischen Bericht über die
+            Technologie der gegenständlichen Maßnahmen vor. Ist dies nicht der Fall, kann der Auftraggeber vom Auftrag
+            zurücktreten. Der technische Bericht umfasst folgende Angaben:
+            - Art und Technologie
+            - Art des Ramm-Verfahrens
+            - verwendete Stoffe
+            - Lageplan mit Nummerierung und kodierter Angabe von Richtung, Neigung, Ansatzpunkt und Länge der
+                                                                                                                    Seite 15 / 33
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+            Rammung
+            - zeitlicher Abfolge (Reihenfolge) der Arbeiten
+            - Sicherstellung der Kontrolle von Lage- und Richtungsgenauigkeit
+            - Maßnahmen zur Verhinderung von Hebungen oder Setzungen (z.B. durch Entlastungsbohrungen)
+            - die angewendeten Prüfverfahren
+            3.2 Ramm-Protokoll:
+            Für jede Rammung legt der Auftragnehmer ein Protokollblatt mit folgenden Angaben an:
+            - Nummer gemäß Lageplan
+            - Beginn und Ende des Rammvorganges
+            - Eindringtiefe/Zeit (z.B. Meter je Stunde)
+            - Länge von durchörterten Materialien (z.B. Mauerwerk)
+            - besondere Vorkommnisse mit Datum und Uhrzeit
+            3.3 Leerstrecken:
+            Das Befahrbarmachen und Verfüllen von Leerstrecken nach Fertigstellung der Pfähle ist in die Einheitspreise
+            einkalkuliert.
+            3.4 Überbeton:
+            Das Abtragen, der Transport, die Behandlung und die Entsorgung des Überbetons an Pfahlköpfen,
+            einschließlich etwaiger Gerüste, bis auf die planmäßige Pfahloberkante, ist in die Einheitspreise einkalkuliert.
+            3.5 Überwachung
+            Der Auftragnehmer überwacht während der Rammarbeiten den Zustand etwa angrenzender Objekte.
+            3.6 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+
+            - das Führen eines Rammprotokolls mit laufenden geologischen Überprüfungen
+            - ein technischer Bericht
+            - das Anschütten, Ausbreiten und Einebnen des wiederverwendbaren Aushubmaterials im Bereich der Baustelle
+            - das Herstellen von Bohr- oder Ramm-Schablonen, Leiteinrichtungen und deren Abtragen, Transport und
+            Behandlung
+            - außerhalb der Toleranzgrenzen liegende, freigelegte Flächen werden im projektgemäß erforderlichen Ausmaß
+            abgestemmt, soweit dies der Auftragnehmer zu vertreten hat
+            - das Entsorgen von Aushubmaterial und Baurestmassen
+            4. Ausmaß- und Abrechnungsregeln:
+            Ausschreibung und Abrechnung erfolgen nach lotrechten (vertikalen) Abschnitten. Leistungen sind von Null bis
+            zur angegebenen Tiefe (Gesamttiefe) beschrieben.
+03.31 01    Besondere Baustelleneinrichtungen (Bes.Baustelleneinr.) für Fertigteil- (Ft.) Rammpfähle (z.B. Arbeitspodeste
+            oder Arbeitsbühnen, Einhausungen und Schutzgerüste) entsprechend dem Baustelleneinrichtungsplan des
+            Auftragnehmers. Der Auftragnehmer übergibt dem Auftraggeber den Baustelleneinrichtungsplan 14 Tage nach
+            Auftragserteilung.
+
+03.31 01A   Bes.Baustelleneinr.Ft.-Rammpfahl herstellen                                                                     PA
+            Herstellen und instandhalten.
+
+03.31 01B   Bes.Baustelleneinr.Ft.-Rammpfahl räumen                                                                         PA
+            Räumen und den Zustand vor dem Herstellen des Arbeitsplanums wieder herstellen, einschließlich Entsorgen
+            des überschüssigen Aushub (Schüttungs)-Materials.
+03.31 02    Arbeitsplanum für Fertigteil- (Ft.) Rammpfähle.
+
+03.31 02A   Arbeitsplanum Ft.-Rammpfahl                                                                                     PA
+            Etwaige Unterschiede zwischen der Höhenlage der Ansatzpunkte und der Arbeitsebene: ____________
+            Untergrundverhältnisse der Arbeitsebene: ____________
+03.31 03    Geräte und Maschinen für Fertigteil- (Ft.) Rammpfähle vorbereiten, an- und abtransportieren, auf- und abbauen
+            sowie beistellen (vorhalten) in erforderlicher Anzahl und Art, einschließlich Umstellen im Bereich der Baustelle
+            oder eines Baustellenabschnittes.
+
+03.31 03A   Gerät u.Maschinen Ft.-Rammpfahl                                                                                 PA
+            Einschränkung der Geräteauswahl: ____________
+
+03.31 04    Stillliegezeiten von Geräten und Maschinen für Fertigteil- (Ft.) Rammpfähle, die der Auftraggeber zu vertreten
+            hat.
+
+03.31 04A   Stillliegezeit Gerät Ft.-Rammpfahl                                                                              d
+
+
+                                                                                                                      Seite 16 / 33
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Ohne Bedienungsmannschaft bei einer ununterbrochenen Stillliegezeitdauer über zwei Arbeitstage. Der
+            Auftragnehmer wird mindestens 1 Woche vor Eintreten der Stillliegezeit darüber in Kenntnis gesetzt.
+            Abgerechnet wird in Arbeitstagen.
+
+03.31 04B   Stillliegezeit Gerät+Bed.Ft.-Rammpfahl                                                                       h
+            Mit Bedienungsmannschaft bei einer ununterbrochenen Stillliegezeitdauer bis zu zwei Arbeitstagen (Montag bis
+            Freitag). Abgerechnet wird in Arbeitsstunden, bei ganzen Tagen der durchschnittliche Arbeitsstundeneinsatz je
+            Tag in der letzten Lohnwoche, höchstens aber 10 Arbeitsstunden.
+
+03.31 10    Vorschachtungen und Suchschlitze bei Ft.-Rammpfählen, einschließlich Entsorgen der Baurestmassen.
+
+03.31 10A   Vorschachtungen Ft.-Rammpfahl                                                                                PA
+            Angaben (z.B. Anzahl): ____________
+            Abmessungen Vorschachtungen: ____________
+
+03.31 10B   Suchschlitze Ft.-Rammpfahl                                                                                   PA
+            Angaben (z.B. Anzahl): ____________
+            Abmessungen Suchschlitze: ____________
+03.31 11    Fertigteil- (Ft.) Rammpfahl aus Stahlbeton mit einer Betonfestigkeit von C25/30, einschließlich Bewehrung und
+            etwa erforderlicher Kupplungen und Pfahlspitzen.
+
+03.31 11A   Ft.-Rammpfahl lotrecht ansetzen+rammen                                                                       Stk
+            Ansetzen und rammen.
+            Länge: ____________
+            Pfahllast: ____________
+            Durchmesser: ____________
+
+03.31 12    Aufzahlung (Az) auf Fertigteil- (Ft.) Rammpfähle, ohne Unterschied der Abmessungen.
+
+03.31 12A   Az Ft.-Rammpfahl schräg rammen                                                                               Stk
+            Für Erschwernisse bei planmäßig schrägem Rammen.
+
+03.31 13    Fertigteil- (Ft.) Rammpfahl aus Stahlbeton.
+
+03.31 13B   Ft.-Rammpfahl Kopf abschrämmen                                                                               Stk
+            Kopf abschrämmen und Bewehrung zum Einbinden in Bauteile freilegen, ohne Unterschied der
+            Festigkeitsklasse des Betons, einschließlich Entsorgen der Baurestmassen.
+            Durchmesser: ____________
+
+03.31 14    Nachbehandeln von sichtbaren Fertigteil- (Ft) Betonpfahl-Oberflächen nach erfolgtem Aushub, einschließlich
+            etwaiger Gerüste und Entsorgen der Baurestmassen. Abgerechnet wird die behandelte Fläche.
+
+03.31 14A   Ft.-Rammpfahl Fläche reinigen                                                                                m²
+            Säuberungsart, nach Wahl des Auftragnehmers.
+
+03.31 41    Aufzahlung (Az) auf Fertigteil- (Ft) Rammpfähle für besondere Eigenschaften. Im Positionsstichwort sind die
+            Festigkeitsklasse und Eigenschaften angegeben.
+
+03.31 41G   Az Ft.-Rammpfahl C25/30 XC3                                                                                  m³
+
+03.31 41K   Az Ft.-Rammpfahl C25/30 mäßig sulfatb.                                                                       m³
+
+03.31 41L   Az Ft.-Rammpfahl C25/30 erhöht sulfatb.                                                                      m³
+03.31 42    Aufzahlung (Az) auf Ft-Rammpfähle für die Erschwernisse beim Durchörtern von Hindernissen, einschließlich
+            Entsorgen der Baurestmassen. Abgerechnet wird die Summe der Längen mit Hindernissen gemäß
+            Ramm-Protokoll.
+
+03.31 42A   Az Ft.-Rammpfahl Durchörtern Mauerwerk                                                                       m
+
+03.31 42B   Az Ft.-Rammpfahl Durchörtern Holz                                                                            m
+
+03.31 42C   Az Ft.-Rammpfahl Durchörtern Beton                                                                           m
+
+03.31 42X   Az Ft.-Rammpfahl Durchörtern                                                                                 m
+            Art der Hindernisse: ____________
+
+
+                                                                                                                   Seite 17 / 33
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+03.32       Ortbeton-Rammpfähle und Bohrpfähle
+
+
+            1. Ansatzebene:
+            Als Ansatzebene gilt das Niveau, ab welchem die Rammung oder Bohrung durchgeführt wird.
+            2. Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            3. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            3.1 Technischer Bericht des Auftragnehmers:
+            Der Auftragnehmer legt dem Auftraggeber vor Beginn der Arbeiten einen technischen Bericht über die
+            Technologie der gegenständlichen Maßnahmen vor. Ist dies nicht der Fall, kann der Auftraggeber vom Auftrag
+            zurücktreten. Der technische Bericht umfasst folgende Angaben:
+            - Art und Technologie
+            - Art des Ramm- oder Bohr-Verfahrens
+            - verwendete Stoffe
+            - Lageplan mit Nummerierung und kotierter Angabe von Richtung, Neigung, Ansatzpunkt und Länge der
+            Rammung oder Bohrung
+            - zeitliche Abfolge (Reihenfolge) der Arbeiten
+            - Sicherstellung der Kontrolle von Lage- und Richtungsgenauigkeit
+            - die Maßnahmen zur Verhinderung von Hebungen oder Setzungen (z.B. durch Entlastungsbohrungen)
+            - die angewendeten Prüfverfahren
+            3.2 Ramm-/Bohrprotokoll:
+            Für jede Rammung oder Bohrung legt der Auftragnehmer ein Protokollblatt mit folgenden Angaben an:
+            - Nummer gemäß Lageplan
+            - Beginn und Ende des Ramm- oder Bohr-Vorganges
+            - Eindringtiefe/Zeit (z.B. Meter pro Stunde)
+            - Länge von durchörterten Materialien (z.B. Mauerwerk)
+            - besondere Vorkommnisse mit Datum und Uhrzeit
+            3.3 Leerrammung/Leerbohrung/Leerstrecken:
+            Als Leerrammung oder Leerbohrung gilt die Strecke von der Ansatzebene bis zur Unterkante jenes Bauteiles, in
+            welchen der Pfahlkopf eingebunden wird. Allenfalls erforderliche Leerrammungen oder Leerbohrungen sind in
+            die Einheitspreise einkalkuliert.
+            Das Befahrbarmachen und Verfüllen von Leerstrecken nach Fertigstellung der Pfähle ist in die Einheitspreise
+            einkalkuliert.
+            3.4 Überbeton:
+            Das Abtragen, der Transport, die Behandlung und die Entsorgung des Überbetons an Pfahlköpfen,
+            einschließlich etwaiger Gerüste, bis auf die planmäßige Pfahloberkante, ist in die Einheitspreise einkalkuliert.
+            3.5 Überwachung
+            Der Auftragnehmer überwacht während der Ramm- oder Bohrarbeiten den Zustand etwa angrenzender Objekte.
+            3.6 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+
+            - das Führen eines Ramm- oder Bohrprotokolls mit laufenden geologischen Überprüfungen
+            - ein technischer Bericht
+            - das Anschütten, Ausbreiten und Einebnen des wiederverwendbaren Aushubmaterials im Bereich der Baustelle
+            - das Herstellen von Bohr- oder Ramm-Schablonen, Leiteinrichtungen und deren Abtragen, Transport und
+            Behandlung
+            - außerhalb der Toleranzgrenzen liegende, freigelegte Flächen werden im projektgemäß erforderlichen Ausmaß
+            abgestemmt, soweit dies der Auftragnehmer zu vertreten hat
+            - Abnahmeprüfungen gemäß ÖNORM
+            - das Entsorgen von Aushubmaterial oder Baurestmassen
+
+            4. Ausmaß- und Abrechnungsregeln:
+            Ausschreibung und Abrechnung erfolgen nach lotrechten (vertikalen) Abschnitten. Leistungen sind von Null bis
+            zur angegebenen Tiefe (Gesamttiefe) beschrieben.
+03.32 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+03.32 00A   Erschütterungsmessungen (zu 03.32)
+                                                                                                                      Seite 18 / 33
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Angaben zu Erschütterungsmessungen: ____________
+            Maßnahmen: ____________
+
+03.32 00B   Besondere Schallschutzmaßnahmen (zu 03.32)
+            Besondere Schallschutzmaßnahmen (z.B. Schallschutzkamine): ____________
+
+03.32 01    Besondere Baustelleneinrichtungen (Bes.Baustelleneinr.) für Ortbeton-Ramm/Bohrpfähle (z.B. Arbeitspodeste
+            oder Arbeitsbühnen, Einhausungen und Schutzgerüste) entsprechend dem Baustelleneinrichtungsplan des
+            Auftragnehmers. Der Auftragnehmer übergibt dem Auftraggeber den Baustelleneinrichtungsplan 14 Tage nach
+            Auftragserteilung.
+
+03.32 01A   Bes.Baustelleneinr.Ortbeton-Pf.herstellen                                                                     PA
+            Herstellen und instandhalten.
+
+03.32 01B   Bes.Baustelleneinr.Ortbeton-Pf.räumen                                                                         PA
+            Räumen und den Zustand vor dem Herstellen des Arbeitsplanums wieder herstellen, einschließlich Entsorgen
+            des überschüssigen Aushub (Schüttungs)-Materials.
+03.32 02    Arbeitsplanum für Ortbeton-Ramm/Bohrpfähle.
+
+03.32 02A   Arbeitsplanum Ortbeton-Pf.                                                                                    PA
+            Etwaige Unterschiede zwischen der Höhenlage der Ansatzpunkte und der Arbeitsebene: ____________
+            Untergrundverhältnisse der Arbeitsebene: ____________
+03.32 03    Geräte und Maschinen für Ortbeton-Ramm/Bohrpfähle vorbereiten, an- und abtransportieren, auf- und abbauen
+            sowie beistellen (vorhalten) in erforderlicher Anzahl und Art, einschließlich Umstellen im Bereich der Baustelle
+            oder eines Baustellenabschnittes.
+
+03.32 03A   Gerät u.Maschinen Ortbeton-Pf.                                                                                PA
+            Einschränkung der Geräteauswahl: ____________
+
+03.32 04    Stillliegezeiten von Geräten und Maschinen für Ortbeton-Ramm/Bohrpfähle, die der Auftraggeber zu vertreten
+            hat.
+
+03.32 04A   Stillliegezeit Gerät Ortbeton-Pf.                                                                             d
+            Ohne Bedienungsmannschaft bei einer ununterbrochenen Stillliegezeitdauer über zwei Arbeitstage. Der
+            Auftragnehmer wird mindestens 1 Woche vor Eintreten der Stillliegezeit darüber in Kenntnis gesetzt.
+            Abgerechnet wird in Arbeitstagen.
+
+03.32 04B   Stillliegezeit Gerät+Bed.Ortbeton-Pf.                                                                         h
+            Mit Bedienungsmannschaft bei einer ununterbrochenen Stillliegezeitdauer bis zu zwei Arbeitstagen (Montag bis
+            Freitag). Abgerechnet wird in Arbeitsstunden, bei ganzen Tagen der durchschnittliche Arbeitsstundeneinsatz je
+            Tag in der letzten Lohnwoche, höchstens aber 10 Arbeitsstunden.
+
+03.32 10    Vorschachtungen und Suchschlitze bei Ortbeton-Pfählen, einschließlich Entsorgen der Baurestmassen.
+
+03.32 10A   Vorschachtungen Ortbeton-Pfählen                                                                              PA
+            Angaben (z.B. Anzahl): ____________
+            Abmessungen Vorschachtungen: ____________
+
+03.32 10B   Suchschlitze Ortbeton-Pfählen                                                                                 PA
+            Angaben (z.B. Anzahl): ____________
+            Abmessungen Suchschlitze: ____________
+03.32 11    Ortbeton-Rammpfahl lotrecht (lot.), mittels wiedergewonnenen Rammrohres mit oder ohne Hohlbohrschnecke,
+            nach Wahl des Auftragnehmers (Beton in eigenen Positionen). Im Positionsstichwort ist die Tiefe des lotrechten
+            Abschnittes angegeben. Abgerechnet wird die Summe der erreichten Rammtiefen je Abschnitt.
+
+            Der Boden wird durch Verwendung einer wasserdicht verschlossenen Pfahlspitze möglichst erschütterungsfrei
+            und geräuscharm verdrängt und zum Teil verdichtet. Nach Erreichen der planmäßigen Tiefenstufe wird der
+            Bewehrungskorb in das Rammrohr eingebracht. Anschließend wird der Beton unter gleichzeitigem Ziehen des
+            Rammrohres eingepumpt. Die Pfahlspitze ist verloren und verbleibt als Pfahlfuß im Boden.
+
+03.32 11A   Ortbeton-Rammpfahl lot.ansetzen                                                                               Stk
+            Ansetzen, ohne Unterschied der Abmessungen.
+
+03.32 11B   Ortbeton-Rammpfahl lot.0-10m rammen                                                                           m
+                                                                                                                    Seite 19 / 33
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Pfahllast: ____________
+            Durchmesser: ____________
+
+03.32 11C   Ortbeton-Rammpfahl lot.0-20m rammen                                                                          m
+            Pfahllast: ____________
+            Durchmesser: ____________
+
+03.32 11D   Ortbeton-Rammpfahl lot.0-30m rammen                                                                          m
+            Pfahllast: ____________
+            Durchmesser: ____________
+
+03.32 11X   Ortbeton-Rammpfahl lot.rammen 0-__________                                                                   m
+            Pfahllast: ____________
+            Durchmesser: ____________
+03.32 12    Eignungsprüfung, gemäß ÖNORM, Ortbeton-Rammpfähle. Eignungsprüfungen werden im Einvernehmen mit
+            dem Auftraggeber terminlich abgestimmt (vor Beginn der Hauptleistung)
+
+03.32 12A   Ortbeton-Rammpfahl Eignungsprüfung                                                                           Stk
+            Betrifft Position(en): ____________
+
+03.32 21    Ortbeton-Bohrpfahl lotrecht (lot.), mittels wiedergewonnenen Rohres mit oder ohne Hohlbohrschnecke, nach
+            Wahl des Auftragnehmers (Beton in eigenen Positionen). Im Positionsstichwort ist die Tiefe des lotrechten
+            Abschnittes angegeben. Abgerechnet wird die Summe der erreichten Bohrtiefen je Abschnitt.
+
+03.32 21A   Ortbeton-Bohrpfahl lot.ansetzen                                                                              Stk
+            Ansetzen, ohne Unterschied der Abmessungen.
+
+03.32 21B   Ortbeton-Bohrpfahl lot.0-10m bohren                                                                          m
+            Pfahllast: ____________
+            Durchmesser: ____________
+
+03.32 21C   Ortbeton-Bohrpfahl lot.0-20m bohren                                                                          m
+            Pfahllast: ____________
+            Durchmesser: ____________
+
+03.32 21D   Ortbeton-Bohrpfahl lot.0-30m bohren                                                                          m
+            Pfahllast: ____________
+            Durchmesser: ____________
+
+03.32 21X   Ortbeton-Bohrpfahl lot.bohren 0-__________                                                                   m
+            Pfahllast: ____________
+            Durchmesser: ____________
+03.32 22    Eignungsprüfung, gemäß ÖNORM, Ortbeton-Bohrpfähle. Eignungsprüfungen werden im Einvernehmen mit dem
+            Auftraggeber terminlich abgestimmt (vor Beginn der Hauptleistung)
+
+03.32 22A   Ortbeton-Bohrpfahl Eignungsprüfung                                                                           Stk
+            Betrifft Position(en): ____________
+
+03.32 31    Beton für Ortbeton-Pfähle einbringen. Im Positionsstichwort sind die Festigkeitsklasse und Eigenschaften
+            angegeben.
+
+03.32 31A   Beton Ortbeton-Pfahl C25/30                                                                                  m³
+
+03.32 31B   Beton Ortbeton-Pfahl C30/37                                                                                  m³
+
+03.32 31C   Beton Ortbeton-Pfahl C25/30 B8                                                                               m³
+
+03.32 31D   Beton Ortbeton-Pfahl C25/30 B9                                                                               m³
+
+03.32 31F   Beton Ortbeton-Pfahl C25/30 B11                                                                              m³
+03.32 32    Bewehrung.
+
+03.32 32A   Bewehrung Ortbeton-Rammpfahl Stabstahl                                                                       kg
+                                                                                                                   Seite 20 / 33
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Von Ortbeton-Rammpfählen: ____________
+
+03.32 32B   Bewehrung Ortbeton-Bohrpfahl Stabstahl                                                                        kg
+            Von Ortbeton-Bohrpfählen: ____________
+
+03.32 35    Nachbehandeln von sichtbaren Ortbeton-Rammpfahl-Oberflächen nach erfolgtem Aushub, einschließlich
+            etwaiger Gerüste und Entsorgen der Baurestmassen. Abgerechnet wird die behandelte Fläche.
+
+03.32 35A   Ortbeton-Rammpfahl Fläche reinigen                                                                            m²
+            Säuberungsart nach Wahl des Auftragnehmers.
+
+03.32 36    Nachbehandeln von sichtbaren Ortbeton-Bohrpfahl-Oberflächen nach erfolgtem Aushub, einschließlich etwaiger
+            Gerüste und Entsorgen der Baurestmassen. Abgerechnet wird die behandelte Fläche.
+
+03.32 36A   Ortbeton-Bohrpfahl Fläche reinigen                                                                            m²
+            Säuberungsart nach Wahl des Auftragnehmers.
+
+03.32 41    Aufzahlung (Az) auf Beton für Ortbeton-Pfähle (Bohr oder Rammpfähle) für besondere Eigenschaften. Im
+            Positionsstichwort sind die Festigkeitsklasse und Eigenschaften angegeben.
+
+03.32 41G   Az Ortbeton-Pfahl C25/30 XC3                                                                                  m³
+
+03.32 41H   Az Ortbeton-Pfahl C25/30 XC4                                                                                  m³
+
+03.32 41K   Az Ortbeton-Pfahl C25/30 mäßig sulfatb.                                                                       m³
+            Mäßig sulfatbeständig (sulfatb.).
+
+03.32 41L   Az Ortbeton-Pfahl C25/30 erhöht sulfatb                                                                       m³
+            Erhöht sulfatbeständig.
+
+03.32 42    Aufzahlung (Az) auf Ortbeton-Pfähle (Bohr oder Rammpfähle) lotrecht (lot.), ohne Unterschied der
+            Abmessungen und Tiefenstufe.
+
+03.32 42A   Az Ortbeton-Pfahl schräg rammen                                                                               m
+            Für Erschwernisse bei planmäßig schrägem Rammen.
+
+03.32 43    Aufzahlung (Az) auf Ortbeton-Pfähle (Bohr oder Rammpfähle) für die Erschwernisse beim Durchörtern von
+            Hindernissen, einschließlich Entsorgen der Baurestmassen. Abgerechnet wird die Summe der Längen mit
+            Hindernissen gemäß Protokoll.
+
+03.32 43A   Az Ortbeton-Pfahl Durchörtern Mauerwerk                                                                       m
+
+03.32 43B   Az Ortbeton-Pfahl Durchörtern Holz                                                                            m
+
+03.32 43C   Az Ortbeton-Pfahl Durchörtern Beton                                                                           m
+
+03.32 43X   Az Ortbeton-Pfahl Durchörtern                                                                                 m
+            Art der Hindernisse: ____________
+
+03.32 44    Aufzahlung (Az) auf Ortbeton-Bohrpfähle für das projektgemäße Einschneiden eines Pfahles in zwei unbewehrte
+            Pfähle (überschnitt.). Abgerechnet wird die erreichte Tiefe pro Querschnitt. Im Positionsstichwort ist die Tiefe
+            des lotrechten Abschnittes angegeben
+
+03.32 44B   Az Ortbeton-Bohrpfahl überschnitt.0-10m                                                                       m
+
+03.32 44C   Az Ortbeton-Bohrpfahl überschnitt.0-20m                                                                       m
+
+03.32 44D   Az Ortbeton-Bohrpfahl überschnitt.0-30m                                                                       m
+
+03.32 44X   Az Ortbeton-Bohrpfahl überschnitt.0-__________                                                                m
+03.32 45    Aufzahlung (Az) auf Ortbeton-Bohrpfähle für das Bohren mit Wasser- oder Suspensionsauflast in
+            auftriebsgefährdeten Böden (z.B. unter Grundwasser)
+
+03.32 45A   Az Ortbeton-Bohrpfahl m.Suspensionsauflast                                                                    m
+03.32 71    Spritzbetonschale zwischen Ortbeton-Pfählen, einschließlich Anschluss der Spritzbetonschale an den Pfahl. Im
+            Positionsstichwort sind die Betonfestigkeit und die Dicke der Schale angegeben.
+
+                                                                                                                    Seite 21 / 33
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+03.32 71A   Spritzbetonschale 10cm C25/30                                                                               m²
+
+03.32 71B   Spritzbetonschale 15cm C25/30                                                                               m²
+
+03.32 71C   Spritzbetonschale 20cm C25/30                                                                               m²
+03.32 72    Aufzahlung (Az) auf Spritzbetonschale zwischen Ortbeton-Pfählen.
+
+03.32 72A   Az Bewehrung f.Spritzbetonschalen                                                                           kg
+            Für eine Bewehrung: ____________
+
+03.33       Duktile Guss-Pfähle
+
+
+            1. Ansatzebene:
+            Als Ansatzebene gilt das Niveau, ab welchem die Rammung durchgeführt wird.
+            2. Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            3. Einkalkulierte Leistungen:
+            Im Folgenden sind duktile Guss-Pfähle, das sind rohrförmige Elemente oder Pfähle aus duktilem Gusseisen, die
+            mittels Hydraulik-Hammer (z.B. auf einem 15 bis 20 t Bagger) eingerammt werden, beschrieben (Liefern und
+            Rammen).
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            3.1 Technischer Bericht des Auftragnehmers:
+            Der Auftragnehmer legt dem Auftraggeber vor Beginn der Arbeiten einen technischen Bericht über die
+            Technologie der gegenständlichen Maßnahmen vor. Ist dies nicht der Fall, kann der Auftraggeber vom Auftrag
+            zurücktreten. Der technische Bericht umfasst folgende Angaben:
+            - Art und Technologie
+            - Art des Ramm-Verfahrens
+            - verwendete Stoffe
+            - Lageplan mit Nummerierung und kodierter Angabe von Richtung, Neigung, Ansatzpunkt und Länge der
+            Rammung
+            - zeitliche Abfolge (Reihenfolge) der Arbeiten
+            - Sicherstellung der Kontrolle von Lage- und Richtungsgenauigkeit
+            - Maßnahmen zur Verhinderung von Hebungen oder Setzungen (z.B. durch Entlastungsbohrungen)
+            3.2 Ramm-Protokoll:
+            Für jede Rammung legt der Auftragnehmer ein Protokollblatt mit folgenden Angaben an:
+            - Nummer gemäß Lageplan
+            - Beginn und Ende des Rammvorganges
+            - Eindringtiefe/Zeit (z.B. Meter pro Stunde)
+            - Länge von durchörterten Materialien (z.B. Mauerwerk)
+            - besondere Vorkommnisse mit Datum und Uhrzeit
+            - laufende geologische Überprüfungen
+            3.3 Leerstrecken:
+            Das Befahrbarmachen und Verfüllen von Leerstrecken nach Fertigstellung der Pfähle ist in die Einheitspreise
+            einkalkuliert.
+            3.4 Überwachung
+            Der Auftragnehmer überwacht während der Rammarbeiten den Zustand etwa angrenzender Objekte.
+            3.5 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM die Einheitspreise
+            einkalkuliert:
+            - das Führen eines Ramm-Protokolls mit laufenden geologischen Überprüfungen
+            - ein technischer Bericht
+            - das Anschütten, Ausbreiten und Einebnen des wiederverwendbaren Aushubmaterials im Bereich der Baustelle
+            - das Herstellen von Ramm-Schablonen, Leiteinrichtungen und deren Abtragen, Transport und Behandlung
+            - Abnahmeprüfungen gemäß ÖNORM
+            - das Entsorgen von Aushubmaterial und Baurestmassen
+            4. Ausmaß- und Abrechnungsregeln:
+            Ausschreibung und Abrechnung erfolgen nach lotrechten (vertikalen) Abschnitten. Leistungen sind von Null bis
+            zur angegebenen Tiefe (Gesamttiefe) beschrieben.
+            LB-Version: 23              Geringfügig Geändert
+                                                                                                                  Seite 22 / 33
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+03.33 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+03.33 00A   Erschütterungsmessungen (zu 03.33)
+            Angaben zu Erschütterungsmessungen: ____________
+            Maßnahmen: ____________
+
+03.33 00B   Besondere Schallschutzmaßnahmen (zu 03.33)
+            Besondere Schallschutzmaßnahmen (z.B. Schallschutzkamine): ____________
+
+03.33 01    Besondere Baustelleneinrichtungen (Bes.Baustelleneinr.) für duktile (dukt.) Guss-(Pf.) Pfähle (z.B.
+            Arbeitspodeste oder Arbeitsbühnen, Einhausungen und Schutzgerüste) entsprechend dem
+            Baustelleneinrichtungsplan des Auftragnehmers. Der Auftragnehmer übergibt dem Auftraggeber den
+            Baustelleneinrichtungsplan 14 Tage nach Auftragserteilung.
+
+03.33 01A   Bes.Baustelleneinr. dukt.Guss-Pf.herstellen                                                                    PA
+            Herstellen und Instandhalten.
+
+            LB-Version: 23               Geringfügig Geändert
+
+03.33 01B   Bes.Baustelleneinr. dukt.Guss-Pf.räumen                                                                        PA
+            Räumen und den Zustand vor dem Herstellen des Arbeitsplanums wieder herstellen, einschließlich Entsorgen
+            des überschüssigen Aushub (Schüttungs)-Materials.
+            LB-Version: 23               Geringfügig Geändert
+03.33 02    Arbeitsplanum für duktile (dukt.) Guss-(Pf.) Pfähle.
+
+03.33 02A   Arbeitsplanum dukt.Guss-Pf.                                                                                    PA
+            Etwaige Unterschiede zwischen der Höhenlage der Ansatzpunkte und der Arbeitsebene: ____________
+            Untergrundverhältnisse der Arbeitsebene: ____________
+03.33 03    Geräte und Maschinen für duktile (dukt.) Guss-(Pf.) Pfähle vorbereiten, an- und abtransportieren, auf- und
+            abbauen sowie beistellen (vorhalten) in erforderlicher Anzahl und Art, einschließlich Umstellen im Bereich der
+            Baustelle oder eines Baustellenabschnittes.
+
+03.33 03A   Gerät u.Maschinen dukt.Guss-Pf.                                                                                PA
+            Einschränkung der Geräteauswahl: ____________
+
+03.33 04    Stillliegezeiten von Geräten und Maschinen für duktile (dukt.) Guss-(Pf.) Pfähle, die der Auftraggeber zu
+            vertreten hat.
+
+03.33 04A   Stillliegezeit Gerät dukt.Guss-Pf.                                                                             d
+            Ohne Bedienungsmannschaft bei einer ununterbrochenen Stillliegezeitdauer über zwei Arbeitstage. Der
+            Auftragnehmer wird mindestens 1 Woche vor Eintreten der Stillliegezeit darüber in Kenntnis gesetzt.
+            Abgerechnet wird in Arbeitstagen.
+
+03.33 04B   Stillliegezeit Gerät+Bed.dukt.Guss-Pf.                                                                         h
+            Mit Bedienungsmannschaft bei einer ununterbrochenen Stillliegezeitdauer bis zu zwei Arbeitstagen (Montag bis
+            Freitag). Abgerechnet wird in Arbeitsstunden, bei ganzen Tagen der durchschnittliche Arbeitsstundeneinsatz je
+            Tag in der letzten Lohnwoche, höchstens aber 10 Arbeitsstunden.
+
+03.33 11    Duktiler (Dukt.) Guss-Pfahl, mantelverpresst (mvp). Im Positionsstichwort ist die Tiefe des lotrechten Abschnittes
+            (Rammtiefe) und die Nennlast angegeben.
+
+03.33 11A   Dukt.Guss-Pfahl mvp 0-15m ansetzen 300kN                                                                       Stk
+            Ansetzen.
+
+03.33 11B   Dukt.Guss-Pfahl mvp 0-15m rammen 300kN                                                                         m
+            Rammen.
+            Abgerechnet wird die Summe der Längen der Durchmesser.
+
+03.33 11C   Dukt.Guss-Pfahl mvp 0-15m ansetzen 500kN                                                                       Stk
+            Ansetzen.
+
+03.33 11D   Dukt.Guss-Pfahl mvp 0-15m rammen 500kN                                                                         m
+
+                                                                                                                     Seite 23 / 33
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+            Rammen.
+            Abgerechnet wird die Summe der Längen der Durchmesser.
+
+03.33 11X   Dukt.Guss-Pfahl mvp 0-15m ansetzen__________                                                                    Stk
+            Ansetzen.
+
+03.33 11Y   Dukt.Guss-Pfahl mvp 0-15m rammen__________                                                                      m
+            Rammen.
+            Abgerechnet wird die Summe der Längen der Durchmesser.
+03.33 13    Duktiler (Dukt.) Guss-Pfahl, mantelverpresst (mvp). Im Positionsstichwort ist die Tiefe des lotrechten Abschnittes
+            (Rammtiefe) und die Nennlast angegeben.
+
+03.33 13A   Dukt.Guss-Pfahl mvp 0-30m ansetzen 300kN                                                                        Stk
+            Ansetzen.
+
+03.33 13B   Dukt.Guss-Pfahl mvp 0-30m rammen 300kN                                                                          m
+            Rammen.
+            Abgerechnet wird die Summe der Längen der Durchmesser.
+
+03.33 13C   Dukt.Guss-Pfahl mvp 0-30m ansetzen 500kN                                                                        Stk
+            Ansetzen.
+
+03.33 13D   Dukt.Guss-Pfahl mvp 0-30m rammen 500kN                                                                          m
+            Rammen.
+            Abgerechnet wird die Summe der Längen der Durchmesser.
+
+03.33 13X   Dukt.Guss-Pfahl mvp 0-30m ansetzen__________                                                                    Stk
+            Ansetzen.
+
+03.33 13Y   Dukt.Guss-Pfahl mvp 0-30m rammen__________                                                                      m
+            Rammen.
+            Abgerechnet wird die Summe der Längen der Durchmesser.
+
+03.33 21    Duktiler (Dukt.) Guss-Pfahl (nicht mantelverpresst). Im Positionsstichwort ist die Tiefe des lotrechten Abschnittes
+            (Rammtiefe) und die Nennlast angegeben.
+
+03.33 21A   Dukt.Guss-Pfahl 0-15m ansetzen 300kN                                                                            Stk
+            Ansetzen.
+
+03.33 21B   Dukt.Guss-Pfahl 0-15m rammen 300kN                                                                              m
+            Rammen.
+            Abgerechnet wird die Summe der Längen der Durchmesser.
+
+03.33 21C   Dukt.Guss-Pfahl 0-15m ansetzen 500kN                                                                            Stk
+            Ansetzen.
+
+03.33 21D   Dukt.Guss-Pfahl 0-15m rammen 500kN                                                                              m
+            Rammen.
+            Abgerechnet wird die Summe der Längen der Durchmesser.
+
+03.33 21X   Dukt.Guss-Pfahl 0-15m ansetzen__________                                                                        Stk
+            Ansetzen.
+
+03.33 21Y   Dukt.Guss-Pfahl 0-15m rammen__________                                                                          m
+            Rammen.
+            Abgerechnet wird die Summe der Längen der Durchmesser.
+03.33 23    Duktiler (Dukt.) Guss-Pfahl (nicht mantelverpresst). Im Positionsstichwort ist die Tiefe des lotrechten Abschnittes
+            (Rammtiefe) und die Nennlast angegeben.
+
+03.33 23A   Dukt.Guss-Pfahl 0-30m ansetzen 300kN                                                                            Stk
+            Ansetzen.
+                                                                                                                      Seite 24 / 33
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+03.33 23B   Dukt.Guss-Pfahl 0-30m rammen 300kN                                                                          m
+            Rammen.
+            Abgerechnet wird die Summe der Längen der Durchmesser.
+
+03.33 23C   Dukt.Guss-Pfahl 0-30m ansetzen 500kN                                                                        Stk
+            Ansetzen.
+
+03.33 23D   Dukt.Guss-Pfahl 0-30m rammen 500kN                                                                          m
+            Rammen.
+            Abgerechnet wird die Summe der Längen der Durchmesser.
+
+03.33 23X   Dukt.Guss-Pfahl 0-30m ansetzen__________                                                                    Stk
+            Ansetzen.
+
+03.33 23Y   Dukt.Guss-Pfahl 0-30m rammen__________                                                                      m
+            Rammen.
+            Abgerechnet wird die Summe der Längen der Durchmesser.
+
+03.33 41    Aufzahlung (Az) auf duktile (dukt.) Gusspfähle ohne Unterschied der Art, der Rammtiefe und der Nennlast.
+
+03.33 41A   Az dukt.Guss-Pfahl schräg                                                                                   m
+            Für Erschwernisse bei einer Neigung zur Lotrechten: ____________
+
+03.33 42    Aufzahlung (Az) auf duktile (dukt.) Gusspfähle ohne Unterschied der Art, der Rammtiefe und der Nennlast für
+            die Erschwernisse beim Durchörtern von Hindernissen. Abgerechnet wird die Summe der Längen mit
+            Hindernissen gemäß Protokoll.
+
+03.33 42A   Az dukt.Guss-Pfahl Durchörtern Mauerwerk                                                                    m
+
+03.33 42B   Az dukt.Guss-Pfahl Durchörtern Holz                                                                         m
+
+03.33 42C   Az dukt.Guss-Pfahl Durchörtern Beton                                                                        m
+
+03.33 42X   Az dukt.Guss-Pfahl Durchörtern                                                                              m
+            Art der Hindernisse: ____________
+
+03.36       Erdanker
+
+
+            1. Ansetzen:
+            Im Folgenden ist das Liefern, Bohren und Verpressen von vorgespannten Erdankern (Zuganker) beschrieben.
+            2. Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            3. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            3.1 Technischer Bericht des Auftragnehmers:
+            Der Auftragnehmer legt dem Auftraggeber vor Beginn der Arbeiten einen technischen Bericht über die
+            Technologie der gegenständlichen Maßnahmen vor. Ist dies nicht der Fall, kann der Auftraggeber vom Auftrag
+            zurücktreten. Der technische Bericht umfasst folgende Angaben:
+            - Art und Technologie
+            - Art des Bohrverfahrens
+            - verwendete Stoffe
+            - Lageplan mit Nummerierung und kodierter Angabe von Richtung, Neigung, Ansatzpunkt und Länge der
+            Bohrung
+            - zeitlichen Abfolge (Reihenfolge) der Arbeiten
+            - Sicherstellung der Kontrolle von Lage- und Richtungsgenauigkeit
+            - die angewendeten Prüfverfahren
+            3.2 Bohrprotokoll:
+            Für jede Bohrung legt der Auftragnehmer ein Protokollblatt mit folgenden Angaben an:
+            - Nummer gemäß Lageplan
+            - Beginn und Ende des Bohrvorganges
+                                                                                                                  Seite 25 / 33
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                                EH
+
+            - Eindringtiefe/Zeit (z.B. Meter pro Stunde)
+            - Länge von durchörterten Materialien (z.B. Mauerwerk)
+            - besondere Vorkommnisse mit Datum und Uhrzeit
+            3.5 Überwachung
+            Der Auftragnehmer überwacht während der Bohrarbeiten den Zustand etwa angrenzender Objekte.
+            3.4 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - das Führen eines Bohrprotokolls mit laufenden geologischen Überprüfungen
+            - ein technischer Bericht
+            - das Anschütten, Ausbreiten und Einebnen des wiederverwendbaren Aushubmaterials im Bereich der Baustelle
+            - das Herstellen von Bohr-Schablonen, Leiteinrichtungen und deren Abtragen, Transport und Behandlung
+            - Ausbauen, Transport und Behandlung von Ankern
+            - Abnahmeprüfungen gemäß ÖNORM
+            - das Entsorgen von Aushubmaterial und Baurestmassen
+             Kommentar:
+             Die Nennlast bei Erdankern gibt die Zuglast inkl. der Sicherheitsbeiwerte (sog. Designlast) an.
+
+03.36 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+03.36 00A   Erschütterungsmessungen
+            Angaben zu Erschütterungsmessungen: ____________
+            Maßnahmen: ____________
+
+03.36 00B   Besondere Schallschutzmaßnahmen
+            Besondere Schallschutzmaßnahmen (z.B. Schallschutzkamine): ____________
+
+03.36 01    Besondere Baustelleneinrichtungen (Bes.Baustelleneinr.) für Erdanker (z.B. Arbeitspodeste oder Arbeitsbühnen,
+            Einhausungen und Schutzgerüste) entsprechend dem Baustelleneinrichtungsplan des Auftragnehmers. Der
+            Auftragnehmer übergibt dem Auftraggeber den Baustelleneinrichtungsplan 14 Tage nach Auftragserteilung.
+
+03.36 01A   Bes.Baustelleneinr.Erdanker herstellen                                                                                   PA
+            Herstellen und instandhalten.
+
+03.36 01B   Bes.Baustelleneinr.Erdanker räumen                                                                                       PA
+            Räumen und den Zustand vor dem Herstellen des Arbeitsplanums wieder herstellen, einschließlich Entsorgen
+            des überschüssigen Aushub (Schüttungs)-Materials.
+03.36 02    Arbeitsplanum für Erdanker.
+
+03.36 02A   Arbeitsplanum Erdanker                                                                                                   PA
+            Etwaige Unterschiede zwischen der Höhenlage der Ansatzpunkte und der Arbeitsebene: ____________
+            Untergrundverhältnisse der Arbeitsebene: ____________
+03.36 03    Geräte und Maschinen für Erdanker vorbereiten, an- und abtransportieren, auf- und abbauen sowie beistellen
+            (vorhalten) in erforderlicher Anzahl und Art, einschließlich Umstellen im Bereich der Baustelle oder eines
+            Baustellenabschnittes.
+            Erschütterungsmessungen und Schallschutzmaßnahmen sind in die Einheitspreise einkalkuliert.
+
+03.36 03A   Gerät u.Maschinen Erdanker                                                                                               PA
+            Einschränkung der Geräteauswahl: ____________
+            Erschütterungsempfindlichkeit/Maßnahmen: ____________
+03.36 04    Stillliegezeiten von Geräten und Maschinen für Erdanker, die der Auftraggeber zu vertreten hat.
+
+03.36 04A   Stillliegezeit Gerät Erdanker                                                                                            d
+            Ohne Bedienungsmannschaft bei einer ununterbrochenen Stillliegezeitdauer über zwei Arbeitstage. Der
+            Auftragnehmer wird mindestens 1 Woche vor Eintreten der Stillliegezeit darüber in Kenntnis gesetzt.
+            Abgerechnet wird in Arbeitstagen.
+
+03.36 04B   Stillliegezeit Gerät+Bed.Erdanker                                                                                        h
+            Einschließlich Bedienungsmannschaft bei einer ununterbrochenen Stillliegezeitdauer bis zu zwei Arbeitstagen
+            (Montag bis Freitag). Abgerechnet wird in Arbeitsstunden, bei ganzen Tagen der durchschnittliche
+            Arbeitsstundeneinsatz je Tag in der letzten Lohnwoche, höchstens aber 10 Arbeitsstunden.
+
+
+
+                                                                                                                               Seite 26 / 33
+                                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+03.36 11    Erdanker, mittels Kraftmessgerät vorgespannt, einschließlich Hüllrohr, in allen Böden, außer Fels. Im
+            Positionsstichwort ist die Nennlast angegeben.
+
+03.36 11A   Erdanker ansetzen 300kN                                                                                       Stk
+            Ansetzen.
+
+03.36 11B   Erdanker ansetzen 500kN                                                                                       Stk
+            Ansetzen.
+
+03.36 11X   Erdanker ansetzen__________                                                                                   Stk
+            Ansetzen.
+
+03.36 12    Erdanker, mittels Kraftmessgerät vorgespannt, einschließlich Hüllrohr, in allen Böden, außer Fels. Im
+            Positionsstichwort ist die Nennlast angegeben.
+
+03.36 12A   Erdanker bohren 300kN                                                                                         m
+            Bohren (Erdankerkopf in eigener Position).
+            Abgerechnet wird die tatsächliche Länge.
+
+03.36 12B   Erdanker bohren 500kN                                                                                         m
+            Bohren (Erdankerkopf in eigener Position).
+            Abgerechnet wird die tatsächliche Länge.
+
+03.36 12X   Erdanker bohren__________                                                                                     m
+            Bohren (Erdankerkopf in eigener Position).
+            Abgerechnet wird die tatsächliche Länge.
+03.36 15    Eignungsprüfung, gemäß NORM, für Erdanker. Eignungsprüfungen werden im Einvernehmen mit dem
+            Auftraggeber terminlich abgestimmt (vor Beginn der Hauptleistung)
+
+03.36 15A   Erdanker Eignungsprüfung                                                                                      Stk
+            Betrifft Position(en): ____________
+
+03.36 53    Aufzahlung (Az) auf Erdanker für die Erschwernisse beim Durchbohren von Hindernissen. Abgerechnet wird die
+            Summe der Längen mit Hindernissen gemäß Ramm- oder Bohrprotokoll.
+
+03.36 53A   Az Erdanker Durchbohren Mauerwerk                                                                             m
+
+03.36 53B   Az Erdanker Durchbohren Holz                                                                                  m
+
+03.36 53C   Az Erdanker Durchbohren Beton                                                                                 m
+
+03.36 53D   Az Erdanker Durchbohren Stahlbeton                                                                            m
+
+03.36 53E   Az Erdanker Durchbohren Fels                                                                                  m
+
+03.36 53X   Az Erdanker Durchbohren                                                                                       m
+            Art der Hindernisse: ____________
+
+03.36 59    Ausbilden des Erdankerkopfes.
+
+03.36 59A   Erdankerkopf ausbilden                                                                                        Stk
+            Angaben/Skizze: ____________
+
+03.41       Wasserhaltung
+
+
+            1. Begriffe:
+            Die Positionen dieser Unterleistungsgruppe beschreiben Leistungen im Zusammenhang mit Tagwasser.
+            2. Pumpen:
+            Bei Ausfall von Pumpen und Förderleitungen sorgt der Auftragnehmer unverzüglich für kostenlosen Austausch.
+
+03.41 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+                                                                                                                    Seite 27 / 33
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+03.41 00A   Ableitungsbewilligung AG
+            Bewilligungen für die Ableitung des Wassers in den Vorfluter (z.B. Gerinne, Kanal, Grundwasserfeld) werden
+            vom Auftraggeber eingeholt.
+            Betrifft Position(en): ____________
+
+03.41 00B   Ableitungsbewilligung AN
+            Bewilligungen für die Ableitung des Wassers in den Vorfluter (z.B. Gerinne, Kanal, Grundwasserfeld) werden
+            vom Auftragnehmer eingeholt.
+            Betrifft Position(en): ____________
+
+03.41 00C   Sonstige Vereinbarungen Wasserhaltung
+            Betrifft Position(en): ____________
+            Sonstige Vereinbarungen: ____________
+
+03.41 01    Pumpen, Leitungen, Entwässerungsgraben und Pumpensumpf für die Entwässerung der Baugrube. Anzahl
+            nach Wahl des Auftragnehmers. Abgerechnet wird das Flächenmaß der entwässerten Baugrubensohle.
+
+03.41 01A   Entwässerung Baugrube                                                                                            m²
+03.41 02    Betreiben und Warten von Schmutzwasserpumpen auf die Dauer des Erfordernisses, einschließlich
+            Stromverbrauch. Anzahl der Pumpen, nach Wahl des Auftragnehmers. Abgerechnet wird in ganzen
+            Kalenderwochen.
+
+03.41 02A   Pumpe Baugrube betreiben u.warten                                                                                Wo
+            Mit einem Wasseranfall/m2 entwässerter Baugrubensohle, höchstens (l/h): ____________
+
+03.51       Einbau (flächig) von Schüttungen in Gruben
+
+
+            1. Gesteinskörnungen:
+            Einbau (flächig) von Gesteinskörnungen (z.B. natürliches, recykliertes oder industriell hergestelltes Material) als
+            Schüttmaterial in Gruben (z.B. unter Fundamentplatten, Unterbauplanum). Abgerechnet wird nach Planmaß.
+            2. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - das Feinplanieren der Oberfläche
+
+03.51 01    Einbau/flächig (fl.) von Gesteinskörnungen als Schüttmaterial in der offenen Baugrube, einschließlich
+            Ausbreiten, wenn vorgeschrieben im Gefälle. Im Positionsstichwort ist die Schichtdicke angegeben.
+
+03.51 01A   Einbau fl.Schüttung Rundkies b.50cm                                                                              m³
+            Körnung 16/32 mm oder 32/63 mm (z.B. gewaschener Rundkies)
+
+03.51 01B   Einbau fl.Schüttung Dränmaterial b.50cm                                                                          m³
+            Körnung bis 32 mm (Dränmaterial).
+             Kommentar:
+             Die obige Position ist nicht für Bodenaustausch und Wegebau anzuwenden, siehe auch LG 13 Außenarbeiten oder RVS.
+
+03.51 02    Einbau/flächig (fl.), in der offenen Baugrube, einschließlich Ausbreiten, wenn vorgeschrieben im Gefälle. In
+            Lagen einbringen und der projektgemäßen Nutzung entsprechend verdichten.
+
+03.51 02A   Einbau fl.Schüttung Frostschutz+verdichten                                                                       m³
+            Von Gesteinskörnungen als Schüttmaterial.
+            Aus nicht korngestuften Frostschutzmaterial, Schichtdicke bis 30 cm.
+
+03.51 02D   Einbau fl.Schüttung Glasschaumschotter                                                                           m³
+            Aus Glasschaumschotter, Schichtdicke bis 50 cm.
+
+03.61       Hinterfüllen von Gruben
+
+
+            1. Hinterfüllen (seitliches Einschütten von Bauwerken):
+            Hinterfüllungen erfolgen mit vorhandenem, zwischengelagertem (Massenausgleich) oder mit angeliefertem
+                                                                                                                       Seite 28 / 33
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+            Aushubmaterial.
+            Hinterfüllungen mit Gesteinskörnungen oder Grädermaterial (z.B. natürliches, recykliertes oder industriell
+            hergestelltes Material) oder selbstverdichtendes Material als Schüttmaterial erfolgen auf ausdrückliche
+            Anordnung oder im Einvernehmen mit dem Auftraggeber.
+            2. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - das Feinplanieren der Oberfläche der verfüllten Gruben
+            3. Ausmaß- und Abrechnungsregeln:
+            Hinterfüllen wird im Ausmaß der Aushubkörper abgerechnet.
+            LB-Version: 23                  Geändert
+Änderung:   Änderung der Vliese auf Filtergeotextil.
+            Statt dem Flächengewicht, wurden neue Mindestvoraussetzungen definiert. Das Flächengewicht allein ist nicht aussagekräftig
+            genug, welches "Geotextil" hier einzusetzen ist.
+
+03.61 01    Hinterfüllen von Baukörpern außerhalb von Gebäuden, einschließlich etwaigem Laden und Abladen.
+            Abgerechnet wird nach Planmaß.
+
+03.61 01A   Hinterfüllen Grube Aushub+verdichten                                                                                 m³
+            Mit zwischengelagertem Aushubmaterial, in Lagen einbringen und der projektgemäßen Nutzung entsprechend
+            verdichten (für nicht befestigte Flächen).
+03.61 02    Hinterfüllen mit Gesteinskörnungen als Schüttmaterial bei Baukörpern außerhalb von Gebäuden. Abgerechnet
+            wird nach Planmaß.
+
+03.61 02A   Schüttmaterial Grube gebrochenes Material                                                                            m³
+            Aus gebrochenem Material (Grädermaterial). In Lagen einbringen und der projektgemäßen Nutzung
+            entsprechend verdichten.
+
+03.61 02B   Schüttmaterial Grube Rollschotter                                                                                    m³
+            Aus Rollschotter.
+
+03.61 03    Einbau (Hinterfüllen) von stabilisiertem (selbstverdichtendem) Verfüllmaterial (SVM), für das ein Prüfbericht
+            einer zugelassenen Prüfanstalt vorliegt, bei Baukörpern außerhalb von Gebäuden. Stabilisierte
+            Verfüllmaterialien (SVM) entsprechen den Anforderungen des Kriterienkataloges des Auftraggebers in
+            Abhängigkeit vom Einsatzbereich und werden nach den Angaben des Herstellers eingebaut. Der Nachweis der
+            Tragfähigkeit, der SVM-Verfüllung an der Baustelle, erfolgt durch den Auftragnehmer im Einvernehmen mit dem
+            Auftraggeber. Abgerechnet wird nach Planmaßen.
+             Kommentar:
+             Stabilisierte Verfüllmaterialien (SVM) sind entsprechend konditionierte Verfüllmaterialien auf Basis von natürlichen
+             Gesteinskörnungen oder Recycling-Materialien, die in fließfähigem Zustand eingebracht werden und in einem
+             anschließenden Abbinde- oder Verfestigungsprozess, ohne Einsatz von Verdichtungsenergie, eine dem geforderten
+             Einsatzzweck entsprechende Festigkeit und Tragfähigkeit erreichen, dabei aber über die gesamte Nutzungsdauer händisch
+             wieder aufgrabbar bleiben.
+
+03.61 03A   Schüttmaterial Grube SVM                                                                                             m³
+            Wert der Bodenpressung: ____________
+
+03.61 11    Filterschutz als Oberflächenschutz von Einbauten beim Einbau von stabilisierten, selbstverdichtendem
+            Verfüllmaterial, einschließlich einer 20cm Überlappung je Bahn.
+            Abgerechnet wird die ummantelte oder abgedeckte Fläche (ohne Überlappungen).
+
+03.61 11A   Ummanteln Filtergeotextil Grube                                                                                      m²
+            Durch Ummanteln der Filterschicht mit Filtergeotextil.
+            Mindestvoraussetzungen:
+                • Charakteristische Öffnungsweite > 80 µm
+                • Zugfestigkeit (Längs und Quer) > 8,5 kN/m
+            LB-Version: 23                Geändert
+Änderung:   Statt dem Flächengewicht, wurden neue Mindestvoraussetzungen definiert. Das Flächengewicht alleine ist nicht
+            aussagekräftig genug, welches "Geotextil" hier einzusetzen ist.
+
+03.61 11B   Ummanteln Filtergeotextil erh. Anford. Grube                                                                         m²
+
+
+                                                                                                                           Seite 29 / 33
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+            Durch Ummanteln der Filterschicht mit Filtergeotextil erhöhter Anforderung (erh. Anford.).
+            Mindestvoraussetzungen:
+                • Charakteristische Öffnungsweite > 80 µm
+                • Zugfestigkeit (Längs und Quer) > 11 kN/m
+            LB-Version: 23                  Geändert
+Änderung:   Statt dem Flächengewicht, wurden neue Mindestvoraussetzungen definiert. Das Flächengewicht allein ist nicht aussagekräftig
+            genug, welches "Geotextil" hier einzusetzen ist.
+
+03.61 11C   Abdecken Matten Grube                                                                                                m²
+            Durch Abdecken der Filterschicht mit flexiblen, schlagzähen, filterstabilen, verrottungssicheren Filtermatten.
+
+            LB-Version: 23
+
+03.81       Instandsetzen Baugrube u.Fundamente
+
+
+            1. Erschwernisse:
+            Alle Erschwernisse, die aus den Merkmalen einer Instandsetzungs- oder Adaptierungsarbeit resultieren, sind in
+            die Einheitspreise einkalkuliert.
+            2. Transport:
+            Der Transport beinhaltet das Laden und Abladen.
+            3. Aushub von Fundamenten (Streifen- und Einzelfundamente und etwaige Frostschürzen):
+            Beim Fundamentaushub wird der letzte Arbeitsgang unmittelbar vor einer etwaigen Sauberkeitsschicht oder vor
+            dem Fundamentbeton (eigene Positionen) entsprechend den Bodenverhältnissen so durchgeführt, dass die
+            geplante (geforderte) Genauigkeit der Aushubsohle erzielt wird.
+            4. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            4.1 Zwischenlagern:
+            Der Platz für das Zwischenlagern des zum Wiederverwenden bestimmten Aushubmaterials wird, wenn nicht
+            bereits in der Ausschreibung bestimmt, im Einvernehmen mit dem Auftraggeber festgelegt.
+            Die Wiederinstandsetzung der vom Auftraggeber für die Zwischenlagerung von Aushub- oder
+            Abtragungsmaterial beigestellten Flächen nach Beendigung der Bauarbeiten ist in die Einheitspreise
+            einkalkuliert.
+            4.2 Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - das Zwischenlagern zur Wiederverwendung einschließlich Laden und Fördern im Baustellenbereich (Förderart,
+            Förderweg und die Organisation der Leistung bleiben dem Auftragnehmer überlassen)
+            - das Herstellen des Grobplanums (+/-10 cm)
+            - Schalungen bei Gründungsarbeiten, die infolge nicht plangemäßen Aushubs erforderlich sind
+            5. Ausmaß- und Abrechnungsregeln:
+            Ausschreibung und Abrechnung erfolgen nach lotrechten (vertikalen) Abschnitten. Leistungen sind von Null bis
+            zur angegebenen Tiefe (Gesamttiefe) beschrieben.
+            LB-Version: 23                Geringfügig Geändert
+03.81 01    Aushub Lockerboden (AKL), abschnittsweise, in Gruben (z.B. Berme für ein zu unterfangendes Fundament).
+            Abgerechnet wird das Raummaß, welches durch Bodengutachten, Statik und Skizze festgelegt ist.
+
+03.81 01A   Aushub Lockerboden (AKL) Grube abschnittsweise                                                                       m³
+03.81 02    Aushub Lockerboden (AKL) für Streifen- und Einzelfundamente (Fundament) in geschlossenen Räumen
+            (Gebäude-Altbestand). Im Positionsstichwort ist die Tiefe des lotrechten Abschnittes angegeben.
+
+03.81 02A   Aushub Lockerboden (AKL) Fundament 0-1,25m+fördern Erdg.                                                             m³
+            Im Erdgeschoß, einschließlich des Transportes.
+
+03.81 02B   Aushub Lockerboden (AKL) 0-3m+fördern Erdg.                                                                          m³
+            Im Erdgeschoß, einschließlich des Transportes.
+
+03.81 02C   Aushub Lockerboden (AKL) 0-1,25m+fördern Keller                                                                      m³
+            Im Keller, einschließlich des Transportes auf Hof- oder Straßenniveau.
+
+                                                                                                                           Seite 30 / 33
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+03.81 02D   Aushub Lockerboden (AKL) 0-3m+fördern Keller                                                              m³
+            Im Keller, einschließlich des Transportes auf Hof- oder Straßenniveau.
+
+03.81 03    Abgraben des gestampften Bodens in geschlossenen Räumen im bestehenden Gebäude. Im Positionsstichwort
+            ist die Tiefe des lotrechten Abschnittes angegeben.
+
+03.81 03A   Abgraben Erdgeschoß 0-0,2m+fördern                                                                        m³
+            Im Erdgeschoß, einschließlich des Transportes.
+
+03.81 03B   Abgraben Keller 0-0,2m+fördern                                                                            m³
+            Im Keller, einschließlich des Transportes auf Hof- oder Straßenniveau.
+
+03.81 04    Aushub Lockerboden (AKL) für Unterfangungen in geschlossenen Räumen, abschnittsweise, unterhalb
+            bestehender Fundamente. Abgerechnet wird das Raummaß des neuen Unterfangungsfundamentes, gemessen
+            ab Unterkante des bestehenden Fundamentes. Im Positionsstichwort ist die Tiefe des lotrechten Abschnittes
+            angegeben.
+
+03.81 04D   Aushub Lockerboden (AKL) Unterfangung Erdg.0-1,25m+fördern                                                m³
+            Im Erdgeschoß, einschließlich des Transportes.
+
+03.81 04E   Aushub Lockerboden (AKL) Unterfangung Erdg.0-3m+födern                                                    m³
+            Im Erdgeschoß, einschließlich des Transportes
+
+03.81 04G   Aushub Lockerboden (AKL) Unterfangung Ke.0-1,25m+fördern                                                  m³
+            Im Keller (Ke.), einschließlich des Transportes auf Hof- oder Straßenniveau.
+
+03.81 04H   Aushub Lockerboden (AKL) Unterfangung Ke.0-3m+fördern                                                     m³
+            Im Keller (Ke.), einschließlich des Transportes auf Hof- oder Straßenniveau.
+
+03.81 11    Aushub Lockerboden (AKL) für Arbeitsräume entlang von Bestandswänden.
+            Im Positionsstichwort ist die Tiefe des lotrechten Abschnittes angegeben.
+
+03.81 11A   Aushub Lockerboden (AKL) Arbeitsraum 0-1,25m                                                              m³
+            LB-Version: 23
+
+03.81 11B   Aushub Lockerboden (AKL) Arbeitsraum 0-3m                                                                 m³
+            LB-Version: 23
+
+03.81 11C   Aushub Lockerboden (AKL) Arbeitsraum 0-5m                                                                 m³
+            LB-Version: 23
+
+03.81 11X   Aushub Lockerboden (AKL) Arbeitsraum 0-__________                                                         m³
+            LB-Version: 23
+
+03.91       Transportieren,Verwerten,Deponieren von Aushubmaterial
+03.91 05    Geladenes Aushubmaterial (Grube) transportieren, verwerten oder deponieren (Transp./Verw./Dep.), nach Wahl
+            des Auftragnehmers.
+
+03.91 05A   Transp./Verw./Dep.Aushub Grube rein                                                                       m³
+            Für reines Aushubmaterial, das gemäß Deponieverordnung die Anforderungen der Bodenaushubdeponien
+            einhält.
+            Bodenaushub auf Bodenaushubdeponie (SNR 31411-29 bis 32)
+
+03.91 05B   Transp./Verw./Dep.Aushub Grube Inertabfall b.30% / b.3%                                                   m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushubdeponien
+            ungeeignet ist, aber die Anforderungen der Inertabfalldeponien (Inertabfall.) einhält.
+            Bodenaushub Inertabfallqualität (SNR 31411-33):
+                • bis 30% mineralische bodenfremde Bestandteile
+                • bis 3% organische bodenfremde Bestandteile
+
+03.91 05C   Transp./Verw./Dep.Aushub Grube Inertabfall ü.30% / ü.3%                                                   m³
+                                                                                                                Seite 31 / 33
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushubdeponien
+            ungeeignet ist, aber die Anforderungen der Inertabfalldeponien (Inertabfall.) einhält.
+            Bodenaushub Inertabfallqualität (SNR 31411-33):
+                • über 30% mineralische bodenfremde Bestandteile
+                • über 3% organische bodenfremde Bestandteile
+
+03.91 05D   Transp./Verw./Dep.Aushub Grube Baurestmassen b.30% / b.3%                                                  m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushub- oder
+            Inertabfalldeponien ungeeignet ist, aber die Anforderungen der Baurestmassendeponien (Baurestm.) einhält.
+            Bodenaushub Baurestmassenqualität (SNR 31423-36 bzw. 31424-37):
+                • bis 30% mineralische bodenfremde Bestandteile
+                • bis 3% organische bodenfremde Bestandteile
+
+03.91 05E   Transp./Verw./Dep.Aushub Grube Baurestmassen ü.30% / ü.3%                                                  m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushub- oder
+            Inertabfalldeponien ungeeignet ist, aber die Anforderungen der Baurestmassendeponien (Baurestm.) einhält.
+            Bodenaushub Baurestmassenqualität (SNR 31423-36 bzw. 31424-37):
+                • über 30% mineralische bodenfremde Bestandteile
+                • über 3% organische bodenfremde Bestandteile
+
+03.91 05F   Transp./Verw./Dep.Aushub Grube Reststoff                                                                   m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushub-, Inertabfall- oder
+            Baurestmassendeponien ungeeignet ist, aber die Anforderungen der Reststoffdeponien (Reststoff.) einhält.
+            Bodenaushub Reststoffqualität (SNR 31423-36 bzw. 31424-37)
+
+03.91 05G   Transp./Verw./Dep.Aushub Grube Massenabfall                                                                m³
+            Für Aushubmaterial, das gemäß Deponieverordnung für eine Deponierung auf Bodenaushub-, Inertabfall-,
+            Baurestmassen- und Reststoffdeponien ungeeignet ist, aber die Anforderungen der Massenabfalldeponien
+            (Massenabf.) einhält.
+            Bodenaushub Massenabfallqualität (SNR 31423-36 bzw. 31424-37)
+
+03.91 06    Geladenes Aushubmaterial (Grube) transportieren, verwerten oder deponieren (Transp./Verw./Dep.), nach Wahl
+            des Auftragnehmers.
+
+03.91 06A   Transp./Verw./Dep.Aushub Grube (nicht deponierbar)                                                         m³
+            Für nicht gefährliches verunreinigtes Aushubmaterial, das gemäß Deponieverordnung keine Deponieklasse
+            einhält.
+            Schlüsselnummer (SNR) gemäß Gutachten: ____________
+
+03.91 10    Geladener, auf der Baustelle gewonnenen und überschüssigen Mutterboden (AKL-M).
+
+03.91 10A   Transport Mutterboden (AKL-M)                                                                              m³
+            Transportieren (Transport).
+            Örtlichkeit:____________
+
+03.91 10B   Verwerten Mutterboden (AKL-M)                                                                              m³
+            Verwerten.
+
+03.91 10C   Transportieren u.Verwerten Mutterboden (AKL-M)                                                             m³
+            Transportieren und verwerten.
+
+03.91 11    Geladener, auf der Baustelle gewonnenen und überschüssigen Oberboden (AKL-O).
+
+03.91 11A   Transport Oberboden (AKL-O)                                                                                m³
+            Transportieren (Transport).
+            Örtlichkeit:____________
+
+03.91 11B   Verwerten Oberboden (AKL-O)                                                                                m³
+            Verwerten.
+
+03.91 11C   Transportieren u.Verwerten Oberboden (AKL-O)                                                               m³
+                                                                                                                 Seite 32 / 33
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau              gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                  EH
+           Transportieren und verwerten.
+
+
+
+
+                                                                Seite 33 / 33
+                                           ib-data GmbH, Softwareentwicklung
+

@@ -1,0 +1,1037 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                  Leistungsgruppe (LG) 01 - Baustellengemeinkosten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 0110    Beweissicherung und Sonstiges
+                     ULG 0111    Zusammenfassung der Baustellengemeinkosten
+                     ULG 0112    Sonderkosten der Baustelle
+                     ULG 0113    Baustellengemeinkosten im Einzelnen
+                     ULG 0117    Schutzvorkehrungen und Abdeckungen
+                     ULG 0119    Schutzmaßnahmen gegen Absturz
+                     ULG 0121    Schutz- u. sonstige Gerüste
+
+
+
+
+                                                                                                           Seite 1 / 16
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                               EH
+
+01          Baustellengemeinkosten
+            Version 023 (2025-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Allgemeines:
+            Baustellengemeinkosten sind im Sinne der ÖNORM B 2061 angeboten.
+            2. Vorhalten:
+            Das Vorhalten umfasst auch alle Prüfungen, Instandhaltungsmaßnahmen, etwaiges Verbrauchsmaterial und die
+            erforderliche Reinigung.
+            Abgerechnet wird in Verrechnungseinheiten, ermittelt aus dem Ausmaß x der Anzahl der Wochen. Wochen sind
+            teilbar, wobei 1 Kalendertag gleich 1/7 Woche ist.
+            3. Stillliegezeiten:
+            Für die Verrechnung der Stillliegezeiten bedarf es einer Anordnung des Auftraggebers.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Kommunale Kanalbenützungsabgabe
+             - Auffangbecken, Kläranlagen oder sonstige technische Maßnahmen
+             - Baukräne mit Schiebefahrwerken
+             - Baukräne mit Kranbahnen
+             - Angaben (wählbare Vorbemerkungen) und Positionen gemäß Werkvertragsnorm und der ÖNORM B 2110, in Ergänzung
+             zur standardisierten Leistungsbeschreibung
+             Literaturhinweis (z.B.):
+             - ÖNORM V 2104 Technische Hilfen für blinde, sehbehinderte und mobilitätsbehinderte Menschen - Baustellen- und
+             Gefahrenbereichsabsicherungen
+
+            LB-Version: 23                      Geändert
+Änderung:   Änderung der Zeitgebundenen Kosten - Baubetrieb und Stillliegezeit. Zusammenlegung von Baubetrieb mit SiGe Baubetrieb
+            und Stillliegezeit mit SiGe Stillliegezeit.
+            Geänderte Positionen:
+            01.11 01A Einrichten der Baustelle + SiGe
+            01.11 01B Räumen der Baustelle + SiGe
+            01.11 02A Zeitgebundene Kosten der Baustelle
+            01.11 02B Zeitgebundene Kosten der Baustelle - Stillliegezeit
+            01.11 02C Zeitgebundene Kosten SiGe
+            01.11 02D Zeitgebundene Kosten SiGe Stillliegezeit
+            01.11 06A Gesamte Baustellengemeinkosten n.Prozent + SiGe
+            ULG 01.21 Schutz- u.sonstige Gerüste
+            Neue Positionen:
+            01.11 05A Zeitgebundene Kosten der Baustelle + SiGe
+            01.11 05B Zeitgebundene Kosten der Baustelle - Stillliegezeit + SiGe
+            01.13 01A Subzähler
+            01.13 01C Subzähler AN vorhalten
+
+01.10       Beweissicherung und Sonstiges
+             Kommentar:
+             Die StLB geht gemäß ÖNORM davon aus, dass Einbautenerhebungen und Geländeaufnahmen vom Auftraggeber
+             durchgeführt werden.
+             Sollen die Leistungen oder Teile der Leistung vom Auftragnehmer erfüllt werden, sind diese frei zu formulieren.
+
+01.10 03    Einbauten und Beweissicherung.
+
+01.10 03D   Beweissicherung AN                                                                                                      PA
+            Bestandsaufnahme oder Beweissicherung von Anlagen fremder Rechte (z.B. Quellen und Fischteiche) oder des
+            Zustandes von benachbarten Gebäuden durch den Auftragnehmer, zur späteren Feststellung etwaiger
+            Bauschäden, die durch die Bautätigkeit entstanden sind. Erstellen von Protokollen mit Lichtbildern im Beisein
+            des Eigentümers. Die Unterlagen werden in zweifacher Ausfertigung vor Beginn der Arbeiten dem Auftraggeber
+            übergeben.
+            Betrifft Bauteil(e): ____________
+
+01.10 03E   Beweissicherung AN/Sachverständiger                                                                                     PA
+            Bestandsaufnahme oder Beweissicherung von Anlagen fremder Rechte (z.B. Quellen und Fischteiche) oder des
+            Zustandes von benachbarten Gebäuden durch einen vom Auftragnehmer bestellten Sachverständigen oder
+                                                                                                                               Seite 2 / 16
+                                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+            Ziviltechniker, zur späteren Feststellung etwaiger Bauschäden, die durch die Bautätigkeit entstanden sind.
+            Erstellen von Protokollen mit Lichtbildern im Beisein des Eigentümers. Der Sachverständige oder Ziviltechniker
+            ist dem Auftraggeber bekannt zu geben. Unterlagen werden in zweifacher Ausfertigung vor Beginn der Arbeiten
+            dem Auftraggeber übergeben.
+            Betrifft Bauteil(e): ____________
+
+01.11       Zusammenfassung der Baustellengemeinkosten
+
+
+            In dieser Unterleistungsgruppe sind die Baustellengemeinkosten sowie die Leistungen für die Sicherheit und
+            des Gesundheitsschutzes in Sammelpositionen, für die im Leistungsverzeichnis keine Einzelpositionen
+            vorgesehen sind, zusammengefasst.
+            LB-Version: 23                Geändert
+01.11 01    Einmalige Kosten der Baustelle, einschließlich der Maßnahmen der Sicherheit und des Gesundheitsschutzes
+            (SiGe-Plan).
+
+01.11 01A   Einrichten der Baustelle + SiGe                                                                                      PA
+            Einrichten (Aufbauen) des betriebsfertigen Zustandes.
+
+            LB-Version: 23                Geändert
+Änderung:   Änderung des Stichworts
+            Änderung bez. Baubetriebszeit auf Baudauer
+            Änderung des Grundtextes bezüglich aktueller ÖN B 2061:2020
+
+01.11 01B   Räumen der Baustelle + SiGe                                                                                          PA
+            Räumen (Abbauen und Abtransportieren).
+
+            LB-Version: 23                Geändert
+Änderung:   Änderung des Stichworts
+            Änderung bez. Baubetriebszeit auf Baudauer
+            Änderung des Grundtextes bezüglich aktueller ÖN B 2061:2020
+
+01.11 02    Durchschnittliche zeitgebundene Kosten der Baustelle, wie Personal-, Material-, Geräte- und andere Kosten der
+            Baustelle.
+
+01.11 02A   Zeitgebundene Kosten der Baustelle                                                                                   Wo
+            Für den eigenen Bedarf, mit Ausnahme der im SiGe-Plan festgelegten Maßnahmen.
+
+            LB-Version: 23                Geändert
+Änderung:   Änderung des Stichworts
+            Änderung bez. Baubetriebszeit auf Baudauer
+            Änderung des Grundtextes bezüglich aktueller ÖN B 2061:2020
+
+01.11 02B   Zeitgebundene Kosten der Baustelle - Stillliegezeit                                                                  Wo
+            Für den eigenen Bedarf, mit Ausnahme der im SiGe-Plan festgelegten Maßnahmen, während der vom
+            Auftraggeber angeordneten Stillliegezeit.
+             Kommentar:
+             Unter Stillliegezeiten ist eine vom Auftraggeber angeordnete oder bereits mit Vertragsabschluss vereinbarte
+             Leistungsunterbrechung zu verstehen (Leistungsunterbrechungen können z.B. im Vertragsterminplan als Stillliegezeit
+             definiert werden). Eine Leistungsunterbrechung insbesondere aufgrund der Arbeitsdisposition des Auftragnehmers, wie z.B.
+             auch Urlaubszeiten, ist nicht unter Stillliegezeit zu verstehen.
+
+            LB-Version: 23                Geändert
+Änderung:   Änderung des Stichworts
+            Änderung bez. Baubetriebszeit auf Baudauer
+            Änderung des Grundtextes bezüglich aktueller ÖN B 2061:2020
+
+01.11 02C   Zeitgebundene Kosten SiGe                                                                                            Wo
+            Für Maßnahmen gemäß SiGe-Plan.
+
+            LB-Version: 23                Geändert
+Änderung:   Änderung des Stichworts
+            Änderung bez. Baubetriebszeit auf Baudauer
+            Änderung des Grundtextes bezüglich aktueller ÖN B 2061:2020
+
+01.11 02D   Zeitgebundene Kosten SiGe Stillliegezeit                                                                             Wo
+            Für Maßnahmen gemäß SiGe-Plan, während der vom Auftraggeber angeordneten Stillliegezeit.
+
+                                                                                                                            Seite 3 / 16
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+             Kommentar:
+             Unter Stillliegezeiten ist eine vom Auftraggeber angeordnete oder bereits mit Vertragsabschluss vereinbarte
+             Leistungsunterbrechung zu verstehen (Leistungsunterbrechungen können z.B. im Vertragsterminplan als Stillliegezeit
+             definiert werden). Eine Leistungsunterbrechung insbesondere aufgrund der Arbeitsdisposition des Auftragnehmers, wie z.B.
+             auch Urlaubszeiten, ist nicht unter Stillliegezeit zu verstehen.
+
+            LB-Version: 23                Geändert
+Änderung:   Änderung des Stichworts
+            Änderung bez. Baubetriebszeit auf Baudauer
+            Änderung des Grundtextes bezüglich aktueller ÖN B 2061:2020
+
+01.11 05    Durchschnittliche zeitgebundene Kosten der Baustelle, wie Personal-, Material-, Geräte- und andere Kosten der
+            Baustelle, einschließlich der Maßnahmen der Sicherheit und des Gesundheitsschutzes (SiGe-Plan).
+             Kommentar:
+             Die Positionen 01.11 05 A, B können anstelle der Positionen 01.11 02 A bis D verwendet werden, nicht jedoch in
+             Kombination mit diesen Positionen.
+
+01.11 05A   Zeitgebundene Kosten der Baustelle + SiGe                                                                             Wo
+            Für den eigenen Bedarf, einschließlich der im SiGe-Plan festgelegten Maßnahmen, während dem Baubetrieb.
+
+            LB-Version: 23
+
+01.11 05B   Zeitgebundene Kosten der Baustelle - Stillliegezeit + SiGe                                                            Wo
+            Für den eigenen Bedarf, einschließlich der im SiGe-Plan festgelegten Maßnahmen, während der vom
+            Auftraggeber angeordneten Stillliegezeit.
+             Kommentar:
+             Unter Stillliegezeiten ist eine vom Auftraggeber angeordnete oder bereits mit Vertragsabschluss vereinbarte
+             Leistungsunterbrechung zu verstehen (Leistungsunterbrechungen können z.B. im Vertragsterminplan als Stillliegezeit
+             definiert werden). Eine Leistungsunterbrechung insbesondere aufgrund der Arbeitsdisposition des Auftragnehmers, wie z.B.
+             auch Urlaubszeiten, ist nicht unter Stillliegezeit zu verstehen.
+
+            LB-Version: 23
+01.11 06    Einmalige und zeitgebundene Kosten der Baustelle, einschließlich der Maßnahmen der Sicherheit und des
+            Gesundheitsschutzes (SiGe-Plan).
+            Die Verrechnung erfolgt nach Baufortschritt nach Prozent der Leistungserbringung.
+             Kommentar:
+             Diese Position kann anstelle der Positionen 01.11.01 A, B und 01.11.02 A bis D, sowie 01.11 05 A, B verwendet werden,
+             nicht jedoch in Kombination mit diesen Positionen.
+
+01.11 06A   Gesamte Baustellengemeinkosten n.Prozent + SiGe                                                                       PA
+            LB-Version: 23                Geändert
+
+01.12       Sonderkosten der Baustelle
+01.12 01    Sonderkosten der Baustelle.
+
+01.12 01A   Sonderkosten Statik+Pläne AN                                                                                          PA
+            Für das Ausarbeiten der statischen Berechnungen und der Konstruktionspläne (Schalungs-, Bewehrungs- und
+            Werkstattpläne) durch den Auftragnehmer (AN).
+
+01.12 01B   Sonderkosten Statik+Pläne AN+ZT                                                                                       PA
+            Für das Ausarbeiten der statischen Berechnungen und der Konstruktionspläne (Schalungs-, Bewehrungs- und
+            Werkstattpläne) durch den Auftragnehmer, geprüft von einem befugten Ziviltechniker. Der vom Auftragnehmer
+            beauftragte befugte Ziviltechniker (ZT) wird dem Auftraggeber unverzüglich nach Auftragserteilung bekannt
+            gegeben. Die Unterlagen werden in fünffacher Ausführung so rechtzeitig übergeben, dass die Überprüfung noch
+            vor dem Durchführen der Arbeiten möglich ist.
+
+01.12 02    Bewachung der Baustelle.
+
+01.12 02A   Bewachung nach Arbeitszeit ständig                                                                                    Wo
+            Außerhalb der Normalarbeitszeit durch eine ständig anwesende Bewachung.
+
+01.12 02B   Bewachung nach Arbeitszeit Streife                                                                                    Wo
+            Außerhalb der Normalarbeitszeit durch einen Streifendienst.
+            Anzahl der Streifengänge: ____________
+
+
+                                                                                                                             Seite 4 / 16
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+01.12 02C   Bewachung rund um die Uhr                                                                                    Wo
+            Rund um die Uhr.
+
+01.13       Baustellengemeinkosten im Einzelnen
+
+
+            Die Leistung (Herstellen) umfasst das Aufbauen eines gebrauchsfähigen Zustandes einschließlich
+            Antransportieren, Aufstellen und Montieren sowie das Abbauen, Demontieren und Abtransportieren.
+            Die Teilleistung des Aufbauens eines gebrauchsfertigen Zustandes wird mit 70 Prozent, die Teilleistung des
+            Abbauens mit 30 Prozent der Gesamtleistung bewertet.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Sanitätscontainer (z.B. bei über 250 Arbeitnehmern)
+
+            LB-Version: 23                 Geringfügig Geändert
+01.13 00    Folgende Angaben oder Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise der zutreffenden Positionen einkalkuliert.
+
+01.13 00A   Einrichtungen f.d.eigenen Bedarf u.Dritte
+            Einrichtungen für den eigenen Bedarf (Auftragnehmer) und Dritte (andere Auftragnehmer des Auftraggebers).
+            Betrifft Position(en):____________
+
+01.13 00B   Einrichtungen f.d.eigenen Bedarf
+            Einrichtungen für den eigenen Bedarf (Auftragnehmer).
+            Betrifft Position(en):____________
+
+01.13 00C   Einrichtungen f.Dritte
+            Einrichtungen für Dritte (andere Auftragnehmer des Auftraggebers).
+            Betrifft Position(en):____________
+01.13 01    Subzähler für die Feststellung des Verbrauches (z.B. Strom, Wasser, Gas).
+
+01.13 01A   Subzähler                                                                                                    Stk
+            LB-Version: 23
+
+01.13 01C   Subzähler AN vorhalten                                                                                       VE
+            Vorhalten von Subzähler des Auftragnehmers, ohne Unterschied ob Baubetriebszeit oder Stillliegezeit.
+            Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+            LB-Version: 23
+01.13 02    Bauzaun nach Wahl des Auftragnehmers, Zaunhöhe 1,5 bis 2,5 m über Terrain, einschließlich Türen oder Tore.
+
+01.13 02A   Bauzaun                                                                                                      m
+
+01.13 02B   Bauzaun vorhalten                                                                                            VE
+            Vorhalten ohne Unterschied, ob Baubetriebszeit oder Stillliegezeit. Abgerechnet wird in Verrechnungseinheiten
+            (VE = m x Wochen).
+01.13 03    Schranke für Baustelleneinfahrt nach Wahl des Auftragnehmers, verschließbar, Durchfahrtsbreite 4 m.
+
+01.13 03A   Schranke Einfahrt                                                                                            Stk
+
+01.13 03B   Schranke Einf.vorh.Baubetrieb                                                                                VE
+            Vorhalten während der Baubetriebszeit, einschließlich Bedienung. Abgerechnet wird in Verrechnungseinheiten
+            (VE = Stück x Wochen).
+
+01.13 03C   Schranke Einf.vorh.Stillliegezeit                                                                            VE
+            Vorhalten während der Stillliegezeit. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+
+01.13 04    Baustromverteiler für andere Auftragnehmer in versperrbarem Kasten, mit Zählerplatte mit mindestens einer
+            Universalsicherung 35A, FI-Schalter vierpolig 40/0,1 A, 2 Stück Steckdosen fünfpolig 16 A und 2 Stück
+            Schukosteckdosen 16 A, aufgestellt und angeschlossen an einer vom Auftraggeber angegebenen Stelle.
+
+                                                                                                                    Seite 5 / 16
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+01.13 04A   Baustromverteiler                                                                                             Stk
+
+01.13 04B   Baustromverteiler vorhalten                                                                                   VE
+            Vorhalten ohne Unterschied, ob Baubetriebszeiten oder Stillliegezeit. Abgerechnet wird in
+            Verrechnungseinheiten (VE = Stück x Wochen).
+01.13 05    Container in Standardausführung (Abmessungen 2,5 x 6 m), wärmegedämmt, zur Verwendung als
+            Aufenthaltsraum (Aufenth.) gemäß Bauarbeiter- und ArbeitnehmerInnenschutzgesetz.
+
+01.13 05A   Cont.Stand.Aufenth.                                                                                           Stk
+
+01.13 05B   Cont.Stand.Aufenth.vorhalten Baubetrieb                                                                       VE
+            Vorhalten während der Baubetriebszeit. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+
+01.13 05C   Cont.Stand.Aufenth.vorhalten Stillliegezeit                                                                   VE
+            Vorhalten während der Stillliegezeit. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+
+01.13 06    Container in Standardausführung (Abmessungen 2,5 x 6 m), wärmegedämmt, zur Verwendung als Baukanzlei
+            (Büro) gemäß Bauarbeiter- und ArbeitnehmerInnenschutzgesetz.
+
+01.13 06A   Cont.Stand.Büro                                                                                               Stk
+
+01.13 06B   Cont.Stand.Büro vorhalten Baubetrieb                                                                          VE
+            Vorhalten während der Baubetriebszeit. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+
+01.13 06C   Cont.Stand.Büro vorhalten Stillliegezeit                                                                      VE
+            Vorhalten während der Stillliegezeit. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+
+01.13 07    Container in Standardausführung (Abmessungen 2,5 x 6 m) einschließlich Zwischenwände, Türen mit
+            Beschlägen, wärmegedämmt, zur Verwendung als Sanitärräume (Sanitär) mit Sanitärgegenständen
+            (einschließlich Duschen) und Installationen (Kalt- und Warmwasser, Beleuchtung), betriebsbereit montiert und
+            angeschlossen, gemäß Bauarbeiter- und ArbeitnehmerInnenschutzgesetz.
+
+01.13 07A   Cont.Stand.Sanitär                                                                                            Stk
+
+01.13 07B   Cont.Stand.Sanitär vorhalten Baubetrieb                                                                       VE
+            Vorhalten während der Baubetriebszeit. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+
+01.13 07C   Cont.Stand.Sanitär vorhalten Stillliegezeit                                                                   VE
+            Vorhalten während der Stillliegezeit. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+
+01.13 13    Chemo-Toiletten ohne Wasser und Abwasseranschluss.
+
+01.13 13A   Chem.Toiletten                                                                                                Stk
+
+01.13 13B   Chem.Toiletten vorhalten Baubetrieb                                                                           VE
+            Vorhalten während der Baubetriebszeit, einschließlich täglicher Reinigung und Verbrauchsmaterial (z.B.
+            Toilettenpapier, Handtücher). Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+
+01.13 13C   Chem.Toiletten vorhalten Stillliegezeit                                                                       VE
+            Vorhalten während der Stillliegezeit. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+
+01.13 15    Allgemeinbeleuchtung für die Hauptverkehrswege im Freien (z.B. Wege, Straßen, Lagerplätze). Die
+            Beleuchtungsstärke beträgt mindestens 7 Lux. Alle Leuchten, Schalter und Leitungen sind im Einheitspreis
+            einkalkuliert. Das Installationsmaterial bleibt Eigentum des Auftragnehmers.
+
+01.13 15A   Beleuchtung im Freien                                                                                         Stk
+            Abgerechnet wird die Anzahl der Anlagen.
+            Planungsangabe: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+01.13 15B   Beleuchtung im Freien vorhalten                                                                               VE
+            Vorhalten ohne Energieverbrauch, ohne Unterschied, ob Baubetriebszeiten oder Stillliegezeit. Abgerechnet wird
+            in Verrechnungseinheiten (VE = Stück x Wochen).
+
+                                                                                                                     Seite 6 / 16
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            LB-Version: 23              Geringfügig Geändert
+01.13 16    Allgemeinbeleuchtung für die Hauptverkehrswege in Gebäuden (z.B. Flure, Schleusen, Treppenhäuser,
+            Tiefgaragen, Keller). Die Beleuchtungsstärke beträgt mindestens 15 Lux. Alle Leuchten, Schalter und Leitungen
+            sind im Einheitspreis einkalkuliert. Das Installationsmaterial bleibt Eigentum des Auftragnehmers.
+
+01.13 16A   Beleuchtung in Gebäude                                                                                        Stk
+            Abgerechnet wird die Anzahl der Anlagen.
+            Planungsangabe: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+01.13 16B   Beleuchtung in Gebäuden vorhalten                                                                             VE
+            Vorhalten ohne Energieverbrauch, ohne Unterschied, ob Baubetriebszeiten oder Stillliegezeit. Abgerechnet wird
+            in Verrechnungseinheiten (VE = Stück x Wochen).
+            LB-Version: 23              Geringfügig Geändert
+01.13 20    Verkehrszeichen gemäß StVO nach Angabe des Auftraggebers oder nach dem vom Auftragnehmer
+            festgestellten Erfordernis. Tragkonstruktionen, nach Wahl des Auftragnehmers, sind im Einheitspreis
+            einkalkuliert.
+
+01.13 20A   Verkehrszeichen                                                                                               PA
+            Ohne Unterschied der Anzahl. Abgerechnet wird eine Pauschale.
+            Planungsangabe: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+01.13 20B   Verkehrszeichen vorhalten                                                                                     Wo
+            Vorhalten ohne Unterschied, ob Baubetriebszeiten oder Stillliegezeit.
+
+            LB-Version: 23              Geringfügig Geändert
+01.13 21    Hinweistafeln (z.B. Warnschilder, Wegweiser) ohne Unterschied des Materials, des Beschriftungsinhaltes oder
+            der Grafikzeichen, im Baustellenbereich an Objektteilen oder Gerüsten, einschließlich Tragkonstruktionen
+            montiert. Im Positionsstichwort ist das Flächenmaß der Tafel angegeben.
+
+01.13 21A   Hinweistafel b.0,25m2                                                                                         PA
+            Abgerechnet wird eine Pauschale.
+            Planungsangabe: ____________
+
+01.13 21B   Hinweistafel b.0,25m2 vorhalten                                                                               Wo
+            Vorhalten, ohne Unterschied ob Baubetriebszeiten oder Stillliegezeit.
+
+01.13 21C   Hinweistafel ü.0,25-0,5m2                                                                                     Stk
+            Planungsangabe: ____________
+
+01.13 21D   Hinweistafel ü.0,25-0,5m2 vorhalten                                                                           Wo
+            Vorhalten, ohne Unterschied ob Baubetriebszeiten oder Stillliegezeit.
+
+01.13 21E   Hinweistafel ü.0,5-1m2                                                                                        Stk
+            Planungsangabe: ____________
+
+01.13 21F   Hinweistafel ü.0,5-1m2 vorhalten                                                                              VE
+            Vorhalten, ohne Unterschied ob Baubetriebszeiten oder Stillliegezeit. Abgerechnet wird in
+            Verrechnungseinheiten (VE = Stück x Wochen).
+
+01.13 21G   Hinweistafel ü.1m2-__________                                                                                 Stk
+            Planungsangabe: ____________
+
+01.13 21H   Hinweistafel vorhalten ü.1m2-__________                                                                       VE
+            Vorhalten, ohne Unterschied ob Baubetriebszeit oder Stillliegezeit. Abgerechnet wird in Verrechnungseinheiten
+            (VE = Stück x Wochen).
+01.13 25    Frei aufgestellte Betonschutzwand mit Auslenkbegrenzung nach Wahl des Auftragnehmers. Aufhaltestufe
+            gemäß ÖNORM, mindestens 80 cm hoch. Abgerechnet wird die jeweils gebrauchsfertig aufgestellte Länge
+            (ohne etwaige zwischengelagerte Elemente).
+
+                                                                                                                     Seite 7 / 16
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+01.13 25A   Betonschutzwand 80cm                                                                                          m
+            LB-Version: 23               Geringfügig Geändert
+
+01.13 25B   Betonschutzwand 80cm umsetzen                                                                                 m
+            Umsetzen im Baustellenbereich.
+
+            LB-Version: 23               Geringfügig Geändert
+
+01.13 25C   Betonschutzwand 80cm vorhalten                                                                                VE
+            Vorhalten ohne Unterschied, ob Baubetriebszeiten oder Stillliegezeit. Abgerechnet wird in
+            Verrechnungseinheiten (VE = Meter x Wochen).
+            LB-Version: 23               Geringfügig Geändert
+01.13 26    Lichtzeichenanlage (Lichtzeichenanl.) für den Verkehr (Ampelanlage).
+
+01.13 26A   Lichtzeichenanlage                                                                                            Stk
+            Planungsangabe: ____________
+
+01.13 26B   Lichtzeichenanlage umsetzen                                                                                   Stk
+            Lichtzeichenanlage umsetzen. Abgerechnet wird die Anzahl der umgesetzten Anlagen.
+            Planungsangabe: ____________
+
+01.13 26C   Lichtzeichenanl.vorhalten Baubetrieb                                                                          VE
+            Vorhalten während der Baubetriebszeit, einschließlich Betrieb, Betriebsmittel und automatischer Steuerung.
+            Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+
+01.13 26D   Lichtzeichenanl.vorhalten Stillliegezeit                                                                      VE
+            Vorhalten während der Stillliegezeit. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+
+01.13 30    Baustellensicherung mit Warnleuchten gemäß den geltenden Vorschriften (z.B. zur Sicherung von Gerüsten,
+            vorspringenden Einrichtungen) bei Dunkelheit, mit Netzanschluss oder Batteriebetrieb, nach Wahl des
+            Auftragnehmers.
+
+01.13 30A   Warnleuchten                                                                                                  PA
+            Ohne Unterschied der Anzahl.
+            Planungsangabe: ____________
+
+01.13 30B   Warnleuchten vorhalten                                                                                        Wo
+            Vorhalten, ohne Unterschied der Anzahl und, ob Baubetriebszeiten oder Stillliegezeit.
+
+01.13 31    Netzunabhängige Stromversorgungsanlage (bei nicht vorhandenem Stromanschluss) bestehend aus einem
+            stationären Wechselstromaggregat mit Schalldämmung von 75 dB (A), Baustromverteilerschrank mit Zähler,
+            Unterverteilung und Sicherheitsmaßnahmen betreffend die Lagerung des Treibstoffes.
+
+01.13 31A   Stromversorgung                                                                                               PA
+            Einschließlich etwaiger baulicher Vorarbeiten am Aufstellungsort und wetterfester Verbauung.
+            Für eine Leistung von: ____________
+            Spannung: ____________
+            Sonstige Angaben: ____________
+
+01.13 31B   Stromversorgung vorhalten                                                                                     Wo
+            Vorhalten der gesamten Anlage ohne Treibstoffverbrauch, ohne Unterschied, ob Baubetriebszeiten oder
+            Stillliegezeit.
+
+01.13 31C   Stromversorgung Betrieb                                                                                       PA
+            Betrieb der Anlage, einschließlich Treibstoffverbrauch (Diesel).
+            Für eine Leistung von: ____________
+            Spannung: ____________
+            Sonstige Angaben: ____________
+
+01.13 32    Provisorische Wasserentnahmestelle oder Anschlussmöglichkeit, einschließlich der Anschluss- und
+            Versorgungsleitungen bis zum vorhandenen Netz im Baustellenbereich und eines Wasserzählers. Die
+            Wasserleitungen müssen nicht frostsicher verlegt werden. Antragstellungen und Prüfgebühren sind im
+            Einheitspreis einkalkuliert. Im Positionsstichwort ist der Nenndurchmesser (DN) angegeben.
+
+
+                                                                                                                     Seite 8 / 16
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+01.13 32A   Wasseranschluss DN25                                                                                          Stk
+            Planungsangabe: ____________
+
+            LB-Version: 23              Geringfügig Geändert
+
+01.13 32B   Wasseranschluss DN25 vorhalten                                                                                Wo
+            Vorhalten ohne Wasserverbrauch, ohne Unterschied, ob Baubetriebszeiten oder Stillliegezeit.
+
+            LB-Version: 23              Geringfügig Geändert
+01.13 33    Provisorische Wasserversorgungsanlage (Wasserversorgungsanl.) der Baustelle, einschließlich erforderlicher
+            Wassertanks und der dazugehörigen notwendigen Anschluss- und Versorgungsleitungen. Die Wasserleitungen
+            müssen nicht frostsicher verlegt werden.
+
+01.13 33A   Prov.Wasserversorgungsanl.                                                                                    PA
+            Planungsangabe: ____________
+
+01.13 33B   Prov.Wasserversorgungsanl.vorhalten                                                                           Wo
+            Vorhalten ohne Wasserverbrauch, ohne Unterschied, ob Baubetriebszeiten oder Stillliegezeit.
+
+01.13 33C   Az prov.Wasserversorgungsanl.frostsicher                                                                      PA
+            Aufzahlung (Az) auf Wasserversorgungsanlagen, nicht frostsicher verlegt, für eine frostsichere Verlegung, ohne
+            Unterschied des Rohrdurchmessers. Frostsicher nach Wahl des Auftragnehmers.
+
+01.13 34    Provisorische (Prov.) Wasserversorgung der Baustelle, einschließlich erforderlicher Wassertanks und der
+            dazugehörigen notwendigen Anschlüsse und Armaturen.
+
+01.13 34A   Prov.Wasserversogung Trinkwasser                                                                              m³
+            Antransport von Trinkwasser.
+
+01.13 35    Provisorische Abwasserentsorgungsanlage, einschließlich Anschlussleitung zwischen dem öffentlichen Kanal
+            und dem Anschluss (Reinigungsschacht) auf der Baustelle oder Baugrundstück nach Anweisung des
+            Entsorgungsunternehmens mit allen Verbindungsteilen und Formstücken und den Abflussleitungen innerhalb
+            der Baustelle, bestehend aus Abwasserrohren DN 100 bis 150 mm. Antragstellungen, Prüfgebühren und
+            Anschlussgebühren sind im Einheitspreis einkalkuliert.
+
+01.13 35A   Prov.Abwasserentsorgung                                                                                       PA
+            Planungsangabe: ____________
+
+            LB-Version: 23              Geringfügig Geändert
+
+01.13 35B   Prov.Abwasserentsorgung vorhalten                                                                             Wo
+            Vorhalten ohne Kanalbenützungsabgabe, ohne Unterschied, ob Baubetriebszeiten oder Stillliegezeit.
+
+            LB-Version: 23              Geringfügig Geändert
+01.13 40    Plateau-Bau (Pl.) Aufzug mit bis 4 Haltestellen (H.st.) für den Transport von Baustoffen, Geräten und Schutt. Der
+            Bauaufzug wird anderen Auftragnehmern einschließlich Bedienung kostenlos zur Verfügung gestellt. Der
+            Aufstellort wird einvernehmlich mit dem Auftraggeber festgelegt. Im Positionsstichwort ist die Nutzlast
+            angegeben.
+
+01.13 40A   Pl.Aufzug 4 H.st.500kg                                                                                        Stk
+
+01.13 40B   Pl.Aufzug 4 H.st.500kg vorh.Baubetrieb                                                                        VE
+            Vorhalten (vorh.) während der Baubetriebszeit. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x
+            Wochen).
+
+01.13 40C   Pl.Aufzug 4 H.st.500kg vorh.Stillliegezeit                                                                    VE
+            Vorhalten (vorh.) während der Stillliegezeit. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+
+01.13 41    Plateau-Bau (Pl.) Aufzug für den Transport von Baustoffen, Geräten und Schutt. Der Bauaufzug wird anderen
+            Auftragnehmern einschließlich Bedienung kostenlos zur Verfügung gestellt. Der Aufstellort wird einvernehmlich
+            mit dem Auftraggeber festgelegt. Im Positionsstichwort ist die Nutzlast angegeben.
+
+01.13 41A   Pl.Aufzug 500kg                                                                                               Stk
+            Anzahl der Haltestellen: ____________
+
+01.13 41B   Pl.Aufzug 500kg vorh.Baubetrieb                                                                               VE
+                                                                                                                     Seite 9 / 16
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Vorhalten (vorh.) während der Baubetriebszeit. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x
+            Wochen).
+            Anzahl der Haltestellen: ____________
+
+01.13 41C   Pl.Aufzug 500kg vorh.Stillliegezeit                                                                          VE
+            Vorhalten (vorh.) während der Stillliegezeit. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+            Anzahl der Haltestellen: ____________
+01.13 45    Vom Auftraggeber beigestellte Baustellentafel von einer vom Auftraggeber angegebenen Adresse abholen, auf
+            die Baustelle transportieren und die Tafel an der vom Auftraggeber angegebenen Stelle aufstellen oder
+            montieren. Die Tafel wird nach Beendigung und Übernahme der gesamten Bauarbeiten, einschließlich allen
+            Aufstellungs- und Montagebehelfen, wieder demontiert. Über Anordnung des Auftraggebers wird die Tafel
+            entweder bis zur Wiederverwendung gesichert verwahrt oder, soweit nicht mehr verwendbar, entsorgt.
+            Transporte, Montage- und Demontagearbeiten, etwaige Gerüstungen und Materialbeigaben sind im
+            Einheitspreis einkalkuliert.
+
+01.13 45A   Bautafel AG freie Aufstellung                                                                                Stk
+            Baustellentafel, in freier Aufstellung auf Montagegerüst, bestehend aus Pfosten-Riegelkonstruktion und
+            Schalung, bis zu einer Höhe von 5 m Oberkante über bestehendem Niveau.
+            Baustellentafel/Größe ca.: ____________
+            Abholadresse: ____________
+            LB-Version: 23                Geringfügig Geändert
+Änderung:   Geänderter Grundtext auf Basis ONR 12010.
+
+01.13 45B   Bautafel AG Fassade                                                                                          Stk
+            Baustellentafel, an Fassade mittels Dübeln und Schrauben befestigt, bis zu einer Höhe von 5 m Oberkante über
+            bestehendem Niveau. Die Dübellöcher werden nach der Demontage fachgerecht, mit farblich angepassten
+            Kunststoffpfropfen verschlossen.
+            Baustellentafel/Größe ca.: ____________
+            Abholadresse: ____________
+
+            LB-Version: 23                Geringfügig Geändert
+Änderung:   Geänderter Grundtext auf Basis ONR 12010.
+
+01.13 50    Baukran für den Transport von Baustoffen, Geräten und Schutt einschließlich Betonfundament (nach stat.
+            Erfordernis) einschließlich statischer Berechnungen. Der Baukran wird anderen Auftragnehmern einschließlich
+            Bedienung kostenlos zur Verfügung gestellt. Der Aufstellort wird einvernehmlich mit dem Auftraggeber
+            festgelegt.
+
+01.13 50A   Baukran                                                                                                      Stk
+            Ausladung: ____________
+            Tragfähigkeit bei größtmöglicher Ausladung (Tonnen): ____________
+
+01.13 50B   Baukran vorhalten Baubetrieb                                                                                 VE
+            Vorhalten (vorh.) während der Baubetriebszeit. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x
+            Wochen).
+
+01.13 50C   Baukran vorhalten Stillliegezeit                                                                             VE
+            Vorhalten (vorh.) während der Stillliegezeit. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+
+01.17       Schutzvorkehrungen und Abdeckungen
+
+
+            1. Herstellen (Leistungsumfang):
+            Die Leistung (Herstellen) umfasst das Aufbauen eines gebrauchsfähigen Zustandes einschließlich
+            Antransportieren, Aufstellen und Montieren sowie das Abbauen, Demontieren und Abtransportieren.
+            Die Teilleistung des Aufbauens eines gebrauchsfertigen Zustandes wird mit 70 Prozent, die Teilleistung des
+            Abbauens mit 30 Prozent der Gesamtleistung bewertet.
+            2. Einkalkulierte Leistungen:
+            Die Kosten für etwaige Instandsetzungen (Vorhalten) von Schutzvorkehrungen während der Arbeiten sind in die
+            Einheitspreise einkalkuliert.
+            2.1 Entsorgen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            2.1.1 Verwerten oder Deponieren:
+                                                                                                                   Seite 10 / 16
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+            Abbruchmaterial geht mit dem ersten Laden in das Eigentum des Auftragnehmers über.
+            Baurestmassen werden grundsätzlich verwertet. Wenn dies aus wirtschaftlichen oder technischen Gründen
+            nicht möglich ist, werden Baurestmassen ordnungsgemäß deponiert.
+            2.2 Zwischenlagern:
+            Unter Zwischenlagern ist das Lagern innerhalb des Baustellenbereiches zu verstehen. Es enthält somit auch
+            den Transport zum Zwischenlager und das sachgemäße Lagern.
+            Zwischenlager sind vorzuhalten und vor der Übernahme zu räumen.
+            Der Platz für die Zwischenlagerung wird, wenn nicht bereits in der Ausschreibung bestimmt, im Einvernehmen
+            mit dem Auftraggeber festgelegt.
+            2.3 Transport:
+            Das Abtransportieren erfolgt unter Berücksichtigung von etwaigen erforderlichen Genehmigungen und
+            Vorschriften.
+01.17 01    Staubdichte, provisorischen Trennwand im Gebäude, einschließlich Entsorgen.
+
+01.17 01A   Prov.Trennwand/Staubvorhang auf Holzrost                                                                        m²
+            Bestehend aus einer Holzunterkonstruktion, überspannt mit einer bewehrten PE-Folie, die Stöße mit 10 cm
+            Überdeckung auf einer Holzunterlage mit Heftklammern befestigt.
+
+01.17 01B   Prov.Trennwand staubdicht m.Plattenbelag                                                                        m²
+            Bestehend aus einer Unterkonstruktion mit einem Plattenbelag, Plattendicke mindestens 12 mm.
+
+01.17 01C   Prov.Trennwand staubdicht m.Gipsbauplatten                                                                      m²
+            Bestehend aus einer Ständerkonstruktion, einseitig beplankt mit Gipsbauplatten, Plattendicke mindestens 12
+            mm.
+01.17 02    Aufzahlung (Az) auf provisorische staubdichte Trennwände im Gebäude.
+
+01.17 02A   Az prov.Trennwand stoßfest                                                                                      m²
+            Für eine stoßfeste Ausführung.
+
+01.17 02B   Az prov.Trennwand f.Tür+Schloss                                                                                 Stk
+            Für eine Tür bis 3 m2 Stocklichte, sperrbar mit Zylinderschloss, einschließlich Beistellen von drei Schlüsseln.
+
+01.17 03    Fußbodenschutz einschließlich Entsorgen.
+
+01.17 03A   Fußbodenschutz PE-Folie/Pappe                                                                                   m²
+            Mit einer Lage PE-Folie (z.B. Packzellulose oder Wellpappe) mit 10 cm Überdeckung, Fugen verklebt.
+
+01.17 03B   Fußbodenschutz Kunststoffstegplatten                                                                            m²
+            Mit einer Lage Kunststoffstegplatten, Plattendicke 5 mm, verzahnt.
+
+01.17 03C   Fußbodenschutz Schaltafeln                                                                                      m²
+            Mit einer Lage Schaltafeln oder Brettern, stumpf gestoßen.
+
+01.17 11    Provisorische Verschalung von Öffnungen in Außenwänden, einschließlich Entsorgen. Im Positionsstichwort ist
+            das Flächenmaß der Verschalung angegeben.
+
+01.17 11A   Verschalung b.1m2                                                                                               Stk
+
+01.17 11X   Verschalung ü.1m2-__________                                                                                    Stk
+01.17 12    Provisorischer Rahmen, mit bewehrter PE-Folie überspannt, einschließlich Entsorgen. Im Positionsstichwort ist
+            das Flächenmaß der Öffnung angegeben.
+
+01.17 12A   Rahmen m.PE-Folie b.2m2                                                                                         Stk
+
+01.17 12X   Rahmen m.PE-Folie ü.2m2-__________                                                                              Stk
+01.17 21    Schutz von Bauteilen (z.B. Fenster und Türen) gegen Verschmutzung durch Abdecken und Befestigen der
+            Abdeckung, einschließlich Entsorgen. Im Positionsstichwort ist das Flächenmaß der abzudeckenden Fläche
+            angegeben.
+
+01.17 21A   Schutz von Fenster-Tür b.2m2                                                                                    Stk
+                                                                                                                      Seite 11 / 16
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                      gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                         EH
+
+01.17 21B   Schutz von Fenster-Tür ü.2-4m2                                                                                     Stk
+
+01.17 21C   Schutz von Fenster-Tür ü.4-6m2                                                                                     Stk
+
+01.17 21E   Schutz von Bauteilen                                                                                               m²
+            Bauteile: ____________
+
+01.19       Schutzmaßnahmen gegen Absturz
+            1. Begriffe:
+            Im Folgenden ist unter Edelstahl korrosionsbeständiger Stahl (z.B. V2A oder V4A) beschrieben.
+            2. Herstellen (Leistungsumfang):
+            Die Leistung (Herstellen) umfasst das Aufbauen eines gebrauchsfähigen Zustandes einschließlich
+            Antransportieren, Aufstellen und Montieren sowie das Abbauen, Demontieren und Abtransportieren.
+            Die Teilleistung des Aufbauens eines gebrauchsfertigen Zustandes wird mit 70 Prozent, die Teilleistung des
+            Abbauens mit 30 Prozent der Gesamtleistung bewertet.
+            2.1 Auf- und Abbauen (Herstellen):
+            Das Herstellen umfasst auch das Schließen der Verankerungsstellen gemäß ÖNORM (wenn der Auftraggeber
+            den Verbleib der Verankerungsstellen nicht ausdrücklich anordnet).
+            3. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+            - das Beistellen statischer Nachweise
+            - wiederkehrende Prüfungen und Instandhaltungskosten
+             Kommentar:
+             Mit dieser ULG werden temporäre Schutzmaßnahmen gegen Absturz, die nach Fertigstellung wieder abgebaut werden,
+             beschrieben.
+             Bleibende Schutzmaßnahmen gegen Absturz, im Sinne des BauKg (Unterlage für spätere Arbeiten), sind in der LG 25
+             (Sicherheits- und Schutzmaßnahmen) beschrieben.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl
+
+01.19 01    Begehbare, unverschiebliche provisorische Abdeckung (z.B. auf Schächten, Deckenöffnungen, Gruben,
+            Vertiefungen). Im Positionsstichwort ist das Flächenmaß der Abdeckung angegeben.
+
+01.19 01A   Abdeckung b.1m2                                                                                                    Stk
+
+01.19 01B   Abdeckung b.1m2 vorhalten                                                                                          VE
+            Vorhalten. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+
+01.19 01C   Abdeckung ü.1-2m2                                                                                                  Stk
+
+01.19 01D   Abdeckung ü.1-2m2 vorhalten                                                                                        VE
+            Über 1 bis 2 m2. Vorhalten. Abgerechnet wird in Verrechnungseinheiten (VE = Stück x Wochen).
+
+01.19 02    Umwehrung (Geländer) an Absturzkanten (auch bei Schrägen), mit Ausnahme von im Zusammenhang mit
+            Gerüsten stehenden Maßnahmen, bestehend aus Brust-, Mittel- und Fußwehren, bei Stiegenläufen ohne
+            Fußwehr.
+
+01.19 02A   Umwehrung Absturzk.                                                                                                m
+            Abgerechnet wird die Länge der Absturzkante.
+
+01.19 02B   Umwehrung Absturzk.vorhalten                                                                                       VE
+            Vorhalten. Abgerechnet wird in Verrechnungseinheiten (VE = Länge x Wochen).
+
+01.19 03    Abgrenzungen durch Brustwehren (z.B. aus Holz, Metallrohr, gespannten Seilen oder Ketten).
+
+01.19 03A   Abgrenzung                                                                                                         m
+            Abgerechnet wird die Länge der Absturzkante.
+
+01.19 03B   Abgrenzung vorhalten                                                                                               VE
+
+                                                                                                                         Seite 12 / 16
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+            Vorhalten. Abgerechnet wird in Verrechnungseinheiten (VE = Länge x Wochen).
+
+01.19 04    Anschlaganker aus Stahl zur Absicherung von Arbeitnehmern, feuerverzinkt, einschließlich Nachweis der
+            Tragfähigkeit gemäß ÖNORM.
+
+01.19 04A   Sich-Anschlaganker Bet.Stahl                                                                                           Stk
+            In Betonuntergrund ohne Unterschied, ob Wand oder Decke.
+
+01.19 04B   Sich-Anschlagank.Vollmwk.Stahl                                                                                         Stk
+            In Vollziegelmauerwerk (Wand), unverputzt oder mit Putz bis 3 cm dick.
+
+01.19 04C   Sich-Anschlagank.Hohlmwk.Stahl                                                                                         Stk
+            In Hohlziegelmauerwerk (Wand), unverputzt, mit Putz bis 3 cm oder mit Wärmedämmung mit Dünnputz bis 5 cm
+            dick.
+
+01.19 04D   Sich-Anschlagank.Holz Stahl                                                                                            Stk
+            In tragfähigen Holzkonstruktionen.
+             Kommentar:
+             Brustgeschirre mit Verbindungsseilen zur ortsfesten Anschlageinrichtung sind vom Auftragnehmer als persönliche
+             Schutzausrüstung seiner Dienstnehmer zur Verfügung zu stellen. Bei Bedarf sind solche Zubehörteile frei zu formulieren.
+
+01.19 05    Sicherungsseil aus Edelstahl (Leitseil) für bewegliche Anschlagpunkte zur Absicherung von Arbeitnehmern,
+            einschließlich Befestigung (Halterung) an tragenden Bauwerksteilen, sowie dem Nachweis der Tragfähigkeit
+            gemäß ÖNORM, ohne Unterschied, ob waagrecht, lotrecht oder schräg montiert.
+
+01.19 05A   Sich.-Leitseil Beton                                                                                                   m
+            In Betonuntergrund ohne Unterschied, ob Wand oder Decke.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl
+            Geänderter Grundtext auf Basis ONR 12010.
+
+01.19 05B   Sich.-Leitseil Vollmwk                                                                                                 m
+            In Vollziegelmauerwerk (Wand), unverputzt oder mit Putz bis 3 cm dick.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl
+            Geänderter Grundtext auf Basis ONR 12010.
+
+01.19 05C   Sich.-Leitseil Hohlmwk                                                                                                 m
+            In Hohlziegelmauerwerk (Wand) unverputzt, mit Putz bis 3 cm dick, oder mit Wärmedämmung mit Dünnputz bis
+            5 cm dick.
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl
+            Geänderter Grundtext auf Basis ONR 12010.
+
+01.19 05D   Sich.-Leitseil Holz                                                                                                    m
+            In tragfähiger Holzkonstruktion.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl
+            Geänderter Grundtext auf Basis ONR 12010.
+
+01.19 05H   Az Leitseil Sonderf.                                                                                                   Stk
+            Aufzahlung (Az) auf Leitseile für Sonderführungen wie z.B. Kurven, Kreuzungen, Verzweigungen und
+            dergleichen, gemäß Planungsgrundlage:____________
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl
+            Geänderter Grundtext auf Basis ONR 12010.
+
+01.19 05K   Leitseil Anschl.-punkt waagrecht                                                                                       Stk
+            Systemgerechter beweglicher Anschlagpunkt für waagrecht geführte Leitseile.
+
+                                                                                                                             Seite 13 / 16
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl
+            Geänderter Grundtext auf Basis ONR 12010.
+
+01.19 05L   Leitseil Anschl.-punkt lotrecht                                                                                        Stk
+            Systemgerechter beweglicher Anschlagpunkt für lotrecht oder schräg geführte Leitseile mit integrierter Sperre
+            (Steigschutz).
+             Kommentar:
+             Brustgeschirre mit Verbindungsseilen zur ortsfesten Anschlageinrichtung sind vom Auftragnehmer als persönliche
+             Schutzausrüstung seiner Dienstnehmer zur Verfügung zu stellen. Bei Bedarf sind solche Zubehörteile frei zu formulieren.
+
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl
+            Geänderter Grundtext auf Basis ONR 12010.
+
+01.19 10    Personenauffangnetz einschließlich Befestigung gemäß Richtlinien des Herstellers, sowie dem Nachweis der
+            Tragfähigkeit gemäß NORM.
+
+01.19 10A   Auffangnetz Beton                                                                                                      m²
+            Verankert in Betonuntergrund.
+            Einzelgröße (Länge/Breite): ____________
+            Einbauhöhe: ____________
+            LB-Version: 23                Geringfügig Geändert
+Änderung:   Geänderter Grundtext auf Basis ONR 12010.
+
+01.19 10B   Auffangnetz Vollmwk                                                                                                    m²
+            Verankert in Vollziegelmauerwerk.
+            Einzelgröße (Länge/Breite): ____________
+            Einbauhöhe: ____________
+            LB-Version: 23                Geringfügig Geändert
+Änderung:   Geänderter Grundtext auf Basis ONR 12010.
+
+01.19 10C   Auffangnetz Hohlmwk                                                                                                    m²
+            Verankert in Hohlziegelmauerwerk.
+            Einzelgröße (Länge/Breite): ____________
+            Einbauhöhe: ____________
+            LB-Version: 23                Geringfügig Geändert
+Änderung:   Geänderter Grundtext auf Basis ONR 12010.
+
+01.19 10D   Auffangnetz Holz                                                                                                       m²
+            Verankert in tragfähiger Holzkonstruktion.
+            Einzelgröße (Länge/Breite): ____________
+            Einbauhöhe: ____________
+            LB-Version: 23                Geringfügig Geändert
+Änderung:   Geänderter Grundtext auf Basis ONR 12010.
+
+01.19 10H   Auffangnetz vorhalten                                                                                                  VE
+            Vorhalten. Abgerechnet wird in Verrechnungseinheiten (VE = Fläche x Wochen).
+
+            LB-Version: 23                Geringfügig Geändert
+Änderung:   Geänderter Grundtext auf Basis ONR 12010.
+
+01.19 11    Sicherheitsdrahtgitter-Unterspannung aus verzinkten, an den Kreuzungspunkten verschweißten Stahldrähten
+            mit Kunststoffummantelung als Absturzsicherung unter nicht durchtrittsicheren Dachflächen und Öffnungen,
+            einschließlich Nachweis der Tragfähigkeit.
+
+01.19 11A   Drahtg.-Untersp.Beton                                                                                                  m²
+            Verankert in Betonuntergrund.
+            Einzelgröße (Länge/Breite): ____________
+            Einbauhöhe: ____________
+
+01.19 11B   Drahtg.-Untersp.Vollmwk                                                                                                m²
+
+                                                                                                                             Seite 14 / 16
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+            Verankert in Vollziegelmauerwerk.
+            Einzelgröße (Länge/Breite): ____________
+            Einbauhöhe: ____________
+
+01.19 11C   Drahtg.-Untersp.Hohlmwk                                                                                            m²
+            Verankert in Hohlziegelmauerwerk.
+            Einzelgröße (Länge/Breite): ____________
+            Einbauhöhe: ____________
+
+01.19 11D   Drahtg.-Untersp.Holz                                                                                               m²
+            Verankert in tragfähiger Holzkonstruktion.
+            Einzelgröße (Länge/Breite): ____________
+            Einbauhöhe: ____________
+
+01.19 11H   Drahtg.-Untersp.vorhalten                                                                                          VE
+            Vorhalten. Abgerechnet wird in Verrechnungseinheiten (VE = Fläche x Wochen).
+
+01.21       Schutz- u. sonstige Gerüste
+
+
+            Ein etwaiges Umsetzen, das heißt das Abbauen an einem Ort der Baustelle und das Aufbauen an einem
+            anderen Ort der Baustelle wird wie ein neues Auf- und Abbauen (Herstellen) abgerechnet.
+            Gebrauchsüberlassung:
+            Die Gebrauchsüberlassung (Gebrauchsüberl.) wird für jene Tage vergütet, die zwischen dem Tag der positiven
+            Aufstellüberprüfung des Gerüstes nach Fertigstellung und dem ersten Tag des Abbaus liegen, unabhängig ob
+            das Gerüst für die eigene Leistung (dem eigenen Bedarf) oder dem Gebrauch Dritter (anderer Auftragnehmer
+            des Auftraggebers) hergestellt ist.
+            Das Ende der Gebrauchsüberlassung wird vom jeweiligen Vertragspartner eine Woche vorher angekündigt.
+            Erfolgt der Abbau später als dies unter Einhaltung der Verständigungsfrist festgelegt wurde, gilt der festgelegte
+            Tag.
+            Die Gebrauchsüberlassung wird in Verrechnungseinheiten, ermittelt aus dem Ausmaß mal der Anzahl der
+            Wochen, abgerechnet. Wochen sind teilbar, wobei 1 Kalendertag gleich 1/7 Woche ist.
+             Kommentar:
+             Mit dieser Unterleistungsgruppe können Gerüste ausgeschrieben werden, die nicht gemäß ÖNORM als Nebenleistung mit
+             der Hauptleistung abgegolten werden.
+             Dachfanggerüste als Schutz- und Arbeitsgerüste für Arbeiten am Dach sind in der ULG 04.18 (System-Gerüste) beschrieben.
+             Frei zu formulieren (z.B.):
+             - Erschwernisse durch das Angleichen an gekrümmte Wände
+             - staubdichte Ausführungen
+             - Umhängen von Verankerungen des fertig gestellten Gerüstes
+
+            LB-Version: 23                Geändert
+Änderung:   Neu: Definition der Gebrauchsüberlassung wie in der LG 04
+
+01.21 00    Folgende Angaben oder Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise der zutreffenden Positionen einkalkuliert:
+
+01.21 00B   Benutzung öffentliches Gut
+            Betrifft Position(en): ____________
+            Benutzung von öffentlichem Gut ist erforderlich (z.B. Gehsteig): ____________
+            Dauer (z.B. Wochen): ____________
+
+01.21 11    Dachschutzblende an tragfähigen Teilen des Daches befestigt, einschließlich seitlicher Überstände um
+            mindestens 2 m bei den zu sichernden Arbeitsplätzen, nach Wahl des Auftragnehmers.
+
+01.21 11A   Dachschutzblende                                                                                                   m
+            Abgerechnet wird die tatsächliche Länge.
+
+01.21 11B   Dachschutzblende Gebrauchsüberl.                                                                                   VE
+            Gebrauchsüberlassung.
+
+01.21 21    Schutzdach freistehend (z.B. Fußgänger-Schutzpassage) einschließlich Unterkonstruktion, bestehend aus
+            einem Schutzdach mit einer Blende von mindestens 50 cm Höhe und einer Schutzdachauskragung von
+            mindestens 1,5 m staubdicht.
+            Schutzdachhöhe bis 4,5 m und 3 m Breite.
+
+                                                                                                                         Seite 15 / 16
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - freistehendes Fahrstreifenschutzdaches
+             - einer verstärkten Ausführung
+             - eine Schutzwand einschließlich Tragkonstruktion
+
+01.21 21A   Schutzdach freist.b.3m breit                                                                              m
+            Abgerechnet wird die tatsächliche Länge.
+
+01.21 21B   Schutzdach freist.b.3m breit Gebrauchsüberl.                                                              VE
+            Gebrauchsüberlassung.
+
+01.21 31    Riegelgerüst, nach Wahl des Auftragnehmers, als Arbeitsgerüst in Schächten (z.B. Aufzugsschächte). Etwaige
+            Riegellöcher nach dem Gerüstabbau ausmauern und beidseitig verputzen. In jedem Geschoß einen
+            Pfostenbelag herstellen und darauf die erforderliche Höhe Zwischengerüst aufstellen. Abgerechnet wird die
+            Summe der waagrechten Gerüstflächen im Schacht (auch der Zwischengerüstflächen) nach der
+            Grundrissfläche.
+
+01.21 31A   Riegelgerüst Schacht                                                                                      m²
+            Geometrie (z.B. Skizze, Plan): ____________
+            Lastklasse: ____________
+
+01.21 31B   Riegelgerüst Schacht Gebrauchsüberl.                                                                      VE
+            Gebrauchsüberlassung.
+
+01.21 32    Riegelgerüst, nach Wahl des Auftragnehmers, als Arbeitsgerüst in Spindelräumen. Etwaige Riegellöcher nach
+            dem Gerüstabbau ausmauern und beidseitig verputzen. In jedem Geschoß einen Pfostenbelag herstellen und
+            darauf die erforderliche Höhe Zwischengerüst aufstellen. Abgerechnet wird die Summe der waagrechten
+            Gerüstflächen in der Spindel (auch der Zwischengerüstflächen) nach der Grundrissfläche.
+
+01.21 32A   Riegelgerüst Spindel                                                                                      m²
+            Geometrie (z.B. Skizze, Plan): ____________
+            Lastklasse: ____________
+
+01.21 32B   Riegelgerüst Spindel Gebrauchsüberl.                                                                      VE
+            Gebrauchsüberlassung.
+
+
+
+
+                                                                                                                Seite 16 / 16
+                                                                                           ib-data GmbH, Softwareentwicklung
+

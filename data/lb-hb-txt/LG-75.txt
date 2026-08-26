@@ -1,0 +1,658 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+           Leistungsgruppe (LG) 75 - Fenster aus Kunststoff/Aluminium
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 7500    Wählbare Vorbemerkungen
+                     ULG 7510    Einfachfenster aus Kunststoff/Aluminium
+                     ULG 7530    Verbundfenster aus Kunststoff/Aluminium
+                     ULG 7550    Fensterbänke, Lüfter, Sonstiges
+                     ULG 7590    Regieleistungen
+
+
+
+
+                                                                                                           Seite 1 / 11
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                                         EH
+
+75         Fenster aus Kunststoff/Aluminium
+           Version 023 (2025-12)
+           Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+           Gruppe folgende Regelungen:
+           1. Allgemeines:
+           Es werden nur Fenster mit einem Eignungsnachweis (Systemprüfung) gemäß ÖNORM B 5300 ausgeführt.
+           Der Einbau erfolgt gemäß ÖNORM B 5320 mit Standard-Fensteranschluss.
+           2. Fenster und Fenstertüren:
+           Fenster, Fenstertüren und deren Kombinationen werden im Folgenden kurz Fenster genannt.
+           Alle Flügel gehen nach innen auf.
+           3. Standardqualität:
+           3.1 Für Fenster gelten folgende Anforderungen.
+           Zahlenangaben beziehen sich auf Fenster in Prüfgröße und Prüfverfahren gemäß ÖNORM.
+               • die Beanspruchungsklasse entspricht der Klasse 1 gemäß ÖNORM B 5300
+               • die Ausführung des Standard-Fensteranschlusses erfolgt gemäß ÖNORM B 5320
+           3.2 Paneele (z.B. Verglasungen in feststehenden Rahmen) werden direkt in den Fensterstock eingebaut.
+           3.3 Das Dichtungssystem besteht aus mindestens zwei Dichtungsebenen. Dichtungen sind auswechselbar.
+           Bei Ausführungen mit Bodenschwellen ist eine Dichtungsebene zulässig.
+           3.4 Standardbeschlag ist ein sichtbarer Beschlag (mit Eck- und Scherenlager), der einstellbar ist.
+           3.5 Für alle Flügel sind Drehkippbeschläge einkalkuliert, mit Ausnahme der Beschläge bei Stulpfenstern, deren
+           Stehflügel mit Stulpflügelgetriebe, Ober- und Unterlichten mit Drehbeschlägen ausgestattet sind.
+           3.6 Standardfenstergriffe sind aus Aluminium, naturfarbig eloxiert oder weiß beschichtet (nach Wahl des AN).
+           3.7 Fenstertüren werden mit Schnapper (Arretierung für geschlossenen/nicht verriegelten Zustand) ausgeführt.
+           4. Einkalkulierte Leistungen:
+               • Verbindungen (Kopplungsprofile) für Fenster entsprechen den Anforderungen der Windlast (gemäß
+                 Statik)
+               • Eine Zeichnung des angebotenen Fenstersystems (Systemschnitt unten/seitlich) wird nach
+                 Auftragserteilung dem AG übergeben. Nach schriftlicher Freigabe des AG wird der Systemschnitt
+                 Bestandteil des Vertrages.
+           4.1 Die Systembeschreibung, bestehend aus Leistungserklärung, Schnittzeichnung(en) und Beschlagsliste(n),
+           ist spätesten zum Zeitpunkt der ersten Anlieferung komplett beizubringen.
+           5. Ausmaß- und Abrechnungsregeln:
+           Die Maße sind als Baurichtmaß (Rohbaulichte) angegeben (Stockaußenmaß = Baurichtmaß - 2 x Einbaufuge).
+           6. Abkürzungsverzeichnis:
+           MIG: Mehrscheiben-Isolierglas
+           SZR: Scheibenzwischenraum (Abstand zwischen den Scheiben)
+           7. Beschreibung/Eigenschaften:
+           7.1 Erzeugungskennzahl: Alle Hauptprofile sind mit einer Kennzahl mit Erzeugungsdatum versehen.
+           7.2.1 Werkstoff PVC-U: Profile entsprechen der ÖNORM EN 12608-1.
+           7.2.2 Faserverstärkte Profile werden gemäß RAL-GZ-716 ausgeführt (Herausgeber: RAL Deutsches Institut für
+           Gütesicherung und Kennzeichnung e.V. (Siegburger Straße 39, D-53757 Sankt Augustin).
+           7.3 Stranggepresste Aluminiumprofile sind aus der Legierung EN AW-6060 T66 in Eloxalqualität hergestellt.
+           7.4 Für anodisierte Aluminiumbleche wird die Legierung EN AW-5005, H14/H24 und für farbbeschichtete
+           Aluminiumbleche EN AW-1050A, H14/H24 verwendet.
+           7.5 Werkstoff für Dichtungsprofile in der Funktionsfuge und zum Glas ist EPDM oder eine vergleichbare
+           Qualität. Härte, Abmessung und Profilierung entsprechen den jeweiligen Verwendungszwecken (gemäß DIN
+           7863).
+           7.6 Die Kunststoff-Fensterprofile sind weiß ohne besondere Oberflächenbehandlung, Pulverbeschichtungen
+           erfolgen gemäß ÖNORM EN 12206-1.
+            Kommentar:
+            Standard-Fensteranschluss gemäß ÖNORM B 5320:
+            Bei einem Standard-Fensteranschluss handelt es sich um die durch Materialien geschlossene Fuge zwischen Fensterstock
+            oder Blindstock und dem Wandbildner und gegebenenfalls zwischen Fensterstock und Blindstock. Der
+                                                                                                                         Seite 2 / 11
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+             Mindestleistungsumfang beinhaltet dabei die Befestigung des Fensters im Wandbildner, das Füllen der Fuge und den
+             inneren und äußeren Anschluss. Von diesem Standard-Fensteranschluss sind die Anforderungen in Hinblick auf die
+             Luftdurchlässigkeit, Schlagregendichtheit und die Belastung bei Wind zu erfüllen.
+             Die Ausführungsplanung des Auftraggebers enthält:
+             • Höhenbezugspunkte und Achsmaße sowie die Baurichtmaße der Fensteröffnungen
+             • eine maßstäbliche und bemaßte Darstellung der Ansichten
+             • eine maßstäbliche und bemaßte Darstellung der (Haupt) Schnitte
+             Ein objektspezifischer Bauanschluss gemäß ÖNORM B 5320 ist frei zu formulieren und bietet die Möglichkeit eines
+             objektspezifisch geplanten Fenstereinbaus. Er beinhaltet alle Anschlüsse der gesamten Wand und des Fensters,
+             einschließlich aller Anbauteile (z.B. Sohlbank, Fensterbank sowie Sonnenschutzeinrichtungen) und wird in der Regel von
+             mehreren Gewerken ausgeführt. Der Leistungsumfang der einzelnen Gewerke und die jeweiligen Gewerkeschnittstellen sind
+             zu planen und festzulegen. Der objektspezifische Bauanschluss muss alle Anforderungen in Hinblick auf die Statik,
+             Bauphysik sowie Gebrauchs- und Funktionstauglichkeit erfüllen.
+             Die Planung hat nach den Vorgaben der ÖNORM B 5320 unter Punkt " Anforderung an die Planung des objektspezifischen
+             Bauanschlusses“ zu erfolgen.
+             Die Ausführungsplanung ist den einzelnen Gewerken zu übergeben und von diesen umzusetzen. Die Ausführung ist durch
+             die örtliche Bauaufsicht zu kontrollieren.
+             Die Ausführungsplanung des Auftraggebers hat für das Gewerk "Fenstereinbau" zusätzlich zu den Angaben zum
+             Standard-Fensteranschluss zumindest folgende Angaben zu enthalten, welche den jeweiligen Gewerken zu übergeben sind:
+             • exakte konstruktive Vorgaben der Fugen- und Anschlussausbildung
+             • Angaben zur Befestigung der Bauteile (in Abhängigkeit der Windlast und des tragenden Baukörpers)
+             • Angaben zu den zu verwendenden Materialien (Materialspezifikationen)
+             • Angaben zu Sonnen- und Insektenschutz (soweit diese im Zuge der Fenstermontage montiert werden)
+             • Angaben zur Leistungsabgrenzung des Gewerkes Fenstereinbau und Abgrenzung zu den angrenzenden und anarbeitenden
+             Gewerke (z.B. Wandaufbauten, Einbindung der Bodenabdichtung, WDVS, Sonnenschutzeinrichtung, Fensterbank) in
+             Abhängigkeit des Bauablaufes (wer macht wann was!)
+             • Angaben zu konstruktiven Zusatzmaßnahmen wie Rigole oder Vordächer
+             • Angaben zur Erfüllung des Wärme- und Feuchteschutzes
+             • Angaben zur Erfüllung des Schallschutzes
+             Literaturhinweise (z.B.):
+             In der ÖNORM B 5300, Fenster, Anforderungen und Eignungsprüfung, die hier nur beispielhaft angeführt ist, befindet sich
+             das Verzeichnis der Bezugsnormen und der Hinweis auf andere Normunterlagen.
+             Beanspruchungsklasse: Die Beanspruchungsklassen sind nach der ÖNORMEN B 5300 zu bestimmen.
+             Prüfberichte: Prüfberichte für den Wärme- und Schallschutz beziehen sich auf das Normmaß für Fenster von 1,23 x 1,48 m
+             oder 1,48 x 2,18 m.
+                 • ÖNORM B 2206: Mauer- und Versetzarbeiten - Werkvertragsnorm
+                 • ÖNORM B 2217: Bautischlerarbeiten - Werkvertragsnorm
+                 • ÖNORM B 3716: Glas im Bauwesen - Konstruktiver Glasbau
+                 • ÖNORM B 5300: Fenster - Anforderungen - Ergänzungen zur ÖNORM EN 14351-1
+                 • ÖNORM B 5320: Einbau von Fenstern und Türen in Wände – Planung und Ausführung des Bau- und des
+                   Fenster/Türanschlusses
+
+
+             Frei zu formulieren (z.B.):
+                 • Fensterkombination: Breitere Pfosten oder Kämpfer, z.B. Anschlusselemente für Zwischenwände oder
+                   Zwischendecken
+                 • Außenfensterbankanschluss: Eine etwaige Ausbildung mit einem zusätzlichen Wetterschenkel zur Abdeckung einer
+                   Anschlussfuge ohne Blechaufkantung (z.B. bei Abdeckungen aus Stein)
+                 • Außenliegende Glashalteleisten bei stark mit Feuchtigkeit belasteten Räumen (z.B. in Hallenbädern)
+                 • Fugenabdeckungen (innen und außen) mit Deckleisten
+                 • Etwaige Wartungsverträge
+            LB-Version: 23                 Geringfügig Geändert
+
+75.00       Wählbare Vorbemerkungen
+75.00 01    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+            Beschreibung der Einbausituation für Fenster und Fenstertüren:
+
+75.00 01A   Seehöhe u.Gebäudegeometrie
+            Seehöhe des Ortes für Mehrscheiben-Isolierglas: ____________
+            Gebäudegeometrie (z.B. Länge/Breite/Höhe): ____________
+
+75.10       Einfachfenster aus Kunststoff/Aluminium
+            LB-Version: 23
+                                                                                                                             Seite 3 / 11
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+75.10 01    Einfachfenster aus Kunststoff/Aluminium mit Mehrscheiben-Isolierglas (MIG).
+                • mit Standard-Fensteranschluss
+
+75.10 01A   Einfachfenster K.st./Alu m.Standard-Fensteranschluss                                                             Stk
+            Skizze Nr. ____________
+            Blindstöcke (ja/nein): ____________
+            Baurichtmaß (cm): ____________
+            Flügelausbildung (z.B. 1-flügelig, 2-flügelig): ____________
+            Beschläge (z.B. DK): ____________
+            Art der Verglasung (z.B. 2- oder 3-fach): ____________
+            Farbe/Kunststoff: ____________
+            Beschichtungsart/Farbe (z.B. eloxiert, pulverbeschichtet): ____________
+
+
+            Eigenschaften:
+            Beanspruchungsklasse, gemäß ÖNORM B 5300: ____________
+            höchstzulässiger Wärmedurchgangskoeffizient (Uw-Wert) in W/m2K: ____________
+            bewertetes Mindestschalldämmmaß Rw in dB: ____________
+            Nutzungskategorie (Glas), gemäß ÖNORM B 1991-1-1: ____________
+             Kommentar:
+             Die Beanspruchung (kN/m2) der Windlast gemäß ÖNORM B 5300 ist frei zu formulieren.
+
+75.10 11    Aufzahlung (Az) auf Einfachfenster aus Kunststoff/Aluminium (K.st./Alu) mit Mehrscheiben-Isolierglas (MIG).
+
+75.10 11A   Az Einfachfenster K.st./Alu MIG f.Fries                                                                          Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung mit höherem Sockelprofil (Fries).
+            Frieshöhe (cm): ____________
+
+75.10 11B   Az Einfachfenster K.st./Alu MIG f.Fries doppelt                                                                  Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung mit doppeltem Fries (bei Balkontüren).
+            Frieshöhe (cm): ____________
+
+75.10 11C   Az Einfachfenster K.st./Alu MIG f.Sonneschutzgl.reflekt.                                                         Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung mit reflektierenden Scheiben, metallbedampft.
+            Lichtdurchlässigkeit: ____________
+            weitere Angaben: ____________
+
+75.10 11D   Az Einfachfenster K.st./Alu MIG f.Sonneschutzgl.absorb.                                                          Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung mit absorbierenden Scheiben.
+            Lichtdurchlässigkeit: ____________
+            weitere Angaben: ____________
+
+75.10 11E   Az Einfachfenster K.st./Alu MIG f.Spr.vert./horiz.im Glas                                                        Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung mit vertikalen oder horizontalen Sprossen.
+                • im Scheibenzwischenraum
+                • bis 1 m lang
+            Abgerechnet wird je Fensterflügel.
+            Sprossen (Art/Dimension): ____________
+
+75.10 11F   Az Einfachfenster K.st./Alu MIG f.Spr/K.verti./horiz.im Glas                                                     Stk
+                                                                                                                        Seite 4 / 11
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Betrifft Position(en): ____________
+            Für eine Ausführung mit vertikalen und horizontale Sprossen, einschließlich Sprossenkreuz (K).
+                • im Scheibenzwischenraum
+                • bis 1 m lang
+            Abgerechnet wird je Fensterflügel.
+            Sprossen (Art/Dimension): ____________
+
+75.10 11G   Az Einfachfenster K.st./Alu MIG f.Spr.vert./horiz.auf Glas                                                   Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung mit vertikalen oder horizontalen Sprossen.
+                • beidseitig, auf das Glas geklebt, einschließlich Abstandhalter im Zwischenraum
+            Abgerechnet wird je Fensterflügel.
+            Sprossen (Art/Dimension): ____________
+
+75.10 11H   Az Einfachfenster K.st./Alu MIG f.Spr/K.vert./horiz.auf Glas                                                 Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung mit vertikalen und horizontalen Sprossen, einschließlich Sprossenkreuz (K).
+                • beidseitig, auf das Glas geklebt, einschließlich Abstandhalter im Zwischenraum
+            Abgerechnet wird je Fensterflügel.
+            Sprossen (Art/Dimension): ____________
+
+75.10 11I   Az Einfachfenster K.st./Alu MIG f.Öffnungsbegrenzung                                                         Stk
+            Betrifft Position(en): ____________
+            Für eine Öffnungsbegrenzung für Drehstellung mit stufenloser Bremse bis 90 Grad, Endfeststellung an der
+            Unterseite der Flügel in die Beschlagsnut eingebaut.
+            Mindestlänge des Öffnungsbegrenzers: 20 cm
+
+75.10 11J   Az Einfachfenster K.st./Alu MIG f.Drehsperre                                                                 Stk
+            Betrifft Position(en): ____________
+            Für eine Drehsperre (Kindersicherung).
+
+75.10 11K   Az Einfachfenster K.st./Alu MIG f.Gestänge f.Oberlichten 2m                                                  Stk
+            Betrifft Position(en): ____________
+            Für ein Gestänge zur Öffnung von Oberlichten mit Kippbeschlag, mit Handhebel und Reinigungsschere.
+            Mit einem einfachen Gestänge bis 2 m Länge.
+
+75.10 11L   Az Einfachfenster K.st./Alu MIG f.Fenstergriff m.Rosette                                                     Stk
+            Betrifft Position(en): ____________
+            Für einen Fenstergriff mit Rosette.
+            Material, Type, Farbe: ____________
+
+75.10 11M   Az Einfachfenster K.st./Alu MIG f.Scheibenaufbau                                                             Stk
+            Betrifft Position(en): ____________
+            Für einen Scheibenaufbau: ____________
+
+75.10 11N   Az Einfachfenster K.st./Alu MIG f.Scheibenabstand                                                            Stk
+            Betrifft Position(en): ____________
+            Für einen Scheibenabstand/Scheibenzwischenraum: ____________
+
+75.10 11O   Az Einfachfenster K.st./Alu MIG f.Mindestschalldämmmaß                                                       Stk
+            Betrifft Position(en): ____________
+            Für ein bewertetes Mindestschalldämmmaß Rw in dB: ____________
+
+75.10 11P   Az Einfachfenster K.st./Alu MIG f.Wärmedurchgangskoeffizient                                                 Stk
+
+
+                                                                                                                    Seite 5 / 11
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Betrifft Position(en): ____________
+            Für einen höchstzulässigen Wärmedurchgangskoeffizient des Glases (Ug-Wert) in W/m2K: ____________
+            Randabstandhalter (z.B. Edelstahl): ____________
+
+75.10 11Q   Az Einfachfenster K.st./Alu MIG f.einbruchhemmend                                                             Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung, einbruchhemmend (Widerstandsklasse RC): ____________
+
+75.10 11R   Az Einfachfenster K.st./Alu MIG f.Strahlenschutz                                                              Stk
+            Betrifft Position(en): ____________
+            Für Maßnahmen zum Strahlenschutz: ____________
+
+75.10 11S   Az Einfachfenster K.st./Alu MIG f.Innenjalousien                                                              Stk
+            Betrifft Position(en): ____________
+            Für Innenjalousien (Beschreibung): ____________
+            Abmessungen (cm): ____________
+            Antrieb: ____________
+
+75.10 11T   Az Einfachfenster K.st./Alu MIG f.Absturzsicherung                                                            Stk
+            Betrifft Position(en): ____________
+            Für Maßnahmen gegen Absturz: ____________
+
+75.10 11U   Az Einfachfenster K.st./Alu MIG f.Reedkontakte                                                                Stk
+            Aufzahlung auf Fenster für die Ausführung mit Reedkontakt, bestehend aus dem Reedkontakt, dem
+            Permanentmagnet, sowie Gehäuse und Kappen als Überwachungselement, angebunden an ein Kabel mit
+            Länge von mindestens 5 m.
+            Schutzart: IP67
+            Das Einbringen der Leitung in eine bestehende Dose ist einkalkulieren.
+            Der Magnetkontakt ist auf seine elektrische Schaltfunktion geprüft (z.B. mit Durchgangsprüfer oder Multimeter).
+
+            LB-Version: 23
+
+75.10 11Y   Az Einfachfenster K.st./Alu MIG f.Sonstiges                                                                   Stk
+            Betrifft Position(en): ____________
+            Sonstiges: ____________
+
+75.30       Verbundfenster aus Kunststoff/Aluminium
+
+
+            Verbundfenster:
+            Das Flügelprofil besteht aus einem Kunststoff-Profil und einem Aluminium-Vorsatzflügelrahmen, der vom Flügel
+            getrennt geöffnet wird (z.B. für Reinigungs- und Wartungsarbeiten).
+            LB-Version: 23
+75.30 01    Verbundfenster aus Kunststoff/Aluminium, Innenflügel mit Mehrscheiben-Isolierglas 2- oder 3-fach, Außenflügel
+            Einfachglas.
+                • mit Standard-Fensteranschluss
+
+75.30 01A   Verbundfenster K.st./Alu m.Standard-Fensteranschluss                                                          Stk
+            Skizze Nr. ____________
+            Blindstöcke (ja/nein): ____________
+            Baurichtmaß (cm): ____________
+            Flügelausbildung (z.B. 1-flügelig, 2-flügelig): ____________
+            Beschläge (z.B. DK): ____________
+            Art der Verglasung/MIG (z.B. 2- oder 3-fach): ____________
+            Art der Verglasung/Einfachglas (z.B. Floatglas): ____________
+            Farbe/Kunststoff: ____________
+
+                                                                                                                     Seite 6 / 11
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+            Beschichtungsart/Farbe (z.B. eloxiert, pulverbeschichtet): ____________
+
+
+            Eigenschaften:
+            Beanspruchungsklasse, gemäß ÖNORM B 5300: ____________
+            höchstzulässiger Wärmedurchgangskoeffizient (Uw-Wert) in W/m2K: ____________
+            bewertetes Mindestschalldämmmaß Rw in dB: ____________
+            Nutzungskategorie (Glas), gemäß ÖNORM B 1991-1-1: ____________
+             Kommentar:
+             Die Beanspruchung (kN/m2) der Windlast gemäß ÖNORM B 5300 ist frei zu formulieren.
+
+75.30 11    Aufzahlung (Az) auf Verbundfenster aus Kunststoff/Aluminium (K.st./Alu) mit Mehrscheiben-Isolierglas (MIG).
+
+75.30 11A   Az Verbundfenster K.st./Alu MIG f.Fries                                                                          Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung mit einem breiteren Fries.
+            Frieshöhe (cm): ____________
+
+75.30 11B   Az Verbundfenster K.st./Alu MIG f.Fries doppelt                                                                  Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung mit doppeltem Fries (bei Balkontüren).
+            Frieshöhe (cm): ____________
+
+75.30 11C   Az Verbundfenster K.st./Alu MIG f.Sonneschutzgl.reflekt.                                                         Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung mit reflektierenden Scheiben, metallbedampft.
+            Lichtdurchlässigkeit: ____________
+            weitere Angaben: ____________
+
+75.30 11D   Az Verbundfenster K.st./Alu MIG f.Sonneschutzgl.absorb.                                                          Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung mit absorbierenden Scheiben.
+            Lichtdurchlässigkeit: ____________
+            weitere Angaben: ____________
+
+75.30 11E   Az Verbundfenster K.st./Alu MIG f.Spr.vert./horiz.im Glas                                                        Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung mit vertikalen oder horizontalen Sprossen.
+                • im Scheibenzwischenraum
+                • bis 1 m lang
+            Abgerechnet wird je Fensterflügel.
+            Sprossen (Art/Dimension): ____________
+
+75.30 11F   Az Verbundfenster K.st./Alu MIG f.Spr/K.verti./horiz.im Glas                                                     Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung mit vertikalen und horizontale Sprossen, einschließlich Sprossenkreuz (K).
+                • im Scheibenzwischenraum
+                • bis 1 m lang
+            Abgerechnet wird je Fensterflügel.
+            Sprossen (Art/Dimension): ____________
+
+75.30 11G   Az Verbundfenster K.st./Alu MIG f.Spr.vert./horiz.auf Glas                                                       Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung mit vertikalen oder horizontalen Sprossen am Außenflügel.
+                • beidseitig, auf das Glas geklebt
+
+                                                                                                                        Seite 7 / 11
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+            Abgerechnet wird je Fensterflügel.
+            Sprossen (Art/Dimension): ____________
+
+75.30 11H   Az Verbundfenster K.st./Alu MIG f.Spr/K.vert./horiz.auf Glas                                                Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung mit vertikalen und horizontalen Sprossen, einschließlich Sprossenkreuz (K) am
+            Außenflügel.
+                • beidseitig, auf das Glas geklebt
+            Abgerechnet wird je Fensterflügel.
+            Sprossen (Art/Dimension): ____________
+
+75.30 11I   Az Verbundfenster K.st./Alu MIG f.Öffnungsbegrenzung                                                        Stk
+            Betrifft Position(en): ____________
+            Für eine Öffnungsbegrenzung für Drehstellung mit stufenloser Bremse bis 90 Grad, Endfeststellung an der
+            Unterseite der Flügel in die Beschlagsnut eingebaut.
+            Mindestlänge des Öffnungsbegrenzers: 20 cm
+
+75.30 11J   Az Verbundfenster K.st./Alu MIG f.Drehsperre                                                                Stk
+            Betrifft Position(en): ____________
+            Für eine Drehsperre (Kindersicherung).
+
+75.30 11K   Az Verbundfenster K.st./Alu MIG f.Gestänge f.Oberlichten 2m                                                 Stk
+            Betrifft Position(en): ____________
+            Für ein Gestänge zur Öffnung von Oberlichten mit Kippbeschlag, mit Handhebel und Reinigungsschere.
+            Mit einem einfachen Gestänge bis 2 m Länge.
+
+75.30 11L   Az Verbundfenster K.st./Alu MIG f.Fenstergriff m.Rosette                                                    Stk
+            Betrifft Position(en): ____________
+            Für einen Fenstergriff mit Rosette.
+            Material, Type, Farbe: ____________
+
+75.30 11M   Az Verbundfenster K.st./Alu MIG f.Scheibenaufbau                                                            Stk
+            Betrifft Position(en): ____________
+            Für einen Scheibenaufbau: ____________
+
+75.30 11N   Az Verbundfenster K.st./Alu MIG f.Scheibenabstand                                                           Stk
+            Betrifft Position(en): ____________
+            Für einen Scheibenabstand/Scheibenzwischenraum: ____________
+
+75.30 11O   Az Verbundfenster K.st./Alu MIG f.Mindestschalldämmmaß                                                      Stk
+            Betrifft Position(en): ____________
+            Für ein bewertetes Mindestschalldämmmaß Rw in dB: ____________
+
+75.30 11P   Az Verbundfenster K.st./Alu MIG f.Wärmedurchgangskoeffizient                                                Stk
+            Betrifft Position(en): ____________
+            Für einen höchstzulässigen Wärmedurchgangskoeffizient des Glases (Ug-Wert) in W/m2K: ____________
+            Randabstandhalter (z.B. Edelstahl): ____________
+
+75.30 11Q   Az Verbundfenster K.st./Alu MIG f.einbruchhemmend                                                           Stk
+            Betrifft Position(en): ____________
+            Für eine Ausführung, einbruchhemmend (Widerstandsklasse RC): ____________
+
+75.30 11R   Az Verbundfenster K.st./Alu MIG f.Strahlenschutz                                                            Stk
+            Betrifft Position(en): ____________
+            Für Maßnahmen zum Strahlenschutz: ____________
+
+                                                                                                                   Seite 8 / 11
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+75.30 11S   Az Verbundfenster K.st./Alu MIG f.Behang                                                                          Stk
+            Der Sonnenschutz ist zwischen äußerer Verbundscheibe und dem innen liegenden Isolierglas angeordnet.
+            Betrifft Position(en): ____________
+            Für Behang (Beschreibung): ____________
+            Abmessungen (cm): ____________
+            Antrieb: ____________
+
+75.30 11T   Az Verbundfenster K.st./Alu MIG f.Absturzsicherung                                                                Stk
+            Betrifft Position(en): ____________
+            Für Maßnahmen gegen Absturz: ____________
+
+75.30 11U   Az Verbundfenster K.st./Alu MIG f.Reedkontakte                                                                    Stk
+            Aufzahlung auf Fenster für die Ausführung mit Reedkontakt, bestehend aus dem Reedkontakt, dem
+            Permanentmagnet, sowie Gehäuse und Kappen als Überwachungselement, angebunden an ein Kabel mit
+            Länge von mindestens 5 m.
+            Schutzart: IP67
+            Das Einbringen der Leitung in eine bestehende Dose ist einkalkulieren.
+            Der Magnetkontakt ist auf seine elektrische Schaltfunktion geprüft (z.B. mit Durchgangsprüfer oder Multimeter).
+
+            LB-Version: 23
+
+75.30 11Y   Az Verbundfenster K.st./Alu MIG f.Sonstiges                                                                       Stk
+            Betrifft Position(en): ____________
+            Sonstiges: ____________
+
+75.50       Fensterbänke, Lüfter, Sonstiges
+
+
+            1. Außenfensterbänke aus Aluminium:
+            1.1 Außenfensterbänke werden aus stranggepressten Aluminiumprofilen ausgeführt. Die Außenfensterbänke
+            sind am Basisprofil verschraubt und haben 5 Grad Mindestneigung. Sie werden unter Verwendung von nicht
+            rostenden Endhaltern, bei einer Länge über 80 cm mit mindestens einem nicht rostenden Mittelhalter befestigt.
+            1.2 Die seitlichen Abschlüsse sind mindestens 20 mm hoch und werden so ausgeführt, dass sie die
+            Längenänderung des Aluminiums aufnehmen können. Endstücke und Dehnstöße bilden mit der jeweiligen
+            Außenfensterbank ein System und sind dicht.
+            1.3 Die Abdichtung zur geputzten Leibung wird mit einem UV-beständigen und vorkomprimierten Dichtband
+            oder durch Einschübe in seitliche, mit den Leibungen fest verbundenen U-förmigen Nuten, hergestellt.
+            2. Stöße:
+            Unvermeidliche Stöße der Fensterbänke werden mit dem Auftraggeber einvernehmlich festgelegt.
+            Stoßverbindungen sind in die Einheitspreise einkalkuliert.
+            3. Befestigung der Fensterbänke:
+            Die Befestigung der Fensterbänke erfolgt, von oben nicht sichtbar, in Abständen von höchstens 80 cm und ist
+            einschließlich des Befestigungsmaterials in den Einheitspreisen der Montagearbeit einkalkuliert.
+             Kommentar:
+             Literaturhinweise (z.B.):
+             Richtlinie für den Einbau von Fensterbänken bei WDVS- und Putzfassaden sowie in vorgehängten Fassaden,
+             Österreichische Arbeitsgemeinschaft Fensterbank.
+
+75.50 01    Türfeststeller.
+
+75.50 01A   Türfeststeller Fußbedienung                                                                                       Stk
+            Mit Fußbedienung: ____________
+
+75.50 02    Bewegliche Abschlüsse (z.B. Abschattungen, Jalousien; Raffstore, Rollläden).
+
+75.50 02A   Bewegliche Anschlüsse                                                                                             Stk
+            Beschreibung: ____________
+            Abmessungen: ____________
+            Antrieb: ____________
+
+                                                                                                                         Seite 9 / 11
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+75.50 11    Innenfensterbank aus Holz.
+                • Oberfläche fertig beschichtet
+                • die Kanten abgerundet
+                • bis zu einer Einzellänge von 2,5 m
+
+75.50 11A   Innenfensterbank Holz                                                                                          m
+            Holzart: ____________
+            Dicke: ____________
+            Anleimer: ____________
+            Breite: ____________
+
+75.50 14    Innenfensterbank profiliert, aus beidseitig melaminharzbeschichteten Spanplatten.
+                • mindestens 17 mm dick
+                • Vorderkante mindestens 40 mm dick und abgerundet
+            Im Positionsstichwort ist die Breite (mm) angegeben.
+
+75.50 14A   Innenfensterbank melaminharzbeschichtet__________                                                              m
+            Farbe oder Dekor nach Standardkollektion.
+
+75.50 25    Außenfensterbänke aus Aluminium.
+
+75.50 25A   Außenfensterbank Aluminium                                                                                     m
+            Auf vom AG vorbereitetem Untergrund, einschließlich Abdichten zum Fenster.
+            Abkantung (Vorderansicht) (mm): ____________
+            Ausladung (Profilbreite) (mm): ____________
+            Oberfläche (eloxiert, pulverbeschichtet): ____________
+
+75.50 25B   Seitlicher Abschluss Außenfensterbank Aluminium                                                                Stk
+            Seitliche Abschlüsse für Außenfensterbänken aus Aluminium, ohne Unterschied, ob für verputzte Leibungen
+            oder für Sichtbeton.
+            Abgerechnet wird je Stück Abschluss.
+            Abkantung (Vorderansicht) (mm): ____________
+            Ausladung (Profilbreite) (mm): ____________
+
+75.50 29    Stoßverbindung für Außenfensterbänke aus Aluminium mit abgedeckter Stoßfuge.
+            Beschichtungsart und Farbe entsprechend den Außenfensterbänken.
+
+75.50 29A   Außenfensterbank-Stoßverbindung                                                                                Stk
+            Ausladung (Profilbreite) (mm): ____________
+
+75.50 36    Aufzahlung (Az).
+
+75.50 36A   Az f.Fensterlüfter                                                                                             Stk
+            Betrifft Position(en): ____________
+            Für Fensterlüfter bzw. Lüftungsventile: ____________
+            Luftwechsel für (m3): ____________
+
+75.50 36C   Az f.Schalldämmlüfter                                                                                          Stk
+            Betrifft Position(en): ____________
+            Für Schalldämmlüfter.
+            Länge: ____________
+            bewertetes Mindestschalldämmmaß Rw in dB: ____________
+            höchstzulässiger Wärmedurchgangskoeffizient des Gehäuses (U-Wert) in W/m2K: ____________
+            Luftwechsel für (m3): ____________
+            sonstige Anforderungen: ____________
+
+75.90       Regieleistungen
+
+
+                                                                                                                     Seite 10 / 11
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit. Die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Überstunden, die dem Arbeitsruhegesetz unterliegen, sind frei zu formulieren.
+
+75.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+75.90 00A   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+75.90 01    Regiestunden.
+
+75.90 01A   Regiestunde Facharbeiter                                                                                         h
+            Facharbeiter.
+
+75.90 01B   Regiestunde Hilfsarbeiter                                                                                        h
+            Hilfsarbeiter.
+
+75.90 51    Materiallieferungen f.Regieleistungen                                                                            VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+            LB-Version: 23                 Geringfügig Geändert
+
+
+
+
+                                                                                                                       Seite 11 / 11
+                                                                                                  ib-data GmbH, Softwareentwicklung
+

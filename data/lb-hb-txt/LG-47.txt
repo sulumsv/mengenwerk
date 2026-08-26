@@ -1,0 +1,543 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                       Leistungsgruppe (LG) 47 - Tapetenarbeiten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 4701    Schutzabdeckungen
+                     ULG 4702    Vorarbeiten
+                     ULG 4712    Papiertapeten
+                     ULG 4713    Vinyltapeten
+                     ULG 4714    Raufasertapeten
+                     ULG 4715    Glasgewebe-, Glasvliestapeten
+                     ULG 4721    Sonstiges
+                     ULG 4790    Regieleistungen
+
+
+
+
+                                                                                                            Seite 1 / 9
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+47          Tapetenarbeiten
+            Version 023 (2025-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Einkalkulierte Leistungen:
+            1.1 Die Tapete, einschließlich Klebervoranstrich des vorbereiteten Untergrundes (in eigener Position
+            beschrieben), das Verkleben der Tapeten einschließlich aller Zuschnitte und der Einhaltung des Raports sowie
+            das Nachbehandeln der Stöße sind in die Einheitspreise einkalkuliert.
+            1.2 Das Entsorgen der Baurestmassen ist die Einheitspreise einkalkuliert.
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            2. Materialverträglichkeit:
+            Der Auftragnehmer garantiert die Verträglichkeit der verarbeiteten Materialien untereinander. Etwaige
+            Verarbeitungsrichtlinien des Erzeugers der verwendeten Produkte werden eingehalten und gelten als
+            Vertragsbestandteile.
+            3. Antischimmelausführung (Fungizidbeschichtungen):
+            Gesundheitsschädliche Fungizide (z.B. Quecksilberverbindungen) werden nicht verwendet.
+            4. Farben und Dekore:
+            Standardfarben oder -dekors nach Wahl des Auftraggebers beziehen sich auf Farben oder Dekor, für die der
+            Hersteller keinen Aufpreis verrechnet.
+            Sonderfarben oder -dekors, können mit Aufzahlungspositionen frei formuliert werden.
+            Auf Anforderung des Auftraggebers werden Unterlagen über die zur Wahl stehenden Standardfarben und
+            -dekors vorgelegt.
+            LB-Version: 23                Geringfügig Geändert
+
+47.01       Schutzabdeckungen
+
+
+            Schutzabdeckungen nach Wahl des Auftragnehmers beziehen sich nur auf den Schutz der angegebenen
+            Gebäudeteile oder Gegenstände für die Dauer und für die Art der eigenen Leistung. Sie werden sofort nach
+            Fertigstellung der eigenen Leistung entfernt.
+            Das Entfernen und Entsorgen der Abdeckung nach den erfolgten Beschichtungsarbeiten ist in die Einheitspreise
+            einkalkuliert.
+
+
+47.01 01    Schutzabdeckung nach Wahl des Auftragnehmers (AN) ohne Unterschied, ob in Räumen mit waagrechtem oder
+            geneigtem Fußboden oder in Stiegenhäusern.
+            Abgerechnet wird das Ausmaß des zu schützenden Bauteils.
+
+47.01 01A   Schutzabdeckung f.Wände                                                                                       m²
+            Für Wände.
+
+47.01 01B   Schutzabdeckung f.Untersichten                                                                                m²
+            Für Untersichten.
+
+47.01 01C   Schutzabdeckung f.Böden                                                                                       m²
+            Für waagrechte Fußböden oder solche bis 10 Prozent Gefälle.
+            Art der Oberfläche: ____________
+
+47.01 01D   Schutzabdeckung f.Treppen                                                                                     m²
+            Für Treppenläufe einschließlich Zwischen- und Hauptpodesten.
+            Art der Oberfläche: ____________
+
+47.01 01E   Schutzabdeckung f.Geländer                                                                                    m²
+            Für Geländer einschließlich eines etwaigen Handlaufes.
+
+47.01 01F   Schutzabdeckung f.Handlauf                                                                                    m
+
+                                                                                                                      Seite 2 / 9
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+            Für Handlauf.
+
+47.01 01G   Schutzabdeckung f.Möbel                                                                                               m²
+            Für Möbel: ____________
+
+47.01 01H   Schutzabdeckung f.Fenster/Tür                                                                                         m²
+            z.B. für Fenster, Türen, Portale, Aufzugsumwehrungen.
+
+47.01 01I   Schutzabdeckung f.Sockelleisten                                                                                       m
+            Von Sockelleisten bei waagrechten Fußböden oder solchen bis 10 Prozent Gefälle.
+
+47.01 01J   Schutzabdeckung f.Sockelleisten Treppe                                                                                m
+            Von Sockelleisten bei Treppenläufen einschließlich Zwischen- und Hauptpodesten.
+
+47.02       Vorarbeiten
+47.02 10    Abscheren von Leimfarbe innen.
+
+47.02 10A   I-Abscheren Leimfarbe                                                                                                 m²
+47.02 11    Abscheren von lockerer Kalkfarbe innen.
+
+47.02 11A   I-Abscheren Kalkfarbe                                                                                                 m²
+47.02 12    Abscheren von lockerer Dispersionsfarbe innen.
+
+47.02 12A   I-Abscheren Dispersion                                                                                                m²
+47.02 13    Abscheren von Tapeten, 1-lagig, innen.
+
+47.02 13A   I-Abscheren Tapeten 1-lag.                                                                                            m²
+47.02 14    Abscheren von Tapeten, mehrlagig, innen.
+
+47.02 14A   I-Abscheren Tapeten mehrl.                                                                                            m²
+47.02 15    Abscheren von Belägen aus Kunststoff oder Textilien, 1-lagig, innen.
+
+47.02 15A   I-Abscheren Kunstst./Textil 1-lag.                                                                                    m²
+47.02 16    Gänzliches Entfernen von Dispersionsfarbe durch Abbeizen, innen.
+
+47.02 16A   I-Entfernen Dispersion                                                                                                m²
+47.02 21    Absperren von durchschlagendem Untergrund an Innenflächen.
+
+47.02 21A   I-Untergrund absperren                                                                                                m²
+47.02 22    Tiefengrundierung zur Untergrundverfestigung sandender oder zu weicher mineralischer Untergründe sowie als
+            Saugausgleich auf Leichtbauplatten, innen, wasserlöslich.
+
+47.02 22A   I-Tiefengrund wasserlöslich                                                                                           m²
+47.02 23    Tiefengrundierung zur Untergrundverfestigung sandender oder zu weicher mineralischer Untergründe sowie als
+            Saugausgleich auf Leichtbauplatten, innen, auf Lösungsmittelbasis.
+
+47.02 23A   I-Tiefengrund Lösungsmittelbasis                                                                                      m²
+47.02 25    Einmaliges vollflächiges Überziehen von mineralischen Putzoberflächen mit Spachtelmasse, passend zum
+            Untergrund und zum nachfolgenden Tapezieren, einschließlich Schleifen, innen, ausgenommen
+            Betonoberflächen.
+             Kommentar:
+             Ist wegen der Beschaffenheit des Untergrundes ein zwei- oder mehrmaliges vollflächiges Spachteln erforderlich, kann diese
+             Leistung mit der selben Position durch eine entsprechende Vervielfachung der zu bearbeitenden Fläche ausgeschrieben
+             werden.
+
+47.02 25A   I-Spachteln 1x                                                                                                        m²
+47.02 27    Risse mit Vlies bis 10 cm breit armieren und schleifen, innen.
+
+
+                                                                                                                              Seite 3 / 9
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+47.02 27A   I-Risse armieren m.Vlies                                                                                    m
+47.02 29    Flächen mit Vlies vollflächig armieren und schleifen, innen.
+
+47.02 29A   I-Flächen armieren m.Vlies                                                                                  m²
+47.02 31    Flächen mit Glasfasergewebe vollflächig armieren und schleifen, innen.
+
+47.02 31A   I-Fläche armieren m.Gewebe                                                                                  m²
+47.02 33    Aufbringen einer Unterlagstapete (Makulatur) auf vorbereiteten Untergrund.
+
+47.02 33A   Makulatur aus Papier                                                                                        m²
+            Aus Papier.
+
+47.02 33B   Makulatur aus Glasvlies                                                                                     m²
+            Aus Glasvlies.
+
+47.02 45    Demontieren und Wiedermontieren von Leisten.
+
+47.02 45A   De-und Wiedermontage Leisten geschraubt                                                                     m
+             Kommentar:
+             Das Erneuern von Leisten ist frei zu formulieren.
+
+47.12       Papiertapeten
+
+
+            Papiertapete, deren Vorderseite bedruckt ist.
+
+47.12 01    Verkleben von Papiertapeten ohne Rapport.
+
+47.12 01A   Verkleben Papiertapete o.Rapport                                                                            m²
+            Tapetenart: ____________
+
+47.12 02    Verkleben von Papiertapeten mit einem Rapport bis 25 cm.
+
+47.12 02A   Verkleben Papiertapete Rapport b.25                                                                         m²
+            Tapetenart: ____________
+
+47.12 03    Verkleben von Papiertapeten mit einem Rapport über 25 bis 60 cm.
+
+47.12 03A   Verkleben Papiertapete Rapport -60                                                                          m²
+            Tapetenart: ____________
+
+47.13       Vinyltapeten
+
+
+            1. Vinyltapete auf Papier:
+            Tapete, die aus einem Papierträgermaterial mit einer Beschichtung aus Polyvinylchlorid oder einem anderen
+            Polymer auf der Vorderseite besteht. Die Vorderseite des Papiers oder deren Vinylbeschichtung ist bedruckt
+            oder anderweitig behandelt. Die Beschichtung hat eine derartige Dicke und Festigkeit, dass sie beim Abziehen
+            vom Trägermaterial eine durchgehende selbsttragende Schicht ergibt.
+            2. Vinyltapete auf Gewebe- oder Vliesträger:
+            Tapete, die aus einem textilen oder vliesartigen Trägermaterial und einer Beschichtung aus Polyvinylchlorid
+            oder einem anderen Polymer auf der Vorderseite besteht. Die Vorderseite des Papiers oder deren
+            Vinylbeschichtung ist bedruckt oder anderweitig behandelt. Die Beschichtung hat eine derartige Dicke und
+            Festigkeit, dass sie beim möglichen Abziehen vom Trägermaterial eine durchgehende selbsttragende Schicht
+            ergibt.
+47.13 01    Verkleben von Vinyltapeten auf Papier (Vinyltap/Papier) ohne Rapport (o.Rap.).
+
+47.13 01A   Verkleb.Vinyltap/Papier o.Rap.                                                                              m
+            Tapetenart: ____________
+
+47.13 02    Verkleben von Vinyltapeten auf Papier (Vinyltap/Papier) mit Rapport bis 25 cm.
+
+47.13 02A   Verkleb.Vinyltap/Papier Rap.b.25                                                                            m
+                                                                                                                    Seite 4 / 9
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+            Tapetenart: ____________
+
+47.13 03    Verkleben von Vinyltapeten auf Papier (Vinyltap/Papier) mit Rapport über 25 bis 60 cm.
+
+47.13 03A   Verkleb.Vinyltap/Papier Rap.-60                                                                               m
+            Tapetenart: ____________
+
+47.13 11    Verkleben von Vinyltapeten auf Gewebe- oder Vliesträger (Vinyltap/träg.), ohne Rapport (o.Rap.).
+
+47.13 11A   Verkleb.Vinyltap/träg.o.Rap.                                                                                  m²
+            Tapetenart: ____________
+
+47.13 12    Verkleben von Vinyltapeten auf Gewebe- oder Vliesträger (Vinyltap/träg.), mit Rapport bis 25 cm.
+
+47.13 12A   Verkleb.Vinyltap/träg.Rap.b.25                                                                                m²
+            Tapetenart: ____________
+
+47.13 13    Verkleben von Vinyltapeten auf Gewebe- oder Vliesträger (Vinyl/träg.), mit Rapport über 25 bis 60 cm.
+
+47.13 13A   Verkleb.Vinyltap/träg.Rap.-60                                                                                 m²
+            Tapetenart: ____________
+
+47.14       Raufasertapeten
+
+
+            1. Raufasertapeten:
+            Tapeten aus Papier, das durch eingearbeitete Holzpartikel strukturiert ist und als Ausgangsmaterial für eine
+            fertige Wandbekleidung oder für eine Wandbekleidung zum nachträglichen Beschichten vorgesehen ist.
+            2. Farben:
+            Standardfarben nach Wahl des Auftraggebers beziehen sich auf Farben, für die der Hersteller keinen Aufpreis
+            verrechnet.
+            Auf Anforderung des Auftraggebers werden Unterlagen über die zur Wahl stehenden Standardfarben vorgelegt.
+            Sonderfarben können mit einer Aufzahlungsposition frei formuliert werden.
+47.14 01    Verkleben von Raufasertapeten ohne Unterschied ob grob- oder feinkörnig.
+
+47.14 01A   Verkleben Raufasertapeten                                                                                     m²
+            Tapetenart: ____________
+
+47.14 06    Aufzahlung (Az) auf die Positionen Verkleben von Raufasertapeten.
+
+47.14 06A   Az Verkleben Raufaser auf Polystyrol                                                                          m²
+            Für das Verwenden von Spezialkleber bei einem Untergrund aus Polystyroldämmplatten.
+
+47.14 16    Deckende Beschichtung von Raufasertapeten mit Dispersionsfarben, ohne Unterschied der Art.
+            Im Positionsstichwort ist die Nassabriebbeständigkeit (NAK) in Klassen gemäß ÖNORM EN 13300 angegeben.
+
+47.14 16A   Beschichtung Raufaser Dispersion NAK3                                                                         m²
+            Grund- und Schlussbeschichtung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+47.14 16B   Beschichtung Raufaser Dispersion einf.Ausf.NAK3                                                               m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+47.14 16E   Beschichtung Raufaser Dispersion NAK2                                                                         m²
+            Grund- und Schlussbeschichtung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+
+                                                                                                                      Seite 5 / 9
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+47.14 16F   Beschichtung Raufaser Dispersion einf.Ausf.NAK2                                                             m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+47.14 16J   Beschichtung Raufaser Dispersion NAK1                                                                       m²
+            Grund- und Schlussbeschichtung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+47.14 16K   Beschichtung Raufaser Dispersion einf.Ausf.NAK1                                                             m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+47.15       Glasgewebe-, Glasvliestapeten
+47.15 01    Untergrund aus intakten Glasgewebe- oder Glasvliestapeten anschleifen und entstauben.
+
+47.15 01A   Glasgewebe-u.Glasvliestapeten reinigen                                                                      m²
+47.15 02    Grundieren des vorbereiteten Untergrundes (in eigener Position beschrieben) für nachfolgende Tapezierung mit
+            Glasgewebe- oder Glasvliestapeten.
+
+47.15 02A   Grundierung vor Glasgewebe-u.Glasvliestapeten auf Holz                                                      m²
+            Untergrund aus Holz-, Hartfaser-, Span- und Sperrholzplatten (Holz), mit einer wasserverdünnbaren,
+            pigmentierten 2-Komponenten Epoxigrundierung.
+47.15 05    Verkleben von nicht vorbeschichteten Glasgewebetapeten.
+
+47.15 05A   Verkleben nicht vorbeschichteter Glasgewebetapeten                                                          m²
+            Tapetenart: ____________
+
+47.15 06    Verkleben von vorbeschichteten Glasgewebetapeten.
+
+47.15 06A   Verkleben vorbeschichteter Glasgewebetapeten                                                                m²
+            Tapetenart: ____________
+
+47.15 07    Verkleben von strukturierten nicht vorbeschichteten Glasgewebetapeten.
+
+47.15 07A   Verkleben nicht vorbeschichtete/struktur.Glasgewebetapeten                                                  m²
+            Tapetenart: ____________
+
+47.15 12    Beschichtung, kratz- und schlagfest, desinfektionsmittel- und chemikalienbeständig, dekontaminierbar und
+            schwer entflammbar, bestehend aus:
+                • Grundbeschichtung mit emissions- und lösemittelfreier Kunstharzdispersionsfarbe
+                • Zwischen - und Schlussbeschichtung mit wasserverdünnbarer, pigmentierter zweikomponentiger
+                  Epoxidharzbeschichtung
+
+47.15 12A   Beschichtung Glasgewebetapeten Epoxidharz                                                                   m²
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+47.15 14    Selbstklebende Bordüren mit quarzbeschichteter Oberfläche, auf Wandflächen geklebt vor der Ausführung der
+            Schlussbeschichtung (Schlussbeschichtung in eigener Position beschrieben), Lage der Bordüre nach Angabe
+            des Auftraggebers.
+
+47.15 14A   Bordüren selbstklebend quarzbeschichtet                                                                     m
+            Breite der Bordüre (mm): ____________
+            Design: ____________
+
+
+
+
+                                                                                                                    Seite 6 / 9
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+47.15 18    Verkleben von Glasvlies als mineralischer Wandbelag mit Strukturdruck auf gereinigtem und vorbehandeltem
+            Untergrund (in eigener Position beschrieben), mit gebrauchsfertigem, lösemittelfreiem Dispersionsklebstoff.
+            Glasvlies aus mineralischen Glasfasern mit einem Durchmesser größer 5 my, Rückseite imprägniert.
+            Vorderseite mit weißem Strukturdruck auf Acrylbasis im Standarddesign.
+
+47.15 18A   Verkleben Glasvlies Strukturdruck                                                                           m²
+            Tapetenart: ____________
+
+47.15 21    Deckende Beschichtung von vorbeschichteten Glasgewebetapeten mit Dispersionsfarben, ohne Unterschied der
+            Art.
+            Im Positionsstichwort ist die Nassabriebbeständigkeit (NAK) in Klassen gemäß ÖNORM EN 13300 angegeben.
+
+47.15 21A   Beschichtung Glasgewebetapeten Dispersion NAK3                                                              m²
+            Grund- und Schlussbeschichtung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+47.15 21B   Beschichtung Glasgewebetapeten Dispersion einf.Ausf.NAK3                                                    m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+47.15 21E   Beschichtung Glasgewebetapeten Dispersion NAK2                                                              m²
+            Grund- und Schlussbeschichtung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+47.15 21F   Beschichtung Glasgewebetapeten Dispersion einf.Ausf.NAK2                                                    m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+47.15 21J   Beschichtung Glasgewebetapeten Dispersion NAK1                                                              m²
+            Grund- und Schlussbeschichtung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+47.15 21K   Beschichtung Glasgewebetapeten Dispersion einf.Ausf.NAK1                                                    m²
+            Einfache Ausführung.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+47.21       Sonstiges
+47.21 01    Oberer Abschluss der Wandtapete.
+
+47.21 01A   Oberer Abschluss Leiste                                                                                     m
+            Mit einer Holzleiste: ____________
+
+47.21 01B   Oberer Abschluss Papierbordüre                                                                              m
+            Mit einer Papierbordüre: ____________
+
+47.21 01C   Oberer Abschluss Stoffbordüre                                                                               m
+            Mit einer Stoffbordüre: ____________
+
+47.21 11    Beschichten des Kehrsockels mit Dispersionsfarbe NAK1, gemäß ÖNORM EN 13300, Grundieren und
+            Schlussbeschichten.
+                • bis 25 cm hoch
+            Das Beschneiden ist im Einheitspreis einkalkuliert.
+
+                                                                                                                    Seite 7 / 9
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+47.21 11A   Kehrsockel Dispersion Streifen                                                                               m
+            Als Streifen, Oberkante parallel zu ebenen Fußböden (waagrecht oder schräg).
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+            LB-Version: 23              Geringfügig Geändert
+
+47.21 11B   Kehrsockel Dispersion Stufen                                                                                 m
+            Oberkante geradlinig, schräg, Unterkante an angrenzendes Stufenprofil angearbeitet.
+
+            LB-Version: 23              Geringfügig Geändert
+47.21 13    Überlackieren des Kehrsockels mit Kunstharzlack.
+            Das Beschneiden ist im Einheitspreis einkalkuliert.
+
+47.21 13A   Überlackieren Kunstharzlack Kehrsockel Streifen                                                              m
+            Als Streifen, Oberkante parallel zu ebenen Fußböden (waagrecht oder schräg).
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+47.21 13B   Überlackieren Kunstharzlack Kehrsockel Stufen                                                                m
+            Oberkante geradlinig, Unterkante an angrenzendes Stufenprofil angearbeitet.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+47.21 14    Überlackieren der Lambarie bis 2 m Höhe mit Kunstharzlack, einschließlich Abschlussstrich.
+            Das Beschneiden ist im Einheitspreis einkalkuliert.
+
+47.21 14A   Überlack.Kunstharz.Lambrie                                                                                   m²
+            Bei Standardflächen über ebenen Fußböden.
+            Glanzgrad (matt, seidenmatt, seidenglänzend, glänzend): ____________
+            Farbton/Farbregister mit Farbnummer (z.B. RAL9001, NCS S8010-Y90R): ____________
+
+47.21 51    Anschlussfugen schließen mit einem elastischen Dichtungsstoff auf Acrylbasis, überstreichbar.
+            Im Positionsstichwort ist die Fugenbreite (mm) angegeben.
+
+47.21 51A   Fuge Acryl überstreichbar b.5mm                                                                              m
+
+47.21 51C   Fuge Acryl überstreichbar ü.5-10mm                                                                           m
+47.21 52    Anschlussfugen schließen mit einem elastischen Dichtungsstoff auf Silikonbasis, nicht überstreichbar.
+            Im Positionsstichwort ist die Fugenbreite (mm) angegeben.
+
+47.21 52A   Fuge Silikon b.5mm                                                                                           m
+47.90       Regieleistungen
+
+
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+                                                                                                                     Seite 8 / 9
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+47.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+47.90 00C   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+47.90 01    Regiestunden.
+
+47.90 01A   Regiestunde Facharbeiter                                                                                         h
+            Facharbeiter.
+
+47.90 01B   Regiestunde Hilfsarbeiter                                                                                        h
+            Hilfsarbeiten.
+
+47.90 51    Materiallieferungen f.Regieleistungen                                                                            VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+            LB-Version: 23                 Geringfügig Geändert
+
+
+
+
+                                                                                                                         Seite 9 / 9
+                                                                                                  ib-data GmbH, Softwareentwicklung
+

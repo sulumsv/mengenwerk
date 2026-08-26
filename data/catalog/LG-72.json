@@ -1,0 +1,301 @@
+{
+  "lg": "72",
+  "title": "Fenster aus Aluminium",
+  "positions": [
+    {
+      "code": "72.00.01A",
+      "text": "Seehöhe u.Gebäudegeometrie",
+      "unit": ""
+    },
+    {
+      "code": "72.10.01A",
+      "text": "Einfachfenster Alu m.Standard-Fensteranschluss",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11A",
+      "text": "Az Einfachfenster Alu MIG f.Fries",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11B",
+      "text": "Az Einfachfenster Alu MIG f.Fries doppelt",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11C",
+      "text": "Az Einfachfenster Alu MIG f.Sonneschutzgl.reflekt.",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11D",
+      "text": "Az Einfachfenster Alu MIG f.Sonneschutzgl.absorb.",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11E",
+      "text": "Az Einfachfenster Alu MIG f.Spr.vert./horiz.im Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11F",
+      "text": "Az Einfachfenster Alu MIG f.Spr/K.vert./horiz.im Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11G",
+      "text": "Az Einfachfenster Alu MIG f.Spr.vert./horiz.auf Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11H",
+      "text": "Az Einfachfenster Alu MIG f.Spr/K.vert.horiz.auf Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11I",
+      "text": "Az Einfachfenster Alu MIG f.Öffnungsbegrenzung",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11J",
+      "text": "Az Einfachfenster Alu MIG f.Drehsperre",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11K",
+      "text": "Az Einfachfenster Alu MIG f.Gestänge f.Oberlichten 2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11L",
+      "text": "Az Einfachfenster Alu MIG f.Fenstergriff m.Rosette",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11M",
+      "text": "Az Einfachfenster Alu MIG f.Scheibenaufbau",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11N",
+      "text": "Az Einfachfenster Alu MIG f.Scheibenabstand",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11O",
+      "text": "Az Einfachfenster Alu MIG f.Mindestschalldämmmaß",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11P",
+      "text": "Az Einfachfenster Alu MIG f.Wärmedurchgangskoeffizient",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11Q",
+      "text": "Az Einfachfenster Alu MIG f.einbruchhemmend",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11R",
+      "text": "Az Einfachfenster Alu MIG f.Strahlenschutz",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11S",
+      "text": "Az Einfachfenster Alu MIG f.Innenjalousien",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11T",
+      "text": "Az Einfachfenster Alu MIG f.Absturzsicherung",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11U",
+      "text": "Az Einfachfenster Alu MIG f.Reedkontakte",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.10.11Y",
+      "text": "Az Einfachfenster Alu MIG f.Sonstiges",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.01A",
+      "text": "Verbundfenster Alu m.Standard-Fensteranschluss",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11A",
+      "text": "Az Verbundfenster Alu MIG f.Fries",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11B",
+      "text": "Az Verbundfenster Alu MIG f.Fries doppelt",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11C",
+      "text": "Az Verbundfenster Alu MIG f.Sonneschutzgl.reflekt.",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11D",
+      "text": "Az Verbundfenster Alu MIG f.Sonneschutzgl.absorb.",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11E",
+      "text": "Az Verbundfenster Alu MIG f.Spr.vert./horiz.im Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11F",
+      "text": "Az Verbundfenster Alu MIG f.Spr/K.vert./horiz.im Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11G",
+      "text": "Az Verbundfenster Alu MIG f.Spr.vert./horiz.auf Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11H",
+      "text": "Az Verbundfenster Alu MIG f.Spr/K.vert./horiz.auf Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11I",
+      "text": "Az Verbundfenster Alu MIG f.Öffnungsbegrenzung",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11J",
+      "text": "Az Verbundfenster Alu MIG f.Drehsperre",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11K",
+      "text": "Az Verbundfenster Alu MIG f.Gestänge f.Oberlichten 2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11L",
+      "text": "Az Verbundfenster Alu MIG f.Fenstergriff m.Rosette",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11M",
+      "text": "Az Verbundfenster Alu MIG f.Scheibenaufbau",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11N",
+      "text": "Az Verbundfenster Alu MIG f.Scheibenabstand",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11O",
+      "text": "Az Verbundfenster Alu MIG f.Mindestschalldämmmaß",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11P",
+      "text": "Az Verbundfenster Alu MIG f.Wärmedurchgangskoeffizient",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11Q",
+      "text": "Az Verbundfenster Alu MIG f.einbruchhemmend",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11R",
+      "text": "Az Verbundfenster Alu MIG f.Strahlenschutz",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11S",
+      "text": "Az Verbundfenster Alu MIG f.Behang",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11T",
+      "text": "Az Verbundfenster Alu MIG f.Absturzsicherung",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11U",
+      "text": "Az Verbundfenster Alu MIG f. Reedkontakte",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.30.11Y",
+      "text": "Az Verbundfenster Alu MIG f.Sonstiges",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.50.01A",
+      "text": "Türfeststeller Fußbedienung",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.50.02A",
+      "text": "Bewegliche Anschlüsse",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.50.11A",
+      "text": "Innenfensterbank Holz                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "72.50.14A",
+      "text": "Innenfensterbank melaminharzbeschichtet__________                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "72.50.25A",
+      "text": "Außenfensterbank Aluminium                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "72.50.25B",
+      "text": "Seitlicher Abschluss Außenfensterbank Aluminium",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.50.29A",
+      "text": "Außenfensterbank-Stoßverbindung",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.50.36A",
+      "text": "Az f.Fensterlüfter",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.50.36C",
+      "text": "Az f.Schalldämmlüfter",
+      "unit": "Stk"
+    },
+    {
+      "code": "72.90.00A",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "72.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "72.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

@@ -1,0 +1,1551 @@
+{
+  "lg": "10",
+  "title": "Putz",
+  "positions": [
+    {
+      "code": "10.01.00D",
+      "text": "Oberfläche zu 10.01",
+      "unit": ""
+    },
+    {
+      "code": "10.01.00E",
+      "text": "Putzgrund zu 10.01",
+      "unit": ""
+    },
+    {
+      "code": "10.01.01A",
+      "text": "Gipshaltiger IP W b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.01B",
+      "text": "Gipshaltiger IP W Treppe b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.02A",
+      "text": "Gipshaltiger IP W PGV b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.02B",
+      "text": "Gipshaltiger IP W PGV Treppe b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.03A",
+      "text": "Gipshaltiger IP W PGV+TGG b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.03B",
+      "text": "Gipshaltiger IP W PGV+TGG Treppe b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.04A",
+      "text": "Gipshaltiger IP W ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.04B",
+      "text": "Gipshaltiger IP W Treppe ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.05A",
+      "text": "Gipshaltiger IP W PGV ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.05B",
+      "text": "Gipshaltiger IP W PGV Treppe ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.06A",
+      "text": "Gipshaltiger IP W PGV+TGG ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.06B",
+      "text": "Gipshaltiger IP W PGV+TGG Treppe ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.11A",
+      "text": "Kalkzement IP W b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.11B",
+      "text": "Kalkzement IP W Treppe b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.12A",
+      "text": "Kalkzement IP W PGV b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.12B",
+      "text": "Kalkzement IP W PGV Treppe b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.13A",
+      "text": "Kalkzement IP W PGV+TGG b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.13B",
+      "text": "Kalkzement IP W PGV+TGG Treppe b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.14A",
+      "text": "Kalkzement IP W ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.14B",
+      "text": "Kalkzement IP W Treppe ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.15A",
+      "text": "Kalkzement IP W PGV ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.15B",
+      "text": "Kalkzement IP W PGV Treppe ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.16A",
+      "text": "Kalkzement IP W PGV+TGG ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.16B",
+      "text": "Kalkzement IP W PGV+TGG Treppe ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.21A",
+      "text": "Sanierputz N IP W b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.21B",
+      "text": "Sanierputz N IP W Treppe b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.23A",
+      "text": "Sanierputz L IP W b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.23B",
+      "text": "Sanierputz L IP W Treppe b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.25A",
+      "text": "Az Sanierputz IP W f.Mehrdicke b.2cm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.25B",
+      "text": "Az Sanierputz IP W f.Ausblühungen abb.",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.25C",
+      "text": "Az Sanierputz IP W f.Entfernung von Algen",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.41A",
+      "text": "Ausgleichsschicht IP W ü.10-20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.41B",
+      "text": "Ausgleichsschicht IP W ü.20-30mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.41C",
+      "text": "Ausgleichsschicht IP W ü.30-40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.41D",
+      "text": "Ausgleichsschicht IP W ü.40-50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.51A",
+      "text": "Az IP W f.Pfeiler",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.51B",
+      "text": "Az IP W f.Ebenheit erhöhte Anforderung",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.51C",
+      "text": "Az IP W f.Ichse unter 90 Grad                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "10.01.51D",
+      "text": "Az IP W f.gekrümmte Wände und Pfeiler rund",
+      "unit": "m²"
+    },
+    {
+      "code": "10.01.51E",
+      "text": "Az IP W f.Bögen                                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "10.01.51F",
+      "text": "Az IP W f.SchabloneTür b.4m2                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "10.01.81A",
+      "text": "Az IP W f.Schließen (Verputzen) von Schlitzen                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "10.02.00D",
+      "text": "Oberfläche zu 10.02",
+      "unit": ""
+    },
+    {
+      "code": "10.02.00E",
+      "text": "Putzgrund zu 10.02",
+      "unit": ""
+    },
+    {
+      "code": "10.02.01A",
+      "text": "Gipshaltiger IP D b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.02A",
+      "text": "Gipshaltiger IP D PGV b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.03A",
+      "text": "Gipshaltiger IP D PGV+TGG b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.04A",
+      "text": "Gipshaltiger IP D ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.05A",
+      "text": "Gipshaltiger IP D PGV ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.06A",
+      "text": "Gipshaltiger IP D PGV+TGG ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.11A",
+      "text": "Kalkzement IP D b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.12A",
+      "text": "Kalkzement IP D PGV b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.13A",
+      "text": "Kalkzement IP D PGV+TGG b.3,2m",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.14A",
+      "text": "Kalkzement IP D ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.15A",
+      "text": "Kalkzement IP D PGV ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.16A",
+      "text": "Kalkzement IP D PGV+TGG ü.3,2m:__________",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.41A",
+      "text": "Ausgleichsschicht IP D ü.10-20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.41B",
+      "text": "Ausgleichsschicht IP D ü.20-30mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.41C",
+      "text": "Ausgleichsschicht IP D ü.30-40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.41D",
+      "text": "Ausgleichsschicht IP D ü.40-50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.51B",
+      "text": "Az IP D f.Ebenheit erhöhte Anforderung",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.51C",
+      "text": "Az IP D f.Ichse unter 90 Grad                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "10.02.51E",
+      "text": "Az IP D f.Gewölbe",
+      "unit": "m²"
+    },
+    {
+      "code": "10.02.81A",
+      "text": "Az IP D f.Schließen (Verputzen) von Schlitzen                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "10.03.00D",
+      "text": "Oberfläche zu 10.03",
+      "unit": ""
+    },
+    {
+      "code": "10.03.00E",
+      "text": "Putzgrund zu 10.03",
+      "unit": ""
+    },
+    {
+      "code": "10.03.00F",
+      "text": "Beschreibung der Fassade zu 10.03",
+      "unit": ""
+    },
+    {
+      "code": "10.03.00G",
+      "text": "Geograph.Orientierung der Fassade zu 10.03",
+      "unit": ""
+    },
+    {
+      "code": "10.03.00H",
+      "text": "Sockel der Fassade zu 10.03",
+      "unit": ""
+    },
+    {
+      "code": "10.03.01A",
+      "text": "Kalkzement UP-AP m.PGV",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.02A",
+      "text": "Kalkzement UP-AP m.PGV und Kst.G.",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.03A",
+      "text": "Kalkzement UP-AP m.PGV+Spachtelung+TGG",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.11A",
+      "text": "Dünnputz kunsth.Rillenstruktur GK2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.11B",
+      "text": "Dünnputz kunsth.Rillenstruktur GK3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.11C",
+      "text": "Dünnputz kunsth.Reibstruktur GK1,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.11D",
+      "text": "Dünnputz kunsth.Reibstruktur GK2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.11E",
+      "text": "Dünnputz kunsth.Reibstruktur GK3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.11F",
+      "text": "Dünnputz kunsth.Füllputz GK0,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.11G",
+      "text": "Dünnputz kunsth.Feinputz GK1mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.12A",
+      "text": "Silikat-Dünnputz Rillenstruktur GK2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.12B",
+      "text": "Silikat-Dünnputz Rillenstruktur GK3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.12C",
+      "text": "Silikat-Dünnputz Reibstruktur GK1,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.12D",
+      "text": "Silikat-Dünnputz Reibstruktur GK2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.12E",
+      "text": "Silikat-Dünnputz Reibstruktur GK3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.12F",
+      "text": "Silikat-Dünnputz Füllputz GK0,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.12G",
+      "text": "Silikat-Dünnputz Feinputz GK1mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.13A",
+      "text": "Silikon-Dünnputz Rillenstruktur GK2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.13B",
+      "text": "Silikon-Dünnputz Rillenstruktur GK3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.13C",
+      "text": "Silikon-Dünnputz Reibstruktur GK1,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.13D",
+      "text": "Silikon-Dünnputz Reibstruktur GK2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.13E",
+      "text": "Silikon-Dünnputz Reibstruktur GK3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.13F",
+      "text": "Silikon-Dünnputz Füllputz GK0,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.13G",
+      "text": "Silikon-Dünnputz Feinputz GK1mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.14A",
+      "text": "Buntstein-Dünnputz Reibstruktur GK1,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.14B",
+      "text": "Buntstein-Dünnputz Reibstruktur GK2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.14C",
+      "text": "Buntstein-Dünnputz Reibstruktur GK3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.21A",
+      "text": "Endbeschichtung m.Kunstharzfarbe",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.21B",
+      "text": "Endbeschichtung m.Silikatfarbe",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.21C",
+      "text": "Endbeschichtung m.Silikonfarbe",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.22A",
+      "text": "Feinputz KZ Reibstruktur GK1,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.32A",
+      "text": "Sanierputz N AP",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.33A",
+      "text": "Sanierputz S AP",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.35A",
+      "text": "Az Sanierputz AP W f.Mehrdicke b.2cm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.35B",
+      "text": "Az Sanierputz AP W f.Ausblühungen abb.",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.35C",
+      "text": "Az Sanierputz AP W f.Entfernung von Algen",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.41A",
+      "text": "Ausgleichsschicht AP ü.10-20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.41B",
+      "text": "Ausgleichsschicht AP ü.20-30mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.41C",
+      "text": "Ausgleichsschicht AP ü.30-40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.41D",
+      "text": "Ausgleichsschicht AP ü.40-50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.62A",
+      "text": "Az AP f.Pfeiler",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.62B",
+      "text": "Az AP f.Ebenheit erhöhte Anforderung",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.62C",
+      "text": "Az AP f.Ichse unter 90 Grad                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "10.03.62D",
+      "text": "Az AP f.gekrümmte Wände und Pfeiler rund",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.62E",
+      "text": "Az AP f.Bögen                                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "10.03.62F",
+      "text": "Az AP f.SchabloneTür b.4m2                                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "10.03.62G",
+      "text": "Az AP Endbesch.Farbe f.fungizid u.algizid",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.62H",
+      "text": "Az AP Endbesch.Putz f.fungizid u.algizid",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.65A",
+      "text": "Az AP Endbesch.Farbe f.Sonderfarbe",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.65B",
+      "text": "Az AP Endbesch.Putz f.Sonderfarbe",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.67A",
+      "text": "Az AP f.Untersichten und Schrägdachfl.",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.71A",
+      "text": "Az AP f.Nuten u.Grenzlinien                                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "10.03.72A",
+      "text": "Az AP f.einfache Gliederung                                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "10.03.73A",
+      "text": "Az AP f.Putzstreifen glatt 15cm                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "10.03.73B",
+      "text": "Az AP f.Putzstreifen profiliert 15cm                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "10.03.74A",
+      "text": "Az AP f.Gesimse glatt                                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "10.03.74B",
+      "text": "Az AP f.Gesimse profiliert                                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "10.03.75A",
+      "text": "Az AP f.Putzfelder rechteckig",
+      "unit": "m²"
+    },
+    {
+      "code": "10.03.81A",
+      "text": "Az AP f.Schließen (Verputzen) von Schlitzen                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "10.81.00D",
+      "text": "Oberfläche zu 10.81",
+      "unit": ""
+    },
+    {
+      "code": "10.81.00E",
+      "text": "Putzgrund zu 10.81",
+      "unit": ""
+    },
+    {
+      "code": "10.81.01A",
+      "text": "Inst.IP W b.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.01B",
+      "text": "Inst.IP W Treppe b.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.01C",
+      "text": "Inst.IP W b.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.01D",
+      "text": "Inst.IP W Treppe b.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.01E",
+      "text": "Inst.IP W b.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.01F",
+      "text": "Inst.IP W Treppe b.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.02A",
+      "text": "Inst.IP W PGV b.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.02B",
+      "text": "Inst.IP W PGV Treppe b.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.02C",
+      "text": "Inst.IP W PGV b.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.02D",
+      "text": "Inst.IP W PGV Treppe b.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.02E",
+      "text": "Inst.IP W PGV b.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.02F",
+      "text": "Inst.IP W PGV Treppe b.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.03A",
+      "text": "Inst.IP W PGV+TGG b.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.03B",
+      "text": "Inst.IP W PGV+TGG Treppe b.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.03C",
+      "text": "Inst.IP W PGV+TGG b.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.03D",
+      "text": "Inst.IP W PGV+TGG Treppe b.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.03E",
+      "text": "Inst.IP W PGV+TGG b.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.03F",
+      "text": "Inst.IP W PGV+TGG Treppe b.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.11A",
+      "text": "Inst.IP W ü.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.11B",
+      "text": "Inst.IP W Treppe ü.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.11C",
+      "text": "Inst.IP W ü.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.11D",
+      "text": "Inst.IP W Treppe ü.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.11E",
+      "text": "Inst.IP W ü.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.11F",
+      "text": "Inst.IP W Treppe ü.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.12A",
+      "text": "Inst.IP W PGV ü.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.12B",
+      "text": "Inst.IP W PGV Treppe ü.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.12C",
+      "text": "Inst.IP W PGV ü.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.12D",
+      "text": "Inst.IP W PGV Treppe ü.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.12E",
+      "text": "Inst.IP W PGV ü.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.12F",
+      "text": "Inst.IP W PGV Treppe ü.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.13A",
+      "text": "Inst.IP W PGV+TGG ü.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.13B",
+      "text": "Inst.IP W PGV+TGG Treppe ü.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.13C",
+      "text": "Inst.IP W PGV+TGG ü.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.13D",
+      "text": "Inst.IP W PGV+TGG Treppe ü.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.13E",
+      "text": "Inst.IP W PGV+TGG ü.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.13F",
+      "text": "Inst.IP W PGV+TGG Treppe ü.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.21A",
+      "text": "Inst.IPW OF reinigen+Fug.verschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.21B",
+      "text": "Inst.IPW OF reinigen+Fug.verschl.+weiß.",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.21C",
+      "text": "Inst.IPW OF reinigen+Fug.verschl.+pat.",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.22A",
+      "text": "Kellerwände innen reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.22B",
+      "text": "Kellerwände innen reinigen+weißen",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.22C",
+      "text": "Kellerwände innen reinigen+patschokkieren",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.23A",
+      "text": "Inst.Ausgleichsschicht IP W ü.10-20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.23B",
+      "text": "Inst.Ausgleichsschicht IP W ü.20-30mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.23C",
+      "text": "Inst.Ausgleichsschicht IP W ü.30-40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.23D",
+      "text": "Inst.Ausgleichsschicht IP W ü.40-50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.51A",
+      "text": "Az Inst.IP W f.Pfeiler",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.51B",
+      "text": "Az Inst.IP W f.Ebenheit erhöhte Anforderung",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.51C",
+      "text": "Az Inst.IP W f.Ichse unter 90 Grad                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "10.81.51D",
+      "text": "Az Inst.IP W f.gekrümmte Wände und Pfeiler rund",
+      "unit": "m²"
+    },
+    {
+      "code": "10.81.51E",
+      "text": "Az Inst.IP W f.Bögen                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "10.81.51F",
+      "text": "Az Inst.IP W f.SchabloneTür b.4m2                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "10.81.81A",
+      "text": "Az Inst.IP W f.Schließen (Verputzen) von Schlitzen                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "10.82.00D",
+      "text": "Oberfläche zu 10.82",
+      "unit": ""
+    },
+    {
+      "code": "10.82.00E",
+      "text": "Putzgrund zu 10.82",
+      "unit": ""
+    },
+    {
+      "code": "10.82.01A",
+      "text": "Inst.IP D b.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.01C",
+      "text": "Inst.IP D b.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.01E",
+      "text": "Inst.IP D b.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.02A",
+      "text": "Inst.IP D PGV b.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.02C",
+      "text": "Inst.IP D PGV b.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.02E",
+      "text": "Inst.IP D PGV b.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.03A",
+      "text": "Inst.IP D PGV+TGG b.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.03C",
+      "text": "Inst.IP D PGV+TGG b.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.03E",
+      "text": "Inst.IP D PGV+TGG b.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.11A",
+      "text": "Inst.IP D ü.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.11C",
+      "text": "Inst.IP D ü.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.11E",
+      "text": "Inst.IP D ü.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.12A",
+      "text": "Inst.IP D PGV ü.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.12C",
+      "text": "Inst.IP D PGV ü.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.12E",
+      "text": "Inst.IP D PGV ü.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.13A",
+      "text": "Inst.IP D PGV+TGG ü.3,2m b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.13C",
+      "text": "Inst.IP D PGV+TGG ü.3,2m ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.13E",
+      "text": "Inst.IP D PGV+TGG ü.3,2m ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.21A",
+      "text": "Inst.IP D OF reinigen+Fug.verschl.",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.21B",
+      "text": "Inst.IP D OF reinigen+Fug.verschl.+weiß.",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.21C",
+      "text": "Inst.IP D OF reinigen+Fug.verschl.+pat.",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.22A",
+      "text": "Kellerdecken innen reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.22B",
+      "text": "Kellerdecken innen reinigen+weißen",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.22C",
+      "text": "Kellerdecken innen reinigen+patschokkieren",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.23A",
+      "text": "Gewölbeflächen innen reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.23B",
+      "text": "Gewölbeflächen innen reinigen+weißen",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.23C",
+      "text": "Gewölbefläche innen reinigen+patschokkieren",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.41A",
+      "text": "Inst.Ausgleichsschicht IP D ü.10-20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.41B",
+      "text": "Inst.Ausgleichsschicht IP D ü.20-30mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.41C",
+      "text": "Inst.Ausgleichsschicht IP D ü.30-40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.41D",
+      "text": "Inst.Ausgleichsschicht IP D ü.40-50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.51B",
+      "text": "Az Inst.IP D f.Ebenheit erhöhte Anforderung",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.51C",
+      "text": "Az Inst.IP D f.Ichse unter 90 Grad                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "10.82.51E",
+      "text": "Az Inst.IP D f.Gewölbe",
+      "unit": "m²"
+    },
+    {
+      "code": "10.82.81A",
+      "text": "Az Inst.IP D f.Schließen (Verputzen) von Schlitzen                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.00D",
+      "text": "Oberfläche zu 10.83",
+      "unit": ""
+    },
+    {
+      "code": "10.83.00E",
+      "text": "Putzgrund zu 10.83",
+      "unit": ""
+    },
+    {
+      "code": "10.83.00F",
+      "text": "Beschreibung der Fassade zu 10.83",
+      "unit": ""
+    },
+    {
+      "code": "10.83.00G",
+      "text": "Geograph.Orientierung der Fassade zu 10.83",
+      "unit": ""
+    },
+    {
+      "code": "10.83.00H",
+      "text": "Sockel der Fassade zu 10.83",
+      "unit": ""
+    },
+    {
+      "code": "10.83.00I",
+      "text": "Arbeitshöhe zu 10.83",
+      "unit": ""
+    },
+    {
+      "code": "10.83.01A",
+      "text": "Inst.AP Fassade glatt b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.01B",
+      "text": "Inst.AP Fassade glatt ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.01C",
+      "text": "Inst.AP Fassade glatt ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.02A",
+      "text": "Inst.AP Fassade einf.gg b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.02B",
+      "text": "Inst.AP Fassade einf.gg ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.02C",
+      "text": "Inst.AP Fassade einf.gg ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.03A",
+      "text": "Inst.AP Fassade stark gg b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.03B",
+      "text": "Inst.AP Fassade stark gg ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.03C",
+      "text": "Inst.AP Fassade stark gg ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.04A",
+      "text": "Inst.AP Fassade glatt+GFl/FP b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.04B",
+      "text": "Inst.AP Fassade glatt+GFl/FP ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.04C",
+      "text": "Inst.AP Fassade glatt+GFl/FP ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.05A",
+      "text": "Inst.AP Fassade einf.gg+GFl/FP b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.05B",
+      "text": "Inst.AP Fassade einf.gg+GFl/FP ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.05C",
+      "text": "Inst.AP Fassade einf.gg+GFl/FP ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.06A",
+      "text": "Inst.AP Fassade stark gg+GFl/FP b.10%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.06B",
+      "text": "Inst.AP Fassade stark gg+GFl/FP ü.10-25%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.06C",
+      "text": "Inst.AP Fassade stark gg+GFl/FP ü.25-50%",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.11B",
+      "text": "Az Inst.AP f.Spritzputz entfernen",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.12A",
+      "text": "Inst.AP reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.14A",
+      "text": "Inst.AP Sockelputz ZM gekr.",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.41A",
+      "text": "Inst.Ausgleichsschicht AP ü.10-20mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.41B",
+      "text": "Inst.Ausgleichsschicht AP ü.20-30mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.41C",
+      "text": "Inst.Ausgleichsschicht AP ü.30-40mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.41D",
+      "text": "Inst.Ausgleichsschicht AP ü.40-50mm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.51A",
+      "text": "Az Inst.AP einf.gg b.10% f.HG b.10%                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.51B",
+      "text": "Az Inst.AP einf.gg b.10% f.HG ü.10-25%                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.51C",
+      "text": "Az Inst.AP einf.gg b.10% f.HG ü.25-50%                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.52B",
+      "text": "Az Inst.AP einf.gg ü.10-25% f.HG ü.10-25%                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.52C",
+      "text": "Az Inst.AP einf.gg ü.10-25% f.HG ü.25-50%                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.53C",
+      "text": "Az Inst.AP einf.gg ü.25-50% f.HG ü.25-50%                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.61A",
+      "text": "Az Inst.AP einf.gg b.10% f.KG b.10%                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.61B",
+      "text": "Az Inst.AP einf.gg b.10% f.KG ü.10-25%                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.61C",
+      "text": "Az Inst.AP einf.gg b.10% f.KG ü.25-50%                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.62B",
+      "text": "Az Inst.AP einf.gg ü.10-25% f.KG ü.10-25%                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.62C",
+      "text": "Az Inst.AP einf.gg ü.10-25% f.KG ü.25-50%                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.63C",
+      "text": "Az Inst.AP einf.gg ü.25-50% f.KG ü.25-50%                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.71A",
+      "text": "Az Inst.AP einf.gg b.10% f.Resche b.0,5m                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.71B",
+      "text": "Az Inst.AP einf.gg ü.10-25% f.Resche b.0,5m                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.71C",
+      "text": "Az Inst.AP einf.gg ü.25-50% f.Resche b.0,5m                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.78A",
+      "text": "Az Inst.AP f.Untersichten und Schrägdachfl.",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.79A",
+      "text": "Az Inst.AP f.Pfeiler",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.79B",
+      "text": "Az Inst.AP f.Ebenheit erhöhte Anforderung",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.79C",
+      "text": "Az Inst.AP f.Ichse unter 90 Grad                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.79D",
+      "text": "Az Inst.AP f.gekrümmte Wände und Pfeiler rund",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.79E",
+      "text": "Az Inst.AP f.Bögen                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.79F",
+      "text": "Az Inst.AP f.SchabloneTür b.4m2                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "10.83.79G",
+      "text": "Az Inst.AP Endbesch.Farbe f.fungizid u.algizid",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.79H",
+      "text": "Az Inst.AP Endbesch.Putz f.fungizid u.algizid",
+      "unit": "m²"
+    },
+    {
+      "code": "10.83.81A",
+      "text": "Az Inst.AP f.Schließen (Verputzen) von Schlitzen                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.01A",
+      "text": "Ummanteln Rohr Ziegelgewebe",
+      "unit": "m²"
+    },
+    {
+      "code": "10.92.01B",
+      "text": "Ummanteln Rohr Drahtgitter",
+      "unit": "m²"
+    },
+    {
+      "code": "10.92.02A",
+      "text": "Überspannen Ziegelgewebe",
+      "unit": "m²"
+    },
+    {
+      "code": "10.92.02B",
+      "text": "Überspannen Drahtgitter",
+      "unit": "m²"
+    },
+    {
+      "code": "10.92.02C",
+      "text": "Überspannen Streckmetall",
+      "unit": "m²"
+    },
+    {
+      "code": "10.92.02D",
+      "text": "Überspannen Glasgewebe",
+      "unit": "m²"
+    },
+    {
+      "code": "10.92.03A",
+      "text": "Putzarmierung Fuge Drahtband                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.03B",
+      "text": "Putzarmierung Fuge Glasvlies                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.03C",
+      "text": "Putzarmierung Fuge Jute                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.04A",
+      "text": "Holzw.Pl.zementgeb.im Mörtel 1,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.92.04B",
+      "text": "Holzw.Pl.zementgeb.im Mörtel 2,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.92.05A",
+      "text": "Holzw.Pl.magnesitgeb.im Mörtel 0,9cm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.92.05B",
+      "text": "Holzw.Pl.magnesitgeb.im Mörtel 1,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.92.05C",
+      "text": "Holzw.Pl.magnesitgeb.im Mörtel 2,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.92.06A",
+      "text": "3-Schichtplatten in Mörtel 2,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.92.06B",
+      "text": "3-Schichtplatten in Mörtel 3,5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.92.06C",
+      "text": "3-Schichtplatten in Mörtel 5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "10.92.07A",
+      "text": "Dehnfugenprofil verzinkt Flucht                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.07B",
+      "text": "Dehnfugenprofil Alu Flucht                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.07C",
+      "text": "Dehnfugenprofil Kunstst.Flucht                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.07D",
+      "text": "Dehnfugenprofil Edelstahl Flucht                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.07E",
+      "text": "Dehnfugenprofil verzinkt Eck                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.07F",
+      "text": "Dehnfugenprofil Alu Eck                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.07G",
+      "text": "Dehnfugenprofil Edelstahl Eck                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.08A",
+      "text": "Kantenschutz verzinkt Eck                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.08B",
+      "text": "Kantenschutz Alu Eck                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.08C",
+      "text": "Kantenschutz Edelstahl Eck                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.08D",
+      "text": "Kantenschutz Kunststoff Eck                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.23A",
+      "text": "Glattstrich b.25cm                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.23B",
+      "text": "Glattstrich ü.25-35cm                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "10.92.23X",
+      "text": "Glattstrich ü.35cm:__________                                                                             m",
+      "unit": ""
+    }
+  ]
+}

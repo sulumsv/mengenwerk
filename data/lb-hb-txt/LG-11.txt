@@ -1,0 +1,552 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                        Leistungsgruppe (LG) 11 - Estricharbeiten
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 1121    Vorbereiten des Untergrundes
+                     ULG 1122    Trenn-u.Dämmschichten
+                     ULG 1123    Nutzestriche
+                     ULG 1124    Unterlagsestriche
+                     ULG 1125    Sonstige Leistungen
+
+
+
+
+                                                                                                            Seite 1 / 9
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+11          Estricharbeiten
+            Version 022 (2021-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Begriffe:
+            Im Folgenden sind unter schwimmenden Estrichen sowohl schwimmende als auch Estriche auf Trennlage
+            (gleitende Estriche) zu verstehen.
+            2. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Herstellen von Estrichen auf vorhandenem Gefälle bis zu einer Neigung von 5 Prozent, ausgenommen
+                  Fließestriche
+                • Ausbilden von Ichsen und Graten
+                • Ausfüllen von Einbauteilen (z.B. Deckeln) mit Estrichmaterial bei einer gleichzeitigen Estrichherstellung
+                • Herstellen von Schwindfugen
+                • Staubfreimachen, soweit bei der Herstellung der Verbundestriche nicht nass in nass gearbeitet wird
+            3. Ausmaß- und Abrechnungsregeln:
+            Preise gelten ohne Unterschied der Art der Ausführung (z.B. händisch oder maschinell).
+             Kommentar:
+             Baustellengemeinkosten sind in der LG01 beschrieben.
+             Frei zu formulieren (z.B.):
+                 • Dampfsperre (Schicht, deren Stöße verklebt oder verschweißt sind)
+                 • lose Beschüttungen auf Holzkonstruktionen
+                 • Wärmedämmung unter schwimmendem Estrich mit Korkplatten
+                 • Wärme- und Trittschalldämmplatten mit einer Rohdichte für höhere Beanspruchungen (z.B. schwere Maschinen)
+                 • Randausbildung als Hohlkehle mit kunstharzmodifiziertem Estrich (z.B. in Öl-Lagerräumen)
+                 • Zementestrich als Fließestrich
+                 • Industrie-Estrich
+                 • Verbund-Magnesitestrich
+                 • Verbund-Kaltbitumen-Zementestrich
+                 • Abschlusswinkel (z.B. für Abschalungen)
+                 • Fugenprofile (z.B. für Schwindfugen, Schwinddehnfugen, Schalltrennung, Gebäudedehnfugen)
+                 • Oberflächenbehandlungen
+                 • Instandsetzungsarbeiten
+             Literaturhinweis (z.B.):
+             ÖNORM B 2232 Estricharbeiten - Werkvertragsnorm
+             ÖNORM B 3732 Estriche: Planung, Ausführung, Produkte und deren Anforderungen
+             ÖNORM EN 13162: Wärmedämmstoffe für Gebäude - Werkmäßig hergestellte Produkte aus Mineralwolle (MW) -
+             Spezifikation (Änderung)
+             ÖNORM EN 13813: Estrichmörtel, Estrichmassen und Estriche - Estrichmörtel und Estrichmassen - Eigenschaften und
+             Anforderungen.
+
+            LB-Version: 23                 Geringfügig Geändert
+
+11.21       Vorbereiten des Untergrundes
+
+
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+
+11.21 04    Niveauausgleich aus Splitt, zementgebunden, einschließlich Verdichten.
+            Im Positionsstichwort ist die Dicke (cm) angegeben.
+
+11.21 04A   Niveauausgleich Splitt zementgebunden b.5cm                                                                       m³
+
+11.21 04B   Niveauausgleich Splitt zementgebunden ü.5-10cm                                                                    m³
+
+11.21 04X   Niveauausgleich Splitt zementgebunden ü.10 cm b.__________                                                        m³
+
+11.21 04Y   Az Niveauausgleich zementgebunden b.10cm f.schnell trocknend                                                      m³
+            Aufzahlung (Az) für eine schnell trocknende Ausführung.
+            Belegereif ab ____________ Tagen.
+
+
+                                                                                                                          Seite 2 / 9
+                                                                                                   ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+11.21 06    Niveauausgleich mit gebundenen Stoffen.
+            Im Positionsstichwort ist die Dicke (cm) angegeben.
+
+11.21 06A   Niveauausgleich gebundene Stoffe b.5cm                                                                     m³
+
+11.21 06B   Niveauausgleich gebundene Stoffe ü.5-10cm                                                                  m³
+
+11.21 06X   Niveauausgleich gebundene Stoffe ü.10cm b.__________                                                       m³
+
+11.21 06Y   Az Niveauausgleich gebunden b.10cm f.schnell trocknend                                                     m³
+            Aufzahlung (Az) für eine schnell trocknende Ausführung.
+            Belegereif ab ____________ Tagen.
+
+11.21 07    Untergrund als Vorbereitung für Verbundestriche.
+
+11.21 07A   Untergrund f.Verbundestrich aufrauen                                                                       m²
+            Aufrauen (z.B. Sand- oder Kugelstrahlen), einschließlich Entsorgen der Baurestmassen.
+
+11.21 08    Haftbrücke für Verbundestriche.
+
+11.21 08A   Haftbrücke Dispersionsbasis                                                                                m²
+            Auf Dispersionsbasis mit oder ohne Zementzusatz.
+
+11.21 08B   Haftbrücke Epoxyharz                                                                                       m²
+            Auf Kunstharzbasis (Epoxy).
+
+11.22       Trenn-u.Dämmschichten
+
+
+            1. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Randstreifen
+            2. Ausmaß- und Abrechnungsregeln:
+            Mehrlagige Ausführungen von Dämmschichten (z.B. Wärme- und Trittschalldämmung) werden kreuzweise
+            verlegt und je Lage abgerechnet.
+            LB-Version: 23                Geringfügig Geändert
+11.22 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+11.22 00F   Fußbodenaufbau zu 11.22
+            Betrifft Position(en): ____________
+            Höhe (von Rohdecke bis FBOK): ____________mm
+            Schichtaufbau: ____________
+            Technische Anforderungen (z.B. Belastung, Feuchtigkeit, Wärme - und Schallschutz): ____________
+
+11.22 01    Trenn- oder Gleitschichten mit mindestens 10 cm Übergriffen.
+            Abgerechnet wird die abgedeckte Bodenfläche je Lage.
+            Im Positionsstichwort ist die Mindest-Dicke angegeben.
+
+11.22 01A   Trenn-/Gleitschicht Folie 0,1mm                                                                            m²
+
+11.22 01B   Trenn-/Gleitschicht Folie 0,2mm                                                                            m²
+
+11.22 01C   Trenn-/Gleitschicht Folie 0,2mm verklebt                                                                   m²
+            Ausführung: verklebt
+
+11.22 02    Dampfbremsschichte.
+            Stöße und Überlappungen sind mit Klebeband verklebt, einschließlich etwaiger Aufkantungen an Rändern.
+            Abgerechnet wird die abgedeckte Bodenfläche.
+
+
+                                                                                                                   Seite 3 / 9
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+11.22 02A   Dampfbremsschichte PE-Folie verklebt sd-Wert≥100                                                             m²
+            Aus Polyethylenfolie (PE-Folie), mit einer diffusionsäquivalenten Luftschichtdicke (sd-Wert) von mindestens 100
+            m.
+
+11.22 02X   Dampfbremsschichte verklebt                                                                                  m²
+            Mit einer diffusionsäquivalenten Luftschichtdicke, sd-Wert: ____________
+
+11.22 10    Trittschalldämmung unter schwimmendem Estrich mit Kautschuk oder Polyurethan, als dauerelastische
+            Schalldämmunterlage.
+                1. belastbar ≤ 10 kPa Nutzlast auf dem Estrich
+                2. Zusammendrückbarkeitsstufe CP2
+            Im Positionsstichwort ist die Dicke (mm) der Unterlage angegeben.
+
+11.22 10A   Trittschalldämmung m.Kautschuk/Polyurethan 5mm                                                               m²
+            Dynamische Steifigkeit:____________
+
+11.22 10B   Trittschalldämmung m.Kautschuk/Polyurethan 10mm                                                              m²
+            Dynamische Steifigkeit:____________
+
+11.22 10X   Trittschalldämmung m.Kautschuk/Polyurethan__________                                                         m²
+            Dynamische Steifigkeit:____________
+
+11.22 11    Trittschalldämmung unter schwimmendem Estrich mit Mineralwolleplatten (Produkttype MW-T).
+                • belastbar ≤ 2 kPa Nutzlast auf dem Estrich
+                • Zusammendrückbarkeitsstufe CP5
+            Im Positionsstichwort ist die Nenndicke (mm) der Platten angegeben.
+
+11.22 11B   Trittschalldämmung m.Mineralwollepl.20mm CP5                                                                 m²
+
+11.22 11C   Trittschalldämmung m.Mineralwollepl.25mm CP5                                                                 m²
+
+11.22 11D   Trittschalldämmung m.Mineralwollepl.30mm CP5                                                                 m²
+
+11.22 11E   Trittschalldämmung m.Mineralwollepl.35mm CP5                                                                 m²
+11.22 12    Trittschalldämmung unter schwimmendem Estrich mit Mineralwolleplatten (Produkttype MW-T).
+                • belastbar ≤ 3 kPa Nutzlast auf dem Estrich
+                • Zusammendrückbarkeitsstufe CP4
+            Im Positionsstichwort ist die Nenndicke (mm) der Platten angegeben.
+
+11.22 12B   Trittschalldämmung m.Mineralwollepl.20mm CP4                                                                 m²
+
+11.22 12C   Trittschalldämmung m.Mineralwollepl.25mm CP4                                                                 m²
+
+11.22 12D   Trittschalldämmung m.Mineralwollepl.30mm CP4                                                                 m²
+
+11.22 12E   Trittschalldämmung m.Mineralwollepl.35mm CP4                                                                 m²
+11.22 13    Trittschalldämmung unter schwimmendem Estrich mit Mineralwolleplatten (Produkttype MW-T).
+                • belastbar ≤ 4 kPa Nutzlast auf dem Estrich
+                • Zusammendrückbarkeitsstufe CP3
+            Im Positionsstichwort ist die Nenndicke (mm) der Platten angegeben.
+
+11.22 13B   Trittschalldämmung m.Mineralwollepl.20mm CP3                                                                 m²
+
+11.22 13C   Trittschalldämmung m.Mineralwollepl.25mm CP3                                                                 m²
+
+11.22 13D   Trittschalldämmung m.Mineralwollepl.30mm CP3                                                                 m²
+
+11.22 13E   Trittschalldämmung m.Mineralwollepl.35mm CP3                                                                 m²
+
+
+
+
+                                                                                                                     Seite 4 / 9
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+
+11.22 14    Trittschalldämmung unter schwimmendem Estrich mit Mineralwolleplatten (Produkttype MW-T).
+                • belastbar ≤ 5 kPa Nutzlast auf dem Estrich
+                • Zusammendrückbarkeitsstufe CP2
+            Im Positionsstichwort ist die Nenndicke (mm) der Platten angegeben.
+
+11.22 14A   Trittschalldämmung m.Mineralwollepl.15mm CP2                                                             m²
+
+11.22 14B   Trittschalldämmung m.Mineralwollepl.20mm CP2                                                             m²
+
+11.22 14C   Trittschalldämmung m.Mineralwollepl.25mm CP2                                                             m²
+
+11.22 14D   Trittschalldämmung m.Mineralwollepl.30mm CP2                                                             m²
+
+11.22 14E   Trittschalldämmung m.Mineralwollepl.35mm CP2                                                             m²
+11.22 17    Trittschalldämmung unter schwimmendem Estrich mit Hartschaumplatten aus expandiertem Polystyrol
+            (Produkttype EPS-T 650).
+                • belastbar ≤ 4 kPa Nutzlast auf dem Estrich
+                • Zusammendrückbarkeitsstufe CP3
+            Im Positionsstichwort ist die Nenndicke (mm) der Platten angegeben.
+
+11.22 17B   Trittschalldämmung m.Hartschaumpl.20mm CP3                                                               m²
+
+11.22 17C   Trittschalldämmung m.Hartschaumpl.25mm CP3                                                               m²
+
+11.22 17D   Trittschalldämmung m.Hartschaumpl.30mm CP3                                                               m²
+
+11.22 17F   Trittschalldämmung m.Hartschaumpl.40mm CP3                                                               m²
+11.22 18    Trittschalldämmung unter schwimmendem Estrich mit Hartschaumplatten aus expandiertem Polystyrol
+            (Produkttype EPS-T 1000).
+                • belastbar ≤ 5 kPa Nutzlast auf dem Estrich
+                • Zusammendrückbarkeitsstufe CP2
+            Im Positionsstichwort ist die Nenndicke (mm) der Platten angegeben.
+
+11.22 18B   Trittschalldämmung m.Hartschaumpl.20mm CP2                                                               m²
+
+11.22 18C   Trittschalldämmung m.Hartschaumpl.25mm CP2                                                               m²
+
+11.22 18D   Trittschalldämmung m.Hartschaumpl.30mm CP2                                                               m²
+
+11.22 18F   Trittschalldämmung m.Hartschaumpl.40mm CP2                                                              m²
+11.22 21    Wärmedämmung unter schwimmendem Estrich mit extrudiertem Polystyrolhartschaumstoff (XPS-G)
+                • mit glatten Kanten oder Stufenfalz
+            Im Positionsstichwort ist die Nenndicke (mm) der Platten angegeben.
+
+11.22 21A   Wärmedämmung m.Hartschaumpl.XPS-G 30mm                                                                   m²
+
+11.22 21B   Wärmedämmung m.Hartschaumpl.XPS-G 40mm                                                                   m²
+
+11.22 21C   Wärmedämmung m.Hartschaumpl.XPS-G 50mm                                                                   m²
+
+11.22 21X   Wärmedämmung m.Hartschaumpl.XPS-G__________                                                              m²
+11.22 23    Wärmedämmung unter schwimmendem Estrich mit Hartschaumplatten, aus expandiertem Polystyrol
+            (Produkttype EPS-W 20).
+                • Wärmeleitfähigkeit (Lambda) ≤ mindestens 0,038 W/mK
+            Im Positionsstichwort ist die Nenndicke (mm) der Platten angegeben.
+
+11.22 23A   Wärmedämmung m.Hartschaumpl.0,038 W/mK EPS-W 20 30mm                                                     m²
+
+11.22 23B   Wärmedämmung m.Hartschaumpl.0,038 W/mK EPS-W 20 40mm                                                     m²
+
+11.22 23C   Wärmedämmung m.Hartschaumpl.0,038 W/mK EPS-W 20 50mm                                                     m²
+
+                                                                                                                 Seite 5 / 9
+                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+11.22 23X   Wärmedämmung m.Hartschaumpl.0,038 W/mK EPS-W 20__________                                                  m²
+11.22 25    Wärmedämmung unter schwimmendem Estrich mit Hartschaumplatten, aus expandiertem Polystyrol mit
+            Infrarottrübungsmittel (Produkttype EPS-W 20 grau/schwarz).
+            Wärmeleitfähigkeit (Lambda) ≤ mindestens 0,031 W/mK
+            Im Positionsstichwort ist die Nenndicke (mm) der Platten angegeben.
+
+11.22 25X   Wärmedämmung m.Hartschaumpl.EPS-W 20 g/s__________                                                         m²
+            Wärmeleitfähigkeit (Lambda):____________W/mK
+
+11.22 27    Wärmedämmung unter schwimmendem Estrich mit Hartschaumplatten aus Polyurethan mit diffusionsdichter
+            Deckschicht (Produkttype PU-DD).
+            Wärmeleitfähigkeit (Lambda) ≤ mindestens 0,023 W/mK
+            Im Positionsstichwort ist die Nenndicke (mm) der Platten angegeben.
+
+11.22 27X   Wärmedämmung m.Hartschaumpl.PU-DD__________                                                                m²
+            Wärmeleitfähigkeit (Lambda):____________ W/mK
+
+11.22 29    Aufzahlung (Az) auf Trittschall- und Wärmedämmungen.
+
+11.22 29A   Az Trittschall-u.Wärmedämmung f.Trägersystem f.Montage FBH                                                 m²
+            Für ein Trägersystem für die Montage einer Fußbodenheizung (FBH).
+            Betrifft Position(en): ____________
+
+11.23       Nutzestriche
+
+
+            Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • Abschneiden der Randstreifen
+
+11.23 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+11.23 00F   Fußbodenaufbau zu 11.23
+            Betrifft Position(en): ____________
+            Höhe (von Rohdecke bis FBOK): ____________mm
+            Schichtaufbau: ____________
+            Technische Anforderungen (z.B. Belastung, Feuchtigkeit, Wärme - und Schallschutz): ____________
+
+11.23 03    Schwimmender Zementestrich (Zem.E) als Nutzestrich für geringe Beanspruchungen.
+            Im Positionsstichwort ist die Dicke (mm) und die Festigkeitsklasse angegeben.
+
+11.23 03A   Schwimm.Zem.E-Nutzestrich 50mm E225                                                                        m²
+
+11.23 03B   Schwimm.Zem.E-Nutzestrich 60mm E225                                                                        m²
+
+11.23 03C   Schwimm.Zem.E-Nutzestrich 70mm E225                                                                        m²
+
+11.23 03E   Schwimm.Zem.E-Nutzestrich 50mm E300                                                                        m²
+
+11.23 03F   Schwimm.Zem.E-Nutzestrich 60mm E300                                                                        m²
+
+11.23 03G   Schwimm.Zem.E-Nutzestrich 70mm E300                                                                        m²
+
+11.23 03H   Schwimm.Zem.E-Nutzestrich 80mm E300                                                                       m²
+
+11.23 03I   Schwimm.Zem.E-Nutzestrich 90mm E300                                                                       m²
+
+11.23 03K   Schwimm.Zem.E-Nutzestrich 40mm E400                                                                       m²
+
+11.23 03L   Schwimm.Zem.E-Nutzestrich 50mm E400                                                                       m²
+
+                                                                                                                   Seite 6 / 9
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+11.23 03M   Schwimm.Zem.E-Nutzestrich 60mm E400                                                                        m²
+
+11.23 03N   Schwimm.Zem.E-Nutzestrich 70mm E400                                                                        m²
+
+11.23 03O   Schwimm.Zem.E-Nutzestrich 80mm E400                                                                        m²
+
+11.23 03P   Schwimm.Zem.E-Nutzestrich 90mm E400                                                                        m²
+11.23 05    Verbundzementestrich (Verbund Zem.E) als Nutzestrich.
+            Im Positionsstichwort ist die Dicke (mm) und die Festigkeitsklasse angegeben.
+
+11.23 05A   Verbund Zem.E-Nutzestrich 30mm E225                                                                        m²
+
+11.23 05B   Verbund Zem.E-Nutzestrich 40mm E225                                                                        m²
+
+11.23 05C   Verbund Zem.E-Nutzestrich 50mm E225                                                                        m²
+
+11.23 05E   Verbund Zem.E-Nutzestrich 30mm E300                                                                        m²
+
+11.23 05F   Verbund Zem.E-Nutzestrich 40mm E300                                                                        m²
+
+11.23 05G   Verbund Zem.E-Nutzestrich 50mm E300                                                                        m²
+
+11.23 05I   Verbund Zem.E-Nutzestrich 20mm E400                                                                       m²
+
+11.23 05J   Verbund Zem.E-Nutzestrich 30mm E400                                                                       m²
+11.24       Unterlagsestriche
+11.24 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+11.24 00F   Fußbodenaufbau zu 11.24
+            Betrifft Position(en): ____________
+            Höhe (von Rohdecke bis FBOK): ____________mm
+            Schichtaufbau: ____________
+            Technische Anforderungen (z.B. Belastung, Feuchtigkeit, Wärme - und Schallschutz): ____________
+
+11.24 03    Schwimmender Zementestrich (Zem.E) als Unterlagsestrich (U-Estrich).
+            Im Positionsstichwort ist die Dicke (mm) und die Festigkeitsklasse angegeben.
+
+11.24 03A   Schwimm.Zem.E-U-Estrich 45mm E225                                                                          m²
+
+11.24 03B   Schwimm.Zem.E-U-Estrich 50mm E225                                                                          m²
+
+11.24 03C   Schwimm.Zem.E-U-Estrich 60mm E225                                                                          m²
+
+11.24 03D   Schwimm.Zem.E-U-Estrich 70mm E225                                                                          m²
+
+11.24 03F   Schwimm.Zem.E-U-Estrich 45mm E300                                                                          m²
+
+11.24 03G   Schwimm.Zem.E-U-Estrich 50mm E300                                                                          m²
+
+11.24 03H   Schwimm.Zem.E-U-Estrich 60mm E300                                                                          m²
+
+11.24 03I   Schwimm.Zem.E-U-Estrich 70mm E300                                                                          m²
+
+11.24 03J   Schwimm.Zem.E-U-Estrich 80mm E300                                                                          m²
+
+11.24 03K   Schwimm.Zem.E-U-Estrich 90mm E300                                                                          m²
+
+11.24 03M   Schwimm.Zem.E-U-Estrich 40mm E400                                                                          m²
+
+11.24 03N   Schwimm.Zem.E-U-Estrich 50mm E400                                                                          m²
+
+11.24 03O   Schwimm.Zem.E-U-Estrich 60mm E400                                                                          m²
+                                                                                                                   Seite 7 / 9
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+11.24 03P   Schwimm.Zem.E-U-Estrich 70mm E400                                                                             m²
+
+11.24 03Q   Schwimm.Zem.E-U-Estrich 80mm E400                                                                             m²
+
+11.24 03R   Schwimm.Zem.E-U-Estrich 90mm E400                                                                             m²
+11.24 05    Verbundzementestrich (Verbund Zem.E) als Unterlagsestrich (U-Estrich).
+            Im Positionsstichwort ist die Dicke (mm) und die Festigkeitsklasse angegeben.
+
+11.24 05A   Verbund Zem.E-U-Estrich 30mm E225                                                                             m²
+
+11.24 05B   Verbund Zem.E-U-Estrich 40mm E225                                                                             m²
+
+11.24 05C   Verbund Zem.E-U-Estrich 50mm E225                                                                             m²
+
+11.24 05F   Verbund Zem.E-U-Estrich 30mm E300                                                                             m²
+
+11.24 05G   Verbund Zem.E-U-Estrich 40mm E300                                                                             m²
+
+11.24 05H   Verbund Zem.E-U-Estrich 50mm E300                                                                             m²
+11.24 11    Schwimmender Calciumsulfat-Fließestrich (CSFE) als Unterlagsestrich (U-Estrich).
+            Im Positionsstichwort ist die Dicke (mm) und die Festigkeitsklasse angegeben.
+
+11.24 11A   Schwimm.CSFE-U-Estrich 40mm E225                                                                              m²
+
+11.24 11B   Schwimm.CSFE-U-Estrich 45mm E225                                                                              m²
+
+11.24 11C   Schwimm.CSFE-U-Estrich 50mm E225                                                                              m²
+
+11.24 11D   Schwimm.CSFE-U-Estrich 60mm E225                                                                              m²
+
+11.24 11E   Schwimm.CSFE-U-Estrich 65mm E225                                                                              m²
+
+11.24 11G   Schwimm.CSFE-U-Estrich 40mm E300                                                                              m²
+
+11.24 11H   Schwimm.CSFE-U-Estrich 45mm E300                                                                             m²
+
+11.24 11I   Schwimm.CSFE-U-Estrich 50mm E300                                                                             m²
+
+11.24 11J   Schwimm.CSFE-U-Estrich 60mm E300                                                                             m²
+11.24 31    Aufzahlung (Az) auf beheizte Estriche, ohne Unterschied der Art und Dicke.
+
+11.24 31A   Az beheizter Estrich f.Erschwernis u.Feuchtigkeitsmesspunkte                                                  m²
+            Für erschwertes Einbringen des Estriches auf den Fußbodenheizungsrohren und den Einbau von Messpunkten
+            zur Restfeuchtigkeitsmessung.
+            Betrifft Position(en): ____________
+
+11.25       Sonstige Leistungen
+11.25 01    Aufzahlung (Az) auf Estrich.
+            Im Positionsstichwort ist die Schnellestrich-Klasse (SE) angegeben.
+            Abgerechnet wird das Raummaß des Estrichs.
+
+11.25 01A   Az f.Schnellestrich SE21                                                                                      m³
+            Betrifft Position(en): ____________
+
+11.25 01B   Az f.Schnellestrich SE14                                                                                      m³
+            Betrifft Position(en): ____________
+
+11.25 01C   Az f.Schnellestrich SE7                                                                                       m³
+            Betrifft Position(en): ____________
+
+11.25 01D   Az f.Schnellestrich SE4                                                                                       m³
+                                                                                                                      Seite 8 / 9
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Betrifft Position(en): ____________
+
+11.25 01E   Az f.Schnellestrich SE2                                                                                      m³
+            Betrifft Position(en): ____________
+
+11.25 01F   Az f.Schnellestrich SE1                                                                                      m³
+            Betrifft Position(en): ____________
+
+11.25 02    Fugen ausfüllen, einschließlich Entfernen der Aussparstreifen und Reinigen der Fugenflächen.
+            Mit Rundschnur und elastischem Dichtstoff, mit einem Dauerdehnvermögen von mindestens 15 Prozent.
+            Im Positionsstichwort ist die Fugenbreite (mm) angegeben.
+
+11.25 02B   Fuge m.elastischem Dichtstoff ü.5-8mm                                                                        m
+
+11.25 02C   Fuge m.elastischem Dichtstoff ü.8-12mm                                                                       m
+11.25 04    Estrichbewehrung.
+            Abgerechnet wird das Raummaß des Estrichs.
+
+11.25 04B   Bewehrung Kunststofffaser                                                                                    m³
+            Mit Kunststofffasern.
+
+11.25 11    Anarbeiten des Estrichs an Einbauteile.
+            Im Positionsstichwort ist die Einzelgröße (m2) angegeben.
+
+11.25 11A   Anarbeiten an Einbauteile b.0,5m2                                                                            Stk
+
+11.25 11B   Anarbeiten an Einbauteile ü.0,5m2                                                                            m
+11.25 12    Ausfüllen z.B. von Deckeln und Fußabstreifern mit Estrichmaterial, ohne Unterschied der Einzelgröße bis 1 m2,
+            der Dicke oder Art des Estrichmaterials, wenn diese Leistung nicht in einem Zuge mit der Estrichherstellung
+            möglich ist und daher gesondert erfolgt (eigener Arbeitsgang).
+
+11.25 12A   Deckel,Fußabstreifer ausfüllen m.Estrich                                                                     Stk
+11.25 15    Schwindfugen.
+
+11.25 15A   Schwindfugen m.Fugendübel                                                                                    m
+            Ausbilden mit gleitfähigen Fugendübeln, mindestens 4 mm im Durchmesser, Länge 300 mm, mit
+            PE-Kunststoffrohr ummantelt, einschließlich Knautschzone.
+
+
+
+
+                                                                                                                     Seite 9 / 9
+                                                                                              ib-data GmbH, Softwareentwicklung
+

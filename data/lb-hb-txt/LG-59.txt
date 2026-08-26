@@ -1,0 +1,2754 @@
+Leistungsbeschreibung Hochbau                                                        gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                                            EH
+
+
+
+
+                            Standardisierte Leistungsbeschreibung
+                   Leistungsgruppe (LG) 59 - Sportanlagen im Freien
+
+                                Kennung: HB            Version: 023
+
+                            Leistungsbeschreibung Hochbau
+
+                                         Datum: 31.12.2025
+                  Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                      https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                            Vorversion:
+                                               HB 022
+                 Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                     ULG 5900    Wählbare Vorbemerkungen
+                     ULG 5902    Vorbereiten von Belägen, Schichten
+                     ULG 5903    Sicherheitseinfassungen-Entwässerungsrinnen
+                     ULG 5910    Rasensportflächen
+                     ULG 5911    Rasennebenflächen
+                     ULG 5915    Rasenflächen markieren
+                     ULG 5917    Rasenflächen pflegen, instandsetzen
+                     ULG 5920    Aufbau für Tennenflächen
+                     ULG 5925    Tennenflächen markieren
+                     ULG 5927    Tennenflächen pflegen, instandsetzen
+                     ULG 5930    Aufbau für bitumengebundene Flächen
+                     ULG 5931    Asphaltbahnen
+                     ULG 5933    Bitumengeb.Flächen, Oberflächenbehandlung
+                     ULG 5935    Bitumengebundene Flächen markieren
+                     ULG 5937    Bitumengeb.Flächen pflegen, instandsetzen
+                     ULG 5940    Aufbau für Kunststoffflächen
+                     ULG 5941    Kunststoffrasen
+                     ULG 5945    Kunststoffflächen markieren
+                     ULG 5947    Pflegen, Instandsetzen v.Kunststoffflächen
+                     ULG 5950    Wasserinstallationen
+                     ULG 5951    Beregnungsanlagen
+                     ULG 5952    Elektroinstallationen
+                     ULG 5960    Weit- und Dreisprunganlagen
+                     ULG 5961    Hoch- und Stabhochsprunganlagen
+                     ULG 5962    Wassergraben
+                     ULG 5963    Wurfanlagen
+                     ULG 5970    Fußball, Handball
+                     ULG 5971    Volleyball
+
+                                                                                                           Seite 1 / 42
+                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                                    EH
+
+                     ULG 5972   Basketball
+                     ULG 5973   Tennis
+                     ULG 5974   Hockey
+                     ULG 5975   Rugby, Football
+                     ULG 5976   Mehrzweckanlagen
+                     ULG 5978   Ballfangnetze, Bodenhülsen
+                     ULG 5980   Güteprüfung
+                     ULG 5990   Regieleistungen
+
+
+
+
+                                                                                   Seite 2 / 42
+                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+59          Sportanlagen im Freien
+            Version 023 (2025-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+            1. Grundplanum:
+            Der Aufbau der Sportflächen erfolgt auf einem vorhandenen Grundplanum, dessen Gefälle, Ebenheit,
+            Standfestigkeit und Verformbarkeit dem vorgeschriebenen Verwendungszweck entspricht.
+            2. Einhaltung von Bestimmungen:
+            Alle Sportflächen, Anlagen und Geräte entsprechen den nationalen und internationalen
+            Wettkampfbestimmungen.
+            3. Frostbeständigkeit:
+            Für den Aufbau von Sportflächen wird nur frostbeständiges Material verwendet.
+            4. Gefälle:
+            Die einzelnen Schichten werden in dem der jeweiligen Sportart entsprechendem Gefälle hergestellt.
+            5. Arbeitsdurchführung:
+            Alle Preise gelten ohne Unterschied der Art und Abmessung der Sportfläche (Spielfeld, Laufbahn, Anlaufbahn)
+            und ohne Unterschied ob die Leistung händisch oder maschinell ausgeführt wird.
+            6. Anarbeiten:
+            Das An- und Nacharbeiten bei Einfassungen, Zaunsäulen, Ständern jeglicher Art ist in die Einheitspreise
+            einkalkuliert.
+            7. Abdecken:
+            Einfassungen, Zaunsäulen, Ständer jeglicher Art werden vor Verunreinigungen geschützt.
+            8. Abrechnungsregelungen:
+            Die angegebenen Schichtdicken gelten im verdichteten Zustand und sind Mindestdicken für die Ausführung. Der
+            Abrechnung werden die Projektmaße zugrundegelegt. Bei Abrechnungen nach Flächenmaß werden Einbauten
+            und Aussparungen bis 1,0 m2 nicht abgezogen.
+            Abrechnungen nach Raummaß erfolgen mit verlegter Fläche mal Schichtdicke im verdichteten Zustand.
+            Linierungen sind ohne Unterschied ob gerade oder gekrümmt, ob voll oder strichliert nach den theoretischen
+            Abmessungen abzurechnen. Linierungen und Markierungen bis ein Meter Länge, sowie Symbole werden mit je
+            einem Meter Länge abgerechnet.
+             Kommentar:
+             Für bitumengebundene Flächen, Kunststoffflächen und Kunststoffrasen wird empfohlen, eine Gewährleistungsfrist
+             (Rügefrist) von fünf Jahren zu vereinbaren.
+
+            LB-Version: 23                Geändert
+Änderung:   Geänderte Positionen:
+            59.20 Aufbau für Tennenflächen
+            59.20 02A PP-Vlies zu 59.20
+            59.20 02B Vlies zu 59.20
+            59.30 Aufbau für bitumengebundene Flächen
+            59.30 02A PP-Vlies zu 59.30
+            59.30 02B Vlies
+
+
+            59.40 07A Kst.Belag spritzbeschichtet 2kg wd
+            59.40 07C Kst.Belag spritzbeschichtet 2kg wud
+            59.40 07D Kst.Belag spritzbeschichtet 3kg wud
+            59.40 07E Kst.Belag spritzbeschichtet
+            59.40 08C Az spritzbeschichtet and.Farbe
+
+59.00       Wählbare Vorbemerkungen
+59.00 01    Güteprüfung (Kontrollprüfung) am verlegten Belag entsprechend den Richtlinien des Österreichischen Institutes
+            für Schul- und Sportstättenbau (ÖISS), 1040 Wien, Prinz Eugenstraße 12 durch eine Prüf-, Überwachungs- und
+            Zertifizierungsstelle.
+
+59.00 01A   Güteprüfung AG
+            Die Güteprüfung wird vom Auftraggeber veranlasst.
+
+                                                                                                                           Seite 3 / 42
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+59.00 01B   Güteprüfung AN+Kosten
+            Die Güteprüfung wird vom Auftragnehmer veranlasst. Die hiefür anfallenden Kosten sind in die Einheitspreise
+            einkalkuliert.
+
+59.00 01C   Güteprüfung AN
+            Die Güteprüfung wird durch den Auftragnehmer veranlasst. Die hiefür anfallenden Kosten werden mit den
+            Positionen Güteprüfung abgerechnet.
+
+59.02       Vorbereiten von Belägen, Schichten
+             Kommentar:
+             In dieser Unterleistungsgruppe ist das Vorbereiten von vorhandenen Belägen zum Aufbringen neuer Beläge enthalten.
+
+59.02 02    Feinplanum mit Bruchsand 1 bis 2 cm, Kantkorn, Körnung bis 3 mm, auf Stabilisierungsschichten als
+            Vorbereitung für das Verlegen von Kunststoffrasenbelägen, Ebenheit: höchstens 6 mm Spaltweite unter der 4 m
+            Richtlatte.
+
+59.02 02A   Feinplanum Sand 2cm                                                                                                 m²
+59.02 03    Vorhandene Beläge entlang der Randeinfassung auf 30 cm Breite bis 2 cm unter Oberkante der
+            Randeinfassung entfernen (abschrämmen), einschließlich Vorbereiten des Untergrundes für den neuen Belag.
+
+59.02 03A   Anschluss Randeinfassung                                                                                            m
+            ____________
+
+59.02 04    Vorhandene Kunststoffdecke mit Wasser, Druck mindestens 150 bar reinigen für eine Oberflächenbehandlung
+            oder einen neuen Belag, einschließlich Überprüfen auf Wasserdurchlässigkeit.
+
+59.02 04A   Kst.Decke reinigen                                                                                                  m²
+59.03       Sicherheitseinfassungen-Entwässerungsrinnen
+            Die erforderlichen Erd- und Betonarbeiten, sowie das Entsorgen des anfallenden Aushubmaterials ist in die
+            Einheitspreise einkalkuliert.
+59.03 01    Sicherheitsrandsteine aus Glasfaserbeton mit 30 mm hohen temperaturbeständigen Gummipolster mit dem
+            Faserbeton fest verbunden.
+
+59.03 01A   Sicherheitsrandst.6x20,weiß                                                                                         m
+            Im Positionsstichwort angegeben sind Breite x Höhe in cm, Gummipolster weiß oder schwarz. ____________
+
+59.03 01B   Sicherheitsrandst.6x20,schwarz                                                                                      m
+            Im Positionsstichwort angegeben sind Breite x Höhe in cm, Gummipolster weiß oder schwarz. ____________
+
+59.03 01C   Sicherheitsrandst.6x25,weiß                                                                                         m
+            Im Positionsstichwort angegeben sind Breite x Höhe in cm, Gummipolster weiß oder schwarz. ____________
+
+59.03 01D   Sicherheitsrandst.6x25,schwarz                                                                                      m
+            Im Positionsstichwort angegeben sind Breite x Höhe in cm, Gummipolster weiß oder schwarz. ____________
+
+59.03 01E   Sicherheitsrandst.6x30,weiß                                                                                         m
+            Im Positionsstichwort angegeben sind Breite x Höhe in cm, Gummipolster weiß oder schwarz. ____________
+
+59.03 01F   Sicherheitsrandst.6x30,schwarz                                                                                      m
+            Im Positionsstichwort angegeben sind Breite x Höhe in cm, Gummipolster weiß oder schwarz. ____________
+
+59.03 01G   Sicherheitsrandstein__________                                                                                      m
+            Im Positionsstichwort angegeben sind Breite x Höhe in cm, Gummipolster weiß oder schwarz.
+
+59.03 02    Aufzahlung (Az) auf die Positionen Sicherheitsrandsteine für Winkel, ohne Unterschied des Querschnitts und
+            der Farbe des Gummipolsters.
+
+59.03 02A   Az Sicherheitsrandst.Winkel                                                                                         Stk
+59.03 03    Entwässerungsrinnen aus Glasfaserbeton.
+
+
+                                                                                                                           Seite 4 / 42
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+59.03 03A   Entwässer.Rinne ohne Gefälle                                                                                m
+            Nennweite mindestens 10 cm, Höhe innen mindestens 15 cm.
+            Ohne Gefälle.
+
+59.03 03B   Entwässer.Rinne m.Gefälle                                                                                   m
+            Nennweite mindestens 10 cm, Höhe innen mindestens 10 cm. Gefälle mindestens 0,6 Prozent.
+
+59.03 03C   Entwässerungsrinne                                                                                          m
+            ____________
+
+59.03 04    Aufzahlung (Az) auf die Position Entwässerungsrinne ohne Unterschied des Querschnittes, für
+            Entwässerungsrinnen im Bogen, abgerechnet die Außenkante des Bogens.
+
+59.03 04A   Auf.Entwässerungsrinne Bogen                                                                                m
+59.03 05    Entwässerungsrinnen aus Glasfaserbeton mit Rasenstütze.
+
+59.03 05A   Entw.Rinne m.Stütze o.Gefälle                                                                               m
+            Ohne Gefälle, Nennweite mindestens 10 cm, Höhe innen mindestens 15 cm.
+
+59.03 05B   Entw.Rinne m.Stütze m.Gefälle                                                                               m
+            Mit Gefälle mindestens 0,6 Prozent, Nennweite mindestens 10 cm, Höhe innen mindestens 10 cm.
+
+59.03 05C   Entw.Rinne m.Stütze                                                                                         m
+            ____________
+
+59.03 06    Aufzahlung (Az) auf die Position Entwässerungsrinne mit Rasenstütze ohne Unterschied des Querschnittes, für
+            Entwässerungsrinnen im Bogen, abgerechnet die Außenkante des Bogens.
+
+59.03 06A   Az Rinne m.Stütze, Bogen                                                                                    m
+59.03 07    Entwässerungsrinnen mit Schlitzen, aus Glasfaserbeton.
+
+59.03 07A   Schlitzrinne 10/12cm                                                                                        m
+            Nennweite mindestens 10 cm, Höhe innen mindestens 12 cm.
+
+59.03 07B   Schlitzrinne                                                                                                m
+            ____________
+
+59.03 08    Aufzahlung (Az) auf die Position Entwässerungsrinne mit Schlitzen, für Rinnen im Bogen, abgerechnet die
+            Außenkante des Bogens.
+
+59.03 08A   Az Schlitzrinne Bogen                                                                                       m
+59.03 09    Einlaufkasten passend zu den angebotenen Entwässerungsrinnen, aus Glasfaserbeton, mit verzinktem Eimer
+            und Kanalisationsanschlüssen, 500 mm lang.
+
+59.03 09A   Einlaufkasten                                                                                               Stk
+
+59.03 09B   Einlaufkasten m.Rasenstütze                                                                                 Stk
+            mit Rasenstütze.
+
+59.03 10    Rinnenabdeckung aus glasfaserverstärktem Kunststoff, (GFK), weiß, zum Einklemmen in Rinne, beidseitiger
+            Zulauf, passend zu den angebotenen Entwässerungsrinnen.
+
+59.03 10A   Rinnenabdeckung GFK.Gerade                                                                                  m
+            Gerade.
+
+59.03 10B   Rinnenabdeckung GFK.Bogen                                                                                   m
+            Gebogen.
+
+59.03 11    Rinnenabdeckung mit Rasenmähkante, zusätzlichem Wasserzulauf von oben aus Polymerbeton mit Weichprofil
+            mit der Abdeckung fest verbunden, passend zu den angebotenen Entwässerungsrinnen.
+
+59.03 11A   Abdeckung m.Weichprofil,Gerade                                                                              m
+
+                                                                                                                   Seite 5 / 42
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Gerade.
+
+59.03 11B   Abdeckung m.Weichprofil,Bogen                                                                               m
+            Gebogen.
+
+59.03 12    Sicherheitszarge mit temperaturbeständigem Gummipolster, konstruktiv mit Aluminiumunterkonstruktion fest
+            verbunden, mit Befestigungsstiften zur Montage auf Schlitzrinnen und Laufbahnbelag.
+
+59.03 12A   Sicherheitszarge Gerade                                                                                     m
+            Gerade, 60 mm breit, 50 mm hoch.
+
+59.03 12B   Sicherheitszarge Bogen                                                                                      m
+            Im Bogen, 60 mm breit, 50 mm hoch.
+
+59.03 13    Rinnenroste passend zu den angebotenen Entwässerungsrinnen.
+
+59.03 13A   Rinnen-Klemm-Stegrost verz.                                                                                 m
+            Aus feuerverzinktem Stahl, 3 mm dick.
+
+59.03 13B   Rinnenrost                                                                                                  m
+            ____________
+
+59.10       Rasensportflächen
+            Die Eignung der angebotenen Rasentragschicht gemäß den Richtlinien des Österreichischen Institutes für
+            Schul- und Sportstättenbau (ÖISS) 1040 Wien, Prinz Eugenstr. 12 wird durch einen Prüfbericht
+            (Eignungsprüfung) einer Prüf-, Überwachungs- und Zertifizierungsstelle nachgewiesen.
+            Die Übernahme von Rasenflächen erfolgt erst bei Benutzbarkeit. Bei Saatrasen jedoch nicht vor einem Jahr
+            nach Aussaat, bei Fertigrasen nicht vor acht Wochen nach Verlegung.
+
+59.10 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+59.10 00C   Rasenflächen
+59.10 01    Verbesserung des Untergrundes mit Kiessand Körnung 0,02 bis 6 mm. Eine 5 cm dicke Schicht des Kiessandes
+            ist mit den obersten 5 bis 7 cm des Baugrundes leicht zu vermischen (verzahnen), die Oberfläche hat dem
+            Gefälle des Grundplanums zu folgen.
+
+59.10 01A   Untergrundverbesserung                                                                                      m²
+59.10 02    Dränschicht aus Kiessand Körnung bis 18 mm, die Oberfläche hat dem Gefälle des Grundplanums zu folgen.
+
+59.10 02A   Dränschicht 10cm dick                                                                                       m²
+
+59.10 02B   Dränschicht 15cm dick                                                                                       m²
+
+59.10 02C   Dränschicht                                                                                                 m²
+            Dicke in cm: ____________
+
+59.10 03    Oberboden (Humusoberboden) frei von Unrat, Unkraut, Wurzeln und Steinen liefern.
+
+59.10 03A   Oberboden liefern                                                                                           m³
+59.10 04    Kalkarmen bis kalkfreien, gewaschenen Sand der Körnung 0,06 bis 4 mm liefern.
+
+59.10 04A   Sand 0-4 liefern                                                                                            m³
+59.10 05    Wasserspeichernde oder durchlässigkeitsfördernde Zuschlagstoffe (z.B. Torfmull, Blähglimmer) liefern.
+
+59.10 05A   Zuschlagstoffe liefern                                                                                      m³
+59.10 06    Nährstoffe als Grunddüngung liefern.
+
+59.10 06A   Nährstoffe liefern                                                                                          kg
+
+
+
+
+                                                                                                                   Seite 6 / 42
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+59.10 07    Rasentragschichte (Vegetationsschichte) herstellen. Die erforderlichen Bestandteile werden entweder vom
+            Auftraggeber beigestellt oder sind in anderen Positionen anzubieten. Die Tragschichtbestandteile bestehend
+            aus Humus, Sand, Zuschlag- und Nährstoffen in Zusammensetzung den vorliegenden
+            Baugrunduntersuchungen entsprechend, gleichmäßig mischen, mit leichten Geräten einbringen und verdichten.
+            Ebenheit: höchstens 10 mm Spalt unter der 4 m Richtlatte.
+
+59.10 07A   Rasentragschichte 10cm n.einbr                                                                                   m²
+            10 cm dick.
+
+59.10 07B   Rasentragschichte 12cm n.einbr                                                                                   m²
+            12 cm dick.
+
+59.10 08    Rasentragschichte (Vegetationsschichte) bestehend aus einem Tragschichtgemisch aus Humus, Sand Körnung
+            0,06 bis 4 mm, Zuschlag- und Nährstoffen, in Zusammensetzung den vorliegenden Baugrunduntersuchungen
+            entsprechend, gleichmäßig mischen, mit leichten Geräten einbringen und verdichten. Ebenheit: höchstens 10
+            mm Spalt unter der 4 m Richtlatte.
+
+59.10 08A   Rasentragschichte 10cm                                                                                           m²
+            10 cm dick.
+
+59.10 08B   Rasentragschichte 12cm                                                                                           m²
+            12 cm dick.
+             Kommentar:
+             Es dürfen entweder nur die Positionen 59.10 03 bis 07 oder die Position 59.10 08 verwendet werden. Die Anwendung der
+             Position 59.10 08 wird nur dann zu empfehlen sein, wenn genaue Angaben über den Untergrund vorhanden sind und genaue
+             Angaben über die Zusammensetzung der Rasentragschichte gemacht werden können.
+
+59.10 09    Rasennarbe aus Saatrasen mit Sport- und Spielplatzrasenmischungen aus Zuchtsorten. Saatmenge 5 bis 20
+            g/m2, je nach Rasenmischung.
+
+59.10 09A   Saatrasen m.Raygras                                                                                              m²
+            Mit Raygras.
+
+59.10 09B   Saatrasen ohne Raygras                                                                                           m²
+            Ohne Raygras.
+
+59.10 10    Rasennarbe aus Fertigrasen mit krankheitsfreiem Rasenboden, Rasenschnitthöhe bei Lieferung höchstens 4
+            cm, Schäldicke höchstens 2 cm. Zwischen Schälung und Verlegung dürfen höchstens 48 Stunden liegen, die
+            Verlegung muss oberflächengleich, engfugig und mit versetzten Querfugen erfolgen. Die botanische
+            Zusammensetzung der Rasennarbe ist nachzuweisen und muss den Kriterien für Zuchtsortenmischungen
+            entsprechen.
+
+59.10 10A   Fertigrasen Sportflächen                                                                                         m²
+59.10 11    Fertigstellungspflege bis zur Übernahme durch laufende Bewässerung und dreimaliges Düngen mit Stickstoff
+            (N), Phosphor (P) und Kalium (K). Die angegebenen Mengen sind je nach Jahreszeit in mehreren Gaben in
+            Abständen von mindestens drei Wochen zu verabreichen. Im Frühjahr März bis April: N = 10 g/m2, P = 3,3
+            g/m2, K = 5 g/m2 (Reinnährstoff N:P:K = 3:1:1,5). Im Sommer Juni bis Juli: N = 10 g/m2, P = 3,3 g/m2, K = 6,6
+            g/m2 (Reinnährstoff N:P:K = 3:1:2) Im Herbst September bis Oktober: N = 5 g/m2, P = 3,3 g/m2, K = 10 g/m2
+            (Reinnährstoff N:P:K = 1,5:1:3). Rasen schneiden bei höchstens 7 cm Wuchshöhe und Unkrautbekämpfung.
+            Das Schnittgut ist zu entfernen.
+
+59.10 11A   Pflege Saatrasen                                                                                                 m²
+
+59.10 11B   Pflege Fertigrasen                                                                                               m²
+59.11       Rasennebenflächen
+             Kommentar:
+             Rasennebenflächen sind der LG 58 zu entnehmen.
+
+59.11 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+59.11 00A   Verfügbarkeit von Beilagen
+            Betrifft Position(en): ____________
+            Folgende Beilagen sind zu beachten: ____________
+
+                                                                                                                        Seite 7 / 42
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                    gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                       EH
+
+59.15       Rasenflächen markieren
+59.15 01    Markierungslinien auf Rasenflächen.
+
+59.15 01A   Markieren Rasen 10-12cm Mehl                                                                                     m
+            10 oder 12 cm breit mit Steinmehl.
+
+59.15 01B   Markieren Rasen 10-12cm Farbe                                                                                    m
+            10 oder 12 cm breit mit Farbe, wasserbeständig, pflanzenverträglich, ungiftig.
+
+59.15 01C   Markieren Rasen 10-12cm Kreide                                                                                   m
+            10 oder 12 cm breit mit Kreide.
+
+59.15 01D   Markieren Rasen                                                                                                  m
+            ____________
+
+59.17       Rasenflächen pflegen, instandsetzen
+59.17 01    Einmaliger Rasenschnitt bis auf eine Schnitthöhe 3 bis 4 cm, einschließlich Entfernen des Schnittgutes.
+
+59.17 01A   Rasenschnitt 1x                                                                                                  m²
+59.17 02    Erforderliche Rasenschnitte während einer Wachstumsperiode, jeweils bei höchstens 6 cm Grashöhe auf eine
+            Schnitthöhe 3 bis 4 cm, einschließlich Entfernen des Schnittgutes.
+
+59.17 02A   Rasenschnitt Periode                                                                                             m²
+59.17 03    Beregnung von Rasenflächen während einer Wachstumsperiode, erforderliche Wassermenge einschließlich
+            Niederschlag 25 bis 30 l je m2 je Woche.
+
+59.17 03A   Beregnung Periode                                                                                                m²
+            Vorhandene Einrichtungen: ____________
+
+59.17 04    Volldüngung von Rasenflächen, mit Stickstoff (N), Phosphor (P) und Kalium (K). Die angegebenen Mengen sind
+            in mehreren Gaben in Abständen von mindestens drei Wochen zu verabreichen.
+
+59.17 04A   Volldüngung Frühjahr                                                                                             m²
+            Im Frühjahr März bis April: N = 10 g/m2, P = 3,3 g/m2, K = 5 g/m2 (Reinnährstoff (N : P : K = 3 : 1 : 1,5).
+
+59.17 04B   Volldüngung Sommer                                                                                               m²
+            Im Sommer Juni bis Juli: N = 10 g/m2, P = 3,3 g/m2, K = 6,6 g/m2 (Reinnährstoff N : P : K = 3 : 1 : 2).
+
+59.17 04C   Volldüngung Herbst                                                                                               m²
+            Im Herbst September bis Oktober: N = 5 g/m2, P = 3,3 g/m2, K = 10 g/m2 (Reinnährstoff N : P : K = 1,5 : 1 : 3).
+
+59.17 05    Einmalige Stickstoffdüngung von Rasenflächen.
+
+59.17 05A   Stickstoffdüngung 1x,10g/m2                                                                                      m²
+            Mit 10 g/m2 Reinnährstoff.
+
+59.17 05B   Stickstoffdüngung 1x,5g/m2                                                                                       m²
+            Mit 5 g/m2 Reinnährstoff.
+
+59.17 06    Einmalige Unkrautbekämpfung mit Herbiziden.
+
+59.17 06A   Unkrautbekämpfung chemisch                                                                                       m²
+            Chemisch.
+
+59.17 07    Einmaliges Walzen der Rasennarbe.
+
+59.17 07A   Walzen                                                                                                           m²
+59.17 08    Rasentiefschnitt.
+
+59.17 08A   Rasentiefschnitt                                                                                                 m²
+
+                                                                                                                        Seite 8 / 42
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+59.17 09    Beseitigen des Rasenfilzes durch Verticutieren, anfallendes Material entfernen.
+
+59.17 09A   Verticutieren - Rasen                                                                                               m²
+59.17 10    Aerifizieren (Perforieren) von Rasenflächen mit Lochgeräten, 100 Löcher je m2, mindestens 5 cm tief.
+
+59.17 10A   Aerifizieren,Bohrmat.einkehren                                                                                      m²
+            Mit Einkehren des zerkleinerten Bohrmaterials.
+
+59.17 10B   Aerifizieren,Bohrmat.entfernen                                                                                      m²
+            Mit Entfernen des Bohrmaterials.
+
+59.17 11    Ausbessern von Kahlstellen und zwar: Auszubessernde Stelle 15 cm tief lockern, unbrauchbares Material
+            entfernen, den Rest planieren und mit Rasentragschichtmaterial (Sand-Humus-Zuschlagstoffe) ergänzen und
+            verdichten, sodann Aufbringen von Fertigrasen (Rollrasen oder Rasensoden), leichtes Einwalzen und tägliches
+            Bewässern bei Bedarf bis der Fertigrasen mit dem Untergrund gut verwachsen ist.
+
+59.17 11A   Ausbessern von Kahlstellen                                                                                          m²
+59.17 12    Einbringen und einschleppen von gewaschenem, kalkarmen Quarzsand Körnung 0,06 bis 4 mm, nach
+            Verticutieren oder Aerifizieren, zum Füllen von Löchern und zum Ausgleich von geringen Unebenheiten bis 1 cm
+            Dicke.
+
+59.17 12A   Quarzsand b.4mm                                                                                                     m³
+59.17 13    Rasennarbe 5 cm dick abheben, 10 cm tief auflockern und Reinigen der noch verbleibenden Rasentragschichte
+            und Ergänzen der abgehobenen Schichte durch neues Rasentragschichtmaterial, ausplanieren und verdichten,
+            Ebenheit: höchstens 10 mm Spalt unter der 4 m Richtlatte.
+
+59.17 13A   Rasennarbe auswechseln                                                                                              m²
+59.17 14    Vollständige Laubbeseitigung vor Wintereinbruch.
+
+59.17 14A   Laubbeseitigung                                                                                                     m²
+59.17 15    Gehölzflächen (Strauchflächen) einmal lockern oder hacken unter Schonung des Wurzelwerkes, einschließlich
+            Beseitigen von Unkraut, Steinen größer als 5 cm und sonstigem Unrat.
+
+59.17 15A   Gehölzflächen hacken                                                                                                m²
+59.17 16    Schneiden von Sträuchern oder Bäumen unter Bedachtnahme auf die charakteristische Wuchsform.
+
+59.17 16A   Strauch Schnitt                                                                                                     Stk
+            Auslichten und verjüngen von Sträuchern.
+
+59.17 16B   Hecken Schnitt                                                                                                      m
+            Zurückschneiden von Hecken auf die vorgegebene Form.
+
+59.17 16C   Baum Schnitt                                                                                                        Stk
+            Auslichten von Baumkronen.
+             Kommentar:
+             Die Positionen Rasenschnitt Periode, Volldüngung, Unkrautbekämpfung, Walzen, Rasentiefschnitt, Verticutieren und
+             Aerifizieren sind vorwiegend für Rasensportflächen gedacht.
+
+59.20       Aufbau für Tennenflächen
+            Die Eignung der angebotenen Tennendecke gemäß den Richtlinien des Österreichischen Institutes für Schul-
+            und Sportstättenbau (ÖISS) 1040 Wien, Prinz Eugenstr. 12 wird durch einen Prüfbericht (Eignungsbericht) einer
+            Prüf-, Überwachungs- und Zertifizierungsstelle nachgewiesen.
+            LB-Version: 23                Geändert
+59.20 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+59.20 00C   Tennenflächen
+            ____________
+
+59.20 01    Filterschichte, Körnung im Körnungslinienbereich für Filterschichtbaustoffe.
+
+
+                                                                                                                           Seite 9 / 42
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+59.20 01A   Filterschichte 6cm zu 59.20                                                                                  m²
+            6 cm dick.
+
+59.20 01B   Filterschichte zu 59.20                                                                                      m²
+            Dicke in cm: ____________
+
+59.20 02    Vlies, wasserdurchlässig, mit 30 cm breiten Übergriffen verlegt, abgerechnet wird die abgedeckte Fläche.
+
+59.20 02A   PP-Vlies zu 59.20                                                                                            m²
+            Trennvlies PP: Zugfestigkeit 18,5 kN/m
+
+            LB-Version: 23              Geändert
+
+59.20 02B   Vlies zu 59.20                                                                                               m²
+            Dicke ____________
+            Zugfestigkeit: ____________
+            LB-Version: 23              Geändert
+59.20 03    Tragschichte aus mineralischen Baustoffen z.B. Bergbauschlacke, Haldenmaterial, Hüttenbims oder
+            Bruchschotter nach Wahl des Auftragnehmers, Körnung im Körnungslinienbereich für Tragschichtbaustoffe,
+            verdichtet, zulässige Abweichung von der Sollhöhe +/- 15 mm. Ebenheit: höchstens 10 mm Spalt unter der 4 m
+            Richtlatte.
+
+59.20 03A   Tragschichte 1-lagig 10cm zu 59.20                                                                           m²
+            Einlagig 10 cm dick.
+
+59.20 03B   Tragschichte 1-lagig 15cm zu 59.20                                                                           m²
+            Einlagig 15 cm dick.
+
+59.20 03C   Tragschichte zu 59.20                                                                                        m²
+            Ausführung: ____________
+
+59.20 04    Dynamische Schichte (Übergangsschichte) aus mineralischen Baustoffen z.B. Bergbauschlacke,
+            Haldenmaterial oder Hüttenbims nach Wahl des Auftragnehmers, Körnung im Körnungslinienbereich für
+            Baustoffe der dynamischen Schichte, verdichtet, zulässige Abweichung von der Sollhöhe +/- 10 mm, Ebenheit:
+            höchstens 10 mm Spalt unter der 4 m Richtlatte.
+
+59.20 04A   Dynamische Schichte 6cm zu 59.20                                                                             m²
+            6 cm dick.
+
+59.20 04B   Dynamische Schichte zu 59.20                                                                                 m²
+            Dicke in cm: ____________
+
+59.20 05    Deckschichte (Tennendecke) aus mineralischen Baustoffen z.B. Bergbauschlacke, Haldenmaterial, Hüttenbims
+            oder Ziegelsplitt nach Wahl des Auftragnehmers, Körnung im Körnungslinienbereich für Deckschichten,
+            verdichtet, zulässige Abweichung von der Sollhöhe +/- 5 mm, Ebenheit: höchstens 5 mm Spalt unter der 4 m
+            Richtlatte.
+
+59.20 05A   Deckschichte 3cm                                                                                             m²
+            Mindestens 3 cm dick für Tennisplätze.
+
+59.20 05B   Deckschichte 4cm                                                                                             m²
+            Mindestens 4 cm dick für Lauf- und Anlaufbahnen.
+
+59.20 05C   Deckschichte 5cm                                                                                             m²
+            Mindestens 5 cm dick für Spielfelder.
+
+59.20 06    Streuschichte aus Tennissand, Farbe handelsüblich nach Wahl des Auftraggebers, Körnung im
+            Körnungslinienbereich für Streuschichten, einwalzen und einkehren.
+
+59.20 06A   Streuschichte 3mm K1                                                                                         m²
+            3 mm dick, Körnung bis 1 mm.
+
+59.20 06B   Streuschichte 3mm K2                                                                                         m²
+                                                                                                                   Seite 10 / 42
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+            3 mm dick, Körnung bis 2 mm.
+
+59.25       Tennenflächen markieren
+59.25 01    Markierungslinien auf Tennenflächen.
+
+59.25 01A   Markieren Tennen 5cm Steinmehl                                                                           m
+            5 cm breit mit Steinmehl.
+
+59.25 01B   Markieren Tennen 5cm Kreide                                                                              m
+            5 cm breit mit Kreide.
+
+59.25 01C   Markieren Tennen 5cm PVC                                                                                 m
+            5 cm breit mit PVC-Profilen im Boden verankert.
+
+59.25 01D   Markieren Tennen                                                                                         m
+            ____________
+
+59.27       Tennenflächen pflegen, instandsetzen
+59.27 01    Reinigen der Tennenfläche von Unrat (Geäst, Laub, Unterbauschlacke und dergleichen) durch Abbrechen,
+            Abkehren und Abziehen.
+
+59.27 01A   Reinigen Tennendecke                                                                                     m²
+59.27 02    Abschürfen von wasserundurchlässigem Tennendeckenmaterial (Streuschichte und Teile der Deckschichte).
+
+59.27 02A   Abschürfen Tennendecke b.15mm                                                                            m²
+            Bis 15 mm tief.
+
+59.27 02B   Abschürfen Tennendecke ü.15-30mm                                                                         m²
+            Über 15 bis 30 mm tief.
+
+59.27 02C   Abschürfen Tennendecke                                                                                   m²
+            Tiefe: ____________
+
+59.27 03    Aufrauen (Aufreißen) der Tennendecke mit Rechen oder Stahldrahtbürsten bis 10 mm tief und Ausgleichen der
+            Decke.
+
+59.27 03A   Aufrauen Tennendecke                                                                                     m²
+59.27 04    Verbessern der abgeschürften und aufgerauten Tennendecke durch Aufbringen und Einarbeiten von neuem
+            Tennendeckenmaterial, verdichten, bürsten und wässern.
+
+59.27 04A   Verbessern Tennendecken b.15mm                                                                           m²
+            Bis 15 mm dick.
+
+59.27 04B   Verbessern Tennendecken ü.15-30mm                                                                        m²
+            Über 15 bis 30 mm dick.
+
+59.27 04C   Verbessern Tennendecke                                                                                   m²
+            Dicke: ____________
+
+59.27 05    Auflockern der Tennendecke in gesamter Schichtdicke bis 6 cm ohne Verletzen der dynamischen Schichte,
+            wenn erforderlich ausgleichen mit Tennendeckenmaterial, verdichten, bürsten und wässern. Eine etwa
+            erforderliche Streuschichte wird gesondert vergütet.
+
+59.27 05A   Auflockern Tennendecke                                                                                   m²
+59.27 06    Vorhandene Markierungen aus PVC-Profilen sorgfältig abtragen und nach Instandsetzen der Tennendecke
+            wieder verlegen.
+
+59.27 06A   Markierungen vorh.PVC                                                                                    m
+59.30       Aufbau für bitumengebundene Flächen
+
+                                                                                                               Seite 11 / 42
+                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Für den Aufbau von bitumengebundenen Flächen gelten auch die technischen Vorschriften für Straßenbau,
+            Kapitel 8 der Richtlinien und Vorschriften für den Straßenbau (RVS), herausgegeben von der
+            Forschungsgemeinschaft für das Straßenwesen im Österreichischen Ingenieur- und Architektenverein,
+            Eschenbachg. 9, 1010 Wien.
+            LB-Version: 23              Geändert
+59.30 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+59.30 00C   Bitumengebundene Flächen
+59.30 01    Filterschichte, Körnung im Körnungslinienbereich für Filterschichtbaustoffe. Abweichung von der Sollhöhe +/- 30
+            mm, Ebenheit; höchstens 30 mm Spalt unter der 4 m Richtlatte.
+
+59.30 01A   Filterschichte 6cm                                                                                           m²
+            6 cm dick.
+
+59.30 01B   Filterschichte                                                                                               m²
+            Dicke in cm: ____________
+
+59.30 02    Vlies wasserdurchlässig, mit 30 cm breiten Übergriffen verlegt, abgerechnet wird die abgedeckte Fläche.
+
+59.30 02A   PP-Vlies zu 59.30                                                                                            m²
+            Trennvlies PP: Zugfestigkeit 18,5 kN/m
+
+            LB-Version: 23              Geändert
+Änderung:   gelöscht Dicke ____________
+
+59.30 02B   Vlies                                                                                                        m²
+            Dicke ____________
+            Zugfestigkeit: ____________
+            LB-Version: 23              Geändert
+59.30 03    Untere ungebundene Tragschicht, Körnung im Körnungslinienbereich für Baustoffe der unteren Tragschichte,
+            verdichtet, Abweichung von der Sollhöhe +/-15 mm, Ebenheit: höchstens 15 mm Spalt unter der 4 m Richtplatte.
+
+59.30 03A   Untere Tragschicht 15cm Kantkorn                                                                             m²
+            15 cm dick, aus gebrochenem Material (Kantkorn).
+
+59.30 03B   Untere Tragschicht gemäß Ang.Kantkorn                                                                        m²
+            Dicke in cm: ____________
+            Aus gebrochenem Material (Kantkorn).
+            LB-Version: 23              Geringfügig Geändert
+
+59.30 03C   Untere Tragschicht 15cm Rundkorn                                                                             m²
+            15 cm dick, aus Rundkorn.
+
+59.30 03D   Untere Tragschicht gemäß Ang.Rundkorn                                                                        m²
+            Dicke in cm: ____________
+            Aus Rundkorn.
+            LB-Version: 23              Geringfügig Geändert
+59.30 04    Obere ungebundene Tragschicht, Körnung im Körnungslinienbereich für Baustoffe der oberen Tragschicht,
+            verdichtet, Abweichung von der Sollhöhe +/-10 mm, Ebenheit: höchstens 10 mm Spalt unter der 4 m Richtlatte.
+
+59.30 04A   Obere Tragschicht 5cm Kantkorn                                                                               m²
+            5 cm dick, aus gebrochenem Material (Kantkorn).
+
+59.30 04B   Obere Tragschicht 10cm Kantkorn                                                                              m²
+            10 cm dick, aus gebrochenem Material (Kantkorn).
+
+59.30 05    Aus Split, Körnung 0/3 mm bis 0/5 mm, verdichtet 5 cm dick, Abweichung von der Sollhöhe +/-10 mm, Ebenheit:
+            höchstens 10 mm Spalt unter der 4 m Richtlatte.
+
+59.30 05A   Feinschicht 5cm Split                                                                                        m²
+                                                                                                                   Seite 12 / 42
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+59.30 06    Bitumengebundene Tragschicht, Körnung im Körnungslinienbereich für bitumengebundene Tragschichten im
+            Heißverfahren mit Bitumen B 70/100 als Bindemittel, einschließlich verdichten. Zulässige Abweichung von der
+            Sollhöhe +/- 10 mm, Ebenheit: höchstens 8 mm Spalt bei maschinellem Einbau oder 10 mm Spalt bei
+            händischem Einbau unter der 4 m Richtlatte. Im Positionsstichwort angegeben ist die Dicke in cm und
+            wasserdurchlässig (wd) oder wasserundurchlässig (wud).
+
+59.30 06A   Bitumentragschicht 4cm, wd                                                                                   m²
+
+59.30 06B   Bitumentragschicht wd__________                                                                              m²
+
+59.30 06C   Bitumentragschicht 4cm, wud                                                                                  m²
+
+59.30 06D   Bitumentragschicht wud__________                                                                             m²
+59.30 07    Bitumengebundene Decke, Körnung im Körnungslinienbereich für bitumengebundene Decken, im
+            Heißverfahren mit Bitumen B 70/100 als Bindemittel, einschließlich verdichten, zulässige Abweichung von der
+            Sollhöhe +/10 mm, Ebenheit: höchstens 6 mm Spalt bei maschinellem Einbau oder 8 mm Spalt bei händischem
+            Einbau unter der 4 m Richtlatte. Im Positionsstichwort angegeben ist die Dicke in cm und wasserdurchlässig
+            (wd) oder wasserundurchlässig (wud).
+
+59.30 07A   Bitumendecke 3cm, wd                                                                                         m²
+
+59.30 07B   Bitumendecke wd__________                                                                                    m²
+
+59.30 07C   Bitumendecke 3cm, wud                                                                                        m²
+
+59.30 07D   Bitumendecke wud__________                                                                                   m²
+59.31       Asphaltbahnen
+            Die Richtlinien für Stockschießbahnen 92/93 des Österreichischen Institutes für Schul- und Sportstättenbau
+            (ÖISS), 1040 Wien, Prinz Eugenstraße 12 werden eingehalten.
+             Kommentar:
+             Positionen für Unterbau sind in der ULG 59.30 enthalten.
+
+59.31 01    Bitumengebundene Tragschicht, Körnung im Körnungslinienbereich für bitumengebundene Tragschichten, im
+            Heißverfahren mit Bitumen B 70/100 als Bindemittel einschließlich verdichten. In Längsrichtung ist ein
+            satteldachförmiges Gefälle von 3 bis 5 Prozent einzuhalten. Ebenheit: höchstens 6 mm Spalt unter der 4 m
+            Richtlatte. Im Positionsstichwort angegeben ist die Dicke in cm und wasserdurchlässig (wd) oder
+            wasserundurchlässig (wud).
+
+59.31 01A   Bitumentragschicht 6cm, wd                                                                                   m²
+
+59.31 01B   Bitumentragschicht 6cm, wud                                                                                  m²
+59.31 02    Asphaltbahnbelag, Körnung im Körnungslinienbereich für Asphaltbeläge, Ebenheit: höchstens 3 mm Spalt unter
+            der 4 m Richtlatte. Im Positionsstichwort angegeben ist die Dicke in cm und wasserdurchlässig (wd) oder
+            wasserundurchlässig (wud).
+
+59.31 02A   Asphaltbahnbelag 3,5cm, wd                                                                                   m²
+
+59.31 02B   Asphaltbahnbelag 3,5cm, wud                                                                                  m²
+59.33       Bitumengeb.Flächen, Oberflächenbehandlung
+            LB-Version: 23                 Geringfügig Geändert
+59.33 01    Kunstharzbeschichtung von bitumengebundenen Decken, mit Quarzsand in mindestens drei Schichten
+            aufgebracht, Farbe handelsüblich nach Wahl des Auftraggebers, einschließlich Vorarbeiten, ohne Reinigen.
+
+59.33 01A   KH-Beschichtung Bitu-Decke                                                                                   m²
+            ____________
+
+59.33 02    Aufzahlung (Az) auf die Position Kunstharzbeschichtung von bitumengebundenen Decken für eine
+            Verstärkungsschicht im Grundlinienbereich von Tennisplätzen, Verrechnungseinheit (VE) ist ein Tennisplatz.
+
+59.33 02A   Az Verstärkung                                                                                               VE
+59.33 03    Versiegeln von bitumengebundenen Flächen nach den Verarbeitungsrichtlinien des Erzeugers, Farbe
+            handelsüblich nach Wahl des Auftraggebers, einschließlich Vorarbeiten, ohne Reinigen.
+
+
+                                                                                                                   Seite 13 / 42
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+
+59.33 03A   Versiegeln Bitu-Decke wd                                                                                 m²
+            Versiegeln wasserdurchlässig (wd).
+            Farbe: ____________
+            LB-Version: 23              Geringfügig Geändert
+
+59.33 03B   Versiegeln Bitu-Decke wud                                                                                m²
+            Versiegeln wasserundurchlässig (wud).
+            Farbe: ____________
+            LB-Version: 23              Geringfügig Geändert
+59.33 04    Aufzahlung (Az) auf die Positionen Kunstharzbeschichtung und Versiegelung von bitumengebundenen Flächen
+            für die Erschwernisse beim Herstellen von verschiedenen Farben bei zusammenhängenden Flächen,
+            abgerechnet wird die Länge der gemeinsamen Stoßfuge.
+
+59.33 04A   Az versch.Farbe                                                                                          m
+59.35       Bitumengebundene Flächen markieren
+59.35 01    Markierungslinien auf bitumengebundenen Decken oder beschichteten bitumengebundenen Decken aufbringen.
+            Farbe handelsüblich, nach Wettkampfbestimmungen.
+
+59.35 01A   Markieren Bitu-Flächen 5cm                                                                               m
+            5 cm breit.
+
+59.35 01B   Markieren Bitu-Flächen                                                                                   m
+59.37       Bitumengeb.Flächen pflegen, instandsetzen
+59.37 01    Abkehren und Absaugen von bitumengebundenen Belägen.
+
+59.37 01A   Abkehren, Absaugen Bitu-Decke                                                                            m²
+59.37 03    Reinigen von bestehenden bitumengebundenen Decken mit oder ohne Beschichtung mit Wasser, Druck
+            mindestens 150 bar, wenn erforderlich mit Reinigungsmitteln und Bürste.
+
+59.37 03A   Reinigen Bitu-Decke                                                                                      m²
+59.37 04    Verbessern der Wasserdurchlässigkeit (wd) von bitumengebundenen Decken durch Perforieren mit Bohrlöchern
+            Durchmesser 20 mm, Bohrgut entfernen. Bohrlöcher mit wasserdurchlässigem kunststoffgebundenem Material
+            verschließen.
+
+59.37 04A   Verbessern wd 20 Bohrlöcher                                                                              m²
+            Abgerechnet je m2, 20 Bohrlöcher je m2.
+
+59.37 04B   Verbessern wd Bohrlöcher                                                                                 Stk
+            Abgerechnet je Bohrloch.
+
+59.37 05    Ausbessern von schadhaften bitumengebundenen Decken in händischer Ausführung: Schadhafte Stellen
+            abtragen, etwa erforderliche Instandsetzung des Unterbaues, Ergänzen des Belages in zweischichtiger
+            Ausführung, in Einzelflächen. Das geradlinige Ausschneiden und Anarbeiten wird gesondert vergütet.
+
+59.37 05A   Ausbessern Bitu-Decke 8cm wd                                                                             m²
+            Bis 8 cm dick, wasserdurchlässig (wd).
+
+59.37 05B   Ausbessern Bitu-Decke 8cm wud                                                                            m²
+            Bis 8 cm dick, wasserundurchlässig (wud).
+
+59.37 05C   Ausbessern Bitu-Decke wd                                                                                 m²
+            Dicke in cm: ____________
+            Wasserdurchlässig (wd)
+
+59.37 05D   Ausbessern Bitu-Decke wud                                                                                m²
+            Dicke in cm: ____________
+            Wasserundurchlässig (wud).
+
+                                                                                                               Seite 14 / 42
+                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+59.37 06    Geradliniges Ausschneiden der bitumengebundenen Decke, und Anarbeiten des neuen Belages an den alten
+            Belag.
+
+59.37 06A   Anschluss Bitu-Decke                                                                                          m
+59.37 07    Ausbessern von schadhaften bitumengebundenen Decken an Rändern in händischer Ausführung bis 20 cm
+            Breite, Bitumendecke abtragen, etwa erforderliche Instandsetzung des Unterbaus, Ergänzen des Belages, das
+            geradlinige Anschneiden und Anarbeiten ist einkalkuliert.
+
+59.37 07A   Ausbess.Bitu-Decke, Rand 20cm                                                                                 m
+59.40       Aufbau für Kunststoffflächen
+            Die Eignung des angebotenen Kunststoffbelages gemäß den Richtlinien des Österreichischen Institutes für
+            Schul- und Sportstättenbaus (ÖISS) 1040 Wien, Prinz Eugenstr.12 wird durch einen Prüfbericht
+            (Eignungsbericht) einer Prüf-, Überwachungs- und Zertifizierungsstelle nachgewiesen.
+            Das Verlegen der Kunststoffbeläge erfolgt auf gebundenen Tragschichten.
+             Kommentar:
+             Bahnenware und gegossene Beläge sind frei zu formulieren.
+
+            LB-Version: 23               Geringfügig Geändert
+59.40 01    Punktelastischer Kunststoffbelag mit gleichmäßiger Struktur, Ortseinbau (in situ), aus rot durchgefärbtem,
+            polyurethangebundenem Kunststoffgranulat, einschließlich Aufbringen einer Kunststoffhaftbrücke. Ebenheit:
+            höchstens 6 mm Spalt unter der 4 m Richtlatte.
+
+59.40 01A   Kst.Belag rot Spielfl.wd                                                                                      m²
+            Für Spielflächen, wasserdurchlässig (wd).
+            Dicke: ____________
+
+59.40 01B   Kst.Belag rot LA-Sond.Fl.wd                                                                                   m²
+            Für Leichtathletik-Sonderflächen (Wassergraben- und Dreisprungaufsprungbereich), wasserdurchlässig (wd).
+            Dicke: ____________
+
+59.40 01C   Kst.Belag rot LA-Fl.wd                                                                                        m²
+            Für Leichtathletikflächen, wasserdurchlässig (wd).
+            Dicke: ____________
+
+59.40 01D   Kst.Belag rot LA-Fl.spikef.wd                                                                                 m²
+            Für Hochsprung- und Speerwurfanlaufbahnen bei Verwendung von 12 mm Spikes, Dicke mindestens 16 mm,
+            wasserdurchlässig (wd).
+            Dicke: ____________
+
+59.40 01E   Kunststoffbelag rot                                                                                           m²
+            Kunststoffbelag ____________
+            Dicke: ____________
+
+59.40 02    Aufzahlung (Az) auf die Positionen rot durchgefärbte Kunststoffbeläge für die Farben blau, gelb oder grün,
+            abgerechnet wird die tatsächlich in anderer Farbe ausgeführte Fläche.
+
+59.40 02A   Az Kst.Belag andere Farbe                                                                                     m²
+            Betrifft folgende Positionen und Flächen: ____________
+
+            LB-Version: 23               Geringfügig Geändert
+59.40 03    Aufzahlung (Az) auf die Positionen durchgefärbte Kunststoffbeläge für die Erschwernisse beim Herstellen von
+            verschiedenen Farben bei zusammenhängenden Flächen, abgerechnet wird die Länge der gemeinsamen
+            Stoßfuge.
+
+59.40 03A   Az Kst.Belag versch.Farben                                                                                    m
+59.40 04    Punktelastischer Kunststoffbelag mit gleichmäßiger Struktur in zweischichtiger Ausführung, Ortseinbau (in situ).
+            Die untere Schichte aus schwarzem polyurethangebundenem Kunststoffgranulat, die obere Schichte aus rot
+            durchgefärbtem polyurethangebundenem Kunststoffgranulat mindestens 6 mm dick, einschließlich Aufbringen
+            einer Kunststoffhaftbrücke. Ebenheit: höchstens 6 mm Spalt unter der 4 m Richtlatte.
+
+59.40 04A   Kst.Belag 2-schichtig Spielfl.wd                                                                              m²
+                                                                                                                    Seite 15 / 42
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Für Spielflächen, wasserdurchlässig (wd).
+            Gesamtdicke: ____________
+
+59.40 04B   Kst.Belag 2-schichtig LA-Sond.Fl.wd                                                                          m²
+            Für Leichtathletik-Sonderflächen (Wassergraben- und Dreisprungabsprungbereich), wasserdurchlässig (wd).
+            Gesamtdicke: ____________
+
+59.40 04C   Kst.Belag 2-schichtig LA-Fl.wd                                                                               m²
+            Für Leichtathletikflächen, wasserdurchlässig (wd).
+            Gesamtdicke: ____________
+
+59.40 04D   Kst.Belag 2-schichtig LA-Fl.spikef.wd                                                                        m²
+            Für Hochsprung- und Speerwurfanlaufbahnen bei Verwendung von 12 mm Spikes, Gesamtdicke mindestens 16
+            mm, wasserdurchlässig (wd).
+            Gesamtdicke: ____________
+
+59.40 04E   Kst.Belag 2-schichtig                                                                                        m²
+            Gesamtdicke: ____________
+
+59.40 05    Aufzahlung (Az) auf die Positionen zweischichtige Kunststoffbeläge für die Farben blau, gelb und grün der
+            oberen Schichte, abgerechnet wird die tatsächlich in anderer Farbe ausgeführte Fläche.
+
+59.40 05A   Az Kst.Belag 2-schichtig and.Farbe                                                                           m²
+59.40 06    Aufzahlung (Az) auf die Positionen zweischichtige Kunststoffbeläge für die Erschwernisse beim Herstellen von
+            verschiedenen Farben der oberen Schichte bei zusammenhängenden Flächen, abgerechnet wird die Länge der
+            gemeinsamen Stoßfuge.
+
+59.40 06A   Az Kst.Belag 2-schichtig versch.Fb.                                                                          m
+59.40 07    Punktelastischer Kunststoffbelag, Ortseinbau (in situ), aus schwarzem polyurethangebundenem
+            Kunststoffgranulat mit Spritzbeschichtung aus rot durchgefärbtem polyurethangebundenem Kunststoffgranulat,
+            einschließlich Aufbringen einer Kunststoffhaftbrücke. Ebenheit: höchstens 6 mm Spalt unter der 4 m Richtlatte.
+
+59.40 07A   Kst.Belag spritzbeschichtet 2kg wd                                                                           m²
+            Mit Spritzbeschichtung 2 kg/m2. Wasserdurchlässig (wd).
+            Einbauort: ____________
+            Gesamtdicke: ____________
+            LB-Version: 23                Geändert
+Änderung:   Verschiebung der ersten Lücke als Ort des Einbaues (Einbauort).
+
+59.40 07C   Kst.Belag spritzbeschichtet 2kg wud                                                                          m²
+            Mit Spritzbeschichtung 2 kg/m2. Wasserundurchlässig (wud).
+            Einbauort: ____________
+            Gesamtdicke: ____________
+            LB-Version: 23                Geändert
+Änderung:   Verschiebung der ersten Lücke als Ort des Einbaues (Einbauort).
+
+59.40 07D   Kst.Belag spritzbeschichtet 3kg wud                                                                          m²
+            Mit Spritzbeschichtung 3 kg/m2. Wasserundurchlässig (wud).
+            Einbauort: ____________
+            Gesamtdicke: ____________
+            LB-Version: 23                Geändert
+Änderung:   Verschiebung der ersten Lücke als Ort des Einbaues (Einbauort).
+
+59.40 07E   Kst.Belag spritzbeschichtet                                                                                  m²
+            Mit Spritzbeschichtung ____________kg/m2
+            Einbauort: ____________
+            Gesamtdicke: ____________
+
+                                                                                                                   Seite 16 / 42
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+            LB-Version: 23                Geändert
+Änderung:   Verschiebung der ersten Lücke als Ort des Einbaues (Einbauort).
+
+59.40 08    Aufzahlung (Az) auf die Positionen spritzbeschichtete Kunststoffbeläge für die Farben blau, gelb oder grün der
+            Spritzbeschichtung, abgerechnet wird die tatsächlich in anderer Farbe ausgeführte Fläche.
+
+59.40 08A   Az spritzbeschichtet 2kg and.Farbe                                                                            m²
+            Für Kunststoffbeläge mit Spritzbeschichtung 2 kg/m2.
+
+59.40 08B   Az spritzbeschichtet 3kg and.Farbe                                                                            m²
+            Für Kunststoffbeläge mit Spritzbeschichtung 3 kg/m2.
+
+59.40 08C   Az spritzbeschichtet and.Farbe                                                                                m²
+            Für Kunststoffbeläge mit Spritzbeschichtung gemäß Position 59.40 07E.
+
+            LB-Version: 23                Geändert
+59.40 09    Aufzahlung (Az) auf die Positionen spritzbeschichtete Kunststoffbeläge für die Erschwernisse beim Herstellen
+            von verschiedenen Farben bei zusammenhängenden Flächen, abgerechnet wird die Länge der gemeinsamen
+            Stoßfuge.
+
+59.40 09A   Az spritzbeschichtet versch.Farbe                                                                             m
+59.41       Kunststoffrasen
+            Die Eignung des angebotenen Kunststoffrasenbelages gemäß den Richtlinien des Österreichischen Institutes
+            für Schul- und Sportstättenbau (ÖISS) 1040 Wien, Prinz Eugenstraße 12 wird durch einen Prüfbericht
+            (Eignungsbericht) einer Prüf-, Überwachungs- und Zertifizierungsstelle nachgewiesen.
+
+59.41 01    Elastikschichte als Unterlagsschichte unter Kunststoffrasenbelägen, einschließlich Verlegesicherung.
+
+59.41 01A   Gummigranulat                                                                                                 m²
+            Aus kunststoffgebundenem Gummigranulat, Ebenheit: höchstens 6 mm Spalt unter der 4 m Richtlatte.
+            Dicke in cm: ____________
+
+59.41 01B   Verbundschaumstoff, 10mm                                                                                      m²
+            Mindestens 10 mm dick aus Verbundschaumstoff.
+
+59.41 01C   PE-Matte 10mm                                                                                                 m²
+            Mindestens 10 mm dick aus Polyethylenschaumstoff. 40 kg/m3.
+
+59.41 01D   Elastikschicht                                                                                                m²
+            Aus ____________
+
+59.41 02    Elastische Tragschicht als Unterlagsschichte unter Kunststoffbelägen, mindestens 35 mm dick, Ebenheit:
+            höchstens 6 mm Spalt unter der 4 m Richtlatte.
+
+59.41 02A   Elastische Tragschicht 35mm                                                                                   m²
+59.41 03    Sandgefüllter Kunststoffrasen (SKR), UV-beständig, wasserdurchlässig, witterungs-, frost- und
+            verrottungsbeständig, auf vorhandenem Untergrund verlegt mit Füllung aus Quarzsand.
+
+59.41 03A   SKR f.Fußballplätze                                                                                           m²
+            Für Fussballplätze.
+
+59.41 03B   SKR f.Handball, Hockey                                                                                        m²
+            Für Handball- und Hockeyplätze
+
+59.41 03C   SKR f.Tennisplätze                                                                                            m²
+            Für Tennisplätze.
+
+59.41 04    Vollkunststoffrasen (VKR), UV-beständig, wasserdurchlässig, witterungs-, frost- und verrottungsbeständig auf
+            vorhandenem Untergrund verlegt.
+
+59.41 04A   VKR f.Fußballplätze                                                                                           m²
+            Für Fussballplätze.
+
+                                                                                                                    Seite 17 / 42
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+
+59.41 04B   VKR f.Handball, Hockey                                                                                             m²
+            Für Handball- und Hockeyplätze
+
+59.41 04C   VKR f.Tennisplätze                                                                                                 m²
+            Für Tennisplätze.
+             Kommentar:
+             In die Ausschreiberlücken der Positionen Kunststoffrasen sind z.B. Gesamtdicken, Flächenmaße, Polhöhen, Noppenzahl,
+             Sandmenge, Material einzusetzen.
+
+59.45       Kunststoffflächen markieren
+59.45 01    Markierungslinien auf vorhandenen Kunststoffbelägen deckend aufstreichen oder aufspritzen, Farbe
+            handelsüblich nach Wettkampfbestimmungen. Die verwendeten Materialien müssen auf der Belagsoberfläche
+            haften und hinsichtlich Härte und Dehnbarkeit auf die Eigenschaften des Belages abgestimmt sein.
+
+59.45 01A   Markieren Kst.Belag 5cm                                                                                            m
+            5 cm breit.
+
+59.45 01B   Markieren Kst.Belag 7,5cm                                                                                          m
+            7,5 cm breit für Hockeyfelder.
+
+59.45 01C   Markieren Kst.Belag 10cm                                                                                           m
+            10 oder 12 cm breit für Fußballfelder.
+
+59.45 02    Markierungslinien aus Kunststoffrasen, als Aufzahlung (Az) auf die Positionen Kunststoffrasen, Farbe
+            handelsüblich nach Wettkampfbestimmungen, im gleichen Material wie der Kunststoffrasen, einschließlich
+            Befestigen.
+
+59.45 02A   Az Markieren Kunstrasen 5cm                                                                                        m
+            5 cm breit.
+
+59.45 02B   Az Markieren Kunstrasen7,5cm                                                                                       m
+            7,5 cm breit für Hockeyfelder.
+
+59.45 02C   Az Markieren Kunstrasen 10cm                                                                                       m
+            10 oder 12 cm breit für Fußballfelder.
+
+59.45 03    Markierungslinien in Kunststoffrasen (KR) eingetuftet als Aufzahlung (Az) auf die Positionen Kunststoffrasen,
+            Farbe handelsüblich nach Wettkampfbestimmungen, aus gleichem Material wie der Kunststoffrasen.
+
+59.45 03A   Az Mark.eingetuftet KR 5cm                                                                                         m
+            5 cm breit.
+
+59.45 03B   Az Mark.eingetuftet KR 7,5cm                                                                                       m
+            7,5 cm breit für Hockeyfelder.
+
+59.45 03C   Az Mark.eingetuftet KR 10cm                                                                                        m
+            10 oder 12 cm breit für Fußballfelder.
+
+59.47       Pflegen, Instandsetzen v.Kunststoffflächen
+59.47 01    Abkehren und Absaugen von Kunststoffbelägen.
+
+59.47 01A   Abkehren, Absaugen Kst.Decke                                                                                       m²
+59.47 02    Reinigen der Kunststoffbeläge mit Wasser, Druck mindestens 150 bar, wenn erforderlich mit Reinigungsmitteln
+            und Bürste.
+
+59.47 02A   Reinigen Kst.Belag                                                                                                 m²
+59.47 03    Verbessern der Wasserdurchlässigkeit (wd) von Kunststoffbelägen durch Perforieren von Kunststoffbelag und
+            bitumengebundener Tragschichte mit Bohrlöchern Durchmesser 20 mm, Löcher mit Kunststoffgranulat dem
+            Belag angepasst schließen.
+
+
+                                                                                                                         Seite 18 / 42
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+59.47 03A   Verbessern wd Kst.Belag                                                                                    Stk
+59.47 04    Ausbessern von schadhaften ein- oder zweischichtigen Kunststoffbelägen in händischer Ausführung,
+            schadhafte Stellen abtragen und mit Kunststoffgranulat dem vorhandenen Belag angepasst ergänzen. In
+            Kleinflächen oder streifenförmig, ohne Unterschied der Dicke, wasserdurchlässig oder wasserundurchlässig.
+            Das geradlinige Ausschneiden und Anarbeiten des neuen Belages in dauerhafter Verbindung an den alten
+            Belag mit Verfugen der Schnittstellen ist in die Einheitspreise einkalkuliert.
+
+59.47 04A   Ausbessern Kst.Belag 0,1m2 rot                                                                             Stk
+            Bis 0,1 m2 groß mit rot durchgefärbtem Belag.
+
+59.47 04B   Ausbessern Kst.Belag 0,1m2 sw.                                                                             Stk
+            Bis 0,1 m2 groß mit schwarzem Belag (sw).
+
+59.47 04C   Ausbessern Kst.Belag Str.rot                                                                               m
+            In Streifen (Str.) bis 20 cm Breite mit rot durchgefärbtem Belag.
+
+59.47 04D   Ausbessern Kst.Belag Str.sw.                                                                               m
+            In Streifen (Str.) bis 20 cm Breite mit schwarzem Belag.
+
+59.47 05    Ausbessern von schadhaften ein- oder zweischichtigen Kunststoffbelägen in händischer Ausführung,
+            schadhafte Stellen abtragen und mit Kunststoffgranulat dem vorhandenen Belag angepasst ergänzen, in
+            Flächen über 0,1 m2, wasserdurchlässig oder wasserundurchlässig. Das geradlinige Abschneiden und
+            Anarbeiten an den alten Belag wird gesondert vergütet.
+
+59.47 05A   Ausbessern Kst.Belag b.13mm rot                                                                            m²
+            Bis 13 mm Dicke mit rot durchgefärbtem Belag.
+
+59.47 05B   Ausbessern Kst.Belag ü.13-20mm rot                                                                         m²
+            Über 13 bis 20 mm Dicke mit rot durchgefärbtem Belag.
+
+59.47 05C   Ausbessern Kst.Belag b.13mm sw.                                                                            m²
+            Bis 13 mm Dicke mit schwarzem Belag.
+
+59.47 05D   Ausbessern Kst.Belag ü.13-20mm sw.                                                                         m²
+            Über 13 bis 20 mm Dicke mit schwarzem Belag.
+
+59.47 05E   Ausbessern Kst.Belag                                                                                       m²
+            ____________
+
+59.47 06    Geradliniges Ausschneiden der Kunststoffbeläge und Anarbeiten des neuen Belages in dauerhafter Verbindung
+            an den alten Belag, ohne Unterschied der Art und Dicke des Belages.
+
+59.47 06A   Anschluss Kst.Belag                                                                                        m
+59.47 07    Schmale Fugen des Kunststoffbelages mit roter Polyurethanverfugungsmasse schließen, einschließlich
+            Vorbereitungsarbeiten wie geradliniges Abschneiden der Ränder, losen Belag niederkleben oder entfernen und
+            ergänzen, Fugen mit Druckluft mindestens 5 bar reinigen.
+
+59.47 07A   Mittelfuge instandsetzen                                                                                   m
+            Für Mittelfugen.
+
+59.47 07B   Randfuge instandsetzen                                                                                     m
+            Für Randfugen.
+
+59.47 08    Ausgleichen von Unebenheiten mit Kunststoffgranulat, angepasst an den bestehenden Belag.
+
+59.47 08A   Ausgleichen Unebenheiten rot                                                                               kg
+            Mit rot durchgefärbtem Kunststoffgranulat.
+
+59.47 08B   Ausgleichen Unebenheiten sw.                                                                               kg
+            Mit schwarzem Kunststoffgranulat.
+
+
+
+                                                                                                                 Seite 19 / 42
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+59.47 09    Belegen von vorhandenen, vorbereiteten Kunststoffbelägen in Ortseinbau (in situ), mit rot durchgefärbtem
+            polyurethangebundenem Kunststoffgranulat, mindestens 7 mm dick, einschließlich Aufbringen einer
+            Kunststoffhaftbrücke. Ebenheit: höchstens 6 mm Spalt unter der 4 m Richtlatte.
+
+59.47 09A   Kst.Belag rot, 7mm                                                                                           m²
+59.47 10    Stabilisieren (Tränken) von vorhandenen Kunststoffbelägen, Material chemisch auf den vorhandenen Belag
+            abgestimmt, einschließlich Vorbereiten des vorhandenen Belages. Im Positionsstichwort angegeben sind der
+            Mindestverbrauch in kg/m2 und wasserdurchlässig (wd) oder wasserundurchlässig (wud).
+
+59.47 10A   Stabil.Kst.Belag, 1kg, wd                                                                                    m²
+
+59.47 10B   Stabil.Kst.Belag, wd__________                                                                               m²
+
+59.47 10C   Stabil.Kst.Belag, wud__________                                                                              m²
+59.47 11    Versiegeln von vorhandenen Kunststoffbelägen, Material chemisch abgestimmt auf den vorhandenen Belag,
+            gleichmäßig deckend, Farbe handelsüblich nach Wahl des Auftraggebers, einschließlich Vorbereiten des
+            vorhandenen Belages, angegeben sind der Mindestverbrauch in kg/m2 und wasserdurchlässig (wd) oder
+            wasserundurchlässig (wud).
+
+59.47 11A   Versiegeln Kst.Belag, 0,5kg,wd                                                                               m²
+
+59.47 11B   Versiegeln Kst.Belag,0,5kg,wud                                                                               m²
+59.47 13    Ausbessern (Austauschen) von schadhaften Kunststoffrasen-(KR)belägen in händischer Ausführung,
+            schadhafte Stellen abtragen und durch neue Teile, dem vorhandenen Belag angepasst, ersetzen. In
+            Kleinflächen oder streifenförmig, ohne Unterschied der Art des Kunststoffrasenbelages, das geradlinige
+            Ausschneiden und Anarbeiten des neuen Belages in dauerhafter Verbindung an dem alten Belag ist in die
+            Einheitspreise einzukalkulieren.
+
+59.47 13A   Ausbessern KR b.0,1m2                                                                                        Stk
+            In Einzelflächen bis 0,1 m2 groß.
+            ____________
+
+59.47 13B   Ausbessern KR ü.0,1-1m2                                                                                      m²
+            In Einzelflächen über 0,1 m2 bis 1 m2.
+            ____________
+
+59.47 13C   Ausbessern KR ü.1m2                                                                                          m²
+            In Einzelflächen über 1 m2.
+            ____________
+
+59.47 13D   Ausbessern KR Streifen                                                                                       m
+            In Streifen bis 12 cm breit.
+            ____________
+59.47 20    Nachsanden von Kunststoffrasenbelägen mit Quarzsand Körnung bis 1 mm.
+
+59.47 20A   Nachsanden Kst.Rasen 2kg                                                                                     m²
+            Im Mittel 2 kg/m2.
+
+59.47 20B   Nachsanden Kst.Rasen                                                                                         m³
+            Verrechnet je m3 nach Bedarf.
+
+59.47 21    Sandgefüllten Kunststoffrasen (SKR) instandsetzen und zwar: Lockern des Belages mit Spezialfräse, Absaugen
+            der Verunreinigungen, Nachsanden nach Bedarf. Das Ausbessern (Austauschen) von schadhaften Teilen wird
+            nach eigenen Positionen gesondert vergütet.
+
+59.47 21A   SKR Instandsetzen                                                                                            m²
+59.47 22    Vollkunststoffrasen (VKR) instandsetzen, reinigen mit Nassreinigungsgeräten mit Aufsaugvorrichtung, das
+            Ausbessern (Austauschen) von schadhaften Teilen wird nach eigenen Positionen gesondert vergütet.
+
+59.47 22A   VKR Instandsetzen                                                                                            m²
+59.50       Wasserinstallationen
+
+
+                                                                                                                   Seite 20 / 42
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Die Verlegung der Rohre erfolgt in vorhandenen Gräben. Der Schutz der Rohre durch Einsanden wird gesondert
+            vergütet.
+59.50 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+59.50 00C   Wählbare Vorbemerkungen ULG 59.50
+            ____________
+
+59.50 01    Kunststoffdruckrohr aus Polyethylen hoher Dichte (PE-hart) für Steck- und Klemmverbindung nach ÖNORM B
+            5172, geeignet für einen Nenndruck bis 10 bar, einschließlich Verschnitt, angegeben sind Außendurchmesser x
+            Wanddicke in mm und der Nenndruck (PN) in bar.
+
+59.50 01A   Rohr PE-hart 20x2 PN10                                                                                       m
+
+59.50 01B   Rohr PE-hart 25x2,3 PN10                                                                                     m
+
+59.50 01C   Rohr PE-hart 32x3 PN10                                                                                       m
+
+59.50 01D   Rohr PE-hart 40x3,7 PN10                                                                                     m
+
+59.50 01E   Rohr PE-hart 50x4,6 PN10                                                                                     m
+
+59.50 01F   Rohr PE-hart 63x5,8 PN10                                                                                     m
+
+59.50 01G   Rohr PE-hart 75x6,9 PN10                                                                                     m
+            ____________
+
+59.50 01H   Rohr PE-hart PN10__________                                                                                  m
+            ____________
+
+59.50 02    Verbindungsstück aus Kunststoff für Kunststoff auf Kunststoff (Kst x Kst), angegeben ist der Außendurchmesser
+            in mm.
+
+59.50 02A   Verbindung Kst x Kst 20                                                                                      Stk
+
+59.50 02B   Verbindung Kst x Kst 25                                                                                      Stk
+
+59.50 02C   Verbindung Kst x Kst 32                                                                                      Stk
+
+59.50 02D   Verbindung Kst x Kst 40                                                                                      Stk
+
+59.50 02E   Verbindung Kst x Kst 50                                                                                      Stk
+
+59.50 02F   Verbindung Kst x Kst 63                                                                                     Stk
+
+59.50 02G   Verbindung Kst x Kst 75                                                                                     Stk
+
+59.50 02H   Verbindung Kst x Kst                                                                                        Stk
+            ____________
+
+59.50 03    Verbindungsstück (Übergangsstück) aus Kunststoff für Kunststoff auf Eisen (Kst x E). Im Positionsstichwort
+            angegeben ist der Außendurchmesser in mm.
+
+59.50 03A   Übergang Kst x E 20                                                                                          Stk
+
+59.50 03B   Übergang Kst x E 25                                                                                          Stk
+
+59.50 03C   Übergang Kst x E 32                                                                                          Stk
+
+59.50 03D   Übergang Kst x E 40                                                                                          Stk
+
+59.50 03E   Übergang Kst x E 50                                                                                          Stk
+
+59.50 03F   Übergang Kst x E 63                                                                                          Stk
+
+59.50 03G   Übergang Kst x E 75                                                                                          Stk
+
+                                                                                                                   Seite 21 / 42
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+59.50 03H   Übergang Kst x E                                                                                               Stk
+            ____________
+
+59.50 04    Verbindungsstück aus Kunststoff reduziert für Kunststoff auf Kunststoff (Kst x Kst). Im Positionsstichwort
+            angegeben sind die Außendurchmesser in mm.
+
+59.50 04A   Reduktion Kst x Kst 25x20                                                                                      Stk
+
+59.50 04B   Reduktion Kst x Kst 32x25                                                                                      Stk
+
+59.50 04C   Reduktion Kst x Kst 40x32                                                                                      Stk
+
+59.50 04D   Reduktion Kst x Kst 50x40                                                                                      Stk
+
+59.50 04E   Reduktion Kst x Kst 63x50                                                                                      Stk
+
+59.50 04F   Reduktion Kst x Kst                                                                                            Stk
+            ____________
+
+59.50 05    T-Verbindungsstück aus Kunststoff, Abzweigung gleich oder reduziert, für Kunststoff x Kunststoff x Kunststoff
+            oder Kunststoff x Eisen x Kunststoff. Im Positionsstichwort angegeben ist der Außendurchmesser in mm.
+
+59.50 05A   T-Verbindungsstück 20                                                                                          Stk
+
+59.50 05B   T-Verbindungsstück 25                                                                                          Stk
+
+59.50 05C   T-Verbindungsstück 32                                                                                          Stk
+
+59.50 05D   T-Verbindungsstück 40                                                                                          Stk
+
+59.50 05E   T-Verbindungsstück 50                                                                                          Stk
+
+59.50 05F   T-Verbindungsstück 63                                                                                          Stk
+
+59.50 05G   T-Verbindungsstück                                                                                             Stk
+            ____________
+
+59.50 06    Anbohrschellen für Kunststoffrohre (PE-hart) mit Anbohren des Rohres ohne Unterschied des Durchmessers. Im
+            Positionsstichwort angegeben ist der Außendurchmesser des Rohres in mm.
+
+59.50 06A   Anbohrschelle 25                                                                                               Stk
+
+59.50 06B   Anbohrschelle 32                                                                                               Stk
+
+59.50 06C   Anbohrschelle 40                                                                                               Stk
+
+59.50 06D   Anbohrschelle 50                                                                                               Stk
+
+59.50 06E   Anbohrschelle 63                                                                                               Stk
+
+59.50 06F   Anbohrschelle 75                                                                                              Stk
+
+59.50 06G   Anbohrschelle                                                                                                 Stk
+            ____________
+
+59.50 21    Mittelschweres Gewinderohr geschweißt, verzinkt nach ÖNORM M 5611, einschließlich Verschnitt, Form- und
+            Verbindungsstücke. Im Positionsstichwort angegeben ist die Nennweite (DN) in mm.
+
+59.50 21A   Gew.Rohr geschw.verz.DN15                                                                                      m
+
+59.50 21B   Gew.Rohr geschw.verz.DN20                                                                                      m
+
+59.50 21C   Gew.Rohr geschw.verz.DN25                                                                                      m
+
+59.50 21D   Gew.Rohr geschw.verz.DN32                                                                                      m
+
+59.50 21E   Gew.Rohr geschw.verz.DN40                                                                                      m
+                                                                                                                     Seite 22 / 42
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+59.50 21F   Gew.Rohr geschw.verz.DN50                                                                                   m
+
+59.50 21G   Gew.Rohr geschw.verz.DN65                                                                                   m
+
+59.50 21H   Gew.Rohr geschw.verz.                                                                                       m
+            ____________
+
+59.50 22    Mittelschweres Gewinderohr nahtlos verzinkt nach ÖNORM M 5611, einschließlich Verschnitt, Form- und
+            Verbindungsstücken. Im Positionsstichwort angegeben ist die Nennweite (DN) in mm.
+
+59.50 22A   Gew.Rohr nahtl.verz.DN15                                                                                    m
+
+59.50 22B   Gew.Rohr nahtl.verz.DN20                                                                                    m
+
+59.50 22C   Gew.Rohr nahtl.verz.DN25                                                                                    m
+
+59.50 22D   Gew.Rohr nahtl.verz.DN32                                                                                    m
+
+59.50 22E   Gew.Rohr nahtl.verz.DN40                                                                                    m
+
+59.50 22F   Gew.Rohr nahtl.verz.DN50                                                                                    m
+
+59.50 22G   Gew.Rohr nahtl.verz.DN65                                                                                    m
+
+59.50 22H   Gew.Rohr nahtl.verz.                                                                                        m
+            ____________
+
+59.50 23    Verschraubung (Holländer) verzinkt mit Dichtung, Figur Nr. 330 oder 331. Im Positionsstichwort angegeben ist
+            die Nennweite (DN) in mm.
+
+59.50 23A   Verschraubung verz.DN15                                                                                     Stk
+
+59.50 23B   Verschraubung verz.DN20                                                                                     Stk
+
+59.50 23C   Verschraubung verz.DN25                                                                                     Stk
+
+59.50 23D   Verschraubung verz.DN32                                                                                     Stk
+
+59.50 23E   Verschraubung verz.DN40                                                                                     Stk
+
+59.50 23F   Verschraubung verz.DN50                                                                                     Stk
+
+59.50 23G   Verschraubung verz.DN65                                                                                     Stk
+
+59.50 23H   Verschraubung verz.                                                                                         Stk
+            ____________
+
+59.50 24    Übergangsflansch, rostgeschützt (epoxidbeschichtet) Nenndruck 10 bar einschließlich verzinkten Schrauben
+            und Dichtungen. Im Positionsstichwort angegeben ist die Nennweite (DN) in mm.
+
+59.50 24A   Übergangsflansch DN50                                                                                       Stk
+
+59.50 24B   Übergangsflansch DN65                                                                                       Stk
+
+59.50 24C   Übergangsflansch                                                                                            Stk
+            ____________
+
+59.50 25    Gewindeflanschen mit Ansatz, verzinkt, Nenndruck 10 bar, mit verzinkten Schrauben und Dichtungen. Im
+            Positionsstichwort angegeben ist die Nennweite (DN) in mm.
+
+59.50 25A   Gewindeflansch DN50                                                                                         Stk
+
+59.50 25B   Gewindeflansch DN65                                                                                         Stk
+
+59.50 25C   Gewindeflansch                                                                                              Stk
+            ____________
+
+
+                                                                                                                  Seite 23 / 42
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+59.50 41    Schrägsitzventil aus Messing, beiderseits mit Innengewinde und verzinktem Handrad. Im Positionsstichwort
+            angegeben ist die Nennweite (DN) in mm.
+
+59.50 41A   Schrägs.Ventil Mess.DN15                                                                                    Stk
+
+59.50 41B   Schrägs.Ventil Mess.DN20                                                                                    Stk
+
+59.50 41C   Schrägs.Ventil Mess.DN25                                                                                    Stk
+
+59.50 41D   Schrägs.Ventil Mess.DN32                                                                                    Stk
+
+59.50 41E   Schrägs.Ventil Mess.DN40                                                                                    Stk
+
+59.50 41F   Schrägs.Ventil Mess.DN50                                                                                   Stk
+
+59.50 41G   Schrägs.Ventil Mess.DN65                                                                                   Stk
+
+59.50 41H   Schrägs.Ventil Mess.__________                                                                             Stk
+59.50 42    Aufzahlung (Az) auf die Positionen Schrägsitzventil für ein Entleerungsventil.
+
+59.50 42A   Az Schrägs.Ventil, Entl.                                                                                    Stk
+59.50 43    Durchlaufventil aus Messing mit verzinktem Handrad und Dichtungen. Im Positionsstichwort angegeben ist die
+            Nennweite (DN) in mm.
+
+59.50 43A   Durchlaufventil DN15                                                                                        Stk
+
+59.50 43B   Durchlaufventil DN20                                                                                        Stk
+
+59.50 43C   Durchlaufventil DN25                                                                                        Stk
+
+59.50 43D   Durchlaufventil DN32                                                                                        Stk
+
+59.50 43E   Durchlaufventil DN40                                                                                        Stk
+
+59.50 43F   Durchlaufventil DN50                                                                                       Stk
+59.50 44    Kugelhahn aus Messing vernickelt mit reduziertem Durchgang, einschließlich Entleerungsventil. Im
+            Positionsstichwort angegeben ist die größere Nennweite (DN) in mm.
+
+59.50 44A   Kugelhahn Mess.red.DN15                                                                                     Stk
+
+59.50 44B   Kugelhahn Mess.red.DN20                                                                                     Stk
+
+59.50 44C   Kugelhahn Mess.red.DN25                                                                                     Stk
+
+59.50 44D   Kugelhahn Mess.red.DN32                                                                                     Stk
+
+59.50 44E   Kugelhahn Mess.red.DN40                                                                                     Stk
+
+59.50 44F   Kugelhahn Mess.red.DN50                                                                                    Stk
+59.50 45    Kugelhahn aus Grauguss für ND 16 mit verzinkten Gewindeflanschen, Schrauben und Dichtungen, mit
+            reduziertem Durchgang. Im Positionsstichwort angegeben ist die größere Nennweite (DN) in mm.
+
+59.50 45A   Kugelhahn Grauguss red.DN50                                                                                 Stk
+
+59.50 45B   Kugelhahn Grauguss red.DN65                                                                                 Stk
+
+59.50 45C   Kugelhahn Grauguss red.__________                                                                           Stk
+59.50 46    Druckreduzierventile aus Messing mit Schmutzfänger, Holländerverschraubung und Manometer. Im
+            Positionsstichwort angegeben ist die Nennweite (DN) in mm.
+
+59.50 46A   Druckreduzierventil Mess.DN20                                                                               Stk
+
+59.50 46B   Druckreduzierventil Mess.DN25                                                                               Stk
+
+59.50 46C   Druckreduzierventil Mess.DN32                                                                               Stk
+                                                                                                                  Seite 24 / 42
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+59.50 46D   Druckreduzierventil Mess.DN40                                                                                 Stk
+
+59.50 46E   Druckreduzierventil Mess.DN50                                                                                 Stk
+59.50 47    Schmutzfänger aus Messing für ND 10 mit nicht rostendem Siebeinsatz, einschließlich verzinktem
+            Gewindeanschluss, Dichtungen und Schrauben. Im Positionsstichwort angegeben ist die Nennweite (DN) in
+            mm.
+
+59.50 47A   Schmutzfänger Mess.DN15                                                                                       Stk
+
+59.50 47B   Schmutzfänger Mess.DN20                                                                                       Stk
+
+59.50 47C   Schmutzfänger Mess.DN25                                                                                       Stk
+
+59.50 47D   Schmutzfänger Mess.DN32                                                                                       Stk
+
+59.50 47E   Schmutzfänger Mess.DN40                                                                                       Stk
+
+59.50 47F   Schmutzfänger Mess.DN50                                                                                       Stk
+
+59.50 47G   Schmutzfänger Mess.DN65                                                                                       Stk
+59.50 48    Gartenventil aus Messing mit Außengewinde und Schlauchverschraubung. Figur Nr. 503 oder 522. Im
+            Positionsstichwort angegeben ist die Nennweite (DN) in mm.
+
+59.50 48A   Gartenventil Mess.DN15                                                                                        Stk
+
+59.50 48B   Gartenventil Mess.DN20                                                                                        Stk
+
+59.50 48C   Gartenventil Mess.DN25                                                                                        Stk
+59.50 49    Auslaufventile aus Messing matt verchromt Figur Nr. 3. Im Positionsstichwort angegeben ist die Nennweite (DN)
+            in mm.
+
+59.50 49A   Auslaufventil Mess.verch.DN15                                                                                 Stk
+
+59.50 49B   Auslaufventil Mess.verch.DN20                                                                                 Stk
+59.50 50    Schachtdeckel rund aus Gusseisen, einschließlich Rahmen, versperrbar, leichte Ausführung und einem
+            Auflagekranz aus Beton oder Ziegelmauerwerk ca. 25 cm hoch. Im Positionsstichwort angegeben ist der lichte
+            Durchmesser in mm.
+
+59.50 50A   Schachtdeckel Guss 300                                                                                        Stk
+
+59.50 50B   Schachtdeckel Guss                                                                                            Stk
+            ____________
+
+59.50 51    Rohrisolierung als Korrosionsschutz (Korr.) mit Kunststoffbinden. Im Positionsstichwort angegeben ist die
+            Nennweite des Rohres (DN) in mm.
+
+59.50 51A   Rohrisolierung Korr.DN15                                                                                      m
+
+59.50 51B   Rohrisolierung Korr.DN20                                                                                      m
+
+59.50 51C   Rohrisolierung Korr.DN25                                                                                      m
+
+59.50 51D   Rohrisolierung Korr.DN32                                                                                      m
+
+59.50 51E   Rohrisolierung Korr.DN40                                                                                      m
+
+59.50 51F   Rohrisolierung Korr.DN50                                                                                     m
+
+59.50 51G   Rohrisolierung Korr.DN65                                                                                     m
+
+59.50 51H   Rohrisolierung Korr.__________                                                                               m
+59.50 52    Warnband aus verrottungsbeständigem Kunststoff Achtung Wasserleitung.
+
+59.50 52A   Warnband                                                                                                      m
+
+                                                                                                                    Seite 25 / 42
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+59.51       Beregnungsanlagen
+59.51 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+59.51 00C   Wählbare Vorbemerkungen ULG 59.51
+            ____________
+
+59.51 01    Automatische Steuergeräte mit Tagesprogramm, für mindestens sieben Tage programmierbar,
+            Beregnungsdauer bis 60 Minuten stufenlos verstellbar, jeder Beregnungskreis (Sektion) getrennt steuerbar,
+            umstellbar auf halbautomatischen oder händischen Betrieb mit hydraulischer Steuerung, einschließlich
+            Transformator. Im Positionsstichwort angegeben ist die Zahl der anzuschließenden Beregnungskreise
+            (Sektionen).
+
+59.51 01A   Steuergerät hydr.b.5 Sekt.                                                                                    Stk
+
+59.51 01B   Steuergerät hydr.b.8 Sekt.                                                                                    Stk
+
+59.51 01C   Steuergerät hydr.b.12 Sekt.                                                                                   Stk
+
+59.51 01D   Steuergerät hydr.b.20 Sekt.                                                                                   Stk
+
+59.51 01E   Steuergerät hydr.__________                                                                                   Stk
+59.51 02    Steuerventile für hydraulische Steuerung einschließlich Anschluss an die PE-Steuerleitung. Im
+            Positionsstichwort angegeben ist die Nennweite in mm.
+
+59.51 02A   Steuerventil hydr.20                                                                                          Stk
+
+59.51 02B   Steuerventil hydr.25                                                                                          Stk
+
+59.51 02C   Steuerventil hydr.32                                                                                          Stk
+
+59.51 02D   Steuerventil hydr.40                                                                                          Stk
+
+59.51 02E   Steuerventil hydr.__________                                                                                  Stk
+59.51 03    Kunststoffleitung aus Polyethylen (PE) zur Steuerung, für einen Nenndruck von 10 bar, einschließlich Verschnitt.
+            Im Positionsstichwort angegeben sind Außendurchmesser x Wanddicke in mm.
+
+59.51 03A   PE-Rohr 10x2                                                                                                  m
+
+59.51 03B   PE-Rohr__________                                                                                             m
+59.51 04    Automatische Steuergeräte mit Tagesprogramm für mindestens sieben Tage programmierbar,
+            Beregnungsdauer bis 60 Minuten stufenlos verstellbar, jeder Beregnungskreis (Sektion) getrennt steuerbar,
+            umstellbar auf halbautomatischen oder händischen Betrieb, mit elektrischer Steuerung, einschließlich
+            Transformator. Im Positionsstichwort angegeben ist die Zahl der anzuschließenden Beregnungskreise
+            (Sektionen).
+
+59.51 04A   Steuerger.elektr.b.5 Sekt.                                                                                    Stk
+
+59.51 04B   Steuerger.elektr.b.8 Sekt.                                                                                    Stk
+
+59.51 04C   Steuerger.elektr.b.12 Sekt.                                                                                   Stk
+
+59.51 04D   Steuerger.elektr.b.20 Sekt.                                                                                   Stk
+
+59.51 04E   Steuergerät elektr.__________                                                                                 Stk
+59.51 05    Steuerventil mit Absperrung, elektrische Ausführung 24 Volt. Im Positionsstichwort angegeben ist die Nennweite
+            in mm.
+
+59.51 05A   Steuerventil elektr.20                                                                                        Stk
+
+59.51 05B   Steuerventil elektr.25                                                                                        Stk
+
+59.51 05C   Steuerventil elektr.32                                                                                        Stk
+
+59.51 05D   Steuerventil elektr.40                                                                                        Stk
+                                                                                                                    Seite 26 / 42
+                                                                                               ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+59.51 05E   Steuerventil elektr.__________                                                                               Stk
+59.51 06    Magnetventile in Bronzeausführung mit Holländerverschraubung, elektrische Ausführung 24 Volt. Im
+            Positionsstichwort angegeben ist die Nennweite in mm.
+
+59.51 06A   Magnetventil 20                                                                                              Stk
+
+59.51 06B   Magnetventil 25                                                                                              Stk
+
+59.51 06C   Magnetventil 32                                                                                              Stk
+
+59.51 06D   Magnetventil 40                                                                                              Stk
+
+59.51 06E   Magnetventil 50                                                                                              Stk
+59.51 07    Magnetventil.
+
+59.51 07A   Magnetventil__________                                                                                       Stk
+59.51 08    Feuchtefühler für die automatische Steuerung von Steuergeräten.
+
+59.51 08A   Feuchtefühler                                                                                                Stk
+59.51 09    Entleerungsventil für automatische Entleerung der Rohrleitung, schließend bei 0,3 bar. Nennweite 15 mm.
+
+59.51 09A   Entleerungsventil 15                                                                                         Stk
+59.51 10    Ventilkasten aus Kunststoff für Ventile mit abschließbarem Deckel, Größe ca. 40 x 50 cm, Tiefe ca. 30 cm.
+
+59.51 10A   Ventilkasten Kst.                                                                                            Stk
+59.51 11    Verteiler bestehend aus:
+
+59.51 11A   Verteiler                                                                                                    Stk
+59.51 12    Filter, angegeben ist die Nennweite (DN) in mm.
+
+59.51 12A   Filter 20mm                                                                                                  Stk
+
+59.51 12B   Filter 25mm                                                                                                  Stk
+
+59.51 12C   Filter 32mm                                                                                                  Stk
+
+59.51 12D   Filter__________                                                                                             Stk
+59.51 21    Sprühdüse Wurfweite bis 4 m und Wassermenge einstellbar, für einen Wasserdruck von 1,5 bar, einschließlich
+            Filter und Anschlussverbindung für Vollkreis- oder Teilkreisberegnung.
+
+59.51 21A   Sprühdüse Kst.                                                                                               Stk
+            Sprühdüse aus Kunststoff.
+
+59.51 21B   Sprühdüse                                                                                                    Stk
+            Sprühdüse aus ____________
+
+59.51 22    Versenksprühregner Wurfweite bis 4 m und Wassermenge einstellbar, für einen Wasserdruck bis 2 bar,
+            Innendurchmesser 15 mm, für Vollkreis- oder Teilkreisberegnung.
+
+59.51 22A   Versenksprühregner b.4m                                                                                      Stk
+59.51 23    Versenkregner als Kreis- und Wenderegner, mit unfallsicherem Deckel, Oberfläche der angrenzenden
+            Sportfläche angepasst, einschließlich Anschlussnippel. Im Positionsstichwort angegeben sind Vollkreis (VK)-
+            oder Teilkreisregner stufenlos einstellbar (TK) die größte Wurfweite in m und der ungefähre Betriebsdruck in
+            bar.
+
+59.51 23A   Versenkregner VK 11m 2,5bar                                                                                  Stk
+
+59.51 23B   Versenkregner TK 11m 2,5bar                                                                                  Stk
+
+59.51 23C   Versenkregner VK 14m 3,5bar                                                                                  Stk
+
+59.51 23D   Versenkregner TK 14m 3,5bar                                                                                  Stk
+                                                                                                                   Seite 27 / 42
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                  gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                     EH
+
+59.51 23E   Versenkregner VK 17m 3,5bar                                                                                    Stk
+
+59.51 23F   Versenkregner TK 17m 3,5bar                                                                                    Stk
+
+59.51 23G   Versenkregner VK 20m 5bar                                                                                      Stk
+
+59.51 23H   Versenkregner TK 20m 5bar                                                                                      Stk
+
+59.51 23K   Versenkregner VK 25m 5bar                                                                                      Stk
+
+59.51 23L   Versenkregner TK 25m 5bar                                                                                      Stk
+
+59.51 23M   Versenkregner VK 30m 5bar                                                                                     Stk
+
+59.51 23N   Versenkregner TK 30m 5bar                                                                                     Stk
+
+59.51 23O   Versenkregner__________                                                                                       Stk
+59.51 24    Aufzahlung (Az) auf die Positionen Versenkregner für eingebautes Steuerventil ohne Unterschied der Größe des
+            Regners.
+
+59.51 24A   Az Steuerventil eingebaut                                                                                      Stk
+59.51 25    Aufzahlung (Az) auf die Positionen Versenkregner für elastischen Einbau der Regner durch ein
+            Verbindungsstück aus verzinktem Rohr oder Kunststoffrohr mit Bogen und Winkelverschraubung ohne
+            Unterschied des Anschlussdurchmessers.
+
+59.51 25A   Az Einbau elastisch                                                                                            Stk
+59.51 41    Kunststoffrohr aus Polyethylen (PE) für Tropfberegnung, flexibel, frostbeständig, UV-beständig, bis 4 bar. Im
+            Positionsstichwort angegeben sind Außendurchmesser x Wanddicke in mm.
+
+59.51 41A   PE-Rohr Tropfberegnung 16x1,2                                                                                  m
+            Wanddicke mindestens 1,2 mm.
+
+59.51 41B   PE-Rohr Tropfberegnung 20x1,5                                                                                  m
+            Wanddicke mindestens 1,5 mm.
+
+59.51 42    Tropfer aus Kunststoff für zwei oder vier Liter Wasserabgabe je Stunde, einschließlich Lochbohrung.
+
+59.51 42A   Tropfer aus Kunststoff                                                                                         Stk
+59.51 43    Anschlussstücke für Tropferrohre, einschließlich Rohrbinder und Anschlussgewinde 20 mm Innendurchmesser.
+
+59.51 43A   Anschluss f.Tropferrohr                                                                                        Stk
+59.51 44    T-Anschluss für Tropferrohr aus Kunststoff für Außendurchmesser 16 oder 20 mm.
+
+59.51 44A   T-Anschluss f.Tropferrohr                                                                                      Stk
+59.51 45    Endkappe für Tropferrohr aus Kunststoff für Außendurchmesser 16 oder 20 mm.
+
+59.51 45A   Endkappe                                                                                                       Stk
+59.51 51    Schlauchkupplungen aus Messing, steckbar für Gartenventile. Im Positionsstichwort angegeben ist die
+            Nennweite in mm.
+
+59.51 51A   Schlauchkupplung 15                                                                                            Stk
+
+59.51 51B   Schlauchkupplung 20                                                                                            Stk
+59.51 52    Gartenschlauch aus Kunststoff Nenndruck 8 bar, beidseitig eingebunden mit Schlauchklemmen in nicht
+            rostender Ausführung. Im Positionsstichwort angegeben ist die Nennweite in mm.
+
+59.51 52A   Gartenschlauch Kst.15                                                                                          m
+
+59.51 52B   Gartenschlauch Kst.20                                                                                          m
+
+59.51 52C   Gartenschlauch Kst.25                                                                                          m
+
+
+                                                                                                                     Seite 28 / 42
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                          gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                             EH
+
+59.51 53    Gartenschlauch aus PVC-Gewebe Betriebsdruck 12 bar, beidseitig eingebunden mit Schlauchklemmen in nicht
+            rostender Ausführung. Im Positionsstichwort angegeben ist die Nennweite in mm.
+
+59.51 53A   Gartenschlauch PVC-Gewebe 15                                                                                           m
+
+59.51 53B   Gartenschlauch PVC-Gewebe 20                                                                                           m
+
+59.51 53C   Gartenschlauch PVC-Gewebe 25                                                                                           m
+59.51 54    Strahlrohr und Tülle, schwere Ausführung. Im Positionsstichwort angegeben ist die Nennweite in mm.
+
+59.51 54A   Strahlrohr 15                                                                                                          Stk
+
+59.51 54B   Strahlrohr 20                                                                                                          Stk
+
+59.51 54C   Strahlrohr 25                                                                                                          Stk
+59.52       Elektroinstallationen
+            Verlegung Rohre und Kabel:
+            Rohre und Kabel in vorhandenem Graben verlegen. Der Schutz der verlegten Rohre und Kabel durch
+            Einsanden und Abdecken wird gesondert vergütet.
+            Abrechnungsregelungen:
+            Kabelschutzrohre werden in tatsächlich verlegter Länge in der Mittelachse abgerechnet. Soferne Bögen
+            vorhanden sind werden diese übermessen. Richtungsänderungen mit fabriksmäßig hergestellten Formstücken
+            werden mit Aufzahlungen gesondert vergütet. Bei flexiblen Kabelschutzrohren werden keine Aufzahlungen für
+            Richtungsänderungen geleistet.
+             Kommentar:
+             Erforderliche Kabelverlegungen und sonstige Elektroinstallationen sind der Standardisierten Leistungsbeschreibung für
+             Elektrotechnik zu entnehmen.
+
+59.52 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+59.52 00C   Wählbare Vorbemerkungen ULG 59.52
+            ____________
+
+59.52 01    Kabelschutzrohr MS-SB, schwarz (sw) PVC hart, starr für mittelschwere mechanische Beanspruchung. Im
+            Positionsstichwort angegeben ist die Nennweite (DN) in mm.
+
+59.52 01A   KS-Rohr MS-SB DN50 sw                                                                                                  m
+
+59.52 01B   KS-Rohr MS-SB DN63 sw                                                                                                  m
+
+59.52 01C   KS-Rohr MS-SB DN75 sw                                                                                                  m
+
+59.52 01D   KS-Rohr MS-SB DN90 sw                                                                                                  m
+
+59.52 01E   KS-Rohr MS-SB DN110 sw                                                                                                 m
+
+59.52 01F   KS-Rohr MS-SB DN125 sw                                                                                                 m
+
+59.52 01G   KS-Rohr MS-SB DN140 sw                                                                                                 m
+
+59.52 01H   KS-Rohr MS-SB DN160 sw                                                                                                 m
+59.52 02    Aufzahlung (Az) auf die Position Kabelschutzrohr für Richtungsänderung mit fabriksmäßig hergestellten
+            Formstücken.
+
+59.52 02A   Az Richtungsänderung DN50                                                                                              Stk
+
+59.52 02B   Az Richtungsänderung DN63                                                                                              Stk
+
+59.52 02C   Az Richtungsänderung DN75                                                                                              Stk
+
+59.52 02D   Az Richtungsänderung DN90                                                                                              Stk
+
+59.52 02E   Az Richtungsänderung DN110                                                                                             Stk
+                                                                                                                             Seite 29 / 42
+                                                                                                        ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+59.52 02F   Az Richtungsänderung DN125                                                                                  Stk
+
+59.52 02G   Az Richtungsänderung DN140                                                                                  Stk
+
+59.52 02H   Az Richtungsänderung DN160                                                                                  Stk
+59.52 03    Kabelschutzrohr MS-SB, schwarz (sw) PVC hart, flexibel (flex.) für mittelschwere mechanische Beanspruchung.
+            Im Positionsstichwort angegeben ist die Nennweite (DN) in mm.
+
+59.52 03A   KS-Rohr MS-SB DN50 sw flex.                                                                                 m
+
+59.52 03B   KS-Rohr MS-SB DN65 sw flex.                                                                                 m
+
+59.52 03C   KS-Rohr MS-SB DN80 sw flex.                                                                                 m
+
+59.52 03D   KS-Rohr MS-SB DN100 sw flex.                                                                                m
+
+59.52 03E   KS-Rohr MS-SB DN125 sw flex.                                                                                m
+
+59.52 03F   KS-Rohr MS-SB DN160 sw flex.                                                                                m
+
+59.52 03G   KS-Rohr MS-SB DN200 sw flex.                                                                                m
+59.60       Weit- und Dreisprunganlagen
+59.60 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+59.60 00C   Sprung- und Wurfanlagen
+59.60 01    Weit- und Dreisprunganlagen:
+            Aushub der Grube 40 bis 50 cm tief und eines Sickerschachtes 80 x 80 x 100 cm, das Aushubmaterial geht mit
+            dem ersten Laden in das Eigentum des Auftragnehmers über und ist von der Baustelle zu entfernen. Auffüllen
+            des Sickerschachtes mit gewaschenem Rundkies Körnung 16 bis 32 mm. Herstellen des Grundplanums mit 2
+            Prozent Gefälle zum Sickerschacht, Verdichten der Sohle, Aufbringen einer 5 cm dicken Schichte aus Kiessand
+            Körnung bis 32 mm und einer Lage Mauerziegel mit 1 cm Fugen in ein Sandbett verlegt, einschließlich Auffüllen
+            der Fugen mit Sand. Einfassung der Grube mit Sicherheitseinfassungssteinen Querschnitt 25 x 6 cm mit oberer
+            Gummiauflage, in Ortbetonfundament mit Rückenstütze, Festigkeitsklasse C16/20, Querschnitt des
+            Fundaments mindestens 0,1 m2. Die Grube mit gewaschenem Quarzsand Körnung 0,5 bis 2 mm bis Oberkante
+            Einfassung auffüllen.
+
+59.60 01A   Weitsprunggrube 9x2,75m                                                                                     Stk
+            Lichte Abmessungen 9 x 2,75 m.
+
+59.60 01B   Weitsprunggrube 8x2,75m                                                                                     Stk
+            Lichte Abmessungen 8 x 2,75 m.
+
+59.60 01C   Weitsprunggrube                                                                                             Stk
+            ____________
+
+59.60 02    Rahmen für Absprungbalken aus Aluminium oder feuerverzinktem Stahl nach Wahl des Auftragnehmers, mit
+            Ankerpratzen versetzen, einschließlich Erd- und Betonarbeiten.
+
+59.60 02A   Rahmen 122x34x10cm                                                                                          Stk
+            122 cm lang, 34 cm breit und 10 cm dick.
+
+59.60 02B   Rahmen 122x20x10cm                                                                                          Stk
+            122 cm lang, 20 cm breit und 10 cm dick.
+
+59.60 03    Absprungbalken 122 cm lang, 34 cm breit und 10 cm dick, mit auswechselbarem Einlagebrett und
+            Absprungbrett.
+
+59.60 03A   Absprungbalken Kst.122x34cm                                                                                 Stk
+            Aus Kunststoff (KST.).
+
+59.60 03B   Absprungbalken Holz 122x34cm                                                                                Stk
+
+                                                                                                                  Seite 30 / 42
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Aus verleimtem Hartholz, Ausführung weiß.
+
+59.60 03C   Absprungbalken 122x34cm                                                                                     Stk
+59.60 04    Absprungbalken, 122 cm lang, 20 cm breit und 10 cm dick.
+
+59.60 04A   Absprungbalken Kst.122x20cm                                                                                 Stk
+            Aus Kunststoff.
+
+59.60 04B   Absprungbalken Holz 122x20cm                                                                                Stk
+            Aus verleimtem Hartholz, Ausführung weiß.
+
+59.60 04C   Absprungbalken 122x20cm                                                                                     Stk
+            ____________
+
+59.60 05    Blindbalken aus Aluminium, höhenverstellbar, mit Kunststoffauflage der angrenzenden Laufbahn entsprechend,
+            122 cm lang, 34 cm breit, mit dem anschließenden Belag bündig abschließend.
+
+59.60 05A   Blindbalken 122x34cm                                                                                        Stk
+            ____________
+
+59.60 06    Einlagebrett für Plastilinauflage ca. 12 mm dick für einen Balken.
+
+59.60 06A   Einlagebrett m.Plastilin                                                                                    Stk
+            ____________
+
+59.60 06B   Einlagebrett ohne Plastilin                                                                                 Stk
+            ____________
+
+59.60 10    Sandfangrinne mit Glasfaserbetonunterteil, Streckmetallrost mit festverbundener Gummimatte an den
+            Endstücken mit Stirnwand, einschließlich vorgeformten Ablauf, 500 mm breit, 175 mm hoch. Einschließlich
+            erforderlicher Erd- und Betonarbeiten und Entsorgung des anfallenden Erdmaterials.
+
+59.60 10A   Sandfangrinne 500/175                                                                                       m
+            LB-Version: 23               Geringfügig Geändert
+
+59.61       Hoch- und Stabhochsprunganlagen
+59.61 01    Hochsprungständer ohne scharfe Kanten mit Schraubschieber für Latten- oder Schnurauflage mit massivem
+            T-förmigem Fuß, mit versenkter, gut ablesbarer cm-Skala (je Paar = 1 Stück).
+
+59.61 01A   Hochsprungständer Alu.2m                                                                                    Stk
+            Hochsprungständer mit Aluminiumsäule, 2 m hoch.
+
+59.61 01B   Hochsprungständer Alu.2,5m                                                                                  Stk
+            Hochsprungständer mit Aluminiumsäule, 2,5 m hoch, mit Wasserwaage.
+
+59.61 01C   Hochsprungständer                                                                                           Stk
+            ____________
+
+59.61 03    Hochsprungmatten aus Schaumstoff ohne FCKW, mehrteilig, mit mindestens 6 cm dicker, getrennter,
+            austauschbarer, spikefester Verschleißmatte, der Überzug aus Kunststoff, einschließlich verschweißter
+            Wetterschutzplane mit Verschnürung, Gesamtdicke 60 cm.
+
+59.61 03A   Hochsprungmatte massiv 5x3m                                                                                 Stk
+            Hochsprungmatte aus Massivschaumblocksystem, 5 x 3 m groß.
+
+59.61 03B   Hochsprungmatte massiv 6x3m                                                                                 Stk
+            Hochsprungmatte aus Massivschaumblocksystem, 6 x 3 m groß.
+
+59.61 03C   Hochsprungmatte Hohlk.5x3m                                                                                  Stk
+            Hochsprungmatte aus Hohlkammersystem, 5 x 3 m groß.
+
+59.61 03D   Hochsprungmatte Hohlk.6x3m                                                                                  Stk
+
+                                                                                                                  Seite 31 / 42
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Hochsprungmatte aus Hohlkammersystem, 6 x 3 m groß.
+
+59.61 03E   Hochsprungmatte                                                                                             Stk
+            ____________
+
+59.61 04    Sprunglatte für Hochsprunganlagen.
+
+59.61 04A   Sprunglatte Alu.4m                                                                                          Stk
+            Sprunglatte aus Aluminium als Dreikantlatte, 4 m lang.
+
+59.61 04B   Sprunglatte Glasfiber 4m                                                                                    Stk
+            Sprunglatte aus Glasfiber mit flacher Auflagefläche, 4 m lang. Farbe handelsüblich nach Wahl des
+            Auftraggebers.
+
+59.61 04C   Sprunglatte Glasfiber 4,5m                                                                                  Stk
+            Sprunglatte aus Glasfiber mit flacher Auflagefläche, 4,5 m lang. Farbe handelsüblich nach Wahl des
+            Auftraggebers.
+
+59.61 04D   Sprunglatte                                                                                                 Stk
+            ____________
+
+59.61 05    Stabhochsprungständer in Längsrichtung verschiebbar, Säulen aus Aluminiumhohlprofil mit Skala,
+            einschließlich Lattenausleger, bis 5,50 m verstellbar (je Paar = 1 Stück).
+
+59.61 05A   Stabhochsprungständer einfach                                                                               Stk
+            ____________
+
+59.61 06    Stabhochsprungständer mit Schienen und Rollen in Längsrichtung +/- 60 cm verstellbar. Säulen aus
+            Aluminiumhohlprofil, Ausleger mit Kurbel höhenverstellbar, mitlaufendes, nachstellbares Maßband in
+            Augenhöhe ablesbar (je Paar = 1 Stück).
+
+59.61 06A   Stabhochsprungständer Kurbel                                                                                Stk
+            ____________
+
+59.61 07    Fundamente für Stabhochsprungständer zur Längsverstellung der Ständer, aus Beton der Festigkeitsklasse
+            C12/15, mit einem 20 cm dicken Unterbeton, 1,50 m lang mit glatter Oberfläche auf einer 20 cm dicken
+            Sauberkeitsschichte aus Frostschutzmaterial Körnung bis 35 mm, einschließlich Versetzen von vier
+            Ankerschrauben und allen hiezu erforderlichen Nebenarbeiten (je Paar = 1 Stück).
+
+59.61 07A   Fundament f.Stabhoch.                                                                                       Stk
+59.61 08    Sprungmatte für Stabhochsprung mit Ausnehmung für den Einstichkasten, mit abgeschrägten Vorsatzblöcken,
+            ohne FCKW bestehend aus einer Unterwanne und einer Oberwanne aus Kunststoff mit eingearbeitetem,
+            spikefestem Gittergewebe, darunter eine auswechselbare Schleißmatte und die mehrteiligen Schaumstoffblöcke
+            mit Hohlkammern, ein rundum laufender witterungsbeständiger Verschluss der Ober- und Unterwanne,
+            einschließlich einer wetterfest verschweißten Regenschutzplane, Gesamtdicke 0,9 m.
+
+59.61 08A   Stabhochsprungmatte 5x5m                                                                                    Stk
+            5 x 5 m groß.
+
+59.61 08B   Stabhochsprungmatte 6x5m                                                                                    Stk
+            6 x 5 m groß.
+
+59.61 08C   Stabhochsprungmatte                                                                                         Stk
+            ____________
+
+59.61 09    Einstichkasten für Stabhochsprung für Freianlagen mit begeh- und befahrbarer Abdeckung, die Oberseite mit
+            Kunststoffauflage der Anlaufbahn entsprechend, mit Entwässerungsmöglichkeit. Einschließlich Erd- und
+            Betonarbeiten und Entsorgen des anfallenden Erdmaterials.
+
+59.61 09A   Einstichkasten verzinkt                                                                                     Stk
+            Einstichkasten aus feuerverzinktem Stahl.
+
+59.61 09B   Einstichkasten Alu                                                                                          Stk
+            Einstichkasten aus Aluminium.
+
+                                                                                                                  Seite 32 / 42
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+59.61 09C   Einstichkasten                                                                                              Stk
+            ____________
+
+59.61 10    Sprunglatte für Stabhochsprung aus glasfaserverstärktem Kunststoff (GFK) mit flacher Auflagerfläche 4,50 m
+            lang.
+
+59.61 10A   Sprunglatte Stabhoch GFK                                                                                    Stk
+59.61 11    Rost als Unterlage für Sprungmatten je nach Mattengröße, mehrteilig in witterungsbeständiger Ausführung 10
+            cm hoch.
+
+59.61 11A   Rost aus Holz                                                                                               m²
+            Rost aus Holz mit imprägniertem Lärchenholz.
+
+59.61 11B   Rost verzinkt                                                                                               m²
+            Rost aus Stahlrohrrahmen mit eingeschweißtem Baustahlgitter, feuerverzinkt.
+
+59.61 11C   Rost Alu                                                                                                    m²
+            Rost aus Aluminium.
+
+59.61 11D   Rost                                                                                                        m²
+            ____________
+
+59.62       Wassergraben
+59.62 01    Wassergraben für die Hindernisbahn: Gesamtlänge einschließlich Hindernis 3,66 m, lichte Breite 3,66 m, lichte
+            Tiefe beim Hindernis 0,70 m. Erforderlicher Erdaushub ab Niveau des Grundplanums von angrenzenden
+            Sportflächen. Das Aushubmaterial ist zu entsorgen. Sauberkeitsschichte 30 cm dick aus Frostschutzmaterial
+            Körnung bis 63 mm, Grundplatte 16 cm dick aus Beton Festigkeitsklasse C16/20, die Oberfläche fein verrieben,
+            bewehrt mit zwei Lagen Baustahlgitter AQ 34, die Seitenwände 20 cm dick und die Querwand 30 cm dick aus
+            Beton der Festigkeitsklasse C16/20, Schalung gemäß Klasse S2A, Bewehrung aus zwei Lagen Baustahlgitter
+            AQ 34 in Verbindung mit der Bewehrung der Grundplatte. Alle Betonteile durch Zusätze wasserundurchlässig
+            hergestellt. In der Querwand Versetzen von zwei vom Auftraggeber beigestellten Bodenhülsen mit Abdeckung
+            zum Einstecken der Hürde. Der Wassergraben ist mit einem verschließbaren Wasserabfluss zu versehen,
+            einschließlich Wassergrabenaufsatz aus Glasfaserbeton mit stufenförmig ausgebildeten Oberkanten aus
+            Weichgummi; 10 cm breit und 5/10 cm hoch.
+
+59.62 01A   Wassergraben Hindernisbahn                                                                                  Stk
+            Die Seiten- und Querwände können nach Wahl des Auftragnehmers auch aus Betonfertigteilen hergestellt
+            werden.
+59.62 02    Bodenmatte für den Wassergraben 3,66 m breit, mindestens 2,50 m lang und 3 cm dick aus weichem,
+            rutschfestem Material, einschließlich Befestigen, Kraftabbau der Bodenmatte: Bei Fallhöhe 22 mm und 55 mm
+            mindestens 50 Prozent und bei Fallhöhe 90 mm mindestens 45 Prozent.
+
+59.62 02A   Bodenmatte Kokos                                                                                            Stk
+            Aus Kokos.
+
+59.62 02B   Bodenmatte                                                                                                  Stk
+            ____________
+
+59.62 04    Abnehmbare Abdeckung des Wassergrabens, einschließlich Auflager oder Unterstützungen im Wassergraben.
+
+59.62 04A   Abdeckung Wassergraben Alu                                                                                  Stk
+            Aus Aluminiumprofilen.
+
+59.62 04B   Abdeckg.Wassergraben Alu m.KS                                                                               Stk
+            Aus Aluminiumprofilen mit Kunststoffauflage der angrenzenden Laufbahn entsprechend.
+
+59.62 04C   Abdeckung Wassergraben                                                                                      Stk
+            ____________
+
+59.62 08    Hindernislauf-Hürden, tragbar, aus massiv schwarzweiß lackierten Holzbalken, 12,7 x 12,7 cm mit zwei
+            Aluminiumrohrstützen.
+
+
+                                                                                                                  Seite 33 / 42
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+59.62 08A   Hindernislaufhürde                                                                                           Stk
+            ____________
+
+59.62 08B   Hindernislaufhürde Satz                                                                                      VE
+            Ein Satz Hindernislaufhürden (Verrechnungseinheit VE = 1 Satz = 4 ST Hürden).
+
+59.62 09    Hindernis-Hürde für den Hindernislauf, einsteckbar, massiver schwarzweiß lackierter Holzbalken 12,7 x 12,7 cm
+            mit zwei Aluminiumrohrstützen und Bodenhülsen einschließlich Abdeckung. Mit Kunststoffauflage der
+            angrenzenden Laufbahn entsprechend.
+
+59.62 09A   Hürde - Wassergraben                                                                                         Stk
+            ____________
+
+            LB-Version: 23              Geringfügig Geändert
+
+59.63       Wurfanlagen
+59.63 01    Kugelstoß-, Hammerwurf- oder Diskusabwurfflächen auf vorhandenem Grundplanum: Sauberkeitsschichte 20
+            cm dick aus Frostschutzmaterial Körnung bis 63 mm, Unterlagsbeton 10 cm dick aus Beton der
+            Festigkeitsklasse C16/20 bewehrt mit einer Lage Baustahlgitter AQ 34. Liefern und Versetzen eines Kreisringes
+            aus Aluminium T-Profil, sodann Aufbringen eines Verbundestriches aus Beton der Festigkeitsklasse C25/30
+            innerhalb des Kreisringes 2 cm dick und außerhalb des Kreisringes 4 cm dick, einschließlich Einlegen von 4
+            Stück Entwässerungsröhrchen bis zur Sauberkeitsschichte und etwa erforderlicher Randschalungen.
+
+59.63 01A   Kugelstoßfläche rund                                                                                         Stk
+            Kugelstoß- oder Hammerabwurffläche rund, Durchmesser 3,14 m mit Stoß- oder Wurfkreisdurchmesser 2,135
+            m.
+
+59.63 01B   Kugelstoßfläche quadratisch                                                                                  Stk
+            Kugelstoß- oder Hammerabwurffläche quadratisch, Seitenlänge 3,14 m Stoß- oder Wurfkreisdurchmesser 2,135
+            m.
+
+59.63 01C   Diskuswurffläche rund                                                                                        Stk
+            Diskusabwurffläche rund, Durchmesser 3,50 m mit Wurfkreisdurchmesser 2,50 m.
+
+59.63 01D   Diskuswurffläche quadratisch                                                                                 Stk
+            Diskusabwurffläche quadratisch, Seitenlänge 3,50 m mit Wurfkreisdurchmesser 2,50 m.
+
+59.63 02    Kugelstoß-, Hammerwurf- oder Diskusabwurfflächen auf vorhandenem Grundplanum herstellen und zwar:
+            Sauberkeitsschichte 30 cm dick aus Frostschutzmaterial Körnung bis 63 mm, Unterlagsbeton 10 cm dick aus
+            Beton der Festigkeitsklasse C16/20 bewehrt mit einer Lage Baustahlgitter AQ 34, sodann Aufbringen eines
+            Verbundestriches aus Beton der Festigkeitsklasse C25/30, 4 cm dick. Einschließlich etwa erforderlicher
+            Randschalungen und Dehnungsfugen.
+
+59.63 02A   Wurf-,Stoßflächen                                                                                            m²
+59.63 03    Aufzahlung (Az) auf die Position für Kugelstoß-, Hammerwurf- oder Diskusabwurfflächen für das Liefern und
+            Versetzen eines Kreisringes aus Aluminium T-Profil 70/6 mm, innerhalb des Kreisringes ist der Estrich nur 2 cm
+            dick, einschließlich Einlegen von 4 Stück Entwässerungsröhrchen bis zur Sauberkeitsschichte.
+
+59.63 03A   Az Kugelstoßfläche                                                                                           Stk
+            Aufzahlung für Kugelstoß- oder Hammerabwurffläche Durchmesser 2,135 m.
+
+59.63 03B   Az Diskuswurffläche                                                                                          Stk
+            Aufzahlung für Diskusabwurffläche Durchmesser 2,50 m.
+
+59.63 04    Aufzahlung (Az) auf die Kugelstoß-, Hammerwurf- und Diskusabwurfflächen für das Herstellen des
+            Betonestriches innerhalb des Kreisringes mit roter oder grüner Farbe nach Wahl des Auftraggebers.
+
+59.63 04A   Az Farbe Kugelstoßfläche                                                                                     Stk
+            Aufzahlung für Kugelstoß- oder Hammerwurfkreise.
+
+59.63 04B   Az Farbe Diskuswurffläche                                                                                    Stk
+            Aufzahlung für Diskuswurfkreise.
+
+
+
+                                                                                                                   Seite 34 / 42
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+59.63 05    Reduktionseinlage mehrteilig, aus glasfaserverstärktem Kunststoff (GFK). Zur Verwendung des
+            Diskuswurfkreises (2500 mm) als Kugelstoß- oder Hammerwurfkreis (2135 mm).
+
+59.63 05A   Reduktionseinlage GFK                                                                                        Stk
+59.63 06    Abstoßbalken für Kugelstoßen, Innenlänge 1,22 m, 11,4 cm dick und außen 8 cm hoch, einschließlich
+            Befestigung auf dem Boden.
+
+59.63 06A   Abstoßbalken Kugel Holz                                                                                      Stk
+            Abstoßbalken aus Holz, weiß lackiert.
+
+59.63 06B   Abstoßbalken Kugel GFK                                                                                       Stk
+            Abstoßbalken aus glasfaserverstärktem Kunststoff (GFK).
+
+59.63 07    Auffallfläche für Kugelstoßen auf vorhandenem Grundplanum: Sauberkeitsschichte 10 cm dick aus
+            Rundschotter Körnung bis 32 mm, Zwischenschichte 3 cm dick aus Kies Körnung 4 bis 8 mm oder Glasvlies
+            200 g/m2 um das Eindringen der Deckschichte in den Rundschotter zu verhindern und Deckschichte 10 cm dick
+            aus bindigem Sand Körnung bis 4 mm einbringen, abziehen, walzen und kehren.
+
+59.63 07A   Auffallfläche Kugel                                                                                          m²
+59.63 09    Abwurfbogen für Speerwurf aus Aluminium 70/6 mm groß, Radius 8 m, Sehnenlänge 4 m, liefern und versetzen.
+
+59.63 09A   Abwurfbogen Speer                                                                                            Stk
+59.63 10    Schutzgitter für den Diskuswurf aus quadratischen Aluminiumprofilen mit einem U-förmigen Grundriss
+            Innendurchmesser 7 m, Wurföffnung 6 m breit, Höhe 4,50 m bestehend aus 8 Stützen mit Bodenhülsen
+            einschließlich Abdeckung, Auslegern und Verbindungsrohren mit Schutznetz aus Kunststoffschnur 4 mm dick,
+            Maschenweite 50 mm, Höhe 4,50 m, einschließlich der erforderlichen Sandsäcke.
+
+59.63 10A   Schutzgitter Diskuswurf                                                                                      Stk
+59.63 11    Schutzgitter für den Hammerwurf aus quadratischen Aluminiumprofilen mit einem U-förmigen Grundriss,
+            Innendurchmesser 7 m, Wurföffnung 6 m breit mit zwei schwenkbaren Klappen je 2,50 m breit und 5,50 m hoch
+            bestehend aus 8 Stützen mit Bodenhülsen einschließlich Abdeckung, Auslegern und Verbindungsrohren mit
+            äußerem und inneren Schutznetz und Klappnetzen aus Kunststoffschnur 4 mm dick, Maschenweite 50 mm, das
+            Innennetz 5,50 m hoch und 21 m lang, das Außennetz 4,60 m hoch und 23,50 lang, die Klappnetze 5,50 m
+            hoch.
+
+59.63 11A   Schutzgitter Hammerwurf                                                                                      Stk
+59.70       Fußball, Handball
+59.70 01    Fußballtor 7,32 x 2,44 m groß, Torrahmen aus Aluminiumsicherheitsprofil 115 x 100 x 2,5 mm, natur eloxiert, mit
+            verschweißten Gehrungen, mit Netzauslegern, Netzhaken, Netzbalken und Netzbügeln, ohne Netz,
+            einschließlich Erd- und Betonarbeiten und Entsorgung des anfallenden Erdmaterials.
+            Verrechnungseinheit VE = 1 Paar.
+
+59.70 01A   Fußballtor fest 7,32x2,44m                                                                                   VE
+            Einschließlich hochklappbaren unteren Netzbügeln in Beton versetzen und eingießen.
+
+59.70 01B   Fußballtor steckb.7,32x2,44m                                                                                 VE
+            In steckbarer Ausführung, einschließlich korrosionsgeschützten Bodenhülsen mit Entwässerung und Deckeln.
+
+59.70 01C   Fußballtor 7,32x2,44m                                                                                        VE
+            ____________
+
+59.70 02    Netz aus grüner Polyethylenschnur (PE) für Fußballtor 7,32 x 2,44 m, Maschenweite, 13 cm,
+            Verrechnungseinheit VE = 1 Paar.
+
+59.70 02A   Fußballnetz PE-Schnur 3mm                                                                                    VE
+            Schnur 3 mm dick.
+
+59.70 02B   Fußballnetz PE-Schnur 4mm                                                                                    VE
+            Schnur 4 mm dick.
+
+
+
+
+                                                                                                                   Seite 35 / 42
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+59.70 03    Jugendfußballtor 5 x 2 m groß, Torrahmen aus Aluminiumsicherheitsprofil 115 x 100 x 2,5 m natur eloxiert, mit
+            Netzauslegern, Netzhaken, Netzbalken und Netzbügeln, ohne Netz, einschließlich Erd- und Betonarbeiten und
+            Entsorgung des anfallenden Erdmaterials.
+            Verrechnungseinheit VE = 1 Paar
+
+59.70 03A   Jugendtor fest 5x2m                                                                                          VE
+            Einschließlich hochklappbaren unteren Netzbügeln in Beton versetzen und eingießen.
+
+59.70 03B   Jugendtor steckbar 5x2m                                                                                      VE
+            In steckbarer Ausführung, einschließlich korrosionsgeschützter Bodenhülsen mit Entwässerung und Deckeln.
+
+59.70 03C   Jugendtor 5x2m                                                                                               VE
+            ____________
+
+59.70 04    Netz für Jugendfußballtor 5 x 2 m aus grüner Polyethylenschnur (PE), Maschenweite 10 cm,
+            Verrechnungseinheit VE = 1 Paar.
+
+59.70 04A   Jugendnetz PE-Schnur 3mm                                                                                     VE
+            Schnur 3 mm dick.
+
+59.70 04B   Jugendnetz PE-Schnur 4mm                                                                                     VE
+            Schnur 4 mm dick.
+
+59.70 05    Kleinfeldtor für Handball 3 x 2 m groß, Torrahmen aus Aluminiumprofil, 80 x 80 x 3 mm natur eloxiert, mit
+            Netzauslegern, Netzhaken, Netzbalken und Netzbügeln, einschließlich Erd- und Betonarbeiten und Entsorgung
+            des anfallenden Aushubmaterials.
+            Verrechnungseinheit VE = 1 Paar.
+
+59.70 05A   Kleinfeldtor fest 3x2m                                                                                       VE
+            Mit hochklappbaren unteren Netzbügeln, in Beton versetzen und eingießen.
+
+59.70 05B   Kleinfeldtor einsteckb.3x2m                                                                                  VE
+            In steckbarer Ausführung einschließlich korrosionsgeschützten Bodenhülsen mit Entwässerung und Deckeln.
+
+59.70 05C   Kleinfeldtor 3x2m                                                                                            VE
+            ____________
+
+59.70 06    Netz für Kleinfeldtor 3 x 2 m aus grüner Polyethylenschnur (PE), Maschenweite 10 cm, Verrechnungseinheit VE
+            = 1 Paar.
+
+59.70 06A   Kleinnetz PE-Schnur 3mm                                                                                      VE
+            Schnur 3 mm dick.
+
+59.70 06B   Kleinnetz PE-Schnur 4mm                                                                                      VE
+            Schnur 4 mm dick.
+
+59.70 07    Netze für Tore, Verrechnungseinheit VE = 1 Paar.
+
+59.70 07A   Netz 7,32x2,44m                                                                                              VE
+            Für Fußballtor 7,32 x 2,44 m.
+
+59.70 07B   Netz 5x2m                                                                                                    VE
+            Für Jugendfußballtor 5 x 2 m.
+
+59.70 07C   Netz 3x2m                                                                                                    VE
+            Für Kleinfeldtor 3 x 2 m.
+
+59.70 08    Bodenhülse für Eckfahne mit Deckel, einschließlich Versetzen.
+
+59.70 08A   Bodenhülse KS m.Deckel                                                                                       Stk
+            Aus Kunststoff.
+
+59.70 08B   Bodenhülse Alu m.Kasten                                                                                      Stk
+                                                                                                                   Seite 36 / 42
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+            Aus Aluminium mit seitlichem Kasten für den Deckel.
+
+59.70 08C   Bodenhülse m.Deckel                                                                                          Stk
+            ____________
+
+59.71       Volleyball
+            LB-Version: 23              Geringfügig Geändert
+59.71 01    Volleyballsäulen für Freianlagen, eine Säule mit Gewindenetzspannvorrichtung und abnehmbarer Kurbel, mit
+            stufenloser Netzhöhenverstellung, einschließlich innere Verstärkung, korrosionsgeschützten Bodenhülsen mit
+            Deckeln und Entwässerung, Erd- und Betonarbeiten und Entsorgung des anfallenden Aushubmaterials.
+            Verrechnungseinheit VE = 1 Paar.
+
+59.71 01A   Volleyballsäul.Alu 100x115x2,5                                                                               VE
+            Aus ovalem Aluminiumprofil 100 x 115 x 2,5 mm.
+
+            LB-Version: 23              Geringfügig Geändert
+
+59.71 01B   Volleyballsäulen Alu.80x80mm                                                                                 VE
+            Aus Aluminiumprofil 80 x 80 mm, natur eloxiert mit innenliegender Versteifung.
+
+            LB-Version: 23              Geringfügig Geändert
+
+59.71 01C   Volleyballsäulen                                                                                             VE
+            ____________
+
+            LB-Version: 23              Geringfügig Geändert
+59.71 02    Volleyballnetz 9,50 m lang und 1 m hoch, Maschenweite 10 cm, UV - beständig mit Einfassung und 4 mm dicker
+            Seilspannleine.
+
+59.71 02A   Volleyballnetz PE 2mm                                                                                        Stk
+            Aus 2 mm dickem Polyethylen (PE).
+
+59.71 02B   Volleyballnetz PE 3mm                                                                                        Stk
+            Aus 3 mm dickem Polyethylen (PE).
+
+59.71 02C   Volleyballnetz                                                                                               Stk
+            ____________
+
+59.71 03    Aufzahlung (Az) auf die Position Volleyballnetz als Wettkampfnetz mit Volleyballantennen, Verrechnungseinheit
+            VE = 1 Paar.
+
+59.71 03A   Az Volleyball-Antennen                                                                                       VE
+59.72       Basketball
+59.72 01    Basketball-Einsäulenanlage für Freianlagen, ohne Brett und ohne Korb, jedoch mit Bretthalterung, einschließlich
+            Erd- und Betonarbeiten und Entsorgung des anfallenden Erdmaterials.
+            Verrechnungseinheit VE = 1 Paar.
+
+59.72 01A   Basketballanl.fest 165cm                                                                                     VE
+            Ausladung 165 cm.
+
+59.72 01B   Basketballanl.fest 225cm                                                                                     VE
+            Ausladung 225 cm.
+
+59.72 01C   Basketballanl.steckb.165cm                                                                                   VE
+            Einsteckbar, einschließlich korrosionsgeschützter Bodenhülsen mit Entwässerung und Deckeln. Ausladung 165
+            cm.
+
+59.72 01D   Basketballanl.steckb.225cm                                                                                   VE
+            Einsteckbar, einschließlich korrosionsgeschützter Bodenhülsen mit Entwässerung und Deckeln. Ausladung 225
+            cm.
+
+
+                                                                                                                   Seite 37 / 42
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+59.72 01E   Basketballanlage                                                                                            VE
+            ____________
+
+59.72 02    Basketballbrett mit vorgeschriebener Markierung und Halterung für Ständer und Korb, witterungsbeständig.
+            Verrechnungseinheit VE = 1 Paar.
+
+59.72 02A   Basketballbrett lack.120x180cm                                                                              VE
+            Aus Holzwerkstoff lackiert, 105 (oder 120) x 180 cm groß.
+
+59.72 02B   Basketballbrett GFK 120x180cm                                                                               VE
+            Aus glasfaserverstärktem Kunststoff (GFK), 105 (oder 120) x 180 cm groß.
+
+59.72 02C   Basketballbrett                                                                                             VE
+            ____________
+
+59.72 03    Basketballkorb mit Netz, Verrechnungseinheit VE = 1 Paar.
+
+59.72 03A   Basketballkorb Stahl m.Netz                                                                                 VE
+            Aus Stahl feuerverzinkt und gestrichen, mit Netz aus 3 mm dicker Polyethylenschnur.
+
+59.72 03B   Basketballkorb                                                                                              VE
+            ____________
+
+59.73       Tennis
+59.73 01    Tennisständer für Freianlagen einsteckbar mit Bodenhülsen und Deckeln, mit innenliegender Spannvorrichtung,
+            Kurbel abnehmbar, klappbare Abdeckkappen, einschließlich Erd- und Betonarbeiten und Entsorgung des
+            anfallenden Aushubmaterials.
+            Verrechnungseinheit VE = 1 Paar.
+
+59.73 01A   Tennisständer Alu.Prof.                                                                                     VE
+            Aus Aluminium eloxiert, Rechteck- oder Quadratprofil nach Wahl des Auftragnehmers. ____________
+
+59.73 01B   Tennisständer Stahlrohr                                                                                     VE
+            Aus Stahlrohr DN 76 mm, feuerverzinkt und kunststoffbeschichtet, Farbe handelsüblich nach Wahl des
+            Auftraggebers. ____________
+
+59.73 01C   Tennisständer                                                                                               VE
+            ____________
+
+59.73 02    Tennisnetz UV-stabilisiert, mit witterungsbeständiger Einfassung, verzinktem Stahlseil und Netzabspannung mit
+            Erdanker und Spannschraube.
+
+59.73 02A   Tennisnetz PE 2,2mm                                                                                         Stk
+            Aus Polyethylenschnur (PE) 2,2 mm dick.
+
+59.73 02B   Tennisnetz                                                                                                  Stk
+            ____________
+
+59.73 03    Stützen für Einzelspiele, Verrechnungseinheit VE = 1 Paar.
+
+59.73 03A   Singlestützen Holz                                                                                          VE
+            Aus lackiertem Holz.
+
+59.73 03B   Singlestützen Stahl                                                                                         VE
+            Aus lackiertem Stahl.
+
+59.74       Hockey
+
+
+
+
+                                                                                                                  Seite 38 / 42
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+59.74 01    Feldhockeytor 3658 x 2134 mm groß, aus Aluminiumprofil 75 x 50 x 3 mm verschweißt, einbrennlackiert, Bande
+            aus Aluminium kunststoffbeschichtet, einschließlich Bodenhülsen mit Deckel, Erd- und Betonarbeiten und
+            Entsorgung des anfallenden Aushubmaterials.
+            Verrechnungseinheit VE = 1 Paar.
+
+59.74 01A   Feldhockeytor Alu                                                                                            VE
+            ____________
+
+59.74 02    Feldhockeytor.
+            Verrechnungseinheit VE = 1 Paar.
+
+59.74 02A   Feldhockeytor                                                                                                VE
+            ____________
+
+59.74 03    Hockeytornetze 3,66 m breit und 2,14 m hoch, 0,90/1,20 m Tiefe.
+            Verrechnungseinheit VE = 1 Paar
+
+59.74 03A   Hockeytornetz PE 3mm                                                                                         VE
+            Aus Polyethylen Flechtleine 3 mm.
+
+59.74 03B   Hockeytornetz                                                                                                VE
+            ____________
+
+59.75       Rugby, Football
+59.75 01    Rugbytor 6,50 x 5,67 m, aus Aluminiumkonstruktion ovales Profil 100 x 115 x 2,5 mm, mit innenliegender
+            Verstärkung, einschließlich Bodenhülsen mit Deckel, Erd- und Betonarbeiten, Entsorgung des anfallenden
+            Aushubmaterials. Verrechnungseinheit VE = 1 Paar.
+
+59.75 01A   Rugbytor Alu                                                                                                 VE
+            ____________
+            Alu.
+
+59.75 02    Rugbytor. Verrechnungseinheit VE = 1 Paar.
+
+59.75 02A   Rugbytor                                                                                                     VE
+            ____________
+
+59.75 03    Footballtor 9,14 x 7,11 m, aus Aluminiumkonstruktion, ovales Profil 100 x 115 x 2,5 mm, mit innenliegender
+            Verstärkung, einschließlich Bodenhülsen mit Deckel, Erd- und Betonarbeiten. Entsorgung des anfallenden
+            Aushubmaterials. Verrechnungseinheit VE = 1 Paar.
+
+59.75 03A   Footballtor Alu                                                                                              VE
+            ____________
+            Alu.
+59.75 04    Footballtor. Verrechnungseinheit VE = 1 Paar.
+
+59.75 04A   Footballtor                                                                                                  VE
+            ____________
+
+59.76       Mehrzweckanlagen
+59.76 01    Mehrzweckanlage für Tennis, Faustball, Badminton und Volleyball. Aus Aluminiumprofil 80 x 80 x 3 mm
+            Spielhöhen stufenlos einstellbar, Netzschnellspannvorrichtung, einschließlich Bodenhülsen mit Deckel, Erd- und
+            Betonarbeiten, Entsorgung des anfallenden Aushubmaterials. Verrechnungseinheit VE = 1 Paar.
+
+59.76 01A   Mehrzweckanlagen Alu                                                                                         VE
+            ____________
+            Alu.
+59.76 02    Mehrzweckanlage nach Angabe. Verrechnungseinheit VE = 1 Paar.
+
+59.76 02A   Mehrzweckanlage                                                                                              VE
+
+                                                                                                                   Seite 39 / 42
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+            ____________
+
+59.78       Ballfangnetze, Bodenhülsen
+             Kommentar:
+             Etwa erforderliche Aufhängmöglichkeiten für die Ballfangnetze (mobile Säulen und dergleichen) sind nach Bedarf der
+             Örtlichkeit angepasst frei zu formulieren. Fest versetzte Säulen sind der ULG 31 40 Zäune zu entnehmen.
+
+59.78 01    Ballfangnetze aus Polyethylen (PE). Im Positionsstichwort angegeben ist die Maschenweite und die Dicke des
+            Netzmaterials in mm.
+
+59.78 01A   PE-Netz 45/2                                                                                                          m²
+
+59.78 01B   PE-Netz 45/3                                                                                                          m²
+
+59.78 01C   PE-Netz 45/4                                                                                                          m²
+
+59.78 01D   PE-Netz 100/2                                                                                                         m²
+
+59.78 01E   PE-Netz 100/3                                                                                                         m²
+
+59.78 01F   PE-Netz 100/4                                                                                                         m²
+59.78 02    Ballfangnetz aus Polyamidkunstfaser. Im Positionsstichwort angegeben ist die Maschenweite und die Dicke des
+            Netzmaterials in mm.
+
+59.78 02A   Kunstfaser-Netz 45/2                                                                                                  m²
+
+59.78 02B   Kunstfaser-Netz 45/3                                                                                                  m²
+
+59.78 02C   Kunstfaser-Netz 45/4                                                                                                  m²
+
+59.78 02D   Kunstfaser-Netz 100/2                                                                                                 m²
+
+59.78 02E   Kunstfaser-Netz 100/3                                                                                                 m²
+
+59.78 02F   Kunstfaser-Netz 100/4                                                                                                 m²
+59.78 03    Bleibeschwerung für Schutznetze am unteren Netzrand in einem Gurtband eingenäht.
+
+59.78 03A   Bleibeschwerung 200g/m                                                                                                m
+
+59.78 03B   Bleibeschwerung 400 g/m                                                                                               m
+59.78 04    Einfassung von Ballfangnetz mit Netzrand aus 6 mm dicken Kunstfaserleinen.
+
+59.78 04A   Einfassung Fangnetz                                                                                                   m
+59.78 05    Stahlseil verzinkt, 6 mm dick, zur Aufhängung der Ballfangnetze.
+
+59.78 05A   Stahlseil verzinkt                                                                                                    m
+59.78 06    Spannschloss verzinkt mit Kauschen und Drahtseilklemmen.
+
+59.78 06A   Spannschloss                                                                                                          Stk
+59.78 07    Karabinerhaken zum Einhängen des Schutznetzes.
+
+59.78 07A   Karabinerhaken                                                                                                        Stk
+59.78 08    Stahlring zum Einhängen des Karabinerhakens bei Stahlseilausführung.
+
+59.78 08A   Stahlring                                                                                                             Stk
+59.78 09    Standardbodenhülsen aus Aluminiumprofil mit Aluminiumdeckel, einschließlich Erd- und Betonarbeiten und
+            Entsorgen des anfallenden Aushubmaterials.
+
+59.78 09A   St.Bodenhülse 80/80/350                                                                                               Stk
+            Aus Aluminiumprofil 80/80/2,5 mm, Einstecktiefe 350 mm für Tennis, Handball.
+
+59.78 09B   St.Bodenhülse 100/115/400                                                                                             Stk
+
+                                                                                                                            Seite 40 / 42
+                                                                                                       ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+            Aus Aluminiumprofil 100/115/2,5 mm, Einstecktiefe 400 mm für Fußball.
+
+59.78 09C   St.Bodenhülse 100/115/500                                                                                        Stk
+            Aus Aluminiumprofil 100/115/2/2,5 mm, Einstecktiefe 500 mm für Basketball.
+
+59.78 09D   St.Bodenhülse 100/115/800                                                                                        Stk
+            Aus Aluminiumprofil 100/115/2,5 mm, Einstecktiefe 800 mm für Rugby und Football.
+
+59.78 10    Systembodenhülse aus Aluminiumprofil für ovale (100x115 mm), quadratische (80x80 mm) oder runde
+            (Durchmesser 80 mm) Pfosten und entsprechenden, höhenverschiebbaren Abschlussringen einschließlich
+            Deckel für Kunststoffbeschichtung, sowie Erd- und Betonarbeiten und Entsorgung des anfallenden
+            Aushubmaterials.
+
+59.78 10A   Systembodenhülse                                                                                                 Stk
+            ____________
+
+            LB-Version: 23                  Geringfügig Geändert
+59.78 15    Deckel mit Bodenring für Kunststoff- und Kunstrasenbeläge aus Aluminium mit Vertiefung, Durchmesser 165
+            mm.
+
+59.78 15A   Deckel f.Kunststoffbeläge                                                                                        Stk
+59.80       Güteprüfung
+59.80 01    Güteprüfungen (Kontrollprüfung) während oder nach dem Einbau gemäß den Richtlinien des Österreichischen
+            Institutes für Schul- und Sportstättenbau (ÖISS), 1040 Wien, Prinz Eugenstraße 12 durch eine Prüf-,
+            Überwachungs- und Zertifizierungsstelle.
+
+59.80 01A   Güteprüfung - Rasenflächen                                                                                       PA
+            An Rasenflächen.
+
+59.80 01B   Güteprüfung - Tennenflächen                                                                                      PA
+            An Tennenflächen.
+
+59.80 01C   Güteprüfung - Kunststofffl.                                                                                      PA
+            An Kunststoffflächen.
+
+59.80 01D   Güteprüfung - Kunstrasenfl.                                                                                      PA
+            An Kunststoffrasenflächen.
+
+59.90       Regieleistungen
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen.
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+
+                                                                                                                       Seite 41 / 42
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+59.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+59.90 00C   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+59.90 01    Regiestunden
+
+59.90 01A   Regiestunden Facharbeiter                                                                                   h
+            Für Facharbeiter.
+
+59.90 01B   Regiestunden Hilfsarbeiter                                                                                  h
+            Für Hilfsarbeiter.
+
+59.90 51    Materiallieferungen f.Regieleistungen                                                                       VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+            LB-Version: 23                 Geringfügig Geändert
+
+
+
+
+                                                                                                                  Seite 42 / 42
+                                                                                             ib-data GmbH, Softwareentwicklung
+

@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --surface: #f7f6f1;
+  --surface-2: #ffffff;
+  --fg: #14130f;
+  --fg-muted: #6b6a63;
+  --accent: #f4c400;
+  --accent-fg: #14130f;
+  --alert: #d4331f;
+  --alert-fg: #f7f6f1;
+  --line: #dcdacd;
+  --line-strong: #14130f;
+}
+
+@theme inline {
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-accent: var(--accent);
+  --color-accent-fg: var(--accent-fg);
+  --color-alert: var(--alert);
+  --color-alert-fg: var(--alert-fg);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+body {
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-fg);
+}
+
+* {
+  scrollbar-color: var(--fg-muted) transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--line-strong);
+  outline-offset: 2px;
+}
+
+.font-num {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}

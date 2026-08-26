@@ -1,0 +1,461 @@
+{
+  "lg": "25",
+  "title": "Sicherheits- und Schutzmaßnahmen",
+  "positions": [
+    {
+      "code": "25.11.12B",
+      "text": "Einzelanschlagpunkt Beton",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.21B",
+      "text": "Seilsystem Beton",
+      "unit": ""
+    },
+    {
+      "code": "25.00.01A",
+      "text": "Zugänglichkeit",
+      "unit": ""
+    },
+    {
+      "code": "25.00.01B",
+      "text": "Transport- und Hubmöglichkeiten",
+      "unit": ""
+    },
+    {
+      "code": "25.00.01V",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "25.01.01A",
+      "text": "Auszugsversuche zur Bestimmung d.Befestigungsmittels",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.01.02A",
+      "text": "Öffnen bestehende Dachhaut b.1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.01.02B",
+      "text": "Öffnen bestehende Dachhaut ü.1m2",
+      "unit": "m²"
+    },
+    {
+      "code": "25.01.02C",
+      "text": "Beidecken bestehende Dachhaut b.1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.01.02D",
+      "text": "Beidecken bestehende Dachhaut ü.1m2",
+      "unit": "m²"
+    },
+    {
+      "code": "25.11.00C",
+      "text": "Dachdraufsichtsplan zu 25.11",
+      "unit": ""
+    },
+    {
+      "code": "25.11.00E",
+      "text": "Untergrund/Dachaufbau Neubau Flachdach zu 25.11",
+      "unit": ""
+    },
+    {
+      "code": "25.11.00F",
+      "text": "Untergrund/Dachaufbau Bestand Flachdach zu 25.11",
+      "unit": ""
+    },
+    {
+      "code": "25.11.00G",
+      "text": "Untergrund/Dachaufbau Neubau Steildach zu 25.11",
+      "unit": ""
+    },
+    {
+      "code": "25.11.00H",
+      "text": "Untergrund/Dachaufbau Bestand Steildach zu 25.11",
+      "unit": ""
+    },
+    {
+      "code": "25.11.00V",
+      "text": "Verfügbarkeit von Beilagen zum LV zu 25.11",
+      "unit": ""
+    },
+    {
+      "code": "25.11.01A",
+      "text": "Anschlagpunkt Sicherheitsdachhaken Edelstahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.01B",
+      "text": "Anschlagpunkt Sicherheitsdachhaken Stahl/pulverbeschichtet",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.12A",
+      "text": "Einzelanschlagpunkt Auflast",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.12C",
+      "text": "Einzelanschlagpunkt Holz",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.12D",
+      "text": "Einzelanschlagpunkt MWK/Voll-u.Hohlziegel",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.12E",
+      "text": "Einzelanschlagpunkt Metalleindeckungen",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.12X",
+      "text": "Einzelanschlagpunkt",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.13A",
+      "text": "Wärmedämmkappen f.Einzelanschlagpunkte",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.21A",
+      "text": "Seilsystem Auflast                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "25.11.21C",
+      "text": "Seilsystem Holz                                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "25.11.21D",
+      "text": "Seilsystem MWK/Voll-u.Hohlziegel                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "25.11.21E",
+      "text": "Seilsystem auf Metalleindeckungen                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "25.11.21X",
+      "text": "Seilsystem                                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "25.11.22A",
+      "text": "Bewegliche Führungen waagrecht f.Seilsysteme",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.22B",
+      "text": "Bewegliche Führungen lotrecht/schräg f.Seilsysteme",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.22C",
+      "text": "Verbindungselemente f.Seilsysteme",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.22D",
+      "text": "Endverankerung f.Seilsysteme",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.22E",
+      "text": "Kurven-/Eckelemente 45°/90° f.Seilsysteme",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.22F",
+      "text": "Wärmedämmkappen f.Stützen f.Seilsysteme",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.31A",
+      "text": "Schienensystem Auflast                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "25.11.31B",
+      "text": "Schienensystem Beton                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "25.11.31C",
+      "text": "Schienensystem Holz                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "25.11.31D",
+      "text": "Schienensystem MWK/Voll-u.Hohlziegel                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "25.11.31E",
+      "text": "Schienensystem auf Metalleindeckungen                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "25.11.31X",
+      "text": "Schienensystem                                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "25.11.32A",
+      "text": "Bewegliche Führungen waagrecht f.Schienensysteme",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.32B",
+      "text": "Bewegliche Führungen lotrecht/schräg f.Schienensysteme",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.32C",
+      "text": "Verbindungselemente f.Schienensysteme",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.32D",
+      "text": "Kurvenelemente 45°/90° f.Schienensysteme",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.11.32E",
+      "text": "Wärmedämmkappen f.Stützen f.Schienensysteme",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.14.00C",
+      "text": "Dachdraufsichtsplan zu 25.14",
+      "unit": ""
+    },
+    {
+      "code": "25.14.00E",
+      "text": "Untergrund/Dachaufbau Neubau zu 25.14",
+      "unit": ""
+    },
+    {
+      "code": "25.14.00F",
+      "text": "Untergrund/Dachaufbau Bestand zu 25.14",
+      "unit": ""
+    },
+    {
+      "code": "25.14.00V",
+      "text": "Verfügbarkeit von Beilagen zum LV zu 25.14",
+      "unit": ""
+    },
+    {
+      "code": "25.14.01A",
+      "text": "Seitenschutz aufgestellt                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "25.14.03A",
+      "text": "Seitenschutz Attika-Innenseite b.50cm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "25.14.03B",
+      "text": "Seitenschutz Attika-Innenseite ü.50-70cm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "25.14.03C",
+      "text": "Seitenschutz Attika-Innenseite ü.70-100cm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "25.14.03X",
+      "text": "Seitenschutz Attika-Innenseite ü.100cm-__________                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "25.14.03Y",
+      "text": "Az Seitenschutz Attika-Innenseite f.Ecken",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.14.05A",
+      "text": "Seitenschutz am Untergrund/Dachrand b.50cm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "25.14.05B",
+      "text": "Seitenschutz am Untergrund/Dachrand ü.50-70cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "25.14.05C",
+      "text": "Seitenschutz am Untergrund/Dachrand ü.70-100cm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "25.14.05D",
+      "text": "Seitenschutz am Untergrund/Dachrand ü.100-125cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "25.14.05E",
+      "text": "Seitenschutz am Untergrund/Dachrand ü.125-150cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "25.14.05X",
+      "text": "Seitenschutz am Untergrund/Dachrand ü.150cm-__________                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "25.14.05Y",
+      "text": "Az Seitenschutz am Untergrund/Dachrand f.Ecken",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.16.00C",
+      "text": "Dachdraufsichtsplan AG 25.16",
+      "unit": ""
+    },
+    {
+      "code": "25.16.00E",
+      "text": "Untergrund/Dachaufbau Neubau zu 25.16",
+      "unit": ""
+    },
+    {
+      "code": "25.16.00F",
+      "text": "Untergrund/Dachaufbau Bestand zu 25.16",
+      "unit": ""
+    },
+    {
+      "code": "25.16.00V",
+      "text": "Verfügbarkeit von Beilagen zum LV zu 25.16",
+      "unit": ""
+    },
+    {
+      "code": "25.16.03A",
+      "text": "Abgrenzung aufgestellt b.100cm                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "25.16.03B",
+      "text": "Abgrenzung aufgestellt ü.100cm-__________                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "25.16.05A",
+      "text": "Abgrenzung am Untergrund b.100cm                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "25.16.05B",
+      "text": "Abgrenzung am Untergrund ü.100cm-__________                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "25.19.00C",
+      "text": "Montagezugang zu 25.19",
+      "unit": ""
+    },
+    {
+      "code": "25.19.00E",
+      "text": "Untergrund/Dachaufbau zu 25.19",
+      "unit": ""
+    },
+    {
+      "code": "25.19.00V",
+      "text": "Verfügbarkeit von Beilagen zum LV zu 25.19",
+      "unit": ""
+    },
+    {
+      "code": "25.19.01A",
+      "text": "Durchsturzsicherung Lichtk./Belichtungsöff.Gitter/Edelstahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.19.01B",
+      "text": "Durchsturzsicherung f.Lichtk./Belichtungsöff.Gitter verz.",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.19.01C",
+      "text": "Durchsturzsicherung f.Lichtk./Belichtungsöff.Netz/Edelstahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.19.01Y",
+      "text": "Az Durchst.-Sicherung Lichtk./Belichtungsöff.f.Öffnungen",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.19.01Z",
+      "text": "Az Durchst.-Sicherung Lichtk./Belichtungsöff.f.Unterbrechung",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.19.21A",
+      "text": "Durchsturzsicherung Lichtband Gitter",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.19.21Y",
+      "text": "Az Durchst.-Sicherung Lichtband Gitter f.Öffnungen",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.19.21Z",
+      "text": "Az Durchst.-Sicherung Lichtband Gitter f.Unterbrechung",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.19.31A",
+      "text": "Durchsturzsicherung Lichtband Auffangnetz",
+      "unit": "m²"
+    },
+    {
+      "code": "25.19.31B",
+      "text": "Az Durchst.-Sicherung Lichtband Auffangnetz f.Öff.20x20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.19.31X",
+      "text": "Az Durchst.-Sicherung Lichtband Auffangnetz f.Öffnung",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.19.31Y",
+      "text": "Az Durchst.-Sicherung Lichtband Auffangnetz f.Unterbrechung",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.21.01A",
+      "text": "Dokumentation von Sicherheits-u.Schutzmaßnahmen                                                            PA",
+      "unit": ""
+    },
+    {
+      "code": "25.21.01B",
+      "text": "Aushang Übersichtsplan u.Systembeschreibung",
+      "unit": "Stk"
+    },
+    {
+      "code": "25.90.00A",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "25.90.01A",
+      "text": "Regiestundensatz Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "25.90.01B",
+      "text": "Regiestundensatz Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

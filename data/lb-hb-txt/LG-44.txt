@@ -1,0 +1,1495 @@
+Leistungsbeschreibung Hochbau                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                            EH
+
+
+
+
+                             Standardisierte Leistungsbeschreibung
+           Leistungsgruppe (LG) 44 - Wärmedämmverbundsysteme (WDVS)
+
+                                 Kennung: HB            Version: 023
+
+                             Leistungsbeschreibung Hochbau
+
+                                          Datum: 31.12.2025
+                   Herausgeber: Bundesministerium f. Wirtschaft, Energie und Tourismus
+                       https://www.bmwet.gv.at/Services/Bauservice/Hochbau.html
+
+                                             Vorversion:
+                                                HB 022
+                  Herausgeber: Bundesministerium f. Digitalisierung u. Wirtschaftsstandort
+
+
+
+                      ULG 4400    Wählbare Vorbemerkungen
+                      ULG 4401    Schutzabdeckungen, Vorarbeiten
+                      ULG 4402    WDVS aus Polystyrol (EPS-F)
+                      ULG 4403    WDVS mit Mineralwolle-Platten (MW-PT)
+                      ULG 4413    WDVS untere Fassadenabschlüsse
+                      ULG 4414    Mechanische Befestigung (Dübel)
+                      ULG 4415    Profile, Fassaden-Fertigteile, Nuten
+                      ULG 4420    Oberputze für WDVS
+                      ULG 4490    Regieleistungen
+
+
+
+
+                                                                                                            Seite 1 / 24
+                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                       gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                          EH
+
+44          Wärmedämmverbundsysteme (WDVS)
+            Version 023 (2025-12)
+            Soweit in Vorbemerkungen oder Positionstexten nicht anders angegeben, gelten für alle Leistungen dieser
+            Gruppe folgende Regelungen:
+            1. Begriffe:
+            Im Folgenden wird für:
+                • Außenwand-Wärmedämmverbundsystem die Abkürzung WDVS
+                • untere Fassadenabschlüsse, die zum Schutz gegen Spritzwasser und etwaige Durchfeuchtung in
+                  erdberührten Bereichen gemäß ÖNORM eine besondere Ausführung erfordern (Material und
+                  Verarbeitung) der Begriff Spritzwasserbereich (z.B. Sockel) verwendet.
+            2. Kennzeichnung/Nachweise:
+            Systemkomponenten des gleichen Systemherstellers (Systemhalters) und von diesem empfohlenes Zubehör
+            werden verwendet. Auf Anforderung werden dem Auftraggeber alle Nachweise (z.B. Konformitätspapier)
+            vorgelegt.
+            3. Untergrundeigenschaften:
+            Die Ausführung des WDVS erfolgt auf Untergründen, für die gemäß ÖNORM kein besonderer
+            Eignungsnachweis erforderlich ist.
+            4. Verarbeitung:
+            Die Verarbeitung erfolgt durch qualifiziertes Personal. Etwaige ergänzende Verarbeitungsrichtlinien des
+            Systemhalters und anerkannte technische Regeln zur Qualitätssicherung ( z.B. Verarbeitungsrichtlinien) gelten
+            ebenfalls als Vertragsbestandteil.
+            4.1 Leibungen:
+            Die Ausführung der Wärmedämmung im Leibungs- und Sturzbereich (z.B. bei Fenster- und Türöffnungen)
+            erfolgt in der Dicke des Dämmstoffes der Fassadenfläche, soweit nicht aus zwingenden räumlichen Gründen
+            nur eine geringere Dicke möglich ist. Für solche etwaige räumlich erzwungenen Dickenunterschiede erfolgt
+            keine Änderung der Einheitspreise.
+            5. Einkalkulierte Leistungen:
+            Folgende Leistungen sind (ergänzend zu den Nebenleistungen gemäß ÖNORM) in die Einheitspreise
+            einkalkuliert:
+                • eine Kantenausbildung mit Gewebewinkel oder Eckprofil
+                • die Ausführung der Stoßfestigkeit in der Nutzungskategorie II
+                • eine Eigenüberwachung gemäß ÖNORM
+                • eine Zusammenarbeit mit dem Auftraggeber (örtliche Bauaufsicht) für die zeitliche und räumliche
+                  Festlegung von Stichproben und die Art der Dokumentation der Prüfergebnisse
+                • die Behebung etwaiger bei den Prüfungen entstandener Schäden
+                • die Übergabe des während der Ausführungszeit auf der Baustelle aufliegenden Protokolls mit der
+                  Schlussrechnung
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - das lagenweise, rückschreitende Entfernen von Gerüstteilen
+             - WDVS mit Phenolharzschaum (PF)
+             - Instandsetzung von WDVS
+             Literaturhinweis (z.B.):
+             - ÖNORM B 1991-1-4: Einwirkungen auf Tragwerke - Teil 1-4: Allgemeine Einwirkungen - Windlasten - Nationale Festlegung
+             zu ÖNORM EN 1991-1-4 und nationale Ergänzungen
+             - ÖNORM 2204 Ausführung von Bauteilen
+             - ÖNORM B 2259: Werkvertragsnorm - Herstellung von Außenwand-Wärmedämmverbundsystemen
+             - ÖNORM B 6000: Werkmäßig hergestellte Dämmstoffe für den Wärme- und/oder Schallschutz im Hochbau - Arten und
+             Anwendung
+             - ÖNORM B 6400: Außenwand-Wärmedämm-Verbundsysteme (WDVS) - Planung & Verarbeitung
+             - ÖNORM DIN 18202:Toleranzen im Hochbau - Bauwerke
+             - ETAG 004: Leitlinie für die Europäische technische Zulassung für außenseitige Wärmedämm-Verbundsysteme mit
+             Putzschicht
+             - Qualitätsgruppe Wärmedämmsysteme: Verarbeitungsrichtlinie für Wärmedämmverbundsysteme - technische Richtlinien
+             und Detailzeichnungen (VAR)
+
+            LB-Version: 23                 Geringfügig Geändert
+Änderung:   Neue Position:
+            44.02 26E Az WDVS EPS-F f. Jalousiekasten
+
+
+
+                                                                                                                          Seite 2 / 24
+                                                                                                    ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                 gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                    EH
+
+44.00       Wählbare Vorbemerkungen
+            LB-Version: 23                Geringfügig Geändert
+44.00 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+44.00 00A   Allgemeine Beschreibung des Gebäudes
+            Adresse: ____________
+            Gebäudewidmung: ____________
+            Geländekategorie: ____________
+            Gebäudehöhe: ____________
+            Basiswindgeschwindigkeit: ____________
+            Breite der Randzone: ____________
+            Zusätzliche Brandschutzbestimmungen: ____________
+
+44.00 00B   Untergrundtypen
+            Alle Einheitspreise beziehen sich auf die vom Auftraggeber angegebenen Untergründe.
+            Flächenanteile von Untergrund-Typen in Prozent:
+            1. Unverputzte Untergründe:
+            Hohlziegel, Hohlblocksteine (%): ____________
+            Vollziegel, Beton, Betonstein (%): ____________
+            Leichtbeton/Porenbeton (%): ____________
+            Mantelbeton (%): ____________
+            Manteldicke bei Mantelbeton (cm): ____________
+            Holzwerkstoffe (%): ____________
+            Sonstige (%): ____________
+            Nähere Angaben: ____________
+            2. Verputzte Untergründe:
+            Hohlziegel, Hohlblocksteine (%): ____________
+            Vollziegel, Beton, Betonstein (%): ____________
+            Leichtbeton/Porenbeton (%): ____________
+            Mantelbeton (%): ____________
+            Manteldicke bei Mantelbeton (cm): ____________
+            Holzwerkstoffe (%): ____________
+            Sonstige (%): ____________
+            Bestehende WDVS (%): ____________
+            Dämmdicke WDVS (cm): ____________
+            Putzdicken: ____________
+            LB-Version: 23                Geringfügig Geändert
+44.00 01    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert:
+
+44.00 01A   Nachweis f.qualifizierte Arbeiter/Partie
+            Als Nachweis der besonderen Qualifikation des Fachpersonals gilt eine Bestätigung über die erfolgreiche
+            Teilnahme an einer einschlägigen Schulung (z.B. ZFV-Zertifizierter Fachverarbeiter WDVS) an einer
+            zertifizierten Einrichtung, den Österreichischen Bauakademien oder Berufsförderungsinstituten) oder an einer
+            sonstigen Schulung mit den angeführten Lehrinhalten.
+            Lehrinhalte:
+            1. Grundlagen der spezifischen bauphysikalischen und bauchemischen Vorgänge
+            2. Aufbau eines WDVS und Funktion der einzelnen Systemkomponenten
+            3. Untergrundprüfung und Untergrundvorbereitung
+            4. Normgerechte Ausführung eines WDVS
+            5. Ausbildung von An- und Abschlüssen
+            6. Baupraktische Anwendung der Lehrinhalte 1-5
+            Anzahl der qualifizierten Arbeiter/Partie vor Ort: ____________
+            LB-Version: 23                Geringfügig Geändert
+
+44.00 01B   Nachweis f.Personal-Qualifikation
+            Als Nachweis der besonderen Qualifikation des Fachpersonals gilt eine Bestätigung über die erfolgreiche
+            Teilnahme an einer einschlägigen Schulung (z.B. ZFV-Zertifizierter Fachverarbeiter WDVS) an einer
+            zertifizierten Einrichtung, den Österreichischen Bauakademien oder Berufsförderungsinstituten) oder an einer
+            sonstigen Schulung mit den angeführten Lehrinhalten.
+            Lehrinhalte:
+                                                                                                                    Seite 3 / 24
+                                                                                              ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                        gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                           EH
+
+            1. Grundlagen der spezifischen bauphysikalischen und bauchemischen Vorgänge
+            2. Aufbau eines WDVS und Funktion der einzelnen Systemkomponenten
+            3. Untergrundprüfung und Untergrundvorbereitung
+            4. Normgerechte Ausführung eines WDVS
+            5. Ausbildung von An- und Abschlüssen
+            6. Baupraktische Anwendung der Lehrinhalte 1-5
+            Anzahl der qualifizierten Mitarbeiter: bis 5.000 m2 WDVS 5 Mitarbeiter, über 5.000 bis 10.000 m2 WDVS 8
+            Mitarbeiter, über 10.000 m2 WDVS 10 Mitarbeiter.
+            LB-Version: 23                 Geringfügig Geändert
+
+44.01       Schutzabdeckungen, Vorarbeiten
+            Im Folgenden ist unter dem Begriff Entsorgen das Laden, Abtransportieren sowie das Verwerten, Deponieren
+            oder Entsorgen der Baurestmassen zu verstehen.
+             Kommentar:
+             Ebenheit: Gemäß ÖNORM B 6400 gilt als Anforderung an die Ebenheit des Untergrundes die ÖNORM DIN 18 202
+             (Rohbau).
+             Schutzabdeckungen: Schutzabdeckungen auf Dächern sind in der LG 01 beschrieben.
+             Vorarbeiten bei Instandsetzungsarbeiten: Das Abschlagen und Ergänzen von Putz ist in der LG 10 beschrieben.
+             Hinweis auf ergänzende Leistungen:
+             In anderen Leistungsgruppen beschrieben sind (z.B.):
+             - das Abtragen von Regenabfallrohren
+             - das provisorische Herstellen von Regenabfallrohren
+             - das Abtragen von Blitzschutz, von Tafeln, von Außenjalousien und von Befestigungen
+             - das Abstemmen von Leibungsputz und Faschen
+             Frei zu formulieren (z.B.):
+             - Einhausungen (Gerüstschutznetze)
+             - die Wiedermontage von entfernten Konstruktionsteilen nach Fertigstellung
+             - das Erneuern von Feuchtigkeitsabdichtungen und Verblechungen
+
+44.01 01    Abdeckung, einschließlich Befestigungen sowie Entfernen und Entsorgen der Abdeckung nach Fertigstellen der
+            eigenen Leistung.
+
+44.01 01A   Abdecken Wände                                                                                                      m²
+            Von Wänden.
+            Abgerechnet wird die abgedeckte Fläche.
+
+44.01 01B   Abdecken Geländer                                                                                                   m
+            Von Geländern.
+
+44.01 01C   Abdecken Handlauf                                                                                                   m
+            Von Handläufen.
+
+44.01 01D   Abdecken Sohlbank/Gesimse b.0,5m                                                                                    m
+            Von Sohlbänken und Gesimsen bis 0,5 m breit.
+
+44.01 01E   Abdecken Fassadengliederung                                                                                         m²
+            Von Fassadengliederungen, Skulpturen und plastischen Elementen (Fassadengliederung).
+            Abgerechnet wird die Projektion der abgedeckten Fläche auf der Fassade.
+
+44.01 01F   Abdecken Tür/Fenster b.2m2                                                                                          Stk
+            Von Türen und Fenstern.
+            Stocklichte bis 2 m2.
+
+44.01 01G   Abdecken Tür/Fenster ü.2-4m2                                                                                        Stk
+            Von Türen und Fenstern.
+            Stocklichte über 2 bis 4 m2.
+
+44.01 01H   Abdecken Tür/Fenster abgedeckte Fläche                                                                              m²
+            Von Türen und Fenstern nach abgedeckter Fläche.
+
+44.01 01I   Abdecken Boden m.Vlies                                                                                              m²
+
+                                                                                                                           Seite 4 / 24
+                                                                                                     ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                            gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                               EH
+            Von Böden mit einer Lage kaschiertem Vlies, mit 10 cm Überdeckung.
+
+44.01 01J   Abdecken Boden m.Weichfaserplatten                                                                      m²
+            Von Böden mit einer Lage Weichfaserplatten, Fugen eng gestoßen.
+
+44.01 01K   Abdecken Boden m.Brettern/Schaltafeln                                                                   m²
+            Von Fußböden mit Brettern oder Schaltafeln.
+
+44.01 05    Vorbereiten des Untergrundes für das Aufbringen eines Wärmedämmverbundsystems (WDVS).
+            Das Entsorgen der Baurestmassen ist im Einheitspreis einkalkuliert.
+
+44.01 05A   Anstrich entfernen                                                                                      m²
+            Bestehenden Anstrich mechanisch oder durch Abbeizen entfernen und Untergrund mit Wasser und
+            Reinigungsgerät reinigen.
+            Abgerechnet wird die behandelte Fläche.
+            LB-Version: 23             Geringfügig Geändert
+
+44.01 05C   Algen und Pilze entfernen                                                                               m²
+            Vorhandene Algen und Pilze mit Algenkiller (nach dem Waschen) behandeln.
+            Abgerechnet wird die behandelte Fläche.
+            LB-Version: 23             Geringfügig Geändert
+
+44.01 05D   Untergrund Beton reinigen                                                                               m²
+            Untergrund aus Beton von Schalölresten und Verschmutzungen reinigen, Grate und Krätzen abschlagen.
+            Abgerechnet wird die behandelte Betonfläche.
+            LB-Version: 23             Geringfügig Geändert
+
+44.01 05E   Untergrund Beton ausgleichen                                                                            m²
+            Unebenheiten über 20 bis 50 mm bei einem Untergrund aus Beton abstemmen oder mit Mörtel ausgleichen.
+            Abgerechnet wird die Summe der abgestemmten bzw. ausgeglichenen Flächen.
+            LB-Version: 23             Geringfügig Geändert
+
+44.01 05F   Putz abschlagen+ergänzen                                                                                m²
+            Losen (schadhaften) Verputz bei einem Untergrund aus verputztem Mauerwerk abschlagen und in der
+            vorhandenen Putzart angepasst ergänzen.
+            Abgerechnet wird die Summe der neu verputzten Flächen.
+
+            LB-Version: 23             Geringfügig Geändert
+
+44.01 05G   Untergrund Mwk.verputzt reinigen                                                                        m²
+            Untergrund aus verputzten und mit dispersionsgebundenen Beschichtungen versehenes Mauerwerk (Mwk.)
+            reinigen, einschließlich Prüfung auf Verseifungsbeständigkeit.
+            Abgerechnet wird die behandelte Fläche.
+            LB-Version: 23             Geringfügig Geändert
+
+44.01 05H   Untergrund Mwk.verputzt ausgleichen                                                                     m²
+            Bei Untergrund aus verputztem Mauerwerk (Mwk.) etwaige Unebenheiten über 20 bis 50 mm abstemmen oder
+            mit Mörtel ausgleichen.
+            Abgerechnet wird die Summe der ausgeglichenen Flächen.
+            LB-Version: 23             Geringfügig Geändert
+
+44.01 05I   Untergrund vorbereiten                                                                                  m²
+            Untergrund: ____________
+            Maßnahmen: ____________
+            LB-Version: 23             Geringfügig Geändert
+
+44.01 05K   Fassade m.Hochdruckwasserstrahlen reinigen 200bar                                                       m²
+
+
+                                                                                                               Seite 5 / 24
+                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                   EH
+            Bestehende Fassade mit Wasser und Reinigungsgerät mit angemessenem Druck und möglichst geringer
+            Durchfeuchtung des Mauerwerkes reinigen.
+            Mit Hochdruckwasserstrahlen bis 200 bar.
+            Abgerechnet wird die behandelte Fläche.
+            LB-Version: 23               Geringfügig Geändert
+
+44.01 05L   Fassade m.Hochdruckwasserstrahlen reinigen ü.200bar                                                         m²
+            Bestehende Fassade mit Wasser und Reinigungsgerät mit angemessenem Druck und möglichst geringer
+            Durchfeuchtung des Mauerwerkes reinigen.
+            Für Hochdruckwasserstrahlen über 200 bar: ____________
+            Abgerechnet wird die behandelte Fläche.
+            LB-Version: 23               Geringfügig Geändert
+44.01 08    Provisorische Regenfallrohre anbringen.
+
+44.01 08A   Provisorische Regenfallrohre                                                                                m
+            Einschließlich nach Fertigstellung der Fassaden, wieder abbauen und von der Baustelle entfernen.
+
+44.01 11    Rohrschellenhalter mit Grundplatte und Rohr aus nicht rostendem Stahl, Werkstoff-Nr. 1.4301 (Edelstahl) und
+            elastischem Einsatz aus Gummi zur schalltechnisch und thermisch getrennten Befestigung von
+            Rohrschellendornen (z.B. für Schlagdorne, Schlagschraubdorne oder Schellen mit Holzgewinde) mit Dübeln
+            gemäß Herstellervorschrift an der Wand befestigen (ohne Unterschied des Untergrundes).
+            Etwaige Mehrkosten für Durchdringungen des Dämmstoffes und das Einkürzen des Gummieinsatzes,
+            entsprechend der fertigen Fassadenoberfläche, sind im Einheitspreis einkalkuliert.
+            Im Positionsstichwort ist die Dämmdicke (cm) angegeben.
+
+44.01 11A   Rohrschellenhalter b.10cm                                                                                   Stk
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+44.01 11B   Rohrschellenhalter ü.10-14cm                                                                                Stk
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+44.01 11C   Rohrschellenhalter ü.14-18cm                                                                                Stk
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+44.01 11D   Rohrschellenhalter ü.18-30cm                                                                                Stk
+            LB-Version: 23               Geringfügig Geändert
+Änderung:   Änderung von NIRO auf Edelstahl.
+
+44.02       WDVS aus Polystyrol (EPS-F)
+            Eine zusätzliche mechanische Befestigung (Schraubdübeln und Rondellen) ist in eigenen Positionen
+            beschrieben.
+            LB-Version: 23               Geringfügig Geändert
+44.02 01    WDVS mit Dämmplatten aus expandiertem Polystyrol-Partikelschaumstoff EPS-F, einschließlich Kleber und
+            bewehrtem Unterputz.
+            Im Positionsstichwort sind der Lambdawert W/(mK), die Unterputz-Mindestdicke UP (mm) und die
+            Dämmstoffdicke DD (cm) angegeben.
+
+44.02 01E   WDVS EPS-F 0,04W/(mK) UP3mm DD10cm                                                                          m²
+            LB-Version: 23               Geringfügig Geändert
+
+44.02 01F   WDVS EPS-F 0,04W/(mK) UP3mm DD12cm                                                                          m²
+            LB-Version: 23               Geringfügig Geändert
+
+44.02 01G   WDVS EPS-F 0,04W/(mK) UP3mm DD14cm                                                                          m²
+            LB-Version: 23               Geringfügig Geändert
+
+                                                                                                                   Seite 6 / 24
+                                                                                             ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+
+44.02 01H   WDVS EPS-F 0,04W/(mK) UP3mm DD16cm                                                                       m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 01I   WDVS EPS-F 0,04W/(mK) UP3mm DD18cm                                                                       m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 01J   WDVS EPS-F 0,04W/(mK) UP3mm DD20cm                                                                       m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 01X   WDVS EPS-F 0,04W/(mK) UP3mm DD__________                                                                 m²
+            LB-Version: 23            Geringfügig Geändert
+44.02 02    WDVS mit Dämmplatten aus expandiertem Polystyrol-Partikelschaumstoff EPS-F, einschließlich Kleber und
+            bewehrtem Unterputz.
+            Im Positionsstichwort sind der Lambdawert W/(mK), die Unterputz-Mindestdicke UP (mm) und die
+            Dämmstoffdicke DD (cm) angegeben.
+
+44.02 02E   WDVS EPS-F 0,04W/(mK) UP5mm DD10cm                                                                       m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 02F   WDVS EPS-F 0,04W/(mK) UP5mm DD12cm                                                                       m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 02G   WDVS EPS-F 0,04W/(mK) UP5mm DD14cm                                                                       m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 02H   WDVS EPS-F 0,04W/(mK) UP5mm DD16cm                                                                       m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 02I   WDVS EPS-F 0,04W/(mK) UP5mm DD18cm                                                                       m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 02J   WDVS EPS-F 0,04W/(mK) UP5mm DD20cm                                                                       m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 02X   WDVS EPS-F 0,04W/(mK) UP5mm DD__________                                                                 m²
+            LB-Version: 23            Geringfügig Geändert
+44.02 03    WDVS mit Dämmplatten aus expandiertem Polystyrol-Partikelschaumstoff EPS-F, einschließlich Kleber und
+            bewehrtem Unterputz.
+            Im Positionsstichwort sind der Lambdawert W/(mK), die Unterputz-Mindestdicke UP (mm) und die
+            Dämmstoffdicke DD (cm) angegeben.
+            Größte Wasserdampf- Diffusionswiderstandszahl my = 10
+
+44.02 03E   WDVS EPS-F 0,04W/(mK) my10 UP3mm DD10cm                                                                  m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 03F   WDVS EPS-F 0,04W/(mK) my10 UP3mm DD12cm                                                                  m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 03G   WDVS EPS-F 0,04W/(mK) my10 UP3mm DD14cm                                                                  m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 03H   WDVS EPS-F 0,04W/(mK) my10 UP3mm DD16cm                                                                  m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 03I   WDVS EPS-F 0,04W/(mK) my10 UP3mm DD18cm                                                                  m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 03J   WDVS EPS-F 0,04W/(mK) my10 UP3mm DD20cm                                                                  m²
+            LB-Version: 23            Geringfügig Geändert
+                                                                                                                Seite 7 / 24
+                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+
+44.02 03X   WDVS EPS-F 0,04W/(mK) my10 UP3mm DD__________                                                            m²
+            LB-Version: 23            Geringfügig Geändert
+44.02 04    WDVS mit Dämmplatten aus expandiertem Polystyrol-Partikelschaumstoff EPS-F, einschließlich Kleber und
+            bewehrtem Unterputz.
+            Im Positionsstichwort sind der Lambdawert W/(mK), die Unterputz-Mindestdicke UP (mm) und die
+            Dämmstoffdicke DD (cm) angegeben.
+            Größte Wasserdampf- Diffusionswiderstandszahl my = 10
+
+44.02 04E   WDVS EPS-F 0,04W/(mK) my10 UP5mm DD10cm                                                                  m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 04F   WDVS EPS-F 0,04W/(mK) my10 UP5mm DD12cm                                                                  m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 04G   WDVS EPS-F 0,04W/(mK) my10 UP5mm DD14cm                                                                  m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 04H   WDVS EPS-F 0,04W/(mK) my10 UP5mm DD16cm                                                                  m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 04I   WDVS EPS-F 0,04W/(mK) my10 UP5mm DD18cm                                                                  m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 04J   WDVS EPS-F 0,04W/(mK) my10 UP5mm DD20cm                                                                  m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 04X   WDVS EPS-F 0,04W/(mK) my10 UP5mm DD__________                                                            m²
+            LB-Version: 23            Geringfügig Geändert
+44.02 05    WDVS mit Dämmplatten aus expandiertem Polystyrol-Partikelschaumstoff EPS-F, einschließlich Kleber und
+            bewehrtem Unterputz.
+            Im Positionsstichwort sind der Lambdawert W/(mK), die Unterputz-Mindestdicke UP (mm) und die
+            Dämmstoffdicke DD (cm) angegeben.
+
+44.02 05E   WDVS EPS-F 0,031W/(mK) UP3mm DD10cm                                                                      m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 05F   WDVS EPS-F 0,031W/(mK) UP3mm DD12cm                                                                      m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 05G   WDVS EPS-F 0,031W/(mK) UP3mm DD14cm                                                                      m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 05H   WDVS EPS-F 0,031W/(mK) UP3mm DD16cm                                                                      m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 05I   WDVS EPS-F 0,031W/(mK) UP3mm DD18cm                                                                      m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 05J   WDVS EPS-F 0,031W/(mK) UP3mm DD20cm                                                                      m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 05X   WDVS EPS-F 0,031W/(mK) UP3mm DD__________                                                                m²
+            LB-Version: 23            Geringfügig Geändert
+44.02 06    WDVS mit Dämmplatten aus expandiertem Polystyrol-Partikelschaumstoff EPS-F, einschließlich Kleber und
+            bewehrtem Unterputz.
+            Im Positionsstichwort sind der Lambdawert W/(mK), die Unterputz-Mindestdicke UP (mm) und die
+            Dämmstoffdicke DD (cm) angegeben.
+
+44.02 06E   WDVS EPS-F 0,031W/(mK) UP5mm DD10cm                                                                      m²
+                                                                                                                Seite 8 / 24
+                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 06F   WDVS EPS-F 0,031W/(mK) UP5mm DD12cm                                                                      m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 06G   WDVS EPS-F 0,031W/(mK) UP5mm DD14cm                                                                      m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 06H   WDVS EPS-F 0,031W/(mK) UP5mm DD16cm                                                                      m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 06I   WDVS EPS-F 0,031W/(mK) UP5mm DD18cm                                                                      m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 06J   WDVS EPS-F 0,031W/(mK) UP5mm DD20cm                                                                      m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 06X   WDVS EPS-F 0,031W/(mK) UP5mm DD__________                                                                m²
+            LB-Version: 23            Geringfügig Geändert
+44.02 07    WDVS mit Dämmplatten aus expandiertem Polystyrol-Partikelschaumstoff EPS-F, einschließlich Kleber und
+            bewehrtem Unterputz.
+            Im Positionsstichwort sind der Lambdawert W/(mK), die Unterputz-Mindestdicke UP (mm) und die
+            Dämmstoffdicke DD (cm) angegeben.
+            Größte Wasserdampf- Diffusionswiderstandszahl my = 10
+
+44.02 07E   WDVS EPS-F 0,031W/(mK) my10 UP3mm DD10cm                                                                 m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 07F   WDVS EPS-F 0,031W/(mK) my10 UP3mm DD12cm                                                                 m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 07G   WDVS EPS-F 0,031W/(mK) my10 UP3mm DD14cm                                                                 m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 07H   WDVS EPS-F 0,031W/(mK) my10 UP3mm DD16cm                                                                 m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 07I   WDVS EPS-F 0,031W/(mK) my10 UP3mm DD18cm                                                                 m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 07J   WDVS EPS-F 0,031W/(mK) my10 UP3mm DD20cm                                                                 m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 07X   WDVS EPS-F 0,031W/(mK) my10 UP3mm DD__________                                                           m²
+            LB-Version: 23            Geringfügig Geändert
+44.02 08    WDVS mit Dämmplatten aus expandiertem Polystyrol-Partikelschaumstoff EPS-F, einschließlich Kleber und
+            bewehrtem Unterputz.
+            Im Positionsstichwort sind der Lambdawert W/(mK), die Unterputz-Mindestdicke UP (mm) und die
+            Dämmstoffdicke DD (cm) angegeben.
+            Größte Wasserdampf- Diffusionswiderstandszahl my = 10
+
+44.02 08E   WDVS EPS-F 0,031W/(mK) my10 UP5mm DD10cm                                                                 m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 08F   WDVS EPS-F 0,031W/(mK) my10 UP5mm DD12cm                                                                 m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.02 08G   WDVS EPS-F 0,031W/(mK) my10 UP5mm DD14cm                                                                 m²
+            LB-Version: 23            Geringfügig Geändert
+
+                                                                                                                Seite 9 / 24
+                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+44.02 08H   WDVS EPS-F 0,031W/(mK) my10 UP5mm DD16cm                                                                   m²
+            LB-Version: 23              Geringfügig Geändert
+
+44.02 08I   WDVS EPS-F 0,031W/(mK) my10 UP5mm DD18cm                                                                   m²
+            LB-Version: 23              Geringfügig Geändert
+
+44.02 08J   WDVS EPS-F 0,031W/(mK) my10 UP5mm DD20cm                                                                   m²
+            LB-Version: 23              Geringfügig Geändert
+
+44.02 08X   WDVS EPS-F 0,031W/(mK) my10 UP5mm DD__________                                                             m²
+            LB-Version: 23              Geringfügig Geändert
+44.02 21    Aufzahlung (Az) auf WDVS mit EPS-F für die Ausführung eines Brandschutzschottes (Brandschutzriegel bzw.
+            Brandschutzbanderole) als WDVS mit Mineralwolledämmplatten (MW) mit einem seitlichen Übergriff von 30 cm
+            und einer Höhe von 20 cm, im Sturzbereich (z.B. von Fenstern und Fenstertüren), einschließlich zusätzlicher
+            mechanischer Befestigung (Dübel).
+            Unterputz in der Mindestdicke des angrenzenden Fassadenbereiches.
+            Abgerechnet wird die Länge des Brandschutzschottes, gemessen im Rohbaumaß (einschließlich des
+            planmäßigen seitlichen Übergriffs).
+            Im Positionsstichwort ist die Dämmstoffdicke (cm) angegeben.
+
+44.02 21F   Az WDVS EPS-F f.Brandschutz MW DD12cm                                                                      m
+
+44.02 21G   Az WDVS EPS-F f.Brandschutz MW DD14cm                                                                      m
+
+44.02 21H   Az WDVS EPS-F f.Brandschutz MW DD16cm                                                                      m
+
+44.02 21I   Az WDVS EPS-F f.Brandschutz MW DD18cm                                                                      m
+
+44.02 21J   Az WDVS EPS-F f.Brandschutz MW DD20cm                                                                      m
+
+44.02 21X   Az WDVS EPS-F f.Brandschutz MW DD__________                                                                m
+44.02 25    Aufzahlung (Az) auf WDVS mit EPS-F mit etwaiger Sockelausbildung, in einer Ausführung der Stoßfestigkeit der
+            Nutzungskategorie II (Standard).
+
+44.02 25A   Az WDVS EPS-F f.erhöhte Stoßfestigkeit (I)                                                                 m²
+            Für eine erhöhte Stoßfestigkeit der Nutzungskategorie I.
+
+44.02 26    Aufzahlung (Az) auf WDVS EPS-F.
+
+44.02 26A   Az WDVS EPS-F f.Untersicht                                                                                 m²
+            Für Erschwernisse bei Untersichten, ausgenommen Gesimse und Sturz.
+
+44.02 26B   Az WDVS EPS-F f.Gesimsummantelung                                                                          m²
+            Für Erschwernisse beim Dämmen von glatten Gesimsen.
+            Abgerechnet wird die abgewickelte behandelte Fläche.
+
+44.02 26D   Az WDVS EPS-F f.Gaupe,Attika                                                                               m²
+            Für Erschwernisse bei Arbeiten an Gaupen, Attikainnenflächen und Aufbauten im Schrägdachbereich,
+            ausgenommen Fänge.
+
+44.02 26E   Az WDVS EPS-F f. Jalousiekasten                                                                            m
+            Für das Aufbringen einer mindestens 30mm dicken Dämmplatten aus expandiertem
+            Polystyrol-Partikelschaumstoff EPS-F, einschließlich Kleber und bewehrtem Unterputz. auf der
+            Blendenoberfläche des Jalousiekastens, einschließlich der dreiseitigen Überlappung der Wärmedämmung in
+            das WDVS der Fassade von mindestens 150mm.
+            LB-Version: 23
+
+44.02 26F   Az WDVS EPS-F f.kunstharzgebundener Kleber                                                                 m²
+            Für einen kunstharzgebundenen Kleber anstelle zementgebundener Produkte (z.B. bei zementunverträglichen
+            Untergründen).
+
+
+                                                                                                                 Seite 10 / 24
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+44.02 26G   Az WDVS EPS-F f.kunstharzgeb.Unterputz                                                                    m²
+            Für einen kunstharzgebundenen Unterputz anstelle zementgebundener Produkte.
+
+44.03       WDVS mit Mineralwolle-Platten (MW-PT)
+            Eine zusätzliche mechanische Befestigung (Schraubdübeln und Rondellen) ist in eigenen Positionen
+            beschrieben.
+            Für die Gruppe der Dämmstoffe MW-PT5 und MW-PT80 ist die Befestigung mit Schraubdübeln und Rondellen
+            nicht zulässig und muss mit eigenen Positionen ausgeschrieben werden.
+
+            LB-Version: 23             Geringfügig Geändert
+44.03 01    WDVS aus Mineralwolledämmplatten (MW-PT5) mit liegender Faser, einschließlich Kleber und bewehrtem
+            Unterputz.
+            Im Positionsstichwort ist der Lambdawert W/(mK), die Unterputz-Mindestdicke UP (mm) und die
+            Dämmstoffdicke DD (cm) angegeben.
+
+44.03 01E   WDVS MW-PT5 0,034W/(mK) UP5mm DD10cm                                                                      m²
+            LB-Version: 23             Geringfügig Geändert
+
+44.03 01F   WDVS MW-PT5 0,034W/(mK) UP5mm DD12cm                                                                      m²
+            LB-Version: 23             Geringfügig Geändert
+
+44.03 01G   WDVS MW-PT5 0,034W/(mK) UP5mm DD14cm                                                                      m²
+            LB-Version: 23             Geringfügig Geändert
+
+44.03 01H   WDVS MW-PT5 0,034W/(mK) UP5mm DD16cm                                                                      m²
+            LB-Version: 23             Geringfügig Geändert
+
+44.03 01I   WDVS MW-PT5 0,034W/(mK) UP5mm DD18cm                                                                      m²
+            LB-Version: 23             Geringfügig Geändert
+
+44.03 01J   WDVS MW-PT5 0,034W/(mK) UP5mm DD20cm                                                                      m²
+            LB-Version: 23             Geringfügig Geändert
+
+44.03 01X   WDVS MW-PT5 0,034W/(mK) UP5mm DD__________                                                                m²
+            LB-Version: 23             Geringfügig Geändert
+44.03 02    WDVS aus Mineralwolledämmplatten (MW-PT5) mit liegender Faser, einschließlich Kleber und bewehrtem
+            Unterputz.
+            Im Positionsstichwort sind der Lambdawert W/(mK), die Unterputz-Mindestdicke UP (mm) und die
+            Dämmstoffdicke DD (cm) angegeben.
+
+44.03 02E   WDVS MW-PT5 0,034W/(mK) UP8mm DD10cm                                                                      m²
+            LB-Version: 23             Geringfügig Geändert
+
+44.03 02F   WDVS MW-PT5 0,034W/(mK) UP8mm DD12cm                                                                      m²
+            LB-Version: 23             Geringfügig Geändert
+
+44.03 02G   WDVS MW-PT5 0,034W/(mK) UP8mm DD14cm                                                                      m²
+            LB-Version: 23             Geringfügig Geändert
+
+44.03 02H   WDVS MW-PT5 0,034W/(mK) UP8mm DD16cm                                                                      m²
+            LB-Version: 23             Geringfügig Geändert
+
+44.03 02I   WDVS MW-PT5 0,034W/(mK) UP8mm DD18cm                                                                      m²
+            LB-Version: 23             Geringfügig Geändert
+
+44.03 02J   WDVS MW-PT5 0,034W/(mK) UP8mm DD20cm                                                                      m²
+            LB-Version: 23             Geringfügig Geändert
+
+44.03 02X   WDVS MW-PT5 0,034W/(mK) UP8mm DD__________                                                                m²
+            LB-Version: 23             Geringfügig Geändert
+                                                                                                                Seite 11 / 24
+                                                                                           ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+
+44.03 11    WDVS aus Mineralwolledämmplatten (MW-PT10) mit liegender Faser, einschließlich Kleber und bewehrtem
+            Unterputz.
+            Im Positionsstichwort sind der Lambdawert W/(mK), die Unterputz-Mindestdicke UP (mm) und die
+            Dämmstoffdicke DD (cm) angegeben.
+
+44.03 11E   WDVS MW-PT10 0,036W/(mK) UP5mm DD10cm                                                                    m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.03 11F   WDVS MW-PT10 0,036W/(mK) UP5mm DD12cm                                                                    m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.03 11G   WDVS MW-PT10 0,036W/(mK) UP5mm DD14cm                                                                    m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.03 11H   WDVS MW-PT10 0,036W/(mK) UP5mm DD16cm                                                                    m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.03 11I   WDVS MW-PT10 0,036W/(mK) UP5mm DD18cm                                                                    m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.03 11J   WDVS MW-PT10 0,036W/(mK) UP5mm DD20cm                                                                    m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.03 11X   WDVS MW-PT10 0,036W/(mK) UP5mm DD__________                                                              m²
+            LB-Version: 23            Geringfügig Geändert
+44.03 12    WDVS aus Mineralwolledämmplatten (MW-PT10) mit liegender Faser, einschließlich Kleber und bewehrtem
+            Unterputz.
+            Im Positionsstichwort sind der Lambdawert W/(mK), die Unterputz-Mindestdicke UP (mm) und die
+            Dämmstoffdicke DD (cm) angegeben.
+
+44.03 12E   WDVS MW-PT10 0,036W/(mK) UP8mm DD10cm                                                                    m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.03 12F   WDVS MW-PT10 0,036W/(mK) UP8mm DD12cm                                                                    m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.03 12G   WDVS MW-PT10 0,036W/(mK) UP8mm DD14cm                                                                    m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.03 12H   WDVS MW-PT10 0,036W/(mK) UP8mm DD16cm                                                                    m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.03 12I   WDVS MW-PT10 0,036W/(mK) UP8mm DD18cm                                                                    m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.03 12J   WDVS MW-PT10 0,036W/(mK) UP8mm DD20cm                                                                    m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.03 12X   WDVS MW-PT10 0,036W/(mK) UP8mm DD__________                                                              m²
+            LB-Version: 23            Geringfügig Geändert
+44.03 21    WDVS aus Mineralwolledämmplatten (MW-PT80) mit stehender Faser (Lamelle) vollflächig verklebt,
+            einschließlich Kleber und bewehrtem Putz.
+            Im Positionsstichwort sind der Lambdawert W/(mK), die Unterputz-Mindestdicke UP (mm) und die
+            Dämmstoffdicke DD (cm) angegeben.
+
+44.03 21E   WDVS MW-PT80 0,04W/(mK) UP5mm DD10cm                                                                     m²
+            LB-Version: 23            Geringfügig Geändert
+
+44.03 21F   WDVS MW-PT80 0,04W/(mK) UP5mm DD12cm                                                                     m²
+            LB-Version: 23            Geringfügig Geändert
+                                                                                                               Seite 12 / 24
+                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                             gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                EH
+
+44.03 21G   WDVS MW-PT80 0,04W/(mK) UP5mm DD14cm                                                                     m²
+            LB-Version: 23                 Geringfügig Geändert
+
+44.03 21H   WDVS MW-PT80 0,04W/(mK) UP5mm DD16cm                                                                     m²
+            LB-Version: 23                 Geringfügig Geändert
+
+44.03 21I   WDVS MW-PT80 0,04W/(mK) UP5mm DD18cm                                                                     m²
+            LB-Version: 23                 Geringfügig Geändert
+
+44.03 21J   WDVS MW-PT80 0,04W/(mK) UP5mm DD20cm                                                                     m²
+            LB-Version: 23                 Geringfügig Geändert
+
+44.03 21X   WDVS MW-PT80 0,04W/(mK) UP5mm DD__________                                                               m²
+            LB-Version: 23                 Geringfügig Geändert
+44.03 22    WDVS aus Mineralwolledämmplatten (MW-PT80) mit stehender Faser (Lamelle) vollflächig verklebt,
+            einschließlich Kleber und bewehrtem Putz.
+            Im Positionsstichwort sind der Lambdawert W/(mK), die Unterputz-Mindestdicke UP (mm) und die
+            Dämmstoffdicke DD (cm) angegeben.
+
+44.03 22E   WDVS MW-PT80 0,04W/(mK) UP8mm DD10cm                                                                     m²
+            LB-Version: 23                 Geringfügig Geändert
+
+44.03 22F   WDVS MW-PT80 0,04W/(mK) UP8mm DD12cm                                                                     m²
+            LB-Version: 23                 Geringfügig Geändert
+
+44.03 22G   WDVS MW-PT80 0,04W/(mK) UP8mm DD14cm                                                                     m²
+            LB-Version: 23                 Geringfügig Geändert
+
+44.03 22H   WDVS MW-PT80 0,04W/(mK) UP8mm DD16cm                                                                     m²
+            LB-Version: 23                 Geringfügig Geändert
+
+44.03 22I   WDVS MW-PT80 0,04W/(mK) UP8mm DD18cm                                                                     m²
+            LB-Version: 23                 Geringfügig Geändert
+
+44.03 22J   WDVS MW-PT80 0,04W/(mK) UP8mm DD20cm                                                                     m²
+            LB-Version: 23                 Geringfügig Geändert
+
+44.03 22X   WDVS MW-PT80 0,04W/(mK) UP8mm DD__________                                                               m²
+            LB-Version: 23                 Geringfügig Geändert
+44.03 25    Aufzahlung (Az) auf WDVS mit Mineralwolledämmplatten (MW-PT) mit etwaiger Sockelausbildung, in einer
+            Ausführung der Stoßfestigkeit der Nutzungskategorie II (Standard).
+             Kommentar:
+             siehe Klarstellung zur Def. Stoßfestigkeit VB der LG
+
+44.03 25A   Az WDVS MW-PT f.erhöhte Stoßfestigkeit (I)                                                               m²
+            Für eine erhöhte Stoßfestigkeit der Nutzungskategorie I.
+
+44.03 26    Aufzahlung (Az) auf WDVS mit Mineralwolledämmplatten (MW-PT).
+
+44.03 26A   Az WDVS MW-PT f.Untersicht                                                                               m²
+            Für Erschwernisse bei Untersichten, ausgenommen Gesimse und Sturz.
+
+44.03 26B   Az WDVS MW-PT f.Gesimsummantelung                                                                        m²
+            Für Erschwernisse beim Dämmen von glatten Gesimsen.
+            Abgerechnet wird die abgewickelte behandelte Fläche.
+
+44.03 26D   Az WDVS MW-PT f.Gaupe,Attika                                                                             m²
+            Für Erschwernisse bei Arbeiten an Gaupen, Attikainnenflächen und Aufbauten im Schrägdachbereich,
+            ausgenommen Fänge.
+
+                                                                                                               Seite 13 / 24
+                                                                                          ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                         gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                            EH
+
+44.03 31    WDVS mit liegender Faser, einschließlich Kleber und bewehrtem Unterputz.
+
+44.03 31X   WDVS m.Mineralwolledämmplatten                                                                                       m²
+            Mineralwolledämmplatten: ____________
+            - Lambdawert W/(mK): ____________
+            - Unterputz-Mindestdicke UP (mm): ____________
+            - Dämmstoffdicke DD (cm): ____________
+            LB-Version: 23                Geringfügig Geändert
+
+44.13       WDVS untere Fassadenabschlüsse
+            Unabhängig davon, ob ein vor- oder rückspringender Sockel ausgeführt wird, oder die Fassade in gleicher Dicke
+            bis zum Geländeniveau geführt wird, werden im Spritzwasserbereich (30 cm hoch) und unter der
+            Geländeoberkante vom Systemhalter dafür vorgesehene Dämmplatten (z.B. EPS-P, EPS-S oder XPS-R)
+            verwendet.
+            Nach Wahl des Auftragnehmers können solche besonderen Dämmstoffe aus Gründen der Arbeitsersparnis
+            nach oben oder unten abgetreppt oder bis zu einer durchgehenden waagrechten Trennlinie (z.B. bis zu einem
+            Sockelprofil) auch über oder unter dem in der ÖNORM vorgesehenen Spritzwasserbereich von 30 cm ohne
+            gesonderte Vergütung verwendet werden.
+            LB-Version: 23                Geringfügig Geändert
+44.13 01    Aufzahlung (Az) auf WDVS für eine Ausführung des Spritzwasserbereiches an der Fassade (z.B. Sockel,
+            Terrassen, Balkone, offene Loggien, Vordächer), einschließlich dem Verwenden von Dämmplatten der
+            Produktgruppen EPS-P, die der Systemhalter für den erdberührten Bereich oder den Spritzwasserbereich
+            vorsieht.
+            Höhenunterschied des unteren Abschlusses bis 10 Prozent der Grundrisslänge.
+            Etwaige Sockelprofile sind in eigenen Positionen beschrieben.
+
+44.13 01A   Az WDVS EPS-P bei vorhandenem Gelände b.10%                                                                          m
+            Anarbeiten an vorhandene Bauteile (z.B. Traufenbeton, Gehsteigdecke, sonstige befestigte Flächen, Terrassen,
+            Balkone, offene Loggien, Vordächer).
+            LB-Version: 23                Geringfügig Geändert
+
+44.13 01B   Az WDVS EPS-P m.Einbindung u.Gelände b.10%                                                                           m
+            Mit Perimeterdämmung unter (u.) dem künftigen Gelände.
+
+            LB-Version: 23                Geringfügig Geändert
+44.13 11    Aufzahlung (Az) auf WDVS für eine Ausführung des Spritzwasserbereiches an der Fassade (z.B. Sockel,
+            Terrassen, Balkone, offene Loggien, Vordächer), einschließlich dem Verwenden von Dämmplatten der
+            Produktgruppen XPS-R, die der Systemhalter für den erdberührten Bereich oder den Spritzwasserbereich
+            vorsieht.
+            Höhenunterschied des unteren Abschlusses bis 10 Prozent der Grundrisslänge.
+            Etwaige Sockelprofile sind in eigenen Positionen beschrieben.
+             Kommentar:
+             Bei einem Gefälle über 10 Prozent, bei Geländesprüngen oder bei nicht geradlinigem unterem Abschluss wird eine freie
+             Formulierung oder Skizze/Plan mit genauen Angaben empfohlen.
+
+44.13 11A   Az WDVS XPS-R bei vorhandenem Gelände b.10%                                                                          m
+            Anarbeiten an vorhandene Bauteile (z.B. Traufenbeton, Gehsteigdecke, sonstige befestigte Flächen, Terrassen,
+            Balkone, offene Loggien, Vordächer).
+            LB-Version: 23                Geringfügig Geändert
+
+44.13 11B   Az WDVS XPS-R m.Einbindung u.Gelände b.10%                                                                           m
+            Mit Perimeterdämmung unter dem künftigen Gelände.
+
+            LB-Version: 23                Geringfügig Geändert
+44.13 21    Aufzahlung (Az) auf WDVS für eine Ausführung des Spritzwasserbereiches an der Fassade (z.B. Sockel,
+            Terrassen, Balkone, offene Loggien, Vordächer), einschließlich dem Verwenden von Dämmplatten der
+            Produktgruppen EPS-S, die der Systemhalter für den erdberührten Bereich oder den Spritzwasserbereich
+            vorsieht.
+            Höhenunterschied des unteren Abschlusses bis 10 Prozent der Grundrisslänge.
+            Etwaige Sockelprofile sind in eigenen Positionen beschrieben.
+
+
+                                                                                                                           Seite 14 / 24
+                                                                                                      ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+44.13 21A   Az WDVS EPS-S bei vorhandenem Gelände b.10%                                                                             m
+            Anarbeiten an vorhandene Bauteile (z.B. Traufenbeton, Gehsteigdecke, sonstige befestigte Flächen, Terrassen,
+            Balkone, offene Loggien, Vordächer).
+            LB-Version: 23                 Geringfügig Geändert
+
+44.13 21B   Az WDVS EPS-S m.Einbindung unter Gelände b.10%                                                                          m
+            Mit Perimeterdämmung unter dem künftigen Gelände.
+
+            LB-Version: 23                 Geringfügig Geändert
+44.13 51    Feuchteschutz für ein Putzsystem unter Terrain.
+            Der Feuchteschutz wird über die fertige Geländeoberkante (GOK) hochgeführt.
+             Kommentar:
+             Der Feuchteschutz ist keine Bauwerksabdichtung.
+             Diese sind in der LG 12 beschrieben.
+
+44.13 51A   Feuchtigkeitsschutz des Putzsystems                                                                                     m²
+            Der Hochzug über Geländeoberkante beträgt ca. 5 cm.
+
+44.14       Mechanische Befestigung (Dübel)
+            1. Mechanische Befestigungen:
+            1.1 Die mechanische Befestigung erfolgt gemäß ÖNORM.
+            1.2 Für die Gruppe der Dämmstoffe MW-PT5 und MW-PT80 ist die Befestigung mit Schraubdübeln und
+            Rondellen nicht zulässig und muss mit eigenen Positionen ausgeschrieben werden.
+            2. Wärmebrücken und Verfärbungen :
+            Der Wärmedurchgangskoeffizient der verwendeten Dübel wird auf Anforderung des Auftraggebers kostenlos
+            nachgewiesen.
+            3. Ausmaß- und Abrechnungsregeln:
+            Die Einheitspreise der zusätzlichen mechanischen Befestigung gelten ohne Unterschied der tatsächlichen
+            Dübellängen für die angegebene Dicke der Wärmedämmung zuzüglich der angegebenen Putzdicke(n) und der
+            dem Untergrund entsprechenden Verankerungslänge gemäß ÖNORM.
+             Kommentar:
+             Schraubdübeln ohne Rondellen sind frei zu formulieren.
+
+            LB-Version: 23                 Geringfügig Geändert
+44.14 01    Zusätzliche mechanische Befestigung für das WDVS mit Schraubdübeln, einschließlich Rondellen.
+                • in der Fläche (Flächendübel)
+            Die Auswahl der Dübel hinsichtlich Länge und Gebrauchslast sowie die Wahl des Dübelschemas gemäß
+            ÖNORM erfolgt durch den Auftragnehmer.
+            Abgerechnet wird die gedübelte Fassadenfläche.
+            Im Positionsstichwort ist die Dämmstoffdicke (cm) angegeben.
+
+
+            Hinweis:
+            Für die Gruppe der Dämmstoffe MW-PT5 und MW-PT80 ist die Befestigung mit Schraubdübeln und Rondellen
+            nicht zulässig. Diese müssen mit eigenen Positionen ausgeschrieben werden.
+             Kommentar:
+             Eine zusätzliche mechanische Befestigung mit Schlagdübel bei Beton und Vollziegel ist frei zu formulieren.
+
+44.14 01E   WDVS Flächendübel f.DD10cm                                                                                              m²
+
+44.14 01F   WDVS Flächendübel f.DD12cm                                                                                              m²
+
+44.14 01G   WDVS Flächendübel f.DD14cm                                                                                              m²
+
+44.14 01H   WDVS Flächendübel f.DD16cm                                                                                              m²
+
+44.14 01I   WDVS Flächendübel f.DD18cm                                                                                              m²
+
+44.14 01J   WDVS Flächendübel f.DD20cm                                                                                             m²
+
+                                                                                                                              Seite 15 / 24
+                                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                           gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                              EH
+
+44.14 01X   WDVS Flächendübel f.DD__________                                                                                        m²
+44.14 11    Aufzahlung (Az) auf mechanische Befestigungen für das WDVS (Flächendübel als Schraubdübeln,
+            einschließlich Rondellen) für eine zusätzliche Verdübelung in Randzonen (z.B. beidseitig einer Außenkante).
+            Abgerechnet wird die gedübelte Fläche der Randzone.
+            Im Positionsstichwort ist die Dämmstoffdicke (cm) angegeben.
+
+
+            Hinweis:
+            Für die Gruppe der Dämmstoffe MW-PT5 und MW-PT80 ist die Befestigung mit Schraubdübeln und Rondellen
+            nicht zulässig und müssen mit eigenen Positionen ausgeschrieben werden.
+
+44.14 11D   Az Flächendübel f.Randzonen DD10cm                                                                                      m²
+
+44.14 11E   Az Flächendübel f.Randzonen DD12cm                                                                                      m²
+
+44.14 11F   Az Flächendübel f.Randzonen DD14cm                                                                                      m²
+
+44.14 11G   Az Flächendübel f.Randzonen DD16cm                                                                                      m²
+
+44.14 11H   Az Flächendübel f.Randzonen DD18cm                                                                                      m²
+
+44.14 11I   Az Flächendübel f.Randzonen DD20cm                                                                                      m²
+
+44.14 11X   Az Flächendübel f.Randzonen DD__________                                                                                m²
+44.14 21    Zusätzliche mechanische Befestigung für die Gruppe der Dämmstoffe MW-PT5 und MW-PT80.
+                • in der Fläche (Flächendübel)
+            Die Auswahl der Dübel hinsichtlich Länge und Gebrauchslast sowie die Wahl des Dübelschemas gemäß NORM
+            erfolgt durch den Auftragnehmer.
+            Abgerechnet wird die gedübelte Fassadenfläche.
+            Im Positionsstichwort ist die Dämmstoffdicke (cm) angegeben.
+             Kommentar:
+             Eine zusätzliche mechanische Befestigung mit Schlagdübel bei Beton und Vollziegel ist frei zu formulieren.
+
+44.14 21A   WDVS Flächendübel f.MW-PT5,-PT80 f.DD__________                                                                         m²
+            Dämmstoff: ____________
+            Verdübelung: ____________
+44.14 22    Aufzahlung (Az) auf mechanische Befestigungen für das WDVS (Flächendübel als Schraubdübeln,
+            einschließlich Rondellen) für eine zusätzliche Verdübelung in Randzonen (z.B. beidseitig einer Außenkante).
+            Abgerechnet wird die gedübelte Fläche der Randzone.
+            Im Positionsstichwort ist die Dämmstoffdicke (cm) angegeben.
+
+
+            Hinweis:
+            Für die Gruppe der Dämmstoffe MW-PT5 und MW-PT80 ist die Befestigung mit Schraubdübeln und Rondellen
+            nicht zulässig und müssen mit eigenen Positionen ausgeschrieben werden.
+
+44.14 22A   Az Fl.Dübel f.MW-PT5,-PT80 f.Randzonen f.DD__________                                                                   m²
+            Betrifft Position(en): ____________
+
+44.15       Profile, Fassaden-Fertigteile, Nuten
+            LB-Version: 23                 Geringfügig Geändert
+44.15 01    Sockel-Abschlussprofile aus Aluminium blank für WDVS in das Verbundsystem einbinden und die Fuge
+            zwischen Untergrund und Sockelprofil dicht verschließen, einschließlich Zubehör und Befestigungsmittel.
+            Im Positionsstichwort ist die Dämmstoffdicke (cm) angegeben.
+
+44.15 01E   WDVS Sockel-Abschlussprofil Alu 10cm                                                                                    m
+
+44.15 01F   WDVS Sockel-Abschlussprofil Alu 12cm                                                                                    m
+
+44.15 01G   WDVS Sockel-Abschlussprofil Alu 14cm                                                                                    m
+
+                                                                                                                              Seite 16 / 24
+                                                                                                         ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+44.15 01H   WDVS Sockel-Abschlussprofil Alu 16cm                                                                             m
+
+44.15 01I   WDVS Sockel-Abschlussprofil Alu 18cm                                                                             m
+
+44.15 01J   WDVS Sockel-Abschlussprofil Alu 20cm                                                                             m
+
+44.15 01X   WDVS Sockel-Abschlussprofil Alu__________                                                                        m
+            Dämmstoffdicke: ____________
+
+44.15 04    WDVS-Dehnfugenprofil mit beidseitig aufkaschiertem Textilglasgitter in das WDVS einbinden, einschließlich
+            Ausbilden einer schlagregensicheren, dauerelastischen Dehnfuge, Zubehör und Befestigungsmittel, ohne
+            Unterschied der Dämmstoffdicke.
+
+44.15 04A   WDVS Dehnfuge Fläche                                                                                             m
+
+44.15 04B   WDVS Dehnfuge Innenecke                                                                                          m
+44.15 05    WDVS-Anschlussprofil bei Fenster- und Türrahmen mit selbstklebenden Kunststoff-Leisten, Dichtband und
+            Textilglasgitter, einschließlich Abdichten der Anschlussfugen.
+
+44.15 05A   WDVS Fenster/Tür-Anschlussprofil Klasse II                                                                       m
+            Mit zweidimensionaler Bewegungsaufnahme.
+
+44.15 05B   WDVS Fenster/Tür-Anschlussprofil Klasse III                                                                      m
+            Mit dreidimensionaler Bewegungsaufnahme.
+
+44.15 05C   Az WDVS Fenster/Tür-Anschlussprofil Klasse III f.Holz/Alu                                                        m
+            Mit dreidimensionaler Bewegungsaufnahme.
+            Für Fenster- und Türrahmen aus Holz/Aluminium.
+
+44.15 05D   Az WDVS Fenster/Tür-Anschlussprofil Klasse III f.Kunstst/Alu                                                     m
+            Mit dreidimensionaler Bewegungsaufnahme.
+            Für Fenster- und Türrahmen aus Kunststoff/Aluminium.
+44.15 06    WDVS selbst rückstellendes Dichtband und Ausbilden einer schlagregensicheren Anschlussfuge, überputzbar
+            (z.B. an Fenstern, Fensterbänke).
+            Schlagregendichtheit mindestens 600 Pa.
+            Im Positionsstichwort ist die Fugenbreite (mm) angegeben.
+
+44.15 06A   WDVS Dichtband 3-9mm                                                                                             m
+
+44.15 06B   WDVS Dichtband ü.9-18mm                                                                                          m
+
+44.15 06C   WDVS Dichtband 3-9mm b.20cm                                                                                      Stk
+            Bei Durchdringungen bis 20 cm.
+            z.B. Geländer, Steckdosen
+44.15 07    WDVS-Tropfkantenprofil aus Kunststoff mit beidseitig aufkaschiertem Textilglasgitter (z.B. bei gedämmten
+            Fensterstürzen, Balkonuntersichten, Rollladenkästen).
+
+44.15 07A   WDVS Tropfkantenprofil Kunststoff                                                                                m
+44.15 08    WDVS-Lüftungsprofil als oberer Abschluss zum Kaltdach.
+
+44.15 08A   WDVS Lüftungsprofil Kaltdach                                                                                     m
+44.15 09    Kunststoffprofil mit Textilgitter und Tropfnase, stoßversetzt auf das Sockelprofil aufgesteckt.
+
+44.15 09A   Aufsteckprofil                                                                                                   m
+            Material: ____________
+
+44.15 11    Montageelemente (gemäß Statik) für wärmebrückenfreie Fremdmontage in Wärmedämmverbundsystemen,
+            einschließlich Erstellen der Ausfräsungen in den Dämmplatten und Befestigen.
+
+44.15 11A   Montageelemente leichte Lasten                                                                                   Stk
+
+                                                                                                                       Seite 17 / 24
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+            Montageelemente (z.B. für Rohrschellen, Außenbeleuchtung).
+            Material: ____________
+            Abmessungen: ____________
+            Dicke: ____________
+
+44.15 11B   Montageelemente schwere Lasten                                                                                  Stk
+            Montageelemente (z.B. für Vordächer, Markisen).
+            Material: ____________
+            Abmessungen: ____________
+            Dicke: ____________
+
+44.15 12    Einbauen von, vom AG beigestellten, Montageelementen (gemäß Statik) (wärmebrückenfreie Fremdmontage in
+            Wärmedämmverbundsystemen aus EPS).
+            Einschließlich Erstellen der Ausfräsungen sowie der Aussparungen in den Dämmplatten für Elektrokabel und
+            Befestigen.
+
+44.15 12A   Einbau Elektrodosenhalter                                                                                       Stk
+            Elektrodosenhalter
+            Durchmesser:____________
+            Tiefe:____________
+
+44.15 12B   Einbau Elektrodosenhalter schwer entflammbar                                                                    Stk
+            Elektrodosenhalter.
+            Aus schwer entflammbarem Polyamid.
+            Abmessungen ____________
+            Tiefe: ____________
+
+44.15 12C   Einbau Blitzschutztürchen                                                                                       Stk
+            Blitzschutztürchen aus Stahlblech verzinkt oder Aluminium weiß, pulverbeschichtet.
+            Abmessungen: ____________
+            Tiefe: ____________
+
+44.15 12D   Einbau Blitzschutztrennstellen                                                                                  Stk
+            Blitzschutztrennstellen.
+            Abmessungen: ____________
+            Tiefe: ____________
+
+44.15 20    Aufzahlung (Az) auf WDVS für das Herstellen von Nuten, ohne Unterschied, ob gefräst oder 2-lagig geklebt.
+            Fugenbreite: bis 3 cm
+            Tiefe: bis 2 cm
+
+44.15 20A   Az WDVS EPS-F f.Fassadennut b.3cm/b.2cm                                                                         m
+
+44.15 20B   Az WDVS MW-PT f.Fassadennut b.3cm/b.2cm                                                                         m
+
+44.15 20C   Az WDVS ICP f.Fassadennut b.3cm/b.2cm                                                                           m
+
+44.15 20D   Az WDVS MS-DP f.Fassadennut b.3cm/b.2cm                                                                         m
+44.15 21    WDVS-Dekor- und Fassadenprofile (F.Profil), vorgefertigt, aus beschichtetem Polystyrolhartschaum (EPS). Mit
+            Dichtfugen an der Oberseite und mit Kleber auf der Unterseite befestigen, einschließlich Grundieren und
+            Beschichten mit Fassadenfarbe.
+            Im Positionsstichwort sind die Art (einfach oder gegliedert) und die Breite der Profile angegeben.
+
+44.15 21A   WDVS F.Profil EPS einfach+besch.b.10cm                                                                          m
+
+44.15 21B   WDVS F.Profil EPS einfach+besch.b.20cm                                                                          m
+
+44.15 21C   WDVS F.Profil EPS einfach+besch.b.30cm                                                                          m
+
+                                                                                                                      Seite 18 / 24
+                                                                                                 ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                   gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                      EH
+
+44.15 21D   WDVS F.Profil EPS gegliedert+besch.b.10cm                                                                      m
+
+44.15 21E   WDVS F.Profil EPS gegliedert+besch.b.20cm                                                                      m
+
+44.15 21F   WDVS F.Profil EPS gegliedert+besch.b.30cm                                                                      m
+44.15 22    WDVS-Dekor- und Fassadenprofile (F.Profil), vorgefertigt, aus beschichtetem Polystyrolhartschaum (EPS). Mit
+            Dichtfugen an der Oberseite und mit Kleber auf der Unterseite befestigen, einschließlich Grundieren und
+            Beschichten mit Fassadenfarbe.
+            Im Positionsstichwort ist die Art (einfach oder gegliedert (gegl.)) angegeben.
+
+44.15 22A   WDVS F.Profil EPS-Schlussst.einfach+besch.                                                                     Stk
+            Schlussstein.
+
+44.15 22B   WDVS F.Profil EPS-Eckbosse einfach+besch.                                                                      Stk
+            Eckbosse.
+
+44.15 22C   WDVS F.Profil EPS-Schlussst.gegl.+besch.                                                                       Stk
+            Schlussstein.
+
+44.15 22D   WDVS F.Profil EPS-Eckbosse gegl.+besch.                                                                        Stk
+            Eckbosse.
+
+44.15 31    WDVS-Dekor- und Fassadenprofile (F.Profil), vorgefertigt, aus beschichtetem Polystyrolhartschaum (EPS). Mit
+            Dichtfugen an der Oberseite und mit Kleber auf der Unterseite befestigen, einschließlich Dünnputz (Dünnp.).
+            Im Positionsstichwort sind die Art (einfach oder gegliedert) und die Breite der Profile angegeben.
+
+44.15 31A   WDVS F.Profil EPS einfach+Dünnp.b.10cm                                                                         m
+
+44.15 31B   WDVS F.Profil EPS einfach+Dünnp.b.20cm                                                                         m
+
+44.15 31C   WDVS F.Profil EPS einfach+Dünnp.b.30cm                                                                         m
+
+44.15 31D   WDVS F.Profil EPS gegliedert+Dünnp.b.10cm                                                                      m
+
+44.15 31E   WDVS F.Profil EPS gegliedert+Dünnp.b.20cm                                                                      m
+
+44.15 31F   WDVS F.Profil EPS gegliedert+Dünnp.b.30cm                                                                      m
+44.15 32    WDVS-Dekor- und Fassadenprofile (F.Profil), vorgefertigt, aus beschichtetem Polystyrolhartschaum (EPS). Mit
+            Dichtfugen an der Oberseite und mit Kleber auf der Unterseite befestigen, einschließlich Dünnputz (Dünnp.).
+            Im Positionsstichwort ist die Art (einfach oder gegliedert (gegl.)) angegeben.
+
+44.15 32A   WDVS F.Profil EPS-Schlussst.einfach+Dünnp.                                                                     Stk
+            Schlussstein.
+
+44.15 32B   WDVS F.Profil EPS-Eckbosse einfach+Dünnp.                                                                      Stk
+            Eckbosse.
+
+44.15 32C   WDVS F.Profil EPS-Schlussst.gegl.+Dünnp.                                                                       Stk
+            Schlussstein.
+
+44.15 32D   WDVS F.Profil EPS-Eckbosse gegl.+Dünnp.                                                                        Stk
+            Eckbosse.
+
+44.15 41    WDVS-Dekor- und Fassadenprofile (F.Profil), vorgefertigt, aus mineralischen Werkstoffen (mineral.). Mit
+            Dichtfugen an der Oberseite und mit Kleber auf der Unterseite befestigen, einschließlich Grundierung und
+            Beschichtung mit Fassadenfarbe.
+            Im Positionsstichwort sind die Art (einfach oder gegliedert) und die Breite der Profile angegeben.
+
+44.15 41A   WDVS F.Profil mineral.einfach+besch.b.10cm                                                                     m
+            LB-Version: 23               Geringfügig Geändert
+
+44.15 41B   WDVS F.Profil mineral.einfach+besch.b.20cm                                                                     m
+                                                                                                                     Seite 19 / 24
+                                                                                                ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+            LB-Version: 23               Geringfügig Geändert
+
+44.15 41C   WDVS F.Profil mineral.einfach+besch.b.30cm                                                                       m
+            LB-Version: 23               Geringfügig Geändert
+
+44.15 41D   WDVS F.Profil mineral.gegliedert+besch.b.10cm                                                                    m
+            LB-Version: 23               Geringfügig Geändert
+
+44.15 41E   WDVS F.Profil mineral.gegliedert+besch.b.20cm                                                                    m
+            LB-Version: 23               Geringfügig Geändert
+
+44.15 41F   WDVS F.Profil mineral.gegliedert+besch.b.30cm                                                                    m
+            LB-Version: 23               Geringfügig Geändert
+44.15 42    WDVS-Dekor- und Fassadenprofile (F.Profil), vorgefertigt, aus mineralischen Werkstoffen (mineral.). Mit
+            Dichtfugen an der Oberseite und mit Kleber auf der Unterseite befestigen, einschließlich Grundierung und
+            Beschichtung mit Fassadenfarbe.
+            Im Positionsstichwort ist die Art (einfach oder gegliedert (gegl.)) angegeben.
+
+44.15 42A   WDVS F.Profil mineral.-Schlussst.einfach+besch.                                                                  Stk
+            Schlussstein.
+
+            LB-Version: 23               Geringfügig Geändert
+
+44.15 42B   WDVS F.Profil mineral.-Eckbosse einfach+besch.                                                                   Stk
+            Eckbosse.
+
+            LB-Version: 23               Geringfügig Geändert
+
+44.15 42C   WDVS F.Profil mineral.-Schlussst.gegl.+besch.                                                                    Stk
+            Schlussstein.
+
+            LB-Version: 23               Geringfügig Geändert
+
+44.15 42D   WDVS F.Profil mineral.-Eckbosse gegl.+besch.                                                                     Stk
+            Eckbosse.
+
+            LB-Version: 23               Geringfügig Geändert
+
+44.20       Oberputze für WDVS
+            1. Putzarten, Farben:
+            Stoßen verschiedene Putzarten oder Färbungen innerhalb zusammenhängender Putzflächen aneinander, sind
+            die sich daraus ergebenden Erschwernisse mit einer Aufzahlung geregelt.
+            Kein Anspruch auf Aufzahlung besteht, wenn verschiedene Putzarten oder Färbungen nicht aneinander stoßen
+            oder durch angeordnete Nuten oder Faschen, die mit eigener Position abgerechnet werden, getrennt sind, und
+            für Anschlüsse an nicht verputzte Bauteile (z.B. Verkleidungen, Inkrustierungen oder Sichtbeton).
+            Standardfarben sind Farben aus der Farbkarte des Herstellers, nach Wahl des Auftraggebers, für die der
+            Hersteller keinen Aufpreis vorsieht.
+            Sonderfarben sind Farben aus der Farbkarte des Herstellers, nach Wahl des Auftraggebers, für die der
+            Hersteller einen Aufpreis vorsieht.
+            2. Reibstruktur:
+            Dünnputze, deren Oberfläche einer Kratzputzstruktur ähnelt, werden im Folgenden als Reibstruktur bezeichnet.
+            3. Ausmaß- und Abrechnungsregeln:
+            Abgerechnet wird das Ausmaß in der Abwicklung der fertigen Oberfläche.
+             Kommentar:
+             Für die Auswahl der Farbtöne sind Grenzwerte der Hellbezugswerte der jeweiligen Deckbeschichtung gemäß ÖNORM B
+             6400 zu berücksichtigen.
+             Stoßen verschiedene Putzarten oder Färbungen innerhalb zusammenhängender Putzflächen aneinander, sind die sich
+             daraus ergebenden Erschwernisse frei zu formulieren.
+
+            LB-Version: 23               Geringfügig Geändert
+44.20 01    Endbeschichtung des WDVS mit kunstharzgebundenem Dünnputz (Dünnp.kunsth.), in Korndicke aufgebracht,
+            einschließlich systembedingter Grundierung, in Standardfarbe.
+
+                                                                                                                       Seite 20 / 24
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                               gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                  EH
+
+44.20 01A   WDVS Dünnp.kunsth.Rillenstruktur 2mm                                                                       m²
+
+44.20 01B   WDVS Dünnp.kunsth.Rillenstruktur 3mm                                                                       m²
+
+44.20 01C   WDVS Dünnp.kunsth.Reibstruktur 1,5mm                                                                       m²
+
+44.20 01D   WDVS Dünnp.kunsth.Reibstruktur 2mm                                                                         m²
+
+44.20 01E   WDVS Dünnp.kunsth.Reibstruktur 3mm                                                                         m²
+
+44.20 01F   WDVS Dünnp.kunsth.Füllputz 0,5mm                                                                           m²
+            Überziehen des Dünnputzes mit Füllputz, Korngröße 0,5 mm, um eine glatte Oberfläche zu erzielen.
+
+44.20 01G   WDVS Dünnp.kunsth.Feinputz 1mm                                                                             m²
+44.20 02    Aufzahlung (Az) auf Endbeschichtung des WDVS mit kunstharzgebundenem Dünnputz (Dünnp.kunsth.) für eine
+            Ausführung in Sonderfarbe.
+
+44.20 02A   Az WDVS Dünnp.kunsth.b.1,5mm S.-Farbe                                                                      m²
+            Sonderfarbe: ____________
+
+44.20 02B   Az WDVS Dünnp.kunsth.2mm S.-Farbe                                                                          m²
+            Sonderfarbe: ____________
+
+44.20 02C   Az WDVS Dünnp.kunsth.3mm S.-Farbe                                                                          m²
+            Sonderfarbe: ____________
+
+44.20 03    Endbeschichtung des WDVS mit Silikat-Dünnputz (Silikat-Dünnp.), in Korndicke aufgebracht, einschließlich
+            systembedingter Grundierung, in Standardfarbe.
+
+44.20 03A   WDVS Silikat-Dünnp.Rillenstruktur 2mm                                                                      m²
+
+44.20 03B   WDVS Silikat-Dünnp.Rillenstruktur 3mm                                                                      m²
+
+44.20 03C   WDVS Silikat-Dünnp.Reibstruktur 1,5mm                                                                      m²
+
+44.20 03D   WDVS Silikat-Dünnp.Reibstruktur 2mm                                                                        m²
+
+44.20 03E   WDVS Silikat-Dünnp.Reibstruktur 3mm                                                                        m²
+
+44.20 03F   WDVS Silikat-Dünnp.Füllputz 0,5mm                                                                          m²
+            Überziehen des Dünnputzes mit Füllputz, Korngröße 0,5 mm, um eine glatte Oberfläche zu erzielen.
+
+44.20 03G   WDVS Silikat-Dünnp.Feinputz 1mm                                                                            m²
+44.20 04    Aufzahlung (Az) auf Endbeschichtung des WDVS mit Silikat-Dünnputz (Silikat-Dünnp.) für eine Ausführung in
+            Sonderfarbe.
+
+44.20 04A   Az WDVS Silikat-Dünnp.b.1,5mm S.-Farbe                                                                     m²
+            Sonderfarbe: ____________
+
+44.20 04B   Az WDVS Silikat-Dünnp.2mm S.-Farbe                                                                         m²
+            Sonderfarbe: ____________
+
+44.20 04C   Az WDVS Silikat-Dünnp.3mm S.-Farbe                                                                         m²
+            Sonderfarbe: ____________
+
+44.20 07    Endbeschichtung des WDVS mit Silikon-Dünnputz (Silikon-Dünnp.), in Korndicke aufgebracht, einschließlich
+            systembedingter Grundierung, in Standardfarbe.
+
+44.20 07A   WDVS Silikon-Dünnp.Rillenstruktur 2mm                                                                      m²
+
+44.20 07B   WDVS Silikon-Dünnp.Rillenstruktur 3mm                                                                      m²
+
+44.20 07C   WDVS Silikon-Dünnp.Reibstrukt.1,5mm                                                                        m²
+
+                                                                                                                 Seite 21 / 24
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                              gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                 EH
+
+44.20 07D   WDVS Silikon-Dünnp.Reibstruktur 2mm                                                                        m²
+
+44.20 07E   WDVS Silikon-Dünnp.Reibstruktur 3mm                                                                        m²
+
+44.20 07F   WDVS Silikon-Dünnp.Füllputz 0,5mm                                                                          m²
+            Überziehen des Dünnputzes mit Füllputz, Korngröße 0,5 mm, um eine glatte Oberfläche zu erzielen.
+
+44.20 07G   WDVS Silikon-Dünnp.Feinputz 1mm                                                                            m²
+44.20 08    Aufzahlung (Az) auf Endbeschichtung des WDVS mit Silikon-Dünnputz (Silikon-Dünnp.) für eine Ausführung in
+            Sonderfarbe.
+
+44.20 08A   Az WDVS Silikon-Dünnp.b.1,5mm S.-Farbe                                                                     m²
+            Sonderfarbe: ____________
+
+44.20 08B   Az WDVS Silikon-Dünnp.2mm S.-Farbe                                                                         m²
+            Sonderfarbe: ____________
+
+44.20 08C   Az WDVS Silikon-Dünnp.3mm S.-Farbe                                                                         m²
+            Sonderfarbe: ____________
+
+44.20 11    Aufzahlung (Az) auf die Position Endbeschichtung des WDVS mit Dünnputz für eine fungizide und algizide
+            Ausführung.
+
+44.20 11A   Az WDVS Dünnp.b.1,5mm fungizid/algizid                                                                     m²
+
+44.20 11B   Az WDVS Dünnp.2mm fungizid/algizid                                                                         m²
+
+44.20 11C   Az WDVS Dünnp.3mm fungizid/algizid                                                                         m²
+
+44.20 11D   Az WDVS Buntstein-Dünnp.fungizid/algizid                                                                   m²
+44.20 20    Oberflächenbeschichtung des WDVS mit Fassadenfarbe kunstharzgebunden (Farbe kunsth.).
+
+44.20 20A   WDVS Farbe kunsth.Standard                                                                                 m²
+            In Standardfarbe.
+
+44.20 20B   WDVS Farbe kunsth.Sonderfarbe                                                                              m²
+            In Sonderfarbe: ____________
+
+44.20 21    Oberflächenbeschichtung des WDVS mit Silikatfarbe.
+
+44.20 21A   WDVS Silikatfarbe Standard                                                                                 m²
+            In Standardfarbe.
+
+44.20 21B   WDVS Silikatfarbe Sonderfarbe                                                                              m²
+            In Sonderfarbe: ____________
+
+44.20 22    Oberflächenbeschichtung des WDVS mit Silikonharzfarbe.
+
+44.20 22A   WDVS Silikonharzfarbe Standard                                                                             m²
+            In Standardfarbe.
+
+44.20 22B   WDVS Silikonharzfarbe Sonderfarbe                                                                          m²
+            In Sonderfarbe: ____________
+
+44.20 25    Aufzahlung (Az) auf Oberflächenbeschichtung des WDVS mit Farben für eine fungizide und algizide
+            Ausführung.
+
+44.20 25A   Az WDVS Farbe fungizid/algizid                                                                             m²
+44.20 31    Aufzahlung (Az) auf Oberflächenbeschichtung des WDVS mit Farben.
+
+44.20 31A   Erschwernisse f.Mehrfärbigkeit                                                                             m²
+            Für Erschwernisse bei verschiedene Putzarten oder Färbungen innerhalb zusammenhängender Putzflächen.
+
+                                                                                                                 Seite 22 / 24
+                                                                                            ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                                                                     gedruckt am 24.11.2025
+LGPosNr.    Positionsstichwort                                                                                        EH
+
+44.90       Regieleistungen
+
+
+            1. Allgemeines:
+            In dieser Unterleistungsgruppe werden nur angehängte Regieleistungen gemäß ÖNORM B 2110 erfasst.
+            Regieleistungen werden nur ausgeführt, wenn sie vom Auftraggeber im Einzelfall angeordnet werden, auch
+            wenn sie im Vertrag (Leistungsverzeichnis) vorgesehen sind.
+            Die aufgewendeten Stunden, verwendeten Geräte, Transportleistungen und verbrauchten Stoffe werden täglich
+            in die Regiescheine eingetragen und dem Auftraggeber zur Gegenzeichnung vorgelegt.
+            2. Mengenänderungen:
+            Die Bestimmungen, wonach bei Mengenänderungen die Neuvereinbarung von Einheitspreisen verlangt werden
+            kann, sind auf Regieleistungen nicht anwendbar.
+            3. Beschäftigungsgruppen:
+            Die angeführten Beschäftigungsgruppen entsprechen den kollektivvertraglichen Regelungen. In den
+            Stundensätzen sind auch anteilige Wegegelder, Fahrtspesen und Aufwandsentschädigungen (Auslösen)
+            einkalkuliert. Verrechnet wird die an der Arbeits- oder Montagestelle tatsächlich geleistete Arbeitszeit, die
+            kleinste Einheit ist die angefangene halbe Stunde.
+            4. Einkalkulierte Leistungen:
+            Die Einheitspreise für Stoffe gelten frei Baustelle, einschließlich Abladen.
+            5. Ausmaß- und Abrechnungsregeln:
+            Zur Verrechnung kommen die Stundensätze jener Beschäftigungsgruppe, die für die jeweilige Regieleistung
+            ausreicht, unabhängig von der Qualifizierung des tatsächlich eingesetzten Personals.
+             Kommentar:
+             Frei zu formulieren (z.B.):
+             - Überstunden, die dem Arbeitsruhegesetz unterliegen
+
+            LB-Version: 23                 Geringfügig Geändert
+44.90 00    Folgende Angaben und Anforderungen an die Art und Weise der Leistungserbringung gelten als vereinbart und
+            sind in die Einheitspreise einkalkuliert.
+
+44.90 00A   Überstundenregelung
+            Die Preise für vom Auftraggeber angeordnete Überstunden in Regie werden wie folgt berechnet:
+            Die außerhalb der normalen Arbeitszeit geleistete Stundenanzahl wird bei Überstunden mit einem 50%igem
+            Zuschlag mit 1,33 und bei Überstunden mit einem 100%-igem Zuschlag mit 1,66 multipliziert. Der Einheitspreis
+            bleibt unverändert.
+
+44.90 01    Regiestunden.
+
+44.90 01A   Regiestunde Facharbeiter                                                                                         h
+            Facharbeiter.
+
+44.90 01B   Regiestunde Hilfsarbeiter                                                                                        h
+            Hilfsarbeiter.
+
+44.90 51    Materiallieferungen f.Regieleistungen                                                                            VE
+            Materiallieferungen für angeordnete Regieleistungen, für die keine gesonderten Regiepositionen
+            ausgeschrieben wurden, werden mit einem prozentuellen Aufschlag (Gesamtzuschlag Material) auf die vom
+            Auftragnehmer nachgewiesenen Materialkosten frei Bau (ohne Umsatzsteuer) abgerechnet (sinngemäß K4
+            nach ÖNORM B 2061).
+            Der Rechnungsbetrag ist durch saldierte Rechnungen nachzuweisen und muss etwaig gewährte Rabatte
+            berücksichtigen. Skonti (Nachlässe bei früherem Zahlungsziel) oder Zinsen für verspätete Zahlungen bleiben
+            unberücksichtigt.
+            Diese Position unterliegt auch bei Verträgen zu veränderlichen Preisen nicht der Preisumrechnung.
+            Als Einheitspreis wird der angebotene Prozentsatz mit höchstens 2 Stellen nach dem Komma als Faktor
+            eingesetzt.
+            1 VE = 1 EURO
+            Beispiel:
+            angebotener Prozentsatz: +12%
+            als Einheitspreis einzusetzen: 1,12
+
+                                                                                                                       Seite 23 / 24
+                                                                                                  ib-data GmbH, Softwareentwicklung
+Leistungsbeschreibung Hochbau                          gedruckt am 24.11.2025
+LGPosNr.   Positionsstichwort                                              EH
+
+           LB-Version: 23       Geringfügig Geändert
+
+
+
+
+                                                                            Seite 24 / 24
+                                                       ib-data GmbH, Softwareentwicklung
+

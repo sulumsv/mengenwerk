@@ -1,0 +1,1456 @@
+{
+  "lg": "29",
+  "title": "Kunststeinarbeiten",
+  "positions": [
+    {
+      "code": "29.00.01A",
+      "text": "Transport Arbeitsplatz waagrecht",
+      "unit": ""
+    },
+    {
+      "code": "29.00.01B",
+      "text": "Transport Arbeitsplatz lotrecht",
+      "unit": ""
+    },
+    {
+      "code": "29.00.03A",
+      "text": "Untergrund bei Böden innen",
+      "unit": ""
+    },
+    {
+      "code": "29.00.03B",
+      "text": "Untergrund bei Böden außen",
+      "unit": ""
+    },
+    {
+      "code": "29.00.03C",
+      "text": "Belagsmuster",
+      "unit": ""
+    },
+    {
+      "code": "29.00.03D",
+      "text": "Platten, Sockel, Stufen gleich",
+      "unit": ""
+    },
+    {
+      "code": "29.00.05A",
+      "text": "Verlegung nach beiliegend.Plan",
+      "unit": ""
+    },
+    {
+      "code": "29.00.05B",
+      "text": "Verlegeplan ist einzusehen",
+      "unit": ""
+    },
+    {
+      "code": "29.11.01A",
+      "text": "Boden ausgleich.ü.3-5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "29.11.02A",
+      "text": "Vlies 150g/m2",
+      "unit": "m²"
+    },
+    {
+      "code": "29.11.03A",
+      "text": "Matte extr.Schaumst.PE 5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.02A",
+      "text": "Terrazzopl.30x30 gZ K15 2-f.",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.02B",
+      "text": "Terrazzopl.30x30 gZ K15 schw/w",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.02C",
+      "text": "Terrazzopl.30x30 gZ K25",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.02E",
+      "text": "Terrazzopl.30x30 wZ K15 2-f.",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.02F",
+      "text": "Terrazzopl.30x30 wZ K15 beige",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.02G",
+      "text": "Terrazzopl.30x30 wZ K25 beige",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.03A",
+      "text": "Terrazzopl.40x40 gZ K15 2-f.",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.03B",
+      "text": "Terrazzopl.40x40 gZ K15 schw/w",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.03C",
+      "text": "Terrazzopl.40x40 gZ K25",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.03E",
+      "text": "Terrazzopl.40x40 wZ K15 2-f.",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.03F",
+      "text": "Terrazzopl.40x40 wZ K15 beige",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.03G",
+      "text": "Terrazzopl.40x40 wZ K25 beige",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.04A",
+      "text": "Agglo k-harzg.Mört.1,2/40x40",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.04B",
+      "text": "Agglo k-harz.Mört.1,2/30x50-60",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.04C",
+      "text": "Agglo k-harzg.Mört.2/40x40",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.04D",
+      "text": "Agglo k-harzg.Mört.2/30x50-60",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.05A",
+      "text": "Agglo k-harzg.Dünnb.1,2/40x40",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.05B",
+      "text": "Agglok-harz.Dünnb.1,2/30x50-60",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.05C",
+      "text": "Agglo k-harzg.Dünnb.2/40x40",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.05D",
+      "text": "Agglo k-harz.Dünnb.2/30x50-60",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.06A",
+      "text": "Agglo-pl.zementgeb.Mörtelbett",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.06B",
+      "text": "Agglo-pl.zementgeb.Dünnbett",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.08A",
+      "text": "Az Terrazzo Mörteldicke+1cm",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.08B",
+      "text": "Az Terr.Plattenschnitt Ichse/Gr                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "29.12.08C",
+      "text": "Az Terr.Gefälle ü.3-10 Prozent",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.08D",
+      "text": "Az Terr.Bodenb.Bogenschnitte                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "29.12.08E",
+      "text": "Az Terr.Bodenb.Gehrungen                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "29.12.08F",
+      "text": "Az Terr.Bodenb.Aussparung b.0,1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.12.08G",
+      "text": "Az Terr.Bodenb.Aussparung ü.0,1-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.12.08H",
+      "text": "Az Terr.Bodenb.Aussparung ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.12.08I",
+      "text": "Az Terr.Bodenbel.b.5m2",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.08J",
+      "text": "Az Terr.Bodenb.diagonal verl.",
+      "unit": "m²"
+    },
+    {
+      "code": "29.12.10A",
+      "text": "Az Terr.Bel.Fries b.50% Platte                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "29.12.10B",
+      "text": "Az Terr.Bel.Fries ü.50% Platte                                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "29.12.11A",
+      "text": "Az Terr-Bel.Bordür 50% Platte                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "29.12.11B",
+      "text": "Az Terr.Bel.Bordür ü.50% Platte                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "29.13.01A",
+      "text": "Betonplatte Mört.40x40x3cm",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.01B",
+      "text": "Betonplatte Mört.50x50x4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.02A",
+      "text": "Waschbetonpl.Mört.50x25x4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.02B",
+      "text": "Waschbetonpl.Mört.50x50x4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.02C",
+      "text": "Waschbetonpl.Mört.50x75x4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.03A",
+      "text": "Betonpl.Ornam.Mört.",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.04A",
+      "text": "Betonplatte Abstandh.40x40x4cm",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.04B",
+      "text": "Betonplatte Abstandh.50x50x5cm",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.05A",
+      "text": "Waschbetonpl.Abstandh.50x25x5",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.05B",
+      "text": "Waschbetonpl.Abstandh.50x50x5",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.05C",
+      "text": "Waschbetonpl.Abstandh.50x75x5",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.07A",
+      "text": "Betonplatten Kiesbett 40x40x3",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.07B",
+      "text": "Betonplatten Kiesbett 50x50x4",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.08A",
+      "text": "Waschbetonpl.Kiesbett 50x25x4",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.08B",
+      "text": "Waschbetonpl.Kiesbett 50x50x4",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.08C",
+      "text": "Waschbetonpl.Kiesbett 50x75x4",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.09A",
+      "text": "Betonpl.Ornam.Kiesbett",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.10A",
+      "text": "Az Bet-pl.Mörteldicke+1cm",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.10B",
+      "text": "Az Bet-pl.Kies-Splittbett+1cm",
+      "unit": "m²"
+    },
+    {
+      "code": "29.13.10C",
+      "text": "Az Bet-plattenschnitt Ichse/Gr                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "29.13.10D",
+      "text": "Az Bet-pl.Bogenschnitte                                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.01A",
+      "text": "Trittplatte gZ K15 2-f.b.1,4m                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.01B",
+      "text": "Trittplatte gZK15 2-f.ü.1,4-1,8m                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.01C",
+      "text": "Trittplatte gZ K15 schw/w.b.1,4m                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.01D",
+      "text": "Trittplatte gZ K15 schw/w.ü.1,4-1,8m                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.01E",
+      "text": "Trittplatte gZ K25 b.1,4m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.01F",
+      "text": "Trittplatte gZ K25 ü.1,4-1,8m                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.01I",
+      "text": "Trittplatte wZ K15 2-f.b.1,4m                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.01J",
+      "text": "Trittplatte wZ K15 2-f.ü.1,4-1,8m                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.01K",
+      "text": "Trittplatte wZ K15 beige b.1,4m                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.01L",
+      "text": "Trittplatte wZ K15 beige ü.1,4-1,8m                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.01M",
+      "text": "Trittplatte wZ K25 beige b.1,4m                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.01N",
+      "text": "Trittplatte wZ K25 beige ü.1,4-1,8m                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02A",
+      "text": "Setzplatte gZ K15 2-f.b.1,4m 2cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02B",
+      "text": "Setzplatte gZ K15 2-f.b.1,4m 3cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02C",
+      "text": "Setzplatte gZK15 2-f.ü.1,4-1,8 3cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02D",
+      "text": "Setzplatte gZK15 2-f.ü.1,4-1,8 4cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02E",
+      "text": "Setzplatte gZ K15 schw/w.b.1,4 2cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02F",
+      "text": "Setzplatte gZ K15 schw/w.b.1,4 3cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02G",
+      "text": "Setzplatte gZ K15 schw/w.ü.1,4-1,8 3cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02H",
+      "text": "Setzplatte gZ K15 schw/w.ü.1,4-1,8 4cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02I",
+      "text": "Setzplatte gZ K25 b.1,4m 2cm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02J",
+      "text": "Setzplatte gZ K25 b.1,4m 3cm                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02K",
+      "text": "Setzplatte gZ K25 ü.1,4-1,8m 3cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02L",
+      "text": "Setzplatte gZ K25 ü.1,4-1,8m 4cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02M",
+      "text": "Setzplatte wZ K15 2-f.b.1,4m 2cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02N",
+      "text": "Setzplatte wZ K15 2-f.b.1,4m 3cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02O",
+      "text": "Setzplatte wZ K15 2-f.ü.1,4-1,8m 3cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02P",
+      "text": "Setzplatte wZ K15 2-f.ü.1,4-1,8m 4cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02Q",
+      "text": "Setzplatte wZ K15 beige b.1,4m 2cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02R",
+      "text": "Setzplatte wZ K15 beige b.1,4m 3cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02S",
+      "text": "Setzplatte wZ K15 beige ü.1,4-1,8m 3cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02T",
+      "text": "Setzplatte wZ K15 beige ü.1,4-1,8m 4cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02U",
+      "text": "Setzplatte wZ K25 beige b.1,4m 2cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02V",
+      "text": "Setzplatte wZ K25 beige b.1,4m 3cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02W",
+      "text": "Setzplatte wZ K25 beige ü.1,4-1,8m 3cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.02X",
+      "text": "Setzplatte wZ K25 beige ü.1,4-1,8m 4cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.03A",
+      "text": "Trittplatte Agglo k-harzg.3cm b.1,4m                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.03B",
+      "text": "Trittplatte Agglo k-harzg.4cm b.1,4m                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.03C",
+      "text": "Trittplatte Agglo k-harzg.3cm ü.1,4-1,8m                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.03D",
+      "text": "Trittplatte Agglo k-harzg.4cm ü.1,4-1,8m                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.03E",
+      "text": "Trittplatte Agglo zementg.4cm b.1,4m                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.03F",
+      "text": "Trittplatte Agglo zementg.4cm ü.1,4-1,8m                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.04A",
+      "text": "Setzplatte Agglo k-harzg.2cm b.1,4m                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.04B",
+      "text": "Setzpatte Agglo k-harzg.3cm b.1,4m                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.04C",
+      "text": "Setzplatte Agglo k-harzg.2cm ü.1,4-1,8m                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.04D",
+      "text": "Setzplatte Agglo k-harzg.3cm ü.1,4-1,8m                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.04F",
+      "text": "Setzplatte Agglo zementg.3cm b.1,4m                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.04G",
+      "text": "Setzplatte Agglo zementg.4cm b.1,4m                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.04H",
+      "text": "Setzplatte Agglo zementg.3cm ü.1,4-1,8m                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.04I",
+      "text": "Setzplatte Agglo zementg.4cm ü.1,4-1,8m                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.06A",
+      "text": "Az Kopf schleifen Trittplatte",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.14.06B",
+      "text": "Az Kopf Schleifen Setzplatte",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.14.07A",
+      "text": "Trittplatte Waschbet.Rundkies b.1,4m                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.07B",
+      "text": "Trittplatte Waschbet.Rundkies ü.1,4-1,8m                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.08A",
+      "text": "Setzplatte Waschbet.Rundkies b.1,4m                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.08B",
+      "text": "Setzplatte Waschbet.Rundkies ü.1,4-1,8m                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.10A",
+      "text": "Az Waschb.Kopfausbild.Trittstufenplatte",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.14.10B",
+      "text": "Az Waschb.Kopfausbild.Setzstufenplatte",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.14.11A",
+      "text": "Winkelstufe gZ K15 2-f.b.1,4m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.11B",
+      "text": "Winkelstufe gZK15 2-f.ü.1,4-1,8m                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.11C",
+      "text": "Winkelstufe gZ K15 schw/w.b.1,4m                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.11D",
+      "text": "Winkelstufe gZ K15schw/w.ü.1,4-1,8m                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.11E",
+      "text": "Winkelstufe gZ K25 b.1,4m                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.11F",
+      "text": "Winkelstufe gZ K25 ü.1,4-1,8m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.11I",
+      "text": "Winkelstufe wZ K15 2-f.b.1,4m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.11J",
+      "text": "Winkelstufe wZ K15 2-f.ü.1,4-1,8m                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.11K",
+      "text": "Winkelstufe wZ K15 beige b.1,4m                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.11L",
+      "text": "Winkelstufe wZK15 beige ü.1,4-1,8m                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.11M",
+      "text": "Winkelstufe wZ K25 beige b.1,4m                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.11N",
+      "text": "Winkelstufe wZ K25 beige ü.1,4-1,8m                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.12A",
+      "text": "Winkelstufe Waschb.Rundkies b.1,4m                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.12B",
+      "text": "Winkelstufe Waschb.Rundkies ü.1,4-1,8m                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.13A",
+      "text": "Az Winkelstufe Kopf schleifen",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.14.14A",
+      "text": "Keilstufe gZ K15 2-f.b.1,4m                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.14B",
+      "text": "Keilstufe gZ K15 2-f.ü.1,4-1,8m                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.14C",
+      "text": "Keilstufe gZ K15 schw/w.b.1,4m                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.14D",
+      "text": "Keilstufe gZ K15 schw/w.ü.1,4-1,8m                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.14E",
+      "text": "Keilstufe gZ K25 b.1,4m                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.14F",
+      "text": "Keilstufe gZ K25 ü.1,4-1,8m                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.14I",
+      "text": "Keilstufe wZ K15 2-f.b.1,4m                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.14J",
+      "text": "Keilstufe wZ K15 2-f.ü.1,4-1,8m                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.14K",
+      "text": "Keilstufe wZ K15 beige b.1,4m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.14L",
+      "text": "Keilstufe wZ K15 beige ü.1,4-1,8m                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.14M",
+      "text": "Keilstufe wZ K25 beige b.1,4m                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.14N",
+      "text": "Keilstufe Wz K25 beige ü.1,4-1,8m                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.15A",
+      "text": "Az Keilstufe Kopf schleifen",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.14.18A",
+      "text": "Blockstufe gZ K15 2-f.b.1,4m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.18B",
+      "text": "Blockstufe gZ K15 2-f.ü1,4-1,8m                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.18C",
+      "text": "Blockstufe gZ K15 schw/w.b.1,4m                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.18D",
+      "text": "Blockstufe gZ K15 schw/w.ü.1,4-1,8m                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.18E",
+      "text": "Blockstufe gZ K25 b.1,4m                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.18F",
+      "text": "Blockstufe gZ K25 ü.1,4-1,8m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.18I",
+      "text": "Blockstufe wZ K15 2-f.b.1,4m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.18J",
+      "text": "Blockstufe wZ K15 2-f.ü1,4-1,8m                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.18K",
+      "text": "Blockstufe wZ K15 beige b.1,4m                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.18L",
+      "text": "Blockstufe wZ K15 beige ü.1,4-1,8m                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.18M",
+      "text": "Blockstufe wZ K25 beige b.1,8m                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.18N",
+      "text": "Blockstufe wZ K25 beige ü.1,8-1,9m                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.14.19A",
+      "text": "Az Blockstufe Kopf schleifen",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.14.21A",
+      "text": "Az f.Randplatte Untersicht 5cm                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.01A",
+      "text": "Fensterbank gZ 2-f.K15 3/20cm b.1,4m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.01B",
+      "text": "Fensterbank gZ 2-f.K15 3/20cm ü.1,4-1,8m                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.01C",
+      "text": "Fensterbank gZ 2-f.K15 4/20cm b.1,4m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.01D",
+      "text": "Fensterbank gZ 2-f.K15 4/20cm ü.1,4-1,8m                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.01E",
+      "text": "Fensterbank gZ 2-f.K25 3/20cm b.1,4m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.01F",
+      "text": "Fensterbank gZ 2-f.K25 3/20cm ü.1,4-1,8m                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.01G",
+      "text": "Fensterbank gZ 2-f.K25 4/20cm b.1,4m                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.01H",
+      "text": "Fensterbank gZ 2-f.K25 4/20cm ü.1,4-1,8m                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.04A",
+      "text": "Fensterbank Aggloharz 2/20cm b.1,4m                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.04B",
+      "text": "Fensterbank Aggloharz 2/20cm ü.1,4-1,8m                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.04C",
+      "text": "Fensterbank Aggloharz 3/20cm b.1,4m                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.04D",
+      "text": "Fensterbank Aggloharz 3/20cm ü.1,4-1,8m                                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.04E",
+      "text": "Fensterbank Aggloharz 4/20cm b.1,4m                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.05A",
+      "text": "Fensterbank Agglo zem.3/20cm b.1,4m                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.05B",
+      "text": "Fensterbank Agglo zem.3/20cm ü.1,4-1,8m                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.07A",
+      "text": "Az A-FensterbankTropfkante                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.07B",
+      "text": "Az A-Fensterbank Schwitzw.Rinne                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.07C",
+      "text": "Az A-Fensterbank seitl.Rille",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.15.08A",
+      "text": "Az Fensterbank Kunstst.3cm+Br.b.5cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.08B",
+      "text": "Az Fensterbank Kunstst.3cm+Br.ü.5-10cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.08C",
+      "text": "Az Fensterbank Kunstst.3cm+Br.ü.10-15cm                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.08E",
+      "text": "Az Fensterbank Kunstst.4cm+Br.b.5cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.08F",
+      "text": "Az Fensterbank Kunstst.4cm+Br.ü.5-10cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.08G",
+      "text": "Az Fensterbank Kunstst.4cm+Br.ü.10-15cm                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.10A",
+      "text": "Az Fensterbank Aggloharz 2cm+Br.b.5cm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.10B",
+      "text": "Az Fensterbank Aggloharz 2cm+Br.ü.5-10cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.10C",
+      "text": "Az Fensterbank Aggloharz 2cm+Br.ü.10-15cm                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.10E",
+      "text": "Az Fensterbank Aggloharz 3cm+Br.b.5cm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.10F",
+      "text": "Az Fensterbank Aggloharz 3cm+Br.ü.5-10cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.10G",
+      "text": "Az Fensterbank Aggloharz 3cm+Br.ü.10-15cm                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.10I",
+      "text": "Az Fensterbank Aggloharz 4cm+Br.b.5cm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.10J",
+      "text": "Az Fensterbank Aggloharz 4cm+Br.ü.5-10cm                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.10K",
+      "text": "Az Fensterbank Aggloharz 4cm+Br.ü.10-15cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.12A",
+      "text": "Stemmen Schlitz in Leibung                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "29.15.15A",
+      "text": "Türschwelle gZ K15 2-f.b.15cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.15.15B",
+      "text": "Türschwelle gZ K15 2-f.ü.15-20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.15.15C",
+      "text": "Türschwelle wZ K15 2-f.b.15cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.15.15D",
+      "text": "Türschwelle wZ K15 2-f.ü.15-20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.15.17A",
+      "text": "Türschwelle Agglokunstharz b.15cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.15.17B",
+      "text": "Türschwelle Agglokunstharz ü.15-20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.15.19A",
+      "text": "Az Türschwelle Nut 5/10mm                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "29.16.01A",
+      "text": "Sockel zementg.K15 2-f.gZ                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "29.16.01B",
+      "text": "Sockel zementg.K15 2-f.Wz                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "29.16.01C",
+      "text": "Sockel zementg.K15                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.16.01D",
+      "text": "Sockel zementg.K25                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.16.02A",
+      "text": "Sockel Agglo kunstharzg.0,8cm                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "29.16.07A",
+      "text": "Stufensockel abgetr.K15 2-f.gZ                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "29.16.07B",
+      "text": "Stufensockel abgetr.K15 2-f.wZ                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "29.16.08A",
+      "text": "Stufensock.abgetr.Agglo-kunsth                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "29.16.10A",
+      "text": "Az gekrümmt Sockel b.r=ü.1m                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "29.16.10B",
+      "text": "Az gekrümmt Sockel b.r=ü.1-2m                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.01A",
+      "text": "Fuge m.elast.Dichtstoff 5mm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.01B",
+      "text": "Fuge m.elast.Dichtstoff 10mm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.02A",
+      "text": "Winkelrahmen nur versetzen                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.03A",
+      "text": "Boden innerh.Rahmen ausgleichen",
+      "unit": "m²"
+    },
+    {
+      "code": "29.17.04A",
+      "text": "Deck.wählb.Oberfl.n.vers.0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.17.04B",
+      "text": "Deck.wählb.Oberfl.n.vers.1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.17.05A",
+      "text": "Deckel wählb.Oberfl.Al 40x60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.17.05B",
+      "text": "Deckel wählb.Oberfl.Edelstahl 40x60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.17.05E",
+      "text": "Deckel wählb.Oberfl.Al 60x60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.17.05F",
+      "text": "Deckel wählb.Oberfl.Edelstahl 60x60cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.17.05H",
+      "text": "Deckel wählb.Oberfl.Al 60x100",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.17.05I",
+      "text": "Deckel wählb.Oberfl.Edelstahl 60x100",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.17.06A",
+      "text": "Abschlusswinkel b.25mm Alu 2mm                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.06B",
+      "text": "Abschlusswinkel b.25mm Messing 2mm                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.06C",
+      "text": "Abschlusswinkel b.25mm Edelstahl 2mm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.07A",
+      "text": "Abschlusswinkel 25-35mm Alu 2mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.07B",
+      "text": "Abschlusswinkel 25-35mm Messing 2mm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.07C",
+      "text": "Abschlusswinkel 25-35mm Edelstahl 2mm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.08A",
+      "text": "Abschlusswinkel 35-45mm Alu 3mm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.08B",
+      "text": "Abschlusswinkel 35-45mm Messing 3mm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.08C",
+      "text": "Abschlusswinkel 35-45mm Edelstahl 3mm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.08E",
+      "text": "Abschlusswinkel Al.40/20/2mm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.08F",
+      "text": "Abschlusswinkel Al.40/20/3mm                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.09A",
+      "text": "Gleitsch.Kst+Fräs.1cm durchgehend                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.09B",
+      "text": "Gleitsch.Kst+Fräs.1cm 1s abgesetzt                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.09C",
+      "text": "Gleitsch.Kst+Fräs.1cm 2s abgesetzt                                                                            m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.09D",
+      "text": "Gleitsch.Kst+Fräs.4-5cm durchgehend                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.09E",
+      "text": "Gleitsch.Kst+Fräs.4-5cm 1s abgesetzt                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.09F",
+      "text": "Gleitsch.Kst+Fräs.4-5cm 2s abgesetzt                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.10A",
+      "text": "Löcher bohren 10cm D b.10mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.17.10B",
+      "text": "Löcher bohren 10cm D ü.10-15mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.17.10C",
+      "text": "Löcher bohren 10cm D ü.15-20mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.17.11A",
+      "text": "Kunststein fluatieren",
+      "unit": "m²"
+    },
+    {
+      "code": "29.17.12A",
+      "text": "Dehnfugenprofil Al.Klasse A                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.12B",
+      "text": "Dehnfugenprofil Al.Klasse B                                                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.12D",
+      "text": "Dehnfugenprofil Edelstahl Klasse A                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.12E",
+      "text": "Dehnfugenprofil Edelstahl Klasse B                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "29.17.14A",
+      "text": "Schleifen Terrazzoplattenbeläge",
+      "unit": "m²"
+    },
+    {
+      "code": "29.80.01A",
+      "text": "Trennschnitt im Bodenbelag 2cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "29.80.01B",
+      "text": "Trennschnitt im Bodenbelag 5cm                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "29.80.02A",
+      "text": "Nassschneiden Bodenbelag 2cm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "29.80.02B",
+      "text": "Nassschneiden Bodenbelag 5cm                                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "29.80.03A",
+      "text": "Einzel.Terrazzoplatten ersetzen K15",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.80.03B",
+      "text": "Einzel.Terrazzoplatten ersetzen K25",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.80.04A",
+      "text": "Terrazzoplattenbelag inst.K15 2m2",
+      "unit": "m²"
+    },
+    {
+      "code": "29.80.04B",
+      "text": "Terrazzoplattenbelag inst.K25 2m2",
+      "unit": "m²"
+    },
+    {
+      "code": "29.80.07A",
+      "text": "Einzel.Sockelplatten ersetzen K15",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.80.07B",
+      "text": "Einzel.Sockelplatten ersetzen K25",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.80.08A",
+      "text": "Stufen instandsetzen                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "29.80.09A",
+      "text": "Ausbessern Stufenkante b.5cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.80.09B",
+      "text": "Ausbessern Stufenkante ü.5-20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.80.09C",
+      "text": "Ausbessern Stufenkante ü.20-50cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "29.80.09D",
+      "text": "Ausbessern Stufenkante ü.50cm                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "29.80.10A",
+      "text": "Podesttrittstufe inkrustieren",
+      "unit": "m²"
+    },
+    {
+      "code": "29.80.10B",
+      "text": "Podestsetzstufe inkrustieren                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "29.80.11A",
+      "text": "Az inkrust.Stufe Kante schleif",
+      "unit": "m²"
+    },
+    {
+      "code": "29.80.11B",
+      "text": "Az inkrust.Stufe einf.Rundung                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "29.80.12A",
+      "text": "Alten Terrazzopl-bel.schleifen",
+      "unit": "m²"
+    },
+    {
+      "code": "29.90.00C",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "29.90.01A",
+      "text": "Regiestunde K-st.Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "29.90.01B",
+      "text": "Regiestunde K-st.Schleifer",
+      "unit": "h"
+    },
+    {
+      "code": "29.90.01C",
+      "text": "Regiestunde K-st.Hilfsarbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "29.90.02A",
+      "text": "Verlegemörtel                                                                                                    l",
+      "unit": ""
+    },
+    {
+      "code": "29.90.03A",
+      "text": "Klebemörtel zementgebunden",
+      "unit": "kg"
+    },
+    {
+      "code": "29.90.06A",
+      "text": "Terrazzoplatten gZ",
+      "unit": "m²"
+    },
+    {
+      "code": "29.90.06B",
+      "text": "Terrazzoplatten Wz",
+      "unit": "m²"
+    },
+    {
+      "code": "29.90.06C",
+      "text": "Terrazzoplatten gemäß Position",
+      "unit": "m²"
+    },
+    {
+      "code": "29.90.06D",
+      "text": "Betonplatten gemäß Position",
+      "unit": "m²"
+    },
+    {
+      "code": "29.90.06E",
+      "text": "Waschbetonplatten gemäß Position",
+      "unit": "m²"
+    },
+    {
+      "code": "29.90.06G",
+      "text": "Agglomeratpl.harz. gemäß Position",
+      "unit": "m²"
+    },
+    {
+      "code": "29.90.06H",
+      "text": "Agglomeratpl.zem. gemäß Position",
+      "unit": "m²"
+    }
+  ]
+}

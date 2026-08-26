@@ -1,0 +1,301 @@
+{
+  "lg": "73",
+  "title": "Fenster aus Kunststoff",
+  "positions": [
+    {
+      "code": "73.00.01A",
+      "text": "Seehöhe u.Gebäudegeometrie",
+      "unit": ""
+    },
+    {
+      "code": "73.10.01A",
+      "text": "Einfachfenster K.st.m.Standard-Fensteranschluss",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11A",
+      "text": "Az Einfachfenster K.st.MIG f.Fries",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11B",
+      "text": "Az Einfachfenster K.st.MIG f.Fries doppelt",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11C",
+      "text": "Az Einfachfenster K.st.MIG f.Sonneschutzgl.reflekt.",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11D",
+      "text": "Az Einfachfenster K.st.MIG f.Sonneschutzgl.absorb.",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11E",
+      "text": "Az Einfachfenster K.st.MIG f.Spr.vert./horiz.im Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11F",
+      "text": "Az Einfachfenster K.st.MIG f.Spr/K.vert./horiz.im Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11G",
+      "text": "Az Einfachfenster K.st.MIG f.Spr.vert./horiz.auf Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11H",
+      "text": "Az Einfachfenster K.st.MIG f.Spr/K.vert./horiz.auf Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11I",
+      "text": "Az Einfachfenster K.st.MIG f.Öffnungsbegrenzung",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11J",
+      "text": "Az Einfachfenster K.st.MIG f.Drehsperre",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11K",
+      "text": "Az Einfachfenster K.st.MIG f.Gestänge f.Oberlichten 2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11L",
+      "text": "Az Einfachfenster K.st.MIG f.Fenstergriff m.Rosette",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11M",
+      "text": "Az Einfachfenster K.st.MIG f.Scheibenaufbau",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11N",
+      "text": "Az Einfachfenster K.st.MIG f.Scheibenabstand",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11O",
+      "text": "Az Einfachfenster K.st.MIG f.Mindestschalldämmmaß",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11P",
+      "text": "Az Einfachfenster K.st.MIG f.Wärmedurchgangskoeffizient",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11Q",
+      "text": "Az Einfachfenster K.st.MIG f.einbruchhemmend",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11R",
+      "text": "Az Einfachfenster K.st.MIG f.Strahlenschutz",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11S",
+      "text": "Az Einfachfenster K.st.MIG f.Innenjalousien",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11T",
+      "text": "Az Einfachfenster K.st.MIG f.Absturzsicherung",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11U",
+      "text": "Az Einfachfenster K.st.MIG f.Reedkontakte",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.10.11Y",
+      "text": "Az Einfachfenster K.st.MIG f.Sonstiges",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.01A",
+      "text": "Verbundfenster K.st.m.Standard-Fensteranschluss",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11A",
+      "text": "Az Verbundfenster K.st.MIG f.Fries",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11B",
+      "text": "Az Verbundfenster K.st.MIG f.Fries doppelt",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11C",
+      "text": "Az Verbundfenster K.st.MIG f.Sonneschutzgl.reflekt.",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11D",
+      "text": "Az Verbundfenster K.st.MIG f.Sonneschutzgl.absorb.",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11E",
+      "text": "Az Verbundfenster K.st.MIG f.Spr.vert./horiz.im Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11F",
+      "text": "Az Verbundfenster K.st.MIG f.Spr/K.vert./horiz.im Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11G",
+      "text": "Az Verbundfenster K.st.MIG f.Spr.vert./horiz.auf Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11H",
+      "text": "Az Verbundfenster K.st.MIG f.Spr/K.vert./horiz.auf Glas",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11I",
+      "text": "Az Verbundfenster K.st.MIG f.Öffnungsbegrenzung",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11J",
+      "text": "Az Verbundfenster K.st.MIG f.Drehsperre",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11K",
+      "text": "Az Verbundfenster K.st.MIG f.Gestänge f.Oberlichten 2m",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11L",
+      "text": "Az Verbundfenster K.st.MIG f.Fenstergriff m.Rosette",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11M",
+      "text": "Az Verbundfenster K.st.MIG f.Scheibenaufbau",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11N",
+      "text": "Az Verbundfenster K.st.MIG f.Scheibenabstand",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11O",
+      "text": "Az Verbundfenster K.st.MIG f.Mindestschalldämmmaß",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11P",
+      "text": "Az Verbundfenster K.st.MIG f.Wärmedurchgangskoeffizient",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11Q",
+      "text": "Az Verbundfenster K.st.MIG f.einbruchhemmend",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11R",
+      "text": "Az Verbundfenster K.st.MIG f.Strahlenschutz",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11S",
+      "text": "Az Verbundfenster K.st.MIG f.Behang",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11T",
+      "text": "Az Verbundfenster K.st.MIG f.Absturzsicherung",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11U",
+      "text": "Az Verbundfenster K.st.MIG f.Reedkontakte",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.30.11Y",
+      "text": "Az Verbundfenster K.st.MIG f.Sonstiges",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.50.01A",
+      "text": "Türfeststeller Fußbedienung",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.50.02A",
+      "text": "Bewegliche Anschlüsse",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.50.11A",
+      "text": "Innenfensterbank Holz                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "73.50.14A",
+      "text": "Innenfensterbank melaminharzbeschichtet__________                                                              m",
+      "unit": ""
+    },
+    {
+      "code": "73.50.25A",
+      "text": "Außenfensterbank Aluminium                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "73.50.25B",
+      "text": "Seitlicher Abschluss Außenfensterbank Aluminium",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.50.29A",
+      "text": "Außenfensterbank-Stoßverbindung",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.50.36A",
+      "text": "Az f.Fensterlüfter",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.50.36C",
+      "text": "Az f.Schalldämmlüfter",
+      "unit": "Stk"
+    },
+    {
+      "code": "73.90.00A",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "73.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "73.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

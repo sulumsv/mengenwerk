@@ -1,0 +1,1371 @@
+{
+  "lg": "44",
+  "title": "Wärmedämmverbundsysteme (WDVS)",
+  "positions": [
+    {
+      "code": "44.02.26E",
+      "text": "Az WDVS EPS-F f. Jalousiekasten",
+      "unit": ""
+    },
+    {
+      "code": "44.00.00A",
+      "text": "Allgemeine Beschreibung des Gebäudes",
+      "unit": ""
+    },
+    {
+      "code": "44.00.00B",
+      "text": "Untergrundtypen",
+      "unit": ""
+    },
+    {
+      "code": "44.00.01A",
+      "text": "Nachweis f.qualifizierte Arbeiter/Partie",
+      "unit": ""
+    },
+    {
+      "code": "44.00.01B",
+      "text": "Nachweis f.Personal-Qualifikation",
+      "unit": ""
+    },
+    {
+      "code": "44.01.01A",
+      "text": "Abdecken Wände",
+      "unit": "m²"
+    },
+    {
+      "code": "44.01.01B",
+      "text": "Abdecken Geländer                                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "44.01.01C",
+      "text": "Abdecken Handlauf                                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "44.01.01D",
+      "text": "Abdecken Sohlbank/Gesimse b.0,5m                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "44.01.01E",
+      "text": "Abdecken Fassadengliederung",
+      "unit": "m²"
+    },
+    {
+      "code": "44.01.01F",
+      "text": "Abdecken Tür/Fenster b.2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.01.01G",
+      "text": "Abdecken Tür/Fenster ü.2-4m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.01.01H",
+      "text": "Abdecken Tür/Fenster abgedeckte Fläche",
+      "unit": "m²"
+    },
+    {
+      "code": "44.01.01I",
+      "text": "Abdecken Boden m.Vlies",
+      "unit": "m²"
+    },
+    {
+      "code": "44.01.01J",
+      "text": "Abdecken Boden m.Weichfaserplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "44.01.01K",
+      "text": "Abdecken Boden m.Brettern/Schaltafeln",
+      "unit": "m²"
+    },
+    {
+      "code": "44.01.05A",
+      "text": "Anstrich entfernen",
+      "unit": "m²"
+    },
+    {
+      "code": "44.01.05C",
+      "text": "Algen und Pilze entfernen",
+      "unit": "m²"
+    },
+    {
+      "code": "44.01.05D",
+      "text": "Untergrund Beton reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "44.01.05E",
+      "text": "Untergrund Beton ausgleichen",
+      "unit": "m²"
+    },
+    {
+      "code": "44.01.05F",
+      "text": "Putz abschlagen+ergänzen",
+      "unit": "m²"
+    },
+    {
+      "code": "44.01.05G",
+      "text": "Untergrund Mwk.verputzt reinigen",
+      "unit": "m²"
+    },
+    {
+      "code": "44.01.05H",
+      "text": "Untergrund Mwk.verputzt ausgleichen",
+      "unit": "m²"
+    },
+    {
+      "code": "44.01.05I",
+      "text": "Untergrund vorbereiten",
+      "unit": "m²"
+    },
+    {
+      "code": "44.01.05K",
+      "text": "Fassade m.Hochdruckwasserstrahlen reinigen 200bar",
+      "unit": "m²"
+    },
+    {
+      "code": "44.01.05L",
+      "text": "Fassade m.Hochdruckwasserstrahlen reinigen ü.200bar",
+      "unit": "m²"
+    },
+    {
+      "code": "44.01.08A",
+      "text": "Provisorische Regenfallrohre                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "44.01.11A",
+      "text": "Rohrschellenhalter b.10cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.01.11B",
+      "text": "Rohrschellenhalter ü.10-14cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.01.11C",
+      "text": "Rohrschellenhalter ü.14-18cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.01.11D",
+      "text": "Rohrschellenhalter ü.18-30cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.02.01E",
+      "text": "WDVS EPS-F 0,04W/(mK) UP3mm DD10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.01F",
+      "text": "WDVS EPS-F 0,04W/(mK) UP3mm DD12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.01G",
+      "text": "WDVS EPS-F 0,04W/(mK) UP3mm DD14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.01H",
+      "text": "WDVS EPS-F 0,04W/(mK) UP3mm DD16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.01I",
+      "text": "WDVS EPS-F 0,04W/(mK) UP3mm DD18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.01J",
+      "text": "WDVS EPS-F 0,04W/(mK) UP3mm DD20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.01X",
+      "text": "WDVS EPS-F 0,04W/(mK) UP3mm DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.02E",
+      "text": "WDVS EPS-F 0,04W/(mK) UP5mm DD10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.02F",
+      "text": "WDVS EPS-F 0,04W/(mK) UP5mm DD12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.02G",
+      "text": "WDVS EPS-F 0,04W/(mK) UP5mm DD14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.02H",
+      "text": "WDVS EPS-F 0,04W/(mK) UP5mm DD16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.02I",
+      "text": "WDVS EPS-F 0,04W/(mK) UP5mm DD18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.02J",
+      "text": "WDVS EPS-F 0,04W/(mK) UP5mm DD20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.02X",
+      "text": "WDVS EPS-F 0,04W/(mK) UP5mm DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.03E",
+      "text": "WDVS EPS-F 0,04W/(mK) my10 UP3mm DD10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.03F",
+      "text": "WDVS EPS-F 0,04W/(mK) my10 UP3mm DD12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.03G",
+      "text": "WDVS EPS-F 0,04W/(mK) my10 UP3mm DD14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.03H",
+      "text": "WDVS EPS-F 0,04W/(mK) my10 UP3mm DD16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.03I",
+      "text": "WDVS EPS-F 0,04W/(mK) my10 UP3mm DD18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.03J",
+      "text": "WDVS EPS-F 0,04W/(mK) my10 UP3mm DD20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.03X",
+      "text": "WDVS EPS-F 0,04W/(mK) my10 UP3mm DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.04E",
+      "text": "WDVS EPS-F 0,04W/(mK) my10 UP5mm DD10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.04F",
+      "text": "WDVS EPS-F 0,04W/(mK) my10 UP5mm DD12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.04G",
+      "text": "WDVS EPS-F 0,04W/(mK) my10 UP5mm DD14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.04H",
+      "text": "WDVS EPS-F 0,04W/(mK) my10 UP5mm DD16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.04I",
+      "text": "WDVS EPS-F 0,04W/(mK) my10 UP5mm DD18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.04J",
+      "text": "WDVS EPS-F 0,04W/(mK) my10 UP5mm DD20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.04X",
+      "text": "WDVS EPS-F 0,04W/(mK) my10 UP5mm DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.05E",
+      "text": "WDVS EPS-F 0,031W/(mK) UP3mm DD10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.05F",
+      "text": "WDVS EPS-F 0,031W/(mK) UP3mm DD12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.05G",
+      "text": "WDVS EPS-F 0,031W/(mK) UP3mm DD14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.05H",
+      "text": "WDVS EPS-F 0,031W/(mK) UP3mm DD16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.05I",
+      "text": "WDVS EPS-F 0,031W/(mK) UP3mm DD18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.05J",
+      "text": "WDVS EPS-F 0,031W/(mK) UP3mm DD20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.05X",
+      "text": "WDVS EPS-F 0,031W/(mK) UP3mm DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.06E",
+      "text": "WDVS EPS-F 0,031W/(mK) UP5mm DD10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.06F",
+      "text": "WDVS EPS-F 0,031W/(mK) UP5mm DD12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.06G",
+      "text": "WDVS EPS-F 0,031W/(mK) UP5mm DD14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.06H",
+      "text": "WDVS EPS-F 0,031W/(mK) UP5mm DD16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.06I",
+      "text": "WDVS EPS-F 0,031W/(mK) UP5mm DD18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.06J",
+      "text": "WDVS EPS-F 0,031W/(mK) UP5mm DD20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.06X",
+      "text": "WDVS EPS-F 0,031W/(mK) UP5mm DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.07E",
+      "text": "WDVS EPS-F 0,031W/(mK) my10 UP3mm DD10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.07F",
+      "text": "WDVS EPS-F 0,031W/(mK) my10 UP3mm DD12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.07G",
+      "text": "WDVS EPS-F 0,031W/(mK) my10 UP3mm DD14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.07H",
+      "text": "WDVS EPS-F 0,031W/(mK) my10 UP3mm DD16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.07I",
+      "text": "WDVS EPS-F 0,031W/(mK) my10 UP3mm DD18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.07J",
+      "text": "WDVS EPS-F 0,031W/(mK) my10 UP3mm DD20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.07X",
+      "text": "WDVS EPS-F 0,031W/(mK) my10 UP3mm DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.08E",
+      "text": "WDVS EPS-F 0,031W/(mK) my10 UP5mm DD10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.08F",
+      "text": "WDVS EPS-F 0,031W/(mK) my10 UP5mm DD12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.08G",
+      "text": "WDVS EPS-F 0,031W/(mK) my10 UP5mm DD14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.08H",
+      "text": "WDVS EPS-F 0,031W/(mK) my10 UP5mm DD16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.08I",
+      "text": "WDVS EPS-F 0,031W/(mK) my10 UP5mm DD18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.08J",
+      "text": "WDVS EPS-F 0,031W/(mK) my10 UP5mm DD20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.08X",
+      "text": "WDVS EPS-F 0,031W/(mK) my10 UP5mm DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.21F",
+      "text": "Az WDVS EPS-F f.Brandschutz MW DD12cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "44.02.21G",
+      "text": "Az WDVS EPS-F f.Brandschutz MW DD14cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "44.02.21H",
+      "text": "Az WDVS EPS-F f.Brandschutz MW DD16cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "44.02.21I",
+      "text": "Az WDVS EPS-F f.Brandschutz MW DD18cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "44.02.21J",
+      "text": "Az WDVS EPS-F f.Brandschutz MW DD20cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "44.02.21X",
+      "text": "Az WDVS EPS-F f.Brandschutz MW DD__________                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "44.02.25A",
+      "text": "Az WDVS EPS-F f.erhöhte Stoßfestigkeit (I)",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.26A",
+      "text": "Az WDVS EPS-F f.Untersicht",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.26B",
+      "text": "Az WDVS EPS-F f.Gesimsummantelung",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.26D",
+      "text": "Az WDVS EPS-F f.Gaupe,Attika",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.26F",
+      "text": "Az WDVS EPS-F f.kunstharzgebundener Kleber",
+      "unit": "m²"
+    },
+    {
+      "code": "44.02.26G",
+      "text": "Az WDVS EPS-F f.kunstharzgeb.Unterputz",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.01E",
+      "text": "WDVS MW-PT5 0,034W/(mK) UP5mm DD10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.01F",
+      "text": "WDVS MW-PT5 0,034W/(mK) UP5mm DD12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.01G",
+      "text": "WDVS MW-PT5 0,034W/(mK) UP5mm DD14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.01H",
+      "text": "WDVS MW-PT5 0,034W/(mK) UP5mm DD16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.01I",
+      "text": "WDVS MW-PT5 0,034W/(mK) UP5mm DD18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.01J",
+      "text": "WDVS MW-PT5 0,034W/(mK) UP5mm DD20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.01X",
+      "text": "WDVS MW-PT5 0,034W/(mK) UP5mm DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.02E",
+      "text": "WDVS MW-PT5 0,034W/(mK) UP8mm DD10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.02F",
+      "text": "WDVS MW-PT5 0,034W/(mK) UP8mm DD12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.02G",
+      "text": "WDVS MW-PT5 0,034W/(mK) UP8mm DD14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.02H",
+      "text": "WDVS MW-PT5 0,034W/(mK) UP8mm DD16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.02I",
+      "text": "WDVS MW-PT5 0,034W/(mK) UP8mm DD18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.02J",
+      "text": "WDVS MW-PT5 0,034W/(mK) UP8mm DD20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.02X",
+      "text": "WDVS MW-PT5 0,034W/(mK) UP8mm DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.11E",
+      "text": "WDVS MW-PT10 0,036W/(mK) UP5mm DD10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.11F",
+      "text": "WDVS MW-PT10 0,036W/(mK) UP5mm DD12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.11G",
+      "text": "WDVS MW-PT10 0,036W/(mK) UP5mm DD14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.11H",
+      "text": "WDVS MW-PT10 0,036W/(mK) UP5mm DD16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.11I",
+      "text": "WDVS MW-PT10 0,036W/(mK) UP5mm DD18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.11J",
+      "text": "WDVS MW-PT10 0,036W/(mK) UP5mm DD20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.11X",
+      "text": "WDVS MW-PT10 0,036W/(mK) UP5mm DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.12E",
+      "text": "WDVS MW-PT10 0,036W/(mK) UP8mm DD10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.12F",
+      "text": "WDVS MW-PT10 0,036W/(mK) UP8mm DD12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.12G",
+      "text": "WDVS MW-PT10 0,036W/(mK) UP8mm DD14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.12H",
+      "text": "WDVS MW-PT10 0,036W/(mK) UP8mm DD16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.12I",
+      "text": "WDVS MW-PT10 0,036W/(mK) UP8mm DD18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.12J",
+      "text": "WDVS MW-PT10 0,036W/(mK) UP8mm DD20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.12X",
+      "text": "WDVS MW-PT10 0,036W/(mK) UP8mm DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.21E",
+      "text": "WDVS MW-PT80 0,04W/(mK) UP5mm DD10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.21F",
+      "text": "WDVS MW-PT80 0,04W/(mK) UP5mm DD12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.21G",
+      "text": "WDVS MW-PT80 0,04W/(mK) UP5mm DD14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.21H",
+      "text": "WDVS MW-PT80 0,04W/(mK) UP5mm DD16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.21I",
+      "text": "WDVS MW-PT80 0,04W/(mK) UP5mm DD18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.21J",
+      "text": "WDVS MW-PT80 0,04W/(mK) UP5mm DD20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.21X",
+      "text": "WDVS MW-PT80 0,04W/(mK) UP5mm DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.22E",
+      "text": "WDVS MW-PT80 0,04W/(mK) UP8mm DD10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.22F",
+      "text": "WDVS MW-PT80 0,04W/(mK) UP8mm DD12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.22G",
+      "text": "WDVS MW-PT80 0,04W/(mK) UP8mm DD14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.22H",
+      "text": "WDVS MW-PT80 0,04W/(mK) UP8mm DD16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.22I",
+      "text": "WDVS MW-PT80 0,04W/(mK) UP8mm DD18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.22J",
+      "text": "WDVS MW-PT80 0,04W/(mK) UP8mm DD20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.22X",
+      "text": "WDVS MW-PT80 0,04W/(mK) UP8mm DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.25A",
+      "text": "Az WDVS MW-PT f.erhöhte Stoßfestigkeit (I)",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.26A",
+      "text": "Az WDVS MW-PT f.Untersicht",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.26B",
+      "text": "Az WDVS MW-PT f.Gesimsummantelung",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.26D",
+      "text": "Az WDVS MW-PT f.Gaupe,Attika",
+      "unit": "m²"
+    },
+    {
+      "code": "44.03.31X",
+      "text": "WDVS m.Mineralwolledämmplatten",
+      "unit": "m²"
+    },
+    {
+      "code": "44.13.01A",
+      "text": "Az WDVS EPS-P bei vorhandenem Gelände b.10%                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "44.13.01B",
+      "text": "Az WDVS EPS-P m.Einbindung u.Gelände b.10%                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "44.13.11A",
+      "text": "Az WDVS XPS-R bei vorhandenem Gelände b.10%                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "44.13.11B",
+      "text": "Az WDVS XPS-R m.Einbindung u.Gelände b.10%                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "44.13.21A",
+      "text": "Az WDVS EPS-S bei vorhandenem Gelände b.10%                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "44.13.21B",
+      "text": "Az WDVS EPS-S m.Einbindung unter Gelände b.10%                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "44.13.51A",
+      "text": "Feuchtigkeitsschutz des Putzsystems",
+      "unit": "m²"
+    },
+    {
+      "code": "44.14.01E",
+      "text": "WDVS Flächendübel f.DD10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.14.01F",
+      "text": "WDVS Flächendübel f.DD12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.14.01G",
+      "text": "WDVS Flächendübel f.DD14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.14.01H",
+      "text": "WDVS Flächendübel f.DD16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.14.01I",
+      "text": "WDVS Flächendübel f.DD18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.14.01J",
+      "text": "WDVS Flächendübel f.DD20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.14.01X",
+      "text": "WDVS Flächendübel f.DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.14.11D",
+      "text": "Az Flächendübel f.Randzonen DD10cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.14.11E",
+      "text": "Az Flächendübel f.Randzonen DD12cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.14.11F",
+      "text": "Az Flächendübel f.Randzonen DD14cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.14.11G",
+      "text": "Az Flächendübel f.Randzonen DD16cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.14.11H",
+      "text": "Az Flächendübel f.Randzonen DD18cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.14.11I",
+      "text": "Az Flächendübel f.Randzonen DD20cm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.14.11X",
+      "text": "Az Flächendübel f.Randzonen DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.14.21A",
+      "text": "WDVS Flächendübel f.MW-PT5,-PT80 f.DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.14.22A",
+      "text": "Az Fl.Dübel f.MW-PT5,-PT80 f.Randzonen f.DD__________",
+      "unit": "m²"
+    },
+    {
+      "code": "44.15.01E",
+      "text": "WDVS Sockel-Abschlussprofil Alu 10cm                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.01F",
+      "text": "WDVS Sockel-Abschlussprofil Alu 12cm                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.01G",
+      "text": "WDVS Sockel-Abschlussprofil Alu 14cm                                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.01H",
+      "text": "WDVS Sockel-Abschlussprofil Alu 16cm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.01I",
+      "text": "WDVS Sockel-Abschlussprofil Alu 18cm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.01J",
+      "text": "WDVS Sockel-Abschlussprofil Alu 20cm                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.01X",
+      "text": "WDVS Sockel-Abschlussprofil Alu__________                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.04A",
+      "text": "WDVS Dehnfuge Fläche                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.04B",
+      "text": "WDVS Dehnfuge Innenecke                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.05A",
+      "text": "WDVS Fenster/Tür-Anschlussprofil Klasse II                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.05B",
+      "text": "WDVS Fenster/Tür-Anschlussprofil Klasse III                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.05C",
+      "text": "Az WDVS Fenster/Tür-Anschlussprofil Klasse III f.Holz/Alu                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.05D",
+      "text": "Az WDVS Fenster/Tür-Anschlussprofil Klasse III f.Kunstst/Alu                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.06A",
+      "text": "WDVS Dichtband 3-9mm                                                                                             m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.06B",
+      "text": "WDVS Dichtband ü.9-18mm                                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.06C",
+      "text": "WDVS Dichtband 3-9mm b.20cm",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.07A",
+      "text": "WDVS Tropfkantenprofil Kunststoff                                                                                m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.08A",
+      "text": "WDVS Lüftungsprofil Kaltdach                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.09A",
+      "text": "Aufsteckprofil                                                                                                   m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.11A",
+      "text": "Montageelemente leichte Lasten",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.11B",
+      "text": "Montageelemente schwere Lasten",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.12A",
+      "text": "Einbau Elektrodosenhalter",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.12B",
+      "text": "Einbau Elektrodosenhalter schwer entflammbar",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.12C",
+      "text": "Einbau Blitzschutztürchen",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.12D",
+      "text": "Einbau Blitzschutztrennstellen",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.20A",
+      "text": "Az WDVS EPS-F f.Fassadennut b.3cm/b.2cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.20B",
+      "text": "Az WDVS MW-PT f.Fassadennut b.3cm/b.2cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.20C",
+      "text": "Az WDVS ICP f.Fassadennut b.3cm/b.2cm                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.20D",
+      "text": "Az WDVS MS-DP f.Fassadennut b.3cm/b.2cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.21A",
+      "text": "WDVS F.Profil EPS einfach+besch.b.10cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.21B",
+      "text": "WDVS F.Profil EPS einfach+besch.b.20cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.21C",
+      "text": "WDVS F.Profil EPS einfach+besch.b.30cm                                                                          m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.21D",
+      "text": "WDVS F.Profil EPS gegliedert+besch.b.10cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.21E",
+      "text": "WDVS F.Profil EPS gegliedert+besch.b.20cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.21F",
+      "text": "WDVS F.Profil EPS gegliedert+besch.b.30cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.22A",
+      "text": "WDVS F.Profil EPS-Schlussst.einfach+besch.",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.22B",
+      "text": "WDVS F.Profil EPS-Eckbosse einfach+besch.",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.22C",
+      "text": "WDVS F.Profil EPS-Schlussst.gegl.+besch.",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.22D",
+      "text": "WDVS F.Profil EPS-Eckbosse gegl.+besch.",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.31A",
+      "text": "WDVS F.Profil EPS einfach+Dünnp.b.10cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.31B",
+      "text": "WDVS F.Profil EPS einfach+Dünnp.b.20cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.31C",
+      "text": "WDVS F.Profil EPS einfach+Dünnp.b.30cm                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.31D",
+      "text": "WDVS F.Profil EPS gegliedert+Dünnp.b.10cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.31E",
+      "text": "WDVS F.Profil EPS gegliedert+Dünnp.b.20cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.31F",
+      "text": "WDVS F.Profil EPS gegliedert+Dünnp.b.30cm                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.32A",
+      "text": "WDVS F.Profil EPS-Schlussst.einfach+Dünnp.",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.32B",
+      "text": "WDVS F.Profil EPS-Eckbosse einfach+Dünnp.",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.32C",
+      "text": "WDVS F.Profil EPS-Schlussst.gegl.+Dünnp.",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.32D",
+      "text": "WDVS F.Profil EPS-Eckbosse gegl.+Dünnp.",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.41A",
+      "text": "WDVS F.Profil mineral.einfach+besch.b.10cm                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.41B",
+      "text": "WDVS F.Profil mineral.einfach+besch.b.20cm                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.41C",
+      "text": "WDVS F.Profil mineral.einfach+besch.b.30cm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.41D",
+      "text": "WDVS F.Profil mineral.gegliedert+besch.b.10cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.41E",
+      "text": "WDVS F.Profil mineral.gegliedert+besch.b.20cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.41F",
+      "text": "WDVS F.Profil mineral.gegliedert+besch.b.30cm                                                                    m",
+      "unit": ""
+    },
+    {
+      "code": "44.15.42A",
+      "text": "WDVS F.Profil mineral.-Schlussst.einfach+besch.",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.42B",
+      "text": "WDVS F.Profil mineral.-Eckbosse einfach+besch.",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.42C",
+      "text": "WDVS F.Profil mineral.-Schlussst.gegl.+besch.",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.15.42D",
+      "text": "WDVS F.Profil mineral.-Eckbosse gegl.+besch.",
+      "unit": "Stk"
+    },
+    {
+      "code": "44.20.01A",
+      "text": "WDVS Dünnp.kunsth.Rillenstruktur 2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.01B",
+      "text": "WDVS Dünnp.kunsth.Rillenstruktur 3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.01C",
+      "text": "WDVS Dünnp.kunsth.Reibstruktur 1,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.01D",
+      "text": "WDVS Dünnp.kunsth.Reibstruktur 2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.01E",
+      "text": "WDVS Dünnp.kunsth.Reibstruktur 3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.01F",
+      "text": "WDVS Dünnp.kunsth.Füllputz 0,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.01G",
+      "text": "WDVS Dünnp.kunsth.Feinputz 1mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.02A",
+      "text": "Az WDVS Dünnp.kunsth.b.1,5mm S.-Farbe",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.02B",
+      "text": "Az WDVS Dünnp.kunsth.2mm S.-Farbe",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.02C",
+      "text": "Az WDVS Dünnp.kunsth.3mm S.-Farbe",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.03A",
+      "text": "WDVS Silikat-Dünnp.Rillenstruktur 2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.03B",
+      "text": "WDVS Silikat-Dünnp.Rillenstruktur 3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.03C",
+      "text": "WDVS Silikat-Dünnp.Reibstruktur 1,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.03D",
+      "text": "WDVS Silikat-Dünnp.Reibstruktur 2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.03E",
+      "text": "WDVS Silikat-Dünnp.Reibstruktur 3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.03F",
+      "text": "WDVS Silikat-Dünnp.Füllputz 0,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.03G",
+      "text": "WDVS Silikat-Dünnp.Feinputz 1mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.04A",
+      "text": "Az WDVS Silikat-Dünnp.b.1,5mm S.-Farbe",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.04B",
+      "text": "Az WDVS Silikat-Dünnp.2mm S.-Farbe",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.04C",
+      "text": "Az WDVS Silikat-Dünnp.3mm S.-Farbe",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.07A",
+      "text": "WDVS Silikon-Dünnp.Rillenstruktur 2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.07B",
+      "text": "WDVS Silikon-Dünnp.Rillenstruktur 3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.07C",
+      "text": "WDVS Silikon-Dünnp.Reibstrukt.1,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.07D",
+      "text": "WDVS Silikon-Dünnp.Reibstruktur 2mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.07E",
+      "text": "WDVS Silikon-Dünnp.Reibstruktur 3mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.07F",
+      "text": "WDVS Silikon-Dünnp.Füllputz 0,5mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.07G",
+      "text": "WDVS Silikon-Dünnp.Feinputz 1mm",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.08A",
+      "text": "Az WDVS Silikon-Dünnp.b.1,5mm S.-Farbe",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.08B",
+      "text": "Az WDVS Silikon-Dünnp.2mm S.-Farbe",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.08C",
+      "text": "Az WDVS Silikon-Dünnp.3mm S.-Farbe",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.11A",
+      "text": "Az WDVS Dünnp.b.1,5mm fungizid/algizid",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.11B",
+      "text": "Az WDVS Dünnp.2mm fungizid/algizid",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.11C",
+      "text": "Az WDVS Dünnp.3mm fungizid/algizid",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.11D",
+      "text": "Az WDVS Buntstein-Dünnp.fungizid/algizid",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.20A",
+      "text": "WDVS Farbe kunsth.Standard",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.20B",
+      "text": "WDVS Farbe kunsth.Sonderfarbe",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.21A",
+      "text": "WDVS Silikatfarbe Standard",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.21B",
+      "text": "WDVS Silikatfarbe Sonderfarbe",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.22A",
+      "text": "WDVS Silikonharzfarbe Standard",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.22B",
+      "text": "WDVS Silikonharzfarbe Sonderfarbe",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.25A",
+      "text": "Az WDVS Farbe fungizid/algizid",
+      "unit": "m²"
+    },
+    {
+      "code": "44.20.31A",
+      "text": "Erschwernisse f.Mehrfärbigkeit",
+      "unit": "m²"
+    },
+    {
+      "code": "44.90.00A",
+      "text": "Überstundenregelung",
+      "unit": ""
+    },
+    {
+      "code": "44.90.01A",
+      "text": "Regiestunde Facharbeiter",
+      "unit": "h"
+    },
+    {
+      "code": "44.90.01B",
+      "text": "Regiestunde Hilfsarbeiter",
+      "unit": "h"
+    }
+  ]
+}

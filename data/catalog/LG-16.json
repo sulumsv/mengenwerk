@@ -1,0 +1,811 @@
+{
+  "lg": "16",
+  "title": "Fertigteile",
+  "positions": [
+    {
+      "code": "16.00.00C",
+      "text": "Edelstahl korrosionsbeständiger Stahl V2A",
+      "unit": ""
+    },
+    {
+      "code": "16.00.00D",
+      "text": "Edelstahl korrosionsbeständiger Stahl V4A",
+      "unit": ""
+    },
+    {
+      "code": "16.01.01A",
+      "text": "Köcherhälse Stb.als Fertigteile",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.01.02A",
+      "text": "Zentriereinrichtungen f.Köcherhälse",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.01.03A",
+      "text": "Schraubverbindungen/Stützenschuhe",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.01.03B",
+      "text": "Schraubverbindungen/Ankerbolzen",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.01.05A",
+      "text": "Schlitzfundamente Stb.als Fertigteile",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.01.71X",
+      "text": "Az Beton Köcherh./Schlitzf.f.Expositionsklasse",
+      "unit": "m³"
+    },
+    {
+      "code": "16.02.01A",
+      "text": "Fertigteilstützen Stb.eckig",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.02.01V",
+      "text": "Bewehrung Stabstahl f.Fertigteilstützen Stb.eckig",
+      "unit": "kg"
+    },
+    {
+      "code": "16.02.01W",
+      "text": "Bewehrung Matten f.Fertigteilstützen Stb.eckig",
+      "unit": "kg"
+    },
+    {
+      "code": "16.02.03A",
+      "text": "Fertigteilstützen Stb.rund",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.02.03V",
+      "text": "Bewehrung Stabstahl f.Fertigteilstützen Stb.rund",
+      "unit": "kg"
+    },
+    {
+      "code": "16.02.03W",
+      "text": "Bewehrung Matten f.Fertigteilstützen Stb.rund",
+      "unit": "kg"
+    },
+    {
+      "code": "16.02.05A",
+      "text": "Fertigteilstützen Stb.Sonderform",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.02.05V",
+      "text": "Bewehrung Stabstahl f.Fertigteilstützen Stb.Sonderform",
+      "unit": "kg"
+    },
+    {
+      "code": "16.02.05W",
+      "text": "Bewehrung Matten f.Fertigteilstützen Stb.Sonderform",
+      "unit": "kg"
+    },
+    {
+      "code": "16.02.71X",
+      "text": "Az Beton Fertigteilstützen f.Expositionsklasse",
+      "unit": "m³"
+    },
+    {
+      "code": "16.03.01A",
+      "text": "Fertigteilträger Stb.eckig",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.03.01V",
+      "text": "Bewehrung Stabstahl f.Fertigteilträger Stb.eckig",
+      "unit": "kg"
+    },
+    {
+      "code": "16.03.01W",
+      "text": "Bewehrung Matten f.Fertigteilträger Stb.eckig",
+      "unit": "kg"
+    },
+    {
+      "code": "16.03.03A",
+      "text": "Fertigteilträger Stb.T-förmig",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.03.03V",
+      "text": "Bewehrung Stabstahl f.Fertigteilträger Stb.T-förmig",
+      "unit": "kg"
+    },
+    {
+      "code": "16.03.03W",
+      "text": "Bewehrung Matten f.Fertigteilträger Stb.T-förmig",
+      "unit": "kg"
+    },
+    {
+      "code": "16.03.05A",
+      "text": "Fertigteilträger Stb.I-förmig",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.03.05V",
+      "text": "Bewehrung Stabstahl f.Fertigteilträger Stb.I-förmig",
+      "unit": "kg"
+    },
+    {
+      "code": "16.03.05W",
+      "text": "Bewehrung Matten f.Fertigteilträger Stb.I-förmig",
+      "unit": "kg"
+    },
+    {
+      "code": "16.03.07A",
+      "text": "Fertigteilträger Stb.L-förmig",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.03.07V",
+      "text": "Bewehrung Stabstahl f.Fertigteilträger Stb.L-förmig",
+      "unit": "kg"
+    },
+    {
+      "code": "16.03.07W",
+      "text": "Bewehrung Matten f.Fertigteilträger Stb.L-förmig",
+      "unit": "kg"
+    },
+    {
+      "code": "16.03.09A",
+      "text": "Fertigteilträger Stb.Sonderform",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.03.09V",
+      "text": "Bewehrung Stabstahl f.Fertigteilträger Stb.Sonderform",
+      "unit": "kg"
+    },
+    {
+      "code": "16.03.09W",
+      "text": "Bewehrung Matten f.Fertigteilträger Stb.Sonderform",
+      "unit": "kg"
+    },
+    {
+      "code": "16.03.21A",
+      "text": "Auflager f.Fertigteilträger Stb.elastisch",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.03.21B",
+      "text": "Auflager f.Fertigteilträger Stb.elastisch textilbewehrt",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.03.21C",
+      "text": "Auflager f.Fertigteilträger Stb.elastisch stahlbewehrt",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.03.71X",
+      "text": "Az Beton Fertigteilträger f.Expositionsklasse",
+      "unit": "m³"
+    },
+    {
+      "code": "16.04.01A",
+      "text": "Fertigteildecke m.Vollbetonelementen schlaff bew.",
+      "unit": "m²"
+    },
+    {
+      "code": "16.04.01B",
+      "text": "Fertigteildecke m.TT-Platten schlaff bew.",
+      "unit": "m²"
+    },
+    {
+      "code": "16.04.01C",
+      "text": "Fertigteildecke m.Hohldielen schlaff bew.",
+      "unit": "m²"
+    },
+    {
+      "code": "16.04.01V",
+      "text": "Bewehrung Stabstahl f.Fertigteildecken schlaff bew.",
+      "unit": "kg"
+    },
+    {
+      "code": "16.04.01W",
+      "text": "Bewehrung Matten f.Fertigteildecken schlaff bew.",
+      "unit": "kg"
+    },
+    {
+      "code": "16.04.03B",
+      "text": "Fertigteildecke m.TT-Platten vorgespannt",
+      "unit": "m²"
+    },
+    {
+      "code": "16.04.03C",
+      "text": "Fertigteildecke m.Hohldielen vorgespannt",
+      "unit": "m²"
+    },
+    {
+      "code": "16.04.03S",
+      "text": "Bewehrung Spannstahl f.Fertigteildecken vorgespannt",
+      "unit": "kg"
+    },
+    {
+      "code": "16.04.03V",
+      "text": "Bewehrung Stabstahl f.Fertigteildecken vorgespannt",
+      "unit": "kg"
+    },
+    {
+      "code": "16.04.03W",
+      "text": "Bewehrung Matten f.Fertigteildecken vorgespannt",
+      "unit": "kg"
+    },
+    {
+      "code": "16.04.11A",
+      "text": "Fugenverguss f.Fertigteildecken",
+      "unit": "m²"
+    },
+    {
+      "code": "16.04.11V",
+      "text": "Bewehrung Stabstahl f.Fugenverguss",
+      "unit": "kg"
+    },
+    {
+      "code": "16.04.14A",
+      "text": "Rostbeton f.Fertigteildecken",
+      "unit": "m³"
+    },
+    {
+      "code": "16.04.14S",
+      "text": "Schalung f.Rostbeton",
+      "unit": "m²"
+    },
+    {
+      "code": "16.04.14V",
+      "text": "Bewehrung Stabstahl f.Rostbeton",
+      "unit": "kg"
+    },
+    {
+      "code": "16.04.21A",
+      "text": "Konstruktiver Aufbeton f.Fertigteildecken",
+      "unit": "m³"
+    },
+    {
+      "code": "16.04.21V",
+      "text": "Bewehrung Stabstahl f.konstruktiver Aufbeton",
+      "unit": "kg"
+    },
+    {
+      "code": "16.04.21W",
+      "text": "Bewehrung Matten f.konstruktiver Aufbeton",
+      "unit": "kg"
+    },
+    {
+      "code": "16.04.41A",
+      "text": "Rahmen f.Auswechslung f.Hohldielendecken",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.04.51A",
+      "text": "Az Fertigteildecken f.Verstärkungen",
+      "unit": "m³"
+    },
+    {
+      "code": "16.04.71X",
+      "text": "Az Beton Fertigteildecken f.Expositionsklasse",
+      "unit": "m³"
+    },
+    {
+      "code": "16.04.91A",
+      "text": "Aussparung f.Vollbeton.-E./TT-Platten b.0,25m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.04.91B",
+      "text": "Aussparung f.Vollbeton.-E./TT-Platten ü.0,25-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.04.91C",
+      "text": "Aussparung f.Vollbeton.-E./TT-Platten ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.04.91D",
+      "text": "Aussparung f.Vollbeton.-E./TT-Platten ü.1-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.04.91X",
+      "text": "Aussparung f.Vollbeton.-E./TT-Platten ü.2m2:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.05.11A",
+      "text": "Fertigteil-Wandelemente 1sch.",
+      "unit": "m²"
+    },
+    {
+      "code": "16.05.11E",
+      "text": "Az Fertigteil-Wandelemente 1sch.f.Eck-/Leibungsausb.",
+      "unit": "m²"
+    },
+    {
+      "code": "16.05.11V",
+      "text": "Bewehrung Stabstahl f.Fertigteil-Wandelemente 1sch.",
+      "unit": "kg"
+    },
+    {
+      "code": "16.05.11W",
+      "text": "Bewehrung Matten f.Fertigteil-Wandelemente 1sch.",
+      "unit": "kg"
+    },
+    {
+      "code": "16.05.71X",
+      "text": "Az Beton FT-Wandelemente 1sch.f.Expositionsklasse",
+      "unit": "m³"
+    },
+    {
+      "code": "16.05.91A",
+      "text": "Aussparung FT-Wand.-E.einschichtig b.0,25m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.05.91B",
+      "text": "Aussparung FT-Wand.-E.einschichtig ü.0,25-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.05.91C",
+      "text": "Aussparung FT-Wand.-E.einschichtig ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.05.91D",
+      "text": "Aussparung FT-Wand.-E.einschichtig ü.1-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.05.91X",
+      "text": "Aussparung FT-Wand.-E.einschichtig ü.2m2:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.06.01A",
+      "text": "Musterplatte f.1sch.Fertigteil-Wandelemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.06.01V",
+      "text": "Bewehrung Stabstahl f.Fertigteil-Wandelement Musterpl.1sch.",
+      "unit": "kg"
+    },
+    {
+      "code": "16.06.01W",
+      "text": "Bewehrung Matten f.Fertigteil-Wandelemente Musterpl.1sch.",
+      "unit": "kg"
+    },
+    {
+      "code": "16.06.11A",
+      "text": "Fertigteil-Wandelemente 1sch.,vorgehängt",
+      "unit": "m²"
+    },
+    {
+      "code": "16.06.11E",
+      "text": "Az Fertigteil-Wandelemente 1sch.vorgehängt f.Eck/Leibung",
+      "unit": "m²"
+    },
+    {
+      "code": "16.06.11V",
+      "text": "Bewehrung Stabstahl f.Fertigteil-Wandelement 1sch.vorgehängt",
+      "unit": "kg"
+    },
+    {
+      "code": "16.06.11W",
+      "text": "Bewehrung Matten f.Fertigteil-Wandelemente 1sch.vorgehängt",
+      "unit": "kg"
+    },
+    {
+      "code": "16.06.71X",
+      "text": "Az Beton FT-Wandelemente 1sch./eingeh.f.Expositionsklasse",
+      "unit": "m³"
+    },
+    {
+      "code": "16.06.91A",
+      "text": "Aussparung FT-Wand.-E.einschichtig,vorgeh.b.0,25m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.06.91B",
+      "text": "Aussparung FT-Wand.-E.einschichtig,vorgeh.ü.0,25-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.06.91C",
+      "text": "Aussparung FT-Wand.-E.einschichtig,vorgeh.ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.06.91D",
+      "text": "Aussparung FT-Wand.-E.einschichtig,vorgeh.ü.1-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.06.91X",
+      "text": "Aussparung FT-Wand.-E.einschichtig,vorgeh.ü.2m2:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.07.01A",
+      "text": "Musterplatte f.3sch.Fertigteil-Wandelemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.07.01V",
+      "text": "Bewehrung Stabstahl f.Fertigteil-Wandelement Musterpl.3sch.",
+      "unit": "kg"
+    },
+    {
+      "code": "16.07.01W",
+      "text": "Bewehrung Matten f.Fertigteil-Wandelemente Musterpl.3sch.",
+      "unit": "kg"
+    },
+    {
+      "code": "16.07.11A",
+      "text": "Fertigteil-Wandelemente 3sch.",
+      "unit": "m²"
+    },
+    {
+      "code": "16.07.11E",
+      "text": "Az Fertigteil-Wandelemente 3sch.f.Eck/Leibung",
+      "unit": "m²"
+    },
+    {
+      "code": "16.07.11F",
+      "text": "Az Fertigteil-Wandelemente 3sch.f.Eck/Leibung f.Pl.",
+      "unit": "m²"
+    },
+    {
+      "code": "16.07.11V",
+      "text": "Bewehrung Stabstahl f.Fertigteil-Wandelement 3sch.",
+      "unit": "kg"
+    },
+    {
+      "code": "16.07.11W",
+      "text": "Bewehrung Matten f.Fertigteil-Wandelement 3sch.",
+      "unit": "kg"
+    },
+    {
+      "code": "16.07.21A",
+      "text": "Az Fertigteil-Wandelemente 3sch.f.XPS",
+      "unit": "m²"
+    },
+    {
+      "code": "16.07.21B",
+      "text": "Az Fertigteil-Wandelemente 3sch.f.Steinwolle",
+      "unit": "m²"
+    },
+    {
+      "code": "16.07.21C",
+      "text": "Az Fertigteil-Wandelemente 3sch.f.Dämmmaterial",
+      "unit": "m²"
+    },
+    {
+      "code": "16.07.71X",
+      "text": "Az Beton FT-Wandelemente 3sch./eingeh.f.Expositionsklasse",
+      "unit": "m³"
+    },
+    {
+      "code": "16.07.91A",
+      "text": "Aussparung FT-Wand.-E.dreischichtig b.0,25m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.07.91B",
+      "text": "Aussparung FT-Wand.-E.dreischichtig ü.0,25-0,5m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.07.91C",
+      "text": "Aussparung FT-Wand.-E.dreischichtig ü.0,5-1m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.07.91D",
+      "text": "Aussparung FT-Wand.-E.dreischichtig ü.1-2m2",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.07.91X",
+      "text": "Aussparung FT-Wand.-E.dreischichtig ü.2m2:__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.26.01A",
+      "text": "Fertigteil Treppenelemente gerade",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.26.03A",
+      "text": "Fertigteil Treppenelemente gewendelt",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.26.05A",
+      "text": "Fertigteil Treppenelemente+Podest einseitig",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.26.05B",
+      "text": "Fertigteil Treppenelemente+Podest zweiseitig",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.26.07A",
+      "text": "Fertigteil Podestplatten f.Treppen",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.26.11A",
+      "text": "Fertigteil Loggia- u.Balkonplatten ohne Belag",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.26.13A",
+      "text": "Fertigteil Loggia- u.Balkonplatten",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.26.15A",
+      "text": "Fertigteil Loggia- u.Balkonbrüstungselemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.26.17A",
+      "text": "Fertigteil Loggia-Wandelement",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.26.21A",
+      "text": "Fertigteil L-förmig",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.26.31A",
+      "text": "Fertigteil U-förmig",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.26.41A",
+      "text": "Fertigteil in Sonderform",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.26.71X",
+      "text": "Az Beton Fertigteile f.Expositionsklasse",
+      "unit": "m³"
+    },
+    {
+      "code": "16.28.01A",
+      "text": "Blitzschutzdraht verzinkt D8mm                                                                                        m",
+      "unit": ""
+    },
+    {
+      "code": "16.28.01B",
+      "text": "Blitzschutzdraht verzinkt D10mm                                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "16.28.01C",
+      "text": "Blitzschutzdraht Edelstahl A4 D10mm                                                                       m",
+      "unit": ""
+    },
+    {
+      "code": "16.28.01D",
+      "text": "Erdungsfestpunkt Edelstahl A4 M10/12",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.28.01E",
+      "text": "Erdungsfestpunkt Edelstahl A4 M16",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.28.01H",
+      "text": "Blitzschutzprüfkasten feuerverzinkt 150/200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.28.11A",
+      "text": "Stahleinbauteile f.Fertigteile",
+      "unit": "kg"
+    },
+    {
+      "code": "16.28.11B",
+      "text": "Stahlplatten,Schweißgründe b.5kg",
+      "unit": "kg"
+    },
+    {
+      "code": "16.28.11C",
+      "text": "Stahlplatten,Schweißgründe ü.5-25kg",
+      "unit": "kg"
+    },
+    {
+      "code": "16.28.11D",
+      "text": "Stahlplatten,Schweißgründe ü.25kg",
+      "unit": "kg"
+    },
+    {
+      "code": "16.28.11M",
+      "text": "Ankerschienen verzinkt",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.28.11N",
+      "text": "Ankerschienen Edelstahl",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.28.31A",
+      "text": "Elektroinstallations-Schlauch FXP 25-50mm                                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "16.28.31D",
+      "text": "Elektroinstallations-Abzweigdosen b 200x200mm",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.28.31E",
+      "text": "Elektroinstallations-Gerätedose 1-fach",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.28.41A",
+      "text": "Oberflächenvergütung f.Fertigteile sandgestrahlt",
+      "unit": "m²"
+    },
+    {
+      "code": "16.28.41B",
+      "text": "Oberflächenvergütung f.Fertigteile gewaschen",
+      "unit": "m²"
+    },
+    {
+      "code": "16.28.41C",
+      "text": "Oberflächenvergütung f.Fertigteile gesäuert",
+      "unit": "m²"
+    },
+    {
+      "code": "16.28.41D",
+      "text": "Oberflächenvergütung f.Fertigteile strukturiert",
+      "unit": "m²"
+    },
+    {
+      "code": "16.28.41H",
+      "text": "Oberflächenvergütung f.Fertigteile hydrophobiert",
+      "unit": "m²"
+    },
+    {
+      "code": "16.28.41I",
+      "text": "Oberflächenvergütung f.Fertigteile m.Graffitischutz",
+      "unit": "m²"
+    },
+    {
+      "code": "16.28.51J",
+      "text": "Scheinfugen f.Fertigteilelemente                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "16.28.51K",
+      "text": "Trennfugen f.Fertigteilelemente                                                  m",
+      "unit": ""
+    },
+    {
+      "code": "16.28.51L",
+      "text": "Wassernasen f.Fertigteilelemente                                                 m",
+      "unit": ""
+    },
+    {
+      "code": "16.28.52E",
+      "text": "Az Beton f.Sonderzuschlagstoffe",
+      "unit": "m³"
+    },
+    {
+      "code": "16.28.52F",
+      "text": "Az Beton f.Weißzement",
+      "unit": "m³"
+    },
+    {
+      "code": "16.28.52G",
+      "text": "Az Beton f.eingefärbten Beton",
+      "unit": "m³"
+    },
+    {
+      "code": "16.28.61A",
+      "text": "Punktkonsole f.Wand-/Trägerelemente",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.28.61B",
+      "text": "Bandkonsole f.Wandelemente                                                                                     m",
+      "unit": ""
+    },
+    {
+      "code": "16.28.61C",
+      "text": "Ausklinkung bei Trägern u.Unterzügen",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.28.61D",
+      "text": "Steg-u.Auflagerverbreiterung",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.28.64A",
+      "text": "Außenfuge b.20mm                                                                                               m",
+      "unit": ""
+    },
+    {
+      "code": "16.28.64C",
+      "text": "Außenfugen EI90 b.20mm                                                                                         m",
+      "unit": ""
+    },
+    {
+      "code": "16.28.64E",
+      "text": "Innenfuge PUR b.20mm                                                                                           m",
+      "unit": ""
+    },
+    {
+      "code": "16.28.91A",
+      "text": "Bewehrungsanschlusselement 1-reihig                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "16.28.91B",
+      "text": "Bewehrungsanschlusselement 2-reihig                                                                      m",
+      "unit": ""
+    },
+    {
+      "code": "16.28.93A",
+      "text": "Wärmedämmende Bewehrungsanschlüsse Kragplatte",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.28.93B",
+      "text": "Wärmedämmende Bewehrungsanschlüsse Querkraftanschluss",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.28.95A",
+      "text": "Muffenstoß f.Bewehrungsstäbe__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.28.95B",
+      "text": "Muffenstäbe mit Schraubmuffe__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.28.95C",
+      "text": "Anschlussstäbe f.Schraubmuffe__________",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.51.00M",
+      "text": "Montage und Zufahrt",
+      "unit": ""
+    },
+    {
+      "code": "16.51.00V",
+      "text": "Verfügbarkeit von Beilagen zum LV",
+      "unit": ""
+    },
+    {
+      "code": "16.51.01A",
+      "text": "Fertigteil-Einzelgarage aus Stahlbeton",
+      "unit": "Stk"
+    },
+    {
+      "code": "16.51.11A",
+      "text": "Fertigteil-Doppelgarage/Reihengarage aus Stahlbeton",
+      "unit": "Stk"
+    }
+  ]
+}

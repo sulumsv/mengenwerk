@@ -1,0 +1,115 @@
+{
+  "katalog": "LB-HB",
+  "version": "023",
+  "vollstaendig": false,
+  "hinweis": "Verifizierte Teilmenge. Die Leistungsgruppen stammen aus der urspruenglich in src/lib/group.ts hinterlegten Zuordnung. Untergruppen und Positionsnummern sind noch nicht erfasst, weil die vollstaendige LB-HB 023 dem Projekt nicht beiliegt. Zum Einhaengen des echten Katalogs siehe src/data/README.md.",
+  "leistungsgruppen": [
+    {
+      "lg": "03",
+      "bezeichnung": "Roden, Baugrube, Sicherungen und Tiefgründungen",
+      "untergruppen": []
+    },
+    {
+      "lg": "07",
+      "bezeichnung": "Beton- und Stahlbetonarbeiten",
+      "untergruppen": []
+    },
+    {
+      "lg": "08",
+      "bezeichnung": "Mauerarbeiten",
+      "untergruppen": []
+    },
+    {
+      "lg": "11",
+      "bezeichnung": "Estricharbeiten",
+      "untergruppen": []
+    },
+    {
+      "lg": "24",
+      "bezeichnung": "Fliesen- und Plattenlegearbeiten",
+      "untergruppen": []
+    },
+    {
+      "lg": "37",
+      "bezeichnung": "Tischlerarbeiten",
+      "untergruppen": []
+    },
+    {
+      "lg": "43",
+      "bezeichnung": "Türsysteme (Elemente)",
+      "untergruppen": []
+    },
+    {
+      "lg": "50",
+      "bezeichnung": "Bodenbeläge",
+      "untergruppen": []
+    },
+    {
+      "lg": "71",
+      "bezeichnung": "Fenster aus Holz",
+      "untergruppen": []
+    },
+    {
+      "lg": "72",
+      "bezeichnung": "Fenster aus Aluminium",
+      "untergruppen": []
+    },
+    {
+      "lg": "73",
+      "bezeichnung": "Fenster aus Kunststoff",
+      "untergruppen": []
+    },
+    {
+      "lg": "74",
+      "bezeichnung": "Fenster aus Holz-Aluminium",
+      "untergruppen": []
+    },
+    {
+      "lg": "75",
+      "bezeichnung": "Fenster aus Kunststoff-Aluminium",
+      "untergruppen": []
+    }
+  ],
+  "zuordnung": [
+    { "type": "wand", "material": "ziegel", "lg": ["08"] },
+    { "type": "wand", "material": "stahlbeton", "lg": ["07"] },
+    { "type": "wand", "material": "beton", "lg": ["07"] },
+    { "type": "wand", "material": "gk-staenderwand", "lg": [] },
+    { "type": "wand", "material": null, "lg": ["08", "07"] },
+
+    { "type": "stuetze", "material": "stahlbeton", "lg": ["07"] },
+    { "type": "stuetze", "material": "holz", "lg": [] },
+    { "type": "stuetze", "material": null, "lg": ["07"] },
+
+    { "type": "unterzug", "material": "stahlbeton", "lg": ["07"] },
+    { "type": "unterzug", "material": null, "lg": ["07"] },
+
+    { "type": "decke", "material": "stahlbeton", "lg": ["07"] },
+    { "type": "decke", "material": "holz", "lg": [] },
+    { "type": "decke", "material": null, "lg": ["07"] },
+
+    { "type": "fundament", "material": null, "lg": ["03", "07"] },
+
+    { "type": "dach", "material": "holz", "lg": [] },
+    { "type": "dach", "material": null, "lg": [] },
+
+    { "type": "boden", "material": "parkett", "lg": ["50"] },
+    { "type": "boden", "material": "dielen", "lg": ["50"] },
+    { "type": "boden", "material": "fliesen", "lg": ["24"] },
+    { "type": "boden", "material": "stein", "lg": ["24"] },
+    { "type": "boden", "material": "estrich", "lg": ["11"] },
+    { "type": "boden", "material": null, "lg": ["11", "24", "50"] },
+
+    { "type": "fenster", "material": "holz", "lg": ["71"] },
+    { "type": "fenster", "material": "aluminium", "lg": ["72"] },
+    { "type": "fenster", "material": "kunststoff", "lg": ["73"] },
+    { "type": "fenster", "material": "holz-aluminium", "lg": ["74"] },
+    { "type": "fenster", "material": "kunststoff-aluminium", "lg": ["75"] },
+    { "type": "fenster", "material": null, "lg": ["71", "72", "73", "74", "75"] },
+
+    { "type": "tuer", "material": "holz", "lg": ["37", "43"] },
+    { "type": "tuer", "material": null, "lg": ["43", "37"] },
+
+    { "type": "sonstiges", "material": null, "lg": [] }
+  ]
+}

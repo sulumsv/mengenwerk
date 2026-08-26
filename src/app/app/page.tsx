@@ -1,10 +1,76 @@
 "use client";
 
 import { useRef, useState } from "react";
-import type { AnalysisResult, GroupedItem } from "@/lib/types";
+import type { AnalysisResult, GroupedItem, Konfidenz } from "@/lib/types";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
 
-type ApiResponse = { analyse: AnalysisResult; gruppen: GroupedItem[] } | { fehler: string };
+type KatalogInfo = { katalog: string; version: string; vollstaendig: boolean };
+
+type ApiResponse =
+  | { analyse: AnalysisResult; gruppen: GroupedItem[]; katalog: KatalogInfo }
+  | { fehler: string };
+
+const KONFIDENZ_TEXT: Record<Konfidenz, string> = {
+  plan: "Aus Plan",
+  berechnet: "Berechnet",
+  annahme: "Annahme",
+};
+
+/** Die Farben entsprechen der Kennzeichnung im Massenauszug. */
+const KONFIDENZ_FARBE: Record<Konfidenz, string> = {
+  plan: "bg-highlight",
+  berechnet: "bg-accent",
+  annahme: "bg-alert",
+};
+
+/**
+ * Legende, Schnitthöhen und Nachweise gelten für den ganzen Plansatz. Sie
+ * stehen hier über der Tabelle, weil sich an ihnen ablesen lässt, worauf die
+ * Materialzuordnung und die Wandhöhen der einzelnen Positionen beruhen.
+ */
+function PlanKontextBlock({ kontext }: { kontext: AnalysisResult["kontext"] }) {
+  const felder: { titel: string; eintraege: [string, string][] }[] = [
+    {
+      titel: "Planlegende",
+      eintraege: Object.entries(kontext.legende),
+    },
+    {
+      titel: "Lichte Raumhöhen",
+      eintraege: Object.entries(kontext.geschosshoehen).map(([g, h]): [string, string] => [g, `${h.toFixed(2)} m`]),
+    },
+    {
+      titel: "Nachweise",
+      eintraege: Object.entries(kontext.nachweise).map(([b, w]): [string, string] => [b, w.toFixed(2)]),
+    },
+  ].filter((f) => f.eintraege.length > 0);
+
+  if (felder.length === 0) {
+    return (
+      <div className="mb-6 rounded-md border border-alert/40 bg-alert/10 p-5 text-sm">
+        Für diesen Plansatz konnten weder Legende noch Schnitthöhen oder Nachweise gelesen werden. Ohne Schnitt sind
+        Wandhöhen nicht ermittelbar, ohne Legende bleibt die Materialzuordnung offen.
+      </div>
+    );
+  }
+
+  return (
+    <div className="mb-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-line rounded-lg overflow-hidden border border-line">
+      {felder.map((feld) => (
+        <div key={feld.titel} className="bg-surface-2 p-5">
+          <p className="font-mono text-xs uppercase tracking-wide text-fg-muted mb-3">{feld.titel}</p>
+          <dl className="space-y-1.5">
+            {feld.eintraege.map(([schluessel, wert]) => (
+              <div key={schluessel} className="flex justify-between gap-4 text-sm">
+                <dt className="text-fg-muted">{schluessel}</dt>
+                <dd className="font-mono font-num text-right">{wert}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      ))}
+    </div>
+  );
+}
 
 export default function ToolPage() {
   const [datei, setDatei] = useState<File | null>(null);
@@ -97,11 +163,15 @@ export default function ToolPage() {
               </span>
             </div>
 
+            <PlanKontextBlock kontext={ergebnis.analyse.kontext} />
+
             <div className="overflow-x-auto rounded-lg border border-line">
               <table className="w-full text-sm">
                 <thead className="bg-surface text-left">
                   <tr className="font-mono text-xs uppercase tracking-wide text-fg-muted">
+                    <th className="px-4 py-3 font-medium">Herkunft</th>
                     <th className="px-4 py-3 font-medium">Typ</th>
+                    <th className="px-4 py-3 font-medium">Material</th>
                     <th className="px-4 py-3 font-medium">Dimension</th>
                     <th className="px-4 py-3 font-medium">Anzahl</th>
                     <th className="px-4 py-3 font-medium">Gesamtfläche</th>
@@ -112,7 +182,14 @@ export default function ToolPage() {
                 <tbody>
                   {ergebnis.gruppen.map((g, i) => (
                     <tr key={i} className="border-t border-line">
+                      <td className="px-4 py-3">
+                        <span className="flex items-center gap-2 whitespace-nowrap">
+                          <span className={`inline-block w-2.5 h-2.5 ${KONFIDENZ_FARBE[g.konfidenz]}`} aria-hidden="true" />
+                          <span className="font-mono text-xs text-fg-muted">{KONFIDENZ_TEXT[g.konfidenz]}</span>
+                        </span>
+                      </td>
                       <td className="px-4 py-3 capitalize">{g.label}</td>
+                      <td className="px-4 py-3 text-fg-muted text-xs">{g.material || "nicht belegt"}</td>
                       <td className="px-4 py-3 font-mono font-num">{g.breite_m.toFixed(2)} × {g.hoehe_m.toFixed(2)} m</td>
                       <td className="px-4 py-3 font-mono font-num font-semibold">{g.anzahl}×</td>
                       <td className="px-4 py-3 font-mono font-num">{g.gesamt_flaeche_m2.toFixed(2)} m²</td>
@@ -122,7 +199,7 @@ export default function ToolPage() {
                   ))}
                   {ergebnis.gruppen.length === 0 && (
                     <tr>
-                      <td colSpan={6} className="px-4 py-8 text-center text-fg-muted">
+                      <td colSpan={8} className="px-4 py-8 text-center text-fg-muted">
                         Auf diesem Plan wurden keine eindeutigen Elemente gefunden.
                       </td>
                     </tr>
@@ -130,6 +207,13 @@ export default function ToolPage() {
                 </tbody>
               </table>
             </div>
+
+            {!ergebnis.katalog.vollstaendig && (
+              <p className="mt-4 font-mono text-xs text-fg-muted">
+                {ergebnis.katalog.katalog} {ergebnis.katalog.version} ist nur als Teilmenge hinterlegt. Die Zuordnung
+                erfolgt auf Ebene der Leistungsgruppen, nicht bis zur Positionsnummer.
+              </p>
+            )}
 
             {ergebnis.analyse.hinweise.length > 0 && (
               <div className="mt-6 rounded-md border border-line-strong/20 bg-accent/15 p-5">

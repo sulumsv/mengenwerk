@@ -3,6 +3,7 @@ import { erkenneDateityp } from "@/lib/filetype";
 import { pdfZuBildern } from "@/lib/pdf2img";
 import { analysiereBildseiten } from "@/lib/analyze";
 import { gruppiereElemente } from "@/lib/group";
+import { katalogInfo } from "@/lib/lbhb";
 
 export const runtime = "nodejs";
 export const maxDuration = 300;
@@ -31,7 +32,7 @@ export async function POST(req: NextRequest) {
   try {
     const analyse = await analysiereBildseiten(bilder, file.name, dateityp);
     const gruppen = gruppiereElemente(analyse.elemente);
-    return NextResponse.json({ analyse, gruppen });
+    return NextResponse.json({ analyse, gruppen, katalog: katalogInfo() });
   } catch (err) {
     return NextResponse.json({ fehler: err instanceof Error ? err.message : "Unbekannter Fehler" }, { status: 500 });
   }

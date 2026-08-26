@@ -1,22 +1,13 @@
-import { execFile } from "node:child_process";
-import { mkdtemp, readdir, readFile, rm, writeFile } from "node:fs/promises";
-import { tmpdir } from "node:os";
-import { join } from "node:path";
-import { promisify } from "node:util";
+import { pdf } from "pdf-to-img";
 
-const run = promisify(execFile);
+const ZIEL_DPI = 200;
+const SKALIERUNG = ZIEL_DPI / 72;
 
 export async function pdfZuBildern(pdfBuf: Buffer): Promise<Buffer[]> {
-  const dir = await mkdtemp(join(tmpdir(), "mengenwerk-"));
-  const pdfPath = join(dir, "plan.pdf");
-  await writeFile(pdfPath, pdfBuf);
-
-  try {
-    await run("pdftoppm", ["-png", "-r", "200", pdfPath, join(dir, "seite")]);
-    const dateien = (await readdir(dir)).filter((f) => f.startsWith("seite") && f.endsWith(".png")).sort();
-    const bilder = await Promise.all(dateien.map((f) => readFile(join(dir, f))));
-    return bilder;
-  } finally {
-    await rm(dir, { recursive: true, force: true });
+  const dokument = await pdf(pdfBuf, { scale: SKALIERUNG });
+  const bilder: Buffer[] = [];
+  for await (const seite of dokument) {
+    bilder.push(seite);
   }
+  return bilder;
 }

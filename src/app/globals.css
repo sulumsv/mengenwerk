@@ -9,6 +9,8 @@
   --accent-fg: #14130f;
   --alert: #d4331f;
   --alert-fg: #f7f6f1;
+  --highlight: #1f7a33;
+  --highlight-fg: #f7f6f1;
   --line: #dcdacd;
   --line-strong: #14130f;
 }
@@ -22,6 +24,8 @@
   --color-accent-fg: var(--accent-fg);
   --color-alert: var(--alert);
   --color-alert-fg: var(--alert-fg);
+  --color-highlight: var(--highlight);
+  --color-highlight-fg: var(--highlight-fg);
   --color-line: var(--line);
   --color-line-strong: var(--line-strong);
   --font-display: var(--font-display);

@@ -106,6 +106,14 @@ export const ANNAHMEN = {
     begruendung: "Regelbreite Innentür, solange keine Türliste vorliegt.",
     auswirkung: "Bestimmt den Abzug bei Sockelleisten und Fliesensockeln.",
   },
+  tuerhoeheDurchgang: {
+    id: "tuerhoeheDurchgang",
+    titel: "Türhöhe 2,00 m",
+    wert: 2.0,
+    einheit: "m",
+    begruendung: "Regelhöhe Innentür, solange keine Türliste vorliegt.",
+    auswirkung: "Bestimmt den Türabzug beim Fliesenspiegel der Nassräume.",
+  },
 } as const satisfies Record<string, Annahme>;
 
 export type AnnahmeId = keyof typeof ANNAHMEN;

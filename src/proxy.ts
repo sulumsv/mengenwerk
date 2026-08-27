@@ -8,7 +8,7 @@ async function hash(value: string): Promise<string> {
   return Array.from(new Uint8Array(digest)).map((b) => b.toString(16).padStart(2, "0")).join("");
 }
 
-export async function middleware(req: NextRequest) {
+export async function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
   const geschuetzt = pathname === "/app" || pathname.startsWith("/app/") || pathname.startsWith("/api/analyze");
   if (!geschuetzt) return NextResponse.next();

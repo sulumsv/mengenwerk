@@ -232,7 +232,6 @@ function abschnittBoden(raeume: Raum[], genutzt: Set<AnnahmeId>): Abschnitt {
       rechenweg: `Summe der beheizten Raumflächen`,
       menge: beheizt,
       einheit: "m2",
-      gerechnet: false,
     });
   }
 
@@ -267,6 +266,9 @@ function abschnittRohbau(
 ): Abschnitt {
   const s = new Sammler(3);
   const betonVolumina: number[] = [];
+  // Nur die Annahmen aufführen, die in eine tatsächlich gebildete Betonposition
+  // eingeflossen sind — sonst behauptet die Summe Annahmen, die es nicht gab.
+  const betonAnnahmen = new Set<AnnahmeId>();
 
   const eg = findeNachweis(kontext, ["bruttogrundriss eg", "bgf eg", "erdgeschoß", "erdgeschoss"]);
   // Die Gesamtfläche darf nicht denselben Eintrag treffen wie die des Erdgeschoßes.
@@ -283,6 +285,7 @@ function abschnittRohbau(
     const v = plattenFlaeche * staerke;
     betonVolumina.push(v);
     genutzt.add("bodenplattenstaerke");
+    betonAnnahmen.add("bodenplattenstaerke");
     s.add({
       bezeichnung: "Bodenplatte",
       detail: `${z(staerke * 100, 0)} cm angenommen`,
@@ -303,6 +306,7 @@ function abschnittRohbau(
     const v = deckenFlaeche * staerke;
     betonVolumina.push(v);
     genutzt.add("geschossdeckenstaerke");
+    betonAnnahmen.add("geschossdeckenstaerke");
     s.add({
       bezeichnung: "Geschoßdecken Stahlbeton",
       detail: `${z(staerke * 100, 0)} cm angenommen, Stiegenauge nicht abgezogen`,
@@ -350,7 +354,7 @@ function abschnittRohbau(
       rechenweg: betonVolumina.map((v) => z(v)).join(" + "),
       menge: gesamt,
       einheit: "m3",
-      annahmen: ["bodenplattenstaerke", "geschossdeckenstaerke"],
+      annahmen: [...betonAnnahmen],
     });
 
     const grad = ANNAHMEN.bewehrungsgrad.wert;
@@ -454,7 +458,6 @@ function abschnittFassade(
     rechenweg: "= Fassadenfläche brutto",
     menge: brutto,
     einheit: "m2",
-    gerechnet: false,
   });
 
   s.add({
@@ -462,7 +465,6 @@ function abschnittFassade(
     rechenweg: "= Fassadenfläche brutto",
     menge: brutto,
     einheit: "m2",
-    gerechnet: false,
   });
 
   // Die Abwicklungslänge muss aus dem Nachweis kommen. Sie aus der Fläche und
@@ -622,7 +624,6 @@ function abschnittAusbau(raeume: Raum[], kontext: PlanKontext, genutzt: Set<Anna
       rechenweg: "Summe der beheizten Raumflächen",
       menge: decken,
       einheit: "m2",
-      gerechnet: false,
     });
   }
 
@@ -639,11 +640,14 @@ function abschnittAusbau(raeume: Raum[], kontext: PlanKontext, genutzt: Set<Anna
   const nass = innen.filter((r) => r.nassraum);
   if (nass.length > 0) {
     const hoehe = ANNAHMEN.fliesenspiegelhoehe.wert;
-    const tuer = ANNAHMEN.tuerbreiteDurchgang.wert;
+    const tuerFlaeche = ANNAHMEN.tuerbreiteDurchgang.wert * ANNAHMEN.tuerhoeheDurchgang.wert;
     genutzt.add("fliesenspiegelhoehe");
     genutzt.add("tuerbreiteDurchgang");
+    genutzt.add("tuerhoeheDurchgang");
     const brutto = summe(nass.map((r) => r.umfang_m * hoehe));
-    const abzug = nass.length * tuer * 2.0;
+    // Bei sehr kleinen Nassräumen darf der Türabzug die Bruttofläche nicht
+    // übersteigen, sonst entstünde eine negative Menge.
+    const abzug = Math.min(nass.length * tuerFlaeche, brutto);
     const verschnitt = verschnittFuer("fliesen");
     s.add({
       bezeichnung: "Fliesenspiegel Nassräume",
@@ -651,7 +655,7 @@ function abschnittAusbau(raeume: Raum[], kontext: PlanKontext, genutzt: Set<Anna
       rechenweg: `${z(brutto)} m² − ${z(abzug)} m² Türen = ${z(brutto - abzug)} m² × ${z(verschnitt.faktor)}`,
       menge: (brutto - abzug) * verschnitt.faktor,
       einheit: "m2",
-      annahmen: ["fliesenspiegelhoehe", "tuerbreiteDurchgang"],
+      annahmen: ["fliesenspiegelhoehe", "tuerbreiteDurchgang", "tuerhoeheDurchgang"],
       typ: "boden",
       material: "Fliesen",
     });

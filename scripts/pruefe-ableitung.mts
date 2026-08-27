@@ -121,8 +121,68 @@ for (const [name, ist, soll] of erwartet) {
   if (!ok) fehler++;
   console.log(`  ${ok ? "OK  " : "FEHL"} ${name.padEnd(26)} ist ${String(ist).padStart(8)}  soll ${soll}`);
 }
+console.log(fehler === 0 ? "\nAlle Prüfwerte stimmen mit der Handrechnung überein." : `\n${fehler} Abweichung(en) zur Handrechnung.`);
+
+// --- Randfälle: die Ableitung darf bei dünner Datenlage nicht abstürzen ---
+console.log(`\n${fett}Randfälle${reset}`);
+
+function pruefe(name: string, fn: () => void) {
+  try {
+    fn();
+    console.log(`  OK   ${name}`);
+  } catch (e) {
+    console.error(`  FEHL ${name}: ${e instanceof Error ? e.message : e}`);
+    fehler++;
+  }
+}
+
+const leererKontext: PlanKontext = { legende: {}, geschosshoehen: {}, nachweise: {}, hinweise: [] };
+
+pruefe("Plan ohne Räume und ohne Nachweise", () => {
+  const a = baueMassenauszug([], [], leererKontext);
+  if (a.abschnitte.some((x) => x.positionen.some((p) => Number.isNaN(p.menge)))) {
+    throw new Error("NaN in einer Menge");
+  }
+});
+
+pruefe("Räume ohne jeden Nachweis", () => {
+  const a = baueMassenauszug(raeume, [], leererKontext);
+  const nan = a.abschnitte.flatMap((x) => x.positionen).filter((p) => p.menge !== null && Number.isNaN(p.menge));
+  if (nan.length > 0) throw new Error(`NaN bei ${nan.map((p) => p.bezeichnung).join(", ")}`);
+});
+
+pruefe("Kleinstnassraum ergibt keine negative Menge", () => {
+  const winzig = r("EG", "WC", 0.6, "Fliesen", { l: 0.6, b: 1.0, nass: true });
+  const a = baueMassenauszug([winzig], [], { ...leererKontext, geschosshoehen: { EG: 2.5 } });
+  const negativ = a.abschnitte
+    .flatMap((x) => x.positionen)
+    .filter((p) => p.menge !== null && p.menge < 0);
+  if (negativ.length > 0) {
+    throw new Error(`negative Menge bei ${negativ.map((p) => `${p.bezeichnung} ${p.menge}`).join(", ")}`);
+  }
+});
+
+pruefe("Summenposition nennt nur tatsächlich genutzte Annahmen", () => {
+  const nurStuetze = baueMassenauszug([], [elemente[0]], leererKontext);
+  const gesamt = nurStuetze.abschnitte.flatMap((x) => x.positionen).find((p) => p.bezeichnung === "Beton gesamt");
+  if (gesamt && gesamt.annahmen.length > 0) {
+    throw new Error(`Beton gesamt behauptet Annahmen ${gesamt.annahmen.join(", ")} ohne Bodenplatte oder Decke`);
+  }
+});
+
+pruefe("Abgeleitete Summen gelten nicht als im Plan beschriftet", () => {
+  const a = baueMassenauszug(raeume, elemente, kontext);
+  const abgeleitet = ["Fußbodenheizung", "Wärmedämmverbundsystem", "Außenputz", "Deckenputz"];
+  const falsch = a.abschnitte
+    .flatMap((x) => x.positionen)
+    .filter((p) => abgeleitet.includes(p.bezeichnung) && p.konfidenz === "plan");
+  if (falsch.length > 0) {
+    throw new Error(`als "Aus Plan" ausgewiesen: ${falsch.map((p) => p.bezeichnung).join(", ")}`);
+  }
+});
+
 if (fehler > 0) {
-  console.error(`\n${fehler} Abweichung(en) zur Handrechnung.`);
+  console.error(`\n${fehler} Fehler.`);
   process.exit(1);
 }
-console.log("\nAlle Prüfwerte stimmen mit der Handrechnung überein.");
+console.log("\nRandfälle bestanden.");

@@ -137,19 +137,23 @@ export default function Home() {
 
       <section id="so-funktioniert-es" className="px-6 md:px-10 py-16 max-w-7xl mx-auto scroll-mt-20">
         <h2 className="font-display font-black uppercase text-3xl mb-10">So funktioniert es</h2>
-        <div className="grid md:grid-cols-3 gap-px bg-line rounded-lg overflow-hidden border border-line">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-line rounded-lg overflow-hidden border border-line">
           {[
+            {
+              titel: "Einheitspreise hinterlegen",
+              text: "Einmalig die Preise des Betriebs je Leistungsgruppe eintragen. Leere Felder verwenden einen Richtwert.",
+            },
             {
               titel: "Plan hochladen",
               text: "Vektor PDF, gescannte Einreichung oder Foto. MengenWerk erkennt den Dateityp automatisch.",
             },
             {
-              titel: "Erkennung prüfen",
-              text: "Fenster, Türen, Wände und Flächen werden erkannt und mit Rechenweg dargestellt, damit du gegenrechnen kannst.",
+              titel: "Massenauszug prüfen",
+              text: "Von Erdaushub über Beton, Estrich und Fassade bis Dach und Malerei — jede Menge mit Rechenweg und Herkunft.",
             },
             {
-              titel: "Mengen übernehmen",
-              text: "Ergebnisse sind nach LB HB Leistungsgruppen sortiert und bereit für Angebot oder Bestellung.",
+              titel: "Kostenschätzung übernehmen",
+              text: "Aus Mengen und Einheitspreisen entsteht die Schätzung. Als Datei zum Weiterreichen herunterladbar.",
             },
           ].map((s, i) => (
             <div key={s.titel} className="bg-surface p-8">
@@ -158,6 +162,20 @@ export default function Home() {
               <p className="text-sm text-fg-muted leading-relaxed">{s.text}</p>
             </div>
           ))}
+        </div>
+        <div className="mt-8 flex flex-wrap gap-4">
+          <Link
+            href="/einheitspreise"
+            className="inline-block rounded-md border border-line-strong font-display font-bold uppercase tracking-wide text-sm px-6 py-3 hover:bg-surface-2"
+          >
+            Einheitspreise hinterlegen
+          </Link>
+          <Link
+            href="/vorschau"
+            className="inline-block font-display font-bold uppercase tracking-wide text-sm px-2 py-3 text-fg hover:text-fg-muted"
+          >
+            Beispielauswertung ansehen →
+          </Link>
         </div>
       </section>
 

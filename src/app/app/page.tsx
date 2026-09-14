@@ -5,6 +5,7 @@ import type { AnalysisResult, GroupedItem, Konfidenz, Massenauszug } from "@/lib
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import { MassenauszugAnsicht } from "@/components/Massenauszug";
 import { ladeEinheitspreise } from "@/lib/einheitspreise-speicher";
+import { planZuBlaettern } from "@/lib/plan-zu-bildern";
 
 type KatalogInfo = { katalog: string; version: string; vollstaendig: boolean };
 
@@ -74,27 +75,92 @@ function PlanKontextBlock({ kontext }: { kontext: AnalysisResult["kontext"] }) {
   );
 }
 
+function mb(bytes: number): string {
+  return (bytes / 1024 / 1024).toLocaleString("de-AT", { maximumFractionDigits: 1 });
+}
+
+/**
+ * Meldung für Antworten, die kein JSON enthalten. Das sind Fehler, die vor der
+ * Anwendung entstehen — meist die Uploadgrenze der Hosting-Plattform oder eine
+ * Zeitüberschreitung.
+ */
+function meldungFuerStatus(status: number, datei: File): string {
+  if (status === 401 || status === 403) {
+    return "Die Anmeldung ist abgelaufen. Bitte neu anmelden und erneut versuchen.";
+  }
+  if (status === 413) {
+    return `Die Datei ist mit ${mb(datei.size)} MB zu groß für den Upload. Bitte den Plansatz aufteilen oder kleiner exportieren.`;
+  }
+  if (status === 504 || status === 408) {
+    return "Die Auswertung hat zu lange gedauert und wurde abgebrochen. Bitte den Plansatz in weniger Blätter aufteilen.";
+  }
+  if (status === 502 || status === 503) {
+    return "Der Server war vorübergehend nicht erreichbar. Bitte in einigen Minuten erneut versuchen.";
+  }
+  return `Der Server hat unerwartet geantwortet (Code ${status}) bei einer Datei von ${mb(datei.size)} MB.`;
+}
+
 export default function ToolPage() {
   const [datei, setDatei] = useState<File | null>(null);
   const [ziehtUeber, setZiehtUeber] = useState(false);
   const [laedt, setLaedt] = useState(false);
+  const [schritt, setSchritt] = useState<string | null>(null);
   const [ergebnis, setErgebnis] = useState<ApiResponse | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
   async function analysieren(f: File) {
     setLaedt(true);
     setErgebnis(null);
+    setSchritt("Plan wird gelesen");
+
     const fd = new FormData();
-    fd.append("plan", f);
+    fd.append("dateiname", f.name);
     fd.append("einheitspreise", JSON.stringify(ladeEinheitspreise()));
+
+    // Das PDF wird hier im Browser in Seitenbilder umgewandelt. Als Datei
+    // hochgeladen wäre ein Einreichplan oft zu groß für die Anfrage.
+    try {
+      const blaetter = await planZuBlaettern(f, (seite, von) =>
+        setSchritt(`Blatt ${seite} von ${von} wird vorbereitet`),
+      );
+      for (const blatt of blaetter) fd.append("blatt", blatt.datei, blatt.datei.name);
+      setSchritt(`${blaetter.length} Blatt wird ausgewertet`);
+    } catch {
+      setErgebnis({
+        fehler: "Der Plan konnte nicht gelesen werden. Bitte prüfen, ob die Datei beschädigt oder passwortgeschützt ist.",
+      });
+      setLaedt(false);
+      setSchritt(null);
+      return;
+    }
+
     try {
       const res = await fetch("/api/analyze", { method: "POST", body: fd });
-      const json: ApiResponse = await res.json();
-      setErgebnis(json);
+
+      // Plattformfehler wie eine abgewiesene Uploadgröße oder eine
+      // Zeitüberschreitung kommen nicht als JSON zurück. Ohne diese
+      // Unterscheidung verschluckt die Auswertung der Antwort den Statuscode
+      // und die Meldung sagt nichts aus.
+      const roh = await res.text();
+      let json: ApiResponse | null = null;
+      try {
+        json = JSON.parse(roh) as ApiResponse;
+      } catch {
+        json = null;
+      }
+
+      if (json) {
+        setErgebnis(json);
+      } else {
+        setErgebnis({ fehler: meldungFuerStatus(res.status, f) });
+      }
     } catch {
-      setErgebnis({ fehler: "Die Anfrage ist fehlgeschlagen. Bitte erneut versuchen." });
+      setErgebnis({
+        fehler: "Keine Verbindung zum Server. Bitte Internetverbindung prüfen und erneut versuchen.",
+      });
     } finally {
       setLaedt(false);
+      setSchritt(null);
     }
   }
 
@@ -145,7 +211,7 @@ export default function ToolPage() {
               }}
             />
             <p className="font-display font-bold uppercase tracking-wide">
-              {laedt ? "Plan wird analysiert" : datei ? datei.name : "Plan hier ablegen oder klicken"}
+              {laedt ? (schritt ?? "Plan wird analysiert") : datei ? datei.name : "Plan hier ablegen oder klicken"}
             </p>
             <p className="mt-2 font-mono text-xs text-fg-muted">
               {laedt ? "Vision Erkennung läuft, das kann bei mehrseitigen Plänen etwas dauern" : "Vektor PDF, Scan oder Bild werden automatisch unterschieden"}
@@ -154,7 +220,7 @@ export default function ToolPage() {
         </div>
 
         {ergebnis && "fehler" in ergebnis && (
-          <div className="mt-6 rounded-md border border-highlight/40 bg-highlight/10 p-5 text-sm text-highlight">{ergebnis.fehler}</div>
+          <div className="mt-6 rounded-md border-2 border-alert bg-alert/10 p-5 text-sm">{ergebnis.fehler}</div>
         )}
 
         {ergebnis && "gruppen" in ergebnis && (

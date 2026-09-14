@@ -10,14 +10,23 @@ const MODELL = "claude-opus-5";
 const MAX_KONTEXT_SEITEN = 12;
 
 /**
- * Zeitrahmen. Die Route hat 300 Sekunden; davon gehen PDF-Rendern und das
- * Zusammenstellen der Antwort ab. Wird das Budget knapp, bricht die Auswertung
- * geordnet ab und liefert die bereits ausgewerteten Blätter statt gar nichts.
+ * Zeitrahmen. Die Route hat 300 Sekunden für alles — Upload, PDF-Rendern,
+ * Auswertung und Antwort. Die Frist wird deshalb beim Eintreffen der Anfrage
+ * gesetzt und hereingereicht, nicht erst hier: sonst zählt die Renderzeit des
+ * PDF nicht mit und die Notbremse greift zu spät.
  */
-const ZEITBUDGET_MS = 255_000;
+export const ZEITBUDGET_MS = 250_000;
 
-/** Obergrenze je Einzelanfrage, damit ein hängender Aufruf nicht alles aufbraucht. */
-const ANFRAGE_TIMEOUT_MS = 110_000;
+/** Obergrenze je Versuch. */
+const ANFRAGE_TIMEOUT_MS = 70_000;
+
+/**
+ * Wiederholungen bei Überlast. Jeder Versuch kann bis zum Timeout laufen, die
+ * Obergrenze eines Aufrufs ist also das Produkt — das muss die Frist wissen,
+ * sonst startet sie einen Aufruf, der sie überzieht.
+ */
+const MAX_WIEDERHOLUNGEN = 1;
+const MAX_AUFRUFDAUER_MS = ANFRAGE_TIMEOUT_MS * (MAX_WIEDERHOLUNGEN + 1);
 
 /**
  * Blätter werden nebenläufig ausgewertet — sie sind voneinander unabhängig,
@@ -49,12 +58,22 @@ async function parallelMitGrenze<T, R>(
   return ergebnisse;
 }
 
-/** Kurzfassung eines Fehlers für die Hinweisliste, ohne Stacktrace. */
+/**
+ * Benennt einen Fehler in der Sprache des Nutzers. Rohe SDK-Texte gehören nicht
+ * in einen Massenauszug, den ein Baumeister liest.
+ */
 function fehlertext(fehler: unknown): string {
-  if (fehler instanceof Anthropic.APIError) {
-    return `${fehler.status ?? "Netzwerk"} ${fehler.message}`.slice(0, 200);
-  }
-  return (fehler instanceof Error ? fehler.message : String(fehler)).slice(0, 200);
+  if (fehler instanceof Anthropic.RateLimitError) return "Kontingent der Anthropic API erschöpft";
+  if (fehler instanceof Anthropic.AuthenticationError) return "API-Schlüssel abgelehnt";
+  if (fehler instanceof Anthropic.APIConnectionTimeoutError) return "Zeitüberschreitung";
+  if (fehler instanceof Anthropic.APIConnectionError) return "API nicht erreichbar";
+  if (fehler instanceof Anthropic.APIError) return `API-Fehler ${fehler.status ?? ""}`.trim();
+  return "unerwarteter Fehler";
+}
+
+/** Ein abgelehnter Schlüssel betrifft jeden Aufruf — weiterzumachen ist sinnlos. */
+function istEndgueltig(fehler: unknown): boolean {
+  return fehler instanceof Anthropic.AuthenticationError || fehler instanceof Anthropic.PermissionDeniedError;
 }
 
 const ELEMENT_TYPEN = [
@@ -258,6 +277,10 @@ async function erhebeKontext(client: Anthropic, bilder: Buffer[]): Promise<PlanK
     );
     geparst = antwort.parsed_output;
   } catch (fehler) {
+    // Ein abgelehnter Schlüssel trifft jeden folgenden Aufruf gleichermaßen:
+    // durchreichen, damit die Route eine klare Meldung geben kann statt eines
+    // leeren Auszugs mit HTTP 200.
+    if (istEndgueltig(fehler)) throw fehler;
     // Ohne Kontext bleiben Materialzuordnung und Wandhöhen offen, die Räume
     // lassen sich aber weiterhin erfassen — besser als gar kein Ergebnis.
     return {
@@ -292,6 +315,8 @@ interface Blattergebnis {
   raeume: Raum[];
   elemente: DetectedElement[];
   hinweise: string[];
+  /** Gesetzt, wenn der Aufruf scheiterte — für die Auswertung, ob alles scheiterte. */
+  fehler?: unknown;
 }
 
 async function werteBlattAus(
@@ -326,8 +351,9 @@ async function werteBlattAus(
     );
     geparst = antwort.parsed_output;
   } catch (fehler) {
+    if (istEndgueltig(fehler)) throw fehler;
     // Ein gescheitertes Blatt darf die übrigen nicht mitreißen.
-    return { ...leer, hinweise: [`Blatt ${blatt}: nicht ausgewertet (${fehlertext(fehler)}).`] };
+    return { ...leer, hinweise: [`Blatt ${blatt}: nicht ausgewertet (${fehlertext(fehler)}).`], fehler };
   }
 
   if (!geparst) {
@@ -370,14 +396,14 @@ export async function analysiereBildseiten(
   bilder: Buffer[],
   dateiname: string,
   dateityp: AnalysisResult["dateityp"],
+  frist: number,
 ): Promise<AnalysisResult> {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
     throw new Error("ANTHROPIC_API_KEY ist nicht gesetzt. Bitte in .env.local eintragen.");
   }
 
-  const frist = Date.now() + ZEITBUDGET_MS;
-  const client = new Anthropic({ apiKey });
+  const client = new Anthropic({ apiKey, maxRetries: MAX_WIEDERHOLUNGEN });
 
   const kontext = await erhebeKontext(client, bilder);
   const kontextText = baueKontextText(kontext);
@@ -386,12 +412,20 @@ export async function analysiereBildseiten(
   const ergebnisse = await parallelMitGrenze(bilder, MAX_PARALLEL, async (bild, i) => {
     // Vor jedem Blatt prüfen: ein angefangener Aufruf, der in die Zeitüberschreitung
     // der Route läuft, liefert gar nichts — ein ausgelassenes Blatt kostet nur dieses.
-    if (Date.now() + ANFRAGE_TIMEOUT_MS > frist) {
+    // Gerechnet wird mit der vollen Aufrufdauer inklusive Wiederholung.
+    if (Date.now() + MAX_AUFRUFDAUER_MS > frist) {
       uebersprungen.push(i + 1);
       return { raeume: [], elemente: [], hinweise: [] } satisfies Blattergebnis;
     }
     return werteBlattAus(client, bild, i + 1, bilder.length, kontextText);
   });
+
+  // Scheitert jedes Blatt, ist das kein Teilausfall, sondern ein Ausfall: den
+  // ersten Fehler weiterreichen, damit die Route ihn benennen kann.
+  const versucht = ergebnisse.filter((_, i) => !uebersprungen.includes(i + 1));
+  if (versucht.length > 0 && versucht.every((e) => e.fehler !== undefined)) {
+    throw versucht[0].fehler;
+  }
 
   // Hinweise zum Plansatz gehören zu den Prüfpunkten, Hinweise zu einzelnen
   // Blättern unter "Zur Kontrolle". Ein unvollständiger Auszug ist ein

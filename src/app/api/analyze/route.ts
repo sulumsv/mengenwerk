@@ -2,7 +2,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { NextRequest, NextResponse } from "next/server";
 import { erkenneDateityp } from "@/lib/filetype";
 import { pdfZuBildern } from "@/lib/pdf2img";
-import { analysiereBildseiten } from "@/lib/analyze";
+import { analysiereBildseiten, ZEITBUDGET_MS } from "@/lib/analyze";
 import { gruppiereElemente } from "@/lib/group";
 import { baueMassenauszug } from "@/lib/ableitung";
 import { katalogInfo } from "@/lib/lbhb";
@@ -11,7 +11,10 @@ import { AUTH_COOKIE, istAngemeldet } from "@/lib/auth";
 export const runtime = "nodejs";
 export const maxDuration = 300;
 
-/** Obergrenze für den Upload. Größere Plansätze sprengen Speicher und Zeitrahmen. */
+/**
+ * Obergrenze für die Anfrage. Geprüft wird vor dem Puffern über content-length;
+ * die Prüfung der Dateigröße danach fängt nur noch gefälschte Header ab.
+ */
 const MAX_DATEIGROESSE = 40 * 1024 * 1024;
 
 /** Mehr Blätter sind im Zeitrahmen nicht auswertbar. */
@@ -69,8 +72,20 @@ function leseEinheitspreise(roh: FormDataEntryValue | null): Record<string, numb
 }
 
 export async function POST(req: NextRequest) {
+  // Ab hier läuft die Uhr der Route. Upload, PDF-Rendern und Antwort zählen
+  // mit, deshalb steht die Frist vor allem anderen.
+  const frist = Date.now() + ZEITBUDGET_MS;
+
   if (!(await istAngemeldet(req.cookies.get(AUTH_COOKIE)?.value))) {
     return fehler("Nicht angemeldet.", 401);
+  }
+
+  // Vor dem Puffern prüfen: formData() liest den gesamten Body in den Speicher,
+  // eine Größenprüfung danach kommt zu spät.
+  const laenge = Number(req.headers.get("content-length") ?? 0);
+  if (laenge > MAX_DATEIGROESSE) {
+    const mb = Math.round(MAX_DATEIGROESSE / 1024 / 1024);
+    return fehler(`Die Anfrage ist größer als ${mb} MB. Bitte den Plansatz verkleinern oder aufteilen.`, 413);
   }
 
   // formData() wirft bei fehlendem oder unlesbarem Body; ohne diesen Fang
@@ -124,7 +139,7 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    const analyse = await analysiereBildseiten(bilder, datei.name, dateityp);
+    const analyse = await analysiereBildseiten(bilder, datei.name, dateityp, frist);
     const gruppen = gruppiereElemente(analyse.elemente);
     const massenauszug = baueMassenauszug(analyse.raeume, analyse.elemente, analyse.kontext, einheitspreise);
     return NextResponse.json({ analyse, gruppen, massenauszug, katalog: katalogInfo() });

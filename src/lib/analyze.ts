@@ -9,6 +9,54 @@ const MODELL = "claude-opus-5";
 /** Obergrenze für den Kontextdurchgang, damit große Plansätze die Anfrage nicht sprengen. */
 const MAX_KONTEXT_SEITEN = 12;
 
+/**
+ * Zeitrahmen. Die Route hat 300 Sekunden; davon gehen PDF-Rendern und das
+ * Zusammenstellen der Antwort ab. Wird das Budget knapp, bricht die Auswertung
+ * geordnet ab und liefert die bereits ausgewerteten Blätter statt gar nichts.
+ */
+const ZEITBUDGET_MS = 255_000;
+
+/** Obergrenze je Einzelanfrage, damit ein hängender Aufruf nicht alles aufbraucht. */
+const ANFRAGE_TIMEOUT_MS = 110_000;
+
+/**
+ * Blätter werden nebenläufig ausgewertet — sie sind voneinander unabhängig,
+ * sobald der Kontext steht. Sequentiell überschreitet ein fünfseitiger Plansatz
+ * das Zeitbudget. Die Grenze hält die Last gegen die API im Rahmen.
+ */
+const MAX_PARALLEL = 3;
+
+/**
+ * Arbeitet die Einträge mit begrenzter Nebenläufigkeit ab und behält die
+ * Reihenfolge der Ergebnisse bei.
+ */
+async function parallelMitGrenze<T, R>(
+  eintraege: T[],
+  grenze: number,
+  arbeit: (eintrag: T, index: number) => Promise<R>,
+): Promise<R[]> {
+  const ergebnisse = new Array<R>(eintraege.length);
+  let naechster = 0;
+
+  async function arbeiter(): Promise<void> {
+    while (naechster < eintraege.length) {
+      const i = naechster++;
+      ergebnisse[i] = await arbeit(eintraege[i], i);
+    }
+  }
+
+  await Promise.all(Array.from({ length: Math.min(grenze, eintraege.length) }, arbeiter));
+  return ergebnisse;
+}
+
+/** Kurzfassung eines Fehlers für die Hinweisliste, ohne Stacktrace. */
+function fehlertext(fehler: unknown): string {
+  if (fehler instanceof Anthropic.APIError) {
+    return `${fehler.status ?? "Netzwerk"} ${fehler.message}`.slice(0, 200);
+  }
+  return (fehler instanceof Error ? fehler.message : String(fehler)).slice(0, 200);
+}
+
 const ELEMENT_TYPEN = [
   "fenster",
   "tuer",
@@ -182,26 +230,44 @@ function alsBild(bild: Buffer) {
  */
 async function erhebeKontext(client: Anthropic, bilder: Buffer[]): Promise<PlanKontext> {
   const auswahl = bilder.slice(0, MAX_KONTEXT_SEITEN);
+  const leer: PlanKontext = { legende: {}, geschosshoehen: {}, nachweise: {}, hinweise: [] };
 
-  const antwort = await client.messages.parse({
-    model: MODELL,
-    max_tokens: 16000,
-    system: KONTEXT_PROMPT,
-    thinking: { type: "adaptive" },
-    output_config: { effort: "high", format: zodOutputFormat(KontextSchema) },
-    messages: [
+  let geparst;
+  try {
+    const antwort = await client.messages.parse(
       {
-        role: "user",
-        content: [
-          ...auswahl.map(alsBild),
-          { type: "text", text: `Der Plansatz umfasst ${auswahl.length} Blätter. Erfasse die übergreifenden Angaben.` },
+        model: MODELL,
+        max_tokens: 16000,
+        system: KONTEXT_PROMPT,
+        thinking: { type: "adaptive" },
+        output_config: { effort: "high", format: zodOutputFormat(KontextSchema) },
+        messages: [
+          {
+            role: "user",
+            content: [
+              ...auswahl.map(alsBild),
+              {
+                type: "text",
+                text: `Der Plansatz umfasst ${auswahl.length} Blätter. Erfasse die übergreifenden Angaben.`,
+              },
+            ],
+          },
         ],
       },
-    ],
-  });
+      { timeout: ANFRAGE_TIMEOUT_MS },
+    );
+    geparst = antwort.parsed_output;
+  } catch (fehler) {
+    // Ohne Kontext bleiben Materialzuordnung und Wandhöhen offen, die Räume
+    // lassen sich aber weiterhin erfassen — besser als gar kein Ergebnis.
+    return {
+      ...leer,
+      hinweise: [
+        `Die übergreifenden Planangaben konnten nicht gelesen werden (${fehlertext(fehler)}). Legende, Schnitthöhen und Nachweise fehlen daher.`,
+      ],
+    };
+  }
 
-  const leer: PlanKontext = { legende: {}, geschosshoehen: {}, nachweise: {}, hinweise: [] };
-  const geparst = antwort.parsed_output;
   if (!geparst) {
     return { ...leer, hinweise: ["Die übergreifenden Planangaben konnten nicht gelesen werden."] };
   }
@@ -221,6 +287,85 @@ async function erhebeKontext(client: Anthropic, bilder: Buffer[]): Promise<PlanK
   };
 }
 
+/** Ergebnis der Auswertung eines einzelnen Blattes. */
+interface Blattergebnis {
+  raeume: Raum[];
+  elemente: DetectedElement[];
+  hinweise: string[];
+}
+
+async function werteBlattAus(
+  client: Anthropic,
+  bild: Buffer,
+  blatt: number,
+  vonBlaettern: number,
+  kontextText: string,
+): Promise<Blattergebnis> {
+  const leer: Blattergebnis = { raeume: [], elemente: [], hinweise: [] };
+
+  let geparst;
+  try {
+    const antwort = await client.messages.parse(
+      {
+        model: MODELL,
+        max_tokens: 16000,
+        system: SEITEN_PROMPT,
+        thinking: { type: "adaptive" },
+        output_config: { effort: "high", format: zodOutputFormat(SeitenSchema) },
+        messages: [
+          {
+            role: "user",
+            content: [
+              alsBild(bild),
+              { type: "text", text: `${kontextText}\n\nWerte Blatt ${blatt} von ${vonBlaettern} aus.` },
+            ],
+          },
+        ],
+      },
+      { timeout: ANFRAGE_TIMEOUT_MS },
+    );
+    geparst = antwort.parsed_output;
+  } catch (fehler) {
+    // Ein gescheitertes Blatt darf die übrigen nicht mitreißen.
+    return { ...leer, hinweise: [`Blatt ${blatt}: nicht ausgewertet (${fehlertext(fehler)}).`] };
+  }
+
+  if (!geparst) {
+    return { ...leer, hinweise: [`Blatt ${blatt}: Die Antwort konnte nicht gelesen werden, übersprungen.`] };
+  }
+
+  return {
+    raeume: geparst.raeume.map((r) => ({
+      id: crypto.randomUUID(),
+      geschoss: r.geschoss,
+      name: r.name,
+      flaeche_m2: r.flaeche_m2,
+      belag: r.belag ?? undefined,
+      laenge_m: r.laenge_m ?? undefined,
+      breite_m: r.breite_m ?? undefined,
+      ...ermittleUmfang(r.flaeche_m2, r.laenge_m, r.breite_m),
+      beheizt: r.beheizt,
+      nassraum: r.nassraum,
+      konfidenz: r.konfidenz as Konfidenz,
+      quelle: `${r.quelle} (Blatt ${blatt})`,
+    })),
+    elemente: geparst.elemente.map((el) => ({
+      id: crypto.randomUUID(),
+      type: el.type as ElementType,
+      label: el.label,
+      breite_m: el.breite_m,
+      hoehe_m: el.hoehe_m,
+      tiefe_m: el.tiefe_m ?? undefined,
+      anzahl: el.anzahl,
+      material: el.material ?? undefined,
+      konfidenz: el.konfidenz as Konfidenz,
+      quelle: `${el.quelle} (Blatt ${blatt})`,
+      rechenweg: el.rechenweg,
+    })),
+    hinweise: geparst.hinweise.map((h) => `Blatt ${blatt}: ${h}`),
+  };
+}
+
 export async function analysiereBildseiten(
   bilder: Buffer[],
   dateiname: string,
@@ -230,85 +375,43 @@ export async function analysiereBildseiten(
   if (!apiKey) {
     throw new Error("ANTHROPIC_API_KEY ist nicht gesetzt. Bitte in .env.local eintragen.");
   }
+
+  const frist = Date.now() + ZEITBUDGET_MS;
   const client = new Anthropic({ apiKey });
 
   const kontext = await erhebeKontext(client, bilder);
   const kontextText = baueKontextText(kontext);
 
-  const alleRaeume: Raum[] = [];
-  const alleElemente: DetectedElement[] = [];
-  const alleHinweise: string[] = [];
-
-  for (let i = 0; i < bilder.length; i++) {
-    const antwort = await client.messages.parse({
-      model: MODELL,
-      max_tokens: 16000,
-      system: SEITEN_PROMPT,
-      thinking: { type: "adaptive" },
-      output_config: { effort: "high", format: zodOutputFormat(SeitenSchema) },
-      messages: [
-        {
-          role: "user",
-          content: [
-            alsBild(bilder[i]),
-            {
-              type: "text",
-              text: `${kontextText}\n\nWerte Blatt ${i + 1} von ${bilder.length} aus.`,
-            },
-          ],
-        },
-      ],
-    });
-
-    const geparst = antwort.parsed_output;
-    if (!geparst) {
-      alleHinweise.push(`Blatt ${i + 1}: Die Antwort konnte nicht gelesen werden, übersprungen.`);
-      continue;
+  const uebersprungen: number[] = [];
+  const ergebnisse = await parallelMitGrenze(bilder, MAX_PARALLEL, async (bild, i) => {
+    // Vor jedem Blatt prüfen: ein angefangener Aufruf, der in die Zeitüberschreitung
+    // der Route läuft, liefert gar nichts — ein ausgelassenes Blatt kostet nur dieses.
+    if (Date.now() + ANFRAGE_TIMEOUT_MS > frist) {
+      uebersprungen.push(i + 1);
+      return { raeume: [], elemente: [], hinweise: [] } satisfies Blattergebnis;
     }
+    return werteBlattAus(client, bild, i + 1, bilder.length, kontextText);
+  });
 
-    for (const r of geparst.raeume) {
-      alleRaeume.push({
-        id: crypto.randomUUID(),
-        geschoss: r.geschoss,
-        name: r.name,
-        flaeche_m2: r.flaeche_m2,
-        belag: r.belag ?? undefined,
-        laenge_m: r.laenge_m ?? undefined,
-        breite_m: r.breite_m ?? undefined,
-        ...ermittleUmfang(r.flaeche_m2, r.laenge_m, r.breite_m),
-        beheizt: r.beheizt,
-        nassraum: r.nassraum,
-        konfidenz: r.konfidenz as Konfidenz,
-        quelle: `${r.quelle} (Blatt ${i + 1})`,
-      });
-    }
-
-    for (const el of geparst.elemente) {
-      alleElemente.push({
-        id: crypto.randomUUID(),
-        type: el.type as ElementType,
-        label: el.label,
-        breite_m: el.breite_m,
-        hoehe_m: el.hoehe_m,
-        tiefe_m: el.tiefe_m ?? undefined,
-        anzahl: el.anzahl,
-        material: el.material ?? undefined,
-        konfidenz: el.konfidenz as Konfidenz,
-        quelle: `${el.quelle} (Blatt ${i + 1})`,
-        rechenweg: el.rechenweg,
-      });
-    }
-
-    alleHinweise.push(...geparst.hinweise.map((h) => `Blatt ${i + 1}: ${h}`));
+  // Hinweise zum Plansatz gehören zu den Prüfpunkten, Hinweise zu einzelnen
+  // Blättern unter "Zur Kontrolle". Ein unvollständiger Auszug ist ein
+  // Prüfpunkt, kein Randdetail.
+  const kontextHinweise = [...kontext.hinweise];
+  if (uebersprungen.length > 0) {
+    kontextHinweise.push(
+      `Zeitrahmen erreicht: ${uebersprungen.length} von ${bilder.length} Blättern wurden nicht ausgewertet (Blatt ${uebersprungen
+        .sort((a, b) => a - b)
+        .join(", ")}). Der Auszug ist unvollständig.`,
+    );
   }
 
   return {
     dateiname,
     dateityp,
     seiten: bilder.length,
-    kontext,
-    raeume: alleRaeume,
-    elemente: alleElemente,
-    hinweise: alleHinweise,
+    kontext: { ...kontext, hinweise: kontextHinweise },
+    raeume: ergebnisse.flatMap((e) => e.raeume),
+    elemente: ergebnisse.flatMap((e) => e.elemente),
+    hinweise: ergebnisse.flatMap((e) => e.hinweise),
   };
 }

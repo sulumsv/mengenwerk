@@ -1,24 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
-
-const COOKIE_NAME = "mw_auth";
-
-async function hash(value: string): Promise<string> {
-  const data = new TextEncoder().encode(value);
-  const digest = await crypto.subtle.digest("SHA-256", data);
-  return Array.from(new Uint8Array(digest)).map((b) => b.toString(16).padStart(2, "0")).join("");
-}
+import { AUTH_COOKIE, istAngemeldet } from "@/lib/auth";
 
 export async function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
-  const geschuetzt = pathname === "/app" || pathname.startsWith("/app/") || pathname.startsWith("/api/analyze");
-  if (!geschuetzt) return NextResponse.next();
-
-  const password = process.env.MENGENWERK_PASSWORD;
-  if (!password) return NextResponse.next();
-
-  const expected = await hash(password);
-  const cookie = req.cookies.get(COOKIE_NAME)?.value;
-  if (cookie === expected) return NextResponse.next();
+  if (await istAngemeldet(req.cookies.get(AUTH_COOKIE)?.value)) {
+    return NextResponse.next();
+  }
 
   const loginUrl = new URL("/login", req.url);
   loginUrl.searchParams.set("next", pathname);
@@ -26,5 +13,7 @@ export async function proxy(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/app", "/app/:path*", "/api/analyze"],
+  // Die Auswertungsroute fehlt hier bewusst: sie prüft selbst, damit ihr
+  // Plan-Upload nicht durch den Puffer des Proxys muss.
+  matcher: ["/app", "/app/:path*"],
 };

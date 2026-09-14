@@ -45,9 +45,30 @@ export interface Leseergebnis {
  * Raumsumme mit der ausgewiesenen Wohnnutzfläche: stimmen sie nicht annähernd
  * überein, wurden Raumstempel übersehen oder Fremdwerte eingesammelt.
  */
-function beurteile(raeume: Raum[], nachweise: Record<string, number>): { verlaesslich: boolean; grund?: string } {
+function beurteile(
+  raeume: Raum[],
+  nachweise: Record<string, number>,
+  schnipsel: number,
+): { verlaesslich: boolean; grund?: string } {
+  const zahlwort = (n: number) => n.toLocaleString("de-AT");
+
+  if (schnipsel === 0) {
+    return {
+      verlaesslich: false,
+      grund:
+        "Der Plan enthält überhaupt keinen Text, sondern nur ein Bild — er ist eingescannt oder als Bild exportiert. " +
+        "Daraus lässt sich ohne Bilderkennung nichts lesen.",
+    };
+  }
+
   if (raeume.length < 3) {
-    return { verlaesslich: false, grund: `Es wurden nur ${raeume.length} Räume erkannt.` };
+    return {
+      verlaesslich: false,
+      grund:
+        `Der Plan enthält ${zahlwort(schnipsel)} Textstellen, davon ließen sich aber nur ` +
+        `${raeume.length} Raumstempel und ${Object.keys(nachweise).length} Nachweiswerte sicher zuordnen. ` +
+        "Für einen Massenauszug ist das zu wenig.",
+    };
   }
 
   const summe = raeume.filter((r) => r.beheizt).reduce((s, r) => s + r.flaeche_m2, 0);
@@ -387,7 +408,7 @@ export async function lesePlanAusText(
       );
     }
 
-    const urteil = beurteile(raeume, nachweise);
+    const urteil = beurteile(raeume, nachweise, gesamtSchnipsel);
     return {
       raeume,
       kontext: { legende: {}, geschosshoehen: {}, nachweise, hinweise },

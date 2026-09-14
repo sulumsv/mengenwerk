@@ -95,7 +95,7 @@ function PlanKontextBlock({ kontext }: { kontext: AnalysisResult["kontext"] }) {
  * hier, statt erst am nächsten Tag im Anthropic-Konto: wer nach jedem Plan
  * sieht, was er kostet, kann entscheiden, ob sich der Weg lohnt.
  */
-function HerkunftBlock({ verbrauch }: { verbrauch?: VerbrauchsBericht }) {
+function HerkunftBlock({ verbrauch, textGrund }: { verbrauch?: VerbrauchsBericht; textGrund?: string | null }) {
   const zahl = (n: number) => n.toLocaleString("de-AT");
 
   if (!verbrauch) {
@@ -127,6 +127,11 @@ function HerkunftBlock({ verbrauch }: { verbrauch?: VerbrauchsBericht }) {
           ? `Für das Modell ${verbrauch.modell} ist kein Tarif hinterlegt. Der Betrag steht im Anthropic-Konto.`
           : "Listenpreis in US-Dollar, wie ihn Anthropic verrechnet. Auf der Rechnung steht der Betrag zum Kurs des Abrechnungstags."}
       </p>
+      {textGrund && (
+        <p className="mt-3 border-t border-line pt-3 text-sm text-fg-muted">
+          <span className="text-fg">Warum nicht kostenlos?</span> {textGrund}
+        </p>
+      )}
     </div>
   );
 }
@@ -162,6 +167,8 @@ export default function ToolPage() {
   const [laedt, setLaedt] = useState(false);
   const [schritt, setSchritt] = useState<string | null>(null);
   const [ergebnis, setErgebnis] = useState<ApiResponse | null>(null);
+  /** Warum der kostenlose Textweg aufgegeben hat. Erklärt, wofür die KI gebraucht wird. */
+  const [textGrund, setTextGrund] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
   /**
@@ -180,7 +187,12 @@ export default function ToolPage() {
     // Dem Gelesenen ist nur zu trauen, wenn es sich selbst gegenprüfen lässt.
     // Ein Auszug aus falsch zugeordneten Zahlen sieht genauso fertig aus wie
     // ein richtiger — deshalb hier lieber abbrechen und den Bildweg gehen.
-    if (!gelesen.verlaesslich) return false;
+    // Der Grund wird festgehalten: ohne ihn sieht der Nutzer nur, dass etwas
+    // nicht ging, und weiß nicht, ob sein Plan überhaupt lesbar ist.
+    if (!gelesen.verlaesslich) {
+      setTextGrund(gelesen.grund ?? "Das Gelesene ließ sich nicht gegen den Plan selbst prüfen.");
+      return false;
+    }
 
     setErgebnis({
       analyse: {
@@ -203,6 +215,7 @@ export default function ToolPage() {
   async function analysieren(f: File) {
     setLaedt(true);
     setErgebnis(null);
+    setTextGrund(null);
     setSchritt("Plan wird gelesen");
 
     try {
@@ -213,6 +226,7 @@ export default function ToolPage() {
       }
     } catch {
       // Kein Grund aufzugeben: der Bildweg bleibt.
+      setTextGrund("Die Textebene des Plans ließ sich nicht öffnen.");
     }
 
     const fd = new FormData();
@@ -322,7 +336,14 @@ export default function ToolPage() {
         </div>
 
         {ergebnis && "fehler" in ergebnis && (
-          <div className="mt-6 rounded-md border-2 border-alert bg-alert/10 p-5 text-sm">{ergebnis.fehler}</div>
+          <div className="mt-6 rounded-md border-2 border-alert bg-alert/10 p-5 text-sm space-y-3">
+            {textGrund && (
+              <p>
+                <span className="font-semibold">Ohne KI war dieser Plan nicht lesbar.</span> {textGrund}
+              </p>
+            )}
+            <p>{ergebnis.fehler}</p>
+          </div>
         )}
 
         {ergebnis && "gruppen" in ergebnis && (
@@ -334,7 +355,7 @@ export default function ToolPage() {
               </span>
             </div>
 
-            <HerkunftBlock verbrauch={ergebnis.analyse.verbrauch} />
+            <HerkunftBlock verbrauch={ergebnis.analyse.verbrauch} textGrund={textGrund} />
 
             <PlanKontextBlock kontext={ergebnis.analyse.kontext} />
 

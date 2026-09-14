@@ -6,11 +6,21 @@ import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import { MassenauszugAnsicht } from "@/components/Massenauszug";
 import { ladeEinheitspreise } from "@/lib/einheitspreise-speicher";
 import { planZuBlaettern } from "@/lib/plan-zu-bildern";
+import { lesePlanAusText } from "@/lib/plan-lesen";
+import { baueMassenauszug } from "@/lib/ableitung";
+import { katalogInfo } from "@/lib/lbhb";
 
 type KatalogInfo = { katalog: string; version: string; vollstaendig: boolean };
 
 type ApiResponse =
-  | { analyse: AnalysisResult; gruppen: GroupedItem[]; massenauszug: Massenauszug; katalog: KatalogInfo }
+  | {
+      analyse: AnalysisResult;
+      gruppen: GroupedItem[];
+      massenauszug: Massenauszug;
+      katalog: KatalogInfo;
+      /** "text" heißt aus der Textebene gelesen, sonst über Bilderkennung. */
+      quelle?: "text";
+    }
   | { fehler: string };
 
 const KONFIDENZ_TEXT: Record<Konfidenz, string> = {
@@ -108,10 +118,54 @@ export default function ToolPage() {
   const [ergebnis, setErgebnis] = useState<ApiResponse | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
+  /**
+   * Erster Weg: den Plan aus seiner eigenen Textebene lesen. Das kostet nichts,
+   * dauert Sekunden und braucht keinen Zugang zu einem KI-Dienst. Es gelingt
+   * bei Plänen aus einem CAD-Programm und scheitert bei eingescannten.
+   */
+  async function ausTextLesen(f: File): Promise<boolean> {
+    if (!f.name.toLowerCase().endsWith(".pdf") && f.type !== "application/pdf") return false;
+
+    setSchritt("Plan wird gelesen");
+    const gelesen = await lesePlanAusText(f, (seite, von) =>
+      setSchritt(`Blatt ${seite} von ${von} wird gelesen`),
+    );
+
+    // Ohne Räume trägt der Auszug nichts; dann lieber den Bildweg anbieten.
+    if (gelesen.raeume.length === 0) return false;
+
+    setErgebnis({
+      analyse: {
+        dateiname: f.name,
+        dateityp: "vektor-pdf",
+        seiten: 0,
+        kontext: gelesen.kontext,
+        raeume: gelesen.raeume,
+        elemente: [],
+        hinweise: [],
+      },
+      gruppen: [],
+      massenauszug: baueMassenauszug(gelesen.raeume, [], gelesen.kontext, ladeEinheitspreise()),
+      katalog: katalogInfo(),
+      quelle: "text",
+    });
+    return true;
+  }
+
   async function analysieren(f: File) {
     setLaedt(true);
     setErgebnis(null);
     setSchritt("Plan wird gelesen");
+
+    try {
+      if (await ausTextLesen(f)) {
+        setLaedt(false);
+        setSchritt(null);
+        return;
+      }
+    } catch {
+      // Kein Grund aufzugeben: der Bildweg bleibt.
+    }
 
     const fd = new FormData();
     fd.append("dateiname", f.name);

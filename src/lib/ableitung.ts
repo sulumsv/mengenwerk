@@ -1,7 +1,7 @@
 import { ANNAHMEN, verschnittFuer, type AnnahmeId } from "./annahmen";
 import { findeLeistungsgruppen } from "./lbhb";
 import { findePreis, type Einheitspreise } from "./preise";
-import { suchbegriffe } from "./nachweise";
+import { normalisiereBegriff, suchbegriffe } from "./nachweise";
 import type {
   Abschnitt,
   Kostenschaetzung,
@@ -55,8 +55,8 @@ function findeNachweis(
 ): { schluessel: string; wert: number } | null {
   const eintraege = Object.entries(kontext.nachweise).filter(([name]) => !ausser.has(name));
   for (const begriff of begriffe) {
-    const gesucht = begriff.toLowerCase();
-    const treffer = eintraege.find(([name]) => name.toLowerCase().includes(gesucht));
+    const gesucht = normalisiereBegriff(begriff);
+    const treffer = eintraege.find(([name]) => normalisiereBegriff(name).includes(gesucht));
     if (treffer) return { schluessel: treffer[0], wert: treffer[1] };
   }
   return null;

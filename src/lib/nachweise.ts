@@ -83,7 +83,8 @@ export const NACHWEISE: NachweisDefinition[] = [
     id: "gebaeudehoehe",
     name: "Gebäudehöhe",
     einheit: "m",
-    synonyme: ["traufenhöhe", "traufe"],
+    // "traufe" allein wäre zu unscharf: es steckt auch in "Traufenlänge".
+    synonyme: ["traufenhöhe", "gebäudehoehe"],
     brauchtFuer: "Fassadengerüst",
   },
   {
@@ -122,11 +123,26 @@ export function nachweisDefinition(id: string): NachweisDefinition | undefined {
   return INDEX.get(id);
 }
 
+/**
+ * Vereinheitlicht Schreibweisen für den Vergleich. Pläne schreiben "Fläche"
+ * oder "Flaeche", je nachdem welcher Zeichensatz beim Export verwendet wurde.
+ */
+export function normalisiereBegriff(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ü/g, "ue")
+    .replace(/ß/g, "ss")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 /** Suchbegriffe eines Nachweises, vom kanonischen Namen zu den Synonymen. */
 export function suchbegriffe(id: string): string[] {
   const def = INDEX.get(id);
   if (!def) return [];
-  return [def.name.toLowerCase(), ...def.synonyme.map((s) => s.toLowerCase())];
+  return [def.name, ...def.synonyme].map(normalisiereBegriff);
 }
 
 /** Die Liste, die im Prompt steht — damit Modell und Ableitung dasselbe meinen. */

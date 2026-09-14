@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react";
 import type { AnalysisResult, GroupedItem, Konfidenz, Massenauszug } from "@/lib/types";
+import { formatiereKosten, type VerbrauchsBericht } from "@/lib/verbrauch";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import { MassenauszugAnsicht } from "@/components/Massenauszug";
 import { ladeEinheitspreise } from "@/lib/einheitspreise-speicher";
@@ -81,6 +82,51 @@ function PlanKontextBlock({ kontext }: { kontext: AnalysisResult["kontext"] }) {
           </dl>
         </div>
       ))}
+    </div>
+  );
+}
+
+
+/**
+ * Was diese Auswertung gekostet hat.
+ *
+ * Beim Textweg fällt nichts an — das ist keine Nebensache, sondern der Grund,
+ * warum immer zuerst dieser Weg versucht wird. Beim Bildweg steht der Betrag
+ * hier, statt erst am nächsten Tag im Anthropic-Konto: wer nach jedem Plan
+ * sieht, was er kostet, kann entscheiden, ob sich der Weg lohnt.
+ */
+function HerkunftBlock({ verbrauch }: { verbrauch?: VerbrauchsBericht }) {
+  const zahl = (n: number) => n.toLocaleString("de-AT");
+
+  if (!verbrauch) {
+    return (
+      <div className="mb-6 rounded-md border border-highlight/40 bg-highlight/10 p-5">
+        <p className="font-mono text-xs uppercase tracking-wide text-fg-muted mb-2">Ohne KI gelesen</p>
+        <p className="text-sm">
+          Der Plan wurde aus seiner eigenen Textebene gelesen, nicht aus Bildern. Das dauert Sekunden und
+          verursacht <strong className="font-semibold">keine API-Kosten</strong>.
+        </p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="mb-6 rounded-md border border-line bg-surface-2 p-5">
+      <p className="font-mono text-xs uppercase tracking-wide text-fg-muted mb-3">Kosten dieser Auswertung</p>
+      <div className="flex flex-wrap items-baseline gap-x-8 gap-y-2">
+        <span className="font-display font-black text-2xl font-num">
+          {verbrauch.kostenUsd === null ? "—" : formatiereKosten(verbrauch.kostenUsd)}
+        </span>
+        <span className="font-mono text-xs text-fg-muted">
+          {zahl(verbrauch.aufrufe)} Aufrufe · {zahl(verbrauch.eingabeToken)} Token gelesen ·{" "}
+          {zahl(verbrauch.ausgabeToken)} Token geschrieben
+        </span>
+      </div>
+      <p className="mt-3 text-sm text-fg-muted">
+        {verbrauch.kostenUsd === null
+          ? `Für das Modell ${verbrauch.modell} ist kein Tarif hinterlegt. Der Betrag steht im Anthropic-Konto.`
+          : "Listenpreis in US-Dollar, wie ihn Anthropic verrechnet. Auf der Rechnung steht der Betrag zum Kurs des Abrechnungstags."}
+      </p>
     </div>
   );
 }
@@ -287,6 +333,8 @@ export default function ToolPage() {
                 {ergebnis.analyse.dateityp} · {ergebnis.analyse.seiten} Seite(n)
               </span>
             </div>
+
+            <HerkunftBlock verbrauch={ergebnis.analyse.verbrauch} />
 
             <PlanKontextBlock kontext={ergebnis.analyse.kontext} />
 

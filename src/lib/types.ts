@@ -89,6 +89,13 @@ export interface Position {
   lgKandidaten: string[];
   /** Ids aus der Annahmen-Registry, die in diese Position eingeflossen sind. */
   annahmen: string[];
+  /** Schlüssel in den Preiskatalog. Ohne ihn bleibt die Position unbepreist. */
+  preisSchluessel?: string;
+  einheitspreis?: number;
+  /** Menge mal Einheitspreis. */
+  betrag?: number;
+  /** Ob der Einheitspreis vom Betrieb stammt oder noch ein Richtwert ist. */
+  preisQuelle?: "eigen" | "richtwert";
 }
 
 export interface Abschnitt {
@@ -97,6 +104,16 @@ export interface Abschnitt {
   lgHinweis: string;
   vorspann?: string;
   positionen: Position[];
+  /** Summe der bepreisten Positionen dieses Abschnitts. */
+  summe?: number;
+}
+
+export interface Kostenschaetzung {
+  summe: number;
+  /** Anteil der Summe, der auf Richtwerten statt eigenen Preisen beruht. */
+  summeAusRichtwerten: number;
+  bepreistePositionen: number;
+  unbepreistePositionen: number;
 }
 
 export interface Massenauszug {
@@ -110,6 +127,7 @@ export interface Massenauszug {
     auswirkung: string;
   }[];
   pruefpunkte: string[];
+  kosten?: Kostenschaetzung;
 }
 
 export interface GroupedItem {

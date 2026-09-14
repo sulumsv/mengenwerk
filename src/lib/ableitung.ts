@@ -1,7 +1,9 @@
 import { ANNAHMEN, verschnittFuer, type AnnahmeId } from "./annahmen";
 import { findeLeistungsgruppen } from "./lbhb";
+import { findePreis, type Einheitspreise } from "./preise";
 import type {
   Abschnitt,
+  Kostenschaetzung,
   DetectedElement,
   ElementType,
   Einheit,
@@ -112,6 +114,8 @@ class Sammler {
     gerechnet?: boolean;
     typ?: ElementType;
     material?: string | null;
+    preis?: string;
+    zwischenwert?: boolean;
   }): void {
     const annahmen = p.annahmen ?? [];
     this.positionen.push({
@@ -126,12 +130,58 @@ class Sammler {
         ? findeLeistungsgruppen(p.typ, p.material ?? null).map((t) => `${t.lg} ${t.bezeichnung}`)
         : [],
       annahmen: annahmen.map((a) => ANNAHMEN[a].id),
+      preisSchluessel: p.preis,
+      zwischenwert: p.zwischenwert,
     });
   }
 
   get liste(): Position[] {
     return this.positionen;
   }
+}
+
+// ---------------------------------------------------------------------------
+// Abschnitt: Erdarbeiten
+// ---------------------------------------------------------------------------
+
+function abschnittErdarbeiten(kontext: PlanKontext, genutzt: Set<AnnahmeId>): Abschnitt {
+  const s = new Sammler(1);
+
+  const bebaut = nachweis(kontext, "bebaute fläche", "bebaute flaeche");
+  const sohle = nachweis(kontext, "unterkante bodenplatte", "gründungssohle", "aushubtiefe");
+
+  if (bebaut !== null) {
+    // Ohne bemaßte Gründungssohle bleibt nur die angenommene Plattenstärke als
+    // Aushubtiefe — das unterschätzt den Aushub, weil Rollierung und
+    // Sauberkeitsschicht fehlen. Deshalb als Annahme geführt.
+    const tiefe = sohle !== null ? Math.abs(sohle) : ANNAHMEN.bodenplattenstaerke.wert;
+    const ausNachweis = sohle !== null;
+    if (!ausNachweis) genutzt.add("bodenplattenstaerke");
+
+    s.add({
+      bezeichnung: "Baugrubenaushub",
+      detail: ausNachweis
+        ? `Aushubtiefe ${z(tiefe)} m laut Schnitt, ohne Arbeitsraum und Böschung`
+        : "Gründungssohle nicht bemaßt, Plattenstärke als Tiefe angesetzt",
+      rechenweg: `${z(bebaut)} m² × ${z(tiefe)} m`,
+      menge: bebaut * tiefe,
+      einheit: "m3",
+      annahmen: ausNachweis ? [] : ["bodenplattenstaerke"],
+      typ: "fundament",
+      preis: "erdaushub",
+    });
+  }
+
+  return {
+    nummer: 1,
+    titel: "Erdarbeiten",
+    lgHinweis: "LG 03",
+    vorspann:
+      s.liste.length > 0
+        ? "Der Aushub folgt aus der bebauten Fläche und der Gründungstiefe. Arbeitsraum, Böschung und Geländeverlauf sind nicht berücksichtigt."
+        : "Ohne nachgewiesene bebaute Fläche sind keine Erdarbeiten ableitbar.",
+    positionen: s.liste,
+  };
 }
 
 // ---------------------------------------------------------------------------
@@ -160,6 +210,7 @@ function abschnittBoden(raeume: Raum[], genutzt: Set<AnnahmeId>): Abschnitt {
       eingang: gruppe.map((r) => r.konfidenz),
       typ: "boden",
       material: belag,
+     preis: preisFuerBelag(belag),
     });
   }
 
@@ -179,6 +230,7 @@ function abschnittBoden(raeume: Raum[], genutzt: Set<AnnahmeId>): Abschnitt {
       annahmen: ["estrichstaerke"],
       typ: "boden",
       material: "Estrich",
+     preis: "estrich",
     });
 
     const dichte = ANNAHMEN.estrichRohdichte.wert;
@@ -190,6 +242,7 @@ function abschnittBoden(raeume: Raum[], genutzt: Set<AnnahmeId>): Abschnitt {
       menge: (volumen * dichte) / 1000,
       einheit: "t",
       annahmen: ["estrichstaerke", "estrichRohdichte"],
+      zwischenwert: true,
     });
 
     const trittschall = verschnittFuer("trittschalldaemmung");
@@ -199,6 +252,7 @@ function abschnittBoden(raeume: Raum[], genutzt: Set<AnnahmeId>): Abschnitt {
       rechenweg: `${z(estrichFlaeche)} m² × ${z(trittschall.faktor)}`,
       menge: estrichFlaeche * trittschall.faktor,
       einheit: "m2",
+     preis: "trittschall",
     });
 
     const folie = verschnittFuer("folie");
@@ -208,6 +262,7 @@ function abschnittBoden(raeume: Raum[], genutzt: Set<AnnahmeId>): Abschnitt {
       rechenweg: `${z(estrichFlaeche)} m² × ${z(folie.faktor)}`,
       menge: estrichFlaeche * folie.faktor,
       einheit: "m2",
+     preis: "pefolie",
     });
 
     const umfang = summe(estrichRaeume.map((r) => r.umfang_m));
@@ -221,6 +276,7 @@ function abschnittBoden(raeume: Raum[], genutzt: Set<AnnahmeId>): Abschnitt {
       menge: umfang,
       einheit: "lfm",
       eingang: geschaetzt ? ["annahme"] : ["berechnet"],
+      preis: "randdaemmstreifen",
     });
   }
 
@@ -232,6 +288,7 @@ function abschnittBoden(raeume: Raum[], genutzt: Set<AnnahmeId>): Abschnitt {
       rechenweg: `Summe der beheizten Raumflächen`,
       menge: beheizt,
       einheit: "m2",
+      preis: "fussbodenheizung",
     });
   }
 
@@ -243,6 +300,23 @@ function abschnittBoden(raeume: Raum[], genutzt: Set<AnnahmeId>): Abschnitt {
       "Flächen aus den Raumstempeln, Verschnittzuschläge nach Verlegeart. Schichtstärken sind angenommen, solange die Aufbautenliste fehlt.",
     positionen: s.liste,
   };
+}
+
+/**
+ * Belagsbezeichnungen stammen aus dem Raumstempel und sind entsprechend frei
+ * geschrieben. Ohne Treffer bleibt die Position unbepreist statt falsch
+ * bepreist.
+ */
+const BELAG_PREIS: [RegExp, string][] = [
+  [/parkett/i, "parkett"],
+  [/diele/i, "dielen"],
+  [/fliese|platte/i, "bodenfliesen"],
+  [/stein/i, "naturstein"],
+  [/beschichtung/i, "bodenbeschichtung"],
+];
+
+function preisFuerBelag(belag: string): string | undefined {
+  return BELAG_PREIS.find(([muster]) => muster.test(belag))?.[1];
 }
 
 /** Außenliegende Beläge bekommen keinen Estrich. */
@@ -295,6 +369,7 @@ function abschnittRohbau(
       annahmen: ["bodenplattenstaerke"],
       typ: "fundament",
       material: "Stahlbeton",
+      preis: "bodenplatte",
     });
   }
 
@@ -316,6 +391,7 @@ function abschnittRohbau(
       annahmen: ["geschossdeckenstaerke"],
       typ: "decke",
       material: "Stahlbeton",
+      preis: "geschossdecke",
     });
   }
 
@@ -344,6 +420,7 @@ function abschnittRohbau(
       eingang: [st.konfidenz],
       typ: "stuetze",
       material: st.material,
+     preis: "stuetze",
     });
   }
 
@@ -355,6 +432,7 @@ function abschnittRohbau(
       menge: gesamt,
       einheit: "m3",
       annahmen: [...betonAnnahmen],
+      zwischenwert: true,
     });
 
     const grad = ANNAHMEN.bewehrungsgrad.wert;
@@ -366,6 +444,7 @@ function abschnittRohbau(
       menge: (gesamt * grad) / 1000,
       einheit: "t",
       annahmen: ["bewehrungsgrad"],
+      preis: "bewehrung",
     });
   }
 
@@ -384,6 +463,7 @@ function abschnittRohbau(
       annahmen: ["oeffnungsanteilFassade", "aussenwandstaerke"],
       typ: "wand",
       material: "Ziegel",
+      preis: "mauerwerk",
     });
   }
 
@@ -432,6 +512,7 @@ function abschnittFassade(
     menge: abwicklung,
     einheit: "m2",
     gerechnet: false,
+    zwischenwert: true,
   });
 
   let brutto = abwicklung;
@@ -443,12 +524,14 @@ function abschnittFassade(
       menge: giebel,
       einheit: "m2",
       gerechnet: false,
+      zwischenwert: true,
     });
     s.add({
       bezeichnung: "Fassadenfläche brutto",
       rechenweg: `${z(abwicklung)} + ${z(giebel)}`,
       menge: brutto,
       einheit: "m2",
+      zwischenwert: true,
     });
   }
 
@@ -458,6 +541,7 @@ function abschnittFassade(
     rechenweg: "= Fassadenfläche brutto",
     menge: brutto,
     einheit: "m2",
+    preis: "wdvs",
   });
 
   s.add({
@@ -465,6 +549,7 @@ function abschnittFassade(
     rechenweg: "= Fassadenfläche brutto",
     menge: brutto,
     einheit: "m2",
+    preis: "aussenputz",
   });
 
   // Die Abwicklungslänge muss aus dem Nachweis kommen. Sie aus der Fläche und
@@ -481,6 +566,7 @@ function abschnittFassade(
       menge: laenge * (traufe + zuschlag),
       einheit: "m2",
       annahmen: ["geruestZuschlag"],
+      preis: "geruest",
     });
   } else {
     s.add({
@@ -524,6 +610,7 @@ function abschnittDach(kontext: PlanKontext): Abschnitt {
       menge: geneigt,
       einheit: "m2",
       typ: "dach",
+      zwischenwert: true,
     });
 
     const deckung = verschnittFuer("dachdeckung");
@@ -534,6 +621,7 @@ function abschnittDach(kontext: PlanKontext): Abschnitt {
       menge: geneigt * deckung.faktor,
       einheit: "m2",
       typ: "dach",
+      preis: "dachdeckung",
     });
 
     s.add({
@@ -542,6 +630,7 @@ function abschnittDach(kontext: PlanKontext): Abschnitt {
       menge: geneigt,
       einheit: "m2",
       typ: "dach",
+      preis: "lattung",
     });
 
     const folie = verschnittFuer("folie");
@@ -551,6 +640,54 @@ function abschnittDach(kontext: PlanKontext): Abschnitt {
       rechenweg: `${z(geneigt)} m² × ${z(folie.faktor)}`,
       menge: geneigt * folie.faktor,
       einheit: "m2",
+      preis: "unterspannbahn",
+    });
+
+    s.add({
+      bezeichnung: "Dachkonstruktion Holz",
+      detail: "Sparren, Pfetten und First — Querschnitte laut Statik",
+      rechenweg: "= Dachfläche geneigt",
+      menge: geneigt,
+      einheit: "m2",
+      typ: "dach",
+      material: "Holz",
+      preis: "dachkonstruktion",
+    });
+
+    s.add({
+      bezeichnung: "Zwischensparrendämmung",
+      detail: "über der gesamten geneigten Fläche, unkonditionierte Bereiche zu prüfen",
+      rechenweg: "= Dachfläche geneigt",
+      menge: geneigt,
+      einheit: "m2",
+      preis: "dachdaemmung",
+    });
+  }
+
+  // Traufenlänge kommt aus dem Nachweis; aus der Dachfläche ließe sie sich nur
+  // unter einer Annahme zum Seitenverhältnis zurückrechnen.
+  const traufe = nachweis(kontext, "traufenlänge", "dachrinne", "firstlänge");
+  if (traufe !== null) {
+    s.add({
+      bezeichnung: "Dachrinne",
+      detail: "Nord- und Südtraufe",
+      rechenweg: `2 × ${z(traufe)} m`,
+      menge: 2 * traufe,
+      einheit: "lfm",
+      preis: "dachrinne",
+    });
+  }
+
+  const pv = nachweis(kontext, "photovoltaik", "pv-anlage", "pv");
+  if (pv !== null) {
+    s.add({
+      bezeichnung: "Photovoltaikanlage",
+      detail: "Modulfläche laut Dachdraufsicht",
+      rechenweg: "Nachweis Modulfläche",
+      menge: pv,
+      einheit: "m2",
+      gerechnet: false,
+      preis: "pv",
     });
   }
 
@@ -597,6 +734,7 @@ function abschnittAusbau(raeume: Raum[], kontext: PlanKontext, genutzt: Set<Anna
 
     s.add({
       bezeichnung: `Wandfläche ${geschoss}`,
+      zwischenwert: true,
       detail: `Umfang ${z(umfang)} lfm · lichte Höhe ${z(hoehe)} m ${ausSchnitt === null ? "(angenommen)" : "(aus Schnitt)"}`,
       rechenweg: `${z(umfang)} lfm × ${z(hoehe)} m`,
       menge: flaeche,
@@ -613,6 +751,7 @@ function abschnittAusbau(raeume: Raum[], kontext: PlanKontext, genutzt: Set<Anna
       menge: wandGesamt,
       einheit: "m2",
       annahmen: hoeheFehlt ? ["raumhoheDachgeschoss"] : [],
+      preis: "innenputz",
     });
   }
 
@@ -624,6 +763,7 @@ function abschnittAusbau(raeume: Raum[], kontext: PlanKontext, genutzt: Set<Anna
       rechenweg: "Summe der beheizten Raumflächen",
       menge: decken,
       einheit: "m2",
+      preis: "deckenputz",
     });
   }
 
@@ -634,6 +774,7 @@ function abschnittAusbau(raeume: Raum[], kontext: PlanKontext, genutzt: Set<Anna
       menge: wandGesamt + decken,
       einheit: "m2",
       annahmen: hoeheFehlt ? ["raumhoheDachgeschoss"] : [],
+      preis: "malerei",
     });
   }
 
@@ -658,6 +799,7 @@ function abschnittAusbau(raeume: Raum[], kontext: PlanKontext, genutzt: Set<Anna
       annahmen: ["fliesenspiegelhoehe", "tuerbreiteDurchgang", "tuerhoeheDurchgang"],
       typ: "boden",
       material: "Fliesen",
+      preis: "wandfliesen",
     });
   }
 
@@ -677,6 +819,7 @@ function abschnittAusbau(raeume: Raum[], kontext: PlanKontext, genutzt: Set<Anna
       menge: umfang - abzug,
       einheit: "lfm",
       annahmen: ["tuerbreiteDurchgang"],
+      preis: /fliese|platte|stein/i.test(belag) ? "sockelleisteFliesen" : "sockelleisteHolz",
     });
   }
 
@@ -708,6 +851,21 @@ function abschnittOeffnungen(elemente: DetectedElement[]): Abschnitt {
     const erst = gruppe[0];
     const anzahl = summe(gruppe.map((e) => e.anzahl));
     const einzel = erst.breite_m * erst.hoehe_m;
+    const istTor = /tor\b|sektionaltor|garagentor/i.test(erst.label);
+
+    if (istTor) {
+      s.add({
+        bezeichnung: erst.label,
+        detail: `${z(erst.breite_m)} × ${z(erst.hoehe_m)} m`,
+        rechenweg: `${anzahl} Stk laut Plan`,
+        menge: anzahl,
+        einheit: "Stk",
+        eingang: gruppe.map((e) => e.konfidenz),
+        preis: "tor",
+      });
+      continue;
+    }
+
     s.add({
       bezeichnung: `${erst.type === "fenster" ? "Fenster" : "Tür"} ${z(erst.breite_m * 100, 0)}/${z(erst.hoehe_m * 100, 0)}`,
       detail: [erst.material, erst.label].filter(Boolean).join(" · ") || undefined,
@@ -717,6 +875,7 @@ function abschnittOeffnungen(elemente: DetectedElement[]): Abschnitt {
       eingang: gruppe.map((e) => e.konfidenz),
       typ: erst.type,
       material: erst.material,
+      preis: erst.type === "fenster" ? "fenster" : "tuer",
     });
   }
 
@@ -772,13 +931,76 @@ function pruefpunkte(raeume: Raum[], kontext: PlanKontext): string[] {
   return [...punkte, ...kontext.hinweise];
 }
 
+/**
+ * Legt Einheitspreise auf die Positionen und bildet die Summen. Positionen
+ * ohne Menge oder ohne Preisschlüssel bleiben unbepreist und werden gezählt,
+ * damit die Schätzung nicht vollständiger wirkt, als sie ist.
+ */
+function bepreise(
+  abschnitte: Abschnitt[],
+  eigene: Einheitspreise | undefined,
+): { abschnitte: Abschnitt[]; kosten: Kostenschaetzung } {
+  let summe = 0;
+  let ausRichtwerten = 0;
+  let bepreist = 0;
+  let unbepreist = 0;
+
+  const bepreiste = abschnitte.map((abschnitt) => {
+    let abschnittssumme = 0;
+
+    const positionen = abschnitt.positionen.map((position) => {
+      const treffer = findePreis(position.preisSchluessel, eigene);
+      if (treffer === null || position.menge === null) {
+        if (!position.zwischenwert) unbepreist++;
+        return position;
+      }
+
+      const betrag = runde(position.menge * treffer.preis);
+      abschnittssumme += betrag;
+      summe += betrag;
+      if (treffer.quelle === "richtwert") ausRichtwerten += betrag;
+      bepreist++;
+
+      return {
+        ...position,
+        einheitspreis: treffer.preis,
+        betrag,
+        preisQuelle: treffer.quelle,
+      };
+    });
+
+    return { ...abschnitt, positionen, summe: runde(abschnittssumme) };
+  });
+
+  return {
+    abschnitte: bepreiste,
+    kosten: {
+      summe: runde(summe),
+      summeAusRichtwerten: runde(ausRichtwerten),
+      bepreistePositionen: bepreist,
+      unbepreistePositionen: unbepreist,
+    },
+  };
+}
+
+/** Setzt Abschnitts- und Positionsnummern auf die endgültige Reihenfolge. */
+function nummeriere(abschnitt: Abschnitt, nummer: number): Abschnitt {
+  return {
+    ...abschnitt,
+    nummer,
+    positionen: abschnitt.positionen.map((p, i) => ({ ...p, nummer: `${nummer}.${i + 1}` })),
+  };
+}
+
 export function baueMassenauszug(
   raeume: Raum[],
   elemente: DetectedElement[],
   kontext: PlanKontext,
+  einheitspreise?: Einheitspreise,
 ): Massenauszug {
   const genutzt = new Set<AnnahmeId>();
 
+  const erdarbeiten = abschnittErdarbeiten(kontext, genutzt);
   const boden = abschnittBoden(raeume, genutzt);
   const { abschnitt: fassade, brutto } = abschnittFassade(kontext, genutzt);
   const rohbau = abschnittRohbau(kontext, elemente, brutto, genutzt);
@@ -786,9 +1008,14 @@ export function baueMassenauszug(
   const ausbau = abschnittAusbau(raeume, kontext, genutzt);
   const oeffnungen = abschnittOeffnungen(elemente);
 
-  const abschnitte = [boden, rohbau, fassade, dach, ausbau, oeffnungen].filter(
-    (a) => a.positionen.length > 0 || a.vorspann,
-  );
+  // Das Raumbuch belegt in der Ansicht die Nummer 1, die Gewerke folgen ab 2.
+  // Erst hier vergeben, damit das Weglassen eines leeren Abschnitts keine Lücke
+  // in der Nummerierung hinterlässt.
+  const roh = [erdarbeiten, boden, rohbau, fassade, dach, ausbau, oeffnungen]
+    .filter((a) => a.positionen.length > 0 || a.vorspann)
+    .map((a, i) => nummeriere(a, i + 2));
+
+  const { abschnitte, kosten } = bepreise(roh, einheitspreise);
 
   const alle = abschnitte.flatMap((a) => a.positionen);
   const kennzahlen = [
@@ -812,5 +1039,6 @@ export function baueMassenauszug(
       return { id: a.id, titel: a.titel, begruendung: a.begruendung, auswirkung: a.auswirkung };
     }),
     pruefpunkte: pruefpunkte(raeume, kontext),
+    kosten,
   };
 }

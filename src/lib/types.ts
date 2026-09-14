@@ -96,6 +96,12 @@ export interface Position {
   betrag?: number;
   /** Ob der Einheitspreis vom Betrieb stammt oder noch ein Richtwert ist. */
   preisQuelle?: "eigen" | "richtwert";
+  /**
+   * Zwischenwert, dessen Kosten eine Folgeposition trägt — etwa die
+   * Fassadenfläche, die über Wärmedämmverbund und Außenputz bepreist wird.
+   * Solche Positionen bleiben bewusst ohne Betrag und zählen nicht als Lücke.
+   */
+  zwischenwert?: boolean;
 }
 
 export interface Abschnitt {

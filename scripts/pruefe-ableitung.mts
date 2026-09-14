@@ -181,8 +181,74 @@ pruefe("Abgeleitete Summen gelten nicht als im Plan beschriftet", () => {
   }
 });
 
+console.log("\nRandfälle bestanden.");
+
+// --- Kostenschätzung ---
+console.log(`\n${fett}Kostenschätzung${reset}`);
+
+const kontextMitDach: PlanKontext = {
+  ...kontext,
+  nachweise: {
+    ...kontext.nachweise,
+    "Traufenlänge (m)": 14.26,
+    "Photovoltaik Modulfläche (m2)": 19.6,
+    "Unterkante Bodenplatte (m)": -0.955,
+  },
+};
+
+pruefe("Jede bepreisbare Position hat einen Betrag", () => {
+  const a = baueMassenauszug(raeume, elemente, kontextMitDach);
+  const luecken = a.abschnitte
+    .flatMap((x) => x.positionen)
+    .filter((p) => p.menge !== null && !p.zwischenwert && p.betrag === undefined);
+  if (luecken.length > 0) {
+    throw new Error(`ohne Preis: ${luecken.map((p) => p.bezeichnung).join(", ")}`);
+  }
+});
+
+pruefe("Zwischenwerte werden nicht bepreist", () => {
+  const a = baueMassenauszug(raeume, elemente, kontextMitDach);
+  const doppelt = a.abschnitte.flatMap((x) => x.positionen).filter((p) => p.zwischenwert && p.betrag !== undefined);
+  if (doppelt.length > 0) {
+    throw new Error(`doppelt gezählt: ${doppelt.map((p) => p.bezeichnung).join(", ")}`);
+  }
+});
+
+pruefe("Abschnittssummen ergeben die Gesamtsumme", () => {
+  const a = baueMassenauszug(raeume, elemente, kontextMitDach);
+  const ausAbschnitten = a.abschnitte.reduce((s, x) => s + (x.summe ?? 0), 0);
+  if (Math.abs(ausAbschnitten - a.kosten!.summe) > 0.02) {
+    throw new Error(`${ausAbschnitten.toFixed(2)} gegen ${a.kosten!.summe.toFixed(2)}`);
+  }
+});
+
+pruefe("Eigener Preis schlägt den Richtwert", () => {
+  const ohne = baueMassenauszug(raeume, elemente, kontextMitDach);
+  const mit = baueMassenauszug(raeume, elemente, kontextMitDach, { parkett: 1 });
+  if (!(mit.kosten!.summe < ohne.kosten!.summe)) throw new Error("Summe unverändert");
+  if (mit.kosten!.summeAusRichtwerten >= mit.kosten!.summe) {
+    throw new Error("Richtwertanteil nicht gesunken");
+  }
+});
+
+pruefe("Preis 0 gilt als gesetzt, nicht als fehlend", () => {
+  const a = baueMassenauszug(raeume, elemente, kontextMitDach, { parkett: 0 });
+  const parkett = a.abschnitte.flatMap((x) => x.positionen).find((p) => p.bezeichnung === "Parkett");
+  if (parkett?.betrag !== 0 || parkett.preisQuelle !== "eigen") {
+    throw new Error(`Betrag ${parkett?.betrag}, Quelle ${parkett?.preisQuelle}`);
+  }
+});
+
+pruefe("Erdarbeiten, Dachkonstruktion, Dämmung und PV sind enthalten", () => {
+  const a = baueMassenauszug(raeume, elemente, kontextMitDach);
+  const namen = a.abschnitte.flatMap((x) => x.positionen).map((p) => p.bezeichnung);
+  const erwartet = ["Baugrubenaushub", "Dachkonstruktion Holz", "Zwischensparrendämmung", "Dachrinne", "Photovoltaikanlage"];
+  const fehlend = erwartet.filter((e) => !namen.includes(e));
+  if (fehlend.length > 0) throw new Error(`fehlt: ${fehlend.join(", ")}`);
+});
+
 if (fehler > 0) {
   console.error(`\n${fehler} Fehler.`);
   process.exit(1);
 }
-console.log("\nRandfälle bestanden.");
+console.log("\nKostenschätzung geprüft.");

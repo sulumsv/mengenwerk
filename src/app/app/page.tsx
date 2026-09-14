@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import type { AnalysisResult, GroupedItem, Konfidenz, Massenauszug } from "@/lib/types";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import { MassenauszugAnsicht } from "@/components/Massenauszug";
+import { ladeEinheitspreise } from "@/lib/einheitspreise-speicher";
 
 type KatalogInfo = { katalog: string; version: string; vollstaendig: boolean };
 
@@ -85,6 +86,7 @@ export default function ToolPage() {
     setErgebnis(null);
     const fd = new FormData();
     fd.append("plan", f);
+    fd.append("einheitspreise", JSON.stringify(ladeEinheitspreise()));
     try {
       const res = await fetch("/api/analyze", { method: "POST", body: fd });
       const json: ApiResponse = await res.json();

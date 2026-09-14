@@ -3,6 +3,7 @@ import Link from "next/link";
 const LINKS = [
   { href: "/", label: "Start" },
   { href: "/vorschau", label: "Beispiel" },
+  { href: "/einheitspreise", label: "Einheitspreise" },
   { href: "/preise", label: "Preise" },
   { href: "/ueber-uns", label: "Über uns" },
   { href: "/kontakt", label: "Kontakt" },

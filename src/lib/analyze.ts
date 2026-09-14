@@ -400,7 +400,13 @@ export async function analysiereBildseiten(
 ): Promise<AnalysisResult> {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
-    throw new Error("ANTHROPIC_API_KEY ist nicht gesetzt. Bitte in .env.local eintragen.");
+    // Der Weg zum Hinterlegen ist ein anderer, je nachdem wo die Anwendung
+    // läuft. Ein Verweis auf .env.local hilft niemandem, der auf Vercel sucht.
+    throw new Error(
+      process.env.VERCEL
+        ? "Es ist kein ANTHROPIC_API_KEY hinterlegt. In Vercel unter Settings, Environment Variables eintragen und danach neu deployen."
+        : "Es ist kein ANTHROPIC_API_KEY hinterlegt. Für die lokale Entwicklung in .env.local eintragen.",
+    );
   }
 
   const client = new Anthropic({ apiKey, maxRetries: MAX_WIEDERHOLUNGEN });

@@ -3,6 +3,7 @@
 import { baueMassenauszug } from "../src/lib/ableitung.ts";
 import { NACHWEISE, nachweisAnweisung } from "../src/lib/nachweise.ts";
 import type { DetectedElement, PlanKontext, Raum } from "../src/lib/types.ts";
+import { Verbrauch, formatiereKosten } from "../src/lib/verbrauch.ts";
 
 const SEITENVERHAELTNIS = 1.4;
 function umfang(f: number, l?: number, b?: number) {
@@ -321,8 +322,81 @@ pruefe("Kein Nachweisname verdeckt einen anderen", () => {
   }
 });
 
+// --- Kostenzählung der API-Aufrufe ---
+console.log(`\n${fett}Kostenzählung${reset}`);
+
+pruefe("Eine Million Eingabetoken kosten genau den Listenpreis", () => {
+  const v = new Verbrauch("claude-opus-5");
+  v.addiere({ input_tokens: 1_000_000, output_tokens: 0 });
+  const kosten = v.bericht().kostenUsd;
+  // Ein Faktor 1000 daneben ist der wahrscheinlichste Fehler und fällt sonst
+  // erst auf der Rechnung auf.
+  if (kosten === null || Math.abs(kosten - 5) > 1e-9) {
+    throw new Error(`${kosten} USD statt 5 USD`);
+  }
+});
+
+pruefe("Eine Million Ausgabetoken kosten genau den Listenpreis", () => {
+  const v = new Verbrauch("claude-opus-5");
+  v.addiere({ input_tokens: 0, output_tokens: 1_000_000 });
+  const kosten = v.bericht().kostenUsd;
+  if (kosten === null || Math.abs(kosten - 25) > 1e-9) {
+    throw new Error(`${kosten} USD statt 25 USD`);
+  }
+});
+
+pruefe("Mehrere Aufrufe werden zusammengezählt", () => {
+  const v = new Verbrauch("claude-opus-5");
+  for (let i = 0; i < 6; i++) v.addiere({ input_tokens: 30_000, output_tokens: 8_000 });
+  const b = v.bericht();
+  const erwartet = (180_000 / 1e6) * 5 + (48_000 / 1e6) * 25;
+  if (b.aufrufe !== 6) throw new Error(`${b.aufrufe} Aufrufe statt 6`);
+  if (b.eingabeToken !== 180_000 || b.ausgabeToken !== 48_000) {
+    throw new Error(`${b.eingabeToken}/${b.ausgabeToken} Token statt 180000/48000`);
+  }
+  if (b.kostenUsd === null || Math.abs(b.kostenUsd - erwartet) > 1e-9) {
+    throw new Error(`${b.kostenUsd} USD statt ${erwartet}`);
+  }
+});
+
+pruefe("Ein fünfblättriger Plansatz bleibt im erwarteten Rahmen", () => {
+  // Grobe Größenordnung eines Einreichplans: ein Kontextdurchgang über alle
+  // Blätter, danach je Blatt ein Aufruf. Schlägt das an, stimmt entweder der
+  // Tarif nicht mehr oder die Zählung läuft doppelt.
+  const v = new Verbrauch("claude-opus-5");
+  v.addiere({ input_tokens: 25_000, output_tokens: 3_000 });
+  for (let i = 0; i < 5; i++) v.addiere({ input_tokens: 5_000, output_tokens: 4_000 });
+  const kosten = v.bericht().kostenUsd!;
+  if (!(kosten > 0.1 && kosten < 5)) throw new Error(`${kosten} USD liegt außerhalb 0,10 bis 5 USD`);
+});
+
+pruefe("Ohne hinterlegten Tarif bleiben die Kosten leer", () => {
+  const v = new Verbrauch("irgendein-kuenftiges-modell");
+  v.addiere({ input_tokens: 1_000_000, output_tokens: 1_000_000 });
+  const b = v.bericht();
+  if (b.kostenUsd !== null) throw new Error(`${b.kostenUsd} USD statt keiner Angabe`);
+  if (b.eingabeToken !== 1_000_000) throw new Error("Token werden auch ohne Tarif gezählt");
+});
+
+pruefe("Gescheiterte Aufrufe zählen nicht mit", () => {
+  const v = new Verbrauch("claude-opus-5");
+  v.addiere(undefined);
+  v.addiere(null);
+  const b = v.bericht();
+  if (b.aufrufe !== 0 || b.kostenUsd !== 0) throw new Error(`${b.aufrufe} Aufrufe, ${b.kostenUsd} USD`);
+});
+
+pruefe("Kleinstbeträge verschwinden nicht in der Rundung", () => {
+  // 0,003 USD auf zwei Stellen gerundet wäre "0,00" — und damit die Aussage,
+  // der Plan sei gratis gewesen.
+  const text = formatiereKosten(0.003);
+  if (!text.startsWith("0,003")) throw new Error(`"${text}" zeigt den Betrag nicht`);
+  if (!formatiereKosten(1.5).startsWith("1,50")) throw new Error(formatiereKosten(1.5));
+  if (!formatiereKosten(0).startsWith("0,00")) throw new Error(formatiereKosten(0));
+});
+
 if (fehler > 0) {
   console.error(`\n${fehler} Fehler.`);
   process.exit(1);
 }
-console.log("\nNachweise geprüft.");
+console.log("\nAlles geprüft.");

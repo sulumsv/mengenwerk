@@ -1,6 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { z } from "zod";
+import { nachweisAnweisung } from "./nachweise";
 import type { AnalysisResult, DetectedElement, ElementType, Konfidenz, PlanKontext, Raum } from "./types";
 
 const MODELL = "claude-opus-5";
@@ -91,7 +92,12 @@ Dieser Durchgang erfasst NUR die Angaben, die für den gesamten Plansatz gelten.
 Erfasse:
 1. LEGENDE — die Farbcodierung. In österreichischen Einreichplänen üblich: rot = Ziegel, grün = Stahlbeton, orange = Dämmung weich oder GK-Ständerwand, magenta = Dämmung hart, braun = Holzkonstruktion, grau = Bestand, gelb = Abbruch. Übernimm aber immer die Legende des vorliegenden Plans, nicht diese Konvention.
 2. GESCHOSSHÖHEN — ausschließlich aus den Schnitten. Ein Grundriss enthält keine Höhen. Wenn kein Schnitt vorliegt, gib eine leere Liste zurück und vermerke das unter hinweise.
-3. NACHWEISE — Flächenaufstellung, bebaute Fläche, Wohnnutzfläche, Bruttogrundrissfläche, Fassadenabwicklung, Giebelflächen. Diese Blöcke sind vom Planverfasser gerechnet und die verlässlichste Quelle im ganzen Plansatz.
+3. NACHWEISE — Werte aus Flächenaufstellung, behördlichen Nachweisen und Planbeschriftung. Diese Blöcke sind vom Planverfasser gerechnet und die verlässlichste Quelle im ganzen Plansatz.
+
+Suche gezielt nach diesen Werten und gib sie EXAKT unter dem angegebenen Namen zurück, damit die Weiterverarbeitung sie findet:
+${nachweisAnweisung()}
+
+Nicht jeder Plansatz enthält alle. Was fehlt, lässt du weg — aber suche jeden einzeln, auch in Ansichten, Schnitten und der Dachdraufsicht, nicht nur im Nachweisblock. Weitere Nachweiswerte darfst du zusätzlich liefern.
 4. HINWEISE — Widersprüche (etwa Summe der Raumflächen gegen Wohnnutzfläche im Nachweis) und fehlende Unterlagen, auf die der Plan verweist (Aufbautenliste, Fenster- und Türliste, Statik).
 
 Erfinde keine Werte. Was nicht im Plan steht, bleibt leer.`;

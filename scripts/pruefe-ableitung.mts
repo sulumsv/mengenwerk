@@ -1,6 +1,7 @@
 // Prüflauf der Ableitung gegen die von Hand gerechneten Mengen des
 // Einreichplans Torricelligasse 29. Aufruf: npm run pruefe
 import { baueMassenauszug } from "../src/lib/ableitung.ts";
+import { NACHWEISE, nachweisAnweisung } from "../src/lib/nachweise.ts";
 import type { DetectedElement, PlanKontext, Raum } from "../src/lib/types.ts";
 
 const SEITENVERHAELTNIS = 1.4;
@@ -247,8 +248,81 @@ pruefe("Erdarbeiten, Dachkonstruktion, Dämmung und PV sind enthalten", () => {
   if (fehlend.length > 0) throw new Error(`fehlt: ${fehlend.join(", ")}`);
 });
 
+console.log("\nKostenschätzung geprüft.");
+
+// --- Prompt und Ableitung müssen dieselben Nachweisnamen meinen ---
+// Ohne diese Prüfung bleibt der Test zirkulär: die Fixture-Namen waren von Hand
+// passend zum Matcher geschrieben. Hier zählt allein, was der Prompt verlangt.
+console.log(`\n${fett}Nachweise: Prompt gegen Ableitung${reset}`);
+
+pruefe("Jeder geforderte Nachweis löst unter seinem kanonischen Namen auf", () => {
+  const nurKanonisch: PlanKontext = {
+    legende: {},
+    geschosshoehen: { EG: 2.8, OG: 2.63 },
+    // Exakt so, wie der Prompt es vom Modell verlangt.
+    // Unterscheidbare, plausible Werte: gleiche Werte für Bruttogrundriss gesamt
+    // und Erdgeschoß hießen ein eingeschoßiges Haus und ließen die Geschoßdecke
+    // zu Recht entfallen.
+    nachweise: Object.fromEntries(
+      NACHWEISE.map((n) => {
+        const werte: Record<string, number> = {
+          dachneigung: 35,
+          bgfErdgeschoss: 143.13,
+          bgfGesamt: 420.55,
+          bgfDachgeschoss: 138.71,
+          gruendungssohle: -0.955,
+          gebaeudehoehe: 7.4,
+          abwicklungslaenge: 47.95,
+          traufenlaenge: 14.26,
+        };
+        return [n.name, werte[n.id] ?? 100];
+      }),
+    ),
+    hinweise: [],
+  };
+  const a = baueMassenauszug(raeume, elemente, nurKanonisch);
+  const namen = a.abschnitte.flatMap((x) => x.positionen).map((p) => p.bezeichnung);
+  const abhaengig = [
+    "Baugrubenaushub",
+    "Bodenplatte",
+    "Geschoßdecken Stahlbeton",
+    "Fassadenabwicklung",
+    "Giebelflächen",
+    "Fassadengerüst",
+    "Dachfläche geneigt",
+    "Dachrinne",
+    "Photovoltaikanlage",
+  ];
+  const fehlend = abhaengig.filter((b) => !namen.includes(b));
+  if (fehlend.length > 0) {
+    throw new Error(`löst nicht auf: ${fehlend.join(", ")}`);
+  }
+});
+
+pruefe("Der Prompt nennt jeden Nachweis, den die Ableitung sucht", () => {
+  const anweisung = nachweisAnweisung();
+  const fehlend = NACHWEISE.filter((n) => !anweisung.includes(n.name));
+  if (fehlend.length > 0) throw new Error(`nicht im Prompt: ${fehlend.map((n) => n.id).join(", ")}`);
+});
+
+pruefe("Kein Nachweisname verdeckt einen anderen", () => {
+  // "Bruttogrundrissfläche" ist ein Teilstring von "Bruttogrundrissfläche Erdgeschoß":
+  // die Reihenfolge der Suchbegriffe muss den spezifischeren zuerst treffen.
+  const kontext2: PlanKontext = {
+    legende: {},
+    geschosshoehen: {},
+    nachweise: { "Bruttogrundrissfläche Erdgeschoß": 143.13, "Bruttogrundrissfläche gesamt": 420.55 },
+    hinweise: [],
+  };
+  const a = baueMassenauszug([], [], kontext2);
+  const platte = a.abschnitte.flatMap((x) => x.positionen).find((p) => p.bezeichnung === "Bodenplatte");
+  if (!platte || Math.abs(platte.menge! - 143.13 * 0.25) > 0.01) {
+    throw new Error(`Bodenplatte ${platte?.menge} statt ${(143.13 * 0.25).toFixed(2)} — falscher Nachweis getroffen`);
+  }
+});
+
 if (fehler > 0) {
   console.error(`\n${fehler} Fehler.`);
   process.exit(1);
 }
-console.log("\nKostenschätzung geprüft.");
+console.log("\nNachweise geprüft.");

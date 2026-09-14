@@ -1,6 +1,7 @@
 import { ANNAHMEN, verschnittFuer, type AnnahmeId } from "./annahmen";
 import { findeLeistungsgruppen } from "./lbhb";
 import { findePreis, type Einheitspreise } from "./preise";
+import { suchbegriffe } from "./nachweise";
 import type {
   Abschnitt,
   Kostenschaetzung,
@@ -63,6 +64,11 @@ function findeNachweis(
 
 function nachweis(kontext: PlanKontext, ...begriffe: string[]): number | null {
   return findeNachweis(kontext, begriffe)?.wert ?? null;
+}
+
+/** Sucht einen Nachweis über seine Definition in der gemeinsamen Registry. */
+function nw(kontext: PlanKontext, id: string): number | null {
+  return findeNachweis(kontext, suchbegriffe(id))?.wert ?? null;
 }
 
 /**
@@ -147,8 +153,8 @@ class Sammler {
 function abschnittErdarbeiten(kontext: PlanKontext, genutzt: Set<AnnahmeId>): Abschnitt {
   const s = new Sammler(1);
 
-  const bebaut = nachweis(kontext, "bebaute fläche", "bebaute flaeche");
-  const sohle = nachweis(kontext, "unterkante bodenplatte", "gründungssohle", "aushubtiefe");
+  const bebaut = nw(kontext, "bebauteFlaeche");
+  const sohle = nw(kontext, "gruendungssohle");
 
   if (bebaut !== null) {
     // Ohne bemaßte Gründungssohle bleibt nur die angenommene Plattenstärke als
@@ -344,13 +350,9 @@ function abschnittRohbau(
   // eingeflossen sind — sonst behauptet die Summe Annahmen, die es nicht gab.
   const betonAnnahmen = new Set<AnnahmeId>();
 
-  const eg = findeNachweis(kontext, ["bruttogrundriss eg", "bgf eg", "erdgeschoß", "erdgeschoss"]);
+  const eg = findeNachweis(kontext, suchbegriffe("bgfErdgeschoss"));
   // Die Gesamtfläche darf nicht denselben Eintrag treffen wie die des Erdgeschoßes.
-  const gesamt = findeNachweis(
-    kontext,
-    ["bruttogrundrissfläche", "bruttogrundfläche", "bruttogrundriss", "bgf"],
-    new Set(eg ? [eg.schluessel] : []),
-  );
+  const gesamt = findeNachweis(kontext, suchbegriffe("bgfGesamt"), new Set(eg ? [eg.schluessel] : []));
 
   const plattenFlaeche = eg?.wert ?? null;
   const bgfGesamt = gesamt?.wert ?? null;
@@ -487,9 +489,9 @@ function abschnittFassade(
 ): { abschnitt: Abschnitt; brutto: number | null } {
   const s = new Sammler(4);
 
-  const abwicklung = nachweis(kontext, "fassadenabwicklung", "fassadenfläche", "fassade");
-  const giebel = nachweis(kontext, "giebelfläche", "giebel");
-  const traufe = nachweis(kontext, "traufenhöhe", "traufe", "gebäudehöhe");
+  const abwicklung = nw(kontext, "fassadenabwicklung");
+  const giebel = nw(kontext, "giebelflaeche");
+  const traufe = nw(kontext, "gebaeudehoehe");
 
   if (abwicklung === null) {
     return {
@@ -555,7 +557,7 @@ function abschnittFassade(
   // Die Abwicklungslänge muss aus dem Nachweis kommen. Sie aus der Fläche und
   // der Traufenhöhe zurückzurechnen wäre zirkulär und ergäbe wieder exakt die
   // Abwicklungsfläche.
-  const laenge = nachweis(kontext, "abwicklungslänge", "frontlänge", "gebäudeumfang");
+  const laenge = nw(kontext, "abwicklungslaenge");
   if (traufe !== null && laenge !== null) {
     const zuschlag = ANNAHMEN.geruestZuschlag.wert;
     genutzt.add("geruestZuschlag");
@@ -597,8 +599,8 @@ function abschnittFassade(
 
 function abschnittDach(kontext: PlanKontext): Abschnitt {
   const s = new Sammler(5);
-  const neigung = nachweis(kontext, "dachneigung", "neigung");
-  const grundflaeche = nachweis(kontext, "dachgrundfläche", "dachfläche grundriss", "bruttogrundriss dg");
+  const neigung = nw(kontext, "dachneigung");
+  const grundflaeche = nw(kontext, "bgfDachgeschoss");
 
   if (neigung !== null && grundflaeche !== null && neigung > 0 && neigung < 90) {
     const faktor = 1 / Math.cos((neigung * Math.PI) / 180);
@@ -666,7 +668,7 @@ function abschnittDach(kontext: PlanKontext): Abschnitt {
 
   // Traufenlänge kommt aus dem Nachweis; aus der Dachfläche ließe sie sich nur
   // unter einer Annahme zum Seitenverhältnis zurückrechnen.
-  const traufe = nachweis(kontext, "traufenlänge", "dachrinne", "firstlänge");
+  const traufe = nw(kontext, "traufenlaenge");
   if (traufe !== null) {
     s.add({
       bezeichnung: "Dachrinne",
@@ -678,7 +680,7 @@ function abschnittDach(kontext: PlanKontext): Abschnitt {
     });
   }
 
-  const pv = nachweis(kontext, "photovoltaik", "pv-anlage", "pv");
+  const pv = nw(kontext, "pvFlaeche");
   if (pv !== null) {
     s.add({
       bezeichnung: "Photovoltaikanlage",
@@ -899,7 +901,7 @@ function pruefpunkte(raeume: Raum[], kontext: PlanKontext): string[] {
   const punkte: string[] = [];
 
   const beheizt = summe(raeume.filter((r) => r.beheizt).map((r) => r.flaeche_m2));
-  const ausweis = nachweis(kontext, "wohnnutzfläche", "nutzfläche");
+  const ausweis = nw(kontext, "wohnnutzflaeche");
   if (ausweis !== null && beheizt > 0) {
     const differenz = runde(Math.abs(ausweis - beheizt));
     if (differenz > 0.05) {

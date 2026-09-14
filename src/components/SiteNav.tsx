@@ -15,7 +15,7 @@ export function SiteNav() {
       <Link href="/" className="font-display font-black tracking-tight text-lg">
         MENGENWERK
       </Link>
-      <div className="flex items-center gap-6">
+      <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
         {LINKS.map((l) => (
           <Link key={l.href} href={l.href} className="font-mono text-xs uppercase tracking-wide text-fg-muted hover:text-fg">
             {l.label}
@@ -37,7 +37,7 @@ export function SiteFooter() {
     <footer className="border-t border-line px-6 md:px-10 py-10">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <p className="font-mono text-xs text-fg-muted uppercase tracking-wide">MengenWerk. Gebaut für kleine Baubetriebe.</p>
-        <div className="flex items-center gap-6">
+        <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
           <Link href="/impressum" className="font-mono text-xs text-fg-muted uppercase tracking-wide hover:text-fg">
             Impressum
           </Link>

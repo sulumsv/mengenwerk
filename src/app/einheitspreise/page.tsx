@@ -166,7 +166,7 @@ export default function EinheitspreisePage() {
                               inputMode="decimal"
                               min={0}
                               step="0.01"
-                              placeholder={euro(p.richtwert)}
+                              placeholder="—"
                               value={eigene[p.schluessel] ?? ""}
                               onChange={(e) => setzePreis(p.schluessel, e.target.value)}
                               aria-label={`Eigener Preis für ${p.bezeichnung} in Euro je ${EINHEIT_TEXT[p.einheit]}`}

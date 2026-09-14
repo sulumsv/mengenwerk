@@ -21,6 +21,7 @@ interface Schnipsel {
   x: number;
   y: number;
   hoehe: number;
+  breite: number;
 }
 
 export interface Leseergebnis {
@@ -28,6 +29,41 @@ export interface Leseergebnis {
   kontext: PlanKontext;
   /** Anzahl Textschnipsel im Plan. Null heißt: eingescannt, nicht auslesbar. */
   schnipsel: number;
+  /**
+   * Ob dem Gelesenen zu trauen ist. Ein Auszug aus falsch zugeordneten Zahlen
+   * sieht genauso fertig aus wie ein richtiger — deshalb wird lieber nichts
+   * gezeigt als etwas Falsches.
+   */
+  verlaesslich: boolean;
+  grund?: string;
+}
+
+/**
+ * Prüft das Gelesene gegen sich selbst. Der stärkste Test ist der Abgleich der
+ * Raumsumme mit der ausgewiesenen Wohnnutzfläche: stimmen sie nicht annähernd
+ * überein, wurden Raumstempel übersehen oder Fremdwerte eingesammelt.
+ */
+function beurteile(raeume: Raum[], nachweise: Record<string, number>): { verlaesslich: boolean; grund?: string } {
+  if (raeume.length < 3) {
+    return { verlaesslich: false, grund: `Es wurden nur ${raeume.length} Räume erkannt.` };
+  }
+
+  const summe = raeume.filter((r) => r.beheizt).reduce((s, r) => s + r.flaeche_m2, 0);
+  const ausweis = Object.entries(nachweise).find(([n]) =>
+    normalisiereBegriff(n).includes("wohnnutzflaeche"),
+  )?.[1];
+
+  if (ausweis && ausweis > 0) {
+    const abweichung = Math.abs(summe - ausweis) / ausweis;
+    if (abweichung > 0.2) {
+      return {
+        verlaesslich: false,
+        grund: `Die Summe der erkannten Räume (${summe.toFixed(2)} m²) weicht stark von der ausgewiesenen Wohnnutzfläche (${ausweis.toFixed(2)} m²) ab.`,
+      };
+    }
+  }
+
+  return { verlaesslich: true };
 }
 
 function zahl(roh: string): number | null {
@@ -99,6 +135,67 @@ function umfangAusFlaeche(flaeche: number) {
 }
 
 /**
+ * Setzt Textfragmente zu Zeilen zusammen.
+ *
+ * CAD-Programme zerlegen eine Beschriftung beim PDF-Export in mehrere Stücke:
+ * "60,29" und "m²" kommen einzeln an. Ohne dieses Zusammensetzen findet die
+ * Suche nach Raumstempeln nichts, weil kein Fragment für sich wie eine
+ * Flächenangabe aussieht.
+ */
+function baueZeilen(schnipsel: Schnipsel[]): Schnipsel[] {
+  if (schnipsel.length === 0) return [];
+
+  // Erst nach Höhe bündeln, dann innerhalb eines Bandes nach waagrechter Nähe
+  // trennen. Ohne die zweite Trennung verschmelzen nebeneinanderliegende
+  // Raumstempel zu einer einzigen Zeile, weil sie dieselbe Höhe teilen.
+  const baender = new Map<number, Schnipsel[]>();
+  for (const teil of schnipsel) {
+    const toleranz = Math.max(teil.hoehe * 0.6, 1.5);
+    const vorhanden = [...baender.keys()].find((y) => Math.abs(y - teil.y) <= toleranz);
+    const schluessel = vorhanden ?? teil.y;
+    baender.set(schluessel, [...(baender.get(schluessel) ?? []), teil]);
+  }
+
+  const zeilen: Schnipsel[] = [];
+  for (const band of baender.values()) {
+    const geordnet = band.sort((a, b) => a.x - b.x);
+    let lauf: Schnipsel[] = [geordnet[0]];
+
+    const abschliessen = () => {
+      let text = lauf[0].text;
+      for (let i = 1; i < lauf.length; i++) {
+        const vorher = lauf[i - 1];
+        const luecke = lauf[i].x - (vorher.x + vorher.breite);
+        text += (luecke > vorher.hoehe * 0.33 ? " " : "") + lauf[i].text;
+      }
+      const letzte = lauf[lauf.length - 1];
+      zeilen.push({
+        text: text.replace(/\s{2,}/g, " ").trim(),
+        x: lauf[0].x,
+        y: lauf[0].y,
+        hoehe: Math.max(...lauf.map((t) => t.hoehe)),
+        breite: letzte.x + letzte.breite - lauf[0].x,
+      });
+    };
+
+    for (let i = 1; i < geordnet.length; i++) {
+      const vorher = geordnet[i - 1];
+      const luecke = geordnet[i].x - (vorher.x + vorher.breite);
+      // Eine Lücke von mehr als zwei Zeichenhöhen trennt zwei Beschriftungen.
+      if (luecke > vorher.hoehe * 2) {
+        abschliessen();
+        lauf = [geordnet[i]];
+      } else {
+        lauf.push(geordnet[i]);
+      }
+    }
+    abschliessen();
+  }
+
+  return zeilen;
+}
+
+/**
  * Ein Raumstempel besteht aus gestapelten Zeilen: Name, Fläche, Belag. Gesucht
  * wird von der Flächenangabe aus, weil sie das eindeutigste Muster hat.
  */
@@ -143,7 +240,11 @@ function findeRaeume(schnipsel: Schnipsel[], geschoss: string, blatt: number): R
 
   // Derselbe Raum kann auf einem Blatt mehrfach beschriftet sein.
   const gesehen = new Set<string>();
+  // Zeilen aus Rechenblöcken wie "Nord = 1,20m²" oder Kürzel wie "A4" sind
+  // keine Räume, auch wenn daneben eine Flächenangabe steht.
+  const unsinn = /[=:]|^[A-Z]\d{1,2}$/;
   return raeume.filter((r) => {
+    if (unsinn.test(r.name)) return false;
     const schluessel = `${r.geschoss}__${r.name.toLowerCase()}__${r.flaeche_m2}`;
     if (gesehen.has(schluessel)) return false;
     gesehen.add(schluessel);
@@ -155,55 +256,70 @@ function findeRaeume(schnipsel: Schnipsel[], geschoss: string, blatt: number): R
  * Sucht die Nachweiswerte. Der Wert steht entweder in derselben Zeile rechts
  * vom Begriff oder unmittelbar darunter.
  */
-function findeNachweise(schnipsel: Schnipsel[]): Record<string, number> {
+function findeNachweise(zeilen: Schnipsel[]): Record<string, number> {
   const gefunden: Record<string, number> = {};
-  // Eine Beschriftung gehört zu genau einem Nachweis. Ohne diese Sperre nimmt
-  // ein allgemeinerer Begriff die Zeile eines spezifischeren weg —
-  // "Bruttogrundrissfläche" träfe sonst auch die Zeile des Erdgeschoßes.
+  // Eine Zeile gehört zu genau einem Nachweis.
   const vergeben = new Set<Schnipsel>();
 
   for (const definition of NACHWEISE) {
-    if (gefunden[definition.name] !== undefined) continue;
     const begriffe = suchbegriffe(definition.id);
 
-    for (const s of schnipsel) {
-      if (vergeben.has(s)) continue;
-      const text = normalisiereBegriff(s.text);
-      if (!begriffe.some((b) => text.includes(b))) continue;
+    // Alle Zeilen sammeln, die den Begriff enthalten, und die engste nehmen.
+    // "Bebaute Fläche" steckt auch in "Bebaute Fläche in Abstandsflächen" —
+    // ohne diese Wertung gewinnt die erstbeste, nicht die gemeinte Zeile.
+    const kandidaten = zeilen
+      .filter((z) => !vergeben.has(z))
+      .flatMap((z) => {
+        const text = normalisiereBegriff(z.text);
+        const treffer = begriffe.find((b) => text.includes(b));
+        if (!treffer) return [];
+        // Überhang: alles in der Zeile, was nicht der Begriff selbst und keine
+        // Zahl oder Einheit ist. Je weniger, desto sicherer die Zuordnung.
+        const rest = text.replace(treffer, " ").replace(/[\d.,\s:=]|m[²2³3]?|lfm|grad|°|%/g, "").trim();
+        return [{ zeile: z, ueberhang: rest.length }];
+      })
+      .sort((a, b) => a.ueberhang - b.ueberhang);
 
-      // Steht der Wert in derselben Beschriftung? "Dachneigung 35,00°"
-      const eigen = s.text.match(/([\d.,]+)\s*(m[²2³3]?|°|grad)?\s*$/i);
-      const ausEigen = eigen && !/^[a-zäöüß\s]+$/i.test(eigen[1]) ? zahl(eigen[1]) : null;
-      if (ausEigen !== null && ausEigen !== 0) {
-        gefunden[definition.name] = ausEigen;
-        vergeben.add(s);
+    for (const { zeile, ueberhang } of kandidaten) {
+      // Mehr als ein paar Fremdzeichen heißt: andere Zeile, anderer Nachweis.
+      if (ueberhang > 6) break;
+
+      const wert = werteAusZeile(zeile, zeilen);
+      if (wert !== null) {
+        gefunden[definition.name] = wert;
+        vergeben.add(zeile);
         break;
       }
-
-      const spanne = Math.max(s.hoehe * 2.5, 8);
-      const nachbarn = schnipsel
-        .filter((n) => n !== s)
-        .filter((n) => {
-          const rechts = n.x > s.x && Math.abs(n.y - s.y) < spanne;
-          const darunter = n.y < s.y && s.y - n.y < spanne * 2 && Math.abs(n.x - s.x) < spanne * 8;
-          return rechts || darunter;
-        })
-        .sort((a, b) => Math.hypot(a.x - s.x, a.y - s.y) - Math.hypot(b.x - s.x, b.y - s.y));
-
-      for (const n of nachbarn) {
-        const m = n.text.trim().match(/^([\d.,\s ]+)\s*(m[²2³3]?|°|grad)?$/i);
-        const wert = m ? zahl(m[1]) : null;
-        if (wert !== null && wert !== 0) {
-          gefunden[definition.name] = wert;
-          vergeben.add(s);
-          break;
-        }
-      }
-      if (gefunden[definition.name] !== undefined) break;
     }
   }
 
   return gefunden;
+}
+
+/** Der Wert steht in der Zeile selbst, rechts daneben oder direkt darunter. */
+function werteAusZeile(zeile: Schnipsel, alle: Schnipsel[]): number | null {
+  const eigen = zeile.text.match(/([\d][\d.,\s\u00a0]*)\s*(m[²2³3]?|lfm|°|grad|%)?\s*$/i);
+  if (eigen) {
+    const wert = zahl(eigen[1]);
+    if (wert !== null && wert !== 0) return wert;
+  }
+
+  const spanne = Math.max(zeile.hoehe * 2.5, 8);
+  const nachbarn = alle
+    .filter((n) => n !== zeile)
+    .filter((n) => {
+      const rechts = n.x > zeile.x && Math.abs(n.y - zeile.y) < spanne;
+      const darunter = n.y < zeile.y && zeile.y - n.y < spanne * 2 && Math.abs(n.x - zeile.x) < spanne * 8;
+      return rechts || darunter;
+    })
+    .sort((a, b) => Math.hypot(a.x - zeile.x, a.y - zeile.y) - Math.hypot(b.x - zeile.x, b.y - zeile.y));
+
+  for (const n of nachbarn) {
+    const m = n.text.trim().match(/^([\d][\d.,\s\u00a0]*)\s*(m[²2³3]?|lfm|°|grad|%)?$/i);
+    const wert = m ? zahl(m[1]) : null;
+    if (wert !== null && wert !== 0) return wert;
+  }
+  return null;
 }
 
 async function ladePdfjs() {
@@ -244,14 +360,16 @@ export async function lesePlanAusText(
           x: item.transform[4],
           y: item.transform[5],
           hoehe: Math.abs(item.transform[3]) || 8,
+          breite: item.width ?? item.str.length * 4,
         }));
 
       gesamtSchnipsel += schnipsel.length;
       if (schnipsel.length === 0) continue;
 
-      raeume.push(...findeRaeume(schnipsel, geschossAusText(schnipsel, blatt), blatt));
+      const zeilen = baueZeilen(schnipsel);
+      raeume.push(...findeRaeume(zeilen, geschossAusText(zeilen, blatt), blatt));
       // Der erste Fund gilt: Nachweise stehen einmal im Plansatz.
-      for (const [name, wert] of Object.entries(findeNachweise(schnipsel))) {
+      for (const [name, wert] of Object.entries(findeNachweise(zeilen))) {
         nachweise[name] ??= wert;
       }
     }
@@ -267,10 +385,12 @@ export async function lesePlanAusText(
       );
     }
 
+    const urteil = beurteile(raeume, nachweise);
     return {
       raeume,
       kontext: { legende: {}, geschosshoehen: {}, nachweise, hinweise },
       schnipsel: gesamtSchnipsel,
+      ...urteil,
     };
   } finally {
     await dokument.destroy();

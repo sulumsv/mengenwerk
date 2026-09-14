@@ -131,8 +131,10 @@ export default function ToolPage() {
       setSchritt(`Blatt ${seite} von ${von} wird gelesen`),
     );
 
-    // Ohne Räume trägt der Auszug nichts; dann lieber den Bildweg anbieten.
-    if (gelesen.raeume.length === 0) return false;
+    // Dem Gelesenen ist nur zu trauen, wenn es sich selbst gegenprüfen lässt.
+    // Ein Auszug aus falsch zugeordneten Zahlen sieht genauso fertig aus wie
+    // ein richtiger — deshalb hier lieber abbrechen und den Bildweg gehen.
+    if (!gelesen.verlaesslich) return false;
 
     setErgebnis({
       analyse: {

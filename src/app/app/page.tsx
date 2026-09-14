@@ -168,7 +168,7 @@ export default function ToolPage() {
 
             <PlanKontextBlock kontext={ergebnis.analyse.kontext} />
 
-            <MassenauszugAnsicht auszug={ergebnis.massenauszug} />
+            <MassenauszugAnsicht auszug={ergebnis.massenauszug} titel={ergebnis.analyse.dateiname.replace(/\.[^.]+$/, "")} />
 
             <h3 className="font-display font-bold uppercase text-xl mt-12 mb-4 border-b-2 border-line-strong pb-2.5">
               Erkannte Bauteile

@@ -10,7 +10,19 @@ export const metadata: Metadata = {
 };
 
 export default function VorschauPage() {
-  const auszug = baueMassenauszug(BEISPIEL_RAEUME, BEISPIEL_ELEMENTE, BEISPIEL_KONTEXT);
+  // Nachweise, die Erdarbeiten, Spengler und PV erst ableitbar machen.
+  const kontext = {
+    ...BEISPIEL_KONTEXT,
+    nachweise: {
+      ...BEISPIEL_KONTEXT.nachweise,
+      "Traufenlänge (m)": 14.26,
+      "Photovoltaik Modulfläche (m2)": 19.6,
+      "Unterkante Bodenplatte (m)": -0.955,
+    },
+  };
+  // Zwei eigene Preise, damit im Beispiel sichtbar ist, wie sich der
+  // Richtwertanteil verschiebt, sobald der Betrieb eigene Preise hinterlegt.
+  const auszug = baueMassenauszug(BEISPIEL_RAEUME, BEISPIEL_ELEMENTE, kontext, { parkett: 62, malerei: 9.5 });
 
   return (
     <main className="flex-1">
@@ -34,7 +46,7 @@ export default function VorschauPage() {
         </p>
       </section>
       <section className="px-6 md:px-10 pb-16 max-w-7xl mx-auto">
-        <MassenauszugAnsicht auszug={auszug} />
+        <MassenauszugAnsicht auszug={auszug} titel="Massenauszug Torricelligasse 29" />
       </section>
       <SiteFooter />
     </main>

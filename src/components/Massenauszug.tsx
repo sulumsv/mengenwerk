@@ -1,5 +1,8 @@
+"use client";
+
 import { sortiereGeschosse } from "@/lib/ableitung";
-import type { Abschnitt, Konfidenz, Massenauszug, Position, Raum } from "@/lib/types";
+import { massenauszugAlsHtml } from "@/lib/export-html";
+import type { Abschnitt, Konfidenz, Kostenschaetzung, Massenauszug, Position, Raum } from "@/lib/types";
 
 const KONFIDENZ_TEXT: Record<Konfidenz, string> = {
   plan: "Aus Plan",
@@ -24,6 +27,61 @@ const EINHEIT_TEXT: Record<string, string> = {
 
 function zahl(n: number, dez = 2): string {
   return n.toLocaleString("de-AT", { minimumFractionDigits: dez, maximumFractionDigits: dez });
+}
+
+function euro(n: number): string {
+  return n.toLocaleString("de-AT", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+/**
+ * Die Kostenschätzung steht bewusst neben ihrem Richtwertanteil: eine Summe,
+ * die zu weiten Teilen auf Katalogpreisen beruht, ist keine Kalkulation.
+ */
+function KostenBlock({ kosten }: { kosten: Kostenschaetzung }) {
+  const anteil = kosten.summe > 0 ? (kosten.summeAusRichtwerten / kosten.summe) * 100 : 0;
+  const eigenAnteil = 100 - anteil;
+
+  return (
+    <section className="rounded-lg border-2 border-line-strong overflow-hidden">
+      <div className="bg-line-strong text-surface px-5 py-4 flex flex-wrap items-baseline gap-x-6 gap-y-2">
+        <span className="font-mono text-xs uppercase tracking-wide">Kostenschätzung</span>
+        <span className="font-mono font-num text-2xl font-semibold ml-auto">
+          {euro(kosten.summe)}
+          <span className="text-sm font-medium ml-1.5 text-surface/70">EUR netto</span>
+        </span>
+      </div>
+      <div className="bg-surface-2 px-5 py-4 grid sm:grid-cols-3 gap-4 text-sm">
+        <div>
+          <p className="font-mono text-xs uppercase tracking-wide text-fg-muted">Aus eigenen Preisen</p>
+          <p className="font-mono font-num text-lg mt-0.5">{zahl(eigenAnteil, 0)} %</p>
+        </div>
+        <div>
+          <p className="font-mono text-xs uppercase tracking-wide text-fg-muted">Aus Richtwerten</p>
+          <p className="font-mono font-num text-lg mt-0.5">
+            {zahl(anteil, 0)} %
+            <span className="text-sm text-fg-muted ml-2">{euro(kosten.summeAusRichtwerten)} EUR</span>
+          </p>
+        </div>
+        <div>
+          <p className="font-mono text-xs uppercase tracking-wide text-fg-muted">Positionen</p>
+          <p className="font-mono font-num text-lg mt-0.5">
+            {kosten.bepreistePositionen}
+            {kosten.unbepreistePositionen > 0 && (
+              <span className="text-sm text-alert ml-2">{kosten.unbepreistePositionen} ohne Preis</span>
+            )}
+          </p>
+        </div>
+      </div>
+      {anteil > 0 && (
+        <p className="bg-alert/10 border-t border-alert/40 px-5 py-3 text-sm text-fg-muted">
+          {anteil >= 99.5
+            ? "Die Summe beruht vollständig auf Richtwerten aus dem Katalog. Sie ist eine Größenordnung, keine Kalkulation."
+            : `${zahl(anteil, 0)} % der Summe beruhen auf Richtwerten statt auf eigenen Preisen.`}{" "}
+          Eigene Preise werden unter Einheitspreise hinterlegt.
+        </p>
+      )}
+    </section>
+  );
 }
 
 function KonfidenzPunkt({ konfidenz }: { konfidenz: Konfidenz }) {
@@ -163,7 +221,7 @@ function AbschnittBlock({ abschnitt }: { abschnitt: Abschnitt }) {
       {abschnitt.vorspann && <p className="text-sm text-fg-muted max-w-3xl">{abschnitt.vorspann}</p>}
       {abschnitt.positionen.length > 0 && (
         <div className="overflow-x-auto rounded-lg border border-line bg-surface-2">
-          <table className="w-full text-sm min-w-[760px]">
+          <table className="w-full text-sm min-w-[980px]">
             <thead>
               <tr className="bg-surface font-mono text-xs uppercase tracking-wide text-fg-muted text-left">
                 <th className="px-4 py-3 font-medium w-8"></th>
@@ -172,6 +230,8 @@ function AbschnittBlock({ abschnitt }: { abschnitt: Abschnitt }) {
                 <th className="px-4 py-3 font-medium">Rechenweg</th>
                 <th className="px-4 py-3 font-medium text-right">Menge</th>
                 <th className="px-4 py-3 font-medium">Einh.</th>
+                <th className="px-4 py-3 font-medium text-right">EP</th>
+                <th className="px-4 py-3 font-medium text-right">Betrag</th>
                 <th className="px-4 py-3 font-medium">LB HB</th>
               </tr>
             </thead>
@@ -191,9 +251,43 @@ function AbschnittBlock({ abschnitt }: { abschnitt: Abschnitt }) {
                     {p.menge === null ? <span className="text-fg-muted">—</span> : zahl(p.menge)}
                   </td>
                   <td className="px-4 py-3 font-mono text-xs text-fg-muted">{EINHEIT_TEXT[p.einheit]}</td>
+                  <td className="px-4 py-3 text-right font-mono font-num text-xs whitespace-nowrap">
+                    {p.einheitspreis === undefined ? (
+                      <span className="text-fg-muted">—</span>
+                    ) : (
+                      <span className={p.preisQuelle === "richtwert" ? "text-fg-muted" : undefined}>
+                        {euro(p.einheitspreis)}
+                        {p.preisQuelle === "richtwert" && (
+                          <span className="text-alert ml-1" title="Richtwert, kein eigener Preis">
+                            *
+                          </span>
+                        )}
+                      </span>
+                    )}
+                  </td>
+                  <td className="px-4 py-3 text-right font-mono font-num whitespace-nowrap">
+                    {p.betrag === undefined ? (
+                      <span className="text-fg-muted" title={p.zwischenwert ? "Zwischenwert, Kosten in Folgeposition" : undefined}>
+                        {p.zwischenwert ? "—" : "offen"}
+                      </span>
+                    ) : (
+                      euro(p.betrag)
+                    )}
+                  </td>
                   <td className="px-4 py-3 text-xs text-fg-muted">{p.lgKandidaten.join(", ") || "—"}</td>
                 </tr>
               ))}
+              {abschnitt.summe !== undefined && abschnitt.summe > 0 && (
+                <tr className="bg-surface border-t-2 border-line-strong font-semibold">
+                  <td className="px-4 py-3" colSpan={7}>
+                    Summe {abschnitt.titel}
+                  </td>
+                  <td className="px-4 py-3 text-right font-mono font-num whitespace-nowrap">
+                    {euro(abschnitt.summe)}
+                  </td>
+                  <td className="px-4 py-3 font-mono text-xs text-fg-muted">EUR</td>
+                </tr>
+              )}
             </tbody>
           </table>
         </div>
@@ -202,11 +296,48 @@ function AbschnittBlock({ abschnitt }: { abschnitt: Abschnitt }) {
   );
 }
 
-export function MassenauszugAnsicht({ auszug }: { auszug: Massenauszug }) {
+/**
+ * Lädt den Auszug als eigenständige HTML-Datei herunter. Sie trägt ihr
+ * Stylesheet in sich, lässt sich also weiterreichen und ohne Netz öffnen.
+ */
+function Download({ auszug, titel }: { auszug: Massenauszug; titel: string }) {
+  function herunterladen() {
+    const html = massenauszugAlsHtml(auszug, titel, new Date());
+    const url = URL.createObjectURL(new Blob([html], { type: "text/html;charset=utf-8" }));
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `${titel.replace(/[^\w\d-]+/g, "-").replace(/^-|-$/g, "").toLowerCase() || "massenauszug"}.html`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    // Erst nach dem Klick freigeben, sonst bricht der Download in Safari ab.
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+
+  return (
+    <button
+      type="button"
+      onClick={herunterladen}
+      className="self-start font-display font-bold uppercase tracking-wide text-sm px-6 py-3 bg-line-strong text-surface rounded-md"
+    >
+      Massenauszug herunterladen
+    </button>
+  );
+}
+
+export function MassenauszugAnsicht({
+  auszug,
+  titel = "Massenauszug",
+}: {
+  auszug: Massenauszug;
+  titel?: string;
+}) {
   return (
     <div className="flex flex-col gap-10">
+      <Download auszug={auszug} titel={titel} />
       <Legende />
       <Kennzahlen positionen={auszug.kennzahlen} />
+      {auszug.kosten && auszug.kosten.summe > 0 && <KostenBlock kosten={auszug.kosten} />}
       <Raumbuch raeume={auszug.raeume} />
       {auszug.abschnitte.map((a) => (
         <AbschnittBlock key={a.nummer} abschnitt={a} />

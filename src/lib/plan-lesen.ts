@@ -29,6 +29,8 @@ export interface Leseergebnis {
   kontext: PlanKontext;
   /** Anzahl Textschnipsel im Plan. Null heißt: eingescannt, nicht auslesbar. */
   schnipsel: number;
+  /** Wie viele Blätter der Plansatz hat. */
+  seiten: number;
   /**
    * Ob dem Gelesenen zu trauen ist. Ein Auszug aus falsch zugeordneten Zahlen
    * sieht genauso fertig aus wie ein richtiger — deshalb wird lieber nichts
@@ -390,6 +392,7 @@ export async function lesePlanAusText(
       raeume,
       kontext: { legende: {}, geschosshoehen: {}, nachweise, hinweise },
       schnipsel: gesamtSchnipsel,
+      seiten: dokument.numPages,
       ...urteil,
     };
   } finally {

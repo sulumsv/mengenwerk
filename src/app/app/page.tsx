@@ -186,7 +186,7 @@ export default function ToolPage() {
       analyse: {
         dateiname: f.name,
         dateityp: "vektor-pdf",
-        seiten: 0,
+        seiten: gelesen.seiten,
         kontext: gelesen.kontext,
         raeume: gelesen.raeume,
         elemente: [],

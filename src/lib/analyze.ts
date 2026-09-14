@@ -2,6 +2,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { z } from "zod";
 import { nachweisAnweisung } from "./nachweise";
+import { Verbrauch } from "./verbrauch";
 import type { AnalysisResult, DetectedElement, ElementType, Konfidenz, PlanKontext, Raum } from "./types";
 
 const MODELL = "claude-opus-5";
@@ -247,7 +248,7 @@ function alsBild(bild: Buffer) {
  * ohne diesen Schritt wertet jede Seite isoliert aus und die Materialzuordnung
  * bleibt leer.
  */
-async function erhebeKontext(client: Anthropic, bilder: Buffer[]): Promise<PlanKontext> {
+async function erhebeKontext(client: Anthropic, bilder: Buffer[], verbrauch: Verbrauch): Promise<PlanKontext> {
   const auswahl = bilder.slice(0, MAX_KONTEXT_SEITEN);
   const leer: PlanKontext = { legende: {}, geschosshoehen: {}, nachweise: {}, hinweise: [] };
 
@@ -275,6 +276,7 @@ async function erhebeKontext(client: Anthropic, bilder: Buffer[]): Promise<PlanK
       },
       { timeout: ANFRAGE_TIMEOUT_MS },
     );
+    verbrauch.addiere(antwort.usage);
     geparst = antwort.parsed_output;
   } catch (fehler) {
     // Ein abgelehnter Schlüssel trifft jeden folgenden Aufruf gleichermaßen:
@@ -325,6 +327,7 @@ async function werteBlattAus(
   blatt: number,
   vonBlaettern: number,
   kontextText: string,
+  verbrauch: Verbrauch,
 ): Promise<Blattergebnis> {
   const leer: Blattergebnis = { raeume: [], elemente: [], hinweise: [] };
 
@@ -349,6 +352,7 @@ async function werteBlattAus(
       },
       { timeout: ANFRAGE_TIMEOUT_MS },
     );
+    verbrauch.addiere(antwort.usage);
     geparst = antwort.parsed_output;
   } catch (fehler) {
     if (istEndgueltig(fehler)) throw fehler;
@@ -410,8 +414,9 @@ export async function analysiereBildseiten(
   }
 
   const client = new Anthropic({ apiKey, maxRetries: MAX_WIEDERHOLUNGEN });
+  const verbrauch = new Verbrauch(MODELL);
 
-  const kontext = await erhebeKontext(client, bilder);
+  const kontext = await erhebeKontext(client, bilder, verbrauch);
   const kontextText = baueKontextText(kontext);
 
   const uebersprungen: number[] = [];
@@ -423,7 +428,7 @@ export async function analysiereBildseiten(
       uebersprungen.push(i + 1);
       return { raeume: [], elemente: [], hinweise: [] } satisfies Blattergebnis;
     }
-    return werteBlattAus(client, bild, i + 1, bilder.length, kontextText);
+    return werteBlattAus(client, bild, i + 1, bilder.length, kontextText, verbrauch);
   });
 
   // Scheitert jedes Blatt, ist das kein Teilausfall, sondern ein Ausfall: den
@@ -453,5 +458,6 @@ export async function analysiereBildseiten(
     raeume: ergebnisse.flatMap((e) => e.raeume),
     elemente: ergebnisse.flatMap((e) => e.elemente),
     hinweise: ergebnisse.flatMap((e) => e.hinweise),
+    verbrauch: verbrauch.bericht(),
   };
 }

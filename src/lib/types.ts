@@ -1,3 +1,5 @@
+import type { VerbrauchsBericht } from "./verbrauch";
+
 export type ElementType =
   | "fenster"
   | "tuer"
@@ -74,6 +76,11 @@ export interface AnalysisResult {
   raeume: Raum[];
   elemente: DetectedElement[];
   hinweise: string[];
+  /**
+   * Was die Auswertung an API-Kosten verursacht hat. Fehlt, wenn der Plan aus
+   * seiner eigenen Textebene gelesen wurde — dann fällt nichts an.
+   */
+  verbrauch?: VerbrauchsBericht;
 }
 
 export type Einheit = "m2" | "m3" | "t" | "lfm" | "Stk" | "EUR";

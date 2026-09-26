@@ -77,11 +77,16 @@ function beurteile(
   )?.[1];
 
   if (ausweis && ausweis > 0) {
-    const abweichung = Math.abs(summe - ausweis) / ausweis;
+    // Ein einzelner Raum kann nicht größer sein als die gesamte Wohnnutzfläche —
+    // solche Ausreißer sind Fehlzuordnungen (z.B. Grundstücksfläche oder Parzellenmaße
+    // aus dem Flächennachweis, die äußerlich wie Raumstempel aussehen).
+    const echte = raeume.filter((r) => r.beheizt && r.flaeche_m2 <= ausweis);
+    const summeEchte = echte.reduce((s, r) => s + r.flaeche_m2, 0);
+    const abweichung = Math.abs(summeEchte - ausweis) / ausweis;
     if (abweichung > 0.2) {
       return {
         verlaesslich: false,
-        grund: `Die Summe der erkannten Räume (${summe.toFixed(2)} m²) weicht stark von der ausgewiesenen Wohnnutzfläche (${ausweis.toFixed(2)} m²) ab.`,
+        grund: `Die Summe der erkannten Räume (${summeEchte.toFixed(2)} m²) weicht stark von der ausgewiesenen Wohnnutzfläche (${ausweis.toFixed(2)} m²) ab.`,
       };
     }
   }
@@ -417,9 +422,18 @@ export async function lesePlanAusText(
       );
     }
 
-    const urteil = beurteile(raeume, nachweise, gesamtSchnipsel);
+    // Wenn eine Wohnnutzfläche bekannt ist, Ausreißer aus dem Raumkataster entfernen.
+    // Ohne diese Bereinigung landen Fehlzuordnungen (z.B. Grundstücksfläche) im Massenauszug.
+    const wohnnutzflaeche = Object.entries(nachweise).find(([n]) =>
+      normalisiereBegriff(n).includes("wohnnutzflaeche"),
+    )?.[1];
+    const bereinigte = wohnnutzflaeche
+      ? raeume.filter((r) => r.flaeche_m2 <= wohnnutzflaeche * 1.05)
+      : raeume;
+
+    const urteil = beurteile(bereinigte, nachweise, gesamtSchnipsel);
     return {
-      raeume,
+      raeume: bereinigte,
       kontext: { legende: {}, geschosshoehen: {}, nachweise, hinweise },
       schnipsel: gesamtSchnipsel,
       seiten: dokument.numPages,

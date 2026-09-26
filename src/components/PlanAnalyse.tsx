@@ -1,419 +1,391 @@
 "use client";
 
-import { useRef, useState } from "react";
-import { motion, useScroll, useTransform, useMotionValueEvent } from "motion/react";
+import { useEffect, useRef, useState, type CSSProperties } from "react";
+import {
+  AnimatePresence,
+  motion,
+  useMotionValueEvent,
+  useScroll,
+  useTransform,
+} from "motion/react";
 
-// ─── Farben wie echte österreichische Einreichpläne ─────────────────────────
-const C = {
-  wohnraum: "#f9e4d0",   // Wohn-/Schlaf-/Kinderzimmer: warmes Lachs
-  nassraum: "#c8e8ed",   // Bad, WC: kühles Türkis
-  nebenraum: "#e8e4dc",  // Flur, HWR, Abstellraum: neutrales Grau-Beige
-  garage:   "#f5d8a0",   // Garage/Carport: Gelb-Orange
-  wand:     "#2a2724",   // Wandfarbe: fast Schwarz (wie gedruckt)
-  massline: "#555",      // Maßketten
-  massbg:   "#f7f6f1",   // Plan-Hintergrund
+// Plan-Einheiten: 440 Einheiten = 12,10 m Außenmaß.
+const PX_M = 440 / 12.1;
+const PLAN_W = 600;
+const PLAN_H = 420;
+
+const FARBE = {
+  wohn: "#f6d5bf",
+  nass: "#bfe0e6",
+  neben: "#e6e1d6",
+  wand: "#2f2b27",
+  linie: "#5b5750",
 };
 
-// ─── Grundriss-Geometrie ─────────────────────────────────────────────────────
-// Viewbox: 0 0 560 400  — EFH ca. 14m × 9m, Maßstab 1:50 ~ 36px/m
-const W = 12; // Wandstärke Außenwand px
-const IW = 8; // Innenwand px
+type Oeffnung = [number, number, "fenster" | "tuer"];
+type Box = { x: number; y: number; w: number; d: number; k: number; z0: number; aussen: boolean };
+type Schlitz = { x: number; y: number; w: number; d: number; art: "fenster" | "tuer"; vertikal: boolean };
 
-// Räume: { id, x, y, w, h, name, flaeche, fill }
-// Koordinaten = Innenmaß des Raums
-const RAEUME = [
-  { id: "wohnzimmer", x: 94,  y: 48,  w: 195, h: 160, name: "Wohnzimmer",   flaeche: "28,4",  fill: C.wohnraum },
-  { id: "kueche",     x: 289, y: 48,  w: 140, h: 90,  name: "Küche",        flaeche: "14,2",  fill: C.wohnraum },
-  { id: "abst",       x: 429, y: 48,  w: 89,  h: 90,  name: "Abstell",      flaeche: "5,8",   fill: C.nebenraum },
-  { id: "bad",        x: 289, y: 136, w: 140, h: 72,  name: "Badezimmer",   flaeche: "9,8",   fill: C.nassraum },
-  { id: "wc",         x: 429, y: 136, w: 89,  h: 72,  name: "WC",           flaeche: "3,6",   fill: C.nassraum },
-  { id: "flur",       x: 94,  y: 208, w: 424, h: 44,  name: "Flur / Gang",  flaeche: "12,2",  fill: C.nebenraum },
-  { id: "schlaf1",    x: 94,  y: 252, w: 195, h: 100, name: "Schlafzimmer", flaeche: "18,9",  fill: C.wohnraum },
-  { id: "schlaf2",    x: 289, y: 252, w: 160, h: 100, name: "Kinderzimmer", flaeche: "16,4",  fill: C.wohnraum },
-  { id: "hwr",        x: 449, y: 252, w: 69,  h: 100, name: "HWR",          flaeche: "4,2",   fill: C.nebenraum },
-];
+const boxen: Box[] = [];
+const schlitze: Schlitz[] = [];
 
-// Außenmaß des Gebäudes (px)
-const GEB = { x: 82, y: 36, w: 436, h: 316 };
-
-// Fenster: { x, y, w } – eingebaute Nische in Wand
-const FENSTER = [
-  { x: 120, y: 36, w: 55 },   // Wohnzimmer Nord
-  { x: 200, y: 36, w: 55 },   // Wohnzimmer Nord
-  { x: 310, y: 36, w: 45 },   // Küche Nord
-  { x: 82,  y: 80, w: 0, h: 40, vert: true },  // Wohnzimmer West
-  { x: 82,  y: 270, w: 0, h: 40, vert: true }, // Schlafzimmer West
-  { x: 180, y: 352, w: 50 },  // Schlaf Süd
-  { x: 310, y: 352, w: 50 },  // Kinderzimmer Süd
-  { x: 518, y: 90, w: 0, h: 35, vert: true },  // Abst Ost
-  { x: 518, y: 270, w: 0, h: 35, vert: true }, // HWR Ost
-];
-
-// Türen: { x, y, size, rot } – Drehpunkt + Bogen-Winkel
-const TUEREN = [
-  { cx: 289, cy: 175, r: 30, fromDeg: 90,  toDeg: 0   }, // Bad links
-  { cx: 429, cy: 175, r: 28, fromDeg: 90,  toDeg: 180 }, // WC links
-  { cx: 140, cy: 208, r: 30, fromDeg: 270, toDeg: 180 }, // Wohnzimmer → Flur
-  { cx: 145, cy: 252, r: 30, fromDeg: 90,  toDeg: 0   }, // Schlafzimmer → Flur
-  { cx: 310, cy: 252, r: 30, fromDeg: 90,  toDeg: 180 }, // Kinderzimmer → Flur
-  { cx: 449, cy: 252, r: 28, fromDeg: 90,  toDeg: 0   }, // HWR → Flur
-  { cx: 200, cy: 208, r: 30, fromDeg: 270, toDeg: 360 }, // Eingang
-];
-
-function doorArc(cx: number, cy: number, r: number, fromDeg: number, toDeg: number) {
-  const f = (fromDeg * Math.PI) / 180;
-  const t = (toDeg * Math.PI) / 180;
-  const x1 = cx + r * Math.cos(f);
-  const y1 = cy + r * Math.sin(f);
-  const x2 = cx + r * Math.cos(t);
-  const y2 = cy + r * Math.sin(t);
-  const large = Math.abs(toDeg - fromDeg) > 180 ? 1 : 0;
-  const sweep = toDeg > fromDeg ? 1 : 0;
-  return `M ${cx},${cy} L ${x1},${y1} A ${r},${r} 0 ${large} ${sweep} ${x2},${y2} Z`;
+function wand(
+  vertikal: boolean,
+  fest: number,
+  von: number,
+  bis: number,
+  t: number,
+  oeffnungen: Oeffnung[],
+  aussen: boolean,
+) {
+  const rect = (a: number, b: number, k: number, z0: number) =>
+    boxen.push(
+      vertikal
+        ? { x: fest, y: a, w: t, d: b - a, k, z0, aussen }
+        : { x: a, y: fest, w: b - a, d: t, k, z0, aussen },
+    );
+  let lauf = von;
+  for (const [a, b, art] of oeffnungen) {
+    rect(lauf, a, 1, 0);
+    if (art === "fenster") rect(a, b, 0.36, 0);
+    rect(a, b, art === "fenster" ? 0.2 : 0.16, art === "fenster" ? 0.8 : 0.84);
+    schlitze.push(
+      vertikal
+        ? { x: fest, y: a, w: t, d: b - a, art, vertikal }
+        : { x: a, y: fest, w: b - a, d: t, art, vertikal },
+    );
+    lauf = b;
+  }
+  rect(lauf, bis, 1, 0);
 }
 
-// ─── Analyse-Phasen ──────────────────────────────────────────────────────────
-const PHASEN = [
+// Außenwände 30 cm
+wand(false, 40, 80, 520, 12, [[120, 180, "fenster"], [210, 260, "fenster"], [330, 380, "fenster"], [450, 480, "fenster"]], true);
+wand(false, 358, 80, 520, 12, [[130, 200, "fenster"], [300, 360, "fenster"]], true);
+wand(true, 80, 52, 358, 12, [[90, 150, "fenster"], [192, 226, "tuer"], [270, 330, "fenster"]], true);
+wand(true, 508, 52, 358, 12, [[100, 140, "fenster"], [310, 340, "fenster"]], true);
+// Innenwände
+wand(false, 180, 92, 508, 7, [[200, 230, "tuer"], [330, 358, "tuer"], [440, 466, "tuer"]], false);
+wand(false, 230, 92, 508, 7, [[150, 178, "tuer"], [300, 328, "tuer"]], false);
+wand(true, 290, 52, 180, 7, [], false);
+wand(true, 410, 52, 180, 7, [], false);
+wand(true, 250, 237, 358, 7, [], false);
+wand(true, 400, 237, 358, 7, [[250, 275, "tuer"], [310, 336, "tuer"]], false);
+wand(false, 290, 407, 508, 7, [], false);
+
+const RAEUME = [
+  { name: "Wohnen / Essen", x: 92, y: 52, w: 198, h: 128, fill: FARBE.wohn },
+  { name: "Küche", x: 297, y: 52, w: 113, h: 128, fill: FARBE.wohn },
+  { name: "Bad", x: 417, y: 52, w: 91, h: 128, fill: FARBE.nass },
+  { name: "Vorraum / Gang", x: 92, y: 187, w: 416, h: 43, fill: FARBE.neben },
+  { name: "Schlafen", x: 92, y: 237, w: 158, h: 121, fill: FARBE.wohn },
+  { name: "Kind", x: 257, y: 237, w: 143, h: 121, fill: FARBE.wohn },
+  { name: "WC", x: 407, y: 237, w: 101, h: 53, fill: FARBE.nass },
+  { name: "HWR", x: 407, y: 297, w: 101, h: 61, fill: FARBE.neben },
+].map((r) => ({ ...r, flaeche: (r.w / PX_M) * (r.h / PX_M) }));
+
+const m2 = (n: number) => n.toLocaleString("de-AT", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const NUTZFLAECHE = RAEUME.reduce((s, r) => s + r.flaeche, 0);
+
+const harc = (a: number, b: number, y: number, dir: 1 | -1) => {
+  const r = b - a;
+  return `M${a},${y} L${a},${y + dir * r} A${r},${r} 0 0 ${dir > 0 ? 0 : 1} ${b},${y}`;
+};
+const varc = (a: number, b: number, x: number, dir: 1 | -1) => {
+  const r = b - a;
+  return `M${x},${a} L${x + dir * r},${a} A${r},${r} 0 0 ${dir > 0 ? 1 : 0} ${x},${b}`;
+};
+const TUERBOEGEN = [
+  harc(200, 230, 180, -1),
+  harc(330, 358, 180, -1),
+  harc(440, 466, 180, -1),
+  harc(150, 178, 237, 1),
+  harc(300, 328, 237, 1),
+  varc(250, 275, 407, 1),
+  varc(310, 336, 407, 1),
+  varc(192, 226, 92, 1),
+];
+
+const KAPITEL = [
   {
-    trigger: 0.15,
-    highlight: ["wohnzimmer", "schlaf1", "schlaf2"],
-    label: "Räume erkannt",
-    ergebnis: { pos: "LG 10 / 11", text: "Putz + Estrich", menge: "298,6 m²", icon: "▦" },
+    marke: "Beispielprojekt · EFH Neubau, NÖ",
+    titel: "Ein Einreichplan.",
+    text: "Das ist alles, was MengenWerk braucht — ein PDF aus dem CAD oder ein Scan.",
   },
   {
-    trigger: 0.35,
-    highlight: ["bad", "wc"],
-    label: "Nassräume erkannt",
-    ergebnis: { pos: "LG 24", text: "Fliesenbelag Bad + WC", menge: "13,4 m²", icon: "▦" },
+    marke: "Schritt 1 · Erkennung",
+    titel: "Jeder Raum. Jede Öffnung.",
+    text: `${RAEUME.length} Räume mit ${m2(NUTZFLAECHE)} m² Nutzfläche, 11 Fenster und 8 Türen — gelesen aus Raumstempeln und Plansymbolen.`,
   },
   {
-    trigger: 0.55,
-    highlight: [],
-    label: "Fenster + Türen erkannt",
-    ergebnis: { pos: "LG 71 / 43", text: "Fenster (7 Stk.) + Türen (7 Stk.)", menge: "14 Stk.", icon: "⬚" },
+    marke: "Schritt 2 · Kubatur",
+    titel: "Aus Linien werden Mengen.",
+    text: "Wandlängen × Schnitthöhe, abzüglich Öffnungen: 142,80 m² Mauerwerk, 34,20 m³ Beton — jede Zahl mit Rechenweg.",
   },
   {
-    trigger: 0.72,
-    highlight: [],
-    label: "Außenwände ausgemessen",
-    ergebnis: { pos: "LG 08", text: "Mauerwerk Außenwand 30cm", menge: "142,8 m²", icon: "▤" },
-  },
-  {
-    trigger: 0.86,
-    highlight: [],
-    label: "Massenauszug fertig",
-    ergebnis: { pos: "LG 07", text: "Stahlbeton Bodenplatte C25/30", menge: "34,2 m³", icon: "■" },
+    marke: "Das Ergebnis",
+    titel: "47 Positionen, 12 Gewerke.",
+    text: "Massenauszug nach LB-HB 023 — fertig zum Bepreisen, in wenigen Minuten statt Tagen.",
   },
 ];
+
+function Wandbox({ b }: { b: Box }) {
+  const hoehe = `calc(var(--h) * ${b.k})`;
+  const ns = b.aussen
+    ? "repeating-linear-gradient(0deg, #bf7654 0 5px, #ead9c6 5px 6px)"
+    : "linear-gradient(#efe9df, #e2dacd)";
+  const ow = b.aussen
+    ? "repeating-linear-gradient(90deg, #a5603f 0 5px, #d9c5b0 5px 6px)"
+    : "linear-gradient(90deg, #d6cdbf, #c9bfb0)";
+  const flaeche: CSSProperties = { position: "absolute", backfaceVisibility: "visible" };
+  return (
+    <div
+      style={{
+        position: "absolute",
+        left: b.x,
+        top: b.y,
+        width: b.w,
+        height: b.d,
+        transformStyle: "preserve-3d",
+        transform: `translateZ(calc(var(--h) * ${b.z0}))`,
+      }}
+    >
+      <div style={{ ...flaeche, left: 0, top: 0, width: b.w, height: hoehe, background: ns, transformOrigin: "top", transform: "rotateX(90deg)" }} />
+      <div style={{ ...flaeche, left: 0, top: b.d, width: b.w, height: hoehe, background: ns, transformOrigin: "top", transform: "rotateX(90deg)" }} />
+      <div style={{ ...flaeche, left: 0, top: 0, width: hoehe, height: b.d, background: ow, transformOrigin: "left", transform: "rotateY(-90deg)" }} />
+      <div style={{ ...flaeche, left: b.w, top: 0, width: hoehe, height: b.d, background: ow, transformOrigin: "left", transform: "rotateY(-90deg)" }} />
+      <div style={{ ...flaeche, inset: 0, background: FARBE.wand, transform: `translateZ(${hoehe})` }}>
+        <div style={{ position: "absolute", inset: 0, opacity: "var(--t)", background: b.aussen ? "#d49a7b" : "#ece5da" }} />
+      </div>
+    </div>
+  );
+}
+
+function Grundriss({ kapitel }: { kapitel: number }) {
+  const erkennung = kapitel === 1;
+  return (
+    <svg viewBox={`0 0 ${PLAN_W} ${PLAN_H}`} width={PLAN_W} height={PLAN_H} className="absolute inset-0">
+      <rect width={PLAN_W} height={PLAN_H} fill="#fdfcf9" />
+
+      {RAEUME.map((r) => (
+        <rect key={r.name} x={r.x} y={r.y} width={r.w} height={r.h} fill={r.fill} />
+      ))}
+
+      {boxen
+        .filter((b) => b.k === 1)
+        .map((b, i) => (
+          <rect key={i} x={b.x} y={b.y} width={b.w} height={b.d} fill={FARBE.wand} />
+        ))}
+
+      {schlitze
+        .filter((s) => s.art === "fenster")
+        .map((s, i) => (
+          <g key={i}>
+            <rect x={s.x} y={s.y} width={s.w} height={s.d} fill="#fdfcf9" stroke={FARBE.wand} strokeWidth="0.8" />
+            {[0.3, 0.5, 0.7].map((f) =>
+              s.vertikal ? (
+                <line key={f} x1={s.x + s.w * f} y1={s.y} x2={s.x + s.w * f} y2={s.y + s.d} stroke={FARBE.wand} strokeWidth="0.6" />
+              ) : (
+                <line key={f} x1={s.x} y1={s.y + s.d * f} x2={s.x + s.w} y2={s.y + s.d * f} stroke={FARBE.wand} strokeWidth="0.6" />
+              ),
+            )}
+          </g>
+        ))}
+
+      {TUERBOEGEN.map((d, i) => (
+        <path key={i} d={d} fill="none" stroke={FARBE.wand} strokeWidth="0.7" />
+      ))}
+
+      {RAEUME.map((r) => (
+        <g key={`l-${r.name}`}>
+          <text x={r.x + r.w / 2} y={r.y + r.h / 2 - 3} textAnchor="middle" fill="#2b2824" fontFamily="Georgia, serif" fontStyle="italic" fontSize={r.w < 110 ? 8.5 : 10}>
+            {r.name}
+          </text>
+          <text x={r.x + r.w / 2} y={r.y + r.h / 2 + 10} textAnchor="middle" fill="#4a463f" fontFamily="ui-monospace, monospace" fontSize="8">
+            {m2(r.flaeche)} m²
+          </text>
+        </g>
+      ))}
+
+      {/* Maßketten */}
+      <g stroke={FARBE.linie} strokeWidth="0.7" fill={FARBE.linie} fontFamily="ui-monospace, monospace" fontSize="8">
+        <line x1="80" y1="20" x2="520" y2="20" />
+        {[80, 120, 180, 210, 260, 330, 380, 450, 480, 520].map((x) => (
+          <line key={x} x1={x - 3} y1="23" x2={x + 3} y2="17" />
+        ))}
+        <text x="300" y="14" textAnchor="middle" stroke="none">12,10</text>
+        <line x1="56" y1="40" x2="56" y2="370" />
+        {[40, 90, 150, 192, 226, 270, 330, 370].map((y) => (
+          <line key={y} x1="53" y1={y + 3} x2="59" y2={y - 3} />
+        ))}
+        <text x="46" y="205" textAnchor="middle" stroke="none" transform="rotate(-90 46 205)">9,07</text>
+      </g>
+
+      {/* Nordpfeil */}
+      <g transform="translate(556 60)">
+        <circle r="13" fill="none" stroke={FARBE.linie} strokeWidth="0.8" />
+        <path d="M0,-11 L4,5 L0,2 L-4,5 Z" fill={FARBE.wand} />
+        <text y="-17" textAnchor="middle" fontFamily="ui-monospace, monospace" fontSize="8" fontWeight="bold" fill={FARBE.wand}>N</text>
+      </g>
+
+      <g fontFamily="ui-monospace, monospace" fontSize="7" fill={FARBE.linie} letterSpacing="0.6">
+        <line x1="80" y1="392" x2="520" y2="392" stroke={FARBE.linie} strokeWidth="0.5" />
+        <text x="80" y="404">EFH NEUBAU · GRUNDRISS EG · M 1:100 · EINREICHPLAN</text>
+        <text x="520" y="404" textAnchor="end">BLATT 2/6</text>
+      </g>
+
+      {/* Erkennung: Räume und Öffnungen markieren */}
+      <AnimatePresence>
+        {erkennung && (
+          <motion.g initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.35 }}>
+            {RAEUME.map((r, i) => (
+              <motion.rect
+                key={r.name}
+                x={r.x + 2}
+                y={r.y + 2}
+                width={r.w - 4}
+                height={r.h - 4}
+                fill="#f4c400"
+                fillOpacity="0.12"
+                stroke="#d9a900"
+                strokeWidth="1.6"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: i * 0.06, duration: 0.3 }}
+              />
+            ))}
+            {schlitze.map((s, i) => (
+              <motion.circle
+                key={i}
+                cx={s.x + s.w / 2}
+                cy={s.y + s.d / 2}
+                r="9"
+                fill="none"
+                stroke={s.art === "fenster" ? "#1f7a33" : "#d9a900"}
+                strokeWidth="1.6"
+                initial={{ scale: 0, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ delay: 0.3 + i * 0.04, duration: 0.25 }}
+              />
+            ))}
+          </motion.g>
+        )}
+      </AnimatePresence>
+    </svg>
+  );
+}
 
 export function PlanAnalyseSection() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start start", "end end"],
-  });
+  const planRef = useRef<HTMLDivElement>(null);
+  const [kapitel, setKapitel] = useState(0);
+  const [fit, setFit] = useState(1);
 
-  const [phase, setPhase] = useState(-1);
+  const { scrollYProgress } = useScroll({ target: containerRef, offset: ["start start", "end end"] });
+
+  const rotateX = useTransform(scrollYProgress, [0.2, 0.5], [0, 56]);
+  const rotateZ = useTransform(scrollYProgress, [0.2, 0.5, 1], [0, -36, -46]);
+  const scale = useTransform(scrollYProgress, [0.2, 0.5, 1], [1, 0.95, 1.02]);
+  const y = useTransform(scrollYProgress, [0.2, 0.5], [0, 40]);
+  const wandHoehe = useTransform(scrollYProgress, [0.46, 0.74], [0, 74]);
+
+  useMotionValueEvent(wandHoehe, "change", (h) => {
+    planRef.current?.style.setProperty("--h", `${h}px`);
+    planRef.current?.style.setProperty("--t", `${Math.min(1, h / 20)}`);
+  });
 
   useMotionValueEvent(scrollYProgress, "change", (v) => {
-    let p = -1;
-    for (let i = PHASEN.length - 1; i >= 0; i--) {
-      if (v >= PHASEN[i].trigger) { p = i; break; }
-    }
-    setPhase(p);
+    setKapitel(v < 0.2 ? 0 : v < 0.48 ? 1 : v < 0.76 ? 2 : 3);
   });
 
-  const planOpacity = useTransform(scrollYProgress, [0, 0.08], [0, 1]);
-  const overlayOpacity = useTransform(scrollYProgress, [0.08, 0.18], [0, 1]);
-  const outputOpacity = useTransform(scrollYProgress, [0.12, 0.22], [0, 1]);
+  useEffect(() => {
+    const anpassen = () =>
+      setFit(Math.min(1.45, (window.innerWidth - 32) / PLAN_W, (window.innerHeight * 0.7) / PLAN_H));
+    anpassen();
+    window.addEventListener("resize", anpassen);
+    return () => window.removeEventListener("resize", anpassen);
+  }, []);
 
-  const activeRooms = phase >= 0 ? PHASEN[phase].highlight : [];
-  const visibleResults = PHASEN.slice(0, phase + 1);
+  const k = KAPITEL[kapitel];
 
   return (
-    <section ref={containerRef} className="relative" style={{ height: "380vh" }}>
-      <div className="sticky top-0 h-screen flex items-center justify-center overflow-hidden bg-[#0c0c0b]">
-
-        {/* Status-Label oben */}
-        <motion.div
-          className="absolute top-8 left-1/2 -translate-x-1/2 z-10"
-          style={{ opacity: overlayOpacity }}
-        >
-          <div className="flex items-center gap-2.5 bg-white/5 border border-white/10 rounded-full px-5 py-2">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#f4c400] animate-pulse" />
-            <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/50">
-              {phase >= 0 ? PHASEN[phase].label : "Plan wird analysiert …"}
-            </span>
-          </div>
-        </motion.div>
-
-        <div className="w-full max-w-6xl mx-auto px-6 grid grid-cols-[1fr_320px] gap-8 items-center">
-
-          {/* ── GRUNDRISS ── */}
-          <motion.div style={{ opacity: planOpacity }} className="relative">
-            <svg
-              viewBox="0 0 600 390"
-              className="w-full max-w-[620px] mx-auto drop-shadow-2xl"
-              style={{ filter: "drop-shadow(0 20px 60px rgba(0,0,0,0.5))" }}
-            >
-              {/* Hintergrund wie echtes Papier */}
-              <rect width="600" height="390" fill={C.massbg} />
-
-              {/* Maßketten-Hintergrund */}
-              <rect width="600" height="390" fill="white" opacity="0.6" />
-
-              {/* Titelblock unten */}
-              <line x1="82" y1="362" x2="518" y2="362" stroke={C.massline} strokeWidth="0.5" />
-              <text x="86" y="375" fill={C.massline} fontFamily="monospace" fontSize="7" letterSpacing="0.5">
-                EFH NEUBAU · GRUNDRISS EG · M 1:50 · PROJEKT-NR. 2025-047
-              </text>
-              <text x="500" y="375" fill={C.massline} fontFamily="monospace" fontSize="7" textAnchor="end" letterSpacing="0.5">
-                BLATT 3/8
-              </text>
-
-              {/* Maßkette horizontal oben */}
-              <line x1="82" y1="16" x2="518" y2="16" stroke={C.massline} strokeWidth="0.8" />
-              <line x1="82" y1="12" x2="82" y2="20" stroke={C.massline} strokeWidth="0.8" />
-              <line x1="518" y1="12" x2="518" y2="20" stroke={C.massline} strokeWidth="0.8" />
-              <text x="300" y="13" fill={C.massline} fontFamily="monospace" fontSize="8" textAnchor="middle">
-                12,10 m
-              </text>
-
-              {/* Maßkette vertikal links */}
-              <line x1="60" y1="36" x2="60" y2="352" stroke={C.massline} strokeWidth="0.8" />
-              <line x1="56" y1="36" x2="64" y2="36" stroke={C.massline} strokeWidth="0.8" />
-              <line x1="56" y1="352" x2="64" y2="352" stroke={C.massline} strokeWidth="0.8" />
-              <text
-                x="50" y="194"
-                fill={C.massline}
-                fontFamily="monospace"
-                fontSize="8"
-                textAnchor="middle"
-                transform="rotate(-90 50 194)"
-              >
-                8,80 m
-              </text>
-
-              {/* Raumfüllungen */}
-              {RAEUME.map((r) => (
-                <motion.rect
-                  key={r.id}
-                  x={r.x} y={r.y} width={r.w} height={r.h}
-                  fill={r.fill}
-                  animate={{
-                    opacity: activeRooms.length === 0 || activeRooms.includes(r.id) ? 1 : 0.35,
-                  }}
-                  transition={{ duration: 0.4 }}
-                />
-              ))}
-
-              {/* Außenwände (Füllung) */}
-              <path
-                d={`M ${GEB.x},${GEB.y} h ${GEB.w} v ${GEB.h} h -${GEB.w} Z
-                    M ${GEB.x + W},${GEB.y + W} h ${GEB.w - 2 * W} v ${GEB.h - 2 * W} h -${GEB.w - 2 * W} Z`}
-                fill={C.wand}
-                fillRule="evenodd"
-              />
-
-              {/* Innenwände horizontal */}
-              {/* Trennwand zwischen OG und UG (Flur-Linie) */}
-              <rect x={GEB.x + W} y={208} width={GEB.w - 2 * W} height={IW} fill={C.wand} />
-              {/* Wand über Bad/WC */}
-              <rect x={289} y={GEB.y + W} width={IW} height={160} fill={C.wand} />
-              {/* Trennwand Bad | WC */}
-              <rect x={429} y={GEB.y + W} width={IW} height={172} fill={C.wand} />
-              {/* Trennwand Küche | Abstellraum */}
-              <rect x={429} y={GEB.y + W} width={0} height={90} fill={C.wand} />
-              <rect x={289} y={136} width={140 + IW} height={IW} fill={C.wand} />
-              {/* Trennwand Schlaf 1 | 2 */}
-              <rect x={289} y={208 + IW} width={IW} height={144} fill={C.wand} />
-              {/* Trennwand Schlaf 2 | HWR */}
-              <rect x={449} y={208 + IW} width={IW} height={144} fill={C.wand} />
-
-              {/* Fensterschlitze (weiß über Wand) */}
-              {FENSTER.map((f, i) =>
-                f.vert ? (
-                  <rect key={i} x={f.x! - 1} y={f.y} width={W + 2} height={f.h} fill="white" />
-                ) : (
-                  <rect key={i} x={f.x} y={f.y! - 1} width={f.w} height={W + 2} fill="white" />
-                )
-              )}
-
-              {/* Fenstersymbol (3 Linien) */}
-              {FENSTER.map((f, i) =>
-                f.vert ? (
-                  <g key={`fs-${i}`}>
-                    <line x1={f.x! + 2} y1={f.y + 2} x2={f.x! + 2} y2={f.y + f.h! - 2} stroke={C.wand} strokeWidth="0.8" />
-                    <line x1={f.x! + 5} y1={f.y + 2} x2={f.x! + 5} y2={f.y + f.h! - 2} stroke={C.wand} strokeWidth="0.8" />
-                    <line x1={f.x! + 8} y1={f.y + 2} x2={f.x! + 8} y2={f.y + f.h! - 2} stroke={C.wand} strokeWidth="0.8" />
-                  </g>
-                ) : (
-                  <g key={`fs-${i}`}>
-                    <line x1={f.x + 2} y1={f.y + 2} x2={f.x + f.w - 2} y2={f.y + 2} stroke={C.wand} strokeWidth="0.8" />
-                    <line x1={f.x + 2} y1={f.y + 5} x2={f.x + f.w - 2} y2={f.y + 5} stroke={C.wand} strokeWidth="0.8" />
-                    <line x1={f.x + 2} y1={f.y + 8} x2={f.x + f.w - 2} y2={f.y + 8} stroke={C.wand} strokeWidth="0.8" />
-                  </g>
-                )
-              )}
-
-              {/* Türbögen */}
-              {TUEREN.map((t, i) => (
-                <path
-                  key={`tuer-${i}`}
-                  d={doorArc(t.cx, t.cy, t.r, t.fromDeg, t.toDeg)}
-                  fill="white"
-                  fillOpacity="0.7"
-                  stroke={C.wand}
-                  strokeWidth="0.6"
-                />
-              ))}
-
-              {/* Raumstempel (Name + Fläche) */}
-              {RAEUME.map((r) => (
-                <motion.g
-                  key={`label-${r.id}`}
-                  animate={{ opacity: activeRooms.length === 0 || activeRooms.includes(r.id) ? 1 : 0.25 }}
-                  transition={{ duration: 0.4 }}
-                >
-                  <text
-                    x={r.x + r.w / 2}
-                    y={r.y + r.h / 2 - 5}
-                    textAnchor="middle"
-                    fill="#333"
-                    fontFamily="Georgia, serif"
-                    fontSize={r.w < 80 ? "7" : "9"}
-                    fontStyle="italic"
-                  >
-                    {r.name}
-                  </text>
-                  <text
-                    x={r.x + r.w / 2}
-                    y={r.y + r.h / 2 + 9}
-                    textAnchor="middle"
-                    fill="#555"
-                    fontFamily="monospace"
-                    fontSize="8"
-                  >
-                    {r.flaeche} m²
-                  </text>
-                </motion.g>
-              ))}
-
-              {/* Highlight-Ringe bei aktiven Räumen */}
-              {RAEUME.filter((r) => activeRooms.includes(r.id)).map((r) => (
-                <motion.rect
-                  key={`hl-${r.id}`}
-                  x={r.x - 3} y={r.y - 3}
-                  width={r.w + 6} height={r.h + 6}
-                  fill="none"
-                  stroke="#f4c400"
-                  strokeWidth="2.5"
-                  rx="2"
-                  initial={{ opacity: 0, strokeDashoffset: 500 }}
-                  animate={{ opacity: 1, strokeDashoffset: 0 }}
-                  style={{ strokeDasharray: 500 }}
-                  transition={{ duration: 0.6 }}
-                />
-              ))}
-
-              {/* Fenster-Highlight wenn Phase 2 */}
-              {phase >= 2 && FENSTER.map((f, i) => (
-                <motion.circle
-                  key={`fhl-${i}`}
-                  cx={f.vert ? f.x! + 5 : f.x + f.w / 2}
-                  cy={f.vert ? f.y + f.h! / 2 : f.y + 5}
-                  r="12"
-                  fill="#f4c400"
-                  fillOpacity="0.15"
-                  stroke="#f4c400"
-                  strokeWidth="1.5"
-                  initial={{ opacity: 0, scale: 0 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ delay: i * 0.08, duration: 0.3 }}
-                />
-              ))}
-
-              {/* Nordpfeil */}
-              <g transform="translate(556 56)">
-                <circle cx="0" cy="0" r="14" fill="none" stroke={C.massline} strokeWidth="0.8" />
-                <text x="0" y="-18" textAnchor="middle" fill={C.massline} fontFamily="monospace" fontSize="9" fontWeight="bold">N</text>
-                <path d="M 0,-12 L 4,4 L 0,1 L -4,4 Z" fill={C.wand} />
-              </g>
-            </svg>
-          </motion.div>
-
-          {/* ── ANALYSE-OUTPUT ── */}
-          <motion.div style={{ opacity: outputOpacity }} className="space-y-3">
-            <div className="mb-6">
-              <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/30 mb-1">Massenauszug</p>
-              <p className="font-display font-bold text-white text-lg leading-tight">
-                {phase < PHASEN.length - 1 ? "Positionen werden erkannt …" : "Massenauszug vollständig"}
-              </p>
-            </div>
-
-            {/* Erkannte Positionen */}
-            <div className="space-y-2">
-              {visibleResults.map((p, i) => (
-                <motion.div
-                  key={i}
-                  className="rounded-xl border border-white/10 bg-white/[0.04] p-4"
-                  initial={{ opacity: 0, y: 8 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.4 }}
-                >
-                  <div className="flex items-start justify-between gap-2 mb-1.5">
-                    <span className="font-mono text-[10px] text-[#f4c400]/70 uppercase tracking-wide">
-                      {p.ergebnis.pos}
-                    </span>
-                    <span className="font-mono text-[11px] text-white/70 tabular-nums shrink-0">
-                      {p.ergebnis.menge}
-                    </span>
-                  </div>
-                  <p className="font-mono text-[11px] text-white/50 leading-snug">{p.ergebnis.text}</p>
-                </motion.div>
-              ))}
-            </div>
-
-            {/* Fortschrittsanzeige */}
-            <div className="pt-2">
-              <div className="flex justify-between mb-2">
-                <span className="font-mono text-[10px] text-white/25 uppercase tracking-wide">Fortschritt</span>
-                <span className="font-mono text-[10px] text-white/40">
-                  {phase + 1} / {PHASEN.length} Gewerke
-                </span>
-              </div>
-              <div className="h-px bg-white/10 rounded-full overflow-hidden">
-                <motion.div
-                  className="h-full bg-[#f4c400] origin-left"
-                  animate={{ scaleX: phase < 0 ? 0 : (phase + 1) / PHASEN.length }}
-                  transition={{ duration: 0.5 }}
-                />
-              </div>
-            </div>
-
-            {/* CTA wenn fertig */}
-            {phase >= PHASEN.length - 1 && (
+    <section ref={containerRef} className="relative" style={{ height: "420vh" }}>
+      <div
+        className="sticky top-0 h-screen overflow-hidden"
+        style={{
+          backgroundColor: "#eeece5",
+          backgroundImage:
+            "linear-gradient(rgba(20,19,15,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(20,19,15,0.05) 1px, transparent 1px)",
+          backgroundSize: "32px 32px",
+        }}
+      >
+        <div className="absolute inset-0 flex items-center justify-center md:justify-end md:pr-[6vw] pb-40 md:pb-0">
+          <div style={{ width: PLAN_W * fit, height: PLAN_H * fit }}>
+            <div style={{ width: PLAN_W, height: PLAN_H, transform: `scale(${fit})`, transformOrigin: "top left" }}>
               <motion.div
-                className="pt-3"
-                initial={{ opacity: 0, y: 6 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.3 }}
+                ref={planRef}
+                className="relative"
+                style={{
+                  width: PLAN_W,
+                  height: PLAN_H,
+                  transformStyle: "preserve-3d",
+                  transformPerspective: 1600,
+                  rotateX,
+                  rotateZ,
+                  scale,
+                  y,
+                  boxShadow: "0 30px 80px -20px rgba(20,19,15,0.35)",
+                  ["--h" as string]: "0px",
+                  ["--t" as string]: "0",
+                }}
               >
-                <a
-                  href="/app"
-                  className="flex items-center justify-center gap-2 w-full rounded-lg bg-[#f4c400] text-[#0c0c0b] font-display font-black uppercase tracking-wide text-sm py-3.5 hover:brightness-105 transition-all"
-                >
-                  Eigenen Plan analysieren →
-                </a>
+                <Grundriss kapitel={kapitel} />
+                {boxen.map((b, i) => (
+                  <Wandbox key={i} b={b} />
+                ))}
               </motion.div>
-            )}
-          </motion.div>
+            </div>
+          </div>
         </div>
 
-        {/* Scroll-Indikator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
-          <div className="w-36 h-px bg-white/10">
-            <motion.div className="h-full bg-[#f4c400]/50 origin-left" style={{ scaleX: scrollYProgress }} />
+        <div className="absolute left-4 right-4 bottom-4 md:left-10 md:right-auto md:bottom-10 md:w-[440px]">
+          <div className="rounded-2xl bg-[#14130f]/95 text-white p-6 md:p-8 shadow-2xl backdrop-blur">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={kapitel}
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -10 }}
+                transition={{ duration: 0.3 }}
+              >
+                <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#f4c400]">{k.marke}</p>
+                <h3 className="mt-3 font-display font-black text-[clamp(1.8rem,3.4vw,2.6rem)] leading-[1.02] tracking-tight">
+                  {k.titel}
+                </h3>
+                <p className="mt-3 text-sm md:text-[0.95rem] text-white/60 leading-relaxed">{k.text}</p>
+                {kapitel === 3 && (
+                  <div className="mt-6 flex gap-3 flex-wrap">
+                    <a
+                      href="/app"
+                      className="rounded-lg bg-[#f4c400] text-[#14130f] font-display font-black uppercase text-xs tracking-wide px-5 py-3 hover:brightness-105"
+                    >
+                      Eigenen Plan analysieren →
+                    </a>
+                    <a
+                      href="/vorschau"
+                      className="rounded-lg border border-white/20 text-white/70 font-mono text-[11px] uppercase tracking-widest px-5 py-3 hover:border-white/40"
+                    >
+                      Auszug ansehen
+                    </a>
+                  </div>
+                )}
+              </motion.div>
+            </AnimatePresence>
+            <div className="mt-6 flex gap-1.5">
+              {KAPITEL.map((_, i) => (
+                <div key={i} className={`h-0.5 flex-1 rounded-full transition-colors duration-300 ${i <= kapitel ? "bg-[#f4c400]" : "bg-white/15"}`} />
+              ))}
+            </div>
           </div>
         </div>
       </div>

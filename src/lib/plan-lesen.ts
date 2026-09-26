@@ -152,7 +152,7 @@ const UNBEHEIZT = /\b(garage|terrasse|balkon|loggia|carport|gehweg|garten|vordac
 
 const SEITENVERHAELTNIS = 1.4;
 
-function umfangAusFlaeche(flaeche: number) {
+export function umfangAusFlaeche(flaeche: number) {
   const kurz = Math.sqrt(flaeche / SEITENVERHAELTNIS);
   return { umfang_m: 2 * kurz * (1 + SEITENVERHAELTNIS), umfangQuelle: "geschaetzt" as const };
 }
@@ -233,19 +233,28 @@ function findeRaeume(schnipsel: Schnipsel[], geschoss: string, blatt: number): R
     // Unter 0,5 m² ist es kein Raum, über 2000 m² keine Raumangabe mehr.
     if (flaeche === null || flaeche < 0.5 || flaeche > 2000) continue;
 
-    // Nachbarschaft: gleiche Spalte, wenige Zeilenhöhen darüber und darunter.
-    const spanne = Math.max(kandidat.hoehe * 3.2, 9);
+    // Nachbarschaft: gleiche Spalte, einige Zeilenhöhen darüber und darunter.
+    // Der Radius ist großzügiger, weil manche CAD-Exporte Raumstempel mit
+    // mehreren Zeilen (Nutzung, Belag, Fläche) produzieren.
+    const spanne = Math.max(kandidat.hoehe * 4.0, 12);
     const nah = schnipsel.filter(
       (s) => s !== kandidat && Math.abs(s.x - kandidat.x) < spanne * 2.5 && Math.abs(s.y - kandidat.y) < spanne,
     );
 
-    const darueber = nah
-      .filter((s) => s.y > kandidat.y && istRaumname(s.text))
-      .sort((a, b) => a.y - kandidat.y - (b.y - kandidat.y));
-    const name = darueber[0]?.text.trim();
+    // Raumname suchen: zuerst oberhalb der Flächenangabe (häufigste Lage),
+    // dann unterhalb als Fallback — ArchiCAD und andere CAD-Programme legen
+    // den Namen manchmal darunter.
+    const namenKandidaten = nah.filter((s) => istRaumname(s.text));
+    const darueber = namenKandidaten
+      .filter((s) => s.y > kandidat.y)
+      .sort((a, b) => a.y - b.y); // aufsteigend: nächster zuerst
+    const darunter = namenKandidaten
+      .filter((s) => s.y < kandidat.y)
+      .sort((a, b) => b.y - a.y); // absteigend: nächster zuerst
+    const name = (darueber[0] ?? darunter[0])?.text.trim();
     if (!name) continue;
 
-    const belag = nah.find((s) => s.y <= kandidat.y && BELAG.test(s.text.trim()))?.text.trim();
+    const belag = nah.find((s) => BELAG.test(s.text.trim()))?.text.trim();
 
     raeume.push({
       id: crypto.randomUUID(),

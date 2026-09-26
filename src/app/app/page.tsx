@@ -1,13 +1,13 @@
 "use client";
 
 import { useRef, useState } from "react";
-import type { AnalysisResult, GroupedItem, Konfidenz, Massenauszug } from "@/lib/types";
+import type { AnalysisResult, GroupedItem, Konfidenz, Massenauszug, Raum } from "@/lib/types";
 import { formatiereKosten, type VerbrauchsBericht } from "@/lib/verbrauch";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import { MassenauszugAnsicht } from "@/components/Massenauszug";
 import { ladeEinheitspreise } from "@/lib/einheitspreise-speicher";
 import { planZuBlaettern } from "@/lib/plan-zu-bildern";
-import { lesePlanAusText } from "@/lib/plan-lesen";
+import { lesePlanAusText, umfangAusFlaeche } from "@/lib/plan-lesen";
 import { baueMassenauszug } from "@/lib/ableitung";
 import { katalogInfo } from "@/lib/lbhb";
 
@@ -169,6 +169,8 @@ export default function ToolPage() {
   const [ergebnis, setErgebnis] = useState<ApiResponse | null>(null);
   /** Warum der kostenlose Textweg aufgegeben hat. Erklärt, wofür die KI gebraucht wird. */
   const [textGrund, setTextGrund] = useState<string | null>(null);
+  /** Manuell korrigierte Räume. Null heißt: Originalwerte aus der Auswertung verwenden. */
+  const [bearbeiteteRaeume, setBearbeiteteRaeume] = useState<Raum[] | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
   /**
@@ -216,6 +218,7 @@ export default function ToolPage() {
     setLaedt(true);
     setErgebnis(null);
     setTextGrund(null);
+    setBearbeiteteRaeume(null);
     setSchritt("Plan wird gelesen");
 
     try {
@@ -278,6 +281,22 @@ export default function ToolPage() {
       setLaedt(false);
       setSchritt(null);
     }
+  }
+
+  function raumAendern(id: string, feld: "flaeche_m2" | "umfang_m", wert: number) {
+    if (!ergebnis || "fehler" in ergebnis) return;
+    const basis = bearbeiteteRaeume ?? ergebnis.analyse.raeume;
+    setBearbeiteteRaeume(
+      basis.map((r) => {
+        if (r.id !== id) return r;
+        if (feld === "flaeche_m2") {
+          // Umfang neu schätzen, wenn er sowieso nur geschätzt war.
+          const umfang = r.umfangQuelle === "geschaetzt" ? umfangAusFlaeche(wert) : {};
+          return { ...r, flaeche_m2: wert, ...umfang };
+        }
+        return { ...r, umfang_m: wert, umfangQuelle: "gerechnet" as const };
+      }),
+    );
   }
 
   function handleDrop(e: React.DragEvent) {
@@ -346,7 +365,12 @@ export default function ToolPage() {
           </div>
         )}
 
-        {ergebnis && "gruppen" in ergebnis && (
+        {ergebnis && "gruppen" in ergebnis && (() => {
+          const effektiveRaeume = bearbeiteteRaeume ?? ergebnis.analyse.raeume;
+          const aktuellerAuszug = bearbeiteteRaeume
+            ? baueMassenauszug(effektiveRaeume, ergebnis.analyse.elemente, ergebnis.analyse.kontext, ladeEinheitspreise())
+            : ergebnis.massenauszug;
+          return (
           <div className="mt-10">
             <div className="flex items-baseline justify-between mb-4">
               <h2 className="font-display font-black uppercase text-2xl">Mengenermittlung</h2>
@@ -359,7 +383,24 @@ export default function ToolPage() {
 
             <PlanKontextBlock kontext={ergebnis.analyse.kontext} />
 
-            <MassenauszugAnsicht auszug={ergebnis.massenauszug} titel={ergebnis.analyse.dateiname.replace(/\.[^.]+$/, "")} />
+            {bearbeiteteRaeume && (
+              <div className="mb-4 flex items-center gap-4 rounded-md border border-highlight/40 bg-highlight/10 px-4 py-2.5">
+                <span className="text-sm flex-1">Raumbuch enthält manuelle Korrekturen — die Auswertung verwendet diese Werte.</span>
+                <button
+                  type="button"
+                  onClick={() => setBearbeiteteRaeume(null)}
+                  className="font-mono text-xs underline text-fg-muted hover:text-fg whitespace-nowrap"
+                >
+                  Korrekturen zurücksetzen
+                </button>
+              </div>
+            )}
+
+            <MassenauszugAnsicht
+              auszug={aktuellerAuszug}
+              titel={ergebnis.analyse.dateiname.replace(/\.[^.]+$/, "")}
+              onRaumAendern={raumAendern}
+            />
 
             <h3 className="font-display font-bold uppercase text-xl mt-12 mb-4 border-b-2 border-line-strong pb-2.5">
               Erkannte Bauteile
@@ -426,7 +467,8 @@ export default function ToolPage() {
               </div>
             )}
           </div>
-        )}
+          );
+        })()}
       </section>
 
       <SiteFooter />

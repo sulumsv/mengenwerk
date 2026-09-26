@@ -143,6 +143,7 @@ function Wandbox({ b }: { b: Box }) {
     ? "repeating-linear-gradient(90deg, #a5603f 0 5px, #d9c5b0 5px 6px)"
     : "linear-gradient(90deg, #d6cdbf, #c9bfb0)";
   const flaeche: CSSProperties = { position: "absolute", backfaceVisibility: "visible" };
+  const holz = b.aussen && b.x === 80 && b.w === 12;
   const putz = (farbe: string, seite = true) =>
     b.aussen ? (
       <div
@@ -150,11 +151,13 @@ function Wandbox({ b }: { b: Box }) {
           position: "absolute",
           inset: 0,
           opacity: "var(--p)",
-          backgroundColor: farbe,
-          backgroundImage:
-            seite && b.z0 === 0
-              ? "linear-gradient(to bottom, #8f8a81 0 9px, rgba(0,0,0,0.18) 9px, transparent 38%)"
-              : "none",
+          backgroundColor: holz ? "#a8794d" : farbe,
+          backgroundImage: [
+            seite && b.z0 === 0 ? "linear-gradient(to bottom, #8f8a81 0 9px, rgba(0,0,0,0.18) 9px, transparent 38%)" : "",
+            holz ? "repeating-linear-gradient(to bottom, rgba(60,35,15,0.35) 0 1px, transparent 1px 6px), linear-gradient(to right, rgba(255,255,255,0.08), rgba(0,0,0,0.08))" : "",
+          ]
+            .filter(Boolean)
+            .join(", ") || "none",
         }}
       />
     ) : null;
@@ -185,7 +188,7 @@ function Wandbox({ b }: { b: Box }) {
 
 const RAHMEN = "#34373b";
 const GLAS =
-  "linear-gradient(155deg, rgba(225,238,245,0.95) 0%, rgba(150,185,205,0.9) 22%, rgba(55,80,100,0.95) 48%, rgba(28,40,52,0.97) 100%)";
+  "linear-gradient(160deg, rgba(255,244,222,0.55) 0%, transparent 30%), linear-gradient(180deg, #ffe7bd 0%, #f4c98a 45%, #c8904f 100%)";
 
 // Mittelsprosse quer zur Blickrichtung: `achse` ist die Richtung, in der die Fensterbreite im Div liegt.
 const sprosse = (achse: "to right" | "to bottom") =>
@@ -215,7 +218,7 @@ function Fenster3D() {
               position: "absolute",
               opacity: "var(--w)",
               backgroundImage: `${breit ? sprosse(breitenAchse) + ", " : ""}${GLAS}`,
-              boxShadow: `inset 0 0 0 3px ${RAHMEN}, inset 0 0 0 4px rgba(255,255,255,0.25)`,
+              boxShadow: `inset 0 0 0 3px ${RAHMEN}, inset 0 0 0 4px rgba(255,255,255,0.25), 0 0 16px rgba(255,196,120,0.55)`,
             };
         return (
           <div
@@ -292,7 +295,11 @@ const DACH = { x: 72, y: 32, w: 456, d: 346, t: 12 };
 
 function Dach() {
   const f: CSSProperties = { position: "absolute", opacity: "var(--ro)", backfaceVisibility: "visible" };
-  const seite = "#f2efe8";
+  const seite = "#2e3136";
+  const led = (achse: string) => ({
+    backgroundImage: `linear-gradient(${achse}, #ffe0a6 0 2px, transparent 2px)`,
+    boxShadow: "0 0 12px rgba(255,205,130,0.55)",
+  });
   return (
     <div
       style={{
@@ -305,11 +312,11 @@ function Dach() {
         transform: "translateZ(calc(var(--h) + var(--r)))",
       }}
     >
-      <div style={{ ...f, inset: 0, background: "#e9e5dc" }} />
-      <div style={{ ...f, left: 0, top: 0, width: DACH.w, height: DACH.t, background: seite, transformOrigin: "top", transform: "rotateX(90deg)" }} />
-      <div style={{ ...f, left: 0, top: DACH.d, width: DACH.w, height: DACH.t, background: seite, transformOrigin: "top", transform: "rotateX(90deg)" }} />
-      <div style={{ ...f, left: 0, top: 0, width: DACH.t, height: DACH.d, background: "#dcd8cf", transformOrigin: "left", transform: "rotateY(-90deg)" }} />
-      <div style={{ ...f, left: DACH.w, top: 0, width: DACH.t, height: DACH.d, background: "#dcd8cf", transformOrigin: "left", transform: "rotateY(-90deg)" }} />
+      <div style={{ ...f, inset: 0, background: "#34373c" }} />
+      <div style={{ ...f, left: 0, top: 0, width: DACH.w, height: DACH.t, background: seite, transformOrigin: "top", transform: "rotateX(90deg)", ...led("to bottom") }} />
+      <div style={{ ...f, left: 0, top: DACH.d, width: DACH.w, height: DACH.t, background: seite, transformOrigin: "top", transform: "rotateX(90deg)", ...led("to bottom") }} />
+      <div style={{ ...f, left: 0, top: 0, width: DACH.t, height: DACH.d, background: "#26292d", transformOrigin: "left", transform: "rotateY(-90deg)", ...led("to right") }} />
+      <div style={{ ...f, left: DACH.w, top: 0, width: DACH.t, height: DACH.d, background: "#26292d", transformOrigin: "left", transform: "rotateY(-90deg)", ...led("to right") }} />
       <div
         style={{
           ...f,
@@ -317,7 +324,7 @@ function Dach() {
           transform: `translateZ(${DACH.t}px)`,
           background:
             "radial-gradient(circle at 30% 30%, rgba(255,255,255,0.06), transparent 60%), repeating-linear-gradient(45deg, #6b6e70 0 2px, #626567 2px 4px)",
-          boxShadow: "inset 0 0 0 7px #f2efe8, inset 0 0 0 9px #cfcac0",
+          boxShadow: "inset 0 0 0 7px #2e3136, inset 0 0 0 9px #1d1f22",
         }}
       />
       {[
@@ -407,7 +414,7 @@ const HECKEN = [
 ];
 
 const BEETE = [
-  { x: 96, y: 440, w: 300, h: 26 },
+  { x: 420, y: 444, w: 150, h: 26 },
   { x: 530, y: 150, w: 26, h: 150 },
   { x: -90, y: 250, w: 120, h: 30 },
 ];
@@ -424,6 +431,46 @@ function Hecke({ x, y, w, d }: { x: number; y: number; w: number; d: number }) {
       <div style={{ ...seite, left: 0, top: 0, width: hoehe, height: d, transformOrigin: "left", transform: "rotateY(-90deg)" }} />
       <div style={{ ...seite, left: w, top: 0, width: hoehe, height: d, transformOrigin: "left", transform: "rotateY(-90deg)" }} />
       <div style={{ ...seite, inset: 0, background: "#5b8c3b", filter: "brightness(1.08)", transform: `translateZ(${hoehe})` }} />
+    </div>
+  );
+}
+
+const GRAESER = [
+  { x: 40, y: 104, s: 1 },
+  { x: 44, y: 300, s: 0.9 },
+  { x: 548, y: 110, s: 1.1 },
+  { x: 560, y: 350, s: 1 },
+  { x: 404, y: 466, s: 0.9 },
+  { x: 126, y: 490, s: 0.85 },
+  { x: -90, y: 150, s: 1 },
+  { x: -70, y: 262, s: 0.9 },
+];
+
+// Ziergras (Pampas-/Federgras) als gekreuzte Billboards wie die Bäume
+function Gras({ x, y, s }: { x: number; y: number; s: number }) {
+  const halme = (
+    <svg width="34" height="40" viewBox="0 0 34 40" style={{ display: "block" }}>
+      {[-14, -9, -4, 0, 4, 9, 14].map((d, i) => (
+        <path key={i} d={`M17,0 Q${17 + d * 0.4},18 ${17 + d},${32 + (i % 3) * 3}`} stroke={i % 2 ? "#8a9a5b" : "#6f8248"} strokeWidth="1.4" fill="none" />
+      ))}
+      {[-12, -5, 3, 11].map((d, i) => (
+        <ellipse key={`w-${i}`} cx={17 + d} cy={33 + (i % 2) * 3} rx="2.4" ry="5" fill="#e8dcc0" opacity="0.95" />
+      ))}
+    </svg>
+  );
+  const ebene: CSSProperties = { position: "absolute", left: -17, top: 0, width: 34, height: 40, transformOrigin: "top" };
+  return (
+    <div
+      style={{
+        position: "absolute",
+        left: x,
+        top: y,
+        transformStyle: "preserve-3d",
+        transform: `scale3d(calc(var(--tr) * ${s}), calc(var(--tr) * ${s}), calc(var(--tr) * ${s}))`,
+      }}
+    >
+      <div style={{ ...ebene, transform: "rotateX(90deg)" }}>{halme}</div>
+      <div style={{ ...ebene, transform: "rotateZ(90deg) rotateX(90deg)" }}>{halme}</div>
     </div>
   );
 }
@@ -470,18 +517,30 @@ function Gelaende() {
           transform: "translate(26px, 22px) translateZ(0.5px)",
         }}
       />
-      {/* Zugangsweg aus Betonplatten */}
-      <div
-        style={{
-          ...g,
-          left: -260,
-          top: 196,
-          width: 316,
-          height: 26,
-          background: "repeating-linear-gradient(90deg, #d9d4c8 0 30px, #b9b3a5 30px 32px)",
-          boxShadow: "0 0 0 2px #c2bbac",
-        }}
-      />
+      {/* Zugangsweg aus großen Trittplatten mit Pollerleuchten */}
+      {Array.from({ length: 7 }, (_, i) => (
+        <div
+          key={`platte-${i}`}
+          style={{ ...g, left: -250 + i * 44, top: 190, width: 36, height: 38, background: "#dcd7cc", boxShadow: "0 1px 0 2px #bdb6a8" }}
+        />
+      ))}
+      {Array.from({ length: 4 }, (_, i) => (
+        <div
+          key={`poller-${i}`}
+          style={{
+            position: "absolute",
+            left: -228 + i * 88,
+            top: i % 2 ? 238 : 178,
+            width: 5,
+            height: 5,
+            borderRadius: 2,
+            background: "#ffe3ad",
+            boxShadow: "0 0 10px 5px rgba(255,210,140,0.65)",
+            opacity: "var(--tr)",
+            transform: "translateZ(9px)",
+          }}
+        />
+      ))}
       {/* Holzterrasse */}
       <div
         style={{
@@ -494,6 +553,50 @@ function Gelaende() {
           boxShadow: "0 0 0 2px #9a7148",
         }}
       />
+      {/* Pool mit Steinrand und bewegter Wasseroberfläche */}
+      <div style={{ position: "absolute", left: 142, top: 442, width: 246, height: 56, background: "#e7e2d7", opacity: "var(--tr)", transform: "translateZ(1px)" }} />
+      <motion.div
+        style={{
+          position: "absolute",
+          left: 150,
+          top: 449,
+          width: 230,
+          height: 42,
+          opacity: "var(--tr)",
+          transform: "translateZ(1.5px)",
+          boxShadow: "inset 0 3px 8px rgba(0,40,60,0.45)",
+          background:
+            "repeating-linear-gradient(115deg, rgba(255,255,255,0.22) 0 2px, transparent 2px 19px), repeating-linear-gradient(65deg, rgba(255,255,255,0.12) 0 1px, transparent 1px 23px), linear-gradient(180deg, #5cc0d3, #2a86a4)",
+        }}
+        animate={{ backgroundPosition: ["0px 0px, 0px 0px, 0 0", "57px 19px, -46px 23px, 0 0"] }}
+        transition={{ duration: 7, repeat: Infinity, ease: "linear" }}
+      />
+      {/* Terrassenmöbel */}
+      {[
+        { x: 322, y: 382, w: 18, h: 40, farbe: "#f1eee8", z: 6 },
+        { x: 350, y: 382, w: 18, h: 40, farbe: "#f1eee8", z: 6 },
+        { x: 150, y: 388, w: 46, h: 28, farbe: "#3a3029", z: 11 },
+        { x: 141, y: 394, w: 7, h: 7, farbe: "#8b8680", z: 7 },
+        { x: 141, y: 404, w: 7, h: 7, farbe: "#8b8680", z: 7 },
+        { x: 198, y: 394, w: 7, h: 7, farbe: "#8b8680", z: 7 },
+        { x: 198, y: 404, w: 7, h: 7, farbe: "#8b8680", z: 7 },
+      ].map((m, i) => (
+        <div
+          key={`moebel-${i}`}
+          style={{
+            position: "absolute",
+            left: m.x,
+            top: m.y,
+            width: m.w,
+            height: m.h,
+            borderRadius: 2,
+            background: m.farbe,
+            opacity: "var(--tr)",
+            boxShadow: "3px 4px 4px rgba(0,0,0,0.25)",
+            transform: `translateZ(${m.z}px)`,
+          }}
+        />
+      ))}
       {/* Blumenbeete */}
       {BEETE.map((b, i) => (
         <div
@@ -642,9 +745,9 @@ export function PlanAnalyseSection() {
   const { scrollYProgress } = useScroll({ target: containerRef, offset: ["start start", "end end"] });
 
   const rotateX = useTransform(scrollYProgress, [0.12, 0.34], [0, 56]);
-  const rotateZ = useTransform(scrollYProgress, [0.12, 0.34, 1], [0, -36, -52]);
+  const rotateZ = useTransform(scrollYProgress, [0.12, 0.34, 0.84, 1], [0, -36, -52, 28]);
   const scale = useTransform(scrollYProgress, [0.12, 0.34, 0.58, 1], [1, 0.95, 0.9, 0.78]);
-  const y = useTransform(scrollYProgress, [0.12, 0.34, 1], [0, 40, 70]);
+  const y = useTransform(scrollYProgress, [0.12, 0.34, 0.84, 1], [0, 40, 70, -30]);
 
   useMotionValueEvent(scrollYProgress, "change", (v) => {
     const el = rootRef.current;
@@ -696,7 +799,7 @@ export function PlanAnalyseSection() {
       >
         <div
           className="absolute inset-0"
-          style={{ opacity: "var(--g)", background: "linear-gradient(180deg, #bcd8ec 0%, #dde9ef 45%, #eeece5 100%)" }}
+          style={{ opacity: "var(--g)", background: "linear-gradient(180deg, #8ea7cc 0%, #c7c2d4 38%, #edd3b6 68%, #eeece5 100%)" }}
         />
         <div className="absolute inset-0 flex items-center justify-center md:justify-end md:pr-[6vw] pb-40 md:pb-0">
           <div style={{ width: PLAN_W * fit, height: PLAN_H * fit }}>
@@ -723,6 +826,9 @@ export function PlanAnalyseSection() {
                 <Dach />
                 {BAEUME.map((b, i) => (
                   <Baum key={i} {...b} />
+                ))}
+                {GRAESER.map((g, i) => (
+                  <Gras key={`gras-${i}`} {...g} />
                 ))}
               </motion.div>
             </div>

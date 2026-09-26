@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Logo } from "./Logo";
 
 const LINKS = [
   { href: "/vorschau", label: "Beispiel" },
@@ -17,11 +18,8 @@ export function SiteNav({ dark = false }: { dark?: boolean }) {
           : "border-b border-line"
       }`}
     >
-      <Link
-        href="/"
-        className={`font-display font-black tracking-tight text-lg ${dark ? "text-surface" : "text-fg"}`}
-      >
-        MENGENWERK
+      <Link href="/">
+        <Logo dark={dark} />
       </Link>
       <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
         {LINKS.map((l) => (
@@ -57,7 +55,7 @@ export function SiteFooter({ dark = false }: { dark?: boolean }) {
     >
       <div className="max-w-7xl mx-auto grid sm:grid-cols-3 gap-10">
         <div>
-          <p className={`font-display font-black text-lg mb-3 ${dark ? "text-surface" : "text-fg"}`}>MENGENWERK</p>
+          <Logo dark={dark} className="mb-3" />
           <p className={`text-sm leading-relaxed max-w-xs ${dark ? "text-surface/50" : "text-fg-muted"}`}>
             KI-gestützte Mengenermittlung für österreichische Baubetriebe. Vom Einreichplan zum bepreisten LV.
           </p>

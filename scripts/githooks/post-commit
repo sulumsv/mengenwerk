@@ -1,0 +1,19 @@
+#!/bin/sh
+# Trägt jeden Commit automatisch in CHANGELOG.md ein (siehe
+# scripts/update-changelog.mjs). Installiert über "npm install" via
+# scripts/install-git-hooks.mjs.
+
+# Verhindert eine Endlosschleife: das Amend unten löst post-commit erneut
+# aus, die Lock-Datei sorgt dafür, dass dieser zweite Lauf sofort abbricht.
+if [ -f .git/.changelog-lock ]; then
+  rm -f .git/.changelog-lock
+  exit 0
+fi
+
+node scripts/update-changelog.mjs || exit 0
+
+if ! git diff --quiet -- CHANGELOG.md; then
+  touch .git/.changelog-lock
+  git add CHANGELOG.md
+  git commit --amend --no-edit --no-verify -q
+fi

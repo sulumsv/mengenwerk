@@ -152,7 +152,7 @@ const UNBEHEIZT = /\b(garage|terrasse|balkon|loggia|carport|gehweg|garten|vordac
 
 const SEITENVERHAELTNIS = 1.4;
 
-function umfangAusFlaeche(flaeche: number) {
+export function umfangAusFlaeche(flaeche: number) {
   const kurz = Math.sqrt(flaeche / SEITENVERHAELTNIS);
   return { umfang_m: 2 * kurz * (1 + SEITENVERHAELTNIS), umfangQuelle: "geschaetzt" as const };
 }

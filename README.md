@@ -111,6 +111,16 @@ committet. Ein `post-commit`-Git-Hook (`scripts/githooks/post-commit`,
 installiert über `npm install` via das `prepare`-Script) trägt neue Commits
 selbstständig ein; die Datei sollte daher nicht händisch bearbeitet werden.
 
+### 3D-Startseite
+
+Die Scroll-Animation auf der Startseite (`src/components/PlanAnalyse.tsx`,
+`src/components/haus/`) ist eine echte WebGL-Szene mit three.js über React
+Three Fiber: Der Einreichplan liegt als Textur auf dem Baugrund, die Kamera
+kippt aus der Draufsicht, und das Haus wächst aus denselben Plandaten
+(`haus/plan.ts`), aus denen auch der 2D-Grundriss gezeichnet wird. Himmel,
+Materialtexturen und Möbelmodelle stammen von [Poly Haven](https://polyhaven.com)
+(CC0) und liegen optimiert unter `public/3d/`.
+
 ## Technologie
 
 Next.js (App Router) mit React 19 und TypeScript, Tailwind CSS 4 für das

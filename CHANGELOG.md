@@ -3,7 +3,7 @@
 Automatisch aus den Commit-Messages dieses Repos erstellt. Jeder Commit,
 egal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
-(`scripts/githooks/post-commit`) gepflegt — nicht händisch bearbeiten.
+(`scripts/githooks/post-commit`) gepflegt — nicht händisch bearbeiten.- **2026-09-26 20:31** · Claude · `753ba58` — main zusammengeführt: gezeichnetes Haus bleibt, am Ende Überblendung ins echte Foto
 - **2026-09-26 20:30** · Claude · `2cb039e` — Startseiten-Animation endet mit echten Fotos von Rohbau und fertigem Haus
 - **2026-09-26 22:12** · onturkaltanakif · `0a226ce` — Startseiten-Animation endet mit fertigem Haus im Grünen (#15)
 - **2026-09-26 20:11** · Claude · `371ae52` — Merge branch 'sulum' into main

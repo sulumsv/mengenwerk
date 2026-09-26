@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "pruefe": "tsx scripts/pruefe-ableitung.mts"
+    "pruefe": "tsx scripts/pruefe-ableitung.mts",
+    "prepare": "node scripts/install-git-hooks.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.120.0",

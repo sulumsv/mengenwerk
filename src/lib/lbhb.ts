@@ -17,6 +17,7 @@ export interface LbhbLeistungsgruppe {
   lg: string;
   bezeichnung: string;
   untergruppen?: LbhbUntergruppe[];
+  positionen?: LbhbPosition[];
 }
 
 export interface LbhbTreffer {
@@ -106,7 +107,8 @@ export function katalogInfo() {
   return {
     katalog: katalog.katalog,
     version: katalog.version,
-    vollstaendig: katalog.vollstaendig,
+    vollstaendig: (katalog as Record<string, unknown>).vollstaendig as boolean,
+    gesamtPositionen: (katalog as Record<string, unknown>).gesamtPositionen as number | undefined,
     leistungsgruppen: katalog.leistungsgruppen.length,
   };
 }

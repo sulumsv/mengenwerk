@@ -44,7 +44,7 @@ const VORTEILE = [
 
 const STATS = [
   { wert: "Minuten", label: "Plan → Massenauszug" },
-  { wert: "LB · HB", label: "Österreichische Norm 2024" },
+  { wert: "22.650+", label: "Positionen nach LB-HB 023" },
   { wert: "100 %", label: "Jede Menge mit Rechenweg" },
   { wert: "Kein Abo", label: "Sofort nutzbar" },
 ];

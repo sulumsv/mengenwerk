@@ -44,11 +44,11 @@ function KostenBlock({ kosten }: { kosten: Kostenschaetzung }) {
 
   return (
     <section className="rounded-lg border-2 border-line-strong overflow-hidden">
-      <div className="bg-line-strong text-surface px-5 py-4 flex flex-wrap items-baseline gap-x-6 gap-y-2">
+      <div className="bg-surface-2 border-b border-line text-fg px-5 py-4 flex flex-wrap items-baseline gap-x-6 gap-y-2">
         <span className="font-mono text-xs uppercase tracking-wide">Kostenschätzung</span>
         <span className="font-mono font-num text-2xl font-semibold ml-auto">
           {euro(kosten.summe)}
-          <span className="text-sm font-medium ml-1.5 text-surface/70">EUR netto</span>
+          <span className="text-sm font-medium ml-1.5 text-fg-muted">EUR netto</span>
         </span>
       </div>
       <div className="bg-surface-2 px-5 py-4 grid sm:grid-cols-3 gap-4 text-sm">
@@ -421,7 +421,7 @@ function Download({ auszug, titel }: { auszug: Massenauszug; titel: string }) {
     <button
       type="button"
       onClick={herunterladen}
-      className="self-start font-display font-bold uppercase tracking-wide text-sm px-6 py-3 bg-line-strong text-surface rounded-md"
+      className="self-start font-display font-bold uppercase tracking-wide text-sm px-6 py-3 bg-accent text-accent-fg rounded-md"
     >
       Massenauszug herunterladen
     </button>
@@ -451,7 +451,7 @@ export function MassenauszugAnsicht({
 
       {auszug.angewandteAnnahmen.length > 0 && (
         <section className="rounded-lg border-2 border-alert overflow-hidden">
-          <p className="bg-alert text-surface font-mono text-xs uppercase tracking-wide px-5 py-2.5 font-semibold">
+          <p className="bg-alert text-alert-fg font-mono text-xs uppercase tracking-wide px-5 py-2.5 font-semibold">
             Diese Werte stehen nicht im Plan
           </p>
           <ul className="bg-surface-2 divide-y divide-line">

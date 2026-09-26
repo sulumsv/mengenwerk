@@ -59,7 +59,7 @@ export default function PreisePage() {
             <Link
               href="/kontakt"
               className={`mt-8 text-center rounded-md font-display font-bold uppercase tracking-wide text-sm px-6 py-3 ${
-                p.hervorgehoben ? "bg-line-strong text-surface" : "border border-line-strong text-fg"
+                p.hervorgehoben ? "bg-accent text-accent-fg" : "border border-line-strong text-fg"
               }`}
             >
               Anfragen

@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { sortiereGeschosse } from "@/lib/ableitung";
 import { massenauszugAlsHtml } from "@/lib/export-html";
 import type { Abschnitt, Konfidenz, Kostenschaetzung, Massenauszug, Position, Raum } from "@/lib/types";
@@ -133,7 +134,81 @@ function Kennzahlen({ positionen }: { positionen: Position[] }) {
   );
 }
 
-function Raumbuch({ raeume }: { raeume: Raum[] }) {
+/**
+ * Zahlfeld, das durch Klick editierbar wird. Akzeptiert Komma oder Punkt als
+ * Dezimaltrenner — österreichische Eingabe funktioniert also direkt.
+ */
+function EditierbareZahl({
+  wert,
+  einheit,
+  onAendern,
+}: {
+  wert: number;
+  einheit: string;
+  onAendern?: (v: number) => void;
+}) {
+  const [bearbeiten, setBearbeiten] = useState(false);
+  const [eingabe, setEingabe] = useState("");
+
+  function starten() {
+    setEingabe(wert.toFixed(2).replace(".", ","));
+    setBearbeiten(true);
+  }
+
+  function bestaetigen() {
+    const n = parseFloat(eingabe.replace(",", "."));
+    if (!isNaN(n) && n > 0) onAendern?.(n);
+    setBearbeiten(false);
+  }
+
+  if (!onAendern) {
+    return (
+      <span className="font-mono font-num">
+        {zahl(wert)} {einheit}
+      </span>
+    );
+  }
+
+  if (bearbeiten) {
+    return (
+      <span className="inline-flex items-center gap-1 justify-end">
+        <input
+          type="text"
+          inputMode="decimal"
+          value={eingabe}
+          onChange={(e) => setEingabe(e.target.value)}
+          onBlur={bestaetigen}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") e.currentTarget.blur();
+            if (e.key === "Escape") setBearbeiten(false);
+          }}
+          autoFocus
+          className="w-20 font-mono font-num text-right bg-surface border border-highlight rounded px-1 py-0.5 text-sm outline-none"
+        />
+        <span className="font-mono text-xs text-fg-muted">{einheit}</span>
+      </span>
+    );
+  }
+
+  return (
+    <button
+      type="button"
+      onClick={starten}
+      title="Klicken zum Bearbeiten"
+      className="font-mono font-num underline underline-offset-2 decoration-dotted cursor-pointer hover:text-highlight"
+    >
+      {zahl(wert)} {einheit}
+    </button>
+  );
+}
+
+function Raumbuch({
+  raeume,
+  onRaumAendern,
+}: {
+  raeume: Raum[];
+  onRaumAendern?: (id: string, feld: "flaeche_m2" | "umfang_m", wert: number) => void;
+}) {
   if (raeume.length === 0) return null;
 
   const geschosse = sortiereGeschosse([...new Set(raeume.map((r) => r.geschoss))]);
@@ -147,6 +222,11 @@ function Raumbuch({ raeume }: { raeume: Raum[] }) {
           Grundlage aller Folgepositionen
         </span>
       </div>
+      {onRaumAendern && (
+        <p className="text-xs text-fg-muted font-mono">
+          Fläche und Umfang können durch Klick auf den Wert geändert werden — die Auswertung passt sich sofort an.
+        </p>
+      )}
       <div className="overflow-x-auto rounded-lg border border-line bg-surface-2">
         <table className="w-full text-sm min-w-[640px]">
           <thead>
@@ -161,7 +241,12 @@ function Raumbuch({ raeume }: { raeume: Raum[] }) {
           </thead>
           <tbody>
             {geschosse.map((g) => (
-              <FragmentGeschoss key={g} geschoss={g} raeume={raeume.filter((r) => r.geschoss === g)} />
+              <FragmentGeschoss
+                key={g}
+                geschoss={g}
+                raeume={raeume.filter((r) => r.geschoss === g)}
+                onRaumAendern={onRaumAendern}
+              />
             ))}
             <tr className="bg-surface border-t-2 border-line-strong font-semibold">
               <td className="px-4 py-3"></td>
@@ -178,7 +263,15 @@ function Raumbuch({ raeume }: { raeume: Raum[] }) {
   );
 }
 
-function FragmentGeschoss({ geschoss, raeume }: { geschoss: string; raeume: Raum[] }) {
+function FragmentGeschoss({
+  geschoss,
+  raeume,
+  onRaumAendern,
+}: {
+  geschoss: string;
+  raeume: Raum[];
+  onRaumAendern?: (id: string, feld: "flaeche_m2" | "umfang_m", wert: number) => void;
+}) {
   return (
     <>
       <tr className="bg-surface">
@@ -193,9 +286,19 @@ function FragmentGeschoss({ geschoss, raeume }: { geschoss: string; raeume: Raum
           </td>
           <td className="px-4 py-3">{r.name}</td>
           <td className="px-4 py-3 text-fg-muted">{r.belag ?? "—"}</td>
-          <td className="px-4 py-3 text-right font-mono font-num">{zahl(r.flaeche_m2)} m²</td>
-          <td className="px-4 py-3 text-right font-mono font-num">
-            {zahl(r.umfang_m)} m
+          <td className="px-4 py-3 text-right">
+            <EditierbareZahl
+              wert={r.flaeche_m2}
+              einheit="m²"
+              onAendern={onRaumAendern ? (v) => onRaumAendern(r.id, "flaeche_m2", v) : undefined}
+            />
+          </td>
+          <td className="px-4 py-3 text-right">
+            <EditierbareZahl
+              wert={r.umfang_m}
+              einheit="m"
+              onAendern={onRaumAendern ? (v) => onRaumAendern(r.id, "umfang_m", v) : undefined}
+            />
             {r.umfangQuelle === "geschaetzt" && (
               <span className="text-alert ml-1" title="Aus der Fläche geschätzt">
                 *
@@ -328,9 +431,12 @@ function Download({ auszug, titel }: { auszug: Massenauszug; titel: string }) {
 export function MassenauszugAnsicht({
   auszug,
   titel = "Massenauszug",
+  onRaumAendern,
 }: {
   auszug: Massenauszug;
   titel?: string;
+  /** Wenn übergeben, werden Fläche und Umfang im Raumbuch durch Klick editierbar. */
+  onRaumAendern?: (id: string, feld: "flaeche_m2" | "umfang_m", wert: number) => void;
 }) {
   return (
     <div className="flex flex-col gap-10">
@@ -338,7 +444,7 @@ export function MassenauszugAnsicht({
       <Legende />
       <Kennzahlen positionen={auszug.kennzahlen} />
       {auszug.kosten && auszug.kosten.summe > 0 && <KostenBlock kosten={auszug.kosten} />}
-      <Raumbuch raeume={auszug.raeume} />
+      <Raumbuch raeume={auszug.raeume} onRaumAendern={onRaumAendern} />
       {auszug.abschnitte.map((a) => (
         <AbschnittBlock key={a.nummer} abschnitt={a} />
       ))}

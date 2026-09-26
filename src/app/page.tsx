@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
+import { PlanAnalyseSection } from "@/components/PlanAnalyse";
 
 const SCHRITTE = [
   { nr: "01", titel: "Plan hochladen", text: "PDF, Scan oder Foto — MengenWerk erkennt den Dateityp automatisch." },
@@ -137,6 +138,9 @@ export default function Home() {
           ))}
         </div>
       </div>
+
+      {/* ── PLAN-ANALYSE ANIMATION ── */}
+      <PlanAnalyseSection />
 
       {/* ── WIE ES FUNKTIONIERT ── */}
       <section className="px-6 md:px-10 py-24 max-w-6xl mx-auto">

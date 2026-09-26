@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BlueprintWindow } from "@/components/BlueprintWindow";
+import { HausBauAnimation } from "@/components/HausBauAnimation";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import {
   IconArea,
@@ -96,6 +97,8 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      <HausBauAnimation />
 
       <section className="bg-highlight text-highlight-fg px-6 md:px-10 py-14">
         <div className="max-w-7xl mx-auto grid md:grid-cols-[1fr_2fr] gap-8">

@@ -32,6 +32,6 @@ if (bestehendeEintraege[0] === eintrag) {
   process.exit(0);
 }
 
-const kopfBlock = kopfEndeIndex === -1 ? inhalt.trimEnd() + "\n\n" : zeilen.slice(0, kopfEndeIndex).join("\n");
+const kopfBlock = (kopfEndeIndex === -1 ? inhalt : zeilen.slice(0, kopfEndeIndex).join("\n")).trimEnd() + "\n\n";
 
 writeFileSync(CHANGELOG_PATH, `${kopfBlock}${eintrag}\n${bestehendeEintraege.join("\n")}`.trimEnd() + "\n");

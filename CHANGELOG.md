@@ -3,7 +3,7 @@
 Automatisch aus den Commit-Messages dieses Repos erstellt. Jeder Commit,
 egal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
-(`scripts/githooks/post-commit`) gepflegt — nicht händisch bearbeiten.- **2026-09-26 19:45** · Claude · `81a0a31` — README von Grund auf neu: erklärt jetzt die App statt der create-next-app-Vorlage- **2026-09-26 20:03** · Claude · `a63b078` — Eigenes Logo und Favicon statt reinem Textschriftzug- **2026-09-26 20:07** · Claude · `2140609` — 3D-CAD-Aufbauanimation: fertiges Haus statt Grundriss-Skizze auf der Startseite
+(`scripts/githooks/post-commit`) gepflegt — nicht händisch bearbeiten.- **2026-09-26 19:45** · Claude · `81a0a31` — README von Grund auf neu: erklärt jetzt die App statt der create-next-app-Vorlage- **2026-09-26 20:03** · Claude · `a63b078` — Eigenes Logo und Favicon statt reinem Textschriftzug- **2026-09-26 20:07** · Claude · `2140609` — 3D-CAD-Aufbauanimation: fertiges Haus statt Grundriss-Skizze auf der Startseite- **2026-09-26 20:07** · Claude · `1cd41be` — Ungenutzte 2D-Grundriss-Animation entfernen
 - **2026-09-26 19:43** · Claude · `cb4b094` — Automatisches Changelog aus den Commit-Messages einführen
 - **2026-09-26 21:25** · onturkaltanakif · `583807a` — Startseite komplett neu gestaltet: dunkles Design nach BauKit-Vorbild (#5)
 - **2026-09-26 21:21** · onturkaltanakif · `a1faf88` — Scroll-Animation auf der Startseite: Grundriss baut sich zum Haus auf (#4)

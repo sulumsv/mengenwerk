@@ -9,7 +9,7 @@ const LINKS = [
   { href: "/kontakt", label: "Kontakt" },
 ];
 
-export function SiteNav({ dark = false }: { dark?: boolean }) {
+export function SiteNav({ dark = true }: { dark?: boolean }) {
   return (
     <nav
       className={`px-6 md:px-10 py-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 ${
@@ -27,7 +27,7 @@ export function SiteNav({ dark = false }: { dark?: boolean }) {
             key={l.href}
             href={l.href}
             className={`font-mono text-xs uppercase tracking-wide ${
-              dark ? "text-surface/50 hover:text-surface" : "text-fg-muted hover:text-fg"
+              dark ? "text-fg/50 hover:text-fg" : "text-fg-muted hover:text-fg"
             }`}
           >
             {l.label}
@@ -48,15 +48,15 @@ export function SiteNav({ dark = false }: { dark?: boolean }) {
   );
 }
 
-export function SiteFooter({ dark = false }: { dark?: boolean }) {
+export function SiteFooter({ dark = true }: { dark?: boolean }) {
   return (
     <footer
-      className={`px-6 md:px-10 py-14 ${dark ? "bg-line-strong border-t border-white/10" : "border-t border-line"}`}
+      className={`px-6 md:px-10 py-14 ${dark ? "bg-surface border-t border-white/10" : "border-t border-line"}`}
     >
       <div className="max-w-7xl mx-auto grid sm:grid-cols-3 gap-10">
         <div>
           <Logo dark={dark} className="mb-3" />
-          <p className={`text-sm leading-relaxed max-w-xs ${dark ? "text-surface/50" : "text-fg-muted"}`}>
+          <p className={`text-sm leading-relaxed max-w-xs ${dark ? "text-fg/50" : "text-fg-muted"}`}>
             KI-gestützte Mengenermittlung für österreichische Baubetriebe. Vom Einreichplan zum bepreisten LV.
           </p>
         </div>
@@ -74,7 +74,7 @@ export function SiteFooter({ dark = false }: { dark?: boolean }) {
               <Link
                 key={l.href}
                 href={l.href}
-                className={`text-sm ${dark ? "text-surface/60 hover:text-surface" : "text-fg-muted hover:text-fg"}`}
+                className={`text-sm ${dark ? "text-fg/60 hover:text-fg" : "text-fg-muted hover:text-fg"}`}
               >
                 {l.label}
               </Link>
@@ -95,7 +95,7 @@ export function SiteFooter({ dark = false }: { dark?: boolean }) {
               <Link
                 key={l.href}
                 href={l.href}
-                className={`text-sm ${dark ? "text-surface/60 hover:text-surface" : "text-fg-muted hover:text-fg"}`}
+                className={`text-sm ${dark ? "text-fg/60 hover:text-fg" : "text-fg-muted hover:text-fg"}`}
               >
                 {l.label}
               </Link>
@@ -104,7 +104,7 @@ export function SiteFooter({ dark = false }: { dark?: boolean }) {
         </div>
       </div>
       <div className={`max-w-7xl mx-auto mt-10 pt-6 border-t ${dark ? "border-white/10" : "border-line"}`}>
-        <p className={`font-mono text-xs uppercase tracking-wide ${dark ? "text-surface/30" : "text-fg-muted"}`}>
+        <p className={`font-mono text-xs uppercase tracking-wide ${dark ? "text-fg/30" : "text-fg-muted"}`}>
           © 2025 MengenWerk · Gebaut für kleine Baubetriebe in Österreich
         </p>
       </div>

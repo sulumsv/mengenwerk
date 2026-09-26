@@ -90,7 +90,7 @@ export default function EinheitspreisePage() {
         </p>
 
         <div className="mt-6 rounded-lg border-2 border-alert bg-surface-2 overflow-hidden">
-          <p className="bg-alert text-surface font-mono text-xs uppercase tracking-wide px-5 py-2.5 font-semibold">
+          <p className="bg-alert text-alert-fg font-mono text-xs uppercase tracking-wide px-5 py-2.5 font-semibold">
             Die Richtwerte sind keine Marktpreise
           </p>
           <p className="px-5 py-4 text-sm text-fg-muted">
@@ -117,7 +117,7 @@ export default function EinheitspreisePage() {
             <button
               type="button"
               onClick={sichern}
-              className="font-display font-bold uppercase tracking-wide text-sm px-6 py-2.5 bg-line-strong text-surface rounded-md"
+              className="font-display font-bold uppercase tracking-wide text-sm px-6 py-2.5 bg-accent text-accent-fg rounded-md"
             >
               Sichern
             </button>

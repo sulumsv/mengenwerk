@@ -219,7 +219,7 @@ function HausModell({ progress }: { progress: number }) {
           progress={progress}
           ab={STUFEN.oeffnungen + 0.03}
           von={[pos[0] * 1.15, pos[1], pos[2] * 1.15]}
-          nach={pos}
+          nach={[pos[0], pos[1], pos[2]]}
         >
           <Fenster position={[0, 0, 0]} />
         </Bauteil>

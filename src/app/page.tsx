@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { HausBauAnimation } from "@/components/HausBauAnimation";
+import { Haus3D } from "@/components/Haus3D";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import {
   IconArea,
@@ -139,7 +139,7 @@ export default function Home() {
       </div>
 
       {/* ── SCROLL ANIMATION ── */}
-      <HausBauAnimation />
+      <Haus3D />
 
       {/* ── DAS PROBLEM ── */}
       <section className="px-6 md:px-10 py-20 max-w-7xl mx-auto">

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Haus3D } from "@/components/Haus3D";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import { PlanAnalyseSection } from "@/components/PlanAnalyse";
 
@@ -142,9 +141,6 @@ export default function Home() {
 
       {/* ── PLAN-ANALYSE ANIMATION ── */}
       <PlanAnalyseSection />
-
-      {/* ── 3D-AUFBAUANIMATION ── */}
-      <Haus3D />
 
       {/* ── WIE ES FUNKTIONIERT ── */}
       <section className="px-6 md:px-10 py-24 max-w-6xl mx-auto">

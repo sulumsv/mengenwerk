@@ -47,7 +47,7 @@ function wand(
   let lauf = von;
   for (const [a, b, art] of oeffnungen) {
     rect(lauf, a, 1, 0);
-    if (art === "fenster") rect(a, b, 0.36, 0);
+    if (art === "fenster") rect(a, b, 0.32, 0);
     rect(a, b, art === "fenster" ? 0.2 : 0.16, art === "fenster" ? 0.8 : 0.84);
     schlitze.push(
       vertikal
@@ -143,8 +143,21 @@ function Wandbox({ b }: { b: Box }) {
     ? "repeating-linear-gradient(90deg, #a5603f 0 5px, #d9c5b0 5px 6px)"
     : "linear-gradient(90deg, #d6cdbf, #c9bfb0)";
   const flaeche: CSSProperties = { position: "absolute", backfaceVisibility: "visible" };
-  const putz = (farbe: string) =>
-    b.aussen ? <div style={{ position: "absolute", inset: 0, background: farbe, opacity: "var(--p)" }} /> : null;
+  const putz = (farbe: string, seite = true) =>
+    b.aussen ? (
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          opacity: "var(--p)",
+          backgroundColor: farbe,
+          backgroundImage:
+            seite && b.z0 === 0
+              ? "linear-gradient(to bottom, #8f8a81 0 9px, rgba(0,0,0,0.18) 9px, transparent 38%)"
+              : "none",
+        }}
+      />
+    ) : null;
   return (
     <div
       style={{
@@ -163,14 +176,20 @@ function Wandbox({ b }: { b: Box }) {
       <div style={{ ...flaeche, left: b.w, top: 0, width: hoehe, height: b.d, background: ow, transformOrigin: "left", transform: "rotateY(-90deg)" }}>{putz("#dedad1")}</div>
       <div style={{ ...flaeche, inset: 0, background: FARBE.wand, transform: `translateZ(${hoehe})` }}>
         <div style={{ position: "absolute", inset: 0, opacity: "var(--t)", background: b.aussen ? "#d49a7b" : "#ece5da" }} />
-        {putz("#f4f1ea")}
+        {putz("#f4f1ea", false)}
       </div>
     </div>
   );
 }
 
 
-const GLAS = "linear-gradient(160deg, rgba(190,215,230,0.95) 0%, rgba(60,85,105,0.95) 45%, rgba(30,45,60,0.97) 100%)";
+const RAHMEN = "#34373b";
+const GLAS =
+  "linear-gradient(155deg, rgba(225,238,245,0.95) 0%, rgba(150,185,205,0.9) 22%, rgba(55,80,100,0.95) 48%, rgba(28,40,52,0.97) 100%)";
+
+// Mittelsprosse quer zur Blickrichtung: `achse` ist die Richtung, in der die Fensterbreite im Div liegt.
+const sprosse = (achse: "to right" | "to bottom") =>
+  `linear-gradient(${achse}, transparent calc(50% - 1.5px), ${RAHMEN} calc(50% - 1.5px) calc(50% + 1.5px), transparent calc(50% + 1.5px))`;
 
 function Fenster3D() {
   return (
@@ -178,15 +197,26 @@ function Fenster3D() {
       {schlitze.map((s, i) => {
         const tuer = s.art === "tuer";
         if (tuer && !(s.vertikal && s.x === 80)) return null;
-        const z0 = tuer ? 0 : 0.36;
-        const k = tuer ? 0.84 : 0.44;
+        const z0 = tuer ? 0 : 0.32;
+        const k = tuer ? 0.84 : 0.48;
         const hoehe = `calc(var(--h) * ${k})`;
-        const flaeche: CSSProperties = {
-          position: "absolute",
-          background: tuer ? "linear-gradient(90deg, #3d3129, #56463a)" : GLAS,
-          opacity: "var(--w)",
-          boxShadow: "inset 0 0 0 1.5px #3a3a3a",
-        };
+        const breit = (s.vertikal ? s.d : s.w) > 40;
+        // Im Div liegt die Fensterbreite bei vertikalen Wänden auf der Div-Höhe, sonst auf der Div-Breite.
+        const breitenAchse = s.vertikal ? "to bottom" : "to right";
+        const flaeche: CSSProperties = tuer
+          ? {
+              position: "absolute",
+              opacity: "var(--w)",
+              backgroundColor: "#3b3f44",
+              backgroundImage: `linear-gradient(${breitenAchse}, transparent 66%, #9fb4c1 66% 78%, transparent 78%), linear-gradient(${breitenAchse === "to right" ? "to bottom" : "to right"}, transparent 12%, rgba(255,255,255,0.05) 50%, transparent 88%)`,
+              boxShadow: `inset 0 0 0 3px ${RAHMEN}`,
+            }
+          : {
+              position: "absolute",
+              opacity: "var(--w)",
+              backgroundImage: `${breit ? sprosse(breitenAchse) + ", " : ""}${GLAS}`,
+              boxShadow: `inset 0 0 0 3px ${RAHMEN}, inset 0 0 0 4px rgba(255,255,255,0.25)`,
+            };
         return (
           <div
             key={i}
@@ -208,6 +238,52 @@ function Fenster3D() {
           </div>
         );
       })}
+      {/* Fensterbänke: flache Blechplatte unter jedem Fenster, ragt beidseitig aus der Wand */}
+      {schlitze
+        .filter((s) => s.art === "fenster")
+        .map((s, i) => (
+          <div
+            key={`bank-${i}`}
+            style={{
+              position: "absolute",
+              left: s.vertikal ? s.x - 5 : s.x - 3,
+              top: s.vertikal ? s.y - 3 : s.y - 5,
+              width: s.vertikal ? s.w + 10 : s.w + 6,
+              height: s.vertikal ? s.d + 6 : s.d + 10,
+              background: "#c9c6bf",
+              boxShadow: "0 0 0 1px #a9a59d",
+              opacity: "var(--w)",
+              transform: "translateZ(calc(var(--h) * 0.32))",
+            }}
+          />
+        ))}
+      {/* Vordach und Eingangsstufe an der Haustür (Westwand) */}
+      <div
+        style={{
+          position: "absolute",
+          left: 50,
+          top: 180,
+          width: 36,
+          height: 58,
+          background: "#eeebe4",
+          boxShadow: `0 0 0 2px ${RAHMEN}`,
+          opacity: "var(--w)",
+          transform: "translateZ(calc(var(--h) * 0.94))",
+        }}
+      />
+      <div
+        style={{
+          position: "absolute",
+          left: 60,
+          top: 188,
+          width: 20,
+          height: 42,
+          background: "#cfc9bd",
+          boxShadow: "0 0 0 1px #b3ac9e",
+          opacity: "var(--g)",
+          transform: "translateZ(4px)",
+        }}
+      />
     </>
   );
 }
@@ -244,6 +320,27 @@ function Dach() {
           boxShadow: "inset 0 0 0 7px #f2efe8, inset 0 0 0 9px #cfcac0",
         }}
       />
+      {[
+        { x: 44, y: 46, w: 176, h: 112 },
+        { x: 44, y: 184, w: 176, h: 112 },
+      ].map((pv, i) => (
+        <div
+          key={i}
+          style={{
+            position: "absolute",
+            left: pv.x,
+            top: pv.y,
+            width: pv.w,
+            height: pv.h,
+            opacity: "var(--tr)",
+            transform: `translateZ(${DACH.t + 3}px)`,
+            backgroundColor: "#1c2a3e",
+            backgroundImage:
+              "linear-gradient(135deg, rgba(255,255,255,0.14), transparent 45%), repeating-linear-gradient(90deg, transparent 0 21px, #aab3bd 21px 22px), repeating-linear-gradient(0deg, transparent 0 27px, #aab3bd 27px 28px)",
+            boxShadow: "0 0 0 2px #aab3bd, 4px 5px 0 rgba(0,0,0,0.25)",
+          }}
+        />
+      ))}
     </div>
   );
 }
@@ -261,10 +358,14 @@ const BAEUME = [
 function Baum({ x, y, s }: { x: number; y: number; s: number }) {
   const blatt = (
     <svg width="60" height="96" viewBox="0 0 60 96" style={{ display: "block" }}>
-      <rect x="27" y="0" width="6" height="30" fill="#6b4a33" />
-      <ellipse cx="30" cy="58" rx="27" ry="36" fill="#4f7a34" />
-      <ellipse cx="22" cy="66" rx="16" ry="22" fill="#5f8e3e" />
-      <ellipse cx="37" cy="52" rx="13" ry="18" fill="#3f6a2b" />
+      <path d="M28,0 L32,0 L31.5,34 L35,40 L31,38 L30,44 L29,38 L25,40 L28.5,34 Z" fill="#5b3f2b" />
+      <circle cx="30" cy="62" r="25" fill="#3d6628" />
+      <circle cx="18" cy="56" r="14" fill="#4a7a30" />
+      <circle cx="42" cy="54" r="14" fill="#44722d" />
+      <circle cx="30" cy="80" r="14" fill="#56893a" />
+      <circle cx="22" cy="72" r="11" fill="#63974a" />
+      <circle cx="38" cy="70" r="9" fill="#6ba452" opacity="0.9" />
+      <circle cx="26" cy="84" r="5" fill="#7db562" opacity="0.8" />
     </svg>
   );
   const ebene: CSSProperties = { position: "absolute", left: -30, top: 0, width: 60, height: 96, transformOrigin: "top" };
@@ -278,8 +379,51 @@ function Baum({ x, y, s }: { x: number; y: number; s: number }) {
         transform: `scale3d(calc(var(--tr) * ${s}), calc(var(--tr) * ${s}), calc(var(--tr) * ${s}))`,
       }}
     >
+      <div
+        style={{
+          position: "absolute",
+          left: -8,
+          top: -12,
+          width: 64,
+          height: 40,
+          borderRadius: "50%",
+          background: "radial-gradient(ellipse, rgba(25,45,15,0.45), transparent 70%)",
+          transform: "translateZ(1px)",
+        }}
+      />
       <div style={{ ...ebene, transform: "rotateX(90deg)" }}>{blatt}</div>
       <div style={{ ...ebene, transform: "rotateZ(90deg) rotateX(90deg)" }}>{blatt}</div>
+    </div>
+  );
+}
+
+// Heckenabschnitte rund um das Grundstück (Lücke im Westen für den Zugangsweg)
+const HECKEN = [
+  { x: -130, y: -110, w: 850, d: 18 },
+  { x: -130, y: 504, w: 850, d: 18 },
+  { x: -130, y: -110, w: 18, d: 296 },
+  { x: -130, y: 232, w: 18, d: 290 },
+  { x: 702, y: -110, w: 18, d: 632 },
+];
+
+const BEETE = [
+  { x: 96, y: 440, w: 300, h: 26 },
+  { x: 530, y: 150, w: 26, h: 150 },
+  { x: -90, y: 250, w: 120, h: 30 },
+];
+
+function Hecke({ x, y, w, d }: { x: number; y: number; w: number; d: number }) {
+  const hoehe = "calc(var(--tr) * 30px)";
+  const blatt =
+    "radial-gradient(circle at 30% 40%, #5c8f3c 0 3px, transparent 4px) 0 0 / 9px 9px, radial-gradient(circle at 70% 70%, #3f6d29 0 3px, transparent 4px) 0 0 / 11px 11px, #4a7a31";
+  const seite: CSSProperties = { position: "absolute", background: blatt, backfaceVisibility: "visible", opacity: "var(--tr)" };
+  return (
+    <div style={{ position: "absolute", left: x, top: y, width: w, height: d, transformStyle: "preserve-3d" }}>
+      <div style={{ ...seite, left: 0, top: 0, width: w, height: hoehe, transformOrigin: "top", transform: "rotateX(90deg)" }} />
+      <div style={{ ...seite, left: 0, top: d, width: w, height: hoehe, transformOrigin: "top", transform: "rotateX(90deg)" }} />
+      <div style={{ ...seite, left: 0, top: 0, width: hoehe, height: d, transformOrigin: "left", transform: "rotateY(-90deg)" }} />
+      <div style={{ ...seite, left: w, top: 0, width: hoehe, height: d, transformOrigin: "left", transform: "rotateY(-90deg)" }} />
+      <div style={{ ...seite, inset: 0, background: "#5b8c3b", filter: "brightness(1.08)", transform: `translateZ(${hoehe})` }} />
     </div>
   );
 }
@@ -300,7 +444,45 @@ function Gelaende() {
             "radial-gradient(ellipse at center, #86ad5a 0%, #7aa24f 12%, #6f9747 30%, #6a9344 50%, rgba(106,147,68,0) 70%)",
         }}
       />
-      <div style={{ ...g, left: -260, top: 196, width: 340, height: 26, background: "#d8d2c4", boxShadow: "0 0 0 2px #c9c2b2" }} />
+      {/* gepflegter Rasen mit Mähstreifen innerhalb der Hecke */}
+      <div
+        style={{
+          ...g,
+          left: -112,
+          top: -92,
+          width: 814,
+          height: 596,
+          background:
+            "repeating-linear-gradient(90deg, rgba(255,255,255,0.05) 0 46px, rgba(0,0,0,0.035) 46px 92px), radial-gradient(ellipse at 50% 45%, #8fbd5f, #79a64d 70%)",
+        }}
+      />
+      {/* Schattenwurf des Hauses, Sonne von Nordwesten */}
+      <div
+        style={{
+          position: "absolute",
+          left: 96,
+          top: 58,
+          width: 440,
+          height: 316,
+          background: "rgba(20,35,12,0.38)",
+          filter: "blur(10px)",
+          opacity: "var(--g)",
+          transform: "translate(26px, 22px) translateZ(0.5px)",
+        }}
+      />
+      {/* Zugangsweg aus Betonplatten */}
+      <div
+        style={{
+          ...g,
+          left: -260,
+          top: 196,
+          width: 316,
+          height: 26,
+          background: "repeating-linear-gradient(90deg, #d9d4c8 0 30px, #b9b3a5 30px 32px)",
+          boxShadow: "0 0 0 2px #c2bbac",
+        }}
+      />
+      {/* Holzterrasse */}
       <div
         style={{
           ...g,
@@ -312,6 +494,27 @@ function Gelaende() {
           boxShadow: "0 0 0 2px #9a7148",
         }}
       />
+      {/* Blumenbeete */}
+      {BEETE.map((b, i) => (
+        <div
+          key={i}
+          style={{
+            position: "absolute",
+            left: b.x,
+            top: b.y,
+            width: b.w,
+            height: b.h,
+            borderRadius: 6,
+            opacity: "var(--tr)",
+            transform: "translateZ(1px)",
+            background:
+              "radial-gradient(circle at 20% 35%, #e4574f 0 2.5px, transparent 3px) 0 0 / 14px 12px, radial-gradient(circle at 70% 65%, #f2c94c 0 2.5px, transparent 3px) 0 0 / 17px 13px, radial-gradient(circle at 45% 50%, #b77fd1 0 2px, transparent 2.5px) 0 0 / 11px 15px, #6b4f36",
+          }}
+        />
+      ))}
+      {HECKEN.map((h, i) => (
+        <Hecke key={i} {...h} />
+      ))}
     </>
   );
 }
@@ -447,7 +650,7 @@ export function PlanAnalyseSection() {
     const el = rootRef.current;
     if (el) {
       const lerp = (a: number, b: number) => Math.min(1, Math.max(0, (v - a) / (b - a)));
-      const h = lerp(0.34, 0.54) * 74;
+      const h = lerp(0.34, 0.54) * 100;
       el.style.setProperty("--h", `${h}px`);
       el.style.setProperty("--t", `${Math.min(1, h / 20)}`);
       el.style.setProperty("--g", `${lerp(0.54, 0.64)}`);

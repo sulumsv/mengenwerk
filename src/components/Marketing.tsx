@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export function Eyebrow({ children }: { children: React.ReactNode; tone?: string }) {
   return (
-    <p className="flex items-center gap-3 text-[11px] font-medium uppercase tracking-[0.22em] text-[#2f78a6] mb-5">
-      <span className="h-px w-8 bg-[#3a8fc2]" />
+    <p className="flex items-center gap-3 text-[11px] font-medium uppercase tracking-[0.22em] text-[#b86a1c] mb-5">
+      <span className="h-px w-8 bg-[#d9822b]" />
       {children}
     </p>
   );
@@ -94,9 +94,9 @@ export function Karte({
   nummer?: string;
 }) {
   return (
-    <div className="group relative rounded-xl border border-[#dde6ea] bg-[#ffffff] p-7 transition hover:border-[#3a8fc2]/50">
-      <span className="absolute left-0 top-7 h-6 w-[3px] rounded-r bg-[#3a8fc2] opacity-0 transition group-hover:opacity-100" />
-      {nummer && <p className="mb-6 text-sm font-semibold text-[#3a8fc2]">{nummer}</p>}
+    <div className="group relative rounded-xl border border-[#dde6ea] bg-[#ffffff] p-7 transition hover:border-[#d9822b]/50">
+      <span className="absolute left-0 top-7 h-6 w-[3px] rounded-r bg-[#d9822b] opacity-0 transition group-hover:opacity-100" />
+      {nummer && <p className="mb-6 text-sm font-semibold text-[#d9822b]">{nummer}</p>}
       <h3 className="font-display font-semibold text-[1.2rem] mb-2">{titel}</h3>
       <div className="text-sm leading-relaxed text-[#5d6b78]">{children}</div>
     </div>
@@ -107,7 +107,7 @@ export function KnopfPrimaer({ href, children }: { href: string; children: React
   return (
     <Link
       href={href}
-      className="inline-flex items-center gap-2 rounded-lg bg-[#3a8fc2] text-white font-medium text-sm px-6 py-3 hover:bg-[#2f78a6] transition"
+      className="inline-flex items-center gap-2 rounded-lg bg-[#d9822b] text-white font-medium text-sm px-6 py-3 hover:bg-[#b86a1c] transition"
     >
       {children}
     </Link>
@@ -135,11 +135,11 @@ export function CtaBand({
   return (
     <section className="bg-[#ffffff] py-20">
       <Container>
-        <div className="relative overflow-hidden rounded-2xl bg-[#d7ecf2] px-8 py-16 md:px-16 text-[#16202a]">
+        <div className="relative overflow-hidden rounded-2xl bg-[#fbe9d2] px-8 py-16 md:px-16 text-[#16202a]">
           <svg
             aria-hidden
             viewBox="0 0 300 200"
-            className="pointer-events-none absolute -right-10 -bottom-10 w-[420px] text-[#3a8fc2] opacity-25 hidden md:block"
+            className="pointer-events-none absolute -right-10 -bottom-10 w-[420px] text-[#d9822b] opacity-25 hidden md:block"
             fill="none"
             stroke="currentColor"
           >

@@ -26,7 +26,7 @@ const BELEGE = [
 ];
 
 const BADGE: Record<string, string> = {
-  PLAN: "bg-[#d7ecf2] text-[#2f78a6] border-[#b9dbe6]",
+  PLAN: "bg-[#fbe9d2] text-[#b86a1c] border-[#f3d3a8]",
   HERLEIT: "bg-[#e6ebf2] text-[#2c4466] border-[#c9d3e1]",
   ANNAHME: "bg-[#f7ecd2] text-[#8a6412] border-[#e8d3a0]",
 };
@@ -179,7 +179,7 @@ export default function Home() {
           <div className="grid sm:grid-cols-2 gap-x-10">
             {FUNKTIONEN.map((f, i) => (
               <div key={f.titel} className="border-t border-[#c8d4da] py-6">
-                <p className="font-mono text-[11px] text-[#3a8fc2] mb-2">{String(i + 1).padStart(2, "0")}</p>
+                <p className="font-mono text-[11px] text-[#d9822b] mb-2">{String(i + 1).padStart(2, "0")}</p>
                 <h3 className="font-display text-[1.2rem] mb-2">{f.titel}</h3>
                 <p className="text-sm leading-relaxed text-[#5d6b78]">{f.text}</p>
               </div>
@@ -219,7 +219,7 @@ export default function Home() {
               <details key={f} className="group border-b border-[#c8d4da] py-5">
                 <summary className="flex items-center justify-between gap-6 cursor-pointer list-none font-display text-[1.15rem]">
                   {f}
-                  <span className="text-[#3a8fc2] group-open:rotate-45 transition-transform text-2xl leading-none">+</span>
+                  <span className="text-[#d9822b] group-open:rotate-45 transition-transform text-2xl leading-none">+</span>
                 </summary>
                 <p className="mt-3 text-sm text-[#5d6b78] leading-relaxed max-w-2xl">{a}</p>
               </details>

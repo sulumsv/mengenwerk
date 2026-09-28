@@ -1,53 +1,72 @@
 import Link from "next/link";
-import { LogoMark } from "./Logo";
+
+const STERNE = [
+  [8, 12], [18, 6], [27, 16], [35, 5], [46, 11], [58, 7], [66, 15], [74, 4], [83, 10], [92, 6], [14, 22], [88, 20],
+];
+
+function Wolke({ className, style }: { className: string; style?: React.CSSProperties }) {
+  return (
+    <svg viewBox="0 0 220 60" className={`absolute ${className}`} style={style} aria-hidden>
+      <path
+        d="M20 48c-11 0-18-6-18-14s8-14 18-14c3-10 13-16 25-15 7-8 20-9 30-3 8-6 22-6 30 2 12-2 24 5 26 16 9 1 15 7 15 14s-8 14-18 14Z"
+        fill="#ffffff"
+        opacity="0.18"
+      />
+    </svg>
+  );
+}
 
 function Haus() {
   return (
     <svg viewBox="0 0 900 430" className="w-full h-auto" aria-hidden>
       <defs>
-        <linearGradient id="glas" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#3b4b5a" />
-          <stop offset="1" stopColor="#6f8597" />
+        <linearGradient id="glasNacht" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#ffcf8a" />
+          <stop offset="1" stopColor="#e9974a" />
         </linearGradient>
-        <linearGradient id="licht" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#ffd9a3" />
-          <stop offset="1" stopColor="#f3b56b" />
+        <linearGradient id="holzNacht" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stopColor="#b98556" />
+          <stop offset="1" stopColor="#8e6238" />
         </linearGradient>
-        <linearGradient id="holz" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stopColor="#c89a6a" />
-          <stop offset="1" stopColor="#a87a4c" />
+        <linearGradient id="wand" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#f3eee8" />
+          <stop offset="1" stopColor="#d9d2cb" />
         </linearGradient>
+        <radialGradient id="schein" cx="0.5" cy="0.5" r="0.5">
+          <stop offset="0" stopColor="#ffc47a" stopOpacity="0.55" />
+          <stop offset="1" stopColor="#ffc47a" stopOpacity="0" />
+        </radialGradient>
       </defs>
-      <ellipse cx="450" cy="412" rx="430" ry="18" fill="#cfe3ee" />
-      <rect x="40" y="398" width="820" height="14" rx="7" fill="#e7eff4" />
+      <ellipse cx="450" cy="410" rx="440" ry="22" fill="#1a2238" opacity="0.35" />
+      <ellipse cx="300" cy="330" rx="230" ry="110" fill="url(#schein)" className="glimmen" />
 
-      <path d="M120 400V175L300 40l180 135v225Z" fill="#ffffff" />
-      <path d="M300 40 120 175M300 40l180 135" stroke="url(#holz)" strokeWidth="16" strokeLinecap="round" />
-      <path d="M205 170 300 98l95 72v90H205Z" fill="url(#glas)" />
+      <path d="M120 400V175L300 40l180 135v225Z" fill="url(#wand)" />
+      <path d="M300 40 120 175M300 40l180 135" stroke="url(#holzNacht)" strokeWidth="16" strokeLinecap="round" />
+      <path d="M205 170 300 98l95 72v90H205Z" fill="url(#glasNacht)" className="glimmen" />
       <path d="M252 134v126M300 98v162M348 134v126M205 215h190" stroke="#1f2a33" strokeWidth="4" />
-      <rect x="150" y="290" width="150" height="110" fill="url(#licht)" />
+      <rect x="150" y="290" width="150" height="110" fill="url(#glasNacht)" className="glimmen glimmen-2" />
       <path d="M200 290v110M250 290v110" stroke="#1f2a33" strokeWidth="4" />
       <rect x="150" y="290" width="150" height="110" fill="none" stroke="#1f2a33" strokeWidth="5" />
 
-      <rect x="480" y="210" width="330" height="190" fill="#ffffff" />
-      <rect x="470" y="198" width="350" height="16" rx="3" fill="#f4f7f9" />
-      <rect x="480" y="214" width="330" height="8" fill="url(#holz)" />
+      <rect x="480" y="210" width="330" height="190" fill="url(#wand)" />
+      <rect x="470" y="198" width="350" height="16" rx="3" fill="#e8e2dc" />
+      <rect x="480" y="214" width="330" height="8" fill="url(#holzNacht)" />
       <path d="M500 228v42M810 228v42M500 250h310" stroke="#1f2a33" strokeWidth="3" />
       <path d="M520 250v20M550 250v20M580 250v20M610 250v20M640 250v20M670 250v20M700 250v20M730 250v20M760 250v20M790 250v20" stroke="#1f2a33" strokeWidth="2" />
-      <rect x="520" y="226" width="80" height="44" fill="url(#licht)" opacity="0.9" />
-      <rect x="620" y="300" width="170" height="100" fill="#26303a" />
-      <path d="M620 325h170M620 350h170M620 375h170" stroke="#3a4652" strokeWidth="2" />
-      <rect x="612" y="292" width="186" height="8" fill="url(#holz)" />
-      <rect x="505" y="300" width="60" height="100" fill="url(#holz)" />
+      <rect x="520" y="226" width="80" height="44" fill="url(#glasNacht)" className="glimmen glimmen-3" />
+      <rect x="620" y="300" width="170" height="100" fill="#2a303a" />
+      <path d="M620 325h170M620 350h170M620 375h170" stroke="#3a414c" strokeWidth="2" />
+      <rect x="612" y="292" width="186" height="8" fill="url(#holzNacht)" />
+      <rect x="505" y="300" width="60" height="100" fill="url(#holzNacht)" />
       <rect x="520" y="310" width="30" height="90" fill="#1f2a33" />
-      <circle cx="515" cy="318" r="3" fill="#ffe2b0" />
-      <circle cx="605" cy="318" r="3" fill="#ffe2b0" />
+      <circle cx="515" cy="318" r="4" fill="#ffd9a0" className="glimmen" />
+      <circle cx="605" cy="318" r="4" fill="#ffd9a0" className="glimmen glimmen-2" />
 
-      <circle cx="80" cy="330" r="46" fill="#b9d0c9" opacity="0.9" />
-      <rect x="76" y="360" width="8" height="40" fill="#8a9a92" />
-      <circle cx="850" cy="350" r="30" fill="#c5d8d2" />
-      <rect x="847" y="370" width="6" height="30" fill="#8a9a92" />
-      <path d="M300 405h120l-10 12H290Z" fill="#dfe8ee" />
+      <circle cx="80" cy="325" r="50" fill="#2e3d4f" />
+      <rect x="76" y="360" width="8" height="40" fill="#24303d" />
+      <circle cx="850" cy="345" r="34" fill="#34455a" />
+      <rect x="847" y="370" width="6" height="30" fill="#24303d" />
+      <path d="M300 405h120l-10 12H290Z" fill="#3a4658" />
     </svg>
   );
 }
@@ -61,46 +80,53 @@ const FILTER = [
 export function StartBuehne() {
   return (
     <section className="p-3 md:p-5">
-      <div className="buehne relative overflow-hidden rounded-[2rem] md:rounded-[2.75rem] min-h-[640px] lg:min-h-[calc(100vh-2.5rem)] flex flex-col">
-        {/* Filterleiste */}
+      <div className="buehne relative overflow-hidden rounded-[2rem] md:rounded-[2.75rem] min-h-[680px] lg:min-h-[calc(100vh-2.5rem)] flex flex-col">
+        {STERNE.map(([x, y], i) => (
+          <span
+            key={i}
+            className="stern absolute h-[3px] w-[3px] rounded-full bg-white"
+            style={{ left: `${x}%`, top: `${y}%`, animationDelay: `${(i % 5) * 0.8}s` }}
+          />
+        ))}
+        <Wolke className="wolke w-[280px] top-[10%] left-[-10%]" />
+        <Wolke className="wolke wolke-langsam w-[380px] top-[22%] left-[40%]" />
+        <Wolke className="wolke w-[220px] top-[5%] left-[70%]" style={{ animationDelay: "-20s" }} />
+
         <div className="relative z-10 flex items-center justify-between gap-3 p-4 md:p-6">
-          <Link href="/demo" className="milchglas hidden md:inline-flex items-center gap-3 rounded-full px-5 py-3 text-sm font-medium text-[#16202a]">
-            <span className="text-[#2f78a6]">↗</span> Demo anfragen
+          <Link href="/demo" className="milchglas-dunkel hidden md:inline-flex items-center gap-3 rounded-full px-5 py-3 text-sm font-medium text-white">
+            <span className="text-[#ffc47a]">↗</span> Demo anfragen
           </Link>
-          <div className="milchglas mx-auto flex items-center divide-x divide-white/80 rounded-full px-2 py-2 text-[#16202a]">
+          <div className="milchglas-dunkel mx-auto flex items-center divide-x divide-white/15 rounded-full px-2 py-2 text-white">
             {FILTER.map((f, i) => (
               <div key={f.label} className={`px-4 md:px-6 ${i === 2 ? "hidden sm:block" : ""}`}>
-                <p className="text-[10px] text-[#5d6b78]">{f.label}</p>
+                <p className="text-[10px] text-white/60">{f.label}</p>
                 <p className="text-[13px] font-semibold whitespace-nowrap">{f.wert}</p>
               </div>
             ))}
           </div>
-          <Link href="/app" className="milchglas hidden md:inline-flex items-center gap-3 rounded-full px-5 py-3 text-sm font-medium text-[#16202a]">
-            Plan hochladen <span className="text-[#2f78a6]">↗</span>
+          <Link href="/app" className="milchglas-dunkel hidden md:inline-flex items-center gap-3 rounded-full px-5 py-3 text-sm font-medium text-white">
+            Plan hochladen <span className="text-[#ffc47a]">↗</span>
           </Link>
         </div>
 
-        {/* Überschrift */}
         <div className="relative z-10 px-6 text-center">
-          <h1 className="font-display font-semibold tracking-tight leading-[0.95] text-white/90 text-[clamp(3rem,8.5vw,7.5rem)] drop-shadow-[0_2px_24px_rgba(47,120,166,0.25)]">
+          <h1 className="einblenden font-display font-semibold tracking-tight leading-[0.95] text-white text-[clamp(3rem,8.5vw,7.5rem)]">
             Vom Plan
             <br />
-            zur Menge
+            <span className="text-[#ffc47a]">zur Menge</span>
           </h1>
         </div>
-        <p className="relative z-10 mx-6 mt-6 md:absolute md:left-12 md:top-[46%] md:mx-0 md:mt-0 max-w-[30ch] text-[15px] leading-relaxed text-[#16202a]/75">
+        <p className="einblenden einblenden-2 relative z-10 mx-6 mt-6 md:absolute md:left-12 md:top-[46%] md:mx-0 md:mt-0 max-w-[30ch] text-[15px] leading-relaxed text-white/80">
           MengenWerk liest Ihren Einreichplan, erkennt die Bauteile und ermittelt die Mengen nach LB-HB 023. Mit Rechenweg zu
           jeder Position.
         </p>
 
-        {/* Haus */}
-        <div className="relative mt-auto px-2 md:px-24 lg:px-40">
+        <div className="haus-zoom relative mt-auto px-2 md:px-24 lg:px-40">
           <Haus />
         </div>
 
-        {/* Karten */}
         <div className="relative z-10 grid gap-3 p-3 md:absolute md:inset-x-0 md:bottom-0 md:grid-cols-[minmax(0,340px)_1fr_minmax(0,340px)] md:items-end md:p-6">
-          <div className="milchglas rounded-[1.75rem] p-6">
+          <div className="milchglas einblenden einblenden-3 rounded-[1.75rem] p-6">
             <p className="text-[15px] font-semibold text-[#16202a]">Mengen, die man prüfen kann</p>
             <p className="mt-2 text-[13px] leading-relaxed text-[#34424f]">
               Jede Zahl zeigt, aus welchen Maßen sie berechnet wurde. Fehlt etwas im Plan, sehen Sie die Annahme.
@@ -110,25 +136,21 @@ export function StartBuehne() {
                 <p className="text-5xl font-semibold tracking-tight text-[#16202a]">22.650+</p>
                 <p className="text-xs text-[#5d6b78]">Positionen hinterlegt</p>
               </div>
-              <Link href="/app" aria-label="Plan analysieren" className="flex h-11 w-11 items-center justify-center rounded-full bg-white text-[#16202a] hover:bg-[#dcedf7]">
+              <Link href="/app" aria-label="Plan analysieren" className="flex h-11 w-11 items-center justify-center rounded-full bg-[#16202a] text-white hover:bg-[#d9822b] transition">
                 ↗
               </Link>
             </div>
           </div>
 
-          <div className="hidden md:flex justify-center pb-6">
-            <span className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-[0_20px_40px_-20px_rgba(22,32,42,0.4)]">
-              <LogoMark className="h-12 w-12" />
-            </span>
-          </div>
+          <div className="hidden md:block" />
 
-          <div className="milchglas rounded-[1.75rem] p-6">
+          <div className="milchglas einblenden einblenden-3 rounded-[1.75rem] p-6">
             <div className="flex items-start justify-between gap-4">
               <div>
                 <p className="text-[15px] font-semibold text-[#16202a]">EFH Torricelligasse</p>
                 <p className="mt-1 text-xs text-[#5d6b78]">Beispielprojekt, Wien 17</p>
               </div>
-              <Link href="/vorschau" aria-label="Beispiel ansehen" className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-[#16202a] hover:bg-[#dcedf7]">
+              <Link href="/vorschau" aria-label="Beispiel ansehen" className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#16202a] text-white hover:bg-[#d9822b] transition">
                 ↗
               </Link>
             </div>
@@ -141,7 +163,7 @@ export function StartBuehne() {
                 ["47", "Positionen"],
                 ["12", "Gewerke"],
               ].map(([z, l]) => (
-                <div key={l} className="rounded-2xl bg-white/70 py-2.5">
+                <div key={l} className="rounded-2xl bg-[#fbe9d2]/70 py-2.5">
                   <p className="text-sm font-semibold text-[#16202a]">{z}</p>
                   <p className="text-[10px] text-[#5d6b78]">{l}</p>
                 </div>

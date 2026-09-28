@@ -59,7 +59,7 @@ function LoginForm() {
           <button
             type="submit"
             disabled={laedt || !passwort}
-            className="w-full rounded-lg bg-[#3a8fc2] text-white font-medium text-sm py-2.5 hover:bg-[#2f78a6] disabled:opacity-40 transition"
+            className="w-full rounded-lg bg-[#d9822b] text-white font-medium text-sm py-2.5 hover:bg-[#b86a1c] disabled:opacity-40 transition"
           >
             {laedt ? "Prüfe …" : "Anmelden"}
           </button>

@@ -48,7 +48,7 @@ export function ProduktVorschau() {
           <p className="mt-4 text-sm text-[#8b98a4]">Beispielansicht mit Musterprojekten.</p>
         </div>
 
-        <div className="rounded-[1.75rem] border border-[#dde6ea] bg-[#f5f8fa] p-3 md:p-5 shadow-[0_40px_80px_-60px_rgba(58,143,194,0.6)]">
+        <div className="rounded-[1.75rem] border border-[#dde6ea] bg-[#f5f8fa] p-3 md:p-5 shadow-[0_40px_80px_-60px_rgba(217,130,43,0.6)]">
           <div className="grid gap-3 md:gap-4 lg:grid-cols-[1.35fr_1fr_0.9fr]">
             {/* Hauptkachel */}
             <div className="rounded-2xl bg-white p-6 flex flex-col justify-between gap-6 lg:row-span-2">
@@ -57,17 +57,17 @@ export function ProduktVorschau() {
                   <p className="text-xs text-[#8b98a4]">Aktuelles Projekt</p>
                   <p className="mt-1 text-lg font-semibold">EFH Torricelligasse</p>
                 </div>
-                <span className="rounded-full bg-[#d7ecf2] px-3 py-1 text-xs font-medium text-[#2f78a6]">Analyse fertig</span>
+                <span className="rounded-full bg-[#fbe9d2] px-3 py-1 text-xs font-medium text-[#b86a1c]">Analyse fertig</span>
               </div>
               <Haus />
               <div className="grid grid-cols-2 gap-3">
-                <div className="rounded-xl bg-[#d7ecf2] p-4">
-                  <p className="text-xs text-[#2f78a6]">Positionen</p>
+                <div className="rounded-xl bg-[#fbe9d2] p-4">
+                  <p className="text-xs text-[#b86a1c]">Positionen</p>
                   <p className="mt-2 text-3xl font-semibold tracking-tight">47</p>
                   <div className="mt-3 h-1.5 rounded-full bg-white/70">
-                    <div className="h-full w-[94%] rounded-full bg-[#3a8fc2]" />
+                    <div className="h-full w-[94%] rounded-full bg-[#d9822b]" />
                   </div>
-                  <p className="mt-1.5 text-[11px] text-[#2f78a6]">94 % aus dem Plan belegt</p>
+                  <p className="mt-1.5 text-[11px] text-[#b86a1c]">94 % aus dem Plan belegt</p>
                 </div>
                 <div className="rounded-xl bg-[#e6ebf2] p-4">
                   <p className="text-xs text-[#2c4466]">Wohnnutzfläche</p>
@@ -88,7 +88,7 @@ export function ProduktVorschau() {
                   <div key={g.k} className="flex h-full flex-1 flex-col items-center gap-2">
                     <div className="flex w-full flex-1 items-end">
                       <div
-                        className={`w-full rounded-md ${g.w === 100 ? "bg-[#3a8fc2]" : "bg-[#cfe3ea]"}`}
+                        className={`w-full rounded-md ${g.w === 100 ? "bg-[#d9822b]" : "bg-[#f1dcbc]"}`}
                         style={{ height: `${g.w}%` }}
                       />
                     </div>

@@ -1,7 +1,7 @@
 // Prüflauf der Ableitung gegen die von Hand gerechneten Mengen des
 // Einreichplans Torricelligasse 29. Aufruf: npm run pruefe
 import { baueMassenauszug, mitKostenschaetzung } from "../src/lib/ableitung.ts";
-import { gleicheWohnnutzflaecheAb } from "../src/lib/plan-lesen.ts";
+import { gleicheWohnnutzflaecheAb, istRaumname } from "../src/lib/plan-lesen.ts";
 import { NACHWEISE, nachweisAnweisung } from "../src/lib/nachweise.ts";
 import type { DetectedElement, PlanKontext, Raum } from "../src/lib/types.ts";
 import { Verbrauch, formatiereKosten } from "../src/lib/verbrauch.ts";
@@ -295,6 +295,12 @@ pruefe("Keller und Garage auf eigenem Blatt bleiben erhalten", () => {
   const ug = [raum("Hobbyraum", 45, "Blatt 1"), raum("Vorrat", 30, "Blatt 1"), raum("Waschen", 36, "Blatt 1")];
   const a = gleicheWohnnutzflaecheAb([...eg, ...og, ...ug, ...garage], 189);
   if (!a.raeume.some((r) => r.name === "Garage") || a.raeume.length !== 12) throw new Error(`${a.raeume.length} Räume`);
+});
+
+pruefe("Belagszeilen im Raumstempel werden nicht zum Raumnamen", () => {
+  const falsch = ["Parkett", "200 Parkett", "Fliesen 200", "Estrich", "Fliesen"].filter(istRaumname);
+  const richtig = ["Bad", "Wohnküche", "Steinterrasse", "Kind 1", "Abstellraum"].filter((n) => !istRaumname(n));
+  if (falsch.length || richtig.length) throw new Error(`als Raum: ${falsch.join(", ")}; abgelehnt: ${richtig.join(", ")}`);
 });
 
 pruefe("Erdarbeiten, Dachkonstruktion, Dämmung und PV sind enthalten", () => {

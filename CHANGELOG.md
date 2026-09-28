@@ -5,6 +5,7 @@ egal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt — nicht händisch bearbeiten.
 
+- **2026-09-28 07:49** · Claude · `38df6d3` — Belagszeilen im Raumstempel nicht mehr als Raumnamen lesen
 - **2026-09-28 07:47** · Claude · `9fe58b6` — Raumbuch mit der Wohnnutzfläche abgleichen statt den Plan abzulehnen
 - **2026-09-28 07:44** · Claude · `dd315d3` — Startseiten-Animation fotorealistisch: echte Ziegel, echte Bäume, echter Horizont
 - **2026-09-28 07:09** · Claude · `4e59442` — Changelog-Einträge nicht mehr an die Kopfzeile kleben

@@ -1,12 +1,16 @@
 import Link from "next/link";
 
-export function Eyebrow({ children, tone = "dark" }: { children: React.ReactNode; tone?: "dark" | "light" }) {
+export const FARBEN = {
+  tinte: "#1c1a33",
+  gedaempft: "#625f7d",
+  indigo: "#3a2f9e",
+  apricot: "#f08a5d",
+};
+
+export function Eyebrow({ children }: { children: React.ReactNode; tone?: string }) {
   return (
-    <p
-      className={`font-mono text-[11px] uppercase tracking-[0.22em] mb-4 ${
-        tone === "dark" ? "text-[#b6e36b]" : "text-[#2f5fd0]"
-      }`}
-    >
+    <p className="inline-flex items-center gap-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#3a2f9e] mb-4">
+      <span className="h-1.5 w-1.5 rounded-full bg-[#f08a5d]" />
       {children}
     </p>
   );
@@ -19,9 +23,9 @@ export function Container({ children, className = "" }: { children: React.ReactN
 type Ton = "dunkel" | "hell" | "grau";
 
 const TON: Record<Ton, string> = {
-  dunkel: "bg-[#121b30] text-white bg-raster",
-  hell: "bg-[#f7f9fc] text-[#0f172a]",
-  grau: "bg-[#eef2f7] text-[#0f172a]",
+  dunkel: "bg-himmel text-[#1c1a33]",
+  hell: "bg-[#f7f6fb] text-[#1c1a33]",
+  grau: "bg-[#efedf7] text-[#1c1a33]",
 };
 
 export function Abschnitt({
@@ -36,7 +40,7 @@ export function Abschnitt({
   id?: string;
 }) {
   return (
-    <section id={id} className={`${TON[ton]} py-20 md:py-24 ${className}`}>
+    <section id={id} className={`${TON[ton]} py-20 md:py-28 scroll-mt-24 ${className}`}>
       <Container>{children}</Container>
     </section>
   );
@@ -46,23 +50,17 @@ export function AbschnittKopf({
   eyebrow,
   titel,
   text,
-  ton = "hell",
 }: {
   eyebrow: string;
   titel: React.ReactNode;
   text?: React.ReactNode;
   ton?: Ton;
 }) {
-  const dunkel = ton === "dunkel";
   return (
     <div className="max-w-2xl mb-12">
-      <Eyebrow tone={dunkel ? "dark" : "light"}>{eyebrow}</Eyebrow>
-      <h2 className="font-display font-extrabold tracking-tight text-[clamp(1.6rem,3vw,2.25rem)] leading-[1.1]">
-        {titel}
-      </h2>
-      {text && (
-        <p className={`mt-4 text-[15px] leading-relaxed ${dunkel ? "text-white/55" : "text-[#56627a]"}`}>{text}</p>
-      )}
+      <Eyebrow>{eyebrow}</Eyebrow>
+      <h2 className="font-display font-bold tracking-tight text-[clamp(1.7rem,3.2vw,2.5rem)] leading-[1.1]">{titel}</h2>
+      {text && <p className="mt-4 text-[15px] leading-relaxed text-[#625f7d]">{text}</p>}
     </div>
   );
 }
@@ -79,13 +77,13 @@ export function SeitenHero({
   children?: React.ReactNode;
 }) {
   return (
-    <section className="bg-[#121b30] text-white bg-raster">
-      <Container className="pt-24 pb-20">
+    <section className="bg-himmel text-[#1c1a33]">
+      <Container className="pt-20 pb-20">
         <Eyebrow>{eyebrow}</Eyebrow>
-        <h1 className="font-display font-extrabold tracking-tight leading-[1.05] text-[clamp(2.2rem,5vw,3.6rem)] max-w-3xl">
+        <h1 className="font-display font-bold tracking-tight leading-[1.05] text-[clamp(2.3rem,5vw,3.8rem)] max-w-3xl">
           {titel}
         </h1>
-        {text && <p className="mt-6 text-[1.05rem] text-white/60 max-w-2xl leading-relaxed">{text}</p>}
+        {text && <p className="mt-6 text-[1.05rem] text-[#625f7d] max-w-2xl leading-relaxed">{text}</p>}
         {children && <div className="mt-9">{children}</div>}
       </Container>
     </section>
@@ -95,7 +93,6 @@ export function SeitenHero({
 export function Karte({
   titel,
   children,
-  ton = "hell",
   nummer,
 }: {
   titel: string;
@@ -103,16 +100,15 @@ export function Karte({
   ton?: Ton;
   nummer?: string;
 }) {
-  const dunkel = ton === "dunkel";
   return (
-    <div
-      className={`rounded-xl border p-6 ${
-        dunkel ? "border-white/10 bg-white/[0.03]" : "border-[#e3e8f0] bg-white shadow-[0_1px_2px_rgba(0,0,0,0.03)]"
-      }`}
-    >
-      {nummer && <p className="font-display font-extrabold text-2xl text-[#b6e36b] mb-3">{nummer}</p>}
-      <h3 className="font-semibold text-[15px] mb-2">{titel}</h3>
-      <div className={`text-sm leading-relaxed ${dunkel ? "text-white/50" : "text-[#5f6b80]"}`}>{children}</div>
+    <div className="glas rounded-3xl p-7 transition hover:-translate-y-0.5 hover:shadow-[0_18px_40px_-20px_rgba(58,47,158,0.35)]">
+      {nummer && (
+        <p className="mb-5 inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#fde9df] font-display font-bold text-[#d86f43]">
+          {nummer}
+        </p>
+      )}
+      <h3 className="font-semibold text-[16px] mb-2">{titel}</h3>
+      <div className="text-sm leading-relaxed text-[#625f7d]">{children}</div>
     </div>
   );
 }
@@ -121,30 +117,18 @@ export function KnopfPrimaer({ href, children }: { href: string; children: React
   return (
     <Link
       href={href}
-      className="inline-flex items-center gap-2 rounded-full bg-[#b6e36b] text-[#121b30] font-semibold text-sm px-6 py-3 hover:brightness-105 transition"
+      className="inline-flex items-center gap-2 rounded-full bg-[#3a2f9e] text-white font-medium text-sm px-6 py-3 shadow-[0_10px_24px_-10px_rgba(58,47,158,0.6)] hover:bg-[#2f2585] transition"
     >
       {children}
     </Link>
   );
 }
 
-export function KnopfSekundaer({
-  href,
-  children,
-  ton = "dunkel",
-}: {
-  href: string;
-  children: React.ReactNode;
-  ton?: "dunkel" | "hell";
-}) {
+export function KnopfSekundaer({ href, children }: { href: string; children: React.ReactNode; ton?: string }) {
   return (
     <Link
       href={href}
-      className={`inline-flex items-center gap-2 rounded-full border font-semibold text-sm px-6 py-3 transition ${
-        ton === "dunkel"
-          ? "border-white/20 text-white hover:border-white/40"
-          : "border-[#d6dde8] text-[#0f172a] bg-white hover:border-[#a9b3c3]"
-      }`}
+      className="inline-flex items-center gap-2 rounded-full bg-white/80 backdrop-blur border border-[#e7e4f0] text-[#1c1a33] font-medium text-sm px-6 py-3 hover:bg-white transition"
     >
       {children}
     </Link>
@@ -159,15 +143,17 @@ export function CtaBand({
   text?: string;
 }) {
   return (
-    <section className="bg-[#121b30] text-white bg-raster">
-      <Container className="py-24">
-        <h2 className="font-display font-extrabold tracking-tight leading-[1.08] text-[clamp(2rem,4vw,3rem)] max-w-2xl">
-          {titel}
-        </h2>
-        <p className="mt-5 text-white/60 max-w-xl leading-relaxed">{text}</p>
-        <div className="mt-9 flex flex-wrap gap-3">
-          <KnopfPrimaer href="/demo">Demo anfragen →</KnopfPrimaer>
-          <KnopfSekundaer href="/app">Eigenen Plan testen</KnopfSekundaer>
+    <section className="bg-[#f7f6fb] py-20">
+      <Container>
+        <div className="bg-himmel rounded-[2rem] border border-white px-8 py-16 md:px-16 text-[#1c1a33] shadow-[0_30px_60px_-40px_rgba(58,47,158,0.45)]">
+          <h2 className="font-display font-bold tracking-tight leading-[1.08] text-[clamp(2rem,4vw,3rem)] max-w-2xl">
+            {titel}
+          </h2>
+          <p className="mt-5 text-[#625f7d] max-w-xl leading-relaxed">{text}</p>
+          <div className="mt-9 flex flex-wrap gap-3">
+            <KnopfPrimaer href="/demo">Demo anfragen →</KnopfPrimaer>
+            <KnopfSekundaer href="/app">Eigenen Plan testen</KnopfSekundaer>
+          </div>
         </div>
       </Container>
     </section>

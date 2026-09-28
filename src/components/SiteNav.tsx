@@ -11,36 +11,34 @@ const LINKS = [
 
 export function SiteNav() {
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-[#e3e8f0] text-[#0f172a]">
-      <nav className="max-w-6xl mx-auto px-6 md:px-10 h-16 flex items-center justify-between gap-6">
+    <header className="sticky top-0 z-50 px-4 pt-4">
+      <nav className="glas max-w-6xl mx-auto rounded-full h-14 pl-5 pr-2 flex items-center justify-between gap-6 text-[#1c1a33]">
         <Link href="/" aria-label="MengenWerk Startseite">
           <Logo />
         </Link>
-        <div className="hidden lg:flex items-center gap-7">
+        <div className="hidden lg:flex items-center gap-1">
           {LINKS.map((l) => (
-            <Link key={l.href} href={l.href} className="text-[13px] text-[#56627a] hover:text-[#0f172a] transition">
+            <Link
+              key={l.href}
+              href={l.href}
+              className="rounded-full px-3.5 py-1.5 text-[13px] text-[#625f7d] hover:bg-[#efedf7] hover:text-[#1c1a33] transition"
+            >
               {l.label}
             </Link>
           ))}
         </div>
         <div className="flex items-center gap-2">
           <Link
-            href="/vorschau"
-            className="hidden md:inline text-[13px] text-[#56627a] hover:text-[#0f172a] mr-2"
-          >
-            ↓ Beispielauswertung
-          </Link>
-          <Link
             href="/login"
-            className="rounded-full border border-[#d6dde8] px-4 py-2 text-[13px] font-medium hover:border-[#a9b3c3] transition"
+            className="rounded-full px-4 py-2 text-[13px] font-medium text-[#1c1a33] hover:bg-[#efedf7] transition"
           >
             Login
           </Link>
           <Link
             href="/demo"
-            className="rounded-full bg-[#2f5fd0] text-white px-4 py-2 text-[13px] font-medium hover:bg-[#274fb0] transition"
+            className="rounded-full bg-[#3a2f9e] text-white px-4 py-2 text-[13px] font-medium hover:bg-[#2f2585] transition"
           >
-            Demo anfragen
+            Demo anfragen ↗
           </Link>
         </div>
       </nav>
@@ -55,7 +53,7 @@ const NAVIGATION = [
   { href: "/ueber-uns", label: "Über uns" },
   { href: "/demo", label: "Demo anfragen" },
   { href: "/vorschau", label: "Beispielauswertung" },
-  { href: "/login", label: "Login ↗" },
+  { href: "/login", label: "Login" },
 ];
 
 const WERKZEUGE = [
@@ -66,28 +64,28 @@ const WERKZEUGE = [
 
 export function SiteFooter() {
   return (
-    <footer className="bg-[#121b30] text-white">
+    <footer className="bg-[#efedf7] text-[#1c1a33]">
       <div className="max-w-6xl mx-auto px-6 md:px-10 py-16 grid md:grid-cols-[1.6fr_1fr_1fr] gap-12">
         <div>
-          <Logo dark />
-          <p className="mt-5 text-sm text-white/55 leading-relaxed max-w-sm">
+          <Logo />
+          <p className="mt-5 text-sm text-[#625f7d] leading-relaxed max-w-sm">
             KI-gestützte Mengenermittlung für österreichische Baubetriebe. Vom Einreichplan zum Massenauszug nach
             LB-HB 023 — mit sichtbarem Rechenweg.
           </p>
-          <a href="mailto:office@msv-digital.com" className="mt-5 inline-block text-sm text-[#b6e36b] hover:underline">
+          <a href="mailto:office@msv-digital.com" className="mt-5 inline-block text-sm font-medium text-[#3a2f9e] hover:underline">
             office@msv-digital.com
           </a>
         </div>
         <FooterSpalte titel="Navigation" links={NAVIGATION} />
         <FooterSpalte titel="Werkzeuge" links={WERKZEUGE} />
       </div>
-      <div className="border-t border-white/10">
-        <div className="max-w-6xl mx-auto px-6 md:px-10 py-6 flex flex-col sm:flex-row gap-3 sm:justify-between text-xs text-white/40">
+      <div className="border-t border-[#e0dcec]">
+        <div className="max-w-6xl mx-auto px-6 md:px-10 py-6 flex flex-col sm:flex-row gap-3 sm:justify-between text-xs text-[#8e8aa6]">
           <p>© {new Date().getFullYear()} MengenWerk · Gebaut für Baubetriebe in Österreich</p>
           <div className="flex gap-5">
-            <Link href="/impressum" className="hover:text-white/70">Impressum</Link>
-            <Link href="/datenschutz" className="hover:text-white/70">Datenschutz</Link>
-            <Link href="/kontakt" className="hover:text-white/70">Kontakt</Link>
+            <Link href="/impressum" className="hover:text-[#1c1a33]">Impressum</Link>
+            <Link href="/datenschutz" className="hover:text-[#1c1a33]">Datenschutz</Link>
+            <Link href="/kontakt" className="hover:text-[#1c1a33]">Kontakt</Link>
           </div>
         </div>
       </div>
@@ -98,11 +96,11 @@ export function SiteFooter() {
 function FooterSpalte({ titel, links }: { titel: string; links: { href: string; label: string }[] }) {
   return (
     <div>
-      <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#b6e36b] mb-4">{titel}</p>
+      <p className="text-[12px] font-medium uppercase tracking-[0.18em] text-[#8e8aa6] mb-4">{titel}</p>
       <ul className="space-y-2.5">
         {links.map((l) => (
           <li key={l.href}>
-            <Link href={l.href} className="text-sm text-white/65 hover:text-white">
+            <Link href={l.href} className="text-sm text-[#3b3857] hover:text-[#3a2f9e]">
               {l.label}
             </Link>
           </li>

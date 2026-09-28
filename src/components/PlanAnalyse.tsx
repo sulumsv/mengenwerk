@@ -114,10 +114,10 @@ function Grundriss({ kapitel, statisch = false }: { kapitel: number; statisch?: 
       {statisch && erkennung && (
         <g>
           {RAEUME.map((r) => (
-            <rect key={r.name} x={r.x + 2} y={r.y + 2} width={r.w - 4} height={r.h - 4} fill="#b6e36b" fillOpacity="0.12" stroke="#8fbf45" strokeWidth="1.6" />
+            <rect key={r.name} x={r.x + 2} y={r.y + 2} width={r.w - 4} height={r.h - 4} fill="#f08a5d" fillOpacity="0.12" stroke="#d86f43" strokeWidth="1.6" />
           ))}
           {schlitze.map((s, i) => (
-            <circle key={i} cx={s.x + s.w / 2} cy={s.y + s.d / 2} r="9" fill="none" stroke={s.art === "fenster" ? "#2f5fd0" : "#8fbf45"} strokeWidth="1.6" />
+            <circle key={i} cx={s.x + s.w / 2} cy={s.y + s.d / 2} r="9" fill="none" stroke={s.art === "fenster" ? "#3a2f9e" : "#d86f43"} strokeWidth="1.6" />
           ))}
         </g>
       )}
@@ -131,9 +131,9 @@ function Grundriss({ kapitel, statisch = false }: { kapitel: number; statisch?: 
                 y={r.y + 2}
                 width={r.w - 4}
                 height={r.h - 4}
-                fill="#b6e36b"
+                fill="#f08a5d"
                 fillOpacity="0.12"
-                stroke="#8fbf45"
+                stroke="#d86f43"
                 strokeWidth="1.6"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -147,7 +147,7 @@ function Grundriss({ kapitel, statisch = false }: { kapitel: number; statisch?: 
                 cy={s.y + s.d / 2}
                 r="9"
                 fill="none"
-                stroke={s.art === "fenster" ? "#2f5fd0" : "#8fbf45"}
+                stroke={s.art === "fenster" ? "#3a2f9e" : "#d86f43"}
                 strokeWidth="1.6"
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
@@ -198,9 +198,9 @@ export function PlanAnalyseSection() {
       <div
         className="sticky top-0 h-screen overflow-hidden"
         style={{
-          backgroundColor: "#eef2f7",
+          backgroundColor: "#efeef6",
           backgroundImage:
-            "linear-gradient(rgba(18,27,48,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(18,27,48,0.05) 1px, transparent 1px)",
+            "linear-gradient(rgba(28,26,51,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(28,26,51,0.05) 1px, transparent 1px)",
           backgroundSize: "32px 32px",
         }}
       >
@@ -234,7 +234,7 @@ export function PlanAnalyseSection() {
         </div>
 
         <div className="absolute left-4 right-4 bottom-4 md:left-10 md:right-auto md:bottom-10 md:w-[440px]">
-          <div className="rounded-2xl bg-[#121b30]/95 text-white p-6 md:p-8 shadow-2xl backdrop-blur">
+          <div className="rounded-2xl bg-[#1c1a33]/95 text-white p-6 md:p-8 shadow-2xl backdrop-blur">
             <AnimatePresence mode="wait">
               <motion.div
                 key={kapitel}
@@ -243,7 +243,7 @@ export function PlanAnalyseSection() {
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.3 }}
               >
-                <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#b6e36b]">{k.marke}</p>
+                <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#f08a5d]">{k.marke}</p>
                 <h3 className="mt-3 font-display font-black text-[clamp(1.8rem,3.4vw,2.6rem)] leading-[1.02] tracking-tight">
                   {k.titel}
                 </h3>
@@ -252,7 +252,7 @@ export function PlanAnalyseSection() {
                   <div className="mt-6 flex gap-3 flex-wrap">
                     <a
                       href="/app"
-                      className="rounded-lg bg-[#b6e36b] text-[#121b30] font-display font-black uppercase text-xs tracking-wide px-5 py-3 hover:brightness-105"
+                      className="rounded-lg bg-[#f08a5d] text-[#1c1a33] font-display font-black uppercase text-xs tracking-wide px-5 py-3 hover:brightness-105"
                     >
                       Eigenen Plan analysieren →
                     </a>
@@ -268,7 +268,7 @@ export function PlanAnalyseSection() {
             </AnimatePresence>
             <div className="mt-6 flex gap-1.5">
               {KAPITEL.map((_, i) => (
-                <div key={i} className={`h-0.5 flex-1 rounded-full transition-colors duration-300 ${i <= kapitel ? "bg-[#b6e36b]" : "bg-white/15"}`} />
+                <div key={i} className={`h-0.5 flex-1 rounded-full transition-colors duration-300 ${i <= kapitel ? "bg-[#f08a5d]" : "bg-white/15"}`} />
               ))}
             </div>
           </div>

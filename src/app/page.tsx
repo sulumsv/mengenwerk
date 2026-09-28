@@ -25,7 +25,7 @@ const BELEGE = [
 ];
 
 const BADGE: Record<string, string> = {
-  PLAN: "bg-[#e7f5eb] text-[#2f5fd0] border-[#bfe3c9]",
+  PLAN: "bg-[#e7f5eb] text-[#3a2f9e] border-[#bfe3c9]",
   HERLEIT: "bg-[#eef2fb] text-[#2d5bb8] border-[#cbd8f3]",
   ANNAHME: "bg-[#fdf3d7] text-[#8a6a00] border-[#f1dc9a]",
 };
@@ -56,20 +56,37 @@ const FAQ = [
 
 export default function Home() {
   return (
-    <main className="flex-1 bg-[#f7f9fc]">
+    <main className="flex-1 bg-[#f7f6fb]">
       <SiteNav />
 
       {/* Hero */}
-      <section className="bg-[#121b30] text-white bg-raster">
-        <Container className="pt-20 pb-24 grid lg:grid-cols-[1.25fr_1fr] gap-14 items-center">
-          <div>
-            <p className="inline-block rounded-full border border-white/15 px-3 py-1 font-mono text-[10px] uppercase tracking-[0.2em] text-white/55 mb-7">
-              KI-Mengenermittlung · Österreich
+      <section className="px-4 pt-4">
+        <div className="bg-himmel relative overflow-hidden rounded-[2.5rem] max-w-7xl mx-auto text-[#1c1a33]">
+          <svg
+            aria-hidden
+            viewBox="0 0 600 400"
+            className="pointer-events-none absolute right-[-6%] bottom-[-10%] w-[62%] opacity-[0.22] text-[#3a2f9e] hidden lg:block"
+            fill="none"
+            stroke="currentColor"
+          >
+            <rect x="60" y="40" width="440" height="300" strokeWidth="6" />
+            <path d="M260 40v170M60 210h200M380 210v130M380 210h120" strokeWidth="3" />
+            <path d="M140 340h70M420 40h60M60 110v60" stroke="#f08a5d" strokeWidth="8" />
+            <path d="M60 370h440M60 362v16M500 362v16" strokeWidth="2" />
+          </svg>
+
+          <Container className="relative pt-20 pb-16 md:pt-28 md:pb-20">
+            <p className="glas inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-[12px] font-medium text-[#3a2f9e] mb-8">
+              <span className="h-1.5 w-1.5 rounded-full bg-[#f08a5d]" />
+              KI-Mengenermittlung für Österreich
             </p>
-            <h1 className="font-display font-extrabold tracking-tight leading-[1.02] text-[clamp(2.4rem,5.5vw,4.2rem)]">
-              Vom Einreichplan zum <span className="text-[#b6e36b]">belastbaren Massenauszug.</span>
+            <h1 className="font-display font-bold tracking-tight leading-[1.02] text-[clamp(2.6rem,6vw,4.8rem)] max-w-4xl">
+              Vom Einreichplan zum{" "}
+              <span className="bg-gradient-to-r from-[#3a2f9e] to-[#f08a5d] bg-clip-text text-transparent">
+                belastbaren Massenauszug.
+              </span>
             </h1>
-            <p className="mt-7 text-[1.05rem] text-white/60 max-w-[46ch] leading-relaxed">
+            <p className="mt-7 text-[1.1rem] text-[#625f7d] max-w-[50ch] leading-relaxed">
               MengenWerk liest Ihren Plan, erkennt alle Bauteile und erstellt die Mengenermittlung — strukturiert nach
               LB-HB 023, mit sichtbarem Rechenweg für jede Position.
             </p>
@@ -77,59 +94,65 @@ export default function Home() {
               <KnopfPrimaer href="/demo">Demo anfragen →</KnopfPrimaer>
               <KnopfSekundaer href="/app">Plan analysieren</KnopfSekundaer>
             </div>
-          </div>
 
-          <div className="space-y-3">
-            <div className="rounded-xl border border-white/10 bg-white/[0.04] p-5">
-              <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/40 mb-2">Input</p>
-              <p className="font-semibold mb-3">Einreichplan (PDF)</p>
-              <ul className="grid grid-cols-2 gap-1.5 text-sm text-white/55">
-                {["Grundrisse", "Schnitte", "Ansichten", "Maßketten"].map((x) => (
-                  <li key={x}>· {x}</li>
-                ))}
-              </ul>
+            <div className="mt-16 grid md:grid-cols-[1fr_1fr_0.8fr] gap-4">
+              <div className="glas rounded-3xl p-6">
+                <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-[#8e8aa6] mb-2">Sie laden hoch</p>
+                <p className="font-semibold mb-3">Einreichplan (PDF)</p>
+                <div className="flex flex-wrap gap-1.5">
+                  {["Grundrisse", "Schnitte", "Ansichten", "Maßketten"].map((x) => (
+                    <span key={x} className="rounded-full bg-[#efedf7] px-3 py-1 text-xs text-[#3b3857]">
+                      {x}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <div className="glas rounded-3xl p-6">
+                <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-[#8e8aa6] mb-2">Sie erhalten</p>
+                <p className="font-semibold mb-3">Massenauszug + Rechenweg</p>
+                <ul className="space-y-1.5 text-sm text-[#3b3857]">
+                  {["Mengen nach LB-HB 023", "Rechenweg und Quelle je Position", "Offen markierte Annahmen"].map((x) => (
+                    <li key={x} className="flex gap-2">
+                      <span className="text-[#f08a5d]">✓</span>
+                      {x}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="rounded-3xl bg-[#3a2f9e] text-white p-6 flex flex-col justify-between">
+                <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-white/60">Hinterlegt</p>
+                <div>
+                  <p className="font-display font-bold text-5xl tracking-tight">22.650+</p>
+                  <p className="mt-1 text-sm text-white/70">Positionen aus 59 Leistungsgruppen</p>
+                </div>
+              </div>
             </div>
-            <p className="text-center font-mono text-xs text-[#b6e36b]">↓ MengenWerk rechnet</p>
-            <div className="rounded-xl border border-[#b6e36b]/30 bg-[#b6e36b]/[0.06] p-5">
-              <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#b6e36b]/80 mb-2">Output</p>
-              <p className="font-semibold mb-3">Massenauszug + Rechenweg</p>
-              <ul className="space-y-1.5 text-sm text-white/65">
-                {[
-                  "Mengen nach LB-HB 023",
-                  "Rechenweg und Quelle je Position",
-                  "Offen markierte Annahmen",
-                  "Export als PDF und Excel",
-                ].map((x) => (
-                  <li key={x}>✓ {x}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </Container>
+          </Container>
+        </div>
       </section>
 
       {/* Kennzahlen */}
-      <section className="bg-white border-b border-[#e3e8f0]">
-        <Container className="grid grid-cols-2 md:grid-cols-4">
+      <section className="bg-[#f7f6fb]">
+        <Container className="grid grid-cols-2 md:grid-cols-4 gap-4 py-10">
           {[
             { wert: "< 5 Min.", label: "vom Plan zum Massenauszug" },
             { wert: "LB-HB 023", label: "Standardleistungsbuch Hochbau" },
-            { wert: "22.650+", label: "hinterlegte Positionen" },
+            { wert: "0 €", label: "Einrichtung, kein Abo nötig" },
             { wert: "100 %", label: "Rechenweg sichtbar" },
           ].map(({ wert, label }) => (
-            <div key={label} className="py-8 pr-6">
-              <p className="font-display font-extrabold text-2xl text-[#0f172a]">{wert}</p>
-              <p className="text-xs text-[#5f6b80] mt-1">{label}</p>
+            <div key={label} className="rounded-3xl bg-white border border-[#e7e4f0] px-6 py-5">
+              <p className="font-display font-bold text-2xl text-[#1c1a33]">{wert}</p>
+              <p className="text-xs text-[#625f7d] mt-1">{label}</p>
             </div>
           ))}
         </Container>
       </section>
 
       {/* Leitsatz */}
-      <section className="bg-[#121b30] text-white">
-        <Container className="py-14">
-          <p className="font-display font-extrabold tracking-tight text-[clamp(1.4rem,3vw,2rem)] leading-tight max-w-3xl">
-            Vom Plan zur Menge — <span className="text-[#b6e36b]">in Minuten</span>, nicht in Stunden oder Tagen.
+      <section className="bg-[#f7f6fb]">
+        <Container className="py-10 text-center">
+          <p className="font-display font-bold tracking-tight text-[clamp(1.5rem,3.2vw,2.3rem)] leading-tight max-w-3xl mx-auto text-[#1c1a33]">
+            Vom Plan zur Menge — <span className="text-[#f08a5d]">in Minuten</span>, nicht in Stunden oder Tagen.
           </p>
         </Container>
       </section>
@@ -142,23 +165,23 @@ export default function Home() {
             <h2 className="font-display font-extrabold tracking-tight text-[clamp(1.6rem,3vw,2.25rem)] leading-[1.1]">
               Aufmaß kostet Tage — und verzeiht keine vergessene Position.
             </h2>
-            <p className="mt-5 text-[15px] text-[#56627a] leading-relaxed">
+            <p className="mt-5 text-[15px] text-[#625f7d] leading-relaxed">
               Mengen aus Plänen von Hand herauszumessen ist langsam, fehleranfällig und schwer nachvollziehbar. Eine
               übersehene Wand oder ein falsch abgezogenes Fenster fällt oft erst auf der Baustelle auf.
             </p>
-            <p className="mt-4 text-[15px] text-[#0f172a] leading-relaxed font-medium">
+            <p className="mt-4 text-[15px] text-[#1c1a33] leading-relaxed font-medium">
               MengenWerk liest den Einreichplan, ermittelt die Mengen und zeigt für jede Position, woher sie kommt.
             </p>
           </div>
-          <div className="rounded-xl bg-[#121b30] bg-raster aspect-[4/3] p-8 flex flex-col justify-between">
-            <svg viewBox="0 0 200 130" className="w-full text-white/70" fill="none" stroke="currentColor">
+          <div className="bg-himmel rounded-[2rem] border border-white aspect-[4/3] p-8 flex flex-col justify-between shadow-[0_30px_60px_-40px_rgba(58,47,158,0.45)]">
+            <svg viewBox="0 0 200 130" className="w-full text-[#3a2f9e]" fill="none" stroke="currentColor">
               <rect x="20" y="15" width="160" height="100" strokeWidth="2.5" />
               <path d="M95 15v55M20 70h75M130 70v45" strokeWidth="1.5" />
-              <path d="M55 115h20M150 15h20" stroke="#b6e36b" strokeWidth="3" />
-              <path d="M20 125h160M20 122v6M180 122v6" stroke="#5b8cff" strokeWidth="1" />
-              <text x="100" y="128" fontSize="6" fill="#5b8cff" stroke="none" textAnchor="middle">12,10 m</text>
+              <path d="M55 115h20M150 15h20" stroke="#f08a5d" strokeWidth="3" />
+              <path d="M20 125h160M20 122v6M180 122v6" stroke="#8e8aa6" strokeWidth="1" />
+              <text x="100" y="128" fontSize="6" fill="#625f7d" stroke="none" textAnchor="middle">12,10 m</text>
             </svg>
-            <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/40 text-center">
+            <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-[#8e8aa6] text-center">
               Aus dem Plan zur Menge
             </p>
           </div>
@@ -183,9 +206,7 @@ export default function Home() {
       </Abschnitt>
 
       {/* Animationen */}
-      <div className="bg-[#121b30] text-white">
-        <PlanAnalyseSection />
-      </div>
+      <PlanAnalyseSection />
 
       {/* Belege */}
       <Abschnitt ton="grau">
@@ -194,10 +215,10 @@ export default function Home() {
           titel="Fragen Sie bei jeder Zahl: Woher kommt sie?"
           text="Vier Zeilen aus einem Massenauszug für ein Einfamilienhaus. Jede Position trägt ihre Rechnung, ihre Quelle im Plan und eine klare Kennzeichnung."
         />
-        <div className="rounded-xl border border-[#e3e8f0] bg-white overflow-x-auto">
+        <div className="rounded-xl border border-[#e7e4f0] bg-white overflow-x-auto">
           <table className="w-full text-sm min-w-[720px]">
             <thead>
-              <tr className="text-left font-mono text-[10px] uppercase tracking-[0.15em] text-[#8b95a7] border-b border-[#eef2f7]">
+              <tr className="text-left font-mono text-[10px] uppercase tracking-[0.15em] text-[#8e8aa6] border-b border-[#efeef6]">
                 <th className="px-5 py-3 font-normal">Pos.</th>
                 <th className="px-5 py-3 font-normal">Leistung</th>
                 <th className="px-5 py-3 font-normal text-right">Menge</th>
@@ -208,12 +229,12 @@ export default function Home() {
             </thead>
             <tbody>
               {BELEGE.map((b) => (
-                <tr key={b.pos} className="border-b border-[#f1f4f9] last:border-0 align-top">
-                  <td className="px-5 py-4 font-mono text-xs text-[#8b95a7]">{b.pos}</td>
+                <tr key={b.pos} className="border-b border-[#f2f1f8] last:border-0 align-top">
+                  <td className="px-5 py-4 font-mono text-xs text-[#8e8aa6]">{b.pos}</td>
                   <td className="px-5 py-4 font-medium">{b.text}</td>
                   <td className="px-5 py-4 text-right font-num whitespace-nowrap">{b.menge}</td>
-                  <td className="px-5 py-4 text-[#56627a] font-mono text-xs">{b.weg}</td>
-                  <td className="px-5 py-4 text-[#56627a] text-xs">{b.quelle}</td>
+                  <td className="px-5 py-4 text-[#625f7d] font-mono text-xs">{b.weg}</td>
+                  <td className="px-5 py-4 text-[#625f7d] text-xs">{b.quelle}</td>
                   <td className="px-5 py-4">
                     <span className={`inline-block rounded border px-2 py-0.5 font-mono text-[10px] ${BADGE[b.art]}`}>
                       {b.art}
@@ -227,15 +248,15 @@ export default function Home() {
         <div className="mt-8 grid md:grid-cols-3 gap-6 text-sm">
           <div>
             <p className="font-semibold mb-1">Plan</p>
-            <p className="text-[#5f6b80]">Die Zahl steht so im Plan — Maßkette, Beschriftung, Symbol.</p>
+            <p className="text-[#625f7d]">Die Zahl steht so im Plan — Maßkette, Beschriftung, Symbol.</p>
           </div>
           <div>
             <p className="font-semibold mb-1">Herleit</p>
-            <p className="text-[#5f6b80]">Aus Planmaßen berechnet. Die Formel steht daneben und lässt sich nachrechnen.</p>
+            <p className="text-[#625f7d]">Aus Planmaßen berechnet. Die Formel steht daneben und lässt sich nachrechnen.</p>
           </div>
           <div>
             <p className="font-semibold mb-1">Annahme</p>
-            <p className="text-[#5f6b80]">Die Information fehlt im Plan. MengenWerk sagt, was fehlt und welcher Wert angesetzt wurde.</p>
+            <p className="text-[#625f7d]">Die Information fehlt im Plan. MengenWerk sagt, was fehlt und welcher Wert angesetzt wurde.</p>
           </div>
         </div>
       </Abschnitt>
@@ -266,11 +287,11 @@ export default function Home() {
 
       {/* Beispiel */}
       <Abschnitt>
-        <div className="rounded-2xl border border-[#e3e8f0] bg-white p-8 md:p-10 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+        <div className="rounded-2xl border border-[#e7e4f0] bg-white p-8 md:p-10 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div className="max-w-xl">
             <Eyebrow tone="light">Beispielauswertung</Eyebrow>
             <h2 className="font-display font-extrabold tracking-tight text-2xl">Sehen Sie ein echtes Ergebnis.</h2>
-            <p className="mt-3 text-sm text-[#5f6b80] leading-relaxed">
+            <p className="mt-3 text-sm text-[#625f7d] leading-relaxed">
               Ein vollständiger Massenauszug für ein Einfamilienhaus — mit allen Positionen, Rechenwegen und
               markierten Annahmen.
             </p>
@@ -282,14 +303,14 @@ export default function Home() {
       {/* FAQ */}
       <Abschnitt ton="grau">
         <AbschnittKopf eyebrow="FAQ" titel="Häufige Fragen" />
-        <div className="rounded-xl border border-[#e3e8f0] bg-white divide-y divide-[#eef2f7]">
+        <div className="rounded-xl border border-[#e7e4f0] bg-white divide-y divide-[#efeef6]">
           {FAQ.map(({ f, a }) => (
             <details key={f} className="group px-6 py-5">
               <summary className="flex items-center justify-between cursor-pointer list-none font-medium text-[15px]">
                 {f}
-                <span className="text-[#8b95a7] group-open:rotate-45 transition-transform text-xl leading-none">+</span>
+                <span className="text-[#8e8aa6] group-open:rotate-45 transition-transform text-xl leading-none">+</span>
               </summary>
-              <p className="mt-3 text-sm text-[#5f6b80] leading-relaxed max-w-3xl">{a}</p>
+              <p className="mt-3 text-sm text-[#625f7d] leading-relaxed max-w-3xl">{a}</p>
             </details>
           ))}
         </div>

@@ -71,6 +71,10 @@ export const PREISKATALOG: Preisposition[] = [
   { schluessel: "fenster", bezeichnung: "Fenster", einheit: "m2", lg: "71", richtwert: 620 },
   { schluessel: "tuer", bezeichnung: "Tür", einheit: "m2", lg: "43", richtwert: 380 },
   { schluessel: "tor", bezeichnung: "Sektionaltor", einheit: "Stk", lg: null, richtwert: 3200 },
+  { schluessel: "fensterbankInnen", bezeichnung: "Fensterbank innen", einheit: "lfm", lg: null, richtwert: 45 },
+  { schluessel: "fensterbankAussen", bezeichnung: "Fensterbank außen", einheit: "lfm", lg: null, richtwert: 55 },
+  { schluessel: "laibung", bezeichnung: "Laibungsputz mit Kantenschutz", einheit: "lfm", lg: "23", richtwert: 16 },
+  { schluessel: "anschlussfuge", bezeichnung: "Anschlussfuge mit Dichtband", einheit: "lfm", lg: null, richtwert: 11 },
 ];
 
 const KATALOG_INDEX = new Map(PREISKATALOG.map((p) => [p.schluessel, p]));

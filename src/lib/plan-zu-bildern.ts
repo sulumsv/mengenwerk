@@ -119,6 +119,36 @@ async function bildZuBlatt(datei: File): Promise<Blatt[]> {
   }
 }
 
+/** Kleines Vorschaubild des ersten Blatts für die Scan-Animation, als Objekt-URL. */
+export async function vorschauBild(datei: File): Promise<string> {
+  const name = datei.name.toLowerCase();
+  if (!(name.endsWith(".pdf") || datei.type === "application/pdf")) {
+    return URL.createObjectURL(datei);
+  }
+  const pdfjs = await ladePdfjs();
+  const dokument = await pdfjs.getDocument({
+    data: new Uint8Array(await datei.arrayBuffer()),
+    isEvalSupported: false,
+  }).promise;
+  try {
+    const seite = await dokument.getPage(1);
+    const roh = seite.getViewport({ scale: 1 });
+    const viewport = seite.getViewport({ scale: Math.min(2, 1200 / Math.max(roh.width, roh.height)) });
+    const leinwand = document.createElement("canvas");
+    leinwand.width = Math.round(viewport.width);
+    leinwand.height = Math.round(viewport.height);
+    const ctx = leinwand.getContext("2d");
+    if (!ctx) throw new Error("Der Browser stellt keine Zeichenfläche bereit.");
+    ctx.fillStyle = "#ffffff";
+    ctx.fillRect(0, 0, leinwand.width, leinwand.height);
+    await seite.render({ canvas: leinwand, viewport }).promise;
+    const bild = await alsJpeg(leinwand, "vorschau.jpg");
+    return URL.createObjectURL(bild);
+  } finally {
+    await dokument.destroy();
+  }
+}
+
 export async function planZuBlaettern(
   datei: File,
   melde: (seite: number, von: number) => void = () => {},

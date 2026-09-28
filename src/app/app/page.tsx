@@ -5,7 +5,8 @@ import type { AnalysisResult, GroupedItem, Konfidenz, Massenauszug, Raum } from 
 import { formatiereKosten, type VerbrauchsBericht } from "@/lib/verbrauch";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import { MassenauszugAnsicht } from "@/components/Massenauszug";
-import { planZuBlaettern } from "@/lib/plan-zu-bildern";
+import { planZuBlaettern, vorschauBild } from "@/lib/plan-zu-bildern";
+import { ScanAnimation } from "@/components/ScanAnimation";
 import { lesePlanAusText, umfangAusFlaeche } from "@/lib/plan-lesen";
 import { baueMassenauszug } from "@/lib/ableitung";
 import { katalogInfo } from "@/lib/lbhb";
@@ -167,6 +168,7 @@ export default function ToolPage() {
   const [ziehtUeber, setZiehtUeber] = useState(false);
   const [laedt, setLaedt] = useState(false);
   const [schritt, setSchritt] = useState<string | null>(null);
+  const [vorschau, setVorschau] = useState<string | null>(null);
   const [ergebnis, setErgebnis] = useState<ApiResponse | null>(null);
   /** Warum der kostenlose Textweg aufgegeben hat. Erklärt, wofür die KI gebraucht wird. */
   const [textGrund, setTextGrund] = useState<string | null>(null);
@@ -224,6 +226,11 @@ export default function ToolPage() {
     setBearbeiteteRaeume(null);
     setKorrekturen(KEINE_KORREKTUREN);
     setSchritt("Plan wird gelesen");
+    setVorschau((alt) => {
+      if (alt) URL.revokeObjectURL(alt);
+      return null;
+    });
+    vorschauBild(f).then(setVorschau).catch(() => {});
 
     try {
       if (await ausTextLesen(f)) {
@@ -325,6 +332,11 @@ export default function ToolPage() {
             <span className="font-mono text-xs uppercase tracking-wide text-fg-muted">PDF · PNG · JPG</span>
           </div>
 
+          {laedt ? (
+            <div className="p-4 md:p-6">
+              <ScanAnimation bild={vorschau} meldung={schritt} />
+            </div>
+          ) : (
           <div
             onDragOver={(e) => {
               e.preventDefault();
@@ -355,6 +367,7 @@ export default function ToolPage() {
               {laedt ? "Vision Erkennung läuft, das kann bei mehrseitigen Plänen etwas dauern" : "Vektor PDF, Scan oder Bild werden automatisch unterschieden"}
             </p>
           </div>
+          )}
         </div>
 
         {ergebnis && "fehler" in ergebnis && (

@@ -155,3 +155,18 @@ body {
   font-variant-numeric: tabular-nums;
   font-feature-settings: "tnum" 1;
 }
+
+.scan-buehne {
+  background:
+    radial-gradient(ellipse 50% 40% at 85% 100%, rgba(242, 178, 51, 0.25) 0%, transparent 70%),
+    linear-gradient(180deg, #1f2a44 0%, #26314d 55%, #2f3446 100%);
+}
+
+.plan-einblenden { animation: plan-ein 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+@keyframes plan-ein {
+  from { opacity: 0; transform: scale(0.96); filter: blur(6px); }
+  to { opacity: 1; transform: none; filter: none; }
+}
+
+.punkte::after { content: "…"; animation: punkte 1.2s steps(4) infinite; display: inline-block; overflow: hidden; width: 0; vertical-align: bottom; }
+@keyframes punkte { to { width: 1.2em; } }

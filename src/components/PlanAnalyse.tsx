@@ -1,110 +1,12 @@
 "use client";
 
-import { useEffect, useRef, useState, type CSSProperties } from "react";
-import {
-  AnimatePresence,
-  motion,
-  useMotionValueEvent,
-  useScroll,
-  useTransform,
-} from "motion/react";
+import { useEffect, useRef, useState } from "react";
+import dynamic from "next/dynamic";
+import { AnimatePresence, motion, useMotionValueEvent, useScroll, useSpring } from "motion/react";
+import { boxen, schlitze, RAEUME, FARBE, PLAN_W, PLAN_H, m2, NUTZFLAECHE, TUERBOEGEN } from "./haus/plan";
 
-// Plan-Einheiten: 440 Einheiten = 12,10 m Außenmaß.
-const PX_M = 440 / 12.1;
-const PLAN_W = 600;
-const PLAN_H = 420;
-
-const FARBE = {
-  wohn: "#f6d5bf",
-  nass: "#bfe0e6",
-  neben: "#e6e1d6",
-  wand: "#2f2b27",
-  linie: "#5b5750",
-};
-
-type Oeffnung = [number, number, "fenster" | "tuer"];
-type Box = { x: number; y: number; w: number; d: number; k: number; z0: number; aussen: boolean };
-type Schlitz = { x: number; y: number; w: number; d: number; art: "fenster" | "tuer"; vertikal: boolean };
-
-const boxen: Box[] = [];
-const schlitze: Schlitz[] = [];
-
-function wand(
-  vertikal: boolean,
-  fest: number,
-  von: number,
-  bis: number,
-  t: number,
-  oeffnungen: Oeffnung[],
-  aussen: boolean,
-) {
-  const rect = (a: number, b: number, k: number, z0: number) =>
-    boxen.push(
-      vertikal
-        ? { x: fest, y: a, w: t, d: b - a, k, z0, aussen }
-        : { x: a, y: fest, w: b - a, d: t, k, z0, aussen },
-    );
-  let lauf = von;
-  for (const [a, b, art] of oeffnungen) {
-    rect(lauf, a, 1, 0);
-    if (art === "fenster") rect(a, b, 0.36, 0);
-    rect(a, b, art === "fenster" ? 0.2 : 0.16, art === "fenster" ? 0.8 : 0.84);
-    schlitze.push(
-      vertikal
-        ? { x: fest, y: a, w: t, d: b - a, art, vertikal }
-        : { x: a, y: fest, w: b - a, d: t, art, vertikal },
-    );
-    lauf = b;
-  }
-  rect(lauf, bis, 1, 0);
-}
-
-// Außenwände 30 cm
-wand(false, 40, 80, 520, 12, [[120, 180, "fenster"], [210, 260, "fenster"], [330, 380, "fenster"], [450, 480, "fenster"]], true);
-wand(false, 358, 80, 520, 12, [[130, 200, "fenster"], [300, 360, "fenster"]], true);
-wand(true, 80, 52, 358, 12, [[90, 150, "fenster"], [192, 226, "tuer"], [270, 330, "fenster"]], true);
-wand(true, 508, 52, 358, 12, [[100, 140, "fenster"], [310, 340, "fenster"]], true);
-// Innenwände
-wand(false, 180, 92, 508, 7, [[200, 230, "tuer"], [330, 358, "tuer"], [440, 466, "tuer"]], false);
-wand(false, 230, 92, 508, 7, [[150, 178, "tuer"], [300, 328, "tuer"]], false);
-wand(true, 290, 52, 180, 7, [], false);
-wand(true, 410, 52, 180, 7, [], false);
-wand(true, 250, 237, 358, 7, [], false);
-wand(true, 400, 237, 358, 7, [[250, 275, "tuer"], [310, 336, "tuer"]], false);
-wand(false, 290, 407, 508, 7, [], false);
-
-const RAEUME = [
-  { name: "Wohnen / Essen", x: 92, y: 52, w: 198, h: 128, fill: FARBE.wohn },
-  { name: "Küche", x: 297, y: 52, w: 113, h: 128, fill: FARBE.wohn },
-  { name: "Bad", x: 417, y: 52, w: 91, h: 128, fill: FARBE.nass },
-  { name: "Vorraum / Gang", x: 92, y: 187, w: 416, h: 43, fill: FARBE.neben },
-  { name: "Schlafen", x: 92, y: 237, w: 158, h: 121, fill: FARBE.wohn },
-  { name: "Kind", x: 257, y: 237, w: 143, h: 121, fill: FARBE.wohn },
-  { name: "WC", x: 407, y: 237, w: 101, h: 53, fill: FARBE.nass },
-  { name: "HWR", x: 407, y: 297, w: 101, h: 61, fill: FARBE.neben },
-].map((r) => ({ ...r, flaeche: (r.w / PX_M) * (r.h / PX_M) }));
-
-const m2 = (n: number) => n.toLocaleString("de-AT", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-const NUTZFLAECHE = RAEUME.reduce((s, r) => s + r.flaeche, 0);
-
-const harc = (a: number, b: number, y: number, dir: 1 | -1) => {
-  const r = b - a;
-  return `M${a},${y} L${a},${y + dir * r} A${r},${r} 0 0 ${dir > 0 ? 0 : 1} ${b},${y}`;
-};
-const varc = (a: number, b: number, x: number, dir: 1 | -1) => {
-  const r = b - a;
-  return `M${x},${a} L${x + dir * r},${a} A${r},${r} 0 0 ${dir > 0 ? 1 : 0} ${x},${b}`;
-};
-const TUERBOEGEN = [
-  harc(200, 230, 180, -1),
-  harc(330, 358, 180, -1),
-  harc(440, 466, 180, -1),
-  harc(150, 178, 237, 1),
-  harc(300, 328, 237, 1),
-  varc(250, 275, 407, 1),
-  varc(310, 336, 407, 1),
-  varc(192, 226, 92, 1),
-];
+// WebGL läuft nur im Browser; die Szene lädt ihre Modelle, während die ersten Kapitel gelesen werden.
+const HausSzene = dynamic(() => import("./haus/HausSzene"), { ssr: false });
 
 const KAPITEL = [
   {
@@ -118,53 +20,27 @@ const KAPITEL = [
     text: `${RAEUME.length} Räume mit ${m2(NUTZFLAECHE)} m² Nutzfläche, 11 Fenster und 8 Türen — gelesen aus Raumstempeln und Plansymbolen.`,
   },
   {
-    marke: "Schritt 2 · Kubatur",
+    marke: "Schritt 2 · Rohbau",
     titel: "Aus Linien werden Mengen.",
     text: "Wandlängen × Schnitthöhe, abzüglich Öffnungen: 142,80 m² Mauerwerk, 34,20 m³ Beton — jede Zahl mit Rechenweg.",
   },
   {
+    marke: "Schritt 3 · Ausbau",
+    titel: "Putz, Fenster, Dach.",
+    text: "226,5 m² Fassade über zwei Geschosse, 17 Fenster, 130,6 m² Flachdach mit Kiesbett und Attika — jedes Gewerk mit Menge und LB-HB-Position.",
+  },
+  {
     marke: "Das Ergebnis",
-    titel: "47 Positionen, 12 Gewerke.",
-    text: "Massenauszug nach LB-HB 023 — fertig zum Bepreisen, in wenigen Minuten statt Tagen.",
+    titel: "Vom Plan zum Haus. 47 Positionen.",
+    text: "Der vollständige Massenauszug nach LB-HB 023 — fertig zum Bepreisen, in Minuten statt Tagen.",
   },
 ];
 
-function Wandbox({ b }: { b: Box }) {
-  const hoehe = `calc(var(--h) * ${b.k})`;
-  const ns = b.aussen
-    ? "repeating-linear-gradient(0deg, #bf7654 0 5px, #ead9c6 5px 6px)"
-    : "linear-gradient(#efe9df, #e2dacd)";
-  const ow = b.aussen
-    ? "repeating-linear-gradient(90deg, #a5603f 0 5px, #d9c5b0 5px 6px)"
-    : "linear-gradient(90deg, #d6cdbf, #c9bfb0)";
-  const flaeche: CSSProperties = { position: "absolute", backfaceVisibility: "visible" };
-  return (
-    <div
-      style={{
-        position: "absolute",
-        left: b.x,
-        top: b.y,
-        width: b.w,
-        height: b.d,
-        transformStyle: "preserve-3d",
-        transform: `translateZ(calc(var(--h) * ${b.z0}))`,
-      }}
-    >
-      <div style={{ ...flaeche, left: 0, top: 0, width: b.w, height: hoehe, background: ns, transformOrigin: "top", transform: "rotateX(90deg)" }} />
-      <div style={{ ...flaeche, left: 0, top: b.d, width: b.w, height: hoehe, background: ns, transformOrigin: "top", transform: "rotateX(90deg)" }} />
-      <div style={{ ...flaeche, left: 0, top: 0, width: hoehe, height: b.d, background: ow, transformOrigin: "left", transform: "rotateY(-90deg)" }} />
-      <div style={{ ...flaeche, left: b.w, top: 0, width: hoehe, height: b.d, background: ow, transformOrigin: "left", transform: "rotateY(-90deg)" }} />
-      <div style={{ ...flaeche, inset: 0, background: FARBE.wand, transform: `translateZ(${hoehe})` }}>
-        <div style={{ position: "absolute", inset: 0, opacity: "var(--t)", background: b.aussen ? "#d49a7b" : "#ece5da" }} />
-      </div>
-    </div>
-  );
-}
-
-function Grundriss({ kapitel }: { kapitel: number }) {
+// `statisch`: ohne Animation, für die Textur des Planblatts in der 3D-Szene
+function Grundriss({ kapitel, statisch = false }: { kapitel: number; statisch?: boolean }) {
   const erkennung = kapitel === 1;
   return (
-    <svg viewBox={`0 0 ${PLAN_W} ${PLAN_H}`} width={PLAN_W} height={PLAN_H} className="absolute inset-0">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox={`0 0 ${PLAN_W} ${PLAN_H}`} width={PLAN_W} height={PLAN_H} className="absolute inset-0">
       <rect width={PLAN_W} height={PLAN_H} fill="#fdfcf9" />
 
       {RAEUME.map((r) => (
@@ -235,8 +111,18 @@ function Grundriss({ kapitel }: { kapitel: number }) {
       </g>
 
       {/* Erkennung: Räume und Öffnungen markieren */}
+      {statisch && erkennung && (
+        <g>
+          {RAEUME.map((r) => (
+            <rect key={r.name} x={r.x + 2} y={r.y + 2} width={r.w - 4} height={r.h - 4} fill="#b6e36b" fillOpacity="0.12" stroke="#8fbf45" strokeWidth="1.6" />
+          ))}
+          {schlitze.map((s, i) => (
+            <circle key={i} cx={s.x + s.w / 2} cy={s.y + s.d / 2} r="9" fill="none" stroke={s.art === "fenster" ? "#2f5fd0" : "#8fbf45"} strokeWidth="1.6" />
+          ))}
+        </g>
+      )}
       <AnimatePresence>
-        {erkennung && (
+        {!statisch && erkennung && (
           <motion.g initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.35 }}>
             {RAEUME.map((r, i) => (
               <motion.rect
@@ -277,25 +163,24 @@ function Grundriss({ kapitel }: { kapitel: number }) {
 
 export function PlanAnalyseSection() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const planRef = useRef<HTMLDivElement>(null);
   const [kapitel, setKapitel] = useState(0);
   const [fit, setFit] = useState(1);
+  const [bereit, setBereit] = useState(false);
+  const [planSvg, setPlanSvg] = useState<{ normal: string; markiert: string } | null>(null);
+  const svgNormal = useRef<HTMLDivElement>(null);
+  const svgMarkiert = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const lies = (el: HTMLDivElement | null) => (el?.firstElementChild ? new XMLSerializer().serializeToString(el.firstElementChild) : "");
+    setPlanSvg({ normal: lies(svgNormal.current), markiert: lies(svgMarkiert.current) });
+  }, []);
 
   const { scrollYProgress } = useScroll({ target: containerRef, offset: ["start start", "end end"] });
-
-  const rotateX = useTransform(scrollYProgress, [0.2, 0.5], [0, 56]);
-  const rotateZ = useTransform(scrollYProgress, [0.2, 0.5, 1], [0, -36, -46]);
-  const scale = useTransform(scrollYProgress, [0.2, 0.5, 1], [1, 0.95, 1.02]);
-  const y = useTransform(scrollYProgress, [0.2, 0.5], [0, 40]);
-  const wandHoehe = useTransform(scrollYProgress, [0.46, 0.74], [0, 74]);
-
-  useMotionValueEvent(wandHoehe, "change", (h) => {
-    planRef.current?.style.setProperty("--h", `${h}px`);
-    planRef.current?.style.setProperty("--t", `${Math.min(1, h / 20)}`);
-  });
+  // Gedämpft wie eine Kamerafahrt: jeder Scroll-Ruck wird zu einer weichen Bewegung.
+  const weich = useSpring(scrollYProgress, { stiffness: 55, damping: 20, mass: 0.7, restDelta: 0.0002 });
 
   useMotionValueEvent(scrollYProgress, "change", (v) => {
-    setKapitel(v < 0.2 ? 0 : v < 0.48 ? 1 : v < 0.76 ? 2 : 3);
+    setKapitel(v < 0.12 ? 0 : v < 0.32 ? 1 : v < 0.56 ? 2 : v < 0.84 ? 3 : 4);
   });
 
   useEffect(() => {
@@ -309,7 +194,7 @@ export function PlanAnalyseSection() {
   const k = KAPITEL[kapitel];
 
   return (
-    <section ref={containerRef} className="relative" style={{ height: "420vh" }}>
+    <section ref={containerRef} className="relative" style={{ height: "600vh" }}>
       <div
         className="sticky top-0 h-screen overflow-hidden"
         style={{
@@ -319,31 +204,31 @@ export function PlanAnalyseSection() {
           backgroundSize: "32px 32px",
         }}
       >
-        <div className="absolute inset-0 flex items-center justify-center md:justify-end md:pr-[6vw] pb-40 md:pb-0">
+        {/* Vorlagen für die Planblatt-Textur (unsichtbar) */}
+        <div aria-hidden className="absolute -left-[9999px] top-0">
+          <div ref={svgNormal}>
+            <Grundriss kapitel={0} statisch />
+          </div>
+          <div ref={svgMarkiert}>
+            <Grundriss kapitel={1} statisch />
+          </div>
+        </div>
+
+        {/* Die 3D-Szene zeigt von Anfang an den Plan von oben; daraus wächst das Haus. */}
+        <div className="absolute inset-0">
+          {planSvg && <HausSzene fortschritt={weich} planSvg={planSvg} onBereit={() => setBereit(true)} />}
+        </div>
+
+        {/* 2D-Plan nur als Platzhalter, bis die 3D-Szene geladen ist */}
+        <div
+          className="absolute inset-0 flex items-center justify-center pb-40 md:pb-0 pointer-events-none"
+          style={{ display: bereit ? "none" : undefined }}
+        >
           <div style={{ width: PLAN_W * fit, height: PLAN_H * fit }}>
             <div style={{ width: PLAN_W, height: PLAN_H, transform: `scale(${fit})`, transformOrigin: "top left" }}>
-              <motion.div
-                ref={planRef}
-                className="relative"
-                style={{
-                  width: PLAN_W,
-                  height: PLAN_H,
-                  transformStyle: "preserve-3d",
-                  transformPerspective: 1600,
-                  rotateX,
-                  rotateZ,
-                  scale,
-                  y,
-                  boxShadow: "0 30px 80px -20px rgba(18,27,48,0.35)",
-                  ["--h" as string]: "0px",
-                  ["--t" as string]: "0",
-                }}
-              >
+              <div className="relative" style={{ width: PLAN_W, height: PLAN_H }}>
                 <Grundriss kapitel={kapitel} />
-                {boxen.map((b, i) => (
-                  <Wandbox key={i} b={b} />
-                ))}
-              </motion.div>
+              </div>
             </div>
           </div>
         </div>
@@ -363,7 +248,7 @@ export function PlanAnalyseSection() {
                   {k.titel}
                 </h3>
                 <p className="mt-3 text-sm md:text-[0.95rem] text-white/60 leading-relaxed">{k.text}</p>
-                {kapitel === 3 && (
+                {kapitel === 4 && (
                   <div className="mt-6 flex gap-3 flex-wrap">
                     <a
                       href="/app"

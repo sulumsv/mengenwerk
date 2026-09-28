@@ -22,7 +22,8 @@ aus welchen Planangaben sie berechnet wurde.
 2. **Text- und Bildlesen** (`src/lib/plan-lesen.ts`): Wo möglich, wird die
    Textebene der PDF direkt gelesen (schneller, günstiger, keine
    Bilderkennungsfehler); nur wenn das nicht reicht, greift die
-   KI-Bilderkennung.
+   KI-Bilderkennung. Unplausibel große Einzelflächen werden dabei als
+   Ausreißer aus dem Raumkataster gefiltert.
 3. **Analyse durch Claude** (`src/lib/analyze.ts`, `src/app/api/analyze`):
    Für jede Planseite ruft die App die Anthropic-API (`@anthropic-ai/sdk`)
    auf und lässt Claude Bauteile, Raumstempel, Legende und Nachweise
@@ -38,7 +39,8 @@ aus welchen Planangaben sie berechnet wurde.
 5. **Zuordnung zur LB-HB** (`src/lib/lbhb.ts`, `src/data/lbhb023.json`):
    Bauteile werden Leistungsgruppen der österreichischen Leistungsbeschreibung
    Hochbau zugeordnet (Material aus der Planlegende, z. B. rot = Ziegel, grün
-   = Stahlbeton).
+   = Stahlbeton). Der Katalog umfasst LB-HB 023 vollständig: 59
+   Leistungsgruppen mit 22.650 Positionen.
 6. **Kostenschätzung** (`src/lib/preise.ts`, `src/app/einheitspreise`):
    Anhand hinterlegter oder selbst eingegebener Einheitspreise wird eine
    Kostenschätzung je Position und in Summe ausgewiesen.
@@ -61,7 +63,8 @@ src/
     app/          die eigentliche Anwendung (Upload, Ergebnis)
     einheitspreise/  Einheitspreis-Verwaltung
     preise/, kontakt/, ueber-uns/, impressum/, datenschutz/  Marketingseiten
-  components/     UI-Bausteine (Massenauszug-Ansicht, Startseiten-Animation, Icons)
+  components/     UI-Bausteine (Massenauszug-Ansicht, Planupload/-analyse,
+                  Haus3D = 3D-Aufbauanimation der Startseite, Logo, Icons)
   lib/            die gesamte Fachlogik (siehe Ablauf oben)
   data/           LB-HB-Leistungskatalog (lbhb023.json, siehe src/data/README.md)
 scripts/
@@ -107,6 +110,16 @@ Repos — mit Datum, Uhrzeit, Autor und Commit-Message, unabhängig davon, wer
 committet. Ein `post-commit`-Git-Hook (`scripts/githooks/post-commit`,
 installiert über `npm install` via das `prepare`-Script) trägt neue Commits
 selbstständig ein; die Datei sollte daher nicht händisch bearbeitet werden.
+
+### 3D-Startseite
+
+Die Scroll-Animation auf der Startseite (`src/components/PlanAnalyse.tsx`,
+`src/components/haus/`) ist eine echte WebGL-Szene mit three.js über React
+Three Fiber: Der Einreichplan liegt als Textur auf dem Baugrund, die Kamera
+kippt aus der Draufsicht, und das Haus wächst aus denselben Plandaten
+(`haus/plan.ts`), aus denen auch der 2D-Grundriss gezeichnet wird. Himmel,
+Materialtexturen und Möbelmodelle stammen von [Poly Haven](https://polyhaven.com)
+(CC0) und liegen optimiert unter `public/3d/`.
 
 ## Technologie
 

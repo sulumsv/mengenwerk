@@ -1,4 +1,3 @@
-import { Haus3D } from "@/components/Haus3D";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import { PlanAnalyseSection } from "@/components/PlanAnalyse";
 import {
@@ -186,7 +185,6 @@ export default function Home() {
       {/* Animationen */}
       <div className="bg-[#121b30] text-white">
         <PlanAnalyseSection />
-        <Haus3D />
       </div>
 
       {/* Belege */}

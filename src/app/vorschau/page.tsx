@@ -20,9 +20,7 @@ export default function VorschauPage() {
       "Unterkante Bodenplatte (m)": -0.955,
     },
   };
-  // Zwei eigene Preise, damit im Beispiel sichtbar ist, wie sich der
-  // Richtwertanteil verschiebt, sobald der Betrieb eigene Preise hinterlegt.
-  const auszug = baueMassenauszug(BEISPIEL_RAEUME, BEISPIEL_ELEMENTE, kontext, { parkett: 62, malerei: 9.5 });
+  const auszug = baueMassenauszug(BEISPIEL_RAEUME, BEISPIEL_ELEMENTE, kontext);
 
   return (
     <main className="flex-1">

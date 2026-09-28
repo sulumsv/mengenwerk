@@ -1,6 +1,8 @@
 // Prüflauf der Ableitung gegen die von Hand gerechneten Mengen des
 // Einreichplans Torricelligasse 29. Aufruf: npm run pruefe
-import { baueMassenauszug } from "../src/lib/ableitung.ts";
+import { baueMassenauszug, mitKostenschaetzung } from "../src/lib/ableitung.ts";
+import { gleicheWohnnutzflaecheAb, istRaumname } from "../src/lib/plan-lesen.ts";
+import { leseKorrektur } from "../src/lib/korrekturen.ts";
 import { NACHWEISE, nachweisAnweisung } from "../src/lib/nachweise.ts";
 import type { DetectedElement, PlanKontext, Raum } from "../src/lib/types.ts";
 import { Verbrauch, formatiereKosten } from "../src/lib/verbrauch.ts";
@@ -198,8 +200,24 @@ const kontextMitDach: PlanKontext = {
   },
 };
 
-pruefe("Jede bepreisbare Position hat einen Betrag", () => {
+pruefe("Die Mengenermittlung bepreist nichts von selbst", () => {
   const a = baueMassenauszug(raeume, elemente, kontextMitDach);
+  const bepreist = a.abschnitte.flatMap((x) => x.positionen).filter((p) => p.betrag !== undefined);
+  if (a.kosten !== undefined || bepreist.length > 0) {
+    throw new Error(`${bepreist.length} Positionen bepreist, Kosten ${a.kosten ? "vorhanden" : "fehlen"}`);
+  }
+});
+
+pruefe("Ohne Richtwerte bleiben Positionen ohne eigenen Preis offen", () => {
+  const a = mitKostenschaetzung(baueMassenauszug(raeume, elemente, kontextMitDach), { parkett: 62 });
+  const bepreist = a.abschnitte.flatMap((x) => x.positionen).filter((p) => p.betrag !== undefined);
+  if (bepreist.length !== 1 || bepreist[0].bezeichnung !== "Parkett" || a.kosten!.summeAusRichtwerten !== 0) {
+    throw new Error(`bepreist: ${bepreist.map((p) => p.bezeichnung).join(", ")}`);
+  }
+});
+
+pruefe("Jede bepreisbare Position hat mit Richtwerten einen Betrag", () => {
+  const a = mitKostenschaetzung(baueMassenauszug(raeume, elemente, kontextMitDach), {}, true);
   const luecken = a.abschnitte
     .flatMap((x) => x.positionen)
     .filter((p) => p.menge !== null && !p.zwischenwert && p.betrag === undefined);
@@ -209,7 +227,7 @@ pruefe("Jede bepreisbare Position hat einen Betrag", () => {
 });
 
 pruefe("Zwischenwerte werden nicht bepreist", () => {
-  const a = baueMassenauszug(raeume, elemente, kontextMitDach);
+  const a = mitKostenschaetzung(baueMassenauszug(raeume, elemente, kontextMitDach), {}, true);
   const doppelt = a.abschnitte.flatMap((x) => x.positionen).filter((p) => p.zwischenwert && p.betrag !== undefined);
   if (doppelt.length > 0) {
     throw new Error(`doppelt gezählt: ${doppelt.map((p) => p.bezeichnung).join(", ")}`);
@@ -217,7 +235,7 @@ pruefe("Zwischenwerte werden nicht bepreist", () => {
 });
 
 pruefe("Abschnittssummen ergeben die Gesamtsumme", () => {
-  const a = baueMassenauszug(raeume, elemente, kontextMitDach);
+  const a = mitKostenschaetzung(baueMassenauszug(raeume, elemente, kontextMitDach), {}, true);
   const ausAbschnitten = a.abschnitte.reduce((s, x) => s + (x.summe ?? 0), 0);
   if (Math.abs(ausAbschnitten - a.kosten!.summe) > 0.02) {
     throw new Error(`${ausAbschnitten.toFixed(2)} gegen ${a.kosten!.summe.toFixed(2)}`);
@@ -225,8 +243,9 @@ pruefe("Abschnittssummen ergeben die Gesamtsumme", () => {
 });
 
 pruefe("Eigener Preis schlägt den Richtwert", () => {
-  const ohne = baueMassenauszug(raeume, elemente, kontextMitDach);
-  const mit = baueMassenauszug(raeume, elemente, kontextMitDach, { parkett: 1 });
+  const basis = baueMassenauszug(raeume, elemente, kontextMitDach);
+  const ohne = mitKostenschaetzung(basis, {}, true);
+  const mit = mitKostenschaetzung(basis, { parkett: 1 }, true);
   if (!(mit.kosten!.summe < ohne.kosten!.summe)) throw new Error("Summe unverändert");
   if (mit.kosten!.summeAusRichtwerten >= mit.kosten!.summe) {
     throw new Error("Richtwertanteil nicht gesunken");
@@ -234,11 +253,94 @@ pruefe("Eigener Preis schlägt den Richtwert", () => {
 });
 
 pruefe("Preis 0 gilt als gesetzt, nicht als fehlend", () => {
-  const a = baueMassenauszug(raeume, elemente, kontextMitDach, { parkett: 0 });
+  const a = mitKostenschaetzung(baueMassenauszug(raeume, elemente, kontextMitDach), { parkett: 0 });
   const parkett = a.abschnitte.flatMap((x) => x.positionen).find((p) => p.bezeichnung === "Parkett");
   if (parkett?.betrag !== 0 || parkett.preisQuelle !== "eigen") {
     throw new Error(`Betrag ${parkett?.betrag}, Quelle ${parkett?.preisQuelle}`);
   }
+});
+
+// ── Abgleich des gelesenen Raumbuchs mit der Wohnnutzfläche ──
+const raum = (name: string, flaeche: number, geschoss: string, beheizt = true) =>
+  ({ id: `${geschoss}-${name}`, geschoss, name, flaeche_m2: flaeche, umfang_m: 10, umfangQuelle: "geschaetzt", beheizt, nassraum: false, konfidenz: "plan", quelle: "Test" }) as never;
+const eg = [raum("Wohnen", 60, "EG"), raum("Küche", 20, "EG"), raum("Bad", 10, "EG"), raum("Gang", 12, "EG")];
+const og = [raum("Zimmer 1", 30, "OG"), raum("Zimmer 2", 28, "OG"), raum("Zimmer 3", 25, "OG"), raum("WC", 4, "OG")];
+
+pruefe("Ein zusätzliches Nebengeschoß wird erkannt und nicht zur Wohnnutzfläche gezählt", () => {
+  const ug = [raum("Hobbyraum", 45, "Blatt 1"), raum("Vorrat", 30, "Blatt 1"), raum("Waschen", 36, "Blatt 1")];
+  const a = gleicheWohnnutzflaecheAb([...eg, ...og, ...ug], 189);
+  const beheizt = a.raeume.filter((r) => r.beheizt).reduce((s, r) => s + r.flaeche_m2, 0);
+  if (Math.abs(beheizt - 189) > 0.01 || a.raeume.length !== 11 || !a.hinweis?.includes("Blatt 1")) {
+    throw new Error(`beheizt ${beheizt}, Räume ${a.raeume.length}, Hinweis ${a.hinweis}`);
+  }
+});
+
+pruefe("Derselbe Grundriss auf zwei Blättern wird nicht doppelt gezählt", () => {
+  const kopie = eg.map((r) => ({ ...r, geschoss: "Blatt 4" }));
+  const a = gleicheWohnnutzflaecheAb([...eg, ...og, ...kopie], 189);
+  if (a.raeume.length !== 8 || !a.hinweis?.includes("nicht doppelt")) throw new Error(`${a.raeume.length} Räume, ${a.hinweis}`);
+});
+
+pruefe("Passende Raumsumme bleibt unverändert", () => {
+  const a = gleicheWohnnutzflaecheAb([...eg, ...og], 190);
+  if (a.raeume.length !== 8 || a.hinweis) throw new Error(`${a.raeume.length} Räume, ${a.hinweis}`);
+});
+
+pruefe("Ohne passende Geschoßkombination wird nichts verworfen", () => {
+  const a = gleicheWohnnutzflaecheAb([...eg, ...og], 120);
+  if (a.raeume.length !== 8 || a.hinweis) throw new Error(`${a.raeume.length} Räume, ${a.hinweis}`);
+});
+
+pruefe("Keller und Garage auf eigenem Blatt bleiben erhalten", () => {
+  const garage = [raum("Garage", 36, "Blatt 2", false)];
+  const ug = [raum("Hobbyraum", 45, "Blatt 1"), raum("Vorrat", 30, "Blatt 1"), raum("Waschen", 36, "Blatt 1")];
+  const a = gleicheWohnnutzflaecheAb([...eg, ...og, ...ug, ...garage], 189);
+  if (!a.raeume.some((r) => r.name === "Garage") || a.raeume.length !== 12) throw new Error(`${a.raeume.length} Räume`);
+});
+
+pruefe("Belagszeilen im Raumstempel werden nicht zum Raumnamen", () => {
+  const falsch = ["Parkett", "200 Parkett", "Fliesen 200", "Estrich", "Fliesen"].filter(istRaumname);
+  const richtig = ["Bad", "Wohnküche", "Steinterrasse", "Kind 1", "Abstellraum"].filter((n) => !istRaumname(n));
+  if (falsch.length || richtig.length) throw new Error(`als Raum: ${falsch.join(", ")}; abgelehnt: ${richtig.join(", ")}`);
+});
+
+pruefe("Korrektursatz: Raumhöhe statt Annahme, abgehängte Decke, Geschoße, Stärken", () => {
+  const f: [string, string][] = [
+    ["Bitte überall statt 2,50 Meter die Raumhöhe auf 2,90 Meter korrigieren", '{"raumhoehe":{"*":2.9},"deckenUnterkante":{},"annahmen":{}}'],
+    ["Raumhöhe 2,90 m, abgehängte Decke Unterkante 2,75 m", '{"raumhoehe":{"*":2.9},"deckenUnterkante":{"*":2.75},"annahmen":{}}'],
+    ["Im OG Raumhöhe 2,60 m und im EG 2,90 m", '{"raumhoehe":{"OG":2.6,"EG":2.9},"deckenUnterkante":{},"annahmen":{}}'],
+    ["2,90 statt 2,50 bei der Raumhöhe", '{"raumhoehe":{"*":2.9},"deckenUnterkante":{},"annahmen":{}}'],
+    ["Estrich 6 cm, Bodenplatte 30 cm", '{"raumhoehe":{},"deckenUnterkante":{},"annahmen":{"estrichstaerke":0.06,"bodenplattenstaerke":0.3}}'],
+  ];
+  const falsch = f.filter(([t, soll]) => JSON.stringify(leseKorrektur(t)) !== soll);
+  if (falsch.length) throw new Error(falsch.map(([t]) => `${t} → ${JSON.stringify(leseKorrektur(t))}`).join(" | "));
+});
+
+pruefe("Korrigierte Raumhöhe wirkt auf Putz und Malerei und ist keine Annahme mehr", () => {
+  const menge = (a: ReturnType<typeof baueMassenauszug>, n: string) => a.abschnitte.flatMap((x) => x.positionen).find((p) => p.bezeichnung === n)?.menge ?? 0;
+  const ohne = baueMassenauszug(raeume, [], leererKontext);
+  const mit = baueMassenauszug(raeume, [], leererKontext, { raumhoehe: { "*": 2.9 }, deckenUnterkante: {}, annahmen: {} });
+  const faktor = menge(mit, "Innenputz Wand brutto") / menge(ohne, "Innenputz Wand brutto");
+  if (Math.abs(faktor - 2.9 / 2.5) > 0.001) throw new Error(`Faktor ${faktor}`);
+  if (mit.angewandteAnnahmen.some((a) => a.id === "raumhoheDachgeschoss")) throw new Error("Raumhöhe noch als Annahme geführt");
+});
+
+pruefe("Abgehängte Decke kürzt nur die Malerei, nicht den Putz", () => {
+  const menge = (a: ReturnType<typeof baueMassenauszug>, n: string) => a.abschnitte.flatMap((x) => x.positionen).find((p) => p.bezeichnung === n)?.menge ?? 0;
+  const k = { raumhoehe: { "*": 2.9 }, deckenUnterkante: {}, annahmen: {} };
+  const ohneUk = baueMassenauszug(raeume, [], leererKontext, k);
+  const mitUk = baueMassenauszug(raeume, [], leererKontext, { ...k, deckenUnterkante: { "*": 2.75 } });
+  if (menge(ohneUk, "Innenputz Wand brutto") !== menge(mitUk, "Innenputz Wand brutto")) throw new Error("Putz verändert");
+  if (!(menge(mitUk, "Malerei Wand + Decke") < menge(ohneUk, "Malerei Wand + Decke"))) throw new Error("Malerei nicht gekürzt");
+});
+
+pruefe("Korrigierte Annahme ersetzt den Katalogwert", () => {
+  const menge = (a: ReturnType<typeof baueMassenauszug>, n: string) => a.abschnitte.flatMap((x) => x.positionen).find((p) => p.bezeichnung.startsWith(n))?.menge ?? 0;
+  const ohne = baueMassenauszug(raeume, [], leererKontext);
+  const mit = baueMassenauszug(raeume, [], leererKontext, { raumhoehe: {}, deckenUnterkante: {}, annahmen: { estrichstaerke: 0.035 } });
+  const a = menge(ohne, "Estrich"), b = menge(mit, "Estrich");
+  if (!(b > 0 && Math.abs(b / a - 0.5) < 0.01)) throw new Error(`${a} → ${b}`);
+  if (mit.angewandteAnnahmen.some((x) => x.id === "estrichstaerke")) throw new Error("noch als Annahme geführt");
 });
 
 pruefe("Erdarbeiten, Dachkonstruktion, Dämmung und PV sind enthalten", () => {

@@ -71,27 +71,101 @@ function beurteile(
     };
   }
 
-  const summe = raeume.filter((r) => r.beheizt).reduce((s, r) => s + r.flaeche_m2, 0);
   const ausweis = Object.entries(nachweise).find(([n]) =>
     normalisiereBegriff(n).includes("wohnnutzflaeche"),
   )?.[1];
 
   if (ausweis && ausweis > 0) {
-    // Ein einzelner Raum kann nicht größer sein als die gesamte Wohnnutzfläche —
-    // solche Ausreißer sind Fehlzuordnungen (z.B. Grundstücksfläche oder Parzellenmaße
-    // aus dem Flächennachweis, die äußerlich wie Raumstempel aussehen).
-    const echte = raeume.filter((r) => r.beheizt && r.flaeche_m2 <= ausweis);
-    const summeEchte = echte.reduce((s, r) => s + r.flaeche_m2, 0);
-    const abweichung = Math.abs(summeEchte - ausweis) / ausweis;
+    const summe = raeume.filter((r) => r.beheizt).reduce((s, r) => s + r.flaeche_m2, 0);
+    const abweichung = Math.abs(summe - ausweis) / ausweis;
     if (abweichung > 0.2) {
+      const jeGeschoss = [...gruppiere(raeume.filter((r) => r.beheizt)).entries()]
+        .map(([g, rs]) => `${g} ${rs.reduce((s, r) => s + r.flaeche_m2, 0).toFixed(2)} m²`)
+        .join(", ");
       return {
         verlaesslich: false,
-        grund: `Die Summe der erkannten Räume (${summeEchte.toFixed(2)} m²) weicht stark von der ausgewiesenen Wohnnutzfläche (${ausweis.toFixed(2)} m²) ab.`,
+        grund:
+          `Die Summe der erkannten Räume (${summe.toFixed(2)} m²) weicht stark von der ausgewiesenen Wohnnutzfläche (${ausweis.toFixed(2)} m²) ab.` +
+          (jeGeschoss ? ` Erkannt je Blatt: ${jeGeschoss}.` : ""),
       };
     }
   }
 
   return { verlaesslich: true };
+}
+
+function gruppiere(raeume: Raum[]): Map<string, Raum[]> {
+  const m = new Map<string, Raum[]>();
+  for (const r of raeume) m.set(r.geschoss, [...(m.get(r.geschoss) ?? []), r]);
+  return m;
+}
+
+const raumSchluessel = (r: Raum) => `${normalisiereBegriff(r.name)}__${r.flaeche_m2.toFixed(2)}`;
+
+/**
+ * Stimmt das Raumbuch mit der ausgewiesenen Wohnnutzfläche ab.
+ *
+ * Ein Plansatz zeigt oft mehr als die Wohnnutzfläche: ein Kellergeschoß, das
+ * nicht dazuzählt, oder denselben Grundriss auf zwei Blättern. Passt die
+ * Gesamtsumme nicht, wird die Kombination von Geschoßen gesucht, die die
+ * Wohnnutzfläche ergibt. Ein ausgelassenes Geschoß, dessen Räume sich in den
+ * übrigen wiederfinden, ist eine Doppelung und fällt weg; ein eigenständiges
+ * bleibt im Massenauszug, zählt aber nicht zur Wohnnutzfläche.
+ */
+export function gleicheWohnnutzflaecheAb(
+  raeume: Raum[],
+  ausweis: number | undefined,
+): { raeume: Raum[]; hinweis?: string } {
+  if (!ausweis || ausweis <= 0) return { raeume };
+
+  // Ein einzelner Raum kann nicht größer sein als die ganze Wohnnutzfläche —
+  // solche Werte sind Fehlzuordnungen (z.B. Grundstücksfläche aus dem Nachweis).
+  const plausibel = raeume.filter((r) => r.flaeche_m2 <= ausweis * 1.05);
+  const summe = (rs: Raum[]) => rs.filter((r) => r.beheizt).reduce((s, r) => s + r.flaeche_m2, 0);
+  const abw = (x: number) => Math.abs(x - ausweis) / ausweis;
+  if (abw(summe(plausibel)) <= 0.2) return { raeume: plausibel };
+
+  const gruppen = [...gruppiere(plausibel).entries()].filter(([, rs]) => summe(rs) > 0);
+  if (gruppen.length < 2 || gruppen.length > 10) return { raeume: plausibel };
+
+  let beste: { maske: number; abweichung: number } | null = null;
+  for (let maske = 1; maske < 1 << gruppen.length; maske++) {
+    if (maske === (1 << gruppen.length) - 1) continue;
+    const s = gruppen.reduce((acc, [, rs], i) => (maske & (1 << i) ? acc + summe(rs) : acc), 0);
+    const a = abw(s);
+    if (!beste || a < beste.abweichung) beste = { maske, abweichung: a };
+  }
+  // Enger als die allgemeine Toleranz: ein Zufallstreffer soll nicht als Abgleich durchgehen.
+  if (!beste || beste.abweichung > 0.1) return { raeume: plausibel };
+
+  const drin = gruppen.filter((_, i) => beste!.maske & (1 << i));
+  const draussen = gruppen.filter((_, i) => !(beste!.maske & (1 << i)));
+  const bekannt = new Set(drin.flatMap(([, rs]) => rs.map(raumSchluessel)));
+
+  const doppelt: string[] = [];
+  const nebengeschosse: string[] = [];
+  const ergebnis = drin.flatMap(([, rs]) => rs);
+  for (const [name, rs] of draussen) {
+    const wiederholt = rs.filter((r) => bekannt.has(raumSchluessel(r))).length / rs.length;
+    if (wiederholt >= 0.6) {
+      doppelt.push(name);
+    } else {
+      nebengeschosse.push(`${name} (${summe(rs).toFixed(2)} m²)`);
+      ergebnis.push(...rs.map((r) => ({ ...r, beheizt: false })));
+    }
+  }
+  // Blätter nur mit unbeheizten Räumen (z.B. Garage) nehmen am Abgleich nicht teil und bleiben erhalten
+  const imAbgleich = new Set(gruppen.map(([g]) => g));
+  ergebnis.push(...plausibel.filter((r) => !imAbgleich.has(r.geschoss)));
+
+  const teile: string[] = [];
+  if (doppelt.length) teile.push(`${doppelt.join(", ")} zeigt denselben Grundriss noch einmal und wurde nicht doppelt gezählt`);
+  if (nebengeschosse.length)
+    teile.push(`${nebengeschosse.join(", ")} zählt nicht zur Wohnnutzfläche und wird als unbeheizt geführt`);
+  return {
+    raeume: ergebnis,
+    hinweis: `Abgleich mit der Wohnnutzfläche (${ausweis.toFixed(2)} m²): ${teile.join("; ")}. Bitte prüfen.`,
+  };
 }
 
 function zahl(roh: string): number | null {
@@ -109,6 +183,14 @@ const FLAECHE = /^([\d.,\s ]+)\s*m[²2]$/i;
 const BELAG =
   /^(parkett|fliesen?|estrich|beton[\w\s().-]*|bodenbeschichtung|stein|dielen|teppich|laminat|linoleum|vinyl|kautschuk)[\w\s().-]*$/i;
 
+/** Belagszeile eines Raumstempels, auch mit Zahlen davor oder dahinter ("200 Parkett", "Fliesen 200"). */
+const BELAG_WORT =
+  /^(parkett|fliesen?|estrich|beton|bodenbeschichtung|stein|steinzeug|naturstein|dielen|teppich|laminat|linoleum|vinyl|kautschuk)\b/i;
+
+function istBelag(text: string): boolean {
+  return BELAG_WORT.test(text.replace(/[\d.,]+/g, " ").replace(/\s+/g, " ").trim());
+}
+
 /** Zeilen, die nie ein Raumname sind. */
 const KEIN_RAUMNAME =
   /^(m[²2]|±|\+|-|ca\.?|abs\.?|gem\.?|lt\.?|nach|bzw\.?|und|oder|der|die|das|von|bis|max\.?|min\.?)$/i;
@@ -116,11 +198,14 @@ const KEIN_RAUMNAME =
 /** "14,26 m", "35,00°", "2,80 m²" — eine Maßangabe, kein Raumname. */
 const MASSANGABE = /^[\d.,\s\u00a0]+\s*(m[²2³3]?|cm|mm|°|grad|%|stk|stück)?\.?$/i;
 
-function istRaumname(text: string): boolean {
+export function istRaumname(text: string): boolean {
   const t = text.trim();
   if (t.length < 2 || t.length > 40) return false;
   if (KEIN_RAUMNAME.test(t)) return false;
   if (FLAECHE.test(t)) return false;
+  // Die Belagszeile steht im Raumstempel direkt neben dem Namen und wird sonst
+  // selbst zum Raumnamen ("Parkett", "Fliesen 200").
+  if (istBelag(t)) return false;
   // Maßangaben und reine Zahlenkolonnen scheiden aus. Ohne diese Prüfung wird
   // in einem Nachweisblock die Zeile darüber zum vermeintlichen Raumnamen.
   if (MASSANGABE.test(t)) return false;
@@ -153,7 +238,8 @@ function geschossAusText(alle: Schnipsel[], blatt: number): string {
 }
 
 const NASSRAUM = /\b(bad|wc|dusche|du\b|sanit|toilette)/i;
-const UNBEHEIZT = /\b(garage|terrasse|balkon|loggia|carport|gehweg|garten|vordach|lager|schuppen|nicht konditio)/i;
+const UNBEHEIZT =
+  /\b(garage|tiefgarage|terrasse|balkon|loggia|carport|gehweg|garten|vordach|lager|schuppen|nicht konditio|keller|technik|heizraum|hausanschluss|fahrrad|müll)/i;
 
 const SEITENVERHAELTNIS = 1.4;
 
@@ -259,7 +345,7 @@ function findeRaeume(schnipsel: Schnipsel[], geschoss: string, blatt: number): R
     const name = (darueber[0] ?? darunter[0])?.text.trim();
     if (!name) continue;
 
-    const belag = nah.find((s) => BELAG.test(s.text.trim()))?.text.trim();
+    const belag = nah.find((s) => istBelag(s.text))?.text.trim();
 
     raeume.push({
       id: crypto.randomUUID(),
@@ -422,14 +508,12 @@ export async function lesePlanAusText(
       );
     }
 
-    // Wenn eine Wohnnutzfläche bekannt ist, Ausreißer aus dem Raumkataster entfernen.
-    // Ohne diese Bereinigung landen Fehlzuordnungen (z.B. Grundstücksfläche) im Massenauszug.
     const wohnnutzflaeche = Object.entries(nachweise).find(([n]) =>
       normalisiereBegriff(n).includes("wohnnutzflaeche"),
     )?.[1];
-    const bereinigte = wohnnutzflaeche
-      ? raeume.filter((r) => r.flaeche_m2 <= wohnnutzflaeche * 1.05)
-      : raeume;
+    const abgleich = gleicheWohnnutzflaecheAb(raeume, wohnnutzflaeche);
+    const bereinigte = abgleich.raeume;
+    if (abgleich.hinweis) hinweise.push(abgleich.hinweis);
 
     const urteil = beurteile(bereinigte, nachweise, gesamtSchnipsel);
     return {

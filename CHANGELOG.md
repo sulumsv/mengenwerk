@@ -3,8 +3,33 @@
 Automatisch aus den Commit-Messages dieses Repos erstellt. Jeder Commit,
 egal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
-(`scripts/githooks/post-commit`) gepflegt — nicht händisch bearbeiten.- **2026-09-26 19:45** · Claude · `81a0a31` — README von Grund auf neu: erklärt jetzt die App statt der create-next-app-Vorlage- **2026-09-26 20:03** · Claude · `a63b078` — Eigenes Logo und Favicon statt reinem Textschriftzug- **2026-09-26 20:07** · Claude · `2140609` — 3D-CAD-Aufbauanimation: fertiges Haus statt Grundriss-Skizze auf der Startseite- **2026-09-26 20:07** · Claude · `1cd41be` — Ungenutzte 2D-Grundriss-Animation entfernen- **2026-09-26 20:11** · Claude · `086217e` — Merge branch 'sulum' into main- **2026-09-28 13:40** · Claude · `3b61ff1` — Neues helles Design mit Demo-Anfrage und Login-Karte
-- **2026-09-26 19:43** · Claude · `cb4b094` — Automatisches Changelog aus den Commit-Messages einführen
+(`scripts/githooks/post-commit`) gepflegt — nicht händisch bearbeiten.
+
+- **2026-09-28 13:42** · Claude · `8ae603f` — Neues helles Design mit aktuellem main zusammenführen
+- **2026-09-28 12:38** · sulumsv · `439e1a3` — Revert "Startseite: fließende Fotostrecke (Baustelle -> fertiges Haus) statt 3D-Szene"
+- **2026-09-28 12:15** · sulumsv · `ad1e903` — Revert "Startseiten-Animation als Bildfolge nach Storyboard: 16 Bauphasen vom Plan zum Traumhaus (#25)"
+- **2026-09-28 09:38** · Claude · `9fc7403` — Startseiten-Animation heller und flüssiger, Schlussbild wie ein Drohnenfoto
+- **2026-09-28 09:29** · Claude · `9e376fa` — Korrekturfeld unter der Mengenermittlung: angenommene Werte in eigenen Worten ersetzen
+- **2026-09-28 07:49** · Claude · `38df6d3` — Belagszeilen im Raumstempel nicht mehr als Raumnamen lesen
+- **2026-09-28 07:47** · Claude · `9fe58b6` — Raumbuch mit der Wohnnutzfläche abgleichen statt den Plan abzulehnen
+- **2026-09-28 07:44** · Claude · `dd315d3` — Startseiten-Animation fotorealistisch: echte Ziegel, echte Bäume, echter Horizont
+- **2026-09-28 07:09** · Claude · `4e59442` — Changelog-Einträge nicht mehr an die Kopfzeile kleben
+- **2026-09-28 07:09** · Claude · `cbbeb51` — Kostenschätzung nur noch auf Knopfdruck statt automatisch mit Richtwerten
+- **2026-09-26 22:12** · onturkaltanakif · `0a226ce` — Startseiten-Animation endet mit fertigem Haus im Grünen (#15)
+- **2026-09-26 20:11** · Claude · `371ae52` — Merge branch 'sulum' into main
+- **2026-09-26 20:07** · Claude · `c2fa252` — Ungenutzte 2D-Grundriss-Animation entfernen
+- **2026-09-26 20:07** · Claude · `c85ff37` — 3D-CAD-Aufbauanimation: fertiges Haus statt Grundriss-Skizze auf der Startseite
+- **2026-09-26 22:04** · onturkaltanakif · `be17a8f` — Alle Unterseiten im dunklen Stil der Startseite (#13)
+- **2026-09-26 20:03** · Claude · `b8bcd6d` — Eigenes Logo und Favicon statt reinem Textschriftzug
+- **2026-09-26 22:02** · onturkaltanakif · `99ff8a6` — Startseiten-Animation: Grundriss wächst in 3D zum Rohbau (#12)
+- **2026-09-26 21:55** · onturkaltanakif · `3bfa985` — Großflächenausreißer aus Raumkataster filtern (#11)
+- **2026-09-26 21:51** · onturkaltanakif · `657c1cf` — Scroll-Animation durch realistischen Grundriss ersetzt (#10)
+- **2026-09-26 21:45** · Sulum · `e40434b` — Merge pull request #9 from sulumsv/claude/relaxed-gauss-854c1k
+- **2026-09-26 19:45** · Claude · `086c6af` — README von Grund auf neu: erklärt jetzt die App statt der create-next-app-Vorlage
+- **2026-09-26 21:45** · onturkaltanakif · `f7267c2` — Startseite neu gestaltet: klares Premium-Layout mit Massenauszug-Vorschau (#8)
+- **2026-09-26 21:44** · Sulum · `3cf5659` — Merge pull request #7 from sulumsv/claude/relaxed-gauss-854c1k
+- **2026-09-26 19:43** · Claude · `9370ce5` — Automatisches Changelog aus den Commit-Messages einführen
+- **2026-09-26 21:43** · onturkaltanakif · `ce7dc17` — LB-HB 023 vollständig einbinden: 22.650 Positionen aus 59 Leistungsgruppen (#6)
 - **2026-09-26 21:25** · onturkaltanakif · `583807a` — Startseite komplett neu gestaltet: dunkles Design nach BauKit-Vorbild (#5)
 - **2026-09-26 21:21** · onturkaltanakif · `a1faf88` — Scroll-Animation auf der Startseite: Grundriss baut sich zum Haus auf (#4)
 - **2026-09-26 20:59** · onturkaltanakif · `860d6d7` — Merge pull request #3 from sulumsv/claude/startseite-problem-feld-gruen-d3jznd
@@ -42,3 +67,4 @@ Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 - **2026-08-26 13:42** · Claude · `c720e80` — Startseite überarbeitet: professionelleres Design und ausführlichere Erklärungen
 - **2026-08-26 13:38** · Claude · `178f039` — Verbleibende rote Fehleranzeigen (Login, Ergebnis-Fehler) auf Grün umstellen
 - **2026-08-26 15:31** · onturkaltanakif · `41510e1` — Startseite: "Das Problem"-Feld von Rot auf Grün ändern (#1)
+- **2026-08-26 14:57** · sulumsv · `282f8c9` — Initial commit

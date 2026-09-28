@@ -66,7 +66,7 @@ const WERKZEUGE = [
 
 export function SiteFooter() {
   return (
-    <footer className="bg-[#2f5fd0] text-white">
+    <footer className="bg-[#121b30] text-white">
       <div className="max-w-6xl mx-auto px-6 md:px-10 py-16 grid md:grid-cols-[1.6fr_1fr_1fr] gap-12">
         <div>
           <Logo dark />

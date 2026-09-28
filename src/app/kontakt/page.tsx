@@ -3,7 +3,7 @@ import { Abschnitt, KnopfPrimaer, SeitenHero } from "@/components/Marketing";
 
 export default function KontaktPage() {
   return (
-    <main className="flex-1 bg-[#f6f9fa]">
+    <main className="flex-1 bg-[#ffffff]">
       <SiteNav />
       <SeitenHero
         eyebrow="Kontakt"
@@ -15,13 +15,13 @@ export default function KontaktPage() {
       <Abschnitt>
         <div className="grid md:grid-cols-2 gap-5 max-w-3xl">
           <div className="rounded-xl border border-[#dde6ea] bg-white p-7">
-            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#0f5c78] mb-3">E-Mail</p>
+            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#3a8fc2] mb-3">E-Mail</p>
             <a href="mailto:office@msv-digital.com" className="text-lg font-medium text-[#16202a] hover:underline">
               office@msv-digital.com
             </a>
           </div>
           <div className="rounded-xl border border-[#dde6ea] bg-white p-7">
-            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#0f5c78] mb-3">Anschrift</p>
+            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#3a8fc2] mb-3">Anschrift</p>
             <p className="text-lg leading-relaxed text-[#16202a]">
               Sulumbek Masuev
               <br />

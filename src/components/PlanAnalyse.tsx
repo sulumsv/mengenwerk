@@ -114,10 +114,10 @@ function Grundriss({ kapitel, statisch = false }: { kapitel: number; statisch?: 
       {statisch && erkennung && (
         <g>
           {RAEUME.map((r) => (
-            <rect key={r.name} x={r.x + 2} y={r.y + 2} width={r.w - 4} height={r.h - 4} fill="#0f5c78" fillOpacity="0.12" stroke="#0b475d" strokeWidth="1.6" />
+            <rect key={r.name} x={r.x + 2} y={r.y + 2} width={r.w - 4} height={r.h - 4} fill="#3a8fc2" fillOpacity="0.12" stroke="#2f78a6" strokeWidth="1.6" />
           ))}
           {schlitze.map((s, i) => (
-            <circle key={i} cx={s.x + s.w / 2} cy={s.y + s.d / 2} r="9" fill="none" stroke={s.art === "fenster" ? "#0f5c78" : "#0b475d"} strokeWidth="1.6" />
+            <circle key={i} cx={s.x + s.w / 2} cy={s.y + s.d / 2} r="9" fill="none" stroke={s.art === "fenster" ? "#3a8fc2" : "#2f78a6"} strokeWidth="1.6" />
           ))}
         </g>
       )}
@@ -131,9 +131,9 @@ function Grundriss({ kapitel, statisch = false }: { kapitel: number; statisch?: 
                 y={r.y + 2}
                 width={r.w - 4}
                 height={r.h - 4}
-                fill="#0f5c78"
+                fill="#3a8fc2"
                 fillOpacity="0.12"
-                stroke="#0b475d"
+                stroke="#2f78a6"
                 strokeWidth="1.6"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -147,7 +147,7 @@ function Grundriss({ kapitel, statisch = false }: { kapitel: number; statisch?: 
                 cy={s.y + s.d / 2}
                 r="9"
                 fill="none"
-                stroke={s.art === "fenster" ? "#0f5c78" : "#0b475d"}
+                stroke={s.art === "fenster" ? "#3a8fc2" : "#2f78a6"}
                 strokeWidth="1.6"
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
@@ -198,7 +198,7 @@ export function PlanAnalyseSection() {
       <div
         className="sticky top-0 h-screen overflow-hidden"
         style={{
-          backgroundColor: "#e9eff2",
+          backgroundColor: "#f5f8fa",
           backgroundImage:
             "linear-gradient(rgba(22,32,42,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(22,32,42,0.05) 1px, transparent 1px)",
           backgroundSize: "32px 32px",
@@ -243,7 +243,7 @@ export function PlanAnalyseSection() {
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.3 }}
               >
-                <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#0f5c78]">{k.marke}</p>
+                <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#3a8fc2]">{k.marke}</p>
                 <h3 className="mt-3 font-display font-black text-[clamp(1.8rem,3.4vw,2.6rem)] leading-[1.02] tracking-tight">
                   {k.titel}
                 </h3>
@@ -252,7 +252,7 @@ export function PlanAnalyseSection() {
                   <div className="mt-6 flex gap-3 flex-wrap">
                     <a
                       href="/app"
-                      className="rounded-lg bg-[#0f5c78] text-[#16202a] font-display font-black uppercase text-xs tracking-wide px-5 py-3 hover:brightness-105"
+                      className="rounded-lg bg-[#3a8fc2] text-[#16202a] font-display font-black uppercase text-xs tracking-wide px-5 py-3 hover:brightness-105"
                     >
                       Eigenen Plan analysieren →
                     </a>
@@ -268,7 +268,7 @@ export function PlanAnalyseSection() {
             </AnimatePresence>
             <div className="mt-6 flex gap-1.5">
               {KAPITEL.map((_, i) => (
-                <div key={i} className={`h-0.5 flex-1 rounded-full transition-colors duration-300 ${i <= kapitel ? "bg-[#0f5c78]" : "bg-white/15"}`} />
+                <div key={i} className={`h-0.5 flex-1 rounded-full transition-colors duration-300 ${i <= kapitel ? "bg-[#3a8fc2]" : "bg-white/15"}`} />
               ))}
             </div>
           </div>

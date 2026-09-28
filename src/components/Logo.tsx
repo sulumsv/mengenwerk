@@ -1,7 +1,7 @@
 export function LogoMark({ className = "h-8 w-8" }: { className?: string }) {
   return (
     <svg viewBox="0 0 32 32" className={className} fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="32" height="32" rx="9" fill="#0f5c78" />
+      <rect width="32" height="32" rx="9" fill="#3a8fc2" />
       <path
         d="M7 22V13.5L11.5 9l4.5 4.5L20.5 9l4.5 4.5V22"
         stroke="#ffffff"
@@ -19,7 +19,7 @@ export function Logo({ className = "", dark = false }: { className?: string; dar
     <span className={`inline-flex items-center gap-2.5 ${className}`}>
       <LogoMark className="h-8 w-8 shrink-0" />
       <span className={`font-display font-bold tracking-tight text-[1.15rem] ${dark ? "text-white" : "text-[#16202a]"}`}>
-        mengen<span className="text-[#0f5c78]">werk</span>
+        mengen<span className="text-[#3a8fc2]">werk</span>
       </span>
     </span>
   );

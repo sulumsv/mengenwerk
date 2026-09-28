@@ -9,7 +9,7 @@ const WERTE = [
 
 export default function UeberUnsPage() {
   return (
-    <main className="flex-1 bg-[#f6f9fa]">
+    <main className="flex-1 bg-[#ffffff]">
       <SiteNav />
       <SeitenHero
         eyebrow="Über uns"

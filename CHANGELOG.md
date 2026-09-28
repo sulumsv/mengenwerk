@@ -5,6 +5,8 @@ egal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+- **2026-09-28 15:27** · Claude · `fb40a25` · Einheitspreise nur nach dem Login bearbeitbar
+- **2026-09-28 15:27** · Claude · `13fbe9a` · Hochgeladener Plan erscheint während der Analyse als Scan-Animation
 - **2026-09-28 15:24** · Claude · `64ed55d` · Safrangelb als Akzent und neutrale Beispielprojekte
 - **2026-09-28 15:18** · Claude · `8e9560a` · Farbwelt Nachtblau und Sand mit Graphit für Text
 - **2026-09-28 15:01** · Claude · `157eaf8` · Startseite erklärt, welche Positionen je Gewerk berechnet werden

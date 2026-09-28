@@ -5,6 +5,7 @@ egal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+- **2026-09-28 14:58** · Claude · `af4bf3a` · Startseite zeigt auf den ersten Blick, was MengenWerk macht
 - **2026-09-28 14:47** · Claude · `c707441` · Animierte Abendszene, Bernstein als Farbe und klarere Navigation
 - **2026-09-28 14:39** · Claude · `029d5b9` · Startseite als Bühne mit Menü links, weiß mit Hellblau
 - **2026-09-28 14:32** · Claude · `b5060e4` · Neue Schrift, kühle Farbwelt und neues Logo

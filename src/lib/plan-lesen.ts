@@ -183,6 +183,14 @@ const FLAECHE = /^([\d.,\s ]+)\s*m[²2]$/i;
 const BELAG =
   /^(parkett|fliesen?|estrich|beton[\w\s().-]*|bodenbeschichtung|stein|dielen|teppich|laminat|linoleum|vinyl|kautschuk)[\w\s().-]*$/i;
 
+/** Belagszeile eines Raumstempels, auch mit Zahlen davor oder dahinter ("200 Parkett", "Fliesen 200"). */
+const BELAG_WORT =
+  /^(parkett|fliesen?|estrich|beton|bodenbeschichtung|stein|steinzeug|naturstein|dielen|teppich|laminat|linoleum|vinyl|kautschuk)\b/i;
+
+function istBelag(text: string): boolean {
+  return BELAG_WORT.test(text.replace(/[\d.,]+/g, " ").replace(/\s+/g, " ").trim());
+}
+
 /** Zeilen, die nie ein Raumname sind. */
 const KEIN_RAUMNAME =
   /^(m[²2]|±|\+|-|ca\.?|abs\.?|gem\.?|lt\.?|nach|bzw\.?|und|oder|der|die|das|von|bis|max\.?|min\.?)$/i;
@@ -190,11 +198,14 @@ const KEIN_RAUMNAME =
 /** "14,26 m", "35,00°", "2,80 m²" — eine Maßangabe, kein Raumname. */
 const MASSANGABE = /^[\d.,\s\u00a0]+\s*(m[²2³3]?|cm|mm|°|grad|%|stk|stück)?\.?$/i;
 
-function istRaumname(text: string): boolean {
+export function istRaumname(text: string): boolean {
   const t = text.trim();
   if (t.length < 2 || t.length > 40) return false;
   if (KEIN_RAUMNAME.test(t)) return false;
   if (FLAECHE.test(t)) return false;
+  // Die Belagszeile steht im Raumstempel direkt neben dem Namen und wird sonst
+  // selbst zum Raumnamen ("Parkett", "Fliesen 200").
+  if (istBelag(t)) return false;
   // Maßangaben und reine Zahlenkolonnen scheiden aus. Ohne diese Prüfung wird
   // in einem Nachweisblock die Zeile darüber zum vermeintlichen Raumnamen.
   if (MASSANGABE.test(t)) return false;
@@ -334,7 +345,7 @@ function findeRaeume(schnipsel: Schnipsel[], geschoss: string, blatt: number): R
     const name = (darueber[0] ?? darunter[0])?.text.trim();
     if (!name) continue;
 
-    const belag = nah.find((s) => BELAG.test(s.text.trim()))?.text.trim();
+    const belag = nah.find((s) => istBelag(s.text))?.text.trim();
 
     raeume.push({
       id: crypto.randomUUID(),

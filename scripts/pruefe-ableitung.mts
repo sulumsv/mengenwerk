@@ -2,6 +2,7 @@
 // Einreichplans Torricelligasse 29. Aufruf: npm run pruefe
 import { baueMassenauszug, mitKostenschaetzung } from "../src/lib/ableitung.ts";
 import { gleicheWohnnutzflaecheAb, istRaumname } from "../src/lib/plan-lesen.ts";
+import { leseKorrektur } from "../src/lib/korrekturen.ts";
 import { NACHWEISE, nachweisAnweisung } from "../src/lib/nachweise.ts";
 import type { DetectedElement, PlanKontext, Raum } from "../src/lib/types.ts";
 import { Verbrauch, formatiereKosten } from "../src/lib/verbrauch.ts";
@@ -301,6 +302,45 @@ pruefe("Belagszeilen im Raumstempel werden nicht zum Raumnamen", () => {
   const falsch = ["Parkett", "200 Parkett", "Fliesen 200", "Estrich", "Fliesen"].filter(istRaumname);
   const richtig = ["Bad", "Wohnküche", "Steinterrasse", "Kind 1", "Abstellraum"].filter((n) => !istRaumname(n));
   if (falsch.length || richtig.length) throw new Error(`als Raum: ${falsch.join(", ")}; abgelehnt: ${richtig.join(", ")}`);
+});
+
+pruefe("Korrektursatz: Raumhöhe statt Annahme, abgehängte Decke, Geschoße, Stärken", () => {
+  const f: [string, string][] = [
+    ["Bitte überall statt 2,50 Meter die Raumhöhe auf 2,90 Meter korrigieren", '{"raumhoehe":{"*":2.9},"deckenUnterkante":{},"annahmen":{}}'],
+    ["Raumhöhe 2,90 m, abgehängte Decke Unterkante 2,75 m", '{"raumhoehe":{"*":2.9},"deckenUnterkante":{"*":2.75},"annahmen":{}}'],
+    ["Im OG Raumhöhe 2,60 m und im EG 2,90 m", '{"raumhoehe":{"OG":2.6,"EG":2.9},"deckenUnterkante":{},"annahmen":{}}'],
+    ["2,90 statt 2,50 bei der Raumhöhe", '{"raumhoehe":{"*":2.9},"deckenUnterkante":{},"annahmen":{}}'],
+    ["Estrich 6 cm, Bodenplatte 30 cm", '{"raumhoehe":{},"deckenUnterkante":{},"annahmen":{"estrichstaerke":0.06,"bodenplattenstaerke":0.3}}'],
+  ];
+  const falsch = f.filter(([t, soll]) => JSON.stringify(leseKorrektur(t)) !== soll);
+  if (falsch.length) throw new Error(falsch.map(([t]) => `${t} → ${JSON.stringify(leseKorrektur(t))}`).join(" | "));
+});
+
+pruefe("Korrigierte Raumhöhe wirkt auf Putz und Malerei und ist keine Annahme mehr", () => {
+  const menge = (a: ReturnType<typeof baueMassenauszug>, n: string) => a.abschnitte.flatMap((x) => x.positionen).find((p) => p.bezeichnung === n)?.menge ?? 0;
+  const ohne = baueMassenauszug(raeume, [], leererKontext);
+  const mit = baueMassenauszug(raeume, [], leererKontext, { raumhoehe: { "*": 2.9 }, deckenUnterkante: {}, annahmen: {} });
+  const faktor = menge(mit, "Innenputz Wand brutto") / menge(ohne, "Innenputz Wand brutto");
+  if (Math.abs(faktor - 2.9 / 2.5) > 0.001) throw new Error(`Faktor ${faktor}`);
+  if (mit.angewandteAnnahmen.some((a) => a.id === "raumhoheDachgeschoss")) throw new Error("Raumhöhe noch als Annahme geführt");
+});
+
+pruefe("Abgehängte Decke kürzt nur die Malerei, nicht den Putz", () => {
+  const menge = (a: ReturnType<typeof baueMassenauszug>, n: string) => a.abschnitte.flatMap((x) => x.positionen).find((p) => p.bezeichnung === n)?.menge ?? 0;
+  const k = { raumhoehe: { "*": 2.9 }, deckenUnterkante: {}, annahmen: {} };
+  const ohneUk = baueMassenauszug(raeume, [], leererKontext, k);
+  const mitUk = baueMassenauszug(raeume, [], leererKontext, { ...k, deckenUnterkante: { "*": 2.75 } });
+  if (menge(ohneUk, "Innenputz Wand brutto") !== menge(mitUk, "Innenputz Wand brutto")) throw new Error("Putz verändert");
+  if (!(menge(mitUk, "Malerei Wand + Decke") < menge(ohneUk, "Malerei Wand + Decke"))) throw new Error("Malerei nicht gekürzt");
+});
+
+pruefe("Korrigierte Annahme ersetzt den Katalogwert", () => {
+  const menge = (a: ReturnType<typeof baueMassenauszug>, n: string) => a.abschnitte.flatMap((x) => x.positionen).find((p) => p.bezeichnung.startsWith(n))?.menge ?? 0;
+  const ohne = baueMassenauszug(raeume, [], leererKontext);
+  const mit = baueMassenauszug(raeume, [], leererKontext, { raumhoehe: {}, deckenUnterkante: {}, annahmen: { estrichstaerke: 0.035 } });
+  const a = menge(ohne, "Estrich"), b = menge(mit, "Estrich");
+  if (!(b > 0 && Math.abs(b / a - 0.5) < 0.01)) throw new Error(`${a} → ${b}`);
+  if (mit.angewandteAnnahmen.some((x) => x.id === "estrichstaerke")) throw new Error("noch als Annahme geführt");
 });
 
 pruefe("Erdarbeiten, Dachkonstruktion, Dämmung und PV sind enthalten", () => {

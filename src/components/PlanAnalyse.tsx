@@ -1,243 +1,144 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import dynamic from "next/dynamic";
 import { AnimatePresence, motion, useMotionValueEvent, useScroll, useSpring } from "motion/react";
-import { boxen, schlitze, RAEUME, FARBE, PLAN_W, PLAN_H, m2, NUTZFLAECHE, TUERBOEGEN } from "./haus/plan";
 
-// WebGL läuft nur im Browser; die Szene lädt ihre Modelle, während die ersten Kapitel gelesen werden.
-const HausSzene = dynamic(() => import("./haus/HausSzene"), { ssr: false });
+/**
+ * Bauphasen vom Einreichplan bis zum fertigen Haus. Die Bilder teilen sich
+ * (bis auf die Detailaufnahmen) dieselbe Kameraposition, deshalb wirkt das
+ * Überblenden wie ein Zeitraffer, in dem das Haus Schritt für Schritt wächst.
+ */
+const BAUPHASEN = [
+  "Einreichplan",
+  "Fundament & Wände",
+  "Wände wachsen",
+  "Innenräume entstehen",
+  "Böden & Rohbau",
+  "Stahlbetondecke",
+  "Dach & Beleuchtung",
+  "Interieur",
+  "Außenanlagen & Garten",
+  "Pool",
+  "Terrasse & Outdoor",
+  "Beleuchtung außen",
+  "Garage & Zufahrt",
+  "Detailaufnahmen",
+  "Terrasse & Pool",
+  "Fertiges Traumhaus",
+].map((titel, i) => ({ titel, src: `/animation/bauphasen/${String(i + 1).padStart(2, "0")}.jpg` }));
 
 const KAPITEL = [
   {
-    marke: "Beispielprojekt · EFH Neubau, NÖ",
+    ab: 0,
+    marke: "Beispielprojekt · EFH Neubau",
     titel: "Ein Einreichplan.",
     text: "Das ist alles, was MengenWerk braucht — ein PDF aus dem CAD oder ein Scan.",
   },
   {
-    marke: "Schritt 1 · Erkennung",
-    titel: "Jeder Raum. Jede Öffnung.",
-    text: `${RAEUME.length} Räume mit ${m2(NUTZFLAECHE)} m² Nutzfläche, 11 Fenster und 8 Türen — gelesen aus Raumstempeln und Plansymbolen.`,
+    ab: 1,
+    marke: "Schritt 1 · Rohbau",
+    titel: "Aus Linien werden Wände.",
+    text: "Wandlängen × Schnitthöhe, abzüglich Öffnungen: Mauerwerk und Beton mit sichtbarem Rechenweg.",
   },
   {
-    marke: "Schritt 2 · Rohbau",
-    titel: "Aus Linien werden Mengen.",
-    text: "Wandlängen × Schnitthöhe, abzüglich Öffnungen: 142,80 m² Mauerwerk, 34,20 m³ Beton — jede Zahl mit Rechenweg.",
+    ab: 5,
+    marke: "Schritt 2 · Decke, Dach, Ausbau",
+    titel: "Decke, Dach, Innenausbau.",
+    text: "Stahlbetondecke, Flachdach, Estrich, Putz, Fliesen — jede Menge aus dem Plan abgeleitet.",
   },
   {
-    marke: "Schritt 3 · Ausbau",
-    titel: "Putz, Fenster, Dach.",
-    text: "226,5 m² Fassade über zwei Geschosse, 17 Fenster, 130,6 m² Flachdach mit Kiesbett und Attika — jedes Gewerk mit Menge und LB-HB-Position.",
+    ab: 8,
+    marke: "Schritt 3 · Außenanlagen",
+    titel: "Garten, Pool, Zufahrt.",
+    text: "Erdarbeiten, Pflaster, Pool und Terrasse — auch die Außenanlagen landen im Massenauszug.",
   },
   {
+    ab: 13,
     marke: "Das Ergebnis",
     titel: "Vom Plan zum Haus. 47 Positionen.",
     text: "Der vollständige Massenauszug nach LB-HB 023 — fertig zum Bepreisen, in Minuten statt Tagen.",
   },
 ];
 
-// `statisch`: ohne Animation, für die Textur des Planblatts in der 3D-Szene
-function Grundriss({ kapitel, statisch = false }: { kapitel: number; statisch?: boolean }) {
-  const erkennung = kapitel === 1;
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox={`0 0 ${PLAN_W} ${PLAN_H}`} width={PLAN_W} height={PLAN_H} className="absolute inset-0">
-      <rect width={PLAN_W} height={PLAN_H} fill="#fdfcf9" />
-
-      {RAEUME.map((r) => (
-        <rect key={r.name} x={r.x} y={r.y} width={r.w} height={r.h} fill={r.fill} />
-      ))}
-
-      {boxen
-        .filter((b) => b.k === 1)
-        .map((b, i) => (
-          <rect key={i} x={b.x} y={b.y} width={b.w} height={b.d} fill={FARBE.wand} />
-        ))}
-
-      {schlitze
-        .filter((s) => s.art === "fenster")
-        .map((s, i) => (
-          <g key={i}>
-            <rect x={s.x} y={s.y} width={s.w} height={s.d} fill="#fdfcf9" stroke={FARBE.wand} strokeWidth="0.8" />
-            {[0.3, 0.5, 0.7].map((f) =>
-              s.vertikal ? (
-                <line key={f} x1={s.x + s.w * f} y1={s.y} x2={s.x + s.w * f} y2={s.y + s.d} stroke={FARBE.wand} strokeWidth="0.6" />
-              ) : (
-                <line key={f} x1={s.x} y1={s.y + s.d * f} x2={s.x + s.w} y2={s.y + s.d * f} stroke={FARBE.wand} strokeWidth="0.6" />
-              ),
-            )}
-          </g>
-        ))}
-
-      {TUERBOEGEN.map((d, i) => (
-        <path key={i} d={d} fill="none" stroke={FARBE.wand} strokeWidth="0.7" />
-      ))}
-
-      {RAEUME.map((r) => (
-        <g key={`l-${r.name}`}>
-          <text x={r.x + r.w / 2} y={r.y + r.h / 2 - 3} textAnchor="middle" fill="#2b2824" fontFamily="Georgia, serif" fontStyle="italic" fontSize={r.w < 110 ? 8.5 : 10}>
-            {r.name}
-          </text>
-          <text x={r.x + r.w / 2} y={r.y + r.h / 2 + 10} textAnchor="middle" fill="#4a463f" fontFamily="ui-monospace, monospace" fontSize="8">
-            {m2(r.flaeche)} m²
-          </text>
-        </g>
-      ))}
-
-      {/* Maßketten */}
-      <g stroke={FARBE.linie} strokeWidth="0.7" fill={FARBE.linie} fontFamily="ui-monospace, monospace" fontSize="8">
-        <line x1="80" y1="20" x2="520" y2="20" />
-        {[80, 120, 180, 210, 260, 330, 380, 450, 480, 520].map((x) => (
-          <line key={x} x1={x - 3} y1="23" x2={x + 3} y2="17" />
-        ))}
-        <text x="300" y="14" textAnchor="middle" stroke="none">12,10</text>
-        <line x1="56" y1="40" x2="56" y2="370" />
-        {[40, 90, 150, 192, 226, 270, 330, 370].map((y) => (
-          <line key={y} x1="53" y1={y + 3} x2="59" y2={y - 3} />
-        ))}
-        <text x="46" y="205" textAnchor="middle" stroke="none" transform="rotate(-90 46 205)">9,07</text>
-      </g>
-
-      {/* Nordpfeil */}
-      <g transform="translate(556 60)">
-        <circle r="13" fill="none" stroke={FARBE.linie} strokeWidth="0.8" />
-        <path d="M0,-11 L4,5 L0,2 L-4,5 Z" fill={FARBE.wand} />
-        <text y="-17" textAnchor="middle" fontFamily="ui-monospace, monospace" fontSize="8" fontWeight="bold" fill={FARBE.wand}>N</text>
-      </g>
-
-      <g fontFamily="ui-monospace, monospace" fontSize="7" fill={FARBE.linie} letterSpacing="0.6">
-        <line x1="80" y1="392" x2="520" y2="392" stroke={FARBE.linie} strokeWidth="0.5" />
-        <text x="80" y="404">EFH NEUBAU · GRUNDRISS EG · M 1:100 · EINREICHPLAN</text>
-        <text x="520" y="404" textAnchor="end">BLATT 2/6</text>
-      </g>
-
-      {/* Erkennung: Räume und Öffnungen markieren */}
-      {statisch && erkennung && (
-        <g>
-          {RAEUME.map((r) => (
-            <rect key={r.name} x={r.x + 2} y={r.y + 2} width={r.w - 4} height={r.h - 4} fill="#f4c400" fillOpacity="0.12" stroke="#d9a900" strokeWidth="1.6" />
-          ))}
-          {schlitze.map((s, i) => (
-            <circle key={i} cx={s.x + s.w / 2} cy={s.y + s.d / 2} r="9" fill="none" stroke={s.art === "fenster" ? "#1f7a33" : "#d9a900"} strokeWidth="1.6" />
-          ))}
-        </g>
-      )}
-      <AnimatePresence>
-        {!statisch && erkennung && (
-          <motion.g initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.35 }}>
-            {RAEUME.map((r, i) => (
-              <motion.rect
-                key={r.name}
-                x={r.x + 2}
-                y={r.y + 2}
-                width={r.w - 4}
-                height={r.h - 4}
-                fill="#f4c400"
-                fillOpacity="0.12"
-                stroke="#d9a900"
-                strokeWidth="1.6"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: i * 0.06, duration: 0.3 }}
-              />
-            ))}
-            {schlitze.map((s, i) => (
-              <motion.circle
-                key={i}
-                cx={s.x + s.w / 2}
-                cy={s.y + s.d / 2}
-                r="9"
-                fill="none"
-                stroke={s.art === "fenster" ? "#1f7a33" : "#d9a900"}
-                strokeWidth="1.6"
-                initial={{ scale: 0, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-                transition={{ delay: 0.3 + i * 0.04, duration: 0.25 }}
-              />
-            ))}
-          </motion.g>
-        )}
-      </AnimatePresence>
-    </svg>
-  );
-}
+const glatt = (v: number) => v * v * (3 - 2 * v);
+const clamp01 = (v: number) => Math.min(1, Math.max(0, v));
 
 export function PlanAnalyseSection() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const [kapitel, setKapitel] = useState(0);
-  const [fit, setFit] = useState(1);
-  const [bereit, setBereit] = useState(false);
-  const [planSvg, setPlanSvg] = useState<{ normal: string; markiert: string } | null>(null);
-  const svgNormal = useRef<HTMLDivElement>(null);
-  const svgMarkiert = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const lies = (el: HTMLDivElement | null) => (el?.firstElementChild ? new XMLSerializer().serializeToString(el.firstElementChild) : "");
-    setPlanSvg({ normal: lies(svgNormal.current), markiert: lies(svgMarkiert.current) });
-  }, []);
+  const buehne = useRef<HTMLDivElement>(null);
+  // Segment: das Bild, über das gerade das nächste geblendet wird. Bild: die angezeigte Bauphase.
+  const [segment, setSegment] = useState(0);
+  const [bild, setBild] = useState(0);
 
   const { scrollYProgress } = useScroll({ target: containerRef, offset: ["start start", "end end"] });
   // Gedämpft wie eine Kamerafahrt: jeder Scroll-Ruck wird zu einer weichen Bewegung.
-  const weich = useSpring(scrollYProgress, { stiffness: 55, damping: 20, mass: 0.7, restDelta: 0.0002 });
+  const weich = useSpring(scrollYProgress, { stiffness: 60, damping: 20, mass: 0.6, restDelta: 0.0002 });
 
-  useMotionValueEvent(scrollYProgress, "change", (v) => {
-    setKapitel(v < 0.12 ? 0 : v < 0.32 ? 1 : v < 0.56 ? 2 : v < 0.84 ? 3 : 4);
+  // Überblendung und Zoom laufen über CSS-Variablen, ohne React bei jedem Frame neu zu rendern.
+  useMotionValueEvent(weich, "change", (p) => {
+    const f = clamp01(p) * (BAUPHASEN.length - 1);
+    const i = Math.min(BAUPHASEN.length - 2, Math.floor(f));
+    // Jedes Bild steht eine Weile, dann blendet das nächste darüber
+    const blende = glatt(clamp01((f - i - 0.35) / 0.65));
+    buehne.current?.style.setProperty("--blende", String(blende));
+    buehne.current?.style.setProperty("--zoom", String(1.02 + 0.1 * clamp01(p)));
+    setSegment(i);
+    setBild(blende > 0.5 ? i + 1 : i);
   });
 
+  // Alle Bilder vorab laden, damit beim Scrollen nichts nachlädt
   useEffect(() => {
-    const anpassen = () =>
-      setFit(Math.min(1.45, (window.innerWidth - 32) / PLAN_W, (window.innerHeight * 0.7) / PLAN_H));
-    anpassen();
-    window.addEventListener("resize", anpassen);
-    return () => window.removeEventListener("resize", anpassen);
+    for (const b of BAUPHASEN) {
+      const img = new Image();
+      img.src = b.src;
+    }
   }, []);
 
-  const k = KAPITEL[kapitel];
+  const kapitelIndex = KAPITEL.findLastIndex((k) => bild >= k.ab);
+  const k = KAPITEL[kapitelIndex];
 
   return (
-    <section ref={containerRef} className="relative" style={{ height: "600vh" }}>
-      <div
-        className="sticky top-0 h-screen overflow-hidden"
-        style={{
-          backgroundColor: "#eeece5",
-          backgroundImage:
-            "linear-gradient(rgba(20,19,15,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(20,19,15,0.05) 1px, transparent 1px)",
-          backgroundSize: "32px 32px",
-        }}
-      >
-        {/* Vorlagen für die Planblatt-Textur (unsichtbar) */}
-        <div aria-hidden className="absolute -left-[9999px] top-0">
-          <div ref={svgNormal}>
-            <Grundriss kapitel={0} statisch />
-          </div>
-          <div ref={svgMarkiert}>
-            <Grundriss kapitel={1} statisch />
-          </div>
-        </div>
-
-        {/* Die 3D-Szene zeigt von Anfang an den Plan von oben; daraus wächst das Haus. */}
-        <div className="absolute inset-0">
-          {planSvg && <HausSzene fortschritt={weich} planSvg={planSvg} onBereit={() => setBereit(true)} />}
-        </div>
-
-        {/* 2D-Plan nur als Platzhalter, bis die 3D-Szene geladen ist */}
+    <section ref={containerRef} className="relative" style={{ height: "800vh" }}>
+      <div className="sticky top-0 h-screen overflow-hidden bg-[#0c0c0b]">
         <div
-          className="absolute inset-0 flex items-center justify-center pb-40 md:pb-0 pointer-events-none"
-          style={{ display: bereit ? "none" : undefined }}
+          ref={buehne}
+          className="absolute inset-0"
+          style={{
+            ["--blende" as string]: "0",
+            ["--zoom" as string]: "1.02",
+            transform: "scale(var(--zoom))",
+            willChange: "transform",
+          }}
         >
-          <div style={{ width: PLAN_W * fit, height: PLAN_H * fit }}>
-            <div style={{ width: PLAN_W, height: PLAN_H, transform: `scale(${fit})`, transformOrigin: "top left" }}>
-              <div className="relative" style={{ width: PLAN_W, height: PLAN_H }}>
-                <Grundriss kapitel={kapitel} />
-              </div>
-            </div>
-          </div>
+          {/* Nur das aktuelle und das nächste Bild liegen im DOM: spart Grafikspeicher auf Tablets */}
+          {BAUPHASEN.map((b, i) =>
+            i === segment || i === segment + 1 ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                key={b.src}
+                src={b.src}
+                alt={b.titel}
+                decoding="async"
+                className="absolute inset-0 w-full h-full object-cover"
+                style={{ opacity: i === segment ? 1 : "var(--blende)" }}
+              />
+            ) : null,
+          )}
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/20 pointer-events-none" />
+
+        <div className="absolute top-6 left-4 md:top-8 md:left-10 flex items-center gap-2.5 rounded-full bg-black/45 backdrop-blur px-4 py-2 border border-white/10">
+          <span className="w-1.5 h-1.5 rounded-full bg-[#f4c400]" />
+          <span className="font-mono text-[10px] md:text-[11px] uppercase tracking-[0.18em] text-white/80">
+            Bauphase {bild + 1}/{BAUPHASEN.length} · {BAUPHASEN[bild].titel}
+          </span>
         </div>
 
         <div className="absolute left-4 right-4 bottom-4 md:left-10 md:right-auto md:bottom-10 md:w-[440px]">
-          <div className="rounded-2xl bg-[#14130f]/95 text-white p-6 md:p-8 shadow-2xl backdrop-blur">
+          <div className="rounded-2xl bg-[#14130f]/90 text-white p-6 md:p-8 shadow-2xl backdrop-blur">
             <AnimatePresence mode="wait">
               <motion.div
-                key={kapitel}
+                key={kapitelIndex}
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
@@ -248,7 +149,7 @@ export function PlanAnalyseSection() {
                   {k.titel}
                 </h3>
                 <p className="mt-3 text-sm md:text-[0.95rem] text-white/60 leading-relaxed">{k.text}</p>
-                {kapitel === 4 && (
+                {kapitelIndex === KAPITEL.length - 1 && (
                   <div className="mt-6 flex gap-3 flex-wrap">
                     <a
                       href="/app"
@@ -268,7 +169,10 @@ export function PlanAnalyseSection() {
             </AnimatePresence>
             <div className="mt-6 flex gap-1.5">
               {KAPITEL.map((_, i) => (
-                <div key={i} className={`h-0.5 flex-1 rounded-full transition-colors duration-300 ${i <= kapitel ? "bg-[#f4c400]" : "bg-white/15"}`} />
+                <div
+                  key={i}
+                  className={`h-0.5 flex-1 rounded-full transition-colors duration-300 ${i <= kapitelIndex ? "bg-[#f4c400]" : "bg-white/15"}`}
+                />
               ))}
             </div>
           </div>

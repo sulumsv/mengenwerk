@@ -32,7 +32,7 @@ const PLAENE = [
 
 export default function PreisePage() {
   return (
-    <main className="flex-1 bg-[#fbf8f3]">
+    <main className="flex-1 bg-[#f6f9fa]">
       <SiteNav />
       <SeitenHero
         eyebrow="Preise"
@@ -45,19 +45,19 @@ export default function PreisePage() {
             <div
               key={p.eyebrow}
               className={`rounded-2xl border p-7 flex flex-col ${
-                p.hervorgehoben ? "border-[#231f1a] border-2 bg-[#f8ece4]" : "border-[#e8e0d2] bg-white"
+                p.hervorgehoben ? "border-[#16202a] border-2 bg-[#e6f2f6]" : "border-[#dde6ea] bg-white"
               }`}
             >
-              <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#c2562f]">{p.eyebrow}</p>
-              <p className="mt-4 font-display font-extrabold tracking-tight text-[2.5rem] leading-none text-[#231f1a]">
+              <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#0f5c78]">{p.eyebrow}</p>
+              <p className="mt-4 font-display font-extrabold tracking-tight text-[2.5rem] leading-none text-[#16202a]">
                 {p.preis}
-                {p.zusatz && <span className="ml-2 font-body font-normal text-sm text-[#6e665b]">{p.zusatz}</span>}
+                {p.zusatz && <span className="ml-2 font-body font-normal text-sm text-[#5d6b78]">{p.zusatz}</span>}
               </p>
-              <p className="mt-3 text-xs text-[#9a9184]">{p.hinweis}</p>
-              <ul className="mt-6 space-y-2.5 flex-1 text-sm text-[#3f3a33]">
+              <p className="mt-3 text-xs text-[#8b98a4]">{p.hinweis}</p>
+              <ul className="mt-6 space-y-2.5 flex-1 text-sm text-[#34424f]">
                 {p.merkmale.map((m) => (
                   <li key={m} className="flex gap-2.5">
-                    <span className="text-[#c2562f]">✓</span>
+                    <span className="text-[#0f5c78]">✓</span>
                     {m}
                   </li>
                 ))}
@@ -66,7 +66,7 @@ export default function PreisePage() {
                 {p.hervorgehoben ? (
                   <Link
                     href={p.cta.href}
-                    className="inline-flex rounded-full bg-[#c2562f] text-white font-semibold text-sm px-6 py-3 hover:bg-[#a8461f] transition"
+                    className="inline-flex rounded-full bg-[#0f5c78] text-white font-semibold text-sm px-6 py-3 hover:bg-[#0b475d] transition"
                   >
                     {p.cta.label}
                   </Link>
@@ -77,7 +77,7 @@ export default function PreisePage() {
             </div>
           ))}
         </div>
-        <p className="mt-10 max-w-2xl text-sm text-[#6e665b] leading-relaxed">
+        <p className="mt-10 max-w-2xl text-sm text-[#5d6b78] leading-relaxed">
           Zum Vergleich: Das Aufmaß für ein Einfamilienhaus dauert von Hand leicht einen ganzen Arbeitstag. Mit
           MengenWerk bleibt die Kontrolle der Ergebnisse.
         </p>

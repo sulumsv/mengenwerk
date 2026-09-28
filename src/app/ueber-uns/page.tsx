@@ -9,7 +9,7 @@ const WERTE = [
 
 export default function UeberUnsPage() {
   return (
-    <main className="flex-1 bg-[#fbf8f3]">
+    <main className="flex-1 bg-[#f6f9fa]">
       <SiteNav />
       <SeitenHero
         eyebrow="Über uns"
@@ -17,7 +17,7 @@ export default function UeberUnsPage() {
         text="MengenWerk ist entstanden, weil viele kleine Baubetriebe Mengen noch immer von Hand aus Bauplänen herausrechnen."
       />
       <Abschnitt>
-        <div className="max-w-2xl mx-auto space-y-5 text-[15px] text-[#6e665b] leading-relaxed">
+        <div className="max-w-2xl mx-auto space-y-5 text-[15px] text-[#5d6b78] leading-relaxed">
           <p>
             Die vorhandenen Werkzeuge sind entweder auf große Baufirmen zugeschnitten oder auf Spezialgewerke
             beschränkt. Für den Baumeister, der abends noch ein Angebot rechnen muss, passt beides nicht.

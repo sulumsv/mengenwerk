@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --surface: #fbf8f3;
+  --surface: #f6f9fa;
   --surface-2: #ffffff;
-  --fg: #231f1a;
-  --fg-muted: #6e665b;
-  --accent: #c2562f;
+  --fg: #16202a;
+  --fg-muted: #5d6b78;
+  --accent: #0f5c78;
   --accent-fg: #ffffff;
   --alert: #d9483b;
   --alert-fg: #ffffff;
   --highlight: #e0703f;
   --highlight-fg: #ffffff;
-  --line: #e8e0d2;
-  --line-strong: #d5c9b5;
+  --line: #dde6ea;
+  --line-strong: #c8d4da;
   color-scheme: light;
 }
 
@@ -55,17 +55,17 @@ body {
 }
 
 .bg-himmel {
-  background-color: #f3ede3;
+  background-color: #e9eff2;
   background-image:
-    linear-gradient(rgba(35, 31, 26, 0.045) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(35, 31, 26, 0.045) 1px, transparent 1px);
+    linear-gradient(rgba(22,32,42, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(22,32,42, 0.045) 1px, transparent 1px);
   background-size: 28px 28px;
 }
 
 .glas {
-  background: #fffdf9;
-  border: 1px solid #e8e0d2;
-  box-shadow: 0 1px 0 rgba(35, 31, 26, 0.03);
+  background: #ffffff;
+  border: 1px solid #dde6ea;
+  box-shadow: 0 1px 0 rgba(22,32,42, 0.03);
 }
 
 .font-num {

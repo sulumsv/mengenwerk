@@ -1,6 +1,7 @@
 // Prüflauf der Ableitung gegen die von Hand gerechneten Mengen des
 // Einreichplans Torricelligasse 29. Aufruf: npm run pruefe
 import { baueMassenauszug, mitKostenschaetzung } from "../src/lib/ableitung.ts";
+import { gleicheWohnnutzflaecheAb } from "../src/lib/plan-lesen.ts";
 import { NACHWEISE, nachweisAnweisung } from "../src/lib/nachweise.ts";
 import type { DetectedElement, PlanKontext, Raum } from "../src/lib/types.ts";
 import { Verbrauch, formatiereKosten } from "../src/lib/verbrauch.ts";
@@ -256,6 +257,44 @@ pruefe("Preis 0 gilt als gesetzt, nicht als fehlend", () => {
   if (parkett?.betrag !== 0 || parkett.preisQuelle !== "eigen") {
     throw new Error(`Betrag ${parkett?.betrag}, Quelle ${parkett?.preisQuelle}`);
   }
+});
+
+// ── Abgleich des gelesenen Raumbuchs mit der Wohnnutzfläche ──
+const raum = (name: string, flaeche: number, geschoss: string, beheizt = true) =>
+  ({ id: `${geschoss}-${name}`, geschoss, name, flaeche_m2: flaeche, umfang_m: 10, umfangQuelle: "geschaetzt", beheizt, nassraum: false, konfidenz: "plan", quelle: "Test" }) as never;
+const eg = [raum("Wohnen", 60, "EG"), raum("Küche", 20, "EG"), raum("Bad", 10, "EG"), raum("Gang", 12, "EG")];
+const og = [raum("Zimmer 1", 30, "OG"), raum("Zimmer 2", 28, "OG"), raum("Zimmer 3", 25, "OG"), raum("WC", 4, "OG")];
+
+pruefe("Ein zusätzliches Nebengeschoß wird erkannt und nicht zur Wohnnutzfläche gezählt", () => {
+  const ug = [raum("Hobbyraum", 45, "Blatt 1"), raum("Vorrat", 30, "Blatt 1"), raum("Waschen", 36, "Blatt 1")];
+  const a = gleicheWohnnutzflaecheAb([...eg, ...og, ...ug], 189);
+  const beheizt = a.raeume.filter((r) => r.beheizt).reduce((s, r) => s + r.flaeche_m2, 0);
+  if (Math.abs(beheizt - 189) > 0.01 || a.raeume.length !== 11 || !a.hinweis?.includes("Blatt 1")) {
+    throw new Error(`beheizt ${beheizt}, Räume ${a.raeume.length}, Hinweis ${a.hinweis}`);
+  }
+});
+
+pruefe("Derselbe Grundriss auf zwei Blättern wird nicht doppelt gezählt", () => {
+  const kopie = eg.map((r) => ({ ...r, geschoss: "Blatt 4" }));
+  const a = gleicheWohnnutzflaecheAb([...eg, ...og, ...kopie], 189);
+  if (a.raeume.length !== 8 || !a.hinweis?.includes("nicht doppelt")) throw new Error(`${a.raeume.length} Räume, ${a.hinweis}`);
+});
+
+pruefe("Passende Raumsumme bleibt unverändert", () => {
+  const a = gleicheWohnnutzflaecheAb([...eg, ...og], 190);
+  if (a.raeume.length !== 8 || a.hinweis) throw new Error(`${a.raeume.length} Räume, ${a.hinweis}`);
+});
+
+pruefe("Ohne passende Geschoßkombination wird nichts verworfen", () => {
+  const a = gleicheWohnnutzflaecheAb([...eg, ...og], 120);
+  if (a.raeume.length !== 8 || a.hinweis) throw new Error(`${a.raeume.length} Räume, ${a.hinweis}`);
+});
+
+pruefe("Keller und Garage auf eigenem Blatt bleiben erhalten", () => {
+  const garage = [raum("Garage", 36, "Blatt 2", false)];
+  const ug = [raum("Hobbyraum", 45, "Blatt 1"), raum("Vorrat", 30, "Blatt 1"), raum("Waschen", 36, "Blatt 1")];
+  const a = gleicheWohnnutzflaecheAb([...eg, ...og, ...ug, ...garage], 189);
+  if (!a.raeume.some((r) => r.name === "Garage") || a.raeume.length !== 12) throw new Error(`${a.raeume.length} Räume`);
 });
 
 pruefe("Erdarbeiten, Dachkonstruktion, Dämmung und PV sind enthalten", () => {

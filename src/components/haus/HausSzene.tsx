@@ -6,7 +6,7 @@
 
 import { Suspense, useLayoutEffect, useMemo, useRef } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
-import { Environment, SoftShadows, useGLTF, useTexture } from "@react-three/drei";
+import { Environment, useGLTF, useTexture } from "@react-three/drei";
 import { Bloom, EffectComposer, N8AO, SMAA, ToneMapping, Vignette } from "@react-three/postprocessing";
 import { ToneMappingMode } from "postprocessing";
 import type { MotionValue } from "motion/react";
@@ -35,7 +35,6 @@ const PHASE = {
   fenster: [0.66, 0.74],
   dach: [0.72, 0.82],
   pflanzen: [0.8, 0.9],
-  abend: [0.84, 1],
 } as const;
 const phase = (p: number, k: keyof typeof PHASE) => abschnitt(p, PHASE[k][0], PHASE[k][1]);
 
@@ -263,24 +262,26 @@ function Boden({ fortschritt }: { fortschritt: MotionValue<number> }) {
   );
 }
 
+// Fensterglas spiegelt wie im echten Leben den Himmel; der Innenraum bleibt dunkel
+function fensterGlas() {
+  return new THREE.MeshPhysicalMaterial({
+    color: "#2f3d47",
+    metalness: 0.25,
+    roughness: 0.03,
+    transparent: true,
+    opacity: 0,
+    envMapIntensity: 2.4,
+    clearcoat: 1,
+    clearcoatRoughness: 0.03,
+  });
+}
+
 // ── Fenster, Haustür, Vordach ──
 const RAHMEN = "#2c2f33";
 
 function Oeffnungen({ fortschritt }: { fortschritt: MotionValue<number> }) {
   const gruppe = useRef<THREE.Group>(null);
-  const glas = useMemo(
-    () =>
-      new THREE.MeshPhysicalMaterial({
-        color: "#b9ccd6",
-        metalness: 0,
-        roughness: 0.04,
-        transparent: true,
-        opacity: 0.3,
-        envMapIntensity: 1.6,
-        clearcoat: 1,
-      }),
-    [],
-  );
+  const glas = useMemo(() => fensterGlas(), []);
   const rahmen = useMemo(() => new THREE.MeshStandardMaterial({ color: RAHMEN, metalness: 0.55, roughness: 0.35 }), []);
   const bank = useMemo(() => new THREE.MeshStandardMaterial({ color: "#8f9396", metalness: 0.6, roughness: 0.3 }), []);
 
@@ -292,7 +293,7 @@ function Oeffnungen({ fortschritt }: { fortschritt: MotionValue<number> }) {
     if (gruppe.current) {
       gruppe.current.visible = f > 0.01;
     }
-    glas.opacity = 0.3 * f;
+    glas.opacity = 0.92 * f;
   });
 
   const unten = 0.32 * H;
@@ -419,9 +420,8 @@ function Obergeschoss({ fortschritt }: { fortschritt: MotionValue<number> }) {
   const fensterGr = useRef<THREE.Group>(null);
   const teile = useMemo(() => ogWandteile(), []);
   const deckeGeo = useMemo(() => metrischeBox((520 - 80) * S, 0.22, (370 - 40) * S, 3), []);
-  const glas = useMemo(() => new THREE.MeshPhysicalMaterial({ color: "#a9bcc8", roughness: 0.04, transparent: true, opacity: 0.35, envMapIntensity: 1.6, clearcoat: 1 }), []);
+  const glas = useMemo(() => fensterGlas(), []);
   const rahmen = useMemo(() => new THREE.MeshStandardMaterial({ color: "#2c2f33", metalness: 0.55, roughness: 0.35 }), []);
-  const licht = useMemo(() => new THREE.MeshBasicMaterial({ color: new THREE.Color(0, 0, 0), toneMapped: false }), []);
   useFrame(() => {
     const p = fortschritt.get();
     const g = phase(p, "og");
@@ -437,9 +437,7 @@ function Obergeschoss({ fortschritt }: { fortschritt: MotionValue<number> }) {
     }
     const f = phase(p, "fenster");
     if (fensterGr.current) fensterGr.current.visible = f > 0.01;
-    glas.opacity = 0.35 * f;
-    const l = phase(p, "abend");
-    licht.color.setRGB(1.1 * l, 0.75 * l, 0.4 * l);
+    glas.opacity = 0.92 * f;
   });
 
   return (
@@ -459,10 +457,6 @@ function Obergeschoss({ fortschritt }: { fortschritt: MotionValue<number> }) {
             <group key={i} position={[f.x, y, f.z]} rotation-y={dreh}>
               <mesh position={[0, f.h / 2, 0]} material={glas}>
                 <boxGeometry args={[f.b - 0.1, f.h - 0.1, 0.02]} />
-              </mesh>
-              {/* warmes Innenlicht hinter dem Glas */}
-              <mesh position={[0, f.h / 2, -0.12 * vor]} material={licht}>
-                <planeGeometry args={[f.b - 0.2, f.h - 0.2]} />
               </mesh>
               {[
                 [0, 0.03, f.b, 0.06],
@@ -493,11 +487,41 @@ function Obergeschoss({ fortschritt }: { fortschritt: MotionValue<number> }) {
   );
 }
 
+// PV-Modul: dunkelblaue Zellen mit feinem Raster, spiegelnd
+function pvMaterial() {
+  const c = document.createElement("canvas");
+  c.width = c.height = 256;
+  const g = c.getContext("2d")!;
+  g.fillStyle = "#1a2433";
+  g.fillRect(0, 0, 256, 256);
+  g.strokeStyle = "#6f7c8c";
+  g.lineWidth = 2;
+  for (let i = 0; i <= 6; i++) {
+    g.beginPath();
+    g.moveTo((i * 256) / 6, 0);
+    g.lineTo((i * 256) / 6, 256);
+    g.stroke();
+  }
+  for (let i = 0; i <= 10; i++) {
+    g.beginPath();
+    g.moveTo(0, (i * 256) / 10);
+    g.lineTo(256, (i * 256) / 10);
+    g.stroke();
+  }
+  g.strokeStyle = "#c9ced4";
+  g.lineWidth = 6;
+  g.strokeRect(0, 0, 256, 256);
+  const t = new THREE.CanvasTexture(c);
+  t.colorSpace = THREE.SRGBColorSpace;
+  t.anisotropy = 8;
+  return new THREE.MeshPhysicalMaterial({ map: t, roughness: 0.15, metalness: 0.3, clearcoat: 1, clearcoatRoughness: 0.05, envMapIntensity: 1.5 });
+}
+
 function Dach({ fortschritt }: { fortschritt: MotionValue<number> }) {
   const kies = useSatz("kies");
   const gruppe = useRef<THREE.Group>(null);
-  const led = useMemo(() => new THREE.MeshBasicMaterial({ color: new THREE.Color(0, 0, 0), toneMapped: false }), []);
-  const dunkel = "#2b2e32";
+  const dunkel = "#3a3d40";
+  const pv = useMemo(() => pvMaterial(), []);
   const kiesGeo = useMemo(() => metrischeBox(1, 0.12, 1, 2), []);
 
   useFrame(() => {
@@ -507,8 +531,6 @@ function Dach({ fortschritt }: { fortschritt: MotionValue<number> }) {
       gruppe.current.visible = a > 0.001;
       gruppe.current.position.y = (1 - a) * (1 - a) * 2.5;
     }
-    const l = phase(p, "abend");
-    led.color.setRGB(3 * l, 2 * l, 1 * l);
   });
 
   // Zwei Dachflächen: Anbau (Erdgeschoss, Westteil) und Hauptdach (Obergeschoss)
@@ -528,7 +550,7 @@ function Dach({ fortschritt }: { fortschritt: MotionValue<number> }) {
             {/* Kiesdach mit leichtem Gefälle nach Süden */}
             <group rotation-x={0.05}>
               <mesh geometry={kiesGeo} scale={[w, 1, t]} position={[0, 0.06, 0]} receiveShadow castShadow>
-                <meshStandardMaterial {...kies} color="#a3a29d" />
+                <meshStandardMaterial {...kies} color="#d6d3cb" />
               </mesh>
             </group>
             {/* Attika/Stirnblech, dunkel abgesetzt */}
@@ -550,9 +572,15 @@ function Dach({ fortschritt }: { fortschritt: MotionValue<number> }) {
                 <meshStandardMaterial color="#c6c9cc" metalness={0.7} roughness={0.3} />
               </mesh>
             )}
-            <mesh position={[0, -0.05, t / 2 - 0.02]} material={led}>
-              <boxGeometry args={[w - 0.3, 0.02, 0.03]} />
-            </mesh>
+            {/* PV-Module in zwei Reihen, flach aufgeständert nach Süden */}
+            {d.tief === false &&
+              [-1.6, 1.4].map((z) =>
+                [-2.2, 0, 2.2].map((x) => (
+                  <mesh key={`${x}-${z}`} position={[x, 0.32, z]} rotation-x={-0.17} material={pv} castShadow receiveShadow>
+                    <boxGeometry args={[2.05, 0.04, 2.1]} />
+                  </mesh>
+                )),
+              )}
           </group>
         );
       })}
@@ -560,15 +588,12 @@ function Dach({ fortschritt }: { fortschritt: MotionValue<number> }) {
   );
 }
 
-// ── Pergola über der Terrasse mit Lichterkette ──
+// ── Pergola über der Terrasse ──
 function Pergola({ fortschritt }: { fortschritt: MotionValue<number> }) {
   const gruppe = useRef<THREE.Group>(null);
-  const kugel = useMemo(() => new THREE.MeshBasicMaterial({ color: new THREE.Color(0, 0, 0), toneMapped: false }), []);
   useFrame(() => {
     const p = fortschritt.get();
     if (gruppe.current) gruppe.current.visible = phase(p, "pflanzen") > 0.02;
-    const l = phase(p, "abend");
-    kugel.color.setRGB(4 * l, 3 * l, 1.5 * l);
   });
   const metall = <meshStandardMaterial color="#2b2e32" metalness={0.6} roughness={0.35} />;
   const x0 = -3.6;
@@ -596,15 +621,6 @@ function Pergola({ fortschritt }: { fortschritt: MotionValue<number> }) {
           {metall}
         </mesh>
       ))}
-      {/* Lichterkette */}
-      {Array.from({ length: 11 }, (_, i) => {
-        const t = i / 10;
-        return (
-          <mesh key={`l-${i}`} position={[x0 + t * (x1 - x0), hoehe - 0.18 - Math.sin(t * Math.PI) * 0.12, zVorne - 0.08]} material={kugel}>
-            <sphereGeometry args={[0.035, 8, 8]} />
-          </mesh>
-        );
-      })}
     </group>
   );
 }
@@ -744,11 +760,12 @@ function wasserNormalen() {
 
 // Rasenfläche mit Loch fürs Poolbecken; UVs in Metern
 const POOL = { x0: -3.5, x1: 4.5, z0: 7.45, z1: 11.55, tiefe: 1.45 };
-const RASEN_R = 20;
+const RASEN_R = 42;
+const RAND_BREITE = 22;
 
-function rasenGeometrie() {
+function rasenGeometrie(radius = RASEN_R) {
   const form = new THREE.Shape();
-  form.absarc(0, 0, RASEN_R, 0, Math.PI * 2, false);
+  form.absarc(0, 0, radius, 0, Math.PI * 2, false);
   const loch = new THREE.Path();
   // Shape liegt in x/y; nach der Drehung um −90° wird y zu −z
   loch.moveTo(POOL.x0, -POOL.z0);
@@ -766,17 +783,61 @@ function rasenGeometrie() {
 
 // Rand des Grundstücks: der Rasen läuft weich in die Wiese des Umgebungsfotos aus
 function rasenRand() {
-  const g = new THREE.RingGeometry(RASEN_R - 0.01, RASEN_R + 16, 128, 8);
+  const g = new THREE.RingGeometry(RASEN_R - 0.01, RASEN_R + RAND_BREITE, 128, 8);
   const pos = g.attributes.position as THREE.BufferAttribute;
   const uv = g.attributes.uv as THREE.BufferAttribute;
   const farben = new Float32Array(pos.count * 4);
   for (let i = 0; i < pos.count; i++) {
     const r = Math.hypot(pos.getX(i), pos.getY(i));
     uv.setXY(i, pos.getX(i) / 2.2, pos.getY(i) / 2.2);
-    const a = 1 - glatt(clamp01((r - RASEN_R) / 16));
+    const a = 1 - glatt(clamp01((r - RASEN_R) / RAND_BREITE));
     farben.set([1, 1, 1, a], i * 4);
   }
   g.setAttribute("color", new THREE.BufferAttribute(farben, 4));
+  return g;
+}
+
+// Mähstreifen und leichte Farbunterschiede, wie sie auf jedem Drohnenfoto eines Rasens zu sehen sind.
+// Als Multiplikations-Schicht über dem Rasen; zum Rand hin neutral (weiß), damit sie weich ausläuft.
+function maehstreifen() {
+  const n = 2048;
+  const c = document.createElement("canvas");
+  c.width = c.height = n;
+  const g = c.getContext("2d")!;
+  const bild = g.createImageData(n, n);
+  const r0 = RASEN_R / (RASEN_R + RAND_BREITE);
+  const rauschen = (x: number, y: number) =>
+    Math.sin(x * 9.1 + Math.sin(y * 4.3) * 2) * Math.sin(y * 7.7 + Math.cos(x * 3.1) * 2) * 0.5 +
+    Math.sin(x * 23 + y * 17) * Math.sin(y * 29 - x * 11) * 0.25;
+  for (let y = 0; y < n; y++) {
+    for (let x = 0; x < n; x++) {
+      const u = (x / n) * 2 - 1;
+      const v = (y / n) * 2 - 1;
+      const r = Math.hypot(u, v);
+      // Bahnen von 1,4 m Breite, abwechselnd hell und dunkel gemäht
+      const meter = u * (RASEN_R + RAND_BREITE);
+      const bahn = Math.floor((meter + 100) / 1.1) % 2 === 0 ? 1 : 0.955;
+      const fleck = 1 - 0.05 * (rauschen(u * 3, v * 3) + 0.5);
+      const stark = 1 - glatt(clamp01((r - r0 * 0.92) / (1 - r0 * 0.92)));
+      const w = 1 - (1 - bahn * fleck) * stark;
+      const i = (y * n + x) * 4;
+      bild.data[i] = bild.data[i + 1] = bild.data[i + 2] = Math.round(Math.min(1, w) * 255);
+      bild.data[i + 3] = 255;
+    }
+  }
+  g.putImageData(bild, 0, 0);
+  const t = new THREE.CanvasTexture(c);
+  t.colorSpace = THREE.SRGBColorSpace;
+  t.anisotropy = 8;
+  return t;
+}
+
+function streifenGeometrie() {
+  const g = rasenGeometrie(RASEN_R + RAND_BREITE);
+  const pos = g.attributes.position as THREE.BufferAttribute;
+  const uv = g.attributes.uv as THREE.BufferAttribute;
+  const R = RASEN_R + RAND_BREITE;
+  for (let i = 0; i < uv.count; i++) uv.setXY(i, (pos.getX(i) + R) / (2 * R), (pos.getY(i) + R) / (2 * R));
   return g;
 }
 
@@ -786,24 +847,26 @@ function Garten({ fortschritt }: { fortschritt: MotionValue<number> }) {
   const beton = useSatz("beton");
   const rand = useSatz("rand");
   const flach = useRef<THREE.Group>(null);
-  const leuchte = useMemo(() => new THREE.MeshBasicMaterial({ color: new THREE.Color(0, 0, 0), toneMapped: false }), []);
   const rasenGeo = useMemo(() => rasenGeometrie(), []);
   const randGeo = useMemo(() => rasenRand(), []);
+  const streifenGeo = useMemo(() => streifenGeometrie(), []);
+  const streifen = useMemo(() => maehstreifen(), []);
   const wellen = useMemo(() => wasserNormalen(), []);
+  // Wasser ohne Lichtbrechungs-Pass: halbtransparent über dem gefliesten Becken, spiegelt den Himmel
   const wasser = useMemo(
     () =>
       new THREE.MeshPhysicalMaterial({
-        color: "#f4fdfe",
-        roughness: 0.02,
-        metalness: 0,
-        transmission: 1,
-        thickness: POOL.tiefe,
-        ior: 1.333,
-        attenuationColor: new THREE.Color("#2a93a8"),
-        attenuationDistance: 6,
+        color: "#6fc3d2",
+        roughness: 0.03,
+        metalness: 0.1,
+        transparent: true,
+        opacity: 0.55,
         normalMap: wellen,
-        normalScale: new THREE.Vector2(0.18, 0.18),
-        envMapIntensity: 1.2,
+        normalScale: new THREE.Vector2(0.25, 0.25),
+        envMapIntensity: 1.6,
+        clearcoat: 1,
+        clearcoatRoughness: 0.02,
+        depthWrite: false,
       }),
     [wellen],
   );
@@ -821,8 +884,6 @@ function Garten({ fortschritt }: { fortschritt: MotionValue<number> }) {
     grund.opacity = 1 - g;
     grund.visible = g < 0.999;
     if (flach.current) flach.current.visible = g > 0.02;
-    const l = phase(p, "abend");
-    leuchte.color.setRGB(1.6 * l, 1.2 * l, 0.7 * l);
     wellen.offset.x += dt * 0.012;
     wellen.offset.y += dt * 0.007;
   });
@@ -836,13 +897,16 @@ function Garten({ fortschritt }: { fortschritt: MotionValue<number> }) {
   return (
     <>
       <mesh geometry={rasenGeo} rotation-x={-Math.PI / 2} position={[0, -0.02, 0]} receiveShadow>
-        <meshStandardMaterial {...rasen} color="#e4f5b8" roughness={1} />
+        <meshStandardMaterial {...rasen} color="#c4e39a" roughness={1} />
       </mesh>
       <mesh geometry={randGeo} rotation-x={-Math.PI / 2} position={[0, -0.025, 0]} receiveShadow>
-        <meshStandardMaterial {...rasen} color="#e4f5b8" roughness={1} vertexColors transparent depthWrite={false} />
+        <meshStandardMaterial {...rasen} color="#c4e39a" roughness={1} vertexColors transparent depthWrite={false} />
       </mesh>
-      <mesh rotation-x={-Math.PI / 2} position={[0, 0.005, 0]} material={grund} renderOrder={1}>
-        <circleGeometry args={[RASEN_R + 60, 64]} />
+      <mesh geometry={streifenGeo} rotation-x={-Math.PI / 2} position={[0, -0.015, 0]} renderOrder={1}>
+        <meshBasicMaterial map={streifen} blending={THREE.MultiplyBlending} transparent depthWrite={false} toneMapped={false} premultipliedAlpha />
+      </mesh>
+      <mesh rotation-x={-Math.PI / 2} position={[0, 0.005, 0]} material={grund} renderOrder={2}>
+        <circleGeometry args={[RASEN_R + RAND_BREITE + 40, 64]} />
       </mesh>
 
       <group ref={flach}>
@@ -879,20 +943,9 @@ function Garten({ fortschritt }: { fortschritt: MotionValue<number> }) {
           <planeGeometry args={[bw, bt]} />
         </mesh>
 
-        {/* Zugang: Trittplatten zur Haustür, Pollerleuchten */}
+        {/* Zugang: Trittplatten zur Haustür */}
         {platten.map((x, i) => (
           <Flaeche key={i} satz={beton} x0={x} x1={x + 0.65} z0={-0.45} z1={0.65} h={0.05} kachel={1} farbe="#d9d5cc" />
-        ))}
-        {[-9.6, -8, -6.6].map((x, i) => (
-          <group key={`poller-${i}`} position={[x, 0, i % 2 ? 1.2 : -1]}>
-            <mesh position={[0, 0.3, 0]} castShadow>
-              <boxGeometry args={[0.1, 0.6, 0.1]} />
-              <meshStandardMaterial color="#2b2e32" metalness={0.5} roughness={0.4} />
-            </mesh>
-            <mesh position={[0, 0.5, i % 2 ? -0.051 : 0.051]} material={leuchte}>
-              <boxGeometry args={[0.07, 0.12, 0.005]} />
-            </mesh>
-          </group>
         ))}
 
         {/* Sonnenliegen */}
@@ -914,30 +967,6 @@ function Garten({ fortschritt }: { fortschritt: MotionValue<number> }) {
         ))}
       </group>
 
-      {/* Echte Baummodelle (Poly Haven, CC0) statt gezeichneter Kugeln */}
-      <Instanzen
-        url="/3d/models/baum_1.glb"
-        orte={[
-          { x: 9.6, z: -3.4, s: 1.1, rot: 0.4 },
-          { x: -9, z: -6.8, s: 0.95, rot: 2.2 },
-          { x: 19, z: -3, s: 1.25, rot: 4.1 },
-          { x: -16, z: 4, s: 1.3, rot: 1.1 },
-          { x: 4, z: -15, s: 1.2, rot: 5.3 },
-        ]}
-        zielHoehe={6}
-        fortschritt={fortschritt}
-      />
-      <Instanzen
-        url="/3d/models/baum_2.glb"
-        orte={[
-          { x: 10.2, z: 5.6, s: 1, rot: 2.6 },
-          { x: -12, z: 12.5, s: 1.15, rot: 0.3 },
-          { x: 13.5, z: -10, s: 1.3, rot: 3.3 },
-          { x: -14, z: -11, s: 1.2, rot: 5.9 },
-        ]}
-        zielHoehe={6.5}
-        fortschritt={fortschritt}
-      />
       <Instanzen url="/3d/models/outdoor_table_chair_set_01.glb" orte={[{ x: -3.2, z: 5.75, rot: 0 }]} zielHoehe={0.95} fortschritt={fortschritt} />
       <Instanzen
         url="/3d/models/potted_plant_02.glb"
@@ -1028,56 +1057,25 @@ function Einrichtung({ fortschritt }: { fortschritt: MotionValue<number> }) {
   );
 }
 
-// ── Licht: Sonne passend zum Umgebungsfoto, gegen Ende etwas wärmer; Innenbeleuchtung ──
-const TAG = new THREE.Color("#fff3e2");
-const ABEND = new THREE.Color("#ffd9ae");
-function Licht({ fortschritt }: { fortschritt: MotionValue<number> }) {
-  const sonne = useRef<THREE.DirectionalLight>(null);
-  const raumLichter = useRef<(THREE.PointLight | null)[]>([]);
-  useFrame(() => {
-    const p = fortschritt.get();
-    const abend = phase(p, "abend");
-    if (sonne.current) {
-      sonne.current.intensity = 4.4 - 1.1 * abend;
-      sonne.current.color.copy(TAG).lerp(ABEND, abend);
-    }
-    const innen = phase(p, "fenster") * (0.2 + 0.8 * abend);
-    raumLichter.current.forEach((l) => {
-      if (l) l.intensity = 3.5 * innen;
-    });
-  });
+// ── Licht: helle Mittagssonne wie bei einem Drohnenflug an einem klaren Tag ──
+function Licht() {
   return (
-    <>
-      <directionalLight
-        ref={sonne}
-        position={[-14, 9, 10]}
-        color="#fff3e2"
-        intensity={4.4}
-        castShadow
-        shadow-mapSize={[2048, 2048]}
-        shadow-bias={-0.0003}
-        shadow-normalBias={0.03}
-        shadow-camera-left={-24}
-        shadow-camera-right={24}
-        shadow-camera-top={24}
-        shadow-camera-bottom={-24}
-        shadow-camera-near={1}
-        shadow-camera-far={60}
-      />
-      {RAEUME.map((r, i) => (
-        <pointLight
-          key={r.name}
-          ref={(el) => {
-            raumLichter.current[i] = el;
-          }}
-          position={[px(r.x + r.w / 2), 2.2, pz(r.y + r.h / 2)]}
-          color="#ffc98a"
-          intensity={0}
-          distance={7}
-          decay={2}
-        />
-      ))}
-    </>
+    <directionalLight
+      position={[-11, 17, 9]}
+      color="#fff6ea"
+      intensity={5}
+      castShadow
+      shadow-mapSize={[2048, 2048]}
+      shadow-bias={-0.0003}
+      shadow-normalBias={0.03}
+      shadow-radius={4}
+      shadow-camera-left={-20}
+      shadow-camera-right={20}
+      shadow-camera-top={20}
+      shadow-camera-bottom={-20}
+      shadow-camera-near={1}
+      shadow-camera-far={60}
+    />
   );
 }
 
@@ -1085,38 +1083,59 @@ function Licht({ fortschritt }: { fortschritt: MotionValue<number> }) {
 type Blick = { theta: number; phi: number; dist: number; ziel: number };
 const BLICKE: [number, Blick][] = [
   [0, { theta: 0, phi: 89.5, dist: 26, ziel: 0 }],
-  [0.3, { theta: 0, phi: 89.5, dist: 26, ziel: 0 }],
-  [0.44, { theta: -30, phi: 50, dist: 26, ziel: 0.6 }],
-  [0.58, { theta: -38, phi: 38, dist: 30, ziel: 1.8 }],
-  [0.82, { theta: -20, phi: 26, dist: 34, ziel: 2.6 }],
-  [1, { theta: 36, phi: 17, dist: 40, ziel: 2.4 }],
+  [0.28, { theta: 0, phi: 89.5, dist: 26, ziel: 0 }],
+  [0.44, { theta: -28, phi: 52, dist: 26, ziel: 0.8 }],
+  [0.6, { theta: -34, phi: 44, dist: 28, ziel: 1.8 }],
+  [0.8, { theta: -10, phi: 42, dist: 34, ziel: 2.2 }],
+  [1, { theta: 26, phi: 38, dist: 40, ziel: 2.4 }],
 ];
+
+/**
+ * Catmull-Rom über die Blickpunkte: die Kamera gleitet ohne Halt durch alle
+ * Punkte, statt an jedem abzubremsen und neu anzufahren.
+ */
+function blickBei(p: number): Blick {
+  const n = BLICKE.length;
+  let i = 0;
+  while (i < n - 2 && p > BLICKE[i + 1][0]) i++;
+  const [t0, a] = BLICKE[i];
+  const [t1, b] = BLICKE[i + 1];
+  const vor = BLICKE[Math.max(0, i - 1)];
+  const nach = BLICKE[Math.min(n - 1, i + 2)];
+  const t = clamp01((p - t0) / (t1 - t0 || 1));
+  const h00 = 2 * t ** 3 - 3 * t ** 2 + 1;
+  const h10 = t ** 3 - 2 * t ** 2 + t;
+  const h01 = -2 * t ** 3 + 3 * t ** 2;
+  const h11 = t ** 3 - t ** 2;
+  const k = (key: keyof Blick) => {
+    // Steigungen je Parameter-Einheit, auf die Segmentlänge skaliert
+    // An Haltepunkten (gleicher Wert davor/danach) steht die Kamera still, ohne Überschwingen
+    const halt = a[key] === b[key];
+    const m0 = i === 0 || halt || vor[1][key] === a[key] ? 0 : ((b[key] - vor[1][key]) / (t1 - vor[0])) * (t1 - t0);
+    const m1 = i + 1 === n - 1 || halt || nach[1][key] === b[key] ? 0 : ((nach[1][key] - a[key]) / (nach[0] - t0)) * (t1 - t0);
+    return h00 * a[key] + h10 * m0 + h01 * b[key] + h11 * m1;
+  };
+  return { theta: k("theta"), phi: k("phi"), dist: k("dist"), ziel: k("ziel") };
+}
 
 function Kamera({ fortschritt }: { fortschritt: MotionValue<number> }) {
   const { camera, size } = useThree();
   const ziel = useMemo(() => new THREE.Vector3(), []);
   useFrame(() => {
     const p = fortschritt.get();
-    let a = BLICKE[0];
-    let b = BLICKE[BLICKE.length - 1];
-    for (let i = 0; i < BLICKE.length - 1; i++) {
-      if (p <= BLICKE[i + 1][0]) {
-        a = BLICKE[i];
-        b = BLICKE[i + 1];
-        break;
-      }
-    }
-    const t = glatt(clamp01((p - a[0]) / (b[0] - a[0] || 1)));
-    const m = (k: keyof Blick) => a[1][k] + (b[1][k] - a[1][k]) * t;
+    const b = blickBei(p);
     // Hochformat (Handy): etwas mehr Abstand, damit das Haus ins Bild passt
     const hoch = size.width < size.height ? 1.35 : 1;
     // Bildausschnitt nach oben schieben: unten liegt die Textkarte, das Haus bleibt frei sichtbar
-    camera.setViewOffset(size.width, size.height, 0, size.height * 0.12 * clamp01((p - 0.5) / 0.15), size.width, size.height);
-    const th = THREE.MathUtils.degToRad(m("theta"));
-    const ph = THREE.MathUtils.degToRad(m("phi"));
-    const d = m("dist") * hoch;
+    // und im Querformat nach rechts, neben die Textkarte
+    const rein = glatt(clamp01((p - 0.45) / 0.2));
+    const quer = size.width > size.height ? -size.width * 0.13 * rein : 0;
+    camera.setViewOffset(size.width, size.height, quer, size.height * 0.12 * rein, size.width, size.height);
+    const th = THREE.MathUtils.degToRad(b.theta);
+    const ph = THREE.MathUtils.degToRad(Math.min(89.5, b.phi));
+    const d = b.dist * hoch;
     camera.position.set(Math.sin(th) * Math.cos(ph) * d, Math.sin(ph) * d, Math.cos(th) * Math.cos(ph) * d);
-    ziel.set(0, m("ziel"), 0);
+    ziel.set(0, b.ziel, 0);
     camera.lookAt(ziel);
   });
   return null;
@@ -1133,18 +1152,17 @@ export default function HausSzene({
 }) {
   return (
     <Canvas
-      shadows
-      dpr={[1, 1.75]}
+      shadows="soft"
+      dpr={[1, 1.5]}
       camera={{ fov: 32, near: 0.5, far: 200, position: [0, 25, 0.01] }}
       gl={{ antialias: false, toneMapping: THREE.NoToneMapping }}
     >
       <color attach="background" args={["#eeece5"]} />
-      <SoftShadows size={14} samples={10} focus={0.6} />
       <Suspense fallback={null}>
         {/* Licht aus einem echten HDR-Panorama (Poly Haven „meadow_2“, CC0); Himmel und Horizont aus demselben Foto, auf den Boden projiziert */}
-        <Environment files="/3d/wiese.hdr" environmentIntensity={1.15} />
+        <Environment files="/3d/wiese.hdr" environmentIntensity={1.35} />
         <Environment files="/3d/wiese.jpg" background="only" ground={{ height: 9, radius: 140, scale: 320 }} />
-        <Licht fortschritt={fortschritt} />
+        <Licht />
         <PlanBlatt planSvg={planSvg} fortschritt={fortschritt} onBereit={onBereit} />
         <Boden fortschritt={fortschritt} />
         <Waende fortschritt={fortschritt} />
@@ -1158,7 +1176,7 @@ export default function HausSzene({
         <Kamera fortschritt={fortschritt} />
       </Suspense>
       <EffectComposer multisampling={0}>
-        <N8AO halfRes aoRadius={1.4} intensity={2.4} distanceFalloff={0.6} />
+        <N8AO halfRes quality="performance" aoRadius={1.2} intensity={1.8} distanceFalloff={0.6} />
         <Bloom mipmapBlur luminanceThreshold={1.2} intensity={0.35} />
         <ToneMapping mode={ToneMappingMode.NEUTRAL} />
         <Vignette offset={0.3} darkness={0.3} />
@@ -1169,8 +1187,6 @@ export default function HausSzene({
 }
 
 for (const url of [
-  "/3d/models/baum_1.glb",
-  "/3d/models/baum_2.glb",
   "/3d/models/outdoor_table_chair_set_01.glb",
   "/3d/models/potted_plant_02.glb",
   "/3d/models/sofa_02.glb",

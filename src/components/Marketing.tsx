@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export function Eyebrow({ children }: { children: React.ReactNode; tone?: string }) {
   return (
-    <p className="flex items-center gap-3 text-[11px] font-medium uppercase tracking-[0.22em] text-[#b86a1c] mb-5">
-      <span className="h-px w-8 bg-[#d9822b]" />
+    <p className="flex items-center gap-3 text-[11px] font-medium uppercase tracking-[0.22em] text-[#141c30] mb-5">
+      <span className="h-px w-8 bg-[#1f2a44]" />
       {children}
     </p>
   );
@@ -16,9 +16,9 @@ export function Container({ children, className = "" }: { children: React.ReactN
 type Ton = "dunkel" | "hell" | "grau";
 
 const TON: Record<Ton, string> = {
-  dunkel: "bg-himmel text-[#16202a] border-y border-[#dde6ea]",
-  hell: "bg-[#ffffff] text-[#16202a]",
-  grau: "bg-[#f5f8fa] text-[#16202a] border-y border-[#dde6ea]",
+  dunkel: "bg-himmel text-[#2b2d33] border-y border-[#dde6ea]",
+  hell: "bg-[#ffffff] text-[#2b2d33]",
+  grau: "bg-[#f5f8fa] text-[#2b2d33] border-y border-[#dde6ea]",
 };
 
 export function Abschnitt({
@@ -70,7 +70,7 @@ export function SeitenHero({
   children?: React.ReactNode;
 }) {
   return (
-    <section className="bg-himmel text-[#16202a] border-b border-[#dde6ea]">
+    <section className="bg-himmel text-[#2b2d33] border-b border-[#dde6ea]">
       <Container className="pt-20 pb-20">
         <Eyebrow>{eyebrow}</Eyebrow>
         <h1 className="font-display font-semibold tracking-tight leading-[1.02] text-[clamp(2.5rem,5.5vw,4.2rem)] max-w-3xl">
@@ -94,9 +94,9 @@ export function Karte({
   nummer?: string;
 }) {
   return (
-    <div className="group relative rounded-xl border border-[#dde6ea] bg-[#ffffff] p-7 transition hover:border-[#d9822b]/50">
-      <span className="absolute left-0 top-7 h-6 w-[3px] rounded-r bg-[#d9822b] opacity-0 transition group-hover:opacity-100" />
-      {nummer && <p className="mb-6 text-sm font-semibold text-[#d9822b]">{nummer}</p>}
+    <div className="group relative rounded-xl border border-[#dde6ea] bg-[#ffffff] p-7 transition hover:border-[#1f2a44]/50">
+      <span className="absolute left-0 top-7 h-6 w-[3px] rounded-r bg-[#1f2a44] opacity-0 transition group-hover:opacity-100" />
+      {nummer && <p className="mb-6 text-sm font-semibold text-[#1f2a44]">{nummer}</p>}
       <h3 className="font-display font-semibold text-[1.2rem] mb-2">{titel}</h3>
       <div className="text-sm leading-relaxed text-[#5d6b78]">{children}</div>
     </div>
@@ -107,7 +107,7 @@ export function KnopfPrimaer({ href, children }: { href: string; children: React
   return (
     <Link
       href={href}
-      className="inline-flex items-center gap-2 rounded-lg bg-[#d9822b] text-white font-medium text-sm px-6 py-3 hover:bg-[#b86a1c] transition"
+      className="inline-flex items-center gap-2 rounded-lg bg-[#1f2a44] text-white font-medium text-sm px-6 py-3 hover:bg-[#141c30] transition"
     >
       {children}
     </Link>
@@ -118,7 +118,7 @@ export function KnopfSekundaer({ href, children }: { href: string; children: Rea
   return (
     <Link
       href={href}
-      className="inline-flex items-center gap-2 rounded-lg border border-[#16202a]/80 text-[#16202a] font-medium text-sm px-6 py-3 hover:bg-[#16202a] hover:text-[#ffffff] transition"
+      className="inline-flex items-center gap-2 rounded-lg border border-[#2b2d33]/80 text-[#2b2d33] font-medium text-sm px-6 py-3 hover:bg-[#2b2d33] hover:text-[#ffffff] transition"
     >
       {children}
     </Link>
@@ -135,11 +135,11 @@ export function CtaBand({
   return (
     <section className="bg-[#ffffff] py-20">
       <Container>
-        <div className="relative overflow-hidden rounded-2xl bg-[#fbe9d2] px-8 py-16 md:px-16 text-[#16202a]">
+        <div className="relative overflow-hidden rounded-2xl bg-[#efe4d3] px-8 py-16 md:px-16 text-[#2b2d33]">
           <svg
             aria-hidden
             viewBox="0 0 300 200"
-            className="pointer-events-none absolute -right-10 -bottom-10 w-[420px] text-[#d9822b] opacity-25 hidden md:block"
+            className="pointer-events-none absolute -right-10 -bottom-10 w-[420px] text-[#1f2a44] opacity-25 hidden md:block"
             fill="none"
             stroke="currentColor"
           >

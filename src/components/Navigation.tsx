@@ -49,10 +49,10 @@ export function DemoPille({ className = "" }: { className?: string }) {
   return (
     <Link
       href="/demo"
-      className={`group inline-flex items-center gap-3 rounded-full bg-white py-1.5 pl-5 pr-1.5 text-[13px] font-semibold text-[#16202a] shadow-[0_8px_24px_-12px_rgba(22,32,42,0.35)] ${className}`}
+      className={`group inline-flex items-center gap-3 rounded-full bg-white py-1.5 pl-5 pr-1.5 text-[13px] font-semibold text-[#2b2d33] shadow-[0_8px_24px_-12px_rgba(22,32,42,0.35)] ${className}`}
     >
       Demo anfragen
-      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#16202a] text-white transition group-hover:bg-[#d9822b]">
+      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#2b2d33] text-white transition group-hover:bg-[#1f2a44]">
         <Pfeil />
       </span>
     </Link>
@@ -88,11 +88,11 @@ export function Navigation({ variante = "standard" }: { variante?: "standard" | 
                   className={`rounded-full border px-4 py-1.5 text-[13px] transition ${
                     aktiv
                       ? hell
-                        ? "border-white bg-white text-[#16202a] font-semibold"
-                        : "border-[#16202a] bg-[#16202a] text-white font-semibold"
+                        ? "border-white bg-white text-[#2b2d33] font-semibold"
+                        : "border-[#2b2d33] bg-[#2b2d33] text-white font-semibold"
                       : hell
                         ? "border-white/45 text-white hover:bg-white/15"
-                        : "border-[#dfe3e8] text-[#34424f] hover:border-[#16202a]"
+                        : "border-[#dfe3e8] text-[#34424f] hover:border-[#2b2d33]"
                   }`}
                 >
                   {l.label}
@@ -115,7 +115,7 @@ export function Navigation({ variante = "standard" }: { variante?: "standard" | 
             aria-expanded={offen}
             onClick={() => setOffen(!offen)}
             className={`lg:hidden flex h-10 w-10 items-center justify-center rounded-full border ${
-              hell ? "border-white/50 text-white bg-white/10" : "border-[#dfe3e8] text-[#16202a]"
+              hell ? "border-white/50 text-white bg-white/10" : "border-[#dfe3e8] text-[#2b2d33]"
             }`}
           >
             <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
@@ -133,7 +133,7 @@ export function Navigation({ variante = "standard" }: { variante?: "standard" | 
               href={l.href}
               onClick={() => setOffen(false)}
               className={`flex items-center justify-between rounded-2xl px-4 py-3 text-[15px] ${
-                pfad === l.href ? "bg-[#fbe9d2] font-semibold text-[#16202a]" : "text-[#34424f] hover:bg-[#f5f6f8]"
+                pfad === l.href ? "bg-[#efe4d3] font-semibold text-[#2b2d33]" : "text-[#34424f] hover:bg-[#f5f6f8]"
               }`}
             >
               {l.label}
@@ -145,7 +145,7 @@ export function Navigation({ variante = "standard" }: { variante?: "standard" | 
           <Link
             href="/demo"
             onClick={() => setOffen(false)}
-            className="mt-2 flex items-center justify-center rounded-2xl bg-[#16202a] px-4 py-3.5 text-[15px] font-semibold text-white"
+            className="mt-2 flex items-center justify-center rounded-2xl bg-[#2b2d33] px-4 py-3.5 text-[15px] font-semibold text-white"
           >
             Demo anfragen
           </Link>

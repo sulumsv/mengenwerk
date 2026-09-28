@@ -15,14 +15,14 @@ export default function KontaktPage() {
       <Abschnitt>
         <div className="grid md:grid-cols-2 gap-5 max-w-3xl">
           <div className="rounded-xl border border-[#dde6ea] bg-white p-7">
-            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#d9822b] mb-3">E-Mail</p>
-            <a href="mailto:office@msv-digital.com" className="text-lg font-medium text-[#16202a] hover:underline">
+            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#1f2a44] mb-3">E-Mail</p>
+            <a href="mailto:office@msv-digital.com" className="text-lg font-medium text-[#2b2d33] hover:underline">
               office@msv-digital.com
             </a>
           </div>
           <div className="rounded-xl border border-[#dde6ea] bg-white p-7">
-            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#d9822b] mb-3">Anschrift</p>
-            <p className="text-lg leading-relaxed text-[#16202a]">
+            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#1f2a44] mb-3">Anschrift</p>
+            <p className="text-lg leading-relaxed text-[#2b2d33]">
               Sulumbek Masuev
               <br />
               Frauenfelderstraße 7/13

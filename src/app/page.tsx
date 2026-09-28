@@ -26,7 +26,7 @@ const BELEGE = [
 ];
 
 const BADGE: Record<string, string> = {
-  PLAN: "bg-[#fbe9d2] text-[#b86a1c] border-[#f3d3a8]",
+  PLAN: "bg-[#efe4d3] text-[#141c30] border-[#e3d2b8]",
   HERLEIT: "bg-[#e6ebf2] text-[#2c4466] border-[#c9d3e1]",
   ANNAHME: "bg-[#f7ecd2] text-[#8a6412] border-[#e8d3a0]",
 };
@@ -93,7 +93,7 @@ export default function Home() {
             { wert: "100 %", label: "Mengen mit Rechenweg" },
           ].map(({ wert, label }, i) => (
             <div key={label} className={`py-10 px-6 ${i > 0 ? "md:border-l border-[#dde6ea]" : ""}`}>
-              <p className="font-display text-4xl text-[#16202a]">{wert}</p>
+              <p className="font-display text-4xl text-[#2b2d33]">{wert}</p>
               <p className="text-xs text-[#5d6b78] mt-2">{label}</p>
             </div>
           ))}
@@ -116,7 +116,7 @@ export default function Home() {
               Mengen von Hand aus Plänen zu messen ist langsam und fehleranfällig. Eine übersehene Wand oder ein falsch
               abgezogenes Fenster fällt oft erst auf der Baustelle auf.
             </p>
-            <p className="text-[#16202a]">
+            <p className="text-[#2b2d33]">
               MengenWerk liest den Einreichplan, ermittelt die Mengen und zeigt bei jeder Position, woher sie kommt.
             </p>
           </div>
@@ -150,7 +150,7 @@ export default function Home() {
           {UMFANG.map((u, i) => (
             <div key={u.titel} className="rounded-2xl border border-[#e8ecef] bg-white p-6">
               <div className="flex items-center gap-3 mb-4">
-                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#fbe9d2] text-xs font-semibold text-[#b86a1c]">
+                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#efe4d3] text-xs font-semibold text-[#141c30]">
                   {i + 1}
                 </span>
                 <h3 className="font-semibold text-[16px]">{u.titel}</h3>
@@ -164,11 +164,11 @@ export default function Home() {
               </ul>
             </div>
           ))}
-          <div className="rounded-2xl bg-[#16202a] p-6 text-white flex flex-col justify-between">
+          <div className="rounded-2xl bg-[#2b2d33] p-6 text-white flex flex-col justify-between">
             <p className="text-[15px] leading-relaxed text-white/80">
               Mit Ihren eigenen Einheitspreisen wird aus dem Massenauszug direkt eine Kostenschätzung.
             </p>
-            <a href="/einheitspreise" className="mt-6 text-sm font-semibold text-[#ffc47a] hover:underline">
+            <a href="/einheitspreise" className="mt-6 text-sm font-semibold text-[#d2a86e] hover:underline">
               Einheitspreise hinterlegen →
             </a>
           </div>
@@ -200,7 +200,7 @@ export default function Home() {
               {BELEGE.map((b) => (
                 <tr key={b.pos} className="border-b border-[#f5f8fa] last:border-0 align-top">
                   <td className="px-5 py-4 font-mono text-xs text-[#8b98a4]">{b.pos}</td>
-                  <td className="px-5 py-4 font-medium text-[#16202a]">{b.text}</td>
+                  <td className="px-5 py-4 font-medium text-[#2b2d33]">{b.text}</td>
                   <td className="px-5 py-4 text-right font-num whitespace-nowrap">{b.menge}</td>
                   <td className="px-5 py-4 text-[#5d6b78] font-mono text-xs">{b.weg}</td>
                   <td className="px-5 py-4 text-[#5d6b78] text-xs">{b.quelle}</td>
@@ -235,7 +235,7 @@ export default function Home() {
           <div className="grid sm:grid-cols-2 gap-x-10">
             {FUNKTIONEN.map((f, i) => (
               <div key={f.titel} className="border-t border-[#c8d4da] py-6">
-                <p className="font-mono text-[11px] text-[#d9822b] mb-2">{String(i + 1).padStart(2, "0")}</p>
+                <p className="font-mono text-[11px] text-[#1f2a44] mb-2">{String(i + 1).padStart(2, "0")}</p>
                 <h3 className="font-display text-[1.2rem] mb-2">{f.titel}</h3>
                 <p className="text-sm leading-relaxed text-[#5d6b78]">{f.text}</p>
               </div>
@@ -275,7 +275,7 @@ export default function Home() {
               <details key={f} className="group border-b border-[#c8d4da] py-5">
                 <summary className="flex items-center justify-between gap-6 cursor-pointer list-none font-display text-[1.15rem]">
                   {f}
-                  <span className="text-[#d9822b] group-open:rotate-45 transition-transform text-2xl leading-none">+</span>
+                  <span className="text-[#1f2a44] group-open:rotate-45 transition-transform text-2xl leading-none">+</span>
                 </summary>
                 <p className="mt-3 text-sm text-[#5d6b78] leading-relaxed max-w-2xl">{a}</p>
               </details>

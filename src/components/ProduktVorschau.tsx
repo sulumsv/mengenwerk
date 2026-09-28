@@ -19,17 +19,17 @@ function Haus() {
   return (
     <svg viewBox="0 0 320 200" className="w-full h-auto" aria-hidden>
       <rect x="0" y="176" width="320" height="24" fill="#dfe8ec" />
-      <path d="M40 176V92L110 34l70 58v84Z" fill="#ffffff" stroke="#16202a" strokeWidth="2" />
+      <path d="M40 176V92L110 34l70 58v84Z" fill="#ffffff" stroke="#2b2d33" strokeWidth="2" />
       <path d="M110 34 40 92M110 34l70 58" stroke="#b98a5e" strokeWidth="7" strokeLinecap="round" />
-      <rect x="70" y="84" width="80" height="54" fill="#cfd8e0" stroke="#16202a" strokeWidth="2" />
-      <path d="M96 84v54M123 84v54M70 111h80" stroke="#16202a" strokeWidth="1.5" />
-      <rect x="180" y="104" width="120" height="72" fill="#ffffff" stroke="#16202a" strokeWidth="2" />
+      <rect x="70" y="84" width="80" height="54" fill="#cfd8e0" stroke="#2b2d33" strokeWidth="2" />
+      <path d="M96 84v54M123 84v54M70 111h80" stroke="#2b2d33" strokeWidth="1.5" />
+      <rect x="180" y="104" width="120" height="72" fill="#ffffff" stroke="#2b2d33" strokeWidth="2" />
       <rect x="180" y="98" width="120" height="8" fill="#b98a5e" />
       <rect x="196" y="120" width="92" height="56" fill="#2a2724" />
       <path d="M196 134h92M196 148h92M196 162h92" stroke="#3a3632" strokeWidth="1" />
       <rect x="150" y="136" width="22" height="40" fill="#2a2724" />
       <rect x="146" y="132" width="30" height="4" fill="#b98a5e" />
-      <rect x="54" y="144" width="30" height="32" fill="#cfd8e0" stroke="#16202a" strokeWidth="2" />
+      <rect x="54" y="144" width="30" height="32" fill="#cfd8e0" stroke="#2b2d33" strokeWidth="2" />
       <circle cx="20" cy="150" r="16" fill="#cbbfa6" />
       <rect x="18" y="160" width="4" height="16" fill="#8a7a62" />
     </svg>
@@ -48,7 +48,7 @@ export function ProduktVorschau() {
           <p className="mt-4 text-sm text-[#8b98a4]">Beispielansicht mit Musterprojekten.</p>
         </div>
 
-        <div className="rounded-[1.75rem] border border-[#dde6ea] bg-[#f5f8fa] p-3 md:p-5 shadow-[0_40px_80px_-60px_rgba(217,130,43,0.6)]">
+        <div className="rounded-[1.75rem] border border-[#dde6ea] bg-[#f5f8fa] p-3 md:p-5 shadow-[0_40px_80px_-60px_rgba(31,42,68,0.6)]">
           <div className="grid gap-3 md:gap-4 lg:grid-cols-[1.35fr_1fr_0.9fr]">
             {/* Hauptkachel */}
             <div className="rounded-2xl bg-white p-6 flex flex-col justify-between gap-6 lg:row-span-2">
@@ -57,17 +57,17 @@ export function ProduktVorschau() {
                   <p className="text-xs text-[#8b98a4]">Aktuelles Projekt</p>
                   <p className="mt-1 text-lg font-semibold">EFH Torricelligasse</p>
                 </div>
-                <span className="rounded-full bg-[#fbe9d2] px-3 py-1 text-xs font-medium text-[#b86a1c]">Analyse fertig</span>
+                <span className="rounded-full bg-[#efe4d3] px-3 py-1 text-xs font-medium text-[#141c30]">Analyse fertig</span>
               </div>
               <Haus />
               <div className="grid grid-cols-2 gap-3">
-                <div className="rounded-xl bg-[#fbe9d2] p-4">
-                  <p className="text-xs text-[#b86a1c]">Positionen</p>
+                <div className="rounded-xl bg-[#efe4d3] p-4">
+                  <p className="text-xs text-[#141c30]">Positionen</p>
                   <p className="mt-2 text-3xl font-semibold tracking-tight">47</p>
                   <div className="mt-3 h-1.5 rounded-full bg-white/70">
-                    <div className="h-full w-[94%] rounded-full bg-[#d9822b]" />
+                    <div className="h-full w-[94%] rounded-full bg-[#1f2a44]" />
                   </div>
-                  <p className="mt-1.5 text-[11px] text-[#b86a1c]">94 % aus dem Plan belegt</p>
+                  <p className="mt-1.5 text-[11px] text-[#141c30]">94 % aus dem Plan belegt</p>
                 </div>
                 <div className="rounded-xl bg-[#e6ebf2] p-4">
                   <p className="text-xs text-[#2c4466]">Wohnnutzfläche</p>
@@ -88,7 +88,7 @@ export function ProduktVorschau() {
                   <div key={g.k} className="flex h-full flex-1 flex-col items-center gap-2">
                     <div className="flex w-full flex-1 items-end">
                       <div
-                        className={`w-full rounded-md ${g.w === 100 ? "bg-[#d9822b]" : "bg-[#f1dcbc]"}`}
+                        className={`w-full rounded-md ${g.w === 100 ? "bg-[#1f2a44]" : "bg-[#eadcc6]"}`}
                         style={{ height: `${g.w}%` }}
                       />
                     </div>
@@ -97,12 +97,12 @@ export function ProduktVorschau() {
                 ))}
               </div>
               <p className="mt-5 text-sm text-[#5d6b78]">
-                Mauerwerk <span className="font-semibold text-[#16202a]">142,40 m²</span>
+                Mauerwerk <span className="font-semibold text-[#2b2d33]">142,40 m²</span>
               </p>
             </div>
 
             {/* Kennzahl */}
-            <div className="rounded-2xl bg-[#16202a] text-[#ffffff] p-6 flex flex-col justify-between">
+            <div className="rounded-2xl bg-[#2b2d33] text-[#ffffff] p-6 flex flex-col justify-between">
               <p className="text-xs text-[#ffffff]/60">Zeit bis zum Ergebnis</p>
               <div>
                 <p className="text-5xl font-semibold tracking-tight">4:12</p>

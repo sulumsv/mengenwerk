@@ -49,27 +49,6 @@ function auswertungsFehler(err: unknown): { nachricht: string; status: number } 
   return { nachricht: "Die Auswertung ist fehlgeschlagen. Bitte erneut versuchen.", status: 500 };
 }
 
-/**
- * Die Einheitspreise liegen im Browser des Betriebs und reisen nur für die
- * Dauer dieser Auswertung mit; gespeichert werden sie hier nicht. Übernommen
- * werden ausschließlich endliche, nicht negative Zahlen.
- */
-function leseEinheitspreise(roh: FormDataEntryValue | null): Record<string, number> | undefined {
-  if (typeof roh !== "string" || roh.length === 0) return undefined;
-  try {
-    const geparst: unknown = JSON.parse(roh);
-    if (typeof geparst !== "object" || geparst === null) return undefined;
-    return Object.fromEntries(
-      Object.entries(geparst as Record<string, unknown>).filter(
-        (eintrag): eintrag is [string, number] =>
-          typeof eintrag[1] === "number" && Number.isFinite(eintrag[1]) && eintrag[1] >= 0,
-      ),
-    );
-  } catch {
-    return undefined;
-  }
-}
-
 export async function POST(req: NextRequest) {
   // Ab hier läuft die Uhr der Route. Upload, Auswertung und Antwort zählen mit.
   const frist = Date.now() + ZEITBUDGET_MS;
@@ -109,13 +88,12 @@ export async function POST(req: NextRequest) {
   }
 
   const dateiname = String(formData.get("dateiname") ?? "Plansatz");
-  const einheitspreise = leseEinheitspreise(formData.get("einheitspreise"));
   const bilder = await Promise.all(blaetter.map(async (b) => Buffer.from(await b.arrayBuffer())));
 
   try {
     const analyse = await analysiereBildseiten(bilder, dateiname, "bild", frist);
     const gruppen = gruppiereElemente(analyse.elemente);
-    const massenauszug = baueMassenauszug(analyse.raeume, analyse.elemente, analyse.kontext, einheitspreise);
+    const massenauszug = baueMassenauszug(analyse.raeume, analyse.elemente, analyse.kontext);
     return NextResponse.json({ analyse, gruppen, massenauszug, katalog: katalogInfo() });
   } catch (err) {
     console.error("Auswertung fehlgeschlagen", err);

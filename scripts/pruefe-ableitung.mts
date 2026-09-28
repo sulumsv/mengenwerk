@@ -1,6 +1,6 @@
 // Prüflauf der Ableitung gegen die von Hand gerechneten Mengen des
 // Einreichplans Torricelligasse 29. Aufruf: npm run pruefe
-import { baueMassenauszug } from "../src/lib/ableitung.ts";
+import { baueMassenauszug, mitKostenschaetzung } from "../src/lib/ableitung.ts";
 import { NACHWEISE, nachweisAnweisung } from "../src/lib/nachweise.ts";
 import type { DetectedElement, PlanKontext, Raum } from "../src/lib/types.ts";
 import { Verbrauch, formatiereKosten } from "../src/lib/verbrauch.ts";
@@ -198,8 +198,24 @@ const kontextMitDach: PlanKontext = {
   },
 };
 
-pruefe("Jede bepreisbare Position hat einen Betrag", () => {
+pruefe("Die Mengenermittlung bepreist nichts von selbst", () => {
   const a = baueMassenauszug(raeume, elemente, kontextMitDach);
+  const bepreist = a.abschnitte.flatMap((x) => x.positionen).filter((p) => p.betrag !== undefined);
+  if (a.kosten !== undefined || bepreist.length > 0) {
+    throw new Error(`${bepreist.length} Positionen bepreist, Kosten ${a.kosten ? "vorhanden" : "fehlen"}`);
+  }
+});
+
+pruefe("Ohne Richtwerte bleiben Positionen ohne eigenen Preis offen", () => {
+  const a = mitKostenschaetzung(baueMassenauszug(raeume, elemente, kontextMitDach), { parkett: 62 });
+  const bepreist = a.abschnitte.flatMap((x) => x.positionen).filter((p) => p.betrag !== undefined);
+  if (bepreist.length !== 1 || bepreist[0].bezeichnung !== "Parkett" || a.kosten!.summeAusRichtwerten !== 0) {
+    throw new Error(`bepreist: ${bepreist.map((p) => p.bezeichnung).join(", ")}`);
+  }
+});
+
+pruefe("Jede bepreisbare Position hat mit Richtwerten einen Betrag", () => {
+  const a = mitKostenschaetzung(baueMassenauszug(raeume, elemente, kontextMitDach), {}, true);
   const luecken = a.abschnitte
     .flatMap((x) => x.positionen)
     .filter((p) => p.menge !== null && !p.zwischenwert && p.betrag === undefined);
@@ -209,7 +225,7 @@ pruefe("Jede bepreisbare Position hat einen Betrag", () => {
 });
 
 pruefe("Zwischenwerte werden nicht bepreist", () => {
-  const a = baueMassenauszug(raeume, elemente, kontextMitDach);
+  const a = mitKostenschaetzung(baueMassenauszug(raeume, elemente, kontextMitDach), {}, true);
   const doppelt = a.abschnitte.flatMap((x) => x.positionen).filter((p) => p.zwischenwert && p.betrag !== undefined);
   if (doppelt.length > 0) {
     throw new Error(`doppelt gezählt: ${doppelt.map((p) => p.bezeichnung).join(", ")}`);
@@ -217,7 +233,7 @@ pruefe("Zwischenwerte werden nicht bepreist", () => {
 });
 
 pruefe("Abschnittssummen ergeben die Gesamtsumme", () => {
-  const a = baueMassenauszug(raeume, elemente, kontextMitDach);
+  const a = mitKostenschaetzung(baueMassenauszug(raeume, elemente, kontextMitDach), {}, true);
   const ausAbschnitten = a.abschnitte.reduce((s, x) => s + (x.summe ?? 0), 0);
   if (Math.abs(ausAbschnitten - a.kosten!.summe) > 0.02) {
     throw new Error(`${ausAbschnitten.toFixed(2)} gegen ${a.kosten!.summe.toFixed(2)}`);
@@ -225,8 +241,9 @@ pruefe("Abschnittssummen ergeben die Gesamtsumme", () => {
 });
 
 pruefe("Eigener Preis schlägt den Richtwert", () => {
-  const ohne = baueMassenauszug(raeume, elemente, kontextMitDach);
-  const mit = baueMassenauszug(raeume, elemente, kontextMitDach, { parkett: 1 });
+  const basis = baueMassenauszug(raeume, elemente, kontextMitDach);
+  const ohne = mitKostenschaetzung(basis, {}, true);
+  const mit = mitKostenschaetzung(basis, { parkett: 1 }, true);
   if (!(mit.kosten!.summe < ohne.kosten!.summe)) throw new Error("Summe unverändert");
   if (mit.kosten!.summeAusRichtwerten >= mit.kosten!.summe) {
     throw new Error("Richtwertanteil nicht gesunken");
@@ -234,7 +251,7 @@ pruefe("Eigener Preis schlägt den Richtwert", () => {
 });
 
 pruefe("Preis 0 gilt als gesetzt, nicht als fehlend", () => {
-  const a = baueMassenauszug(raeume, elemente, kontextMitDach, { parkett: 0 });
+  const a = mitKostenschaetzung(baueMassenauszug(raeume, elemente, kontextMitDach), { parkett: 0 });
   const parkett = a.abschnitte.flatMap((x) => x.positionen).find((p) => p.bezeichnung === "Parkett");
   if (parkett?.betrag !== 0 || parkett.preisQuelle !== "eigen") {
     throw new Error(`Betrag ${parkett?.betrag}, Quelle ${parkett?.preisQuelle}`);

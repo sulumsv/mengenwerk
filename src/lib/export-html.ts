@@ -78,7 +78,7 @@ ${zeilen}
 </section>`;
 }
 
-function positionszeile(p: Position): string {
+function positionszeile(p: Position, mitPreisen: boolean): string {
   const menge = p.menge === null ? "—" : zahl(p.menge);
   const ep = p.einheitspreis === undefined ? "—" : zahl(p.einheitspreis) + (p.preisQuelle === "richtwert" ? '<span class="stern">*</span>' : "");
   const betrag = p.betrag === undefined ? (p.zwischenwert ? "—" : "offen") : zahl(p.betrag);
@@ -90,25 +90,24 @@ function positionszeile(p: Position): string {
   <td class="mono matt klein">${esc(p.rechenweg)}</td>
   <td class="num">${menge}</td>
   <td class="mono matt klein">${EINHEIT_TEXT[p.einheit] ?? esc(p.einheit)}</td>
-  <td class="num klein">${ep}</td>
-  <td class="num">${betrag}</td>
-  <td class="matt klein">${esc(p.lgKandidaten.join(", ") || "—")}</td>
+${mitPreisen ? `  <td class="num klein">${ep}</td>\n  <td class="num">${betrag}</td>\n` : ""}  <td class="matt klein">${esc(p.lgKandidaten.join(", ") || "—")}</td>
 </tr>`;
 }
 
 export function massenauszugAlsHtml(auszug: Massenauszug, titel: string, erstellt: Date): string {
+  const mitPreisen = auszug.kosten !== undefined;
   const abschnitte = auszug.abschnitte
     .map((a) => {
       const summe =
-        a.summe !== undefined && a.summe > 0
+        mitPreisen && a.summe !== undefined && a.summe > 0
           ? `<tr class="summe"><td colspan="7">Summe ${esc(a.titel)}</td><td class="num">${zahl(a.summe)}</td><td class="mono matt">EUR</td></tr>`
           : "";
       const tabelle =
         a.positionen.length > 0
           ? `<table>
-<thead><tr><th></th><th>Pos.</th><th>Bezeichnung</th><th>Rechenweg</th><th class="num">Menge</th><th>Einh.</th><th class="num">EP</th><th class="num">Betrag</th><th>LB HB</th></tr></thead>
+<thead><tr><th></th><th>Pos.</th><th>Bezeichnung</th><th>Rechenweg</th><th class="num">Menge</th><th>Einh.</th>${mitPreisen ? '<th class="num">EP</th><th class="num">Betrag</th>' : ""}<th>LB HB</th></tr></thead>
 <tbody>
-${a.positionen.map(positionszeile).join("\n")}
+${a.positionen.map((p) => positionszeile(p, mitPreisen)).join("\n")}
 ${summe}
 </tbody>
 </table>`

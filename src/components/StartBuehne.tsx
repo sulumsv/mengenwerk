@@ -15,7 +15,7 @@ function Grundriss() {
         <svg viewBox="0 0 400 250" className="absolute inset-0 h-full w-full text-white" fill="none" stroke="currentColor">
           <rect x="30" y="22" width="340" height="190" strokeWidth="5" />
           <path d="M190 22v95M30 117h160M225 117v95M225 117h145" strokeWidth="2.5" />
-          <path d="M80 212h50M300 22h40M30 55v35M370 150v40" stroke="#d2a86e" strokeWidth="6" />
+          <path d="M80 212h50M300 22h40M30 55v35M370 150v40" stroke="#f2b233" strokeWidth="6" />
           <path d="M30 232h340M30 226v12M370 226v12" strokeWidth="1" opacity="0.7" />
           <text x="200" y="246" fontSize="10" fill="#ffffff" stroke="none" textAnchor="middle" opacity="0.85">12,10 m</text>
           <path d="M386 22v190M380 22h12M380 212h12" strokeWidth="1" opacity="0.7" />
@@ -23,7 +23,7 @@ function Grundriss() {
             8,40 m
           </text>
         </svg>
-        <div className="scan-linie absolute inset-y-0 w-24 bg-gradient-to-r from-transparent via-[#d2a86e]/40 to-transparent" />
+        <div className="scan-linie absolute inset-y-0 w-24 bg-gradient-to-r from-transparent via-[#f2b233]/40 to-transparent" />
         {MARKEN.map((m) => (
           <span
             key={m.t}
@@ -38,7 +38,7 @@ function Grundriss() {
       <div className="marke absolute -right-3 -bottom-5 md:-right-10 rounded-xl bg-[#2b2d33] px-4 py-3 text-white shadow-xl" style={{ animationDelay: "4.8s" }}>
         <p className="text-[10px] text-white/60">Mauerwerk 25 cm</p>
         <p className="text-lg font-semibold">142,40 m²</p>
-        <p className="text-[10px] text-[#d2a86e]">44,5 m × 3,20 m</p>
+        <p className="text-[10px] text-[#f2b233]">44,5 m × 3,20 m</p>
       </div>
     </div>
   );
@@ -65,7 +65,7 @@ export function StartBuehne() {
 
           <div className="relative mx-auto mt-8 md:mt-10 max-w-3xl text-center">
             <h1 className="einblenden font-semibold tracking-tight text-white leading-[1.05] text-[clamp(2rem,4.2vw,3.5rem)]">
-              Plan hochladen. Mengen erhalten.
+              Plan hochladen. <span className="text-[#f2b233]">Mengen erhalten.</span>
             </h1>
             <p className="einblenden einblenden-2 mx-auto mt-5 max-w-[56ch] text-[15px] md:text-[16px] leading-relaxed text-white/85">
               MengenWerk liest Ihren Einreichplan, erkennt Räume, Wände, Fenster und Türen und berechnet daraus den

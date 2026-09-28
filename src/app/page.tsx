@@ -168,7 +168,7 @@ export default function Home() {
             <p className="text-[15px] leading-relaxed text-white/80">
               Mit Ihren eigenen Einheitspreisen wird aus dem Massenauszug direkt eine Kostenschätzung.
             </p>
-            <a href="/einheitspreise" className="mt-6 text-sm font-semibold text-[#d2a86e] hover:underline">
+            <a href="/einheitspreise" className="mt-6 text-sm font-semibold text-[#f2b233] hover:underline">
               Einheitspreise hinterlegen →
             </a>
           </div>

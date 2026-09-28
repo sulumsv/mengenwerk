@@ -9,7 +9,7 @@
   --accent-fg: #ffffff;
   --alert: #d9483b;
   --alert-fg: #ffffff;
-  --highlight: #d2a86e;
+  --highlight: #a87708;
   --highlight-fg: #ffffff;
   --line: #dde6ea;
   --line-strong: #c8d4da;
@@ -65,7 +65,7 @@ body {
 
 .buehne {
   background:
-    radial-gradient(ellipse 45% 30% at 78% 95%, rgba(210, 168, 110, 0.35) 0%, transparent 70%),
+    radial-gradient(ellipse 45% 30% at 78% 95%, rgba(242, 178, 51, 0.35) 0%, transparent 70%),
     radial-gradient(ellipse 60% 40% at 15% 0%, rgba(120, 140, 190, 0.35) 0%, transparent 70%),
     linear-gradient(180deg, #1f2a44 0%, #26314d 40%, #2f3446 75%, #3a3a44 100%);
   background-size: 100% 115%;

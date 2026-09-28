@@ -9,7 +9,7 @@ export function LogoMark({ className = "h-8 w-8" }: { className?: string }) {
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <path d="M7 26h18M7 24.5v3M25 24.5v3" stroke="#d2a86e" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M7 26h18M7 24.5v3M25 24.5v3" stroke="#f2b233" strokeWidth="1.6" strokeLinecap="round" />
     </svg>
   );
 }

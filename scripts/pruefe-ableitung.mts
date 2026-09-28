@@ -1,5 +1,5 @@
 // Prüflauf der Ableitung gegen die von Hand gerechneten Mengen des
-// Einreichplans Torricelligasse 29. Aufruf: npm run pruefe
+// Einreichplans Beispielhaus. Aufruf: npm run pruefe
 import { baueMassenauszug, mitKostenschaetzung } from "../src/lib/ableitung.ts";
 import { gleicheWohnnutzflaecheAb, istRaumname } from "../src/lib/plan-lesen.ts";
 import { leseKorrektur } from "../src/lib/korrekturen.ts";
@@ -25,7 +25,7 @@ const r = (
   konfidenz: "plan", quelle: "Raumstempel",
 });
 
-// Torricelligasse 29, Räume laut Raumstempel der Einreichpläne.
+// Beispielhaus, Räume laut Raumstempel der Einreichpläne.
 const raeume: Raum[] = [
   r("EG", "Wohnküche", 60.29, "Parkett", { l: 9.80, b: 6.15 }),
   r("EG", "Gang", 6.81, "Parkett", { l: 2.40, b: 2.84 }),
@@ -105,7 +105,7 @@ for (const a of m.angewandteAnnahmen) console.log(`  · ${a.titel}`);
 console.log(`\n${fett}Prüfpunkte${reset}`);
 for (const p of m.pruefpunkte) console.log(`  ! ${p}`);
 
-// Abgleich gegen die Handrechnung im Massenauszug Torricelligasse 29.
+// Abgleich gegen die Handrechnung im Massenauszug Beispielhaus.
 console.log(`\n${fett}Abgleich mit der Handrechnung${reset}`);
 const alle = m.abschnitte.flatMap((a) => a.positionen);
 const finde = (name: string) => alle.find((p) => p.bezeichnung === name)?.menge ?? null;

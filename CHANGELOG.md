@@ -4,6 +4,8 @@ Automatisch aus den Commit-Messages dieses Repos erstellt. Jeder Commit,
 egal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt — nicht händisch bearbeiten.
+
+- **2026-09-28 07:09** · Claude · `4e59442` — Changelog-Einträge nicht mehr an die Kopfzeile kleben
 - **2026-09-28 07:09** · Claude · `cbbeb51` — Kostenschätzung nur noch auf Knopfdruck statt automatisch mit Richtwerten
 - **2026-09-26 22:12** · onturkaltanakif · `0a226ce` — Startseiten-Animation endet mit fertigem Haus im Grünen (#15)
 - **2026-09-26 20:11** · Claude · `371ae52` — Merge branch 'sulum' into main

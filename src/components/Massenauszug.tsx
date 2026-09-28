@@ -45,9 +45,9 @@ function KostenBlock({ kosten, mitRichtwerten }: { kosten: Kostenschaetzung; mit
   const eigenAnteil = kosten.summe > 0 ? 100 - anteil : 0;
 
   return (
-    <section className="rounded-lg border-2 border-highlight/60 overflow-hidden">
+    <section className="rounded-2xl border-2 border-highlight/60 overflow-hidden">
       <div className="bg-surface-2 border-b border-line text-fg px-5 py-4 flex flex-wrap items-baseline gap-x-6 gap-y-2">
-        <span className="font-mono text-xs uppercase tracking-wide">Kostenschätzung</span>
+        <span className="text-[11px] font-semibold uppercase tracking-[0.14em]">Kostenschätzung</span>
         <span className="font-mono font-num text-2xl font-semibold ml-auto">
           {euro(kosten.summe)}
           <span className="text-sm font-medium ml-1.5 text-fg-muted">EUR netto</span>
@@ -55,11 +55,11 @@ function KostenBlock({ kosten, mitRichtwerten }: { kosten: Kostenschaetzung; mit
       </div>
       <div className="bg-surface-2 px-5 py-4 grid sm:grid-cols-3 gap-4 text-sm">
         <div>
-          <p className="font-mono text-xs uppercase tracking-wide text-fg-muted">Aus eigenen Preisen</p>
+          <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted">Aus eigenen Preisen</p>
           <p className="font-mono font-num text-lg mt-0.5">{zahl(eigenAnteil, 0)} %</p>
         </div>
         <div>
-          <p className="font-mono text-xs uppercase tracking-wide text-fg-muted">Aus Richtwerten</p>
+          <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted">Aus Richtwerten</p>
           <p className="font-mono font-num text-lg mt-0.5">
             {mitRichtwerten ? (
               <>
@@ -72,7 +72,7 @@ function KostenBlock({ kosten, mitRichtwerten }: { kosten: Kostenschaetzung; mit
           </p>
         </div>
         <div>
-          <p className="font-mono text-xs uppercase tracking-wide text-fg-muted">Positionen</p>
+          <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted">Positionen</p>
           <p className="font-mono font-num text-lg mt-0.5">
             {kosten.bepreistePositionen}
             {kosten.unbepreistePositionen > 0 && (
@@ -128,12 +128,12 @@ function KostenSteuerung({
   }, [aktiv]);
 
   return (
-    <section className="rounded-lg border border-line bg-surface-2 p-5 flex flex-col gap-4">
+    <section className="rounded-2xl border border-line bg-surface-2 p-5 flex flex-col gap-4">
       <div className="flex flex-wrap items-center gap-4">
         <button
           type="button"
           onClick={onErstellen}
-          className="font-display font-bold uppercase tracking-wide text-sm px-6 py-3 rounded-md bg-highlight text-highlight-fg hover:brightness-110 transition"
+          className="font-semibold text-sm px-6 py-3 rounded-xl bg-highlight text-highlight-fg hover:brightness-110 transition"
         >
           {aktiv ? "Kostenschätzung aktualisieren" : "Kostenschätzung erstellen"}
         </button>
@@ -141,7 +141,7 @@ function KostenSteuerung({
           <button
             type="button"
             onClick={onEntfernen}
-            className="font-mono text-xs uppercase tracking-wide text-fg-muted hover:text-fg underline"
+            className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted hover:text-fg underline"
           >
             Nur Mengen anzeigen
           </button>
@@ -184,14 +184,14 @@ function KonfidenzPunkt({ konfidenz }: { konfidenz: Konfidenz }) {
 
 function Legende() {
   return (
-    <div className="rounded-lg border border-line bg-surface-2 p-5">
-      <p className="font-mono text-xs uppercase tracking-wide text-fg-muted mb-3">Herkunft jeder Zahl</p>
+    <div className="rounded-2xl border border-line bg-surface-2 p-5">
+      <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted mb-3">Herkunft jeder Zahl</p>
       <div className="grid sm:grid-cols-3 gap-4">
         {(["plan", "berechnet", "annahme"] as const).map((k) => (
           <div key={k} className="flex gap-2.5 items-start text-sm">
             <span className={`inline-block w-2.5 h-2.5 mt-1.5 shrink-0 ${KONFIDENZ_FARBE[k]}`} aria-hidden="true" />
             <span>
-              <b className="font-mono text-xs uppercase tracking-wide block">{KONFIDENZ_TEXT[k]}</b>
+              <b className="text-[11px] font-semibold uppercase tracking-[0.14em] block">{KONFIDENZ_TEXT[k]}</b>
               <span className="text-fg-muted">
                 {k === "plan" && "Wert steht beschriftet im Plan."}
                 {k === "berechnet" && "Aus bemaßten Planmaßen gerechnet."}
@@ -210,8 +210,8 @@ function Kennzahlen({ positionen }: { positionen: Position[] }) {
   return (
     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
       {positionen.map((p) => (
-        <div key={p.nummer} className="bg-surface-2 border border-line rounded-lg p-5">
-          <p className="font-mono text-xs uppercase tracking-wide text-fg-muted leading-snug">{p.bezeichnung}</p>
+        <div key={p.nummer} className="bg-surface-2 border border-line rounded-2xl p-5">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted leading-snug">{p.bezeichnung}</p>
           <p className="font-mono font-num text-2xl font-semibold mt-1">
             {zahl(p.menge!)}
             <span className="text-sm font-medium text-fg-muted ml-1">{EINHEIT_TEXT[p.einheit]}</span>
@@ -305,8 +305,8 @@ function Raumbuch({
   return (
     <section className="flex flex-col gap-4">
       <div className="flex items-baseline gap-4 flex-wrap border-b-2 border-line-strong pb-2.5">
-        <h3 className="font-display font-bold uppercase text-xl">1. Raumbuch</h3>
-        <span className="font-mono text-xs uppercase tracking-wide text-fg-muted ml-auto">
+        <h3 className="font-display font-semibold text-xl">1. Raumbuch</h3>
+        <span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted ml-auto">
           Grundlage aller Folgepositionen
         </span>
       </div>
@@ -315,10 +315,10 @@ function Raumbuch({
           Fläche und Umfang können durch Klick auf den Wert geändert werden. Die Auswertung passt sich sofort an.
         </p>
       )}
-      <div className="overflow-x-auto rounded-lg border border-line bg-surface-2">
+      <div className="overflow-x-auto rounded-2xl border border-line bg-surface-2">
         <table className="w-full text-sm min-w-[640px]">
           <thead>
-            <tr className="bg-surface font-mono text-xs uppercase tracking-wide text-fg-muted text-left">
+            <tr className="bg-surface text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted text-left">
               <th className="px-4 py-3 font-medium w-8"></th>
               <th className="px-4 py-3 font-medium">Raum</th>
               <th className="px-4 py-3 font-medium">Belag</th>
@@ -363,7 +363,7 @@ function FragmentGeschoss({
   return (
     <>
       <tr className="bg-surface">
-        <td colSpan={6} className="px-4 py-2 font-mono text-xs uppercase tracking-wide text-fg-muted">
+        <td colSpan={6} className="px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted">
           {geschoss}
         </td>
       </tr>
@@ -404,17 +404,17 @@ function AbschnittBlock({ abschnitt, mitPreisen }: { abschnitt: Abschnitt; mitPr
   return (
     <section className="flex flex-col gap-4">
       <div className="flex items-baseline gap-4 flex-wrap border-b-2 border-line-strong pb-2.5">
-        <h3 className="font-display font-bold uppercase text-xl">
+        <h3 className="font-display font-semibold text-xl">
           {abschnitt.nummer}. {abschnitt.titel}
         </h3>
-        <span className="font-mono text-xs uppercase tracking-wide text-fg-muted ml-auto">{abschnitt.lgHinweis}</span>
+        <span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted ml-auto">{abschnitt.lgHinweis}</span>
       </div>
       {abschnitt.vorspann && <p className="text-sm text-fg-muted max-w-3xl">{abschnitt.vorspann}</p>}
       {abschnitt.positionen.length > 0 && (
-        <div className="overflow-x-auto rounded-lg border border-line bg-surface-2">
+        <div className="overflow-x-auto rounded-2xl border border-line bg-surface-2">
           <table className={`w-full text-sm ${mitPreisen ? "min-w-[980px]" : "min-w-[800px]"}`}>
             <thead>
-              <tr className="bg-surface font-mono text-xs uppercase tracking-wide text-fg-muted text-left">
+              <tr className="bg-surface text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted text-left">
                 <th className="px-4 py-3 font-medium w-8"></th>
                 <th className="px-4 py-3 font-medium">Pos.</th>
                 <th className="px-4 py-3 font-medium">Bezeichnung</th>
@@ -513,7 +513,7 @@ function Download({ auszug, titel }: { auszug: Massenauszug; titel: string }) {
     <button
       type="button"
       onClick={herunterladen}
-      className="self-start font-display font-bold uppercase tracking-wide text-sm px-6 py-3 bg-accent text-accent-fg rounded-md"
+      className="self-start font-semibold text-sm px-6 py-3 bg-accent text-accent-fg rounded-xl"
     >
       Massenauszug herunterladen
     </button>
@@ -561,14 +561,14 @@ export function MassenauszugAnsicht({
       ))}
 
       {auszug.angewandteAnnahmen.length > 0 && (
-        <section className="rounded-lg border-2 border-alert overflow-hidden">
-          <p className="bg-alert text-alert-fg font-mono text-xs uppercase tracking-wide px-5 py-2.5 font-semibold">
+        <section className="rounded-2xl border-2 border-alert overflow-hidden">
+          <p className="bg-alert text-alert-fg text-[11px] font-semibold uppercase tracking-[0.14em] px-5 py-2.5 font-semibold">
             Diese Werte stehen nicht im Plan
           </p>
           <ul className="bg-surface-2 divide-y divide-line">
             {auszug.angewandteAnnahmen.map((a) => (
               <li key={a.id} className="px-5 py-4 grid sm:grid-cols-[200px_1fr] gap-1 sm:gap-6 text-sm">
-                <span className="font-mono text-xs uppercase tracking-wide font-semibold">{a.titel}</span>
+                <span className="text-[11px] font-semibold uppercase tracking-[0.14em] font-semibold">{a.titel}</span>
                 <span className="text-fg-muted">
                   {a.begruendung} <span className="text-fg">{a.auswirkung}</span>
                 </span>
@@ -579,8 +579,8 @@ export function MassenauszugAnsicht({
       )}
 
       {auszug.pruefpunkte.length > 0 && (
-        <section className="rounded-lg border-2 border-accent overflow-hidden">
-          <p className="bg-accent text-accent-fg font-mono text-xs uppercase tracking-wide px-5 py-2.5 font-semibold">
+        <section className="rounded-2xl border-2 border-accent overflow-hidden">
+          <p className="bg-accent text-accent-fg text-[11px] font-semibold uppercase tracking-[0.14em] px-5 py-2.5 font-semibold">
             Prüfpunkte im Plansatz
           </p>
           <ul className="bg-surface-2 divide-y divide-line">

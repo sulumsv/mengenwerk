@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
+import { SeitenHero } from "@/components/Marketing";
 import { PREISKATALOG, type Einheitspreise } from "@/lib/preise";
 import {
   ladeEinheitspreise,
@@ -77,20 +78,15 @@ export default function EinheitspreisePage() {
     <main className="flex-1">
       <SiteNav />
 
-      <section className="px-6 md:px-10 pt-14 pb-8 max-w-5xl mx-auto">
-        <span className="font-mono text-xs uppercase tracking-wide text-fg-muted border border-line rounded-full px-3 py-1">
-          Kalkulationsgrundlage
-        </span>
-        <h1 className="mt-5 font-display font-black uppercase leading-[0.95] tracking-tight text-[clamp(1.9rem,4.5vw,3rem)]">
-          Einheitspreise
-        </h1>
-        <p className="mt-5 text-lg text-fg-muted max-w-2xl leading-relaxed">
-          Hinterlege hier die Preise deines Betriebs. Bei jeder Planauswertung wird daraus neben der Mengenermittlung
-          automatisch eine Kostenschätzung gerechnet. Leere Felder verwenden den Richtwert.
-        </p>
+      <SeitenHero
+        eyebrow="Kalkulationsgrundlage"
+        titel="Einheitspreise"
+        text="Hinterlege hier die Preise deines Betriebs. Bei jeder Planauswertung wird daraus neben der Mengenermittlung automatisch eine Kostenschätzung gerechnet. Leere Felder verwenden den Richtwert."
+      />
 
-        <div className="mt-6 rounded-lg border-2 border-alert bg-surface-2 overflow-hidden">
-          <p className="bg-alert text-alert-fg font-mono text-xs uppercase tracking-wide px-5 py-2.5 font-semibold">
+      <section className="px-6 md:px-10 pt-10 pb-8 max-w-5xl mx-auto">
+        <div className="rounded-2xl border-2 border-alert bg-surface-2 overflow-hidden">
+          <p className="bg-alert text-alert-fg text-[11px] font-semibold uppercase tracking-[0.14em] px-5 py-2.5 font-semibold">
             Die Richtwerte sind keine Marktpreise
           </p>
           <p className="px-5 py-4 text-sm text-fg-muted">
@@ -103,21 +99,21 @@ export default function EinheitspreisePage() {
 
       <section className="px-6 md:px-10 pb-10 max-w-5xl mx-auto">
         <div className="sticky top-0 z-10 bg-surface border-b border-line py-4 flex flex-wrap items-center gap-4">
-          <span className="font-mono text-xs uppercase tracking-wide text-fg-muted">
+          <span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted">
             {geladen ? `${anzahlEigene} von ${PREISKATALOG.length} Positionen mit eigenem Preis` : "Wird geladen"}
           </span>
           <div className="flex gap-3 ml-auto">
             <button
               type="button"
               onClick={zuruecksetzen}
-              className="font-display font-bold uppercase tracking-wide text-sm px-4 py-2.5 border border-line-strong rounded-md hover:bg-surface-2"
+              className="font-semibold text-sm px-4 py-2.5 border border-line-strong rounded-xl hover:bg-surface-2"
             >
               Zurücksetzen
             </button>
             <button
               type="button"
               onClick={sichern}
-              className="font-display font-bold uppercase tracking-wide text-sm px-6 py-2.5 bg-accent text-accent-fg rounded-md"
+              className="font-semibold text-sm px-6 py-2.5 bg-accent text-accent-fg rounded-xl"
             >
               Sichern
             </button>
@@ -125,7 +121,7 @@ export default function EinheitspreisePage() {
         </div>
 
         {meldung && (
-          <p className="mt-4 rounded-md border border-highlight/40 bg-highlight/10 px-5 py-3 text-sm">{meldung}</p>
+          <p className="mt-4 rounded-xl border border-highlight/40 bg-highlight/10 px-5 py-3 text-sm">{meldung}</p>
         )}
 
         <div className="mt-8 flex flex-col gap-10">
@@ -135,13 +131,13 @@ export default function EinheitspreisePage() {
 
             return (
               <div key={gruppe.titel} className="flex flex-col gap-3">
-                <h2 className="font-display font-bold uppercase text-lg border-b-2 border-line-strong pb-2">
+                <h2 className="font-display font-semibold text-lg border-b-2 border-line-strong pb-2">
                   {gruppe.titel}
                 </h2>
-                <div className="overflow-x-auto rounded-lg border border-line bg-surface-2">
+                <div className="overflow-x-auto rounded-2xl border border-line bg-surface-2">
                   <table className="w-full text-sm min-w-[560px]">
                     <thead>
-                      <tr className="bg-surface font-mono text-xs uppercase tracking-wide text-fg-muted text-left">
+                      <tr className="bg-surface text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted text-left">
                         <th className="px-4 py-3 font-medium">LG</th>
                         <th className="px-4 py-3 font-medium">Position</th>
                         <th className="px-4 py-3 font-medium text-right">Richtwert</th>
@@ -170,7 +166,7 @@ export default function EinheitspreisePage() {
                               value={eigene[p.schluessel] ?? ""}
                               onChange={(e) => setzePreis(p.schluessel, e.target.value)}
                               aria-label={`Eigener Preis für ${p.bezeichnung} in Euro je ${EINHEIT_TEXT[p.einheit]}`}
-                              className="w-28 rounded-md border border-line bg-surface px-3 py-1.5 text-right font-mono font-num text-sm focus:border-line-strong outline-none"
+                              className="w-28 rounded-xl border border-line bg-surface px-3 py-1.5 text-right font-mono font-num text-sm focus:border-line-strong outline-none"
                             />
                           </td>
                           <td className="px-4 py-2.5 font-mono text-xs text-fg-muted">

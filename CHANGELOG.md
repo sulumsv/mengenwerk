@@ -5,6 +5,7 @@ egal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt — nicht händisch bearbeiten.
 
+- **2026-09-28 13:42** · Claude · `8ae603f` — Neues helles Design mit aktuellem main zusammenführen
 - **2026-09-28 12:38** · sulumsv · `439e1a3` — Revert "Startseite: fließende Fotostrecke (Baustelle -> fertiges Haus) statt 3D-Szene"
 - **2026-09-28 12:15** · sulumsv · `ad1e903` — Revert "Startseiten-Animation als Bildfolge nach Storyboard: 16 Bauphasen vom Plan zum Traumhaus (#25)"
 - **2026-09-28 09:38** · Claude · `9fc7403` — Startseiten-Animation heller und flüssiger, Schlussbild wie ein Drohnenfoto

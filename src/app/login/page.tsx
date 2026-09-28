@@ -1,7 +1,9 @@
 "use client";
 
 import { Suspense, useState } from "react";
+import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
+import { Logo } from "@/components/Logo";
 
 function LoginForm() {
   const [passwort, setPasswort] = useState("");
@@ -30,26 +32,36 @@ function LoginForm() {
   }
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-surface px-6">
-      <div className="w-full max-w-sm">
-        <h1 className="font-display font-black uppercase tracking-tight text-2xl mb-1">Mengenwerk</h1>
-        <p className="font-mono text-xs text-fg-muted uppercase tracking-wide mb-8">Geschützter Zugang</p>
-        <form onSubmit={absenden} className="rounded-lg border border-line bg-surface-2 p-6">
-          <label className="block font-mono text-xs uppercase tracking-wide text-fg-muted mb-2">Passwort</label>
+    <main className="min-h-screen flex items-center justify-center bg-[#eef2f7] px-6 text-[#0f172a]">
+      <div className="w-full max-w-sm rounded-2xl border border-[#e3e8f0] bg-white p-7 shadow-[0_2px_12px_rgba(0,0,0,0.04)]">
+        <Link href="/">
+          <Logo />
+        </Link>
+        <p className="mt-2 text-sm text-[#5f6b80]">Einreichplan → Massenauszug nach LB-HB 023</p>
+
+        <div className="mt-6 grid grid-cols-2 rounded-lg bg-[#f1f4f9] p-1 text-sm">
+          <span className="rounded-md bg-white py-1.5 text-center font-medium shadow-sm">Anmelden</span>
+          <Link href="/demo" className="rounded-md py-1.5 text-center text-[#5f6b80] hover:text-[#0f172a]">
+            Zugang anfragen
+          </Link>
+        </div>
+
+        <form onSubmit={absenden} className="mt-5 space-y-3">
           <input
             type="password"
             autoFocus
+            placeholder="Passwort"
             value={passwort}
             onChange={(e) => setPasswort(e.target.value)}
-            className="w-full rounded-md border border-line bg-surface px-3 py-2 text-sm focus:border-line-strong outline-none"
+            className="w-full rounded-lg border border-[#d6dde8] px-3.5 py-2.5 text-sm placeholder:text-[#a9b3c3] outline-none focus:border-[#0f172a] transition"
           />
-          {fehler && <p className="mt-2 text-sm text-highlight">Falsches Passwort.</p>}
+          {fehler && <p className="text-sm text-[#c2412d]">Falsches Passwort.</p>}
           <button
             type="submit"
             disabled={laedt || !passwort}
-            className="mt-5 w-full rounded-md bg-accent text-accent-fg font-display font-bold uppercase tracking-wide text-sm py-2.5 disabled:opacity-40"
+            className="w-full rounded-lg bg-[#2f5fd0] text-white font-medium text-sm py-2.5 hover:bg-[#274fb0] disabled:opacity-40 transition"
           >
-            {laedt ? "Prüfe" : "Anmelden"}
+            {laedt ? "Prüfe …" : "Anmelden"}
           </button>
         </form>
       </div>

@@ -1,7 +1,9 @@
 "use client";
 
-import { useState } from "react";
-import { sortiereGeschosse } from "@/lib/ableitung";
+import { useEffect, useMemo, useState } from "react";
+import { mitKostenschaetzung, sortiereGeschosse } from "@/lib/ableitung";
+import { ladeEinheitspreise } from "@/lib/einheitspreise-speicher";
+import { PREISKATALOG, type Einheitspreise } from "@/lib/preise";
 import { massenauszugAlsHtml } from "@/lib/export-html";
 import type { Abschnitt, Konfidenz, Kostenschaetzung, Massenauszug, Position, Raum } from "@/lib/types";
 
@@ -38,12 +40,12 @@ function euro(n: number): string {
  * Die Kostenschätzung steht bewusst neben ihrem Richtwertanteil: eine Summe,
  * die zu weiten Teilen auf Katalogpreisen beruht, ist keine Kalkulation.
  */
-function KostenBlock({ kosten }: { kosten: Kostenschaetzung }) {
+function KostenBlock({ kosten, mitRichtwerten }: { kosten: Kostenschaetzung; mitRichtwerten: boolean }) {
   const anteil = kosten.summe > 0 ? (kosten.summeAusRichtwerten / kosten.summe) * 100 : 0;
-  const eigenAnteil = 100 - anteil;
+  const eigenAnteil = kosten.summe > 0 ? 100 - anteil : 0;
 
   return (
-    <section className="rounded-lg border-2 border-line-strong overflow-hidden">
+    <section className="rounded-lg border-2 border-highlight/60 overflow-hidden">
       <div className="bg-surface-2 border-b border-line text-fg px-5 py-4 flex flex-wrap items-baseline gap-x-6 gap-y-2">
         <span className="font-mono text-xs uppercase tracking-wide">Kostenschätzung</span>
         <span className="font-mono font-num text-2xl font-semibold ml-auto">
@@ -59,8 +61,14 @@ function KostenBlock({ kosten }: { kosten: Kostenschaetzung }) {
         <div>
           <p className="font-mono text-xs uppercase tracking-wide text-fg-muted">Aus Richtwerten</p>
           <p className="font-mono font-num text-lg mt-0.5">
-            {zahl(anteil, 0)} %
-            <span className="text-sm text-fg-muted ml-2">{euro(kosten.summeAusRichtwerten)} EUR</span>
+            {mitRichtwerten ? (
+              <>
+                {zahl(anteil, 0)} %
+                <span className="text-sm text-fg-muted ml-2">{euro(kosten.summeAusRichtwerten)} EUR</span>
+              </>
+            ) : (
+              <span className="text-fg-muted">nicht verwendet</span>
+            )}
           </p>
         </div>
         <div>
@@ -73,7 +81,19 @@ function KostenBlock({ kosten }: { kosten: Kostenschaetzung }) {
           </p>
         </div>
       </div>
-      {anteil > 0 && (
+      {!mitRichtwerten && kosten.unbepreistePositionen > 0 && (
+        <p className="bg-alert/10 border-t border-alert/40 px-5 py-3 text-sm text-fg-muted">
+          {kosten.bepreistePositionen === 0
+            ? "Es sind noch keine eigenen Einheitspreise hinterlegt, deshalb ist die Summe leer."
+            : `${kosten.unbepreistePositionen} Positionen haben keinen eigenen Preis und sind nicht in der Summe enthalten.`}{" "}
+          Preise unter{" "}
+          <a href="/einheitspreise" className="underline text-fg">
+            Einheitspreise
+          </a>{" "}
+          hinterlegen oder fehlende Preise mit Richtwerten ergänzen.
+        </p>
+      )}
+      {mitRichtwerten && anteil > 0 && (
         <p className="bg-alert/10 border-t border-alert/40 px-5 py-3 text-sm text-fg-muted">
           {anteil >= 99.5
             ? "Die Summe beruht vollständig auf Richtwerten aus dem Katalog. Sie ist eine Größenordnung, keine Kalkulation."
@@ -81,6 +101,75 @@ function KostenBlock({ kosten }: { kosten: Kostenschaetzung }) {
           Eigene Preise werden unter Einheitspreise hinterlegt.
         </p>
       )}
+    </section>
+  );
+}
+
+/**
+ * Mengen zuerst, Preise auf Wunsch: die Schätzung entsteht erst auf Klick
+ * und nur aus den Preisen des Betriebs, Richtwerte nur wenn angehakt.
+ */
+function KostenSteuerung({
+  aktiv,
+  mitRichtwerten,
+  onRichtwerte,
+  onErstellen,
+  onEntfernen,
+}: {
+  aktiv: boolean;
+  mitRichtwerten: boolean;
+  onRichtwerte: (v: boolean) => void;
+  onErstellen: () => void;
+  onEntfernen: () => void;
+}) {
+  const [eigeneAnzahl, setEigeneAnzahl] = useState<number | null>(null);
+  useEffect(() => {
+    setEigeneAnzahl(Object.keys(ladeEinheitspreise()).length);
+  }, [aktiv]);
+
+  return (
+    <section className="rounded-lg border border-line bg-surface-2 p-5 flex flex-col gap-4">
+      <div className="flex flex-wrap items-center gap-4">
+        <button
+          type="button"
+          onClick={onErstellen}
+          className="font-display font-bold uppercase tracking-wide text-sm px-6 py-3 rounded-md bg-highlight text-highlight-fg hover:brightness-110 transition"
+        >
+          {aktiv ? "Kostenschätzung aktualisieren" : "Kostenschätzung erstellen"}
+        </button>
+        {aktiv && (
+          <button
+            type="button"
+            onClick={onEntfernen}
+            className="font-mono text-xs uppercase tracking-wide text-fg-muted hover:text-fg underline"
+          >
+            Nur Mengen anzeigen
+          </button>
+        )}
+        <label className="flex items-center gap-2 text-sm text-fg-muted cursor-pointer select-none">
+          <input
+            type="checkbox"
+            checked={mitRichtwerten}
+            onChange={(e) => onRichtwerte(e.target.checked)}
+            className="accent-[var(--highlight)] w-4 h-4"
+          />
+          Fehlende Preise mit Richtwerten ergänzen
+        </label>
+      </div>
+      <p className="text-sm text-fg-muted">
+        {aktiv
+          ? "Die Kostenschätzung verwendet deine Einheitspreise"
+          : "Die Mengen sind fertig ermittelt. Auf Wunsch wird daraus eine Kostenschätzung mit deinen Einheitspreisen"}
+        {eigeneAnzahl !== null && (
+          <>
+            {" "}
+            — derzeit {eigeneAnzahl} von {PREISKATALOG.length} Positionen mit eigenem Preis hinterlegt.
+          </>
+        )}{" "}
+        <a href="/einheitspreise" className="underline text-fg">
+          Einheitspreise bearbeiten
+        </a>
+      </p>
     </section>
   );
 }
@@ -312,7 +401,7 @@ function FragmentGeschoss({
   );
 }
 
-function AbschnittBlock({ abschnitt }: { abschnitt: Abschnitt }) {
+function AbschnittBlock({ abschnitt, mitPreisen }: { abschnitt: Abschnitt; mitPreisen: boolean }) {
   return (
     <section className="flex flex-col gap-4">
       <div className="flex items-baseline gap-4 flex-wrap border-b-2 border-line-strong pb-2.5">
@@ -324,7 +413,7 @@ function AbschnittBlock({ abschnitt }: { abschnitt: Abschnitt }) {
       {abschnitt.vorspann && <p className="text-sm text-fg-muted max-w-3xl">{abschnitt.vorspann}</p>}
       {abschnitt.positionen.length > 0 && (
         <div className="overflow-x-auto rounded-lg border border-line bg-surface-2">
-          <table className="w-full text-sm min-w-[980px]">
+          <table className={`w-full text-sm ${mitPreisen ? "min-w-[980px]" : "min-w-[800px]"}`}>
             <thead>
               <tr className="bg-surface font-mono text-xs uppercase tracking-wide text-fg-muted text-left">
                 <th className="px-4 py-3 font-medium w-8"></th>
@@ -333,8 +422,8 @@ function AbschnittBlock({ abschnitt }: { abschnitt: Abschnitt }) {
                 <th className="px-4 py-3 font-medium">Rechenweg</th>
                 <th className="px-4 py-3 font-medium text-right">Menge</th>
                 <th className="px-4 py-3 font-medium">Einh.</th>
-                <th className="px-4 py-3 font-medium text-right">EP</th>
-                <th className="px-4 py-3 font-medium text-right">Betrag</th>
+                {mitPreisen && <th className="px-4 py-3 font-medium text-right">EP</th>}
+                {mitPreisen && <th className="px-4 py-3 font-medium text-right">Betrag</th>}
                 <th className="px-4 py-3 font-medium">LB HB</th>
               </tr>
             </thead>
@@ -354,6 +443,8 @@ function AbschnittBlock({ abschnitt }: { abschnitt: Abschnitt }) {
                     {p.menge === null ? <span className="text-fg-muted">—</span> : zahl(p.menge)}
                   </td>
                   <td className="px-4 py-3 font-mono text-xs text-fg-muted">{EINHEIT_TEXT[p.einheit]}</td>
+                  {mitPreisen && (
+                    <>
                   <td className="px-4 py-3 text-right font-mono font-num text-xs whitespace-nowrap">
                     {p.einheitspreis === undefined ? (
                       <span className="text-fg-muted">—</span>
@@ -377,10 +468,12 @@ function AbschnittBlock({ abschnitt }: { abschnitt: Abschnitt }) {
                       euro(p.betrag)
                     )}
                   </td>
+                    </>
+                  )}
                   <td className="px-4 py-3 text-xs text-fg-muted">{p.lgKandidaten.join(", ") || "—"}</td>
                 </tr>
               ))}
-              {abschnitt.summe !== undefined && abschnitt.summe > 0 && (
+              {mitPreisen && abschnitt.summe !== undefined && abschnitt.summe > 0 && (
                 <tr className="bg-surface border-t-2 border-line-strong font-semibold">
                   <td className="px-4 py-3" colSpan={7}>
                     Summe {abschnitt.titel}
@@ -438,15 +531,34 @@ export function MassenauszugAnsicht({
   /** Wenn übergeben, werden Fläche und Umfang im Raumbuch durch Klick editierbar. */
   onRaumAendern?: (id: string, feld: "flaeche_m2" | "umfang_m", wert: number) => void;
 }) {
+  const [kostenAktiv, setKostenAktiv] = useState(false);
+  const [mitRichtwerten, setMitRichtwerten] = useState(false);
+  const [eigene, setEigene] = useState<Einheitspreise>({});
+
+  const angezeigt = useMemo(
+    () => (kostenAktiv ? mitKostenschaetzung(auszug, eigene, mitRichtwerten) : auszug),
+    [auszug, eigene, kostenAktiv, mitRichtwerten],
+  );
+
   return (
     <div className="flex flex-col gap-10">
-      <Download auszug={auszug} titel={titel} />
+      <Download auszug={angezeigt} titel={titel} />
       <Legende />
-      <Kennzahlen positionen={auszug.kennzahlen} />
-      {auszug.kosten && auszug.kosten.summe > 0 && <KostenBlock kosten={auszug.kosten} />}
-      <Raumbuch raeume={auszug.raeume} onRaumAendern={onRaumAendern} />
-      {auszug.abschnitte.map((a) => (
-        <AbschnittBlock key={a.nummer} abschnitt={a} />
+      <Kennzahlen positionen={angezeigt.kennzahlen} />
+      <KostenSteuerung
+        aktiv={kostenAktiv}
+        mitRichtwerten={mitRichtwerten}
+        onRichtwerte={setMitRichtwerten}
+        onErstellen={() => {
+          setEigene(ladeEinheitspreise());
+          setKostenAktiv(true);
+        }}
+        onEntfernen={() => setKostenAktiv(false)}
+      />
+      {angezeigt.kosten && <KostenBlock kosten={angezeigt.kosten} mitRichtwerten={mitRichtwerten} />}
+      <Raumbuch raeume={angezeigt.raeume} onRaumAendern={onRaumAendern} />
+      {angezeigt.abschnitte.map((a) => (
+        <AbschnittBlock key={a.nummer} abschnitt={a} mitPreisen={kostenAktiv} />
       ))}
 
       {auszug.angewandteAnnahmen.length > 0 && (

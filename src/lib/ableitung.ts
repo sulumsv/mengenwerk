@@ -941,6 +941,7 @@ function pruefpunkte(raeume: Raum[], kontext: PlanKontext): string[] {
 function bepreise(
   abschnitte: Abschnitt[],
   eigene: Einheitspreise | undefined,
+  mitRichtwerten: boolean,
 ): { abschnitte: Abschnitt[]; kosten: Kostenschaetzung } {
   let summe = 0;
   let ausRichtwerten = 0;
@@ -951,7 +952,7 @@ function bepreise(
     let abschnittssumme = 0;
 
     const positionen = abschnitt.positionen.map((position) => {
-      const treffer = findePreis(position.preisSchluessel, eigene);
+      const treffer = findePreis(position.preisSchluessel, eigene, mitRichtwerten);
       if (treffer === null || position.menge === null) {
         if (!position.zwischenwert) unbepreist++;
         return position;
@@ -998,7 +999,6 @@ export function baueMassenauszug(
   raeume: Raum[],
   elemente: DetectedElement[],
   kontext: PlanKontext,
-  einheitspreise?: Einheitspreise,
 ): Massenauszug {
   const genutzt = new Set<AnnahmeId>();
 
@@ -1017,7 +1017,7 @@ export function baueMassenauszug(
     .filter((a) => a.positionen.length > 0 || a.vorspann)
     .map((a, i) => nummeriere(a, i + 2));
 
-  const { abschnitte, kosten } = bepreise(roh, einheitspreise);
+  const abschnitte = roh;
 
   const alle = abschnitte.flatMap((a) => a.positionen);
   const kennzahlen = [
@@ -1041,6 +1041,20 @@ export function baueMassenauszug(
       return { id: a.id, titel: a.titel, begruendung: a.begruendung, auswirkung: a.auswirkung };
     }),
     pruefpunkte: pruefpunkte(raeume, kontext),
-    kosten,
   };
+}
+
+/**
+ * Die Kostenschätzung ist ein eigener, bewusster Schritt nach der
+ * Mengenermittlung: der Auszug kommt unbepreist, erst auf Wunsch werden die
+ * Einheitspreise des Betriebs angelegt. Richtwerte fließen nur ein, wenn sie
+ * ausdrücklich angefordert werden.
+ */
+export function mitKostenschaetzung(
+  auszug: Massenauszug,
+  eigene: Einheitspreise,
+  mitRichtwerten = false,
+): Massenauszug {
+  const { abschnitte, kosten } = bepreise(auszug.abschnitte, eigene, mitRichtwerten);
+  return { ...auszug, abschnitte, kosten };
 }

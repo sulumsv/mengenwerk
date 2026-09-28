@@ -5,7 +5,6 @@ import type { AnalysisResult, GroupedItem, Konfidenz, Massenauszug, Raum } from 
 import { formatiereKosten, type VerbrauchsBericht } from "@/lib/verbrauch";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import { MassenauszugAnsicht } from "@/components/Massenauszug";
-import { ladeEinheitspreise } from "@/lib/einheitspreise-speicher";
 import { planZuBlaettern } from "@/lib/plan-zu-bildern";
 import { lesePlanAusText, umfangAusFlaeche } from "@/lib/plan-lesen";
 import { baueMassenauszug } from "@/lib/ableitung";
@@ -207,7 +206,7 @@ export default function ToolPage() {
         hinweise: [],
       },
       gruppen: [],
-      massenauszug: baueMassenauszug(gelesen.raeume, [], gelesen.kontext, ladeEinheitspreise()),
+      massenauszug: baueMassenauszug(gelesen.raeume, [], gelesen.kontext),
       katalog: katalogInfo(),
       quelle: "text",
     });
@@ -234,7 +233,6 @@ export default function ToolPage() {
 
     const fd = new FormData();
     fd.append("dateiname", f.name);
-    fd.append("einheitspreise", JSON.stringify(ladeEinheitspreise()));
 
     // Das PDF wird hier im Browser in Seitenbilder umgewandelt. Als Datei
     // hochgeladen wäre ein Einreichplan oft zu groß für die Anfrage.
@@ -368,7 +366,7 @@ export default function ToolPage() {
         {ergebnis && "gruppen" in ergebnis && (() => {
           const effektiveRaeume = bearbeiteteRaeume ?? ergebnis.analyse.raeume;
           const aktuellerAuszug = bearbeiteteRaeume
-            ? baueMassenauszug(effektiveRaeume, ergebnis.analyse.elemente, ergebnis.analyse.kontext, ladeEinheitspreise())
+            ? baueMassenauszug(effektiveRaeume, ergebnis.analyse.elemente, ergebnis.analyse.kontext)
             : ergebnis.massenauszug;
           return (
           <div className="mt-10">

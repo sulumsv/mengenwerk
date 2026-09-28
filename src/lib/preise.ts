@@ -90,11 +90,13 @@ export interface PreisTreffer {
 /**
  * Löst den Einheitspreis einer Position auf. Ein eigener Preis schlägt den
  * Richtwert; ein Preis von 0 gilt als bewusst gesetzt und unterdrückt die
- * Position in der Kostenschätzung nicht.
+ * Position in der Kostenschätzung nicht. Ohne `mitRichtwerten` bleibt eine
+ * Position ohne eigenen Preis unbepreist.
  */
 export function findePreis(
   schluessel: string | undefined,
   eigene: Einheitspreise | undefined,
+  mitRichtwerten = true,
 ): PreisTreffer | null {
   if (!schluessel) return null;
 
@@ -103,6 +105,7 @@ export function findePreis(
     return { preis: eigen, quelle: "eigen" };
   }
 
+  if (!mitRichtwerten) return null;
   const katalog = KATALOG_INDEX.get(schluessel);
   return katalog ? { preis: katalog.richtwert, quelle: "richtwert" } : null;
 }

@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import type { AnalysisResult, GroupedItem, Konfidenz, Massenauszug, Raum } from "@/lib/types";
 import { formatiereKosten, type VerbrauchsBericht } from "@/lib/verbrauch";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
+import { SeitenHero } from "@/components/Marketing";
 import { MassenauszugAnsicht } from "@/components/Massenauszug";
 import { planZuBlaettern, vorschauBild } from "@/lib/plan-zu-bildern";
 import { ScanAnimation } from "@/components/ScanAnimation";
@@ -62,7 +63,7 @@ function PlanKontextBlock({ kontext }: { kontext: AnalysisResult["kontext"] }) {
 
   if (felder.length === 0) {
     return (
-      <div className="mb-6 rounded-md border border-alert/40 bg-alert/10 p-5 text-sm">
+      <div className="mb-6 rounded-xl border border-alert/40 bg-alert/10 p-5 text-sm">
         Für diesen Plansatz konnten weder Legende noch Schnitthöhen oder Nachweise gelesen werden. Ohne Schnitt sind
         Wandhöhen nicht ermittelbar, ohne Legende bleibt die Materialzuordnung offen.
       </div>
@@ -70,10 +71,10 @@ function PlanKontextBlock({ kontext }: { kontext: AnalysisResult["kontext"] }) {
   }
 
   return (
-    <div className="mb-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-line rounded-lg overflow-hidden border border-line">
+    <div className="mb-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-line rounded-2xl overflow-hidden border border-line">
       {felder.map((feld) => (
         <div key={feld.titel} className="bg-surface-2 p-5">
-          <p className="font-mono text-xs uppercase tracking-wide text-fg-muted mb-3">{feld.titel}</p>
+          <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted mb-3">{feld.titel}</p>
           <dl className="space-y-1.5">
             {feld.eintraege.map(([schluessel, wert]) => (
               <div key={schluessel} className="flex justify-between gap-4 text-sm">
@@ -102,8 +103,8 @@ function HerkunftBlock({ verbrauch, textGrund }: { verbrauch?: VerbrauchsBericht
 
   if (!verbrauch) {
     return (
-      <div className="mb-6 rounded-md border border-highlight/40 bg-highlight/10 p-5">
-        <p className="font-mono text-xs uppercase tracking-wide text-fg-muted mb-2">Ohne KI gelesen</p>
+      <div className="mb-6 rounded-xl border border-highlight/40 bg-highlight/10 p-5">
+        <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted mb-2">Ohne KI gelesen</p>
         <p className="text-sm">
           Der Plan wurde aus seiner eigenen Textebene gelesen, nicht aus Bildern. Das dauert Sekunden und
           verursacht <strong className="font-semibold">keine API-Kosten</strong>.
@@ -113,8 +114,8 @@ function HerkunftBlock({ verbrauch, textGrund }: { verbrauch?: VerbrauchsBericht
   }
 
   return (
-    <div className="mb-6 rounded-md border border-line bg-surface-2 p-5">
-      <p className="font-mono text-xs uppercase tracking-wide text-fg-muted mb-3">Kosten dieser Auswertung</p>
+    <div className="mb-6 rounded-xl border border-line bg-surface-2 p-5">
+      <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted mb-3">Kosten dieser Auswertung</p>
       <div className="flex flex-wrap items-baseline gap-x-8 gap-y-2">
         <span className="font-display font-black text-2xl font-num">
           {verbrauch.kostenUsd === null ? "-" : formatiereKosten(verbrauch.kostenUsd)}
@@ -323,13 +324,18 @@ export default function ToolPage() {
     <main className="flex-1">
       <SiteNav />
 
-      <section className="px-6 md:px-10 py-16 max-w-7xl mx-auto">
-        <h1 className="font-display font-black uppercase text-3xl mb-8">Plan analysieren</h1>
+      <SeitenHero
+        eyebrow="Werkzeug"
+        titel="Plan analysieren"
+        text="Einreichplan als PDF, Scan oder Foto hochladen. MengenWerk erkennt Räume, Wände, Fenster und Türen und erstellt den Massenauszug."
+      />
 
-        <div className="rounded-lg border border-line bg-surface-2 overflow-hidden">
+      <section className="px-6 md:px-10 py-12 max-w-7xl mx-auto">
+
+        <div className="rounded-2xl border border-line bg-surface-2 overflow-hidden">
           <div className="border-b border-line px-6 py-4 flex items-center justify-between">
-            <span className="font-mono text-xs uppercase tracking-wide text-fg-muted">Planupload</span>
-            <span className="font-mono text-xs uppercase tracking-wide text-fg-muted">PDF · PNG · JPG</span>
+            <span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted">Planupload</span>
+            <span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted">PDF · PNG · JPG</span>
           </div>
 
           {laedt ? (
@@ -345,7 +351,7 @@ export default function ToolPage() {
             onDragLeave={() => setZiehtUeber(false)}
             onDrop={handleDrop}
             onClick={() => inputRef.current?.click()}
-            className={`m-6 rounded-md border-2 border-dashed p-14 text-center cursor-pointer transition-colors ${
+            className={`m-6 rounded-xl border-2 border-dashed p-14 text-center cursor-pointer transition-colors ${
               ziehtUeber ? "border-line-strong bg-accent/15" : "border-line hover:border-fg-muted"
             }`}
           >
@@ -360,7 +366,7 @@ export default function ToolPage() {
                 if (f) analysieren(f);
               }}
             />
-            <p className="font-display font-bold uppercase tracking-wide">
+            <p className="font-semibold">
               {laedt ? (schritt ?? "Plan wird analysiert") : datei ? datei.name : "Plan hier ablegen oder klicken"}
             </p>
             <p className="mt-2 font-mono text-xs text-fg-muted">
@@ -371,7 +377,7 @@ export default function ToolPage() {
         </div>
 
         {ergebnis && "fehler" in ergebnis && (
-          <div className="mt-6 rounded-md border-2 border-alert bg-alert/10 p-5 text-sm space-y-3">
+          <div className="mt-6 rounded-xl border-2 border-alert bg-alert/10 p-5 text-sm space-y-3">
             {textGrund && (
               <p>
                 <span className="font-semibold">Ohne KI war dieser Plan nicht lesbar.</span> {textGrund}
@@ -390,7 +396,7 @@ export default function ToolPage() {
           return (
           <div className="mt-10">
             <div className="flex items-baseline justify-between mb-4">
-              <h2 className="font-display font-black uppercase text-2xl">Mengenermittlung</h2>
+              <h2 className="font-display font-semibold tracking-tight text-2xl">Mengenermittlung</h2>
               <span className="font-mono text-xs text-fg-muted uppercase">
                 {ergebnis.analyse.dateityp} · {ergebnis.analyse.seiten} Seite(n)
               </span>
@@ -401,7 +407,7 @@ export default function ToolPage() {
             <PlanKontextBlock kontext={ergebnis.analyse.kontext} />
 
             {bearbeiteteRaeume && (
-              <div className="mb-4 flex items-center gap-4 rounded-md border border-highlight/40 bg-highlight/10 px-4 py-2.5">
+              <div className="mb-4 flex items-center gap-4 rounded-xl border border-highlight/40 bg-highlight/10 px-4 py-2.5">
                 <span className="text-sm flex-1">Raumbuch enthält manuelle Korrekturen. Die Auswertung verwendet diese Werte.</span>
                 <button
                   type="button"
@@ -427,14 +433,14 @@ export default function ToolPage() {
               />
             </div>
 
-            <h3 className="font-display font-bold uppercase text-xl mt-12 mb-4 border-b-2 border-line-strong pb-2.5">
+            <h3 className="font-display font-semibold text-xl mt-12 mb-4 border-b-2 border-line-strong pb-2.5">
               Erkannte Bauteile
             </h3>
 
-            <div className="overflow-x-auto rounded-lg border border-line">
+            <div className="overflow-x-auto rounded-2xl border border-line">
               <table className="w-full text-sm">
                 <thead className="bg-surface text-left">
-                  <tr className="font-mono text-xs uppercase tracking-wide text-fg-muted">
+                  <tr className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted">
                     <th className="px-4 py-3 font-medium">Herkunft</th>
                     <th className="px-4 py-3 font-medium">Typ</th>
                     <th className="px-4 py-3 font-medium">Material</th>
@@ -482,8 +488,8 @@ export default function ToolPage() {
             )}
 
             {ergebnis.analyse.hinweise.length > 0 && (
-              <div className="mt-6 rounded-md border border-line-strong/20 bg-accent/15 p-5">
-                <p className="font-mono text-xs uppercase tracking-wide text-fg mb-2">Zur Kontrolle</p>
+              <div className="mt-6 rounded-xl border border-line-strong/20 bg-accent/15 p-5">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg mb-2">Zur Kontrolle</p>
                 <ul className="space-y-1 text-sm text-fg/80">
                   {ergebnis.analyse.hinweise.map((h, i) => (
                     <li key={i}>{h}</li>

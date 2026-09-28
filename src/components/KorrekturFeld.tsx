@@ -88,9 +88,9 @@ export function KorrekturFeld({
   const liste = eintraege(korrekturen);
 
   return (
-    <section className="rounded-lg border border-line bg-surface-2 overflow-hidden">
+    <section className="rounded-2xl border border-line bg-surface-2 overflow-hidden">
       <div className="px-5 py-4 border-b border-line flex items-baseline justify-between gap-4 flex-wrap">
-        <p className="font-mono text-xs uppercase tracking-wide text-fg-muted">Korrektur an die Mengenermittlung</p>
+        <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted">Korrektur an die Mengenermittlung</p>
         <p className="text-xs text-fg-muted">
           Wirkt überall, wo der Wert verwendet wird: Putz, Maler, Fliesen, Estrich, Beton …
         </p>
@@ -105,14 +105,14 @@ export function KorrekturFeld({
           }}
           rows={3}
           placeholder="z. B. „Die Raumhöhe ist laut Schnitt 2,90 m statt 2,50 m. Abgehängte Decke Unterkante 2,75 m.“"
-          className="w-full rounded-md border border-line bg-surface px-4 py-3 text-sm text-fg placeholder:text-fg-muted/70 focus:outline-none focus:border-accent resize-y"
+          className="w-full rounded-xl border border-line bg-surface px-4 py-3 text-sm text-fg placeholder:text-fg-muted/70 focus:outline-none focus:border-accent resize-y"
         />
         <div className="flex items-center gap-4 flex-wrap">
           <button
             type="button"
             onClick={anwenden}
             disabled={laedt || !text.trim()}
-            className="font-display font-bold uppercase tracking-wide text-sm px-6 py-2.5 rounded-md bg-accent text-accent-fg disabled:opacity-40"
+            className="font-semibold text-sm px-6 py-2.5 rounded-xl bg-accent text-accent-fg disabled:opacity-40"
           >
             {laedt ? "Wird ausgewertet …" : "Korrektur anwenden"}
           </button>
@@ -123,7 +123,7 @@ export function KorrekturFeld({
 
         {liste.length > 0 && (
           <div className="mt-2 border-t border-line pt-3">
-            <p className="font-mono text-xs uppercase tracking-wide text-fg-muted mb-2">Aktive Korrekturen</p>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted mb-2">Aktive Korrekturen</p>
             <ul className="flex flex-col gap-1.5">
               {liste.map((e) => (
                 <li key={e.text} className="flex items-center justify-between gap-4 text-sm">

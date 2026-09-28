@@ -5,6 +5,7 @@ egal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+- **2026-09-28 14:32** · Claude · `b5060e4` · Neue Schrift, kühle Farbwelt und neues Logo
 - **2026-09-28 14:28** · Claude · `ef6318a` · Übersicht im Dashboard-Stil auf der Startseite
 - **2026-09-28 14:18** · Claude · `597bfbf` · Eine einheitliche Schrift für die ganze Seite
 - **2026-09-28 14:14** · Claude · `836f67b` · Gedankenstriche auch aus Skripten und Changelog entfernen

@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export function Eyebrow({ children }: { children: React.ReactNode; tone?: string }) {
   return (
-    <p className="flex items-center gap-3 text-[11px] font-medium uppercase tracking-[0.22em] text-[#a8461f] mb-5">
-      <span className="h-px w-8 bg-[#c2562f]" />
+    <p className="flex items-center gap-3 text-[11px] font-medium uppercase tracking-[0.22em] text-[#0b475d] mb-5">
+      <span className="h-px w-8 bg-[#0f5c78]" />
       {children}
     </p>
   );
@@ -16,9 +16,9 @@ export function Container({ children, className = "" }: { children: React.ReactN
 type Ton = "dunkel" | "hell" | "grau";
 
 const TON: Record<Ton, string> = {
-  dunkel: "bg-himmel text-[#231f1a] border-y border-[#e8e0d2]",
-  hell: "bg-[#fbf8f3] text-[#231f1a]",
-  grau: "bg-[#f3ede3] text-[#231f1a] border-y border-[#e8e0d2]",
+  dunkel: "bg-himmel text-[#16202a] border-y border-[#dde6ea]",
+  hell: "bg-[#f6f9fa] text-[#16202a]",
+  grau: "bg-[#e9eff2] text-[#16202a] border-y border-[#dde6ea]",
 };
 
 export function Abschnitt({
@@ -52,8 +52,8 @@ export function AbschnittKopf({
   return (
     <div className="max-w-2xl mb-14">
       <Eyebrow>{eyebrow}</Eyebrow>
-      <h2 className="font-display font-medium tracking-tight text-[clamp(1.9rem,3.6vw,2.9rem)] leading-[1.08]">{titel}</h2>
-      {text && <p className="mt-5 text-[15px] leading-relaxed text-[#6e665b]">{text}</p>}
+      <h2 className="font-display font-semibold tracking-tight text-[clamp(1.9rem,3.6vw,2.9rem)] leading-[1.08]">{titel}</h2>
+      {text && <p className="mt-5 text-[15px] leading-relaxed text-[#5d6b78]">{text}</p>}
     </div>
   );
 }
@@ -70,13 +70,13 @@ export function SeitenHero({
   children?: React.ReactNode;
 }) {
   return (
-    <section className="bg-himmel text-[#231f1a] border-b border-[#e8e0d2]">
+    <section className="bg-himmel text-[#16202a] border-b border-[#dde6ea]">
       <Container className="pt-20 pb-20">
         <Eyebrow>{eyebrow}</Eyebrow>
-        <h1 className="font-display font-medium tracking-tight leading-[1.02] text-[clamp(2.5rem,5.5vw,4.2rem)] max-w-3xl">
+        <h1 className="font-display font-semibold tracking-tight leading-[1.02] text-[clamp(2.5rem,5.5vw,4.2rem)] max-w-3xl">
           {titel}
         </h1>
-        {text && <p className="mt-6 text-[1.05rem] text-[#6e665b] max-w-2xl leading-relaxed">{text}</p>}
+        {text && <p className="mt-6 text-[1.05rem] text-[#5d6b78] max-w-2xl leading-relaxed">{text}</p>}
         {children && <div className="mt-9">{children}</div>}
       </Container>
     </section>
@@ -94,11 +94,11 @@ export function Karte({
   nummer?: string;
 }) {
   return (
-    <div className="group relative rounded-xl border border-[#e8e0d2] bg-[#fffdf9] p-7 transition hover:border-[#c2562f]/50">
-      <span className="absolute left-0 top-7 h-6 w-[3px] rounded-r bg-[#c2562f] opacity-0 transition group-hover:opacity-100" />
-      {nummer && <p className="mb-6 text-sm font-semibold text-[#c2562f]">{nummer}</p>}
-      <h3 className="font-display font-medium text-[1.2rem] mb-2">{titel}</h3>
-      <div className="text-sm leading-relaxed text-[#6e665b]">{children}</div>
+    <div className="group relative rounded-xl border border-[#dde6ea] bg-[#ffffff] p-7 transition hover:border-[#0f5c78]/50">
+      <span className="absolute left-0 top-7 h-6 w-[3px] rounded-r bg-[#0f5c78] opacity-0 transition group-hover:opacity-100" />
+      {nummer && <p className="mb-6 text-sm font-semibold text-[#0f5c78]">{nummer}</p>}
+      <h3 className="font-display font-semibold text-[1.2rem] mb-2">{titel}</h3>
+      <div className="text-sm leading-relaxed text-[#5d6b78]">{children}</div>
     </div>
   );
 }
@@ -107,7 +107,7 @@ export function KnopfPrimaer({ href, children }: { href: string; children: React
   return (
     <Link
       href={href}
-      className="inline-flex items-center gap-2 rounded-lg bg-[#c2562f] text-white font-medium text-sm px-6 py-3 hover:bg-[#a8461f] transition"
+      className="inline-flex items-center gap-2 rounded-lg bg-[#0f5c78] text-white font-medium text-sm px-6 py-3 hover:bg-[#0b475d] transition"
     >
       {children}
     </Link>
@@ -118,7 +118,7 @@ export function KnopfSekundaer({ href, children }: { href: string; children: Rea
   return (
     <Link
       href={href}
-      className="inline-flex items-center gap-2 rounded-lg border border-[#231f1a]/80 text-[#231f1a] font-medium text-sm px-6 py-3 hover:bg-[#231f1a] hover:text-[#fbf8f3] transition"
+      className="inline-flex items-center gap-2 rounded-lg border border-[#16202a]/80 text-[#16202a] font-medium text-sm px-6 py-3 hover:bg-[#16202a] hover:text-[#f6f9fa] transition"
     >
       {children}
     </Link>
@@ -133,13 +133,13 @@ export function CtaBand({
   text?: string;
 }) {
   return (
-    <section className="bg-[#fbf8f3] py-20">
+    <section className="bg-[#f6f9fa] py-20">
       <Container>
-        <div className="relative overflow-hidden rounded-2xl bg-[#f6e2d7] px-8 py-16 md:px-16 text-[#231f1a]">
+        <div className="relative overflow-hidden rounded-2xl bg-[#d7ecf2] px-8 py-16 md:px-16 text-[#16202a]">
           <svg
             aria-hidden
             viewBox="0 0 300 200"
-            className="pointer-events-none absolute -right-10 -bottom-10 w-[420px] text-[#c2562f] opacity-25 hidden md:block"
+            className="pointer-events-none absolute -right-10 -bottom-10 w-[420px] text-[#0f5c78] opacity-25 hidden md:block"
             fill="none"
             stroke="currentColor"
           >
@@ -147,10 +147,10 @@ export function CtaBand({
             <path d="M130 30v80M30 110h100M190 110v60" strokeWidth="1.5" />
             <path d="M30 188h220M30 182v12M250 182v12" strokeWidth="1" />
           </svg>
-          <h2 className="relative font-display font-medium tracking-tight leading-[1.05] text-[clamp(2rem,4vw,3.2rem)] max-w-2xl">
+          <h2 className="relative font-display font-semibold tracking-tight leading-[1.05] text-[clamp(2rem,4vw,3.2rem)] max-w-2xl">
             {titel}
           </h2>
-          <p className="relative mt-5 text-[#6e665b] max-w-xl leading-relaxed">{text}</p>
+          <p className="relative mt-5 text-[#5d6b78] max-w-xl leading-relaxed">{text}</p>
           <div className="relative mt-9 flex flex-wrap gap-3">
             <KnopfPrimaer href="/demo">Demo anfragen →</KnopfPrimaer>
             <KnopfSekundaer href="/app">Eigenen Plan testen</KnopfSekundaer>

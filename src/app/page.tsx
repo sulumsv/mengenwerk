@@ -26,7 +26,7 @@ const BELEGE = [
 ];
 
 const BADGE: Record<string, string> = {
-  PLAN: "bg-[#f6e2d7] text-[#a8461f] border-[#ecc6b3]",
+  PLAN: "bg-[#d7ecf2] text-[#0b475d] border-[#b9dbe6]",
   HERLEIT: "bg-[#e6ebf2] text-[#2c4466] border-[#c9d3e1]",
   ANNAHME: "bg-[#f7ecd2] text-[#8a6412] border-[#e8d3a0]",
 };
@@ -64,18 +64,18 @@ const RAUMMARKEN = [
 
 export default function Home() {
   return (
-    <main className="flex-1 bg-[#fbf8f3]">
+    <main className="flex-1 bg-[#f6f9fa]">
       <SiteNav />
 
       {/* Hero */}
-      <section className="bg-himmel border-b border-[#e8e0d2]">
+      <section className="bg-himmel border-b border-[#dde6ea]">
         <Container className="grid lg:grid-cols-[1.05fr_1fr] gap-14 items-center pt-16 pb-20 md:pt-24 md:pb-24">
           <div>
             <Eyebrow>Mengenermittlung für Österreich</Eyebrow>
-            <h1 className="font-display font-medium tracking-tight leading-[0.98] text-[clamp(2.8rem,6vw,5rem)] text-[#231f1a]">
-              Aus dem Einreichplan wird ein <span className="text-[#c2562f]">Massenauszug.</span>
+            <h1 className="font-display font-semibold tracking-tight leading-[0.98] text-[clamp(2.8rem,6vw,5rem)] text-[#16202a]">
+              Aus dem Einreichplan wird ein <span className="text-[#0f5c78]">Massenauszug.</span>
             </h1>
-            <p className="mt-7 text-[1.1rem] text-[#6e665b] max-w-[46ch] leading-relaxed">
+            <p className="mt-7 text-[1.1rem] text-[#5d6b78] max-w-[46ch] leading-relaxed">
               MengenWerk liest Ihren Plan, erkennt die Bauteile und ermittelt die Mengen nach LB-HB 023. Zu jeder Position
               sehen Sie, wie sie gerechnet wurde.
             </p>
@@ -83,59 +83,59 @@ export default function Home() {
               <KnopfPrimaer href="/demo">Demo anfragen →</KnopfPrimaer>
               <KnopfSekundaer href="/app">Plan analysieren</KnopfSekundaer>
             </div>
-            <p className="mt-8 text-xs text-[#9a9184]">Keine Einrichtung, kein Abo. Für Einreichpläne nach österreichischem Standard.</p>
+            <p className="mt-8 text-xs text-[#8b98a4]">Keine Einrichtung, kein Abo. Für Einreichpläne nach österreichischem Standard.</p>
           </div>
 
           <div className="relative">
-            <div className="relative rounded-2xl border border-[#e8e0d2] bg-[#fffdf9] p-5 shadow-[0_40px_80px_-50px_rgba(120,70,40,0.55)]">
-              <div className="flex items-center justify-between text-[11px] text-[#9a9184] mb-4">
+            <div className="relative rounded-2xl border border-[#dde6ea] bg-[#ffffff] p-5 shadow-[0_40px_80px_-50px_rgba(15,60,80,0.55)]">
+              <div className="flex items-center justify-between text-[11px] text-[#8b98a4] mb-4">
                 <span className="font-mono">EFH_Einreichplan_EG.pdf</span>
-                <span className="rounded-full bg-[#f6e2d7] px-2.5 py-0.5 text-[#a8461f]">wird gelesen</span>
+                <span className="rounded-full bg-[#d7ecf2] px-2.5 py-0.5 text-[#0b475d]">wird gelesen</span>
               </div>
-              <div className="relative aspect-[4/3] rounded-lg bg-[#fbf8f3] border border-[#efe8dc]">
-                <svg viewBox="0 0 400 300" className="absolute inset-0 w-full h-full text-[#231f1a]" fill="none" stroke="currentColor">
+              <div className="relative aspect-[4/3] rounded-lg bg-[#f6f9fa] border border-[#e4ecef]">
+                <svg viewBox="0 0 400 300" className="absolute inset-0 w-full h-full text-[#16202a]" fill="none" stroke="currentColor">
                   <rect x="40" y="30" width="320" height="220" strokeWidth="5" />
                   <path d="M200 30v110M40 140h160M240 140v110M240 140h120" strokeWidth="2.5" />
-                  <path d="M90 250h50M290 30h40M40 70v40M360 170v40" stroke="#c2562f" strokeWidth="6" />
-                  <path d="M40 275h320M40 268v14M360 268v14" stroke="#9a9184" strokeWidth="1" />
-                  <text x="200" y="292" fontSize="11" fill="#6e665b" stroke="none" textAnchor="middle">12,10 m</text>
-                  <path d="M385 30v220M378 30h14M378 250h14" stroke="#9a9184" strokeWidth="1" />
+                  <path d="M90 250h50M290 30h40M40 70v40M360 170v40" stroke="#0f5c78" strokeWidth="6" />
+                  <path d="M40 275h320M40 268v14M360 268v14" stroke="#8b98a4" strokeWidth="1" />
+                  <text x="200" y="292" fontSize="11" fill="#5d6b78" stroke="none" textAnchor="middle">12,10 m</text>
+                  <path d="M385 30v220M378 30h14M378 250h14" stroke="#8b98a4" strokeWidth="1" />
                 </svg>
                 {RAUMMARKEN.map((r) => (
                   <span
                     key={r.t}
-                    className="absolute rounded-md border border-[#e8e0d2] bg-white/95 px-2 py-1 text-[10px] leading-tight shadow-sm"
+                    className="absolute rounded-md border border-[#dde6ea] bg-white/95 px-2 py-1 text-[10px] leading-tight shadow-sm"
                     style={{ left: r.x, top: r.y }}
                   >
-                    <span className="block text-[#6e665b]">{r.t}</span>
-                    <span className="block font-semibold text-[#231f1a]">{r.m}</span>
+                    <span className="block text-[#5d6b78]">{r.t}</span>
+                    <span className="block font-semibold text-[#16202a]">{r.m}</span>
                   </span>
                 ))}
               </div>
-              <div className="mt-4 grid grid-cols-3 divide-x divide-[#efe8dc] text-center">
+              <div className="mt-4 grid grid-cols-3 divide-x divide-[#e4ecef] text-center">
                 {[
                   ["47", "Positionen"],
                   ["12", "Gewerke"],
                   ["3", "Annahmen"],
                 ].map(([z, l]) => (
                   <div key={l}>
-                    <p className="font-display text-2xl text-[#231f1a]">{z}</p>
-                    <p className="text-[11px] text-[#9a9184]">{l}</p>
+                    <p className="font-display text-2xl text-[#16202a]">{z}</p>
+                    <p className="text-[11px] text-[#8b98a4]">{l}</p>
                   </div>
                 ))}
               </div>
             </div>
-            <div className="absolute -top-8 -left-8 hidden md:block rounded-xl bg-[#231f1a] text-[#fbf8f3] px-5 py-4 shadow-xl">
-              <p className="text-[11px] text-[#fbf8f3]/60">Mauerwerk 25 cm</p>
+            <div className="absolute -top-8 -left-8 hidden md:block rounded-xl bg-[#16202a] text-[#f6f9fa] px-5 py-4 shadow-xl">
+              <p className="text-[11px] text-[#f6f9fa]/60">Mauerwerk 25 cm</p>
               <p className="font-display text-xl">142,40 m²</p>
-              <p className="font-mono text-[10px] text-[#e07a52]">44,5 m × 3,20 m</p>
+              <p className="font-mono text-[10px] text-[#f3c54a]">44,5 m × 3,20 m</p>
             </div>
           </div>
         </Container>
       </section>
 
       {/* Kennzahlen */}
-      <section className="bg-[#fbf8f3] border-b border-[#e8e0d2]">
+      <section className="bg-[#f6f9fa] border-b border-[#dde6ea]">
         <Container className="grid grid-cols-2 md:grid-cols-4">
           {[
             { wert: "5 Min.", label: "vom Plan zum Massenauszug" },
@@ -143,9 +143,9 @@ export default function Home() {
             { wert: "59", label: "Leistungsgruppen" },
             { wert: "100 %", label: "Mengen mit Rechenweg" },
           ].map(({ wert, label }, i) => (
-            <div key={label} className={`py-10 px-6 ${i > 0 ? "md:border-l border-[#e8e0d2]" : ""}`}>
-              <p className="font-display text-4xl text-[#231f1a]">{wert}</p>
-              <p className="text-xs text-[#6e665b] mt-2">{label}</p>
+            <div key={label} className={`py-10 px-6 ${i > 0 ? "md:border-l border-[#dde6ea]" : ""}`}>
+              <p className="font-display text-4xl text-[#16202a]">{wert}</p>
+              <p className="text-xs text-[#5d6b78] mt-2">{label}</p>
             </div>
           ))}
         </Container>
@@ -158,16 +158,16 @@ export default function Home() {
         <div className="grid md:grid-cols-[1fr_1.1fr] gap-14 items-start">
           <div>
             <Eyebrow>Warum MengenWerk</Eyebrow>
-            <h2 className="font-display font-medium tracking-tight text-[clamp(1.9rem,3.6vw,2.9rem)] leading-[1.08]">
+            <h2 className="font-display font-semibold tracking-tight text-[clamp(1.9rem,3.6vw,2.9rem)] leading-[1.08]">
               Das Aufmaß dauert lange. Und eine vergessene Position kostet Geld.
             </h2>
           </div>
-          <div className="space-y-5 text-[15px] leading-relaxed text-[#6e665b] md:pt-10">
+          <div className="space-y-5 text-[15px] leading-relaxed text-[#5d6b78] md:pt-10">
             <p>
               Mengen von Hand aus Plänen zu messen ist langsam und fehleranfällig. Eine übersehene Wand oder ein falsch
               abgezogenes Fenster fällt oft erst auf der Baustelle auf.
             </p>
-            <p className="text-[#231f1a]">
+            <p className="text-[#16202a]">
               MengenWerk liest den Einreichplan, ermittelt die Mengen und zeigt bei jeder Position, woher sie kommt.
             </p>
           </div>
@@ -199,10 +199,10 @@ export default function Home() {
           titel="Bei jeder Zahl steht, woher sie kommt."
           text="Vier Zeilen aus dem Massenauszug für ein Einfamilienhaus. Jede Position hat ihre Rechnung, ihre Quelle im Plan und eine Kennzeichnung."
         />
-        <div className="rounded-xl border border-[#e8e0d2] bg-[#fffdf9] overflow-x-auto">
+        <div className="rounded-xl border border-[#dde6ea] bg-[#ffffff] overflow-x-auto">
           <table className="w-full text-sm min-w-[720px]">
             <thead>
-              <tr className="text-left text-[11px] uppercase tracking-[0.14em] text-[#9a9184] border-b border-[#e8e0d2]">
+              <tr className="text-left text-[11px] uppercase tracking-[0.14em] text-[#8b98a4] border-b border-[#dde6ea]">
                 <th className="px-5 py-3 font-medium">Pos.</th>
                 <th className="px-5 py-3 font-medium">Leistung</th>
                 <th className="px-5 py-3 font-medium text-right">Menge</th>
@@ -213,12 +213,12 @@ export default function Home() {
             </thead>
             <tbody>
               {BELEGE.map((b) => (
-                <tr key={b.pos} className="border-b border-[#f3ede3] last:border-0 align-top">
-                  <td className="px-5 py-4 font-mono text-xs text-[#9a9184]">{b.pos}</td>
-                  <td className="px-5 py-4 font-medium text-[#231f1a]">{b.text}</td>
+                <tr key={b.pos} className="border-b border-[#e9eff2] last:border-0 align-top">
+                  <td className="px-5 py-4 font-mono text-xs text-[#8b98a4]">{b.pos}</td>
+                  <td className="px-5 py-4 font-medium text-[#16202a]">{b.text}</td>
                   <td className="px-5 py-4 text-right font-num whitespace-nowrap">{b.menge}</td>
-                  <td className="px-5 py-4 text-[#6e665b] font-mono text-xs">{b.weg}</td>
-                  <td className="px-5 py-4 text-[#6e665b] text-xs">{b.quelle}</td>
+                  <td className="px-5 py-4 text-[#5d6b78] font-mono text-xs">{b.weg}</td>
+                  <td className="px-5 py-4 text-[#5d6b78] text-xs">{b.quelle}</td>
                   <td className="px-5 py-4">
                     <span className={`inline-block rounded-md border px-2 py-0.5 text-[10px] font-medium ${BADGE[b.art]}`}>
                       {b.art}
@@ -235,9 +235,9 @@ export default function Home() {
             ["Herleit", "Aus Planmaßen berechnet. Die Formel steht daneben."],
             ["Annahme", "Die Angabe fehlt im Plan. Sie sehen, was fehlt und welcher Wert angesetzt wurde."],
           ].map(([t, x]) => (
-            <div key={t} className="border-t border-[#e8e0d2] pt-4">
+            <div key={t} className="border-t border-[#dde6ea] pt-4">
               <p className="font-display text-lg mb-1">{t}</p>
-              <p className="text-[#6e665b]">{x}</p>
+              <p className="text-[#5d6b78]">{x}</p>
             </div>
           ))}
         </div>
@@ -249,10 +249,10 @@ export default function Home() {
           <AbschnittKopf eyebrow="Funktionen" titel="Was MengenWerk für Sie erledigt." />
           <div className="grid sm:grid-cols-2 gap-x-10">
             {FUNKTIONEN.map((f, i) => (
-              <div key={f.titel} className="border-t border-[#d5c9b5] py-6">
-                <p className="font-mono text-[11px] text-[#c2562f] mb-2">{String(i + 1).padStart(2, "0")}</p>
+              <div key={f.titel} className="border-t border-[#c8d4da] py-6">
+                <p className="font-mono text-[11px] text-[#0f5c78] mb-2">{String(i + 1).padStart(2, "0")}</p>
                 <h3 className="font-display text-[1.2rem] mb-2">{f.titel}</h3>
-                <p className="text-sm leading-relaxed text-[#6e665b]">{f.text}</p>
+                <p className="text-sm leading-relaxed text-[#5d6b78]">{f.text}</p>
               </div>
             ))}
           </div>
@@ -269,10 +269,10 @@ export default function Home() {
             </Karte>
           ))}
         </div>
-        <div className="mt-14 rounded-2xl border border-[#e8e0d2] bg-[#fffdf9] p-8 md:p-10 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+        <div className="mt-14 rounded-2xl border border-[#dde6ea] bg-[#ffffff] p-8 md:p-10 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div className="max-w-xl">
-            <h2 className="font-display font-medium tracking-tight text-2xl">Sehen Sie sich ein echtes Ergebnis an.</h2>
-            <p className="mt-3 text-sm text-[#6e665b] leading-relaxed">
+            <h2 className="font-display font-semibold tracking-tight text-2xl">Sehen Sie sich ein echtes Ergebnis an.</h2>
+            <p className="mt-3 text-sm text-[#5d6b78] leading-relaxed">
               Ein vollständiger Massenauszug für ein Einfamilienhaus mit allen Positionen, Rechenwegen und markierten
               Annahmen.
             </p>
@@ -285,14 +285,14 @@ export default function Home() {
       <Abschnitt ton="grau">
         <div className="grid lg:grid-cols-[0.8fr_1.2fr] gap-14">
           <AbschnittKopf eyebrow="Fragen" titel="Häufige Fragen" />
-          <div className="border-t border-[#d5c9b5]">
+          <div className="border-t border-[#c8d4da]">
             {FAQ.map(({ f, a }) => (
-              <details key={f} className="group border-b border-[#d5c9b5] py-5">
+              <details key={f} className="group border-b border-[#c8d4da] py-5">
                 <summary className="flex items-center justify-between gap-6 cursor-pointer list-none font-display text-[1.15rem]">
                   {f}
-                  <span className="text-[#c2562f] group-open:rotate-45 transition-transform text-2xl leading-none">+</span>
+                  <span className="text-[#0f5c78] group-open:rotate-45 transition-transform text-2xl leading-none">+</span>
                 </summary>
-                <p className="mt-3 text-sm text-[#6e665b] leading-relaxed max-w-2xl">{a}</p>
+                <p className="mt-3 text-sm text-[#5d6b78] leading-relaxed max-w-2xl">{a}</p>
               </details>
             ))}
           </div>

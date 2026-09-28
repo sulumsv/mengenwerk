@@ -7,7 +7,7 @@ import { Abschnitt, SeitenHero } from "@/components/Marketing";
 const ZIEL = "office@msv-digital.com";
 
 const feld =
-  "w-full rounded-lg border border-[#d5c9b5] bg-white px-3.5 py-2.5 text-sm text-[#231f1a] placeholder:text-[#bdb3a4] outline-none focus:border-[#231f1a] transition";
+  "w-full rounded-lg border border-[#c8d4da] bg-white px-3.5 py-2.5 text-sm text-[#16202a] placeholder:text-[#b3bec8] outline-none focus:border-[#16202a] transition";
 
 export default function DemoPage() {
   const [daten, setDaten] = useState({ name: "", firma: "", email: "", telefon: "", rolle: "", nachricht: "" });
@@ -29,7 +29,7 @@ export default function DemoPage() {
   }
 
   return (
-    <main className="flex-1 bg-[#fbf8f3]">
+    <main className="flex-1 bg-[#f6f9fa]">
       <SiteNav />
       <SeitenHero
         eyebrow="Demo anfragen"
@@ -38,7 +38,7 @@ export default function DemoPage() {
       />
       <Abschnitt>
         <div className="grid lg:grid-cols-[1.3fr_1fr] gap-12">
-          <form onSubmit={absenden} className="rounded-2xl border border-[#e8e0d2] bg-white p-7 md:p-9 space-y-4">
+          <form onSubmit={absenden} className="rounded-2xl border border-[#dde6ea] bg-white p-7 md:p-9 space-y-4">
             <div className="grid sm:grid-cols-2 gap-4">
               <Feld label="Name *">
                 <input required className={feld} value={daten.name} onChange={setze("name")} placeholder="Vor- und Nachname" />
@@ -74,11 +74,11 @@ export default function DemoPage() {
             </Feld>
             <button
               type="submit"
-              className="rounded-full bg-[#c2562f] text-white font-semibold text-sm px-6 py-3 hover:bg-[#a8461f] transition"
+              className="rounded-full bg-[#0f5c78] text-white font-semibold text-sm px-6 py-3 hover:bg-[#0b475d] transition"
             >
               Demo anfragen →
             </button>
-            <p className="text-xs text-[#9a9184]">Öffnet Ihr E-Mail-Programm mit der vorbereiteten Anfrage an {ZIEL}.</p>
+            <p className="text-xs text-[#8b98a4]">Öffnet Ihr E-Mail-Programm mit der vorbereiteten Anfrage an {ZIEL}.</p>
           </form>
 
           <div className="space-y-6">
@@ -89,10 +89,10 @@ export default function DemoPage() {
               ["Unverbindlich", "Kein Abo, kein Vertrag. Sie entscheiden danach in Ruhe."],
             ].map(([t, x]) => (
               <div key={t} className="flex gap-3">
-                <span className="mt-1 h-5 w-5 shrink-0 rounded-full bg-[#c2562f] text-[#231f1a] text-xs flex items-center justify-center font-bold">✓</span>
+                <span className="mt-1 h-5 w-5 shrink-0 rounded-full bg-[#0f5c78] text-[#16202a] text-xs flex items-center justify-center font-bold">✓</span>
                 <div>
                   <p className="font-semibold text-[15px]">{t}</p>
-                  <p className="text-sm text-[#6e665b] leading-relaxed">{x}</p>
+                  <p className="text-sm text-[#5d6b78] leading-relaxed">{x}</p>
                 </div>
               </div>
             ))}
@@ -107,7 +107,7 @@ export default function DemoPage() {
 function Feld({ label, children }: { label: string; children: React.ReactNode }) {
   return (
     <label className="block">
-      <span className="block text-xs font-medium text-[#6e665b] mb-1.5">{label}</span>
+      <span className="block text-xs font-medium text-[#5d6b78] mb-1.5">{label}</span>
       {children}
     </label>
   );

@@ -166,6 +166,28 @@ pruefe("Kleinstnassraum ergibt keine negative Menge", () => {
   }
 });
 
+pruefe("Folgemengen aus Fenstern und Türen", () => {
+  const oeffnungen = [
+    el("fenster", "Fenster", 1.20, 1.40, { anzahl: 3 }),
+    el("fenster", "Fenster", 0.90, 1.20, { anzahl: 2 }),
+    el("fenster", "Sektionaltor", 5.00, 2.25, { anzahl: 1 }),
+    el("tuer", "Innentür", 0.90, 2.20, { anzahl: 10 }),
+  ];
+  const a = baueMassenauszug([], oeffnungen, leererKontext);
+  const pos = a.abschnitte.flatMap((x) => x.positionen);
+  const soll: [string, number][] = [
+    ["Fensterbank innen", 5.4],
+    ["Fensterbank außen", 5.4],
+    ["Fensterlaibungen", 18.6],
+    ["Anschlussfuge Fenstermontage", 24.0],
+    ["Türzargen", 10],
+  ];
+  for (const [name, wert] of soll) {
+    const ist = pos.find((p) => p.bezeichnung === name)?.menge ?? null;
+    if (ist === null || Math.abs(ist - wert) > 0.01) throw new Error(`${name}: ist ${ist}, soll ${wert}`);
+  }
+});
+
 pruefe("Summenposition nennt nur tatsächlich genutzte Annahmen", () => {
   const nurStuetze = baueMassenauszug([], [elemente[0]], leererKontext);
   const gesamt = nurStuetze.abschnitte.flatMap((x) => x.positionen).find((p) => p.bezeichnung === "Beton gesamt");

@@ -913,6 +913,68 @@ function abschnittOeffnungen(elemente: DetectedElement[]): Abschnitt {
     });
   }
 
+  const istTorElement = (e: DetectedElement) => /tor\b|sektionaltor|garagentor/i.test(e.label);
+  const fenster = relevant.filter((e) => e.type === "fenster" && !istTorElement(e));
+  const tueren = relevant.filter((e) => e.type === "tuer" && !istTorElement(e));
+
+  if (fenster.length > 0) {
+    const stueck = summe(fenster.map((e) => e.anzahl));
+    const breiten = summe(fenster.map((e) => e.breite_m * e.anzahl));
+    const laibung = summe(fenster.map((e) => (2 * e.hoehe_m + e.breite_m) * e.anzahl));
+    const umfang = summe(fenster.map((e) => 2 * (e.breite_m + e.hoehe_m) * e.anzahl));
+    const eingang = fenster.map((e) => e.konfidenz);
+
+    s.add({
+      bezeichnung: "Fensterbank innen",
+      detail: `${stueck} Fenster, Länge = lichte Fensterbreite`,
+      rechenweg: `Σ Breite × Anzahl = ${z(breiten)} lfm`,
+      menge: breiten,
+      einheit: "lfm",
+      eingang,
+      preis: "fensterbankInnen",
+    });
+    s.add({
+      bezeichnung: "Fensterbank außen",
+      detail: "Länge = lichte Fensterbreite, seitliche Aufkantung nicht enthalten",
+      rechenweg: `Σ Breite × Anzahl = ${z(breiten)} lfm`,
+      menge: breiten,
+      einheit: "lfm",
+      eingang,
+      preis: "fensterbankAussen",
+    });
+    s.add({
+      bezeichnung: "Fensterlaibungen",
+      detail: "zwei Seiten und Sturz je Fenster, für Laibungsputz und Kantenschutz",
+      rechenweg: `Σ (2 × Höhe + Breite) × Anzahl = ${z(laibung)} lfm`,
+      menge: laibung,
+      einheit: "lfm",
+      eingang,
+      preis: "laibung",
+    });
+    s.add({
+      bezeichnung: "Anschlussfuge Fenstermontage",
+      detail: "umlaufend, für Dichtband innen und außen",
+      rechenweg: `Σ 2 × (Breite + Höhe) × Anzahl = ${z(umfang)} lfm`,
+      menge: umfang,
+      einheit: "lfm",
+      eingang,
+      preis: "anschlussfuge",
+    });
+  }
+
+  if (tueren.length > 0) {
+    const stueck = summe(tueren.map((e) => e.anzahl));
+    s.add({
+      bezeichnung: "Türzargen",
+      detail: "eine Zarge je Tür, im Türpreis enthalten",
+      zwischenwert: true,
+      rechenweg: `${stueck} Stk`,
+      menge: stueck,
+      einheit: "Stk",
+      eingang: tueren.map((e) => e.konfidenz),
+    });
+  }
+
   return {
     nummer: 7,
     titel: "Fenster & Türen",

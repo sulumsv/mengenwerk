@@ -32,7 +32,7 @@ function LoginForm() {
   }
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-[#f5f8fa] px-6 text-[#16202a]">
+    <main className="min-h-screen flex items-center justify-center bg-[#f5f8fa] px-6 text-[#2b2d33]">
       <div className="w-full max-w-sm rounded-2xl border border-[#dde6ea] bg-white p-7 shadow-[0_2px_12px_rgba(0,0,0,0.04)]">
         <Link href="/">
           <Logo />
@@ -41,7 +41,7 @@ function LoginForm() {
 
         <div className="mt-6 grid grid-cols-2 rounded-lg bg-[#f7f9fb] p-1 text-sm">
           <span className="rounded-md bg-white py-1.5 text-center font-medium shadow-sm">Anmelden</span>
-          <Link href="/demo" className="rounded-md py-1.5 text-center text-[#5d6b78] hover:text-[#16202a]">
+          <Link href="/demo" className="rounded-md py-1.5 text-center text-[#5d6b78] hover:text-[#2b2d33]">
             Zugang anfragen
           </Link>
         </div>
@@ -53,13 +53,13 @@ function LoginForm() {
             placeholder="Passwort"
             value={passwort}
             onChange={(e) => setPasswort(e.target.value)}
-            className="w-full rounded-lg border border-[#c8d4da] px-3.5 py-2.5 text-sm placeholder:text-[#b3bec8] outline-none focus:border-[#16202a] transition"
+            className="w-full rounded-lg border border-[#c8d4da] px-3.5 py-2.5 text-sm placeholder:text-[#b3bec8] outline-none focus:border-[#2b2d33] transition"
           />
           {fehler && <p className="text-sm text-[#c2412d]">Falsches Passwort.</p>}
           <button
             type="submit"
             disabled={laedt || !passwort}
-            className="w-full rounded-lg bg-[#d9822b] text-white font-medium text-sm py-2.5 hover:bg-[#b86a1c] disabled:opacity-40 transition"
+            className="w-full rounded-lg bg-[#1f2a44] text-white font-medium text-sm py-2.5 hover:bg-[#141c30] disabled:opacity-40 transition"
           >
             {laedt ? "Prüfe …" : "Anmelden"}
           </button>

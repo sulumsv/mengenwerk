@@ -15,7 +15,7 @@ function Grundriss() {
         <svg viewBox="0 0 400 250" className="absolute inset-0 h-full w-full text-white" fill="none" stroke="currentColor">
           <rect x="30" y="22" width="340" height="190" strokeWidth="5" />
           <path d="M190 22v95M30 117h160M225 117v95M225 117h145" strokeWidth="2.5" />
-          <path d="M80 212h50M300 22h40M30 55v35M370 150v40" stroke="#ffc47a" strokeWidth="6" />
+          <path d="M80 212h50M300 22h40M30 55v35M370 150v40" stroke="#d2a86e" strokeWidth="6" />
           <path d="M30 232h340M30 226v12M370 226v12" strokeWidth="1" opacity="0.7" />
           <text x="200" y="246" fontSize="10" fill="#ffffff" stroke="none" textAnchor="middle" opacity="0.85">12,10 m</text>
           <path d="M386 22v190M380 22h12M380 212h12" strokeWidth="1" opacity="0.7" />
@@ -23,7 +23,7 @@ function Grundriss() {
             8,40 m
           </text>
         </svg>
-        <div className="scan-linie absolute inset-y-0 w-24 bg-gradient-to-r from-transparent via-[#ffc47a]/40 to-transparent" />
+        <div className="scan-linie absolute inset-y-0 w-24 bg-gradient-to-r from-transparent via-[#d2a86e]/40 to-transparent" />
         {MARKEN.map((m) => (
           <span
             key={m.t}
@@ -31,14 +31,14 @@ function Grundriss() {
             style={{ left: m.x, top: m.y, animationDelay: m.d }}
           >
             <span className="block text-[#5d6b78]">{m.t}</span>
-            <span className="block font-semibold text-[#16202a]">{m.m}</span>
+            <span className="block font-semibold text-[#2b2d33]">{m.m}</span>
           </span>
         ))}
       </div>
-      <div className="marke absolute -right-3 -bottom-5 md:-right-10 rounded-xl bg-[#16202a] px-4 py-3 text-white shadow-xl" style={{ animationDelay: "4.8s" }}>
+      <div className="marke absolute -right-3 -bottom-5 md:-right-10 rounded-xl bg-[#2b2d33] px-4 py-3 text-white shadow-xl" style={{ animationDelay: "4.8s" }}>
         <p className="text-[10px] text-white/60">Mauerwerk 25 cm</p>
         <p className="text-lg font-semibold">142,40 m²</p>
-        <p className="text-[10px] text-[#ffc47a]">44,5 m × 3,20 m</p>
+        <p className="text-[10px] text-[#d2a86e]">44,5 m × 3,20 m</p>
       </div>
     </div>
   );

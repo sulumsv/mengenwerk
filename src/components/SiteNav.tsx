@@ -24,7 +24,7 @@ const WERKZEUGE = [
 
 export function SiteFooter() {
   return (
-    <footer className="bg-[#f5f8fa] text-[#16202a]">
+    <footer className="bg-[#f5f8fa] text-[#2b2d33]">
       <div className="max-w-6xl mx-auto px-6 md:px-10 py-16 grid md:grid-cols-[1.6fr_1fr_1fr] gap-12">
         <div>
           <Logo />
@@ -32,7 +32,7 @@ export function SiteFooter() {
             KI-gestützte Mengenermittlung für österreichische Baubetriebe. Vom Einreichplan zum Massenauszug nach
             LB-HB 023, mit sichtbarem Rechenweg.
           </p>
-          <a href="mailto:office@msv-digital.com" className="mt-5 inline-block text-sm font-medium text-[#d9822b] hover:underline">
+          <a href="mailto:office@msv-digital.com" className="mt-5 inline-block text-sm font-medium text-[#1f2a44] hover:underline">
             office@msv-digital.com
           </a>
         </div>
@@ -43,9 +43,9 @@ export function SiteFooter() {
         <div className="max-w-6xl mx-auto px-6 md:px-10 py-6 flex flex-col sm:flex-row gap-3 sm:justify-between text-xs text-[#8b98a4]">
           <p>© {new Date().getFullYear()} MengenWerk · Gebaut für Baubetriebe in Österreich</p>
           <div className="flex gap-5">
-            <Link href="/impressum" className="hover:text-[#16202a]">Impressum</Link>
-            <Link href="/datenschutz" className="hover:text-[#16202a]">Datenschutz</Link>
-            <Link href="/kontakt" className="hover:text-[#16202a]">Kontakt</Link>
+            <Link href="/impressum" className="hover:text-[#2b2d33]">Impressum</Link>
+            <Link href="/datenschutz" className="hover:text-[#2b2d33]">Datenschutz</Link>
+            <Link href="/kontakt" className="hover:text-[#2b2d33]">Kontakt</Link>
           </div>
         </div>
       </div>
@@ -60,7 +60,7 @@ function FooterSpalte({ titel, links }: { titel: string; links: { href: string; 
       <ul className="space-y-2.5">
         {links.map((l) => (
           <li key={l.href}>
-            <Link href={l.href} className="text-sm text-[#34424f] hover:text-[#d9822b]">
+            <Link href={l.href} className="text-sm text-[#34424f] hover:text-[#1f2a44]">
               {l.label}
             </Link>
           </li>

@@ -45,11 +45,11 @@ export default function PreisePage() {
             <div
               key={p.eyebrow}
               className={`rounded-2xl border p-7 flex flex-col ${
-                p.hervorgehoben ? "border-[#16202a] border-2 bg-[#fdf5ea]" : "border-[#dde6ea] bg-white"
+                p.hervorgehoben ? "border-[#2b2d33] border-2 bg-[#faf6ef]" : "border-[#dde6ea] bg-white"
               }`}
             >
-              <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#d9822b]">{p.eyebrow}</p>
-              <p className="mt-4 font-display font-extrabold tracking-tight text-[2.5rem] leading-none text-[#16202a]">
+              <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#1f2a44]">{p.eyebrow}</p>
+              <p className="mt-4 font-display font-extrabold tracking-tight text-[2.5rem] leading-none text-[#2b2d33]">
                 {p.preis}
                 {p.zusatz && <span className="ml-2 font-body font-normal text-sm text-[#5d6b78]">{p.zusatz}</span>}
               </p>
@@ -57,7 +57,7 @@ export default function PreisePage() {
               <ul className="mt-6 space-y-2.5 flex-1 text-sm text-[#34424f]">
                 {p.merkmale.map((m) => (
                   <li key={m} className="flex gap-2.5">
-                    <span className="text-[#d9822b]">✓</span>
+                    <span className="text-[#1f2a44]">✓</span>
                     {m}
                   </li>
                 ))}
@@ -66,7 +66,7 @@ export default function PreisePage() {
                 {p.hervorgehoben ? (
                   <Link
                     href={p.cta.href}
-                    className="inline-flex rounded-full bg-[#d9822b] text-white font-semibold text-sm px-6 py-3 hover:bg-[#b86a1c] transition"
+                    className="inline-flex rounded-full bg-[#1f2a44] text-white font-semibold text-sm px-6 py-3 hover:bg-[#141c30] transition"
                   >
                     {p.cta.label}
                   </Link>

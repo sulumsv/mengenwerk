@@ -32,14 +32,14 @@ function LoginForm() {
   }
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-[#e9eff2] px-6 text-[#16202a]">
+    <main className="min-h-screen flex items-center justify-center bg-[#f5f8fa] px-6 text-[#16202a]">
       <div className="w-full max-w-sm rounded-2xl border border-[#dde6ea] bg-white p-7 shadow-[0_2px_12px_rgba(0,0,0,0.04)]">
         <Link href="/">
           <Logo />
         </Link>
         <p className="mt-2 text-sm text-[#5d6b78]">Einreichplan → Massenauszug nach LB-HB 023</p>
 
-        <div className="mt-6 grid grid-cols-2 rounded-lg bg-[#f0f4f6] p-1 text-sm">
+        <div className="mt-6 grid grid-cols-2 rounded-lg bg-[#f7f9fb] p-1 text-sm">
           <span className="rounded-md bg-white py-1.5 text-center font-medium shadow-sm">Anmelden</span>
           <Link href="/demo" className="rounded-md py-1.5 text-center text-[#5d6b78] hover:text-[#16202a]">
             Zugang anfragen
@@ -59,7 +59,7 @@ function LoginForm() {
           <button
             type="submit"
             disabled={laedt || !passwort}
-            className="w-full rounded-lg bg-[#0f5c78] text-white font-medium text-sm py-2.5 hover:bg-[#0b475d] disabled:opacity-40 transition"
+            className="w-full rounded-lg bg-[#3a8fc2] text-white font-medium text-sm py-2.5 hover:bg-[#2f78a6] disabled:opacity-40 transition"
           >
             {laedt ? "Prüfe …" : "Anmelden"}
           </button>

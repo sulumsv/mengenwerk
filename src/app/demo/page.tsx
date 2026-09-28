@@ -29,7 +29,7 @@ export default function DemoPage() {
   }
 
   return (
-    <main className="flex-1 bg-[#f6f9fa]">
+    <main className="flex-1 bg-[#ffffff]">
       <SiteNav />
       <SeitenHero
         eyebrow="Demo anfragen"
@@ -74,7 +74,7 @@ export default function DemoPage() {
             </Feld>
             <button
               type="submit"
-              className="rounded-full bg-[#0f5c78] text-white font-semibold text-sm px-6 py-3 hover:bg-[#0b475d] transition"
+              className="rounded-full bg-[#3a8fc2] text-white font-semibold text-sm px-6 py-3 hover:bg-[#2f78a6] transition"
             >
               Demo anfragen →
             </button>
@@ -89,7 +89,7 @@ export default function DemoPage() {
               ["Unverbindlich", "Kein Abo, kein Vertrag. Sie entscheiden danach in Ruhe."],
             ].map(([t, x]) => (
               <div key={t} className="flex gap-3">
-                <span className="mt-1 h-5 w-5 shrink-0 rounded-full bg-[#0f5c78] text-[#16202a] text-xs flex items-center justify-center font-bold">✓</span>
+                <span className="mt-1 h-5 w-5 shrink-0 rounded-full bg-[#3a8fc2] text-[#16202a] text-xs flex items-center justify-center font-bold">✓</span>
                 <div>
                   <p className="font-semibold text-[15px]">{t}</p>
                   <p className="text-sm text-[#5d6b78] leading-relaxed">{x}</p>

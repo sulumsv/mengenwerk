@@ -73,7 +73,7 @@ function nw(kontext: PlanKontext, id: string): number | null {
 }
 
 /**
- * Geschoße gehören in Bauordnung sortiert, nicht alphabetisch — sonst steht das
+ * Geschoße gehören in Bauordnung sortiert, nicht alphabetisch, sonst steht das
  * Dachgeschoß vor dem Erdgeschoß. Zwischenzahlen ("2. OG") ordnen innerhalb
  * ihrer Ebene.
  */
@@ -182,7 +182,7 @@ function abschnittErdarbeiten(kontext: PlanKontext, genutzt: Set<AnnahmeId>): Ab
 
   if (bebaut !== null) {
     // Ohne bemaßte Gründungssohle bleibt nur die angenommene Plattenstärke als
-    // Aushubtiefe — das unterschätzt den Aushub, weil Rollierung und
+    // Aushubtiefe, das unterschätzt den Aushub, weil Rollierung und
     // Sauberkeitsschicht fehlen. Deshalb als Annahme geführt.
     const tiefe = sohle !== null ? Math.abs(sohle) : wert("bodenplattenstaerke");
     const ausNachweis = sohle !== null;
@@ -266,7 +266,7 @@ function abschnittBoden(raeume: Raum[], genutzt: Set<AnnahmeId>): Abschnitt {
     const dichte = wert("estrichRohdichte");
     genutzt.add("estrichRohdichte");
     s.add({
-      bezeichnung: "Estrich — Liefermasse",
+      bezeichnung: "Estrich, Liefermasse",
       detail: `Rohdichte ${z(dichte, 0)} kg/m³`,
       rechenweg: `${z(volumen)} m³ × ${z(dichte, 0)} kg/m³ = ${z(volumen * dichte, 0)} kg`,
       menge: (volumen * dichte) / 1000,
@@ -371,7 +371,7 @@ function abschnittRohbau(
   const s = new Sammler(3);
   const betonVolumina: number[] = [];
   // Nur die Annahmen aufführen, die in eine tatsächlich gebildete Betonposition
-  // eingeflossen sind — sonst behauptet die Summe Annahmen, die es nicht gab.
+  // eingeflossen sind, sonst behauptet die Summe Annahmen, die es nicht gab.
   const betonAnnahmen = new Set<AnnahmeId>();
 
   const eg = findeNachweis(kontext, suchbegriffe("bgfErdgeschoss"));
@@ -465,7 +465,7 @@ function abschnittRohbau(
     genutzt.add("bewehrungsgrad");
     s.add({
       bezeichnung: "Bewehrung",
-      detail: `${z(grad, 0)} kg/m³ Erfahrungswert — Statik maßgeblich`,
+      detail: `${z(grad, 0)} kg/m³ Erfahrungswert, Statik maßgeblich`,
       rechenweg: `${z(gesamt)} m³ × ${z(grad, 0)} kg/m³ = ${z(gesamt * grad, 0)} kg`,
       menge: (gesamt * grad) / 1000,
       einheit: "t",
@@ -610,7 +610,7 @@ function abschnittFassade(
       titel: "Fassade & Gerüst",
       lgHinweis: "LG 23",
       vorspann:
-        "Die Fassadenabwicklung ist vom Planverfasser nachgewiesen und muss nicht rekonstruiert werden — die verlässlichste Großposition im Plansatz.",
+        "Die Fassadenabwicklung ist vom Planverfasser nachgewiesen und muss nicht rekonstruiert werden, die verlässlichste Großposition im Plansatz.",
       positionen: s.liste,
     },
     brutto,
@@ -671,7 +671,7 @@ function abschnittDach(kontext: PlanKontext): Abschnitt {
 
     s.add({
       bezeichnung: "Dachkonstruktion Holz",
-      detail: "Sparren, Pfetten und First — Querschnitte laut Statik",
+      detail: "Sparren, Pfetten und First, Querschnitte laut Statik",
       rechenweg: "= Dachfläche geneigt",
       menge: geneigt,
       einheit: "m2",
@@ -916,7 +916,7 @@ function abschnittOeffnungen(elemente: DetectedElement[]): Abschnitt {
   return {
     nummer: 7,
     titel: "Fenster & Türen",
-    lgHinweis: "LG 37 · 43 · 71–75",
+    lgHinweis: "LG 37 · 43 · 71-75",
     vorspann:
       relevant.length > 0
         ? "Stückzahlen aus Grundrissen und Ansichten gezählt. Ohne Fenster- und Türliste bleiben sie zu verifizieren."
@@ -938,7 +938,7 @@ function pruefpunkte(raeume: Raum[], kontext: PlanKontext): string[] {
     const differenz = runde(Math.abs(ausweis - beheizt));
     if (differenz > 0.05) {
       punkte.push(
-        `Summe der beheizten Raumflächen: ${z(beheizt)} m². Nachweis: ${z(ausweis)} m². Differenz ${z(differenz)} m² — vor Ausschreibung klären.`,
+        `Summe der beheizten Raumflächen: ${z(beheizt)} m². Nachweis: ${z(ausweis)} m². Differenz ${z(differenz)} m², vor Ausschreibung klären.`,
       );
     }
   }
@@ -1073,7 +1073,7 @@ function baue(raeume: Raum[], elemente: DetectedElement[], kontext: PlanKontext)
     "Dachfläche geneigt",
     "Innenputz Wand brutto",
     "Malerei Wand + Decke",
-    "Estrich — Liefermasse",
+    "Estrich, Liefermasse",
     "Fußbodenheizung",
   ]
     .map((name) => alle.find((p) => p.bezeichnung === name))

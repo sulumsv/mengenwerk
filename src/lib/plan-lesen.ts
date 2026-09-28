@@ -8,7 +8,7 @@ import type { Konfidenz, PlanKontext, Raum } from "./types";
  *
  * Ein Einreichplan aus einem CAD-Programm enthält seine Beschriftungen als
  * echten Text mit Koordinaten: Raumstempel, Flächennachweise, Dachneigung.
- * Genau diese Werte sind die Grundlage der Mengenermittlung — sie lassen sich
+ * Genau diese Werte sind die Grundlage der Mengenermittlung, sie lassen sich
  * daher direkt auslesen, ohne den Plan anzusehen.
  *
  * Das funktioniert nicht bei eingescannten Plänen: dort ist alles Bild und die
@@ -33,7 +33,7 @@ export interface Leseergebnis {
   seiten: number;
   /**
    * Ob dem Gelesenen zu trauen ist. Ein Auszug aus falsch zugeordneten Zahlen
-   * sieht genauso fertig aus wie ein richtiger — deshalb wird lieber nichts
+   * sieht genauso fertig aus wie ein richtiger, deshalb wird lieber nichts
    * gezeigt als etwas Falsches.
    */
   verlaesslich: boolean;
@@ -56,7 +56,7 @@ function beurteile(
     return {
       verlaesslich: false,
       grund:
-        "Der Plan enthält überhaupt keinen Text, sondern nur ein Bild — er ist eingescannt oder als Bild exportiert. " +
+        "Der Plan enthält überhaupt keinen Text, sondern nur ein Bild, er ist eingescannt oder als Bild exportiert. " +
         "Daraus lässt sich ohne Bilderkennung nichts lesen.",
     };
   }
@@ -118,7 +118,7 @@ export function gleicheWohnnutzflaecheAb(
 ): { raeume: Raum[]; hinweis?: string } {
   if (!ausweis || ausweis <= 0) return { raeume };
 
-  // Ein einzelner Raum kann nicht größer sein als die ganze Wohnnutzfläche —
+  // Ein einzelner Raum kann nicht größer sein als die ganze Wohnnutzfläche -
   // solche Werte sind Fehlzuordnungen (z.B. Grundstücksfläche aus dem Nachweis).
   const plausibel = raeume.filter((r) => r.flaeche_m2 <= ausweis * 1.05);
   const summe = (rs: Raum[]) => rs.filter((r) => r.beheizt).reduce((s, r) => s + r.flaeche_m2, 0);
@@ -176,7 +176,7 @@ function zahl(roh: string): number | null {
   return Number.isFinite(wert) ? wert : null;
 }
 
-/** "60,29 m²" — die Flächenangabe eines Raumstempels. */
+/** "60,29 m²", die Flächenangabe eines Raumstempels. */
 const FLAECHE = /^([\d.,\s ]+)\s*m[²2]$/i;
 
 /** Belagsangaben, wie sie in Raumstempeln vorkommen. */
@@ -195,7 +195,7 @@ function istBelag(text: string): boolean {
 const KEIN_RAUMNAME =
   /^(m[²2]|±|\+|-|ca\.?|abs\.?|gem\.?|lt\.?|nach|bzw\.?|und|oder|der|die|das|von|bis|max\.?|min\.?)$/i;
 
-/** "14,26 m", "35,00°", "2,80 m²" — eine Maßangabe, kein Raumname. */
+/** "14,26 m", "35,00°", "2,80 m²", eine Maßangabe, kein Raumname. */
 const MASSANGABE = /^[\d.,\s\u00a0]+\s*(m[²2³3]?|cm|mm|°|grad|%|stk|stück)?\.?$/i;
 
 export function istRaumname(text: string): boolean {
@@ -333,7 +333,7 @@ function findeRaeume(schnipsel: Schnipsel[], geschoss: string, blatt: number): R
     );
 
     // Raumname suchen: zuerst oberhalb der Flächenangabe (häufigste Lage),
-    // dann unterhalb als Fallback — ArchiCAD und andere CAD-Programme legen
+    // dann unterhalb als Fallback, ArchiCAD und andere CAD-Programme legen
     // den Namen manchmal darunter.
     const namenKandidaten = nah.filter((s) => istRaumname(s.text));
     const darueber = namenKandidaten
@@ -388,7 +388,7 @@ function findeNachweise(zeilen: Schnipsel[]): Record<string, number> {
     const begriffe = suchbegriffe(definition.id);
 
     // Alle Zeilen sammeln, die den Begriff enthalten, und die engste nehmen.
-    // "Bebaute Fläche" steckt auch in "Bebaute Fläche in Abstandsflächen" —
+    // "Bebaute Fläche" steckt auch in "Bebaute Fläche in Abstandsflächen" -
     // ohne diese Wertung gewinnt die erstbeste, nicht die gemeinte Zeile.
     const kandidaten = zeilen
       .filter((z) => !vergeben.has(z))
@@ -500,7 +500,7 @@ export async function lesePlanAusText(
     const hinweise: string[] = [];
     if (gesamtSchnipsel === 0) {
       hinweise.push(
-        "Der Plan enthält keine Textebene — er ist vermutlich eingescannt. Direkt auslesen lässt er sich deshalb nicht.",
+        "Der Plan enthält keine Textebene, er ist vermutlich eingescannt. Direkt auslesen lässt er sich deshalb nicht.",
       );
     } else {
       hinweise.push(

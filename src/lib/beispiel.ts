@@ -20,7 +20,7 @@ const r = (
   konfidenz: "plan", quelle: "Raumstempel",
 });
 
-// Torricelligasse 29 — Räume laut Raumstempel der Einreichpläne.
+// Torricelligasse 29, Räume laut Raumstempel der Einreichpläne.
 export const BEISPIEL_RAEUME: Raum[] = [
   r("EG", "Wohnküche", 60.29, "Parkett", { l: 9.80, b: 6.15 }),
   r("EG", "Gang", 6.81, "Parkett", { l: 2.40, b: 2.84 }),

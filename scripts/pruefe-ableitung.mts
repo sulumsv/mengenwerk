@@ -25,7 +25,7 @@ const r = (
   konfidenz: "plan", quelle: "Raumstempel",
 });
 
-// Torricelligasse 29 — Räume laut Raumstempel der Einreichpläne.
+// Torricelligasse 29, Räume laut Raumstempel der Einreichpläne.
 const raeume: Raum[] = [
   r("EG", "Wohnküche", 60.29, "Parkett", { l: 9.80, b: 6.15 }),
   r("EG", "Gang", 6.81, "Parkett", { l: 2.40, b: 2.84 }),
@@ -88,9 +88,9 @@ const m = baueMassenauszug(raeume, elemente, kontext);
 
 const grau = "\x1b[90m", reset = "\x1b[0m", fett = "\x1b[1m";
 for (const a of m.abschnitte) {
-  console.log(`\n${fett}${a.nummer} — ${a.titel}${reset} ${grau}${a.lgHinweis}${reset}`);
+  console.log(`\n${fett}${a.nummer}. ${a.titel}${reset} ${grau}${a.lgHinweis}${reset}`);
   for (const p of a.positionen) {
-    const menge = p.menge === null ? "—" : p.menge.toFixed(2).replace(".", ",");
+    const menge = p.menge === null ? "-" : p.menge.toFixed(2).replace(".", ",");
     const flag = { plan: "▪", berechnet: "▫", annahme: "△" }[p.konfidenz];
     console.log(`  ${flag} ${p.nummer.padEnd(5)} ${p.bezeichnung.padEnd(34)} ${menge.padStart(10)} ${p.einheit.padEnd(4)} ${grau}${p.rechenweg}${reset}`);
   }
@@ -115,7 +115,7 @@ const erwartet: [string, number | null, number][] = [
   ["Stein", finde("Stein"), 45.25],
   ["Dielen", finde("Dielen"), 12.93],
   ["Heizestrich CT-C25-F4", finde("Heizestrich CT-C25-F4"), 15.68],
-  ["Estrich — Liefermasse", finde("Estrich — Liefermasse"), 34.50],
+  ["Estrich, Liefermasse", finde("Estrich, Liefermasse"), 34.50],
   ["Fassadenfläche brutto", finde("Fassadenfläche brutto"), 391.80],
   ["Fußbodenheizung", finde("Fußbodenheizung"), 222.05],
 ];
@@ -420,7 +420,7 @@ pruefe("Kein Nachweisname verdeckt einen anderen", () => {
   const a = baueMassenauszug([], [], kontext2);
   const platte = a.abschnitte.flatMap((x) => x.positionen).find((p) => p.bezeichnung === "Bodenplatte");
   if (!platte || Math.abs(platte.menge! - 143.13 * 0.25) > 0.01) {
-    throw new Error(`Bodenplatte ${platte?.menge} statt ${(143.13 * 0.25).toFixed(2)} — falscher Nachweis getroffen`);
+    throw new Error(`Bodenplatte ${platte?.menge} statt ${(143.13 * 0.25).toFixed(2)}, falscher Nachweis getroffen`);
   }
 });
 
@@ -489,7 +489,7 @@ pruefe("Gescheiterte Aufrufe zählen nicht mit", () => {
 });
 
 pruefe("Kleinstbeträge verschwinden nicht in der Rundung", () => {
-  // 0,003 USD auf zwei Stellen gerundet wäre "0,00" — und damit die Aussage,
+  // 0,003 USD auf zwei Stellen gerundet wäre "0,00", und damit die Aussage,
   // der Plan sei gratis gewesen.
   const text = formatiereKosten(0.003);
   if (!text.startsWith("0,003")) throw new Error(`"${text}" zeigt den Betrag nicht`);

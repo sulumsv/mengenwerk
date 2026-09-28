@@ -17,7 +17,7 @@ const Schema = z.object({
 });
 
 const ANNAHMEN_LISTE = Object.values(ANNAHMEN)
-  .map((a) => `- ${a.id}: ${a.titel} (Einheit ${a.einheit === "-" ? "Anteil 0–1" : a.einheit})`)
+  .map((a) => `- ${a.id}: ${a.titel} (Einheit ${a.einheit === "-" ? "Anteil 0-1" : a.einheit})`)
   .join("\n");
 
 const SYSTEM = `Du übersetzt Korrekturen eines Bauunternehmers an einer Mengenermittlung in strukturierte Werte.

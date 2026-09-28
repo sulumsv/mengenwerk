@@ -1,14 +1,14 @@
 /**
  * Zählt, was eine Auswertung an API-Kosten verursacht hat.
  *
- * Ein Plansatz wird in mehreren Aufrufen ausgewertet — einer für die
+ * Ein Plansatz wird in mehreren Aufrufen ausgewertet, einer für die
  * übergreifenden Angaben, einer je Blatt. Was das zusammen kostet, steht
  * sonst nur im Anthropic-Konto und dort erst am nächsten Tag. Hier wird es
  * mitgezählt und mit dem Ergebnis ausgegeben, damit nach jedem Plan sichtbar
  * ist, was er gekostet hat.
  *
  * Der Tarif hängt am Modell. Ist für das verwendete Modell keiner hinterlegt,
- * bleiben die Kosten leer und es werden nur die Token gezeigt — eine mit dem
+ * bleiben die Kosten leer und es werden nur die Token gezeigt, eine mit dem
  * falschen Tarif gerechnete Zahl wäre schlimmer als keine.
  */
 

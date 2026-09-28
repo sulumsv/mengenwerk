@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --surface: #f7f6fb;
+  --surface: #fbf8f3;
   --surface-2: #ffffff;
-  --fg: #1c1a33;
-  --fg-muted: #625f7d;
-  --accent: #3a2f9e;
+  --fg: #231f1a;
+  --fg-muted: #6e665b;
+  --accent: #c2562f;
   --accent-fg: #ffffff;
   --alert: #d9483b;
   --alert-fg: #ffffff;
   --highlight: #e0703f;
   --highlight-fg: #ffffff;
-  --line: #e7e4f0;
-  --line-strong: #cfcae0;
+  --line: #e8e0d2;
+  --line-strong: #d5c9b5;
   color-scheme: light;
 }
 
@@ -55,19 +55,17 @@ body {
 }
 
 .bg-himmel {
-  background-color: #f7f6fb;
+  background-color: #f3ede3;
   background-image:
-    radial-gradient(ellipse 70% 60% at 10% 0%, #e2ddfb 0%, transparent 60%),
-    radial-gradient(ellipse 60% 55% at 95% 10%, #fde2d3 0%, transparent 60%),
-    radial-gradient(ellipse 50% 40% at 60% 100%, #ece9fb 0%, transparent 70%);
+    linear-gradient(rgba(35, 31, 26, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(35, 31, 26, 0.045) 1px, transparent 1px);
+  background-size: 28px 28px;
 }
 
 .glas {
-  background: rgba(255, 255, 255, 0.72);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border: 1px solid rgba(255, 255, 255, 0.9);
-  box-shadow: 0 1px 2px rgba(28, 26, 51, 0.04), 0 12px 32px -18px rgba(58, 47, 158, 0.25);
+  background: #fffdf9;
+  border: 1px solid #e8e0d2;
+  box-shadow: 0 1px 0 rgba(35, 31, 26, 0.03);
 }
 
 .font-num {

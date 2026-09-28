@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Archivo, Inter, IBM_Plex_Mono } from "next/font/google";
+import { Fraunces, Inter, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
-const archivo = Archivo({
+const archivo = Fraunces({
   variable: "--font-display",
   subsets: ["latin"],
-  weight: ["700", "800", "900"],
+  style: ["normal", "italic"],
 });
 
 const inter = Inter({

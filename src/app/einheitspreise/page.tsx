@@ -95,7 +95,7 @@ export default function EinheitspreisePage() {
           </p>
           <p className="px-5 py-4 text-sm text-fg-muted">
             Sie sind Platzhalter, damit die Schätzung ab dem ersten Plan etwas liefert. Jede Position im Massenauszug
-            weist aus, ob ihr Betrag auf einem eigenen Preis oder auf einem Richtwert beruht — und die Gesamtsumme
+            weist aus, ob ihr Betrag auf einem eigenen Preis oder auf einem Richtwert beruht. Die Gesamtsumme
             nennt den Anteil, der noch auf fremden Zahlen steht.
           </p>
         </div>
@@ -152,7 +152,7 @@ export default function EinheitspreisePage() {
                     <tbody>
                       {positionen.map((p) => (
                         <tr key={p.schluessel} className="border-t border-line">
-                          <td className="px-4 py-2.5 font-mono text-xs text-fg-muted">{p.lg ?? "—"}</td>
+                          <td className="px-4 py-2.5 font-mono text-xs text-fg-muted">{p.lg ?? "-"}</td>
                           <td className="px-4 py-2.5">
                             {p.bezeichnung}
                             {p.hinweis && <span className="block text-xs text-fg-muted mt-0.5">{p.hinweis}</span>}
@@ -166,7 +166,7 @@ export default function EinheitspreisePage() {
                               inputMode="decimal"
                               min={0}
                               step="0.01"
-                              placeholder="—"
+                              placeholder="-"
                               value={eigene[p.schluessel] ?? ""}
                               onChange={(e) => setzePreis(p.schluessel, e.target.value)}
                               aria-label={`Eigener Preis für ${p.bezeichnung} in Euro je ${EINHEIT_TEXT[p.einheit]}`}

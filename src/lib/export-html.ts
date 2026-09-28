@@ -5,7 +5,7 @@ import { sortiereGeschosse } from "./ableitung";
  * Erzeugt den Massenauszug als eigenständige HTML-Datei.
  *
  * Die Datei trägt ihr Stylesheet in sich und lädt nichts nach, damit sie sich
- * weiterreichen, ablegen und ohne Netz öffnen lässt — und damit sie in zehn
+ * weiterreichen, ablegen und ohne Netz öffnen lässt, und damit sie in zehn
  * Jahren noch so aussieht wie heute.
  */
 
@@ -53,7 +53,7 @@ function raumbuch(raeume: Raum[]): string {
           (r) => `<tr>
   <td>${punkt(r.konfidenz)}</td>
   <td>${esc(r.name)}</td>
-  <td class="matt">${esc(r.belag ?? "—")}</td>
+  <td class="matt">${esc(r.belag ?? "-")}</td>
   <td class="num">${zahl(r.flaeche_m2)} m²</td>
   <td class="num">${zahl(r.umfang_m)} m${r.umfangQuelle === "geschaetzt" ? '<span class="stern">*</span>' : ""}</td>
   <td class="matt">${r.beheizt ? "ja" : "nein"}</td>
@@ -67,7 +67,7 @@ function raumbuch(raeume: Raum[]): string {
   const beheizt = raeume.filter((r) => r.beheizt).reduce((s, r) => s + r.flaeche_m2, 0);
 
   return `<section>
-<h2>1 — Raumbuch</h2>
+<h2>1. Raumbuch</h2>
 <table>
 <thead><tr><th></th><th>Raum</th><th>Belag</th><th class="num">Fläche</th><th class="num">Umfang</th><th>Beheizt</th></tr></thead>
 <tbody>
@@ -79,9 +79,9 @@ ${zeilen}
 }
 
 function positionszeile(p: Position, mitPreisen: boolean): string {
-  const menge = p.menge === null ? "—" : zahl(p.menge);
-  const ep = p.einheitspreis === undefined ? "—" : zahl(p.einheitspreis) + (p.preisQuelle === "richtwert" ? '<span class="stern">*</span>' : "");
-  const betrag = p.betrag === undefined ? (p.zwischenwert ? "—" : "offen") : zahl(p.betrag);
+  const menge = p.menge === null ? "-" : zahl(p.menge);
+  const ep = p.einheitspreis === undefined ? "-" : zahl(p.einheitspreis) + (p.preisQuelle === "richtwert" ? '<span class="stern">*</span>' : "");
+  const betrag = p.betrag === undefined ? (p.zwischenwert ? "-" : "offen") : zahl(p.betrag);
 
   return `<tr>
   <td>${punkt(p.konfidenz)}</td>
@@ -90,7 +90,7 @@ function positionszeile(p: Position, mitPreisen: boolean): string {
   <td class="mono matt klein">${esc(p.rechenweg)}</td>
   <td class="num">${menge}</td>
   <td class="mono matt klein">${EINHEIT_TEXT[p.einheit] ?? esc(p.einheit)}</td>
-${mitPreisen ? `  <td class="num klein">${ep}</td>\n  <td class="num">${betrag}</td>\n` : ""}  <td class="matt klein">${esc(p.lgKandidaten.join(", ") || "—")}</td>
+${mitPreisen ? `  <td class="num klein">${ep}</td>\n  <td class="num">${betrag}</td>\n` : ""}  <td class="matt klein">${esc(p.lgKandidaten.join(", ") || "-")}</td>
 </tr>`;
 }
 
@@ -113,7 +113,7 @@ ${summe}
 </table>`
           : "";
       return `<section>
-<h2>${a.nummer} — ${esc(a.titel)} <span class="lg">${esc(a.lgHinweis)}</span></h2>
+<h2>${a.nummer}. ${esc(a.titel)} <span class="lg">${esc(a.lgHinweis)}</span></h2>
 ${a.vorspann ? `<p class="vorspann">${esc(a.vorspann)}</p>` : ""}
 ${tabelle}
 </section>`;

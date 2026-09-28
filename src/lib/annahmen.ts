@@ -3,7 +3,7 @@
  *
  * Ein Einreichplan enthält Flächen und Maße, aber keine Schichtstärken und
  * keine Verschnittsätze. Jede Position, die darauf aufbaut, ist nur so
- * belastbar wie die hier hinterlegte Annahme — deshalb steht zu jeder ihre
+ * belastbar wie die hier hinterlegte Annahme, deshalb steht zu jeder ihre
  * Begründung und ihre Auswirkung, und jede abgeleitete Position verweist auf
  * die Annahmen, die in sie eingeflossen sind.
  */

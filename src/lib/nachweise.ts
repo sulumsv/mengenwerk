@@ -4,7 +4,7 @@
  * Diese Liste ist die einzige Quelle: aus ihr entsteht die Anweisung an das
  * Modell, welche Werte unter welchem Namen zu liefern sind, und über sie
  * findet die Ableitung sie wieder. Zwei getrennte Listen waren der Grund,
- * warum der Prompt nur die Hälfte der Werte verlangte, die die Engine sucht —
+ * warum der Prompt nur die Hälfte der Werte verlangte, die die Engine sucht -
  * ganze Abschnitte wären lautlos leer geblieben.
  *
  * `brauchtFuer` steht auch im Prompt: es sagt dem Modell, wofür der Wert
@@ -145,7 +145,7 @@ export function suchbegriffe(id: string): string[] {
   return [def.name, ...def.synonyme].map(normalisiereBegriff);
 }
 
-/** Die Liste, die im Prompt steht — damit Modell und Ableitung dasselbe meinen. */
+/** Die Liste, die im Prompt steht, damit Modell und Ableitung dasselbe meinen. */
 export function nachweisAnweisung(): string {
-  return NACHWEISE.map((n) => `- "${n.name}" (${n.einheit}) — gebraucht für ${n.brauchtFuer}`).join("\n");
+  return NACHWEISE.map((n) => `- "${n.name}" (${n.einheit}): gebraucht für ${n.brauchtFuer}`).join("\n");
 }

@@ -2,7 +2,7 @@
  * Passwortschutz für Tool und Auswertung.
  *
  * Der Proxy schützt die Seiten. Die Auswertungsroute prüft selbst, weil der
- * Proxy jeden Request-Body puffert, um ihn mehrfach lesbar zu machen — bei
+ * Proxy jeden Request-Body puffert, um ihn mehrfach lesbar zu machen, bei
  * einem Plan-Upload wäre das eine zweite Kopie im Speicher und läuft gegen das
  * Puffer-Limit. Ohne gesetztes Passwort ist nichts geschützt.
  */

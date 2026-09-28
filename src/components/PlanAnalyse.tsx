@@ -12,27 +12,27 @@ const KAPITEL = [
   {
     marke: "Beispielprojekt · EFH Neubau, NÖ",
     titel: "Ein Einreichplan.",
-    text: "Das ist alles, was MengenWerk braucht — ein PDF aus dem CAD oder ein Scan.",
+    text: "Mehr braucht MengenWerk nicht: ein PDF aus dem CAD oder einen Scan.",
   },
   {
     marke: "Schritt 1 · Erkennung",
     titel: "Jeder Raum. Jede Öffnung.",
-    text: `${RAEUME.length} Räume mit ${m2(NUTZFLAECHE)} m² Nutzfläche, 11 Fenster und 8 Türen — gelesen aus Raumstempeln und Plansymbolen.`,
+    text: `${RAEUME.length} Räume mit ${m2(NUTZFLAECHE)} m² Nutzfläche, 11 Fenster und 8 Türen. Gelesen aus Raumstempeln und Plansymbolen.`,
   },
   {
     marke: "Schritt 2 · Rohbau",
     titel: "Aus Linien werden Mengen.",
-    text: "Wandlängen × Schnitthöhe, abzüglich Öffnungen: 142,80 m² Mauerwerk, 34,20 m³ Beton — jede Zahl mit Rechenweg.",
+    text: "Wandlängen × Schnitthöhe, abzüglich Öffnungen: 142,80 m² Mauerwerk, 34,20 m³ Beton. Jede Zahl mit Rechenweg.",
   },
   {
     marke: "Schritt 3 · Ausbau",
     titel: "Putz, Fenster, Dach.",
-    text: "226,5 m² Fassade über zwei Geschosse, 17 Fenster, 130,6 m² Flachdach mit Kiesbett und Attika — jedes Gewerk mit Menge und LB-HB-Position.",
+    text: "226,5 m² Fassade über zwei Geschosse, 17 Fenster, 130,6 m² Flachdach mit Kiesbett und Attika. Jedes Gewerk mit Menge und LB-HB-Position.",
   },
   {
     marke: "Das Ergebnis",
     titel: "Vom Plan zum Haus. 47 Positionen.",
-    text: "Der vollständige Massenauszug nach LB-HB 023 — fertig zum Bepreisen, in Minuten statt Tagen.",
+    text: "Der vollständige Massenauszug nach LB-HB 023. Fertig zum Bepreisen, in Minuten statt Tagen.",
   },
 ];
 
@@ -114,10 +114,10 @@ function Grundriss({ kapitel, statisch = false }: { kapitel: number; statisch?: 
       {statisch && erkennung && (
         <g>
           {RAEUME.map((r) => (
-            <rect key={r.name} x={r.x + 2} y={r.y + 2} width={r.w - 4} height={r.h - 4} fill="#f08a5d" fillOpacity="0.12" stroke="#d86f43" strokeWidth="1.6" />
+            <rect key={r.name} x={r.x + 2} y={r.y + 2} width={r.w - 4} height={r.h - 4} fill="#c2562f" fillOpacity="0.12" stroke="#a8461f" strokeWidth="1.6" />
           ))}
           {schlitze.map((s, i) => (
-            <circle key={i} cx={s.x + s.w / 2} cy={s.y + s.d / 2} r="9" fill="none" stroke={s.art === "fenster" ? "#3a2f9e" : "#d86f43"} strokeWidth="1.6" />
+            <circle key={i} cx={s.x + s.w / 2} cy={s.y + s.d / 2} r="9" fill="none" stroke={s.art === "fenster" ? "#c2562f" : "#a8461f"} strokeWidth="1.6" />
           ))}
         </g>
       )}
@@ -131,9 +131,9 @@ function Grundriss({ kapitel, statisch = false }: { kapitel: number; statisch?: 
                 y={r.y + 2}
                 width={r.w - 4}
                 height={r.h - 4}
-                fill="#f08a5d"
+                fill="#c2562f"
                 fillOpacity="0.12"
-                stroke="#d86f43"
+                stroke="#a8461f"
                 strokeWidth="1.6"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -147,7 +147,7 @@ function Grundriss({ kapitel, statisch = false }: { kapitel: number; statisch?: 
                 cy={s.y + s.d / 2}
                 r="9"
                 fill="none"
-                stroke={s.art === "fenster" ? "#3a2f9e" : "#d86f43"}
+                stroke={s.art === "fenster" ? "#c2562f" : "#a8461f"}
                 strokeWidth="1.6"
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
@@ -198,9 +198,9 @@ export function PlanAnalyseSection() {
       <div
         className="sticky top-0 h-screen overflow-hidden"
         style={{
-          backgroundColor: "#efeef6",
+          backgroundColor: "#f3ede3",
           backgroundImage:
-            "linear-gradient(rgba(28,26,51,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(28,26,51,0.05) 1px, transparent 1px)",
+            "linear-gradient(rgba(35,31,26,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(35,31,26,0.05) 1px, transparent 1px)",
           backgroundSize: "32px 32px",
         }}
       >
@@ -234,7 +234,7 @@ export function PlanAnalyseSection() {
         </div>
 
         <div className="absolute left-4 right-4 bottom-4 md:left-10 md:right-auto md:bottom-10 md:w-[440px]">
-          <div className="rounded-2xl bg-[#1c1a33]/95 text-white p-6 md:p-8 shadow-2xl backdrop-blur">
+          <div className="rounded-2xl bg-[#231f1a]/95 text-white p-6 md:p-8 shadow-2xl backdrop-blur">
             <AnimatePresence mode="wait">
               <motion.div
                 key={kapitel}
@@ -243,7 +243,7 @@ export function PlanAnalyseSection() {
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.3 }}
               >
-                <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#f08a5d]">{k.marke}</p>
+                <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#c2562f]">{k.marke}</p>
                 <h3 className="mt-3 font-display font-black text-[clamp(1.8rem,3.4vw,2.6rem)] leading-[1.02] tracking-tight">
                   {k.titel}
                 </h3>
@@ -252,7 +252,7 @@ export function PlanAnalyseSection() {
                   <div className="mt-6 flex gap-3 flex-wrap">
                     <a
                       href="/app"
-                      className="rounded-lg bg-[#f08a5d] text-[#1c1a33] font-display font-black uppercase text-xs tracking-wide px-5 py-3 hover:brightness-105"
+                      className="rounded-lg bg-[#c2562f] text-[#231f1a] font-display font-black uppercase text-xs tracking-wide px-5 py-3 hover:brightness-105"
                     >
                       Eigenen Plan analysieren →
                     </a>
@@ -268,7 +268,7 @@ export function PlanAnalyseSection() {
             </AnimatePresence>
             <div className="mt-6 flex gap-1.5">
               {KAPITEL.map((_, i) => (
-                <div key={i} className={`h-0.5 flex-1 rounded-full transition-colors duration-300 ${i <= kapitel ? "bg-[#f08a5d]" : "bg-white/15"}`} />
+                <div key={i} className={`h-0.5 flex-1 rounded-full transition-colors duration-300 ${i <= kapitel ? "bg-[#c2562f]" : "bg-white/15"}`} />
               ))}
             </div>
           </div>

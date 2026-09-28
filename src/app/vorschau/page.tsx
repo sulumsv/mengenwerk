@@ -5,7 +5,7 @@ import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import { BEISPIEL_ELEMENTE, BEISPIEL_KONTEXT, BEISPIEL_RAEUME } from "@/lib/beispiel";
 
 export const metadata: Metadata = {
-  title: "Beispielauswertung — MengenWerk",
+  title: "Beispielauswertung | MengenWerk",
   description: "So sieht ein Massenauszug aus, den MengenWerk aus einem Einreichplan erstellt.",
 };
 
@@ -36,7 +36,7 @@ export default function VorschauPage() {
         </h1>
         <p className="mt-5 text-lg text-fg-muted max-w-2xl leading-relaxed">
           Das Ergebnis einer Planauswertung an einem echten Einfamilienhaus. Jede Menge zeigt ihren Rechenweg und ihre
-          Herkunft — beschriftet im Plan, daraus gerechnet oder angenommen. Ein eigener Plan wird unter{" "}
+          Herkunft: beschriftet im Plan, daraus gerechnet oder angenommen. Ein eigener Plan wird unter{" "}
           <a href="/app" className="text-fg underline underline-offset-4">
             Plan analysieren
           </a>{" "}

@@ -126,7 +126,7 @@ function umrechnen(w: { wert: number; einheit: string }, art: Laenge): number {
 /**
  * Liest Korrekturen aus einem deutschen Satz, z.B. "Raumhöhe statt 2,50 m
  * auf 2,90 m, abgehängte Decke UK 2,75 m". Was nicht erkannt wird, bleibt
- * leer — der Aufrufer kann dann auf die KI ausweichen.
+ * leer, der Aufrufer kann dann auf die KI ausweichen.
  */
 export function leseKorrektur(text: string): Korrekturen {
   const k: Korrekturen = { raumhoehe: {}, deckenUnterkante: {}, annahmen: {} };

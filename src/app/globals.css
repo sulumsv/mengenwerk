@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --surface: #0c0c0b;
-  --surface-2: #151513;
-  --fg: #f5f4ef;
-  --fg-muted: #8f8d85;
-  --accent: #f4c400;
-  --accent-fg: #0c0c0b;
+  --surface: #121b30;
+  --surface-2: #1a2540;
+  --fg: #f5f7fb;
+  --fg-muted: #8b95a7;
+  --accent: #b6e36b;
+  --accent-fg: #121b30;
   --alert: #e0452f;
   --alert-fg: #ffffff;
-  --highlight: #34a853;
-  --highlight-fg: #0c0c0b;
-  --line: #2a2926;
-  --line-strong: #4a4843;
+  --highlight: #5b8cff;
+  --highlight-fg: #121b30;
+  --line: #26345a;
+  --line-strong: #3a4a6b;
   color-scheme: dark;
 }
 
@@ -52,6 +52,14 @@ body {
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
+}
+
+.bg-raster {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+  background-size: 64px 64px;
+  background-position: center top;
 }
 
 .font-num {

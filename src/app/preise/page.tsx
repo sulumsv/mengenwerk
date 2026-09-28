@@ -1,73 +1,88 @@
-import Link from "next/link";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
+import { Abschnitt, CtaBand, KnopfSekundaer, SeitenHero } from "@/components/Marketing";
+import Link from "next/link";
 
 const PLAENE = [
   {
-    name: "Einzelplan",
-    preis: "9",
-    einheit: "pro analysiertem Plan",
-    merkmale: ["Eine Planauswertung", "Gruppierte Stückliste", "Rechenweg zu jeder Position", "LB HB Zuordnung"],
-  },
-  {
-    name: "Betrieb",
-    preis: "79",
-    einheit: "pro Monat",
-    merkmale: ["Bis zu 30 Pläne im Monat", "Alle Funktionen aus Einzelplan", "Export als PDF und Excel", "Verlauf aller Auswertungen"],
+    eyebrow: "Einzelplan",
+    preis: "9 €",
+    zusatz: "pro Plan",
+    hinweis: "Vorläufiger Richtwert in der Prototypphase.",
+    merkmale: ["Eine vollständige Planauswertung", "Massenauszug nach LB-HB 023", "Rechenweg zu jeder Position", "Export als PDF und Excel"],
     hervorgehoben: true,
+    cta: { href: "/app", label: "Plan analysieren →" },
   },
   {
-    name: "Mehrere Standorte",
+    eyebrow: "Betrieb",
+    preis: "79 €",
+    zusatz: "pro Monat",
+    hinweis: "Für Betriebe mit laufenden Angeboten.",
+    merkmale: ["Bis zu 30 Pläne im Monat", "Eigene Einheitspreise", "Verlauf aller Auswertungen", "Persönliches Onboarding"],
+    cta: { href: "/demo", label: "Demo anfragen →" },
+  },
+  {
+    eyebrow: "Mehrere Standorte",
     preis: "Auf Anfrage",
-    einheit: "individuell",
-    merkmale: ["Unbegrenzte Pläne", "Mehrere Nutzerkonten", "Eigene Vorlagen je Standort", "Persönliche Einrichtung"],
+    zusatz: "",
+    hinweis: "Für Unternehmen mit mehreren Teams.",
+    merkmale: ["Unbegrenzte Pläne", "Mehrere Nutzerkonten", "Eigene Vorlagen je Standort"],
+    cta: { href: "/kontakt", label: "Angebot anfragen →" },
   },
 ];
 
 export default function PreisePage() {
   return (
-    <main className="flex-1">
+    <main className="flex-1 bg-[#f7f9fc]">
       <SiteNav />
-      <section className="px-6 md:px-10 pt-16 pb-8 max-w-7xl mx-auto">
-        <h1 className="font-display font-black uppercase leading-[0.95] tracking-tight text-[clamp(2rem,5vw,3.5rem)]">
-          Preise
-        </h1>
-        <p className="mt-4 text-lg text-fg-muted max-w-xl leading-relaxed">
-          Vorläufige Richtwerte für die Prototypphase. Die endgültige Preisstruktur steht noch nicht fest.
-        </p>
-      </section>
-
-      <section className="px-6 md:px-10 pb-20 max-w-7xl mx-auto grid md:grid-cols-3 gap-6">
-        {PLAENE.map((p) => (
-          <div
-            key={p.name}
-            className={`rounded-lg border p-8 flex flex-col ${p.hervorgehoben ? "border-line-strong bg-surface-2" : "border-line bg-surface-2"}`}
-          >
-            <h2 className="font-display font-bold uppercase text-xl">{p.name}</h2>
-            <p className="mt-6 font-mono">
-              <span className="text-4xl font-semibold">{p.preis}</span>
-              {p.preis !== "Auf Anfrage" && <span className="text-lg"> EUR</span>}
-            </p>
-            <p className="font-mono text-xs text-fg-muted uppercase tracking-wide mt-1">{p.einheit}</p>
-            <ul className="mt-6 space-y-3 flex-1">
-              {p.merkmale.map((m) => (
-                <li key={m} className="text-sm text-fg-muted flex gap-2">
-                  <span className="text-accent">•</span>
-                  {m}
-                </li>
-              ))}
-            </ul>
-            <Link
-              href="/kontakt"
-              className={`mt-8 text-center rounded-md font-display font-bold uppercase tracking-wide text-sm px-6 py-3 ${
-                p.hervorgehoben ? "bg-accent text-accent-fg" : "border border-line-strong text-fg"
+      <SeitenHero
+        eyebrow="Preise"
+        titel="Was eine Analyse kostet."
+        text="Vorläufige Richtwerte für die Prototypphase. Kein Abo nötig, keine Mindestlaufzeit — die endgültige Preisstruktur steht noch nicht fest."
+      />
+      <Abschnitt>
+        <div className="grid md:grid-cols-3 gap-5">
+          {PLAENE.map((p) => (
+            <div
+              key={p.eyebrow}
+              className={`rounded-2xl border p-7 flex flex-col ${
+                p.hervorgehoben ? "border-[#0f172a] border-2 bg-[#eef3fd]" : "border-[#e3e8f0] bg-white"
               }`}
             >
-              Anfragen
-            </Link>
-          </div>
-        ))}
-      </section>
-
+              <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#2f5fd0]">{p.eyebrow}</p>
+              <p className="mt-4 font-display font-extrabold tracking-tight text-[2.5rem] leading-none text-[#0f172a]">
+                {p.preis}
+                {p.zusatz && <span className="ml-2 font-body font-normal text-sm text-[#5f6b80]">{p.zusatz}</span>}
+              </p>
+              <p className="mt-3 text-xs text-[#8b95a7]">{p.hinweis}</p>
+              <ul className="mt-6 space-y-2.5 flex-1 text-sm text-[#334155]">
+                {p.merkmale.map((m) => (
+                  <li key={m} className="flex gap-2.5">
+                    <span className="text-[#2f5fd0]">✓</span>
+                    {m}
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-8">
+                {p.hervorgehoben ? (
+                  <Link
+                    href={p.cta.href}
+                    className="inline-flex rounded-full bg-[#2f5fd0] text-white font-semibold text-sm px-6 py-3 hover:bg-[#274fb0] transition"
+                  >
+                    {p.cta.label}
+                  </Link>
+                ) : (
+                  <KnopfSekundaer href={p.cta.href} ton="hell">{p.cta.label}</KnopfSekundaer>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+        <p className="mt-10 max-w-2xl text-sm text-[#5f6b80] leading-relaxed">
+          Zum Vergleich: Das Aufmaß für ein Einfamilienhaus dauert von Hand leicht einen ganzen Arbeitstag. Mit
+          MengenWerk bleibt die Kontrolle der Ergebnisse.
+        </p>
+      </Abschnitt>
+      <CtaBand titel="Neugierig, was MengenWerk für Sie rechnet?" text="Schicken Sie uns einen Plan, den Sie schon kalkuliert haben, und vergleichen Sie Position für Position." />
       <SiteFooter />
     </main>
   );

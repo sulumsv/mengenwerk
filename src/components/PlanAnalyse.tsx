@@ -245,9 +245,9 @@ function Grundriss({ kapitel }: { kapitel: number }) {
                 y={r.y + 2}
                 width={r.w - 4}
                 height={r.h - 4}
-                fill="#f4c400"
+                fill="#b6e36b"
                 fillOpacity="0.12"
-                stroke="#d9a900"
+                stroke="#8fbf45"
                 strokeWidth="1.6"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -261,7 +261,7 @@ function Grundriss({ kapitel }: { kapitel: number }) {
                 cy={s.y + s.d / 2}
                 r="9"
                 fill="none"
-                stroke={s.art === "fenster" ? "#1f7a33" : "#d9a900"}
+                stroke={s.art === "fenster" ? "#2f5fd0" : "#8fbf45"}
                 strokeWidth="1.6"
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
@@ -313,9 +313,9 @@ export function PlanAnalyseSection() {
       <div
         className="sticky top-0 h-screen overflow-hidden"
         style={{
-          backgroundColor: "#eeece5",
+          backgroundColor: "#eef2f7",
           backgroundImage:
-            "linear-gradient(rgba(20,19,15,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(20,19,15,0.05) 1px, transparent 1px)",
+            "linear-gradient(rgba(18,27,48,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(18,27,48,0.05) 1px, transparent 1px)",
           backgroundSize: "32px 32px",
         }}
       >
@@ -334,7 +334,7 @@ export function PlanAnalyseSection() {
                   rotateZ,
                   scale,
                   y,
-                  boxShadow: "0 30px 80px -20px rgba(20,19,15,0.35)",
+                  boxShadow: "0 30px 80px -20px rgba(18,27,48,0.35)",
                   ["--h" as string]: "0px",
                   ["--t" as string]: "0",
                 }}
@@ -349,7 +349,7 @@ export function PlanAnalyseSection() {
         </div>
 
         <div className="absolute left-4 right-4 bottom-4 md:left-10 md:right-auto md:bottom-10 md:w-[440px]">
-          <div className="rounded-2xl bg-[#14130f]/95 text-white p-6 md:p-8 shadow-2xl backdrop-blur">
+          <div className="rounded-2xl bg-[#121b30]/95 text-white p-6 md:p-8 shadow-2xl backdrop-blur">
             <AnimatePresence mode="wait">
               <motion.div
                 key={kapitel}
@@ -358,7 +358,7 @@ export function PlanAnalyseSection() {
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.3 }}
               >
-                <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#f4c400]">{k.marke}</p>
+                <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#b6e36b]">{k.marke}</p>
                 <h3 className="mt-3 font-display font-black text-[clamp(1.8rem,3.4vw,2.6rem)] leading-[1.02] tracking-tight">
                   {k.titel}
                 </h3>
@@ -367,7 +367,7 @@ export function PlanAnalyseSection() {
                   <div className="mt-6 flex gap-3 flex-wrap">
                     <a
                       href="/app"
-                      className="rounded-lg bg-[#f4c400] text-[#14130f] font-display font-black uppercase text-xs tracking-wide px-5 py-3 hover:brightness-105"
+                      className="rounded-lg bg-[#b6e36b] text-[#121b30] font-display font-black uppercase text-xs tracking-wide px-5 py-3 hover:brightness-105"
                     >
                       Eigenen Plan analysieren →
                     </a>
@@ -383,7 +383,7 @@ export function PlanAnalyseSection() {
             </AnimatePresence>
             <div className="mt-6 flex gap-1.5">
               {KAPITEL.map((_, i) => (
-                <div key={i} className={`h-0.5 flex-1 rounded-full transition-colors duration-300 ${i <= kapitel ? "bg-[#f4c400]" : "bg-white/15"}`} />
+                <div key={i} className={`h-0.5 flex-1 rounded-full transition-colors duration-300 ${i <= kapitel ? "bg-[#b6e36b]" : "bg-white/15"}`} />
               ))}
             </div>
           </div>

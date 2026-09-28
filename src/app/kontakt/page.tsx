@@ -1,27 +1,28 @@
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
+import { Abschnitt, KnopfPrimaer, SeitenHero } from "@/components/Marketing";
 
 export default function KontaktPage() {
   return (
-    <main className="flex-1">
+    <main className="flex-1 bg-[#f7f9fc]">
       <SiteNav />
-      <section className="px-6 md:px-10 pt-16 pb-20 max-w-7xl mx-auto">
-        <h1 className="font-display font-black uppercase leading-[0.95] tracking-tight text-[clamp(2rem,5vw,3.5rem)]">
-          Kontakt
-        </h1>
-        <p className="mt-4 text-lg text-fg-muted max-w-xl leading-relaxed">
-          Fragen zum Tool, zu Preisen oder ein Testplan, den wir gemeinsam durchrechnen sollen. Schreib uns.
-        </p>
-
-        <div className="mt-12 grid md:grid-cols-2 gap-8 max-w-3xl">
-          <div className="rounded-lg border border-line bg-surface-2 p-8">
-            <p className="font-mono text-xs uppercase tracking-wide text-fg-muted mb-2">Mail</p>
-            <a href="mailto:office@msv-digital.com" className="text-lg font-medium hover:text-accent">
+      <SeitenHero
+        eyebrow="Kontakt"
+        titel="Sprechen Sie mit uns."
+        text="Fragen zum Tool, zu Preisen oder ein Testplan, den wir gemeinsam durchrechnen sollen — schreiben Sie uns."
+      >
+        <KnopfPrimaer href="/demo">Demo anfragen →</KnopfPrimaer>
+      </SeitenHero>
+      <Abschnitt>
+        <div className="grid md:grid-cols-2 gap-5 max-w-3xl">
+          <div className="rounded-xl border border-[#e3e8f0] bg-white p-7">
+            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#2f5fd0] mb-3">E-Mail</p>
+            <a href="mailto:office@msv-digital.com" className="text-lg font-medium text-[#0f172a] hover:underline">
               office@msv-digital.com
             </a>
           </div>
-          <div className="rounded-lg border border-line bg-surface-2 p-8">
-            <p className="font-mono text-xs uppercase tracking-wide text-fg-muted mb-2">Anschrift</p>
-            <p className="text-lg leading-relaxed">
+          <div className="rounded-xl border border-[#e3e8f0] bg-white p-7">
+            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#2f5fd0] mb-3">Anschrift</p>
+            <p className="text-lg leading-relaxed text-[#0f172a]">
               Sulumbek Masuev
               <br />
               Frauenfelderstraße 7/13
@@ -30,7 +31,7 @@ export default function KontaktPage() {
             </p>
           </div>
         </div>
-      </section>
+      </Abschnitt>
       <SiteFooter />
     </main>
   );

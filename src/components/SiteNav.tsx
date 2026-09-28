@@ -2,112 +2,112 @@ import Link from "next/link";
 import { Logo } from "./Logo";
 
 const LINKS = [
-  { href: "/vorschau", label: "Beispiel" },
+  { href: "/#ablauf", label: "Produkt" },
+  { href: "/#funktionen", label: "Funktionen" },
   { href: "/einheitspreise", label: "Einheitspreise" },
   { href: "/preise", label: "Preise" },
   { href: "/ueber-uns", label: "Über uns" },
-  { href: "/kontakt", label: "Kontakt" },
 ];
 
-export function SiteNav({ dark = true }: { dark?: boolean }) {
+export function SiteNav() {
   return (
-    <nav
-      className={`px-6 md:px-10 py-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 ${
-        dark
-          ? "border-b border-white/10"
-          : "border-b border-line"
-      }`}
-    >
-      <Link href="/">
-        <Logo dark={dark} />
-      </Link>
-      <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
-        {LINKS.map((l) => (
-          <Link
-            key={l.href}
-            href={l.href}
-            className={`font-mono text-xs uppercase tracking-wide ${
-              dark ? "text-fg/50 hover:text-fg" : "text-fg-muted hover:text-fg"
-            }`}
-          >
-            {l.label}
-          </Link>
-        ))}
-        <Link
-          href="/app"
-          className={`font-mono text-xs uppercase tracking-wide px-3 py-1.5 rounded-md ${
-            dark
-              ? "bg-accent text-accent-fg font-bold"
-              : "bg-line-strong text-surface"
-          }`}
-        >
-          Plan analysieren →
+    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-[#e3e8f0] text-[#0f172a]">
+      <nav className="max-w-6xl mx-auto px-6 md:px-10 h-16 flex items-center justify-between gap-6">
+        <Link href="/" aria-label="MengenWerk Startseite">
+          <Logo />
         </Link>
-      </div>
-    </nav>
+        <div className="hidden lg:flex items-center gap-7">
+          {LINKS.map((l) => (
+            <Link key={l.href} href={l.href} className="text-[13px] text-[#56627a] hover:text-[#0f172a] transition">
+              {l.label}
+            </Link>
+          ))}
+        </div>
+        <div className="flex items-center gap-2">
+          <Link
+            href="/vorschau"
+            className="hidden md:inline text-[13px] text-[#56627a] hover:text-[#0f172a] mr-2"
+          >
+            ↓ Beispielauswertung
+          </Link>
+          <Link
+            href="/login"
+            className="rounded-full border border-[#d6dde8] px-4 py-2 text-[13px] font-medium hover:border-[#a9b3c3] transition"
+          >
+            Login
+          </Link>
+          <Link
+            href="/demo"
+            className="rounded-full bg-[#2f5fd0] text-white px-4 py-2 text-[13px] font-medium hover:bg-[#274fb0] transition"
+          >
+            Demo anfragen
+          </Link>
+        </div>
+      </nav>
+    </header>
   );
 }
 
-export function SiteFooter({ dark = true }: { dark?: boolean }) {
+const NAVIGATION = [
+  { href: "/#ablauf", label: "Produkt" },
+  { href: "/#funktionen", label: "Funktionen" },
+  { href: "/preise", label: "Preise" },
+  { href: "/ueber-uns", label: "Über uns" },
+  { href: "/demo", label: "Demo anfragen" },
+  { href: "/vorschau", label: "Beispielauswertung" },
+  { href: "/login", label: "Login ↗" },
+];
+
+const WERKZEUGE = [
+  { href: "/app", label: "Plan analysieren" },
+  { href: "/einheitspreise", label: "Einheitspreise" },
+  { href: "/kontakt", label: "Kontakt" },
+];
+
+export function SiteFooter() {
   return (
-    <footer
-      className={`px-6 md:px-10 py-14 ${dark ? "bg-surface border-t border-white/10" : "border-t border-line"}`}
-    >
-      <div className="max-w-7xl mx-auto grid sm:grid-cols-3 gap-10">
+    <footer className="bg-[#2f5fd0] text-white">
+      <div className="max-w-6xl mx-auto px-6 md:px-10 py-16 grid md:grid-cols-[1.6fr_1fr_1fr] gap-12">
         <div>
-          <Logo dark={dark} className="mb-3" />
-          <p className={`text-sm leading-relaxed max-w-xs ${dark ? "text-fg/50" : "text-fg-muted"}`}>
-            KI-gestützte Mengenermittlung für österreichische Baubetriebe. Vom Einreichplan zum bepreisten LV.
+          <Logo dark />
+          <p className="mt-5 text-sm text-white/55 leading-relaxed max-w-sm">
+            KI-gestützte Mengenermittlung für österreichische Baubetriebe. Vom Einreichplan zum Massenauszug nach
+            LB-HB 023 — mit sichtbarem Rechenweg.
           </p>
+          <a href="mailto:office@msv-digital.com" className="mt-5 inline-block text-sm text-[#b6e36b] hover:underline">
+            office@msv-digital.com
+          </a>
         </div>
-        <div>
-          <p className={`font-mono text-xs uppercase tracking-widest mb-4 ${dark ? "text-accent" : "text-highlight"}`}>
-            Produkt
-          </p>
-          <div className="flex flex-col gap-2">
-            {[
-              { href: "/app", label: "Plan analysieren" },
-              { href: "/vorschau", label: "Beispielauswertung" },
-              { href: "/einheitspreise", label: "Einheitspreise" },
-              { href: "/preise", label: "Preise" },
-            ].map((l) => (
-              <Link
-                key={l.href}
-                href={l.href}
-                className={`text-sm ${dark ? "text-fg/60 hover:text-fg" : "text-fg-muted hover:text-fg"}`}
-              >
-                {l.label}
-              </Link>
-            ))}
-          </div>
-        </div>
-        <div>
-          <p className={`font-mono text-xs uppercase tracking-widest mb-4 ${dark ? "text-accent" : "text-highlight"}`}>
-            Unternehmen
-          </p>
-          <div className="flex flex-col gap-2">
-            {[
-              { href: "/ueber-uns", label: "Über uns" },
-              { href: "/kontakt", label: "Kontakt" },
-              { href: "/impressum", label: "Impressum" },
-              { href: "/datenschutz", label: "Datenschutz" },
-            ].map((l) => (
-              <Link
-                key={l.href}
-                href={l.href}
-                className={`text-sm ${dark ? "text-fg/60 hover:text-fg" : "text-fg-muted hover:text-fg"}`}
-              >
-                {l.label}
-              </Link>
-            ))}
-          </div>
-        </div>
+        <FooterSpalte titel="Navigation" links={NAVIGATION} />
+        <FooterSpalte titel="Werkzeuge" links={WERKZEUGE} />
       </div>
-      <div className={`max-w-7xl mx-auto mt-10 pt-6 border-t ${dark ? "border-white/10" : "border-line"}`}>
-        <p className={`font-mono text-xs uppercase tracking-wide ${dark ? "text-fg/30" : "text-fg-muted"}`}>
-          © 2025 MengenWerk · Gebaut für kleine Baubetriebe in Österreich
-        </p>
+      <div className="border-t border-white/10">
+        <div className="max-w-6xl mx-auto px-6 md:px-10 py-6 flex flex-col sm:flex-row gap-3 sm:justify-between text-xs text-white/40">
+          <p>© {new Date().getFullYear()} MengenWerk · Gebaut für Baubetriebe in Österreich</p>
+          <div className="flex gap-5">
+            <Link href="/impressum" className="hover:text-white/70">Impressum</Link>
+            <Link href="/datenschutz" className="hover:text-white/70">Datenschutz</Link>
+            <Link href="/kontakt" className="hover:text-white/70">Kontakt</Link>
+          </div>
+        </div>
       </div>
     </footer>
+  );
+}
+
+function FooterSpalte({ titel, links }: { titel: string; links: { href: string; label: string }[] }) {
+  return (
+    <div>
+      <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#b6e36b] mb-4">{titel}</p>
+      <ul className="space-y-2.5">
+        {links.map((l) => (
+          <li key={l.href}>
+            <Link href={l.href} className="text-sm text-white/65 hover:text-white">
+              {l.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }

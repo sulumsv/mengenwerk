@@ -1,19 +1,19 @@
 @import "tailwindcss";
 
 :root {
-  --surface: #121b30;
-  --surface-2: #1a2540;
-  --fg: #f5f7fb;
-  --fg-muted: #8b95a7;
-  --accent: #b6e36b;
-  --accent-fg: #121b30;
-  --alert: #e0452f;
+  --surface: #f7f6fb;
+  --surface-2: #ffffff;
+  --fg: #1c1a33;
+  --fg-muted: #625f7d;
+  --accent: #3a2f9e;
+  --accent-fg: #ffffff;
+  --alert: #d9483b;
   --alert-fg: #ffffff;
-  --highlight: #5b8cff;
-  --highlight-fg: #121b30;
-  --line: #26345a;
-  --line-strong: #3a4a6b;
-  color-scheme: dark;
+  --highlight: #e0703f;
+  --highlight-fg: #ffffff;
+  --line: #e7e4f0;
+  --line-strong: #cfcae0;
+  color-scheme: light;
 }
 
 @theme inline {
@@ -54,12 +54,20 @@ body {
   outline-offset: 2px;
 }
 
-.bg-raster {
+.bg-himmel {
+  background-color: #f7f6fb;
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
-  background-size: 64px 64px;
-  background-position: center top;
+    radial-gradient(ellipse 70% 60% at 10% 0%, #e2ddfb 0%, transparent 60%),
+    radial-gradient(ellipse 60% 55% at 95% 10%, #fde2d3 0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 60% 100%, #ece9fb 0%, transparent 70%);
+}
+
+.glas {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 1px 2px rgba(28, 26, 51, 0.04), 0 12px 32px -18px rgba(58, 47, 158, 0.25);
 }
 
 .font-num {

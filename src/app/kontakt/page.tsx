@@ -3,7 +3,7 @@ import { Abschnitt, KnopfPrimaer, SeitenHero } from "@/components/Marketing";
 
 export default function KontaktPage() {
   return (
-    <main className="flex-1 bg-[#f7f9fc]">
+    <main className="flex-1 bg-[#f7f6fb]">
       <SiteNav />
       <SeitenHero
         eyebrow="Kontakt"
@@ -14,15 +14,15 @@ export default function KontaktPage() {
       </SeitenHero>
       <Abschnitt>
         <div className="grid md:grid-cols-2 gap-5 max-w-3xl">
-          <div className="rounded-xl border border-[#e3e8f0] bg-white p-7">
-            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#2f5fd0] mb-3">E-Mail</p>
-            <a href="mailto:office@msv-digital.com" className="text-lg font-medium text-[#0f172a] hover:underline">
+          <div className="rounded-xl border border-[#e7e4f0] bg-white p-7">
+            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#3a2f9e] mb-3">E-Mail</p>
+            <a href="mailto:office@msv-digital.com" className="text-lg font-medium text-[#1c1a33] hover:underline">
               office@msv-digital.com
             </a>
           </div>
-          <div className="rounded-xl border border-[#e3e8f0] bg-white p-7">
-            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#2f5fd0] mb-3">Anschrift</p>
-            <p className="text-lg leading-relaxed text-[#0f172a]">
+          <div className="rounded-xl border border-[#e7e4f0] bg-white p-7">
+            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#3a2f9e] mb-3">Anschrift</p>
+            <p className="text-lg leading-relaxed text-[#1c1a33]">
               Sulumbek Masuev
               <br />
               Frauenfelderstraße 7/13

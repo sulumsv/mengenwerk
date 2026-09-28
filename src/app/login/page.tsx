@@ -32,16 +32,16 @@ function LoginForm() {
   }
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-[#eef2f7] px-6 text-[#0f172a]">
-      <div className="w-full max-w-sm rounded-2xl border border-[#e3e8f0] bg-white p-7 shadow-[0_2px_12px_rgba(0,0,0,0.04)]">
+    <main className="min-h-screen flex items-center justify-center bg-[#efeef6] px-6 text-[#1c1a33]">
+      <div className="w-full max-w-sm rounded-2xl border border-[#e7e4f0] bg-white p-7 shadow-[0_2px_12px_rgba(0,0,0,0.04)]">
         <Link href="/">
           <Logo />
         </Link>
-        <p className="mt-2 text-sm text-[#5f6b80]">Einreichplan → Massenauszug nach LB-HB 023</p>
+        <p className="mt-2 text-sm text-[#625f7d]">Einreichplan → Massenauszug nach LB-HB 023</p>
 
-        <div className="mt-6 grid grid-cols-2 rounded-lg bg-[#f1f4f9] p-1 text-sm">
+        <div className="mt-6 grid grid-cols-2 rounded-lg bg-[#f2f1f8] p-1 text-sm">
           <span className="rounded-md bg-white py-1.5 text-center font-medium shadow-sm">Anmelden</span>
-          <Link href="/demo" className="rounded-md py-1.5 text-center text-[#5f6b80] hover:text-[#0f172a]">
+          <Link href="/demo" className="rounded-md py-1.5 text-center text-[#625f7d] hover:text-[#1c1a33]">
             Zugang anfragen
           </Link>
         </div>
@@ -53,13 +53,13 @@ function LoginForm() {
             placeholder="Passwort"
             value={passwort}
             onChange={(e) => setPasswort(e.target.value)}
-            className="w-full rounded-lg border border-[#d6dde8] px-3.5 py-2.5 text-sm placeholder:text-[#a9b3c3] outline-none focus:border-[#0f172a] transition"
+            className="w-full rounded-lg border border-[#d9d5e8] px-3.5 py-2.5 text-sm placeholder:text-[#aeaac4] outline-none focus:border-[#1c1a33] transition"
           />
           {fehler && <p className="text-sm text-[#c2412d]">Falsches Passwort.</p>}
           <button
             type="submit"
             disabled={laedt || !passwort}
-            className="w-full rounded-lg bg-[#2f5fd0] text-white font-medium text-sm py-2.5 hover:bg-[#274fb0] disabled:opacity-40 transition"
+            className="w-full rounded-lg bg-[#3a2f9e] text-white font-medium text-sm py-2.5 hover:bg-[#2f2585] disabled:opacity-40 transition"
           >
             {laedt ? "Prüfe …" : "Anmelden"}
           </button>

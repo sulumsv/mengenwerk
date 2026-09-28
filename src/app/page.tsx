@@ -72,7 +72,7 @@ export default function Home() {
           <div>
             <Eyebrow>Mengenermittlung für Österreich</Eyebrow>
             <h1 className="font-display font-medium tracking-tight leading-[0.98] text-[clamp(2.8rem,6vw,5rem)] text-[#231f1a]">
-              Aus dem Einreichplan wird ein <span className="italic text-[#c2562f]">Massenauszug.</span>
+              Aus dem Einreichplan wird ein <span className="text-[#c2562f]">Massenauszug.</span>
             </h1>
             <p className="mt-7 text-[1.1rem] text-[#6e665b] max-w-[46ch] leading-relaxed">
               MengenWerk liest Ihren Plan, erkennt die Bauteile und ermittelt die Mengen nach LB-HB 023. Zu jeder Position

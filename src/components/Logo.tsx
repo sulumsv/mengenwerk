@@ -17,7 +17,7 @@ export function Logo({ className = "", dark = false }: { className?: string; dar
     <span className={`inline-flex items-center gap-2.5 ${className}`}>
       <LogoMark className="h-7 w-7 shrink-0" />
       <span className={`font-display font-semibold tracking-tight text-[1.2rem] ${dark ? "text-[#fbf8f3]" : "text-[#231f1a]"}`}>
-        Mengen<span className="italic text-[#c2562f]">werk</span>
+        Mengen<span className="text-[#c2562f]">Werk</span>
       </span>
     </span>
   );

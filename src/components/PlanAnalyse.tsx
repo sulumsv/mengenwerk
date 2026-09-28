@@ -74,17 +74,17 @@ function Grundriss({ kapitel, statisch = false }: { kapitel: number; statisch?: 
 
       {RAEUME.map((r) => (
         <g key={`l-${r.name}`}>
-          <text x={r.x + r.w / 2} y={r.y + r.h / 2 - 3} textAnchor="middle" fill="#2b2824" fontFamily="Georgia, serif" fontStyle="italic" fontSize={r.w < 110 ? 8.5 : 10}>
+          <text x={r.x + r.w / 2} y={r.y + r.h / 2 - 3} textAnchor="middle" fill="#2b2824" fontFamily="Inter, sans-serif" fontSize={r.w < 110 ? 8.5 : 10}>
             {r.name}
           </text>
-          <text x={r.x + r.w / 2} y={r.y + r.h / 2 + 10} textAnchor="middle" fill="#4a463f" fontFamily="ui-monospace, monospace" fontSize="8">
+          <text x={r.x + r.w / 2} y={r.y + r.h / 2 + 10} textAnchor="middle" fill="#4a463f" fontFamily="Inter, sans-serif" fontSize="8">
             {m2(r.flaeche)} m²
           </text>
         </g>
       ))}
 
       {/* Maßketten */}
-      <g stroke={FARBE.linie} strokeWidth="0.7" fill={FARBE.linie} fontFamily="ui-monospace, monospace" fontSize="8">
+      <g stroke={FARBE.linie} strokeWidth="0.7" fill={FARBE.linie} fontFamily="Inter, sans-serif" fontSize="8">
         <line x1="80" y1="20" x2="520" y2="20" />
         {[80, 120, 180, 210, 260, 330, 380, 450, 480, 520].map((x) => (
           <line key={x} x1={x - 3} y1="23" x2={x + 3} y2="17" />
@@ -101,10 +101,10 @@ function Grundriss({ kapitel, statisch = false }: { kapitel: number; statisch?: 
       <g transform="translate(556 60)">
         <circle r="13" fill="none" stroke={FARBE.linie} strokeWidth="0.8" />
         <path d="M0,-11 L4,5 L0,2 L-4,5 Z" fill={FARBE.wand} />
-        <text y="-17" textAnchor="middle" fontFamily="ui-monospace, monospace" fontSize="8" fontWeight="bold" fill={FARBE.wand}>N</text>
+        <text y="-17" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="8" fontWeight="bold" fill={FARBE.wand}>N</text>
       </g>
 
-      <g fontFamily="ui-monospace, monospace" fontSize="7" fill={FARBE.linie} letterSpacing="0.6">
+      <g fontFamily="Inter, sans-serif" fontSize="7" fill={FARBE.linie} letterSpacing="0.6">
         <line x1="80" y1="392" x2="520" y2="392" stroke={FARBE.linie} strokeWidth="0.5" />
         <text x="80" y="404">EFH NEUBAU · GRUNDRISS EG · M 1:100 · EINREICHPLAN</text>
         <text x="520" y="404" textAnchor="end">BLATT 2/6</text>

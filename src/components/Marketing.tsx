@@ -96,7 +96,7 @@ export function Karte({
   return (
     <div className="group relative rounded-xl border border-[#e8e0d2] bg-[#fffdf9] p-7 transition hover:border-[#c2562f]/50">
       <span className="absolute left-0 top-7 h-6 w-[3px] rounded-r bg-[#c2562f] opacity-0 transition group-hover:opacity-100" />
-      {nummer && <p className="mb-6 font-display italic text-4xl text-[#c2562f]">{nummer}</p>}
+      {nummer && <p className="mb-6 text-sm font-semibold text-[#c2562f]">{nummer}</p>}
       <h3 className="font-display font-medium text-[1.2rem] mb-2">{titel}</h3>
       <div className="text-sm leading-relaxed text-[#6e665b]">{children}</div>
     </div>

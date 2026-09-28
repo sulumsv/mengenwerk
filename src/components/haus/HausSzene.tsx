@@ -6,12 +6,11 @@
 
 import { Suspense, useLayoutEffect, useMemo, useRef } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
-import { Environment, MeshReflectorMaterial, SoftShadows, useGLTF, useTexture } from "@react-three/drei";
+import { Environment, SoftShadows, useGLTF, useTexture } from "@react-three/drei";
 import { Bloom, EffectComposer, N8AO, SMAA, ToneMapping, Vignette } from "@react-three/postprocessing";
 import { ToneMappingMode } from "postprocessing";
 import type { MotionValue } from "motion/react";
 import * as THREE from "three";
-import { mergeVertices } from "three/examples/jsm/utils/BufferGeometryUtils.js";
 import { boxen, schlitze, RAEUME, FARBE, PX_M, PLAN_W, PLAN_H, type Box } from "./plan";
 
 // ── Maßstab: Plan-Einheiten → Meter, Hausmitte im Ursprung, Süden = +z ──
@@ -30,7 +29,7 @@ const abschnitt = (p: number, a: number, b: number) => glatt(clamp01((p - a) / (
 const PHASE = {
   einblenden: [0.28, 0.36],
   wachsen: [0.34, 0.5],
-  og: [0.48, 0.58],
+  og: [0.52, 0.6],
   garten: [0.56, 0.66],
   putz: [0.6, 0.7],
   fenster: [0.66, 0.74],
@@ -145,66 +144,90 @@ function PlanBlatt({
   );
 }
 
-// ── Wände ──
-function Waende({ fortschritt }: { fortschritt: MotionValue<number> }) {
+// ── Mauerwerk: Ziegel im Rohbau, darüber eine Putzschicht, die von unten nach oben aufgezogen wird ──
+type Teil = { w: number; h: number; d: number; x: number; y0: number; z: number; verschalt?: boolean };
+
+function Mauerwerk({ teile, fortschritt }: { teile: Teil[]; fortschritt: MotionValue<number> }) {
+  const ziegel = useSatz("ziegel");
   const putz = useSatz("putz");
   const holz = useSatz("holz");
-  const gruppe = useRef<THREE.Group>(null);
+  const schalen = useRef<(THREE.Mesh | null)[]>([]);
 
-  const aussenMat = useMemo(
-    () => new THREE.MeshStandardMaterial({ ...putz, color: "#b8744f", roughness: 1 }),
-    [putz],
-  );
-  const innenMat = useMemo(
-    () => new THREE.MeshStandardMaterial({ ...putz, color: "#ede7de", roughness: 1 }),
-    [putz],
-  );
-  const holzMat = useMemo(() => {
-    const m = new THREE.MeshStandardMaterial({ ...holz, color: "#b8845a", roughness: 0.9 });
-    return m;
-  }, [holz]);
+  const ziegelMat = useMemo(() => new THREE.MeshStandardMaterial({ ...ziegel, color: "#f3e6dc", roughness: 1 }), [ziegel]);
+  const putzMat = useMemo(() => new THREE.MeshStandardMaterial({ ...putz, color: "#ffffff", roughness: 0.96 }), [putz]);
+  const holzMat = useMemo(() => new THREE.MeshStandardMaterial({ ...holz, color: "#b8845a", roughness: 0.85 }), [holz]);
 
-  const teile = useMemo(
+  const geos = useMemo(
     () =>
-      boxen.map((b: Box) => {
-        const hoehe = b.k * H;
-        // Eingangsseite (Westwand, x = 80) bekommt eine vertikale Holzverschalung
-        const verschalt = b.aussen && b.x === 80 && b.w === 12;
-        return {
-          geo: metrischeBox(b.w * S, hoehe, b.d * S, verschalt ? 1.2 : 2.5),
-          pos: [px(b.x + b.w / 2), b.z0 * H + hoehe / 2, pz(b.y + b.d / 2)] as const,
-          aussen: b.aussen,
-          verschalt,
-        };
+      teile.map((t) => {
+        const kern = metrischeBox(t.w, t.h, t.d, 1.4);
+        kern.translate(0, t.h / 2, 0);
+        // Putz trägt 1,5 cm pro Seite auf
+        const schale = metrischeBox(t.w + 0.03, t.h, t.d + 0.03, t.verschalt ? 1.2 : 2.5);
+        schale.translate(0, t.h / 2, 0);
+        return { kern, schale };
       }),
+    [teile],
+  );
+  const oben = useMemo(() => Math.max(...teile.map((t) => t.y0 + t.h)), [teile]);
+
+  useFrame(() => {
+    const front = phase(fortschritt.get(), "putz") * oben;
+    teile.forEach((t, i) => {
+      const m = schalen.current[i];
+      if (!m) return;
+      const lokal = clamp01((front - t.y0) / t.h);
+      m.visible = lokal > 0.001;
+      m.scale.y = Math.max(0.001, lokal);
+    });
+  });
+
+  return (
+    <>
+      {teile.map((t, i) => (
+        <group key={i} position={[t.x, t.y0, t.z]}>
+          <mesh geometry={geos[i].kern} material={ziegelMat} castShadow receiveShadow />
+          <mesh
+            ref={(el) => {
+              schalen.current[i] = el;
+            }}
+            geometry={geos[i].schale}
+            material={t.verschalt ? holzMat : putzMat}
+            visible={false}
+            castShadow
+            receiveShadow
+          />
+        </group>
+      ))}
+    </>
+  );
+}
+
+// ── Wände des Erdgeschoßes ──
+function Waende({ fortschritt }: { fortschritt: MotionValue<number> }) {
+  const gruppe = useRef<THREE.Group>(null);
+  const teile = useMemo<Teil[]>(
+    () =>
+      boxen.map((b: Box) => ({
+        w: b.w * S,
+        h: b.k * H,
+        d: b.d * S,
+        x: px(b.x + b.w / 2),
+        y0: b.z0 * H,
+        z: pz(b.y + b.d / 2),
+        // Eingangsseite (Westwand) bekommt statt Putz eine vertikale Holzverschalung
+        verschalt: b.aussen && b.x === 80 && b.w === 12,
+      })),
     [],
   );
 
-  const rohbau = new THREE.Color("#b8744f");
-  const weiss = new THREE.Color(1.22, 1.22, 1.2);
-  const holzFarbe = new THREE.Color("#b8845a");
-
   useFrame(() => {
-    const p = fortschritt.get();
-    const w = Math.max(0.001, phase(p, "wachsen"));
-    if (gruppe.current) gruppe.current.scale.y = w;
-    const u = phase(p, "putz");
-    aussenMat.color.copy(rohbau).lerp(weiss, u);
-    holzMat.color.copy(rohbau).lerp(holzFarbe, u);
+    if (gruppe.current) gruppe.current.scale.y = Math.max(0.001, phase(fortschritt.get(), "wachsen"));
   });
 
   return (
     <group ref={gruppe}>
-      {teile.map((t, i) => (
-        <mesh
-          key={i}
-          geometry={t.geo}
-          position={t.pos as unknown as THREE.Vector3Tuple}
-          material={t.verschalt ? holzMat : t.aussen ? aussenMat : innenMat}
-          castShadow
-          receiveShadow
-        />
-      ))}
+      <Mauerwerk teile={teile} fortschritt={fortschritt} />
     </group>
   );
 }
@@ -341,30 +364,6 @@ function Oeffnungen({ fortschritt }: { fortschritt: MotionValue<number> }) {
   );
 }
 
-// ── Satteldach mit Ziegeldeckung, Giebelwänden und Traufe ──
-const NEIGUNG = THREE.MathUtils.degToRad(35);
-const UEBERSTAND = 0.5;
-const HAUS = { x0: 80, x1: 520, y0: 40, y1: 370 };
-
-function giebelGeometrie(tiefe: number, first: number, dicke: number) {
-  const f = new THREE.Shape();
-  f.moveTo(-tiefe / 2, 0);
-  f.lineTo(tiefe / 2, 0);
-  f.lineTo(0, first);
-  f.closePath();
-  const g = new THREE.ExtrudeGeometry(f, { depth: dicke, bevelEnabled: false });
-  g.translate(0, 0, -dicke / 2);
-  // UVs in Metern, damit Putz- und Holztextur nicht verzerren
-  const uv = g.attributes.uv as THREE.BufferAttribute;
-  for (let i = 0; i < uv.count; i++) uv.setXY(i, uv.getX(i) / 2.2, uv.getY(i) / 2.2);
-  return g;
-}
-
-export function satteldachMasse(breite: number, tiefe: number) {
-  const halb = tiefe / 2 + UEBERSTAND;
-  return { halb, first: (tiefe / 2) * Math.tan(NEIGUNG), laenge: halb / Math.cos(NEIGUNG), breite: breite + 2 * UEBERSTAND };
-}
-
 // ── Obergeschoss (Wiener Doppelhaus-Stil): weiß verputzt, Flachdach mit Attika, Raffstoren ──
 const OG = { x0: 200, x1: 520, y0: 40, y1: 370 };
 const RAFF = "#3a3d41";
@@ -379,22 +378,50 @@ const OG_FENSTER: { x: number; z: number; ausr: "s" | "n" | "o"; b: number; h: n
   { x: 6.05, z: 1.7, ausr: "o", b: 1.4, h: 1.2, sohle: 1.1 },
 ];
 
+// Obergeschoßwände als einzelne Mauerteile: Pfeiler, Brüstungen und Stürze um jede Fensteröffnung
+function ogWandteile(): Teil[] {
+  const t = 12 * S;
+  const xa = px(OG.x0);
+  const xb = px(OG.x1);
+  const za = pz(OG.y0);
+  const zb = pz(OG.y1);
+  const teile: Teil[] = [];
+  const lauf = (entlangX: boolean, fest: number, von: number, bis: number, offen: { c: number; b: number; sohle: number; h: number }[]) => {
+    const setze = (a: number, e: number, y0: number, h: number) => {
+      if (e - a < 0.01 || h < 0.01) return;
+      const m = (a + e) / 2;
+      teile.push(entlangX ? { w: e - a, h, d: t, x: m, y0, z: fest } : { w: t, h, d: e - a, x: fest, y0, z: m });
+    };
+    let pos = von;
+    for (const o of [...offen].sort((p, q) => p.c - q.c)) {
+      const a = o.c - o.b / 2;
+      const e = o.c + o.b / 2;
+      setze(pos, a, 0, H);
+      setze(a, e, 0, o.sohle);
+      setze(a, e, o.sohle + o.h, H - o.sohle - o.h);
+      pos = e;
+    }
+    setze(pos, bis, 0, H);
+  };
+  const fenster = (ausr: "s" | "n" | "o") =>
+    OG_FENSTER.filter((f) => f.ausr === ausr).map((f) => ({ c: ausr === "o" ? f.z : f.x, b: f.b, sohle: f.sohle, h: f.h }));
+  lauf(true, zb - t / 2, xa, xb, fenster("s"));
+  lauf(true, za + t / 2, xa, xb, fenster("n"));
+  lauf(false, xb - t / 2, za + t, zb - t, fenster("o"));
+  lauf(false, xa + t / 2, za + t, zb - t, []);
+  return teile;
+}
+
 function Obergeschoss({ fortschritt }: { fortschritt: MotionValue<number> }) {
-  const putz = useSatz("putz");
+  const beton = useSatz("beton");
   const gruppe = useRef<THREE.Group>(null);
+  const decke = useRef<THREE.Mesh>(null);
   const fensterGr = useRef<THREE.Group>(null);
-  const b = (OG.x1 - OG.x0) * S;
-  const t = (OG.y1 - OG.y0) * S;
-  const cx = px((OG.x0 + OG.x1) / 2);
-  const cz = pz((OG.y0 + OG.y1) / 2);
-  const wand = useMemo(() => metrischeBox(b, H, t, 2.5), [b, t]);
-  const mat = useMemo(() => new THREE.MeshStandardMaterial({ ...putz, color: "#b8744f", roughness: 1 }), [putz]);
+  const teile = useMemo(() => ogWandteile(), []);
+  const deckeGeo = useMemo(() => metrischeBox((520 - 80) * S, 0.22, (370 - 40) * S, 3), []);
   const glas = useMemo(() => new THREE.MeshPhysicalMaterial({ color: "#a9bcc8", roughness: 0.04, transparent: true, opacity: 0.35, envMapIntensity: 1.6, clearcoat: 1 }), []);
   const rahmen = useMemo(() => new THREE.MeshStandardMaterial({ color: "#2c2f33", metalness: 0.55, roughness: 0.35 }), []);
   const licht = useMemo(() => new THREE.MeshBasicMaterial({ color: new THREE.Color(0, 0, 0), toneMapped: false }), []);
-  const rohbau = new THREE.Color("#b8744f");
-  const weiss = new THREE.Color(1.22, 1.22, 1.2);
-
   useFrame(() => {
     const p = fortschritt.get();
     const g = phase(p, "og");
@@ -402,18 +429,26 @@ function Obergeschoss({ fortschritt }: { fortschritt: MotionValue<number> }) {
       gruppe.current.visible = g > 0.001;
       gruppe.current.scale.y = Math.max(0.001, g);
     }
-    mat.color.copy(rohbau).lerp(weiss, phase(p, "putz"));
+    // Die Decke wird betoniert, bevor das Obergeschoß gemauert wird
+    const d = abschnitt(p, PHASE.og[0] - 0.025, PHASE.og[0]);
+    if (decke.current) {
+      decke.current.visible = d > 0.001;
+      decke.current.scale.y = Math.max(0.001, d);
+    }
     const f = phase(p, "fenster");
     if (fensterGr.current) fensterGr.current.visible = f > 0.01;
     glas.opacity = 0.35 * f;
     const l = phase(p, "abend");
-    licht.color.setRGB(2.4 * l, 1.6 * l, 0.8 * l);
+    licht.color.setRGB(1.1 * l, 0.75 * l, 0.4 * l);
   });
 
   return (
     <>
-      <group ref={gruppe} position={[cx, H, cz]}>
-        <mesh geometry={wand} position={[0, H / 2, 0]} material={mat} castShadow receiveShadow />
+      <mesh ref={decke} geometry={deckeGeo} position={[px(300), H - 0.11, pz(205)]} castShadow receiveShadow visible={false}>
+        <meshStandardMaterial {...beton} color="#e4e0d8" roughness={0.95} />
+      </mesh>
+      <group ref={gruppe} position={[0, H, 0]}>
+        <Mauerwerk teile={teile} fortschritt={fortschritt} />
       </group>
       <group ref={fensterGr}>
         {OG_FENSTER.map((f, i) => {
@@ -665,126 +700,7 @@ function Instanzen({
   );
 }
 
-// Pseudo-Zufall mit festem Startwert, damit jede Ladung gleich aussieht
-function zufall(start: number) {
-  let s = start;
-  return () => {
-    s = (s * 16807) % 2147483647;
-    return (s - 1) / 2147483646;
-  };
-}
-
-function linie(von: [number, number], bis: [number, number], abstand: number, seed: number): Ort[] {
-  const r = zufall(seed);
-  const dx = bis[0] - von[0];
-  const dz = bis[1] - von[1];
-  const n = Math.max(1, Math.round(Math.hypot(dx, dz) / abstand));
-  return Array.from({ length: n + 1 }, (_, i) => ({
-    x: von[0] + (dx * i) / n + (r() - 0.5) * 0.25,
-    z: von[1] + (dz * i) / n + (r() - 0.5) * 0.25,
-    s: 0.85 + r() * 0.35,
-    rot: r() * Math.PI * 2,
-  }));
-}
-
-// ── Prozedurale Vegetation: verformte Kugeln/Quader mit echter Blatttextur, Stämme mit Rinde ──
-function blattGeometrie(art: "kugel" | "hecke", seed: number) {
-  const r = zufall(seed);
-  const roh = art === "kugel" ? new THREE.SphereGeometry(1, 32, 22) : new THREE.BoxGeometry(1, 1, 1, 12, 12, 12);
-  // gemeinsame Eckpunkte, damit die Normalen glatt berechnet werden (keine Facetten)
-  roh.deleteAttribute("normal");
-  const uv0 = roh.getAttribute("uv");
-  roh.deleteAttribute("uv");
-  const g = mergeVertices(roh, 1e-4);
-  if (uv0) g.setAttribute("uv", new THREE.BufferAttribute(new Float32Array(g.attributes.position.count * 2), 2));
-  {
-    const pp = g.attributes.position as THREE.BufferAttribute;
-    const uu = g.attributes.uv as THREE.BufferAttribute;
-    for (let i = 0; i < pp.count; i++) uu.setXY(i, pp.getX(i) * 0.5 + pp.getZ(i) * 0.5, pp.getY(i) * 0.5 + pp.getX(i) * 0.25);
-  }
-  const pos = g.attributes.position as THREE.BufferAttribute;
-  const v = new THREE.Vector3();
-  const phasen = [r() * 6, r() * 6, r() * 6];
-  for (let i = 0; i < pos.count; i++) {
-    v.fromBufferAttribute(pos, i);
-    if (art === "hecke") {
-      // Rundung an den Kanten, wie ein geschnittener Heckenkörper
-      const n = v.clone().normalize();
-      v.lerp(n.multiplyScalar(0.72), 0.55);
-    }
-    const w = 1 + 0.09 * Math.sin(v.x * 5 + phasen[0]) * Math.sin(v.y * 4 + phasen[1]) + 0.06 * Math.sin(v.z * 7 + phasen[2]);
-    v.multiplyScalar(w);
-    pos.setXYZ(i, v.x, v.y, v.z);
-  }
-  g.computeVertexNormals();
-  const uv = g.attributes.uv as THREE.BufferAttribute;
-  for (let i = 0; i < uv.count; i++) uv.setXY(i, uv.getX(i) * 3, uv.getY(i) * 3);
-  return g;
-}
-
-function Vegetation({
-  fortschritt,
-  baeume,
-  hecken,
-  kugeln,
-}: {
-  fortschritt: MotionValue<number>;
-  baeume: { x: number; z: number; h: number; rot: number }[];
-  hecken: { x: number; z: number; b: number; t: number; h: number }[];
-  kugeln: { x: number; z: number; r: number; farbe: string }[];
-}) {
-  const blatt = useSatz("blatt");
-  const rinde = useSatz("rinde");
-  const gruppe = useRef<THREE.Group>(null);
-  const kugelGeo = useMemo(() => [blattGeometrie("kugel", 11), blattGeometrie("kugel", 23), blattGeometrie("kugel", 37)], []);
-  const heckeGeo = useMemo(() => blattGeometrie("hecke", 5), []);
-  const gruen = ["#4d7a34", "#5b8a3c", "#3f6b2c", "#68943f"];
-
-  useFrame(() => {
-    const g = phase(fortschritt.get(), "pflanzen");
-    if (gruppe.current) {
-      gruppe.current.visible = g > 0.001;
-      gruppe.current.scale.setScalar(Math.max(0.001, g));
-    }
-  });
-
-  return (
-    <group ref={gruppe}>
-      {baeume.map((b, i) => (
-        <group key={i} position={[b.x, 0, b.z]} rotation-y={b.rot} scale={b.h / 5}>
-          <mesh position={[0, 1.2, 0]} castShadow>
-            <cylinderGeometry args={[0.11, 0.2, 2.4, 10]} />
-            <meshStandardMaterial {...rinde} color="#8a7a6c" />
-          </mesh>
-          {[
-            [0, 3.5, 0, 1.75],
-            [-0.95, 3.0, 0.4, 1.25],
-            [1.0, 3.15, -0.3, 1.3],
-            [0.2, 4.2, 0.7, 1.1],
-            [-0.2, 3.9, -0.9, 1.15],
-          ].map(([x, y, z, r], k) => (
-            <mesh key={k} geometry={kugelGeo[k % 3]} position={[x, y, z]} scale={[r, r * 0.88, r]} castShadow receiveShadow>
-              <meshStandardMaterial {...blatt} color={gruen[k % 4]} roughness={0.95} />
-            </mesh>
-          ))}
-        </group>
-      ))}
-      {hecken.map((h, i) => (
-        <mesh key={`h-${i}`} geometry={heckeGeo} position={[h.x, h.h / 2, h.z]} scale={[h.b, h.h, h.t]} castShadow receiveShadow>
-          <meshStandardMaterial {...blatt} color="#4a7632" roughness={0.95} />
-        </mesh>
-      ))}
-      {kugeln.map((k, i) => (
-        <mesh key={`k-${i}`} geometry={kugelGeo[i % 3]} position={[k.x, k.r * 0.85, k.z]} scale={[k.r, k.r * 0.85, k.r]} castShadow receiveShadow>
-          <meshStandardMaterial {...blatt} color={k.farbe} roughness={0.95} />
-        </mesh>
-      ))}
-    </group>
-  );
-}
-
 // ── Außenanlage in Metern: Haus x −6,05 … 6,05, z −4,54 … 4,54, Eingang im Westen, Straße im Westen ──
-const G = { x0: -10.5, x1: 12, z0: -9, z1: 14 };
 
 function Flaeche({ satz, x0, x1, z0, z1, h = 0.06, kachel = 1.5, farbe = "#ffffff" }: { satz: Satz; x0: number; x1: number; z0: number; z1: number; h?: number; kachel?: number; farbe?: string }) {
   const geo = useMemo(() => metrischeBox(x1 - x0, h, z1 - z0, kachel), [x0, x1, z0, z1, h, kachel]);
@@ -795,70 +711,148 @@ function Flaeche({ satz, x0, x1, z0, z1, h = 0.06, kachel = 1.5, farbe = "#fffff
   );
 }
 
+// Wellen für die Wasseroberfläche: kachelbare Normal-Map aus überlagerten Sinuswellen
+function wasserNormalen() {
+  const n = 256;
+  const c = document.createElement("canvas");
+  c.width = c.height = n;
+  const ctx = c.getContext("2d")!;
+  const bild = ctx.createImageData(n, n);
+  const h = (x: number, y: number) => {
+    const u = (x / n) * Math.PI * 2;
+    const v = (y / n) * Math.PI * 2;
+    return Math.sin(u * 3 + v * 2) * 0.5 + Math.sin(u * 5 - v * 4 + 1.3) * 0.3 + Math.sin(u * 9 + v * 7 + 2.1) * 0.15 + Math.sin(-u * 13 + v * 11) * 0.08;
+  };
+  for (let y = 0; y < n; y++) {
+    for (let x = 0; x < n; x++) {
+      const dx = h(x + 1, y) - h(x - 1, y);
+      const dy = h(x, y + 1) - h(x, y - 1);
+      const v = new THREE.Vector3(-dx * 2.5, -dy * 2.5, 1).normalize();
+      const i = (y * n + x) * 4;
+      bild.data[i] = (v.x * 0.5 + 0.5) * 255;
+      bild.data[i + 1] = (v.y * 0.5 + 0.5) * 255;
+      bild.data[i + 2] = (v.z * 0.5 + 0.5) * 255;
+      bild.data[i + 3] = 255;
+    }
+  }
+  ctx.putImageData(bild, 0, 0);
+  const t = new THREE.CanvasTexture(c);
+  t.wrapS = t.wrapT = THREE.RepeatWrapping;
+  t.repeat.set(3, 1.6);
+  return t;
+}
+
+// Rasenfläche mit Loch fürs Poolbecken; UVs in Metern
+const POOL = { x0: -3.5, x1: 4.5, z0: 7.45, z1: 11.55, tiefe: 1.45 };
+const RASEN_R = 20;
+
+function rasenGeometrie() {
+  const form = new THREE.Shape();
+  form.absarc(0, 0, RASEN_R, 0, Math.PI * 2, false);
+  const loch = new THREE.Path();
+  // Shape liegt in x/y; nach der Drehung um −90° wird y zu −z
+  loch.moveTo(POOL.x0, -POOL.z0);
+  loch.lineTo(POOL.x0, -POOL.z1);
+  loch.lineTo(POOL.x1, -POOL.z1);
+  loch.lineTo(POOL.x1, -POOL.z0);
+  loch.closePath();
+  form.holes.push(loch);
+  const g = new THREE.ShapeGeometry(form, 96);
+  const pos = g.attributes.position as THREE.BufferAttribute;
+  const uv = g.attributes.uv as THREE.BufferAttribute;
+  for (let i = 0; i < uv.count; i++) uv.setXY(i, pos.getX(i) / 2.2, pos.getY(i) / 2.2);
+  return g;
+}
+
+// Rand des Grundstücks: der Rasen läuft weich in die Wiese des Umgebungsfotos aus
+function rasenRand() {
+  const g = new THREE.RingGeometry(RASEN_R - 0.01, RASEN_R + 16, 128, 8);
+  const pos = g.attributes.position as THREE.BufferAttribute;
+  const uv = g.attributes.uv as THREE.BufferAttribute;
+  const farben = new Float32Array(pos.count * 4);
+  for (let i = 0; i < pos.count; i++) {
+    const r = Math.hypot(pos.getX(i), pos.getY(i));
+    uv.setXY(i, pos.getX(i) / 2.2, pos.getY(i) / 2.2);
+    const a = 1 - glatt(clamp01((r - RASEN_R) / 16));
+    farben.set([1, 1, 1, a], i * 4);
+  }
+  g.setAttribute("color", new THREE.BufferAttribute(farben, 4));
+  return g;
+}
+
 function Garten({ fortschritt }: { fortschritt: MotionValue<number> }) {
   const rasen = useSatz("rasen");
   const deck = useSatz("deck");
   const beton = useSatz("beton");
   const rand = useSatz("rand");
-  const rasenMat = useRef<THREE.MeshStandardMaterial>(null);
   const flach = useRef<THREE.Group>(null);
   const leuchte = useMemo(() => new THREE.MeshBasicMaterial({ color: new THREE.Color(0, 0, 0), toneMapped: false }), []);
+  const rasenGeo = useMemo(() => rasenGeometrie(), []);
+  const randGeo = useMemo(() => rasenRand(), []);
+  const wellen = useMemo(() => wasserNormalen(), []);
+  const wasser = useMemo(
+    () =>
+      new THREE.MeshPhysicalMaterial({
+        color: "#f4fdfe",
+        roughness: 0.02,
+        metalness: 0,
+        transmission: 1,
+        thickness: POOL.tiefe,
+        ior: 1.333,
+        attenuationColor: new THREE.Color("#2a93a8"),
+        attenuationDistance: 6,
+        normalMap: wellen,
+        normalScale: new THREE.Vector2(0.18, 0.18),
+        envMapIntensity: 1.2,
+      }),
+    [wellen],
+  );
+  const fliese = useMemo(() => new THREE.MeshStandardMaterial({ ...rand, color: "#dcf3f7", roughness: 0.3 }), [rand]);
 
   useLayoutEffect(() => {
-    rasen.map.repeat.set(40, 40);
-    rasen.normalMap.repeat.set(40, 40);
-    rasen.roughnessMap.repeat.set(40, 40);
+    for (const t of [rasen.map, rasen.normalMap, rasen.roughnessMap]) t.repeat.set(1, 1);
   }, [rasen]);
 
   // Heller Grund wie der Seitenhintergrund, bis der Garten entsteht
-  const grund = useMemo(() => new THREE.MeshBasicMaterial({ color: "#eeece5", transparent: true, toneMapped: false }), []);
-  useFrame(() => {
+  const grund = useMemo(() => new THREE.MeshBasicMaterial({ color: "#eeece5", transparent: true, toneMapped: false, depthWrite: false }), []);
+  useFrame((_, dt) => {
     const p = fortschritt.get();
     const g = phase(p, "garten");
     grund.opacity = 1 - g;
+    grund.visible = g < 0.999;
     if (flach.current) flach.current.visible = g > 0.02;
     const l = phase(p, "abend");
-    leuchte.color.setRGB(3 * l, 2.2 * l, 1.2 * l);
+    leuchte.color.setRGB(1.6 * l, 1.2 * l, 0.7 * l);
+    wellen.offset.x += dt * 0.012;
+    wellen.offset.y += dt * 0.007;
   });
 
-  // Wenig, aber gezielt gesetztes Grün: Fokus bleibt auf dem Haus
-  const hecken = [
-    { x: (G.x0 + G.x1) / 2 + 0.3, z: G.z0 + 0.3, b: G.x1 - G.x0 - 1, t: 1.0, h: 1.8 },
-    { x: G.x1 - 0.3, z: (G.z0 - 1.4) / 2, b: 1.0, t: -G.z0 - 1.4 + 0.6, h: 1.8 },
-  ];
-  const baeume = [
-    { x: 9.4, z: -3.6, h: 5.6, rot: 0.4 },
-    { x: 9.7, z: 5.2, h: 4.8, rot: 2.1 },
-  ];
-  const kugeln = [
-    { x: -6.6, z: -1.2, r: 0.55, farbe: "#5b8a3c" },
-    { x: -6.7, z: 1.4, r: 0.5, farbe: "#4d7a34" },
-    { x: -5.5, z: 4.8, r: 0.5, farbe: "#68943f" },
-    { x: 4.9, z: 4.8, r: 0.55, farbe: "#5b8a3c" },
-    { x: 8.4, z: 8.4, r: 0.6, farbe: "#4d7a34" },
-    { x: 8.5, z: 10.6, r: 0.5, farbe: "#68943f" },
-    { x: -5.9, z: 13.4, r: 0.55, farbe: "#5b8a3c" },
-    { x: 6.9, z: 13.3, r: 0.6, farbe: "#4d7a34" },
-  ];
   const platten = Array.from({ length: 5 }, (_, i) => -10 + i * 0.8);
+  const bw = POOL.x1 - POOL.x0;
+  const bt = POOL.z1 - POOL.z0;
+  const bx = (POOL.x0 + POOL.x1) / 2;
+  const bz = (POOL.z0 + POOL.z1) / 2;
 
   return (
     <>
-      {/* Rasen (zu Beginn neutraler Baugrund unter dem Planblatt) */}
-      <mesh rotation-x={-Math.PI / 2} position={[0, -0.02, 0]} receiveShadow>
-        <circleGeometry args={[90, 64]} />
-        <meshStandardMaterial ref={rasenMat} {...rasen} color="#b9d98a" roughness={1} />
+      <mesh geometry={rasenGeo} rotation-x={-Math.PI / 2} position={[0, -0.02, 0]} receiveShadow>
+        <meshStandardMaterial {...rasen} color="#e4f5b8" roughness={1} />
       </mesh>
-      <mesh rotation-x={-Math.PI / 2} position={[0, 0.005, 0]} material={grund}>
-        <circleGeometry args={[90, 64]} />
+      <mesh geometry={randGeo} rotation-x={-Math.PI / 2} position={[0, -0.025, 0]} receiveShadow>
+        <meshStandardMaterial {...rasen} color="#e4f5b8" roughness={1} vertexColors transparent depthWrite={false} />
+      </mesh>
+      <mesh rotation-x={-Math.PI / 2} position={[0, 0.005, 0]} material={grund} renderOrder={1}>
+        <circleGeometry args={[RASEN_R + 60, 64]} />
       </mesh>
 
       <group ref={flach}>
         {/* Holzterrasse vor dem Wohnbereich */}
         <Flaeche satz={deck} x0={-5.6} x1={5.6} z0={4.6} z1={6.9} h={0.14} kachel={2} farbe="#c79a6a" />
-        {/* Steinterrasse rund um den Pool */}
-        <Flaeche satz={rand} x0={-5.6} x1={8.2} z0={6.9} z1={12.7} h={0.05} kachel={1.2} farbe="#e4ded3" />
-        {/* Pool 8 × 4 m mit Einfassung */}
+        {/* Steinterrasse rund um den Pool (das Becken bleibt offen) */}
+        <Flaeche satz={rand} x0={-5.6} x1={-4} z0={6.9} z1={12.7} h={0.05} kachel={1.2} farbe="#e4ded3" />
+        <Flaeche satz={rand} x0={5} x1={8.2} z0={6.9} z1={12.7} h={0.05} kachel={1.2} farbe="#e4ded3" />
+        <Flaeche satz={rand} x0={-4} x1={5} z0={12.05} z1={12.7} h={0.05} kachel={1.2} farbe="#e4ded3" />
+        {/* Beckenrand */}
         {[
           [-4, 5, 6.95, 7.45],
           [-4, 5, 11.55, 12.05],
@@ -867,22 +861,25 @@ function Garten({ fortschritt }: { fortschritt: MotionValue<number> }) {
         ].map(([x0, x1, z0, z1], i) => (
           <Flaeche key={i} satz={rand} x0={x0} x1={x1} z0={z0} z1={z1} h={0.14} kachel={0.8} farbe="#ece7dd" />
         ))}
-        <mesh rotation-x={-Math.PI / 2} position={[0.5, 0.1, 9.5]}>
-          <planeGeometry args={[8, 4.1]} />
-          <MeshReflectorMaterial
-            resolution={1024}
-            mirror={0.8}
-            mixStrength={4}
-            mixBlur={0.8}
-            blur={[200, 60]}
-            color="#2a9cb6"
-            roughness={0.12}
-            metalness={0.25}
-            depthScale={0}
-          />
+        {/* Becken: gefliester Boden und Wände, darüber das Wasser */}
+        <mesh position={[bx, -POOL.tiefe, bz]} rotation-x={-Math.PI / 2} material={fliese} receiveShadow>
+          <planeGeometry args={[bw, bt]} />
+        </mesh>
+        {[
+          [bx, bz - bt / 2, bw, 0],
+          [bx, bz + bt / 2, bw, Math.PI],
+          [bx - bw / 2, bz, bt, Math.PI / 2],
+          [bx + bw / 2, bz, bt, -Math.PI / 2],
+        ].map(([x, z, breite, dreh], i) => (
+          <mesh key={`w-${i}`} position={[x, -POOL.tiefe / 2 + 0.07, z]} rotation-y={dreh} material={fliese} receiveShadow>
+            <planeGeometry args={[breite, POOL.tiefe + 0.14]} />
+          </mesh>
+        ))}
+        <mesh position={[bx, 0.02, bz]} rotation-x={-Math.PI / 2} material={wasser}>
+          <planeGeometry args={[bw, bt]} />
         </mesh>
 
-        {/* Zugang: Trittplatten vom Gehsteig zur Haustür, Pollerleuchten */}
+        {/* Zugang: Trittplatten zur Haustür, Pollerleuchten */}
         {platten.map((x, i) => (
           <Flaeche key={i} satz={beton} x0={x} x1={x + 0.65} z0={-0.45} z1={0.65} h={0.05} kachel={1} farbe="#d9d5cc" />
         ))}
@@ -917,115 +914,42 @@ function Garten({ fortschritt }: { fortschritt: MotionValue<number> }) {
         ))}
       </group>
 
-      <Vegetation fortschritt={fortschritt} baeume={baeume} hecken={hecken} kugeln={kugeln} />
+      {/* Echte Baummodelle (Poly Haven, CC0) statt gezeichneter Kugeln */}
+      <Instanzen
+        url="/3d/models/baum_1.glb"
+        orte={[
+          { x: 9.6, z: -3.4, s: 1.1, rot: 0.4 },
+          { x: -9, z: -6.8, s: 0.95, rot: 2.2 },
+          { x: 19, z: -3, s: 1.25, rot: 4.1 },
+          { x: -16, z: 4, s: 1.3, rot: 1.1 },
+          { x: 4, z: -15, s: 1.2, rot: 5.3 },
+        ]}
+        zielHoehe={6}
+        fortschritt={fortschritt}
+      />
+      <Instanzen
+        url="/3d/models/baum_2.glb"
+        orte={[
+          { x: 10.2, z: 5.6, s: 1, rot: 2.6 },
+          { x: -12, z: 12.5, s: 1.15, rot: 0.3 },
+          { x: 13.5, z: -10, s: 1.3, rot: 3.3 },
+          { x: -14, z: -11, s: 1.2, rot: 5.9 },
+        ]}
+        zielHoehe={6.5}
+        fortschritt={fortschritt}
+      />
       <Instanzen url="/3d/models/outdoor_table_chair_set_01.glb" orte={[{ x: -3.2, z: 5.75, rot: 0 }]} zielHoehe={0.95} fortschritt={fortschritt} />
       <Instanzen
         url="/3d/models/potted_plant_02.glb"
         orte={[
           { x: -6.7, z: -0.9, s: 1 },
           { x: -6.7, z: 1.15, s: 0.9 },
+          { x: 4.9, z: 4.9, s: 1.1 },
         ]}
         zielHoehe={1.1}
         fortschritt={fortschritt}
       />
     </>
-  );
-}
-
-// ── Umgebung: Wohnstraße, Gehsteig, Zaun und Nachbarhäuser (Wiener Stadtrand) ──
-function Nachbarhaus({ x, z, b, t, farbe, drehung = 0 }: { x: number; z: number; b: number; t: number; farbe: string; drehung?: number }) {
-  const ziegel = useSatz("dach");
-  const putz = useSatz("putz");
-  const hoehe = 3;
-  const m = satteldachMasse(b, t);
-  const flaeche = useMemo(() => metrischeBox(m.breite, 0.2, m.laenge, 1.6), [m.breite, m.laenge]);
-  const giebel = useMemo(() => giebelGeometrie(t, m.first, 0.3), [t, m.first]);
-  const koerper = useMemo(() => metrischeBox(b, hoehe, t, 2.5), [b, t]);
-  return (
-    <group position={[x, 0, z]} rotation-y={drehung}>
-      <mesh geometry={koerper} position={[0, hoehe / 2, 0]} castShadow receiveShadow>
-        <meshStandardMaterial {...putz} color={farbe} roughness={1} />
-      </mesh>
-      {[-1, 1].map((sx) => (
-        <mesh key={sx} geometry={giebel} position={[(sx * b) / 2 - sx * 0.15, hoehe, 0]} rotation-y={Math.PI / 2} castShadow>
-          <meshStandardMaterial {...putz} color={farbe} roughness={1} />
-        </mesh>
-      ))}
-      {[1, -1].map((seite) => (
-        <mesh key={seite} geometry={flaeche} position={[0, hoehe + m.first / 2 + 0.1, (seite * (t / 2 + UEBERSTAND)) / 2]} rotation-x={seite * NEIGUNG} castShadow receiveShadow>
-          <meshStandardMaterial {...ziegel} color="#7c6f69" roughness={0.9} />
-        </mesh>
-      ))}
-      {/* angedeutete Fenster */}
-      {[-0.3, 0.3].map((f) => (
-        <mesh key={f} position={[f * b, 1.6, t / 2 + 0.01]}>
-          <planeGeometry args={[1.3, 1.3]} />
-          <meshStandardMaterial color="#30363c" metalness={0.3} roughness={0.2} />
-        </mesh>
-      ))}
-    </group>
-  );
-}
-
-function Umgebung({ fortschritt }: { fortschritt: MotionValue<number> }) {
-  const asphalt = useSatz("asphalt");
-  const beton = useSatz("beton");
-  const putz = useSatz("putz");
-  const gruppe = useRef<THREE.Group>(null);
-  const lampe = useMemo(() => new THREE.MeshBasicMaterial({ color: new THREE.Color(0, 0, 0), toneMapped: false }), []);
-  useFrame(() => {
-    const p = fortschritt.get();
-    if (gruppe.current) gruppe.current.visible = phase(p, "garten") > 0.02;
-    const l = phase(p, "abend");
-    lampe.color.setRGB(4 * l, 3 * l, 1.8 * l);
-  });
-  const zaun = useMemo(() => metrischeBox(0.25, 0.7, 1, 2.5), []);
-  return (
-    <group ref={gruppe}>
-      <Flaeche satz={asphalt} x0={-18.5} x1={-12.2} z0={-70} z1={70} h={0.02} kachel={4} farbe="#8a8a8a" />
-      <Flaeche satz={beton} x0={-12.2} x1={-10.6} z0={-70} z1={70} h={0.12} kachel={1.5} farbe="#cfcbc3" />
-      <Flaeche satz={beton} x0={-20.1} x1={-18.5} z0={-70} z1={70} h={0.12} kachel={1.5} farbe="#cfcbc3" />
-      {/* Sockelmauer mit Lattenzaun zur Straße, Öffnung am Zugang */}
-      {[
-        [G.z0, -0.7],
-        [0.9, G.z1],
-      ].map(([z0, z1], i) => (
-        <group key={i}>
-          <mesh geometry={zaun} scale={[1, 1, z1 - z0]} position={[G.x0, 0.35, (z0 + z1) / 2]} castShadow receiveShadow>
-            <meshStandardMaterial {...putz} color="#e9e5de" roughness={1} />
-          </mesh>
-          {Array.from({ length: Math.floor((z1 - z0) / 0.14) }, (_, k) => (
-            <mesh key={k} position={[G.x0, 1.05, z0 + 0.07 + k * 0.14]} castShadow>
-              <boxGeometry args={[0.04, 0.7, 0.07]} />
-              <meshStandardMaterial color="#2e3135" metalness={0.4} roughness={0.5} />
-            </mesh>
-          ))}
-        </group>
-      ))}
-      {/* Straßenlaternen */}
-      {[-14, 8, 30].map((z) => (
-        <group key={z} position={[-11.9, 0, z]}>
-          <mesh position={[0, 2.5, 0]} castShadow>
-            <cylinderGeometry args={[0.05, 0.07, 5, 10]} />
-            <meshStandardMaterial color="#3a3d41" metalness={0.6} roughness={0.4} />
-          </mesh>
-          <mesh position={[-0.35, 5, 0]}>
-            <boxGeometry args={[0.8, 0.1, 0.22]} />
-            <meshStandardMaterial color="#3a3d41" metalness={0.6} roughness={0.4} />
-          </mesh>
-          <mesh position={[-0.55, 4.94, 0]} material={lampe}>
-            <boxGeometry args={[0.35, 0.02, 0.15]} />
-          </mesh>
-        </group>
-      ))}
-      {/* Nachbarhäuser */}
-      <Nachbarhaus x={-28} z={-14} b={11} t={8.5} farbe="#ece2d2" drehung={Math.PI / 2} />
-      <Nachbarhaus x={-28} z={6} b={10} t={8} farbe="#f1eee8" drehung={Math.PI / 2} />
-      <Nachbarhaus x={-29} z={26} b={12} t={9} farbe="#e3ddd3" drehung={Math.PI / 2} />
-      <Nachbarhaus x={1} z={-22} b={12} t={8.5} farbe="#e8e0d4" />
-      <Nachbarhaus x={3} z={27} b={11} t={8} farbe="#efebe4" drehung={Math.PI} />
-      <Nachbarhaus x={26} z={2} b={10} t={8} farbe="#e6e1d8" drehung={-Math.PI / 2} />
-    </group>
   );
 }
 
@@ -1104,17 +1028,22 @@ function Einrichtung({ fortschritt }: { fortschritt: MotionValue<number> }) {
   );
 }
 
-// ── Licht: Abendsonne, Innenbeleuchtung ──
+// ── Licht: Sonne passend zum Umgebungsfoto, gegen Ende etwas wärmer; Innenbeleuchtung ──
+const TAG = new THREE.Color("#fff3e2");
+const ABEND = new THREE.Color("#ffd9ae");
 function Licht({ fortschritt }: { fortschritt: MotionValue<number> }) {
   const sonne = useRef<THREE.DirectionalLight>(null);
   const raumLichter = useRef<(THREE.PointLight | null)[]>([]);
   useFrame(() => {
     const p = fortschritt.get();
     const abend = phase(p, "abend");
-    if (sonne.current) sonne.current.intensity = 3.2 - 1.4 * abend;
-    const innen = phase(p, "fenster") * (0.35 + 0.65 * abend);
+    if (sonne.current) {
+      sonne.current.intensity = 4.4 - 1.1 * abend;
+      sonne.current.color.copy(TAG).lerp(ABEND, abend);
+    }
+    const innen = phase(p, "fenster") * (0.2 + 0.8 * abend);
     raumLichter.current.forEach((l) => {
-      if (l) l.intensity = 9 * innen;
+      if (l) l.intensity = 3.5 * innen;
     });
   });
   return (
@@ -1122,8 +1051,8 @@ function Licht({ fortschritt }: { fortschritt: MotionValue<number> }) {
       <directionalLight
         ref={sonne}
         position={[-14, 9, 10]}
-        color="#ffc58f"
-        intensity={3.2}
+        color="#fff3e2"
+        intensity={4.4}
         castShadow
         shadow-mapSize={[2048, 2048]}
         shadow-bias={-0.0003}
@@ -1209,11 +1138,12 @@ export default function HausSzene({
       camera={{ fov: 32, near: 0.5, far: 200, position: [0, 25, 0.01] }}
       gl={{ antialias: false, toneMapping: THREE.NoToneMapping }}
     >
-      <color attach="background" args={["#d9c8b8"]} />
-      <fog attach="fog" args={["#d8c3ae", 55, 140]} />
+      <color attach="background" args={["#eeece5"]} />
       <SoftShadows size={14} samples={10} focus={0.6} />
       <Suspense fallback={null}>
-        <Environment files="/3d/himmel.hdr" background backgroundBlurriness={0.02} environmentIntensity={0.9} />
+        {/* Licht aus einem echten HDR-Panorama (Poly Haven „meadow_2“, CC0); Himmel und Horizont aus demselben Foto, auf den Boden projiziert */}
+        <Environment files="/3d/wiese.hdr" environmentIntensity={1.15} />
+        <Environment files="/3d/wiese.jpg" background="only" ground={{ height: 9, radius: 140, scale: 320 }} />
         <Licht fortschritt={fortschritt} />
         <PlanBlatt planSvg={planSvg} fortschritt={fortschritt} onBereit={onBereit} />
         <Boden fortschritt={fortschritt} />
@@ -1224,15 +1154,14 @@ export default function HausSzene({
         <Pergola fortschritt={fortschritt} />
         <Sockelfarbe fortschritt={fortschritt} />
         <Garten fortschritt={fortschritt} />
-        <Umgebung fortschritt={fortschritt} />
         <Einrichtung fortschritt={fortschritt} />
         <Kamera fortschritt={fortschritt} />
       </Suspense>
       <EffectComposer multisampling={0}>
         <N8AO halfRes aoRadius={1.4} intensity={2.4} distanceFalloff={0.6} />
-        <Bloom mipmapBlur luminanceThreshold={1} intensity={0.8} />
-        <ToneMapping mode={ToneMappingMode.ACES_FILMIC} />
-        <Vignette offset={0.25} darkness={0.45} />
+        <Bloom mipmapBlur luminanceThreshold={1.2} intensity={0.35} />
+        <ToneMapping mode={ToneMappingMode.NEUTRAL} />
+        <Vignette offset={0.3} darkness={0.3} />
         <SMAA />
       </EffectComposer>
     </Canvas>
@@ -1240,6 +1169,8 @@ export default function HausSzene({
 }
 
 for (const url of [
+  "/3d/models/baum_1.glb",
+  "/3d/models/baum_2.glb",
   "/3d/models/outdoor_table_chair_set_01.glb",
   "/3d/models/potted_plant_02.glb",
   "/3d/models/sofa_02.glb",

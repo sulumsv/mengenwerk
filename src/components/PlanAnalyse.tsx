@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
-import { AnimatePresence, motion, useMotionValueEvent, useScroll } from "motion/react";
+import { AnimatePresence, motion, useMotionValueEvent, useScroll, useSpring } from "motion/react";
 import { boxen, schlitze, RAEUME, FARBE, PLAN_W, PLAN_H, m2, NUTZFLAECHE, TUERBOEGEN } from "./haus/plan";
 
 // WebGL läuft nur im Browser; die Szene lädt ihre Modelle, während die ersten Kapitel gelesen werden.
@@ -176,6 +176,8 @@ export function PlanAnalyseSection() {
   }, []);
 
   const { scrollYProgress } = useScroll({ target: containerRef, offset: ["start start", "end end"] });
+  // Gedämpft wie eine Kamerafahrt: jeder Scroll-Ruck wird zu einer weichen Bewegung.
+  const weich = useSpring(scrollYProgress, { stiffness: 55, damping: 20, mass: 0.7, restDelta: 0.0002 });
 
   useMotionValueEvent(scrollYProgress, "change", (v) => {
     setKapitel(v < 0.12 ? 0 : v < 0.32 ? 1 : v < 0.56 ? 2 : v < 0.84 ? 3 : 4);
@@ -214,7 +216,7 @@ export function PlanAnalyseSection() {
 
         {/* Die 3D-Szene zeigt von Anfang an den Plan von oben; daraus wächst das Haus. */}
         <div className="absolute inset-0">
-          {planSvg && <HausSzene fortschritt={scrollYProgress} planSvg={planSvg} onBereit={() => setBereit(true)} />}
+          {planSvg && <HausSzene fortschritt={weich} planSvg={planSvg} onBereit={() => setBereit(true)} />}
         </div>
 
         {/* 2D-Plan nur als Platzhalter, bis die 3D-Szene geladen ist */}

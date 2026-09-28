@@ -1,4 +1,5 @@
 import { ANNAHMEN, verschnittFuer, type AnnahmeId } from "./annahmen";
+import { beschreibe, KEINE_KORREKTUREN, type Korrekturen } from "./korrekturen";
 import { findeLeistungsgruppen } from "./lbhb";
 import { findePreis, type Einheitspreise } from "./preise";
 import { normalisiereBegriff, suchbegriffe } from "./nachweise";
@@ -96,11 +97,34 @@ export function sortiereGeschosse(geschosse: string[]): string[] {
   return [...geschosse].sort((a, b) => geschossRang(a) - geschossRang(b) || a.localeCompare(b));
 }
 
-function geschosshoehe(kontext: PlanKontext, geschoss: string): number | null {
-  const eintrag = Object.entries(kontext.geschosshoehen).find(
-    ([g]) => g.toLowerCase() === geschoss.toLowerCase(),
-  );
-  return eintrag ? eintrag[1] : null;
+// Korrekturen des Nutzers gelten für genau einen Aufruf von baueMassenauszug.
+let korr: Korrekturen = KEINE_KORREKTUREN;
+
+/** Wert einer Annahme, vom Nutzer korrigiert oder aus dem Katalog. */
+function wert(id: AnnahmeId): number {
+  return korr.annahmen[id] ?? ANNAHMEN[id].wert;
+}
+
+/** Korrigierte Werte sind keine Annahmen mehr und werden nicht als solche markiert. */
+function nochAnnahme(id: AnnahmeId): boolean {
+  if (id === "raumhoheDachgeschoss" && korr.raumhoehe["*"] !== undefined) return false;
+  return korr.annahmen[id] === undefined;
+}
+
+const fuerGeschoss = (tabelle: Record<string, number>, geschoss: string) =>
+  Object.entries(tabelle).find(([g]) => g.toLowerCase() === geschoss.toLowerCase())?.[1];
+
+/**
+ * Lichte Raumhöhe eines Geschoßes: vom Nutzer für dieses Geschoß korrigiert,
+ * sonst aus dem Schnitt, sonst die allgemeine Korrektur. Null heißt: angenommen.
+ */
+function geschosshoehe(kontext: PlanKontext, geschoss: string): { wert: number; quelle: "schnitt" | "korrigiert" } | null {
+  const eigen = fuerGeschoss(korr.raumhoehe, geschoss);
+  if (eigen !== undefined) return { wert: eigen, quelle: "korrigiert" };
+  const schnitt = fuerGeschoss(kontext.geschosshoehen, geschoss);
+  if (schnitt !== undefined) return { wert: schnitt, quelle: "schnitt" };
+  const alle = korr.raumhoehe["*"];
+  return alle !== undefined ? { wert: alle, quelle: "korrigiert" } : null;
 }
 
 /** Sammelt Positionen eines Abschnitts und vergibt fortlaufende Nummern. */
@@ -123,7 +147,7 @@ class Sammler {
     preis?: string;
     zwischenwert?: boolean;
   }): void {
-    const annahmen = p.annahmen ?? [];
+    const annahmen = (p.annahmen ?? []).filter(nochAnnahme);
     this.positionen.push({
       nummer: `${this.abschnittsNummer}.${this.positionen.length + 1}`,
       bezeichnung: p.bezeichnung,
@@ -160,7 +184,7 @@ function abschnittErdarbeiten(kontext: PlanKontext, genutzt: Set<AnnahmeId>): Ab
     // Ohne bemaßte Gründungssohle bleibt nur die angenommene Plattenstärke als
     // Aushubtiefe — das unterschätzt den Aushub, weil Rollierung und
     // Sauberkeitsschicht fehlen. Deshalb als Annahme geführt.
-    const tiefe = sohle !== null ? Math.abs(sohle) : ANNAHMEN.bodenplattenstaerke.wert;
+    const tiefe = sohle !== null ? Math.abs(sohle) : wert("bodenplattenstaerke");
     const ausNachweis = sohle !== null;
     if (!ausNachweis) genutzt.add("bodenplattenstaerke");
 
@@ -224,7 +248,7 @@ function abschnittBoden(raeume: Raum[], genutzt: Set<AnnahmeId>): Abschnitt {
   const estrichFlaeche = summe(estrichRaeume.map((r) => r.flaeche_m2));
 
   if (estrichFlaeche > 0) {
-    const staerke = ANNAHMEN.estrichstaerke.wert;
+    const staerke = wert("estrichstaerke");
     const volumen = estrichFlaeche * staerke;
     genutzt.add("estrichstaerke");
     s.add({
@@ -239,7 +263,7 @@ function abschnittBoden(raeume: Raum[], genutzt: Set<AnnahmeId>): Abschnitt {
      preis: "estrich",
     });
 
-    const dichte = ANNAHMEN.estrichRohdichte.wert;
+    const dichte = wert("estrichRohdichte");
     genutzt.add("estrichRohdichte");
     s.add({
       bezeichnung: "Estrich — Liefermasse",
@@ -357,7 +381,7 @@ function abschnittRohbau(
   const plattenFlaeche = eg?.wert ?? null;
   const bgfGesamt = gesamt?.wert ?? null;
   if (plattenFlaeche) {
-    const staerke = ANNAHMEN.bodenplattenstaerke.wert;
+    const staerke = wert("bodenplattenstaerke");
     const v = plattenFlaeche * staerke;
     betonVolumina.push(v);
     genutzt.add("bodenplattenstaerke");
@@ -379,7 +403,7 @@ function abschnittRohbau(
   // trennen; dann bleibt die Position bewusst ohne Menge statt geraten.
   if (bgfGesamt && plattenFlaeche && bgfGesamt > plattenFlaeche) {
     const deckenFlaeche = bgfGesamt - plattenFlaeche;
-    const staerke = ANNAHMEN.geschossdeckenstaerke.wert;
+    const staerke = wert("geschossdeckenstaerke");
     const v = deckenFlaeche * staerke;
     betonVolumina.push(v);
     genutzt.add("geschossdeckenstaerke");
@@ -437,7 +461,7 @@ function abschnittRohbau(
       zwischenwert: true,
     });
 
-    const grad = ANNAHMEN.bewehrungsgrad.wert;
+    const grad = wert("bewehrungsgrad");
     genutzt.add("bewehrungsgrad");
     s.add({
       bezeichnung: "Bewehrung",
@@ -451,8 +475,8 @@ function abschnittRohbau(
   }
 
   if (fassadeBrutto) {
-    const anteil = ANNAHMEN.oeffnungsanteilFassade.wert;
-    const staerke = ANNAHMEN.aussenwandstaerke.wert;
+    const anteil = wert("oeffnungsanteilFassade");
+    const staerke = wert("aussenwandstaerke");
     const netto = fassadeBrutto * (1 - anteil);
     genutzt.add("oeffnungsanteilFassade");
     genutzt.add("aussenwandstaerke");
@@ -559,7 +583,7 @@ function abschnittFassade(
   // Abwicklungsfläche.
   const laenge = nw(kontext, "abwicklungslaenge");
   if (traufe !== null && laenge !== null) {
-    const zuschlag = ANNAHMEN.geruestZuschlag.wert;
+    const zuschlag = wert("geruestZuschlag");
     genutzt.add("geruestZuschlag");
     s.add({
       bezeichnung: "Fassadengerüst",
@@ -719,29 +743,37 @@ function abschnittAusbau(raeume: Raum[], kontext: PlanKontext, genutzt: Set<Anna
   }
 
   let wandGesamt = 0;
+  let malWand = 0;
   let hoeheFehlt = false;
 
   const sortiert = sortiereGeschosse([...nachGeschoss.keys()]);
   for (const geschoss of sortiert) {
     const gruppe = nachGeschoss.get(geschoss)!;
     const umfang = summe(gruppe.map((r) => r.umfang_m));
-    const ausSchnitt = geschosshoehe(kontext, geschoss);
-    const hoehe = ausSchnitt ?? ANNAHMEN.raumhoheDachgeschoss.wert;
-    if (ausSchnitt === null) {
+    const bekannt = geschosshoehe(kontext, geschoss);
+    const hoehe = bekannt?.wert ?? wert("raumhoheDachgeschoss");
+    if (bekannt === null) {
       hoeheFehlt = true;
       genutzt.add("raumhoheDachgeschoss");
     }
+    // Bei abgehängter Decke endet die Malerei an deren Unterkante, der Putz geht bis zur Rohdecke
+    const uk = fuerGeschoss(korr.deckenUnterkante, geschoss) ?? korr.deckenUnterkante["*"];
+    const malHoehe = uk !== undefined ? Math.min(uk, hoehe) : hoehe;
     const flaeche = umfang * hoehe;
     wandGesamt += flaeche;
+    malWand += umfang * malHoehe;
 
+    const herkunft = bekannt === null ? "(angenommen)" : bekannt.quelle === "schnitt" ? "(aus Schnitt)" : "(korrigiert)";
     s.add({
       bezeichnung: `Wandfläche ${geschoss}`,
       zwischenwert: true,
-      detail: `Umfang ${z(umfang)} lfm · lichte Höhe ${z(hoehe)} m ${ausSchnitt === null ? "(angenommen)" : "(aus Schnitt)"}`,
+      detail:
+        `Umfang ${z(umfang)} lfm · lichte Höhe ${z(hoehe)} m ${herkunft}` +
+        (uk !== undefined ? ` · Malerei bis UK abgehängte Decke ${z(malHoehe)} m` : ""),
       rechenweg: `${z(umfang)} lfm × ${z(hoehe)} m`,
       menge: flaeche,
       einheit: "m2",
-      annahmen: ausSchnitt === null ? ["raumhoheDachgeschoss"] : [],
+      annahmen: bekannt === null ? ["raumhoheDachgeschoss"] : [],
     });
   }
 
@@ -769,11 +801,11 @@ function abschnittAusbau(raeume: Raum[], kontext: PlanKontext, genutzt: Set<Anna
     });
   }
 
-  if (wandGesamt > 0 && decken > 0) {
+  if (malWand > 0 && decken > 0) {
     s.add({
       bezeichnung: "Malerei Wand + Decke",
-      rechenweg: `${z(wandGesamt)} + ${z(decken)}`,
-      menge: wandGesamt + decken,
+      rechenweg: `${z(malWand)} + ${z(decken)}`,
+      menge: malWand + decken,
       einheit: "m2",
       annahmen: hoeheFehlt ? ["raumhoheDachgeschoss"] : [],
       preis: "malerei",
@@ -782,8 +814,8 @@ function abschnittAusbau(raeume: Raum[], kontext: PlanKontext, genutzt: Set<Anna
 
   const nass = innen.filter((r) => r.nassraum);
   if (nass.length > 0) {
-    const hoehe = ANNAHMEN.fliesenspiegelhoehe.wert;
-    const tuerFlaeche = ANNAHMEN.tuerbreiteDurchgang.wert * ANNAHMEN.tuerhoeheDurchgang.wert;
+    const hoehe = wert("fliesenspiegelhoehe");
+    const tuerFlaeche = wert("tuerbreiteDurchgang") * wert("tuerhoeheDurchgang");
     genutzt.add("fliesenspiegelhoehe");
     genutzt.add("tuerbreiteDurchgang");
     genutzt.add("tuerhoeheDurchgang");
@@ -812,7 +844,7 @@ function abschnittAusbau(raeume: Raum[], kontext: PlanKontext, genutzt: Set<Anna
 
   for (const [belag, gruppe] of [...sockelGruppen].sort((a, b) => a[0].localeCompare(b[0]))) {
     const umfang = summe(gruppe.map((r) => r.umfang_m));
-    const abzug = gruppe.length * ANNAHMEN.tuerbreiteDurchgang.wert;
+    const abzug = gruppe.length * wert("tuerbreiteDurchgang");
     genutzt.add("tuerbreiteDurchgang");
     s.add({
       bezeichnung: `Sockelleiste ${belag}`,
@@ -918,7 +950,12 @@ function pruefpunkte(raeume: Raum[], kontext: PlanKontext): string[] {
     );
   }
 
-  if (Object.keys(kontext.geschosshoehen).length === 0) {
+  const korrigiert = beschreibe(korr);
+  if (korrigiert.length > 0) {
+    punkte.push(`Vom Nutzer korrigiert: ${korrigiert.join(" · ")}.`);
+  }
+
+  if (Object.keys(kontext.geschosshoehen).length === 0 && Object.keys(korr.raumhoehe).length === 0) {
     punkte.push(
       "Der Plansatz enthält keinen bemaßten Schnitt. Alle Wandhöhen und damit sämtliche Wand-, Putz- und Malereipositionen beruhen auf Annahmen.",
     );
@@ -999,7 +1036,17 @@ export function baueMassenauszug(
   raeume: Raum[],
   elemente: DetectedElement[],
   kontext: PlanKontext,
+  korrekturen: Korrekturen = KEINE_KORREKTUREN,
 ): Massenauszug {
+  korr = korrekturen;
+  try {
+    return baue(raeume, elemente, kontext);
+  } finally {
+    korr = KEINE_KORREKTUREN;
+  }
+}
+
+function baue(raeume: Raum[], elemente: DetectedElement[], kontext: PlanKontext): Massenauszug {
   const genutzt = new Set<AnnahmeId>();
 
   const erdarbeiten = abschnittErdarbeiten(kontext, genutzt);
@@ -1036,7 +1083,7 @@ export function baueMassenauszug(
     raeume,
     kennzahlen,
     abschnitte,
-    angewandteAnnahmen: [...genutzt].map((id) => {
+    angewandteAnnahmen: [...genutzt].filter(nochAnnahme).map((id) => {
       const a = ANNAHMEN[id];
       return { id: a.id, titel: a.titel, begruendung: a.begruendung, auswirkung: a.auswirkung };
     }),

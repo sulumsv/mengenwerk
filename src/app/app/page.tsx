@@ -9,6 +9,8 @@ import { planZuBlaettern } from "@/lib/plan-zu-bildern";
 import { lesePlanAusText, umfangAusFlaeche } from "@/lib/plan-lesen";
 import { baueMassenauszug } from "@/lib/ableitung";
 import { katalogInfo } from "@/lib/lbhb";
+import { KEINE_KORREKTUREN, istLeer, type Korrekturen } from "@/lib/korrekturen";
+import { KorrekturFeld } from "@/components/KorrekturFeld";
 
 type KatalogInfo = { katalog: string; version: string; vollstaendig: boolean };
 
@@ -170,6 +172,8 @@ export default function ToolPage() {
   const [textGrund, setTextGrund] = useState<string | null>(null);
   /** Manuell korrigierte Räume. Null heißt: Originalwerte aus der Auswertung verwenden. */
   const [bearbeiteteRaeume, setBearbeiteteRaeume] = useState<Raum[] | null>(null);
+  /** Korrekturen des Nutzers an Annahmen (Raumhöhe, Deckenunterkante, Stärken …). */
+  const [korrekturen, setKorrekturen] = useState<Korrekturen>(KEINE_KORREKTUREN);
   const inputRef = useRef<HTMLInputElement>(null);
 
   /**
@@ -218,6 +222,7 @@ export default function ToolPage() {
     setErgebnis(null);
     setTextGrund(null);
     setBearbeiteteRaeume(null);
+    setKorrekturen(KEINE_KORREKTUREN);
     setSchritt("Plan wird gelesen");
 
     try {
@@ -365,9 +370,10 @@ export default function ToolPage() {
 
         {ergebnis && "gruppen" in ergebnis && (() => {
           const effektiveRaeume = bearbeiteteRaeume ?? ergebnis.analyse.raeume;
-          const aktuellerAuszug = bearbeiteteRaeume
-            ? baueMassenauszug(effektiveRaeume, ergebnis.analyse.elemente, ergebnis.analyse.kontext)
-            : ergebnis.massenauszug;
+          const aktuellerAuszug =
+            bearbeiteteRaeume || !istLeer(korrekturen)
+              ? baueMassenauszug(effektiveRaeume, ergebnis.analyse.elemente, ergebnis.analyse.kontext, korrekturen)
+              : ergebnis.massenauszug;
           return (
           <div className="mt-10">
             <div className="flex items-baseline justify-between mb-4">
@@ -399,6 +405,14 @@ export default function ToolPage() {
               titel={ergebnis.analyse.dateiname.replace(/\.[^.]+$/, "")}
               onRaumAendern={raumAendern}
             />
+
+            <div className="mt-10">
+              <KorrekturFeld
+                korrekturen={korrekturen}
+                geschosse={[...new Set(effektiveRaeume.map((r) => r.geschoss))]}
+                onAendern={setKorrekturen}
+              />
+            </div>
 
             <h3 className="font-display font-bold uppercase text-xl mt-12 mb-4 border-b-2 border-line-strong pb-2.5">
               Erkannte Bauteile

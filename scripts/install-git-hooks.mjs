@@ -11,7 +11,7 @@ const quelle = join(projektwurzel, "scripts", "githooks");
 const ziel = join(projektwurzel, ".git", "hooks");
 
 if (!existsSync(ziel)) {
-  // Kein .git-Verzeichnis (z. B. Build aus einem Tarball) — nichts zu tun.
+  // Kein .git-Verzeichnis (z. B. Build aus einem Tarball), nichts zu tun.
   process.exit(0);
 }
 

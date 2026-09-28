@@ -15,9 +15,9 @@ function git(args) {
 const zeile = git(`log -1 --pretty=format:"%ad%x1f%an%x1f%h%x1f%s" --date=format:"%Y-%m-%d %H:%M"`);
 const [datumUhrzeit, autorName, kurzHash, betreff] = zeile.split("\u001f");
 
-const eintrag = `- **${datumUhrzeit}** · ${autorName} · \`${kurzHash}\` — ${betreff}`;
+const eintrag = `- **${datumUhrzeit}** · ${autorName} · \`${kurzHash}\` · ${betreff}`;
 
-const kopf = `# Changelog\n\nAutomatisch aus den Commit-Messages dieses Repos erstellt. Jeder Commit,\negal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.\nWird von \`scripts/update-changelog.mjs\` über den \`post-commit\`-Hook\n(\`scripts/githooks/post-commit\`) gepflegt — nicht händisch bearbeiten.\n\n`;
+const kopf = `# Changelog\n\nAutomatisch aus den Commit-Messages dieses Repos erstellt. Jeder Commit,\negal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.\nWird von \`scripts/update-changelog.mjs\` über den \`post-commit\`-Hook\n(\`scripts/githooks/post-commit\`) gepflegt, nicht händisch bearbeiten.\n\n`;
 
 let inhalt = existsSync(CHANGELOG_PATH) ? readFileSync(CHANGELOG_PATH, "utf8") : kopf;
 if (!inhalt.startsWith("# Changelog")) inhalt = kopf;

@@ -31,6 +31,28 @@ const BADGE: Record<string, string> = {
   ANNAHME: "bg-[#f7ecd2] text-[#8a6412] border-[#e8d3a0]",
 };
 
+const UMFANG = [
+  { titel: "Erdarbeiten", positionen: ["Baugrubenaushub"] },
+  {
+    titel: "Bodenaufbau & Beläge",
+    positionen: ["Beläge je Material mit Verschnitt", "Heizestrich", "Estrich-Liefermasse", "Trittschalldämmung", "PE-Trennlage", "Randdämmstreifen", "Fußbodenheizung"],
+  },
+  { titel: "Beton & Mauerwerk", positionen: ["Bodenplatte", "Geschoßdecken", "Stützen", "Bewehrung", "Außenwand Mauerwerk"] },
+  { titel: "Fassade & Gerüst", positionen: ["Fassadenfläche", "Wärmedämmverbundsystem", "Außenputz", "Fassadengerüst"] },
+  {
+    titel: "Dach",
+    positionen: ["Dachfläche", "Dachkonstruktion", "Zwischensparrendämmung", "Lattung", "Unterspannbahn", "Dachdeckung", "Dachrinne", "Photovoltaik"],
+  },
+  {
+    titel: "Putz, Malerei & Fliesen",
+    positionen: ["Innenputz", "Deckenputz", "Malerei", "Fliesenspiegel Nassräume", "Sockelleisten"],
+  },
+  {
+    titel: "Fenster & Türen",
+    positionen: ["Fenster", "Türen", "Tore", "Fensterbänke innen und außen", "Laibungen", "Anschlussfugen", "Türzargen"],
+  },
+];
+
 const FUNKTIONEN = [
   { titel: "Planauswertung", text: "Grundrisse, Schnitte und Ansichten werden gelesen. Auch Scans und Fotos funktionieren." },
   { titel: "Rechenweg zu jeder Menge", text: "Bei jeder Zahl steht, aus welchen Maßen sie berechnet wurde. So lässt sich alles nachprüfen." },
@@ -114,6 +136,42 @@ export default function Home() {
               {s.text}
             </Karte>
           ))}
+        </div>
+      </Abschnitt>
+
+      {/* Umfang */}
+      <Abschnitt id="umfang">
+        <AbschnittKopf
+          eyebrow="Was berechnet wird"
+          titel="Sieben Gewerke, vom Aushub bis zur Fensterbank."
+          text="Aus Raumstempeln, Maßketten, Schnitten und Nachweisen leitet MengenWerk diese Positionen ab. Jede mit Rechenweg und, wo der Plan etwas offen lässt, mit markierter Annahme."
+        />
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {UMFANG.map((u, i) => (
+            <div key={u.titel} className="rounded-2xl border border-[#e8ecef] bg-white p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#fbe9d2] text-xs font-semibold text-[#b86a1c]">
+                  {i + 1}
+                </span>
+                <h3 className="font-semibold text-[16px]">{u.titel}</h3>
+              </div>
+              <ul className="flex flex-wrap gap-1.5">
+                {u.positionen.map((p) => (
+                  <li key={p} className="rounded-full bg-[#f4f6f8] px-3 py-1 text-[12px] text-[#34424f]">
+                    {p}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+          <div className="rounded-2xl bg-[#16202a] p-6 text-white flex flex-col justify-between">
+            <p className="text-[15px] leading-relaxed text-white/80">
+              Mit Ihren eigenen Einheitspreisen wird aus dem Massenauszug direkt eine Kostenschätzung.
+            </p>
+            <a href="/einheitspreise" className="mt-6 text-sm font-semibold text-[#ffc47a] hover:underline">
+              Einheitspreise hinterlegen →
+            </a>
+          </div>
         </div>
       </Abschnitt>
 

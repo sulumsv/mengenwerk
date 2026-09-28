@@ -1,5 +1,6 @@
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import { PlanAnalyseSection } from "@/components/PlanAnalyse";
+import { ProduktVorschau } from "@/components/ProduktVorschau";
 import {
   Abschnitt,
   AbschnittKopf,
@@ -149,6 +150,8 @@ export default function Home() {
           ))}
         </Container>
       </section>
+
+      <ProduktVorschau />
 
       {/* Problem */}
       <Abschnitt>

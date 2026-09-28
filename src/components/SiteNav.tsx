@@ -28,12 +28,12 @@ export function SiteNav() {
           ))}
         </div>
         <div className="flex items-center gap-3">
-          <Link href="/login" className="text-[13px] font-medium text-[#231f1a] hover:text-[#c2562f] transition">
+          <Link href="/login" className="whitespace-nowrap text-[13px] font-medium text-[#231f1a] hover:text-[#c2562f] transition">
             Login
           </Link>
           <Link
             href="/demo"
-            className="rounded-lg bg-[#231f1a] text-[#fbf8f3] px-4 py-2 text-[13px] font-medium hover:bg-[#c2562f] transition"
+            className="whitespace-nowrap rounded-lg bg-[#231f1a] text-[#fbf8f3] px-4 py-2 text-[13px] font-medium hover:bg-[#c2562f] transition"
           >
             Demo anfragen
           </Link>

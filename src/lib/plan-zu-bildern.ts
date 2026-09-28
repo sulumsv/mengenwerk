@@ -14,7 +14,7 @@
 /**
  * pdfjs wird erst beim ersten Aufruf geladen. Auf Modulebene importiert, würde
  * es beim Vorrendern der Seite auf dem Server ausgewertet, wo die
- * Browser-Zeichenfläche fehlt — der Build bricht dann mit "DOMMatrix is not
+ * Browser-Zeichenfläche fehlt, der Build bricht dann mit "DOMMatrix is not
  * defined" ab.
  */
 let pdfjsPromise: Promise<typeof import("pdfjs-dist")> | null = null;
@@ -98,7 +98,7 @@ async function bildZuBlatt(datei: File): Promise<Blatt[]> {
   const bitmap = await createImageBitmap(datei);
   try {
     const faktor = skalierung(bitmap.width, bitmap.height);
-    // Passt es ohnehin, bleibt die Datei unangetastet — erneutes Kodieren
+    // Passt es ohnehin, bleibt die Datei unangetastet, erneutes Kodieren
     // kostet nur Schärfe.
     if (faktor === 1 && datei.size < 4 * 1024 * 1024) {
       return [{ nummer: 1, datei }];

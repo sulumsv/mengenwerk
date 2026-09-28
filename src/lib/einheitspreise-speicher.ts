@@ -3,7 +3,7 @@
 import type { Einheitspreise } from "./preise";
 
 /**
- * Die Einheitspreise eines Betriebs liegen im Browser, nicht auf dem Server —
+ * Die Einheitspreise eines Betriebs liegen im Browser, nicht auf dem Server -
  * das Projekt führt keine Datenbank, und Kalkulationspreise sind nichts, was
  * ungefragt fremd gespeichert gehört. Sie gelten damit je Gerät und Browser.
  */

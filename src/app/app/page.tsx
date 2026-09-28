@@ -91,7 +91,7 @@ function PlanKontextBlock({ kontext }: { kontext: AnalysisResult["kontext"] }) {
 /**
  * Was diese Auswertung gekostet hat.
  *
- * Beim Textweg fällt nichts an — das ist keine Nebensache, sondern der Grund,
+ * Beim Textweg fällt nichts an, das ist keine Nebensache, sondern der Grund,
  * warum immer zuerst dieser Weg versucht wird. Beim Bildweg steht der Betrag
  * hier, statt erst am nächsten Tag im Anthropic-Konto: wer nach jedem Plan
  * sieht, was er kostet, kann entscheiden, ob sich der Weg lohnt.
@@ -116,7 +116,7 @@ function HerkunftBlock({ verbrauch, textGrund }: { verbrauch?: VerbrauchsBericht
       <p className="font-mono text-xs uppercase tracking-wide text-fg-muted mb-3">Kosten dieser Auswertung</p>
       <div className="flex flex-wrap items-baseline gap-x-8 gap-y-2">
         <span className="font-display font-black text-2xl font-num">
-          {verbrauch.kostenUsd === null ? "—" : formatiereKosten(verbrauch.kostenUsd)}
+          {verbrauch.kostenUsd === null ? "-" : formatiereKosten(verbrauch.kostenUsd)}
         </span>
         <span className="font-mono text-xs text-fg-muted">
           {zahl(verbrauch.aufrufe)} Aufrufe · {zahl(verbrauch.eingabeToken)} Token gelesen ·{" "}
@@ -143,7 +143,7 @@ function mb(bytes: number): string {
 
 /**
  * Meldung für Antworten, die kein JSON enthalten. Das sind Fehler, die vor der
- * Anwendung entstehen — meist die Uploadgrenze der Hosting-Plattform oder eine
+ * Anwendung entstehen, meist die Uploadgrenze der Hosting-Plattform oder eine
  * Zeitüberschreitung.
  */
 function meldungFuerStatus(status: number, datei: File): string {
@@ -191,7 +191,7 @@ export default function ToolPage() {
 
     // Dem Gelesenen ist nur zu trauen, wenn es sich selbst gegenprüfen lässt.
     // Ein Auszug aus falsch zugeordneten Zahlen sieht genauso fertig aus wie
-    // ein richtiger — deshalb hier lieber abbrechen und den Bildweg gehen.
+    // ein richtiger, deshalb hier lieber abbrechen und den Bildweg gehen.
     // Der Grund wird festgehalten: ohne ihn sieht der Nutzer nur, dass etwas
     // nicht ging, und weiß nicht, ob sein Plan überhaupt lesbar ist.
     if (!gelesen.verlaesslich) {
@@ -389,7 +389,7 @@ export default function ToolPage() {
 
             {bearbeiteteRaeume && (
               <div className="mb-4 flex items-center gap-4 rounded-md border border-highlight/40 bg-highlight/10 px-4 py-2.5">
-                <span className="text-sm flex-1">Raumbuch enthält manuelle Korrekturen — die Auswertung verwendet diese Werte.</span>
+                <span className="text-sm flex-1">Raumbuch enthält manuelle Korrekturen. Die Auswertung verwendet diese Werte.</span>
                 <button
                   type="button"
                   onClick={() => setBearbeiteteRaeume(null)}

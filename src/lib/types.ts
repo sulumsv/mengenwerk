@@ -78,7 +78,7 @@ export interface AnalysisResult {
   hinweise: string[];
   /**
    * Was die Auswertung an API-Kosten verursacht hat. Fehlt, wenn der Plan aus
-   * seiner eigenen Textebene gelesen wurde — dann fällt nichts an.
+   * seiner eigenen Textebene gelesen wurde, dann fällt nichts an.
    */
   verbrauch?: VerbrauchsBericht;
 }
@@ -104,7 +104,7 @@ export interface Position {
   /** Ob der Einheitspreis vom Betrieb stammt oder noch ein Richtwert ist. */
   preisQuelle?: "eigen" | "richtwert";
   /**
-   * Zwischenwert, dessen Kosten eine Folgeposition trägt — etwa die
+   * Zwischenwert, dessen Kosten eine Folgeposition trägt, etwa die
    * Fassadenfläche, die über Wärmedämmverbund und Außenputz bepreist wird.
    * Solche Positionen bleiben bewusst ohne Betrag und zählen nicht als Lücke.
    */

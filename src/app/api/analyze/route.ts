@@ -74,7 +74,7 @@ export async function POST(req: NextRequest) {
     return fehler("Die Anfrage enthielt kein lesbares Formular.", 400);
   }
 
-  // Die Blätter kommen als Bilder aus dem Browser — dort wird ein PDF bereits
+  // Die Blätter kommen als Bilder aus dem Browser, dort wird ein PDF bereits
   // seitenweise gerendert. Der Server braucht dafür keine Grafikbibliothek.
   const blaetter = formData.getAll("blatt").filter((b): b is File => b instanceof File);
   if (blaetter.length === 0) {
@@ -82,7 +82,7 @@ export async function POST(req: NextRequest) {
   }
   if (blaetter.length > MAX_BLAETTER) {
     return fehler(
-      `Der Plansatz hat ${blaetter.length} Blätter. Im Zeitrahmen sind höchstens ${MAX_BLAETTER} auswertbar — bitte aufteilen.`,
+      `Der Plansatz hat ${blaetter.length} Blätter. Im Zeitrahmen sind höchstens ${MAX_BLAETTER} auswertbar, bitte aufteilen.`,
       413,
     );
   }

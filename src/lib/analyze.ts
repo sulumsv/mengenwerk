@@ -11,7 +11,7 @@ const MODELL = "claude-opus-5";
 const MAX_KONTEXT_SEITEN = 12;
 
 /**
- * Zeitrahmen. Die Route hat 300 Sekunden für alles — Upload, PDF-Rendern,
+ * Zeitrahmen. Die Route hat 300 Sekunden für alles, Upload, PDF-Rendern,
  * Auswertung und Antwort. Die Frist wird deshalb beim Eintreffen der Anfrage
  * gesetzt und hereingereicht, nicht erst hier: sonst zählt die Renderzeit des
  * PDF nicht mit und die Notbremse greift zu spät.
@@ -23,14 +23,14 @@ const ANFRAGE_TIMEOUT_MS = 70_000;
 
 /**
  * Wiederholungen bei Überlast. Jeder Versuch kann bis zum Timeout laufen, die
- * Obergrenze eines Aufrufs ist also das Produkt — das muss die Frist wissen,
+ * Obergrenze eines Aufrufs ist also das Produkt, das muss die Frist wissen,
  * sonst startet sie einen Aufruf, der sie überzieht.
  */
 const MAX_WIEDERHOLUNGEN = 1;
 const MAX_AUFRUFDAUER_MS = ANFRAGE_TIMEOUT_MS * (MAX_WIEDERHOLUNGEN + 1);
 
 /**
- * Blätter werden nebenläufig ausgewertet — sie sind voneinander unabhängig,
+ * Blätter werden nebenläufig ausgewertet, sie sind voneinander unabhängig,
  * sobald der Kontext steht. Sequentiell überschreitet ein fünfseitiger Plansatz
  * das Zeitbudget. Die Grenze hält die Last gegen die API im Rahmen.
  */
@@ -72,7 +72,7 @@ function fehlertext(fehler: unknown): string {
   return "unerwarteter Fehler";
 }
 
-/** Ein abgelehnter Schlüssel betrifft jeden Aufruf — weiterzumachen ist sinnlos. */
+/** Ein abgelehnter Schlüssel betrifft jeden Aufruf, weiterzumachen ist sinnlos. */
 function istEndgueltig(fehler: unknown): boolean {
   return fehler instanceof Anthropic.AuthenticationError || fehler instanceof Anthropic.PermissionDeniedError;
 }
@@ -158,39 +158,43 @@ const KONTEXT_PROMPT = `Du liest österreichische Einreichpläne (§70 Wiener Ba
 Dieser Durchgang erfasst NUR die Angaben, die für den gesamten Plansatz gelten. Einzelne Bauteile werden später ausgewertet.
 
 Erfasse:
-1. LEGENDE — die Farbcodierung. In österreichischen Einreichplänen üblich: rot = Ziegel, grün = Stahlbeton, orange = Dämmung weich oder GK-Ständerwand, magenta = Dämmung hart, braun = Holzkonstruktion, grau = Bestand, gelb = Abbruch. Übernimm aber immer die Legende des vorliegenden Plans, nicht diese Konvention.
-2. GESCHOSSHÖHEN — ausschließlich aus den Schnitten. Ein Grundriss enthält keine Höhen. Wenn kein Schnitt vorliegt, gib eine leere Liste zurück und vermerke das unter hinweise.
-3. NACHWEISE — Werte aus Flächenaufstellung, behördlichen Nachweisen und Planbeschriftung. Diese Blöcke sind vom Planverfasser gerechnet und die verlässlichste Quelle im ganzen Plansatz.
+1. LEGENDE: die Farbcodierung. In österreichischen Einreichplänen üblich: rot = Ziegel, grün = Stahlbeton, orange = Dämmung weich oder GK-Ständerwand, magenta = Dämmung hart, braun = Holzkonstruktion, grau = Bestand, gelb = Abbruch. Übernimm aber immer die Legende des vorliegenden Plans, nicht diese Konvention.
+2. GESCHOSSHÖHEN: ausschließlich aus den Schnitten. Ein Grundriss enthält keine Höhen. Wenn kein Schnitt vorliegt, gib eine leere Liste zurück und vermerke das unter hinweise.
+3. NACHWEISE: Werte aus Flächenaufstellung, behördlichen Nachweisen und Planbeschriftung. Diese Blöcke sind vom Planverfasser gerechnet und die verlässlichste Quelle im ganzen Plansatz.
 
 Suche gezielt nach diesen Werten und gib sie EXAKT unter dem angegebenen Namen zurück, damit die Weiterverarbeitung sie findet:
 ${nachweisAnweisung()}
 
-Nicht jeder Plansatz enthält alle. Was fehlt, lässt du weg — aber suche jeden einzeln, auch in Ansichten, Schnitten und der Dachdraufsicht, nicht nur im Nachweisblock. Weitere Nachweiswerte darfst du zusätzlich liefern.
-4. HINWEISE — Widersprüche (etwa Summe der Raumflächen gegen Wohnnutzfläche im Nachweis) und fehlende Unterlagen, auf die der Plan verweist (Aufbautenliste, Fenster- und Türliste, Statik).
+Nicht jeder Plansatz enthält alle. Was fehlt, lässt du weg, aber suche jeden einzeln, auch in Ansichten, Schnitten und der Dachdraufsicht, nicht nur im Nachweisblock. Weitere Nachweiswerte darfst du zusätzlich liefern.
+4. HINWEISE: Widersprüche (etwa Summe der Raumflächen gegen Wohnnutzfläche im Nachweis) und fehlende Unterlagen, auf die der Plan verweist (Aufbautenliste, Fenster- und Türliste, Statik).
 
-Erfinde keine Werte. Was nicht im Plan steht, bleibt leer.`;
+Erfinde keine Werte. Was nicht im Plan steht, bleibt leer.
+
+Schreibe alle Texte ohne Gedankenstriche (— oder –). Verwende stattdessen Punkt, Komma oder Doppelpunkt.`;
 
 const SEITEN_PROMPT = `Du liest österreichische Einreichpläne als Baukalkulator und ermittelst Massen.
 
 Erfasse zwei Dinge getrennt: RÄUME (jeder Raumstempel eines Grundrisses) und BAUTEILE (Fenster, Türen, Stützen und Ähnliches).
 
-RÄUME sind die Grundlage aller Folgemengen — Estrich, Belag, Putz und Malerei leiten sich aus ihnen ab. Erfasse jeden Raumstempel eines Grundrisses, auch Garage, Terrasse und Balkon, und markiere diese als nicht beheizt. Übernimm die ausgewiesene Fläche unverändert. Länge und Breite nur, wenn sie im Plan bemaßt sind — rechne sie nicht aus der Fläche zurück.
+RÄUME sind die Grundlage aller Folgemengen, Estrich, Belag, Putz und Malerei leiten sich aus ihnen ab. Erfasse jeden Raumstempel eines Grundrisses, auch Garage, Terrasse und Balkon, und markiere diese als nicht beheizt. Übernimm die ausgewiesene Fläche unverändert. Länge und Breite nur, wenn sie im Plan bemaßt sind, rechne sie nicht aus der Fläche zurück.
 
-QUELLENHIERARCHIE — in dieser Reihenfolge:
+QUELLENHIERARCHIE in dieser Reihenfolge:
 1. Raumstempel mit ausgewiesener Quadratmeterzahl und Belagsangabe. Das ist die sicherste Quelle. Übernimm die Fläche unverändert, statt sie aus Maßketten nachzurechnen.
 2. Bemaßte Maßketten.
 3. Alles andere ist unsicher.
 
-KONFIDENZ — jedes Element bekommt genau eine:
+KONFIDENZ, jedes Element bekommt genau eine:
 - "plan": Der Wert steht beschriftet im Plan.
 - "berechnet": Aus bemaßten Planmaßen gerechnet, Rechenweg nachvollziehbar.
 - "annahme": Schichtstärke, Höhe oder Stückzahl ist nicht bemaßt. Verwende das auch bei abgezählten Elementen ohne Fenster- oder Türliste.
 
-MATERIAL — leite es aus der Farbcodierung der Legende oder aus der Beschriftung ab (etwa "STB Stütze 60/25" für Stahlbeton). Das Material entscheidet über die Leistungsgruppe, deshalb ist es wichtiger als eine geschätzte Abmessung. Ohne Beleg: null.
+MATERIAL: leite es aus der Farbcodierung der Legende oder aus der Beschriftung ab (etwa "STB Stütze 60/25" für Stahlbeton). Das Material entscheidet über die Leistungsgruppe, deshalb ist es wichtiger als eine geschätzte Abmessung. Ohne Beleg: null.
 
-MASSE — alle Längen in Metern. Bei Fenster- und Türbeschriftungen der Form "90/220" ist 90 die Breite in Zentimetern und 220 die Höhe, also 0,90 m und 2,20 m. "FPH" ist die Fensterparapethöhe, keine Fensterhöhe.
+MASSE: alle Längen in Metern. Bei Fenster- und Türbeschriftungen der Form "90/220" ist 90 die Breite in Zentimetern und 220 die Höhe, also 0,90 m und 2,20 m. "FPH" ist die Fensterparapethöhe, keine Fensterhöhe.
 
-Gib für jedes Element den Rechenweg und die Fundstelle an. Erfinde nichts: Elemente ohne Beleg im Plan gehören nicht in die Liste, sondern unter hinweise.`;
+Gib für jedes Element den Rechenweg und die Fundstelle an. Erfinde nichts: Elemente ohne Beleg im Plan gehören nicht in die Liste, sondern unter hinweise.
+
+Schreibe alle Texte ohne Gedankenstriche (— oder –). Verwende stattdessen Punkt, Komma oder Doppelpunkt.`;
 
 function baueKontextText(kontext: PlanKontext): string {
   const zeilen: string[] = [];
@@ -218,7 +222,7 @@ function baueKontextText(kontext: PlanKontext): string {
 /**
  * Für Putz, Malerei und Sockelleisten wird der Raumumfang gebraucht. Steht nur
  * die Fläche im Stempel, wird er über ein angenommenes Seitenverhältnis von
- * 1,4 genähert — bei üblichen Wohnraumzuschnitten liegt das rund zwei Prozent
+ * 1,4 genähert, bei üblichen Wohnraumzuschnitten liegt das rund zwei Prozent
  * neben dem gerechneten Wert. Der Rückgabewert sagt, welcher Fall vorlag.
  */
 const SEITENVERHAELTNIS = 1.4;
@@ -244,7 +248,7 @@ function alsBild(bild: Buffer) {
 
 /**
  * Erster Durchgang über den gesamten Plansatz. Legende, Schnitthöhen und
- * Nachweise stehen auf anderen Blättern als die Bauteile, die sie beschreiben —
+ * Nachweise stehen auf anderen Blättern als die Bauteile, die sie beschreiben -
  * ohne diesen Schritt wertet jede Seite isoliert aus und die Materialzuordnung
  * bleibt leer.
  */
@@ -284,7 +288,7 @@ async function erhebeKontext(client: Anthropic, bilder: Buffer[], verbrauch: Ver
     // leeren Auszugs mit HTTP 200.
     if (istEndgueltig(fehler)) throw fehler;
     // Ohne Kontext bleiben Materialzuordnung und Wandhöhen offen, die Räume
-    // lassen sich aber weiterhin erfassen — besser als gar kein Ergebnis.
+    // lassen sich aber weiterhin erfassen, besser als gar kein Ergebnis.
     return {
       ...leer,
       hinweise: [
@@ -317,7 +321,7 @@ interface Blattergebnis {
   raeume: Raum[];
   elemente: DetectedElement[];
   hinweise: string[];
-  /** Gesetzt, wenn der Aufruf scheiterte — für die Auswertung, ob alles scheiterte. */
+  /** Gesetzt, wenn der Aufruf scheiterte, für die Auswertung, ob alles scheiterte. */
   fehler?: unknown;
 }
 
@@ -422,7 +426,7 @@ export async function analysiereBildseiten(
   const uebersprungen: number[] = [];
   const ergebnisse = await parallelMitGrenze(bilder, MAX_PARALLEL, async (bild, i) => {
     // Vor jedem Blatt prüfen: ein angefangener Aufruf, der in die Zeitüberschreitung
-    // der Route läuft, liefert gar nichts — ein ausgelassenes Blatt kostet nur dieses.
+    // der Route läuft, liefert gar nichts, ein ausgelassenes Blatt kostet nur dieses.
     // Gerechnet wird mit der vollen Aufrufdauer inklusive Wiederholung.
     if (Date.now() + MAX_AUFRUFDAUER_MS > frist) {
       uebersprungen.push(i + 1);

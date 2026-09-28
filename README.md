@@ -3,7 +3,7 @@
 MengenWerk verwandelt einen hochgeladenen Baueinreichplan (PDF) automatisch in
 einen **Massenauszug**: eine nach österreichischer LB-HB-Norm gruppierte
 Stückliste aller Bauteile (Fenster, Türen, Wände, Flächen, Beton, Fliesen …)
-mit Maßen, Mengen und einer Kostenschätzung — inklusive Rechenweg für jede
+mit Maßen, Mengen und einer Kostenschätzung, inklusive Rechenweg für jede
 einzelne Zahl.
 
 ## Wofür die App gedacht ist
@@ -11,14 +11,14 @@ einzelne Zahl.
 Wer ein Angebot oder eine Bestellung aus einem Bauplan ableiten will, misst
 sonst jede Wand, jedes Fenster und jeden Raum von Hand aus. MengenWerk nimmt
 diesen Schritt ab: Plan hochladen, wenige Minuten warten, fertigen
-Massenauszug mit Kostenschätzung erhalten — und für jede Menge nachvollziehen,
+Massenauszug mit Kostenschätzung erhalten, und für jede Menge nachvollziehen,
 aus welchen Planangaben sie berechnet wurde.
 
 ## Wie die Auswertung abläuft
 
 1. **Plan → Bilder** (`src/lib/plan-zu-bildern.ts`): Die PDF wird im Browser
    (via `pdfjs-dist`) seitenweise in Bilder umgewandelt. Es läuft kein
-   externes Binary wie `pdftoppm` — alles passiert clientseitig.
+   externes Binary wie `pdftoppm`, alles passiert clientseitig.
 2. **Text- und Bildlesen** (`src/lib/plan-lesen.ts`): Wo möglich, wird die
    Textebene der PDF direkt gelesen (schneller, günstiger, keine
    Bilderkennungsfehler); nur wenn das nicht reicht, greift die
@@ -32,7 +32,7 @@ aus welchen Planangaben sie berechnet wurde.
    Rechenweg als Text.
 4. **Ableitung** (`src/lib/ableitung.ts`): Aus den erkannten Räumen,
    Elementen und dem Plankontext (Legende, Geschosshöhen, Nachweise) wird der
-   vollständige Massenauszug gerechnet — inklusive Verschnittzuschlägen
+   vollständige Massenauszug gerechnet, inklusive Verschnittzuschlägen
    (`src/lib/annahmen.ts`) und Rundung. Jede Ableitung trägt die schwächste
    Konfidenz ihrer Eingangswerte weiter, damit unsichere Zahlen als solche
    erkennbar bleiben.
@@ -57,7 +57,7 @@ Next.js-Typescope.
 
 ```
 src/
-  app/            Next.js App Router — Seiten und API-Routen
+  app/            Next.js App Router, Seiten und API-Routen
     api/analyze/  Serverseitiger Aufruf der Anthropic-API
     api/login/    einfache Authentifizierung (src/lib/auth.ts)
     app/          die eigentliche Anwendung (Upload, Ergebnis)
@@ -81,7 +81,7 @@ scripts/
 - **Nachweise**: Werte aus Flächenaufstellungen im Plan (z. B.
   Bruttogrundrissfläche), die per unscharfem Namensabgleich gefunden werden
   (`src/lib/nachweise.ts`).
-- **Plankontext**: Legende, Geschosshöhen und Nachweise — gilt für den
+- **Plankontext**: Legende, Geschosshöhen und Nachweise, gilt für den
   gesamten Plansatz, nicht nur für eine Seite.
 
 ## Loslegen
@@ -106,7 +106,7 @@ npm run pruefe  # Ableitungslogik gegen Beispieldaten prüfen
 ## Changelog
 
 [`CHANGELOG.md`](./CHANGELOG.md) dokumentiert automatisch jeden Commit dieses
-Repos — mit Datum, Uhrzeit, Autor und Commit-Message, unabhängig davon, wer
+Repos, mit Datum, Uhrzeit, Autor und Commit-Message, unabhängig davon, wer
 committet. Ein `post-commit`-Git-Hook (`scripts/githooks/post-commit`,
 installiert über `npm install` via das `prepare`-Script) trägt neue Commits
 selbstständig ein; die Datei sollte daher nicht händisch bearbeitet werden.

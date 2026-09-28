@@ -162,8 +162,7 @@ function KostenSteuerung({
           : "Die Mengen sind fertig ermittelt. Auf Wunsch wird daraus eine Kostenschätzung mit deinen Einheitspreisen"}
         {eigeneAnzahl !== null && (
           <>
-            {" "}
-            — derzeit {eigeneAnzahl} von {PREISKATALOG.length} Positionen mit eigenem Preis hinterlegt.
+            , derzeit {eigeneAnzahl} von {PREISKATALOG.length} Positionen mit eigenem Preis hinterlegt.
           </>
         )}{" "}
         <a href="/einheitspreise" className="underline text-fg">
@@ -225,7 +224,7 @@ function Kennzahlen({ positionen }: { positionen: Position[] }) {
 
 /**
  * Zahlfeld, das durch Klick editierbar wird. Akzeptiert Komma oder Punkt als
- * Dezimaltrenner — österreichische Eingabe funktioniert also direkt.
+ * Dezimaltrenner, österreichische Eingabe funktioniert also direkt.
  */
 function EditierbareZahl({
   wert,
@@ -306,14 +305,14 @@ function Raumbuch({
   return (
     <section className="flex flex-col gap-4">
       <div className="flex items-baseline gap-4 flex-wrap border-b-2 border-line-strong pb-2.5">
-        <h3 className="font-display font-bold uppercase text-xl">1 — Raumbuch</h3>
+        <h3 className="font-display font-bold uppercase text-xl">1. Raumbuch</h3>
         <span className="font-mono text-xs uppercase tracking-wide text-fg-muted ml-auto">
           Grundlage aller Folgepositionen
         </span>
       </div>
       {onRaumAendern && (
         <p className="text-xs text-fg-muted font-mono">
-          Fläche und Umfang können durch Klick auf den Wert geändert werden — die Auswertung passt sich sofort an.
+          Fläche und Umfang können durch Klick auf den Wert geändert werden. Die Auswertung passt sich sofort an.
         </p>
       )}
       <div className="overflow-x-auto rounded-lg border border-line bg-surface-2">
@@ -374,7 +373,7 @@ function FragmentGeschoss({
             <KonfidenzPunkt konfidenz={r.konfidenz} />
           </td>
           <td className="px-4 py-3">{r.name}</td>
-          <td className="px-4 py-3 text-fg-muted">{r.belag ?? "—"}</td>
+          <td className="px-4 py-3 text-fg-muted">{r.belag ?? "-"}</td>
           <td className="px-4 py-3 text-right">
             <EditierbareZahl
               wert={r.flaeche_m2}
@@ -406,7 +405,7 @@ function AbschnittBlock({ abschnitt, mitPreisen }: { abschnitt: Abschnitt; mitPr
     <section className="flex flex-col gap-4">
       <div className="flex items-baseline gap-4 flex-wrap border-b-2 border-line-strong pb-2.5">
         <h3 className="font-display font-bold uppercase text-xl">
-          {abschnitt.nummer} — {abschnitt.titel}
+          {abschnitt.nummer}. {abschnitt.titel}
         </h3>
         <span className="font-mono text-xs uppercase tracking-wide text-fg-muted ml-auto">{abschnitt.lgHinweis}</span>
       </div>
@@ -440,14 +439,14 @@ function AbschnittBlock({ abschnitt, mitPreisen }: { abschnitt: Abschnitt; mitPr
                   </td>
                   <td className="px-4 py-3 font-mono text-xs text-fg-muted">{p.rechenweg}</td>
                   <td className="px-4 py-3 text-right font-mono font-num whitespace-nowrap">
-                    {p.menge === null ? <span className="text-fg-muted">—</span> : zahl(p.menge)}
+                    {p.menge === null ? <span className="text-fg-muted">-</span> : zahl(p.menge)}
                   </td>
                   <td className="px-4 py-3 font-mono text-xs text-fg-muted">{EINHEIT_TEXT[p.einheit]}</td>
                   {mitPreisen && (
                     <>
                   <td className="px-4 py-3 text-right font-mono font-num text-xs whitespace-nowrap">
                     {p.einheitspreis === undefined ? (
-                      <span className="text-fg-muted">—</span>
+                      <span className="text-fg-muted">-</span>
                     ) : (
                       <span className={p.preisQuelle === "richtwert" ? "text-fg-muted" : undefined}>
                         {euro(p.einheitspreis)}
@@ -462,7 +461,7 @@ function AbschnittBlock({ abschnitt, mitPreisen }: { abschnitt: Abschnitt; mitPr
                   <td className="px-4 py-3 text-right font-mono font-num whitespace-nowrap">
                     {p.betrag === undefined ? (
                       <span className="text-fg-muted" title={p.zwischenwert ? "Zwischenwert, Kosten in Folgeposition" : undefined}>
-                        {p.zwischenwert ? "—" : "offen"}
+                        {p.zwischenwert ? "-" : "offen"}
                       </span>
                     ) : (
                       euro(p.betrag)
@@ -470,7 +469,7 @@ function AbschnittBlock({ abschnitt, mitPreisen }: { abschnitt: Abschnitt; mitPr
                   </td>
                     </>
                   )}
-                  <td className="px-4 py-3 text-xs text-fg-muted">{p.lgKandidaten.join(", ") || "—"}</td>
+                  <td className="px-4 py-3 text-xs text-fg-muted">{p.lgKandidaten.join(", ") || "-"}</td>
                 </tr>
               ))}
               {mitPreisen && abschnitt.summe !== undefined && abschnitt.summe > 0 && (

@@ -52,7 +52,7 @@ zuerst der Treffer auf `type` **und** `material`, danach der Eintrag mit
 `"material": null` als Rückfallebene für denselben Typ.
 
 Materialbezeichnungen werden vor dem Vergleich normalisiert (Kleinschreibung,
-Umlaute aufgelöst, Bindestriche vereinheitlicht) — siehe
+Umlaute aufgelöst, Bindestriche vereinheitlicht), siehe
 `normalisiereMaterial()` in `src/lib/lbhb.ts`. Die Planlegende österreichischer
 Einreichpläne liefert diese Materialien über die Farbcodierung (rot = Ziegel,
 grün = Stahlbeton, braun = Holzkonstruktion, orange = GK-Ständerwand).

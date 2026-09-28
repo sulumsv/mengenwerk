@@ -92,7 +92,7 @@ export function KorrekturFeld({
       <div className="px-5 py-4 border-b border-line flex items-baseline justify-between gap-4 flex-wrap">
         <p className="font-mono text-xs uppercase tracking-wide text-fg-muted">Korrektur an die Mengenermittlung</p>
         <p className="text-xs text-fg-muted">
-          Wirkt überall, wo der Wert verwendet wird — Putz, Maler, Fliesen, Estrich, Beton …
+          Wirkt überall, wo der Wert verwendet wird: Putz, Maler, Fliesen, Estrich, Beton …
         </p>
       </div>
 

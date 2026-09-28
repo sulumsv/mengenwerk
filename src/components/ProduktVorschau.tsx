@@ -10,9 +10,9 @@ const GEWERKE = [
 ];
 
 const ANALYSEN = [
-  { name: "EFH Torricelligasse", ort: "Wien 17", pos: 47, status: "fertig" },
-  { name: "Doppelhaus Kagran", ort: "Wien 22", pos: 63, status: "fertig" },
-  { name: "Zubau Mödling", ort: "Niederösterreich", pos: 21, status: "2 Annahmen" },
+  { name: "Einfamilienhaus Muster", ort: "Beispielprojekt", pos: 47, status: "fertig" },
+  { name: "Doppelhaus Muster", ort: "Beispielprojekt", pos: 63, status: "fertig" },
+  { name: "Zubau Muster", ort: "Beispielprojekt", pos: 21, status: "2 Annahmen" },
 ];
 
 function Haus() {
@@ -55,7 +55,7 @@ export function ProduktVorschau() {
               <div className="flex items-start justify-between">
                 <div>
                   <p className="text-xs text-[#8b98a4]">Aktuelles Projekt</p>
-                  <p className="mt-1 text-lg font-semibold">EFH Torricelligasse</p>
+                  <p className="mt-1 text-lg font-semibold">Einfamilienhaus Muster</p>
                 </div>
                 <span className="rounded-full bg-[#efe4d3] px-3 py-1 text-xs font-medium text-[#141c30]">Analyse fertig</span>
               </div>

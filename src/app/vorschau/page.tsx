@@ -44,7 +44,7 @@ export default function VorschauPage() {
         </p>
       </section>
       <section className="px-6 md:px-10 pb-16 max-w-7xl mx-auto">
-        <MassenauszugAnsicht auszug={auszug} titel="Massenauszug Torricelligasse 29" />
+        <MassenauszugAnsicht auszug={auszug} titel="Massenauszug Beispielhaus" />
       </section>
       <SiteFooter />
     </main>

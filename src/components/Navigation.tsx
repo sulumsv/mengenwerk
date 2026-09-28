@@ -49,10 +49,10 @@ export function DemoPille({ className = "" }: { className?: string }) {
   return (
     <Link
       href="/demo"
-      className={`group inline-flex items-center gap-3 rounded-full bg-white py-1.5 pl-5 pr-1.5 text-[13px] font-semibold text-[#2b2d33] shadow-[0_8px_24px_-12px_rgba(22,32,42,0.35)] ${className}`}
+      className={`group inline-flex items-center gap-3 rounded-full bg-[#f2b233] py-1.5 pl-5 pr-1.5 text-[13px] font-semibold text-[#1f2a44] shadow-[0_8px_24px_-12px_rgba(22,32,42,0.35)] ${className}`}
     >
       Demo anfragen
-      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#2b2d33] text-white transition group-hover:bg-[#1f2a44]">
+      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#1f2a44] text-white transition group-hover:bg-[#2b2d33]">
         <Pfeil />
       </span>
     </Link>

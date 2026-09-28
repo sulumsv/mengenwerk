@@ -1,171 +1,104 @@
 import Link from "next/link";
+import { DemoPille, Navigation } from "./Navigation";
 
-const STERNE = [
-  [8, 12], [18, 6], [27, 16], [35, 5], [46, 11], [58, 7], [66, 15], [74, 4], [83, 10], [92, 6], [14, 22], [88, 20],
+const MARKEN = [
+  { x: "13%", y: "20%", t: "Wohnen", m: "32,40 m²", d: "0s" },
+  { x: "60%", y: "15%", t: "Küche", m: "14,85 m²", d: "1.2s" },
+  { x: "16%", y: "63%", t: "Bad", m: "7,20 m²", d: "2.4s" },
+  { x: "63%", y: "60%", t: "Zimmer", m: "12,60 m²", d: "3.6s" },
 ];
 
-function Wolke({ className, style }: { className: string; style?: React.CSSProperties }) {
+function Grundriss() {
   return (
-    <svg viewBox="0 0 220 60" className={`absolute ${className}`} style={style} aria-hidden>
-      <path
-        d="M20 48c-11 0-18-6-18-14s8-14 18-14c3-10 13-16 25-15 7-8 20-9 30-3 8-6 22-6 30 2 12-2 24 5 26 16 9 1 15 7 15 14s-8 14-18 14Z"
-        fill="#ffffff"
-        opacity="0.18"
-      />
-    </svg>
+    <div className="plan-kippen relative mx-auto w-full max-w-[540px]">
+      <div className="relative aspect-[16/10] rounded-2xl border border-white/40 bg-white/10 backdrop-blur-sm overflow-hidden">
+        <svg viewBox="0 0 400 250" className="absolute inset-0 h-full w-full text-white" fill="none" stroke="currentColor">
+          <rect x="30" y="22" width="340" height="190" strokeWidth="5" />
+          <path d="M190 22v95M30 117h160M225 117v95M225 117h145" strokeWidth="2.5" />
+          <path d="M80 212h50M300 22h40M30 55v35M370 150v40" stroke="#ffc47a" strokeWidth="6" />
+          <path d="M30 232h340M30 226v12M370 226v12" strokeWidth="1" opacity="0.7" />
+          <text x="200" y="246" fontSize="10" fill="#ffffff" stroke="none" textAnchor="middle" opacity="0.85">12,10 m</text>
+          <path d="M386 22v190M380 22h12M380 212h12" strokeWidth="1" opacity="0.7" />
+          <text x="396" y="120" fontSize="10" fill="#ffffff" stroke="none" textAnchor="middle" opacity="0.85" transform="rotate(90 396 120)">
+            8,40 m
+          </text>
+        </svg>
+        <div className="scan-linie absolute inset-y-0 w-24 bg-gradient-to-r from-transparent via-[#ffc47a]/40 to-transparent" />
+        {MARKEN.map((m) => (
+          <span
+            key={m.t}
+            className="marke absolute rounded-lg bg-white px-2.5 py-1.5 text-[10px] leading-tight shadow-lg"
+            style={{ left: m.x, top: m.y, animationDelay: m.d }}
+          >
+            <span className="block text-[#5d6b78]">{m.t}</span>
+            <span className="block font-semibold text-[#16202a]">{m.m}</span>
+          </span>
+        ))}
+      </div>
+      <div className="marke absolute -right-3 -bottom-5 md:-right-10 rounded-xl bg-[#16202a] px-4 py-3 text-white shadow-xl" style={{ animationDelay: "4.8s" }}>
+        <p className="text-[10px] text-white/60">Mauerwerk 25 cm</p>
+        <p className="text-lg font-semibold">142,40 m²</p>
+        <p className="text-[10px] text-[#ffc47a]">44,5 m × 3,20 m</p>
+      </div>
+    </div>
   );
 }
-
-function Haus() {
-  return (
-    <svg viewBox="0 0 900 430" className="w-full h-auto" aria-hidden>
-      <defs>
-        <linearGradient id="glasNacht" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#ffcf8a" />
-          <stop offset="1" stopColor="#e9974a" />
-        </linearGradient>
-        <linearGradient id="holzNacht" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stopColor="#b98556" />
-          <stop offset="1" stopColor="#8e6238" />
-        </linearGradient>
-        <linearGradient id="wand" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#f3eee8" />
-          <stop offset="1" stopColor="#d9d2cb" />
-        </linearGradient>
-        <radialGradient id="schein" cx="0.5" cy="0.5" r="0.5">
-          <stop offset="0" stopColor="#ffc47a" stopOpacity="0.55" />
-          <stop offset="1" stopColor="#ffc47a" stopOpacity="0" />
-        </radialGradient>
-      </defs>
-      <ellipse cx="450" cy="410" rx="440" ry="22" fill="#1a2238" opacity="0.35" />
-      <ellipse cx="300" cy="330" rx="230" ry="110" fill="url(#schein)" className="glimmen" />
-
-      <path d="M120 400V175L300 40l180 135v225Z" fill="url(#wand)" />
-      <path d="M300 40 120 175M300 40l180 135" stroke="url(#holzNacht)" strokeWidth="16" strokeLinecap="round" />
-      <path d="M205 170 300 98l95 72v90H205Z" fill="url(#glasNacht)" className="glimmen" />
-      <path d="M252 134v126M300 98v162M348 134v126M205 215h190" stroke="#1f2a33" strokeWidth="4" />
-      <rect x="150" y="290" width="150" height="110" fill="url(#glasNacht)" className="glimmen glimmen-2" />
-      <path d="M200 290v110M250 290v110" stroke="#1f2a33" strokeWidth="4" />
-      <rect x="150" y="290" width="150" height="110" fill="none" stroke="#1f2a33" strokeWidth="5" />
-
-      <rect x="480" y="210" width="330" height="190" fill="url(#wand)" />
-      <rect x="470" y="198" width="350" height="16" rx="3" fill="#e8e2dc" />
-      <rect x="480" y="214" width="330" height="8" fill="url(#holzNacht)" />
-      <path d="M500 228v42M810 228v42M500 250h310" stroke="#1f2a33" strokeWidth="3" />
-      <path d="M520 250v20M550 250v20M580 250v20M610 250v20M640 250v20M670 250v20M700 250v20M730 250v20M760 250v20M790 250v20" stroke="#1f2a33" strokeWidth="2" />
-      <rect x="520" y="226" width="80" height="44" fill="url(#glasNacht)" className="glimmen glimmen-3" />
-      <rect x="620" y="300" width="170" height="100" fill="#2a303a" />
-      <path d="M620 325h170M620 350h170M620 375h170" stroke="#3a414c" strokeWidth="2" />
-      <rect x="612" y="292" width="186" height="8" fill="url(#holzNacht)" />
-      <rect x="505" y="300" width="60" height="100" fill="url(#holzNacht)" />
-      <rect x="520" y="310" width="30" height="90" fill="#1f2a33" />
-      <circle cx="515" cy="318" r="4" fill="#ffd9a0" className="glimmen" />
-      <circle cx="605" cy="318" r="4" fill="#ffd9a0" className="glimmen glimmen-2" />
-
-      <circle cx="80" cy="325" r="50" fill="#2e3d4f" />
-      <rect x="76" y="360" width="8" height="40" fill="#24303d" />
-      <circle cx="850" cy="345" r="34" fill="#34455a" />
-      <rect x="847" y="370" width="6" height="30" fill="#24303d" />
-      <path d="M300 405h120l-10 12H290Z" fill="#3a4658" />
-    </svg>
-  );
-}
-
-const FILTER = [
-  { label: "Plan", wert: "PDF, Scan, Foto" },
-  { label: "Leistungsbuch", wert: "LB-HB 023" },
-  { label: "Ergebnis", wert: "Massenauszug" },
-];
 
 export function StartBuehne() {
   return (
-    <section className="p-3 md:p-5">
-      <div className="buehne relative overflow-hidden rounded-[2rem] md:rounded-[2.75rem] min-h-[680px] lg:min-h-[calc(100vh-2.5rem)] flex flex-col">
-        {STERNE.map(([x, y], i) => (
-          <span
-            key={i}
-            className="stern absolute h-[3px] w-[3px] rounded-full bg-white"
-            style={{ left: `${x}%`, top: `${y}%`, animationDelay: `${(i % 5) * 0.8}s` }}
-          />
-        ))}
-        <Wolke className="wolke w-[280px] top-[10%] left-[-10%]" />
-        <Wolke className="wolke wolke-langsam w-[380px] top-[22%] left-[40%]" />
-        <Wolke className="wolke w-[220px] top-[5%] left-[70%]" style={{ animationDelay: "-20s" }} />
+    <section className="seiten-himmel px-3 pt-3 pb-10 md:px-8 md:pt-8 md:pb-16">
+      <div className="buehne relative mx-auto max-w-[1400px] rounded-[2rem] md:rounded-[2.5rem] border-[6px] md:border-[10px] border-white shadow-[0_40px_90px_-50px_rgba(40,40,80,0.6)]">
+        <Navigation variante="buehne" />
 
-        <div className="relative z-10 flex items-center justify-between gap-3 p-4 md:p-6">
-          <Link href="/demo" className="milchglas-dunkel hidden md:inline-flex items-center gap-3 rounded-full px-5 py-3 text-sm font-medium text-white">
-            <span className="text-[#ffc47a]">↗</span> Demo anfragen
-          </Link>
-          <div className="milchglas-dunkel mx-auto flex items-center divide-x divide-white/15 rounded-full px-2 py-2 text-white">
-            {FILTER.map((f, i) => (
-              <div key={f.label} className={`px-4 md:px-6 ${i === 2 ? "hidden sm:block" : ""}`}>
-                <p className="text-[10px] text-white/60">{f.label}</p>
-                <p className="text-[13px] font-semibold whitespace-nowrap">{f.wert}</p>
-              </div>
-            ))}
+        <div className="relative overflow-hidden rounded-b-[1.6rem] md:rounded-b-[2rem] px-5 pb-8 md:px-10 md:pb-10">
+          <p
+            aria-hidden
+            className="pointer-events-none absolute inset-x-0 top-4 select-none text-center font-bold leading-none tracking-tight text-white/[0.14] text-[clamp(3rem,10.5vw,10.5rem)]"
+          >
+            MENGENWERK
+          </p>
+
+          <div className="relative mt-6 hidden sm:flex justify-between gap-6 text-[12px] leading-snug text-white/85">
+            <p className="max-w-[22ch]">Mengenermittlung aus Einreichplänen für österreichische Baubetriebe.</p>
+            <p className="hidden sm:block max-w-[20ch] text-right">Nach LB-HB 023, mit Rechenweg.</p>
           </div>
-          <Link href="/app" className="milchglas-dunkel hidden md:inline-flex items-center gap-3 rounded-full px-5 py-3 text-sm font-medium text-white">
-            Plan hochladen <span className="text-[#ffc47a]">↗</span>
-          </Link>
-        </div>
 
-        <div className="relative z-10 px-6 text-center">
-          <h1 className="einblenden font-display font-semibold tracking-tight leading-[0.95] text-white text-[clamp(3rem,8.5vw,7.5rem)]">
-            Vom Plan
-            <br />
-            <span className="text-[#ffc47a]">zur Menge</span>
-          </h1>
-        </div>
-        <p className="einblenden einblenden-2 relative z-10 mx-6 mt-6 md:absolute md:left-12 md:top-[46%] md:mx-0 md:mt-0 max-w-[30ch] text-[15px] leading-relaxed text-white/80">
-          MengenWerk liest Ihren Einreichplan, erkennt die Bauteile und ermittelt die Mengen nach LB-HB 023. Mit Rechenweg zu
-          jeder Position.
-        </p>
-
-        <div className="haus-zoom relative mt-auto px-2 md:px-24 lg:px-40">
-          <Haus />
-        </div>
-
-        <div className="relative z-10 grid gap-3 p-3 md:absolute md:inset-x-0 md:bottom-0 md:grid-cols-[minmax(0,340px)_1fr_minmax(0,340px)] md:items-end md:p-6">
-          <div className="milchglas einblenden einblenden-3 rounded-[1.75rem] p-6">
-            <p className="text-[15px] font-semibold text-[#16202a]">Mengen, die man prüfen kann</p>
-            <p className="mt-2 text-[13px] leading-relaxed text-[#34424f]">
-              Jede Zahl zeigt, aus welchen Maßen sie berechnet wurde. Fehlt etwas im Plan, sehen Sie die Annahme.
+          <div className="relative mx-auto mt-8 md:mt-10 max-w-3xl text-center">
+            <h1 className="einblenden font-semibold tracking-tight text-white leading-[1.05] text-[clamp(2rem,4.2vw,3.5rem)]">
+              Plan hochladen. Mengen erhalten.
+            </h1>
+            <p className="einblenden einblenden-2 mx-auto mt-5 max-w-[56ch] text-[15px] md:text-[16px] leading-relaxed text-white/85">
+              MengenWerk liest Ihren Einreichplan, erkennt Räume, Wände, Fenster und Türen und berechnet daraus den
+              Massenauszug für Ihr Angebot. Jede Menge mit Rechenweg und Quelle im Plan.
             </p>
-            <div className="mt-5 flex items-end justify-between">
-              <div>
-                <p className="text-5xl font-semibold tracking-tight text-[#16202a]">22.650+</p>
-                <p className="text-xs text-[#5d6b78]">Positionen hinterlegt</p>
-              </div>
-              <Link href="/app" aria-label="Plan analysieren" className="flex h-11 w-11 items-center justify-center rounded-full bg-[#16202a] text-white hover:bg-[#d9822b] transition">
-                ↗
+            <div className="einblenden einblenden-3 mt-8 flex flex-wrap items-center justify-center gap-3">
+              <DemoPille />
+              <Link
+                href="/#ablauf"
+                className="inline-flex items-center rounded-full border border-white/60 px-5 py-2.5 text-[13px] font-semibold text-white hover:bg-white/15 transition"
+              >
+                So funktioniert’s
               </Link>
             </div>
           </div>
 
-          <div className="hidden md:block" />
-
-          <div className="milchglas einblenden einblenden-3 rounded-[1.75rem] p-6">
-            <div className="flex items-start justify-between gap-4">
-              <div>
-                <p className="text-[15px] font-semibold text-[#16202a]">EFH Torricelligasse</p>
-                <p className="mt-1 text-xs text-[#5d6b78]">Beispielprojekt, Wien 17</p>
-              </div>
-              <Link href="/vorschau" aria-label="Beispiel ansehen" className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#16202a] text-white hover:bg-[#d9822b] transition">
-                ↗
-              </Link>
-            </div>
-            <p className="mt-3 text-[13px] leading-relaxed text-[#34424f]">
-              Zweigeschossiges Einfamilienhaus, aus fünf Planblättern in wenigen Minuten ausgewertet.
+          <div className="relative mt-10 grid items-end gap-6 lg:grid-cols-[1fr_minmax(0,540px)_1fr]">
+            <p className="order-3 lg:order-1 text-[17px] leading-snug text-white">
+              Näher am Plan,
+              <br />
+              schneller zur Zahl.
             </p>
-            <div className="mt-4 grid grid-cols-3 gap-2 text-center">
+            <div className="order-1 lg:order-2">
+              <Grundriss />
+            </div>
+            <div className="order-2 lg:order-3 grid grid-cols-2 lg:grid-cols-1 gap-3 lg:justify-self-end lg:w-56">
               {[
-                ["222 m²", "Nutzfläche"],
-                ["47", "Positionen"],
-                ["12", "Gewerke"],
-              ].map(([z, l]) => (
-                <div key={l} className="rounded-2xl bg-[#fbe9d2]/70 py-2.5">
-                  <p className="text-sm font-semibold text-[#16202a]">{z}</p>
-                  <p className="text-[10px] text-[#5d6b78]">{l}</p>
+                ["22.650+", "Positionen aus dem LB-HB 023 hinterlegt"],
+                ["5 Min.", "vom Plan zum fertigen Massenauszug"],
+              ].map(([z, t]) => (
+                <div key={z} className="milchglas-dunkel rounded-2xl p-5 text-white">
+                  <p className="text-3xl font-light tracking-tight">{z}</p>
+                  <p className="mt-2 text-[12px] leading-snug text-white/75">{t}</p>
                 </div>
               ))}
             </div>

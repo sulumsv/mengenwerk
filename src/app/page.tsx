@@ -1,4 +1,4 @@
-import { SiteNav, SiteFooter } from "@/components/SiteNav";
+import { SiteFooter } from "@/components/SiteNav";
 import { PlanAnalyseSection } from "@/components/PlanAnalyse";
 import { ProduktVorschau } from "@/components/ProduktVorschau";
 import { StartBuehne } from "@/components/StartBuehne";
@@ -59,8 +59,6 @@ const FAQ = [
 export default function Home() {
   return (
     <main className="flex-1 bg-[#ffffff]">
-      <SiteNav />
-
       <StartBuehne />
 
       {/* Kennzahlen */}

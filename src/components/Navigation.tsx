@@ -2,138 +2,155 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
-import { Logo } from "./Logo";
+import { useState } from "react";
+import { Logo, LogoMark } from "./Logo";
 
-type Icon = "haus" | "upload" | "dokument" | "raster" | "euro" | "info" | "brief" | "person";
+const LINKS = [
+  { href: "/", label: "Start" },
+  { href: "/#ablauf", label: "So funktioniert’s" },
+  { href: "/vorschau", label: "Beispiel" },
+  { href: "/preise", label: "Preise" },
+  { href: "/ueber-uns", label: "Über uns" },
+];
 
-function Symbol({ name }: { name: Icon }) {
-  const p = {
-    haus: "M4 11.5 12 5l8 6.5V20a1 1 0 0 1-1 1h-4.5v-5.5h-5V21H5a1 1 0 0 1-1-1Z",
-    upload: "M12 16V5m0 0-4 4m4-4 4 4M5 19h14",
-    dokument: "M7 3h7l4 4v14H7ZM14 3v4h4M10 12h5M10 16h5",
-    raster: "M4 4h7v7H4ZM13 4h7v7h-7ZM4 13h7v7H4ZM13 13h7v7h-7Z",
-    euro: "M17 7.5A6 6 0 1 0 17 16.5M5 10.5h8M5 13.5h8",
-    info: "M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18ZM12 11v5M12 8h.01",
-    brief: "M4 6h16v12H4ZM4 7l8 6 8-6",
-    person: "M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM5 20a7 7 0 0 1 14 0",
-  }[name];
+const MEHR = [
+  { href: "/app", label: "Plan analysieren" },
+  { href: "/einheitspreise", label: "Einheitspreise" },
+  { href: "/kontakt", label: "Kontakt" },
+  { href: "/login", label: "Login" },
+];
+
+function Pfeil() {
   return (
-    <svg viewBox="0 0 24 24" className="h-[18px] w-[18px] shrink-0" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-      <path d={p} />
+    <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M7 17 17 7M9 7h8v8" />
     </svg>
   );
 }
 
-const GRUPPEN: { titel: string; links: { href: string; label: string; icon: Icon }[] }[] = [
-  {
-    titel: "Werkzeug",
-    links: [
-      { href: "/", label: "Startseite", icon: "haus" },
-      { href: "/app", label: "Plan analysieren", icon: "upload" },
-      { href: "/vorschau", label: "Beispielauswertung", icon: "dokument" },
-      { href: "/einheitspreise", label: "Einheitspreise", icon: "raster" },
-    ],
-  },
-  {
-    titel: "Unternehmen",
-    links: [
-      { href: "/preise", label: "Preise", icon: "euro" },
-      { href: "/ueber-uns", label: "Über uns", icon: "info" },
-      { href: "/kontakt", label: "Kontakt", icon: "brief" },
-    ],
-  },
-];
-
-function Eintrag({ href, label, icon, aktiv, onClick }: { href: string; label: string; icon: Icon; aktiv: boolean; onClick?: () => void }) {
+function IconKnopf({ href, label, d, hell }: { href: string; label: string; d: string; hell: boolean }) {
   return (
     <Link
       href={href}
-      onClick={onClick}
-      className={`flex items-center gap-3 rounded-xl px-3 py-2.5 text-[14px] transition ${
-        aktiv ? "bg-[#fbe9d2] text-[#16202a] font-semibold" : "text-[#5d6b78] hover:bg-[#f5f6f8] hover:text-[#16202a]"
+      aria-label={label}
+      title={label}
+      className={`flex h-9 w-9 items-center justify-center rounded-full border transition ${
+        hell ? "border-white/50 text-white hover:bg-white/15" : "border-[#dfe3e8] text-[#34424f] hover:bg-[#f3f5f7]"
       }`}
     >
-      <span className={aktiv ? "text-[#b86a1c]" : ""}>
-        <Symbol name={icon} />
-      </span>
-      {label}
+      <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d={d} />
+      </svg>
     </Link>
   );
 }
 
-function Inhalt({ pfad, schliessen }: { pfad: string; schliessen?: () => void }) {
+export function DemoPille({ className = "" }: { className?: string }) {
   return (
-    <>
-      <nav className="flex flex-col gap-6">
-        {GRUPPEN.map((g) => (
-          <div key={g.titel}>
-            <p className="px-3 mb-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-[#9aa5b0]">{g.titel}</p>
-            <div className="flex flex-col gap-0.5">
-              {g.links.map((l) => (
-                <Eintrag key={l.href} {...l} aktiv={pfad === l.href} onClick={schliessen} />
-              ))}
-            </div>
-          </div>
-        ))}
-      </nav>
-      <div className="mt-auto flex flex-col gap-2 pt-8">
-        <Eintrag href="/login" label="Login" icon="person" aktiv={pfad === "/login"} onClick={schliessen} />
-        <Link
-          href="/demo"
-          onClick={schliessen}
-          className="flex items-center justify-center rounded-xl bg-[#16202a] px-4 py-3 text-[14px] font-semibold text-white hover:bg-[#d9822b] transition"
-        >
-          Demo anfragen
-        </Link>
-      </div>
-    </>
+    <Link
+      href="/demo"
+      className={`group inline-flex items-center gap-3 rounded-full bg-white py-1.5 pl-5 pr-1.5 text-[13px] font-semibold text-[#16202a] shadow-[0_8px_24px_-12px_rgba(22,32,42,0.35)] ${className}`}
+    >
+      Demo anfragen
+      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#16202a] text-white transition group-hover:bg-[#d9822b]">
+        <Pfeil />
+      </span>
+    </Link>
   );
 }
 
-export function Navigation() {
+export function Navigation({ variante = "standard" }: { variante?: "standard" | "buehne" }) {
   const pfad = usePathname();
   const [offen, setOffen] = useState(false);
-
-  useEffect(() => {
-    document.body.style.overflow = offen ? "hidden" : "";
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [offen]);
+  const hell = variante === "buehne";
 
   return (
-    <>
-      <aside className="seitenleiste hidden lg:flex fixed inset-y-0 left-0 z-50 w-60 flex-col border-r border-[#eceff2] bg-white px-4 py-6">
-        <Link href="/" aria-label="MengenWerk Startseite" className="px-3 mb-10">
-          <Logo />
-        </Link>
-        <Inhalt pfad={pfad} />
-      </aside>
-
-      <header className="lg:hidden sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-[#eceff2]">
-        <div className="flex h-16 items-center justify-between px-5">
+    <header className={`relative z-40 ${hell ? "" : "bg-white border-b border-[#eceff2]"}`}>
+      <div className={`flex items-center justify-between gap-4 ${hell ? "px-5 pt-5 md:px-7 md:pt-6" : "max-w-6xl mx-auto px-5 md:px-10 h-[4.5rem]"}`}>
+        <div className="flex items-center gap-8">
           <Link href="/" aria-label="MengenWerk Startseite" onClick={() => setOffen(false)}>
-            <Logo />
+            {hell ? (
+              <span className="inline-flex items-center gap-2.5">
+                <LogoMark className="h-9 w-9" />
+                <span className="hidden sm:inline font-bold tracking-tight text-[1.1rem] text-white">mengenwerk</span>
+              </span>
+            ) : (
+              <Logo />
+            )}
           </Link>
+          <nav className="hidden lg:flex items-center gap-1.5">
+            {LINKS.map((l) => {
+              const aktiv = pfad === l.href;
+              return (
+                <Link
+                  key={l.href}
+                  href={l.href}
+                  className={`rounded-full border px-4 py-1.5 text-[13px] transition ${
+                    aktiv
+                      ? hell
+                        ? "border-white bg-white text-[#16202a] font-semibold"
+                        : "border-[#16202a] bg-[#16202a] text-white font-semibold"
+                      : hell
+                        ? "border-white/45 text-white hover:bg-white/15"
+                        : "border-[#dfe3e8] text-[#34424f] hover:border-[#16202a]"
+                  }`}
+                >
+                  {l.label}
+                </Link>
+              );
+            })}
+          </nav>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <div className="hidden lg:flex items-center gap-2 mr-2">
+            <IconKnopf href="/app" label="Plan analysieren" d="M12 16V5m0 0-4 4m4-4 4 4M5 19h14" hell={hell} />
+            <IconKnopf href="/kontakt" label="Kontakt" d="M4 6h16v12H4ZM4 7l8 6 8-6" hell={hell} />
+            <IconKnopf href="/login" label="Login" d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM5 20a7 7 0 0 1 14 0" hell={hell} />
+          </div>
+          <DemoPille className="hidden sm:inline-flex" />
           <button
             type="button"
             aria-label={offen ? "Menü schließen" : "Menü öffnen"}
             aria-expanded={offen}
             onClick={() => setOffen(!offen)}
-            className="flex h-10 w-10 items-center justify-center rounded-full bg-[#f5f6f8] text-[#16202a]"
+            className={`lg:hidden flex h-10 w-10 items-center justify-center rounded-full border ${
+              hell ? "border-white/50 text-white bg-white/10" : "border-[#dfe3e8] text-[#16202a]"
+            }`}
           >
             <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
               {offen ? <path d="M6 6l12 12M18 6 6 18" /> : <path d="M4 8h16M4 16h16" />}
             </svg>
           </button>
         </div>
-        {offen && (
-          <div className="flex h-[calc(100dvh-4rem)] flex-col overflow-y-auto bg-white px-4 pb-8 pt-4">
-            <Inhalt pfad={pfad} schliessen={() => setOffen(false)} />
-          </div>
-        )}
-      </header>
-    </>
+      </div>
+
+      {offen && (
+        <div className="lg:hidden absolute inset-x-3 top-full mt-2 rounded-3xl bg-white p-3 shadow-[0_24px_60px_-20px_rgba(22,32,42,0.45)]">
+          {[...LINKS, ...MEHR].map((l) => (
+            <Link
+              key={l.href}
+              href={l.href}
+              onClick={() => setOffen(false)}
+              className={`flex items-center justify-between rounded-2xl px-4 py-3 text-[15px] ${
+                pfad === l.href ? "bg-[#fbe9d2] font-semibold text-[#16202a]" : "text-[#34424f] hover:bg-[#f5f6f8]"
+              }`}
+            >
+              {l.label}
+              <span className="text-[#9aa5b0]">
+                <Pfeil />
+              </span>
+            </Link>
+          ))}
+          <Link
+            href="/demo"
+            onClick={() => setOffen(false)}
+            className="mt-2 flex items-center justify-center rounded-2xl bg-[#16202a] px-4 py-3.5 text-[15px] font-semibold text-white"
+          >
+            Demo anfragen
+          </Link>
+        </div>
+      )}
+    </header>
   );
 }

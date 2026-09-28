@@ -1,12 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import dynamic from "next/dynamic";
-import { AnimatePresence, motion, useMotionValueEvent, useScroll, useSpring } from "motion/react";
+import { AnimatePresence, motion, useMotionValueEvent, useScroll, useSpring, useTransform } from "motion/react";
 import { boxen, schlitze, RAEUME, FARBE, PLAN_W, PLAN_H, m2, NUTZFLAECHE, TUERBOEGEN } from "./haus/plan";
-
-// WebGL läuft nur im Browser; die Szene lädt ihre Modelle, während die ersten Kapitel gelesen werden.
-const HausSzene = dynamic(() => import("./haus/HausSzene"), { ssr: false });
+import { BildFolge } from "./haus/BildFolge";
 
 const KAPITEL = [
   {
@@ -165,15 +162,6 @@ export function PlanAnalyseSection() {
   const containerRef = useRef<HTMLDivElement>(null);
   const [kapitel, setKapitel] = useState(0);
   const [fit, setFit] = useState(1);
-  const [bereit, setBereit] = useState(false);
-  const [planSvg, setPlanSvg] = useState<{ normal: string; markiert: string } | null>(null);
-  const svgNormal = useRef<HTMLDivElement>(null);
-  const svgMarkiert = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const lies = (el: HTMLDivElement | null) => (el?.firstElementChild ? new XMLSerializer().serializeToString(el.firstElementChild) : "");
-    setPlanSvg({ normal: lies(svgNormal.current), markiert: lies(svgMarkiert.current) });
-  }, []);
 
   const { scrollYProgress } = useScroll({ target: containerRef, offset: ["start start", "end end"] });
   // Gedämpft wie eine Kamerafahrt: jeder Scroll-Ruck wird zu einer weichen Bewegung.
@@ -204,25 +192,13 @@ export function PlanAnalyseSection() {
           backgroundSize: "32px 32px",
         }}
       >
-        {/* Vorlagen für die Planblatt-Textur (unsichtbar) */}
-        <div aria-hidden className="absolute -left-[9999px] top-0">
-          <div ref={svgNormal}>
-            <Grundriss kapitel={0} statisch />
-          </div>
-          <div ref={svgMarkiert}>
-            <Grundriss kapitel={1} statisch />
-          </div>
-        </div>
+        {/* Fließender Übergang: Plan → Baustelle → fertiges Haus, ein durchgehender Zoom statt harter Schnitte. */}
+        <BildFolge fortschritt={weich} />
 
-        {/* Die 3D-Szene zeigt von Anfang an den Plan von oben; daraus wächst das Haus. */}
-        <div className="absolute inset-0">
-          {planSvg && <HausSzene fortschritt={weich} planSvg={planSvg} onBereit={() => setBereit(true)} />}
-        </div>
-
-        {/* 2D-Plan nur als Platzhalter, bis die 3D-Szene geladen ist */}
-        <div
+        {/* Der 2D-Plan liegt am Anfang über der ersten Fotoebene, exakt wie zuvor als eigenständige Zeichnung. */}
+        <motion.div
           className="absolute inset-0 flex items-center justify-center pb-40 md:pb-0 pointer-events-none"
-          style={{ display: bereit ? "none" : undefined }}
+          style={{ opacity: useTransform(weich, [0, 0.16, 0.26], [1, 1, 0]) }}
         >
           <div style={{ width: PLAN_W * fit, height: PLAN_H * fit }}>
             <div style={{ width: PLAN_W, height: PLAN_H, transform: `scale(${fit})`, transformOrigin: "top left" }}>
@@ -231,7 +207,7 @@ export function PlanAnalyseSection() {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         <div className="absolute left-4 right-4 bottom-4 md:left-10 md:right-auto md:bottom-10 md:w-[440px]">
           <div className="rounded-2xl bg-[#14130f]/95 text-white p-6 md:p-8 shadow-2xl backdrop-blur">

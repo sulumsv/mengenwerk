@@ -21,20 +21,25 @@ export async function leseCadEbenen(datei: File): Promise<CadAuswertung | null> 
 
     const flaechen = [];
     let massstab: number | null = null;
+    let seitenGroesse: { breite: number; hoehe: number; transform: number[] } | undefined;
     for (let nr = 1; nr <= dokument.numPages; nr++) {
       const seite = await dokument.getPage(nr);
+      if (nr === 1) {
+        const v = seite.getViewport({ scale: 1 });
+        seitenGroesse = { breite: v.width, hoehe: v.height, transform: v.transform as number[] };
+      }
       const text = await seite.getTextContent();
       const texte = text.items.map((t) => ("str" in t ? t.str : ""));
       massstab ??= massstabAusText(texte);
       if (!massstab) continue;
       const liste = await seite.getOperatorList();
       flaechen.push(
-        ...sammleFlaechen(liste.fnArray, liste.argsArray, pdfjs.OPS as unknown as OpsTabelle, ebenenNamen, massstab),
+        ...sammleFlaechen(liste.fnArray, liste.argsArray, pdfjs.OPS as unknown as OpsTabelle, ebenenNamen, massstab, nr),
       );
     }
     if (!massstab) return null;
 
-    const auswertung = werteAus(flaechen, massstab, Object.values(ebenenNamen));
+    const auswertung = { ...werteAus(flaechen, massstab, Object.values(ebenenNamen)), seite: seitenGroesse };
     return auswertung.positionen.length > 0 ? auswertung : null;
   } finally {
     await dokument.destroy();

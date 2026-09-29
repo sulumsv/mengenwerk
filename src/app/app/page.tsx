@@ -9,6 +9,7 @@ import { MassenauszugAnsicht } from "@/components/Massenauszug";
 import { planZuBlaettern, vorschauBild } from "@/lib/plan-zu-bildern";
 import { ScanAnimation } from "@/components/ScanAnimation";
 import { CadErgebnis } from "@/components/CadErgebnis";
+import { CadKontrolle } from "@/components/CadKontrolle";
 import { leseCadEbenen } from "@/lib/cad-lesen";
 import type { CadAuswertung } from "@/lib/cad-ebenen";
 import { lesePlanAusText, umfangAusFlaeche } from "@/lib/plan-lesen";
@@ -383,6 +384,7 @@ export default function ToolPage() {
         </div>
 
         {cad && !laedt && <CadErgebnis auswertung={cad} />}
+        {cad && !laedt && <CadKontrolle auswertung={cad} bild={vorschau} />}
 
         {ergebnis && "fehler" in ergebnis && (
           <div className="mt-6 rounded-xl border-2 border-alert bg-alert/10 p-5 text-sm space-y-3">

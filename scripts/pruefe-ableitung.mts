@@ -1,7 +1,7 @@
 // Prüflauf der Ableitung gegen die von Hand gerechneten Mengen des
 // Einreichplans Beispielhaus. Aufruf: npm run pruefe
 import { baueMassenauszug, mitKostenschaetzung } from "../src/lib/ableitung.ts";
-import { gleicheWohnnutzflaecheAb, istRaumname } from "../src/lib/plan-lesen.ts";
+import { gleicheWohnnutzflaecheAb, istRaumname, werteSeitenAus, type Schnipsel } from "../src/lib/plan-lesen.ts";
 import { leseKorrektur } from "../src/lib/korrekturen.ts";
 import { NACHWEISE, nachweisAnweisung } from "../src/lib/nachweise.ts";
 import type { DetectedElement, PlanKontext, Raum } from "../src/lib/types.ts";
@@ -318,6 +318,96 @@ pruefe("Keller und Garage auf eigenem Blatt bleiben erhalten", () => {
   const ug = [raum("Hobbyraum", 45, "Blatt 1"), raum("Vorrat", 30, "Blatt 1"), raum("Waschen", 36, "Blatt 1")];
   const a = gleicheWohnnutzflaecheAb([...eg, ...og, ...ug, ...garage], 189);
   if (!a.raeume.some((r) => r.name === "Garage") || a.raeume.length !== 12) throw new Error(`${a.raeume.length} Räume`);
+});
+
+// ── Ein Blatt mit allen Grundrissen und einer Flächenaufstellung ──
+// Wie beim Einreichplan Torricelligasse: EG, OG und Keller nebeneinander bzw.
+// darunter, jeder mit Überschrift unter der Zeichnung, rechts die Tabelle.
+function einBlattPlan(): Schnipsel[] {
+  const t: Schnipsel[] = [];
+  const text = (s: string, x: number, y: number, hoehe = 8) => t.push({ text: s, x, y, hoehe, breite: s.length * hoehe * 0.5 });
+  const stempel = (name: string, flaeche: string, belag: string, x: number, y: number) => {
+    text(name, x, y + 12);
+    text(`${flaeche} m²`, x, y);
+    text(belag, x, y - 12);
+  };
+  // Obere Reihe: EG links, OG rechts
+  stempel("Wohnküche", "45,20", "Parkett", 180, 2000);
+  stempel("Bad", "8,30", "Fliesen", 420, 2050);
+  stempel("WC", "2,10", "Fliesen", 560, 1850);
+  stempel("Vorraum", "9,40", "Fliesen", 300, 1650);
+  text("Grundriss Erdgeschoss 1:100", 100, 1450, 10);
+  stempel("Zimmer", "14,50", "Parkett", 900, 2000);
+  stempel("Zimmer", "13,20", "Parkett", 1150, 2000);
+  stempel("Bad", "7,80", "Fliesen", 1000, 1750);
+  stempel("Gang", "6,50", "Parkett", 1250, 1650);
+  text("Grundriss Obergeschoss 1:100", 800, 1450, 10);
+  // Untere Reihe: Keller, dicht unter der Überschrift des EG
+  stempel("Hobbyraum", "30,00", "Fliesen", 200, 1380);
+  stempel("Waschraum", "15,00", "Fliesen", 450, 1200);
+  text("Grundriss Kellergeschoss 1:100", 100, 900, 10);
+  // Flächenaufstellung: Namen links, Flächen rechtsbündig in einer Spalte
+  const zeilen: [string, string][] = [
+    ["Wohnküche", "45,20"], ["Bad", "8,30"], ["WC", "2,10"], ["Vorraum", "9,40"],
+    ["Zimmer", "14,50"], ["Zimmer", "13,20"], ["Bad", "7,80"], ["Gang", "6,50"],
+  ];
+  zeilen.forEach(([name, f], i) => {
+    const y = 2100 - i * 14;
+    text(name, 2420, y);
+    const wert = `${f} m²`;
+    text(wert, 2500 - wert.length * 4, y);
+  });
+  text("Wohnnutzfläche 107,00 m²", 2420, 1950);
+  return t;
+}
+
+pruefe("Ein Blatt mit mehreren Grundrissen und Flächentabelle wird richtig aufgeteilt", () => {
+  const e = werteSeitenAus([einBlattPlan()]);
+  const beheizt = e.raeume.filter((r) => r.beheizt);
+  const summe = beheizt.reduce((s, r) => s + r.flaeche_m2, 0);
+  const geschosse = [...new Set(e.raeume.map((r) => r.geschoss))].sort().join(",");
+  if (!e.verlaesslich || Math.abs(summe - 107) > 0.01 || geschosse !== "EG,KG,OG") {
+    throw new Error(`verlässlich ${e.verlaesslich}, beheizt ${summe}, Geschoße ${geschosse}, ${e.grund ?? ""} ${e.kontext.hinweise.join(" | ")}`);
+  }
+  const eg = e.raeume.filter((r) => r.geschoss === "EG").map((r) => r.name).sort().join(",");
+  if (eg !== "Bad,Vorraum,WC,Wohnküche") throw new Error(`EG: ${eg}`);
+});
+
+pruefe("Ohne ausgewiesene Wohnnutzfläche zählt die Flächentabelle nicht doppelt", () => {
+  const ohneNachweis = einBlattPlan().filter((s) => !s.text.startsWith("Wohnnutzfläche"));
+  const e = werteSeitenAus([ohneNachweis]);
+  if (e.raeume.some((r) => r.geschoss.startsWith("Flächenaufstellung")) || e.raeume.length !== 10) {
+    throw new Error(`${e.raeume.length} Räume: ${e.raeume.map((r) => `${r.geschoss}/${r.name}`).join(", ")}`);
+  }
+});
+
+pruefe("ArchiCAD-Raumstempel mit A: und U: werden gelesen, Wohnungssummen nicht", () => {
+  // Nachgebaut aus dem Polierplan Neustiftgasse: Name, Belag, "A:" + Fläche mit
+  // hochgestellter 2 als eigenem Schnipsel, "U:" + Umfang, daneben Planhinweise.
+  const t: Schnipsel[] = [];
+  const text = (s: string, x: number, y: number, hoehe = 10, breite = s.length * 5) => t.push({ text: s, x, y, hoehe, breite });
+  const stempel = (name: string, belag: string, a: string, u: string, x: number, y: number) => {
+    text(name, x - 10, y + 23.3, 12);
+    text(belag, x - 10, y + 11.5);
+    text("A:", x - 10, y, 10, 7.8);
+    text(`${a} m`, x, y, 10, 25.1);
+    text("2", x + 25.1, y + 3.4, 6.6, 3);
+    text("U:", x - 10, y - 11.5, 10, 8.2);
+    text(`${u} m`, x + 0.5, y - 11.5, 10, 25.1);
+  };
+  stempel("WOHNKÜCHE", "Parkett", "24,17", "19,92", 570, 530);
+  text("abgehängte Decken", 640, 553, 10, 70);
+  stempel("WC", "Fliesen", "1,71", "5,45", 1260, 200);
+  text("h=1,50m", 1274, 223.3, 8.8, 28);
+  stempel("WC/BAD", "Fliesen", "5,95", "11,29", 1450, 1060);
+  text("DFF", 1493, 1061.5, 8, 11.3);
+  text("TOP - 09", 900, 800, 12, 39.6);
+  text("141,17m²", 897.5, 789.7, 12, 42.1);
+  const e = werteSeitenAus([t]);
+  const liste = e.raeume.map((r) => `${r.name} ${r.flaeche_m2} U${r.umfang_m}`).sort().join(", ");
+  const erwartet = "WC 1.71 U5.45, WC/BAD 5.95 U11.29, WOHNKÜCHE 24.17 U19.92";
+  if (liste !== erwartet) throw new Error(liste);
+  if (e.raeume.some((r) => r.umfangQuelle !== "gerechnet")) throw new Error("Umfang nicht aus dem Stempel übernommen");
 });
 
 pruefe("Belagszeilen im Raumstempel werden nicht zum Raumnamen", () => {

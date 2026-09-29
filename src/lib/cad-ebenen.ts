@@ -49,6 +49,9 @@ export interface CadFlaeche {
   farbe: string;
   /** Lage der Fläche auf dem Blatt, nur um Doppelzeichnungen zu erkennen. */
   ort: string;
+  seite: number;
+  /** Außenkontur in PDF-Koordinaten, für die Kontrollansicht. */
+  kontur: [number, number][];
   flaeche_m2: number;
   umfang_m: number;
 }
@@ -61,8 +64,18 @@ export interface CadPosition {
   teile: number;
 }
 
+export interface CadKontur {
+  seite: number;
+  art: Bauteilart;
+  dicke_m: number;
+  kontur: [number, number][];
+}
+
 export interface CadAuswertung {
   massstab: number;
+  /** Größe der ersten Seite in PDF-Punkten, für die Kontrollansicht. */
+  seite?: { breite: number; hoehe: number; transform: number[] };
+  konturen: CadKontur[];
   ebenen: string[];
   erkannteEbenen: { name: string; art: Bauteilart }[];
   positionen: CadPosition[];
@@ -90,6 +103,7 @@ function rechteck(a: number, u: number): { laenge: number; dicke: number } | nul
 export function werteAus(flaechen: CadFlaeche[], massstab: number, ebenen: string[]): CadAuswertung {
   const gruppen = new Map<string, CadPosition>();
   const gesehen = new Set<string>();
+  const konturen: CadKontur[] = [];
 
   // Je Ebene zählt nur die vorherrschende Füllfarbe. Andere Farben auf
   // derselben Ebene sind Überlagerungen wie Schnittmarken oder Bauteile
@@ -117,6 +131,7 @@ export function werteAus(flaechen: CadFlaeche[], massstab: number, ebenen: strin
     if (!r || r.dicke > MAX_DICKE[art] || r.dicke < MIN_DICKE[art]) continue;
 
     const dicke = einrasten(r.dicke);
+    konturen.push({ seite: f.seite, art, dicke_m: dicke, kontur: f.kontur });
     const key = `${art}|${dicke}`;
     const g = gruppen.get(key) ?? { art, dicke_m: dicke, laenge_m: 0, flaeche_m2: 0, teile: 0 };
     g.laenge_m += r.laenge;
@@ -134,7 +149,7 @@ export function werteAus(flaechen: CadFlaeche[], massstab: number, ebenen: strin
     .map((name) => ({ name, art: bauteilFuerEbene(name) }))
     .filter((e): e is { name: string; art: Bauteilart } => e.art !== null);
 
-  return { massstab, ebenen, erkannteEbenen, positionen };
+  return { massstab, konturen, ebenen, erkannteEbenen, positionen };
 }
 
 /** Maßstab aus dem Plankopf: der häufigste alleinstehende Eintrag "1:n". */
@@ -198,6 +213,7 @@ export function sammleFlaechen(
   OPS: OpsTabelle,
   ebenenNamen: Record<string, string>,
   massstab: number,
+  seite = 1,
 ): CadFlaeche[] {
   const m = (25.4 / 72 / 1000) * massstab;
   const fuellen = new Set([OPS.fill, OPS.eoFill, OPS.fillStroke, OPS.eoFillStroke, OPS.closeFillStroke, OPS.closeEOFillStroke]);
@@ -282,7 +298,7 @@ export function sammleFlaechen(
       for (const o of aussen) {
         if (o.a > 0) {
           const ort = `${Math.round(o.box[0])},${Math.round(o.box[1])}`;
-          ergebnis.push({ ebene, farbe, ort, flaeche_m2: o.a * m * m, umfang_m: o.u * m });
+          ergebnis.push({ ebene, farbe, ort, seite, kontur: o.pts, flaeche_m2: o.a * m * m, umfang_m: o.u * m });
         }
       }
     }

@@ -5,6 +5,7 @@ egal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+- **2026-09-29 13:32** · Claude · `b66ffc5` · Kontrollansicht zeigt die gezählten Bauteile farbig auf dem Plan
 - **2026-09-29 13:23** · Claude · `548fcd9` · Wände und Unterzüge aus den CAD-Ebenen eines Vektor-PDFs berechnen
 - **2026-09-28 15:32** · Claude · `8c19fe7` · App-Seiten, Beispiel, Einheitspreise und Rechtliches im neuen Design
 - **2026-09-28 15:27** · Claude · `fb40a25` · Einheitspreise nur nach dem Login bearbeitbar

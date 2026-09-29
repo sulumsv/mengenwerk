@@ -19,7 +19,7 @@
  */
 let pdfjsPromise: Promise<typeof import("pdfjs-dist")> | null = null;
 
-function ladePdfjs(): Promise<typeof import("pdfjs-dist")> {
+export function ladePdfjs(): Promise<typeof import("pdfjs-dist")> {
   pdfjsPromise ??= import("pdfjs-dist").then((pdfjs) => {
     pdfjs.GlobalWorkerOptions.workerSrc = new URL(
       "pdfjs-dist/build/pdf.worker.min.mjs",

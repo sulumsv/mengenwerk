@@ -173,6 +173,8 @@ export default function ToolPage() {
   const [ziehtUeber, setZiehtUeber] = useState(false);
   const [laedt, setLaedt] = useState(false);
   const [schritt, setSchritt] = useState<string | null>(null);
+  const [analyseStart, setAnalyseStart] = useState(0);
+  const [blattzahl, setBlattzahl] = useState(1);
   const [vorschau, setVorschau] = useState<string | null>(null);
   const [cad, setCad] = useState<CadAuswertung | null>(null);
   const [cadAus, setCadAus] = useState<Set<number>>(new Set());
@@ -228,6 +230,8 @@ export default function ToolPage() {
 
   async function analysieren(f: File) {
     setLaedt(true);
+    setAnalyseStart(Date.now());
+    setBlattzahl(1);
     setErgebnis(null);
     setTextGrund(null);
     setBearbeiteteRaeume(null);
@@ -262,6 +266,7 @@ export default function ToolPage() {
       const blaetter = await planZuBlaettern(f, (seite, von) =>
         setSchritt(`Blatt ${seite} von ${von} wird vorbereitet`),
       );
+      setBlattzahl(Math.max(1, blaetter.length));
       for (const blatt of blaetter) fd.append("blatt", blatt.datei, blatt.datei.name);
       setSchritt(`${blaetter.length} Blatt wird ausgewertet`);
     } catch {
@@ -349,7 +354,7 @@ export default function ToolPage() {
 
           {laedt ? (
             <div className="p-4 md:p-6">
-              <ScanAnimation bild={vorschau} meldung={schritt} />
+              <ScanAnimation bild={vorschau} meldung={schritt} start={analyseStart} blaetter={blattzahl} />
             </div>
           ) : (
           <div

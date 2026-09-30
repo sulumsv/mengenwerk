@@ -41,10 +41,10 @@ export function Navigation(_: { variante?: string }) {
             Anmelden
           </Link>
           <Link
-            href="/app"
+            href="/demo"
             className="hidden h-10 items-center rounded-lg bg-[#1f2a44] px-4 text-[15px] font-semibold text-white transition hover:bg-[#2c3a5c] sm:inline-flex"
           >
-            Plan analysieren
+            Demo anfragen
           </Link>
           <button
             type="button"
@@ -83,11 +83,11 @@ export function Navigation(_: { variante?: string }) {
               Anmelden
             </Link>
             <Link
-              href="/app"
+              href="/demo"
               onClick={() => setOffen(false)}
               className="flex h-11 items-center justify-center rounded-lg bg-[#1f2a44] text-[15px] font-semibold text-white"
             >
-              Plan analysieren
+              Demo anfragen
             </Link>
           </div>
         </div>

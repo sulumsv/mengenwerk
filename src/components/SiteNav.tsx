@@ -17,7 +17,6 @@ const NAVIGATION = [
 ];
 
 const WERKZEUGE = [
-  { href: "/app", label: "Plan analysieren" },
   { href: "/einheitspreise", label: "Einheitspreise" },
   { href: "/kontakt", label: "Kontakt" },
 ];

@@ -325,7 +325,7 @@ function abschnittBoden(raeume: Raum[], genutzt: Set<AnnahmeId>): Abschnitt {
   return {
     nummer: 2,
     titel: "Bodenaufbau & Beläge",
-    lgHinweis: "LG 11 · 24 · 50",
+    lgHinweis: "LG 11 · 24 · 38 · 49 · 50",
     vorspann:
       "Flächen aus den Raumstempeln, Verschnittzuschläge nach Verlegeart. Schichtstärken sind angenommen, solange die Aufbautenliste fehlt.",
     positionen: s.liste,
@@ -338,11 +338,15 @@ function abschnittBoden(raeume: Raum[], genutzt: Set<AnnahmeId>): Abschnitt {
  * bepreist.
  */
 const BELAG_PREIS: [RegExp, string][] = [
-  [/parkett/i, "parkett"],
+  [/parkett|kork/i, "parkett"],
   [/diele/i, "dielen"],
-  [/fliese|platte/i, "bodenfliesen"],
+  [/laminat/i, "laminat"],
+  [/vinyl|design|pvc/i, "vinyl"],
+  [/teppich/i, "teppich"],
+  [/linol/i, "linoleum"],
+  [/fliese|platte|feinstein/i, "bodenfliesen"],
   [/stein/i, "naturstein"],
-  [/beschichtung/i, "bodenbeschichtung"],
+  [/beschichtung|epoxid|versiegel/i, "bodenbeschichtung"],
 ];
 
 function preisFuerBelag(belag: string): string | undefined {
@@ -446,7 +450,7 @@ function abschnittRohbau(
       eingang: [st.konfidenz],
       typ: "stuetze",
       material: st.material,
-     preis: "stuetze",
+     preis: /holz|bsh|kvh|gl\d/i.test(`${st.material ?? ""} ${st.label}`) ? "holzbauteil" : "stuetze",
     });
   }
 
@@ -522,7 +526,7 @@ function abschnittFassade(
       abschnitt: {
         nummer: 4,
         titel: "Fassade & Gerüst",
-        lgHinweis: "LG 23",
+        lgHinweis: "LG 04 · 10 · 44",
         vorspann:
           "Im Plansatz ist keine Fassadenabwicklung nachgewiesen. Ohne sie lässt sich die Fassadenfläche aus Grundrissen nicht belastbar rekonstruieren.",
         positionen: [],
@@ -608,7 +612,7 @@ function abschnittFassade(
     abschnitt: {
       nummer: 4,
       titel: "Fassade & Gerüst",
-      lgHinweis: "LG 23",
+      lgHinweis: "LG 04 · 10 · 44",
       vorspann:
         "Die Fassadenabwicklung ist vom Planverfasser nachgewiesen und muss nicht rekonstruiert werden, die verlässlichste Großposition im Plansatz.",
       positionen: s.liste,
@@ -720,7 +724,7 @@ function abschnittDach(kontext: PlanKontext): Abschnitt {
   return {
     nummer: 5,
     titel: "Dach",
-    lgHinweis: "LG 15 · 16 · 18",
+    lgHinweis: "LG 22 · 23 · 36",
     vorspann:
       s.liste.length > 0
         ? "Die geneigte Dachfläche folgt aus der Grundfläche über den Kosinus der Dachneigung. Der Dachüberstand ist darin nicht enthalten."
@@ -860,7 +864,7 @@ function abschnittAusbau(raeume: Raum[], kontext: PlanKontext, genutzt: Set<Anna
   return {
     nummer: 6,
     titel: "Putz, Malerei & Fliesenspiegel",
-    lgHinweis: "LG 23 · 24 · 42",
+    lgHinweis: "LG 10 · 24 · 48",
     vorspann:
       "Wandflächen raumweise aus Umfang × lichter Geschoßhöhe. Wo kein Schnitt eine Höhe hergibt, ist sie angenommen und die Position entsprechend gekennzeichnet.",
     positionen: s.liste,
@@ -978,7 +982,7 @@ function abschnittOeffnungen(elemente: DetectedElement[]): Abschnitt {
   return {
     nummer: 7,
     titel: "Fenster & Türen",
-    lgHinweis: "LG 37 · 43 · 71-75",
+    lgHinweis: "LG 23 · 37 · 43 · 65 · 73",
     vorspann:
       relevant.length > 0
         ? "Stückzahlen aus Grundrissen und Ansichten gezählt. Ohne Fenster- und Türliste bleiben sie zu verifizieren."

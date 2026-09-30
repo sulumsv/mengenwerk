@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { mitKostenschaetzung, sortiereGeschosse } from "@/lib/ableitung";
 import { ladeEinheitspreise } from "@/lib/einheitspreise-speicher";
 import { PreisErfassung } from "./PreisErfassung";
-import { PREISKATALOG, type Einheitspreise } from "@/lib/preise";
+import { PREISKATALOG, type Einheitspreise, EIGENE_PREISE_PFLICHT } from "@/lib/preise";
 import type { Abschnitt, Konfidenz, Kostenschaetzung, Massenauszug, Position, Raum } from "@/lib/types";
 
 const KONFIDENZ_TEXT: Record<Konfidenz, string> = {
@@ -539,8 +539,13 @@ export function MassenauszugAnsicht({
   /** Wenn übergeben, werden Fläche und Umfang im Raumbuch durch Klick editierbar. */
   onRaumAendern?: (id: string, feld: "flaeche_m2" | "umfang_m", wert: number) => void;
 }) {
-  const [kostenAktiv, setKostenAktiv] = useState(false);
-  const [mitRichtwerten, setMitRichtwerten] = useState(false);
+  const [kostenAktiv, setKostenAktiv] = useState(!EIGENE_PREISE_PFLICHT);
+  const [mitRichtwerten, setMitRichtwerten] = useState(!EIGENE_PREISE_PFLICHT);
+
+  // Ohne Preispflicht steht die Kostenschätzung sofort da, eigene Preise gehen vor.
+  useEffect(() => {
+    if (!EIGENE_PREISE_PFLICHT) setEigene(ladeEinheitspreise());
+  }, []);
   const [eigene, setEigene] = useState<Einheitspreise>({});
   const [fehlend, setFehlend] = useState<string[] | null>(null);
 

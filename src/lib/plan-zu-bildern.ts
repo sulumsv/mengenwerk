@@ -39,7 +39,24 @@ const QUALITAET = 0.82;
 export interface Blatt {
   nummer: number;
   datei: File;
+  /** Ausschnitte in höherer Auflösung, nur bei großen Blättern. */
+  kacheln: File[];
 }
+
+/**
+ * Ab dieser Blattkante in PDF-Punkten (etwa A2) wird zusätzlich gekachelt.
+ * Auf einem A0-Blatt mit allen Grundrissen, Schnitten und Ansichten sind in
+ * der Übersicht Fensterbeschriftungen und Maßketten nicht mehr lesbar.
+ */
+const KACHEL_AB_PT = 1650;
+/** Kantenlänge einer Kachel. Über 20 Bildern je Anfrage nimmt die API höchstens 2000 px an. */
+const KACHEL_PX = 1900;
+/** Pixel je PDF-Punkt für die Kacheln, rund 115 dpi. */
+const KACHEL_SKALA = 1.6;
+const MAX_KACHELN = 6;
+const UEBERLAPPUNG = 0.08;
+/** Obergrenze aller Bilder einer Anfrage. Vercel nimmt höchstens 4,5 MB an. */
+export const BILDBUDGET_BYTE = 4 * 1024 * 1024;
 
 function skalierung(breite: number, hoehe: number): number {
   return Math.min(1, MAX_KANTE_PX / Math.max(breite, hoehe));
@@ -51,6 +68,63 @@ async function alsJpeg(leinwand: HTMLCanvasElement, name: string): Promise<File>
   );
   if (!blob) throw new Error("Die Planseite konnte nicht in ein Bild umgewandelt werden.");
   return new File([blob], name, { type: "image/jpeg" });
+}
+
+/** Raster für die Kacheln: so fein wie nötig, höchstens MAX_KACHELN Stück. */
+function kachelRaster(breitePt: number, hoehePt: number): { spalten: number; zeilen: number; skala: number } {
+  let skala = KACHEL_SKALA;
+  for (;;) {
+    const spalten = Math.ceil((breitePt * skala) / (KACHEL_PX * (1 - UEBERLAPPUNG)));
+    const zeilen = Math.ceil((hoehePt * skala) / (KACHEL_PX * (1 - UEBERLAPPUNG)));
+    if (spalten * zeilen <= MAX_KACHELN || skala < 0.8) return { spalten, zeilen, skala };
+    skala *= 0.9;
+  }
+}
+
+async function kachelnFuer(
+  seite: import("pdfjs-dist").PDFPageProxy,
+  nummer: number,
+  budget: { rest: number },
+): Promise<File[]> {
+  const roh = seite.getViewport({ scale: 1 });
+  if (Math.max(roh.width, roh.height) < KACHEL_AB_PT) return [];
+
+  const { spalten, zeilen, skala } = kachelRaster(roh.width, roh.height);
+  const viewport = seite.getViewport({ scale: skala });
+  const gross = document.createElement("canvas");
+  gross.width = Math.round(viewport.width);
+  gross.height = Math.round(viewport.height);
+  const ctx = gross.getContext("2d");
+  if (!ctx) return [];
+  ctx.fillStyle = "#ffffff";
+  ctx.fillRect(0, 0, gross.width, gross.height);
+  await seite.render({ canvas: gross, viewport }).promise;
+
+  const kw = Math.min(gross.width, Math.ceil(gross.width / spalten / (1 - UEBERLAPPUNG)));
+  const kh = Math.min(gross.height, Math.ceil(gross.height / zeilen / (1 - UEBERLAPPUNG)));
+  const kacheln: File[] = [];
+  try {
+    for (let z = 0; z < zeilen; z++) {
+      for (let s = 0; s < spalten; s++) {
+        const x = spalten === 1 ? 0 : Math.round((s * (gross.width - kw)) / (spalten - 1));
+        const y = zeilen === 1 ? 0 : Math.round((z * (gross.height - kh)) / (zeilen - 1));
+        const stueck = document.createElement("canvas");
+        stueck.width = kw;
+        stueck.height = kh;
+        stueck.getContext("2d")!.drawImage(gross, x, y, kw, kh, 0, 0, kw, kh);
+        const datei = await alsJpeg(stueck, `blatt-${nummer}-kachel-${z + 1}-${s + 1}.jpg`);
+        stueck.width = 0;
+        // Reicht das Budget nicht, lieber weniger Kacheln als eine abgewiesene Anfrage.
+        if (datei.size > budget.rest) return kacheln;
+        budget.rest -= datei.size;
+        kacheln.push(datei);
+      }
+    }
+    return kacheln;
+  } finally {
+    gross.width = 0;
+    gross.height = 0;
+  }
 }
 
 async function pdfZuBlaettern(
@@ -65,6 +139,8 @@ async function pdfZuBlaettern(
 
   try {
     const blaetter: Blatt[] = [];
+    const uebersichten: File[] = [];
+    const seiten = [];
     for (let nummer = 1; nummer <= dokument.numPages; nummer++) {
       melde(nummer, dokument.numPages);
 
@@ -84,9 +160,18 @@ async function pdfZuBlaettern(
       ctx.fillRect(0, 0, leinwand.width, leinwand.height);
       await seite.render({ canvas: leinwand, viewport }).promise;
 
-      blaetter.push({ nummer, datei: await alsJpeg(leinwand, `blatt-${nummer}.jpg`) });
+      const datei = await alsJpeg(leinwand, `blatt-${nummer}.jpg`);
+      uebersichten.push(datei);
+      seiten.push(seite);
+      blaetter.push({ nummer, datei, kacheln: [] });
       leinwand.width = 0;
       leinwand.height = 0;
+    }
+
+    // Erst wenn alle Übersichten stehen, ist klar, wie viel Platz für Kacheln bleibt.
+    const budget = { rest: BILDBUDGET_BYTE - uebersichten.reduce((s, d) => s + d.size, 0) };
+    for (let i = 0; i < seiten.length && budget.rest > 0; i++) {
+      blaetter[i].kacheln = await kachelnFuer(seiten[i], i + 1, budget);
     }
     return blaetter;
   } finally {
@@ -101,7 +186,7 @@ async function bildZuBlatt(datei: File): Promise<Blatt[]> {
     // Passt es ohnehin, bleibt die Datei unangetastet, erneutes Kodieren
     // kostet nur Schärfe.
     if (faktor === 1 && datei.size < 4 * 1024 * 1024) {
-      return [{ nummer: 1, datei }];
+      return [{ nummer: 1, datei, kacheln: [] }];
     }
 
     const leinwand = document.createElement("canvas");
@@ -113,7 +198,7 @@ async function bildZuBlatt(datei: File): Promise<Blatt[]> {
     ctx.fillRect(0, 0, leinwand.width, leinwand.height);
     ctx.drawImage(bitmap, 0, 0, leinwand.width, leinwand.height);
 
-    return [{ nummer: 1, datei: await alsJpeg(leinwand, "blatt-1.jpg") }];
+    return [{ nummer: 1, datei: await alsJpeg(leinwand, "blatt-1.jpg"), kacheln: [] }];
   } finally {
     bitmap.close();
   }

@@ -95,9 +95,19 @@ export async function POST(req: NextRequest) {
 
   const dateiname = String(formData.get("dateiname") ?? "Plansatz");
   const bilder = await Promise.all(blaetter.map(async (b) => Buffer.from(await b.arrayBuffer())));
+  const kacheln = await Promise.all(
+    blaetter.map((_, i) =>
+      Promise.all(
+        formData
+          .getAll(`kachel-${i}`)
+          .filter((k): k is File => k instanceof File)
+          .map(async (k) => Buffer.from(await k.arrayBuffer())),
+      ),
+    ),
+  );
 
   try {
-    const analyse = await analysiereBildseiten(bilder, dateiname, "bild", frist);
+    const analyse = await analysiereBildseiten(bilder, dateiname, "bild", frist, kacheln);
     const gruppen = gruppiereElemente(analyse.elemente);
     const massenauszug = baueMassenauszug(analyse.raeume, analyse.elemente, analyse.kontext);
     return NextResponse.json({ analyse, gruppen, massenauszug, katalog: katalogInfo() });

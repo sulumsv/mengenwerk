@@ -7,7 +7,17 @@ const PALETTE = ["#0f9d58", "#1a73e8", "#9334e6", "#e37400", "#d93025", "#12b5cb
 
 const zahl = (n: number) => n.toLocaleString("de-AT", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
-export function CadKontrolle({ auswertung, bild }: { auswertung: CadAuswertung; bild: string | null }) {
+export function CadKontrolle({
+  auswertung,
+  bild,
+  ausgeschlossen,
+  umschalten,
+}: {
+  auswertung: CadAuswertung;
+  bild: string | null;
+  ausgeschlossen: Set<number>;
+  umschalten: (index: number) => void;
+}) {
   const seite = auswertung.seite;
   const [aus, setAus] = useState<Set<string>>(new Set());
 
@@ -35,8 +45,8 @@ export function CadKontrolle({ auswertung, bild }: { auswertung: CadAuswertung; 
       <div className="border-b border-[#e8ecef] px-6 py-4">
         <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-[#1f2a44]">Kontrollansicht</p>
         <p className="mt-1 text-sm text-[#5d6b78]">
-          Jedes gezählte Bauteil ist farbig markiert. Mit einem Klick auf die Legende lassen sich Gruppen ein- und
-          ausblenden.
+          Jedes gezählte Bauteil ist farbig markiert. Ein Klick auf ein Bauteil nimmt es aus der Zählung, ein zweiter
+          Klick zählt es wieder. Über die Legende lassen sich Gruppen ein- und ausblenden.
         </p>
         <div className="mt-3 flex flex-wrap gap-1.5">
           {gruppen.map((g) => (
@@ -62,17 +72,29 @@ export function CadKontrolle({ auswertung, bild }: { auswertung: CadAuswertung; 
       <div className="relative bg-[#f7f9fb]">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={bild} alt="Plan" className="block w-full h-auto opacity-45" />
-        <svg viewBox={`0 0 ${seite.breite} ${seite.hoehe}`} className="absolute inset-0 h-full w-full" preserveAspectRatio="none">
-          {auswertung.konturen
-            .filter((k) => k.seite === 1 && !aus.has(`${k.art}|${k.dicke_m}`))
-            .map((k, i) => (
+        <svg viewBox={`0 0 ${seite.breite} ${seite.hoehe}`} className="absolute inset-0 h-full w-full" preserveAspectRatio="none" style={{ pointerEvents: "auto" }}>
+          {auswertung.konturen.map((k, i) => {
+            if (k.seite !== 1 || aus.has(`${k.art}|${k.dicke_m}`)) return null;
+            const raus = ausgeschlossen.has(i);
+            return (
               <polygon
                 key={i}
                 points={k.kontur.map(punkt).join(" ")}
-                fill={farbeFuer.get(`${k.art}|${k.dicke_m}`)}
-                fillOpacity={0.85}
-              />
-            ))}
+                fill={raus ? "#ffffff" : farbeFuer.get(`${k.art}|${k.dicke_m}`)}
+                fillOpacity={raus ? 0.6 : 0.85}
+                stroke={raus ? "#9aa5b0" : "none"}
+                strokeWidth={raus ? 1.5 : 0}
+                strokeDasharray={raus ? "4 3" : undefined}
+                className="cursor-pointer hover:opacity-70"
+                onClick={() => umschalten(i)}
+              >
+                <title>
+                  {BAUTEIL_TITEL[k.art]} {zahl(k.dicke_m)} m · {k.laenge_m.toFixed(1).replace(".", ",")} m
+                  {raus ? " (ausgeschlossen)" : ""}
+                </title>
+              </polygon>
+            );
+          })}
         </svg>
       </div>
     </section>

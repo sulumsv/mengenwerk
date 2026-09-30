@@ -1,8 +1,18 @@
-import { BAUTEIL_TITEL, type CadAuswertung } from "@/lib/cad-ebenen";
+import { BAUTEIL_TITEL, type CadAuswertung, type CadPosition } from "@/lib/cad-ebenen";
 
 const zahl = (n: number, d = 2) => n.toLocaleString("de-AT", { minimumFractionDigits: d, maximumFractionDigits: d });
 
-export function CadErgebnis({ auswertung }: { auswertung: CadAuswertung }) {
+export function CadErgebnis({
+  auswertung,
+  positionen,
+  ausgeschlossen,
+  zuruecksetzen,
+}: {
+  auswertung: CadAuswertung;
+  positionen: CadPosition[];
+  ausgeschlossen: number;
+  zuruecksetzen: () => void;
+}) {
   return (
     <section className="mt-8 rounded-2xl border border-[#e8ecef] bg-white overflow-hidden">
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[#e8ecef] bg-[#faf6ef] px-6 py-4">
@@ -34,7 +44,7 @@ export function CadErgebnis({ auswertung }: { auswertung: CadAuswertung }) {
             </tr>
           </thead>
           <tbody>
-            {auswertung.positionen.map((p) => (
+            {positionen.map((p) => (
               <tr key={`${p.art}-${p.dicke_m}`} className="border-b border-[#f3f5f7] last:border-0">
                 <td className="px-6 py-3 font-medium">
                   {BAUTEIL_TITEL[p.art]} d={zahl(p.dicke_m)}
@@ -48,6 +58,17 @@ export function CadErgebnis({ auswertung }: { auswertung: CadAuswertung }) {
           </tbody>
         </table>
       </div>
+
+      {ausgeschlossen > 0 && (
+        <div className="flex flex-wrap items-center justify-between gap-3 border-t border-[#eef1f3] bg-[#faf6ef] px-6 py-3 text-[13px]">
+          <span>
+            {ausgeschlossen} {ausgeschlossen === 1 ? "Bauteil" : "Bauteile"} in der Kontrollansicht ausgeschlossen
+          </span>
+          <button type="button" onClick={zuruecksetzen} className="font-semibold text-[#1f2a44] underline underline-offset-4">
+            Alle wieder zählen
+          </button>
+        </div>
+      )}
 
       <p className="border-t border-[#eef1f3] px-6 py-4 text-[13px] leading-relaxed text-[#5d6b78]">
         Längen und Dicken stammen aus den gefüllten Flächen der Wand- und Unterzugebenen. Für die Kubatur fehlen die

@@ -354,7 +354,7 @@ function istEstrichfaehig(r: Raum): boolean {
   const belag = (r.belag ?? "").toLowerCase();
   const name = r.name.toLowerCase();
   const aussen = ["stein", "dielen", "beschichtung", "beton"].some((b) => belag.includes(b));
-  const aussenraum = ["terrasse", "balkon", "garage", "gehweg", "loggia"].some((n) => name.includes(n));
+  const aussenraum = ["terrasse", "balkon", "garage", "gehweg", "loggia", "garten", "freifl"].some((n) => name.includes(n));
   return !aussen && !aussenraum;
 }
 

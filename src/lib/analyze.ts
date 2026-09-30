@@ -192,6 +192,8 @@ MATERIAL: leite es aus der Farbcodierung der Legende oder aus der Beschriftung a
 
 MASSE: alle Längen in Metern. Bei Fenster- und Türbeschriftungen der Form "90/220" ist 90 die Breite in Zentimetern und 220 die Höhe, also 0,90 m und 2,20 m. "FPH" ist die Fensterparapethöhe, keine Fensterhöhe.
 
+Keine Bauteile sind Pool, Zisterne, Retentionsbecken, Gartenflächen und andere Außenanlagen. Nenne sie unter hinweise.
+
 Gib für jedes Element den Rechenweg und die Fundstelle an. Erfinde nichts: Elemente ohne Beleg im Plan gehören nicht in die Liste, sondern unter hinweise.
 
 Schreibe alle Texte ohne Gedankenstriche (— oder –). Verwende stattdessen Punkt, Komma oder Doppelpunkt.`;
@@ -340,6 +342,7 @@ async function werteBlattAus(
   vonBlaettern: number,
   kontextText: string,
   verbrauch: Verbrauch,
+  kacheln: Buffer[] = [],
 ): Promise<Blattergebnis> {
   const leer: Blattergebnis = { raeume: [], elemente: [], hinweise: [] };
 
@@ -357,7 +360,15 @@ async function werteBlattAus(
             role: "user",
             content: [
               alsBild(bild),
-              { type: "text", text: `${kontextText}\n\nWerte Blatt ${blatt} von ${vonBlaettern} aus.` },
+              ...kacheln.map(alsBild),
+              {
+                type: "text",
+                text:
+                  `${kontextText}\n\nWerte Blatt ${blatt} von ${vonBlaettern} aus.` +
+                  (kacheln.length > 0
+                    ? ` Das erste Bild zeigt das ganze Blatt. Die ${kacheln.length} weiteren sind überlappende Ausschnitte desselben Blatts in höherer Auflösung, zeilenweise von oben links nach unten rechts. Lies Beschriftungen und Maße aus den Ausschnitten. Zähle jeden Raum und jedes Bauteil nur einmal, auch wenn es in mehreren Ausschnitten zu sehen ist.`
+                    : ""),
+              },
             ],
           },
         ],
@@ -413,6 +424,7 @@ export async function analysiereBildseiten(
   dateiname: string,
   dateityp: AnalysisResult["dateityp"],
   frist: number,
+  kacheln: Buffer[][] = [],
 ): Promise<AnalysisResult> {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
@@ -440,7 +452,7 @@ export async function analysiereBildseiten(
       uebersprungen.push(i + 1);
       return { raeume: [], elemente: [], hinweise: [] } satisfies Blattergebnis;
     }
-    return werteBlattAus(client, bild, i + 1, bilder.length, kontextText, verbrauch);
+    return werteBlattAus(client, bild, i + 1, bilder.length, kontextText, verbrauch, kacheln[i] ?? []);
   });
 
   // Scheitert jedes Blatt, ist das kein Teilausfall, sondern ein Ausfall: den

@@ -136,7 +136,7 @@ function HerkunftBlock({ verbrauch, textGrund }: { verbrauch?: VerbrauchsBericht
       </p>
       {textGrund && (
         <p className="mt-3 border-t border-line pt-3 text-sm text-fg-muted">
-          <span className="text-fg">Warum nicht kostenlos?</span> {textGrund}
+          <span className="text-fg">Warum die KI-Auswertung nötig war:</span> Die Textebene des Plans allein reichte nicht. {textGrund}
         </p>
       )}
     </div>
@@ -267,7 +267,10 @@ export default function ToolPage() {
         setSchritt(`Blatt ${seite} von ${von} wird vorbereitet`),
       );
       setBlattzahl(Math.max(1, blaetter.length));
-      for (const blatt of blaetter) fd.append("blatt", blatt.datei, blatt.datei.name);
+      blaetter.forEach((blatt, i) => {
+        fd.append("blatt", blatt.datei, blatt.datei.name);
+        for (const k of blatt.kacheln) fd.append(`kachel-${i}`, k, k.name);
+      });
       setSchritt(`${blaetter.length} Blatt wird ausgewertet`);
     } catch {
       setErgebnis({

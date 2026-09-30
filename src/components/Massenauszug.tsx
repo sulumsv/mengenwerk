@@ -5,7 +5,6 @@ import { mitKostenschaetzung, sortiereGeschosse } from "@/lib/ableitung";
 import { ladeEinheitspreise } from "@/lib/einheitspreise-speicher";
 import { PreisErfassung } from "./PreisErfassung";
 import { PREISKATALOG, type Einheitspreise } from "@/lib/preise";
-import { massenauszugAlsHtml } from "@/lib/export-html";
 import type { Abschnitt, Konfidenz, Kostenschaetzung, Massenauszug, Position, Raum } from "@/lib/types";
 
 const KONFIDENZ_TEXT: Record<Konfidenz, string> = {
@@ -497,26 +496,35 @@ function AbschnittBlock({ abschnitt, mitPreisen }: { abschnitt: Abschnitt; mitPr
  * Stylesheet in sich, lässt sich also weiterreichen und ohne Netz öffnen.
  */
 function Download({ auszug, titel }: { auszug: Massenauszug; titel: string }) {
-  function herunterladen() {
-    const html = massenauszugAlsHtml(auszug, titel, new Date());
-    const url = URL.createObjectURL(new Blob([html], { type: "text/html;charset=utf-8" }));
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = `${titel.replace(/[^\w\d-]+/g, "-").replace(/^-|-$/g, "").toLowerCase() || "massenauszug"}.html`;
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    // Erst nach dem Klick freigeben, sonst bricht der Download in Safari ab.
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  const [laedt, setLaedt] = useState(false);
+
+  async function herunterladen() {
+    setLaedt(true);
+    try {
+      const { massenauszugAlsPdf } = await import("@/lib/export-pdf");
+      const blob = await massenauszugAlsPdf(auszug, titel, new Date());
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${titel.replace(/[^\w\d-]+/g, "-").replace(/^-|-$/g, "").toLowerCase() || "massenauszug"}.pdf`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      // Erst nach dem Klick freigeben, sonst bricht der Download in Safari ab.
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    } finally {
+      setLaedt(false);
+    }
   }
 
   return (
     <button
       type="button"
       onClick={herunterladen}
-      className="self-start font-semibold text-sm px-6 py-3 bg-accent text-accent-fg rounded-xl"
+      disabled={laedt}
+      className="self-start font-semibold text-sm px-6 py-3 bg-accent text-accent-fg rounded-xl disabled:opacity-60"
     >
-      Massenauszug herunterladen
+      {laedt ? "PDF wird erstellt" : "Massenauszug als PDF herunterladen"}
     </button>
   );
 }

@@ -27,7 +27,20 @@ export default function DatenschutzPage() {
             <p>
               Ein hochgeladener Plan wird zur Erkennung von Maßen und Bauteilen an Anthropic als
               Verarbeitungsdienstleister für die Bilderkennung übermittelt. Die Datei wird für die Analyse
-              verwendet und danach nicht dauerhaft auf unseren Servern gespeichert.
+              verwendet. Der Plan selbst wird nur dann dauerhaft gespeichert, wenn beim Hochladen ausdrücklich
+              zugestimmt wurde.
+            </p>
+          </div>
+
+          <div>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg mb-2">Verbesserung der Erkennung</p>
+            <p>
+              Um die Erkennung zu verbessern, speichern wir die ausgelesenen Mengen, Raumbezeichnungen,
+              CAD-Ebenennamen und die Korrekturen, die im Tool vorgenommen werden. Dateinamen werden nicht
+              gespeichert, Straßennamen in den Planangaben werden vor dem Speichern entfernt. Mit Zustimmung beim
+              Hochladen speichern wir zusätzlich die Planbilder. Die Daten liegen bei Cloudflare R2 mit Speicherort
+              in der EU. Die Zustimmung kann jederzeit per Mail widerrufen werden, die gespeicherten Pläne werden
+              dann gelöscht.
             </p>
           </div>
 

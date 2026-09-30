@@ -5,6 +5,7 @@ import { gruppiereElemente } from "@/lib/group";
 import { baueMassenauszug } from "@/lib/ableitung";
 import { katalogInfo } from "@/lib/lbhb";
 import { AUTH_COOKIE, istAngemeldet } from "@/lib/auth";
+import { speichere } from "@/lib/datenspeicher";
 
 export const runtime = "nodejs";
 export const maxDuration = 300;
@@ -105,6 +106,15 @@ export async function POST(req: NextRequest) {
       ),
     ),
   );
+
+  // Den Plan selbst nur mit ausdrücklicher Zustimmung ablegen.
+  const auswertungId = String(formData.get("auswertungId") ?? "");
+  if (formData.get("planSpeichern") === "1" && /^[\w-]{8,64}$/.test(auswertungId)) {
+    const tag = new Date().toISOString().slice(0, 10);
+    await Promise.all(
+      bilder.map((b, i) => speichere(`plaene/${tag}/${auswertungId}/blatt-${i + 1}.jpg`, new Uint8Array(b), "image/jpeg")),
+    );
+  }
 
   try {
     const analyse = await analysiereBildseiten(bilder, dateiname, "bild", frist, kacheln);

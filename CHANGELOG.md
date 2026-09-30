@@ -5,6 +5,7 @@ egal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+- **2026-09-30 21:31** · Claude · `ba99aea` · Fehlermeldung nennt den Grund, wenn die Anthropic API eine Anfrage ablehnt
 - **2026-09-30 21:30** · Claude · `d587cb0` · KI-Analyse nutzt günstigeres Modell mit mittlerer Denkstufe
 - **2026-09-30 15:19** · Claude · `ebbe106` · Neues, einheitliches Design ohne Animationen
 - **2026-09-30 06:39** · Claude · `3568bda` · Bauteile in der Kontrollansicht per Klick aus der Zählung nehmen

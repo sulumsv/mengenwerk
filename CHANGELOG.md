@@ -5,6 +5,15 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 00:08 Uhr · KI-Analyse läuft auf Sonnet 5.5 mit niedriger Denkstufe
+
+Claude · Commit `f94e17c`
+
+- Planauswertung und Korrekturfeld nutzen claude-sonnet-5-5 statt claude-opus-5-5
+- Tokenpreis halbiert: 2 $ / 10 $ statt 4 $ / 20 $ je Million Token
+- Denkstufe der Planauswertung „low“ statt „medium“, weniger Ausgabe-Tokens
+- Tarif für Sonnet 5.5 in der Verbrauchsanzeige hinterlegt
+
 ### 2026-10-01 00:07 Uhr · Changelog zeigt jede Änderung mit Wiener Uhrzeit und Einzelheiten
 
 Claude · Commit `0921e94`

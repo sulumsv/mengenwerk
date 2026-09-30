@@ -25,6 +25,7 @@ interface Tarif {
 const TARIFE: Record<string, Tarif> = {
   "claude-opus-5": { eingabe: 5.0, ausgabe: 25.0, cacheSchreiben: 6.25, cacheLesen: 0.5 },
   "claude-opus-5-5": { eingabe: 4.0, ausgabe: 20.0, cacheSchreiben: 5.0, cacheLesen: 0.2 },
+  "claude-sonnet-5-5": { eingabe: 2.0, ausgabe: 10.0, cacheSchreiben: 2.5, cacheLesen: 0.2 },
 };
 
 /**

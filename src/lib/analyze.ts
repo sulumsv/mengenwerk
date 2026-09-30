@@ -5,7 +5,7 @@ import { nachweisAnweisung } from "./nachweise";
 import { Verbrauch } from "./verbrauch";
 import type { AnalysisResult, DetectedElement, ElementType, Konfidenz, PlanKontext, Raum } from "./types";
 
-const MODELL = "claude-opus-5-5";
+const MODELL = "claude-sonnet-5-5";
 
 /** Obergrenze für den Kontextdurchgang, damit große Plansätze die Anfrage nicht sprengen. */
 const MAX_KONTEXT_SEITEN = 12;
@@ -274,7 +274,7 @@ async function erhebeKontext(client: Anthropic, bilder: Buffer[], verbrauch: Ver
         max_tokens: 16000,
         system: KONTEXT_PROMPT,
         thinking: { type: "adaptive" },
-        output_config: { effort: "medium", format: zodOutputFormat(KontextSchema) },
+        output_config: { effort: "low", format: zodOutputFormat(KontextSchema) },
         messages: [
           {
             role: "user",
@@ -354,7 +354,7 @@ async function werteBlattAus(
         max_tokens: 16000,
         system: SEITEN_PROMPT,
         thinking: { type: "adaptive" },
-        output_config: { effort: "medium", format: zodOutputFormat(SeitenSchema) },
+        output_config: { effort: "low", format: zodOutputFormat(SeitenSchema) },
         messages: [
           {
             role: "user",

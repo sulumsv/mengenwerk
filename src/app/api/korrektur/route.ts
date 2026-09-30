@@ -57,7 +57,7 @@ export async function POST(req: NextRequest) {
   try {
     const antwort = await client.beta.messages.parse(
       {
-        model: "claude-opus-5",
+        model: "claude-opus-5-5",
         max_tokens: 16000,
         betas: ["server-side-fallback-2026-07-01"],
         fallbacks: "default",

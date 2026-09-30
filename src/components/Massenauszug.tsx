@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { mitKostenschaetzung, sortiereGeschosse } from "@/lib/ableitung";
 import { ladeEinheitspreise } from "@/lib/einheitspreise-speicher";
+import { PreisErfassung } from "./PreisErfassung";
 import { PREISKATALOG, type Einheitspreise } from "@/lib/preise";
 import { massenauszugAlsHtml } from "@/lib/export-html";
 import type { Abschnitt, Konfidenz, Kostenschaetzung, Massenauszug, Position, Raum } from "@/lib/types";
@@ -533,6 +534,27 @@ export function MassenauszugAnsicht({
   const [kostenAktiv, setKostenAktiv] = useState(false);
   const [mitRichtwerten, setMitRichtwerten] = useState(false);
   const [eigene, setEigene] = useState<Einheitspreise>({});
+  const [fehlend, setFehlend] = useState<string[] | null>(null);
+
+  function erstellen() {
+    const preise = ladeEinheitspreise();
+    const benoetigt = [
+      ...new Set(
+        auszug.abschnitte
+          .flatMap((a) => a.positionen)
+          .filter((p) => !p.zwischenwert && p.menge !== null && p.preisSchluessel)
+          .map((p) => p.preisSchluessel!),
+      ),
+    ];
+    const offen = benoetigt.filter((k) => preise[k] === undefined);
+    // Ohne eigene Preise ergibt die Schätzung nichts. Erst fragen, dann rechnen.
+    if (offen.length > 0 && !mitRichtwerten) {
+      setFehlend(offen);
+      return;
+    }
+    setEigene(preise);
+    setKostenAktiv(true);
+  }
 
   const angezeigt = useMemo(
     () => (kostenAktiv ? mitKostenschaetzung(auszug, eigene, mitRichtwerten) : auszug),
@@ -548,12 +570,20 @@ export function MassenauszugAnsicht({
         aktiv={kostenAktiv}
         mitRichtwerten={mitRichtwerten}
         onRichtwerte={setMitRichtwerten}
-        onErstellen={() => {
-          setEigene(ladeEinheitspreise());
-          setKostenAktiv(true);
-        }}
+        onErstellen={erstellen}
         onEntfernen={() => setKostenAktiv(false)}
       />
+      {fehlend && (
+        <PreisErfassung
+          schluessel={fehlend}
+          onAbbrechen={() => setFehlend(null)}
+          onFertig={(preise) => {
+            setFehlend(null);
+            setEigene(preise);
+            setKostenAktiv(true);
+          }}
+        />
+      )}
       {angezeigt.kosten && <KostenBlock kosten={angezeigt.kosten} mitRichtwerten={mitRichtwerten} />}
       <Raumbuch raeume={angezeigt.raeume} onRaumAendern={onRaumAendern} />
       {angezeigt.abschnitte.map((a) => (

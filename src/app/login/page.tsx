@@ -4,6 +4,7 @@ import { Suspense, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Logo } from "@/components/Logo";
+import { ladeEinheitspreise } from "@/lib/einheitspreise-speicher";
 
 function LoginForm() {
   const [passwort, setPasswort] = useState("");
@@ -19,11 +20,13 @@ function LoginForm() {
     const res = await fetch("/api/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ passwort, next: params.get("next") ?? "/" }),
+      body: JSON.stringify({ passwort, next: params.get("next") ?? "/app" }),
     });
     if (res.ok) {
       const json = await res.json();
-      router.push(json.next);
+      // Beim ersten Anmelden auf diesem Gerät zuerst die Preise des Betriebs.
+      const ersteAnmeldung = Object.keys(ladeEinheitspreise()).length === 0;
+      router.push(ersteAnmeldung && json.next === "/app" ? "/einheitspreise?start=1" : json.next);
       router.refresh();
     } else {
       setFehler(true);

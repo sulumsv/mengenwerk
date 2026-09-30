@@ -5,6 +5,7 @@ egal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+- **2026-09-30 22:05** · Claude · `a683ec1` · Massenauszug wird als formatiertes PDF heruntergeladen
 - **2026-09-30 22:02** · Claude · `482ffe6` · Richtwerte an aktuelle österreichische Marktpreise angepasst
 - **2026-09-30 22:01** · Claude · `9a9872e` · Einheitspreise werden nach dem ersten Login und vor der ersten Kostenschätzung abgefragt
 - **2026-09-30 21:57** · Claude · `3d2f226` · Große Planblätter werden zusätzlich in scharfen Ausschnitten ausgewertet

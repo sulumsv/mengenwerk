@@ -65,6 +65,16 @@ export async function speichere(schluessel: string, inhalt: string | Uint8Array,
   }
 }
 
+export async function lese(schluessel: string): Promise<string | null> {
+  if (!istEingerichtet()) return null;
+  try {
+    const antwort = await anfrage(`/${schluessel}`, { method: "GET" });
+    return antwort.ok ? await antwort.text() : null;
+  } catch {
+    return null;
+  }
+}
+
 /** Prüft Zugang und Schreibrecht mit einer kleinen Testdatei. */
 export async function pruefeVerbindung(): Promise<{ eingerichtet: boolean; verbunden: boolean; adresse: string | null }> {
   if (!istEingerichtet()) return { eingerichtet: false, verbunden: false, adresse: null };

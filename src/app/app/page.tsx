@@ -18,6 +18,7 @@ import { katalogInfo } from "@/lib/lbhb";
 import { KEINE_KORREKTUREN, istLeer, type Korrekturen } from "@/lib/korrekturen";
 import { KorrekturFeld } from "@/components/KorrekturFeld";
 import { sendeDaten } from "@/lib/daten-senden";
+import { START_MODELL, type DauerModell } from "@/lib/dauer-modell";
 
 type KatalogInfo = { katalog: string; version: string; vollstaendig: boolean };
 
@@ -176,6 +177,15 @@ export default function ToolPage() {
   const [schritt, setSchritt] = useState<string | null>(null);
   const [analyseStart, setAnalyseStart] = useState(0);
   const [blattzahl, setBlattzahl] = useState(1);
+  const [kachelzahl, setKachelzahl] = useState(0);
+  const [dauerModell, setDauerModell] = useState<DauerModell>(START_MODELL);
+
+  useEffect(() => {
+    fetch("/api/dauer")
+      .then((r) => (r.ok ? r.json() : null))
+      .then((m: DauerModell | null) => m && typeof m.grund === "number" && setDauerModell(m))
+      .catch(() => {});
+  }, []);
   const [vorschau, setVorschau] = useState<string | null>(null);
   const [cad, setCad] = useState<CadAuswertung | null>(null);
   const [cadAus, setCadAus] = useState<Set<number>>(new Set());
@@ -275,9 +285,11 @@ export default function ToolPage() {
   async function analysieren(f: File) {
     setLaedt(true);
     const id = crypto.randomUUID();
+    const start = Date.now();
     setAuswertungId(id);
-    setAnalyseStart(Date.now());
+    setAnalyseStart(start);
     setBlattzahl(1);
+    setKachelzahl(0);
     setErgebnis(null);
     setTextGrund(null);
     setBearbeiteteRaeume(null);
@@ -304,6 +316,7 @@ export default function ToolPage() {
     }
 
     const fd = new FormData();
+    let kacheln = 0;
     fd.append("dateiname", f.name);
     fd.append("auswertungId", id);
     if (planSpeichern) fd.append("planSpeichern", "1");
@@ -315,6 +328,8 @@ export default function ToolPage() {
         setSchritt(`Blatt ${seite} von ${von} wird vorbereitet`),
       );
       setBlattzahl(Math.max(1, blaetter.length));
+      kacheln = blaetter.reduce((s, b) => s + b.kacheln.length, 0);
+      setKachelzahl(kacheln);
       blaetter.forEach((blatt, i) => {
         fd.append("blatt", blatt.datei, blatt.datei.name);
         for (const k of blatt.kacheln) fd.append(`kachel-${i}`, k, k.name);
@@ -346,6 +361,18 @@ export default function ToolPage() {
 
       if (json) {
         setErgebnis(json);
+        // Gelungene KI-Auswertungen lehren den Ladebalken, wie lange so ein Plan dauert.
+        if (res.ok && !("fehler" in json)) {
+          void fetch("/api/dauer", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({
+              blaetter: fd.getAll("blatt").length,
+              kacheln,
+              sekunden: (Date.now() - start) / 1000,
+            }),
+          }).catch(() => {});
+        }
       } else {
         setErgebnis({ fehler: meldungFuerStatus(res.status, f) });
       }
@@ -405,7 +432,7 @@ export default function ToolPage() {
 
           {laedt ? (
             <div className="p-4 md:p-6">
-              <ScanAnimation bild={vorschau} meldung={schritt} start={analyseStart} blaetter={blattzahl} />
+              <ScanAnimation bild={vorschau} meldung={schritt} start={analyseStart} blaetter={blattzahl} kacheln={kachelzahl} modell={dauerModell} />
             </div>
           ) : (
           <div

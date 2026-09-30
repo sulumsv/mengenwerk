@@ -5,6 +5,16 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 00:22 Uhr · Ladebalken lernt aus gemessenen Laufzeiten, wie lange ein Plan dauert
+
+Claude · Commit `f258302`
+
+- Nach jeder gelungenen KI-Auswertung wird die Laufzeit mit Blattzahl, Anzahl der Ausschnitte und KI-Modell in R2 gespeichert (system/dauer-proben.json, die letzten 300)
+- Aus den Messungen wird die Schätzung gelernt: Grundzeit + Zeit je Runde von drei Blättern + Zeit je Ausschnitt
+- Neuere Messungen zählen mehr, bei wenigen Messungen halten Startwerte die Schätzung stabil
+- Gelernt wird je KI-Modell getrennt, damit ein Modellwechsel die Schätzung nicht verfälscht
+- Der Ladebalken holt die gelernte Schätzung beim Öffnen der Seite und berücksichtigt jetzt auch die Ausschnitte großer Blätter
+
 ### 2026-10-01 00:21 Uhr · Kostenschätzung rechnet automatisch mit Richtwerten für alle Leistungsgruppen
 
 Claude · Commit `03a0adc`

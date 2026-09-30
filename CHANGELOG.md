@@ -5,6 +5,18 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 00:24 Uhr · Geschätzte Richtwerte durch recherchierte österreichische Preise ersetzt
+
+Claude · Commit `dc0fbb9`
+
+- 16 Richtwerte mit Preisspannen österreichischer Kostenportale belegt, die Spanne steht jeweils als Hinweis in der Position
+- Laminat 58, Vinyl 35, Teppich 30, Linoleum 52 EUR/m² inkl. Verlegung
+- Trockenbauwand 60, Flachdachabdichtung 85, Abdichtung erdberührt 90, VHF 250, Tapete 16 EUR/m²
+- Pflaster 120 EUR/m² inkl. Unterbau, Rollrasen 26 EUR/m², Kanal 330 EUR/lfm, Geländer 300 EUR/lfm
+- Dachflächenfenster 1.900 EUR je Stück, Raffstore 450 EUR je Element statt je m², Holzstütze 1.100 EUR/m³
+- Nur die Verbundabdichtung im Nassraum bleibt grob geschätzt, dafür gab es keine belastbare Quelle
+- Leistungsgruppen-Nummern gegen die amtlichen LB-HB-023-Dateien des Ministeriums geprüft, sie stimmen
+
 ### 2026-10-01 00:22 Uhr · Ladebalken lernt aus gemessenen Laufzeiten, wie lange ein Plan dauert
 
 Claude · Commit `f258302`

@@ -9,6 +9,12 @@ import type { Einheit } from "./types";
  * ob ihr Preis vom Betrieb stammt oder noch ein Richtwert ist, nur so ist der
  * Anteil der Schätzung erkennbar, der auf fremden Zahlen beruht.
  *
+ * Stand September 2026: Fußbodenheizung, Aushub, Mauerwerk, WDVS, Innenputz,
+ * Malerei, Dachdeckung, Dachrinne, Fenster und Türen sind die Mitte der
+ * Preisspannen österreichischer Kostenportale (daibau.at, baucheck.io,
+ * werkflow.at, hausbaumagazin.at u. a.), brutto inklusive Montage. Das sind
+ * Endkundenpreise für Einfamilienhäuser, keine erhobenen Mediane.
+ *
  * Der Preis gilt immer je Einheit der zugehörigen Position. Wo eine Position
  * in m³ geführt wird (Estrich, Beton), ist auch der Preis je m³ angesetzt,
  * obwohl das Gewerk üblicherweise je m² anbietet.
@@ -30,7 +36,7 @@ export const PREISKATALOG: Preisposition[] = [
   { schluessel: "trittschall", bezeichnung: "Trittschalldämmung", einheit: "m2", lg: "11", richtwert: 14 },
   { schluessel: "pefolie", bezeichnung: "PE-Trennlage", einheit: "m2", lg: "11", richtwert: 3 },
   { schluessel: "randdaemmstreifen", bezeichnung: "Randdämmstreifen", einheit: "lfm", lg: "11", richtwert: 2.5 },
-  { schluessel: "fussbodenheizung", bezeichnung: "Fußbodenheizung", einheit: "m2", lg: null, richtwert: 55 },
+  { schluessel: "fussbodenheizung", bezeichnung: "Fußbodenheizung", einheit: "m2", lg: null, richtwert: 70 },
 
   // LG 24 / 50: Beläge
   { schluessel: "parkett", bezeichnung: "Parkett", einheit: "m2", lg: "50", richtwert: 80 },
@@ -43,19 +49,19 @@ export const PREISKATALOG: Preisposition[] = [
   { schluessel: "sockelleisteFliesen", bezeichnung: "Fliesensockel", einheit: "lfm", lg: "24", richtwert: 18 },
 
   // LG 03 / 07 / 08: Erdbau, Beton, Mauerwerk
-  { schluessel: "erdaushub", bezeichnung: "Baugrubenaushub", einheit: "m3", lg: "03", richtwert: 22 },
+  { schluessel: "erdaushub", bezeichnung: "Baugrubenaushub", einheit: "m3", lg: "03", richtwert: 40 },
   { schluessel: "bodenplatte", bezeichnung: "Bodenplatte Stahlbeton", einheit: "m3", lg: "07", richtwert: 260 },
   { schluessel: "geschossdecke", bezeichnung: "Geschoßdecke Stahlbeton", einheit: "m3", lg: "07", richtwert: 320 },
   { schluessel: "stuetze", bezeichnung: "Stahlbetonstütze", einheit: "m3", lg: "07", richtwert: 620 },
   { schluessel: "bewehrung", bezeichnung: "Bewehrung", einheit: "t", lg: "07", richtwert: 1500 },
-  { schluessel: "mauerwerk", bezeichnung: "Mauerwerk", einheit: "m3", lg: "08", richtwert: 210 },
+  { schluessel: "mauerwerk", bezeichnung: "Mauerwerk", einheit: "m3", lg: "08", richtwert: 500, hinweis: "entspricht rund 125 EUR/m² Wand bei 25 cm" },
 
   // LG 23: Putz und Vollwärmeschutz
-  { schluessel: "wdvs", bezeichnung: "Wärmedämmverbundsystem", einheit: "m2", lg: "23", richtwert: 85 },
+  { schluessel: "wdvs", bezeichnung: "Wärmedämmverbundsystem", einheit: "m2", lg: "23", richtwert: 105 },
   { schluessel: "aussenputz", bezeichnung: "Außenputz", einheit: "m2", lg: "23", richtwert: 42 },
-  { schluessel: "innenputz", bezeichnung: "Innenputz Wand", einheit: "m2", lg: "23", richtwert: 24 },
+  { schluessel: "innenputz", bezeichnung: "Innenputz Wand", einheit: "m2", lg: "23", richtwert: 26 },
   { schluessel: "deckenputz", bezeichnung: "Deckenputz", einheit: "m2", lg: "23", richtwert: 26 },
-  { schluessel: "malerei", bezeichnung: "Malerei", einheit: "m2", lg: null, richtwert: 12 },
+  { schluessel: "malerei", bezeichnung: "Malerei", einheit: "m2", lg: null, richtwert: 11 },
   { schluessel: "geruest", bezeichnung: "Fassadengerüst", einheit: "m2", lg: null, richtwert: 12 },
 
   // LG 15 / 16 / 18: Dach
@@ -63,13 +69,13 @@ export const PREISKATALOG: Preisposition[] = [
   { schluessel: "dachdaemmung", bezeichnung: "Zwischensparrendämmung", einheit: "m2", lg: "15", richtwert: 45 },
   { schluessel: "lattung", bezeichnung: "Lattung und Konterlattung", einheit: "m2", lg: "15", richtwert: 18 },
   { schluessel: "unterspannbahn", bezeichnung: "Unterspannbahn", einheit: "m2", lg: "15", richtwert: 9 },
-  { schluessel: "dachdeckung", bezeichnung: "Dachdeckung", einheit: "m2", lg: "16", richtwert: 75 },
-  { schluessel: "dachrinne", bezeichnung: "Dachrinne", einheit: "lfm", lg: "18", richtwert: 55 },
+  { schluessel: "dachdeckung", bezeichnung: "Dachdeckung", einheit: "m2", lg: "16", richtwert: 65 },
+  { schluessel: "dachrinne", bezeichnung: "Dachrinne", einheit: "lfm", lg: "18", richtwert: 65 },
   { schluessel: "pv", bezeichnung: "Photovoltaikanlage", einheit: "m2", lg: null, richtwert: 350 },
 
   // LG 37 / 43 / 71-75: Öffnungen
-  { schluessel: "fenster", bezeichnung: "Fenster", einheit: "m2", lg: "71", richtwert: 620 },
-  { schluessel: "tuer", bezeichnung: "Tür", einheit: "m2", lg: "43", richtwert: 380 },
+  { schluessel: "fenster", bezeichnung: "Fenster", einheit: "m2", lg: "71", richtwert: 550 },
+  { schluessel: "tuer", bezeichnung: "Tür", einheit: "m2", lg: "43", richtwert: 340, hinweis: "entspricht rund 650 EUR je Innentür mit Zarge" },
   { schluessel: "tor", bezeichnung: "Sektionaltor", einheit: "Stk", lg: null, richtwert: 3200 },
   { schluessel: "fensterbankInnen", bezeichnung: "Fensterbank innen", einheit: "lfm", lg: null, richtwert: 45 },
   { schluessel: "fensterbankAussen", bezeichnung: "Fensterbank außen", einheit: "lfm", lg: null, richtwert: 55 },

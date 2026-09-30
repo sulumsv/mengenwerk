@@ -5,6 +5,7 @@ egal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+- **2026-09-30 15:19** · Claude · `ebbe106` · Neues, einheitliches Design ohne Animationen
 - **2026-09-30 06:39** · Claude · `3568bda` · Bauteile in der Kontrollansicht per Klick aus der Zählung nehmen
 - **2026-09-29 18:02** · Claude · `8763b43` · Pläne mit allen Grundrissen auf einem Blatt und ArchiCAD-Raumstempel ohne KI lesen
 - **2026-09-29 13:32** · Claude · `b66ffc5` · Kontrollansicht zeigt die gezählten Bauteile farbig auf dem Plan

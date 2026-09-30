@@ -54,24 +54,6 @@ body {
   outline-offset: 2px;
 }
 
-.bg-himmel {
-  background-color: #ffffff;
-  background-image: linear-gradient(180deg, #faf6ef 0%, #ffffff 100%);
-}
-
-.seiten-himmel {
-  background: linear-gradient(180deg, #efe6d8 0%, #f6efe4 60%, #faf6ef 100%);
-}
-
-.buehne {
-  background:
-    radial-gradient(ellipse 45% 30% at 78% 95%, rgba(242, 178, 51, 0.35) 0%, transparent 70%),
-    radial-gradient(ellipse 60% 40% at 15% 0%, rgba(120, 140, 190, 0.35) 0%, transparent 70%),
-    linear-gradient(180deg, #1f2a44 0%, #26314d 40%, #2f3446 75%, #3a3a44 100%);
-  background-size: 100% 115%;
-  animation: himmel 24s ease-in-out infinite alternate;
-}
-
 .plan-kippen {
   transform: perspective(1400px) rotateX(18deg);
   transform-origin: 50% 100%;
@@ -92,63 +74,9 @@ body {
   82%, 100% { opacity: 0; transform: translateY(-4px); }
 }
 
-@keyframes himmel {
-  from { background-position: 0 0; }
-  to { background-position: 0 100%; }
-}
-
-.milchglas-dunkel {
-  background: rgba(255, 255, 255, 0.12);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.22);
-}
-
-.stern { opacity: 0.2; animation: funkeln 4s ease-in-out infinite; }
-@keyframes funkeln { 50% { opacity: 0.9; } }
-
-.wolke { animation: ziehen 70s linear infinite; }
-.wolke-langsam { animation-duration: 110s; }
-@keyframes ziehen {
-  from { transform: translateX(-15vw); }
-  to { transform: translateX(45vw); }
-}
-
-.glimmen { animation: glimmen 5s ease-in-out infinite; }
-.glimmen-2 { animation-delay: 1.6s; }
-.glimmen-3 { animation-delay: 3.1s; }
-@keyframes glimmen { 50% { opacity: 0.78; } }
-
-.haus-zoom { animation: zoom 18s ease-in-out infinite alternate; transform-origin: 50% 100%; }
-@keyframes zoom {
-  from { transform: scale(1); }
-  to { transform: scale(1.04); }
-}
-
-.einblenden { animation: einblenden 1s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
-.einblenden-2 { animation-delay: 0.15s; }
-.einblenden-3 { animation-delay: 0.3s; }
-@keyframes einblenden {
-  from { opacity: 0; transform: translateY(18px); }
-  to { opacity: 1; transform: none; }
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .buehne, .stern, .wolke, .glimmen, .haus-zoom, .einblenden, .scan-linie { animation: none; }
+  .scan-linie, .plan-einblenden { animation: none; }
   .marke { animation: none; opacity: 1; }
-}
-
-.milchglas {
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(18px) saturate(140%);
-  -webkit-backdrop-filter: blur(18px) saturate(140%);
-  border: 1px solid rgba(255, 255, 255, 0.75);
-}
-
-.glas {
-  background: #ffffff;
-  border: 1px solid #dde6ea;
-  box-shadow: 0 1px 0 rgba(22,32,42, 0.03);
 }
 
 .font-num {

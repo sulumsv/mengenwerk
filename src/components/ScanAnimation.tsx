@@ -18,13 +18,51 @@ const MARKEN = [
   { x: 14, y: 80, t: "Tür" },
 ];
 
-export function ScanAnimation({ bild, meldung }: { bild: string | null; meldung: string | null }) {
-  const [schritt, setSchritt] = useState(0);
+/**
+ * Geschätzte Dauer in Sekunden. Ein Übersichtsdurchgang über alle Blätter,
+ * danach je Blatt ein Durchgang, drei davon gleichzeitig. Richtwerte aus
+ * Testläufen, keine Zusage.
+ */
+function geschaetzteDauer(blaetter: number): number {
+  return 15 + 30 + Math.ceil(blaetter / 3) * 45;
+}
+
+/** Bis 90 % linear, danach nähert sich die Anzeige 99 % an, ohne sie zu erreichen. */
+function anzeigeAnteil(anteil: number): number {
+  if (anteil < 0.9) return anteil;
+  return 0.9 + 0.09 * (1 - Math.exp(-(anteil - 0.9) * 3));
+}
+
+function alsZeit(sekunden: number): string {
+  const s = Math.max(0, Math.round(sekunden));
+  if (s < 60) return `${s} s`;
+  return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")} min`;
+}
+
+export function ScanAnimation({
+  bild,
+  meldung,
+  start,
+  blaetter = 1,
+}: {
+  bild: string | null;
+  meldung: string | null;
+  start: number;
+  blaetter?: number;
+}) {
+  const [jetzt, setJetzt] = useState(() => Date.now());
 
   useEffect(() => {
-    const t = setInterval(() => setSchritt((s) => Math.min(s + 1, SCHRITTE.length - 1)), 2600);
+    const t = setInterval(() => setJetzt(Date.now()), 500);
     return () => clearInterval(t);
   }, []);
+
+  const dauer = geschaetzteDauer(blaetter);
+  const vergangen = Math.max(0, (jetzt - start) / 1000);
+  const anteil = anzeigeAnteil(vergangen / dauer);
+  const prozent = Math.floor(anteil * 100);
+  const rest = dauer - vergangen;
+  const schritt = Math.min(SCHRITTE.length - 1, Math.floor(anteil * SCHRITTE.length));
 
   return (
     <div className="scan-buehne rounded-[1.75rem] p-5 md:p-8 text-white">
@@ -70,7 +108,32 @@ export function ScanAnimation({ bild, meldung }: { bild: string | null; meldung:
               </li>
             ))}
           </ol>
-          <p className="mt-6 text-xs text-white/55">Bei mehrseitigen Plänen kann das etwas dauern.</p>
+          <div className="mt-7">
+            <div className="flex items-baseline justify-between">
+              <span className="font-num text-3xl font-semibold">{prozent} %</span>
+              <span className="font-num text-[13px] text-white/70">
+                {rest > 0 ? `noch etwa ${alsZeit(rest)}` : "gleich fertig"}
+              </span>
+            </div>
+            <div
+              className="mt-3 h-2 overflow-hidden rounded-full bg-white/15"
+              role="progressbar"
+              aria-valuemin={0}
+              aria-valuemax={100}
+              aria-valuenow={prozent}
+            >
+              <div className="h-full rounded-full bg-[#f2b233] transition-[width] duration-500 ease-linear" style={{ width: `${prozent}%` }} />
+            </div>
+            <div className="mt-2 flex justify-between font-num text-[12px] text-white/55">
+              <span>Läuft seit {alsZeit(vergangen)}</span>
+              <span>
+                {blaetter} {blaetter === 1 ? "Blatt" : "Blätter"} · geschätzt {alsZeit(dauer)}
+              </span>
+            </div>
+            {rest < -30 && (
+              <p className="mt-3 text-xs text-white/70">Dieser Plan braucht länger als geschätzt. Die Auswertung läuft weiter.</p>
+            )}
+          </div>
         </div>
       </div>
     </div>

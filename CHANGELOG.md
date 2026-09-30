@@ -5,6 +5,7 @@ egal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+- **2026-09-30 21:45** · Claude · `3e8894f` · Ladeanzeige zeigt Fortschritt in Prozent, bisherige Dauer und Restzeit
 - **2026-09-30 21:38** · Claude · `0d076f4` · KI-Analyse meldet Planbilder im richtigen Bildformat an
 - **2026-09-30 21:33** · Claude · `ab871b3` · Überschrift auf zwei Zeilen, Planauswertung nur noch nach Anmeldung beworben
 - **2026-09-30 21:31** · Claude · `ba99aea` · Fehlermeldung nennt den Grund, wenn die Anthropic API eine Anfrage ablehnt

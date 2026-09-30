@@ -150,10 +150,10 @@ export function CtaBand({
               Demo anfragen
             </Link>
             <Link
-              href="/app"
+              href="/vorschau"
               className="inline-flex h-11 items-center rounded-lg border border-white/30 px-5 text-[15px] font-semibold text-white transition hover:bg-white/10"
             >
-              Plan analysieren
+              Beispiel ansehen
             </Link>
           </div>
         </div>

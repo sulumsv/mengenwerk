@@ -10,7 +10,7 @@ const PLAENE = [
     hinweis: "Vorläufiger Richtwert in der Prototypphase.",
     merkmale: ["Eine vollständige Planauswertung", "Massenauszug nach LB-HB 023", "Rechenweg zu jeder Position", "Export als PDF und Excel"],
     hervorgehoben: true,
-    cta: { href: "/app", label: "Plan analysieren →" },
+    cta: { href: "/demo", label: "Demo anfragen →" },
   },
   {
     eyebrow: "Betrieb",

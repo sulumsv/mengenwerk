@@ -62,32 +62,34 @@ export default function Home() {
 
       {/* Einstieg */}
       <section className="border-b border-[#eef0f3] bg-white">
-        <Container className="grid items-center gap-12 py-16 md:py-20 lg:grid-cols-[1fr_1.05fr]">
-          <div>
-            <p className="mb-4 inline-flex items-center gap-2 rounded-full bg-[#eef1f6] px-3 py-1 text-sm font-medium text-[#1f2a44]">
-              <span className="h-1.5 w-1.5 rounded-full bg-[#f2b233]" />
-              Mengenermittlung nach LB-HB 023
-            </p>
-            <h1 className="text-[clamp(2.25rem,5vw,3.5rem)] font-semibold leading-[1.08] tracking-tight text-[#111827]">
-              Vom Einreichplan zum Massenauszug in wenigen Minuten.
-            </h1>
-            <p className="mt-5 max-w-xl text-[18px] leading-relaxed text-[#5b6472]">
-              Laden Sie Ihren Plan hoch. MengenWerk ermittelt die Mengen für Ihr Angebot und zeigt zu jeder Position, wie
-              sie gerechnet wurde.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <KnopfPrimaer href="/app">Plan analysieren</KnopfPrimaer>
-              <KnopfSekundaer href="/vorschau">Beispiel ansehen</KnopfSekundaer>
+        <Container className="py-16 md:py-20">
+          <p className="mb-4 inline-flex items-center gap-2 rounded-full bg-[#eef1f6] px-3 py-1 text-sm font-medium text-[#1f2a44]">
+            <span className="h-1.5 w-1.5 rounded-full bg-[#f2b233]" />
+            Mengenermittlung nach LB-HB 023
+          </p>
+          <h1 className="text-[clamp(2.25rem,5vw,3.5rem)] font-semibold leading-[1.08] tracking-tight text-[#111827]">
+            Vom Einreichplan zum Massenauszug
+            <br className="hidden sm:block" /> in wenigen Minuten.
+          </h1>
+          <div className="mt-10 grid items-start gap-12 lg:grid-cols-[1fr_1.05fr]">
+            <div>
+              <p className="max-w-xl text-[18px] leading-relaxed text-[#5b6472]">
+                Laden Sie Ihren Plan hoch. MengenWerk ermittelt die Mengen für Ihr Angebot und zeigt zu jeder Position,
+                wie sie gerechnet wurde.
+              </p>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <KnopfPrimaer href="/demo">Demo anfragen</KnopfPrimaer>
+                <KnopfSekundaer href="/vorschau">Beispiel ansehen</KnopfSekundaer>
+              </div>
+              <ul className="mt-8 grid gap-2.5 text-[15px] text-[#374151] sm:grid-cols-2">
+                {["Rechenweg zu jeder Menge", "Annahmen klar markiert", "Export als PDF und Excel", "Kein Abo nötig"].map((t) => (
+                  <li key={t} className="flex items-center gap-2">
+                    <Haken />
+                    {t}
+                  </li>
+                ))}
+              </ul>
             </div>
-            <ul className="mt-8 grid gap-2.5 text-[15px] text-[#374151] sm:grid-cols-2">
-              {["Rechenweg zu jeder Menge", "Annahmen klar markiert", "Export als PDF und Excel", "Kein Abo nötig"].map((t) => (
-                <li key={t} className="flex items-center gap-2">
-                  <Haken />
-                  {t}
-                </li>
-              ))}
-            </ul>
-          </div>
 
           <div className="rounded-2xl border border-[#e6e8ec] bg-white shadow-[0_24px_48px_-32px_rgba(17,24,39,0.35)]">
             <div className="flex items-center justify-between border-b border-[#eef0f3] px-5 py-3.5">
@@ -113,6 +115,7 @@ export default function Home() {
                 ))}
               </tbody>
             </table>
+          </div>
           </div>
         </Container>
       </section>

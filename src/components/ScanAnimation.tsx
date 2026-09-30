@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { schaetze, START_MODELL, type DauerModell } from "@/lib/dauer-modell";
 
 const SCHRITTE = [
   "Plan wird eingelesen",
@@ -17,15 +18,6 @@ const MARKEN = [
   { x: 48, y: 40, t: "Raumstempel" },
   { x: 14, y: 80, t: "Tür" },
 ];
-
-/**
- * Geschätzte Dauer in Sekunden. Ein Übersichtsdurchgang über alle Blätter,
- * danach je Blatt ein Durchgang, drei davon gleichzeitig. Richtwerte aus
- * Testläufen, keine Zusage.
- */
-function geschaetzteDauer(blaetter: number): number {
-  return 15 + 30 + Math.ceil(blaetter / 3) * 45;
-}
 
 /** Bis 90 % linear, danach nähert sich die Anzeige 99 % an, ohne sie zu erreichen. */
 function anzeigeAnteil(anteil: number): number {
@@ -44,11 +36,16 @@ export function ScanAnimation({
   meldung,
   start,
   blaetter = 1,
+  kacheln = 0,
+  modell = START_MODELL,
 }: {
   bild: string | null;
   meldung: string | null;
   start: number;
   blaetter?: number;
+  kacheln?: number;
+  /** Aus früheren Laufzeiten gelernte Schätzung. */
+  modell?: DauerModell;
 }) {
   const [jetzt, setJetzt] = useState(() => Date.now());
 
@@ -57,7 +54,7 @@ export function ScanAnimation({
     return () => clearInterval(t);
   }, []);
 
-  const dauer = geschaetzteDauer(blaetter);
+  const dauer = schaetze(modell, blaetter, kacheln);
   const vergangen = Math.max(0, (jetzt - start) / 1000);
   const anteil = anzeigeAnteil(vergangen / dauer);
   const prozent = Math.floor(anteil * 100);

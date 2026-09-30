@@ -5,7 +5,7 @@ import { nachweisAnweisung } from "./nachweise";
 import { Verbrauch } from "./verbrauch";
 import type { AnalysisResult, DetectedElement, ElementType, Konfidenz, PlanKontext, Raum } from "./types";
 
-const MODELL = "claude-sonnet-5-5";
+export const MODELL = "claude-sonnet-5-5";
 
 /** Obergrenze für den Kontextdurchgang, damit große Plansätze die Anfrage nicht sprengen. */
 const MAX_KONTEXT_SEITEN = 12;

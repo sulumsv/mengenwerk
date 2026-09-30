@@ -1,100 +1,435 @@
 # Changelog
 
-Automatisch aus den Commit-Messages dieses Repos erstellt. Jeder Commit,
-egal von wem, erscheint hier mit Zeitpunkt, Autor und Commit-Message.
+Jede Änderung an MengenWerk mit Datum und Uhrzeit (Wiener Zeit), Autor,
+Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
-- **2026-09-30 22:05** · Claude · `a683ec1` · Massenauszug wird als formatiertes PDF heruntergeladen
-- **2026-09-30 22:02** · Claude · `482ffe6` · Richtwerte an aktuelle österreichische Marktpreise angepasst
-- **2026-09-30 22:01** · Claude · `9a9872e` · Einheitspreise werden nach dem ersten Login und vor der ersten Kostenschätzung abgefragt
-- **2026-09-30 21:57** · Claude · `3d2f226` · Große Planblätter werden zusätzlich in scharfen Ausschnitten ausgewertet
-- **2026-09-30 21:45** · Claude · `3e8894f` · Ladeanzeige zeigt Fortschritt in Prozent, bisherige Dauer und Restzeit
-- **2026-09-30 21:38** · Claude · `0d076f4` · KI-Analyse meldet Planbilder im richtigen Bildformat an
-- **2026-09-30 21:33** · Claude · `ab871b3` · Überschrift auf zwei Zeilen, Planauswertung nur noch nach Anmeldung beworben
-- **2026-09-30 21:31** · Claude · `ba99aea` · Fehlermeldung nennt den Grund, wenn die Anthropic API eine Anfrage ablehnt
-- **2026-09-30 21:30** · Claude · `d587cb0` · KI-Analyse nutzt günstigeres Modell mit mittlerer Denkstufe
-- **2026-09-30 15:19** · Claude · `ebbe106` · Neues, einheitliches Design ohne Animationen
-- **2026-09-30 06:39** · Claude · `3568bda` · Bauteile in der Kontrollansicht per Klick aus der Zählung nehmen
-- **2026-09-29 18:02** · Claude · `8763b43` · Pläne mit allen Grundrissen auf einem Blatt und ArchiCAD-Raumstempel ohne KI lesen
-- **2026-09-29 13:32** · Claude · `b66ffc5` · Kontrollansicht zeigt die gezählten Bauteile farbig auf dem Plan
-- **2026-09-29 13:23** · Claude · `548fcd9` · Wände und Unterzüge aus den CAD-Ebenen eines Vektor-PDFs berechnen
-- **2026-09-28 15:32** · Claude · `8c19fe7` · App-Seiten, Beispiel, Einheitspreise und Rechtliches im neuen Design
-- **2026-09-28 15:27** · Claude · `fb40a25` · Einheitspreise nur nach dem Login bearbeitbar
-- **2026-09-28 15:27** · Claude · `13fbe9a` · Hochgeladener Plan erscheint während der Analyse als Scan-Animation
-- **2026-09-28 15:24** · Claude · `64ed55d` · Safrangelb als Akzent und neutrale Beispielprojekte
-- **2026-09-28 15:18** · Claude · `8e9560a` · Farbwelt Nachtblau und Sand mit Graphit für Text
-- **2026-09-28 15:01** · Claude · `157eaf8` · Startseite erklärt, welche Positionen je Gewerk berechnet werden
-- **2026-09-28 15:01** · Claude · `a3163ec` · Folgemengen aus Fenstern und Türen berechnen
-- **2026-09-28 14:58** · Claude · `af4bf3a` · Startseite zeigt auf den ersten Blick, was MengenWerk macht
-- **2026-09-28 14:47** · Claude · `c707441` · Animierte Abendszene, Bernstein als Farbe und klarere Navigation
-- **2026-09-28 14:39** · Claude · `029d5b9` · Startseite als Bühne mit Menü links, weiß mit Hellblau
-- **2026-09-28 14:32** · Claude · `b5060e4` · Neue Schrift, kühle Farbwelt und neues Logo
-- **2026-09-28 14:28** · Claude · `ef6318a` · Übersicht im Dashboard-Stil auf der Startseite
-- **2026-09-28 14:18** · Claude · `597bfbf` · Eine einheitliche Schrift für die ganze Seite
-- **2026-09-28 14:14** · Claude · `836f67b` · Gedankenstriche auch aus Skripten und Changelog entfernen
-- **2026-09-28 14:13** · Claude · `ab6040c` · Neues Design in Papier und Terrakotta, Texte ohne Gedankenstriche
-- **2026-09-28 14:02** · Claude · `20fe5a9` · Design durchgehend hell: Indigo und Apricot statt Grün und Marineblau
-- **2026-09-28 13:42** · Claude · `8ae603f` · Neues helles Design mit aktuellem main zusammenführen
-- **2026-09-28 12:38** · sulumsv · `439e1a3` · Revert "Startseite: fließende Fotostrecke (Baustelle -> fertiges Haus) statt 3D-Szene"
-- **2026-09-28 12:15** · sulumsv · `ad1e903` · Revert "Startseiten-Animation als Bildfolge nach Storyboard: 16 Bauphasen vom Plan zum Traumhaus (#25)"
-- **2026-09-28 09:38** · Claude · `9fc7403` · Startseiten-Animation heller und flüssiger, Schlussbild wie ein Drohnenfoto
-- **2026-09-28 09:29** · Claude · `9e376fa` · Korrekturfeld unter der Mengenermittlung: angenommene Werte in eigenen Worten ersetzen
-- **2026-09-28 07:49** · Claude · `38df6d3` · Belagszeilen im Raumstempel nicht mehr als Raumnamen lesen
-- **2026-09-28 07:47** · Claude · `9fe58b6` · Raumbuch mit der Wohnnutzfläche abgleichen statt den Plan abzulehnen
-- **2026-09-28 07:44** · Claude · `dd315d3` · Startseiten-Animation fotorealistisch: echte Ziegel, echte Bäume, echter Horizont
-- **2026-09-28 07:09** · Claude · `4e59442` · Changelog-Einträge nicht mehr an die Kopfzeile kleben
-- **2026-09-28 07:09** · Claude · `cbbeb51` · Kostenschätzung nur noch auf Knopfdruck statt automatisch mit Richtwerten
-- **2026-09-26 22:12** · onturkaltanakif · `0a226ce` · Startseiten-Animation endet mit fertigem Haus im Grünen (#15)
-- **2026-09-26 20:11** · Claude · `371ae52` · Merge branch 'sulum' into main
-- **2026-09-26 20:07** · Claude · `c2fa252` · Ungenutzte 2D-Grundriss-Animation entfernen
-- **2026-09-26 20:07** · Claude · `c85ff37` · 3D-CAD-Aufbauanimation: fertiges Haus statt Grundriss-Skizze auf der Startseite
-- **2026-09-26 22:04** · onturkaltanakif · `be17a8f` · Alle Unterseiten im dunklen Stil der Startseite (#13)
-- **2026-09-26 20:03** · Claude · `b8bcd6d` · Eigenes Logo und Favicon statt reinem Textschriftzug
-- **2026-09-26 22:02** · onturkaltanakif · `99ff8a6` · Startseiten-Animation: Grundriss wächst in 3D zum Rohbau (#12)
-- **2026-09-26 21:55** · onturkaltanakif · `3bfa985` · Großflächenausreißer aus Raumkataster filtern (#11)
-- **2026-09-26 21:51** · onturkaltanakif · `657c1cf` · Scroll-Animation durch realistischen Grundriss ersetzt (#10)
-- **2026-09-26 21:45** · Sulum · `e40434b` · Merge pull request #9 from sulumsv/claude/relaxed-gauss-854c1k
-- **2026-09-26 19:45** · Claude · `086c6af` · README von Grund auf neu: erklärt jetzt die App statt der create-next-app-Vorlage
-- **2026-09-26 21:45** · onturkaltanakif · `f7267c2` · Startseite neu gestaltet: klares Premium-Layout mit Massenauszug-Vorschau (#8)
-- **2026-09-26 21:44** · Sulum · `3cf5659` · Merge pull request #7 from sulumsv/claude/relaxed-gauss-854c1k
-- **2026-09-26 19:43** · Claude · `9370ce5` · Automatisches Changelog aus den Commit-Messages einführen
-- **2026-09-26 21:43** · onturkaltanakif · `ce7dc17` · LB-HB 023 vollständig einbinden: 22.650 Positionen aus 59 Leistungsgruppen (#6)
-- **2026-09-26 21:25** · onturkaltanakif · `583807a` · Startseite komplett neu gestaltet: dunkles Design nach BauKit-Vorbild (#5)
-- **2026-09-26 21:21** · onturkaltanakif · `a1faf88` · Scroll-Animation auf der Startseite: Grundriss baut sich zum Haus auf (#4)
-- **2026-09-26 20:59** · onturkaltanakif · `860d6d7` · Merge pull request #3 from sulumsv/claude/startseite-problem-feld-gruen-d3jznd
-- **2026-09-26 18:58** · Claude · `0b098ad` · Workflow: nach jedem Commit automatisch auf main mergen
-- **2026-09-26 20:56** · onturkaltanakif · `51c82e2` · Merge pull request #2 from sulumsv/claude/startseite-problem-feld-gruen-d3jznd
-- **2026-09-26 18:37** · Claude · `7e042d9` · Maße im Raumbuch durch Klick editierbar machen
-- **2026-09-26 18:35** · Claude · `9827717` · umfangAusFlaeche exportieren für manuelle Raumkorrekturen
-- **2026-09-26 18:32** · Claude · `e062e31` · Raumstempel auch finden, wenn der Name unterhalb der Fläche steht
-- **2026-09-14 10:57** · Claude · `635a482` · Sagen, warum der kostenlose Weg nicht gereicht hat
-- **2026-09-14 10:24** · Claude · `f9f6315` · Textweg meldet die tatsächliche Seitenzahl
-- **2026-09-14 10:23** · Claude · `eba389d` · Kosten der Auswertung im Ergebnis anzeigen
-- **2026-09-14 10:20** · Claude · `85948e0` · Auswertung liefert ihren Verbrauch mit
-- **2026-09-14 10:20** · Claude · `e202bc2` · Kostenzähler für die API-Aufrufe einer Auswertung
-- **2026-09-14 10:06** · Claude · `ba36e94` · Textlesen: Fragmente zu Zeilen fügen und unsichere Ergebnisse verwerfen
-- **2026-09-14 09:51** · Claude · `bb85fcd` · Plan aus der eigenen Textebene lesen, ohne Bilderkennung
-- **2026-09-14 09:35** · Claude · `f11b27f` · Hinweis zum fehlenden Schlüssel nennt den richtigen Ort
-- **2026-09-14 09:31** · Claude · `d3c18db` · Plan im Browser in Seitenbilder umwandeln statt die PDF-Datei hochzuladen
-- **2026-09-14 09:23** · Claude · `d9feecc` · Befunde aus dem Code-Review behoben
-- **2026-09-14 09:14** · Claude · `bdc2795` · Auswertung gegen Zeitrahmen, Teilausfälle und Uploadgrenzen absichern
-- **2026-09-14 09:05** · Claude · `0dbe9b7` · Nachweise aus einer gemeinsamen Registry statt zweier getrennter Listen
-- **2026-09-14 09:00** · Claude · `2224772` · Zwei Darstellungsfehler behoben
-- **2026-09-14 08:56** · Claude · `5d175f6` · Startseite: Einheitspreise als erster Schritt im Ablauf
-- **2026-09-14 08:55** · Claude · `967f0dd` · Kostenspalten in der Ansicht und Download als eigenständige HTML-Datei
-- **2026-09-14 08:50** · Claude · `8a7783d` · Einheitspreise des Betriebs eingebbar und in der Auswertung wirksam
-- **2026-09-14 08:49** · Claude · `06c8c9b` · Massenauszug um fehlende Gewerke erweitert und bepreist
-- **2026-09-14 08:45** · Claude · `bdbdc90` · Einheitspreis-Katalog als Grundlage der Kostenschätzung
-- **2026-08-27 05:56** · Claude · `8888024` · Fehler in Konfidenzkennzeichnung, Annahmen und Randfällen behoben
-- **2026-08-26 20:27** · Claude · `4bd92d0` · Massenauszug in der Oberfläche: Raumbuch, Abschnitte, Annahmen, Prüfpunkte
-- **2026-08-26 20:23** · Claude · `89e34cb` · Prüflauf aus dem Next.js Typescope nehmen
-- **2026-08-26 20:22** · Claude · `edfbf25` · Ableitung: aus Räumen und Plankontext den vollständigen Massenauszug rechnen
-- **2026-08-26 18:11** · Claude · `56bed3f` · Ergebnisansicht: Herkunft, Material und Plankontext anzeigen
-- **2026-08-26 18:09** · Claude · `9b3b6cb` · Planauswertung: Kontextdurchgang, Structured Outputs, Opus 5
-- **2026-08-26 18:07** · Claude · `513d6b0` · LB-HB Leistungskatalog als Datendatei statt hartcodierter Zuordnung
-- **2026-08-26 17:22** · Claude · `bcdcd49` · PDF-Verarbeitung von externem pdftoppm-Binary auf pdf-to-img umgestellt
-- **2026-08-26 13:42** · Claude · `c720e80` · Startseite überarbeitet: professionelleres Design und ausführlichere Erklärungen
-- **2026-08-26 13:38** · Claude · `178f039` · Verbleibende rote Fehleranzeigen (Login, Ergebnis-Fehler) auf Grün umstellen
-- **2026-08-26 15:31** · onturkaltanakif · `41510e1` · Startseite: "Das Problem"-Feld von Rot auf Grün ändern (#1)
-- **2026-08-26 14:57** · sulumsv · `282f8c9` · Initial commit
+### 2026-10-01 00:07 Uhr · Changelog zeigt jede Änderung mit Wiener Uhrzeit und Einzelheiten
+
+Claude · Commit `0921e94`
+
+- Jeder Eintrag hat Datum und Uhrzeit in Wiener Zeit, Autor, Commit und Titel
+- Darunter stehen die Einzelheiten aus dem Text der Commit-Message als Liste
+- Trailer wie Co-Authored-By und Claude-Session werden herausgefiltert
+- Bisherige Einträge von UTC auf Wiener Zeit umgerechnet
+- Die Änderungen vom 30. September um Einzelheiten ergänzt
+
+### 2026-10-01 00:05 Uhr · Massenauszug wird als formatiertes PDF heruntergeladen
+
+Claude · Commit `a683ec1`
+
+- Download liefert ein PDF (A4 quer) statt einer HTML-Datei, erzeugt im Browser mit jsPDF
+- Kopf in Nachtblau mit Titel und Erstellungsdatum, Kennzahlen als Kacheln
+- Kostenschätzung mit Anteil aus Richtwerten, Raumbuch nach Geschoß
+- Alle Abschnitte mit Rechenweg, Menge, EP, Betrag und Abschnittssumme
+- Annahmen, Prüfpunkte, Legende und Seitenzahl auf jeder Seite
+
+### 2026-10-01 00:02 Uhr · Richtwerte an aktuelle österreichische Marktpreise angepasst
+
+Claude · Commit `482ffe6`
+
+- Zehn Richtwerte auf die Mitte der Preisspannen österreichischer Kostenportale gesetzt
+- Fußbodenheizung 70 €/m², Aushub 40 €/m³, Mauerwerk 500 €/m³ (ca. 125 €/m² Wand)
+- WDVS 105 €/m², Innenputz 26 €/m², Malerei 11 €/m², Dachdeckung 65 €/m²
+- Dachrinne 65 €/lfm, Fenster 550 €/m², Tür 340 €/m² (ca. 650 € je Innentür)
+- Beton, Gerüst und Bewehrung unverändert, weil die Quellen sich widersprachen
+
+### 2026-10-01 00:01 Uhr · Einheitspreise werden nach dem ersten Login und vor der ersten Kostenschätzung abgefragt
+
+Claude · Commit `9a9872e`
+
+- Erster Login auf einem Gerät ohne Preise führt zu den Einheitspreisen, mit Willkommenshinweis und „Später“
+- Login ohne Zielseite führt nach /app statt auf die Startseite
+- „Kostenschätzung erstellen“ fragt die für den Plan fehlenden Preise in einer Tabelle ab
+- Leere Felder lassen sich mit Richtwerten füllen, gespeichert wird für alle weiteren Pläne
+
+### 2026-09-30 23:57 Uhr · Große Planblätter werden zusätzlich in scharfen Ausschnitten ausgewertet
+
+Claude · Commit `3d2f226`
+
+- Blätter ab etwa A2 werden in bis zu 6 überlappende Ausschnitte mit rund 115 dpi zerlegt
+- Übersicht und Ausschnitte gehen in einer Anfrage an die KI, mit Hinweis auf Doppelzählungen
+- Alle Bilder bleiben unter 4 MB, sonst werden weniger Ausschnitte geschickt
+- Pool, Zisterne und Außenanlagen zählen nicht als Bauteil, Garten nicht in Estrich
+- Hinweis über dem Kostenblock erklärt, warum die KI-Auswertung nötig war
+
+### 2026-09-30 23:45 Uhr · Ladeanzeige zeigt Fortschritt in Prozent, bisherige Dauer und Restzeit
+
+Claude · Commit `3e8894f`
+
+- Prozentanzeige mit Fortschrittsbalken während der Planauswertung
+- Laufzeit und geschätzte Restzeit, abhängig von der Blattzahl
+- Ab 90 % nähert sich die Anzeige 99 % nur noch an
+- Hinweis, wenn die Auswertung deutlich länger dauert als geschätzt
+
+### 2026-09-30 23:38 Uhr · KI-Analyse meldet Planbilder im richtigen Bildformat an
+
+Claude · Commit `0d076f4`
+
+- Planseiten kamen als JPEG, wurden aber als PNG angekündigt, die API lehnte mit 400 ab
+- Bildformat wird jetzt an den ersten Bytes erkannt (JPEG, PNG, WebP, GIF)
+
+### 2026-09-30 23:33 Uhr · Überschrift auf zwei Zeilen, Planauswertung nur noch nach Anmeldung beworben
+
+Claude · Commit `ab871b3`
+
+- Startseitenüberschrift über die volle Breite auf zwei Zeilen
+- „Demo anfragen“ statt „Plan analysieren“ in Kopfzeile, Startseite, Preisen, Beispiel und Fußzeile
+- Zur Auswertung geht es nur noch über „Anmelden“
+
+### 2026-09-30 23:31 Uhr · Fehlermeldung nennt den Grund, wenn die Anthropic API eine Anfrage ablehnt
+
+Claude · Commit `ba99aea`
+
+- Statt nur „abgelehnt (400)“ steht die Begründung der API in der Meldung
+- Bei fehlendem Guthaben steht direkt, wo man aufladen kann
+
+### 2026-09-30 23:30 Uhr · KI-Analyse nutzt günstigeres Modell mit mittlerer Denkstufe
+
+Claude · Commit `d587cb0`
+
+- Planauswertung und Korrekturfeld laufen auf claude-opus-5-5 (4 $ / 20 $ statt 5 $ / 25 $ je Mio. Token)
+- Denkstufe der Planauswertung „medium“ statt „high“
+- Neuer Tarif in der Verbrauchsanzeige hinterlegt
+
+### 2026-09-30 17:19 Uhr · Neues, einheitliches Design ohne Animationen
+
+Claude · Commit `ebbe106`
+
+- Alle Animationen der Webseite entfernt
+- Einheitliches Designsystem: weiße Flächen, Nachtblau als Hauptfarbe, Safran als Akzent
+- Startseite neu: Einstieg mit Beispiel-Massenauszug, Ablauf, Umfang, Nachvollziehbarkeit, FAQ
+- Preise, Kontakt, Demo, Über uns und Login angeglichen
+
+### 2026-09-30 08:39 Uhr · Bauteile in der Kontrollansicht per Klick aus der Zählung nehmen
+
+Claude · Commit `3568bda`
+
+### 2026-09-29 20:02 Uhr · Pläne mit allen Grundrissen auf einem Blatt und ArchiCAD-Raumstempel ohne KI lesen
+
+Claude · Commit `8763b43`
+
+### 2026-09-29 15:32 Uhr · Kontrollansicht zeigt die gezählten Bauteile farbig auf dem Plan
+
+Claude · Commit `b66ffc5`
+
+### 2026-09-29 15:23 Uhr · Wände und Unterzüge aus den CAD-Ebenen eines Vektor-PDFs berechnen
+
+Claude · Commit `548fcd9`
+
+### 2026-09-28 17:32 Uhr · App-Seiten, Beispiel, Einheitspreise und Rechtliches im neuen Design
+
+Claude · Commit `8c19fe7`
+
+### 2026-09-28 17:27 Uhr · Einheitspreise nur nach dem Login bearbeitbar
+
+Claude · Commit `fb40a25`
+
+### 2026-09-28 17:27 Uhr · Hochgeladener Plan erscheint während der Analyse als Scan-Animation
+
+Claude · Commit `13fbe9a`
+
+### 2026-09-28 17:24 Uhr · Safrangelb als Akzent und neutrale Beispielprojekte
+
+Claude · Commit `64ed55d`
+
+### 2026-09-28 17:18 Uhr · Farbwelt Nachtblau und Sand mit Graphit für Text
+
+Claude · Commit `8e9560a`
+
+### 2026-09-28 17:01 Uhr · Startseite erklärt, welche Positionen je Gewerk berechnet werden
+
+Claude · Commit `157eaf8`
+
+### 2026-09-28 17:01 Uhr · Folgemengen aus Fenstern und Türen berechnen
+
+Claude · Commit `a3163ec`
+
+### 2026-09-28 16:58 Uhr · Startseite zeigt auf den ersten Blick, was MengenWerk macht
+
+Claude · Commit `af4bf3a`
+
+### 2026-09-28 16:47 Uhr · Animierte Abendszene, Bernstein als Farbe und klarere Navigation
+
+Claude · Commit `c707441`
+
+### 2026-09-28 16:39 Uhr · Startseite als Bühne mit Menü links, weiß mit Hellblau
+
+Claude · Commit `029d5b9`
+
+### 2026-09-28 16:32 Uhr · Neue Schrift, kühle Farbwelt und neues Logo
+
+Claude · Commit `b5060e4`
+
+### 2026-09-28 16:28 Uhr · Übersicht im Dashboard-Stil auf der Startseite
+
+Claude · Commit `ef6318a`
+
+### 2026-09-28 16:18 Uhr · Eine einheitliche Schrift für die ganze Seite
+
+Claude · Commit `597bfbf`
+
+### 2026-09-28 16:14 Uhr · Gedankenstriche auch aus Skripten und Changelog entfernen
+
+Claude · Commit `836f67b`
+
+### 2026-09-28 16:13 Uhr · Neues Design in Papier und Terrakotta, Texte ohne Gedankenstriche
+
+Claude · Commit `ab6040c`
+
+### 2026-09-28 16:02 Uhr · Design durchgehend hell: Indigo und Apricot statt Grün und Marineblau
+
+Claude · Commit `20fe5a9`
+
+### 2026-09-28 15:42 Uhr · Neues helles Design mit aktuellem main zusammenführen
+
+Claude · Commit `8ae603f`
+
+### 2026-09-28 14:38 Uhr · Revert "Startseite: fließende Fotostrecke (Baustelle -> fertiges Haus) statt 3D-Szene"
+
+sulumsv · Commit `439e1a3`
+
+### 2026-09-28 14:15 Uhr · Revert "Startseiten-Animation als Bildfolge nach Storyboard: 16 Bauphasen vom Plan zum Traumhaus (#25)"
+
+sulumsv · Commit `ad1e903`
+
+### 2026-09-28 11:38 Uhr · Startseiten-Animation heller und flüssiger, Schlussbild wie ein Drohnenfoto
+
+Claude · Commit `9fc7403`
+
+### 2026-09-28 11:29 Uhr · Korrekturfeld unter der Mengenermittlung: angenommene Werte in eigenen Worten ersetzen
+
+Claude · Commit `9e376fa`
+
+### 2026-09-28 09:49 Uhr · Belagszeilen im Raumstempel nicht mehr als Raumnamen lesen
+
+Claude · Commit `38df6d3`
+
+### 2026-09-28 09:47 Uhr · Raumbuch mit der Wohnnutzfläche abgleichen statt den Plan abzulehnen
+
+Claude · Commit `9fe58b6`
+
+### 2026-09-28 09:44 Uhr · Startseiten-Animation fotorealistisch: echte Ziegel, echte Bäume, echter Horizont
+
+Claude · Commit `dd315d3`
+
+### 2026-09-28 09:09 Uhr · Changelog-Einträge nicht mehr an die Kopfzeile kleben
+
+Claude · Commit `4e59442`
+
+### 2026-09-28 09:09 Uhr · Kostenschätzung nur noch auf Knopfdruck statt automatisch mit Richtwerten
+
+Claude · Commit `cbbeb51`
+
+### 2026-09-27 00:12 Uhr · Startseiten-Animation endet mit fertigem Haus im Grünen (#15)
+
+onturkaltanakif · Commit `0a226ce`
+
+### 2026-09-26 22:11 Uhr · Merge branch 'sulum' into main
+
+Claude · Commit `371ae52`
+
+### 2026-09-26 22:07 Uhr · Ungenutzte 2D-Grundriss-Animation entfernen
+
+Claude · Commit `c2fa252`
+
+### 2026-09-26 22:07 Uhr · 3D-CAD-Aufbauanimation: fertiges Haus statt Grundriss-Skizze auf der Startseite
+
+Claude · Commit `c85ff37`
+
+### 2026-09-27 00:04 Uhr · Alle Unterseiten im dunklen Stil der Startseite (#13)
+
+onturkaltanakif · Commit `be17a8f`
+
+### 2026-09-26 22:03 Uhr · Eigenes Logo und Favicon statt reinem Textschriftzug
+
+Claude · Commit `b8bcd6d`
+
+### 2026-09-27 00:02 Uhr · Startseiten-Animation: Grundriss wächst in 3D zum Rohbau (#12)
+
+onturkaltanakif · Commit `99ff8a6`
+
+### 2026-09-26 23:55 Uhr · Großflächenausreißer aus Raumkataster filtern (#11)
+
+onturkaltanakif · Commit `3bfa985`
+
+### 2026-09-26 23:51 Uhr · Scroll-Animation durch realistischen Grundriss ersetzt (#10)
+
+onturkaltanakif · Commit `657c1cf`
+
+### 2026-09-26 23:45 Uhr · Merge pull request #9 from sulumsv/claude/relaxed-gauss-854c1k
+
+Sulum · Commit `e40434b`
+
+### 2026-09-26 21:45 Uhr · README von Grund auf neu: erklärt jetzt die App statt der create-next-app-Vorlage
+
+Claude · Commit `086c6af`
+
+### 2026-09-26 23:45 Uhr · Startseite neu gestaltet: klares Premium-Layout mit Massenauszug-Vorschau (#8)
+
+onturkaltanakif · Commit `f7267c2`
+
+### 2026-09-26 23:44 Uhr · Merge pull request #7 from sulumsv/claude/relaxed-gauss-854c1k
+
+Sulum · Commit `3cf5659`
+
+### 2026-09-26 21:43 Uhr · Automatisches Changelog aus den Commit-Messages einführen
+
+Claude · Commit `9370ce5`
+
+### 2026-09-26 23:43 Uhr · LB-HB 023 vollständig einbinden: 22.650 Positionen aus 59 Leistungsgruppen (#6)
+
+onturkaltanakif · Commit `ce7dc17`
+
+### 2026-09-26 23:25 Uhr · Startseite komplett neu gestaltet: dunkles Design nach BauKit-Vorbild (#5)
+
+onturkaltanakif · Commit `583807a`
+
+### 2026-09-26 23:21 Uhr · Scroll-Animation auf der Startseite: Grundriss baut sich zum Haus auf (#4)
+
+onturkaltanakif · Commit `a1faf88`
+
+### 2026-09-26 22:59 Uhr · Merge pull request #3 from sulumsv/claude/startseite-problem-feld-gruen-d3jznd
+
+onturkaltanakif · Commit `860d6d7`
+
+### 2026-09-26 20:58 Uhr · Workflow: nach jedem Commit automatisch auf main mergen
+
+Claude · Commit `0b098ad`
+
+### 2026-09-26 22:56 Uhr · Merge pull request #2 from sulumsv/claude/startseite-problem-feld-gruen-d3jznd
+
+onturkaltanakif · Commit `51c82e2`
+
+### 2026-09-26 20:37 Uhr · Maße im Raumbuch durch Klick editierbar machen
+
+Claude · Commit `7e042d9`
+
+### 2026-09-26 20:35 Uhr · umfangAusFlaeche exportieren für manuelle Raumkorrekturen
+
+Claude · Commit `9827717`
+
+### 2026-09-26 20:32 Uhr · Raumstempel auch finden, wenn der Name unterhalb der Fläche steht
+
+Claude · Commit `e062e31`
+
+### 2026-09-14 12:57 Uhr · Sagen, warum der kostenlose Weg nicht gereicht hat
+
+Claude · Commit `635a482`
+
+### 2026-09-14 12:24 Uhr · Textweg meldet die tatsächliche Seitenzahl
+
+Claude · Commit `f9f6315`
+
+### 2026-09-14 12:23 Uhr · Kosten der Auswertung im Ergebnis anzeigen
+
+Claude · Commit `eba389d`
+
+### 2026-09-14 12:20 Uhr · Auswertung liefert ihren Verbrauch mit
+
+Claude · Commit `85948e0`
+
+### 2026-09-14 12:20 Uhr · Kostenzähler für die API-Aufrufe einer Auswertung
+
+Claude · Commit `e202bc2`
+
+### 2026-09-14 12:06 Uhr · Textlesen: Fragmente zu Zeilen fügen und unsichere Ergebnisse verwerfen
+
+Claude · Commit `ba36e94`
+
+### 2026-09-14 11:51 Uhr · Plan aus der eigenen Textebene lesen, ohne Bilderkennung
+
+Claude · Commit `bb85fcd`
+
+### 2026-09-14 11:35 Uhr · Hinweis zum fehlenden Schlüssel nennt den richtigen Ort
+
+Claude · Commit `f11b27f`
+
+### 2026-09-14 11:31 Uhr · Plan im Browser in Seitenbilder umwandeln statt die PDF-Datei hochzuladen
+
+Claude · Commit `d3c18db`
+
+### 2026-09-14 11:23 Uhr · Befunde aus dem Code-Review behoben
+
+Claude · Commit `d9feecc`
+
+### 2026-09-14 11:14 Uhr · Auswertung gegen Zeitrahmen, Teilausfälle und Uploadgrenzen absichern
+
+Claude · Commit `bdc2795`
+
+### 2026-09-14 11:05 Uhr · Nachweise aus einer gemeinsamen Registry statt zweier getrennter Listen
+
+Claude · Commit `0dbe9b7`
+
+### 2026-09-14 11:00 Uhr · Zwei Darstellungsfehler behoben
+
+Claude · Commit `2224772`
+
+### 2026-09-14 10:56 Uhr · Startseite: Einheitspreise als erster Schritt im Ablauf
+
+Claude · Commit `5d175f6`
+
+### 2026-09-14 10:55 Uhr · Kostenspalten in der Ansicht und Download als eigenständige HTML-Datei
+
+Claude · Commit `967f0dd`
+
+### 2026-09-14 10:50 Uhr · Einheitspreise des Betriebs eingebbar und in der Auswertung wirksam
+
+Claude · Commit `8a7783d`
+
+### 2026-09-14 10:49 Uhr · Massenauszug um fehlende Gewerke erweitert und bepreist
+
+Claude · Commit `06c8c9b`
+
+### 2026-09-14 10:45 Uhr · Einheitspreis-Katalog als Grundlage der Kostenschätzung
+
+Claude · Commit `bdbdc90`
+
+### 2026-08-27 07:56 Uhr · Fehler in Konfidenzkennzeichnung, Annahmen und Randfällen behoben
+
+Claude · Commit `8888024`
+
+### 2026-08-26 22:27 Uhr · Massenauszug in der Oberfläche: Raumbuch, Abschnitte, Annahmen, Prüfpunkte
+
+Claude · Commit `4bd92d0`
+
+### 2026-08-26 22:23 Uhr · Prüflauf aus dem Next.js Typescope nehmen
+
+Claude · Commit `89e34cb`
+
+### 2026-08-26 22:22 Uhr · Ableitung: aus Räumen und Plankontext den vollständigen Massenauszug rechnen
+
+Claude · Commit `edfbf25`
+
+### 2026-08-26 20:11 Uhr · Ergebnisansicht: Herkunft, Material und Plankontext anzeigen
+
+Claude · Commit `56bed3f`
+
+### 2026-08-26 20:09 Uhr · Planauswertung: Kontextdurchgang, Structured Outputs, Opus 5
+
+Claude · Commit `9b3b6cb`
+
+### 2026-08-26 20:07 Uhr · LB-HB Leistungskatalog als Datendatei statt hartcodierter Zuordnung
+
+Claude · Commit `513d6b0`
+
+### 2026-08-26 19:22 Uhr · PDF-Verarbeitung von externem pdftoppm-Binary auf pdf-to-img umgestellt
+
+Claude · Commit `bcdcd49`
+
+### 2026-08-26 15:42 Uhr · Startseite überarbeitet: professionelleres Design und ausführlichere Erklärungen
+
+Claude · Commit `c720e80`
+
+### 2026-08-26 15:38 Uhr · Verbleibende rote Fehleranzeigen (Login, Ergebnis-Fehler) auf Grün umstellen
+
+Claude · Commit `178f039`
+
+### 2026-08-26 17:31 Uhr · Startseite: "Das Problem"-Feld von Rot auf Grün ändern (#1)
+
+onturkaltanakif · Commit `41510e1`
+
+### 2026-08-26 16:57 Uhr · Initial commit
+
+sulumsv · Commit `282f8c9`

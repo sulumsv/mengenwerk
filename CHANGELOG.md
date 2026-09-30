@@ -5,6 +5,20 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 00:21 Uhr · Kostenschätzung rechnet automatisch mit Richtwerten für alle Leistungsgruppen
+
+Claude · Commit `03a0adc`
+
+- Nach jeder Auswertung steht die Kostenschätzung sofort da, fehlende eigene Preise werden mit Richtwerten ergänzt
+- Eigene Einheitspreise gehen weiterhin vor
+- Die Pflicht, eigene Preise zu hinterlegen, und die Weiterleitung nach dem Login sind bis zu den Kundenkonten abgeschaltet (EIGENE_PREISE_PFLICHT)
+- Preiskatalog nach den Leistungsgruppen des LB-HB 023 geordnet, falsche Zuordnungen korrigiert: Putz LG 10, Gerüst LG 04, WDVS LG 44, Dachdeckung LG 22, Holzbau LG 36, Parkett LG 38, Bodenbeschichtung LG 49, Malerei LG 48, Fenster LG 73
+- Neu im Katalog: Kanal, Abdichtung Nassraum und erdberührt, Pflaster, Garten, Flachdachabdichtung, Laminat, Vinyl, Teppich, Linoleum, Holzstütze, Trockenbauwand, Dachflächenfenster, Raffstore, VHF, Geländer, Tapete
+- Die neuen Richtwerte sind grob geschätzt und im Katalog so gekennzeichnet
+- Beläge Laminat, Vinyl, Teppich, Linoleum, Kork und Epoxid werden erkannt und bepreist
+- Holzstützen werden als Holzbau statt als Stahlbeton bepreist
+- Einheitspreise-Seite nach den neuen Gruppen gegliedert
+
 ### 2026-10-01 00:13 Uhr · Auswertungen und Korrekturen werden in Cloudflare R2 gesammelt
 
 Claude · Commit `6f865d1`

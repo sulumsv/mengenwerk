@@ -22,12 +22,17 @@ const EINHEIT_TEXT: Record<string, string> = {
 };
 
 const GRUPPEN: { titel: string; lgs: (string | null)[] }[] = [
-  { titel: "Erdbau, Beton und Mauerwerk", lgs: ["03", "07", "08"] },
-  { titel: "Estrich und Beläge", lgs: ["11", "24", "50"] },
-  { titel: "Putz, Fassade und Malerei", lgs: ["23"] },
-  { titel: "Dach und Spengler", lgs: ["15", "16", "18"] },
-  { titel: "Fenster, Türen und Tischler", lgs: ["37", "43", "71"] },
-  { titel: "Ohne Leistungsgruppe", lgs: [null] },
+  { titel: "Erdbau, Gerüst und Aufschließung", lgs: ["03", "04", "06"] },
+  { titel: "Beton und Mauerwerk", lgs: ["07", "08"] },
+  { titel: "Putz, Estrich und Abdichtung", lgs: ["10", "11", "12"] },
+  { titel: "Dach und Spengler", lgs: ["21", "22", "23"] },
+  { titel: "Beläge", lgs: ["24", "28", "38", "49", "50"] },
+  { titel: "Holzbau, Tischler und Trockenbau", lgs: ["36", "37", "39"] },
+  { titel: "Fenster, Türen und Sonnenschutz", lgs: ["43", "56", "57", "65", "71", "72", "73", "74", "75"] },
+  { titel: "Fassade und Metallbau", lgs: ["31", "44", "68"] },
+  { titel: "Maler und Tapezierer", lgs: ["47", "48"] },
+  { titel: "Außenanlagen", lgs: ["13", "58"] },
+  { titel: "Haustechnik und Energie", lgs: [null] },
 ];
 
 function euro(n: number): string {

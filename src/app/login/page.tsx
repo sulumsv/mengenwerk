@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Logo } from "@/components/Logo";
 import { ladeEinheitspreise } from "@/lib/einheitspreise-speicher";
+import { EIGENE_PREISE_PFLICHT } from "@/lib/preise";
 
 function LoginForm() {
   const [passwort, setPasswort] = useState("");
@@ -25,7 +26,7 @@ function LoginForm() {
     if (res.ok) {
       const json = await res.json();
       // Beim ersten Anmelden auf diesem Gerät zuerst die Preise des Betriebs.
-      const ersteAnmeldung = Object.keys(ladeEinheitspreise()).length === 0;
+      const ersteAnmeldung = EIGENE_PREISE_PFLICHT && Object.keys(ladeEinheitspreise()).length === 0;
       router.push(ersteAnmeldung && json.next === "/app" ? "/einheitspreise?start=1" : json.next);
       router.refresh();
     } else {

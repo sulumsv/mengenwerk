@@ -5,6 +5,19 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 00:13 Uhr · Auswertungen und Korrekturen werden in Cloudflare R2 gesammelt
+
+Claude · Commit `6f865d1`
+
+- Neuer Datenspeicher über Cloudflare R2 (EU-Bucket), Zugang über R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET
+- Jede Auswertung wird gespeichert: Räume, Bauteile, Legende, Geschoßhöhen, Nachweise, Hinweise, Verbrauch
+- CAD-Auswertungen werden mit allen Ebenennamen, erkannten Ebenen und Maßstab gespeichert
+- Korrekturen werden gesammelt: geänderte Raumflächen und Umfänge, Raumhöhen, Annahmen, ausgeschlossene CAD-Bauteile
+- Dateinamen fallen weg, Straßennamen werden vor dem Speichern durch [Adresse] ersetzt
+- Planbilder werden nur mit Häkchen beim Upload gespeichert
+- GET /api/daten prüft nach dem Login, ob der Speicher erreichbar ist
+- Datenschutzerklärung um die Datensammlung ergänzt
+
 ### 2026-10-01 00:08 Uhr · KI-Analyse läuft auf Sonnet 5.5 mit niedriger Denkstufe
 
 Claude · Commit `f94e17c`

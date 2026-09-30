@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { AnalysisResult, GroupedItem, Konfidenz, Massenauszug, Raum } from "@/lib/types";
 import { formatiereKosten, type VerbrauchsBericht } from "@/lib/verbrauch";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
@@ -17,6 +17,7 @@ import { baueMassenauszug } from "@/lib/ableitung";
 import { katalogInfo } from "@/lib/lbhb";
 import { KEINE_KORREKTUREN, istLeer, type Korrekturen } from "@/lib/korrekturen";
 import { KorrekturFeld } from "@/components/KorrekturFeld";
+import { sendeDaten } from "@/lib/daten-senden";
 
 type KatalogInfo = { katalog: string; version: string; vollstaendig: boolean };
 
@@ -186,6 +187,49 @@ export default function ToolPage() {
   /** Korrekturen des Nutzers an Annahmen (Raumhöhe, Deckenunterkante, Stärken …). */
   const [korrekturen, setKorrekturen] = useState<Korrekturen>(KEINE_KORREKTUREN);
   const inputRef = useRef<HTMLInputElement>(null);
+  /** Kennung dieser Auswertung im Datenspeicher, verbindet Ergebnis und spätere Korrekturen. */
+  const [auswertungId, setAuswertungId] = useState("");
+  /** Nur mit Zustimmung wird der Plan selbst gespeichert, sonst nur die ausgelesenen Zahlen. */
+  const [planSpeichern, setPlanSpeichern] = useState(false);
+
+  useEffect(() => {
+    if (!auswertungId || !ergebnis || "fehler" in ergebnis) return;
+    const { dateiname: _, ...analyse } = ergebnis.analyse;
+    sendeDaten("auswertung", auswertungId, { quelle: ergebnis.quelle ?? "ki", analyse });
+  }, [auswertungId, ergebnis]);
+
+  useEffect(() => {
+    if (!auswertungId || !cad) return;
+    sendeDaten("cad", auswertungId, {
+      massstab: cad.massstab,
+      ebenen: cad.ebenen,
+      erkannteEbenen: cad.erkannteEbenen,
+      positionen: cad.positionen,
+    });
+  }, [auswertungId, cad]);
+
+  // Korrekturen gesammelt schicken, sobald der Nutzer eine Weile nichts ändert.
+  useEffect(() => {
+    if (!auswertungId || !ergebnis || "fehler" in ergebnis) return;
+    const original = new Map(ergebnis.analyse.raeume.map((r) => [r.id, r]));
+    const raeume = (bearbeiteteRaeume ?? [])
+      .filter((r) => {
+        const o = original.get(r.id);
+        return o && (o.flaeche_m2 !== r.flaeche_m2 || o.umfang_m !== r.umfang_m);
+      })
+      .map((r) => ({
+        name: r.name,
+        geschoss: r.geschoss,
+        vorher: { flaeche_m2: original.get(r.id)!.flaeche_m2, umfang_m: original.get(r.id)!.umfang_m },
+        nachher: { flaeche_m2: r.flaeche_m2, umfang_m: r.umfang_m },
+      }));
+    const cadAusgeschlossen = cad
+      ? [...cadAus].map((i) => cad.konturen[i]).filter(Boolean).map((k) => ({ art: k.art, dicke_m: k.dicke_m, laenge_m: k.laenge_m }))
+      : [];
+    if (raeume.length === 0 && istLeer(korrekturen) && cadAusgeschlossen.length === 0) return;
+    const t = setTimeout(() => sendeDaten("korrektur", auswertungId, { raeume, korrekturen, cadAusgeschlossen }), 3000);
+    return () => clearTimeout(t);
+  }, [auswertungId, ergebnis, bearbeiteteRaeume, korrekturen, cad, cadAus]);
 
   /**
    * Erster Weg: den Plan aus seiner eigenen Textebene lesen. Das kostet nichts,
@@ -230,6 +274,8 @@ export default function ToolPage() {
 
   async function analysieren(f: File) {
     setLaedt(true);
+    const id = crypto.randomUUID();
+    setAuswertungId(id);
     setAnalyseStart(Date.now());
     setBlattzahl(1);
     setErgebnis(null);
@@ -259,6 +305,8 @@ export default function ToolPage() {
 
     const fd = new FormData();
     fd.append("dateiname", f.name);
+    fd.append("auswertungId", id);
+    if (planSpeichern) fd.append("planSpeichern", "1");
 
     // Das PDF wird hier im Browser in Seitenbilder umgewandelt. Als Datei
     // hochgeladen wäre ein Einreichplan oft zu groß für die Anfrage.
@@ -390,6 +438,23 @@ export default function ToolPage() {
               {laedt ? "Vision Erkennung läuft, das kann bei mehrseitigen Plänen etwas dauern" : "Vektor PDF, Scan oder Bild werden automatisch unterschieden"}
             </p>
           </div>
+          )}
+          {!laedt && (
+            <label className="flex items-start gap-2.5 border-t border-line px-6 py-4 text-sm text-fg-muted cursor-pointer select-none">
+              <input
+                type="checkbox"
+                checked={planSpeichern}
+                onChange={(e) => setPlanSpeichern(e.target.checked)}
+                className="mt-0.5 h-4 w-4 accent-[var(--accent)]"
+              />
+              <span>
+                Plan zur Verbesserung der Erkennung speichern. Ohne Häkchen werden nur die ausgelesenen Mengen und
+                Korrekturen ohne Adresse gespeichert.{" "}
+                <a href="/datenschutz" className="underline text-fg">
+                  Datenschutz
+                </a>
+              </span>
+            </label>
           )}
         </div>
 

@@ -68,6 +68,8 @@ export interface CadKontur {
   seite: number;
   art: Bauteilart;
   dicke_m: number;
+  laenge_m: number;
+  flaeche_m2: number;
   kontur: [number, number][];
 }
 
@@ -100,8 +102,25 @@ function rechteck(a: number, u: number): { laenge: number; dicke: number } | nul
   return { laenge, dicke: a / laenge };
 }
 
-export function werteAus(flaechen: CadFlaeche[], massstab: number, ebenen: string[]): CadAuswertung {
+/** Summiert Konturen je Bauteil und Dicke. Ausgeschlossene Konturen (Index) zählen nicht. */
+export function summiere(konturen: CadKontur[], ausgeschlossen: Set<number> = new Set()): CadPosition[] {
   const gruppen = new Map<string, CadPosition>();
+  konturen.forEach((k, i) => {
+    if (ausgeschlossen.has(i)) return;
+    const key = `${k.art}|${k.dicke_m}`;
+    const g = gruppen.get(key) ?? { art: k.art, dicke_m: k.dicke_m, laenge_m: 0, flaeche_m2: 0, teile: 0 };
+    g.laenge_m += k.laenge_m;
+    g.flaeche_m2 += k.flaeche_m2;
+    g.teile += 1;
+    gruppen.set(key, g);
+  });
+  const reihenfolge: Bauteilart[] = ["aussenwand", "innenwand", "unterzug", "stuetze"];
+  return [...gruppen.values()]
+    .filter((p) => p.flaeche_m2 >= 0.3)
+    .sort((a, b) => reihenfolge.indexOf(a.art) - reihenfolge.indexOf(b.art) || a.dicke_m - b.dicke_m);
+}
+
+export function werteAus(flaechen: CadFlaeche[], massstab: number, ebenen: string[]): CadAuswertung {
   const gesehen = new Set<string>();
   const konturen: CadKontur[] = [];
 
@@ -131,19 +150,10 @@ export function werteAus(flaechen: CadFlaeche[], massstab: number, ebenen: strin
     if (!r || r.dicke > MAX_DICKE[art] || r.dicke < MIN_DICKE[art]) continue;
 
     const dicke = einrasten(r.dicke);
-    konturen.push({ seite: f.seite, art, dicke_m: dicke, kontur: f.kontur });
-    const key = `${art}|${dicke}`;
-    const g = gruppen.get(key) ?? { art, dicke_m: dicke, laenge_m: 0, flaeche_m2: 0, teile: 0 };
-    g.laenge_m += r.laenge;
-    g.flaeche_m2 += f.flaeche_m2;
-    g.teile += 1;
-    gruppen.set(key, g);
+    konturen.push({ seite: f.seite, art, dicke_m: dicke, laenge_m: r.laenge, flaeche_m2: f.flaeche_m2, kontur: f.kontur });
   }
 
-  const reihenfolge: Bauteilart[] = ["aussenwand", "innenwand", "unterzug", "stuetze"];
-  const positionen = [...gruppen.values()]
-    .filter((p) => p.flaeche_m2 >= 0.3)
-    .sort((a, b) => reihenfolge.indexOf(a.art) - reihenfolge.indexOf(b.art) || a.dicke_m - b.dicke_m);
+  const positionen = summiere(konturen);
 
   const erkannteEbenen = ebenen
     .map((name) => ({ name, art: bauteilFuerEbene(name) }))

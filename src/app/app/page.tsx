@@ -11,7 +11,7 @@ import { ScanAnimation } from "@/components/ScanAnimation";
 import { CadErgebnis } from "@/components/CadErgebnis";
 import { CadKontrolle } from "@/components/CadKontrolle";
 import { leseCadEbenen } from "@/lib/cad-lesen";
-import type { CadAuswertung } from "@/lib/cad-ebenen";
+import { summiere, type CadAuswertung } from "@/lib/cad-ebenen";
 import { lesePlanAusText, umfangAusFlaeche } from "@/lib/plan-lesen";
 import { baueMassenauszug } from "@/lib/ableitung";
 import { katalogInfo } from "@/lib/lbhb";
@@ -175,6 +175,7 @@ export default function ToolPage() {
   const [schritt, setSchritt] = useState<string | null>(null);
   const [vorschau, setVorschau] = useState<string | null>(null);
   const [cad, setCad] = useState<CadAuswertung | null>(null);
+  const [cadAus, setCadAus] = useState<Set<number>>(new Set());
   const [ergebnis, setErgebnis] = useState<ApiResponse | null>(null);
   /** Warum der kostenlose Textweg aufgegeben hat. Erklärt, wofür die KI gebraucht wird. */
   const [textGrund, setTextGrund] = useState<string | null>(null);
@@ -238,6 +239,7 @@ export default function ToolPage() {
     });
     vorschauBild(f).then(setVorschau).catch(() => {});
     setCad(null);
+    setCadAus(new Set());
     leseCadEbenen(f).then(setCad).catch(() => {});
 
     try {
@@ -383,8 +385,27 @@ export default function ToolPage() {
           )}
         </div>
 
-        {cad && !laedt && <CadErgebnis auswertung={cad} />}
-        {cad && !laedt && <CadKontrolle auswertung={cad} bild={vorschau} />}
+        {cad && !laedt && (
+          <>
+            <CadErgebnis
+              auswertung={cad}
+              positionen={summiere(cad.konturen, cadAus)}
+              ausgeschlossen={cadAus.size}
+              zuruecksetzen={() => setCadAus(new Set())}
+            />
+            <CadKontrolle
+              auswertung={cad}
+              bild={vorschau}
+              ausgeschlossen={cadAus}
+              umschalten={(i) => {
+                const neu = new Set(cadAus);
+                if (neu.has(i)) neu.delete(i);
+                else neu.add(i);
+                setCadAus(neu);
+              }}
+            />
+          </>
+        )}
 
         {ergebnis && "fehler" in ergebnis && (
           <div className="mt-6 rounded-xl border-2 border-alert bg-alert/10 p-5 text-sm space-y-3">

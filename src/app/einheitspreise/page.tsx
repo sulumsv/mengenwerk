@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import { SeitenHero } from "@/components/Marketing";
@@ -31,6 +32,27 @@ const GRUPPEN: { titel: string; lgs: (string | null)[] }[] = [
 
 function euro(n: number): string {
   return n.toLocaleString("de-AT", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function StartHinweis() {
+  const start = useSearchParams().get("start") === "1";
+  if (!start) return null;
+  return (
+    <section className="px-6 md:px-10 pt-10 max-w-5xl mx-auto">
+      <div className="rounded-2xl border-2 border-highlight bg-surface-2 px-5 py-4 flex flex-wrap items-center gap-4">
+        <div className="flex-1 min-w-[260px]">
+          <p className="font-semibold">Willkommen. Lege zuerst deine Einheitspreise fest.</p>
+          <p className="mt-1 text-sm text-fg-muted">
+            Einmal hinterlegt, rechnet MengenWerk jede Planauswertung mit den Preisen deines Betriebs. Du kannst das
+            auch später erledigen: Nach dem ersten Scan fragt MengenWerk die fehlenden Preise ab.
+          </p>
+        </div>
+        <Link href="/app" className="font-semibold text-sm px-5 py-2.5 rounded-xl border border-line-strong hover:bg-surface">
+          Später, zur Planauswertung
+        </Link>
+      </div>
+    </section>
+  );
 }
 
 export default function EinheitspreisePage() {
@@ -83,6 +105,10 @@ export default function EinheitspreisePage() {
         titel="Einheitspreise"
         text="Hinterlege hier die Preise deines Betriebs. Bei jeder Planauswertung wird daraus neben der Mengenermittlung automatisch eine Kostenschätzung gerechnet. Leere Felder verwenden den Richtwert."
       />
+
+      <Suspense>
+        <StartHinweis />
+      </Suspense>
 
       <section className="px-6 md:px-10 pt-10 pb-8 max-w-5xl mx-auto">
         <div className="rounded-2xl border-2 border-alert bg-surface-2 overflow-hidden">

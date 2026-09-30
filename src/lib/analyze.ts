@@ -239,10 +239,18 @@ function ermittleUmfang(
   return { umfang_m: 2 * kurz * (1 + SEITENVERHAELTNIS), umfangQuelle: "geschaetzt" };
 }
 
+/** Bildformat an den ersten Bytes erkennen. Der Browser schickt JPEG, hochgeladene Bilder können alles sein. */
+function bildformat(bild: Buffer): "image/png" | "image/jpeg" | "image/webp" | "image/gif" {
+  if (bild[0] === 0xff && bild[1] === 0xd8) return "image/jpeg";
+  if (bild.subarray(0, 4).toString("ascii") === "GIF8") return "image/gif";
+  if (bild.subarray(8, 12).toString("ascii") === "WEBP") return "image/webp";
+  return "image/png";
+}
+
 function alsBild(bild: Buffer) {
   return {
     type: "image" as const,
-    source: { type: "base64" as const, media_type: "image/png" as const, data: bild.toString("base64") },
+    source: { type: "base64" as const, media_type: bildformat(bild), data: bild.toString("base64") },
   };
 }
 

@@ -17,7 +17,7 @@ export default function UeberUnsPage() {
         text="MengenWerk ist entstanden, weil viele kleine Baubetriebe Mengen noch immer von Hand aus Bauplänen herausrechnen."
       />
       <Abschnitt>
-        <div className="max-w-2xl mx-auto space-y-5 text-[15px] text-[#5d6b78] leading-relaxed">
+        <div className="max-w-2xl mx-auto space-y-5 text-[15px] text-[#5b6472] leading-relaxed">
           <p>
             Die vorhandenen Werkzeuge sind entweder auf große Baufirmen zugeschnitten oder auf Spezialgewerke
             beschränkt. Für den Baumeister, der abends noch ein Angebot rechnen muss, passt beides nicht.

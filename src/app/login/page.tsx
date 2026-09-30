@@ -32,16 +32,16 @@ function LoginForm() {
   }
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-[#f5f8fa] px-6 text-[#2b2d33]">
-      <div className="w-full max-w-sm rounded-2xl border border-[#dde6ea] bg-white p-7 shadow-[0_2px_12px_rgba(0,0,0,0.04)]">
+    <main className="min-h-screen flex items-center justify-center bg-[#f5f8fa] px-6 text-[#111827]">
+      <div className="w-full max-w-sm rounded-2xl border border-[#e6e8ec] bg-white p-7 shadow-[0_2px_12px_rgba(0,0,0,0.04)]">
         <Link href="/">
           <Logo />
         </Link>
-        <p className="mt-2 text-sm text-[#5d6b78]">Einreichplan → Massenauszug nach LB-HB 023</p>
+        <p className="mt-2 text-sm text-[#5b6472]">Einreichplan → Massenauszug nach LB-HB 023</p>
 
         <div className="mt-6 grid grid-cols-2 rounded-lg bg-[#f7f9fb] p-1 text-sm">
           <span className="rounded-md bg-white py-1.5 text-center font-medium shadow-sm">Anmelden</span>
-          <Link href="/demo" className="rounded-md py-1.5 text-center text-[#5d6b78] hover:text-[#2b2d33]">
+          <Link href="/demo" className="rounded-md py-1.5 text-center text-[#5b6472] hover:text-[#111827]">
             Zugang anfragen
           </Link>
         </div>
@@ -53,7 +53,7 @@ function LoginForm() {
             placeholder="Passwort"
             value={passwort}
             onChange={(e) => setPasswort(e.target.value)}
-            className="w-full rounded-lg border border-[#c8d4da] px-3.5 py-2.5 text-sm placeholder:text-[#b3bec8] outline-none focus:border-[#2b2d33] transition"
+            className="w-full rounded-lg border border-[#c8d4da] px-3.5 py-2.5 text-sm placeholder:text-[#b3bec8] outline-none focus:border-[#111827] transition"
           />
           {fehler && <p className="text-sm text-[#c2412d]">Falsches Passwort.</p>}
           <button

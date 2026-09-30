@@ -1,25 +1,21 @@
 import Link from "next/link";
 
+/*
+ * Gestaltungsregeln für alle öffentlichen Seiten:
+ * Flächen weiß oder #f8f9fb, Linien #e6e8ec, Text #111827 bzw. #5b6472,
+ * Aktionen Nachtblau #1f2a44, Safran #f2b233 nur für kleine Akzente.
+ * Rundung 12 px, Abschnitte 96 px Abstand, Inhalte max. 1120 px breit.
+ */
+
 export function Eyebrow({ children }: { children: React.ReactNode; tone?: string }) {
-  return (
-    <p className="flex items-center gap-3 text-[11px] font-medium uppercase tracking-[0.22em] text-[#141c30] mb-5">
-      <span className="h-px w-8 bg-[#1f2a44]" />
-      {children}
-    </p>
-  );
+  return <p className="mb-3 text-sm font-semibold text-[#1f2a44]">{children}</p>;
 }
 
 export function Container({ children, className = "" }: { children: React.ReactNode; className?: string }) {
-  return <div className={`max-w-6xl mx-auto px-6 md:px-10 ${className}`}>{children}</div>;
+  return <div className={`mx-auto max-w-[1120px] px-5 md:px-8 ${className}`}>{children}</div>;
 }
 
 type Ton = "dunkel" | "hell" | "grau";
-
-const TON: Record<Ton, string> = {
-  dunkel: "bg-himmel text-[#2b2d33] border-y border-[#dde6ea]",
-  hell: "bg-[#ffffff] text-[#2b2d33]",
-  grau: "bg-[#f5f8fa] text-[#2b2d33] border-y border-[#dde6ea]",
-};
 
 export function Abschnitt({
   ton = "hell",
@@ -32,8 +28,9 @@ export function Abschnitt({
   className?: string;
   id?: string;
 }) {
+  const hintergrund = ton === "hell" ? "bg-white" : "bg-[#f8f9fb] border-y border-[#eef0f3]";
   return (
-    <section id={id} className={`${TON[ton]} py-20 md:py-28 scroll-mt-20 ${className}`}>
+    <section id={id} className={`${hintergrund} py-20 md:py-24 scroll-mt-20 ${className}`}>
       <Container>{children}</Container>
     </section>
   );
@@ -43,17 +40,19 @@ export function AbschnittKopf({
   eyebrow,
   titel,
   text,
+  mittig = false,
 }: {
   eyebrow: string;
   titel: React.ReactNode;
   text?: React.ReactNode;
   ton?: Ton;
+  mittig?: boolean;
 }) {
   return (
-    <div className="max-w-2xl mb-14">
+    <div className={`mb-12 max-w-2xl ${mittig ? "mx-auto text-center" : ""}`}>
       <Eyebrow>{eyebrow}</Eyebrow>
-      <h2 className="font-display font-semibold tracking-tight text-[clamp(1.9rem,3.6vw,2.9rem)] leading-[1.08]">{titel}</h2>
-      {text && <p className="mt-5 text-[15px] leading-relaxed text-[#5d6b78]">{text}</p>}
+      <h2 className="text-[clamp(1.75rem,3vw,2.25rem)] font-semibold leading-tight tracking-tight text-[#111827]">{titel}</h2>
+      {text && <p className="mt-4 text-[16px] leading-relaxed text-[#5b6472]">{text}</p>}
     </div>
   );
 }
@@ -70,14 +69,14 @@ export function SeitenHero({
   children?: React.ReactNode;
 }) {
   return (
-    <section className="bg-himmel text-[#2b2d33] border-b border-[#dde6ea]">
-      <Container className="pt-20 pb-20">
+    <section className="border-b border-[#eef0f3] bg-[#f8f9fb]">
+      <Container className="py-16 md:py-20">
         <Eyebrow>{eyebrow}</Eyebrow>
-        <h1 className="font-display font-semibold tracking-tight leading-[1.02] text-[clamp(2.5rem,5.5vw,4.2rem)] max-w-3xl">
+        <h1 className="max-w-3xl text-[clamp(2rem,4.5vw,3rem)] font-semibold leading-[1.1] tracking-tight text-[#111827]">
           {titel}
         </h1>
-        {text && <p className="mt-6 text-[1.05rem] text-[#5d6b78] max-w-2xl leading-relaxed">{text}</p>}
-        {children && <div className="mt-9">{children}</div>}
+        {text && <p className="mt-5 max-w-2xl text-[17px] leading-relaxed text-[#5b6472]">{text}</p>}
+        {children && <div className="mt-8 flex flex-wrap gap-3">{children}</div>}
       </Container>
     </section>
   );
@@ -94,11 +93,14 @@ export function Karte({
   nummer?: string;
 }) {
   return (
-    <div className="group relative rounded-xl border border-[#dde6ea] bg-[#ffffff] p-7 transition hover:border-[#1f2a44]/50">
-      <span className="absolute left-0 top-7 h-6 w-[3px] rounded-r bg-[#1f2a44] opacity-0 transition group-hover:opacity-100" />
-      {nummer && <p className="mb-6 text-sm font-semibold text-[#1f2a44]">{nummer}</p>}
-      <h3 className="font-display font-semibold text-[1.2rem] mb-2">{titel}</h3>
-      <div className="text-sm leading-relaxed text-[#5d6b78]">{children}</div>
+    <div className="rounded-xl border border-[#e6e8ec] bg-white p-6">
+      {nummer && (
+        <span className="mb-4 inline-flex h-8 w-8 items-center justify-center rounded-lg bg-[#eef1f6] text-sm font-semibold text-[#1f2a44]">
+          {Number(nummer)}
+        </span>
+      )}
+      <h3 className="mb-2 text-[17px] font-semibold text-[#111827]">{titel}</h3>
+      <div className="text-[15px] leading-relaxed text-[#5b6472]">{children}</div>
     </div>
   );
 }
@@ -107,7 +109,7 @@ export function KnopfPrimaer({ href, children }: { href: string; children: React
   return (
     <Link
       href={href}
-      className="inline-flex items-center gap-2 rounded-lg bg-[#1f2a44] text-white font-medium text-sm px-6 py-3 hover:bg-[#141c30] transition"
+      className="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-[#1f2a44] px-5 text-[15px] font-semibold text-white transition hover:bg-[#2c3a5c]"
     >
       {children}
     </Link>
@@ -118,7 +120,7 @@ export function KnopfSekundaer({ href, children }: { href: string; children: Rea
   return (
     <Link
       href={href}
-      className="inline-flex items-center gap-2 rounded-lg border border-[#2b2d33]/80 text-[#2b2d33] font-medium text-sm px-6 py-3 hover:bg-[#2b2d33] hover:text-[#ffffff] transition"
+      className="inline-flex h-11 items-center justify-center gap-2 rounded-lg border border-[#d4d8df] bg-white px-5 text-[15px] font-semibold text-[#111827] transition hover:border-[#9aa3b0]"
     >
       {children}
     </Link>
@@ -126,34 +128,33 @@ export function KnopfSekundaer({ href, children }: { href: string; children: Rea
 }
 
 export function CtaBand({
-  titel = "Lassen Sie MengenWerk an Ihrem Plan rechnen.",
-  text = "In der Demo laden wir gemeinsam einen Ihrer Einreichpläne hoch und gehen Schritt für Schritt durch den Massenauszug.",
+  titel = "Testen Sie MengenWerk an Ihrem eigenen Plan.",
+  text = "In einer kurzen Demo laden wir gemeinsam einen Ihrer Einreichpläne hoch und gehen den Massenauszug Schritt für Schritt durch.",
 }: {
   titel?: string;
   text?: string;
 }) {
   return (
-    <section className="bg-[#ffffff] py-20">
+    <section className="bg-white py-20">
       <Container>
-        <div className="relative overflow-hidden rounded-2xl bg-[#efe4d3] px-8 py-16 md:px-16 text-[#2b2d33]">
-          <svg
-            aria-hidden
-            viewBox="0 0 300 200"
-            className="pointer-events-none absolute -right-10 -bottom-10 w-[420px] text-[#1f2a44] opacity-25 hidden md:block"
-            fill="none"
-            stroke="currentColor"
-          >
-            <rect x="30" y="30" width="220" height="140" strokeWidth="3" />
-            <path d="M130 30v80M30 110h100M190 110v60" strokeWidth="1.5" />
-            <path d="M30 188h220M30 182v12M250 182v12" strokeWidth="1" />
-          </svg>
-          <h2 className="relative font-display font-semibold tracking-tight leading-[1.05] text-[clamp(2rem,4vw,3.2rem)] max-w-2xl">
-            {titel}
-          </h2>
-          <p className="relative mt-5 text-[#5d6b78] max-w-xl leading-relaxed">{text}</p>
-          <div className="relative mt-9 flex flex-wrap gap-3">
-            <KnopfPrimaer href="/demo">Demo anfragen →</KnopfPrimaer>
-            <KnopfSekundaer href="/app">Eigenen Plan testen</KnopfSekundaer>
+        <div className="flex flex-col gap-8 rounded-2xl bg-[#1f2a44] px-8 py-12 text-white md:flex-row md:items-center md:justify-between md:px-12">
+          <div className="max-w-xl">
+            <h2 className="text-[clamp(1.5rem,2.6vw,2rem)] font-semibold leading-tight tracking-tight">{titel}</h2>
+            <p className="mt-3 text-[16px] leading-relaxed text-white/75">{text}</p>
+          </div>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              href="/demo"
+              className="inline-flex h-11 items-center rounded-lg bg-[#f2b233] px-5 text-[15px] font-semibold text-[#1f2a44] transition hover:brightness-105"
+            >
+              Demo anfragen
+            </Link>
+            <Link
+              href="/app"
+              className="inline-flex h-11 items-center rounded-lg border border-white/30 px-5 text-[15px] font-semibold text-white transition hover:bg-white/10"
+            >
+              Plan analysieren
+            </Link>
           </div>
         </div>
       </Container>

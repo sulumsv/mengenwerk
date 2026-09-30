@@ -8,7 +8,7 @@ export function SiteNav() {
 
 const NAVIGATION = [
   { href: "/#ablauf", label: "Produkt" },
-  { href: "/#funktionen", label: "Funktionen" },
+  { href: "/#umfang", label: "Funktionen" },
   { href: "/preise", label: "Preise" },
   { href: "/ueber-uns", label: "Über uns" },
   { href: "/demo", label: "Demo anfragen" },
@@ -24,8 +24,8 @@ const WERKZEUGE = [
 
 export function SiteFooter() {
   return (
-    <footer className="bg-[#f5f8fa] text-[#2b2d33]">
-      <div className="max-w-6xl mx-auto px-6 md:px-10 py-16 grid md:grid-cols-[1.6fr_1fr_1fr] gap-12">
+    <footer className="border-t border-[#eef0f3] bg-[#f8f9fb] text-[#111827]">
+      <div className="max-w-[1120px] mx-auto px-5 md:px-8 py-14 grid md:grid-cols-[1.6fr_1fr_1fr] gap-12">
         <div>
           <Logo />
           <p className="mt-5 text-sm text-[#5d6b78] leading-relaxed max-w-sm">
@@ -39,8 +39,8 @@ export function SiteFooter() {
         <FooterSpalte titel="Navigation" links={NAVIGATION} />
         <FooterSpalte titel="Werkzeuge" links={WERKZEUGE} />
       </div>
-      <div className="border-t border-[#dde6ea]">
-        <div className="max-w-6xl mx-auto px-6 md:px-10 py-6 flex flex-col sm:flex-row gap-3 sm:justify-between text-xs text-[#8b98a4]">
+      <div className="border-t border-[#e6e8ec]">
+        <div className="max-w-[1120px] mx-auto px-5 md:px-8 py-6 flex flex-col sm:flex-row gap-3 sm:justify-between text-xs text-[#8b98a4]">
           <p>© {new Date().getFullYear()} MengenWerk · Gebaut für Baubetriebe in Österreich</p>
           <div className="flex gap-5">
             <Link href="/impressum" className="hover:text-[#2b2d33]">Impressum</Link>
@@ -56,11 +56,11 @@ export function SiteFooter() {
 function FooterSpalte({ titel, links }: { titel: string; links: { href: string; label: string }[] }) {
   return (
     <div>
-      <p className="text-[12px] font-medium uppercase tracking-[0.18em] text-[#8b98a4] mb-4">{titel}</p>
+      <p className="text-sm font-semibold text-[#111827] mb-4">{titel}</p>
       <ul className="space-y-2.5">
         {links.map((l) => (
           <li key={l.href}>
-            <Link href={l.href} className="text-sm text-[#34424f] hover:text-[#1f2a44]">
+            <Link href={l.href} className="text-[15px] text-[#5b6472] hover:text-[#111827]">
               {l.label}
             </Link>
           </li>

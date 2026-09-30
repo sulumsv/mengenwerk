@@ -41,7 +41,13 @@ function auswertungsFehler(err: unknown): { nachricht: string; status: number } 
     return { nachricht: "Die Anthropic API war nicht erreichbar. Bitte erneut versuchen.", status: 503 };
   }
   if (err instanceof Anthropic.APIError) {
-    return { nachricht: `Die Anthropic API hat die Anfrage abgelehnt (${err.status}).`, status: 502 };
+    const grund = (err.error as { error?: { message?: string } } | undefined)?.error?.message;
+    const hinweis = /credit balance/i.test(grund ?? "")
+      ? " Das Guthaben in der Anthropic Console reicht nicht. Unter Settings, Billing aufladen."
+      : grund
+        ? ` Grund: ${grund}`
+        : "";
+    return { nachricht: `Die Anthropic API hat die Anfrage abgelehnt (${err.status}).${hinweis}`, status: 502 };
   }
   if (err instanceof Error && err.message.includes("ANTHROPIC_API_KEY")) {
     return { nachricht: err.message, status: 500 };

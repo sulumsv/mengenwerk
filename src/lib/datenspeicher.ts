@@ -149,6 +149,39 @@ export function tagesPfad(art: string, id: string): string {
   return `${art}/${jetzt.toISOString().slice(0, 10)}/${id}-${jetzt.getTime()}.json`;
 }
 
+const REGEL_INDEX_SCHLUESSEL = "regeln/index.json";
+/** Begrenzt den Index, damit der Prompt jeder Auswertung nicht unbegrenzt wächst. */
+const REGEL_INDEX_MAX = 40;
+
+export interface GelernteRegel {
+  id: string;
+  titel: string;
+  regel: string[];
+  zeit: string;
+}
+
+/**
+ * Laufend wachsende Liste gelernter Regeln an einem festen Schlüssel, statt
+ * tagesweise verteilter Einzeldateien: so lässt sie sich ohne eigene
+ * R2-Auflistung bei jeder Auswertung in einem Lesezugriff mitgeben.
+ */
+export async function regelnLesen(): Promise<GelernteRegel[]> {
+  const roh = await lese(REGEL_INDEX_SCHLUESSEL);
+  if (!roh) return [];
+  try {
+    const liste = JSON.parse(roh);
+    return Array.isArray(liste) ? liste : [];
+  } catch {
+    return [];
+  }
+}
+
+export async function regelErgaenzen(eintrag: Omit<GelernteRegel, "zeit">): Promise<boolean> {
+  const bisherige = (await regelnLesen()).filter((r) => r.id !== eintrag.id);
+  const neu = [...bisherige, { ...eintrag, zeit: new Date().toISOString() }].slice(-REGEL_INDEX_MAX);
+  return speichere(REGEL_INDEX_SCHLUESSEL, JSON.stringify(neu));
+}
+
 /**
  * Entfernt, was auf ein konkretes Grundstück zeigt. Straßennamen tauchen in
  * Nachweisen auf ("Frontlänge ...gasse"), der Dateiname trägt oft die Adresse.

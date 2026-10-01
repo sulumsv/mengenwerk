@@ -5,6 +5,14 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 10:01 Uhr · Datenspeicher: gelernte Regeln in einem laufenden Index statt verteilter Einzeldateien
+
+sulumsv · Commit `5ae6bc5`
+
+Jeder neue Regel-Eintrag ergänzt jetzt zusätzlich einen festen Index
+(regeln/index.json), den die Auswertung in einem Lesezugriff mitgeben kann,
+ohne R2 auflisten zu müssen. Begrenzt auf die letzten 40 Einträge.
+
 ### 2026-10-01 10:00 Uhr · CAD-Ebenen: Alternative Dickenschätzung getestet und verworfen
 
 sulumsv · Commit `4940ce1`

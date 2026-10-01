@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { AUTH_COOKIE, istAngemeldet } from "@/lib/auth";
-import { anonymisiere, pruefeVerbindung, speichere, tagesPfad } from "@/lib/datenspeicher";
+import { anonymisiere, pruefeVerbindung, regelErgaenzen, speichere, tagesPfad } from "@/lib/datenspeicher";
 
 /**
  * "regel": destillierte Erkenntnisse aus echten Plänen, mit Begründung und
@@ -42,5 +42,16 @@ export async function POST(req: NextRequest) {
     tagesPfad(art, id),
     JSON.stringify({ art, id, zeit: new Date().toISOString(), daten: anonymisiere(daten) }),
   );
-  return NextResponse.json({ gespeichert });
+
+  // Eine Regel wirkt nicht nur als Archiv-Eintrag, sondern geht zusätzlich in
+  // den laufenden Index, den jede künftige Auswertung automatisch mitliest.
+  let imIndex = true;
+  if (art === "regel" && daten && typeof daten === "object") {
+    const d = daten as { titel?: unknown; regel?: unknown };
+    const titel = typeof d.titel === "string" ? d.titel : id;
+    const regel = Array.isArray(d.regel) ? d.regel.filter((r): r is string => typeof r === "string") : [];
+    if (regel.length > 0) imIndex = await regelErgaenzen({ id, titel, regel });
+  }
+
+  return NextResponse.json({ gespeichert, imIndex });
 }

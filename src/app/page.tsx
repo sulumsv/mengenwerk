@@ -1,4 +1,5 @@
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
+import { PlanScan } from "@/components/PlanScan";
 import { Abschnitt, AbschnittKopf, Container, CtaBand, Karte, KnopfPrimaer, KnopfSekundaer } from "@/components/Marketing";
 
 const SCHRITTE = [
@@ -120,6 +121,37 @@ export default function Home() {
         </Container>
       </section>
 
+      {/* So liest MengenWerk einen Plan */}
+      <section className="scan-buehne overflow-hidden text-white">
+        <Container className="grid items-center gap-14 py-20 md:py-24 lg:grid-cols-[0.9fr_1.1fr]">
+          <div>
+            <p className="text-[13px] font-semibold uppercase tracking-[0.16em] text-[#f2b233]">So liest MengenWerk einen Plan</p>
+            <h2 className="mt-3 text-[clamp(1.8rem,3.4vw,2.6rem)] font-semibold leading-tight tracking-tight">
+              Was ein Kalkulant in Stunden abmisst, liegt nach Minuten vor.
+            </h2>
+            <ul className="mt-8 space-y-5">
+              {[
+                ["Raumstempel", "Name, Fläche und Belag jedes Raums, direkt aus dem Plan übernommen."],
+                ["Fenster und Türen", "Beschriftungen wie FE 120/140 werden gelesen und gezählt."],
+                ["Wände und Maßketten", "Längen und Dicken aus Maßketten und CAD-Ebenen, mal Geschoßhöhe aus dem Schnitt."],
+                ["Folgemengen", "Estrich, Putz, Malerei, Fensterbänke und Laibungen werden daraus abgeleitet."],
+              ].map(([t, x]) => (
+                <li key={t} className="flex gap-4">
+                  <span className="mt-1.5 h-2.5 w-2.5 shrink-0 rounded-full bg-[#f2b233]" />
+                  <span>
+                    <span className="block font-semibold">{t}</span>
+                    <span className="block text-[15px] leading-relaxed text-white/70">{x}</span>
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="pb-10">
+            <PlanScan />
+          </div>
+        </Container>
+      </section>
+
       {/* Ablauf */}
       <Abschnitt ton="grau" id="ablauf">
         <AbschnittKopf eyebrow="So funktioniert’s" titel="Drei Schritte, kein Einarbeiten." mittig />
@@ -165,6 +197,47 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </div>
+      </Abschnitt>
+
+      {/* Vom Plan zum Angebot */}
+      <Abschnitt>
+        <AbschnittKopf
+          eyebrow="Vom Plan zum Angebot"
+          titel="Ein Ergebnis, das Sie direkt weiterverwenden."
+          text="Der Massenauszug ist nicht das Ende. Mit Ihren Einheitspreisen wird daraus eine Kostenschätzung, als PDF zum Weitergeben."
+          mittig
+        />
+        <div className="grid gap-5 md:grid-cols-3">
+          {[
+            { k: "Massenauszug", w: "47 Positionen", z: "nach LB-HB 023 gegliedert, jede mit Rechenweg" },
+            { k: "Kostenschätzung", w: "€ 310.152 netto", z: "aus Ihren Einheitspreisen oder österreichischen Richtwerten" },
+            { k: "Export", w: "PDF, A4 quer", z: "mit Raumbuch, Annahmen und Prüfpunkten zum Weitergeben" },
+          ].map((e) => (
+            <div key={e.k} className="rounded-xl border border-[#e6e8ec] bg-white p-6 shadow-[0_12px_32px_-24px_rgba(17,24,39,0.35)]">
+              <p className="text-[13px] font-semibold uppercase tracking-[0.12em] text-[#5b6472]">{e.k}</p>
+              <p className="mt-3 text-[26px] font-semibold tracking-tight text-[#111827]">{e.w}</p>
+              <p className="mt-2 text-[15px] leading-relaxed text-[#5b6472]">{e.z}</p>
+            </div>
+          ))}
+        </div>
+      </Abschnitt>
+
+      {/* Für wen */}
+      <Abschnitt ton="grau">
+        <AbschnittKopf eyebrow="Für wen" titel="Gemacht für österreichische Baubetriebe." mittig />
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            ["Baumeister", "Rohbau, Beton und Mauerwerk für das Angebot, ohne Abmessen am Plantisch."],
+            ["Bodenleger und Fliesenleger", "Flächen je Belag mit Verschnitt, Sockelleisten und Fliesenspiegel."],
+            ["Maler und Verputzer", "Wand- und Deckenflächen je Raum, mit Höhe aus dem Schnitt."],
+            ["Planer und Bauträger", "Schnelle Kostenschätzung schon zur Einreichung, nachvollziehbar belegt."],
+          ].map(([t, x]) => (
+            <div key={t} className="rounded-xl border border-[#e6e8ec] bg-white p-5">
+              <h3 className="text-[16px] font-semibold text-[#111827]">{t}</h3>
+              <p className="mt-1.5 text-[14px] leading-relaxed text-[#5b6472]">{x}</p>
+            </div>
+          ))}
         </div>
       </Abschnitt>
 

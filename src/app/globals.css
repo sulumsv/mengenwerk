@@ -74,9 +74,16 @@ body {
   82%, 100% { opacity: 0; transform: translateY(-4px); }
 }
 
+.scan-flaeche { opacity: 0; animation: scan-flaeche 8s ease-in-out infinite; }
+@keyframes scan-flaeche {
+  0% { opacity: 0; }
+  6%, 78% { opacity: 1; }
+  90%, 100% { opacity: 0; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .scan-linie, .plan-einblenden { animation: none; }
-  .marke { animation: none; opacity: 1; }
+  .marke, .scan-flaeche { animation: none; opacity: 1; }
 }
 
 .font-num {

@@ -180,6 +180,7 @@ function meldungFuerStatus(status: number, datei: File): string {
 
 export default function ToolPage() {
   const [datei, setDatei] = useState<File | null>(null);
+  const [zusatzDateien, setZusatzDateien] = useState<File[]>([]);
   const [ziehtUeber, setZiehtUeber] = useState(false);
   const [laedt, setLaedt] = useState(false);
   const [schritt, setSchritt] = useState<string | null>(null);
@@ -205,6 +206,7 @@ export default function ToolPage() {
   /** Korrekturen des Nutzers an Annahmen (Raumhöhe, Deckenunterkante, Stärken …). */
   const [korrekturen, setKorrekturen] = useState<Korrekturen>(KEINE_KORREKTUREN);
   const inputRef = useRef<HTMLInputElement>(null);
+  const zusatzInputRef = useRef<HTMLInputElement>(null);
   /** Fingerabdruck der Plandatei, unter dem das Ergebnis im Konto liegt. */
   const [planHash, setPlanHash] = useState("");
   const [planName, setPlanName] = useState("");
@@ -254,6 +256,7 @@ export default function ToolPage() {
     }
     setErgebnis(null);
     setDatei(f);
+    setZusatzDateien([]);
     setWartet(true);
     setBekannt(null);
     const hash = await dateiHash(f);
@@ -470,6 +473,23 @@ export default function ToolPage() {
       return;
     }
 
+    // Begleitunterlagen (Vorabzug, Ausschreibung, Detailpläne) liefern Legende,
+    // Geschoßhöhen und Nachweise, auch wenn sie im Einreichplan selbst fehlen.
+    // Nur die erste Seite je Datei, sie dienen als Kontext, nicht als Blatt
+    // für die Mengenermittlung.
+    if (zusatzDateien.length > 0) {
+      setSchritt("Begleitunterlagen werden vorbereitet");
+      for (const z of zusatzDateien) {
+        try {
+          const blaetterZ = await planZuBlaettern(z);
+          if (blaetterZ[0]) fd.append("kontext-zusatz", blaetterZ[0].datei, z.name);
+        } catch {
+          // Eine unlesbare Begleitunterlage darf die Hauptauswertung nicht verhindern.
+        }
+      }
+      setSchritt(`${blattzahl} Blatt wird ausgewertet`);
+    }
+
     try {
       const res = await fetch("/api/analyze", { method: "POST", body: fd });
 
@@ -645,6 +665,51 @@ export default function ToolPage() {
                   </span>
                 </span>
               </button>
+
+              <div className="rounded-xl border border-line bg-surface p-4">
+                <p className="font-semibold text-sm">Begleitunterlagen (optional)</p>
+                <p className="mt-1 text-xs text-fg-muted leading-relaxed">
+                  Vorabzug, Ausschreibung, Detailpläne oder Ähnliches. Liefern Legende, Geschoßhöhen und Nachweise, wenn sie
+                  im Einreichplan selbst fehlen. Die Mengen selbst werden weiterhin nur aus dem Einreichplan oben ermittelt.
+                </p>
+                <input
+                  ref={zusatzInputRef}
+                  type="file"
+                  multiple
+                  accept=".pdf,.png,.jpg,.jpeg,.tif,.tiff"
+                  className="hidden"
+                  onChange={(e) => {
+                    const neue = Array.from(e.target.files ?? []);
+                    setZusatzDateien((alt) => [...alt, ...neue]);
+                    e.target.value = "";
+                  }}
+                />
+                <div className="mt-3 flex flex-wrap items-center gap-2">
+                  {zusatzDateien.map((z, i) => (
+                    <span
+                      key={`${z.name}-${i}`}
+                      className="flex items-center gap-2 rounded-full border border-line-strong bg-surface-2 pl-3 pr-1.5 py-1 text-xs"
+                    >
+                      {z.name}
+                      <button
+                        type="button"
+                        onClick={() => setZusatzDateien((alt) => alt.filter((_, j) => j !== i))}
+                        aria-label={`${z.name} entfernen`}
+                        className="flex h-4 w-4 items-center justify-center rounded-full text-fg-muted hover:bg-alert/10 hover:text-alert"
+                      >
+                        ✕
+                      </button>
+                    </span>
+                  ))}
+                  <button
+                    type="button"
+                    onClick={() => zusatzInputRef.current?.click()}
+                    className="text-xs font-semibold text-accent underline underline-offset-2"
+                  >
+                    + Unterlage hinzufügen
+                  </button>
+                </div>
+              </div>
 
               <div className="flex flex-wrap items-center gap-3">
                 <button

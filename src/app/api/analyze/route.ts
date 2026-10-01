@@ -100,6 +100,11 @@ export async function POST(req: NextRequest) {
 
   const dateiname = String(formData.get("dateiname") ?? "Plansatz");
   const bilder = await Promise.all(blaetter.map(async (b) => Buffer.from(await b.arrayBuffer())));
+
+  // Begleitunterlagen (Vorabzug, Ausschreibung, Detailpläne): liefern nur
+  // Kontext für Legende, Geschoßhöhen und Nachweise, keine eigenen Blätter.
+  const zusatzDateien = formData.getAll("kontext-zusatz").filter((d): d is File => d instanceof File);
+  const zusatzBilder = await Promise.all(zusatzDateien.map(async (d) => Buffer.from(await d.arrayBuffer())));
   const kacheln = await Promise.all(
     blaetter.map((_, i) =>
       Promise.all(
@@ -124,7 +129,7 @@ export async function POST(req: NextRequest) {
     // Bei jeder Auswertung das bisher Gelernte mitgeben, statt es nur
     // abzulegen: so wird die Erkennung mit jedem gespeicherten Fund besser.
     const regeln = (await regelnLesen()).flatMap((r) => r.regel);
-    const analyse = await analysiereBildseiten(bilder, dateiname, "bild", frist, kacheln, regeln);
+    const analyse = await analysiereBildseiten(bilder, dateiname, "bild", frist, kacheln, regeln, zusatzBilder);
     const gruppen = gruppiereElemente(analyse.elemente);
     const massenauszug = baueMassenauszug(analyse.raeume, analyse.elemente, analyse.kontext);
     return NextResponse.json({ analyse, gruppen, massenauszug, katalog: katalogInfo() });

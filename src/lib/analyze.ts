@@ -262,7 +262,12 @@ function alsBild(bild: Buffer) {
  * ohne diesen Schritt wertet jede Seite isoliert aus und die Materialzuordnung
  * bleibt leer.
  */
-async function erhebeKontext(client: Anthropic, bilder: Buffer[], verbrauch: Verbrauch): Promise<PlanKontext> {
+async function erhebeKontext(
+  client: Anthropic,
+  bilder: Buffer[],
+  verbrauch: Verbrauch,
+  zusatzBilder: Buffer[] = [],
+): Promise<PlanKontext> {
   const auswahl = bilder.slice(0, MAX_KONTEXT_SEITEN);
   const leer: PlanKontext = { legende: {}, geschosshoehen: {}, nachweise: {}, hinweise: [] };
 
@@ -280,9 +285,14 @@ async function erhebeKontext(client: Anthropic, bilder: Buffer[], verbrauch: Ver
             role: "user",
             content: [
               ...auswahl.map(alsBild),
+              ...zusatzBilder.map(alsBild),
               {
                 type: "text",
-                text: `Der Plansatz umfasst ${auswahl.length} Blätter. Erfasse die übergreifenden Angaben.`,
+                text:
+                  `Der Plansatz umfasst ${auswahl.length} Blätter. Erfasse die übergreifenden Angaben.` +
+                  (zusatzBilder.length > 0
+                    ? ` Die letzten ${zusatzBilder.length} Bilder sind Begleitunterlagen (Vorabzug, Ausschreibung, Detailpläne oder Ähnliches), keine Blätter des Einreichplans. Nutze sie nur für Legende, Geschoßhöhen und Nachweise, falls der Einreichplan selbst dazu nichts hergibt.`
+                    : ""),
               },
             ],
           },
@@ -426,6 +436,7 @@ export async function analysiereBildseiten(
   frist: number,
   kacheln: Buffer[][] = [],
   gelernteRegeln: string[] = [],
+  zusatzKontextBilder: Buffer[] = [],
 ): Promise<AnalysisResult> {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
@@ -441,7 +452,7 @@ export async function analysiereBildseiten(
   const client = new Anthropic({ apiKey, maxRetries: MAX_WIEDERHOLUNGEN });
   const verbrauch = new Verbrauch(MODELL);
 
-  const kontext = await erhebeKontext(client, bilder, verbrauch);
+  const kontext = await erhebeKontext(client, bilder, verbrauch, zusatzKontextBilder);
   let kontextText = baueKontextText(kontext);
   if (gelernteRegeln.length > 0) {
     kontextText += `\n\nAus früheren Auswertungen gelernte Regeln, auf diesen Plan anwenden wo zutreffend:\n${gelernteRegeln.map((r) => `- ${r}`).join("\n")}`;

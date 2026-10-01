@@ -5,6 +5,16 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 10:14 Uhr · Optionale Begleitunterlagen zum Einreichplan hochladbar
+
+sulumsv · Commit `9aa6e0f`
+
+Vorabzug, Ausschreibung, Detailpläne oder Statik liefern oft Legende,
+Geschoßhöhen und Nachweise, die im Einreichplan selbst fehlen. Diese
+Dateien sind ausdrücklich freiwillig und liefern nur Kontext für den
+ersten Auswertungsdurchgang; die Mengen selbst kommen weiterhin
+ausschließlich aus dem Einreichplan.
+
 ### 2026-10-01 10:01 Uhr · Leeres Guthaben: klare rote Meldung statt Fehlercode
 
 sulumsv · Commit `c8e5de6`

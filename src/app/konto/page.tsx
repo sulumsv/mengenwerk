@@ -7,6 +7,7 @@ import type { ArchivEintrag, Profil } from "@/lib/plan-archiv";
 import { PREISKATALOG, type Einheitspreise } from "@/lib/preise";
 import { ladeEinheitspreise } from "@/lib/einheitspreise-speicher";
 import { KI_KOSTEN_ANZEIGEN } from "@/lib/einstellungen";
+import { ProfilDialog, initialen, PROFILFARBEN } from "@/components/ProfilDialog";
 
 const LEER: Profil = { firma: "", name: "", email: "", telefon: "", gewerk: "" };
 
@@ -27,23 +28,28 @@ function datum(iso: string): string {
   return new Date(iso).toLocaleDateString("de-AT", { day: "2-digit", month: "short", year: "numeric" });
 }
 
-function initialen(p: Profil): string {
-  const quelle = p.firma || p.name;
-  if (!quelle) return "MW";
-  return quelle
-    .split(/\s+/)
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((w) => w[0]!.toUpperCase())
-    .join("");
-}
 
-function Kennzahl({ wert, titel, zusatz }: { wert: string; titel: string; zusatz?: string }) {
+const SYMBOLE: Record<string, string> = {
+  plaene: "M4 4h11l5 5v11H4zM15 4v5h5",
+  blaetter: "M3 6h14v14H3zM7 2h14v14",
+  flaeche: "M3 3h18v18H3zM3 12h18M12 3v18",
+  positionen: "M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01",
+  kosten: "M12 2v20M17 6H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6",
+};
+
+function Kennzahl({ wert, titel, zusatz, symbol, leer }: { wert: string; titel: string; zusatz?: string; symbol: string; leer?: boolean }) {
   return (
-    <div className="rounded-2xl border border-white/10 bg-white/[0.06] p-5 backdrop-blur">
-      <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-white/60">{titel}</p>
-      <p className="mt-2 text-[30px] font-semibold leading-none tracking-tight text-white font-num">{wert}</p>
-      {zusatz && <p className="mt-2 text-[12px] text-[#f2b233]">{zusatz}</p>}
+    <div className="group rounded-2xl border border-white/10 bg-white/[0.06] p-5 backdrop-blur transition hover:bg-white/[0.09]">
+      <div className="flex items-center justify-between">
+        <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-white/60">{titel}</p>
+        <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-white/10 text-[#f2b233]">
+          <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+            <path d={SYMBOLE[symbol]} />
+          </svg>
+        </span>
+      </div>
+      <p className={`mt-3 text-[30px] font-semibold leading-none tracking-tight font-num ${leer ? "text-white/35" : "text-white"}`}>{wert}</p>
+      <p className={`mt-2 text-[12px] ${zusatz ? "text-[#f2b233]" : "text-white/45"}`}>{zusatz ?? (leer ? "nach der ersten Auswertung" : "\u00a0")}</p>
     </div>
   );
 }
@@ -51,7 +57,6 @@ function Kennzahl({ wert, titel, zusatz }: { wert: string; titel: string; zusatz
 export default function KontoSeite() {
   const [plaene, setPlaene] = useState<ArchivEintrag[] | null>(null);
   const [profil, setProfil] = useState<Profil>(LEER);
-  const [entwurf, setEntwurf] = useState<Profil>(LEER);
   const [bearbeiten, setBearbeiten] = useState(false);
   const [gespeichert, setGespeichert] = useState(false);
   const [eigene, setEigene] = useState<Einheitspreise>({});
@@ -68,20 +73,19 @@ export default function KontoSeite() {
       .then((d: { profil: Profil | null }) => {
         if (d.profil) {
           setProfil(d.profil);
-          setEntwurf(d.profil);
         }
       })
       .catch(() => {});
     setEigene(ladeEinheitspreise());
   }, []);
 
-  async function profilSichern() {
+  async function profilSichern(neu: Profil) {
     const res = await fetch("/api/profil", {
       method: "PUT",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify(entwurf),
+      body: JSON.stringify(neu),
     }).catch(() => null);
-    setProfil(entwurf);
+    setProfil(neu);
     setBearbeiten(false);
     setGespeichert(Boolean(res?.ok));
     setTimeout(() => setGespeichert(false), 3000);
@@ -120,7 +124,10 @@ export default function KontoSeite() {
       <section className="scan-buehne text-white">
         <div className="mx-auto max-w-[1120px] px-5 md:px-8 pt-12 pb-10">
           <div className="flex flex-wrap items-center gap-5">
-            <span className="flex h-16 w-16 items-center justify-center rounded-2xl bg-[#f2b233] text-2xl font-bold text-[#1f2a44] shadow-lg">
+            <span
+              className="flex h-16 w-16 items-center justify-center rounded-2xl text-2xl font-bold shadow-lg"
+              style={{ background: profil.farbe || PROFILFARBEN[0], color: profil.farbe === "#1f2a44" ? "#fff" : "#1f2a44" }}
+            >
               {initialen(profil)}
             </span>
             <div className="flex-1 min-w-[220px]">
@@ -136,7 +143,7 @@ export default function KontoSeite() {
             <div className="flex flex-wrap gap-3">
               <button
                 type="button"
-                onClick={() => setBearbeiten(!bearbeiten)}
+                onClick={() => setBearbeiten(true)}
                 className="h-11 rounded-xl border border-white/30 px-5 text-[15px] font-semibold hover:bg-white/10"
               >
                 Profil bearbeiten
@@ -147,46 +154,15 @@ export default function KontoSeite() {
             </div>
           </div>
 
-          {gespeichert && <p className="mt-4 text-sm text-[#f2b233]">Profil gespeichert.</p>}
-
-          {bearbeiten && (
-            <div className="mt-6 grid gap-3 rounded-2xl bg-white p-5 text-[#111827] sm:grid-cols-2 lg:grid-cols-5">
-              {(
-                [
-                  ["firma", "Firma"],
-                  ["name", "Ansprechperson"],
-                  ["gewerk", "Gewerk, z. B. Baumeister"],
-                  ["email", "E-Mail"],
-                  ["telefon", "Telefon"],
-                ] as [keyof Profil, string][]
-              ).map(([feld, label]) => (
-                <label key={feld} className="text-[12px] font-semibold uppercase tracking-[0.1em] text-[#5b6472]">
-                  {label}
-                  <input
-                    value={entwurf[feld]}
-                    onChange={(e) => setEntwurf({ ...entwurf, [feld]: e.target.value })}
-                    className="mt-1 w-full rounded-lg border border-[#e6e8ec] px-3 py-2 text-[15px] font-normal normal-case tracking-normal text-[#111827] outline-none focus:border-[#1f2a44]"
-                  />
-                </label>
-              ))}
-              <div className="flex gap-3 sm:col-span-2 lg:col-span-5">
-                <button type="button" onClick={profilSichern} className="h-10 rounded-lg bg-[#1f2a44] px-5 text-sm font-semibold text-white">
-                  Speichern
-                </button>
-                <button type="button" onClick={() => { setEntwurf(profil); setBearbeiten(false); }} className="text-sm text-[#5b6472] underline">
-                  Abbrechen
-                </button>
-              </div>
-            </div>
-          )}
+          {gespeichert && <p className="mt-4 inline-flex rounded-full bg-[#2c7a4b] px-3 py-1 text-sm text-white">✓ Profil gespeichert</p>}
 
           <div className={`mt-8 grid gap-4 sm:grid-cols-2 ${KI_KOSTEN_ANZEIGEN ? "lg:grid-cols-5" : "lg:grid-cols-4"}`}>
-            <Kennzahl titel="Pläne ausgewertet" wert={zahl(liste.length)} />
-            <Kennzahl titel="Blätter gelesen" wert={zahl(summe.blaetter)} />
-            <Kennzahl titel="Fläche erfasst" wert={`${zahl(summe.flaeche)} m²`} />
-            <Kennzahl titel="Positionen ermittelt" wert={zahl(summe.positionen)} />
+            <Kennzahl symbol="plaene" leer={liste.length === 0} titel="Pläne ausgewertet" wert={zahl(liste.length)} />
+            <Kennzahl symbol="blaetter" leer={liste.length === 0} titel="Blätter gelesen" wert={zahl(summe.blaetter)} />
+            <Kennzahl symbol="flaeche" leer={liste.length === 0} titel="Fläche erfasst" wert={`${zahl(summe.flaeche)} m²`} />
+            <Kennzahl symbol="positionen" leer={liste.length === 0} titel="Positionen" wert={zahl(summe.positionen)} />
             {KI_KOSTEN_ANZEIGEN && (
-              <Kennzahl titel="KI-Kosten" wert={`${zahl(summe.kosten, 2)} $`} zusatz="nur in der Testphase sichtbar" />
+              <Kennzahl symbol="kosten" titel="KI-Kosten" wert={`${zahl(summe.kosten, 2)} $`} zusatz="nur in der Testphase sichtbar" />
             )}
           </div>
         </div>
@@ -313,6 +289,7 @@ export default function KontoSeite() {
       </section>
 
       <SiteFooter />
+      {bearbeiten && <ProfilDialog profil={profil} onSchliessen={() => setBearbeiten(false)} onSpeichern={profilSichern} />}
     </main>
   );
 }

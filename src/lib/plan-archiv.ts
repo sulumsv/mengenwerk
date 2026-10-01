@@ -28,6 +28,11 @@ export interface Profil {
   email: string;
   telefon: string;
   gewerk: string;
+  rolle?: string;
+  website?: string;
+  uid?: string;
+  /** Farbe des Firmenzeichens im Konto. */
+  farbe?: string;
 }
 
 export async function ladeProfil(): Promise<Profil | null> {

@@ -5,6 +5,18 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 09:00 Uhr · Profil wird in einem eigenen Fenster verwaltet, Kontoübersicht wirkt fertig
+
+Claude · Commit `791c28b`
+
+- „Profil bearbeiten“ öffnet ein eigenes Fenster statt eines Formulars im Kopf
+- Oben eine Live-Vorschau des Firmenzeichens mit Firmenname, Gewerk und Ansprechperson, dazu sechs Farben für das Firmenzeichen
+- Abschnitt Betrieb: Firmenname, UID-Nummer, Website und Gewerk zum Antippen (Baumeister, Bauträger, Planer, Bodenleger, Fliesenleger, Maler, Dachdecker, Fenster und Türen, Trockenbau, Sonstiges)
+- Abschnitt Ansprechperson: Name, Funktion, E-Mail, Telefon
+- Schließt mit Escape, Klick daneben oder Kreuz; auf dem Handy als Blatt von unten
+- Gespeichertes Profil wird mit grüner Bestätigung angezeigt, das Firmenzeichen im Konto übernimmt die gewählte Farbe
+- Kennzahlen mit Symbolen; solange noch nichts ausgewertet ist, stehen sie gedämpft mit „nach der ersten Auswertung“
+
 ### 2026-10-01 08:55 Uhr · Speichern in R2 korrigiert, Upload-Grenzen werden angezeigt
 
 Claude · Commit `264df85`

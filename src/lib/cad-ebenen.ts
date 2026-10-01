@@ -100,6 +100,13 @@ const MIN_DICKE: Record<Bauteilart, number> = { aussenwand: 0.11, innenwand: 0.1
  * Rechnet eine Fläche als langes Rechteck: L · d = A und 2 (L + d) = U.
  * Für L-förmige Wandzüge bleibt die Länge richtig, weil der Umfang beide
  * Schenkel enthält.
+ *
+ * Versuch (verworfen): die Dicke stattdessen robust als 2A/U zu schätzen,
+ * unabhängig von der Form des Wandzugs. An einem echten Testplan verbesserte
+ * das einzelne Außenwand-/Innenwand-Klassen, verschlechterte aber den vorher
+ * guten Unterzug-Treffer (3–8 % Abweichung → über 6 Dickenklassen verstreut)
+ * und den größten bekannten Fehler (Innenwand d=0,25) weiter. Kein Nettogewinn,
+ * siehe Regel-Eintrag "cad-rechteck-2a-u-verworfen" im Datenspeicher.
  */
 function rechteck(a: number, u: number): { laenge: number; dicke: number } | null {
   const halb = u / 2;

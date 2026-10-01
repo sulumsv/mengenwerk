@@ -5,6 +5,16 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 10:00 Uhr · CAD-Ebenen: Alternative Dickenschätzung getestet und verworfen
+
+sulumsv · Commit `4940ce1`
+
+2A/U statt der exakten Rechteckformel sollte Wandknoten robuster machen,
+verschlechterte aber am echten Testplan sowohl den bisher guten
+Unterzug-Treffer als auch den größten bekannten Fehler (Innenwand d=0,25).
+Kein Nettogewinn, daher zurückgesetzt; der Versuch ist dokumentiert, damit
+er nicht wiederholt wird.
+
 ### 2026-10-01 09:40 Uhr · Datenspeicher: eigene Kategorie für Regeln und Rechenwege
 
 sulumsv · Commit `a4908f4`

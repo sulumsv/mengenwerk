@@ -1,6 +1,7 @@
+import Link from "next/link";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import { PlanScan } from "@/components/PlanScan";
-import { Abschnitt, AbschnittKopf, Container, CtaBand, Karte, KnopfPrimaer, KnopfSekundaer } from "@/components/Marketing";
+import { Abschnitt, AbschnittKopf, Container, CtaBand, Karte } from "@/components/Marketing";
 
 const SCHRITTE = [
   { nr: "1", titel: "Plan hochladen", text: "Einreichplan als PDF, Scan oder Foto hochladen. Grundrisse, Schnitte und Ansichten reichen aus." },
@@ -48,9 +49,17 @@ const FAQ = [
   { f: "Was passiert mit meinen Plänen?", a: "Pläne werden nur für die Analyse verarbeitet. Genaueres steht in der Datenschutzerklärung." },
 ];
 
-function Haken() {
+function Haken({ aufDunkel = false }: { aufDunkel?: boolean }) {
   return (
-    <svg viewBox="0 0 20 20" className="h-5 w-5 shrink-0 text-[#1f2a44]" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <svg
+      viewBox="0 0 20 20"
+      className={`h-5 w-5 shrink-0 ${aufDunkel ? "text-[#f2b233]" : "text-[#1f2a44]"}`}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
       <path d="m5 10.5 3.2 3L15 7" />
     </svg>
   );
@@ -62,61 +71,85 @@ export default function Home() {
       <SiteNav />
 
       {/* Einstieg */}
-      <section className="border-b border-[#eef0f3] bg-white">
-        <Container className="py-16 md:py-20">
-          <p className="mb-4 inline-flex items-center gap-2 rounded-full bg-[#eef1f6] px-3 py-1 text-sm font-medium text-[#1f2a44]">
+      <section className="scan-buehne overflow-hidden text-white">
+        <Container className="py-20 md:py-28">
+          <p className="mb-5 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-sm font-medium text-white/90 ring-1 ring-white/15">
             <span className="h-1.5 w-1.5 rounded-full bg-[#f2b233]" />
             Mengenermittlung nach LB-HB 023
           </p>
-          <h1 className="text-[clamp(2.25rem,5vw,3.5rem)] font-semibold leading-[1.08] tracking-tight text-[#111827]">
-            Vom Einreichplan zum Massenauszug
-            <br className="hidden sm:block" /> in wenigen Minuten.
+          <h1 className="max-w-3xl text-[clamp(2.25rem,5vw,3.75rem)] font-semibold leading-[1.08] tracking-tight">
+            Vom Einreichplan zum
+            <br className="hidden sm:block" /> Massenauszug <span className="text-[#f2b233]">in Minuten.</span>
           </h1>
-          <div className="mt-10 grid items-start gap-12 lg:grid-cols-[1fr_1.05fr]">
+          <div className="mt-10 grid items-start gap-14 lg:grid-cols-[1fr_1.05fr]">
             <div>
-              <p className="max-w-xl text-[18px] leading-relaxed text-[#5b6472]">
+              <p className="max-w-xl text-[18px] leading-relaxed text-white/70">
                 Laden Sie Ihren Plan hoch. MengenWerk ermittelt die Mengen für Ihr Angebot und zeigt zu jeder Position,
                 wie sie gerechnet wurde.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
-                <KnopfPrimaer href="/demo">Demo anfragen</KnopfPrimaer>
-                <KnopfSekundaer href="/vorschau">Beispiel ansehen</KnopfSekundaer>
+                <Link
+                  href="/demo"
+                  className="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-[#f2b233] px-5 text-[15px] font-semibold text-[#1f2a44] transition hover:brightness-105"
+                >
+                  Demo anfragen
+                </Link>
+                <Link
+                  href="/vorschau"
+                  className="inline-flex h-11 items-center justify-center gap-2 rounded-lg border border-white/25 px-5 text-[15px] font-semibold text-white transition hover:bg-white/10"
+                >
+                  Beispiel ansehen
+                </Link>
               </div>
-              <ul className="mt-8 grid gap-2.5 text-[15px] text-[#374151] sm:grid-cols-2">
+              <ul className="mt-8 grid gap-2.5 text-[15px] text-white/80 sm:grid-cols-2">
                 {["Rechenweg zu jeder Menge", "Annahmen klar markiert", "Export als PDF und Excel", "Kein Abo nötig"].map((t) => (
                   <li key={t} className="flex items-center gap-2">
-                    <Haken />
+                    <Haken aufDunkel />
                     {t}
                   </li>
                 ))}
               </ul>
+
+              <div className="mt-12 grid grid-cols-2 gap-x-6 gap-y-7 border-t border-white/15 pt-8 sm:grid-cols-4">
+                {[
+                  ["59", "Leistungsgruppen"],
+                  ["22.650", "Katalogpositionen"],
+                  ["LB-HB 023", "vollständig abgebildet"],
+                  ["100 %", "Rechenweg sichtbar"],
+                ].map(([w, t]) => (
+                  <div key={t}>
+                    <p className="font-num text-[26px] font-semibold leading-none text-white">{w}</p>
+                    <p className="mt-1.5 text-[13px] text-white/60">{t}</p>
+                  </div>
+                ))}
+              </div>
             </div>
 
-          <div className="rounded-2xl border border-[#e6e8ec] bg-white shadow-[0_24px_48px_-32px_rgba(17,24,39,0.35)]">
-            <div className="flex items-center justify-between border-b border-[#eef0f3] px-5 py-3.5">
-              <div>
-                <p className="text-[15px] font-semibold text-[#111827]">Massenauszug</p>
-                <p className="text-[13px] text-[#8a93a0]">Einfamilienhaus, Beispielprojekt</p>
+            <div className="rounded-2xl border border-white/10 bg-white shadow-[0_32px_64px_-24px_rgba(0,0,0,0.5)]">
+              <div className="flex items-center justify-between border-b border-[#eef0f3] px-5 py-3.5">
+                <div>
+                  <p className="text-[15px] font-semibold text-[#111827]">Massenauszug</p>
+                  <p className="text-[13px] text-[#8a93a0]">Einfamilienhaus, Beispielprojekt</p>
+                </div>
+                <span className="rounded-md bg-[#eef6f1] px-2 py-1 text-[12px] font-medium text-[#22603f]">47 Positionen</span>
               </div>
-              <span className="rounded-md bg-[#eef6f1] px-2 py-1 text-[12px] font-medium text-[#22603f]">47 Positionen</span>
+              <table className="w-full text-[14px]">
+                <tbody>
+                  {VORSCHAU.map((z) => (
+                    <tr key={z.pos} className="border-b border-[#f3f4f6] last:border-0">
+                      <td className="hidden py-3 pl-5 pr-2 font-num text-[12px] text-[#8a93a0] sm:table-cell">{z.pos}</td>
+                      <td className="py-3 pl-5 pr-2 text-[#111827] sm:pl-0">{z.text}</td>
+                      <td className="whitespace-nowrap py-3 pr-2 text-right font-num font-medium text-[#111827]">
+                        {z.menge} <span className="text-[#8a93a0]">{z.eh}</span>
+                      </td>
+                      <td className="py-3 pr-5 text-right">
+                        <span className={`rounded-md px-2 py-0.5 text-[11px] font-medium ${ART_STIL[z.art]}`}>{z.art}</span>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
-            <table className="w-full text-[14px]">
-              <tbody>
-                {VORSCHAU.map((z) => (
-                  <tr key={z.pos} className="border-b border-[#f3f4f6] last:border-0">
-                    <td className="hidden py-3 pl-5 pr-2 font-num text-[12px] text-[#8a93a0] sm:table-cell">{z.pos}</td>
-                    <td className="py-3 pl-5 pr-2 text-[#111827] sm:pl-0">{z.text}</td>
-                    <td className="whitespace-nowrap py-3 pr-2 text-right font-num font-medium text-[#111827]">
-                      {z.menge} <span className="text-[#8a93a0]">{z.eh}</span>
-                    </td>
-                    <td className="py-3 pr-5 text-right">
-                      <span className={`rounded-md px-2 py-0.5 text-[11px] font-medium ${ART_STIL[z.art]}`}>{z.art}</span>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
           </div>
         </Container>
       </section>

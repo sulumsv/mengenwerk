@@ -5,6 +5,17 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 16:45 Uhr · Startseite: dunkler Hero im Navy/Safran-Stil mit Stat-Reihe
+
+sulumsv · Commit `0241fbf`
+
+Ersetzt den hellen Einstieg durch eine dunkle Version (gleiche Fläche wie
+die bestehende scan-buehne weiter unten): große Headline mit Safran-Akzent,
+Buttons in Safran/Outline, eine Stat-Reihe mit echten Katalogzahlen (59
+Leistungsgruppen, 22.650 Positionen, LB-HB 023 vollständig, 100 % Rechenweg
+sichtbar) statt erfundener Social-Proof-Zahlen, und die bestehende
+Massenauszug-Vorschaukarte bleibt als echtes Produktbeispiel rechts.
+
 ### 2026-10-01 15:09 Uhr · Korrektur: fehlende Unterlagen nachreichen statt nur Werte überschreiben
 
 sulumsv · Commit `8954106`

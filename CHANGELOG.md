@@ -5,6 +5,13 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 10:01 Uhr · Leeres Guthaben: klare rote Meldung statt Fehlercode
+
+sulumsv · Commit `c8e5de6`
+
+In der Testphase ist ein leeres Anthropic-Guthaben kein Produktfehler.
+Zeigt jetzt einen einfachen Hinweis ohne Statuscode oder SDK-Text.
+
 ### 2026-10-01 10:01 Uhr · Auswertung: gelernte Regeln aus dem Index fließen in jeden neuen Plan ein
 
 sulumsv · Commit `be5a9bc`

@@ -43,11 +43,15 @@ function auswertungsFehler(err: unknown): { nachricht: string; status: number } 
   }
   if (err instanceof Anthropic.APIError) {
     const grund = (err.error as { error?: { message?: string } } | undefined)?.error?.message;
-    const hinweis = /credit balance/i.test(grund ?? "")
-      ? " Das Guthaben in der Anthropic Console reicht nicht. Unter Settings, Billing aufladen."
-      : grund
-        ? ` Grund: ${grund}`
-        : "";
+    if (/credit balance/i.test(grund ?? "")) {
+      // In der Testphase ist das kein Produktfehler, sondern ein leeres
+      // Guthaben. Ohne Statuscode und SDK-Text, nur als klarer roter Hinweis.
+      return {
+        nachricht: "Kein Guthaben mehr vorhanden. Wir sind noch in der Testphase, das Konto wird in Kürze aufgeladen.",
+        status: 503,
+      };
+    }
+    const hinweis = grund ? ` Grund: ${grund}` : "";
     return { nachricht: `Die Anthropic API hat die Anfrage abgelehnt (${err.status}).${hinweis}`, status: 502 };
   }
   if (err instanceof Error && err.message.includes("ANTHROPIC_API_KEY")) {

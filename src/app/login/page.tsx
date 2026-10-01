@@ -8,6 +8,7 @@ import { ladeEinheitspreise } from "@/lib/einheitspreise-speicher";
 import { EIGENE_PREISE_PFLICHT } from "@/lib/preise";
 
 function LoginForm() {
+  const [benutzer, setBenutzer] = useState("");
   const [passwort, setPasswort] = useState("");
   const [fehler, setFehler] = useState(false);
   const [laedt, setLaedt] = useState(false);
@@ -21,7 +22,7 @@ function LoginForm() {
     const res = await fetch("/api/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ passwort, next: params.get("next") ?? "/app" }),
+      body: JSON.stringify({ benutzer, passwort, next: params.get("next") ?? "/app" }),
     });
     if (res.ok) {
       const json = await res.json();
@@ -52,17 +53,27 @@ function LoginForm() {
 
         <form onSubmit={absenden} className="mt-5 space-y-3">
           <input
-            type="password"
+            type="text"
             autoFocus
+            autoComplete="username"
+            autoCapitalize="none"
+            placeholder="Benutzername"
+            value={benutzer}
+            onChange={(e) => setBenutzer(e.target.value)}
+            className="w-full rounded-lg border border-[#c8d4da] px-3.5 py-2.5 text-sm placeholder:text-[#b3bec8] outline-none focus:border-[#111827] transition"
+          />
+          <input
+            type="password"
+            autoComplete="current-password"
             placeholder="Passwort"
             value={passwort}
             onChange={(e) => setPasswort(e.target.value)}
             className="w-full rounded-lg border border-[#c8d4da] px-3.5 py-2.5 text-sm placeholder:text-[#b3bec8] outline-none focus:border-[#111827] transition"
           />
-          {fehler && <p className="text-sm text-[#c2412d]">Falsches Passwort.</p>}
+          {fehler && <p className="text-sm text-[#c2412d]">Benutzername oder Passwort falsch.</p>}
           <button
             type="submit"
-            disabled={laedt || !passwort}
+            disabled={laedt || !passwort || !benutzer}
             className="w-full rounded-lg bg-[#1f2a44] text-white font-medium text-sm py-2.5 hover:bg-[#141c30] disabled:opacity-40 transition"
           >
             {laedt ? "Prüfe …" : "Anmelden"}

@@ -219,13 +219,18 @@ export default function ToolPage() {
   const [ladeBekannt, setLadeBekannt] = useState(false);
 
   // Neue Ergebnisse im Konto ablegen, damit derselbe Plan nie zweimal bezahlt wird.
+  const [kontoStatus, setKontoStatus] = useState<"speichert" | "gespeichert" | "fehler" | null>(null);
   useEffect(() => {
     if (!planHash || ausArchiv || !ergebnis || "fehler" in ergebnis) return;
-    void fetch("/api/plaene", {
+    setKontoStatus("speichert");
+    fetch("/api/plaene", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ hash: planHash, name: planName, ergebnis, dauer_s: dauerS }),
-    }).catch(() => {});
+    })
+      .then((r) => (r.ok ? r.json() : { gespeichert: false }))
+      .then((d: { gespeichert?: boolean }) => setKontoStatus(d.gespeichert ? "gespeichert" : "fehler"))
+      .catch(() => setKontoStatus("fehler"));
   }, [planHash, planName, ausArchiv, ergebnis, dauerS]);
 
   async function dateiHash(f: File): Promise<string> {
@@ -679,6 +684,34 @@ export default function ToolPage() {
               }}
             />
           </>
+        )}
+
+        {kontoStatus && !ausArchiv && ergebnis && !("fehler" in ergebnis) && (
+          <p
+            className={`mt-6 rounded-xl px-4 py-3 text-sm ${
+              kontoStatus === "fehler" ? "border-2 border-alert bg-alert/10" : "border border-line bg-surface-2 text-fg-muted"
+            }`}
+          >
+            {kontoStatus === "speichert" && "Wird in deinem Konto gespeichert …"}
+            {kontoStatus === "gespeichert" && (
+              <>
+                ✓ Im Konto gespeichert.{" "}
+                <a href="/konto" className="underline text-fg">
+                  Zu meinen Plänen
+                </a>
+              </>
+            )}
+            {kontoStatus === "fehler" && (
+              <>
+                <b>Der Plan konnte nicht im Konto gespeichert werden.</b> Das Ergebnis bleibt hier sichtbar, solange die
+                Seite offen ist. Den Grund zeigt{" "}
+                <a href="/api/daten" target="_blank" className="underline">
+                  die Speicherprüfung
+                </a>
+                .
+              </>
+            )}
+          </p>
         )}
 
         {ausArchiv && ergebnis && !("fehler" in ergebnis) && (

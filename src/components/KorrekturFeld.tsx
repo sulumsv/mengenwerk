@@ -1,8 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type { AnnahmeId } from "@/lib/annahmen";
 import { beschreibe, fuehreZusammen, istLeer, leseKorrektur, type Korrekturen } from "@/lib/korrekturen";
+import type { DetectedElement, Raum } from "@/lib/types";
+import { planZuBlaettern } from "@/lib/plan-zu-bildern";
 
 type Eintrag = { text: string; entferne: (k: Korrekturen) => Korrekturen };
 
@@ -36,14 +38,54 @@ export function KorrekturFeld({
   korrekturen,
   geschosse,
   onAendern,
+  onZusatzdaten,
 }: {
   korrekturen: Korrekturen;
   geschosse: string[];
   onAendern: (k: Korrekturen) => void;
+  /** Räume/Bauteile aus nachgereichten Dateien (z.B. einer Fenster- und Türliste), zum bestehenden Ergebnis hinzuzufügen. */
+  onZusatzdaten?: (raeume: Raum[], elemente: DetectedElement[]) => void;
 }) {
   const [text, setText] = useState("");
   const [laedt, setLaedt] = useState(false);
   const [meldung, setMeldung] = useState<{ art: "ok" | "fehler"; text: string } | null>(null);
+  const [zusatzDateien, setZusatzDateien] = useState<File[]>([]);
+  const [zusatzLaedt, setZusatzLaedt] = useState(false);
+  const zusatzInputRef = useRef<HTMLInputElement>(null);
+
+  async function dateienNachreichen() {
+    if (zusatzDateien.length === 0 || !onZusatzdaten) return;
+    setZusatzLaedt(true);
+    setMeldung(null);
+    try {
+      const fd = new FormData();
+      fd.append("dateiname", "Nachreichung");
+      for (const z of zusatzDateien) {
+        const blaetter = await planZuBlaettern(z);
+        for (const b of blaetter) fd.append("blatt", b.datei, b.datei.name);
+      }
+      const res = await fetch("/api/korrektur-dateien", { method: "POST", body: fd });
+      const json = (await res.json()) as { raeume?: Raum[]; elemente?: DetectedElement[]; fehler?: string };
+      if (!res.ok || !json.raeume) {
+        setMeldung({ art: "fehler", text: json.fehler ?? "Die nachgereichten Dateien konnten nicht gelesen werden." });
+        return;
+      }
+      if (json.raeume.length === 0 && (json.elemente?.length ?? 0) === 0) {
+        setMeldung({ art: "fehler", text: "In den nachgereichten Dateien wurden keine Räume oder Bauteile gefunden." });
+        return;
+      }
+      onZusatzdaten(json.raeume, json.elemente ?? []);
+      setZusatzDateien([]);
+      setMeldung({
+        art: "ok",
+        text: `Übernommen: ${json.raeume.length} Raum/Räume, ${json.elemente?.length ?? 0} Bauteil(e) ergänzt.`,
+      });
+    } catch {
+      setMeldung({ art: "fehler", text: "Keine Verbindung zum Server." });
+    } finally {
+      setZusatzLaedt(false);
+    }
+  }
 
   async function anwenden() {
     const eingabe = text.trim();
@@ -123,6 +165,63 @@ export function KorrekturFeld({
             <p className={`text-sm ${meldung.art === "ok" ? "text-highlight" : "text-alert"}`}>{meldung.text}</p>
           )}
         </div>
+
+        {onZusatzdaten && (
+          <div className="mt-2 border-t border-accent/30 pt-3">
+            <p className="text-sm font-semibold">Unterlage nachreichen</p>
+            <p className="text-xs text-fg-muted mt-0.5">
+              Fehlt etwas, etwa eine Fenster- und Türliste oder ein Schnitt? Hier hochladen, wird ausgewertet und
+              ergänzt den Massenauszug um die darin erkannten Räume und Bauteile.
+            </p>
+            <input
+              ref={zusatzInputRef}
+              type="file"
+              multiple
+              accept=".pdf,.png,.jpg,.jpeg,.tif,.tiff"
+              className="hidden"
+              onChange={(e) => {
+                const neue = Array.from(e.target.files ?? []);
+                setZusatzDateien((alt) => [...alt, ...neue]);
+                e.target.value = "";
+              }}
+            />
+            <div className="mt-2 flex flex-wrap items-center gap-2">
+              {zusatzDateien.map((z, i) => (
+                <span
+                  key={`${z.name}-${i}`}
+                  className="flex items-center gap-2 rounded-full border border-line-strong bg-surface pl-3 pr-1.5 py-1 text-xs"
+                >
+                  {z.name}
+                  <button
+                    type="button"
+                    onClick={() => setZusatzDateien((alt) => alt.filter((_, j) => j !== i))}
+                    aria-label={`${z.name} entfernen`}
+                    className="flex h-4 w-4 items-center justify-center rounded-full text-fg-muted hover:bg-alert/10 hover:text-alert"
+                  >
+                    ✕
+                  </button>
+                </span>
+              ))}
+              <button
+                type="button"
+                onClick={() => zusatzInputRef.current?.click()}
+                className="text-xs font-semibold text-accent underline underline-offset-2"
+              >
+                + Datei hinzufügen
+              </button>
+              {zusatzDateien.length > 0 && (
+                <button
+                  type="button"
+                  onClick={dateienNachreichen}
+                  disabled={zusatzLaedt}
+                  className="font-semibold text-xs px-4 py-1.5 rounded-lg bg-accent text-accent-fg disabled:opacity-40"
+                >
+                  {zusatzLaedt ? "Wird ausgewertet …" : "Auswerten und ergänzen"}
+                </button>
+              )}
+            </div>
+          </div>
+        )}
 
         {liste.length > 0 && (
           <div className="mt-2 border-t border-accent/30 pt-3">

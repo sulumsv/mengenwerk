@@ -5,6 +5,17 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 15:09 Uhr · Korrektur: fehlende Unterlagen nachreichen statt nur Werte überschreiben
+
+sulumsv · Commit `8954106`
+
+Im Korrekturfeld lassen sich jetzt zusätzliche Dateien hochladen (z.B. eine
+fehlende Fenster- und Türliste oder ein Schnitt). Sie laufen durch dieselbe
+Auswertung wie der Haupt-Einreichplan (neuer Endpunkt
+/api/korrektur-dateien, nutzt analysiereBildseiten) und die darin erkannten
+Räume und Bauteile werden dem bestehenden Massenauszug hinzugefügt, statt
+dass man die ganze Auswertung wiederholen muss.
+
 ### 2026-10-01 15:07 Uhr · PDF-Export: Projektkopf mit Logo, hervorgehobene Planangaben
 
 sulumsv · Commit `a9692ef`

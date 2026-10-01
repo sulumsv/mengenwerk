@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import type { AnalysisResult, GroupedItem, Konfidenz, Massenauszug, Raum } from "@/lib/types";
+import type { AnalysisResult, DetectedElement, GroupedItem, Konfidenz, Massenauszug, Raum } from "@/lib/types";
 import { formatiereKosten, type VerbrauchsBericht } from "@/lib/verbrauch";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import { SeitenHero } from "@/components/Marketing";
@@ -575,6 +575,20 @@ export default function ToolPage() {
     }
   }
 
+  /** Räume und Bauteile aus einer nachgereichten Datei dem bestehenden Ergebnis hinzufügen. */
+  function zusatzdatenUebernehmen(neueRaeume: Raum[], neueElemente: DetectedElement[]) {
+    if (!ergebnis || "fehler" in ergebnis) return;
+    setErgebnis({
+      ...ergebnis,
+      analyse: {
+        ...ergebnis.analyse,
+        raeume: [...ergebnis.analyse.raeume, ...neueRaeume],
+        elemente: [...ergebnis.analyse.elemente, ...neueElemente],
+      },
+    });
+    if (bearbeiteteRaeume) setBearbeiteteRaeume([...bearbeiteteRaeume, ...neueRaeume]);
+  }
+
   function raumAendern(id: string, feld: "flaeche_m2" | "umfang_m", wert: number) {
     if (!ergebnis || "fehler" in ergebnis) return;
     const basis = bearbeiteteRaeume ?? ergebnis.analyse.raeume;
@@ -931,6 +945,7 @@ export default function ToolPage() {
                 korrekturen={korrekturen}
                 geschosse={[...new Set(effektiveRaeume.map((r) => r.geschoss))]}
                 onAendern={setKorrekturen}
+                onZusatzdaten={zusatzdatenUebernehmen}
               />
             </div>
 

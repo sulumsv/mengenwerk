@@ -18,6 +18,8 @@ export interface ArchivEintrag {
   /** Summe der erkannten Raumflächen, für die Kontoübersicht. */
   flaeche_m2?: number;
   positionen?: number;
+  /** Wie lange die erste Auswertung gedauert hat, in Sekunden. */
+  dauer_s?: number;
 }
 
 export interface Profil {

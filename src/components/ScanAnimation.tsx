@@ -38,6 +38,7 @@ export function ScanAnimation({
   blaetter = 1,
   kacheln = 0,
   modell = START_MODELL,
+  bekannt = false,
 }: {
   bild: string | null;
   meldung: string | null;
@@ -46,6 +47,8 @@ export function ScanAnimation({
   kacheln?: number;
   /** Aus früheren Laufzeiten gelernte Schätzung. */
   modell?: DauerModell;
+  /** Ergebnis kommt aus dem Konto: Balken steht sofort auf 100 %. */
+  bekannt?: boolean;
 }) {
   const [jetzt, setJetzt] = useState(() => Date.now());
 
@@ -57,9 +60,9 @@ export function ScanAnimation({
   const dauer = schaetze(modell, blaetter, kacheln);
   const vergangen = Math.max(0, (jetzt - start) / 1000);
   const anteil = anzeigeAnteil(vergangen / dauer);
-  const prozent = Math.floor(anteil * 100);
-  const rest = dauer - vergangen;
-  const schritt = Math.min(SCHRITTE.length - 1, Math.floor(anteil * SCHRITTE.length));
+  const prozent = bekannt ? 100 : Math.floor(anteil * 100);
+  const rest = bekannt ? 0 : dauer - vergangen;
+  const schritt = bekannt ? SCHRITTE.length : Math.min(SCHRITTE.length - 1, Math.floor(anteil * SCHRITTE.length));
 
   return (
     <div className="scan-buehne rounded-[1.75rem] p-5 md:p-8 text-white">
@@ -88,7 +91,7 @@ export function ScanAnimation({
         </div>
 
         <div>
-          <p className="text-[12px] font-semibold uppercase tracking-[0.18em] text-[#f2b233]">Analyse läuft</p>
+          <p className="text-[12px] font-semibold uppercase tracking-[0.18em] text-[#f2b233]">{bekannt ? "Bereits bekannt" : "Analyse läuft"}</p>
           <p className="mt-2 text-2xl font-semibold tracking-tight">{meldung ?? SCHRITTE[schritt]}</p>
           <ol className="mt-6 space-y-3">
             {SCHRITTE.map((s, i) => (
@@ -109,7 +112,7 @@ export function ScanAnimation({
             <div className="flex items-baseline justify-between">
               <span className="font-num text-3xl font-semibold">{prozent} %</span>
               <span className="font-num text-[13px] text-white/70">
-                {rest > 0 ? `noch etwa ${alsZeit(rest)}` : "gleich fertig"}
+                {bekannt ? "aus dem Konto, sofort" : rest > 0 ? `noch etwa ${alsZeit(rest)}` : "gleich fertig"}
               </span>
             </div>
             <div

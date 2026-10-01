@@ -5,6 +5,17 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 16:51 Uhr · Startseite: Produktgalerie mit echten Screenshots in Laptop- und Handy-Rahmen
+
+sulumsv · Commit `74a8db2`
+
+Neue Abschnitte nach dem Hero, im Stil des Referenzdesigns: drei
+Browser-gerahmte Screenshots der echten Beispielauswertung (Kostenschätzung,
+Kennzahlen, Raumbuch) als Galerie, danach eine horizontal scrollbare
+Handy-Reihe mit denselben Inhalten mobil. Alle Bilder sind echte
+Screenshots aus der laufenden App, keine Fotomontagen. Wechsel
+dunkel/hell zwischen den Abschnitten für mehr Rhythmus auf der Seite.
+
 ### 2026-10-01 16:45 Uhr · Startseite: dunkler Hero im Navy/Safran-Stil mit Stat-Reihe
 
 sulumsv · Commit `0241fbf`

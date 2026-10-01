@@ -1,7 +1,20 @@
 import Link from "next/link";
 import { SiteNav, SiteFooter } from "@/components/SiteNav";
 import { PlanScan } from "@/components/PlanScan";
-import { Abschnitt, AbschnittKopf, Container, CtaBand, Karte } from "@/components/Marketing";
+import { Abschnitt, AbschnittKopf, Container, CtaBand, Karte, Laptopbild, Telefonbild } from "@/components/Marketing";
+
+const GALERIE = [
+  { bild: "/schau/kostenschaetzung.jpg", titel: "Kostenschätzung", text: "Eigene Preise oder österreichische Richtwerte" },
+  { bild: "/schau/kennzahlen.jpg", titel: "Kennzahlen auf einen Blick", text: "Fassade, Beton, Dach, Putz und Fußbodenheizung" },
+  { bild: "/schau/raumbuch.jpg", titel: "Raumbuch", text: "Jeder Raum mit Fläche, Umfang und Herkunft" },
+];
+
+const TELEFONE = [
+  { bild: "/schau/telefon-hero.jpg", alt: "Startseite auf dem Handy" },
+  { bild: "/schau/telefon-kosten.jpg", alt: "Kostenschätzung auf dem Handy" },
+  { bild: "/schau/telefon-kennzahlen.jpg", alt: "Kennzahlen auf dem Handy" },
+  { bild: "/schau/telefon-raumbuch.jpg", alt: "Raumbuch auf dem Handy" },
+];
 
 const SCHRITTE = [
   { nr: "1", titel: "Plan hochladen", text: "Einreichplan als PDF, Scan oder Foto hochladen. Grundrisse, Schnitte und Ansichten reichen aus." },
@@ -181,6 +194,48 @@ export default function Home() {
           </div>
           <div className="pb-10">
             <PlanScan />
+          </div>
+        </Container>
+      </section>
+
+      {/* Galerie: echte Produktansichten */}
+      <Abschnitt>
+        <AbschnittKopf
+          eyebrow="So sieht's aus"
+          titel="Vom Plan zum fertigen Massenauszug."
+          text="Echte Ansichten aus MengenWerk, am Beispiel der Beispielauswertung. Kein Entwurf, genau das, was Sie nach dem Hochladen sehen."
+        />
+        <div className="grid gap-5 md:grid-cols-3">
+          {GALERIE.map((g) => (
+            <div key={g.titel}>
+              <Laptopbild bild={g.bild} alt={g.titel} />
+              <p className="mt-4 text-[16px] font-semibold text-[#111827]">{g.titel}</p>
+              <p className="text-[14px] text-[#5b6472]">{g.text}</p>
+            </div>
+          ))}
+        </div>
+        <Link
+          href="/vorschau"
+          className="mt-8 inline-flex h-11 items-center gap-2 rounded-lg bg-[#1f2a44] px-5 text-[15px] font-semibold text-white transition hover:bg-[#2c3a5c]"
+        >
+          Ganze Beispielauswertung ansehen →
+        </Link>
+      </Abschnitt>
+
+      {/* Mobil */}
+      <section className="scan-buehne overflow-hidden text-white">
+        <Container className="py-20 md:py-24">
+          <p className="text-[13px] font-semibold uppercase tracking-[0.16em] text-[#f2b233]">Auch unterwegs</p>
+          <h2 className="mt-3 max-w-lg text-[clamp(1.8rem,3.4vw,2.6rem)] font-semibold leading-tight tracking-tight">
+            Auf der Baustelle genauso klar wie am Schreibtisch.
+          </h2>
+          <p className="mt-4 max-w-xl text-[16px] leading-relaxed text-white/70">
+            MengenWerk läuft im Browser, ohne App-Installation. Plan hochladen, Ergebnis prüfen, auch vom Handy aus.
+          </p>
+          <div className="mt-12 flex gap-5 overflow-x-auto pb-4">
+            {TELEFONE.map((t) => (
+              <Telefonbild key={t.bild} bild={t.bild} alt={t.alt} />
+            ))}
           </div>
         </Container>
       </section>

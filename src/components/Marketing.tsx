@@ -161,3 +161,33 @@ export function CtaBand({
     </section>
   );
 }
+
+/** Browserfenster-Rahmen um einen echten Screenshot von MengenWerk, für die Produktgalerie. */
+export function Laptopbild({ bild, alt }: { bild: string; alt: string }) {
+  return (
+    <div className="overflow-hidden rounded-xl border border-white/10 bg-[#0d1424] shadow-[0_24px_48px_-24px_rgba(0,0,0,0.6)]">
+      <div className="flex items-center gap-1.5 border-b border-white/10 bg-[#161f33] px-3 py-2.5">
+        <span className="h-2.5 w-2.5 rounded-full bg-[#ff5f57]" />
+        <span className="h-2.5 w-2.5 rounded-full bg-[#febc2e]" />
+        <span className="h-2.5 w-2.5 rounded-full bg-[#28c840]" />
+      </div>
+      <div className="h-64 overflow-hidden bg-white">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={bild} alt={alt} className="w-full object-cover object-top" />
+      </div>
+    </div>
+  );
+}
+
+/** Handy-Rahmen um einen echten Screenshot von MengenWerk, für die mobile Produktreihe. */
+export function Telefonbild({ bild, alt }: { bild: string; alt: string }) {
+  return (
+    <div className="w-[190px] shrink-0 rounded-[2rem] border-[6px] border-[#0d1424] bg-[#0d1424] shadow-[0_24px_48px_-24px_rgba(0,0,0,0.6)]">
+      <div className="relative h-[390px] overflow-hidden rounded-[1.6rem] bg-white">
+        <span className="absolute left-1/2 top-0 z-10 h-5 w-24 -translate-x-1/2 rounded-b-xl bg-[#0d1424]" />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={bild} alt={alt} className="h-full w-full object-cover object-top" />
+      </div>
+    </div>
+  );
+}

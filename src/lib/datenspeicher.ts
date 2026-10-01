@@ -62,6 +62,29 @@ export function istEingerichtet(): boolean {
   return konfiguration() !== null;
 }
 
+/**
+ * Listet alle Schlüssel unter einem Präfix über die S3-kompatible
+ * ListObjectsV2-API von R2. Folgt der Fortsetzungsmarke, bis alles
+ * eingesammelt ist - ein Bucket mit tausenden Einträgen bleibt sonst
+ * nach den ersten 1000 abgeschnitten.
+ */
+async function listeSchluessel(praefix: string): Promise<string[]> {
+  const schluessel: string[] = [];
+  let marke: string | null = null;
+  for (;;) {
+    const params = new URLSearchParams({ "list-type": "2", prefix: praefix });
+    if (marke) params.set("continuation-token", marke);
+    const antwort = await anfrage(`?${params.toString()}`, { method: "GET" });
+    if (!antwort.ok) break;
+    const text = await antwort.text();
+    for (const m of text.matchAll(/<Key>([^<]+)<\/Key>/g)) schluessel.push(m[1]);
+    const naechste = text.match(/<NextContinuationToken>([^<]+)<\/NextContinuationToken>/)?.[1];
+    if (!naechste) break;
+    marke = naechste;
+  }
+  return schluessel;
+}
+
 export async function speichere(schluessel: string, inhalt: string | Uint8Array, typ = "application/json"): Promise<boolean> {
   if (!istEingerichtet()) return false;
   try {
@@ -180,6 +203,43 @@ export async function regelErgaenzen(eintrag: Omit<GelernteRegel, "zeit">): Prom
   const bisherige = (await regelnLesen()).filter((r) => r.id !== eintrag.id);
   const neu = [...bisherige, { ...eintrag, zeit: new Date().toISOString() }].slice(-REGEL_INDEX_MAX);
   return speichere(REGEL_INDEX_SCHLUESSEL, JSON.stringify(neu));
+}
+
+export interface TrainingsExport {
+  erstellt: string;
+  anzahl: Record<string, number>;
+  regeln: GelernteRegel[];
+  eintraege: { art: string; id: string; zeit: string; daten: unknown }[];
+}
+
+/**
+ * Sammelt alles bisher Gespeicherte zu einem einzigen, strukturierten Datensatz:
+ * die gelernten Regeln und jeden einzelnen Auswertungs-, Korrektur- und
+ * CAD-Eintrag. Grundlage für ein künftiges Fine-Tuning oder ein eigenes
+ * Modell, sobald genug echte Fälle zusammengekommen sind. Läuft nur, wenn
+ * jemand es anstößt - speichert nichts automatisch, kostet nur beim Aufruf.
+ */
+export async function exportiereTrainingsdaten(): Promise<TrainingsExport> {
+  const arten = ["auswertung", "korrektur", "cad", "regel"];
+  const eintraege: TrainingsExport["eintraege"] = [];
+  const anzahl: Record<string, number> = {};
+
+  for (const art of arten) {
+    const schluessel = await listeSchluessel(`${art}/`);
+    anzahl[art] = schluessel.length;
+    for (const s of schluessel) {
+      const roh = await lese(s);
+      if (!roh) continue;
+      try {
+        eintraege.push(JSON.parse(roh));
+      } catch {
+        // Ein einzelner beschädigter Eintrag soll den ganzen Export nicht abbrechen.
+      }
+    }
+  }
+
+  const regeln = await regelnLesen();
+  return { erstellt: new Date().toISOString(), anzahl, regeln, eintraege };
 }
 
 /**

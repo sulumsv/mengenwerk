@@ -5,6 +5,18 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 14:31 Uhr · Export-Mechanismus für Trainingsdaten
+
+sulumsv · Commit `f7cb13a`
+
+Sammelt alle gespeicherten Regeln, Auswertungen, Korrekturen und
+CAD-Einträge aus R2 zu einem strukturierten Datensatz (GET
+/api/daten/export, als Download). Braucht dafür eine echte Objektauflistung
+in R2, die es bisher nicht gab (listeSchluessel, folgt der
+Fortsetzungsmarke). Grundlage für ein künftiges Fine-Tuning oder ein
+eigenes Modell, sobald genug echte Fälle gesammelt sind - läuft nur auf
+Abruf, speichert nichts automatisch.
+
 ### 2026-10-01 14:09 Uhr · Projektübersicht: Bezeichnung, Planart und allgemeine Bedingungen jetzt mit erfasst
 
 sulumsv · Commit `ef666a2`

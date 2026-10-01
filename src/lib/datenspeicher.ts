@@ -103,6 +103,18 @@ export async function speichere(schluessel: string, inhalt: string | Uint8Array,
   }
 }
 
+/** Für Binärdateien wie PDFs und Bilder, bei denen text() die Bytes beschädigen würde. */
+export async function leseBytes(schluessel: string): Promise<{ bytes: Uint8Array; typ: string } | null> {
+  if (!istEingerichtet()) return null;
+  try {
+    const antwort = await anfrage(`/${schluessel}`, { method: "GET" });
+    if (!antwort.ok) return null;
+    return { bytes: new Uint8Array(await antwort.arrayBuffer()), typ: antwort.headers.get("content-type") ?? "application/octet-stream" };
+  } catch {
+    return null;
+  }
+}
+
 export async function lese(schluessel: string): Promise<string | null> {
   if (!istEingerichtet()) return null;
   try {

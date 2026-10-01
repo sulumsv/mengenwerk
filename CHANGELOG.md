@@ -5,6 +5,21 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 15:00 Uhr · Konto: Projektbezeichnung statt Dateiname, Plan-Ansicht als PDF, Projekte ordnen, eigener Lösch-Dialog
+
+sulumsv · Commit `8542094`
+
+- Pläne zeigen jetzt die erkannte Projektbezeichnung als Titel, den
+  Dateinamen nur noch als Zusatz.
+- Originaldatei wird beim Speichern mit abgelegt (neuer Endpunkt
+  /api/plaene/[hash]/datei) und lässt sich über "Ansehen" in einem Popup
+  mit dem eingebauten PDF-Betrachter des Browsers ansehen, inklusive Zoom.
+- Pläne lassen sich einem Standort/Vorhaben zuordnen (PATCH-Endpunkt) und
+  werden danach danach gruppiert; innerhalb einer Gruppe nach Planart
+  sortiert (Einreichplan vor Vorabzug vor Skizze).
+- Löschen fragt jetzt über einen eigenen Dialog nach, nicht mehr über das
+  native window.confirm() des Browsers.
+
 ### 2026-10-01 14:55 Uhr · Dokumentart fließt jetzt in die Mengenermittlung ein, nicht nur ins Ergebnis
 
 sulumsv · Commit `5c77d28`

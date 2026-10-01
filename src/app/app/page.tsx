@@ -264,6 +264,17 @@ export default function ToolPage() {
       .then((r) => (r.ok ? r.json() : { gespeichert: false }))
       .then((d: { gespeichert?: boolean }) => setKontoStatus(d.gespeichert ? "gespeichert" : "fehler"))
       .catch(() => setKontoStatus("fehler"));
+
+    // Die Originaldatei separat ablegen, damit sie im Konto später angesehen
+    // werden kann - unabhängig vom Ergebnis, auch wenn das fehlschlägt.
+    if (datei) {
+      fetch(`/api/plaene/${planHash}/datei`, {
+        method: "PUT",
+        headers: { "content-type": datei.type || "application/pdf" },
+        body: datei,
+      }).catch(() => {});
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [planHash, planName, ausArchiv, ergebnis, dauerS]);
 
   async function dateiHash(f: File): Promise<string> {

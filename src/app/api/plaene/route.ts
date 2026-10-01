@@ -24,7 +24,12 @@ export async function POST(req: NextRequest) {
     name?: string;
     dauer_s?: number;
     ergebnis?: {
-      analyse?: { seiten?: number; verbrauch?: { kostenUsd?: number | null }; raeume?: { flaeche_m2?: number }[] };
+      analyse?: {
+        seiten?: number;
+        verbrauch?: { kostenUsd?: number | null };
+        raeume?: { flaeche_m2?: number }[];
+        kontext?: { projekt?: { bezeichnung?: string | null; planart?: string | null } };
+      };
       massenauszug?: { abschnitte?: { positionen?: unknown[] }[] };
       quelle?: string;
     };
@@ -48,6 +53,8 @@ export async function POST(req: NextRequest) {
       flaeche_m2: (body.ergebnis.analyse.raeume ?? []).reduce((s, r) => s + (Number(r.flaeche_m2) || 0), 0),
       positionen: (body.ergebnis.massenauszug?.abschnitte ?? []).reduce((s, a) => s + (a.positionen?.length ?? 0), 0),
       dauer_s: Number.isFinite(Number(body.dauer_s)) ? Math.round(Number(body.dauer_s)) : undefined,
+      bezeichnung: body.ergebnis.analyse.kontext?.projekt?.bezeichnung || undefined,
+      planart: body.ergebnis.analyse.kontext?.projekt?.planart || undefined,
     },
     body.ergebnis,
   );

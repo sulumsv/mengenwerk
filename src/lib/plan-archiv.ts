@@ -1,4 +1,4 @@
-import { lese, loesche, speichere } from "./datenspeicher";
+import { lese, leseBytes, loesche, speichere } from "./datenspeicher";
 
 /**
  * Die ausgewerteten Pläne des Kontos. Jeder Plan liegt unter seinem
@@ -20,6 +20,12 @@ export interface ArchivEintrag {
   positionen?: number;
   /** Wie lange die erste Auswertung gedauert hat, in Sekunden. */
   dauer_s?: number;
+  /** Projektbezeichnung aus dem Plankopf, statt des Dateinamens angezeigt. */
+  bezeichnung?: string;
+  /** Erkannte Dokumentart, z.B. Einreichplan, Polierplan, Vorabzug, Detailplan. Für die Sortierung im Konto. */
+  planart?: string;
+  /** Freie Zuordnung zu einem Standort/Vorhaben mit mehreren Plänen, vom Nutzer vergeben. */
+  projekt?: string;
 }
 
 export interface Profil {
@@ -78,6 +84,25 @@ export async function speicherePlan(eintrag: ArchivEintrag, ergebnis: unknown): 
 
 export async function entfernePlan(hash: string): Promise<boolean> {
   await loesche(`konto/plaene/${hash}.json`);
+  await loesche(`konto/plaene/${hash}.datei`);
   const liste = (await ladeVerzeichnis()).filter((e) => e.hash !== hash);
+  return speichere(VERZEICHNIS, JSON.stringify({ plaene: liste }));
+}
+
+/** Hinterlegt die hochgeladene Originaldatei, damit sie später noch angesehen werden kann. */
+export async function speicherePlanDatei(hash: string, bytes: Uint8Array, typ: string): Promise<boolean> {
+  return speichere(`konto/plaene/${hash}.datei`, bytes, typ);
+}
+
+export async function ladePlanDatei(hash: string): Promise<{ bytes: Uint8Array; typ: string } | null> {
+  return leseBytes(`konto/plaene/${hash}.datei`);
+}
+
+/** Ändert nur die Projektzuordnung eines bereits gespeicherten Plans. */
+export async function ordnePlanZu(hash: string, projekt: string): Promise<boolean> {
+  const liste = await ladeVerzeichnis();
+  const index = liste.findIndex((e) => e.hash === hash);
+  if (index === -1) return false;
+  liste[index] = { ...liste[index], projekt: projekt.trim() || undefined };
   return speichere(VERZEICHNIS, JSON.stringify({ plaene: liste }));
 }

@@ -8,6 +8,8 @@ import { PREISKATALOG, type Einheitspreise } from "@/lib/preise";
 import { ladeEinheitspreise } from "@/lib/einheitspreise-speicher";
 import { KI_KOSTEN_ANZEIGEN } from "@/lib/einstellungen";
 import { ProfilDialog, initialen, PROFILFARBEN } from "@/components/ProfilDialog";
+import { BestaetigenDialog } from "@/components/BestaetigenDialog";
+import { PlanAnsichtDialog } from "@/components/PlanAnsichtDialog";
 
 const LEER: Profil = { firma: "", name: "", email: "", telefon: "", gewerk: "" };
 
@@ -91,10 +93,27 @@ export default function KontoSeite() {
     setTimeout(() => setGespeichert(false), 3000);
   }
 
-  async function entfernen(e: ArchivEintrag) {
-    if (!window.confirm(`„${e.name}“ aus dem Konto löschen? Beim nächsten Hochladen wird er neu ausgewertet.`)) return;
+  const [loeschenAnfrage, setLoeschenAnfrage] = useState<ArchivEintrag | null>(null);
+  const [ansicht, setAnsicht] = useState<ArchivEintrag | null>(null);
+  const [projektBearbeiten, setProjektBearbeiten] = useState<string | null>(null);
+  const [projektEntwurf, setProjektEntwurf] = useState("");
+
+  async function entfernenBestaetigt() {
+    const e = loeschenAnfrage;
+    if (!e) return;
+    setLoeschenAnfrage(null);
     await fetch(`/api/plaene/${e.hash}`, { method: "DELETE" });
     setPlaene((p) => (p ?? []).filter((x) => x.hash !== e.hash));
+  }
+
+  async function projektSpeichern(e: ArchivEintrag) {
+    setProjektBearbeiten(null);
+    setPlaene((p) => (p ?? []).map((x) => (x.hash === e.hash ? { ...x, projekt: projektEntwurf || undefined } : x)));
+    await fetch(`/api/plaene/${e.hash}`, {
+      method: "PATCH",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ projekt: projektEntwurf }),
+    }).catch(() => {});
   }
 
   async function abmelden() {
@@ -112,7 +131,29 @@ export default function KontoSeite() {
     }),
     [liste],
   );
-  const gefiltert = liste.filter((p) => p.name.toLowerCase().includes(suche.toLowerCase()));
+  const gefiltert = liste.filter((p) => {
+    const text = suche.toLowerCase();
+    return p.name.toLowerCase().includes(text) || (p.bezeichnung ?? "").toLowerCase().includes(text) || (p.projekt ?? "").toLowerCase().includes(text);
+  });
+
+  // Reihenfolge der Dokumentarten in jeder Gruppe: der fertige Plan zuerst,
+  // Skizzen und Begleitunterlagen danach.
+  const PLANART_RANG = ["einreichplan", "polierplan", "ausführungsplan", "detailplan", "vorabzug", "entwurf", "skizze"];
+  function rang(planart?: string): number {
+    const i = PLANART_RANG.findIndex((p) => (planart ?? "").toLowerCase().includes(p));
+    return i === -1 ? PLANART_RANG.length : i;
+  }
+  const gruppiert = useMemo(() => {
+    const gruppen = new Map<string, ArchivEintrag[]>();
+    for (const p of gefiltert) {
+      const schluessel = p.projekt || "Ohne Projekt";
+      const g = gruppen.get(schluessel) ?? [];
+      g.push(p);
+      gruppen.set(schluessel, g);
+    }
+    for (const g of gruppen.values()) g.sort((a, b) => rang(a.planart) - rang(b.planart) || b.datum.localeCompare(a.datum));
+    return [...gruppen.entries()].sort(([a], [b]) => (a === "Ohne Projekt" ? 1 : b === "Ohne Projekt" ? -1 : a.localeCompare(b)));
+  }, [gefiltert]);
   const anzahlEigene = Object.keys(eigene).length;
   const anteilEigene = PREISKATALOG.length ? anzahlEigene / PREISKATALOG.length : 0;
 
@@ -189,37 +230,86 @@ export default function KontoSeite() {
               </p>
             </div>
           )}
-          <ul className="divide-y divide-[#eef0f3]">
-            {gefiltert.map((p) => (
-              <li key={p.hash} className="group flex flex-wrap items-center gap-4 px-5 py-4 hover:bg-[#f8f9fb]">
-                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#eef1f6] text-[#1f2a44]">
-                  <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.8">
-                    <path d="M3 5h18v14H3z" />
-                    <path d="M9 5v14M3 12h6M14 9h4M14 13h4" />
-                  </svg>
-                </span>
-                <div className="min-w-0 flex-1">
-                  <p className="truncate font-semibold text-[#111827]">{p.name}</p>
-                  <p className="text-[13px] text-[#5b6472]">
-                    {datum(p.datum)} · {p.seiten} {p.seiten === 1 ? "Blatt" : "Blätter"}
-                    {p.flaeche_m2 ? ` · ${zahl(p.flaeche_m2)} m²` : ""}
-                    {p.positionen ? ` · ${p.positionen} Positionen` : ""}
-                    {KI_KOSTEN_ANZEIGEN && (
-                      <span className="ml-2 rounded bg-[#fdf3dc] px-1.5 py-0.5 text-[11px] text-[#8a6412]">
-                        {p.quelle === "text" ? "ohne KI" : p.kostenUsd === null ? "Kosten ?" : `${zahl(p.kostenUsd, 2)} $`}
+          <div className="divide-y divide-[#eef0f3]">
+            {gruppiert.map(([projekt, eintraege]) => (
+              <div key={projekt}>
+                {gruppiert.length > 1 && (
+                  <p className="px-5 pt-4 pb-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-[#8a93a0]">{projekt}</p>
+                )}
+                <ul className="divide-y divide-[#eef0f3]">
+                  {eintraege.map((p) => (
+                    <li key={p.hash} className="group flex flex-wrap items-center gap-4 px-5 py-4 hover:bg-[#f8f9fb]">
+                      <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#eef1f6] text-[#1f2a44]">
+                        <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.8">
+                          <path d="M3 5h18v14H3z" />
+                          <path d="M9 5v14M3 12h6M14 9h4M14 13h4" />
+                        </svg>
                       </span>
-                    )}
-                  </p>
-                </div>
-                <Link href={`/app?plan=${p.hash}`} className="rounded-lg bg-[#1f2a44] px-4 py-2 text-sm font-semibold text-white">
-                  Öffnen
-                </Link>
-                <button type="button" onClick={() => entfernen(p)} className="text-sm text-[#8a93a0] hover:text-[#c0301d]">
-                  Löschen
-                </button>
-              </li>
+                      <div className="min-w-0 flex-1">
+                        <p className="truncate font-semibold text-[#111827]">{p.bezeichnung || p.name}</p>
+                        <p className="text-[13px] text-[#5b6472]">
+                          {p.bezeichnung && <span className="truncate">{p.name} · </span>}
+                          {p.planart && (
+                            <span className="mr-1 rounded bg-[#eef1f6] px-1.5 py-0.5 text-[11px] font-semibold text-[#1f2a44]">{p.planart}</span>
+                          )}
+                          {datum(p.datum)} · {p.seiten} {p.seiten === 1 ? "Blatt" : "Blätter"}
+                          {p.flaeche_m2 ? ` · ${zahl(p.flaeche_m2)} m²` : ""}
+                          {p.positionen ? ` · ${p.positionen} Positionen` : ""}
+                          {KI_KOSTEN_ANZEIGEN && (
+                            <span className="ml-2 rounded bg-[#fdf3dc] px-1.5 py-0.5 text-[11px] text-[#8a6412]">
+                              {p.quelle === "text" ? "ohne KI" : p.kostenUsd === null ? "Kosten ?" : `${zahl(p.kostenUsd, 2)} $`}
+                            </span>
+                          )}
+                        </p>
+                        {projektBearbeiten === p.hash ? (
+                          <div className="mt-1.5 flex items-center gap-2">
+                            <input
+                              autoFocus
+                              value={projektEntwurf}
+                              onChange={(e) => setProjektEntwurf(e.target.value)}
+                              onKeyDown={(e) => {
+                                if (e.key === "Enter") projektSpeichern(p);
+                                if (e.key === "Escape") setProjektBearbeiten(null);
+                              }}
+                              placeholder="Standort oder Vorhaben, z.B. Neustiftgasse 109"
+                              className="h-8 w-64 rounded-lg border border-[#d4d8df] px-2 text-sm outline-none focus:border-[#1f2a44]"
+                            />
+                            <button type="button" onClick={() => projektSpeichern(p)} className="text-sm font-semibold text-[#1f2a44]">
+                              Speichern
+                            </button>
+                          </div>
+                        ) : (
+                          <button
+                            type="button"
+                            onClick={() => {
+                              setProjektBearbeiten(p.hash);
+                              setProjektEntwurf(p.projekt ?? "");
+                            }}
+                            className="mt-1 text-[12px] text-[#8a93a0] underline decoration-dotted hover:text-[#1f2a44]"
+                          >
+                            {p.projekt ? "Projekt ändern" : "Projekt zuordnen"}
+                          </button>
+                        )}
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => setAnsicht(p)}
+                        className="rounded-lg border border-[#d4d8df] px-4 py-2 text-sm font-semibold text-[#111827] hover:bg-[#f8f9fb]"
+                      >
+                        Ansehen
+                      </button>
+                      <Link href={`/app?plan=${p.hash}`} className="rounded-lg bg-[#1f2a44] px-4 py-2 text-sm font-semibold text-white">
+                        Öffnen
+                      </Link>
+                      <button type="button" onClick={() => setLoeschenAnfrage(p)} className="text-sm text-[#8a93a0] hover:text-[#c0301d]">
+                        Löschen
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
 
         <div className="flex flex-col gap-6">
@@ -290,6 +380,22 @@ export default function KontoSeite() {
 
       <SiteFooter />
       {bearbeiten && <ProfilDialog profil={profil} onSchliessen={() => setBearbeiten(false)} onSpeichern={profilSichern} />}
+      {loeschenAnfrage && (
+        <BestaetigenDialog
+          titel="Plan löschen?"
+          text={`„${loeschenAnfrage.bezeichnung || loeschenAnfrage.name}“ wird aus dem Konto entfernt. Beim nächsten Hochladen wird er neu ausgewertet.`}
+          onBestaetigen={entfernenBestaetigt}
+          onAbbrechen={() => setLoeschenAnfrage(null)}
+        />
+      )}
+      {ansicht && (
+        <PlanAnsichtDialog
+          titel={ansicht.bezeichnung || ansicht.name}
+          url={`/api/plaene/${ansicht.hash}/datei`}
+          bild={/\.(png|jpe?g|gif|webp)$/i.test(ansicht.name)}
+          onSchliessen={() => setAnsicht(null)}
+        />
+      )}
     </main>
   );
 }

@@ -61,6 +61,11 @@ export const BEISPIEL_KONTEXT: PlanKontext = {
     "Dachneigung (Grad)": 35,
   },
   hinweise: [],
+  projekt: {
+    bezeichnung: "Neubau Einfamilienhaus, Musterstraße 1, 1010 Wien",
+    planart: "Einreichplan",
+    allgemeineBedingungen: ["Naturmaße nehmen, Koten vor Ausführung prüfen."],
+  },
 };
 
 const el = (

@@ -93,6 +93,21 @@ const ELEMENT_TYPEN = [
 const KONFIDENZ = ["plan", "berechnet", "annahme"] as const;
 
 const KontextSchema = z.object({
+  projekt: z.object({
+    bezeichnung: z
+      .string()
+      .nullable()
+      .describe("Projekt- oder Vorhabensbezeichnung aus Plankopf, Schriftfeld oder Ausschreibungstitel, z.B. 'Um- und Zubau Hofgebäude, 1170 Wien, Neustiftgasse 109'. Null, wenn nicht auffindbar."),
+    planart: z
+      .string()
+      .nullable()
+      .describe("Art des Dokuments laut Schriftfeld oder Stempel, z.B. Einreichplan, Polierplan, Vorabzug, Ausschreibungsgrundlage. Null, wenn nicht angegeben."),
+    allgemeineBedingungen: z
+      .array(z.string())
+      .describe(
+        "Allgemeine Hinweise und Bedingungen, die für den ganzen Plansatz oder die Ausschreibung gelten, z.B. 'Naturmaße nehmen, Koten prüfen', Abstimmungspflichten mit Statik/Haustechnik, Gültigkeitsvermerke. Jeder Punkt ein eigener, kurzer Satz. Leer lassen, wenn keine vorhanden.",
+      ),
+  }),
   legende: z
     .array(
       z.object({
@@ -158,6 +173,7 @@ const KONTEXT_PROMPT = `Du liest österreichische Einreichpläne (§70 Wiener Ba
 Dieser Durchgang erfasst NUR die Angaben, die für den gesamten Plansatz gelten. Einzelne Bauteile werden später ausgewertet.
 
 Erfasse:
+0. PROJEKT: Projektbezeichnung und Planart aus Plankopf oder Schriftfeld, sowie allgemeine Bedingungen und Hinweise, die für den ganzen Plansatz gelten (Naturmaß-Vermerke, Abstimmungspflichten, Gültigkeitsvermerke wie "Vorabzug" oder "Ausschreibungsgrundlage"). Das steht meist im Schriftfeld unten rechts oder auf einem Deckblatt.
 1. LEGENDE: die Farbcodierung. In österreichischen Einreichplänen üblich: rot = Ziegel, grün = Stahlbeton, orange = Dämmung weich oder GK-Ständerwand, magenta = Dämmung hart, braun = Holzkonstruktion, grau = Bestand, gelb = Abbruch. Übernimm aber immer die Legende des vorliegenden Plans, nicht diese Konvention.
 2. GESCHOSSHÖHEN: ausschließlich aus den Schnitten. Ein Grundriss enthält keine Höhen. Wenn kein Schnitt vorliegt, gib eine leere Liste zurück und vermerke das unter hinweise.
 3. NACHWEISE: Werte aus Flächenaufstellung, behördlichen Nachweisen und Planbeschriftung. Diese Blöcke sind vom Planverfasser gerechnet und die verlässlichste Quelle im ganzen Plansatz.
@@ -269,7 +285,13 @@ async function erhebeKontext(
   zusatzBilder: Buffer[] = [],
 ): Promise<PlanKontext> {
   const auswahl = bilder.slice(0, MAX_KONTEXT_SEITEN);
-  const leer: PlanKontext = { legende: {}, geschosshoehen: {}, nachweise: {}, hinweise: [] };
+  const leer: PlanKontext = {
+    legende: {},
+    geschosshoehen: {},
+    nachweise: {},
+    hinweise: [],
+    projekt: { bezeichnung: null, planart: null, allgemeineBedingungen: [] },
+  };
 
   let geparst;
   try {
@@ -333,6 +355,7 @@ async function erhebeKontext(
     geschosshoehen: Object.fromEntries(geparst.geschosshoehen.map((e) => [e.geschoss, e.lichte_hoehe_m])),
     nachweise: Object.fromEntries(geparst.nachweise.map((e) => [`${e.bezeichnung} (${e.einheit})`, e.wert])),
     hinweise,
+    projekt: geparst.projekt,
   };
 }
 

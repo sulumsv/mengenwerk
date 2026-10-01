@@ -44,6 +44,12 @@ export interface PlanKontext {
   /** Werte aus Flächenaufstellung und Nachweisen, z.B. { bebauteFlaeche: 152.58 }. */
   nachweise: Record<string, number>;
   hinweise: string[];
+  /** Projekt- und Dokumentenkopf: Bezeichnung, Planart und allgemeine Bedingungen. */
+  projekt: {
+    bezeichnung: string | null;
+    planart: string | null;
+    allgemeineBedingungen: string[];
+  };
 }
 
 /**

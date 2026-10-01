@@ -5,6 +5,16 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 14:09 Uhr · Projektübersicht: Bezeichnung, Planart und allgemeine Bedingungen jetzt mit erfasst
+
+sulumsv · Commit `ef666a2`
+
+Der Kontext-Durchgang liest jetzt zusätzlich Projektbezeichnung, Planart
+(Einreichplan, Polierplan, Vorabzug ...) und allgemeine Bedingungen aus
+Plankopf, Schriftfeld oder Ausschreibungstitel. Steht oben im Ergebnis,
+vor Legende, Raumhöhen und Nachweisen - macht auf einen Blick klar, um
+welches Dokument es sich handelt und was projektweit gilt.
+
 ### 2026-10-01 13:02 Uhr · Fix: Pläne mit JPEG2000-Rasterbildern kamen als leere Seiten an
 
 sulumsv · Commit `2ec0483`

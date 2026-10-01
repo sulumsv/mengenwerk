@@ -58,6 +58,12 @@ const KONFIDENZ_FARBE: Record<Konfidenz, string> = {
  * Materialzuordnung und die Wandhöhen der einzelnen Positionen beruhen.
  */
 function PlanKontextBlock({ kontext }: { kontext: AnalysisResult["kontext"] }) {
+  const { bezeichnung, planart, allgemeineBedingungen } = kontext.projekt ?? {
+    bezeichnung: null,
+    planart: null,
+    allgemeineBedingungen: [],
+  };
+
   const felder: { titel: string; eintraege: [string, string][] }[] = [
     {
       titel: "Planlegende",
@@ -73,31 +79,56 @@ function PlanKontextBlock({ kontext }: { kontext: AnalysisResult["kontext"] }) {
     },
   ].filter((f) => f.eintraege.length > 0);
 
-  if (felder.length === 0) {
+  const kopf = bezeichnung || planart ? (
+    <div className="mb-4">
+      {bezeichnung && <p className="font-display font-semibold text-lg leading-tight">{bezeichnung}</p>}
+      {planart && <p className="text-sm text-fg-muted mt-0.5">{planart}</p>}
+    </div>
+  ) : null;
+
+  if (felder.length === 0 && allgemeineBedingungen.length === 0) {
     return (
-      <div className="mb-6 rounded-xl border border-alert/40 bg-alert/10 p-5 text-sm">
-        Für diesen Plansatz konnten weder Legende noch Schnitthöhen oder Nachweise gelesen werden. Ohne Schnitt sind
-        Wandhöhen nicht ermittelbar, ohne Legende bleibt die Materialzuordnung offen.
-      </div>
+      <>
+        {kopf}
+        <div className="mb-6 rounded-xl border border-alert/40 bg-alert/10 p-5 text-sm">
+          Für diesen Plansatz konnten weder Legende noch Schnitthöhen oder Nachweise gelesen werden. Ohne Schnitt sind
+          Wandhöhen nicht ermittelbar, ohne Legende bleibt die Materialzuordnung offen.
+        </div>
+      </>
     );
   }
 
   return (
-    <div className="mb-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-line rounded-2xl overflow-hidden border border-line">
-      {felder.map((feld) => (
-        <div key={feld.titel} className="bg-surface-2 p-5">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted mb-3">{feld.titel}</p>
-          <dl className="space-y-1.5">
-            {feld.eintraege.map(([schluessel, wert]) => (
-              <div key={schluessel} className="flex justify-between gap-4 text-sm">
-                <dt className="text-fg-muted">{schluessel}</dt>
-                <dd className="font-mono font-num text-right">{wert}</dd>
-              </div>
-            ))}
-          </dl>
-        </div>
-      ))}
-    </div>
+    <>
+      {kopf}
+      <div className="mb-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-line rounded-2xl overflow-hidden border border-line">
+        {felder.map((feld) => (
+          <div key={feld.titel} className="bg-surface-2 p-5">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted mb-3">{feld.titel}</p>
+            <dl className="space-y-1.5">
+              {feld.eintraege.map(([schluessel, wert]) => (
+                <div key={schluessel} className="flex justify-between gap-4 text-sm">
+                  <dt className="text-fg-muted">{schluessel}</dt>
+                  <dd className="font-mono font-num text-right">{wert}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        ))}
+        {allgemeineBedingungen.length > 0 && (
+          <div className="bg-surface-2 p-5">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted mb-3">
+              Allgemeine Bedingungen
+            </p>
+            <ul className="space-y-1.5 text-sm list-disc pl-4 marker:text-fg-muted">
+              {allgemeineBedingungen.map((b, i) => (
+                <li key={i}>{b}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    </>
   );
 }
 

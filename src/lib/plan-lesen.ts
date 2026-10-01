@@ -664,7 +664,13 @@ export function werteSeitenAus(seiten: Schnipsel[][]): Leseergebnis {
   const urteil = beurteile(bereinigte, nachweise, gesamtSchnipsel);
   return {
     raeume: bereinigte,
-    kontext: { legende: {}, geschosshoehen: {}, nachweise, hinweise },
+    kontext: {
+      legende: {},
+      geschosshoehen: {},
+      nachweise,
+      hinweise,
+      projekt: { bezeichnung: null, planart: null, allgemeineBedingungen: [] },
+    },
     schnipsel: gesamtSchnipsel,
     seiten: seiten.length,
     ...urteil,

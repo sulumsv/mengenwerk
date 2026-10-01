@@ -5,6 +5,17 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 08:38 Uhr · Bekannte Dokumente werden schon beim Auswählen erkannt und laden sofort
+
+Claude · Commit `45a31f1`
+
+- Beim Ablegen oder Auswählen prüft MengenWerk sofort, ob das Konto die Datei schon kennt
+- Bekannte Dokumente zeigen im Bestätigungsschritt einen grünen Hinweis mit Datum und Dauer der ersten Auswertung
+- Der Knopf heißt dann „Ergebnis sofort öffnen“, daneben „Trotzdem neu auswerten“
+- Beim Öffnen springt der Ladebalken auf 100 %, alle Schritte sind abgehakt, Anzeige „Bereits bekannt, aus dem Konto, sofort“
+- Die Dauer jeder Auswertung wird mit dem Ergebnis im Konto gespeichert (dauer_s)
+- Der Hinweis über dem Ergebnis nennt, wie lange die erste Auswertung gedauert hat
+
 ### 2026-10-01 08:34 Uhr · Kundenkonto als Übersicht mit Profil, Kennzahlen, Plänen und Einheitspreisen
 
 Claude · Commit `7663ff5`

@@ -34,6 +34,11 @@ type ApiResponse =
     }
   | { fehler: string };
 
+function alsDauer(sekunden: number): string {
+  const s = Math.max(1, Math.round(sekunden));
+  return s < 60 ? `${s} Sekunden` : `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")} Minuten`;
+}
+
 const KONFIDENZ_TEXT: Record<Konfidenz, string> = {
   plan: "Aus Plan",
   berechnet: "Berechnet",
@@ -205,6 +210,13 @@ export default function ToolPage() {
   const [planName, setPlanName] = useState("");
   /** Gesetzt, wenn das Ergebnis aus dem Konto kommt: Datum der ersten Auswertung. */
   const [ausArchiv, setAusArchiv] = useState<string | null>(null);
+  /** Dauer der ersten Auswertung in Sekunden, für den Hinweis beim erneuten Hochladen. */
+  const [ersteDauer, setErsteDauer] = useState<number | null>(null);
+  /** Dauer der laufenden Auswertung, wird mit dem Ergebnis ins Konto geschrieben. */
+  const [dauerS, setDauerS] = useState<number | null>(null);
+  /** Schon beim Auswählen erkannt: dieses Dokument kennt das Konto bereits. */
+  const [bekannt, setBekannt] = useState<{ datum: string; dauer_s?: number } | null>(null);
+  const [ladeBekannt, setLadeBekannt] = useState(false);
 
   // Neue Ergebnisse im Konto ablegen, damit derselbe Plan nie zweimal bezahlt wird.
   useEffect(() => {
@@ -212,15 +224,42 @@ export default function ToolPage() {
     void fetch("/api/plaene", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ hash: planHash, name: planName, ergebnis }),
+      body: JSON.stringify({ hash: planHash, name: planName, ergebnis, dauer_s: dauerS }),
     }).catch(() => {});
-  }, [planHash, planName, ausArchiv, ergebnis]);
+  }, [planHash, planName, ausArchiv, ergebnis, dauerS]);
+
+  async function dateiHash(f: File): Promise<string> {
+    try {
+      const puffer = await crypto.subtle.digest("SHA-256", await f.arrayBuffer());
+      return [...new Uint8Array(puffer)].map((b) => b.toString(16).padStart(2, "0")).join("");
+    } catch {
+      return "";
+    }
+  }
+
+  /** Beim Auswählen prüfen, ob das Konto die Datei schon kennt. */
+  async function dateiGewaehlt(f: File) {
+    setDatei(f);
+    setWartet(true);
+    setBekannt(null);
+    const hash = await dateiHash(f);
+    if (!hash) return;
+    try {
+      const res = await fetch(`/api/plaene/${hash}`);
+      if (!res.ok) return;
+      const d = (await res.json()) as { eintrag: { datum: string; dauer_s?: number } };
+      setBekannt({ datum: d.eintrag.datum, dauer_s: d.eintrag.dauer_s });
+    } catch {
+      // Unbekannt oder Speicher nicht erreichbar: normal auswerten.
+    }
+  }
 
   async function ausKontoLaden(hash: string): Promise<boolean> {
     try {
       const res = await fetch(`/api/plaene/${hash}`);
       if (!res.ok) return false;
-      const gespeichert = (await res.json()) as { eintrag: { datum: string; name: string }; ergebnis: ApiResponse };
+      const gespeichert = (await res.json()) as { eintrag: { datum: string; name: string; dauer_s?: number }; ergebnis: ApiResponse };
+      setErsteDauer(gespeichert.eintrag.dauer_s ?? null);
       setPlanHash(hash);
       setPlanName(gespeichert.eintrag.name);
       setAusArchiv(gespeichert.eintrag.datum);
@@ -350,17 +389,18 @@ export default function ToolPage() {
     leseCadEbenen(f).then(setCad).catch(() => {});
 
     // Derselbe Plan war schon einmal da: Ergebnis aus dem Konto, keine neuen Kosten.
-    let hash = "";
-    try {
-      const puffer = await crypto.subtle.digest("SHA-256", await f.arrayBuffer());
-      hash = [...new Uint8Array(puffer)].map((b) => b.toString(16).padStart(2, "0")).join("");
-    } catch {
-      hash = "";
-    }
+    const hash = await dateiHash(f);
     setPlanHash(hash);
+    setDauerS(null);
+    setErsteDauer(null);
     if (hash && !neuAuswerten) {
       setSchritt("Konto wird durchsucht");
       if (await ausKontoLaden(hash)) {
+        // Kurz zeigen, dass es sofort ging, statt den Balken zu überspringen.
+        setLadeBekannt(true);
+        setSchritt("Ergebnis aus dem Konto geladen");
+        await new Promise((r) => setTimeout(r, 900));
+        setLadeBekannt(false);
         setLaedt(false);
         setSchritt(null);
         return;
@@ -369,6 +409,7 @@ export default function ToolPage() {
 
     try {
       if (await ausTextLesen(f)) {
+        setDauerS((Date.now() - start) / 1000);
         setLaedt(false);
         setSchritt(null);
         return;
@@ -424,6 +465,7 @@ export default function ToolPage() {
 
       if (json) {
         setErgebnis(json);
+        setDauerS((Date.now() - start) / 1000);
         // Gelungene KI-Auswertungen lehren den Ladebalken, wie lange so ein Plan dauert.
         if (res.ok && !("fehler" in json)) {
           void fetch("/api/dauer", {
@@ -470,8 +512,7 @@ export default function ToolPage() {
     setZiehtUeber(false);
     const f = e.dataTransfer.files?.[0];
     if (f) {
-      setDatei(f);
-      setWartet(true);
+      void dateiGewaehlt(f);
     }
   }
 
@@ -495,7 +536,7 @@ export default function ToolPage() {
 
           {laedt ? (
             <div className="p-4 md:p-6">
-              <ScanAnimation bild={vorschau} meldung={schritt} start={analyseStart} blaetter={blattzahl} kacheln={kachelzahl} modell={dauerModell} />
+              <ScanAnimation bild={vorschau} meldung={schritt} start={analyseStart} blaetter={blattzahl} kacheln={kachelzahl} modell={dauerModell} bekannt={ladeBekannt} />
             </div>
           ) : (
           <div
@@ -517,8 +558,7 @@ export default function ToolPage() {
               className="hidden"
               onChange={(e) => {
                 const f = e.target.files?.[0] ?? null;
-                setDatei(f);
-                if (f) setWartet(true);
+                if (f) void dateiGewaehlt(f);
                 e.target.value = "";
               }}
             />
@@ -544,6 +584,20 @@ export default function ToolPage() {
                   <p className="text-xs text-fg-muted">{(datei.size / 1024 / 1024).toFixed(1)} MB, bereit zur Auswertung</p>
                 </div>
               </div>
+
+              {bekannt && (
+                <div className="flex items-start gap-3 rounded-xl border border-[#2c7a4b]/40 bg-[#eef6f1] p-4 text-sm">
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#2c7a4b] text-white text-xs">✓</span>
+                  <span>
+                    <span className="block font-semibold text-[#1f5a37]">Dieses Dokument kennt MengenWerk schon</span>
+                    <span className="block mt-0.5 text-[#335c45]">
+                      Ausgewertet am {new Date(bekannt.datum).toLocaleString("de-AT", { dateStyle: "medium", timeStyle: "short" })}
+                      {bekannt.dauer_s ? `, damals in ${alsDauer(bekannt.dauer_s)}` : ""}. Das Ergebnis lädt sofort und ohne
+                      neue Kosten.
+                    </span>
+                  </span>
+                </div>
+              )}
 
               <button
                 type="button"
@@ -579,8 +633,20 @@ export default function ToolPage() {
                   }}
                   className="font-semibold text-[15px] px-7 py-3 rounded-xl bg-accent text-accent-fg hover:brightness-110 transition"
                 >
-                  Auswertung starten
+                  {bekannt ? "Ergebnis sofort öffnen" : "Auswertung starten"}
                 </button>
+                {bekannt && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setWartet(false);
+                      analysieren(datei, true);
+                    }}
+                    className="font-semibold text-sm px-4 py-3 rounded-xl border border-line-strong hover:bg-surface"
+                  >
+                    Trotzdem neu auswerten
+                  </button>
+                )}
                 <button
                   type="button"
                   onClick={() => inputRef.current?.click()}
@@ -619,8 +685,9 @@ export default function ToolPage() {
           <div className="mt-6 rounded-xl border-2 border-highlight bg-highlight/10 p-5 text-sm flex flex-wrap items-center gap-4">
             <p className="flex-1 min-w-[260px]">
               <span className="font-semibold">Dieser Plan wurde bereits ausgewertet</span> am{" "}
-              {new Date(ausArchiv).toLocaleString("de-AT", { dateStyle: "medium", timeStyle: "short" })}. Das Ergebnis
-              kommt aus deinem Konto, es fallen keine neuen Kosten an.
+              {new Date(ausArchiv).toLocaleString("de-AT", { dateStyle: "medium", timeStyle: "short" })}
+              {ersteDauer ? `, damals in ${alsDauer(ersteDauer)}` : ""}. Diesmal kam das Ergebnis sofort aus deinem Konto,
+              es fallen keine neuen Kosten an.
             </p>
             {datei && (
               <button

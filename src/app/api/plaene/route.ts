@@ -22,6 +22,7 @@ export async function POST(req: NextRequest) {
   let body: {
     hash?: string;
     name?: string;
+    dauer_s?: number;
     ergebnis?: {
       analyse?: { seiten?: number; verbrauch?: { kostenUsd?: number | null }; raeume?: { flaeche_m2?: number }[] };
       massenauszug?: { abschnitte?: { positionen?: unknown[] }[] };
@@ -46,6 +47,7 @@ export async function POST(req: NextRequest) {
       quelle: body.ergebnis.quelle ?? "ki",
       flaeche_m2: (body.ergebnis.analyse.raeume ?? []).reduce((s, r) => s + (Number(r.flaeche_m2) || 0), 0),
       positionen: (body.ergebnis.massenauszug?.abschnitte ?? []).reduce((s, a) => s + (a.positionen?.length ?? 0), 0),
+      dauer_s: Number.isFinite(Number(body.dauer_s)) ? Math.round(Number(body.dauer_s)) : undefined,
     },
     body.ergebnis,
   );

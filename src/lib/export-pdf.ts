@@ -1,6 +1,10 @@
 import type { jsPDF as JsPdf } from "jspdf";
-import type { Massenauszug, Position } from "./types";
+import type { Massenauszug, PlanKontext, Position } from "./types";
 import { sortiereGeschosse } from "./ableitung";
+
+/** Das MengenWerk-Icon als PNG, fest eingebettet, damit das PDF ohne Netzzugriff ensteht. */
+const LOGO_PNG =
+  "data:image/png;base64,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";
 
 /**
  * Erzeugt den Massenauszug als PDF im Browser. A4 quer, weil die
@@ -40,7 +44,12 @@ function t(wert: unknown): string {
     .replace(/[^\x20-\x7e\xa0-\xff€²³×·–—…„“”‚‘’•]/g, "");
 }
 
-export async function massenauszugAlsPdf(auszug: Massenauszug, titel: string, erstellt: Date): Promise<Blob> {
+export async function massenauszugAlsPdf(
+  auszug: Massenauszug,
+  titel: string,
+  erstellt: Date,
+  kontext?: PlanKontext,
+): Promise<Blob> {
   const { jsPDF } = await import("jspdf");
   const { autoTable } = await import("jspdf-autotable");
 
@@ -49,28 +58,91 @@ export async function massenauszugAlsPdf(auszug: Massenauszug, titel: string, er
   const hoehe = doc.internal.pageSize.getHeight();
   const rand = 14;
   const mitPreisen = auszug.kosten !== undefined;
+  const logoGroesse = 11;
 
   // Kopf
   doc.setFillColor(...NAVY);
   doc.rect(0, 0, breite, 30, "F");
   doc.setFillColor(...SAFRAN);
   doc.rect(0, 30, breite, 1.2, "F");
+  doc.addImage(LOGO_PNG, "PNG", breite - rand - logoGroesse, 6, logoGroesse, logoGroesse);
   doc.setTextColor(255, 255, 255);
   doc.setFont("helvetica", "bold");
   doc.setFontSize(9);
   doc.text("MENGENWERK  ·  MASSENAUSZUG NACH LB-HB 023", rand, 11);
   doc.setFontSize(18);
-  doc.text(t(titel), rand, 21);
+  doc.text(t(titel), rand, 21, { maxWidth: breite - 2 * rand - logoGroesse - 6 });
   doc.setFont("helvetica", "normal");
   doc.setFontSize(9);
   doc.text(
     `Erstellt am ${erstellt.toLocaleDateString("de-AT")} um ${erstellt.toLocaleTimeString("de-AT", { hour: "2-digit", minute: "2-digit" })}`,
-    breite - rand,
-    21,
+    breite - rand - logoGroesse - 4,
+    12,
     { align: "right" },
   );
+  if (kontext?.projekt.planart) {
+    doc.text(t(kontext.projekt.planart), breite - rand - logoGroesse - 4, 17, { align: "right" });
+  }
 
   let y = 40;
+
+  // Projektangaben: Legende, Raumhöhen, Nachweise und Bedingungen hervorgehoben
+  // direkt unter dem Kopf, damit sie vor den Zahlen ins Auge fallen.
+  if (kontext) {
+    const spalten: { titel: string; zeilen: string[] }[] = [
+      {
+        titel: "Planlegende",
+        zeilen: Object.entries(kontext.legende).map(([f, b]) => `${t(f)}: ${t(b)}`),
+      },
+      {
+        titel: "Lichte Raumhöhen",
+        zeilen: Object.entries(kontext.geschosshoehen).map(([g, h]) => `${t(g)}: ${zahl(h)} m`),
+      },
+      {
+        titel: "Nachweise",
+        zeilen: Object.entries(kontext.nachweise).map(([b, w]) => `${t(b)}: ${zahl(w)}`),
+      },
+      {
+        titel: "Allgemeine Bedingungen",
+        zeilen: kontext.projekt.allgemeineBedingungen.map((b) => t(b)),
+      },
+    ].filter((s) => s.zeilen.length > 0);
+
+    if (spalten.length > 0) {
+      const zeilenHoehe = 3.6;
+      const maxZeilen = Math.max(...spalten.map((s) => s.zeilen.length));
+      const kartenHoehe = 10 + Math.min(maxZeilen, 8) * zeilenHoehe;
+      doc.setFillColor(255, 251, 240);
+      doc.setDrawColor(...SAFRAN);
+      doc.setLineWidth(0.6);
+      doc.roundedRect(rand, y, breite - 2 * rand, kartenHoehe, 1.5, 1.5, "FD");
+      doc.setFillColor(...SAFRAN);
+      doc.rect(rand, y, 1.6, kartenHoehe, "F");
+
+      const sw = (breite - 2 * rand - 8) / spalten.length;
+      spalten.forEach((s, i) => {
+        const x = rand + 6 + i * sw;
+        doc.setFont("helvetica", "bold");
+        doc.setFontSize(7);
+        doc.setTextColor(...NAVY);
+        doc.text(s.titel.toUpperCase(), x, y + 6);
+        doc.setFont("helvetica", "normal");
+        doc.setFontSize(7.5);
+        doc.setTextColor(...TEXT);
+        // Bei Überlauf eine Zeile Platz für den "+N weitere"-Hinweis freihalten,
+        // sonst sprengt er die für maximal 8 Zeilen berechnete Kartenhöhe.
+        const sichtbar = s.zeilen.slice(0, s.zeilen.length > 8 ? 7 : 8);
+        sichtbar.forEach((zeile, zi) => {
+          doc.text(zeile, x, y + 10.5 + zi * zeilenHoehe, { maxWidth: sw - 4 });
+        });
+        if (s.zeilen.length > sichtbar.length) {
+          doc.setTextColor(...MATT);
+          doc.text(`+${s.zeilen.length - sichtbar.length} weitere`, x, y + 10.5 + sichtbar.length * zeilenHoehe);
+        }
+      });
+      y += kartenHoehe + 6;
+    }
+  }
 
   // Kennzahlen als Kacheln
   const kennzahlen = auszug.kennzahlen.filter((k) => k.menge !== null).slice(0, 7);
@@ -345,6 +417,14 @@ export async function massenauszugAlsPdf(auszug: Massenauszug, titel: string, er
     }
     doc.text("* Umfang geschätzt bzw. Preis aus Richtwert", x + 2, fy - 0.3);
     doc.text(`${t(titel)}  ·  Seite ${s} von ${seiten}`, breite - rand, fy - 0.3, { align: "right" });
+
+    const logoFuss = 3.6;
+    const mitteX = breite / 2;
+    doc.addImage(LOGO_PNG, "PNG", mitteX - 9, fy - logoFuss + 0.3, logoFuss, logoFuss);
+    doc.setFont("helvetica", "bold");
+    doc.setTextColor(...NAVY);
+    doc.text("mengenwerk", mitteX - 4, fy - 0.3);
+    doc.setFont("helvetica", "normal");
   }
 
   return doc.output("blob");

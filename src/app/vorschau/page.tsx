@@ -34,7 +34,7 @@ export default function VorschauPage() {
         <KnopfPrimaer href="/demo">Demo anfragen →</KnopfPrimaer>
       </SeitenHero>
       <section className="px-6 md:px-10 py-14 max-w-7xl mx-auto">
-        <MassenauszugAnsicht auszug={auszug} titel="Massenauszug Beispielhaus" />
+        <MassenauszugAnsicht auszug={auszug} titel="Massenauszug Beispielhaus" kontext={kontext} />
       </section>
       <SiteFooter />
     </main>

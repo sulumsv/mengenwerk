@@ -937,6 +937,7 @@ export default function ToolPage() {
             <MassenauszugAnsicht
               auszug={aktuellerAuszug}
               titel={ergebnis.analyse.dateiname.replace(/\.[^.]+$/, "")}
+              kontext={ergebnis.analyse.kontext}
               onRaumAendern={raumAendern}
             />
 

@@ -5,7 +5,7 @@ import { mitKostenschaetzung, sortiereGeschosse } from "@/lib/ableitung";
 import { ladeEinheitspreise } from "@/lib/einheitspreise-speicher";
 import { PreisErfassung } from "./PreisErfassung";
 import { PREISKATALOG, type Einheitspreise, EIGENE_PREISE_PFLICHT } from "@/lib/preise";
-import type { Abschnitt, Konfidenz, Kostenschaetzung, Massenauszug, Position, Raum } from "@/lib/types";
+import type { Abschnitt, Konfidenz, Kostenschaetzung, Massenauszug, PlanKontext, Position, Raum } from "@/lib/types";
 
 const KONFIDENZ_TEXT: Record<Konfidenz, string> = {
   plan: "Aus Plan",
@@ -506,14 +506,14 @@ function AbschnittBlock({ abschnitt, mitPreisen }: { abschnitt: Abschnitt; mitPr
  * Lädt den Auszug als eigenständige HTML-Datei herunter. Sie trägt ihr
  * Stylesheet in sich, lässt sich also weiterreichen und ohne Netz öffnen.
  */
-function Download({ auszug, titel }: { auszug: Massenauszug; titel: string }) {
+function Download({ auszug, titel, kontext }: { auszug: Massenauszug; titel: string; kontext?: PlanKontext }) {
   const [laedt, setLaedt] = useState(false);
 
   async function herunterladen() {
     setLaedt(true);
     try {
       const { massenauszugAlsPdf } = await import("@/lib/export-pdf");
-      const blob = await massenauszugAlsPdf(auszug, titel, new Date());
+      const blob = await massenauszugAlsPdf(auszug, titel, new Date(), kontext);
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
@@ -543,10 +543,13 @@ function Download({ auszug, titel }: { auszug: Massenauszug; titel: string }) {
 export function MassenauszugAnsicht({
   auszug,
   titel = "Massenauszug",
+  kontext,
   onRaumAendern,
 }: {
   auszug: Massenauszug;
   titel?: string;
+  /** Für den PDF-Export: Projektbezeichnung, Legende, Nachweise und Bedingungen im Kopf. */
+  kontext?: PlanKontext;
   /** Wenn übergeben, werden Fläche und Umfang im Raumbuch durch Klick editierbar. */
   onRaumAendern?: (id: string, feld: "flaeche_m2" | "umfang_m", wert: number) => void;
 }) {
@@ -613,7 +616,7 @@ export function MassenauszugAnsicht({
         />
       )}
       {angezeigt.kosten && <KostenBlock kosten={angezeigt.kosten} mitRichtwerten={mitRichtwerten} />}
-      <Download auszug={angezeigt} titel={titel} />
+      <Download auszug={angezeigt} titel={kontext?.projekt.bezeichnung || titel} kontext={kontext} />
       <Kennzahlen positionen={angezeigt.kennzahlen} />
       <Legende />
       <Raumbuch raeume={angezeigt.raeume} onRaumAendern={onRaumAendern} />

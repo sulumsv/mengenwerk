@@ -5,6 +5,19 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 15:07 Uhr · PDF-Export: Projektkopf mit Logo, hervorgehobene Planangaben
+
+sulumsv · Commit `a9692ef`
+
+Der heruntergeladene Massenauszug trägt jetzt die Projektbezeichnung als
+Titel (statt des Dateinamens) und die erkannte Planart, das
+MengenWerk-Logo oben rechts im Kopf und als Logo mit Schriftzug in der
+Fußzeile jeder Seite. Direkt unter dem Kopf steht ein hervorgehobener
+Rahmen mit Planlegende, lichten Raumhöhen, Nachweisen und allgemeinen
+Bedingungen - auf einen Blick sichtbar statt nur in der Bildschirmansicht.
+Lokal gegen die Beispielauswertung erzeugt und als gerastertes PNG
+visuell geprüft.
+
 ### 2026-10-01 15:00 Uhr · Konto: Projektbezeichnung statt Dateiname, Plan-Ansicht als PDF, Projekte ordnen, eigener Lösch-Dialog
 
 sulumsv · Commit `8542094`

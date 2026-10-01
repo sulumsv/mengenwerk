@@ -5,6 +5,17 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 17:29 Uhr · Seiten-Hero sitewide auf dunkles Navy/Safran umgestellt
+
+sulumsv · Commit `7a5f3aa`
+
+SeitenHero (Über uns, Preise, Kontakt, Beispielauswertung, Demo, Konto-
+Unterseiten, Impressum, Datenschutz) nutzt jetzt denselben dunklen
+Navy-Hintergrund mit Safran-Akzent wie die neue Startseite, statt des
+vorigen hellen Grautons - konsistentes Erscheinungsbild über die ganze
+Seite statt nur auf "/". KnopfPrimaer entsprechend auf Safran-Füllung
+umgestellt, da er nur noch auf diesen dunklen Heros vorkommt.
+
 ### 2026-10-01 16:51 Uhr · Startseite: Produktgalerie mit echten Screenshots in Laptop- und Handy-Rahmen
 
 sulumsv · Commit `74a8db2`

@@ -69,13 +69,16 @@ export function SeitenHero({
   children?: React.ReactNode;
 }) {
   return (
-    <section className="border-b border-[#eef0f3] bg-[#f8f9fb]">
+    <section className="scan-buehne overflow-hidden text-white">
       <Container className="py-16 md:py-20">
-        <Eyebrow>{eyebrow}</Eyebrow>
-        <h1 className="max-w-3xl text-[clamp(2rem,4.5vw,3rem)] font-semibold leading-[1.1] tracking-tight text-[#111827]">
+        <p className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-sm font-medium text-white/90 ring-1 ring-white/15">
+          <span className="h-1.5 w-1.5 rounded-full bg-[#f2b233]" />
+          {eyebrow}
+        </p>
+        <h1 className="max-w-3xl text-[clamp(2rem,4.5vw,3rem)] font-semibold leading-[1.1] tracking-tight text-white">
           {titel}
         </h1>
-        {text && <p className="mt-5 max-w-2xl text-[17px] leading-relaxed text-[#5b6472]">{text}</p>}
+        {text && <p className="mt-5 max-w-2xl text-[17px] leading-relaxed text-white/70">{text}</p>}
         {children && <div className="mt-8 flex flex-wrap gap-3">{children}</div>}
       </Container>
     </section>
@@ -109,7 +112,7 @@ export function KnopfPrimaer({ href, children }: { href: string; children: React
   return (
     <Link
       href={href}
-      className="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-[#1f2a44] px-5 text-[15px] font-semibold text-white transition hover:bg-[#2c3a5c]"
+      className="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-[#f2b233] px-5 text-[15px] font-semibold text-[#1f2a44] transition hover:brightness-105"
     >
       {children}
     </Link>

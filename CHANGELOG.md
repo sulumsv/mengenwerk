@@ -5,6 +5,15 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 08:14 Uhr · Einheitspreise-Seite zeigt in jedem Feld den gerechneten Preis
+
+Claude · Commit `6e2c887`
+
+- Die Preisfelder waren leer, obwohl mit den Richtwerten gerechnet wird; jetzt steht in jedem Feld der Preis, der tatsächlich in die Kostenschätzung eingeht
+- Unter jedem Feld steht, ob es der Richtwert oder ein eigener Preis ist, eigene Preise sind gelb hervorgehoben
+- Ein geleertes Feld springt beim Tippen nicht mehr auf den Richtwert zurück, erst beim Verlassen
+- Spalte heißt jetzt „Gerechneter Preis“, Seitentext und Hinweiskasten beschreiben die recherchierten Richtwerte
+
 ### 2026-10-01 00:24 Uhr · Geschätzte Richtwerte durch recherchierte österreichische Preise ersetzt
 
 Claude · Commit `dc0fbb9`

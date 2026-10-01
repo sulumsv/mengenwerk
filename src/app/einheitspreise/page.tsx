@@ -72,8 +72,12 @@ export default function EinheitspreisePage() {
 
   const anzahlEigene = useMemo(() => Object.keys(eigene).length, [eigene]);
 
+  /** Was gerade getippt wird, damit ein geleertes Feld nicht sofort auf den Richtwert zurückspringt. */
+  const [texte, setTexte] = useState<Record<string, string>>({});
+
   function setzePreis(schluessel: string, roh: string) {
     setMeldung(null);
+    setTexte((t) => ({ ...t, [schluessel]: roh }));
     setEigene((vorher) => {
       const naechste = { ...vorher };
       const wert = Number(roh.replace(",", "."));
@@ -108,7 +112,7 @@ export default function EinheitspreisePage() {
       <SeitenHero
         eyebrow="Kalkulationsgrundlage"
         titel="Einheitspreise"
-        text="Hinterlege hier die Preise deines Betriebs. Bei jeder Planauswertung wird daraus neben der Mengenermittlung automatisch eine Kostenschätzung gerechnet. Leere Felder verwenden den Richtwert."
+        text="Hinterlege hier die Preise deines Betriebs. Bei jeder Planauswertung wird daraus neben der Mengenermittlung automatisch eine Kostenschätzung gerechnet. Jede Position ist mit einem Richtwert aus österreichischen Marktpreisen vorbelegt. Überschreibe ihn mit deinem eigenen Preis und sichere."
       />
 
       <Suspense>
@@ -118,10 +122,11 @@ export default function EinheitspreisePage() {
       <section className="px-6 md:px-10 pt-10 pb-8 max-w-5xl mx-auto">
         <div className="rounded-2xl border-2 border-alert bg-surface-2 overflow-hidden">
           <p className="bg-alert text-alert-fg text-[11px] font-semibold uppercase tracking-[0.14em] px-5 py-2.5 font-semibold">
-            Die Richtwerte sind keine Marktpreise
+            Die Richtwerte sind keine Kalkulation
           </p>
           <p className="px-5 py-4 text-sm text-fg-muted">
-            Sie sind Platzhalter, damit die Schätzung ab dem ersten Plan etwas liefert. Jede Position im Massenauszug
+            Sie sind die Mitte der Preisspannen österreichischer Kostenportale, Endkundenpreise inklusive Montage.
+            Die Spanne steht bei der Position. Für ein Angebot gehören die eigenen Preise hinein. Jede Position im Massenauszug
             weist aus, ob ihr Betrag auf einem eigenen Preis oder auf einem Richtwert beruht. Die Gesamtsumme
             nennt den Anteil, der noch auf fremden Zahlen steht.
           </p>
@@ -172,7 +177,7 @@ export default function EinheitspreisePage() {
                         <th className="px-4 py-3 font-medium">LG</th>
                         <th className="px-4 py-3 font-medium">Position</th>
                         <th className="px-4 py-3 font-medium text-right">Richtwert</th>
-                        <th className="px-4 py-3 font-medium text-right">Eigener Preis</th>
+                        <th className="px-4 py-3 font-medium text-right">Gerechneter Preis</th>
                         <th className="px-4 py-3 font-medium">Je</th>
                       </tr>
                     </thead>
@@ -193,12 +198,24 @@ export default function EinheitspreisePage() {
                               inputMode="decimal"
                               min={0}
                               step="0.01"
-                              placeholder="-"
-                              value={eigene[p.schluessel] ?? ""}
+                              value={texte[p.schluessel] ?? String(eigene[p.schluessel] ?? p.richtwert)}
+                              onBlur={() =>
+                                setTexte((t) => {
+                                  const { [p.schluessel]: _, ...rest } = t;
+                                  return rest;
+                                })
+                              }
                               onChange={(e) => setzePreis(p.schluessel, e.target.value)}
-                              aria-label={`Eigener Preis für ${p.bezeichnung} in Euro je ${EINHEIT_TEXT[p.einheit]}`}
-                              className="w-28 rounded-xl border border-line bg-surface px-3 py-1.5 text-right font-mono font-num text-sm focus:border-line-strong outline-none"
+                              aria-label={`Preis für ${p.bezeichnung} in Euro je ${EINHEIT_TEXT[p.einheit]}`}
+                              className={`w-28 rounded-xl border px-3 py-1.5 text-right font-mono font-num text-sm focus:border-line-strong outline-none ${
+                                eigene[p.schluessel] === undefined
+                                  ? "border-line bg-surface text-fg-muted"
+                                  : "border-highlight bg-highlight/10 text-fg font-semibold"
+                              }`}
                             />
+                            <span className="block mt-1 text-[10px] uppercase tracking-[0.12em] text-fg-muted">
+                              {eigene[p.schluessel] === undefined ? "Richtwert" : "Eigener Preis"}
+                            </span>
                           </td>
                           <td className="px-4 py-2.5 font-mono text-xs text-fg-muted">
                             EUR / {EINHEIT_TEXT[p.einheit]}

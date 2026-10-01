@@ -5,6 +5,12 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 09:10 Uhr · Korrekturfeld auffälliger gestalten: Rahmen, Icon und Korrekturen als Chips statt Textliste
+
+sulumsv · Commit `1a67abf`
+
+Das Feld, zu dem die neue Hinweiskarte oben verlinkt, war selbst nur eine kleine graue Überschrift. Jetzt dicker Akzentrahmen, Stift-Icon, größere Überschrift; aktive Korrekturen stehen als Chips mit eigenem Entfernen-Knopf statt als stille Textzeile mit Unterstrich-Link.
+
 ### 2026-10-01 09:02 Uhr · Einheitspreise und Korrekturen stehen nach der Auswertung im Mittelpunkt
 
 Claude · Commit `fbc4551`

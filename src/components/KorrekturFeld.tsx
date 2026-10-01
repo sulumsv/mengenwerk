@@ -88,12 +88,15 @@ export function KorrekturFeld({
   const liste = eintraege(korrekturen);
 
   return (
-    <section className="rounded-2xl border border-line bg-surface-2 overflow-hidden">
-      <div className="px-5 py-4 border-b border-line flex items-baseline justify-between gap-4 flex-wrap">
-        <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted">Korrektur an die Mengenermittlung</p>
-        <p className="text-xs text-fg-muted">
-          Wirkt überall, wo der Wert verwendet wird: Putz, Maler, Fliesen, Estrich, Beton …
-        </p>
+    <section className="rounded-2xl border-2 border-accent bg-accent/5 overflow-hidden">
+      <div className="px-5 py-4 border-b border-accent/30 flex items-center gap-4 flex-wrap">
+        <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-accent text-accent-fg font-bold">✎</span>
+        <div className="flex-1 min-w-0">
+          <p className="font-display font-semibold text-lg leading-tight">Korrektur an die Mengenermittlung</p>
+          <p className="text-sm text-fg-muted">
+            Wirkt überall, wo der Wert verwendet wird: Putz, Maler, Fliesen, Estrich, Beton …
+          </p>
+        </div>
       </div>
 
       <div className="p-5 flex flex-col gap-3">
@@ -122,18 +125,24 @@ export function KorrekturFeld({
         </div>
 
         {liste.length > 0 && (
-          <div className="mt-2 border-t border-line pt-3">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted mb-2">Aktive Korrekturen</p>
-            <ul className="flex flex-col gap-1.5">
+          <div className="mt-2 border-t border-accent/30 pt-3">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted mb-2">
+              {liste.length} aktive {liste.length === 1 ? "Korrektur" : "Korrekturen"}
+            </p>
+            <ul className="flex flex-wrap gap-2">
               {liste.map((e) => (
-                <li key={e.text} className="flex items-center justify-between gap-4 text-sm">
+                <li
+                  key={e.text}
+                  className="flex items-center gap-2 rounded-full border border-accent bg-surface pl-3 pr-1.5 py-1.5 text-sm"
+                >
                   <span>{e.text}</span>
                   <button
                     type="button"
                     onClick={() => onAendern(e.entferne(korrekturen))}
-                    className="font-mono text-xs text-fg-muted hover:text-fg underline"
+                    aria-label={`Korrektur entfernen: ${e.text}`}
+                    className="flex h-5 w-5 items-center justify-center rounded-full text-fg-muted hover:bg-alert/10 hover:text-alert"
                   >
-                    entfernen
+                    ✕
                   </button>
                 </li>
               ))}

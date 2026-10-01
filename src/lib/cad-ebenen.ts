@@ -23,6 +23,13 @@ export const BAUTEIL_TITEL: Record<Bauteilart, string> = {
 
 /** Ebenennamen → Bauteil. Reihenfolge zählt: die erste passende Regel gilt. */
 export const EBENEN_REGELN: { muster: RegExp; art: Bauteilart | null }[] = [
+  // Vor der allgemeinen ELR-Ausschlussregel: "132 Wand ELR" ist eine echte,
+  // tragende Innenwandebene, keine Elektro-Leerrohr-Ebene. Nur Ebenen,
+  // in denen "ELR" ohne vorangehendes "Wand" steht, sollen ausgeschlossen bleiben.
+  { muster: /wand.*elr|elr.*wand/i, art: "innenwand" },
+  // Liftschacht-Wände stehen oft auf einer eigenen Aufzugsebene statt auf
+  // einer Wandebene. Sie sind tragende Schachtwände, zählen wie Innenwände.
+  { muster: /aufzug|lift(en)?schacht/i, art: "innenwand" },
   { muster: /unsichtbar|abgeh(ae|ä)ngt|daemm|dämm|elr|trockenbau|gk\b|leicht/i, art: null },
   { muster: /unterzug|tr(ae|ä)ger|\bUZ\b/i, art: "unterzug" },
   { muster: /st(ue|ü)tze/i, art: "stuetze" },

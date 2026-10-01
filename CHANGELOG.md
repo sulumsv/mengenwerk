@@ -5,6 +5,16 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 09:40 Uhr · CAD-Ebenen: Wand-ELR und Aufzugsschächte werden wieder als Innenwände erkannt
+
+sulumsv · Commit `4f274a5`
+
+Die ELR-Ausschlussregel traf fälschlich auch Ebenen wie "132 Wand ELR" (echte
+Wandebene, kein Elektro-Leerrohr). Aufzugsschächte hatten gar keine Regel und
+fielen komplett durch. Ändert bei Plänen, auf denen diese Ebenen als
+durchgehende Flächen gezeichnet sind, die erkannten Wandmengen; bei
+schraffiert gezeichneten Ebenen bleibt die Wirkung vorerst aus.
+
 ### 2026-10-01 09:10 Uhr · Korrekturfeld auffälliger gestalten: Rahmen, Icon und Korrekturen als Chips statt Textliste
 
 sulumsv · Commit `1a67abf`

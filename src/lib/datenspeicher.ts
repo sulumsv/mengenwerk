@@ -7,11 +7,24 @@ import { AwsClient } from "aws4fetch";
  * aus den Umgebungsvariablen.
  */
 
+/** Umgebungsvariablen werden oft mit Leerzeichen, Anführungszeichen oder als ganze Adresse eingefügt. */
+function sauber(wert: string | undefined): string | undefined {
+  const s = wert?.trim().replace(/^["']|["']$/g, "").trim();
+  return s ? s : undefined;
+}
+
 function konfiguration() {
-  const konto = process.env.R2_ACCOUNT_ID;
-  const schluessel = process.env.R2_ACCESS_KEY_ID;
-  const geheim = process.env.R2_SECRET_ACCESS_KEY;
-  const bucket = process.env.R2_BUCKET;
+  let konto = sauber(process.env.R2_ACCOUNT_ID);
+  const schluessel = sauber(process.env.R2_ACCESS_KEY_ID);
+  const geheim = sauber(process.env.R2_SECRET_ACCESS_KEY);
+  let bucket = sauber(process.env.R2_BUCKET);
+  // Ganze Adresse statt ID eingefügt: https://<id>.r2.cloudflarestorage.com/<bucket>
+  const adresse = konto?.match(/([0-9a-f]{32})(?:\.eu)?\.r2\.cloudflarestorage\.com(?:\/([^/?#]+))?/i);
+  if (adresse) {
+    konto = adresse[1];
+    bucket = bucket ?? adresse[2];
+  }
+  bucket = bucket?.replace(/^\/+|\/+$/g, "");
   if (!konto || !schluessel || !geheim || !bucket) return null;
   return { konto, bucket, client: new AwsClient({ accessKeyId: schluessel, secretAccessKey: geheim, service: "s3", region: "auto" }) };
 }
@@ -85,11 +98,46 @@ export async function loesche(schluessel: string): Promise<boolean> {
   }
 }
 
-/** Prüft Zugang und Schreibrecht mit einer kleinen Testdatei. */
-export async function pruefeVerbindung(): Promise<{ eingerichtet: boolean; verbunden: boolean; adresse: string | null }> {
-  if (!istEingerichtet()) return { eingerichtet: false, verbunden: false, adresse: null };
-  const ok = await speichere("system/verbindungstest.json", JSON.stringify({ zeit: new Date().toISOString() }));
-  return { eingerichtet: true, verbunden: ok, adresse: gemerkteAdresse };
+/**
+ * Prüft Zugang und Schreibrecht mit einer kleinen Testdatei an beiden
+ * möglichen Adressen und meldet je Adresse, was R2 geantwortet hat. Die
+ * Schlüssel selbst tauchen nicht auf, nur ob sie gesetzt sind.
+ */
+export async function pruefeVerbindung() {
+  const k = konfiguration();
+  const gesetzt = {
+    R2_ACCOUNT_ID: Boolean(process.env.R2_ACCOUNT_ID),
+    R2_ACCESS_KEY_ID: Boolean(process.env.R2_ACCESS_KEY_ID),
+    R2_SECRET_ACCESS_KEY: Boolean(process.env.R2_SECRET_ACCESS_KEY),
+    R2_BUCKET: Boolean(process.env.R2_BUCKET),
+  };
+  if (!k) return { eingerichtet: false, verbunden: false, gesetzt, versuche: [] };
+
+  const versuche: { adresse: string; status: number | string; meldung: string }[] = [];
+  for (const adresse of [`https://${k.konto}.eu.r2.cloudflarestorage.com`, `https://${k.konto}.r2.cloudflarestorage.com`]) {
+    try {
+      const antwort = await k.client.fetch(`${adresse}/${k.bucket}/system/verbindungstest.json`, {
+        method: "PUT",
+        body: JSON.stringify({ zeit: new Date().toISOString() }),
+        headers: { "content-type": "application/json" },
+      });
+      const text = antwort.ok ? "" : await antwort.text();
+      const code = text.match(/<Code>([^<]+)<\/Code>/)?.[1] ?? "";
+      const nachricht = text.match(/<Message>([^<]+)<\/Message>/)?.[1] ?? "";
+      versuche.push({ adresse, status: antwort.status, meldung: antwort.ok ? "OK" : `${code} ${nachricht}`.trim() });
+      if (antwort.ok) gemerkteAdresse = adresse;
+    } catch (fehler) {
+      versuche.push({ adresse, status: "Netzwerkfehler", meldung: String(fehler).slice(0, 200) });
+    }
+  }
+  return {
+    eingerichtet: true,
+    verbunden: versuche.some((v) => v.status === 200),
+    gesetzt,
+    kontoIdLaenge: k.konto.length,
+    bucket: k.bucket,
+    versuche,
+  };
 }
 
 /** Tagesordner, damit sich die Daten später zeitlich auswerten lassen. */

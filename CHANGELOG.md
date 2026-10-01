@@ -5,6 +5,15 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 08:50 Uhr · Speichern im Konto wird sichtbar bestätigt, Speicherprüfung nennt den genauen Grund
+
+Claude · Commit `377f08f`
+
+- Nach jeder Auswertung steht unter dem Ergebnis, ob der Plan im Konto gespeichert wurde, mit Link zu „Meine Pläne“
+- Scheitert das Speichern, erscheint ein deutlicher Hinweis statt eines stillen Fehlers, mit Link zur Speicherprüfung
+- /api/daten zeigt jetzt, welche R2-Variablen gesetzt sind, und die Antwort von R2 an beiden Adressen (EU und Standard) mit Fehlercode
+- Umgebungsvariablen werden bereinigt: Leerzeichen und Anführungszeichen entfernt, eine ganze R2-Adresse statt der Konto-ID wird erkannt
+
 ### 2026-10-01 08:38 Uhr · Bekannte Dokumente werden schon beim Auswählen erkannt und laden sofort
 
 Claude · Commit `45a31f1`

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Logo } from "./Logo";
 
 const LINKS = [
@@ -16,6 +16,17 @@ const LINKS = [
 export function Navigation(_: { variante?: string }) {
   const pfad = usePathname();
   const [offen, setOffen] = useState(false);
+  const [angemeldet, setAngemeldet] = useState(false);
+
+  useEffect(() => {
+    fetch("/api/konto")
+      .then((r) => r.json())
+      .then((d: { angemeldet?: boolean }) => setAngemeldet(Boolean(d.angemeldet)))
+      .catch(() => {});
+  }, []);
+
+  const konto = angemeldet ? { href: "/konto", label: "Mein Konto" } : { href: "/login", label: "Anmelden" };
+  const haupt = angemeldet ? { href: "/app", label: "Plan analysieren" } : { href: "/demo", label: "Demo anfragen" };
 
   return (
     <header className="sticky top-0 z-40 border-b border-[#eef0f3] bg-white/95 backdrop-blur">
@@ -37,14 +48,14 @@ export function Navigation(_: { variante?: string }) {
         </nav>
 
         <div className="flex items-center gap-2">
-          <Link href="/login" className="hidden h-10 items-center px-3 text-[15px] font-medium text-[#111827] hover:text-[#1f2a44] sm:inline-flex">
-            Anmelden
+          <Link href={konto.href} className="hidden h-10 items-center px-3 text-[15px] font-medium text-[#111827] hover:text-[#1f2a44] sm:inline-flex">
+            {konto.label}
           </Link>
           <Link
-            href="/demo"
+            href={haupt.href}
             className="hidden h-10 items-center rounded-lg bg-[#1f2a44] px-4 text-[15px] font-semibold text-white transition hover:bg-[#2c3a5c] sm:inline-flex"
           >
-            Demo anfragen
+            {haupt.label}
           </Link>
           <button
             type="button"
@@ -76,18 +87,18 @@ export function Navigation(_: { variante?: string }) {
           </nav>
           <div className="mt-4 grid grid-cols-2 gap-2">
             <Link
-              href="/login"
+              href={konto.href}
               onClick={() => setOffen(false)}
               className="flex h-11 items-center justify-center rounded-lg border border-[#d4d8df] text-[15px] font-semibold text-[#111827]"
             >
-              Anmelden
+              {konto.label}
             </Link>
             <Link
-              href="/demo"
+              href={haupt.href}
               onClick={() => setOffen(false)}
               className="flex h-11 items-center justify-center rounded-lg bg-[#1f2a44] text-[15px] font-semibold text-white"
             >
-              Demo anfragen
+              {haupt.label}
             </Link>
           </div>
         </div>

@@ -15,5 +15,5 @@ export async function proxy(req: NextRequest) {
 export const config = {
   // Die Auswertungsroute fehlt hier bewusst: sie prüft selbst, damit ihr
   // Plan-Upload nicht durch den Puffer des Proxys muss.
-  matcher: ["/app", "/app/:path*", "/einheitspreise", "/einheitspreise/:path*"],
+  matcher: ["/app", "/app/:path*", "/einheitspreise", "/einheitspreise/:path*", "/konto", "/konto/:path*"],
 };

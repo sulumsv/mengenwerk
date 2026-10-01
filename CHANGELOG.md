@@ -5,6 +5,19 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 08:26 Uhr · Kundenkonto mit gespeicherten Plänen, bereits ausgewertete Pläne kosten nichts mehr
+
+Claude · Commit `a0476e7`
+
+- Jeder Plan bekommt beim Hochladen einen Fingerabdruck (SHA-256 des Dateiinhalts)
+- Das Ergebnis jeder Auswertung wird im Konto in Cloudflare R2 abgelegt (konto/plaene/<Fingerabdruck>.json und ein Verzeichnis)
+- Wird derselbe Plan erneut hochgeladen, kommt das gespeicherte Ergebnis sofort, ohne KI und ohne Kosten, mit Hinweis auf das Datum der ersten Auswertung
+- „Trotzdem neu auswerten“ erzwingt eine neue Auswertung
+- Neue Seite /konto „Meine Pläne“: Liste mit Name, Datum, Blattzahl und KI-Kosten, Öffnen, Löschen, Abmelden und Gesamtkosten
+- Ein gespeicherter Plan lässt sich über /app?plan=<Fingerabdruck> wieder öffnen
+- Kopfzeile zeigt angemeldet „Mein Konto“ und „Plan analysieren“, sonst „Anmelden“ und „Demo anfragen“
+- /konto ist nur nach Anmeldung erreichbar, neues Abmelden über /api/konto
+
 ### 2026-10-01 08:14 Uhr · Einheitspreise-Seite zeigt in jedem Feld den gerechneten Preis
 
 Claude · Commit `6e2c887`

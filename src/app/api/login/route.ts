@@ -7,10 +7,13 @@ async function hash(value: string): Promise<string> {
 }
 
 export async function POST(req: NextRequest) {
-  const { passwort, next } = await req.json();
+  const { benutzer, passwort, next } = await req.json();
   const richtig = process.env.MENGENWERK_PASSWORD;
+  // Benutzername ohne eigene Umgebungsvariable: "mengenwerk". Groß- und Kleinschreibung egal.
+  const richtigerBenutzer = (process.env.MENGENWERK_USER ?? "mengenwerk").trim().toLowerCase();
+  const benutzerOk = typeof benutzer === "string" && benutzer.trim().toLowerCase() === richtigerBenutzer;
 
-  if (!richtig || passwort !== richtig) {
+  if (!richtig || !benutzerOk || passwort !== richtig) {
     return NextResponse.json({ ok: false }, { status: 401 });
   }
 

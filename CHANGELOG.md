@@ -5,6 +5,15 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 08:50 Uhr · Anmeldung mit Benutzername und Passwort
+
+Claude · Commit `09b4576`
+
+- Die Anmeldeseite fragt jetzt Benutzername und Passwort ab
+- Benutzername ist „mengenwerk“ (Groß- und Kleinschreibung egal), änderbar über die Umgebungsvariable MENGENWERK_USER
+- Passwort bleibt MENGENWERK_PASSWORD
+- Browser können Benutzername und Passwort jetzt als Zugang speichern
+
 ### 2026-10-01 08:50 Uhr · Speichern im Konto wird sichtbar bestätigt, Speicherprüfung nennt den genauen Grund
 
 Claude · Commit `377f08f`

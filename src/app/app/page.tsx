@@ -18,6 +18,7 @@ import { katalogInfo } from "@/lib/lbhb";
 import { KEINE_KORREKTUREN, istLeer, type Korrekturen } from "@/lib/korrekturen";
 import { KorrekturFeld } from "@/components/KorrekturFeld";
 import { sendeDaten } from "@/lib/daten-senden";
+import { KI_KOSTEN_ANZEIGEN } from "@/lib/einstellungen";
 import { START_MODELL, type DauerModell } from "@/lib/dauer-modell";
 
 type KatalogInfo = { katalog: string; version: string; vollstaendig: boolean };
@@ -106,6 +107,8 @@ function PlanKontextBlock({ kontext }: { kontext: AnalysisResult["kontext"] }) {
  */
 function HerkunftBlock({ verbrauch, textGrund }: { verbrauch?: VerbrauchsBericht; textGrund?: string | null }) {
   const zahl = (n: number) => n.toLocaleString("de-AT");
+  // In der Testphase sichtbar, vor dem Livegang ausblenden (LIVE-CHECKLISTE.md).
+  if (verbrauch && !KI_KOSTEN_ANZEIGEN) return null;
 
   if (!verbrauch) {
     return (

@@ -15,6 +15,31 @@ export interface ArchivEintrag {
   seiten: number;
   kostenUsd: number | null;
   quelle: string;
+  /** Summe der erkannten Raumflächen, für die Kontoübersicht. */
+  flaeche_m2?: number;
+  positionen?: number;
+}
+
+export interface Profil {
+  firma: string;
+  name: string;
+  email: string;
+  telefon: string;
+  gewerk: string;
+}
+
+export async function ladeProfil(): Promise<Profil | null> {
+  const roh = await lese("konto/profil.json");
+  if (!roh) return null;
+  try {
+    return JSON.parse(roh) as Profil;
+  } catch {
+    return null;
+  }
+}
+
+export async function speichereProfil(profil: Profil): Promise<boolean> {
+  return speichere("konto/profil.json", JSON.stringify(profil));
 }
 
 export function istHash(wert: string): boolean {

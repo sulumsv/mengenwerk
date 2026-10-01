@@ -19,7 +19,15 @@ export async function POST(req: NextRequest) {
   }
   const roh = await req.text();
   if (roh.length > MAX_BYTE) return NextResponse.json({ fehler: "Zu groß." }, { status: 413 });
-  let body: { hash?: string; name?: string; ergebnis?: { analyse?: { seiten?: number; verbrauch?: { kostenUsd?: number | null } }; quelle?: string } };
+  let body: {
+    hash?: string;
+    name?: string;
+    ergebnis?: {
+      analyse?: { seiten?: number; verbrauch?: { kostenUsd?: number | null }; raeume?: { flaeche_m2?: number }[] };
+      massenauszug?: { abschnitte?: { positionen?: unknown[] }[] };
+      quelle?: string;
+    };
+  };
   try {
     body = JSON.parse(roh);
   } catch {
@@ -36,6 +44,8 @@ export async function POST(req: NextRequest) {
       seiten: Number(body.ergebnis.analyse.seiten ?? 1),
       kostenUsd: body.ergebnis.analyse.verbrauch?.kostenUsd ?? null,
       quelle: body.ergebnis.quelle ?? "ki",
+      flaeche_m2: (body.ergebnis.analyse.raeume ?? []).reduce((s, r) => s + (Number(r.flaeche_m2) || 0), 0),
+      positionen: (body.ergebnis.massenauszug?.abschnitte ?? []).reduce((s, a) => s + (a.positionen?.length ?? 0), 0),
     },
     body.ergebnis,
   );

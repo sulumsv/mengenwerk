@@ -5,6 +5,20 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 08:34 Uhr · Kundenkonto als Übersicht mit Profil, Kennzahlen, Plänen und Einheitspreisen
+
+Claude · Commit `7663ff5`
+
+- Neuer Kopf auf nachtblauem Grund mit Firmenzeichen, Firmenname, Begrüßung und Gewerk
+- Profil bearbeitbar: Firma, Ansprechperson, Gewerk, E-Mail, Telefon, gespeichert im Konto in R2 (konto/profil.json, /api/profil)
+- Kennzahlen auf einen Blick: ausgewertete Pläne, gelesene Blätter, erfasste Fläche, ermittelte Positionen
+- Pläne als Liste mit Suche, Datum, Blattzahl, Fläche und Positionen, Öffnen und Löschen
+- Einheitspreise-Karte mit Fortschrittsring (Anteil eigener Preise) und aufklappbarer Übersicht nach Gewerk
+- Kontaktdaten und Abmelden in eigener Karte
+- Im Konto-Verzeichnis werden jetzt auch Fläche und Positionen je Plan abgelegt
+- KI-Kosten nur in der Testphase sichtbar, abschaltbar über KI_KOSTEN_ANZEIGEN in src/lib/einstellungen.ts (gilt für Konto und Auswertung)
+- Neue LIVE-CHECKLISTE.md mit allem, was vor dem Livegang umzustellen ist, darunter das Ausblenden der KI-Kosten
+
 ### 2026-10-01 08:29 Uhr · Auswertung startet erst nach Bestätigung, Zustimmung zum Speichern als Schalter
 
 Claude · Commit `9fe3bbf`

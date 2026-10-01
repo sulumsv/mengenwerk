@@ -794,19 +794,44 @@ export default function ToolPage() {
               </div>
             )}
 
-            <MassenauszugAnsicht
-              auszug={aktuellerAuszug}
-              titel={ergebnis.analyse.dateiname.replace(/\.[^.]+$/, "")}
-              onRaumAendern={raumAendern}
-            />
+            {/* Nächste Schritte: korrigieren und bepreisen */}
+            <div className="mb-8 grid gap-4 md:grid-cols-2">
+              <a href="#korrekturen" className="group flex gap-4 rounded-2xl border border-line bg-surface-2 p-5 transition hover:border-accent">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-accent/10 text-accent font-bold">1</span>
+                <span>
+                  <span className="block font-semibold">Mengen prüfen und korrigieren</span>
+                  <span className="mt-1 block text-sm text-fg-muted">
+                    Fläche oder Umfang im Raumbuch anklicken oder Korrekturen in einem Satz eingeben, etwa eine andere Raumhöhe.
+                    Alles rechnet sofort neu.
+                  </span>
+                  <span className="mt-2 block text-sm font-semibold text-accent group-hover:underline">Zur Korrektur ↓</span>
+                </span>
+              </a>
+              <a href="#kosten" className="group flex gap-4 rounded-2xl border-2 border-highlight bg-highlight/5 p-5 transition hover:bg-highlight/10">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-highlight text-highlight-fg font-bold">2</span>
+                <span>
+                  <span className="block font-semibold">Kostenschätzung mit Ihren Einheitspreisen</span>
+                  <span className="mt-1 block text-sm text-fg-muted">
+                    Tragen Sie Ihre Preise ein, damit aus den Mengen eine Kostenschätzung für Ihr Angebot wird.
+                  </span>
+                  <span className="mt-2 block text-sm font-semibold text-highlight group-hover:underline">Einheitspreise eintragen ↓</span>
+                </span>
+              </a>
+            </div>
 
-            <div className="mt-10">
+            <div id="korrekturen" className="mb-10 scroll-mt-24">
               <KorrekturFeld
                 korrekturen={korrekturen}
                 geschosse={[...new Set(effektiveRaeume.map((r) => r.geschoss))]}
                 onAendern={setKorrekturen}
               />
             </div>
+
+            <MassenauszugAnsicht
+              auszug={aktuellerAuszug}
+              titel={ergebnis.analyse.dateiname.replace(/\.[^.]+$/, "")}
+              onRaumAendern={raumAendern}
+            />
 
             <h3 className="font-display font-semibold text-xl mt-12 mb-4 border-b-2 border-line-strong pb-2.5">
               Erkannte Bauteile

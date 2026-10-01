@@ -25,7 +25,10 @@ export function PreisErfassung({
   onAbbrechen: () => void;
 }) {
   const positionen = schluessel.map(preispositionFuer).filter((p) => p !== undefined);
-  const [werte, setWerte] = useState<Record<string, string>>({});
+  const [werte, setWerte] = useState<Record<string, string>>(() => {
+    const vorhanden = ladeEinheitspreise();
+    return Object.fromEntries(schluessel.filter((k) => vorhanden[k] !== undefined).map((k) => [k, String(vorhanden[k])]));
+  });
 
   function richtwerteEintragen() {
     setWerte((vorher) => {
@@ -52,8 +55,8 @@ export function PreisErfassung({
       <div className="px-5 py-4 border-b border-line">
         <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-highlight">Einheitspreise festlegen</p>
         <p className="mt-1 text-sm text-fg-muted">
-          Für diesen Plan fehlen {positionen.length} Preise deines Betriebs. Sie werden gespeichert und gelten für alle
-          weiteren Pläne. Leere Felder bleiben ohne Preis, außer du übernimmst die Richtwerte.
+          Dieser Plan braucht {positionen.length} Einheitspreise. Trag deine eigenen Preise ein, sie werden gespeichert und
+          gelten für alle weiteren Pläne. Leere Felder rechnen mit dem Richtwert daneben.
         </p>
       </div>
       <div className="overflow-x-auto">

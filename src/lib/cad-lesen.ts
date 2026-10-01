@@ -1,6 +1,6 @@
 "use client";
 
-import { ladePdfjs } from "./plan-zu-bildern";
+import { ladePdfjs, PDFJS_DOKUMENT_OPTIONEN } from "./plan-zu-bildern";
 import { massstabAusText, sammleFlaechen, werteAus, type CadAuswertung, type OpsTabelle } from "./cad-ebenen";
 
 /**
@@ -12,7 +12,11 @@ export async function leseCadEbenen(datei: File): Promise<CadAuswertung | null> 
   if (!(name.endsWith(".pdf") || datei.type === "application/pdf")) return null;
 
   const pdfjs = await ladePdfjs();
-  const dokument = await pdfjs.getDocument({ data: new Uint8Array(await datei.arrayBuffer()), isEvalSupported: false }).promise;
+  const dokument = await pdfjs.getDocument({
+    data: new Uint8Array(await datei.arrayBuffer()),
+    isEvalSupported: false,
+    ...PDFJS_DOKUMENT_OPTIONEN,
+  }).promise;
   try {
     const konfig = await dokument.getOptionalContentConfig();
     const ebenenNamen: Record<string, string> = {};

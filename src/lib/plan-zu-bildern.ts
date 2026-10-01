@@ -19,6 +19,24 @@
  */
 let pdfjsPromise: Promise<typeof import("pdfjs-dist")> | null = null;
 
+/**
+ * Ohne diese drei Pfade bleiben Pläne mit JPEG2000-Rasterbildern (häufig bei
+ * CAD-Exporten) oder bestimmten Schriften leer oder unvollständig: pdfjs lädt
+ * den OpenJPEG/JBIG2-Dekoder und die Standardschriften nur, wenn es weiß, wo
+ * sie liegen. Unversioniert über jsdelivr, an die installierte pdfjs-Version
+ * gebunden über den package.json-Eintrag.
+ */
+const PDFJS_VERSION = "5.4.624";
+const PDFJS_CDN = `https://cdn.jsdelivr.net/npm/pdfjs-dist@${PDFJS_VERSION}`;
+
+/** Gemeinsame Optionen für jeden getDocument()-Aufruf im Browser. */
+export const PDFJS_DOKUMENT_OPTIONEN = {
+  wasmUrl: `${PDFJS_CDN}/wasm/`,
+  cMapUrl: `${PDFJS_CDN}/cmaps/`,
+  cMapPacked: true,
+  standardFontDataUrl: `${PDFJS_CDN}/standard_fonts/`,
+};
+
 export function ladePdfjs(): Promise<typeof import("pdfjs-dist")> {
   pdfjsPromise ??= import("pdfjs-dist").then((pdfjs) => {
     pdfjs.GlobalWorkerOptions.workerSrc = new URL(
@@ -135,6 +153,7 @@ async function pdfZuBlaettern(
   const dokument = await pdfjs.getDocument({
     data: new Uint8Array(await datei.arrayBuffer()),
     isEvalSupported: false,
+    ...PDFJS_DOKUMENT_OPTIONEN,
   }).promise;
 
   try {
@@ -214,6 +233,7 @@ export async function vorschauBild(datei: File): Promise<string> {
   const dokument = await pdfjs.getDocument({
     data: new Uint8Array(await datei.arrayBuffer()),
     isEvalSupported: false,
+    ...PDFJS_DOKUMENT_OPTIONEN,
   }).promise;
   try {
     const seite = await dokument.getPage(1);

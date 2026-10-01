@@ -5,6 +5,19 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 13:02 Uhr · Fix: Pläne mit JPEG2000-Rasterbildern kamen als leere Seiten an
+
+sulumsv · Commit `2ec0483`
+
+Root Cause gefunden und isoliert nachgestellt (gleiche pdfjs-Version, echter
+Plan): ohne wasmUrl/cMapUrl/standardFontDataUrl kann pdf.js im Browser den
+OpenJPEG-Dekoder nicht laden. Bei Plänen, deren Grundrisse als JPEG2000
+eingebettet sind (z. B. dieser Polierplan-Export), blieb die Seite dadurch
+leer, ohne dass ein Fehler sichtbar wurde - die KI-Auswertung lief auf
+weißen Bildern und fand folgerichtig nichts. Betrifft alle vier
+getDocument()-Aufrufe im Browser (Planvorschau, Bildauswertung, Textweg,
+CAD-Ebenen).
+
 ### 2026-10-01 10:14 Uhr · Optionale Begleitunterlagen zum Einreichplan hochladbar
 
 sulumsv · Commit `9aa6e0f`

@@ -1,6 +1,7 @@
 "use client";
 
 import { NACHWEISE, normalisiereBegriff, suchbegriffe } from "./nachweise";
+import { PDFJS_DOKUMENT_OPTIONEN } from "./plan-zu-bildern";
 import type { Konfidenz, PlanKontext, Raum } from "./types";
 
 /**
@@ -678,6 +679,7 @@ export async function lesePlanAusText(
   const dokument = await pdfjs.getDocument({
     data: new Uint8Array(await datei.arrayBuffer()),
     isEvalSupported: false,
+    ...PDFJS_DOKUMENT_OPTIONEN,
   }).promise;
 
   try {

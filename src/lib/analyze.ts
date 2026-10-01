@@ -199,6 +199,11 @@ QUELLENHIERARCHIE in dieser Reihenfolge:
 2. Bemaßte Maßketten.
 3. Alles andere ist unsicher.
 
+DOKUMENTART beachten, falls oben angegeben:
+- Ist das Blatt erkennbar KEIN Grundriss (Deckblatt, Legendenblatt, Textseite einer Ausschreibung, reiner Lageplan ohne Raumstempel), versuche keine Räume oder Bauteile zu erzwingen. Melde unter hinweise, was auf dem Blatt steht und dass daraus keine Mengen ableitbar sind.
+- Steht die Dokumentart für einen noch nicht fixierten Stand (Vorabzug, Entwurf, Ausschreibungsgrundlage, Status offen), bleiben die KONFIDENZ-Regeln unverändert: ein bemaßter Wert zählt weiter als "plan". Vermerke aber einmal zentral unter hinweise, dass der gesamte Auszug auf einem vorläufigen Stand beruht und vor Ausführung gegen den endgültigen Einreich- oder Polierplan zu prüfen ist.
+- Bei einem Detailplan (Maßstab 1:5 bis 1:20, zeigt einen Ausschnitt wie Anschluss, Attika oder Fenstersturz statt eines ganzen Geschoßes): keine Räume erfassen, nur Bauteile, die dort eindeutig bemaßt sind.
+
 KONFIDENZ, jedes Element bekommt genau eine:
 - "plan": Der Wert steht beschriftet im Plan.
 - "berechnet": Aus bemaßten Planmaßen gerechnet, Rechenweg nachvollziehbar.
@@ -216,6 +221,12 @@ Schreibe alle Texte ohne Gedankenstriche (— oder –). Verwende stattdessen Pu
 
 function baueKontextText(kontext: PlanKontext): string {
   const zeilen: string[] = [];
+
+  if (kontext.projekt.bezeichnung) zeilen.push(`Projekt: ${kontext.projekt.bezeichnung}`);
+  if (kontext.projekt.planart) zeilen.push(`Dokumentart: ${kontext.projekt.planart}`);
+  if (kontext.projekt.allgemeineBedingungen.length > 0) {
+    zeilen.push(`Allgemeine Bedingungen: ${kontext.projekt.allgemeineBedingungen.join("; ")}`);
+  }
 
   const legende = Object.entries(kontext.legende);
   if (legende.length > 0) {

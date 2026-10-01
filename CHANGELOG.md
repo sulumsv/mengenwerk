@@ -5,6 +5,18 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 14:55 Uhr · Dokumentart fließt jetzt in die Mengenermittlung ein, nicht nur ins Ergebnis
+
+sulumsv · Commit `5c77d28`
+
+Planart, Projektbezeichnung und allgemeine Bedingungen wurden erkannt, aber
+nie an die einzelnen Blätter weitergegeben - jede Seite lief blind mit
+derselben Anweisung. Jetzt bekommt jedes Blatt die Dokumentart mit und
+reagiert entsprechend: Deckblätter und Textseiten ohne Grundriss erzwingen
+keine Räume mehr, Detailpläne liefern nur Bauteile statt Räume, ein
+vorläufiger Stand (Vorabzug, Entwurf) wird einmal zentral vermerkt statt
+stillschweigend wie ein fixer Plan behandelt.
+
 ### 2026-10-01 14:31 Uhr · Export-Mechanismus für Trainingsdaten
 
 sulumsv · Commit `f7cb13a`

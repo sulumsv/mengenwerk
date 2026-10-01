@@ -18,7 +18,7 @@ import { katalogInfo } from "@/lib/lbhb";
 import { KEINE_KORREKTUREN, istLeer, type Korrekturen } from "@/lib/korrekturen";
 import { KorrekturFeld } from "@/components/KorrekturFeld";
 import { sendeDaten } from "@/lib/daten-senden";
-import { KI_KOSTEN_ANZEIGEN } from "@/lib/einstellungen";
+import { KI_KOSTEN_ANZEIGEN, MAX_BLAETTER, MAX_DATEI_MB } from "@/lib/einstellungen";
 import { START_MODELL, type DauerModell } from "@/lib/dauer-modell";
 
 type KatalogInfo = { katalog: string; version: string; vollstaendig: boolean };
@@ -244,6 +244,15 @@ export default function ToolPage() {
 
   /** Beim Auswählen prüfen, ob das Konto die Datei schon kennt. */
   async function dateiGewaehlt(f: File) {
+    if (f.size > MAX_DATEI_MB * 1024 * 1024) {
+      setDatei(null);
+      setWartet(false);
+      setErgebnis({
+        fehler: `Die Datei ist ${(f.size / 1024 / 1024).toFixed(0)} MB groß. Erlaubt sind bis ${MAX_DATEI_MB} MB. Bitte den Plansatz aufteilen oder kleiner exportieren.`,
+      });
+      return;
+    }
+    setErgebnis(null);
     setDatei(f);
     setWartet(true);
     setBekannt(null);
@@ -436,6 +445,14 @@ export default function ToolPage() {
       const blaetter = await planZuBlaettern(f, (seite, von) =>
         setSchritt(`Blatt ${seite} von ${von} wird vorbereitet`),
       );
+      if (blaetter.length > MAX_BLAETTER) {
+        setErgebnis({
+          fehler: `Der Plansatz hat ${blaetter.length} Blätter. Je Auswertung sind höchstens ${MAX_BLAETTER} möglich, bitte in mehrere Dateien aufteilen.`,
+        });
+        setLaedt(false);
+        setSchritt(null);
+        return;
+      }
       setBlattzahl(Math.max(1, blaetter.length));
       kacheln = blaetter.reduce((s, b) => s + b.kacheln.length, 0);
       setKachelzahl(kacheln);
@@ -536,7 +553,7 @@ export default function ToolPage() {
         <div className="rounded-2xl border border-line bg-surface-2 overflow-hidden">
           <div className="border-b border-line px-6 py-4 flex items-center justify-between">
             <span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted">Planupload</span>
-            <span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted">PDF · PNG · JPG</span>
+            <span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted">PDF · PNG · JPG · bis {MAX_DATEI_MB} MB · bis {MAX_BLAETTER} Blätter</span>
           </div>
 
           {laedt ? (
@@ -571,7 +588,7 @@ export default function ToolPage() {
               {laedt ? (schritt ?? "Plan wird analysiert") : datei ? datei.name : "Plan hier ablegen oder klicken"}
             </p>
             <p className="mt-2 font-mono text-xs text-fg-muted">
-              {laedt ? "Vision Erkennung läuft, das kann bei mehrseitigen Plänen etwas dauern" : "Vektor PDF, Scan oder Bild werden automatisch unterschieden"}
+              {laedt ? "Vision Erkennung läuft, das kann bei mehrseitigen Plänen etwas dauern" : `PDF, Scan oder Foto, höchstens ${MAX_DATEI_MB} MB und ${MAX_BLAETTER} Blätter je Auswertung`}
             </p>
           </div>
           )}

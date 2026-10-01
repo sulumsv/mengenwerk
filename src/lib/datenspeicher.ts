@@ -65,10 +65,12 @@ export function istEingerichtet(): boolean {
 export async function speichere(schluessel: string, inhalt: string | Uint8Array, typ = "application/json"): Promise<boolean> {
   if (!istEingerichtet()) return false;
   try {
+    // R2 verlangt die Länge im Kopf; ohne sie überträgt fetch gestückelt und R2 lehnt mit 411 ab.
+    const bytes = typeof inhalt === "string" ? new TextEncoder().encode(inhalt) : inhalt;
     const antwort = await anfrage(`/${schluessel}`, {
       method: "PUT",
-      body: inhalt as BodyInit,
-      headers: { "content-type": typ },
+      body: bytes as BodyInit,
+      headers: { "content-type": typ, "content-length": String(bytes.byteLength) },
     });
     if (!antwort.ok) console.error("R2 Speichern fehlgeschlagen", antwort.status, await antwort.text());
     return antwort.ok;
@@ -116,10 +118,11 @@ export async function pruefeVerbindung() {
   const versuche: { adresse: string; status: number | string; meldung: string }[] = [];
   for (const adresse of [`https://${k.konto}.eu.r2.cloudflarestorage.com`, `https://${k.konto}.r2.cloudflarestorage.com`]) {
     try {
+      const bytes = new TextEncoder().encode(JSON.stringify({ zeit: new Date().toISOString() }));
       const antwort = await k.client.fetch(`${adresse}/${k.bucket}/system/verbindungstest.json`, {
         method: "PUT",
-        body: JSON.stringify({ zeit: new Date().toISOString() }),
-        headers: { "content-type": "application/json" },
+        body: bytes,
+        headers: { "content-type": "application/json", "content-length": String(bytes.byteLength) },
       });
       const text = antwort.ok ? "" : await antwort.text();
       const code = text.match(/<Code>([^<]+)<\/Code>/)?.[1] ?? "";

@@ -5,6 +5,17 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 08:55 Uhr · Speichern in R2 korrigiert, Upload-Grenzen werden angezeigt
+
+Claude · Commit `264df85`
+
+- Ursache für nicht gespeicherte Pläne: R2 lehnte jedes Schreiben mit 411 „MissingContentLength“ ab, weil die Daten ohne Längenangabe übertragen wurden
+- Daten gehen jetzt als Bytes mit ausdrücklicher Content-Length an R2, für Konto, Lerndaten, Laufzeiten und Planbilder
+- Die Speicherprüfung (/api/daten) sendet ebenso mit Längenangabe
+- Upload-Grenzen stehen sichtbar im Upload-Feld: PDF, PNG, JPG, bis 100 MB, bis 10 Blätter je Auswertung
+- Zu große Dateien werden gleich beim Auswählen abgelehnt, Plansätze mit mehr als 10 Blättern vor dem Hochladen, jeweils mit klarer Meldung
+- Grenzen zentral in src/lib/einstellungen.ts (MAX_DATEI_MB, MAX_BLAETTER), der Server prüft dieselbe Blattgrenze
+
 ### 2026-10-01 08:50 Uhr · Anmeldung mit Benutzername und Passwort
 
 Claude · Commit `09b4576`

@@ -2,7 +2,13 @@ import { NextRequest, NextResponse } from "next/server";
 import { AUTH_COOKIE, istAngemeldet } from "@/lib/auth";
 import { anonymisiere, pruefeVerbindung, speichere, tagesPfad } from "@/lib/datenspeicher";
 
-const ARTEN = new Set(["auswertung", "korrektur", "cad"]);
+/**
+ * "regel": destillierte Erkenntnisse aus echten Plänen, mit Begründung und
+ * Rechenweg, nicht nur Rohdaten. Grundlage für ein eigenes, feineres Modell,
+ * das Mengen auf Basis dieser gesammelten Regeln statt allein aus der
+ * Bildbeschreibung ableitet.
+ */
+const ARTEN = new Set(["auswertung", "korrektur", "cad", "regel"]);
 const MAX_BYTE = 512 * 1024;
 
 /** Zeigt, ob der Datenspeicher eingerichtet ist und Schreibzugriff hat. */

@@ -5,6 +5,15 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 09:40 Uhr · Datenspeicher: eigene Kategorie für Regeln und Rechenwege
+
+sulumsv · Commit `a4908f4`
+
+Neben Auswertungen, Korrekturen und CAD-Ebenen können jetzt auch
+destillierte Erkenntnisse (Regel, Begründung, Rechenweg) aus echten
+Plänen abgelegt werden. Grundlage für ein eigenes, feineres Modell,
+das aus den gesammelten Regeln statt nur aus Bildbeschreibung lernt.
+
 ### 2026-10-01 09:40 Uhr · CAD-Ebenen: Wand-ELR und Aufzugsschächte werden wieder als Innenwände erkannt
 
 sulumsv · Commit `4f274a5`

@@ -239,6 +239,8 @@ export default function ToolPage() {
   const [auswertungId, setAuswertungId] = useState("");
   /** Nur mit Zustimmung wird der Plan selbst gespeichert, sonst nur die ausgelesenen Zahlen. */
   const [planSpeichern, setPlanSpeichern] = useState(false);
+  /** Datei ist gewählt, die Auswertung startet erst nach Bestätigung. */
+  const [wartet, setWartet] = useState(false);
 
   useEffect(() => {
     if (!auswertungId || !ergebnis || "fehler" in ergebnis) return;
@@ -466,7 +468,7 @@ export default function ToolPage() {
     const f = e.dataTransfer.files?.[0];
     if (f) {
       setDatei(f);
-      analysieren(f);
+      setWartet(true);
     }
   }
 
@@ -513,7 +515,8 @@ export default function ToolPage() {
               onChange={(e) => {
                 const f = e.target.files?.[0] ?? null;
                 setDatei(f);
-                if (f) analysieren(f);
+                if (f) setWartet(true);
+                e.target.value = "";
               }}
             />
             <p className="font-semibold">
@@ -524,22 +527,66 @@ export default function ToolPage() {
             </p>
           </div>
           )}
-          {!laedt && (
-            <label className="flex items-start gap-2.5 border-t border-line px-6 py-4 text-sm text-fg-muted cursor-pointer select-none">
-              <input
-                type="checkbox"
-                checked={planSpeichern}
-                onChange={(e) => setPlanSpeichern(e.target.checked)}
-                className="mt-0.5 h-4 w-4 accent-[var(--accent)]"
-              />
-              <span>
-                Plan zur Verbesserung der Erkennung speichern. Ohne Häkchen werden nur die ausgelesenen Mengen und
-                Korrekturen ohne Adresse gespeichert.{" "}
-                <a href="/datenschutz" className="underline text-fg">
-                  Datenschutz
-                </a>
-              </span>
-            </label>
+          {!laedt && wartet && datei && (
+            <div className="border-t border-line px-6 py-6 flex flex-col gap-5">
+              <div className="flex flex-wrap items-center gap-3">
+                <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent/10 text-accent">
+                  <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.8">
+                    <path d="M7 3h7l5 5v13H7z" />
+                    <path d="M14 3v5h5" />
+                  </svg>
+                </span>
+                <div className="min-w-0">
+                  <p className="font-semibold truncate">{datei.name}</p>
+                  <p className="text-xs text-fg-muted">{(datei.size / 1024 / 1024).toFixed(1)} MB, bereit zur Auswertung</p>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                role="switch"
+                aria-checked={planSpeichern}
+                onClick={() => setPlanSpeichern(!planSpeichern)}
+                className={`flex items-start gap-4 rounded-xl border p-4 text-left transition ${
+                  planSpeichern ? "border-accent bg-accent/5" : "border-line bg-surface hover:border-line-strong"
+                }`}
+              >
+                <span className={`mt-0.5 flex h-6 w-11 shrink-0 items-center rounded-full p-0.5 transition ${planSpeichern ? "bg-accent" : "bg-line-strong"}`}>
+                  <span className={`h-5 w-5 rounded-full bg-white shadow transition ${planSpeichern ? "translate-x-5" : ""}`} />
+                </span>
+                <span className="text-sm">
+                  <span className="block font-semibold text-fg">Plan zur Verbesserung der Erkennung beitragen</span>
+                  <span className="block mt-1 text-fg-muted leading-relaxed">
+                    Freiwillig. Wir speichern dann die Planbilder, um MengenWerk zu verbessern. Sie werden nicht
+                    weitergegeben und auf Anfrage gelöscht. Ausgelesene Mengen und Korrekturen speichern wir immer,
+                    ohne Dateiname und ohne Adresse.{" "}
+                    <a href="/datenschutz" className="underline text-fg" onClick={(e) => e.stopPropagation()}>
+                      Datenschutz
+                    </a>
+                  </span>
+                </span>
+              </button>
+
+              <div className="flex flex-wrap items-center gap-3">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setWartet(false);
+                    analysieren(datei);
+                  }}
+                  className="font-semibold text-[15px] px-7 py-3 rounded-xl bg-accent text-accent-fg hover:brightness-110 transition"
+                >
+                  Auswertung starten
+                </button>
+                <button
+                  type="button"
+                  onClick={() => inputRef.current?.click()}
+                  className="text-sm text-fg-muted underline hover:text-fg"
+                >
+                  Andere Datei wählen
+                </button>
+              </div>
+            </div>
           )}
         </div>
 

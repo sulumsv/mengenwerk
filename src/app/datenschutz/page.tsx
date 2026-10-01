@@ -45,6 +45,15 @@ export default function DatenschutzPage() {
           </div>
 
           <div>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg mb-2">Mein Konto</p>
+            <p>
+              Damit ein Plan nicht zweimal ausgewertet werden muss, legen wir das Ergebnis jeder Auswertung mit
+              Dateiname und Datum im Konto ab. Erkannt wird ein Plan an einem Prüfwert seines Dateiinhalts, der Plan
+              selbst wird dafür nicht gespeichert. Einträge lassen sich unter „Mein Konto“ jederzeit löschen.
+            </p>
+          </div>
+
+          <div>
             <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg mb-2">Zugangsschutz</p>
             <p>
               Der Zugang zum Tool ist mit einem Passwort geschützt. Nach erfolgreicher Anmeldung wird ein

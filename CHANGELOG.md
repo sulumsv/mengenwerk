@@ -5,6 +5,16 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 08:29 Uhr · Auswertung startet erst nach Bestätigung, Zustimmung zum Speichern als Schalter
+
+Claude · Commit `9fe3bbf`
+
+- Nach dem Ablegen oder Auswählen eines Plans startet die Auswertung nicht mehr sofort
+- Es erscheint ein Bestätigungsschritt mit Dateiname, Größe, dem Knopf „Auswertung starten“ und „Andere Datei wählen“
+- Die Zustimmung zum Speichern der Planbilder ist ein deutlicher Schalter statt eines kleinen Häkchens, standardmäßig aus
+- Der Text erklärt klar: freiwillig, nicht weitergegeben, auf Anfrage gelöscht; Mengen und Korrekturen werden immer ohne Dateiname und Adresse gespeichert
+- Datenschutzerklärung um „Mein Konto“ ergänzt: Ergebnis mit Dateiname im eigenen Konto, Erkennung über einen Prüfwert, jederzeit löschbar
+
 ### 2026-10-01 08:28 Uhr · Startseite zeigt wieder die Scan-Animation und erklärt den Ablauf ausführlicher
 
 Claude · Commit `3e7e814`

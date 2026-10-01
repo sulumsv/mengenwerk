@@ -75,6 +75,16 @@ export async function lese(schluessel: string): Promise<string | null> {
   }
 }
 
+export async function loesche(schluessel: string): Promise<boolean> {
+  if (!istEingerichtet()) return false;
+  try {
+    const antwort = await anfrage(`/${schluessel}`, { method: "DELETE" });
+    return antwort.ok || antwort.status === 404;
+  } catch {
+    return false;
+  }
+}
+
 /** Prüft Zugang und Schreibrecht mit einer kleinen Testdatei. */
 export async function pruefeVerbindung(): Promise<{ eingerichtet: boolean; verbunden: boolean; adresse: string | null }> {
   if (!istEingerichtet()) return { eingerichtet: false, verbunden: false, adresse: null };

@@ -197,6 +197,44 @@ export default function ToolPage() {
   /** Korrekturen des Nutzers an Annahmen (Raumhöhe, Deckenunterkante, Stärken …). */
   const [korrekturen, setKorrekturen] = useState<Korrekturen>(KEINE_KORREKTUREN);
   const inputRef = useRef<HTMLInputElement>(null);
+  /** Fingerabdruck der Plandatei, unter dem das Ergebnis im Konto liegt. */
+  const [planHash, setPlanHash] = useState("");
+  const [planName, setPlanName] = useState("");
+  /** Gesetzt, wenn das Ergebnis aus dem Konto kommt: Datum der ersten Auswertung. */
+  const [ausArchiv, setAusArchiv] = useState<string | null>(null);
+
+  // Neue Ergebnisse im Konto ablegen, damit derselbe Plan nie zweimal bezahlt wird.
+  useEffect(() => {
+    if (!planHash || ausArchiv || !ergebnis || "fehler" in ergebnis) return;
+    void fetch("/api/plaene", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ hash: planHash, name: planName, ergebnis }),
+    }).catch(() => {});
+  }, [planHash, planName, ausArchiv, ergebnis]);
+
+  async function ausKontoLaden(hash: string): Promise<boolean> {
+    try {
+      const res = await fetch(`/api/plaene/${hash}`);
+      if (!res.ok) return false;
+      const gespeichert = (await res.json()) as { eintrag: { datum: string; name: string }; ergebnis: ApiResponse };
+      setPlanHash(hash);
+      setPlanName(gespeichert.eintrag.name);
+      setAusArchiv(gespeichert.eintrag.datum);
+      setErgebnis(gespeichert.ergebnis);
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
+  // Aus dem Konto geöffnet: /app?plan=<Fingerabdruck>
+  useEffect(() => {
+    const hash = new URLSearchParams(window.location.search).get("plan");
+    if (hash) void ausKontoLaden(hash);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   /** Kennung dieser Auswertung im Datenspeicher, verbindet Ergebnis und spätere Korrekturen. */
   const [auswertungId, setAuswertungId] = useState("");
   /** Nur mit Zustimmung wird der Plan selbst gespeichert, sonst nur die ausgelesenen Zahlen. */
@@ -282,8 +320,10 @@ export default function ToolPage() {
     return true;
   }
 
-  async function analysieren(f: File) {
+  async function analysieren(f: File, neuAuswerten = false) {
     setLaedt(true);
+    setAusArchiv(null);
+    setPlanName(f.name);
     const id = crypto.randomUUID();
     const start = Date.now();
     setAuswertungId(id);
@@ -303,6 +343,24 @@ export default function ToolPage() {
     setCad(null);
     setCadAus(new Set());
     leseCadEbenen(f).then(setCad).catch(() => {});
+
+    // Derselbe Plan war schon einmal da: Ergebnis aus dem Konto, keine neuen Kosten.
+    let hash = "";
+    try {
+      const puffer = await crypto.subtle.digest("SHA-256", await f.arrayBuffer());
+      hash = [...new Uint8Array(puffer)].map((b) => b.toString(16).padStart(2, "0")).join("");
+    } catch {
+      hash = "";
+    }
+    setPlanHash(hash);
+    if (hash && !neuAuswerten) {
+      setSchritt("Konto wird durchsucht");
+      if (await ausKontoLaden(hash)) {
+        setLaedt(false);
+        setSchritt(null);
+        return;
+      }
+    }
 
     try {
       if (await ausTextLesen(f)) {
@@ -505,6 +563,25 @@ export default function ToolPage() {
               }}
             />
           </>
+        )}
+
+        {ausArchiv && ergebnis && !("fehler" in ergebnis) && (
+          <div className="mt-6 rounded-xl border-2 border-highlight bg-highlight/10 p-5 text-sm flex flex-wrap items-center gap-4">
+            <p className="flex-1 min-w-[260px]">
+              <span className="font-semibold">Dieser Plan wurde bereits ausgewertet</span> am{" "}
+              {new Date(ausArchiv).toLocaleString("de-AT", { dateStyle: "medium", timeStyle: "short" })}. Das Ergebnis
+              kommt aus deinem Konto, es fallen keine neuen Kosten an.
+            </p>
+            {datei && (
+              <button
+                type="button"
+                onClick={() => analysieren(datei, true)}
+                className="font-semibold px-4 py-2 rounded-lg border border-line-strong bg-surface hover:bg-surface-2"
+              >
+                Trotzdem neu auswerten
+              </button>
+            )}
+          </div>
         )}
 
         {ergebnis && "fehler" in ergebnis && (

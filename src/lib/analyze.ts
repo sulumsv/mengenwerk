@@ -425,6 +425,7 @@ export async function analysiereBildseiten(
   dateityp: AnalysisResult["dateityp"],
   frist: number,
   kacheln: Buffer[][] = [],
+  gelernteRegeln: string[] = [],
 ): Promise<AnalysisResult> {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
@@ -441,7 +442,10 @@ export async function analysiereBildseiten(
   const verbrauch = new Verbrauch(MODELL);
 
   const kontext = await erhebeKontext(client, bilder, verbrauch);
-  const kontextText = baueKontextText(kontext);
+  let kontextText = baueKontextText(kontext);
+  if (gelernteRegeln.length > 0) {
+    kontextText += `\n\nAus früheren Auswertungen gelernte Regeln, auf diesen Plan anwenden wo zutreffend:\n${gelernteRegeln.map((r) => `- ${r}`).join("\n")}`;
+  }
 
   const uebersprungen: number[] = [];
   const ergebnisse = await parallelMitGrenze(bilder, MAX_PARALLEL, async (bild, i) => {

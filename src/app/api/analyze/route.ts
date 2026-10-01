@@ -5,7 +5,7 @@ import { gruppiereElemente } from "@/lib/group";
 import { baueMassenauszug } from "@/lib/ableitung";
 import { katalogInfo } from "@/lib/lbhb";
 import { AUTH_COOKIE, istAngemeldet } from "@/lib/auth";
-import { speichere } from "@/lib/datenspeicher";
+import { regelnLesen, speichere } from "@/lib/datenspeicher";
 import { MAX_BLAETTER } from "@/lib/einstellungen";
 
 export const runtime = "nodejs";
@@ -117,7 +117,10 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    const analyse = await analysiereBildseiten(bilder, dateiname, "bild", frist, kacheln);
+    // Bei jeder Auswertung das bisher Gelernte mitgeben, statt es nur
+    // abzulegen: so wird die Erkennung mit jedem gespeicherten Fund besser.
+    const regeln = (await regelnLesen()).flatMap((r) => r.regel);
+    const analyse = await analysiereBildseiten(bilder, dateiname, "bild", frist, kacheln, regeln);
     const gruppen = gruppiereElemente(analyse.elemente);
     const massenauszug = baueMassenauszug(analyse.raeume, analyse.elemente, analyse.kontext);
     return NextResponse.json({ analyse, gruppen, massenauszug, katalog: katalogInfo() });

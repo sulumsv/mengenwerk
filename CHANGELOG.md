@@ -5,6 +5,15 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 10:01 Uhr · Auswertung: gelernte Regeln aus dem Index fließen in jeden neuen Plan ein
+
+sulumsv · Commit `be5a9bc`
+
+Vor jeder Analyse liest die Route den Regel-Index und gibt ihn der KI als
+zusätzlichen Kontext mit. Damit wirkt jeder gespeicherte Fund (etwa eine
+korrigierte Ebenen-Zuordnung) auch auf künftige, andere Pläne, nicht nur
+als Archiv-Eintrag für ein späteres eigenes Modell.
+
 ### 2026-10-01 10:01 Uhr · Datenspeicher: gelernte Regeln in einem laufenden Index statt verteilter Einzeldateien
 
 sulumsv · Commit `5ae6bc5`

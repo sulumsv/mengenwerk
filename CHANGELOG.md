@@ -5,6 +5,17 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 09:02 Uhr · Einheitspreise und Korrekturen stehen nach der Auswertung im Mittelpunkt
+
+Claude · Commit `fbc4551`
+
+- Direkt unter dem Ergebnis zwei Karten für die nächsten Schritte: „Mengen prüfen und korrigieren“ und „Kostenschätzung mit Ihren Einheitspreisen“, jeweils mit Sprung zur Stelle
+- Das Korrekturfeld steht jetzt vor dem Massenauszug statt ganz unten
+- Neue, hervorgehobene Kostenkarte ganz oben im Massenauszug: wie viele Einheitspreise der Plan braucht, wie viele davon eigene sind, mit Fortschrittsbalken
+- Knopf „Einheitspreise eintragen“ öffnet die Preistabelle für genau diesen Plan, bereits hinterlegte eigene Preise sind vorbelegt
+- Hinweis, dass eingetragene Preise für jeden weiteren Plan gelten
+- PDF-Download, Kennzahlen und Legende folgen nach der Kostenschätzung
+
 ### 2026-10-01 09:00 Uhr · Profil wird in einem eigenen Fenster verwaltet, Kontoübersicht wirkt fertig
 
 Claude · Commit `791c28b`

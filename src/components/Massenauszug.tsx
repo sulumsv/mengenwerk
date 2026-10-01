@@ -106,69 +106,80 @@ function KostenBlock({ kosten, mitRichtwerten }: { kosten: Kostenschaetzung; mit
 }
 
 /**
- * Mengen zuerst, Preise auf Wunsch: die Schätzung entsteht erst auf Klick
- * und nur aus den Preisen des Betriebs, Richtwerte nur wenn angehakt.
+ * Die Kostenschätzung steht im Mittelpunkt: wie viele der Preise dieses Plans
+ * schon vom Betrieb stammen und wo man sie einträgt.
  */
-function KostenSteuerung({
+function PreisFokus({
   aktiv,
   mitRichtwerten,
+  benoetigt,
+  eigene,
   onRichtwerte,
+  onEintragen,
   onErstellen,
   onEntfernen,
 }: {
   aktiv: boolean;
   mitRichtwerten: boolean;
+  benoetigt: string[];
+  eigene: Einheitspreise;
   onRichtwerte: (v: boolean) => void;
+  onEintragen: () => void;
   onErstellen: () => void;
   onEntfernen: () => void;
 }) {
-  const [eigeneAnzahl, setEigeneAnzahl] = useState<number | null>(null);
-  useEffect(() => {
-    setEigeneAnzahl(Object.keys(ladeEinheitspreise()).length);
-  }, [aktiv]);
+  const eigen = benoetigt.filter((k) => eigene[k] !== undefined).length;
+  const anteil = benoetigt.length ? eigen / benoetigt.length : 0;
 
   return (
-    <section className="rounded-2xl border border-line bg-surface-2 p-5 flex flex-col gap-4">
-      <div className="flex flex-wrap items-center gap-4">
-        <button
-          type="button"
-          onClick={onErstellen}
-          className="font-semibold text-sm px-6 py-3 rounded-xl bg-highlight text-highlight-fg hover:brightness-110 transition"
-        >
-          {aktiv ? "Kostenschätzung aktualisieren" : "Kostenschätzung erstellen"}
-        </button>
-        {aktiv && (
+    <section id="kosten" className="scroll-mt-24 overflow-hidden rounded-2xl border-2 border-highlight bg-surface-2">
+      <div className="grid gap-6 p-6 md:grid-cols-[1fr_auto] md:items-center">
+        <div>
+          <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-highlight">Kostenschätzung</p>
+          <h3 className="mt-1 text-xl font-semibold">Mit Ihren Einheitspreisen wird daraus ein Angebot.</h3>
+          <p className="mt-2 text-sm text-fg-muted max-w-2xl">
+            Dieser Plan braucht {benoetigt.length} Einheitspreise. {eigen === 0
+              ? "Noch keiner davon ist Ihr eigener, gerechnet wird mit österreichischen Richtwerten."
+              : `${eigen} davon sind Ihre eigenen${eigen < benoetigt.length ? `, ${benoetigt.length - eigen} rechnen noch mit Richtwerten` : ""}.`}{" "}
+            Einmal eingetragen, gelten Ihre Preise für jeden weiteren Plan.
+          </p>
+          <div className="mt-4 flex items-center gap-3">
+            <div className="h-2 flex-1 max-w-sm overflow-hidden rounded-full bg-line">
+              <div className="h-full rounded-full bg-highlight transition-all" style={{ width: `${anteil * 100}%` }} />
+            </div>
+            <span className="text-xs font-num text-fg-muted">
+              {eigen} von {benoetigt.length} eigene Preise
+            </span>
+          </div>
+        </div>
+        <div className="flex flex-col gap-2 md:min-w-[260px]">
           <button
             type="button"
-            onClick={onEntfernen}
-            className="text-[11px] font-semibold uppercase tracking-[0.14em] text-fg-muted hover:text-fg underline"
+            onClick={onEintragen}
+            className="font-semibold text-sm px-6 py-3 rounded-xl bg-highlight text-highlight-fg hover:brightness-110 transition"
           >
-            Nur Mengen anzeigen
+            {eigen === 0 ? "Einheitspreise eintragen" : "Einheitspreise anpassen"}
           </button>
-        )}
-        <label className="flex items-center gap-2 text-sm text-fg-muted cursor-pointer select-none">
-          <input
-            type="checkbox"
-            checked={mitRichtwerten}
-            onChange={(e) => onRichtwerte(e.target.checked)}
-            className="accent-[var(--highlight)] w-4 h-4"
-          />
-          Fehlende Preise mit Richtwerten ergänzen
-        </label>
+          {!aktiv ? (
+            <button type="button" onClick={onErstellen} className="font-semibold text-sm px-6 py-2.5 rounded-xl border border-line-strong hover:bg-surface">
+              Kostenschätzung anzeigen
+            </button>
+          ) : (
+            <button type="button" onClick={onEntfernen} className="text-xs text-fg-muted underline hover:text-fg">
+              Nur Mengen anzeigen
+            </button>
+          )}
+        </div>
       </div>
-      <p className="text-sm text-fg-muted">
-        {aktiv
-          ? "Die Kostenschätzung verwendet deine Einheitspreise"
-          : "Die Mengen sind fertig ermittelt. Auf Wunsch wird daraus eine Kostenschätzung mit deinen Einheitspreisen"}
-        {eigeneAnzahl !== null && (
-          <>
-            , derzeit {eigeneAnzahl} von {PREISKATALOG.length} Positionen mit eigenem Preis hinterlegt.
-          </>
-        )}{" "}
-        <a href="/einheitspreise" className="underline text-fg">
-          Einheitspreise bearbeiten
-        </a>
-      </p>
+      <label className="flex items-center gap-2 border-t border-line px-6 py-3 text-sm text-fg-muted cursor-pointer select-none">
+        <input
+          type="checkbox"
+          checked={mitRichtwerten}
+          onChange={(e) => onRichtwerte(e.target.checked)}
+          className="accent-[var(--highlight)] w-4 h-4"
+        />
+        Fehlende eigene Preise mit Richtwerten ergänzen
+      </label>
     </section>
   );
 }
@@ -549,16 +560,20 @@ export function MassenauszugAnsicht({
   const [eigene, setEigene] = useState<Einheitspreise>({});
   const [fehlend, setFehlend] = useState<string[] | null>(null);
 
-  function erstellen() {
-    const preise = ladeEinheitspreise();
-    const benoetigt = [
+  const benoetigt = useMemo(
+    () => [
       ...new Set(
         auszug.abschnitte
           .flatMap((a) => a.positionen)
           .filter((p) => !p.zwischenwert && p.menge !== null && p.preisSchluessel)
           .map((p) => p.preisSchluessel!),
       ),
-    ];
+    ],
+    [auszug],
+  );
+
+  function erstellen() {
+    const preise = ladeEinheitspreise();
     const offen = benoetigt.filter((k) => preise[k] === undefined);
     // Ohne eigene Preise ergibt die Schätzung nichts. Erst fragen, dann rechnen.
     if (offen.length > 0 && !mitRichtwerten) {
@@ -576,13 +591,13 @@ export function MassenauszugAnsicht({
 
   return (
     <div className="flex flex-col gap-10">
-      <Download auszug={angezeigt} titel={titel} />
-      <Legende />
-      <Kennzahlen positionen={angezeigt.kennzahlen} />
-      <KostenSteuerung
+      <PreisFokus
         aktiv={kostenAktiv}
         mitRichtwerten={mitRichtwerten}
+        benoetigt={benoetigt}
+        eigene={eigene}
         onRichtwerte={setMitRichtwerten}
+        onEintragen={() => setFehlend(benoetigt)}
         onErstellen={erstellen}
         onEntfernen={() => setKostenAktiv(false)}
       />
@@ -598,6 +613,9 @@ export function MassenauszugAnsicht({
         />
       )}
       {angezeigt.kosten && <KostenBlock kosten={angezeigt.kosten} mitRichtwerten={mitRichtwerten} />}
+      <Download auszug={angezeigt} titel={titel} />
+      <Kennzahlen positionen={angezeigt.kennzahlen} />
+      <Legende />
       <Raumbuch raeume={angezeigt.raeume} onRaumAendern={onRaumAendern} />
       {angezeigt.abschnitte.map((a) => (
         <AbschnittBlock key={a.nummer} abschnitt={a} mitPreisen={kostenAktiv} />

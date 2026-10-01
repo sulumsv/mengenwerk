@@ -6,6 +6,7 @@ import { baueMassenauszug } from "@/lib/ableitung";
 import { katalogInfo } from "@/lib/lbhb";
 import { AUTH_COOKIE, istAngemeldet } from "@/lib/auth";
 import { speichere } from "@/lib/datenspeicher";
+import { MAX_BLAETTER } from "@/lib/einstellungen";
 
 export const runtime = "nodejs";
 export const maxDuration = 300;
@@ -18,7 +19,6 @@ export const maxDuration = 300;
 const MAX_ANFRAGE = 20 * 1024 * 1024;
 
 /** Mehr Blätter sind im Zeitrahmen nicht auswertbar. */
-const MAX_BLAETTER = 20;
 
 function fehler(nachricht: string, status: number) {
   return NextResponse.json({ fehler: nachricht }, { status });

@@ -5,6 +5,17 @@ Commit und den Einzelheiten aus der Commit-Message, neueste zuerst.
 Wird von `scripts/update-changelog.mjs` über den `post-commit`-Hook
 (`scripts/githooks/post-commit`) gepflegt, nicht händisch bearbeiten.
 
+### 2026-10-01 08:28 Uhr · Startseite zeigt wieder die Scan-Animation und erklärt den Ablauf ausführlicher
+
+Claude · Commit `3e7e814`
+
+- Neuer Abschnitt „So liest MengenWerk einen Plan“ direkt unter dem Einstieg, auf nachtblauem Grund
+- Animierter Grundriss: eine Scanlinie fährt über den Plan, Räume, Fenster und Maßketten leuchten nacheinander auf, Beschriftungen und das Mauerwerksergebnis erscheinen
+- Daneben die vier Erkennungsschritte: Raumstempel, Fenster und Türen, Wände und Maßketten, Folgemengen
+- Neuer Abschnitt „Vom Plan zum Angebot“ mit Massenauszug, Kostenschätzung und PDF-Export
+- Neuer Abschnitt „Für wen“ für Baumeister, Boden- und Fliesenleger, Maler und Verputzer, Planer und Bauträger
+- Die Animation ist reines CSS und steht bei reduzierter Bewegung still und vollständig da
+
 ### 2026-10-01 08:26 Uhr · Kundenkonto mit gespeicherten Plänen, bereits ausgewertete Pläne kosten nichts mehr
 
 Claude · Commit `a0476e7`

@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { AUTH_COOKIE, istAngemeldet } from "@/lib/auth";
 import { ladeProfil, speichereProfil, type Profil } from "@/lib/plan-archiv";
 
-const FELDER: (keyof Profil)[] = ["firma", "name", "email", "telefon", "gewerk"];
+const FELDER: (keyof Profil)[] = ["firma", "name", "email", "telefon", "gewerk", "rolle", "website", "uid", "farbe"];
 
 export async function GET(req: NextRequest) {
   if (!(await istAngemeldet(req.cookies.get(AUTH_COOKIE)?.value))) {
